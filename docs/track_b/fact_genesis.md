@@ -93,11 +93,15 @@ Build a formal universe with \((\mathcal R, \Omega, K)\). Measure record growth 
 
 **Status:** Partially implemented in MAM-0 and MAM-Q. Needs explicit fact-genesis instrumentation.
 
-### Test 2 — History Independence Challenge (Track A)
+### Test 2 — History Independence Challenge (Track A, 3 Levels)
 
-Compare two systems \(S_A(t)\) and \(S_B(t)\) with identical current state but different histories. If they evolve differently, history has physical status (\(\kappa \neq 0\)). If identically, history is merely descriptive.
+**Level 1 — Facts depend on history:** Two systems with identical current state but different histories. If they evolve differently, history has physical status (κ ≠ 0). Addressed by κ-Π clock anomaly (pre-registered).
 
-**Status:** Addressed by κ-Π clock anomaly proposal. Two clocks with identical σ, F, H, γ_v but different κ should tick at different rates.
+**Level 2 — Ω evolves with history:** The possibility space itself changes as κ accumulates. At κ=0: |Ω|=3 (all transfers allowed). At κ=1: |Ω|=1 (fully constrained). Same law map L, different possibility spaces — because R⁻ carries history.
+
+**Level 3 — Can L itself evolve?** DET's position: L is a fixed function. Laws are DISCOVERED, not created. But WHICH possibilities become actual depends on the history of the record. Mathematics and physics are the fixed structure of L; their effective application carries history.
+
+Implementation: `det8/models/history_independence.py`.
 
 ### Test 3 — Novel Structure Emergence (Track B)
 
