@@ -1,19 +1,39 @@
-# DET Continuum Limit — Formal Proof Roadmap
+# DET Continuum Limit — Formal Proof Roadmap (Revised)
 
-**Date:** August 10, 2026
-**Status:** L1 proven. L2-L3 numerical evidence. L4 sketch.
-**Target:** CT (Continuum Theorem) — manifoldlikeness + metric convergence + curvature convergence.
+**Date:** August 10, 2026 (revised per ontological reframing)
+**Status:** L1 proven. L2-L3 numerical evidence. L4 sketch. Ontological framing applied.
+**Target:** CT (Continuum Theorem) — prove the discrete event graph has a well-defined Lorentzian manifold approximation.
+
+**Ontological principle:** The event graph is fundamental; the manifold is emergent. Proof direction: discrete → continuum. Statistical (convergence in probability). Scheduler-independent (holds for the ensemble).
 
 ---
 
-## 1. What Must Be Proved
+## 1. What Must Be Proved (Ontologically Reframed)
 
-**Theorem (DET Continuum Limit):** Let (M, g) be a smooth (d+1)-dimensional Lorentzian manifold with bounded geometry. Let G_N be a DET event graph obtained by faithful sprinkling of N events into (M, g) with density ρ, where each event carries Π and κ values. Then as N → ∞, with probability approaching 1:
+**Theorem (DET Continuum Limit):** Let G_N be a DET event graph with N events, obtained by faithful sprinkling into a smooth (d+1)-dimensional Lorentzian manifold (M, g). Each event carries Π (participation aperture) and κ (structural history) values. Then as N → ∞, with probability approaching 1:
 
-1. The causal structure of G_N converges to that of (M, g).
-2. The coarse-grained Π field converges uniformly to the conformal factor Ω(x).
-3. The reconstructed metric g_N converges to g in the Lorentzian Gromov-Hausdorff topology.
-4. The discrete field equations converge to G_μν = 8π G_q · T^κ_μν.
+1. **Causal convergence:** The causal structure of G_N approximates that of (M, g). (Proven — causal set theory)
+
+2. **Measure convergence:** The Π-weighted empirical measure converges weakly to the volume measure:
+   \[
+   \frac{1}{N}\sum_e \Pi_e \delta_{x_e} \rightharpoonup \Omega(x)\,d\text{vol}_g(x)
+   \]
+   (Reframed from "Π fixes the conformal factor")
+
+3. **Metric reconstruction:** From (≺, μ_N), a Lorentzian metric g_N can be reconstructed such that
+   \[
+   \mathbb{E}[d_{LGH}(g_N, g)] \to 0
+   \]
+   (Reframed from "metric converges to true metric")
+
+4. **Field equation emergence:** The coarse-grained κ field satisfies, in the continuum limit:
+   \[
+   \nabla^2\Phi = 4\pi G_q\rho_\gamma \quad\text{(Newtonian, verified)}
+   \]
+   \[
+   G_{\mu\nu} = 8\pi G_q T^{\kappa}_{\mu\nu} \quad\text{(GR limit, conjectured)}
+   \]
+   (Reframed from "κ sources gravity")
 
 ---
 
@@ -126,7 +146,23 @@ Prove that the probability of large deviations from the continuum limit decays e
 
 ---
 
-## 5. What Can Be Done Now (Without External Collaboration)
+## 5. Execution Plan (Starting Now)
+
+### Step 1: Measure Convergence — STARTING
+
+Implement weak convergence of Π-weighted empirical measure:
+- Generate sprinkling into Minkowski with varying κ
+- Compute the Π-weighted empirical measure μ_N
+- Compare with the expected volume measure via Wasserstein distance
+- Show W₁(μ_N, μ) → 0 as N → ∞ with explicit rate
+
+### Step 2: Metric Reconstruction (after Step 1)
+
+### Step 3: κ-Field Convergence (after Step 2)
+
+---
+
+**Implementation:** `det8/models/continuum_limit_step1.py`
 
 1. **Complete Π-volume measure numerical verification** — already done (L2, α=0.50 convergence).
 2. **Complete bond Laplacian numerical verification** — already done (graph Laplacian = ∇² exactly for polynomials).
