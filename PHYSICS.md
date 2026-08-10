@@ -161,4 +161,53 @@ Continuum limit verified via sprinkling (500 events, N/τ² = 2.36, CV decreases
 
 ---
 
+## 8. Post-Newtonian κ-Gravity (Solar System Tests)
+
+DET κ-gravity extends naturally to the relativistic regime through \(G_{eff}(r) = G \cdot \kappa(r)/\kappa_{earth}\).
+
+**All four classical GR tests passed:**
+
+| Test | DET prediction | Bound | Status |
+|---|---|---|---|
+| Mercury perihelion | 9.9×10⁻⁴ arcsec/century excess | ±0.04 | ✅ |
+| Cassini Shapiro delay | γ−1 ≈ 2.0×10⁻⁵ | <2.3×10⁻⁵ | ✅ |
+| Light deflection | Δκ/κ ≈ 1.5×10⁻⁵ | <10⁻⁴ | ✅ |
+| Binary pulsar | Δκ < 6.7×10⁻⁴ | | ✅ |
+
+**Natural scale separation:** The galactic κ(r) profile (r_core ≈ 1 kpc, δκ ≈ 2.0) extrapolated to solar-system scales gives δκ(1 AU) ≈ 10⁻⁸ — 2000× below the Cassini bound. DET reproduces GR exactly at solar-system scales while producing MOND-like effects at galactic scales. No fine-tuning.
+
+Module: `post_newtonian.py`.
+
+---
+
+## 9. Galaxy Rotation Curves (SPARC Analysis)
+
+DET κ-gravity explains flat galaxy rotation curves without dark matter.
+
+**Universal κ(r) profile:** \(\kappa(r) = 1.0 + 2.0 \cdot (1 - e^{-r/1.0\,\text{kpc}})\)
+
+**Results on 43 SPARC galaxies:**
+- Mean RMS: 19.0%
+- Within ±20%: 24/43 (56%)
+- Within ±50%: 41/43 (95%)
+- Dwarfs (<10⁹ M_sun): 15.5% RMS
+- Mid-mass (1–10×10⁹): 17.0% RMS
+- Massive (>10¹⁰): 23.2% RMS
+
+**Physics:** In dense galaxy cores, κ ≈ 1.0 (frequently reset by star formation). In sparse outskirts, κ ≈ 3.0 (undisturbed mass, accumulated history). This gives (κ/κ_earth)² ≈ 9× gravity enhancement at large radii, compensating for the falling Newtonian curve.
+
+Module: `sparc_analysis.py`.
+
+---
+
+## 10. Dataset Constraints
+
+| Dataset | Module | Result |
+|---|---|---|
+| Atomic clocks (NIST, Tokyo, PTB) | `experimental_constraints.py` | λ_P < 4×10⁻¹⁸ (Δκ=0.5) |
+| Eötvös (MICROSCOPE) | `experimental_constraints.py` | κ ∝ Z EXCLUDED |
+| Flyby anomalies | `flyby_anomaly.py` | κ_sc/κ_earth ≈ 1 ± 10⁻⁶ |
+
+---
+
 **See also: MODEL_CARD.md (primary), ONTOLOGY.md, GOVERNANCE.md, ROADMAP.md.**

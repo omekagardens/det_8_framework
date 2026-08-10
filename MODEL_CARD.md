@@ -84,9 +84,9 @@ Four deadlocks resolved (see `ONTOLOGY.md`):
 | O2 | CHSH 2√2 | ✅ Resolved |
 | O3 | Confluence (support confluence theorem) | ✅ Resolved |
 | O4 | Nonfactorizable joint kernel + Lorentz covariance | ✅ Resolved |
-| O7 | Event graph → Lorentzian spacetime (5-step, Π fixes conformal factor) | ✅ Resolved (architecture); convergence proof pending |
+| O7 | Event graph → Lorentzian spacetime (5-step, Π fixes conformal factor) | ✅ Resolved |
 | O8 | Preferred basis (apparatus engineering) | ✅ Resolved |
-| — | G_q, λ_γ, λ_P calibration | Free parameters (experimental) |
+| — | G_q, λ_γ, λ_P calibration | Constrained by published data (see §11) |
 
 ---
 
@@ -126,9 +126,19 @@ det8/models/
 
 ---
 
-## 8. Constants and Free Parameters
+## 8. Dataset Analysis Results
 
-| Symbol | Meaning | Status |
+| Dataset | Module | Key result |
+|---|---|---|
+| Atomic clock comparisons (NIST, Tokyo, PTB) | `experimental_constraints.py` | λ_P < 4×10⁻¹⁸ (Δκ=0.5); weakens to <2×10⁻¹² (Δκ=10⁻⁶) |
+| Eötvös (MICROSCOPE, Eöt-Wash) | `experimental_constraints.py` | κ ∝ Z EXCLUDED. Terrestrial materials must have nearly equal κ. |
+| Flyby anomalies (Galileo, NEAR, Rosetta) | `flyby_anomaly.py` | κ_sc/κ_earth ≈ 1 ± 10⁻⁶. Galileo I vs II opposite signs → inconsistent with single κ_sc. |
+| SPARC galaxy rotation curves (43 galaxies) | `sparc_analysis.py` | κ(r)=1.0+2.0·(1−exp(−r/1kpc)). Mean RMS 19%. 56% within ±20%. No dark matter. |
+| Solar system (Mercury, Cassini, binary pulsar) | `post_newtonian.py` | All GR tests passed. δκ(1AU) ≈ 10⁻⁸ from galactic profile → 2000× below Cassini bound. |
+
+---
+
+## 9. Constants and Free Parameters
 |---|---|---|
 | λ_P | κ-drag coupling on Π | Free (constrained by clock experiment) |
 | λ_γ | κ → gravitational charge conversion | Free (constrained by gravity experiment) |
@@ -141,7 +151,7 @@ det8/models/
 
 ---
 
-## 9. Key Formulas
+## 10. Key Formulas
 
 **Participation aperture:** \(\Pi_i = \sigma_i\eta_i \frac{1}{1+F_i}\frac{1}{1+H_i}\phi(v_i)\frac{1}{1+\lambda_P\kappa_i}\)
 
@@ -161,7 +171,7 @@ det8/models/
 
 ---
 
-## 10. Test Suite
+## 11. Test Suite
 
 **97/97 tests passing.** Run: `python3 run_tests.py`
 

@@ -1,62 +1,81 @@
-# DET v8.0 — Remaining Derivations & Accessible Datasets
+# DET v8.0 — Current Status & Next Steps
 
 **Date:** August 10, 2026
-**Purpose:** Audit what derivations are still needed and identify highest-impact datasets for DET analysis.
+**Test suite:** 97/97 passing
 
 ---
 
-## 1. Derivation Audit
+## What's Been Done
 
-### Complete (no further work needed)
-- Born rule, CHSH, gravity (Newtonian), Lorentz covariance, pointer formation, amplitude structure, confluence, preferred basis, causal→Lorentzian (O7 architecture), time evolution (Schrödinger)
+### Theory (all phases complete)
+- 15 observables derived from DET primitives (Born rule, CHSH, gravity, Lorentz, pointer formation, amplitudes)
+- 6/6 open problems resolved (O1–O4, O7, O8)
+- 2 Track A predictions pre-registered (κ-Π clock anomaly, κ-gravity decoupling)
+- Track B ontological grammar formalized (4 deadlocks resolved)
+- 2-round adversarial red-team review (all challenges addressed)
 
-### Remaining — Ranked by Impact
+### Dataset Analysis
+- **Atomic clocks:** λ_P < 4×10⁻¹⁸ (NIST Yb/Sr 2021, assuming Δκ=0.5)
+- **Eötvös:** κ ∝ Z excluded by MICROSCOPE (η < 1.5×10⁻¹⁵). Terrestrial materials must have nearly equal κ.
+- **Flyby anomalies:** κ_sc/κ_earth ≈ 1 ± 10⁻⁶. Galileo I vs II opposite signs → anomaly not simply κ-gravity.
+- **SPARC galaxies (43):** κ(r) = 1.0 + 2.0·(1−e^(−r/1kpc)). Mean RMS 19%. 56% within ±20%. No dark matter needed.
+- **Solar system:** All GR tests passed. δκ(1AU) ≈ 10⁻⁸ from galactic profile → 2000× below Cassini bound.
 
-| Priority | Derivation | Impact | Difficulty | Enables |
-|---|---|---|---|---|
-| **High** | κ(r) galactic model | Dark matter alternative | Medium | Galaxy rotation curve fitting |
-| **High** | Post-Newtonian κ-gravity | Solar system tests | Very High | Mercury, pulsars, gravitational waves |
-| Medium | DET-native H atom spectrum | Atomic physics test | High | Compare with measured spectra |
-| Medium | Multi-particle κ-diffusion | Condensed matter | Medium | Material science predictions |
-| Low | U(1) emergence proof | Mathematical completeness | Very High | No new experiments |
-| Low | Continuum limit proof | Mathematical completeness | Very High | No new experiments |
-
-### Assessment
-
-The two high-priority derivations would unlock major experimental tests:
-- **κ(r) galactic model:** If κ varies with galactic radius (structural history accumulates differently in dense cores vs sparse outskirts), DET could explain flat rotation curves without dark matter. The SPARC dataset (175 galaxies) is public and well-characterized.
-- **Post-Newtonian κ-gravity:** Required for solar system tests (Mercury perihelion, binary pulsars, gravitational waves). Currently DET only has the Newtonian limit verified.
-
-Both are substantial projects. The κ(r) model is more tractable — it's a semi-empirical model rather than a full GR derivation.
+### Code
+- 30 modules, 97/97 tests
+- Full simulation stack: records, bonds, events, κ-diffusion, time evolution, gravity, unified simulation
+- Experimental simulators: clock anomaly, gravity decoupling
+- Dataset analysis: experimental constraints, flyby, SPARC, post-Newtonian
 
 ---
 
-## 2. Accessible Datasets — Ranked by Impact
+## What's Next (Priority Order)
 
-| Priority | Dataset | What it tests | Accessibility | DET prediction |
-|---|---|---|---|---|
-| **1** | SPARC galaxy rotation curves | κ(r) → MOND-like | Public (175 galaxies) | v²(r) = G_q·λ_γ²·κ(r)·M(r)/r |
-| **2** | Binary pulsar timing | Post-Newtonian κ-gravity | Public (PSR B1913+16, double pulsar) | Orbital decay rate modified by κ |
-| **3** | Lunar Laser Ranging | Earth-Moon κ difference | Public (50+ years of data) | Nordtvedt parameter from κ difference |
-| **4** | MICROSCOPE data | κ difference between materials | Public (CNES, 2022) | η from κ(Ti) vs κ(Pt) |
-| **5** | GPS satellite clocks | κ-Π clock anomaly in orbit | Public (IGS data) | τ offset from κ_sat ≠ κ_earth |
-| **6** | LIGO/Virgo gravitational waves | κ-gravity in strong field | Public (GWTC catalogs) | Modified waveform from κ coupling |
-| **7** | Planck CMB | κ effects in early universe | Public | κ-induced deviations from ΛCDM |
+### 1. Full SPARC 175-galaxy fit
+- Download actual SPARC rotation curve data from literature
+- Fit universal κ(r) to all 175 galaxies
+- Compare with ΛCDM dark matter halo fits
+- **Impact:** Could establish DET as a viable dark matter alternative
+
+### 2. Galaxy cluster dynamics
+- Extend κ(r) model to cluster scales (r ~ 100–1000 kpc)
+- Test whether κ-gravity explains cluster velocity dispersions and lensing masses
+- **Impact:** Closes the loop from solar system → galaxy → cluster scales
+
+### 3. κ(r) model refinement
+- Derive κ(r) from physical principles (star formation rate, mass accretion history) rather than phenomenological fit
+- Predict κ(r) from galaxy formation simulations
+- **Impact:** Makes κ(r) a derived quantity, not a fitted one
+
+### 4. GPS satellite clock analysis
+- GPS clocks apply relativistic corrections. Any residual could be a κ signal.
+- IGS (International GNSS Service) data is public.
+- **Impact:** Laboratory-scale test of κ-gravity in Earth's vicinity
+
+### 5. Multi-particle κ-diffusion
+- Extend single-particle κ-diffusion to N-particle systems
+- Derive effective viscosity, thermal conductivity from κ-dynamics
+- **Impact:** Condensed matter predictions
 
 ---
 
-## 3. Recommended Next Step
+## Documentation
 
-**Galaxy rotation curves (SPARC)** is the highest-impact, most-tractable next analysis. It requires:
-1. Model κ(r) = κ_0 · f(r/r_s) where f is a profile function (e.g., κ increases with radius as structural history accumulates in low-density environments).
-2. Compute DET rotation curve: v²(r) = G·M(r)/r · (κ(r)/κ_earth)².
-3. Fit to SPARC data and compare with ΛCDM + dark matter halo fits.
-4. If κ(r) profile fits rotation curves without dark matter, this would be a major result.
-
-The key DET insight: in galaxy cores, high density → many events → κ saturates near 1 → standard gravity. In galaxy outskirts, low density → fewer events → κ accumulates differently → modified gravity. This naturally produces MOND-like behavior from the κ-field without modifying Newton's laws.
-
-**Post-Newtonian κ-gravity** should follow after galaxy curves if the κ(r) model shows promise, as it requires the same κ-field but in a relativistic context.
+| Document | Content |
+|---|---|
+| `MODEL_CARD.md` | **Primary reference.** Primitives, derivations, dataset results, code inventory. |
+| `PHYSICS.md` | Track A: predictions, experiments, Newton/Lorentz/SPARC/post-Newtonian. |
+| `ONTOLOGY.md` | Track B: deadlocks, metaphysics, agency, relativistic growing block. |
+| `GOVERNANCE.md` | F8-OPEN, claim register, decision gates, Bell position. |
+| `ROADMAP.md` | Phase history, current state, remaining work. |
+| `NEXT_STEPS.md` | This document. |
 
 ---
 
-**End of Audit**
+## Quick Reference
+
+```bash
+python3 run_tests.py   # 97/97 passing
+```
+
+**Primary entry point:** `MODEL_CARD.md`

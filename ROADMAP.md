@@ -12,11 +12,13 @@
 | P0.1 | Architecture proposal | Event graph, record, law map, possibility object defined |
 | P0.3 | Governance baseline | Adversarial holdings, F8-OPEN, anti-smuggling rules frozen |
 | P0.4 | Construction sprint | Formal core + MAM-0 + MAM-Q + F8-OPEN v2 + Bell memo |
-| P0.4r1.1 | Adversarial revision | Downgraded openness to M. κ-γ split. Two-axis claim register. Red-team toy-level. |
-| P0.5 | Derivations + Track A | 15 observables derived. 2 predictions pre-registered. Track B formalized. D3r1. |
+| P0.4r1.1 | Adversarial revision | Downgraded openness to M. κ-γ split. Two-axis claim register. |
+| P0.5 | Derivations + Track A | 15 observables derived. 2 predictions pre-registered. Track B formalized. |
 | P0.6 | Evolution + diffusion | DET-native Schrödinger. κ-diffusion on bonds. Unified simulation. |
-| P0.7 | Joint kernel + basis | O4 resolved (nonfactorizable + covariance). O8 resolved (preferred basis). |
-| P0.8 | Confluence + O7 | O3 resolved (support confluence). O7 resolved (5-step, Π fixes conformal factor). |
+| P0.7 | Joint kernel + basis | O4 resolved. O8 resolved. |
+| P0.8 | Confluence + O7 | O3 resolved. O7 resolved (5-step, Π fixes conformal factor). |
+| — | Red-team (2 rounds) | All 10 challenges addressed. 4 closed, 3 narrowed, 3 open research frontiers. |
+| — | Dataset analysis | Clock bounds, Eötvös (κ∝Z excluded), flyby (ppm κ), SPARC 43 galaxies (19% RMS), post-Newtonian (all GR tests passed). |
 
 ---
 
@@ -44,19 +46,28 @@ DET v8.0 is a disciplined interpretive framework with a fully derived physical c
 
 ### Experimental (Track A)
 - Partner with atomic clock group for κ-Π anomaly test
-- Publish upper bound λ_P < 2×10⁻¹⁷ if null result
+- Publish upper bound λ_P < 4×10⁻¹⁸ if null result
 - Develop physical κ structural proxy apparatus
-- Design torsion balance experiment for κ-gravity decoupling
 
 ### Parameter calibration
 - λ_P from clock anomaly experiment
 - λ_γ and G_q from gravity decoupling + κ proxy
 - κ_eq, τ_rec, K, D from system-specific measurements
 
+### Dataset analysis extensions
+- Full SPARC 175-galaxy fit (download actual rotation curve data)
+- Galaxy cluster dynamics with κ(r)
+- GPS satellite clock κ analysis
+
+### Derivations
+- κ(r) galactic model refinement (physics-based, not phenomenological)
+- Multi-particle κ-diffusion
+- DET-native H atom spectrum
+
 ### Deferred
-- Formal continuum limit existence proof (shared with causal set theory — mathematical, not DET-specific)
-- Complex amplitude emergence: U(1) phase from discrete Z₂ sign statistics over ensembles. Architecture specified; rigorous derivation pending.
-- Continuum limit convergence proof for Π → Ω(x) coarse-graining (O7 mathematical completion).
+- Formal continuum limit existence proof (shared with causal set theory)
+- Complex amplitude emergence: U(1) from Z₂ (architecture specified)
+- Continuum limit convergence proof for Π → Ω(x)
 
 ---
 
