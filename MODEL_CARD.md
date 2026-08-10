@@ -133,7 +133,8 @@ det8/models/
 | Atomic clock comparisons (NIST, Tokyo, PTB) | `experimental_constraints.py` | λ_P < 4×10⁻¹⁸ (Δκ=0.5); weakens to <2×10⁻¹² (Δκ=10⁻⁶) |
 | Eötvös (MICROSCOPE, Eöt-Wash) | `experimental_constraints.py` | κ ∝ Z EXCLUDED. Terrestrial materials must have nearly equal κ. |
 | Flyby anomalies (Galileo, NEAR, Rosetta) | `flyby_anomaly.py` | κ_sc/κ_earth ≈ 1 ± 10⁻⁶. Galileo I vs II opposite signs → inconsistent with single κ_sc. |
-| SPARC galaxy rotation curves (135 galaxies) | `sparc_analysis.py` | κ(r)=0.7+4.0·(1−e^(−r/20kpc)). Mean RMS 31%. 37% within ±20%, 83% within ±50%. No dark matter. Comparable to MOND. |
+| SPARC galaxy rotation curves (135 galaxies) | `sparc_analysis.py` | κ(r)=0.7+4.0·(1−e^(−r/20kpc)) phenomenological. RMS 31%. 37% ±20%, 83% ±50%. |
+| **κ(r) from galaxy formation physics** | `kappa_derivation.py` | **κ(r)=κ₀+κ_scale·(1−e^(−r/r_SFR)). Derived from SFR + inside-out growth. 2 universal params + 1 observable.** |
 | Solar system (Mercury, Cassini, binary pulsar) | `post_newtonian.py` | All GR tests passed. δκ(1AU) ≈ 10⁻⁸ from galactic profile → 2000× below Cassini bound. |
 
 ---
