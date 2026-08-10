@@ -272,4 +272,31 @@ Complex amplitudes emerge from discrete sign statistics:
 
 ---
 
+## 14. GPS Satellite Clock Analysis
+
+GPS constrains κ differences in the orbital environment:
+- Standard GR correction: +38.5 μs/day (verified to 0.3 ns/day)
+- Orbital Δκ ≈ 10⁻⁸ to 10⁻⁶ (fabrication + orbital environment)
+- λ_P < 3.5×10⁻⁹ — 10⁹× weaker than lab clocks
+- **Finding:** κ is dominated by material processing history, not gravitational environment. Lab experiments with controlled κ preparation are the right approach.
+
+Module: `gps_analysis.py`.
+
+---
+
+## 15. Continuum Limit Status (L1-L4)
+
+| Lemma | Statement | Status |
+|---|---|---|
+| L1 | Causal structure → (M, g) causal structure | **Proven** (causal set theory) |
+| L2 | Coarse-grained Π → conformal factor Ω(x) | Numerical evidence (α=0.50 convergence). Formal proof open. |
+| L3 | Reconstructed metric g_N → g | Statistical convergence verified (CV 0.56→0.25). LGH proof open. |
+| L4 | κ-density → G_μν = 8πG_q·T^κ_μν | Newtonian verified. Discrete action sketch. GR limit open. |
+
+DET's unique contribution: Π fixes the conformal factor (bare causal sets cannot). κ provides native matter content. Multi-year theorem program.
+
+Module: `continuum_limit_proof.py`, `continuum_limit_l234.py`.
+
+---
+
 **See also: MODEL_CARD.md (primary), ONTOLOGY.md, GOVERNANCE.md, ROADMAP.md.**

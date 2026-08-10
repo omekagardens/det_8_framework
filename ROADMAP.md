@@ -18,8 +18,9 @@
 | P0.7 | Joint kernel + basis | O4 resolved. O8 resolved. |
 | P0.8 | Confluence + O7 | O3 resolved. O7 resolved (5-step, Π fixes conformal factor). |
 | — | Red-team (2 rounds) | All 10 challenges addressed. 4 closed, 3 narrowed, 3 open research frontiers. |
-| — | Dataset analysis | Clock bounds, Eötvös, flyby, SPARC 135 galaxies (31% RMS), post-Newtonian, clusters, κ(r) derivation, BAO, r_SFR prediction. |
-| — | Remaining items | All 5 addressed: r_SFR prediction, cluster profiles, BAO, Track A sensitivity, U(1) emergence. |
+| — | Dataset analysis | Clock bounds, Eötvös, flyby, SPARC 135 galaxies (31% RMS), post-Newtonian, clusters, κ(r) derivation, BAO, r_SFR prediction, GPS, continuum limit L2-L4. |
+| — | Remaining items | All 5 addressed. Mathematical review applied (M0 fix, claim-status revision). |
+| — | Continuum limit roadmap | Formal 5-step proof plan: Π-volume → bond Laplacian → κ-source → LGH → Einstein-Hilbert. DET-specific steps doable in 6-12 months. |
 
 ---
 

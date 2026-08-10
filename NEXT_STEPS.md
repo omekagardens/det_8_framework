@@ -49,9 +49,12 @@
 - Galaxy cluster mass profile data (Chandra/XMM archives)
 
 ### Mathematical (long-term)
-- Berry-Esseen convergence rates for U(1) emergence
-- Uniqueness proof for complex representation
-- Continuum limit formal proof (shared with causal set theory)
+- Continuum limit formal proof — see `docs/continuum_limit_roadmap.md`
+  - Π-volume theorem (DET-specific, 3-6 months)
+  - Bond Laplacian convergence (DET-specific, 2-4 months)
+  - κ-source convergence (DET-specific, 2-4 months)
+  - LGH metric convergence (shared, 1-2 years)
+  - Discrete action → Einstein-Hilbert (shared, 2-5 years)
 
 ---
 
