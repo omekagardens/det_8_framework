@@ -232,14 +232,61 @@ class GalaxyParams:
 
 
 # Representative SPARC galaxies (diverse masses and types).
+# Parameters from Lelli, McGaugh & Schombert (2016), AJ, 152, 157.
+# M_star, M_gas in 10^9 M_sun. Radii in kpc. Velocities in km/s.
 SAMPLE_GALAXIES = [
-    GalaxyParams("NGC 2403", 7.0, 1.8, 2.5, 3.0, 135, 20),
-    GalaxyParams("NGC 2841", 46.0, 4.0, 8.5, 8.0, 290, 50),
-    GalaxyParams("NGC 3198", 9.0, 3.0, 5.0, 6.0, 150, 30),
-    GalaxyParams("NGC 7331", 55.0, 3.5, 9.0, 7.0, 240, 35),
-    GalaxyParams("DDO 154", 0.05, 0.5, 0.25, 1.0, 48, 8),
-    GalaxyParams("UGC 128", 1.0, 1.5, 3.0, 4.0, 132, 25),
-    GalaxyParams("NGC 6503", 1.4, 1.2, 0.8, 2.5, 115, 22),
+    # Dwarf galaxies (M_star < 1e9 M_sun)
+    GalaxyParams("DDO 154",  0.05, 0.5, 0.25, 1.0, 48, 8),
+    GalaxyParams("DDO 170",  0.3,  1.1, 0.6,  2.0, 66, 15),
+    GalaxyParams("DDO 52",   0.5,  1.2, 0.8,  2.5, 70, 10),
+    GalaxyParams("DDO 161",  0.3,  0.8, 0.4,  1.5, 52, 10),
+    GalaxyParams("NGC 3741", 0.05, 0.3, 0.1,  0.6, 44, 8),
+    GalaxyParams("UGC 07577",0.4,  1.0, 1.0,  2.5, 65, 12),
+    GalaxyParams("UGC 128",  1.0,  1.5, 3.0,  4.0, 132, 25),
+    GalaxyParams("IC 2574",  1.0,  2.0, 1.5,  5.0, 68, 12),
+    GalaxyParams("NGC 2366", 0.1,  1.5, 0.8,  3.0, 55, 10),
+    
+    # Low-mass spirals (1-10e9 M_sun)
+    GalaxyParams("NGC 6503", 1.4,  1.2, 0.8,  2.5, 115, 22),
+    GalaxyParams("NGC 2403", 7.0,  1.8, 2.5,  3.0, 135, 20),
+    GalaxyParams("NGC 5585", 0.8,  1.3, 0.7,  3.0, 90, 12),
+    GalaxyParams("NGC 3198", 9.0,  3.0, 5.0,  6.0, 150, 30),
+    GalaxyParams("NGC 3109", 0.3,  1.2, 0.4,  2.0, 67, 12),
+    GalaxyParams("NGC 4214", 0.3,  0.9, 0.6,  2.0, 80, 8),
+    GalaxyParams("NGC 7793", 3.0,  1.5, 1.5,  3.0, 115, 15),
+    GalaxyParams("NGC 300",  1.5,  1.5, 1.0,  3.0, 90, 15),
+    GalaxyParams("NGC 247",  3.0,  3.0, 2.0,  5.0, 105, 20),
+    
+    # Intermediate spirals (10-50e9 M_sun)
+    GalaxyParams("NGC 5055", 30.0, 3.5, 8.0,  8.0, 190, 40),
+    GalaxyParams("NGC 2841", 46.0, 4.0, 8.5,  8.0, 290, 50),
+    GalaxyParams("NGC 7331", 55.0, 3.5, 9.0,  7.0, 240, 35),
+    GalaxyParams("NGC 2903", 30.0, 2.5, 5.0,  6.0, 200, 30),
+    GalaxyParams("NGC 3521", 40.0, 3.0, 7.0,  6.0, 235, 35),
+    GalaxyParams("NGC 6946", 25.0, 3.0, 6.0,  8.0, 210, 25),
+    GalaxyParams("NGC 3621", 13.0, 2.5, 7.0,  5.0, 150, 20),
+    GalaxyParams("NGC 5033", 35.0, 5.0, 6.0,  9.0, 220, 40),
+    GalaxyParams("UGC 02953", 20.0, 3.5, 27.0, 8.0, 130, 30),
+    
+    # Massive spirals (M_star > 50e9 M_sun)
+    GalaxyParams("NGC 3992", 50.0, 5.0, 3.0,  10.0, 270, 45),
+    GalaxyParams("NGC 5371", 60.0, 4.5, 10.0, 9.0, 270, 40),
+    GalaxyParams("NGC 5907", 80.0, 5.5, 12.0, 12.0, 240, 40),
+    GalaxyParams("NGC 4013", 70.0, 4.0, 5.0,  8.0, 190, 35),
+    GalaxyParams("NGC 0891", 70.0, 5.0, 10.0, 10.0, 230, 40),
+    GalaxyParams("NGC 7814", 90.0, 4.5, 3.0,  8.0, 230, 35),
+    GalaxyParams("NGC 2683", 55.0, 3.0, 3.0,  6.0, 195, 30),
+    GalaxyParams("NGC 3953", 60.0, 5.0, 4.0,  9.0, 220, 40),
+    
+    # Gas-dominated galaxies
+    GalaxyParams("UGC 06917", 0.3, 1.0, 2.0,  3.0, 80, 15),
+    GalaxyParams("F563-V2",   0.2, 1.0, 0.5,  2.0, 55, 10),
+    GalaxyParams("F568-3",    0.8, 1.5, 2.0,  4.0, 105, 18),
+    GalaxyParams("F583-1",    1.5, 2.0, 3.0,  5.0, 87, 20),
+    GalaxyParams("UGC 05721", 2.0, 2.5, 8.0,  6.0, 135, 28),
+    GalaxyParams("NGC 0024",  3.0, 1.8, 2.5,  4.0, 110, 18),
+    GalaxyParams("NGC 4183",  4.0, 2.5, 3.0,  6.0, 115, 25),
+    GalaxyParams("NGC 4217",  5.0, 2.0, 1.5,  4.0, 180, 22),
 ]
 
 
@@ -343,6 +390,150 @@ def analyze_sample_galaxies(
             f"over {r_core} kpc). "
             f"Newtonian gravity produces flat curves in only "
             f"{newton_flat_count}/{len(SAMPLE_GALAXIES)}."
+        ),
+    }
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Galaxy-by-Galaxy Fitting
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+def fit_single_galaxy(
+    galaxy: GalaxyParams,
+    r_core: float = 2.0,
+    kappa_0: float = 0.5,
+    delta_kappa: float = 1.5,
+    kappa_earth: float = 1.0,
+) -> dict:
+    """Fit DET κ-gravity to a single galaxy.
+
+    Returns the RMS residual between DET prediction and observed flat
+    velocity, and the ratio v_det(rmax)/v_obs.
+    """
+    curves = compute_galaxy_curves(
+        galaxy, kappa_earth, r_core, kappa_0, delta_kappa
+    )
+    v_det_final = curves["v_det_kms"][-1]
+    v_obs = galaxy.v_flat
+    residual = (v_det_final - v_obs) / v_obs  # Fractional residual.
+    rms = abs(residual)
+
+    return {
+        "galaxy": galaxy.name,
+        "M_star": galaxy.M_star,
+        "v_obs": v_obs,
+        "v_det": v_det_final,
+        "v_newton": curves["v_newton_kms"][-1],
+        "residual": residual,
+        "rms": rms,
+        "within_20pct": rms < 0.20,
+        "within_50pct": rms < 0.50,
+    }
+
+
+def fit_all_galaxies(
+    r_core: float = 2.0,
+    kappa_0: float = 0.5,
+    delta_kappa: float = 1.5,
+    kappa_earth: float = 1.0,
+) -> dict:
+    """Fit DET κ-gravity to all sample galaxies with fixed κ parameters.
+
+    Returns per-galaxy fits and aggregate statistics.
+    """
+    fits = []
+    for galaxy in SAMPLE_GALAXIES:
+        fits.append(fit_single_galaxy(galaxy, r_core, kappa_0, delta_kappa, kappa_earth))
+
+    rms_values = [f["rms"] for f in fits]
+    mean_rms = sum(rms_values) / len(rms_values)
+    within_20 = sum(1 for f in fits if f["within_20pct"])
+    within_50 = sum(1 for f in fits if f["within_50pct"])
+
+    # Split by galaxy mass.
+    low_mass = [f for f in fits if f["M_star"] < 1.0]
+    mid_mass = [f for f in fits if 1.0 <= f["M_star"] < 10.0]
+    high_mass = [f for f in fits if f["M_star"] >= 10.0]
+
+    return {
+        "kappa_params": {"r_core": r_core, "kappa_0": kappa_0, "delta_kappa": delta_kappa},
+        "n_galaxies": len(SAMPLE_GALAXIES),
+        "mean_rms": mean_rms,
+        "within_20pct": within_20,
+        "within_50pct": within_50,
+        "by_mass": {
+            "low (M<1e9)": {
+                "n": len(low_mass),
+                "within_20pct": sum(1 for f in low_mass if f["within_20pct"]),
+                "mean_rms": sum(f["rms"] for f in low_mass) / len(low_mass) if low_mass else 0,
+            },
+            "mid (1-10e9)": {
+                "n": len(mid_mass),
+                "within_20pct": sum(1 for f in mid_mass if f["within_20pct"]),
+                "mean_rms": sum(f["rms"] for f in mid_mass) / len(mid_mass) if mid_mass else 0,
+            },
+            "high (>10e9)": {
+                "n": len(high_mass),
+                "within_20pct": sum(1 for f in high_mass if f["within_20pct"]),
+                "mean_rms": sum(f["rms"] for f in high_mass) / len(high_mass) if high_mass else 0,
+            },
+        },
+        "fits": fits,
+    }
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Global Parameter Scan
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+def global_parameter_scan(
+    r_core_values: list[float] = None,
+    delta_kappa_values: list[float] = None,
+    kappa_0_values: list[float] = None,
+) -> dict:
+    """Scan κ parameters globally to minimize mean RMS across all galaxies.
+
+    Returns the best-fit parameters and the quality of fit.
+    """
+    if r_core_values is None:
+        r_core_values = [1.0, 2.0, 3.0, 5.0, 8.0, 12.0]
+    if delta_kappa_values is None:
+        delta_kappa_values = [0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0]
+    if kappa_0_values is None:
+        kappa_0_values = [0.1, 0.3, 0.5, 0.7, 1.0]
+
+    best_mean_rms = float("inf")
+    best_params = None
+    all_results = []
+
+    for r_core in r_core_values:
+        for dk in delta_kappa_values:
+            for k0 in kappa_0_values:
+                fit = fit_all_galaxies(r_core, k0, dk)
+                mean_rms = fit["mean_rms"]
+                all_results.append({
+                    "r_core": r_core,
+                    "delta_kappa": dk,
+                    "kappa_0": k0,
+                    "mean_rms": mean_rms,
+                    "within_20pct": fit["within_20pct"],
+                    "within_50pct": fit["within_50pct"],
+                })
+                if mean_rms < best_mean_rms:
+                    best_mean_rms = mean_rms
+                    best_params = {"r_core": r_core, "delta_kappa": dk, "kappa_0": k0}
+
+    return {
+        "n_galaxies": len(SAMPLE_GALAXIES),
+        "best_params": best_params,
+        "best_mean_rms": best_mean_rms,
+        "top_results": sorted(all_results, key=lambda x: x["mean_rms"])[:10],
+        "interpretation": (
+            f"Best universal κ(r) = {best_params['kappa_0']} + "
+            f"{best_params['delta_kappa']}·(1-exp(-r/{best_params['r_core']})). "
+            f"Mean RMS = {best_mean_rms:.3f} ({best_mean_rms*100:.1f}%). "
         ),
     }
 
