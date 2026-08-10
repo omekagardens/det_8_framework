@@ -1,8 +1,10 @@
 # DET v8.0 — Model Card
 
 **Primary reference for the Deep Existence Theory framework.**
-**Date:** August 10, 2026
+**Date:** August 10, 2026 (revised per mathematical review)
 **Test suite:** 97/97 passing
+
+**Status:** DET8 implements a finite record-kernel framework based on causal event posets, local records, transition kernels, and a mutable structural-history variable κ. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes two parameterized experimental anomalies. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, gravitational dynamics, and global κ-identifiability remain open theorem programs. Track B supplies a disciplined ontological interpretation explicitly separated from physical claims.
 
 ---
 
@@ -76,17 +78,22 @@ Four deadlocks resolved (see `ONTOLOGY.md`):
 
 ---
 
-## 6. Open Problem Status
+## 6. Open Problem Status (Revised per Mathematical Review, Aug 2026)
 
-| # | Problem | Status |
-|---|---|---|
-| O1 | Born rule | ✅ Resolved |
-| O2 | CHSH 2√2 | ✅ Resolved |
-| O3 | Confluence (support confluence theorem) | ✅ Resolved |
-| O4 | Nonfactorizable joint kernel + Lorentz covariance | ✅ Resolved |
-| O7 | Event graph → Lorentzian spacetime (5-step, Π fixes conformal factor) | ✅ Resolved |
-| O8 | Preferred basis (apparatus engineering) | ✅ Resolved |
-| — | G_q, λ_γ, λ_P calibration | Constrained by published data (see §11) |
+Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, FT=Finite Theorem, AT=Analytic Theorem, CT=Continuum Theorem, PR=Pre-Registered, M=Metaphysical.
+
+| # | Problem | Previous | Revised Status | What would constitute resolution |
+|---|---|---|---|---|
+| O1 | Born rule | ✅ Resolved | **CI** — Root representation + quantum correspondence | AT: Uniqueness theorem forcing quadratic form from DET axioms |
+| O2 | CHSH 2√2 | ✅ Resolved | **CI** — Correct calculation for Bell construction | AT: Characterize DET correlation class, prove CHSH supremum |
+| O3 | Confluence | ✅ Resolved | **CI/FT** — Support confluence in finite cases | AT: Distributional scheduler independence over all linear extensions |
+| O4 | Joint kernel | ✅ Resolved | **CI** — Nonfactorizable finite construction | AT: Global consistency, analytic no-signalling, covariance |
+| O7 | Event graph → Lorentzian | ✅ Resolved | **I/CI** — Architecture + numerical evidence | CT: Manifoldlikeness, metric convergence, curvature convergence |
+| O8 | Preferred basis | ✅ Resolved | **I** — Apparatus-controllability account | FT: Redundant record formation stability theorem |
+| M0 | Proper-time consistency | — | **FT** — Fixed: Δτ = Π·ΔN, N ≠ κ | — |
+| — | Complex amplitudes | Mostly derived | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
+| — | κ dynamics | Physical field | **I** — Phenomenological reaction-diffusion | AT: Well-posedness, invariant domain, energy balance |
+| — | Clock/gravity predictions | Pre-registered | **PR** — Testable parameterized hypotheses | EV: Identifiable parameters + reproducible experiment |
 
 ---
 
