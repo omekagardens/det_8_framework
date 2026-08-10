@@ -92,6 +92,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | O8 | Preferred basis | ✅ Resolved | **I** — Apparatus-controllability account | FT: Redundant record formation stability theorem |
 | M0 | Proper-time consistency | — | **FT** — Fixed: Δτ = Π·ΔN, N ≠ κ | — |
 | **O9-RID** | **Resurrection identity bridge** | — | **Open** — PID-C/PID-M split. Track B. | Numerical identity across embodied interruption. See `docs/track_b/resurrection.md`. |
+| **F9** | **Fact Genesis Protocol** | — | **Open** — Are facts discovered or created? Track B. | Distinguish unknown vs not-yet-existent facts. See `docs/track_b/fact_genesis.md`. |
 | — | Complex amplitudes | Mostly derived | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
 | — | κ dynamics | Physical field | **I** — Phenomenological reaction-diffusion | AT: Well-posedness, invariant domain, energy balance |
 | — | Clock/gravity predictions | Pre-registered | **PR** — Testable parameterized hypotheses | EV: Identifiable parameters + reproducible experiment |
