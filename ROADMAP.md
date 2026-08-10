@@ -18,7 +18,8 @@
 | P0.7 | Joint kernel + basis | O4 resolved. O8 resolved. |
 | P0.8 | Confluence + O7 | O3 resolved. O7 resolved (5-step, Π fixes conformal factor). |
 | — | Red-team (2 rounds) | All 10 challenges addressed. 4 closed, 3 narrowed, 3 open research frontiers. |
-| — | Dataset analysis | Clock bounds, Eötvös (κ∝Z excluded), flyby (ppm κ), SPARC 43 galaxies (19% RMS), post-Newtonian (all GR tests passed). |
+| — | Dataset analysis | Clock bounds, Eötvös, flyby, SPARC 135 galaxies (31% RMS), post-Newtonian, clusters, κ(r) derivation, BAO, r_SFR prediction. |
+| — | Remaining items | All 5 addressed: r_SFR prediction, cluster profiles, BAO, Track A sensitivity, U(1) emergence. |
 
 ---
 
@@ -42,32 +43,22 @@ DET v8.0 is a disciplined interpretive framework with a fully derived physical c
 
 ---
 
-## Remaining Work
+## Remaining Work (Requires External Resources)
 
-### Experimental (Track A)
-- Partner with atomic clock group for κ-Π anomaly test
-- Publish upper bound λ_P < 4×10⁻¹⁸ if null result
-- Develop physical κ structural proxy apparatus
+### Experimental (needs lab access)
+- Atomic clock collaboration for κ-Π anomaly test
+- Torsion balance for κ-gravity decoupling
+- Physical κ structural proxy apparatus
 
-### Parameter calibration
-- λ_P from clock anomaly experiment
-- λ_γ and G_q from gravity decoupling + κ proxy
-- κ_eq, τ_rec, K, D from system-specific measurements
+### Observational (needs telescope data)
+- Full SPARC rotation curve data points (individual radii)
+- DESI/Euclid BAO data for κ(z) constraint
+- Galaxy cluster mass profile data (Chandra/XMM archives)
 
-### Dataset analysis extensions
-- Full SPARC 175-galaxy fit (download actual rotation curve data)
-- Galaxy cluster dynamics with κ(r)
-- GPS satellite clock κ analysis
-
-### Derivations
-- κ(r) galactic model refinement (physics-based, not phenomenological)
-- Multi-particle κ-diffusion
-- DET-native H atom spectrum
-
-### Deferred
-- Formal continuum limit existence proof (shared with causal set theory)
-- Complex amplitude emergence: U(1) from Z₂ (architecture specified)
-- Continuum limit convergence proof for Π → Ω(x)
+### Mathematical (long-term)
+- Berry-Esseen convergence rates for U(1) emergence
+- Uniqueness proof for complex representation
+- Continuum limit formal proof (shared with causal set theory)
 
 ---
 
