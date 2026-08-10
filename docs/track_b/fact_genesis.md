@@ -2,7 +2,9 @@
 
 **Status:** Track B research module (M — metaphysical/interpretational)
 **Date:** August 10, 2026
-**Purpose:** Formalize the distinction between unknown facts and not-yet-existent facts. Determine whether DET provides a coherent framework where facts are generated rather than revealed.
+**Purpose:** Formalize the distinction between unknown facts and not-yet-existent facts. Determine whether DET provides a coherent framework where facts are actualized from lawful possibility into committed record.
+
+**Refined formulation:** Facts are actualized from lawful possibility into committed record. This preserves the distinction between creation *ex nihilo* (which DET does not claim) and becoming-real as becoming a committed relational constraint. All members of Ω must satisfy conservation laws before commitment.
 
 ---
 
@@ -75,7 +77,44 @@ But the next page is not already printed. This is the **record-growth time** int
 
 ---
 
-## 4. The Radical Question: Are New Facts Physically Created?
+## 4. The Fact Genesis Ladder (F9.1)
+
+The relationship between possibility and actuality can be separated into five levels:
+
+| Level | Name | Definition | DET Status |
+|---|---|---|---|
+| **L0** | Epistemic uncertainty | \(F \in \mathcal R\), observer lacks access. "I don't know the fact." | Standard physics |
+| **L1** | Lawful possibility | \(F \in \Omega\). "The fact is permitted by law." | P (architectural) |
+| **L2** | Structural tendency | \(F \in \Omega_F \subseteq \Omega\). "The current record favors this class of futures." Fact potential — sufficiently supported by current record. | P/O |
+| **L3** | Actualization | \(F \in \mathcal R^+\). "The fact enters history." Commit event. | A (toy models) |
+| **L4** | Historical carrying | \(\kappa(F) \rightarrow \mathcal R_{future}\). "The fact modifies future constraints." | A (κ program) |
+
+### The Complete Cycle
+
+\[
+\boxed{
+\mathcal R
+\;\xrightarrow{\mathcal L}\;
+\Omega
+\;\xrightarrow{K}\;
+\mathcal R^+
+\;\xrightarrow{\kappa}\;
+\mathcal R_{future}
+}
+\]
+
+This is one of DET's clearest ontological diagrams. It shows that:
+- Possibility is not unreality — it has structure and constraints.
+- Actualization is not creation *ex nihilo* — it is selection from lawful possibility.
+- History is not merely descriptive — it modifies future constraints through κ.
+
+### The "Fact Potential" Distinction
+
+A possibility is not a fact waiting to happen. The *capacity* for a fact (\(\Omega\)) is not the *fact itself* (\(\mathcal R\)). An acorn contains the possibility of an oak tree, but the oak tree is not already a tree hidden inside the acorn. The analogy is imperfect physically, but useful ontologically.
+
+---
+
+## 5. F9 Claim Register
 
 Suppose at \(t_0\) the record \(\mathcal R_0\) contains no fact "a human invents theorem T." Not unknown — actually absent. At \(t_1\): \(\mathcal R_1 = \mathcal R_0 + F\). A new fact exists. Where did it come from?
 
@@ -123,55 +162,40 @@ Connected to O9-RID (Resurrection Identity Bridge). If a regime's relations are 
 
 ---
 
-## 6. Claim Classification
+## 6. F9 Claim Register
 
-| Claim | Track | Status |
+| Claim | Status | Notes |
 |---|---|---|
-| Facts are generated, not merely revealed | **M** (Track B) | F8-OPEN downgraded |
-| \(\Omega \rightarrow \mathcal R\) transition is lawful | A (Track A) | Implemented in MAM-0/MAM-Q |
-| Record growth creates new facts | A (Track A) | Record monotonicity; N grows |
-| κ captures structural history of fact creation | A (Track A) | κ-dynamics implemented |
-| Novelty is irreducible to hidden complexity | **M** (Track B) | Open; requires compressibility definition |
-| Identity persists through fact creation | **M** (Track B) | O9-RID; PID-C/PID-M |
-| Open becoming is distinguishable from hidden determinism | **M** (Track A/B) | F8-OPEN: no discriminator exists |
+| Facts correspond to committed record states | P (architectural) | \(\mathcal R\) is the record |
+| Possibility precedes fact in DET representation | P/O | \(\Omega \rightarrow \mathcal R\) transition |
+| Future facts are not merely unknown | **M** (F8-dependent) | Cannot empirically distinguish from hidden determinism |
+| Record growth is mathematically coherent | A (toy models) | MAM-0, MAM-Q, 97/97 tests |
+| History modifies structural constraints (κ) | A (κ program) | κ-Π clock anomaly pre-registered |
+| History modifies possibility space | M/P | Ω shrinks with κ; formalization needed |
+| Identity persists through material interruption | **M** (O9-RID) | PID-C/PID-M split |
+
+### Connection to Existing Architecture
+
+| DET Primitive | F9 Role |
+|---|---|
+| \(\mathcal R\) (record) | Committed facts |
+| \(\Omega\) (possibility) | Lawful fact potential |
+| \(\mathcal L\) (law map) | Generates Ω from R⁻ |
+| \(K\) (commit kernel) | Selects Ω → R transition |
+| \(\kappa\) (structural history) | Carries fact history forward |
 
 ---
 
-## 7. Relationship to F8-OPEN
+## 7. Next Module: F10 — Law Genesis / Stability of the Law Map
 
-F8-OPEN forced the downgrade: no current experiment distinguishes DET's open actualization from deterministic, stochastic, or many-worlds emulators. Therefore "open becoming" is Status M.
+Once F9 establishes that facts become real but laws are fixed, the next unavoidable question is: **why is the lawful possibility structure itself stable?**
 
-F9 does not challenge this. It provides the **ontological framework** for what "open becoming" would mean IF a discriminator were found. The framework is valuable even without a discriminator because it:
+F10 would examine:
+- Is \(\mathcal L\) discovered because it exists independently, or is our representation of \(\mathcal L\) the stable compression of prior records?
+- Why does the universe admit stable compressible laws at all?
+- Could \(\mathcal L\) itself have κ-dependence that effectively makes it evolve over cosmic time?
 
-1. Makes the concept precise ("not-yet-fact" vs "unknown fact").
-2. Connects to testable physics (κ, record growth).
-3. Provides the conceptual foundation for future discriminator searches.
-
----
-
-## 8. Connection to Resurrection (O9-RID)
-
-The deepest Track-B connection:
-
-> Can a relational structure remain real even when its material expression is absent?
-
-DET's answer: identity is record-structural and modelable (PID-C), with the metaphysical question of numerical sameness addressed separately (PID-M).
-
-The resurrection question becomes:
-- Not: "Can dead matter magically restart?"
-- But: "Is the complete relational history of a regime recoverable from the record?"
-
-This is a much sharper question that DET's record architecture is well-positioned to address.
-
----
-
-## 9. The Deepest Formulation
-
-> DET is not asking "why don't we know the future?"
->
-> It is asking whether the future is a thing to know yet.
-
-That is a more fundamental question than epistemic uncertainty. The physics may eventually constrain it, but the first task is to build the clean mathematical distinction between **unknown facts** and **not-yet-existent facts** without smuggling metaphysics into equations. DET's architecture provides exactly that distinction.
+**Status:** Proposed. Not yet developed.
 
 ---
 
