@@ -184,17 +184,14 @@ Module: `post_newtonian.py`.
 
 DET κ-gravity explains flat galaxy rotation curves without dark matter.
 
-**Universal κ(r) profile:** \(\kappa(r) = 1.0 + 2.0 \cdot (1 - e^{-r/1.0\,\text{kpc}})\)
+**Universal κ(r) profile:** \(\kappa(r) = 0.7 + 4.0 \cdot (1 - e^{-r/20.0\,\text{kpc}})\)
 
-**Results on 43 SPARC galaxies:**
-- Mean RMS: 19.0%
-- Within ±20%: 24/43 (56%)
-- Within ±50%: 41/43 (95%)
-- Dwarfs (<10⁹ M_sun): 15.5% RMS
-- Mid-mass (1–10×10⁹): 17.0% RMS
-- Massive (>10¹⁰): 23.2% RMS
+**Results on 135 SPARC galaxies (full catalog):**
+- Mean RMS: 31.0%
+- Within ±20%: 50/135 (37%)
+- Within ±50%: 112/135 (83%)
 
-**Physics:** In dense galaxy cores, κ ≈ 1.0 (frequently reset by star formation). In sparse outskirts, κ ≈ 3.0 (undisturbed mass, accumulated history). This gives (κ/κ_earth)² ≈ 9× gravity enhancement at large radii, compensating for the falling Newtonian curve.
+**Physics:** In dense galaxy cores, κ ≈ 0.7 (frequently reset by star formation). In sparse outskirts, κ ≈ 4.7 (undisturbed mass, accumulated history over 20 kpc transition scale). This gives (κ/κ_earth)² ≈ 22× gravity enhancement at large radii, compensating for the falling Newtonian curve. Results comparable to MOND (a_0 ~ 1.2×10⁻¹⁰ m/s²) but with a different physical mechanism — κ-field variation rather than modified inertia.
 
 Module: `sparc_analysis.py`.
 
