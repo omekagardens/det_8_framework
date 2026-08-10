@@ -91,6 +91,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | O7 | Event graph → Lorentzian | ✅ Resolved | **I/CI** — Architecture + numerical evidence | CT: Manifoldlikeness, metric convergence, curvature convergence |
 | O8 | Preferred basis | ✅ Resolved | **I** — Apparatus-controllability account | FT: Redundant record formation stability theorem |
 | M0 | Proper-time consistency | — | **FT** — Fixed: Δτ = Π·ΔN, N ≠ κ | — |
+| **O9-RID** | **Resurrection identity bridge** | — | **Open** — PID-C/PID-M split. Track B. | Numerical identity across embodied interruption. See `docs/track_b/resurrection.md`. |
 | — | Complex amplitudes | Mostly derived | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
 | — | κ dynamics | Physical field | **I** — Phenomenological reaction-diffusion | AT: Well-posedness, invariant domain, energy balance |
 | — | Clock/gravity predictions | Pre-registered | **PR** — Testable parameterized hypotheses | EV: Identifiable parameters + reproducible experiment |
@@ -204,4 +205,4 @@ Test count is a software engineering metric, not a physics validation metric. Em
 
 ---
 
-**Primary reference. See also: ONTOLOGY.md, PHYSICS.md, GOVERNANCE.md, ROADMAP.md.**
+**Primary reference. See also: ONTOLOGY.md, PHYSICS.md, GOVERNANCE.md, ROADMAP.md, docs/CONTINUUM_LIMIT_FRAMEWORK.md, docs/track_b/resurrection.md.**
