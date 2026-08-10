@@ -43,7 +43,40 @@ Track B is not "pre-physics." It is the conceptual scaffolding that makes sense 
 
 ---
 
-## 3. Fruit-First Epistemic Principle
+## 3. Relativistic Growing Block
+
+**Challenge:** If the record grows objectively, but simultaneity is relative, whose record is growing?
+
+**Resolution:** The objective record is the invariant causal past \(J^-(e)\) for each event e. This set is Lorentz invariant — all observers agree on which events are in it.
+
+- The record does not grow uniformly across all space. It grows locally at each commit event.
+- The union of all local determinate pasts forms the "growing block."
+- The "present" is the boundary of each observer's causal past, which is frame-dependent.
+- Spacelike-separated observers have different determinate pasts — this reflects relativistic structure, not a contradiction.
+- No global simultaneity is asserted. No preferred frame is introduced.
+- This is the "Crystallizing Block" proposal (Ellis, 2014), which DET inherits.
+
+**Lorentz covariance preserved:** \(J^-(e)\) is Lorentz-invariant. Commit events are local. Different observers' record-growth boundaries differ, but all boundaries are equally valid — just as different inertial frames are equally valid in SR.
+
+---
+
+## 4. Status M Quarantine Defense
+
+**Challenge:** If Track B is causally inert, why should physicists care?
+
+**Response:** Track B is not causally inert — it is *causally non-redundant* with Track A. It provides the interpretation of what Track A's equations mean, which is valuable for the same reason Copenhagen is valuable despite adding no new equations.
+
+**Specific scientific value:**
+
+1. **Hygiene protocol.** The quarantine prevents pseudo-physical theories that insert "consciousness causes collapse" or "free will fields" into equations. It is a methodological advance, not a retreat.
+
+2. **Interpretive resolution.** The four deadlocks are genuine problems in foundations of physics. Resolving them coherently is a philosophical contribution regardless of Track A's empirical status.
+
+3. **Experimental guidance.** Track B motivates which experiments to pursue. The κ-Π clock anomaly exists because Track B conceived of κ as "structural drag." Without the ontology, there is no reason to look for history-dependent clock rates.
+
+4. **Anti-smuggling.** The strict separation ensures ontological commitments don't contaminate physical equations. This is an advance over interpretations that modify the formalism to accommodate ontology.
+
+**"God of the Gaps" inverted:** DET removes agency from physical equations entirely — the opposite of inserting it into gaps. This is a "No God in the Equations" protocol.
 
 \[
 \boxed{\text{DET measures the fruit of becoming, not becoming itself.}}

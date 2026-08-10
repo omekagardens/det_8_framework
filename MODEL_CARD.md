@@ -163,9 +163,19 @@ det8/models/
 
 ## 10. Test Suite
 
-**97/97 tests passing.** Covers: MAM-0, MAM-Q, DET 8 Core (Π, κ), Bonds, Event Graph, Confluence, Markov Kernel, Peres-Mermin, CHSH, Bounded Adversary, DET Simulation.
+**97/97 tests passing.** Run: `python3 run_tests.py`
 
-Run: `python3 run_tests.py`
+The test suite verifies **internal consistency**, not empirical validity:
+- ✅ Code correctly implements mathematical axioms.
+- ✅ Axioms are internally consistent (no contradictions).
+- ✅ Derived observables match their expected values.
+
+The test suite does **NOT** verify:
+- ❌ That DET axioms map to physical reality.
+- ❌ That DET makes correct empirical predictions.
+- ❌ That κ, Π, or λ_P exist in nature.
+
+Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 
 ---
 

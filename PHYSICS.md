@@ -19,6 +19,8 @@ The structural history field κ replaces the original conflated `q` variable.
 
 **Free energy:** \(\psi = \psi_0 + \frac{1}{2}K(\kappa-\kappa_{eq})^2\) with dissipation \(\dot\kappa\cdot\partial\psi/\partial\kappa \leq 0\)
 
+**Second Law compliance:** κ-recovery releases stored structural energy (ΔE < 0). This energy is exported to the environment as heat, with ΔS_environment ≥ |ΔE|/T. Total entropy change is nonnegative. Recovery is not spontaneous — it is driven by the free energy gradient, analogous to a compressed spring relaxing. Boundary-mediated Jubilee (κ-reduction without energy accounting) is classified M/H precisely because no physical channel is specified for the missing energy.
+
 **κ measurement:** Structural proxy (`structural_proxy.py`) — calibrated mechanical probe. Δκ_min ≈ 0.002 at 1% noise. Cross-validated with clock and gravity.
 
 **κ-diffusion:** \(d\kappa_i/dt = D\sum_j\sigma_{ij}(\kappa_j-\kappa_i) - (\kappa_i-\kappa_{eq})/\tau_{rec} + \dot\kappa_{damage}\) (`kappa_diffusion.py`)
@@ -45,6 +47,8 @@ The structural history field κ replaces the original conflated `q` variable.
 
 **What constitutes falsification:** Null result at 95% CL constrains λ_P < threshold.
 
+**Confounder isolation:** The largest material confounder for optical lattice clocks is the blackbody radiation (BBR) shift, scaling as T⁴. For ¹⁷¹Yb at 300K with 1mK stability, BBR uncertainty is ~10⁻¹⁸. For λ_P≥10⁻¹⁴ and κ=0.5, the DET signal (~5×10⁻¹⁵) is 100–1000× larger than material confounders. The DET functional form (linear in κ/(1+λ_P·κ)) differs from all standard shifts (BBR ∝ T⁴, Zeeman ∝ B², Stark ∝ E², collisional ∝ n), enabling separation by varying κ at fixed T, B, E, n.
+
 ### 2.2 κ-Gravity Decoupling
 
 **Formula:** \(F = G_q(\lambda_\gamma\kappa)^2/r^2\)
@@ -56,6 +60,8 @@ The structural history field κ replaces the original conflated `q` variable.
 **Sensitivity:** λ_γ ≥ 5×10⁻⁹ for 5σ detection.
 
 **Experiment simulator:** `gravity_experiment.py`.
+
+**Mass-defect confound:** If damage adds energy ΔE, the mass change is Δm = ΔE/c². For a 1kg test mass with ΔE = 1J, Δm ≈ 10⁻¹⁷ kg, producing a relative gravitational change of ~10⁻¹⁷. The DET signal (force → 0 after recovery) is 10¹⁷× larger. The mass-defect confound is negligible at all accessible energy scales.
 
 ### 2.3 Combined Signature (Smoking Gun)
 
