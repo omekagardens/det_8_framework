@@ -80,8 +80,6 @@ Agency is Status M throughout DET v8.0. It shall not enter physical equations, s
 
 **Permitted record-side proxies:** Intentions, habits, memories, preferences, motor readiness — these are records, not agency.
 
-**DET 7 regression question:** "Was agency accidentally doing ordinary physical work in DET 7?" Deferred pending DET 7 code access.
-
 **Promotion criteria:** Operational definition of "agent-involving" systems, causal interface specification, distinctive prediction, pre-registered test.
 
 ---

@@ -54,7 +54,6 @@ DET v8.0 is a disciplined interpretive framework with a fully derived physical c
 - κ_eq, τ_rec, K, D from system-specific measurements
 
 ### Deferred
-- DET 7 regression (requires DET 7 code access)
 - Formal continuum limit existence proof (shared with causal set theory — mathematical, not DET-specific)
 
 ---
