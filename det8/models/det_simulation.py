@@ -110,7 +110,7 @@ class DetUniverse:
 
     def step(
         self,
-        delta_kappa: float = 1.0,
+        delta_N: float = 1.0,
         lambda_p: float = LAMBDA_P,
         damage_per_event: float = 0.0,
     ) -> list[dict]:
@@ -129,18 +129,18 @@ class DetUniverse:
 
         for eid in executable:
             event = self.causal_graph.events[eid]
-            entry = self._execute_event(event, delta_kappa, lambda_p, damage_per_event)
+            entry = self._execute_event(event, delta_N, lambda_p, damage_per_event)
             step_log.append(entry)
             self.scheduler.mark_committed(eid)
 
-        self.current_time_kappa += delta_kappa
+        self.current_time_kappa += delta_N
         self.event_log.extend(step_log)
         return step_log
 
     def _execute_event(
         self,
         event: Event,
-        delta_kappa: float,
+        delta_N: float,
         lambda_p: float,
         damage: float,
     ) -> dict:
@@ -156,7 +156,7 @@ class DetUniverse:
             # Single-node event: just accumulate proper time.
             node_id = domain[0]
             record = self.nodes[node_id]
-            dtau = accumulate_proper_time(record, delta_kappa, lambda_p=lambda_p)
+            dtau = accumulate_proper_time(record, delta_N, lambda_p=lambda_p)
 
             if damage > 0:
                 apply_q_damage(record, damage)
@@ -204,10 +204,10 @@ class DetUniverse:
 
             # Accumulate proper time for both nodes.
             dtau_i = accumulate_proper_time(
-                self.nodes[i], delta_kappa, lambda_p=lambda_p
+                self.nodes[i], delta_N, lambda_p=lambda_p
             )
             dtau_j = accumulate_proper_time(
-                self.nodes[j], delta_kappa, lambda_p=lambda_p
+                self.nodes[j], delta_N, lambda_p=lambda_p
             )
 
             # Apply damage.
@@ -233,7 +233,7 @@ class DetUniverse:
     def run(
         self,
         n_steps: int = 10,
-        delta_kappa: float = 1.0,
+        delta_N: float = 1.0,
         lambda_p: float = LAMBDA_P,
         damage_per_event: float = 0.0,
     ) -> dict:
@@ -242,7 +242,7 @@ class DetUniverse:
         Returns summary statistics.
         """
         for _ in range(n_steps):
-            self.step(delta_kappa, lambda_p, damage_per_event)
+            self.step(delta_N, lambda_p, damage_per_event)
 
         return self.summary()
 

@@ -6,23 +6,28 @@ the participation aperture Π, proper-time accumulation, and
 mutable-q dynamics. This is the DET 8-native physics layer,
 independent of DET 7.
 
-Key variables (from P0.1 §6.1, revised per D3r1):
-  F_i   : local resource/field participation
+Key variables (from P0.1 §6.1, revised per D3r1, M0 fix):
+  F_i     : local resource/field participation
   kappa_i : structural history density [0, 1]  (was: q_i)
+  N_i     : local event count (monotone, non-decreasing) — SEPARATE from κ
   sigma_i : conductivity / processing factor > 0
-  H_i   : local coordination load ≥ 0
-  C_i   : coherence
-  r_i   : pointer/record strength
+  H_i     : local coordination load ≥ 0
+  C_i     : coherence
+  r_i     : pointer/record strength
   theta_i : phase (when active)
-  eta_i : structural viability / actuation-readiness [0, 1]
+  eta_i   : structural viability / actuation-readiness [0, 1]
 
 Derived (D3r1):
   gamma_i = lambda_gamma * kappa_i  — gravitational source charge
-  Pi_i   : participation aperture (proper-time rate)
-  Delta_tau_i : proper-time increment
-  psi_i  : free energy (structural + baseline)
+  Pi_i    : participation aperture (proper-time rate per event)
+  Delta_tau_i : proper-time increment = Π_i · ΔN_i
+  psi_i   : free energy (structural + baseline)
 
-Modal annotations per P0.4r1.1 claim register.
+M0 fix (mathematical review, Aug 2026):
+  Δτ_i = Π_i · ΔN_i  (NOT Δτ_i = Π_i · Δκ_i).
+  N is a monotone event counter. κ is mutable structural history.
+  Previously conflated — κ was used for both, creating inconsistency
+  when κ decreased (recovery would imply negative proper time).
 """
 
 from __future__ import annotations
@@ -73,6 +78,7 @@ class NodeRecord:
     # ── Core physical variables ──
     F: float = 0.0      # local resource/field (≥ 0)
     kappa: float = 0.0  # structural history density [0, 1]  (D3r1: was 'q')
+    N: float = 0.0      # local event count (monotone, non-decreasing). M0 fix.
     sigma: float = 1.0   # conductivity (positive)
     H: float = 0.0      # coordination load (non-negative)
     C: float = 1.0      # coherence
@@ -106,6 +112,7 @@ class NodeRecord:
             r=self.r,
             theta=self.theta,
             eta=self.eta,
+            N=self.N,
             _proper_time=self._proper_time,
         )
 
@@ -150,38 +157,32 @@ def participation_aperture(
 
 def proper_time_increment(
     record: NodeRecord,
-    delta_kappa: float = 1.0,
+    delta_N: float = 1.0,
     velocity_fraction: float = 0.0,
     lambda_p: float = LAMBDA_P,
 ) -> float:
-    """Compute the proper-time increment Δτ_i = Π_i · Δκ_i.
+    """Compute the proper-time increment Δτ_i = Π_i · ΔN_i.
 
-    Args:
-        record: The node's committed record.
-        delta_kappa: Coordinate interval (event-opportunity parameter).
-        velocity_fraction: v/c.
-        lambda_p: q-drag coupling.
-
-    Returns:
-        Δτ_i, the proper-time increment.
+    M0 fix: ΔN is event-count increment, NOT Δκ (structural history change).
+    N is monotone, non-decreasing. κ can decrease with recovery.
     """
     pi = participation_aperture(record, velocity_fraction, lambda_p)
-    return pi * delta_kappa
+    return pi * delta_N
 
 
 def accumulate_proper_time(
     record: NodeRecord,
-    delta_kappa: float = 1.0,
+    delta_N: float = 1.0,
     velocity_fraction: float = 0.0,
     lambda_p: float = LAMBDA_P,
 ) -> float:
-    """Accumulate proper time and return the increment.
+    """Accumulate proper time: Δτ = Π · ΔN.
 
-    Updates record._proper_time in place.
+    M0 fix: increments record.N by delta_N (monotone event count).
+    Updates record._proper_time by Π · ΔN.
     """
-    delta_tau = proper_time_increment(
-        record, delta_kappa, velocity_fraction, lambda_p
-    )
+    delta_tau = proper_time_increment(record, delta_N, velocity_fraction, lambda_p)
+    record.N += delta_N  # Monotone event count.
     record._proper_time += delta_tau
     return delta_tau
 
@@ -323,20 +324,17 @@ class DetSystem:
 
     def step(
         self,
-        delta_kappa: float = 1.0,
+        delta_N: float = 1.0,
         velocity_fractions: Optional[dict[int, float]] = None,
         lambda_p: float = LAMBDA_P,
     ) -> dict[int, float]:
-        """Advance all nodes by one coordinate interval.
-
-        Returns the proper-time increments per node.
-        """
+        """Advance all nodes by ΔN events. Returns proper-time increments."""
         increments: dict[int, float] = {}
         vf = velocity_fractions or {}
 
         for node_id, record in self.nodes.items():
             v = vf.get(node_id, 0.0)
-            dtau = accumulate_proper_time(record, delta_kappa, v, lambda_p)
+            dtau = accumulate_proper_time(record, delta_N, v, lambda_p)
             increments[node_id] = dtau
             self.total_proper_time += dtau
 
@@ -426,7 +424,7 @@ def q_clock_anomaly_test(
     tau_1 = 0.0
 
     for _ in range(int(duration_kappa)):
-        increments = system.step(delta_kappa=1.0, lambda_p=lambda_p)
+        increments = system.step(delta_N=1.0, lambda_p=lambda_p)
         tau_0 += increments[0]
         tau_1 += increments[1]
 

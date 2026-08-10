@@ -167,7 +167,7 @@ def test_det8_core():
     test("Π(kappa=1) = 0.5", abs(participation_aperture(r) - 0.5) < 1e-12)
 
     r2 = NodeRecord(sigma=1.0, kappa=0.0)
-    accumulate_proper_time(r2, delta_kappa=10.0)
+    accumulate_proper_time(r2, delta_N=10.0)
     test("Proper time accumulation", abs(r2._proper_time - 10.0) < 1e-12)
 
     r3 = NodeRecord(kappa=0.0)
@@ -189,7 +189,7 @@ def test_det8_core():
     system = DetSystem()
     system.add_node(0, NodeRecord(kappa=0.0))
     system.add_node(1, NodeRecord(kappa=0.5))
-    increments = system.step(delta_kappa=10.0)
+    increments = system.step(delta_N=10.0)
     test("Multi-node step preserves q-effect", increments[0] > increments[1])
 
     system.q_damage_event(0, damage=0.3)
@@ -425,7 +425,7 @@ def test_det_simulation():
     test("Bonds created", len(u.bonds) == 3)
     test("Events created", len(u.causal_graph.events) == 6)
 
-    summary = u.run(n_steps=5, delta_kappa=1.0, damage_per_event=0.01)
+    summary = u.run(n_steps=5, delta_N=1.0, damage_per_event=0.01)
     test("Steps completed", summary["n_steps"] == 5)
     test("Events committed", summary["n_events_committed"] == 6)
     test("Resource conserved", abs(summary["conservation"]["total_resource"] - 20.0) < 1e-12)
