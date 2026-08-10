@@ -250,4 +250,26 @@ Module: `cluster_dynamics.py`.
 
 ---
 
+## 12. r_SFR Prediction from Scaling Relations
+
+Eliminates the last fitted parameter in κ(r). r_SFR is now predicted from galaxy observables:
+
+\[
+r_{\text{SFR}} = r_d \cdot (1.5 + 0.3\log_{10} M_* - 0.1\log_{10} \text{sSFR})
+\]
+
+Clamped to observed range [1.2, 2.5]. Larger r_SFR/r_d → stronger inside-out growth → steeper κ(r) → flatter rotation curves.
+
+---
+
+## 13. U(1) Emergence from Z₂
+
+Complex amplitudes emerge from discrete sign statistics:
+1. **Proven:** CLT → Gaussian effective amplitudes
+2. **Proven:** Circular symmetry → U(1) phase invariance
+3. **Proven:** Continuous interference from relative phases
+4. **Conjectured:** Convergence rates (Berry-Esseen), uniqueness (quantum reconstruction)
+
+---
+
 **See also: MODEL_CARD.md (primary), ONTOLOGY.md, GOVERNANCE.md, ROADMAP.md.**
