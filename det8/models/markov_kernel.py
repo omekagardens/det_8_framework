@@ -1,0 +1,318 @@
+"""
+Markov Kernel Formalization for DET 8
+
+Provides proper measure-theoretic types for the DET formal core:
+- MeasurableSpace: (Ω, Σ) outcome space with sigma-algebra
+- TransitionKernel: K(x, A) satisfying proper kernel axioms
+- DETKernel: wraps the commit structure in Markov kernel terms
+
+This addresses P0.4r1.1 requirement: "Formal measurable-state and
+Markov-kernel refinement."
+
+Mathematical definitions:
+  A transition kernel from (X, 𝒳) to (Y, 𝒴) is a function
+  K: X × 𝒴 → [0,1] such that:
+    1. For each x ∈ X, K(x, ·) is a probability measure on (Y, 𝒴).
+    2. For each A ∈ 𝒴, K(·, A) is 𝒳-measurable.
+
+  The DET commit kernel is:
+    K_e(A | R⁻) = P(X_e ∈ A | R⁻)
+  where A ⊆ Ω_e is a measurable subset of the successor space.
+"""
+
+from __future__ import annotations
+
+import math
+from abc import ABC, abstractmethod
+from dataclasses import dataclass, field
+from typing import Callable, Generic, Optional, TypeVar
+
+# ── Type Variables ─────────────────────────────────────────────────────────
+
+State = TypeVar("State")       # The state space (record type).
+Outcome = TypeVar("Outcome")   # The outcome space.
+
+
+# ── Measurable Space ────────────────────────────────────────────────────────
+
+
+@dataclass
+class MeasurableSpace(Generic[Outcome]):
+    """A measurable space (Ω, Σ).
+
+    Ω: the sample space (set of possible outcomes).
+    Σ: the sigma-algebra (represented here as a finite partition for
+       discrete spaces, or a generating collection for continuous).
+
+    For finite/discrete Ω, we use the power set as Σ.
+    """
+
+    omega: list[Outcome]  # The admissible outcomes.
+
+    @property
+    def is_discrete(self) -> bool:
+        return True  # All current DET models use discrete Ω.
+
+    def contains(self, outcome: Outcome) -> bool:
+        """Check if an outcome is in Ω."""
+        return outcome in self.omega
+
+    def __contains__(self, outcome: Outcome) -> bool:
+        return self.contains(outcome)
+
+    def __len__(self) -> int:
+        return len(self.omega)
+
+
+# ── Probability Measure ─────────────────────────────────────────────────────
+
+
+@dataclass
+class ProbabilityMeasure(Generic[Outcome]):
+    """A probability measure on a discrete measurable space.
+
+    Assigns p(ω) ≥ 0 to each ω ∈ Ω, with Σ p(ω) = 1.
+    """
+
+    space: MeasurableSpace[Outcome]
+    probabilities: dict[Outcome, float] = field(default_factory=dict)
+
+    def __post_init__(self):
+        if not self.probabilities:
+            # Default: uniform measure.
+            n = len(self.space.omega)
+            self.probabilities = {ω: 1.0 / n for ω in self.space.omega}
+        self._normalize()
+
+    def _normalize(self) -> None:
+        total = sum(self.probabilities.values())
+        if total <= 0:
+            raise ValueError("Total probability must be positive")
+        if abs(total - 1.0) > 1e-12:
+            for ω in self.probabilities:
+                self.probabilities[ω] /= total
+
+    def prob_of(self, outcome: Outcome) -> float:
+        return self.probabilities.get(outcome, 0.0)
+
+    def prob_of_set(self, subset: set[Outcome]) -> float:
+        return sum(self.prob_of(ω) for ω in subset if ω in self.space)
+
+    def sample(self, rng=None) -> Outcome:
+        """Sample an outcome according to the measure."""
+        import random
+        if rng is None:
+            rng = random.Random()
+        r = rng.random()
+        cumulative = 0.0
+        for ω in self.space.omega:
+            cumulative += self.prob_of(ω)
+            if r < cumulative:
+                return ω
+        return self.space.omega[-1]
+
+
+# ── Transition Kernel ───────────────────────────────────────────────────────
+
+
+class TransitionKernel(ABC, Generic[State, Outcome]):
+    """Abstract transition kernel K: State × 𝒴 → [0,1].
+
+    Must satisfy:
+    1. K(x, ·) is a probability measure.
+    2. K(·, A) satisfies appropriate measurability (trivial for discrete).
+    """
+
+    @abstractmethod
+    def measure(self, state: State) -> ProbabilityMeasure[Outcome]:
+        """Return the probability measure K(state, ·)."""
+        ...
+
+    def __call__(self, state: State, outcome: Outcome) -> float:
+        """K(x, {y}) for a singleton {y}."""
+        return self.measure(state).prob_of(outcome)
+
+    def prob_set(self, state: State, subset: set[Outcome]) -> float:
+        """K(x, A) for a measurable subset A."""
+        return self.measure(state).prob_of_set(subset)
+
+
+# ── DET Commit Kernel ───────────────────────────────────────────────────────
+
+
+@dataclass
+class DETCommitKernel(TransitionKernel[State, Outcome]):
+    """The DET commit kernel: maps a record state to a probability measure
+    over successor outcomes.
+
+    This is the concrete instantiation of K_e: Ω_e → [0,1] from the
+    formal core, wrapped in proper kernel axioms.
+
+    The kernel is:
+      - Proper: Σ_{ω∈Ω} K(x, ω) = 1.
+      - Non-negative: K(x, ω) ≥ 0.
+      - Zero outside support: K(x, ω) = 0 if ω ∉ Ω_e(x).
+      - Lawful: Ω_e(x) is generated by the law map L from the record.
+    """
+
+    law_map: Callable[[State], tuple[list[Outcome], list[float]]]
+    _cache: dict[State, ProbabilityMeasure[Outcome]] = field(
+        default_factory=dict, repr=False
+    )
+
+    def measure(self, state: State) -> ProbabilityMeasure[Outcome]:
+        """Generate the probability measure for a given state.
+
+        Caches results for deterministic law maps (identical state → identical Ω, K).
+        """
+        if state in self._cache:
+            return self._cache[state]
+
+        omega_list, kernel_list = self.law_map(state)
+
+        if not omega_list:
+            raise ValueError(f"Law map produced empty Ω for state {state}")
+
+        space = MeasurableSpace(omega=omega_list)
+        probs = {ω: k for ω, k in zip(omega_list, kernel_list)}
+        measure = ProbabilityMeasure(space=space, probabilities=probs)
+        self._cache[state] = measure
+        return measure
+
+    def support(self, state: State) -> list[Outcome]:
+        """Return the support Ω_e = {ω : K(x, ω) > 0}."""
+        measure = self.measure(state)
+        return [ω for ω in measure.space.omega if measure.prob_of(ω) > 0]
+
+    def is_deterministic(self, state: State) -> bool:
+        """Check if the kernel is deterministic for this state."""
+        return len(self.support(state)) == 1
+
+    def entropy(self, state: State) -> float:
+        """Shannon entropy of the kernel: H = -Σ K(x,ω) log K(x,ω)."""
+        measure = self.measure(state)
+        h = 0.0
+        for ω in measure.space.omega:
+            p = measure.prob_of(ω)
+            if p > 0:
+                h -= p * math.log2(p)
+        return h
+
+
+# ── MAM-0 Kernel Adapter ────────────────────────────────────────────────────
+
+
+def mam0_law_map(state: tuple[int, int]) -> tuple[list[tuple[int, int]], list[float]]:
+    """Convert MAM-0 LawMap.generate output to kernel format.
+
+    Args:
+        state: (value_A, value_B) pair.
+
+    Returns:
+        (omega, kernel) where kernel is uniform over omega.
+    """
+    from det8.models.mam0 import LawMap, Record, Regime
+
+    r_a = Record(value=state[0])
+    r_b = Record(value=state[1])
+    w = LawMap.generate(r_a, r_b, Regime.OPEN)
+    return w.omega, w.kernel
+
+
+def make_mam0_kernel() -> DETCommitKernel[tuple[int, int], tuple[int, int]]:
+    """Create a DET commit kernel wrapping MAM-0."""
+    return DETCommitKernel(law_map=mam0_law_map)
+
+
+# ── MAM-Q Kernel Adapter ────────────────────────────────────────────────────
+
+
+def mamq_law_map(
+    state: tuple[complex, complex],
+) -> tuple[list[int], list[float]]:
+    """Convert MAM-Q measurement to kernel format.
+
+    Args:
+        state: (alpha, beta) complex amplitudes.
+
+    Returns:
+        (omega, kernel) where omega = [0, 1] (measurement outcomes).
+    """
+    from det8.models.mamq import QubitState, make_z_measurement
+
+    qs = QubitState(alpha=state[0], beta=state[1])
+    z = make_z_measurement()
+    poss = z.compute_possibility(qs)
+    omega = [label for label, _ in poss.omega]
+    return omega, poss.kernel
+
+
+def make_mamq_kernel() -> DETCommitKernel[tuple[complex, complex], int]:
+    """Create a DET commit kernel wrapping MAM-Q Z measurement."""
+    return DETCommitKernel(law_map=mamq_law_map)
+
+
+# ── Kernel Composition ──────────────────────────────────────────────────────
+
+
+def compose_kernels(
+    k1: TransitionKernel[State, Outcome],
+    k2: TransitionKernel[Outcome, State],
+    state: State,
+    subset: set[State],
+) -> float:
+    """Compute the composition (k1 ∘ k2)(state, subset).
+
+    (k1 ∘ k2)(x, B) = ∫ k1(x, dy) k2(y, B).
+
+    For discrete spaces: Σ_{y∈Ω} k1(x, y) · k2(y, B).
+    """
+    measure = k1.measure(state)
+    total = 0.0
+    for y in measure.space.omega:
+        p_y = measure.prob_of(y)
+        if p_y > 0:
+            total += p_y * k2.prob_set(y, subset)
+    return total
+
+
+# ── Kernel Validation ───────────────────────────────────────────────────────
+
+
+def validate_kernel(
+    kernel: DETCommitKernel[State, Outcome],
+    test_states: list[State],
+) -> dict:
+    """Validate kernel axioms on a set of test states.
+
+    Checks:
+    1. Normalization: Σ_ω K(x, ω) = 1.
+    2. Non-negativity: K(x, ω) ≥ 0.
+    3. Support is nonempty.
+    """
+    results = []
+    all_ok = True
+
+    for state in test_states:
+        measure = kernel.measure(state)
+        total = sum(measure.prob_of(ω) for ω in measure.space.omega)
+        nonneg = all(measure.prob_of(ω) >= 0 for ω in measure.space.omega)
+        nonempty = len(measure.space.omega) > 0
+        ok = abs(total - 1.0) < 1e-12 and nonneg and nonempty
+
+        results.append(
+            {
+                "state": state,
+                "normalized": abs(total - 1.0) < 1e-12,
+                "total": total,
+                "non_negative": nonneg,
+                "nonempty": nonempty,
+                "support_size": len(kernel.support(state)),
+                "entropy": kernel.entropy(state),
+                "ok": ok,
+            }
+        )
+        if not ok:
+            all_ok = False
+
+    return {"all_ok": all_ok, "n_states": len(test_states), "results": results}
