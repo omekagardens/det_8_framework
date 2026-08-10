@@ -150,7 +150,7 @@ det8/models/
 | **BAO constraint** | `remaining_items.py` | \|Δκ\|/κ < 0.02 (z=1100 to z=0). DESI/Euclid testable. |
 | **Track A refined sensitivity** | `remaining_items.py` | λ_P < 2×10⁻¹⁷ (Δκ=0.1); up to λ_P < 2×10⁻¹⁶ (Δκ=0.01). |
 | GPS satellite clocks (IGS) | `gps_analysis.py` | λ_P < 3.5×10⁻⁹ (Δκ≈10⁻⁶). Weaker than lab clocks. κ dominated by material history, not orbital environment. |
-| **Continuum limit (L1-L4+)** | `continuum_limit_*.py` (10 modules) | Full framework: measure concentration, metric reconstruction, κ-field convergence, LGH bounds, BD action, Bianchi identity. See `docs/CONTINUUM_LIMIT_FRAMEWORK.md`. |
+| **Continuum limit (CL1-CL11)** | `continuum_limit_*.py` (14 modules) | Candidate continuum-limit program: measure, metric, κ-field, curvature, LGH, BD action, stress-energy, Bianchi. Formal CT remains open. See `docs/CONTINUUM_LIMIT_FRAMEWORK.md`. |
 
 ---
 
@@ -171,7 +171,7 @@ det8/models/
 
 **Participation aperture:** \(\Pi_i = \sigma_i\eta_i \frac{1}{1+F_i}\frac{1}{1+H_i}\phi(v_i)\frac{1}{1+\lambda_P\kappa_i}\)
 
-**Proper time:** \(\Delta\tau_i = \Pi_i \Delta\kappa_i\)
+**Proper time:** \(\Delta\tau_i = \Pi_i \Delta N_i\) with \(N\) the monotone event-count variable (\(N \neq \kappa\); M0 fix).
 
 **Gravitational source:** \(\rho_\gamma = \lambda_\gamma\kappa - \gamma_b\)
 

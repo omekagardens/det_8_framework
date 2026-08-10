@@ -28,8 +28,8 @@ This document describes DET's candidate continuum-limit program. The goal is to 
 
 | # | Conjecture | Status |
 |---|---|---|
-| C1 | Causal convergence: structure of G_N approximates (M, g). | Proven (causal set theory) |
-| C2 | Measure convergence: appropriate empirical measure → target measure. | Numerical evidence |
+| C1 | Causal convergence: structure of G_N approximates (M, g). | External causal-set result / partial FT |
+| C2 | Measure convergence: unweighted μ_N → normalized volume measure; Π-weighted μ_N^Π → normalized Π-weighted volume measure. Volume measure recovery requires Π-calibration. | Numerical evidence |
 | C3 | Metric convergence: reconstructed g_N → g in LGH topology. | Numerical evidence |
 | C4 | κ-field convergence: coarse-grained κ_N → continuum κ. | Numerical evidence |
 | C5 | Newtonian field equation emergence. | Derived + dataset consistency |
@@ -176,19 +176,19 @@ These are baseline scaling expectations for empirical measure convergence in \(D
 
 ## 6. Claim-Status Table
 
-| Claim | Current evidence | Status | Required upgrade |
-|---|---|---|---|
-| C1 Causal convergence | Causal-set results + finite tests | CI / partial FT | Formal DET-specific faithfulness theorem |
-| C2 Π-weighted measure convergence | Numerical + concentration sketch | CI | Analytic weighted empirical measure theorem |
-| C3 Π fixes conformal factor | Conceptual advantage | I / conjecture | Calibration theorem + uniqueness proof |
-| C4 Metric reconstruction | Numerical rate α ≈ 0.75 | CI | CT in LGH or comparable topology |
-| C5 Curvature convergence | 3 estimators implemented, sectional stable | CI | Analytic convergence bounds, de Sitter/Schwarzschild tests |
-| C6 κ-field convergence | Numerical rate α ≈ 0.85 | CI | Well-posed PDE limit + convergence theorem |
-| C7 Newtonian field equation | Derived + dataset + action convergence | I/CI/PR | Analytic continuum limit |
-| C8 Einstein equation emergence | Matter sector complete; geometric conjectured | I (matter) / CT target (geometry) | κ-weighted BD action → EH convergence |
-| C9 Bianchi consistency | Discrete combinatorial check | FT/CI | Total effective stress-energy conservation theorem |
-| C10 Geometric BD action | Minkowski S/N O(1), κ-weighted coupling | CI | de Sitter, Schwarzschild, EH convergence |
-| C11 Scheduler independence | Ensemble numerical checks | CI | Distributional theorem over linear extensions |
+| ID | Claim | Current evidence | Status | Required upgrade |
+|---|---|---|---|---|
+| CL1 | Causal convergence | External causal-set results + finite tests | External FT / CI | DET-specific faithfulness theorem |
+| CL2 | Measure convergence | Numerical + concentration sketch | CI | Weighted Poisson measure theorem |
+| CL3 | Π conformal-factor calibration | Conceptual + numerical | I / conjecture | Calibration and uniqueness theorem |
+| CL4 | Metric reconstruction | Numerical rate α ≈ 0.75 | CI | CT in LGH or comparable topology |
+| CL5 | Curvature convergence | 3 estimators implemented, sectional stable | CI | Analytic bounds, de Sitter/Schwarzschild tests |
+| CL6 | κ-field convergence | Numerical rate α ≈ 0.85 | CI | PDE well-posedness + convergence theorem |
+| CL7 | Newtonian field equation | Derived + dataset + action convergence | I/CI/PR | Analytic continuum limit |
+| CL8 | Einstein equation emergence | Matter sector implemented; geometric open | I / CT target | BD → EH convergence |
+| CL9 | Bianchi/conservation | Discrete locality + total conservation form | FT/CI | Conservation theorem |
+| CL10 | Geometric BD action | Minkowski S/N O(1), κ-weighted coupling | CI | de Sitter, Schwarzschild, EH convergence |
+| CL11 | Scheduler independence | Ensemble numerical checks | CI | Distributional theorem over linear extensions |
 
 ---
 

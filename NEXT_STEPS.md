@@ -2,7 +2,7 @@
 
 **Date:** August 10, 2026
 **Test suite:** 97/97 passing
-**Status:** Framework complete. All theory, derivations, and dataset analyses done.
+**Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
 
