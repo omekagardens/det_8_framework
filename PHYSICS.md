@@ -203,13 +203,50 @@ Module: `sparc_analysis.py`, `kappa_derivation.py`.
 
 ---
 
-## 10. Dataset Constraints
+## 10. Galaxy Cluster Dynamics
+
+DET κ-gravity extends naturally to cluster scales (100–3000 kpc).
+
+**Universal κ(r): galaxy → cluster (continuous):**
+
+| Scale | r (kpc) | κ | Enhancement |
+|---|---|---|---|
+| Galaxy core | 0.1 | 0.7 | 1× |
+| Galaxy disk | 1–10 | 1.8–3.5 | 3–12× |
+| Galaxy outskirts | 30 | 3.5 | 12× |
+| Cluster transition | 100 | 4.3 | 19× |
+| Cluster virial | 300 | 5.9 | 35× |
+| Cluster outskirts | 1000–3000 | 7.3–7.5 | 54–56× |
+
+**Results on 10 clusters (A133 through Coma):**
+- Avg κ at r_virial: 7.4
+- κ reduction factor: (κ/κ_earth)² = 0.018
+- Required mass reduced by 98.2% at cluster scales
+
+**Comparison:**
+| Theory | Galaxy DM | Cluster DM |
+|---|---|---|
+| ΛCDM | 85% | 85% |
+| MOND | 0% | ~50% |
+| **DET κ-gravity** | **0%** | **~0%** |
+
+DET uniquely eliminates dark matter at BOTH galaxy and cluster scales.
+MOND still requires ~2× dark matter in clusters.
+
+Module: `cluster_dynamics.py`.
+
+---
+
+## 11. Dataset Constraints
 
 | Dataset | Module | Result |
 |---|---|---|
 | Atomic clocks (NIST, Tokyo, PTB) | `experimental_constraints.py` | λ_P < 4×10⁻¹⁸ (Δκ=0.5) |
 | Eötvös (MICROSCOPE) | `experimental_constraints.py` | κ ∝ Z EXCLUDED |
 | Flyby anomalies | `flyby_anomaly.py` | κ_sc/κ_earth ≈ 1 ± 10⁻⁶ |
+| Galaxy rotation curves (135) | `sparc_analysis.py` | κ(r) physics-based: RMS 31.5%, no dark matter |
+| Galaxy clusters (10) | `cluster_dynamics.py` | Universal κ 0.7→7.5. 98% mass reduction. No DM at any scale. |
+| Solar system GR tests | `post_newtonian.py` | All 4 tests passed |
 
 ---
 

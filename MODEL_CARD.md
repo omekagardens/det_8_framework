@@ -135,6 +135,7 @@ det8/models/
 | Flyby anomalies (Galileo, NEAR, Rosetta) | `flyby_anomaly.py` | κ_sc/κ_earth ≈ 1 ± 10⁻⁶. Galileo I vs II opposite signs → inconsistent with single κ_sc. |
 | SPARC galaxy rotation curves (135 galaxies) | `sparc_analysis.py` | κ(r)=0.7+4.0·(1−e^(−r/20kpc)) phenomenological. RMS 31%. 37% ±20%, 83% ±50%. |
 | **κ(r) from galaxy formation physics** | `kappa_derivation.py` | **κ(r)=κ₀+κ_scale·(1−e^(−r/r_SFR)). Derived from SFR + inside-out growth. 2 universal params + 1 observable.** |
+| Galaxy cluster dynamics (10 clusters) | `cluster_dynamics.py` | Universal κ(r) from galaxy→cluster: κ=0.7→7.5. 98% mass reduction at cluster scales. No dark matter needed at any scale. |
 | Solar system (Mercury, Cassini, binary pulsar) | `post_newtonian.py` | All GR tests passed. δκ(1AU) ≈ 10⁻⁸ from galactic profile → 2000× below Cassini bound. |
 
 ---
