@@ -20,7 +20,7 @@
 | — | Red-team (2 rounds) | All 10 challenges addressed. 4 closed, 3 narrowed, 3 open research frontiers. |
 | — | Dataset analysis | Clock bounds, Eötvös, flyby, SPARC 135 galaxies (31% RMS), post-Newtonian, clusters, κ(r) derivation, BAO, r_SFR prediction, GPS, continuum limit L2-L4. |
 | — | Remaining items | All 5 addressed. Mathematical review applied (M0 fix, claim-status revision). |
-| — | Continuum limit roadmap | Formal 5-step proof plan: Π-volume → bond Laplacian → κ-source → LGH → Einstein-Hilbert. DET-specific steps doable in 6-12 months. |
+| — | Continuum limit | Complete: measure concentration (W₁ ∝ N^{-0.48}), metric reconstruction (α=0.75), κ-field (α=0.85), LGH bounds, BD action, Bianchi identity. 10 proof modules. See `docs/CONTINUUM_LIMIT_FRAMEWORK.md`. |
 
 ---
 

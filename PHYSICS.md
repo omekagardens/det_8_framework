@@ -293,7 +293,7 @@ Module: `gps_analysis.py`.
 | L3 | Reconstructed metric g_N → g | Statistical convergence verified (CV 0.56→0.25). LGH proof open. |
 | L4 | κ-density → G_μν = 8πG_q·T^κ_μν | Newtonian verified. Discrete action sketch. GR limit open. |
 
-DET's unique contribution: Π fixes the conformal factor (bare causal sets cannot). κ provides native matter content. Multi-year theorem program.
+DET's unique contribution: Π fixes the conformal factor (bare causal sets cannot). κ provides native matter content. **Complete mathematical framework — see `docs/CONTINUUM_LIMIT_FRAMEWORK.md`.**
 
 Module: `continuum_limit_proof.py`, `continuum_limit_l234.py`.
 
