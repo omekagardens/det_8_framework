@@ -58,6 +58,8 @@ Track B is not "pre-physics." It is the conceptual scaffolding that makes sense 
 
 **Lorentz covariance preserved:** \(J^-(e)\) is Lorentz-invariant. Commit events are local. Different observers' record-growth boundaries differ, but all boundaries are equally valid — just as different inertial frames are equally valid in SR.
 
+**Crystallizing block boundary:** The boundary of the growing record (the "present") is the set of most recent commit events, which is frame-dependent. There is no unique global boundary — there are as many boundaries as there are observers. This is a feature of relativistic consistency, not a bug. It means "whose present is real?" has the same answer as "whose reference frame is correct?" — all are equally valid. The crystallizing block has no unique global "now," consistent with the relativity of simultaneity.
+
 ---
 
 ## 4. Status M Quarantine Defense

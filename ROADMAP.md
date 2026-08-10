@@ -55,6 +55,8 @@ DET v8.0 is a disciplined interpretive framework with a fully derived physical c
 
 ### Deferred
 - Formal continuum limit existence proof (shared with causal set theory — mathematical, not DET-specific)
+- Complex amplitude emergence: U(1) phase from discrete Z₂ sign statistics over ensembles. Architecture specified; rigorous derivation pending.
+- Continuum limit convergence proof for Π → Ω(x) coarse-graining (O7 mathematical completion).
 
 ---
 

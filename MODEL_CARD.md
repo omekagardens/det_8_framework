@@ -84,7 +84,7 @@ Four deadlocks resolved (see `ONTOLOGY.md`):
 | O2 | CHSH 2√2 | ✅ Resolved |
 | O3 | Confluence (support confluence theorem) | ✅ Resolved |
 | O4 | Nonfactorizable joint kernel + Lorentz covariance | ✅ Resolved |
-| O7 | Event graph → Lorentzian spacetime (5-step, Π fixes conformal factor) | ✅ Resolved |
+| O7 | Event graph → Lorentzian spacetime (5-step, Π fixes conformal factor) | ✅ Resolved (architecture); convergence proof pending |
 | O8 | Preferred basis (apparatus engineering) | ✅ Resolved |
 | — | G_q, λ_γ, λ_P calibration | Free parameters (experimental) |
 
