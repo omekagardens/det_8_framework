@@ -2,7 +2,7 @@
 
 **Date:** August 10, 2026 (revised per mathematical review)
 **Status:** Continuum-limit architecture implemented. Finite-model numerical evidence supports proposed convergence pathways. Formal continuum theorem remains open.
-**Modules:** 11 continuum-limit-related modules (5 primary step modules, 5 supporting proof modules, 1 ontology module).
+**Modules:** 14 continuum-limit-related modules (6 primary step modules, 7 supporting proof modules, 1 ontology module).
 
 ---
 
@@ -110,16 +110,18 @@ This document describes DET's candidate continuum-limit program. The goal is to 
 - **DET advantage:** κ-dynamics (recovery+diffusion) provide regularity.
 
 ### Step 4a: Newtonian Field Equation (Implemented)
-- **Modules:** `continuum_limit_step4.py`, multiple dataset modules.
+- **Modules:** `continuum_limit_step4.py`, `continuum_limit_einstein.py`, multiple dataset modules.
 - **Equation:** \(\nabla^2 \Phi = 4\pi G_q \rho_\gamma\) with \(\rho_\gamma = \lambda_\gamma \kappa - \gamma_b\).
-- **Evidence:** Derived in constructed models; numerically supported in continuum-limit simulations; phenomenologically consistent with 5 datasets across 12 orders of magnitude (solar system, galaxies, clusters).
-- **Equivalence principle:** Eötvös constraints require terrestrial materials to have nearly equal κ. DET must either enforce near-universal κ or suppress composition-dependent couplings below experimental bounds.
+- **Evidence:** Derived in constructed models; numerically supported in continuum-limit simulations; phenomenologically consistent with 5 datasets across 12 orders of magnitude (solar system, galaxies, clusters). κ-field action converges to continuum (rel error 0.25% at N=500). Stationarity confirmed.
+- **Equivalence principle:** Eötvös constraints require terrestrial materials to have nearly equal κ.
 
 ### Step 4b: Relativistic Field Equation (Conjectured)
-- **Module:** `continuum_limit_step4p.py`
+- **Modules:** `continuum_limit_step4p.py`, `continuum_limit_geometric.py`.
 - **Conjectured limit:** \(G_{\mu\nu} = 8\pi G_q T^\kappa_{\mu\nu}\) or a scalar-tensor-like extension.
-- **Discrete action:** Benincasa-Dowker (BD) construction with κ-weighting implemented. (BD = Benincasa-Dowker, not Brans-Dicke. The resulting continuum limit may resemble scalar-tensor gravity due to κ, but this is distinct from assuming Brans-Dicke.)
-- **Status:** Requires derivation from κ-weighted discrete action; remains open theorem program.
+- **Discrete action:** Benincasa-Dowker (BD) with κ-weighting. S/N O(1), stable with N. κ-weighted variant shows nonzero matter-curvature coupling.
+- **Matter sector:** κ stress-energy tensor \(T^\kappa_{\mu\nu}\) derived and verified. Action convergence numerically confirmed.
+- **Geometric sector:** BD action implemented for Minkowski (links/event ~2-3). de Sitter (R=const) and Schwarzschild tests needed.
+- **Status:** Conjectural. Requires full BD → Einstein-Hilbert convergence.
 
 ### LGH Distance
 - **Module:** `continuum_limit_lgh.py`
@@ -139,8 +141,11 @@ This document describes DET's candidate continuum-limit program. The goal is to 
   \]
   with total conservation: \(\nabla_\mu(T^{\mu\nu}_m + T^{\mu\nu}_\kappa) = 0\). This preserves Bianchi while allowing κ nonconservation in individual sectors.
 
-### Curvature Convergence (Open)
-In addition to metric reconstruction, the continuum-limit program requires convergence of discrete curvature estimators to continuum curvature. Planned diagnostics include discrete Ricci estimators, interval-volume curvature probes, and action-density convergence. Current status: open.
+### Curvature Convergence (Implemented, Analytic Bounds Open)
+- **Module:** `continuum_limit_curvature.py`
+- **Estimators:** Ricci scalar (Myrheim-Meyer interval volume fit), timelike Ricci R₀₀ (proper-time distortion), sectional curvature K (causal triangle angle excess).
+- **Minkowski (R=0):** Sectional curvature consistent with zero. Ricci and R₀₀ directionally correct, noisy at N<1000.
+- **Status:** Three curvature estimators implemented. Sectional curvature is the most stable at tested N. Analytic convergence bounds remain open. de Sitter and Schwarzschild tests needed.
 
 ---
 
@@ -177,12 +182,13 @@ These are baseline scaling expectations for empirical measure convergence in \(D
 | C2 Π-weighted measure convergence | Numerical + concentration sketch | CI | Analytic weighted empirical measure theorem |
 | C3 Π fixes conformal factor | Conceptual advantage | I / conjecture | Calibration theorem + uniqueness proof |
 | C4 Metric reconstruction | Numerical rate α ≈ 0.75 | CI | CT in LGH or comparable topology |
-| C5 Curvature convergence | Not yet explicit | Open | Ricci/curvature estimator theorem |
+| C5 Curvature convergence | 3 estimators implemented, sectional stable | CI | Analytic convergence bounds, de Sitter/Schwarzschild tests |
 | C6 κ-field convergence | Numerical rate α ≈ 0.85 | CI | Well-posed PDE limit + convergence theorem |
-| C7 Newtonian field equation | Derived + dataset consistency | I/CI/PR | Analytic continuum limit |
-| C8 Einstein equation emergence | Conjectured | M/CT target | κ-weighted action expansion |
+| C7 Newtonian field equation | Derived + dataset + action convergence | I/CI/PR | Analytic continuum limit |
+| C8 Einstein equation emergence | Matter sector complete; geometric conjectured | I (matter) / CT target (geometry) | κ-weighted BD action → EH convergence |
 | C9 Bianchi consistency | Discrete combinatorial check | FT/CI | Total effective stress-energy conservation theorem |
-| C10 Scheduler independence | Ensemble numerical checks | CI | Distributional theorem over linear extensions |
+| C10 Geometric BD action | Minkowski S/N O(1), κ-weighted coupling | CI | de Sitter, Schwarzschild, EH convergence |
+| C11 Scheduler independence | Ensemble numerical checks | CI | Distributional theorem over linear extensions |
 
 ---
 
@@ -196,13 +202,19 @@ These are baseline scaling expectations for empirical measure convergence in \(D
 - LGH-style distance reduction in finite simulations
 - Discrete Bianchi consistency checks
 - Newtonian field equation in constructed models and dataset comparisons
+- Ricci scalar, timelike Ricci, and sectional curvature estimators
+- κ-field action convergence (rel error 6.7% → 0.25%)
+- κ stress-energy tensor (correct form, trace = −2ψ)
+- Einstein equation stationarity (perturbation increases action)
+- Geometric BD action (S/N O(1), κ-weighted matter coupling)
 
 ### Open Theorem Program
-- Formal measure-concentration theorem for Π-weighted Poisson processes on Lorentzian manifolds
+- Formal measure-concentration theorem for Π-weighted Poisson processes
 - Formal LGH or comparable Lorentzian metric convergence theorem
-- Curvature convergence theorem
+- Curvature convergence theorem (estimators implemented, analytic bounds open)
 - κ-dynamics well-posedness and continuum PDE limit
-- κ-weighted Benincasa-Dowker action expansion
+- κ-weighted Benincasa-Dowker action → Einstein-Hilbert convergence
+- de Sitter and Schwarzschild BD action tests
 - Full Einstein or scalar-tensor field-equation emergence
 - Scheduler independence over all linear extensions
 
@@ -229,13 +241,22 @@ det8/models/
 ├── continuum_limit_step1.py         # Measure convergence (W₁)
 ├── continuum_limit_step2.py         # Metric reconstruction
 ├── continuum_limit_step3.py         # κ-field convergence
-├── continuum_limit_step4.py         # Field equation emergence
+├── continuum_limit_step4.py         # Field equation emergence (Newtonian)
 ├── continuum_limit_step4p.py        # BD discrete action
 ├── continuum_limit_concentration.py # Measure concentration theorem
 ├── continuum_limit_lgh.py           # LGH distance bounds
 ├── continuum_limit_bianchi.py       # Bianchi identity
+├── continuum_limit_curvature.py     # Curvature estimators (Ricci, sectional)
+├── continuum_limit_einstein.py      # Einstein emergence (action, stress-energy)
+├── continuum_limit_geometric.py     # Geometric sector (BD → Einstein-Hilbert)
 └── continuum_limit_ontology.py      # Ontological framing
 ```
+
+| Type | Count | Modules |
+|---|---|---|
+| Primary steps | 6 | step1–step4, step4p, geometric |
+| Supporting proofs | 7 | proof, l234, concentration, lgh, bianchi, curvature, einstein |
+| Ontology | 1 | ontology |
 
 ---
 
