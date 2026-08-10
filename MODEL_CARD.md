@@ -92,7 +92,9 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | O8 | Preferred basis | ✅ Resolved | **I** — Apparatus-controllability account | FT: Redundant record formation stability theorem |
 | M0 | Proper-time consistency | — | **FT** — Fixed: Δτ = Π·ΔN, N ≠ κ | — |
 | **O9-RID** | **Resurrection identity bridge** | — | **Open** — PID-C/PID-M split. Track B. | Numerical identity across embodied interruption. See `docs/track_b/resurrection.md`. |
-| **F9** | **Fact Genesis Protocol** | — | **Open** — Are facts discovered or created? Track B. | Distinguish unknown vs not-yet-existent facts. See `docs/track_b/fact_genesis.md`. |
+| **F9** | **Fact Genesis Protocol** | — | **Open** — Are facts discovered or created? Track B. 5-level ladder. | Distinguish unknown vs not-yet-existent facts. See `docs/track_b/fact_genesis.md`. |
+| **F10** | **Law Genesis** | — | **Proposed** — Why is L stable? Track B. | Stability of the law map. See `docs/track_b/law_genesis.md`. |
+| **F11** | **Cosmic Record** | — | **Proposed** — κ-field across cosmic time. Track B. | Not yet developed. |
 | — | Complex amplitudes | Mostly derived | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
 | — | κ dynamics | Physical field | **I** — Phenomenological reaction-diffusion | AT: Well-posedness, invariant domain, energy balance |
 | — | Clock/gravity predictions | Pre-registered | **PR** — Testable parameterized hypotheses | EV: Identifiable parameters + reproducible experiment |
