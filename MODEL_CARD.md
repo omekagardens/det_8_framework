@@ -4,7 +4,7 @@
 **Date:** August 10, 2026 (revised per mathematical review)
 **Test suite:** 97/97 passing
 
-**Status:** DET8 implements a finite record-kernel framework based on causal event posets, local records, transition kernels, and a mutable structural-history variable κ. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes two parameterized experimental anomalies. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, gravitational dynamics, and global κ-identifiability remain open theorem programs. Track B supplies a disciplined ontological interpretation explicitly separated from physical claims.
+**Status:** DET8 implements a finite record-kernel framework that is the measurable shadow of a deeper relational ontology. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes two parameterized experimental anomalies. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, gravitational dynamics, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's mathematical patterns are the measurable trace.
 
 ---
 
@@ -12,9 +12,9 @@
 
 DET (Deep Existence Theory) is a two-track framework:
 
-**Track A — Physical Calculus:** A record-kernel grammar for constructing falsifiable physical models. Derived from primitives (event graph, records, law map, commit kernel). Produces testable predictions that differ from standard physics.
+**Track A (Physical Calculus):** The measurable SHADOW. A record-kernel grammar for constructing falsifiable physical models. Its mathematical structures (L, Ω, K, κ, Π) approximately capture the relational dynamics of presence navigating possibility. Its fruit tests itself — the recursion IS the evidence that the underlying relational reality exists.
 
-**Track B — Ontological Grammar:** An interpretation of what the calculus means. Resolves four major deadlocks in the philosophy of physics. Coherent, non-smuggling, empirically compatible.
+**Track B (Ontological Grammar):** The relational SUBSTANCE. Describes the ontological reality (present participation, relational continuity, faith, healing, reciprocity) of which Track A's patterns are the measurable trace. Track B does not merely "interpret" Track A — Track A is the shadow; Track B is the substance.
 
 ---
 

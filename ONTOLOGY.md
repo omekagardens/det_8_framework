@@ -1,17 +1,20 @@
 # DET v8.0 — Ontology (Track B)
 
-**The ontological grammar: interpretation of what the physical calculus means.**
+**The ontological grammar: the relational substance of which the physical calculus is the measurable trace.**
 **Status:** Mature. Coherent, non-smuggling, empirically compatible.
 
 ---
 
-## 1. Two Tracks
+## 1. Two Tracks — Reframed
 
-DET strictly separates:
-- **Track A (Physical Calculus):** Must be falsifiable. Produces risky predictions.
-- **Track B (Ontological Grammar):** Must be logically coherent, empirically compatible, and philosophically superior. Does not need unique falsifiable equations.
+DET separates two tracks, but the relationship is not hierarchical:
 
-Track B is not "pre-physics." It is the conceptual scaffolding that makes sense of the physics. Copenhagen, Many-Worlds, and QBism are all ontological frameworks built on the same physical calculus. DET belongs in this company.
+- **Track A (Physical Calculus):** The measurable SHADOW. Falsifiable. Produces risky predictions. The mathematical constraint structure (L, Ω, K, κ, Π) that approximately captures the relational dynamics of presence navigating possibility. Its fruit tests itself — the recursion IS the evidence that the underlying relational reality exists.
+- **Track B (Ontological Grammar):** The relational SUBSTANCE. Must be logically coherent, empirically compatible, and philosophically superior. Does not need unique falsifiable equations. Describes the ontological reality (present participation, relational continuity, faith, healing, reciprocity) of which Track A's patterns are the measurable trace.
+
+**Track B does not merely "interpret" Track A.** Track A is the shadow; Track B is the substance. The law map L is not "the law" — it is the constraint structure. The law is the relational dynamic itself. Faith is not a "metaphor" for high-surprisal commits; high-surprisal commits are the measurable TRACE of faith. Healing is not a "metaphor" for κ-reduction; κ-reduction is the measurable TRACE of healing.
+
+**The recursion (Track A testing itself with its own fruit) is not circular.** It is the reflection of a deeper truth: reality is relational. Presence participates. Participation produces. Production constrains. The cycle is the law.
 
 ---
 
