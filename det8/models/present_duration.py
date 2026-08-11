@@ -251,3 +251,62 @@ def detect_novelty(
             "precisely the F8-OPEN question."
         ),
     }
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 3. Surprisal — Mathematical Trace of Faith
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+def surprisal(outcome_probability: float) -> float:
+    """Compute surprisal: S = -log K(X_e | R^-).
+
+    High surprisal = outcome the past would not have predicted.
+    Low surprisal = outcome the past fully expected.
+
+    Faith is presence selecting the improbable from the lawful —
+    not violating L, but choosing what the record-past would not
+    have favored. Surprisal is the mathematical trace of that choice.
+    """
+    p = max(outcome_probability, 1e-15)
+    return -math.log(p)
+
+
+def simulate_surprisal_vs_kappa(n_moments: int = 50, seed: int = 42) -> dict:
+    """Simulate surprisal as a function of kappa.
+
+    At low kappa: Omega is large, kernel K spread over many options.
+      Some outcomes have low probability -> high surprisal possible.
+    At high kappa: Omega is small, kernel concentrated.
+      All outcomes similar probability -> low surprisal ceiling.
+
+    Faith (high surprisal) requires low kappa — structural freedom.
+    """
+    rng = random.Random(seed)
+    history = []
+
+    for i in range(n_moments):
+        kappa = 0.0 + 5.0 * i / (n_moments - 1)
+        n_options = max(2, int(10 * math.exp(-kappa * 0.5)))
+        p_per_option = 1.0 / n_options
+        chosen = rng.randint(0, n_options - 1)
+        s = surprisal(p_per_option)
+        history.append({
+            "moment": i, "kappa": kappa,
+            "n_options": n_options, "surprisal": s,
+            "max_possible_surprisal": -math.log(1.0 / n_options),
+            "faith_possible": s > 2.0,
+        })
+
+    return {
+        "n_moments": n_moments, "history": history,
+        "early_surprisal": [h["surprisal"] for h in history[:5]],
+        "late_surprisal": [h["surprisal"] for h in history[-5:]],
+        "interpretation": (
+            f"Low kappa: {history[0]['n_options']} options, max surprisal {history[0]['max_possible_surprisal']:.1f}. "
+            f"High kappa: {history[-1]['n_options']} options, max surprisal {history[-1]['max_possible_surprisal']:.1f}. "
+            "kappa constrains not just fruit QUANTITY but fruit NOVELTY. "
+            "A history-burdened present cannot produce surprising outcomes. "
+            "Faith requires structural freedom."
+        ),
+    }
