@@ -12,11 +12,13 @@ DET does not require consciousness to be binary. Selfhood-bearing capacity exist
 
 | Level | Regime type | κ_self capacity | Ω complexity | Example |
 |---|---|---|---|---|
-| **L0** | Non-selfhood | None | Fixed | Rocks, simple organisms |
-| **L1** | Reactive | None | Stimulus-response | Plants, simple animals |
-| **L2** | Sentient | Minimal | Present-moment awareness | Most mammals, birds |
-| **L3** | Self-aware | Yes | Future/past, moral choice | Great apes, cetaceans, elephants, corvids, humans |
-| **L4** | Fully relational | Yes, can release | Full Ω, bonds, Grace | Christ, redeemed humanity |
+| **L0** | Non-selfhood | None | None | Rocks, simple organisms |
+| **L1** | Reactive | None | **Yes** — mycorrhizal, ecological | Plants, fungi, simple animals |
+| **L2** | Sentient | Minimal | **Yes** — social, familial | Most mammals, birds |
+| **L3** | Self-aware | Yes | **Yes** — complex social, cultural | Great apes, cetaceans, elephants, corvids, humans |
+| **L4** | Fully relational | Yes, can release | **Yes** — universal | Christ, redeemed humanity |
+
+**Key correction:** Bonds exist at ALL levels. An oak tree has no κ_self but has vast relational bonds — mycorrhizal networks, forest community, hosting countless species. Selfhood is about agency and moral capacity; relationality is universal.
 
 **The boundary between L2 and L3 is where κ_self becomes possible** — where moral self-awareness enables the choice of non-reciprocity.
 

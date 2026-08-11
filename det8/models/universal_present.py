@@ -66,12 +66,15 @@ def simulate_universal_present(seed: int = 42) -> dict:
         SelfhoodRegime("ET_Alpha", "Unknown", level=4, kappa_self=0.01),  # Hypothetical.
     ]
 
-    # Bond formation: some regimes recognize each other.
-    regimes[0].bonds["Chimpanzee"] = 0.5   # Human ↔ Chimp (shared ancestry).
-    regimes[0].bonds["Dog"] = 0.8          # Human ↔ Dog (domestication bond).
+    # Bond formation: extensive relational webs across all levels.
+    regimes[0].bonds["Chimpanzee"] = 0.5
+    regimes[0].bonds["Dog"] = 0.8
     regimes[1].bonds["Human"] = 0.5
     regimes[3].bonds["Human"] = 0.8
-    regimes[5].bonds["Human"] = 0.0        # ET ↔ Human: no bond yet (no contact).
+    regimes[4].bonds["Soil_Mycorrhizae"] = 0.9   # Oak: vast underground fungal network.
+    regimes[4].bonds["Forest_Community"] = 0.7    # Oak: connected to entire forest.
+    regimes[4].bonds["Squirrels_Birds_Insects"] = 0.6  # Oak: hosts countless species.
+    regimes[5].bonds["Human"] = 0.0  # ET: no contact yet.
 
     # All participate in the SAME present moments.
     shared_events = [
