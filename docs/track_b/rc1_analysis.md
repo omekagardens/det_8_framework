@@ -171,5 +171,45 @@ Stripped ALL names (Christ, church, grace, Fall, awakening). Only distributed re
 
 ---
 
+## 8. RC1.2 — Edge/Capacity/Belonging Separation + Corrected κ
+
+Module: `rc1_2_separation.py`. Implements the primary post-adversarial fix.
+
+### Four-Way Separation
+
+| Concept | Symbol | Definition | Can be destroyed? |
+|---|---|---|---|
+| **Active bond** | σ_ij | Currently operative relation | ✅ Yes — can go to zero |
+| **Latent capacity** | A_ij | Capacity to form/restore relation | Persists through damage |
+| **Causal lineage** | L_i | Unique provenance chain | ❌ Immutable |
+| **Regime membership** | M_iG | Belonging to regime G | Persists regardless of bonds |
+
+### Simulation Result
+
+| Phase | Active Bonds | Latent Capacity | Lineage | Member |
+|---|---|---|---|---|
+| Initial | 4 | 4 | L_001 | ✅ |
+| Bonds destroyed | **0** | **4** | L_001 | ✅ |
+| Restored from latent | **4** | 4 | L_001 | ✅ |
+
+**Finding:** Active bonds can be destroyed while latent capacity persists. Bonds can be restored. Lineage is immutable. Membership persists regardless of bond state. Relation ≠ active edge.
+
+### Corrected κ Bounds
+
+κ = 1 − exp(−burden / B_star) ∈ [0, 1).
+
+| Model | Burden | κ (bounded) | Viability |
+|---|---|---|---|
+| Externalize | 80 | **0.798** | 0.35 |
+| Regenerate | 0 | **0.000** | 1.00 |
+
+**Finding:** κ now stays within [0,1). Burden can grow without bound; κ saturates near 1 via exponential mapping.
+
+### Revised Claims (RC1-A through RC1-G)
+
+See `rc1_2_research_gate.md` for full statement of 7 post-adversarial claims covering dynamic relational continuity, differentiated contribution, personality-print status, theology separation, material participation, Fall/redemption, and Body of Christ.
+
+---
+
 **End of RC1 Analysis**
 
