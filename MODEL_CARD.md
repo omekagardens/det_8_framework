@@ -2,7 +2,7 @@
 
 **Primary reference for the Deep Existence Theory framework.**
 **Date:** August 10, 2026 (revised per mathematical review)
-**Test suite:** 145/145 passing
+**Test suite:** 170/170 passing
 
 **Status:** DET8 implements a finite record-kernel framework that is the measurable shadow of a deeper relational ontology. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes two parameterized experimental anomalies. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, gravitational dynamics, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's mathematical patterns are the measurable trace.
 
@@ -104,7 +104,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 
 ## 7. Code Module Inventory (selected subset)
 
-> **Honest scoping (Round 3 red-team):** this is a **selected subset** — `det8/models/` contains 78 `.py` files. The list below omits the Track B simulation suite (`resurrection_simulation`, `atonement_simulation`, `afterlife_simulation`, `salvation_history`, `unified_death_sin`, `track_b_simulations`), the `rc1_*` research modules, the 14 `continuum_limit_*` modules, and several dataset-analysis modules.
+> **Honest scoping (Round 3 red-team):** this is a **selected subset** — `det8/models/` contains 80 `.py` files. The list below omits the Track B simulation suite (`resurrection_simulation`, `atonement_simulation`, `afterlife_simulation`, `salvation_history`, `unified_death_sin`, `track_b_simulations`), the `rc1_*` research modules, the 14 `continuum_limit_*` modules, and several dataset-analysis modules.
 
 ```
 det8/models/
@@ -136,7 +136,9 @@ det8/models/
 ├── o4_joint_kernel.py                  # O4 resolution
 ├── o7_causal_spacetime.py, o7_derivation.py, o7_continuum_limit.py  # O7
 ├── preferred_basis.py                  # O8 resolution
-└── anthropic_principle.py              # Anthropic Principle (F12)
+├── anthropic_principle.py              # Anthropic Principle (F12)
+├── gravity_v2.py                       # Two-source gravity (F2 resolution)
+└── kappa_discriminator.py              # κ vs defect density (F9)
 ```
 
 ---
@@ -166,8 +168,10 @@ det8/models/
 ## 9. Constants and Free Parameters
 |---|---|---|
 | λ_P | κ-drag coupling on Π | Free (constrained by clock experiment) |
-| λ_γ | κ → gravitational charge conversion | Free (constrained by gravity experiment) |
-| G_q | κ-gravity coupling | Free (degenerate with λ_γ) |
+| λ_γ | κ → gravitational charge conversion | **Deprecated** (legacy κ-only law) |
+| G_q | κ-gravity coupling | **Deprecated** (legacy κ-only law) |
+| α | κ-response coupling (gravity v2) | Free (G_eff = G(1+αχ)) |
+| κ_earth | κ normalization reference (gravity v2) | Free (χ = (κ−κ_eq)/κ_earth) |
 | κ_eq | Equilibrium structural history | Free (system-dependent) |
 | τ_rec | Recovery time scale | Free (system-dependent) |
 | K | Structural stiffness | Free (system-dependent) |
@@ -182,9 +186,9 @@ det8/models/
 
 **Proper time:** \(\Delta\tau_i = \Pi_i \Delta N_i\) with \(N\) the monotone event-count variable (\(N \neq \kappa\); M0 fix).
 
-**Gravitational source:** \(\rho_\gamma = \lambda_\gamma\kappa - \gamma_b\)
+**Gravitational source (v2):** \(\nabla^2\Phi = 4\pi G(\rho_m + \rho_\kappa)\), \(\rho_\kappa = \rho_m\,\chi(\kappa)\), \(\chi(\kappa) = (\kappa-\kappa_{eq})/\kappa_{earth}\)
 
-**Field equation:** \(\nabla^2\Phi = 4\pi G_q\rho_\gamma\) (Newtonian limit)
+**Effective coupling:** \(G_{eff} = G(1+\alpha\chi)\) (linear in κ; equivalence principle preserved)
 
 **Born rule:** \(K(i) = |c_i|^2\) where \(c_i' = \sum_j U_{ij} c_j\)
 
@@ -198,7 +202,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**145/145 tests passing** over **15 of 78 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
+**170/170 tests passing** over **17 of 80 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.
@@ -210,7 +214,7 @@ The test suite does **NOT** verify:
 - ❌ That DET makes correct empirical predictions.
 - ❌ That κ, Π, or λ_P exist in nature.
 
-**Coverage caveat (Round 3 red-team):** the 145 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, and the Track A clock/gravity parameter code (`clock_experiment`, `clock_anomaly`, `track_a`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and the entire astrophysics suite (`sparc_analysis`, `cluster_dynamics`, `post_newtonian`, `kappa_derivation`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
+**Coverage caveat (Round 3 red-team):** the 170 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/gravity parameter code (`clock_experiment`, `clock_anomaly`, `track_a`), and the Round 3 resolution modules (`gravity_v2`, `kappa_discriminator`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and the entire astrophysics suite (`sparc_analysis`, `cluster_dynamics`, `post_newtonian`, `kappa_derivation`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
 
 Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 

@@ -588,6 +588,97 @@ def test_redteam_fixes():
     test("F11: clock/gravity κ consistency", cp["consistency"] is True)
 
 
+# ── Gravity v2 (F2 resolution) Tests ───────────────────────────────────────
+
+def test_gravity_v2():
+    from det8.models import gravity_v2 as g
+
+    section("Gravity v2 (F2 resolution)")
+
+    # Three-quantity split: χ, G_eff, ρ_κ.
+    test("χ(κ=κ_eq) = 0", abs(g.response_field(0.0, 0.0, 1.0)) < 1e-12)
+    test("χ(κ=0.5) = 0.5", abs(g.response_field(0.5) - 0.5) < 1e-12)
+    test("G_eff(κ_eq) = G", abs(g.effective_G(0.0) / g.G_NEWTON - 1.0) < 1e-12)
+    test("G_eff(κ=0.5) = 1.5 G", abs(g.effective_G(0.5) / g.G_NEWTON - 1.5) < 1e-12)
+    test("ρ_κ = ρ_m·χ", abs(g.source_density_kappa(2.0, 0.5) - 1.0) < 1e-12)
+
+    # Dimensional consistency.
+    dc = g.dimensional_consistency()
+    test("∇²Φ = 4πG(ρ_m+ρ_κ) dimensionally consistent", dc["consistent"])
+
+    # Equivalence principle: force scales ∝ m.
+    F1 = g.point_source_force(1.0, 1.0, 1.0, 0.5)
+    F2 = g.point_source_force(2.0, 1.0, 1.0, 0.5)
+    test("Force scales ∝ mass (m → 2m doubles F)", abs(F2 / F1 - 2.0) < 1e-12)
+
+    # κ-dependence: increasing κ increases G_eff.
+    test("G_eff increases with κ",
+         g.effective_G(0.8) > g.effective_G(0.2))
+
+    # Decoupling prediction v2: recovery removes only F_κ, not F_N.
+    d = g.decoupling_prediction_v2(m1=1.0, m2=1.0, r=0.1, kappa=0.5)
+    test("Recovery leaves F_N (not zero)", abs(d["F_after"] - d["F_N"]) < 1e-15 and d["F_after"] > 0.0)
+    test("ΔF = F_κ > 0", d["delta_F"] > 0.0 and abs(d["delta_F"] - d["F_kappa"]) < 1e-15)
+    test("F_before = F_N + F_κ", abs(d["F_before"] - (d["F_N"] + d["F_kappa"])) < 1e-15)
+
+    # Three-law comparison (historical audit).
+    c = g.compare_force_laws(m1=1.0, m2=1.0, r=1.0, kappa1=0.5, kappa2=0.5)
+    test("Law (a) κ-only does NOT scale with mass",
+         not c["mass_scaling_audit"]["a_scales_with_mass"])
+    test("Law (v2) scales with mass",
+         c["mass_scaling_audit"]["v2_scales_with_mass"])
+
+    # Invalid inputs.
+    try:
+        g.response_field(0.5, kappa_earth=0.0)
+        test("χ rejects κ_earth ≤ 0", False, "should have raised")
+    except ValueError:
+        test("χ rejects κ_earth ≤ 0", True)
+
+
+# ── κ vs. Defect-Density Discriminator (F9) Tests ──────────────────────────
+
+def test_kappa_discriminator():
+    from det8.models import kappa_discriminator as kd
+
+    section("κ vs. Defect-Density Discriminator (F9)")
+
+    # Arrhenius annealing: faster (shorter τ) at higher T.
+    tau_low = kd.annealing_timescale(300.0, 1.0, 1e-13)
+    tau_high = kd.annealing_timescale(900.0, 1.0, 1e-13)
+    test("Annealing faster at higher T", tau_high < tau_low)
+
+    # κ-recovery is T-independent (same τ at any T).
+    test("κ-recovery is T-independent",
+         abs(kd.kappa_recovery_timescale(1e4) - kd.kappa_recovery_timescale(1e4)) < 1e-15)
+
+    # κ trajectory: κ(0)=κ0, κ(∞)→κ_eq.
+    test("κ(0) = κ0", abs(kd.kappa_trajectory(0.0, 0.5, 0.0, 1e4) - 0.5) < 1e-12)
+    test("κ(∞) → κ_eq", abs(kd.kappa_trajectory(1e8, 0.5, 0.0, 1e4)) < 1e-12)
+
+    # Clock shift convention.
+    test("Δν/ν = λ_P·κ/(1+λ_P·κ)",
+         abs(kd.clock_shift(0.5, 1.0) - 1.0 / 3.0) < 1e-12)
+
+    # The discriminator: κ (T-independent) vs defect (Arrhenius).
+    d = kd.discriminator_signature()
+    test("Discriminator: hypotheses separable", d["distinguishable"])
+    test("κ recovery ratio = 1 across T", abs(d["kappa_T_ratio"] - 1.0) < 1e-12)
+    test("Defect annealing ratio ≠ 1 across T", abs(d["annealing_sweep_factor"] - 1.0) > 1e-3)
+
+    # Simulated signal decay: distinct decay constants.
+    sim = kd.simulate_signal_decay([0.0, 1e3, 1e4, 1e5])
+    test("κ τ_rec ≠ τ_anneal at 600K", abs(sim["tau_rec_s"] - sim["tau_anneal_s"]) > 1e-9)
+    test("κ clock shift decreases over time", sim["shift_kappa"][-1] < sim["shift_kappa"][0])
+
+    # Invalid input.
+    try:
+        kd.annealing_timescale(0.0, 1.0, 1e-13)
+        test("annealing rejects T ≤ 0", False, "should have raised")
+    except ValueError:
+        test("annealing rejects T ≤ 0", True)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -682,6 +773,20 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in redteam_fixes: {e}")
+        traceback.print_exc()
+
+    try:
+        test_gravity_v2()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in gravity_v2: {e}")
+        traceback.print_exc()
+
+    try:
+        test_kappa_discriminator()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in kappa_discriminator: {e}")
         traceback.print_exc()
 
     section("RESULTS")

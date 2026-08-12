@@ -96,7 +96,7 @@ The code tries to paper over this in `calibrate_gravity_to_real` with the constr
 3. Whatever the resolution, the decoupling experiment must specify **what changes and what is held fixed** in dimensional terms: "ΔM = 0 but Δκ ≠ 0" is only meaningful if κ is defined independently of M. Today it is not.
 4. Add a single test that asserts the three force laws agree in the regime where they are all claimed to apply (e.g., a point source with a given κ and mass). Currently such a test would fail, which is why it should exist.
 
-> **Team A response:** Accepted as a real internal inconsistency. Surfaced verbatim in `PHYSICS.md` §2.2 (three force laws + dimensional gap). I did **not** pick a law — the mass→κ mapping and λ_γ units are a physics decision for Team A. Recommended resolution before any gravity experiment is proposed.
+> **Team A response:** Accepted as a real internal inconsistency. **Decision made (August 12):** the mass-independent law (a) is **DEPRECATED**; Team A adopted the **two-source field equation** `∇²Φ = 4πG(ρ_m + ρ_κ)` with `ρ_κ = ρ_m·χ(κ)`, `χ(κ) = (κ−κ_eq)/κ_earth`, effective coupling `G_eff = G(1+αχ)` — **linear in κ**, equivalence principle preserved. Implemented in `gravity_v2.py` (dimensional-consistency check, three-law comparison audit, rewritten decoupling prediction `ΔF = F_κ`, not `F → 0`). `PHYSICS.md` §2.2/§3 and `MODEL_CARD.md` §9/§10 updated; `G_q`/`λ_γ` marked deprecated. The linear-vs-quadratic ambiguity resolves to **linear** (SPARC's `(κ/κ_earth)²` was double-counting κ; to be re-derived, not yet done).
 
 ---
 
@@ -206,7 +206,7 @@ Several numeric claims in `PHYSICS.md` §9–§11 and `MODEL_CARD.md` §8 do not
 
 **Suggested fix:** Define the specific observable that would distinguish κ from defect density (e.g., a temporal signature: κ-recovery follows `τ_rec` independently of thermal annealing; or a κ-dependence of a quantity that standard defect density does not affect). Pre-register that discriminator as the actual test. Until then, the clock experiment cannot claim novelty over standard materials science.
 
-> **Team A response:** Accepted as the most important open item. Surfaced in `PHYSICS.md` §1. The κ-vs-defect-density discriminator (a τ_rec temporal signature decoupled from thermal annealing) is now the #1 recommended simulation — it is the difference between "novel field" and "relabeling."
+> **Team A response:** Accepted as the most important open item. Surfaced in `PHYSICS.md` §1. **Implemented (August 12):** `kappa_discriminator.py` now simulates both hypotheses and computes the discriminating statistic — κ-recovery (`τ_rec`, T-independent) vs defect annealing (`τ_anneal(T) = τ_0·exp(E_a/k_B T)`, Arrhenius). The discriminator is the temperature dependence of the measured recovery time: T-independent ⇒ κ ≠ defect density; Arrhenius ⇒ κ = defect density. This is the gating experiment before any clock/gravity lab proposal.
 
 ### F10 — Inconsistent DET signal magnitude across modules
 
@@ -297,4 +297,55 @@ Concrete, actionable laboratory directions that are within the framework's exist
 
 ---
 
-*End of Round 3 review. Team A's inline responses and any code changes will be re-checked against the live tree next round.*
+## 8. Round 4 — Red-Team Re-Review of Team A's Response
+
+**Date:** August 12, 2026. I re-verified the working tree at commit `bbf6971` ("Red-team Round 3 response").
+
+### 8.1 Verdict on the Round 3 response
+
+The response is **substantive and, on the engineering items, correct.** I re-ran the suite and the specific functions:
+
+- **145/145 tests pass.** ✓
+- **F4 fixed** — `simulate_clock_experiment` no longer crashes; returns a dict with a finite `best_significance`. ✓
+- **F10 fixed** — `predict_clock_anomaly(...).fractional_difference` now equals `det_clock_signal(...)` to `1e-12`; both use `y = 1 − Π_B/Π_A`. The direction is also correct (pristine clock has the higher frequency). ✓
+- **F11 fixed** — `estimate_lambda_p([999,999,999], …)` no longer returns 0.5; `None` input correctly sets `synthetic=True` and recovers the demo λ_P = 0.5; the dead `combined_prediction` branch is gone and κ inversion generalizes to κ_A ≠ 0. ✓
+- **F1/F3/F5/F6/F7/F8/F13/F15 reclassification** is present in the committed `MODEL_CARD.md`/`PHYSICS.md` diffs and is genuinely honest (the "correspondence checks" framing, the coverage statement, and the reproducibility/vacuity caveats are all real, not cosmetic).
+
+The disposition table in §0 is **accurate**: Team A marked every accepted finding correctly, fixed the engineering items, and explicitly flagged F2 and F9 as physics/ontology decisions rather than pretending they were resolved. This is exactly the right behavior for a governed framework.
+
+### 8.2 Residual and new findings (not yet addressed)
+
+**N1 — "Resolved" language survives in README/ROADMAP and contradicts the claim register.**
+`README.md` line 20 and `ROADMAP.md` line 29 still assert **"All 6 major open problems resolved (O1–O4, O7, O8)"**, while `MODEL_CARD.md` §6 now (correctly) lists the same problems as **CI / I / CI-FT** with the AT/CT/FT theorem programs open. The §3/§5 reclassification did not propagate to the "resolved" headlines. An external reader will hit `README.md` → "resolved" → `MODEL_CARD.md` → "open theorem program" in the same sitting. **Fix:** replace "resolved" with "constructed instances; analytic theorems open" in `README.md` and `ROADMAP.md`.
+
+**N2 — F2 is deeper than "pick one force law": the source term is doubly defined in the core module, still labeled "q".**
+`det8_core.py`:
+- `gamma` property returns `λ_γ · κ` (line 101);
+- `effective_gravity_source` returns `record.kappa − baseline` (dimensionless), and its docstring still says "ρ = q − b" (lines 259–273).
+
+So the *source* itself is inconsistent: is it `κ − b` or `λ_γ·κ − γ_b`? One carries `λ_γ`, the other doesn't; one is dimensionless, the other isn't. This is not a "Team A physics decision" deferred to the side — it is a live code contradiction inside the one module every other gravity module imports. It is also **entangled with F14**: the q→κ rename was supposed to separate "structural history" (κ) from "gravitational charge" (γ), but `effective_gravity_source` still returns raw κ and still says "q". **Recommendation:** resolve the source definition *and* the F14 rename together, because they are the same token. Until then, `det8_core` is not a coherent gravity source.
+
+**N3 — `MODEL_CARD.md` §3 table rows still read as derivations (minor).**
+The header now says "correspondence checks," but the per-row "Correspondence" column still contains derivation language — e.g. "Kernel roots + linear composition," "3D geometry + κ-charge superposition," "Event density ratio from ≺," "Symmetries preserving ≺." The disclaimer does the honesty work; the rows undercut it. **Fix:** rewrite the rows to state the *assumption*, e.g. "1/r² force law — 1/r potential *postulated*; recovered when κ → source charge."
+
+**N4 — The F9 discriminator is a slogan until it is made quantitative.**
+"τ_rec temporal signature decoupled from thermal annealing" is the right *idea*, but as stated it is not yet a pre-registrable test. A pre-registration requires: (a) a stated τ_rec value or range and how it is set by the model; (b) the competing annealing model (e.g., Arrhenius recovery with defect-type-specific activation energies) it must be shown to *exceed*; (c) sample count and detection significance. **Recommendation:** write the discriminator as a simulation with a concrete annealing-rate benchmark and a power analysis, exactly mirroring the `clock_experiment.py` structure (after F4). This is the single highest-value new simulation.
+
+**N5 — The "smoking gun" is currently a tautology, not a test.**
+In `track_a.combined_prediction`, `kappa_clock` and `kappa_grav` are both computed from the **same input** `kappa_b`:
+- `kappa_clock = (ratio−1)/λ_P + ratio·κ_A` → for κ_A=0, equals κ_b by algebra;
+- `kappa_grav = √(G_q·(λ_γ κ_b)²/r² · r²/G_q)/λ_γ` → equals κ_b by algebra.
+
+So `consistency = abs(kappa_clock − kappa_grav) < 1e-12` is **True by construction**, and the new test `cp["consistency"] is True` passes trivially. The "three independent measurements of the same κ must agree" claim is not exercised by any code — both values trace to the same parameter. **Fix:** feed `combined_prediction` *independent, noisy* measurements (a proxy κ, a clock-inferred κ, a gravity-inferred κ, each with its own uncertainty) and test whether they agree within propagated error. As written, the "smoking gun" is an algebraic identity, which is exactly the kind of thing a red-team must not let stand.
+
+### 8.3 Updated priority list
+
+1. **F2 + N2 + F14 together** — resolve the gravity source definition (`κ − b` vs `λ_γ κ − γ_b`), pick one force law, fix dimensions, and complete the q→κ rename in one pass. This is now unambiguously the top blocker: the core module is internally contradictory and the pre-registered decoupling prediction cannot be interpreted until it is fixed. *(physics decision + code)*
+2. **N1** — propagate "CI/open" into README/ROADMAP headlines. *(one-line doc change)*
+3. **N5** — replace the tautological `combined_prediction.consistency` with an independent-measurement test. *(code)*
+4. **N4** — make the κ-vs-defect-density discriminator quantitative and pre-register it. *(new simulation)*
+5. **N3 + F1-item-3 (module headers) + F14 naming** — remaining documentation polish. *(low urgency)*
+
+---
+
+*End of Round 4. Team A's next response will be re-checked against the live tree in Round 5.*

@@ -57,21 +57,31 @@ The structural history field κ replaces the original conflated `q` variable.
 
 **Damage protocol specification:** The κ=0.5 preparation must change κ while holding standard parameters constant to the required precision. Candidate protocol: neutron irradiation with active cryogenic cooling maintains T stability to <1mK. The neutron flux introduces lattice defects (primarily Frenkel pairs in Yb/Sr optical lattices) with negligible electromagnetic side-effects: no net charge injection (ΔE ≈ 0), no magnetic field generation (ΔB < 1nT), and no change in atomic density (Δn/n < 10⁻⁹). The dominant remaining confounder is BBR from any residual temperature increase, held to <10⁻¹⁸ by active cooling. For low-λ_P searches (10⁻¹⁶–10⁻¹⁷), the 12-day integration requires active systematic control of BBR drift to maintain SNR. Below λ_P=10⁻¹⁷, next-generation nuclear clocks (~10⁻¹⁹ precision) are needed.
 
-### 2.2 κ-Gravity Decoupling
+### 2.2 κ-Gravity Decoupling (v2 — two-source)
 
-> **⚠ Known internal inconsistency (Round 3 red-team, open).** The codebase currently contains three mutually incompatible force laws: (a) this pre-registered mass-independent law `F = G_q·λ_γ²·κ₁κ₂/r²`; (b) `post_newtonian.py`'s `G_eff(r) = G·κ(r)/κ_earth` with standard `F = G_eff·Mm/r²`; and (c) `sparc_analysis.py`'s `v² = G·M_baryon/r·(κ/κ_earth)²`. These cannot all hold simultaneously, and (a) is dimensionally inconsistent with (b)/(c) (a dimensionless κ in [0,1] cannot carry mass units). This is an **open physics decision** (Team A), not yet resolved; §8–§10 below use laws (b)/(c). See the inline red-team response.
+> **Resolved (Round 3 red-team, Team A decision).** The mass-independent law `F = G_q·λ_γ²·κ₁κ₂/r²` is **DEPRECATED** (empirically falsified by the equivalence principle: a 1 g and a 1000 kg mass with equal κ do not gravitate identically). It is retained only as a historical audit (`gravity_v2.compare_force_laws`). The active law is the **two-source field equation** (`gravity_v2.py`):
 
-**Formula:** \(F = G_q(\lambda_\gamma\kappa)^2/r^2\)
+\[
+\nabla^2\Phi = 4\pi G(\rho_m + \rho_\kappa),
+\qquad
+\rho_\kappa = \rho_m\,\chi(\kappa),
+\qquad
+\chi(\kappa) = \frac{\kappa-\kappa_{eq}}{\kappa_{earth}}
+\]
+
+with effective coupling \(G_{eff} = G(1+\alpha\chi)\) — **linear in κ**. The point-source force \(F = G_{eff}\,m_1m_2/r^2\) scales ∝ m₁m₂, preserving the equivalence principle. κ remains dimensionless in [0,1]; it **modifies the gravitational response**, it does not replace mass, and it is not a hidden mass variable.
 
 **Null model:** F = GM²/r² (standard Newton) — no change when M is constant but κ changes.
 
+**Rewritten prediction (v2):** recovering κ (κ → κ_eq ⇒ χ → 0) removes only the anomalous component \(F_\kappa = G\alpha\chi\,m_1m_2/r^2\), leaving standard Newtonian \(F_N\). The signature is \(\Delta F = F_\kappa \neq 0\), **not** F → 0.
+
 **Measurement:** Torsion balance (force resolution ~10⁻¹⁵ N at r=0.1m).
 
-**Sensitivity:** λ_γ ≥ 5×10⁻⁹ for 5σ detection.
+**Sensitivity:** α·χ must be resolved above the mass-defect floor (the λ_γ ≥ 5×10⁻⁹ sensitivity is superseded pending recalibration).
 
-**Experiment simulator:** `gravity_experiment.py`.
+**Experiment simulator:** `gravity_v2.py` (`decoupling_prediction_v2`); legacy `gravity_experiment.py` retained for the deprecated law.
 
-**Mass-defect confound:** If damage adds energy ΔE, the mass change is Δm = ΔE/c². For a 1kg test mass with ΔE = 1J, Δm ≈ 10⁻¹⁷ kg, producing a relative gravitational change of ~10⁻¹⁷. The DET signal (force → 0 after recovery) is 10¹⁷× larger. The mass-defect confound is negligible at all accessible energy scales.
+**Mass-defect confound:** If damage adds energy ΔE, the mass change is Δm = ΔE/c². For a 1kg test mass with ΔE = 1J, Δm ≈ 10⁻¹⁷ kg, producing a relative gravitational change of ~10⁻¹⁷. The DET signal (ΔF = F_κ) must exceed this; the fractional \(F_\kappa/F_N = \alpha\chi\) must be resolved above ~10⁻¹⁷.
 
 ### 2.3 Combined Signature (Smoking Gun)
 
@@ -79,9 +89,9 @@ The structural history field κ replaces the original conflated `q` variable.
 
 ---
 
-## 3. Newtonian Correspondence
+## 3. Newtonian Correspondence (legacy κ-only; superseded by gravity_v2)
 
-All Newtonian observables reproduced exactly from DET primitives:
+> **Deprecated (Round 3).** This section records the κ-only correspondence (`newton_correspondence.py`, `a = −G_q·γ/r²`). It is a *correspondence check* (Kepler recovered because the law is Newtonian with `m → κ`), and its source law is superseded by the two-source field equation in §2.2 / `gravity_v2.py`. Retained for historical audit.
 
 | Observable | Match |
 |---|---|
@@ -92,7 +102,7 @@ All Newtonian observables reproduced exactly from DET primitives:
 | Kepler 3 (T² ∝ r³) | Ratio 0.99994 |
 | Orbital velocity | \(v = \sqrt{G_q\gamma/r}\) |
 
-**Difference:** DET sources gravity with κ (structural history), not mass. Free parameters: G_q and λ_γ (degenerate without independent κ measurement).
+**Difference (legacy):** this section sources gravity with κ alone (now deprecated). The active law (§2.2) keeps mass as the conserved source with κ as a modifier.
 
 ---
 
