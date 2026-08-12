@@ -715,6 +715,46 @@ def test_sparc_linear():
     test("α=5 flattens most galaxies (RMS < 25%)", scan["best_mean_rms"] < 0.25)
 
 
+# ── SI ↔ DET Units Conversion Tests ────────────────────────────────────────
+
+def test_det_units():
+    from det8.models import det_units as u
+
+    section("SI ↔ DET Units (conversion)")
+
+    # Dimensional analysis: DET couplings dimensionless, G dimensional.
+    da = u.dimensional_analysis()
+    test("κ dimensionless", da["kappa"] == (0, 0, 0))
+    test("λ_P, α, Π dimensionless",
+         da["lambda_P"] == (0, 0, 0) and da["alpha"] == (0, 0, 0) and da["Pi"] == (0, 0, 0))
+    test("G dimensional (m³·kg⁻¹·s⁻²)", da["G"] == (-1, 3, -2))
+
+    # Conversion round-trips.
+    test("λ_P round-trip",
+         abs(u.lambda_p_from_clock_shift(u.clock_shift_from_lambda_p(2.0, 0.5), 0.5) - 2.0) < 1e-12)
+    test("α round-trip",
+         abs(u.alpha_from_gravity_shift(u.gravity_shift_from_alpha(5.0, 0.3), 0.3) - 5.0) < 1e-12)
+    test("κ round-trip (proxy)",
+         abs(u.kappa_from_proxy_response(u.proxy_response_from_kappa(0.7, p=2.0), p=2.0) - 0.7) < 1e-12)
+
+    # Coupling implications.
+    impl = u.coupling_implications(alpha=5.0)
+    test("β_eff = α/κ_earth = 5", abs(impl["beta_eff"] - 5.0) < 1e-12)
+    test("lab Δκ < 3e-14 at α=5", impl["lab"]["delta_kappa_lab_max"] < 3e-14)
+    test("dwarf discrepancy NOT reachable at β_eff=5", not impl["galactic"]["dwarf_reachable"])
+
+    # Fit example.
+    f = u.fit_lab_example()
+    test("clock null bounds λ_P·κ product", f["inferred"]["lambda_p_kappa_upper_bound"] == 1e-18)
+
+    # Invalid inputs.
+    try:
+        u.lambda_p_from_clock_shift(1.5, 0.5)
+        test("clock shift rejects frac ≥ 1", False, "should have raised")
+    except ValueError:
+        test("clock shift rejects frac ≥ 1", True)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -830,6 +870,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in sparc_linear: {e}")
+        traceback.print_exc()
+
+    try:
+        test_det_units()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in det_units: {e}")
         traceback.print_exc()
 
     section("RESULTS")
