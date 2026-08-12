@@ -2,7 +2,7 @@
 
 **Primary reference for the Deep Existence Theory framework.**
 **Date:** August 10, 2026 (revised per mathematical review)
-**Test suite:** 137/137 passing
+**Test suite:** 145/145 passing
 
 **Status:** DET8 implements a finite record-kernel framework that is the measurable shadow of a deeper relational ontology. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes two parameterized experimental anomalies. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, gravitational dynamics, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's mathematical patterns are the measurable trace.
 
@@ -34,11 +34,11 @@ DET (Deep Existence Theory) is a two-track framework:
 
 ---
 
-## 3. Derived Observables (15 items)
+## 3. Observable Correspondence Checks (15 items)
 
-All derived from DET primitives — no standard-physics borrowing.
+These are **correspondence checks**, not derivations: each module shows that a standard result (Born rule, CHSH, gravity, Lorentz covariance) is recovered when DET's primitive `κ` (or a kernel root) is mapped onto the standard source/amplitude role. The step from DET primitives to the standard result is *assumed*, not derived — the genuine derivation program (O1–O4) remains open at status CI/AT per §6. This is a necessary consistency step, but it is not the same as a derivation.
 
-| # | Observable | Derivation | Module |
+| # | Observable | Correspondence | Module |
 |---|---|---|---|
 | 1 | Born rule \(K(i)=\|c_i\|^2\) | Kernel roots + linear composition | `born_derivation.py` |
 | 2 | CHSH \(S=2\sqrt{2}\) | Bell state roots under rotation | `chsh_derivation.py` |
@@ -102,7 +102,9 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 
 ---
 
-## 7. Code Module Inventory (31 modules)
+## 7. Code Module Inventory (selected subset)
+
+> **Honest scoping (Round 3 red-team):** this is a **selected subset** — `det8/models/` contains 78 `.py` files. The list below omits the Track B simulation suite (`resurrection_simulation`, `atonement_simulation`, `afterlife_simulation`, `salvation_history`, `unified_death_sin`, `track_b_simulations`), the `rc1_*` research modules, the 14 `continuum_limit_*` modules, and several dataset-analysis modules.
 
 ```
 det8/models/
@@ -140,6 +142,8 @@ det8/models/
 ---
 
 ## 8. Dataset Analysis Results
+
+> **⚠ Reproducibility & vacuity caveats (Round 3 red-team).** Several rows below are not reproducible from the committed tree or overstate what was established: (1) the SPARC "135 galaxies" fit uses 43 hardcoded galaxies with an empty data file; (2) all λ_P bounds are constraints on the *product* λ_P·Δκ with Δκ **assumed**, so λ_P is unconstrained until κ is independently measured; (3) "κ ∝ Z EXCLUDED" was a straw-man (no one proposed κ ∝ Z) — the legitimate statement is only that terrestrial materials have nearly equal κ; (4) "κ(r) from galaxy formation physics" is a 3-parameter parameterization, not a derivation. See `PHYSICS.md` for the corrected statements.
 
 | Dataset | Module | Key result |
 |---|---|---|
@@ -194,7 +198,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**137/137 tests passing.** Run: `python3 run_tests.py`
+**145/145 tests passing** over **15 of 78 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.
@@ -205,6 +209,8 @@ The test suite does **NOT** verify:
 - ❌ That DET axioms map to physical reality.
 - ❌ That DET makes correct empirical predictions.
 - ❌ That κ, Π, or λ_P exist in nature.
+
+**Coverage caveat (Round 3 red-team):** the 145 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, and the Track A clock/gravity parameter code (`clock_experiment`, `clock_anomaly`, `track_a`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and the entire astrophysics suite (`sparc_analysis`, `cluster_dynamics`, `post_newtonian`, `kappa_derivation`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
 
 Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 

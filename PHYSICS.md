@@ -25,6 +25,8 @@ The structural history field κ replaces the original conflated `q` variable.
 
 **κ measurement:** Structural proxy (`structural_proxy.py`) — calibrated mechanical probe. Δκ_min ≈ 0.002 at 1% noise. Cross-validated with clock and gravity.
 
+> **⚠ κ vs. defect density (Round 3 red-team, open).** The structural proxy currently models κ as "fraction of locked structural degrees of freedom" with standard materials-science proxies (dislocation density, residual stress, hardness, resistivity). No discriminator yet distinguishes "κ is a new field" from "κ = defect density". Until a discriminator is pre-registered (e.g., a τ_rec temporal signature decoupled from thermal annealing), the clock anomaly cannot claim novelty over standard materials science.
+
 **Standard variable completeness audit:** To isolate a κ residual, all known material parameters affecting the probe response must be measured and corrected for. The audit lists: density, temperature, elastic moduli, thermal history, known defect density, and any other standard material parameter contributing >0.1× the κ signal. Any residual beyond the combined uncertainty of all listed parameters is the κ candidate. If residual is zero, κ is falsified as independent. Nonzero residual may still be κ or an unmeasured standard variable — the test can falsify but not conclusively confirm κ without exhaustive parameter coverage.
 
 **κ-diffusion:** \(d\kappa_i/dt = D\sum_j\sigma_{ij}(\kappa_j-\kappa_i) - (\kappa_i-\kappa_{eq})/\tau_{rec} + \dot\kappa_{damage}\) (`kappa_diffusion.py`)
@@ -56,6 +58,8 @@ The structural history field κ replaces the original conflated `q` variable.
 **Damage protocol specification:** The κ=0.5 preparation must change κ while holding standard parameters constant to the required precision. Candidate protocol: neutron irradiation with active cryogenic cooling maintains T stability to <1mK. The neutron flux introduces lattice defects (primarily Frenkel pairs in Yb/Sr optical lattices) with negligible electromagnetic side-effects: no net charge injection (ΔE ≈ 0), no magnetic field generation (ΔB < 1nT), and no change in atomic density (Δn/n < 10⁻⁹). The dominant remaining confounder is BBR from any residual temperature increase, held to <10⁻¹⁸ by active cooling. For low-λ_P searches (10⁻¹⁶–10⁻¹⁷), the 12-day integration requires active systematic control of BBR drift to maintain SNR. Below λ_P=10⁻¹⁷, next-generation nuclear clocks (~10⁻¹⁹ precision) are needed.
 
 ### 2.2 κ-Gravity Decoupling
+
+> **⚠ Known internal inconsistency (Round 3 red-team, open).** The codebase currently contains three mutually incompatible force laws: (a) this pre-registered mass-independent law `F = G_q·λ_γ²·κ₁κ₂/r²`; (b) `post_newtonian.py`'s `G_eff(r) = G·κ(r)/κ_earth` with standard `F = G_eff·Mm/r²`; and (c) `sparc_analysis.py`'s `v² = G·M_baryon/r·(κ/κ_earth)²`. These cannot all hold simultaneously, and (a) is dimensionally inconsistent with (b)/(c) (a dimensionless κ in [0,1] cannot carry mass units). This is an **open physics decision** (Team A), not yet resolved; §8–§10 below use laws (b)/(c). See the inline red-team response.
 
 **Formula:** \(F = G_q(\lambda_\gamma\kappa)^2/r^2\)
 
@@ -110,20 +114,24 @@ All 7 relativistic observables derived from event graph ≺:
 
 ---
 
-## 5. Quantum Derivations
+## 5. Quantum Correspondence
 
-| Derivation | Key insight |
+> **Honest reclassification (Round 3 red-team).** These are **correspondence checks**: each recovers a standard quantum result after standard amplitudes/rotations are *assumed*. They are not derivations from DET primitives — the uniqueness/derivation theorems remain open (O1/O2 status CI/AT per `MODEL_CARD.md` §6).
+
+| Correspondence | Key insight |
 |---|---|
-| Born rule | K(i) = \|c_i\|² from kernel root composition forced by nonfactorizable records |
-| CHSH = 2√2 | Bell state roots (1/√2,0,0,1/√2) under rotation |
-| E(a,b) = cos(2(a-b)) | Nonfactorizable joint kernel from relational record |
+| Born rule | K(i) = \|c_i\|² is *postulated* in the definition of a kernel root; the uniqueness theorem is open |
+| CHSH = 2√2 | Standard Bell state (1/√2,0,0,1/√2) + standard rotation, relabeled |
+| E(a,b) = cos(2(a-b)) | Standard Bell state + rotation in the joint-kernel language |
 | Pointer formation | Consensus of N weak commit events (no Kraus needed) |
-| Amplitude structure | Complex numbers from continuous interference requirement |
+| Amplitude structure | Complex numbers assumed; U(1) emergence from Z₂ is a sketch (open) |
 | Hilbert space | Space of kernel roots with inner product ⟨c,d⟩ = Σ c_i* d_i |
 
 ---
 
 ## 6. Anti-Smuggling Audit
+
+> **Honest note (Round 3 red-team):** the "% DET-derived" figures below are the authors' self-assessments. The quantum/gravity/Lorentz "derivation" modules are standard physics with the symbol `m → κ` substituted (see §5 reclassification); their high percentages reflect DET *terminology*, not DET *derivation*. Genuine anti-smuggling holds only for the modules built purely from DET primitives (`mam0`, `det8_core`, `anthropic_principle`).
 
 | Model | % DET-derived |
 |---|---|
@@ -188,7 +196,12 @@ DET κ-gravity explains flat galaxy rotation curves without dark matter.
 - κ(r) = 0.7 + 4.0·(1−e^(−r/20kpc))
 - Mean RMS: 31%, within ±20%: 37%, within ±50%: 83%
 
-### Physics-based derivation (NEW)
+> **⚠ Reproducibility (Round 3 red-team, open).** The "135 galaxies" figure and the quoted RMS/20%/50% statistics are **not reproducible from the committed tree**: `sparc_analysis.py` hardcodes 43 galaxies and `det8/data/sparc_subset.json` is empty. The "RMS" is a single outermost-point fractional error, not a curve-level RMS. The numbers above are from an uncommitted analysis.
+
+### κ(r) parameterization with r_SFR scale
+
+> **Honest retitle (Round 3 red-team):** this is a **3-parameter parameterization**, not a derivation from galaxy-formation physics. The code uses only `r_SFR` (an input) plus two fitted constants `κ_0 = 0.5`, `κ_scale = 3.0`; the galaxy's `M_star`, `M_gas`, `SFR`, `r_d`, and `age` are unused in the current implementation. "Eliminates the last fitted parameter" is not met.
+
 \[
 \kappa(r) = \kappa_0 + \kappa_{\text{scale}} \cdot (1 - e^{-r/r_{\text{SFR}}})
 \]
@@ -242,7 +255,7 @@ Module: `cluster_dynamics.py`.
 | Dataset | Module | Result |
 |---|---|---|
 | Atomic clocks (NIST, Tokyo, PTB) | `experimental_constraints.py` | λ_P < 4×10⁻¹⁸ (Δκ=0.5) |
-| Eötvös (MICROSCOPE) | `experimental_constraints.py` | κ ∝ Z EXCLUDED |
+| Eötvös (MICROSCOPE) | `experimental_constraints.py` | Terrestrial materials must have nearly equal κ (a *consistency requirement*, not a test passed) |
 | Flyby anomalies | `flyby_anomaly.py` | κ_sc/κ_earth ≈ 1 ± 10⁻⁶ |
 | Galaxy rotation curves (135) | `sparc_analysis.py` | κ(r) physics-based: RMS 31.5%, no dark matter |
 | Galaxy clusters (10) | `cluster_dynamics.py` | Universal κ 0.7→7.5. 98% mass reduction. No DM at any scale. |
@@ -274,6 +287,8 @@ Complex amplitudes emerge from discrete sign statistics:
 
 ## 14. GPS Satellite Clock Analysis
 
+> **⚠ Vacuous bound (Round 3 red-team).** The λ_P bounds quoted below (and in `MODEL_CARD.md` §8) are constraints on the *product* λ_P·Δκ, where Δκ between two clocks is **assumed, not measured**. λ_P is therefore unconstrained by existing clock data until the structural proxy produces an actual κ value. The model-independent statement is λ_P·Δκ < σ.
+
 GPS constrains κ differences in the orbital environment:
 - Standard GR correction: +38.5 μs/day (verified to 0.3 ns/day)
 - Orbital Δκ ≈ 10⁻⁸ to 10⁻⁶ (fabrication + orbital environment)
@@ -285,6 +300,8 @@ Module: `gps_analysis.py`.
 ---
 
 ## 15. Continuum Limit Status (L1-L4)
+
+> **⚠ Dimensional caveat (Round 3 red-team).** The empirical convergence rates quoted below (α ≈ 0.50, 0.75, 0.85) are all measured in **1+1 Minkowski**. The physically relevant 3+1 case is the slowest (N^(−1/4)) and is not yet computed. The "α=0.50" headline should be read with this caveat.
 
 | Lemma | Statement | Status |
 |---|---|---|

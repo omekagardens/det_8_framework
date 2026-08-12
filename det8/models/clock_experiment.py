@@ -173,17 +173,14 @@ def simulate_clock_experiment(
             if len(measurements) > 1
             else 0.0
         )
-        # Standard error: for white frequency noise, SEM = σ_y(τ) / √n_meas.
-        # This accounts for the correlated noise structure via Allan deviation.
-        sem_y = predicted_noise / math.sqrt(n_meas)
-        if sem_y < 1e-30:
-            sem_y = predicted_noise  # Fallback for single measurement.
-
-        # Predicted noise at this τ.
+        # Predicted noise at this τ (computed BEFORE it is used below).
         predicted_noise = math.sqrt(
             clock_noise.allan_deviation(tau) ** 2
             + env_noise.total_environmental() ** 2
         )
+        # Standard error: for white frequency noise, SEM = σ_y(τ) / √n_meas.
+        # This accounts for the correlated noise structure via Allan deviation.
+        sem_y = predicted_noise / math.sqrt(n_meas)
 
         data.append(
             {

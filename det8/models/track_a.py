@@ -162,7 +162,7 @@ def gravity_sensitivity(
 
 
 def estimate_lambda_p(
-    measured_ratios: list[float],
+    measured_ratios: Optional[list[float]],
     kappa_values: list[float],
     kappa_ref: float = 0.0,
     noise_std: float = 0.0,
@@ -177,16 +177,27 @@ def estimate_lambda_p(
       y_i = (ratio_i - 1) / (κ_i - κ_ref · ratio_i)
     which estimates λ_P when the model is correct.
 
-    Adds Gaussian noise to simulate realistic measurement uncertainty.
+    The supplied `measured_ratios` are USED as the data (this parameter was
+    previously ignored — a bug). If `measured_ratios` is None/empty/wrong
+    length, synthetic data are generated (with true λ_P = 0.5) for demo
+    purposes; `synthetic` is set accordingly.
     """
     rng = random.Random(seed)
 
-    # Generate synthetic data.
-    true_lp = 0.5  # True value for simulation.
+    synthetic = (
+        measured_ratios is None
+        or len(measured_ratios) != len(kappa_values)
+    )
+
     data = []
-    for kb in kappa_values:
-        true_ratio = (1.0 + true_lp * kb) / (1.0 + true_lp * kappa_ref)
-        measured_ratio = true_ratio + rng.gauss(0.0, noise_std)
+    true_lp = 0.5 if synthetic else None  # Only meaningful in synthetic mode.
+    for i, kb in enumerate(kappa_values):
+        if synthetic:
+            true_ratio = (1.0 + true_lp * kb) / (1.0 + true_lp * kappa_ref)
+            measured_ratio = true_ratio + rng.gauss(0.0, noise_std)
+        else:
+            true_ratio = None
+            measured_ratio = measured_ratios[i]
         data.append(
             {
                 "kappa": kb,
@@ -221,14 +232,17 @@ def estimate_lambda_p(
     # Uncertainty: σ(λ_P) ≈ σ_noise / √(Σ x_i²).
     sigma_lp = noise_std / math.sqrt(sum(x**2 for x in xs)) if sum(x**2 for x in xs) > 0 else float("inf")
 
-    return {
-        "true_lambda_p": true_lp,
+    result = {
         "estimated_lambda_p": lp_estimated,
         "uncertainty": sigma_lp,
-        "within_1sigma": abs(lp_estimated - true_lp) <= sigma_lp,
+        "within_1sigma": abs(lp_estimated - true_lp) <= sigma_lp if true_lp is not None else None,
         "data_points": len(data),
         "noise_std": noise_std,
+        "synthetic": synthetic,
     }
+    if true_lp is not None:
+        result["true_lambda_p"] = true_lp
+    return result
 
 
 # ── 4. Combined Signature ──────────────────────────────────────────────────
@@ -256,15 +270,10 @@ def combined_prediction(
     """
     # Clock: ratio → λ_P·κ.
     clock_ratio = (1.0 + lambda_p * kappa_b) / (1.0 + lambda_p * kappa_a)
-    kappa_from_clock = (
-        (clock_ratio - 1.0) / (lambda_p * (1.0 - clock_ratio * kappa_a / kappa_b))
-        if abs(kappa_b) > 1e-15
-        else 0.0
-    )
-    # Simplified: if κ_A=0, κ_from_clock = (ratio-1)/λ_P.
-
-    if abs(kappa_a) < 1e-15:
-        kappa_clock = (clock_ratio - 1.0) / lambda_p
+    # Invert ratio = (1+λ_P·κ_B)/(1+λ_P·κ_A) for κ_B given κ_A:
+    #   λ_P·κ_B = ratio·(1+λ_P·κ_A) − 1  ⟹  κ_B = (ratio−1)/λ_P + ratio·κ_A.
+    if abs(lambda_p) > 1e-15:
+        kappa_clock = (clock_ratio - 1.0) / lambda_p + clock_ratio * kappa_a
     else:
         kappa_clock = None
 

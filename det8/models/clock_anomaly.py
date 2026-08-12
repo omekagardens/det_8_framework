@@ -95,15 +95,20 @@ def predict_clock_anomaly(
     pi_b = 1.0 / (1.0 + lambda_p * kappa_b)
     ratio = pi_a / pi_b
 
+    # Fractional frequency difference, canonical convention y = (ν_A − ν_B)/ν_A
+    # = 1 − Π_B/Π_A = 1 − (1+λ_P·κ_A)/(1+λ_P·κ_B).
+    # NOTE: this is the SAME definition used by clock_experiment.det_clock_signal.
+    fractional_difference = 1.0 - 1.0 / ratio
+
     # Effect over 1 year (365.25 days).
     seconds_per_year = 365.25 * 24 * 3600
-    delta_t_per_year = seconds_per_year * (1.0 - 1.0 / ratio)
+    delta_t_per_year = seconds_per_year * fractional_difference
 
     return {
         "kappa": (kappa_a, kappa_b),
         "lambda_p": lambda_p,
         "pi_ratio": ratio,
-        "fractional_difference": ratio - 1.0,
+        "fractional_difference": fractional_difference,
         "delta_per_year_seconds": delta_t_per_year,
         "delta_per_year_days": delta_t_per_year / 86400,
         "formula": f"τ_A/τ_B = (1+λ_P·κ_B)/(1+λ_P·κ_A) = {ratio:.6f}",
@@ -145,8 +150,9 @@ def required_measurement_precision(
 ) -> dict:
     """Estimate the measurement precision required to detect the anomaly.
 
-    The fractional difference is Δ = λ_P·κ_B / (1 + λ_P·κ_A)
-    when κ_A = 0: Δ = λ_P·κ_B.
+    The fractional frequency difference is
+        y = (ν_A − ν_B)/ν_A = 1 − (1+λ_P·κ_A)/(1+λ_P·κ_B),
+    which for κ_A = 0 gives y = λ_P·κ_B / (1 + λ_P·κ_B).
 
     For λ_P ∈ [0.01, 10] and κ_B ∈ [0.01, 0.5], compute required precision.
 
@@ -154,7 +160,7 @@ def required_measurement_precision(
     """
     results = []
     for lp in [0.01, 0.1, 1.0, 10.0]:
-        delta = lp * kappa_b / (1.0 + lp * 0.0)  # κ_A = 0.
+        delta = lp * kappa_b / (1.0 + lp * kappa_b)  # κ_A = 0.
         detectable = delta > 1e-18  # Above atomic clock noise floor.
         results.append(
             {

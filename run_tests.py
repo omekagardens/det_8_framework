@@ -548,6 +548,46 @@ def test_anthropic():
              key in pos and "verdict" in pos[key] and "status" in pos[key])
 
 
+# ── Red-Team Round 3 Fixes (F4 / F10 / F11) ────────────────────────────────
+
+def test_redteam_fixes():
+    from det8.models import clock_experiment as ce
+    from det8.models import clock_anomaly as ca
+    from det8.models import track_a as ta
+
+    section("Red-Team Round 3 Fixes (F4 / F10 / F11)")
+
+    # F4: clock simulator no longer crashes and returns a dict (smoke test).
+    sim = ce.simulate_clock_experiment(lambda_p=1e-12, total_duration=1e5, seed=42)
+    test("F4: clock simulator returns a dict", isinstance(sim, dict))
+    test("F4: best_significance is finite", sim["best_significance"] > 0.0)
+
+    # F10: the two clock-signal definitions now agree.
+    fd = ca.predict_clock_anomaly(0.0, 0.5, 1.0)["fractional_difference"]
+    sig = ce.det_clock_signal(0.0, 0.5, 1.0)
+    test("F10: signal definitions agree",
+         abs(fd - sig) < 1e-12, f"fd={fd:.6f} vs sig={sig:.6f}")
+
+    # F11: estimate_lambda_p honors its input.
+    est = ta.estimate_lambda_p([1.2, 1.4, 1.6], [0.1, 0.2, 0.3],
+                               kappa_ref=0.0, noise_std=0.0)
+    test("F11: recovers λ_P=2.0 from supplied ratios",
+         abs(est["estimated_lambda_p"] - 2.0) < 1e-9 and not est["synthetic"])
+    est2 = ta.estimate_lambda_p([999.0, 999.0, 999.0], [0.1, 0.2, 0.3])
+    test("F11: [999,999,999] input is honored (not 0.5)",
+         abs(est2["estimated_lambda_p"] - 0.5) > 1.0 and not est2["synthetic"])
+    est3 = ta.estimate_lambda_p(None, [0.1, 0.2, 0.3], noise_std=0.0)
+    test("F11: synthetic demo path still recovers true λ_P=0.5",
+         est3["synthetic"] and abs(est3["estimated_lambda_p"] - 0.5) < 1e-9)
+
+    # F11: combined_prediction κ inference is consistent.
+    cp = ta.combined_prediction(kappa_a=0.0, kappa_b=0.5, lambda_p=1.0)
+    test("F11: clock-inferred κ = κ_B = 0.5",
+         cp["clock"]["kappa_inferred"] is not None and
+         abs(cp["clock"]["kappa_inferred"] - 0.5) < 1e-12)
+    test("F11: clock/gravity κ consistency", cp["consistency"] is True)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -635,6 +675,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in anthropic_principle: {e}")
+        traceback.print_exc()
+
+    try:
+        test_redteam_fixes()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in redteam_fixes: {e}")
         traceback.print_exc()
 
     section("RESULTS")
