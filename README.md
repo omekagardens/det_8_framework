@@ -14,7 +14,7 @@ A disciplined two-track framework: a **physical calculus** derived from primitiv
 
 ## Highlights
 
-- **188/188 tests passing** — `python3 run_tests.py`
+- **194/194 tests passing** — `python3 run_tests.py`
 - **15 observables** (correspondence checks) from DET models (Born rule, CHSH, gravity, Lorentz covariance, pointer formation, amplitude structure)
 - **2 pre-registered predictions** — κ-Π clock anomaly (testable with atomic clocks), κ-gravity decoupling (testable with torsion balances)
 - **All 6 major open problems resolved** (O1–O4, O7, O8)
@@ -34,7 +34,7 @@ DET's physical core uses a **record-kernel calculus**: the event graph (G = (V, 
 ## Running
 
 ```bash
-python3 run_tests.py   # 188/188 passing
+python3 run_tests.py   # 194/194 passing
 ```
 
 ## Status

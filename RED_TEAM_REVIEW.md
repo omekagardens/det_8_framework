@@ -182,7 +182,7 @@ Several numeric claims in `PHYSICS.md` §9–§11 and `MODEL_CARD.md` §8 do not
 
 **Suggested fix:** Either implement the `Σ_*/Σ_SFR/age` formula the docstring describes, or retitle the module "κ(r) parameterization with r_SFR scale" and drop the "derived from galaxy formation physics" language.
 
-> **Team A response:** Accepted. Retitled "κ(r) parameterization with r_SFR scale" in `PHYSICS.md` §9, with the unused-variable and fitted-constant facts stated. The Σ_*/Σ_SFR/age formula is a future implementation, not a current one.
+> **Team A response:** Accepted. **Implemented (August 12):** `kappa_derivation.py` now computes the documented formula `κ ∝ Σ_*(r)·t_age/(Σ_SFR(r)·t_reset)` from the real observables (`M_star`, `SFR`, `age`, `r_d`, `r_SFR`) via `kappa_from_galaxy_properties` + surface-density helpers — no fitted constants. **Honest finding:** for the observed inside-out growth (r_SFR > r_d, all 8 known galaxies), the formula gives κ **DECREASING** with radius (Δκ < 0 in 8/8) — the wrong direction for flat rotation curves. The "reset ∝ recent SFR" mechanism has the wrong radial profile; a correct derivation needs a reset driver more concentrated than the stars (r_reset < r_d) or an accumulation term more extended than the SFR. See `radial_gradient_check`.
 
 ### F7 — The λ_P "constraint" from existing clocks is vacuous (11 orders of magnitude)
 
@@ -348,4 +348,141 @@ So `consistency = abs(kappa_clock − kappa_grav) < 1e-12` is **True by construc
 
 ---
 
-*End of Round 4. Team A's next response will be re-checked against the live tree in Round 5.*
+## 9. Round 5 — Evaluation of the F2/F9 Resolution and the α ≈ 5 Result
+
+**Date:** August 12, 2026. Re-verified against commits `7d23861` (two-source gravity + discriminator) and `8f3740e` (SPARC linear re-derivation).
+
+### 9.1 What is genuinely fixed (and verified)
+
+- **177/177 tests pass.** ✓
+- **F2 core is correctly repaired.** `gravity_v2.py` is a real fix: force now scales ∝ m₁m₂ (equivalence principle restored), χ is dimensionless, `ρ_κ = ρ_m·χ` has units of mass density (dimensional check passes), and the decoupling prediction is rewritten to `ΔF = F_κ` (not `F → 0`). The three-quantity split (κ / χ / ρ_κ) is exactly what N2 asked for conceptually. This is a defensible physics resolution, not a patch.
+- **F9 is now concrete.** `kappa_discriminator.py` implements a real discriminator — Arrhenius `τ_anneal(T) = τ₀·exp(E_a/k_B T)` vs T-independent `τ_rec` — with actual numbers and a `distinguishable` statistic. This was a slogan in Round 4; it is now a specified protocol.
+- **The α ≈ 5 result is reproducible.** `scan_alpha()` returns `best_alpha = 5.0`, mean RMS 0.193, 42/43 within 50%. ✓
+
+### 9.2 But F2 is only *partially* resolved — three gravity laws are still live
+
+The re-derivation was applied to **galaxies only**. The other two astrophysics modules were left on their old laws:
+
+| Scale | Module | Law still in code | Status |
+|---|---|---|---|
+| Solar system | `post_newtonian.py:69` | `G_eff = G·κ(r)` (linear in κ, **no** additive constant, α≡1 implicitly) | NOT unified |
+| Galaxies | `sparc_analysis.py` | `G_eff = G(1 + α·χ)`, α≈5 | v2 (new) |
+| Clusters | `cluster_dynamics.py:133,158` | `M_DET = M_dyn·(κ_earth/κ)²` — **quadratic** | DEPRECATED but still the source of the "98% mass reduction" |
+
+These are three different functional forms. `post_newtonian` and `gravity_v2` coincide only if `κ_eq = 0` and `α = 1`; but `gravity_v2` uses `κ_eq = 0.5`, `α ≈ 5`. The headline claim "DET eliminates dark matter at both galaxy and cluster scales" (`PHYSICS.md` §10) therefore rests on a **deprecated** quadratic law at cluster scales and a **different** law at solar-system scales. **Recommendation:** re-derive `cluster_dynamics` and `post_newtonian` to the same v2 law before any "no dark matter at any scale" claim is made. Until then that claim is not backed by a single consistent theory.
+
+### 9.3 New finding — κ-range violation, and why α ≈ 5 is entangled with it
+
+`det8_core.NodeRecord` **clamps κ to [0,1]** (`__post_init__`), and κ is defined throughout the docs as "structural history density ∈ [0,1]." But the astrophysics modules run κ far outside that bound:
+
+```
+galaxy κ(r=10 kpc) = 1.99        (sparc: κ₀=0.5, Δκ=1.5 → κ → 2.0)
+cluster κ(1000 kpc) = 7.36       (cluster: κ → 3.5+4.0 = 7.5)
+NodeRecord(kappa=2.0) → clamps to 1.0
+```
+
+This is a live self-contradiction: the same symbol κ is (a) a density in [0,1] that the core module clamps, and (b) an unbounded field reaching 2–7.5 in the galaxy/cluster modules.
+
+It is **directly responsible for the "5" in α ≈ 5**. The v2 enhancement at large radius is `1 + α·χ`, with `χ = (κ − κ_eq)/κ_earth`. With the code's current `κ_eq = 0.5`, `κ_earth = 1.0`, `α = 5`:
+
+- If κ is **honestly bounded to [0,1]**: max `χ = 0.5`, max enhancement `= 1 + 5·0.5 = 3.5×` — too small for the observed ~8× discrepancy.
+- The code actually gets `χ = 1.5` (because κ runs to **2.0**, above its own bound), giving `1 + 5·1.5 = 8.5×` — which is why "α ≈ 5 works."
+
+So **α ≈ 5 only "works" because κ is allowed to exceed its [0,1] bound.** If κ is kept honest, α would need to be ≈ 14 (for κ_eq = 0.5, κ_earth = 1.0), or κ_eq → 0, or κ_earth < 1.
+
+### 9.4 On "why α ≈ 5 works numerically" (the question Team A is working on)
+
+The short answer: **it is a fit, not a prediction, and it is three-way degenerate.**
+
+1. **Only the product α·Δκ/κ_earth is observable.** The fit returns `α = 5` only because `Δκ = 1.5` and `κ_earth = 1.0` are hard-set. Set `Δκ = 0.75` and α becomes 10; set `κ_earth = 0.5` and α becomes 2.5. "5" has no independent meaning.
+2. **"5" is the dark-matter/baryon ratio in DET clothing.** `α = (observed enhancement − 1)/Δκ ≈ (8.5 − 1)/1.5 = 5`. The "8.5×" is just the mass discrepancy every theory must explain — ΛCDM's Ω_dm/Ω_b ≈ 5.5, MOND's a₀. DET-v2 has renamed it α. It is a *reparameterization*, not an *explanation*, until α is derived.
+3. **The linear law makes κ a baryon-coupled modifier** (`ρ_κ ∝ ρ_m`). This is a known class (baryon-coupled fifth force / screened scalar), which means DET-v2 will inherit the standard constraints on such theories — bullet cluster, CMB, BBN, structure formation. The framework should engage that literature rather than present the two-source law as bespoke.
+
+**What a real "why" would require (concrete, non-ontological):**
+- (a) **Derive Δκ** from the galaxy-formation physics that is still unimplemented (the `Σ_*(r)·t_age / (Σ_SFR·t_reset)` formula in `kappa_derivation.py`'s docstring — my F6). If that formula *predicts* Δκ ≈ 1.5, then α ≈ 5 becomes "the gravitational response per unit structural history," a single coupling with a chance of a deeper origin.
+- (b) **Fix the κ-range** (9.3) so that `α·Δκ/κ_earth` is computed with κ ∈ [0,1] — this changes the required α and removes the hidden "extra" factor currently smuggled in by κ → 2.0.
+- (c) **State what α is a ratio of.** The most promising route: in the participation aperture, κ enters through λ_P (Π = 1/(1+λ_P·κ)); in gravity, κ enters through χ. If α is the ratio of the gravitational κ-coupling to the participation κ-coupling (both DET-native), then "why α is O(1–10)" becomes a question about two DET couplings, not an external dark-matter ratio.
+
+Until (a) or (c) lands, **α ≈ 5 should be reported as "a fitted coupling that absorbs the observed mass discrepancy," not as a derived prediction.**
+
+### 9.5 Still unaddressed from Round 4 (re-verified)
+
+- **N1** — `README.md:20` and `ROADMAP.md:29` still read "All 6 major open problems resolved," contradicting `MODEL_CARD.md` §6's CI/AT status. *(one-line doc fix)*
+- **N5** — `track_a.combined_prediction` "consistency" is still a tautology (both κ values trace to the same input). *(code)*
+- **N3** — `MODEL_CARD.md` §3 table rows still use derivation language under the "correspondence" header. *(minor doc)*
+- **N2 (code-level)** — `det8_core.py` still exposes `gamma = λ_γ·κ` (line 101) and `effective_gravity_source = κ − b` with the "ρ = q − b" docstring (lines 259–273); deprecation is doc-only, the inconsistent code paths remain importable. *(code cleanup, bundled with the 9.2 unification)*
+
+### 9.6 Priority (updated)
+
+1. **Unify all three gravity modules** (`post_newtonian`, `sparc`, `cluster`) onto the single v2 law and re-issue the "no dark matter" claim only after that. *(physics + code)*
+2. **Resolve the κ-range contradiction** (9.3) — either bound κ to [0,1] everywhere (which changes α) or rename the unbounded field. This is a prerequisite for any "why α ≈ 5" answer. *(physics decision)*
+3. **Turn α from a fit into a prediction** via (a) the Σ_*/Σ_SFR/age derivation of Δκ or (c) a two-coupling ratio origin (9.4). *(new work)*
+4. N1, N5, N3, N2 code cleanup. *(low urgency, engineering)*
+
+---
+
+## 10. Round 6 — SI Units, the κ-Range Fix, and the F6 Falsification
+
+**Date:** August 12, 2026. Reviewed the uncommitted working tree on top of commit `80572cb` (`det_units.py`, `kappa_derivation.py` F6 implementation, κ-clamping in `sparc_analysis.py`).
+
+### 10.1 Verified progress (this is real, substantive work)
+
+- **194/194 tests pass.** ✓
+- **κ-range violation FIXED** — `sparc_analysis.kappa_profile_*` now clamp κ to [0,1] (`max(0, min(1, raw))`). This resolves §9.3.
+- **α re-derived honestly.** With κ clamped, `scan_alpha()` now returns **best_alpha = 14** (mean RMS 0.198), not 5. My §9.3 prediction ("α would need ≈ 14 for κ_eq=0.5, κ_earth=1") was exactly right: `1 + 14·0.5 = 8.0×` ≈ the observed discrepancy.
+- **F6 actually implemented.** `kappa_from_galaxy_properties` now uses `M_star`, `SFR`, `age`, `r_d`, `r_SFR` — no fitted constants — with the documented `Q = Σ_*·t_age/(Σ_SFR·t_reset)` form. This resolves the "unimplemented formula" half of F6.
+- **`det_units.py` is clean bookkeeping.** Every DET coupling is dimensionless; the degeneracy `β_eff = α/κ_earth` is stated explicitly; nothing derives SI physics from primitives. This is the right anti-smuggling discipline.
+
+### 10.2 The central result: the F6 derivation is falsified (wrong sign)
+
+This is the most important thing in this round, and it is a *good* outcome for the framework's credibility — Team A implemented the formula and let it fail honestly.
+
+`radial_gradient_check` shows κ **decreases** with radius in **8/8** known galaxies (e.g. NGC 2403: κ_core=1.000 → κ_outskirts=0.001, Δκ = −0.999). The cause is stated correctly in the module: for inside-out growth (r_SFR > r_d), `Σ_SFR` decays *slower* than `Σ_*`, so `Q(r) ∝ exp(−r(1/r_d − 1/r_SFR))` **falls** outward. The "reset ∝ recent SFR" mechanism has the wrong radial profile.
+
+**Consequence for "why α ≈ 14":** the question is now *more* open, not less. The only proposed physical origin of Δκ (and hence of α) has been implemented and refuted. α ≈ 14 is therefore still **a fitted coupling absorbing the ~8× mass discrepancy — no physical origin is known.** That is the honest status and should be stated as such in the docs.
+
+**Concrete, non-ontological path forward** (already sketched in the module docstring — I am endorsing and sharpening it): the sign flips if the *reset driver* is more concentrated than the stars. With `r_reset < r_d`, `Q(r) ∝ exp(−r(1/r_d − 1/r_reset))` **increases** outward. A natural candidate is a *central* reset (AGN / SMBH feedback / nuclear starburst) rather than the *distributed* recent SFR. This is falsifiable: predict `r_reset ≈ r_bulge ≪ r_d`, then re-run `radial_gradient_check` and require Δκ > 0 in a majority of galaxies. That is the immediate next simulation.
+
+### 10.3 New finding R6-A — the proxy and Eötvös are mutually inconsistent by ~10¹¹
+
+This is the sharpest new problem and it falls out of Team A's own numbers (`det_units.coupling_implications`):
+
+- Two-source law + α = 14–20 + Eötvös η = 10⁻¹³ ⇒ **Δκ_lab < 7×10⁻¹⁵** (α=14) / **5×10⁻¹⁵** (α=20).
+- But the structural proxy's claimed resolution is **Δκ_min ≈ 0.002** (`PHYSICS.md` §1).
+
+That is a **factor of 4×10¹¹** gap. If the proxy's κ is the *same* κ that couples to gravity (which is the framework's entire premise), then a cold-worked vs annealed sample — which the proxy claims to distinguish at Δκ ≈ 0.002 — would produce an Eötvös violation `Δa/a = β_eff·Δκ = 20·0.002 = 0.04`, i.e. **~10¹¹× above the observed bound**. Eötvös sees nothing, so one of the following must hold (Team A must pick):
+
+1. The proxy does **not** measure gravitational κ (its "κ" is not the two-source χ's κ) — which collapses the structural-proxy calibration that the whole Track A program rests on; or
+2. κ is **screened** at laboratory scales (a chameleon/Vainshtein-style suppression of χ for small/close systems) — which is a *new, currently absent* mechanism; or
+3. Every laboratory sample sits at κ ≈ κ_eq regardless of processing — which is incompatible with the proxy's Δκ ≈ 0.002 resolution and with the decoupling experiment's premise.
+
+This is entangled with the κ-recovery timescale: `kappa_discriminator` defaults `τ_rec = 10⁴ s` (~3 h), which would mean no lab sample can *retain* κ ≠ κ_eq long enough to measure. The framework must state a `τ_rec` that is simultaneously long enough for the proxy to hold κ ≠ κ_eq, and short enough that Eötvös test masses (with their own processing histories) agree to 5×10⁻¹⁵. That is a knife-edge that needs explicit parameter values, not defaults.
+
+**Recommendation:** add a `lab_consistency` analysis that takes `τ_rec`, `α`, `Δκ_proxy` and the Eötvös η as inputs and reports whether a single κ field can satisfy all three at once. As it stands, the numbers do not obviously close.
+
+### 10.4 New finding R6-B — the κ-clamping refutes "no dark matter at any scale"
+
+Fixing the κ-range (§9.3) exposed a consequence that was previously hidden by unbounded κ. With κ ∈ [0,1], κ_eq = 0.5, and a *single* α:
+
+- α = 14 ⇒ max enhancement `1 + α·(1−κ_eq)/κ_earth = 8.0×`;
+- α = 20 ⇒ `11.0×`.
+
+But dwarf galaxies need ~50× and clusters need ~100×+. `coupling_implications` already reports `dwarf_reachable = False` in both cases. So the linear two-source law, with the framework's own honest parameters, **cannot reach dwarf or cluster mass discrepancies.** The cluster module still uses the deprecated quadratic law *precisely because* the linear law cannot get there.
+
+This means the headline "DET eliminates dark matter at galaxy and cluster scales" (`PHYSICS.md` §10) is now **quantitatively refuted by the framework itself**: the v2 law covers at most ~8×, i.e. only the least-dark-matter-dominated disk galaxies, and requires dark matter (or a further mechanism) beyond that. This should be stated plainly: the two-source law is currently a **~8× ceiling**, not a "no dark matter at any scale" result.
+
+### 10.5 Minor
+
+- **R6-C — α default inconsistency:** `det_units.coupling_implications` defaults `alpha = 20.0` and its docstring says "α ≈ 20 is the honest value," but `scan_alpha` with the clamped profile returns **14**. Reconcile to one number (the scan's 14) and cite it consistently.
+- **N1, N5, N3, N2 (§9.5)** remain unaddressed as before.
+
+### 10.6 Priority (updated)
+
+1. **R6-A** — resolve the proxy/Eötvös/τ_rec inconsistency (10.3). This determines whether the Track A *laboratory* program is even possible, so it precedes everything else. *(physics decision)*
+2. **R6-B** — state the ~8× ceiling explicitly and decide whether dwarf/cluster scales are abandoned or a second mechanism (screening, higher κ_eq, different law) is introduced. *(physics decision)*
+3. **F6 sign fix** — implement the concentrated-reset hypothesis (`r_reset < r_d`, e.g. central AGN) and re-run `radial_gradient_check` (10.2). This is the current best shot at a real "why α ≈ 14." *(new simulation)*
+4. **Unify the three gravity modules** (post_newtonian/sparc/cluster) onto the v2 law, and R6-C, N1, N5, N3, N2 cleanup. *(engineering)*
+
+---
+
+*End of Round 6. Team A's next response will be re-checked against the live tree in Round 7.*

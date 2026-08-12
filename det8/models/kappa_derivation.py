@@ -18,12 +18,16 @@ DET mechanism:
 
   κ(r) ∝ Σ_*(r)·t_age / (Σ_SFR(r)·t_reset + κ_min)
 
-  With inside-out growth (r_SFR > r_d):
-    κ(r) INCREASES with radius → stronger gravity in outskirts → flat curves.
+  ⚠ SIGN CAVEAT (Round 3, verified): for the observed inside-out growth
+  (r_SFR > r_d), Σ_SFR decays SLOWER than Σ_*, so this formula gives κ(r)
+  DECREASING with radius — the OPPOSITE of what flat rotation curves need.
+  The "reset ∝ recent SFR" mechanism has the wrong radial profile. A correct
+  derivation needs a reset driver MORE concentrated than the stars (r_reset <
+  r_d), or an accumulation term MORE extended than the SFR.
 
 Prediction: κ(r) can be predicted from observed Σ_*(r), Σ_SFR(r), and
 galaxy age — independently of rotation curve fitting. This makes DET
-predictive, not just fitting.
+predictive, not just fitting (subject to the sign caveat above).
 """
 
 from __future__ import annotations
@@ -62,51 +66,122 @@ class GalaxyObservables:
 # ═══════════════════════════════════════════════════════════════════════════
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+# Surface-density profiles (observable inputs)
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+def stellar_surface_density(
+    r: float,
+    M_star: float,
+    r_d: float,
+) -> float:
+    """Σ_*(r) = M_star·exp(−r/r_d) / (2π r_d²)  [10⁹ M_sun/kpc²]."""
+    if r_d <= 0.0:
+        return 0.0
+    return M_star * math.exp(-r / r_d) / (2.0 * math.pi * r_d**2)
+
+
+def sfr_surface_density(
+    r: float,
+    SFR: float,
+    r_SFR: float,
+) -> float:
+    """Σ_SFR(r) = SFR·exp(−r/r_SFR) / (2π r_SFR²)  [M_sun/yr/kpc²]."""
+    if r_SFR <= 0.0:
+        return 0.0
+    return SFR * math.exp(-r / r_SFR) / (2.0 * math.pi * r_SFR**2)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# DET κ(r) from Galaxy Properties (F6 — actually implemented)
+# ═══════════════════════════════════════════════════════════════════════════
+
+
 def kappa_from_galaxy_properties(
     r: float,
     galaxy: GalaxyObservables,
-    kappa_0: float = 0.5,       # Core κ (from rapid SFR resets).
-    kappa_scale: float = 3.0,   # Outskirts enhancement scale.
+    t_reset: float = 0.01,     # SN reset timescale (Gyr).
+    kappa_min: float = 1e-6,   # floor to avoid 0/0 in the outskirts.
+    q_sat: float = 1.0,        # saturation scale (κ = Q/(Q+q_sat)).
 ) -> float:
-    """Derive κ(r) from galaxy properties using DET primitives.
+    """κ(r) from the documented F6 formula, using the real observables.
 
-    DET mechanism:
-      κ is structural history per unit mass. In the core, rapid star
-      formation → frequent supernova events → κ is frequently reset → low κ.
-      In the outskirts, low SFR → rare resets → κ accumulates over time → high κ.
+    Q(r) = Σ_*(r)·t_age / (Σ_SFR(r)·t_reset + κ_min)
+    κ(r) = Q(r) / (Q(r) + q_sat)
 
-    The transition scale is set by r_SFR (the SFR scale length).
-    The enhancement magnitude depends on the inside-out growth ratio r_SFR/r_d.
+    M_star, SFR, age, r_d, r_SFR are now actually used (the previous
+    implementation only used r_SFR and two fitted constants).
 
-    κ(r) = κ_0 + kappa_scale · (1 − exp(−r/r_SFR))
-
-    where:
-      κ_0: core κ (frequently reset by SFR).
-      r_SFR: transition scale (where κ shifts from core to outskirts).
-      kappa_scale: total enhancement (depends on galaxy age and r_SFR/r_d).
-
-    This makes κ(r) INCREASE with radius for galaxies with extended SFR
-    (r_SFR > 0), which is all real galaxies. The steeper the inside-out
-    growth (larger r_SFR/r_d), the more gradual the κ transition and the
-    larger the outskirts enhancement.
-
-    Previously fitted phenomenologically: κ(r) = 0.7 + 4.0·(1−exp(−r/20)).
-    Now: r_SFR predicts the transition scale, κ_0 from SFR intensity,
-    kappa_scale from galaxy age × inside-out ratio.
+    ⚠ HONEST FINDING (Round 3): for the observed inside-out growth
+    (r_SFR > r_d), Σ_SFR decays SLOWER than Σ_*, so Q — and hence κ —
+    DECREASES with radius. The "reset ∝ recent SFR" mechanism therefore
+    gives the WRONG radial direction for flat rotation curves. See
+    `radial_gradient_check`. This is not a bug in the code; it is a
+    physics problem in the proposed derivation.
     """
-    return kappa_0 + kappa_scale * (1.0 - math.exp(-r / max(galaxy.r_SFR, 0.1)))
+    s_star = stellar_surface_density(r, galaxy.M_star, galaxy.r_d)
+    s_sfr = sfr_surface_density(r, galaxy.SFR, galaxy.r_SFR)
+    Q = s_star * galaxy.age / (s_sfr * t_reset + kappa_min)
+    return Q / (Q + q_sat)
+
+
+def radial_gradient_check(
+    galaxy: GalaxyObservables,
+    r_max: float = 30.0,
+    t_reset: float = 0.01,
+    kappa_min: float = 1e-6,
+    q_sat: float = 1.0,
+) -> dict:
+    """Does κ(r) increase or decrease with radius under the F6 formula?
+
+    Flat rotation curves require κ(r) to INCREASE with radius (more gravity
+    in the outskirts). This check reports whether the documented formula
+    achieves that for a given galaxy.
+    """
+    k_core = kappa_from_galaxy_properties(0.1, galaxy, t_reset, kappa_min, q_sat)
+    k_out = kappa_from_galaxy_properties(r_max, galaxy, t_reset, kappa_min, q_sat)
+    delta = k_out - k_core
+    return {
+        "galaxy": galaxy.name,
+        "r_SFR_over_r_d": galaxy.r_SFR / galaxy.r_d if galaxy.r_d > 0 else float("inf"),
+        "kappa_core": k_core,
+        "kappa_outskirts": k_out,
+        "delta_kappa": delta,
+        "increases_with_radius": delta > 0.0,
+        "verdict": (
+            f"κ({'increases' if delta > 0 else 'decreases'}) with radius "
+            f"(Δκ = {delta:+.3f}). r_SFR/r_d = {galaxy.r_SFR/galaxy.r_d:.2f}. "
+            f"{'OK for flat curves.' if delta > 0 else 'WRONG DIRECTION: the reset-by-SFR mechanism is inconsistent with the observed inside-out growth (r_SFR > r_d).'}"
+        ),
+    }
+
+
+def delta_kappa_from_galaxy(
+    galaxy: GalaxyObservables,
+    r_max: float = 30.0,
+    t_reset: float = 0.01,
+    kappa_min: float = 1e-6,
+    q_sat: float = 1.0,
+) -> float:
+    """Derived Δκ = κ_outskirts − κ_core from galaxy observables (F6)."""
+    return radial_gradient_check(galaxy, r_max, t_reset, kappa_min, q_sat)["delta_kappa"]
 
 
 def predict_kappa_profile(
     galaxy: GalaxyObservables,
-    kappa_0: float = 0.5,
-    kappa_scale: float = 3.0,
+    t_reset: float = 0.01,
+    kappa_min: float = 1e-6,
+    q_sat: float = 1.0,
+    alpha: float = 20.0,
+    kappa_eq: float = 0.5,
+    kappa_earth: float = 1.0,
     n_points: int = 50,
     r_max: float = 30.0,
 ) -> dict:
-    """Predict κ(r) for a galaxy from its observables.
+    """Predict κ(r) for a galaxy from its observables (F6 formula).
 
-    Returns the predicted κ(r) and the effective gravity enhancement.
+    Returns κ(r) and the LINEAR two-source enhancement 1 + α·χ.
     """
     radii = [r_max * i / (n_points - 1) for i in range(n_points)]
     radii[0] = 0.1
@@ -115,9 +190,10 @@ def predict_kappa_profile(
     enhancement = []
 
     for r in radii:
-        k = kappa_from_galaxy_properties(r, galaxy, kappa_0, kappa_scale)
+        k = kappa_from_galaxy_properties(r, galaxy, t_reset, kappa_min, q_sat)
         kappa_vals.append(k)
-        enhancement.append((k / 1.0)**2)  # (κ/κ_earth)² with κ_earth=1.
+        chi = (k - kappa_eq) / kappa_earth
+        enhancement.append(1.0 + alpha * chi)
 
     return {
         "galaxy": galaxy.name,
@@ -126,7 +202,9 @@ def predict_kappa_profile(
         "enhancement": enhancement,
         "kappa_core": kappa_vals[0],
         "kappa_outskirts": kappa_vals[-1],
-        "kappa_ratio": kappa_vals[-1] / kappa_vals[0] if kappa_vals[0] > 0 else 1.0,
+        "delta_kappa": kappa_vals[-1] - kappa_vals[0],
+        "enhancement_core": enhancement[0],
+        "enhancement_outskirts": enhancement[-1],
     }
 
 
@@ -150,28 +228,35 @@ KNOWN_GALAXIES = [
 
 
 def analyze_kappa_predictions(
-    kappa_0: float = 0.5,
-    kappa_scale: float = 3.0,
+    t_reset: float = 0.01,
+    kappa_min: float = 1e-6,
+    q_sat: float = 1.0,
 ) -> dict:
-    """Analyze κ(r) predictions for all known galaxies."""
+    """Analyze κ(r) predictions (F6) for all known galaxies, incl. the sign."""
     results = []
+    n_increasing = 0
     for galaxy in KNOWN_GALAXIES:
-        pred = predict_kappa_profile(galaxy, kappa_0, kappa_scale)
+        pred = predict_kappa_profile(galaxy, t_reset, kappa_min, q_sat)
+        check = radial_gradient_check(galaxy, t_reset=t_reset, kappa_min=kappa_min, q_sat=q_sat)
+        if check["increases_with_radius"]:
+            n_increasing += 1
         results.append({
             "galaxy": galaxy.name,
-            "kappa_core": pred["kappa_core"],
-            "kappa_outskirts": pred["kappa_outskirts"],
-            "kappa_ratio": pred["kappa_ratio"],
-            "r_SFR": galaxy.r_SFR,
-            "r_SFR/r_d": galaxy.r_SFR / galaxy.r_d,
+            "r_SFR_over_r_d": galaxy.r_SFR / galaxy.r_d,
+            "delta_kappa": pred["delta_kappa"],
+            "increases_with_radius": check["increases_with_radius"],
         })
 
-    phenom_core = 0.7
-    phenom_outskirts = 4.7
-    phenom_ratio = phenom_outskirts / phenom_core
-
     return {
-        "parameters": {"kappa_0": kappa_0, "kappa_scale": kappa_scale},
-        "phenomenological": {"kappa_core": phenom_core, "kappa_outskirts": phenom_outskirts, "ratio": phenom_ratio},
+        "parameters": {"t_reset": t_reset, "kappa_min": kappa_min, "q_sat": q_sat},
+        "n_increasing": n_increasing,
+        "n_total": len(KNOWN_GALAXIES),
         "predictions": results,
+        "finding": (
+            f"Under the documented F6 formula, κ increases with radius in "
+            f"{n_increasing}/{len(KNOWN_GALAXIES)} galaxies. For inside-out growth "
+            f"(r_SFR > r_d, all of these), the reset-by-SFR mechanism gives the "
+            f"wrong radial direction — Δκ is negative, the opposite of what flat "
+            f"rotation curves require."
+        ),
     }

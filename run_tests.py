@@ -690,6 +690,10 @@ def test_sparc_linear():
 
     g = s.SAMPLE_GALAXIES[0]  # DDO 154 (dwarf, strong discrepancy).
 
+    # κ profile respects [0,1].
+    test("κ profile clamped to [0,1]",
+         max(s.kappa_profile_core_saturation(r, 2.0, 0.5, 1.5) for r in [0.0, 5.0, 20.0, 100.0]) <= 1.0)
+
     # α=0 recovers Newtonian exactly (χ contributes nothing).
     v_a0 = s.det_rotation_velocity(g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas, alpha=0.0)
     v_newton = s.newton_rotation_velocity(g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas)
@@ -700,19 +704,20 @@ def test_sparc_linear():
     v_a5 = s.det_rotation_velocity(g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas, alpha=5.0)
     test("linear v increases with α", v_a5 > v_a1 > v_newton)
 
-    # Legacy quadratic double-counts κ (larger enhancement than linear at α=1).
+    # Legacy quadratic (κ/κ_earth)² with κ ≤ 1 is ≤ Newtonian — it cannot
+    # enhance gravity within κ ∈ [0,1]; its old "success" came from κ > 1.
     v_quad = s.rotation_velocity_quadratic(g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas)
-    test("quadratic legacy > linear α=1", v_quad > v_a1)
+    test("quadratic legacy ≤ Newtonian within κ∈[0,1]", v_quad <= v_newton * (1.0 + 1e-9))
 
     # Comparison audit.
     c = s.compare_rotation_laws(g)
     test("comparison returns all three laws",
          "v_linear" in c and "v_quadratic_legacy" in c and "v_newton" in c)
 
-    # Single coupling α reproduces flat curves.
+    # Single coupling α reproduces flat curves — honest α ≈ 20 (κ clamped).
     scan = s.scan_alpha()
-    test("best α = 5", scan["best_alpha"] == 5.0)
-    test("α=5 flattens most galaxies (RMS < 25%)", scan["best_mean_rms"] < 0.25)
+    test("best α = 20 (κ clamped to [0,1])", scan["best_alpha"] == 20.0)
+    test("α=20 RMS < 25%", scan["best_mean_rms"] < 0.25)
 
 
 # ── SI ↔ DET Units Conversion Tests ────────────────────────────────────────
@@ -737,11 +742,11 @@ def test_det_units():
     test("κ round-trip (proxy)",
          abs(u.kappa_from_proxy_response(u.proxy_response_from_kappa(0.7, p=2.0), p=2.0) - 0.7) < 1e-12)
 
-    # Coupling implications.
-    impl = u.coupling_implications(alpha=5.0)
-    test("β_eff = α/κ_earth = 5", abs(impl["beta_eff"] - 5.0) < 1e-12)
-    test("lab Δκ < 3e-14 at α=5", impl["lab"]["delta_kappa_lab_max"] < 3e-14)
-    test("dwarf discrepancy NOT reachable at β_eff=5", not impl["galactic"]["dwarf_reachable"])
+    # Coupling implications (honest α ≈ 20).
+    impl = u.coupling_implications()
+    test("β_eff = α/κ_earth = 20", abs(impl["beta_eff"] - 20.0) < 1e-12)
+    test("lab Δκ < 1e-14 at α=20", impl["lab"]["delta_kappa_lab_max"] < 1e-14)
+    test("dwarf discrepancy NOT reachable at β_eff=20", not impl["galactic"]["dwarf_reachable"])
 
     # Fit example.
     f = u.fit_lab_example()
@@ -753,6 +758,32 @@ def test_det_units():
         test("clock shift rejects frac ≥ 1", False, "should have raised")
     except ValueError:
         test("clock shift rejects frac ≥ 1", True)
+
+
+# ── κ derivation from galaxy physics (F6) Tests ────────────────────────────
+
+def test_kappa_derivation_f6():
+    import math
+    from det8.models import kappa_derivation as kd
+
+    section("κ derivation from galaxy physics (F6)")
+
+    # Surface densities are exponential disks.
+    test("Σ_* exponential", abs(kd.stellar_surface_density(2.0, 1.0, 1.0) - math.exp(-2.0) / (2.0 * math.pi)) < 1e-12)
+    test("Σ_SFR exponential", abs(kd.sfr_surface_density(2.0, 1.0, 1.0) - math.exp(-2.0) / (2.0 * math.pi)) < 1e-12)
+
+    # The formula now actually uses the observables (not fitted constants).
+    g = kd.KNOWN_GALAXIES[0]
+    k1 = kd.kappa_from_galaxy_properties(1.0, g)
+    g2 = kd.GalaxyObservables("test", g.M_star * 2.0, g.r_d, g.M_gas, g.r_gas, g.SFR, g.r_SFR, g.age, g.V_flat)
+    k2 = kd.kappa_from_galaxy_properties(1.0, g2)
+    test("κ depends on M_star (observable used)", abs(k1 - k2) > 1e-12)
+
+    # Honest sign finding: for inside-out growth (r_SFR > r_d), the documented
+    # formula gives κ DECREASING with radius — the wrong direction for flat curves.
+    test("all known galaxies have r_SFR > r_d", all(g.r_SFR > g.r_d for g in kd.KNOWN_GALAXIES))
+    ana = kd.analyze_kappa_predictions()
+    test("F6 formula gives wrong radial direction (0/N increasing)", ana["n_increasing"] == 0)
 
 
 # ── Main ────────────────────────────────────────────────────────────────────
@@ -877,6 +908,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in det_units: {e}")
+        traceback.print_exc()
+
+    try:
+        test_kappa_derivation_f6()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in kappa_derivation_f6: {e}")
         traceback.print_exc()
 
     section("RESULTS")

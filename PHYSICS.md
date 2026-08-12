@@ -212,7 +212,7 @@ DET κ-gravity explains flat galaxy rotation curves without dark matter.
 
 ### κ(r) parameterization with r_SFR scale
 
-> **Honest retitle (Round 3 red-team):** this is a **3-parameter parameterization**, not a derivation from galaxy-formation physics. The code uses only `r_SFR` (an input) plus two fitted constants `κ_0 = 0.5`, `κ_scale = 3.0`; the galaxy's `M_star`, `M_gas`, `SFR`, `r_d`, and `age` are unused in the current implementation. "Eliminates the last fitted parameter" is not met.
+> **F6 status (Round 3):** the `Σ_*/Σ_SFR/age` derivation is now **implemented** (`kappa_derivation.kappa_from_galaxy_properties` uses `M_star`, `SFR`, `age`, `r_d`, `r_SFR` — no fitted constants). **But the derivation fails the sign test:** for inside-out growth (r_SFR > r_d, all 8 known galaxies), it gives κ **decreasing** with radius (Δκ < 0), the opposite of what flat rotation curves require. The "reset ∝ recent SFR" mechanism has the wrong radial profile; a correct derivation needs a reset driver more concentrated than the stars (r_reset < r_d) or an accumulation term more extended than the SFR. See `radial_gradient_check`.
 
 \[
 \kappa(r) = \kappa_0 + \kappa_{\text{scale}} \cdot (1 - e^{-r/r_{\text{SFR}}})

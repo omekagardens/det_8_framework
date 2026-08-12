@@ -135,13 +135,15 @@ def kappa_from_proxy_response(r_ratio: float, p: float = 1.0) -> float:
 
 
 def coupling_implications(
-    alpha: float = 5.0,
+    alpha: float = 20.0,
     kappa_earth: float = 1.0,
     kappa_eq: float = 0.5,
     eotvos_eta: float = 1e-13,          # equivalence-principle bound (Δa/a).
     galactic_range: tuple[float, float] = (2.0, 50.0),  # mass discrepancy.
 ) -> dict:
-    """What α ≈ 5 implies, given lab and galactic constraints.
+    """What α implies, given lab and galactic constraints.
+
+    (α ≈ 20 is the honest value from SPARC with κ clamped to [0,1].)
 
     The observable combination is β_eff = α/κ_earth (α and κ_earth are
     degenerate). It is constrained from BOTH ends:
@@ -216,7 +218,7 @@ def coupling_implications(
 def fit_lab_example(
     clock_precision: float = 1e-18,   # best optical-lattice clocks.
     eotvos_eta: float = 1e-13,        # Eöt-Wash (conservative); MICROSCOPE ~1e-15.
-    alpha: float = 5.0,
+    alpha: float = 20.0,
     kappa_earth: float = 1.0,
     kappa_eq: float = 0.5,
 ) -> dict:

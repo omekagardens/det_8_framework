@@ -100,10 +100,11 @@ def kappa_profile_core_saturation(
         undisturbed for billions of years → structural history accumulates.
 
     The profile increases monotonically with radius, producing
-    enhanced gravity at large r when κ(r) > κ_earth.
+    enhanced gravity at large r when κ(r) > κ_earth. Clamped to κ ∈ [0,1].
     """
     x = r / r_core
-    return kappa_0 + delta_kappa * (1.0 - math.exp(-(x**steepness)))
+    raw = kappa_0 + delta_kappa * (1.0 - math.exp(-(x**steepness)))
+    return max(0.0, min(1.0, raw))
 
 
 def kappa_profile_power_law(
@@ -116,9 +117,10 @@ def kappa_profile_power_law(
 
     κ(r) = kappa_0 · (1 + r/r_scale)^alpha
 
-    Simpler alternative to the saturation model.
+    Simpler alternative to the saturation model. Clamped to κ ∈ [0,1].
     """
-    return kappa_0 * (1.0 + r / r_scale) ** alpha
+    raw = kappa_0 * (1.0 + r / r_scale) ** alpha
+    return max(0.0, min(1.0, raw))
 
 
 # ═══════════════════════════════════════════════════════════════════════════
