@@ -105,4 +105,71 @@ All 5 simulations connect to the broader Track-B framework:
 
 ---
 
-**End of RC1 Results**
+## 6. RC1.1 Adversarial Results — What Broke, What Held
+
+Module: `rc1_adversarial.py`. Five tests designed to BREAK RC1 conclusions.
+
+### A. Four Fall Models — "Bonds never destroyed"
+
+| Model | Edges Remain? | Supports RC1? |
+|---|---|---|
+| **Weighted** (weakened edges) | 20/20 ✅ | ✅ |
+| **Deletion** (edges removed) | 12/20 | ❌ Breaks RC1 |
+| **Rewiring** (topology changed) | 16/20 | ❌ Breaks RC1 |
+| **Latent** (edges at 0.05) | 20/20 ✅ | ✅ |
+
+**Revised claim:** Relational CAPACITY persists, not literal edge topology. Weighted and latent models support continuity. Deletion and rewiring break the strong "bonds never destroyed" claim.
+
+### B. Genuine Dependency — "Every member necessary"
+
+| Removal | Effect | Falsifiable? |
+|---|---|---|
+| **Weak member** | Significant drop | Partially supports |
+| **Redundant member** | Negligible drop | ❌ **Falsifies "every member necessary"** |
+| **Core member** | Catastrophic drop | Supports "some are load-bearing" |
+
+**Revised claim:** Some members are load-bearing; others provide resilience. "Every member is necessary" is unfalsifiable and false. The better claim is risky: redundant removals should genuinely have little effect.
+
+### C. Personality Discriminator — "Print distinguishable from nulls"
+
+| Null Model | Autocorrelation | Distinguishable? |
+|---|---|---|
+| Real regime | 0.11 | — |
+| Stochastic | 0.07 | ❌ Too close |
+| Fixed | 0.00 | ✅ |
+| Turnover | 0.93 | ❌ Opposite direction |
+| Alternating history | −0.98 | ✅ |
+
+**Honest result:** Simple autocorrelation is INSUFFICIENT to distinguish personality print from stochastic noise. Need stronger metric (mutual information, prediction error, Granger causality). This adversarial test partially FAILED.
+
+### D. Theology-Blind — "Dynamic requires theological names"
+
+Stripped ALL names (Christ, church, grace, Fall, awakening). Only distributed regimes, local recognition, repair, feedback.
+
+**Result:** Structure works identically without any religious language. The dynamic is real; the theological interpretation is separable. This is a STRENGTH — the model doesn't depend on accepting any particular theology.
+
+### E. Material Disposability — "Matter is not disposable"
+
+| Model | Final Viability | Final κ | Waste |
+|---|---|---|---|
+| **Externalize** | 0.35 | 1.25 | 80 |
+| **Regenerate** | 1.00 | 0.00 | 0 |
+
+**Result:** Strongly confirmed. Externalization accumulates κ and destroys viability. Regeneration maintains viability and zero κ. Matter is not disposable — waste returns as structural burden.
+
+---
+
+## 7. Revised RC1 Claims (Post-Adversarial)
+
+| Original Claim | Adversarial Result | Revised Claim |
+|---|---|---|
+| Bonds never destroyed | Only true for weighted/latent models | Relational CAPACITY persists; topology may change |
+| Every member necessary | Falsified by redundant removal | Some members load-bearing; others provide resilience |
+| Personality print distinguishable | Simple AC insufficient | Need stronger metric; honest partial failure |
+| Dynamic requires theology | Falsified | Structure works without religious language |
+| Matter not disposable | Strongly confirmed | Regeneration superior; externalization self-destructive |
+
+---
+
+**End of RC1 Analysis**
+
