@@ -2,7 +2,7 @@
 
 **Primary reference for the Deep Existence Theory framework.**
 **Date:** August 10, 2026 (revised per mathematical review)
-**Test suite:** 97/97 passing
+**Test suite:** 137/137 passing
 
 **Status:** DET8 implements a finite record-kernel framework that is the measurable shadow of a deeper relational ontology. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes two parameterized experimental anomalies. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, gravitational dynamics, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's mathematical patterns are the measurable trace.
 
@@ -95,13 +95,14 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | **F9** | **Fact Genesis Protocol** | — | **Open** — Are facts discovered or created? Track B. 5-level ladder. | Distinguish unknown vs not-yet-existent facts. See `docs/track_b/fact_genesis.md`. |
 | **F10** | **Law Genesis** | — | **Proposed** — Why is L stable? Track B. | Stability of the law map. See `docs/track_b/law_genesis.md`. |
 | **F11** | **Cosmic Record** | — | **Proposed** — κ-field across cosmic time. Track B. | Not yet developed. |
+| **F12** | **Anthropic Principle** | — | **FT/CI** — WAP selection confirmed; SAP necessity rejected; fine-tuning reduced to one combination. Track B. | Gravitational binding + inhomogeneous κ. See `docs/track_b/anthropic_principle.md`. |
 | — | Complex amplitudes | Mostly derived | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
 | — | κ dynamics | Physical field | **I** — Phenomenological reaction-diffusion | AT: Well-posedness, invariant domain, energy balance |
 | — | Clock/gravity predictions | Pre-registered | **PR** — Testable parameterized hypotheses | EV: Identifiable parameters + reproducible experiment |
 
 ---
 
-## 7. Code Module Inventory (30 modules)
+## 7. Code Module Inventory (31 modules)
 
 ```
 det8/models/
@@ -132,7 +133,8 @@ det8/models/
 ├── unified_simulation.py               # All layers unified
 ├── o4_joint_kernel.py                  # O4 resolution
 ├── o7_causal_spacetime.py, o7_derivation.py, o7_continuum_limit.py  # O7
-└── preferred_basis.py                  # O8 resolution
+├── preferred_basis.py                  # O8 resolution
+└── anthropic_principle.py              # Anthropic Principle (F12)
 ```
 
 ---
@@ -192,7 +194,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**97/97 tests passing.** Run: `python3 run_tests.py`
+**137/137 tests passing.** Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.

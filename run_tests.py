@@ -437,6 +437,117 @@ def test_det_simulation():
          f"ratio={tau0/tau1:.4f}")
 
 
+# ── Anthropic Principle (F12) Tests ─────────────────────────────────────────
+
+def test_anthropic():
+    import random as _random
+    from det8.models.anthropic_principle import (
+        participation_aperture_kappa_only, kappa_threshold,
+        kappa_bind_from_gravity, observer_window_width,
+        kappa_fixed_point, is_observer_regime, observer_combination,
+        anthropic_ensemble, prior_sensitivity_sweep,
+        demonstrate_attractor_convergence,
+        anti_smuggling_audit, det_anthropic_position,
+    )
+
+    section("Anthropic Principle (F12)")
+
+    # κ attractor fixed point (exact)
+    test("κ*(κ_eq=0, β=0) = 0", abs(kappa_fixed_point(0.0, 0.0)) < 1e-12)
+    test("κ*(κ_eq=1, β=any) = 1", abs(kappa_fixed_point(1.0, 5.0) - 1.0) < 1e-12)
+    test("κ*(κ_eq=0, β=1) = 0.5", abs(kappa_fixed_point(0.0, 1.0) - 0.5) < 1e-12)
+    test("κ*(κ_eq=0.5, β=1) = 0.75", abs(kappa_fixed_point(0.5, 1.0) - 0.75) < 1e-12)
+
+    # Participation aperture (κ-only slice)
+    test("Π(κ=0, λ=1) = 1", abs(participation_aperture_kappa_only(0.0, 1.0) - 1.0) < 1e-12)
+    test("Π(κ=1, λ=1) = 0.5", abs(participation_aperture_kappa_only(1.0, 1.0) - 0.5) < 1e-12)
+
+    # κ_obs observer threshold
+    test("κ_obs(λ=1, Πmin=0.5) = 1", abs(kappa_threshold(1.0, 0.5) - 1.0) < 1e-12)
+    test("κ_obs(λ=10, Πmin=0.5) = 0.1", abs(kappa_threshold(10.0, 0.5) - 0.1) < 1e-12)
+
+    # κ-gravity binding threshold (DET-native, proposed)
+    test("κ_bind(a=0.1,R=1,G_q=1,λ_γ=1,N=10) = 0.01",
+         abs(kappa_bind_from_gravity(0.1, 1.0, 1.0, 1.0, 10.0) - 0.01) < 1e-12)
+    test("κ_bind → ∞ when G_q=0",
+         kappa_bind_from_gravity(0.1, 1.0, 0.0, 1.0, 10.0) == float("inf"))
+
+    # Observer window width
+    test("Window width (λ=1, κ_bind=0) = 1",
+         abs(observer_window_width(1.0, 0.0, 0.5) - 1.0) < 1e-12)
+    test("Window width (λ=1, κ_bind=1) = 0",
+         abs(observer_window_width(1.0, 1.0, 0.5)) < 1e-12)
+
+    # Observer predicate known cases (binding + participation)
+    test("κ*=0 → no observer (fails binding, κ_bind=0.2)",
+         not is_observer_regime(0.0, 100.0, 0.5, kappa_bind=0.2))
+    test("κ*=0 → observer (κ_bind=0)", is_observer_regime(0.0, 100.0, 0.5, 0.0))
+    test("κ*=1 → no observer (λ=10, fails participation)",
+         not is_observer_regime(1.0, 10.0, 0.5, 0.0))
+    test("κ*=0.5 → observer (λ=1, κ_bind=0.3)",
+         is_observer_regime(0.5, 1.0, 0.5, 0.3))
+
+    # Predicate ⟺ window form (exact equivalence, sampled)
+    rng = _random.Random(7)
+    ok = True
+    for _ in range(1000):
+        lp = 10.0 ** rng.uniform(-2.0, 2.0)
+        ke = rng.uniform(0.0, 1.0)
+        be = 10.0 ** rng.uniform(-2.0, 2.0)
+        kb = rng.uniform(0.0, 1.0)
+        kstar = kappa_fixed_point(ke, be)
+        expected = (kb <= kstar) and (observer_combination(lp, ke, be) <= 1.0)
+        if is_observer_regime(kstar, lp, 0.5, kb) != expected:
+            ok = False
+            break
+    test("Predicate ⟺ window [κ_bind, κ_obs]", ok)
+
+    # Attractor convergence (initial-condition independence)
+    demo = demonstrate_attractor_convergence(kappa_eq=0.3, beta=0.5, lambda_p=1.5, kappa_bind=0.2)
+    test("Attractor convergence", demo["converged"])
+    test("Attractor κ* ≈ 0.5333", abs(demo["kappa_star"] - 0.533333) < 1e-3)
+    test("Attractor in window", demo["observer_regime"])
+
+    # Ensemble statistics (two-sided selection)
+    ens = anthropic_ensemble(n_draws=20000, seed=42)
+    pm = ens["prior_mean"]; om = ens["posterior_mean"]; sh = ens["selection_shift"]
+    test("P(observer) in (0,1)", 0.0 < ens["p_observer"] < 1.0)
+    test("SAP necessity is false", not ens["necessity"])
+    test("Selection: λ_P downward", om["lambda_p"] < pm["lambda_p"])
+    test("Selection: κ_bind downward", om["kappa_bind"] < pm["kappa_bind"])
+    test("Selection: κ_eq upward (toward window)", om["kappa_eq"] > pm["kappa_eq"])
+    test("Selection: β upward (toward window)", om["beta"] > pm["beta"])
+    test("λ_P is the most-selected parameter",
+         sh["lambda_p"] < sh["kappa_bind"] and
+         sh["lambda_p"] < min(sh["kappa_eq"], sh["beta"]))
+
+    # Determinism (same seed → same result)
+    ens2 = anthropic_ensemble(n_draws=20000, seed=42)
+    test("Ensemble deterministic", abs(ens["p_observer"] - ens2["p_observer"]) < 1e-15)
+
+    # Prior-sensitivity sweep
+    sweep = prior_sensitivity_sweep(n_draws=20000, seed=42)
+    test("Sweep: necessity always false", sweep["robust"]["necessity_always_false"])
+    test("Sweep: λ_P shift always down", sweep["robust"]["shift_direction_lambda_p_always_down"])
+    test("Sweep: κ_bind shift always down", sweep["robust"]["shift_direction_kappa_bind_always_down"])
+    test("Sweep: κ_eq shift always up", sweep["robust"]["shift_direction_kappa_eq_always_up"])
+    test("Sweep: β shift always up", sweep["robust"]["shift_direction_beta_always_up"])
+    test("Sweep: 7 configs", len(sweep["rows"]) == 7)
+
+    # Anti-smuggling audit
+    audit = anti_smuggling_audit()
+    test("Anti-smuggling clean", audit["clean"])
+    test("Axion/standard constants excluded",
+         "f_a (axion decay constant)" in audit["deliberately_excluded"])
+
+    # Claim register has the verdicts with status labels
+    pos = det_anthropic_position()
+    for key in ("weak_anthropic_selection", "strong_anthropic_necessity",
+                "fine_tuning_premise", "binding_participation_window"):
+        test(f"Claim register: {key}",
+             key in pos and "verdict" in pos[key] and "status" in pos[key])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -517,6 +628,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in det_simulation: {e}")
+        traceback.print_exc()
+
+    try:
+        test_anthropic()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in anthropic_principle: {e}")
         traceback.print_exc()
 
     section("RESULTS")

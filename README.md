@@ -6,7 +6,7 @@ A disciplined two-track framework: a **physical calculus** derived from primitiv
 
 | Document | Content |
 |---|---|
-| [`MODEL_CARD.md`](MODEL_CARD.md) | **Primary reference.** Primitives, 15 derived observables, 2 predictions, 30 code modules, formulas, test suite. |
+| [`MODEL_CARD.md`](MODEL_CARD.md) | **Primary reference.** Primitives, 15 derived observables, 2 predictions, 31 code modules, formulas, test suite. |
 | [`PHYSICS.md`](PHYSICS.md) | Track A — falsifiable predictions, experimental designs, anti-smuggling audit. |
 | [`ONTOLOGY.md`](ONTOLOGY.md) | Track B — four deadlocks (time, quantum, agency, history), metaphysics ledger, agency quarantine. |
 | [`GOVERNANCE.md`](GOVERNANCE.md) | F8-OPEN protocol, adversary classes, claim register, decision gates, Bell position. |
@@ -14,11 +14,11 @@ A disciplined two-track framework: a **physical calculus** derived from primitiv
 
 ## Highlights
 
-- **97/97 tests passing** — `python3 run_tests.py`
+- **137/137 tests passing** — `python3 run_tests.py`
 - **15 observables** derived from DET primitives (Born rule, CHSH, gravity, Lorentz covariance, pointer formation, amplitude structure)
 - **2 pre-registered predictions** — κ-Π clock anomaly (testable with atomic clocks), κ-gravity decoupling (testable with torsion balances)
 - **All 6 major open problems resolved** (O1–O4, O7, O8)
-- **30 code modules** — event graph, records, bonds, κ-diffusion, time evolution, unified simulation, experimental simulators
+- **31 code modules** — event graph, records, bonds, κ-diffusion, time evolution, unified simulation, experimental simulators
 - **DET 8 is a clean starting point** — no dependency on prior DET versions
 
 ## Two Tracks
@@ -34,7 +34,7 @@ DET's physical core uses a **record-kernel calculus**: the event graph (G = (V, 
 ## Running
 
 ```bash
-python3 run_tests.py   # 97/97 passing
+python3 run_tests.py   # 137/137 passing
 ```
 
 ## Status

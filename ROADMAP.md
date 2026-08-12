@@ -27,8 +27,8 @@
 ## Current State
 
 **All major open problems resolved (O1–O4, O7, O8).**
-**97/97 tests passing.**
-**30 code modules.**
+**137/137 tests passing.**
+**31 code modules.**
 **5 primary documents replacing 24.**
 
 ### Two tracks
@@ -79,7 +79,7 @@ DET v8.0 is a disciplined interpretive framework with a fully derived physical c
 
 ```bash
 python3 run_tests.py
-# Expected: 97/97 passed, 0 failed, 0 errors
+# Expected: 137/137 passed, 0 failed, 0 errors
 ```
 
 ---
