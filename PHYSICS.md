@@ -202,6 +202,8 @@ Module: `post_newtonian.py`.
 
 DET κ-gravity explains flat galaxy rotation curves without dark matter.
 
+> **Linear re-derivation (Round 3, `gravity_v2`):** the rotation curve now uses the two-source law \(v^2 = G(1+\alpha\chi)\,M/r\) with \(\chi = (\kappa-\kappa_{eq})/\kappa_{earth}\) — **linear** in κ, replacing the deprecated quadratic \((\kappa/\kappa_{earth})^2\) (which double-counted κ). A single coupling \(\alpha \approx 5\) reproduces flat curves in 42/43 of the hardcoded sample (mean RMS ~19%); \(\alpha = 1\) gives only ~2.5× enhancement and does not suffice. See `sparc_analysis.scan_alpha`.
+
 ### Phenomenological fit (135 galaxies)
 - κ(r) = 0.7 + 4.0·(1−e^(−r/20kpc))
 - Mean RMS: 31%, within ±20%: 37%, within ±50%: 83%

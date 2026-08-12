@@ -3,10 +3,12 @@ DET κ-Gravity Galaxy Rotation Curves — SPARC Analysis
 
 Models galaxy rotation curves using DET κ-gravity instead of dark matter.
 
-DET prediction:
-  v²(r) = G · M_baryon(r) / r · (κ(r) / κ_earth)²
+DET prediction (linear two-source law, `gravity_v2`; quadratic DEPRECATED):
+  v²(r) = G_eff(r) · M_baryon(r) / r
+  G_eff(r) = G · (1 + α·χ(r)),   χ(r) = (κ(r) − κ_eq) / κ_earth
 
 where κ(r) is the structural history density at galactic radius r.
+The quadratic form (κ/κ_earth)² was double-counting κ and is deprecated.
 
 Physical motivation for κ(r):
   - Galaxy cores: high stellar density → many events per unit volume →
@@ -166,10 +168,17 @@ def det_rotation_velocity(
     r_core: float = 2.0,
     kappa_0: float = 0.5,
     delta_kappa: float = 1.5,
+    kappa_eq: Optional[float] = None,
+    alpha: float = 1.0,
 ) -> float:
-    """DET rotation velocity at radius r.
+    """DET rotation velocity at radius r — LINEAR two-source law (gravity_v2).
 
-    v²(r) = G · M_baryon(r) / r · (κ(r)/κ_earth)²
+    v²(r) = G_eff(r)·M_baryon(r)/r, with
+      G_eff(r) = G·(1 + α·χ(r)),   χ(r) = (κ(r) − κ_eq)/κ_earth.
+
+    κ_eq defaults to κ_0 (the core value = recovered/equilibrium state), so
+    the core is Newtonian (χ ≈ 0) and the outskirts are enhanced (χ > 0).
+    α is the κ-response coupling (see `gravity_v2`).
 
     Returns v in km/s.
     """
@@ -188,11 +197,49 @@ def det_rotation_velocity(
     else:
         kappa_r = kappa_profile_power_law(r, r_core, kappa_0, delta_kappa)
 
-    # DET velocity.
-    v_sq = G * M_bar_kg / r_m * (kappa_r / kappa_earth) ** 2
+    # Linear two-source effective coupling.
+    if kappa_eq is None:
+        kappa_eq = kappa_0
+    chi = (kappa_r - kappa_eq) / kappa_earth
+    G_eff = G * (1.0 + alpha * chi)
+
+    v_sq = G_eff * M_bar_kg / r_m
     v_kms = math.sqrt(max(0.0, v_sq)) / KM_S_TO_M_S
 
     return v_kms
+
+
+def rotation_velocity_quadratic(
+    r: float,
+    M_star: float,
+    r_d: float,
+    M_gas: float = 0.0,
+    r_gas: float = 0.0,
+    kappa_earth: float = 1.0,
+    kappa_profile: str = "saturation",
+    r_core: float = 2.0,
+    kappa_0: float = 0.5,
+    delta_kappa: float = 1.5,
+) -> float:
+    """Legacy quadratic law (DEPRECATED): v² = G·M/r·(κ/κ_earth)².
+
+    Retained for historical audit only. Superseded by `det_rotation_velocity`
+    (linear two-source law).
+    """
+    M_bar = stellar_disk_mass(r, M_star, r_d)
+    if M_gas > 0:
+        M_bar += gas_mass(r, M_gas, r_gas)
+
+    M_bar_kg = M_bar * 1e9 * M_SUN
+    r_m = r * KPC_TO_M
+
+    if kappa_profile == "saturation":
+        kappa_r = kappa_profile_core_saturation(r, r_core, kappa_0, delta_kappa)
+    else:
+        kappa_r = kappa_profile_power_law(r, r_core, kappa_0, delta_kappa)
+
+    v_sq = G * M_bar_kg / r_m * (kappa_r / kappa_earth) ** 2
+    return math.sqrt(max(0.0, v_sq)) / KM_S_TO_M_S
 
 
 def newton_rotation_velocity(
@@ -301,9 +348,11 @@ def compute_galaxy_curves(
     r_core: float = 2.0,
     kappa_0: float = 0.5,
     delta_kappa: float = 1.5,
+    kappa_eq: Optional[float] = None,
+    alpha: float = 1.0,
     n_points: int = 50,
 ) -> dict:
-    """Compute DET and Newtonian rotation curves for a galaxy.
+    """Compute DET (linear two-source) and Newtonian rotation curves.
 
     Returns radii, DET velocities, and Newtonian velocities.
     """
@@ -320,6 +369,7 @@ def compute_galaxy_curves(
                 r, galaxy.M_star, galaxy.r_d,
                 galaxy.M_gas, galaxy.r_gas,
                 kappa_earth, "saturation", r_core, kappa_0, delta_kappa,
+                kappa_eq, alpha,
             )
         )
         v_newton.append(
@@ -341,6 +391,37 @@ def compute_galaxy_curves(
         "kappa_r": kappa_vals,
         "det_flat": v_det[-1] > 0.9 * galaxy.v_flat,
         "newton_flat": v_newton[-1] > 0.9 * galaxy.v_flat,
+    }
+
+
+def compare_rotation_laws(
+    galaxy: GalaxyParams,
+    kappa_earth: float = 1.0,
+    r_core: float = 2.0,
+    kappa_0: float = 0.5,
+    delta_kappa: float = 1.5,
+    kappa_eq: Optional[float] = None,
+    alpha: float = 1.0,
+) -> dict:
+    """Audit: linear (two-source) vs legacy quadratic vs Newton at r = r_max.
+
+    Shows the mass discrepancy reproduced by each law at the outermost point.
+    """
+    r = galaxy.r_max
+    v_newton = newton_rotation_velocity(r, galaxy.M_star, galaxy.r_d, galaxy.M_gas, galaxy.r_gas)
+    v_linear = det_rotation_velocity(r, galaxy.M_star, galaxy.r_d, galaxy.M_gas, galaxy.r_gas,
+                                     kappa_earth, "saturation", r_core, kappa_0, delta_kappa, kappa_eq, alpha)
+    v_quad = rotation_velocity_quadratic(r, galaxy.M_star, galaxy.r_d, galaxy.M_gas, galaxy.r_gas,
+                                         kappa_earth, "saturation", r_core, kappa_0, delta_kappa)
+    return {
+        "galaxy": galaxy.name,
+        "r_kpc": r,
+        "v_obs": galaxy.v_flat,
+        "v_newton": v_newton,
+        "v_linear": v_linear,
+        "v_quadratic_legacy": v_quad,
+        "linear_enhancement": (v_linear / v_newton) ** 2 if v_newton > 0 else float("inf"),
+        "quadratic_enhancement": (v_quad / v_newton) ** 2 if v_newton > 0 else float("inf"),
     }
 
 
@@ -390,6 +471,61 @@ def analyze_sample_galaxies(
             f"over {r_core} kpc). "
             f"Newtonian gravity produces flat curves in only "
             f"{newton_flat_count}/{len(SAMPLE_GALAXIES)}."
+        ),
+    }
+
+
+def scan_alpha(
+    alpha_values: Optional[list[float]] = None,
+    r_core: float = 2.0,
+    kappa_0: float = 0.5,
+    delta_kappa: float = 1.5,
+    kappa_earth: float = 1.0,
+    kappa_eq: Optional[float] = None,
+) -> dict:
+    """Scan the κ-response coupling α to fit flat rotation curves (linear law).
+
+    The linear two-source law needs α ≫ 1 (or a small κ_earth) to reproduce
+    the observed mass discrepancy — with κ ∈ [0,1] the enhancement is bounded
+    by 1+α·Δκ/κ_earth. This scan reports the α that best reproduces the sample.
+    """
+    if alpha_values is None:
+        alpha_values = [1.0, 2.0, 5.0, 10.0, 20.0, 50.0, 100.0, 200.0]
+
+    best_rms = float("inf")
+    best_alpha = None
+    results = []
+
+    for a in alpha_values:
+        rms_list = []
+        within_50 = 0
+        for g in SAMPLE_GALAXIES:
+            r = g.r_max
+            v = det_rotation_velocity(
+                r, g.M_star, g.r_d, g.M_gas, g.r_gas,
+                kappa_earth, "saturation", r_core, kappa_0, delta_kappa,
+                kappa_eq, a,
+            )
+            residual = (v - g.v_flat) / g.v_flat
+            rms_list.append(abs(residual))
+            if abs(residual) < 0.5:
+                within_50 += 1
+        mean_rms = sum(rms_list) / len(rms_list)
+        results.append({"alpha": a, "mean_rms": mean_rms, "within_50pct": within_50})
+        if mean_rms < best_rms:
+            best_rms = mean_rms
+            best_alpha = a
+
+    return {
+        "n_galaxies": len(SAMPLE_GALAXIES),
+        "best_alpha": best_alpha,
+        "best_mean_rms": best_rms,
+        "results": results,
+        "interpretation": (
+            f"Linear two-source law best-fit α = {best_alpha} (mean RMS "
+            f"{best_rms:.3f}). Note: α is a single free coupling — it is NOT "
+            f"a per-galaxy fit. The old quadratic law folded this scale into the "
+            f"κ(r) amplitude instead."
         ),
     }
 

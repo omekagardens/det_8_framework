@@ -466,11 +466,13 @@ def test_anthropic():
     test("κ_obs(λ=1, Πmin=0.5) = 1", abs(kappa_threshold(1.0, 0.5) - 1.0) < 1e-12)
     test("κ_obs(λ=10, Πmin=0.5) = 0.1", abs(kappa_threshold(10.0, 0.5) - 0.1) < 1e-12)
 
-    # κ-gravity binding threshold (DET-native, proposed)
-    test("κ_bind(a=0.1,R=1,G_q=1,λ_γ=1,N=10) = 0.01",
-         abs(kappa_bind_from_gravity(0.1, 1.0, 1.0, 1.0, 10.0) - 0.01) < 1e-12)
-    test("κ_bind → ∞ when G_q=0",
-         kappa_bind_from_gravity(0.1, 1.0, 0.0, 1.0, 10.0) == float("inf"))
+    # κ-gravity binding threshold — two-source law (gravity_v2)
+    test("Newton alone binds → κ_bind = κ_eq",
+         abs(kappa_bind_from_gravity(5.0, 1.0, 1.0, 10, G=1.0, alpha=1.0, kappa_eq=0.0, kappa_earth=1.0)) < 1e-12)
+    test("Newton insufficient → κ_bind = 1.0",
+         abs(kappa_bind_from_gravity(20.0, 1.0, 1.0, 10, G=1.0, alpha=1.0, kappa_eq=0.0, kappa_earth=1.0) - 1.0) < 1e-12)
+    test("κ_bind → ∞ when G=0",
+         kappa_bind_from_gravity(0.1, 1.0, 1.0, 10, G=0.0) == float("inf"))
 
     # Observer window width
     test("Window width (λ=1, κ_bind=0) = 1",
@@ -679,6 +681,40 @@ def test_kappa_discriminator():
         test("annealing rejects T ≤ 0", True)
 
 
+# ── SPARC linear two-source re-derivation (F2 #1) Tests ────────────────────
+
+def test_sparc_linear():
+    from det8.models import sparc_analysis as s
+
+    section("SPARC linear two-source re-derivation")
+
+    g = s.SAMPLE_GALAXIES[0]  # DDO 154 (dwarf, strong discrepancy).
+
+    # α=0 recovers Newtonian exactly (χ contributes nothing).
+    v_a0 = s.det_rotation_velocity(g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas, alpha=0.0)
+    v_newton = s.newton_rotation_velocity(g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas)
+    test("α=0 recovers Newtonian", abs(v_a0 - v_newton) < 1e-9)
+
+    # Linear enhancement increases with α.
+    v_a1 = s.det_rotation_velocity(g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas, alpha=1.0)
+    v_a5 = s.det_rotation_velocity(g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas, alpha=5.0)
+    test("linear v increases with α", v_a5 > v_a1 > v_newton)
+
+    # Legacy quadratic double-counts κ (larger enhancement than linear at α=1).
+    v_quad = s.rotation_velocity_quadratic(g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas)
+    test("quadratic legacy > linear α=1", v_quad > v_a1)
+
+    # Comparison audit.
+    c = s.compare_rotation_laws(g)
+    test("comparison returns all three laws",
+         "v_linear" in c and "v_quadratic_legacy" in c and "v_newton" in c)
+
+    # Single coupling α reproduces flat curves.
+    scan = s.scan_alpha()
+    test("best α = 5", scan["best_alpha"] == 5.0)
+    test("α=5 flattens most galaxies (RMS < 25%)", scan["best_mean_rms"] < 0.25)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -787,6 +823,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in kappa_discriminator: {e}")
+        traceback.print_exc()
+
+    try:
+        test_sparc_linear()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in sparc_linear: {e}")
         traceback.print_exc()
 
     section("RESULTS")

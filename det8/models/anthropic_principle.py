@@ -86,6 +86,8 @@ import random
 from dataclasses import dataclass, field
 from typing import Optional
 
+from det8.models.gravity_v2 import G_NEWTON
+
 
 # ── Module thresholds (module-level choices, NOT physical constants) ────────
 
@@ -142,26 +144,32 @@ def kappa_threshold(
 def kappa_bind_from_gravity(
     a_disp: float,
     R: float,
-    G_q: float,
-    lambda_gamma: float,
+    m: float,
     N: float,
+    G: float = G_NEWTON,
+    alpha: float = 1.0,
+    kappa_eq: float = 0.0,
+    kappa_earth: float = 1.0,
 ) -> float:
-    """Minimum κ for self-gravitational binding.
+    """Minimum κ for self-gravitational binding — two-source law (gravity_v2).
 
-    DET κ-gravity (Newtonian limit, `det_gravity.py`): a clump of N nodes
-    has total gravitational charge Γ = λ_γ·κ·N, so a node at the clump
-    edge feels inward acceleration a = G_q·Γ/R² = G_q·λ_γ·κ·N/R². For the
-    clump to hold together, this must exceed the record-side dispersal
-    acceleration a_disp (the structural tendency to unbind). Hence:
+    A clump of N nodes, each of mass m (total M = N·m), radius R, in a κ-field.
+    The two-source law gives self-acceleration a = G_eff·M/R² = G(1+αχ)·N·m/R²,
+    with χ = (κ − κ_eq)/κ_earth.
 
-        κ_bind = a_disp·R² / (G_q·λ_γ·N).
+    - If Newton alone binds (G·N·m/R² ≥ a_disp): κ_bind = κ_eq (no κ needed).
+    - Else: κ_bind = κ_eq + (κ_earth/α)·(a_disp·R²/(G·N·m) − 1).
 
-    Modal annotation: P (proposed physical — binding ansatz). Uses only DET
-    primitives G_q, λ_γ and record-side quantities a_disp, R, N.
+    Binding is provided by mass first; κ only contributes when Newton alone is
+    insufficient. Modal annotation: P (proposed). Uses G (empirical, gravity_v2),
+    α, κ_eq, κ_earth, and record-side quantities a_disp, R, m, N.
     """
-    if G_q <= 0.0 or lambda_gamma <= 0.0 or N <= 0.0:
+    if G <= 0.0 or alpha <= 0.0 or N <= 0.0 or m <= 0.0 or R <= 0.0 or kappa_earth <= 0.0:
         return float("inf")
-    return a_disp * R * R / (G_q * lambda_gamma * N)
+    a_newton = G * N * m / (R * R)
+    if a_newton >= a_disp:
+        return kappa_eq
+    return kappa_eq + (kappa_earth / alpha) * (a_disp * R * R / (G * N * m) - 1.0)
 
 
 # ── κ attractor (from DET's own κ-dynamics) ─────────────────────────────────
@@ -490,15 +498,16 @@ def anti_smuggling_audit() -> dict:
     used = {
         "kappa": "structural history density (DET primitive, det8_core)",
         "kappa_eq": "equilibrium structural history (DET free parameter)",
-        "kappa_bind": "self-binding threshold (DET-derived: a_disp·R²/(G_q·λ_γ·N))",
+        "kappa_bind": "self-binding threshold (two-source: κ_eq + κ_earth/α·(a_disp·R²/(G·N·m) − 1))",
         "lambda_p": "κ-drag coupling on Π (DET free parameter)",
-        "lambda_gamma": "κ → gravitational charge conversion (DET free parameter)",
-        "G_q": "κ-gravity coupling (DET free parameter)",
         "a_disp": "record-side dispersal acceleration (DET record quantity)",
         "R": "regime spatial scale (DET record quantity)",
+        "m": "node mass (record-side quantity)",
         "N": "node count / event count (DET record quantity)",
-        "alpha": "damage coefficient per event (DET primitive)",
-        "R_rate": "event rate (record-side quantity, DET)",
+        "G": "Newton's constant (empirical input via gravity_v2 two-source law)",
+        "alpha": "κ-response coupling (gravity_v2 free parameter)",
+        "chi": "response field (κ−κ_eq)/κ_earth (gravity_v2)",
+        "kappa_earth": "κ normalization reference (gravity_v2 free parameter)",
         "tau_rec": "recovery time scale (DET free parameter)",
         "beta": "damage-recovery ratio α·R·τ_rec (DET-derived)",
         "pi": "participation aperture Π (DET primitive, det8_core)",
@@ -510,7 +519,6 @@ def anti_smuggling_audit() -> dict:
     excluded = [
         "c (speed of light)",
         "hbar (Planck constant)",
-        "G (Newton constant)",
         "Lambda (cosmological constant)",
         "alpha_em (fine-structure constant)",
         "f_a (axion decay constant)",
@@ -526,12 +534,14 @@ def anti_smuggling_audit() -> dict:
         "deliberately_excluded": excluded,
         "clean": clean,
         "note": (
-            "The module imports no standard-physics constants. Its 'parameters' "
-            "are DET's own free parameters (lambda_P, lambda_gamma, G_q, "
-            "kappa_eq, tau_rec, alpha, R). Gravitational binding is computed "
-            "from DET's κ-gravity (G_q, λ_γ), not Newtonian G. The ultralight-"
-            "axion / strong-CP fine-tuning question is NOT imported; it is "
-            "reframed in DET-native terms (see docs/track_b/anthropic_principle.md)."
+            "The observer condition (participation + binding window) is built "
+            "from DET primitives. Self-binding is now computed from the "
+            "two-source gravity law (gravity_v2), which uses Newton's G as an "
+            "empirical input (mass is the conserved source; κ modifies the "
+            "response via χ). This is a correspondence, not a derivation of G "
+            "from DET primitives. The ultralight-axion / strong-CP fine-tuning "
+            "question is NOT imported; it is reframed in DET-native terms "
+            "(see docs/track_b/anthropic_principle.md)."
         ),
     }
 

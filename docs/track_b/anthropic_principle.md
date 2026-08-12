@@ -88,15 +88,18 @@ with fixed point:
 \kappa^* = \frac{\kappa_{eq} + \beta}{1 + \beta}
 \]
 
-### 4.2 The binding threshold (κ-gravity)
+### 4.2 The binding threshold (two-source law)
 
-DET κ-gravity (Newtonian limit, `det_gravity.py`): a clump of \(N\) nodes has total gravitational charge \(\Gamma = \lambda_\gamma \kappa N\), so a node at the clump edge feels inward acceleration \(a = G_q \Gamma/R^2 = G_q \lambda_\gamma \kappa N/R^2\). For the clump to hold together, this must exceed the record-side dispersal acceleration \(a_{disp}\):
+Under the two-source gravity law (`gravity_v2`), a clump of \(N\) nodes each of mass \(m\) (total \(M = Nm\)), radius \(R\), in a κ-field has self-acceleration \(a = G_{eff}M/R^2 = G(1+\alpha\chi)\,Nm/R^2\), with \(\chi = (\kappa-\kappa_{eq})/\kappa_{earth}\). Binding requires \(a \ge a_{disp}\), giving:
 
 \[
-\kappa_{bind} = \frac{a_{disp}\,R^2}{G_q\,\lambda_\gamma\,N}
+\kappa_{bind} = \begin{cases}
+\kappa_{eq}, & \text{if } G\,N\,m/R^2 \ge a_{disp}\ \text{(Newton alone binds)}\\[6pt]
+\kappa_{eq} + \dfrac{\kappa_{earth}}{\alpha}\left(\dfrac{a_{disp}\,R^2}{G\,N\,m} - 1\right), & \text{otherwise}
+\end{cases}
 \]
 
-**Status: P** (proposed physical — binding ansatz). Uses only DET primitives \(G_q, \lambda_\gamma\) and record-side quantities \(a_{disp}, R, N\).
+**Status: P** (proposed). Binding is provided by mass first; κ only contributes when Newton alone is insufficient. Uses \(G\) (empirical, via `gravity_v2`), \(\alpha\), \(\kappa_{eq}\), \(\kappa_{earth}\), and record-side quantities \(a_{disp}, R, m, N\).
 
 ### 4.3 The window
 
@@ -216,7 +219,7 @@ The module's axion content is **zero**: the anti-smuggling audit lists \(f_a\), 
 |---|---|---|
 | \(\Pi(\kappa) = 1/(1+\lambda_P \kappa)\) is the κ-only participation slice | A | Consistent with `det8_core.participation_aperture` |
 | \(\kappa^* = (\kappa_{eq}+\beta)/(1+\beta)\) is the κ-attractor | FT | From DET's own κ-dynamics |
-| \(\kappa_{bind} = a_{disp}R^2/(G_q\lambda_\gamma N)\) is the binding floor | P | DET κ-gravity ansatz |
+| \(\kappa_{bind}\) from the two-source law (mass binds first; κ when needed) | P | DET two-source gravity (`gravity_v2`) |
 | SPR ⟺ \(\kappa^* \in [\kappa_{bind}, \kappa_{obs}]\) | FT | Window structure, prior-independent |
 | Observer condition independent of initial κ | FT | Attractor convergence verified |
 | Observers are contingent (SAP fails within DET) | FT | Two explicit counter-constructions |
@@ -229,9 +232,9 @@ The module's axion content is **zero**: the anti-smuggling audit lists \(f_a\), 
 
 ## 9. Anti-Smuggling Audit
 
-Every symbol used by the module is a DET primitive or free parameter: \(\kappa\), \(\kappa_{eq}\), \(\kappa_{bind}\), \(\lambda_P\), \(\lambda_\gamma\), \(G_q\), \(a_{disp}\), \(R\), \(N\), \(\alpha\), \(R_{rate}\), \(\tau_{rec}\), \(\beta\), \(\Pi\), \(\Pi_{min}\), \(C\), \(\kappa_{obs}\), \(Z\). Deliberately excluded: \(c\), \(\hbar\), \(G\), \(\Lambda\), \(\alpha_{em}\), \(f_a\), \(m_a\), \(\theta_{QCD}\), electron/proton masses, dark matter/energy, and all cosmological parameters (\(\Omega_\Lambda\), \(H_0\), \(T_{CMB}\)).
+The observer condition (participation + binding window) uses DET primitives: \(\kappa\), \(\kappa_{eq}\), \(\lambda_P\), \(\tau_{rec}\), \(\beta\), \(\Pi\), \(\Pi_{min}\), \(C\), \(\kappa_{obs}\), \(Z\), plus the two-source gravity quantities \(\chi\), \(\alpha\), \(\kappa_{earth}\), \(a_{disp}\), \(R\), \(m\), \(N\), and Newton's \(G\) (empirical input via `gravity_v2`). Deliberately excluded: \(c\), \(\hbar\), \(\Lambda\), \(\alpha_{em}\), \(f_a\), \(m_a\), \(\theta_{QCD}\), electron/proton masses, dark matter/energy, and all cosmological parameters (\(\Omega_\Lambda\), \(H_0\), \(T_{CMB}\)).
 
-This mirrors the anti-smuggling discipline of `PHYSICS.md` §6. Gravitational binding is computed from DET's κ-gravity (\(G_q\), \(\lambda_\gamma\)), not Newtonian \(G\). The "parameters" that would need tuning in a naive reading are DET's own, and the module derives its observer condition from DET's κ-dynamics and κ-gravity rather than from any standard-physics window.
+Note (Round 3): self-binding is now computed from the two-source gravity law, which uses Newton's \(G\) as an empirical input (mass is the conserved source; κ modifies the response via \(\chi\)). This is a *correspondence*, not a derivation of \(G\) from DET primitives — consistent with the anti-smuggling discipline. The ultralight-axion / strong-CP question is still not imported.
 
 ---
 
