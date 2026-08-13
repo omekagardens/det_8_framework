@@ -1051,6 +1051,13 @@ def test_ingest_pipelines():
     dd = daily_drift(bias_series)
     test("daily_drift: 1e-11 s/s", abs(dd["drift_s_per_s"] - 1e-11) < 1e-20)
 
+    # Downloader: GPS-week + URL construction (verified against the real igc22790).
+    from det8.applied_physics.download_igs import gps_week, clock_url
+    test("GPS week: 2023-09-10 → 2279", gps_week(2023, 9, 10) == 2279)
+    test("clock URL construction",
+         clock_url(2279, 0) == "https://cddis.nasa.gov/archive/gnss/products/2279/igc22790.clk.Z")
+    test("clock URL day-of-week", clock_url(2279, 6).endswith("igc22796.clk.Z"))
+
 
 # ── Main ────────────────────────────────────────────────────────────────────
 
