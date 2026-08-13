@@ -5,6 +5,9 @@ __pycache__/
 # Downloaded external datasets (large, not committed)
 det8/data/igs/
 
+# Accumulated calibration snapshots (external data)
+det8/data/ibm_snapshots.json
+
 # Virtual environment
 .venv/
 

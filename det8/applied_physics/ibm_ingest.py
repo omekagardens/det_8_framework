@@ -217,20 +217,33 @@ def poll_and_append(
     """Fetch a properties snapshot and append it to a local JSON store.
 
     Repeated calls (e.g. daily/weekly) accumulate the decoherence-drift
-    series. The store lives under det8/data/ (gitignored, external data).
+    series. Skips redundant polls: a snapshot is only appended when the
+    calibration `last_update_date` has changed since the previous one, so the
+    store holds one entry per new calibration. The store lives under
+    det8/data/ (gitignored, external data).
     """
+    import datetime
+
     props = fetch_properties(backend_name, token, instance)
     snapshots = []
     if os.path.exists(store_path):
         with open(store_path, encoding="utf-8") as f:
             snapshots = json.load(f)
-    snapshots.append(props)
-    os.makedirs(os.path.dirname(store_path) or ".", exist_ok=True)
-    with open(store_path, "w", encoding="utf-8") as f:
-        json.dump(snapshots, f, indent=2)
+
+    skipped = False
+    if snapshots and snapshots[-1].get("last_update_date") == props.get("last_update_date"):
+        skipped = True
+    else:
+        props["polled_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        snapshots.append(props)
+        os.makedirs(os.path.dirname(store_path) or ".", exist_ok=True)
+        with open(store_path, "w", encoding="utf-8") as f:
+            json.dump(snapshots, f, indent=2)
+
     return {
         "backend": backend_name,
         "n_snapshots": len(snapshots),
+        "skipped": skipped,
         "store": store_path,
         "last_update": props.get("last_update_date", ""),
     }
