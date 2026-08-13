@@ -2,7 +2,7 @@
 
 **Primary reference for the Deep Existence Theory framework.**
 **Date:** August 10, 2026 (revised per mathematical review)
-**Test suite:** 186/186 passing
+**Test suite:** 199/199 passing
 
 **Status:** DET8 implements a finite record-kernel framework that is the measurable shadow of a deeper relational ontology. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes **one** parameterized experimental anomaly (the κ-Π clock anomaly). **Gravity is standard GR — DET does not modify gravity** (Option B, Round 6); dark matter is not explained by DET. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's mathematical patterns are the measurable trace.
 
@@ -104,7 +104,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 
 ## 7. Code Module Inventory (selected subset)
 
-> **Honest scoping (Round 3 red-team):** this is a **selected subset** — `det8/models/` contains 81 `.py` files. The list below omits the Track B simulation suite (`resurrection_simulation`, `atonement_simulation`, `afterlife_simulation`, `salvation_history`, `unified_death_sin`, `track_b_simulations`), the `rc1_*` research modules, the 14 `continuum_limit_*` modules, and several dataset-analysis modules.
+> **Honest scoping (Round 3 red-team):** this is a **selected subset** — `det8/models/` contains 82 `.py` files. The list below omits the Track B simulation suite (`resurrection_simulation`, `atonement_simulation`, `afterlife_simulation`, `salvation_history`, `unified_death_sin`, `track_b_simulations`), the `rc1_*` research modules, the 14 `continuum_limit_*` modules, and several dataset-analysis modules.
 
 ```
 det8/models/
@@ -139,7 +139,8 @@ det8/models/
 ├── anthropic_principle.py              # Anthropic Principle (F12)
 ├── gravity_v2.py                       # Two-source gravity (F2 resolution)
 ├── kappa_discriminator.py              # κ vs defect density (F9)
-└── det_units.py                        # SI ↔ DET units conversion
+├── det_units.py                        # SI ↔ DET units conversion
+└── det_falsification.py                # Falsification ladder + data guardrail
 ```
 
 ---
@@ -203,7 +204,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**186/186 tests passing** over **20 of 81 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
+**199/199 tests passing** over **21 of 82 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.
@@ -215,7 +216,7 @@ The test suite does **NOT** verify:
 - ❌ That DET makes correct empirical predictions.
 - ❌ That κ, Π, or λ_P exist in nature.
 
-**Coverage caveat (Round 3 red-team):** the 186 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/gravity parameter code (`clock_experiment`, `clock_anomaly`, `track_a`), and the Round 3 resolution modules (`gravity_v2`, `kappa_discriminator`, `sparc_analysis`, `det_units`, `kappa_derivation`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and much of the astrophysics suite (`cluster_dynamics`, `post_newtonian`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
+**Coverage caveat (Round 3 red-team):** the 199 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/gravity parameter code (`clock_experiment`, `clock_anomaly`, `track_a`), and the Round 3/6 resolution modules (`gravity_v2`, `kappa_discriminator`, `sparc_analysis`, `det_units`, `kappa_derivation`, `det_falsification`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and much of the astrophysics suite (`cluster_dynamics`, `post_newtonian`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
 
 Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 

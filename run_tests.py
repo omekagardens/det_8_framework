@@ -769,6 +769,52 @@ def test_kappa_derivation_f6():
     test("F6 formula gives wrong radial direction (0/N increasing)", ana["n_increasing"] == 0)
 
 
+# ── Falsification Ladder & Data Guardrail (Option B) Tests ─────────────────
+
+def test_det_falsification():
+    from det8.models import det_falsification as df
+
+    section("Falsification Ladder & Data Guardrail (Option B)")
+
+    # Falsification ladder: three ordered steps.
+    ladder = df.falsification_ladder()
+    test("ladder has 3 ordered steps", [s["step"] for s in ladder] == [1, 2, 3])
+    test("ladder ends with the clock comparison", ladder[-1]["name"] == "Clock comparison")
+
+    # Data guardrail: provenance + safe-use labeling.
+    g = df.data_guardrail("atomic_clock_comparison")
+    test("guardrail labels origin theory", g["origin_theory"] == "GR + quantum metrology")
+    test("guardrail states the rule", "observed_quantity" in g["rule"])
+    try:
+        df.data_guardrail("nonexistent")
+        test("guardrail rejects unknown dataset", False, "should have raised")
+    except KeyError:
+        test("guardrail rejects unknown dataset", True)
+
+    # Clock decision logic.
+    c_null = df.classify_clock_result(0.0, sigma=1e-18)
+    test("clock null → bounded", c_null["verdict"] == "null")
+    c_ok = df.classify_clock_result(5e-17, sigma=1e-18)
+    test("clock 5σ positive → consistent", c_ok["verdict"] == "consistent")
+    c_wrong = df.classify_clock_result(-5e-17, sigma=1e-18)
+    test("clock 5σ wrong sign → anomalous", c_wrong["verdict"] == "anomalous")
+
+    # Discriminator decision logic.
+    d_distinct = df.classify_discriminator_result(1.0, 6e-12)
+    test("T-independent recovery → distinct", d_distinct["verdict"] == "distinct")
+    d_falsified = df.classify_discriminator_result(6e-12, 6e-12)
+    test("Arrhenius recovery → falsified", d_falsified["verdict"] == "falsified")
+
+    # Gravity-emergence note: open frontier, not rejected.
+    ge = df.gravity_emergence_note()
+    test("gravity door is open", "OPEN" in ge["status"])
+
+    # Claim register: four active claims.
+    cr = df.claim_register()
+    test("claim register has 4 entries", len(cr) == 4)
+    test("clock anomaly is pre-registered", "PR" in cr["clock_anomaly"]["status"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -898,6 +944,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in kappa_derivation_f6: {e}")
+        traceback.print_exc()
+
+    try:
+        test_det_falsification()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in det_falsification: {e}")
         traceback.print_exc()
 
     section("RESULTS")

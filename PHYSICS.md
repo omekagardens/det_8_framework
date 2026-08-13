@@ -91,7 +91,19 @@ with effective coupling \(G_{eff} = G(1+\alpha\chi)\) — **linear in κ**. The 
 
 > **RETIRED (Round 6, Option B).** Withdraws with §2.2 — there is no gravity decoupling to cross-check. κ is measured via the structural proxy alone.
 
-κ measured independently via structural proxy, clock anomaly, and gravity decoupling must agree. Three-way consistency constitutes strong evidence for κ as a real physical entity.
+### 2.4 Falsification Ladder & Data Guardrail
+
+The clock anomaly is tested in three ordered, DET-native steps (`det_falsification.py`):
+
+| Step | Experiment | Falsifies DET if | Confirms DET if |
+|---|---|---|---|
+| 1 | κ-vs-defect discriminator (`kappa_discriminator.py`) | recovery time tracks thermal annealing (κ = defect density) | recovery is T-independent |
+| 2 | Structural-proxy calibration (`structural_proxy.py`) | zero residual after known-physics regression | nonzero, reproducible residual |
+| 3 | Clock comparison (`clock_experiment.py`) | null at precision σ ⇒ λ_P·κ < σ | Δν/ν = λ_P·κ/(1+λ_P·κ) at ≥5σ, correct sign |
+
+**Data guardrail:** external datasets were built under other theories (GR, ΛCDM, materials science). Only their theory-independent **observed** quantity is admissible; the theory-dependent interpretation is quarantined. E.g., atomic-clock data contributes the frequency ratio (safe), not the GR redshift (quarantined); SPARC contributes v(r) (safe) but no DET gravity claim uses it under Option B.
+
+**Gravity emergence:** gravity is not a current DET claim, but "does κ source or modify gravity?" remains an **open frontier**, not a rejected hypothesis. The retired gravity modules are archived; the question can be revisited only if a DET-native mechanism is derived and survives the standard constraints (equivalence principle, Eötvös, rotation curves).
 
 ---
 
