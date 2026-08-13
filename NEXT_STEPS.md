@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
-**Date:** August 10, 2026
-**Test suite:** 251/251 passing
+**Date:** August 13, 2026
+**Test suite:** 267/267 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -31,8 +31,15 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 89 modules, 251/251 tests
+- 89 modules, 267/267 tests
 - Full simulation stack + experimental simulators + dataset analysis
+
+### Applied-Physics Real Data
+- Full-year 2023 IGS GNSS clock products downloaded (365 daily `IGS0OPSFIN_*_30S_CLK.CLK.gz`, CDDIS)
+- κ-recovery vs IEEE log-aging adversarial on 12 GPS satellites → **null**
+  (IEEE wins 11/12; κ wins 1/12, the G11 outlier). See `docs/applied_physics.md` §5.
+- IBM Quantum calibration ingest live (ibm_fez, 156 qubits) + daily launchd poll
+  (`com.det.ibm-poll`)
 
 ---
 
@@ -72,5 +79,5 @@
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 251/251 passing
+python3 run_tests.py   # 267/267 passing
 ```

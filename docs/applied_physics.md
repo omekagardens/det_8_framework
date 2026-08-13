@@ -100,7 +100,67 @@ Two traps were found and fixed while building it, and both are themselves findin
 
 ---
 
-## 5. Guardrails
+## 5. Real-Data Result: GNSS Clock Aging (full year 2023)
+
+The Test 1 pipeline was pointed at a complete year of IGS combined clock
+products (365 daily `IGS0OPSFIN_*_30S_CLK.CLK.gz` files, CDDIS). For 12 GPS
+satellites, the daily clock-drift (`Δf/f`) trajectory was fitted with the
+κ-recovery form `y = A·e^(−t/τ) + C` against the standard IEEE log-aging form
+`y = a·ln(1+t) + b·t + c` (both 3-parameter), and compared by BIC.
+
+**Verdict: negative for κ-recovery. IEEE log-aging is preferred on 11/12
+satellites; κ-recovery wins on 1/12 (G11).** The κ-model loses to the
+standard model on real data.
+
+| Satellite | κ vs IEEE | Strength | ΔBIC (κ − IEEE) |
+|---|---|---|---|
+| G01 | IEEE | very strong | +10.6 |
+| G02 | IEEE | very strong | +10.8 |
+| G03 | IEEE | positive | +2.9 |
+| G05 | IEEE | very strong | +21.3 |
+| G08 | IEEE | none | +1.2 |
+| G11 | **κ** | very strong | −185 |
+| G13 | IEEE | very strong | +28.8 |
+| G16 | IEEE | very strong | +85.5 |
+| G18 | IEEE | very strong | +533.5 |
+| G22 | IEEE | very strong | +58.6 |
+| G24 | IEEE | very strong | +388.6 |
+| G30 | IEEE | very strong | +118.2 |
+
+ΔBIC strength (Kass–Raftery): |ΔBIC| < 2 none, 2–6 positive, 6–10 strong, >10 very strong.
+
+Three honest findings:
+
+1. **Direction.** The single-exponential κ-recovery shape is not a better
+   description of GNSS clock aging than the standard log-aging form: the
+   standard model wins on 11/12 satellites.
+2. **The τ-grid matters (and correcting it shrank the margin).** Capping τ at
+   300 d made the κ fit look *far* worse (ΔBIC in the hundreds to thousands,
+   "very strong"). Freeing τ to 10 000 d lets the κ fit collapse toward a
+   near-linear decay (τ→∞) and the margins fall to single digits–tens; G08
+   drops to "none" (no evidence) and G03 to "positive". The earlier
+   "decisive" reading was an artifact of the τ cap, not of the data.
+3. **One genuine κ win is not evidence.** G11 (τ≈100 d, ΔBIC=−185) is a single
+   outlier out of 12 — consistent with a real clock event (a frequency jump and
+   recovery) rather than κ-dynamics. It warrants follow-up on that satellite's
+   clock history, not a DET claim.
+
+**Implication for the ladder.** This is a null result for the **L1
+"κ-recovery aging" discriminator**: on this dataset the κ functional form does
+not separate from the standard model. It does **not** touch the L0 engineering
+descriptor (κ remains useful), and it does **not** touch Option B's actual L2
+clock prediction — the participation-aperture anomaly
+`Δν/ν = λ_P·κ/(1+λ_P·κ)` — which is a *different observable* (a
+participation-scaled fractional offset, not a log-vs-exponential drift shape).
+
+**Data & reproducibility.** `scripts/full_year_aging.py` (single-pass parse of
+the 365 files, stdlib `gzip`), `det8/applied_physics/ingest.py` (RINEX-3 clock
+parser), `det8/applied_physics/applied_tests.py` (`_fit_exp_decay`, `_fit_ieee`,
+`TAU_GRID`).
+
+---
+
+## 6. Guardrails
 
 - **Standard-variable completeness audit** (`operational_kappa.standard_variable_audit`): any standard variable capable of producing > 0.05× the expected signal must be measured, bounded, or actively stabilized. Nine categories: thermal, structural, defects, mechanical, electrical, optical, chemical, surface, environmental.
 
@@ -110,12 +170,21 @@ Two traps were found and fixed while building it, and both are themselves findin
 
 ---
 
-## 6. Next Steps
+## 7. Next Steps
 
-1. **Supply the real data files** — the ingest pipelines are built (`ingest.py`: parsers for RINEX-3 clock, IBM `BackendProperties` JSON, and the cavity/telemetry/gauge CSVs, plus `load(dataset, path=...)`). Point them at the actual IGS clock logs, IBM/Google calibration logs, NIST/LIGO cavity drift, NASA/ESA telemetry, and gauge-block archives. The synthetic fallback makes the full pipeline runnable today; supplying a real file exercises the identical parser.
-2. **Cross-validated likelihood** — the current comparison uses BIC; add k-fold cross-validated likelihood for small datasets (gauge blocks).
-3. **Promote the discriminator** — if a real relaxation trace comes back single-exponential (β≈1) where the standard model predicts stretched, that is a genuine κ-residual and the strongest L1 finding.
-4. **The λ_P coupling (L2)** — only after L1 lands: does the κ-residual correlate with clock rate via λ_P? This is the DET-specific prediction, tested last and separately.
+1. **Follow up the G11 outlier** — pull that satellite's clock/bias history and
+   determine whether the −185 ΔBIC κ win is a real frequency event (jump +
+   recovery) or an artifact. This is the one thing that could still rescue the
+   L1 aging discriminator on GNSS data.
+2. **Cross-validated likelihood** — the comparison uses BIC; add k-fold
+   cross-validated likelihood for small datasets (gauge blocks).
+3. **Promote the discriminator on the OTHER relaxation tests** — the cavity-creep
+   and gauge-block KWW-vs-single-exponential tests are still open, and are
+   better L1 candidates than the GNSS aging shape, which came back null.
+4. **The λ_P coupling (L2)** — Option B's sole clock prediction
+   `Δν/ν = λ_P·κ/(1+λ_P·κ)`, tested last and separately (see
+   `docs/falsification_protocol.md`). This is a *different observable* from the
+   aging-shape test above, and is unaffected by that null result.
 
 ---
 

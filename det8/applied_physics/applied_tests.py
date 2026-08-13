@@ -312,7 +312,11 @@ def run_all_applied_tests() -> dict:
 # ── Real-data aging adversarial (GNSS clocks) ──────────────────────────────
 
 
-def _fit_exp_decay(t, y, tau_grid=(1, 2, 3, 5, 7, 10, 15, 20, 30, 50, 100, 200, 300)) -> dict:
+TAU_GRID = (1, 2, 3, 5, 7, 10, 15, 20, 30, 50, 100, 200, 300,
+            500, 700, 1000, 2000, 5000, 10000)
+
+
+def _fit_exp_decay(t, y, tau_grid=TAU_GRID) -> dict:
     """Fit the κ-recovery form y = A·exp(−t/τ) + C.
 
     Grid-search τ; for each τ, (A, C) are linear least squares.
@@ -337,7 +341,7 @@ def _fit_exp_decay(t, y, tau_grid=(1, 2, 3, 5, 7, 10, 15, 20, 30, 50, 100, 200, 
 
 
 def run_aging_adversarial(clk_dir: str, svn: str,
-                          tau_grid=(1, 2, 3, 5, 7, 10, 15, 20, 30, 50, 100, 200, 300)) -> dict:
+                          tau_grid=TAU_GRID) -> dict:
     """Run the κ-vs-IEEE aging comparison on a REAL multi-day drift series.
 
     κ-recovery:  y = A·exp(−t/τ) + C   (exponential relaxation to equilibrium)
