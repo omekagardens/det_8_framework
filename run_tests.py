@@ -1109,6 +1109,16 @@ def test_ibm_ingest():
     tok = ib.load_token()
     test("load_token: str or None", tok is None or isinstance(tok, str))
 
+    # Spatial-correlation (κ-diffusion) signature, synthetic cases.
+    from det8.applied_physics.ibm_ingest import spatial_correlation
+    edges = [(i, i + 1) for i in range(19)]
+    t1_smooth = {i: 100.0 + 5.0 * i for i in range(20)}   # smooth gradient.
+    r_smooth = spatial_correlation(t1_smooth, edges)
+    test("spatial: smooth gradient → neighbours correlated", r_smooth["neighbours_correlated"])
+    t1_alternating = {i: 100.0 + 50.0 * (i % 2) for i in range(20)}
+    r_alt = spatial_correlation(t1_alternating, edges)
+    test("spatial: alternating → no correlation", not r_alt["neighbours_correlated"])
+
 
 # ── Main ────────────────────────────────────────────────────────────────────
 

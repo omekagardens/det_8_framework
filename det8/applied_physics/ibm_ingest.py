@@ -206,3 +206,75 @@ def run_ibm_ingest(
             f"(poll daily/weekly, or use the calibration-history export)."
         ),
     }
+
+
+def poll_and_append(
+    backend_name: str = DEFAULT_BACKEND,
+    instance: str | None = None,
+    store_path: str = "det8/data/ibm_snapshots.json",
+    token: str | None = None,
+) -> dict:
+    """Fetch a properties snapshot and append it to a local JSON store.
+
+    Repeated calls (e.g. daily/weekly) accumulate the decoherence-drift
+    series. The store lives under det8/data/ (gitignored, external data).
+    """
+    props = fetch_properties(backend_name, token, instance)
+    snapshots = []
+    if os.path.exists(store_path):
+        with open(store_path, encoding="utf-8") as f:
+            snapshots = json.load(f)
+    snapshots.append(props)
+    os.makedirs(os.path.dirname(store_path) or ".", exist_ok=True)
+    with open(store_path, "w", encoding="utf-8") as f:
+        json.dump(snapshots, f, indent=2)
+    return {
+        "backend": backend_name,
+        "n_snapshots": len(snapshots),
+        "store": store_path,
+        "last_update": props.get("last_update_date", ""),
+    }
+
+
+def spatial_correlation(
+    t1_by_qubit: dict[int, float],
+    coupling_edges: list[tuple[int, int]],
+    seed: int = 42,
+) -> dict:
+    """κ-diffusion signature: is T1 correlated between NEIGHBOURING qubits?
+
+    The qubit chip is a DET bond network; κ-diffusion predicts neighbouring
+    qubits share correlated coherence (T1). Compare the mean |ΔT1| over coupled
+    pairs against a random-pair baseline: neighbours more correlated (smaller
+    mean |ΔT1|) than random → spatial coherence.
+    """
+    import random
+
+    qubits = list(t1_by_qubit.keys())
+    neigh_diffs = [
+        abs(t1_by_qubit[i] - t1_by_qubit[j])
+        for (i, j) in coupling_edges
+        if i in t1_by_qubit and j in t1_by_qubit
+    ]
+    rng = random.Random(seed)
+    n = len(neigh_diffs)
+    random_diffs = [
+        abs(t1_by_qubit[rng.choice(qubits)] - t1_by_qubit[rng.choice(qubits)])
+        for _ in range(n)
+    ]
+    mean_neigh = sum(neigh_diffs) / len(neigh_diffs) if neigh_diffs else float("nan")
+    mean_rand = sum(random_diffs) / len(random_diffs) if random_diffs else float("nan")
+    correlated = bool(neigh_diffs) and mean_neigh < mean_rand
+
+    return {
+        "n_edges": len(neigh_diffs),
+        "mean_abs_dT1_neighbours": mean_neigh,
+        "mean_abs_dT1_random": mean_rand,
+        "ratio_neighbour_over_random": mean_neigh / mean_rand if mean_rand else None,
+        "neighbours_correlated": correlated,
+        "interpretation": (
+            f"Mean |ΔT1| over coupled pairs = {mean_neigh:.1f} µs vs random "
+            f"baseline {mean_rand:.1f} µs (ratio {mean_neigh/mean_rand:.2f}). "
+            f"{'Neighbours ARE correlated — consistent with κ-diffusion.' if correlated else 'No neighbour correlation detected.'}"
+        ),
+    }
