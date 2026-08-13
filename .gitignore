@@ -5,6 +5,9 @@ __pycache__/
 # Downloaded external datasets (large, not committed)
 det8/data/igs/
 
+# Virtual environment
+.venv/
+
 # IBM Quantum API token (secret — never commit)
 .ibm_quantum_token
-7LhUis13JA2hXmGO2YutEuvY3KQUNIZyEaCiV6sh9ShS
+*.ibm_quantum_token
