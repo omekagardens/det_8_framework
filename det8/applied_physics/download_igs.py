@@ -66,6 +66,9 @@ def clock_url(year: int, month: int, day: int,
 def _download_one(url: str, dest_dir: str) -> dict:
     os.makedirs(dest_dir, exist_ok=True)
     out = os.path.join(dest_dir, os.path.basename(url))
+    # Skip files already present (non-empty) so re-running a range is cheap.
+    if os.path.exists(out) and os.path.getsize(out) > 0:
+        return {"url": url, "ok": True, "error": "already present"}
     cmd = [
         "curl", "-L", "--fail", "--silent", "--show-error",
         "--netrc-file", NETRC,
