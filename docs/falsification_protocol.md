@@ -40,6 +40,21 @@ f_std_i)/Σ w_i s_i²` over a multi-probe vector, with uncertainty per sample.
 2. **Anti-circularity** — κ must NOT be inferred from the clock anomaly it is
    used to test (`circularity_guard`).
 
+**Dependency chain (revaluation, Aug 2026):** the ladder is *gated*, not
+ready to run. λ_P is free and underived (`λ_P = Π(0)/Π(1) − 1`), and λ_P·κ is
+a joint product, so Experiment 3 is only interpretable after two prerequisites
+exist: a κ **preparation** protocol (to set known κ values) and an independent
+κ **measurement** (Experiment 2). Experiment 2 in turn has an unsolved
+**bootstrap** — `calibrate_proxy` needs known-κ anchors (κ=0, κ=1) that
+nothing yet tells us how to prepare, and `R(κ)=R₀(1−κ)^α` is asserted, not
+measured. That makes **Experiment 1 (F9) the true first step**: only it
+decides whether κ is anything beyond defect density at all. If F9 says κ =
+defect density, the proxy is ordinary defect metrology (PAS, resistivity, DSC)
+and L2 reduces to a standard-materials question; if F9 says κ ≠ defect
+density, the proxy must be *discovered*, which is an experimental problem,
+not a theoretical one. Until F9 is executed, the clock anomaly is a
+conditional, future test — not a near-term prediction.
+
 ---
 
 ## 1. Experiment 1 — κ vs. defect density (the discriminator, F9)

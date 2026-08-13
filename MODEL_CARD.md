@@ -68,6 +68,8 @@ These are **correspondence checks**, not derivations: each module shows that a s
 
 Pre-registered in `track_a.py`. Monte Carlo simulator: `clock_experiment.py`. κ measured independently via structural proxy (`structural_proxy.py`); the κ-vs-defect-density discriminator (`kappa_discriminator.py`) is the gating experiment.
 
+> **Revaluation (Aug 2026):** λ_P is a **free, underived** coupling — it enters only the participation aperture and is defined operationally (`λ_P = Π(0)/Π(1) − 1`), so the prediction is a one-parameter *family*, not a number. And because λ_P·κ is a joint product, the test is gated on two prerequisites that do not yet exist: a κ *preparation* protocol and an independent κ *measurement* (the proxy, which itself has an unsolved known-κ bootstrap). Option B is therefore ontologically clean but **empirically thin**: a single probe at the top of the ladder, conditional on F9 and the proxy landing. The ontology never required λ_P ≠ 0. Details: `PHYSICS.md` §2.1, `docs/falsification_protocol.md`.
+
 ---
 
 ## 5. Track B — Ontological Grammar

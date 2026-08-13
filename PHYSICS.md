@@ -49,6 +49,14 @@ The structural history field κ replaces the original conflated `q` variable.
 >
 > κ is made **operational** (metrological): `κ̂_op = Σ w_i s_i (z_i − f_std_i)/Σ w_i s_i²` over a multi-probe vector `z`, with uncertainty per sample. Two guardrails: (i) a **standard-variable completeness audit** — any parameter capable of > 0.05× the expected signal must be measured, bounded, or stabilized; (ii) an **anti-circularity rule** — κ must NOT be inferred from the clock anomaly it is used to test (mechanical/calorimetric/microscopic/transport, a reference sample, or a non-clock oscillator only). The full program and findings are in **`docs/applied_physics.md`** (module: `det8/applied_physics/`).
 
+> **Empirical status — revaluation (Aug 2026):** two facts about the λ_P channel temper how this prediction should be read.
+>
+> 1. **λ_P is free, not derivable.** It enters only the participation aperture (Π = …(1+λ_P·κ)⁻¹), nowhere in the commit kernel `K`, the law map `L`, or the κ-dynamics (κ* = (κ_eq+β)/(1+β) is independent of λ_P). It is dimensionless, so no dimensional anchor exists. Its only internal constraint is the anthropic inequality λ_P ≤ (1/Π_min − 1)/κ*, and Π_min is a module-level *choice*, not a derived quantity. `det8_core.py` defines λ_P only operationally (`λ_P = Π(0)/Π(1) − 1`). The prediction is therefore a **one-parameter family** Δν/ν = λ_P·κ/(1+λ_P·κ), not a single number; λ_P's value is purely empirical.
+>
+> 2. **The probe is gated behind two prerequisites that do not yet exist.** Because λ_P and κ only ever enter as the *product* λ_P·κ (the F7 point), the clock test needs (a) a κ *preparation* protocol producing two known κ values, and (b) an independent κ *measurement* (the structural proxy). The proxy has an unsolved **bootstrap**: `calibrate_proxy` requires known-κ anchor samples (κ=0, κ=1) that nothing yet tells us how to prepare, and the single mechanical-response model `R(κ)=R₀(1−κ)^α` is *asserted*, not measured. The whole ladder is gated on the **F9 discriminator** (does κ survive at 900 K, i.e. is it anything beyond defect density?) — unexecuted — which itself needs the preparation protocol.
+>
+> **Net revaluation:** Option B is ontologically clean but **empirically thin** — it concentrates the entire empirical program into a *single* probe sitting at the top of the L0→L1→L2 ladder, gated behind materials-science prerequisites (preparable κ, measurable κ) that are open experimental problems. This does not weaken the ontology (which never needed λ_P ≠ 0); it means the clock anomaly is a *conditional, future* test — contingent on F9 and the proxy landing — not a near-term prediction. Full dependency chain in `docs/falsification_protocol.md`.
+
 **Formula:** \(\tau_A/\tau_B = (1+\lambda_P\kappa_B)/(1+\lambda_P\kappa_A)\)
 
 **Null model:** τ_A/τ_B = 1.0 after all known corrections.
