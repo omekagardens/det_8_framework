@@ -307,3 +307,94 @@ def run_all_applied_tests() -> dict:
             f"model, never by assumption."
         ),
     }
+
+
+# ── Real-data aging adversarial (GNSS clocks) ──────────────────────────────
+
+
+def _fit_exp_decay(t, y, tau_grid=(1, 2, 3, 5, 7, 10, 15, 20, 30, 50, 100, 200, 300)) -> dict:
+    """Fit the κ-recovery form y = A·exp(−t/τ) + C.
+
+    Grid-search τ; for each τ, (A, C) are linear least squares.
+    """
+    best = {"rss": float("inf"), "tau": None, "A": None, "C": None}
+    for tau in tau_grid:
+        xs = [math.exp(-ti / tau) for ti in t]
+        n = len(t)
+        Sx = sum(xs)
+        Sy = sum(y)
+        Sxx = sum(x * x for x in xs)
+        Sxy = sum(x * yi for x, yi in zip(xs, y))
+        den = n * Sxx - Sx * Sx
+        if abs(den) < 1e-15:
+            continue
+        A = (n * Sxy - Sx * Sy) / den
+        C = (Sxx * Sy - Sx * Sxy) / den
+        rss = sum((yi - A * x - C) ** 2 for x, yi in zip(xs, y))
+        if rss < best["rss"]:
+            best = {"rss": rss, "tau": tau, "A": A, "C": C}
+    return best
+
+
+def run_aging_adversarial(clk_dir: str, svn: str,
+                          tau_grid=(1, 2, 3, 5, 7, 10, 15, 20, 30, 50, 100, 200, 300)) -> dict:
+    """Run the κ-vs-IEEE aging comparison on a REAL multi-day drift series.
+
+    κ-recovery:  y = A·exp(−t/τ) + C   (exponential relaxation to equilibrium)
+    IEEE log:    y = a·ln(1+t) + b·t + c  (logarithmic + linear aging)
+
+    Both are 3-parameter models; compare by BIC. |ΔBIC| < 2 = no evidence,
+    2-6 = positive, 6-10 = strong, >10 = very strong (Kass & Raftery).
+    """
+    from det8.applied_physics.ingest import run_clock_aging
+
+    series = run_clock_aging(clk_dir, svn)
+    if len(series) < 10:
+        return {"svn": svn, "n_days": len(series),
+                "error": "too few days (<10) for a meaningful BIC comparison"}
+
+    t = list(range(len(series)))
+    y = [s["drift_s_per_s"] for s in series]
+    det = _fit_exp_decay(t, y, tau_grid)
+    ieee = _fit_ieee(t, y)
+    n = len(y)
+    bic_det = adv.bic(3, n, det["rss"])
+    bic_ieee = adv.bic(3, n, ieee["rss"])
+
+    return {
+        "svn": svn,
+        "n_days": n,
+        "bic_kappa": bic_det,
+        "bic_ieee": bic_ieee,
+        "det_wins": bic_det < bic_ieee,
+        "delta_bic": bic_det - bic_ieee,
+        "tau_best_days": det["tau"],
+        "verdict": "κ-recovery wins" if bic_det < bic_ieee else "IEEE-log wins",
+        "strength": (
+            "none" if abs(bic_det - bic_ieee) < 2 else
+            "positive" if abs(bic_det - bic_ieee) < 6 else
+            "strong" if abs(bic_det - bic_ieee) < 10 else "very strong"
+        ),
+        "note": (
+            "|ΔBIC| < 2 = no evidence, 2-6 = positive, 6-10 = strong, >10 = very "
+            "strong. ~2 months is typically too short to distinguish logarithmic "
+            "from exponential aging; months-to-years is required."
+        ),
+    }
+
+
+def run_all_aging_adversarial(clk_dir: str, svns: list[str]) -> dict:
+    """Run the aging adversarial on several satellites and summarize."""
+    rows = [run_aging_adversarial(clk_dir, s) for s in svns]
+    valid = [r for r in rows if "error" not in r]
+    n_kappa_wins = sum(1 for r in valid if r["det_wins"])
+    return {
+        "rows": rows,
+        "n_satellites": len(valid),
+        "n_kappa_wins": n_kappa_wins,
+        "interpretation": (
+            f"κ-recovery beats IEEE-log on {n_kappa_wins}/{len(valid)} satellites "
+            f"over {valid[0]['n_days'] if valid else 0} days — but the margins are "
+            f"small at this data volume; see each row's 'strength' field."
+        ),
+    }

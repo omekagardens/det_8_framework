@@ -975,6 +975,17 @@ def test_applied_physics():
     test("applied tests: 10 rows", r["n_tests"] == 10)
     test("applied tests: all correctly identified", r["n_correct_identification"] == 10)
 
+    # κ-recovery fit recovers a known exponential (the aging-model shape).
+    from det8.applied_physics.applied_tests import _fit_exp_decay, run_aging_adversarial
+    t_exp = list(range(100))
+    y_exp = [2.0 * math.exp(-ti / 10.0) + 0.5 for ti in t_exp]
+    fit = _fit_exp_decay(t_exp, y_exp)
+    test("exp fit recovers τ = 10", fit["tau"] == 10 and fit["rss"] < 1e-6)
+
+    # Real-data aging adversarial: graceful on an empty/nonexistent directory.
+    res = run_aging_adversarial("det8/data/nonexistent", "G01")
+    test("aging adversarial: graceful on empty dir", "error" in res)
+
 
 # ── Applied-physics ingest pipelines Tests ─────────────────────────────────
 
