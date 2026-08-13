@@ -126,12 +126,17 @@ def main(argv=None) -> int:
     print(f"Weeks {start}–{end}, prefix {args.prefix}, dest {args.dest} "
           f"{'(dry-run)' if args.dry_run else ''}")
     results = download_range(start, end, args.prefix, args.dest, args.dry_run)
+    if args.dry_run:
+        for r in results:
+            print(f"  {r['url']}")
+        print(f"dry-run: {len(results)} URLs listed (nothing downloaded).")
+        return 0
     ok = sum(1 for r in results if r["ok"])
     print(f"{ok}/{len(results)} files OK.")
     for r in results:
         if r["ok"] is False:
             print(f"  FAILED {r['url']}\n    {r['error']}")
-    return 0 if (args.dry_run or ok == len(results)) else 1
+    return 0 if ok == len(results) else 1
 
 
 if __name__ == "__main__":
