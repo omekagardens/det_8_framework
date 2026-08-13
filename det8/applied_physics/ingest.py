@@ -27,9 +27,16 @@ import random
 DATA_SOURCES = {
     "igs_clock": {
         "name": "GNSS clock aging (IGS)",
-        "url": "https://igs.org/products/ (clock RINEX via CDDIS; Earthdata login required)",
+        "url": (
+            "https://cddis.nasa.gov/archive/gnss/products/<GPSweek>/"
+            "igs<GPSweek><DoW>.clk.Z  (final; igr=rapid, igu=ultra-rapid). "
+            "Earthdata login required. Files are RINEX 3.04 clock (.clk), "
+            "Unix-compressed (.Z → `uncompress`). Contains `AS` satellite records "
+            "and `AR` receiver records."
+        ),
+        "local_path": "det8/data/igs/",
         "format": "RINEX 3.04 clock (.clk): header lines then "
-                  "'AS <SVN> <YYYY MM DD HH MM SS> <n> <bias_s> <drift_s/s> ...'",
+                  "'AS <SVN> <YYYY MM DD HH MM SS> <NVALS> <bias_s> <drift_s/s> ...'",
         "observable": "clock bias / drift (Δf/f)",
         "thermal": "satellite internal temperature T(t)",
         "radiation": "orbital radiation flux Φ(t) (AP-8/AE-8)",
