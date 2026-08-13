@@ -815,6 +815,46 @@ def test_det_falsification():
     test("clock anomaly is pre-registered", "PR" in cr["clock_anomaly"]["status"])
 
 
+# ── Active experiments: F9 spec + proxy ontology + clock sensitivity ───────
+
+def test_active_experiments():
+    from det8.models import kappa_discriminator as kd
+    from det8.models import structural_proxy as sp
+    from det8.models import clock_experiment as ce
+
+    section("Active experiments (F9 spec + proxy ontology + clock sensitivity)")
+
+    # F9 power analysis: large Arrhenius log-ratio → resolvable.
+    pa = kd.power_analysis(n_samples=10, sigma_log_tau=0.5, arrhenius_log_ratio=25.0)
+    test("F9 power: SNR large", pa["snr"] > 50.0)
+    test("F9 power: detectable at 5σ", pa["detectable_5sigma"])
+
+    # F9 specification returns a complete spec.
+    spec = kd.f9_specification()
+    test("F9 spec: has decision + power", "decision" in spec and "power" in spec)
+
+    # Proxy ontology test: zero residual → falsified.
+    fals = sp.ontology_residual_test([0.01, -0.01, 0.0], [0.0, 0.0, 0.0], noise_std=0.05)
+    test("ontology: zero residual → falsified", fals["verdict"] == "falsified")
+    cand = sp.ontology_residual_test([0.5, 0.5, 0.5], [0.0, 0.0, 0.0], noise_std=0.05)
+    test("ontology: nonzero residual → κ candidate", cand["verdict"] == "kappa_candidate")
+
+    # Full proxy calibration protocol runs and infers κ ≈ true.
+    proto = sp.proxy_calibration_protocol(true_kappa=0.5, seed=42)
+    test("proxy protocol infers κ ≈ 0.5",
+         abs(proto["kappa_inferred_from_residual"] - 0.5) < 0.15)
+
+    # Clock sensitivity table: λ_P·κ product in SI-observed units.
+    table = ce.clock_sensitivity_table()
+    test("clock table has rows", len(table["rows"]) > 0)
+    # A specific detectable case: λ_P=1e-12, κ=0.5 (large SNR).
+    row = next(r for r in table["rows"] if r["lambda_p"] == 1e-12 and r["kappa"] == 0.5)
+    test("clock table: λ_P=1e-12, κ=0.5 detectable", row["detectable_5sigma"])
+    # A null case: λ_P=1e-20 (far below noise floor).
+    row_null = next(r for r in table["rows"] if r["lambda_p"] == 1e-20 and r["kappa"] == 0.5)
+    test("clock table: λ_P=1e-20 not detectable", not row_null["detectable_5sigma"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -951,6 +991,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in det_falsification: {e}")
+        traceback.print_exc()
+
+    try:
+        test_active_experiments()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in active_experiments: {e}")
         traceback.print_exc()
 
     section("RESULTS")

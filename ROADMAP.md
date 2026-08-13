@@ -13,7 +13,7 @@
 | P0.3 | Governance baseline | Adversarial holdings, F8-OPEN, anti-smuggling rules frozen |
 | P0.4 | Construction sprint | Formal core + MAM-0 + MAM-Q + F8-OPEN v2 + Bell memo |
 | P0.4r1.1 | Adversarial revision | Downgraded openness to M. κ-γ split. Two-axis claim register. |
-| P0.5 | Derivations + Track A | 15 observables derived. 1 prediction pre-registered. Track B formalized. |
+| P0.5 | Derivations + Track A | 10 active + 5 retired correspondence checks. 1 prediction pre-registered. Track B formalized. |
 | P0.6 | Evolution + diffusion | DET-native Schrödinger. κ-diffusion on bonds. Unified simulation. |
 | P0.7 | Joint kernel + basis | O4 resolved. O8 resolved. |
 | P0.8 | Confluence + O7 | O3 resolved. O7 resolved (5-step, Π fixes conformal factor). |
@@ -27,7 +27,7 @@
 ## Current State
 
 **6 major open problems addressed (O1–O4 CI/AT, O7/O8 — see MODEL_CARD §6).**
-**199/199 tests passing.**
+**208/208 tests passing.**
 **82 code modules** (MODEL_CARD §7 documents a selected subset).
 **5 primary documents replacing 24.**
 
@@ -79,7 +79,7 @@ DET v8.0 is a disciplined interpretive framework with a fully derived physical c
 
 ```bash
 python3 run_tests.py
-# Expected: 199/199 passed, 0 failed, 0 errors
+# Expected: 208/208 passed, 0 failed, 0 errors
 ```
 
 ---

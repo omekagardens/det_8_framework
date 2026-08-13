@@ -2,7 +2,7 @@
 
 **Primary reference for the Deep Existence Theory framework.**
 **Date:** August 10, 2026 (revised per mathematical review)
-**Test suite:** 199/199 passing
+**Test suite:** 208/208 passing
 
 **Status:** DET8 implements a finite record-kernel framework that is the measurable shadow of a deeper relational ontology. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes **one** parameterized experimental anomaly (the κ-Π clock anomaly). **Gravity is standard GR — DET does not modify gravity** (Option B, Round 6); dark matter is not explained by DET. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's mathematical patterns are the measurable trace.
 
@@ -28,24 +28,26 @@ DET (Deep Existence Theory) is a two-track framework:
 | Commit kernel | \(K: \Omega \rightarrow [0,1]\) — proper transition kernel | `markov_kernel.py` |
 | Participation aperture | \(\Pi = \sigma \eta (1+F)^{-1}(1+H)^{-1}\phi(v)(1+\lambda_P\kappa)^{-1}\) — proper-time rate | `det8_core.py` |
 | Structural history | κ ∈ [0,1] — record-side drag on Π | `det8_core.py` |
-| Gravitational charge | \(\gamma = \lambda_\gamma \kappa\) — sources gravity via ρ = γ − γ_b | `det8_core.py` |
+| Gravitational charge | \(\gamma = \lambda_\gamma \kappa\) — **DEPRECATED (Option B, no κ-gravity)** | `det8_core.py` |
 | Kernel roots | \(c_i\) with \(K(i) = |c_i|^2\) — Born rule from composition | `born_derivation.py` |
 | Bonds | σ_ij, C_ij, π_ij — spatial connectivity between nodes | `bonds.py` |
 
 ---
 
-## 3. Observable Correspondence Checks (15 items)
+## 3. Observable Correspondence Checks (10 active + 5 retired)
 
-These are **correspondence checks**, not derivations: each module shows that a standard result (Born rule, CHSH, gravity, Lorentz covariance) is recovered when DET's primitive `κ` (or a kernel root) is mapped onto the standard source/amplitude role. The step from DET primitives to the standard result is *assumed*, not derived — the genuine derivation program (O1–O4) remains open at status CI/AT per §6. This is a necessary consistency step, but it is not the same as a derivation.
+These are **correspondence checks**, not derivations: each module shows that a standard result (Born rule, CHSH, Lorentz covariance) is recovered when DET's primitive `κ` (or a kernel root) is mapped onto the standard source/amplitude role. The step from DET primitives to the standard result is *assumed*, not derived — the genuine derivation program (O1–O4) remains open at status CI/AT per §6. This is a necessary consistency step, but it is not the same as a derivation.
+
+**Option B (Round 6):** the 5 gravity/Kepler rows below are **RETIRED** — κ no longer sources gravity, so there is no κ-gravity to "correspond" to. They are retained for audit only. The 10 active rows are the quantum + Lorentz + measurement checks, tied to the participation/proper-time structure.
 
 | # | Observable | Correspondence | Module |
 |---|---|---|---|
 | 1 | Born rule \(K(i)=\|c_i\|^2\) | Kernel roots + linear composition | `born_derivation.py` |
 | 2 | CHSH \(S=2\sqrt{2}\) | Bell state roots under rotation | `chsh_derivation.py` |
 | 3 | \(E(a,b)=\cos(2(a-b))\) | Nonfactorizable joint kernel | `o4_joint_kernel.py` |
-| 4 | 1/r² force law | 3D geometry + κ-charge superposition | `det_gravity.py` |
-| 5 | \(\nabla^2\Phi = 4\pi G_q\rho_\gamma\) | Discrete Laplacian continuum limit | `det_gravity.py` |
-| 6–8 | Kepler's laws 1–3 | DET orbits + angular momentum | `newton_correspondence.py` |
+| 4 | 1/r² force law | **RETIRED** — κ-charge superposition (no κ-gravity) | `det_gravity.py` |
+| 5 | \(\nabla^2\Phi = 4\pi G_q\rho_\gamma\) | **RETIRED** — discrete Laplacian limit (no κ-gravity) | `det_gravity.py` |
+| 6–8 | Kepler's laws 1–3 | **RETIRED** — DET orbits (no κ-gravity) | `newton_correspondence.py` |
 | 9 | Time dilation | Event density ratio from ≺ | `lorentz_derivation.py` |
 | 10 | Length contraction | Relativity of simultaneity in ≺ | `lorentz_derivation.py` |
 | 11 | Relativity of simultaneity | Frame-dependent spacelike foliations | `lorentz_derivation.py` |
@@ -98,7 +100,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | **F12** | **Anthropic Principle** | — | **FT/CI** — WAP selection confirmed; SAP necessity rejected; fine-tuning reduced to one combination. Track B. | Gravitational binding + inhomogeneous κ. See `docs/track_b/anthropic_principle.md`. |
 | — | Complex amplitudes | Mostly derived | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
 | — | κ dynamics | Physical field | **I** — Phenomenological reaction-diffusion | AT: Well-posedness, invariant domain, energy balance |
-| — | Clock/gravity predictions | Pre-registered | **PR** — Testable parameterized hypotheses | EV: Identifiable parameters + reproducible experiment |
+| — | Clock prediction | Pre-registered | **PR** — Testable parameterized hypothesis | EV: Identifiable parameters + reproducible experiment |
 
 ---
 
@@ -117,18 +119,18 @@ det8/models/
 ├── confluence.py, confluence_resolution.py  # Confluence (O3)
 ├── markov_kernel.py                    # MeasurableSpace, TransitionKernel
 ├── det_simulation.py                   # Multi-node DetUniverse
-├── q_gravity.py                        # κ-gravity toy
+├── q_gravity.py                        # κ-gravity toy (retired)
 ├── joint_kernel.py                     # Joint kernel sketch
 ├── det_native_spacetime.py             # Time dilation (derived)
 ├── det_native_measurement.py           # Pointer formation (derived)
 ├── born_derivation.py                  # Born rule (O1)
 ├── chsh_derivation.py                  # CHSH + amplitudes (O2)
-├── det_gravity.py                      # Field equation (derived)
+├── det_gravity.py                      # Field equation (retired)
 ├── lorentz_derivation.py               # Lorentz covariance (derived)
 ├── newton_correspondence.py            # Newton verification
 ├── structural_proxy.py                 # κ measurement protocol
 ├── clock_anomaly.py, clock_experiment.py  # Track A clock
-├── gravity_experiment.py               # Track A gravity
+├── gravity_experiment.py               # Track A gravity (retired)
 ├── track_a.py                          # Track A pre-registrations
 ├── time_evolution.py                   # Schrödinger (derived)
 ├── kappa_diffusion.py                  # κ-diffusion on bonds
@@ -204,7 +206,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**199/199 tests passing** over **21 of 82 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
+**208/208 tests passing** over **22 of 82 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.
@@ -216,7 +218,7 @@ The test suite does **NOT** verify:
 - ❌ That DET makes correct empirical predictions.
 - ❌ That κ, Π, or λ_P exist in nature.
 
-**Coverage caveat (Round 3 red-team):** the 199 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/gravity parameter code (`clock_experiment`, `clock_anomaly`, `track_a`), and the Round 3/6 resolution modules (`gravity_v2`, `kappa_discriminator`, `sparc_analysis`, `det_units`, `kappa_derivation`, `det_falsification`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and much of the astrophysics suite (`cluster_dynamics`, `post_newtonian`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
+**Coverage caveat (Round 3 red-team):** the 208 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/proxy code (`clock_experiment`, `clock_anomaly`, `track_a`, `structural_proxy`), and the Round 3/6 resolution modules (`gravity_v2`, `kappa_discriminator`, `sparc_analysis`, `det_units`, `kappa_derivation`, `det_falsification`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and much of the astrophysics suite (`cluster_dynamics`, `post_newtonian`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
 
 Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 

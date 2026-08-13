@@ -73,7 +73,7 @@ Two-axis system: Layer (what kind of claim) × Validation (how well supported).
 DG-OPEN triggered: open becoming → M.
 
 ### P0.5 → P0.6 (cleared)
-15 observables derived. Two Track A predictions pre-registered. Track B formalized.
+10 active + 5 retired correspondence checks. One Track A prediction pre-registered. Track B formalized.
 
 ### Current gate (P0.8)
 ```

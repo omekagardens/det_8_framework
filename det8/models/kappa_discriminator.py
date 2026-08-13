@@ -187,3 +187,81 @@ def simulate_signal_decay(
             f"— the temporal signature that separates the two hypotheses."
         ),
     }
+
+
+# ── Quantitative F9 specification (τ_rec, annealing model, power) ───────────
+
+
+def power_analysis(
+    n_samples: int = 10,
+    sigma_log_tau: float = 0.5,   # per-sample log-noise on the recovery time.
+    arrhenius_log_ratio: float = 25.0,  # ln(τ_low/τ_high) from the Arrhenius law.
+) -> dict:
+    """Statistical power to reject "κ = defect density" from a T-sweep.
+
+    Statistic: log(recovery_ratio) = log(τ_rec(T_low)/τ_rec(T_high)).
+      κ (distinct):  log(ratio) = 0.
+      defect (Arrhenius): log(ratio) = arrhenius_log_ratio (≫ 0).
+
+    With n_samples per temperature and per-sample log-noise sigma_log_tau, the
+    standard error on the mean ratio is sigma_log_tau/√n_samples; the SNR for
+    distinguishing the two is arrhenius_log_ratio / SE.
+    """
+    if n_samples <= 0:
+        raise ValueError("n_samples must be > 0")
+    se = sigma_log_tau / math.sqrt(n_samples)
+    snr = arrhenius_log_ratio / se if se > 0 else float("inf")
+    return {
+        "n_samples": n_samples,
+        "sigma_log_tau": sigma_log_tau,
+        "standard_error_log_ratio": se,
+        "arrhenius_log_ratio": arrhenius_log_ratio,
+        "snr": snr,
+        "detectable_5sigma": snr >= 5.0,
+        "interpretation": (
+            f"With N={n_samples} samples per temperature and log-noise "
+            f"σ_logτ={sigma_log_tau}, the standard error on the recovery-ratio is "
+            f"{se:.3f} and the SNR against the Arrhenius prediction is {snr:.1f}. "
+            f"The discriminator is {'resolvable at ≥5σ' if snr >= 5 else 'UNDERPOWERED'}."
+        ),
+    }
+
+
+def f9_specification(
+    n_samples: int = 10,
+    sigma_log_tau: float = 0.5,
+    E_a_eV_range: tuple[float, float] = (0.5, 2.0),
+    tau0_s: float = 1e-13,
+    T_low_K: float = 300.0,
+    T_high_K: float = 900.0,
+) -> dict:
+    """The quantitative F9 discriminator specification.
+
+    States the τ_rec range to test, the competing annealing model (Arrhenius
+    with defect-type-specific activation energies), the temperature sweep, the
+    sample count, and the resulting power.
+    """
+    # Arrhenius log-ratio over the sweep, at the LOWEST activation energy
+    # (worst case: smallest separation to resolve).
+    arrhenius_log_ratio_min = (
+        E_a_eV_range[0] / (K_B_EV * (1.0 / T_low_K - 1.0 / T_high_K))
+    ) if (1.0 / T_low_K - 1.0 / T_high_K) > 0 else 0.0
+    arrhenius_log_ratio_min = abs(arrhenius_log_ratio_min)
+
+    power = power_analysis(n_samples, sigma_log_tau, arrhenius_log_ratio_min)
+
+    return {
+        "tau_rec_range_to_test": "τ_rec ∈ [10², 10⁷] s — must NOT track the Arrhenius law",
+        "competing_annealing_model": (
+            f"τ_anneal(T) = τ_0·exp(E_a/k_B T), τ_0 ≈ {tau0_s:.0e} s, "
+            f"E_a ∈ {E_a_eV_range} eV (defect-type-specific activation energies)"
+        ),
+        "temperature_sweep": f"T ∈ [{T_low_K:.0f}, {T_high_K:.0f}] K",
+        "sample_count": f"N ≥ {n_samples} per temperature",
+        "worst_case_arrhenius_log_ratio": arrhenius_log_ratio_min,
+        "power": power,
+        "decision": (
+            "recovery ratio ≈ 1 (T-independent) ⇒ κ distinct from defect density; "
+            "recovery ratio ≈ Arrhenius ⇒ κ = defect density ⇒ DET is a relabeling."
+        ),
+    }

@@ -350,6 +350,71 @@ def experiment_design(
     }
 
 
+# ── SI-unit sensitivity table ───────────────────────────────────────────────
+
+
+def clock_sensitivity_table(
+    lambda_p_values: Optional[list[float]] = None,
+    kappa_values: Optional[list[float]] = None,
+    total_duration: float = 1_000_000.0,   # seconds (~12 days).
+    clock_noise: Optional[ClockNoiseModel] = None,
+    env_noise: Optional[EnvironmentalNoise] = None,
+) -> dict:
+    """SI-unit sensitivity table for the κ-Π clock anomaly.
+
+    For each (λ_P, κ), compute the fractional frequency difference
+    Δν/ν = λ_P·κ/(1+λ_P·κ) (dimensionless, SI-observed), the noise floor
+    at the integration time, the SNR, and the 5σ detectability.
+
+    This is the operational table: every entry is in SI-observed units
+    (fractional frequency), with no theory-dependent interpretation.
+    """
+    if clock_noise is None:
+        clock_noise = ClockNoiseModel()
+    if env_noise is None:
+        env_noise = EnvironmentalNoise()
+    if lambda_p_values is None:
+        lambda_p_values = [
+            1e-20, 1e-18, 1e-16, 1e-14, 1e-12, 1e-10, 1e-8, 1e-6, 1e-4, 1e-2, 1.0,
+        ]
+    if kappa_values is None:
+        kappa_values = [0.01, 0.1, 0.5, 1.0]
+
+    noise_floor = math.sqrt(
+        clock_noise.sigma_F**2 + env_noise.total_environmental()**2
+    )
+
+    rows = []
+    for lp in lambda_p_values:
+        for kb in kappa_values:
+            y = det_clock_signal(0.0, kb, lp)  # Δν/ν, SI fractional.
+            snr = abs(y) / noise_floor
+            rows.append(
+                {
+                    "lambda_p": lp,
+                    "kappa": kb,
+                    "delta_nu_over_nu": y,
+                    "noise_floor": noise_floor,
+                    "snr": snr,
+                    "detectable_5sigma": snr >= 5.0,
+                }
+            )
+
+    return {
+        "total_duration_s": total_duration,
+        "total_duration_days": total_duration / 86400.0,
+        "noise_floor": noise_floor,
+        "clock_type": "Optical lattice (¹⁷¹Yb / ⁸⁷Sr)",
+        "rows": rows,
+        "interpretation": (
+            f"Noise floor {noise_floor:.1e} (flicker + environmental). The "
+            f"model-independent product λ_P·κ is detectable at 5σ iff it exceeds "
+            f"5×noise_floor = {5*noise_floor:.1e}. λ_P is unconstrained until κ "
+            f"is measured (data guardrail)."
+        ),
+    }
+
+
 # ── Experiment Summary ──────────────────────────────────────────────────────
 
 

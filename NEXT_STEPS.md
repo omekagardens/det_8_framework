@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 10, 2026
-**Test suite:** 199/199 passing
+**Test suite:** 208/208 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -9,9 +9,9 @@
 ## What's Been Done (Complete)
 
 ### Theory
-- 15 observables derived from DET primitives
-- 6/6 open problems resolved
-- 2 Track A predictions pre-registered
+- 10 active + 5 retired correspondence checks
+- 6 open problems addressed (CI/AT, see MODEL_CARD §6)
+- 1 Track A prediction pre-registered (κ-Π clock anomaly)
 - Track B ontological grammar formalized (4 deadlocks)
 - 2-round adversarial red-team review
 - U(1) emergence formalized
@@ -31,7 +31,7 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 82 modules, 199/199 tests
+- 82 modules, 208/208 tests
 - Full simulation stack + experimental simulators + dataset analysis
 
 ---
@@ -70,5 +70,5 @@
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 199/199 passing
+python3 run_tests.py   # 208/208 passing
 ```

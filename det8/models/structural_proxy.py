@@ -373,6 +373,125 @@ def proxy_sensitivity(
     }
 
 
+# ── Ontology test: residual after known-physics regression (ladder step 2) ──
+
+
+def ontology_residual_test(
+    observed_responses: list[float],
+    known_physics_prediction: list[float],
+    noise_std: float,
+) -> dict:
+    """The κ-vs-known-physics ontology test (falsification-ladder step 2).
+
+    Regress the observed probe response against the KNOWN material variables
+    (dislocation density, residual stress, hardness, …). The residual is the
+    κ candidate:
+
+      residual = observed − known_physics_prediction.
+
+    If the residual is consistent with zero (within noise), κ is fully
+    explained by ordinary materials science ⇒ DET is a relabeling ⇒ falsified.
+    If nonzero (≥3σ), it is a κ candidate (proceed to the clock comparison).
+    """
+    if len(observed_responses) != len(known_physics_prediction):
+        raise ValueError("lengths must match")
+    if len(observed_responses) == 0:
+        raise ValueError("empty sample set")
+
+    residuals = [o - k for o, k in zip(observed_responses, known_physics_prediction)]
+    mean_residual = sum(residuals) / len(residuals)
+    se = noise_std / math.sqrt(len(residuals)) if noise_std > 0 else float("inf")
+    significance = abs(mean_residual) / se if se > 0 else float("inf")
+
+    if significance < 3.0:
+        verdict = "falsified"
+        detail = (
+            f"residual {mean_residual:.2e} is consistent with zero at "
+            f"{significance:.1f}σ ⇒ κ = known physics ⇒ no independent κ."
+        )
+    else:
+        verdict = "kappa_candidate"
+        detail = (
+            f"residual {mean_residual:.2e} at {significance:.1f}σ ⇒ nonzero "
+            f"⇒ κ candidate beyond known physics."
+        )
+
+    return {
+        "n_samples": len(residuals),
+        "mean_residual": mean_residual,
+        "noise_std": noise_std,
+        "significance": significance,
+        "verdict": verdict,
+        "detail": detail,
+    }
+
+
+def proxy_calibration_protocol(
+    true_kappa: float = 0.5,
+    known_physics_fraction: float = 0.5,   # fraction of response from known physics.
+    noise_std: float = 0.01,
+    alpha: float = 1.0,
+    seed: int = 42,
+) -> dict:
+    """The full structural-proxy calibration protocol, end to end.
+
+    1. Calibrate R(κ) = R₀(1−κ)^α on known-κ samples.
+    2. Measure the response of an unknown sample.
+    3. Subtract the KNOWN-physics contribution; the residual is the κ candidate.
+    4. Decide: falsified (residual ≈ 0) or κ candidate (residual ≠ 0).
+
+    The `known_physics_fraction` models the confound the red-team flagged (F9):
+    the probe response may be largely ordinary materials science; only the
+    residual above it is the κ signal.
+    """
+    rng = random.Random(seed)
+    model = StructuralResponseModel(R_0=1.0, alpha=alpha, noise_std=noise_std)
+
+    # 1. Calibrate.
+    calibration = calibrate_proxy(
+        model,
+        kappa_calibration_points=[0.0, 0.25, 0.5, 0.75, 1.0],
+        n_measurements_per_point=100,
+        seed=seed,
+    )
+    if "error" in calibration:
+        return {"error": calibration["error"]}
+
+    # 2. Measure the unknown sample (with the known-physics confound).
+    R_true_kappa = model.response(true_kappa)
+    R_known = known_physics_fraction * model.R_0   # ordinary materials response.
+    R_observed = R_true_kappa + R_known + rng.gauss(0.0, noise_std * model.R_0)
+
+    # 3. Ontology test: residual = observed − known_physics.
+    #    (known_physics_prediction is the fitted known-variable model, here
+    #     the ordinary-materials floor R_known.)
+    test = ontology_residual_test(
+        observed_responses=[R_observed],
+        known_physics_prediction=[R_known],
+        noise_std=noise_std,
+    )
+
+    # 4. Infer κ from the RESIDUAL (κ-only) response.
+    calibration["noise_std"] = noise_std
+    kappa_from_residual = infer_kappa(
+        max(R_observed - R_known, 1e-9), calibration, n_measurements=100
+    )
+
+    return {
+        "true_kappa": true_kappa,
+        "known_physics_fraction": known_physics_fraction,
+        "ontology_test": test,
+        "kappa_inferred_from_residual": kappa_from_residual["kappa_inferred"],
+        "kappa_uncertainty": kappa_from_residual["kappa_uncertainty"],
+        "protocol_summary": (
+            f"Residual after known-physics subtraction is κ = "
+            f"{kappa_from_residual['kappa_inferred']:.3f} ± "
+            f"{kappa_from_residual['kappa_uncertainty']:.3f} (true {true_kappa}). "
+            f"Ontology verdict: {test['verdict']}."
+        ),
+    }
+
+
 # ── Comparison: Proxy vs Clock vs Gravity ───────────────────────────────────
 
 
