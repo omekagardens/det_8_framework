@@ -13,7 +13,7 @@
 | P0.3 | Governance baseline | Adversarial holdings, F8-OPEN, anti-smuggling rules frozen |
 | P0.4 | Construction sprint | Formal core + MAM-0 + MAM-Q + F8-OPEN v2 + Bell memo |
 | P0.4r1.1 | Adversarial revision | Downgraded openness to M. κ-γ split. Two-axis claim register. |
-| P0.5 | Derivations + Track A | 15 observables derived. 2 predictions pre-registered. Track B formalized. |
+| P0.5 | Derivations + Track A | 15 observables derived. 1 prediction pre-registered. Track B formalized. |
 | P0.6 | Evolution + diffusion | DET-native Schrödinger. κ-diffusion on bonds. Unified simulation. |
 | P0.7 | Joint kernel + basis | O4 resolved. O8 resolved. |
 | P0.8 | Confluence + O7 | O3 resolved. O7 resolved (5-step, Π fixes conformal factor). |
@@ -26,8 +26,8 @@
 
 ## Current State
 
-**All major open problems resolved (O1–O4, O7, O8).**
-**194/194 tests passing.**
+**6 major open problems addressed (O1–O4 CI/AT, O7/O8 — see MODEL_CARD §6).**
+**186/186 tests passing.**
 **81 code modules** (MODEL_CARD §7 documents a selected subset).
 **5 primary documents replacing 24.**
 
@@ -35,7 +35,7 @@
 
 | Track | Status |
 |---|---|
-| A — Physical Calculus | 2 pre-registered predictions. Full experimental simulators. Awaiting test. |
+| A — Physical Calculus | 1 pre-registered prediction (κ-Π clock anomaly). Gravity is GR. Awaiting test. |
 | B — Ontological Grammar | 4 deadlocks resolved. Mature framework. |
 
 ### Classification
@@ -79,7 +79,7 @@ DET v8.0 is a disciplined interpretive framework with a fully derived physical c
 
 ```bash
 python3 run_tests.py
-# Expected: 194/194 passed, 0 failed, 0 errors
+# Expected: 186/186 passed, 0 failed, 0 errors
 ```
 
 ---

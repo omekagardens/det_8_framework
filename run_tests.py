@@ -466,86 +466,69 @@ def test_anthropic():
     test("κ_obs(λ=1, Πmin=0.5) = 1", abs(kappa_threshold(1.0, 0.5) - 1.0) < 1e-12)
     test("κ_obs(λ=10, Πmin=0.5) = 0.1", abs(kappa_threshold(10.0, 0.5) - 0.1) < 1e-12)
 
-    # κ-gravity binding threshold — two-source law (gravity_v2)
-    test("Newton alone binds → κ_bind = κ_eq",
-         abs(kappa_bind_from_gravity(5.0, 1.0, 1.0, 10, G=1.0, alpha=1.0, kappa_eq=0.0, kappa_earth=1.0)) < 1e-12)
-    test("Newton insufficient → κ_bind = 1.0",
-         abs(kappa_bind_from_gravity(20.0, 1.0, 1.0, 10, G=1.0, alpha=1.0, kappa_eq=0.0, kappa_earth=1.0) - 1.0) < 1e-12)
-    test("κ_bind → ∞ when G=0",
-         kappa_bind_from_gravity(0.1, 1.0, 1.0, 10, G=0.0) == float("inf"))
+    # κ-gravity binding threshold is DEPRECATED (Option B) but still callable.
+    test("κ_bind_from_gravity deprecated but callable",
+         kappa_bind_from_gravity(5.0, 1.0, 1.0, 10, G=1.0, alpha=1.0, kappa_eq=0.0, kappa_earth=1.0) < 1e-12)
 
-    # Observer window width
-    test("Window width (λ=1, κ_bind=0) = 1",
-         abs(observer_window_width(1.0, 0.0, 0.5) - 1.0) < 1e-12)
-    test("Window width (λ=1, κ_bind=1) = 0",
-         abs(observer_window_width(1.0, 1.0, 0.5)) < 1e-12)
+    # Observer predicate — participation only (Option B).
+    test("κ*=0 → observer (participation)", is_observer_regime(0.0, 100.0, 0.5))
+    test("κ*=1 → no observer (λ=10, participation stalls)",
+         not is_observer_regime(1.0, 10.0, 0.5))
+    test("κ*=0.5 → observer (λ=1)", is_observer_regime(0.5, 1.0, 0.5))
 
-    # Observer predicate known cases (binding + participation)
-    test("κ*=0 → no observer (fails binding, κ_bind=0.2)",
-         not is_observer_regime(0.0, 100.0, 0.5, kappa_bind=0.2))
-    test("κ*=0 → observer (κ_bind=0)", is_observer_regime(0.0, 100.0, 0.5, 0.0))
-    test("κ*=1 → no observer (λ=10, fails participation)",
-         not is_observer_regime(1.0, 10.0, 0.5, 0.0))
-    test("κ*=0.5 → observer (λ=1, κ_bind=0.3)",
-         is_observer_regime(0.5, 1.0, 0.5, 0.3))
-
-    # Predicate ⟺ window form (exact equivalence, sampled)
+    # Predicate ⟺ participation form (exact equivalence, sampled).
     rng = _random.Random(7)
     ok = True
     for _ in range(1000):
         lp = 10.0 ** rng.uniform(-2.0, 2.0)
         ke = rng.uniform(0.0, 1.0)
         be = 10.0 ** rng.uniform(-2.0, 2.0)
-        kb = rng.uniform(0.0, 1.0)
         kstar = kappa_fixed_point(ke, be)
-        expected = (kb <= kstar) and (observer_combination(lp, ke, be) <= 1.0)
-        if is_observer_regime(kstar, lp, 0.5, kb) != expected:
+        expected = observer_combination(lp, ke, be) <= 1.0
+        if is_observer_regime(kstar, lp, 0.5) != expected:
             ok = False
             break
-    test("Predicate ⟺ window [κ_bind, κ_obs]", ok)
+    test("Predicate ⟺ Z ≤ threshold (participation)", ok)
 
-    # Attractor convergence (initial-condition independence)
-    demo = demonstrate_attractor_convergence(kappa_eq=0.3, beta=0.5, lambda_p=1.5, kappa_bind=0.2)
+    # Attractor convergence (initial-condition independence).
+    demo = demonstrate_attractor_convergence(kappa_eq=0.3, beta=0.5, lambda_p=1.5)
     test("Attractor convergence", demo["converged"])
     test("Attractor κ* ≈ 0.5333", abs(demo["kappa_star"] - 0.533333) < 1e-3)
-    test("Attractor in window", demo["observer_regime"])
+    test("Attractor satisfies participation", demo["observer_regime"])
 
-    # Ensemble statistics (two-sided selection)
+    # Ensemble statistics (one-sided selection, Option B).
     ens = anthropic_ensemble(n_draws=20000, seed=42)
     pm = ens["prior_mean"]; om = ens["posterior_mean"]; sh = ens["selection_shift"]
     test("P(observer) in (0,1)", 0.0 < ens["p_observer"] < 1.0)
     test("SAP necessity is false", not ens["necessity"])
     test("Selection: λ_P downward", om["lambda_p"] < pm["lambda_p"])
-    test("Selection: κ_bind downward", om["kappa_bind"] < pm["kappa_bind"])
-    test("Selection: κ_eq upward (toward window)", om["kappa_eq"] > pm["kappa_eq"])
-    test("Selection: β upward (toward window)", om["beta"] > pm["beta"])
-    test("λ_P is the most-selected parameter",
-         sh["lambda_p"] < sh["kappa_bind"] and
-         sh["lambda_p"] < min(sh["kappa_eq"], sh["beta"]))
+    test("Selection: κ_eq downward", om["kappa_eq"] < pm["kappa_eq"])
+    test("Selection: β downward", om["beta"] < pm["beta"])
+    test("λ_P is the stiff selection direction",
+         sh["lambda_p"] < sh["kappa_eq"] and sh["lambda_p"] < sh["beta"])
 
-    # Determinism (same seed → same result)
+    # Determinism (same seed → same result).
     ens2 = anthropic_ensemble(n_draws=20000, seed=42)
     test("Ensemble deterministic", abs(ens["p_observer"] - ens2["p_observer"]) < 1e-15)
 
-    # Prior-sensitivity sweep
+    # Prior-sensitivity sweep.
     sweep = prior_sensitivity_sweep(n_draws=20000, seed=42)
     test("Sweep: necessity always false", sweep["robust"]["necessity_always_false"])
     test("Sweep: λ_P shift always down", sweep["robust"]["shift_direction_lambda_p_always_down"])
-    test("Sweep: κ_bind shift always down", sweep["robust"]["shift_direction_kappa_bind_always_down"])
-    test("Sweep: κ_eq shift always up", sweep["robust"]["shift_direction_kappa_eq_always_up"])
-    test("Sweep: β shift always up", sweep["robust"]["shift_direction_beta_always_up"])
-    test("Sweep: 7 configs", len(sweep["rows"]) == 7)
+    test("Sweep: κ_eq shift always down", sweep["robust"]["shift_direction_kappa_eq_always_down"])
+    test("Sweep: β shift always down", sweep["robust"]["shift_direction_beta_always_down"])
+    test("Sweep: 5 configs", len(sweep["rows"]) == 5)
 
-    # Anti-smuggling audit
+    # Anti-smuggling audit.
     audit = anti_smuggling_audit()
     test("Anti-smuggling clean", audit["clean"])
     test("Axion/standard constants excluded",
          "f_a (axion decay constant)" in audit["deliberately_excluded"])
 
-    # Claim register has the verdicts with status labels
+    # Claim register has the three verdicts with status labels.
     pos = det_anthropic_position()
     for key in ("weak_anthropic_selection", "strong_anthropic_necessity",
-                "fine_tuning_premise", "binding_participation_window"):
+                "fine_tuning_premise"):
         test(f"Claim register: {key}",
              key in pos and "verdict" in pos[key] and "status" in pos[key])
 
@@ -714,10 +697,10 @@ def test_sparc_linear():
     test("comparison returns all three laws",
          "v_linear" in c and "v_quadratic_legacy" in c and "v_newton" in c)
 
-    # Single coupling α reproduces flat curves — honest α ≈ 20 (κ clamped).
+    # Single coupling α reproduces flat curves — honest α ≈ 16 (κ clamped).
     scan = s.scan_alpha()
-    test("best α = 20 (κ clamped to [0,1])", scan["best_alpha"] == 20.0)
-    test("α=20 RMS < 25%", scan["best_mean_rms"] < 0.25)
+    test("best α = 16 (κ clamped to [0,1])", scan["best_alpha"] == 16.0)
+    test("α=16 RMS < 25%", scan["best_mean_rms"] < 0.25)
 
 
 # ── SI ↔ DET Units Conversion Tests ────────────────────────────────────────
@@ -742,11 +725,11 @@ def test_det_units():
     test("κ round-trip (proxy)",
          abs(u.kappa_from_proxy_response(u.proxy_response_from_kappa(0.7, p=2.0), p=2.0) - 0.7) < 1e-12)
 
-    # Coupling implications (honest α ≈ 20).
+    # Coupling implications (honest α ≈ 16).
     impl = u.coupling_implications()
-    test("β_eff = α/κ_earth = 20", abs(impl["beta_eff"] - 20.0) < 1e-12)
-    test("lab Δκ < 1e-14 at α=20", impl["lab"]["delta_kappa_lab_max"] < 1e-14)
-    test("dwarf discrepancy NOT reachable at β_eff=20", not impl["galactic"]["dwarf_reachable"])
+    test("β_eff = α/κ_earth = 16", abs(impl["beta_eff"] - 16.0) < 1e-12)
+    test("lab Δκ < 1e-14 at α=16", impl["lab"]["delta_kappa_lab_max"] < 1e-14)
+    test("dwarf discrepancy NOT reachable at β_eff=16", not impl["galactic"]["dwarf_reachable"])
 
     # Fit example.
     f = u.fit_lab_example()

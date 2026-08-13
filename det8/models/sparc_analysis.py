@@ -1,6 +1,10 @@
 """
 DET κ-Gravity Galaxy Rotation Curves — SPARC Analysis
 
+DEPRECATED (Round 6, Option B): the gravity-modification program is retired.
+κ does NOT couple to gravity; galaxy rotation curves are explained by standard
+dark matter, not DET. Retained for historical audit only.
+
 Models galaxy rotation curves using DET κ-gravity instead of dark matter.
 
 DET prediction (linear two-source law, `gravity_v2`; quadratic DEPRECATED):
@@ -492,7 +496,8 @@ def scan_alpha(
     by 1+α·Δκ/κ_earth. This scan reports the α that best reproduces the sample.
     """
     if alpha_values is None:
-        alpha_values = [1.0, 2.0, 5.0, 10.0, 20.0, 50.0, 100.0, 200.0]
+        alpha_values = [1.0, 2.0, 3.0, 5.0, 8.0, 10.0, 12.0, 14.0, 15.0, 16.0,
+                        18.0, 20.0, 25.0, 30.0, 40.0, 50.0, 100.0]
 
     best_rms = float("inf")
     best_alpha = None

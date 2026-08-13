@@ -96,7 +96,7 @@ The code tries to paper over this in `calibrate_gravity_to_real` with the constr
 3. Whatever the resolution, the decoupling experiment must specify **what changes and what is held fixed** in dimensional terms: "ΔM = 0 but Δκ ≠ 0" is only meaningful if κ is defined independently of M. Today it is not.
 4. Add a single test that asserts the three force laws agree in the regime where they are all claimed to apply (e.g., a point source with a given κ and mass). Currently such a test would fail, which is why it should exist.
 
-> **Team A response:** Accepted as a real internal inconsistency. **Decision made (August 12):** the mass-independent law (a) is **DEPRECATED**; Team A adopted the **two-source field equation** `∇²Φ = 4πG(ρ_m + ρ_κ)` with `ρ_κ = ρ_m·χ(κ)`, `χ(κ) = (κ−κ_eq)/κ_earth`, effective coupling `G_eff = G(1+αχ)` — **linear in κ**, equivalence principle preserved. Implemented in `gravity_v2.py` (dimensional-consistency check, three-law comparison audit, rewritten decoupling prediction `ΔF = F_κ`, not `F → 0`). `PHYSICS.md` §2.2/§3 and `MODEL_CARD.md` §9/§10 updated; `G_q`/`λ_γ` marked deprecated. The linear-vs-quadratic ambiguity resolves to **linear** (SPARC's `(κ/κ_earth)²` was double-counting κ). **Follow-up done:** `sparc_analysis` re-derived to the linear law (`det_rotation_velocity` + `scan_alpha` → α ≈ 5 reproduces 42/43 flat, RMS ~19%); the anthropic `kappa_bind_from_gravity` re-derived from the two-source law (mass binds first, κ when needed).
+> **Team A response:** Accepted as a real internal inconsistency. **Decision made (August 12):** the mass-independent law (a) is **DEPRECATED**; Team A adopted the **two-source field equation** `∇²Φ = 4πG(ρ_m + ρ_κ)` with `ρ_κ = ρ_m·χ(κ)`, `χ(κ) = (κ−κ_eq)/κ_earth`, effective coupling `G_eff = G(1+αχ)` — **linear in κ**, equivalence principle preserved. Implemented in `gravity_v2.py` (dimensional-consistency check, three-law comparison audit, rewritten decoupling prediction `ΔF = F_κ`, not `F → 0`). `PHYSICS.md` §2.2/§3 and `MODEL_CARD.md` §9/§10 updated; `G_q`/`λ_γ` marked deprecated. The linear-vs-quadratic ambiguity resolves to **linear** (SPARC's `(κ/κ_earth)²` was double-counting κ). **Follow-up done:** `sparc_analysis` re-derived to the linear law (`det_rotation_velocity` + `scan_alpha` → α ≈ 16 with κ clamped to [0,1], broad minimum 14–18, 42/43 flat, RMS ~19%; the ~9× ceiling means dwarf/cluster scales are NOT covered — see R6-B); the anthropic `kappa_bind_from_gravity` re-derived from the two-source law (mass binds first, κ when needed).
 
 ---
 
@@ -443,6 +443,8 @@ This is the most important thing in this round, and it is a *good* outcome for t
 
 **Concrete, non-ontological path forward** (already sketched in the module docstring — I am endorsing and sharpening it): the sign flips if the *reset driver* is more concentrated than the stars. With `r_reset < r_d`, `Q(r) ∝ exp(−r(1/r_d − 1/r_reset))` **increases** outward. A natural candidate is a *central* reset (AGN / SMBH feedback / nuclear starburst) rather than the *distributed* recent SFR. This is falsifiable: predict `r_reset ≈ r_bulge ≪ r_d`, then re-run `radial_gradient_check` and require Δκ > 0 in a majority of galaxies. That is the immediate next simulation.
 
+> **Team A response (Round 6):** Accepted — the F6 formula is implemented and honestly falsified (κ decreases with radius in 8/8 galaxies; "reset ∝ recent SFR" is wrong-signed). Agree with the sharpened path: implement the concentrated-reset hypothesis (r_reset < r_d, e.g. central AGN/SMBH/nuclear starburst), then require Δκ > 0 in a majority of galaxies. That is the immediate next simulation and the current best shot at a physical origin for α.
+
 ### 10.3 New finding R6-A — the proxy and Eötvös are mutually inconsistent by ~10¹¹
 
 This is the sharpest new problem and it falls out of Team A's own numbers (`det_units.coupling_implications`):
@@ -460,6 +462,8 @@ This is entangled with the κ-recovery timescale: `kappa_discriminator` defaults
 
 **Recommendation:** add a `lab_consistency` analysis that takes `τ_rec`, `α`, `Δκ_proxy` and the Eötvös η as inputs and reports whether a single κ field can satisfy all three at once. As it stands, the numbers do not obviously close.
 
+> **Team A response (Round 6):** Accepted as the sharpest finding. The 4×10¹¹ gap between the proxy's Δκ_min ≈ 0.002 and the Eötvös-implied Δκ < 5×10⁻¹⁵ is real and decisive: the two-source law is a baryon-coupled fifth force, inconsistent with the equivalence principle *unless* κ is screened at lab scales. Of the three options, (2) lab-scale screening is the standard resolution for this theory class (DET-v2 inherits the chameleon/Vainshtein constraints — engaging that literature is the right move, per §9.4); option (1) collapses the Track A independent-κ premise. This is a Team A decision; I will add the recommended `lab_consistency` analysis (τ_rec, α, Δκ_proxy, η) as the next module.
+
 ### 10.4 New finding R6-B — the κ-clamping refutes "no dark matter at any scale"
 
 Fixing the κ-range (§9.3) exposed a consequence that was previously hidden by unbounded κ. With κ ∈ [0,1], κ_eq = 0.5, and a *single* α:
@@ -471,10 +475,14 @@ But dwarf galaxies need ~50× and clusters need ~100×+. `coupling_implications`
 
 This means the headline "DET eliminates dark matter at galaxy and cluster scales" (`PHYSICS.md` §10) is now **quantitatively refuted by the framework itself**: the v2 law covers at most ~8×, i.e. only the least-dark-matter-dominated disk galaxies, and requires dark matter (or a further mechanism) beyond that. This should be stated plainly: the two-source law is currently a **~8× ceiling**, not a "no dark matter at any scale" result.
 
+> **Team A response (Round 6):** Accepted. The ~9× ceiling is quantitatively correct (κ∈[0,1], κ_eq=0.5, α=16 ⇒ max enhancement 1+16·0.5 = 9×), so dwarf (~50×) and cluster (~100×) discrepancies are NOT reachable. `PHYSICS.md` §9 now states the ceiling explicitly, and the F2 response notes it. The cluster module still uses the deprecated quadratic law precisely because the linear law cannot get there; unifying post_newtonian/sparc/cluster onto v2 is pending and is the honest prerequisite for any future "no dark matter" claim. The headline is currently refuted by the framework's own parameters.
+
 ### 10.5 Minor
 
 - **R6-C — α default inconsistency:** `det_units.coupling_implications` defaults `alpha = 20.0` and its docstring says "α ≈ 20 is the honest value," but `scan_alpha` with the clamped profile returns **14**. Reconcile to one number (the scan's 14) and cite it consistently.
 - **N1, N5, N3, N2 (§9.5)** remain unaddressed as before.
+
+> **Team A response (Round 6):** R6-C fixed — α reconciled to 16 (broad minimum 14–18; both "14" and "20" were coarse-grid artifacts) across `scan_alpha`, `det_units`, and the docs. N1 fixed — README/ROADMAP now say "6 major open problems addressed" rather than "resolved". N2 (γ=λ_γ·κ code paths in `det8_core`), N3 (residual derivation language in MODEL_CARD §3), and N5 (`track_a.combined_prediction` tautology) remain pending engineering.
 
 ### 10.6 Priority (updated)
 
@@ -486,3 +494,23 @@ This means the headline "DET eliminates dark matter at galaxy and cluster scales
 ---
 
 *End of Round 6. Team A's next response will be re-checked against the live tree in Round 7.*
+
+---
+
+## Team A Decision — Option B (Round 6, August 12, 2026)
+
+In response to the red-team proposal (R6-A/R6-B directions), Team A has decided:
+
+> **DET is a participation/measurement theory, not a gravity-modification theory. The α channel (fifth force) is dropped entirely. κ couples ONLY to the participation aperture (λ_P). Gravity is standard GR; dark matter is standard. The sole falsifiable prediction is the κ-Π clock anomaly.**
+
+Implemented across the tree:
+- `MODEL_CARD.md` — header status, §4 (one prediction), §9 constants (α, κ_earth, λ_γ, G_q deprecated), §10 formulas (gravity = GR), §8 (astrophysics results deprecated).
+- `PHYSICS.md` — §2 (one prediction; §2.2/§2.3 retired), §8–§11 (gravity program retired).
+- `README.md` / `ROADMAP.md` — "1 pre-registered prediction"; "6 open problems addressed" (N1 fixed).
+- `anthropic_principle.py` — observer condition reverted to participation-only (κ* ≤ κ_obs); κ-gravity binding window retired; anti-smuggling audit clean again (no G/α/χ).
+- `det_units.py` — gravity channel deprecated; clock + proxy channels are the active conversion.
+- `gravity_v2.py`, `sparc_analysis.py`, `kappa_derivation.py` — marked deprecated (retained for audit).
+
+R6-A and R6-B are thereby **dissolved**: no fifth force ⇒ no Eötvös tension and no ~9× ceiling; dwarf/cluster dark matter is standard ΛCDM, out of DET's scope. The κ(r) sign tension (§4) is moot (no rotation-curve κ(r) needed).
+
+Remaining active program: the κ-Π clock anomaly (λ_P), calibrated by the structural proxy, gated by the κ-vs-defect-density discriminator (F9). 186/186 tests.

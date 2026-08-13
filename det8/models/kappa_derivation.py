@@ -1,6 +1,10 @@
 """
 DET-Native κ(r) Derivation from Galaxy Formation Physics
 
+DEPRECATED (Round 6, Option B): the gravity-modification program is retired.
+κ does NOT couple to gravity, so a κ(r) rotation-curve profile is no longer
+needed. Retained for historical audit (including the F6 wrong-sign finding).
+
 Derives κ(r) from DET primitives using known galaxy observables:
   - Star formation rate surface density Σ_SFR(r)
   - Stellar mass surface density Σ_*(r)

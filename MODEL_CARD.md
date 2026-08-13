@@ -2,9 +2,9 @@
 
 **Primary reference for the Deep Existence Theory framework.**
 **Date:** August 10, 2026 (revised per mathematical review)
-**Test suite:** 194/194 passing
+**Test suite:** 186/186 passing
 
-**Status:** DET8 implements a finite record-kernel framework that is the measurable shadow of a deeper relational ontology. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes two parameterized experimental anomalies. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, gravitational dynamics, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's mathematical patterns are the measurable trace.
+**Status:** DET8 implements a finite record-kernel framework that is the measurable shadow of a deeper relational ontology. It reproduces selected quantum, Newtonian, and Lorentzian formulas in constructed finite models and proposes **one** parameterized experimental anomaly (the κ-Π clock anomaly). **Gravity is standard GR — DET does not modify gravity** (Option B, Round 6); dark matter is not explained by DET. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's mathematical patterns are the measurable trace.
 
 ---
 
@@ -58,13 +58,13 @@ These are **correspondence checks**, not derivations: each module shows that a s
 
 ## 4. Track A — Physical Predictions
 
+> **Scope decision (Round 6, Option B):** DET is a participation/measurement theory, not a gravity-modification theory. The **sole** falsifiable prediction is the κ-Π clock anomaly (the λ_P channel). The gravity-decoupling prediction and the two-source law (α channel) are **RETIRED** — gravity is standard GR, and dark matter is not explained by DET.
+
 | Prediction | Formula | Measurement | Sensitivity |
 |---|---|---|---|
 | κ-Π Clock Anomaly | \(\tau_A/\tau_B = \frac{1+\lambda_P\kappa_B}{1+\lambda_P\kappa_A}\) | Atomic clock comparison | λ_P ≥ 2×10⁻¹⁷ (5σ, 12 days) |
-| κ-Gravity Decoupling | \(F = G_q(\lambda_\gamma\kappa)^2/r^2\) | Torsion balance | λ_γ ≥ 5×10⁻⁹ (5σ) |
-| Combined Signature | \(\kappa_{\text{clock}} = \kappa_{\text{gravity}} = \kappa_{\text{proxy}}\) | Joint experiment | Three-way consistency |
 
-Pre-registered in `track_a.py`. Full Monte Carlo simulators: `clock_experiment.py`, `gravity_experiment.py`. κ measured independently via structural proxy (`structural_proxy.py`).
+Pre-registered in `track_a.py`. Monte Carlo simulator: `clock_experiment.py`. κ measured independently via structural proxy (`structural_proxy.py`); the κ-vs-defect-density discriminator (`kappa_discriminator.py`) is the gating experiment.
 
 ---
 
@@ -146,6 +146,8 @@ det8/models/
 
 ## 8. Dataset Analysis Results
 
+> **Deprecated (Round 6, Option B):** the astrophysics rows below (galaxy rotation, clusters, solar-system κ-gravity, λ_P-from-clock "constraints" on gravity) belong to the **retired** gravity-modification program. DET no longer claims any gravitational anomaly; gravity is GR and dark matter is standard. These rows are retained for historical audit only.
+
 > **⚠ Reproducibility & vacuity caveats (Round 3 red-team).** Several rows below are not reproducible from the committed tree or overstate what was established: (1) the SPARC "135 galaxies" fit uses 43 hardcoded galaxies with an empty data file; (2) all λ_P bounds are constraints on the *product* λ_P·Δκ with Δκ **assumed**, so λ_P is unconstrained until κ is independently measured; (3) "κ ∝ Z EXCLUDED" was a straw-man (no one proposed κ ∝ Z) — the legitimate statement is only that terrestrial materials have nearly equal κ; (4) "κ(r) from galaxy formation physics" is now **implemented** from Σ_*/Σ_SFR/age, but it gives the wrong radial direction (κ *decreases* with radius for the observed inside-out growth r_SFR > r_d) — the reset-by-SFR mechanism needs revision. See `PHYSICS.md` and `kappa_derivation.radial_gradient_check`.
 
 | Dataset | Module | Key result |
@@ -171,8 +173,8 @@ det8/models/
 | λ_P | κ-drag coupling on Π | Free (constrained by clock experiment) |
 | λ_γ | κ → gravitational charge conversion | **Deprecated** (legacy κ-only law) |
 | G_q | κ-gravity coupling | **Deprecated** (legacy κ-only law) |
-| α | κ-response coupling (gravity v2) | Free (G_eff = G(1+αχ)) |
-| κ_earth | κ normalization reference (gravity v2) | Free (χ = (κ−κ_eq)/κ_earth) |
+| α | κ-response coupling (gravity v2) | **Deprecated** (Option B — no fifth force) |
+| κ_earth | κ normalization reference (gravity v2) | **Deprecated** (Option B — no fifth force) |
 | κ_eq | Equilibrium structural history | Free (system-dependent) |
 | τ_rec | Recovery time scale | Free (system-dependent) |
 | K | Structural stiffness | Free (system-dependent) |
@@ -187,9 +189,7 @@ det8/models/
 
 **Proper time:** \(\Delta\tau_i = \Pi_i \Delta N_i\) with \(N\) the monotone event-count variable (\(N \neq \kappa\); M0 fix).
 
-**Gravitational source (v2):** \(\nabla^2\Phi = 4\pi G(\rho_m + \rho_\kappa)\), \(\rho_\kappa = \rho_m\,\chi(\kappa)\), \(\chi(\kappa) = (\kappa-\kappa_{eq})/\kappa_{earth}\)
-
-**Effective coupling:** \(G_{eff} = G(1+\alpha\chi)\) (linear in κ; equivalence principle preserved)
+**Gravity (Option B):** standard GR — DET does not source or modify gravity. (The retired two-source law \(G_{eff} = G(1+\alpha\chi)\) is historical; see `gravity_v2.py`.)
 
 **Born rule:** \(K(i) = |c_i|^2\) where \(c_i' = \sum_j U_{ij} c_j\)
 
@@ -203,7 +203,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**194/194 tests passing** over **20 of 81 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
+**186/186 tests passing** over **20 of 81 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.
@@ -215,7 +215,7 @@ The test suite does **NOT** verify:
 - ❌ That DET makes correct empirical predictions.
 - ❌ That κ, Π, or λ_P exist in nature.
 
-**Coverage caveat (Round 3 red-team):** the 194 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/gravity parameter code (`clock_experiment`, `clock_anomaly`, `track_a`), and the Round 3 resolution modules (`gravity_v2`, `kappa_discriminator`, `sparc_analysis`, `det_units`, `kappa_derivation`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and much of the astrophysics suite (`cluster_dynamics`, `post_newtonian`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
+**Coverage caveat (Round 3 red-team):** the 186 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/gravity parameter code (`clock_experiment`, `clock_anomaly`, `track_a`), and the Round 3 resolution modules (`gravity_v2`, `kappa_discriminator`, `sparc_analysis`, `det_units`, `kappa_derivation`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and much of the astrophysics suite (`cluster_dynamics`, `post_newtonian`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
 
 Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 

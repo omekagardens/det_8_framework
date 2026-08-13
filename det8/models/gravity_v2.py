@@ -1,6 +1,11 @@
 """
 DET v8.0 — Gravity v2: Two-Source Field Equation (κ-modified, mass-conserving)
 
+DEPRECATED (Round 6, Option B): DET is a participation/measurement theory —
+κ does NOT couple to gravity. This two-source law (and the whole
+gravity-modification program) is retired; gravity is standard GR and dark
+matter is standard. Retained for historical audit only.
+
 Resolves the Round 3 red-team finding F2 by retiring the mass-independent
 "κ replaces mass" law (`det_gravity.py` / `gravity_experiment.py` /
 `PHYSICS.md` §2.2 v1) and adopting the two-source form:

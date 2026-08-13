@@ -33,7 +33,9 @@ The structural history field κ replaces the original conflated `q` variable.
 
 ---
 
-## 2. Pre-Registered Predictions
+## 2. Pre-Registered Prediction (clock anomaly)
+
+> **Scope decision (Round 6, Option B):** DET is a participation/measurement theory, not a gravity-modification theory. The **sole** pre-registered prediction is the κ-Π clock anomaly (§2.1). The κ-gravity decoupling prediction (§2.2 v1/v2) and the combined signature (§2.3) are **RETIRED**: gravity is standard GR, dark matter is standard, and DET no longer claims any gravitational anomaly. The retired gravity program is retained for historical audit (PHYSICS §8–§10, `gravity_v2.py`, `sparc_analysis.py`, `cluster_dynamics.py`, `post_newtonian.py`).
 
 ### 2.1 κ-Π Clock Anomaly
 
@@ -58,6 +60,8 @@ The structural history field κ replaces the original conflated `q` variable.
 **Damage protocol specification:** The κ=0.5 preparation must change κ while holding standard parameters constant to the required precision. Candidate protocol: neutron irradiation with active cryogenic cooling maintains T stability to <1mK. The neutron flux introduces lattice defects (primarily Frenkel pairs in Yb/Sr optical lattices) with negligible electromagnetic side-effects: no net charge injection (ΔE ≈ 0), no magnetic field generation (ΔB < 1nT), and no change in atomic density (Δn/n < 10⁻⁹). The dominant remaining confounder is BBR from any residual temperature increase, held to <10⁻¹⁸ by active cooling. For low-λ_P searches (10⁻¹⁶–10⁻¹⁷), the 12-day integration requires active systematic control of BBR drift to maintain SNR. Below λ_P=10⁻¹⁷, next-generation nuclear clocks (~10⁻¹⁹ precision) are needed.
 
 ### 2.2 κ-Gravity Decoupling (v2 — two-source)
+
+> **RETIRED (Round 6, Option B).** This prediction is withdrawn. DET does not modify gravity; gravity is standard GR and dark matter is standard. The two-source law below is retained for historical audit only.
 
 > **Resolved (Round 3 red-team, Team A decision).** The mass-independent law `F = G_q·λ_γ²·κ₁κ₂/r²` is **DEPRECATED** (empirically falsified by the equivalence principle: a 1 g and a 1000 kg mass with equal κ do not gravitate identically). It is retained only as a historical audit (`gravity_v2.compare_force_laws`). The active law is the **two-source field equation** (`gravity_v2.py`):
 
@@ -84,6 +88,8 @@ with effective coupling \(G_{eff} = G(1+\alpha\chi)\) — **linear in κ**. The 
 **Mass-defect confound:** If damage adds energy ΔE, the mass change is Δm = ΔE/c². For a 1kg test mass with ΔE = 1J, Δm ≈ 10⁻¹⁷ kg, producing a relative gravitational change of ~10⁻¹⁷. The DET signal (ΔF = F_κ) must exceed this; the fractional \(F_\kappa/F_N = \alpha\chi\) must be resolved above ~10⁻¹⁷.
 
 ### 2.3 Combined Signature (Smoking Gun)
+
+> **RETIRED (Round 6, Option B).** Withdraws with §2.2 — there is no gravity decoupling to cross-check. κ is measured via the structural proxy alone.
 
 κ measured independently via structural proxy, clock anomaly, and gravity decoupling must agree. Three-way consistency constitutes strong evidence for κ as a real physical entity.
 
@@ -181,6 +187,8 @@ Continuum limit verified via sprinkling (500 events, N/τ² = 2.36, CV decreases
 
 ## 8. Post-Newtonian κ-Gravity (Solar System Tests)
 
+> **RETIRED (Round 6, Option B).** This and the following §§9–11 belong to the withdrawn gravity-modification program. DET does not modify gravity; the solar-system/galaxy/cluster analyses are retained for historical audit only.
+
 DET κ-gravity extends naturally to the relativistic regime through \(G_{eff}(r) = G \cdot \kappa(r)/\kappa_{earth}\).
 
 **All four classical GR tests passed:**
@@ -202,7 +210,7 @@ Module: `post_newtonian.py`.
 
 DET κ-gravity explains flat galaxy rotation curves without dark matter.
 
-> **Linear re-derivation (Round 3, `gravity_v2`):** the rotation curve now uses the two-source law \(v^2 = G(1+\alpha\chi)\,M/r\) with \(\chi = (\kappa-\kappa_{eq})/\kappa_{earth}\) — **linear** in κ, replacing the deprecated quadratic \((\kappa/\kappa_{earth})^2\) (which double-counted κ). A single coupling \(\alpha \approx 5\) reproduces flat curves in 42/43 of the hardcoded sample (mean RMS ~19%); \(\alpha = 1\) gives only ~2.5× enhancement and does not suffice. See `sparc_analysis.scan_alpha`.
+> **Linear re-derivation (Round 3, `gravity_v2`):** the rotation curve now uses the two-source law \(v^2 = G(1+\alpha\chi)\,M/r\) with \(\chi = (\kappa-\kappa_{eq})/\kappa_{earth}\) — **linear** in κ, replacing the deprecated quadratic \((\kappa/\kappa_{earth})^2\), which with κ ∈ [0,1] is **≤ Newtonian** (it cannot enhance gravity at all — its old "success" came entirely from κ exceeding 1). With κ clamped to [0,1], a single coupling \(\alpha \approx 16\) (broad minimum 14–18) reproduces flat curves in 42/43 of the sample (mean RMS ~19%). **Ceiling (R6-B):** with κ ∈ [0,1] and a single α, the maximum enhancement is \(1+\alpha(1-\kappa_{eq})/\kappa_{earth} \approx 9\times\), so the law covers at most the mildest disk-galaxy discrepancies — NOT dwarf (~50×) or cluster (~100×) scales. See `sparc_analysis.scan_alpha` and `det_units.coupling_implications`.
 
 ### Phenomenological fit (135 galaxies)
 - κ(r) = 0.7 + 4.0·(1−e^(−r/20kpc))

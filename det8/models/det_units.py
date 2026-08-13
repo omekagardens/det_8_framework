@@ -3,26 +3,23 @@ DET v8.0 — SI ↔ DET Units Conversion
 
 Maps measurable (SI) quantities onto DET's free parameters, so that existing
 lab data can be fit. NO smuggling: this is dimensional bookkeeping and
-conversion. The SI quantities (frequency shifts, force differences, material
-response ratios) are OBSERVED inputs; the DET parameters (κ, χ, λ_P, α) are
-the model's own dimensionless couplings. Nothing here derives SI physics from
-DET primitives.
+conversion. The SI quantities (frequency shifts, material response ratios) are
+OBSERVED inputs; the DET parameters (κ, λ_P) are the model's own dimensionless
+couplings. Nothing here derives SI physics from DET primitives.
 
-Core statement (two-source law): every DET parameter is DIMENSIONLESS.
-The only dimensional anchors are the empirical constants G (and c). The
-"conversion" therefore maps dimensionless SI-measured RATIOS onto the
-dimensionless DET parameters:
+Scope decision (Round 6, Option B): DET is a participation/measurement theory
+— κ couples ONLY to the participation aperture (λ_P), NOT to gravity. The
+ACTIVE conversion channels are:
 
-  Clock:    Δν/ν = λ_P·κ / (1 + λ_P·κ)              [κ-Π clock anomaly]
-  Gravity:  ΔG/G = α·χ(κ),   χ = (κ − κ_eq)/κ_earth  [two-source law, gravity_v2]
-  Proxy:    R/R_0 = (1 − κ)^p                        [structural proxy response]
+  Clock:  Δν/ν = λ_P·κ / (1 + λ_P·κ)   [κ-Π clock anomaly — the sole prediction]
+  Proxy:  R/R_0 = (1 − κ)^p             [structural proxy response]
+
+The gravity channel (α ↔ ΔG/G) and the coupling-implication / lab-fit analyses
+below are DEPRECATED (historical R6-A/R6-B audit of the retired gravity
+program) and retained only for reference.
 
 The clock anomaly is a RATIO (anchor-free); absolute proper time would need a
 "seconds per event" calibration that the ratio predictions do not require.
-
-Degeneracy note: α and κ_earth enter gravity only through the single
-combination β_eff = α/κ_earth (since χ = (κ−κ_eq)/κ_earth). α and κ_earth are
-therefore NOT independently observable from gravity alone.
 """
 
 from __future__ import annotations
@@ -99,7 +96,7 @@ def lambda_p_from_clock_shift(frac_shift: float, kappa: float = 0.5) -> float:
     return frac_shift / (kappa * (1.0 - frac_shift))
 
 
-# ── Conversion: gravity channel ─────────────────────────────────────────────
+# ── Conversion: gravity channel (DEPRECATED — Option B, no fifth force) ────
 
 
 def gravity_shift_from_alpha(alpha: float, chi: float) -> float:
@@ -131,11 +128,11 @@ def kappa_from_proxy_response(r_ratio: float, p: float = 1.0) -> float:
     return 1.0 - r_ratio ** (1.0 / p)
 
 
-# ── The coupling implications (α ≈ 5) ───────────────────────────────────────
+# ── The coupling implications (α ≈ 16) — DEPRECATED (Option B) ─────────────
 
 
 def coupling_implications(
-    alpha: float = 20.0,
+    alpha: float = 16.0,
     kappa_earth: float = 1.0,
     kappa_eq: float = 0.5,
     eotvos_eta: float = 1e-13,          # equivalence-principle bound (Δa/a).
@@ -143,7 +140,8 @@ def coupling_implications(
 ) -> dict:
     """What α implies, given lab and galactic constraints.
 
-    (α ≈ 20 is the honest value from SPARC with κ clamped to [0,1].)
+    (α ≈ 16 is the honest value from SPARC with κ clamped to [0,1]; the
+    minimum is broad — 14–18 — so the coupling is not sharply pinned.)
 
     The observable combination is β_eff = α/κ_earth (α and κ_earth are
     degenerate). It is constrained from BOTH ends:
@@ -218,7 +216,7 @@ def coupling_implications(
 def fit_lab_example(
     clock_precision: float = 1e-18,   # best optical-lattice clocks.
     eotvos_eta: float = 1e-13,        # Eöt-Wash (conservative); MICROSCOPE ~1e-15.
-    alpha: float = 20.0,
+    alpha: float = 16.0,
     kappa_earth: float = 1.0,
     kappa_eq: float = 0.5,
 ) -> dict:

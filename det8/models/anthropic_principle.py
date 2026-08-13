@@ -28,23 +28,20 @@ Why a DET-native module exists at all:
   with an attractor, not a fixed constant.
 
 DET-native observer (Structured Participation Regime, SPR):
-  A connected record-regime that (i) is gravitationally SELF-BOUND by its
-  own kappa-gravity and (ii) keeps its participation aperture Pi above a
-  floor so present participation keeps producing measurable fruit. This is
+  A connected record-regime that keeps its participation aperture Pi above
+  a floor so present participation keeps producing measurable fruit. This is
   deliberately NOT biological life and NOT consciousness — both are
   quarantined (Status M) in DET. The SPR is the minimal DET-native analogue
   of "an observer that can measure."
 
-  Binding + participation give a WINDOW on kappa:
+  Option B (Round 6): the observer is bound by ordinary GR (mass), NOT by
+  κ-gravity — κ does not couple to gravity. The observer condition is
+  PARTICIPATION ONLY:
 
-      kappa_bind  <=  kappa  <=  kappa_obs
+      kappa*  <=  kappa_obs = (1/Pi_min - 1)/lambda_P
 
-  where kappa_bind is the minimum kappa for self-gravitational binding
-  (from kappa-gravity) and kappa_obs = (1/Pi_min - 1)/lambda_P is the
-  maximum kappa for participation. This is DET's native "Goldilocks"
-  window: too little structural history cannot bind, too much stalls
-  participation. It replaces the standard ~20 fine-tuned constants with
-  one scalar that must fall in one interval.
+  which replaces the standard ~20 fine-tuned constants with one scalar
+  that must stay below one threshold.
 
 Three positions are tested (see det_anthropic_position()):
 
@@ -59,16 +56,13 @@ The core structural results (exact, prior-independent):
 
   * kappa has an attractor kappa* = (kappa_eq + beta) / (1 + beta),
     where beta = alpha * R * tau_rec is the damage-recovery ratio.
-  * An SPR forms iff kappa* lies in the window [kappa_bind, kappa_obs].
-  * The upper bound is one dimensionless combination
+  * An SPR forms iff kappa* <= kappa_obs, i.e. the single combination
         Z = lambda_P * kappa*  <=  (1/Pi_min - 1).
-    The lower bound is kappa* >= kappa_bind. Both depend on the single
-    scalar kappa*, not on ~20 independent constants.
   * Because kappa* is an attractor, the observer condition is independent
     of the INITIAL kappa: initial-condition fine-tuning is dissolved.
   * Observers are contingent, not necessary: kappa_eq -> 1 or beta -> inf
-    pushes kappa* above kappa_obs (no participation), while kappa_bind ->
-    1 pushes the window shut (no binding) — two independent ways to fail.
+    pushes kappa* above kappa_obs (participation stalls) — an explicit
+    observer-free universe.
 
 The statistical results (prior-dependent, reported for a documented prior):
 
@@ -153,16 +147,10 @@ def kappa_bind_from_gravity(
 ) -> float:
     """Minimum κ for self-gravitational binding — two-source law (gravity_v2).
 
-    A clump of N nodes, each of mass m (total M = N·m), radius R, in a κ-field.
-    The two-source law gives self-acceleration a = G_eff·M/R² = G(1+αχ)·N·m/R²,
-    with χ = (κ − κ_eq)/κ_earth.
-
-    - If Newton alone binds (G·N·m/R² ≥ a_disp): κ_bind = κ_eq (no κ needed).
-    - Else: κ_bind = κ_eq + (κ_earth/α)·(a_disp·R²/(G·N·m) − 1).
-
-    Binding is provided by mass first; κ only contributes when Newton alone is
-    insufficient. Modal annotation: P (proposed). Uses G (empirical, gravity_v2),
-    α, κ_eq, κ_earth, and record-side quantities a_disp, R, m, N.
+    **DEPRECATED (Round 6, Option B):** κ no longer couples to gravity; the
+    two-source law is retired. Observers are bound by ordinary GR (mass), not
+    by a κ-gravity term, so this binding threshold is no longer used by the
+    observer condition. Retained for historical audit only.
     """
     if G <= 0.0 or alpha <= 0.0 or N <= 0.0 or m <= 0.0 or R <= 0.0 or kappa_earth <= 0.0:
         return float("inf")
@@ -224,11 +212,13 @@ def is_observer_regime(
     pi_min: float = PI_MIN_DEFAULT,
     kappa_bind: float = 0.0,
 ) -> bool:
-    """True iff the κ-attractor lies in the observer window [κ_bind, κ_obs].
+    """True iff the κ-attractor satisfies the observer condition.
 
-    Two DET-native conditions:
-      1. Binding:       κ* ≥ κ_bind  (κ-gravity holds the regime together).
-      2. Participation: κ* ≤ κ_obs   (Π(κ*) ≥ pi_min).
+    Option B (Round 6): PARTICIPATION ONLY — κ does not couple to gravity,
+    so the observer is bound by ordinary GR (mass) and the condition is just
+        κ* ≤ κ_obs,   i.e. Π(κ*) ≥ pi_min.
+    The `kappa_bind` argument is retained for backward compatibility only and
+    defaults to 0.0 (no binding floor).
     """
     return kappa_bind <= kappa_star <= kappa_threshold(lambda_p, pi_min)
 
@@ -262,32 +252,26 @@ def draw_det_universe(
     rng: random.Random,
     lp_range: tuple[float, float] = (LAMBDA_P_LOG_MIN, LAMBDA_P_LOG_MAX),
     beta_range: tuple[float, float] = (BETA_LOG_MIN, BETA_LOG_MAX),
-    kb_range: tuple[float, float] = (KAPPA_BIND_MIN, KAPPA_BIND_MAX),
 ) -> dict:
     """Draw one DET universe from the DET-native parameter prior.
 
     Parameters (all DET primitives / free parameters, none from standard
     physics):
-      lambda_p  : κ-drag coupling (log-uniform).
-      kappa_eq  : equilibrium structural history (uniform [0, 1]).
-      beta      : damage-recovery ratio α·R·τ_rec (log-uniform).
-      kappa_bind: self-binding threshold (uniform [0, 1]) — the effective
-                  combination a_disp·R²/(G_q·λ_γ·N), drawn directly.
+      lambda_p : κ-drag coupling (log-uniform).
+      kappa_eq : equilibrium structural history (uniform [0, 1]).
+      beta     : damage-recovery ratio α·R·τ_rec (log-uniform).
 
-    The priors are deliberately broad/agnostic. Results that are robust
-    to prior choice (necessity-false, window structure, selection-shift
-    direction) are flagged separately from the prior-dependent naturalness
-    measure.
+    Option B (Round 6): κ does NOT couple to gravity, so there is no
+    κ-gravity binding threshold — observers are bound by ordinary GR (mass)
+    and constrained only by participation. The prior is broad/agnostic.
     """
     lambda_p = 10.0 ** rng.uniform(lp_range[0], lp_range[1])
     kappa_eq = rng.uniform(KAPPA_EQ_MIN, KAPPA_EQ_MAX)
     beta = 10.0 ** rng.uniform(beta_range[0], beta_range[1])
-    kappa_bind = rng.uniform(kb_range[0], kb_range[1])
     return {
         "lambda_p": lambda_p,
         "kappa_eq": kappa_eq,
         "beta": beta,
-        "kappa_bind": kappa_bind,
     }
 
 
@@ -297,21 +281,22 @@ def anthropic_ensemble(
     pi_min: float = PI_MIN_DEFAULT,
     lp_range: tuple[float, float] = (LAMBDA_P_LOG_MIN, LAMBDA_P_LOG_MAX),
     beta_range: tuple[float, float] = (BETA_LOG_MIN, BETA_LOG_MAX),
-    kb_range: tuple[float, float] = (KAPPA_BIND_MIN, KAPPA_BIND_MAX),
 ) -> dict:
     """Monte Carlo over DET universes; compute anthropic statistics.
+
+    Option B (Round 6): the observer condition is PARTICIPATION ONLY —
+    an SPR exists iff κ* ≤ κ_obs = (1/Π_min − 1)/λ_P. There is no κ-gravity
+    binding floor (κ does not couple to gravity).
 
     Returns:
       p_observer          : naturalness — P(SPR) under the prior.
       necessity           : True only if EVERY draw forms an SPR (SAP).
-      threshold           : upper Z-threshold (1/pi_min − 1).
+      threshold           : Z-threshold (1/pi_min − 1).
       prior_*_mean        : prior means of parameters.
       posterior_*_mean    : means conditioned on SPR (WAP selection shift).
-      observer_draws      : list of draws that form an SPR.
-      non_observer_draws  : list of draws that do not.
 
     Caveat: p_observer and the exact posterior means depend on the prior;
-    necessity, the window structure, and the sign of the selection shifts
+    necessity, the threshold structure, and the sign of the selection shifts
     are prior-independent.
     """
     rng = random.Random(seed)
@@ -322,12 +307,10 @@ def anthropic_ensemble(
     non_observer_draws = []
 
     for _ in range(n_draws):
-        d = draw_det_universe(rng, lp_range, beta_range, kb_range)
+        d = draw_det_universe(rng, lp_range, beta_range)
         kappa_star = kappa_fixed_point(d["kappa_eq"], d["beta"])
         Z = d["lambda_p"] * kappa_star
-        obs = is_observer_regime(
-            kappa_star, d["lambda_p"], pi_min, d["kappa_bind"]
-        )
+        obs = Z <= threshold  # participation only (Option B).
         d["kappa_star"] = kappa_star
         d["Z"] = Z
         d["observer"] = obs
@@ -337,7 +320,7 @@ def anthropic_ensemble(
     def _mean(key: str, lst: list[dict]) -> float:
         return sum(x[key] for x in lst) / len(lst) if lst else float("nan")
 
-    keys = ["lambda_p", "kappa_eq", "beta", "kappa_bind"]
+    keys = ["lambda_p", "kappa_eq", "beta"]
     prior = {k: _mean(k, draws) for k in keys}
     post = {k: _mean(k, observer_draws) for k in keys}
     shifts = {k: post[k] / prior[k] if prior[k] else float("nan") for k in keys}
@@ -362,13 +345,12 @@ def anthropic_ensemble(
         f"Necessity (SAP) is {necessity}: observers are contingent, not forced. "
         f"Conditioning on an SPR shifts the posterior means of "
         f"lambda_P ({post['lambda_p']:.2f} vs {prior['lambda_p']:.2f}), "
-        f"kappa_eq ({post['kappa_eq']:.3f} vs {prior['kappa_eq']:.3f}), "
-        f"beta ({post['beta']:.2f} vs {prior['beta']:.2f}), and "
-        f"kappa_bind ({post['kappa_bind']:.3f} vs {prior['kappa_bind']:.3f}) "
-        f"downward — a coherent selection effect (WAP). The observer "
-        f"condition depends on a single scalar κ* falling in the window "
-        f"[κ_bind, κ_obs], not on ~20 independent constants, and it is set "
-        f"by the κ-attractor, not initial conditions."
+        f"kappa_eq ({post['kappa_eq']:.3f} vs {prior['kappa_eq']:.3f}), and "
+        f"beta ({post['beta']:.2f} vs {prior['beta']:.2f}) downward — a "
+        f"coherent selection effect (WAP). The observer condition depends on "
+        f"a single scalar κ* staying below κ_obs (participation), not on ~20 "
+        f"independent constants, and it is set by the κ-attractor, not "
+        f"initial conditions."
     )
     return result
 
@@ -383,22 +365,19 @@ def prior_sensitivity_sweep(
 ) -> dict:
     """Run the ensemble under several prior specifications.
 
-    Varies (i) the λ_P log-range, (ii) the β log-range, (iii) the κ_bind
-    prior. Reports P(observer) and the selection-shift ratios for each, so
-    the prior-robust findings (necessity false, window structure, shift
-    direction) can be separated from the prior-dependent magnitudes
-    (P(observer), exact shift ratios).
+    Varies (i) the λ_P log-range and (ii) the β log-range. Reports P(observer)
+    and the selection-shift ratios for each, so the prior-robust findings
+    (necessity false, shift direction) can be separated from the
+    prior-dependent magnitudes (P(observer), exact shift ratios).
 
-    All configs keep the parameters DET-native; only the prior widths change.
+    Option B (Round 6): participation only — no κ_bind prior.
     """
     configs = [
-        ("baseline",          dict(lp_range=(-2.0, 2.0),  beta_range=(-2.0, 2.0),  kb_range=(0.0, 1.0))),
-        ("narrow λ_P",        dict(lp_range=(-1.0, 1.0),  beta_range=(-2.0, 2.0),  kb_range=(0.0, 1.0))),
-        ("wide λ_P",          dict(lp_range=(-3.0, 3.0),  beta_range=(-2.0, 2.0),  kb_range=(0.0, 1.0))),
-        ("narrow β",          dict(lp_range=(-2.0, 2.0),  beta_range=(-1.0, 1.0),  kb_range=(0.0, 1.0))),
-        ("wide β",            dict(lp_range=(-2.0, 2.0),  beta_range=(-3.0, 3.0),  kb_range=(0.0, 1.0))),
-        ("κ_bind ∈ [0, 0.5]", dict(lp_range=(-2.0, 2.0),  beta_range=(-2.0, 2.0),  kb_range=(0.0, 0.5))),
-        ("κ_bind ∈ [0.5, 1]", dict(lp_range=(-2.0, 2.0),  beta_range=(-2.0, 2.0),  kb_range=(0.5, 1.0))),
+        ("baseline",   dict(lp_range=(-2.0, 2.0), beta_range=(-2.0, 2.0))),
+        ("narrow λ_P", dict(lp_range=(-1.0, 1.0), beta_range=(-2.0, 2.0))),
+        ("wide λ_P",   dict(lp_range=(-3.0, 3.0), beta_range=(-2.0, 2.0))),
+        ("narrow β",   dict(lp_range=(-2.0, 2.0), beta_range=(-1.0, 1.0))),
+        ("wide β",     dict(lp_range=(-2.0, 2.0), beta_range=(-3.0, 3.0))),
     ]
 
     rows = []
@@ -406,7 +385,6 @@ def prior_sensitivity_sweep(
         ens = anthropic_ensemble(
             n_draws=n_draws, seed=seed, pi_min=pi_min,
             lp_range=cfg["lp_range"], beta_range=cfg["beta_range"],
-            kb_range=cfg["kb_range"],
         )
         rows.append({
             "config": name,
@@ -415,15 +393,13 @@ def prior_sensitivity_sweep(
             "shift_lambda_p": ens["selection_shift"]["lambda_p"],
             "shift_kappa_eq": ens["selection_shift"]["kappa_eq"],
             "shift_beta": ens["selection_shift"]["beta"],
-            "shift_kappa_bind": ens["selection_shift"]["kappa_bind"],
         })
 
     robust = {
         "necessity_always_false": all(not r["necessity"] for r in rows),
         "shift_direction_lambda_p_always_down": all(r["shift_lambda_p"] < 1.0 for r in rows),
-        "shift_direction_kappa_bind_always_down": all(r["shift_kappa_bind"] < 1.0 for r in rows),
-        "shift_direction_kappa_eq_always_up": all(r["shift_kappa_eq"] > 1.0 for r in rows),
-        "shift_direction_beta_always_up": all(r["shift_beta"] > 1.0 for r in rows),
+        "shift_direction_kappa_eq_always_down": all(r["shift_kappa_eq"] < 1.0 for r in rows),
+        "shift_direction_beta_always_down": all(r["shift_beta"] < 1.0 for r in rows),
     }
 
     return {
@@ -437,11 +413,10 @@ def prior_sensitivity_sweep(
             f"{max(r['p_observer'] for r in rows):.3f} — the naturalness "
             f"number is prior-dependent. By contrast, the qualitative "
             f"signature is prior-robust: necessity is always false, and the "
-            f"selection is always two-sided — lambda_P and kappa_bind are "
-            f"selected DOWNWARD (loosening the two window bounds), while "
-            f"kappa_eq and beta are selected UPWARD (raising κ* into the "
-            f"window). SAP-rejection and WAP-selection are robust; only "
-            f"their magnitudes are prior-dependent."
+            f"selection is one-sided — lambda_P, kappa_eq and beta are all "
+            f"selected DOWNWARD (loosening κ_obs and lowering κ* to satisfy "
+            f"participation). SAP-rejection and WAP-selection are robust; "
+            f"only their magnitudes are prior-dependent."
         ),
     }
 
@@ -454,7 +429,6 @@ def demonstrate_attractor_convergence(
     beta: float = 0.5,
     lambda_p: float = 1.5,
     pi_min: float = PI_MIN_DEFAULT,
-    kappa_bind: float = 0.2,
 ) -> dict:
     """Show that any initial κ converges to the same attractor κ*.
 
@@ -473,7 +447,7 @@ def demonstrate_attractor_convergence(
         "initial_kappa": initial,
         "final_kappa": finals,
         "converged": converged,
-        "observer_regime": is_observer_regime(kappa_star, lambda_p, pi_min, kappa_bind),
+        "observer_regime": is_observer_regime(kappa_star, lambda_p, pi_min),
         "interpretation": (
             f"All initial κ values converge to κ* = {kappa_star:.3f}. "
             f"The observer condition depends only on κ*, not on κ(0): "
@@ -498,27 +472,19 @@ def anti_smuggling_audit() -> dict:
     used = {
         "kappa": "structural history density (DET primitive, det8_core)",
         "kappa_eq": "equilibrium structural history (DET free parameter)",
-        "kappa_bind": "self-binding threshold (two-source: κ_eq + κ_earth/α·(a_disp·R²/(G·N·m) − 1))",
         "lambda_p": "κ-drag coupling on Π (DET free parameter)",
-        "a_disp": "record-side dispersal acceleration (DET record quantity)",
-        "R": "regime spatial scale (DET record quantity)",
-        "m": "node mass (record-side quantity)",
-        "N": "node count / event count (DET record quantity)",
-        "G": "Newton's constant (empirical input via gravity_v2 two-source law)",
-        "alpha": "κ-response coupling (gravity_v2 free parameter)",
-        "chi": "response field (κ−κ_eq)/κ_earth (gravity_v2)",
-        "kappa_earth": "κ normalization reference (gravity_v2 free parameter)",
         "tau_rec": "recovery time scale (DET free parameter)",
         "beta": "damage-recovery ratio α·R·τ_rec (DET-derived)",
         "pi": "participation aperture Π (DET primitive, det8_core)",
         "pi_min": "participation floor (module threshold, not physics)",
         "coherence": "record coherence C (DET primitive)",
         "kappa_obs": "participation threshold (DET-derived from Π)",
-        "Z": "upper combination λ_P·κ* (DET-derived)",
+        "Z": "combination λ_P·κ* (DET-derived)",
     }
     excluded = [
         "c (speed of light)",
         "hbar (Planck constant)",
+        "G (Newton constant)",
         "Lambda (cosmological constant)",
         "alpha_em (fine-structure constant)",
         "f_a (axion decay constant)",
@@ -534,14 +500,13 @@ def anti_smuggling_audit() -> dict:
         "deliberately_excluded": excluded,
         "clean": clean,
         "note": (
-            "The observer condition (participation + binding window) is built "
-            "from DET primitives. Self-binding is now computed from the "
-            "two-source gravity law (gravity_v2), which uses Newton's G as an "
-            "empirical input (mass is the conserved source; κ modifies the "
-            "response via χ). This is a correspondence, not a derivation of G "
-            "from DET primitives. The ultralight-axion / strong-CP fine-tuning "
-            "question is NOT imported; it is reframed in DET-native terms "
-            "(see docs/track_b/anthropic_principle.md)."
+            "Option B (Round 6): the observer condition is PARTICIPATION ONLY "
+            "(κ* ≤ κ_obs) — κ does NOT couple to gravity, so no gravitational "
+            "symbols (G, α, χ, κ_earth, mass) are used. The module imports no "
+            "standard-physics constants and derives nothing from them. The "
+            "ultralight-axion / strong-CP fine-tuning question is NOT imported; "
+            "it is reframed in DET-native terms (see docs/track_b/"
+            "anthropic_principle.md)."
         ),
     }
 
@@ -562,17 +527,16 @@ def det_anthropic_position() -> dict:
             "status": "CI",
             "detail": (
                 "Conditioning on 'an SPR is present' produces a coherent, "
-                "two-sided selection effect. The posterior pushes lambda_P "
-                "and kappa_bind DOWNWARD (loosening the two window bounds, "
-                "kappa_obs and kappa_bind) while pushing kappa_eq and beta "
-                "UPWARD (raising the κ-attractor κ* into the window). The "
-                "selection effect is real and mathematically well-defined in "
-                "DET: an observer is, by construction, a record-regime that "
-                "already exists, so 'we observe from an observer-permitting "
-                "region' is a tautology DET makes precise. This is evidence "
-                "FOR the weak Anthropic Principle as a selection mechanism. "
-                "The prior-sensitivity sweep shows the direction of the shift "
-                "is robust across priors; only its magnitude is prior-dependent."
+                "one-sided selection effect: the posterior pushes lambda_P, "
+                "kappa_eq and beta all DOWNWARD (loosening κ_obs and lowering "
+                "the κ-attractor κ* to satisfy participation). The selection "
+                "effect is real and mathematically well-defined in DET: an "
+                "observer is, by construction, a record-regime that already "
+                "exists, so 'we observe from an observer-permitting region' is "
+                "a tautology DET makes precise. This is evidence FOR the weak "
+                "Anthropic Principle as a selection mechanism. The prior-"
+                "sensitivity sweep shows the direction of the shift is robust "
+                "across priors; only its magnitude is prior-dependent."
             ),
         },
         "strong_anthropic_necessity": {
@@ -580,11 +544,9 @@ def det_anthropic_position() -> dict:
             "status": "FT",
             "detail": (
                 "DET's law map L fixes the FORM of the κ-dynamics but not the "
-                "free parameters. There are now TWO independent ways to build a "
-                "consistent observer-free DET universe: (i) kappa_eq -> 1 or "
-                "beta -> inf drives kappa* above kappa_obs (participation "
-                "stalls); (ii) kappa_bind -> 1 drives the binding floor above "
-                "any attainable kappa* (the window shuts). Hence 'the universe "
+                "free parameters. kappa_eq -> 1 or beta -> inf drives kappa* "
+                "above kappa_obs (participation stalls) — an explicit, "
+                "consistent observer-free DET universe. Hence 'the universe "
                 "must permit observers' is not a theorem of DET — the strong "
                 "Anthropic Principle (necessity) fails within DET's own "
                 "ontology. Caveat: this counters SAP as a claim about DET; it "
@@ -593,34 +555,20 @@ def det_anthropic_position() -> dict:
             ),
         },
         "fine_tuning_premise": {
-            "verdict": "REDUCED (one scalar in one window, not ~20 constants)",
+            "verdict": "REDUCED (one scalar below one threshold, not ~20 constants)",
             "status": "FT/CI",
             "detail": (
-                "The observer condition depends on a single scalar κ* (the "
-                "κ-attractor) falling in the window [κ_bind, κ_obs], where "
-                "κ_obs = (1/Π_min − 1)/λ_P. The upper bound is the combination "
-                "Z = λ_P·κ*, the lower bound is κ_bind, and κ* is a dynamical "
-                "attractor, so the condition is independent of initial κ. The "
-                "fine-tuning premise — many independent constants each "
-                "improbably tuned — does not survive translation into DET: "
-                "there is one scalar in one interval, not ~20 free "
-                "coincidences. The prior-dependent naturalness measure "
-                "(P(observer)) is reported separately and is NOT claimed to be "
-                "large; the reduction claim is structural, not statistical."
-            ),
-        },
-        "binding_participation_window": {
-            "verdict": "NEW — observers require κ* ∈ [κ_bind, κ_obs]",
-            "status": "P",
-            "detail": (
-                "Folding κ-gravity self-binding into the SPR criterion yields "
-                "a genuine DET-native 'Goldilocks' window: too little "
-                "structural history cannot self-bind (κ* < κ_bind), too much "
-                "stalls participation (κ* > κ_obs). This mirrors the standard "
-                "fine-tuning window structure (e.g. a force strong enough to "
-                "bind but weak enough to not over-bind) entirely within DET's "
-                "κ. The binding threshold is a proposed ansatz (Status P), "
-                "derived from DET's κ-gravity, not a proven theorem."
+                "Option B (Round 6): the observer condition is participation "
+                "only — a single scalar κ* (the κ-attractor) staying below "
+                "κ_obs = (1/Π_min − 1)/λ_P, i.e. the combination Z = λ_P·κ* "
+                "≤ (1/Π_min − 1). κ* is a dynamical attractor, so the "
+                "condition is independent of initial κ. The fine-tuning "
+                "premise — many independent constants each improbably tuned — "
+                "does not survive translation into DET: there is one scalar "
+                "below one threshold, not ~20 free coincidences. The prior-"
+                "dependent naturalness measure (P(observer)) is reported "
+                "separately and is NOT claimed to be large; the reduction "
+                "claim is structural, not statistical."
             ),
         },
         "caveats": [
@@ -631,8 +579,8 @@ def det_anthropic_position() -> dict:
             "P(observer) and the exact selection-shift magnitudes are "
             "prior-dependent; the verdicts above are prior-independent "
             "(verified by the sweep).",
-            "The κ_bind binding ansatz is Status P; it is not yet tied to a "
-            "specific measured regime or to inhomogeneous κ on a bond network.",
+            "Option B (Round 6): observers are bound by ordinary GR (mass), "
+            "not by κ-gravity — the κ-gravity binding window is retired.",
         ],
     }
 
