@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 13, 2026
-**Test suite:** 295/295 passing
+**Test suite:** 304/304 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -31,7 +31,7 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 89 modules, 295/295 tests
+- 89 modules, 304/304 tests
 - Full simulation stack + experimental simulators + dataset analysis
 
 ### Applied-Physics Real Data
@@ -50,7 +50,7 @@
 - ✅ T1 predictive-history sufficiency — implemented
 - ✅ T2b quadratic commit — implemented
 - ✅ T3 record formation — implemented
-- T4 kernel irreversibility (`⟨e^{−Σ}⟩=1`, `⟨Σ⟩≥0`)
+- ✅ T4 kernel irreversibility (`⟨e^{−Σ}⟩=1−λ`, `⟨Σ⟩≥0`) — implemented
 - T5 local-kernel continuum (graph kernels → diffusion)
 - T6 correlation class (the long pole: pair-kernel 𝔇 + why-ℂ)
 - T7 order-and-count geometry (kinematic only; gravity stays out of scope)
@@ -79,5 +79,5 @@
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 295/295 passing
+python3 run_tests.py   # 304/304 passing
 ```

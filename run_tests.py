@@ -1252,6 +1252,47 @@ def test_record_formation():
     test("T3: bound holds at all checked N", r["bound_holds_all"])
 
 
+# ── Kernel Irreversibility (T4) Tests ──────────────────────────────────────
+
+def test_kernel_irreversibility():
+    from det8.models.kernel_irreversibility import (
+        PathProcess, time_reversed, fluctuation_statistics, entropy_production, run_t4,
+    )
+
+    section("Kernel Irreversibility (T4)")
+
+    # Perfect time-reversal ⇒ Σ = 0 on every path (reversible).
+    fwd = PathProcess([0.5, 0.5], [[[0.7, 0.3], [0.3, 0.7]]])
+    rev = time_reversed(fwd)
+    s = fluctuation_statistics(fwd, rev)
+    test("T4: time-reversal → ⟨Σ⟩ = 0", abs(s["mean_sigma"]) < 1e-12)
+    test("T4: time-reversal → ⟨e^(−Σ)⟩ = 1", abs(s["exp_neg_sigma"] - 1.0) < 1e-12)
+
+    # Absolute irreversibility: a forward path with no reverse counterpart.
+    fwd_abs = PathProcess([0.5, 0.5], [[[0.7, 0.3], [0.0, 1.0]]])
+    rev_abs = PathProcess([0.35, 0.65], [[[1.0, 0.0], [0.0, 1.0]]])
+    a = fluctuation_statistics(fwd_abs, rev_abs)
+    test("T4: absolute irreversibility → Σ = ∞", a["has_infinite_sigma"])
+    test("T4: absolute irreversibility → mass > 0", a["lambda_irrev"] > 0)
+    test("T4: Σ = +∞ on the irreversible path",
+         entropy_production((0, 1), fwd_abs, rev_abs) == float("inf"))
+
+    # Incomplete reverse support ⇒ ⟨e^(−Σ)⟩ < 1 (phantom reverse paths).
+    fwd_id = PathProcess([0.5, 0.5], [[[1.0, 0.0], [0.0, 1.0]]])
+    rev_full = PathProcess([0.5, 0.5], [[[0.7, 0.3], [0.3, 0.7]]])
+    i = fluctuation_statistics(fwd_id, rev_full)
+    test("T4: incomplete reverse → ⟨e^(−Σ)⟩ < 1", i["exp_neg_sigma"] < 1.0 - 1e-9)
+    test("T4: incomplete reverse → phantom mass > 0", i["phantom_mass"] > 0)
+    test("T4: second law ⟨Σ⟩ ≥ 0 (finite case)", i["mean_sigma"] >= 0)
+
+    # End-to-end.
+    r = run_t4()
+    test("T4: three regimes distinct",
+         r["case_reversible"]["mean_sigma"] == 0.0
+         and r["case_absolute_irreversible"]["has_infinite_sigma"]
+         and r["case_incomplete_reverse"]["exp_neg_sigma"] < 1.0)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1444,6 +1485,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in record_formation: {e}")
+        traceback.print_exc()
+
+    try:
+        test_kernel_irreversibility()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in kernel_irreversibility: {e}")
         traceback.print_exc()
 
     section("RESULTS")

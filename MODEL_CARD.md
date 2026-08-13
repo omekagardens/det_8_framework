@@ -2,7 +2,7 @@
 
 **Primary reference for the Deep Existence Theory framework.**
 **Date:** August 13, 2026 (revised per mathematical review + re-foundation)
-**Test suite:** 295/295 passing
+**Test suite:** 304/304 passing
 
 **Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B: the four deadlocks — time, quantum, agency, history — resolved in one framework). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field) — not the point; DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
 
@@ -217,7 +217,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**295/295 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
+**304/304 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.
