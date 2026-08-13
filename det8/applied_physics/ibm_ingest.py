@@ -74,17 +74,26 @@ def fetch_properties_qiskit(
     service = QiskitRuntimeService(**kwargs)
     backend = service.backend(backend_name)
     props = backend.properties()
+    date = str(getattr(props, "last_update_date", ""))
     qubits = []
-    for q in props.qubits:
-        qubits.append([
-            {"name": "T1", "value": q.t1, "unit": "us", "date": getattr(q, "date", "")},
-            {"name": "T2", "value": q.t2, "unit": "us", "date": getattr(q, "date", "")},
-            {"name": "frequency", "value": q.frequency, "unit": "GHz",
-             "date": getattr(q, "date", "")},
-        ])
+    for i in range(len(props.qubits)):
+        # props.qubits[i] is a list of Nduv(date, name, unit, value) objects.
+        rec = {}
+        for item in props.qubits[i]:
+            name = getattr(item, "name", None)
+            if name in ("T1", "T2"):
+                try:
+                    rec[name] = float(getattr(item, "value", None))
+                except (TypeError, ValueError):
+                    pass
+        if "T1" in rec:
+            qubits.append([
+                {"name": "T1", "value": rec["T1"], "unit": "us", "date": date},
+                {"name": "T2", "value": rec.get("T2", 0.0), "unit": "us", "date": date},
+            ])
     return {
         "backend_name": backend_name,
-        "last_update_date": str(getattr(props, "last_update_date", "")),
+        "last_update_date": date,
         "qubits": qubits,
     }
 
