@@ -63,7 +63,7 @@ The structural history field κ replaces the original conflated `q` variable.
 
 ### 2.2 κ-Gravity Decoupling (v2 — two-source)
 
-> **RETIRED (Round 6, Option B).** This prediction is withdrawn. DET does not modify gravity; gravity is standard GR and dark matter is standard. The two-source law below is retained for historical audit only.
+> **RETIRED (Round 6, Option B).** This prediction is withdrawn. DET does not modify gravity; gravity is standard GR and dark matter is standard. The two-source law below is retained for historical audit only. **Revisit condition** (not "given up"): gravity may be revisited only if a DET-native mechanism is derived from primitives and survives the equivalence-principle/Eötvös/rotation-curve discipline — see `det_falsification.gravity_emergence_note()`.
 
 > **Resolved (Round 3 red-team, Team A decision).** The mass-independent law `F = G_q·λ_γ²·κ₁κ₂/r²` is **DEPRECATED** (empirically falsified by the equivalence principle: a 1 g and a 1000 kg mass with equal κ do not gravitate identically). It is retained only as a historical audit (`gravity_v2.compare_force_laws`). The active law is the **two-source field equation** (`gravity_v2.py`):
 

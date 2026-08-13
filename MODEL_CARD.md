@@ -2,7 +2,7 @@
 
 **Primary reference for the Deep Existence Theory framework.**
 **Date:** August 10, 2026 (revised per mathematical review)
-**Test suite:** 215/215 passing
+**Test suite:** 220/220 passing
 
 **Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B: the four deadlocks — time, quantum, agency, history — resolved in one framework). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field) — not the point; DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
 
@@ -72,11 +72,16 @@ Pre-registered in `track_a.py`. Monte Carlo simulator: `clock_experiment.py`. κ
 
 ## 5. Track B — Ontological Grammar
 
-Four deadlocks resolved (see `ONTOLOGY.md`):
-1. **Time:** Block universe → record-growth time
-2. **Quantum:** Many-worlds/hidden variables → open relational constraints
-3. **Agency:** Epiphenomenalism/dualism → present-enactment agency
-4. **History:** Retrocausality → mutable structural carrying (κ)
+Four deadlocks addressed (see `ONTOLOGY.md` and `det_falsification.ontology_claim_register()`):
+
+| Deadlock | Resolution | Epistemic status |
+|---|---|---|
+| **Time** | Block universe → record-growth time (Crystallizing Block) | **ADOPTED** (Ellis 2014) — borrowed, not DET-native |
+| **Quantum** | Many-worlds/hidden variables → emergent complex amplitudes | **SKETCH** — U(1) emergence is an open program |
+| **Agency** | Epiphenomenalism/dualism → present-enactment agency | **QUARANTINED** — the ontological gloss is Status M |
+| **History** | Retrocausality → mutable structural carrying (κ) | **RELABELED** — standard internal-variable free energy |
+
+None of the four is a DET-native derivation; the honest framing is a *coherent synthesis* of existing proposals, not "resolved from primitives" — a contribution in its own right, but stated as such.
 
 ---
 
@@ -206,7 +211,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**215/215 tests passing** over **22 of 82 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
+**220/220 tests passing** over **22 of 82 `.py` files** in `det8/models/`. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.
@@ -218,7 +223,7 @@ The test suite does **NOT** verify:
 - ❌ That DET makes correct empirical predictions.
 - ❌ That κ, Π, or λ_P exist in nature.
 
-**Coverage caveat (Round 3 red-team):** the 215 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/proxy code (`clock_experiment`, `clock_anomaly`, `track_a`, `structural_proxy`), and the Round 3/6 resolution modules (`gravity_v2`, `kappa_discriminator`, `sparc_analysis`, `det_units`, `kappa_derivation`, `det_falsification`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and much of the astrophysics suite (`cluster_dynamics`, `post_newtonian`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
+**Coverage caveat (Round 3 red-team):** the 220 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/proxy code (`clock_experiment`, `clock_anomaly`, `track_a`, `structural_proxy`), and the Round 3/6 resolution modules (`gravity_v2`, `kappa_discriminator`, `sparc_analysis`, `det_units`, `kappa_derivation`, `det_falsification`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and much of the astrophysics suite (`cluster_dynamics`, `post_newtonian`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
 
 Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 

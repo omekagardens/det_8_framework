@@ -565,12 +565,15 @@ def test_redteam_fixes():
     test("F11: synthetic demo path still recovers true λ_P=0.5",
          est3["synthetic"] and abs(est3["estimated_lambda_p"] - 0.5) < 1e-9)
 
-    # F11: combined_prediction κ inference is consistent.
-    cp = ta.combined_prediction(kappa_a=0.0, kappa_b=0.5, lambda_p=1.0)
-    test("F11: clock-inferred κ = κ_B = 0.5",
+    # F11: combined_prediction — clock + proxy, independent inputs (Option B).
+    cp = ta.combined_prediction(clock_ratio=1.5, proxy_response=0.5, kappa_a=0.0, lambda_p=1.0)
+    test("F11: clock-inferred κ = 0.5",
          cp["clock"]["kappa_inferred"] is not None and
          abs(cp["clock"]["kappa_inferred"] - 0.5) < 1e-12)
-    test("F11: clock/gravity κ consistency", cp["consistency"] is True)
+    test("F11: proxy-inferred κ = 0.5", abs(cp["proxy"]["kappa_inferred"] - 0.5) < 1e-12)
+    test("F11: clock/proxy consistency (independent inputs)", cp["consistency"] is True)
+    cp2 = ta.combined_prediction(clock_ratio=1.5, proxy_response=0.8, kappa_a=0.0, lambda_p=1.0)
+    test("F11: inconsistent clock/proxy → False", cp2["consistency"] is False)
 
 
 # ── Gravity v2 (F2 resolution) Tests ───────────────────────────────────────
@@ -817,6 +820,14 @@ def test_det_falsification():
     # Ontology-first framing + full-ladder run.
     ofn = df.ontology_first_note()
     test("ontology-first: ontology is primary", "ontology" in ofn and "probe_status" in ofn)
+
+    # Ontology claim register (R7-D): four deadlocks, honest statuses.
+    ocr = df.ontology_claim_register()
+    test("ontology claim register: 4 deadlocks",
+         all(k in ocr for k in ("time", "quantum", "agency", "history")))
+    test("ontology claim register: honest statuses",
+         ocr["time"]["status"].startswith("ADOPTED")
+         and ocr["history"]["status"].startswith("RELABELED"))
     ladder_run = df.run_full_ladder()
     test("full ladder: runs end-to-end", "ontology_first" in ladder_run and "overall" in ladder_run)
     test("full ladder: has all 3 probes",
@@ -848,6 +859,10 @@ def test_active_experiments():
     # F9 specification returns a complete spec.
     spec = kd.f9_specification()
     test("F9 spec: has decision + power", "decision" in spec and "power" in spec)
+
+    # Discriminator reduction (R7-C): the cleaner "hold κ≠κ_eq at 900K" framing.
+    red = kd.discriminator_reduction()
+    test("discriminator reduction: hold-at-900K framing", "HELD" in red["reduced_test"] and "caveat" in red)
 
     # F9 power curve (Monte Carlo): the Arrhenius separation is so huge that
     # power ≈ 1 at ALL sample counts — the discriminator is statistically

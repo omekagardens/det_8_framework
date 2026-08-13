@@ -249,63 +249,58 @@ def estimate_lambda_p(
 
 
 def combined_prediction(
+    clock_ratio: float,
+    proxy_response: float,
     kappa_a: float = 0.0,
-    kappa_b: float = 0.5,
     lambda_p: float = LAMBDA_P,
-    lambda_gamma: float = LAMBDA_GAMMA,
-    G_q: float = 1.0,
-    separation: float = 1.0,
+    proxy_R0: float = 1.0,
+    proxy_alpha: float = 1.0,
+    tolerance: float = 0.05,
 ) -> dict:
-    """If both the clock anomaly and gravity decoupling are real,
-    they provide joint constraints on (λ_P, λ_γ, κ).
+    """Option B: clock + proxy as the two independent κ measurements.
 
-    The clock anomaly measures: τ_A/τ_B = (1+λ_P·κ_B)/(1+λ_P·κ_A).
-    The gravity decoupling measures: F ∝ (λ_γ·κ)².
+    (The gravity leg is RETIRED — no κ-gravity decoupling under Option B.)
 
-    Together, they can independently determine κ and break the
-    degeneracy between G_q and λ_γ.
+    The clock measures τ_A/τ_B = (1+λ_P·κ_B)/(1+λ_P·κ_A) — an independent,
+    noisy measurement.
+    The proxy measures R(κ) = R₀(1−κ)^α — an independent, noisy measurement.
 
-    This is the DET "smoking gun": two independent measurements
-    of the same κ producing consistent values.
+    Consistency = the two INDEPENDENT measurements agree on κ (this is NOT
+    a tautology: each input is a separately-measured quantity, not the same
+    κ_B fed through two formulas).
     """
-    # Clock: ratio → λ_P·κ.
-    clock_ratio = (1.0 + lambda_p * kappa_b) / (1.0 + lambda_p * kappa_a)
-    # Invert ratio = (1+λ_P·κ_B)/(1+λ_P·κ_A) for κ_B given κ_A:
-    #   λ_P·κ_B = ratio·(1+λ_P·κ_A) − 1  ⟹  κ_B = (ratio−1)/λ_P + ratio·κ_A.
+    # Clock → κ_B.
     if abs(lambda_p) > 1e-15:
         kappa_clock = (clock_ratio - 1.0) / lambda_p + clock_ratio * kappa_a
     else:
         kappa_clock = None
 
-    # Gravity: force → λ_γ·κ.
-    # F = G_q·(λ_γ·κ)²/r² → κ_grav = √(F·r²/G_q) / λ_γ.
-    force_det = G_q * (lambda_gamma * kappa_b) ** 2 / (separation**2)
-    kappa_grav = math.sqrt(force_det * separation**2 / G_q) / lambda_gamma
+    # Proxy → κ.
+    if proxy_R0 > 0.0 and 0.0 <= proxy_response <= proxy_R0 and proxy_alpha > 0.0:
+        kappa_proxy = 1.0 - (proxy_response / proxy_R0) ** (1.0 / proxy_alpha)
+    else:
+        kappa_proxy = None
 
-    # Null model: no κ effect.
-    clock_null = 1.0
-    force_null = 0.0
+    consistent = (
+        abs(kappa_clock - kappa_proxy) <= tolerance
+        if (kappa_clock is not None and kappa_proxy is not None)
+        else None
+    )
 
     return {
         "clock": {
             "ratio": clock_ratio,
             "kappa_inferred": kappa_clock,
-            "null_ratio": clock_null,
         },
-        "gravity": {
-            "force": force_det,
-            "kappa_inferred": kappa_grav,
-            "null_force": force_null,
+        "proxy": {
+            "response": proxy_response,
+            "kappa_inferred": kappa_proxy,
         },
-        "consistency": (
-            abs(kappa_clock - kappa_grav) < 1e-12
-            if kappa_clock is not None
-            else None
-        ),
+        "consistency": consistent,
         "smoking_gun": (
-            "If κ inferred from clock matches κ inferred from gravity, "
-            "and both differ from null model, this is strong evidence "
-            "for the DET κ-field as a real physical entity."
+            "If κ inferred from the clock matches κ inferred from the proxy "
+            "(two independent, noisy measurements), this is evidence for κ as "
+            "a real physical entity. The gravity leg is RETIRED under Option B."
         ),
     }
 

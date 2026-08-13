@@ -329,3 +329,41 @@ def power_curve(
             f"decisive even with a handful of samples."
         ),
     }
+
+
+def discriminator_reduction(
+    T_high_K: float = 900.0,
+    E_a_eV: float = 1.0,
+    tau0_s: float = 1e-13,
+) -> dict:
+    """The cleaner statement of the F9 discriminator (R7-C).
+
+    At T_high = 900 K, defect annealing gives
+        τ_anneal = τ_0·exp(E_a/k_B T) ≈ 10⁻¹³·exp(12.9) ≈ 40 ns
+    — unobservably fast. So the ratio test REDUCES to a single question:
+
+        "Can κ ≠ κ_eq be prepared and HELD at 900 K at all?"
+
+    - Yes (κ survives at 900 K for a measurable time) → κ is NOT ordinary
+      annealing (a distinct field).
+    - No (κ vanishes in ~ns) → κ = defect density (relabeling).
+
+    The difficulty is PHYSICAL preparation, not statistics (power ≈ 1 at N ≈ 1).
+    """
+    tau_anneal = annealing_timescale(T_high_K, E_a_eV, tau0_s)
+    return {
+        "T_high_K": T_high_K,
+        "E_a_eV": E_a_eV,
+        "tau_anneal_at_high_T_s": tau_anneal,
+        "reduced_test": (
+            f"At {T_high_K:.0f} K, defect annealing is τ_anneal ≈ "
+            f"{tau_anneal:.2e} s — unobservably fast. The discriminator reduces to: "
+            f"'can κ ≠ κ_eq be prepared and HELD at {T_high_K:.0f} K at all?' "
+            f"Yes ⇒ κ distinct; No ⇒ κ = defect density."
+        ),
+        "caveat": (
+            "The 'power ≈ 1 at N ≈ 1' result is statistically true, but the "
+            "difficulty is PHYSICAL preparation (holding κ ≠ κ_eq at high T long "
+            "enough to measure τ_rec), not statistics."
+        ),
+    }

@@ -304,6 +304,52 @@ def ontology_first_note() -> dict:
     }
 
 
+def ontology_claim_register() -> dict:
+    """The ontology's own epistemic status (R7-D).
+
+    The ontology is not empirically falsifiable, so it needs its own evaluation
+    criteria. For each of the four deadlocks, mark whether the resolution is
+    DERIVED from DET primitives, ADOPTED from an existing proposal, a SKETCH, or
+    a RELABELING of standard physics. This is the ontological analogue of the
+    MODEL_CARD §6 physics claim register.
+    """
+    return {
+        "evaluation_criteria": [
+            "internal coherence — no contradictions (partially checked by tests)",
+            "genuine unification — must do explanatory work, not relabel",
+            "non-trivial deadlock resolution — derived vs adopted vs relabeled",
+        ],
+        "time": {
+            "deadlock": "growing block vs relativity of simultaneity",
+            "resolution": "the record grows at J^-(e); the 'Crystallizing Block'",
+            "status": "ADOPTED (Ellis 2014) — borrowed, not DET-native",
+        },
+        "quantum": {
+            "deadlock": "where do continuous complex amplitudes come from?",
+            "resolution": "emergent statistics of discrete-sign kernel roots",
+            "status": "SKETCH (not a proof; U(1) emergence is an open program)",
+        },
+        "agency": {
+            "deadlock": "open becoming vs primitive stochasticity (F8-OPEN)",
+            "resolution": "commit kernel K + Status M quarantine",
+            "status": "QUARANTINED (the ontological gloss is M, not resolved)",
+        },
+        "history": {
+            "deadlock": "κ-recovery vs the Second Law",
+            "resolution": "free energy ψ = ψ₀ + ½K(κ−κ_eq)² drives recovery",
+            "status": "RELABELED (standard internal-variable free energy)",
+        },
+        "honest_summary": (
+            "None of the four deadlock resolutions is a DET-native derivation: "
+            "one is ADOPTED (time), one is a SKETCH (quantum), one is "
+            "QUARANTINED (agency), one is RELABELED (history). This is not "
+            "disqualifying — a coherent SYNTHESIS of existing proposals is "
+            "itself a contribution — but the framework should say so rather "
+            "than 'four deadlocks resolved'."
+        ),
+    }
+
+
 def run_full_ladder(
     proxy_true_kappa: float = 0.5,
     clock_lambda_p: float = 1e-12,

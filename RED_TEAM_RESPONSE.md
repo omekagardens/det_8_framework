@@ -36,6 +36,8 @@ For smaller λ_P, longer integration times are needed, but the functional form t
 
 ### 1.2 Gravity Decoupling vs Mass Defect
 
+> **RETIRED (Round 6, Option B).** The κ-gravity decoupling prediction below is withdrawn. DET is a participation/measurement theory — κ couples only to the participation aperture (λ_P), not to gravity. Gravity is standard GR; dark matter is standard. The quantitative analysis below is retained for historical audit only.
+
 **Challenge:** Does κ-damage just change binding energy → mass defect → gravitational change via E=mc²?
 
 **Response:** ΔF from mass defect must be compared to ΔF from κ-change.
@@ -206,7 +208,7 @@ The MODEL_CARD and README have been updated to clarify this distinction. The tes
 
 **Challenge:** If DET is empirically equivalent to primitive stochasticity, is Track A mathematically incomplete?
 
-**Response:** Track A is complete as a *physical calculus* — it makes definite predictions (κ-Π clock anomaly, κ-gravity decoupling) that are falsifiable. The F8-OPEN downgrade applies only to the *ontological interpretation* of the commit kernel (is it "genuine becoming" or "primitive stochasticity"?).
+**Response:** Track A is complete as a *physical calculus* — it makes **one** definite prediction (**the κ-Π clock anomaly**) that is falsifiable. (The κ-gravity decoupling prediction was RETIRED under Option B — see the Option B decision; gravity is standard GR.) The F8-OPEN downgrade applies only to the *ontological interpretation* of the commit kernel (is it "genuine becoming" or "primitive stochasticity"?).
 
 **The distinction:**
 - Track A says: K(i|R) is a transition kernel. It makes predictions about what K is for specific R.

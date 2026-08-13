@@ -45,16 +45,23 @@ temperatures.
 `τ_anneal(T) = τ_0·exp(E_a/k_B T)`, with `τ_0 ≈ 10⁻¹³ s` and defect-specific
 activation energies `E_a ∈ [0.5, 2.0] eV`.
 
-**Decision:**
-- `τ_rec(T_high)/τ_rec(T_low) ≈ 1` (T-independent) → κ is **distinct** from
-  defect density. Proceed.
-- `τ_rec` tracks the Arrhenius law (ratio ≈ `exp(E_a/k_B·(1/T_low − 1/T_high))`,
-  which is `≫ 1` over 300→900 K) → κ = defect density → the κ-as-field reading
+**Decision (reduced form):** at 900 K, defect annealing gives
+`τ_anneal = τ_0·exp(E_a/k_B T) ≈ 40 ns` — unobservably fast. The ratio test
+therefore reduces to a single question:
+
+> **Can κ ≠ κ_eq be prepared and HELD at 900 K at all?**
+
+- **Yes** (κ survives at 900 K for a measurable time) → κ is NOT ordinary
+  annealing → a distinct field. Proceed.
+- **No** (κ vanishes in ~ns) → κ = defect density → the κ-as-field reading
   collapses (the ontology is unaffected).
 
-**Power:** `power_curve()` (Monte Carlo) shows this discriminator reaches >95%
-power at **N ≈ 2–5 samples** because the Arrhenius separation is enormous.
-`f9_specification()` states the full spec.
+**The difficulty is physical, not statistical.** `power_curve()` shows power
+≈ 1 even at N ≈ 1 (the Arrhenius separation is enormous), but that is
+misleading: the real challenge is **preparing and holding κ ≠ κ_eq at high T
+long enough to measure τ_rec** — a sample-preparation problem, not a
+statistics problem. `f9_specification()` and `discriminator_reduction()` state
+the full spec.
 
 ---
 

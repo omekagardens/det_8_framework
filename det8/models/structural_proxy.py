@@ -498,24 +498,22 @@ def proxy_calibration_protocol(
 def compare_kappa_measurements(
     true_kappa: float = 0.5,
     lambda_p: float = 1.0,
-    lambda_gamma: float = 1.0,
     noise_proxy: float = 0.01,
     noise_clock: float = 1e-18,
-    noise_gravity: float = 1e-15,
     seed: int = 42,
 ) -> dict:
-    """Compare κ measured via three independent methods.
+    """Compare κ measured via the two ACTIVE methods (Option B).
 
-    If all three give consistent κ, this is strong evidence
-    that κ is a real physical entity.
+    (The gravity leg is RETIRED — no κ-gravity decoupling.)
 
     Methods:
       1. Structural proxy (mechanical response).
       2. Clock anomaly (Π ratio).
-      3. Gravity decoupling (force measurement).
+
+    Two independent, noisy measurements; the consistency check is NOT a
+    tautology (each κ comes from a separately-measured quantity).
     """
     from det8.models.clock_anomaly import predict_clock_anomaly
-    from det8.models.track_a import combined_prediction
 
     rng = random.Random(seed)
 
@@ -531,40 +529,19 @@ def compare_kappa_measurements(
     pred = predict_clock_anomaly(kappa_a=0.0, kappa_b=true_kappa, lambda_p=lambda_p)
     true_ratio = pred["pi_ratio"]
     measured_ratio = true_ratio + rng.gauss(0.0, noise_clock)
-    # Invert: κ = (ratio - 1) / (λ_P · (1 - ratio·κ_A/κ_B)) with κ_A=0.
     if abs(lambda_p) > 1e-15:
         kappa_clock = (measured_ratio - 1.0) / lambda_p
     else:
         kappa_clock = None
     sigma_clock = noise_clock / abs(lambda_p) if abs(lambda_p) > 1e-15 else float("inf")
 
-    # 3. Gravity measurement.
-    from det8.models.newton_correspondence import simulate_orbit
-    # Use orbital measurement as proxy for gravity.
-    # Force ∝ (λ_γ·κ)². Measure force, infer κ.
-    G_q = 1.0
-    true_force = G_q * (lambda_gamma * true_kappa) ** 2
-    measured_force = true_force + rng.gauss(0.0, noise_gravity)
-    if measured_force > 0 and lambda_gamma > 1e-15:
-        kappa_grav = math.sqrt(measured_force / G_q) / lambda_gamma
-    else:
-        kappa_grav = None
-    sigma_grav = (
-        noise_gravity / (2 * math.sqrt(G_q) * lambda_gamma * math.sqrt(max(true_force, 1e-15)))
-        if true_force > 1e-15 and lambda_gamma > 1e-15
-        else float("inf")
-    )
-
-    # Consistency check.
+    # Consistency: weighted mean of the two ACTIVE measurements.
     measurements = []
     if kappa_proxy is not None:
         measurements.append(("proxy", kappa_proxy, sigma_proxy))
     if kappa_clock is not None:
         measurements.append(("clock", kappa_clock, sigma_clock))
-    if kappa_grav is not None:
-        measurements.append(("gravity", kappa_grav, sigma_grav))
 
-    # Weighted mean.
     if measurements:
         weights = [1.0 / max(s**2, 1e-30) for _, _, s in measurements]
         total_w = sum(weights)
@@ -578,7 +555,6 @@ def compare_kappa_measurements(
         "true_kappa": true_kappa,
         "proxy": {"kappa": kappa_proxy, "sigma": sigma_proxy},
         "clock": {"kappa": kappa_clock, "sigma": sigma_clock},
-        "gravity": {"kappa": kappa_grav, "sigma": sigma_grav},
         "combined": {"kappa": kappa_combined, "sigma": sigma_combined},
         "consistent": (
             all(
