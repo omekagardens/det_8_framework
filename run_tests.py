@@ -814,6 +814,14 @@ def test_det_falsification():
     test("claim register has 4 entries", len(cr) == 4)
     test("clock anomaly is pre-registered", "PR" in cr["clock_anomaly"]["status"])
 
+    # Ontology-first framing + full-ladder run.
+    ofn = df.ontology_first_note()
+    test("ontology-first: ontology is primary", "ontology" in ofn and "probe_status" in ofn)
+    ladder_run = df.run_full_ladder()
+    test("full ladder: runs end-to-end", "ontology_first" in ladder_run and "overall" in ladder_run)
+    test("full ladder: has all 3 probes",
+         all(k in ladder_run for k in ("probe_1_discriminator", "probe_2_proxy", "probe_3_clock")))
+
 
 # ── Active experiments: F9 spec + proxy ontology + clock sensitivity ───────
 

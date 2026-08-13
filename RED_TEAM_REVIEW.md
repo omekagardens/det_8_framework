@@ -514,3 +514,19 @@ Implemented across the tree:
 R6-A and R6-B are thereby **dissolved**: no fifth force ⇒ no Eötvös tension and no ~9× ceiling; dwarf/cluster dark matter is standard ΛCDM, out of DET's scope. The κ(r) sign tension (§4) is moot (no rotation-curve κ(r) needed).
 
 Remaining active program: the κ-Π clock anomaly (λ_P), calibrated by the structural proxy, gated by the κ-vs-defect-density discriminator (F9). 186/186 tests.
+
+---
+
+## Team A Rebuttal — Ontology First (August 12, 2026)
+
+The red-team's framing — "if F9 is falsified, DET fails as being a relabeling" — conflates the **probe** with the **ontology**. Team A's position:
+
+> **DET's primary content is ontological, not empirical.** The relational record-kernel unification — event graph `≺` → record `R` → law map `L` → commit kernel `K` → participation aperture `Π` — is the point: it resolves the four deadlocks (time, quantum, agency, history) in a single framework. Track A's clock anomaly is an **optional empirical probe** of ONE physical realization (κ as an independent field beyond defect density) — not the point, and not a load-bearing premise.
+
+Consequences:
+
+1. **F9 falsification does NOT falsify DET.** It collapses only the "κ is an independent field" reading. The record-kernel ontology stands regardless, because it does not require λ_P ≠ 0 (or any empirical probe to succeed).
+2. **"Relabeling" is itself an ontological result, not a failure.** If κ = defect density, then "structural history" (the relational notion) and "material history" (the physical notion) are shown to be the same thing — a non-trivial unification, not a defeat.
+3. **The clock anomaly is optional.** DET's value is the ontology; the probe is a bonus that, if positive, adds an empirical shadow, and if null, costs the ontology nothing.
+
+Documentation has been rebalanced accordingly: MODEL_CARD and PHYSICS now lead with the ontology and present the clock anomaly as an optional empirical probe; `det_falsification` distinguishes **probe-falsified** (a physical reading) from **ontology** (never at stake).

@@ -33,9 +33,11 @@ The structural history field κ replaces the original conflated `q` variable.
 
 ---
 
-## 2. Pre-Registered Prediction (clock anomaly)
+## 2. Pre-Registered Prediction (clock anomaly — an optional probe)
 
-> **Scope decision (Round 6, Option B):** DET is a participation/measurement theory, not a gravity-modification theory. The **sole** pre-registered prediction is the κ-Π clock anomaly (§2.1). The κ-gravity decoupling prediction (§2.2 v1/v2) and the combined signature (§2.3) are **RETIRED**: gravity is standard GR, dark matter is standard, and DET no longer claims any gravitational anomaly. The retired gravity program is retained for historical audit (PHYSICS §8–§10, `gravity_v2.py`, `sparc_analysis.py`, `cluster_dynamics.py`, `post_newtonian.py`).
+> **Ontology first (Round 6, Team A rebuttal):** DET's primary content is the relational record-kernel ontology (Track B) — the clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field), not the point. A null probe result costs the ontology nothing.
+>
+> **Scope decision (Option B):** DET is a participation/measurement theory, not a gravity-modification theory. The κ-gravity decoupling prediction (§2.2 v1/v2) and the combined signature (§2.3) are **RETIRED**: gravity is standard GR, dark matter is standard, and DET no longer claims any gravitational anomaly. The retired gravity program is retained for historical audit (PHYSICS §8–§10, `gravity_v2.py`, `sparc_analysis.py`, `cluster_dynamics.py`, `post_newtonian.py`).
 
 ### 2.1 κ-Π Clock Anomaly
 

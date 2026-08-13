@@ -45,7 +45,8 @@ def falsification_ladder() -> list[dict]:
             "measurement": "recovery timescale τ_rec across temperature T",
             "falsifies_if": (
                 "τ_rec tracks the Arrhenius annealing law τ_anneal = τ_0·exp(E_a/k_B T) "
-                "⇒ κ = defect density ⇒ DET is a relabeling"
+                "⇒ κ = defect density ⇒ the κ-as-independent-field reading collapses "
+                "(the record-kernel ontology is unaffected)"
             ),
             "confirms_if": (
                 "τ_rec is T-independent (distinct from thermal annealing) "
@@ -269,4 +270,84 @@ def claim_register() -> dict:
             "status": "OPEN frontier (not claimed)",
             "falsifies": "N/A — no gravity claim is made",
         },
+    }
+
+
+# ── Ontology-first framing ──────────────────────────────────────────────────
+
+
+def ontology_first_note() -> dict:
+    """The framing: the ontology is primary; the probes are optional.
+
+    This is Team A's rebuttal to the red-team's "F9 falsified ⇒ DET is a
+    relabeling" framing — which conflated the PROBE with the ONTOLOGY.
+    """
+    return {
+        "ontology": (
+            "Relational record-kernel unification: event graph ≺ → record R → "
+            "law map L → commit kernel K → participation aperture Π."
+        ),
+        "primary_content": (
+            "The ontology resolves the four deadlocks (time, quantum, agency, "
+            "history) in one framework. This is DET's primary content."
+        ),
+        "probe_status": (
+            "The clock anomaly is an OPTIONAL empirical probe of ONE physical "
+            "realization (κ as an independent field). It is not the point, and "
+            "DET's value does not depend on λ_P ≠ 0."
+        ),
+        "what_falsification_means": (
+            "A 'falsified' probe result collapses only the κ-as-independent-field "
+            "reading; the ontology stands. Even 'κ = defect density' is an "
+            "ontological RESULT: structural history = material history."
+        ),
+    }
+
+
+def run_full_ladder(
+    proxy_true_kappa: float = 0.5,
+    clock_lambda_p: float = 1e-12,
+    clock_kappa: float = 0.5,
+    seed: int = 42,
+) -> dict:
+    """End-to-end run of the three probes, framed ontology-first.
+
+    Exercises the full testing path — F9 discriminator (temporal signature),
+    structural-proxy ontology test, clock sensitivity — and reports it with the
+    ontology-first framing: the probes test ONLY the κ-as-independent-field
+    reading; the record-kernel ontology is never at stake.
+    """
+    from det8.models.kappa_discriminator import discriminator_signature, f9_specification
+    from det8.models.structural_proxy import proxy_calibration_protocol
+    from det8.models.clock_experiment import clock_sensitivity_table
+
+    # Probe 1: F9 discriminator (temporal signature).
+    sig = discriminator_signature()
+    spec = f9_specification()
+
+    # Probe 2: structural-proxy ontology test.
+    proxy = proxy_calibration_protocol(true_kappa=proxy_true_kappa, seed=seed)
+
+    # Probe 3: clock sensitivity.
+    table = clock_sensitivity_table()
+
+    return {
+        "ontology_first": ontology_first_note(),
+        "probe_1_discriminator": {
+            "temporal_signature": sig["verdict"],
+            "power": spec["power"]["detectable_5sigma"],
+        },
+        "probe_2_proxy": {
+            "ontology_verdict": proxy["ontology_test"]["verdict"],
+            "kappa_inferred": proxy["kappa_inferred_from_residual"],
+        },
+        "probe_3_clock": {
+            "noise_floor": table["noise_floor"],
+            "interpretation": table["interpretation"],
+        },
+        "overall": (
+            "The three probes test ONLY the κ-as-independent-field reading. "
+            "Whatever their outcomes, the record-kernel ontology stands — "
+            "the probes are optional, the ontology is primary."
+        ),
     }
