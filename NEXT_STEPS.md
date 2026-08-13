@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 13, 2026
-**Test suite:** 278/278 passing
+**Test suite:** 295/295 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -31,7 +31,7 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 89 modules, 278/278 tests
+- 89 modules, 295/295 tests
 - Full simulation stack + experimental simulators + dataset analysis
 
 ### Applied-Physics Real Data
@@ -44,25 +44,24 @@
 
 ---
 
-## What's Next (Requires External Resources)
+## What's Next (theorem program + data)
 
-### Experimental (needs lab access)
-- Atomic clock collaboration for κ-Π anomaly test
-- Torsion balance for κ-gravity decoupling
-- Physical κ structural proxy apparatus
+### Theorem program (`docs/record_kernel_physics.md`)
+- ✅ T1 predictive-history sufficiency — implemented
+- ✅ T2b quadratic commit — implemented
+- ✅ T3 record formation — implemented
+- T4 kernel irreversibility (`⟨e^{−Σ}⟩=1`, `⟨Σ⟩≥0`)
+- T5 local-kernel continuum (graph kernels → diffusion)
+- T6 correlation class (the long pole: pair-kernel 𝔇 + why-ℂ)
+- T7 order-and-count geometry (kinematic only; gravity stays out of scope)
 
-### Observational (needs telescope data)
-- Full SPARC rotation curve data points (individual radii)
-- DESI/Euclid BAO data for κ(z) constraint
-- Galaxy cluster mass profile data (Chandra/XMM archives)
+### Data (§7, matched to DET primitives)
+- Matched-state / different-history ensembles (H₀: K_a = K_b + held-out transport)
+- Alternative-combination counts (I_2, I_3)
+- Forward/reverse trajectory datasets (Σ[ω] path irreversibility)
 
-### Mathematical (long-term)
-- Continuum limit formal proof — see `docs/continuum_limit_roadmap.md`
-  - Π-volume theorem (DET-specific, 3-6 months)
-  - Bond Laplacian convergence (DET-specific, 2-4 months)
-  - κ-source convergence (DET-specific, 2-4 months)
-  - LGH metric convergence (shared, 1-2 years)
-  - Discrete action → Einstein-Hilbert (shared, 2-5 years)
+### Clock (late-stage, weakly identified)
+- Common-mode universality test (`y = Bκ + u·1 + ε`); gated on F9 + independent κ.
 
 ---
 
@@ -80,5 +79,5 @@
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 278/278 passing
+python3 run_tests.py   # 295/295 passing
 ```

@@ -1175,6 +1175,83 @@ def test_predictive_history():
          and not end2["held_out_transport"]["transports"])
 
 
+# ── Pair-kernel (T2b) Tests ────────────────────────────────────────────────
+
+def test_pair_kernel():
+    from det8.models.pair_kernel import (
+        make_pair_kernel, make_decoherent_partition, derivation_certificate, run_t2b,
+    )
+
+    section("Pair-kernel (T2b — Quadratic Commit Theorem)")
+
+    D = make_pair_kernel(4, seed=42, coherent=True)
+    v = D.validate()
+    test("pair-kernel: axioms valid", v["valid"])
+    test("pair-kernel: μ ≥ 0 on all events",
+         all(D.mu({i}) >= 0 for i in range(4)))
+    test("pair-kernel: I_3 = 0 (disjoint triple)",
+         abs(D.interference_I3({0}, {1}, {2})) < 1e-12)
+    test("pair-kernel: I_3 = 0 (second triple)",
+         abs(D.interference_I3({1}, {2}, {3})) < 1e-12)
+    g = D.gram_check()
+    test("pair-kernel: Gram representation holds", g["gram_holds"])
+
+    # Classical limit: diagonal (decohered) → additive.
+    Dc = make_pair_kernel(4, seed=42, coherent=False)
+    part = make_decoherent_partition(4)
+    cc = Dc.classical_additivity(part)
+    test("pair-kernel: diagonal → additive (classical)", cc["additive"] and cc["decoherent"])
+    # Coherent → interference present.
+    cc2 = D.classical_additivity(part)
+    test("pair-kernel: coherent → interference (not additive)", not cc2["additive"])
+
+    # Composition closure.
+    D2 = make_pair_kernel(3, seed=43, coherent=True)
+    comp = D.compose(D2)
+    test("pair-kernel: composition closed", comp.validate()["valid"])
+
+    # Certificate: T2a (grade-2 justification) is honestly listed as not derived.
+    cert = derivation_certificate()
+    test("pair-kernel: certificate flags grade-2 as not-derived",
+         any("grade-2" in s for s in cert["not_derived_here"]))
+
+    # End-to-end.
+    r = run_t2b(n=4, seed=42)
+    test("T2b: axioms + gram + composition",
+         r["axioms_valid"]["valid"] and r["gram"]["gram_holds"]
+         and r["composition_valid"]["valid"])
+
+
+# ── Record Formation (T3) Tests ────────────────────────────────────────────
+
+def test_record_formation():
+    from det8.models.record_formation import (
+        chernoff_exponent, record_error_bound, majority_vote_error, run_t3,
+    )
+
+    section("Record Formation (T3)")
+
+    test("record: C(p) > 0 for p > 1/2", chernoff_exponent(0.7) > 0)
+    test("record: C(p) → 0 as p → 1/2+", chernoff_exponent(0.5001) < 0.01)
+    try:
+        chernoff_exponent(0.5)
+        raised = False
+    except ValueError:
+        raised = True
+    test("record: p ≤ 1/2 rejected", raised)
+
+    b = record_error_bound(101, 0.7)
+    test("record: bound in (0,1)", 0.0 < b < 1.0)
+    test("record: bound decreases with N",
+         record_error_bound(51, 0.7) > record_error_bound(101, 0.7))
+
+    emp = majority_vote_error(51, 0.7, n_trials=50000, seed=7)
+    test("record: empirical ≤ bound", emp <= record_error_bound(51, 0.7) * 1.000001)
+
+    r = run_t3(p=0.7, seed=42)
+    test("T3: bound holds at all checked N", r["bound_holds_all"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1353,6 +1430,20 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in predictive_history: {e}")
+        traceback.print_exc()
+
+    try:
+        test_pair_kernel()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in pair_kernel: {e}")
+        traceback.print_exc()
+
+    try:
+        test_record_formation()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in record_formation: {e}")
         traceback.print_exc()
 
     section("RESULTS")

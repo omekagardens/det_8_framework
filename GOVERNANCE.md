@@ -39,9 +39,9 @@ DET is governed by the principle that the physical calculus (Track A) and ontolo
 | D2 | Many-Worlds Emulator | All outcomes physically real | NO (without branch access) |
 | D3 | Superdeterministic Emulator | Settings + outcomes share common causes | NO (without MI proof) |
 
-**Verdict:** No discriminator currently exists. DET presence is empirically indistinguishable from primitive stochastic event occurrence.
+**Verdict:** No *unique* discriminator currently exists. DET presence is empirically indistinguishable from primitive stochastic event occurrence **as an object**. But strong presence and open becoming generate structural constraints (the record-kernel structure, the commit pattern, the participation aperture) whose violation would falsify the stronger ontological claim — the present is tested through its fruits, not measured as an object.
 
-**Action (DG-OPEN applied):** "Open becoming" and "strong presence" downgraded to Status M. **Closed-current by downgrade, reopenable upon discriminator discovery.**
+**Action (DG-OPEN applied):** "Open becoming" and "strong presence" downgraded to Status M. **Closed-current by downgrade, reopenable upon discriminator discovery — and falsifiable via structural-constraint violation.**
 
 **Pre-registration template:** 9 fields required (hypothesis, system, observable, statistic, threshold, sample size, adversary classes, failure condition, downgrade obligation).
 

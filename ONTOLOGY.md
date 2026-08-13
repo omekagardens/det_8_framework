@@ -113,10 +113,12 @@ DET's core ontological commitment:
 **"God of the Gaps" inverted:** DET removes agency from physical equations entirely — the opposite of inserting it into gaps. This is a "No God in the Equations" protocol.
 
 \[
-\boxed{\text{DET measures the fruit of becoming, not becoming itself.}}
+\boxed{\text{The present cannot be measured as an object, but the universe's dependence on the present can be tested through its fruits.}}
 \]
 
-Any measurement is already part of the committed record (\(\mathcal R^+\)). We can never catch the present moment (\(\mathfrak P_e\)) in the act of becoming, because catching it turns it into a record. The interior of strong presence is unfalsifiable by nature. This is not a failure — it is an epistemic limit recognized and respected by DET's discipline.
+Any measurement is already part of the committed record (\(\mathcal R^+\)). We can never catch the present moment (\(\mathfrak P_e\)) in the act of becoming, because catching it turns it into a record. The interior of strong presence is unfalsifiable *as an object* — this is not a failure but an epistemic limit recognized and respected by DET's discipline.
+
+This is the **middle path**, avoiding two extremes: (1) "science can never touch ontology" — too weak, because Track B does generate empirical guidance; and (2) "ontology is just another physical variable" — too strong, because the present is not a measurable object. The correct position: **Strong presence and open becoming are currently Status M because DET lacks a *unique* discriminator, but they generate *structural constraints* whose violation would falsify the stronger ontological claim.** Presence is tested through its fruits — the record-kernel structure, the commit pattern, the participation aperture — not as an object.
 
 By downgrading "Open Becoming" and "Strong Presence" to Status M, DET protects them from being diluted with fake physical variables (agency noise, becoming energy, spirit fields) invented solely to satisfy a Popperian test.
 
@@ -129,7 +131,7 @@ Every term that is not a physical variable is listed with status and promotion c
 | Term | Status | Physical content | Promotion criteria |
 |---|---|---|---|
 | Agency | M | None. Selfhood-bearing regime's participation. | Operational definition of "agent-involving" + falsifiable signature |
-| Strong presence \(\mathfrak P_e\) | M | None. Interpretation of \(X_e\) occurrence. | Satisfy F8-OPEN with pre-registered discriminator |
+| Strong presence \(\mathfrak P_e\) | M | None. Interpretation of \(X_e\) occurrence. | Unique discriminator (F8-OPEN) — or structural constraints whose violation falsifies the stronger claim |
 | Open becoming | M | None. Claim that no fact exists about unactualized outcomes. | Same as \(\mathfrak P_e\) |
 | Boundary Grace | M/H | None. Optional; no physical channel. | Explicit local channel + pre-registered falsifier |
 | Boundary Healing | M/H | None. | Same |
