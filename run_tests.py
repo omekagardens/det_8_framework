@@ -894,6 +894,43 @@ def test_active_experiments():
     test("clock table: λ_P=1e-20 not detectable", not row_null["detectable_5sigma"])
 
 
+# ── Operational κ / precision-materials program (L0/L1/L2) Tests ───────────
+
+def test_operational_kappa():
+    from det8.models import operational_kappa as ok
+
+    section("Operational κ (L0/L1/L2)")
+
+    # Three layers.
+    layers = ok.kappa_layers()
+    test("layers: L0/L1/L2", [l["layer"] for l in layers] == ["L0", "L1", "L2"])
+
+    # Operational κ recovers the true residual from synthetic multi-probe data.
+    op = ok.operational_kappa(z=[0.5, 0.5, 0.5], f_std=[0.0, 0.0, 0.0],
+                              s=[1.0, 1.0, 1.0], noise=[0.01, 0.01, 0.01])
+    test("operational κ recovers 0.5", abs(op["kappa_op"] - 0.5) < 1e-9)
+    # Nonzero standard-physics background is correctly subtracted.
+    op2 = ok.operational_kappa(z=[1.0, 1.0], f_std=[0.5, 0.5], s=[1.0, 1.0], noise=[0.01, 0.01])
+    test("operational κ = residual after f_std", abs(op2["kappa_op"] - 0.5) < 1e-9)
+    # Uncertainty is finite and shrinks with more probes.
+    op3 = ok.operational_kappa(z=[0.5]*10, f_std=[0.0]*10, s=[1.0]*10, noise=[0.01]*10)
+    test("operational κ uncertainty shrinks with n", op3["uncertainty"] < op["uncertainty"])
+
+    # Completeness audit: 9 categories + 0.05× rule.
+    audit = ok.standard_variable_audit()
+    test("completeness audit: 9 categories", audit["n_categories"] == 9)
+    test("completeness audit: 0.05× rule", "0.05" in audit["rule"])
+
+    # Anti-circularity guard.
+    test("circularity: mechanical allowed", ok.circularity_guard("mechanical")["allowed"])
+    test("circularity: clock_anomaly_itself forbidden", not ok.circularity_guard("clock_anomaly_itself")["allowed"])
+    test("circularity: reference_sample allowed", ok.circularity_guard("reference_sample")["allowed"])
+
+    # Full program summary.
+    prog = ok.precision_materials_program()
+    test("program summary: layers + guardrails", "layers" in prog and "circularity_rule" in prog)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1037,6 +1074,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in active_experiments: {e}")
+        traceback.print_exc()
+
+    try:
+        test_operational_kappa()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in operational_kappa: {e}")
         traceback.print_exc()
 
     section("RESULTS")

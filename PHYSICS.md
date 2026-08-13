@@ -41,6 +41,14 @@ The structural history field κ replaces the original conflated `q` variable.
 
 ### 2.1 κ-Π Clock Anomaly
 
+> **Precision-materials program (L0/L1/L2).** Track A is reframed as a precision-measurement program for detecting and controlling history-dependent structural effects in materials used by clocks, oscillators, and quantum devices (`det8/models/operational_kappa.py`):
+>
+> - **L0** — κ as an engineering descriptor of structural history (useful even if DET is false).
+> - **L1** — κ as an *independent residual* beyond standard materials variables (the empirical milestone; the scientific discriminator).
+> - **L2** — κ coupling to clock rate via λ_P (the risky DET-specific prediction).
+>
+> κ is made **operational** (metrological): `κ̂_op = Σ w_i s_i (z_i − f_std_i)/Σ w_i s_i²` over a multi-probe vector `z`, with uncertainty per sample. Two guardrails: (i) a **standard-variable completeness audit** — any parameter capable of > 0.05× the expected signal must be measured, bounded, or stabilized; (ii) an **anti-circularity rule** — κ must NOT be inferred from the clock anomaly it is used to test (mechanical/calorimetric/microscopic/transport, a reference sample, or a non-clock oscillator only).
+
 **Formula:** \(\tau_A/\tau_B = (1+\lambda_P\kappa_B)/(1+\lambda_P\kappa_A)\)
 
 **Null model:** τ_A/τ_B = 1.0 after all known corrections.

@@ -24,6 +24,22 @@ theory-independent *observed* quantity (a frequency ratio, a probe response).
 Its theory-dependent interpretation (GR redshift, dark-matter halo, dislocation
 density) is quarantined.
 
+**The three layers (`operational_kappa.py`):** L0 — κ as an engineering
+descriptor of structural history (useful even if DET is false). L1 — κ as an
+independent residual beyond standard materials variables (the milestone). L2 —
+κ coupling to clock rate via λ_P (the risky DET prediction). Each layer stands
+or falls on its own.
+
+**Operational κ:** κ is a metrological quantity — `κ̂_op = Σ w_i s_i (z_i −
+f_std_i)/Σ w_i s_i²` over a multi-probe vector, with uncertainty per sample.
+
+**Two guardrails for credibility:**
+1. **Completeness audit** — any standard variable capable of producing
+   > 0.05× the expected signal must be measured, bounded, or stabilized
+   (`standard_variable_audit`, 9 categories).
+2. **Anti-circularity** — κ must NOT be inferred from the clock anomaly it is
+   used to test (`circularity_guard`).
+
 ---
 
 ## 1. Experiment 1 — κ vs. defect density (the discriminator, F9)
