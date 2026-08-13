@@ -166,6 +166,64 @@ def parse_gauge_csv(rows: list[dict]) -> list[dict]:
     ]
 
 
+def parse_broadcast_nav(text: str) -> list[dict]:
+    """Parse a RINEX 3 broadcast-ephemeris (BRDC) file into clock-polynomial records.
+
+    Each navigation block opens with a line like:
+        G01 2024 01 01 00 00 00 <a_f0> <a_f1> <a_f2> ...
+    where a_f0 = SV clock bias (s), a_f1 = clock drift (s/s), a_f2 = drift rate
+    (s/s²). Only the opening line of each block starts with a constellation
+    letter (G/R/E/C/J); the continuation lines (orbital elements) do not.
+    """
+    records = []
+    for line in text.splitlines():
+        f = line.split()
+        if len(f) >= 9 and f[0] and f[0][0] in "GRECJ":
+            try:
+                records.append({
+                    "svn": f[0],
+                    "epoch": "-".join(f[1:7]),
+                    "a_f0_s": float(f[7]),
+                    "a_f1_s_per_s": float(f[8]),
+                    "a_f2_s_per_s2": float(f[9]) if len(f) > 9 else 0.0,
+                })
+            except (ValueError, IndexError):
+                continue
+    return records
+
+
+def clock_aging_series(records: list[dict], svn: str) -> list[dict]:
+    """Extract the clock-drift (a_f1) aging series for one satellite, sorted by epoch.
+
+    The aging test: does the κ-recovery model predict the a_f1 drift trajectory
+    better than IEEE log-aging?
+    """
+    sel = [r for r in records if r["svn"] == svn]
+    sel.sort(key=lambda r: r["epoch"])
+    return sel
+
+
+def generate_broadcast_nav(seed: int = 42) -> list[dict]:
+    """Synthetic BRDC-like record: a_f0/a_f1 with slow aging + a damage event."""
+    rng = random.Random(seed)
+    records = []
+    drift = 1e-13
+    bias = 0.0
+    for i in range(200):
+        if i == 100:
+            drift += 5e-12            # radiation/damage event spikes the drift.
+        drift += -(drift - 1e-13) * 0.02 + rng.gauss(0, 1e-14)  # aging recovery.
+        bias += drift
+        records.append({
+            "svn": "G01",
+            "epoch": f"2024-{1 + i // 12:03d}-{i:05d}",
+            "a_f0_s": bias + rng.gauss(0, 1e-13),
+            "a_f1_s_per_s": drift,
+            "a_f2_s_per_s2": 0.0,
+        })
+    return records
+
+
 # ── Synthetic generators (format-identical surrogates) ─────────────────────
 
 

@@ -981,6 +981,7 @@ def test_applied_physics():
 def test_ingest_pipelines():
     from det8.applied_physics.ingest import (
         load, run_all_ingests, parse_igs_clock, parse_ibm_properties,
+        parse_broadcast_nav, clock_aging_series, generate_broadcast_nav,
     )
     from det8.applied_physics import kappa_ingest as ki
 
@@ -1018,6 +1019,20 @@ def test_ingest_pipelines():
     # run_all_ingests returns 5 datasets.
     r = run_all_ingests()
     test("run_all_ingests: 5 datasets", r["n_datasets"] == 5)
+
+    # Broadcast-ephemeris parser + aging-series extractor.
+    nav = parse_broadcast_nav("G01 2024 01 01 00 00 00 1.0e-7 2.0e-15 0.0\n")
+    test("broadcast nav: parses clock polynomial",
+         len(nav) == 1 and abs(nav[0]["a_f0_s"] - 1e-7) < 1e-20
+         and abs(nav[0]["a_f1_s_per_s"] - 2e-15) < 1e-30)
+
+    nav_records = generate_broadcast_nav()
+    series = clock_aging_series(nav_records, "G01")
+    test("aging series: 200 epochs, sorted", len(series) == 200)
+    # The damage event spikes the drift at epoch 100.
+    drift_at_event = max(r["a_f1_s_per_s"] for r in series[95:105])
+    test("aging series: drift spikes at the event",
+         drift_at_event > series[0]["a_f1_s_per_s"] * 10)
 
 
 # ── Main ────────────────────────────────────────────────────────────────────
