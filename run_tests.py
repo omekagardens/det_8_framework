@@ -1120,6 +1120,61 @@ def test_ibm_ingest():
     test("spatial: alternating → no correlation", not r_alt["neighbours_correlated"])
 
 
+# ── Predictive-history sufficiency (T1) Tests ──────────────────────────────
+
+def test_predictive_history():
+    from det8.models.predictive_history import (
+        fisher_rao_distance,
+        test_history_distinction,
+        latent_rank_test,
+        held_out_transport,
+        generate_history_dataset,
+        run_t1,
+    )
+
+    section("Predictive-history sufficiency (T1)")
+
+    # Fisher–Rao metric (§2.2): identity → 0, disjoint → 1, symmetric.
+    test("κ(K,K) = 0", abs(fisher_rao_distance([0.5, 0.5], [0.5, 0.5])) < 1e-12)
+    test("κ(disjoint) = 1",
+         abs(fisher_rao_distance([1.0, 0.0], [0.0, 1.0]) - 1.0) < 1e-12)
+    test("κ symmetric",
+         abs(fisher_rao_distance([0.7, 0.3], [0.3, 0.7])
+             - fisher_rao_distance([0.3, 0.7], [0.7, 0.3])) < 1e-12)
+
+    # History-distinction test H0: K_a = K_b.
+    d = test_history_distinction([0.7, 0.3], [0.3, 0.7], n_a=1000, n_b=1000)
+    test("history distinction: different kernels → distinct", d["distinct"])
+    s = test_history_distinction([0.5, 0.5], [0.5, 0.5], n_a=1000, n_b=1000)
+    test("history distinction: identical kernels → not distinct", not s["distinct"])
+
+    # Rank test: transportable (rank-1) vs nontransportable (full rank).
+    d1 = generate_history_dataset(n_histories=4, n_probes=3,
+                                  transportable=True, seed=1)
+    r1 = latent_rank_test(d1["probe_residuals"])
+    test("rank test: transportable → rank-1", r1["verdict"] == "rank_1")
+    d0 = generate_history_dataset(n_histories=4, n_probes=3,
+                                  transportable=False, seed=1)
+    r0 = latent_rank_test(d0["probe_residuals"])
+    test("rank test: nontransportable → not rank-1", r0["verdict"] == "nontransportable")
+
+    # Held-out transport (§7.1).
+    t1 = held_out_transport(d1["probe_residuals"][:2], d1["probe_residuals"][2])
+    test("transport: rank-1 data → transports", t1["transports"])
+    t0 = held_out_transport(d0["probe_residuals"][:2], d0["probe_residuals"][2])
+    test("transport: nontransportable → no transport", not t0["transports"])
+
+    # End-to-end T1.
+    end = run_t1(transportable=True, seed=42)
+    test("T1: scalar κ supported (transportable)",
+         end["latent_rank"]["verdict"] == "rank_1"
+         and end["held_out_transport"]["transports"])
+    end2 = run_t1(transportable=False, seed=42)
+    test("T1: scalar κ NOT supported (nontransportable)",
+         end2["latent_rank"]["verdict"] == "nontransportable"
+         and not end2["held_out_transport"]["transports"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1291,6 +1346,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in ibm_ingest: {e}")
+        traceback.print_exc()
+
+    try:
+        test_predictive_history()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in predictive_history: {e}")
         traceback.print_exc()
 
     section("RESULTS")
