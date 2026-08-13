@@ -982,6 +982,7 @@ def test_ingest_pipelines():
     from det8.applied_physics.ingest import (
         load, run_all_ingests, parse_igs_clock, parse_ibm_properties,
         parse_broadcast_nav, clock_aging_series, generate_broadcast_nav,
+        derive_drift, daily_drift,
     )
     from det8.applied_physics import kappa_ingest as ki
 
@@ -995,9 +996,14 @@ def test_ingest_pipelines():
         test(f"{ds}: inputs equal length",
              n == len(inp["T_t"]) == len(inp["flux_t"]) == len(inp["observable"]) > 0)
 
-    # RINEX clock parser handles 'AS' data lines.
-    rec = parse_igs_clock("AS G01 2024 01 01 00 00 00 3 1.0e-7 2.0e-15\n")
-    test("RINEX parser: parses AS line", len(rec) == 1 and abs(rec[0]["bias_s"] - 1e-7) < 1e-20)
+    # RINEX clock parser handles both bias-only (NVALS=1) and bias+drift (NVALS=2).
+    rec = parse_igs_clock("AS G01 2024 01 01 00 00 00 2 1.0e-7 2.0e-15\n")
+    test("RINEX parser: parses AS line", len(rec) == 1 and abs(rec[0]["bias_s"] - 1e-7) < 1e-20
+         and abs(rec[0]["drift_s_per_s"] - 2e-15) < 1e-30)
+    rec_bias_only = parse_igs_clock("AS G01 2024 01 01 00 00 00 1 -3.0e-4\n")
+    test("RINEX parser: bias-only line", len(rec_bias_only) == 1
+         and abs(rec_bias_only[0]["bias_s"] - (-3.0e-4)) < 1e-20
+         and rec_bias_only[0]["drift_s_per_s"] == 0.0)
 
     # IBM properties parser extracts T1/T2.
     obj = {"last_update_date": "2024", "qubits": [[
@@ -1033,6 +1039,17 @@ def test_ingest_pipelines():
     drift_at_event = max(r["a_f1_s_per_s"] for r in series[95:105])
     test("aging series: drift spikes at the event",
          drift_at_event > series[0]["a_f1_s_per_s"] * 10)
+
+    # Drift derivation from a bias-only series (the real .clk case).
+    bias_series = [
+        {"svn": "G01", "epoch": "2024-01-01-00-00-00.000000", "bias_s": 0.0},
+        {"svn": "G01", "epoch": "2024-01-01-00-00-30.000000", "bias_s": 3e-10},
+    ]
+    drifts = derive_drift(bias_series)
+    test("derive_drift: 1e-11 s/s",
+         len(drifts) == 1 and abs(drifts[0]["drift_s_per_s"] - 1e-11) < 1e-20)
+    dd = daily_drift(bias_series)
+    test("daily_drift: 1e-11 s/s", abs(dd["drift_s_per_s"] - 1e-11) < 1e-20)
 
 
 # ── Main ────────────────────────────────────────────────────────────────────

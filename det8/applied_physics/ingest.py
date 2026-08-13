@@ -101,17 +101,19 @@ def parse_igs_clock(text: str) -> list[dict]:
             continue
         if line.startswith("AS"):
             f = line.split()
-            # RINEX 3 clock record:
-            #   AS <SVN> <YYYY MM DD HH MM SS> <NVALS> <bias_s> <drift_s/s> ...
-            if len(f) >= 11:
+            # RINEX 2.00 / 3.04 clock record:
+            #   AS <SVN> <YYYY MM DD HH MM SS> <NVALS> <bias_s> [<drift_s/s> ...]
+            # NVALS = 1 → bias only; NVALS ≥ 2 → bias + drift (+ optional).
+            if len(f) >= 10:
                 try:
+                    nvals = int(f[8])
                     records.append({
                         "svn": f[1],
                         "epoch": "-".join(f[2:8]),
                         "bias_s": float(f[9]),
-                        "drift_s_per_s": float(f[10]) if len(f) > 10 else 0.0,
+                        "drift_s_per_s": float(f[10]) if nvals >= 2 and len(f) > 10 else 0.0,
                     })
-                except ValueError:
+                except (ValueError, IndexError):
                     continue
     return records
 
@@ -201,6 +203,83 @@ def clock_aging_series(records: list[dict], svn: str) -> list[dict]:
     sel = [r for r in records if r["svn"] == svn]
     sel.sort(key=lambda r: r["epoch"])
     return sel
+
+
+def _epoch_seconds(epoch: str) -> float:
+    """Convert an epoch string 'YYYY-MM-DD-HH-MM-SS[.ffffff]' to seconds."""
+    import datetime as _dt
+    if "." in epoch:
+        main, frac = epoch.split(".", 1)
+        micro = int((frac + "000000")[:6])
+    else:
+        main, micro = epoch, 0
+    t = _dt.datetime.strptime(main, "%Y-%m-%d-%H-%M-%S")
+    return t.timestamp() + micro * 1e-6
+
+
+def derive_drift(series: list[dict]) -> list[dict]:
+    """Derive clock drift (s/s) from a bias-only .clk series by differencing.
+
+    The IGS .clk products are bias-only (NVALS=1); the drift/aging is the
+    numerical time derivative dbias/dt. Returns records augmented with
+    `drift_s_per_s`.
+    """
+    out = []
+    for i in range(1, len(series)):
+        prev, cur = series[i - 1], series[i]
+        dt = _epoch_seconds(cur["epoch"]) - _epoch_seconds(prev["epoch"])
+        if dt > 0:
+            rec = dict(cur)
+            rec["drift_s_per_s"] = (cur["bias_s"] - prev["bias_s"]) / dt
+            out.append(rec)
+    return out
+
+
+def daily_drift(series: list[dict]) -> dict:
+    """Average clock drift over a day, from a bias-only .clk series.
+
+    drift = (bias_last − bias_first) / (t_last − t_first), in s/s. This is the
+    daily aging datum; the multi-day trajectory of this value is the aging
+    curve the κ-model vs IEEE log-aging test operates on.
+    """
+    if len(series) < 2:
+        return {"svn": series[0]["svn"] if series else None,
+                "drift_s_per_s": None, "n": len(series)}
+    first, last = series[0], series[-1]
+    dt = _epoch_seconds(last["epoch"]) - _epoch_seconds(first["epoch"])
+    if dt <= 0:
+        return {"svn": first["svn"], "drift_s_per_s": None, "n": len(series)}
+    return {"svn": first["svn"],
+            "drift_s_per_s": (last["bias_s"] - first["bias_s"]) / dt,
+            "n": len(series), "dt_s": dt}
+
+
+def run_clock_aging(clk_dir: str, svn: str, ext: str = ".clk.Z") -> list[dict]:
+    """Build a satellite's multi-day drift (aging) curve from a directory of .clk files.
+
+    Each file is a daily IGS clock product (bias-only). For each, extract the
+    daily drift (Δf/f) for `svn`. Returns the multi-day aging trajectory,
+    ready for the κ-model vs IEEE log-aging BIC comparison.
+
+    Usage: run_clock_aging("det8/data/igs", "G03") — after downloading a year
+    of daily `ig*WWWWD.clk.Z` files into that directory.
+    """
+    import glob
+    import os
+    import subprocess
+
+    files = sorted(glob.glob(os.path.join(clk_dir, "*" + ext)))
+    series = []
+    for path in files:
+        raw = subprocess.run(["gzip", "-dc", path],
+                             capture_output=True, text=True).stdout
+        recs = parse_igs_clock(raw)
+        sat = [r for r in recs if r["svn"] == svn]
+        d = daily_drift(sat)
+        if d["drift_s_per_s"] is not None:
+            series.append({"file": os.path.basename(path),
+                           "drift_s_per_s": d["drift_s_per_s"]})
+    return series
 
 
 def generate_broadcast_nav(seed: int = 42) -> list[dict]:
