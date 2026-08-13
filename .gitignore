@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# Downloaded external datasets (large, not committed)
+det8/data/igs/
+
