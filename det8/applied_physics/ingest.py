@@ -254,21 +254,24 @@ def daily_drift(series: list[dict]) -> dict:
             "n": len(series), "dt_s": dt}
 
 
-def run_clock_aging(clk_dir: str, svn: str, ext: str = ".clk.Z") -> list[dict]:
-    """Build a satellite's multi-day drift (aging) curve from a directory of .clk files.
+def run_clock_aging(clk_dir: str, svn: str, ext: str | None = None) -> list[dict]:
+    """Build a satellite's multi-day drift (aging) curve from a directory of clock files.
 
-    Each file is a daily IGS clock product (bias-only). For each, extract the
-    daily drift (Δf/f) for `svn`. Returns the multi-day aging trajectory,
-    ready for the κ-model vs IEEE log-aging BIC comparison.
-
-    Usage: run_clock_aging("det8/data/igs", "G03") — after downloading a year
-    of daily `ig*WWWWD.clk.Z` files into that directory.
+    Handles BOTH the legacy short-named `.clk.Z` and the modern `.CLK.gz`
+    products (auto-detected). Each file is a daily clock product; for each,
+    extract the daily drift (Δf/f) for `svn`. Returns the multi-day aging
+    trajectory, ready for the κ-model vs IEEE log-aging BIC comparison.
     """
     import glob
     import os
     import subprocess
 
-    files = sorted(glob.glob(os.path.join(clk_dir, "*" + ext)))
+    if ext is None:
+        files = sorted(glob.glob(os.path.join(clk_dir, "*.clk.Z"))
+                       + glob.glob(os.path.join(clk_dir, "*.CLK.gz")))
+    else:
+        files = sorted(glob.glob(os.path.join(clk_dir, "*" + ext)))
+
     series = []
     for path in files:
         raw = subprocess.run(["gzip", "-dc", path],
