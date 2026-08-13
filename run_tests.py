@@ -1051,12 +1051,16 @@ def test_ingest_pipelines():
     dd = daily_drift(bias_series)
     test("daily_drift: 1e-11 s/s", abs(dd["drift_s_per_s"] - 1e-11) < 1e-20)
 
-    # Downloader: GPS-week + URL construction (verified against the real igc22790).
-    from det8.applied_physics.download_igs import gps_week, clock_url
+    # Downloader: GPS-week + DOY + modern-URL construction (verified against real files).
+    from det8.applied_physics.download_igs import gps_week, day_of_year, clock_url
     test("GPS week: 2023-09-10 → 2279", gps_week(2023, 9, 10) == 2279)
-    test("clock URL construction",
-         clock_url(2279, 0) == "https://cddis.nasa.gov/archive/gnss/products/2279/igc22790.clk.Z")
-    test("clock URL day-of-week", clock_url(2279, 6).endswith("igc22796.clk.Z"))
+    test("DOY: 2023-09-03 → 246", day_of_year(2023, 9, 3) == 246)
+    test("clock URL (modern naming)",
+         clock_url(2023, 9, 3) ==
+         "https://cddis.nasa.gov/archive/gnss/products/2278/IGS0OPSFIN_20232460000_01D_30S_CLK.CLK.gz")
+    test("clock URL (rapid 5-min)",
+         clock_url(2023, 9, 3, product="OPSRAP", sampling="05M").endswith(
+             "IGS0OPSRAP_20232460000_01D_05M_CLK.CLK.gz"))
 
 
 # ── Main ────────────────────────────────────────────────────────────────────

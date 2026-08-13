@@ -1,8 +1,15 @@
 """
 DET v8.0 — Applied Physics: Automated IGS Clock-Product Downloader
 
-Downloads IGS clock products (`.clk.Z`) from CDDIS (NASA) for a range of GPS
-weeks, using Earthdata authentication.
+Downloads IGS combined clock products from CDDIS (NASA) using Earthdata auth.
+
+The modern CDDIS products use RINEX 3 long filenames, gzip, year+day-of-year:
+
+    gnss/products/<GPSweek>/IGS0<PRODUCT>_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz
+
+  PRODUCT: OPSFIN (operational final, default) · DEMFIN (Repro3 final) ·
+           OPSRAP (operational rapid)
+  SAMPLING: 30S (default) · 05M
 
 PREREQUISITE (one-time, done by YOU — the assistant never sees your password):
 
@@ -11,16 +18,10 @@ PREREQUISITE (one-time, done by YOU — the assistant never sees your password):
     EOF
     chmod 600 ~/.netrc
 
-Then run (dry-run first to see the URLs):
+Then:
 
-    python3 -m det8.applied_physics.download_igs --start 2279 --end 2280 --dry-run
-    python3 -m det8.applied_physics.download_igs --start 2279 --end 2280
-
-The script calls `curl` with `--netrc-file` and a session-cookie jar; credentials
-come ONLY from `~/.netrc` (never hardcoded, never on the command line).
-
-Products: `igc` = combined clock (default), `igs` = final, `igr` = rapid,
-`igu` = ultra-rapid.
+    python3 -m det8.applied_physics.download_igs --start-date 2023-01-01 --end-date 2023-12-31 --dry-run
+    python3 -m det8.applied_physics.download_igs --start-date 2023-01-01 --end-date 2023-12-31
 """
 
 from __future__ import annotations
@@ -44,18 +45,22 @@ def gps_week(year: int, month: int, day: int) -> int:
     return (d - gps_epoch).days // 7
 
 
-def current_gps_week() -> int:
-    """GPS week for today."""
-    today = datetime.date.today()
-    return gps_week(today.year, today.month, today.day)
+def day_of_year(year: int, month: int, day: int) -> int:
+    """Day of year (1-366) for a calendar date."""
+    d = datetime.date(year, month, day)
+    return d.timetuple().tm_yday
 
 
-def clock_url(week: int, day: int, prefix: str = "igc") -> str:
-    """CDDIS URL for a daily clock product.
+def clock_url(year: int, month: int, day: int,
+              product: str = "OPSFIN", sampling: str = "30S") -> str:
+    """CDDIS URL for the IGS combined clock product of a given day.
 
-    day is the day-of-week (0 = Sunday … 6 = Saturday).
+    Directory is keyed by GPS week; the filename is keyed by year + day-of-year.
     """
-    return f"{CDDIS_PRODUCTS}/{week}/{prefix}{week}{day}.clk.Z"
+    week = gps_week(year, month, day)
+    doy = day_of_year(year, month, day)
+    return (f"{CDDIS_PRODUCTS}/{week}/IGS0{product}_"
+            f"{year}{doy:03d}0000_01D_{sampling}_CLK.CLK.gz")
 
 
 def _download_one(url: str, dest_dir: str) -> dict:
@@ -75,57 +80,54 @@ def _download_one(url: str, dest_dir: str) -> dict:
             "error": "" if ok else r.stderr.strip()[:200]}
 
 
-def download_week(week: int, prefix: str = "igc",
-                  dest: str = DEFAULT_DEST, dry_run: bool = False) -> list[dict]:
-    """Download the 7 daily clock files for one GPS week."""
-    results = []
-    for day in range(7):
-        url = clock_url(week, day, prefix)
-        if dry_run:
-            results.append({"url": url, "ok": None, "error": "dry-run"})
-        else:
-            results.append(_download_one(url, dest))
-    return results
+def download_day(year: int, month: int, day: int,
+                 product: str = "OPSFIN", sampling: str = "30S",
+                 dest: str = DEFAULT_DEST, dry_run: bool = False) -> dict:
+    """Download the combined clock file for one calendar day."""
+    url = clock_url(year, month, day, product, sampling)
+    if dry_run:
+        return {"url": url, "ok": None, "error": "dry-run"}
+    return _download_one(url, dest)
 
 
-def download_range(start_week: int, end_week: int, prefix: str = "igc",
+def download_range(start_date: datetime.date, end_date: datetime.date,
+                   product: str = "OPSFIN", sampling: str = "30S",
                    dest: str = DEFAULT_DEST, dry_run: bool = False) -> list[dict]:
-    """Download clock products for a range of GPS weeks (inclusive)."""
+    """Download combined clock products for an inclusive date range."""
     results = []
-    for week in range(start_week, end_week + 1):
-        results.extend(download_week(week, prefix, dest, dry_run))
+    d = start_date
+    while d <= end_date:
+        results.append(download_day(d.year, d.month, d.day, product, sampling, dest, dry_run))
+        d += datetime.timedelta(days=1)
     return results
 
 
 def main(argv=None) -> int:
-    p = argparse.ArgumentParser(description="Download IGS clock products from CDDIS.")
-    p.add_argument("--start", type=int, help="start GPS week")
-    p.add_argument("--end", type=int, help="end GPS week (inclusive)")
-    p.add_argument("--date", type=str, help="download the week containing YYYY-MM-DD")
-    p.add_argument("--prefix", default="igc",
-                   choices=["igc", "igs", "igr", "igu"],
-                   help="product type (default igc = combined)")
+    p = argparse.ArgumentParser(description="Download IGS combined clock products from CDDIS.")
+    p.add_argument("--start-date", help="YYYY-MM-DD (inclusive)")
+    p.add_argument("--end-date", help="YYYY-MM-DD (inclusive; defaults to start-date)")
+    p.add_argument("--product", default="OPSFIN",
+                   choices=["OPSFIN", "DEMFIN", "OPSRAP"],
+                   help="combined product type (default OPSFIN)")
+    p.add_argument("--sampling", default="30S", choices=["30S", "05M"],
+                   help="sampling rate (default 30S)")
     p.add_argument("--dest", default=DEFAULT_DEST, help="output directory")
     p.add_argument("--dry-run", action="store_true", help="print URLs, do not download")
     args = p.parse_args(argv)
 
-    if args.date:
-        y, m, d = map(int, args.date.split("-"))
-        week = gps_week(y, m, d)
-        start = end = week
-    elif args.start is not None:
-        start = args.start
-        end = args.end if args.end is not None else args.start
-    else:
-        p.error("provide --start/--end or --date")
+    if not args.start_date:
+        p.error("provide --start-date (and optional --end-date)")
+
+    start = datetime.date.fromisoformat(args.start_date)
+    end = datetime.date.fromisoformat(args.end_date) if args.end_date else start
 
     if not os.path.exists(NETRC):
         print("ERROR: ~/.netrc not found. Create it first (see module docstring).")
         return 1
 
-    print(f"Weeks {start}–{end}, prefix {args.prefix}, dest {args.dest} "
-          f"{'(dry-run)' if args.dry_run else ''}")
-    results = download_range(start, end, args.prefix, args.dest, args.dry_run)
+    print(f"Dates {start} → {end}, product {args.product}, sampling {args.sampling}, "
+          f"dest {args.dest} {'(dry-run)' if args.dry_run else ''}")
+    results = download_range(start, end, args.product, args.sampling, args.dest, args.dry_run)
     if args.dry_run:
         for r in results:
             print(f"  {r['url']}")
