@@ -1033,10 +1033,6 @@ def test_ingest_pipelines():
     test("IGS → κ: spikes at the event", kappa[100] > 0.7)
     test("IGS → κ: recovers after the event", kappa[-1] < kappa[100])
 
-    # run_all_ingests returns 5 datasets.
-    r = run_all_ingests()
-    test("run_all_ingests: 5 datasets", r["n_datasets"] == 5)
-
     # Broadcast-ephemeris parser + aging-series extractor.
     nav = parse_broadcast_nav("G01 2024 01 01 00 00 00 1.0e-7 2.0e-15 0.0\n")
     test("broadcast nav: parses clock polynomial",
@@ -1072,6 +1068,46 @@ def test_ingest_pipelines():
     test("clock URL (rapid 5-min)",
          clock_url(2023, 9, 3, product="OPSRAP", sampling="05M").endswith(
              "IGS0OPSRAP_20232460000_01D_05M_CLK.CLK.gz"))
+
+    # run_all_ingests returns 5 datasets.
+    r = run_all_ingests()
+    test("run_all_ingests: 5 datasets", r["n_datasets"] == 5)
+
+
+# ── IBM Quantum ingest Tests ────────────────────────────────────────────────
+
+def test_ibm_ingest():
+    from det8.applied_physics import ibm_ingest as ib
+
+    section("IBM Quantum ingest")
+
+    # Synthetic BackendProperties → DET κ inputs mapping.
+    props = {
+        "backend_name": "test", "last_update_date": "2024",
+        "qubits": [
+            [{"name": "T1", "value": 100.0, "unit": "us", "date": "2024"},
+             {"name": "T2", "value": 60.0, "unit": "us", "date": "2024"}],
+            [{"name": "T1", "value": 80.0, "unit": "us", "date": "2024"}],
+        ],
+    }
+    inputs = ib.ibm_to_kappa_inputs(props)
+    test("ibm → κ inputs: 2 qubits with T1", len(inputs["t"]) == 2)
+    test("ibm → κ inputs: T1 observable", inputs["observable"] == [100.0, 80.0])
+    test("ibm → κ inputs: chip at 15 mK, no radiation",
+         all(T == 0.015 for T in inputs["T_t"]) and all(f == 0.0 for f in inputs["flux_t"]))
+
+    # Drift series from time-ordered snapshots, sorted by date.
+    snaps = [
+        {"last_update_date": "2024-02-01", "qubits": [[{"name": "T1", "value": 100.0}]]},
+        {"last_update_date": "2024-01-01", "qubits": [[{"name": "T1", "value": 105.0}]]},
+    ]
+    series = ib.qubit_drift_series(snaps, 0)
+    test("drift series: sorted by date",
+         series[0]["date"] == "2024-01-01" and series[0]["T1"] == 105.0)
+
+    # Token loader: returns str or None (never raises).
+    tok = ib.load_token()
+    test("load_token: str or None", tok is None or isinstance(tok, str))
 
 
 # ── Main ────────────────────────────────────────────────────────────────────
@@ -1238,6 +1274,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in ingest_pipelines: {e}")
+        traceback.print_exc()
+
+    try:
+        test_ibm_ingest()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in ibm_ingest: {e}")
         traceback.print_exc()
 
     section("RESULTS")
