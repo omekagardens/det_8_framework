@@ -931,6 +931,51 @@ def test_operational_kappa():
     test("program summary: layers + guardrails", "layers" in prog and "circularity_rule" in prog)
 
 
+# ── Applied Physics (5 tests + adversary) Tests ────────────────────────────
+
+def test_applied_physics():
+    import math
+    from det8.applied_physics import adversarial as adv
+    from det8.applied_physics import kappa_ingest as ki
+    from det8.applied_physics import discriminator as disc
+    from det8.applied_physics.applied_tests import run_all_applied_tests
+
+    section("Applied physics (5 tests + adversary)")
+
+    # BIC: perfect fit is −inf; penalizes extra parameters.
+    test("BIC: perfect fit = −inf", adv.bic(2, 10, 0.0) == float("-inf"))
+    test("BIC: penalizes extra params", adv.bic(5, 100, 1.0) > adv.bic(2, 100, 1.0))
+
+    # compare_bic: lower BIC wins.
+    cmp = adv.compare_bic(2, 0.5, 3, 1.0, 100)
+    test("compare_bic: DET wins when lower", cmp["det_wins"])
+
+    # κ-dynamics solver: recovers toward κ_eq with no damage.
+    T_t = [300.0] * 100
+    flux_t = [0.0] * 100
+    tau = ki.temperature_to_tau_rec(T_t, 10.0, 0.01)
+    damage = ki.flux_to_damage(flux_t, 0.0)
+    k = ki.solve_kappa(0.8, 0.1, tau, damage, 1.0)
+    test("solve_kappa: decays toward κ_eq",
+         k[-1] < k[0] and abs(k[-1] - 0.1) < abs(k[0] - 0.1))
+
+    # Discriminator: single-exponential → β≈1 (DET-like); stretched → β<1.
+    t = [i for i in range(100)]
+    y_single = [math.exp(-i / 20.0) for i in t]
+    y_stretched = [math.exp(-((i / 20.0) ** 0.5)) for i in t]
+    fit1 = disc.fit_kww(t, y_single)
+    fit2 = disc.fit_kww(t, y_stretched)
+    test("discriminator: single-exp → DET-like",
+         fit1["classification"] == "single_exponential_det_like")
+    test("discriminator: stretched → defect-like",
+         fit2["classification"] == "stretched_defect_like")
+
+    # run_all: 10 rows, all correctly identified.
+    r = run_all_applied_tests()
+    test("applied tests: 10 rows", r["n_tests"] == 10)
+    test("applied tests: all correctly identified", r["n_correct_identification"] == 10)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1081,6 +1126,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in operational_kappa: {e}")
+        traceback.print_exc()
+
+    try:
+        test_applied_physics()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in applied_physics: {e}")
         traceback.print_exc()
 
     section("RESULTS")

@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 10, 2026
-**Test suite:** 230/230 passing
+**Test suite:** 238/238 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -31,7 +31,7 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 83 modules, 230/230 tests
+- 88 modules, 238/238 tests
 - Full simulation stack + experimental simulators + dataset analysis
 
 ---
@@ -70,5 +70,5 @@
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 230/230 passing
+python3 run_tests.py   # 238/238 passing
 ```
