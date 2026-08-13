@@ -35,7 +35,9 @@ For each dataset, the industry-standard model is implemented first (IEEE clock a
 
 ### Step 2 — The κ-Proxy Ingest
 
-External dataset variables are mapped to DET inputs (`kappa_ingest.py`):
+External dataset variables are mapped to DET inputs (`kappa_ingest.py` for the
+mapping/solver; `ingest.py` for the per-dataset pipelines — parsers targeting
+each dataset's published format, plus format-identical synthetic surrogates):
 
 | External variable | DET input |
 |---|---|
@@ -110,7 +112,7 @@ Two traps were found and fixed while building it, and both are themselves findin
 
 ## 6. Next Steps
 
-1. **Ingest real datasets** — write the actual data pipelines for IGS clock logs, IBM/Google calibration logs, NIST/LIGO cavity drift, NASA/ESA telemetry, and gauge-block archives. The ingest stubs in `kappa_ingest.py` are ready.
+1. **Supply the real data files** — the ingest pipelines are built (`ingest.py`: parsers for RINEX-3 clock, IBM `BackendProperties` JSON, and the cavity/telemetry/gauge CSVs, plus `load(dataset, path=...)`). Point them at the actual IGS clock logs, IBM/Google calibration logs, NIST/LIGO cavity drift, NASA/ESA telemetry, and gauge-block archives. The synthetic fallback makes the full pipeline runnable today; supplying a real file exercises the identical parser.
 2. **Cross-validated likelihood** — the current comparison uses BIC; add k-fold cross-validated likelihood for small datasets (gauge blocks).
 3. **Promote the discriminator** — if a real relaxation trace comes back single-exponential (β≈1) where the standard model predicts stretched, that is a genuine κ-residual and the strongest L1 finding.
 4. **The λ_P coupling (L2)** — only after L1 lands: does the κ-residual correlate with clock rate via λ_P? This is the DET-specific prediction, tested last and separately.

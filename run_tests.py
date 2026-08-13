@@ -976,6 +976,50 @@ def test_applied_physics():
     test("applied tests: all correctly identified", r["n_correct_identification"] == 10)
 
 
+# ── Applied-physics ingest pipelines Tests ─────────────────────────────────
+
+def test_ingest_pipelines():
+    from det8.applied_physics.ingest import (
+        load, run_all_ingests, parse_igs_clock, parse_ibm_properties,
+    )
+    from det8.applied_physics import kappa_ingest as ki
+
+    section("Applied-physics ingest pipelines")
+
+    # Every dataset loads (synthetic) with coherent, equal-length inputs.
+    for ds in ("igs_clock", "ibm_qubit", "cavity_drift", "space_telemetry", "gauge_blocks"):
+        d = load(ds)
+        inp = d["inputs"]
+        n = len(inp["t"])
+        test(f"{ds}: inputs equal length",
+             n == len(inp["T_t"]) == len(inp["flux_t"]) == len(inp["observable"]) > 0)
+
+    # RINEX clock parser handles 'AS' data lines.
+    rec = parse_igs_clock("AS G01 2024 01 01 00 00 00 3 1.0e-7 2.0e-15\n")
+    test("RINEX parser: parses AS line", len(rec) == 1 and abs(rec[0]["bias_s"] - 1e-7) < 1e-20)
+
+    # IBM properties parser extracts T1/T2.
+    obj = {"last_update_date": "2024", "qubits": [[
+        {"name": "T1", "value": 100.0, "unit": "us", "date": "2024"},
+        {"name": "T2", "value": 60.0, "unit": "us", "date": "2024"},
+    ]]}
+    rec2 = parse_ibm_properties(obj)
+    test("IBM parser: extracts T1/T2", rec2[0]["T1"] == 100.0 and rec2[0]["T2"] == 60.0)
+
+    # IGS → κ: the proton-event pulse spikes κ, then it recovers.
+    d = load("igs_clock")
+    inp = d["inputs"]
+    tau = ki.temperature_to_tau_rec(inp["T_t"], 30.0, 0.01)
+    damage = ki.flux_to_damage(inp["flux_t"], 0.5)
+    kappa = ki.solve_kappa(0.5, 0.5, tau, damage, 1.0)
+    test("IGS → κ: spikes at the event", kappa[100] > 0.7)
+    test("IGS → κ: recovers after the event", kappa[-1] < kappa[100])
+
+    # run_all_ingests returns 5 datasets.
+    r = run_all_ingests()
+    test("run_all_ingests: 5 datasets", r["n_datasets"] == 5)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1133,6 +1177,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in applied_physics: {e}")
+        traceback.print_exc()
+
+    try:
+        test_ingest_pipelines()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in ingest_pipelines: {e}")
         traceback.print_exc()
 
     section("RESULTS")
