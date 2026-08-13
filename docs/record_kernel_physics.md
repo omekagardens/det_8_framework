@@ -437,3 +437,39 @@ R^- \to (\Omega,\mathfrak D) \to K_{\mathcal P} \to X \to R^+,
 \kappa = \text{derived history dependence of } K
 }
 \]
+
+---
+
+## Assessment of the pair-kernel program (Aug 2026)
+
+1. **𝔇 is Sorkin's decoherence functional.** The four axioms (Hermiticity,
+   biadditivity, normalization, strong positivity) define a decoherence
+   functional in quantum measure theory (QMT). The Gram/Hilbert representation
+   and `I_3=0` are existing QMT results, correctly credited here. Only the
+   *forcing theorem* would make 𝔇 DET-native; everything else is borrowed math.
+
+2. **Why-ℂ is open.** Interference lives in `Im 𝔇`; a real-valued 𝔇 gives only
+   classical probability. Real/quaternionic quantum mechanics are live
+   alternatives. The `𝔇=G+iΩ` → complex-structure program (§3.4) is the right
+   shape of target but is speculative.
+
+3. **T2 risks circularity; split it.** The conclusion "grade-2 / pairwise" is
+   built into the "pairwise relations" axiom — grade-3 structures are permitted
+   by Sorkin's hierarchy, and only the *empirical* `I_3=0` pins grade-2. Split
+   into **T2b** (grade-2 + composition + positive commitability ⇒ strong
+   positivity + Gram; existing QMT math, credit it) and **T2a** (justify the
+   pairwise restriction from record-formation primitives — the hard, possibly
+   a-priori-underivable part). The honest discriminator is **§7.2**: measure
+   `I_2`,`I_3` from raw counts and establish grade-2 empirically.
+
+4. **T6 is the true long pole.** Strong positivity + composition will not
+   isolate the quantum correlation set (almost-quantum). "Global record
+   extendability" is a candidate principle but untested. Record up front that
+   DET's correlation class may come out "almost quantum" (a distinct, interesting
+   class) rather than quantum — that would refute "DET derives QM," not confirm
+   it.
+
+5. **Bounded deliverable.** Success derives the quantum *framework* (probability
+   + interference + Hilbert), not the Standard Model. The pair-kernel sector
+   should not gate T1/T3/T4/T5/T7, which are kernel-native and do not require 𝔇
+   resolved.
