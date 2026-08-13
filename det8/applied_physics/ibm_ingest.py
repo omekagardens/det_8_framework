@@ -50,8 +50,16 @@ def load_token() -> str | None:
     return None
 
 
-def fetch_properties_qiskit(backend_name: str = DEFAULT_BACKEND, token: str | None = None) -> dict:
+def fetch_properties_qiskit(
+    backend_name: str = DEFAULT_BACKEND,
+    token: str | None = None,
+    instance: str | None = None,
+) -> dict:
     """Fetch BackendProperties via the qiskit-ibm-runtime SDK.
+
+    `instance` is the account's instance CRN or name (the modern IBM Quantum
+    Platform replaced hub/group/project with CRNs). If None, the account's
+    default/free instance is used.
 
     Returns a JSON-like dict {backend_name, last_update_date, qubits: [[...]]}.
     """
@@ -60,7 +68,10 @@ def fetch_properties_qiskit(backend_name: str = DEFAULT_BACKEND, token: str | No
     tok = token or load_token()
     if not tok:
         raise RuntimeError("no IBM token (set IBM_QUANTUM_TOKEN or ~/.ibm_quantum_token)")
-    service = QiskitRuntimeService(channel="ibm_quantum", token=tok)
+    kwargs = {"channel": "ibm_quantum_platform", "token": tok}
+    if instance:
+        kwargs["instance"] = instance
+    service = QiskitRuntimeService(**kwargs)
     backend = service.backend(backend_name)
     props = backend.properties()
     qubits = []
@@ -111,10 +122,14 @@ def _normalize_properties(raw: dict) -> dict:
     }
 
 
-def fetch_properties(backend_name: str = DEFAULT_BACKEND, token: str | None = None) -> dict:
+def fetch_properties(
+    backend_name: str = DEFAULT_BACKEND,
+    token: str | None = None,
+    instance: str | None = None,
+) -> dict:
     """Fetch properties via qiskit-ibm-runtime, falling back to REST."""
     try:
-        return fetch_properties_qiskit(backend_name, token)
+        return fetch_properties_qiskit(backend_name, token, instance)
     except (ImportError, ModuleNotFoundError):
         return fetch_properties_rest(backend_name, token)
 
@@ -162,9 +177,13 @@ def qubit_drift_series(snapshots: list[dict], qubit_index: int = 0) -> list[dict
     return series
 
 
-def run_ibm_ingest(backend_name: str = DEFAULT_BACKEND, token: str | None = None) -> dict:
+def run_ibm_ingest(
+    backend_name: str = DEFAULT_BACKEND,
+    token: str | None = None,
+    instance: str | None = None,
+) -> dict:
     """End-to-end: fetch properties and map to DET κ inputs."""
-    props = fetch_properties(backend_name, token)
+    props = fetch_properties(backend_name, token, instance)
     inputs = ibm_to_kappa_inputs(props)
     n_qubits = len(inputs["t"])
     return {
