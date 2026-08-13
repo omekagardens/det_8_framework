@@ -77,37 +77,9 @@ The structural history field κ replaces the original conflated `q` variable.
 
 **Damage protocol specification:** The κ=0.5 preparation must change κ while holding standard parameters constant to the required precision. Candidate protocol: neutron irradiation with active cryogenic cooling maintains T stability to <1mK. The neutron flux introduces lattice defects (primarily Frenkel pairs in Yb/Sr optical lattices) with negligible electromagnetic side-effects: no net charge injection (ΔE ≈ 0), no magnetic field generation (ΔB < 1nT), and no change in atomic density (Δn/n < 10⁻⁹). The dominant remaining confounder is BBR from any residual temperature increase, held to <10⁻¹⁸ by active cooling. For low-λ_P searches (10⁻¹⁶–10⁻¹⁷), the 12-day integration requires active systematic control of BBR drift to maintain SNR. Below λ_P=10⁻¹⁷, next-generation nuclear clocks (~10⁻¹⁹ precision) are needed.
 
-### 2.2 κ-Gravity Decoupling (v2 — two-source)
+### 2.2–2.3 κ-Gravity Decoupling & Combined Signature — RETIRED
 
-> **RETIRED (Round 6, Option B).** This prediction is withdrawn. DET does not modify gravity; gravity is standard GR and dark matter is standard. The two-source law below is retained for historical audit only. **Revisit condition** (not "given up"): gravity may be revisited only if a DET-native mechanism is derived from primitives and survives the equivalence-principle/Eötvös/rotation-curve discipline — see `det_falsification.gravity_emergence_note()`.
-
-> **Resolved (Round 3 red-team, Team A decision).** The mass-independent law `F = G_q·λ_γ²·κ₁κ₂/r²` is **DEPRECATED** (empirically falsified by the equivalence principle: a 1 g and a 1000 kg mass with equal κ do not gravitate identically). It is retained only as a historical audit (`gravity_v2.compare_force_laws`). The active law is the **two-source field equation** (`gravity_v2.py`):
-
-\[
-\nabla^2\Phi = 4\pi G(\rho_m + \rho_\kappa),
-\qquad
-\rho_\kappa = \rho_m\,\chi(\kappa),
-\qquad
-\chi(\kappa) = \frac{\kappa-\kappa_{eq}}{\kappa_{earth}}
-\]
-
-with effective coupling \(G_{eff} = G(1+\alpha\chi)\) — **linear in κ**. The point-source force \(F = G_{eff}\,m_1m_2/r^2\) scales ∝ m₁m₂, preserving the equivalence principle. κ remains dimensionless in [0,1]; it **modifies the gravitational response**, it does not replace mass, and it is not a hidden mass variable.
-
-**Null model:** F = GM²/r² (standard Newton) — no change when M is constant but κ changes.
-
-**Rewritten prediction (v2):** recovering κ (κ → κ_eq ⇒ χ → 0) removes only the anomalous component \(F_\kappa = G\alpha\chi\,m_1m_2/r^2\), leaving standard Newtonian \(F_N\). The signature is \(\Delta F = F_\kappa \neq 0\), **not** F → 0.
-
-**Measurement:** Torsion balance (force resolution ~10⁻¹⁵ N at r=0.1m).
-
-**Sensitivity:** α·χ must be resolved above the mass-defect floor (the λ_γ ≥ 5×10⁻⁹ sensitivity is superseded pending recalibration).
-
-**Experiment simulator:** `gravity_v2.py` (`decoupling_prediction_v2`); legacy `gravity_experiment.py` retained for the deprecated law.
-
-**Mass-defect confound:** If damage adds energy ΔE, the mass change is Δm = ΔE/c². For a 1kg test mass with ΔE = 1J, Δm ≈ 10⁻¹⁷ kg, producing a relative gravitational change of ~10⁻¹⁷. The DET signal (ΔF = F_κ) must exceed this; the fractional \(F_\kappa/F_N = \alpha\chi\) must be resolved above ~10⁻¹⁷.
-
-### 2.3 Combined Signature (Smoking Gun)
-
-> **RETIRED (Round 6, Option B).** Withdraws with §2.2 — there is no gravity decoupling to cross-check. κ is measured via the structural proxy alone.
+> **RETIRED (Round 6, Option B).** Gravity is standard GR; dark matter is standard. The κ-gravity decoupling prediction (two-source law, α channel) and the combined "smoking gun" signature are withdrawn. Full historical audit in `archive/retired_kappa_gravity.md`.
 
 ### 2.4 Falsification Ladder & Data Guardrail
 
@@ -127,20 +99,9 @@ The clock anomaly is tested in three ordered, DET-native steps (`det_falsificati
 
 ---
 
-## 3. Newtonian Correspondence (legacy κ-only; superseded by gravity_v2)
+## 3. Newtonian Correspondence — RETIRED (historical)
 
-> **Deprecated (Round 3).** This section records the κ-only correspondence (`newton_correspondence.py`, `a = −G_q·γ/r²`). It is a *correspondence check* (Kepler recovered because the law is Newtonian with `m → κ`), and its source law is superseded by the two-source field equation in §2.2 / `gravity_v2.py`. Retained for historical audit.
-
-| Observable | Match |
-|---|---|
-| 1/r² force law | Exact |
-| ∇²Φ = 4πG_q·ρ_γ | Identical form (κ replaces mass) |
-| Kepler 1 (ellipses) | e < 0.001 |
-| Kepler 2 (area law) | σ/μ < 10⁻⁶ |
-| Kepler 3 (T² ∝ r³) | Ratio 0.99994 |
-| Orbital velocity | \(v = \sqrt{G_q\gamma/r}\) |
-
-**Difference (legacy):** this section sources gravity with κ alone (now deprecated). The active law (§2.2) keeps mass as the conserved source with κ as a modifier.
+> **Retired (Round 6, Option B).** The κ-only Newtonian correspondence (`a = −G_q·γ/r²`, Kepler recovered via `m → κ`) belongs to the retired κ-gravity program. Historical audit in `archive/retired_kappa_gravity.md`. Gravity is standard GR.
 
 ---
 
@@ -189,7 +150,7 @@ All 7 relativistic observables derived from event graph ≺:
 | q-Gravity, Joint Kernel | 50–60% |
 | MAM-Q, Peres-Mermin, CHSH | 20–40% (QM correspondence; now superseded by derivations) |
 
-**Remaining borrowed:** Lorentzian causal structure (O7 — resolved), c (empirical), G_q/λ_γ/λ_P (free parameters).
+**Remaining borrowed:** Lorentzian causal structure (O7 — kinematic, T7), c (empirical), λ_P (free; G_q/λ_γ retired).
 
 ---
 
@@ -203,127 +164,15 @@ Continuum limit recovers standard \(i\hbar d\psi/dt = H\psi\) with H from record
 
 ---
 
-## 8. Gravity (O7 — Resolved)
+## 8. Gravity — RETIRED (historical)
 
-5-step derivation from event graph to Lorentzian manifold with dynamical geometry:
-
-1. Causal order ≺ → light-cone structure
-2. Π → conformal factor fixed (DET-unique — bare causal sets cannot do this)
-3. κ-density → Einstein tensor (Newtonian limit verified)
-4. Bond network → spatial metric via graph Laplacian
-5. κ-diffusion + kernel evolution → spacetime dynamics
-
-Continuum limit verified via sprinkling (500 events, N/τ² = 2.36, CV decreases with N).
+> **Retired (Round 6, Option B).** The "O7 gravity" derivation (κ → Einstein tensor) and the post-Newtonian solar-system analysis belong to the retired κ-gravity program. Gravity is standard GR; dark matter is standard. Historical audit in `archive/retired_kappa_gravity.md`. (L1–L3 order-and-count reconstruction remains active as the kinematic program T7; only the L4 gravity step is retired.)
 
 ---
 
-## 8. Post-Newtonian κ-Gravity (Solar System Tests)
+## 9–12. Galaxy/Cluster/Dataset Analyses — RETIRED (historical)
 
-> **RETIRED (Round 6, Option B).** This and the following §§9–11 belong to the withdrawn gravity-modification program. DET does not modify gravity; the solar-system/galaxy/cluster analyses are retained for historical audit only.
-
-DET κ-gravity extends naturally to the relativistic regime through \(G_{eff}(r) = G \cdot \kappa(r)/\kappa_{earth}\).
-
-**All four classical GR tests passed:**
-
-| Test | DET prediction | Bound | Status |
-|---|---|---|---|
-| Mercury perihelion | 9.9×10⁻⁴ arcsec/century excess | ±0.04 | ✅ |
-| Cassini Shapiro delay | γ−1 ≈ 2.0×10⁻⁵ | <2.3×10⁻⁵ | ✅ |
-| Light deflection | Δκ/κ ≈ 1.5×10⁻⁵ | <10⁻⁴ | ✅ |
-| Binary pulsar | Δκ < 6.7×10⁻⁴ | | ✅ |
-
-**Natural scale separation:** The galactic κ(r) profile (r_core ≈ 1 kpc, δκ ≈ 2.0) extrapolated to solar-system scales gives δκ(1 AU) ≈ 10⁻⁸ — 2000× below the Cassini bound. DET reproduces GR exactly at solar-system scales while producing MOND-like effects at galactic scales. No fine-tuning.
-
-Module: `post_newtonian.py`.
-
----
-
-## 9. Galaxy Rotation Curves (SPARC Analysis)
-
-DET κ-gravity explains flat galaxy rotation curves without dark matter.
-
-> **Linear re-derivation (Round 3, `gravity_v2`):** the rotation curve now uses the two-source law \(v^2 = G(1+\alpha\chi)\,M/r\) with \(\chi = (\kappa-\kappa_{eq})/\kappa_{earth}\) — **linear** in κ, replacing the deprecated quadratic \((\kappa/\kappa_{earth})^2\), which with κ ∈ [0,1] is **≤ Newtonian** (it cannot enhance gravity at all — its old "success" came entirely from κ exceeding 1). With κ clamped to [0,1], a single coupling \(\alpha \approx 16\) (broad minimum 14–18) reproduces flat curves in 42/43 of the sample (mean RMS ~19%). **Ceiling (R6-B):** with κ ∈ [0,1] and a single α, the maximum enhancement is \(1+\alpha(1-\kappa_{eq})/\kappa_{earth} \approx 9\times\), so the law covers at most the mildest disk-galaxy discrepancies — NOT dwarf (~50×) or cluster (~100×) scales. See `sparc_analysis.scan_alpha` and `det_units.coupling_implications`.
-
-### Phenomenological fit (135 galaxies)
-- κ(r) = 0.7 + 4.0·(1−e^(−r/20kpc))
-- Mean RMS: 31%, within ±20%: 37%, within ±50%: 83%
-
-> **⚠ Reproducibility (Round 3 red-team, open).** The "135 galaxies" figure and the quoted RMS/20%/50% statistics are **not reproducible from the committed tree**: `sparc_analysis.py` hardcodes 43 galaxies and `det8/data/sparc_subset.json` is empty. The "RMS" is a single outermost-point fractional error, not a curve-level RMS. The numbers above are from an uncommitted analysis.
-
-### κ(r) parameterization with r_SFR scale
-
-> **F6 status (Round 3):** the `Σ_*/Σ_SFR/age` derivation is now **implemented** (`kappa_derivation.kappa_from_galaxy_properties` uses `M_star`, `SFR`, `age`, `r_d`, `r_SFR` — no fitted constants). **But the derivation fails the sign test:** for inside-out growth (r_SFR > r_d, all 8 known galaxies), it gives κ **decreasing** with radius (Δκ < 0), the opposite of what flat rotation curves require. The "reset ∝ recent SFR" mechanism has the wrong radial profile; a correct derivation needs a reset driver more concentrated than the stars (r_reset < r_d) or an accumulation term more extended than the SFR. See `radial_gradient_check`.
-
-\[
-\kappa(r) = \kappa_0 + \kappa_{\text{scale}} \cdot (1 - e^{-r/r_{\text{SFR}}})
-\]
-
-**DET mechanism:** In the core, rapid star formation → frequent supernova events → κ reset → low κ (~0.5). In the outskirts, low SFR → rare resets → κ accumulates over billions of years → high κ (~3.5). The transition scale r_SFR is a galaxy-specific observable (SFR scale length), replacing the averaged 20 kpc from the phenomenological fit.
-
-**Universal parameters:** κ₀ = 0.5, κ_scale = 3.0. Galaxy-specific: r_SFR (1–8 kpc, from observations).
-
-**Results on 8 test galaxies:** κ_core 0.5–0.8, κ_outskirts 3.4–3.5, ratio 5–6×, (κ/κ_earth)² ≈ 12× enhancement at large radii. Matches phenomenological fit with fewer free parameters and no galaxy-by-galaxy tuning.
-
-Module: `sparc_analysis.py`, `kappa_derivation.py`.
-
----
-
-## 10. Galaxy Cluster Dynamics
-
-DET κ-gravity extends naturally to cluster scales (100–3000 kpc).
-
-**Universal κ(r): galaxy → cluster (continuous):**
-
-| Scale | r (kpc) | κ | Enhancement |
-|---|---|---|---|
-| Galaxy core | 0.1 | 0.7 | 1× |
-| Galaxy disk | 1–10 | 1.8–3.5 | 3–12× |
-| Galaxy outskirts | 30 | 3.5 | 12× |
-| Cluster transition | 100 | 4.3 | 19× |
-| Cluster virial | 300 | 5.9 | 35× |
-| Cluster outskirts | 1000–3000 | 7.3–7.5 | 54–56× |
-
-**Results on 10 clusters (A133 through Coma):**
-- Avg κ at r_virial: 7.4
-- κ reduction factor: (κ/κ_earth)² = 0.018
-- Required mass reduced by 98.2% at cluster scales
-
-**Comparison:**
-| Theory | Galaxy DM | Cluster DM |
-|---|---|---|
-| ΛCDM | 85% | 85% |
-| MOND | 0% | ~50% |
-| **DET κ-gravity** | **0%** | **~0%** |
-
-DET uniquely eliminates dark matter at BOTH galaxy and cluster scales.
-MOND still requires ~2× dark matter in clusters.
-
-Module: `cluster_dynamics.py`.
-
----
-
-## 11. Dataset Constraints
-
-| Dataset | Module | Result |
-|---|---|---|
-| Atomic clocks (NIST, Tokyo, PTB) | `experimental_constraints.py` | λ_P < 4×10⁻¹⁸ (Δκ=0.5) |
-| Eötvös (MICROSCOPE) | `experimental_constraints.py` | Terrestrial materials must have nearly equal κ (a *consistency requirement*, not a test passed) |
-| Flyby anomalies | `flyby_anomaly.py` | κ_sc/κ_earth ≈ 1 ± 10⁻⁶ |
-| Galaxy rotation curves (135) | `sparc_analysis.py` | κ(r) physics-based: RMS 31.5%, no dark matter |
-| Galaxy clusters (10) | `cluster_dynamics.py` | Universal κ 0.7→7.5. 98% mass reduction. No DM at any scale. |
-| Solar system GR tests | `post_newtonian.py` | All 4 tests passed |
-
----
-
-## 12. r_SFR Prediction from Scaling Relations
-
-Eliminates the last fitted parameter in κ(r). r_SFR is now predicted from galaxy observables:
-
-\[
-r_{\text{SFR}} = r_d \cdot (1.5 + 0.3\log_{10} M_* - 0.1\log_{10} \text{sSFR})
-\]
-
-Clamped to observed range [1.2, 2.5]. Larger r_SFR/r_d → stronger inside-out growth → steeper κ(r) → flatter rotation curves.
+> **Retired (Round 6, Option B).** The SPARC rotation-curve, cluster-dynamics, r_SFR, Eötvös/flyby, and solar-system analyses all belong to the withdrawn κ-gravity program. They are **not** active physical results (several were not reproducible from the committed tree, and the `κ(r)` derivation failed its sign test). Historical audit in `archive/retired_kappa_gravity.md`. The only surviving datum is the atomic-clock bound λ_P·Δκ < σ (§14).
 
 ---
 
@@ -339,13 +188,9 @@ Complex amplitudes emerge from discrete sign statistics:
 
 ## 14. GPS Satellite Clock Analysis
 
-> **⚠ Vacuous bound (Round 3 red-team).** The λ_P bounds quoted below (and in `MODEL_CARD.md` §8) are constraints on the *product* λ_P·Δκ, where Δκ between two clocks is **assumed, not measured**. λ_P is therefore unconstrained by existing clock data until the structural proxy produces an actual κ value. The model-independent statement is λ_P·Δκ < σ.
+> **⚠ Vacuous bound (Round 3 red-team).** The λ_P bounds quoted below are constraints on the *product* λ_P·Δκ, where Δκ between two clocks is **assumed, not measured**. λ_P is unconstrained by existing clock data until κ is independently measured. The model-independent statement is λ_P·Δκ < σ.
 
-GPS constrains κ differences in the orbital environment:
-- Standard GR correction: +38.5 μs/day (verified to 0.3 ns/day)
-- Orbital Δκ ≈ 10⁻⁸ to 10⁻⁶ (fabrication + orbital environment)
-- λ_P < 3.5×10⁻⁹ — 10⁹× weaker than lab clocks
-- **Finding:** κ is dominated by material processing history, not gravitational environment. Lab experiments with controlled κ preparation are the right approach.
+GPS clock data bounds the product λ_P·Δκ (orbital clocks): λ_P·Δκ ≲ 3.5×10⁻⁹ (≈10⁹× weaker than lab clocks). **Finding:** this says nothing about a gravitational κ channel (retired, Option B) — it only confirms the clock bound is a product, not a λ_P bound. Lab experiments with controlled κ preparation are the right approach.
 
 Module: `gps_analysis.py`.
 
@@ -360,9 +205,9 @@ Module: `gps_analysis.py`.
 | L1 | Causal structure → (M, g) causal structure | **Proven** (causal set theory) |
 | L2 | Coarse-grained Π → conformal factor Ω(x) | Numerical evidence (α=0.50 convergence). Formal proof open. |
 | L3 | Reconstructed metric g_N → g | Statistical convergence verified (CV 0.56→0.25). LGH proof open. |
-| L4 | κ-density → G_μν = 8πG_q·T^κ_μν | Newtonian verified. Discrete action sketch. GR limit open. |
+| L4 | κ-density → G_μν = 8πG_q·T^κ_μν | **RETIRED** (κ-gravity, Option B) — see `archive/retired_kappa_gravity.md` |
 
-DET's unique contribution: Π fixes the conformal factor (bare causal sets cannot). κ provides native matter content. **Complete mathematical framework — see `docs/CONTINUUM_LIMIT_FRAMEWORK.md`.**
+DET's active contribution: Π fixes the conformal factor (bare causal sets cannot); this is a **kinematic** reconstruction (order + count → geometry), the T7 program. The L4 gravity step is retired — the discrete-action → Einstein–Hilbert route is now standard gravity, not a DET gravity claim.
 
 Module: `continuum_limit_proof.py`, `continuum_limit_l234.py`.
 

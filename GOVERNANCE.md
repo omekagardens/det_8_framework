@@ -53,17 +53,19 @@ Two-axis system: Layer (what kind of claim) × Validation (how well supported).
 
 | Claim | Layer | Validation |
 |---|---|---|
-| Event graph, record, law map, commit kernel | Proposed physical structure | Implemented in toys |
-| Π, κ-dynamics, proper time | Proposed physical | Implemented; κ-Π clock anomaly simulated |
+| Event graph, record, law map, commit kernel | Primitive structure | Implemented in toys |
+| Π (participation aperture) | Proposed physical | Product ansatz; **not derived** |
+| κ (structural history) | L0 descriptor / L1 latent-variable hypothesis | Fitted coordinate; **not a measured field** |
 | Non-singleton support | Proposed calculational | Implemented |
-| Born rule, CHSH, Lorentz, gravity | Derived physical | Derived from DET primitives; matches standard |
+| Born rule, CHSH, Lorentz | Correspondence (CORR) | Recovered after mapping to a standard role; **not derived from primitives** |
+| Gravity | Retired (Option B) | Standard GR; DET does not source or modify gravity |
 | Ontological openness, strong presence | Metaphysical | Empirically undiscriminated |
 | NPF-C (no hidden outcome register) | Construction invariant | Code-audited in toys |
 | NPF-M (no pre-existing future fact) | Metaphysical | Undetermined (F8-OPEN) |
 | Operational no-signalling | Physical correspondence | Toy-tested; analytic check pending |
 | Agency | Metaphysical | Quarantined; zero physical variables |
 | Boundary operators | Metaphysical/hypothetical | Outside minimal core; no physical channel |
-| κ-Π clock anomaly, κ-gravity decoupling | Pre-registered physical prediction | Simulated; awaiting experimental test |
+| κ-Π clock anomaly | Weakly identified hypothesis (FIT/PR) | Gated on F9 + independent κ; common-mode universality untested |
 
 ---
 
@@ -75,19 +77,22 @@ DG-OPEN triggered: open becoming → M.
 ### P0.5 → P0.6 (cleared)
 10 active + 5 retired correspondence checks. One Track A prediction pre-registered. Track B formalized.
 
-### Current gate (P0.8)
+### Current gate (P0.8 → revised, Aug 2026)
 ```
-Novel, risky predictions survive? → Pre-registered, simulated, not yet tested.
-Only known dynamics + DET terminology? → No — DET derives observables from novel primitives (κ, kernel roots).
-Physical results require agency? → No — all derived without agency.
-→ Continue as candidate physical theory with interpretive framework.
-→ Next: experimental validation or constraint of Track A predictions.
+Novel, risky predictions survive? → One clock hypothesis (weakly identified), gated on F9 + independent κ.
+Only known dynamics + DET terminology? → Yes for Born/CHSH/Lorentz (correspondence, CORR); gravity retired; κ is a fitted coordinate, not yet a field.
+Physical results require agency? → No.
+→ DET presently has a relational ontology, a record-kernel reconstruction program, and one
+  weakly identified clock hypothesis. It is not yet a validated candidate physical theory with a
+  surviving distinctive physical derivation.
+→ Next: theorem program (T1–T7) + matched-state/different-history data
+  (see docs/record_kernel_physics.md).
 ```
 
 ### Future gate (post-experiment)
 ```
-Clock/gravity anomaly detected at ≥5σ → DET promoted to validated physical theory.
-Null result constrains λ_P, λ_γ → DET remains interpretive framework with constrained parameters.
+Clock anomaly (common-mode universality) detected at ≥5σ → Π promoted to a derived proper-time effect.
+Null result constrains λ_P (only) → DET remains a relational ontology with a constrained clock hypothesis.
 Results require reintroducing agency → reject those physical sectors.
 ```
 
@@ -101,7 +106,7 @@ Results require reintroducing agency → reject those physical sectors.
 
 **Embraced:** Measurement-context dependence (Ω varies with basis). Technical quantum contextuality verified via Peres-Mermin.
 
-**Status:** P/O — formal position stated; mechanism resolved (O4). Relativistic covariance verified.
+**Status:** P/O — formal position stated; O4 = CI (nonfactorizable finite construction), **not resolved**. Relativistic covariance verified at correspondence level.
 
 ---
 
@@ -109,7 +114,7 @@ Results require reintroducing agency → reject those physical sectors.
 
 **Support confluence (O3):** Same set of reachable final microstates regardless of event ordering. Three cases: timelike (≺ determines order), spacelike disjoint (strong commutativity), spacelike overlapping (support confluence, distributional differences reflect causal order).
 
-**Unitarity:** Kernel root evolution preserves Σ|c_i|² = 1. Not a postulate — consequence of probability conservation in commit kernel composition.
+**Unitarity:** Kernel-root evolution preserves Σ|c_i|² = 1 in the correspondence (CORR). The quadratic-form uniqueness theorem (O1, AT) that would turn this into a derivation is open — see the pair-kernel program in `docs/record_kernel_physics.md`.
 
 ---
 

@@ -1,8 +1,8 @@
 # DET v8.0 — Model Card
 
 **Primary reference for the Deep Existence Theory framework.**
-**Date:** August 10, 2026 (revised per mathematical review)
-**Test suite:** 251/251 passing
+**Date:** August 13, 2026 (revised per mathematical review + re-foundation)
+**Test suite:** 267/267 passing
 
 **Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B: the four deadlocks — time, quantum, agency, history — resolved in one framework). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field) — not the point; DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
 
@@ -27,9 +27,10 @@ DET (Deep Existence Theory) is a two-track framework:
 | Law map | \(\mathcal L: \mathcal R^- \rightarrow (\Omega, \Sigma, K, \mathcal C)\) — generates possibility object | `mam0.py`, `det8_core.py` |
 | Commit kernel | \(K: \Omega \rightarrow [0,1]\) — proper transition kernel | `markov_kernel.py` |
 | Participation aperture | \(\Pi = \sigma \eta (1+F)^{-1}(1+H)^{-1}\phi(v)(1+\lambda_P\kappa)^{-1}\) — proper-time rate | `det8_core.py` |
-| Structural history | κ ∈ [0,1] — record-side drag on Π | `det8_core.py` |
-| Gravitational charge | \(\gamma = \lambda_\gamma \kappa\) — **DEPRECATED (Option B, no κ-gravity)** | `det8_core.py` |
-| Kernel roots | \(c_i\) with \(K(i) = |c_i|^2\) — Born rule from composition | `born_derivation.py` |
+| Structural history | κ ∈ [0,1] — **L0/L1 fitted coordinate, not a primitive field** (rank-one special case of a predictive-history coordinate) | `det8_core.py` |
+| Gravitational charge | \(\gamma = \lambda_\gamma \kappa\) — **RETIRED (Option B, no κ-gravity)** | `det8_core.py` |
+| Pair-kernel (candidate) | \(\mathfrak D: \mathcal A \times \mathcal A \to \mathbb C\) — pre-commit relational possibility structure; \(K_\mathcal P(i)=\mathfrak D(A_i,A_i)\) on recordable partitions | *proposed (T2)* |
+| Kernel roots | \(c_i\) with \(K(i) = |c_i|^2\) — **correspondence (CORR)**: Gram coordinates of \(\mathfrak D\), not primitives | `born_derivation.py` |
 | Bonds | σ_ij, C_ij, π_ij — spatial connectivity between nodes | `bonds.py` |
 
 ---
@@ -70,6 +71,8 @@ Pre-registered in `track_a.py`. Monte Carlo simulator: `clock_experiment.py`. κ
 
 > **Revaluation (Aug 2026):** λ_P is a **free, underived** coupling — it enters only the participation aperture and is defined operationally (`λ_P = Π(0)/Π(1) − 1`), so the prediction is a one-parameter *family*, not a number. And because λ_P·κ is a joint product, the test is gated on two prerequisites that do not yet exist: a κ *preparation* protocol and an independent κ *measurement* (the proxy, which itself has an unsolved known-κ bootstrap). Option B is therefore ontologically clean but **empirically thin**: a single probe at the top of the ladder, conditional on F9 and the proxy landing. The ontology never required λ_P ≠ 0. Details: `PHYSICS.md` §2.1, `docs/falsification_protocol.md`.
 
+> **Program name (re-foundation, Aug 2026):** the active physical program is **Record-Kernel Physics** (renamed from "κ-Physics"), with four sectors: (i) kernel geometry and history (T1 — κ as predictive-history compression); (ii) pair-kernel quantum reconstruction (T2/T6 — 𝔇); (iii) path irreversibility and measurement (T3/T4); (iv) causal order-and-count geometry (T7). The theorem program is specified in `docs/record_kernel_physics.md`.
+
 ---
 
 ## 5. Track B — Ontological Grammar
@@ -104,10 +107,10 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | **F9** | **Fact Genesis Protocol** | — | **Open** — Are facts discovered or created? Track B. 5-level ladder. | Distinguish unknown vs not-yet-existent facts. See `docs/track_b/fact_genesis.md`. |
 | **F10** | **Law Genesis** | — | **Proposed** — Why is L stable? Track B. | Stability of the law map. See `docs/track_b/law_genesis.md`. |
 | **F11** | **Cosmic Record** | — | **Proposed** — κ-field across cosmic time. Track B. | Not yet developed. |
-| **F12** | **Anthropic Principle** | — | **FT/CI** — WAP selection confirmed; SAP necessity rejected; fine-tuning reduced to one combination. Track B. | Gravitational binding + inhomogeneous κ. See `docs/track_b/anthropic_principle.md`. |
-| — | Complex amplitudes | Mostly derived | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
-| — | κ dynamics | Physical field | **I** — Phenomenological reaction-diffusion | AT: Well-posedness, invariant domain, energy balance |
-| — | Clock prediction | Pre-registered | **PR** — Testable parameterized hypothesis | EV: Identifiable parameters + reproducible experiment |
+| **F12** | **Anthropic Principle** | — | **FT/CI** — WAP selection confirmed; SAP necessity rejected; fine-tuning reduced to one scalar (participation-only, Option B — κ-gravity retired). Track B. | Prior-independent naturalness; promote "λ_P is the selection target" from P to PR. See `docs/track_b/anthropic_principle.md`. |
+| — | Complex amplitudes | Correspondence (CORR) | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
+| — | κ dynamics | Phenomenological descriptor (L0/L1) | **I** — Reaction-diffusion toy | Rank test (scalar/vector) + held-out transport |
+| — | Clock prediction | Weakly identified (FIT/PR) | **PR** — Gated parameterized hypothesis | EV: common-mode universality + identifiable parameters |
 
 ---
 
@@ -214,7 +217,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**251/251 tests passing** over **28 of 89 `.py` files** (83 in `det8/models/` + 6 in `det8/applied_physics/`). Run: `python3 run_tests.py`
+**267/267 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.
