@@ -43,6 +43,8 @@ At late times (z ≈ 0): structure has formed. κ varies spatially — low in vo
 
 ## 3. Observable Signatures
 
+> **RETIRED (Round 6, Option B).** All cosmological signatures below (BAO shift, CMB) were gravity-based (κ modifies `G_eff = G·κ/κ_earth`). Under Option B, κ couples only to the participation aperture — there is **no cosmological signature**. The cosmic record (F11) is now **purely ontological**: the κ-field across cosmic time is a relational notion with no observable consequence. Retained for audit only.
+
 ### 3.1 BAO Scale Shift
 
 If κ modifies the effective G (G_eff = G·κ/κ_earth), the expansion history is modified. The BAO scale r_s ≈ 150 Mpc would shift if κ(z) differs from ΛCDM predictions.
@@ -106,10 +108,12 @@ F10 asked: why is \(\mathcal L\) stable? F11 provides the empirical test: if \(\
 
 ## 7. Next Steps
 
-- Implement κ(z) model from cosmic star formation history.
-- Compare with BAO and CMB constraints.
-- Predict ISW-LSS cross-correlation for DET κ-gravity.
-- Test against DESI/Euclid data when available.
+> **RETIRED (Round 6, Option B).** All next steps below were gravity-based. Under Option B there is no cosmological κ signature to test; the cosmic record is a Track B concept only.
+
+- ~~Implement κ(z) model from cosmic star formation history.~~ (retired)
+- ~~Compare with BAO and CMB constraints.~~ (retired)
+- ~~Predict ISW-LSS cross-correlation for DET κ-gravity.~~ (retired)
+- ~~Test against DESI/Euclid data when available.~~ (retired)
 
 ---
 

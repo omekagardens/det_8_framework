@@ -85,10 +85,10 @@ If \(\mathcal L\) were different in the early universe (e.g., different coupling
 |---|---|
 | \(\mathcal L\) is fixed for DET internal consistency | FT (architectural requirement) |
 | Mathematical truths are the fixed structure of \(\mathcal L\) | P (compatible with Platonism) |
-| Effective physical "constants" may carry κ-history | A/P (κ-gravity program) |
+| Effective physical "constants" may carry κ-history | **RETIRED** (Option B — κ affects only Π, not G) |
 | \(\mathcal L\) could evolve through meta-commit events | **Open** (speculative) |
 | \(\mathcal L\) is the stable compression of prior records | **Open** (compression hypothesis) |
-| Cosmological variation of "constants" is κ-dependence | **Open** (testable with CMB/LSS) |
+| Cosmological variation of "constants" is κ-dependence | **RETIRED** (Option B — no gravity signature) |
 
 ---
 

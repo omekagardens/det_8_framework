@@ -64,7 +64,7 @@ The fact genesis cycle applies at every scale:
 
 The Track A/B separation proves its value here:
 
-- **Track A** handles the physical question: does κ exist? Is it measurable? (κ-Π clock anomaly, κ-gravity decoupling).
+- **Track A** handles the physical question: does κ exist? Is it measurable? (κ-Π clock anomaly — the sole optional probe under Option B).
 - **Track B** handles the ontological question: what does it mean if κ exists? (identity, resurrection, fact genesis).
 
 Neither track depends on the other. If Track A fails (κ ≡ 0, no signal), Track B still provides a coherent ontology of what identity-through-record WOULD mean. If Track A succeeds, Track B provides the interpretation.
