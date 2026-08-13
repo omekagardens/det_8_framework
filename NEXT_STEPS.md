@@ -37,7 +37,8 @@
 ### Applied-Physics Real Data
 - Full-year 2023 IGS GNSS clock products downloaded (365 daily `IGS0OPSFIN_*_30S_CLK.CLK.gz`, CDDIS)
 - κ-recovery vs IEEE log-aging adversarial on 12 GPS satellites → **null**
-  (IEEE wins 11/12; κ wins 1/12, the G11 outlier). See `docs/applied_physics.md` §5.
+  (κ wins 0/12; IEEE 7/12; quadratic 5/12 — the lone apparent κ win, G11, was
+  a quadratic-trough false positive). See `docs/applied_physics.md` §5.
 - IBM Quantum calibration ingest live (ibm_fez, 156 qubits) + daily launchd poll
   (`com.det.ibm-poll`)
 

@@ -108,55 +108,70 @@ satellites, the daily clock-drift (`Δf/f`) trajectory was fitted with the
 κ-recovery form `y = A·e^(−t/τ) + C` against the standard IEEE log-aging form
 `y = a·ln(1+t) + b·t + c` (both 3-parameter), and compared by BIC.
 
-**Verdict: negative for κ-recovery. IEEE log-aging is preferred on 11/12
-satellites; κ-recovery wins on 1/12 (G11).** The κ-model loses to the
-standard model on real data.
+**Verdict: negative for κ-recovery. κ-recovery wins 0/12; IEEE log-aging wins
+7/12; a plain quadratic wins the remaining 5/12.** The κ-model loses to
+standard models on every satellite. (A follow-up added the quadratic because
+both primary models are *monotonic* and several satellites showed
+non-monotonic drift.)
 
-| Satellite | κ vs IEEE | Strength | ΔBIC (κ − IEEE) |
-|---|---|---|---|
-| G01 | IEEE | very strong | +10.6 |
-| G02 | IEEE | very strong | +10.8 |
-| G03 | IEEE | positive | +2.9 |
-| G05 | IEEE | very strong | +21.3 |
-| G08 | IEEE | none | +1.2 |
-| G11 | **κ** | very strong | −185 |
-| G13 | IEEE | very strong | +28.8 |
-| G16 | IEEE | very strong | +85.5 |
-| G18 | IEEE | very strong | +533.5 |
-| G22 | IEEE | very strong | +58.6 |
-| G24 | IEEE | very strong | +388.6 |
-| G30 | IEEE | very strong | +118.2 |
+| Satellite | κ BIC | IEEE BIC | quad BIC | best | note |
+|---|---|---|---|---|---|
+| G01 | −21724 | −21735 | −21739 | quad | weak (−4) |
+| G02 | −20982 | −20993 | −20978 | ieee | — |
+| G03 | −21016 | −21019 | −21018 | ieee | tie |
+| G05 | −23007 | −23029 | −23034 | quad | positive (−5) |
+| G08 | −21779 | −21781 | −21780 | ieee | tie |
+| G11 | −20103 | −19918 | −20424 | **quad** | very strong (−321) |
+| G13 | −22328 | −22357 | −22317 | ieee | — |
+| G16 | −22834 | −22920 | −22919 | ieee | tie |
+| G18 | −20273 | −20806 | −20783 | ieee | — |
+| G22 | −18668 | −18727 | −18712 | ieee | — |
+| G24 | −21682 | −22070 | −22986 | **quad** | very strong (−916) |
+| G30 | −22787 | −22905 | −22931 | quad | strong (−26) |
 
 ΔBIC strength (Kass–Raftery): |ΔBIC| < 2 none, 2–6 positive, 6–10 strong, >10 very strong.
 
-Three honest findings:
+Four honest findings:
 
-1. **Direction.** The single-exponential κ-recovery shape is not a better
-   description of GNSS clock aging than the standard log-aging form: the
-   standard model wins on 11/12 satellites.
-2. **The τ-grid matters (and correcting it shrank the margin).** Capping τ at
-   300 d made the κ fit look *far* worse (ΔBIC in the hundreds to thousands,
-   "very strong"). Freeing τ to 10 000 d lets the κ fit collapse toward a
-   near-linear decay (τ→∞) and the margins fall to single digits–tens; G08
-   drops to "none" (no evidence) and G03 to "positive". The earlier
-   "decisive" reading was an artifact of the τ cap, not of the data.
-3. **One genuine κ win is not evidence.** G11 (τ≈100 d, ΔBIC=−185) is a single
-   outlier out of 12 — consistent with a real clock event (a frequency jump and
-   recovery) rather than κ-dynamics. It warrants follow-up on that satellite's
-   clock history, not a DET claim.
+1. **κ-recovery wins on zero satellites.** The single-exponential κ-recovery
+   shape is not a better description of GNSS clock aging than the standard
+   models on any of the 12 satellites.
+2. **The G11 "κ win" was a false positive.** G11's drift is a *parabolic
+   trough* (concave-up, minimum at ~day 262) — non-monotonic. Both κ and IEEE
+   are monotonic, so the earlier κ-vs-IEEE comparison picked the lesser of two
+   wrong models: the exponential's saturating tail merely approximated the
+   trough's recovery better than log-aging's continued decline. A quadratic
+   fits G11 2.4× better than κ and 4× better than IEEE (ΔBIC ≈ −320 vs κ).
+3. **The two-model comparison is misspecified for ~5 of 12 satellites.** The
+   drift trajectories split into 7 genuine log-aging cases (G02, G03, G08,
+   G13, G16, G18, G22) and 5 curved cases (G01, G05, G11, G24, G30) with a
+   *changing aging rate* that neither log nor exponential represents.
+   **Lesson: the κ-vs-IEEE discriminator needs a curvature-capable null;**
+   without it, non-monotonic drift is mis-scored as a false κ (or IEEE) win.
+4. **The τ-grid matters.** Capping τ at 300 d inflated the earlier margins
+   (hundreds to thousands); freeing τ to 10⁴ d collapsed them to single
+   digits–tens. This remains true regardless of the quadratic finding.
+
+**Physically**, G11's trough is a real, smooth clock event — drift drifts from
+−8.2×10⁻¹² s/s to −1.84×10⁻¹¹ s/s over ~257 days, then recovers 38% — a
+genuine aging-rate excursion, not a data artifact and not a clock switch
+(bias is continuous; the single 1-day gap at DOY 181 is a separate tracking
+outage).
 
 **Implication for the ladder.** This is a null result for the **L1
 "κ-recovery aging" discriminator**: on this dataset the κ functional form does
-not separate from the standard model. It does **not** touch the L0 engineering
+not separate from the standard model, and the one apparent exception (G11) was
+a misspecification artifact. It does **not** touch the L0 engineering
 descriptor (κ remains useful), and it does **not** touch Option B's actual L2
 clock prediction — the participation-aperture anomaly
 `Δν/ν = λ_P·κ/(1+λ_P·κ)` — which is a *different observable* (a
 participation-scaled fractional offset, not a log-vs-exponential drift shape).
 
 **Data & reproducibility.** `scripts/full_year_aging.py` (single-pass parse of
-the 365 files, stdlib `gzip`), `det8/applied_physics/ingest.py` (RINEX-3 clock
-parser), `det8/applied_physics/applied_tests.py` (`_fit_exp_decay`, `_fit_ieee`,
-`TAU_GRID`).
+the 365 files, stdlib `gzip`), `scripts/g11_quadratic.py` (κ vs IEEE vs
+quadratic across all 12 satellites), `det8/applied_physics/ingest.py` (RINEX-3
+clock parser), `det8/applied_physics/applied_tests.py` (`_fit_exp_decay`,
+`_fit_ieee`, `TAU_GRID`).
 
 ---
 
@@ -172,10 +187,11 @@ parser), `det8/applied_physics/applied_tests.py` (`_fit_exp_decay`, `_fit_ieee`,
 
 ## 7. Next Steps
 
-1. **Follow up the G11 outlier** — pull that satellite's clock/bias history and
-   determine whether the −185 ΔBIC κ win is a real frequency event (jump +
-   recovery) or an artifact. This is the one thing that could still rescue the
-   L1 aging discriminator on GNSS data.
+1. **Add a curvature-capable null to the aging discriminator.** The G11
+   follow-up showed the κ-vs-IEEE comparison mis-scores non-monotonic drift as
+   a false κ (or IEEE) win. Add a quadratic (or piecewise-linear) term to the
+   comparison so the "best model" verdict is only trusted on monotonic
+   trajectories.
 2. **Cross-validated likelihood** — the comparison uses BIC; add k-fold
    cross-validated likelihood for small datasets (gauge blocks).
 3. **Promote the discriminator on the OTHER relaxation tests** — the cavity-creep
