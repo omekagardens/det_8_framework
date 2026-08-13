@@ -67,6 +67,8 @@
 | `ONTOLOGY.md` | Track B. Complete. |
 | `GOVERNANCE.md` | Constraints. Complete. |
 | `ROADMAP.md` | Phase history. Updated. |
+| `docs/falsification_protocol.md` | Lab-executable protocol for the three probes. |
+| `docs/applied_physics.md` | Applied-physics program (5 tests + adversary + findings). |
 | `NEXT_STEPS.md` | This document. |
 
 ```bash

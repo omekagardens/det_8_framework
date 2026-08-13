@@ -47,7 +47,7 @@ The structural history field κ replaces the original conflated `q` variable.
 > - **L1** — κ as an *independent residual* beyond standard materials variables (the empirical milestone; the scientific discriminator).
 > - **L2** — κ coupling to clock rate via λ_P (the risky DET-specific prediction).
 >
-> κ is made **operational** (metrological): `κ̂_op = Σ w_i s_i (z_i − f_std_i)/Σ w_i s_i²` over a multi-probe vector `z`, with uncertainty per sample. Two guardrails: (i) a **standard-variable completeness audit** — any parameter capable of > 0.05× the expected signal must be measured, bounded, or stabilized; (ii) an **anti-circularity rule** — κ must NOT be inferred from the clock anomaly it is used to test (mechanical/calorimetric/microscopic/transport, a reference sample, or a non-clock oscillator only).
+> κ is made **operational** (metrological): `κ̂_op = Σ w_i s_i (z_i − f_std_i)/Σ w_i s_i²` over a multi-probe vector `z`, with uncertainty per sample. Two guardrails: (i) a **standard-variable completeness audit** — any parameter capable of > 0.05× the expected signal must be measured, bounded, or stabilized; (ii) an **anti-circularity rule** — κ must NOT be inferred from the clock anomaly it is used to test (mechanical/calorimetric/microscopic/transport, a reference sample, or a non-clock oscillator only). The full program and findings are in **`docs/applied_physics.md`** (module: `det8/applied_physics/`).
 
 **Formula:** \(\tau_A/\tau_B = (1+\lambda_P\kappa_B)/(1+\lambda_P\kappa_A)\)
 
