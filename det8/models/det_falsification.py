@@ -351,3 +351,114 @@ def run_full_ladder(
             "the probes are optional, the ontology is primary."
         ),
     }
+
+
+# ── Parameter sweep: where do the probes bite? ──────────────────────────────
+
+
+def probe_bites(
+    tau_rec_s: float = 1e4,
+    E_a_eV: float = 1.0,
+    noise_std: float = 0.01,
+    lambda_p: float = 1e-12,
+    kappa: float = 0.5,
+    T_low_K: float = 300.0,
+    T_high_K: float = 900.0,
+    tau0_s: float = 1e-13,
+) -> dict:
+    """Which probes are DECISIVE for a given parameter setting.
+
+    probe 1 (discriminator): decisive iff the Arrhenius log-ratio over the
+        temperature sweep is resolvable at 5σ (N=10, σ_logτ=0.5).
+    probe 2 (proxy): decisive iff the κ residual (~κ of the response) exceeds
+        3σ of the probe noise.
+    probe 3 (clock): decisive iff λ_P·κ/(1+λ_P·κ) exceeds 5× the noise floor.
+    """
+    from det8.models.kappa_discriminator import annealing_timescale
+    from det8.models.clock_experiment import ClockNoiseModel, EnvironmentalNoise
+
+    # Probe 1: Arrhenius separation resolvable?
+    tau_low = annealing_timescale(T_low_K, E_a_eV, tau0_s)
+    tau_high = annealing_timescale(T_high_K, E_a_eV, tau0_s)
+    log_ratio = math.log(tau_low / tau_high) if tau_high > 0 else float("inf")
+    se = 0.5 / math.sqrt(10.0)
+    probe1 = (log_ratio / se) >= 5.0 if se > 0 else False
+
+    # Probe 2: κ residual > 3σ (κ signal ≈ κ · R₀).
+    probe2 = (kappa * 1.0) > 3.0 * noise_std
+
+    # Probe 3: λ_P·κ > 5× noise floor.
+    cm = ClockNoiseModel()
+    en = EnvironmentalNoise()
+    noise_floor = math.sqrt(cm.sigma_F**2 + en.total_environmental()**2)
+    y = lambda_p * kappa / (1.0 + lambda_p * kappa)
+    probe3 = abs(y) > 5.0 * noise_floor
+
+    return {
+        "tau_rec_s": tau_rec_s,
+        "E_a_eV": E_a_eV,
+        "noise_std": noise_std,
+        "lambda_p": lambda_p,
+        "probe_1_discriminator": probe1,
+        "probe_2_proxy": probe2,
+        "probe_3_clock": probe3,
+        "probe1_log_ratio": log_ratio,
+        "probe2_signal_to_noise": kappa / noise_std if noise_std > 0 else float("inf"),
+        "probe3_signal": y,
+        "probe3_noise_floor": noise_floor,
+    }
+
+
+def sweep_probes(
+    E_a_values: tuple[float, ...] = (0.5, 1.0, 2.0),
+    noise_values: tuple[float, ...] = (0.001, 0.01, 0.05, 0.2),
+    lambda_p_values: tuple[float, ...] = (1e-18, 1e-16, 1e-14),
+) -> dict:
+    """Map where each probe bites across the key parameter knobs.
+
+    Sweeps E_a (discriminator), noise (proxy), and λ_P (clock) and reports,
+    for each combination, which probes are decisive. The summary states the
+    approximate threshold at which each probe transitions from decisive to
+    inconclusive.
+    """
+    rows = []
+    for E_a in E_a_values:
+        for noise in noise_values:
+            for lp in lambda_p_values:
+                b = probe_bites(E_a_eV=E_a, noise_std=noise, lambda_p=lp)
+                rows.append(
+                    {
+                        "E_a_eV": E_a,
+                        "noise_std": noise,
+                        "lambda_p": lp,
+                        "p1_discriminator": b["probe_1_discriminator"],
+                        "p2_proxy": b["probe_2_proxy"],
+                        "p3_clock": b["probe_3_clock"],
+                    }
+                )
+
+    # Thresholds (analytic):
+    #   p1: log_ratio ≥ 5·(0.5/√10) ≈ 0.79  ⇒  E_a ≳ 0.03 eV always decisive.
+    #   p2: noise ≤ κ/3 ≈ 0.167.
+    #   p3: λ_P·κ/(1+λ_P·κ) ≥ 5·noise_floor ≈ 8.7e-18  ⇒  λ_P ≳ 2e-17 (κ=0.5).
+    e_a_threshold = 0.79 * (8.617333262e-5) / (1.0 / 300.0 - 1.0 / 900.0)
+    noise_threshold = 0.5 / 3.0
+    lambda_p_threshold = 5.0 * probe_bites(lambda_p=1e-12)["probe3_noise_floor"] * 2.0
+
+    return {
+        "rows": rows,
+        "n_combinations": len(rows),
+        "thresholds": {
+            "p1_discriminator": f"always decisive for E_a ≳ {e_a_threshold:.3f} eV (Arrhenius separation is huge)",
+            "p2_proxy": f"decisive iff probe noise ≤ κ/3 ≈ {noise_threshold:.3f}",
+            "p3_clock": f"decisive iff λ_P·κ/(1+λ_P·κ) ≥ 5×noise_floor (λ_P ≳ 2e-17 for κ=0.5)",
+        },
+        "interpretation": (
+            f"Across {len(rows)} settings, the probes bite in complementary "
+            f"regimes: the discriminator is decisive for essentially all E_a "
+            f"(Arrhenius separation is enormous), the proxy bites when noise ≤ "
+            f"{noise_threshold:.3f}, and the clock bites when λ_P·κ exceeds the "
+            f"~10⁻¹⁷ noise floor. The clock is the hardest probe: it needs both "
+            f"a κ measurement AND a large enough λ_P."
+        ),
+    }

@@ -822,6 +822,14 @@ def test_det_falsification():
     test("full ladder: has all 3 probes",
          all(k in ladder_run for k in ("probe_1_discriminator", "probe_2_proxy", "probe_3_clock")))
 
+    # Parameter sweep: where do the probes bite?
+    sw = df.sweep_probes()
+    test("sweep: returns rows + thresholds", len(sw["rows"]) > 0 and "thresholds" in sw)
+    # Probe 2 bites only at low noise.
+    p2_high_noise = next(r for r in sw["rows"] if r["noise_std"] == 0.2 and r["lambda_p"] == 1e-16)
+    p2_low_noise = next(r for r in sw["rows"] if r["noise_std"] == 0.001 and r["lambda_p"] == 1e-16)
+    test("sweep: proxy bites at low noise, not high", p2_low_noise["p2_proxy"] and not p2_high_noise["p2_proxy"])
+
 
 # ── Active experiments: F9 spec + proxy ontology + clock sensitivity ───────
 
@@ -840,6 +848,14 @@ def test_active_experiments():
     # F9 specification returns a complete spec.
     spec = kd.f9_specification()
     test("F9 spec: has decision + power", "decision" in spec and "power" in spec)
+
+    # F9 power curve (Monte Carlo): the Arrhenius separation is so huge that
+    # power ≈ 1 at ALL sample counts — the discriminator is statistically
+    # trivial; the challenge is physical (measuring τ_rec), not statistical.
+    pc = kd.power_curve()
+    test("power curve: power ≈ 1 at all N (trivially decisive)",
+         all(r["power"] > 0.9 for r in pc["results"]))
+    test("power curve: 95% power at N=1", pc["min_n_for_95pct"] <= 1)
 
     # Proxy ontology test: zero residual → falsified.
     fals = sp.ontology_residual_test([0.01, -0.01, 0.0], [0.0, 0.0, 0.0], noise_std=0.05)

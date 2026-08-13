@@ -107,6 +107,8 @@ The clock anomaly is tested in three ordered, DET-native steps (`det_falsificati
 
 **Gravity emergence:** gravity is not a current DET claim, but "does κ source or modify gravity?" remains an **open frontier**, not a rejected hypothesis. The retired gravity modules are archived; the question can be revisited only if a DET-native mechanism is derived and survives the standard constraints (equivalence principle, Eötvös, rotation curves).
 
+**Lab-executable protocol:** the full, step-by-step experimental protocol (materials, procedure, decision thresholds, SI units, power) is in `docs/falsification_protocol.md`. The supporting analyses are `det_falsification.sweep_probes` (where each probe bites) and `kappa_discriminator.power_curve` (power vs sample count).
+
 ---
 
 ## 3. Newtonian Correspondence (legacy κ-only; superseded by gravity_v2)

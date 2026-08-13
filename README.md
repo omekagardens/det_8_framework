@@ -15,7 +15,7 @@ A disciplined two-track framework: a **physical calculus** derived from primitiv
 ## Highlights
 
 - **A relational ontology** — the record-kernel unification of existence, participation, and becoming (event graph ≺ → record → law map → commit kernel → participation aperture). The ontology is the point; the clock anomaly is an optional empirical probe.
-- **211/211 tests passing** — `python3 run_tests.py`
+- **215/215 tests passing** — `python3 run_tests.py`
 - **10 active + 5 retired correspondence checks** — Born rule, CHSH, Lorentz covariance, pointer formation, amplitude structure (active); gravity/Kepler (retired, Option B)
 - **1 pre-registered prediction** — κ-Π clock anomaly (testable with atomic clocks); gravity is standard GR (Option B)
 - **6 major open problems addressed** (O1–O4 as CI/AT correspondence checks, O7/O8 — full uniqueness theorems remain open; see MODEL_CARD §6)
@@ -35,7 +35,7 @@ DET's physical core uses a **record-kernel calculus**: the event graph (G = (V, 
 ## Running
 
 ```bash
-python3 run_tests.py   # 211/211 passing
+python3 run_tests.py   # 215/215 passing
 ```
 
 ## Status

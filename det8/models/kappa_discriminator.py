@@ -32,6 +32,7 @@ real samples (see red-team review §6, items 1–3).
 from __future__ import annotations
 
 import math
+import random
 
 
 K_B_EV = 8.617333262e-5  # Boltzmann constant, eV/K.
@@ -263,5 +264,68 @@ def f9_specification(
         "decision": (
             "recovery ratio ≈ 1 (T-independent) ⇒ κ distinct from defect density; "
             "recovery ratio ≈ Arrhenius ⇒ κ = defect density ⇒ DET is a relabeling."
+        ),
+    }
+
+
+def power_curve(
+    n_samples_range: tuple[int, ...] = (1, 2, 5, 10, 20, 50, 100),
+    sigma_log_tau: float = 0.5,
+    arrhenius_log_ratio: float = 25.0,
+    n_trials: int = 2000,
+    seed: int = 42,
+) -> dict:
+    """Monte Carlo power curve: detection probability vs sample count.
+
+    The discriminator statistic is log(recovery_ratio). Under κ (distinct),
+    log(ratio) ~ N(0, σ_logτ²/N); under defect (Arrhenius), log(ratio) ~
+    N(arrhenius_log_ratio, σ_logτ²/N). The decision boundary is the midpoint
+    arrhenius_log_ratio/2.
+
+    `power` = probability of correctly classifying "distinct" when κ IS
+    distinct (sensitivity), i.e. P(|measured| < boundary | mean = 0).
+
+    Returns the power at each sample count, so the minimum N for ≥95% power
+    can be read off.
+    """
+    rng = random.Random(seed)
+    boundary = arrhenius_log_ratio / 2.0
+    results = []
+    for n in n_samples_range:
+        se = sigma_log_tau / math.sqrt(n)
+        correct = 0
+        for _ in range(n_trials):
+            measured = rng.gauss(0.0, se)  # κ distinct → true mean 0.
+            if abs(measured) < boundary:
+                correct += 1
+        power = correct / n_trials
+        results.append(
+            {
+                "n_samples": n,
+                "standard_error": se,
+                "power": power,
+                "achieved_95pct": power >= 0.95,
+            }
+        )
+
+    # Minimum N for 95% power (from the analytic requirement |1.96·σ/√N| < boundary/2).
+    min_n_95 = (
+        math.ceil((1.96 * sigma_log_tau / (boundary / 2.0)) ** 2)
+        if boundary > 0
+        else float("inf")
+    )
+
+    return {
+        "sigma_log_tau": sigma_log_tau,
+        "arrhenius_log_ratio": arrhenius_log_ratio,
+        "boundary": boundary,
+        "results": results,
+        "min_n_for_95pct": min_n_95,
+        "interpretation": (
+            f"Power rises from {results[0]['power']:.2f} at N=1 to "
+            f"{results[-1]['power']:.2f} at N={n_samples_range[-1]}. "
+            f"Analytic 95% power requires N ≥ {min_n_95}. Because the Arrhenius "
+            f"separation ({arrhenius_log_ratio}) is huge, the discriminator is "
+            f"decisive even with a handful of samples."
         ),
     }
