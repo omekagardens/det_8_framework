@@ -119,6 +119,8 @@ def _jacobi_eigh(A: list[list[float]], tol: float = 1e-12, max_iter: int = 200) 
         theta = 0.5 * math.atan2(2.0 * apq, aqq - app)
         c, s = math.cos(theta), math.sin(theta)
         for k in range(n):
+            if k == p or k == q:
+                continue
             akp, akq = a[k][p], a[k][q]
             a[k][p] = a[p][k] = c * akp - s * akq
             a[k][q] = a[q][k] = s * akp + c * akq

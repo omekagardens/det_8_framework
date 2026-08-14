@@ -1293,6 +1293,59 @@ def test_kernel_irreversibility():
          and r["case_incomplete_reverse"]["exp_neg_sigma"] < 1.0)
 
 
+# ── Local Kernel Continuum (T5) Tests ──────────────────────────────────────
+
+def test_kernel_continuum():
+    import math
+    from det8.models.kernel_continuum import (
+        make_nearest_neighbor_kernel, graph_laplacian_generator,
+        continuum_coefficients, spectral_gap, run_t5,
+    )
+
+    section("Local Kernel Continuum (T5)")
+
+    # Symmetric weak-update kernel ⇒ generator is a graph Laplacian.
+    Q = make_nearest_neighbor_kernel(15, 1.0, 0.1, 0.0)
+    gen = graph_laplacian_generator(Q, 0.1)
+    test("T5: symmetric kernel → Laplacian", gen["is_laplacian"])
+
+    # Drift breaks symmetry → not a Laplacian.
+    Qd = make_nearest_neighbor_kernel(15, 1.0, 0.1, 0.3)
+    gend = graph_laplacian_generator(Qd, 0.1)
+    test("T5: drift breaks Laplacian symmetry", not gend["is_laplacian"])
+
+    # Continuum coefficients from moments: D = w, v = 2·drift (signed).
+    positions = [float(i - 7) for i in range(15)]
+    M = gen["M"]
+    coef = continuum_coefficients(M, positions)
+    test("T5: diffusion D = w", abs(coef["diffusion"] - 1.0) < 1e-12)
+    test("T5: pure-diffusion drift = 0", abs(coef["drift"]) < 1e-12)
+    Md = gend["M"]
+    coefd = continuum_coefficients(Md, positions)
+    test("T5: drift v = −2·drift (signed outgoing moment)",
+         abs(coefd["drift"] - (-0.6)) < 1e-12)
+
+    # Jacobi spectral gap on a small path graph (exact check).
+    Q5 = make_nearest_neighbor_kernel(5, 1.0, 0.1, 0.0)
+    M5 = graph_laplacian_generator(Q5, 0.1)["M"]
+    test("T5: Jacobi gap (P5) = 2(1−cos(π/5))",
+         abs(spectral_gap(M5) - 2.0 * (1.0 - math.cos(math.pi / 5.0))) < 1e-9)
+
+    # End-to-end: diffusion mean/variance + spectral gap.
+    r = run_t5(n=61, w=1.0, eps=0.05, drift=0.0, n_steps=200)
+    test("T5: empirical variance matches continuum",
+         abs(r["empirical_variance"] - r["predicted_variance"]) < 0.01)
+    test("T5: empirical mean matches continuum",
+         abs(r["empirical_mean"] - r["predicted_mean"]) < 0.01)
+    test("T5: measured spectral gap ≈ analytic",
+         abs(r["spectral_gap_measured"] - r["spectral_gap_analytic"]) < 0.001)
+
+    # Drift-diffusion end-to-end.
+    r2 = run_t5(n=61, w=1.0, eps=0.05, drift=0.3, n_steps=200)
+    test("T5: drift mean matches continuum",
+         abs(r2["empirical_mean"] - r2["predicted_mean"]) < 0.01)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1492,6 +1545,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in kernel_irreversibility: {e}")
+        traceback.print_exc()
+
+    try:
+        test_kernel_continuum()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in kernel_continuum: {e}")
         traceback.print_exc()
 
     section("RESULTS")
