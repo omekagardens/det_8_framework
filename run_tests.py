@@ -1346,6 +1346,71 @@ def test_kernel_continuum():
          abs(r2["empirical_mean"] - r2["predicted_mean"]) < 0.01)
 
 
+# ── Correlation Class (T6) Tests ───────────────────────────────────────────
+
+def test_correlation_class():
+    import math
+    from det8.models.correlation_class import (
+        NoSignallingCorrelation, local_deterministic_correlation,
+        pr_box, bell_state_correlation, chsh_local_bound,
+        chsh_no_signalling_bound, chsh_tsirelson_bound,
+        verify_tsirelson_identity, bell_state_npa_level1,
+        pr_box_not_almost_quantum, global_record_extendability, run_t6,
+    )
+
+    section("Correlation Class (T6)")
+
+    sqrt2 = math.sqrt(2)
+
+    # Canonical correlations and their CHSH values.
+    local = local_deterministic_correlation()
+    bell = bell_state_correlation()
+    pr = pr_box()
+    test("T6: local deterministic S = 2", abs(local.chsh() - 2.0) < 1e-12)
+    test("T6: Bell state S = 2√2", abs(bell.chsh() - 2 * sqrt2) < 1e-9)
+    test("T6: PR box S = 4", abs(pr.chsh() - 4.0) < 1e-12)
+
+    # No-signalling validation.
+    test("T6: PR box is no-signalling", pr.validate()["valid"])
+    test("T6: Bell state is no-signalling", bell.validate()["valid"])
+
+    # Local (classical) polytope via the 8 CHSH facets.
+    test("T6: local deterministic is classical", local.is_classical())
+    test("T6: Bell state is not classical", not bell.is_classical())
+    test("T6: PR box is not classical", not pr.is_classical())
+
+    # The three CHSH bounds.
+    test("T6: local bound = 2", abs(chsh_local_bound()["bound"] - 2.0) < 1e-12)
+    test("T6: NS bound = 4", abs(chsh_no_signalling_bound()["bound"] - 4.0) < 1e-12)
+    test("T6: Tsirelson bound = 2√2",
+         abs(chsh_tsirelson_bound()["bound"] - 2 * sqrt2) < 1e-12)
+
+    # SOS certificate verified numerically.
+    sos = verify_tsirelson_identity()
+    test("T6: B² = 4I − [A₀,A₁][B₀,B₁] identity", sos["identity_holds"])
+    test("T6: ‖B‖ = 2√2 (Tsirelson)", sos["matches_tsirelson"])
+
+    # Almost-quantum (NPA level 1) membership: Bell ∈ Q̃, PR ∉ Q̃.
+    npa1 = bell_state_npa_level1()
+    test("T6: Bell level-1 Γ is PSD", npa1["psd"])
+    test("T6: Bell level-1 Γ satisfies constraints",
+         npa1["constraints"]["all_constraints"])
+    test("T6: PR box ∉ Q̃ (S=4 > 2√2)", pr_box_not_almost_quantum()["violates"])
+
+    # Global record extendability: level-1 Γ embeds in a PSD level-2 Γ².
+    ext = global_record_extendability()
+    test("T6: Bell level-1 Γ is a principal submatrix of level-2 Γ²",
+         ext["level1_is_principal_submatrix"])
+    test("T6: Bell level-2 Γ² is PSD (extends)", ext["level2_psd"])
+
+    # Nesting: 2 < 2√2 < 4.
+    r = run_t6()
+    test("T6: 2 < 2√2 < 4 strict ordering",
+         r["chsh_values"]["local (deterministic)"] <
+         r["chsh_values"]["Bell state"] <
+         r["chsh_values"]["PR box"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1552,6 +1617,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in kernel_continuum: {e}")
+        traceback.print_exc()
+
+    try:
+        test_correlation_class()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in correlation_class: {e}")
         traceback.print_exc()
 
     section("RESULTS")
