@@ -1,8 +1,8 @@
 # DET v8.0 — Model Card
 
 **Primary reference for the Deep Existence Theory framework.**
-**Date:** August 14, 2026 (revised per mathematical review + re-foundation + T6)
-**Test suite:** 333/333 passing
+**Date:** August 14, 2026 (revised per mathematical review + re-foundation + T6 + T7)
+**Test suite:** 343/343 passing
 
 **Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B: the four deadlocks — time, quantum, agency, history — resolved in one framework). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field) — not the point; DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
 
@@ -100,7 +100,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | O2 | CHSH 2√2 | ✅ Resolved | **CI/FT** — CHSH supremum 2√2 proven (SOS certificate, verified); correlation classes characterized (local = 8 CHSH facets, almost-quantum = NPA level 1, no-signalling); quantum ⊆ almost-quantum, Q⊊Q̃ cited not derived | AT: Prove global record extendability collapses almost-quantum → quantum |
 | O3 | Confluence | ✅ Resolved | **CI/FT** — Support confluence in finite cases | AT: Distributional scheduler independence over all linear extensions |
 | O4 | Joint kernel | ✅ Resolved | **CI** — Nonfactorizable finite construction | AT: Global consistency, analytic no-signalling, covariance |
-| O7 | Event graph → Lorentzian | ✅ Resolved | **I/CI** — Architecture + numerical evidence | CT: Manifoldlikeness, metric convergence, curvature convergence |
+| O7 | Event graph → Lorentzian | ✅ Resolved | **I/CI** — T7 order-and-count geometry: dimension/null-structure/conformal-factor estimators verified on known Minkowski sprinklings (Malament/HKM, Myrheim–Meyer cited) | CT: Manifoldlike emergence (embedding + uniqueness) — open, inherited from causal set theory |
 | O8 | Preferred basis | ✅ Resolved | **I** — Apparatus-controllability account | FT: Redundant record formation stability theorem |
 | M0 | Proper-time consistency | — | **FT** — Fixed: Δτ = Π·ΔN, N ≠ κ | — |
 | **O9-RID** | **Resurrection identity bridge** | — | **Open** — PID-C/PID-M split. Track B. | Numerical identity across embodied interruption. See `docs/track_b/resurrection.md`. |
@@ -217,7 +217,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**333/333 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
+**343/343 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.

@@ -1411,6 +1411,61 @@ def test_correlation_class():
          r["chsh_values"]["PR box"])
 
 
+# ── Order-and-Count Geometry (T7) Tests ────────────────────────────────────
+
+def test_order_count_geometry():
+    from det8.models.order_count_geometry import (
+        sprinkle_diamond, build_causality, link_nullness, links,
+        ordering_fraction, reference_ordering_fractions, estimate_dimension,
+        conformal_sprinkle_1d, recover_conformal_factor,
+        conformal_invariance_of_order, run_t7,
+    )
+
+    section("Order-and-Count Geometry (T7)")
+
+    # ORDER → null/conformal structure: links lie on the light cone.
+    pts_small = sprinkle_diamond(2, 60, seed=1)
+    pts_large = sprinkle_diamond(2, 240, seed=1)
+    null_small = link_nullness(pts_small, build_causality(pts_small))
+    null_large = link_nullness(pts_large, build_causality(pts_large))
+    test("T7: links much more null than generic comparable pairs",
+         null_small["mean_link_nullness"] <
+         0.5 * null_small["mean_comparable_nullness"])
+    test("T7: link nullness shrinks with density (→ light cone)",
+         null_large["mean_link_nullness"] < null_small["mean_link_nullness"])
+
+    # ORDER is blind to the conformal factor (Malament/HKM), pointwise.
+    inv = conformal_invariance_of_order()
+    test("T7: order invariant under conformal factor Ω² > 0", inv["invariant"])
+
+    # COUNT → conformal factor: recover Ω(x)² from binned counts.
+    pts_conf, weight = conformal_sprinkle_1d(4000, b=1.0, seed=7)
+    conf = recover_conformal_factor(pts_conf, weight, b=1.0, n_bins=10)
+    test("T7: conformal factor recovered from counts (MSE small)",
+         conf["mse"] < 0.05)
+
+    # ORDER + COUNT → dimension: ordering fraction is monotone in d.
+    ref = reference_ordering_fractions([2, 3, 4], n=400, trials=5, seed=42)
+    test("T7: ordering fraction decreases with dimension",
+         ref[2] > ref[3] > ref[4])
+
+    # Dimension recovery on fresh sprinklings.
+    est = {}
+    for d in (2, 3, 4):
+        pts = sprinkle_diamond(d, 400, seed=100 + d)
+        est[d] = estimate_dimension(pts, ref)
+    test("T7: dimension recovered (d=2)", est[2] == 2)
+    test("T7: dimension recovered (d=3)", est[3] == 3)
+    test("T7: dimension recovered (d=4)", est[4] == 4)
+
+    # End-to-end.
+    r = run_t7()
+    test("T7: end-to-end links → light cone",
+         r["links_more_null_at_higher_density"])
+    test("T7: certificate status honest (estimator verification ≠ emergence)",
+         "Estimator verification" in r["certificate"]["status"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1624,6 +1679,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in correlation_class: {e}")
+        traceback.print_exc()
+
+    try:
+        test_order_count_geometry()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in order_count_geometry: {e}")
         traceback.print_exc()
 
     section("RESULTS")
