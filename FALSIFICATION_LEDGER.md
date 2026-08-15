@@ -46,7 +46,9 @@ The "fruit-first" principle: Track B's ontological commitments generate *structu
 | **FL-6** | **Open becoming / no pre-existing outcome** (NPF-M, F8-OPEN) | A statistical signature of "no hidden outcome register" (beyond Bell/contextuality) | (to be determined — F8-OPEN has no unique discriminator yet) |
 | **FL-7** | **Living circulation / death-contingency** (RC2) | A biological/ecological claim, not physics: death-based circulation is replaceable by living transfer in some regime | (Track-B-domain falsifier, not a Track-A equation) |
 
-**FL-4 is now physically realized** (`det8/models/relational_realization.py`): the σ/A symbols map onto standard materials observables (σ ↔ bond/cohesion, A ↔ recoverable capacity, κ ↔ the damage gap), and the FL-4 discriminator is the **extent** test — full-to-baseline recovery vs. permanent-damage saturation — which *complements* (not replaces) the existing F9 **rate** test (τ_rec T-independent vs Arrhenius). FL-5 is downstream (needs a calibrated κ). The remaining physical gap is the same one gating FL-1: a *calibrated structural proxy* that reads κ independently of the effect being tested.
+**FL-4 is now physically realized** (`det8/models/relational_realization.py`): the σ/A symbols map onto standard materials observables (σ ↔ bond/cohesion, A ↔ recoverable capacity, κ ↔ the damage gap), and the FL-4 discriminator is the **extent** test — full-to-baseline recovery vs. permanent-damage saturation — which *complements* (not replaces) the existing F9 **rate** test (τ_rec T-independent vs Arrhenius).
+
+**The structural-proxy bootstrap is broken by reordering** (`det8/models/proxy_bootstrap.py`): the circularity (calibrate R(κ) needs known-κ anchors, which need the proxy) dissolves when F9 runs FIRST. F9 needs only the recovery *timescale* τ(T) read off raw R(t) — no κ value — and if κ is distinct (T-independent τ), the R(t) plateaus operationally define the κ anchors, enabling calibration. This is a reordering, not a bypass: F9 remains the gate, and if it returns "defect density" the whole ladder is moot.
 
 ---
 

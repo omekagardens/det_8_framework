@@ -1755,6 +1755,46 @@ def test_relational_realization():
          r["fl4_extent"]["distinguishes"])
 
 
+# ── Proxy Bootstrap Break Tests ────────────────────────────────────────────
+
+def test_proxy_bootstrap():
+    from det8.models.proxy_bootstrap import (
+        raw_response_recovery, extract_timescale_from_raw, f9_on_raw_response,
+        plateau_anchors, bootstrap_break_ladder, run_bootstrap_break,
+    )
+
+    section("Proxy Bootstrap Break")
+
+    # The raw-response timescale is extracted WITHOUT κ (the key claim).
+    curve = [(t, raw_response_recovery(t, 0.05, 1.0, 5000.0))
+             for t in [0, 1000, 2000, 5000, 10000, 20000, 50000]]
+    tau = extract_timescale_from_raw(curve)
+    test("PB: τ extracted from raw R(t) (no κ)", abs(tau - 5000.0) < 50.0)
+
+    # F9 needs no κ calibration.
+    f9 = f9_on_raw_response()
+    test("PB: F9 needs no κ calibration", f9["requires_kappa_calibration"] is False)
+    test("PB: F9 annealing sweep is decisive (Arrhenius >> 1)",
+         f9["annealing_sweep_factor"] > 1e3)
+
+    # Plateau anchors are operationally defined.
+    a = plateau_anchors()
+    test("PB: plateau anchors are operationally defined (no assumed κ)",
+         "plateau" in a["kappa_eq_anchor"].lower()
+         and "plateau" in a["kappa_max_anchor"].lower())
+
+    # The reordered ladder breaks the bootstrap, but keeps F9 as the gate.
+    lad = bootstrap_break_ladder()
+    test("PB: bootstrap broken by reordering", lad["bootstrap_broken"])
+    test("PB: honest caveat — F9 remains the gate",
+         "REORDERED, not eliminated" in lad["honest_caveat"]
+         or "not eliminated" in lad["honest_caveat"])
+
+    r = run_bootstrap_break()
+    test("PB: end-to-end run",
+         r["ladder"]["bootstrap_broken"] and r["f9_on_raw"]["requires_kappa_calibration"] is False)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -2017,6 +2057,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in relational_realization: {e}")
+        traceback.print_exc()
+
+    try:
+        test_proxy_bootstrap()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in proxy_bootstrap: {e}")
         traceback.print_exc()
 
     section("RESULTS")

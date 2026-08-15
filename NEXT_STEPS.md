@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 14, 2026
-**Test suite:** 400/400 passing
+**Test suite:** 407/407 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -31,7 +31,7 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 97 modules, 400/400 tests
+- 98 modules, 407/407 tests
 - Full simulation stack + experimental simulators + dataset analysis
 
 ### Applied-Physics Real Data
@@ -64,7 +64,8 @@ Residual (speculative, not implementation):
 
 ### Track B (relational creation)
 - ✅ RC1.2 formalized (`det8/models/relational_creation.py`) — σ_ij / A_ij / L_i / M_iG code-auditable; surfaced two new Track-A falsification levers: **FL-4 κ-reversibility** (latent capacity persists) and **FL-5 κ-transfer** (externalization relocates, not annihilates). See `FALSIFICATION_LEDGER.md`.
-- ✅ FL-4/FL-5 physical realization (`det8/models/relational_realization.py`) — σ/A map onto materials observables (σ↔cohesion, A↔recoverable capacity); FL-4 = the EXTENT test (full vs partial recovery), complementing F9's RATE test. Remaining gap: a calibrated structural proxy.
+- ✅ FL-4/FL-5 physical realization (`det8/models/relational_realization.py`) — σ/A map onto materials observables (σ↔cohesion, A↔recoverable capacity); FL-4 = the EXTENT test (full vs partial recovery), complementing F9's RATE test.
+- ✅ Structural-proxy bootstrap broken (`det8/models/proxy_bootstrap.py`) — F9-first reordering: F9 needs only τ(T) from raw R(t) (no κ), and the R(t) plateaus define the κ anchors. Reordering, not a bypass — F9 remains the gate.
 
 ### Falsification (the traction infrastructure)
 - `FALSIFICATION_LEDGER.md` — the register: FL-1 clock (Class I, gated), FL-2/FL-3 almost-quantum + grade-3 discriminators (Class II, **pre-registered**, low-traction one-directional), FL-4 κ-reversibility (**physically realized** — extent test), FL-5 κ-transfer (downstream), FL-6/FL-7 candidates.
@@ -94,5 +95,5 @@ Residual (speculative, not implementation):
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 400/400 passing
+python3 run_tests.py   # 407/407 passing
 ```
