@@ -59,7 +59,7 @@ DET's core ontological commitment:
 
 **Standard deadlock:** Everett reifies unactualized possibilities into parallel physical universes. Copenhagen refuses to discuss what's between measurements. Bohm hides outcomes in inaccessible pilot waves.
 
-**DET resolution:** A quantum superposition is an actual, phase-bearing relational constraint on future possibilities — a real, open relation that does not contain its own outcome. Amplitudes are present structural features, not pre-existing degrees of belief. NPF-C is code-auditable: no hidden outcome register exists in toy models.
+**DET resolution:** A quantum superposition is an actual, phase-bearing relational constraint on future possibilities — a real, open relation that does not contain its own outcome. **Amplitudes are present structural features, not pre-existing degrees of belief — a REALIST commitment (Status M), not an observable.** The observable is the interference `I₂` (and the outcome statistics); that amplitudes are *real* (rather than QBism's *degrees of belief*) is a *choice of ontology* DET makes against the epistemic reading, and is flagged as such under the observable-anchoring discipline (`docs/observable_anchoring.md`). NPF-C is code-auditable: no hidden outcome register exists in toy models.
 
 ### 3.3 Agency: Epiphenomenalism/Dualism → Present-Enactment Agency
 
@@ -133,6 +133,7 @@ Every term that is not a physical variable is listed with status and promotion c
 | Agency | M | None. Selfhood-bearing regime's participation. | Operational definition of "agent-involving" + falsifiable signature |
 | Strong presence \(\mathfrak P_e\) | M | None. Interpretation of \(X_e\) occurrence. | Unique discriminator (F8-OPEN) — or structural constraints whose violation falsifies the stronger claim |
 | Open becoming | M | None. Claim that no fact exists about unactualized outcomes. | Same as \(\mathfrak P_e\) |
+| Amplitude realism | M | None. "Amplitudes are real (present structural features), not degrees of belief" — a choice against QBism. | Unique discriminator distinguishing realism from epistemic/instrumental readings — or structural constraints |
 | Boundary Grace | M/H | None. Optional; no physical channel. | Explicit local channel + pre-registered falsifier |
 | Boundary Healing | M/H | None. | Same |
 | Boundary Jubilee | M/H | None. | Same |
