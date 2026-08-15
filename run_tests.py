@@ -1570,6 +1570,54 @@ def test_grade2_justification():
          r["negative_result"]["I3"] != 0.0 and r["discriminator_grade3_data"]["I3"] > 0.1)
 
 
+# ── T6 Residual (record extendability) Tests ───────────────────────────────
+
+def test_record_extendability():
+    from det8.models.pair_kernel import make_pair_kernel
+    from det8.models.record_extendability import (
+        marginal, product_blocks, gram_sum_rule, trivial_extendability,
+        operator_algebra_consistency, resolution, run_t6_residual,
+    )
+
+    section("T6 Residual (record extendability)")
+
+    pk = make_pair_kernel(4, seed=42, coherent=True)
+    pk_new = make_pair_kernel(3, seed=7, coherent=True)
+
+    # Coarse-graining preserves the pair-kernel axioms.
+    refined = pk.compose(pk_new)
+    blocks = product_blocks(pk.n, pk_new.n)
+    marg = marginal(refined, blocks)
+    test("T6r: marginal of a pair-kernel is a valid pair-kernel",
+         marg.validate()["valid"])
+
+    # Bare extendability is trivial: marginal(𝔇 ⊗ 𝔇_new) = 𝔇 exactly.
+    triv = trivial_extendability(pk, pk_new)
+    test("T6r: bare extendability is trivial (marginal = original)",
+         triv["always_extends"] and triv["max_abs_error"] < 1e-9)
+
+    # Gram sum rule: the coarse vectors are sums of the fine vectors.
+    srule = gram_sum_rule(refined, blocks)
+    test("T6r: Gram sum rule holds (one Hilbert space realizes the refinement)",
+         srule["sum_rule_holds"] and srule["max_abs_error"] < 1e-9)
+
+    # The non-trivial condition: operator-algebra (moment-matrix) consistency.
+    op = operator_algebra_consistency()
+    test("T6r: Bell level-1 moment matrix is PSD", op["bell_level1_psd"])
+    test("T6r: Bell extends to level 2 (operator-algebra consistent)",
+         op["bell_extends"])
+
+    # The resolution is the sharpened condition.
+    res = resolution()
+    test("T6r: resolution sharpens 'record extendability' to operator algebra",
+         "operator-algebra" in res["status"] or "operator algebra" in res["answer"])
+
+    r = run_t6_residual()
+    test("T6r: end-to-end run",
+         r["trivial_bare_extendability"]["always_extends"]
+         and r["operator_algebra_consistency"]["bell_extends"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1804,6 +1852,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in grade2_justification: {e}")
+        traceback.print_exc()
+
+    try:
+        test_record_extendability()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in record_extendability: {e}")
         traceback.print_exc()
 
     section("RESULTS")

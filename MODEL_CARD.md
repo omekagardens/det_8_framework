@@ -1,8 +1,8 @@
 # DET v8.0 — Model Card
 
 **Primary reference for the Deep Existence Theory framework.**
-**Date:** August 14, 2026 (revised per mathematical review + re-foundation + T6/T6b/T7/T2a)
-**Test suite:** 369/369 passing
+**Date:** August 14, 2026 (revised per mathematical review + re-foundation + T6/T6b/T7/T2a/T6-residual)
+**Test suite:** 376/376 passing
 
 **Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B: the four deadlocks — time, quantum, agency, history — resolved in one framework). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field) — not the point; DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. General Born-rule uniqueness, quantum-correlation characterization, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
 
@@ -97,7 +97,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | # | Problem | Previous | Revised Status | What would constitute resolution |
 |---|---|---|---|---|
 | O1 | Born rule | ✅ Resolved | **CI** — Root representation + quantum correspondence; T2a: the quadratic (grade-2) form is NOT a-priori forced — an explicit normalized positive grade-3 measure with I₃≠0 exists, so grade-2 is an empirical choice | AT: §7.2 empirical I₃=0, or a genuinely new (non-grade-2) primitive |
-| O2 | CHSH 2√2 | ✅ Resolved | **CI/FT** — CHSH supremum 2√2 proven (SOS certificate, verified); correlation classes characterized (local = 8 CHSH facets, almost-quantum = NPA level 1, no-signalling); quantum ⊆ almost-quantum; Q for (2,2,2) characterized exactly by TLM/Masanes; Q⊊Q̃ via the B inequality; "global record extendability ⇒ Q" is a theorem (NPA convergence) | AT: Prove `𝔇_n = Marginal(𝔇_{n+1})` equals NPA-extendability; why-ℂ field selection |
+| O2 | CHSH 2√2 | ✅ Resolved | **CI/FT** — CHSH supremum 2√2 proven (SOS); correlation classes characterized; Q for (2,2,2) = TLM/Masanes (verified); Q⊊Q̃ via the B inequality; "global record extendability ⇒ Q" is a theorem (NPA convergence), residual settled (bare 𝔇-marginal extendability is trivial; collapse holds iff read as operator-algebra consistency) | AT: why-ℂ field selection |
 | O3 | Confluence | ✅ Resolved | **CI/FT** — Support confluence in finite cases | AT: Distributional scheduler independence over all linear extensions |
 | O4 | Joint kernel | ✅ Resolved | **CI** — Nonfactorizable finite construction | AT: Global consistency, analytic no-signalling, covariance |
 | O7 | Event graph → Lorentzian | ✅ Resolved | **I/CI** — T7 order-and-count geometry: dimension/null-structure/conformal-factor estimators verified on known Minkowski sprinklings (Malament/HKM, Myrheim–Meyer cited) | CT: Manifoldlike emergence (embedding + uniqueness) — open, inherited from causal set theory |
@@ -217,7 +217,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**369/369 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
+**376/376 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.

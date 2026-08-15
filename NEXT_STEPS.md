@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 14, 2026
-**Test suite:** 369/369 passing
+**Test suite:** 376/376 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -31,7 +31,7 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 93 modules, 369/369 tests
+- 94 modules, 376/376 tests
 - Full simulation stack + experimental simulators + dataset analysis
 
 ### Applied-Physics Real Data
@@ -55,11 +55,11 @@
 - ✅ T5 local-kernel continuum (graph Laplacian → diffusion; coefficients from moments) — implemented
 - ✅ T6 correlation class — implemented (local 2 / quantum & almost-quantum 2√2 / no-signalling 4; SOS certificate; Q ⊆ almost-quantum, Q⊊Q̃ cited)
 - ✅ T6b correlation-class frontier — implemented (TLM/Masanes exact Q for (2,2,2), verified on the vector model; B inequality separates Q̃ from Q; NPA convergence makes "global record extendability ⇒ Q" a theorem)
+- ✅ T6 residual (record extendability) — resolved (bare 𝔇-marginal extendability is trivial; the Q̃→Q collapse holds iff "record extendability" is read as the operator-algebra / NPA-moment-matrix consistency, settling the residual)
 - ✅ T7 order-and-count geometry — implemented (kinematic only: order ⇒ null structure, count ⇒ conformal factor, order+count ⇒ dimension; estimator verification on known sprinklings, manifoldlike emergence left open)
 
-Remaining open items (research, not implementation):
-- T6 frontier residual: prove DET's `𝔇_n = Marginal(𝔇_{n+1})` EQUALS NPA-extendability (then the collapse is a settled theorem, not a DET-specific conjecture).
-- why-ℂ (complex field selection) — open, feeds T6's full resolution.
+Remaining open item (research, not implementation):
+- why-ℂ (complex field selection) — open, feeds T6's full resolution (sketch: 𝔇=G+iΩ → complex structure J²=−I).
 
 ### Data (§7, matched to DET primitives)
 - Matched-state / different-history ensembles (H₀: K_a = K_b + held-out transport)
@@ -85,5 +85,5 @@ Remaining open items (research, not implementation):
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 369/369 passing
+python3 run_tests.py   # 376/376 passing
 ```
