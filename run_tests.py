@@ -1466,6 +1466,57 @@ def test_order_count_geometry():
          "Estimator verification" in r["certificate"]["status"])
 
 
+# ── Correlation-Class Frontier (T6b) Tests ─────────────────────────────────
+
+def test_correlation_frontier():
+    import math
+    from det8.models.correlation_class import bell_state_correlation, pr_box
+    from det8.models.correlation_frontier import (
+        tlm_sums, tlm_margin, is_quantum_masanes, verify_tlm_necessary,
+        b_inequality_data, npa_convergence_statement, run_t6_frontier,
+    )
+
+    section("Correlation-Class Frontier (T6b)")
+
+    bell = bell_state_correlation()
+    pr = pr_box()
+
+    # TLM / Masanes: exact characterization of the quantum set Q for (2,2,2).
+    test("T6b: Bell state is quantum (TLM)", is_quantum_masanes(bell))
+    test("T6b: PR box is not quantum (TLM)", not is_quantum_masanes(pr))
+    test("T6b: Bell TLM margin = 0 (saturates boundary)",
+         abs(tlm_margin(bell)) < 1e-9)
+    test("T6b: PR box TLM margin = +π (max violation)",
+         abs(tlm_margin(pr) - math.pi) < 1e-9)
+    bell_sums = sorted(abs(s) for s in tlm_sums(bell))
+    test("T6b: Bell TLM sums are {0, 0, 0, π}",
+         abs(bell_sums[3] - math.pi) < 1e-9 and bell_sums[2] < 1e-9)
+
+    # TLM necessity verified numerically on the quantum vector model.
+    v = verify_tlm_necessary(n=20000, dim=3, seed=42)
+    test("T6b: TLM ≤ π holds on the quantum vector model", v["tlm_holds"])
+    test("T6b: TLM is tight (max |TLM| ≈ π)",
+         abs(v["max_abs_tlm"] - math.pi) < 0.05)
+
+    # B inequality: the sourced Q ⊊ Q̃ separation.
+    bd = b_inequality_data()
+    test("T6b: B quantum bound = −1 (cited)",
+         abs(bd["quantum_bound"] + 1.0) < 1e-12)
+    test("T6b: B almost-quantum violation ≈ −1.052 (cited)",
+         abs(bd["almost_quantum_violation"] + 1.052) < 1e-9)
+
+    # NPA convergence: the collapse is a theorem, with the open question stated.
+    nc = npa_convergence_statement()
+    test("T6b: NPA convergence makes the collapse a theorem",
+         "collapsing Q̃ → Q" in nc["theorem"])
+    test("T6b: remaining open question is stated (𝔇_n == NPA extendability?)",
+         "EQUAL to NPA-extendability" in nc["remaining_open_question"])
+
+    r = run_t6_frontier()
+    test("T6b: end-to-end frontier run",
+         r["TLM"]["bell_is_quantum"] and not r["TLM"]["pr_box_is_quantum"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1686,6 +1737,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in order_count_geometry: {e}")
+        traceback.print_exc()
+
+    try:
+        test_correlation_frontier()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in correlation_frontier: {e}")
         traceback.print_exc()
 
     section("RESULTS")
