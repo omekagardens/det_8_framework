@@ -26,6 +26,8 @@ DET's core ontological commitment:
 \boxed{\text{Only the present moment IS.}}
 \]
 
+> **Status M (observable-anchoring flag).** Every claim in this section — "only the present IS," "the past/future do not exist," "the record is the trace, not the past," "PRESENCE → R is fact genesis," "identity is relational continuity" — is **ontology, not observable.** The anchors are the *observables*: the record `R`, the causal order `≺`, the definite commit outcome `X_e`. Where the claim *exceeds* those anchors (asserting existence, non-existence, or what the record *is*), it is **Status M** and is held for its coherence and fruit, not because it is measured. See `docs/observable_anchoring.md`.
+
 | What | Ontological Status |
 |---|---|
 | **The present moment** | That which IS. The site of actualization. Participation in becoming. |
@@ -59,7 +61,7 @@ DET's core ontological commitment:
 
 **Standard deadlock:** Everett reifies unactualized possibilities into parallel physical universes. Copenhagen refuses to discuss what's between measurements. Bohm hides outcomes in inaccessible pilot waves.
 
-**DET resolution:** A quantum superposition is an actual, phase-bearing relational constraint on future possibilities — a real, open relation that does not contain its own outcome. **Amplitudes are present structural features, not pre-existing degrees of belief — a REALIST commitment (Status M), not an observable.** The observable is the interference `I₂` (and the outcome statistics); that amplitudes are *real* (rather than QBism's *degrees of belief*) is a *choice of ontology* DET makes against the epistemic reading, and is flagged as such under the observable-anchoring discipline (`docs/observable_anchoring.md`). NPF-C is code-auditable: no hidden outcome register exists in toy models.
+**DET resolution:** A quantum superposition is an actual, phase-bearing relational constraint on future possibilities — a real, open relation that does not contain its own outcome (**the "open" part = open becoming, Status M / F8-OPEN: no unique discriminator; the "real relation" part = realism, Status M**). **Amplitudes are present structural features, not pre-existing degrees of belief — a REALIST commitment (Status M), not an observable.** The observable is the interference `I₂` (and the outcome statistics); that amplitudes are *real* (rather than QBism's *degrees of belief*) is a *choice of ontology* DET makes against the epistemic reading, and is flagged as such under the observable-anchoring discipline (`docs/observable_anchoring.md`). NPF-C is code-auditable: no hidden outcome register exists in toy models.
 
 ### 3.3 Agency: Epiphenomenalism/Dualism → Present-Enactment Agency
 
@@ -71,7 +73,7 @@ DET's core ontological commitment:
 
 **Standard deadlock:** The past is fixed. You cannot change what happened. "Healing" or "recovery" are subjective psychological overlays.
 
-**DET resolution:** The past event is fixed as an occurrence. But its present structural carrying (κ) can change. κ-recovery does not retroactively edit history; it releases the structural drag of the past in the present. The event remains real; its current constraint is reduced.
+**DET resolution:** The past event is fixed as an occurrence. But its present structural carrying (κ) can change. κ-recovery does not retroactively edit history; it releases the structural drag of the past in the present. The event remains real; its current constraint is reduced. (**Observable anchor:** κ-recovery kinetics — κ is *observed* to decrease. The "mutable carrying / releases structural drag" reading is **Status M**: the ontology, not the observable. κ turning out to be ordinary defect density leaves the reading intact.)
 
 ---
 
