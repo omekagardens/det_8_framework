@@ -1714,6 +1714,47 @@ def test_relational_creation():
          and r2["kappa_transfer"]["conserved"])
 
 
+# ── Physical Realization (FL-4 / FL-5) Tests ───────────────────────────────
+
+def test_relational_realization():
+    from det8.models.relational_realization import (
+        observable_map, fl4_extent_discriminator, combined_f9_fl4,
+        fl5_conservation_discriminator, run_realization,
+    )
+
+    section("Physical Realization (FL-4 / FL-5)")
+
+    # The σ/A → materials mapping exists.
+    om = observable_map()
+    test("PR: σ/A/L/M map onto materials observables",
+         "sigma_ij" in om and "A_ij" in om and "kappa_i" in om)
+
+    # FL-4 EXTENT: full (latent) vs partial (permanent) recovery.
+    f = fl4_extent_discriminator()
+    test("PR: FL-4 recovered cohesion distinguishes latent vs permanent",
+         f["distinguishes"])
+    test("PR: FL-4 DET recovers full cohesion, standard saturates",
+         abs(f["recovered_cohesion_det"] - 1.0) < 1e-9
+         and f["recovered_cohesion_standard"] < 1.0)
+    test("PR: FL-4 permanent damage fraction: standard > 0, DET = 0",
+         f["permanent_damage_fraction_standard"] > 0.0
+         and f["permanent_damage_fraction_det"] == 0.0)
+
+    # Combined F9 (rate) + FL-4 (extent).
+    c = combined_f9_fl4()
+    test("PR: F9 rate sweep factor is decisive (Arrhenius >> 1)",
+         c["rate_discriminator"]["annealing_sweep_factor"] > 1e3)
+
+    # FL-5 is downstream of FL-4/F9.
+    f5 = fl5_conservation_discriminator()
+    test("PR: FL-5 is downstream of FL-4/F9 (needs calibrated κ)",
+         "downstream" in f5["downstream_of"] or "FL-4" in f5["downstream_of"])
+
+    r = run_realization()
+    test("PR: end-to-end run",
+         r["fl4_extent"]["distinguishes"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1969,6 +2010,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in relational_creation: {e}")
+        traceback.print_exc()
+
+    try:
+        test_relational_realization()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in relational_realization: {e}")
         traceback.print_exc()
 
     section("RESULTS")

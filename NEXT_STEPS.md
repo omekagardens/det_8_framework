@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 14, 2026
-**Test suite:** 393/393 passing
+**Test suite:** 400/400 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -31,7 +31,7 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 96 modules, 393/393 tests
+- 97 modules, 400/400 tests
 - Full simulation stack + experimental simulators + dataset analysis
 
 ### Applied-Physics Real Data
@@ -64,7 +64,7 @@ Residual (speculative, not implementation):
 
 ### Track B (relational creation)
 - ✅ RC1.2 formalized (`det8/models/relational_creation.py`) — σ_ij / A_ij / L_i / M_iG code-auditable; surfaced two new Track-A falsification levers: **FL-4 κ-reversibility** (latent capacity persists) and **FL-5 κ-transfer** (externalization relocates, not annihilates). See `FALSIFICATION_LEDGER.md`.
-- Next: physical realization of σ/A for FL-4/FL-5 (what material instantiates them; what measurement reads κ-recovery/transfer).
+- ✅ FL-4/FL-5 physical realization (`det8/models/relational_realization.py`) — σ/A map onto materials observables (σ↔cohesion, A↔recoverable capacity); FL-4 = the EXTENT test (full vs partial recovery), complementing F9's RATE test. Remaining gap: a calibrated structural proxy.
 
 ### Falsification (the traction infrastructure)
 - `FALSIFICATION_LEDGER.md` — the register: FL-1 clock (Class I, gated), FL-2/FL-3 almost-quantum + grade-3 discriminators (Class II), FL-4/FL-5 κ-dynamics (formalized), FL-6/FL-7 candidates.
@@ -94,5 +94,5 @@ Residual (speculative, not implementation):
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 393/393 passing
+python3 run_tests.py   # 400/400 passing
 ```
