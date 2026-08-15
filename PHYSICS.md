@@ -125,16 +125,16 @@ All 7 relativistic observables derived from event graph ≺:
 
 ## 5. Quantum Correspondence
 
-> **Honest reclassification (Round 3 red-team).** These are **correspondence checks**: each recovers a standard quantum result after standard amplitudes/rotations are *assumed*. They are not derivations from DET primitives — the uniqueness/derivation theorems remain open (O1/O2 status CI/AT per `MODEL_CARD.md` §6).
+> **Honest reclassification.** These are **correspondence checks**: each recovers a standard quantum result. They are now supplemented — not replaced — by the theorem program (T2b quadratic commit, T2a grade-2, T6/T6b correlation class, why-ℂ). The honest bottom line: DET derives the *almost-quantum* framework, with grade-2 an empirical choice and ℂ forced by (empirical Ω≠0) + reversibility.
 
 | Correspondence | Key insight |
 |---|---|
-| Born rule | K(i) = \|c_i\|² is *postulated* in the definition of a kernel root; the uniqueness theorem is open |
-| CHSH = 2√2 | Standard Bell state (1/√2,0,0,1/√2) + standard rotation, relabeled |
+| Born rule | Grade-2 (quadratic) form is EMPIRICAL (T2a negative result); given grade-2, μ(A)=‖v_A‖² follows (T2b) |
+| CHSH = 2√2 | SOS certificate (T6): B² = 4I − [A₀,A₁][B₀,B₁] ⇒ ‖B‖ ≤ 2√2, verified |
 | E(a,b) = cos(2(a-b)) | Standard Bell state + rotation in the joint-kernel language |
 | Pointer formation | Consensus of N weak commit events (no Kraus needed) |
-| Amplitude structure | Complex numbers assumed; U(1) emergence from Z₂ is a sketch (open) |
-| Hilbert space | Space of kernel roots with inner product ⟨c,d⟩ = Σ c_i* d_i |
+| Amplitude structure | why-ℂ: ℝ falsified empirically; ℂ forced by reversible dynamics O∩Sp=U(m) (why_complex.py) |
+| Hilbert space | Space of kernel roots with inner product ⟨c,d⟩ = Σ c_i* d_i (Gram, T2b) |
 
 ---
 
@@ -203,11 +203,11 @@ Module: `gps_analysis.py`.
 | Lemma | Statement | Status |
 |---|---|---|
 | L1 | Causal structure → (M, g) causal structure | **Proven** (causal set theory) |
-| L2 | Coarse-grained Π → conformal factor Ω(x) | Numerical evidence (α=0.50 convergence). Formal proof open. |
+| L2 | Coarse-grained count → conformal factor Ω(x) | Numerical evidence (α=0.50 convergence). Formal proof open. |
 | L3 | Reconstructed metric g_N → g | Statistical convergence verified (CV 0.56→0.25). LGH proof open. |
 | L4 | κ-density → G_μν = 8πG_q·T^κ_μν | **RETIRED** (κ-gravity, Option B) — see `archive/retired_kappa_gravity.md` |
 
-DET's active contribution: Π fixes the conformal factor (bare causal sets cannot); this is a **kinematic** reconstruction (order + count → geometry), the T7 program. The L4 gravity step is retired — the discrete-action → Einstein–Hilbert route is now standard gravity, not a DET gravity claim.
+DET's active contribution: the **counting measure** fixes the conformal factor (order alone cannot), a **kinematic** reconstruction (order + count → geometry) — the T7 program, implemented in `det8/models/order_count_geometry.py`. The Π conformal factor (Ω = Π/c) is **RETIRED**; count supersedes it. The L4 gravity step is retired — the discrete-action → Einstein–Hilbert route is now standard gravity, not a DET gravity claim.
 
 Module: `continuum_limit_proof.py`, `continuum_limit_l234.py`.
 

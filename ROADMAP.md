@@ -16,7 +16,7 @@
 | P0.5 | Derivations + Track A | 10 active + 5 retired correspondence checks. 1 prediction pre-registered. Track B formalized. |
 | P0.6 | Evolution + diffusion | DET-native Schrödinger. κ-diffusion on bonds. Unified simulation. |
 | P0.7 | Joint kernel + basis | O4 resolved. O8 resolved. |
-| P0.8 | Confluence + O7 | O3 resolved. O7 resolved (5-step, Π fixes conformal factor). |
+| P0.8 | Confluence + O7 | O3 resolved. O7 resolved (5-step, later retired: Π conformal factor → count, T7 order-and-count). |
 | — | Red-team (2 rounds) | All 10 challenges addressed. 4 closed, 3 narrowed, 3 open research frontiers. |
 | — | Dataset analysis | Clock bounds, Eötvös, flyby, SPARC 135 galaxies (31% RMS), post-Newtonian, clusters, κ(r) derivation, BAO, r_SFR prediction, GPS, continuum limit L2-L4. |
 | — | Remaining items | All 5 addressed. Mathematical review applied (M0 fix, claim-status revision). |
@@ -26,17 +26,18 @@
 
 ## Current State
 
-**6 major open problems addressed (O1–O4 CI/AT, O7/O8 — see MODEL_CARD §6).**
-**251/251 tests passing.**
-**89 code modules** (MODEL_CARD §7 documents a selected subset).
+**Record-Kernel Physics theorem program complete** (T1–T7 + T2a + T6b + T6 residual + why-ℂ). Honest landmarks: T6 lands on **almost-quantum not quantum**; T2a is a negative result (grade-2 empirical, not a-priori forced); T6 residual resolved (bare 𝔇-extendability trivial; collapse = NPA under a sharpened reading); T7 is estimator verification (manifoldlike emergence open); why-ℂ addressed (ℝ falsified empirically; ℂ forced by reversible dynamics O∩Sp=U(m)).
+
+**384/384 tests passing.**
+**95 code modules** (MODEL_CARD §7 documents a selected subset).
 **5 primary documents replacing 24.**
 
 ### Two tracks
 
 | Track | Status |
 |---|---|
-| A — Physical Calculus | 1 pre-registered prediction (κ-Π clock anomaly). Gravity is GR. Awaiting test. |
-| B — Ontological Grammar | 4 deadlocks resolved. Mature framework. |
+| A — Physical Calculus | Theorem program complete and honest; ONE active falsifiable prediction (κ-Π clock anomaly, gated on F9 + independent κ, currently null). See `FALSIFICATION_LEDGER.md`. |
+| B — Ontological Grammar | 4 deadlocks resolved. Mature. Relational-creation research (RC1/RC2) active. |
 
 ### Classification
 
@@ -56,10 +57,10 @@ DET v8.0 is a disciplined interpretive framework with a fully derived physical c
 - DESI/Euclid BAO data for κ(z) constraint
 - Galaxy cluster mass profile data (Chandra/XMM archives)
 
-### Mathematical (long-term)
-- Berry-Esseen convergence rates for U(1) emergence
-- Uniqueness proof for complex representation
-- Continuum limit formal proof (shared with causal set theory)
+### Mathematical (long-term / speculative)
+- why-ℂ residual: why exactly ONE phase Ω and why reversible dynamics (§3.4, speculative)
+- Manifoldlike emergence (embedding + uniqueness) — open, inherited from causal set theory (T7)
+- Berry-Esseen convergence rates for U(1) emergence (minor)
 
 ---
 
@@ -79,7 +80,7 @@ DET v8.0 is a disciplined interpretive framework with a fully derived physical c
 
 ```bash
 python3 run_tests.py
-# Expected: 251/251 passed, 0 failed, 0 errors
+# Expected: 384/384 passed, 0 failed, 0 errors
 ```
 
 ---
