@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 14, 2026
-**Test suite:** 376/376 passing
+**Test suite:** 384/384 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -31,7 +31,7 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 94 modules, 376/376 tests
+- 95 modules, 384/384 tests
 - Full simulation stack + experimental simulators + dataset analysis
 
 ### Applied-Physics Real Data
@@ -57,9 +57,10 @@
 - ✅ T6b correlation-class frontier — implemented (TLM/Masanes exact Q for (2,2,2), verified on the vector model; B inequality separates Q̃ from Q; NPA convergence makes "global record extendability ⇒ Q" a theorem)
 - ✅ T6 residual (record extendability) — resolved (bare 𝔇-marginal extendability is trivial; the Q̃→Q collapse holds iff "record extendability" is read as the operator-algebra / NPA-moment-matrix consistency, settling the residual)
 - ✅ T7 order-and-count geometry — implemented (kinematic only: order ⇒ null structure, count ⇒ conformal factor, order+count ⇒ dimension; estimator verification on known sprinklings, manifoldlike emergence left open)
+- ✅ why-ℂ (complex field selection) — addressed (ℝ ruled out empirically — real QM falsified; ℂ forced by reversible dynamics O∩Sp=U(m) → J=G⁻¹Ω with J²=−I; ℍ excluded by the single phase Ω)
 
-Remaining open item (research, not implementation):
-- why-ℂ (complex field selection) — open, feeds T6's full resolution (sketch: 𝔇=G+iΩ → complex structure J²=−I).
+Residual (speculative, not implementation):
+- why-ℂ assumptions — why exactly ONE phase Ω (single arrow of time) and why reversible dynamics; the §3.4 speculative targets.
 
 ### Data (§7, matched to DET primitives)
 - Matched-state / different-history ensembles (H₀: K_a = K_b + held-out transport)
@@ -85,5 +86,5 @@ Remaining open item (research, not implementation):
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 376/376 passing
+python3 run_tests.py   # 384/384 passing
 ```

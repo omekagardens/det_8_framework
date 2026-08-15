@@ -1618,6 +1618,55 @@ def test_record_extendability():
          and r["operator_algebra_consistency"]["bell_extends"])
 
 
+# ── Why ℂ (complex field selection) Tests ──────────────────────────────────
+
+def test_why_complex():
+    from det8.models.why_complex import (
+        decompose, is_symmetric, is_antisymmetric, real_part_gives_real_qm,
+        standard_symplectic, complex_structure,
+        reversible_dynamics_require_complex, why_not_quaternions,
+        connection_to_observation, run_why_complex,
+    )
+
+    section("Why ℂ (complex field selection)")
+
+    # 𝔇 = G + iΩ: G symmetric, Ω antisymmetric.
+    D = [[0.5, 0.5j], [-0.5j, 0.5]]  # rank-1 coherent pair-kernel.
+    G, Om = decompose(D)
+    test("Tℂ: G = Re 𝔇 is symmetric", is_symmetric(G))
+    test("Tℂ: Ω = Im 𝔇 is antisymmetric", is_antisymmetric(Om))
+
+    # Ω = 0 ⟹ real QM (interference present), NOT classical.
+    rq = real_part_gives_real_qm()
+    test("Tℂ: Ω=0 gives real QM (I₂ ≠ 0), not classical",
+         rq["real_QM_not_classical"])
+
+    # J = G^{-1}Ω satisfies J² = −I.
+    cs = complex_structure(m=2)
+    test("Tℂ: J = G^{-1}Ω has J² = −I (complex structure)",
+         cs["J_squared_equals_minus_I"])
+
+    # Reversible dynamics: O ∩ Sp = U(m) — symplectic ⟺ commutes with J.
+    rd = reversible_dynamics_require_complex(m=2, n_trials=50, seed=42)
+    test("Tℂ: symplectic generator ⟺ complex-linear (O∩Sp=U)",
+         rd["symplectic_iff_commutes_with_J"])
+
+    # One Ω ⟹ ℂ (ℍ would need three).
+    test("Tℂ: why-not-ℍ states one-phase ⟹ ℂ",
+         "one" in why_not_quaternions()["one_phase_gives_C"].lower()
+         or "ℂ" in why_not_quaternions()["one_phase_gives_C"])
+
+    # Honest observation verdict.
+    test("Tℂ: observation verdict is honest (no super-quantum observed)",
+         "super-quantum" in connection_to_observation()["no_superquantum_observed"]
+         and "NOT defensible" in connection_to_observation()["verdict"])
+
+    r = run_why_complex()
+    test("Tℂ: end-to-end run",
+         r["complex_structure"]["J_squared_equals_minus_I"]
+         and r["reversible_dynamics_require_complex"]["symplectic_iff_commutes_with_J"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1859,6 +1908,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in record_extendability: {e}")
+        traceback.print_exc()
+
+    try:
+        test_why_complex()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in why_complex: {e}")
         traceback.print_exc()
 
     section("RESULTS")
