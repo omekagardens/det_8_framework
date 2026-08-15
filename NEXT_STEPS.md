@@ -67,7 +67,7 @@ Residual (speculative, not implementation):
 - ✅ FL-4/FL-5 physical realization (`det8/models/relational_realization.py`) — σ/A map onto materials observables (σ↔cohesion, A↔recoverable capacity); FL-4 = the EXTENT test (full vs partial recovery), complementing F9's RATE test. Remaining gap: a calibrated structural proxy.
 
 ### Falsification (the traction infrastructure)
-- `FALSIFICATION_LEDGER.md` — the register: FL-1 clock (Class I, gated), FL-2/FL-3 almost-quantum + grade-3 discriminators (Class II), FL-4/FL-5 κ-dynamics (formalized), FL-6/FL-7 candidates.
+- `FALSIFICATION_LEDGER.md` — the register: FL-1 clock (Class I, gated), FL-2/FL-3 almost-quantum + grade-3 discriminators (Class II, **pre-registered**, low-traction one-directional), FL-4 κ-reversibility (**physically realized** — extent test), FL-5 κ-transfer (downstream), FL-6/FL-7 candidates.
 
 ### Data (§7, matched to DET primitives)
 - Matched-state / different-history ensembles (H₀: K_a = K_b + held-out transport)

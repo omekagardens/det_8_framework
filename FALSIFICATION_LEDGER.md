@@ -24,14 +24,14 @@
 
 ## Class II — Discriminator / scope levers
 
-These are already implemented in code (T2a, T6b) but were never registered as predictions. They are *distinguishable from standard physics* in one precise sense: DET's honest framework permits a superset of standard QM, so a specific observation would refute QM while *vindicating* DET's relaxed claims.
+These are **pre-registered** (specified below) but are *not* Class-I "risky new predictions." They say DET is *more permissive* than QM — DET's honest framework is consistent with a superset of standard QM — so a specific observation would refute QM while *vindicating* DET's relaxed claims. They are the only currently-available conditions under which DET is empirically distinguishable from QM in the quantum sector.
 
-| ID | Claim | Discriminator | What crosses it |
+| ID | Claim | Discriminator (exact) | Crossed by |
 |---|---|---|---|
-| **FL-2** | DET's correlation class is **almost-quantum Q̃**, not Q (T6/T6b) | The **B inequality** (Navascués et al. 2015; quantum bound B > −1, almost-quantum ≈ −1.052) | A Q̃∖Q correlation (B < −1) observed → QM refuted, DET's almost-quantum framework vindicated. Never observed → consistent with both; DET's "almost-quantum" is then a relaxation, not the correct level |
-| **FL-3** | Grade-2 is **empirical, not forced** (T2a); DET is open to I₃ ≠ 0 | **Sorkin's 3-slit** experiment (measure I₃) | I₃ ≠ 0 observed → QM refuted, DET's "grade-2 empirical" vindicated. I₃ = 0 → consistent with both |
+| **FL-2** | DET's correlation class is **almost-quantum Q̃**, not Q (T6/T6b) | The **B inequality** (`correlation_frontier.py::b_inequality_value`): coefficients (−30/31, 167/9, 167/9, −30/31, −174/11, −244/23, 74/11, −174/11) over the 8 probabilities; quantum bound **B > −1**, almost-quantum point **B ≈ −1.052** | A Q̃∖Q correlation with **B < −1** observed → QM refuted, DET's almost-quantum framework vindicated. B ≥ −1 (all observations so far) → consistent with both; DET's "almost-quantum" is then a relaxation, not the correct level |
+| **FL-3** | Grade-2 is **empirical, not forced** (T2a); DET is open to I₃ ≠ 0 | **Sorkin's 3-slit** measurement of I₃ (`grade2_justification.py::grade2_discriminator`) | **I₃ ≠ 0** observed → QM refuted, DET's "grade-2 empirical" openness vindicated. I₃ = 0 (measured to high precision so far) → consistent with both |
 
-**Honest note:** FL-2/FL-3 are *not* Class-I "risky new predictions." They say DET is *more permissive* than QM, not that DET predicts a new specific effect. They are registered here because they are pre-registerable and they are the *only* currently-available conditions under which DET is empirically distinguishable from QM in the quantum sector.
+**Honest status of FL-2/FL-3:** both are **low-traction discriminators**, not near-term predictions. They are *one-directional* — a super-quantum observation (B < −1, or I₃ ≠ 0) would distinguish DET from QM, but the null (B ≥ −1, I₃ = 0) is consistent with both and does not distinguish them. They are registered for completeness and honesty: they are the *only* conditions under which DET's quantum-sector claims are empirically testable, and they make explicit that "DET derives almost-quantum, not quantum" is a statement about DET's *derivational reach*, not (yet) a prediction that nature exceeds QM.
 
 ---
 
