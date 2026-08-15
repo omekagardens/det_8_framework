@@ -92,6 +92,7 @@ Residual (speculative, not implementation):
 | `ROADMAP.md` | Phase history. Updated. |
 | `FALSIFICATION_LEDGER.md` | **The register of every falsifiable prediction + falsifier + status.** |
 | `docs/observable_anchoring.md` | **The discipline: ontology maps onto observables, not onto interpretations.** Three-column audit (Observable/Formalism/Ontology) + the no-sneak discriminator test. |
+| `docs/deadlock_adjudication.md` | **Does DET resolve the four deadlocks better than Copenhagen/Many-Worlds/QBism/Bohm?** The argued (not measured) contest. |
 | `docs/falsification_protocol.md` | Lab-executable protocol for the three probes. |
 | `docs/applied_physics.md` | Applied-physics program (5 tests + adversary + findings). |
 | `NEXT_STEPS.md` | This document. |
