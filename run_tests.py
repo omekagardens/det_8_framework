@@ -1667,6 +1667,53 @@ def test_why_complex():
          and r["reversible_dynamics_require_complex"]["symplectic_iff_commutes_with_J"])
 
 
+# ── Relational Creation (Track B RC1.2) Tests ──────────────────────────────
+
+def test_relational_creation():
+    from det8.models.relational_creation import (
+        RelationalRegime, externalize, kappa_reversibility, kappa_transfer,
+        verify_claims, audit, run_rc12,
+    )
+
+    section("Relational Creation (Track B RC1.2)")
+
+    # FL-4: κ-reversibility via latent capacity.
+    k = kappa_reversibility()
+    test("FL-4: damage increases κ", k["damage_increases_kappa"])
+    test("FL-4: latent capacity restores κ to baseline",
+         k["latent_recovers_to_baseline"])
+
+    # FL-5: κ-transfer conservation across regimes.
+    t = kappa_transfer()
+    test("FL-5: total damage conserved under externalization", t["conserved"])
+    test("FL-5: damage relocated (R discarded, S inherited)",
+         t["R_damage_after"] < 1e-9 and t["S_damage_after"] > 0.0)
+
+    # RC1-A: active bond weakens while latent capacity persists.
+    r = RelationalRegime(4, seed=9)
+    r.weaken_bond(0, 1)
+    test("RC1-A: σ_ij → 0 while A_ij > 0",
+         r.sigma[0][1] == 0.0 and r.A[0][1] > 0.0)
+
+    # RC1-A: rewiring preserves lineage and membership.
+    lineage_before = r.lineage[:]
+    membership_before = r.membership[:]
+    r.rewire(0, 1, 2)
+    test("RC1-A: rewiring preserves lineage + membership",
+         r.lineage == lineage_before and r.membership == membership_before)
+
+    # RC1-D: no theological variables; κ derived.
+    a = audit()
+    test("RC1-D: no forbidden (theological) variables",
+         a["no_forbidden_variables"])
+    test("RC1-D: κ is derived, not a primitive field", a["kappa_is_derived"])
+
+    r2 = run_rc12()
+    test("RC1.2: end-to-end run",
+         r2["kappa_reversibility"]["latent_recovers_to_baseline"]
+         and r2["kappa_transfer"]["conserved"])
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1915,6 +1962,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in why_complex: {e}")
+        traceback.print_exc()
+
+    try:
+        test_relational_creation()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in relational_creation: {e}")
         traceback.print_exc()
 
     section("RESULTS")

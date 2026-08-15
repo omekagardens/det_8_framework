@@ -41,12 +41,12 @@ The "fruit-first" principle: Track B's ontological commitments generate *structu
 
 | ID | Track-B commitment | Candidate Track-A (κ-dynamics) prediction | Candidate falsifier |
 |---|---|---|---|
-| **FL-4** | **Latent capacity persists** (RC1.2: `A_ij > 0` while `σ_ij → 0`) | κ is *reversible*: damaged bonds retain latent capacity, so κ-recovery can exceed what thermal annealing alone predicts | κ-recovery saturates at a level fully explained by thermal annealing (no latent-capacity restoration beyond standard defect recovery) |
-| **FL-5** | **Material externalization relocates burden** (RC1-E) | κ is *conserved/transferred* across regime boundaries, not annihilated | κ vanishes at a regime boundary with no transfer to the environment or substrate (total κ of a closed system is not conserved) |
+| **FL-4** | **Latent capacity persists** (RC1.2: `A_ij > 0` while `σ_ij → 0`) | κ is *reversible*: damaged bonds retain latent capacity, so κ-recovery can exceed what thermal annealing alone predicts | **FORMALIZED** (`relational_creation.py::kappa_reversibility`): κ-recovery saturates at the damaged level (no latent-capacity restoration) ⟹ falsified |
+| **FL-5** | **Material externalization relocates burden** (RC1-E) | κ is *conserved/transferred* across regime boundaries, not annihilated | **FORMALIZED** (`relational_creation.py::kappa_transfer`): total damage D=Σ(A−σ) decreases at a boundary with no compensating transfer ⟹ falsified |
 | **FL-6** | **Open becoming / no pre-existing outcome** (NPF-M, F8-OPEN) | A statistical signature of "no hidden outcome register" (beyond Bell/contextuality) | (to be determined — F8-OPEN has no unique discriminator yet) |
 | **FL-7** | **Living circulation / death-contingency** (RC2) | A biological/ecological claim, not physics: death-based circulation is replaceable by living transfer in some regime | (Track-B-domain falsifier, not a Track-A equation) |
 
-**FL-4 and FL-5 are the priority.** They are the two most direct translations of Track-B relational-creation structure into κ-dynamics, and κ-dynamics is where Track A has its only real "new physics." They are what the Track B formalization should be mined for.
+**FL-4 and FL-5 are now formalized** (`det8/models/relational_creation.py`) — code-auditable, with the falsifier stated precisely. They are the two direct translations of Track-B relational-creation structure into κ-dynamics, and κ-dynamics is where Track A has its only real "new physics." The next step for each is a *physical realization*: what concrete material/system instantiates `σ_ij`/`A_ij`, and what measurement reads κ-recovery (FL-4) or κ-transfer (FL-5).
 
 ---
 

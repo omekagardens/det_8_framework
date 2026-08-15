@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 14, 2026
-**Test suite:** 384/384 passing
+**Test suite:** 393/393 passing
 **Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
 
 ---
@@ -31,7 +31,7 @@
 | r_SFR prediction | From scaling relations, not fitted |
 
 ### Code
-- 95 modules, 384/384 tests
+- 96 modules, 393/393 tests
 - Full simulation stack + experimental simulators + dataset analysis
 
 ### Applied-Physics Real Data
@@ -62,6 +62,13 @@
 Residual (speculative, not implementation):
 - why-ℂ assumptions — why exactly ONE phase Ω (single arrow of time) and why reversible dynamics; the §3.4 speculative targets.
 
+### Track B (relational creation)
+- ✅ RC1.2 formalized (`det8/models/relational_creation.py`) — σ_ij / A_ij / L_i / M_iG code-auditable; surfaced two new Track-A falsification levers: **FL-4 κ-reversibility** (latent capacity persists) and **FL-5 κ-transfer** (externalization relocates, not annihilates). See `FALSIFICATION_LEDGER.md`.
+- Next: physical realization of σ/A for FL-4/FL-5 (what material instantiates them; what measurement reads κ-recovery/transfer).
+
+### Falsification (the traction infrastructure)
+- `FALSIFICATION_LEDGER.md` — the register: FL-1 clock (Class I, gated), FL-2/FL-3 almost-quantum + grade-3 discriminators (Class II), FL-4/FL-5 κ-dynamics (formalized), FL-6/FL-7 candidates.
+
 ### Data (§7, matched to DET primitives)
 - Matched-state / different-history ensembles (H₀: K_a = K_b + held-out transport)
 - Alternative-combination counts (I_2, I_3)
@@ -87,5 +94,5 @@ Residual (speculative, not implementation):
 | `NEXT_STEPS.md` | This document. |
 
 ```bash
-python3 run_tests.py   # 384/384 passing
+python3 run_tests.py   # 393/393 passing
 ```
