@@ -66,6 +66,7 @@ Residual (speculative, not implementation):
 - ✅ RC1.2 formalized (`det8/models/relational_creation.py`) — σ_ij / A_ij / L_i / M_iG code-auditable; surfaced two new Track-A falsification levers: **FL-4 κ-reversibility** (latent capacity persists) and **FL-5 κ-transfer** (externalization relocates, not annihilates). See `FALSIFICATION_LEDGER.md`.
 - ✅ FL-4/FL-5 physical realization (`det8/models/relational_realization.py`) — σ/A map onto materials observables (σ↔cohesion, A↔recoverable capacity); FL-4 = the EXTENT test (full vs partial recovery), complementing F9's RATE test.
 - ✅ Structural-proxy bootstrap broken (`det8/models/proxy_bootstrap.py`) — F9-first reordering: F9 needs only τ(T) from raw R(t) (no κ), and the R(t) plateaus define the κ anchors. Reordering, not a bypass — F9 remains the gate.
+- ✅ Observable-anchoring discipline (`docs/observable_anchoring.md`) — DET's goal is an ontology mapped onto OBSERVABLES, not onto interpretations; three-column audit + the no-sneak discriminator test. The sharpened anti-smuggling rule.
 
 ### Falsification (the traction infrastructure)
 - `FALSIFICATION_LEDGER.md` — the register: FL-1 clock (Class I, gated), FL-2/FL-3 almost-quantum + grade-3 discriminators (Class II, **pre-registered**, low-traction one-directional), FL-4 κ-reversibility (**physically realized** — extent test), FL-5 κ-transfer (downstream), FL-6/FL-7 candidates.
@@ -90,6 +91,7 @@ Residual (speculative, not implementation):
 | `GOVERNANCE.md` | Constraints. Complete. |
 | `ROADMAP.md` | Phase history. Updated. |
 | `FALSIFICATION_LEDGER.md` | **The register of every falsifiable prediction + falsifier + status.** |
+| `docs/observable_anchoring.md` | **The discipline: ontology maps onto observables, not onto interpretations.** Three-column audit (Observable/Formalism/Ontology) + the no-sneak discriminator test. |
 | `docs/falsification_protocol.md` | Lab-executable protocol for the three probes. |
 | `docs/applied_physics.md` | Applied-physics program (5 tests + adversary + findings). |
 | `NEXT_STEPS.md` | This document. |

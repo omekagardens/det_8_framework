@@ -175,4 +175,4 @@ DET belongs in this company as a disciplined interpretive framework.
 
 ---
 
-**See also: MODEL_CARD.md (primary), PHYSICS.md, GOVERNANCE.md, ROADMAP.md.**
+**See also: MODEL_CARD.md (primary), PHYSICS.md, GOVERNANCE.md, ROADMAP.md, `docs/observable_anchoring.md` (the ontology-maps-to-observables discipline).**
