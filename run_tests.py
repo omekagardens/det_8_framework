@@ -1517,6 +1517,59 @@ def test_correlation_frontier():
          r["TLM"]["bell_is_quantum"] and not r["TLM"]["pr_box_is_quantum"])
 
 
+# ── Grade-2 Justification (T2a) Tests ──────────────────────────────────────
+
+def test_grade2_justification():
+    from det8.models.pair_kernel import make_pair_kernel
+    from det8.models.grade2_justification import (
+        GradeMeasure, make_grade1_classical, grade_measure_from_pair_kernel,
+        make_grade3_counterexample, negative_result, a_priori_routes,
+        simulate_counts, grade2_discriminator, run_t2a,
+    )
+
+    section("Grade-2 Justification (T2a)")
+
+    # Sorkin hierarchy: grade-1 additive, grade-2 quantum, grade-3 beyond.
+    g1 = make_grade1_classical(4, seed=42)
+    test("T2a: grade-1 (classical) measure is additive",
+         g1.grade() == 1 and g1.is_normalized() and g1.is_positive())
+
+    # grade-2 from a pair-kernel: I_3 = 0, I_2 ≠ 0.
+    g2 = grade_measure_from_pair_kernel(make_pair_kernel(4, seed=42, coherent=True))
+    test("T2a: pair-kernel is grade-2 (all weights ≤ 2)", g2.grade() == 2)
+    test("T2a: pair-kernel I_3 = 0", abs(g2.interference({0}, {1}, {2})) < 1e-9)
+    test("T2a: pair-kernel I_2 ≠ 0 (pairwise interference present)",
+         abs(g2.interference({0}, {1})) > 1e-6)
+
+    # Negative result: grade-3 not forced by normalization + positivity.
+    neg = negative_result()
+    test("T2a: grade-3 measure is normalized", neg["normalized"])
+    test("T2a: grade-3 measure is positive", neg["positive"])
+    test("T2a: grade-3 measure has I_3 ≠ 0", abs(neg["I3"]) > 0.1)
+    test("T2a: grade-3 measure has I_4 = 0", abs(neg["I4"]) < 1e-9)
+    test("T2a: grade-3 measure is grade 3", neg["grade"] == 3)
+
+    # Empirical discriminator: grade-2 vs grade-3 data.
+    counts_g2 = simulate_counts(g2, n_trials=20000, seed=1)
+    counts_g3 = simulate_counts(make_grade3_counterexample(0.25, 4),
+                                n_trials=20000, seed=2)
+    disc_g2 = grade2_discriminator(counts_g2)
+    disc_g3 = grade2_discriminator(counts_g3)
+    test("T2a: discriminator reads grade-2 data as grade-2", disc_g2["grade2"])
+    test("T2a: discriminator reads grade-3 data as not-grade-2",
+         not disc_g3["grade2"])
+    test("T2a: grade-3 data I_3 ≈ δ (3-way interference recovered)",
+         abs(disc_g3["I3"] - 0.25) < 0.05)
+
+    # Honest verdict: a-priori forcing is circular; §7.2 is the discriminator.
+    test("T2a: verdict states the empirical discriminator (§7.2)",
+         "§7.2" in a_priori_routes()["verdict"])
+
+    r = run_t2a()
+    test("T2a: end-to-end run",
+         r["negative_result"]["I3"] != 0.0 and r["discriminator_grade3_data"]["I3"] > 0.1)
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1744,6 +1797,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in correlation_frontier: {e}")
+        traceback.print_exc()
+
+    try:
+        test_grade2_justification()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in grade2_justification: {e}")
         traceback.print_exc()
 
     section("RESULTS")
