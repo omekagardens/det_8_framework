@@ -1,102 +1,71 @@
 # DET v8.0 — Next Steps
 
-**Date:** August 14, 2026
-**Test suite:** 407/407 passing
-**Status:** Framework architecture complete. Theory, derivations, dataset analyses, and continuum-limit modules implemented. Formal continuum proofs remain long-term mathematical work.
+**Date:** August 27, 2026
+**Test suite:** 651/651 passing
+**Status:** Record-Kernel Physics and the RET research program are integrated. The software is internally consistent; empirical validation, independent replication, and several analytic/continuum results remain open.
 
 ---
 
-## What's Been Done (Complete)
+## Completed in the integrated tree
 
-### Theory
-- 10 active + 5 retired correspondence checks
-- 6 open problems addressed (CI/AT, see MODEL_CARD §6)
-- 1 Track A prediction pre-registered (κ-Π clock anomaly)
-- Track B ontological grammar formalized (4 deadlocks)
-- 2-round adversarial red-team review
-- U(1) emergence formalized
-- r_SFR predicted from scaling relations
+- Record-Kernel Physics modules T1–T7, T2a, T6b, the T6 residual, and the complex-structure study are implemented as finite or computed results with their stated caveats.
+- Gravity modification is retired under Option B. Standard GR and standard dark matter remain the physical baseline.
+- The κ-Π clock anomaly is the sole active Track A prediction. It remains gated on F9 and an independent κ measurement.
+- Falsification governance, observable anchoring, applied-physics ingest, and the F9/proxy ladder are implemented.
+- The general Relational Experimental Calculus (RET) supports hierarchical inference, correlated and nonlinear observations, explicit open models, question-conditioned scheduling, immutable evidence provenance, and RG1/RG2 gates.
+- Governed RET adapters cover Exodus apparatus accounting, neutron lifetime, bounded Riemann/Collatz searches, and bounded Navier–Stokes numerical studies.
+- The combined runner covers 651 checks across the upstream and RET research suites.
 
-### Dataset Analysis (9 analyses, all public data)
-| Dataset | Key result |
-|---|---|
-| Atomic clocks | λ_P < 2×10⁻¹⁷ (refined Δκ) |
-| Eötvös (MICROSCOPE) | κ ∝ Z excluded |
-| Flyby anomalies | ppm-level κ differences |
-| SPARC galaxies (135) | Physics-based κ(r): RMS 31.5%, no DM |
-| Galaxy clusters (10) | 98% mass reduction, no DM |
-| Solar system | All 4 GR tests passed |
-| Cluster mass profiles | β-model fits, 94–98% reduction |
-| BAO constraint | \|Δκ\|/κ < 0.02 |
-| r_SFR prediction | From scaling relations, not fitted |
+## Active next work
 
-### Code
-- 98 modules, 407/407 tests
-- Full simulation stack + experimental simulators + dataset analysis
+### 1. Empirical κ/clock program
 
-### Applied-Physics Real Data
-- Full-year 2023 IGS GNSS clock products downloaded (365 daily `IGS0OPSFIN_*_30S_CLK.CLK.gz`, CDDIS)
-- κ-recovery vs IEEE log-aging adversarial on 12 GPS satellites → **null**
-  (κ wins 0/12; IEEE 7/12; quadratic 5/12 — the lone apparent κ win, G11, was
-  a quadratic-trough false positive). See `docs/applied_physics.md` §5.
-- IBM Quantum calibration ingest live (ibm_fez, 156 qubits) + daily launchd poll
-  (`com.det.ibm-poll`)
+1. Execute F9 on raw recovery records \(R(t)\) across temperature, without assuming a κ calibration.
+2. Establish operational plateau anchors and an independent κ preparation/measurement protocol.
+3. Only after those gates pass, run the common-mode atomic-clock universality test.
+4. Treat a null result as a constraint on the product λ_P·Δκ, not as a standalone λ_P measurement.
 
----
+The former torsion-balance, SPARC, cluster, BAO, and κ-gravity programs are historical audit material, not active DET predictions.
 
-## What's Next (theorem program + data)
+### 2. RET experimental and observational work
 
-### Theorem program (`docs/record_kernel_physics.md`)
-- ✅ T1 predictive-history sufficiency — implemented
-- ✅ T2b quadratic commit — implemented
-- ✅ T2a grade-2 justification — implemented (negative result: grade-2 is NOT forced a priori — an explicit normalized positive grade-3 measure with I_3≠0 exists; the discriminator is empirical §7.2)
-- ✅ T3 record formation — implemented
-- ✅ T4 kernel irreversibility (`⟨e^{−Σ}⟩=1−λ`, `⟨Σ⟩≥0`) — implemented
-- ✅ T5 local-kernel continuum (graph Laplacian → diffusion; coefficients from moments) — implemented
-- ✅ T6 correlation class — implemented (local 2 / quantum & almost-quantum 2√2 / no-signalling 4; SOS certificate; Q ⊆ almost-quantum, Q⊊Q̃ cited)
-- ✅ T6b correlation-class frontier — implemented (TLM/Masanes exact Q for (2,2,2), verified on the vector model; B inequality separates Q̃ from Q; NPA convergence makes "global record extendability ⇒ Q" a theorem)
-- ✅ T6 residual (record extendability) — resolved (bare 𝔇-marginal extendability is trivial; the Q̃→Q collapse holds iff "record extendability" is read as the operator-algebra / NPA-moment-matrix consistency, settling the residual)
-- ✅ T7 order-and-count geometry — implemented (kinematic only: order ⇒ null structure, count ⇒ conformal factor, order+count ⇒ dimension; estimator verification on known sprinklings, manifoldlike emergence left open)
-- ✅ why-ℂ (complex field selection) — addressed (ℝ ruled out empirically — real QM falsified; ℂ forced by reversible dynamics O∩Sp=U(m) → J=G⁻¹Ω with J²=−I; ℍ excluded by the single phase Ω)
+- **Exodus:** replace surrogate geometry with measured apparatus dimensions, terminal capacitances, leakage paths, lead routing, and force/charge calibration data. Test conventional endpoint models before opening any history or Earth-fixed channel.
+- **Neutron lifetime:** perform the selected absolute proton-detection audit and add a historically fresh, covariance-documented record before novelty escalation.
+- **Riemann:** use independent interval-certified or equivalent validation before making any claim beyond finite critical-line computations.
+- **Collatz:** preserve the locked higher bands until a candidate passes the frozen calibration and score gates; bounded verification must not be described as a universal proof.
+- **Navier–Stokes:** complete a genuine spatial-and-temporal convergence rectangle and obtain historically fresh replication. Current results remain bounded numerical evidence, not singularity, regularity, or proof claims.
 
-Residual (speculative, not implementation):
-- why-ℂ assumptions — why exactly ONE phase Ω (single arrow of time) and why reversible dynamics; the §3.4 speculative targets.
+### 3. Open mathematical work
 
-### Track B (relational creation)
-- ✅ RC1.2 formalized (`det8/models/relational_creation.py`) — σ_ij / A_ij / L_i / M_iG code-auditable; surfaced two new Track-A falsification levers: **FL-4 κ-reversibility** (latent capacity persists) and **FL-5 κ-transfer** (externalization relocates, not annihilates). See `FALSIFICATION_LEDGER.md`.
-- ✅ FL-4/FL-5 physical realization (`det8/models/relational_realization.py`) — σ/A map onto materials observables (σ↔cohesion, A↔recoverable capacity); FL-4 = the EXTENT test (full vs partial recovery), complementing F9's RATE test.
-- ✅ Structural-proxy bootstrap broken (`det8/models/proxy_bootstrap.py`) — F9-first reordering: F9 needs only τ(T) from raw R(t) (no κ), and the R(t) plateaus define the κ anchors. Reordering, not a bypass — F9 remains the gate.
-- ✅ Observable-anchoring discipline (`docs/observable_anchoring.md`) — DET's goal is an ontology mapped onto OBSERVABLES, not onto interpretations; three-column audit + the no-sneak discriminator test. The sharpened anti-smuggling rule.
+- Born-rule uniqueness from DET axioms rather than amplitude correspondence.
+- Distributional scheduler independence over all admissible linear extensions.
+- Global joint-kernel consistency, analytic no-signalling, and covariance.
+- Why there is exactly one phase form Ω and why the relevant dynamics are reversible.
+- Manifoldlike emergence, embedding uniqueness, and continuum spacetime convergence.
+- Redundant-record stability for the preferred-basis account.
 
-### Falsification (the traction infrastructure)
-- `FALSIFICATION_LEDGER.md` — the register: FL-1 clock (Class I, gated), FL-2/FL-3 almost-quantum + grade-3 discriminators (Class II, **pre-registered**, low-traction one-directional), FL-4 κ-reversibility (**physically realized** — extent test), FL-5 κ-transfer (downstream), FL-6/FL-7 candidates.
+### 4. Repository and reproducibility maintenance
 
-### Data (§7, matched to DET primitives)
-- Matched-state / different-history ensembles (H₀: K_a = K_b + held-out transport)
-- Alternative-combination counts (I_2, I_3)
-- Forward/reverse trajectory datasets (Σ[ω] path irreversibility)
-
-### Clock (late-stage, weakly identified)
-- Common-mode universality test (`y = Bκ + u·1 + ε`); gated on F9 + independent κ.
+- Keep generated bytecode, downloaded datasets, calibration snapshots, virtual environments, and local credentials untracked.
+- Rotate/revoke the IBM Quantum credential referenced by the historical removal commit if it has not already been rotated. Removing a credential in a later commit does not remove it from Git history.
+- Coordinate any history rewrite separately; do not rewrite shared `main` without explicit collaborator agreement.
+- Record future consumed evidence with immutable manifests and preserve all preregistered holdouts.
 
 ---
 
-## Documentation
+## Primary references
 
 | Document | Content |
 |---|---|
-| `MODEL_CARD.md` | **Primary reference.** Complete. |
-| `PHYSICS.md` | Track A. Complete. |
-| `ONTOLOGY.md` | Track B. Complete. |
-| `GOVERNANCE.md` | Constraints. Complete. |
-| `ROADMAP.md` | Phase history. Updated. |
-| `FALSIFICATION_LEDGER.md` | **The register of every falsifiable prediction + falsifier + status.** |
-| `docs/observable_anchoring.md` | **The discipline: ontology maps onto observables, not onto interpretations.** Three-column audit (Observable/Formalism/Ontology) + the no-sneak discriminator test. |
-| `docs/deadlock_adjudication.md` | **Does DET resolve the four deadlocks better than Copenhagen/Many-Worlds/QBism/Bohm?** The argued (not measured) contest. |
-| `docs/falsification_protocol.md` | Lab-executable protocol for the three probes. |
-| `docs/applied_physics.md` | Applied-physics program (5 tests + adversary + findings). |
-| `NEXT_STEPS.md` | This document. |
+| `MODEL_CARD.md` | Primary framework, claim status, RET research summary, and coverage caveats |
+| `GOVERNANCE.md` | Claim register, anti-smuggling rules, decision gates, and RG governance |
+| `FALSIFICATION_LEDGER.md` | Active and retired falsifiers and their status |
+| `docs/observable_anchoring.md` | Observable/formalism/ontology separation |
+| `docs/record_kernel_physics.md` | Record-Kernel Physics theorem program |
+| `docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md` | General RET methodology |
+| `docs/RELATIONAL_RESIDUAL_DISCOVERY.md` | Evidence families, provenance, and RG2 discovery |
+| `docs/NAVIER_STOKES_NEAR_SINGULARITY.md` | Bounded numerical protocol and current limits |
 
 ```bash
-python3 run_tests.py   # 407/407 passing
+python3 run_tests.py   # 651/651 passing
 ```

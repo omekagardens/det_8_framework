@@ -110,7 +110,56 @@ Results require reintroducing agency → reject those physical sectors.
 
 ---
 
-## 7. Confluence & Unitarity
+## 7. RG1 — Relational Experimental Governance
+
+**Rule:** Relational identification precedes ontological extension.
+
+The Relational Experimental Calculus must separate three claims:
+
+1. **Family identification:** a broad relational response family has crossed
+   its declared predictive-support threshold \(\theta_F\).
+2. **Endpoint existence:** an optional relational channel has crossed a
+   stricter novelty threshold \(\theta_N\), with
+   \(\theta_N\geq\theta_F\).
+3. **Parameter characterization:** the supported channel's magnitude and
+   functional dependence have been estimated with declared uncertainty.
+
+No Stage-1 result may be reported as Stage 2 or Stage 3. `M_bottom` support is
+a model-inadequacy result, not evidence for new physics. Posterior model
+probability is conditional predictive support within the declared model set;
+it is not an ontological existence probability.
+
+The governed state sequence is `CALIBRATE → DISCOVER_FAMILY →
+TEST_EXTENSIONS → CHARACTERIZE → CLOSE → CLOSED`, with `MODEL_FAILURE` and
+`INCONCLUSIVE` branches. See
+[`docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md`](docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md).
+
+---
+
+## 8. RG2 — Residual Discovery and Numerical-PDE Boundary
+
+**Rule:** Model generation follows replicated predictive failure.
+
+RG2 may promote a source-disjoint, historically fresh relation only after it
+improves locked prediction, passes diagnostics, and clears a calibrated open-
+model gate. A finite floating-point PDE trajectory is never an
+`EXACT_CERTIFICATE` or `BOUNDED_EXACT_COMPUTATION`: it must set both RG2 exact
+branches false and cannot authorize proof language, finite-time blow-up, or
+global-regularity claims. Numerical admission—resolution, conservation,
+divergence, spectral-tail, and refinement checks—precedes any RG2 evaluation.
+
+The phase-1 Navier–Stokes default suite currently returns
+`NUMERICAL_MODEL_REVISION`; its consumed adaptive branch returns
+`RESOLVED_TRANSIENT_AMPLIFICATION_NO_NEAR_SINGULAR_SCALING`. RG2 remains
+`NOT_EVALUATED_NO_FROZEN_PREDICTIVE_RELATION`: neither branch has a locked
+growth-model holdout or fresh replication. See
+[`docs/NAVIER_STOKES_NEAR_SINGULARITY.md`](docs/NAVIER_STOKES_NEAR_SINGULARITY.md)
+and
+[`docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md`](docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md).
+
+---
+
+## 9. Confluence & Unitarity
 
 **Support confluence (O3):** Same set of reachable final microstates regardless of event ordering. Three cases: timelike (≺ determines order), spacelike disjoint (strong commutativity), spacelike overlapping (support confluence, distributional differences reflect causal order).
 
@@ -118,7 +167,7 @@ Results require reintroducing agency → reject those physical sectors.
 
 ---
 
-## 8. Preferred Basis (O8)
+## 10. Preferred Basis (O8)
 
 Pointer basis = apparatus engineering choice. Any basis can be a pointer basis if the apparatus is built to measure it. Consensus of N commit events redundantly encodes target property in the designed basis.
 

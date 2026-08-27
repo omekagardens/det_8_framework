@@ -263,9 +263,9 @@ det8/models/
 ## 10. Quick Reference
 
 ```bash
-python3 run_tests.py   # 97/97 passing
+python3 run_tests.py   # 651/651 passing in the integrated suite
 ```
 
-The 97/97 test suite verifies internal consistency of the implemented modules. It does not by itself validate the continuum-limit conjectures or the physical existence of κ, Π, or λ_P.
+The 651-test integrated suite verifies internal consistency of the implemented modules. It does not by itself validate the continuum-limit conjectures or the physical existence of κ, Π, or λ_P.
 
 **Primary references:** `MODEL_CARD.md` (overall), this document (continuum limit).

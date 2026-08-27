@@ -169,7 +169,7 @@ Connected to O9-RID (Resurrection Identity Bridge). If a regime's relations are 
 | Facts correspond to committed record states | P (architectural) | \(\mathcal R\) is the record |
 | Possibility precedes fact in DET representation | P/O | \(\Omega \rightarrow \mathcal R\) transition |
 | Future facts are not merely unknown | **M** (F8-dependent) | Cannot empirically distinguish from hidden determinism |
-| Record growth is mathematically coherent | A (toy models) | MAM-0, MAM-Q, 97/97 tests |
+| Record growth is mathematically coherent | A (toy models) | MAM-0 and MAM-Q checks within the 651-test integrated suite |
 | History modifies structural constraints (κ) | A (κ program) | κ-Π clock anomaly pre-registered |
 | History modifies possibility space | M/P | Ω shrinks with κ; formalization needed |
 | Identity persists through material interruption | **M** (O9-RID) | PID-C/PID-M split |

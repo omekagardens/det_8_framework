@@ -1794,6 +1794,2648 @@ def test_proxy_bootstrap():
     test("PB: end-to-end run",
          r["ladder"]["bootstrap_broken"] and r["f9_on_raw"]["requires_kappa_calibration"] is False)
 
+# ── Exodus Translation Tests ───────────────────────────────────────────────────
+
+def test_exodus_simulation():
+    import math
+    from det8.models.exodus_simulation import (
+        MomentumChannel,
+        PATENT_REFERENCE_VOLTAGE_V,
+        PATENT_REPORTED_FORCE_N,
+        boundary_sweep,
+        calibrated_reference_geometry,
+        commit_momentum_channel,
+        equation_13_cycle_average,
+        maxwell_patch_pressure_force,
+        patent_equation_11_force,
+        patent_narrative_cycle_average,
+        run_history_protocol,
+        time_translation_shift,
+    )
+
+    section("Exodus Equations → DET Conservation")
+
+    geometry = calibrated_reference_geometry()
+    force = patent_equation_11_force(geometry, PATENT_REFERENCE_VOLTAGE_V)
+    test("Equation 11 reference calibration",
+         abs(force - PATENT_REPORTED_FORCE_N) < 1e-15)
+
+    half_voltage_force = patent_equation_11_force(
+        geometry, PATENT_REFERENCE_VOLTAGE_V / 2.0
+    )
+    test("Equation 11 has V^2 scaling",
+         abs(half_voltage_force / force - 0.25) < 1e-12)
+    test("Equation 11 is polarity invariant",
+         abs(patent_equation_11_force(
+             geometry, -PATENT_REFERENCE_VOLTAGE_V
+         ) - force) < 1e-15)
+    test("Selected-patch Maxwell pressure is half Equation 11",
+         abs(maxwell_patch_pressure_force(
+             geometry, PATENT_REFERENCE_VOLTAGE_V
+         ) / force - 0.5) < 1e-12)
+
+    internal = commit_momentum_channel(force, 1.0, MomentumChannel.INTERNAL)
+    boundary = commit_momentum_channel(force, 1.0, MomentumChannel.BOUNDARY)
+    orphan = commit_momentum_channel(force, 1.0, MomentumChannel.ORPHAN)
+    test("Internal channel has zero apparatus impulse",
+         internal.det_admissible and abs(internal.apparatus_impulse_kg_m_s) < 1e-15)
+    test("Boundary channel conserves global momentum",
+         boundary.det_admissible
+         and boundary.apparatus_impulse_kg_m_s > 0.0
+         and abs(boundary.global_residual_kg_m_s) < 1e-15)
+    test("Endpoint-free channel is rejected",
+         not orphan.det_admissible and orphan.global_residual_kg_m_s > 0.0)
+
+    sweep = boundary_sweep(force)
+    test("Boundary ansatz decays with wall distance",
+         all(a["apparent_force_n"] > b["apparent_force_n"]
+             for a, b in zip(sweep, sweep[1:])))
+
+    up = run_history_protocol(geometry, (0.0, 30_000.0, 50_000.0))
+    down = run_history_protocol(geometry, (70_000.0, 50_000.0))
+    test("Matched voltage retains declared history difference",
+         down["final"]["history_adjusted_force_n"]
+         > up["final"]["history_adjusted_force_n"])
+
+    exact_phase_zero = equation_13_cycle_average(
+        geometry, PATENT_REFERENCE_VOLTAGE_V, 1_000.0, 0.0
+    )
+    stated_phase_zero = patent_narrative_cycle_average(
+        geometry, PATENT_REFERENCE_VOLTAGE_V, 0.0
+    )
+    test("Equation 13 exact average exposes prose mismatch",
+         abs(exact_phase_zero) < 1e-10 and stated_phase_zero > 0.0,
+         f"exact={exact_phase_zero:.3e}, stated={stated_phase_zero:.3e}")
+
+    shift = time_translation_shift(
+        geometry, PATENT_REFERENCE_VOLTAGE_V, 1_000.0
+    )
+    test("Equation 13 depends on absolute time origin",
+         abs(shift["difference_n"]) > 1e-6)
+
+
+def test_exodus_next_runs():
+    from det8.models.exodus_next_runs import (
+        ac_phase_frequency_grid,
+        calibrate_image_dipole_charge,
+        grounded_plane_dipole_ledger,
+        history_detectability_grid,
+        image_charge_boundary_sweep,
+        noisy_boundary_model_selection,
+        noisy_momentum_inventory,
+    )
+
+    section("Exodus Phase-2 Discriminator Runs")
+
+    charge = calibrate_image_dipole_charge()
+    ledger = grounded_plane_dipole_ledger(0.10, 0.01, charge)
+    test("Image-charge internal forces cancel",
+         abs(ledger["internal_force_sum_n"]) < 1e-15)
+    test("Image-charge reference calibration",
+         abs(abs(ledger["device_boundary_force_n"]) - 237e-6) < 1e-15)
+    test("Grounded-wall reaction closes momentum",
+         abs(ledger["global_residual_n"]) < 1e-15)
+
+    boundary = image_charge_boundary_sweep()
+    forces = [row["force_magnitude_n"] for row in boundary["rows"]]
+    test("Conventional wall force decays with distance",
+         all(a > b for a, b in zip(forces, forces[1:])))
+
+    selection = noisy_boundary_model_selection()
+    test("Boundary sweep recovers image-dipole shape",
+         selection["best_model"] == "image_dipole")
+    test("Boundary model decisively beats constant",
+         selection["fits"]["constant"]["delta_aic"] > 10.0)
+
+    inventory = noisy_momentum_inventory()
+    internal = inventory["scenarios"]["internal"]
+    external = inventory["scenarios"]["external_boundary"]
+    orphan = inventory["scenarios"]["orphan"]
+    test("Internal inventory has no apparatus thrust",
+         internal["apparatus_signal_z"] < 5.0
+         and internal["closure_passes_5sigma"])
+    test("External inventory has thrust and global closure",
+         external["apparatus_signal_z"] > 5.0
+         and external["closure_passes_5sigma"])
+    test("Orphan inventory fails closure",
+         not orphan["closure_passes_5sigma"]
+         and orphan["closure_residual_z"] > 5.0)
+
+    history = history_detectability_grid()
+    zero_rows = [
+        row for row in history["rows"] if row["lambda_history"] == 0.0
+    ]
+    test("Zero history coupling produces no signal",
+         all(row["repeats_per_path_for_target"] is None for row in zero_rows))
+
+    ac = ac_phase_frequency_grid()
+    phase_45 = [row for row in ac["rows"] if row["phase_deg"] == 45.0]
+    test("AC exact and prose curves cross at 45 degrees",
+         all(abs(row["difference_n"]) < 1e-9 for row in phase_45))
+    shift_values = [
+        value["difference_n"]
+        for value in ac["time_translation_shifts"].values()
+    ]
+    test("AC time-origin defect persists across frequency",
+         max(shift_values) - min(shift_values) < 1e-12
+         and min(abs(value) for value in shift_values) > 1e-6)
+
+
+def test_exodus_field_solver():
+    from det8.models.exodus_field_solver import run_field_suite
+
+    section("Exodus Geometry-Aware Field Run")
+
+    suite = run_field_suite()
+    all_cases = (
+        suite["translation_sweep"]
+        + suite["chamber_size_sweep"]
+        + suite["source_topology_sweep"]
+        + suite["grid_refinement"]
+    )
+    test("All electrostatic solves converge",
+         all(case["converged"] for case in all_cases)
+         and all(case["bipolar_converged"]
+                 for case in suite["grid_refinement"]))
+
+    centered = suite["orientation_reversal"]["forward"]
+    reversed_case = suite["orientation_reversal"]["reversed"]
+    test("Centered field ledger closes below 0.1 percent",
+         centered["relative_closure_error"] < 1e-3)
+    test("Reversing electrode geometry reverses force",
+         abs(centered["device_force_n"]["x"]
+             + reversed_case["device_force_n"]["x"]) < 1e-15)
+    test("Centered geometry preserves transverse symmetry",
+         abs(centered["device_force_n"]["y"]) < 1e-15)
+
+    voltage = suite["voltage_scaling"]
+    f20 = voltage[0]["device_force_n"]["x"]
+    f40 = voltage[1]["device_force_n"]["x"]
+    f60 = voltage[2]["device_force_n"]["x"]
+    test("Maxwell force has V-squared scaling",
+         abs(f40 / f20 - 4.0) < 1e-12
+         and abs(f60 / f20 - 9.0) < 1e-12)
+
+    chamber_forces = [
+        abs(case["ledger"]["device_force_n"]["x"])
+        for case in suite["chamber_size_sweep"]
+    ]
+    test("Larger centered chamber reduces boundary force",
+         all(a > b for a, b in zip(chamber_forces, chamber_forces[1:])))
+
+    translated_forces = [
+        abs(case["ledger"]["device_force_n"]["x"])
+        for case in suite["translation_sweep"]
+    ]
+    test("Device translation changes boundary attachment",
+         max(translated_forces) / min(translated_forces) > 100.0)
+
+    fine_grounded_force = abs(
+        suite["grid_refinement"][2]["ledger"]["device_force_n"]["x"]
+    )
+    fine_bipolar_force = abs(
+        suite["grid_refinement"][2]["bipolar_ledger"]["device_force_n"]["x"]
+    )
+    test("Common-mode voltage changes force at fixed differential",
+         fine_bipolar_force < 0.05 * fine_grounded_force)
+    bipolar = suite["grid_refinement"][2]["bipolar_ledger"]
+    test("Bipolar source topology preserves global closure",
+         abs(bipolar["global_residual_n"]["x"]) < 1e-8)
+
+    refinement = suite["grid_refinement"]
+    closure_errors = [case["ledger"]["relative_closure_error"]
+                      for case in refinement]
+    base_force = abs(refinement[1]["ledger"]["device_force_n"]["x"])
+    fine_force = abs(refinement[2]["ledger"]["device_force_n"]["x"])
+    test("Grid refinement improves closure and stabilizes force",
+         closure_errors[0] > closure_errors[1] > closure_errors[2]
+         and abs(fine_force / base_force - 1.0) < 0.10)
+
+
+def test_exodus_floating_supply():
+    from det8.models.exodus_floating_supply import run_floating_supply_suite
+
+    section("Exodus Floating-Source Run")
+
+    suite = run_floating_supply_suite()
+    solver = suite["solver"]
+    cap = suite["capacitance"]
+    topologies = suite["topologies"]
+    grounded = topologies["grounded_return"]
+    bipolar = topologies["arbitrary_bipolar"]
+    floating = topologies["floating_neutral"]
+    refinement = suite["grid_refinement"]
+
+    test("Both capacitance basis fields converge",
+         solver["basis_high_converged"]
+         and solver["basis_return_converged"]
+         and all(case["basis_high_converged"]
+                 and case["basis_return_converged"]
+                 for case in refinement))
+    test("Extracted capacitance matrix has passive conductor signs",
+         cap["c_hh_f"] > 0.0 and cap["c_rr_f"] > 0.0
+         and cap["c_hr_f"] < 0.0 and cap["c_rh_f"] < 0.0
+         and cap["device_common_capacitance_f"] > 0.0)
+    test("Grid-extracted capacitance matrix is reciprocal",
+         cap["raw_reciprocity_relative_error"] < 1e-4)
+
+    drive_v = suite["model"]["drive_voltage_v"]
+    test("Every source topology preserves the differential voltage",
+         all(abs(state["high_v"] - state["return_v"] - drive_v) < 1e-9
+             for state in topologies.values()))
+    electrode_charge_scale = max(
+        abs(floating["direct_charge"]["high_c"]),
+        abs(floating["direct_charge"]["return_c"]),
+    )
+    test("Floating common mode enforces neutral device charge",
+         abs(floating["matrix_charge"]["device_c"]) < 1e-20
+         and abs(floating["direct_charge"]["device_c"])
+         < 2e-5 * electrode_charge_scale)
+    test("Direct surface-charge inventory closes over chamber",
+         abs(floating["direct_charge"]["all_conductors_residual_c"])
+         < 1e-4 * electrode_charge_scale)
+
+    grounded_force = abs(grounded["ledger"]["device_force_n"]["x"])
+    floating_force = abs(floating["ledger"]["device_force_n"]["x"])
+    test("Neutral floating source suppresses grounded boundary force",
+         floating_force < 0.10 * grounded_force
+         and floating_force > abs(bipolar["ledger"]["device_force_n"]["x"])
+         and all(case["floating_neutral"]["ledger"]
+                     ["device_force_n"]["x"] > 0.0
+                 for case in refinement)
+         and max(abs(case["floating_neutral"]["ledger"]
+                         ["device_force_n"]["x"])
+                     for case in refinement)
+         / min(abs(case["floating_neutral"]["ledger"]
+                         ["device_force_n"]["x"])
+                     for case in refinement) < 2.0)
+    test("Floating Maxwell ledger closes with chamber reaction",
+         floating["ledger"]["relative_closure_error"] < 1e-3
+         and all(a > b for a, b in zip(
+             [case["floating_neutral"]["ledger"]["relative_closure_error"]
+              for case in refinement],
+             [case["floating_neutral"]["ledger"]["relative_closure_error"]
+              for case in refinement][1:])))
+
+    charge_forces = [
+        point["ledger"]["device_force_n"]["x"]
+        for point in suite["charge_sweep"]
+    ]
+    test("Net-charge sweep continuously reverses boundary force",
+         all(a > b for a, b in zip(charge_forces, charge_forces[1:]))
+         and charge_forces[0] > 0.0 > charge_forces[-1])
+
+    stray = suite["stray_capacitance_sweep"]
+    leakage = suite["return_leakage_sweep"]
+    test("Stray capacitance and return leakage move the floating state",
+         abs(stray[-1]["common_mode_v"]) < abs(stray[0]["common_mode_v"])
+         and abs(stray[-1]["ledger"]["device_force_n"]["x"])
+         < abs(stray[0]["ledger"]["device_force_n"]["x"])
+         and abs(leakage[-1]["ledger"]["device_force_n"]["x"]
+                 - grounded["ledger"]["device_force_n"]["x"])
+         < 0.01 * grounded_force)
+
+
+def test_exodus_apparatus_3d():
+    from det8.models.exodus_apparatus_3d import run_apparatus_3d_suite
+
+    section("Exodus 3-D Apparatus Run")
+
+    suite = run_apparatus_3d_suite()
+    routes = suite["lead_routing_sweep"]
+    refinement = suite["grid_refinement"]
+    topologies = suite["topologies"]
+    grounded = topologies["grounded_return"]
+    bipolar = topologies["arbitrary_bipolar"]
+    floating = topologies["floating_neutral"]
+
+    test("All 3-D capacitance basis fields converge",
+         all(case["basis_high_converged"]
+                 and case["basis_return_converged"] for case in routes)
+         and all(case["basis_high_converged"]
+                 and case["basis_return_converged"] for case in refinement))
+    test("3-D capacitance matrices have passive conductor signs",
+         all(case["capacitance"]["c_hh_f"] > 0.0
+                 and case["capacitance"]["c_rr_f"] > 0.0
+                 and case["capacitance"]["c_hr_f"] < 0.0
+                 and case["capacitance"]["c_rh_f"] < 0.0
+                 and case["capacitance"]["device_common_capacitance_f"] > 0.0
+                 for case in routes))
+    test("3-D grid-extracted capacitance is reciprocal",
+         all(case["capacitance"]["raw_reciprocity_relative_error"] < 1e-4
+                 for case in routes))
+
+    drive_v = suite["model"]["drive_voltage_v"]
+    test("3-D source topologies preserve differential voltage",
+         all(abs(state["high_v"] - state["return_v"] - drive_v) < 1e-9
+             for state in topologies.values()))
+    charge_scale = max(
+        abs(floating["direct_charge"]["high_c"]),
+        abs(floating["direct_charge"]["return_c"]),
+    )
+    test("3-D floating solution enforces device charge neutrality",
+         abs(floating["matrix_charge"]["device_c"]) < 1e-20
+         and abs(floating["direct_charge"]["device_c"])
+         < 2e-6 * charge_scale)
+    test("3-D conductor charge closes through the chamber",
+         abs(floating["direct_charge"]["all_conductors_residual_c"])
+         < 5e-6 * charge_scale)
+
+    route_by_name = {case["lead_routing"]: case for case in routes}
+    no_lead_force = route_by_name["none"]["floating_neutral"]["ledger"]["device_force_n"]
+    same_end_force = route_by_name["same_end"]["floating_neutral"]["ledger"]["device_force_n"]
+    opposite_force = route_by_name["opposite_ends"]["floating_neutral"]["ledger"]["device_force_n"]
+    test("Explicit leads expose dominant wall-normal chamber force",
+         abs(no_lead_force["z"]) < 1e-12
+         and abs(same_end_force["z"]) > 10.0 * abs(same_end_force["x"])
+         and abs(opposite_force["z"]) < 0.15 * abs(same_end_force["z"]))
+
+    route_closure = [
+        case["floating_neutral"]["ledger"]["relative_closure_error"]
+        for case in routes
+    ]
+    refinement_closure = [
+        case["floating_neutral"]["ledger"]["relative_closure_error"]
+        for case in refinement
+    ]
+    test("3-D chamber reaction closes and improves with refinement",
+         max(route_closure) < 0.01
+         and all(a > b for a, b in zip(
+             refinement_closure, refinement_closure[1:])))
+
+    cap_ratio_one = [
+        point for point in suite["terminal_capacitance_sweep"]
+        if point["external_to_device_common_capacitance_ratio"] == 1.0
+    ]
+    cap_forces = [point["ledger"]["device_force_n"]["x"]
+                  for point in cap_ratio_one]
+    test("Terminal-capacitance imbalance reverses axial force",
+         cap_forces[0] < 0.0 < cap_forces[-1]
+         and abs(cap_forces[2]) < 0.02 * max(abs(cap_forces[0]),
+                                             abs(cap_forces[-1])))
+
+    endpoints = {point["leakage_path"]: point
+                 for point in suite["leakage_endpoint_sweep"]}
+    leakage = suite["return_leakage_sweep"]
+    test("Leakage path selects grounded, bipolar, or reversed endpoint",
+         endpoints["return_only"]["ledger"]["device_force_n"]
+         == grounded["ledger"]["device_force_n"]
+         and endpoints["symmetric"]["ledger"]["device_force_n"]
+         == bipolar["ledger"]["device_force_n"]
+         and endpoints["high_only"]["ledger"]["device_force_n"]["x"] > 0.0
+         and abs(leakage[-1]["ledger"]["device_force_n"]["x"]
+                 - grounded["ledger"]["device_force_n"]["x"])
+         < 0.01 * abs(grounded["ledger"]["device_force_n"]["x"]))
+
+
+def test_exodus_relational_tomography():
+    from det8.models.exodus_relational_tomography import (
+        BASE_COMMON_MODE_KV,
+        BASE_DEVICE_FORCE_N,
+        axial_force_shape_n,
+        intervention_conditions,
+        run_relational_tomography_suite,
+        wall_force_shape_n,
+    )
+
+    section("Exodus Relational Endpoint Tomography")
+
+    suite = run_relational_tomography_suite()
+    single = suite["single_model_selection"]
+    monte_carlo = suite["monte_carlo_endpoint_recovery"]["rows"]
+    rotation = {case["name"]: case
+                for case in suite["rotation_signature"]["cases"]}
+    closure = suite["nested_regime_closure"]
+    history = suite["matched_state_history"]["scenarios"]
+
+    test("Reduced-order response reproduces calibrated 3-D force",
+         abs(axial_force_shape_n(BASE_COMMON_MODE_KV)
+             - BASE_DEVICE_FORCE_N[0]) < 1e-12
+         and abs(wall_force_shape_n(BASE_COMMON_MODE_KV)
+                 - BASE_DEVICE_FORCE_N[2]) < 1e-12)
+
+    conditions = intervention_conditions()
+    test("Tomography independently spans all declared interventions",
+         len(conditions) == 144
+         and {condition.lead_routing for condition in conditions}
+         == {"none", "same_end", "opposite_ends"}
+         and {condition.preparation_sign for condition in conditions} == {-1, 1})
+
+    test("Conservative selection recovers the relational endpoint model",
+         single["best_model_bic"] == "full_relational"
+         and single["best_model_aic"]
+         in {"full_relational", "full_plus_earth", "full_plus_history"}
+         and single["fits"]["device_internal"]["delta_bic"] > 1000.0)
+    coefficients = single["fits"]["full_relational"]["coefficients"]
+    test("Tomography recovers calibrated chamber and lead amplitudes",
+         abs(coefficients["boundary_electrode"] - 1.0) < 0.02
+         and abs(coefficients["lead_boundary"] - 1.0) < 0.02)
+
+    test("Interventions identify the relational family through high noise",
+         all(row["aic_relational_family_win_fraction"] == 1.0
+                 and row["bic_relational_family_win_fraction"] == 1.0
+                 for row in monte_carlo))
+    test("BIC suppresses spurious Earth and history additions",
+         min(row["bic_full_relational_win_fraction"]
+             for row in monte_carlo) >= 0.95)
+
+    reference = rotation["reference"]["force_n"]
+    device_rotated = rotation["rotate_device_only_90"]["force_n"]
+    chamber_reversed = rotation["reverse_chamber_only_180"]["force_n"]
+    test("Independent rotations separate device and chamber vectors",
+         abs(device_rotated["x"]) < 1e-15
+         and abs(device_rotated["y"] - reference["x"]) < 1e-15
+         and abs(device_rotated["z"] - reference["z"]) < 1e-15
+         and abs(chamber_reversed["x"] - reference["x"]) < 1e-15
+         and abs(chamber_reversed["z"] + reference["z"]) < 1e-15)
+
+    cuts = {cut["cut"]: cut for cut in closure["cuts"]}
+    test("Expanding the DET regime cut locates the missing endpoint",
+         not cuts["apparatus_only"]["det_conservation_gate"]
+         and cuts["apparatus_plus_chamber_grid"]["det_conservation_gate"]
+         and cuts["continuum_extrapolated_closed_regime"]["residual_norm_n"] == 0.0
+         and closure["closure_improvement_factor"] > 90.0)
+
+    electrical_only = history["electrical_memory_only"]
+    test("Electrical relaxation can imitate uncorrected history",
+         electrical_only["naive_force_comparison"]["z_score"] > 10.0
+         and electrical_only["electrical_state_corrected_comparison"]["z_score"] < 3.0)
+    injected = history["injected_5uN_history"]
+    test("Injected matched-state history survives electrical correction",
+         injected["electrical_state_corrected_comparison"]["z_score"] > 5.0
+         and abs(injected["electrical_state_corrected_comparison"]
+                     ["path_difference_n"] - 5e-6) < 1.5e-6)
+
+
+def test_exodus_adaptive_scheduler():
+    from det8.models.exodus_adaptive_scheduler import (
+        EARTH_CHANNEL_EFFECT_N,
+        HISTORY_CHANNEL_DIFFERENCE_N,
+        HYPOTHESIS_NAMES,
+        hypothesis_predictions,
+        run_adaptive_scheduler_suite,
+    )
+    from det8.models.exodus_relational_tomography import TomographyCondition
+
+    section("Exodus Adaptive Information Scheduler")
+
+    suite = run_adaptive_scheduler_suite()
+    ranking = suite["initial_information_ranking"]
+    example = suite["example_adaptive_schedule"]
+    benchmark = suite["scheduler_benchmark"]
+    ablations = {case["available_control_set"]: case
+                 for case in suite["intervention_ablation"]["cases"]}
+    novel = {case["truth_model"]: case
+             for case in suite["novel_channel_recovery"]["cases"]}
+
+    condition = TomographyCondition(
+        wall_distance_m=0.08,
+        common_mode_kv=-6.0,
+        lead_routing="same_end",
+        device_angle_deg=0.0,
+        chamber_angle_deg=0.0,
+        preparation_sign=1,
+    )
+    predictions = hypothesis_predictions(condition)
+    test("Scheduler represents all declared endpoint hypotheses",
+         set(predictions) == set(HYPOTHESIS_NAMES))
+    test("Novel-channel hypotheses add only their declared signatures",
+         abs(predictions["full_plus_earth"][0]
+             - predictions["full_relational"][0]
+             - EARTH_CHANNEL_EFFECT_N) < 1e-15
+         and abs(predictions["full_plus_history"][0]
+                 - predictions["full_relational"][0]
+                 - 0.5 * HISTORY_CHANNEL_DIFFERENCE_N) < 1e-15)
+
+    top_condition = ranking[0]["condition"]
+    test("Initial scheduler prioritizes a high-contrast boundary condition",
+         top_condition["wall_distance_m"] == 0.08
+         and top_condition["lead_routing"] == "same_end"
+         and ranking[0]["predictive_disagreement_bits"]
+         > ranking[-1]["predictive_disagreement_bits"])
+    test("Adaptive example identifies the endpoint family in one step",
+         example["threshold_achieved"]
+         and example["steps_to_threshold"] == 1
+         and example["final_target_probability"] > 0.95)
+    test("Endpoint-family success does not certify a novel submodel",
+         max(example["final_posterior"].values()) < 0.95
+         and abs(sum(example["final_posterior"].values()) - 1.0) < 1e-12)
+
+    test("Adaptive scheduling beats random intervention order",
+         benchmark["adaptive"]["success_fraction"] == 1.0
+         and benchmark["random"]["success_fraction"] == 1.0
+         and benchmark["adaptive"]["median_steps_capped"] == 1.0
+         and benchmark["median_step_reduction"] >= 2.0)
+    test("A single static geometry cannot identify the endpoint family",
+         ablations["all_controls"]["threshold_achieved"]
+         and not ablations["single_static_geometry"]["threshold_achieved"]
+         and ablations["single_static_geometry"]["final_target_probability"] < 0.80)
+
+    test("Adaptive rotation detects an injected Earth-fixed channel",
+         novel["full_plus_earth"]["threshold_achieved"]
+         and novel["full_plus_earth"]["selected_model"] == "full_plus_earth"
+         and novel["full_plus_earth"]["steps_to_threshold"] == 1)
+    test("Adaptive preparation detects injected matched-state history",
+         novel["full_plus_history"]["threshold_achieved"]
+         and novel["full_plus_history"]["selected_model"] == "full_plus_history"
+         and novel["full_plus_history"]["steps_to_threshold"] <= 15)
+    test("Absence of a novel channel selects the conservative model",
+         novel["full_relational"]["selected_model"] == "full_relational"
+         and novel["full_relational"]["threshold_achieved"]
+         and novel["full_relational"]["truth_probability"] > 0.95)
+
+
+def test_relational_experimental_calculus():
+    from det8.models.examples.exodus_tomography import run_exodus_ret_fixture
+    from det8.models.examples.thermal_drift_tomography import run_thermal_ret_fixture
+    from det8.models.relational_closure import ConservedTransfer, closure_ladder
+    from det8.models.relational_scheduler import (
+        CostWeights,
+        GovernanceThresholds,
+        expected_nuisance_information_bits,
+        expected_question_information_bits,
+        practical_burden,
+    )
+    from det8.models.relational_tomography import (
+        OPEN_MODEL_NAME,
+        POSTERIOR_IS_NOT_ONTOLOGY,
+        GaussianPrior,
+        PracticalCost,
+        Question,
+        RelationalAction,
+        RelationalModel,
+        endpoint_inclusion_probability,
+        initialize_ret_posterior,
+        parameter_summary,
+        question_probabilities,
+        update_ret_posterior,
+    )
+
+    section("Relational Experimental Calculus")
+
+    models = [
+        RelationalModel("spike", "absent", {}, 0.0),
+        RelationalModel(
+            "slab",
+            "present",
+            {"amplitude": GaussianPrior(0.0, 2.0)},
+            2.0,
+        ),
+    ]
+    posterior = initialize_ret_posterior(
+        models,
+        complexity_penalty=1.0,
+        open_model_prior=0.02,
+        open_model_scale=10.0,
+    )
+    question = Question(
+        "endpoint",
+        {"spike": "absent", "slab": "present"},
+    )
+    action = RelationalAction(
+        "probe",
+        "science",
+        (0.0,),
+        {"amplitude": (1.0,)},
+    )
+
+    test("RET priors normalize with an explicit open model",
+         abs(sum(posterior.model_weights.values()) - 1.0) < 1e-12
+         and posterior.model_weights[OPEN_MODEL_NAME] == 0.02)
+    test("Complexity priors penalize the larger declared model",
+         posterior.model_weights["spike"] > posterior.model_weights["slab"])
+    test("Optional endpoints use spike-and-slab inclusion",
+         abs(endpoint_inclusion_probability(posterior, "amplitude")
+             - posterior.model_weights["slab"]) < 1e-12)
+    answers = question_probabilities(posterior, question)
+    test("Scientific questions aggregate models and preserve M_bottom",
+         abs(sum(answers.values()) - 1.0) < 1e-12
+         and answers["model_inadequate"] == 0.02)
+
+    updated = update_ret_posterior(posterior, action, (1.73,), 0.1)
+    amplitude = parameter_summary(updated, "slab")["amplitude"]
+    test("Hierarchical inference recovers a non-grid amplitude",
+         abs(float(amplitude["mean"]) - 1.73) < 0.02)
+    test("Parameter uncertainty contracts after an informative action",
+         float(amplitude["standard_deviation"]) < 0.11)
+    test("Endpoint inclusion responds to the accumulated record",
+         endpoint_inclusion_probability(updated, "amplitude") > 0.90)
+
+    attacked = update_ret_posterior(posterior, action, (100.0,), 0.1)
+    test("M_bottom catches observations outside the declared model set",
+         attacked.model_weights[OPEN_MODEL_NAME] > 0.99)
+    test("Question-conditioned expected information is positive",
+         expected_question_information_bits(
+             posterior, action, 0.1, question, samples_per_model=24, seed=11
+         ) > 0.0)
+
+    nuisance_model = RelationalModel(
+        "biased",
+        "instrument",
+        {"bias": GaussianPrior(0.0, 2.0, "nuisance")},
+    )
+    nuisance_posterior = initialize_ret_posterior(
+        [nuisance_model], open_model_prior=0.01, open_model_scale=10.0
+    )
+    calibration = RelationalAction(
+        "reference",
+        "calibration",
+        (10.0,),
+        {"bias": (1.0,)},
+        PracticalCost(time=0.1),
+    )
+    test("Calibration actions expose nuisance information",
+         expected_nuisance_information_bits(
+             nuisance_posterior, calibration, 0.1, ("bias",)
+         ) > 3.0)
+    expensive = RelationalAction(
+        "expensive_probe",
+        "science",
+        (0.0,),
+        {"amplitude": (1.0,)},
+        PracticalCost(time=4.0, money=2.0, risk=1.0, wear=0.5),
+    )
+    cost_weights = CostWeights(time=1.0, money=1.0, risk=1.0, wear=1.0)
+    test("Practical costs enter the scheduler objective",
+         practical_burden(expensive, cost_weights)
+         > practical_burden(action, cost_weights))
+    try:
+        GovernanceThresholds(family_probability=0.95, novelty_probability=0.90)
+        test("RG1 requires a stricter novelty gate", False, "should have raised")
+    except ValueError:
+        test("RG1 requires a stricter novelty gate", True)
+    test("Posterior support is explicitly not called ontology",
+         "not an ontological existence probability" in POSTERIOR_IS_NOT_ONTOLOGY)
+
+    closure = closure_ladder(
+        [ConservedTransfer("device", "environment", (3.0, -4.0))],
+        (("device",), ("device", "environment")),
+        tolerance=1e-12,
+    )
+    test("An apparatus-only regime exposes a transfer residual",
+         not closure["cuts"][0]["closed"]
+         and closure["cuts"][0]["residual_norm"] == 5.0)
+    test("Expanding to both endpoints closes conserved transfer",
+         closure["first_closed_cut_index"] == 1
+         and closure["cuts"][1]["closed"])
+
+    exodus = run_exodus_ret_fixture()
+    earth = exodus["hierarchical_earth_characterization"]
+    estimate = earth["full_plus_earth_parameter"]
+    test("Exodus begins with calibration governance",
+         exodus["initial_state"]["state"] == "CALIBRATE")
+    test("Relational family identification precedes extension testing",
+         exodus["post_first_action_state"]["state"] == "TEST_EXTENSIONS")
+    test("Exodus characterizes arbitrary Earth coupling hierarchically",
+         earth["earth_inclusion_probability"] > 0.99
+         and estimate["lower_95"]
+         < exodus["declared_truth_earth_amplitude_n"]
+         < estimate["upper_95"])
+    test("Severe Exodus misspecification enters MODEL_FAILURE",
+         exodus["model_failure_attack"]["open_model_probability"] > 0.99
+         and exodus["model_failure_attack"]["state"]["state"] == "MODEL_FAILURE")
+
+    thermal = run_thermal_ret_fixture()
+    test("Non-Exodus RET selects calibration and question-specific actions",
+         thermal["initial_top_action"]["kind"] == "calibration"
+         and thermal["ambient_question_top_action"]["action"]
+         != thermal["history_question_top_action"]["action"])
+
+
+def test_neutron_lifetime_adapter():
+    import math
+
+    from det8.models.examples.neutron_lifetime import (
+        assimilate_joint_published_records,
+        assimilate_published_records,
+        initialize_neutron_posterior,
+        neutron_questions,
+        neutron_survival_curve_action,
+        published_lifetime_records,
+        published_record_action,
+        run_neutron_lifetime_fixture,
+        run_neutron_truth_suite,
+    )
+    from det8.models.relational_tomography import (
+        parameter_summary,
+        predictive_distribution,
+        response_for_parameters,
+        update_ret_posterior,
+    )
+
+    section("Neutron Lifetime RET Adapter")
+
+    records = published_lifetime_records()
+    test("Adapter declares three independent aggregate records",
+         len(records) == 3
+         and {record.readout for record in records}
+         == {"proton", "survivor", "electron"})
+
+    proton_action = published_record_action(records[0])
+    bottle_action = published_record_action(records[1])
+    electron_action = published_record_action(records[2])
+    test("Adapter separates confinement method from decay readout",
+         proton_action.feature_vectors["proton_pipeline_bias_s"] == (1.0,)
+         and electron_action.feature_vectors["proton_pipeline_bias_s"] == (0.0,)
+         and proton_action.feature_vectors["exotic_beta_shift_s"] == (1.0,)
+         and electron_action.feature_vectors["exotic_beta_shift_s"] == (1.0,)
+         and bottle_action.feature_vectors["exotic_beta_shift_s"] == (0.0,)
+         and neutron_questions()["discrepancy_source"].answer(
+             "neutron_proton_pipeline"
+         ) != neutron_questions()["discrepancy_source"].answer(
+             "neutron_bottle_storage"
+         ))
+
+    prior = initialize_neutron_posterior()
+    test("Novel decay begins below conventional model families",
+         prior.model_weights["neutron_exotic_decay"]
+         < prior.model_weights["neutron_proton_pipeline"]
+         and prior.model_weights["M_bottom"] == 0.03)
+
+    _, trace = assimilate_published_records()
+    test("NIST proton-beam record initially favors the common model",
+         max(trace[0]["model_weights"], key=trace[0]["model_weights"].get)
+         == "neutron_common")
+    test("Adding the precise bottle record rejects one unshifted mean",
+         trace[1]["model_weights"]["neutron_common"] < 0.001)
+    test("J-PARC electron readout shifts support toward proton specificity",
+         trace[2]["model_weights"]["neutron_proton_pipeline"]
+         > trace[1]["model_weights"]["neutron_proton_pipeline"]
+         and trace[2]["model_weights"]["neutron_exotic_decay"]
+         < trace[1]["model_weights"]["neutron_exotic_decay"])
+
+    sequential_posterior, _ = assimilate_published_records()
+    joint_posterior = assimilate_joint_published_records()
+    test("Zero-correlation joint likelihood matches sequential assimilation",
+         max(abs(sequential_posterior.model_weights[name]
+                 - joint_posterior.model_weights[name])
+             for name in sequential_posterior.model_weights) < 1e-12)
+
+    fixture = run_neutron_lifetime_fixture()
+    test("Published records remain inside the declared model envelope",
+         fixture["literature_posterior"]["M_bottom"] < 0.01)
+    test("Proton-pipeline model leads without reaching ontology",
+         0.75 < fixture["literature_posterior"]["neutron_proton_pipeline"] < 0.90)
+
+    parameters = fixture["proton_pipeline_parameters"]
+    lifetime = 880.0 + parameters["lifetime_offset_s"]["mean"]
+    proton_bias = parameters["proton_pipeline_bias_s"]
+    test("Hierarchical fit recovers low lifetime plus proton offset",
+         abs(lifetime - 877.75) < 0.5
+         and 8.0 < proton_bias["mean"] < 11.0
+         and proton_bias["lower_95"] > 0.0)
+    test("Electron-beam record suppresses generic exotic decay",
+         fixture["exotic_endpoint_inclusion_probability"] < 0.05)
+    test("Literature posterior requests calibration before novelty",
+         fixture["literature_state"]["state"] == "CALIBRATE")
+    test("Scheduler selects an absolute proton audit next",
+         fixture["source_question_top_action"]["action"]
+         == "absolute_proton_flux_audit"
+         and fixture["source_question_top_action"]["kind"] == "calibration")
+    sensitivity = fixture["correlation_sensitivity"]
+    proton_probabilities = [
+        row["model_weights"]["neutron_proton_pipeline"]
+        for row in sensitivity
+    ]
+    test("Declared cross-record correlation materially changes support",
+         max(proton_probabilities) - min(proton_probabilities) > 0.15)
+    test("Selected audit combines question and nuisance information",
+         fixture["source_question_top_action"]["question_information_bits"] > 0.0
+         and fixture["source_question_top_action"]["nuisance_information_bits"] > 1.0)
+
+    next_run = fixture["synthetic_next_observation"]
+    test("Positive audit identifies the conventional pipeline family",
+         next_run["posterior"]["neutron_proton_pipeline"] > 0.99
+         and next_run["state"]["state"] == "CLOSE")
+    test("Impossible lifetime enters the open-model failure branch",
+         fixture["model_failure_attack"]["open_model_probability"] > 0.99
+         and fixture["model_failure_attack"]["state"]["state"]
+         == "MODEL_FAILURE")
+
+    survival_action = neutron_survival_curve_action()
+    survival_covariance = ((4e-6, 1.5e-6), (1.5e-6, 9e-6))
+    survival_mean, survival_prediction_covariance = predictive_distribution(
+        initialize_neutron_posterior(),
+        "neutron_common",
+        survival_action,
+        survival_covariance,
+    )
+    plug_in_mean = (
+        math.exp(-200.0 / 880.0),
+        math.exp(-1_000.0 / 880.0),
+    )
+    test("Neutron survival action uses nonlinear correlated prediction",
+         survival_action.is_nonlinear
+         and survival_prediction_covariance[0][1] != 0.0
+         and max(abs(a - b) for a, b in zip(
+             survival_mean, plug_in_mean
+         )) > 1e-6)
+
+    survival_truth = response_for_parameters(
+        survival_action, {"lifetime_offset_s": -2.25}
+    )
+    survival_updated = update_ret_posterior(
+        initialize_neutron_posterior(),
+        survival_action,
+        survival_truth,
+        survival_covariance,
+    )
+    survival_parameter = parameter_summary(
+        survival_updated, "neutron_common"
+    )["lifetime_offset_s"]
+    test("Nonlinear survival fractions update lifetime hierarchically",
+         survival_parameter["mean"] < 0.0
+         and survival_parameter["standard_deviation"] < 6.0)
+
+    truth_suite = run_neutron_truth_suite()
+    test("Adaptive suite recovers every declared neutron truth family",
+         truth_suite["all_recovered"]
+         and min(case["expected_model_probability"]
+                 for case in truth_suite["cases"]) > 0.80)
+
+
+def test_ret_correlated_nonlinear_core():
+    import random
+
+    from det8.models.relational_scheduler import SchedulerObjective, rank_actions
+    from det8.models.relational_tomography import (
+        GaussianPrior,
+        Question,
+        RelationalAction,
+        RelationalModel,
+        gaussian_log_likelihood,
+        initialize_ret_posterior,
+        parameter_summary,
+        predictive_distribution,
+        response_for_parameters,
+        sample_predictive,
+        update_ret_posterior,
+    )
+
+    section("RET Correlated Covariance and Nonlinear Observations")
+
+    fixed = RelationalModel("fixed", "fixed", {})
+    fixed_posterior = initialize_ret_posterior(
+        [fixed], open_model_prior=0.01, open_model_scale=10.0
+    )
+    vector_action = RelationalAction("vector", "science", (0.0, 0.0), {})
+    correlated = ((1.0, 0.8), (0.8, 1.0))
+    mean, covariance = predictive_distribution(
+        fixed_posterior, "fixed", vector_action, correlated
+    )
+    test("Full observation covariance is preserved",
+         mean == (0.0, 0.0) and covariance == correlated)
+    test("Correlation changes likelihood geometry",
+         gaussian_log_likelihood((1.0, 1.0), mean, covariance)
+         > gaussian_log_likelihood((1.0, -1.0), mean, covariance))
+
+    scalar_mean, scalar_covariance = predictive_distribution(
+        fixed_posterior, "fixed", vector_action, 1.0
+    )
+    diagonal_mean, diagonal_covariance = predictive_distribution(
+        fixed_posterior,
+        "fixed",
+        vector_action,
+        ((1.0, 0.0), (0.0, 1.0)),
+    )
+    test("Scalar noise remains backward-compatible with diagonal covariance",
+         scalar_mean == diagonal_mean
+         and scalar_covariance == diagonal_covariance)
+
+    try:
+        predictive_distribution(
+            fixed_posterior,
+            "fixed",
+            vector_action,
+            ((1.0, 0.5), (0.2, 1.0)),
+        )
+        test("Nonsymmetric covariance is rejected", False, "should have raised")
+    except ValueError:
+        test("Nonsymmetric covariance is rejected", True)
+    try:
+        predictive_distribution(
+            fixed_posterior,
+            "fixed",
+            vector_action,
+            ((1.0, 2.0), (2.0, 1.0)),
+        )
+        test("Non-positive covariance is rejected", False, "should have raised")
+    except ValueError:
+        test("Non-positive covariance is rejected", True)
+
+    two_parameter = RelationalModel(
+        "two_parameter",
+        "vector",
+        {"a": GaussianPrior(0.0, 1.0), "b": GaussianPrior(0.0, 1.0)},
+    )
+    two_posterior = initialize_ret_posterior(
+        [two_parameter], open_model_prior=0.01, open_model_scale=10.0
+    )
+    direct_action = RelationalAction(
+        "direct_vector",
+        "science",
+        (0.0, 0.0),
+        {"a": (1.0, 0.0), "b": (0.0, 1.0)},
+    )
+    two_updated = update_ret_posterior(
+        two_posterior,
+        direct_action,
+        (1.0, -1.0),
+        ((0.25, 0.20), (0.20, 0.25)),
+    )
+    two_state = two_updated.parameters["two_parameter"]
+    test("Correlated errors induce posterior parameter covariance",
+         abs(two_state.covariance[0][1]) > 0.01
+         and abs(two_state.covariance[0][1] - two_state.covariance[1][0]) < 1e-12)
+
+    nonlinear_model = RelationalModel(
+        "nonlinear",
+        "curved",
+        {"theta": GaussianPrior(2.0, 0.5)},
+    )
+    nonlinear_posterior = initialize_ret_posterior(
+        [nonlinear_model], open_model_prior=0.01, open_model_scale=20.0
+    )
+    curved_action = RelationalAction(
+        "square_response",
+        "science",
+        (0.0,),
+        {},
+        nonlinear_increment=lambda parameters: (
+            parameters.get("theta", 0.0) ** 2,
+        ),
+    )
+    nonlinear_mean, nonlinear_covariance = predictive_distribution(
+        nonlinear_posterior, "nonlinear", curved_action, 0.1
+    )
+    test("Cubature prediction retains nonlinear curvature",
+         abs(nonlinear_mean[0] - 4.25) < 1e-12
+         and nonlinear_mean[0] > 2.0**2)
+    test("Nonlinear parameter uncertainty reaches observation covariance",
+         nonlinear_covariance[0][0] > 4.0)
+
+    nonlinear_updated = update_ret_posterior(
+        nonlinear_posterior, curved_action, (6.0,), 0.1
+    )
+    nonlinear_parameter = parameter_summary(
+        nonlinear_updated, "nonlinear"
+    )["theta"]
+    test("Nonlinear observation moves the parameter posterior",
+         2.3 < nonlinear_parameter["mean"] < 2.6)
+    test("Nonlinear observation contracts parameter uncertainty",
+         nonlinear_parameter["standard_deviation"] < 0.1)
+
+    hybrid_action = RelationalAction(
+        "hybrid",
+        "science",
+        (1.0,),
+        {"theta": (2.0,)},
+        nonlinear_increment=lambda parameters: (
+            parameters.get("theta", 0.0) ** 2,
+        ),
+    )
+    test("Linear and nonlinear response components compose",
+         response_for_parameters(hybrid_action, {"theta": 3.0}) == (16.0,))
+
+    samples = [
+        sample_predictive(
+            fixed_posterior,
+            "fixed",
+            vector_action,
+            correlated,
+            random.Random(10_000 + index),
+        )
+        for index in range(1_000)
+    ]
+    cross = sum(sample[0] * sample[1] for sample in samples) / len(samples)
+    variance_x = sum(sample[0] ** 2 for sample in samples) / len(samples)
+    variance_y = sum(sample[1] ** 2 for sample in samples) / len(samples)
+    empirical_correlation = cross / (variance_x * variance_y) ** 0.5
+    test("Predictive sampling preserves strong correlation",
+         empirical_correlation > 0.70)
+
+    spike = RelationalModel("noise_spike", "absent", {})
+    slab = RelationalModel(
+        "noise_slab",
+        "present",
+        {"signal": GaussianPrior(1.0, 0.3)},
+    )
+    schedule_posterior = initialize_ret_posterior(
+        [spike, slab], open_model_prior=0.01, open_model_scale=10.0
+    )
+    precise = RelationalAction(
+        "precise", "science", (0.0,), {"signal": (1.0,)}
+    )
+    noisy = RelationalAction(
+        "noisy", "science", (0.0,), {"signal": (1.0,)}
+    )
+    ranking = rank_actions(
+        schedule_posterior,
+        (noisy, precise),
+        {"noisy": 2.0, "precise": 0.1},
+        SchedulerObjective(
+            Question(
+                "signal_present",
+                {"noise_spike": "absent", "noise_slab": "present"},
+            ),
+            monte_carlo_samples_per_model=64,
+        ),
+        seed=90,
+    )
+    test("Scheduler supports action-specific noise models",
+         ranking[0]["action"] == "precise"
+         and ranking[0]["question_information_bits"]
+         > ranking[1]["question_information_bits"])
+    try:
+        rank_actions(
+            schedule_posterior,
+            (noisy, precise),
+            {"precise": 0.1},
+            SchedulerObjective(
+                Question(
+                    "signal_present",
+                    {"noise_spike": "absent", "noise_slab": "present"},
+                )
+            ),
+        )
+        test("Missing action-specific noise is rejected", False, "should have raised")
+    except ValueError:
+        test("Missing action-specific noise is rejected", True)
+
+
+def test_mathematical_search_adapters():
+    import math
+
+    from det8.models.examples.collatz_search import (
+        COLLATZ_MODEL_WARNING,
+        bounded_collatz_verification,
+        collatz_block_action,
+        collatz_block_statistics,
+        collatz_summary_covariance,
+        collatz_trajectory,
+        run_collatz_search,
+    )
+    from det8.models.examples.riemann_zero_search import (
+        critical_line_zeros,
+        riemann_window_covariance,
+        riemann_zeta,
+        run_riemann_zero_search,
+        zero_window_statistics,
+    )
+    from det8.models.mathematical_searches import MATHEMATICAL_SEARCH_BOUNDARY
+
+    section("Proof-Governed Riemann and Collatz Searches")
+
+    test("Euler-Maclaurin zeta reproduces zeta(2)",
+         abs(riemann_zeta(2.0).real - math.pi**2 / 6.0) < 1e-12)
+    zeros = critical_line_zeros(8)
+    test("Critical-line scanner resolves the first Riemann zero",
+         abs(zeros[0] - 14.134725141734695) < 1e-10)
+    test("Critical-line zero record is strictly ordered",
+         all(left < right for left, right in zip(zeros, zeros[1:])))
+    test("Located critical-line zeros have small zeta residuals",
+         max(abs(riemann_zeta(0.5 + 1j * height)) for height in zeros) < 1e-9)
+
+    window = zero_window_statistics(1, 24)
+    test("Riemann adapter normalizes a finite spacing window",
+         window["zero_count"] == 24
+         and 0.0 < window["spacing_variance"] < 1.0
+         and 0.0 <= window["small_gap_fraction"] <= 1.0)
+    covariance = riemann_window_covariance(24)
+    test("Riemann summaries expose correlated predictive covariance",
+         covariance[0][1] == covariance[1][0] > 0.0
+         and covariance[0][0] * covariance[1][1] > covariance[0][1] ** 2)
+    riemann = run_riemann_zero_search()
+    test("Riemann scheduler samples four distinct height windows",
+         len(riemann["trace"]) == 4
+         and len({row["action"] for row in riemann["trace"]}) == 4)
+    test("Bounded Riemann record rejects a Poisson spacing description",
+         riemann["final_posterior"]["riemann_poisson"] < 1e-8
+         and riemann["selected_model"] == "riemann_gue_limit")
+    test("Riemann search records its untested off-line domain",
+         riemann["critical_line_only"]
+         and not riemann["off_line_zero_search_performed"]
+         and "not a proof" in riemann["proof_warning"])
+
+    one = collatz_trajectory(1)
+    six = collatz_trajectory(6)
+    twenty_seven = collatz_trajectory(27)
+    test("Collatz terminal state has zero stopping time",
+         one.status == "reached_one" and one.steps == 0 and one.peak == 1)
+    test("Collatz trajectory for six is exact",
+         six.status == "reached_one" and six.steps == 8 and six.peak == 16)
+    test("Collatz trajectory for 27 retains its classic excursion",
+         twenty_seven.steps == 111 and twenty_seven.peak == 9_232)
+    limited = collatz_trajectory(27, max_steps=10)
+    test("A resource cutoff is not mislabeled as a counterexample",
+         limited.status == "resource_limit"
+         and not limited.is_counterexample_candidate)
+    try:
+        collatz_trajectory(0)
+        test("Nonpositive Collatz starts are rejected", False, "should have raised")
+    except ValueError:
+        test("Nonpositive Collatz starts are rejected", True)
+
+    block = collatz_block_statistics(2, 1_024)
+    test("Finite Collatz block census retains record stopping time",
+         block["all_reached_one"]
+         and block["maximum_total_stopping_time"] == 178
+         and block["maximum_total_stopping_time_start"] == 871)
+    residue_five = collatz_block_action(8_193, 32_768, residue=5)
+    residue_seven = collatz_block_action(8_193, 32_768, residue=7)
+    test("Collatz actions encode an explicit mod-eight contrast",
+         residue_five.feature_vectors["residue_shift"] == (-1.0, 0.0)
+         and residue_seven.feature_vectors["residue_shift"] == (1.0, 0.0))
+    collatz_covariance = collatz_summary_covariance()
+    test("Collatz model tolerance is correlated and positive definite",
+         collatz_covariance[0][1] > 0.0
+         and collatz_covariance[0][0] * collatz_covariance[1][1]
+         > collatz_covariance[0][1] ** 2)
+
+    verification = bounded_collatz_verification(65_536)
+    test("Collatz convergence is verified only through the declared bound",
+         verification["all_reached_one"]
+         and verification["tested_count"] == 65_536
+         and verification["status_counts"]["resource_limit"] == 0)
+    test("Bounded Collatz census retains both finite record holders",
+         verification["maximum_total_stopping_time"] == 339
+         and verification["maximum_total_stopping_time_start"] == 52_527
+         and verification["maximum_peak"] == 593_279_152
+         and verification["maximum_peak_start"] == 60_975)
+    collatz = run_collatz_search()
+    test("Collatz scheduler adaptively exposes residue structure",
+         len({row["action"] for row in collatz["adaptive_trace"]}) == 5
+         and collatz["selected_model"] == "collatz_residue_log_affine"
+         and collatz["final_posterior"]["collatz_residue_log_affine"] > 0.75)
+    test("Collatz RET weights are explicitly not conjecture probabilities",
+         not collatz["predictive_tolerance_is_computational_error"]
+         and "not probabilities" in COLLATZ_MODEL_WARNING
+         and "finite record" in MATHEMATICAL_SEARCH_BOUNDARY)
+
+
+def test_mathematical_next_runs():
+    from decimal import Decimal
+
+    from det8.models.examples.collatz_frontier_extension import (
+        COLLATZ_FRONTIER_WARNING,
+        run_collatz_frontier_extension,
+    )
+    from det8.models.examples.riemann_validated_extension import (
+        RIEMANN_VALIDATION_WARNING,
+        high_precision_riemann_siegel_z,
+        high_precision_riemann_zeta,
+        numerical_riemann_von_mangoldt_count,
+        run_validated_riemann_extension,
+    )
+
+    section("Validated Riemann and Checkpointed Collatz Next Runs")
+
+    zeta_two = high_precision_riemann_zeta(2, 0, digits=40)
+    expected_zeta_two = Decimal(
+        "1.6449340668482264364724151666460251892189499012068"
+    )
+    test("Decimal Euler-Maclaurin evaluator reproduces zeta(2)",
+         abs(zeta_two.real - expected_zeta_two) < Decimal("1e-34")
+         and abs(zeta_two.imag) < Decimal("1e-34"))
+    first_zero = 14.134725141734702
+    test("Decimal Riemann-Siegel check retains the first sign bracket",
+         high_precision_riemann_siegel_z(first_zero - 1e-8, digits=40)
+         * high_precision_riemann_siegel_z(first_zero + 1e-8, digits=40) < 0)
+    count_100 = numerical_riemann_von_mangoldt_count(100.0)
+    test("Continuous-argument zero count independently recovers N(100)",
+         count_100["nearest_integer_count"] == 29
+         and count_100["integer_closure_error"] < 1e-9)
+
+    riemann = run_validated_riemann_extension()
+    test("Riemann extension admits 512 zeros only after count agreement",
+         riemann["certification_passed"]
+         and riemann["count_agreement"]
+         and riemann["coarse_rvm_count"]["nearest_integer_count"] == 512
+         and riemann["fine_rvm_count"]["nearest_integer_count"] == 512)
+    test("Fifty-digit checkpoints retain residuals and sign changes",
+         riemann["precision_digits"] == 50
+         and riemann["maximum_checked_decimal_residual"] < 1e-8
+         and all(row["sign_change_confirmed"]
+                 for row in riemann["precision_checks"]))
+    test("Validated scheduler assimilates three higher-height windows",
+         riemann["higher_windows_admitted"]
+         and len(riemann["extension_trace"]) == 3
+         and len({row["action"] for row in riemann["extension_trace"]}) == 3)
+    test("Higher record strengthens GUE-like support without erasing finite height",
+         riemann["selected_model"] == "riemann_gue_limit"
+         and riemann["final_posterior"]["riemann_gue_limit"] > 0.59
+         and riemann["final_posterior"]["riemann_finite_height"] > 0.30
+         and riemann["final_posterior"]["riemann_poisson"] < 1e-15)
+    test("Riemann numerical certification is not mislabeled interval proof",
+         not riemann["interval_enclosure_performed"]
+         and "not proof-grade" in RIEMANN_VALIDATION_WARNING)
+
+    collatz = run_collatz_frontier_extension()
+    frontier = collatz["frontier"]
+    test("Checkpointed Collatz frontier reaches 262144 exactly",
+         frontier["verified_through"] == 262_144
+         and frontier["all_reached_one_through_frontier"]
+         and frontier["cumulative_status_counts"]
+         == {"reached_one": 262_144, "resource_limit": 0, "verified_cycle": 0})
+    records = frontier["final_records"]
+    test("Extended frontier retains its new exact record holders",
+         records["maximum_total_stopping_time"] == 442
+         and records["maximum_total_stopping_time_start"] == 230_631
+         and records["maximum_peak"] == 17_202_377_752
+         and records["maximum_peak_start"] == 159_487)
+    checkpoints = frontier["checkpoints"]
+    test("Frontier is split into three reproducible hash-chained checkpoints",
+         len(checkpoints) == 3
+         and len({row["block_sha256"] for row in checkpoints}) == 3
+         and frontier["resume_token"] == checkpoints[-1]["chain_sha256"])
+    test("Every checkpoint sets a stopping record but only two set peak records",
+         all(row["new_stopping_time_record"] for row in checkpoints)
+         and [row["new_peak_record"] for row in checkpoints]
+         == [True, True, False])
+    profiles = collatz["aggregate_residue_profiles"]
+    test("Extended mod-eight record preserves the residue 5/7 contrast",
+         profiles["8"]["minimum_mean_residue"] == 5
+         and profiles["8"]["maximum_mean_residue"] == 7
+         and collatz["mod8_7_minus_5_mean_contrast"] > 25.0)
+    test("Finer residue partitions expose increasing finite-range spread",
+         profiles["8"]["mean_spread"] < profiles["16"]["mean_spread"]
+         < profiles["32"]["mean_spread"]
+         and all(profile["all_completed"] for profile in profiles.values()))
+    test("Clean frontier raises no false anomaly escalation",
+         not collatz["resource_limit_followup_required"]
+         and not collatz["verified_cycle_followup_required"]
+         and "not convergence beyond" in COLLATZ_FRONTIER_WARNING)
+
+
+def test_relational_residual_discovery():
+    import math
+
+    from det8.models.relational_discovery_governance import (
+        DiscoveryEvidence,
+        DiscoveryThresholds,
+        evaluate_discovery_candidate,
+    )
+    from det8.models.relational_evidence import (
+        BetaBinomial,
+        Binomial,
+        DirichletMultinomial,
+        EvidenceAction,
+        EvidenceHypothesis,
+        EvidenceLedger,
+        EvidenceQuestion,
+        EvidenceRecord,
+        Gaussian,
+        Multinomial,
+        NegativeBinomial,
+        Poisson,
+        StudentT,
+        evidence_payload_digest,
+        evidence_question_probabilities,
+        initialize_evidence_posterior,
+        prequential_score_table,
+        rank_evidence_actions,
+        update_evidence_posterior,
+    )
+    from det8.models.relational_residual_discovery import (
+        run_relational_residual_discovery,
+    )
+
+    section("Relational Residual Discovery and Non-Gaussian Evidence")
+
+    gaussian = Gaussian(0.0, 1.0)
+    test("Gaussian evidence family retains normalized density",
+         abs(gaussian.log_prob(0.0) + 0.5 * math.log(2.0 * math.pi)) < 1e-12
+         and gaussian.mean() == 0.0)
+    student = StudentT(0.0, 1.0, 3.0)
+    test("Student-t evidence family provides robust tails",
+         student.log_prob(8.0) > gaussian.log_prob(8.0)
+         and student.diagnostics()["degrees_of_freedom"] == 3.0)
+    test("Binomial families preserve declared count means",
+         Binomial(10, 0.3).mean() == 3.0
+         and BetaBinomial(10, 3.0, 7.0).mean() == 3.0)
+    test("Poisson families preserve declared count means",
+         Poisson(4.0).mean() == 4.0
+         and abs(NegativeBinomial(2.0, 1.0 / 3.0).mean() - 4.0) < 1e-12)
+    multinomial = Multinomial(10, (0.2, 0.3, 0.5))
+    overdispersed = DirichletMultinomial(10, (2.0, 3.0, 5.0))
+    test("Multinomial families score complete histogram records",
+         math.isfinite(multinomial.log_prob((2, 3, 5)))
+         and math.isfinite(overdispersed.log_prob((2, 3, 5)))
+         and multinomial.mean() == overdispersed.mean())
+
+    mutable_observation = {"counts": [8, 2]}
+    mutable_metadata = {"nested": {"labels": ["a", "b"]}}
+    immutable_record = EvidenceRecord(
+        "immutable_record", ("immutable_source",), "histogram_probe", None,
+        evidence_payload_digest(mutable_observation), "multinomial", "audit",
+        mutable_observation, mutable_metadata,
+    )
+    mutable_observation["counts"][0] = 99
+    mutable_metadata["nested"]["labels"].append("c")
+    test("Evidence records recursively freeze payload and metadata",
+         immutable_record.observation["counts"] == (8, 2)
+         and immutable_record.metadata["nested"]["labels"] == ("a", "b"))
+    try:
+        EvidenceRecord(
+            "bad_digest", ("digest_source",), "count_probe", None,
+            "0" * 64, "binomial", "audit", 8,
+        )
+        test("Evidence digests and source sequences are canonical", False,
+             "digest mismatch should have raised")
+    except ValueError:
+        bare_source_rejected = False
+        try:
+            EvidenceRecord(
+                "bare_source", "source", "count_probe", None,
+                evidence_payload_digest(8), "binomial", "audit", 8,
+            )
+        except ValueError:
+            bare_source_rejected = True
+        test("Evidence digests and source sequences are canonical",
+             bare_source_rejected
+             and evidence_payload_digest(b"a")
+             != evidence_payload_digest({"__bytes_hex__": "61"})
+             and evidence_payload_digest({1, 2})
+             != evidence_payload_digest({"__set__": [1, 2]}))
+
+    first_record = EvidenceRecord(
+        "record_1", ("source_1",), "count_probe", 1.0,
+        evidence_payload_digest(8), "binomial", "training", 8,
+    )
+    ledger = EvidenceLedger().append(first_record)
+    test("Evidence ledger commits immutable provenance",
+         ledger.record_ids == ("record_1",)
+         and ledger.source_ids == ("source_1",))
+    try:
+        ledger.append(first_record)
+        test("Duplicate evidence records are rejected", False, "should have raised")
+    except ValueError:
+        test("Duplicate evidence records are rejected", True)
+    overlapping = EvidenceRecord(
+        "record_2", ("source_1",), "count_probe", 2.0,
+        evidence_payload_digest(7),
+        "binomial", "replication", 7,
+    )
+    try:
+        ledger.append(overlapping)
+        test("Silent evidence-source overlap is rejected", False, "should have raised")
+    except ValueError:
+        test("Silent evidence-source overlap is rejected", True)
+    joint = EvidenceRecord(
+        "record_3", ("source_2", "source_3"), "joint_probe", 2.0,
+        evidence_payload_digest(7), "binomial", "joint_likelihood", 7,
+        joint=True,
+    )
+    overlapping_joint = EvidenceRecord(
+        "record_4", ("source_1", "source_4"), "joint_probe", 3.0,
+        evidence_payload_digest(6), "binomial", "joint_likelihood", 6,
+        joint=True,
+    )
+    joint_overlap_rejected_both_orders = False
+    try:
+        ledger.append(overlapping_joint)
+    except ValueError:
+        try:
+            EvidenceLedger((overlapping_joint, first_record))
+        except ValueError:
+            joint_overlap_rejected_both_orders = True
+    test("Joint likelihoods occupy one nonoverlapping ledger record",
+         len(ledger.append(joint).records) == 2
+         and joint_overlap_rejected_both_orders)
+
+    hypotheses = (
+        EvidenceHypothesis("low_rate", "low", lambda action, state: Binomial(10, 0.2)),
+        EvidenceHypothesis("high_rate", "high", lambda action, state: Binomial(10, 0.8)),
+    )
+    open_hypothesis = EvidenceHypothesis(
+        "M_bottom", "model_inadequate",
+        lambda action, state: BetaBinomial(10, 1.0, 1.0), robust=True,
+    )
+    posterior = initialize_evidence_posterior(
+        hypotheses, open_hypothesis, open_prior=0.05
+    )
+    posterior = update_evidence_posterior(posterior, first_record)
+    test("Non-Gaussian evidence update favors the predictive family",
+         posterior.weights["high_rate"] > 0.95
+         and posterior.observations == 1)
+    question = EvidenceQuestion(
+        "rate", {"low_rate": "low", "high_rate": "high"}
+    )
+    actions = (
+        EvidenceAction("probe_a", "binomial"),
+        EvidenceAction("probe_b", "binomial"),
+    )
+    forward = rank_evidence_actions(
+        posterior, actions, question, samples_per_hypothesis=16, seed=41
+    )
+    reverse = rank_evidence_actions(
+        posterior, tuple(reversed(actions)), question,
+        samples_per_hypothesis=16, seed=41,
+    )
+    test("Evidence scheduling is question-directed and order independent",
+         abs(sum(evidence_question_probabilities(posterior, question).values()) - 1.0) < 1e-12
+         and {row["action"]: row["question_information_bits"] for row in forward}
+         == {row["action"]: row["question_information_bits"] for row in reverse})
+    scores = prequential_score_table(posterior)
+    test("Evidence posterior retains prequential model scores",
+         set(scores) == {"low_rate", "high_rate", "M_bottom", "mixture"}
+         and all(math.isfinite(value) for value in scores.values()))
+
+    impossible_hypotheses = (
+        EvidenceHypothesis(
+            "zero_rate", "zero", lambda action, state: Binomial(10, 0.0)
+        ),
+        EvidenceHypothesis(
+            "unit_rate", "unit", lambda action, state: Binomial(10, 1.0)
+        ),
+    )
+    impossible_open = EvidenceHypothesis(
+        "M_bottom", "model_inadequate",
+        lambda action, state: BetaBinomial(10, 1.0, 1.0), robust=True,
+    )
+    impossible = initialize_evidence_posterior(
+        impossible_hypotheses, impossible_open, open_prior=0.05
+    )
+    for index, value in enumerate((10, 0), 1):
+        impossible = update_evidence_posterior(
+            impossible,
+            EvidenceRecord(
+                f"impossible_{index}", (f"impossible_source_{index}",),
+                "boundary_probe", float(index), evidence_payload_digest(value),
+                "binomial", "audit", value,
+            ),
+        )
+    tail_hypotheses = (
+        EvidenceHypothesis(
+            "near_zero", "near_zero", lambda action, state: Gaussian(0.0, 1.0)
+        ),
+        EvidenceHypothesis(
+            "near_hundred", "near_hundred",
+            lambda action, state: Gaussian(100.0, 1.0),
+        ),
+    )
+    tail_open = EvidenceHypothesis(
+        "M_bottom", "model_inadequate",
+        lambda action, state: Gaussian(0.0, 1.0), robust=True,
+    )
+    tail = initialize_evidence_posterior(
+        tail_hypotheses, tail_open, open_prior=0.05
+    )
+    tail = update_evidence_posterior(
+        tail,
+        EvidenceRecord(
+            "tail_1", ("tail_source_1",), "tail_probe", 1.0,
+            evidence_payload_digest(0.0), "continuous", "audit", 0.0,
+        ),
+    )
+    underflowed_but_possible = (
+        tail.weights["near_hundred"] == 0.0
+        and math.isfinite(tail.log_weights["near_hundred"])
+    )
+    tail = update_evidence_posterior(
+        tail,
+        EvidenceRecord(
+            "tail_2", ("tail_source_2",), "tail_probe", 2.0,
+            evidence_payload_digest(100.0), "continuous", "audit", 100.0,
+        ),
+    )
+    test("Structural zeros persist while numerical underflow can recover",
+         impossible.weights["zero_rate"] == 0.0
+         and impossible.weights["unit_rate"] == 0.0
+         and impossible.log_weights["zero_rate"] == -math.inf
+         and impossible.log_weights["unit_rate"] == -math.inf
+         and underflowed_but_possible
+         and tail.weights["near_hundred"] > 0.4)
+
+    mutable_state = {"seen": [0]}
+
+    def increment_state(state, record, distribution):
+        return {"seen": [state["seen"][0] + 1]}
+
+    stateful = EvidenceHypothesis(
+        "stateful", "stateful", lambda action, state: Binomial(10, 0.8),
+        initial_state=mutable_state, state_update=increment_state,
+    )
+    stateful_open = EvidenceHypothesis(
+        "M_bottom", "model_inadequate",
+        lambda action, state: BetaBinomial(10, 1.0, 1.0), robust=True,
+    )
+    stateful_before = initialize_evidence_posterior(
+        (stateful,), stateful_open, open_prior=0.05
+    )
+    mutable_state["seen"][0] = 99
+    stateful_after = update_evidence_posterior(
+        stateful_before,
+        EvidenceRecord(
+            "state_record", ("state_source",), "state_probe", None,
+            evidence_payload_digest(8), "binomial", "audit", 8,
+        ),
+    )
+    test("Hypothesis and posterior states are recursively immutable",
+         stateful_before.states["stateful"]["seen"] == (0,)
+         and stateful_after.states["stateful"]["seen"] == (1,))
+
+    candidate = DiscoveryEvidence(
+        "replicated_relation", True, 2, 3.0, True, 0.02,
+        proof_language_requested=True,
+    )
+    governed = evaluate_discovery_candidate(candidate)
+    test("RG2 admits held-out relations but blocks proof language",
+         governed["state"] == "DISCOVERY_CANDIDATE"
+         and not governed["proof_language_allowed"])
+    invalid = evaluate_discovery_candidate(
+        DiscoveryEvidence("overlap", False, 4, 8.0, True, 0.01)
+    )
+    stale = evaluate_discovery_candidate(
+        DiscoveryEvidence(
+            "historically_reused", True, 4, 8.0, True, 0.01,
+            validation_is_historically_fresh=False,
+        )
+    )
+    test("RG2 rejects overlap and requires historically fresh validation",
+         invalid["state"] == "EVIDENCE_INVALID"
+         and stale["state"] == "NEEDS_FRESH_VALIDATION")
+    exact = evaluate_discovery_candidate(
+        DiscoveryEvidence(
+            "bounded_certificate", True, 0, 0.0, True, 0.0,
+            exact_certificate_verified=True,
+            exact_certificate_scope="integers 1 through N",
+            proof_language_requested=True,
+        )
+    )
+    test("Exact certificates retain only their declared proof scope",
+         exact["state"] == "EXACT_CERTIFICATE"
+         and exact["proof_language_allowed"]
+         and exact["exact_certificate_scope"] == "integers 1 through N")
+
+    discovery = run_relational_residual_discovery()
+    test("Joint RG2 run separates rejection, revision, and bounded computation",
+         discovery["discovery_summary"]
+         == {"riemann": "NO_HELDOUT_GAIN",
+             "collatz": "MODEL_REVISION",
+             "collatz_exact": "BOUNDED_EXACT_COMPUTATION"})
+    riemann = discovery["runs"]["riemann_multiscale"]
+    test("Riemann blocks are disjoint and the top two remain locked",
+         riemann["source_disjointness"]["source_disjoint"]
+         and riemann["source_disjointness"]["unique_source_count"] == 512
+         and riemann["partition"]["locked_holdout_block_indices"] == (7, 8)
+         and not riemann["locked_holdout"]["posterior_updated_on_holdout"]
+         and not riemann["partition"]["historically_untouched"])
+    findings = riemann["actual_multiscale_findings"]
+    test("Riemann multiscale tension and calibration failure remain explicit",
+         0.60 < findings["mean_adjacent_gap_ratio"] < 0.63
+         and 0.13 < findings["mean_unfolded_spacing_variance"] < 0.15
+         and not riemann["synthetic_calibration"]["calibration_gate"]
+         ["attack_detection_at_least_0.75"])
+    collatz = discovery["runs"]["collatz_valuation_tree"]
+    test("Accelerated Collatz frontier is exact through 2^20",
+         collatz["frontier"]["all_reached_one"]
+         and collatz["frontier"]["tested_count"] == 1_048_576
+         and collatz["frontier"]["maximum_total_stopping_time"] == 524
+         and collatz["frontier"]["accelerated_odd_map"]
+         ["ordinary_toll_identity_holds"])
+    comparison = collatz["locked_tree_comparison"]
+    test("Collatz validation relation triggers stronger model revision",
+         comparison["selected_model"] == "residue_tree_depth_10"
+         and comparison["mod8_7_minus_5"]
+         ["after_first_jump_control_locked_holdout_steps"] > 5.0
+         and comparison["robust_open_reference"]
+         ["selected_over_open_mean_log_score_gain"] > 0.0
+         and not comparison["robust_open_reference"]
+         ["calibrated_posterior_probability_available"]
+         and comparison["block_score_audit"]
+         ["blocks_favoring_selected_over_first_jump"] == 32
+         and comparison["selection_boundary_audit"]
+         ["selected_depth_equals_declared_maximum"]
+         and collatz["exact_anomaly_escalation"]["all_independent_audits_match"])
+
+
+def test_navier_stokes_near_singularity():
+    import copy
+    import math
+    from dataclasses import asdict, replace
+
+    from det8.models.examples.navier_stokes_near_singularity import (
+        LOCKED_GROWTH_MODEL_HOLDOUT_AVAILABLE,
+        PHASE_ONE_REFERENCE_FINDINGS,
+        PHASE_ONE_REFERENCE_FINDINGS_SHA256,
+        PROOF_WARNING,
+        SpectralNavierStokes3D,
+        SpectralRunConfig,
+        build_numerical_evidence_ledger,
+        classify_numerical_run,
+        compare_resolution_pair,
+        compare_timestep_pair,
+        phase_one_resolution_ladder_actions,
+        phase_one_timestep_actions,
+        prepare_navier_stokes_protocol,
+        rank_followup_actions,
+        run_development_suite,
+    )
+    from det8.models.relational_evidence import evidence_payload_digest
+
+    section("Navier-Stokes Bounded Numerical Scout")
+
+    base = SpectralRunConfig(
+        "abc",
+        8,
+        0.05,
+        0.02,
+        maximum_dt=0.005,
+        sample_interval=0.01,
+        role="test_calibration",
+    )
+    same = SpectralRunConfig(**asdict(base))
+    changed = replace(base, seed=1)
+    test("Navier-Stokes action digests are deterministic and configuration-bound",
+         base.digest == same.digest
+         and base.digest != changed.digest
+         and len(base.digest) == 64)
+    try:
+        SpectralRunConfig("abc", 9, 0.05, 0.02)
+        test("Spectral configurations reject invalid grid geometry", False,
+             "odd resolution should have raised")
+    except ValueError:
+        test("Spectral configurations reject invalid grid geometry", True)
+    try:
+        SpectralRunConfig("kida_pelz", 8, 0.05, 0.02)
+        test("Mode-3 initial data cannot be erased by an undersized mask", False,
+             "undersized Kida-Pelz grid should have raised")
+    except ValueError:
+        test("Mode-3 initial data cannot be erased by an undersized mask", True)
+
+    manifest = prepare_navier_stokes_protocol((base,))
+    repeated_manifest = prepare_navier_stokes_protocol((same,))
+    manifest_payload = dict(manifest)
+    recorded_manifest_digest = manifest_payload.pop("manifest_digest")
+    changed_manifest = prepare_navier_stokes_protocol((changed,))
+    test("Navier-Stokes protocol manifests are canonical and reproducible",
+         manifest == repeated_manifest
+         and recorded_manifest_digest == evidence_payload_digest(manifest_payload)
+         and manifest["manifest_digest"] != changed_manifest["manifest_digest"]
+         and len(str(manifest["implementation_sha256"])) == 64
+         and manifest["development_source_ids"]
+         == (f"ns-config-{base.digest}",))
+    test("The development manifest blocks theorem and locked-confirmation claims",
+         not manifest["growth_model_holdout_available"]
+         and not manifest["locked_confirmation_available"]
+         and not manifest["rg2_evaluation_authorized"]
+         and not manifest["rg2_exact_certificate_branch_authorized"]
+         and not manifest["rg2_bounded_exact_computation_branch_authorized"]
+         and not manifest["finite_time_singularity_claim_authorized"]
+         and not manifest["global_regularity_claim_authorized"]
+         and manifest["consumed_phase_one_reference_findings_sha256"]
+         == PHASE_ONE_REFERENCE_FINDINGS_SHA256
+         and not LOCKED_GROWTH_MODEL_HOLDOUT_AVAILABLE
+         and "cannot prove" in PROOF_WARNING)
+    reference_ladder = phase_one_resolution_ladder_actions()
+    reference_timesteps = phase_one_timestep_actions()
+    test("Consumed phase-one findings retain a checked, non-proof digest",
+         evidence_payload_digest(PHASE_ONE_REFERENCE_FINDINGS)
+         == PHASE_ONE_REFERENCE_FINDINGS_SHA256
+         and PHASE_ONE_REFERENCE_FINDINGS["scientific_state"]
+         == "RESOLVED_TRANSIENT_AMPLIFICATION_NO_NEAR_SINGULAR_SCALING"
+         and not PHASE_ONE_REFERENCE_FINDINGS["formal_singularity_claim"]
+         and not PHASE_ONE_REFERENCE_FINDINGS["proof_language_allowed"]
+         and tuple(action.resolution for action in reference_ladder)
+         == (16, 24, 32, 40, 48)
+         and tuple(action.maximum_dt for action in reference_timesteps)
+         == (0.0075, 0.00375))
+    try:
+        prepare_navier_stokes_protocol((base, same))
+        test("Protocol manifests reject duplicate numerical actions", False,
+             "duplicate configurations should have raised")
+    except ValueError:
+        test("Protocol manifests reject duplicate numerical actions", True)
+
+    def synthetic_result(
+        config,
+        *,
+        vorticity_amplification=1.05,
+        enstrophy_amplification=1.02,
+        divergence_l2=1.0e-14,
+        high_wavenumber_fraction=1.0e-5,
+        peak_time=None,
+    ):
+        fit = {
+            "fitted_singular_time": config.final_time + 0.10,
+            "exponent": 1.25,
+            "r_squared": 0.995,
+        }
+        result = {
+            "configuration": asdict(config),
+            "configuration_digest": config.digest,
+            "run_digest": evidence_payload_digest({
+                "configuration_digest": config.digest,
+                "vorticity_amplification": vorticity_amplification,
+                "enstrophy_amplification": enstrophy_amplification,
+            }),
+            "step_count": 8,
+            "vorticity_amplification": vorticity_amplification,
+            "enstrophy_amplification": enstrophy_amplification,
+            "palinstrophy_amplification": max(enstrophy_amplification, 1.0),
+            "maximum_vorticity_time": (
+                config.final_time if peak_time is None else peak_time
+            ),
+            "maxima": {
+                "divergence_l2": divergence_l2,
+                "high_wavenumber_energy_fraction": high_wavenumber_fraction,
+            },
+            "energy_balance": {
+                "relative_defect": 1.0e-6,
+                "maximum_relative_energy_increase": 0.0,
+                "maximum_relative_step_energy_increase": 0.0,
+                "maximum_positive_step_balance_residual": 1.0e-8,
+            },
+            "enstrophy_balance": {
+                "sample_trapezoid_relative_defect": 1.0e-4,
+            },
+            "initial": {
+                "energy_spectrum": (0.0, 0.5, 0.0, 0.0),
+            },
+            "final": {
+                "energy_spectrum": (0.0, 0.49, 0.01, 0.0),
+                "analyticity_strip": {
+                    "width": 1.0,
+                    "candidate_eligible": True,
+                },
+            },
+            "dealiasing": {"retained_axis_wavenumber": 3},
+            "late_window_power_law_fits": {
+                "last_40_percent": dict(fit),
+                "last_30_percent": dict(fit),
+                "relative_fitted_time_instability": 0.0,
+            },
+        }
+        result["numerical_admission"] = classify_numerical_run(result)
+        return result
+
+    quiet = synthetic_result(base)
+    test("Admitted bounded decay is not labeled near-singular",
+         quiet["numerical_admission"]["state"]
+         == "NO_NEAR_SINGULAR_SCALING"
+         and quiet["numerical_admission"]["numerical_gates_passed"]
+         and not quiet["numerical_admission"]["formal_singularity_claim"]
+         and not quiet["numerical_admission"]["proof_language_allowed"])
+
+    growth = synthetic_result(
+        replace(base, initial_condition="taylor_green", role="development"),
+        vorticity_amplification=5.0,
+        enstrophy_amplification=3.0,
+    )
+    growth_admission = growth["numerical_admission"]
+    test("A strong single-run signal remains below the locked scaling gate",
+         growth_admission["numerical_gates_passed"]
+         and growth_admission["state"] == "RESOLVED_TRANSIENT_AMPLIFICATION"
+         and not growth_admission["scaling_gates"][
+             "locked_growth_model_holdout"
+         ]
+         and not growth_admission["scaling_gates_passed"]
+         and not growth_admission["formal_singularity_claim"])
+
+    failed = copy.deepcopy(growth)
+    failed["maxima"]["divergence_l2"] = 1.0e-3
+    failed_admission = classify_numerical_run(failed)
+    test("Numerical-admission failure outranks apparent vorticity growth",
+         failed_admission["state"] == "UNDERRESOLVED"
+         and not failed_admission["numerical_gates"]["divergence_control"]
+         and not failed_admission["proof_language_allowed"])
+
+    ledger = build_numerical_evidence_ledger((quiet,))
+    overlap_rejected = False
+    try:
+        build_numerical_evidence_ledger((quiet, quiet))
+    except ValueError:
+        overlap_rejected = True
+    test("Numerical trajectories enter one provenance-protected ledger record",
+         ledger.record_ids == ("navier_stokes_numerical_run_1",)
+         and ledger.source_ids == (f"ns-config-{base.digest}",)
+         and ledger.records[0].joint
+         and ledger.records[0].scope == "bounded_floating_point_pde"
+         and overlap_rejected)
+
+    lower_config = SpectralRunConfig(
+        "taylor_green", 8, 0.02, 0.10, role="development"
+    )
+    higher_config = replace(
+        lower_config, resolution=16, role="resolution_calibration"
+    )
+    lower = synthetic_result(
+        lower_config, vorticity_amplification=1.05, peak_time=0.08
+    )
+    higher = synthetic_result(
+        higher_config, vorticity_amplification=1.06, peak_time=0.08
+    )
+    transport = compare_resolution_pair(lower, higher)
+    test("Resolution transport is an admitted numerical check, not replication",
+         transport["transport_passed"]
+         and transport["lower_resolution"] == 8
+         and transport["higher_resolution"] == 16
+         and transport["transport_is_numerical_not_replication"])
+    mismatched_initial_spectrum = copy.deepcopy(higher)
+    mismatched_initial_spectrum["initial"]["energy_spectrum"] = (
+        0.0, 0.25, 0.25, 0.0
+    )
+    mismatched_transport = compare_resolution_pair(
+        lower, mismatched_initial_spectrum
+    )
+    test("Resolution transport rejects a changed continuum initial spectrum",
+         not mismatched_transport["transport_passed"]
+         and not mismatched_transport["gates"]["initial_spectrum_transport"])
+
+    finer_timestep_config = replace(
+        lower_config, maximum_dt=lower_config.maximum_dt / 2.0,
+        role="timestep_calibration"
+    )
+    finer_timestep = synthetic_result(
+        finer_timestep_config, vorticity_amplification=1.051, peak_time=0.08
+    )
+    timestep_transport = compare_timestep_pair(lower, finer_timestep)
+    test("Timestep halving is a governed transport check, not replication",
+         timestep_transport["transport_passed"]
+         and timestep_transport["coarse_maximum_dt"]
+         == lower_config.maximum_dt
+         and timestep_transport["fine_maximum_dt"]
+         == finer_timestep_config.maximum_dt
+         and timestep_transport["transport_is_numerical_not_replication"])
+
+    first_ranking = rank_followup_actions((lower,))
+    repeated_ranking = rank_followup_actions((lower,))
+    transported_ranking = rank_followup_actions((lower, higher))
+    timestep_ranking = rank_followup_actions((lower, finer_timestep))
+    test("Follow-up ranking is deterministic and keeps its proxy status explicit",
+         first_ranking == repeated_ranking
+         and len(first_ranking) == 1
+         and first_ranking[0][
+             "scheduler_is_deterministic_proxy_not_bayesian_posterior"
+         ]
+         and first_ranking[0]["configuration"]["role"] == "stress_test"
+         and transported_ranking[0]["configuration"]["role"] == "stress_test"
+         and transported_ranking[0]["configuration"]["resolution"] == 16
+         and math.isclose(
+             transported_ranking[0]["configuration"]["viscosity"], 0.014
+         )
+         and len(timestep_ranking) == 1
+         and timestep_ranking[0]["configuration"]["maximum_dt"]
+         == finer_timestep_config.maximum_dt)
+
+    try:
+        import numpy
+    except ImportError:
+        test("The Navier-Stokes contract remains portable without NumPy", True)
+        test("Seeded Fourier initial data transport across resolutions", True)
+    else:
+        numerical = SpectralNavierStokes3D(base).run()
+        expected_energy = (
+            float(numerical["initial"]["energy"])
+            * math.exp(-2.0 * base.viscosity * base.final_time)
+        )
+        relative_energy_error = abs(
+            float(numerical["final"]["energy"]) - expected_energy
+        ) / expected_energy
+        tiny_timestep_suite = run_development_suite(
+            (
+                base,
+                replace(
+                    base,
+                    maximum_dt=base.maximum_dt / 2.0,
+                    role="timestep_calibration",
+                ),
+            )
+        )
+        test("Tiny ABC regression follows exact viscous decay when NumPy is available",
+             relative_energy_error < 1.0e-8
+             and numerical["numerical_admission"]["numerical_gates_passed"]
+             and numerical["numerical_admission"]["state"]
+             == "NO_NEAR_SINGULAR_SCALING"
+             and bool(numerical["bounded_numerical_computation"])
+             and "cannot prove" in numerical["proof_warning"]
+             and len(tiny_timestep_suite["resolution_transport"]) == 0
+             and len(tiny_timestep_suite["timestep_transport"]) == 1
+             and tiny_timestep_suite["timestep_transport"][0][
+                 "transport_passed"
+             ])
+        random_solvers = tuple(
+            SpectralNavierStokes3D(
+                SpectralRunConfig(
+                    "random_low_mode", resolution, 0.01, 0.01,
+                    seed=20260826,
+                )
+            )
+            for resolution in (16, 24)
+        )
+        random_hats = tuple(
+            solver.initial_velocity_hat() for solver in random_solvers
+        )
+        matching_mode_errors = []
+        reference_mode_norm = 0.0
+        for mode_x in range(-3, 4):
+            for mode_y in range(-3, 4):
+                for mode_z in range(-3, 4):
+                    squared_norm = (
+                        mode_x * mode_x + mode_y * mode_y + mode_z * mode_z
+                    )
+                    if not (1 <= squared_norm <= 9):
+                        continue
+                    lower_mode = random_hats[0][
+                        :, mode_x % 16, mode_y % 16, mode_z % 16
+                    ] / 16**3
+                    higher_mode = random_hats[1][
+                        :, mode_x % 24, mode_y % 24, mode_z % 24
+                    ] / 24**3
+                    matching_mode_errors.append(
+                        float(numpy.linalg.norm(lower_mode - higher_mode))
+                    )
+                    reference_mode_norm = max(
+                        reference_mode_norm,
+                        float(numpy.linalg.norm(higher_mode)),
+                    )
+        retained_rms = []
+        for solver, velocity_hat in zip(random_solvers, random_hats):
+            velocity = numpy.fft.ifftn(
+                velocity_hat, axes=(1, 2, 3)
+            ).real
+            retained_rms.append(
+                float(
+                    numpy.sqrt(
+                        numpy.mean(numpy.sum(velocity * velocity, axis=0))
+                    )
+                )
+            )
+        reproduced_reference = SpectralNavierStokes3D(
+            reference_ladder[0]
+        ).run()
+        test("Seeded Fourier initial data transport across resolutions",
+             max(matching_mode_errors) / reference_mode_norm < 1.0e-12
+             and max(abs(value - 1.0) for value in retained_rms) < 1.0e-12
+             and reproduced_reference["run_digest"]
+             == PHASE_ONE_REFERENCE_FINDINGS["resolution_ladder"][0][
+                 "run_digest"
+             ])
+
+
+def test_navier_stokes_relational_discovery():
+    import json
+    import math
+    from pathlib import Path
+
+    from det8.models.examples.navier_stokes_near_singularity import (
+        SpectralNavierStokes3D,
+        SpectralRunConfig,
+    )
+    from det8.models.examples.navier_stokes_relational_discovery import (
+        GROWTH_MODEL_PROTOCOL_SHA256,
+        LATEST_LPS_REFERENCE,
+        LATEST_LPS_REFERENCE_SHA256,
+        _trapezoid,
+        build_vortex_event_graph,
+        compare_growth_models,
+        phase_two_scout_actions,
+        prepare_discovery_protocol,
+        reference_scale_bridge,
+        run_relational_discovery,
+    )
+    from det8.models.relational_evidence import evidence_payload_digest
+
+    section("Navier-Stokes DET/RET Discovery Layer")
+
+    test("Latest LPS source metadata is checked, canonical, and reproduction-safe",
+         evidence_payload_digest(LATEST_LPS_REFERENCE)
+         == LATEST_LPS_REFERENCE_SHA256
+         and LATEST_LPS_REFERENCE["arxiv_id"] == "2604.13338v1"
+         and LATEST_LPS_REFERENCE["published_q_values"] == (3, 4, 5, 9)
+         and not LATEST_LPS_REFERENCE[
+             "optimized_coefficients_publicly_downloadable"
+         ]
+         and not LATEST_LPS_REFERENCE["direct_reproduction_claim_authorized"])
+
+    findings_path = (
+        Path(__file__).resolve().parent
+        / "det8/data/navier_stokes_phase_two_findings_2026-08-26.json"
+    )
+    findings = json.loads(findings_path.read_text())
+    recorded_findings_digest = findings.pop("findings_digest")
+    test("Checked phase-two findings preserve run, transport, and claim barriers",
+         evidence_payload_digest(findings) == recorded_findings_digest
+         and findings["transported_low_viscosity_bundle"][
+             "spatial_transport"
+         ]["transport_passed"]
+         and findings["transported_low_viscosity_bundle"][
+             "timestep_transport"
+         ]["transport_passed"]
+         and not findings["provisional_long_horizon_bundle"][
+             "spatial_transport_passed"
+         ]
+         and findings["ret_evidence_ledger"]["record_count"] == 1
+         and not findings["formal_singularity_claim"]
+         and not findings["global_regularity_claim"]
+         and not findings["proof_language_allowed"])
+
+    bridge = reference_scale_bridge(0.01)
+    test("Unit-torus q9 scales map exactly without inventing coefficients",
+         math.isclose(
+             bridge["q9_constraint_levels_in_code_mean_norm"][1],
+             4.0 / math.pi,
+             rel_tol=1.0e-14,
+         )
+         and math.isclose(
+             bridge["example_final_time_in_code_units"],
+             0.0002 * (2.0 * math.pi) ** 2 / 0.01,
+             rel_tol=1.0e-14,
+         )
+         and not bridge["coefficients_available_after_scale_change"]
+         and not bridge["reproduction_claim_authorized"])
+
+    scouts = phase_two_scout_actions()
+    protocol = prepare_discovery_protocol(scouts)
+    test("Phase-two scouts isolate viscosity from horizon and freeze discovery rules",
+         len(scouts) == 2
+         and scouts[0].viscosity == 0.007
+         and scouts[0].final_time == 0.75
+         and scouts[1].viscosity == 0.01
+         and scouts[1].final_time == 1.25
+         and protocol["growth_model_protocol_sha256"]
+         == GROWTH_MODEL_PROTOCOL_SHA256
+         and not protocol["rg2_evaluation_authorized"]
+         and not protocol["formal_singularity_claim"]
+         and not protocol["proof_language_allowed"])
+
+    test("Nonuniform-time LPS quadrature uses actual trapezoid widths",
+         math.isclose(_trapezoid((0.0, 0.2, 1.0), (8.0, 8.0, 8.0)), 8.0))
+
+    times = tuple(index / 20.0 for index in range(21))
+    exponential = tuple(math.exp(0.2 + 1.3 * time) for time in times)
+    saturation = tuple(
+        math.exp(0.2 + 1.3 * (1.0 - math.exp(-2.0 * time)))
+        for time in times
+    )
+    power = tuple(
+        math.exp(0.2) * (1.5 / (1.5 - time)) ** 1.2 for time in times
+    )
+    exponential_score = compare_growth_models(times, exponential)
+    saturation_score = compare_growth_models(times, saturation)
+    power_score = compare_growth_models(times, power)
+    test("Frozen growth families recover exact exponential and saturation controls",
+         exponential_score["best_declared_model"] == "exponential"
+         and saturation_score["best_declared_model"]
+         == "saturating_exponential")
+    test("Frozen finite-time control is detected without authorizing proof language",
+         power_score["best_declared_model"] == "finite_time_power"
+         and power_score["finite_time_power_descriptively_preferred"]
+         and power_score[
+             "finite_time_power_preference_is_not_singularity_evidence"
+         ]
+         and not power_score["counts_as_independent_replication"]
+         and not power_score["posterior_model_probabilities_authorized"])
+
+    changed_holdout = exponential[:14] + tuple(
+        value * (1.0 + 0.2 * (index + 1))
+        for index, value in enumerate(exponential[14:])
+    )
+    changed_score = compare_growth_models(times, changed_holdout)
+    original_parameters = {
+        row["name"]: row["parameters"]
+        for row in exponential_score["declared_model_scores"]
+    }
+    changed_parameters = {
+        row["name"]: row["parameters"]
+        for row in changed_score["declared_model_scores"]
+    }
+    test("Holdout-only perturbations change scores but cannot refit parameters",
+         original_parameters == changed_parameters
+         and exponential_score["score_digest"] != changed_score["score_digest"])
+
+    invalid_growth_rejected = False
+    try:
+        compare_growth_models(times, exponential[:-1] + (0.0,))
+    except ValueError:
+        invalid_growth_rejected = True
+    test("Growth scorer rejects nonpositive observations", invalid_growth_rejected)
+
+    snapshots = (
+        {"time": 0.0, "maximum_velocity": 1.0},
+        {"time": 0.1, "maximum_velocity": 1.0},
+    )
+    parent = {
+        "rank": 0,
+        "cell_count": 2,
+        "centroid": (0.05, 0.0, 0.0),
+        "rms_periodic_radius": 0.1,
+        "enstrophy_fraction": 0.8,
+        "cell_ids": (0, 1),
+    }
+    children = (
+        {
+            "rank": 0,
+            "cell_count": 1,
+            "centroid": (0.0, 0.0, 0.0),
+            "rms_periodic_radius": 0.0,
+            "enstrophy_fraction": 0.5,
+            "cell_ids": (0,),
+        },
+        {
+            "rank": 1,
+            "cell_count": 1,
+            "centroid": (0.1, 0.0, 0.0),
+            "rms_periodic_radius": 0.0,
+            "enstrophy_fraction": 0.3,
+            "cell_ids": (1,),
+        },
+    )
+    graph = build_vortex_event_graph(snapshots, ((parent,), children), resolution=8)
+    permuted = build_vortex_event_graph(
+        snapshots, ((parent,), tuple(reversed(children))), resolution=8
+    )
+    test("DET feature graph is deterministic and labels threshold splits cautiously",
+         graph["graph_digest"] == permuted["graph_digest"]
+         and graph["event_counts"]["split_candidate"] == 1
+         and graph["time_direction_acyclic_by_construction"]
+         and "not material identity" in graph["bond_semantics"])
+
+    try:
+        import numpy  # noqa: F401
+    except ImportError:
+        test("Observer isolation remains portable when NumPy is unavailable", True)
+        test("Tiny DET/RET end-to-end run remains optional without NumPy", True)
+    else:
+        tiny = SpectralRunConfig(
+            "abc", 8, 0.02, 0.06,
+            maximum_dt=0.005,
+            sample_interval=0.005,
+            role="discovery_test",
+        )
+        without_observer = SpectralNavierStokes3D(tiny).run()
+        mutation_blocked = []
+        def attempted_mutation(solver, velocity_hat, sample):
+            try:
+                velocity_hat[0, 0, 0, 0] = 1.0
+            except ValueError:
+                mutation_blocked.append(True)
+            sample["analyticity_strip"]["width"] = 999.0
+        with_noop = SpectralNavierStokes3D(tiny).run(observer=attempted_mutation)
+        test("Read-only observer path leaves the base trajectory digest unchanged",
+             without_observer["run_digest"] == with_noop["run_digest"]
+             and len(mutation_blocked) == with_noop["sample_count"]
+             and with_noop["final"]["analyticity_strip"]["width"] != 999.0)
+        tiny_protocol = prepare_discovery_protocol((tiny,))
+        tiny_discovery = run_relational_discovery(tiny, protocol=tiny_protocol)
+        test("Tiny DET/RET run aligns records and retains all claim barriers",
+             len(tiny_discovery["relational_snapshots"])
+             == tiny_discovery["numerical_result"]["sample_count"]
+             and tiny_discovery["det_layer"]["diagnostic_event_chain"][
+                 "is_acyclic"
+             ]
+             and tiny_discovery["ret_layer"]["growth_model_comparison"][
+                 "state"
+             ] == "WITHIN_TRAJECTORY_DEVELOPMENT_HOLDOUT"
+             and not tiny_discovery["counts_as_independent_replication"]
+             and not tiny_discovery["formal_singularity_claim"]
+             and not tiny_discovery["proof_language_allowed"])
+
+
+def test_navier_stokes_long_horizon_completion():
+    import json
+    from pathlib import Path
+
+    from det8.models.examples.navier_stokes_long_horizon_completion import (
+        ANCHOR_CONFIGURATION_DIGEST,
+        ANCHOR_NUMERICAL_RUN_DIGEST,
+        EXPECTED_FINE_N48_CONFIGURATION_DIGEST,
+        EXPECTED_N56_CONFIGURATION_DIGEST,
+        PRIOR_FINDINGS_DIGEST,
+        compare_exact_timestep_pair,
+        compare_matched_resolution_pair,
+        conditional_timestep_authorized,
+        load_prior_findings,
+        long_horizon_actions,
+        prepare_long_horizon_protocol,
+    )
+    from det8.models.relational_evidence import evidence_payload_digest
+
+    section("Navier-Stokes Long-Horizon Completion Protocol")
+
+    prior = load_prior_findings()
+    test("Long-horizon completion verifies its consumed phase-two parent",
+         prior["findings_digest"] == PRIOR_FINDINGS_DIGEST
+         and prior["provisional_long_horizon_bundle"][
+             "evidence_commit_state"
+         ] == "PROVISIONAL_PENDING_NUMERICAL_TRANSPORT"
+         and prior["provisional_long_horizon_bundle"][
+             "selected_configuration_digest"
+         ] == ANCHOR_CONFIGURATION_DIGEST)
+
+    findings_path = (
+        Path(__file__).resolve().parent
+        / "det8/data/navier_stokes_long_horizon_completion_2026-08-26.json"
+    )
+    findings = json.loads(findings_path.read_text())
+    recorded_findings_digest = findings.pop("findings_digest")
+    n56 = next(row for row in findings["runs"] if row["resolution"] == 56)
+    test("Checked long-horizon findings retain transport and claim barriers",
+         evidence_payload_digest(findings) == recorded_findings_digest
+         and findings["anchor_reproduced"]
+         and findings["resolution_comparison"]["transport_passed"]
+         and findings["timestep_comparison"]["transport_passed"]
+         and findings["timestep_comparison"]["coarse_step_count"] == 350
+         and findings["timestep_comparison"]["fine_step_count"] == 700
+         and n56["state"] == "RESOLVED_TRANSIENT_AMPLIFICATION"
+         and n56["final_to_initial_l9_ratio"] < 1.0
+         and n56["best_growth_model"] == "saturating_exponential"
+         and findings["ret_evidence"]["record_count"] == 1
+         and not findings[
+             "spatiotemporal_convergence_rectangle_complete"
+         ]
+         and not findings["near_singular_candidate"]
+         and not findings["formal_singularity_claim"]
+         and not findings["global_regularity_claim"]
+         and not findings["proof_language_allowed"])
+
+    anchor, extension, fine = long_horizon_actions()
+    test("All phase-three actions are frozen with the exact consumed anchor",
+         anchor.digest == ANCHOR_CONFIGURATION_DIGEST
+         and extension.digest == EXPECTED_N56_CONFIGURATION_DIGEST
+         and fine.digest == EXPECTED_FINE_N48_CONFIGURATION_DIGEST
+         and (anchor.resolution, extension.resolution, fine.resolution)
+         == (48, 56, 48)
+         and (anchor.maximum_dt, extension.maximum_dt, fine.maximum_dt)
+         == (0.00375, 0.00375, 0.001875))
+
+    protocol = prepare_long_horizon_protocol()
+    protocol_payload = dict(protocol)
+    protocol_digest = protocol_payload.pop("manifest_digest")
+    test("One canonical protocol predates both resolution and conditional runs",
+         evidence_payload_digest(protocol_payload) == protocol_digest
+         and protocol["action_digests"]
+         == (anchor.digest, extension.digest, fine.digest)
+         and protocol["anchor_expected_numerical_run_digest"]
+         == ANCHOR_NUMERICAL_RUN_DIGEST
+         and protocol["selection_consumed_parent_outcomes"]
+         and not protocol["historically_fresh_confirmation"]
+         and not protocol["independent_replication"]
+         and not protocol["rg2_evaluation_authorized"]
+         and not protocol["posterior_model_probabilities_authorized"]
+         and not protocol["formal_singularity_claim"]
+         and not protocol["global_regularity_claim"]
+         and not protocol["proof_language_allowed"])
+
+    lower_stub = {
+        "configuration": {
+            "maximum_dt": 0.00375,
+            "cfl": 0.35,
+            "sample_interval": 0.025,
+            "maximum_steps": 100000,
+        }
+    }
+    mismatched_stub = {
+        "configuration": {
+            "maximum_dt": 0.005,
+            "cfl": 0.35,
+            "sample_interval": 0.025,
+            "maximum_steps": 100000,
+        }
+    }
+    spatial_mismatch_rejected = False
+    try:
+        compare_matched_resolution_pair(lower_stub, mismatched_stub)
+    except ValueError:
+        spatial_mismatch_rejected = True
+    ratio_mismatch_rejected = False
+    try:
+        compare_exact_timestep_pair(
+            {"configuration": {"maximum_dt": 0.00375}},
+            {"configuration": {"maximum_dt": 0.002}},
+        )
+    except ValueError:
+        ratio_mismatch_rejected = True
+    test("Phase-three comparison wrappers reject confounded interventions",
+         spatial_mismatch_rejected and ratio_mismatch_rejected)
+
+    test("Conditional timestep execution depends only on anchor and spatial gates",
+         conditional_timestep_authorized(
+             anchor_reproduced=True,
+             resolution_comparison={"transport_passed": True},
+         )
+         and not conditional_timestep_authorized(
+             anchor_reproduced=False,
+             resolution_comparison={"transport_passed": True},
+         )
+         and not conditional_timestep_authorized(
+             anchor_reproduced=True,
+             resolution_comparison={"transport_passed": False},
+         )
+         and not protocol["conditional_trigger_uses_det_features"]
+         and not protocol["conditional_trigger_uses_lps_shape"]
+         and not protocol["conditional_trigger_uses_growth_model_score"])
+
+
+def test_collatz_multistep_replication():
+    from det8.models.examples.collatz_multistep_replication import (
+        FINAL_MANIFEST_PREDATED_FIRST_BAND_ACCESS,
+        FRESH_BANDS,
+        HAC_LAG,
+        MINIMUM_MEAN_LOG_SCORE_GAIN,
+        REVISION_ALL_RANGE,
+        SCORE_BLOCK_SIZE,
+        SHORTCUT_DEPTH,
+        _hac_standard_error,
+        exact_frontier_through_2pow22,
+        shortcut_bijection_audit,
+        shortcut_signature,
+        shortcut_step,
+    )
+    from det8.models.examples.collatz_search import collatz_trajectory
+
+    section("Collatz Frozen Multistep Transport Run")
+
+    test("Shortcut map retains its exact ordinary-step toll",
+         shortcut_step(27) == (41, 2)
+         and shortcut_step(182) == (91, 1))
+
+    signature = shortcut_signature(27, 10)
+    test("Ten-step Collatz prefix records terminal, toll, and parity word",
+         signature["terminal"] == 182
+         and signature["ordinary_toll"] == 18
+         and signature["parity_bits"]
+         == (1, 1, 0, 1, 1, 1, 1, 1, 0, 1)
+         and signature["signature"] == 763
+         and signature["residue"] == 27
+         and not signature["reached_one_before_depth"])
+
+    test("Fixed-prefix stopping-time decomposition is exact",
+         collatz_trajectory(27).steps
+         == signature["ordinary_toll"]
+         + collatz_trajectory(signature["terminal"]).steps
+         == 111)
+
+    bijection = shortcut_bijection_audit(10)
+    test("Parity words and residues are bijective but not numerically equated",
+         bijection["is_bijection"]
+         and bijection["residue_count"]
+         == bijection["distinct_parity_word_count"] == 1_024
+         and not bijection["numerical_equality_claimed"]
+         and signature["signature"] != signature["residue"])
+
+    small, _ = exact_frontier_through_2pow22(
+        limit=1 << 16, checkpoint_size=1 << 14
+    )
+    test("Bounded multistep arithmetic reproduces the 2^16 records",
+         small["status_counts"]
+         == {"reached_one": 65_536, "resource_limit": 0, "verified_cycle": 0}
+         and small["maximum_total_stopping_time"] == 339
+         and small["maximum_total_stopping_time_start"] == 52_527
+         and small["maximum_peak"] == 593_279_152
+         and small["maximum_peak_start"] == 60_975)
+
+    test("Exact shortcut recurrence and direct record audits agree",
+         small["shortcut_stopping_recurrence_holds"]
+         and not small["shortcut_toll_identity_failures"]
+         and small["shortcut_toll_identity_unresolved_count"] == 0
+         and small["all_record_and_exception_audits_match"])
+
+    limited, _ = exact_frontier_through_2pow22(
+        limit=20, checkpoint_size=10, max_descent_steps=1
+    )
+    test("Unresolved sentinel values cannot pass the exact recurrence audit",
+         limited["status_counts"]["resource_limit"] == 15
+         and not limited["shortcut_stopping_recurrence_holds"]
+         and limited["shortcut_toll_identity_unresolved_count"] == 15)
+
+    block_counts = tuple(
+        (stop - start) // SCORE_BLOCK_SIZE for start, stop in FRESH_BANDS
+    )
+    test("Transport geometry and conservative score gate remain predeclared",
+         REVISION_ALL_RANGE == (1 << 18, 1 << 20)
+         and SHORTCUT_DEPTH == 10
+         and SCORE_BLOCK_SIZE == 1 << 14
+         and block_counts == (64, 128)
+         and MINIMUM_MEAN_LOG_SCORE_GAIN == 0.02
+         and HAC_LAG == 4
+         and not FINAL_MANIFEST_PREDATED_FIRST_BAND_ACCESS
+         and _hac_standard_error([1.0] * 8, HAC_LAG) == 0.0)
+
+
+def test_collatz_accelerated_endpoint():
+    import json
+    import tempfile
+    from pathlib import Path
+
+    from det8.models.examples import collatz_accelerated_endpoint as accelerated
+
+    section("Collatz Accelerated Endpoint-Matched Protocol")
+
+    test("Accelerated valuation and odd jump are exact",
+         accelerated.v2(40) == 3
+         and accelerated.accelerated_step(27) == (41, 1))
+
+    prefix = accelerated.accelerated_prefix(27, 4)
+    test("Four-jump prefix retains its affine endpoint and ordinary toll",
+         prefix["valuations"] == (1, 2, 1, 1)
+         and prefix["endpoint"] == 71
+         and prefix["ordinary_toll"] == 9
+         and prefix["affine_identity_holds"]
+         and prefix["toll_identity_holds"]
+         and not prefix["early_terminal"])
+
+    state = accelerated._OddExactState.empty(checkpoint_size=256)
+    state.extend_to(256)
+    exact = state.summary()
+    test("Odd-only exact state reproduces tau(27) through a bounded frontier",
+         exact["all_reached_one"]
+         and exact["all_direct_record_audits_match"]
+         and exact["all_affine_toll_audits_hold"]
+         and state.total_stopping_time(27) == 111)
+
+    row, stratum = accelerated._model_row(state, 27, 4, 8, 8)
+    origin_terminal = accelerated._model_row(state, 5, 4, 8, 8)
+    endpoint_terminal = accelerated._model_row(state, 7, 4, 8, 8)
+    test("Endpoint controls and deterministic terminal strata stay distinct",
+         row is not None
+         and stratum == "statistical"
+         and len(row.origin_valuation_features)
+         == len(row.endpoint_valuation_features) == 11
+         and row.remaining_target == 102.0
+         and origin_terminal == (None, "origin_prefix_terminal")
+         and endpoint_terminal == (None, "endpoint_prefix_terminal"))
+
+    outside_state = accelerated._OddExactState.empty(checkpoint_size=64)
+    outside_state.extend_to(64)
+    outside_row, outside_stratum = accelerated._model_row(
+        outside_state, 27, 4, 8, 8
+    )
+    test("Fixed prefix audit permits an endpoint above the sampled frontier",
+         outside_stratum == "statistical"
+         and outside_row is not None
+         and outside_row.endpoint == 71 > outside_state.limit
+         and outside_row.exact_origin_toll == 9
+         and outside_row.matched_endpoint_toll == 10
+         and outside_row.remaining_target == 102.0
+         and accelerated._ordinary_advance(71, 10) == 91)
+
+    state.extend_to(1 << 16)
+    fitted = accelerated._fit_protocol(
+        state, (1 << 12, 1 << 14), 4, 8, 8
+    )
+    fitted_roundtrip = accelerated._protocol_from_payload(
+        json.loads(json.dumps(accelerated._protocol_payload(fitted)))
+    )
+    test("Frozen protocol survives a canonical JSON round trip",
+         fitted_roundtrip.digest == fitted.digest
+         and fitted_roundtrip.scale_calibration
+         == "in-sample training residuals")
+
+    test("Consumed reference findings retain their checked digest and state",
+         accelerated.evidence_payload_digest(
+             accelerated.CONSUMED_REFERENCE_FINDINGS
+         ) == accelerated.CONSUMED_REFERENCE_FINDINGS_SHA256
+         and not accelerated.CONSUMED_REFERENCE_FINDINGS[
+             "candidate_prequalified"
+         ]
+         and accelerated.CONSUMED_REFERENCE_FINDINGS[
+             "consumed_statistical_state"
+         ] == "NO_CONSUMED_GAIN"
+         and accelerated.CONSUMED_REFERENCE_FINDINGS[
+             "future_bands_status"
+         ] == "PRESERVED_UNTOUCHED")
+
+    block_counts = tuple(
+        (stop - start) // accelerated.SCORE_BLOCK_SIZE
+        for start, stop in accelerated.FUTURE_BANDS
+    )
+    test("Future geometry remains fixed behind the consumed 2^22 boundary",
+         accelerated.CONSUMED_LIMIT == 1 << 22
+         and accelerated.FUTURE_LIMIT == 1 << 24
+         and accelerated.FUTURE_BANDS
+         == ((1 << 22, 1 << 23), (1 << 23, 1 << 24))
+         and accelerated.SCORE_BLOCK_SIZE == 1 << 14
+         and block_counts == (256, 512))
+
+    statistical_sources = accelerated._future_statistical_source_ids()
+    exact_sources = accelerated._all_exact_source_blocks(
+        1, accelerated.CONSUMED_LIMIT
+    )
+    test("Selector-aware provenance excludes consumed even starts",
+         len(statistical_sources) == 768
+         and statistical_sources[0].startswith("odd-direct-starts-4194305-")
+         and "4194304" not in statistical_sources[0].split("-")[3:4]
+         and exact_sources[0] == "all-direct-starts-1-16383"
+         and exact_sources[-1] == "all-direct-starts-4194304-4194304")
+
+    refused_without_manifest = False
+    try:
+        accelerated.run_collatz_accelerated_endpoint()
+    except RuntimeError:
+        refused_without_manifest = True
+    test("Future runner refuses before preparation when manifest is absent",
+         refused_without_manifest)
+
+    synthetic_manifest = {
+        "schema_version": accelerated.SCHEMA_VERSION,
+        "consumed_limit_inclusive": accelerated.CONSUMED_LIMIT,
+        "future_limit_inclusive": accelerated.FUTURE_LIMIT,
+        "design_fixed_before_future_access": {
+            "depth": accelerated.DESIGN_DEPTH,
+            "endpoint_residue_bits": accelerated.DESIGN_RESIDUE_BITS,
+            "valuation_cap": accelerated.VALUATION_CAP,
+            "integer_start_score_block_size": accelerated.SCORE_BLOCK_SIZE,
+        },
+        "future_plan": {"bands_half_open": accelerated.FUTURE_BANDS},
+        "candidate_prequalified": True,
+        "rigorous_future_launch_authorized": False,
+        "frozen_protocol": {"protocol_digest": "a" * 64},
+        "implementation_sha256": "b" * 64,
+        "exact_consumed_frontier": {
+            "resume_chain_sha256": "c" * 64,
+            "odd_state_sha256": "d" * 64,
+        },
+    }
+    synthetic_manifest["manifest_digest"] = (
+        accelerated._canonical_manifest_digest(synthetic_manifest)
+    )
+    roundtrip = json.loads(json.dumps(synthetic_manifest))
+    test("Canonical manifest digest survives a JSON round trip",
+         accelerated._verify_persisted_manifest_static(roundtrip)
+         ["manifest_digest"] == synthetic_manifest["manifest_digest"])
+
+    with tempfile.TemporaryDirectory() as raw_directory:
+        directory = Path(raw_directory)
+        manifest_path = directory / "manifest.json"
+        reservation_path = directory / "reservation.json"
+        manifest_path.write_text(json.dumps(synthetic_manifest), encoding="utf-8")
+
+        rigorous_reservation_refused = False
+        try:
+            accelerated.reserve_collatz_accelerated_future(
+                manifest_path, reservation_path
+            )
+        except RuntimeError:
+            rigorous_reservation_refused = True
+        test("Uncalibrated future consumption is refused by default",
+             rigorous_reservation_refused and not reservation_path.exists())
+
+        reservation = accelerated.reserve_collatz_accelerated_future(
+            manifest_path,
+            reservation_path,
+            allow_exploratory_consumption=True,
+        )
+        duplicate_refused = False
+        try:
+            accelerated.reserve_collatz_accelerated_future(
+                manifest_path,
+                reservation_path,
+                allow_exploratory_consumption=True,
+            )
+        except RuntimeError:
+            duplicate_refused = True
+        accelerated._claim_reservation(reservation_path, reservation)
+        replay_refused = False
+        try:
+            accelerated._claim_reservation(reservation_path, reservation)
+        except RuntimeError:
+            replay_refused = True
+        test("Write-once reservation and immutable claim refuse replay",
+             reservation["launch_mode"] == "exploratory"
+             and duplicate_refused
+             and replay_refused)
+
+        active = accelerated._transition_reservation(
+            reservation_path,
+            reservation,
+            "access_committed",
+            local_access_claim_committed=True,
+        )
+        sample_result = {
+            "reservation_id": reservation["reservation_id"],
+            "value": -0.25,
+        }
+        sample_result["result_digest"] = accelerated._canonical_result_digest(
+            sample_result
+        )
+        result_path = directory / "result.json"
+        accelerated._atomic_write_json(
+            result_path, sample_result, exclusive=True
+        )
+        persisted_result = json.loads(result_path.read_text(encoding="utf-8"))
+        completed = accelerated._transition_reservation(
+            reservation_path,
+            active,
+            "completed",
+            result_path=str(result_path),
+            result_digest=sample_result["result_digest"],
+        )
+        stale_transition_refused = False
+        try:
+            accelerated._transition_reservation(
+                reservation_path, active, "failed_unknown"
+            )
+        except RuntimeError:
+            stale_transition_refused = True
+        test("Reservation transitions and persisted result digest are auditable",
+             active["status"] == "access_committed"
+             and completed["status"] == "completed"
+             and stale_transition_refused
+             and persisted_result["result_digest"]
+             == accelerated._canonical_result_digest(persisted_result))
+
 
 # ── Main ────────────────────────────────────────────────────────────────────
 
@@ -2064,6 +4706,132 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in proxy_bootstrap: {e}")
+        traceback.print_exc()
+
+    try:
+        test_exodus_simulation()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in exodus_simulation: {e}")
+        traceback.print_exc()
+
+    try:
+        test_exodus_next_runs()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in exodus_next_runs: {e}")
+        traceback.print_exc()
+
+    try:
+        test_exodus_field_solver()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in exodus_field_solver: {e}")
+        traceback.print_exc()
+
+    try:
+        test_exodus_floating_supply()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in exodus_floating_supply: {e}")
+        traceback.print_exc()
+
+    try:
+        test_exodus_apparatus_3d()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in exodus_apparatus_3d: {e}")
+        traceback.print_exc()
+
+    try:
+        test_exodus_relational_tomography()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in exodus_relational_tomography: {e}")
+        traceback.print_exc()
+
+    try:
+        test_exodus_adaptive_scheduler()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in exodus_adaptive_scheduler: {e}")
+        traceback.print_exc()
+
+    try:
+        test_relational_experimental_calculus()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in relational_experimental_calculus: {e}")
+        traceback.print_exc()
+
+    try:
+        test_neutron_lifetime_adapter()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in neutron_lifetime_adapter: {e}")
+        traceback.print_exc()
+
+    try:
+        test_ret_correlated_nonlinear_core()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in ret_correlated_nonlinear_core: {e}")
+        traceback.print_exc()
+
+    try:
+        test_mathematical_search_adapters()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in mathematical_search_adapters: {e}")
+        traceback.print_exc()
+
+    try:
+        test_mathematical_next_runs()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in mathematical_next_runs: {e}")
+        traceback.print_exc()
+
+    try:
+        test_relational_residual_discovery()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in relational_residual_discovery: {e}")
+        traceback.print_exc()
+
+    try:
+        test_navier_stokes_near_singularity()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in navier_stokes_near_singularity: {e}")
+        traceback.print_exc()
+
+    try:
+        test_navier_stokes_relational_discovery()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in navier_stokes_relational_discovery: {e}")
+        traceback.print_exc()
+
+    try:
+        test_navier_stokes_long_horizon_completion()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in navier_stokes_long_horizon_completion: {e}")
+        traceback.print_exc()
+
+    try:
+        test_collatz_multistep_replication()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in collatz_multistep_replication: {e}")
+        traceback.print_exc()
+
+    try:
+        test_collatz_accelerated_endpoint()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in collatz_accelerated_endpoint: {e}")
         traceback.print_exc()
 
     section("RESULTS")

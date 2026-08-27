@@ -1,6 +1,6 @@
 # DET v8.0 — Physics (Track A)
 
-**The physical calculus: falsifiable predictions, experimental designs, derived observables.**
+**The physical calculus: falsifiable predictions, experimental designs, and correspondence checks.**
 **Status:** Candidate predictions pre-registered; awaiting experimental test.
 
 ---
@@ -23,7 +23,7 @@ The structural history field κ replaces the original conflated `q` variable.
 
 **κ-energy carrier:** The free energy ψ = ψ₀ + ½K(κ−κ_eq)² is a phenomenological form. The microscopic carrier of κ-energy depends on the physical realization: if κ manifests as lattice defect density, the energy is elastic strain energy stored in dislocation fields (standard materials science). If κ represents structural history beyond standard defect density, the carrier must be identified in the relevant physical realization. At this stage, the energy ledger is a *constraint* that any physical realization of κ must satisfy, without specifying the carrier.
 
-**κ measurement:** Structural proxy (`structural_proxy.py`) — calibrated mechanical probe. Δκ_min ≈ 0.002 at 1% noise. Cross-validated with clock and gravity.
+**κ measurement candidate:** Structural proxy (`structural_proxy.py`) — a simulated mechanical protocol, not yet an independently calibrated κ measurement. Its use is gated on F9 and operational plateau anchors; there is no active gravity cross-check under Option B.
 
 > **⚠ κ vs. defect density (Round 3 red-team, open).** The structural proxy currently models κ as "fraction of locked structural degrees of freedom" with standard materials-science proxies (dislocation density, residual stress, hardness, resistivity). No discriminator yet distinguishes "κ is a new field" from "κ = defect density". Until a discriminator is pre-registered (e.g., a τ_rec temporal signature decoupled from thermal annealing), the clock anomaly cannot claim novelty over standard materials science.
 
@@ -107,7 +107,7 @@ The clock anomaly is tested in three ordered, DET-native steps (`det_falsificati
 
 ## 4. Lorentz Covariance
 
-All 7 relativistic observables derived from event graph ≺:
+Seven relativistic correspondence observables are reproduced after mapping the event graph ≺ to the standard spacetime role:
 
 | Observable | Derivation |
 |---|---|

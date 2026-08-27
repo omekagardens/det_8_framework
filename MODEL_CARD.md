@@ -1,10 +1,10 @@
 # DET v8.0 — Model Card
 
 **Primary reference for the Deep Existence Theory framework.**
-**Date:** August 14, 2026 (revised per mathematical review + re-foundation + T6/T6b/T7/T2a/T6-residual/why-ℂ/RC1.2/FL-realization)
-**Test suite:** 407/407 passing
+**Date:** August 27, 2026 (integrated Record-Kernel Physics and RET research)
+**Test suite:** 651/651 passing
 
-**Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B: the four deadlocks — time, quantum, agency, history — resolved in one framework). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field) — not the point; DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. **The correlation class lands on almost-quantum (Q¹)** — the leading-order *effective* quantum level, consistent with the effective-field-theory nature of all real quantum theories (full quantum Q^∞ is the idealized UV-complete limit); collapse is the *commit* primitive (record formation), not a patch. General Born-rule uniqueness, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
+**Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B addresses the four deadlocks of time, quantum interpretation, agency, and history in one governed synthesis). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field); DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. The implemented correlation-class work reaches almost-quantum $Q^1$, while the relation to full quantum $Q^∞$ and the assumptions behind the complex structure remain explicit research questions. Collapse is the *commit* primitive (record formation), not a patch. General Born-rule uniqueness, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
 
 ---
 
@@ -73,6 +73,97 @@ Pre-registered in `track_a.py`. Monte Carlo simulator: `clock_experiment.py`. κ
 
 > **Program name (re-foundation, Aug 2026):** the active physical program is **Record-Kernel Physics** (renamed from "κ-Physics"), with four sectors: (i) kernel geometry and history (T1 — κ as predictive-history compression); (ii) pair-kernel quantum reconstruction (T2/T6 — 𝔇); (iii) path irreversibility and measurement (T3/T4); (iv) causal order-and-count geometry (T7). The theorem program is specified in `docs/record_kernel_physics.md`.
 
+### Governed research sandbox: Exodus equations
+
+`exodus_simulation.py` translates the electrostatic-pressure equations of
+US 11,511,891 B2 into DET nodes, antisymmetric momentum bonds, and a
+conservation-gated regime closure. It is explicitly **not** a third Track A
+prediction. Its optional boundary and history couplings are declared
+sensitivity ansatzes. The executable audit finds that internal and external
+endpoint channels can conserve momentum, an endpoint-free channel cannot, and
+the patent's time-varying prose does not match the direct derivative of its
+equation (12). `exodus_next_runs.py` adds a conventional grounded-plane
+surrogate, noisy boundary model selection, closed momentum inventories,
+history detectability, and AC phase/frequency sweeps. See
+`docs/EXODUS_DET_TRANSLATION.md` and `docs/EXODUS_NEXT_RUNS.md`.
+`exodus_field_solver.py` adds a dependency-free 2-D Laplace solve for a
+declared blade/flat surrogate, closed Maxwell-stress accounting, chamber and
+orientation sweeps, grid refinement, and fixed-differential common-mode tests.
+See `docs/EXODUS_FIELD_RUN.md`.
+`exodus_floating_supply.py` extracts the conductor capacitance matrix, solves
+the common mode from differential voltage plus net charge, and sweeps supply
+stray capacitance and return leakage. The charge-neutral field remains paired
+with the chamber reaction. See `docs/EXODUS_FLOATING_SUPPLY_RUN.md`.
+`exodus_apparatus_3d.py` extends that accounting to an explicit 3-D chamber,
+extruded electrodes, terminal leads, independently unbalanced terminal
+capacitances, and leakage-path endpoints. The dominant surrogate load is often
+lead-to-chamber attraction. See `docs/EXODUS_3D_APPARATUS_RUN.md`.
+`exodus_relational_tomography.py` turns the boundary question into an
+intervention protocol: independently rotate device and chamber relations,
+select endpoint models, expand the momentum regime until it closes, and test
+history only after present electrical state is matched. See
+`docs/EXODUS_RELATIONAL_TOMOGRAPHY.md`.
+`exodus_adaptive_scheduler.py` ranks those interventions by expected Bayesian
+information gain, separates endpoint-family and exact novel-channel stopping
+rules, and compares adaptive with random measurement order. See
+`docs/EXODUS_ADAPTIVE_SCHEDULER.md`.
+
+The companion relational-evidence layer now supports eight Gaussian,
+heavy-tailed, count, and histogram predictive families with immutable source
+provenance and the RG2 discovery gate. Its first Riemann/Collatz pressure test
+rejects the trained Riemann reference on within-run validation, requires a
+stronger Collatz null before replication, and records Collatz convergence
+through \(2^{20}\) only as a bounded exact computation. None of these outcomes
+is a new Track A prediction or a universal proof. See
+`docs/RELATIONAL_RESIDUAL_DISCOVERY.md`.
+
+The follow-up Collatz run now applies ten exact shortcut steps before modeling
+continuation workload. On the already-consumed range below \(2^{20}\), both a
+compressed parity candidate and its saturated residue control lose to the
+exact-toll/terminal-height baseline. Two locked higher-band scores are positive
+but only about \(5.3\times10^{-5}\) and \(7.4\times10^{-5}\) mean log-score
+units, far below the 0.02 gate, with failed coverage diagnostics and no
+calibrated open-model probability. The statistical state is therefore
+`NO_HISTORICAL_GAIN`, with zero formal replications. Exact convergence through
+\(2^{22}\) remains a bounded computation—not a Track A prediction, theorem, or
+evidence for universal Collatz convergence.
+
+The consumed-only successor in
+`det8/models/examples/collatz_accelerated_endpoint.py` uses four accelerated
+odd jumps, eight endpoint-residue bits, and a valuation cap of eight. Its fixed
+endpoint-matched H1 adds only origin-valuation terms while jointly refitting
+the shared endpoint controls. It loses to H0 on all three rolling ranges, with
+equal-block-weighted mean log-score gains of \(-0.0002973846\),
+\(-0.0000409709\), and \(-0.00000415615\). Residual diagnostic inequalities
+pass, although those gates are not simulation-calibrated, and every score gate
+fails; the
+paired \((d,K)=(2,6),(4,8),(6,10)\) sensitivities are also negative. The
+candidate therefore does not prequalify. No launch manifest was persisted, no
+start above \(2^{22}\) was accessed, and the planned higher bands remain
+untouched. The broad-tail reference is not a calibrated open model, so it
+supplies no probability, RG2 promotion, or formal replication. A separate
+odd-only exact census again finds all 4,194,304 starts through \(2^{22}\)
+reaching 1, with maximum stopping time 596 at 3,732,423 and all declared
+direct and affine audits passing; this remains only a bounded computation.
+
+The phase-1 Navier–Stokes adapter at
+`det8/models/examples/navier_stokes_near_singularity.py` evolves five fixed
+initial-condition families on the periodic cube with a Leray-projected,
+two-thirds-truncated Fourier pseudo-spectral method. Run it with
+`python3 -m det8.models.examples.navier_stokes_near_singularity` in a
+NumPy-enabled environment. The default seven-action suite may still return
+`NUMERICAL_MODEL_REVISION`. Its checked adaptive branch uses a seed-defined,
+resolution-invariant, divergence-free Fourier initial condition followed by
+post-projection normalization. The \(N=16/24/32\) actions are underresolved;
+\(N=40/48\) are admitted resolved transients with passing spatial transport,
+and the \(N=40\) timestep-halving audit also passes. The branch state is
+`RESOLVED_TRANSIENT_AMPLIFICATION_NO_NEAR_SINGULAR_SCALING`: amplification,
+analyticity-margin, fitted-time-stability, and holdout gates rule out promotion.
+Every run through \(N=48\) is still calibration scale, with no historically
+fresh replication, RG2 evaluation, blow-up claim, or global-regularity claim.
+Finite DNS is numerical evidence, not proof. See
+[`docs/NAVIER_STOKES_NEAR_SINGULARITY.md`](docs/NAVIER_STOKES_NEAR_SINGULARITY.md).
+
 ---
 
 ## 5. Track B — Ontological Grammar
@@ -116,7 +207,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 
 ## 7. Code Module Inventory (selected subset)
 
-> **Honest scoping (Round 3 red-team):** this is a **selected subset** — `det8/models/` contains 83 `.py` files. The list below omits the Track B simulation suite (`resurrection_simulation`, `atonement_simulation`, `afterlife_simulation`, `salvation_history`, `unified_death_sin`, `track_b_simulations`), the `rc1_*` research modules, the 14 `continuum_limit_*` modules, and several dataset-analysis modules.
+> **Honest scoping (Aug 27 audit):** this is a **selected subset** — the integrated tree contains 128 model modules and 144 Python files overall. The list below omits parts of the Track B simulation suite, the `rc1_*` research modules, the continuum-limit modules, dataset analysis, applied physics, and the RET example adapters.
 
 ```
 det8/models/
@@ -217,22 +308,22 @@ det8/models/
 
 ## 11. Test Suite
 
-**407/407 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
+**651/651 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.
 - ✅ Axioms are internally consistent (no contradictions).
-- ✅ Derived observables match their expected values.
+- ✅ Correspondence calculations and governed research fixtures match their expected values.
 
 The test suite does **NOT** verify:
 - ❌ That DET axioms map to physical reality.
 - ❌ That DET makes correct empirical predictions.
 - ❌ That κ, Π, or λ_P exist in nature.
 
-**Coverage caveat (Round 3 red-team):** the 251 tests exercise only the toy models (`mam0`, `mamq`), the core primitives (`det8_core`, `bonds`, `event_graph`, `confluence`, `markov_kernel`, `det_simulation`), the quantum-correspondence toys (`peres_mermin`, `chsh`), `bounded_adversary`, `anthropic_principle`, the Track A clock/proxy code (`clock_experiment`, `clock_anomaly`, `track_a`, `structural_proxy`), the Round 3/6 resolution modules (`gravity_v2`, `kappa_discriminator`, `sparc_analysis`, `det_units`, `kappa_derivation`, `det_falsification`, `operational_kappa`), and the applied-physics suite (`adversarial`, `kappa_ingest`, `discriminator`, `applied_tests`, `ingest`). The physics-correspondence modules (`born_derivation`, `chsh_derivation`, `o4_joint_kernel`, `det_gravity`, `newton_correspondence`, `lorentz_derivation`, `time_evolution`, `preferred_basis`, …) and much of the astrophysics suite (`cluster_dynamics`, `post_newtonian`, `experimental_constraints`, `continuum_limit_*`, …) are currently **untested** by this runner.
+**Coverage caveat:** the combined runner exercises the core primitives, theorem-program fixtures, active clock/proxy work, applied-physics ingest, Exodus conservation and tomography, the general RET calculus, neutron-lifetime adapter, governed Riemann/Collatz searches, and bounded Navier–Stokes protocols. It is still a curated internal-consistency suite, not exhaustive module coverage, empirical confirmation, formal proof, or independent replication.
 
 Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 
 ---
 
-**Primary reference. See also: ONTOLOGY.md, PHYSICS.md, GOVERNANCE.md, ROADMAP.md, docs/CONTINUUM_LIMIT_FRAMEWORK.md, docs/track_b/resurrection.md.**
+**Primary reference. See also: ONTOLOGY.md, PHYSICS.md, GOVERNANCE.md, ROADMAP.md, docs/CONTINUUM_LIMIT_FRAMEWORK.md, docs/NAVIER_STOKES_NEAR_SINGULARITY.md, docs/track_b/resurrection.md.**
