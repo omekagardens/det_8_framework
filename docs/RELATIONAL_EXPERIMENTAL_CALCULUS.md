@@ -259,16 +259,20 @@ different schedules for different scientific questions.
 
 Three published aggregate records distinguish confinement method from decay
 readout. Within the declared reduced model set, a proton-specific pipeline
-relationship leads at approximately 0.80, while the additional-decay endpoint
-remains below 0.02. The scheduler chooses an absolute proton flux/readout audit
-before another lifetime measurement. See
+relationship leads at approximately 0.80, while the correctly-signed
+dark-decay endpoint (beam lengthened, bottle shortened) remains below 0.02.
+The scheduler chooses an absolute proton flux/readout audit before another
+lifetime measurement. See
 [`NEUTRON_LIFETIME_RET.md`](NEUTRON_LIFETIME_RET.md) for the assumptions,
 results, and interpretation boundary.
 
 The adapter also verifies the new core with a three-record joint covariance
 likelihood and a nonlinear paired survival-fraction response. A zero-
 correlation joint update reproduces independent sequential assimilation to
-floating-point precision.
+floating-point precision. A companion
+`det8/models/examples/neutron_counting_evidence.py` exercises the evidence
+layer's Binomial and Poisson families on synthetic raw counts and reproduces
+the same proton-pipeline direction.
 
 ### Navier–Stokes numerical adapter
 

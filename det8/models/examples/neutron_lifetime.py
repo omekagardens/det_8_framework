@@ -21,6 +21,7 @@ from det8.models.relational_scheduler import (
     rank_actions,
     ret_governance_state,
 )
+from det8.models.relational_sensitivity import prior_sensitivity_sweep
 from det8.models.relational_tomography import (
     GaussianPrior,
     PracticalCost,
@@ -60,6 +61,11 @@ def neutron_models() -> list[RelationalModel]:
     anchored_lifetime = {"lifetime_offset_s": GaussianPrior(0.0, 5.0)}
     return [
         RelationalModel("neutron_common", "common_lifetime", lifetime, 0.0),
+        # proton_pipeline_bias_s is a fused offset over absolute fluence
+        # calibration, proton detection efficiency, and proton backscattering.
+        # With only one proton record these three are collinear, so they are
+        # not split here; a collaboration-level adapter would separate them
+        # behind dedicated calibration actions.
         RelationalModel(
             "neutron_proton_pipeline",
             "method_systematic",
@@ -88,11 +94,11 @@ def neutron_models() -> list[RelationalModel]:
             1.5,
         ),
         RelationalModel(
-            "neutron_exotic_decay",
+            "neutron_dark_decay",
             "additional_decay_channel",
             {
                 **anchored_lifetime,
-                "exotic_beta_shift_s": GaussianPrior(0.0, 10.0),
+                "dark_decay_shift_s": GaussianPrior(0.0, 10.0),
             },
             3.0,
         ),
@@ -114,7 +120,7 @@ def neutron_questions() -> dict[str, Question]:
                 "neutron_proton_pipeline": "proton_pipeline",
                 "neutron_bottle_storage": "bottle_storage",
                 "neutron_spectrum_state": "spectrum_state",
-                "neutron_exotic_decay": "additional_decay_channel",
+                "neutron_dark_decay": "additional_decay_channel",
             },
             "Which predictive relationship carries the lifetime discrepancy?",
         ),
@@ -134,7 +140,7 @@ def neutron_questions() -> dict[str, Question]:
             {
                 model.name: (
                     "additional_decay_required"
-                    if "exotic_beta_shift_s" in model.parameter_priors
+                    if "dark_decay_shift_s" in model.parameter_priors
                     else "additional_decay_not_required"
                 )
                 for model in models
@@ -196,7 +202,9 @@ def _lifetime_action(
             ),
             "bottle_storage_bias_s": (1.0 if method == "bottle" else 0.0,),
             "spectrum_shift_s": (spectrum_coordinate,),
-            "exotic_beta_shift_s": (1.0 if method == "beam" else 0.0,),
+            # Dark decay lengthens the beam beta-partial lifetime and shortens
+            # the bottle survival lifetime with opposite sign.
+            "dark_decay_shift_s": (1.0 if method == "beam" else -1.0,),
         },
         cost=cost,
         metadata={
@@ -386,7 +394,7 @@ def prospective_neutron_actions() -> list[RelationalAction]:
                 "coincident_beta_survivor_comparison",
                 "science",
                 (0.0,),
-                {"exotic_beta_shift_s": (1.0,)},
+                {"dark_decay_shift_s": (1.0,)},
                 PracticalCost(time=6.0, money=6.0, risk=1.0, wear=1.0),
                 {"fixture": "neutron_lifetime", "comparison": "beta_partial_vs_total"},
             ),
@@ -466,13 +474,14 @@ def run_neutron_lifetime_fixture(seed: int = 2_025) -> dict[str, object]:
     literature_state = ret_governance_state(
         posterior,
         questions["relational_family"],
-        novel_parameters=("exotic_beta_shift_s",),
+        novel_parameters=("dark_decay_shift_s",),
         nuisance_parameters=(
             "proton_pipeline_bias_s",
             "bottle_storage_bias_s",
             "spectrum_shift_s",
         ),
         thresholds=thresholds,
+        closure_requirement="cross-method consistency",
     )
     source_objective = SchedulerObjective(
         question=questions["discrepancy_source"],
@@ -506,7 +515,7 @@ def run_neutron_lifetime_fixture(seed: int = 2_025) -> dict[str, object]:
         "proton_pipeline_bias_s": 9.5,
         "bottle_storage_bias_s": 0.0,
         "spectrum_shift_s": 0.0,
-        "exotic_beta_shift_s": 0.0,
+        "dark_decay_shift_s": 0.0,
     }
     prospective_observation = simulate_neutron_observation(
         selected,
@@ -520,13 +529,14 @@ def run_neutron_lifetime_fixture(seed: int = 2_025) -> dict[str, object]:
     after_next_state = ret_governance_state(
         posterior_after_next,
         questions["relational_family"],
-        novel_parameters=("exotic_beta_shift_s",),
+        novel_parameters=("dark_decay_shift_s",),
         nuisance_parameters=(
             "proton_pipeline_bias_s",
             "bottle_storage_bias_s",
             "spectrum_shift_s",
         ),
         thresholds=thresholds,
+        closure_requirement="cross-method consistency",
     )
 
     attack_action = source_by_name["precision_electron_beam"]
@@ -540,6 +550,32 @@ def run_neutron_lifetime_fixture(seed: int = 2_025) -> dict[str, object]:
         attacked,
         questions["relational_family"],
         thresholds=thresholds,
+        closure_requirement="cross-method consistency",
+    )
+    prior_sensitivity = prior_sensitivity_sweep(
+        neutron_models(),
+        joint_published_record_action(),
+        tuple(record.lifetime_s for record in published_lifetime_records()),
+        joint_published_covariance(beam_readout_correlation=0.0),
+        complexity_penalties=(0.4, 0.8, 1.6),
+        open_model_priors=(0.01, 0.03, 0.06),
+        open_model_scales=(10.0, 30.0, 90.0),
+        reference_complexity_penalty=0.8,
+        reference_open_model_prior=0.03,
+        reference_open_model_scale=30.0,
+    )
+    # The bottle method's raw observable is a survival fraction at storage
+    # times, not an aggregate lifetime. Assimilate a synthetic survival
+    # observation through the nonlinear cubature path and check that it is
+    # consistent with the published aggregate bottle value.
+    survival_action = neutron_survival_curve_action((200.0, 1_000.0))
+    survival_observation = (
+        math.exp(-200.0 / (REFERENCE_LIFETIME_S - 2.25)),
+        math.exp(-1_000.0 / (REFERENCE_LIFETIME_S - 2.25)),
+    )
+    survival_covariance = ((4.0e-6, 1.5e-6), (1.5e-6, 9.0e-6))
+    posterior_after_survival = update_ret_posterior(
+        posterior, survival_action, survival_observation, survival_covariance
     )
     return {
         "fixture": "neutron lifetime discrepancy",
@@ -549,12 +585,21 @@ def run_neutron_lifetime_fixture(seed: int = 2_025) -> dict[str, object]:
         "correlation_sensitivity": correlation_sensitivity,
         "literature_posterior": dict(posterior.model_weights),
         "literature_state": literature_state,
+        "prior_sensitivity": prior_sensitivity,
         "proton_pipeline_parameters": parameter_summary(
             posterior, "neutron_proton_pipeline"
         ),
-        "exotic_endpoint_inclusion_probability": endpoint_inclusion_probability(
-            posterior, "exotic_beta_shift_s"
+        "dark_decay_endpoint_inclusion_probability": endpoint_inclusion_probability(
+            posterior, "dark_decay_shift_s"
         ),
+        "survival_curve_bottle_observation": {
+            "storage_times_s": (200.0, 1_000.0),
+            "observed_survival_fractions": survival_observation,
+            "posterior": dict(posterior_after_survival.model_weights),
+            "common_lifetime_parameters": parameter_summary(
+                posterior_after_survival, "neutron_common"
+            ),
+        },
         "source_question_top_action": {
             **source_ranking[0],
             "metadata": dict(selected.metadata),
@@ -601,8 +646,8 @@ def run_neutron_truth_suite(seed: int = 100) -> dict[str, object]:
             {"lifetime_offset_s": -2.0, "spectrum_shift_s": 7.0},
         ),
         "additional_decay": (
-            "neutron_exotic_decay",
-            {"lifetime_offset_s": -2.0, "exotic_beta_shift_s": 9.5},
+            "neutron_dark_decay",
+            {"lifetime_offset_s": -2.0, "dark_decay_shift_s": 9.5},
         ),
     }
     objective = SchedulerObjective(

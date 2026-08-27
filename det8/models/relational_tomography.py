@@ -623,7 +623,13 @@ def parameter_covariance_after_action(
     action: RelationalAction,
     observation_noise: ObservationNoise,
 ) -> Matrix:
-    """Return the model's Gaussian covariance after a prospective action."""
+    """Return the model's Gaussian covariance after a prospective action.
+
+    The predictive mean is used as the synthetic observation. Under this core's
+    Gaussian moment approximation the covariance update is observation-
+    independent for both linear and cubature-propagated nonlinear responses, so
+    this equals the expected posterior covariance.
+    """
 
     state = posterior.parameters[model_name]
     mean, _ = predictive_distribution(posterior, model_name, action, observation_noise)

@@ -135,7 +135,15 @@ def expected_nuisance_information_bits(
     observation_noise: ObservationNoise,
     nuisance_parameters: Sequence[str],
 ) -> float:
-    """Approximate weighted marginal entropy reduction for nuisance terms."""
+    """Marginal information gain for nuisance parameters.
+
+    Under this core's Gaussian moment approximation the posterior covariance
+    update is observation-independent for both linear and cubature-propagated
+    nonlinear actions, so the covariance reduction below is the expected gain
+    and needs no posterior-predictive averaging. A genuinely observation-
+    dependent covariance would require a non-Gaussian parameter engine, which
+    remains outside this core.
+    """
 
     total = 0.0
     requested = set(nuisance_parameters)
@@ -144,6 +152,8 @@ def expected_nuisance_information_bits(
         if weight <= 0.0:
             continue
         state = posterior.parameters[model_name]
+        if not state.parameter_names:
+            continue
         new_covariance = parameter_covariance_after_action(
             posterior, model_name, action, observation_noise
         )
@@ -258,8 +268,15 @@ def ret_governance_state(
     thresholds: GovernanceThresholds = GovernanceThresholds(),
     closure_passed: bool = False,
     budget_exhausted: bool = False,
+    closure_requirement: str = "conservation closure",
 ) -> Dict[str, object]:
-    """Evaluate the RET state machine and RG1 novelty gates."""
+    """Evaluate the RET state machine and RG1 novelty gates.
+
+    ``closure_requirement`` names the terminal consistency check that the
+    ``CLOSE`` state demands. The default is the momentum-ledger conservation
+    closure used by the thrust fixtures; a decay-lifetime or other domain may
+    substitute its own label (for example "cross-method consistency").
+    """
 
     open_probability = posterior.model_weights[OPEN_MODEL_NAME]
     family_probabilities = question_probabilities(posterior, family_question)
@@ -310,10 +327,13 @@ def ret_governance_state(
             reason = "endpoint supported but its amplitude remains imprecise"
         elif not closure_passed:
             state = "CLOSE"
-            reason = "inferred regime must now pass conservation closure"
+            reason = f"inferred regime must now pass {closure_requirement}"
         else:
             state = "CLOSED"
-            reason = "relational identification, novelty gates, and closure passed"
+            reason = (
+                "relational identification, novelty gates, and "
+                f"{closure_requirement} passed"
+            )
 
     return {
         "state": state,
@@ -325,5 +345,6 @@ def ret_governance_state(
         "novel_endpoint_probabilities": novelty,
         "open_model_probability": open_probability,
         "maximum_nuisance_standard_deviation": nuisance_sd,
+        "closure_requirement": closure_requirement,
         "posterior_warning": POSTERIOR_IS_NOT_ONTOLOGY,
     }

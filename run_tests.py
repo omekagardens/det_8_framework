@@ -2537,18 +2537,19 @@ def test_neutron_lifetime_adapter():
     test("Adapter separates confinement method from decay readout",
          proton_action.feature_vectors["proton_pipeline_bias_s"] == (1.0,)
          and electron_action.feature_vectors["proton_pipeline_bias_s"] == (0.0,)
-         and proton_action.feature_vectors["exotic_beta_shift_s"] == (1.0,)
-         and electron_action.feature_vectors["exotic_beta_shift_s"] == (1.0,)
-         and bottle_action.feature_vectors["exotic_beta_shift_s"] == (0.0,)
          and neutron_questions()["discrepancy_source"].answer(
              "neutron_proton_pipeline"
          ) != neutron_questions()["discrepancy_source"].answer(
              "neutron_bottle_storage"
          ))
+    test("Dark decay enters beam and bottle with opposite sign",
+         proton_action.feature_vectors["dark_decay_shift_s"] == (1.0,)
+         and electron_action.feature_vectors["dark_decay_shift_s"] == (1.0,)
+         and bottle_action.feature_vectors["dark_decay_shift_s"] == (-1.0,))
 
     prior = initialize_neutron_posterior()
     test("Novel decay begins below conventional model families",
-         prior.model_weights["neutron_exotic_decay"]
+         prior.model_weights["neutron_dark_decay"]
          < prior.model_weights["neutron_proton_pipeline"]
          and prior.model_weights["M_bottom"] == 0.03)
 
@@ -2561,8 +2562,8 @@ def test_neutron_lifetime_adapter():
     test("J-PARC electron readout shifts support toward proton specificity",
          trace[2]["model_weights"]["neutron_proton_pipeline"]
          > trace[1]["model_weights"]["neutron_proton_pipeline"]
-         and trace[2]["model_weights"]["neutron_exotic_decay"]
-         < trace[1]["model_weights"]["neutron_exotic_decay"])
+         and trace[2]["model_weights"]["neutron_dark_decay"]
+         < trace[1]["model_weights"]["neutron_dark_decay"])
 
     sequential_posterior, _ = assimilate_published_records()
     joint_posterior = assimilate_joint_published_records()
@@ -2584,8 +2585,8 @@ def test_neutron_lifetime_adapter():
          abs(lifetime - 877.75) < 0.5
          and 8.0 < proton_bias["mean"] < 11.0
          and proton_bias["lower_95"] > 0.0)
-    test("Electron-beam record suppresses generic exotic decay",
-         fixture["exotic_endpoint_inclusion_probability"] < 0.05)
+    test("Electron-beam record suppresses dark decay",
+         fixture["dark_decay_endpoint_inclusion_probability"] < 0.05)
     test("Literature posterior requests calibration before novelty",
          fixture["literature_state"]["state"] == "CALIBRATE")
     test("Scheduler selects an absolute proton audit next",
@@ -2611,6 +2612,21 @@ def test_neutron_lifetime_adapter():
          fixture["model_failure_attack"]["open_model_probability"] > 0.99
          and fixture["model_failure_attack"]["state"]["state"]
          == "MODEL_FAILURE")
+    prior_sensitivity = fixture["prior_sensitivity"]
+    test("Fixture exposes a prior-hyperparameter sensitivity sweep",
+         set(prior_sensitivity["weight_ranges"])
+         == {"neutron_common", "neutron_proton_pipeline", "neutron_bottle_storage",
+             "neutron_spectrum_state", "neutron_dark_decay", "M_bottom"})
+    test("Neutron terminal gate uses cross-method consistency, not momentum closure",
+         fixture["literature_state"]["closure_requirement"] == "cross-method consistency"
+         and next_run["state"]["closure_requirement"] == "cross-method consistency")
+    survival_curve = fixture["survival_curve_bottle_observation"]
+    recovered_lifetime = (
+        880.0
+        + survival_curve["common_lifetime_parameters"]["lifetime_offset_s"]["mean"]
+    )
+    test("Raw survival-curve bottle observation matches the aggregate lifetime",
+         abs(recovered_lifetime - 877.75) < 0.5)
 
     survival_action = neutron_survival_curve_action()
     survival_covariance = ((4e-6, 1.5e-6), (1.5e-6, 9e-6))
@@ -2652,6 +2668,33 @@ def test_neutron_lifetime_adapter():
          truth_suite["all_recovered"]
          and min(case["expected_model_probability"]
                  for case in truth_suite["cases"]) > 0.80)
+
+
+def test_neutron_counting_evidence():
+    from det8.models.examples.neutron_counting_evidence import (
+        run_neutron_counting_evidence,
+    )
+
+    section("Neutron Lifetime Counting Evidence")
+
+    run = run_neutron_counting_evidence()
+    test("Counting adapter declares binomial bottle and Poisson beam counts",
+         set(run["observed_counts"])
+         == {"bottle_survivors", "nist_proton_decays", "jparc_electron_decays"})
+    trace = run["assimilation_trace"]
+    test("Bottle survivor count already suppresses dark decay",
+         trace[0]["weights"]["dark_decay"] < 0.01)
+    test("NIST proton count flips support from common to proton-pipeline",
+         trace[1]["weights"]["proton_pipeline"]
+         > trace[0]["weights"]["proton_pipeline"]
+         and trace[1]["weights"]["common_lifetime"]
+         < trace[0]["weights"]["common_lifetime"])
+    test("Raw counts decisively favor the proton-pipeline hypothesis",
+         run["final_weights"]["proton_pipeline"] > 0.99
+         and run["final_weights"]["dark_decay"] < 1.0e-6)
+    test("Counting conclusion matches the Gaussian aggregate direction",
+         run["question_probabilities"]["proton_pipeline"]
+         > run["question_probabilities"]["common_lifetime"])
 
 
 def test_ret_correlated_nonlinear_core():
@@ -2861,6 +2904,177 @@ def test_ret_correlated_nonlinear_core():
         test("Missing action-specific noise is rejected", False, "should have raised")
     except ValueError:
         test("Missing action-specific noise is rejected", True)
+
+
+def test_ret_sensitivity_and_closure():
+    from det8.models.relational_scheduler import (
+        CostWeights,
+        GovernanceThresholds,
+        SchedulerObjective,
+        ret_governance_state,
+    )
+    from det8.models.relational_sensitivity import (
+        cost_weight_sensitivity_sweep,
+        prior_sensitivity_sweep,
+    )
+    from det8.models.relational_tomography import (
+        GaussianPrior,
+        PracticalCost,
+        Question,
+        RelationalAction,
+        RelationalModel,
+        initialize_ret_posterior,
+        update_ret_posterior,
+    )
+
+    section("RET Sensitivity Sweeps and Domain Closure")
+
+    # Domain-pluggable terminal closure gate.
+    close_posterior = initialize_ret_posterior(
+        [RelationalModel("plain", "family", {})],
+        open_model_prior=0.02,
+        open_model_scale=10.0,
+    )
+    family_question = Question("family", {"plain": "family"})
+    default_state = ret_governance_state(close_posterior, family_question)
+    domain_state = ret_governance_state(
+        close_posterior,
+        family_question,
+        closure_requirement="cross-method consistency",
+    )
+    closed_state = ret_governance_state(
+        close_posterior,
+        family_question,
+        closure_passed=True,
+        closure_requirement="cross-method consistency",
+    )
+    test("Default terminal gate is conservation closure",
+         default_state["state"] == "CLOSE"
+         and default_state["closure_requirement"] == "conservation closure"
+         and "conservation closure" in default_state["reason"])
+    test("Terminal closure gate is domain-pluggable",
+         domain_state["state"] == "CLOSE"
+         and domain_state["closure_requirement"] == "cross-method consistency"
+         and "cross-method consistency" in domain_state["reason"])
+    test("Passed domain closure reaches CLOSED",
+         closed_state["state"] == "CLOSED"
+         and "cross-method consistency" in closed_state["reason"])
+
+    # Covariance update is observation-independent under the moment
+    # approximation; this is what keeps the closed-form nuisance EIG exact.
+    nonlinear_model = RelationalModel(
+        "nonlinear", "family", {"bias": GaussianPrior(1.0, 2.0, "nuisance")}
+    )
+    nonlinear_posterior = initialize_ret_posterior(
+        [nonlinear_model], open_model_prior=0.01, open_model_scale=10.0
+    )
+    nonlinear_action = RelationalAction(
+        "squared",
+        "science",
+        (0.0,),
+        {},
+        nonlinear_increment=lambda p: (p.get("bias", 0.0) ** 2,),
+    )
+    near = update_ret_posterior(nonlinear_posterior, nonlinear_action, (0.5,), 0.2)
+    far = update_ret_posterior(nonlinear_posterior, nonlinear_action, (50.0,), 0.2)
+    near_cov = near.parameters["nonlinear"].covariance
+    far_cov = far.parameters["nonlinear"].covariance
+    test("Covariance update is observation-independent under the moment approximation",
+         max(abs(near_cov[i][j] - far_cov[i][j])
+             for i in range(len(near_cov)) for j in range(len(near_cov))) < 1e-9)
+
+    # Prior-hyperparameter sensitivity sweep.
+    sweep_models = [
+        RelationalModel("spike", "absent", {}),
+        RelationalModel(
+            "slab", "present", {"amplitude": GaussianPrior(0.0, 2.0)}, 1.0
+        ),
+    ]
+    sweep_action = RelationalAction(
+        "probe", "science", (0.0,), {"amplitude": (1.0,)}
+    )
+    sweep = prior_sensitivity_sweep(
+        sweep_models,
+        sweep_action,
+        (1.5,),
+        0.5,
+        complexity_penalties=(0.4, 0.8, 1.6),
+        open_model_priors=(0.01, 0.03, 0.06),
+        open_model_scales=(10.0, 30.0, 90.0),
+        reference_complexity_penalty=0.8,
+        reference_open_model_prior=0.03,
+        reference_open_model_scale=30.0,
+    )
+    ranges = sweep["weight_ranges"]
+    reference_posterior = initialize_ret_posterior(
+        sweep_models,
+        complexity_penalty=0.8,
+        open_model_prior=0.03,
+        open_model_scale=30.0,
+    )
+    reference_updated = update_ret_posterior(
+        reference_posterior, sweep_action, (1.5,), 0.5
+    )
+    reference_slab = reference_updated.model_weights["slab"]
+    test("Prior sweep covers every declared model and M_bottom",
+         set(ranges) == {"spike", "slab", "M_bottom"})
+    test("Prior sweep reports ordered weight ranges",
+         all(ranges[name][0] <= ranges[name][1] for name in ranges)
+         and 0.0 <= ranges["slab"][0] <= ranges["slab"][1] <= 1.0)
+    test("Prior sweep surfaces weight fragility",
+         ranges["slab"][1] - ranges["slab"][0] > 1e-9)
+    test("Reference configuration lies inside the prior sweep range",
+         ranges["slab"][0] <= reference_slab <= ranges["slab"][1])
+
+    # Cost-weight sensitivity sweep.
+    cost_posterior = initialize_ret_posterior(
+        [
+            RelationalModel("plain", "family", {}),
+            RelationalModel(
+                "biased",
+                "family",
+                {"bias": GaussianPrior(0.0, 2.0, "nuisance")},
+                1.0,
+            ),
+        ],
+        open_model_prior=0.02,
+        open_model_scale=10.0,
+    )
+    cost_actions = [
+        RelationalAction(
+            "cheap_probe",
+            "science",
+            (0.0,),
+            {"bias": (1.0,)},
+            PracticalCost(time=0.1, money=0.1, risk=0.1, wear=0.1),
+        ),
+        RelationalAction(
+            "expensive_audit",
+            "calibration",
+            (0.0,),
+            {"bias": (1.0,)},
+            PracticalCost(time=5.0, money=5.0, risk=2.0, wear=2.0),
+        ),
+    ]
+    cost_objective = SchedulerObjective(
+        question=Question("family", {"plain": "family", "biased": "family"}),
+        nuisance_parameters=("bias",),
+        nuisance_information_weight=1.0,
+        cost_weights=CostWeights(time=1.0, money=1.0, risk=1.0, wear=1.0),
+        monte_carlo_samples_per_model=16,
+    )
+    cost_sweep = cost_weight_sensitivity_sweep(
+        cost_posterior,
+        cost_actions,
+        0.5,
+        cost_objective,
+        scales=(0.0, 1.0, 4.0),
+        seed=5,
+    )
+    test("Cost sweep reports top actions and a stability flag",
+         set(cost_sweep["top_actions"]) <= {"cheap_probe", "expensive_audit"}
+         and isinstance(cost_sweep["single_stable_top_action"], bool)
+         and len(cost_sweep["rows"]) == 3)
 
 
 def test_mathematical_search_adapters():
@@ -4772,10 +4986,24 @@ def main():
         traceback.print_exc()
 
     try:
+        test_neutron_counting_evidence()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in neutron_counting_evidence: {e}")
+        traceback.print_exc()
+
+    try:
         test_ret_correlated_nonlinear_core()
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in ret_correlated_nonlinear_core: {e}")
+        traceback.print_exc()
+
+    try:
+        test_ret_sensitivity_and_closure()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in ret_sensitivity_and_closure: {e}")
         traceback.print_exc()
 
     try:
