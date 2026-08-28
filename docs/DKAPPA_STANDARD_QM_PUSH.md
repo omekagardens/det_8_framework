@@ -106,3 +106,28 @@ Two honest consequences:
 
 The remaining weak point is unchanged: the bound is on κ_DET·w₃, so it still
 needs the record-weight distribution to be fixed (item 2).
+
+## Update — dynamical κ (time-evolution channel)
+
+The static D_κ result bounds κ *as a grade-3 record term* in the single-time
+measure. κ also couples, independently, to the time-evolution (the generator /
+"law map" L). `dkappa_dynamics.py` formalizes this and proves the key theorem:
+
+> any unitary Born-rule evolution gives a grade-2 single-time measure,
+> P = |Σₛ Aₛ|², so its third-order interference I₃ = 0 at every fixed time —
+> **regardless of κ in the generator**.
+
+So the three-slit null is **blind to dynamical κ**: it shifts the path
+*phases* (and decay), never the grade-2 structure. The three channels are
+therefore independent couplings of the same structural-history κ:
+
+| Channel | Coupling | Signature | Probe |
+|---|---|---|---|
+| Static interference | κ_static | I₃ = κ_static·w₃ | three-slit (bounded ≲ 10⁻⁵) |
+| Clock | κ_dyn | Δν = κ_dyn·v (FL-1: λ_P·κ/(1+λ_P·κ)) | FL-1 common-mode universality |
+| Recovery | κ_dyn | τ_rec = τ_0/(1+κ_dyn·γ) | F9 τ_rec-vs-annealing |
+
+**Consequence:** the static null does *not* constrain κ_dyn. The clock and
+recovery channels remain the open dynamical frontier, consistent with the
+almost-quantum framing (the static level is exactly quantum; any κ lives in the
+time axis).

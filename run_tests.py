@@ -3393,6 +3393,47 @@ def test_dkappa_grade3_generalization():
     test("Triple weights exceeding the normalized measure are rejected", rejected)
 
 
+def test_dkappa_dynamics():
+    from det8.models.dkappa_dynamics import (
+        clock_frequency_shift,
+        clock_frequency_shift_det,
+        grade2_theorem,
+        path_amplitudes,
+        recovery_timescale,
+        third_order_interference,
+        unify_channels,
+    )
+
+    section("D_κ — Dynamical κ (time-evolution channel)")
+
+    theorem = grade2_theorem()
+    test("The grade-2 theorem holds: I₃ = 0 for every κ_dyn",
+         theorem["holds"] and theorem["max_I3_residual"] < 1e-12)
+
+    amplitudes = path_amplitudes(
+        3.7,
+        magnitudes=(1.0, 0.8, 0.6),
+        base_phases=(0.0, 0.3, -0.2),
+        phase_couplings=(1.0, -0.5, 2.0),
+    )
+    test("Third-order interference vanishes for an asymmetric κ-dependent path set",
+         abs(third_order_interference(amplitudes)) < 1e-12)
+
+    test("Linear clock shift is κ_dyn · v",
+         abs(clock_frequency_shift(2.0, 1e6) - 2.0e6) < 1e-6)
+    test("DET clock ansatz is linear at small κ and saturates near 1 at large κ",
+         abs(clock_frequency_shift_det(1.0, 1e-8) - 1e-8) < 1e-14
+         and abs(clock_frequency_shift_det(1e12, 1e-8) - 1.0) < 1e-3)
+    test("Recovery timescale decreases with κ_dyn",
+         recovery_timescale(1.0, 1e4, 0.5) < recovery_timescale(0.0, 1e4, 0.5))
+
+    unified = unify_channels()
+    test("Unification reports all three channels",
+         "static_channel" in unified
+         and "clock_channel" in unified
+         and "recovery_channel" in unified)
+
+
 def test_f9_probe_execution():
     import math
 
@@ -5398,6 +5439,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in dkappa_grade3_generalization: {e}")
+        traceback.print_exc()
+
+    try:
+        test_dkappa_dynamics()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in dkappa_dynamics: {e}")
         traceback.print_exc()
 
     try:
