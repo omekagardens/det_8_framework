@@ -114,10 +114,11 @@ def seed_novelty_ledger() -> NoveltyLedger:
             NoveltyEntry(
                 probe="recovery-rate discriminator (F9/FL-4): τ_rec(T) T-independent vs Arrhenius",
                 target_theory="standard annealing / defect-density kinetics",
-                status="unexecuted",
+                status="executed",
+                outcome="null",
                 cost_if_null=(
-                    "cheapest probe; κ collapses to defect density — "
-                    "ontology unaffected, one logged miss"
+                    "densified silica (real data): E_a = 2.64 eV ≠ 0 → Arrhenius → "
+                    "κ = defect density; second logged miss (first real F9 execution)"
                 ),
             ),
             NoveltyEntry(

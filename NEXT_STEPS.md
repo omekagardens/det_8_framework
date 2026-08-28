@@ -46,7 +46,7 @@ The former torsion-balance, SPARC, cluster, BAO, and κ-gravity programs are his
 - Born-rule uniqueness from DET axioms rather than amplitude correspondence. **Partially addressed:** the squared-magnitude form P = |c|² is now shown unique among power rules by conservation under symmetric basis splits (`born_rule_uniqueness.py`), and tied to grade-2 / the three-slit null. Linear root composition and unitary (vs orthogonal) basis change remain open.
 - Distributional scheduler independence over all admissible linear extensions.
 - Global joint-kernel consistency, analytic no-signalling, and covariance.
-- Why there is exactly one phase form Ω and why the relevant dynamics are reversible.
+- Why there is exactly one phase form Ω and why the relevant dynamics are reversible. **Addressed (shape arguments):** one causal order ⟹ one Ω ⟹ ℂ; reversibility = unbiased navigation of the open possibility structure (`u1_emergence.py`). The constructive U(1)-from-discrete-±1 derivation remains open.
 - Manifoldlike emergence, embedding uniqueness, and continuum spacetime convergence.
 - Redundant-record stability for the preferred-basis account.
 

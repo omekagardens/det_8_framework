@@ -3231,15 +3231,15 @@ def test_novelty_ledger_and_warrant():
     test("Seed ledger spans gated, unexecuted, active, and executed statuses",
          {entry.status for entry in ledger.entries}
          == {"gated", "unexecuted", "active", "executed"})
-    test("Seed ledger has one executed probe with a null outcome (D_κ)",
-         len(ledger.executed()) == 1
+    test("Seed ledger has two executed probes with null outcomes (D_κ and F9)",
+         len(ledger.executed()) == 2
          and ledger.surviving_novelties() == 0
-         and ledger.executed()[0].outcome == "null")
+         and all(entry.outcome == "null" for entry in ledger.executed()))
 
     seed_warrant = warrant_from_ledger(ledger)
-    test("Seed warrant stays ACTIVE after one null probe (below the downgrade run)",
+    test("Seed warrant stays ACTIVE after two null probes (below the downgrade run)",
          seed_warrant.status == "ACTIVE"
-         and seed_warrant.executed_probes == 1
+         and seed_warrant.executed_probes == 2
          and seed_warrant.surviving_novelties == 0)
 
     nulls = NoveltyLedger(
@@ -3659,6 +3659,40 @@ def test_quantum_deadlock():
     test("The almost-quantum framing states the static/dynamical split",
          "static" in resolution["almost_quantum"]["static_level"].lower()
          and "dynamical" in resolution["almost_quantum"]["complex_is_dynamical"])
+
+
+def test_frontier_research():
+    from det8.models.f9_execution import f9_densified_silica
+    from det8.models.kappa_bound_resolution import degeneracy_resolution
+    from det8.models.law_genesis import f10_resolution, law_stability_probe
+    from det8.models.u1_emergence import u1_emergence_resolution
+
+    section("Frontier Research Run — F9 real data, degeneracy, F10, U(1)")
+
+    f9 = f9_densified_silica()
+    test("F9 real data: densified silica is decisively Arrhenius (null)",
+         f9["outcome"] == "null"
+         and f9["T_ratio"] > 1e3
+         and f9["activation_energy_eV"] > 2.0)
+
+    degeneracy = degeneracy_resolution()
+    test("Degeneracy: κ ≲ 10⁻¹⁸ by naturalness and λ_P/w₃ ≲ 10⁻¹³ cross-channel",
+         degeneracy["naturalness"]["kappa_bound"] < 1e-17
+         and degeneracy["cross_channel_ratio"]["lambda_P_over_w3_bound"] < 1e-12)
+
+    probe = law_stability_probe()
+    f10 = f10_resolution()
+    test("F10: change-point detects a law change (emergent L)",
+         probe["change_detected"] and probe["change_peak_index"] == 5)
+    test("F10 commits to the emergent reading",
+         f10["det_commitment"]["commitment"] == "EMERGENT (compressed regularity)")
+
+    u1 = u1_emergence_resolution()
+    test("U(1): one arrow gives one antisymmetric phase",
+         u1["one_phase"]["antisymmetric_part_unique"]
+         and u1["one_phase"]["symmetric_part_verified"])
+    test("U(1): honest boundary flags shape arguments",
+         "shape arguments" in u1["honest_boundary"])
 
 
 def test_mathematical_search_adapters():
@@ -5665,6 +5699,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in quantum_deadlock: {e}")
+        traceback.print_exc()
+
+    try:
+        test_frontier_research()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in frontier_research: {e}")
         traceback.print_exc()
 
     try:

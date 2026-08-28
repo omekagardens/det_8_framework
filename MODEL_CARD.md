@@ -2,7 +2,7 @@
 
 **Primary reference for the Deep Existence Theory framework.**
 **Date:** August 27, 2026 (integrated Record-Kernel Physics and RET research)
-**Test suite:** 691/692 passing (1 pre-existing Navier–Stokes numerical-reproducibility failure)
+**Test suite:** 751/752 passing (1 pre-existing Navier–Stokes numerical-reproducibility failure)
 
 **Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B addresses the four deadlocks of time, quantum interpretation, agency, and history in one governed synthesis). As a *theory of everything*, DET is not falsifiable; as an **instrument (lens)** for generating falsifiable probes, its productivity is — tracked in the [Novelty Ledger](NOVELTY_LEDGER.md). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field); DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. The implemented correlation-class work reaches almost-quantum $Q^1$, while the relation to full quantum $Q^∞$ and the assumptions behind the complex structure remain explicit research questions. Collapse is the *commit* primitive (record formation), not a patch. General Born-rule uniqueness, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
 
@@ -10,7 +10,7 @@
 
 1. **Ontology** — Track B; chosen, not evidenced (the four deadlocks).
 2. **Instrument** — the RET engine, the [Novelty Ledger](NOVELTY_LEDGER.md), and the DG-WARRANT gate.
-3. **Physical yield** — three κ channels: **static** (D_κ three-slit, null ≲ 10⁻⁵), **clock** (κ-Π anomaly, gated; λ_P·κ ≲ 10⁻¹⁸), and **recovery** (τ_rec-vs-annealing, dry-run only).
+3. **Physical yield** — three κ channels: **static** (D_κ three-slit, null ≲ 10⁻⁵), **clock** (κ-Π anomaly, gated; λ_P·κ ≲ 10⁻¹⁸), and **recovery** (τ_rec-vs-annealing, executed null — densified silica E_a = 2.64 eV).
 4. **Engine validation** — the Exodus/Riemann/Collatz/Navier–Stokes known-answer runs; no physics claim.
 
 The falsifiable quantity is the instrument's *productivity* across bucket 3,
@@ -218,7 +218,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | M0 | Proper-time consistency | — | **FT** — Fixed: Δτ = Π·ΔN, N ≠ κ | — |
 | **O9-RID** | **Resurrection identity bridge** | — | **Open** — PID-C/PID-M split. Track B. | Numerical identity across embodied interruption. See `docs/track_b/resurrection.md`. |
 | **F9** | **Fact Genesis Protocol** | — | **Open** — Are facts discovered or created? Track B. 5-level ladder. | Distinguish unknown vs not-yet-existent facts. See `docs/track_b/fact_genesis.md`. |
-| **F10** | **Law Genesis** | — | **Proposed** — Why is L stable? Track B. | Stability of the law map. See `docs/track_b/law_genesis.md`. |
+| **F10** | **Law Genesis** | — | **Resolved (emergent)** — L is the compressed regularity (κ is its coordinate); law stability is a change-point observable (`law_genesis.py`). Track B. | Derive L's stability from redundant-record structure. See `docs/track_b/law_genesis.md`. |
 | **F11** | **Cosmic Record** | — | **Proposed** — κ-field across cosmic time. Track B. | Not yet developed. |
 | **F12** | **Anthropic Principle** | — | **FT/CI** — WAP selection confirmed; SAP necessity rejected; fine-tuning reduced to one scalar (participation-only, Option B — κ-gravity retired). Track B. | Prior-independent naturalness; promote "λ_P is the selection target" from P to PR. See `docs/track_b/anthropic_principle.md`. |
 | — | Complex amplitudes | Correspondence (CORR) | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |

@@ -41,13 +41,13 @@ under the lens framing, was aimed at the wrong object.
 | Probe | Target | Status | cost-if-null |
 |---|---|---|---|
 | Clock anomaly (FL-1): Δν/ν = λ_P·κ/(1+λ_P·κ) | Standard physics (null clock universality) | `gated` | one miss; λ_P·Δκ product bound only (prerequisites missing) |
-| Recovery-rate discriminator (F9/FL-4): τ_rec(T) T-independent vs Arrhenius | Annealing / defect-density kinetics | `unexecuted` | **cheapest**; κ→defect density, ontology unaffected, one miss |
+| Recovery-rate discriminator (F9/FL-4): τ_rec(T) T-independent vs Arrhenius | Annealing / defect-density kinetics | `executed` → `null` | densified silica (real): E_a = 2.64 eV → Arrhenius → κ = defect density; second logged miss |
 | Operational κ̂ + L0/L1/L2 ladder | Standard materials metrology | `unexecuted` | none — L0/L1 is unconditional, publishable even if DET false |
 | κ-dependent decoherence functional D_κ (three-slit I₃ = κ·r) | Grade-2 (quantum) decoherence functional (Sorkin) | `executed` → `null` | κ_DET·r < ε_exp·I₂_ref: κ_DET ≲ 1.5×10⁻⁵ (Kauten 2017, r=1); consistent with standard QM — first logged miss |
 | RET engine (discrepancy adjudication + engine validation) | Methodological | `active` | none — methodological yield, not physics yield |
 
-**Executed probes: 1. Surviving novelties: 0. Generative warrant: `ACTIVE`
-(one logged miss, below the downgrade run).**
+**Executed probes: 2. Surviving novelties: 0. Generative warrant: `ACTIVE`
+(two logged misses, below the downgrade run).**
 
 ## The first push is now executed
 
@@ -73,7 +73,7 @@ first miss. The bound is on the product κ_DET·r, not κ_DET alone.
 |---|---|---|---|
 | **Static** interference (D_κ) | κ_static·w₃ | ≲ 10⁻⁵ (three-slit) | **closed** — null, first logged miss |
 | **Clock** (FL-1) | λ_P·κ | ≲ 10⁻¹⁸ (Lange 2021) | **executed null** — product bound; λ_P unconstrained |
-| **Recovery** (F9) | κ_dyn (τ_rec) | — | **dry-run only** — real-data drop-in ready (`execute_f9_on_data`) |
+| **Recovery** (F9) | κ_dyn (τ_rec) | E_a = 2.64 eV | **executed null** — real densified-silica data, Arrhenius |
 
 The static channel is closed. The clock and recovery channels are *dynamical*
 (κ in the time-evolution), invisible to the three-slit null, and remain the

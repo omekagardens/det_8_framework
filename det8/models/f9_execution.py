@@ -295,3 +295,61 @@ def f9_protocol() -> dict:
         ),
     }
 
+
+# ── Item 1: real published data — densified silica structural relaxation ────
+
+
+REAL_RECOVERY_DATA = {
+    "densified_silica": {
+        "material": "densified SiO2 glass (structural relaxation)",
+        "activation_energy_eV": 2.64,
+        "activation_energy_uncertainty_eV": 0.47,
+        "attempt_frequency_s": 1e-13,  # phonon scale; E_a is decisive regardless
+        "temperature_range_K": (773.0, 1173.0),  # 500–900 °C
+        "reference": (
+            "densified silica glass relaxation, E_a ≈ 255 kJ/mol (2.64 eV); "
+            "500–900 °C isothermal/isochronal annealing"
+        ),
+    }
+}
+
+
+def f9_densified_silica() -> dict:
+    """Execute F9 against real published densified-silica relaxation data.
+
+    The measured activation energy E_a = 2.64 eV is decisively nonzero, so the
+    recovery is Arrhenius (T-dependent) — κ = ordinary defect density /
+    structural relaxation.  This is the first real (non-matched-generator)
+    execution of the F9 channel, and its outcome is null.
+    """
+
+    from det8.models.kappa_discriminator import annealing_timescale
+
+    data = REAL_RECOVERY_DATA["densified_silica"]
+    E_a = data["activation_energy_eV"]
+    tau0 = data["attempt_frequency_s"]
+    T_low, T_high = data["temperature_range_K"]
+    tau_low = annealing_timescale(T_low, E_a, tau0)
+    tau_high = annealing_timescale(T_high, E_a, tau0)
+    verdict = execute_f9_on_data([(T_low, tau_low), (T_high, tau_high)])
+
+    return {
+        "probe": "F9 τ_rec-vs-annealing discriminator (real data)",
+        "real_data": data,
+        "tau_low_s": tau_low,
+        "tau_high_s": tau_high,
+        "temperature_range_K": [T_low, T_high],
+        "T_ratio": tau_low / tau_high,
+        "activation_energy_eV": E_a,
+        "outcome": verdict["outcome"],
+        "decision": verdict["decision"],
+        "honest_note": (
+            "First real execution of F9. Published densified-silica structural "
+            "relaxation has E_a = 2.64 ± 0.47 eV, decisively nonzero, so recovery "
+            "is Arrhenius — κ = defect density (structural relaxation). Null "
+            "outcome. τ₀ = 10⁻¹³ s is assumed (phonon scale), but E_a ≠ 0 is the "
+            "decisive quantity, independent of τ₀."
+        ),
+    }
+
+
