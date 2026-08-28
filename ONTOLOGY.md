@@ -63,6 +63,22 @@ DET's core ontological commitment:
 
 **DET resolution:** A quantum superposition is an actual, phase-bearing relational constraint on future possibilities — a real, open relation that does not contain its own outcome (**the "open" part = open becoming, Status M / F8-OPEN: no unique discriminator; the "real relation" part = realism, Status M**). **Amplitudes are present structural features, not pre-existing degrees of belief — a REALIST commitment (Status M), not an observable.** The observable is the interference `I₂` (and the outcome statistics); that amplitudes are *real* (rather than QBism's *degrees of belief*) is a *choice of ontology* DET makes against the epistemic reading, and is flagged as such under the observable-anchoring discipline (`docs/observable_anchoring.md`). NPF-C is code-auditable: no hidden outcome register exists in toy models.
 
+**Adoption status (updated):** the resolution is now **ADOPTED** as a coherent
+account of a *real, complex, grade-2, Born* constraint. Four pillars are
+assembled in `det8/models/quantum_deadlock.py`, each with its own status:
+
+1. **Complex** — ℂ forced by (Ω ≠ 0, empirically) + reversibility ⇒ U(m) (`why_complex.py`). MATH + empirical.
+2. **Grade-2** — the single-time measure has no third-order interference, confirmed by three-slit (`dkappa_decoherence.py`). MATH + empirical.
+3. **Born (p = 2)** — the squared magnitude is the unique power rule conserving probability under basis splits (`born_rule_uniqueness.py`). MATH.
+4. **Open** — the constraint does not contain its own outcome (NPF-C code-auditable); the "no fact exists" reading is Status M / F8-OPEN.
+
+The real relation and the complex/grade-2/Born structure are empirically
+anchored; the **open outcome** and **amplitude realism** remain Status M (no
+unique discriminator). The almost-quantum framing sits alongside: the static
+level (Bell/three-slit) is real/almost-quantum, while ℂ is dynamical. The
+still-open residue is U(1)-from-discrete emergence (why exactly one phase Ω,
+why reversible dynamics).
+
 ### 3.3 Agency: Epiphenomenalism/Dualism → Present-Enactment Agency
 
 **Standard deadlock:** If matter is deterministic/stochastic, agency is an illusion. If agency is real, it must be a "ghost force" violating conservation laws. No third option in standard ontology.

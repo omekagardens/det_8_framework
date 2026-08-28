@@ -195,7 +195,7 @@ Four deadlocks addressed (see `ONTOLOGY.md` and `det_falsification.ontology_clai
 | Deadlock | Resolution | Epistemic status |
 |---|---|---|
 | **Time** | Block universe → record-growth time (Crystallizing Block) | **ADOPTED** (Ellis 2014) — borrowed, not DET-native |
-| **Quantum** | Many-worlds/hidden variables → emergent complex amplitudes | **SKETCH** — U(1) emergence is an open program |
+| **Quantum** | Many-worlds/hidden variables → real, complex, grade-2, Born relational constraint | **ADOPTED** — four pillars assembled in `quantum_deadlock.py`; the "open outcome" pillar stays Status M; U(1)-from-discrete emergence still open |
 | **Agency** | Epiphenomenalism/dualism → present-enactment agency | **QUARANTINED** — the ontological gloss is Status M |
 | **History** | Retrocausality → mutable structural carrying (κ) | **RELABELED** — standard internal-variable free energy |
 

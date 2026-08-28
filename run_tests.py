@@ -3631,6 +3631,36 @@ def test_born_rule_uniqueness():
          and "three-slit" in grade2_born_connection()["empirical_anchor"])
 
 
+def test_quantum_deadlock():
+    from det8.models.quantum_deadlock import (
+        born_rule_is_grade2,
+        coherence_check,
+        quantum_resolution,
+    )
+
+    section("Quantum Deadlock Resolution (SKETCH → ADOPTED)")
+
+    born_grade2 = born_rule_is_grade2()
+    test("The Born rule is grade-2 (I₃ = 0)",
+         born_grade2["born_rule_is_grade2"]
+         and abs(born_grade2["I3"]) < 1e-12)
+
+    coherence = coherence_check()
+    test("The four pillars are mutually coherent",
+         coherence["coherent"]
+         and coherence["born_p_2_unique"]
+         and coherence["real_qm_not_classical"])
+
+    resolution = quantum_resolution()
+    test("The resolution assembles all four pillars",
+         set(resolution["pillars"].keys()) == {"complex", "grade2", "born", "open"})
+    test("The honest boundary keeps the open-outcome pillar at Status M",
+         "Status M" in resolution["honest_boundary"])
+    test("The almost-quantum framing states the static/dynamical split",
+         "static" in resolution["almost_quantum"]["static_level"].lower()
+         and "dynamical" in resolution["almost_quantum"]["complex_is_dynamical"])
+
+
 def test_mathematical_search_adapters():
     import math
 
@@ -5628,6 +5658,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in born_rule_uniqueness: {e}")
+        traceback.print_exc()
+
+    try:
+        test_quantum_deadlock()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in quantum_deadlock: {e}")
         traceback.print_exc()
 
     try:
