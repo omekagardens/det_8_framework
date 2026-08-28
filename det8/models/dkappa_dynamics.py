@@ -157,3 +157,184 @@ def unify_channels(
             "channels are independent": "TH-DET — κ couples to each channel separately",
         },
     }
+
+
+# ── Part 1: push the clock channel (FL-1) to a concrete λ_P·κ bound ─────────
+
+
+EXPERIMENTAL_CLOCK_BOUNDS = {
+    "lange_2021": {
+        "reference": "Lange et al., Phys. Rev. Lett. 126, 011102 (2021)",
+        "system": "171Yb+ E2 vs E3 clock comparison (LPI)",
+        "fractional_uncertainty": 1.0e-18,
+        "note": "α variation 1.0(1.1)×10⁻¹⁸/yr",
+    },
+    "filzinger_2026": {
+        "reference": "Filzinger et al. (2026), multi-ion Sr+ vs Yb+",
+        "system": "88Sr+ / 171Yb+ frequency ratio",
+        "fractional_uncertainty": 2.9e-18,
+    },
+    "pizzocaro_2026": {
+        "reference": "Pizzocaro et al. (2026), Yb+ E3 at NPL vs PTB",
+        "system": "international optical-fiber clock comparison",
+        "fractional_uncertainty": 7.7e-18,
+    },
+}
+
+
+def clock_kappa_bound(epsilon_clock: float) -> float:
+    """λ_P·κ < ε/(1−ε) ≈ ε, from FL-1 Δν/ν = λ_P·κ/(1+λ_P·κ) < ε_clock."""
+
+    if not 0.0 < epsilon_clock < 1.0:
+        raise ValueError("epsilon must lie in (0,1)")
+    return epsilon_clock / (1.0 - epsilon_clock)
+
+
+def push_clock_channel() -> dict:
+    """Invert the atomic-clock universality null through the FL-1 ansatz.
+
+    Clock comparisons bound the fractional frequency difference ε_clock, so
+    Δν/ν = λ_P·κ/(1+λ_P·κ) < ε_clock, i.e. λ_P·κ ≲ ε_clock ≈ 10⁻¹⁸.  This is
+    the tightest κ-bound of the three channels, but it bounds the *product*
+    λ_P·κ and only the *differential* (non-common-mode) coupling.
+    """
+
+    bounds = {}
+    for key, exp in EXPERIMENTAL_CLOCK_BOUNDS.items():
+        eps = exp["fractional_uncertainty"]
+        bounds[key] = {
+            "experiment": exp["reference"],
+            "system": exp["system"],
+            "epsilon_clock": eps,
+            "lambda_P_kappa_bound": clock_kappa_bound(eps),
+        }
+    best = min(bounds, key=lambda k: bounds[k]["lambda_P_kappa_bound"])
+    return {
+        "theorem": "FL-1: Δν/ν = λ_P·κ/(1+λ_P·κ); clock null ⟹ λ_P·κ ≲ ε_clock",
+        "experimental_bounds": bounds,
+        "best_bound": {
+            "experiment": bounds[best]["experiment"],
+            "lambda_P_kappa_bound": bounds[best]["lambda_P_kappa_bound"],
+        },
+        "provenance": {
+            "Δν/ν = λ_P·κ/(1+λ_P·κ)": "TH-DET — the DET clock ansatz (FL-1)",
+            "inversion λ_P·κ < ε/(1−ε)": "MATH — algebra",
+            "clock-comparison precision": "EXPERIMENT — Lange 2021, Filzinger 2026, Pizzocaro 2026",
+        },
+        "honest_caveat": (
+            "Bounds the product λ_P·κ, not κ alone (λ_P is the unconstrained "
+            "Planck-scale coupling). It constrains only the differential "
+            "(species/transition-dependent) part of the κ clock coupling: a "
+            "purely common-mode shift rescales proper time and is invisible to "
+            "clock-ratio tests."
+        ),
+    }
+
+
+# ── Part 2: two-time decoherent histories ───────────────────────────────────
+
+
+def hamiltonian_2level(nu: float, kappa: float, coupling: float) -> list:
+    """H_κ = (ν/2)σ_z + (κ·g/2)σ_x — the κ-dependent 2-level generator."""
+
+    return [
+        [complex(nu / 2.0, 0.0), complex(kappa * coupling / 2.0, 0.0)],
+        [complex(kappa * coupling / 2.0, 0.0), complex(-nu / 2.0, 0.0)],
+    ]
+
+
+def evolution_operator_2level(
+    nu: float, kappa: float, coupling: float, t: float
+) -> list:
+    """U_κ(t) = exp(−i H_κ t) via the Pauli closed form (no external linalg)."""
+
+    g = kappa * coupling
+    omega = math.sqrt(nu * nu + g * g)
+    nz = nu / omega
+    nx = g / omega
+    c = math.cos(omega * t / 2.0)
+    s = math.sin(omega * t / 2.0)
+    return [
+        [complex(c, -s * nz), complex(0.0, -s * nx)],
+        [complex(0.0, -s * nx), complex(c, s * nz)],
+    ]
+
+
+def transition_probability(nu, kappa, coupling, t, a, b) -> float:
+    """|⟨b|U_κ(t)|a⟩|² — the κ-dependent transition amplitude (the signature)."""
+
+    U = evolution_operator_2level(nu, kappa, coupling, t)
+    return abs(U[b][a]) ** 2
+
+
+def two_time_decoherence_functional(nu, kappa, coupling, tau) -> dict:
+    """𝔇((a,b),(a',b')) = A(a,b)·A(a',b')* for a pure initial |+⟩.
+
+    Histories are 'start in |+⟩, pass through level a at t₁, end in level b at
+    t₂'.  The diagonal is the two-time probability P(a,b) = |A(a,b)|².
+    """
+
+    U = evolution_operator_2level(nu, kappa, coupling, tau)
+    root2 = math.sqrt(2.0)
+    amplitudes = {(a, b): U[b][a] / root2 for a in (0, 1) for b in (0, 1)}
+
+    functional = {}
+    for a in (0, 1):
+        for b in (0, 1):
+            for ap in (0, 1):
+                for bp in (0, 1):
+                    functional[((a, b), (ap, bp))] = (
+                        amplitudes[(a, b)] * amplitudes[(ap, bp)].conjugate()
+                    )
+    return functional
+
+
+def single_time_born_rule(nu, kappa, coupling, tau, b) -> float:
+    """P(b at t₂) = |⟨b|U_κ(τ)|+⟩|² — grade-2 (Born) regardless of κ."""
+
+    U = evolution_operator_2level(nu, kappa, coupling, tau)
+    root2 = math.sqrt(2.0)
+    amplitude = (U[b][0] + U[b][1]) / root2
+    return abs(amplitude) ** 2
+
+
+def _is_unitary(U) -> bool:
+    n = len(U)
+    for i in range(n):
+        for j in range(n):
+            total = sum(U[i][k] * U[j][k].conjugate() for k in range(n))
+            expected = 1.0 if i == j else 0.0
+            if abs(total - expected) > 1e-12:
+                return False
+    return True
+
+
+def demonstrate_two_time(nu: float = 1.0, coupling: float = 0.5, tau: float = 1.0) -> dict:
+    """Show κ_dyn drives transitions while the single-time Born rule stays grade-2."""
+
+    flip_zero = transition_probability(nu, 0.0, coupling, tau, 0, 1)
+    flip_one = transition_probability(nu, 1.0, coupling, tau, 0, 1)
+    p1_zero = single_time_born_rule(nu, 0.0, coupling, tau, 1)
+    p0_one = single_time_born_rule(nu, 1.0, coupling, tau, 0)
+    return {
+        "theorem": (
+            "single-time P(b) = |⟨b|U_κ|+⟩|² is a single modulus-squared (grade-2) "
+            "for any κ; κ enters the transition amplitudes, not the grade."
+        ),
+        "transition_flip_at_kappa_zero": flip_zero,
+        "transition_flip_at_kappa_one": flip_one,
+        "dynamical_signature": flip_one > flip_zero,
+        "single_time_normalized_kappa_zero": abs(
+            p1_zero + single_time_born_rule(nu, 0.0, coupling, tau, 0) - 1.0
+        )
+        < 1e-12,
+        "single_time_normalized_kappa_one": abs(
+            p0_one + single_time_born_rule(nu, 1.0, coupling, tau, 1) - 1.0
+        )
+        < 1e-12,
+        "unitarity_holds": _is_unitary(
+            evolution_operator_2level(nu, 1.0, coupling, tau)
+        ),
+    }
+
+

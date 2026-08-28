@@ -192,3 +192,106 @@ def execute_f9_probe(
             f"in practice (power ≈ 1 at N ≈ 1)."
         ),
     }
+
+
+# ── Real-data drop-in + protocol (Part 3) ──────────────────────────────────
+
+
+def fit_activation_energy(measurements) -> float:
+    """Fit E_a from τ(T) = τ_0·exp(E_a/k_B T): linear regression of log τ vs 1/T.
+
+    ``measurements`` is a sequence of (temperature_K, recovery_time_s) pairs.
+    Returns E_a in eV. E_a ≈ 0 ⇒ T-independent (κ); E_a > 0 ⇒ Arrhenius.
+    """
+
+    from det8.models.kappa_discriminator import K_B_EV
+
+    if len(measurements) < 2:
+        raise ValueError("need at least two (temperature, recovery-time) pairs")
+    xs = [1.0 / T for T, _ in measurements]
+    ys = [math.log(tau) for _, tau in measurements]
+    n = len(xs)
+    sx = sum(xs)
+    sy = sum(ys)
+    sxx = sum(x * x for x in xs)
+    sxy = sum(x * y for x, y in zip(xs, ys))
+    denom = n * sxx - sx * sx
+    if abs(denom) < 1e-18:
+        return 0.0
+    slope = (n * sxy - sx * sy) / denom
+    return slope * K_B_EV
+
+
+def execute_f9_on_data(
+    measurements, *, decision_ratio_threshold: float = 2.0
+) -> dict:
+    """Run F9 on measured (T_K, tau_rec_s) recovery-time data (real-data drop-in).
+
+    ``measurements`` is a sequence of (temperature_K, recovery_time_s) pairs
+    extracted from raw R(t) records. The discriminator compares the lowest- and
+    highest-temperature recovery times: a T-independent (κ) record gives
+    ratio ≈ 1, Arrhenius (defect) gives ratio ≫ 1.
+    """
+
+    if len(measurements) < 2:
+        raise ValueError("need at least two (temperature, recovery-time) pairs")
+    ordered = sorted(measurements, key=lambda m: m[0])
+    (T_low, tau_low) = ordered[0]
+    (T_high, tau_high) = ordered[-1]
+    if T_high <= T_low:
+        raise ValueError("temperatures must span a non-zero range")
+    if tau_low <= 0.0 or tau_high <= 0.0:
+        raise ValueError("recovery times must be positive")
+    ratio = tau_low / tau_high
+    decision = (
+        "T-INDEPENDENT (κ distinct from defect density)"
+        if ratio < decision_ratio_threshold
+        else "ARRHENIUS (κ = defect density; no novelty)"
+    )
+    outcome = "surviving_novelty" if ratio < decision_ratio_threshold else "null"
+    return {
+        "probe": "F9 τ_rec-vs-annealing discriminator",
+        "source": "measured (T, τ_rec) data — not matched-generator",
+        "n_measurements": len(measurements),
+        "temperature_range_K": [T_low, T_high],
+        "tau_low_s": tau_low,
+        "tau_high_s": tau_high,
+        "T_ratio": ratio,
+        "activation_energy_eV": fit_activation_energy(ordered),
+        "decision": decision,
+        "outcome": outcome,
+        "ledger_note": (
+            "Provisional F9 outcome; final verdict requires auditing the raw "
+            "R(t) records and covariance."
+        ),
+    }
+
+
+def f9_protocol() -> dict:
+    """The exact experimental protocol for executing F9 on a real sample."""
+
+    return {
+        "probe": "F9 τ_rec-vs-annealing discriminator",
+        "measure": (
+            "recovery time τ_rec of the record R(t) at three or more temperatures "
+            "spanning at least [300 K, 900 K]"
+        ),
+        "per_temperature": (
+            "record R(t) over ≥ 2 e-folds of decay; fit τ via log-linear "
+            "regression of R(t) − R_eq (see fit_recovery_time)"
+        ),
+        "discriminator": (
+            "T-ratio test τ(T_low)/τ(T_high), complemented by the activation "
+            "energy E_a = slope·k_B from log τ vs 1/T"
+        ),
+        "decision_rule": (
+            "ratio < 2 and E_a ≈ 0 ⇒ surviving novelty (κ distinct); "
+            "ratio ≥ 2 or E_a > 0 ⇒ null (κ = defect density)"
+        ),
+        "cost": "cheapest of the three channels; power ≈ 1 at N ≈ 1",
+        "practical_reduction": (
+            "at 900 K, defect annealing is ≈ 40 ns, so the test reduces to: can "
+            "κ ≠ κ_eq be prepared and HELD at 900 K at all?"
+        ),
+    }
+

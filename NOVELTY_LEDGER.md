@@ -65,6 +65,20 @@ giving κ_DET ≲ 1.5×10⁻⁵ (Kauten 2017) to ≲ 5.8×10⁻⁵ (Vogl 2021) a
 The outcome is **null**: κ_DET is consistent with zero, so the lens logs its
 first miss. The bound is on the product κ_DET·r, not κ_DET alone.
 
+## The three κ channels
+
+κ couples through three *independent* channels, with very different status:
+
+| Channel | Coupling | Bound | Status |
+|---|---|---|---|
+| **Static** interference (D_κ) | κ_static·w₃ | ≲ 10⁻⁵ (three-slit) | **closed** — null, first logged miss |
+| **Clock** (FL-1) | λ_P·κ | ≲ 10⁻¹⁸ (Lange 2021) | **executed null** — product bound; λ_P unconstrained |
+| **Recovery** (F9) | κ_dyn (τ_rec) | — | **dry-run only** — real-data drop-in ready (`execute_f9_on_data`) |
+
+The static channel is closed. The clock and recovery channels are *dynamical*
+(κ in the time-evolution), invisible to the three-slit null, and remain the
+open frontier.
+
 ## Operating rule
 
 Every generated probe must be registered here with a `target_theory` and a

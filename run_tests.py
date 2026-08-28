@@ -3397,10 +3397,14 @@ def test_dkappa_dynamics():
     from det8.models.dkappa_dynamics import (
         clock_frequency_shift,
         clock_frequency_shift_det,
+        clock_kappa_bound,
+        demonstrate_two_time,
         grade2_theorem,
         path_amplitudes,
+        push_clock_channel,
         recovery_timescale,
         third_order_interference,
+        two_time_decoherence_functional,
         unify_channels,
     )
 
@@ -3433,13 +3437,38 @@ def test_dkappa_dynamics():
          and "clock_channel" in unified
          and "recovery_channel" in unified)
 
+    clock = push_clock_channel()
+    test("Clock push gives λ_P·κ ≲ 10⁻¹⁸",
+         0.0 < clock["best_bound"]["lambda_P_kappa_bound"] < 1e-17)
+    test("Clock bound inverts the FL-1 saturation form",
+         abs(clock_kappa_bound(1e-18) - 1e-18) < 1e-21)
+
+    demo = demonstrate_two_time()
+    test("Two-time: κ drives level transitions",
+         demo["dynamical_signature"]
+         and demo["transition_flip_at_kappa_zero"] < 1e-12)
+    test("Two-time: single-time Born rule stays normalized and unitary",
+         demo["single_time_normalized_kappa_zero"]
+         and demo["single_time_normalized_kappa_one"]
+         and demo["unitarity_holds"])
+
+    functional = two_time_decoherence_functional(1.0, 0.5, 0.5, 1.0)
+    diagonal_sum = sum(
+        functional[((a, b), (a, b))].real for a in (0, 1) for b in (0, 1)
+    )
+    test("Two-time decoherence functional diagonal sums to one",
+         abs(diagonal_sum - 1.0) < 1e-12)
+
 
 def test_f9_probe_execution():
     import math
 
     from det8.models.f9_execution import (
+        execute_f9_on_data,
         execute_f9_probe,
+        fit_activation_energy,
         fit_recovery_time,
+        f9_protocol,
         measure_recovery_time_at_T,
     )
 
@@ -3468,6 +3497,26 @@ def test_f9_probe_execution():
     test("Execution honestly flags no real data",
          run["physics_outcome"].startswith("NOT DETERMINED")
          and run["ledger_status"].startswith("remains unexecuted"))
+
+    kappa_verdict = execute_f9_on_data(
+        [(300.0, 1e4), (500.0, 1e4), (900.0, 1e4)]
+    )
+    test("F9 real-data drop-in flags T-independent data as κ distinct",
+         kappa_verdict["outcome"] == "surviving_novelty"
+         and abs(kappa_verdict["T_ratio"] - 1.0) < 1e-12)
+
+    defect_verdict = execute_f9_on_data([(300.0, 6200.0), (900.0, 3.96e-8)])
+    test("F9 real-data drop-in flags Arrhenius data as null",
+         defect_verdict["outcome"] == "null"
+         and defect_verdict["T_ratio"] > 1e3)
+
+    test("Activation-energy fit recovers a known E_a",
+         abs(fit_activation_energy([(300.0, 6200.0), (900.0, 3.96e-8)]) - 1.0)
+         < 0.05)
+
+    protocol = f9_protocol()
+    test("F9 protocol documents the experiment and decision rule",
+         "measure" in protocol and "decision_rule" in protocol)
 
 
 def test_mathematical_search_adapters():

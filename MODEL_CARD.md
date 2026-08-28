@@ -10,12 +10,17 @@
 
 1. **Ontology** — Track B; chosen, not evidenced (the four deadlocks).
 2. **Instrument** — the RET engine, the [Novelty Ledger](NOVELTY_LEDGER.md), and the DG-WARRANT gate.
-3. **Physical yield** — the gated κ-Π clock anomaly, the D_κ three-slit target, and the τ_rec-vs-annealing discriminator.
+3. **Physical yield** — three κ channels: **static** (D_κ three-slit, null ≲ 10⁻⁵), **clock** (κ-Π anomaly, gated; λ_P·κ ≲ 10⁻¹⁸), and **recovery** (τ_rec-vs-annealing, dry-run only).
 4. **Engine validation** — the Exodus/Riemann/Collatz/Navier–Stokes known-answer runs; no physics claim.
 
 The falsifiable quantity is the instrument's *productivity* across bucket 3,
 logged in the Novelty Ledger. A null probe costs the ontology nothing; it
 costs the instrument one logged miss (DG-WARRANT).
+
+The static channel (three-slit) is **closed** — a clean null. The clock and
+recovery channels are **dynamical** (κ in the time-evolution, invisible to the
+three-slit null) and remain the open frontier; see
+`docs/DKAPPA_STANDARD_QM_PUSH.md`.
 
 ---
 
