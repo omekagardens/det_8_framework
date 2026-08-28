@@ -3228,15 +3228,19 @@ def test_novelty_ledger_and_warrant():
     test("Seed ledger registers five honest probes",
          len(ledger.entries) == 5
          and all(entry.cost_if_null for entry in ledger.entries))
-    test("Seed ledger spans gated, unexecuted, and active statuses",
+    test("Seed ledger spans gated, unexecuted, active, and executed statuses",
          {entry.status for entry in ledger.entries}
-         == {"gated", "unexecuted", "active"})
-    test("Seed ledger has no executed probes yet",
-         len(ledger.executed()) == 0 and ledger.surviving_novelties() == 0)
+         == {"gated", "unexecuted", "active", "executed"})
+    test("Seed ledger has one executed probe with a null outcome (D_κ)",
+         len(ledger.executed()) == 1
+         and ledger.surviving_novelties() == 0
+         and ledger.executed()[0].outcome == "null")
 
     seed_warrant = warrant_from_ledger(ledger)
-    test("Seed warrant is ACTIVE with no executed probes",
-         seed_warrant.status == "ACTIVE" and seed_warrant.executed_probes == 0)
+    test("Seed warrant stays ACTIVE after one null probe (below the downgrade run)",
+         seed_warrant.status == "ACTIVE"
+         and seed_warrant.executed_probes == 1
+         and seed_warrant.surviving_novelties == 0)
 
     nulls = NoveltyLedger(
         (
@@ -3291,6 +3295,7 @@ def test_dkappa_decoherence():
     from det8.models.dkappa_decoherence import (
         Dkappa,
         make_dkappa,
+        push_standard_qm,
         record_interference_I3,
         run_dkappa,
         three_slit_kappa_bound,
@@ -3319,12 +3324,56 @@ def test_dkappa_decoherence():
          and abs(run["kappa_bound_from_three_slit"] - 0.1) < 1e-12
          and run["positivity"]["positive"])
 
+    push = push_standard_qm()
+    test("Push confirms the Sorkin-normalization identity",
+         push["sorkin_identity_check"])
+    test("Push yields a concrete null bound on κ_DET·r",
+         0.0 < push["best_bound"]["kappa_DET_times_r_bound"] < 1e-4)
+    test("The tightest published bound comes from Kauten 2017",
+         "Kauten" in push["best_bound"]["experiment"])
+
     try:
         Dkappa(dk.pair_kernel, frozenset((0, 1, 2)), 0.1, kappa=1.5)
         rejected = False
     except ValueError:
         rejected = True
     test("κ outside [0,1] is rejected", rejected)
+
+
+def test_f9_probe_execution():
+    import math
+
+    from det8.models.f9_execution import (
+        execute_f9_probe,
+        fit_recovery_time,
+        measure_recovery_time_at_T,
+    )
+
+    section("F9 τ_rec-vs-Annealing Discriminator (execution)")
+
+    clean = fit_recovery_time(
+        [0.1, 0.5, 1.0, 1.5, 2.0],
+        [math.exp(-x) for x in (0.1, 0.5, 1.0, 1.5, 2.0)],
+    )
+    test("Fit recovers the true decay constant on clean data",
+         abs(clean - 1.0) < 1e-6)
+
+    measured = measure_recovery_time_at_T("kappa_distinct", 300.0, seed=1)
+    test("Measurement returns a finite positive recovery time",
+         math.isfinite(measured) and measured > 0.0)
+
+    run = execute_f9_probe()
+    test("Discriminator correctly classifies both hypotheses",
+         run["discriminator_works"])
+    test("κ hypothesis is T-independent (ratio ≈ 1)",
+         run["verdicts"]["kappa_distinct"]["T_ratio"]
+         < run["decision_ratio_threshold"])
+    test("Defect hypothesis is Arrhenius (ratio ≫ 1)",
+         run["verdicts"]["defect"]["T_ratio"]
+         > run["decision_ratio_threshold"] * 1e3)
+    test("Execution honestly flags no real data",
+         run["physics_outcome"].startswith("NOT DETERMINED")
+         and run["ledger_status"].startswith("remains unexecuted"))
 
 
 def test_mathematical_search_adapters():
@@ -5289,6 +5338,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in dkappa_decoherence: {e}")
+        traceback.print_exc()
+
+    try:
+        test_f9_probe_execution()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in f9_probe_execution: {e}")
         traceback.print_exc()
 
     try:

@@ -43,21 +43,27 @@ under the lens framing, was aimed at the wrong object.
 | Clock anomaly (FL-1): Δν/ν = λ_P·κ/(1+λ_P·κ) | Standard physics (null clock universality) | `gated` | one miss; λ_P·Δκ product bound only (prerequisites missing) |
 | Recovery-rate discriminator (F9/FL-4): τ_rec(T) T-independent vs Arrhenius | Annealing / defect-density kinetics | `unexecuted` | **cheapest**; κ→defect density, ontology unaffected, one miss |
 | Operational κ̂ + L0/L1/L2 ladder | Standard materials metrology | `unexecuted` | none — L0/L1 is unconditional, publishable even if DET false |
-| κ-dependent decoherence functional D_κ (three-slit I₃ = κ·r) | Grade-2 (quantum) decoherence functional (Sorkin) | `unexecuted` | existing I₃ ≈ 0 already bounds κ < ε/r; bounds this κ-coupling form, not the lens |
+| κ-dependent decoherence functional D_κ (three-slit I₃ = κ·r) | Grade-2 (quantum) decoherence functional (Sorkin) | `executed` → `null` | κ_DET·r < ε_exp·I₂_ref: κ_DET ≲ 1.5×10⁻⁵ (Kauten 2017, r=1); consistent with standard QM — first logged miss |
 | RET engine (discrepancy adjudication + engine validation) | Methodological | `active` | none — methodological yield, not physics yield |
 
-**Executed probes: 0. Surviving novelties: 0. Generative warrant: `ACTIVE`
-(insufficient data to adjudicate).**
+**Executed probes: 1. Surviving novelties: 0. Generative warrant: `ACTIVE`
+(one logged miss, below the downgrade run).**
 
-## The first push is now registered
+## The first push is now executed
 
-**D_κ** (`det8/models/dkappa_decoherence.py`) is formalized: the κ-weighted
-convex combination μ_κ = (1−κ)μ₂ + κμ₃ of a grade-2 pair-kernel and a
-grade-3 record measure, so I₃(μ_κ) = κ·r. The grade hierarchy supplies the
-well-definedness conditions (positivity, normalization); the three-slit bound
-|I₃| < ε inverts to κ < ε/r — the anchor. It is a *mechanism*, not a novel
-effect: the existing three-slit null already constrains κ and does not falsify
-the lens.
+**D_κ** (`det8/models/dkappa_decoherence.py`) is formalized and now pushed
+against standard quantum mechanics: the κ-weighted convex combination
+μ_κ = (1−κ)μ₂ + κμ₃ of a grade-2 pair-kernel and a grade-3 record measure, so
+I₃(μ_κ) = κ·r. The grade hierarchy supplies the well-definedness conditions
+(positivity, normalization); standard QM is grade-2 (I₃ = 0), and the
+published three-slit bounds invert through the normalization
+κ_Sorkin = I₃/I₂_ref = κ_DET·r/I₂_ref to a concrete bound
+
+    κ_DET · r < ε_exp · I₂_ref,
+
+giving κ_DET ≲ 1.5×10⁻⁵ (Kauten 2017) to ≲ 5.8×10⁻⁵ (Vogl 2021) at r = 1.
+The outcome is **null**: κ_DET is consistent with zero, so the lens logs its
+first miss. The bound is on the product κ_DET·r, not κ_DET alone.
 
 ## Operating rule
 

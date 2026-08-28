@@ -116,6 +116,58 @@ def three_slit_kappa_bound(epsilon: float, triple_weight: float) -> float:
     return epsilon / triple_weight
 
 
+def pairwise_interference(pair_kernel: PairKernel, a: int, b: int) -> float:
+    """Pairwise interference I(a,b) = μ(a∪b) − μ(a) − μ(b) of the grade-2 part."""
+
+    return (
+        pair_kernel.mu({a, b}) - pair_kernel.mu({a}) - pair_kernel.mu({b})
+    )
+
+
+def pairwise_reference_scale(dk: Dkappa, a: int, b: int, c: int) -> float:
+    """I₂_ref = |I(a,b)| + |I(a,c)| + |I(b,c)| — the scale that normalizes I₃."""
+
+    return (
+        abs(pairwise_interference(dk.pair_kernel, a, b))
+        + abs(pairwise_interference(dk.pair_kernel, a, c))
+        + abs(pairwise_interference(dk.pair_kernel, b, c))
+    )
+
+
+def normalized_sorkin_parameter(dk: Dkappa, a: int, b: int, c: int) -> float:
+    """κ_Sorkin = I₃(μ_κ) / I₂_ref = κ_DET · r / I₂_ref.
+
+    This is the quantity the three-slit experiments actually bound.
+    """
+
+    i3 = dk.interference_I3({a}, {b}, {c})
+    ref = pairwise_reference_scale(dk, a, b, c)
+    return i3 / ref if ref > 0.0 else 0.0
+
+
+def concrete_kappa_bound(
+    epsilon_exp: float,
+    dk: Dkappa,
+    a: int | None = None,
+    b: int | None = None,
+    c: int | None = None,
+) -> float:
+    """κ_DET < ε_exp · I₂_ref / r, from an experimental |κ_Sorkin| < ε_exp.
+
+    Inverts the experimental third-order-interference bound through the D_κ
+    relation κ_Sorkin = κ_DET · r / I₂_ref.  The result bounds the *product*
+    κ_DET · r (with I₂_ref folded in); it becomes a bound on κ_DET alone only
+    once the record-term weight r is fixed (r = 1 is maximal).
+    """
+
+    if a is None:
+        a, b, c = sorted(dk.record_triple)
+    ref = pairwise_reference_scale(dk, a, b, c)
+    if not dk.triple_weight > 0.0:
+        return float("inf")
+    return epsilon_exp * ref / dk.triple_weight
+
+
 def make_dkappa(
     kappa: float, n: int = 4, triple_weight: float = 0.1, seed: int = 42
 ) -> Dkappa:
@@ -182,3 +234,105 @@ def run_dkappa(
             f"A three-slit null |I₃| < {epsilon} bounds κ < {bound:.4f}."
         ),
     }
+
+
+# ── Push standard QM through D_κ to a concrete κ bound ─────────────────────
+
+
+EXPERIMENTAL_SORKIN_BOUNDS = {
+    "sinha_2010": {
+        "reference": "Sinha et al., Science 329, 418 (2010)",
+        "system": "photons, three-slit",
+        "kappa_sorkin_upper": 1e-2,
+    },
+    "kauten_2017": {
+        "reference": "Kauten et al., New J. Phys. 19, 033017 (2017)",
+        "system": "5-path interferometer",
+        "kappa_sorkin_upper": 1e-4,
+    },
+    "vogl_2021": {
+        "reference": "Vogl et al., Phys. Rev. Research 3, 013296 (2021)",
+        "system": "single photon, hexagonal boron nitride",
+        "kappa_sorkin_central": 3.96e-4,
+        "kappa_sorkin_uncertainty": 5.23e-4,
+    },
+}
+
+
+def push_standard_qm(
+    n: int = 4, triple_weight: float = 1.0, seed: int = 42
+) -> dict:
+    """Push standard QM (grade-2, I₃ = 0) through D_κ to a concrete κ bound.
+
+    Standard quantum mechanics is grade-2 (Sorkin), so its third-order
+    interference vanishes: I₃ = 0.  D_κ predicts I₃ = κ_DET · r.  The published
+    three-slit experiments bound the normalized Sorkin parameter
+    κ_Sorkin = I₃/I₂_ref < ε_exp, which inverts through the D_κ relation to
+
+        κ_DET · r < ε_exp · I₂_ref.
+
+    With the record-term weight r = 1 (maximal), this is a concrete bound on
+    κ_DET alone.  Every bound is consistent with κ_DET = 0 (standard QM), so
+    this is a *null* outcome — a bound, not a detection.
+    """
+
+    dk = make_dkappa(0.0, n, triple_weight, seed)
+    a, b, c = sorted(dk.record_triple)
+    i2_ref = pairwise_reference_scale(dk, a, b, c)
+
+    # Confirm the normalization identity κ_Sorkin = κ_DET · r / I₂_ref.
+    dk_test = make_dkappa(0.3, n, triple_weight, seed)
+    sorkin_parameter = normalized_sorkin_parameter(dk_test, a, b, c)
+
+    bounds = {}
+    for key, exp in EXPERIMENTAL_SORKIN_BOUNDS.items():
+        eps = exp.get("kappa_sorkin_upper")
+        if eps is None:
+            eps = exp["kappa_sorkin_central"]
+        bounds[key] = {
+            "experiment": exp["reference"],
+            "system": exp["system"],
+            "kappa_sorkin": eps,
+            "kappa_DET_bound": concrete_kappa_bound(eps, dk, a, b, c),
+            "kappa_DET_times_r_bound": eps * i2_ref,
+        }
+
+    best = min(bounds, key=lambda k: bounds[k]["kappa_DET_times_r_bound"])
+    return {
+        "theorem": (
+            "grade-2 QM ⟹ I₃ = 0;  D_κ ⟹ I₃ = κ_DET·r;  "
+            "experiment ⟹ κ_DET·r < ε_exp·I₂_ref"
+        ),
+        "record_triple": [a, b, c],
+        "record_triple_weight": triple_weight,
+        "I2_reference_scale": i2_ref,
+        "sorkin_parameter_identity": sorkin_parameter,
+        "sorkin_identity_check": abs(
+            sorkin_parameter - 0.3 * triple_weight / i2_ref
+        )
+        < 1e-12,
+        "experimental_bounds": bounds,
+        "best_bound": {
+            "experiment": bounds[best]["experiment"],
+            "kappa_DET_times_r_bound": bounds[best]["kappa_DET_times_r_bound"],
+        },
+        "provenance": {
+            "I3 = 0 for grade-2": "MATH — Sorkin decoherence functional",
+            "I3 = κ_DET·r under D_κ": "TH-DET — the κ-coupling hypothesis",
+            "κ_Sorkin = I3 / I2_ref": "MATH — normalization",
+            "experimental |κ_Sorkin| bound": (
+                "EXPERIMENT — Sinha 2010, Kauten 2017, Vogl 2021"
+            ),
+            "bound on κ_DET": (
+                "CONDITIONAL — on the D_κ ansatz and the record-term weight r"
+            ),
+        },
+        "honest_caveat": (
+            "The bound is on the product κ_DET · r (the record-term weight), not "
+            "on κ_DET alone; it becomes a κ_DET bound only with r fixed "
+            "(r = 1 is maximal). Standard QM (κ_DET = 0) is consistent with "
+            "every bound, so this is a null outcome — a logged miss, not a "
+            "surviving novelty."
+        ),
+    }
+
