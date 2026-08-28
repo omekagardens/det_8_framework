@@ -3340,6 +3340,59 @@ def test_dkappa_decoherence():
     test("κ outside [0,1] is rejected", rejected)
 
 
+def test_dkappa_grade3_generalization():
+    from det8.models.dkappa_decoherence import (
+        DkappaGrade3,
+        generalized_triple_interference,
+        grade3_record_measure,
+        make_pair_kernel,
+        max_triple_weight,
+        push_standard_qm_general,
+    )
+
+    section("D_κ — General Grade-3 Coupling")
+
+    pk = make_pair_kernel(4, seed=42, coherent=True)
+    tw = {
+        frozenset((0, 1, 2)): 0.3,
+        frozenset((0, 1, 3)): 0.2,
+        frozenset((1, 2, 3)): 0.4,
+    }
+    record = grade3_record_measure(4, tw)
+    dk = DkappaGrade3(pk, record, kappa=0.5)
+
+    test("General grade-3 measure is normalized",
+         abs(record.mu(frozenset(range(4))) - 1.0) < 1e-12)
+    test("I₃ equals κ times the triple weight for each triple",
+         abs(generalized_triple_interference(dk, 0, 1, 2) - 0.5 * 0.3) < 1e-12
+         and abs(generalized_triple_interference(dk, 0, 1, 3) - 0.5 * 0.2) < 1e-12
+         and abs(generalized_triple_interference(dk, 1, 2, 3) - 0.5 * 0.4) < 1e-12)
+    test("max_triple_weight reports the largest coupling",
+         abs(max_triple_weight(record) - 0.4) < 1e-12)
+
+    single = grade3_record_measure(4, {frozenset((0, 1, 2)): 0.1})
+    dk_single = DkappaGrade3(pk, single, kappa=0.1)
+    test("Single-triple special case reproduces I₃ = κ·r",
+         abs(generalized_triple_interference(dk_single, 0, 1, 2) - 0.01) < 1e-12)
+
+    general = push_standard_qm_general(n=4)
+    tight = push_standard_qm_general(
+        n=4, triple_weights={frozenset((0, 1, 2)): 1.0}
+    )
+    test("General push confirms I₃ = κ·w₃",
+         general["I3_equals_kappa_times_w3"])
+    test("The single-triple r=1 case gives the tightest κ-bound",
+         tight["best_bound"]["kappa_DET_bound"]
+         < general["best_bound"]["kappa_DET_bound"])
+
+    try:
+        grade3_record_measure(4, {frozenset((0, 1, 2)): 1.5})
+        rejected = False
+    except ValueError:
+        rejected = True
+    test("Triple weights exceeding the normalized measure are rejected", rejected)
+
+
 def test_f9_probe_execution():
     import math
 
@@ -5338,6 +5391,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in dkappa_decoherence: {e}")
+        traceback.print_exc()
+
+    try:
+        test_dkappa_grade3_generalization()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in dkappa_grade3_generalization: {e}")
         traceback.print_exc()
 
     try:

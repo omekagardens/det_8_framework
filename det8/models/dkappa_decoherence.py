@@ -32,6 +32,7 @@ three-slit null (I₃ ≈ 0) already bounds κ, and does not falsify the lens.
 from __future__ import annotations
 
 from dataclasses import dataclass
+from typing import Mapping, Tuple
 
 from det8.models.pair_kernel import PairKernel, make_pair_kernel
 
@@ -335,4 +336,190 @@ def push_standard_qm(
             "surviving novelty."
         ),
     }
+
+
+# ── General grade-3 coupling (item 1: drop the single-triple ansatz) ───────
+
+
+@dataclass(frozen=True)
+class Grade3Measure:
+    """A grade-3 record measure with arbitrary triple weights.
+
+        μ₃(A) = Σ_{i∈A} p_i + Σ_{i<j<k∈A} w₃(i,j,k).
+
+    Pair weights are omitted: they cancel in the third-order-interference
+    combination I₃ and would only renormalize the singles.  The triple weights
+    w₃ are the sole source of I₃ ≠ 0, which is exactly what the three-slit
+    experiments bound.
+    """
+
+    n: int
+    singles: Tuple[float, ...]
+    triple_weights: Mapping[frozenset, float]
+
+    def __post_init__(self) -> None:
+        if len(self.singles) != self.n:
+            raise ValueError("singles length must equal n")
+        if any(p < 0.0 for p in self.singles):
+            raise ValueError("single weights must be non-negative")
+        for key, weight in self.triple_weights.items():
+            if len(key) != 3 or not key <= frozenset(range(self.n)):
+                raise ValueError("triple-weight keys must be 3-element subsets of Ω")
+            if weight < 0.0:
+                raise ValueError("triple weights must be non-negative")
+        if abs(self.mu(frozenset(range(self.n))) - 1.0) > 1e-9:
+            raise ValueError("grade-3 measure must be normalized")
+
+    def mu(self, A) -> float:
+        A = _as_frozenset(A)
+        total = sum(self.singles[i] for i in A)
+        for key, weight in self.triple_weights.items():
+            if key <= A:
+                total += weight
+        return total
+
+    def triple_weight(self, S) -> float:
+        S = _as_frozenset(S)
+        if len(S) != 3:
+            raise ValueError("triple weight requires exactly three events")
+        return self.triple_weights.get(S, 0.0)
+
+
+def grade3_record_measure(n: int, triple_weights: Mapping) -> Grade3Measure:
+    """General grade-3 record measure; uniform singles absorb the residual weight.
+
+    ``triple_weights`` maps each 3-element frozenset of Ω to a non-negative
+    weight.  The single-triple ansatz is the special case
+    ``triple_weights = {frozenset((0,1,2)): r}``.
+    """
+
+    total = sum(triple_weights.values())
+    if total > 1.0 + 1e-12:
+        raise ValueError("triple weights exceed the normalized measure")
+    singles = tuple((1.0 - total) / n for _ in range(n))
+    return Grade3Measure(n, singles, dict(triple_weights))
+
+
+@dataclass(frozen=True)
+class DkappaGrade3:
+    """μ_κ = (1−κ)μ₂ + κμ₃ for a general grade-3 record measure μ₃."""
+
+    pair_kernel: PairKernel
+    record_measure: Grade3Measure
+    kappa: float
+
+    def __post_init__(self) -> None:
+        if not 0.0 <= self.kappa <= 1.0:
+            raise ValueError("kappa must lie in [0,1]")
+        if self.record_measure.n != self.pair_kernel.n:
+            raise ValueError("record measure and pair kernel must share the event space")
+
+    def mu(self, A) -> float:
+        return (
+            (1.0 - self.kappa) * self.pair_kernel.mu(A)
+            + self.kappa * self.record_measure.mu(A)
+        )
+
+    def interference_I3(self, A, B, C) -> float:
+        A, B, C = map(_as_frozenset, (A, B, C))
+        return (
+            self.mu(A | B | C) - self.mu(A | B) - self.mu(A | C)
+            - self.mu(B | C) + self.mu(A) + self.mu(B) + self.mu(C)
+        )
+
+
+def generalized_triple_interference(dk: DkappaGrade3, a: int, b: int, c: int) -> float:
+    """I₃(μ_κ)({a},{b},{c}) = κ · w₃({a,b,c}) for disjoint a, b, c."""
+
+    return dk.interference_I3({a}, {b}, {c})
+
+
+def max_triple_weight(measure: Grade3Measure) -> float:
+    """The largest triple weight — the coupling that sets the tightest κ bound."""
+
+    return max(measure.triple_weights.values(), default=0.0)
+
+
+def push_standard_qm_general(
+    n: int = 4, triple_weights: Mapping | None = None, seed: int = 42
+) -> dict:
+    """Generalize the D_κ push to arbitrary grade-3 record coupling.
+
+    With a general grade-3 record measure, I₃({a},{b},{c}) = κ_DET·w₃({a,b,c}).
+    The three-slit bound |κ_Sorkin| < ε_exp then constrains κ_DET·w₃ for every
+    triple, and the tightest bound uses the largest triple weight:
+
+        κ_DET < ε_exp · I₂_ref / max w₃.
+
+    The single-triple ansatz is the special case w₃ = r·δ(012); with r = 1 it
+    is the *tightest* (most constraining) case, since any spread of the record
+    weight over more triples lowers max w₃ and therefore weakens the bound.
+    """
+
+    from itertools import combinations
+
+    pk = make_pair_kernel(n, seed=seed, coherent=True)
+    if triple_weights is None:
+        keys = [frozenset(t) for t in combinations(range(n), 3)]
+        weight = 1.0 / len(keys)
+        triple_weights = {key: weight for key in keys}
+
+    record = grade3_record_measure(n, triple_weights)
+    dk = DkappaGrade3(pk, record, kappa=0.3)
+    a, b, c = sorted(next(iter(record.triple_weights)))
+    i3 = generalized_triple_interference(dk, a, b, c)
+    w_abc = record.triple_weight(frozenset((a, b, c)))
+    i2_ref = (
+        abs(pairwise_interference(pk, a, b))
+        + abs(pairwise_interference(pk, a, c))
+        + abs(pairwise_interference(pk, b, c))
+    )
+    max_w = max_triple_weight(record)
+
+    bounds = {}
+    for key, exp in EXPERIMENTAL_SORKIN_BOUNDS.items():
+        eps = exp.get("kappa_sorkin_upper")
+        if eps is None:
+            eps = exp["kappa_sorkin_central"]
+        bounds[key] = {
+            "experiment": exp["reference"],
+            "kappa_sorkin": eps,
+            "kappa_DET_bound": eps * i2_ref / max_w,
+        }
+    best = min(bounds, key=lambda k: bounds[k]["kappa_DET_bound"])
+
+    return {
+        "theorem": (
+            "general grade-3: I₃({a},{b},{c}) = κ_DET·w₃({a,b,c});  "
+            "bound κ_DET < ε_exp·I₂_ref / max w₃"
+        ),
+        "n_triples": len(record.triple_weights),
+        "max_triple_weight": max_w,
+        "I3_equals_kappa_times_w3": abs(i3 - 0.3 * w_abc) < 1e-12,
+        "I2_reference_scale": i2_ref,
+        "experimental_bounds": bounds,
+        "best_bound": {
+            "experiment": bounds[best]["experiment"],
+            "kappa_DET_bound": bounds[best]["kappa_DET_bound"],
+        },
+        "single_triple_is_tightest": (
+            "The single-triple ansatz with r = 1 is the most constraining case "
+            "(max w₃ = 1); any spread of the record weight over multiple triples "
+            "lowers max w₃ and weakens the κ-bound. So the earlier r = 1 bound "
+            "is the optimistic (tightest) limit, not the general one."
+        ),
+        "grade_k_beyond_3": (
+            "Kauten 2017 used a 5-path interferometer, which bounds higher-order "
+            "interferences I₃, I₄, and I₅ simultaneously, so κ-coupling to "
+            "grade-4 and grade-5 record terms is bounded at the same ~10⁻⁴ level; "
+            "only couplings of grade ≥ 6 escape a 5-path experiment."
+        ),
+        "honest_caveat": (
+            "The general bound is κ_DET < ε_exp·I₂_ref / max w₃, so it is weaker "
+            "than the r = 1 case whenever the record weight is spread over more "
+            "than one triple. The bound still requires max w₃ to be fixed, and "
+            "standard QM (κ_DET = 0) is consistent with every bound."
+        ),
+    }
+
 

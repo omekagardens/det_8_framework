@@ -82,3 +82,27 @@ parameter, and the published bound inverts to a bound on κ_DET·r.
 | κ_Sorkin = I₃/I₂_ref | MATH — normalization |
 | experimental \|κ_Sorkin\| bound | EXPERIMENT — Sinha 2010, Kauten 2017, Vogl 2021 |
 | bound on κ_DET | CONDITIONAL — on the D_κ ansatz and the record-term weight r |
+
+## Update — item 1 addressed (general grade-k coupling)
+
+The single-triple ansatz is now generalized. `Grade3Measure` and `DkappaGrade3`
+in `dkappa_decoherence.py` carry arbitrary triple weights w₃(i,j,k), with
+
+    I₃({a},{b},{c}) = κ_DET · w₃({a,b,c})   (for every triple)
+
+so the three-slit bound constrains κ_DET·w₃ for every triple, and the tightest
+κ-bound uses the largest triple weight: **κ_DET < ε_exp·I₂_ref / max w₃**.
+
+Two honest consequences:
+
+1. **The r = 1 single-triple case is the *tightest* bound** (κ_DET < 1.5×10⁻⁵).
+   Any spread of the record weight over more triples lowers max w₃ and therefore
+   *weakens* the κ-bound (e.g. uniform over 4 triples gives κ_DET < 5.8×10⁻⁵).
+   So the headline number is the optimistic limit, not the general one.
+2. **Grade-k > 3 is also bounded.** Kauten 2017 used a 5-path interferometer,
+   which bounds I₃, I₄, and I₅ simultaneously, so κ-coupling to grade-4 and
+   grade-5 record terms is bounded at the same ~10⁻⁴ level; only couplings of
+   grade ≥ 6 escape a 5-path experiment.
+
+The remaining weak point is unchanged: the bound is on κ_DET·w₃, so it still
+needs the record-weight distribution to be fixed (item 2).
