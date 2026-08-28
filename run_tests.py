@@ -3225,8 +3225,8 @@ def test_novelty_ledger_and_warrant():
     section("Novelty Ledger and Generative Warrant")
 
     ledger = seed_novelty_ledger()
-    test("Seed ledger registers four honest probes",
-         len(ledger.entries) == 4
+    test("Seed ledger registers five honest probes",
+         len(ledger.entries) == 5
          and all(entry.cost_if_null for entry in ledger.entries))
     test("Seed ledger spans gated, unexecuted, and active statuses",
          {entry.status for entry in ledger.entries}
@@ -3285,6 +3285,46 @@ def test_novelty_ledger_and_warrant():
     except ValueError:
         rejected = True
     test("Duplicate probe identifiers are rejected", rejected)
+
+
+def test_dkappa_decoherence():
+    from det8.models.dkappa_decoherence import (
+        Dkappa,
+        make_dkappa,
+        record_interference_I3,
+        run_dkappa,
+        three_slit_kappa_bound,
+    )
+
+    section("κ-Dependent Decoherence Functional (D_κ)")
+
+    dk = make_dkappa(kappa=0.1, triple_weight=0.1)
+    test("D_κ is normalized on the whole alternative space",
+         dk.normalize_check())
+    test("D_κ is non-negative on every event",
+         dk.positivity_check()["positive"])
+    test("I₃ at κ = 0 is grade-2 (vanishes)",
+         abs(record_interference_I3(make_dkappa(0.0, triple_weight=0.1))) < 1e-12)
+    test("I₃ at κ > 0 equals κ · r",
+         abs(record_interference_I3(dk) - 0.1 * 0.1) < 1e-12)
+    test("I₃ grows monotonically with κ",
+         record_interference_I3(make_dkappa(0.5, triple_weight=0.1))
+         > record_interference_I3(make_dkappa(0.1, triple_weight=0.1)))
+    test("Three-slit null inverts to a κ bound ε/r",
+         abs(three_slit_kappa_bound(0.01, 0.1) - 0.1) < 1e-12)
+
+    run = run_dkappa()
+    test("D_κ run reports the κ·r identity and the bound",
+         run["I3_equals_kappa_times_r"]
+         and abs(run["kappa_bound_from_three_slit"] - 0.1) < 1e-12
+         and run["positivity"]["positive"])
+
+    try:
+        Dkappa(dk.pair_kernel, frozenset((0, 1, 2)), 0.1, kappa=1.5)
+        rejected = False
+    except ValueError:
+        rejected = True
+    test("κ outside [0,1] is rejected", rejected)
 
 
 def test_mathematical_search_adapters():
@@ -5242,6 +5282,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in novelty_ledger_and_warrant: {e}")
+        traceback.print_exc()
+
+    try:
+        test_dkappa_decoherence()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in dkappa_decoherence: {e}")
         traceback.print_exc()
 
     try:

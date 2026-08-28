@@ -43,18 +43,21 @@ under the lens framing, was aimed at the wrong object.
 | Clock anomaly (FL-1): Δν/ν = λ_P·κ/(1+λ_P·κ) | Standard physics (null clock universality) | `gated` | one miss; λ_P·Δκ product bound only (prerequisites missing) |
 | Recovery-rate discriminator (F9/FL-4): τ_rec(T) T-independent vs Arrhenius | Annealing / defect-density kinetics | `unexecuted` | **cheapest**; κ→defect density, ontology unaffected, one miss |
 | Operational κ̂ + L0/L1/L2 ladder | Standard materials metrology | `unexecuted` | none — L0/L1 is unconditional, publishable even if DET false |
+| κ-dependent decoherence functional D_κ (three-slit I₃ = κ·r) | Grade-2 (quantum) decoherence functional (Sorkin) | `unexecuted` | existing I₃ ≈ 0 already bounds κ < ε/r; bounds this κ-coupling form, not the lens |
 | RET engine (discrepancy adjudication + engine validation) | Methodological | `active` | none — methodological yield, not physics yield |
 
 **Executed probes: 0. Surviving novelties: 0. Generative warrant: `ACTIVE`
 (insufficient data to adjudicate).**
 
-## Next candidate to register
+## The first push is now registered
 
-The first real "push" — the κ-dependent decoherence functional **D_κ** (Sorkin
-measure theory with a history-carrying record term), anchored by the grade
-hierarchy (positivity/normalization) and the three-slit bound. It becomes a
-ledger entry once it is formalized with a specific bound that κ ≠ 0 would
-violate. See `pair_kernel.py` and `grade2_justification.py`.
+**D_κ** (`det8/models/dkappa_decoherence.py`) is formalized: the κ-weighted
+convex combination μ_κ = (1−κ)μ₂ + κμ₃ of a grade-2 pair-kernel and a
+grade-3 record measure, so I₃(μ_κ) = κ·r. The grade hierarchy supplies the
+well-definedness conditions (positivity, normalization); the three-slit bound
+|I₃| < ε inverts to κ < ε/r — the anchor. It is a *mechanism*, not a novel
+effect: the existing three-slit null already constrains κ and does not falsify
+the lens.
 
 ## Operating rule
 

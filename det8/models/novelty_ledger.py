@@ -130,6 +130,15 @@ def seed_novelty_ledger() -> NoveltyLedger:
                 ),
             ),
             NoveltyEntry(
+                probe="κ-dependent decoherence functional D_κ (three-slit I₃ = κ·r)",
+                target_theory="grade-2 (quantum) decoherence functional (Sorkin)",
+                status="unexecuted",
+                cost_if_null=(
+                    "existing I₃ ≈ 0 already bounds κ < ε/r; the null bounds "
+                    "this κ-coupling form without falsifying the lens"
+                ),
+            ),
+            NoveltyEntry(
                 probe="RET engine (discrepancy adjudication + engine validation)",
                 target_theory="methodological — known-answer false-positive refusal",
                 status="active",

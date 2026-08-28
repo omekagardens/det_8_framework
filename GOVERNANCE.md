@@ -158,6 +158,11 @@ TEST_EXTENSIONS → CHARACTERIZE → CLOSE → CLOSED`, with `MODEL_FAILURE` and
 
 **Rule:** Model generation follows replicated predictive failure.
 
+RG2's known-answer exercises (Riemann, Collatz, Navier–Stokes) are **RET
+engine validation**: they test false-positive refusal on problems with known
+answers, not DET physics yield. They carry no Track A prediction and are
+registered as the RET-engine row of the Novelty Ledger.
+
 RG2 may promote a source-disjoint, historically fresh relation only after it
 improves locked prediction, passes diagnostics, and clears a calibrated open-
 model gate. A finite floating-point PDE trajectory is never an

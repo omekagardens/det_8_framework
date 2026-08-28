@@ -6,6 +6,17 @@
 
 **Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B addresses the four deadlocks of time, quantum interpretation, agency, and history in one governed synthesis). As a *theory of everything*, DET is not falsifiable; as an **instrument (lens)** for generating falsifiable probes, its productivity is — tracked in the [Novelty Ledger](NOVELTY_LEDGER.md). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field); DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. The implemented correlation-class work reaches almost-quantum $Q^1$, while the relation to full quantum $Q^∞$ and the assumptions behind the complex structure remain explicit research questions. Collapse is the *commit* primitive (record formation), not a patch. General Born-rule uniqueness, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
 
+**Lens yield at a glance.** DET's surface separates into four buckets:
+
+1. **Ontology** — Track B; chosen, not evidenced (the four deadlocks).
+2. **Instrument** — the RET engine, the [Novelty Ledger](NOVELTY_LEDGER.md), and the DG-WARRANT gate.
+3. **Physical yield** — the gated κ-Π clock anomaly, the D_κ three-slit target, and the τ_rec-vs-annealing discriminator.
+4. **Engine validation** — the Exodus/Riemann/Collatz/Navier–Stokes known-answer runs; no physics claim.
+
+The falsifiable quantity is the instrument's *productivity* across bucket 3,
+logged in the Novelty Ledger. A null probe costs the ontology nothing; it
+costs the instrument one logged miss (DG-WARRANT).
+
 ---
 
 ## 1. What DET Is
@@ -73,7 +84,13 @@ Pre-registered in `track_a.py`. Monte Carlo simulator: `clock_experiment.py`. κ
 
 > **Program name (re-foundation, Aug 2026):** the active physical program is **Record-Kernel Physics** (renamed from "κ-Physics"), with four sectors: (i) kernel geometry and history (T1 — κ as predictive-history compression); (ii) pair-kernel quantum reconstruction (T2/T6 — 𝔇); (iii) path irreversibility and measurement (T3/T4); (iv) causal order-and-count geometry (T7). The theorem program is specified in `docs/record_kernel_physics.md`.
 
-### Governed research sandbox: Exodus equations
+### RET engine validation (governed sandbox)
+
+The Exodus, Riemann, Collatz, and Navier–Stokes runs below are **engine
+validation**, not physics output: known-answer problems that test whether the
+RET discovery machinery refuses false positives before it is pointed at
+physics targets. They carry no Track A prediction, proof, or novel claim, and
+are registered as the RET-engine row of the Novelty Ledger.
 
 `exodus_simulation.py` translates the electrostatic-pressure equations of
 US 11,511,891 B2 into DET nodes, antisymmetric momentum bonds, and a

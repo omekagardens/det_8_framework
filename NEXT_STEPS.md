@@ -1,8 +1,8 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 27, 2026
-**Test suite:** 651/651 passing
-**Status:** Record-Kernel Physics and the RET research program are integrated. The software is internally consistent; empirical validation, independent replication, and several analytic/continuum results remain open.
+**Test suite:** 691/692 passing (1 pre-existing Navier–Stokes numerical-reproducibility failure)
+**Status:** Record-Kernel Physics and the RET research program are integrated. The software is internally consistent; empirical validation, independent replication, and several analytic/continuum results remain open. DET is governed as a **lens (instrument)**: the falsifiable quantity is productivity, tracked in the [Novelty Ledger](NOVELTY_LEDGER.md), and the first push — the D_κ decoherence functional — is formalized.
 
 ---
 
@@ -14,9 +14,15 @@
 - Falsification governance, observable anchoring, applied-physics ingest, and the F9/proxy ladder are implemented.
 - The general Relational Experimental Calculus (RET) supports hierarchical inference, correlated and nonlinear observations, explicit open models, question-conditioned scheduling, immutable evidence provenance, and RG1/RG2 gates.
 - Governed RET adapters cover Exodus apparatus accounting, neutron lifetime, bounded Riemann/Collatz searches, and bounded Navier–Stokes numerical studies.
-- The combined runner covers 651 checks across the upstream and RET research suites.
+- The combined runner covers 692 checks across the upstream, RET research, and Novelty Ledger/D_κ suites.
 
 ## Active next work
+
+**Lens surface:** ontology (chosen) · instrument (RET + Novelty Ledger +
+DG-WARRANT) · physical yield (clock gated · D_κ target · τ_rec discriminator) ·
+engine validation (sandbox). The D_κ push is formalized
+(`det8/models/dkappa_decoherence.py`): I₃ = κ·r, anchored by the three-slit
+bound |I₃| < ε ⇒ κ < ε/r.
 
 ### 1. Empirical κ/clock program
 
@@ -60,6 +66,7 @@ The former torsion-balance, SPARC, cluster, BAO, and κ-gravity programs are his
 | `MODEL_CARD.md` | Primary framework, claim status, RET research summary, and coverage caveats |
 | `GOVERNANCE.md` | Claim register, anti-smuggling rules, decision gates, and RG governance |
 | `FALSIFICATION_LEDGER.md` | Active and retired falsifiers and their status |
+| `NOVELTY_LEDGER.md` | The lens's productivity register and DG-WARRANT gate |
 | `docs/observable_anchoring.md` | Observable/formalism/ontology separation |
 | `docs/record_kernel_physics.md` | Record-Kernel Physics theorem program |
 | `docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md` | General RET methodology |
@@ -67,5 +74,5 @@ The former torsion-balance, SPARC, cluster, BAO, and κ-gravity programs are his
 | `docs/NAVIER_STOKES_NEAR_SINGULARITY.md` | Bounded numerical protocol and current limits |
 
 ```bash
-python3 run_tests.py   # 651/651 passing
+python3 run_tests.py   # 691/692 passing
 ```
