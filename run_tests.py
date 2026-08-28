@@ -3101,6 +3101,119 @@ def test_ret_sensitivity_and_closure():
          and len(cost_sweep["rows"]) == 3)
 
 
+def test_ret_evolution_and_change_point():
+    from det8.models.relational_tomography import (
+        GaussianParameterState,
+        GaussianPrior,
+        RelationalAction,
+        RelationalModel,
+        change_point_mixture,
+        change_probability,
+        evolve_ret_posterior,
+        initialize_ret_posterior,
+        update_mixture_state,
+    )
+
+    section("RET Longitudinal Evolution and Change-Point Detection")
+
+    stable_model = RelationalModel(
+        "stable", "family", {"rate": GaussianPrior(0.0, 1.0)}
+    )
+    drifting_model = RelationalModel(
+        "drifting",
+        "family",
+        {"rate": GaussianPrior(0.0, 1.0)},
+        drift_standard_deviations={"rate": 0.5},
+    )
+    posterior = initialize_ret_posterior([stable_model, drifting_model])
+
+    test("Zero-drift evolution leaves the parameter state unchanged",
+         evolve_ret_posterior(posterior).parameters["stable"].covariance
+         == posterior.parameters["stable"].covariance)
+    evolved_once = evolve_ret_posterior(posterior, 1)
+    evolved_twice = evolve_ret_posterior(posterior, 2)
+    test("Declared drift adds process variance per step",
+         abs(evolved_once.parameters["drifting"].covariance[0][0] - 1.25) < 1.0e-12
+         and abs(evolved_twice.parameters["drifting"].covariance[0][0] - 1.5) < 1.0e-12)
+    test("Evolution preserves means and model weights",
+         evolved_once.parameters["drifting"].mean
+         == posterior.parameters["drifting"].mean
+         and evolved_once.model_weights == posterior.model_weights)
+
+    state = GaussianParameterState(("rate",), (0.0,), ((1.0,),))
+    detector = change_point_mixture(state, {"rate": 3.0}, change_prior=0.1)
+    probe = RelationalAction("probe", "science", (0.0,), {"rate": (1.0,)})
+
+    stationary = update_mixture_state(detector, probe, (0.2,), 0.1)
+    shifted = update_mixture_state(detector, probe, (3.0,), 0.1)
+    test("Change detector stays low on a stationary observation",
+         change_probability(stationary) < 0.1)
+    test("Change detector fires on an off-prior observation",
+         change_probability(shifted) > 0.5)
+    test("Change detector is a stable-vs-drifted two-component mixture",
+         detector.components[0].covariance == ((1.0,),)
+         and detector.components[1].covariance == ((10.0,),)
+         and change_probability(detector) == detector.weights[1])
+
+
+def test_ret_mixture_inference():
+    from det8.models.relational_tomography import (
+        GaussianParameterState,
+        GaussianPrior,
+        MixtureParameterState,
+        RelationalAction,
+        RelationalModel,
+        collapse_mixture,
+        initialize_ret_posterior,
+        to_mixture,
+        update_mixture_state,
+        update_ret_posterior,
+    )
+
+    section("RET Mixture Parameter Inference")
+
+    bimodal = MixtureParameterState(
+        ("rate",),
+        (
+            GaussianParameterState(("rate",), (-2.0,), ((0.04,),)),
+            GaussianParameterState(("rate",), (2.0,), ((0.04,),)),
+        ),
+        (0.5, 0.5),
+    )
+    probe = RelationalAction("probe", "science", (0.0,), {"rate": (1.0,)})
+
+    ambiguous = update_mixture_state(bimodal, probe, (0.0,), 0.1)
+    test("Mixture preserves two modes under an ambiguous observation",
+         len(ambiguous.components) == 2
+         and min(ambiguous.weights) > 0.3
+         and ambiguous.components[0].mean[0] < 0.0
+         and ambiguous.components[1].mean[0] > 0.0)
+    collapsed = collapse_mixture(ambiguous)
+    test("Collapsing a bimodal mixture reports a misleading single mode",
+         abs(collapsed.mean[0]) < 0.1
+         and collapsed.covariance[0][0] > 0.1)
+
+    resolved = update_mixture_state(bimodal, probe, (2.1,), 0.1)
+    test("A decisive observation collapses the mixture to one component",
+         len(resolved.components) == 1
+         and abs(resolved.components[0].mean[0] - 2.0) < 0.2)
+
+    model = RelationalModel(
+        "single", "family", {"rate": GaussianPrior(0.0, 1.0)}
+    )
+    posterior = initialize_ret_posterior([model])
+    single = posterior.parameters["single"]
+    core_updated = update_ret_posterior(
+        posterior, probe, (0.5,), 0.1
+    ).parameters["single"]
+    mixture_updated = update_mixture_state(
+        to_mixture(single), probe, (0.5,), 0.1
+    )
+    test("One-component mixture update matches the single-Gaussian core",
+         len(mixture_updated.components) == 1
+         and mixture_updated.components[0] == core_updated)
+
+
 def test_mathematical_search_adapters():
     import math
 
@@ -5035,6 +5148,20 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in ret_sensitivity_and_closure: {e}")
+        traceback.print_exc()
+
+    try:
+        test_ret_evolution_and_change_point()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in ret_evolution_and_change_point: {e}")
+        traceback.print_exc()
+
+    try:
+        test_ret_mixture_inference()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in ret_mixture_inference: {e}")
         traceback.print_exc()
 
     try:

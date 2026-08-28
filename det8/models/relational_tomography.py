@@ -50,12 +50,24 @@ class RelationalModel:
     family: str
     parameter_priors: Mapping[str, GaussianPrior]
     complexity: float = 0.0
+    drift_standard_deviations: Mapping[str, float] = field(default_factory=dict)
 
     def __post_init__(self) -> None:
         if not self.name or not self.family:
             raise ValueError("model name and family are required")
         if self.complexity < 0.0:
             raise ValueError("model complexity cannot be negative")
+        undeclared = set(self.drift_standard_deviations) - set(self.parameter_priors)
+        if undeclared:
+            raise ValueError(
+                "drift declared for undeclared parameters: %s"
+                % ", ".join(sorted(undeclared))
+            )
+        if any(
+            sd < 0.0 or not math.isfinite(sd)
+            for sd in self.drift_standard_deviations.values()
+        ):
+            raise ValueError("drift standard deviations must be finite and non-negative")
 
 
 @dataclass(frozen=True)
@@ -137,6 +149,37 @@ class RETPosterior:
             raise ValueError("posterior model weights must sum to one")
         if self.open_model_scale <= 0.0:
             raise ValueError("open-model scale must be positive")
+
+
+@dataclass(frozen=True)
+class MixtureParameterState:
+    """A non-Gaussian parameter posterior as a weighted Gaussian mixture.
+
+    Unlike :class:`GaussianParameterState`, a mixture preserves multimodal or
+    strongly skewed parameter posteriors.  Each component is a plain Gaussian
+    over the same parameter names, so the closed-form linear and
+    cubature-propagated nonlinear updates remain usable per component.
+    """
+
+    parameter_names: Tuple[str, ...]
+    components: Tuple[GaussianParameterState, ...]
+    weights: Tuple[float, ...]
+
+    def __post_init__(self) -> None:
+        if not self.components:
+            raise ValueError("mixture must contain at least one component")
+        if len(self.components) != len(self.weights):
+            raise ValueError("mixture component and weight counts must match")
+        if any(
+            weight <= 0.0 or not math.isfinite(weight)
+            for weight in self.weights
+        ):
+            raise ValueError("mixture weights must be positive and finite")
+        if abs(sum(self.weights) - 1.0) > 1.0e-9:
+            raise ValueError("mixture weights must sum to one")
+        for component in self.components:
+            if component.parameter_names != self.parameter_names:
+                raise ValueError("all mixture components must share parameter names")
 
 
 def _identity(size: int) -> list[list[float]]:
@@ -439,25 +482,14 @@ def initialize_ret_posterior(
     return RETPosterior(model_map, weights, parameters, open_model_scale, 0)
 
 
-def predictive_distribution(
-    posterior: RETPosterior,
-    model_name: str,
+def predictive_for_state(
+    state: GaussianParameterState,
     action: RelationalAction,
     observation_noise: ObservationNoise,
 ) -> tuple[Vector, Matrix]:
-    noise = _observation_covariance(observation_noise, action.dimension)
-    if model_name == OPEN_MODEL_NAME:
-        broad = [
-            [
-                posterior.open_model_scale**2 if row == column else 0.0
-                for column in range(action.dimension)
-            ]
-            for row in range(action.dimension)
-        ]
-        covariance = tuple(tuple(row) for row in _add_matrix(broad, noise))
-        return response_for_parameters(action, {}), covariance
+    """Predictive mean and covariance for one Gaussian parameter state."""
 
-    state = posterior.parameters[model_name]
+    noise = _observation_covariance(observation_noise, action.dimension)
     if action.is_nonlinear:
         mean, signal_covariance, _ = _cubature_moments(state, action)
         covariance = tuple(
@@ -475,6 +507,28 @@ def predictive_distribution(
     propagated = _matmul(_matmul(design, state.covariance), _transpose(design))
     covariance = tuple(tuple(row) for row in _add_matrix(propagated, noise))
     return mean, covariance
+
+
+def predictive_distribution(
+    posterior: RETPosterior,
+    model_name: str,
+    action: RelationalAction,
+    observation_noise: ObservationNoise,
+) -> tuple[Vector, Matrix]:
+    noise = _observation_covariance(observation_noise, action.dimension)
+    if model_name == OPEN_MODEL_NAME:
+        broad = [
+            [
+                posterior.open_model_scale**2 if row == column else 0.0
+                for column in range(action.dimension)
+            ]
+            for row in range(action.dimension)
+        ]
+        covariance = tuple(tuple(row) for row in _add_matrix(broad, noise))
+        return response_for_parameters(action, {}), covariance
+    return predictive_for_state(
+        posterior.parameters[model_name], action, observation_noise
+    )
 
 
 def gaussian_log_likelihood(observation: Sequence[float], mean: Sequence[float], covariance: Matrix) -> float:
@@ -656,3 +710,203 @@ def sample_predictive(
         mean[row] + sum(lower[row][column] * standard[column] for column in range(row + 1))
         for row in range(dimension)
     )
+
+
+def _logsumexp(values: Sequence[float]) -> float:
+    maximum = max(values)
+    return maximum + math.log(
+        sum(math.exp(value - maximum) for value in values)
+    )
+
+
+def _add_drift(
+    state: GaussianParameterState,
+    drift_standard_deviations: Mapping[str, float],
+    steps: int,
+) -> GaussianParameterState:
+    """Add per-parameter random-walk process noise to a Gaussian state."""
+
+    covariance = [list(row) for row in state.covariance]
+    for index, name in enumerate(state.parameter_names):
+        increment = steps * drift_standard_deviations.get(name, 0.0) ** 2
+        if increment:
+            covariance[index][index] += increment
+    return GaussianParameterState(
+        state.parameter_names, state.mean, tuple(tuple(row) for row in covariance)
+    )
+
+
+def to_mixture(state: GaussianParameterState) -> MixtureParameterState:
+    """Lift a single Gaussian into a one-component mixture."""
+
+    return MixtureParameterState(state.parameter_names, (state,), (1.0,))
+
+
+def mixture_log_likelihood(
+    state: MixtureParameterState,
+    action: RelationalAction,
+    observation: Sequence[float],
+    observation_noise: ObservationNoise,
+) -> float:
+    """Marginal log likelihood of an observation under the mixture."""
+
+    terms = []
+    for component, weight in zip(state.components, state.weights):
+        mean, covariance = predictive_for_state(
+            component, action, observation_noise
+        )
+        terms.append(
+            math.log(weight)
+            + gaussian_log_likelihood(observation, mean, covariance)
+        )
+    return _logsumexp(terms)
+
+
+def update_mixture_state(
+    state: MixtureParameterState,
+    action: RelationalAction,
+    observation: Sequence[float],
+    observation_noise: ObservationNoise,
+    *,
+    minimum_component_weight: float = 1.0e-12,
+) -> MixtureParameterState:
+    """Kalman-update each component and reweight by predictive likelihood.
+
+    Components are updated independently and reweighted by the predictive
+    likelihood of the observation, so a multimodal parameter posterior is
+    preserved rather than collapsed into a single Gaussian.  Components whose
+    reweighted probability falls below ``minimum_component_weight`` are pruned.
+    """
+
+    if len(observation) != action.dimension:
+        raise ValueError("observation dimension does not match action")
+    updated_components = []
+    log_weights = []
+    for component, weight in zip(state.components, state.weights):
+        mean, covariance = predictive_for_state(
+            component, action, observation_noise
+        )
+        log_weights.append(
+            math.log(weight)
+            + gaussian_log_likelihood(observation, mean, covariance)
+        )
+        updated_components.append(
+            _update_parameter_state(
+                component, action, observation, observation_noise
+            )
+        )
+    maximum = max(log_weights)
+    weights = tuple(
+        math.exp(log_weight - maximum) for log_weight in log_weights
+    )
+    total = sum(weights)
+    weights = tuple(weight / total for weight in weights)
+
+    kept_components = []
+    kept_weights = []
+    for component, weight in zip(updated_components, weights):
+        if weight >= minimum_component_weight:
+            kept_components.append(component)
+            kept_weights.append(weight)
+    if not kept_components:
+        best = max(range(len(weights)), key=lambda index: weights[index])
+        kept_components = [updated_components[best]]
+        kept_weights = [1.0]
+    else:
+        total = sum(kept_weights)
+        kept_weights = [weight / total for weight in kept_weights]
+    return MixtureParameterState(
+        state.parameter_names, tuple(kept_components), tuple(kept_weights)
+    )
+
+
+def collapse_mixture(state: MixtureParameterState) -> GaussianParameterState:
+    """Moment-matched single Gaussian summary of a mixture."""
+
+    size = len(state.parameter_names)
+    mean = [0.0] * size
+    for component, weight in zip(state.components, state.weights):
+        for index in range(size):
+            mean[index] += weight * component.mean[index]
+    covariance = [[0.0] * size for _ in range(size)]
+    for component, weight in zip(state.components, state.weights):
+        delta = [component.mean[index] - mean[index] for index in range(size)]
+        for row in range(size):
+            for column in range(size):
+                covariance[row][column] += weight * (
+                    component.covariance[row][column]
+                    + delta[row] * delta[column]
+                )
+    return GaussianParameterState(
+        state.parameter_names, tuple(mean), tuple(tuple(row) for row in covariance)
+    )
+
+
+def evolve_mixture_state(
+    state: MixtureParameterState,
+    drift_standard_deviations: Mapping[str, float],
+    steps: int = 1,
+) -> MixtureParameterState:
+    components = tuple(
+        _add_drift(component, drift_standard_deviations, steps)
+        for component in state.components
+    )
+    return MixtureParameterState(state.parameter_names, components, state.weights)
+
+
+def evolve_ret_posterior(
+    posterior: RETPosterior,
+    steps: int = 1,
+) -> RETPosterior:
+    """Advance every model's parameter state by its declared drift.
+
+    A random-walk evolution adds the declared process noise to each
+    parameter's variance between separately committed actions.  Means are
+    unchanged (symmetric drift), so the effect is purely to widen predictive
+    uncertainty for stale states; the scheduler then assigns a larger expected
+    information gain to a fresh measurement.
+    """
+
+    parameters = {
+        name: _add_drift(
+            posterior.parameters[name], model.drift_standard_deviations, steps
+        )
+        for name, model in posterior.models.items()
+    }
+    return RETPosterior(
+        posterior.models,
+        posterior.model_weights,
+        parameters,
+        posterior.open_model_scale,
+        posterior.observations,
+    )
+
+
+def change_point_mixture(
+    state: GaussianParameterState,
+    drift_standard_deviations: Mapping[str, float],
+    change_prior: float = 0.5,
+) -> MixtureParameterState:
+    """Two-component mixture for change-point detection.
+
+    The first component is the stable parameter (no drift); the second is the
+    same parameter advanced by the declared process noise.  Updating this
+    mixture against an observation lets the record adjudicate whether a change
+    occurred, mirroring the spike-and-slab idiom used for optional endpoints.
+    """
+
+    if not 0.0 < change_prior < 1.0:
+        raise ValueError("change prior must lie between zero and one")
+    return MixtureParameterState(
+        state.parameter_names,
+        (state, _add_drift(state, drift_standard_deviations, 1)),
+        (1.0 - change_prior, change_prior),
+    )
+
+
+def change_probability(state: MixtureParameterState) -> float:
+    """Posterior weight of the 'changed' component of a two-component mixture."""
+
+    if len(state.components) != 2:
+        raise ValueError("change probability requires exactly two components")
+    return state.weights[1]
