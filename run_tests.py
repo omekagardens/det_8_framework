@@ -2697,6 +2697,30 @@ def test_neutron_counting_evidence():
          > run["question_probabilities"]["common_lifetime"])
 
 
+def test_neutron_lifetime_real_data():
+    from det8.models.examples.neutron_lifetime_real_data import measurements
+
+    section("Neutron Lifetime Real Data")
+
+    data = measurements()
+    by_label = {measurement.label: measurement for measurement in data}
+    test("Real-data compilation has nine cited measurements",
+         len(data) == 9 and all(measurement.citation for measurement in data))
+    test("Three beam records split proton vs electron readout",
+         sum(1 for m in data if m.method == "beam") == 3
+         and by_label["Yue 2013 (NIST)"].readout == "proton"
+         and by_label["J-PARC 2024"].readout == "electron")
+    test("Key values match the published central values",
+         by_label["Yue 2013 (NIST)"].lifetime_s == 887.7
+         and by_label["UCN\u03c4 2021"].lifetime_s == 877.75
+         and by_label["J-PARC 2024"].lifetime_s == 877.2
+         and by_label["Byrne 1996"].lifetime_s == 889.2)
+    test("J-PARC systematic is asymmetric",
+         by_label["J-PARC 2024"].uncertainty_down_s is not None
+         and by_label["J-PARC 2024"].uncertainty_s
+         > by_label["J-PARC 2024"].uncertainty_down_s)
+
+
 def test_ret_correlated_nonlinear_core():
     import random
 
@@ -4990,6 +5014,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in neutron_counting_evidence: {e}")
+        traceback.print_exc()
+
+    try:
+        test_neutron_lifetime_real_data()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in neutron_lifetime_real_data: {e}")
         traceback.print_exc()
 
     try:
