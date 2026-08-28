@@ -9,7 +9,16 @@
 
 DET is governed by the principle that the physical calculus (Track A) and ontological grammar (Track B) must be strictly separated with different success criteria.
 
-**Track A success criterion:** Produce at least one novel, risky, falsifiable prediction distinguishable from standard physics.
+DET is a **lens (instrument)** for generating falsifiable probes against target
+theories, not a candidate ToE. The falsifiable object is the instrument's
+*productivity* — whether its probes produce surviving novelties above the null
+rate — not the ontology, which is chosen, not evidenced. That productivity is
+registered in the [Novelty Ledger](NOVELTY_LEDGER.md).
+
+**Track A success criterion:** Generate falsifiable probes against standard
+physics and log every outcome. A null probe costs the ontology nothing; it
+costs the instrument one logged miss (DG-WARRANT, §5). The generative warrant
+is sustained by surviving novelties, not asserted.
 
 **Track B success criterion:** Logical coherence, empirical compatibility, non-smuggling discipline, philosophical superiority to competing interpretations.
 
@@ -43,7 +52,7 @@ DET is governed by the principle that the physical calculus (Track A) and ontolo
 
 **Action (DG-OPEN applied):** "Open becoming" and "strong presence" downgraded to Status M. **Closed-current by downgrade, reopenable upon discriminator discovery — and falsifiable via structural-constraint violation.**
 
-**Pre-registration template:** 9 fields required (hypothesis, system, observable, statistic, threshold, sample size, adversary classes, failure condition, downgrade obligation).
+**Pre-registration template:** 10 fields required (hypothesis, system, observable, statistic, threshold, sample size, adversary classes, failure condition, downgrade obligation, **cost-if-null** — the warrant decrement a null result imposes on the lens).
 
 ---
 
@@ -95,6 +104,15 @@ Clock anomaly (common-mode universality) detected at ≥5σ → Π promoted to a
 Null result constrains λ_P (only) → DET remains a relational ontology with a constrained clock hypothesis.
 Results require reintroducing agency → reject those physical sectors.
 ```
+
+### DG-WARRANT — the instrument's generative warrant (standing)
+
+A null probe costs the ontology nothing; it costs the lens one logged miss.
+After `downgrade_after` executed probes with **zero** surviving novelties, the
+generative warrant downgrades (`ACTIVE → DOWNGRADED`); a surviving novelty
+sustains it (`SUSTAINED`). This gate applies to the instrument as a whole, not
+to any single claim. The counter lives in the
+[Novelty Ledger](NOVELTY_LEDGER.md) (`novelty_ledger.py::GenerativeWarrant`).
 
 ---
 

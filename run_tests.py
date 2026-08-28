@@ -3214,6 +3214,79 @@ def test_ret_mixture_inference():
          and mixture_updated.components[0] == core_updated)
 
 
+def test_novelty_ledger_and_warrant():
+    from det8.models.novelty_ledger import (
+        NoveltyEntry,
+        NoveltyLedger,
+        seed_novelty_ledger,
+        warrant_from_ledger,
+    )
+
+    section("Novelty Ledger and Generative Warrant")
+
+    ledger = seed_novelty_ledger()
+    test("Seed ledger registers four honest probes",
+         len(ledger.entries) == 4
+         and all(entry.cost_if_null for entry in ledger.entries))
+    test("Seed ledger spans gated, unexecuted, and active statuses",
+         {entry.status for entry in ledger.entries}
+         == {"gated", "unexecuted", "active"})
+    test("Seed ledger has no executed probes yet",
+         len(ledger.executed()) == 0 and ledger.surviving_novelties() == 0)
+
+    seed_warrant = warrant_from_ledger(ledger)
+    test("Seed warrant is ACTIVE with no executed probes",
+         seed_warrant.status == "ACTIVE" and seed_warrant.executed_probes == 0)
+
+    nulls = NoveltyLedger(
+        (
+            NoveltyEntry("p1", "standard", "executed", "miss", outcome="null"),
+            NoveltyEntry("p2", "standard", "executed", "miss", outcome="null"),
+            NoveltyEntry("p3", "standard", "executed", "miss", outcome="null"),
+        )
+    )
+    test("Three null probes downgrade the generative warrant",
+         warrant_from_ledger(nulls, downgrade_after=3).status == "DOWNGRADED")
+
+    sustained = NoveltyLedger(
+        (
+            NoveltyEntry("p1", "standard", "executed", "miss", outcome="null"),
+            NoveltyEntry("p2", "standard", "executed", "miss", outcome="null"),
+            NoveltyEntry(
+                "p3", "standard", "executed", "miss", outcome="surviving_novelty"
+            ),
+        )
+    )
+    test("A surviving novelty sustains the generative warrant",
+         warrant_from_ledger(sustained, downgrade_after=3).status == "SUSTAINED")
+
+    try:
+        NoveltyEntry("p", "standard", "executed", "miss")
+        rejected = False
+    except ValueError:
+        rejected = True
+    test("An executed probe without an outcome is rejected", rejected)
+
+    try:
+        NoveltyEntry("p", "standard", "unexecuted", "miss", outcome="null")
+        rejected = False
+    except ValueError:
+        rejected = True
+    test("A non-executed probe carrying an outcome is rejected", rejected)
+
+    try:
+        NoveltyLedger(
+            (
+                NoveltyEntry("dup", "standard", "active", "miss"),
+                NoveltyEntry("dup", "standard", "active", "miss"),
+            )
+        )
+        rejected = False
+    except ValueError:
+        rejected = True
+    test("Duplicate probe identifiers are rejected", rejected)
+
+
 def test_mathematical_search_adapters():
     import math
 
@@ -5162,6 +5235,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in ret_mixture_inference: {e}")
+        traceback.print_exc()
+
+    try:
+        test_novelty_ledger_and_warrant()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in novelty_ledger_and_warrant: {e}")
         traceback.print_exc()
 
     try:
