@@ -217,6 +217,7 @@ def rank_actions(
     objective: SchedulerObjective,
     *,
     seed: int = 0,
+    executed_action_names: Sequence[str] = (),
 ) -> list[Dict[str, float | str]]:
     def noise_for(action: RelationalAction) -> ObservationNoise:
         if isinstance(observation_noise, Mapping):
@@ -227,6 +228,13 @@ def rank_actions(
             return observation_noise[action.name]
         return observation_noise
 
+    executed = set(executed_action_names)
+    eligible = [
+        action
+        for action in actions
+        if not (action.destructive and action.name in executed)
+    ]
+
     ranking = [
         action_utility(
             posterior,
@@ -235,7 +243,7 @@ def rank_actions(
             objective,
             seed=seed + index,
         )
-        for index, action in enumerate(actions)
+        for index, action in enumerate(eligible)
     ]
     return sorted(ranking, key=lambda row: (-float(row["utility"]), str(row["action"])))
 

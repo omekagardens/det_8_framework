@@ -43,7 +43,7 @@ The former torsion-balance, SPARC, cluster, BAO, and κ-gravity programs are his
 
 ### 3. Open mathematical work
 
-- Born-rule uniqueness from DET axioms rather than amplitude correspondence.
+- Born-rule uniqueness from DET axioms rather than amplitude correspondence. **Partially addressed:** the squared-magnitude form P = |c|² is now shown unique among power rules by conservation under symmetric basis splits (`born_rule_uniqueness.py`), and tied to grade-2 / the three-slit null. Linear root composition and unitary (vs orthogonal) basis change remain open.
 - Distributional scheduler independence over all admissible linear extensions.
 - Global joint-kernel consistency, analytic no-signalling, and covariance.
 - Why there is exactly one phase form Ω and why the relevant dynamics are reversible.

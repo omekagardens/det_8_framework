@@ -95,6 +95,8 @@ class RelationalAction:
         repr=False,
         compare=False,
     )
+    execution_covariance: Matrix | None = None
+    destructive: bool = False
 
     def __post_init__(self) -> None:
         if self.kind not in ("science", "calibration"):
@@ -104,6 +106,23 @@ class RelationalAction:
         dimension = len(self.known_response)
         if any(len(vector) != dimension for vector in self.feature_vectors.values()):
             raise ValueError("all action feature vectors must share one dimension")
+        if self.execution_covariance is not None:
+            covariance = tuple(
+                tuple(float(value) for value in row)
+                for row in self.execution_covariance
+            )
+            if len(covariance) != dimension or any(
+                len(row) != dimension for row in covariance
+            ):
+                raise ValueError("execution covariance dimension does not match action")
+            for row in range(dimension):
+                for column in range(dimension):
+                    if (
+                        abs(covariance[row][column] - covariance[column][row])
+                        > 1.0e-12
+                    ):
+                        raise ValueError("execution covariance must be symmetric")
+            _cholesky(covariance)
 
     @property
     def dimension(self) -> int:
@@ -267,6 +286,18 @@ def _observation_covariance(
                 raise ValueError("observation covariance must be symmetric")
     _cholesky(covariance)
     return covariance
+
+
+def _combined_observation_noise(
+    action: "RelationalAction",
+    observation_noise: ObservationNoise,
+) -> Matrix:
+    """Nominal observation covariance plus the action's execution covariance."""
+
+    noise = _observation_covariance(observation_noise, action.dimension)
+    if action.execution_covariance is None:
+        return noise
+    return _add_matrix(noise, action.execution_covariance)
 
 
 def _matmul(left: Sequence[Sequence[float]], right: Sequence[Sequence[float]]) -> list[list[float]]:
@@ -489,7 +520,7 @@ def predictive_for_state(
 ) -> tuple[Vector, Matrix]:
     """Predictive mean and covariance for one Gaussian parameter state."""
 
-    noise = _observation_covariance(observation_noise, action.dimension)
+    noise = _combined_observation_noise(action, observation_noise)
     if action.is_nonlinear:
         mean, signal_covariance, _ = _cubature_moments(state, action)
         covariance = tuple(
@@ -515,7 +546,7 @@ def predictive_distribution(
     action: RelationalAction,
     observation_noise: ObservationNoise,
 ) -> tuple[Vector, Matrix]:
-    noise = _observation_covariance(observation_noise, action.dimension)
+    noise = _combined_observation_noise(action, observation_noise)
     if model_name == OPEN_MODEL_NAME:
         broad = [
             [
@@ -555,7 +586,7 @@ def _update_parameter_state(
 ) -> GaussianParameterState:
     if not state.parameter_names:
         return state
-    noise = _observation_covariance(observation_noise, action.dimension)
+    noise = _combined_observation_noise(action, observation_noise)
     covariance = [list(row) for row in state.covariance]
     if action.is_nonlinear:
         predicted, signal_covariance, cross_covariance = _cubature_moments(
@@ -710,6 +741,62 @@ def sample_predictive(
         mean[row] + sum(lower[row][column] * standard[column] for column in range(row + 1))
         for row in range(dimension)
     )
+
+
+def posterior_predictive_residual(
+    posterior: RETPosterior,
+    model_name: str,
+    action: RelationalAction,
+    observation: Sequence[float],
+    observation_noise: ObservationNoise,
+) -> Dict[str, float | bool | list[float]]:
+    """Standardized residual of an observation against a model's predictive.
+
+    z_i = (y_i − mean_i) / sd_i, plus the squared Mahalanobis distance and a
+    nominal 95% interval flag.  On matched-generator data the residuals should
+    be approximately standard normal.
+    """
+
+    mean, covariance = predictive_distribution(
+        posterior, model_name, action, observation_noise
+    )
+    residuals = [
+        (observation[i] - mean[i]) / math.sqrt(max(covariance[i][i], 1.0e-300))
+        for i in range(action.dimension)
+    ]
+    return {
+        "standardized_residuals": residuals,
+        "squared_mahalanobis": sum(r * r for r in residuals),
+        "within_95_percent": all(abs(r) < 1.96 for r in residuals),
+    }
+
+
+def predictive_calibration(
+    posterior: RETPosterior,
+    model_name: str,
+    action: RelationalAction,
+    observation_noise: ObservationNoise,
+    rng: random.Random,
+    *,
+    samples: int = 200,
+) -> Dict[str, float]:
+    """Fraction of matched-generator observations inside the nominal 95% interval.
+
+    A well-calibrated model gives coverage ≈ 0.95; systematic over/under-
+    confidence shows up as coverage below/above that.
+    """
+
+    within = 0
+    for _ in range(samples):
+        observation = sample_predictive(
+            posterior, model_name, action, observation_noise, rng
+        )
+        diagnostic = posterior_predictive_residual(
+            posterior, model_name, action, observation, observation_noise
+        )
+        if diagnostic["within_95_percent"]:
+            within += 1
+    return {"coverage": within / samples, "samples": float(samples)}
 
 
 def _logsumexp(values: Sequence[float]) -> float:

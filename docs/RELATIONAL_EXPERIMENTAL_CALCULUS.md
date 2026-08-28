@@ -389,7 +389,8 @@ does not itself learn arbitrary nonconjugate parameter states. Correlation
 across records is exact when records are supplied as one joint vector, and a
 declared random-walk drift now carries a longitudinal process across
 separately committed actions; an unobserved change point of unknown magnitude
-is not inferred without a declared drift scale. Remaining pressure tests
-include uncertain action execution, geometry fields, destructive apparatus
-constraints, richer posterior-predictive diagnostics, and only then live-data
-ingestion.
+is not inferred without a declared drift scale. Uncertain action execution
+(`execution_covariance`), destructive apparatus constraints (`destructive` +
+`executed_action_names`), and posterior-predictive diagnostics (standardized
+residuals + calibration coverage) are now implemented. Remaining pressure
+tests include geometry fields and live-data ingestion.

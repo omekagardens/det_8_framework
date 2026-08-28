@@ -3519,6 +3519,118 @@ def test_f9_probe_execution():
          "measure" in protocol and "decision_rule" in protocol)
 
 
+def test_ret_hardening():
+    import random
+
+    from det8.models.relational_scheduler import (
+        CostWeights,
+        SchedulerObjective,
+        rank_actions,
+    )
+    from det8.models.relational_tomography import (
+        GaussianPrior,
+        PracticalCost,
+        Question,
+        RelationalAction,
+        RelationalModel,
+        initialize_ret_posterior,
+        predictive_calibration,
+        predictive_distribution,
+    )
+
+    section("RET Engine Hardening (execution noise, destructive, diagnostics)")
+
+    model = RelationalModel("m", "family", {"theta": GaussianPrior(0.0, 1.0)})
+    posterior = initialize_ret_posterior([model])
+    clean = RelationalAction(
+        "clean", "science", (0.0,), {"theta": (1.0,)}, cost=PracticalCost(risk=0.1)
+    )
+    noisy = RelationalAction(
+        "noisy",
+        "science",
+        (0.0,),
+        {"theta": (1.0,)},
+        cost=PracticalCost(risk=0.1),
+        execution_covariance=((0.5,),),
+    )
+
+    _, cov_clean = predictive_distribution(posterior, "m", clean, 0.2)
+    _, cov_noisy = predictive_distribution(posterior, "m", noisy, 0.2)
+    test("Execution covariance widens the predictive distribution",
+         cov_noisy[0][0] > cov_clean[0][0])
+
+    calibration = predictive_calibration(
+        posterior, "m", clean, 0.2, random.Random(0), samples=400
+    )
+    test("Matched-generator calibration is near the nominal 95%",
+         0.90 < calibration["coverage"] < 0.99)
+
+    question = Question("q", {"m": "yes"})
+    objective = SchedulerObjective(
+        question, ("theta",), 1.0, CostWeights(0.0, 0.0, 1.0, 0.0)
+    )
+    burn = RelationalAction(
+        "burn",
+        "science",
+        (0.0,),
+        {"theta": (1.0,)},
+        cost=PracticalCost(risk=0.0),
+        destructive=True,
+    )
+    before = rank_actions(posterior, [clean, burn], 0.2, objective)
+    after = rank_actions(
+        posterior, [clean, burn], 0.2, objective, executed_action_names=["burn"]
+    )
+    test("Destructive action is excluded after execution",
+         "burn" not in [row["action"] for row in after]
+         and "burn" in [row["action"] for row in before])
+
+    try:
+        RelationalAction(
+            "bad",
+            "science",
+            (0.0,),
+            {"theta": (1.0,)},
+            execution_covariance=((0.0, 1.0), (1.0, 0.0)),
+        )
+        rejected = False
+    except ValueError:
+        rejected = True
+    test("Execution covariance with the wrong dimension is rejected", rejected)
+
+
+def test_born_rule_uniqueness():
+    from det8.models.born_rule_uniqueness import (
+        born_rule_uniqueness_theorem,
+        conservation_residual,
+        grade2_born_connection,
+        power_rule_probability,
+        symmetric_split_total_probability,
+        uniqueness_scan,
+    )
+
+    section("Born-Rule Uniqueness")
+
+    test("The squared magnitude is |c|²",
+         abs(power_rule_probability(0.5, 2.0) - 0.25) < 1e-12)
+    test("Symmetric n-way split total is n^(1−p/2)",
+         abs(symmetric_split_total_probability(2.0, 3) - 1.0) < 1e-12
+         and abs(symmetric_split_total_probability(3.0, 2) - 0.5**0.5) < 1e-12)
+
+    scan = uniqueness_scan()
+    test("Only p = 2 conserves total probability under symmetric splits",
+         scan["p_equals_2_is_unique"] and scan["conserving_powers"] == [2.0])
+    test("Conservation residual vanishes at p = 2 and grows away from it",
+         conservation_residual(2.0, 2) < 1e-12
+         and conservation_residual(3.0, 2) > 0.2
+         and conservation_residual(4.0, 3) > 0.5)
+    test("The theorem states the uniqueness result",
+         "p = 2" in born_rule_uniqueness_theorem()["theorem"])
+    test("The grade-2 connection ties Born to the three-slit null",
+         "grade-2" in grade2_born_connection()["claim"]
+         and "three-slit" in grade2_born_connection()["empirical_anchor"])
+
+
 def test_mathematical_search_adapters():
     import math
 
@@ -5502,6 +5614,20 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in f9_probe_execution: {e}")
+        traceback.print_exc()
+
+    try:
+        test_ret_hardening()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in ret_hardening: {e}")
+        traceback.print_exc()
+
+    try:
+        test_born_rule_uniqueness()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in born_rule_uniqueness: {e}")
         traceback.print_exc()
 
     try:
