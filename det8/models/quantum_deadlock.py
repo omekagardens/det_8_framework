@@ -76,9 +76,13 @@ def pillars() -> dict:
             "source": "three-slit bounds κ_Sorkin ≲ 10⁻⁴; the Born rule is bi-additive.",
         },
         "born": {
-            "claim": "the probability rule is uniquely P = |c|²",
-            "status": "MATH",
-            "source": "only p = 2 conserves probability under symmetric basis splits.",
+            "claim": "the probability rule is P = |c|² (L2, grade-2)",
+            "status": "MATH — consistency check (conditional on L2 normalization)",
+            "source": (
+                "p = 2 is the unique power rule consistent with L2-normalized "
+                "splits; Lp-normalized splits conserve for every p, so this is "
+                "self-consistency, not a derivation (red-team R2-2)."
+            ),
         },
         "open": {
             "claim": "the constraint does not contain its own outcome",
@@ -107,17 +111,19 @@ def coherence_check() -> dict:
     observation = connection_to_observation()
     real_qm = real_part_gives_real_qm()
 
+    born_p2_conserves_L2 = born_unique["conserving_under_L2_split"] == [2.0]
     return {
         "born_rule_is_grade2": born_grade2["born_rule_is_grade2"],
         "I3_from_born_rule": born_grade2["I3"],
-        "born_p_2_unique": born_unique["p_equals_2_is_unique"],
+        "born_p2_conserves_L2": born_p2_conserves_L2,
+        "lp_split_conserves_for_all_p": born_unique["lp_split_conserves_for_all_p"],
         "static_level_is_real": "real-realizable" in observation["kinematics_are_real"],
         "complex_is_dynamical": "DYNAMICS" in observation["complex_is_dynamical"]
         or "dynamical" in observation["complex_is_dynamical"].lower(),
         "real_qm_not_classical": real_qm["real_QM_not_classical"],
         "coherent": (
             born_grade2["born_rule_is_grade2"]
-            and born_unique["p_equals_2_is_unique"]
+            and born_p2_conserves_L2
             and real_qm["real_QM_not_classical"]
         ),
     }

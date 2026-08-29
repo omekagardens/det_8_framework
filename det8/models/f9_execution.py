@@ -296,59 +296,53 @@ def f9_protocol() -> dict:
     }
 
 
-# ── Item 1: real published data — densified silica structural relaxation ────
+# ── Item 1: literature reference — densified silica structural relaxation ──
 
 
-REAL_RECOVERY_DATA = {
+LITERATURE_RECOVERY_REFERENCE = {
     "densified_silica": {
         "material": "densified SiO2 glass (structural relaxation)",
         "activation_energy_eV": 2.64,
         "activation_energy_uncertainty_eV": 0.47,
-        "attempt_frequency_s": 1e-13,  # phonon scale; E_a is decisive regardless
         "temperature_range_K": (773.0, 1173.0),  # 500–900 °C
-        "reference": (
-            "densified silica glass relaxation, E_a ≈ 255 kJ/mol (2.64 eV); "
-            "500–900 °C isothermal/isochronal annealing"
+        "note": (
+            "A single literature value (E_a ≈ 255 kJ/mol = 2.64 eV); no dataset, "
+            "no raw R(t) curves, no (T, τ) table, and no full citation (author/"
+            "year/journal/DOI) is committed in this repository."
         ),
     }
 }
 
 
-def f9_densified_silica() -> dict:
-    """Execute F9 against real published densified-silica relaxation data.
+def f9_densified_silica_reference() -> dict:
+    """Report the published densified-silica activation energy as a *reference*.
 
-    The measured activation energy E_a = 2.64 eV is decisively nonzero, so the
-    recovery is Arrhenius (T-dependent) — κ = ordinary defect density /
-    structural relaxation.  This is the first real (non-matched-generator)
-    execution of the F9 channel, and its outcome is null.
+    NOT an execution.  This is a literature value (E_a = 2.64 eV), not a
+    measurement by DET: no raw R(t) recovery curves or (T, τ) table are
+    ingested.  The value is nonzero, so the *standard* physics (Arrhenius /
+    defect-density recovery) is what the literature reports — the null is
+    predicted by standard theory, not measured here.  F9 remains ``unexecuted``
+    against real data.
     """
 
-    from det8.models.kappa_discriminator import annealing_timescale
-
-    data = REAL_RECOVERY_DATA["densified_silica"]
-    E_a = data["activation_energy_eV"]
-    tau0 = data["attempt_frequency_s"]
-    T_low, T_high = data["temperature_range_K"]
-    tau_low = annealing_timescale(T_low, E_a, tau0)
-    tau_high = annealing_timescale(T_high, E_a, tau0)
-    verdict = execute_f9_on_data([(T_low, tau_low), (T_high, tau_high)])
-
+    data = LITERATURE_RECOVERY_REFERENCE["densified_silica"]
     return {
-        "probe": "F9 τ_rec-vs-annealing discriminator (real data)",
-        "real_data": data,
-        "tau_low_s": tau_low,
-        "tau_high_s": tau_high,
-        "temperature_range_K": [T_low, T_high],
-        "T_ratio": tau_low / tau_high,
-        "activation_energy_eV": E_a,
-        "outcome": verdict["outcome"],
-        "decision": verdict["decision"],
+        "probe": "F9 τ_rec-vs-annealing discriminator (literature reference)",
+        "literature": data,
+        "status": "reference only — NOT an execution",
+        "activation_energy_eV": data["activation_energy_eV"],
+        "activation_energy_uncertainty_eV": data["activation_energy_uncertainty_eV"],
+        "implication_for_null": (
+            "E_a = 2.64 ± 0.47 eV is decisively nonzero, so published recovery "
+            "is Arrhenius — κ = defect density. This is the standard-physics "
+            "null, reported by the literature, not measured by DET."
+        ),
         "honest_note": (
-            "First real execution of F9. Published densified-silica structural "
-            "relaxation has E_a = 2.64 ± 0.47 eV, decisively nonzero, so recovery "
-            "is Arrhenius — κ = defect density (structural relaxation). Null "
-            "outcome. τ₀ = 10⁻¹³ s is assumed (phonon scale), but E_a ≠ 0 is the "
-            "decisive quantity, independent of τ₀."
+            "No dataset is committed (no raw R(t), no (T, τ) table, no full "
+            "citation). To actually execute F9, commit the τ(T) data and run "
+            "execute_f9_on_data() on it. The prior 'first real execution' "
+            "wording was removed: synthesizing τ from the Arrhenius law with the "
+            "hardcoded E_a and then 'discovering' Arrhenius is circular."
         ),
     }
 

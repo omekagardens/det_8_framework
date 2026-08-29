@@ -150,7 +150,7 @@ def f9_closure() -> dict:
         },
         "test_4_conservation_audit": {
             "status": "CLOSED",
-            "evidence": "All ω∈Ω satisfy conservation. 97/97 tests.",
+            "evidence": "All ω∈Ω satisfy conservation (test-suite enforced; the historical '97/97' figure is stale and removed).",
         },
         "test_5_identity_across_creation": {
             "status": "CLOSED (Track B)",
@@ -216,6 +216,7 @@ def f9_f10_full_closure() -> dict:
         "total_closed": (
             "F9: 5/5 tests addressed. F10: 2/3 questions addressed "
             "(compression hypothesis remains open research). "
-            "All executable simulations pass. 97/97 tests."
+            "All executable simulations pass (see run_tests.py; the historical "
+            "'97/97' figure is stale and removed)."
         ),
     }

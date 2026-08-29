@@ -277,7 +277,7 @@ def conservation_audit_statement() -> dict:
     return {
         "principle": "Conservation-before-selection: all ω ∈ Ω satisfy conservation.",
         "implemented_in": "MAM-0 (total sum invariant), bond flux conservation.",
-        "verified": "97/97 tests maintain conservation invariants.",
+        "verified": "conservation invariants are enforced and exercised in the test suite (see run_tests.py; the historical '97/97' figure is stale and removed).",
         "implication": (
             "New facts do not appear 'from nowhere.' They are selected "
             "from a conservation-compatible possibility structure. "

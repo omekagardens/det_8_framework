@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 27, 2026
-**Test suite:** 691/692 passing (1 pre-existing Navier–Stokes numerical-reproducibility failure)
+**Test suite:** 751/752 passing (1 pre-existing Navier–Stokes numerical-reproducibility failure)
 **Status:** Record-Kernel Physics and the RET research program are integrated. The software is internally consistent; empirical validation, independent replication, and several analytic/continuum results remain open. DET is governed as a **lens (instrument)**: the falsifiable quantity is productivity, tracked in the [Novelty Ledger](NOVELTY_LEDGER.md), and the first push — the D_κ decoherence functional — is formalized.
 
 ---
@@ -74,5 +74,5 @@ The former torsion-balance, SPARC, cluster, BAO, and κ-gravity programs are his
 | `docs/NAVIER_STOKES_NEAR_SINGULARITY.md` | Bounded numerical protocol and current limits |
 
 ```bash
-python3 run_tests.py   # 691/692 passing
+python3 run_tests.py   # 751/752 passing
 ```

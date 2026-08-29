@@ -41,13 +41,13 @@ under the lens framing, was aimed at the wrong object.
 | Probe | Target | Status | cost-if-null |
 |---|---|---|---|
 | Clock anomaly (FL-1): Δν/ν = λ_P·κ/(1+λ_P·κ) | Standard physics (null clock universality) | `gated` | one miss; λ_P·Δκ product bound only (prerequisites missing) |
-| Recovery-rate discriminator (F9/FL-4): τ_rec(T) T-independent vs Arrhenius | Annealing / defect-density kinetics | `executed` → `null` | densified silica (real): E_a = 2.64 eV → Arrhenius → κ = defect density; second logged miss |
+| Recovery-rate discriminator (F9/FL-4): τ_rec(T) T-independent vs Arrhenius | Annealing / defect-density kinetics | `unexecuted` | literature (densified silica, E_a = 2.64 eV) predicts the Arrhenius null; no (T, τ) data ingested |
 | Operational κ̂ + L0/L1/L2 ladder | Standard materials metrology | `unexecuted` | none — L0/L1 is unconditional, publishable even if DET false |
-| κ-dependent decoherence functional D_κ (three-slit I₃ = κ·r) | Grade-2 (quantum) decoherence functional (Sorkin) | `executed` → `null` | κ_DET·r < ε_exp·I₂_ref: κ_DET ≲ 1.5×10⁻⁵ (Kauten 2017, r=1); consistent with standard QM — first logged miss |
+| κ-dependent decoherence functional D_κ (three-slit I₃ = κ·r) | Grade-2 (quantum) decoherence functional (Sorkin) | `executed` → `null` | κ_DET·r/I₂_ref(DET) < ε_exp ≈ 10⁻⁴ (r free; I₂_ref is a model convention, not the experimental I₂) — consistent with standard QM |
 | RET engine (discrepancy adjudication + engine validation) | Methodological | `active` | none — methodological yield, not physics yield |
 
-**Executed probes: 2. Surviving novelties: 0. Generative warrant: `ACTIVE`
-(two logged misses, below the downgrade run).**
+**Executed probes: 1. Surviving novelties: 0. Generative warrant: `ACTIVE`
+(one logged miss, below the downgrade run).**
 
 ## The first push is now executed
 
@@ -59,11 +59,12 @@ I₃(μ_κ) = κ·r. The grade hierarchy supplies the well-definedness condition
 published three-slit bounds invert through the normalization
 κ_Sorkin = I₃/I₂_ref = κ_DET·r/I₂_ref to a concrete bound
 
-    κ_DET · r < ε_exp · I₂_ref,
+    κ_DET · r < ε_exp · I₂_ref(DET),
 
-giving κ_DET ≲ 1.5×10⁻⁵ (Kauten 2017) to ≲ 5.8×10⁻⁵ (Vogl 2021) at r = 1.
-The outcome is **null**: κ_DET is consistent with zero, so the lens logs its
-first miss. The bound is on the product κ_DET·r, not κ_DET alone.
+i.e. the invariant **κ_DET·r / I₂_ref(DET) < ε_exp ≈ 10⁻⁴**. I₂_ref(DET) is a
+model convention (a seed-dependent toy pair-kernel, not the experimental I₂),
+so this bounds the product κ_DET·r, not κ_DET alone. The outcome is **null**:
+κ_DET is consistent with zero, so the lens logs its first miss.
 
 ## The three κ channels
 
@@ -71,9 +72,9 @@ first miss. The bound is on the product κ_DET·r, not κ_DET alone.
 
 | Channel | Coupling | Bound | Status |
 |---|---|---|---|
-| **Static** interference (D_κ) | κ_static·w₃ | ≲ 10⁻⁵ (three-slit) | **closed** — null, first logged miss |
+| **Static** interference (D_κ) | κ_static·w₃ | κ_static·w₃/I₂_ref(DET) < 10⁻⁴ (three-slit) | **closed** — null, first logged miss |
 | **Clock** (FL-1) | λ_P·κ | ≲ 10⁻¹⁸ (Lange 2021) | **executed null** — product bound; λ_P unconstrained |
-| **Recovery** (F9) | κ_dyn (τ_rec) | E_a = 2.64 eV | **executed null** — real densified-silica data, Arrhenius |
+| **Recovery** (F9) | κ_dyn (τ_rec) | — | **unexecuted** — literature reference (E_a = 2.64 eV); no data ingested |
 
 The static channel is closed. The clock and recovery channels are *dynamical*
 (κ in the time-evolution), invisible to the three-slit null, and remain the

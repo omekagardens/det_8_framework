@@ -13,8 +13,10 @@ the normalized Sorkin parameter κ_Sorkin = I₃/I₂_ref invert through D_κ to
 
 > **κ_DET · r < ε_exp · I₂_ref**
 
-giving a concrete bound **κ_DET ≲ 1.5×10⁻⁵** (Kauten 2017, r = 1), or
-conservatively κ_DET ≲ 5.8×10⁻⁵ (Vogl 2021 central value).
+giving the invariant bound **κ_DET·r / I₂_ref(DET) < ε_exp ≈ 10⁻⁴**. The scale
+I₂_ref(DET) is a *model convention* (a seed-dependent toy pair-kernel), NOT the
+experimental I₂, and r (the record-term weight) is free — so this is a bound on
+the product κ_DET·r, not on κ_DET alone.
 
 ## What was done
 
@@ -24,24 +26,26 @@ measure carrying a single triple weight r. Linearity gives I₃(μ_κ) = κ·r.
 Normalizing by the pairwise reference I₂_ref reproduces the experimental Sorkin
 parameter, and the published bound inverts to a bound on κ_DET·r.
 
-## Concrete bounds (r = 1, I₂_ref = 0.146 for the default pair-kernel)
+## Concrete bounds (the invariant is κ_DET·r/I₂_ref(DET) < ε_exp; the numeric column uses r = 1 and a seed-42 toy I₂_ref ≈ 0.146 — model-dependent, not experimental)
 
-| Experiment | κ_Sorkin bound | κ_DET bound |
+| Experiment | κ_Sorkin bound | κ_DET·r/I₂_ref(DET) (r = 1, toy I₂_ref) |
 |---|---|---|
 | Sinha et al. 2010 (*Science* 329, 418) | < 10⁻² | < 1.5×10⁻³ |
-| Kauten et al. 2017 (*NJP* 19, 033017) | < 10⁻⁴ | **< 1.5×10⁻⁵** |
+| Kauten et al. 2017 (*NJP* 19, 033017) | < 10⁻⁴ | < 1.5×10⁻⁵ |
 | Vogl et al. 2021 (*PRR* 3, 013296) | (3.96 ± 5.23)×10⁻⁴ | < 5.8×10⁻⁵ |
 
 ## What this establishes
 
-1. The lens produced a real, experimentally-constrained number — the first
-   physics-facing output that is quantitative and falsifiable rather than
-   interpretative.
+1. The lens produced a quantitative statement — the invariant
+   κ_DET·r/I₂_ref(DET) < ε_exp ≈ 10⁻⁴ — anchored to published three-slit bounds.
+   It is NOT a bound on κ_DET: r is free and I₂_ref(DET) is a model convention.
 2. The null is the deliverable, and the machinery absorbed it correctly: the
    ontology is untouched (chosen, not evidenced); the instrument logs its first
    miss. DG-WARRANT reads **1 executed / 0 surviving → `ACTIVE`**.
 3. The bound is strong where the ansatz is strong: within the single grade-3
-   record-term coupling, static third-order interference is excluded to ~10⁻⁵.
+   record-term coupling, static third-order interference is excluded to ~10⁻⁴
+   in the invariant, and to ~10⁻⁵ only at the r = 1, seed-42 model-dependent
+   limit.
 
 ## What this does NOT establish
 
@@ -95,9 +99,9 @@ so the three-slit bound constrains κ_DET·w₃ for every triple, and the tighte
 
 Two honest consequences:
 
-1. **The r = 1 single-triple case is the *tightest* bound** (κ_DET < 1.5×10⁻⁵).
+1. **The r = 1 single-triple case is the *tightest* bound** (κ_DET·r/I₂_ref < 1.5×10⁻⁵ at r = 1 and the toy I₂_ref).
    Any spread of the record weight over more triples lowers max w₃ and therefore
-   *weakens* the κ-bound (e.g. uniform over 4 triples gives κ_DET < 5.8×10⁻⁵).
+   *weakens* the κ-bound (e.g. uniform over 4 triples gives κ_DET·r/I₂_ref < 5.8×10⁻⁵).
    So the headline number is the optimistic limit, not the general one.
 2. **Grade-k > 3 is also bounded.** Kauten 2017 used a 5-path interferometer,
    which bounds I₃, I₄, and I₅ simultaneously, so κ-coupling to grade-4 and

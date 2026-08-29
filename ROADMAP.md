@@ -30,7 +30,7 @@
 
 **RET integrated:** general relational inference, Exodus endpoint accounting, neutron-lifetime calibration design, governed mathematical searches, and bounded Navier–Stokes protocols.
 
-**651/651 tests passing.**
+**751/752 tests passing** (1 pre-existing Navier–Stokes numerical-reproducibility failure).
 **128 model modules / 144 Python files.**
 
 ### Two tracks
@@ -82,7 +82,7 @@ DET v8.0 is a disciplined interpretive framework with a record-kernel reconstruc
 
 ```bash
 python3 run_tests.py
-# Expected: 651/651 passed, 0 failed, 0 errors
+# Expected: 751/752 passed, 1 failed, 0 errors (pre-existing Navier–Stokes reproducibility)
 ```
 
 ---

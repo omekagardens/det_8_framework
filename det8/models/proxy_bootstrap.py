@@ -107,7 +107,9 @@ def f9_on_raw_response(
 
     Both timescales are measured by watching R(t) plateau — no κ value enters.
     """
-    K_B = 8.617333262e-5  # eV/K
+    from det8.models.kappa_discriminator import K_B_EV
+
+    K_B = K_B_EV  # eV/K — single source of truth (kappa_discriminator)
     tau_anneal_low = tau0_s * math.exp(E_a_eV / (K_B * T_low_K))
     tau_anneal_high = tau0_s * math.exp(E_a_eV / (K_B * T_high_K))
 

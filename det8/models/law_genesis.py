@@ -72,7 +72,7 @@ def law_stability_probe(
     """The observable anchor: does the compressed regularity change?
 
     Treat the compression coordinate as a scalar record measured over time, and
-    run the change-point detector (from dkappa_decoherence). A fixed law shows
+    run the change-point detector (from relational_tomography). A fixed law shows
     no change-point; an emergent law shows one when the compression shifts.
     """
 
@@ -115,7 +115,7 @@ def f10_resolution() -> dict:
         "observable_anchor": {
             "probe": "law stability — a change-point on the compressed regularity",
             "result": probe,
-            "ties_to": "RET longitudinal / change-point machinery (dkappa_decoherence)",
+            "ties_to": "RET longitudinal / change-point machinery (relational_tomography)",
         },
         "resolution": (
             "DET resolves F10 in the EMERGENT direction: L is the compressed "

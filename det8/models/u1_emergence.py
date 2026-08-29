@@ -43,12 +43,16 @@ def one_arrow_implies_one_phase() -> dict:
     )
     return {
         "hermitian_decomposition": "𝔇 = G + iΩ (G symmetric, Ω antisymmetric)",
-        "antisymmetric_part_unique": antisymmetric,
-        "symmetric_part_verified": symmetric,
+        "handwritten_2x2_is_hermitian": antisymmetric and symmetric,
         "one_arrow_gives_one_phase": (
             "the record carries one causal order ≺ — one arrow of time — so one "
             "antisymmetric form Ω, hence one imaginary unit: ℂ. ℍ would need "
             "three independent Ω (i, j, k), i.e. three arrows."
+        ),
+        "computed_vs_asserted": (
+            "the numeric check only verifies the hand-written 2×2 matrix is "
+            "Hermitian (one antisymmetric imaginary part); the 'one arrow forbids "
+            "three Ω' claim is a shape ARGUMENT, not computed here."
         ),
         "conclusion": "one arrow ⟹ one Ω ⟹ ℂ (not ℍ).",
     }

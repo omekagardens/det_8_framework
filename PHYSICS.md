@@ -178,10 +178,13 @@ Continuum limit recovers standard \(i\hbar d\psi/dt = H\psi\) with H from record
 
 ## 13. U(1) Emergence from Z₂
 
-Complex amplitudes emerge from discrete sign statistics:
-1. **Proven:** CLT → Gaussian effective amplitudes
-2. **Proven:** Circular symmetry → U(1) phase invariance
-3. **Proven:** Continuous interference from relative phases
+Complex amplitudes emerge from discrete sign statistics (the full constructive
+derivation is **open**; the items below are shape arguments, not proven — see
+`u1_emergence.py`, which explicitly disclaims derivation status):
+
+1. **Shape argument:** CLT → Gaussian effective amplitudes
+2. **Shape argument:** Circular symmetry → U(1) phase invariance
+3. **Shape argument:** Continuous interference from relative phases
 4. **Conjectured:** Convergence rates (Berry-Esseen), uniqueness (quantum reconstruction)
 
 ---

@@ -10,7 +10,7 @@
 
 1. **Ontology** — Track B; chosen, not evidenced (the four deadlocks).
 2. **Instrument** — the RET engine, the [Novelty Ledger](NOVELTY_LEDGER.md), and the DG-WARRANT gate.
-3. **Physical yield** — three κ channels: **static** (D_κ three-slit, null ≲ 10⁻⁵), **clock** (κ-Π anomaly, gated; λ_P·κ ≲ 10⁻¹⁸), and **recovery** (τ_rec-vs-annealing, executed null — densified silica E_a = 2.64 eV).
+3. **Physical yield** — three κ channels: **static** (D_κ three-slit, null ≲ 10⁻⁵), **clock** (κ-Π anomaly, gated; λ_P·κ ≲ 10⁻¹⁸), and **recovery** (τ_rec-vs-annealing, unexecuted — literature E_a = 2.64 eV).
 4. **Engine validation** — the Exodus/Riemann/Collatz/Navier–Stokes known-answer runs; no physics claim.
 
 The falsifiable quantity is the instrument's *productivity* across bucket 3,
@@ -195,7 +195,7 @@ Four deadlocks addressed (see `ONTOLOGY.md` and `det_falsification.ontology_clai
 | Deadlock | Resolution | Epistemic status |
 |---|---|---|
 | **Time** | Block universe → record-growth time (Crystallizing Block) | **ADOPTED** (Ellis 2014) — borrowed, not DET-native |
-| **Quantum** | Many-worlds/hidden variables → real, complex, grade-2, Born relational constraint | **ADOPTED** — four pillars assembled in `quantum_deadlock.py`; the "open outcome" pillar stays Status M; U(1)-from-discrete emergence still open |
+| **Quantum** | Many-worlds/hidden variables → real, complex, grade-2, Born relational constraint | **ADOPTED as a coherent account** — complex + grade-2 empirically anchored; Born is an L2-consistency check (not a derivation); the open-outcome pillar stays Status M |
 | **Agency** | Epiphenomenalism/dualism → present-enactment agency | **QUARANTINED** — the ontological gloss is Status M |
 | **History** | Retrocausality → mutable structural carrying (κ) | **RELABELED** — standard internal-variable free energy |
 
@@ -217,8 +217,8 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | O8 | Preferred basis | ✅ Resolved | **I** — Apparatus-controllability account | FT: Redundant record formation stability theorem |
 | M0 | Proper-time consistency | — | **FT** — Fixed: Δτ = Π·ΔN, N ≠ κ | — |
 | **O9-RID** | **Resurrection identity bridge** | — | **Open** — PID-C/PID-M split. Track B. | Numerical identity across embodied interruption. See `docs/track_b/resurrection.md`. |
-| **F9** | **Fact Genesis Protocol** | — | **Open** — Are facts discovered or created? Track B. 5-level ladder. | Distinguish unknown vs not-yet-existent facts. See `docs/track_b/fact_genesis.md`. |
-| **F10** | **Law Genesis** | — | **Resolved (emergent)** — L is the compressed regularity (κ is its coordinate); law stability is a change-point observable (`law_genesis.py`). Track B. | Derive L's stability from redundant-record structure. See `docs/track_b/law_genesis.md`. |
+| **FGP** (was F9) | **Fact Genesis Protocol** | — | **Open** — Are facts discovered or created? Track B. 5-level ladder. | Distinguish unknown vs not-yet-existent facts. See `docs/track_b/fact_genesis.md`. |
+| **F10** | **Law Genesis** | — | **Commitment (emergent) + anchor specified; derivation open** — L is the compressed regularity (κ is its coordinate); law stability is a change-point observable (`law_genesis.py`). Track B. | Derive L's stability from redundant-record structure. See `docs/track_b/law_genesis.md`. |
 | **F11** | **Cosmic Record** | — | **Proposed** — κ-field across cosmic time. Track B. | Not yet developed. |
 | **F12** | **Anthropic Principle** | — | **FT/CI** — WAP selection confirmed; SAP necessity rejected; fine-tuning reduced to one scalar (participation-only, Option B — κ-gravity retired). Track B. | Prior-independent naturalness; promote "λ_P is the selection target" from P to PR. See `docs/track_b/anthropic_principle.md`. |
 | — | Complex amplitudes | Correspondence (CORR) | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
@@ -330,7 +330,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**651/651 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
+**751/752 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.

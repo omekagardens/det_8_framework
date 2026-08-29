@@ -10,9 +10,9 @@
 DET separates two tracks, but the relationship is not hierarchical:
 
 - **Track A (Physical Calculus):** The measurable SHADOW. Falsifiable. Produces risky predictions. The mathematical constraint structure (L, Ω, K, κ, Π) that approximately captures the relational dynamics of presence navigating possibility. Its fruit tests itself — the recursion IS the evidence that the underlying relational reality exists.
-- **Track B (Ontological Grammar):** The relational SUBSTANCE. Must be logically coherent, empirically compatible, and philosophically superior. Does not need unique falsifiable equations. Describes the ontological reality (present participation, relational continuity, faith, healing, reciprocity) of which Track A's patterns are the measurable trace.
+- **Track B (Ontological Grammar):** The relational SUBSTANCE. Must be logically coherent, empirically compatible, and philosophically superior. Does not need unique falsifiable equations. Describes the ontological reality (present participation, relational continuity, faith, healing, reciprocity — **all Status M: the ontology, not the observable**) of which Track A's patterns are the measurable trace.
 
-**Track B does not merely "interpret" Track A.** Track A is the shadow; Track B is the substance. The law map L is not "the law" — it is the constraint structure. The law is the relational dynamic itself. Faith is not a "metaphor" for high-surprisal commits; high-surprisal commits are the measurable TRACE of faith. Healing is not a "metaphor" for κ-reduction; κ-reduction is the measurable TRACE of healing.
+**Track B does not merely "interpret" Track A.** Track A is the shadow; Track B is the substance. The law map L is not "the law" — it is the constraint structure. The law is the relational dynamic itself. Faith is not a "metaphor" for high-surprisal commits; high-surprisal commits are the measurable TRACE of faith. Healing is not a "metaphor" for κ-reduction; κ-reduction is the measurable TRACE of healing. (**Status-M flag:** "faith" and "healing" are the ontological reading of the observable trace (high-surprisal commits, κ-reduction); they are Status M — the ontology, not the observable — and are quarantined as such in §6's Metaphysics Ledger.)
 
 **The recursion (Track A testing itself with its own fruit) is not circular.** It is the reflection of a deeper truth: reality is relational. Presence participates. Participation produces. Production constrains. The cycle is the law.
 
@@ -69,7 +69,7 @@ assembled in `det8/models/quantum_deadlock.py`, each with its own status:
 
 1. **Complex** — ℂ forced by (Ω ≠ 0, empirically) + reversibility ⇒ U(m) (`why_complex.py`). MATH + empirical.
 2. **Grade-2** — the single-time measure has no third-order interference, confirmed by three-slit (`dkappa_decoherence.py`). MATH + empirical.
-3. **Born (p = 2)** — the squared magnitude is the unique power rule conserving probability under basis splits (`born_rule_uniqueness.py`). MATH.
+3. **Born (p = 2)** — the squared magnitude is the power rule consistent with L2-normalized amplitude composition (`born_rule_uniqueness.py`); a consistency check, not a derivation (Lp-normalized splits conserve for every p). MATH, conditional on the L2 convention.
 4. **Open** — the constraint does not contain its own outcome (NPF-C code-auditable); the "no fact exists" reading is Status M / F8-OPEN.
 
 The real relation and the complex/grade-2/Born structure are empirically
@@ -93,7 +93,7 @@ why reversible dynamics).
 
 ---
 
-## 3. Relativistic Growing Block
+## 4. Relativistic Growing Block
 
 **Challenge:** If the record grows objectively, but simultaneity is relative, whose record is growing?
 
@@ -112,7 +112,7 @@ why reversible dynamics).
 
 ---
 
-## 4. Status M Quarantine Defense
+## 5. Status M Quarantine Defense
 
 **Challenge:** If Track B is causally inert, why should physicists care?
 
@@ -142,7 +142,7 @@ By downgrading "Open Becoming" and "Strong Presence" to Status M, DET protects t
 
 ---
 
-## 4. Metaphysics Ledger
+## 6. Metaphysics Ledger
 
 Every term that is not a physical variable is listed with status and promotion criteria.
 
@@ -160,7 +160,7 @@ Every term that is not a physical variable is listed with status and promotion c
 
 ---
 
-## 5. Agency Quarantine
+## 7. Agency Quarantine
 
 Agency is Status M throughout DET v8.0. It shall not enter physical equations, serve as an explanatory resource, or adjust predictions.
 
@@ -172,7 +172,7 @@ Agency is Status M throughout DET v8.0. It shall not enter physical equations, s
 
 ---
 
-## 6. NPF Split
+## 8. NPF Split
 
 **NPF-C (Construction invariant):** No explicit future-outcome register or selector is stored in the implemented record. Code-auditable. Verified in MAM-0 and MAM-Q.
 
@@ -180,7 +180,7 @@ Agency is Status M throughout DET v8.0. It shall not enter physical equations, s
 
 ---
 
-## 7. Classification
+## 9. Classification
 
 | Framework | Physical calculus | Ontological claim |
 |---|---|---|

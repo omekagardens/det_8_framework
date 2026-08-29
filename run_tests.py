@@ -3231,15 +3231,15 @@ def test_novelty_ledger_and_warrant():
     test("Seed ledger spans gated, unexecuted, active, and executed statuses",
          {entry.status for entry in ledger.entries}
          == {"gated", "unexecuted", "active", "executed"})
-    test("Seed ledger has two executed probes with null outcomes (D_κ and F9)",
-         len(ledger.executed()) == 2
+    test("Seed ledger has one executed probe with a null outcome (D_κ)",
+         len(ledger.executed()) == 1
          and ledger.surviving_novelties() == 0
-         and all(entry.outcome == "null" for entry in ledger.executed()))
+         and ledger.executed()[0].outcome == "null")
 
     seed_warrant = warrant_from_ledger(ledger)
-    test("Seed warrant stays ACTIVE after two null probes (below the downgrade run)",
+    test("Seed warrant stays ACTIVE after one null probe (below the downgrade run)",
          seed_warrant.status == "ACTIVE"
-         and seed_warrant.executed_probes == 2
+         and seed_warrant.executed_probes == 1
          and seed_warrant.surviving_novelties == 0)
 
     nulls = NoveltyLedger(
@@ -3618,14 +3618,16 @@ def test_born_rule_uniqueness():
          and abs(symmetric_split_total_probability(3.0, 2) - 0.5**0.5) < 1e-12)
 
     scan = uniqueness_scan()
-    test("Only p = 2 conserves total probability under symmetric splits",
-         scan["p_equals_2_is_unique"] and scan["conserving_powers"] == [2.0])
+    test("p = 2 conserves under L2 splits, and Lp splits conserve for every p",
+         scan["conserving_under_L2_split"] == [2.0]
+         and scan["lp_split_conserves_for_all_p"])
     test("Conservation residual vanishes at p = 2 and grows away from it",
          conservation_residual(2.0, 2) < 1e-12
          and conservation_residual(3.0, 2) > 0.2
          and conservation_residual(4.0, 3) > 0.5)
-    test("The theorem states the uniqueness result",
-         "p = 2" in born_rule_uniqueness_theorem()["theorem"])
+    test("The theorem flags the L2 circularity honestly",
+         "CONSISTENCY CHECK" in born_rule_uniqueness_theorem()["honest_classification"]
+         and "L2" in born_rule_uniqueness_theorem()["circularity"])
     test("The grade-2 connection ties Born to the three-slit null",
          "grade-2" in grade2_born_connection()["claim"]
          and "three-slit" in grade2_born_connection()["empirical_anchor"])
@@ -3648,7 +3650,7 @@ def test_quantum_deadlock():
     coherence = coherence_check()
     test("The four pillars are mutually coherent",
          coherence["coherent"]
-         and coherence["born_p_2_unique"]
+         and coherence["born_p2_conserves_L2"]
          and coherence["real_qm_not_classical"])
 
     resolution = quantum_resolution()
@@ -3662,23 +3664,23 @@ def test_quantum_deadlock():
 
 
 def test_frontier_research():
-    from det8.models.f9_execution import f9_densified_silica
+    from det8.models.f9_execution import f9_densified_silica_reference
     from det8.models.kappa_bound_resolution import degeneracy_resolution
     from det8.models.law_genesis import f10_resolution, law_stability_probe
     from det8.models.u1_emergence import u1_emergence_resolution
 
     section("Frontier Research Run — F9 real data, degeneracy, F10, U(1)")
 
-    f9 = f9_densified_silica()
-    test("F9 real data: densified silica is decisively Arrhenius (null)",
-         f9["outcome"] == "null"
-         and f9["T_ratio"] > 1e3
+    f9 = f9_densified_silica_reference()
+    test("F9 recovery channel is a literature reference, not an execution",
+         f9["status"].startswith("reference only")
          and f9["activation_energy_eV"] > 2.0)
 
     degeneracy = degeneracy_resolution()
-    test("Degeneracy: κ ≲ 10⁻¹⁸ by naturalness and λ_P/w₃ ≲ 10⁻¹³ cross-channel",
-         degeneracy["naturalness"]["kappa_bound"] < 1e-17
-         and degeneracy["cross_channel_ratio"]["lambda_P_over_w3_bound"] < 1e-12)
+    test("Degeneracy: naturalness is an assumption and cross-channel ratio is invalid",
+         "ASSUMPTION" in degeneracy["naturalness"]["status"]
+         and "INVALID" in degeneracy["cross_channel_ratio"]["validity"]
+         and "Nothing is resolved" in degeneracy["resolved"])
 
     probe = law_stability_probe()
     f10 = f10_resolution()
@@ -3688,9 +3690,9 @@ def test_frontier_research():
          f10["det_commitment"]["commitment"] == "EMERGENT (compressed regularity)")
 
     u1 = u1_emergence_resolution()
-    test("U(1): one arrow gives one antisymmetric phase",
-         u1["one_phase"]["antisymmetric_part_unique"]
-         and u1["one_phase"]["symmetric_part_verified"])
+    test("U(1): the 2×2 Hermitian check holds and the shape-argument status is flagged",
+         u1["one_phase"]["handwritten_2x2_is_hermitian"]
+         and "shape ARGUMENT" in u1["one_phase"]["computed_vs_asserted"])
     test("U(1): honest boundary flags shape arguments",
          "shape arguments" in u1["honest_boundary"])
 
