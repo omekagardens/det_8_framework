@@ -2,6 +2,9 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Local book draft — do not send to remote for now
+/book/
+
 # Downloaded external datasets (large, not committed)
 det8/data/igs/
 
