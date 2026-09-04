@@ -152,6 +152,7 @@ Every term that is not a physical variable is listed with status and promotion c
 | Strong presence \(\mathfrak P_e\) | M | None. Interpretation of \(X_e\) occurrence. | Unique discriminator (F8-OPEN) — or structural constraints whose violation falsifies the stronger claim |
 | Open becoming | M | None. Claim that no fact exists about unactualized outcomes. | Same as \(\mathfrak P_e\) |
 | Amplitude realism | M | None. "Amplitudes are real (present structural features), not degrees of belief" — a choice against QBism. | Unique discriminator distinguishing realism from epistemic/instrumental readings — or structural constraints |
+| Gravity as relational geometry | M | None. Re-description of GR's metric as the coarse-grained relational structure of the causal record \((V,\prec,\#)\). | Unique discriminator distinguishing "metric = geometry of the record" from "metric = primitive field" — or a structural constraint the ontology uniquely motivates (e.g., T7 manifoldlike emergence) |
 | Boundary Grace | M/H | None. Optional; no physical channel. | Explicit local channel + pre-registered falsifier |
 | Boundary Healing | M/H | None. | Same |
 | Boundary Jubilee | M/H | None. | Same |
@@ -194,4 +195,4 @@ DET belongs in this company as a disciplined interpretive framework.
 
 ---
 
-**See also: MODEL_CARD.md (primary), PHYSICS.md, GOVERNANCE.md, ROADMAP.md, `docs/observable_anchoring.md` (the ontology-maps-to-observables discipline), `docs/deadlock_adjudication.md` (does DET beat Copenhagen/Many-Worlds/QBism/Bohm?).**
+**See also: MODEL_CARD.md (primary), PHYSICS.md, GOVERNANCE.md, ROADMAP.md, `docs/observable_anchoring.md` (the ontology-maps-to-observables discipline), `docs/deadlock_adjudication.md` (does DET beat Copenhagen/Many-Worlds/QBism/Bohm?), `docs/track_b/gravity.md` (Track B: gravity as the geometry of the growing record).**

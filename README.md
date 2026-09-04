@@ -9,6 +9,7 @@ A disciplined two-track framework: a **record-kernel physical calculus** with co
 | [`MODEL_CARD.md`](MODEL_CARD.md) | **Primary reference.** Primitives, 10 active + 5 retired correspondence checks, 1 prediction, RET research, formulas, and test coverage. |
 | [`PHYSICS.md`](PHYSICS.md) | Track A — falsifiable predictions, experimental designs, anti-smuggling audit. |
 | [`ONTOLOGY.md`](ONTOLOGY.md) | Track B — four deadlocks (time, quantum, agency, history), metaphysics ledger, agency quarantine. |
+| [`docs/track_b/gravity.md`](docs/track_b/gravity.md) | Track B — gravity as the geometry of the growing record (Problem of Time, openness unification, present-tense constraints). |
 | [`GOVERNANCE.md`](GOVERNANCE.md) | F8-OPEN protocol, adversary classes, claim register, decision gates, Bell position. |
 | [`ROADMAP.md`](ROADMAP.md) | Phase history (P0.1→P0.8), current state, remaining work. |
 | [`docs/EXODUS_DET_TRANSLATION.md`](docs/EXODUS_DET_TRANSLATION.md) | Governed Exodus equation audit, DET momentum closure, and boundary/history simulations. |
