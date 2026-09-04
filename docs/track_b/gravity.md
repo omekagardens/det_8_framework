@@ -179,7 +179,7 @@ There is no observable discriminator, so the entry is held for coherence and fru
 - This buys **no new physics**. It is a coherence + interpretation contribution, scored by (a) resolving the Problem-of-Time / background-independence deadlocks coherently, and (b) motivating the right kinematic program — which it does: it says T7 (order-and-count → metric) is *the* gravity-adjacent program, because gravity *is* order-and-count geometry. That is a motivation, not a prediction.
 - The active bridge is still **L1–L3** (causal structure, conformal factor via count, metric reconstruction). **L4 is retired** — and this note confirms that retirement was correct: L4 tried to go "geometry → dynamics (Einstein)," which is standard GR, not DET. The ontology stops exactly where GR takes over. That is the correct boundary. The conformal factor is fixed by the **counting measure \(\#\)**, not by \(\Pi/\kappa\) (the retired \(\Pi\) conformal factor must not be cited — see `docs/record_kernel_physics.md`, T7).
 - **No novelty-ledger probe is generated.** This note produces no falsifiable probe against a target theory, so nothing is registered in `NOVELTY_LEDGER.md`. A Track B note that produces no probe is held for coherence and fruit, not logged as a miss.
-- `F11 "Cosmic Record"` (`docs/track_b/cosmic_record.md`, "κ-field across cosmic time") is adjacent but distinct, and its "κ-field" language risks re-smuggling the retired program — under the re-foundation κ is a *fitted coordinate*, not a field. See §12.
+- `F11 "Cosmic Record"` (`docs/track_b/cosmic_record.md`) is adjacent but distinct, and has been reframed (Sep 2026) to treat κ as a fitted predictive-history coordinate rather than a field — it no longer re-smuggles the retired program.
 
 ---
 
@@ -187,9 +187,8 @@ There is no observable discriminator, so the entry is held for coherence and fru
 
 **Open, not yet developed:**
 
-1. **F11 reframing.** Re-state "Cosmic Record" without the κ-field language, consistent with κ as a fitted coordinate (L0/L1) rather than a field.
-2. **Manifoldlike emergence.** The one place this reading *could* become a structural constraint is T7's open step (embedding + uniqueness of the recovered geometry). Until that is settled (it is inherited from causal set theory, not resolved by DET), "gravity = geometry of the record" remains ontology, not a derived result.
-3. **Ledger-ize the openness proposition** (§6) as a second Status-M row, if it is to be treated as a standing claim rather than an in-note proposition.
+1. **Manifoldlike emergence.** The one place this reading *could* become a structural constraint is T7's open step (embedding + uniqueness of the recovered geometry). Until that is settled (it is inherited from causal set theory, not resolved by DET), "gravity = geometry of the record" remains ontology, not a derived result.
+2. **Ledger-ize the openness proposition** (§6) as a second Status-M row, if it is to be treated as a standing claim rather than an in-note proposition.
 
 **Not on the table:** any contact with gravity's *source*; any gravitational anomaly; any dark-matter/dark-energy claim. All retired under Option B.
 

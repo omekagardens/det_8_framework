@@ -1,119 +1,84 @@
 # DET v8.0 — Track B: Cosmic Record (F11)
 
-**Status:** Track B research module (proposed)
-**Date:** August 10, 2026
-**Purpose:** If \(\mathcal L\) is stable and κ accumulates across cosmic time, what does the cosmic record look like? Can we read the structural history of the universe from the κ-field?
+**Status:** Track B research module (proposed). Reframed September 3, 2026 — the "κ-field across cosmic time" framing is retired with the κ-gravity program (Option B); κ is a fitted predictive-history coordinate, not a field.
+**Date:** September 3, 2026 (originally August 10, 2026)
+**Purpose:** Ask, without re-smuggling a field: does the universe as a whole have a nonzero predictive-history coordinate κ — i.e., does its actualized causal record still constrain its future commit kernel beyond its present state alone?
 
 ---
 
-## 1. The Core Question
+## 1. The corrected definition of κ
 
-> Does the universe itself have a structural history?
+Under the re-foundation (`docs/record_kernel_physics.md` §2), κ is **not** a physical field and **not** "structural history density at a point." It is a *fitted coordinate*:
 
-DET's answer: κ is structural history density. If κ accumulates through commit events across cosmic time, then the universe has a κ-field that encodes its formation history. Different cosmic epochs should show different κ signatures.
+> **κ is the minimal information about the causal record \(R^-\) that must be retained, beyond the present state \(S\), to predict the next commit kernel \(K\).**
 
----
-
-## 2. The Cosmic κ Profile
-
-### 2.1 κ as a function of cosmic time
-
-At early times (recombination, z ≈ 1100): the universe was nearly uniform. κ should be nearly uniform and close to its equilibrium value:
+Operationally it is the Fisher–Rao distance between two history-conditioned future kernels matched on the same present state:
 
 \[
-\kappa(z=1100) \approx \kappa_{eq}
+\kappa(h_a,h_b\mid S)=\frac{2}{\pi}\arccos\left[\sum_x\sqrt{K_a(x)K_b(x)}\right],
+\qquad 0\le\kappa\le 1 .
 \]
 
-At late times (z ≈ 0): structure has formed. κ varies spatially — low in voids, high in clusters. The spatial average of κ has grown:
+Two consequences matter for F11:
 
-\[
-\langle\kappa\rangle(z=0) > \langle\kappa\rangle(z=1100)
-\]
+1. **κ is relative, not absolute.** It compares two histories against one matched present state. There is no well-posed "κ(x) at spacetime point \(x\)" until one specifies *which* two histories and *which* matched present state. The old "κ-field across cosmic time" silently assumed an absolute scalar field; the re-foundation removes that assumption (and notes the legacy κ profiles exceeded the \([0,1]\) normalization).
+2. **Scalar κ is a rank claim, not a given.** Whether retained history is rank one (scalar), rank \(r>1\) (vector/tensor), rank zero (κ unnecessary), or nontransportable is an empirical question (T1). It cannot be assumed for the cosmos.
 
-### 2.2 Spatial κ distribution
+## 2. The reframed question
 
-| Scale | κ | Structure |
-|---|---|---|
-| Voids (10–100 Mpc) | κ ≈ κ_eq ≈ 0.1–0.3 | Minimal structural history |
-| Filaments | κ ≈ 3–5 | Moderate accumulation |
-| Galaxy clusters | κ ≈ 5–8 | Heavy accumulation |
-| Galaxy cores | κ ≈ 0.5–1.0 | Frequently reset by star formation |
+> Does the universe as a whole have a nonzero predictive-history coordinate?
 
----
+Concretely: fix a coarse-grained present-state description \(S\) of the cosmos (e.g., a smoothed matter field at some epoch). Ask whether the actualized causal record \(R^-\) still predictively distinguishes the future commit kernel from a history-free baseline \(K(\cdot\mid S)\). If yes, there is a cosmic κ — a residual, history-conditioned predictive distinction. If no, the present state is state-complete and the cosmic record carries no remaining predictive weight.
 
-## 3. Observable Signatures
+This is a **rank question, not a field profile.** The honest outcomes are the same four as T1:
 
-> **RETIRED (Round 6, Option B).** All cosmological signatures below (BAO shift, CMB) were gravity-based (κ modifies `G_eff = G·κ/κ_earth`). Under Option B, κ couples only to the participation aperture — there is **no cosmological signature**. The cosmic record (F11) is now **purely ontological**: the κ-field across cosmic time is a relational notion with no observable consequence. Retained for audit only.
-
-### 3.1 BAO Scale Shift
-
-If κ modifies the effective G (G_eff = G·κ/κ_earth), the expansion history is modified. The BAO scale r_s ≈ 150 Mpc would shift if κ(z) differs from ΛCDM predictions.
-
-**Constraint:** |Δκ|/κ < 0.02 between z=1100 and z=0 (from BAO).
-
-### 3.2 CMB Power Spectrum
-
-κ at recombination affects the sound horizon and the damping tail. A spatially varying κ at z=1100 would produce CMB anomalies.
-
-**Testable with:** Planck data, future CMB-S4.
-
-### 3.3 Large-Scale Structure
-
-κ variations on ~100 Mpc scales would modify the growth of structure. The matter power spectrum P(k) would show κ-dependent deviations from ΛCDM.
-
-**Testable with:** DESI, Euclid, Rubin Observatory.
-
-### 3.4 Integrated Sachs-Wolfe Effect
-
-If κ evolves with cosmic time, the time-varying gravitational potential produces an ISW signal. The ISW-LSS cross-correlation is sensitive to κ(z).
-
-**Testable with:** Planck + DESI cross-correlation.
-
----
-
-## 4. The Cosmic Record as a "Book"
-
-DET's ontological framing: the κ-field is the universe's **structural memory**. It records where and when structure formed. Reading the κ-field is reading the cosmic record.
-
-| Cosmic Epoch | What κ Records |
+| Outcome | Meaning for the cosmic record |
 |---|---|
-| Inflation | Primordial κ fluctuations (seeds of structure) |
-| Recombination | Nearly uniform κ (CMB last scattering) |
-| Dark Ages | κ accumulates in first halos |
-| Reionization | κ modified by first stars |
-| Structure formation | κ builds up in filaments and clusters |
-| Present | κ(r) observed in galaxies and clusters |
+| Rank zero | The present state is state-complete; cosmic history has no residual predictive consequence |
+| Rank one | A single scalar κ is supported |
+| Rank \(r>1\) | Cosmic history is vector/tensor-valued |
+| Nontransportable | Each probe has its own nuisance history; no universal cosmic κ |
 
----
+## 3. Status under Option B: purely ontological
+
+> **No cosmological observable signature.** Under Option B, κ couples only to the participation aperture (λ_P). The retired gravity channel (`G_eff = G·κ/κ_earth`) is withdrawn, so the BAO/CMB/ISW/LSS signatures proposed by the earlier F11 are **retired** (they belong to `archive/retired_kappa_gravity.md`, not to this module). The cosmic record has no measurement program of its own.
+
+"Reading the cosmic record" is therefore a **Track B ontological notion (Status M)**, not a cosmology experiment. It is held for coherence and fruit, not because anything is measured at cosmic scale.
+
+Any empirical read of κ remains gated on the same local ladder as everything else — a κ rank test, then held-out transport — and even then it is a *local* predictive-history coordinate, not a cosmological field.
+
+## 4. The cosmic record as memory (Status M)
+
+The ontological reading survives the reframing once the substance language is removed:
+
+The universe's record — the actualized causal past — *is* its structural memory. What "the cosmic record" names is not a field encoding that memory but the record itself; κ is the *measure* of how much of that memory remains predictively active, relative to a present-state description. The record is the trace; κ is how much the trace still bites.
+
+| Cosmic Epoch | What the record carries (ontological, Status M) |
+|---|---|
+| Recombination | A nearly featureless record — little residual predictive distinction beyond a smooth state |
+| Structure formation | The record accumulates predictive distinction — history begins to outrun the present state |
+| Present | The record is richly structured — high residual predictive weight in some regimes |
 
 ## 5. F11 Claim Register
 
 | Claim | Status |
 |---|---|
-| κ varies with cosmic time | P (from κ dynamics) |
-| κ(z=1100) ≈ κ_eq (nearly uniform) | P (early universe was smooth) |
-| κ(z=0) is spatially structured | A (observed in galaxies/clusters) |
-| BAO constrains κ(z) evolution | A (|Δκ|/κ < 0.02) |
-| CMB anomalies may reflect primordial κ | Open (testable with Planck) |
-| ISW-LSS cross-correlation tests κ(z) | Open (testable with DESI) |
-| κ-field is the universe's structural memory | M (Track B interpretation) |
-
----
+| κ is a fitted predictive-history coordinate, not a field | FT — architectural (re-foundation §2) |
+| Scalar κ is justified only by a rank-one test | Open — empirical (T1) |
+| "κ varies with cosmic time" (as a field profile) | **RETIRED** — κ is relative, no absolute field profile |
+| BAO/CMB/ISW/LSS constrain κ(z) | **RETIRED** — no cosmological κ signature under Option B |
+| The universe has a nonzero predictive-history coordinate | Open — a rank question, not a field measurement |
+| The cosmic record is the universe's structural memory | M — Track B interpretation |
 
 ## 6. Connection to F10 (Law Genesis)
 
-F10 asked: why is \(\mathcal L\) stable? F11 provides the empirical test: if \(\mathcal L\) were NOT stable, the cosmic κ record would show discontinuities — epochs where the effective laws changed. The smoothness of the cosmic κ record is evidence for the stability of \(\mathcal L\).
+F10 asks why the law map \(\mathcal L\) is stable. F11, reframed, poses the same question at the level of the record: if \(\mathcal L\) were *not* stable, the predictive-history coordinate κ would show discontinuities — epochs where the same present state yields different future kernels under the same history. The smoothness (or lack of it) of κ's predictive distinction is evidence for (or against) the stability of \(\mathcal L\). This is an ontological constraint, not a measured one.
 
----
+## 7. Next steps
 
-## 7. Next Steps
-
-> **RETIRED (Round 6, Option B).** All next steps below were gravity-based. Under Option B there is no cosmological κ signature to test; the cosmic record is a Track B concept only.
-
-- ~~Implement κ(z) model from cosmic star formation history.~~ (retired)
-- ~~Compare with BAO and CMB constraints.~~ (retired)
-- ~~Predict ISW-LSS cross-correlation for DET κ-gravity.~~ (retired)
-- ~~Test against DESI/Euclid data when available.~~ (retired)
+- Define, at the level of the record, what a "coarse-grained present-state description" of the cosmos would be, before asking whether cosmic κ is nonzero. (The question is currently under-specified without this.)
+- If pursued, begin with the T1 rank test on a *local* record, not a cosmological one; cosmic κ is downstream of local κ.
+- Leave the retired cosmological signatures in `archive/retired_kappa_gravity.md`; do not reintroduce them here.
 
 ---
 

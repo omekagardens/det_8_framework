@@ -219,7 +219,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | **O9-RID** | **Resurrection identity bridge** | — | **Open** — PID-C/PID-M split. Track B. | Numerical identity across embodied interruption. See `docs/track_b/resurrection.md`. |
 | **FGP** (was F9) | **Fact Genesis Protocol** | — | **Open** — Are facts discovered or created? Track B. 5-level ladder. | Distinguish unknown vs not-yet-existent facts. See `docs/track_b/fact_genesis.md`. |
 | **F10** | **Law Genesis** | — | **Commitment (emergent) + anchor specified; derivation open** — L is the compressed regularity (κ is its coordinate); law stability is a change-point observable (`law_genesis.py`). Track B. | Derive L's stability from redundant-record structure. See `docs/track_b/law_genesis.md`. |
-| **F11** | **Cosmic Record** | — | **Proposed** — κ-field across cosmic time. Track B. | Not yet developed. |
+| **F11** | **Cosmic Record** | — | **Proposed** — predictive-history coordinate (fitted κ, not a field) across cosmic time. Track B; no cosmological signature (Option B). | Not yet developed. |
 | **F12** | **Anthropic Principle** | — | **FT/CI** — WAP selection confirmed; SAP necessity rejected; fine-tuning reduced to one scalar (participation-only, Option B — κ-gravity retired). Track B. | Prior-independent naturalness; promote "λ_P is the selection target" from P to PR. See `docs/track_b/anthropic_principle.md`. |
 | — | Complex amplitudes | Correspondence (CORR) | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
 | — | κ dynamics | Phenomenological descriptor (L0/L1) | **I** — Reaction-diffusion toy | Rank test (scalar/vector) + held-out transport |

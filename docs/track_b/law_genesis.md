@@ -106,7 +106,7 @@ If \(\mathcal L\) were different in the early universe (e.g., different coupling
 
 ## 7. Next Module: F11 (Proposed)
 
-**F11 — Cosmic Record:** If \(\mathcal L\) is stable and κ accumulates across cosmic time, what does the cosmic record look like? Can we read the structural history of the universe from the κ-field?
+**F11 — Cosmic Record:** If \(\mathcal L\) is stable, does the universe as a whole carry a nonzero predictive-history coordinate κ (a fitted coordinate, not a field) — i.e., does its actualized record still constrain the future beyond its present state? See `docs/track_b/cosmic_record.md`.
 
 ---
 

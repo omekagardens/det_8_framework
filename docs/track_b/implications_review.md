@@ -32,15 +32,15 @@ The traditional theological problem: how can a dead person be raised without eit
 
 ---
 
-## 3. Physical Implication: The Universe Remembers
+## 3. Ontological Implication: The Universe Remembers (Status M)
 
-If κ is structural history and accumulates across cosmic time, then:
+If κ is the fitted predictive-history coordinate (not a field) and is nonzero for the cosmos, then:
 
-- The universe literally remembers its formation history. The κ-field is cosmic memory.
-- Different cosmic epochs leave different κ signatures — testable through BAO, CMB, LSS, ISW.
-- The smoothness of the cosmic κ record constrains whether \(\mathcal L\) has ever changed.
+- The universe's record *is* its formation history; κ measures how much of that record still bites. (Status M — the "memory" reading exceeds the observable.)
+- Cosmological signatures (BAO, CMB, LSS, ISW) are **retired** under Option B — κ has no cosmological observable channel. The cosmic record is read only as ontology, not as a field measurement.
+- The smoothness of κ's predictive distinction constrains whether \(\mathcal L\) has ever changed — an ontological constraint, not a measured one.
 
-**Why this matters:** This transforms κ from a theoretical construct to a potentially observable field. The universe having a "memory" is a testable claim.
+**Why this matters:** This keeps the "universe remembers" reading without re-smuggling κ as an observable field. The memory is real (the record is real); whether it remains predictively active is a rank question (T1), gated on local κ, not a cosmology experiment.
 
 ---
 
