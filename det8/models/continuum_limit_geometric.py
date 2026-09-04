@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Geometric Sector: BD Action → Einstein-Hilbert
+RETIRED / QUARANTINED — historical BD-action correspondence experiment.
+
+Any Benincasa–Dowker arithmetic retained below is synthetic. It does not prove
+an Einstein–Hilbert limit, and κ weighting has no active physical status.
 
 Implements the full Benincasa-Dowker action on causal sets and tests
 convergence to the Einstein-Hilbert action in the continuum limit.
@@ -26,6 +29,10 @@ DET κ-weighted version:
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

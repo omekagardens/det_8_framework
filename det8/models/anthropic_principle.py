@@ -2,9 +2,9 @@
 DET v8.0 — Anthropic Principle (F12): Observer Selection in DET-Native Terms
 
 Tests what Deep Existence Theory can and cannot say about the Anthropic
-Principle, using ONLY DET primitives. No standard-physics constants are
-imported (no c, hbar, G, Lambda, fine-structure constant, axion decay
-constant, strong-CP angle, dark matter/energy, or cosmological parameters).
+Principle, using DET variables in its active observer condition. A historical,
+quarantined κ-gravity helper accepts Newton's G as an external reference input;
+it is not used by that active condition.
 
 Why a DET-native module exists at all:
   The standard Anthropic Principle is the claim that our universe's
@@ -80,7 +80,7 @@ import random
 from dataclasses import dataclass, field
 from typing import Optional
 
-from det8.models.gravity_v2 import G_NEWTON
+from det8.models.reference_constants import NEWTONIAN_G_SI
 
 
 # ── Module thresholds (module-level choices, NOT physical constants) ────────
@@ -140,7 +140,7 @@ def kappa_bind_from_gravity(
     R: float,
     m: float,
     N: float,
-    G: float = G_NEWTON,
+    G: float = NEWTONIAN_G_SI,
     alpha: float = 1.0,
     kappa_eq: float = 0.0,
     kappa_earth: float = 1.0,

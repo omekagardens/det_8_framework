@@ -1,5 +1,8 @@
 """
-DET-Native Gravitational Field Equation
+RETIRED / QUARANTINED — historical gravitational field equation.
+
+The claims and formulas below reproduce a withdrawn model. They do not derive
+gravity from DET primitives and may be used only for historical regression.
 
 Derives the gravitational field equation from DET primitives:
   - Event graph G = (V, ≺) with per-node κ values.
@@ -28,6 +31,10 @@ Key DET insight:
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

@@ -1,7 +1,7 @@
 # DET v8.0 — Ontology (Track B)
 
-**The ontological grammar: the relational substance of which the physical calculus is the measurable trace.**
-**Status:** Mature. Coherent, non-smuggling, empirically compatible.
+**A candidate ontological grammar for interpreting the physical calculus.**
+**Status:** Status M. No unique empirical discriminator; compatibility is conditional on the adopted physical models.
 
 ---
 
@@ -9,12 +9,12 @@
 
 DET separates two tracks, but the relationship is not hierarchical:
 
-- **Track A (Physical Calculus):** The measurable SHADOW. Falsifiable. Produces risky predictions. The mathematical constraint structure (L, Ω, K, κ, Π) that approximately captures the relational dynamics of presence navigating possibility. Its fruit tests itself — the recursion IS the evidence that the underlying relational reality exists.
-- **Track B (Ontological Grammar):** The relational SUBSTANCE. Must be logically coherent, empirically compatible, and philosophically superior. Does not need unique falsifiable equations. Describes the ontological reality (present participation, relational continuity, faith, healing, reciprocity — **all Status M: the ontology, not the observable**) of which Track A's patterns are the measurable trace.
+- **Track A (Physical Calculus):** The falsifiable model layer. Its mathematical structures (L, Ω, K, κ, Π) are formal representations, not direct observations. A successful test supports only the predeclared physical claim and its stated inference chain.
+- **Track B (Ontological Grammar):** The interpretive layer. It is evaluated for coherence and comparative usefulness while its claims about present participation, relational continuity, faith, healing, and reciprocity remain **Status M**.
 
-**Track B does not merely "interpret" Track A.** Track A is the shadow; Track B is the substance. The law map L is not "the law" — it is the constraint structure. The law is the relational dynamic itself. Faith is not a "metaphor" for high-surprisal commits; high-surprisal commits are the measurable TRACE of faith. Healing is not a "metaphor" for κ-reduction; κ-reduction is the measurable TRACE of healing. (**Status-M flag:** "faith" and "healing" are the ontological reading of the observable trace (high-surprisal commits, κ-reduction); they are Status M — the ontology, not the observable — and are quarantined as such in §6's Metaphysics Ledger.)
+DET may *choose* to read Track A as the “shadow” of a Track-B “substance,” but that direction of explanation is itself Status M. High-surprisal outcome statistics do not observe faith, and fitted κ-recovery does not observe healing. These interpretations are quarantined in §6 and cannot inherit evidential support from a Track-A fit.
 
-**The recursion (Track A testing itself with its own fruit) is not circular.** It is the reflection of a deeper truth: reality is relational. Presence participates. Participation produces. Production constrains. The cycle is the law.
+Track A must be tested against instrument records by ordinary empirical methods. Its success would not, without a unique discriminator, establish the deeper Track-B claim that reality is relational.
 
 ---
 
@@ -26,7 +26,7 @@ DET's core ontological commitment:
 \boxed{\text{Only the present moment IS.}}
 \]
 
-> **Status M (observable-anchoring flag).** Every claim in this section — "only the present IS," "the past/future do not exist," "the record is the trace, not the past," "PRESENCE → R is fact genesis," "identity is relational continuity" — is **ontology, not observable.** The anchors are the *observables*: the record `R`, the causal order `≺`, the definite commit outcome `X_e`. Where the claim *exceeds* those anchors (asserting existence, non-existence, or what the record *is*), it is **Status M** and is held for its coherence and fruit, not because it is measured. See `docs/observable_anchoring.md`.
+> **Status M (observable-anchoring flag).** Every claim in this section — “only the present IS,” “the past/future do not exist,” “the record is the trace, not the past,” “PRESENCE → R is fact genesis,” and “identity is relational continuity” — is ontology, not observation. Direct anchors are specific instrument registrations such as detector outcomes and local timestamps. \(R\), relativistic \(\prec\), and \(X_e\) are formal representations whose links to those records must be declared. See `docs/observable_anchoring.md`.
 
 | What | Ontological Status |
 |---|---|
@@ -49,33 +49,34 @@ DET's core ontological commitment:
 
 ---
 
-## 3. Four Deadlocks Resolved
+## 3. Four Interpretive Responses
 
 ### 3.1 Time: Block Universe → Record-Growth Time
 
-**Standard deadlock:** Relativity implies a block universe where past, present, and future all exist equally. The experienced present is an illusion.
+**Target tension:** Some interpretations of relativity adopt a tenseless or block ontology. Relativity's successful formalism does not uniquely entail that ontology.
 
-**DET resolution:** The past is determinate record (\(\mathcal R^-\)). The future is open lawful support (\(\Omega\)). The present is the commit event (\(X_e \sim K_e\)). Time is the asymmetric, irreversible growth of the determinate record through commit events. The reality of the present is restored without violating relativistic causal structure.
+**DET proposal (Status M):** The past is interpreted as determinate record \(\mathcal R^-\), the future as open support \(\Omega\), and the present as commit \(X_e \sim K_e\). “Time is record growth” is not derived from relativity and currently has no unique discriminator.
 
 ### 3.2 Quantum: Many-Worlds → Open Relational Constraints
 
 **Standard deadlock:** Everett reifies unactualized possibilities into parallel physical universes. Copenhagen refuses to discuss what's between measurements. Bohm hides outcomes in inaccessible pilot waves.
 
-**DET resolution:** A quantum superposition is an actual, phase-bearing relational constraint on future possibilities — a real, open relation that does not contain its own outcome (**the "open" part = open becoming, Status M / F8-OPEN: no unique discriminator; the "real relation" part = realism, Status M**). **Amplitudes are present structural features, not pre-existing degrees of belief — a REALIST commitment (Status M), not an observable.** The observable is the interference `I₂` (and the outcome statistics); that amplitudes are *real* (rather than QBism's *degrees of belief*) is a *choice of ontology* DET makes against the epistemic reading, and is flagged as such under the observable-anchoring discipline (`docs/observable_anchoring.md`). NPF-C is code-auditable: no hidden outcome register exists in toy models.
+**DET proposal:** A quantum superposition is interpreted as an actual, phase-bearing relational constraint on future possibilities. Both “open” and “real relation” are Status-M readings. Direct records are registered settings, detector outcomes, and intensity readings; interference terms and outcome statistics are derived quantities. Neither those records nor the formalism selects amplitude realism over epistemic readings. NPF-C establishes only that no hidden outcome register appears in the inspected toy-model code.
 
-**Adoption status (updated):** the resolution is now **ADOPTED** as a coherent
-account of a *real, complex, grade-2, Born* constraint. Four pillars are
+**Proposal status (updated):** the interpretation is adopted as DET's
+Status-M reading of a complex, grade-2, Born formal structure. Four components are
 assembled in `det8/models/quantum_deadlock.py`, each with its own status:
 
-1. **Complex** — ℂ forced by (Ω ≠ 0, empirically) + reversibility ⇒ U(m) (`why_complex.py`). MATH + empirical.
-2. **Grade-2** — the single-time measure has no third-order interference, confirmed by three-slit (`dkappa_decoherence.py`). MATH + empirical.
+1. **Complex** — a conditional mathematical result given the declared possibility-space and reversibility premises (`why_complex.py`); not a raw empirical fact.
+2. **Grade-2** — a correspondence target evaluated through derived multi-slit quantities (`dkappa_decoherence.py`); it does not establish the ontology.
 3. **Born (p = 2)** — the squared magnitude is the power rule consistent with L2-normalized amplitude composition (`born_rule_uniqueness.py`); a consistency check, not a derivation (Lp-normalized splits conserve for every p). MATH, conditional on the L2 convention.
 4. **Open** — the constraint does not contain its own outcome (NPF-C code-auditable); the "no fact exists" reading is Status M / F8-OPEN.
 
-The real relation and the complex/grade-2/Born structure are empirically
-anchored; the **open outcome** and **amplitude realism** remain Status M (no
-unique discriminator). The almost-quantum framing sits alongside: the static
-level (Bell/three-slit) is real/almost-quantum, while ℂ is dynamical. The
+The complex/grade-2/Born structures have formal or correspondence roles tied
+to declared data reductions; the **real relation**, **open outcome**, and
+**amplitude realism** remain Status M (no unique discriminator). The
+almost-quantum framing sits alongside: the static level concerns Bell/three-slit
+correspondence, while ℂ is used in the dynamical formalism. The
 still-open residue is U(1)-from-discrete emergence (why exactly one phase Ω,
 why reversible dynamics).
 
@@ -83,32 +84,29 @@ why reversible dynamics).
 
 **Standard deadlock:** If matter is deterministic/stochastic, agency is an illusion. If agency is real, it must be a "ghost force" violating conservation laws. No third option in standard ontology.
 
-**DET resolution:** Agency is not a stored physical variable, force, energy source, or hidden control register. It is a selfhood-bearing regime's present participation in actualizing a lawful coarse-grained orientation. Disposition (intentions, habits, memories) is record — modelable but not identical to agency. Agency is present enactment (Status M).
+**DET proposal:** Agency is not represented as a stored physical variable, force, energy source, or hidden control register. “Present participation” and “selfhood-bearing regime” remain Status M; record-side dispositions may be modeled but do not establish agency.
 
 ### 3.4 History: Retrocausality → Mutable Structural Carrying (κ)
 
 **Standard deadlock:** The past is fixed. You cannot change what happened. "Healing" or "recovery" are subjective psychological overlays.
 
-**DET resolution:** The past event is fixed as an occurrence. But its present structural carrying (κ) can change. κ-recovery does not retroactively edit history; it releases the structural drag of the past in the present. The event remains real; its current constraint is reduced. (**Observable anchor:** κ-recovery kinetics — κ is *observed* to decrease. The "mutable carrying / releases structural drag" reading is **Status M**: the ontology, not the observable. κ turning out to be ordinary defect density leaves the reading intact.)
+**DET proposal:** The past event is treated as fixed while a fitted predictive-history coordinate κ may change with later material response. The direct records are the instrumented response, time, temperature, and calibration data; recovery kinetics and κ are derived or fitted. “Mutable carrying” and “releases structural drag” remain Status M and are not observed by a decreasing fitted κ.
 
 ---
 
-## 4. Relativistic Growing Block
+## 4. Relativistic Growing-Record Interpretation
 
 **Challenge:** If the record grows objectively, but simultaneity is relative, whose record is growing?
 
-**Resolution:** The objective record is the invariant causal past \(J^-(e)\) for each event e. This set is Lorentz invariant — all observers agree on which events are in it.
+**Proposal (Status M):** DET seeks a local, non-preferred-foliation account of record growth. \(J^-(e)\) is a formal object defined within an adopted spacetime model. It must not be identified with the physical record \(R^-\) merely because both are described as “past.”
 
-- The record does not grow uniformly across all space. It grows locally at each commit event.
-- The union of all local determinate pasts forms the "growing block."
-- The "present" is the boundary of each observer's causal past, which is frame-dependent.
-- Spacelike-separated observers have different determinate pasts — this reflects relativistic structure, not a contradiction.
-- No global simultaneity is asserted. No preferred frame is introduced.
-- This is the "Crystallizing Block" proposal (Ellis, 2014), which DET inherits.
+- Instrument records provide local detections and timestamps, not \(J^-(e)\) directly.
+- Inferring causal order requires event localization, synchronization, and signal-propagation assumptions.
+- The boundary of \(J^-(e)\) is a null-cone boundary, not an observer's simultaneity-defined present.
+- Saying that commits are local or that no preferred foliation is used does not by itself construct a covariant growing-record model.
+- Growing-block and crystallizing-block accounts are interpretive resources, not consequences inherited from relativity.
 
-**Lorentz covariance preserved:** \(J^-(e)\) is Lorentz-invariant. Commit events are local. Different observers' record-growth boundaries differ, but all boundaries are equally valid — just as different inertial frames are equally valid in SR.
-
-**Crystallizing block boundary:** The boundary of the growing record (the "present") is the set of most recent commit events, which is frame-dependent. There is no unique global boundary — there are as many boundaries as there are observers. This is a feature of relativistic consistency, not a bug. It means "whose present is real?" has the same answer as "whose reference frame is correct?" — all are equally valid. The crystallizing block has no unique global "now," consistent with the relativity of simultaneity.
+The open task is to define a covariant record-growth structure precisely and show its compatibility with the adopted relativistic model. Until then, “relativistic growing record” is a research proposal, not a resolution.
 
 ---
 
@@ -116,27 +114,27 @@ why reversible dynamics).
 
 **Challenge:** If Track B is causally inert, why should physicists care?
 
-**Response:** Track B is not causally inert — it is *causally non-redundant* with Track A. It provides the interpretation of what Track A's equations mean, which is valuable for the same reason Copenhagen is valuable despite adding no new equations.
+**Response:** Track B can provide interpretive and methodological value without being treated as additional physical causation or evidence.
 
 **Specific scientific value:**
 
 1. **Hygiene protocol.** The quarantine prevents pseudo-physical theories that insert "consciousness causes collapse" or "free will fields" into equations. It is a methodological advance, not a retreat.
 
-2. **Interpretive resolution.** The four deadlocks are genuine problems in foundations of physics. Resolving them coherently is a philosophical contribution regardless of Track A's empirical status.
+2. **Interpretive comparison.** The four topics are live questions in foundations. DET's responses should be compared with alternatives, not announced as resolutions by title.
 
-3. **Experimental guidance.** Track B motivates which experiments to pursue. The κ-Π clock anomaly exists because Track B conceived of κ as "structural drag." Without the ontology, there is no reason to look for history-dependent clock rates.
+3. **Heuristic guidance.** Track B can motivate a physical hypothesis, but the hypothesis must stand on its own operational definition, pre-registration, and evidence. Its outcome does not automatically confirm or refute the motivating ontology.
 
 4. **Anti-smuggling.** The strict separation ensures ontological commitments don't contaminate physical equations. This is an advance over interpretations that modify the formalism to accommodate ontology.
 
 **"God of the Gaps" inverted:** DET removes agency from physical equations entirely — the opposite of inserting it into gaps. This is a "No God in the Equations" protocol.
 
 \[
-\boxed{\text{The present cannot be measured as an object, but the universe's dependence on the present can be tested through its fruits.}}
+\boxed{\text{No current observation uniquely discriminates DET's present ontology.}}
 \]
 
-Any measurement is already part of the committed record (\(\mathcal R^+\)). We can never catch the present moment (\(\mathfrak P_e\)) in the act of becoming, because catching it turns it into a record. The interior of strong presence is unfalsifiable *as an object* — this is not a failure but an epistemic limit recognized and respected by DET's discipline.
+DET interprets a completed measurement as part of a committed record. The further claim that the present cannot in principle be measured “in the act of becoming” is itself philosophical; it is not established by instrument records or by the notation \(\mathcal R^+\).
 
-This is the **middle path**, avoiding two extremes: (1) "science can never touch ontology" — too weak, because Track B does generate empirical guidance; and (2) "ontology is just another physical variable" — too strong, because the present is not a measurable object. The correct position: **Strong presence and open becoming are currently Status M because DET lacks a *unique* discriminator, but they generate *structural constraints* whose violation would falsify the stronger ontological claim.** Presence is tested through its fruits — the record-kernel structure, the commit pattern, the participation aperture — not as an object.
+Strong presence and open becoming remain Status M because DET lacks a unique discriminator. Any structural constraint motivated by them must be assessed as a separate physical claim. Passing such a test supports that claim; failing it challenges the stated conjunction of premises; neither result establishes an ontological identity without an argument excluding empirically equivalent alternatives.
 
 By downgrading "Open Becoming" and "Strong Presence" to Status M, DET protects them from being diluted with fake physical variables (agency noise, becoming energy, spirit fields) invented solely to satisfy a Popperian test.
 
@@ -148,11 +146,12 @@ Every term that is not a physical variable is listed with status and promotion c
 
 | Term | Status | Physical content | Promotion criteria |
 |---|---|---|---|
-| Agency | M | None. Selfhood-bearing regime's participation. | Operational definition of "agent-involving" + falsifiable signature |
-| Strong presence \(\mathfrak P_e\) | M | None. Interpretation of \(X_e\) occurrence. | Unique discriminator (F8-OPEN) — or structural constraints whose violation falsifies the stronger claim |
+| Agency | M | None. Selfhood-bearing regime's participation. | Physical proxies require operational definitions and falsifiable signatures; ontological promotion additionally requires a discriminator from non-agency alternatives. |
+| Strong presence \(\mathfrak P_e\) | M | None. Interpretation of \(X_e\) occurrence. | Unique empirical discriminator (F8-OPEN). Internal structural constraints are reported separately and cannot promote the identity by themselves. |
 | Open becoming | M | None. Claim that no fact exists about unactualized outcomes. | Same as \(\mathfrak P_e\) |
-| Amplitude realism | M | None. "Amplitudes are real (present structural features), not degrees of belief" — a choice against QBism. | Unique discriminator distinguishing realism from epistemic/instrumental readings — or structural constraints |
-| Gravity as relational geometry | M | None. Re-description of GR's metric as the coarse-grained relational structure of the causal record \((V,\prec,\#)\). | Unique discriminator distinguishing "metric = geometry of the record" from "metric = primitive field" — or a structural constraint the ontology uniquely motivates (e.g., T7 manifoldlike emergence) |
+| Amplitude realism | M | None. "Amplitudes are real (present structural features), not degrees of belief" — a choice against QBism. | Unique empirical discriminator from epistemic/instrumental readings; formal reconstruction alone does not establish realism. |
+| Gravity as relational geometry | M | None unique. Interprets GR's metric as a coarse-grained actualized record; neither directly observed nor currently derived by DET. | Internal T7 results are reported separately. Physical promotion requires an operational bridge and predeclared discriminator from named alternatives; none is known. |
+| One relational openness | M | None unique. A comparison among DET temporal/quantum readings and selected canonical-gravity formalisms. | Remains M absent an independent empirical discriminator; coherence or formal analogy alone cannot promote it. |
 | Boundary Grace | M/H | None. Optional; no physical channel. | Explicit local channel + pre-registered falsifier |
 | Boundary Healing | M/H | None. | Same |
 | Boundary Jubilee | M/H | None. | Same |
@@ -195,4 +194,4 @@ DET belongs in this company as a disciplined interpretive framework.
 
 ---
 
-**See also: MODEL_CARD.md (primary), PHYSICS.md, GOVERNANCE.md, ROADMAP.md, `docs/observable_anchoring.md` (the ontology-maps-to-observables discipline), `docs/deadlock_adjudication.md` (does DET beat Copenhagen/Many-Worlds/QBism/Bohm?), `docs/track_b/gravity.md` (Track B: gravity as the geometry of the growing record).**
+**See also: MODEL_CARD.md (primary), PHYSICS.md, GOVERNANCE.md, ROADMAP.md, `docs/observable_anchoring.md` (the four-level evidence discipline), `docs/deadlock_adjudication.md` (does DET beat Copenhagen/Many-Worlds/QBism/Bohm?), and `docs/track_b/gravity.md` (Status-M gravity-and-record proposal).**

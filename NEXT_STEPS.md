@@ -1,7 +1,7 @@
 # DET v8.0 — Next Steps
 
 **Date:** August 27, 2026
-**Test suite:** 751/752 passing (1 pre-existing Navier–Stokes numerical-reproducibility failure)
+**Test suite:** 767/767 passing
 **Status:** Record-Kernel Physics and the RET research program are integrated. The software is internally consistent; empirical validation, independent replication, and several analytic/continuum results remain open. DET is governed as a **lens (instrument)**: the falsifiable quantity is productivity, tracked in the [Novelty Ledger](NOVELTY_LEDGER.md), and the first push — the D_κ decoherence functional — is formalized.
 
 ---
@@ -14,7 +14,7 @@
 - Falsification governance, observable anchoring, applied-physics ingest, and the F9/proxy ladder are implemented.
 - The general Relational Experimental Calculus (RET) supports hierarchical inference, correlated and nonlinear observations, explicit open models, question-conditioned scheduling, immutable evidence provenance, and RG1/RG2 gates.
 - Governed RET adapters cover Exodus apparatus accounting, neutron lifetime, bounded Riemann/Collatz searches, and bounded Navier–Stokes numerical studies.
-- The combined runner covers 692 checks across the upstream, RET research, and Novelty Ledger/D_κ suites.
+- The combined runner covers 767 checks across the upstream, RET research, Novelty Ledger/D_κ, corrected T7, and legacy-quarantine suites.
 
 ## Active next work
 
@@ -74,5 +74,5 @@ The former torsion-balance, SPARC, cluster, BAO, and κ-gravity programs are his
 | `docs/NAVIER_STOKES_NEAR_SINGULARITY.md` | Bounded numerical protocol and current limits |
 
 ```bash
-python3 run_tests.py   # 751/752 passing
+python3 run_tests.py   # 767/767 passing
 ```

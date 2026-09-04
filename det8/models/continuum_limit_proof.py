@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Formal Theorem Structure
+RETIRED / QUARANTINED — superseded continuum-limit proof sketch.
+
+The text below preserves historical claims based on Π metric calibration and
+κ gravity. It is not a current theorem or active DET derivation.
 
 States the continuum limit theorem precisely, breaks it into lemmas,
 provides numerical evidence for convergence, and identifies what is
@@ -47,6 +50,10 @@ Status:
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Bianchi Identity
+RETIRED / QUARANTINED — historical Bianchi-identity claim.
+
+Local action bookkeeping below does not prove a discrete Bianchi identity or
+derive conservation for a κ stress tensor.
 
 Proves that the discrete field equations satisfy a Bianchi-type
 identity, ensuring consistency with conservation laws.
@@ -32,6 +35,10 @@ What we prove:
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

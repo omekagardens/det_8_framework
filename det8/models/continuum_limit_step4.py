@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Step 4: Field Equation Emergence
+RETIRED / QUARANTINED — historical field-equation emergence claim.
+
+The calculation embeds the withdrawn κ-gravity identification and cannot be
+used as an active DET result.
 
 Proves (numerically) that the discrete κ-dynamics on the event graph
 converge to continuum field equations that reduce to Newtonian gravity
@@ -25,6 +28,10 @@ Bare causal sets must add matter by hand.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

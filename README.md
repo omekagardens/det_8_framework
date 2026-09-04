@@ -9,7 +9,7 @@ A disciplined two-track framework: a **record-kernel physical calculus** with co
 | [`MODEL_CARD.md`](MODEL_CARD.md) | **Primary reference.** Primitives, 10 active + 5 retired correspondence checks, 1 prediction, RET research, formulas, and test coverage. |
 | [`PHYSICS.md`](PHYSICS.md) | Track A — falsifiable predictions, experimental designs, anti-smuggling audit. |
 | [`ONTOLOGY.md`](ONTOLOGY.md) | Track B — four deadlocks (time, quantum, agency, history), metaphysics ledger, agency quarantine. |
-| [`docs/track_b/gravity.md`](docs/track_b/gravity.md) | Track B — gravity as the geometry of the growing record (Problem of Time, openness unification, present-tense constraints). |
+| [`docs/track_b/gravity.md`](docs/track_b/gravity.md) | Track B — Status-M metric-as-record proposal, evidence boundary, borrowed formalisms, and open operational bridge. |
 | [`GOVERNANCE.md`](GOVERNANCE.md) | F8-OPEN protocol, adversary classes, claim register, decision gates, Bell position. |
 | [`ROADMAP.md`](ROADMAP.md) | Phase history (P0.1→P0.8), current state, remaining work. |
 | [`docs/EXODUS_DET_TRANSLATION.md`](docs/EXODUS_DET_TRANSLATION.md) | Governed Exodus equation audit, DET momentum closure, and boundary/history simulations. |
@@ -29,16 +29,16 @@ A disciplined two-track framework: a **record-kernel physical calculus** with co
 ## Highlights
 
 - **A relational ontology** — the record-kernel unification of existence, participation, and becoming (event graph ≺ → record → law map → commit kernel → participation aperture). The ontology is the point; the clock anomaly is an optional empirical probe.
-- **751/752 tests passing** — `python3 run_tests.py`
+- **767/767 tests passing** — `python3 run_tests.py`
 - **10 active + 5 retired correspondence checks** — Born rule, CHSH, Lorentz covariance, pointer formation, amplitude structure (active); gravity/Kepler (retired, Option B)
-- **1 pre-registered prediction** — κ-Π clock anomaly (testable with atomic clocks); gravity is standard GR (Option B)
+- **1 pre-registered prediction** — κ-Π clock anomaly (testable with atomic clocks); gravity uses an unchanged-GR baseline (Option B)
 - **6 major open problems addressed** (O1–O4 as CI/AT correspondence checks, O7/O8 — full uniqueness theorems remain open; see MODEL_CARD §6)
 - **128 model modules / 144 Python files** — core framework, applied physics, RET, governed mathematical searches, and bounded numerical studies
 - **DET 8 is a clean starting point** — no dependency on prior DET versions
 
 ## Two Tracks
 
-**Track A (Physical Calculus):** Must be falsifiable. It currently has one pre-registered prediction, the κ-Π clock anomaly, gated on F9 and an independent κ measurement. The former κ-gravity program is retired; gravity is standard GR.
+**Track A (Physical Calculus):** Must be falsifiable. It currently has one pre-registered prediction, the κ-Π clock anomaly, gated on F9 and an independent κ measurement. The former κ-gravity program is retired; DET adopts unchanged GR as its gravitational baseline.
 
 **Track B (Ontological Grammar):** Must be coherent, non-smuggling, and empirically compatible. It offers a governed synthesis for four deadlocks—time, quantum interpretation, agency, and history—while keeping its metaphysical claims distinct from physical evidence.
 
@@ -49,7 +49,7 @@ DET's physical core uses a **record-kernel calculus**: the event graph (G = (V, 
 ## Running
 
 ```bash
-python3 run_tests.py   # 751/752 passing
+python3 run_tests.py   # 767/767 passing
 python3 -m det8.models.exodus_simulation  # governed research sandbox
 python3 -m det8.models.exodus_next_runs   # phase-2 discriminators
 python3 -m det8.models.exodus_field_solver  # 2-D Maxwell-stress run

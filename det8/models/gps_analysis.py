@@ -1,10 +1,16 @@
 """
-DET κ-Gravity — GPS Satellite Clock Analysis
+GPS clock arithmetic and conditional κ-Π sensitivity estimate.
+
+Status: PARTIAL_QUARANTINE. The standard SR/GR calculations are borrowed
+baseline formulas. The κ-Π calculation is a conditional synthetic sensitivity
+estimate, not an analysis of ingested GPS clock records. The κ-gravity framing
+is retired, and the default residual and Δκ values below are illustrative
+inputs without a provenance-bearing dataset in this repository.
 
 Tests whether κ differences between Earth's surface and GPS orbital
 altitude produce a detectable timing anomaly.
 
-DET prediction:
+Conditional model expression:
   GPS satellites at altitude h (~20,200 km) experience different κ
   than ground clocks. The satellite κ value depends on:
     1. Orbital altitude (lower density → different structural history)
@@ -27,9 +33,7 @@ GPS relativistic corrections (standard):
 Any residual beyond the standard corrections could be a κ signal.
 GPS clocks are monitored with ~0.1 ns precision (JPL/IGS products).
 
-Published GPS clock data (IGS final products, ~30 satellites, daily):
-  Clock residuals after all known corrections: typically < 0.3 ns RMS.
-  This constrains any unmodeled frequency offset.
+Illustrative residual scale (not an ingested observation): 0.3 ns/day.
 
 Constraint on λ_P from GPS:
   If κ differs between ground and orbit by δκ, and clock residuals
@@ -41,9 +45,8 @@ Constraint on λ_P from GPS:
   For plausible δκ_orbit ≈ 10⁻⁶ (satellite vs ground κ):
     λ_P < 3.5 × 10⁻⁹
 
-  This is a weaker constraint than atomic clock comparisons
-  (λ_P < 4×10⁻¹⁸) but tests a DIFFERENT κ regime — the orbital
-  environment rather than lab-scale material differences.
+  This is only a conditional product bound until a residual dataset and an
+  independent κ contrast are supplied.
 """
 
 from __future__ import annotations
@@ -67,8 +70,8 @@ GPS_ALTITUDE = 20.2e6       # 20,200 km (m).
 GPS_VELOCITY = 3874.0       # Orbital velocity (m/s).
 GPS_PERIOD = 43082.0        # Orbital period (s) ≈ 11h 58m.
 
-# IGS clock precision.
-IGS_CLOCK_PRECISION_NS = 0.3  # RMS clock residual (ns).
+# Illustrative residual scale; no IGS record is loaded by this module.
+IGS_CLOCK_PRECISION_NS = 0.3
 SECONDS_PER_DAY = 86400.0
 
 
@@ -140,7 +143,7 @@ def standard_gps_correction() -> dict:
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# DET κ-Gravity GPS Correction
+# Conditional κ-Π Clock Correction (not gravity)
 # ═══════════════════════════════════════════════════════════════════════════
 
 
@@ -149,7 +152,7 @@ def det_kappa_gps_correction(
     kappa_ground: float = 1.0,
     lambda_p: float = 1.0,
 ) -> dict:
-    """DET κ-gravity correction for GPS satellite clocks.
+    """Conditional κ-Π clock offset for supplied, unobserved κ values.
 
     The participation aperture Π differs between ground and satellite
     if their κ values differ.
@@ -158,7 +161,8 @@ def det_kappa_gps_correction(
     Π_ground = Π_0 / (1 + λ_P·κ_ground)
 
     Fractional frequency offset:
-      y = (Π_sat - Π_ground) / Π_ground = (κ_ground - κ_sat) / (1 + λ_P·κ_sat)
+      y = (Π_sat - Π_ground) / Π_ground
+        = λ_P(κ_ground - κ_sat) / (1 + λ_P·κ_sat)
 
     For small λ_P: y ≈ -λ_P · (κ_sat - κ_ground).
     """
@@ -185,13 +189,13 @@ def gps_constraint_on_lambda_p(
     kappa_difference: float = 1e-6,
     clock_residual_ns: float = IGS_CLOCK_PRECISION_NS,
 ) -> dict:
-    """Constrain λ_P from GPS clock residuals.
+    """Compute a conditional λ_P bound from supplied residual and Δκ inputs.
 
     If κ_sat differs from κ_ground by Δκ, the DET frequency offset is:
       y ≈ -λ_P · Δκ.
 
-    The IGS clock residual is σ ≈ 0.3 ns/day. Any unmodeled signal
-    larger than this would be detected. Therefore:
+    The default σ=0.3 ns/day is illustrative, not a record loaded here.
+    Under the stated model:
 
       λ_P · |Δκ| · (86400 s) < σ_residual
 
@@ -204,6 +208,7 @@ def gps_constraint_on_lambda_p(
         "kappa_difference": kappa_difference,
         "clock_residual_ns": clock_residual_ns,
         "lambda_p_upper_bound": lambda_p_bound,
+        "classification": "CONDITIONAL_SYNTHETIC_SENSITIVITY",
         "comparison_with_lab_clocks": (
             f"GPS: λ_P < {lambda_p_bound:.1e} (Δκ={kappa_difference:.0e}). "
             f"Lab clocks: λ_P < {4e-18:.1e} (Δκ=0.1). "
@@ -220,7 +225,7 @@ def gps_constraint_on_lambda_p(
 
 
 def estimate_orbital_kappa_difference() -> dict:
-    """Estimate κ difference between GPS satellite and ground clock.
+    """Return an illustrative, non-empirical κ-difference scenario.
 
     GPS satellites are fabricated on Earth (κ ≈ 1.0 initially) and
     then launched into orbit where they experience:
@@ -231,7 +236,7 @@ def estimate_orbital_kappa_difference() -> dict:
 
     All of these could produce a small κ difference.
 
-    Conservative estimate: Δκ ≈ 10⁻⁸ to 10⁻⁶.
+    Scenario range: Δκ ≈ 10⁻⁸ to 10⁻⁶. This is not independently measured.
     This is much smaller than lab-scale material Δκ (~0.01–0.1)
     because the satellites are still Earth-fabricated hardware
     with only orbital environmental differences.

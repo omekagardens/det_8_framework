@@ -1,5 +1,5 @@
 """
-DET κ-Gravity Galaxy Rotation Curves — SPARC Analysis
+RETIRED / QUARANTINED — historical SPARC κ-gravity analysis.
 
 DEPRECATED (Round 6, Option B): the gravity-modification program is retired.
 κ does NOT couple to gravity; galaxy rotation curves are explained by standard
@@ -65,6 +65,10 @@ SPARC dataset reference: Lelli, McGaugh, & Schombert (2016), AJ, 152, 157.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

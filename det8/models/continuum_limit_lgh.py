@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — LGH Distance Bounds from W₁
+RETIRED / QUARANTINED — superseded LGH-bound experiment.
+
+The numerical proxy below is not a proved Lorentzian Gromov–Hausdorff bound
+and supplies the comparison geometry it purports to recover.
 
 Extends the Wasserstein-1 concentration bounds to Lorentzian
 Gromov-Hausdorff (LGH) distance bounds.
@@ -24,6 +27,10 @@ convergence (LGH → 0) → continuum limit proven.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

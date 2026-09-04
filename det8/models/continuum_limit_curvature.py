@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Curvature Convergence
+RETIRED / QUARANTINED — historical curvature-convergence experiment.
+
+The estimators use supplied continuum coordinates/geometry and do not prove
+curvature convergence from DET-native records.
 
 Implements discrete curvature estimators on the event graph and
 tests convergence to continuum curvature.
@@ -20,6 +23,10 @@ Bare causal sets have only the geometric BD action.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

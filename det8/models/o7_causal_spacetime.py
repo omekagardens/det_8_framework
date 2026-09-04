@@ -1,5 +1,8 @@
 """
-DET-Native Approach to O7: Causal Event Graph → Lorentzian Spacetime
+RETIRED / QUARANTINED — superseded O7 causal-spacetime proposal.
+
+The proposal below incorrectly promotes Π and κ interpretations into metric
+and gravitational inputs. It is preserved only for historical audit.
 
 Why NOT defer:
   DET's event graph is richer than a bare causal set. It has:
@@ -57,6 +60,10 @@ Status:
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

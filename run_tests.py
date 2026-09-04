@@ -576,12 +576,76 @@ def test_redteam_fixes():
     test("F11: inconsistent clock/proxy → False", cp2["consistency"] is False)
 
 
-# ── Gravity v2 (F2 resolution) Tests ───────────────────────────────────────
+# ── Legacy-gravity quarantine tests ────────────────────────────────────────
 
-def test_gravity_v2():
+def test_legacy_gravity_quarantine():
+    import ast
+    from pathlib import Path
+
+    from det8.models.legacy_gravity_quarantine import (
+        FULLY_RETIRED,
+        SALVAGED_CORRESPONDENCE,
+        SYNTHETIC_CORRESPONDENCE,
+        quarantine_summary,
+    )
+    from det8.models.lorentz_derivation import lorentz_covariance_summary
+
+    section("Legacy gravity quarantine")
+
+    models_root = Path(__file__).resolve().parent / "det8" / "models"
+    registered_stems = {name.rsplit(".", 1)[-1] for name in FULLY_RETIRED}
+    marked_stems = {
+        path.stem
+        for path in models_root.glob("*.py")
+        if "QUARANTINE = quarantine_record(__name__)" in path.read_text(encoding="utf-8")
+    }
+
+    test("28 fully retired modules registered", len(FULLY_RETIRED) == 28)
+    test("Every retired module carries its quarantine marker",
+         marked_stems == registered_stems,
+         f"missing={sorted(registered_stems - marked_stems)}, extra={sorted(marked_stems - registered_stems)}")
+    test("Retired records cannot claim empirical support",
+         all(not record.empirical_claim for record in FULLY_RETIRED.values()))
+
+    # A fully retired module may depend on another retired module. An active
+    # model may not import one: that would silently reactivate its assumptions.
+    violations = []
+    for path in models_root.glob("*.py"):
+        importer = f"det8.models.{path.stem}"
+        if importer in FULLY_RETIRED:
+            continue
+        tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+        imported = set()
+        for node in ast.walk(tree):
+            if isinstance(node, ast.ImportFrom) and node.module:
+                imported.add(node.module)
+            elif isinstance(node, ast.Import):
+                imported.update(alias.name for alias in node.names)
+        bad = sorted(imported.intersection(FULLY_RETIRED))
+        if bad:
+            violations.append((path.name, bad))
+    test("Active models do not import fully retired gravity modules",
+         not violations, repr(violations))
+
+    test("Salvaged modules are synthetic correspondence only",
+         all(record.status == SYNTHETIC_CORRESPONDENCE and not record.empirical_claim
+             for record in SALVAGED_CORRESPONDENCE.values()))
+    lorentz = lorentz_covariance_summary()
+    test("Lorentz fixture declares inserted Minkowski structure",
+         lorentz["classification"] == SYNTHETIC_CORRESPONDENCE
+         and any("Minkowski" in item for item in lorentz["what_is_assumed"]))
+    test("Quarantine summary exposes zero active legacy claims",
+         quarantine_summary()["active_empirical_claims_from_retired_modules"] == 0)
+
+
+# ── Gravity v2 historical-regression tests ─────────────────────────────────
+
+def test_legacy_gravity_v2():
     from det8.models import gravity_v2 as g
 
-    section("Gravity v2 (F2 resolution)")
+    section("Gravity v2 (quarantined historical arithmetic)")
+
+    test("Module is explicitly retired", g.QUARANTINE.status == "RETIRED")
 
     # Three-quantity split: χ, G_eff, ρ_κ.
     test("χ(κ=κ_eq) = 0", abs(g.response_field(0.0, 0.0, 1.0)) < 1e-12)
@@ -1417,13 +1481,14 @@ def test_order_count_geometry():
     from det8.models.order_count_geometry import (
         sprinkle_diamond, build_causality, link_nullness, links,
         ordering_fraction, reference_ordering_fractions, estimate_dimension,
+        myrheim_meyer_ordering_fraction,
         conformal_sprinkle_1d, recover_conformal_factor,
         conformal_invariance_of_order, run_t7,
     )
 
     section("Order-and-Count Geometry (T7)")
 
-    # ORDER → null/conformal structure: links lie on the light cone.
+    # Finite-density link-nullness diagnostic on generated 1+1 samples.
     pts_small = sprinkle_diamond(2, 60, seed=1)
     pts_large = sprinkle_diamond(2, 240, seed=1)
     null_small = link_nullness(pts_small, build_causality(pts_small))
@@ -1434,36 +1499,65 @@ def test_order_count_geometry():
     test("T7: link nullness shrinks with density (→ light cone)",
          null_large["mean_link_nullness"] < null_small["mean_link_nullness"])
 
+    # The diamond sampler must cover the full spatial domain, not one orthant.
+    pts_domain = sprinkle_diamond(3, 500, seed=23)
+    test("T7: diamond sampler covers negative spatial coordinates",
+         all(any(p[k] < 0 for p in pts_domain) for k in (1, 2)))
+    test("T7: diamond sampler covers positive spatial coordinates",
+         all(any(p[k] > 0 for p in pts_domain) for k in (1, 2)))
+
     # ORDER is blind to the conformal factor (Malament/HKM), pointwise.
     inv = conformal_invariance_of_order()
-    test("T7: order invariant under conformal factor Ω² > 0", inv["invariant"])
+    test("T7: constant conformal rescaling preserves interval signs",
+         inv["invariant"])
 
-    # COUNT → conformal factor: recover Ω(x)² from binned counts.
+    # Recover the normalized generating-density profile from binned counts.
     pts_conf, weight = conformal_sprinkle_1d(4000, b=1.0, seed=7)
     conf = recover_conformal_factor(pts_conf, weight, b=1.0, n_bins=10)
-    test("T7: conformal factor recovered from counts (MSE small)",
+    test("T7: normalized generating density recovered (MSE small)",
          conf["mse"] < 0.05)
 
-    # ORDER + COUNT → dimension: ordering fraction is monotone in d.
-    ref = reference_ordering_fractions([2, 3, 4], n=400, trials=5, seed=42)
+    # ORDER + COUNT → dimension. First catch the normalization exactly:
+    # every unordered pair on a timelike line is comparable, so r = 1.
+    line = [(0.0, 0.0), (1.0, 0.0), (2.0, 0.0)]
+    test("T7: ordering fraction uses R/C(N,2) normalization",
+         abs(ordering_fraction(line) - 1.0) < 1e-12)
+
+    # Compare the sampler to the analytic Myrheim–Meyer fractions rather than
+    # calibrating and testing on the same Monte-Carlo implementation.
+    analytic_ref = {
+        d: myrheim_meyer_ordering_fraction(d) for d in (2, 3, 4)
+    }
+    test("T7: analytic Myrheim–Meyer fractions are known values",
+         abs(analytic_ref[2] - 0.5) < 1e-12
+         and abs(analytic_ref[3] - 8 / 35) < 1e-12
+         and abs(analytic_ref[4] - 0.1) < 1e-12)
+    ref_mc = reference_ordering_fractions([2, 3, 4], n=500,
+                                          trials=5, seed=42)
+    test("T7: sampled ordering fractions match analytic references",
+         all(abs(ref_mc[d] - analytic_ref[d]) < 0.035 for d in (2, 3, 4)))
     test("T7: ordering fraction decreases with dimension",
-         ref[2] > ref[3] > ref[4])
+         analytic_ref[2] > analytic_ref[3] > analytic_ref[4])
 
     # Dimension recovery on fresh sprinklings.
     est = {}
     for d in (2, 3, 4):
         pts = sprinkle_diamond(d, 400, seed=100 + d)
-        est[d] = estimate_dimension(pts, ref)
+        est[d] = estimate_dimension(pts, analytic_ref)
     test("T7: dimension recovered (d=2)", est[2] == 2)
     test("T7: dimension recovered (d=3)", est[3] == 3)
     test("T7: dimension recovered (d=4)", est[4] == 4)
 
     # End-to-end.
     r = run_t7()
-    test("T7: end-to-end links → light cone",
+    test("T7: end-to-end link-nullness diagnostic improves",
          r["links_more_null_at_higher_density"])
     test("T7: certificate status honest (estimator verification ≠ emergence)",
-         "Estimator verification" in r["certificate"]["status"])
+         "Synthetic estimator verification" in r["certificate"]["status"])
+    test("T7: certificate declares no empirical interface",
+         r["certificate"]["empirical_interface"].startswith("None."))
+    test("T7: certificate blocks inference from synthetic check to physics",
+         "supplies no evidence" in r["certificate"]["physical_inference_barrier"])
 
 
 # ── Correlation-Class Frontier (T6b) Tests ─────────────────────────────────
@@ -5368,10 +5462,17 @@ def main():
         traceback.print_exc()
 
     try:
-        test_gravity_v2()
+        test_legacy_gravity_quarantine()
     except Exception as e:
         ERROR += 1
-        print(f"  ERROR in gravity_v2: {e}")
+        print(f"  ERROR in legacy_gravity_quarantine: {e}")
+        traceback.print_exc()
+
+    try:
+        test_legacy_gravity_v2()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in legacy_gravity_v2: {e}")
         traceback.print_exc()
 
     try:

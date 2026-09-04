@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Step 2: Metric Reconstruction
+RETIRED / QUARANTINED — superseded Π-weighted metric experiment.
+
+The generator supplies continuum coordinates and metric structure. The
+calculation does not derive a metric from DET records.
 
 Reconstructs the Lorentzian metric from the causal order (≺) and
 the Π-weighted measure (μ_N) on a sprinkled event graph.
@@ -20,6 +23,10 @@ Expected scaling: ~ O(N^{-1/2}).
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

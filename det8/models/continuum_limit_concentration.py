@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Measure Concentration Proof
+RETIRED / QUARANTINED — superseded measure-concentration sketch.
+
+The code evaluates generated samples; it does not prove the advertised
+continuum theorem or establish Π as physical volume.
 
 Proves that the Π-weighted empirical measure concentrates around
 its mean with explicit exponential bounds.
@@ -28,6 +31,10 @@ boundedness condition for concentration inequalities.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

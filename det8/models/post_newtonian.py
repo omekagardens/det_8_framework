@@ -1,5 +1,8 @@
 """
-DET Post-Newtonian κ-Gravity — Solar System Tests
+RETIRED / QUARANTINED — historical post-Newtonian κ-gravity checks.
+
+The module inserts a withdrawn κ-dependent coupling into standard PPN
+formulas. Agreement obtained after that insertion is not a DET derivation.
 
 Extends DET κ-gravity to the relativistic regime using the
 Parameterized Post-Newtonian (PPN) formalism.
@@ -22,6 +25,10 @@ These constrain how much κ can vary on solar-system scales.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

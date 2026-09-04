@@ -1,5 +1,8 @@
 """
-DET Track A — Gravity Decoupling Experiment Simulator
+RETIRED / QUARANTINED — historical gravity-decoupling simulator.
+
+This simulator targets a withdrawn κ-gravity law. Its outputs are synthetic
+regression fixtures, not predictions or proposed measurements.
 
 Full Monte Carlo simulation of the κ-gravity decoupling experiment.
 Tests the DET prediction that gravitational force changes when κ
@@ -20,6 +23,10 @@ measurements of the same κ-field.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

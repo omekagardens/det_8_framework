@@ -1,5 +1,8 @@
 """
-DET v8.0 — Unified End-to-End Simulation
+RETIRED / QUARANTINED — historical end-to-end simulation.
+
+This bundle activates the withdrawn κ-gravity model and therefore cannot be
+used as an active DET simulation. It remains only for historical regression.
 
 Integrates all DET physics layers into a single simulation:
   1. Node records: κ, F, σ, H, C (det8_core)
@@ -15,6 +18,10 @@ derived observables working together in a single multi-node system.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

@@ -24,19 +24,22 @@ conflated in "causal set → spacetime" programs; T7 keeps them apart:
 
 What is implemented (pure stdlib):
 
-  - Poisson sprinkling into a causal diamond (Alexandrov interval) of
-    d-dimensional Minkowski spacetime (d = 2, 3, 4).
-  - causal order from the flat metric.
-  - ORDER → null/conformal structure: the links of an event lie on its light
-    cone (numerically; the underlying theorem is Malament 1977 / Hawking–King–
-    McCarthy 1976 — the causal order determines the metric up to conformal
-    factor). Verified by the shrinking nullness of links with density.
-  - COUNT → conformal factor: the counting density is ρ·Ω^d; a non-uniform
+  - fixed-count iid sampling in a causal diamond (equivalent to a Poisson
+    sprinkling conditioned on N = n) of d-dimensional Minkowski spacetime
+    (d = 2, 3, 4).
+  - causal order generated from the imported flat metric.
+  - ORDER → null/conformal diagnostic: under the hypotheses of the imported
+    Malament / Hawking–King–McCarthy results, causal structure fixes conformal
+    structure. This module does not prove that theorem. It checks only that a
+    finite-density link-nullness diagnostic improves on selected generated data.
+  - COUNT → conformal-factor diagnostic: in the generating model the counting
+    density is ρ·Ω^d at fixed known ρ; a non-uniform
     conformal sprinkling in 1+1 has its conformal factor recovered from counts
     while its causal order stays flat (conformal invariance of order).
   - ORDER+COUNT → dimension: the ordering fraction r = R/C(N,2) in a diamond
-    is a shape-independent function of d (Myrheim–Meyer); dimension is
-    recovered by comparison to a Monte-Carlo reference.
+    is a dimension-dependent function (Myrheim–Meyer); dimension is recovered
+    by comparison to the analytic reference. Independent Monte-Carlo estimates
+    are retained as implementation diagnostics.
 
 DERIVATION CERTIFICATE (honest provenance):
 
@@ -45,7 +48,8 @@ DERIVATION CERTIFICATE (honest provenance):
   count ⇒ conformal factor       MATH — causal set "order + number = geometry"
                                           (Sorkin et al.); cited.
   ordering fraction ⇒ dimension  MATH — Myrheim (1978); Meyer (1988); cited.
-  estimator verification         CORR — on known Minkowski sprinklings.
+  estimator verification         synthetic CORR — on generated Minkowski
+                                          sprinklings; no empirical interface.
   manifoldlike emergence         OPEN — not derived here; inherited from causal
                                           set theory (not resolved by DET).
 
@@ -83,22 +87,34 @@ def _in_diamond(p: tuple) -> bool:
 
 
 def sprinkle_diamond(dim: int, n: int, seed: int = 42,
-                     weight=None) -> list[tuple]:
+                     weight=None, weight_max: float = 1.0) -> list[tuple]:
     """Rejection-sample n events in the d-dimensional unit causal diamond.
 
     `weight` optionally biases the density (used for the conformal-factor
-    demonstration); it must be a callable p -> positive float. Rejection
-    sampling multiplies the uniform density by weight(p)/w_max.
+    demonstration); it must be a callable p -> non-negative float bounded by
+    `weight_max`. The proposal box is [0,1] × [−1/2,1/2]^(d−1), which
+    contains the full diamond rather than only one spatial orthant.
     """
+    if dim < 2:
+        raise ValueError("dim must be at least 2")
+    if n < 0:
+        raise ValueError("n must be non-negative")
+    if not math.isfinite(weight_max) or weight_max <= 0:
+        raise ValueError("weight_max must be finite and positive")
+
     rng = random.Random(seed)
     points: list[tuple] = []
-    w_max = 1.0
     while len(points) < n:
-        p = tuple(rng.random() for _ in range(dim))  # (t, x, y, ...)
+        p = (rng.random(),) + tuple(
+            rng.random() - 0.5 for _ in range(dim - 1)
+        )
         if not _in_diamond(p):
             continue
         if weight is not None:
-            if rng.random() > weight(p) / w_max:
+            w = weight(p)
+            if not math.isfinite(w) or w < 0 or w > weight_max:
+                raise ValueError("weight must be finite and lie in [0, weight_max]")
+            if rng.random() > w / weight_max:
                 continue
         points.append(p)
     return points
@@ -121,8 +137,9 @@ def build_causality(points: list[tuple]) -> list[list[bool]]:
 def links(prec: list[list[bool]]) -> list[list[int]]:
     """links[i] = {j : i ≺ j with no k such that i ≺ k ≺ j}.
 
-    In a manifoldlike causal set, links lie on the light cone of i (Malament /
-    HKM content made discrete). Returns the list-of-lists for all i.
+    For the generated manifoldlike samples, link separations provide a
+    finite-density null-cone diagnostic. This is not the Malament/HKM theorem
+    and does not establish continuum or physical manifoldlikeness.
     """
     n = len(prec)
     L = [[] for _ in range(n)]
@@ -143,7 +160,8 @@ def links(prec: list[list[bool]]) -> list[list[int]]:
 def link_nullness(points: list[tuple], prec: list[list[bool]]) -> dict:
     """Mean null separation δ = Δt − ‖Δx‖ over links vs over all comparable pairs.
 
-    Links should be nearly null (δ ≈ 0); generic comparable pairs are not.
+    In the selected generated samples, links should be nearer null (δ ≈ 0)
+    than generic comparable pairs.
     """
     L = links(prec)
     link_deltas = []
@@ -179,13 +197,27 @@ def ordering_fraction(points: list[tuple]) -> float:
     prec = build_causality(points)
     n = len(points)
     R = sum(1 for i in range(n) for j in range(n) if prec[i][j])
-    denom = n * (n - 1)
+    denom = n * (n - 1) / 2
     return R / denom if denom else 0.0
+
+
+def myrheim_meyer_ordering_fraction(dim: int) -> float:
+    """Analytic ordering fraction for a Minkowski Alexandrov interval.
+
+    r(d) = Γ(d+1) Γ(d/2) / [2 Γ(3d/2)].
+    This is imported causal-set mathematics, not a DET-derived law.
+    """
+    if dim < 2:
+        raise ValueError("dim must be at least 2")
+    return (
+        math.gamma(dim + 1) * math.gamma(dim / 2)
+        / (2 * math.gamma(3 * dim / 2))
+    )
 
 
 def reference_ordering_fractions(dims: list[int], n: int = 400,
                                  trials: int = 5, seed: int = 42) -> dict:
-    """Monte-Carlo reference r(d) for each spacetime dimension d."""
+    """Independent Monte-Carlo estimates of r(d), for implementation checks."""
     ref = {}
     for d in dims:
         rs = []
@@ -212,18 +244,35 @@ def conformal_invariance_of_order() -> dict:
     which preserves its sign. Hence two events are causally related under g iff
     they are under Ω² g. This is the exact (pointwise) form of "order is blind
     to the conformal factor": the order alone can determine the metric only up
-    to Ω. Verified on a toy pair below.
+    to Ω. The constant-factor sign calculation below is only an arithmetic
+    sanity check; it does not verify the general theorem.
     """
-    p = (0.0, 0.0)
-    q = (1.0, 0.4)  # timelike: dt=1 > |dx|=0.4.
-    flat = causally_related(p, q)
-    # Any positive conformal factor preserves comparability.
-    same_for_all_omega = all(causally_related(p, q) == flat
-                             for omega2 in (0.5, 1.0, 3.0, 100.0))
+    pairs = {
+        "timelike": ((0.0, 0.0), (1.0, 0.4)),
+        "null": ((0.0, 0.0), (1.0, 1.0)),
+        "spacelike": ((0.0, 0.0), (1.0, 1.4)),
+    }
+
+    def interval_squared(pair):
+        p, q = pair
+        return (q[0] - p[0]) ** 2 - _spatial_dist(p, q) ** 2
+
+    def sign(x):
+        return (x > 0) - (x < 0)
+
+    flat_signs = {kind: sign(interval_squared(pair))
+                  for kind, pair in pairs.items()}
+    omega_values = (0.5, 1.0, 3.0, 100.0)
+    same_for_all_omega = all(
+        sign(omega2 * interval_squared(pair)) == flat_signs[kind]
+        for omega2 in omega_values
+        for kind, pair in pairs.items()
+    )
     return {
         "statement": "g → Ω²·g preserves the causal order for every Ω² > 0 (Malament/HKM).",
-        "toy_pair": (p, q),
-        "comparable_flat": flat,
+        "toy_pairs": pairs,
+        "flat_interval_signs": flat_signs,
+        "tested_constant_factors": omega_values,
         "invariant": same_for_all_omega,
     }
 
@@ -283,20 +332,29 @@ def derivation_certificate() -> dict:
             "causal order ⇒ conformal (null) structure": "MATH — Malament (1977); Hawking–King–McCarthy (1976); cited",
             "counting measure ⇒ conformal factor": "MATH — causal-set 'order + number = geometry' (Sorkin et al.); cited",
             "ordering fraction ⇒ dimension": "MATH — Myrheim (1978); Meyer (1988); cited",
-            "links on the light cone (estimator check)": "CORR — verified on known Minkowski sprinklings",
-            "conformal factor from counts (estimator check)": "CORR — verified on a known conformally-flat 1+1 sprinkling",
-            "dimension recovery (estimator check)": "CORR — verified against a Monte-Carlo reference",
+            "finite-density link-nullness diagnostic": "synthetic CORR — checked on generated Minkowski sprinklings",
+            "normalized conformal profile from counts": "synthetic CORR — checked with known density and generating profile",
+            "dimension recovery (estimator check)": "synthetic CORR — verified against the analytic Myrheim–Meyer reference",
         },
+        "empirical_interface": (
+            "None. Inputs are pseudo-random points generated from known "
+            "Minkowski or conformally flat geometries."
+        ),
+        "physical_inference_barrier": (
+            "Passing these checks validates code behavior conditional on the "
+            "generating models; it supplies no evidence that physical events "
+            "are causal-set elements or that a metric is an actualized record."
+        ),
         "not_derived_here": [
             "manifoldlike emergence — the claim that a bare (≺, #) structure embeds uniquely into a Lorentzian manifold; OPEN in causal set theory, inherited by DET",
             "gravity or curvature — out of scope for T7 (kinematic only)",
             "the Π/κ conformal factor — retired; count supersedes it",
         ],
         "status": (
-            "Estimator verification complete (CORR). Genuine emergence is the "
+            "Synthetic estimator verification complete (CORR). Genuine emergence is the "
             "open manifoldlikeness problem, stated explicitly rather than "
-            "claimed. DET does NOT derive spacetime from primitives; it verifies "
-            "that order+count reconstructs a known Lorentzian geometry."
+            "claimed. DET does NOT derive spacetime from primitives; it checks "
+            "selected estimators against known generated Lorentzian geometries."
         ),
     }
 
@@ -305,8 +363,8 @@ def derivation_certificate() -> dict:
 
 
 def run_t7() -> dict:
-    """Full T7 picture: null structure, conformal factor, dimension."""
-    # 1. Links → light cone (order → conformal class), 1+1 at two densities.
+    """Synthetic T7 diagnostics for nullness, density profile, and dimension."""
+    # 1. Finite-density link-nullness diagnostic in 1+1.
     pts_small = sprinkle_diamond(2, 60, seed=1)
     pts_large = sprinkle_diamond(2, 240, seed=1)
     prec_small = build_causality(pts_small)
@@ -314,17 +372,22 @@ def run_t7() -> dict:
     null_small = link_nullness(pts_small, prec_small)
     null_large = link_nullness(pts_large, prec_large)
 
-    # 2. Count → conformal factor (1+1 non-uniform conformal sprinkling).
+    # 2. Counts → normalized generating-density profile in 1+1.
     pts_conf, weight = conformal_sprinkle_1d(4000, b=1.0, seed=7)
     conf = recover_conformal_factor(pts_conf, weight, b=1.0, n_bins=10)
     order_inv = conformal_invariance_of_order()
 
     # 3. Order+count → dimension.
-    ref = reference_ordering_fractions([2, 3, 4], n=400, trials=5, seed=42)
+    analytic_ref = {
+        d: myrheim_meyer_ordering_fraction(d) for d in (2, 3, 4)
+    }
+    monte_carlo_ref = reference_ordering_fractions(
+        [2, 3, 4], n=400, trials=5, seed=42
+    )
     est_dims = {}
     for d in (2, 3, 4):
         pts = sprinkle_diamond(d, 400, seed=100 + d)
-        est_dims[d] = estimate_dimension(pts, ref)
+        est_dims[d] = estimate_dimension(pts, analytic_ref)
 
     return {
         "links_nullness_small": null_small,
@@ -333,16 +396,20 @@ def run_t7() -> dict:
             null_large["mean_link_nullness"] < null_small["mean_link_nullness"],
         "conformal_recovery": conf,
         "order_conformal_invariance": order_inv,
-        "reference_ordering_fractions": ref,
+        "reference_ordering_fractions": analytic_ref,
+        "monte_carlo_ordering_fractions": monte_carlo_ref,
+        "monte_carlo_reference_errors": {
+            d: monte_carlo_ref[d] - analytic_ref[d] for d in analytic_ref
+        },
         "estimated_dimensions": est_dims,
         "certificate": derivation_certificate(),
         "interpretation": (
-            "Links are nearly null (order ⇒ conformal class), more so at higher "
-            "density. The causal order is invariant under a conformal factor "
-            "(Malament/HKM), while a non-uniform conformal factor is recovered "
-            "from counts (count ⇒ conformal factor). The ordering fraction "
-            "recovers the spacetime dimension. All are estimator verifications "
-            "on KNOWN manifolds; manifoldlike emergence remains the open "
+            "On generated samples, the link-nullness diagnostic improves with "
+            "density, a positive constant conformal rescaling preserves interval "
+            "sign in a toy check, a known normalized density profile is recovered "
+            "from counts, and analytic ordering fractions recover the generating "
+            "dimensions. These are synthetic checks conditional on imported "
+            "geometries and causal-set mathematics; manifoldlike emergence remains the open "
             "causal-set problem DET inherits."
         ),
     }

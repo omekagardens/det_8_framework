@@ -1,5 +1,8 @@
 """
-DET-Native κ(r) Derivation from Galaxy Formation Physics
+RETIRED / QUARANTINED — historical galactic κ-profile construction.
+
+The construction below was designed for the withdrawn κ-gravity program and
+does not provide an active physical inference.
 
 DEPRECATED (Round 6, Option B): the gravity-modification program is retired.
 κ does NOT couple to gravity, so a κ(r) rotation-curve profile is no longer
@@ -35,6 +38,10 @@ predictive, not just fitting (subject to the sign caveat above).
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

@@ -1,5 +1,8 @@
 """
-DET O7 — Full 5-Step Derivation: Event Graph → Lorentzian Spacetime
+RETIRED / QUARANTINED — superseded five-step O7 claim.
+
+The steps below depend on supplied geometry and the withdrawn Π/κ gravity
+identifications. They do not constitute a DET derivation.
 
 Executes and verifies each step of the DET-native strategy for
 deriving Lorentzian spacetime from the causal event graph.
@@ -14,6 +17,10 @@ Each step is numerically verified where applicable.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

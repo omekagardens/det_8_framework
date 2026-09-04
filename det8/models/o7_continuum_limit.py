@@ -1,5 +1,8 @@
 """
-DET O7 — Continuum Limit: Event Graph → Lorentzian Manifold
+RETIRED / QUARANTINED — superseded O7 continuum-limit experiment.
+
+The generator supplies a continuum embedding; finite recovery checks do not
+establish manifold emergence or uniqueness.
 
 The final piece: proving that a DET event graph, in the limit of
 infinite events, converges to a smooth Lorentzian manifold with
@@ -46,6 +49,10 @@ Numerical verification:
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

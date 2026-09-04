@@ -304,15 +304,23 @@ reconstructed); **Theorem statement** (`A_1,…,A_n ⇒ O`); **Uniqueness statem
 (could alternative lawful structures produce a different result?); **Adversary
 models** (classical stochastic, higher-order interference, non-strongly-positive
 pair-kernel, non-manifoldlike graph, multidimensional history); **Empirical
-interface** (only raw observations: settings/outcomes, timestamps,
-adjacency/precedence, counts, oscillator frequencies, measured probe values);
+interface** (instrument registrations first: device and trial identifiers,
+settings and outcomes, local timestamps, oscillator or ADC counts, image pixels,
+measured probe readouts, calibration records, and uncertainties; then list the
+analysis that produces any derived quantity). Adjacency or apparatus precedence
+is raw only when the registration rule directly defines it; relativistic causal
+order is inferred through localization, synchronization, and propagation models.
+A registered-event count is raw under a declared counting rule, while a
+fundamental event count, sprinkling density, or count-to-volume identification is
+a formal premise;
 **Classification** — `MATH` (imported mathematics, attributed), `AX-DET`
 (DET-specific axiom), `TH-DET` (theorem from DET axioms), `CORR`
 (correspondence after importing physical structure), `FIT` (phenomenological
 fit), `PR` (pre-registered prediction), `EV` (empirically validated).
 
-Examples: Bell state + rotations = `CORR`; Minkowski sprinkling + recovered
-metric = `CORR`; pair-kernel axioms ⇒ `I_3=0` = `TH-DET` (once the axioms are
+Examples: Bell state + rotations = `CORR`; a known Minkowski geometry generating
+a sprinkling followed by metric-feature recovery = synthetic `CORR`, not an
+empirical spacetime observation; pair-kernel axioms ⇒ `I_3=0` = `TH-DET` (once the axioms are
 justified); commit path ratio ⇒ `⟨e^{−Σ}⟩=1` = `TH-DET`; local symmetric kernel
 ⇒ graph diffusion = `TH-DET`; clock shift fit to `λ_P κ` = `FIT/PR`.
 Borrowed mathematics is celebrated and cited; borrowed physical premises are

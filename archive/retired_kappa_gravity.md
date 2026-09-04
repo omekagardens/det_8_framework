@@ -10,6 +10,11 @@ active claim surface. Revisit only if a DET-native gravity mechanism is derived
 from primitives and survives the equivalence-principle / Eötvös / rotation-curve
 discipline (see `det_falsification.gravity_emergence_note()`).
 
+The boundary is also executable: `det8/models/legacy_gravity_quarantine.py`
+registers fully retired, partially quarantined, and synthetic-correspondence
+modules. Every fully retired source exposes a `QUARANTINE` record, and the
+integrated suite rejects imports from those modules into active models.
+
 ---
 
 ## 1. Two-source law (`gravity_v2.py`)
