@@ -1,0 +1,6454 @@
+{
+  "prior_artifacts": {
+    "qr-01-quantum-records-2026-09-05": {
+      "bytes": 2915928,
+      "sha256": "e9af97dab27777775ad37db1f03a85abc9ca3b45b11a7ba79b7e92c0bd1c2c9b"
+    },
+    "qr-02-record-coarse-graining-2026-09-05": {
+      "bytes": 685156,
+      "sha256": "b7f18f32a3b5552b77c0933343e707da400c095758c1065e477eb8ada580af1c"
+    }
+  },
+  "runtime": {
+    "accounting_scope": "exact suite; excludes serialization and later comparison overhead",
+    "bytecode_cache": "/private/tmp/det8-qr03-capture.ulWoshN7",
+    "dependencies": "Python standard library and pinned QR-01 sources; no RET imports",
+    "executable": "/Volumes/AI_DATA/development/det_8_framework-ret/.venv/bin/python",
+    "isolated": true,
+    "optimized": 0,
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "rss_high_water_at_suite_end": 39469056,
+    "rss_units": "bytes",
+    "suite_seconds": 0.11386808300449047
+  },
+  "schema_version": "det8-qr03-results-v1",
+  "source_ledger": {
+    "../qr-01-quantum-records-2026-09-05/exact.py": {
+      "bytes": 12907,
+      "sha256": "4238096b5de4b6aeeee2559b5200e0458a5635be88c06aa960bd50d0c2e3db56"
+    },
+    "../qr-01-quantum-records-2026-09-05/reference.py": {
+      "bytes": 15344,
+      "sha256": "d7fab84717c22632e8be7cfd18aca68d439cbf611cf3a47a11abf25a8fca856f"
+    },
+    "README.md": {
+      "bytes": 10467,
+      "sha256": "e7244e095d021155352439dced5c64bcb6be03436cbde6c8b3cd09d24963e9c9"
+    },
+    "predictive.py": {
+      "bytes": 11749,
+      "sha256": "d7278453b4fba5298b67070af340ba818df3b20a2154639ee01f8a747523e2f0"
+    },
+    "reference_qr03.py": {
+      "bytes": 15823,
+      "sha256": "fa104e92d3a4060821d0a8a5ab6a00a62c501385ce9a217398db5944afcc4735"
+    },
+    "study.py": {
+      "bytes": 17876,
+      "sha256": "45d17123ed1ed293818c45d7e0f835060b6e586d3e8021b1675aa0135511c307"
+    },
+    "test_qr03.py": {
+      "bytes": 27014,
+      "sha256": "34d943f64c99348f37d1ea1d6c75bf4cfad294eca5458807c66938645755761a"
+    }
+  },
+  "suite": {
+    "analytical_controls": {
+      "family_refinements": [
+        {
+          "expanded_family": "phase_tomography",
+          "smaller_family": "phase_z_only",
+          "strict_refinement": true
+        },
+        {
+          "expanded_family": "projective_z_tomography",
+          "smaller_family": "projective_z_x_only",
+          "strict_refinement": true
+        }
+      ],
+      "input_specific_impossibility": [
+        {
+          "history_probability": "1",
+          "possible_on_input": true,
+          "predictions": [
+            {
+              "outcome": "+",
+              "probability": "1/2",
+              "setting": "X"
+            },
+            {
+              "outcome": "-",
+              "probability": "1/2",
+              "setting": "X"
+            }
+          ],
+          "record": [
+            [
+              "z",
+              "0"
+            ]
+          ]
+        },
+        {
+          "history_probability": "0",
+          "possible_on_input": false,
+          "predictions": [
+            {
+              "outcome": "+",
+              "probability": null,
+              "setting": "X"
+            },
+            {
+              "outcome": "-",
+              "probability": null,
+              "setting": "X"
+            }
+          ],
+          "record": [
+            [
+              "z",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "maximally_mixed_false_merge": {
+        "all_state_failure_witness": {
+          "bloch": [
+            "1/2",
+            "0",
+            "0"
+          ],
+          "delta": "1/2",
+          "density": [
+            [
+              [
+                "1/2",
+                "0"
+              ],
+              [
+                "1/4",
+                "0"
+              ]
+            ],
+            [
+              [
+                "1/4",
+                "0"
+              ],
+              [
+                "1/2",
+                "0"
+              ]
+            ]
+          ],
+          "left_conditional": "3/4",
+          "left_history_probability": "9/25",
+          "outcome": "+",
+          "right_conditional": "1/4",
+          "right_history_probability": "16/25",
+          "setting": "X"
+        },
+        "predictions": [
+          {
+            "history_probability": "9/25",
+            "possible_on_input": true,
+            "predictions": [
+              {
+                "outcome": "+",
+                "probability": "1/2",
+                "setting": "X"
+              },
+              {
+                "outcome": "-",
+                "probability": "1/2",
+                "setting": "X"
+              },
+              {
+                "outcome": "+",
+                "probability": "1/2",
+                "setting": "Y"
+              },
+              {
+                "outcome": "-",
+                "probability": "1/2",
+                "setting": "Y"
+              },
+              {
+                "outcome": "+",
+                "probability": "1/2",
+                "setting": "Z"
+              },
+              {
+                "outcome": "-",
+                "probability": "1/2",
+                "setting": "Z"
+              }
+            ],
+            "record": [
+              [
+                "phase",
+                "a"
+              ]
+            ]
+          },
+          {
+            "history_probability": "16/25",
+            "possible_on_input": true,
+            "predictions": [
+              {
+                "outcome": "+",
+                "probability": "1/2",
+                "setting": "X"
+              },
+              {
+                "outcome": "-",
+                "probability": "1/2",
+                "setting": "X"
+              },
+              {
+                "outcome": "+",
+                "probability": "1/2",
+                "setting": "Y"
+              },
+              {
+                "outcome": "-",
+                "probability": "1/2",
+                "setting": "Y"
+              },
+              {
+                "outcome": "+",
+                "probability": "1/2",
+                "setting": "Z"
+              },
+              {
+                "outcome": "-",
+                "probability": "1/2",
+                "setting": "Z"
+              }
+            ],
+            "record": [
+              [
+                "phase",
+                "b"
+              ]
+            ]
+          }
+        ]
+      },
+      "predictive_not_full_state_equivalence": [
+        {
+          "normalized_state": [
+            [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "record": [
+            [
+              "z",
+              "0"
+            ]
+          ]
+        },
+        {
+          "normalized_state": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          ],
+          "record": [
+            [
+              "z",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "same_last_x_distinct_history_weights": [
+        {
+          "history_probability": "3/8",
+          "possible_on_input": true,
+          "predictions": [
+            {
+              "outcome": "+",
+              "probability": "1",
+              "setting": "X"
+            },
+            {
+              "outcome": "-",
+              "probability": "0",
+              "setting": "X"
+            },
+            {
+              "outcome": "+",
+              "probability": "1/2",
+              "setting": "Y"
+            },
+            {
+              "outcome": "-",
+              "probability": "1/2",
+              "setting": "Y"
+            },
+            {
+              "outcome": "+",
+              "probability": "1/2",
+              "setting": "Z"
+            },
+            {
+              "outcome": "-",
+              "probability": "1/2",
+              "setting": "Z"
+            }
+          ],
+          "record": [
+            [
+              "x",
+              "+"
+            ],
+            [
+              "z",
+              "0"
+            ]
+          ]
+        },
+        {
+          "history_probability": "1/8",
+          "possible_on_input": true,
+          "predictions": [
+            {
+              "outcome": "+",
+              "probability": "1",
+              "setting": "X"
+            },
+            {
+              "outcome": "-",
+              "probability": "0",
+              "setting": "X"
+            },
+            {
+              "outcome": "+",
+              "probability": "1/2",
+              "setting": "Y"
+            },
+            {
+              "outcome": "-",
+              "probability": "1/2",
+              "setting": "Y"
+            },
+            {
+              "outcome": "+",
+              "probability": "1/2",
+              "setting": "Z"
+            },
+            {
+              "outcome": "-",
+              "probability": "1/2",
+              "setting": "Z"
+            }
+          ],
+          "record": [
+            [
+              "x",
+              "+"
+            ],
+            [
+              "z",
+              "1"
+            ]
+          ]
+        }
+      ]
+    },
+    "bounds": {
+      "coefficient_guard_bits": 4096,
+      "full_rank_witness_probes": 10,
+      "future_settings": 3,
+      "general_adaptive_graph": false,
+      "hermitian_basis_dimension": 4,
+      "input_component_bits": 64,
+      "quadratic_monomials": 10,
+      "qubits": 1,
+      "source_events": 2,
+      "source_histories": 4
+    },
+    "cases": [
+      {
+        "analysis": {
+          "basis": [
+            "P0",
+            "P1",
+            "X",
+            "Y"
+          ],
+          "candidate_conflicts": [],
+          "candidate_valid": true,
+          "classes": [
+            [
+              [
+                [
+                  "coin",
+                  "a"
+                ]
+              ],
+              [
+                [
+                  "coin",
+                  "b"
+                ]
+              ]
+            ]
+          ],
+          "histories": [
+            {
+              "denominator": [
+                "9/25",
+                "9/25",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "9/50",
+                    "9/50",
+                    "9/25",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "9/50",
+                    "9/50",
+                    "-9/25",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "9/50",
+                    "9/50",
+                    "0",
+                    "9/25"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "9/50",
+                    "9/50",
+                    "0",
+                    "-9/25"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "9/25",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "9/25",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "coin",
+                  "a"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "16/25",
+                "16/25",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "8/25",
+                    "8/25",
+                    "16/25",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "8/25",
+                    "8/25",
+                    "-16/25",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "8/25",
+                    "8/25",
+                    "0",
+                    "16/25"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "8/25",
+                    "8/25",
+                    "0",
+                    "-16/25"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "16/25",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "16/25",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "coin",
+                  "b"
+                ]
+              ],
+              "status": "POSSIBLE"
+            }
+          ],
+          "monomials": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "never_possible": [],
+          "pairs": [
+            {
+              "equal": true,
+              "left": [
+                [
+                  "coin",
+                  "a"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "coin",
+                  "b"
+                ]
+              ],
+              "witness": null
+            }
+          ]
+        },
+        "expected_candidate_valid": true,
+        "expected_classes": 1,
+        "expected_never_possible": 0,
+        "max_retained_coefficient_witness_bits": 6,
+        "name": "coin_tomography",
+        "problem": {
+          "futures": [
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "-1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "-1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "X"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "-1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "-1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Y"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Z"
+            }
+          ],
+          "schedule": [
+            "coin"
+          ],
+          "schema_version": "det8-qr03-problem-v1",
+          "source": {
+            "events": [
+              {
+                "event_id": "coin",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "3/5",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "3/5",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "a"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "4/5",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "4/5",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "b"
+                  }
+                ],
+                "record_id": "coin",
+                "support": [
+                  0
+                ]
+              }
+            ],
+            "precedence": [],
+            "qubits": 1,
+            "schema_version": "det8-qr01-problem-v1"
+          },
+          "summary": [
+            {
+              "label": "all",
+              "record": [
+                [
+                  "coin",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "label": "all",
+              "record": [
+                [
+                  "coin",
+                  "b"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "analysis": {
+          "basis": [
+            "P0",
+            "P1",
+            "X",
+            "Y"
+          ],
+          "candidate_conflicts": [],
+          "candidate_valid": true,
+          "classes": [
+            [
+              [
+                [
+                  "phase",
+                  "a"
+                ]
+              ],
+              [
+                [
+                  "phase",
+                  "b"
+                ]
+              ]
+            ]
+          ],
+          "histories": [
+            {
+              "denominator": [
+                "9/25",
+                "9/25",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "9/25",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "9/25",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "phase",
+                  "a"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "16/25",
+                "16/25",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "16/25",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "16/25",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "phase",
+                  "b"
+                ]
+              ],
+              "status": "POSSIBLE"
+            }
+          ],
+          "monomials": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "never_possible": [],
+          "pairs": [
+            {
+              "equal": true,
+              "left": [
+                [
+                  "phase",
+                  "a"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "phase",
+                  "b"
+                ]
+              ],
+              "witness": null
+            }
+          ]
+        },
+        "expected_candidate_valid": true,
+        "expected_classes": 1,
+        "expected_never_possible": 0,
+        "max_retained_coefficient_witness_bits": 5,
+        "name": "phase_z_only",
+        "problem": {
+          "futures": [
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Z"
+            }
+          ],
+          "schedule": [
+            "phase"
+          ],
+          "schema_version": "det8-qr03-problem-v1",
+          "source": {
+            "events": [
+              {
+                "event_id": "phase",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "3/5",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "3/5",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "a"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "4/5",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "-4/5",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "b"
+                  }
+                ],
+                "record_id": "phase",
+                "support": [
+                  0
+                ]
+              }
+            ],
+            "precedence": [],
+            "qubits": 1,
+            "schema_version": "det8-qr01-problem-v1"
+          },
+          "summary": [
+            {
+              "label": "all",
+              "record": [
+                [
+                  "phase",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "label": "all",
+              "record": [
+                [
+                  "phase",
+                  "b"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "analysis": {
+          "basis": [
+            "P0",
+            "P1",
+            "X",
+            "Y"
+          ],
+          "candidate_conflicts": [
+            {
+              "equal": false,
+              "label": "all",
+              "left": [
+                [
+                  "phase",
+                  "a"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "288/625",
+                    "0",
+                    "0",
+                    "288/625",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "-288/625",
+                    "0",
+                    "0",
+                    "-288/625",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "288/625",
+                    "0",
+                    "0",
+                    "288/625",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "-288/625",
+                    "0",
+                    "0",
+                    "-288/625",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "phase",
+                  "b"
+                ]
+              ],
+              "witness": {
+                "bloch": [
+                  "1/2",
+                  "0",
+                  "0"
+                ],
+                "delta": "1/2",
+                "density": [
+                  [
+                    [
+                      "1/2",
+                      "0"
+                    ],
+                    [
+                      "1/4",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "1/4",
+                      "0"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ],
+                "left_conditional": "3/4",
+                "left_history_probability": "9/25",
+                "outcome": "+",
+                "right_conditional": "1/4",
+                "right_history_probability": "16/25",
+                "setting": "X"
+              }
+            }
+          ],
+          "candidate_valid": false,
+          "classes": [
+            [
+              [
+                [
+                  "phase",
+                  "a"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  "phase",
+                  "b"
+                ]
+              ]
+            ]
+          ],
+          "histories": [
+            {
+              "denominator": [
+                "9/25",
+                "9/25",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "9/50",
+                    "9/50",
+                    "9/25",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "9/50",
+                    "9/50",
+                    "-9/25",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "9/50",
+                    "9/50",
+                    "0",
+                    "9/25"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "9/50",
+                    "9/50",
+                    "0",
+                    "-9/25"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "9/25",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "9/25",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "phase",
+                  "a"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "16/25",
+                "16/25",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "8/25",
+                    "8/25",
+                    "-16/25",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "8/25",
+                    "8/25",
+                    "16/25",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "8/25",
+                    "8/25",
+                    "0",
+                    "-16/25"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "8/25",
+                    "8/25",
+                    "0",
+                    "16/25"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "16/25",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "16/25",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "phase",
+                  "b"
+                ]
+              ],
+              "status": "POSSIBLE"
+            }
+          ],
+          "monomials": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "never_possible": [],
+          "pairs": [
+            {
+              "equal": false,
+              "left": [
+                [
+                  "phase",
+                  "a"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "288/625",
+                    "0",
+                    "0",
+                    "288/625",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "-288/625",
+                    "0",
+                    "0",
+                    "-288/625",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "288/625",
+                    "0",
+                    "0",
+                    "288/625",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "-288/625",
+                    "0",
+                    "0",
+                    "-288/625",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "phase",
+                  "b"
+                ]
+              ],
+              "witness": {
+                "bloch": [
+                  "1/2",
+                  "0",
+                  "0"
+                ],
+                "delta": "1/2",
+                "density": [
+                  [
+                    [
+                      "1/2",
+                      "0"
+                    ],
+                    [
+                      "1/4",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "1/4",
+                      "0"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ],
+                "left_conditional": "3/4",
+                "left_history_probability": "9/25",
+                "outcome": "+",
+                "right_conditional": "1/4",
+                "right_history_probability": "16/25",
+                "setting": "X"
+              }
+            }
+          ]
+        },
+        "expected_candidate_valid": false,
+        "expected_classes": 2,
+        "expected_never_possible": 0,
+        "max_retained_coefficient_witness_bits": 10,
+        "name": "phase_tomography",
+        "problem": {
+          "futures": [
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "-1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "-1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "X"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "-1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "-1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Y"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Z"
+            }
+          ],
+          "schedule": [
+            "phase"
+          ],
+          "schema_version": "det8-qr03-problem-v1",
+          "source": {
+            "events": [
+              {
+                "event_id": "phase",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "3/5",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "3/5",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "a"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "4/5",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "-4/5",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "b"
+                  }
+                ],
+                "record_id": "phase",
+                "support": [
+                  0
+                ]
+              }
+            ],
+            "precedence": [],
+            "qubits": 1,
+            "schema_version": "det8-qr01-problem-v1"
+          },
+          "summary": [
+            {
+              "label": "all",
+              "record": [
+                [
+                  "phase",
+                  "a"
+                ]
+              ]
+            },
+            {
+              "label": "all",
+              "record": [
+                [
+                  "phase",
+                  "b"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "analysis": {
+          "basis": [
+            "P0",
+            "P1",
+            "X",
+            "Y"
+          ],
+          "candidate_conflicts": [],
+          "candidate_valid": true,
+          "classes": [
+            [
+              [
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "z",
+                  "1"
+                ]
+              ]
+            ]
+          ],
+          "histories": [
+            {
+              "denominator": [
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                }
+              ],
+              "record": [
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                }
+              ],
+              "record": [
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "status": "POSSIBLE"
+            }
+          ],
+          "monomials": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "never_possible": [],
+          "pairs": [
+            {
+              "equal": true,
+              "left": [
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                }
+              ],
+              "right": [
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "witness": null
+            }
+          ]
+        },
+        "expected_candidate_valid": true,
+        "expected_classes": 1,
+        "expected_never_possible": 0,
+        "max_retained_coefficient_witness_bits": 2,
+        "name": "projective_z_x_only",
+        "problem": {
+          "futures": [
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "-1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "-1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "X"
+            }
+          ],
+          "schedule": [
+            "Z"
+          ],
+          "schema_version": "det8-qr03-problem-v1",
+          "source": {
+            "events": [
+              {
+                "event_id": "Z",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "0"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "1"
+                  }
+                ],
+                "record_id": "z",
+                "support": [
+                  0
+                ]
+              }
+            ],
+            "precedence": [],
+            "qubits": 1,
+            "schema_version": "det8-qr01-problem-v1"
+          },
+          "summary": [
+            {
+              "label": "all",
+              "record": [
+                [
+                  "z",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "label": "all",
+              "record": [
+                [
+                  "z",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "analysis": {
+          "basis": [
+            "P0",
+            "P1",
+            "X",
+            "Y"
+          ],
+          "candidate_conflicts": [
+            {
+              "equal": false,
+              "label": "all",
+              "left": [
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "-1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "witness": {
+                "bloch": [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "delta": "1",
+                "density": [
+                  [
+                    [
+                      "1/2",
+                      "0"
+                    ],
+                    [
+                      "0",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "0",
+                      "0"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ],
+                "left_conditional": "1",
+                "left_history_probability": "1/2",
+                "outcome": "+",
+                "right_conditional": "0",
+                "right_history_probability": "1/2",
+                "setting": "Z"
+              }
+            }
+          ],
+          "candidate_valid": false,
+          "classes": [
+            [
+              [
+                [
+                  "z",
+                  "0"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  "z",
+                  "1"
+                ]
+              ]
+            ]
+          ],
+          "histories": [
+            {
+              "denominator": [
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "status": "POSSIBLE"
+            }
+          ],
+          "monomials": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "never_possible": [],
+          "pairs": [
+            {
+              "equal": false,
+              "left": [
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "-1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "witness": {
+                "bloch": [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "delta": "1",
+                "density": [
+                  [
+                    [
+                      "1/2",
+                      "0"
+                    ],
+                    [
+                      "0",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "0",
+                      "0"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ],
+                "left_conditional": "1",
+                "left_history_probability": "1/2",
+                "outcome": "+",
+                "right_conditional": "0",
+                "right_history_probability": "1/2",
+                "setting": "Z"
+              }
+            }
+          ]
+        },
+        "expected_candidate_valid": false,
+        "expected_classes": 2,
+        "expected_never_possible": 0,
+        "max_retained_coefficient_witness_bits": 2,
+        "name": "projective_z_tomography",
+        "problem": {
+          "futures": [
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "-1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "-1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "X"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "-1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "-1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Y"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Z"
+            }
+          ],
+          "schedule": [
+            "Z"
+          ],
+          "schema_version": "det8-qr03-problem-v1",
+          "source": {
+            "events": [
+              {
+                "event_id": "Z",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "0"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "1"
+                  }
+                ],
+                "record_id": "z",
+                "support": [
+                  0
+                ]
+              }
+            ],
+            "precedence": [],
+            "qubits": 1,
+            "schema_version": "det8-qr01-problem-v1"
+          },
+          "summary": [
+            {
+              "label": "all",
+              "record": [
+                [
+                  "z",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "label": "all",
+              "record": [
+                [
+                  "z",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "analysis": {
+          "basis": [
+            "P0",
+            "P1",
+            "X",
+            "Y"
+          ],
+          "candidate_conflicts": [],
+          "candidate_valid": true,
+          "classes": [
+            [
+              [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ]
+            ]
+          ],
+          "histories": [
+            {
+              "denominator": [
+                "1/2",
+                "0",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "1/4",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "1/4",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "1/4",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "1/4",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "0",
+                "1/2",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "1/2",
+                "0",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "1/4",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "1/4",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "1/4",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "1/4",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "0",
+                "1/2",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "status": "POSSIBLE"
+            }
+          ],
+          "monomials": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "never_possible": [],
+          "pairs": [
+            {
+              "equal": true,
+              "left": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "witness": null
+            },
+            {
+              "equal": false,
+              "left": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "1/4",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "-1/4",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "witness": {
+                "bloch": [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "delta": "1",
+                "density": [
+                  [
+                    [
+                      "1/2",
+                      "0"
+                    ],
+                    [
+                      "0",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "0",
+                      "0"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ],
+                "left_conditional": "1",
+                "left_history_probability": "1/4",
+                "outcome": "+",
+                "right_conditional": "0",
+                "right_history_probability": "1/4",
+                "setting": "X"
+              }
+            },
+            {
+              "equal": false,
+              "left": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "-1/4",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "witness": {
+                "bloch": [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "delta": "1",
+                "density": [
+                  [
+                    [
+                      "1/2",
+                      "0"
+                    ],
+                    [
+                      "0",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "0",
+                      "0"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ],
+                "left_conditional": "1",
+                "left_history_probability": "1/4",
+                "outcome": "+",
+                "right_conditional": "0",
+                "right_history_probability": "1/4",
+                "setting": "X"
+              }
+            },
+            {
+              "equal": false,
+              "left": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "1/4",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "-1/4",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "witness": {
+                "bloch": [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "delta": "1",
+                "density": [
+                  [
+                    [
+                      "1/2",
+                      "0"
+                    ],
+                    [
+                      "0",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "0",
+                      "0"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ],
+                "left_conditional": "1",
+                "left_history_probability": "1/4",
+                "outcome": "+",
+                "right_conditional": "0",
+                "right_history_probability": "1/4",
+                "setting": "X"
+              }
+            },
+            {
+              "equal": false,
+              "left": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "1/4",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "-1/4",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "witness": {
+                "bloch": [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "delta": "1",
+                "density": [
+                  [
+                    [
+                      "1/2",
+                      "0"
+                    ],
+                    [
+                      "0",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "0",
+                      "0"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ],
+                "left_conditional": "1",
+                "left_history_probability": "1/4",
+                "outcome": "+",
+                "right_conditional": "0",
+                "right_history_probability": "1/4",
+                "setting": "X"
+              }
+            },
+            {
+              "equal": true,
+              "left": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ],
+              "witness": null
+            }
+          ]
+        },
+        "expected_candidate_valid": true,
+        "expected_classes": 2,
+        "expected_never_possible": 0,
+        "max_retained_coefficient_witness_bits": 3,
+        "name": "two_stage_zx",
+        "problem": {
+          "futures": [
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "-1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "-1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "X"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "-1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "-1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Y"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Z"
+            }
+          ],
+          "schedule": [
+            "Z",
+            "X"
+          ],
+          "schema_version": "det8-qr03-problem-v1",
+          "source": {
+            "events": [
+              {
+                "event_id": "Z",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "0"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "1"
+                  }
+                ],
+                "record_id": "z",
+                "support": [
+                  0
+                ]
+              },
+              {
+                "event_id": "X",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "-1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "-1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "record_id": "x",
+                "support": [
+                  0
+                ]
+              }
+            ],
+            "precedence": [
+              [
+                "Z",
+                "X"
+              ]
+            ],
+            "qubits": 1,
+            "schema_version": "det8-qr01-problem-v1"
+          },
+          "summary": [
+            {
+              "label": "last_+",
+              "record": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "label": "last_+",
+              "record": [
+                [
+                  "x",
+                  "+"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "label": "last_-",
+              "record": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "label": "last_-",
+              "record": [
+                [
+                  "x",
+                  "-"
+                ],
+                [
+                  "z",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "analysis": {
+          "basis": [
+            "P0",
+            "P1",
+            "X",
+            "Y"
+          ],
+          "candidate_conflicts": [],
+          "candidate_valid": true,
+          "classes": [
+            [
+              [
+                [
+                  "firstZ",
+                  "0"
+                ],
+                [
+                  "lastZ",
+                  "0"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  "firstZ",
+                  "1"
+                ],
+                [
+                  "lastZ",
+                  "1"
+                ]
+              ]
+            ]
+          ],
+          "histories": [
+            {
+              "denominator": [
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "1/2",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "firstZ",
+                  "0"
+                ],
+                [
+                  "lastZ",
+                  "0"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "firstZ",
+                  "0"
+                ],
+                [
+                  "lastZ",
+                  "1"
+                ]
+              ],
+              "status": "NEVER_POSSIBLE"
+            },
+            {
+              "denominator": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "firstZ",
+                  "1"
+                ],
+                [
+                  "lastZ",
+                  "0"
+                ]
+              ],
+              "status": "NEVER_POSSIBLE"
+            },
+            {
+              "denominator": [
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1/2",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "firstZ",
+                  "1"
+                ],
+                [
+                  "lastZ",
+                  "1"
+                ]
+              ],
+              "status": "POSSIBLE"
+            }
+          ],
+          "monomials": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "never_possible": [
+            [
+              [
+                "firstZ",
+                "0"
+              ],
+              [
+                "lastZ",
+                "1"
+              ]
+            ],
+            [
+              [
+                "firstZ",
+                "1"
+              ],
+              [
+                "lastZ",
+                "0"
+              ]
+            ]
+          ],
+          "pairs": [
+            {
+              "equal": false,
+              "left": [
+                [
+                  "firstZ",
+                  "0"
+                ],
+                [
+                  "lastZ",
+                  "0"
+                ]
+              ],
+              "questions": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "X"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Y"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "-1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "right": [
+                [
+                  "firstZ",
+                  "1"
+                ],
+                [
+                  "lastZ",
+                  "1"
+                ]
+              ],
+              "witness": {
+                "bloch": [
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "delta": "1",
+                "density": [
+                  [
+                    [
+                      "1/2",
+                      "0"
+                    ],
+                    [
+                      "0",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "0",
+                      "0"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ],
+                "left_conditional": "1",
+                "left_history_probability": "1/2",
+                "outcome": "+",
+                "right_conditional": "0",
+                "right_history_probability": "1/2",
+                "setting": "Z"
+              }
+            }
+          ]
+        },
+        "expected_candidate_valid": true,
+        "expected_classes": 2,
+        "expected_never_possible": 2,
+        "max_retained_coefficient_witness_bits": 2,
+        "name": "repeated_z_zeros",
+        "problem": {
+          "futures": [
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "-1/2",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "-1/2",
+                            "0"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "X"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "-1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1/2",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "1/2"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "-1/2"
+                          ],
+                          [
+                            "1/2",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Y"
+            },
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Z"
+            }
+          ],
+          "schedule": [
+            "Z0",
+            "Z1"
+          ],
+          "schema_version": "det8-qr03-problem-v1",
+          "source": {
+            "events": [
+              {
+                "event_id": "Z0",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "0"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "1"
+                  }
+                ],
+                "record_id": "firstZ",
+                "support": [
+                  0
+                ]
+              },
+              {
+                "event_id": "Z1",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "0"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "1"
+                  }
+                ],
+                "record_id": "lastZ",
+                "support": [
+                  0
+                ]
+              }
+            ],
+            "precedence": [
+              [
+                "Z0",
+                "Z1"
+              ]
+            ],
+            "qubits": 1,
+            "schema_version": "det8-qr01-problem-v1"
+          },
+          "summary": [
+            {
+              "label": "last_0",
+              "record": [
+                [
+                  "firstZ",
+                  "0"
+                ],
+                [
+                  "lastZ",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "label": "last_1",
+              "record": [
+                [
+                  "firstZ",
+                  "0"
+                ],
+                [
+                  "lastZ",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "label": "last_0",
+              "record": [
+                [
+                  "firstZ",
+                  "1"
+                ],
+                [
+                  "lastZ",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "label": "last_1",
+              "record": [
+                [
+                  "firstZ",
+                  "1"
+                ],
+                [
+                  "lastZ",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "analysis": {
+          "basis": [
+            "P0",
+            "P1",
+            "X",
+            "Y"
+          ],
+          "candidate_conflicts": [],
+          "candidate_valid": true,
+          "classes": [
+            [
+              [
+                [
+                  "zero",
+                  "alive"
+                ]
+              ]
+            ]
+          ],
+          "histories": [
+            {
+              "denominator": [
+                "1",
+                "1",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "zero",
+                  "alive"
+                ]
+              ],
+              "status": "POSSIBLE"
+            },
+            {
+              "denominator": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "numerators": [
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "+",
+                  "setting": "Z"
+                },
+                {
+                  "coefficients": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "outcome": "-",
+                  "setting": "Z"
+                }
+              ],
+              "record": [
+                [
+                  "zero",
+                  "dead"
+                ]
+              ],
+              "status": "NEVER_POSSIBLE"
+            }
+          ],
+          "monomials": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "never_possible": [
+            [
+              [
+                "zero",
+                "dead"
+              ]
+            ]
+          ],
+          "pairs": []
+        },
+        "expected_candidate_valid": true,
+        "expected_classes": 1,
+        "expected_never_possible": 1,
+        "max_retained_coefficient_witness_bits": 1,
+        "name": "zero_branch_control",
+        "problem": {
+          "futures": [
+            {
+              "instrument": {
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "+"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "-"
+                  }
+                ],
+                "support": [
+                  0
+                ]
+              },
+              "setting": "Z"
+            }
+          ],
+          "schedule": [
+            "zero"
+          ],
+          "schema_version": "det8-qr03-problem-v1",
+          "source": {
+            "events": [
+              {
+                "event_id": "zero",
+                "outcomes": [
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "1",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "1",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "alive"
+                  },
+                  {
+                    "kraus": [
+                      [
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ],
+                        [
+                          [
+                            "0",
+                            "0"
+                          ],
+                          [
+                            "0",
+                            "0"
+                          ]
+                        ]
+                      ]
+                    ],
+                    "label": "dead"
+                  }
+                ],
+                "record_id": "zero",
+                "support": [
+                  0
+                ]
+              }
+            ],
+            "precedence": [],
+            "qubits": 1,
+            "schema_version": "det8-qr01-problem-v1"
+          },
+          "summary": [
+            {
+              "label": "all",
+              "record": [
+                [
+                  "zero",
+                  "alive"
+                ]
+              ]
+            },
+            {
+              "label": "all",
+              "record": [
+                [
+                  "zero",
+                  "dead"
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "classification": "EXACT_FINITE_RESEARCH_NOT_EMPIRICAL",
+    "new_physical_laws": false,
+    "research_base_commit": "e3c891e8db844ee31ebcffad1f25aa3a02558b4f",
+    "ret_integration_tested": false,
+    "totals": {
+      "additional_direct_source_state_executions": 1,
+      "additional_future_probability_entries": 28,
+      "additional_history_conditional_evaluations": 6,
+      "additional_input_impossible_probability_entries": 2,
+      "fixtures": 8,
+      "future_basis_image_evaluations": 192,
+      "history_rows": 20,
+      "initial_hermitian_basis_evaluations": 32,
+      "invalid_candidate_fixtures": 2,
+      "live_pairs": 12,
+      "never_possible_histories": 3,
+      "physical_failure_witnesses": 7,
+      "question_polynomials": 64,
+      "valid_candidate_fixtures": 6
+    }
+  }
+}
