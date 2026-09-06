@@ -151,18 +151,39 @@ selected-rate certificate. Boundary support caveats and all H identities remain
 explicit. No quantum, geometric, empirical or RET-integration claim follows.
 See [QR-05I results](../validation/qr-05i-analytic-portability-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05J, constructive uncertainty-summary contract.**
-Count ordered chain pairs by the colors in their eligible union to derive
-raw second moments and covariances directly, using I's full laws as an
-independent oracle. This addresses which relational information suffices for
-uncertainty questions, not predictions stronger than the complete law or
-assumed strict compression. Preserve self-overlap, ordered-pair multiplicity,
-fixed-versus-sampled overlap, covariance degree growth and correlated-mixture
-variance. A 4-by-4 raw-moment table can require a 7-by-7 covariance table.
-This is proposed mathematical work, not a completed physical bridge or Lean
-installation. Dynamic closure still needs a declared update/access contract.
-Keep the separate QR-06 RET quantum adapter under its own SDK/calibration gates.
-Remote publication remains deferred at the user's request.
+QR-05J completed its bounded constructive uncertainty-summary gate on
+6 September 2026: 142 tests pass normally and optimized; independent
+ordered-chain-pair and full-law-moment routes agree; the frozen capture
+replays exactly in both modes. It retains 47,828 ordered pair instances,
+155,648 raw-moment coefficient cells and 476,672 covariance coefficient cells.
+
+The eligible-union pair tensor directly supplies all raw second moments and
+includes the single-chain means. Complete mean-product convolution preserves
+degree-six covariance terms. It distinguishes the star/path uncertainty that
+mean grading loses, retains fixed/random overlap and ordered multiplicity,
+and recovers between-corner variation under shared-block sampling. Evaluated
+covariance matrices pass exact semidefinite checks without requiring invertibility.
+
+Its 2,634 supported classes match I's full-law partition by actual memberships;
+this is a bounded coincidence, not general moment sufficiency or demonstrated
+storage/runtime improvement. An abstract equal-moment/unequal-law control remains
+separate from realized histories. No empirical covariance calibration, quantum,
+gravity, recursive-closure or RET-integration result follows. See
+[QR-05J results](../validation/qr-05j-uncertainty-contract-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05K, recursive observation-summary closure.** Define
+fresh independent two-color thinning on a subset-closed observed-state family.
+Distinguish fine-record rate composition and closed expected-summary updates
+from the stronger full transition law for the next realized summary. Compare
+polynomial pushforwards across D/B summary fibers before claiming a Markov
+quotient; if a quotient exists, verify its inherited composition law. Retain
+mean-summary failures, between-record covariance, boundary cases and explicit
+information access. Valid successors must not be excluded merely because they
+were zero-probability diagnostics under an earlier current-history design.
+This is proposed observation-update mathematics, not event-growth or spacetime
+dynamics. Lean and the physical interface remain separate; keep the QR-06 RET
+quantum adapter under its own SDK/calibration gates. Remote publication resumed
+at the user's request: QR-05I and six earlier pending commits were pushed before J.
 
 ## Outcome sought
 
@@ -216,7 +237,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05G: question-relative predictive compression | Specify a bounded continuation-question family and test full versus partial provenance summaries | Separate estimator access, conditional means and predictive-law sufficiency; preserve collisions and avoid universal minimal-history claims |
 | QR-05H: observation-law portability | Test summaries against a fixed menu of continuation laws on the same supported history domain | Preserve policy-specific failures, compare common refinements, respect law-marked symmetries and distinguish fine/coarse support before transport |
 | QR-05I: analytic portability contract | Consolidate definitions and test exact two-color count-law polynomials across a parameter domain | Verify coefficients and degree-bounded cross-checks; distinguish selected-rate coincidence, universal polynomial equality and boundary/correlated laws |
-| QR-05J: constructive uncertainty-summary contract (proposed) | Derive second moments and covariance from eligible-union-graded ordered chain pairs | Compare with full polynomial laws; preserve overlap, pair multiplicity, degree bounds and variance of correlated mixtures; do not assume moment sufficiency for full laws |
+| QR-05J: constructive uncertainty-summary contract | Derive second moments and covariance from eligible-union-graded ordered chain pairs | Compare with full polynomial laws; preserve overlap, pair multiplicity, degree bounds and variance of correlated mixtures; do not assume moment sufficiency for full laws |
+| QR-05K: recursive observation-summary closure (proposed) | Test polynomial transition laws for updated summaries under declared fresh thinning | Separate expected updates from stochastic closure; use a subset-closed state domain, actual summary fibers and explicit information access; verify composition only under its independence premises |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
