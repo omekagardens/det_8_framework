@@ -46,13 +46,30 @@ spatial rescaling or a continuum limit. The nonboundary passing summary still
 retains the full marked order apart from natural birth labels; an economical
 geometric description has not been obtained.
 
-**Next executable gate: QR-05D.** Test diagnostic geometric correspondence
-on supplied generating models and non-geometric adversaries. Declare the
-order/count or propagation-related quantities to preserve, and the sampling,
-density, localization and boundary assumptions. Separate comparison with a
-known generating geometry from inference that a manifold or metric emerges.
-Preserve the fork/join, record-location and delayed-growth counterexamples;
-do not promote any failed coarse model into a certified physical theory.
+QR-05D completed its bounded supplied-geometry investigation on 5 September
+2026: 200 tests pass normally and optimized; nine complete exact analyses agree
+between independent implementations. The version-two capture replays exactly.
+The first capture's tuple/list replay defect is preserved and documented;
+the corrected driver enforces native JSON types and type-exact comparisons.
+No mathematical value or prior witness was changed by that repair.
+
+Order-derived interval and retarded-kernel coefficients give concrete geometric
+questions, but a known density/sampling model remains essential. Exact boost
+and dilation controls coexist with local density ambiguity and deterministic
+mesh bias. A supplied 1+1 flat order and the non-2D-order standard example S3
+have the same entire endpoint kernel polynomial, despite S3's exact embedding
+obstruction in that particular comparison geometry. No general non-geometric
+classification, manifold emergence, continuum limit, or gravity follows. See
+[QR-05D results](../validation/qr-05d-geometric-correspondence-2026-09-05/RESULTS.md).
+
+**Next planned gate: QR-05E, sampling-aware geometric questions.** Specify a
+bounded exact thinning/observation law on supplied finite orders, fixed probe
+endpoints, inclusion probabilities and retained interval/chain questions.
+Separate expectation identities from per-realization prediction; use nonuniform
+and correlated-selection controls. Preserve the density/embedding ambiguities
+and earlier quantum counterexamples. This is not an unknown-density fit or an
+apparatus-to-geometry derivation. Keep the separately planned QR-06 RET quantum
+adapter under its own SDK and calibration gates.
 
 ## Outcome sought
 
@@ -101,6 +118,7 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05B: record and order summaries | Specify which future questions a grouped history/order representation must preserve; test candidate summaries and refinement diagrams | Summing recorded CP maps, not amplitudes; retain path multiplicity; detect predictive information lost by a proposed summary |
 | QR-05C: scale consistency | Compare direct coarse descriptions with repeated fine-to-coarse descriptions across a bounded refinement family | Commuting comparison diagrams or explicit failures; track changed measurement access and context; no assumed preferred scale |
 | QR-05D: geometric correspondence | On supplied generating models and non-geometric adversaries, test whether summaries preserve declared order/count and propagation-related quantities | Separate estimator accuracy from manifold emergence; state density, sampling, localization, and boundary assumptions |
+| QR-05E: sampling-aware geometric questions | Under a declared finite thinning law, test interval/chain estimators and what is lost in individual retained samples | Distinguish expectation from predictive sufficiency; state joint inclusion assumptions and preserve nonuniform/correlated-selection failures |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
