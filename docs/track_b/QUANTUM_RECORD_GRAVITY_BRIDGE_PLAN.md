@@ -62,14 +62,29 @@ obstruction in that particular comparison geometry. No general non-geometric
 classification, manifold emergence, continuum limit, or gravity follows. See
 [QR-05D results](../validation/qr-05d-geometric-correspondence-2026-09-05/RESULTS.md).
 
-**Next planned gate: QR-05E, sampling-aware geometric questions.** Specify a
-bounded exact thinning/observation law on supplied finite orders, fixed probe
-endpoints, inclusion probabilities and retained interval/chain questions.
-Separate expectation identities from per-realization prediction; use nonuniform
-and correlated-selection controls. Preserve the density/embedding ambiguities
-and earlier quantum counterexamples. This is not an unknown-density fit or an
-apparatus-to-geometry derivation. Keep the separately planned QR-06 RET quantum
-adapter under its own SDK and calibration gates.
+QR-05E completed its bounded sampling-aware investigation on 6 September 2026:
+175 tests pass normally and optimized; 17 complete independent analyses agree,
+and the frozen create-only capture replays exactly. All 2,048 sample masks,
+including structural probability-zero rows, remain visible in the evidence.
+
+Joint-inclusion correction gives exact supported-chain means, but neither
+single-sample reconstruction nor geometric identification follows. The two
+QR-05D endpoint-collision orders have corrected relation mean six but half-
+thinning variances 34 and 30. Nonuniform and correlated retention expose wrong
+corrections; a fixed-center control separates fixed from eligible vertices.
+Zero-support chains identify an estimator limitation, while a separate singleton
+observation-law collision proves an observer-relative identification obstruction.
+Density/embedding ambiguity and prior quantum counterexamples remain intact.
+See [QR-05E results](../validation/qr-05e-sampling-aware-2026-09-06/RESULTS.md).
+
+**Next planned gate: QR-05F, two-stage observation consistency.** Freeze a bounded
+joint/conditional observation protocol comparing direct final observation with
+sequential thinning on supplied orders. State whether intermediate records are
+retained, test conditional expectation/composition and support, and preserve
+failures from lost intermediate information or misused inclusion probabilities.
+This is not physical rescaling, an unknown-density fit, or apparatus-to-geometry
+derivation. Keep the separately planned QR-06 RET quantum adapter under its own
+SDK and calibration gates; QR-05F need not import or modify RET.
 
 ## Outcome sought
 
@@ -119,6 +134,7 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05C: scale consistency | Compare direct coarse descriptions with repeated fine-to-coarse descriptions across a bounded refinement family | Commuting comparison diagrams or explicit failures; track changed measurement access and context; no assumed preferred scale |
 | QR-05D: geometric correspondence | On supplied generating models and non-geometric adversaries, test whether summaries preserve declared order/count and propagation-related quantities | Separate estimator accuracy from manifold emergence; state density, sampling, localization, and boundary assumptions |
 | QR-05E: sampling-aware geometric questions | Under a declared finite thinning law, test interval/chain estimators and what is lost in individual retained samples | Distinguish expectation from predictive sufficiency; state joint inclusion assumptions and preserve nonuniform/correlated-selection failures |
+| QR-05F: two-stage observation consistency | Compare direct final observation with sequential thinning under specified joint/conditional laws | Declare access to intermediate records; test conditional expectation, composition and support rather than assuming unbiasedness gives dynamic or geometric closure |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
