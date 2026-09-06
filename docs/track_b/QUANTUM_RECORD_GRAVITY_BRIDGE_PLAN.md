@@ -19,11 +19,24 @@ payload map. Payload-only information therefore cannot reconstruct the retained
 order in this model. The complete order record still distinguishes them.
 See [QR-05A results](../validation/qr-05a-quantum-births-2026-09-05/RESULTS.md).
 
-**Next executable gate: QR-05B.** Declare a hierarchy of future question
-families—payload-only probes, order/count probes, and order-sensitive
-continuations—then test the sufficiency and refinement behavior of candidate
-summaries. Use the fork/join collision as a retained negative control. Do not
-infer a spacetime metric from quantum-map equivalence.
+QR-05B also completed its bounded investigative gate on 5 September 2026:
+70 tests pass normally and under optimized Python; four complete direct and
+reference analyses agree, with a create-only capture and exact read-only replay.
+For both nonboundary fixtures, the 56 natural histories give 26 payload-only
+classes, 29 after adding order-count questions, and 32 after adding next-birth
+questions. Equal payload maps plus equal counts can hide unequal joint
+order/record predictions even when separate future marginals agree.
+Marked-order isomorphism suffices for this one-step family; arbitrary further
+compression or future closure is not established. See
+[QR-05B results](../validation/qr-05b-order-summaries-2026-09-05/RESULTS.md).
+
+**Next executable gate: QR-05C.** Specify a bounded refinement/coarsening
+family, then compare growing and coarsening with predicting from the coarse
+description. Declare the measurement access and retained correlations on
+both routes. QR-05B's associativity of exact CP-map sums is a prerequisite,
+not the desired scale-consistency or dynamical-closure result. Keep both the
+fork/join and record-location collisions as negative controls. Do not infer a
+spacetime metric from quantum-map equivalence.
 
 ## Outcome sought
 
