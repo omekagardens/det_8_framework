@@ -134,15 +134,35 @@ support are separate contracts. No empirical, geometry-reconstruction, quantum,
 RET-integration or recursive-closure claim follows. See
 [QR-05H results](../validation/qr-05h-law-portability-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05I, analytic portability contract.** Consolidate the
-definitions and verify two-color IID joint count-law polynomials over an entire
-parameter domain. Compare coefficients rather than assuming agreement at a
-few rates is general. Use the finite degree bound to justify any interpolation
-cross-check, and preserve the block-coin law as the average of four deterministic
-parameter-corner laws. Retain counterexamples and support-boundary caveats.
-This is proposed mathematical work, not a completed physical bridge or a Lean
-installation. Keep the separate QR-06 RET quantum adapter under its own
-SDK/calibration gates. Remote publication remains deferred at the user's request.
+QR-05I completed its bounded analytic portability gate on 6 September 2026:
+134 tests pass normally and optimized, the observed-order expansion and exact
+source-chain interpolation routes agree, and the frozen capture replays exactly
+in both modes. It retains 2,979 joint-law polynomials across 608 states and
+checks them at 22 distinct rational points per state. The bidegree bound and
+coefficient identities, not a heuristic grid, justify the all-rate contract.
+
+Color-graded chains are exactly the mean-polynomial coefficients. They preserve
+all two-color IID means and the deterministic-corner shared-block mixture,
+but not all IID count distributions. Named color-marked order preserves the
+full law. The analytic mean/count partitions have 2,596/2,634 classes and match
+H's menu partitions by actual memberships. A separate abstract polynomial-PMF
+counterexample shows why this fixture-specific coincidence is not a general
+selected-rate certificate. Boundary support caveats and all H identities remain
+explicit. No quantum, geometric, empirical or RET-integration claim follows.
+See [QR-05I results](../validation/qr-05i-analytic-portability-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05J, constructive uncertainty-summary contract.**
+Count ordered chain pairs by the colors in their eligible union to derive
+raw second moments and covariances directly, using I's full laws as an
+independent oracle. This addresses which relational information suffices for
+uncertainty questions, not predictions stronger than the complete law or
+assumed strict compression. Preserve self-overlap, ordered-pair multiplicity,
+fixed-versus-sampled overlap, covariance degree growth and correlated-mixture
+variance. A 4-by-4 raw-moment table can require a 7-by-7 covariance table.
+This is proposed mathematical work, not a completed physical bridge or Lean
+installation. Dynamic closure still needs a declared update/access contract.
+Keep the separate QR-06 RET quantum adapter under its own SDK/calibration gates.
+Remote publication remains deferred at the user's request.
 
 ## Outcome sought
 
@@ -195,7 +215,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05F: two-stage observation consistency | Compare direct final observation with sequential thinning under specified joint/conditional laws | Declare access to intermediate records; test conditional expectation, composition and support rather than assuming unbiasedness gives dynamic or geometric closure |
 | QR-05G: question-relative predictive compression | Specify a bounded continuation-question family and test full versus partial provenance summaries | Separate estimator access, conditional means and predictive-law sufficiency; preserve collisions and avoid universal minimal-history claims |
 | QR-05H: observation-law portability | Test summaries against a fixed menu of continuation laws on the same supported history domain | Preserve policy-specific failures, compare common refinements, respect law-marked symmetries and distinguish fine/coarse support before transport |
-| QR-05I: analytic portability contract (proposed) | Consolidate definitions and test exact two-color count-law polynomials across a parameter domain | Verify coefficients and degree-bounded cross-checks; distinguish selected-rate coincidence, universal polynomial equality and boundary/correlated laws |
+| QR-05I: analytic portability contract | Consolidate definitions and test exact two-color count-law polynomials across a parameter domain | Verify coefficients and degree-bounded cross-checks; distinguish selected-rate coincidence, universal polynomial equality and boundary/correlated laws |
+| QR-05J: constructive uncertainty-summary contract (proposed) | Derive second moments and covariance from eligible-union-graded ordered chain pairs | Compare with full polynomial laws; preserve overlap, pair multiplicity, degree bounds and variance of correlated mixtures; do not assume moment sufficiency for full laws |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
