@@ -92,13 +92,39 @@ when direct final weighting recovers the full target. No universal necessity of
 full provenance, geometric dynamics or new physical coupling follows. See
 [QR-05F results](../validation/qr-05f-two-stage-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05G, question-relative predictive compression.** Freeze
-a bounded continuation-question family, then compare full intermediate records
-with partial summaries. Find a verified sufficient partition or retain explicit
-collisions. Distinguish estimator computability, conditional means and complete
-predictive laws; do not presume a universal minimal history. Keep the separate
-QR-06 RET quantum adapter under its own SDK/calibration gates. Remote publication
-is currently deferred at the user's request; mathematical work can stay local.
+QR-05G completed its bounded question-relative predictive-compression gate on
+6 September 2026: 96 tests pass normally and optimized, the two complete exact
+implementations agree, and the frozen capture replays exactly in both modes.
+All 6,804 histories remain visible; claims use the 3,534 supported histories.
+
+With public context/final record retained, policy provenance preserves the
+current estimator, support-graded chain counts preserve future means, and
+fixed-marked order preserves the full joint count law under the known
+exchangeable acquisition laws. None of those compressed candidates preserves
+the fully labeled repeat-order law globally. Forgetting a fixed interior mark
+can even change a predicted mean. Full records preserve all declared targets,
+but the target-specific quotients show when some distinctions are unnecessary.
+
+The exact coarsest public-base-refining partitions have 519 current-estimator,
+1,686 future-mean, 1,833 count-law and 3,321 labeled-record-law classes. These
+are finite lookup partitions, not minimal storage costs or recursive state
+representations. Cross-source pooling, fixed-mark failures and equal-mean but
+unequal-law witnesses are retained. No empirical, continuum, quantum-channel,
+gravity or RET-integration claim follows. See
+[QR-05G results](../validation/qr-05g-predictive-compression-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05H, observation-law portability.** Freeze a small
+continuation-policy menu including label-sensitive/nonuniform and correlated
+controls. Keep the same supported histories and public current-record base;
+compare each history's entire vector of policy-specific predictions. The
+menu partition is their common refinement, not disjoint policy-labeled domains.
+Test where G summaries fail and whether a law-marked order summary whose
+isomorphisms transport the complete kernel is sufficient. Declare transport at
+the labeled-record level before pushing forward to counts, and check support
+at each history; no zero-support reconstruction or recursive closure is assumed.
+This is a proposed investigation, not a completed physical bridge. Keep the
+separate QR-06 RET quantum adapter under its own SDK/calibration gates. Remote
+publication remains deferred at the user's request; mathematical work stays local.
 
 ## Outcome sought
 
@@ -149,7 +175,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05D: geometric correspondence | On supplied generating models and controls obstructed in the supplied comparison geometry, test whether summaries preserve declared order/count and propagation-related quantities | Separate estimator accuracy from manifold emergence; state density, sampling, localization, and boundary assumptions |
 | QR-05E: sampling-aware geometric questions | Under a declared finite thinning law, test interval/chain estimators and what is lost in individual retained samples | Distinguish expectation from predictive sufficiency; state joint inclusion assumptions and preserve nonuniform/correlated-selection failures |
 | QR-05F: two-stage observation consistency | Compare direct final observation with sequential thinning under specified joint/conditional laws | Declare access to intermediate records; test conditional expectation, composition and support rather than assuming unbiasedness gives dynamic or geometric closure |
-| QR-05G: question-relative predictive compression (proposed) | Specify a bounded continuation-question family and test full versus partial provenance summaries | Separate estimator access, conditional means and predictive-law sufficiency; preserve collisions and avoid universal minimal-history claims |
+| QR-05G: question-relative predictive compression | Specify a bounded continuation-question family and test full versus partial provenance summaries | Separate estimator access, conditional means and predictive-law sufficiency; preserve collisions and avoid universal minimal-history claims |
+| QR-05H: observation-law portability (proposed) | Test summaries against a fixed menu of continuation laws on the same supported history domain | Preserve policy-specific failures, compare common refinements, respect law-marked symmetries and distinguish fine/coarse support before transport |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
