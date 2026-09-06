@@ -30,13 +30,29 @@ Marked-order isomorphism suffices for this one-step family; arbitrary further
 compression or future closure is not established. See
 [QR-05B results](../validation/qr-05b-order-summaries-2026-09-05/RESULTS.md).
 
-**Next executable gate: QR-05C.** Specify a bounded refinement/coarsening
-family, then compare growing and coarsening with predicting from the coarse
-description. Declare the measurement access and retained correlations on
-both routes. QR-05B's associativity of exact CP-map sums is a prerequisite,
-not the desired scale-consistency or dynamical-closure result. Keep both the
-fork/join and record-location collisions as negative controls. Do not infer a
-spacetime metric from quantum-map equivalence.
+QR-05C completed its bounded finite dynamic-consistency investigation on
+5 September 2026: 92 tests pass in normal and optimized Python, five complete
+independent analyses agree, and the create-only artifact replays exactly.
+Marked-order isomorphism admits exact one- and two-step quotient dynamics
+through the declared four-event bound. Coarser summaries expose delayed
+quantum-state failures, source-only agreement hiding universal failure, and
+nonmonotone closure as retained information changes. Uniform-ideal growth
+also demonstrates that quotient dynamics and completed-history birth-label
+covariance are separate conditions. See
+[QR-05C results](../validation/qr-05c-coarse-dynamics-2026-09-05/RESULTS.md).
+
+This is information-resolution consistency of a finite CQ model, not physical
+spatial rescaling or a continuum limit. The nonboundary passing summary still
+retains the full marked order apart from natural birth labels; an economical
+geometric description has not been obtained.
+
+**Next executable gate: QR-05D.** Test diagnostic geometric correspondence
+on supplied generating models and non-geometric adversaries. Declare the
+order/count or propagation-related quantities to preserve, and the sampling,
+density, localization and boundary assumptions. Separate comparison with a
+known generating geometry from inference that a manifold or metric emerges.
+Preserve the fork/join, record-location and delayed-growth counterexamples;
+do not promote any failed coarse model into a certified physical theory.
 
 ## Outcome sought
 
