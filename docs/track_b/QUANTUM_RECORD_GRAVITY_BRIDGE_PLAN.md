@@ -113,18 +113,36 @@ unequal-law witnesses are retained. No empirical, continuum, quantum-channel,
 gravity or RET-integration claim follows. See
 [QR-05G results](../validation/qr-05g-predictive-compression-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05H, observation-law portability.** Freeze a small
-continuation-policy menu including label-sensitive/nonuniform and correlated
-controls. Keep the same supported histories and public current-record base;
-compare each history's entire vector of policy-specific predictions. The
-menu partition is their common refinement, not disjoint policy-labeled domains.
-Test where G summaries fail and whether a law-marked order summary whose
-isomorphisms transport the complete kernel is sufficient. Declare transport at
-the labeled-record level before pushing forward to counts, and check support
-at each history; no zero-support reconstruction or recursive closure is assumed.
-This is a proposed investigation, not a completed physical bridge. Keep the
-separate QR-06 RET quantum adapter under its own SDK/calibration gates. Remote
-publication remains deferred at the user's request; mathematical work stays local.
+QR-05H completed its bounded observation-law portability gate on 6 September
+2026: 105 tests pass normally and optimized, the independent exact routes agree,
+and the frozen capture replays exactly in both modes. All G current histories
+and nine original candidate partitions remain identical. Three continuation
+laws are evaluated on each same history, not separate policy-labeled domains.
+
+Color-graded counts preserve all three means and the complete shared-block
+count law, but not the IID count laws. Color-marked order preserves the entire
+menu; anonymous block-marked order loses unequal-color-rate predictions.
+The law's symmetry must be carried with the order, including correlations and
+fixed-versus-eligible distinctions. This is supplied acquisition context,
+not an inferred physical property of event IDs.
+
+Of 5,472 state/policy transports, 152 have full count-law support but incomplete
+labeled-record support; 108 are at positive-first-probability states. Missing
+fine mass and the exact coarse/conditional-weight residual remain visible,
+without renormalization. Weight access, predictive sufficiency and fine/coarse
+support are separate contracts. No empirical, geometry-reconstruction, quantum,
+RET-integration or recursive-closure claim follows. See
+[QR-05H results](../validation/qr-05h-law-portability-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05I, analytic portability contract.** Consolidate the
+definitions and verify two-color IID joint count-law polynomials over an entire
+parameter domain. Compare coefficients rather than assuming agreement at a
+few rates is general. Use the finite degree bound to justify any interpolation
+cross-check, and preserve the block-coin law as the average of four deterministic
+parameter-corner laws. Retain counterexamples and support-boundary caveats.
+This is proposed mathematical work, not a completed physical bridge or a Lean
+installation. Keep the separate QR-06 RET quantum adapter under its own
+SDK/calibration gates. Remote publication remains deferred at the user's request.
 
 ## Outcome sought
 
@@ -176,7 +194,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05E: sampling-aware geometric questions | Under a declared finite thinning law, test interval/chain estimators and what is lost in individual retained samples | Distinguish expectation from predictive sufficiency; state joint inclusion assumptions and preserve nonuniform/correlated-selection failures |
 | QR-05F: two-stage observation consistency | Compare direct final observation with sequential thinning under specified joint/conditional laws | Declare access to intermediate records; test conditional expectation, composition and support rather than assuming unbiasedness gives dynamic or geometric closure |
 | QR-05G: question-relative predictive compression | Specify a bounded continuation-question family and test full versus partial provenance summaries | Separate estimator access, conditional means and predictive-law sufficiency; preserve collisions and avoid universal minimal-history claims |
-| QR-05H: observation-law portability (proposed) | Test summaries against a fixed menu of continuation laws on the same supported history domain | Preserve policy-specific failures, compare common refinements, respect law-marked symmetries and distinguish fine/coarse support before transport |
+| QR-05H: observation-law portability | Test summaries against a fixed menu of continuation laws on the same supported history domain | Preserve policy-specific failures, compare common refinements, respect law-marked symmetries and distinguish fine/coarse support before transport |
+| QR-05I: analytic portability contract (proposed) | Consolidate definitions and test exact two-color count-law polynomials across a parameter domain | Verify coefficients and degree-bounded cross-checks; distinguish selected-rate coincidence, universal polynomial equality and boundary/correlated laws |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
