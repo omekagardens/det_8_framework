@@ -171,19 +171,44 @@ separate from realized histories. No empirical covariance calibration, quantum,
 gravity, recursive-closure or RET-integration result follows. See
 [QR-05J results](../validation/qr-05j-uncertainty-contract-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05K, recursive observation-summary closure.** Define
-fresh independent two-color thinning on a subset-closed observed-state family.
-Distinguish fine-record rate composition and closed expected-summary updates
-from the stronger full transition law for the next realized summary. Compare
-polynomial pushforwards across D/B summary fibers before claiming a Markov
-quotient; if a quotient exists, verify its inherited composition law. Retain
-mean-summary failures, between-record covariance, boundary cases and explicit
-information access. Valid successors must not be excluded merely because they
-were zero-probability diagnostics under an earlier current-history design.
-This is proposed observation-update mathematics, not event-growth or spacetime
-dynamics. Lean and the physical interface remain separate; keep the QR-06 RET
-quantum adapter under its own SDK/calibration gates. Remote publication resumed
-at the user's request: QR-05I and six earlier pending commits were pushed before J.
+QR-05K completed its bounded recursive observation-summary gate on
+6 September 2026: 96 tests pass normally and optimized; independent
+observed-chain/binomial and source-count-law/interpolation routes agree;
+the frozen capture replays exactly in both modes. The new subset-closed
+domain has 188 labeled observations and 224 source/mask aliases, matching
+all 608 J state occurrences, including 98 zero-first-mass occurrences.
+Earlier supported-history partitions are not reinterpreted as this domain.
+
+Both D and B have closed expected-feature updates, but only B supports a
+complete next-summary-law quotient here. Its 91 classes sit between the
+88 mean classes and 118 color-marked-order classes; full records have188.
+The selected equal-D star/path control gives successor-summary probabilities
+1/16 versus0 at half rates. Failed D receives no quotient kernel.
+
+B, color-marked order and full record satisfy fresh-thinning composition
+coefficientwise: 1,126,400 four-variable cells have zero residual. All
+962,560 expected-update cells and 752 retained covariance-tower rows pass.
+Within-record uncertainty and between-record variation are kept separately;
+reused coins explicitly violate the fresh-independence premise. This is a
+finite stochastic observation-update contract, not general B sufficiency,
+minimal memory, deterministic mask reconstruction, event growth or gravity.
+See [QR-05K results](../validation/qr-05k-recursive-closure-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05L, adversarial closure and stable refinement.**
+Append the six-eligible-vertex height-two path P6 and C4+K2 orders using the
+same public frame, parity marks and thinning law, with all induced successors.
+They provide a design-review candidate with equal B but unequal probability
+of reaching a four-cycle summary: 0 versus x²(1-x)y²(1-y), or0 versus1/64 at
+half rates. Freeze and verify this extension separately; it is not part of K's
+captured certificate. Preserve K as an exact restriction of the expanded domain.
+
+Then refine B classes by their complete polynomial transition rows until
+stable, testing the coarsest strongly closed B-refinement on that finite domain.
+This tests and repairs recursive sufficiency without automatically adding more
+moment tensors. It is not a universal minimal-memory or physical-dynamics claim.
+Lean and the physical interface remain separate; keep the QR-06 RET quantum
+adapter under its own SDK/calibration gates. Remote publication resumed at
+the user's request; the QR-05J checkpoint was pushed before K began.
 
 ## Outcome sought
 
@@ -238,7 +263,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05H: observation-law portability | Test summaries against a fixed menu of continuation laws on the same supported history domain | Preserve policy-specific failures, compare common refinements, respect law-marked symmetries and distinguish fine/coarse support before transport |
 | QR-05I: analytic portability contract | Consolidate definitions and test exact two-color count-law polynomials across a parameter domain | Verify coefficients and degree-bounded cross-checks; distinguish selected-rate coincidence, universal polynomial equality and boundary/correlated laws |
 | QR-05J: constructive uncertainty-summary contract | Derive second moments and covariance from eligible-union-graded ordered chain pairs | Compare with full polynomial laws; preserve overlap, pair multiplicity, degree bounds and variance of correlated mixtures; do not assume moment sufficiency for full laws |
-| QR-05K: recursive observation-summary closure (proposed) | Test polynomial transition laws for updated summaries under declared fresh thinning | Separate expected updates from stochastic closure; use a subset-closed state domain, actual summary fibers and explicit information access; verify composition only under its independence premises |
+| QR-05K: recursive observation-summary closure | Test polynomial transition laws for updated summaries under declared fresh thinning | Separate expected updates from stochastic closure; use a subset-closed state domain, actual summary fibers and explicit information access; verify composition only under its independence premises |
+| QR-05L: adversarial closure and stable refinement (proposed) | Extend the state family with a realized equal-B/unequal-next-B adversary; construct a stable refinement if possible | Keep the same observation law, preserve K as an exact restriction, retain failed B, and verify finite coarsest closed refinement without universal memory or geometry claims |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
