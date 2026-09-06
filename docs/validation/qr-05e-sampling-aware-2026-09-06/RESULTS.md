@@ -180,3 +180,10 @@ inclusion information is discarded. This is a new finite protocol to be frozen
 before execution, not a result of QR-05E. Keep the QR-06 RET quantum adapter
 under its separate SDK/calibration gates; no adapter or apparatus integration
 is needed to begin this mathematical question.
+
+In that next protocol, distinguish observation-law composition from direct
+final-sample weighting and intermediate-record-aware sequential weighting.
+Conditional support may fail even when final inclusion is positive. Conversely,
+losing an intermediate record does not automatically prevent unbiased estimation
+from the final sample; it can instead make only a particular sequential estimate
+unavailable. QR-05F must test these distinctions, not presume their equivalence.

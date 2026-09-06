@@ -86,6 +86,13 @@ This is not physical rescaling, an unknown-density fit, or apparatus-to-geometry
 derivation. Keep the separately planned QR-06 RET quantum adapter under its own
 SDK and calibration gates; QR-05F need not import or modify RET.
 
+For QR-05F, distinguish composition of the observation law, a direct final-sample
+estimator, and an intermediate-record-aware sequential estimator. Positive final
+chain inclusion need not imply conditional positivity at every intermediate
+state. Losing the intermediate record may make a particular sequential estimate
+unavailable without preventing an unbiased final-sample estimator. Those are
+separate questions, not an assumed universal failure from discarded history.
+
 ## Outcome sought
 
 Determine whether a single, precisely specified model of quantum operations,
