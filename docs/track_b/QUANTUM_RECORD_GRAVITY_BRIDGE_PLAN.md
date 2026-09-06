@@ -77,21 +77,28 @@ observation-law collision proves an observer-relative identification obstruction
 Density/embedding ambiguity and prior quantum counterexamples remain intact.
 See [QR-05E results](../validation/qr-05e-sampling-aware-2026-09-06/RESULTS.md).
 
-**Next planned gate: QR-05F, two-stage observation consistency.** Freeze a bounded
-joint/conditional observation protocol comparing direct final observation with
-sequential thinning on supplied orders. State whether intermediate records are
-retained, test conditional expectation/composition and support, and preserve
-failures from lost intermediate information or misused inclusion probabilities.
-This is not physical rescaling, an unknown-density fit, or apparatus-to-geometry
-derivation. Keep the separately planned QR-06 RET quantum adapter under its own
-SDK and calibration gates; QR-05F need not import or modify RET.
+QR-05F completed its bounded two-stage observation investigation on 6 September
+2026: 133 tests pass normally and optimized; ten complete independent analyses
+and exact read-only replay agree. All 6,804 nested transcripts, including zero
+joint-probability rows, remain in the capture. No RET/core or dependency changes.
 
-For QR-05F, distinguish composition of the observation law, a direct final-sample
-estimator, and an intermediate-record-aware sequential estimator. Positive final
-chain inclusion need not imply conditional positivity at every intermediate
-state. Losing the intermediate record may make a particular sequential estimate
-unavailable without preventing an unbiased final-sample estimator. Those are
-separate questions, not an assumed universal failure from discarded history.
+Direct final estimation, sequential weighting and conditional averaging are
+different constructions. An adaptive control gives different sequential estimates
+for identical final records while a final-only unbiased estimator remains valid.
+A small policy token preserves the sequential estimator but loses a specified
+history-conditioned repeat-acquisition prediction. Positive final inclusion also
+does not guarantee conditional support: sequential omission can remain biased
+when direct final weighting recovers the full target. No universal necessity of
+full provenance, geometric dynamics or new physical coupling follows. See
+[QR-05F results](../validation/qr-05f-two-stage-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05G, question-relative predictive compression.** Freeze
+a bounded continuation-question family, then compare full intermediate records
+with partial summaries. Find a verified sufficient partition or retain explicit
+collisions. Distinguish estimator computability, conditional means and complete
+predictive laws; do not presume a universal minimal history. Keep the separate
+QR-06 RET quantum adapter under its own SDK/calibration gates. Remote publication
+is currently deferred at the user's request; mathematical work can stay local.
 
 ## Outcome sought
 
@@ -139,9 +146,10 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05A: joint quantum birth consistency | Grow a finite classical order while appending recorded quantum operations; compare complete quantum–record maps under birth relabeling and incomparable-birth swaps | Independent exact reference; positive, negative, and zero-weight controls; explicit distinction between source-reachable and universal intermediate checks |
 | QR-05B: record and order summaries | Specify which future questions a grouped history/order representation must preserve; test candidate summaries and refinement diagrams | Summing recorded CP maps, not amplitudes; retain path multiplicity; detect predictive information lost by a proposed summary |
 | QR-05C: scale consistency | Compare direct coarse descriptions with repeated fine-to-coarse descriptions across a bounded refinement family | Commuting comparison diagrams or explicit failures; track changed measurement access and context; no assumed preferred scale |
-| QR-05D: geometric correspondence | On supplied generating models and non-geometric adversaries, test whether summaries preserve declared order/count and propagation-related quantities | Separate estimator accuracy from manifold emergence; state density, sampling, localization, and boundary assumptions |
+| QR-05D: geometric correspondence | On supplied generating models and controls obstructed in the supplied comparison geometry, test whether summaries preserve declared order/count and propagation-related quantities | Separate estimator accuracy from manifold emergence; state density, sampling, localization, and boundary assumptions |
 | QR-05E: sampling-aware geometric questions | Under a declared finite thinning law, test interval/chain estimators and what is lost in individual retained samples | Distinguish expectation from predictive sufficiency; state joint inclusion assumptions and preserve nonuniform/correlated-selection failures |
 | QR-05F: two-stage observation consistency | Compare direct final observation with sequential thinning under specified joint/conditional laws | Declare access to intermediate records; test conditional expectation, composition and support rather than assuming unbiasedness gives dynamic or geometric closure |
+| QR-05G: question-relative predictive compression (proposed) | Specify a bounded continuation-question family and test full versus partial provenance summaries | Separate estimator access, conditional means and predictive-law sufficiency; preserve collisions and avoid universal minimal-history claims |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
