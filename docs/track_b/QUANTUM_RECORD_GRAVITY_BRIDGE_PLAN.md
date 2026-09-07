@@ -316,17 +316,37 @@ or replay the entirety of earlier O certificates. Twenty prior artifacts
 remain pinned and unchanged. See
 [QR-05P results](../validation/qr-05p-minimal-summary-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05Q, three-layer portability stress.** Keep H and
-the sampling calculus unchanged while adding all 256 adjacent-incidence
-masks on layers {1,2}->{3,4}->{5,6} and their 256 reversals. Preserve parity
-colors and the old family; compute full source closure before restriction.
-Freeze conventions/bounds first, test H closure, and retain any failure
-without automatic feature repair. No Q generation or outcome search has
-been performed. Broader portability and empirical applications remain open.
+QR-05Q completed its bounded three-layer portability gate on 6 September
+2026. The unchanged H=(frame,B,M,T) summary closes on 4,447 observations
+and 416 actual classes after appending all 256 adjacent-incidence masks
+on layers {1,2}->{3,4}->{5,6} and their 256 reversals. All 4,031
+nonrepresentative members have identical complete polynomial next-H laws
+within their fibers. No new observable or stable refinement was introduced.
+
+The 8,231-atom quotient passes 2,107,136 four-variable composition cells;
+both M/T expectation identities and full-source-closure-before-deletion
+controls pass. The original 1,030 profiles, 65,888 aliases, 2,470 states,
+features, fine rows and 167-class H quotient survive as exact restrictions.
+P's finite minimality and original consumer authorization are not silently
+extended to the new domain.
+
+All 103 tests pass normally and optimized. The frozen create-only artifact
+has exact read-only replays and a separate JSON-only postflight; 6 sources
+and 21 prior artifacts remain unchanged. See
+[QR-05Q results](../validation/qr-05q-three-layer-portability-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05R, nonnegative deletion-profile contract.**
+Keep Q's domain, H, marks and law unchanged. Count induced subsets by
+target H and retained odd/even sizes. Establish the exact equivalence
+between profile constancy and polynomial closure when H fixes parent color
+sizes; certify coefficient conversion, binomial normalization and nested
+subset composition. This provides a combinatorial interpretation/interface,
+not a demonstrated performance gain or a claim of general H sufficiency.
+No R execution or expanded minimality search has been performed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05O checkpoint was pushed before P began.
+scoped to this research; the QR-05P checkpoint was pushed before Q began.
 
 ## Outcome sought
 
@@ -387,7 +407,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05N: domain-portability stress | Unchanged (B,M) fails on the prespecified two-orientation 3-by-3 layered family | Retain the exact obstruction and empty global quotients; preserve M's old-domain quotient and all expected updates without automatic feature revision |
 | QR-05O: obstruction-targeted observable repair | The prespecified induced colored-P4 count T gives a closed 167-class (frame,B,M,T) summary on N | Actual fibers/full laws and fresh-stage composition agree; preserve failed C and all prior evidence; no coarsest-refinement or unseen-domain/physical claim |
 | QR-05P: finite minimality comparison and application contract | H exactly realizes the coarsest strongly closed C-refinement; four count/motif questions have a summary-only contract | Actual fibers, complete marginal laws and composition agree; named-ID question refused; no unrestricted or storage minimality, general portability or physical claim |
-| QR-05Q: three-layer portability stress (proposed) | Test unchanged H on an append-only family of three-layer adjacent-incidence orders and reversals | Preserve parity marks, transitive induced restriction and old evidence; retain any closure failure without automatic repair; no presumed outcome |
+| QR-05Q: three-layer portability stress | Unchanged H closes on 4,447 observations/416 classes in the append-only three-layer family and reversals | All fibers/full laws and composition agree; preserve parity, induced transitivity and exact old restriction; no new feature or expanded minimality claim |
+| QR-05R: nonnegative deletion-profile contract (proposed) | Give H closure an exact induced-subset counting interface on the unchanged Q domain | Prove finite basis equivalence under measurable color sizes; verify direct profiles, binomial normalization and combinatorial composition; no wider-domain/physical claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
