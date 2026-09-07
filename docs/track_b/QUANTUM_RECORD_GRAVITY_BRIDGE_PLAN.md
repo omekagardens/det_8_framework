@@ -241,17 +241,43 @@ finite structural repair, not unseen-domain sufficiency, minimum storage,
 geometry or physical dynamics.
 See [QR-05M results](../validation/qr-05m-observable-realization-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05N, domain-portability stress.** Prespecify an
-append-only broader finite source family, marks, resource/degree bounds and
-overlapping-motif cases. Keep M unchanged and test full next-(B,M) closure;
-preserve M/L as exact restrictions and retain counterexamples. All 3-by-3
-layered incidence patterns are a candidate family to assess in N's protocol,
-with non-topological original-ID handling explicit before reusing chain
-enumeration. No broader-family computation or certificate is claimed here.
+QR-05N completed its bounded domain-portability gate on 6 September 2026:
+101 tests pass normally and optimized. The unchanged (frame,B,M) candidate
+fails complete-law closure on the prespecified larger domain. This is a
+retained mathematical obstruction, not a failed test suite or a retrospective
+change to the feature.
+
+All 512 three-by-three color-layered incidence matrices in both directions
+were appended to the six old profiles: 1,030 profiles, 65,888 aliases,
+2,470 observations and 99,180 fine atoms. Numeric original IDs are no longer
+assumed topological; both independent chain algorithms preserve 3<2.
+There are 165 B classes and 166 (B,M) classes; neither has a global quotient.
+
+The new witness is two disjoint two-edge stars versus a three-edge path
+plus a separate edge (states 612/625). Both have identical D/B, M=0 and
+N=(1,6,4,0), yet their next-C class 11 probabilities are zero versus
+3x²(1-x)y²(1-y), or zero versus 3/64 at half rates. Their full count laws
+also differ. All 12,646,400 D/B and 39,520 motif expected-update cells
+still pass, demonstrating why mean closure is not complete-law closure.
+
+M's first 257-state observation/feature/kernel prefix, actual class maps
+and old 110-class quotient remain exact. Its 295,424 composition cells
+are checked on the restricted old process; no nonexistent global N
+quotient is fabricated. No stable repair or new observable was introduced.
+See [QR-05N results](../validation/qr-05n-domain-portability-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05O, obstruction-targeted observable repair.**
+Prespecify T as an eligible induced color-layered four-vertex path count:
+two vertices per named color, no same-color comparisons, and exactly three
+uniformly directed cross-color comparisons. Test (frame,B,M,T) on the
+unchanged N domain, preserving prior observation/feature/kernel evidence.
+Compare actual fibers and complete pushed laws; keep motif survival means
+separate from recursive closure and retain any remaining failure. T is
+not implemented or certified by N, and success must not be presumed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05L checkpoint was pushed before M began.
+scoped to this research; the QR-05M checkpoint was pushed before N began.
 
 ## Outcome sought
 
@@ -309,7 +335,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05K: recursive observation-summary closure | Test polynomial transition laws for updated summaries under declared fresh thinning | Separate expected updates from stochastic closure; use a subset-closed state domain, actual summary fibers and explicit information access; verify composition only under its independence premises |
 | QR-05L: adversarial closure and stable refinement | Extend the state family with a realized equal-B/unequal-next-B adversary; construct a stable refinement if possible | Keep the same observation law, preserve K as an exact restriction, retain failed B, and verify finite coarsest closed refinement without universal memory or geometry claims |
 | QR-05M: constructive observable realization | An observed colored-K2,2 motif count exactly realizes L's stable repair | Actual fibers and complete transition laws match; motif-survival expectation is separate from finite stochastic closure; no lookup-defined feature or unseen-domain/physical claim |
-| QR-05N: domain-portability stress (proposed) | Test unchanged (B,M) on a prespecified broader finite source family with overlap | Preserve M/L as exact restrictions, fix labels/rates/resources first, and retain failed closure witnesses; no automatic feature revision or general sufficiency claim |
+| QR-05N: domain-portability stress | Unchanged (B,M) fails on the prespecified two-orientation 3-by-3 layered family | Retain the exact obstruction and empty global quotients; preserve M's old-domain quotient and all expected updates without automatic feature revision |
+| QR-05O: obstruction-targeted observable repair (proposed) | Test an explicit induced colored-P4 count alongside unchanged B and M | Fix the feature before testing on N, compare actual fibers/full laws, preserve prior evidence and retain failures; no assumed sufficiency or physical claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
