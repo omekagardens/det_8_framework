@@ -551,21 +551,51 @@ a strengthened midpoint bit-boundary test and a preflight auditor reporting-key
 fix/regression are disclosed. No scientific setting or result changed.
 See [QR-05Z results](../validation/qr-05z-fixed-attenuation-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05AA, declared uncertainty-bound decisions.**
-Use finite sets S_u={existing actual levels<=u}, with u from the existing
-four levels. For each case, assumed model and bound, select one of the
-three fixed weights for the whole experiment, shared across all histories
-and reports. Retain all candidate/world risks, signed worst-case excess
-over coarse and every tied minimizer; no actual-index-dependent selector.
+QR-05AA completed its bounded uncertainty-decision gate on 7 September 2026.
+Both independent engines and the runner retain every candidate/world risk,
+worst-world tie and minimizing fixed weight over the four declared finite
+upper-bound sets. A rule applies to the entire experiment, not separately
+to each history/report or unknown actual world.
 
-Verify affine actual-law risk and the W monotonicity/upper-endpoint
-boundary. Bounds are supplied assumptions, not calibration. Optimality
-is restricted to this three-rule menu; no outside-family or deployment
-claim is authorized. No AA policy values or outcomes have been computed.
+Of 96 decisions, 32 have strictly negative worst-case excess: conditional
+case-average improvement over coarse at every declared world in that set.
+The other 64 have zero value. Nonpositive optimum alone follows automatically
+from including coarse in the menu. Unique minimizers comprise 24 full,
+8 half and 14 coarse choices, plus 2 two-way and 48 three-way ties.
+
+Both right cases retain a coarse/half tie at assumed 0, bound 3/4; the
+mixture cases select coarse there. Equal worst-case scalar risk need not
+mean equal forecasts. At full bound the informative cases with assumed
+level below 1 uniquely select coarse; left cases and assumed full replacement
+keep all three ties. Full retention means the already assumed-noise-conditioned
+forecast, not a clean-sensor assumption.
+
+All 190 tests pass normally and optimized; exact read-only replays and the
+36,786,183-check raw-history audit pass. Seven frozen sources and 31 prior
+artifacts remain unchanged. Pre-outcome native-guard/test refinements are
+disclosed; no numerical or scientific-rule correction was needed.
+The narrow supplied-risk API does not authenticate observation laws.
+Bounds remain assumptions, not inferred calibration; no empirical, RET,
+physical-law or unrestricted-optimality claim is added.
+See [QR-05AA results](../validation/qr-05aa-uncertainty-decisions-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05AB, replacement-mechanism stress.**
+Keep Z forecasts, coarse laws, histories, target and all AA minimizing sets
+fixed. Prespecify forward/reverse positive ordinal tilts within each
+whole-model N alphabet, including currently zero-prior labels, as mathematical
+controls rather than sensor models. Report each global mechanism separately.
+
+Recompute actual laws and evaluate every old minimizing rule under the same
+finite bounds. Distinguish all old ties remaining safe from only some doing
+so; retain all three rule scores and harmful outcomes. No reoptimization,
+retrospective tie selection or per-history mechanism choice. A failure would
+identify dependence on the original uniform-family premise, not invalidate
+the conditional AA certificate. Record the full protocol/channel formulas
+before any AB outcome. No AB outcomes have been computed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05Y was pushed before Z began.
+scoped to this research; QR-05Z was pushed before AA began.
 
 ## Outcome sought
 
@@ -636,7 +666,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05X: noise-model misspecification | Positive actual noise with a clean assumed model leaves 22 histories incomplete and 32 unsupported cells per pair; full case scores remain null | Actual-law scores and explicit coverage; zero supported regret is not a complete forecaster, and hypothetical mismatch is not apparatus calibration |
 | QR-05Y: explicit N-forecast fallback | All unsupported reports receive the declared N forecast; 96 fallback-used pair cells have predicted zero regret, while supported mismatch can still be worse than N-only | Preserve X nulls and signed complete-policy comparisons; completion is not predictive robustness, generic fallbacks can be wrong |
 | QR-05Z: fixed supported-forecast attenuation | The half blend improves selected mismatches, but still loses to coarse under stronger replacement and sacrifices correct-model gain | Complete mixed laws and quadratic identities; preserve harmful outcomes and unchanged fallback; no universal robustness, fitted weight or new observation law |
-| QR-05AA: declared uncertainty-bound decisions (proposed) | Compare the three experiment-wide fixed rules by signed worst-case excess over coarse within declared finite upper-bound sets | Retain every world risk and all ties; affine actual-law and W monotonicity checks; supplied bounds are not calibration; no AA policy values yet |
+| QR-05AA: declared uncertainty-bound decisions | Exact finite-menu certificates give 32 negative and 64 zero worst-case excess values, retaining every minimizing rule and maximizing world | Original-weight case-average risk; supplied bounds/family only, not per-history safety or calibration; coarse availability makes nonpositive optimum automatic |
+| QR-05AB: replacement-mechanism stress (proposed) | Freeze forecasts and AA tie sets; test separately declared full-support asymmetric actual replacements | Preserve every old minimizing rule and all adverse scores; no reoptimization or retrospective surviving-tie choice; no AB outcomes yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
