@@ -484,23 +484,45 @@ No empirical sensor calibration, observed replacement coin, future-correlated
 noise, adaptive policy or physical-law claim is added.
 See [QR-05W results](../validation/qr-05w-noisy-readouts-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05X, noise-model misspecification.**
-Keep the same four channels, H2 beliefs, K3 and Q3. Cross actual channel t
-with assumed conditioning channel s in a fixed 4×4 menu. On supported
-reports, score the assumed forecast under the actual law and verify
-Risk(f;p)=R(p)+||f-p||^2. Actual risk/regret can reach 2, unlike Bayes risk.
+QR-05X completed the noise-model-misspecification gate on 7 September 2026.
+The fixed 4×4 actual/assumed menu preserves W's beliefs, dynamics and target.
+Every positive-actual/assumed-clean pair has 22 incomplete histories and
+32 unsupported report cells across the six cases. All six case-level full
+forecast risks/regrets are null for these pairs, even when supported regret
+is zero. Original probability weights and missing mass remain explicit.
 
-Retain true-positive reports with zero assumed probability as unsupported.
-Their true mass must not be silently dropped, renormalized or assigned an
-invented posterior. Full risk/regret remain unavailable unless coverage is
-complete; retain supported contributions with their original actual weights.
-No fallback policy, fitted calibration, robust optimization or cost model is
-supplied. This tests an explicit model mismatch, not excuses for conflicting
-physical observations. No X outcomes have been computed.
+All positive assumed-noise levels cover the fixed W reports; diagonals
+recover W exactly. Mismatch regret can be asymmetric. Every off-diagonal
+pair has positive supported regret in 10 histories, but only 8 have positive
+full regret in the three incomplete-support pairs. No missing forecast is
+counted as zero error and no fallback was invented.
+
+The narrower scoring API accepts conditional experiments, not raw orders or
+local transition rules. It does not authenticate their origin. An independent
+raw-history JSON-only audit checks W's full noisy laws and the X projection,
+then every X output. All 142 tests pass normally and optimized, fresh exact
+replays and final audit pass, and seven sources/28 prior artifacts remain
+unchanged. Pre-outcome intermediate-bit guard and later nonvacuous test
+fixture corrections are disclosed; no scientific settings or criteria changed.
+No fitted sensor model, RET integration or physical-law claim is added.
+See [QR-05X results](../validation/qr-05x-noise-misspecification-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05Y, explicit N-forecast fallback.**
+Keep supported X forecasts unchanged; explicitly supply W's N-conditional
+law only on unsupported reports. Preserve fallback mass and separate
+supported/fallback contributions. Compare the resulting complete rule
+with N-only under the actual law, allowing worse performance.
+
+For the fixed W family, a clean-model-impossible report has constant
+positive-noise likelihood within N. Its actual conditional future law is
+therefore the N law: zero fallback regret is predicted, not a new
+robustness discovery. Wrong supported forecasts can remain harmful.
+Include a generic non-W countercontrol with positive fallback regret.
+No Y outcomes have been computed; no universal optimality is inferred.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05V checkpoint was pushed before W began.
+scoped to this research; the QR-05W checkpoint was pushed before X began.
 
 ## Outcome sought
 
@@ -568,7 +590,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05U: partial-observation filtering | Complete inference over 482 positive histories agrees with raw paths; all six cases retain history/forgetting/MAP prediction differences | Current H beliefs, explicit record access and priors; no raw-order identification, empirical calibration or physical memory claim |
 | QR-05V: predictive value of richer readouts | NMT has strict gain in 10 histories, H in 34; full conditional-law/risk certificates agree and 402 H residuals remain positive | Fixed U beliefs, K3, Q3 and Brier loss; likelihood-weighted information value, not empirical sensor performance or guaranteed large gain |
 | QR-05W: imperfect classical readouts | Informative cases retain about 20.6–25% / 5.0–6.25% of clean added gain at half / three-quarter replacement; full replacement is N-information equivalent | Exact overlapping-channel data processing; family-implied strict survival is not practical robustness, and correctly specified hypothetical noise is not apparatus calibration |
-| QR-05X: noise-model misspecification (proposed) | Cross four actual and assumed channels at fixed beliefs/dynamics/target | Actual-law Brier risk/regret, exact coverage and unsupported reports; no silent forecast completion, fitted noise or optimization; no X outcome yet |
+| QR-05X: noise-model misspecification | Positive actual noise with a clean assumed model leaves 22 histories incomplete and 32 unsupported cells per pair; full case scores remain null | Actual-law scores and explicit coverage; zero supported regret is not a complete forecaster, and hypothetical mismatch is not apparatus calibration |
+| QR-05Y: explicit N-forecast fallback (proposed) | Complete only unsupported reports using a declared N-conditional law, preserving supported forecasts and fallback accounting | Fixed-family zero fallback regret is predicted; compare against N-only and include a non-W countercontrol; no Y outcome yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
