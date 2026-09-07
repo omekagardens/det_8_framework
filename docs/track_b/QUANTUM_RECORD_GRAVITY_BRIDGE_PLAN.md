@@ -358,18 +358,48 @@ source/alias universe and Q's four-variable certificate are not re-run.
 No expanded minimality, physical interpretation or SDK integration is added.
 See [QR-05R results](../validation/qr-05r-deletion-profile-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05S, local single-deletion criterion.**
-Keep the domain, H and law unchanged. Count odd/even single-vertex deletions
-with their multiplicities. Under subset closure and H-measurable ranks,
-establish local/full profile constancy equivalence and reconstruct R's
-profiles by smaller-parent induction. Check exact divisibility and mixed
-odd/even deletion consistency. These are deletion-count update rules, not
-physical-time or growth generators; no performance advantage is presumed.
-No S execution has been performed.
+QR-05S completed the local single-deletion criterion on 6 September 2026.
+On the unchanged 4,447 observations and 416 H classes, every member has the
+same odd/even individual-deletion count rows as its representative.
+The 22,110 raw deleted-vertex choices yield 17,648 fine local atoms and 1,576
+class-local atoms. Multiplicities are retained when different vertices
+reach the same successor summary.
+
+Two local-only constructors recover all 8,231 class-profile atoms:
+smaller-parent recurrence and fixed-color deletion words divided by
+factorials. A third raw-subset audit agrees; every state/class profile and
+fine/pushed/quotient polynomial law matches pinned R. The certificate checks
+173,056 source/target cells, 34,970 equal-rank base equations, 57,102
+color-specific recurrences, 6,656 rank-normalization cells and 3,732
+two-deletion operator coefficient cells. All residuals are zero.
+The local/full constancy equivalence is conditional on finite subset closure
+and measurable frame/ranks, not a claim that H closes on arbitrary orders.
+
+All 183 tests pass normally and optimized. Exact frozen read-only replays
+and a separate JSON-only postflight pass; six sources and 23 prior artifacts
+remain unchanged.
+Before capture, public parsers were hardened against cyclic/deep/shared-DAG
+malformed input, and the runner's native model validation was restored before
+its canonical-content cache lookup. The first full runs also caught a reference
+output-to-input frame-list alias; copying both lists fixed it without changing
+the test or mathematical bytes. Corrected explicit external-cache runs and
+regressions pass. The source/mask universe, R probability helper and Q
+four-variable certificate are not re-run. No physical-time, performance,
+expanded-minimality, authentication or SDK-integration claim is added.
+See [QR-05S results](../validation/qr-05s-local-deletion-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05T, local stable refinement.**
+Keep the raw domain and law unchanged. Build from raw single-deletion choices;
+H is comparison-only, not the construction oracle. Start from C=(frame,B,M),
+repeatedly refine by multiplicity-aware odd/even local rows, and compare the stable
+actual fibers with full-profile refinement and H. Check the coarsest stable
+C-refinement argument on this finite domain; retain any further splits or
+strict coarsening rather than assuming H is minimal. P's earlier, smaller
+domain minimality is not silently transferred. No T outcome has been computed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05Q checkpoint was pushed before R began.
+scoped to this research; the QR-05R checkpoint was pushed before S began.
 
 ## Outcome sought
 
@@ -432,7 +462,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05P: finite minimality comparison and application contract | H exactly realizes the coarsest strongly closed C-refinement; four count/motif questions have a summary-only contract | Actual fibers, complete marginal laws and composition agree; named-ID question refused; no unrestricted or storage minimality, general portability or physical claim |
 | QR-05Q: three-layer portability stress | Unchanged H closes on 4,447 observations/416 classes in the append-only three-layer family and reversals | All fibers/full laws and composition agree; preserve parity, induced transitivity and exact old restriction; no new feature or expanded minimality claim |
 | QR-05R: nonnegative deletion-profile contract | Complete subset profiles give an exact positive counting interface for Q's H law | Fixed-degree basis equivalence, rankwise binomial totals and nested subset composition agree; no source-alias regeneration, new minimality, authentication or physical claim |
-| QR-05S: local single-deletion criterion (proposed) | Reconstruct full profiles from color-specific individual-deletion counts on the unchanged domain | Require subset closure, measurable ranks, multiplicities and exact divisibility; verify local/full equivalence and mixed deletion consistency without physical-time interpretation |
+| QR-05S: local single-deletion criterion | 1,576 class-local entries reconstruct all 8,231 full class-profile atoms on the unchanged domain | All-member local closure, exact recurrence/word divisibility, complete operator maps and R law equality pass; no physical-time or expanded-minimality claim |
+| QR-05T: local stable refinement (proposed) | Find the coarsest stable refinement preserving C on the expanded finite domain | Build from raw local deletions, compare with independent full-profile refinement and actual H fibers, and retain any strict difference; no T outcome yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
