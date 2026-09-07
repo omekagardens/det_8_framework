@@ -194,21 +194,44 @@ finite stochastic observation-update contract, not general B sufficiency,
 minimal memory, deterministic mask reconstruction, event growth or gravity.
 See [QR-05K results](../validation/qr-05k-recursive-closure-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05L, adversarial closure and stable refinement.**
-Append the six-eligible-vertex height-two path P6 and C4+K2 orders using the
-same public frame, parity marks and thinning law, with all induced successors.
-They provide a design-review candidate with equal B but unequal probability
-of reaching a four-cycle summary: 0 versus x²(1-x)y²(1-y), or0 versus1/64 at
-half rates. Freeze and verify this extension separately; it is not part of K's
-captured certificate. Preserve K as an exact restriction of the expanded domain.
+QR-05L completed its bounded adversarial closure/refinement gate on
+6 September 2026: 109 tests pass normally and optimized; independent
+coefficient-row and exact-grid worklist constructions agree; the frozen
+capture replays exactly in both modes. The expanded six-source domain has
+257 observations and 352 aliases, retaining K as an exact restriction.
 
-Then refine B classes by their complete polynomial transition rows until
-stable, testing the coarsest strongly closed B-refinement on that finite domain.
-This tests and repairs recursive sufficiency without automatically adding more
-moment tensors. It is not a universal minimal-memory or physical-dynamics claim.
-Lean and the physical interface remain separate; keep the QR-06 RET quantum
-adapter under its own SDK/calibration gates. Remote publication resumed at
-the user's request; the QR-05J checkpoint was pushed before K began.
+The added path6 and cycle4_edge orders have identical complete D/B tensors
+but unequal next-B and full count laws. The four-cycle outcome has probability
+0 from path6 versus x²(1-x)y²(1-y) from cycle4_edge: 0 versus 1/64 at half rates.
+This is a realized induced-order counterexample within the supplied model,
+not empirical data or a retraction of K's expressly finite-family result.
+
+One witnessed split repairs B's 109 classes to 110 strongly closed classes;
+only the two added full orders separate. Exact initialization, every refinement
+step and the fixed point support the recorded coarseness induction. The result
+is the coarsest strongly closed B-refinement on this domain, not a universal
+minimum-memory or trace-minimal model. Color order/full records retain142/257.
+All 1,585,152 basic-plus-stable semigroup cells pass; all 1,028 two-step
+original-B trace laws agree through the repaired quotient, retaining 42,388
+structural atoms including selected-rate zeros. K's original 91-class B
+quotient matches by actual membership and every transition coefficient.
+See [QR-05L results](../validation/qr-05l-adversarial-refinement-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05M, constructive observable realization.** Test an
+explicit observed colored-K2,2 motif count as the additional distinction:
+four eligible vertices, two of each named color, no same-color comparisons,
+and all four comparisons from one color layer to the other (either orientation).
+No source label, state ID or transition-table lookup may define the feature.
+Compare the complete memberships of (frame,B,M) against L's stable partition;
+separately derive and verify its x²y² expected update by motif survival.
+Expected updates remain weaker than full-law closure. Do not assume that
+this candidate matches, or promote a match to unseen orders or arbitrary laws.
+
+This would replace a lookup-only repair with an interpretable structural
+observable, not establish geometry or physical dynamics. Lean installation
+and the physical interface remain separate; keep the QR-06 RET quantum
+adapter under its own SDK/calibration gates. Publication remains scoped to
+this research; the QR-05K checkpoint was pushed before L began.
 
 ## Outcome sought
 
@@ -264,7 +287,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05I: analytic portability contract | Consolidate definitions and test exact two-color count-law polynomials across a parameter domain | Verify coefficients and degree-bounded cross-checks; distinguish selected-rate coincidence, universal polynomial equality and boundary/correlated laws |
 | QR-05J: constructive uncertainty-summary contract | Derive second moments and covariance from eligible-union-graded ordered chain pairs | Compare with full polynomial laws; preserve overlap, pair multiplicity, degree bounds and variance of correlated mixtures; do not assume moment sufficiency for full laws |
 | QR-05K: recursive observation-summary closure | Test polynomial transition laws for updated summaries under declared fresh thinning | Separate expected updates from stochastic closure; use a subset-closed state domain, actual summary fibers and explicit information access; verify composition only under its independence premises |
-| QR-05L: adversarial closure and stable refinement (proposed) | Extend the state family with a realized equal-B/unequal-next-B adversary; construct a stable refinement if possible | Keep the same observation law, preserve K as an exact restriction, retain failed B, and verify finite coarsest closed refinement without universal memory or geometry claims |
+| QR-05L: adversarial closure and stable refinement | Extend the state family with a realized equal-B/unequal-next-B adversary; construct a stable refinement if possible | Keep the same observation law, preserve K as an exact restriction, retain failed B, and verify finite coarsest closed refinement without universal memory or geometry claims |
+| QR-05M: constructive observable realization (proposed) | Test whether an observed colored-K2,2 motif count realizes L's stable repair | Compare actual memberships and transition laws; distinguish motif-survival expectations from stochastic closure; no lookup-defined feature, unseen-domain sufficiency or physical claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
