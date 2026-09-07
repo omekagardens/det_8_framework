@@ -290,17 +290,43 @@ executors, runner or tests. This is a finite summary-prediction contract,
 not unseen-domain sufficiency, measured compression efficiency or physics.
 See [QR-05O results](../validation/qr-05o-path-observable-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05P, finite minimality comparison and application
-contract.** Construct the coarsest closed C-refinement under the unchanged
-complete polynomial transition law, compare actual memberships with H,
-and specify the exact questions a summary-only consumer can predict.
-Retain any discrepancy; equal class counts are not sufficient evidence.
-This comparison is not yet implemented or certified. Larger-domain
-portability and empirical application validation remain separate.
+QR-05P completed its bounded finite-minimality and consumer-contract gate
+on 6 September 2026. The C-seeded coefficient and independent rational-grid
+refinements agree with an independent runner: one strict round changes
+166 classes to 167, followed by a stable round. The actual terminal fibers
+equal H, not merely its class count. The finite induction argument and
+checked premises establish the coarsest strongly closed C-refinement on
+this supplied domain and polynomial law, not unrestricted or storage minimality.
+
+The four prespecified count/motif questions are class-measurable, including
+the joint (N0,N1,N2,N3,M,T) vector. Their full fine-to-coarse marginals agree
+over 997,584 coefficient cells and 14,696 class/rate/question checks.
+A summary-only prediction helper passes 528 separate public API calls;
+the quotient's 605,184 composition cells pass again. The named relation1<7
+is correctly refused: singleton observations {0,1,7}/{0,3,7} share the same
+summary but predict that relation with probabilities x/0.
+
+All 204 tests pass normally and optimized, with exact frozen read-only replays
+and a separate JSON-only postflight. Public parsing was hardened before
+capture; early full-run exception-type mismatches were corrected without
+changing mathematical outputs or weakening rejection tests.
+O's raw observation table is declared input; P reconstructs its features,
+fine laws and C/H fibers but does not regenerate the source/alias universe
+or replay the entirety of earlier O certificates. Twenty prior artifacts
+remain pinned and unchanged. See
+[QR-05P results](../validation/qr-05p-minimal-summary-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05Q, three-layer portability stress.** Keep H and
+the sampling calculus unchanged while adding all 256 adjacent-incidence
+masks on layers {1,2}->{3,4}->{5,6} and their 256 reversals. Preserve parity
+colors and the old family; compute full source closure before restriction.
+Freeze conventions/bounds first, test H closure, and retain any failure
+without automatic feature repair. No Q generation or outcome search has
+been performed. Broader portability and empirical applications remain open.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05N checkpoint was pushed before O began.
+scoped to this research; the QR-05O checkpoint was pushed before P began.
 
 ## Outcome sought
 
@@ -360,7 +386,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05M: constructive observable realization | An observed colored-K2,2 motif count exactly realizes L's stable repair | Actual fibers and complete transition laws match; motif-survival expectation is separate from finite stochastic closure; no lookup-defined feature or unseen-domain/physical claim |
 | QR-05N: domain-portability stress | Unchanged (B,M) fails on the prespecified two-orientation 3-by-3 layered family | Retain the exact obstruction and empty global quotients; preserve M's old-domain quotient and all expected updates without automatic feature revision |
 | QR-05O: obstruction-targeted observable repair | The prespecified induced colored-P4 count T gives a closed 167-class (frame,B,M,T) summary on N | Actual fibers/full laws and fresh-stage composition agree; preserve failed C and all prior evidence; no coarsest-refinement or unseen-domain/physical claim |
-| QR-05P: finite minimality comparison and application contract (proposed) | Compare H with the coarsest closed C-refinement on the same polynomial-law domain; define summary-only prediction access | Compare actual memberships, retain discrepancies and state supported downstream questions; no presumed minimality, measured performance or general portability |
+| QR-05P: finite minimality comparison and application contract | H exactly realizes the coarsest strongly closed C-refinement; four count/motif questions have a summary-only contract | Actual fibers, complete marginal laws and composition agree; named-ID question refused; no unrestricted or storage minimality, general portability or physical claim |
+| QR-05Q: three-layer portability stress (proposed) | Test unchanged H on an append-only family of three-layer adjacent-incidence orders and reversals | Preserve parity marks, transitive induced restriction and old evidence; retain any closure failure without automatic repair; no presumed outcome |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
