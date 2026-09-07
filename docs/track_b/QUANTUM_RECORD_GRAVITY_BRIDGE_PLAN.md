@@ -335,18 +335,41 @@ has exact read-only replays and a separate JSON-only postflight; 6 sources
 and 21 prior artifacts remain unchanged. See
 [QR-05Q results](../validation/qr-05q-three-layer-portability-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05R, nonnegative deletion-profile contract.**
-Keep Q's domain, H, marks and law unchanged. Count induced subsets by
-target H and retained odd/even sizes. Establish the exact equivalence
-between profile constancy and polynomial closure when H fixes parent color
-sizes; certify coefficient conversion, binomial normalization and nested
-subset composition. This provides a combinatorial interpretation/interface,
-not a demonstrated performance gain or a claim of general H sufficiency.
-No R execution or expanded minimality search has been performed.
+QR-05R completed its nonnegative deletion-profile gate on 6 September
+2026. On Q's unchanged 4,447 observations and 416 H classes, direct subset
+counts, independent Gaussian basis inversion and a third reconstruction
+agree. H-measurable color ranks and the fixed-degree invertible Bernstein
+basis establish the exact equivalence between profile constancy and
+polynomial closure within each fiber. All 4,031 member comparisons pass.
+
+The certificate retains 87,522 state-to-H count atoms and 8,231 class atoms,
+checks 1,400,352 grade cells and the same number of power conversion cells,
+and verifies 131,696 intermediate-rank composition cells representing
+151,640 nested subset pairs. Nonnegative counts and rankwise binomial
+normalization supply a whole-parameter-square probability contract.
+Both summary-only helpers pass 18,304 separate class/rate calls; structural
+validation does not authenticate H labels or domain membership.
+
+All 192 tests pass normally and optimized, with exact frozen replays
+and an independent JSON-only postflight. Six sources and 22 prior artifacts
+remain unchanged. Q's raw observation table is declared input; features,
+actual H fibers and all fine/pushed/quotient laws match exactly, but the
+source/alias universe and Q's four-variable certificate are not re-run.
+No expanded minimality, physical interpretation or SDK integration is added.
+See [QR-05R results](../validation/qr-05r-deletion-profile-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05S, local single-deletion criterion.**
+Keep the domain, H and law unchanged. Count odd/even single-vertex deletions
+with their multiplicities. Under subset closure and H-measurable ranks,
+establish local/full profile constancy equivalence and reconstruct R's
+profiles by smaller-parent induction. Check exact divisibility and mixed
+odd/even deletion consistency. These are deletion-count update rules, not
+physical-time or growth generators; no performance advantage is presumed.
+No S execution has been performed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05P checkpoint was pushed before Q began.
+scoped to this research; the QR-05Q checkpoint was pushed before R began.
 
 ## Outcome sought
 
@@ -408,7 +431,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05O: obstruction-targeted observable repair | The prespecified induced colored-P4 count T gives a closed 167-class (frame,B,M,T) summary on N | Actual fibers/full laws and fresh-stage composition agree; preserve failed C and all prior evidence; no coarsest-refinement or unseen-domain/physical claim |
 | QR-05P: finite minimality comparison and application contract | H exactly realizes the coarsest strongly closed C-refinement; four count/motif questions have a summary-only contract | Actual fibers, complete marginal laws and composition agree; named-ID question refused; no unrestricted or storage minimality, general portability or physical claim |
 | QR-05Q: three-layer portability stress | Unchanged H closes on 4,447 observations/416 classes in the append-only three-layer family and reversals | All fibers/full laws and composition agree; preserve parity, induced transitivity and exact old restriction; no new feature or expanded minimality claim |
-| QR-05R: nonnegative deletion-profile contract (proposed) | Give H closure an exact induced-subset counting interface on the unchanged Q domain | Prove finite basis equivalence under measurable color sizes; verify direct profiles, binomial normalization and combinatorial composition; no wider-domain/physical claim |
+| QR-05R: nonnegative deletion-profile contract | Complete subset profiles give an exact positive counting interface for Q's H law | Fixed-degree basis equivalence, rankwise binomial totals and nested subset composition agree; no source-alias regeneration, new minimality, authentication or physical claim |
+| QR-05S: local single-deletion criterion (proposed) | Reconstruct full profiles from color-specific individual-deletion counts on the unchanged domain | Require subset closure, measurable ranks, multiplicities and exact divisibility; verify local/full equivalence and mixed deletion consistency without physical-time interpretation |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
