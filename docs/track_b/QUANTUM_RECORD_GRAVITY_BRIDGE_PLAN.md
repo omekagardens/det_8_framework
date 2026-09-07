@@ -388,18 +388,45 @@ four-variable certificate are not re-run. No physical-time, performance,
 expanded-minimality, authentication or SDK-integration claim is added.
 See [QR-05S results](../validation/qr-05s-local-deletion-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05T, local stable refinement.**
-Keep the raw domain and law unchanged. Build from raw single-deletion choices;
-H is comparison-only, not the construction oracle. Start from C=(frame,B,M),
-repeatedly refine by multiplicity-aware odd/even local rows, and compare the stable
-actual fibers with full-profile refinement and H. Check the coarsest stable
-C-refinement argument on this finite domain; retain any further splits or
-strict coarsening rather than assuming H is minimal. P's earlier, smaller
-domain minimality is not silently transferred. No T outcome has been computed.
+QR-05T completed the local stable-refinement gate on 6 September 2026.
+On the unchanged 4,447 observations, raw single-deletion refinement and
+independent full-profile refinement both take C from 415 to 416 classes,
+then stabilize. H is compared only after construction; actual L/F/H fibers
+agree. Every round preserves C, frame and ranks, checks all members and
+retains canonical count witnesses for every split. Each trace performs
+8,063 member comparisons across its rounds; local signatures contain 35,296 atoms
+versus 175,044 full-profile atoms.
+
+The stable-refinement argument and independently checked premises establish
+the coarsest stable C-refinement on this expanded finite domain. This is not
+unrestricted memory/byte minimality, arbitrary-order closure, enumeration of
+all partitions, or a transferred P result. The terminal 1,576 local entries
+reconstruct the same 8,231 class-profile atoms and S laws with zero residuals.
+Controls retain different local/full convergence speeds, multiplicity-only
+splits, inherited empty classes, the six-round bound and the distinction
+between local algebraic stability and full-subset realizability.
+All 186 tests pass normally and optimized. Exact read-only replays and an
+independent JSON-only postflight pass; a distinct bottom-up classifier also
+recovers the terminal fibers. Six sources and 24 priors remain unchanged.
+See [QR-05T results](../validation/qr-05t-local-refinement-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05U, partial-observation filtering.**
+Keep this domain and thinning law unchanged. T certifies sufficiency when
+the terminal summary is known; an application may instead observe only a
+coarser record. Predeclare a small set of prior mixtures, existing rational
+rate pairs, a fixed coarse observation map and two observation stages.
+Propagate exact beliefs through the local-only terminal model, condition
+on the received records, and compare whole history likelihoods, posteriors
+and next-question laws with an independent raw-order oracle.
+Check normalization, posterior support, tower identities, zero-likelihood
+rejection and representative/MAP plug-in controls. Seek, without assuming,
+positive histories with the same latest observation but different predictions.
+Priors and access assumptions must be explicit; this does not calibrate an
+apparatus or establish a physical-time process. No U outcome is computed here.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05R checkpoint was pushed before S began.
+scoped to this research; the QR-05S checkpoint was pushed before T began.
 
 ## Outcome sought
 
@@ -463,7 +490,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05Q: three-layer portability stress | Unchanged H closes on 4,447 observations/416 classes in the append-only three-layer family and reversals | All fibers/full laws and composition agree; preserve parity, induced transitivity and exact old restriction; no new feature or expanded minimality claim |
 | QR-05R: nonnegative deletion-profile contract | Complete subset profiles give an exact positive counting interface for Q's H law | Fixed-degree basis equivalence, rankwise binomial totals and nested subset composition agree; no source-alias regeneration, new minimality, authentication or physical claim |
 | QR-05S: local single-deletion criterion | 1,576 class-local entries reconstruct all 8,231 full class-profile atoms on the unchanged domain | All-member local closure, exact recurrence/word divisibility, complete operator maps and R law equality pass; no physical-time or expanded-minimality claim |
-| QR-05T: local stable refinement (proposed) | Find the coarsest stable refinement preserving C on the expanded finite domain | Build from raw local deletions, compare with independent full-profile refinement and actual H fibers, and retain any strict difference; no T outcome yet |
+| QR-05T: local stable refinement | Raw local and full-profile routes both refine C from 415 to 416 classes, exactly H | All rounds, count witnesses, actual maps and terminal laws pass; coarsest stable C-refinement on the unchanged finite domain only |
+| QR-05U: partial-observation filtering (proposed) | Predict from coarse received records when the sufficient H class is not directly known | Exact declared-prior likelihoods/posteriors and future laws versus a raw oracle; zero-likelihood and plug-in controls; no U outcome yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
