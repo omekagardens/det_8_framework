@@ -266,18 +266,41 @@ are checked on the restricted old process; no nonexistent global N
 quotient is fabricated. No stable repair or new observable was introduced.
 See [QR-05N results](../validation/qr-05n-domain-portability-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05O, obstruction-targeted observable repair.**
-Prespecify T as an eligible induced color-layered four-vertex path count:
-two vertices per named color, no same-color comparisons, and exactly three
-uniformly directed cross-color comparisons. Test (frame,B,M,T) on the
-unchanged N domain, preserving prior observation/feature/kernel evidence.
-Compare actual fibers and complete pushed laws; keep motif survival means
-separate from recursive closure and retain any remaining failure. T is
-not implemented or certified by N, and success must not be presumed.
+QR-05O completed its bounded obstruction-targeted observable gate on
+6 September 2026: 154 tests pass normally and optimized, both independent
+implementations agree, and the frozen capture replays exactly in both modes.
+The prespecified eligible induced color-layered P4 count T repairs closure
+on the unchanged N domain: H=(frame,B,M,T) has 167 classes and splits
+exactly one of the 166 C fibers. No stable-refinement search or finite
+minimality claim was made.
+
+N's star/path witness has T=0/1. Across the same 2,470 observations,
+T is positive in 1,203 states, with 2,955 support occurrences and maximum6.
+The separate identity E[T(U)|S]=x²y²T(S) passes all 39,520 cells;
+overlapping supports need not survive independently. The complete H
+quotient has 2,364 atoms and passes all 605,184 four-variable composition
+cells under fresh independent thinning. T counts induced undirected
+comparability paths, not directed chains, cover paths or Feynman trajectories.
+
+The complete N analysis, old failures, audit, controls and prior M bridge
+remain type-exact. M's restricted 110-class quotient is preserved separately;
+its 295,424 composition cells are replayed as old-domain evidence.
+An independent JSON-only postflight checks the new result without importing
+executors, runner or tests. This is a finite summary-prediction contract,
+not unseen-domain sufficiency, measured compression efficiency or physics.
+See [QR-05O results](../validation/qr-05o-path-observable-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05P, finite minimality comparison and application
+contract.** Construct the coarsest closed C-refinement under the unchanged
+complete polynomial transition law, compare actual memberships with H,
+and specify the exact questions a summary-only consumer can predict.
+Retain any discrepancy; equal class counts are not sufficient evidence.
+This comparison is not yet implemented or certified. Larger-domain
+portability and empirical application validation remain separate.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05M checkpoint was pushed before N began.
+scoped to this research; the QR-05N checkpoint was pushed before O began.
 
 ## Outcome sought
 
@@ -336,7 +359,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05L: adversarial closure and stable refinement | Extend the state family with a realized equal-B/unequal-next-B adversary; construct a stable refinement if possible | Keep the same observation law, preserve K as an exact restriction, retain failed B, and verify finite coarsest closed refinement without universal memory or geometry claims |
 | QR-05M: constructive observable realization | An observed colored-K2,2 motif count exactly realizes L's stable repair | Actual fibers and complete transition laws match; motif-survival expectation is separate from finite stochastic closure; no lookup-defined feature or unseen-domain/physical claim |
 | QR-05N: domain-portability stress | Unchanged (B,M) fails on the prespecified two-orientation 3-by-3 layered family | Retain the exact obstruction and empty global quotients; preserve M's old-domain quotient and all expected updates without automatic feature revision |
-| QR-05O: obstruction-targeted observable repair (proposed) | Test an explicit induced colored-P4 count alongside unchanged B and M | Fix the feature before testing on N, compare actual fibers/full laws, preserve prior evidence and retain failures; no assumed sufficiency or physical claim |
+| QR-05O: obstruction-targeted observable repair | The prespecified induced colored-P4 count T gives a closed 167-class (frame,B,M,T) summary on N | Actual fibers/full laws and fresh-stage composition agree; preserve failed C and all prior evidence; no coarsest-refinement or unseen-domain/physical claim |
+| QR-05P: finite minimality comparison and application contract (proposed) | Compare H with the coarsest closed C-refinement on the same polynomial-law domain; define summary-only prediction access | Compare actual memberships, retain discrepancies and state supported downstream questions; no presumed minimality, measured performance or general portability |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
