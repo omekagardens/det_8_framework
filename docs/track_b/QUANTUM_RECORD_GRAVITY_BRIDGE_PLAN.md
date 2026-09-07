@@ -410,23 +410,46 @@ independent JSON-only postflight pass; a distinct bottom-up classifier also
 recovers the terminal fibers. Six sources and 24 priors remain unchanged.
 See [QR-05T results](../validation/qr-05t-local-refinement-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05U, partial-observation filtering.**
-Keep this domain and thinning law unchanged. T certifies sufficiency when
-the terminal summary is known; an application may instead observe only a
-coarser record. Predeclare a small set of prior mixtures, existing rational
-rate pairs, a fixed coarse observation map and two observation stages.
-Propagate exact beliefs through the local-only terminal model, condition
-on the received records, and compare whole history likelihoods, posteriors
-and next-question laws with an independent raw-order oracle.
-Check normalization, posterior support, tower identities, zero-likelihood
-rejection and representative/MAP plug-in controls. Seek, without assuming,
-positive histories with the same latest observation but different predictions.
-Priors and access assumptions must be explicit; this does not calibrate an
-apparatus or establish a physical-time process. No U outcome is computed here.
+QR-05U completed the partial-observation filtering gate on 6 September 2026.
+On the unchanged 4,447 raw observations/416 classes, three hypothetical priors
+and two fixed schedules give six cases and 482 positive received histories.
+Sequential Bayes filtering, independent unnormalized class paths and raw
+nested-subset inference agree on complete history evidence, current-class
+posteriors and future chain/motif question laws.
+
+All six cases contain positive histories with the same latest record but
+different future laws. Among 1,810 eligible history pairs, 36 differ;
+24 histories differ from latest-only prediction and 34 from MAP prediction.
+These are within-prior/schedule comparisons, not changes of experiment.
+The effect also occurs with a known initial state: hidden thinning leaves
+uncertainty about the current class. No new physical memory is inferred.
+
+The raw bridge verifies every member's local rows and observation/question
+labels, and 26,682 raw member/rate rows across six distinct rates/products.
+All 12 first/last within-H prior redistributions preserve filtering;
+original-vertex-1 membership remains unsupported because it is not H-measurable.
+Two received stages and a separate predictive K3 are explicit. Impossible
+known records return no conditional posterior; empirical prior calibration,
+actual-order identification and physical-time interpretations are not added.
+
+All 157 tests pass normally and optimized. Exact read-only replays and a
+separate JSON-only lifetime-assignment audit pass. Six sources and 25 prior
+artifacts remain unchanged; no frozen source or outcome was overwritten.
+See [QR-05U results](../validation/qr-05u-partial-observation-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05V, predictive value of richer readouts.**
+Keep U's transitions, declared priors and complete Q3 target fixed.
+Compare nested readouts N, (N,M,T) and H at a retained current posterior;
+H is an oracle upper-bound control, not an assumed sensor.
+Compute exact expected Brier risk, its conditional-mixture decomposition
+and nonnegative reduction. Retain strict-gain/no-gain outcomes without
+requiring either. Full H need not eliminate fresh K3 randomness.
+No costs, adaptive policy, apparatus availability or empirical calibration
+are silently supplied. No V outcome has been computed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05S checkpoint was pushed before T began.
+scoped to this research; the QR-05T checkpoint was pushed before U began.
 
 ## Outcome sought
 
@@ -491,7 +514,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05R: nonnegative deletion-profile contract | Complete subset profiles give an exact positive counting interface for Q's H law | Fixed-degree basis equivalence, rankwise binomial totals and nested subset composition agree; no source-alias regeneration, new minimality, authentication or physical claim |
 | QR-05S: local single-deletion criterion | 1,576 class-local entries reconstruct all 8,231 full class-profile atoms on the unchanged domain | All-member local closure, exact recurrence/word divisibility, complete operator maps and R law equality pass; no physical-time or expanded-minimality claim |
 | QR-05T: local stable refinement | Raw local and full-profile routes both refine C from 415 to 416 classes, exactly H | All rounds, count witnesses, actual maps and terminal laws pass; coarsest stable C-refinement on the unchanged finite domain only |
-| QR-05U: partial-observation filtering (proposed) | Predict from coarse received records when the sufficient H class is not directly known | Exact declared-prior likelihoods/posteriors and future laws versus a raw oracle; zero-likelihood and plug-in controls; no U outcome yet |
+| QR-05U: partial-observation filtering | Complete inference over 482 positive histories agrees with raw paths; all six cases retain history/forgetting/MAP prediction differences | Current H beliefs, explicit record access and priors; no raw-order identification, empirical calibration or physical memory claim |
+| QR-05V: predictive value of richer readouts (proposed) | Quantify added predictive information at fixed transitions and Q3 target | Exact nested-readout Brier risks and conditional-mixture identities; full H is an oracle control, not assumed sensor access; no V outcome yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
