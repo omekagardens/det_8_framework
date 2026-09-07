@@ -457,24 +457,50 @@ artifacts remain unchanged. No new physical sensor, cost model, adaptive
 policy or empirical calibration is inferred; full H remains an oracle.
 See [QR-05V results](../validation/qr-05v-readout-value-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05W, imperfect classical readouts.**
-Keep current H2, the declared beliefs, K3 and complete Q3 fixed. Within each
-full-model N fiber, let A_N contain all distinct current NMT labels, including
-zero-posterior labels. Study the unflagged random-replacement channel
-C_t(z|a)=(1-t)1[z=a]+t/|A_N| at t=0,1/2,3/4,1. Two independent
-half-replacements compose to the 3/4 channel. Do not reveal the noise coin.
+QR-05W completed the imperfect-classical-readout gate on 7 September 2026.
+On the unchanged U beliefs, K3 and complete Q3 target, fixed N-preserving,
+unflagged random replacement uses all 93 distinct NMT labels across 72 N
+fibers. Whole-model compositions, raw noisy joints, both coupling marginals
+and reverse-Bayes current/future mixtures agree across independent routes.
 
-Check full stochastic couplings, overlapping conditional posterior/future
-mixtures and expected Brier-risk data processing, not pointwise monotonicity.
-Complete replacement is equivalent to N in predictive information, not in
-literal record distribution. Noise must leave current H2 and K3 unchanged
-and be independent of future transition randomness conditional on H2.
-These are hypothetical channels, not fitted apparatus errors or grounds
-for dismissing conflicting observations. No W outcomes have been computed.
+The four cases with useful clean NMT information retain about 20.6–25% of
+their clean added Brier gain at replacement level 1/2, and about 5.0–6.25%
+at level 3/4. These are fractions of added gain, not total-error reductions.
+Full replacement adds nothing beyond N; the two left cases have zero clean
+gain and undefined retention ratios. Each positive-noise level has 32 more
+positive report cells than the clean level, without adding any raw states.
+
+Strict gain survives in the same 10 histories at every nonterminal level.
+This was a preregistered consequence of the channel family, not a new
+robustness result. Noise preserves the underlying marginal current/future
+laws; expected risks obey data processing, but individual report-conditional
+risks need not increase. Full H remains an oracle, with 402 positive residuals.
+
+All 149 tests pass normally and optimized after a narrow test-fixture fix
+separating runtime metadata from exact mathematical wires. Exact read-only
+replays and the final independent JSON-only audit pass. Six final sources
+and 27 prior artifacts remain unchanged; no frozen result was overwritten.
+No empirical sensor calibration, observed replacement coin, future-correlated
+noise, adaptive policy or physical-law claim is added.
+See [QR-05W results](../validation/qr-05w-noisy-readouts-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05X, noise-model misspecification.**
+Keep the same four channels, H2 beliefs, K3 and Q3. Cross actual channel t
+with assumed conditioning channel s in a fixed 4×4 menu. On supported
+reports, score the assumed forecast under the actual law and verify
+Risk(f;p)=R(p)+||f-p||^2. Actual risk/regret can reach 2, unlike Bayes risk.
+
+Retain true-positive reports with zero assumed probability as unsupported.
+Their true mass must not be silently dropped, renormalized or assigned an
+invented posterior. Full risk/regret remain unavailable unless coverage is
+complete; retain supported contributions with their original actual weights.
+No fallback policy, fitted calibration, robust optimization or cost model is
+supplied. This tests an explicit model mismatch, not excuses for conflicting
+physical observations. No X outcomes have been computed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05U checkpoint was pushed before V began.
+scoped to this research; the QR-05V checkpoint was pushed before W began.
 
 ## Outcome sought
 
@@ -541,7 +567,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05T: local stable refinement | Raw local and full-profile routes both refine C from 415 to 416 classes, exactly H | All rounds, count witnesses, actual maps and terminal laws pass; coarsest stable C-refinement on the unchanged finite domain only |
 | QR-05U: partial-observation filtering | Complete inference over 482 positive histories agrees with raw paths; all six cases retain history/forgetting/MAP prediction differences | Current H beliefs, explicit record access and priors; no raw-order identification, empirical calibration or physical memory claim |
 | QR-05V: predictive value of richer readouts | NMT has strict gain in 10 histories, H in 34; full conditional-law/risk certificates agree and 402 H residuals remain positive | Fixed U beliefs, K3, Q3 and Brier loss; likelihood-weighted information value, not empirical sensor performance or guaranteed large gain |
-| QR-05W: imperfect classical readouts (proposed) | Study explicit N-preserving random-replacement channels at four fixed levels | Full overlapping-channel couplings and expected-risk data processing; independent non-disturbing noise, no hidden coin access or fitted apparatus model; no W outcome yet |
+| QR-05W: imperfect classical readouts | Informative cases retain about 20.6–25% / 5.0–6.25% of clean added gain at half / three-quarter replacement; full replacement is N-information equivalent | Exact overlapping-channel data processing; family-implied strict survival is not practical robustness, and correctly specified hypothetical noise is not apparatus calibration |
+| QR-05X: noise-model misspecification (proposed) | Cross four actual and assumed channels at fixed beliefs/dynamics/target | Actual-law Brier risk/regret, exact coverage and unsupported reports; no silent forecast completion, fitted noise or optimization; no X outcome yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
