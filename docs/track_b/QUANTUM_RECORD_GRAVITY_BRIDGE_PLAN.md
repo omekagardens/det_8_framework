@@ -217,21 +217,41 @@ structural atoms including selected-rate zeros. K's original 91-class B
 quotient matches by actual membership and every transition coefficient.
 See [QR-05L results](../validation/qr-05l-adversarial-refinement-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05M, constructive observable realization.** Test an
-explicit observed colored-K2,2 motif count as the additional distinction:
-four eligible vertices, two of each named color, no same-color comparisons,
-and all four comparisons from one color layer to the other (either orientation).
-No source label, state ID or transition-table lookup may define the feature.
-Compare the complete memberships of (frame,B,M) against L's stable partition;
-separately derive and verify its x²y² expected update by motif survival.
-Expected updates remain weaker than full-law closure. Do not assume that
-this candidate matches, or promote a match to unseen orders or arbitrary laws.
+QR-05M completed its bounded constructive-observable gate on 6 September
+2026: 150 tests pass normally and optimized. The observed eligible
+color-layered induced K2,2 count M realizes exactly L's 110-class stable
+repair. Every membership, state-pushed polynomial, quotient row and
+composition certificate agrees, not just the class count.
 
-This would replace a lookup-only repair with an interpretable structural
-observable, not establish geometry or physical dynamics. Lean installation
-and the physical interface remain separate; keep the QR-06 RET quantum
-adapter under its own SDK/calibration gates. Publication remains scoped to
-this research; the QR-05K checkpoint was pushed before L began.
+The recognizer reads only supplied observed relations and eligible marks:
+four eligible vertices, two of each named color, no same-color comparisons,
+all cross comparisons directed uniformly in either orientation. It does
+not consult source names or state/class/transition lookups. Only four cycle
+observations have M=1; all other 253 states have M=0. The full path/cycle
+B collision is resolved by this observable while the B-only failure remains.
+
+The independent-thinning motif mean x²y²M is proved by support survival
+and checked in 4,112 cells, separately from complete law closure. The new
+quotient has 1,154 atoms and passes 295,424 four-variable composition cells.
+Fourteen recognizer controls include fixed exclusion, order reversal and
+overlapping motifs; disabling the feature honestly recovers failed B closure.
+The whole L analysis and its audit, refinement, joint traces, controls and
+K restriction bridge are preserved exactly. This supplies an interpretable
+finite structural repair, not unseen-domain sufficiency, minimum storage,
+geometry or physical dynamics.
+See [QR-05M results](../validation/qr-05m-observable-realization-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05N, domain-portability stress.** Prespecify an
+append-only broader finite source family, marks, resource/degree bounds and
+overlapping-motif cases. Keep M unchanged and test full next-(B,M) closure;
+preserve M/L as exact restrictions and retain counterexamples. All 3-by-3
+layered incidence patterns are a candidate family to assess in N's protocol,
+with non-topological original-ID handling explicit before reusing chain
+enumeration. No broader-family computation or certificate is claimed here.
+
+Lean installation and physical interfaces remain separate; keep the QR-06
+RET quantum adapter under its own SDK/calibration gates. Publication remains
+scoped to this research; the QR-05L checkpoint was pushed before M began.
 
 ## Outcome sought
 
@@ -288,7 +308,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05J: constructive uncertainty-summary contract | Derive second moments and covariance from eligible-union-graded ordered chain pairs | Compare with full polynomial laws; preserve overlap, pair multiplicity, degree bounds and variance of correlated mixtures; do not assume moment sufficiency for full laws |
 | QR-05K: recursive observation-summary closure | Test polynomial transition laws for updated summaries under declared fresh thinning | Separate expected updates from stochastic closure; use a subset-closed state domain, actual summary fibers and explicit information access; verify composition only under its independence premises |
 | QR-05L: adversarial closure and stable refinement | Extend the state family with a realized equal-B/unequal-next-B adversary; construct a stable refinement if possible | Keep the same observation law, preserve K as an exact restriction, retain failed B, and verify finite coarsest closed refinement without universal memory or geometry claims |
-| QR-05M: constructive observable realization (proposed) | Test whether an observed colored-K2,2 motif count realizes L's stable repair | Compare actual memberships and transition laws; distinguish motif-survival expectations from stochastic closure; no lookup-defined feature, unseen-domain sufficiency or physical claim |
+| QR-05M: constructive observable realization | An observed colored-K2,2 motif count exactly realizes L's stable repair | Actual fibers and complete transition laws match; motif-survival expectation is separate from finite stochastic closure; no lookup-defined feature or unseen-domain/physical claim |
+| QR-05N: domain-portability stress (proposed) | Test unchanged (B,M) on a prespecified broader finite source family with overlap | Preserve M/L as exact restrictions, fix labels/rates/resources first, and retain failed closure witnesses; no automatic feature revision or general sufficiency claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
