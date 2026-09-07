@@ -528,20 +528,44 @@ countercontrols preserve positive fallback regret, varying coarse-only risk,
 and signed gains. No empirical robustness, RET integration or physical-law
 claim is added. See [QR-05Y results](../validation/qr-05y-explicit-fallback-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05Z, fixed attenuation of supported forecasts.**
-Keep Y's laws and compare fixed weights a in {0,1/2,1} in
-h_a=g+a(f_Y-g), where g is the same coarse forecast. No actual noise index,
-future outcome or retrospective winner selection may choose a.
-Fallback cells stay unchanged; endpoints recover coarse-only and Y.
+QR-05Z completed its bounded fixed-attenuation gate on 7 September 2026.
+All three prespecified weights 0,1/2,1 retain complete forecast laws and the
+unchanged Y baseline, including X's nulls. At actual/assumed settings (1/2,0)
+and (3/4,1/2), the half blend beats both Y and coarse-only in all 10 informative
+histories; 472 others are unchanged. It still loses to coarse in 4 histories
+at (3/4,0), and in all 10 informative histories under full actual replacement
+when the assumed level is below 1.
 
-Verify full mixed laws and the quadratic gain identity. At full replacement,
-gain is -a² E||f_Y-g||², so nonzero retention cannot universally dominate
-coarse prediction. The new question is the attenuation midpoint/tradeoff,
-not the already-known endpoint signs. No Z outcomes have been computed.
+The exact quadratic identity explains the tradeoff: when Y is correct,
+the midpoint retains three quarters of its gain over coarse; at full
+replacement it retains one quarter of Y's excess risk. Neither coverage
+completion nor fixed attenuation establishes universal robustness.
+Generic controls preserve wrong fallbacks and midpoint gains despite
+equal-risk endpoints. Mixtures are classical forecast rules, not changes
+to quantum dynamics or observation laws.
+
+All 189 tests pass normally and optimized, exact read-only replays agree,
+and the independent raw-history audit passes. Seven frozen sources and 30
+prior artifacts remain unchanged. A pre-outcome runner depth correction,
+a strengthened midpoint bit-boundary test and a preflight auditor reporting-key
+fix/regression are disclosed. No scientific setting or result changed.
+See [QR-05Z results](../validation/qr-05z-fixed-attenuation-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05AA, declared uncertainty-bound decisions.**
+Use finite sets S_u={existing actual levels<=u}, with u from the existing
+four levels. For each case, assumed model and bound, select one of the
+three fixed weights for the whole experiment, shared across all histories
+and reports. Retain all candidate/world risks, signed worst-case excess
+over coarse and every tied minimizer; no actual-index-dependent selector.
+
+Verify affine actual-law risk and the W monotonicity/upper-endpoint
+boundary. Bounds are supplied assumptions, not calibration. Optimality
+is restricted to this three-rule menu; no outside-family or deployment
+claim is authorized. No AA policy values or outcomes have been computed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05X was pushed before Y began.
+scoped to this research; QR-05Y was pushed before Z began.
 
 ## Outcome sought
 
@@ -611,7 +635,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05W: imperfect classical readouts | Informative cases retain about 20.6–25% / 5.0–6.25% of clean added gain at half / three-quarter replacement; full replacement is N-information equivalent | Exact overlapping-channel data processing; family-implied strict survival is not practical robustness, and correctly specified hypothetical noise is not apparatus calibration |
 | QR-05X: noise-model misspecification | Positive actual noise with a clean assumed model leaves 22 histories incomplete and 32 unsupported cells per pair; full case scores remain null | Actual-law scores and explicit coverage; zero supported regret is not a complete forecaster, and hypothetical mismatch is not apparatus calibration |
 | QR-05Y: explicit N-forecast fallback | All unsupported reports receive the declared N forecast; 96 fallback-used pair cells have predicted zero regret, while supported mismatch can still be worse than N-only | Preserve X nulls and signed complete-policy comparisons; completion is not predictive robustness, generic fallbacks can be wrong |
-| QR-05Z: fixed supported-forecast attenuation (proposed) | Compare prespecified coarse/Y forecast mixtures with retained detailed weights 0,1/2,1 on unchanged laws | Full mixed-law quadratic identity, no actual-index or outcome-based selection; full replacement rules out universal dominance; no Z outcome yet |
+| QR-05Z: fixed supported-forecast attenuation | The half blend improves selected mismatches, but still loses to coarse under stronger replacement and sacrifices correct-model gain | Complete mixed laws and quadratic identities; preserve harmful outcomes and unchanged fallback; no universal robustness, fitted weight or new observation law |
+| QR-05AA: declared uncertainty-bound decisions (proposed) | Compare the three experiment-wide fixed rules by signed worst-case excess over coarse within declared finite upper-bound sets | Retain every world risk and all ties; affine actual-law and W monotonicity checks; supplied bounds are not calibration; no AA policy values yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
