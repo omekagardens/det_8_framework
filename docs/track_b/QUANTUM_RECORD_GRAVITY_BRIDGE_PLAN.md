@@ -507,22 +507,41 @@ fixture corrections are disclosed; no scientific settings or criteria changed.
 No fitted sensor model, RET integration or physical-law claim is added.
 See [QR-05X results](../validation/qr-05x-noise-misspecification-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05Y, explicit N-forecast fallback.**
-Keep supported X forecasts unchanged; explicitly supply W's N-conditional
-law only on unsupported reports. Preserve fallback mass and separate
-supported/fallback contributions. Compare the resulting complete rule
-with N-only under the actual law, allowing worse performance.
+QR-05Y completed its bounded explicit-fallback gate on 7 September 2026.
+A declared W N-conditional forecast completes all 22 previously incomplete
+histories at each positive-actual/assumed-clean comparison, while preserving
+X's null original scores and all supported forecasts. All 96 fallback-used
+pair cells have zero regret, exactly as predicted from their constant
+within-N replacement likelihood; complete current/future laws are checked.
 
-For the fixed W family, a clean-model-impossible report has constant
-positive-noise likelihood within N. Its actual conditional future law is
-therefore the N law: zero fallback regret is predicted, not a new
-robustness discovery. Wrong supported forecasts can remain harmful.
-Include a generic non-W countercontrol with positive fallback regret.
-No Y outcomes have been computed; no universal optimality is inferred.
+Completion does not repair harmful supported forecasts. Both mixture cases
+are worse than N-only at actual 1/2, assumed zero, and at actual 3/4,
+assumed 1/2. Each setting has 2 histories better, 4 worse, 476 equal across
+the six cases; case risks keep their own original likelihoods, not pooled
+weights. Under full actual replacement, all 10 informative histories are
+worse than N-only for every assumed level below one.
+
+All 176 tests pass normally and optimized, the exclusive capture replays
+exactly in both modes, and the independent JSON-only raw-history audit passes.
+Seven frozen sources and 29 prior artifacts remain unchanged. Generic
+countercontrols preserve positive fallback regret, varying coarse-only risk,
+and signed gains. No empirical robustness, RET integration or physical-law
+claim is added. See [QR-05Y results](../validation/qr-05y-explicit-fallback-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05Z, fixed attenuation of supported forecasts.**
+Keep Y's laws and compare fixed weights a in {0,1/2,1} in
+h_a=g+a(f_Y-g), where g is the same coarse forecast. No actual noise index,
+future outcome or retrospective winner selection may choose a.
+Fallback cells stay unchanged; endpoints recover coarse-only and Y.
+
+Verify full mixed laws and the quadratic gain identity. At full replacement,
+gain is -a² E||f_Y-g||², so nonzero retention cannot universally dominate
+coarse prediction. The new question is the attenuation midpoint/tradeoff,
+not the already-known endpoint signs. No Z outcomes have been computed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05W checkpoint was pushed before X began.
+scoped to this research; QR-05X was pushed before Y began.
 
 ## Outcome sought
 
@@ -591,7 +610,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05V: predictive value of richer readouts | NMT has strict gain in 10 histories, H in 34; full conditional-law/risk certificates agree and 402 H residuals remain positive | Fixed U beliefs, K3, Q3 and Brier loss; likelihood-weighted information value, not empirical sensor performance or guaranteed large gain |
 | QR-05W: imperfect classical readouts | Informative cases retain about 20.6–25% / 5.0–6.25% of clean added gain at half / three-quarter replacement; full replacement is N-information equivalent | Exact overlapping-channel data processing; family-implied strict survival is not practical robustness, and correctly specified hypothetical noise is not apparatus calibration |
 | QR-05X: noise-model misspecification | Positive actual noise with a clean assumed model leaves 22 histories incomplete and 32 unsupported cells per pair; full case scores remain null | Actual-law scores and explicit coverage; zero supported regret is not a complete forecaster, and hypothetical mismatch is not apparatus calibration |
-| QR-05Y: explicit N-forecast fallback (proposed) | Complete only unsupported reports using a declared N-conditional law, preserving supported forecasts and fallback accounting | Fixed-family zero fallback regret is predicted; compare against N-only and include a non-W countercontrol; no Y outcome yet |
+| QR-05Y: explicit N-forecast fallback | All unsupported reports receive the declared N forecast; 96 fallback-used pair cells have predicted zero regret, while supported mismatch can still be worse than N-only | Preserve X nulls and signed complete-policy comparisons; completion is not predictive robustness, generic fallbacks can be wrong |
+| QR-05Z: fixed supported-forecast attenuation (proposed) | Compare prespecified coarse/Y forecast mixtures with retained detailed weights 0,1/2,1 on unchanged laws | Full mixed-law quadratic identity, no actual-index or outcome-based selection; full replacement rules out universal dominance; no Z outcome yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
