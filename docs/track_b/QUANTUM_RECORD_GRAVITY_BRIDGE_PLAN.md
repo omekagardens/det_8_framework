@@ -579,23 +579,56 @@ Bounds remain assumptions, not inferred calibration; no empirical, RET,
 physical-law or unrestricted-optimality claim is added.
 See [QR-05AA results](../validation/qr-05aa-uncertainty-decisions-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05AB, replacement-mechanism stress.**
-Keep Z forecasts, coarse laws, histories, target and all AA minimizing sets
-fixed. Prespecify forward/reverse positive ordinal tilts within each
-whole-model N alphabet, including currently zero-prior labels, as mathematical
-controls rather than sensor models. Report each global mechanism separately.
+QR-05AB completed replacement-mechanism stress on 7 September 2026.
+It holds Z forecasts, histories, targets, original weights and every AA
+minimizing set fixed. Two prespecified positive opposite rank tilts cover
+all 93 labels in 72 whole-model N fibers, including clean-zero labels.
+Actual laws preserve unnormalized N/future mass; no refit, reoptimization,
+retrospective tie selection or per-history adversary is used.
 
-Recompute actual laws and evaluate every old minimizing rule under the same
-finite bounds. Distinguish all old ties remaining safe from only some doing
-so; retain all three rule scores and harmful outcomes. No reoptimization,
-retrospective tie selection or per-history mechanism choice. A failure would
-identify dependence on the original uniform-family premise, not invalidate
-the conditional AA certificate. Record the full protocol/channel formulas
-before any AB outcome. No AB outcomes have been computed.
+All 192 old-set certificates remain coarse-safe, including 388 old-rule
+evaluations and every tie. In 64 certificates all old rules remain strictly
+beneficial. Ten forward-mixture certificates nevertheless break their old
+negative quantitative bounds, while remaining strictly beneficial. Both
+mixture cases have five such failures; left/right cases preserve all old
+bounds. This distinguishes safety from preservation of an advertised
+improvement margin, without refuting AA's conditional uniform-family result.
+
+Opposite full joint laws and frozen-policy risks average to nominal.
+The checked upper-endpoint worst-world property also makes opposite worst
+risks average to nominal; each adverse old-bound deviation has an equal
+favorable reverse deviation. This does not average conditional posteriors
+or establish arbitrary-mechanism robustness. All/any flags are separate,
+even though they coincide on these fixed outcomes.
+
+All 272 tests pass normally and optimized, along with fresh exact read-only
+replays and the 38,952,932-check raw-history audit. Seven frozen sources,
+32 prior artifacts and final evidence bytes remain unchanged; the audit
+authenticates 73 source/prior targets. No fixed-case or preflight numerical
+correction was needed. These remain finite original-weight case-average
+mathematical controls, not calibrated sensors, per-history safety, empirical
+validation, RET integration or physical-law/gravity evidence.
+See [QR-05AB results](../validation/qr-05ab-replacement-stress-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05AC, whole-fiber replacement envelope.**
+Freeze the same forecasts and complete AA old-rule sets, then preregister
+all probability replacements on the existing N-fiber alphabets. One law
+per N must be shared across histories and noise levels. Aggregate the
+original-weight loss coefficients across histories before maximizing over
+labels; retain all maximizing labels and complete global mechanism witnesses.
+No per-history adversary, stressed argmin or new forecast fitting.
+
+Separate closed-simplex maxima from possibly unattained full-support
+suprema, and uniform negative margins from pointwise strict improvement.
+At zero noise bound all mechanisms maximize; unused fibers retain all labels.
+Verify any common-witness structure across weights instead of presuming it
+across assumed models. This would test whether AB's observed safety extends
+beyond two tilts. Record the full protocol before any AC outcome; none have
+been calculated.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05Z was pushed before AA began.
+scoped to this research; QR-05AA was pushed before AB began.
 
 ## Outcome sought
 
@@ -667,7 +700,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05Y: explicit N-forecast fallback | All unsupported reports receive the declared N forecast; 96 fallback-used pair cells have predicted zero regret, while supported mismatch can still be worse than N-only | Preserve X nulls and signed complete-policy comparisons; completion is not predictive robustness, generic fallbacks can be wrong |
 | QR-05Z: fixed supported-forecast attenuation | The half blend improves selected mismatches, but still loses to coarse under stronger replacement and sacrifices correct-model gain | Complete mixed laws and quadratic identities; preserve harmful outcomes and unchanged fallback; no universal robustness, fitted weight or new observation law |
 | QR-05AA: declared uncertainty-bound decisions | Exact finite-menu certificates give 32 negative and 64 zero worst-case excess values, retaining every minimizing rule and maximizing world | Original-weight case-average risk; supplied bounds/family only, not per-history safety or calibration; coarse availability makes nonpositive optimum automatic |
-| QR-05AB: replacement-mechanism stress (proposed) | Freeze forecasts and AA tie sets; test separately declared full-support asymmetric actual replacements | Preserve every old minimizing rule and all adverse scores; no reoptimization or retrospective surviving-tie choice; no AB outcomes yet |
+| QR-05AB: replacement-mechanism stress | All 192 old-set certificates remain safe under two fixed tilts; ten forward-mixture certificates lose their old negative bound while remaining beneficial | Complete old ties and adverse bound deviations retained; finite case-average controls, not arbitrary mechanism robustness or calibration |
+| QR-05AC: whole-fiber replacement envelope (proposed) | Freeze old rules; maximize aggregated loss over a declared N-fiber probability simplex, with complete witnesses | Same mechanism across histories; distinguish closed maxima/full-support suprema; no AC outcomes yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
