@@ -437,19 +437,44 @@ separate JSON-only lifetime-assignment audit pass. Six sources and 25 prior
 artifacts remain unchanged; no frozen source or outcome was overwritten.
 See [QR-05U results](../validation/qr-05u-partial-observation-2026-09-06/RESULTS.md).
 
-**Next proposed gate: QR-05V, predictive value of richer readouts.**
-Keep U's transitions, declared priors and complete Q3 target fixed.
-Compare nested readouts N, (N,M,T) and H at a retained current posterior;
-H is an oracle upper-bound control, not an assumed sensor.
-Compute exact expected Brier risk, its conditional-mixture decomposition
-and nonnegative reduction. Retain strict-gain/no-gain outcomes without
-requiring either. Full H need not eliminate fresh K3 randomness.
-No costs, adaptive policy, apparatus availability or empirical calibration
-are silently supplied. No V outcome has been computed.
+QR-05V completed the predictive-readout-value gate on 6 September 2026.
+Keep U's six experiments, 482 current-history beliefs, fixed K3 and complete
+Q3 unchanged. Current NMT gives strict Brier-risk gain in 10 histories;
+full H gives strict gain in 34. N has zero gain in all 482 by construction:
+the latest received record already supplies it. H retains positive residual
+risk in 402 histories because fresh future transition randomness remains.
+
+The two summary-only implementations and raw nested-subset audit agree on
+complete current-readout/future laws, per-parent posterior and predictive
+mixtures, conditional variance identities, zero-gain characterizations and
+likelihood-weighted aggregate risks. No uniform history/cell weighting or
+risk-of-averaged-prediction substitution is used. All 8,894 raw-member K3
+rows agree. Counts describe these experiments, not empirical success rates.
+
+All 140 tests pass normally and optimized. Exact read-only replays and a
+separate JSON-only lifetime/two-replica audit pass. Six sources and 26 prior
+artifacts remain unchanged. No new physical sensor, cost model, adaptive
+policy or empirical calibration is inferred; full H remains an oracle.
+See [QR-05V results](../validation/qr-05v-readout-value-2026-09-06/RESULTS.md).
+
+**Next proposed gate: QR-05W, imperfect classical readouts.**
+Keep current H2, the declared beliefs, K3 and complete Q3 fixed. Within each
+full-model N fiber, let A_N contain all distinct current NMT labels, including
+zero-posterior labels. Study the unflagged random-replacement channel
+C_t(z|a)=(1-t)1[z=a]+t/|A_N| at t=0,1/2,3/4,1. Two independent
+half-replacements compose to the 3/4 channel. Do not reveal the noise coin.
+
+Check full stochastic couplings, overlapping conditional posterior/future
+mixtures and expected Brier-risk data processing, not pointwise monotonicity.
+Complete replacement is equivalent to N in predictive information, not in
+literal record distribution. Noise must leave current H2 and K3 unchanged
+and be independent of future transition randomness conditional on H2.
+These are hypothetical channels, not fitted apparatus errors or grounds
+for dismissing conflicting observations. No W outcomes have been computed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; the QR-05T checkpoint was pushed before U began.
+scoped to this research; the QR-05U checkpoint was pushed before V began.
 
 ## Outcome sought
 
@@ -515,7 +540,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05S: local single-deletion criterion | 1,576 class-local entries reconstruct all 8,231 full class-profile atoms on the unchanged domain | All-member local closure, exact recurrence/word divisibility, complete operator maps and R law equality pass; no physical-time or expanded-minimality claim |
 | QR-05T: local stable refinement | Raw local and full-profile routes both refine C from 415 to 416 classes, exactly H | All rounds, count witnesses, actual maps and terminal laws pass; coarsest stable C-refinement on the unchanged finite domain only |
 | QR-05U: partial-observation filtering | Complete inference over 482 positive histories agrees with raw paths; all six cases retain history/forgetting/MAP prediction differences | Current H beliefs, explicit record access and priors; no raw-order identification, empirical calibration or physical memory claim |
-| QR-05V: predictive value of richer readouts (proposed) | Quantify added predictive information at fixed transitions and Q3 target | Exact nested-readout Brier risks and conditional-mixture identities; full H is an oracle control, not assumed sensor access; no V outcome yet |
+| QR-05V: predictive value of richer readouts | NMT has strict gain in 10 histories, H in 34; full conditional-law/risk certificates agree and 402 H residuals remain positive | Fixed U beliefs, K3, Q3 and Brier loss; likelihood-weighted information value, not empirical sensor performance or guaranteed large gain |
+| QR-05W: imperfect classical readouts (proposed) | Study explicit N-preserving random-replacement channels at four fixed levels | Full overlapping-channel couplings and expected-risk data processing; independent non-disturbing noise, no hidden coin access or fitted apparatus model; no W outcome yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
