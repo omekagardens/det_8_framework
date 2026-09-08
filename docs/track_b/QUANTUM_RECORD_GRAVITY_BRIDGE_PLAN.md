@@ -610,25 +610,56 @@ mathematical controls, not calibrated sensors, per-history safety, empirical
 validation, RET integration or physical-law/gravity evidence.
 See [QR-05AB results](../validation/qr-05ab-replacement-stress-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05AC, whole-fiber replacement envelope.**
-Freeze the same forecasts and complete AA old-rule sets, then preregister
-all probability replacements on the existing N-fiber alphabets. One law
-per N must be shared across histories and noise levels. Aggregate the
-original-weight loss coefficients across histories before maximizing over
-labels; retain all maximizing labels and complete global mechanism witnesses.
-No per-history adversary, stressed argmin or new forecast fitting.
+QR-05AC completed its whole-fiber replacement envelope on 7 September 2026.
+Exact linear optimization covers every probability replacement within the
+same 72 N-fibers/93-label alphabet, with one law shared across histories and
+noise levels. Original weighted losses are aggregated BEFORE label maxima;
+all global maximizing faces and complete actual-law witnesses are retained.
+No forecasting rule or old tie is reselected.
 
-Separate closed-simplex maxima from possibly unattained full-support
-suprema, and uniform negative margins from pointwise strict improvement.
-At zero noise bound all mechanisms maximize; unused fibers retain all labels.
-Verify any common-witness structure across weights instead of presuming it
-across assumed models. This would test whether AB's observed safety extends
-beyond two tilts. Record the full protocol before any AC outcome; none have
-been calculated.
+All 96 old-set certificates remain coarse-safe, covering 194 old-rule
+evaluations. Thirty-two retain a uniform negative case-average excess;
+64 have zero old-rule worst excess. Ten original negative bounds still fail,
+five in each mixture case, while those rules remain strictly beneficial.
+The remaining 86 preserve every old bound. In one balanced mixture example,
+the complete-class guaranteed improvement is only 60/859 of the original.
+Eight distinct case-specific global mechanisms supply all 288 candidate
+certificate witnesses, including every original tie and unselected candidate.
+
+Closed-simplex maxima equal full-support suprema, but may not be attained
+by strictly positive laws. No fixed candidate has a zero unattained supremum;
+synthetic tests cover that distinction and differing envelope/witness world
+ties. Uniform and both AB risk tensors are recovered and enclosed. The class
+still excludes history-dependent or within-N clean-label-dependent errors,
+changed history/target distributions, disturbance and N corruption.
+
+All 300 tests pass normally and optimized, along with exact read-only
+replays and the 41,096,511-check raw-history audit. Seven frozen sources,
+33 prior artifacts and final evidence bytes remain unchanged; 81 source/prior
+targets are authenticated. Per-route input-identity checks were strengthened
+before fixed outcomes. No numerical or scientific-rule correction was needed.
+See [QR-05AC results](../validation/qr-05ac-replacement-envelope-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05AD, continuous robust retention.**
+Keep the same frozen coarse/detailed forecast segment and declared replacement
+class, but allow one fixed retained weight anywhere in [0,1]. Independently
+derive clean squared-distance/cross coefficients and the full-replacement
+envelope from original weighted laws. Under verified producer premises this
+gives an exact convex quadratic for each assumed model and declared bound.
+
+Certify the complete interval optimizer and its forecast laws/witnesses,
+including boundary and degenerate cases. Include the three-rule class-aware
+minimum as a comparator inside this gate; preserve AA/AC old selections and
+failed original bounds. A continuum tie must be represented explicitly, not
+replaced by one chosen weight. Handle generic linear objectives correctly:
+zero quadratic coefficient alone does not make every weight optimal.
+Optimality remains within the fixed forecast segment, not all possible
+forecasting rules. Record the complete protocol and resource limits before
+new weights/risks; no AD outcomes have been calculated.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AA was pushed before AB began.
+scoped to this research; QR-05AB was pushed before AC began.
 
 ## Outcome sought
 
@@ -701,7 +732,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05Z: fixed supported-forecast attenuation | The half blend improves selected mismatches, but still loses to coarse under stronger replacement and sacrifices correct-model gain | Complete mixed laws and quadratic identities; preserve harmful outcomes and unchanged fallback; no universal robustness, fitted weight or new observation law |
 | QR-05AA: declared uncertainty-bound decisions | Exact finite-menu certificates give 32 negative and 64 zero worst-case excess values, retaining every minimizing rule and maximizing world | Original-weight case-average risk; supplied bounds/family only, not per-history safety or calibration; coarse availability makes nonpositive optimum automatic |
 | QR-05AB: replacement-mechanism stress | All 192 old-set certificates remain safe under two fixed tilts; ten forward-mixture certificates lose their old negative bound while remaining beneficial | Complete old ties and adverse bound deviations retained; finite case-average controls, not arbitrary mechanism robustness or calibration |
-| QR-05AC: whole-fiber replacement envelope (proposed) | Freeze old rules; maximize aggregated loss over a declared N-fiber probability simplex, with complete witnesses | Same mechanism across histories; distinguish closed maxima/full-support suprema; no AC outcomes yet |
+| QR-05AC: whole-fiber replacement envelope | All 96 old sets remain safe over the declared product simplex; 32 strictly beneficial; ten original negative bounds weaken | Original history weights and shared N-conditioned mechanisms; complete faces/witnesses; not arbitrary observation errors, calibration or per-history safety |
+| QR-05AD: continuous robust retention (proposed) | Certify an exact optimizer over the fixed coarse/detailed forecast segment, with finite-menu comparison | Complete interval ties and generic linear edge cases; no new weights or AD outcomes yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
