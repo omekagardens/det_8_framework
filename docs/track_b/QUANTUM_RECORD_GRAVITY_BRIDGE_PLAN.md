@@ -1027,50 +1027,76 @@ it does not establish invariance under arbitrary changes of supplied geometry.
 A finite gain is not an operational robustness pass without a measurement
 error budget and response tolerance, nor a uniform bound over shrinking cells.
 
-**Next proposed gate: QR-05AQ, frozen-decoder source-span portability.**
-Keep AO's supplied coarse/fine geometry, its complete four-moment observation
-interface and BOTH frozen coarse-response maps. Test an alternative nonnegative
-source dictionary: on each positive AO fine tile t, use all nine
-phi_tij=V^2*1_t*B_i^2(xi_t)*B_j^2(eta_t), i,j=0,1,2, where the quadratic
-Bernstein factors are ((1-x)^2,2x(1-x),x^2). Coordinates are LOCAL to each
-fine tile, not the probe. The V^2 amplitude preserves field units and positive
-affine transport; it must not be tuned after outcomes.
+**QR-05AQ completed: frozen-decoder source-span portability.**
+Both independent engines and a separate beta-integral oracle agree on the
+108 nonnegative fine-tile Bernstein sources in each grid/warp family. The
+same geometric map remains exact on all 49 coarse responses. The same compact
+canonical map fails on ten rows in each family: 305 nonzero residuals for
+grid (168 negative/137 positive), 330 for warp (187 negative/143 positive).
+There are 96 and 99 generators with at least one failure, respectively.
+All signed errors, zero rows, extremal ties and full witnesses remain visible.
 
-Unknown fields are convex mixtures of this prospective dictionary with exact
-weight sum one. Its larger piecewise-polynomial span does not imply that its
-normalized convex hull contains every original AO mixture. These are supplied
-nonnegative test fields, not necessarily causal F_ab constructions or physical
-sources. Boundary/discontinuity conventions must be fixed explicitly.
+The sharp maximum absolute normalized mismatch is 11/36 for grid and 49/100
+for warp, only at response (8,9), attained negatively by generators56,59,62.
+The first counterexample is generator0 detected at (1,1), not the maximum-error
+witness. It also produces spurious canonical predictions at (8,8),(8,9) where
+the true localized-source response is zero. These are noiseless source-model
+failures, not measurement corruption or physical nonlocality.
 
-Independently compute every new weighted measurement and coarse response.
-Retain all signed residuals a*1^T+L*O_new-Q_new, and any single-generator
-counterexample. Per-generator equality is equivalent to correctness on every
-normalized convex mixture of this dictionary. Do not refit the canonical map,
-discard its intercept, or assume any failure before testing.
+The entire geometric map was independently derived from bilinear outgoing
+functions and tile ownership. Its coarse-response identity therefore extends
+to any integrable incoming field on this supplied geometry; that structural
+argument is separate from finite matrix checks. The canonical failure does
+NOT show insufficiency of the unchanged four-moment measurement interface.
+Both original source-model identities were rechecked without refitting.
 
-Use the geometric map as a structural control: the outgoing R_D is bilinear
-on each retained coarse tile, so its response depends on the four weighted
-moments for any integrable incoming field. A failing canonical policy would
-therefore demonstrate source-model dependence, NOT insufficiency of these
-measurements for coarse responses. Verify true responses independently of
-merely multiplying G by the new observation matrix.
+All 66 tests pass normally and optimized, including 176 explicit guard
+rejections per mode and 155 rejected non-noop corruptions. Five AQ sources,
+47 prior captures and 54 ancestor sources remain authenticated. The final
+918,833-byte suite replays exactly; no post-first source, protocol, fixture
+or mathematical correction was needed. See
+[QR-05AQ results](../validation/qr-05aq-source-portability-2026-09-08/RESULTS.md).
 
-Controls must include Bernstein nonnegativity/partition of unity, fine/coarse
-tile ownership and moment additivity, all old frozen-map identities, empty
-regions, complete affine transport of the SAME maps, and full residual/witness
-retention. The existing degree-through-(3,3) geometry moments suffice for
-biquadratic field times bilinear response; this is not another degree gate.
-Do not transplant the old V^4/576 chain-sum normalization to the new dictionary.
-Freeze the detailed AQ protocol before fixed calculations; none has run.
+The new source dictionary does not establish inclusion of AO's normalized
+convex hull or physical source preparation. All fixed intercepts happen to
+be zero; generic nonzero-intercept and undefined-normalization cases pass.
+AP error amplification and AQ dictionary-simplex mismatch extrema are
+different quantities, neither an empirically calibrated performance claim.
 
-AP measurement corruption and AQ noiseless source mismatch are distinct.
-Fine/full-field recovery extensions, empirical noise, physical preparation,
-unknown geometry, quantum channels and gravitational dynamics remain separate.
+**Next proposed gate: QR-05AR, fine-response measurement sufficiency.**
+Keep the same supplied grid/warp geometry and AQ's nonnegative source
+dictionary. Change the question family to all ordered FINE-region responses,
+while initially retaining only the four moments per COARSE tile. Independently
+integrate true fine responses. A failed inherited decoder would not prove
+measurement insufficiency; test the full normalized observation interface
+A=[1^T;O_coarse] instead.
+
+Retain either an exact fine-response decoder identity or a genuine obstruction:
+w in ker(A) with Q_fine*w nonzero. Split w into positive and negative parts
+and normalize each by their equal positive mass to obtain TWO nonnegative
+mixtures with identical coarse observations and different fine responses.
+Retain both complete weight/measurement/response vectors and a separating row.
+Do not presume a failure or silently drop known weight normalization.
+
+As an explicit repair control, acquire four incoming-field moments per fine
+tile, structurally check fine destination branches, and independently derive
+the fine-response map. Verify that coarse moments are their parent-wise sums.
+If further breakpoint splitting is required, declare and count it before
+fixed execution. Fine moments are NEW measurements of the unknown field;
+known geometry alone cannot supply them from coarse data. No minimal repair
+or free coarse-to-fine inversion is claimed.
+
+Keep the next gate bounded to query resolution: exact recovery-or-collision
+certificates, the explicit measurement repair and complete affine/empty-region
+controls. Preserve AO's narrow-span result and AQ's coarse structural result.
+No new source enlargement, full-field reconstruction, noise optimization,
+physical sensor interface, unknown metric or gravitational dynamics. Freeze
+the detailed AR protocol before fixed calculations; none has run.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AO was pushed as
-`a3286f68dd35be7d60b9abad6fc914dbbbd5af8f` before AP began.
+scoped to this research; QR-05AP was pushed as
+`5b4d767a1942640c38b8205b9a30d50208becdb0` before AQ began.
 
 ## Outcome sought
 
@@ -1157,7 +1183,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AN: degree-aware four-point composition | All 15,586 quadruples and 9,986 true blocks agree exactly; forced/mean controls overestimate 612/562 positive rows and neither uniformly dominates | Nine propagated coefficients, sixteen raw moments, structural admission and full payload; no universal degree closure, unknown geometry or gravity claim |
 | QR-05AO: response-preserving coarse field measurements | Integrals fail all three targets; weighted coarse moments recover coarse/fine responses and the complete rank-23 field in both fixed families | Complete decoders and normalized nonnegative collisions; restricted online access, supplied geometry and declared span, not identifiable weights, arbitrary fields or noisy robustness |
 | QR-05AP: bounded measurement-error stability | Geometric maximum gain 4 versus canonical 535/6 (grid), 7313/50 (warp); each family has 6 canonical-lower, 4 geometric-lower and 39 tied rows | All sharp row witnesses and maximum ties, same frozen maps/dimensionless box; no uniform row/error dominance, empirical noise, field-realizable perturbation or full-field stability claim |
-| QR-05AQ: frozen-decoder source-span portability (proposed) | Test the same coarse-response maps on nonnegative fine-tile Bernstein biquadratics, retaining every signed residual and any single-generator failure witness | Independent true responses and geometric sufficiency control; no refit, presumed failure, old convex-hull inclusion, physical-source or full-field extension claim |
+| QR-05AQ: frozen-decoder source-span portability | Geometric map remains exact; canonical fails ten response rows per family with 305/330 residuals and sharp normalized mismatch 11/36,49/100 | Nonnegative source witnesses and all signed extrema; decoder model dependence, not measurement insufficiency, empirical noise, physical-source or full-field extension |
+| QR-05AR: fine-response measurement sufficiency (proposed) | Test coarse moments against fine-region responses on the same AQ sources; retain exact recovery or normalized nonnegative collisions and an explicit fine-moment repair | Actual observation sufficiency, not failure of one decoder; normalization and new measurement access retained; no presumed failure, minimal repair, full-field or physical claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
