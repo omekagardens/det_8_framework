@@ -957,50 +957,76 @@ for exact witnesses, both approximation controls, payload and final replays.
 This establishes a declared finite-degree response on supplied geometry,
 not universal composition closure, unknown geometry, quantum dynamics or gravity.
 
-**Next proposed gate: QR-05AO, response-preserving coarse field measurements.**
-Ask which coarse observations preserve declared geometric responses without
-retaining the complete fine field. Start with grid/warp, whole probe, l1->l2
-only: 64 ordered fine F_ab generators, 49 coarse (C,D) responses and 64 fine
-responses per family. No fifth-point integration is needed for this question.
+**QR-05AO completed: response-preserving coarse field measurements.**
+Both independent implementations agree on the grid/warp whole-probe l1->l2
+scope. Each incoming field is an unknown convex mixture of 64 ordered fine
+F_ab generators. The online decoder receives raw field measurements, known
+weight normalization and a fixed certified decoder, not mixture weights or
+the fine coefficients. The supplied geometry and dictionary remain public.
 
-The new input restriction must be explicit. Unlike AN's known region pair,
-let the incoming field be an UNKNOWN convex mixture of the fine generators.
-The decoder receives observations and known normalization, supplied coarse
-geometry/outgoing coefficients and a certified response decoder; it cannot
-read mixture weights or the complete fine coefficients. Compare one field
-integral per coarse shared tile (equivalent to its mean with known volume)
-with four weighted field moments integral_tile F*(1,u,v,uv). These carry
-information about the field; they are not the geometry-only M_ij.
+Eight coarse tile integrals fail all three targets in EACH family: coarse
+responses, fine responses and full fine-field reconstruction. Four weighted
+field moments per coarse tile (32 observations) recover ALL THREE. Their raw
+rank is 23, equal to the field synthesis rank; normalization raises the
+observation rank to 24. This strong full-field result is limited to the
+declared generator span. Individual mixture weights remain nonidentifiable.
 
-For observation matrix O, append the normalization row:
-O_tilde=[1^T;O]. For each complete target matrix Q, certify recovery with
-Q=D O_tilde, equivalently ker(O_tilde) contained in ker(Q), or retain a
-rational witness w with O_tilde w=0 and Qw nonzero. Normalizing w's positive
-and negative parts by their equal sum yields two actual convex mixtures with
-the same observations and different responses. An unconstrained signed
-difference alone must not be called an admissible mixture collision.
+All six recoveries retain complete exact decoders, and all six failures retain
+two normalized nonnegative mixtures with identical complete observations and
+different target vectors. Canonical rank/basis/null-space certificates,
+complete measurement/refinement identities and the separate geometric coarse
+decoder agree. The 23 selected raw measurement rows suffice on this span,
+but no 23-value packet codec, universal minimality or arbitrary-field recovery
+is claimed. The full offline artifact still retains the field dictionary.
 
-Four field moments per coarse tile constructively recover coarse responses
-because their outgoing functions are bilinear there. Finer response weights
-add subcell restrictions and breakpoints; whether some other decoder still
-works on this particular finite source span is a separate test, not an assumed
-failure. Also test full fine-field reconstruction through its coefficient
-synthesis matrix, modulo dependencies among generator columns. Retain complete
-matrices, ranks, decoders or collisions; report costs including supplied
-geometry and decoder data. No universal minimality or physical preparation
-of these mathematical mixtures is implied.
+All 75 tests pass normally and optimized, including complete independent
+family oracles, 57 non-noop corruptions and 92 malformed-input rejections per
+mode. Five current sources, 45 prior captures and 44 ancestor sources remain
+authenticated. No post-first source, protocol, fixture or mathematical
+correction was needed. The 437,783-byte canonical suite retains complete
+geometry, matrices and witnesses; costs are not a compressed online wire.
+Selected AN geometry and fine fields/answers are checked only after new
+calculations; historical executors are not run. See
+[QR-05AO results](../validation/qr-05ao-field-measurements-2026-09-08/RESULTS.md).
 
-This is response-relative information loss on SUPPLIED geometry, not an
-inverse problem for unknown spacetime. A change of coordinates/basis is
-reversible; discarding the fine field may lose information while preserving
-selected responses. If the full fine field or weights are still retained,
-no loss of the full record follows. Freeze the detailed AO protocol before
-fixed calculation; no fixed AO calculation has been performed.
+**Next proposed gate: QR-05AP, bounded measurement-error stability.**
+Exact noiseless reconstruction need not be stable under measurement errors.
+Compare TWO FROZEN AO coarse-response maps: its canonical decoder (pad omitted
+measurement coefficients with zero) and its direct geometric decoder. Retain
+grid/warp, whole probe, l1->l2 and all 49 coarse responses per family. No
+decoder fitting/optimization, source-span expansion or higher-point integration.
+AO's full-field recovery remains a result, not a presumed failure.
+
+For each positive coarse tile, set xi=(u-u0)/width_u and eta=(v-v0)/width_v.
+Use dimensionless measured coordinates
+z_tile,j=integral_tile F*(1,xi,eta,xi*eta)_j/(V^2*h_tile), where V is probe
+volume and h_tile is tile volume. Normalize positive-volume responses as
+y_CD=U_CD/(V^2*h_C*h_D); generic zero-volume response normalizations are null.
+Keep the mixture-normalization row EXACT, with no error assigned to it.
+
+Transport each frozen map to y_hat=b+Bz. Under the stated hypothetical box
+|delta_z_i|<=epsilon, retain every signed coefficient and the sharp row bound
+|delta_y_j|<=epsilon*sum_i abs(B_ji), with a sign-vector witness attaining it.
+Retain all row gains, the overall maximum and ALL maximizing row ties, plus
+the complete output vectors for the witnesses. Freeze exact null handling,
+ordering, transport and audit rules before fixed calculation; none has run.
+
+Positive affine axis changes must preserve the dimensionless error contract.
+Transport the SAME frozen decoder rather than recomputing a new canonical
+decoder, which may change off-model behavior. Equal independent errors on
+global (1,u,v,uv) moments would be a different assumption after translation.
+The error box is not calibrated sensor noise and need not correspond to a
+valid perturbed field; inconsistent measurements may yield negative or
+out-of-range decoded responses. Do not silently clip or project them.
+
+Source-span portability, fine/full-field error stability and empirical noise
+remain separate future tests. This work concerns responses on SUPPLIED
+geometry, not unknown spacetime, quantum channels or gravitational dynamics.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AM was pushed as
-`0e65df824a7e19d5b6420036d5e98f5a6073d81a` before AN began.
+scoped to this research; QR-05AN was pushed as
+`8ed22a74c2dd6a576f862daf6e07e584d3c9567b` before AO began.
 
 ## Outcome sought
 
@@ -1085,7 +1111,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AL: breakpoint-aware middle moments | All 26,775 triple measures reconstructed exactly; tilewise means reduce 205 errors but retain all 1,100 positive residuals; 475 nine-moment aggregation blocks agree | Full coordinate-dependent contract and payload counted; no minimality, universal query closure, unknown geometry or gravity claim |
 | QR-05AM: query reuse and explicit refinement | All 2,625 queries agree: 810 reuse, 540 refinement and 1,275 empty; 1,220 derived pieces preserve all nine old moments, with 20 mixed retained/refined queries | Primary consumes trusted moments, reference geometrically checks them; structural admission is not accidental answer equality; no minimal or universal query interface |
 | QR-05AN: degree-aware four-point composition | All 15,586 quadruples and 9,986 true blocks agree exactly; forced/mean controls overestimate 612/562 positive rows and neither uniformly dominates | Nine propagated coefficients, sixteen raw moments, structural admission and full payload; no universal degree closure, unknown geometry or gravity claim |
-| QR-05AO: response-preserving coarse field measurements (proposed) | Test coarse field integrals versus four weighted field moments for coarse responses, fine responses and full-field reconstruction on a declared convex-mixture family | Complete decoder or normalized nonnegative collision, explicit access restrictions; no assumed rank/outcome, physical mixture preparation or unknown-geometry claim |
+| QR-05AO: response-preserving coarse field measurements | Integrals fail all three targets; weighted coarse moments recover coarse/fine responses and the complete rank-23 field in both fixed families | Complete decoders and normalized nonnegative collisions; restricted online access, supplied geometry and declared span, not identifiable weights, arbitrary fields or noisy robustness |
+| QR-05AP: bounded measurement-error stability (proposed) | Compare two frozen coarse-response decoders under dimensionless tile-local moment errors; retain sharp row bounds, witnesses and all maximum ties | Same transported decoder and error contract, exact normalization, explicit nulls; no fitted decoder, empirical noise, field-realizable perturbation or full-field stability claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
