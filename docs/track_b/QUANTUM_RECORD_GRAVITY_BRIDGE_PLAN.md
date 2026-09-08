@@ -1127,30 +1127,56 @@ The 596,785-byte suite and all 118 identities remain exact, with no post-first
 source, protocol, fixture or mathematical correction. See
 [QR-05AS results](../validation/qr-05as-query-supplements-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05AT, bank-level structural portability.**
-Freeze AS's SAME intercept a, receiver L and selected filters F; keep AR's
-supplied geometry, full bank map G and source-column matrices. Derive the
-coarse parent-sum map C independently from authenticated tile lineage and
-verify O=C R. No new source dictionary, geometry integration or decoder fit.
-Partition L=[Lc Lh] by coarse and supplemental coordinates and form
-K=Lc C+Lh F. Retain the full affine bank defect a+(K-G)z.
+**QR-05AT completed: bank-level structural portability.**
+The SAME frozen AS receiver is exact on every raw bank vector for all64 warp
+responses and63 of64 grid responses. Only grid row63=(10,10) lacks an
+unrestricted-bank identity. All original normalized-source identities remain
+exact; AS's five-extra linear-readout minimum on that model is unchanged.
 
-The inherited source equality a*1^T+(K-G)R=0 does not establish the unrestricted
-bank conditions a=0 and K=G. Compare every coefficient, preserve nonzero
-intercepts/defects, and use prespecified zero/unit-bank controls if needed.
-Such controls diagnose off-model algebra; they are not automatically
-nonnegative physical fields or violations of known observables. A limitation
-of the frozen canonical map is not proof that the measurement interface is
-insufficient. Do not refit it or infer new off-model normalization constraints
-by fitting the residuals. Weight normalization is not automatically ordinary
-field-integral normalization.
+The independently validated parent-sum map C obeys O=C R. With L=[Lc Lh],
+K=Lc C+Lh F and E=K-G, the complete retained source identity is
+a*1^T+E R=0. Warp has a=0,E=0. Grid has only a63=1/864 and twelve nonzero
+E63 coefficients, all bank zeroth moments. In tile order these are
+[-1,-1,-2,-2,-2,-2,-1/2,-1,-1,-1,-1,-1/2]. Every other row is structural.
 
-Freeze the detailed AT protocol before new C/K/defect calculations; none has
-run. This structural boundary should be settled before a shared-bank error
-study. If coarse and supplemental values later come from the same noisy bank,
-their errors must share that primitive input; independent output boxes are a
-different model. Keep minimality, robustness, physical preparation, unknown
-geometry and gravitational dynamics as separate claims.
+All49 prescribed zero/unit controls per family were retained through actual
+restricted producer/receiver calls. Grid's49 controls fail only that same row;
+warp's all pass. At zero bank input the grid residual is1/864; at unit ej it
+is a+E[:,j], not E[:,j]. Counts are not failure probabilities or independent
+missing directions. The unequal mass coefficients describe the defect, not
+a new ordinary-field normalization constraint or a reason to refit this map.
+
+Warp's coefficient identity extends the frozen response pipeline beyond the
+finite source family, conditional on the inherited geometric integral maps
+and common-bank measurements. It is not incoming-field reconstruction,
+physical preparation, empirical robustness or gravity. The single grid
+canonical-map limitation does not establish measurement insufficiency.
+
+All57 tests pass normally and optimized, with260 non-noop corruption controls,
+full independent comparison and exact read-only replays. All124 identities
+and the1,128,907-byte suite remain exact; no post-first source, protocol,
+fixture or mathematical change. See
+[QR-05AT results](../validation/qr-05at-bank-portability-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05AU, source-independent receiver construction.**
+Keep the SAME37-coordinate interface x=[Cz;Fz], geometry, source dictionary,
+target map G and five filters F. Ask whether a zero-intercept receiver can
+recover Gz on unrestricted raw bank vectors. This is an explicitly NEW
+decoder question; preserve AT's frozen-map failure as evidence.
+
+Check exact row-space membership against [C;F] WITHOUT a normalization row.
+If possible, construct a deterministic exact receiver and verify every bank
+coefficient, source restriction and actual raw application. If not, retain
+exact bank-null-direction countercontrols. Such vectors diagnose algebraic
+interface insufficiency on the stated unrestricted domain, not automatically
+physical-source insufficiency or conflict with known observables.
+
+Freeze the detailed AU protocol before any new rank, decoder or null-witness
+calculation; none has run. No additional measurements, off-model normalization
+law, geometric integration, noise tuning or new minimality claim. Resolve this
+receiver question before a shared-bank error study. Errors derived from a
+common noisy bank must share that primitive input; independent output boxes
+remain a different model. Keep physical and gravitational claims separate.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -1245,7 +1271,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AQ: frozen-decoder source-span portability | Geometric map remains exact; canonical fails ten response rows per family with 305/330 residuals and sharp normalized mismatch 11/36,49/100 | Nonnegative source witnesses and all signed extrema; decoder model dependence, not measurement insufficiency, empirical noise, physical-source or full-field extension |
 | QR-05AR: fine-response measurement sufficiency | Each geometry recovers 51 of 64 fine rows (33 zero), fails 13, and has normalized nonnegative coarse collisions; 48 fine moments repair all responses | Actual information loss, not decoder failure; unchanged sources and new measurement access; no minimal repair, full-field or physical claim |
 | QR-05AS: query-specific supplemental linear readouts | Five extra scalar readouts per case recover all fine targets; twelve nonzero filter coefficients use six bank coordinates, with five complete omission witnesses | Minimum extra fixed noiseless LINEAR readouts given coarse O on the normalized simplex; no minimal total packet, local-bank/sensor cost, off-model, nonlinear-encoding or physical claim |
-| QR-05AT: bank-level structural portability (proposed) | Compare the same frozen affine receiver with the full bank response map using independently derived coarse parent sums | Complete coefficient defects and source restriction; no refit, inferred off-model normalization, physical-source, noise or gravity claim |
+| QR-05AT: bank-level structural portability | Warp all64 and grid63 responses structurally exact; grid(10,10) has intercept1/864 and twelve mass-coordinate defects while source restrictions remain exact | Frozen-map limitation, not measurement insufficiency; full zero/unit controls, no refit, inferred normalization, physical-source or noise claim |
+| QR-05AU: source-independent receiver construction (proposed) | Test whether the SAME37-value interface admits a zero-intercept exact bank decoder, retaining an explicit construction or algebraic countercontrol | New decoder, not rewriting AT evidence; no extra measurements, physical-source insufficiency, new minimality, noise or gravity claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
