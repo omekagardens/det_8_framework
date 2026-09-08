@@ -834,24 +834,56 @@ preflight agree without a post-first mathematical or source correction.
 See [QR-05AJ results](../validation/qr-05aj-pair-coarsening-2026-09-07/RESULTS.md)
 for the final retained artifact, replays and exact numerical witnesses.
 
-**Next proposed gate: QR-05AK, shared-intermediate geometry and composition.**
-On the same supplied partitions, compute all ordered region-triple measures
-using one common intermediate point, and compare with the dimensionally
-matched product J_AB*J_BC/h_B when the middle clipped volume is positive.
-Retain zero raw measure but undefined normalized product when it vanishes.
-Test triple-measure additivity separately from composition of projected pair
-tables, including repeated region labels and complete child triples.
+**QR-05AK, shared-intermediate geometry and composition: completed.**
+Both independent engines agree on all 26,775 ordered triples, 19,375 complete
+parent-triple blocks and 34,175 child terms. True triple measure is additive;
+all 5,400 direct l0-to-l2 blocks agree through l1. The complete AJ pair/volume
+projection, true conditional weighting, repeated-region pattern accounting,
+endpoint-only product equality and within/between error decomposition pass.
 
-The target is to identify dependence lost by this pair-product construction,
-not a universal impossibility of recovering triples from supplied geometry or
-every possible pair summary. Freeze its detailed protocol before calculations.
-No fixed AK computations have been performed. No forecasting or observation-mask
-enumeration is required unless a separate new sampling claim is introduced.
+Of 1,530 positive true triples, the product J_AB*J_BC/h_B is exact in 430 and
+overestimates in 1,100. No retained case invents positive support at T=0.
+The 12,945 zero-middle triples retain undefined products/errors, not artificial
+zeros. The 6,510 positive-middle/zero-endpoint triples have valid zero products
+but undefined fully normalized fractions. These are deterministic contexts,
+not independent trials or empirical rates.
+
+The missing term is shared-middle dependence: T-P=h_B*Cov_B(L_A,R_C).
+Grid whole l1-to-l2 parent triple (1,2,3) demonstrates this with distinct
+regions: true measure 1/41472, coarse product 1/27648 and middle-refined
+product 1/36864. Endpoint-only refinement leaves the coarse product unchanged.
+Across 50 adjacent-level family/probe totals, product error decreases 30 times
+and stays unchanged 20 times; all 75 level/probe errors remain positive.
+This does not establish universal monotonicity or a continuum limit.
+
+All 75 tests pass normally and optimized, including complete family-oracle
+comparisons and 39 non-noop corruptions. Five current sources, 41 prior
+captures and 24 ancestor sources remain authenticated. First comparison,
+independent reference audit, external preflight and final capture agree
+without a post-first source or mathematical correction. See
+[QR-05AK results](../validation/qr-05ak-shared-middle-2026-09-07/RESULTS.md)
+for final evidence, read-only replays and exact witnesses. This remains supplied
+geometry, not a universal pair-summary impossibility theorem or gravity.
+
+**Next proposed gate: QR-05AL, breakpoint-aware middle moments.**
+For the declared endpoint/probe family, split middle rectangles at relevant
+incoming/outgoing coordinate breakpoints. Test bilinear coefficient functions
+and nine raw tensor moments per tile, forming a 4-by-4 Gram matrix to recover
+pair means, shared-middle triple measure and centered covariance. Compare
+against direct integration, retaining both original-middle and tilewise
+mean-only controls to distinguish subdivision effects from within-tile moments.
+
+Count every tile, moment and coefficient payload. Nine moments are not nine
+independent geometric parameters or a proved minimum. Use a common coordinate
+basis or explicit affine transport for additivity. New queries may need new
+breakpoints, and longer products may require higher degrees; no arbitrary-query
+or general dynamics closure is assumed. Freeze the detailed protocol before
+computation. No fixed AL calculations have been performed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AI was pushed as
-`e77482fccb3d72ab21f1b50ebbb4aee632a7831d` before AJ began.
+scoped to this research; QR-05AJ was pushed as
+`8c410538cab848205f837d3b07a9237357609b87` before AK began.
 
 ## Outcome sought
 
@@ -932,7 +964,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AH: partition refinement and boundary-error certificates | Ten main-family enclosures tighten with unchanged point errors; a generic counterexample tightens bounds while worsening absolute error | Source-aware geometric bounds, unchanged geometry-blind observer, additive partitions and separate three errors; no monotone point-error, cross-level transport, metric or continuum claim |
 | QR-05AI: weighted causal-kernel refinement | Exact volume can coexist with a zero pair coefficient and nonzero continuum comparison; twenty point-error improvements, thirty unchanged, explicit singleton pair-support failure | Separate weighted finite targets, all directed cell-pair integrals and up-to-four-cell covariance; private diagnostic only, no inherited kernel bound or physical derivation |
 | QR-05AJ: additive cell-pair geometry across scales | All3,025 parent-pair blocks and900 direct/via-middle blocks agree;47 uniform and16 annotation-weight disagreements retained | Supplied two-point measure, explicit undefined zero-volume normalization and repeated-region diagonals; no transition matrix or higher-chain composition closure |
-| QR-05AK: shared-intermediate geometry and composition (proposed) | Compare actual region-triple integrals with projected pair products and test triple block additivity independently | Same supplied geometry, explicit middle measure and zero-volume convention; no fixed outcomes, universal insufficiency or physical-law claim |
+| QR-05AK: shared-intermediate geometry and composition | All 19,375 true triple blocks are additive; pair products overestimate 1,100 positive triples and are exact in 430; shared-middle covariance accounts for the difference | Same supplied geometry and explicit nulls; no false-positive support in fixed cases, universal pair-summary impossibility, convergence or physical-law claim |
+| QR-05AL: breakpoint-aware middle moments (proposed) | Test tilewise bilinear functions and raw moments against direct shared-middle integration, with original-middle and tilewise mean-only controls | Count full query-dependent payload; no fixed outcomes, minimality, unknown-geometry reconstruction or arbitrary-dynamics closure |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
