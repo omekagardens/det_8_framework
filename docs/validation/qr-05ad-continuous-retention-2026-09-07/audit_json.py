@@ -1,0 +1,4797 @@
+"""Independent stdlib JSON-only QR-05AD continuous-retention audit.
+
+Static own-lineage raw helpers; no current/prior executor, runner or test
+imports. Source bytes are consulted only for identity hashes. This audit
+reconstructs W conditional laws, not prior operator/minimality certificates.
+"""
+
+import argparse
+import hashlib
+import itertools
+import json
+import math
+import time
+from collections import defaultdict
+from fractions import Fraction as F
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+ACDIR = ROOT / "docs/validation/qr-05ac-replacement-envelope-2026-09-07"
+AC_PRIOR = "qr-05ac-replacement-envelope-2026-09-07/results.json"
+AC_ID = {
+    "bytes": 1783649,
+    "sha256": "3fc5a502c214ba408e5f539133156b0ad81a2ef243545645dc980e7936932c18",
+}
+ABDIR = ROOT / "docs/validation/qr-05ab-replacement-stress-2026-09-07"
+AB_PRIOR = "qr-05ab-replacement-stress-2026-09-07/results.json"
+AB_ID = {
+    "bytes": 1805554,
+    "sha256": "7cbe2668d5b022f73207502bab214078b911e25d25a3826918b916e967643009",
+}
+AADIR = ROOT / "docs/validation/qr-05aa-uncertainty-decisions-2026-09-07"
+AA_PRIOR = "qr-05aa-uncertainty-decisions-2026-09-07/results.json"
+AA_ID = {
+    "bytes": 112206,
+    "sha256": "bf5661984f9df4cb111fbe97061035967de9f7516a26154abefc7d1d3a49c424",
+}
+ZDIR = ROOT / "docs/validation/qr-05z-fixed-attenuation-2026-09-07"
+Z_PRIOR = "qr-05z-fixed-attenuation-2026-09-07/results.json"
+Z_ID = {
+    "bytes": 31075315,
+    "sha256": "7828dafe766ae4cef9e2fd8dcc6181079fe936e8720a70367598aaf3bcbb8ccc",
+}
+YDIR = ROOT / "docs/validation/qr-05y-explicit-fallback-2026-09-07"
+Y_PRIOR = "qr-05y-explicit-fallback-2026-09-07/results.json"
+Y_ID = {
+    "bytes": 16474309,
+    "sha256": "c4189b0f1bb0df4bb3e5f14c1969ede0ee754f59b4bc99e89aeac8d6b065891f",
+}
+XDIR = ROOT / "docs/validation/qr-05x-noise-misspecification-2026-09-07"
+X_PRIOR = "qr-05x-noise-misspecification-2026-09-07/results.json"
+X_ID = {
+    "bytes": 8842933,
+    "sha256": "1bf12e668ccaaeb20da78d849ae138ffcce2cc32e14be57f286169c74a4734c4",
+}
+WDIR = ROOT / "docs/validation/qr-05w-noisy-readouts-2026-09-07"
+W_PRIOR = "qr-05w-noisy-readouts-2026-09-07/results.json"
+W_ID = {
+    "bytes": 6756094,
+    "sha256": "05b20faf7feae7327113ace9168540d61db0e0e6bebae268819b2b84847cce8a",
+}
+SDIR = ROOT / "docs/validation/qr-05s-local-deletion-2026-09-06"
+LEVELS = [F(0), F(1, 2), F(3, 4), F(1)]
+GARB = [F(1, 2), F(1, 2), F(1)]
+COUNTS = defaultdict(int)
+START = time.monotonic()
+
+
+def check(condition, message):
+    COUNTS["checks"] += 1
+    if not condition:
+        raise RuntimeError(message)
+
+
+def eq(left, right, message):
+    check(left == right, message)
+
+
+def native_tree(value, depth=0):
+    """Mathematical wire validation, separate from runtime float metadata."""
+    check(depth <= 128, "strict native wire depth")
+    kind = type(value)
+    if value is None or kind in (str, bool):
+        return
+    if kind is int:
+        check(abs(value).bit_length() <= 4096, "strict native integer bits")
+        return
+    check(kind in (list, dict), "strict mathematical native JSON type")
+    if kind is dict:
+        check(all(type(key) is str for key in value), "strict native dictionary keys")
+        children = value.values()
+    else:
+        children = value
+    for child in children:
+        native_tree(child, depth + 1)
+
+
+def native_eq(left, right, message):
+    # Canonical bytes distinguish bool/int, preserve every key, and reject
+    # numeric coercion that Python's container equality would permit.
+    check(canon(left) == canon(right), message)
+
+
+def canon(value):
+    return (
+        json.dumps(value, sort_keys=True, separators=(",", ":"), ensure_ascii=True, allow_nan=False)
+        + "\n"
+    ).encode("ascii")
+
+
+def digest(value):
+    return hashlib.sha256(canon(value)).hexdigest()
+
+
+def ident(path):
+    data = path.read_bytes()
+    return {"bytes": len(data), "sha256": hashlib.sha256(data).hexdigest()}
+
+
+def rat(pair):
+    check(
+        type(pair) is list and len(pair) == 2 and all(type(x) is int for x in pair),
+        "fraction native pair",
+    )
+    n, d = pair
+    check(0 <= n <= d and d > 0 and math.gcd(n, d) == 1, "fraction canonical range")
+    check(max(n.bit_length(), d.bit_length()) <= 4096, "fraction bits")
+    return F(n, d)
+
+
+def wire(value, maximum=1):
+    check(type(value) is F and 0 <= value <= maximum, "emitted fraction range")
+    check(
+        max(abs(value.numerator).bit_length(), value.denominator.bit_length()) <= 4096,
+        "retained component bits",
+    )
+    return [value.numerator, value.denominator]
+
+
+def add(target, key, value):
+    if value:
+        target[key] += value
+
+
+def law_wire(law):
+    return [{"value": list(q), "probability": wire(p)} for q, p in sorted(law.items()) if p]
+
+
+def post_wire(law):
+    return [{"class_id": h, "probability": wire(p)} for h, p in sorted(law.items()) if p]
+
+
+def parse_law(rows, field="value"):
+    out = {}
+    last = None
+    for row in rows:
+        key = tuple(row[field]) if field == "value" else row[field]
+        check(last is None or last < key, "wire support sorted unique")
+        last = key
+        p = rat(row["probability"])
+        check(p > 0, "positive sparse support")
+        out[key] = p
+    eq(sum(out.values(), F(0)), F(1), "wire law mass")
+    return out
+
+
+def risk(law):
+    # Independent replicas disagree with probability sum_q p(q)(1-p(q)).
+    COUNTS["two_replica_terms"] += len(law)
+    return sum((p * (1 - p) for p in law.values()), F(0))
+
+
+def fields(obj, names, title):
+    eq(set(obj), set(names.split()), title + " fields")
+
+
+def all_true(obj, names, title):
+    fields(obj, names, title)
+    for name in names.split():
+        eq(obj[name], True, title + " " + name)
+
+
+def subset_ids(raw):
+    states, frames = raw["states"], raw["frames"]
+    relations, keys, ranks, internals, eligible = [], {}, [], [], []
+    for sid, row in enumerate(states):
+        eq(row["state_id"], sid, "raw contiguous state ID")
+        kept = tuple(row["kept"])
+        check(
+            tuple(sorted(set(kept))) == kept and kept[0] == 0 and kept[-1] == 7, "raw kept labels"
+        )
+        frame = frames[row["frame_id"]]
+        check(set(frame["fixed"]) <= set(kept), "raw frame fixed present")
+        rel = {(kept[i], kept[j]) for j, past in enumerate(row["past"]) for i in past}
+        check(all(a != b and (b, a) not in rel for a, b in rel), "raw strict relation")
+        check(
+            all((a, d) in rel for a, b in rel for c, d in rel if b == c), "raw transitive relation"
+        )
+        inside = tuple(x for x in kept if x not in (0, 7))
+        check(
+            all((0, x) in rel and (x, 7) in rel for x in inside) and (0, 7) in rel,
+            "raw endpoint order",
+        )
+        live = tuple(x for x in kept if x in frame["eligible"])
+        key = (row["frame_id"], kept, tuple(sorted(rel)))
+        check(key not in keys, "unique raw induced state")
+        keys[key] = sid
+        relations.append(rel)
+        ranks.append((sum(x % 2 for x in live), sum(x % 2 == 0 for x in live)))
+        internals.append(inside)
+        eligible.append(live)
+    targets = []
+    for sid, row in enumerate(states):
+        fixed = set(frames[row["frame_id"]]["fixed"])
+        table = []
+        for mask in range(1 << len(eligible[sid])):
+            kept = tuple(sorted(fixed | {v for j, v in enumerate(eligible[sid]) if mask >> j & 1}))
+            rel = tuple(sorted((a, b) for a, b in relations[sid] if a in kept and b in kept))
+            key = row["frame_id"], kept, rel
+            check(key in keys, "raw closure under all eligible subsets")
+            table.append(keys[key])
+        targets.append(table)
+    COUNTS["raw_states"] = len(states)
+    COUNTS["raw_subset_atoms"] = sum(map(len, targets))
+    return relations, ranks, internals, eligible, targets
+
+
+def raw_features(raw, relation, ranks, internals, eligible, targets):
+    chain = []
+    for sid, inside in enumerate(internals):
+        row = []
+        for q in range(4):
+            row.append(
+                sum(
+                    all(
+                        (a, b) in relation[sid] or (b, a) in relation[sid]
+                        for a, b in itertools.combinations(selected, 2)
+                    )
+                    for selected in itertools.combinations(inside, q)
+                )
+            )
+        chain.append(row)
+    features, classes, assignment, key_ids = [], [], [], {}
+    for sid, live in enumerate(eligible):
+        n = len(live)
+        # Recover support coefficients by Boolean-lattice Mobius inversion
+        # of induced chain counts and raw count products, not pair unions.
+        polynomials = []
+        for q in range(4):
+            polynomials.append([chain[t][q] for t in targets[sid]])
+        for q in range(4):
+            for r in range(4):
+                polynomials.append([chain[t][q] * chain[t][r] for t in targets[sid]])
+        for column in polynomials:
+            for bit in range(n):
+                for mask in range(1 << n):
+                    if mask >> bit & 1:
+                        column[mask] -= column[mask ^ (1 << bit)]
+                        COUNTS["mobius_subtractions"] += 1
+        grades = [
+            (
+                sum(live[j] % 2 for j in range(n) if mask >> j & 1),
+                sum(live[j] % 2 == 0 for j in range(n) if mask >> j & 1),
+            )
+            for mask in range(1 << n)
+        ]
+        tables = []
+        for column in polynomials:
+            table = [[0] * 4 for _ in range(4)]
+            for value, (o, e) in zip(column, grades):
+                check(value >= 0, "Mobius support coefficient nonnegative")
+                table[o][e] += value
+            tables.append(table)
+        D = tables[:4]
+        B = [tables[4 + 4 * q : 8 + 4 * q] for q in range(4)]
+        motif, path = [], []
+        odd, even = [v for v in live if v % 2], [v for v in live if v % 2 == 0]
+        for left in itertools.combinations(odd, 2):
+            for right in itertools.combinations(even, 2):
+                rel = relation[sid]
+                if any((a, b) in rel or (b, a) in rel for a, b in (left, right)):
+                    continue
+                forward = sum((a, b) in rel for a in left for b in right)
+                backward = sum((b, a) in rel for a in left for b in right)
+                support = sorted(left + right)
+                if (forward, backward) in ((4, 0), (0, 4)):
+                    motif.append(support)
+                if (forward, backward) in ((3, 0), (0, 3)):
+                    path.append(support)
+        feature = {
+            "state_id": sid,
+            "color_sizes": list(ranks[sid]),
+            "chain_counts": chain[sid],
+            "mean_graded": D,
+            "pair_graded": B,
+            "motif_supports": sorted(motif),
+            "motif_count": len(motif),
+            "path_supports": sorted(path),
+            "path_count": len(path),
+        }
+        features.append(feature)
+        frame = raw["frames"][raw["states"][sid]["frame_id"]]
+        key = [[frame["density"], frame["fixed"], frame["eligible"]], B, len(motif), len(path)]
+        frozen = canon(key)
+        if frozen not in key_ids:
+            key_ids[frozen] = len(classes)
+            classes.append({"class_id": len(classes), "key": key, "members": []})
+        cid = key_ids[frozen]
+        assignment.append(cid)
+        classes[cid]["members"].append(sid)
+    return features, {"classes": classes, "state_classes": assignment}
+
+
+def build_model(raw, features, partition, ranks, eligible, targets):
+    assignment = partition["state_classes"]
+    classes, labels, profiles, raw_local = [], [], [], []
+    for sid, row in enumerate(raw["states"]):
+        n = len(eligible[sid])
+        deleted = [defaultdict(int), defaultdict(int)]
+        for bit, vertex in enumerate(eligible[sid]):
+            target = targets[sid][((1 << n) - 1) ^ (1 << bit)]
+            deleted[0 if vertex % 2 else 1][assignment[target]] += 1
+        raw_local.append(
+            {
+                "state_id": sid,
+                "frame_id": row["frame_id"],
+                "parent_color_sizes": list(ranks[sid]),
+                "odd": [
+                    {"target_class": h, "multiplicity": x} for h, x in sorted(deleted[0].items())
+                ],
+                "even": [
+                    {"target_class": h, "multiplicity": x} for h, x in sorted(deleted[1].items())
+                ],
+            }
+        )
+    for group in partition["classes"]:
+        h, sid = group["class_id"], group["members"][0]
+        row = {k: v for k, v in raw_local[sid].items() if k != "state_id"}
+        row["class_id"] = h
+        classes.append(row)
+        label = [raw["states"][sid]["frame_id"]] + features[sid]["chain_counts"]
+        labels.append(
+            {
+                "class_id": h,
+                "observation": label,
+                "question": label + [features[sid]["motif_count"], features[sid]["path_count"]],
+            }
+        )
+        expected = None
+        for member in group["members"]:
+            local = {k: v for k, v in raw_local[member].items() if k != "state_id"}
+            eq(local, {k: v for k, v in row.items() if k != "class_id"}, "all-member raw local row")
+            counts = defaultdict(int)
+            for target in targets[member]:
+                counts[assignment[target]] += 1
+            if expected is None:
+                expected = dict(counts)
+            eq(dict(counts), expected, "all-member full subset profile")
+        profiles.append(
+            {
+                "class_id": h,
+                "parent_color_sizes": list(ranks[sid]),
+                "transitions": [
+                    {
+                        "target_class": k,
+                        "retained_color_sizes": list(ranks[partition["classes"][k]["members"][0]]),
+                        "multiplicity": count,
+                    }
+                    for k, count in sorted(expected.items())
+                ],
+            }
+        )
+    return {"classes": classes, "labels": labels}, profiles, raw_local
+
+
+def raw_kernel(sid, rates, eligible, targets):
+    out = defaultdict(F)
+    for mask, target in enumerate(targets[sid]):
+        p = F(1)
+        for bit, vertex in enumerate(eligible[sid]):
+            rate = rates[0 if vertex % 2 else 1]
+            p *= rate if mask >> bit & 1 else 1 - rate
+        add(out, target, p)
+    eq(sum(out.values(), F(0)), F(1), "raw K3 row mass")
+    return dict(out)
+
+
+def kernel_audit(case_rates, model, profiles, partition, eligible, targets, labels):
+    kernels, raw_kernels = {}, {}
+    assignment = partition["state_classes"]
+    for rates in sorted(set(case_rates)):
+        raw_rows = [raw_kernel(sid, rates, eligible, targets) for sid in range(len(targets))]
+        rows, qrows = [], []
+        for group in partition["classes"]:
+            expected = None
+            for sid in group["members"]:
+                pushed = defaultdict(F)
+                for target, p in raw_rows[sid].items():
+                    add(pushed, assignment[target], p)
+                if expected is None:
+                    expected = dict(pushed)
+                eq(dict(pushed), expected, "all-member fixed K3 H law")
+                COUNTS["raw_K3_rows"] += 1
+            profile = profiles[group["class_id"]]
+            O, E = profile["parent_color_sizes"]
+            by_profile = {}
+            for atom in profile["transitions"]:
+                o, e = atom["retained_color_sizes"]
+                p = (
+                    atom["multiplicity"]
+                    * rates[0] ** o
+                    * (1 - rates[0]) ** (O - o)
+                    * rates[1] ** e
+                    * (1 - rates[1]) ** (E - e)
+                )
+                if p:
+                    by_profile[atom["target_class"]] = p
+            eq(expected, by_profile, "raw subset / class profile K3 law")
+            rows.append(expected)
+            q = defaultdict(F)
+            for h, p in expected.items():
+                add(q, tuple(model["labels"][h]["question"]), p)
+            qrows.append(dict(q))
+        kernels[rates] = (rows, qrows)
+        raw_kernels[rates] = raw_rows
+    return kernels, raw_kernels
+
+
+def lifetime_histories(case, raw, features, partition, eligible, targets):
+    rates = [[rat(x) for x in row] for row in case["rates"]]
+    # L=0,1,2,3: first missing stage, with 3 meaning survives all stages.
+    # One independent categorical draw per initial eligible vertex replaces
+    # nested state transitions and independently generates S1,S2,S3 jointly.
+    histories, first, after_first, after_second, after_third = (
+        {},
+        defaultdict(F),
+        defaultdict(F),
+        defaultdict(F),
+        defaultdict(F),
+    )
+    for atom in case["raw_prior"]:
+        initial, prior = atom["state_id"], rat(atom["probability"])
+        probs = []
+        for vertex in eligible[initial]:
+            color = 0 if vertex % 2 else 1
+            a, b, c = (row[color] for row in rates)
+            probs.append((1 - a, a * (1 - b), a * b * (1 - c), a * b * c))
+        for life in itertools.product(range(4), repeat=len(probs)):
+            COUNTS["vertex_lifetime_assignments"] += 1
+            p = prior * math.prod(probs[j][duration] for j, duration in enumerate(life))
+            if not p:
+                continue
+            masks = [
+                sum(1 << j for j, duration in enumerate(life) if duration >= stage)
+                for stage in (1, 2, 3)
+            ]
+            s1, s2, s3 = [targets[initial][mask] for mask in masks]
+            n1 = (raw["states"][s1]["frame_id"], *features[s1]["chain_counts"])
+            n2 = (raw["states"][s2]["frame_id"], *features[s2]["chain_counts"])
+            q3 = (
+                raw["states"][s3]["frame_id"],
+                *features[s3]["chain_counts"],
+                features[s3]["motif_count"],
+                features[s3]["path_count"],
+            )
+            joint = histories.setdefault((n1, n2), defaultdict(F))
+            add(joint, (s2, q3), p)
+            add(first, n1, p)
+            add(after_first, partition["state_classes"][s1], p)
+            add(after_second, partition["state_classes"][s2], p)
+            add(after_third, partition["state_classes"][s3], p)
+    eq(sum(first.values(), F(0)), F(1), "lifetime total mass")
+    u = case["u_analysis"]
+    eq(
+        [tuple(map(tuple, x["observations"])) for x in u["histories"]],
+        sorted(histories),
+        "complete U history support/order",
+    )
+    normalized = []
+    for row, (history, joint) in zip(u["histories"], sorted(histories.items())):
+        weight = sum(joint.values(), F(0))
+        normalized.append({key: value / weight for key, value in joint.items()})
+        posterior, prediction = defaultdict(F), defaultdict(F)
+        for (sid, q), p in joint.items():
+            add(posterior, partition["state_classes"][sid], p / weight)
+            add(prediction, q, p / weight)
+        eq(row["likelihood"], wire(weight), "U history likelihood from lifetimes")
+        eq(
+            row["conditional_likelihood"],
+            wire(weight / first[history[0]]),
+            "U conditional history likelihood",
+        )
+        eq(row["posterior"], post_wire(posterior), "U current posterior from lifetimes")
+        eq(row["prediction"], law_wire(prediction), "U future law from lifetimes")
+    eq(u["unconditional"]["after_first"], post_wire(after_first), "U unconditional first law")
+    eq(u["unconditional"]["after_second"], post_wire(after_second), "U unconditional current law")
+    eq(u["unconditional"]["after_third"], post_wire(after_third), "U unconditional final law")
+    return normalized
+
+
+def make_cells(joint, observation, partition, channel=None):
+    current, future = {}, {}
+    for (sid, q), mass in joint.items():
+        label = observation[sid]
+        row = {label: F(1)} if channel is None else channel[label]
+        for value, likelihood in row.items():
+            add(
+                current.setdefault(value, defaultdict(F)),
+                partition["state_classes"][sid],
+                mass * likelihood,
+            )
+            add(future.setdefault(value, defaultdict(F)), q, mass * likelihood)
+    cells = {}
+    for value in sorted(current):
+        w = sum(current[value].values(), F(0))
+        eq(sum(future[value].values(), F(0)), w, "raw noisy current/future joint row mass")
+        post, pred = (
+            {h: p / w for h, p in current[value].items()},
+            {q: p / w for q, p in future[value].items()},
+        )
+        r = risk(pred)
+        # Two replicas conditional on the SAME report, with denominator w^2.
+        paired = sum((p * (w - p) / (w * w) for p in future[value].values()), F(0))
+        eq(r, paired, "conditional two-replica normalization")
+        cells[value] = {
+            "value": list(value),
+            "probability": wire(w),
+            "posterior": post_wire(post),
+            "prediction": law_wire(pred),
+            "risk": wire(r),
+        }
+    eq(sum((rat(c["probability"]) for c in cells.values()), F(0)), F(1), "noisy cell masses")
+    return cells
+
+
+def expected_risk(cells):
+    return sum((rat(c["probability"]) * rat(c["risk"]) for c in cells.values()), F(0))
+
+
+def mixture(cells, weights, field):
+    result = defaultdict(F)
+    atom_field = "class_id" if field == "posterior" else "value"
+    for value, weight in weights.items():
+        for key, p in parse_law(cells[value][field], atom_field).items():
+            add(result, key, weight * p)
+    return post_wire(result) if field == "posterior" else law_wire(result)
+
+
+def distance(left, right):
+    return sum(
+        ((left.get(q, F(0)) - right.get(q, F(0))) ** 2 for q in left.keys() | right.keys()), F(0)
+    )
+
+
+def family_from_model(model):
+    alphabet = {}
+    for row in model["labels"]:
+        alphabet.setdefault(tuple(row["observation"]), set()).add(tuple(row["question"]))
+    alphabet = {n: sorted(values) for n, values in sorted(alphabet.items())}
+    channels = []
+    for level in LEVELS:
+        channel = {}
+        for values in alphabet.values():
+            for source in values:
+                channel[source] = {
+                    target: p
+                    for target in values
+                    if (p := (1 - level) * int(source == target) + level / len(values))
+                }
+                eq(sum(channel[source].values(), F(0)), F(1), "global report row mass")
+        channels.append(channel)
+
+    def rows_wire(rows):
+        return [
+            {
+                "source": list(source),
+                "transitions": [
+                    {"value": list(target), "probability": wire(p)}
+                    for target, p in sorted(row.items())
+                ],
+            }
+            for source, row in sorted(rows.items())
+        ]
+
+    checks = []
+    for i, d in enumerate((channels[1], channels[1], channels[3])):
+        result, products = {}, 0
+        for source, first in channels[i].items():
+            final = defaultdict(F)
+            for middle, p in first.items():
+                for target, r in d[middle].items():
+                    add(final, target, p * r)
+                    products += 1
+            result[source] = dict(final)
+        eq(result, channels[i + 1], "full-model channel multiplication")
+        checks.append(
+            {
+                "from_index": i,
+                "to_index": i + 1,
+                "garbling_level": wire(GARB[i]),
+                "row_comparisons": len(result),
+                "product_terms": products,
+                "positive_composed_atoms": sum(map(len, result.values())),
+                "composed_sha256": digest(rows_wire(result)),
+                "exact": True,
+            }
+        )
+    output = {
+        "alphabet": [
+            {"N": list(n), "values": [list(x) for x in values]} for n, values in alphabet.items()
+        ],
+        "channels": [
+            {"level": wire(level), "rows": rows_wire(rows)} for level, rows in zip(LEVELS, channels)
+        ],
+        "composition_checks": checks,
+    }
+    return alphabet, channels, output
+
+
+def score_fraction(pair):
+    check(
+        type(pair) is list and len(pair) == 2 and all(type(x) is int for x in pair),
+        "native score pair",
+    )
+    n, d = pair
+    check(0 <= n <= 2 * d and d > 0 and math.gcd(n, d) == 1, "canonical score in [0,2]")
+    check(max(n.bit_length(), d.bit_length()) <= 4096, "retained score bits")
+    return F(n, d)
+
+
+def explicit_scores(truth, forecast):
+    """Literal outcome-by-coordinate loss, distinct from both linear cores."""
+    alphabet = sorted(truth.keys() | forecast.keys())
+    loss = F(0)
+    for actual, mass in truth.items():
+        conditional = F(0)
+        for coordinate in alphabet:
+            conditional += (forecast.get(coordinate, F(0)) - int(actual == coordinate)) ** 2
+            COUNTS["explicit_outcome_loss_coordinates"] += 1
+        loss += mass * conditional
+    regret = sum(((truth.get(q, F(0)) - forecast.get(q, F(0))) ** 2 for q in alphabet), F(0))
+    bayes = risk(truth)
+    eq(loss, bayes + regret, "explicit outcome loss / independently squared regret")
+    eq(regret == 0, truth == forecast, "complete future-law zero regret")
+    check(0 <= loss <= 2 and 0 <= regret <= 2, "actual loss and regret bounds")
+    return loss, regret
+
+
+def score_pair(actual, assumed, i, j):
+    cells = []
+    bayes_total = coverage = supported_bayes = supported_loss = supported_regret = F(0)
+    terms = 0
+    equalities = []
+    for value, source in sorted(actual.items()):
+        mass = rat(source["probability"])
+        truth = parse_law(source["prediction"])
+        bayes = risk(truth)
+        bayes_total += mass * bayes
+        supported = value in assumed
+        loss = regret = equal = forecast = None
+        assumed_mass = F(0)
+        if supported:
+            target = assumed[value]
+            forecast = parse_law(target["prediction"])
+            assumed_mass = rat(target["probability"])
+            loss, regret = explicit_scores(truth, forecast)
+            equal = truth == forecast
+            coverage += mass
+            supported_bayes += mass * bayes
+            supported_loss += mass * loss
+            supported_regret += mass * regret
+            terms += len(truth) + len(forecast)
+            equalities.append(equal)
+        cells.append(
+            {
+                "value": list(value),
+                "actual_probability": wire(mass),
+                "assumed_probability": wire(assumed_mass),
+                "actual_prediction": law_wire(truth),
+                "forecast": law_wire(forecast) if supported else None,
+                "bayes_risk": wire(bayes),
+                "forecast_risk": wire(loss, 2) if supported else None,
+                "regret": wire(regret, 2) if supported else None,
+                "supported": supported,
+                "predictions_equal": equal,
+            }
+        )
+    missing = sum(
+        (rat(cell["probability"]) for value, cell in actual.items() if value not in assumed), F(0)
+    )
+    eq(coverage + missing, F(1), "actual support mass partition")
+    eq(
+        supported_loss,
+        supported_bayes + supported_regret,
+        "unnormalized supported loss decomposition",
+    )
+    eq(supported_regret == 0, all(equalities), "supported zero regret iff all defined laws equal")
+    check(
+        0 <= supported_bayes <= coverage
+        and 0 <= supported_loss <= 2 * coverage
+        and 0 <= supported_regret <= 2 * coverage,
+        "coverage-scaled supported score bounds",
+    )
+    complete = missing == 0
+    if complete:
+        eq(supported_bayes, bayes_total, "complete Bayes contribution")
+        eq(supported_loss, bayes_total + supported_regret, "complete loss decomposition")
+    return {
+        "actual_index": i,
+        "assumed_index": j,
+        "cells": cells,
+        "bayes_risk": wire(bayes_total),
+        "coverage": wire(coverage),
+        "unsupported_mass": wire(missing),
+        "supported_bayes_risk": wire(supported_bayes),
+        "supported_forecast_risk": wire(supported_loss, 2),
+        "supported_regret": wire(supported_regret, 2),
+        "forecast_risk": wire(supported_loss, 2) if complete else None,
+        "regret": wire(supported_regret, 2) if complete else None,
+        "complete": complete,
+        "checks": {
+            "mass_partition": True,
+            "supported_decomposition": True,
+            "full_decomposition": True if complete else None,
+            "zero_regret_iff_equal": True,
+        },
+    }, terms
+
+
+def expected_x(problem):
+    native_tree(problem)
+    rows, terms = [], 0
+    eq(sum((rat(b["weight"]) for b in problem["beliefs"]), F(0)), F(1), "X input history weights")
+    for bid, belief in enumerate(problem["beliefs"]):
+        eq(belief["belief_id"], bid, "X input belief order")
+        check(rat(belief["weight"]) > 0, "X positive history weight")
+        channels, marginals = [], []
+        for index, channel in enumerate(belief["channels"]):
+            native_eq(channel["level"], wire(LEVELS[index]), "X input fixed level")
+            mapped = {tuple(cell["value"]): cell for cell in channel["cells"]}
+            eq(len(mapped), len(channel["cells"]), "X distinct report cells")
+            eq(list(mapped), sorted(mapped), "X sorted report cells")
+            eq(sum((rat(c["probability"]) for c in mapped.values()), F(0)), F(1), "X report masses")
+            marginal = defaultdict(F)
+            for cell in mapped.values():
+                check(rat(cell["probability"]) > 0, "X positive report cells")
+                for q, p in parse_law(cell["prediction"]).items():
+                    add(marginal, q, rat(cell["probability"]) * p)
+            marginals.append(dict(marginal))
+            channels.append(mapped)
+        eq(len(channels), 4, "X four experiments")
+        for marginal in marginals:
+            eq(marginal, marginals[0], "X shared complete future marginal")
+        pairs = []
+        for i, actual in enumerate(channels):
+            for j, assumed in enumerate(channels):
+                pair, count = score_pair(actual, assumed, i, j)
+                pairs.append(pair)
+                terms += count
+        rows.append({"belief_id": bid, "weight": belief["weight"], "pairs": pairs})
+    aggregate = []
+    fields_to_average = (
+        "bayes_risk",
+        "coverage",
+        "unsupported_mass",
+        "supported_bayes_risk",
+        "supported_forecast_risk",
+        "supported_regret",
+    )
+    for index in range(16):
+        summed = {
+            field: sum(
+                (rat(row["weight"]) * score_fraction(row["pairs"][index][field]) for row in rows),
+                F(0),
+            )
+            for field in fields_to_average
+        }
+        complete_count = sum(row["pairs"][index]["complete"] for row in rows)
+        incomplete_count = len(rows) - complete_count
+        complete = incomplete_count == 0
+        eq(
+            summed["coverage"] == 1,
+            complete,
+            "aggregate complete iff every positive history complete",
+        )
+        eq(summed["coverage"] + summed["unsupported_mass"], F(1), "aggregate coverage partition")
+        eq(
+            summed["supported_forecast_risk"],
+            summed["supported_bayes_risk"] + summed["supported_regret"],
+            "aggregate supported decomposition",
+        )
+        all_equal = all(
+            cell["predictions_equal"]
+            for row in rows
+            for cell in row["pairs"][index]["cells"]
+            if cell["supported"]
+        )
+        eq(
+            summed["supported_regret"] == 0,
+            all_equal,
+            "aggregate zero supported regret iff all supported laws equal",
+        )
+        check(
+            summed["supported_bayes_risk"] <= summed["coverage"]
+            and summed["supported_forecast_risk"] <= 2 * summed["coverage"]
+            and summed["supported_regret"] <= 2 * summed["coverage"],
+            "aggregate coverage-scaled bounds",
+        )
+        if complete:
+            eq(
+                summed["supported_bayes_risk"],
+                summed["bayes_risk"],
+                "aggregate full Bayes contribution",
+            )
+            eq(
+                summed["supported_forecast_risk"],
+                summed["bayes_risk"] + summed["supported_regret"],
+                "aggregate full decomposition",
+            )
+        aggregate.append(
+            {
+                "actual_index": index // 4,
+                "assumed_index": index % 4,
+                **{
+                    field: wire(
+                        value, 2 if field in ("supported_forecast_risk", "supported_regret") else 1
+                    )
+                    for field, value in summed.items()
+                },
+                "forecast_risk": wire(summed["supported_forecast_risk"], 2) if complete else None,
+                "regret": wire(summed["supported_regret"], 2) if complete else None,
+                "complete": complete,
+                "checks": {
+                    "mass_partition": True,
+                    "supported_decomposition": True,
+                    "full_decomposition": True if complete else None,
+                    "zero_regret_iff_equal": True,
+                },
+                "complete_beliefs": complete_count,
+                "incomplete_beliefs": incomplete_count,
+            }
+        )
+
+    def first(index, predicate):
+        return next((row["belief_id"] for row in rows if predicate(row["pairs"][index])), None)
+
+    counts = {
+        "beliefs": len(rows),
+        "input_cells": sum(
+            len(ch["cells"]) for belief in problem["beliefs"] for ch in belief["channels"]
+        ),
+        "input_prediction_atoms": sum(
+            len(cell["prediction"])
+            for belief in problem["beliefs"]
+            for ch in belief["channels"]
+            for cell in ch["cells"]
+        ),
+        "pair_cells": [sum(len(row["pairs"][i]["cells"]) for row in rows) for i in range(16)],
+        "supported_pair_cells": [
+            sum(cell["supported"] for row in rows for cell in row["pairs"][i]["cells"])
+            for i in range(16)
+        ],
+        "unsupported_pair_cells": [
+            sum(not cell["supported"] for row in rows for cell in row["pairs"][i]["cells"])
+            for i in range(16)
+        ],
+        "scoring_terms": terms,
+        "complete_beliefs": [row["complete_beliefs"] for row in aggregate],
+        "incomplete_beliefs": [row["incomplete_beliefs"] for row in aggregate],
+        "positive_supported_regret_beliefs": [
+            sum(score_fraction(row["pairs"][i]["supported_regret"]) > 0 for row in rows)
+            for i in range(16)
+        ],
+        "positive_full_regret_beliefs": [
+            sum(
+                row["pairs"][i]["complete"] and score_fraction(row["pairs"][i]["regret"]) > 0
+                for row in rows
+            )
+            for i in range(16)
+        ],
+    }
+    witnesses = {
+        "first_incomplete": [first(i, lambda pair: not pair["complete"]) for i in range(16)],
+        "first_positive_supported_regret": [
+            first(i, lambda pair: score_fraction(pair["supported_regret"]) > 0) for i in range(16)
+        ],
+        "first_positive_full_regret": [
+            first(i, lambda pair: pair["complete"] and score_fraction(pair["regret"]) > 0)
+            for i in range(16)
+        ],
+    }
+    COUNTS["X_scoring_support_terms"] += terms
+    COUNTS["X_pair_cells"] += sum(counts["pair_cells"])
+    return {
+        "input_sha256": digest(problem),
+        "levels": [wire(level) for level in LEVELS],
+        "beliefs": rows,
+        "aggregate": {"total_weight": [1, 1], "pairs": aggregate},
+        "witnesses": witnesses,
+        "counts": counts,
+    }
+
+
+def raw_projection(case, raw, features, partition, eligible, targets, family):
+    histories = lifetime_histories(case, raw, features, partition, eligible, targets)
+    _, channels, channel_model = family
+    N = [(raw["states"][sid]["frame_id"], *f["chain_counts"]) for sid, f in enumerate(features)]
+    A = [(*N[sid], f["motif_count"], f["path_count"]) for sid, f in enumerate(features)]
+    native_eq(
+        channel_model["alphabet"],
+        case["analysis"]["channel_model"]["alphabet"],
+        "W whole-model distinct-label alphabet",
+    )
+    native_eq(
+        channel_model["channels"],
+        case["analysis"]["channel_model"]["channels"],
+        "W fixed report channels",
+    )
+    beliefs, controls = [], []
+    for bid, (joint, urow) in enumerate(zip(histories, case["u_analysis"]["histories"])):
+        old = case["analysis"]["beliefs"][bid]
+        native_eq(old["belief_id"], bid, "W received-history row order")
+        native_eq(old["weight"], urow["likelihood"], "W received-history likelihood")
+        n_cells = make_cells(joint, N, partition)
+        noisy = [make_cells(joint, A, partition, channel) for channel in channels]
+        for actual_index, actual_cells in enumerate(noisy):
+            for assumed_index, assumed_cells in enumerate(noisy):
+                for value, cell in actual_cells.items():
+                    if value not in assumed_cells:
+                        check(
+                            actual_index > 0 and assumed_index == 0,
+                            "W missing-label family premise",
+                        )
+                        parent = n_cells[value[:5]]
+                        native_eq(
+                            cell["posterior"],
+                            parent["posterior"],
+                            "unsupported W full current posterior equals N conditional",
+                        )
+                        native_eq(
+                            cell["prediction"],
+                            parent["prediction"],
+                            "unsupported W full future law equals N conditional",
+                        )
+                        COUNTS["W_unsupported_posterior_and_future_checks"] += 1
+        n_risk = expected_risk(n_cells)
+        native_eq(
+            list(n_cells.values()),
+            old["controls"]["N"]["cells"],
+            "W deterministic N cells from raw lifetimes",
+        )
+        native_eq(
+            wire(n_risk), old["controls"]["N"]["expected_risk"], "W N risk from raw lifetimes"
+        )
+        projected, risks = [], []
+        for index, cells in enumerate(noisy):
+            native_eq(
+                list(cells.values()),
+                old["channels"][index]["cells"],
+                "W full noisy cells from raw lifetimes",
+            )
+            native_eq(wire(LEVELS[index]), old["channels"][index]["level"], "W fixed level order")
+            r = expected_risk(cells)
+            risks.append(wire(r))
+            native_eq(
+                wire(r),
+                old["channels"][index]["expected_risk"],
+                "W noisy conditional expected risk",
+            )
+            projected.append(
+                {
+                    "level": wire(LEVELS[index]),
+                    "cells": [
+                        {
+                            "value": cell["value"],
+                            "probability": cell["probability"],
+                            "prediction": cell["prediction"],
+                        }
+                        for cell in cells.values()
+                    ],
+                }
+            )
+        beliefs.append({"belief_id": bid, "weight": urow["likelihood"], "channels": projected})
+        controls.append(
+            {
+                "weight": urow["likelihood"],
+                "N_risk": wire(n_risk),
+                "channel_risks": risks,
+                "N_cells": list(n_cells.values()),
+            }
+        )
+        COUNTS["raw_history_beliefs"] += 1
+        COUNTS["raw_noisy_cells"] += sum(map(len, noisy))
+    return {
+        "schema_version": "det8-qr05x-problem-v1",
+        "family": "qr05x_noise_misspecification",
+        "beliefs": beliefs,
+    }, controls
+
+
+def producer_controls(analysis, raw_controls):
+    for row, control in zip(analysis["beliefs"], raw_controls):
+        native_eq(row["weight"], control["weight"], "X raw history weights")
+        for i in range(4):
+            diagonal = row["pairs"][5 * i]
+            native_eq(diagonal["complete"], True, "X diagonal defined")
+            native_eq(diagonal["regret"], [0, 1], "X diagonal zero regret")
+            native_eq(
+                diagonal["forecast_risk"],
+                control["channel_risks"][i],
+                "X diagonal equals raw W Bayes risk",
+            )
+            for j in (1, 2, 3):
+                native_eq(
+                    row["pairs"][4 * i + j]["complete"],
+                    True,
+                    "W positive assumed noise covers actual reports",
+                )
+            native_eq(
+                row["pairs"][4 * i + 3]["forecast_risk"],
+                control["N_risk"],
+                "W full replacement forecast has raw N risk",
+            )
+    for i in range(4):
+        weighted_diagonal = sum(
+            (rat(c["weight"]) * rat(c["channel_risks"][i]) for c in raw_controls), F(0)
+        )
+        weighted_N = sum((rat(c["weight"]) * rat(c["N_risk"]) for c in raw_controls), F(0))
+        native_eq(
+            analysis["aggregate"]["pairs"][5 * i]["forecast_risk"],
+            wire(weighted_diagonal),
+            "case diagonal raw W risk",
+        )
+        native_eq(
+            analysis["aggregate"]["pairs"][4 * i + 3]["forecast_risk"],
+            wire(weighted_N),
+            "case full replacement raw N risk",
+        )
+    # The last flag describes the separate capture runner, not this raw audit.
+    return {
+        "W_laws_are_declared_pinned_dependencies": True,
+        "complete_projection_checked": True,
+        "diagonal_W_risks_equal": True,
+        "positive_assumed_noise_covers_actual_reports": True,
+        "assumed_full_replacement_N_risk_equal": True,
+        "W_channel_origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+X_FIELDS = (
+    "coverage",
+    "unsupported_mass",
+    "bayes_risk",
+    "supported_bayes_risk",
+    "supported_forecast_risk",
+    "supported_regret",
+    "forecast_risk",
+    "regret",
+    "complete",
+)
+X_NUMERIC = X_FIELDS[:6]
+Y_NUMERIC = (
+    "fallback_bayes_risk",
+    "fallback_forecast_risk",
+    "fallback_regret",
+    "completed_forecast_risk",
+    "completed_regret",
+    "coarse_forecast_risk",
+    "coarse_regret",
+    "gain_over_coarse",
+)
+Y_CHECKS = (
+    "policy_total",
+    "mass_partition",
+    "split_decomposition",
+    "completed_decomposition",
+    "coarse_decomposition",
+    "gain_identity",
+    "supported_forecasts_preserved",
+    "zero_regret_iff_equal",
+)
+
+
+def signed_wire(value):
+    check(type(value) is F and -2 <= value <= 2, "signed gain range")
+    check(
+        max(abs(value.numerator).bit_length(), value.denominator.bit_length()) <= 4096,
+        "signed retained component bits",
+    )
+    return [value.numerator, value.denominator]
+
+
+def signed_fraction(pair):
+    check(
+        type(pair) is list and len(pair) == 2 and all(type(x) is int for x in pair),
+        "signed native pair",
+    )
+    n, d = pair
+    check(d > 0 and -2 * d <= n <= 2 * d and math.gcd(n, d) == 1, "signed reduced fraction")
+    check(max(abs(n).bit_length(), d.bit_length()) <= 4096, "signed component bits")
+    return F(n, d)
+
+
+def y_identities(x, y, chosen_equal, coarse_equal, supported_gain):
+    eq(x["coverage"] + x["unsupported_mass"], F(1), "Y support/fallback mass partition")
+    eq(
+        x["supported_forecast_risk"],
+        x["supported_bayes_risk"] + x["supported_regret"],
+        "Y unchanged supported decomposition",
+    )
+    eq(
+        y["fallback_forecast_risk"],
+        y["fallback_bayes_risk"] + y["fallback_regret"],
+        "Y fallback decomposition",
+    )
+    eq(
+        x["bayes_risk"],
+        x["supported_bayes_risk"] + y["fallback_bayes_risk"],
+        "Y Bayes contribution partition",
+    )
+    eq(
+        y["completed_forecast_risk"],
+        x["supported_forecast_risk"] + y["fallback_forecast_risk"],
+        "Y completed branch losses",
+    )
+    eq(
+        y["completed_regret"],
+        x["supported_regret"] + y["fallback_regret"],
+        "Y completed branch regrets",
+    )
+    eq(
+        y["completed_forecast_risk"],
+        x["bayes_risk"] + y["completed_regret"],
+        "Y completed decomposition",
+    )
+    eq(y["coarse_forecast_risk"], x["bayes_risk"] + y["coarse_regret"], "Y coarse decomposition")
+    eq(
+        y["gain_over_coarse"],
+        y["coarse_forecast_risk"] - y["completed_forecast_risk"],
+        "Y risk gain",
+    )
+    eq(y["gain_over_coarse"], y["coarse_regret"] - y["completed_regret"], "Y regret gain")
+    eq(y["gain_over_coarse"], supported_gain, "Y gain entirely from supported reports")
+    check(abs(y["gain_over_coarse"]) <= 2 * x["coverage"], "Y coverage-scaled signed gain")
+    eq(y["completed_regret"] == 0, chosen_equal, "Y completed zero regret iff full laws agree")
+    eq(y["coarse_regret"] == 0, coarse_equal, "Y coarse zero regret iff full laws agree")
+    for prefix, mass, table in (
+        ("supported", x["coverage"], x),
+        ("fallback", x["unsupported_mass"], y),
+    ):
+        check(
+            0 <= table[prefix + "_bayes_risk"] <= mass
+            and 0 <= table[prefix + "_forecast_risk"] <= 2 * mass
+            and 0 <= table[prefix + "_regret"] <= 2 * mass,
+            "Y unnormalized branch bounds",
+        )
+
+
+def y_x_wire(x):
+    complete = x["coverage"] == 1
+    return {
+        **{
+            key: wire(value, 2 if key in ("supported_forecast_risk", "supported_regret") else 1)
+            for key, value in x.items()
+        },
+        "forecast_risk": wire(x["supported_forecast_risk"], 2) if complete else None,
+        "regret": wire(x["supported_regret"], 2) if complete else None,
+        "complete": complete,
+    }
+
+
+def y_numeric_wire(y):
+    return {
+        key: signed_wire(value)
+        if key == "gain_over_coarse"
+        else wire(value, 1 if key == "fallback_bayes_risk" else 2)
+        for key, value in y.items()
+    }
+
+
+def score_y_pair(actual, assumed, fallbacks, i, j):
+    x = {key: F(0) for key in X_NUMERIC}
+    y = {key: F(0) for key in Y_NUMERIC}
+    cells, chosen_flags, coarse_flags = [], [], []
+    completed_terms = coarse_terms = 0
+    supported_gain = F(0)
+    for value, source in sorted(actual.items()):
+        mass = rat(source["probability"])
+        truth = parse_law(source["prediction"])
+        coarse = fallbacks[value[:5]]
+        supported = value in assumed
+        forecast = parse_law(assumed[value]["prediction"]) if supported else coarse
+        # Both policies are evaluated literally, even when they coincide.
+        loss, regret = explicit_scores(truth, forecast)
+        coarse_loss, coarse_regret = explicit_scores(truth, coarse)
+        completed_terms += len(truth) + len(forecast)
+        coarse_terms += len(truth) + len(coarse)
+        bayes, gain = risk(truth), coarse_loss - loss
+        eq(gain, coarse_regret - regret, "Y conditional gain identity")
+        chosen_flags.append(truth == forecast)
+        coarse_flags.append(truth == coarse)
+        x["bayes_risk"] += mass * bayes
+        if supported:
+            x["coverage"] += mass
+            x["supported_bayes_risk"] += mass * bayes
+            x["supported_forecast_risk"] += mass * loss
+            x["supported_regret"] += mass * regret
+            supported_gain += mass * gain
+        else:
+            x["unsupported_mass"] += mass
+            y["fallback_bayes_risk"] += mass * bayes
+            y["fallback_forecast_risk"] += mass * loss
+            y["fallback_regret"] += mass * regret
+            eq(gain, F(0), "Y fallback branch cannot change coarse comparator")
+        y["completed_forecast_risk"] += mass * loss
+        y["completed_regret"] += mass * regret
+        y["coarse_forecast_risk"] += mass * coarse_loss
+        y["coarse_regret"] += mass * coarse_regret
+        y["gain_over_coarse"] += mass * gain
+        cells.append(
+            {
+                "value": list(value),
+                "actual_probability": wire(mass),
+                "assumed_probability": assumed[value]["probability"] if supported else [0, 1],
+                "actual_prediction": law_wire(truth),
+                "assumed_forecast": assumed[value]["prediction"] if supported else None,
+                "coarse_forecast": law_wire(coarse),
+                "forecast": law_wire(forecast),
+                "supported": supported,
+                "used_fallback": not supported,
+                "bayes_risk": wire(bayes),
+                "forecast_risk": wire(loss, 2),
+                "regret": wire(regret, 2),
+                "coarse_risk": wire(coarse_loss, 2),
+                "coarse_regret": wire(coarse_regret, 2),
+                "gain_over_coarse": signed_wire(gain),
+                "predictions_equal": truth == forecast,
+                "coarse_predictions_equal": truth == coarse,
+            }
+        )
+    y_identities(x, y, all(chosen_flags), all(coarse_flags), supported_gain)
+    return (
+        {
+            "actual_index": i,
+            "assumed_index": j,
+            "cells": cells,
+            "x_scores": y_x_wire(x),
+            **y_numeric_wire(y),
+            "checks": dict.fromkeys(Y_CHECKS, True),
+        },
+        completed_terms,
+        coarse_terms,
+    )
+
+
+def expected_y(problem, x_analysis):
+    native_tree(problem)
+    rows = []
+    completed_terms = coarse_terms = 0
+    for bid, belief in enumerate(problem["beliefs"]):
+        channels = [
+            {tuple(cell["value"]): cell for cell in channel["cells"]}
+            for channel in belief["channels"]
+        ]
+        fallbacks = {
+            tuple(row["value"]): parse_law(row["prediction"]) for row in belief["fallbacks"]
+        }
+        eq(len(fallbacks), len(belief["fallbacks"]), "Y distinct fallback keys")
+        eq(list(fallbacks), sorted(fallbacks), "Y fallback key order")
+        eq(
+            set(fallbacks),
+            {value[:5] for channel in channels for value in channel},
+            "Y exact fallback prefix union",
+        )
+        pairs = []
+        for i, actual in enumerate(channels):
+            for j, assumed in enumerate(channels):
+                pair, count_completed, count_coarse = score_y_pair(actual, assumed, fallbacks, i, j)
+                completed_terms += count_completed
+                coarse_terms += count_coarse
+                native_eq(
+                    pair["x_scores"],
+                    {key: x_analysis["beliefs"][bid]["pairs"][4 * i + j][key] for key in X_FIELDS},
+                    "Y independently preserves complete X score projection",
+                )
+                pairs.append(pair)
+        rows.append({"belief_id": bid, "weight": belief["weight"], "pairs": pairs})
+    aggregate = []
+    for index in range(16):
+        x = {
+            key: sum(
+                (
+                    rat(row["weight"]) * score_fraction(row["pairs"][index]["x_scores"][key])
+                    for row in rows
+                ),
+                F(0),
+            )
+            for key in X_NUMERIC
+        }
+        y = {
+            key: sum(
+                (
+                    rat(row["weight"])
+                    * (
+                        signed_fraction(row["pairs"][index][key])
+                        if key == "gain_over_coarse"
+                        else score_fraction(row["pairs"][index][key])
+                    )
+                    for row in rows
+                ),
+                F(0),
+            )
+            for key in Y_NUMERIC
+        }
+        chosen_equal = all(
+            cell["predictions_equal"] for row in rows for cell in row["pairs"][index]["cells"]
+        )
+        coarse_equal = all(
+            cell["coarse_predictions_equal"]
+            for row in rows
+            for cell in row["pairs"][index]["cells"]
+        )
+        supported_gain = sum(
+            (
+                rat(row["weight"])
+                * rat(cell["actual_probability"])
+                * signed_fraction(cell["gain_over_coarse"])
+                for row in rows
+                for cell in row["pairs"][index]["cells"]
+                if cell["supported"]
+            ),
+            F(0),
+        )
+        y_identities(x, y, chosen_equal, coarse_equal, supported_gain)
+        complete = sum(row["pairs"][index]["x_scores"]["complete"] for row in rows)
+        eq(x["coverage"] == 1, complete == len(rows), "Y original aggregate completeness")
+        pair = {
+            "actual_index": index // 4,
+            "assumed_index": index % 4,
+            "x_scores": y_x_wire(x),
+            **y_numeric_wire(y),
+            "checks": dict.fromkeys(Y_CHECKS, True),
+            "complete_before_beliefs": complete,
+            "incomplete_before_beliefs": len(rows) - complete,
+        }
+        native_eq(
+            pair["x_scores"],
+            {key: x_analysis["aggregate"]["pairs"][index][key] for key in X_FIELDS},
+            "Y aggregate X score/null preservation",
+        )
+        aggregate.append(pair)
+
+    def first(index, predicate):
+        return next((row["belief_id"] for row in rows if predicate(row["pairs"][index])), None)
+
+    witnesses = {
+        "first_fallback": [
+            first(i, lambda p: rat(p["x_scores"]["unsupported_mass"]) > 0) for i in range(16)
+        ],
+        "first_positive_fallback_regret": [
+            first(i, lambda p: score_fraction(p["fallback_regret"]) > 0) for i in range(16)
+        ],
+        "first_positive_completed_regret": [
+            first(i, lambda p: score_fraction(p["completed_regret"]) > 0) for i in range(16)
+        ],
+        "first_better_than_coarse": [
+            first(i, lambda p: signed_fraction(p["gain_over_coarse"]) > 0) for i in range(16)
+        ],
+        "first_equal_to_coarse": [
+            first(i, lambda p: signed_fraction(p["gain_over_coarse"]) == 0) for i in range(16)
+        ],
+        "first_worse_than_coarse": [
+            first(i, lambda p: signed_fraction(p["gain_over_coarse"]) < 0) for i in range(16)
+        ],
+    }
+    counts = {
+        "beliefs": len(rows),
+        "input_cells": sum(
+            len(ch["cells"]) for belief in problem["beliefs"] for ch in belief["channels"]
+        ),
+        "input_prediction_atoms": sum(
+            len(cell["prediction"])
+            for belief in problem["beliefs"]
+            for ch in belief["channels"]
+            for cell in ch["cells"]
+        ),
+        "input_fallbacks": sum(len(b["fallbacks"]) for b in problem["beliefs"]),
+        "input_fallback_atoms": sum(
+            len(f["prediction"]) for b in problem["beliefs"] for f in b["fallbacks"]
+        ),
+        "pair_cells": [sum(len(row["pairs"][i]["cells"]) for row in rows) for i in range(16)],
+        "supported_pair_cells": [
+            sum(c["supported"] for row in rows for c in row["pairs"][i]["cells"]) for i in range(16)
+        ],
+        "fallback_pair_cells": [
+            sum(c["used_fallback"] for row in rows for c in row["pairs"][i]["cells"])
+            for i in range(16)
+        ],
+        "completed_scoring_terms": completed_terms,
+        "coarse_scoring_terms": coarse_terms,
+        "complete_before_beliefs": [p["complete_before_beliefs"] for p in aggregate],
+        "incomplete_before_beliefs": [p["incomplete_before_beliefs"] for p in aggregate],
+        "positive_fallback_regret_beliefs": [
+            sum(score_fraction(row["pairs"][i]["fallback_regret"]) > 0 for row in rows)
+            for i in range(16)
+        ],
+        "positive_completed_regret_beliefs": [
+            sum(score_fraction(row["pairs"][i]["completed_regret"]) > 0 for row in rows)
+            for i in range(16)
+        ],
+        "better_than_coarse_beliefs": [
+            sum(signed_fraction(row["pairs"][i]["gain_over_coarse"]) > 0 for row in rows)
+            for i in range(16)
+        ],
+        "equal_to_coarse_beliefs": [
+            sum(signed_fraction(row["pairs"][i]["gain_over_coarse"]) == 0 for row in rows)
+            for i in range(16)
+        ],
+        "worse_than_coarse_beliefs": [
+            sum(signed_fraction(row["pairs"][i]["gain_over_coarse"]) < 0 for row in rows)
+            for i in range(16)
+        ],
+    }
+    COUNTS["Y_pair_cells"] += sum(counts["pair_cells"])
+    COUNTS["Y_completed_support_terms"] += completed_terms
+    COUNTS["Y_coarse_support_terms"] += coarse_terms
+    return {
+        "input_sha256": digest(problem),
+        "levels": [wire(level) for level in LEVELS],
+        "beliefs": rows,
+        "aggregate": {"total_weight": [1, 1], "pairs": aggregate},
+        "witnesses": witnesses,
+        "counts": counts,
+    }
+
+
+def y_producer_controls(analysis, x_analysis, raw_controls):
+    for row, old, raw in zip(analysis["beliefs"], x_analysis["beliefs"], raw_controls):
+        native_eq(row["belief_id"], old["belief_id"], "Y unchanged X belief ID")
+        native_eq(row["weight"], old["weight"], "Y unchanged X history likelihood")
+        n_cells = {tuple(c["value"]): c for c in raw["N_cells"]}
+        for index, (pair, xp) in enumerate(zip(row["pairs"], old["pairs"])):
+            native_eq(
+                pair["x_scores"],
+                {key: xp[key] for key in X_FIELDS},
+                "Y original X scores/nulls unchanged",
+            )
+            native_eq(
+                pair["coarse_forecast_risk"],
+                raw["N_risk"],
+                "Y coarse risk equals independently raw N risk",
+            )
+            native_eq(pair["fallback_regret"], [0, 1], "W family predicted zero fallback regret")
+            native_eq(
+                pair["completed_regret"],
+                xp["supported_regret"],
+                "W completion regret equals X supported regret",
+            )
+            eq(
+                score_fraction(pair["completed_forecast_risk"]),
+                score_fraction(xp["supported_forecast_risk"])
+                + rat(xp["bayes_risk"])
+                - rat(xp["supported_bayes_risk"]),
+                "W completion loss identity",
+            )
+            eq(len(pair["cells"]), len(xp["cells"]), "Y all X actual cells retained")
+            for cell, xcell in zip(pair["cells"], xp["cells"]):
+                for key in (
+                    "value",
+                    "actual_probability",
+                    "assumed_probability",
+                    "actual_prediction",
+                    "supported",
+                ):
+                    native_eq(cell[key], xcell[key], "Y X cell input retained " + key)
+                native_eq(
+                    cell["assumed_forecast"],
+                    xcell["forecast"],
+                    "Y original assumed forecast retained",
+                )
+                native_eq(
+                    cell["coarse_forecast"],
+                    n_cells[tuple(cell["value"][:5])]["prediction"],
+                    "Y declared fallback derived from raw N law",
+                )
+                if cell["used_fallback"]:
+                    native_eq(
+                        cell["actual_prediction"],
+                        cell["forecast"],
+                        "W fallback full future law equals actual",
+                    )
+                    native_eq(cell["regret"], [0, 1], "W fallback regret identity")
+                    native_eq(cell["gain_over_coarse"], [0, 1], "W fallback local gain identity")
+                else:
+                    native_eq(cell["forecast"], xcell["forecast"], "Y supported forecast unchanged")
+                    native_eq(
+                        cell["forecast_risk"], xcell["forecast_risk"], "Y supported risk unchanged"
+                    )
+                    native_eq(cell["regret"], xcell["regret"], "Y supported regret unchanged")
+            if index // 4 == index % 4:
+                native_eq(pair["completed_regret"], [0, 1], "Y Bayes-correct diagonal")
+            if xp["complete"]:
+                native_eq(
+                    pair["completed_forecast_risk"],
+                    xp["forecast_risk"],
+                    "Y original complete risk unchanged",
+                )
+                native_eq(
+                    pair["completed_regret"], xp["regret"], "Y original complete regret unchanged"
+                )
+    n_mean = sum((rat(row["weight"]) * rat(row["N_risk"]) for row in raw_controls), F(0))
+    for pair, xp in zip(analysis["aggregate"]["pairs"], x_analysis["aggregate"]["pairs"]):
+        native_eq(
+            pair["x_scores"], {key: xp[key] for key in X_FIELDS}, "Y aggregate X preservation"
+        )
+        native_eq(pair["coarse_forecast_risk"], wire(n_mean), "Y aggregate raw N risk")
+        native_eq(pair["fallback_regret"], [0, 1], "Y aggregate W zero fallback regret")
+        native_eq(
+            pair["completed_regret"], xp["supported_regret"], "Y aggregate W completion regret"
+        )
+    return {
+        "X_laws_and_W_N_fallbacks_are_declared_dependencies": True,
+        "complete_original_X_scores_and_nulls_preserved": True,
+        "supported_forecasts_and_scores_preserved": True,
+        "W_fallback_future_laws_equal_actual": True,
+        "W_fallback_regret_zero": True,
+        "W_completion_identity": True,
+        "coarse_only_W_N_risk_equal": True,
+        "channel_or_fallback_origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+def suite_totals(cases, invalid_calls=14):
+    totals = {
+        "cases": len(cases),
+        "analyze_calls": 2 * len(cases),
+        "invalid_analyze_calls_rejected": invalid_calls,
+    }
+    for key, value in cases[0]["analysis"]["counts"].items():
+        totals[key] = (
+            [sum(case["analysis"]["counts"][key][i] for case in cases) for i in range(len(value))]
+            if type(value) is list
+            else sum(case["analysis"]["counts"][key] for case in cases)
+        )
+    return totals
+
+
+def runtime_metadata(runtime):
+    fields(
+        runtime,
+        "bytecode_cache executable isolated optimized platform python rss_high_water_at_suite_end rss_units scope suite_seconds",
+        "runtime metadata",
+    )
+    native_eq(runtime["isolated"], True, "recorded isolated capture")
+    check(
+        type(runtime["optimized"]) is int and runtime["optimized"] in (0, 1),
+        "recorded optimization metadata",
+    )
+    native_eq(runtime["executable"], str(ROOT / ".venv/bin/python"), "recorded executable")
+    check(
+        type(runtime["rss_units"]) is str and runtime["rss_units"] in ("bytes", "KiB"),
+        "recorded RSS units",
+    )
+    native_eq(
+        runtime["scope"],
+        "suite and internal exact JSON checks; excludes final report serialization; no application performance claim",
+        "recorded runtime scope",
+    )
+    for key in ("bytecode_cache", "platform", "python"):
+        check(type(runtime[key]) is str and bool(runtime[key]), "recorded runtime text " + key)
+    cache = Path(runtime["bytecode_cache"])
+    check(
+        cache.is_absolute() and not cache.is_relative_to(ROOT), "recorded external bytecode cache"
+    )
+    check(
+        type(runtime["rss_high_water_at_suite_end"]) is int
+        and runtime["rss_high_water_at_suite_end"] >= 0,
+        "recorded RSS metadata",
+    )
+    seconds = runtime["suite_seconds"]
+    check(
+        type(seconds) in (int, float) and math.isfinite(seconds) and seconds >= 0,
+        "recorded duration outside mathematical suite",
+    )
+
+
+RETAINED = (F(0), F(1, 2), F(1))
+Z_NUMERIC = ("forecast_risk", "regret", "gain_over_coarse", "gain_over_base")
+Z_CHECKS = (
+    "normalization",
+    "score_decomposition",
+    "quadratic_risk_identity",
+    "quadratic_gain_identity",
+    "endpoint_recovery",
+    "fallback_preserved",
+    "zero_regret_iff_equal",
+    "jensen_bound",
+)
+
+
+def z_numeric_wire(a, scores):
+    return {
+        "retained_weight": wire(a),
+        **{
+            key: signed_wire(value) if key.startswith("gain_") else wire(value, 2)
+            for key, value in scores.items()
+        },
+    }
+
+
+def z_identities(
+    a, scores, deviation, base_risk, base_regret, coarse_risk, coarse_regret, bayes, equal
+):
+    average = (1 - a) * coarse_risk + a * base_risk
+    gap = a * (1 - a) * deviation
+    eq(scores["forecast_risk"], bayes + scores["regret"], "Z Brier decomposition")
+    eq(scores["forecast_risk"], average - gap, "Z exact quadratic risk")
+    eq(scores["gain_over_coarse"], coarse_risk - scores["forecast_risk"], "Z signed coarse gain")
+    eq(scores["gain_over_coarse"], a * (coarse_risk - base_risk) + gap, "Z exact quadratic gain")
+    eq(scores["gain_over_base"], base_risk - scores["forecast_risk"], "Z signed completed-Y gain")
+    eq(
+        scores["gain_over_base"],
+        scores["gain_over_coarse"] - (coarse_risk - base_risk),
+        "Z gain difference",
+    )
+    eq(scores["regret"] == 0, equal, "Z zero regret iff full positive-support truth laws equal")
+    check(scores["forecast_risk"] <= average, "Z Jensen endpoint-average bound")
+    if a == 0:
+        eq(scores["forecast_risk"], coarse_risk, "Z coarse risk endpoint")
+        eq(scores["regret"], coarse_regret, "Z coarse regret endpoint")
+        eq(scores["gain_over_coarse"], F(0), "Z coarse gain endpoint")
+    if a == 1:
+        eq(scores["forecast_risk"], base_risk, "Z completed-Y risk endpoint")
+        eq(scores["regret"], base_regret, "Z completed-Y regret endpoint")
+        eq(scores["gain_over_base"], F(0), "Z completed-Y gain endpoint")
+
+
+def z_check_pair(base, deviation, scores, flags):
+    for k, a in enumerate(RETAINED):
+        z_identities(
+            a,
+            scores[k],
+            deviation,
+            score_fraction(base["completed_forecast_risk"]),
+            score_fraction(base["completed_regret"]),
+            score_fraction(base["coarse_forecast_risk"]),
+            score_fraction(base["coarse_regret"]),
+            rat(base["x_scores"]["bayes_risk"]),
+            flags[k],
+        )
+
+
+def z_pair(base):
+    cells = []
+    totals = [{key: F(0) for key in Z_NUMERIC} for _ in RETAINED]
+    flags = [True] * 3
+    deviation = F(0)
+    work = dict.fromkeys(
+        ("blend_atoms", "mixture_terms", "distance_terms", "blend_scoring_terms"), 0
+    )
+    for cell in base["cells"]:
+        mass = rat(cell["actual_probability"])
+        truth = parse_law(cell["actual_prediction"])
+        chosen = parse_law(cell["forecast"])
+        coarse = parse_law(cell["coarse_forecast"])
+        support = sorted(chosen.keys() | coarse.keys())
+        distance = sum(((chosen.get(q, F(0)) - coarse.get(q, F(0))) ** 2 for q in support), F(0))
+        COUNTS["Z_literal_distance_coordinate_terms"] += len(support)
+        eq(distance == 0, chosen == coarse, "Z zero full endpoint distance")
+        work["distance_terms"] += len(chosen) + len(coarse)
+        deviation += mass * distance
+        blends = []
+        for k, a in enumerate(RETAINED):
+            # Coordinatewise convex combination, separate from the reference's
+            # accumulation of scaled source measures. Endpoint zero atoms vanish.
+            mixed = {q: (1 - a) * coarse.get(q, F(0)) + a * chosen.get(q, F(0)) for q in support}
+            mixed = {q: value for q, value in mixed.items() if value}
+            eq(sum(mixed.values(), F(0)), F(1), "Z normalized literal mixture")
+            eq(
+                set(mixed),
+                set(coarse) if a == 0 else set(chosen) if a == 1 else set(support),
+                "Z exact positive mixture support",
+            )
+            COUNTS["Z_literal_mixture_coordinate_terms"] += len(support)
+            loss, regret = explicit_scores(truth, mixed)
+            COUNTS["Z_literal_blends_scored"] += 1
+            work["blend_atoms"] += len(mixed)
+            work["mixture_terms"] += len(chosen) + len(coarse)
+            work["blend_scoring_terms"] += len(truth) + len(mixed)
+            scores = {
+                "forecast_risk": loss,
+                "regret": regret,
+                "gain_over_coarse": score_fraction(cell["coarse_risk"]) - loss,
+                "gain_over_base": score_fraction(cell["forecast_risk"]) - loss,
+            }
+            equal = truth == mixed
+            z_identities(
+                a,
+                scores,
+                distance,
+                score_fraction(cell["forecast_risk"]),
+                score_fraction(cell["regret"]),
+                score_fraction(cell["coarse_risk"]),
+                score_fraction(cell["coarse_regret"]),
+                rat(cell["bayes_risk"]),
+                equal,
+            )
+            if a == 0:
+                native_eq(law_wire(mixed), cell["coarse_forecast"], "Z exact coarse endpoint law")
+            if a == 1:
+                native_eq(law_wire(mixed), cell["forecast"], "Z exact Y endpoint law")
+            if cell["used_fallback"]:
+                eq(distance, F(0), "Z fallback endpoint distance zero")
+                native_eq(law_wire(mixed), cell["forecast"], "Z fallback full law unchanged")
+                eq(loss, score_fraction(cell["forecast_risk"]), "Z fallback risk unchanged")
+                eq(
+                    regret,
+                    score_fraction(cell["regret"]),
+                    "Z fallback regret unchanged, not forced zero",
+                )
+            flags[k] = flags[k] and equal
+            for key in Z_NUMERIC:
+                totals[k][key] += mass * scores[key]
+            blends.append(
+                {
+                    **z_numeric_wire(a, scores),
+                    "forecast": law_wire(mixed),
+                    "predictions_equal": equal,
+                }
+            )
+        cells.append(
+            {"value": cell["value"], "forecast_distance": wire(distance, 2), "blends": blends}
+        )
+    eq(
+        sum((rat(c["actual_probability"]) for c in base["cells"]), F(0)),
+        F(1),
+        "Z original actual report mass",
+    )
+    z_check_pair(base, deviation, totals, flags)
+    return (
+        {
+            "actual_index": base["actual_index"],
+            "assumed_index": base["assumed_index"],
+            "cells": cells,
+            "forecast_distance": wire(deviation, 2),
+            "blends": [z_numeric_wire(a, totals[k]) for k, a in enumerate(RETAINED)],
+            "checks": dict.fromkeys(Z_CHECKS, True),
+        },
+        work,
+    )
+
+
+def expected_z(problem, baseline):
+    native_tree(problem)
+    fields(problem, "schema_version family experiment", "Z wrapper exact fields")
+    native_eq(problem["schema_version"], "det8-qr05z-problem-v1", "Z problem schema")
+    native_eq(problem["family"], "qr05z_fixed_attenuation", "Z problem family")
+    eq(digest(problem["experiment"]), baseline["input_sha256"], "Z exact baseline input identity")
+    rows = []
+    work = dict.fromkeys(
+        ("blend_atoms", "mixture_terms", "distance_terms", "blend_scoring_terms"), 0
+    )
+    for base in baseline["beliefs"]:
+        pairs = []
+        for base_pair in base["pairs"]:
+            pair, used = z_pair(base_pair)
+            pairs.append(pair)
+            for key in work:
+                work[key] += used[key]
+        rows.append({"belief_id": base["belief_id"], "weight": base["weight"], "pairs": pairs})
+    eq(sum((rat(row["weight"]) for row in rows), F(0)), F(1), "Z history mass normalization")
+    aggregate = []
+    for index in range(16):
+        deviation = sum(
+            (
+                rat(row["weight"]) * score_fraction(row["pairs"][index]["forecast_distance"])
+                for row in rows
+            ),
+            F(0),
+        )
+        scores = [
+            {
+                key: sum(
+                    (
+                        rat(row["weight"]) * signed_fraction(row["pairs"][index]["blends"][k][key])
+                        for row in rows
+                    ),
+                    F(0),
+                )
+                for key in Z_NUMERIC
+            }
+            for k in range(3)
+        ]
+        flags = [
+            all(
+                cell["blends"][k]["predictions_equal"]
+                for row in rows
+                for cell in row["pairs"][index]["cells"]
+            )
+            for k in range(3)
+        ]
+        z_check_pair(baseline["aggregate"]["pairs"][index], deviation, scores, flags)
+        aggregate.append(
+            {
+                "actual_index": index // 4,
+                "assumed_index": index % 4,
+                "forecast_distance": wire(deviation, 2),
+                "blends": [z_numeric_wire(a, scores[k]) for k, a in enumerate(RETAINED)],
+                "checks": dict.fromkeys(Z_CHECKS, True),
+            }
+        )
+    baseline_work = (
+        baseline["counts"]["completed_scoring_terms"] + baseline["counts"]["coarse_scoring_terms"]
+    )
+    counts = {
+        "beliefs": len(rows),
+        "pair_cells": [
+            sum(len(row["pairs"][index]["cells"]) for row in rows) for index in range(16)
+        ],
+        "blend_cells": [
+            sum(len(row["pairs"][index // 3]["cells"]) for row in rows) for index in range(48)
+        ],
+        **work,
+        "baseline_scoring_terms": baseline_work,
+        "total_work_terms": baseline_work + sum(work[key] for key in work if key != "blend_atoms"),
+    }
+    conditions = {
+        "positive_deviation": lambda row, n: (
+            score_fraction(row["pairs"][n]["forecast_distance"]) > 0
+        ),
+        "positive_regret": lambda row, n: (
+            score_fraction(row["pairs"][n // 3]["blends"][n % 3]["regret"]) > 0
+        ),
+    }
+    for comparator in ("coarse", "base"):
+        for relation, test in (
+            ("better", lambda v: v > 0),
+            ("equal", lambda v: v == 0),
+            ("worse", lambda v: v < 0),
+        ):
+            conditions[relation + ("_to_" if relation == "equal" else "_than_") + comparator] = (
+                lambda row, n, key="gain_over_" + comparator, test=test: test(
+                    signed_fraction(row["pairs"][n // 3]["blends"][n % 3][key])
+                )
+            )
+    witnesses = {}
+    for name, predicate in conditions.items():
+        width = 16 if name == "positive_deviation" else 48
+        counts[name + "_beliefs"] = [sum(predicate(row, n) for row in rows) for n in range(width)]
+        witnesses["first_" + name] = [
+            next((row["belief_id"] for row in rows if predicate(row, n)), None)
+            for n in range(width)
+        ]
+    for key in (
+        "blend_atoms",
+        "mixture_terms",
+        "distance_terms",
+        "blend_scoring_terms",
+        "baseline_scoring_terms",
+        "total_work_terms",
+    ):
+        COUNTS["Z_declared_" + key] += counts[key]
+    COUNTS["Z_pair_cells"] += sum(counts["pair_cells"])
+    return {
+        "input_sha256": digest(problem),
+        "levels": [wire(t) for t in LEVELS],
+        "retained_weights": [wire(a) for a in RETAINED],
+        "baseline": baseline,
+        "beliefs": rows,
+        "aggregate": {"total_weight": [1, 1], "pairs": aggregate},
+        "witnesses": witnesses,
+        "counts": counts,
+    }
+
+
+def z_producer_controls(analysis, baseline):
+    native_eq(
+        analysis["baseline"], baseline, "Z complete Y baseline and original X null preservation"
+    )
+    native_eq(analysis["retained_weights"], [[0, 1], [1, 2], [1, 1]], "Z fixed retained weights")
+
+    def family_scores(item, i, j):
+        deviation = score_fraction(item["forecast_distance"])
+        for k, a in enumerate(RETAINED):
+            blend = item["blends"][k]
+            native_eq(blend["retained_weight"], wire(a), "W all three fixed forecasts retained")
+            if i == 3:
+                eq(
+                    signed_fraction(blend["gain_over_coarse"]),
+                    -a * a * deviation,
+                    "W full replacement quadratic penalty",
+                )
+            if i == j:
+                eq(
+                    score_fraction(blend["regret"]),
+                    (1 - a) ** 2 * deviation,
+                    "W correct-specification quadratic regret",
+                )
+            if j == 3:
+                eq(deviation, F(0), "W assumed replacement distance zero")
+                eq(
+                    signed_fraction(blend["gain_over_coarse"]),
+                    F(0),
+                    "W assumed replacement coarse equality",
+                )
+                eq(
+                    signed_fraction(blend["gain_over_base"]),
+                    F(0),
+                    "W assumed replacement completed equality",
+                )
+
+    for row, base in zip(analysis["beliefs"], baseline["beliefs"], strict=True):
+        chosen_by_assumed_report_weight = {}
+        for index, (pair, base_pair) in enumerate(zip(row["pairs"], base["pairs"], strict=True)):
+            i, j = index // 4, index % 4
+            family_scores(pair, i, j)
+            for cell, old in zip(pair["cells"], base_pair["cells"], strict=True):
+                family_scores(cell, i, j)
+                if i == 3:
+                    native_eq(
+                        old["actual_prediction"],
+                        old["coarse_forecast"],
+                        "raw W full-replacement truth is N forecast",
+                    )
+                if i == j:
+                    native_eq(
+                        old["actual_prediction"],
+                        old["forecast"],
+                        "raw W correct specification forecast is truth",
+                    )
+                for k, blend in enumerate(cell["blends"]):
+                    key = (j, tuple(cell["value"]), k)
+                    if key in chosen_by_assumed_report_weight:
+                        native_eq(
+                            blend["forecast"],
+                            chosen_by_assumed_report_weight[key],
+                            "Z policy independent of actual level",
+                        )
+                    chosen_by_assumed_report_weight[key] = blend["forecast"]
+                    if j == 3 or old["used_fallback"]:
+                        native_eq(
+                            blend["forecast"],
+                            old["coarse_forecast"],
+                            "W all blends preserve coarse full law",
+                        )
+                        native_eq(
+                            blend["forecast_risk"],
+                            old["coarse_risk"],
+                            "W unchanged coarse conditional risk",
+                        )
+                        native_eq(
+                            blend["regret"],
+                            old["coarse_regret"],
+                            "W unchanged coarse conditional regret",
+                        )
+    for index, pair in enumerate(analysis["aggregate"]["pairs"]):
+        family_scores(pair, index // 4, index % 4)
+    return {
+        "complete_Y_baseline_and_X_nulls_preserved": True,
+        "fixed_weights_not_selected_using_actual_level": True,
+        "W_full_replacement_quadratic_penalty": True,
+        "W_correct_specification_quadratic_regret": True,
+        "W_assumed_full_replacement_all_blends_equal_coarse": True,
+        "W_fallback_forecasts_unchanged": True,
+        "origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+AA_CHECKS = (
+    "coarse_zero",
+    "nested_uncertainty",
+    "complete_argmax",
+    "complete_argmin",
+    "minimax_nonpositive",
+    "bound_extension_non_decrease",
+)
+
+
+def aa_extreme_indices(values, maximum):
+    """Exhaustive pairwise dominance; no streaming max/min decision engine."""
+    selected = []
+    for i, left in enumerate(values):
+        dominates = True
+        for right in values:
+            comparison = left >= right if maximum else left <= right
+            dominates = dominates and comparison
+            COUNTS["AA_maximum_comparisons" if maximum else "AA_minimum_comparisons"] += 1
+        if dominates:
+            selected.append(i)
+    check(bool(selected), "finite nonempty exact extrema")
+    return selected
+
+
+def expected_aa(problem):
+    """Independent generic risk-table wire, without W-family restrictions."""
+    native_tree(problem)
+    fields(problem, "schema_version family levels retained_weights worlds", "AA problem fields")
+    native_eq(problem["schema_version"], "det8-qr05aa-problem-v1", "AA problem schema")
+    native_eq(problem["family"], "qr05aa_uncertainty_decision", "AA problem family")
+    native_eq(problem["levels"], [wire(t) for t in LEVELS], "AA declared levels")
+    native_eq(problem["retained_weights"], [wire(a) for a in RETAINED], "AA declared rules")
+    check(type(problem["worlds"]) is list and len(problem["worlds"]) == 4, "AA four worlds")
+    worlds, values = [], []
+    excess_terms = world_visits = selection_visits = 0
+    for i, source in enumerate(problem["worlds"]):
+        fields(source, "actual_index coarse_risk models", "AA world fields")
+        native_eq(source["actual_index"], i, "AA ordered actual index")
+        coarse = score_fraction(source["coarse_risk"])
+        check(type(source["models"]) is list and len(source["models"]) == 4, "AA four models")
+        models, current = [], []
+        for j, model in enumerate(source["models"]):
+            fields(model, "assumed_index forecast_risks", "AA model fields")
+            native_eq(model["assumed_index"], j, "AA ordered assumed index")
+            check(
+                type(model["forecast_risks"]) is list and len(model["forecast_risks"]) == 3,
+                "AA three risks",
+            )
+            risks = [score_fraction(value) for value in model["forecast_risks"]]
+            eq(risks[0], coarse, "AA actual-world coarse identity")
+            signed = [risk - coarse for risk in risks]
+            excess_terms += len(signed)
+            current.append(signed)
+            models.append(
+                {
+                    "assumed_index": j,
+                    "forecast_risks": [wire(risk, 2) for risk in risks],
+                    "excess_risks": [signed_wire(value) for value in signed],
+                }
+            )
+        values.append(current)
+        worlds.append({"actual_index": i, "coarse_risk": wire(coarse, 2), "models": models})
+    decisions = []
+    for assumed in range(4):
+        previous_worlds, previous_values, previous_minimum = [], None, None
+        for bound in range(4):
+            actuals = [i for i, level in enumerate(LEVELS) if level <= LEVELS[bound]]
+            native_eq(actuals, list(range(bound + 1)), "AA exact declared upper set")
+            native_eq(actuals[:-1], previous_worlds, "AA nested uncertainty")
+            candidates, worsts = [], []
+            for k, weight in enumerate(RETAINED):
+                vector = [values[i][assumed][k] for i in actuals]
+                world_visits += len(vector)
+                offsets = aa_extreme_indices(vector, maximum=True)
+                worst = vector[offsets[0]]
+                argmax = [actuals[offset] for offset in offsets]
+                native_eq(
+                    argmax,
+                    [i for i in actuals if values[i][assumed][k] == worst],
+                    "AA complete argmax",
+                )
+                if k == 0:
+                    eq(worst, F(0), "AA coarse zero maximum")
+                    eq(vector, [F(0)] * len(actuals), "AA every coarse excess zero")
+                if previous_values is not None:
+                    check(worst >= previous_values[k], "AA candidate bound monotonicity")
+                candidates.append(
+                    {
+                        "retained_weight": wire(weight),
+                        "world_excesses": [signed_wire(value) for value in vector],
+                        "worst_excess": signed_wire(worst),
+                        "worst_world_indices": argmax,
+                    }
+                )
+                worsts.append(worst)
+            selection_visits += len(worsts)
+            argmin = aa_extreme_indices(worsts, maximum=False)
+            minimum = worsts[argmin[0]]
+            native_eq(
+                argmin,
+                [k for k, value in enumerate(worsts) if value == minimum],
+                "AA complete argmin",
+            )
+            check(minimum <= 0, "AA nonpositive finite-menu minimax")
+            if previous_minimum is not None:
+                check(minimum >= previous_minimum, "AA selected value bound monotonicity")
+            decisions.append(
+                {
+                    "assumed_index": assumed,
+                    "bound_index": bound,
+                    "world_indices": actuals,
+                    "candidates": candidates,
+                    "minimax_excess": signed_wire(minimum),
+                    "minimizer_indices": argmin,
+                    "minimizer_weights": [wire(RETAINED[k]) for k in argmin],
+                    "checks": dict.fromkeys(AA_CHECKS, True),
+                }
+            )
+            previous_worlds, previous_values, previous_minimum = actuals, worsts, minimum
+    native_eq(
+        [excess_terms, world_visits, selection_visits],
+        [48, 120, 48],
+        "AA declared visit accounting",
+    )
+    counts = {
+        "worlds": 4,
+        "assumed_models": 4,
+        "rules": 3,
+        "decisions": 16,
+        "world_rule_cells": 48,
+        "excess_terms": excess_terms,
+        "candidate_world_visits": world_visits,
+        "candidate_selection_visits": selection_visits,
+        "total_decision_work": excess_terms + world_visits + selection_visits,
+    }
+    for key, value in counts.items():
+        COUNTS["AA_declared_" + key] += value
+    result = {
+        "input_sha256": digest(problem),
+        "levels": [wire(t) for t in LEVELS],
+        "retained_weights": [wire(a) for a in RETAINED],
+        "worlds": worlds,
+        "decisions": decisions,
+        "counts": counts,
+    }
+    check(len(canon(result)) <= 1048576, "AA complete output byte bound")
+    return json.loads(canon(result))
+
+
+def aa_projection(z_analysis):
+    """Recompute case risks from every retained truth/forecast law and mass."""
+    scores = [[[F(0) for _ in RETAINED] for _ in LEVELS] for _ in LEVELS]
+    for row, base in zip(z_analysis["beliefs"], z_analysis["baseline"]["beliefs"], strict=True):
+        native_eq(row["weight"], base["weight"], "AA original Z/Y history likelihood")
+        weight = rat(row["weight"])
+        for index, (pair, oldpair) in enumerate(zip(row["pairs"], base["pairs"], strict=True)):
+            i, j = index // 4, index % 4
+            for cell, old in zip(pair["cells"], oldpair["cells"], strict=True):
+                native_eq(cell["value"], old["value"], "AA original report order")
+                mass = rat(old["actual_probability"])
+                truth = parse_law(old["actual_prediction"])
+                for k, blend in enumerate(cell["blends"]):
+                    forecast = parse_law(blend["forecast"])
+                    loss, _ = explicit_scores(truth, forecast)
+                    native_eq(
+                        wire(loss, 2), blend["forecast_risk"], "AA literal conditional blend risk"
+                    )
+                    if k == 0:
+                        native_eq(
+                            blend["forecast"],
+                            old["coarse_forecast"],
+                            "AA zero retention common coarse law",
+                        )
+                    scores[i][j][k] += weight * mass * loss
+                    COUNTS["AA_literal_forecasts_rescored"] += 1
+    worlds = []
+    for i in range(4):
+        coarse = scores[i][0][0]
+        models = []
+        for j in range(4):
+            aggregate = z_analysis["aggregate"]["pairs"][4 * i + j]
+            oldaggregate = z_analysis["baseline"]["aggregate"]["pairs"][4 * i + j]
+            eq(scores[i][j][0], coarse, "AA common coarse risk for every assumed model")
+            native_eq(
+                wire(coarse, 2), oldaggregate["coarse_forecast_risk"], "AA literal coarse aggregate"
+            )
+            for k in range(3):
+                native_eq(
+                    wire(scores[i][j][k], 2),
+                    aggregate["blends"][k]["forecast_risk"],
+                    "AA all 48 weighted Z risks",
+                )
+                eq(
+                    scores[i][j][k] - coarse,
+                    -signed_fraction(aggregate["blends"][k]["gain_over_coarse"]),
+                    "AA excess equals negative Z gain",
+                )
+            models.append(
+                {"assumed_index": j, "forecast_risks": [wire(value, 2) for value in scores[i][j]]}
+            )
+        worlds.append({"actual_index": i, "coarse_risk": wire(coarse, 2), "models": models})
+    return {
+        "schema_version": "det8-qr05aa-problem-v1",
+        "family": "qr05aa_uncertainty_decision",
+        "levels": [wire(t) for t in LEVELS],
+        "retained_weights": [wire(a) for a in RETAINED],
+        "worlds": worlds,
+    }
+
+
+def aa_producer_controls(z_analysis, problem, analysis):
+    full_distances = [F(0)] * 4
+    full_equal = [True] * 4
+    for row, base in zip(z_analysis["beliefs"], z_analysis["baseline"]["beliefs"], strict=True):
+        weight = rat(base["weight"])
+        tables = [
+            {tuple(cell["value"]): cell for cell in base["pairs"][4 * i]["cells"]} for i in range(4)
+        ]
+        joints, prefix_joints = [], []
+        for table in tables:
+            joint, prefixes = {}, defaultdict(lambda: defaultdict(F))
+            for value, cell in table.items():
+                mass = rat(cell["actual_probability"])
+                for q, probability in parse_law(cell["actual_prediction"]).items():
+                    joint[value, q] = mass * probability
+                    prefixes[value[:5]][q] += mass * probability
+            eq(sum(joint.values(), F(0)), F(1), "AA normalized actual joint")
+            joints.append(joint)
+            prefix_joints.append(prefixes)
+        joint_support = set().union(*(set(joint) for joint in joints))
+        for i in (1, 2):
+            for key in joint_support:
+                eq(
+                    joints[i].get(key, F(0)),
+                    (1 - LEVELS[i]) * joints[0].get(key, F(0))
+                    + LEVELS[i] * joints[3].get(key, F(0)),
+                    "AA full affine actual report/future joint",
+                )
+                COUNTS["AA_affine_joint_coordinates"] += 1
+        for i in range(4):
+            eq(
+                dict(prefix_joints[i]),
+                dict(prefix_joints[0]),
+                "AA N/future marginal invariant under replacement",
+            )
+        coarse_laws = {
+            prefix: {q: probability / sum(law.values(), F(0)) for q, probability in law.items()}
+            for prefix, law in prefix_joints[0].items()
+        }
+        seen = {}
+        for index, (pair, oldpair) in enumerate(zip(row["pairs"], base["pairs"], strict=True)):
+            i, j = index // 4, index % 4
+            for cell, old in zip(pair["cells"], oldpair["cells"], strict=True):
+                value = tuple(cell["value"])
+                coarse = parse_law(old["coarse_forecast"])
+                native_eq(
+                    law_wire(coarse),
+                    law_wire(coarse_laws[value[:5]]),
+                    "AA true N conditional fallback law",
+                )
+                native_eq(
+                    old["actual_probability"],
+                    tables[i][value]["actual_probability"],
+                    "AA actual report mass fixed across assumed models",
+                )
+                native_eq(
+                    old["actual_prediction"],
+                    tables[i][value]["actual_prediction"],
+                    "AA actual future law fixed across assumed models",
+                )
+                chosen = parse_law(old["forecast"])
+                if i == 0:
+                    clean = parse_law(tables[0][value]["actual_prediction"])
+                    beta = (
+                        (1 - LEVELS[j])
+                        * rat(tables[0][value]["actual_probability"])
+                        / rat(tables[j][value]["actual_probability"])
+                    )
+                    check(0 <= beta <= 1, "AA clean-positive forecast segment coefficient")
+                    segment = {
+                        q: coarse.get(q, F(0)) + beta * (clean.get(q, F(0)) - coarse.get(q, F(0)))
+                        for q in coarse.keys() | clean.keys()
+                    }
+                    segment = {q: probability for q, probability in segment.items() if probability}
+                    native_eq(
+                        law_wire(chosen),
+                        law_wire(segment),
+                        "AA full clean-positive assumed forecast segment",
+                    )
+                    COUNTS["AA_clean_segment_laws"] += 1
+                if i == 3:
+                    truth = parse_law(old["actual_prediction"])
+                    eq(truth, coarse, "AA full-replacement truth equals true N law")
+                    full_distances[j] += (
+                        weight * rat(old["actual_probability"]) * distance(chosen, coarse)
+                    )
+                    full_equal[j] = full_equal[j] and chosen == coarse
+                for k, blend in enumerate(cell["blends"]):
+                    key = (j, value, k)
+                    if key in seen:
+                        native_eq(
+                            blend["forecast"],
+                            seen[key],
+                            "AA fixed forecast independent of actual index",
+                        )
+                    seen[key] = blend["forecast"]
+                    if k == 0 or j == 3:
+                        native_eq(
+                            blend["forecast"],
+                            old["coarse_forecast"],
+                            "AA common coarse or full-assumed-replacement law",
+                        )
+    coarse = [score_fraction(world["coarse_risk"]) for world in problem["worlds"]]
+    eq(coarse, [coarse[0]] * 4, "AA W constant case coarse risk")
+    for i in (1, 2):
+        eq(coarse[i], (1 - LEVELS[i]) * coarse[0] + LEVELS[i] * coarse[3], "AA affine coarse risk")
+        COUNTS["AA_affine_risk_equations"] += 1
+    for j in range(4):
+        for k, retained in enumerate(RETAINED):
+            risks = [
+                score_fraction(world["models"][j]["forecast_risks"][k])
+                for world in problem["worlds"]
+            ]
+            excess = [risk - g for risk, g in zip(risks, coarse, strict=True)]
+            for i in (1, 2):
+                eq(
+                    risks[i],
+                    (1 - LEVELS[i]) * risks[0] + LEVELS[i] * risks[3],
+                    "AA affine original-law expected risk",
+                )
+                eq(
+                    excess[i],
+                    (1 - LEVELS[i]) * excess[0] + LEVELS[i] * excess[3],
+                    "AA affine signed excess risk",
+                )
+                COUNTS["AA_affine_risk_equations"] += 2
+            check(excess[0] <= 0, "AA clean blend nonpositive excess")
+            eq(
+                excess[3],
+                retained**2 * full_distances[j],
+                "AA full-replacement weighted quadratic penalty",
+            )
+            check(
+                all(left <= right for left, right in itertools.pairwise(excess)),
+                "AA W excess monotonicity",
+            )
+            for u in range(4):
+                candidate = analysis["decisions"][4 * j + u]["candidates"][k]
+                expected_worlds = [i for i in range(u + 1) if excess[i] == excess[u]]
+                native_eq(
+                    candidate["worst_world_indices"],
+                    expected_worlds,
+                    "AA complete W worst-world ties",
+                )
+                check(u in expected_worlds, "AA upper endpoint is a worst world")
+        decision = analysis["decisions"][4 * j + 3]
+        native_eq(decision["minimax_excess"], [0, 1], "AA full bound coarse minimum")
+        native_eq(
+            decision["minimizer_indices"],
+            [0, 1, 2] if full_equal[j] else [0],
+            "AA full-bound minimizers iff complete positive full-law coincidence",
+        )
+        eq(
+            full_distances[j] == 0,
+            full_equal[j],
+            "AA full-weight zero distance iff all laws coincide",
+        )
+    return {
+        "risk_table_matches_Z": True,
+        "literal_forecast_risks_checked": True,
+        "original_history_report_weights_preserved": True,
+        "fixed_rule_forecasts_actual_index_independent": True,
+        "W_affine_actual_joint_and_risk": True,
+        "W_constant_coarse_risk": True,
+        "W_clean_forecast_segment_and_excess": True,
+        "W_full_replacement_quadratic_penalty": True,
+        "W_excess_monotonicity_and_upper_endpoint": True,
+        "W_full_bound_coarse_and_coincidence_ties": True,
+        "origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+AB_CHECKS = (
+    "nominal_selection_preserved",
+    "complete_argmax",
+    "all_any_quantifiers",
+    "signed_bound_comparison",
+    "coarse_zero",
+    "nested_worlds",
+    "world_witnesses_complete",
+)
+
+
+def ab_shift_wire(value):
+    check(type(value) is F and -4 <= value <= 4, "AB retained signed shift range")
+    check(
+        max(abs(value.numerator).bit_length(), value.denominator.bit_length()) <= 4096,
+        "AB retained shift bits",
+    )
+    return [value.numerator, value.denominator]
+
+
+def ab_worlds(supplied):
+    native_tree(supplied)
+    check(type(supplied) is list and len(supplied) == 4, "AB four stress worlds")
+    worlds, tensor = [], []
+    for i, world in enumerate(supplied):
+        fields(world, "actual_index coarse_risk models", "AB stress world fields")
+        native_eq(world["actual_index"], i, "AB ordered actual index")
+        coarse = score_fraction(world["coarse_risk"])
+        check(type(world["models"]) is list and len(world["models"]) == 4, "AB four stress models")
+        models, values = [], []
+        for j, model in enumerate(world["models"]):
+            fields(model, "assumed_index forecast_risks", "AB stress model fields")
+            native_eq(model["assumed_index"], j, "AB ordered assumed index")
+            check(
+                type(model["forecast_risks"]) is list and len(model["forecast_risks"]) == 3,
+                "AB three stress risks",
+            )
+            risks = [score_fraction(pair) for pair in model["forecast_risks"]]
+            eq(risks[0], coarse, "AB same-world zero-retention risk")
+            differences = [value - coarse for value in risks]
+            values.append(differences)
+            models.append(
+                {
+                    "assumed_index": j,
+                    "forecast_risks": [wire(value, 2) for value in risks],
+                    "excess_risks": [signed_wire(value) for value in differences],
+                }
+            )
+        worlds.append({"actual_index": i, "coarse_risk": wire(coarse, 2), "models": models})
+        tensor.append(values)
+    return worlds, tensor
+
+
+def expected_ab(problem, nominal_analysis=None):
+    """Generic frozen nominal-certificate classification; no stress argmin."""
+    native_tree(problem)
+    fields(problem, "schema_version family nominal mechanisms", "AB problem fields")
+    native_eq(problem["schema_version"], "det8-qr05ab-problem-v1", "AB schema")
+    native_eq(problem["family"], "qr05ab_replacement_stress", "AB family")
+    baseline = expected_aa(problem["nominal"]) if nominal_analysis is None else nominal_analysis
+    native_eq(
+        baseline["input_sha256"], digest(problem["nominal"]), "AB exact nominal input identity"
+    )
+    check(
+        type(problem["mechanisms"]) is list and len(problem["mechanisms"]) == 2, "AB two mechanisms"
+    )
+    mechanisms = []
+    excess_terms = world_visits = shift_terms = class_visits = old_visits = 0
+    for supplied, name in zip(problem["mechanisms"], ("forward", "reverse"), strict=True):
+        fields(supplied, "mechanism_id worlds", "AB mechanism fields")
+        native_eq(supplied["mechanism_id"], name, "AB fixed mechanism order")
+        worlds, tensor = ab_worlds(supplied["worlds"])
+        excess_terms += sum(len(row) for world in tensor for row in world)
+        certificates = []
+        for nominal in baseline["decisions"]:
+            j, u = nominal["assumed_index"], nominal["bound_index"]
+            indices = [i for i, t in enumerate(LEVELS) if t <= LEVELS[u]]
+            native_eq(indices, nominal["world_indices"], "AB unchanged nested worlds")
+            original = list(nominal["minimizer_indices"])
+            optimum = signed_fraction(nominal["minimax_excess"])
+            old_visits += len(original)
+            candidates = []
+            for k, weight in enumerate(RETAINED):
+                values = [tensor[i][j][k] for i in indices]
+                world_visits += len(values)
+                maxima = []
+                for i, value in zip(indices, values, strict=True):
+                    dominates = True
+                    for other in values:
+                        comparison = value >= other
+                        dominates = dominates and comparison
+                        COUNTS["AB_maximum_comparisons"] += 1
+                    if dominates:
+                        maxima.append(i)
+                check(bool(maxima), "AB finite nonempty maximum")
+                worst = tensor[maxima[0]][j][k]
+                native_eq(
+                    maxima,
+                    [i for i in indices if tensor[i][j][k] == worst],
+                    "AB complete worst-world ties",
+                )
+                old_worst = signed_fraction(nominal["candidates"][k]["worst_excess"])
+                change, bound = worst - old_worst, worst - optimum
+                shift_terms += 2
+                unsafe = [i for i in indices if tensor[i][j][k] > 0]
+                breaking = [i for i in indices if tensor[i][j][k] > optimum]
+                is_old = k in original
+                eq(is_old, old_worst == optimum, "AB old membership exactly nominal argmin")
+                eq(worst <= 0, not unsafe, "AB unsafe-world witnesses complete")
+                eq(worst <= optimum, not breaking, "AB bound-breaking witnesses complete")
+                eq(worst <= optimum, bound <= 0, "AB signed original bound comparison")
+                if k == 0:
+                    eq(values, [F(0)] * len(indices), "AB all coarse excesses zero")
+                candidates.append(
+                    {
+                        "retained_weight": wire(weight),
+                        "world_excesses": [signed_wire(v) for v in values],
+                        "worst_excess": signed_wire(worst),
+                        "worst_world_indices": maxima,
+                        "nominal_worst_excess": signed_wire(old_worst),
+                        "worst_shift": ab_shift_wire(change),
+                        "bound_excess": ab_shift_wire(bound),
+                        "nominal_minimizer": is_old,
+                        "coarse_safe": worst <= 0,
+                        "strict_benefit": worst < 0,
+                        "original_bound_preserved": worst <= optimum,
+                        "unsafe_world_indices": unsafe,
+                        "bound_breaking_world_indices": breaking,
+                    }
+                )
+                class_visits += 1
+            safe = [k for k in original if candidates[k]["coarse_safe"]]
+            strict = [k for k in original if candidates[k]["strict_benefit"]]
+            preserved = [k for k in original if candidates[k]["original_bound_preserved"]]
+            unsafe = [k for k in original if k not in safe]
+            breaking = [k for k in original if k not in preserved]
+            check(bool(original), "AB inherited minimizer set nonempty")
+            eq(sorted(safe + unsafe), original, "AB complete original safety partition")
+            eq(sorted(preserved + breaking), original, "AB complete original bound partition")
+            quantifiers = {}
+            for name_, flag, selected in (
+                ("safe", "coarse_safe", safe),
+                ("strict", "strict_benefit", strict),
+                ("bound_preserved", "original_bound_preserved", preserved),
+            ):
+                quantifiers["all_old_" + name_] = all(candidates[k][flag] for k in original)
+                quantifiers["any_old_" + name_] = any(candidates[k][flag] for k in original)
+                eq(
+                    quantifiers["all_old_" + name_],
+                    len(selected) == len(original),
+                    "AB all quantifier exact",
+                )
+                eq(quantifiers["any_old_" + name_], bool(selected), "AB any quantifier exact")
+            certificates.append(
+                {
+                    "assumed_index": j,
+                    "bound_index": u,
+                    "world_indices": indices,
+                    "nominal_minimax_excess": signed_wire(optimum),
+                    "old_minimizer_indices": original,
+                    "old_minimizer_weights": [wire(RETAINED[k]) for k in original],
+                    "candidates": candidates,
+                    "safe_old_indices": safe,
+                    "strictly_beneficial_old_indices": strict,
+                    "bound_preserving_old_indices": preserved,
+                    "unsafe_old_indices": unsafe,
+                    "bound_breaking_old_indices": breaking,
+                    **quantifiers,
+                    "checks": dict.fromkeys(AB_CHECKS, True),
+                }
+            )
+        mechanisms.append({"mechanism_id": name, "worlds": worlds, "certificates": certificates})
+    native_eq(
+        [excess_terms, world_visits, shift_terms, class_visits],
+        [96, 240, 192, 96],
+        "AB declared work counts",
+    )
+    counts = {
+        "mechanisms": 2,
+        "worlds": 8,
+        "assumed_models": 8,
+        "rules": 6,
+        "certificates": 32,
+        "candidate_certificates": class_visits,
+        "old_rule_evaluations": old_visits,
+        "stress_risk_cells": excess_terms,
+        "baseline_decision_work": baseline["counts"]["total_decision_work"],
+        "stress_excess_terms": excess_terms,
+        "candidate_world_visits": world_visits,
+        "shift_terms": shift_terms,
+        "candidate_classification_visits": class_visits,
+        "total_work_terms": baseline["counts"]["total_decision_work"]
+        + excess_terms
+        + world_visits
+        + shift_terms
+        + class_visits,
+    }
+    for key, value in counts.items():
+        COUNTS["AB_declared_" + key] += value
+    result = {
+        "input_sha256": digest(problem),
+        "baseline": baseline,
+        "mechanisms": mechanisms,
+        "counts": counts,
+    }
+    check(len(canon(result)) <= 4194304, "AB complete wire byte cap")
+    return json.loads(canon(result))
+
+
+def ab_replacements(alphabet):
+    laws = []
+    for name in ("forward", "reverse"):
+        rows = []
+        for prefix, values in sorted(alphabet.items()):
+            eq(values, sorted(set(values)), "AB distinct full-model label order")
+            m = len(values)
+            check(m > 0, "AB nonempty full-model fiber")
+            probs = [F(2 * (r + 1 if name == "forward" else m - r), m * (m + 1)) for r in range(m)]
+            eq(sum(probs, F(0)), F(1), "AB normalized rank tilt")
+            check(all(p > 0 for p in probs), "AB full-support rank tilt")
+            rows.append(
+                {
+                    "N": list(prefix),
+                    "values": [
+                        {"value": list(z), "probability": wire(p)}
+                        for z, p in zip(values, probs, strict=True)
+                    ],
+                }
+            )
+        laws.append({"mechanism_id": name, "alphabet": rows})
+    for first, second in zip(laws[0]["alphabet"], laws[1]["alphabet"], strict=True):
+        native_eq(first["N"], second["N"], "AB common full-model N fibers")
+        for left, right in zip(first["values"], second["values"], strict=True):
+            native_eq(left["value"], right["value"], "AB common complete replacement support")
+            eq(
+                (rat(left["probability"]) + rat(right["probability"])) / 2,
+                F(1, len(first["values"])),
+                "AB opposite tilts average pointwise to uniform",
+            )
+    return laws
+
+
+def ab_joint(cells, baseline=False):
+    joint = {}
+    for cell in cells:
+        value = tuple(cell["value"])
+        mass = rat(cell["actual_probability"] if baseline else cell["probability"])
+        prediction = cell["actual_prediction"] if baseline else cell["prediction"]
+        for q, probability in parse_law(prediction).items():
+            joint[value, q] = mass * probability
+    eq(sum(joint.values(), F(0)), F(1), "AB complete joint normalization")
+    return joint
+
+
+def ab_prefix_joint(joint):
+    table = defaultdict(F)
+    for (value, q), mass in joint.items():
+        table[value[:5], q] += mass
+    return dict(table)
+
+
+def ab_projection(z_analysis, nominal_problem, replacement_laws):
+    """Stochastic-channel pushforward over each clean source atom/target.
+
+    This does not construct new joints using the runner's N-subjoint formula.
+    Full-model replacement support is already independently authenticated.
+    """
+    mechanisms, stress_laws = [], []
+    for mechanism in replacement_laws:
+        mu = {
+            tuple(row["N"]): {
+                tuple(value["value"]): rat(value["probability"]) for value in row["values"]
+            }
+            for row in mechanism["alphabet"]
+        }
+        scores = [[[F(0) for _ in RETAINED] for _ in LEVELS] for _ in LEVELS]
+        coarse_scores = [F(0)] * 4
+        beliefs = []
+        for bid, (row, base) in enumerate(
+            zip(z_analysis["beliefs"], z_analysis["baseline"]["beliefs"], strict=True)
+        ):
+            native_eq(row["weight"], base["weight"], "AB fixed original history likelihood")
+            weight = rat(base["weight"])
+            clean = ab_joint(base["pairs"][0]["cells"], baseline=True)
+            frozen = [
+                {
+                    tuple(cell["value"]): [parse_law(blend["forecast"]) for blend in cell["blends"]]
+                    for cell in row["pairs"][12 + j]["cells"]
+                }
+                for j in range(4)
+            ]
+            coarse = {
+                tuple(cell["value"]): parse_law(cell["coarse_forecast"])
+                for cell in base["pairs"][12]["cells"]
+            }
+            channels = []
+            for i, level in enumerate(LEVELS):
+                joint = defaultdict(F)
+                for (source, q), mass in clean.items():
+                    for target, replacement_mass in mu[source[:5]].items():
+                        channel_mass = (1 - level) * int(
+                            target == source
+                        ) + level * replacement_mass
+                        if channel_mass:
+                            joint[target, q] += mass * channel_mass
+                        COUNTS["AB_channel_source_target_visits"] += 1
+                eq(sum(joint.values(), F(0)), F(1), "AB channel pushforward normalized")
+                grouped = defaultdict(dict)
+                for (value, q), mass in sorted(joint.items()):
+                    check(mass > 0, "AB retained positive joint atom")
+                    grouped[value][q] = mass
+                cells = []
+                for value, law in sorted(grouped.items()):
+                    mass = sum(law.values(), F(0))
+                    truth = {q: probability / mass for q, probability in law.items()}
+                    eq(sum(truth.values(), F(0)), F(1), "AB conditional future law normalized")
+                    coarse_loss, _ = explicit_scores(truth, coarse[value])
+                    coarse_scores[i] += weight * mass * coarse_loss
+                    COUNTS["AB_coarse_forecasts_rescored"] += 1
+                    for j in range(4):
+                        native_eq(
+                            law_wire(frozen[j][value][0]),
+                            law_wire(coarse[value]),
+                            "AB unchanged coarse forecast map",
+                        )
+                        for k in range(3):
+                            loss, _ = explicit_scores(truth, frozen[j][value][k])
+                            scores[i][j][k] += weight * mass * loss
+                            COUNTS["AB_frozen_forecasts_rescored"] += 1
+                    cells.append(
+                        {
+                            "value": list(value),
+                            "probability": wire(mass),
+                            "prediction": law_wire(truth),
+                        }
+                    )
+                channels.append({"level": wire(level), "cells": cells})
+                COUNTS["AB_actual_cells"] += len(cells)
+                COUNTS["AB_actual_prediction_atoms"] += sum(
+                    len(cell["prediction"]) for cell in cells
+                )
+            beliefs.append({"belief_id": bid, "weight": base["weight"], "channels": channels})
+        worlds = []
+        for i in range(4):
+            models = []
+            for j in range(4):
+                eq(scores[i][j][0], coarse_scores[i], "AB literal same-law coarse risk")
+                models.append(
+                    {
+                        "assumed_index": j,
+                        "forecast_risks": [wire(value, 2) for value in scores[i][j]],
+                    }
+                )
+            worlds.append(
+                {"actual_index": i, "coarse_risk": wire(coarse_scores[i], 2), "models": models}
+            )
+        mechanisms.append({"mechanism_id": mechanism["mechanism_id"], "worlds": worlds})
+        stress_laws.append({"mechanism_id": mechanism["mechanism_id"], "beliefs": beliefs})
+    return {
+        "schema_version": "det8-qr05ab-problem-v1",
+        "family": "qr05ab_replacement_stress",
+        "nominal": nominal_problem,
+        "mechanisms": mechanisms,
+    }, stress_laws
+
+
+def ab_producer_controls(z_analysis, nominal_analysis, problem, analysis, stress_laws):
+    native_eq(
+        analysis["baseline"], nominal_analysis, "AB complete nominal AA baseline and ties unchanged"
+    )
+    full_distances = [[F(0)] * 4 for _ in range(2)]
+    nominal_equal = [True] * 4
+    for bid, (row, base) in enumerate(
+        zip(z_analysis["beliefs"], z_analysis["baseline"]["beliefs"], strict=True)
+    ):
+        weight = rat(base["weight"])
+        nominal_joints = [ab_joint(base["pairs"][4 * i]["cells"], baseline=True) for i in range(4)]
+        nominal_prefix = ab_prefix_joint(nominal_joints[0])
+        full_base = [
+            {tuple(cell["value"]): cell for cell in base["pairs"][12 + j]["cells"]}
+            for j in range(4)
+        ]
+        full_forecasts = [
+            {tuple(cell["value"]): cell["blends"] for cell in row["pairs"][12 + j]["cells"]}
+            for j in range(4)
+        ]
+        for j in range(4):
+            nominal_equal[j] = nominal_equal[j] and all(
+                cell["forecast"] == cell["coarse_forecast"] for cell in full_base[j].values()
+            )
+            for i in range(4):
+                for cell in row["pairs"][4 * i + j]["cells"]:
+                    for k, blend in enumerate(cell["blends"]):
+                        native_eq(
+                            blend["forecast"],
+                            full_forecasts[j][tuple(cell["value"])][k]["forecast"],
+                            "AB complete frozen forecast actual-index independence",
+                        )
+        all_joints = []
+        for mid, mechanism in enumerate(stress_laws):
+            belief = mechanism["beliefs"][bid]
+            native_eq(belief["belief_id"], bid, "AB fixed history IDs")
+            native_eq(belief["weight"], base["weight"], "AB preserved original history weights")
+            joints = []
+            for i, channel in enumerate(belief["channels"]):
+                native_eq(channel["level"], wire(LEVELS[i]), "AB fixed level order")
+                joint = ab_joint(channel["cells"])
+                joints.append(joint)
+                eq(ab_prefix_joint(joint), nominal_prefix, "AB N/future subjoint invariant")
+                if i == 0:
+                    eq(joint, nominal_joints[0], "AB complete clean joint recovery")
+                    native_eq(
+                        channel["cells"],
+                        [
+                            {
+                                "value": cell["value"],
+                                "probability": cell["actual_probability"],
+                                "prediction": cell["actual_prediction"],
+                            }
+                            for cell in base["pairs"][0]["cells"]
+                        ],
+                        "AB exact clean conditional laws",
+                    )
+                else:
+                    eq(
+                        {tuple(cell["value"]) for cell in channel["cells"]},
+                        set(full_base[0]),
+                        "AB full positive-noise report support",
+                    )
+                if i == 3:
+                    for cell in channel["cells"]:
+                        value = tuple(cell["value"])
+                        mass = rat(cell["probability"])
+                        truth = parse_law(cell["prediction"])
+                        for j in range(4):
+                            old = full_base[j][value]
+                            coarse = parse_law(old["coarse_forecast"])
+                            chosen = parse_law(old["forecast"])
+                            eq(truth, coarse, "AB full replacement actual truth is N fallback")
+                            full_distances[mid][j] += weight * mass * distance(chosen, coarse)
+            support = set().union(*(set(joint) for joint in joints))
+            for i in (1, 2):
+                for key in support:
+                    eq(
+                        joints[i].get(key, F(0)),
+                        (1 - LEVELS[i]) * joints[0].get(key, F(0))
+                        + LEVELS[i] * joints[3].get(key, F(0)),
+                        "AB full affine tilted actual joint",
+                    )
+                    COUNTS["AB_affine_joint_coordinates"] += 1
+            all_joints.append(joints)
+        for i in range(4):
+            for key in set(nominal_joints[i]) | set(all_joints[0][i]) | set(all_joints[1][i]):
+                eq(
+                    (all_joints[0][i].get(key, F(0)) + all_joints[1][i].get(key, F(0))) / 2,
+                    nominal_joints[i].get(key, F(0)),
+                    "AB opposite tilted joint laws average to nominal",
+                )
+                COUNTS["AB_opposite_joint_coordinates"] += 1
+    nominal_worlds = problem["nominal"]["worlds"]
+    for mid, mechanism in enumerate(problem["mechanisms"]):
+        worlds = mechanism["worlds"]
+        for i in range(4):
+            native_eq(
+                worlds[i]["coarse_risk"],
+                nominal_worlds[i]["coarse_risk"],
+                "AB actual-law coarse risk unchanged",
+            )
+        for j in range(4):
+            eq(
+                full_distances[mid][j] == 0,
+                nominal_equal[j],
+                "AB positive-support full-bound law coincidence invariant",
+            )
+            for k, retained in enumerate(RETAINED):
+                risks = [
+                    score_fraction(world["models"][j]["forecast_risks"][k]) for world in worlds
+                ]
+                coarse = [score_fraction(world["coarse_risk"]) for world in worlds]
+                excess = [risk - g for risk, g in zip(risks, coarse, strict=True)]
+                for i in (1, 2):
+                    eq(
+                        risks[i],
+                        (1 - LEVELS[i]) * risks[0] + LEVELS[i] * risks[3],
+                        "AB affine original-weight tilted risk",
+                    )
+                    eq(
+                        excess[i],
+                        (1 - LEVELS[i]) * excess[0] + LEVELS[i] * excess[3],
+                        "AB affine tilted excess risk",
+                    )
+                    COUNTS["AB_affine_risk_equations"] += 2
+                check(excess[0] <= 0, "AB clean forecast nonpositive excess")
+                eq(
+                    excess[3],
+                    retained**2 * full_distances[mid][j],
+                    "AB tilted full-weight quadratic penalty",
+                )
+                check(
+                    all(left <= right for left, right in itertools.pairwise(excess)),
+                    "AB nondecreasing tilted excess",
+                )
+                for u in range(4):
+                    certificate = analysis["mechanisms"][mid]["certificates"][4 * j + u]
+                    candidate = certificate["candidates"][k]
+                    native_eq(
+                        candidate["worst_world_indices"],
+                        [i for i in range(u + 1) if excess[i] == excess[u]],
+                        "AB complete upper-endpoint worst-world set",
+                    )
+                    check(
+                        u in candidate["worst_world_indices"],
+                        "AB upper endpoint belongs to worst worlds",
+                    )
+                    native_eq(
+                        certificate["old_minimizer_indices"],
+                        nominal_analysis["decisions"][4 * j + u]["minimizer_indices"],
+                        "AB every original tie retained without reoptimization",
+                    )
+    for i in range(4):
+        for j in range(4):
+            for k in range(3):
+                stressed = [
+                    score_fraction(m["worlds"][i]["models"][j]["forecast_risks"][k])
+                    for m in problem["mechanisms"]
+                ]
+                eq(
+                    sum(stressed, F(0)) / 2,
+                    score_fraction(nominal_worlds[i]["models"][j]["forecast_risks"][k]),
+                    "AB opposite original-weight risks average to nominal",
+                )
+                COUNTS["AB_opposite_risk_equations"] += 1
+    for index, nominal in enumerate(nominal_analysis["decisions"]):
+        first, second = [mechanism["certificates"][index] for mechanism in analysis["mechanisms"]]
+        for k in range(3):
+            left, right = first["candidates"][k], second["candidates"][k]
+            eq(
+                (signed_fraction(left["worst_excess"]) + signed_fraction(right["worst_excess"]))
+                / 2,
+                signed_fraction(nominal["candidates"][k]["worst_excess"]),
+                "AB opposite candidate worst risks average to nominal",
+            )
+            if k in nominal["minimizer_indices"]:
+                a, b = F(*left["bound_excess"]), F(*right["bound_excess"])
+                eq(a + b, F(0), "AB old-rule opposite quantitative bound deviations cancel")
+                eq(
+                    left["original_bound_preserved"] and right["original_bound_preserved"],
+                    a == b == 0,
+                    "AB both opposite bounds preserved iff exactly met",
+                )
+                COUNTS["AB_opposite_old_bound_equations"] += 1
+    return {
+        "nominal_AA_baseline_preserved": True,
+        "whole_model_positive_rank_tilts": True,
+        "complete_stressed_laws_and_support": True,
+        "frozen_forecasts_and_weights": True,
+        "literal_original_weight_risks": True,
+        "clean_and_N_future_marginals_preserved": True,
+        "affine_actual_joint_and_risk": True,
+        "opposite_tilts_average_to_nominal": True,
+        "full_replacement_tilted_quadratic_penalty": True,
+        "upper_endpoint_and_opposite_bound_deviations": True,
+        "all_original_ties_classified_without_reoptimization": True,
+        "origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+# AC's generic certificate route uses pairwise dominance independently of both
+# bounded engines. The raw coefficient source below uses literal loss differences.
+AC_CHECKS = (
+    "nominal_selection_preserved",
+    "complete_envelope_argmax",
+    "complete_mechanism_faces",
+    "global_witness_attains_envelope",
+    "witness_argmax_complete",
+    "full_support_attainment",
+    "all_any_quantifiers",
+    "signed_bound_comparison",
+    "coarse_zero",
+    "nested_worlds",
+)
+
+
+def ac_argmax(values, counter):
+    winners = []
+    for index, value in enumerate(values):
+        dominates = True
+        for other in values:
+            relation = value >= other
+            dominates = dominates and relation
+            COUNTS[counter] += 1
+        if dominates:
+            winners.append(index)
+    check(bool(winners), "AC nonempty finite complete maximum")
+    native_eq(
+        winners,
+        [i for i, v in enumerate(values) if v == values[winners[0]]],
+        "AC exact complete pairwise argmax",
+    )
+    return winners
+
+
+def expected_ac(problem, nominal_analysis=None):
+    """Independent complete generic AC wire; no producer assumptions."""
+    native_tree(problem)
+    fields(problem, "schema_version family nominal alphabet models", "AC problem")
+    native_eq(problem["schema_version"], "det8-qr05ac-problem-v1", "AC problem schema")
+    native_eq(problem["family"], "qr05ac_replacement_envelope", "AC problem family")
+    baseline = expected_aa(problem["nominal"]) if nominal_analysis is None else nominal_analysis
+    native_eq(baseline["input_sha256"], digest(problem["nominal"]), "AC unchanged nominal hash")
+    alphabet = problem["alphabet"]
+    check(type(alphabet) is list and 1 <= len(alphabet) <= 72, "AC fiber dimension")
+    previous = None
+    for row in alphabet:
+        fields(row, "N values", "AC alphabet")
+        prefix = row["N"]
+        check(
+            type(prefix) is list
+            and len(prefix) == 5
+            and all(type(x) is int and x >= 0 for x in prefix),
+            "AC native N",
+        )
+        prefix = tuple(prefix)
+        check(previous is None or previous < prefix, "AC distinct ordered N")
+        previous = prefix
+        check(type(row["values"]) is list and bool(row["values"]), "AC nonempty labels")
+        last = None
+        for value in row["values"]:
+            check(
+                type(value) is list
+                and len(value) == 7
+                and all(type(x) is int and x >= 0 for x in value),
+                "AC native NMT",
+            )
+            value = tuple(value)
+            check(
+                value[:5] == prefix and (last is None or last < value),
+                "AC distinct ordered in-fiber labels",
+            )
+            last = value
+    nf, nl = len(alphabet), sum(len(row["values"]) for row in alphabet)
+    check(nl <= 93, "AC full label bound")
+    models = problem["models"]
+    check(type(models) is list and len(models) == 4, "AC four coefficient models")
+    coefficients = []
+    for s, model in enumerate(models):
+        fields(model, "assumed_index full_coefficients", "AC coefficient model")
+        native_eq(model["assumed_index"], s, "AC ordered model")
+        rows = model["full_coefficients"]
+        check(type(rows) is list and len(rows) == nf, "AC coefficient fibers")
+        parsed = []
+        for row, fiber in zip(rows, alphabet, strict=True):
+            check(type(row) is list and len(row) == len(fiber["values"]), "AC coefficient labels")
+            triple_rows = []
+            for triple in row:
+                check(type(triple) is list and len(triple) == 3, "AC coefficient rules")
+                vals = [score_fraction(v) for v in triple]
+                eq(vals[0], F(0), "AC coarse coefficient zero")
+                triple_rows.append(vals)
+            parsed.append(triple_rows)
+        coefficients.append(parsed)
+    profiles, world_upper = [], []
+    for s in range(4):
+        for a, weight in enumerate(RETAINED):
+            fibers, upper = [], F(0)
+            for n, fiber in enumerate(alphabet):
+                vals = [triple[a] for triple in coefficients[s][n]]
+                faces = ac_argmax(vals, "AC_coefficient_pairwise_comparisons")
+                greatest = vals[faces[0]]
+                upper += greatest
+                fibers.append(
+                    {"N": fiber["N"], "maximum": wire(greatest, 2), "maximizer_indices": faces}
+                )
+            check(0 <= upper <= 2, "AC retained full sum range")
+            clean = signed_fraction(baseline["worlds"][0]["models"][s]["excess_risks"][a])
+            flat = all(
+                len(f["maximizer_indices"]) == len(row["values"])
+                for f, row in zip(fibers, alphabet, strict=True)
+            )
+            profiles.append(
+                {
+                    "assumed_index": s,
+                    "retained_weight": wire(weight),
+                    "clean_excess": signed_wire(clean),
+                    "full_upper_excess": wire(upper, 2),
+                    "fibers": fibers,
+                    "all_fibers_flat": flat,
+                }
+            )
+            world_upper.append([(1 - t) * clean + t * upper for t in LEVELS])
+    certs, old_count = [], 0
+    for old in baseline["decisions"]:
+        s, u = old["assumed_index"], old["bound_index"]
+        worlds = [i for i, t in enumerate(LEVELS) if t <= LEVELS[u]]
+        native_eq(worlds, old["world_indices"], "AC same nested world set")
+        original = old["minimizer_indices"]
+        optimum = signed_fraction(old["minimax_excess"])
+        old_count += len(original)
+        candidates = []
+        for a, weight in enumerate(RETAINED):
+            idx = 3 * s + a
+            p = profiles[idx]
+            vals = [world_upper[idx][i] for i in worlds]
+            maximal_positions = ac_argmax(vals, "AC_envelope_pairwise_comparisons")
+            worst = vals[maximal_positions[0]]
+            maximum_worlds = [worlds[i] for i in maximal_positions]
+            face = []
+            for fiber, row in zip(p["fibers"], alphabet, strict=True):
+                if 0 in maximum_worlds:
+                    face.append(list(range(len(row["values"]))))
+                else:
+                    face.append(list(fiber["maximizer_indices"]))
+            selected = [indices[0] for indices in face]
+            witness_full = sum(
+                (coefficients[s][n][label][a] for n, label in enumerate(selected)), F(0)
+            )
+            check(0 <= witness_full <= 2, "AC retained witness sum")
+            clean = signed_fraction(p["clean_excess"])
+            witness_values = [(1 - LEVELS[i]) * clean + LEVELS[i] * witness_full for i in worlds]
+            witness_positions = ac_argmax(witness_values, "AC_witness_pairwise_comparisons")
+            witness_worlds = [worlds[i] for i in witness_positions]
+            eq(
+                witness_values[witness_positions[0]],
+                worst,
+                "AC selected global witness attains maximum",
+            )
+            for n, indices in enumerate(face):
+                if 0 not in maximum_worlds:
+                    native_eq(
+                        indices,
+                        p["fibers"][n]["maximizer_indices"],
+                        "AC positive-world complete face",
+                    )
+                else:
+                    native_eq(
+                        indices,
+                        list(range(len(alphabet[n]["values"]))),
+                        "AC zero-world entire simplex",
+                    )
+            attained = 0 in maximum_worlds or p["all_fibers_flat"]
+            eq(
+                attained,
+                all(len(f) == len(row["values"]) for f, row in zip(face, alphabet, strict=True)),
+                "AC full-support maximum attainment",
+            )
+            interior_strict = worst < 0 or (worst == 0 and not attained)
+            nominal_worst = signed_fraction(old["candidates"][a]["worst_excess"])
+            eq(a in original, nominal_worst == optimum, "AC original nominal selection")
+            if a == 0:
+                eq(vals, [F(0)] * len(worlds), "AC coarse envelope zero")
+                eq(witness_values, vals, "AC coarse witness zero")
+            unsafe = [i for i, v in zip(worlds, vals, strict=True) if v > 0]
+            breaking = [i for i, v in zip(worlds, vals, strict=True) if v > optimum]
+            eq(not unsafe, worst <= 0, "AC complete possible harm classification")
+            eq(not breaking, worst <= optimum, "AC complete possible bound violation")
+            candidates.append(
+                {
+                    "retained_weight": wire(weight),
+                    "profile_index": idx,
+                    "world_upper_excesses": [signed_wire(v) for v in vals],
+                    "worst_excess": signed_wire(worst),
+                    "worst_world_indices": maximum_worlds,
+                    "nominal_worst_excess": signed_wire(nominal_worst),
+                    "worst_shift": ab_shift_wire(worst - nominal_worst),
+                    "bound_excess": ab_shift_wire(worst - optimum),
+                    "nominal_minimizer": a in original,
+                    "coarse_safe": worst <= 0,
+                    "strict_benefit": worst < 0,
+                    "original_bound_preserved": worst <= optimum,
+                    "full_support_maximum_attained": attained,
+                    "every_full_support_mechanism_strict": interior_strict,
+                    "maximizing_face_indices": face,
+                    "witness_label_indices": selected,
+                    "witness_full_excess": wire(witness_full, 2),
+                    "witness_world_excesses": [signed_wire(v) for v in witness_values],
+                    "witness_worst_world_indices": witness_worlds,
+                    "potentially_unsafe_world_indices": unsafe,
+                    "potentially_bound_breaking_world_indices": breaking,
+                    "witness_unsafe_world_indices": [
+                        i for i, v in zip(worlds, witness_values, strict=True) if v > 0
+                    ],
+                    "witness_bound_breaking_world_indices": [
+                        i for i, v in zip(worlds, witness_values, strict=True) if v > optimum
+                    ],
+                }
+            )
+        subset = {}
+        quantifiers = {}
+        for suffix, field, key in (
+            ("safe", "coarse_safe", "safe_old_indices"),
+            ("strict", "strict_benefit", "strictly_beneficial_old_indices"),
+            ("bound_preserved", "original_bound_preserved", "bound_preserving_old_indices"),
+            (
+                "interior_strict",
+                "every_full_support_mechanism_strict",
+                "interior_strict_old_indices",
+            ),
+        ):
+            selected = [a for a in original if candidates[a][field]]
+            subset[key] = selected
+            quantifiers["all_old_" + suffix] = all(candidates[a][field] for a in original)
+            quantifiers["any_old_" + suffix] = any(candidates[a][field] for a in original)
+            eq(
+                quantifiers["all_old_" + suffix],
+                len(selected) == len(original),
+                "AC all exact old ties",
+            )
+            eq(quantifiers["any_old_" + suffix], bool(selected), "AC any exact old ties")
+        subset["unsafe_old_indices"] = [a for a in original if not candidates[a]["coarse_safe"]]
+        subset["bound_breaking_old_indices"] = [
+            a for a in original if not candidates[a]["original_bound_preserved"]
+        ]
+        eq(
+            sorted(subset["safe_old_indices"] + subset["unsafe_old_indices"]),
+            original,
+            "AC old safety partition",
+        )
+        eq(
+            sorted(subset["bound_preserving_old_indices"] + subset["bound_breaking_old_indices"]),
+            original,
+            "AC old bound partition",
+        )
+        certs.append(
+            {
+                "assumed_index": s,
+                "bound_index": u,
+                "world_indices": worlds,
+                "nominal_minimax_excess": signed_wire(optimum),
+                "old_minimizer_indices": original,
+                "old_minimizer_weights": [wire(RETAINED[a]) for a in original],
+                "candidates": candidates,
+                **subset,
+                **quantifiers,
+                "checks": dict.fromkeys(AC_CHECKS, True),
+            }
+        )
+    counts = {
+        "fibers": nf,
+        "labels": nl,
+        "assumed_models": 4,
+        "rules": 3,
+        "certificates": 16,
+        "candidate_certificates": 48,
+        "old_rule_evaluations": old_count,
+        "nominal_risk_cells": 48,
+        "coefficient_cells": 12 * nl,
+        "baseline_decision_work": 216,
+        "profile_coefficient_visits": 12 * nl,
+        "profile_fiber_terms": 12 * nf,
+        "world_envelope_terms": 48,
+        "candidate_world_visits": 120,
+        "face_label_visits": 48 * nl,
+        "witness_coefficient_terms": 48 * nf,
+        "witness_world_terms": 120,
+        "shift_terms": 96,
+        "candidate_classifications": 48,
+        "total_work_terms": 648 + 60 * nl + 60 * nf,
+    }
+    for key, val in counts.items():
+        COUNTS["AC_declared_" + key] += val
+    result = {
+        "input_sha256": digest(problem),
+        "baseline": baseline,
+        "alphabet": alphabet,
+        "profiles": profiles,
+        "certificates": certs,
+        "counts": counts,
+    }
+    native_tree(result)
+    check(len(canon(result)) <= 4194304, "AC complete generic wire cap")
+    return json.loads(canon(result))
+
+
+def ac_contexts(z_analysis, alphabet):
+    """Authenticated clean joints and frozen forecast maps; no AC coefficients."""
+    contexts = []
+    expected_labels = {tuple(row["N"]): {tuple(z) for z in row["values"]} for row in alphabet}
+    for bid, (zrow, yrow) in enumerate(
+        zip(z_analysis["beliefs"], z_analysis["baseline"]["beliefs"], strict=True)
+    ):
+        native_eq(zrow["weight"], yrow["weight"], "AC original history likelihood fixed")
+        clean = ab_joint(yrow["pairs"][0]["cells"], baseline=True)
+        subjoint = defaultdict(dict)
+        for (prefix, q), mass in ab_prefix_joint(clean).items():
+            subjoint[prefix][q] = mass
+        coarse = {
+            prefix: {q: p / sum(joint.values(), F(0)) for q, p in joint.items()}
+            for prefix, joint in subjoint.items()
+        }
+        frozen = []
+        for s in range(4):
+            table = {
+                tuple(cell["value"]): [parse_law(blend["forecast"]) for blend in cell["blends"]]
+                for cell in zrow["pairs"][12 + s]["cells"]
+            }
+            eq(
+                set(table),
+                set().union(*(expected_labels[n] for n in subjoint)),
+                "AC frozen nominal full channel covers complete active fibers",
+            )
+            for value, rules in table.items():
+                native_eq(
+                    law_wire(rules[0]),
+                    law_wire(coarse[value[:5]]),
+                    "AC frozen zero-weight forecast is raw N law",
+                )
+            for pair in zrow["pairs"]:
+                if pair["assumed_index"] == s:
+                    for cell in pair["cells"]:
+                        native_eq(
+                            [law_wire(f) for f in table[tuple(cell["value"])]],
+                            [blend["forecast"] for blend in cell["blends"]],
+                            "AC frozen forecast actual-index independence",
+                        )
+            frozen.append(table)
+        contexts.append(
+            {
+                "belief_id": bid,
+                "weight": rat(yrow["weight"]),
+                "weight_wire": yrow["weight"],
+                "clean": clean,
+                "subjoint": dict(subjoint),
+                "coarse": coarse,
+                "frozen": frozen,
+            }
+        )
+    eq(
+        sum((ctx["weight"] for ctx in contexts), F(0)),
+        F(1),
+        "AC original history weights normalized",
+    )
+    return contexts
+
+
+def ac_literal_loss(forecast, outcome):
+    # Literal outcome-coordinate Brier loss, independent of distance aggregation.
+    result = F(0)
+    for coordinate in set(forecast) | {outcome}:
+        delta = int(coordinate == outcome) - forecast.get(coordinate, F(0))
+        result += delta * delta
+        COUNTS["AC_literal_loss_coordinates"] += 1
+    check(0 <= result <= 2, "AC literal outcome Brier interval")
+    return result
+
+
+def ac_coefficients(z_analysis, nominal, alphabet):
+    contexts = ac_contexts(z_analysis, alphabet)
+    tensor = [[[[F(0)] * 3 for _ in row["values"]] for row in alphabet] for _ in range(4)]
+    for ctx in contexts:
+        for n, row in enumerate(alphabet):
+            prefix = tuple(row["N"])
+            if prefix not in ctx["subjoint"]:
+                COUNTS["AC_zero_mass_fiber_history_pairs"] += 1
+                continue
+            joint = ctx["subjoint"][prefix]
+            g = ctx["coarse"][prefix]
+            for label, value in enumerate(row["values"]):
+                value = tuple(value)
+                for s in range(4):
+                    for a in range(3):
+                        h = ctx["frozen"][s][value][a]
+                        contribution = F(0)
+                        for q, mass in joint.items():
+                            contribution += mass * (ac_literal_loss(h, q) - ac_literal_loss(g, q))
+                            COUNTS["AC_coefficient_subjoint_outcome_terms"] += 1
+                        tensor[s][n][label][a] += ctx["weight"] * contribution
+                        COUNTS["AC_coefficient_history_label_rule_terms"] += 1
+    for model in tensor:
+        for row in model:
+            for triple in row:
+                eq(triple[0], F(0), "AC literal coarse coefficient zero")
+                check(all(v >= 0 for v in triple), "AC derived nonnegative replacement coefficient")
+                eq(
+                    triple[1],
+                    triple[2] / 4,
+                    "AC independently scored squared-weight coefficient control",
+                )
+    models = [
+        {
+            "assumed_index": s,
+            "full_coefficients": [
+                [[wire(v, 2) for v in triple] for triple in row] for row in model
+            ],
+        }
+        for s, model in enumerate(tensor)
+    ]
+    return {
+        "schema_version": "det8-qr05ac-problem-v1",
+        "family": "qr05ac_replacement_envelope",
+        "nominal": nominal,
+        "alphabet": alphabet,
+        "models": models,
+    }, contexts
+
+
+def ac_anchors(problem, analysis, ab_problem, replacements):
+    coefficient = [
+        [
+            [[score_fraction(v) for v in triple] for triple in row]
+            for row in model["full_coefficients"]
+        ]
+        for model in problem["models"]
+    ]
+    uniform = [[F(1, len(row["values"]))] * len(row["values"]) for row in problem["alphabet"]]
+    mechanisms = [uniform] + [
+        [[rat(v["probability"]) for v in row["values"]] for row in mechanism["alphabet"]]
+        for mechanism in replacements
+    ]
+    worlds_by_mechanism = [problem["nominal"]["worlds"]] + [
+        m["worlds"] for m in ab_problem["mechanisms"]
+    ]
+    for mu, worlds in zip(mechanisms, worlds_by_mechanism, strict=True):
+        for s in range(4):
+            for a in range(3):
+                full = sum(
+                    (
+                        mu[n][label] * triple[a]
+                        for n, row in enumerate(coefficient[s])
+                        for label, triple in enumerate(row)
+                    ),
+                    F(0),
+                )
+                clean = signed_fraction(analysis["profiles"][3 * s + a]["clean_excess"])
+                upper = score_fraction(analysis["profiles"][3 * s + a]["full_upper_excess"])
+                check(clean <= 0 and upper >= 0, "AC producer clean benefit and nonnegative upper")
+                for i, t in enumerate(LEVELS):
+                    coarse = score_fraction(worlds[i]["coarse_risk"])
+                    excess = (1 - t) * clean + t * full
+                    eq(
+                        coarse + excess,
+                        score_fraction(worlds[i]["models"][s]["forecast_risks"][a]),
+                        "AC complete uniform/AB risk tensor reconstruction",
+                    )
+                    check(
+                        excess <= (1 - t) * clean + t * upper,
+                        "AC nominal and both AB laws enclosed",
+                    )
+                    COUNTS["AC_anchor_risk_equations"] += 1
+    for s in range(4):
+        one, half = analysis["profiles"][3 * s + 2], analysis["profiles"][3 * s + 1]
+        native_eq(
+            [f["maximizer_indices"] for f in one["fibers"]],
+            [f["maximizer_indices"] for f in half["fibers"]],
+            "AC positive-weight common complete fiber faces",
+        )
+        for u in range(4):
+            cert = analysis["certificates"][4 * s + u]
+            for candidate in cert["candidates"]:
+                check(u in candidate["worst_world_indices"], "AC producer upper endpoint is worst")
+            native_eq(
+                cert["candidates"][1]["witness_label_indices"],
+                cert["candidates"][2]["witness_label_indices"],
+                "AC positive-weight global witness structure",
+            )
+    return coefficient
+
+
+def ac_witness_laws(contexts, problem, analysis, coefficients):
+    vectors = sorted(
+        {
+            tuple(c["witness_label_indices"])
+            for cert in analysis["certificates"]
+            for c in cert["candidates"]
+        }
+    )
+    indices = {v: i for i, v in enumerate(vectors)}
+    mapping = [
+        {
+            "assumed_index": cert["assumed_index"],
+            "bound_index": cert["bound_index"],
+            "rule_index": a,
+            "witness_id": indices[tuple(c["witness_label_indices"])],
+        }
+        for cert in analysis["certificates"]
+        for a, c in enumerate(cert["candidates"])
+    ]
+    witnesses, scores_by_witness = [], []
+    for wid, vector in enumerate(vectors):
+        targets = {
+            tuple(row["N"]): tuple(row["values"][label])
+            for row, label in zip(problem["alphabet"], vector, strict=True)
+        }
+        scores = [[[F(0)] * 3 for _ in range(4)] for _ in range(4)]
+        coarse_scores = [F(0)] * 4
+        beliefs = []
+        for ctx in contexts:
+            joints, channels = [], []
+            for i, level in enumerate(LEVELS):
+                joint = defaultdict(F)
+                for (source, q), mass in ctx["clean"].items():
+                    # The same pointmass map is used for every H, q, source and t.
+                    add(joint, (source, q), (1 - level) * mass)
+                    add(joint, (targets[source[:5]], q), level * mass)
+                    COUNTS["AC_witness_source_atom_visits"] += 1
+                eq(sum(joint.values(), F(0)), F(1), "AC boundary actual joint normalized")
+                native_eq(
+                    {str(k): wire(v) for k, v in ab_prefix_joint(joint).items()},
+                    {str(k): wire(v) for k, v in ab_prefix_joint(ctx["clean"]).items()},
+                    "AC boundary N/future joint invariant",
+                )
+                grouped = defaultdict(dict)
+                for (value, q), mass in sorted(joint.items()):
+                    check(mass > 0, "AC sparse boundary joint positive")
+                    grouped[value][q] = mass
+                cells = []
+                for value, law in sorted(grouped.items()):
+                    mass = sum(law.values(), F(0))
+                    truth = {q: p / mass for q, p in law.items()}
+                    g = ctx["coarse"][value[:5]]
+                    if i == 3:
+                        native_eq(
+                            law_wire(truth),
+                            law_wire(g),
+                            "AC full boundary positive report has raw N future",
+                        )
+                    coarse_loss = sum((p * ac_literal_loss(g, q) for q, p in truth.items()), F(0))
+                    coarse_scores[i] += ctx["weight"] * mass * coarse_loss
+                    COUNTS["AC_witness_coarse_forecasts_rescored"] += 1
+                    for s in range(4):
+                        for a in range(3):
+                            h = ctx["frozen"][s][value][a]
+                            loss = sum((p * ac_literal_loss(h, q) for q, p in truth.items()), F(0))
+                            scores[i][s][a] += ctx["weight"] * mass * loss
+                            COUNTS["AC_witness_frozen_forecasts_rescored"] += 1
+                    cells.append(
+                        {
+                            "value": list(value),
+                            "probability": wire(mass),
+                            "prediction": law_wire(truth),
+                        }
+                    )
+                channels.append({"level": wire(level), "cells": cells})
+                joints.append(dict(joint))
+                COUNTS["AC_witness_actual_cells"] += len(cells)
+                COUNTS["AC_witness_prediction_atoms"] += sum(len(c["prediction"]) for c in cells)
+            native_eq(
+                channels[0]["cells"],
+                [
+                    {
+                        "value": list(value),
+                        "probability": wire(sum(law.values(), F(0))),
+                        "prediction": law_wire(
+                            {q: p / sum(law.values(), F(0)) for q, p in law.items()}
+                        ),
+                    }
+                    for value, law in sorted(_ac_group_joint(ctx["clean"]).items())
+                ],
+                "AC clean witness law recovery",
+            )
+            all_keys = set().union(*(set(joint) for joint in joints))
+            for i, t in enumerate(LEVELS):
+                for key in all_keys:
+                    eq(
+                        joints[i].get(key, F(0)),
+                        (1 - t) * joints[0].get(key, F(0)) + t * joints[3].get(key, F(0)),
+                        "AC complete affine witness joint",
+                    )
+                    COUNTS["AC_witness_affine_joint_equations"] += 1
+            beliefs.append(
+                {"belief_id": ctx["belief_id"], "weight": ctx["weight_wire"], "channels": channels}
+            )
+        for s in range(4):
+            for a in range(3):
+                selected_full = sum(
+                    (coefficients[s][n][label][a] for n, label in enumerate(vector)), F(0)
+                )
+                clean = signed_fraction(analysis["profiles"][3 * s + a]["clean_excess"])
+                for i, t in enumerate(LEVELS):
+                    eq(
+                        coarse_scores[i],
+                        score_fraction(problem["nominal"]["worlds"][i]["coarse_risk"]),
+                        "AC same original-weight coarse risk",
+                    )
+                    eq(
+                        scores[i][s][a] - coarse_scores[i],
+                        (1 - t) * clean + t * selected_full,
+                        "AC literal global witness risk equals complete coefficient reconstruction",
+                    )
+                    COUNTS["AC_witness_literal_risk_equations"] += 1
+        scores_by_witness.append((scores, coarse_scores))
+        witnesses.append({"witness_id": wid, "label_indices": list(vector), "beliefs": beliefs})
+    for row in mapping:
+        s, u, a, wid = (
+            row[k] for k in ("assumed_index", "bound_index", "rule_index", "witness_id")
+        )
+        candidate = analysis["certificates"][4 * s + u]["candidates"][a]
+        scores, coarse_scores = scores_by_witness[wid]
+        values = [scores[i][s][a] - coarse_scores[i] for i in range(u + 1)]
+        native_eq(
+            [signed_wire(v) for v in values],
+            candidate["witness_world_excesses"],
+            "AC every mapped certificate has its literal global witness worlds",
+        )
+        maxima = ac_argmax(values, "AC_literal_witness_maximum_comparisons")
+        native_eq(
+            maxima,
+            candidate["witness_worst_world_indices"],
+            "AC literal own witness complete argmax",
+        )
+        eq(
+            values[maxima[0]],
+            signed_fraction(candidate["worst_excess"]),
+            "AC literal mapped witness attains envelope",
+        )
+        COUNTS["AC_witness_certificate_maps_checked"] += 1
+    COUNTS["AC_unique_witness_mechanisms"] += len(witnesses)
+    return witnesses, mapping
+
+
+def _ac_group_joint(joint):
+    grouped = defaultdict(dict)
+    for (value, q), mass in joint.items():
+        grouped[value][q] = mass
+    return dict(grouped)
+
+
+def ac_producer_controls(problem, analysis, aa_analysis):
+    native_eq(analysis["baseline"], aa_analysis, "AC entire original AA selection preserved")
+    native_eq(analysis["alphabet"], problem["alphabet"], "AC detached complete alphabet preserved")
+    for old, cert in zip(aa_analysis["decisions"], analysis["certificates"], strict=True):
+        native_eq(
+            cert["old_minimizer_indices"], old["minimizer_indices"], "AC every old tie retained"
+        )
+    return dict.fromkeys(
+        (
+            "nominal_AA_baseline_preserved",
+            "whole_model_alphabet_preserved",
+            "original_weight_coefficients",
+            "nonnegative_full_replacement_coefficients",
+            "uniform_family_recovered",
+            "both_AB_tilt_risks_recovered",
+            "frozen_forecasts_and_weights",
+            "clean_and_N_future_marginals_preserved",
+            "complete_boundary_witness_laws",
+            "literal_global_witness_scores",
+            "coefficient_weight_square_scaling",
+            "upper_endpoint_is_worst",
+            "nominal_and_AB_enclosed",
+            "all_original_ties_classified_without_reoptimization",
+        ),
+        True,
+    ) | {
+        "origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+# AD's optimization and coefficient route is independent of both public engines.
+AD_CHECKS = (
+    "convexity",
+    "critical_candidates_complete",
+    "optimizer_set_complete",
+    "global_kkt_certificate",
+    "finite_menu_complete",
+    "finite_menu_argmin_complete",
+    "finite_menu_gap_nonnegative",
+    "menu_grid_error_bound",
+    "coarse_option_available",
+)
+
+
+def ad_wire(value, lower, upper):
+    check(type(value) is F and lower <= value <= upper, "AD retained rational interval")
+    check(
+        max(abs(value.numerator).bit_length(), value.denominator.bit_length()) <= 4096,
+        "AD retained rational component bits",
+    )
+    return [value.numerator, value.denominator]
+
+
+def ad_argmin(values):
+    indices = []
+    for i, value in enumerate(values):
+        smaller = True
+        for other in values:
+            comparison = value <= other
+            smaller = smaller and comparison
+            COUNTS["AD_minimum_pairwise_comparisons"] += 1
+        if smaller:
+            indices.append(i)
+    check(bool(indices), "AD complete nonempty finite minimum")
+    native_eq(
+        indices,
+        [i for i, value in enumerate(values) if value == values[indices[0]]],
+        "AD complete exact minimum ties",
+    )
+    return indices
+
+
+def expected_ad(problem):
+    """Complete generic quadratic wire, independent analytic optimizer route."""
+    native_tree(problem)
+    fields(problem, "schema_version family levels retained_weights decisions", "AD problem")
+    native_eq(problem["schema_version"], "det8-qr05ad-problem-v1", "AD schema")
+    native_eq(problem["family"], "qr05ad_continuous_retention", "AD family")
+    native_eq(problem["levels"], [wire(t) for t in LEVELS], "AD fixed levels")
+    native_eq(problem["retained_weights"], [wire(a) for a in RETAINED], "AD fixed menu")
+    check(
+        type(problem["decisions"]) is list and len(problem["decisions"]) == 16,
+        "AD sixteen quadratic rows",
+    )
+    rows = []
+    for index, row in enumerate(problem["decisions"]):
+        fields(
+            row, "assumed_index bound_index quadratic_coefficient half_linear_coefficient", "AD row"
+        )
+        native_eq(row["assumed_index"], index // 4, "AD ordered assumed model")
+        native_eq(row["bound_index"], index % 4, "AD ordered bound")
+        rows.append(
+            (
+                score_fraction(row["quadratic_coefficient"]),
+                signed_fraction(row["half_linear_coefficient"]),
+            )
+        )
+    point_count = interior_count = lower_count = upper_count = menu_ties = critical_count = 0
+    output = []
+    for index, (A, B) in enumerate(rows):
+        linear, second = -2 * B, 2 * A
+        ad_wire(linear, -4, 4)
+        ad_wire(second, 0, 4)
+        weights = [F(0), F(1)]
+        if 0 < B < A:
+            anchor = B / A
+            ad_wire(anchor, 0, 1)
+            weights.insert(1, anchor)
+            interior_count += 1
+        elif B <= 0:
+            anchor = F(0)
+        else:
+            anchor = F(1)
+        values = [a * (A * a + linear) for a in weights]
+        minimizing_critical = ad_argmin(values)
+        minimum = values[minimizing_critical[0]]
+        ad_wire(minimum, -4, 0)
+        critical_count += len(weights)
+        if A == B == 0:
+            optimizer = {"kind": "interval", "lower": [0, 1], "upper": [1, 1]}
+            proof = {
+                "kind": "zero_polynomial",
+                "anchor": None,
+                "gradient": None,
+                "second_derivative": [0, 1],
+            }
+            eq(values, [F(0), F(0)], "AD whole optimizer interval is zero polynomial")
+        else:
+            point_count += 1
+            lower_count += int(anchor == 0)
+            upper_count += int(anchor == 1)
+            native_eq(
+                [wire(weights[i]) for i in minimizing_critical],
+                [wire(anchor)],
+                "AD unique analytic optimizer agrees with complete critical minimum",
+            )
+            gradient = second * anchor + linear
+            ad_wire(gradient, -4, 8)
+            if anchor == 0:
+                check(gradient >= 0, "AD lower KKT")
+            elif anchor == 1:
+                check(gradient <= 0, "AD upper KKT")
+            else:
+                eq(gradient, F(0), "AD interior KKT")
+                eq(minimum, -B * anchor, "AD completed-square stationary minimum")
+            eq(gradient - 2 * A * anchor, linear, "AD global identity linear coefficient")
+            eq(
+                A * anchor * anchor - gradient * anchor,
+                -minimum,
+                "AD global identity constant coefficient",
+            )
+            check(A > 0 or gradient != 0, "AD nonflat optimizer unique")
+            optimizer = {"kind": "point", "weight": wire(anchor)}
+            proof = {
+                "kind": "point_kkt",
+                "anchor": wire(anchor),
+                "gradient": ad_wire(gradient, -4, 8),
+                "second_derivative": ad_wire(second, 0, 4),
+            }
+        menu_values = [a * (A * a + linear) for a in RETAINED]
+        minimizers = ad_argmin(menu_values)
+        best = menu_values[minimizers[0]]
+        gap = best - minimum
+        menu_ties += len(minimizers)
+        check(F(0) <= gap <= F(1, 8) and 16 * gap <= A, "AD exact finite grid error bound")
+        eq(menu_values[0], F(0), "AD coarse option zero")
+        check(minimum <= best <= 0, "AD coarse option bounds minima")
+        if optimizer["kind"] == "point":
+            if anchor in (0, 1):
+                eq(gap, F(0), "AD boundary optimum present in menu")
+            else:
+                for a, value in zip(RETAINED, menu_values, strict=True):
+                    eq(value - minimum, A * (a - anchor) ** 2, "AD menu completed-square regret")
+                check(any(abs(a - anchor) <= F(1, 4) for a in RETAINED), "AD nearest grid point")
+        else:
+            native_eq(minimizers, [0, 1, 2], "AD flat menu ties complete")
+        output.append(
+            {
+                "assumed_index": index // 4,
+                "bound_index": index % 4,
+                "quadratic_coefficient": wire(A, 2),
+                "half_linear_coefficient": signed_wire(B),
+                "linear_coefficient": ad_wire(linear, -4, 4),
+                "critical_candidates": [
+                    {"retained_weight": wire(a), "value": ad_wire(v, -4, 6)}
+                    for a, v in zip(weights, values, strict=True)
+                ],
+                "optimizer": optimizer,
+                "minimum": ad_wire(minimum, -4, 0),
+                "finite_menu": [
+                    {
+                        "retained_weight": wire(a),
+                        "value": ad_wire(v, -4, 6),
+                        "excess_over_minimum": ad_wire(v - minimum, 0, 6),
+                    }
+                    for a, v in zip(RETAINED, menu_values, strict=True)
+                ],
+                "finite_menu_minimum": ad_wire(best, -4, 0),
+                "finite_menu_minimizer_indices": minimizers,
+                "finite_menu_minimizer_weights": [wire(RETAINED[i]) for i in minimizers],
+                "finite_menu_gap": ad_wire(gap, 0, F(1, 8)),
+                "proof": proof,
+                "checks": dict.fromkeys(AD_CHECKS, True),
+            }
+        )
+    counts = {
+        "decisions": 16,
+        "critical_candidates": critical_count,
+        "value_evaluations": critical_count + 48,
+        "point_optimizers": point_count,
+        "interval_optimizers": 16 - point_count,
+        "interior_point_optimizers": interior_count,
+        "lower_endpoint_optimizers": lower_count,
+        "upper_endpoint_optimizers": upper_count,
+        "finite_menu_minimizer_occurrences": menu_ties,
+        "optimizer_classifications": 16,
+        "coefficient_visits": 16,
+        "gradient_terms": point_count,
+        "stationary_divisions": interior_count,
+        "critical_value_terms": critical_count,
+        "menu_value_terms": 48,
+        "critical_selection_visits": critical_count,
+        "menu_selection_visits": 48,
+        "gap_terms": 64,
+        "total_work_terms": 192 + point_count + interior_count + 2 * critical_count,
+    }
+    eq(critical_count, 32 + interior_count, "AD declared complete critical inventory")
+    eq(point_count, lower_count + upper_count + interior_count, "AD point partition complete")
+    for key, value in counts.items():
+        COUNTS["AD_declared_" + key] += value
+    result = {
+        "input_sha256": digest(problem),
+        "levels": [wire(t) for t in LEVELS],
+        "retained_weights": [wire(a) for a in RETAINED],
+        "decisions": output,
+        "counts": counts,
+    }
+    native_tree(result)
+    check(len(canon(result)) <= 1048576, "AD complete generic wire byte cap")
+    return json.loads(canon(result))
+
+
+def ad_outcome_polynomial(coarse, detailed, outcome):
+    """Expand literal loss(q,g+a*d)-loss(q,g), coefficient by coordinate.
+
+    No sample-fit and no conditional true-law dot product is used. D is the
+    quadratic coefficient, C is minus half the linear coefficient.
+    """
+    D, C = F(0), F(0)
+    for coordinate in set(coarse) | set(detailed) | {outcome}:
+        residual = int(outcome == coordinate) - coarse.get(coordinate, F(0))
+        displacement = detailed.get(coordinate, F(0)) - coarse.get(coordinate, F(0))
+        D += displacement * displacement
+        C += residual * displacement
+        COUNTS["AD_literal_polynomial_coordinates"] += 1
+    return D, C
+
+
+def ad_literal_loss(forecast, outcome):
+    result = F(0)
+    for coordinate in set(forecast) | {outcome}:
+        result += (int(outcome == coordinate) - forecast.get(coordinate, F(0))) ** 2
+        COUNTS["AD_literal_point_loss_coordinates"] += 1
+    return result
+
+
+def ad_coefficients(contexts, ac_analysis):
+    coefficients = []
+    for s in range(4):
+        D, C = F(0), F(0)
+        for ctx in contexts:
+            for (value, q), mass in ctx["clean"].items():
+                coarse = ctx["coarse"][value[:5]]
+                detailed = ctx["frozen"][s][value][2]
+                atom_D, atom_C = ad_outcome_polynomial(coarse, detailed, q)
+                D += ctx["weight"] * mass * atom_D
+                C += ctx["weight"] * mass * atom_C
+                COUNTS["AD_clean_source_atom_polynomials"] += 1
+            for value, joint in _ac_group_joint(ctx["clean"]).items():
+                mass = sum(joint.values(), F(0))
+                true = {q: p / mass for q, p in joint.items()}
+                coarse, detailed = ctx["coarse"][value[:5]], ctx["frozen"][s][value][2]
+                support = set(true) | set(coarse) | set(detailed)
+                differences = {q: true.get(q, F(0)) - coarse.get(q, F(0)) for q in support}
+                nonzero = [q for q, v in differences.items() if v]
+                if nonzero:
+                    q = nonzero[0]
+                    beta = (detailed.get(q, F(0)) - coarse.get(q, F(0))) / differences[q]
+                    check(0 <= beta <= 1, "AD authenticated clean segment factor")
+                    for q in support:
+                        eq(
+                            detailed.get(q, F(0)) - coarse.get(q, F(0)),
+                            beta * differences[q],
+                            "AD complete clean segment vector",
+                        )
+                else:
+                    native_eq(law_wire(detailed), law_wire(coarse), "AD degenerate clean segment")
+                COUNTS["AD_clean_forecast_segments"] += 1
+        check(0 <= D <= C <= 2, "AD producer clean polynomial premises")
+        full = score_fraction(ac_analysis["profiles"][3 * s + 2]["full_upper_excess"])
+        coefficients.append(
+            {
+                "assumed_index": s,
+                "clean_distance": wire(D, 2),
+                "clean_cross": wire(C, 2),
+                "full_replacement_upper": wire(full, 2),
+            }
+        )
+    rows = []
+    for s, row in enumerate(coefficients):
+        D, C, S = (
+            score_fraction(row[k])
+            for k in ("clean_distance", "clean_cross", "full_replacement_upper")
+        )
+        for u, level in enumerate(LEVELS):
+            rows.append(
+                {
+                    "assumed_index": s,
+                    "bound_index": u,
+                    "quadratic_coefficient": wire((1 - level) * D + level * S, 2),
+                    "half_linear_coefficient": signed_wire((1 - level) * C),
+                }
+            )
+    problem = {
+        "schema_version": "det8-qr05ad-problem-v1",
+        "family": "qr05ad_continuous_retention",
+        "levels": [wire(t) for t in LEVELS],
+        "retained_weights": [wire(a) for a in RETAINED],
+        "decisions": rows,
+    }
+    return problem, coefficients
+
+
+def ad_families(contexts, analysis):
+    families, mapping, keys = [], [], {}
+    for row in analysis["decisions"]:
+        s, optimizer = row["assumed_index"], row["optimizer"]
+        key = (s, canon(optimizer))
+        if key not in keys:
+            family_id = len(families)
+            keys[key] = family_id
+            beliefs = []
+            for ctx in contexts:
+                cells = []
+                for value, forecasts in sorted(ctx["frozen"][s].items()):
+                    coarse, detailed = forecasts[0], forecasts[2]
+                    point = None
+                    if optimizer["kind"] == "point":
+                        alpha = rat(optimizer["weight"])
+                        law = {
+                            q: (1 - alpha) * coarse.get(q, F(0)) + alpha * detailed.get(q, F(0))
+                            for q in set(coarse) | set(detailed)
+                        }
+                        eq(sum(law.values(), F(0)), F(1), "AD complete optimal mixture normalized")
+                        check(all(v >= 0 for v in law.values()), "AD mixture has nonnegative atoms")
+                        point = law_wire(law)
+                        COUNTS["AD_point_forecast_atoms"] += len(point)
+                    else:
+                        native_eq(
+                            optimizer,
+                            {"kind": "interval", "lower": [0, 1], "upper": [1, 1]},
+                            "AD entire interval, no representative",
+                        )
+                    cells.append(
+                        {
+                            "value": list(value),
+                            "coarse_forecast": law_wire(coarse),
+                            "detailed_forecast": law_wire(detailed),
+                            "point_forecast": point,
+                        }
+                    )
+                beliefs.append(
+                    {"belief_id": ctx["belief_id"], "weight": ctx["weight_wire"], "cells": cells}
+                )
+                COUNTS["AD_family_report_cells"] += len(cells)
+            families.append(
+                {
+                    "family_id": family_id,
+                    "assumed_index": s,
+                    "optimizer": optimizer,
+                    "beliefs": beliefs,
+                }
+            )
+        mapping.append(
+            {"assumed_index": s, "bound_index": row["bound_index"], "family_id": keys[key]}
+        )
+    COUNTS["AD_unique_forecast_families"] += len(families)
+    return families, mapping
+
+
+def ad_mechanisms(alphabet, ac_analysis):
+    entire = [list(range(len(row["values"]))) for row in alphabet]
+    mechanisms = []
+    for s in range(4):
+        p = ac_analysis["profiles"][3 * s + 2]
+        faces = [list(f["maximizer_indices"]) for f in p["fibers"]]
+        common = [face[0] for face in faces]
+        for u in range(4):
+            mechanisms.append(
+                {
+                    "assumed_index": s,
+                    "bound_index": u,
+                    "full_retention_profile_index": 3 * s + 2,
+                    "positive_weight_face_indices": faces,
+                    "zero_weight_face_indices": entire,
+                    "zero_bound_face_indices": entire,
+                    "common_witness_label_indices": common,
+                    "common_witness_valid_for_entire_segment": True,
+                }
+            )
+    vectors = sorted({tuple(row["common_witness_label_indices"]) for row in mechanisms})
+    ids = {v: i for i, v in enumerate(vectors)}
+    mapping = [
+        {
+            "assumed_index": row["assumed_index"],
+            "bound_index": row["bound_index"],
+            "witness_id": ids[tuple(row["common_witness_label_indices"])],
+        }
+        for row in mechanisms
+    ]
+    return mechanisms, vectors, mapping
+
+
+def ad_actual_witnesses(contexts, alphabet, vectors, mapping, coefficients):
+    witnesses, retained_joints, world_polys = [], [], []
+    for wid, vector in enumerate(vectors):
+        mechanism = {
+            tuple(row["N"]): tuple(row["values"][label])
+            for row, label in zip(alphabet, vector, strict=True)
+        }
+        assumed_models = sorted(
+            {row["assumed_index"] for row in mapping if row["witness_id"] == wid}
+        )
+        polys = {s: [[F(0), F(0)] for _ in LEVELS] for s in assumed_models}
+        beliefs, histories = [], []
+        for ctx in contexts:
+            channels, joints = [], []
+            for i, t in enumerate(LEVELS):
+                joint = defaultdict(F)
+                for (source, q), mass in ctx["clean"].items():
+                    add(joint, (source, q), (1 - t) * mass)
+                    add(joint, (mechanism[source[:5]], q), t * mass)
+                    COUNTS["AD_witness_source_atom_visits"] += 1
+                eq(sum(joint.values(), F(0)), F(1), "AD global witness joint normalized")
+                eq(
+                    ab_prefix_joint(joint),
+                    ab_prefix_joint(ctx["clean"]),
+                    "AD witness N/future marginal invariant",
+                )
+                cells = []
+                for value, law in sorted(_ac_group_joint(joint).items()):
+                    mass = sum(law.values(), F(0))
+                    truth = {q: p / mass for q, p in law.items()}
+                    if t == 1:
+                        native_eq(
+                            law_wire(truth),
+                            law_wire(ctx["coarse"][value[:5]]),
+                            "AD full replacement raw N future",
+                        )
+                    cells.append(
+                        {
+                            "value": list(value),
+                            "probability": wire(mass),
+                            "prediction": law_wire(truth),
+                        }
+                    )
+                    for q, probability in law.items():
+                        for s in assumed_models:
+                            D, C = ad_outcome_polynomial(
+                                ctx["coarse"][value[:5]], ctx["frozen"][s][value][2], q
+                            )
+                            polys[s][i][0] += ctx["weight"] * probability * D
+                            polys[s][i][1] += ctx["weight"] * probability * C
+                            COUNTS["AD_witness_source_atom_polynomials"] += 1
+                channels.append({"level": wire(t), "cells": cells})
+                joints.append(dict(joint))
+                COUNTS["AD_witness_actual_cells"] += len(cells)
+                COUNTS["AD_witness_prediction_atoms"] += sum(len(c["prediction"]) for c in cells)
+            eq(joints[0], ctx["clean"], "AD clean actual joint recovered")
+            keys = set().union(*(set(joint) for joint in joints))
+            for i, t in enumerate(LEVELS):
+                for key in keys:
+                    eq(
+                        joints[i].get(key, F(0)),
+                        (1 - t) * joints[0].get(key, F(0)) + t * joints[3].get(key, F(0)),
+                        "AD complete affine common witness joint",
+                    )
+                    COUNTS["AD_affine_witness_joint_equations"] += 1
+            beliefs.append(
+                {"belief_id": ctx["belief_id"], "weight": ctx["weight_wire"], "channels": channels}
+            )
+            histories.append(joints)
+        for s in assumed_models:
+            row = coefficients[s]
+            D, C, S = (
+                score_fraction(row[k])
+                for k in ("clean_distance", "clean_cross", "full_replacement_upper")
+            )
+            check(0 <= D <= C and S >= 0, "AD all-alpha noise monotonicity premises")
+            # S*a^2 + D*a*(2-a) + 2*a*(C-D) >= 0 on [0,1].
+            # These nonnegative polynomial factors certify the noise slope,
+            # rather than selected weight samples.
+            for i, t in enumerate(LEVELS):
+                eq(
+                    polys[s][i],
+                    [(1 - t) * D + t * S, (1 - t) * C],
+                    "AD literal full world-polynomial coefficient identity",
+                )
+                COUNTS["AD_world_polynomial_coefficients_checked"] += 2
+        witnesses.append({"witness_id": wid, "label_indices": list(vector), "beliefs": beliefs})
+        retained_joints.append(histories)
+        world_polys.append(polys)
+    COUNTS["AD_unique_witness_mechanisms"] += len(witnesses)
+    return witnesses, retained_joints, world_polys
+
+
+def ad_point_scores(contexts, families, mapping, retained_joints):
+    by_assumed = {}
+    for row in mapping:
+        s, wid = row["assumed_index"], row["witness_id"]
+        check(
+            s not in by_assumed or by_assumed[s] == wid, "AD common mechanism independent of bound"
+        )
+        by_assumed[s] = wid
+    scores = {}
+    for family in families:
+        if family["optimizer"]["kind"] == "interval":
+            check(
+                all(
+                    cell["point_forecast"] is None for b in family["beliefs"] for cell in b["cells"]
+                ),
+                "AD interval forecast not point-selected",
+            )
+            continue
+        s, wid = family["assumed_index"], by_assumed[family["assumed_index"]]
+        totals = [F(0)] * 4
+        for ctx, belief, joints in zip(
+            contexts, family["beliefs"], retained_joints[wid], strict=True
+        ):
+            native_eq(belief["weight"], ctx["weight_wire"], "AD literal original history weight")
+            forecasts = {tuple(c["value"]): parse_law(c["point_forecast"]) for c in belief["cells"]}
+            eq(set(forecasts), set(ctx["frozen"][s]), "AD point family full frozen report support")
+            for i, joint in enumerate(joints):
+                for (value, q), mass in joint.items():
+                    point = forecasts[value]
+                    coarse = ctx["coarse"][value[:5]]
+                    difference = ad_literal_loss(point, q) - ad_literal_loss(coarse, q)
+                    totals[i] += ctx["weight"] * mass * difference
+                    COUNTS["AD_point_source_atom_scores"] += 1
+        scores[family["family_id"]] = totals
+        COUNTS["AD_point_families_literally_scored"] += 1
+        COUNTS["AD_point_family_worlds_literally_scored"] += 4
+    return scores
+
+
+def ad_world_certificates(
+    analysis, coefficients, family_mapping, witness_mapping, world_polys, point_scores
+):
+    worlds = []
+    for index, row in enumerate(analysis["decisions"]):
+        s, u = row["assumed_index"], row["bound_index"]
+        wid = witness_mapping[index]["witness_id"]
+        family_id = family_mapping[index]["family_id"]
+        indices = list(range(u + 1))
+        optimizer = row["optimizer"]
+        polys = world_polys[wid][s]
+        source = coefficients[s]
+        D, C, S = (
+            score_fraction(source[k])
+            for k in ("clean_distance", "clean_cross", "full_replacement_upper")
+        )
+        for i in range(4):
+            eq(
+                polys[i],
+                [(1 - LEVELS[i]) * D + LEVELS[i] * S, (1 - LEVELS[i]) * C],
+                "AD complete fixed world polynomial family",
+            )
+        upper = F(*row["minimum"])
+        ad_wire(upper, -2, 0)
+        if optimizer["kind"] == "point":
+            alpha = rat(optimizer["weight"])
+            for i in range(4):
+                A, B = polys[i]
+                eq(
+                    point_scores[family_id][i],
+                    alpha * (A * alpha - 2 * B),
+                    "AD literal unique point-family score and full polynomial",
+                )
+                COUNTS["AD_point_polynomial_score_equations"] += 1
+            values = [point_scores[family_id][i] for i in indices]
+            maxima = ac_argmax(values, "AD_point_world_maximum_comparisons")
+            eq(values[maxima[0]], upper, "AD common global witness attains selected robust optimum")
+            check(all(v <= upper for v in values), "AD all declared actual worlds bounded at point")
+            eq(values[-1], upper, "AD upper actual world attains robust value")
+            point_values, point_maxima = [signed_wire(v) for v in values], maxima
+            interval = False
+        else:
+            native_eq(
+                optimizer,
+                {"kind": "interval", "lower": [0, 1], "upper": [1, 1]},
+                "AD whole optimal interval",
+            )
+            eq(polys[u], [F(0), F(0)], "AD upper polynomial identically zero")
+            eq(upper, F(0), "AD interval robust minimum zero")
+            for i in indices:
+                A, B = polys[i]
+                check(
+                    A >= 0 and A - 2 * B <= 0,
+                    "AD lower-world polynomial a*(A*(a-1)+(A-2B)) <= 0 throughout interval",
+                )
+                COUNTS["AD_interval_world_polynomials_certified"] += 1
+            # Lower-world coefficients need not vanish: only the upper
+            # polynomial is forced flat, and no preferred alpha is evaluated.
+            point_values = point_maxima = None
+            interval = True
+        worlds.append(
+            {
+                "assumed_index": s,
+                "bound_index": u,
+                "world_indices": indices,
+                "polynomials": [
+                    {
+                        "actual_index": i,
+                        "quadratic_coefficient": wire(polys[i][0], 2),
+                        "half_linear_coefficient": signed_wire(polys[i][1]),
+                    }
+                    for i in indices
+                ],
+                "optimizer": optimizer,
+                "point_world_excesses": point_values,
+                "point_worst_world_indices": point_maxima,
+                "whole_interval_minimax": interval,
+                "upper_bound_value": signed_wire(upper),
+                "common_witness_id": wid,
+                "checks": {
+                    "point_or_parametric_laws_complete": True,
+                    "all_worlds_below_optimum_value": True,
+                    "common_witness_attains_optimum": True,
+                },
+            }
+        )
+    return worlds
+
+
+def ad_producer_controls(analysis, ac_analysis, coefficients, prior_certificates):
+    native_eq(
+        prior_certificates,
+        ac_analysis["certificates"],
+        "AD entire AC old sets and failures preserved",
+    )
+    for s, coefficients_s in enumerate(coefficients):
+        native_eq(
+            coefficients_s["full_replacement_upper"],
+            ac_analysis["profiles"][3 * s + 2]["full_upper_excess"],
+            "AD unchanged full replacement envelope",
+        )
+    for row, old in zip(analysis["decisions"], ac_analysis["certificates"], strict=True):
+        ac_values = [signed_fraction(c["worst_excess"]) for c in old["candidates"]]
+        native_eq(
+            [menu["value"] for menu in row["finite_menu"]],
+            [signed_wire(v) for v in ac_values],
+            "AD every original AC menu envelope recovered",
+        )
+        minimizers = ad_argmin(ac_values)
+        native_eq(
+            row["finite_menu_minimizer_indices"],
+            minimizers,
+            "AD comparator reoptimized only over original finite menu under AC class",
+        )
+        check(
+            F(*row["minimum"]) <= ac_values[minimizers[0]],
+            "AD continuous worst-case optimum no worse than class-aware finite menu",
+        )
+        COUNTS["AD_AC_menu_risks_checked"] += 3
+    return dict.fromkeys(
+        (
+            "frozen_AC_certificates_preserved",
+            "original_weight_clean_coefficients",
+            "clean_segment_premises",
+            "full_replacement_envelope_preserved",
+            "complete_quadratic_reduction",
+            "all_AC_menu_values_recovered",
+            "finite_menu_minimax_comparator",
+            "complete_optimal_forecast_families",
+            "interval_optima_not_point_selected",
+            "global_common_mechanism_witnesses",
+            "complete_witness_laws_and_marginals",
+            "literal_point_forecast_scores",
+            "literal_parametric_world_polynomials",
+            "old_failures_preserved_without_relabeling",
+            "no_per_history_weight_selection",
+        ),
+        True,
+    ) | {
+        "origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+def ad_projection(contexts, alphabet, ac_analysis):
+    problem, coefficients = ad_coefficients(contexts, ac_analysis)
+    analysis = expected_ad(problem)
+    families, family_mapping = ad_families(contexts, analysis)
+    mechanisms, vectors, witness_mapping = ad_mechanisms(alphabet, ac_analysis)
+    witness_laws, joints, polynomials = ad_actual_witnesses(
+        contexts, alphabet, vectors, witness_mapping, coefficients
+    )
+    scores = ad_point_scores(contexts, families, witness_mapping, joints)
+    world_certificates = ad_world_certificates(
+        analysis, coefficients, family_mapping, witness_mapping, polynomials, scores
+    )
+    prior_certificates = json.loads(canon(ac_analysis["certificates"]))
+    controls = ad_producer_controls(analysis, ac_analysis, coefficients, prior_certificates)
+    return {
+        "problem": problem,
+        "analysis": analysis,
+        "producer_coefficients": coefficients,
+        "prior_certificates": prior_certificates,
+        "forecast_families": families,
+        "family_certificate_map": family_mapping,
+        "mechanism_certificates": mechanisms,
+        "witness_laws": witness_laws,
+        "witness_certificate_map": witness_mapping,
+        "world_certificates": world_certificates,
+        "producer_controls": controls,
+    }
+
+
+def audit_capture(path=None):
+    COUNTS.clear()
+    started = time.monotonic()
+    capture = Path(path) if path is not None else HERE / "results.json"
+    check(capture.stat().st_size <= 64 * 1024 * 1024, "capture byte cap")
+    before = ident(capture)
+    data = capture.read_bytes()
+    doc = json.loads(data)
+    eq(canon(doc), data, "canonical AD envelope bytes")
+    fields(doc, "schema_version runtime source_ledger prior_artifacts suite", "AD envelope")
+    native_eq(doc["schema_version"], "det8-qr05ad-results-v1", "AD schema")
+    for key in ("suite", "source_ledger", "prior_artifacts"):
+        native_tree(doc[key])
+    names = [
+        "README.md",
+        "retention.py",
+        "reference_qr05ad.py",
+        "study.py",
+        "test_qr05ad.py",
+        "test_capture.py",
+        "audit_json.py",
+    ]
+    native_eq(sorted(doc["source_ledger"]), sorted(names), "seven exact AD source filenames")
+    inherited = []
+    for directory, identity, gate in (
+        (ACDIR, AC_ID, "ac"),
+        (ABDIR, AB_ID, "ab"),
+        (AADIR, AA_ID, "aa"),
+        (ZDIR, Z_ID, "z"),
+        (YDIR, Y_ID, "y"),
+        (XDIR, X_ID, "x"),
+        (WDIR, W_ID, "w"),
+    ):
+        path = directory / "results.json"
+        native_eq(ident(path), identity, "pinned producer " + gate)
+        rawbytes = path.read_bytes()
+        prior = json.loads(rawbytes)
+        eq(canon(prior), rawbytes, "canonical inherited envelope " + gate)
+        fields(
+            prior,
+            "schema_version runtime source_ledger prior_artifacts suite",
+            "producer envelope " + gate,
+        )
+        native_eq(
+            prior["schema_version"], "det8-qr05" + gate + "-results-v1", "producer schema " + gate
+        )
+        for key in ("suite", "source_ledger", "prior_artifacts"):
+            native_tree(prior[key])
+        inherited.append(prior)
+    acdoc, abdoc, aadoc, zdoc, ydoc, xdoc, wdoc = inherited
+    native_eq(
+        xdoc["prior_artifacts"],
+        {**wdoc["prior_artifacts"], W_PRIOR: W_ID},
+        "X inherited artifact lineage",
+    )
+    native_eq(
+        ydoc["prior_artifacts"],
+        {**xdoc["prior_artifacts"], X_PRIOR: X_ID},
+        "Y inherited artifact lineage",
+    )
+    native_eq(
+        zdoc["prior_artifacts"],
+        {**ydoc["prior_artifacts"], Y_PRIOR: Y_ID},
+        "Z inherited artifact lineage",
+    )
+    native_eq(
+        aadoc["prior_artifacts"],
+        {**zdoc["prior_artifacts"], Z_PRIOR: Z_ID},
+        "AA inherited artifact lineage",
+    )
+    native_eq(
+        abdoc["prior_artifacts"],
+        {**aadoc["prior_artifacts"], AA_PRIOR: AA_ID},
+        "AB inherited artifact lineage",
+    )
+    native_eq(
+        acdoc["prior_artifacts"],
+        {**abdoc["prior_artifacts"], AB_PRIOR: AB_ID},
+        "AC inherited artifact lineage",
+    )
+    expected_priors = {**acdoc["prior_artifacts"], AC_PRIOR: AC_ID}
+    native_eq(len(expected_priors), 34, "34-prior lineage size")
+    native_eq(doc["prior_artifacts"], expected_priors, "exact AD inherited artifact lineage")
+    for prior, primary, reference, tests, gate in (
+        (acdoc, "envelope.py", "reference_qr05ac.py", "test_qr05ac.py", "AC"),
+        (abdoc, "stress.py", "reference_qr05ab.py", "test_qr05ab.py", "AB"),
+        (aadoc, "decision.py", "reference_qr05aa.py", "test_qr05aa.py", "AA"),
+        (zdoc, "attenuation.py", "reference_qr05z.py", "test_qr05z.py", "Z"),
+        (ydoc, "fallback.py", "reference_qr05y.py", "test_qr05y.py", "Y"),
+        (xdoc, "misspecification.py", "reference_qr05x.py", "test_qr05x.py", "X"),
+        (wdoc, "noisy_readout.py", "reference_qr05w.py", "test_qr05w.py", "W"),
+    ):
+        expected_names = ["README.md", primary, reference, "study.py", tests, "test_capture.py"]
+        if gate != "W":
+            expected_names.append("audit_json.py")
+        native_eq(
+            sorted(prior["source_ledger"]),
+            sorted(expected_names),
+            "exact producer source filenames " + gate,
+        )
+    frozen = {HERE / name: record for name, record in doc["source_ledger"].items()}
+    frozen.update({HERE.parent / name: record for name, record in expected_priors.items()})
+    for directory, prior in (
+        (ACDIR, acdoc),
+        (ABDIR, abdoc),
+        (AADIR, aadoc),
+        (ZDIR, zdoc),
+        (YDIR, ydoc),
+        (XDIR, xdoc),
+        (WDIR, wdoc),
+    ):
+        frozen.update({directory / name: record for name, record in prior["source_ledger"].items()})
+    for source, record in frozen.items():
+        native_eq(ident(source), record, "before source/prior identity " + str(source))
+
+    aasuite, zsuite, ysuite, xsuite, wsuite, suite, acsuite, adsuite = (
+        aadoc["suite"],
+        zdoc["suite"],
+        ydoc["suite"],
+        xdoc["suite"],
+        wdoc["suite"],
+        abdoc["suite"],
+        acdoc["suite"],
+        doc["suite"],
+    )
+    raw = wsuite["raw_model"]
+    rel, ranks, inside, eligible, targets = subset_ids(raw)
+    features, partition = raw_features(raw, rel, ranks, inside, eligible, targets)
+    sprior = json.loads((SDIR / "results.json").read_bytes())["suite"]["analysis"]
+    native_eq(features, sprior["features"], "raw subset-Mobius feature reconstruction")
+    native_eq(partition, sprior["partition"], "raw H fibers")
+    model, profiles, local = build_model(raw, features, partition, ranks, eligible, targets)
+    native_eq(model, wsuite["model"], "W model raw authentication")
+    native_eq(local, sprior["local_rows"], "raw single-deletion class rows")
+    kernel_audit(
+        [tuple(rat(x) for x in case["rates"][2]) for case in wsuite["cases"]],
+        model,
+        profiles,
+        partition,
+        eligible,
+        targets,
+        features,
+    )
+    family = family_from_model(model)
+    replacements = ab_replacements(family[0])
+    alphabet = [
+        {"N": list(n), "values": [list(z) for z in values]}
+        for n, values in sorted(family[0].items())
+    ]
+    native_eq(alphabet, acsuite["alphabet"], "AC raw whole-model complete alphabet")
+    native_eq(alphabet, adsuite["alphabet"], "AD raw whole-model complete alphabet")
+    native_eq(
+        replacements,
+        suite["replacement_laws"],
+        "complete whole-model forward/reverse replacement laws",
+    )
+    native_eq(len(wsuite["cases"]), 6, "six inherited fixed cases")
+    for earlier, later, name in (
+        (wsuite, xsuite, "W to X"),
+        (xsuite, ysuite, "X to Y"),
+        (ysuite, zsuite, "Y to Z"),
+        (zsuite, aasuite, "Z to AA"),
+        (aasuite, suite, "AA to AB"),
+        (suite, acsuite, "AB to AC"),
+        (acsuite, adsuite, "AC to AD"),
+    ):
+        native_eq(
+            [c["case_id"] for c in earlier["cases"]],
+            [c["case_id"] for c in later["cases"]],
+            "fixed experiment order " + name,
+        )
+
+    expected_cases, expected_aacases, expected_zcases, expected_ycases, expected_xcases = (
+        [],
+        [],
+        [],
+        [],
+        [],
+    )
+    expected_accases, expected_adcases = [], []
+    for adcase, accase, case, aacase, zcase, ycase, xcase, wcase in zip(
+        adsuite["cases"],
+        acsuite["cases"],
+        suite["cases"],
+        aasuite["cases"],
+        zsuite["cases"],
+        ysuite["cases"],
+        xsuite["cases"],
+        wsuite["cases"],
+        strict=True,
+    ):
+        xproblem, controls = raw_projection(
+            wcase, raw, features, partition, eligible, targets, family
+        )
+        native_eq(xproblem, xcase["problem"], "full X projection from raw lifetime joints")
+        xanalysis = expected_x(xproblem)
+        native_eq(xanalysis, xcase["analysis"], "complete X scoring independently reconstructed")
+        xcontrols = producer_controls(xanalysis, controls)
+        native_eq(xcontrols, xcase["producer_controls"], "complete inherited X producer controls")
+        expected_xcases.append(
+            {
+                "case_id": xcase["case_id"],
+                "problem": xproblem,
+                "analysis": xanalysis,
+                "producer_controls": xcontrols,
+            }
+        )
+        beliefs = []
+        for xbelief, control in zip(xproblem["beliefs"], controls, strict=True):
+            fallbacks = [
+                {"value": cell["value"], "prediction": cell["prediction"]}
+                for cell in control["N_cells"]
+            ]
+            beliefs.append({**xbelief, "fallbacks": fallbacks})
+        yproblem = {
+            "schema_version": "det8-qr05y-problem-v1",
+            "family": "qr05y_explicit_fallback",
+            "beliefs": beliefs,
+        }
+        native_eq(yproblem, ycase["problem"], "entire Y input and raw N fallback table")
+        yanalysis = expected_y(yproblem, xanalysis)
+        native_eq(yanalysis, ycase["analysis"], "entire Y literal policy/coarse analysis")
+        ycontrols = y_producer_controls(yanalysis, xanalysis, controls)
+        native_eq(ycontrols, ycase["producer_controls"], "entire Y producer controls")
+        expected_ycases.append(
+            {
+                "case_id": ycase["case_id"],
+                "problem": yproblem,
+                "analysis": yanalysis,
+                "producer_controls": ycontrols,
+            }
+        )
+        zproblem = {
+            "schema_version": "det8-qr05z-problem-v1",
+            "family": "qr05z_fixed_attenuation",
+            "experiment": yproblem,
+        }
+        native_eq(zproblem, zcase["problem"], "entire Z wrapper from raw experiments")
+        zanalysis = expected_z(zproblem, yanalysis)
+        native_eq(zanalysis, zcase["analysis"], "entire Z literal mixture/scoring analysis")
+        zcontrols = z_producer_controls(zanalysis, yanalysis)
+        native_eq(zcontrols, zcase["producer_controls"], "entire Z producer controls")
+        expected_zcases.append(
+            {
+                "case_id": zcase["case_id"],
+                "problem": zproblem,
+                "analysis": zanalysis,
+                "producer_controls": zcontrols,
+            }
+        )
+        aa_problem = aa_projection(zanalysis)
+        native_eq(
+            aa_problem, aacase["problem"], "entire AA risk table from literal raw-Z projection"
+        )
+        aa_analysis = expected_aa(aa_problem)
+        native_eq(
+            aa_analysis, aacase["analysis"], "entire AA independent pairwise-extrema decision wire"
+        )
+        controls_aa = aa_producer_controls(zanalysis, aa_problem, aa_analysis)
+        native_eq(controls_aa, aacase["producer_controls"], "entire AA raw-law producer controls")
+        expected_aacases.append(
+            {
+                "case_id": aacase["case_id"],
+                "problem": aa_problem,
+                "analysis": aa_analysis,
+                "producer_controls": controls_aa,
+            }
+        )
+        problem, stress_laws = ab_projection(zanalysis, aa_problem, replacements)
+        native_eq(problem, case["problem"], "entire AB stochastic-pushforward risk problem")
+        native_eq(stress_laws, case["stress_laws"], "entire AB actual-law projection")
+        analysis = expected_ab(problem, nominal_analysis=aa_analysis)
+        native_eq(analysis, case["analysis"], "entire AB independent frozen-certificate wire")
+        controls_ab = ab_producer_controls(zanalysis, aa_analysis, problem, analysis, stress_laws)
+        native_eq(controls_ab, case["producer_controls"], "entire AB independent producer controls")
+        expected_cases.append(
+            {
+                "case_id": case["case_id"],
+                "problem": problem,
+                "analysis": analysis,
+                "stress_laws": stress_laws,
+                "producer_controls": controls_ab,
+            }
+        )
+        ac_problem, contexts = ac_coefficients(zanalysis, aa_problem, alphabet)
+        native_eq(ac_problem, accase["problem"], "entire AC literal raw coefficient problem")
+        ac_analysis = expected_ac(ac_problem, nominal_analysis=aa_analysis)
+        native_eq(
+            ac_analysis, accase["analysis"], "entire AC independent closed-simplex certificate wire"
+        )
+        coefficient = ac_anchors(ac_problem, ac_analysis, problem, replacements)
+        witness_laws, certificate_map = ac_witness_laws(
+            contexts, ac_problem, ac_analysis, coefficient
+        )
+        native_eq(
+            witness_laws, accase["witness_laws"], "complete AC raw global boundary witness laws"
+        )
+        native_eq(certificate_map, accase["witness_certificate_map"], "complete AC witness map")
+        controls_ac = ac_producer_controls(ac_problem, ac_analysis, aa_analysis)
+        native_eq(controls_ac, accase["producer_controls"], "entire AC raw-law producer controls")
+        expected_accases.append(
+            {
+                "case_id": accase["case_id"],
+                "problem": ac_problem,
+                "analysis": ac_analysis,
+                "witness_laws": witness_laws,
+                "witness_certificate_map": certificate_map,
+                "producer_controls": controls_ac,
+            }
+        )
+        adcase_expected = {
+            "case_id": adcase["case_id"],
+            **ad_projection(contexts, alphabet, ac_analysis),
+        }
+        native_eq(
+            adcase_expected,
+            adcase,
+            "entire AD independent raw polynomial/family/witness certificate case",
+        )
+        expected_adcases.append(adcase_expected)
+    # Historical API counters are reporting metadata, not APIs replayed here.
+    expected_xsuite = {
+        "producer": {"artifact": W_PRIOR, **W_ID},
+        "cases": expected_xcases,
+        "independent_route_equal": True,
+        "public_controls": {
+            "analyze_calls": 12,
+            "invalid_analyze_calls_rejected": 14,
+            "raw_orders_histories_or_artifacts_given_to_core": False,
+            "noise_parameters_fitted": False,
+            "fallback_forecasts_invented": False,
+        },
+        "totals": suite_totals(expected_xcases),
+    }
+    native_eq(xsuite, expected_xsuite, "complete X native canonical reporting closure")
+    expected_ysuite = {
+        "producer": {"artifact": X_PRIOR, **X_ID},
+        "cases": expected_ycases,
+        "independent_route_equal": True,
+        "public_controls": {
+            "analyze_calls": 12,
+            "invalid_analyze_calls_rejected": 14,
+            "raw_orders_histories_or_artifacts_given_to_core": False,
+            "fallback_rule_explicit": True,
+            "fallback_optimized": False,
+            "actual_level_used_to_select_forecast": False,
+        },
+        "totals": suite_totals(expected_ycases),
+    }
+    native_eq(ysuite, expected_ysuite, "complete Y native canonical reporting closure")
+    expected_zsuite = {
+        "producer": {"artifact": Y_PRIOR, **Y_ID},
+        "cases": expected_zcases,
+        "independent_route_equal": True,
+        "public_controls": {
+            "analyze_calls": 12,
+            "invalid_analyze_calls_rejected": 16,
+            "raw_orders_or_artifacts_given_to_core": False,
+            "weights_optimized": False,
+            "actual_level_used_to_select_weight": False,
+            "all_three_forecasts_scored": True,
+        },
+        "totals": suite_totals(expected_zcases, invalid_calls=16),
+    }
+    native_eq(zsuite, expected_zsuite, "complete Z native canonical reporting closure")
+    expected_aasuite = {
+        "producer": {"artifact": Z_PRIOR, **Z_ID},
+        "cases": expected_aacases,
+        "independent_route_equal": True,
+        "public_controls": {
+            "analyze_calls": 12,
+            "invalid_analyze_calls_rejected": 16,
+            "raw_laws_histories_or_artifacts_given_to_core": False,
+            "bounds_inferred_from_data": False,
+            "actual_level_used_to_select_rule": False,
+            "all_ties_retained": True,
+            "finite_menu_only": True,
+        },
+        "totals": suite_totals(expected_aacases, invalid_calls=16),
+    }
+    native_eq(aasuite, expected_aasuite, "complete AA native canonical reporting closure")
+    expected_suite = {
+        "producer": {"artifact": AA_PRIOR, **AA_ID},
+        "replacement_laws": replacements,
+        "cases": expected_cases,
+        "independent_route_equal": True,
+        "public_controls": {
+            "analyze_calls": 12,
+            "invalid_analyze_calls_rejected": 16,
+            "raw_laws_histories_or_artifacts_given_to_core": False,
+            "forecasts_refitted": False,
+            "stressed_rules_reoptimized": False,
+            "old_ties_selected_retrospectively": False,
+            "mechanisms_combined": False,
+        },
+        "totals": suite_totals(expected_cases, invalid_calls=16),
+    }
+    native_eq(suite, expected_suite, "complete AB native canonical reporting closure")
+    totals_ac = suite_totals(expected_accases, invalid_calls=16)
+    totals_ac["witness_mechanisms"] = sum(len(c["witness_laws"]) for c in expected_accases)
+    expected_acsuite = {
+        "producer": {"artifact": AB_PRIOR, **AB_ID},
+        "alphabet": alphabet,
+        "cases": expected_accases,
+        "independent_route_equal": True,
+        "public_controls": {
+            "analyze_calls": 12,
+            "invalid_analyze_calls_rejected": 16,
+            "raw_laws_histories_or_artifacts_given_to_core": False,
+            "forecasts_refitted": False,
+            "stressed_rules_reoptimized": False,
+            "old_ties_selected_retrospectively": False,
+            "historywise_adversary_used": False,
+        },
+        "totals": totals_ac,
+    }
+    native_eq(acsuite, expected_acsuite, "complete AC native canonical reporting closure")
+    totals_ad = suite_totals(expected_adcases, invalid_calls=16)
+    totals_ad["forecast_families"] = sum(len(c["forecast_families"]) for c in expected_adcases)
+    totals_ad["witness_mechanisms"] = sum(len(c["witness_laws"]) for c in expected_adcases)
+    expected_adsuite = {
+        "producer": {"artifact": AC_PRIOR, **AC_ID},
+        "alphabet": alphabet,
+        "cases": expected_adcases,
+        "independent_route_equal": True,
+        "public_controls": {
+            "analyze_calls": 12,
+            "invalid_analyze_calls_rejected": 16,
+            "raw_laws_histories_or_artifacts_given_to_core": False,
+            "weights_selected_per_history": False,
+            "actual_world_used_to_select_weight": False,
+            "forecasts_outside_frozen_segment_used": False,
+            "prior_certificates_replaced": False,
+        },
+        "totals": totals_ad,
+    }
+    native_eq(adsuite, expected_adsuite, "complete AD native canonical reporting closure")
+    for current in (doc, acdoc, abdoc, aadoc, zdoc, ydoc, xdoc):
+        runtime_metadata(current["runtime"])
+    for source, record in frozen.items():
+        native_eq(ident(source), record, "after source/prior identity " + str(source))
+    native_eq(ident(capture), before, "read-only AD artifact identity")
+    analyses = [case["analysis"] for case in expected_adcases]
+    return {
+        "status": "PASS",
+        "artifact": before,
+        "analysis_list": {"bytes": len(canon(analyses)), "sha256": digest(analyses)},
+        "authenticated_AC_analysis_list": {
+            "bytes": len(canon([case["analysis"] for case in expected_accases])),
+            "sha256": digest([case["analysis"] for case in expected_accases]),
+        },
+        "authenticated_AB_analysis_list": {
+            "bytes": len(canon([case["analysis"] for case in expected_cases])),
+            "sha256": digest([case["analysis"] for case in expected_cases]),
+        },
+        "authenticated_AA_analysis_list": {
+            "bytes": len(canon([case["analysis"] for case in expected_aacases])),
+            "sha256": digest([case["analysis"] for case in expected_aacases]),
+        },
+        "authenticated_Z_analysis_list": {
+            "bytes": len(canon([case["analysis"] for case in expected_zcases])),
+            "sha256": digest([case["analysis"] for case in expected_zcases]),
+        },
+        "counts": dict(COUNTS),
+        "seconds": time.monotonic() - started,
+        "frozen_AD_sources": 7,
+        "authenticated_AC_sources": 7,
+        "authenticated_AB_sources": 7,
+        "authenticated_AA_sources": 7,
+        "authenticated_Z_sources": 7,
+        "authenticated_Y_sources": 7,
+        "authenticated_X_sources": 7,
+        "authenticated_W_sources": 6,
+        "immutable_prior_artifacts": 34,
+        "source_prior_identity_targets": len(frozen),
+        "source_content_used_only_for_identity": True,
+        "executor_runner_test_imports": False,
+        "complete_native_canonical_X_Y_Z_AA_AB_AC_and_AD_suites_checked": True,
+        "unsupported_W_current_posteriors_and_future_laws_checked": True,
+        "prior_public_APIs_and_broader_certificates_replayed": False,
+        "inherited_fine_polynomial_digest": wsuite["raw_bridge"]["fine_sha256"],
+        "fine_polynomial_digest_independently_rederived": False,
+        "historical_API_and_runtime_counters_are_metadata_only": True,
+        "route": "raw induction; subset-Mobius features/H; categorical vertex lifetimes; raw W N/noisy joint laws; unsupported full current/future equality; literal outcome-coordinate scores for X and both Y forecasts; complete original X null and Y preservation; coordinatewise fixed mixtures with literal scoring and quadratic checks; complete X/Y/Z canonical reporting closure; literal AA risk projection; full affine joint/clean forecast segment/full-bound law coincidence; exhaustive pairwise AA extrema and complete canonical reporting; direct stochastic-channel pushforward of rank tilts; literal frozen-policy scoring; complete stressed laws; exhaustive stressed maxima and every old-tie classification; affine/opposite joint and risk controls; complete AB reporting; literal outcome losses against coarse aggregated over original-weight N subjoint atoms before any fiber maximum; pairwise complete coefficient/envelope/witness extrema; closed-simplex and full-support attainment distinction; complete uniform/AB risk recovery; globally fixed pointmass channel pushforward with all frozen rules literally rescored; complete AC reporting; clean literal indicator-polynomial expansion; exact convex quadratic optimizer sets and complete menu/KKT certificates; complete endpoint-defined point/interval forecast families; full actual-law common witness reconstruction and all-world literal polynomial identities; unique point-family literal rescoring and parametric interval proof; all AC old certificates preserved; complete AD reporting",
+    }
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--artifact", type=Path, default=HERE / "results.json")
+    args = parser.parse_args()
+    print(json.dumps(audit_capture(args.artifact), sort_keys=True), flush=True)
+
+
+if __name__ == "__main__":
+    main()

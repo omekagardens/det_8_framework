@@ -640,26 +640,48 @@ targets are authenticated. Per-route input-identity checks were strengthened
 before fixed outcomes. No numerical or scientific-rule correction was needed.
 See [QR-05AC results](../validation/qr-05ac-replacement-envelope-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05AD, continuous robust retention.**
-Keep the same frozen coarse/detailed forecast segment and declared replacement
-class, but allow one fixed retained weight anywhere in [0,1]. Independently
-derive clean squared-distance/cross coefficients and the full-replacement
-envelope from original weighted laws. Under verified producer premises this
-gives an exact convex quadratic for each assumed model and declared bound.
+**QR-05AD, continuous robust retention: completed.**
+The same frozen coarse/detailed segment and replacement class now admit one
+retained weight anywhere in [0,1], fixed across an experiment. Independent
+original-weight clean coefficient derivations and the authenticated AC
+envelope give Q_u(a)=A_u a^2-2B_u a. Complete KKT/zero-polynomial certificates
+retain all point and interval optima, complete forecast families and common
+global replacement witnesses. The generic optimizer authenticates supplied
+quadratics, not their observation-model origin.
 
-Certify the complete interval optimizer and its forecast laws/witnesses,
-including boundary and degenerate cases. Include the three-rule class-aware
-minimum as a comparator inside this gate; preserve AA/AC old selections and
-failed original bounds. A continuum tie must be represented explicitly, not
-replaced by one chosen weight. Handle generic linear objectives correctly:
-zero quadratic coefficient alone does not make every weight optimal.
-Optimality remains within the fixed forecast segment, not all possible
-forecasting rules. Record the complete protocol and resource limits before
-new weights/risks; no AD outcomes have been calculated.
+Twelve of 96 decisions improve strictly over the three-weight menu under
+the same enlarged class; 84 are unchanged. There are 36 strictly negative
+continuous minima versus 32 menu minima, with 48 point and 48 whole-interval
+optima. All old AC certificates, AA selections and ten failed original
+negative bounds remain visible. Smaller worst-case value is not pointwise
+dominance, restoration of old guarantees, empirical significance or
+individual-history safety. See [QR-05AD results](../validation/qr-05ad-continuous-retention-2026-09-07/RESULTS.md)
+for exact weights, small absolute gains and verification details.
+All 198 tests pass normally and optimized, both read-only replays are exact,
+and the 43,849,782-check raw-history audit passes. Seven frozen sources,
+34 prior artifacts and final evidence bytes remain unchanged; the audit
+authenticates 89 source/prior targets. No numerical or scientific-rule
+correction was required after the first fixed comparison.
+
+**Next proposed gate: QR-05AE, history-level safety diagnostic.**
+Freeze AD's global policy and complete interval families. Under the retained
+common mechanism witnesses, inspect each history's signed excess over the
+coarse forecast at included actual levels. Separate harmed-history
+likelihood mass and positive harm contribution from negative benefit;
+verify original-weight aggregation back to the case certificate. No
+history-specific weight fitting, averaging away harm or convenient point
+selection from an interval. Interval conclusions need explicit parametric
+quantifiers.
+
+This diagnostic would cover the retained witnesses, not every mechanism
+in the replacement simplex. History-specific mechanism maxima, if later
+examined, require separate globally admissible witnesses and cannot be
+summed as though one history-dependent adversary were allowed. Record the
+complete AE protocol and limits before execution; no AE outcomes are known.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AB was pushed before AC began.
+scoped to this research; QR-05AC was pushed before AD began.
 
 ## Outcome sought
 
@@ -733,7 +755,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AA: declared uncertainty-bound decisions | Exact finite-menu certificates give 32 negative and 64 zero worst-case excess values, retaining every minimizing rule and maximizing world | Original-weight case-average risk; supplied bounds/family only, not per-history safety or calibration; coarse availability makes nonpositive optimum automatic |
 | QR-05AB: replacement-mechanism stress | All 192 old-set certificates remain safe under two fixed tilts; ten forward-mixture certificates lose their old negative bound while remaining beneficial | Complete old ties and adverse bound deviations retained; finite case-average controls, not arbitrary mechanism robustness or calibration |
 | QR-05AC: whole-fiber replacement envelope | All 96 old sets remain safe over the declared product simplex; 32 strictly beneficial; ten original negative bounds weaken | Original history weights and shared N-conditioned mechanisms; complete faces/witnesses; not arbitrary observation errors, calibration or per-history safety |
-| QR-05AD: continuous robust retention (proposed) | Certify an exact optimizer over the fixed coarse/detailed forecast segment, with finite-menu comparison | Complete interval ties and generic linear edge cases; no new weights or AD outcomes yet |
+| QR-05AD: continuous robust retention | Twelve strict improvements over the class-aware menu; 36 strict-benefit minima; 48 point and 48 interval optima | Complete laws, global witnesses and KKT certificates; old failures retained; not per-history safety or empirical calibration |
+| QR-05AE: history-level safety diagnostic (proposed) | Inspect the frozen global policy's signed history-level excess under retained common witnesses | Preserve interval families and original-weight aggregation; no per-history fitting or claim covering every replacement mechanism; no outcomes yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
