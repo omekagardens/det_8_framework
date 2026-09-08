@@ -804,26 +804,54 @@ hardened production API, a kernel error bound, continuum limit or gravity.
 See [QR-05AI results](../validation/qr-05ai-weighted-kernels-2026-09-07/RESULTS.md)
 for final artifact and replay verification.
 
-**Next proposed gate: QR-05AJ, additive cell-pair geometry across scales.**
-On the existing nested partitions, compare every ordered parent-pair integral
-with its complete child-pair block sum. Include within-child and same-parent
-cross-child contributions, and compare adjacent versus direct two-level
-aggregation. Where clipped volumes are positive, normalize using geometric
-product-volume weights, not unweighted averages or stale marks. Keep
-zero-volume conditional fractions undefined.
+**QR-05AJ, additive cell-pair geometry across scales: completed.**
+Both independent engines agree on all3,725 directed level-pair rows and3,025
+parent-pair blocks on the existing five families and three partitions. Every
+complete child sum equals its parent measure; all900 direct l0-to-l2 blocks
+agree with reconstruction through l1. Geometric product-volume weighting
+recovers every defined parent conditional fraction. The1,995 zero-product
+blocks retain zero raw integrals and explicitly undefined conditional fractions.
 
-The target is consistency of supplied two-point measure, not reconstruction
-from representative order. Region diagonals are not self-preceding events;
-normalized pair-causality fractions need not form a stochastic transition
-matrix. Exact block sums do not imply matrix-power or longer-chain composition
-closure. Freeze the detailed protocol before calculations. No AJ computations
-have been performed; no further forecasting or observation-mask enumeration is
-required unless a new sampling claim is separately introduced.
+Uniform averaging differs in47 blocks; the declared clipped-annotation heuristic
+differs in16, all on stale warp. Omitting child diagonals changes240 blocks.
+Omitting all off-diagonal child terms changes375 blocks, of which45 have the
+same parent and330 distinct parents. These are repeated source/link/probe/block
+contexts, not independent empirical trials. No marks are authenticated or
+repaired and no sampling law is rerun or transported.
+
+For grid whole parent(2,2) at l0-to-l1,1/576 splits equally into1/1152
+within-child and1/1152 cross-child measure. Region diagonals are not
+self-preceding events. A separate one-rectangle analytic control has pair
+fraction1/4, squared fraction1/16 and actual shared-middle triple fraction1/36.
+The pair conditional matrix is not automatically stochastic, and exact pair
+block sums do not establish higher-chain composition closure.
+
+All66 tests pass in normal and optimized Python, including complete independent
+family-oracle comparisons and34 non-noop corruptions. The five current sources,
+40 prior captures and19 ancestor sources were frozen/authenticated before
+fixed execution; first comparison, independent reference audit and external
+preflight agree without a post-first mathematical or source correction.
+See [QR-05AJ results](../validation/qr-05aj-pair-coarsening-2026-09-07/RESULTS.md)
+for the final retained artifact, replays and exact numerical witnesses.
+
+**Next proposed gate: QR-05AK, shared-intermediate geometry and composition.**
+On the same supplied partitions, compute all ordered region-triple measures
+using one common intermediate point, and compare with the dimensionally
+matched product J_AB*J_BC/h_B when the middle clipped volume is positive.
+Retain zero raw measure but undefined normalized product when it vanishes.
+Test triple-measure additivity separately from composition of projected pair
+tables, including repeated region labels and complete child triples.
+
+The target is to identify dependence lost by this pair-product construction,
+not a universal impossibility of recovering triples from supplied geometry or
+every possible pair summary. Freeze its detailed protocol before calculations.
+No fixed AK computations have been performed. No forecasting or observation-mask
+enumeration is required unless a separate new sampling claim is introduced.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AH was pushed as
-`c387b55054eeb2b33bd6a9027b3178701968e3c9` before AI began.
+scoped to this research; QR-05AI was pushed as
+`e77482fccb3d72ab21f1b50ebbb4aee632a7831d` before AJ began.
 
 ## Outcome sought
 
@@ -903,7 +931,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AG: supplied local-volume annotation interface | Corrected finite-volume means agree even under singleton selection; true marks reproduce aligned volumes but boundary errors and stale-mark ambiguity remain | Sampling, annotation and quadrature errors separated; source-aware signed covariance; no mark authentication, metric recovery or gravity claim |
 | QR-05AH: partition refinement and boundary-error certificates | Ten main-family enclosures tighten with unchanged point errors; a generic counterexample tightens bounds while worsening absolute error | Source-aware geometric bounds, unchanged geometry-blind observer, additive partitions and separate three errors; no monotone point-error, cross-level transport, metric or continuum claim |
 | QR-05AI: weighted causal-kernel refinement | Exact volume can coexist with a zero pair coefficient and nonzero continuum comparison; twenty point-error improvements, thirty unchanged, explicit singleton pair-support failure | Separate weighted finite targets, all directed cell-pair integrals and up-to-four-cell covariance; private diagnostic only, no inherited kernel bound or physical derivation |
-| QR-05AJ: additive cell-pair geometry across scales (proposed) | Test parent-pair/child-block additivity and volume-weighted normalized causal fractions, adjacent and direct | Supplied geometric measure, undefined zero-volume normalization, no inferred order or matrix-power/composition closure; no outcomes yet |
+| QR-05AJ: additive cell-pair geometry across scales | All3,025 parent-pair blocks and900 direct/via-middle blocks agree;47 uniform and16 annotation-weight disagreements retained | Supplied two-point measure, explicit undefined zero-volume normalization and repeated-region diagonals; no transition matrix or higher-chain composition closure |
+| QR-05AK: shared-intermediate geometry and composition (proposed) | Compare actual region-triple integrals with projected pair products and test triple block additivity independently | Same supplied geometry, explicit middle measure and zero-volume convention; no fixed outcomes, universal insufficiency or physical-law claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
