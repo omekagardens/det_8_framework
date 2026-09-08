@@ -772,27 +772,58 @@ information, metric reconstruction, continuum convergence or gravity.
 See [QR-05AH results](../validation/qr-05ah-boundary-refinement-2026-09-07/RESULTS.md)
 for final replay/audit evidence and the complete counts.
 
-**Next proposed gate: QR-05AI, weighted causal-kernel refinement.**
-Reconnect AF's scalar causal-propagation comparison to AG/AH cell-volume
-marks on the same bounded partitions and probes. Compare finite weighted
-one-cell and comparable-distinct-cell chain targets with supplied continuum
-coefficient targets, retaining full chain/support evidence and exact design
-moments. Distinct-pair means need pair inclusion; covariance may require
-up-to-four-cell inclusion. Preserve singleton's pair-support failure.
+**QR-05AI, weighted causal-kernel refinement: completed.**
+The first three local-volume-weighted scalar coefficients now have an exact
+bounded diagnostic. Two independent engines agree on all 27 cases and 4,032
+mask rows. Every first-order target, observation, mean and covariance block
+matches AH under its declared factor. The second coefficient separately
+retains probe-boundary selection, partial cross-cell causality and omitted
+within-cell pairs. All 6,705 directed cell-pair integrals are retained.
 
-Separate within-cell omissions, partial cross-cell causality, probe boundaries,
-stale marks and observation effects. AH's linear-volume enclosure does not
-automatically bound a two-cell kernel or imply monotone point-error improvement.
-Preserve AG/AH zero-volume markers and explicitly reconcile AF's different
-internal-event counting convention. Freeze normalization, weighted events,
-chain rules, laws and output before calculation. This is a formula-free
-proposal; no AI calculations have been performed. No additional forecasting
-prerequisite, quantum CP-map construction or gravitational claim is introduced.
+Exact volume is not an exact pair coefficient: the grid upper-aligned interval
+has exact volume 1/12 but pair coefficient zero rather than continuum 1/4608.
+Twenty of fifty second-coefficient absolute errors improve under the fixed
+refinements; thirty stay unchanged. A warped unaligned error crosses sign.
+Within-cell error reduction does not guarantee improved total error or variance.
+The grid's half-retention pair variance rises while its linear variance falls.
+
+Joint inclusion recovers supported supplied targets, not missing terms.
+Singleton cases retain ten unsupported question occurrences and 44 omitted
+chain occurrences despite zero pair-output variance. Full covariance includes
+up-to-four-cell unions, zero union probabilities and signed cross-degree terms.
+Boost, degree-specific dilation and stale-mark controls pass. Fixed markers
+have zero weight; AF's different internal-event count is not silently replayed.
+
+All 101 tests pass normally and optimized, including complete literal case
+and suite reconstruction and thirty nonvacuous corruption checks. Both fresh
+primary/reference exact replays pass with unchanged evidence. All five AI
+sources, 39 prior captures and fourteen AH/AG sources are authenticated.
+No mathematical, implementation or fixture correction followed the first
+fixed comparison. This is a private supplied-geometry diagnostic, not a new
+hardened production API, a kernel error bound, continuum limit or gravity.
+See [QR-05AI results](../validation/qr-05ai-weighted-kernels-2026-09-07/RESULTS.md)
+for final artifact and replay verification.
+
+**Next proposed gate: QR-05AJ, additive cell-pair geometry across scales.**
+On the existing nested partitions, compare every ordered parent-pair integral
+with its complete child-pair block sum. Include within-child and same-parent
+cross-child contributions, and compare adjacent versus direct two-level
+aggregation. Where clipped volumes are positive, normalize using geometric
+product-volume weights, not unweighted averages or stale marks. Keep
+zero-volume conditional fractions undefined.
+
+The target is consistency of supplied two-point measure, not reconstruction
+from representative order. Region diagonals are not self-preceding events;
+normalized pair-causality fractions need not form a stochastic transition
+matrix. Exact block sums do not imply matrix-power or longer-chain composition
+closure. Freeze the detailed protocol before calculations. No AJ computations
+have been performed; no further forecasting or observation-mask enumeration is
+required unless a new sampling claim is separately introduced.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AG was pushed as
-`f603b02ffba1d6965695eb13e572ad554f7d1827` before AH began.
+scoped to this research; QR-05AH was pushed as
+`c387b55054eeb2b33bd6a9027b3178701968e3c9` before AI began.
 
 ## Outcome sought
 
@@ -871,7 +902,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AF: local supplied-geometry observation interface | Exact record-local interval/chain estimates and source-aware joint covariance; same-order packets leave supplied local volumes ambiguous | Selection law and supported finite targets distinguished from hidden geometry; D/E and wrong-channel controls retained; no metric identification or gravity claim |
 | QR-05AG: supplied local-volume annotation interface | Corrected finite-volume means agree even under singleton selection; true marks reproduce aligned volumes but boundary errors and stale-mark ambiguity remain | Sampling, annotation and quadrature errors separated; source-aware signed covariance; no mark authentication, metric recovery or gravity claim |
 | QR-05AH: partition refinement and boundary-error certificates | Ten main-family enclosures tighten with unchanged point errors; a generic counterexample tightens bounds while worsening absolute error | Source-aware geometric bounds, unchanged geometry-blind observer, additive partitions and separate three errors; no monotone point-error, cross-level transport, metric or continuum claim |
-| QR-05AI: weighted causal-kernel refinement (proposed) | Compare local-volume-weighted cell/chain targets with supplied continuum coefficients on the existing nested partitions | Freeze conventions first; separate pair support, within-cell omissions, partial causality and boundary/annotation errors; no inherited bilinear error bound or outcomes yet |
+| QR-05AI: weighted causal-kernel refinement | Exact volume can coexist with a zero pair coefficient and nonzero continuum comparison; twenty point-error improvements, thirty unchanged, explicit singleton pair-support failure | Separate weighted finite targets, all directed cell-pair integrals and up-to-four-cell covariance; private diagnostic only, no inherited kernel bound or physical derivation |
+| QR-05AJ: additive cell-pair geometry across scales (proposed) | Test parent-pair/child-block additivity and volume-weighted normalized causal fractions, adjacent and direct | Supplied geometric measure, undefined zero-volume normalization, no inferred order or matrix-power/composition closure; no outcomes yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
