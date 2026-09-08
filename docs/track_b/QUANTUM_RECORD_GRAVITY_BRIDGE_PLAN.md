@@ -900,28 +900,61 @@ for retained evidence, final replays, exact witnesses and payload accounting.
 This is a finite declared-function contract on supplied geometry, not unknown
 geometry reconstruction, arbitrary dynamics closure or a gravity derivation.
 
-**Next proposed gate: QR-05AM, query reuse and explicit refinement.**
-Freeze the existing middle domains, tiles and moment payloads. Prespecify a
-small endpoint-query extension with an aligned case and a genuine interior
-clamp kink. Test coefficient-only reuse for functions certified bilinear on
-the old tiles. Unsupported functions require an explicit refinement decision;
-a separate supplied-geometry route may split affected tiles and derive child
-moments, checking additive recovery of all old moments and direct integrals.
-Retain a declared incorrect forced old-tile bilinear fit as a falsifiable
-control, including any equalities.
+**QR-05AM, query reuse and explicit refinement: completed.**
+Both engines agree on all 2,625 prespecified queries against AL's original
+geometry/moment snapshot: 810 reuse, 540 explicit refinement and 1,275 empty
+middles. Unsupported queries retain a forced old-tile corner fit; all 540
+fixed forced errors are negative. A separate synthetic nonzero equality
+demonstrates why integral agreement cannot certify structural function reuse.
 
-Count coefficient-only updates separately from new tiles, moments and full payload.
-The old contract already retains bounds, so this is not a claim that further
-geometry cannot be recovered from its full record. No universally minimal grid
-or arbitrary-query interface is assumed. Freeze the detailed AM protocol before
-computation; no AM calculations have been performed. A degree-aware four-point
-operator extension can follow this bounded reuse test, with its additional
-middle-point coupling and polynomial-degree requirements made explicit.
+The primary consumes supplied old moments without regenerating them. Its
+structural checks are not geometric authentication of untrusted higher moments;
+pinned AL provenance and the independent reference supply that boundary.
+Disabled/counting derivation-hook tests expose genuine reuse. Reference also
+checks all 840 old whole/tile moment vectors against their supplied geometry,
+including empty zeros, as separate verification work.
+
+The fixed update replaces 610 old-tile occurrences with 1,220 new pieces,
+retains 965 piece occurrences, and verifies all nine moments in 1,575 parent
+blocks. Twenty queries preserve some old tiles while refining others. Snapshot
+tiles number 315, not 1,575: repeated query work and initial payload are counted
+separately. Full snapshot/query/update/family byte scopes, transformed
+coefficients and moments, and all null cases are retained.
+All 74 tests pass normally and optimized, including 51 non-noop corruption
+checks. Five current sources, 43 prior captures and 34 ancestor sources are
+authenticated. No post-first source or mathematical correction was needed.
+See [QR-05AM results](../validation/qr-05am-query-reuse-2026-09-07/RESULTS.md)
+for the fixed mixed-reuse witness, captures and read-only replays.
+
+**Next proposed gate: QR-05AN, degree-aware four-point composition.**
+Test one further causal integration with two explicitly coupled middle points.
+For endpoint A, middles B,C and endpoint D, propagate
+F_AB(z)=integral_B L_A(y) 1[y precedes z] dmu(y), then integrate
+F_AB(z) R_D(z) over C. Do not replace this coupling with a product of
+independent local Gram summaries.
+
+For the supplied rectangular product-order model, the propagated field is
+piecewise degree at most two in each coordinate. A candidate representation
+therefore uses nine propagated coefficients; pairing it with a bilinear
+outgoing function requires cross moments through degree three per coordinate,
+sixteen raw entries. This is an explicit degree-aware extension, not a claim
+that AM's fixed nine-moment menu closes under arbitrary further composition.
+
+Prespecify a forced bilinear fit of that propagated field as a truncation
+control, retaining signed errors and equalities. Compare the full contraction
+with independent four-point integration; check breakpoint admission, all
+required moment additivity, repeated/empty regions, coordinate transport and
+the complete added payload. The full retained bounds permit fresh derivation:
+no information-theoretic loss of supplied geometry or minimal representation
+is implied. A smaller fixed scope such as grid/warp, whole probe and the three
+existing partitions can keep complete quadruple tests bounded; freeze the
+detailed AN protocol and its exact inventory before any fixed AN computation.
+No fixed AN calculations have been performed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AK was pushed as
-`8527e35b565e2005e918209f125efd8bd8c9de1f` before AL began.
+scoped to this research; QR-05AL was pushed as
+`578c28311d747680771adc61923192c898720bbd` before AM began.
 
 ## Outcome sought
 
@@ -1004,7 +1037,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AJ: additive cell-pair geometry across scales | All3,025 parent-pair blocks and900 direct/via-middle blocks agree;47 uniform and16 annotation-weight disagreements retained | Supplied two-point measure, explicit undefined zero-volume normalization and repeated-region diagonals; no transition matrix or higher-chain composition closure |
 | QR-05AK: shared-intermediate geometry and composition | All 19,375 true triple blocks are additive; pair products overestimate 1,100 positive triples and are exact in 430; shared-middle covariance accounts for the difference | Same supplied geometry and explicit nulls; no false-positive support in fixed cases, universal pair-summary impossibility, convergence or physical-law claim |
 | QR-05AL: breakpoint-aware middle moments | All 26,775 triple measures reconstructed exactly; tilewise means reduce 205 errors but retain all 1,100 positive residuals; 475 nine-moment aggregation blocks agree | Full coordinate-dependent contract and payload counted; no minimality, universal query closure, unknown geometry or gravity claim |
-| QR-05AM: query reuse and explicit refinement (proposed) | Test coefficient-only reuse on frozen tiles versus explicit refinement for new endpoint-function breakpoints, retaining a forced old-tile fit control | Old bounds remain supplied geometry; count new payload, no fixed outcomes or universally minimal query interface |
+| QR-05AM: query reuse and explicit refinement | All 2,625 queries agree: 810 reuse, 540 refinement and 1,275 empty; 1,220 derived pieces preserve all nine old moments, with 20 mixed retained/refined queries | Primary consumes trusted moments, reference geometrically checks them; structural admission is not accidental answer equality; no minimal or universal query interface |
+| QR-05AN: degree-aware four-point composition (proposed) | Test propagated biquadratic fields and a degree-three moment contraction against direct four-point integration and a forced bilinear truncation | Explicit coupling of two middle points, complete extra payload; no fixed outcome, arbitrary composition closure or gravity claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
