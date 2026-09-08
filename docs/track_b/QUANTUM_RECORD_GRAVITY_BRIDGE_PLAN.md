@@ -1186,24 +1186,48 @@ protocol, fixture or mathematical correction. Generic failure and partial-map
 cases remain checked rather than being hidden by the positive fixed outcome.
 See [QR-05AU results](../validation/qr-05au-source-independent-receiver-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05AV, shared-bank error propagation.**
-Hold AU's B,G,D fixed. For a common primitive bank error e, the measured input
-is B(z+e) and the exact response error is D B e=G e. First freeze the error
-coordinates, numerical reference units and target scales before computing any
-gains. Raw unit boxes are basis-dependent numerical models, not calibrated or
-dimensionally universal sensor noise.
+**QR-05AV completed: shared-bank error propagation.**
+With AU's B,G,D unchanged, a common bank error e gives target error D B e=G e.
+The preregistered raw numerical unit box gives seven strictly smaller shared
+bounds per geometry than its independent receiver-coordinate enclosure;57 tie,
+including33 zeros and24 positive ties. The strict original indices are
+[2,15,18,19,21,22,23] in both cases. These are deterministic domain comparisons,
+not calibrated apparatus noise or an assumption of stochastic independence.
 
-Retain sharp target-row box bounds, signed attaining primitive witnesses,
-their actual common induced receiver errors, and complete direct/decoded
-target errors. Compare with the conservative independent receiver-coordinate
-box obtained by bounding each component of B e separately. Preserve every
-zero, tie and gap; enclosure-only witnesses need not be realizable from one
-bank perturbation. A smaller shared-error bound reflects retained dependence,
-not an experimentally improved sensor or a universal robustness claim.
+The sharp shared maximum is uniquely row54=(9,9):10/3 for grid and26/9 for warp.
+The enclosing box instead has maximum27/8 at grid row18=(3,3) and185/56 at warp
+row23=(3,10). Largest rowwise gaps are9/4 and65/21 at those enclosure-max rows;
+they are NOT the differences between global maxima. Raw unit values do not
+establish an intrinsic grid-versus-warp robustness ranking.
 
-No AV fixed error, gain or witness calculation has run. No refit, new readout,
-normalization law, source preparation, RET integration, physical calibration
-or gravity is implied. Keep the physical bridge separate.
+All128 signed shared and128 enclosure endpoints per family are retained with
+full cross-target error vectors and actual restricted producer/receiver calls.
+Full D B=G is checked before restriction by any primitive map W, including
+deficient/empty W. Synthetic cancellation, equal-bound/unreachable canonical
+enclosure vectors and coordinate transports preserve the error-domain limits.
+No fixed inverse-image solver or physical realization assumption is introduced.
+
+All62 tests pass normally and optimized, with316 explicit guard rejections per
+isolated subprocess mode and475 non-noop mutation checks. Independent complete
+comparison, one normal reference-only audit and exact final read-only replays
+agree. All136 identities and the1,245,154-byte suite remain exact; no post-first
+source, protocol, fixture or mathematical correction. See
+[QR-05AV results](../validation/qr-05av-shared-bank-errors-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05AW, local bank error coordinates.**
+Authenticate supplied geometry and the actual repair-bank tile/monomial order,
+then preregister local bank-coordinate synthesis and fine-target reference
+scales. Derive each block from its actual bank tile, not AP's old coarse tiles.
+Handle zero target scales explicitly as undefined rather than inventing a
+normalization. Keep AU's B,G,D fixed and retain complete shared/enclosure bounds.
+
+A unit box in local coordinates is a NEW declared error domain, not the same
+noise as AV's raw unit box and not better sensor precision. Preserve AV's
+evidence and separately test representation invariance of the new domain under
+complete coordinate transport. Geometry provides reference units, not measured
+uncertainty magnitudes. No fixed AW synthesis, scale, gain or witness calculation
+has run. Physical calibration, field-realizable errors, RET integration and
+gravity remain separate questions.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -1300,7 +1324,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AS: query-specific supplemental linear readouts | Five extra scalar readouts per case recover all fine targets; twelve nonzero filter coefficients use six bank coordinates, with five complete omission witnesses | Minimum extra fixed noiseless LINEAR readouts given coarse O on the normalized simplex; no minimal total packet, local-bank/sensor cost, off-model, nonlinear-encoding or physical claim |
 | QR-05AT: bank-level structural portability | Warp all64 and grid63 responses structurally exact; grid(10,10) has intercept1/864 and twelve mass-coordinate defects while source restrictions remain exact | Frozen-map limitation, not measurement insufficiency; full zero/unit controls, no refit, inferred normalization, physical-source or noise claim |
 | QR-05AU: source-independent receiver construction | Both families recover all64 targets from the SAME37 inputs with a new zero-intercept D B=G map; ranks37/24/37 | Source-independent certificate, actual controls and partial/failure guards; preserve AT, no full-bank recovery, extra measurement, noise or physical claim |
-| QR-05AV: shared-bank error propagation (proposed) | Certify sharp response errors from one primitive bank-error model and compare its independent receiver-box enclosure | Prespecified units/scales, all signed witnesses and gaps; no fitted noise, physical calibration, new measurements or gravity claim |
+| QR-05AV: shared-bank error propagation | Seven strict shared-versus-enclosure gaps and57 ties per geometry; sharp shared maxima10/3,26/9 occur at a different target from enclosure maxima | Full signed endpoints and raw numerical unit box; no sensor improvement, intrinsic geometric ranking, field-realizability or physical calibration claim |
+| QR-05AW: local bank error coordinates (proposed) | Define a supplied-geometry local moment error box and certify its transported response bounds | New error-domain convention, actual bank/fine-target indexing and explicit undefined scales; preserve AV, no equal-noise improvement or apparatus claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
