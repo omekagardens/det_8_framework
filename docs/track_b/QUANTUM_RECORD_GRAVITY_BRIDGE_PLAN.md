@@ -1158,25 +1158,52 @@ and the1,128,907-byte suite remain exact; no post-first source, protocol,
 fixture or mathematical change. See
 [QR-05AT results](../validation/qr-05at-bank-portability-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05AU, source-independent receiver construction.**
-Keep the SAME37-coordinate interface x=[Cz;Fz], geometry, source dictionary,
-target map G and five filters F. Ask whether a zero-intercept receiver can
-recover Gz on unrestricted raw bank vectors. This is an explicitly NEW
-decoder question; preserve AT's frozen-map failure as evidence.
+**QR-05AU completed: source-independent receiver construction.**
+Both grid and warp admit a NEW zero-intercept decoder D recovering all64
+targets on every raw bank vector from the SAME37-value interface B=[C;F].
+The full coefficient identity D B=G is constructed from B and G ONLY, without
+source columns or a normalization row. Geometry, source dictionary and the
+five filters remain unchanged. AT's frozen affine-map evidence is preserved.
 
-Check exact row-space membership against [C;F] WITHOUT a normalization row.
-If possible, construct a deterministic exact receiver and verify every bank
-coefficient, source restriction and actual raw application. If not, retain
-exact bank-null-direction countercontrols. Such vectors diagnose algebraic
-interface insufficiency on the stated unrestricted domain, not automatically
-physical-source insufficiency or conflict with known observables.
+Both families have interface/target/joint ranks37/24/37, all37 original input
+rows independent,64 recovered rows and no failed rows or separating collision.
+The64 include33 identically-zero responses. The interface still has11 invisible
+bank directions; all requested targets ignore them. This is target evaluation,
+not full-bank or incoming-field reconstruction, nor64 independent outputs.
 
-Freeze the detailed AU protocol before any new rank, decoder or null-witness
-calculation; none has run. No additional measurements, off-model normalization
-law, geometric integration, noise tuning or new minimality claim. Resolve this
-receiver question before a shared-bank error study. Errors derived from a
-common noisy bank must share that primitive input; independent output boxes
-remain a different model. Keep physical and gravitational claims separate.
+The previously problematic grid row63=(10,10) now equals
+(x28-x29-x30+x31)/2, using four existing coarse values with no intercept.
+All49 actual zero/unit-bank controls and all6912 source predictions per family
+are exact. Signed raw moment probes need not be physical nonnegative-field
+banks; their negative responses are not negative probabilities. No apparatus
+preparation, noise calibration, expanded minimality or gravitational claim.
+
+All61 tests pass normally and optimized, with386 explicit guard rejections per
+isolated subprocess mode and390 non-noop corruption checks. Independent full
+comparison, one normal reference-only audit and exact read-only replays agree.
+All130 identities and the1,054,313-byte suite remain exact; no post-first source,
+protocol, fixture or mathematical correction. Generic failure and partial-map
+cases remain checked rather than being hidden by the positive fixed outcome.
+See [QR-05AU results](../validation/qr-05au-source-independent-receiver-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05AV, shared-bank error propagation.**
+Hold AU's B,G,D fixed. For a common primitive bank error e, the measured input
+is B(z+e) and the exact response error is D B e=G e. First freeze the error
+coordinates, numerical reference units and target scales before computing any
+gains. Raw unit boxes are basis-dependent numerical models, not calibrated or
+dimensionally universal sensor noise.
+
+Retain sharp target-row box bounds, signed attaining primitive witnesses,
+their actual common induced receiver errors, and complete direct/decoded
+target errors. Compare with the conservative independent receiver-coordinate
+box obtained by bounding each component of B e separately. Preserve every
+zero, tie and gap; enclosure-only witnesses need not be realizable from one
+bank perturbation. A smaller shared-error bound reflects retained dependence,
+not an experimentally improved sensor or a universal robustness claim.
+
+No AV fixed error, gain or witness calculation has run. No refit, new readout,
+normalization law, source preparation, RET integration, physical calibration
+or gravity is implied. Keep the physical bridge separate.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -1272,7 +1299,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AR: fine-response measurement sufficiency | Each geometry recovers 51 of 64 fine rows (33 zero), fails 13, and has normalized nonnegative coarse collisions; 48 fine moments repair all responses | Actual information loss, not decoder failure; unchanged sources and new measurement access; no minimal repair, full-field or physical claim |
 | QR-05AS: query-specific supplemental linear readouts | Five extra scalar readouts per case recover all fine targets; twelve nonzero filter coefficients use six bank coordinates, with five complete omission witnesses | Minimum extra fixed noiseless LINEAR readouts given coarse O on the normalized simplex; no minimal total packet, local-bank/sensor cost, off-model, nonlinear-encoding or physical claim |
 | QR-05AT: bank-level structural portability | Warp all64 and grid63 responses structurally exact; grid(10,10) has intercept1/864 and twelve mass-coordinate defects while source restrictions remain exact | Frozen-map limitation, not measurement insufficiency; full zero/unit controls, no refit, inferred normalization, physical-source or noise claim |
-| QR-05AU: source-independent receiver construction (proposed) | Test whether the SAME37-value interface admits a zero-intercept exact bank decoder, retaining an explicit construction or algebraic countercontrol | New decoder, not rewriting AT evidence; no extra measurements, physical-source insufficiency, new minimality, noise or gravity claim |
+| QR-05AU: source-independent receiver construction | Both families recover all64 targets from the SAME37 inputs with a new zero-intercept D B=G map; ranks37/24/37 | Source-independent certificate, actual controls and partial/failure guards; preserve AT, no full-bank recovery, extra measurement, noise or physical claim |
+| QR-05AV: shared-bank error propagation (proposed) | Certify sharp response errors from one primitive bank-error model and compare its independent receiver-box enclosure | Prespecified units/scales, all signed witnesses and gaps; no fitted noise, physical calibration, new measurements or gravity claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
