@@ -865,25 +865,63 @@ without a post-first source or mathematical correction. See
 for final evidence, read-only replays and exact witnesses. This remains supplied
 geometry, not a universal pair-summary impossibility theorem or gravity.
 
-**Next proposed gate: QR-05AL, breakpoint-aware middle moments.**
-For the declared endpoint/probe family, split middle rectangles at relevant
-incoming/outgoing coordinate breakpoints. Test bilinear coefficient functions
-and nine raw tensor moments per tile, forming a 4-by-4 Gram matrix to recover
-pair means, shared-middle triple measure and centered covariance. Compare
-against direct integration, retaining both original-middle and tilewise
-mean-only controls to distinguish subdivision effects from within-tile moments.
+**QR-05AL, breakpoint-aware middle moments: completed.**
+Global-basis bilinear coefficients and nine raw tensor moments per tile recover
+all 26,775 shared-middle triple measures and 3,725 pair measures exactly against
+independent direct integration. Every one of 475 middle-moment aggregation
+blocks preserves all nine moments. The 19,375 true triple blocks and 5,400
+direct/via-middle reconstructions remain additive, and the complete declared
+AK input, clipped-volume, pair, triple and true-coarsening projections agree.
 
-Count every tile, moment and coefficient payload. Nine moments are not nine
-independent geometric parameters or a proved minimum. Use a common coordinate
-basis or explicit affine transport for additivity. New queries may need new
-breakpoints, and longer products may require higher degrees; no arbitrary-query
-or general dynamics closure is assumed. Freeze the detailed protocol before
-computation. No fixed AL calculations have been performed.
+Tilewise means reduce 205 individual errors but remove none: both mean-only
+controls still overestimate 1,100 positive triples and are exact on 430 positive
+triples. Twenty of 75 aggregate contexts improve and 55 are unchanged; all 75
+tilewise aggregate errors remain positive. Full moments, not subdivision alone,
+recover the shared-point dependence. Grid whole l2 distinct-region triple
+(1,4,7) has T=1/20736, original product 1/13824 and tile product 1/18432;
+the remaining tile error is 1/165888. Null middle/endpoint distinctions remain
+explicit, and no false-positive support appears in the fixed controls.
+
+The supplied contract uses 315 tiles, 2,835 tile-moment entries and 4,550
+coefficient vectors containing 18,200 entries, plus whole-middle moments,
+bounds, breakpoints and coarsening witnesses. Complete labeled contracts total
+389,896 bytes across five families. These are redundant representation costs,
+not a compression ratio, minimal encoding or nine independent parameters.
+Complete boost/dilation transport includes coordinate-dependent raw moments
+and coefficient changes; stale warp equality excludes only its family label.
+
+All 73 AL tests pass normally and optimized, with independent complete family
+oracles and 49 non-noop corruption checks. Five current sources, 42 prior
+captures and 29 ancestor sources are authenticated. The first comparison,
+independent reference audit and external preflight agree without a post-first
+source or mathematical correction. See
+[QR-05AL results](../validation/qr-05al-middle-moments-2026-09-07/RESULTS.md)
+for retained evidence, final replays, exact witnesses and payload accounting.
+This is a finite declared-function contract on supplied geometry, not unknown
+geometry reconstruction, arbitrary dynamics closure or a gravity derivation.
+
+**Next proposed gate: QR-05AM, query reuse and explicit refinement.**
+Freeze the existing middle domains, tiles and moment payloads. Prespecify a
+small endpoint-query extension with an aligned case and a genuine interior
+clamp kink. Test coefficient-only reuse for functions certified bilinear on
+the old tiles. Unsupported functions require an explicit refinement decision;
+a separate supplied-geometry route may split affected tiles and derive child
+moments, checking additive recovery of all old moments and direct integrals.
+Retain a declared incorrect forced old-tile bilinear fit as a falsifiable
+control, including any equalities.
+
+Count coefficient-only updates separately from new tiles, moments and full payload.
+The old contract already retains bounds, so this is not a claim that further
+geometry cannot be recovered from its full record. No universally minimal grid
+or arbitrary-query interface is assumed. Freeze the detailed AM protocol before
+computation; no AM calculations have been performed. A degree-aware four-point
+operator extension can follow this bounded reuse test, with its additional
+middle-point coupling and polynomial-degree requirements made explicit.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AJ was pushed as
-`8c410538cab848205f837d3b07a9237357609b87` before AK began.
+scoped to this research; QR-05AK was pushed as
+`8527e35b565e2005e918209f125efd8bd8c9de1f` before AL began.
 
 ## Outcome sought
 
@@ -965,7 +1003,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AI: weighted causal-kernel refinement | Exact volume can coexist with a zero pair coefficient and nonzero continuum comparison; twenty point-error improvements, thirty unchanged, explicit singleton pair-support failure | Separate weighted finite targets, all directed cell-pair integrals and up-to-four-cell covariance; private diagnostic only, no inherited kernel bound or physical derivation |
 | QR-05AJ: additive cell-pair geometry across scales | All3,025 parent-pair blocks and900 direct/via-middle blocks agree;47 uniform and16 annotation-weight disagreements retained | Supplied two-point measure, explicit undefined zero-volume normalization and repeated-region diagonals; no transition matrix or higher-chain composition closure |
 | QR-05AK: shared-intermediate geometry and composition | All 19,375 true triple blocks are additive; pair products overestimate 1,100 positive triples and are exact in 430; shared-middle covariance accounts for the difference | Same supplied geometry and explicit nulls; no false-positive support in fixed cases, universal pair-summary impossibility, convergence or physical-law claim |
-| QR-05AL: breakpoint-aware middle moments (proposed) | Test tilewise bilinear functions and raw moments against direct shared-middle integration, with original-middle and tilewise mean-only controls | Count full query-dependent payload; no fixed outcomes, minimality, unknown-geometry reconstruction or arbitrary-dynamics closure |
+| QR-05AL: breakpoint-aware middle moments | All 26,775 triple measures reconstructed exactly; tilewise means reduce 205 errors but retain all 1,100 positive residuals; 475 nine-moment aggregation blocks agree | Full coordinate-dependent contract and payload counted; no minimality, universal query closure, unknown geometry or gravity claim |
+| QR-05AM: query reuse and explicit refinement (proposed) | Test coefficient-only reuse on frozen tiles versus explicit refinement for new endpoint-function breakpoints, retaining a forced old-tile fit control | Old bounds remain supplied geometry; count new payload, no fixed outcomes or universally minimal query interface |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
