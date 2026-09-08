@@ -663,25 +663,52 @@ and the 43,849,782-check raw-history audit passes. Seven frozen sources,
 authenticates 89 source/prior targets. No numerical or scientific-rule
 correction was required after the first fixed comparison.
 
-**Next proposed gate: QR-05AE, history-level safety diagnostic.**
-Freeze AD's global policy and complete interval families. Under the retained
-common mechanism witnesses, inspect each history's signed excess over the
-coarse forecast at included actual levels. Separate harmed-history
-likelihood mass and positive harm contribution from negative benefit;
-verify original-weight aggregation back to the case certificate. No
-history-specific weight fitting, averaging away harm or convenient point
-selection from an interval. Interval conclusions need explicit parametric
-quantifiers.
+**QR-05AE, history-level safety diagnostic: completed.**
+Under AD's retained common witnesses and unchanged point/whole-interval
+policies, none of the 240 decision/world certificates has positive
+conditional-history expected excess. Seventy-two worlds contain some
+strictly benefited histories; the other 168 are zero throughout their
+policy sets. All 482 original case-history occurrences and 480 complete
+sign strata are retained, including original-weight harm, signed benefit
+and zero-group polynomials. Every aggregate recovers AD exactly. Generic
+controls nonvacuously detect harm hidden by case-average cancellation.
 
-This diagnostic would cover the retained witnesses, not every mechanism
-in the replacement simplex. History-specific mechanism maxima, if later
-examined, require separate globally admissible witnesses and cannot be
-summed as though one history-dependent adversary were allowed. Record the
-complete AE protocol and limits before execution; no AE outcomes are known.
+This diagnoses the particular canonical witnesses, not every mechanism
+or every tied aggregate maximizer in the replacement simplex. Conditional
+expected-risk safety is not realized-outcome safety. No history-specific
+policy or mechanism selection, interval representative or new optimization
+is used; full AD baselines and earlier failures remain visible.
+All 289 tests pass normally and optimized, both fresh read-only replays are
+exact, and the 47,793,220-check raw-history audit passes. Seven frozen
+sources, 35 prior artifacts and final evidence bytes remain unchanged;
+97 source/prior targets are authenticated. No numerical or scientific-rule
+correction was required after the first fixed comparison.
+See [QR-05AE results](../validation/qr-05ae-history-safety-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05AF, supplied-geometry interface and spatially
+resolved diagnostic.** Return directly to geometry, with the interface
+protocol inside this gate rather than another forecasting prerequisite.
+Before computation, freeze a small supplied 1+1-dimensional geometry family,
+marked probe intervals, local interval/count and low-order scalar-kernel
+questions, retained-order access, and density/joint-inclusion assumptions.
+Compare finite full-order targets and observation-law means/covariances;
+separate finite-mesh discrepancy from comparison to supplied continuum
+quantities. Predictive sufficiency is not assumed to imply geometric
+sufficiency.
+
+Coordinates, metric truth and hidden relations remain generator/auditor
+information, not observer inputs. Do not fit density per target to force
+agreement. Carry D/E's endpoint collisions and embedding boundary, local
+density ambiguity, symmetry/calibration checks, missing support and
+nonuniform/correlated-sampling failures. Passing this diagnostic would not
+identify a metric, establish continuum emergence, couple quantum channels
+to geometry or derive gravitational dynamics. Freeze the detailed AF
+protocol before execution; no AF outcomes are known.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AC was pushed before AD began.
+scoped to this research; QR-05AD was pushed as
+`070f4795ddf48513839a1e85f3121681c943c645` before AE began.
 
 ## Outcome sought
 
@@ -756,7 +783,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AB: replacement-mechanism stress | All 192 old-set certificates remain safe under two fixed tilts; ten forward-mixture certificates lose their old negative bound while remaining beneficial | Complete old ties and adverse bound deviations retained; finite case-average controls, not arbitrary mechanism robustness or calibration |
 | QR-05AC: whole-fiber replacement envelope | All 96 old sets remain safe over the declared product simplex; 32 strictly beneficial; ten original negative bounds weaken | Original history weights and shared N-conditioned mechanisms; complete faces/witnesses; not arbitrary observation errors, calibration or per-history safety |
 | QR-05AD: continuous robust retention | Twelve strict improvements over the class-aware menu; 36 strict-benefit minima; 48 point and 48 interval optima | Complete laws, global witnesses and KKT certificates; old failures retained; not per-history safety or empirical calibration |
-| QR-05AE: history-level safety diagnostic (proposed) | Inspect the frozen global policy's signed history-level excess under retained common witnesses | Preserve interval families and original-weight aggregation; no per-history fitting or claim covering every replacement mechanism; no outcomes yet |
+| QR-05AE: history-level safety diagnostic | No positive conditional-history expected excess in 240 retained policy/world certificates; all AD aggregates recovered | Particular common witnesses only; complete interval sign partitions and original weights, not every replacement mechanism or realized-outcome safety |
+| QR-05AF: supplied-geometry interface and spatially resolved diagnostic (proposed) | Freeze supplied geometry, marked intervals, local order/count and scalar-kernel questions, then test declared observation access | Density/joint-inclusion premises and D/E obstructions retained; no metric identification, continuum emergence or gravity claim; no outcomes yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
