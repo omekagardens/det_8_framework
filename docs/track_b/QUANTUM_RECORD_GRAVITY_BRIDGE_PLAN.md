@@ -715,23 +715,49 @@ Passing this gate does not identify a metric, establish continuum emergence,
 couple quantum channels to geometry or derive gravitational dynamics.
 See [QR-05AF results](../validation/qr-05af-local-geometry-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05AG, supplied local-volume annotation interface.**
-Freeze a small synthetic partition and externally supplied positive cell/event
-volume marks before probe queries. Test weighted interval sums and observation
-correction, marked versus unmarked same-order warps, deliberately wrong marks,
-and unaligned-boundary controls. The first target is a declared finite volume
-functional; keep continuum/boundary-quadrature discrepancy separate from
-sampling bias. Do not fit marks or per-probe density to desired answers or
-apply a Poisson theorem to a deterministic mesh. This tests what the specified
-extra annotations make accessible, not their necessity or minimality, unknown
-metric/density recovery or gravitational dynamics. Freeze the detailed protocol
-before execution; no AG computations have been performed. No additional
+**QR-05AG, supplied local-volume annotation interface: completed.**
+Positive retained-cell marks now support a generic finite-volume estimator.
+Two engines and an independent packet oracle agree on all 1,152 rows across
+eighteen cases. Individual-inclusion correction recovers every supplied finite
+target in expectation, including singleton selection: positive vertex support
+suffices for these linear targets even when pair inclusion is zero. Complete
+cross-probe covariance retains diagonal, shared-cell and negative zero-joint
+terms and agrees with centered and second-moment calculations.
+
+Correct marks reproduce aligned volumes on this supplied partition. Under
+the active same-order warp, lower/upper aligned volumes change from 1/6 and
+1/12 to 1/18 and 5/24. Erasing marks leaves identical packets; retaining correct
+marks distinguishes base from warp under each of the six designs. Stale warped marks instead produce
+complete packets identical to the base, hiding annotation errors +1/9 and
+-1/8 despite correct whole-volume calibration. Unaligned boundary errors
+remain even with correct marks. Every comparison preserves three signed terms:
+sampling bias, annotation error and quadrature/boundary discrepancy.
+
+All 313 tests pass normally and optimized; both fresh exact replays pass.
+The independent raw audit passes 4,099,878 checks and authenticates seven AG
+sources, 37 prior captures and
+seven AF sources. No mathematical, implementation or fixture correction was
+needed after the first fixed comparison; one stale auditor comment was clarified.
+This is supplied measure information, not metric recovery, a continuum limit,
+minimal/necessary annotations or gravity. Prior quantum-record and forecasting
+arithmetic is preserved by identity, not replayed as AG computations.
+See [QR-05AG results](../validation/qr-05ag-local-volume-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05AH, partition refinement and boundary-error certificates.**
+Freeze a small nested partition family, additive supplied geometric marks,
+representative rules and refined observation access before calculations.
+Compare aligned additivity, unaligned interval sums and source-aware inner/outer
+cell-volume bounds with their boundary-cell gap. Keep stale annotation errors
+and sampling bias separate. Do not assume each signed quadrature error improves
+monotonically with refinement or expose hidden cell bounds in an order-only API.
+The target is a bounded refinement/error certificate, not an unknown metric or
+claimed continuum limit. No AH calculations have been performed; no additional
 forecasting prerequisite is introduced.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AE was pushed as
-`7109ae7e0d46598424484aa8f0a74dae07d4b875` before AF began.
+scoped to this research; QR-05AF was pushed as
+`39921dff4fc9e9bbc02817659473c87bda1bb430` before AG began.
 
 ## Outcome sought
 
@@ -808,7 +834,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AD: continuous robust retention | Twelve strict improvements over the class-aware menu; 36 strict-benefit minima; 48 point and 48 interval optima | Complete laws, global witnesses and KKT certificates; old failures retained; not per-history safety or empirical calibration |
 | QR-05AE: history-level safety diagnostic | No positive conditional-history expected excess in 240 retained policy/world certificates; all AD aggregates recovered | Particular common witnesses only; complete interval sign partitions and original weights, not every replacement mechanism or realized-outcome safety |
 | QR-05AF: local supplied-geometry observation interface | Exact record-local interval/chain estimates and source-aware joint covariance; same-order packets leave supplied local volumes ambiguous | Selection law and supported finite targets distinguished from hidden geometry; D/E and wrong-channel controls retained; no metric identification or gravity claim |
-| QR-05AG: supplied local-volume annotation interface (proposed) | Freeze independent positive local-volume marks, then test weighted finite interval targets, sampling and boundary discrepancy | Marked/unmarked warp and wrong-mark controls; no fitting to queried answers, unknown metric recovery, necessity/minimality or gravity claim; no outcomes yet |
+| QR-05AG: supplied local-volume annotation interface | Corrected finite-volume means agree even under singleton selection; true marks reproduce aligned volumes but boundary errors and stale-mark ambiguity remain | Sampling, annotation and quadrature errors separated; source-aware signed covariance; no mark authentication, metric recovery or gravity claim |
+| QR-05AH: partition refinement and boundary-error certificates (proposed) | Freeze nested cells, additive marks and observation access; test interval sums and inner/outer volume bounds | No assumed monotonic signed error, hidden-boundary leakage, unknown metric recovery or continuum-limit claim; no outcomes yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
