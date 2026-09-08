@@ -685,30 +685,53 @@ sources, 35 prior artifacts and final evidence bytes remain unchanged;
 correction was required after the first fixed comparison.
 See [QR-05AE results](../validation/qr-05ae-history-safety-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05AF, supplied-geometry interface and spatially
-resolved diagnostic.** Return directly to geometry, with the interface
-protocol inside this gate rather than another forecasting prerequisite.
-Before computation, freeze a small supplied 1+1-dimensional geometry family,
-marked probe intervals, local interval/count and low-order scalar-kernel
-questions, retained-order access, and density/joint-inclusion assumptions.
-Compare finite full-order targets and observation-law means/covariances;
-separate finite-mesh discrepancy from comparison to supplied continuum
-quantities. Predictive sufficiency is not assumed to imply geometric
-sufficiency.
+**QR-05AF, local supplied-geometry observation interface: completed.**
+Geometry work has resumed directly. Two generic engines and an independent
+literal oracle agree on all 1,280 retained packets across twenty cases,
+including zero-probability rows. Marked intervals expose causal indicators,
+event and ordered-pair counts and three scalar-kernel coefficients. The API
+receives induced order, fixed probes, density and selection law, not source
+geometry or hidden relations. Exact means, support completeness and full
+cross-probe/cross-degree covariances belong to the source-aware audit layer.
 
-Coordinates, metric truth and hidden relations remain generator/auditor
-information, not observer inputs. Do not fit density per target to force
-agreement. Carry D/E's endpoint collisions and embedding boundary, local
-density ambiguity, symmetry/calibration checks, missing support and
-nonuniform/correlated-sampling failures. Passing this diagnostic would not
-identify a metric, establish continuum emergence, couple quantum channels
-to geometry or derive gravitational dynamics. Freeze the detailed AF
-protocol before execution; no AF outcomes are known.
+Joint-inclusion correction removes design bias where support is complete;
+finite geometric discrepancy remains separate. Identical complete packet laws
+without local-volume annotations under an active same-order warp coexist with
+different local volumes: the two central supplied volumes change from 1/8 each to 1/32 and
+9/32 while count-derived volumes stay 1/6 each. Global density calibration
+does not identify local volume. Correct dilation and boost checks, wrong
+density, nonuniform/correlated sampling, missing support and wrong original-
+Hasse-link observation channels all remain explicit. D/E endpoint collisions,
+variance differences and singleton-law nonidentification are preserved.
+
+All 286 tests pass normally and optimized, and both fresh read-only replays
+are exact. The independent raw audit passes
+12,959,009 checks and authenticates 58 source/prior targets; seven frozen AF
+sources, 36 prior captures and final evidence bytes remain unchanged.
+No numerical or scientific-rule correction was required after the first fixed
+comparison. An auditor-only historical D-v1 encoding check was corrected
+before publication freeze, without altering historical bytes or AF arithmetic.
+Passing this gate does not identify a metric, establish continuum emergence,
+couple quantum channels to geometry or derive gravitational dynamics.
+See [QR-05AF results](../validation/qr-05af-local-geometry-2026-09-07/RESULTS.md).
+
+**Next proposed gate: QR-05AG, supplied local-volume annotation interface.**
+Freeze a small synthetic partition and externally supplied positive cell/event
+volume marks before probe queries. Test weighted interval sums and observation
+correction, marked versus unmarked same-order warps, deliberately wrong marks,
+and unaligned-boundary controls. The first target is a declared finite volume
+functional; keep continuum/boundary-quadrature discrepancy separate from
+sampling bias. Do not fit marks or per-probe density to desired answers or
+apply a Poisson theorem to a deterministic mesh. This tests what the specified
+extra annotations make accessible, not their necessity or minimality, unknown
+metric/density recovery or gravitational dynamics. Freeze the detailed protocol
+before execution; no AG computations have been performed. No additional
+forecasting prerequisite is introduced.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AD was pushed as
-`070f4795ddf48513839a1e85f3121681c943c645` before AE began.
+scoped to this research; QR-05AE was pushed as
+`7109ae7e0d46598424484aa8f0a74dae07d4b875` before AF began.
 
 ## Outcome sought
 
@@ -784,7 +807,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AC: whole-fiber replacement envelope | All 96 old sets remain safe over the declared product simplex; 32 strictly beneficial; ten original negative bounds weaken | Original history weights and shared N-conditioned mechanisms; complete faces/witnesses; not arbitrary observation errors, calibration or per-history safety |
 | QR-05AD: continuous robust retention | Twelve strict improvements over the class-aware menu; 36 strict-benefit minima; 48 point and 48 interval optima | Complete laws, global witnesses and KKT certificates; old failures retained; not per-history safety or empirical calibration |
 | QR-05AE: history-level safety diagnostic | No positive conditional-history expected excess in 240 retained policy/world certificates; all AD aggregates recovered | Particular common witnesses only; complete interval sign partitions and original weights, not every replacement mechanism or realized-outcome safety |
-| QR-05AF: supplied-geometry interface and spatially resolved diagnostic (proposed) | Freeze supplied geometry, marked intervals, local order/count and scalar-kernel questions, then test declared observation access | Density/joint-inclusion premises and D/E obstructions retained; no metric identification, continuum emergence or gravity claim; no outcomes yet |
+| QR-05AF: local supplied-geometry observation interface | Exact record-local interval/chain estimates and source-aware joint covariance; same-order packets leave supplied local volumes ambiguous | Selection law and supported finite targets distinguished from hidden geometry; D/E and wrong-channel controls retained; no metric identification or gravity claim |
+| QR-05AG: supplied local-volume annotation interface (proposed) | Freeze independent positive local-volume marks, then test weighted finite interval targets, sampling and boundary discrepancy | Marked/unmarked warp and wrong-mark controls; no fitting to queried answers, unknown metric recovery, necessity/minimality or gravity claim; no outcomes yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
