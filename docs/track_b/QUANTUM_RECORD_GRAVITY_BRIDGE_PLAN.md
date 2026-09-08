@@ -743,21 +743,56 @@ minimal/necessary annotations or gravity. Prior quantum-record and forecasting
 arithmetic is preserved by identity, not replayed as AG computations.
 See [QR-05AG results](../validation/qr-05ag-local-volume-2026-09-07/RESULTS.md).
 
-**Next proposed gate: QR-05AH, partition refinement and boundary-error certificates.**
-Freeze a small nested partition family, additive supplied geometric marks,
-representative rules and refined observation access before calculations.
-Compare aligned additivity, unaligned interval sums and source-aware inner/outer
-cell-volume bounds with their boundary-cell gap. Keep stale annotation errors
-and sampling bias separate. Do not assume each signed quadrature error improves
-monotonically with refinement or expose hidden cell bounds in an order-only API.
-The target is a bounded refinement/error certificate, not an unknown metric or
-claimed continuum limit. No AH calculations have been performed; no additional
-forecasting prerequisite is introduced.
+**QR-05AH, partition refinement and boundary-error certificates: completed.**
+Two new source-aware certifiers and an independent oracle agree on five
+three-level partition families and a separate generic counterexample. Both
+the geometric representative sum G and supplied continuum volume V lie within
+inner/outer cell-volume bounds [L,U]. Exact child partitions give nondecreasing
+L, nonincreasing U and a nonincreasing boundary gap. Ten of fifty main-family
+gap comparisons tighten strictly, while all fifty absolute quadrature-error
+changes are zero. The counterexample halves the gap from 1/2 to 1/4 while
+absolute error increases from 1/10 to 3/20: tighter enclosures do not guarantee
+more accurate point estimates.
+
+The unchanged AG observer receives no cell geometry or lineage. All 27
+sampling cases and nine complete AG level-zero bridges agree exactly;
+sampling bias, stale annotation error and quadrature error remain separate.
+Stale supplied targets can lie outside correct geometric bounds. Refinement
+lowers the listed independent-half variances but raises singleton variances;
+these are fresh level-specific frames/laws, not cross-level stochastic
+transport. Boost and dilation controls hold across all levels.
+
+All 305 tests and both fresh exact replays pass normally and optimized. The
+independent raw audit passes 27,567,114 checks and authenticates seven AH
+sources, 38 prior captures and seven AG sources, all unchanged.
+No mathematical, implementation or fixture correction followed the first
+fixed comparison. With supplied rectangles V is already directly calculable:
+this verifies a finite refinement/error contract, not extra geometric
+information, metric reconstruction, continuum convergence or gravity.
+See [QR-05AH results](../validation/qr-05ah-boundary-refinement-2026-09-07/RESULTS.md)
+for final replay/audit evidence and the complete counts.
+
+**Next proposed gate: QR-05AI, weighted causal-kernel refinement.**
+Reconnect AF's scalar causal-propagation comparison to AG/AH cell-volume
+marks on the same bounded partitions and probes. Compare finite weighted
+one-cell and comparable-distinct-cell chain targets with supplied continuum
+coefficient targets, retaining full chain/support evidence and exact design
+moments. Distinct-pair means need pair inclusion; covariance may require
+up-to-four-cell inclusion. Preserve singleton's pair-support failure.
+
+Separate within-cell omissions, partial cross-cell causality, probe boundaries,
+stale marks and observation effects. AH's linear-volume enclosure does not
+automatically bound a two-cell kernel or imply monotone point-error improvement.
+Preserve AG/AH zero-volume markers and explicitly reconcile AF's different
+internal-event counting convention. Freeze normalization, weighted events,
+chain rules, laws and output before calculation. This is a formula-free
+proposal; no AI calculations have been performed. No additional forecasting
+prerequisite, quantum CP-map construction or gravitational claim is introduced.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AF was pushed as
-`39921dff4fc9e9bbc02817659473c87bda1bb430` before AG began.
+scoped to this research; QR-05AG was pushed as
+`f603b02ffba1d6965695eb13e572ad554f7d1827` before AH began.
 
 ## Outcome sought
 
@@ -835,7 +870,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AE: history-level safety diagnostic | No positive conditional-history expected excess in 240 retained policy/world certificates; all AD aggregates recovered | Particular common witnesses only; complete interval sign partitions and original weights, not every replacement mechanism or realized-outcome safety |
 | QR-05AF: local supplied-geometry observation interface | Exact record-local interval/chain estimates and source-aware joint covariance; same-order packets leave supplied local volumes ambiguous | Selection law and supported finite targets distinguished from hidden geometry; D/E and wrong-channel controls retained; no metric identification or gravity claim |
 | QR-05AG: supplied local-volume annotation interface | Corrected finite-volume means agree even under singleton selection; true marks reproduce aligned volumes but boundary errors and stale-mark ambiguity remain | Sampling, annotation and quadrature errors separated; source-aware signed covariance; no mark authentication, metric recovery or gravity claim |
-| QR-05AH: partition refinement and boundary-error certificates (proposed) | Freeze nested cells, additive marks and observation access; test interval sums and inner/outer volume bounds | No assumed monotonic signed error, hidden-boundary leakage, unknown metric recovery or continuum-limit claim; no outcomes yet |
+| QR-05AH: partition refinement and boundary-error certificates | Ten main-family enclosures tighten with unchanged point errors; a generic counterexample tightens bounds while worsening absolute error | Source-aware geometric bounds, unchanged geometry-blind observer, additive partitions and separate three errors; no monotone point-error, cross-level transport, metric or continuum claim |
+| QR-05AI: weighted causal-kernel refinement (proposed) | Compare local-volume-weighted cell/chain targets with supplied continuum coefficients on the existing nested partitions | Freeze conventions first; separate pair support, within-cell omissions, partial causality and boundary/annotation errors; no inherited bilinear error bound or outcomes yet |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
