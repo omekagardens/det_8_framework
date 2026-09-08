@@ -926,35 +926,81 @@ authenticated. No post-first source or mathematical correction was needed.
 See [QR-05AM results](../validation/qr-05am-query-reuse-2026-09-07/RESULTS.md)
 for the fixed mixed-reuse witness, captures and read-only replays.
 
-**Next proposed gate: QR-05AN, degree-aware four-point composition.**
-Test one further causal integration with two explicitly coupled middle points.
-For endpoint A, middles B,C and endpoint D, propagate
-F_AB(z)=integral_B L_A(y) 1[y precedes z] dmu(y), then integrate
-F_AB(z) R_D(z) over C. Do not replace this coupling with a product of
-independent local Gram summaries.
+**QR-05AN, degree-aware four-point composition: completed.**
+Both engines agree on all 15,586 four-point measures, 2,142 triples and 298
+pairs in the reduced grid/warp whole-probe scope. Nine propagated coefficients
+and sixteen raw tile moments preserve the coupling of two intermediate points.
+All 38 moment blocks, 1,550 field blocks and 9,986 true quadruple blocks agree
+under refinement, including 2,592 direct/via-middle reconstructions.
 
-For the supplied rectangular product-order model, the propagated field is
-piecewise degree at most two in each coordinate. A candidate representation
-therefore uses nine propagated coefficients; pairing it with a bilinear
-outgoing function requires cross moments through degree three per coordinate,
-sixteen raw entries. This is an explicit degree-aware extension, not a claim
-that AM's fixed nine-moment menu closes under arbitrary further composition.
+The corner-bilinear truncation overestimates 612 of 804 positive quadruples;
+the mean-only control overestimates 562. Neither has false-positive support
+in this fixed scope. There are 1,080 nonbilinear forced equalities, all with
+zero exact measure: weighted answer agreement is not a field certificate.
+Forced has lower absolute error on 289 rows, mean on 254, with 15,043 ties.
+The approximations therefore do not uniformly dominate each other.
 
-Prespecify a forced bilinear fit of that propagated field as a truncation
-control, retaining signed errors and equalities. Compare the full contraction
-with independent four-point integration; check breakpoint admission, all
-required moment additivity, repeated/empty regions, coordinate transport and
-the complete added payload. The full retained bounds permit fresh derivation:
-no information-theoretic loss of supplied geometry or minimal representation
-is implied. A smaller fixed scope such as grid/warp, whole probe and the three
-existing partitions can keep complete quadruple tests bounded; freeze the
-detailed AN protocol and its exact inventory before any fixed AN computation.
-No fixed AN calculations have been performed.
+The contract retains 52 tiles, 832 tile-moment entries, 2,752 nine-entry
+propagated vectors and complete forced/outgoing/coarsening data. Labeled
+moment/field contracts total 517,787 bytes; the complete canonical suite is
+8,365,472 bytes. These are explicit redundant representation costs, not a
+minimal or compressed wire. Generic full affine transport and empty clips
+pass; fixed transformed/partial families were not run, and AM moments were
+not reused. Selected AM geometry is authenticated without replaying old answers.
+
+All 66 tests pass normally and optimized, including complete independent
+family oracles and 44 non-noop corruptions. Five current sources, 44 prior
+captures and 39 ancestor sources remain authenticated. No post-first source,
+protocol, fixture or mathematical correction was needed. See
+[QR-05AN results](../validation/qr-05an-four-point-degree-2026-09-08/RESULTS.md)
+for exact witnesses, both approximation controls, payload and final replays.
+This establishes a declared finite-degree response on supplied geometry,
+not universal composition closure, unknown geometry, quantum dynamics or gravity.
+
+**Next proposed gate: QR-05AO, response-preserving coarse field measurements.**
+Ask which coarse observations preserve declared geometric responses without
+retaining the complete fine field. Start with grid/warp, whole probe, l1->l2
+only: 64 ordered fine F_ab generators, 49 coarse (C,D) responses and 64 fine
+responses per family. No fifth-point integration is needed for this question.
+
+The new input restriction must be explicit. Unlike AN's known region pair,
+let the incoming field be an UNKNOWN convex mixture of the fine generators.
+The decoder receives observations and known normalization, supplied coarse
+geometry/outgoing coefficients and a certified response decoder; it cannot
+read mixture weights or the complete fine coefficients. Compare one field
+integral per coarse shared tile (equivalent to its mean with known volume)
+with four weighted field moments integral_tile F*(1,u,v,uv). These carry
+information about the field; they are not the geometry-only M_ij.
+
+For observation matrix O, append the normalization row:
+O_tilde=[1^T;O]. For each complete target matrix Q, certify recovery with
+Q=D O_tilde, equivalently ker(O_tilde) contained in ker(Q), or retain a
+rational witness w with O_tilde w=0 and Qw nonzero. Normalizing w's positive
+and negative parts by their equal sum yields two actual convex mixtures with
+the same observations and different responses. An unconstrained signed
+difference alone must not be called an admissible mixture collision.
+
+Four field moments per coarse tile constructively recover coarse responses
+because their outgoing functions are bilinear there. Finer response weights
+add subcell restrictions and breakpoints; whether some other decoder still
+works on this particular finite source span is a separate test, not an assumed
+failure. Also test full fine-field reconstruction through its coefficient
+synthesis matrix, modulo dependencies among generator columns. Retain complete
+matrices, ranks, decoders or collisions; report costs including supplied
+geometry and decoder data. No universal minimality or physical preparation
+of these mathematical mixtures is implied.
+
+This is response-relative information loss on SUPPLIED geometry, not an
+inverse problem for unknown spacetime. A change of coordinates/basis is
+reversible; discarding the fine field may lose information while preserving
+selected responses. If the full fine field or weights are still retained,
+no loss of the full record follows. Freeze the detailed AO protocol before
+fixed calculation; no fixed AO calculation has been performed.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AL was pushed as
-`578c28311d747680771adc61923192c898720bbd` before AM began.
+scoped to this research; QR-05AM was pushed as
+`0e65df824a7e19d5b6420036d5e98f5a6073d81a` before AN began.
 
 ## Outcome sought
 
@@ -1038,7 +1084,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AK: shared-intermediate geometry and composition | All 19,375 true triple blocks are additive; pair products overestimate 1,100 positive triples and are exact in 430; shared-middle covariance accounts for the difference | Same supplied geometry and explicit nulls; no false-positive support in fixed cases, universal pair-summary impossibility, convergence or physical-law claim |
 | QR-05AL: breakpoint-aware middle moments | All 26,775 triple measures reconstructed exactly; tilewise means reduce 205 errors but retain all 1,100 positive residuals; 475 nine-moment aggregation blocks agree | Full coordinate-dependent contract and payload counted; no minimality, universal query closure, unknown geometry or gravity claim |
 | QR-05AM: query reuse and explicit refinement | All 2,625 queries agree: 810 reuse, 540 refinement and 1,275 empty; 1,220 derived pieces preserve all nine old moments, with 20 mixed retained/refined queries | Primary consumes trusted moments, reference geometrically checks them; structural admission is not accidental answer equality; no minimal or universal query interface |
-| QR-05AN: degree-aware four-point composition (proposed) | Test propagated biquadratic fields and a degree-three moment contraction against direct four-point integration and a forced bilinear truncation | Explicit coupling of two middle points, complete extra payload; no fixed outcome, arbitrary composition closure or gravity claim |
+| QR-05AN: degree-aware four-point composition | All 15,586 quadruples and 9,986 true blocks agree exactly; forced/mean controls overestimate 612/562 positive rows and neither uniformly dominates | Nine propagated coefficients, sixteen raw moments, structural admission and full payload; no universal degree closure, unknown geometry or gravity claim |
+| QR-05AO: response-preserving coarse field measurements (proposed) | Test coarse field integrals versus four weighted field moments for coarse responses, fine responses and full-field reconstruction on a declared convex-mixture family | Complete decoder or normalized nonnegative collision, explicit access restrictions; no assumed rank/outcome, physical mixture preparation or unknown-geometry claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
