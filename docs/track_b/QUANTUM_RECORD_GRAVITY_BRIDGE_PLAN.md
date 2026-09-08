@@ -1063,35 +1063,68 @@ be zero; generic nonzero-intercept and undefined-normalization cases pass.
 AP error amplification and AQ dictionary-simplex mismatch extrema are
 different quantities, neither an empirically calibrated performance claim.
 
-**Next proposed gate: QR-05AR, fine-response measurement sufficiency.**
-Keep the same supplied grid/warp geometry and AQ's nonnegative source
-dictionary. Change the question family to all ordered FINE-region responses,
-while initially retaining only the four moments per COARSE tile. Independently
-integrate true fine responses. A failed inherited decoder would not prove
-measurement insufficiency; test the full normalized observation interface
-A=[1^T;O_coarse] instead.
+**QR-05AR completed: fine-response measurement sufficiency.**
+On the SAME AQ nonnegative source simplex, the 32 coarse moments cannot
+determine all 64 fine-region responses. Each geometry retains 51 recoverable
+rows (33 identically zero and 18 nonzero) and the same 13 failed rows.
+Complete normalized nonnegative collisions have identical coarse observations
+and different true fine responses, so this is actual information loss, not
+just failure of one inherited decoder. No decoder of the same coarse data
+can resolve those collisions throughout the declared simplex.
 
-Retain either an exact fine-response decoder identity or a genuine obstruction:
-w in ker(A) with Q_fine*w nonzero. Split w into positive and negative parts
-and normalize each by their equal positive mass to obtain TWO nonnegative
-mixtures with identical coarse observations and different fine responses.
-Retain both complete weight/measurement/response vectors and a separating row.
-Do not presume a failure or silently drop known weight normalization.
+The exact ranks of (A,Q_fine,[A;Q_fine]) are grid (32,24,37) and warp
+(33,24,38), with A=[1^T;O_coarse]. Normalization is known, not an additional
+measured channel. The thirteen failed questions span only five missing
+directions modulo A in each geometry; row counts are not probabilities.
 
-As an explicit repair control, acquire four incoming-field moments per fine
-tile, structurally check fine destination branches, and independently derive
-the fine-response map. Verify that coarse moments are their parent-wise sums.
-If further breakpoint splitting is required, declare and count it before
-fixed execution. Fine moments are NEW measurements of the unknown field;
-known geometry alone cannot supply them from coarse data. No minimal repair
-or free coarse-to-fine inversion is claimed.
+The explicit repair acquires 48 incoming-field moments on the twelve fine
+tiles in each family. The deterministic overlay adds no pieces in these
+fixed cases; generic controls require and check extra splitting without
+changing original source coordinates. Independently integrated fine truths
+equal every repair prediction. Fine measurements are NEW field values,
+not values supplied by geometry or inferred freely from coarse data.
+This does not establish a minimal local measurement bank or physical apparatus.
 
-Keep the next gate bounded to query resolution: exact recovery-or-collision
-certificates, the explicit measurement repair and complete affine/empty-region
-controls. Preserve AO's narrow-span result and AQ's coarse structural result.
-No new source enlargement, full-field reconstruction, noise optimization,
-physical sensor interface, unknown metric or gravitational dynamics. Freeze
-the detailed AR protocol before fixed calculations; none has run.
+All 65 tests pass normally and optimized; the independent reference-only
+audit, final create-only capture and fresh read-only replays agree exactly.
+Five AR sources, 48 prior captures and 59 ancestor sources remain authenticated;
+the suite is 688,321 bytes. No post-first source, protocol, fixture or
+mathematical correction was needed. AO's narrower source-span result and
+AQ's coarse structural identity remain intact. See
+[QR-05AR results](../validation/qr-05ar-fine-response-sufficiency-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05AS, query-specific supplemental readouts.**
+Keep the same sources, normalization, supplied geometry and fine questions.
+Construct a complete exact interface from coarse measurements plus new scalar
+linear readouts. Let delta=rank([A;Q_fine])-rank(A), five in the AR evidence.
+Greedily select original target rows independent of the span of A and all
+previously selected target rows;
+retain their labels, complete repair-moment coefficient filters, source-column
+values and a full decoder for every target. Freeze the detailed construction
+and canonical choices before AS fixed calculations; none has run.
+
+Prove the lower bound for fixed noiseless scalar LINEAR readouts on the full
+normalized simplex: k extra rows increase rank by at most k, so k>=delta.
+Construct exactly delta using selected target functionals. Known affine
+intercepts add no information beyond normalization. Even nonlinear decoding
+of fewer fixed linear readouts cannot evade a remaining simplex collision;
+this is not a bound for arbitrary nonlinear encodings or adaptive sensing.
+
+The intended application is query-specific transmission/storage: a source-side
+system with fine access emits the supplemental values, and a receiver uses
+ONLY coarse observations plus those values. Selected filters literally measure
+selected target functionals. Geometry supplies their coefficients, not their
+unknown measured values. Full identities, actual access boundaries, canonical
+selection, empty-supplement controls and affine transport must be checked.
+The supplemented width need not be divisible by four, so AR's moment-bank-only
+application admission cannot be silently reused.
+
+This is algebraic readout-count minimality, not the smallest subset of individual
+fine moments, minimum sensor count, support, precision or acquisition cost.
+A signed/global filter may require many local measurements. Selecting a local
+moment bank is a different optimization and can require more than delta rows.
+Do not enlarge the source model or infer full-field recovery, empirical noise
+robustness, physical preparation, unknown geometry or gravitational dynamics.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -1184,7 +1217,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AO: response-preserving coarse field measurements | Integrals fail all three targets; weighted coarse moments recover coarse/fine responses and the complete rank-23 field in both fixed families | Complete decoders and normalized nonnegative collisions; restricted online access, supplied geometry and declared span, not identifiable weights, arbitrary fields or noisy robustness |
 | QR-05AP: bounded measurement-error stability | Geometric maximum gain 4 versus canonical 535/6 (grid), 7313/50 (warp); each family has 6 canonical-lower, 4 geometric-lower and 39 tied rows | All sharp row witnesses and maximum ties, same frozen maps/dimensionless box; no uniform row/error dominance, empirical noise, field-realizable perturbation or full-field stability claim |
 | QR-05AQ: frozen-decoder source-span portability | Geometric map remains exact; canonical fails ten response rows per family with 305/330 residuals and sharp normalized mismatch 11/36,49/100 | Nonnegative source witnesses and all signed extrema; decoder model dependence, not measurement insufficiency, empirical noise, physical-source or full-field extension |
-| QR-05AR: fine-response measurement sufficiency (proposed) | Test coarse moments against fine-region responses on the same AQ sources; retain exact recovery or normalized nonnegative collisions and an explicit fine-moment repair | Actual observation sufficiency, not failure of one decoder; normalization and new measurement access retained; no presumed failure, minimal repair, full-field or physical claim |
+| QR-05AR: fine-response measurement sufficiency | Each geometry recovers 51 of 64 fine rows (33 zero), fails 13, and has normalized nonnegative coarse collisions; 48 fine moments repair all responses | Actual information loss, not decoder failure; unchanged sources and new measurement access; no minimal repair, full-field or physical claim |
+| QR-05AS: query-specific supplemental readouts (proposed) | Construct exact selected-target filters and full decoding from coarse data plus the missing query directions; AR rank increment is five per geometry | Minimal fixed noiseless scalar linear readouts on the declared simplex only; no free measurements, local-bank or sensor-cost minimality, nonlinear-encoding, noise or physical claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
