@@ -1093,38 +1093,64 @@ mathematical correction was needed. AO's narrower source-span result and
 AQ's coarse structural identity remain intact. See
 [QR-05AR results](../validation/qr-05ar-fine-response-sufficiency-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05AS, query-specific supplemental readouts.**
-Keep the same sources, normalization, supplied geometry and fine questions.
-Construct a complete exact interface from coarse measurements plus new scalar
-linear readouts. Let delta=rank([A;Q_fine])-rank(A), five in the AR evidence.
-Greedily select original target rows independent of the span of A and all
-previously selected target rows;
-retain their labels, complete repair-moment coefficient filters, source-column
-values and a full decoder for every target. Freeze the detailed construction
-and canonical choices before AS fixed calculations; none has run.
+**QR-05AS completed: query-specific supplemental linear readouts.**
+Exactly five additional fixed scalar linear readouts suffice, and fewer
+cannot suffice, on the SAME normalized source simplex with the existing
+32 coarse measurements retained. Both families select fine-response rows
+[1,9,10,11,14], labels (1,2),(2,2),(2,3),(2,4),(2,9). Their literal inherited
+filters contain twelve nonzero coefficients over six fine-bank coordinates.
+The receiver takes 37 measured values; known normalization is separate.
+All 64 fine responses, including the thirteen previously failing rows, now
+have complete exact decoder identities and predictions.
 
-Prove the lower bound for fixed noiseless scalar LINEAR readouts on the full
-normalized simplex: k extra rows increase rank by at most k, so k>=delta.
-Construct exactly delta using selected target functionals. Known affine
-intercepts add no information beyond normalization. Even nonlinear decoding
-of fewer fixed linear readouts cannot evade a remaining simplex collision;
-this is not a bound for arbitrary nonlinear encodings or adaptive sensing.
+The exact rank increment is five in each geometry. Five canonical right-inverse
+directions per case produce normalized nonnegative mixture pairs that agree
+on all coarse values and four supplements but disagree on the omitted fifth
+and its named target. This proves each chosen member indispensable; the
+separate rank argument proves the global five-extra LINEAR-readout lower bound
+on the declared simplex, even with nonlinear decoding of those linear data.
+It is not a bound for nonlinear/adaptive encoding or smaller physical domains.
 
-The intended application is query-specific transmission/storage: a source-side
-system with fine access emits the supplemental values, and a receiver uses
-ONLY coarse observations plus those values. Selected filters literally measure
-selected target functionals. Geometry supplies their coefficients, not their
-unknown measured values. Full identities, actual access boundaries, canonical
-selection, empty-supplement controls and affine transport must be checked.
-The supplemented width need not be divisible by four, so AR's moment-bank-only
-application admission cannot be silently reused.
+The producer uses only filter coefficients and fine-bank values; the receiver
+uses only its affine map and coarse-plus-supplement values. Empty widths and
+normalization-only cases are admitted. Geometry does not supply unknown
+measurements. Five is conditional on retaining coarse O, not a minimum total
+packet, local moment bank, sensor count or acquisition cost. Six-coordinate
+filter support is diagnostic, not acquisition minimality; the implemented
+producer still takes a full bank vector.
 
-This is algebraic readout-count minimality, not the smallest subset of individual
-fine moments, minimum sensor count, support, precision or acquisition cost.
-A signed/global filter may require many local measurements. Selecting a local
-moment bank is a different optimization and can require more than delta rows.
-Do not enlarge the source model or infer full-field recovery, empirical noise
-robustness, physical preparation, unknown geometry or gravitational dynamics.
+Grid's canonical receiver has an intercept 1/864 at (10,10); warp's intercepts
+are zero. The finite normalized-source result must not silently become a
+general-field claim. All 57 tests pass normally and optimized; complete
+independent comparisons, ten omission witnesses and read-only replays agree.
+The 596,785-byte suite and all 118 identities remain exact, with no post-first
+source, protocol, fixture or mathematical correction. See
+[QR-05AS results](../validation/qr-05as-query-supplements-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05AT, bank-level structural portability.**
+Freeze AS's SAME intercept a, receiver L and selected filters F; keep AR's
+supplied geometry, full bank map G and source-column matrices. Derive the
+coarse parent-sum map C independently from authenticated tile lineage and
+verify O=C R. No new source dictionary, geometry integration or decoder fit.
+Partition L=[Lc Lh] by coarse and supplemental coordinates and form
+K=Lc C+Lh F. Retain the full affine bank defect a+(K-G)z.
+
+The inherited source equality a*1^T+(K-G)R=0 does not establish the unrestricted
+bank conditions a=0 and K=G. Compare every coefficient, preserve nonzero
+intercepts/defects, and use prespecified zero/unit-bank controls if needed.
+Such controls diagnose off-model algebra; they are not automatically
+nonnegative physical fields or violations of known observables. A limitation
+of the frozen canonical map is not proof that the measurement interface is
+insufficient. Do not refit it or infer new off-model normalization constraints
+by fitting the residuals. Weight normalization is not automatically ordinary
+field-integral normalization.
+
+Freeze the detailed AT protocol before new C/K/defect calculations; none has
+run. This structural boundary should be settled before a shared-bank error
+study. If coarse and supplemental values later come from the same noisy bank,
+their errors must share that primitive input; independent output boxes are a
+different model. Keep minimality, robustness, physical preparation, unknown
+geometry and gravitational dynamics as separate claims.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -1218,7 +1244,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AP: bounded measurement-error stability | Geometric maximum gain 4 versus canonical 535/6 (grid), 7313/50 (warp); each family has 6 canonical-lower, 4 geometric-lower and 39 tied rows | All sharp row witnesses and maximum ties, same frozen maps/dimensionless box; no uniform row/error dominance, empirical noise, field-realizable perturbation or full-field stability claim |
 | QR-05AQ: frozen-decoder source-span portability | Geometric map remains exact; canonical fails ten response rows per family with 305/330 residuals and sharp normalized mismatch 11/36,49/100 | Nonnegative source witnesses and all signed extrema; decoder model dependence, not measurement insufficiency, empirical noise, physical-source or full-field extension |
 | QR-05AR: fine-response measurement sufficiency | Each geometry recovers 51 of 64 fine rows (33 zero), fails 13, and has normalized nonnegative coarse collisions; 48 fine moments repair all responses | Actual information loss, not decoder failure; unchanged sources and new measurement access; no minimal repair, full-field or physical claim |
-| QR-05AS: query-specific supplemental readouts (proposed) | Construct exact selected-target filters and full decoding from coarse data plus the missing query directions; AR rank increment is five per geometry | Minimal fixed noiseless scalar linear readouts on the declared simplex only; no free measurements, local-bank or sensor-cost minimality, nonlinear-encoding, noise or physical claim |
+| QR-05AS: query-specific supplemental linear readouts | Five extra scalar readouts per case recover all fine targets; twelve nonzero filter coefficients use six bank coordinates, with five complete omission witnesses | Minimum extra fixed noiseless LINEAR readouts given coarse O on the normalized simplex; no minimal total packet, local-bank/sensor cost, off-model, nonlinear-encoding or physical claim |
+| QR-05AT: bank-level structural portability (proposed) | Compare the same frozen affine receiver with the full bank response map using independently derived coarse parent sums | Complete coefficient defects and source restriction; no refit, inferred off-model normalization, physical-source, noise or gravity claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
