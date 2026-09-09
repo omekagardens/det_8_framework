@@ -1,0 +1,17 @@
+{
+  "schema": "qr05bm-protocol-v1",
+  "quota": 4,
+  "worlds": [
+    {"id": "A", "eta": 0, "scale": 1, "density_uv": 0},
+    {"id": "B", "eta": 1, "scale": 1, "density_uv": 0},
+    {"id": "C", "eta": 0, "scale": 1, "density_uv": 1},
+    {"id": "D", "eta": 0, "scale": 4, "density_uv": 0},
+    {"id": "E", "eta": 1, "scale": 4, "density_uv": 0}
+  ],
+  "regions": {"Q": [[0,1],[1,1],[0,1],[1,1]], "I": [[0,1],[1,2],[0,1],[1,2]]},
+  "chart": {"U_scale": 2, "U_offset": 1, "V_scale": 3, "V_offset": -1},
+  "menus": [{"id": "positive", "worlds": ["A","B"]}, {"id": "expanded", "worlds": ["A","B","C","D","E"]}],
+  "observer": {"protocol": "qr05bm-v1", "query": "o-m-t", "variants": ["membership","membership-z"]},
+  "coverage": {"membership": 80, "cq": 1280, "histogram": 25},
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216, "analysis_seconds": 30, "suite_seconds": 120, "alternate_reference_runs": 1}
+}
