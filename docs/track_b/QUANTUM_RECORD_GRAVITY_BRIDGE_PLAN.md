@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BR are recorded; BB, BL and BQ are analytical/design checkpoints | BS next specifies separation and acquisition-budget conditions; the whole Track-B program remains open |
-| Physical geometry and dynamics | BR verifies record-derived target sets with model-relative coverage at least 95%; four-record singleton answers can still be always wrong under conformal worlds | Practical separation, acquisition calibration, whole-point geometry/density ambiguity, absolute scale, general metrics and dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BS are recorded; BB, BL, BQ and BS are analytical/design checkpoints | BT next verifies exact separation and rational budget certificates; the whole Track-B program remains open |
+| Physical geometry and dynamics | BS derives whole-class separation under narrow density premises and a sufficient fixed-quota correct-singleton guarantee; BR's four-record limitation remains | Executable certificate verification, acquisition/density calibration, whole-point ambiguity, absolute scale, general metrics and dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -33,8 +33,9 @@ BN bounded sampling-density partial identification →
 BO richer marked-causal queries under density uncertainty →
 BP interval-valued population-pair identification →
 BQ finite-record uncertainty contract →
-BR bounded finite-record confidence verification (all complete; BB/BL/BQ design-only) →
-BS separation and acquisition-budget contract (not started, design-only)**. BF derives the
+BR bounded finite-record confidence verification →
+BS separation and acquisition-budget contract (all complete; BB/BL/BQ/BS design-only) →
+BT bounded separation and budget verification (not started)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -98,10 +99,15 @@ All 26 tests pass per mode, both full replays and one alternate reference
 audit match. Across 60 count/bound cases, 40 remain ambiguous, 16 give only
 the flat target and four are empty. Under all three conformal fixtures,
 every singleton is wrong despite correct unconditional coverage. Ambiguity
-has roughly 98–99.4% probability across the six fixtures. BS next separates
-finite-sample width, computational grid resolution and irreducible model
-collisions before any larger-quota study. BP itself remains a
-supplied-population-bound result.
+has roughly 98–99.4% probability across the six fixtures. BS now derives
+exact line-segment competitors and whole-class margins 3/64 and 1/48
+under uniform/half density bounds. A deterministic confidence-width bound
+gives a conservative sufficient design n=65,536,m=256 with correct-singleton
+probability at least 95% under either justified narrow premise. This is an
+analytical budget, not a minimum or an executed large-quota study. The
+broader classes still intersect and have zero uniform separation. BT next
+verifies bounded exact distance and planning certificates, not a huge count
+law. BP itself remains a supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
 spacetime geometry.
 There is no evidence-based numerical estimate
@@ -2006,27 +2012,59 @@ It is model-relative confidence, not stream authentication, instrument
 calibration, singleton-selected certainty or metric/gravity recovery. See
 [QR-05BR results](../validation/qr-05br-finite-record-confidence-2026-09-09/RESULTS.md).
 
-**Next proposed gate: QR-05BS, separation and acquisition-budget contract.**
-Start analytically/design-only: define separation from the entire opposite-
-target continuous probability curve under a declared density bound, not
-just the gap between two chosen fixtures. Preserve zero-separation
-compensation and absolute-scale ambiguity. Separate finite-sample widths,
-outward-grid resolution and irreducible model collisions.
+**QR-05BS complete: separation and acquisition-budget contract (design-only).**
+Each normalized probability family is an exact line segment, with a
+shared continuous density parameter. The supporting lines intersect only
+at (17/80,21/64), from flat δ=1 and conformal δ=0. Separation is distance
+to the ENTIRE opposite-target segment, with an exact clipped balance,
+competing-density contact and matching lower certificate. Under [0,2],
+the two interior fixtures have margins 5/16816 and 5/16416, both smaller
+than their selected-pair gap 5/7296.
 
-Derive sufficient fixed-quota and rounding conditions for useful precision
-on separated regions, with explicit failure probability and no claimed
-minimal sample count. Pointwise separation is not a uniform guarantee near
-a curve intersection; confidence coverage is not singleton-selected
-reliability. Prespecify any later bounded numerical successor before running
-it. BS is not started: no larger quota, finer grid, adaptive stopping or
-acquisition is authorized by this result. Sampling/mark calibration, general
-densities/metrics, RET integration and gravity dynamics remain separate;
-BK's unused negative-θ optimization is not a prerequisite.
+For B=[0,b], the whole-class margin is 3(1−b)/[16(4+b)] when b<1 and
+zero when b≥1. Uniform and half therefore have margins 3/64 and 1/48;
+one/two admit the indistinguishable pair. Pointwise positive separation
+does not imply a uniform margin near the intersection, and scale copies
+remain indistinguishable.
+
+With the unchanged four tail budgets 1/80, every confidence box has
+maximum side width at most 2sqrt(ln(80)/(2n))+2h. If that FULL width is
+strictly below a certified competing-family distance, the simultaneous
+coverage event forces a CORRECT singleton. This gives probability at
+least 1−α of a correct singleton and, under the stronger premise, conditional
+singleton error at most α. Ordinary coverage alone still gives neither
+conclusion; BR's actual four-record conformal counterexample is unchanged.
+
+The exact sufficient check d>2h and n(d−2h)²≥10 follows from ln(80)<5.
+The fixed design n=65,536,m=256 passes throughout the externally justified
+uniform/half classes, with rational certificates 100 and 100/9. It is a
+conservative sufficient budget, not a minimum or a physical acquisition
+plan. No large-quota tail/count table, simulation, engine or test suite
+ran in BS. Independent analytical reviews and primary-literature checking
+support the design; they are not formal Lean or apparatus verification.
+See [QR-05BS decision record](../validation/qr-05bs-separation-budget-design-2026-09-09/RESULTS.md).
+
+**Next proposed gate: QR-05BT, bounded separation and budget verification.**
+Keep the six fixtures/four bounds: 24 exact pointwise distance rows, four
+whole-class margin rows and 28 fixed planning outcomes for n=65,536,m=256.
+Retain contact/lower witnesses, zero distances, all premise flags, scale
+comparisons, authenticated stored BR interval widths and six derived
+closed-contact/full-width controls. Independent balance and breakpoint
+routes must agree on the full native report.
+
+Freeze complete schemas and bounded evidence before first evaluation.
+Verify the rational planning inequalities without enumerating the large
+quota's count space. A failed sufficient certificate means not certified,
+not impossible; only the exact collision supplies the stated information
+obstruction. BT is not started. No adaptive quota/grid tuning, acquisition,
+old engine/test rerun or hidden-world record-observer input. Sampling/mark
+calibration, general densities/metrics, RET integration and gravity dynamics
+remain separate; BK's unused negative-θ optimization is not a prerequisite.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BR began from pushed BQ commit
-`0062a36c57530e48d84932bc2f58cfd9127ae92d`. Only the nine BR artifacts and
+scoped to this research; BS began from pushed BR commit
+`710f62f0f8b8336bc5bcf0b8f2bf341a59de6128`. Only the two BS Markdown files and
 this roadmap belong to its publication. Separate core, RET and application
 work is not included.
 
@@ -2143,7 +2181,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BP: interval-valued population-pair identification | Under the widest density premise, narrow centered boxes retain their targets and wider ones admit both; 92 cases retain all coupled intervals and 48 stored BO point projections | 25 tests per mode; full replays and one alternate audit; shared-δ incompatibility, closed contact, scale/whole-point obstructions; no finite-record confidence/calibration claim |
 | QR-05BQ: finite-record uncertainty contract (complete, analytical/design only) | Inclusive-tail/outward-grid proof transfers simultaneous population coverage to target sets; four-record all00/all11 and selective-reporting controls expose limits | No numerical execution; true model/density and fixed acquisition premises; persistent same-law ambiguity, no singleton-conditional certainty or apparatus calibration |
 | QR-05BR: bounded finite-record confidence verification | Complete exact report agreement across 60 cases: 40 ambiguous, 16 flat-only, four empty; actual conformal singleton error is 1 despite unconditional coverage | 26 tests per mode, full replays and one alternate audit; true acquisition/model/density premises, persistent scale/compensation ambiguity, no singleton-selected or apparatus certainty |
-| QR-05BS: separation and acquisition-budget contract (proposed, design-only) | Relate distance to the entire competing curve to finite-sample confidence width and outward-grid resolution | Retain zero-separation obstructions; distinguish pointwise from uniform guarantees and sufficient from minimal budgets; no larger-quota study yet |
+| QR-05BS: separation and acquisition-budget contract (complete, design-only) | Exact segment distances and whole-class margins; strict confidence width gives correct-singleton probability≥95%, with a sufficient n=65,536,m=256 narrow-bound design | No numerical execution; calibrated premises not supplied, conservative not minimal budget, persistent intersection/scale obstruction and unchanged BR counterexample |
+| QR-05BT: bounded separation and budget verification (proposed) | 24 pointwise distances, four class margins and 28 planning outcomes, with six contact/width controls and stored BR baseline | Freeze exact independent certificates and bounded evidence; no large-quota count law, adaptive tuning or physical acquisition |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
