@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BK are recorded, including BB's interface design | BL next specifies a geometry-identification experiment and its observation assumptions; finite passing examples do not close the whole Track-B program |
-| Physical geometry and dynamics | BK's analytic positive boundary makes all 105 menu sets and 126 position sets exact in the fixed collection | Spacetime geometry is still supplied; unknown density, general validity, continuous positions, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BL are recorded; BB and BL are analytical design checkpoints | BM next executes the small relative-volume model after a fresh protocol freeze; finite examples do not close the whole Track-B program |
+| Physical geometry and dynamics | BL analytically identifies one unknown relative volume over a declared proper-volume-sampled pair and exhibits a whole-law density obstruction | No executable geometry-inference study yet; unknown density, absolute scale, general metrics, apparatus calibration and dynamical correspondence remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -26,8 +26,9 @@ BG finite sampling-position uncertainty →
 BH certified global-admission refinement →
 BI interval-valued interior response →
 BJ fixed-budget interval refinement →
-BK analytic upper-admission boundary (all complete) →
-BL geometry-identifiability design checkpoint (not started)**. BF derives the
+BK analytic upper-admission boundary →
+BL relative-volume identification design (all complete; BL design-only) →
+BM bounded relative-volume verification (not started)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -56,11 +57,14 @@ bounded. BK certifies the sharp positive boundary [0,β], with
 13.4760<β<13.4764 and an exact algebraic endpoint, resolving those last
 two sets. Every old exact set and settled classification remains unchanged.
 The unused global negative-boundary gap remains explicit; it does not block
-the exact answers for this fixed collection. BL next defines one unknown
+the exact answers for this fixed collection. BL now defines one unknown
 relative geometric volume and the sampling/access premises needed for its
-identification, before any executable geometry experiment.
-None of the completed gates treats sampling
-position as unknown spacetime geometry.
+identification. Its proper-volume pair has distinct laws; a fixed density
+compensation makes unequal geometric targets observationally identical.
+Absolute scale and finite-shot certainty remain unavailable. BM next verifies
+this small design computationally; BL itself ran no numerical study.
+Earlier uncertainty about sampling position is not reinterpreted as unknown
+spacetime geometry.
 There is no evidence-based numerical estimate
 of gates until a physical gravity result. RET does not block this isolated
 mathematics, but does block claims of calibrated RET integration or
@@ -1765,30 +1769,53 @@ identities and the 3,350,395-byte capture remain unchanged. No post-first
 correction or adaptive budget increase was needed. See
 [QR-05BK results](../validation/qr-05bk-analytic-admission-boundary-2026-09-09/RESULTS.md).
 
-**Next proposed gate: QR-05BL, geometry-identifiability design checkpoint.**
-Move from a supplied geometric target to one explicitly unknown relative
-causal-interval volume V(I)/V(Q). Design a two-hypothesis conformal-volume
-family sharing causal order, with an explicitly assumed iid proper-volume
-sampler and accessible causal-membership records. Derive the complete
-forward law and freeze the observer's access and population-identification
-criterion before implementation. Do not hand the observer hidden coordinates,
-volume marks, or a quantum phase already encoding the desired geometry.
+**QR-05BL complete: relative-volume identification design (analytical only).**
+The standalone model moves one V(I)/V(Q) to the unknown side of a declared
+two-world inverse problem. Positive conformal metrics (1+ηuv)du dv, η∈{0,1},
+share causal order and three fixed marked probes. Under explicitly assumed
+iid proper-volume sampling, four labeled membership records have Bernoulli
+parameter equal to the target. Direct integration gives 1/4 versus 17/80:
+distinct complete laws identify the target at population level, but common
+positive support prevents certain identification from any fixed finite word.
 
-Reuse the existing order-only and density-compensation controls: changed
-volume and changed sampling density can produce identical entire accessible
-laws. Normalized membership cannot fix absolute scale, and identical
-geometry-independent quantum payloads do not repair these obstructions.
-This would be conditional geometric-measure identification under a declared
-sampler, not metric reconstruction or a calibrated apparatus. BL is proposed
-design work, not yet started. The global negative-θ optimization outside
-the current data is not a prerequisite. Continuous positions, general corners,
-finite-shot confidence, RET integration and gravity dynamics remain separate.
+A five-world expansion includes a nonuniform flat-world density that exactly
+matches the other world's whole latent point law while changing the target
+by 3/80. Metric rescalings preserve normalized laws but change absolute
+volumes. The complete-law classes {A,D} and {B,C,E} have target sets {1/4}
+and {17/80,1/4}, respectively. Identical independent qubits and optional Z
+readout add no geometric information. Candidate branch matrices are verifier
+evidence, not an actual-world-selected numerical probability oracle.
+
+Three analytical reviews refined the access, sampling and lineage boundaries.
+No numerical engines, tests, capture or apparatus acquisition ran in BL.
+The causal comparator, marked probes and sampler remain explicit premises;
+this is not general metric reconstruction or a gravity result. See the
+[standalone model](../validation/qr-05bl-relative-volume-design-2026-09-09/README.md)
+and [QR-05BL decision record](../validation/qr-05bl-relative-volume-design-2026-09-09/RESULTS.md).
+
+**Next proposed gate: QR-05BM, bounded relative-volume verification.**
+Freeze a fresh protocol for exactly five no-loss worlds, quota four and the
+membership/CQ variants before execution. Independently derive geometric and
+sampling integrals, complete ordered laws, estimator moments, quantum branch
+states/traces and labeled identification classes. Preserve the density
+collision, global-scale ambiguity and finite-word support. Prospectively
+fix one passive coordinate transformation with all geometric and sampling
+objects transported, exact packet/refusal schemas and explicit work bounds.
+
+Planned coverage is 80 membership and 1,280 joint membership/Z rows, not
+completed tests or acquired records. Require create-only evidence, independent
+full native-type comparison, normal/optimized tests and replay, source/tamper
+guards and a bounded alternate-runtime audit. BM is not started. Loss-law
+enumeration, apparatus calibration and finite-shot confidence remain outside
+its first scope. The unused global negative-θ optimization from BK is not a
+prerequisite; general metrics, RET integration and gravity dynamics stay open.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BK began from pushed BJ commit
-`e608e472b9fd6251e294a988010ee4c1bc04f183`. Separate core, RET and application
-work is not included in the BK publication.
+scoped to this research; BL began from pushed BK commit
+`b62c7f80d0e4a636e00193ca60b44e0456c3a486`. Only the BL model sheet, decision
+record and this roadmap belong to its publication. Separate core, RET and
+application work is not included.
 
 ## Outcome sought
 
@@ -1896,7 +1923,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BI: interval-valued interior response | 101/105 menu sets exact, four bounded at asymmetric/near_corner; every feasible nonpoint menu target-ambiguous; zero-width BH recovery and coupled affine laws retained | 43 tests per mode; 126 position intervals, 35 affine patches, 224 branches, 42 endpoint checks; no calibrated confidence or general validity solver |
 | QR-05BJ: fixed-budget interval refinement | 103/105 menus exact; narrow near-corner fully excluded, wide partially certified; all prior exact sets and complete BI mathematics unchanged | 52 tests per mode; 112 new patches/1,008 pairs/175 witnesses; two wide menus still bounded; no new acquired data or arbitrary extra refinements |
 | QR-05BK: analytic upper-admission boundary | All 126 positions/105 menus exact; sharp closed positive boundary [0,β], 13.4760<β<13.4764; old sets/statuses preserved | 39 tests per mode; independent algebraic/root certificates and whole BJ math preserved; exact sets are not unique targets, and negative global admission and metric inference remain open |
-| QR-05BL: geometry-identifiability design checkpoint (proposed) | Specify one unknown relative causal-interval volume and an accessible sampling law over a finite same-order family | Freeze access and sampler assumptions; retain density-compensation and scale ambiguities; no apparatus calibration, metric reconstruction or gravity claim |
+| QR-05BL: relative-volume identification design (complete, analytical only) | Proper-volume pair targets 1/4 and 17/80; five-world whole-law classes expose density compensation and absolute-scale ambiguity | Explicit marks, sampler and access; no finite-shot certainty, numerical execution, quantum advantage, apparatus calibration or general metric/gravity claim |
+| QR-05BM: bounded relative-volume verification (proposed) | Verify the five no-loss worlds, full membership/CQ laws, target classes and passive-coordinate transport after a fresh freeze | Planned 80 membership/1,280 joint rows, not results; independent exact evidence and access/refusal tests; loss-model enumeration and physical calibration deferred |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
