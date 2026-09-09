@@ -1,0 +1,42 @@
+{
+  "runtime_at_source_freeze": {
+    "implementation": "CPython",
+    "optimized": 0,
+    "python": "3.14.0"
+  },
+  "schema": "QR-05BC-source-freeze-v1",
+  "sources": {
+    "docs/validation/qr-05bb-operational-bridge-design-2026-09-08/README.md": {
+      "bytes": 17788,
+      "sha256": "0b7c1e048f0d96775691001df54a4dbbc64b52d49f74744de9149ff9ca1d543e"
+    },
+    "docs/validation/qr-05bb-operational-bridge-design-2026-09-08/RESULTS.md": {
+      "bytes": 4292,
+      "sha256": "d4d8b7152f06bba3a495819a10d1ae3541450af4d8cac21583b81c41b83d4841"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/README.md": {
+      "bytes": 9347,
+      "sha256": "16c3d003df67f4c3d5e7ef0684baca55761d5a6af3fa353698fc621a60f9cc33"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/protocol.json": {
+      "bytes": 2526,
+      "sha256": "7b07d4961163f4241c2eb0452fc78d992f38995918418b20fd38acdf911cf340"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/quantum.py": {
+      "bytes": 22280,
+      "sha256": "a87657a10d06d26b6684d93b4608ee71b765d5ae99371210d2f5526eddc16d7d"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/reference.py": {
+      "bytes": 16302,
+      "sha256": "a19116e927c9dec9b7e2363cee1972619bee71154f0ea4126c10a44d7421f880"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/study.py": {
+      "bytes": 19860,
+      "sha256": "78d6684e0b393145aaa963d0bf0a8a4e8e63278d8dac475002c96f1070c6ed9a"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/test_qr05bc.py": {
+      "bytes": 57975,
+      "sha256": "8014b95e97869a302252f21941c01362ef1e6251b72c38d478fbf4b894a7514d"
+    }
+  }
+}

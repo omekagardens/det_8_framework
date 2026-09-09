@@ -15,22 +15,22 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04, bounded QR-05 investigations through BA and BB's design checkpoint are recorded | BC is the next separately bounded verification study; neither a design nor finite passing examples close the whole Track-B program |
-| Physical geometry and dynamics | Supplied-geometry mathematics is already under test; BB selects a candidate record interface and conventional comparison | Apparatus calibration, unknown-geometry identification and dynamical correspondence remain missing |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BC are recorded, including BB's interface design | BD is the next bounded interior-access study; finite passing examples do not close the whole Track-B program |
+| Physical geometry and dynamics | BC verifies a candidate local-record estimator within a supplied-geometry model and retains its off-model obstruction | Apparatus calibration, unknown-geometry identification and dynamical correspondence remain missing |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
-The immediate sequence is **BA error composition (complete) → BB bridge
-design (complete) → BC local-record estimator verification (not run)**. BB
-selects four local Z-polarization records and one supplied-geometry weighted
-bilinear response functional. It also gives an interior-profile collision:
-identical corner record laws can hide unequal true integrals. The observer's
-access, calibration premises and separate shot/readout/interpolation errors
-are explicit. BC must test that restricted correspondence and its failure
-boundary together. More algebraic gates should answer this identified bridge
-question, not substitute for the choice of an interface. There is no
-evidence-based numerical estimate of gates until a physical gravity result.
-RET does not block this isolated mathematics, but does block claims of
-calibrated RET integration or application readiness.
+The immediate sequence is **BA error composition → BB bridge design → BC
+local-record estimator verification (all complete) → BD interior measurement
+repair (not run)**. BC verifies the four-local-Z-record estimator and retains
+the interior-profile collision: identical full corner record laws hide a
+true-target difference of 1/144. The next question is whether one additional
+interior record repairs a specified bilinear-plus-bubble family, while a
+larger continuous-profile class remains nonidentifiable. New access, global
+state validity, variance and measurement cost must be explicit; it is not
+merely integration refinement. There is no evidence-based numerical estimate
+of gates until a physical gravity result. RET does not block this isolated
+mathematics, but does block claims of calibrated RET integration or
+application readiness.
 
 Evidence: [core G1 record](../validation/g1-core-hardening-2026-09-04.md),
 [RET preview status](../validation/ret-sdk-development-hardening.md),
@@ -1404,22 +1404,50 @@ unit-test suite was run for this document-only checkpoint. See
 [QR-05BB model](../validation/qr-05bb-operational-bridge-design-2026-09-08/README.md)
 and [decision record](../validation/qr-05bb-operational-bridge-design-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05BC, local quantum records to a supplied
-geometric-response estimator.** Freeze a small exact protocol and rational
-fixture list before evaluating results. Compare tensor-product instrument
-branches, an independent Bernoulli outcome law and direct geometric
-polynomial integration. Retain zero branches, the same-record/different-
-interior-target witness, label/access/calibration controls and the distinction
-between fresh and repeated unreset measurements. Positive passage would
-verify this restricted model correspondence only. BC is specified
-prospectively in BB and has not run. RET integration, apparatus data,
-calibration and gravity remain independently gated.
+**QR-05BC complete: local quantum records to a supplied geometric-response
+estimator.** The compiled weights are (1/9,1/18,1/18,1/36), summing to 1/4
+under the specified normalization. The exact tensor-instrument and independent
+Bernoulli/integration routes agree on all six profiles and 96 outcome rows,
+including 60 zero branches. A third tensor-Simpson oracle checks the geometric
+integrals. Full outcome Kraus operators agree across all 24 station orders.
+
+The asymmetric target and estimator mean are 13/216, while a wrong label swap
+gives −5/216 and naive product-corner quadrature gives 1/8. Histogram-only
+records cannot distinguish the two one-plus profiles, whose true targets
+are −1/36 and −7/36. The interior bubble has the same full corner law and
+postmeasurement states as the zero profile, but target 1/144 instead of zero.
+This preserves the intended off-model obstruction; more corner shots do not
+repair it. Fresh/unreset two-shot variances 1/2 versus 1 and the retained
+readout-calibration confound separate other failure mechanisms.
+
+All 44 tests pass in isolated normal and optimized Python 3.14.0. The
+independent reference-only Python 3.11.6 audit agrees on the full mathematical
+report; it is not a full-suite compatibility claim for that interpreter.
+The public decoder agrees on 96 estimates and 2,304 list-order checks,
+retaining 31 named record refusals. All eight frozen identities and the
+93,015-byte capture remain unchanged after first evaluation. Prefreeze
+harness corrections are documented; no post-first source or mathematical
+correction was required. This is exact finite synthetic correspondence, not
+quantum advantage, finite-shot exactness, empirical calibration or metric
+inference. See [QR-05BC results](../validation/qr-05bc-local-record-estimator-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05BD, interior-measurement repair for a specified
+model expansion.** Add one fixed interior Z station where the bubble is
+nonzero and test the bilinear-plus-one-bubble family. Compile new estimator
+weights from geometry alone; freeze physical profile bounds, fixtures and
+complete record/variance/cost comparisons before computation. Five valid
+sampled means do not prove global state validity. Preserve a further-off-model
+continuous profile that vanishes at all five sites but changes the integral,
+and use an integration oracle valid for the enlarged polynomial degree.
+This is genuinely additional measurement access, not automatic precision
+improvement or unrestricted recovery. BD has not run. RET integration,
+apparatus data, calibration and gravity remain independently gated.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BB began from pushed BA commit
-`f34f88b94bf49fe841adccbe0f62ac14176bc0f7`. Separate core, RET and application
-work is not included in the BB publication.
+scoped to this research; BC began from pushed BB commit
+`8c3bebb32309569fe9bfdd63b111ec2fc5b5e44f`. Separate core, RET and application
+work is not included in the BC publication.
 
 ## Outcome sought
 
@@ -1518,7 +1546,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AZ: refinement stability | Both geometries preserve all 64 certified gains and actual parent-field observations; 26 corner envelopes tighten per family, largest remaining excess 3/4→5/16 | Same full bounded-field domain, unchanged 37 receivers and decoder; independent child bilinear coordinates are not new measurements or improved sensor precision |
 | QR-05BA: field-plus-acquisition error composition | Rowwise sharp field and receiver terms add; all 512 exact budget-target occurrences survive refinement and 104 upper-envelope entries tighten | Explicit Cartesian set and raw coordinate units, not stochastic independence, physical noise ranking or calibration; zero-field-budget exactness does not recertify a mixed field kernel |
 | QR-05BB: operational bridge-design checkpoint (complete, analytical/design only) | Four local Z records, independently supplied geometric weights and a bilinear response target; an interior bubble proves equal record laws can hide different true integrals | Explicit response-map, point-sampling, fresh-copy, access and calibration premises; no numerical execution, inherited receiver certificate, quantum advantage or metric inference |
-| QR-05BC: local quantum records to a supplied geometric-response estimator (proposed) | Freeze and compare a small exact instrument/Bernoulli/geometric-integration family, including full-law interior-profile and access controls | Restricted population correspondence, not finite-shot exactness, arbitrary-profile recovery or apparatus validation; not yet executed |
+| QR-05BC: local quantum records to a supplied geometric-response estimator | All six profiles/96 branches match independent routes; target weights (1/9,1/18,1/18,1/36); identical corner laws hide interior-target difference 1/144 | Restricted population correspondence, complete zero branches and label/reset/calibration failures; 44 tests per mode, no finite-shot exactness, quantum advantage, arbitrary-profile recovery or apparatus validation |
+| QR-05BD: interior-measurement repair (proposed) | Add one fixed interior record to identify the declared bilinear-plus-bubble target; retain a further profile invisible at all five sites | New access, globally valid states, higher-degree integration and explicit variance/cost; no arbitrary-field recovery or automatic precision improvement; not yet executed |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
