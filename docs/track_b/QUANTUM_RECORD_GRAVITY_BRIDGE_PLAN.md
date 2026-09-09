@@ -15,15 +15,16 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BG are recorded, including BB's interface design | BH next studies certified global-admission refinement; finite passing examples do not close the whole Track-B program |
-| Physical geometry and dynamics | BG retains exact finite target sets under uncertain sampling position; admitted full-law collisions show position information can matter even with full site access | Spacetime geometry is still supplied; continuous position uncertainty, conservative admission, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BH are recorded, including BB's interface design | BI next studies supplied interval-valued interior responses; finite passing examples do not close the whole Track-B program |
+| Physical geometry and dynamics | BH certifies eight formerly excluded profiles and refutes six others; all 42 fixed candidate validities are decided, and broader validity exposes two previously hidden target ambiguities | Spacetime geometry is still supplied; uncertain responses, continuous positions, general profile validity, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
 local-record estimator → BD interior measurement repair → BE target-specific
 measurement reduction → BF known-placement portability →
-BG finite sampling-position uncertainty (all complete) →
-BH certified global-admission refinement (not run)**. BF derives the
+BG finite sampling-position uncertainty →
+BH certified global-admission refinement (all complete) →
+BI interval-valued interior response (not run)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -35,10 +36,15 @@ BF does not inherit its center-blind polynomial at moved sites. BG
 distinguishes missing sampling-position information from missing site access:
 two admitted full-law-equivalent hypotheses have target difference 7/324.
 Other menus identify the target while leaving position ambiguous. BG also
-retains a globally valid profile excluded by the sufficient admission rule;
-BH will distinguish certified validity, explicit violation and unresolved
-cases without confusing failed certification with physical inconsistency.
-Neither gate treats sampling position as unknown spacetime geometry.
+retains a globally valid profile excluded by the sufficient admission rule.
+BH certifies 36 candidates and refutes six by actual values; all 35 menus
+have exact inner/outer agreement. Its eight recovered valid alternatives
+resolve old class refusals but also turn two old target identifications
+into ambiguities. Failed bounds remain distinct from actual violations;
+no general validity solver is claimed. BI will replace exact interior
+means with supplied intervals, retaining target unions rather than
+silently averaging possible laws. None of these gates treats sampling
+position as unknown spacetime geometry.
 There is no evidence-based numerical estimate
 of gates until a physical gravity result. RET does not block this isolated
 mathematics, but does block claims of calibrated RET integration or
@@ -1574,29 +1580,75 @@ target/coefficient uniqueness is documented; no post-first source,
 protocol, mathematical or test correction was needed. See
 [QR-05BG results](../validation/qr-05bg-finite-position-uncertainty-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05BH, certified global-admission refinement.**
-Keep BG's population inputs, geometry, inverses and candidate polynomials.
-Freeze an exact rational degree-(2,2) tensor-Bernstein conversion and
-bounded rectangular subdivision, with separate fixed rational violation
-points. Coefficient bounds on every leaf of the covering subdivision may
-certify global validity; a failed bound is not a counterexample, while
-an actual |f| > 1 witness is.
-Retain certified, explicitly refuted and unresolved outcomes, preserving
-old admissions. Certified and not-disproved hypothesis sets supply inner
-and outer target projections; empty inner alone is not infeasibility.
-Test the valid-but-excluded profile and a locally valid overshooting
-control without tuning the checking budget after evaluation.
-This is conceptual only; no BH numerical study has run. It need not
-decide every candidate. No position prior, per-shot random motion,
-continuous uncertainty, finite-shot confidence, apparatus calibration,
-inferred metric or gravity dynamics is included. RET integration and
-measured application readiness remain separately gated.
+**QR-05BH complete: certified global-admission refinement.**
+Keep the entire BG model unchanged. Exact degree-(2,2) Bernstein nets
+on the root square and four fixed covering leaves certify 36 of 42
+candidate profiles, eight beyond the old sufficient class. Six actual
+values at the center refute the remaining profiles; none is left
+unresolved in this finite run. Root bounds certify only 21 profiles;
+their failure never vetoes valid refined bounds. All 210 patch identities,
+1,890 coefficients/residuals and 378 witness values are retained.
+
+All six constant-corner/zero-interior hypotheses are globally certified.
+The center's root enclosure [−3,1] refines to [0,1], showing directly why
+an out-of-range Bernstein coefficient is not an actual field violation.
+The two additional asymmetric profiles at equality_v and shift_high
+are also valid. Consequently its equality_pair and shifted_pair menus
+change from old class-relative identification to target ambiguity, with
+separations 7/180 and 1/24. Stronger validity certification can expose
+more target uncertainty by admitting previously excluded alternatives.
+
+The five noncentral unit-interior candidates and the asymmetric
+near_corner candidate have actual violations; the latter is 109/108
+at the center. All retain valid sampled qubits and unchanged local laws.
+The two remaining infeasible menus, unit_interior equality_pair and
+shifted_pair, therefore fail within the globally valid declared family,
+not merely within the old sufficient class. They do not contradict QM
+or exclude other profile families.
+
+All 35 menus have exact inner/outer hypothesis and target sets:
+33 certify existence, two are infeasible, and target statuses are
+26 identified, seven ambiguous and two infeasible. The old 7/324
+full-law target collision persists. Abstract semantic controls keep
+unresolved existence, incomplete target sets and duplicate-target
+exactness distinct, despite no unresolved fixed candidate.
+
+The independent affine-power and interpolation/de Casteljau routes
+and a third Boole/Gram-moment/cofactor oracle agree. All 48 tests pass
+normally and optimized in isolated Python 3.14.0; exactly one
+reference-only Python 3.11.6 audit matches the complete mathematical
+report. Both full driver replays retain eleven identities and the
+unchanged 2,613,666-byte capture. The whole recomputed BG mathematical
+report, including all 1,568 branches and old controls, matches retained
+data without historical executors or rerunning its separate BF/history
+validation process. Prefreeze static cleanup is documented; no post-first
+source, protocol, mathematical or test correction was needed. See
+[QR-05BH results](../validation/qr-05bh-global-admission-refinement-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05BI, interval-valued interior response.**
+Keep exact supplied corners, the finite position menus and profile
+family; freeze small rational interior-response intervals with zero-width
+BH recovery controls. For fixed corners, Bernstein coefficients and
+actual witness values are affine in the same θ at every position.
+Solve their scalar inequalities for sufficient inner and necessary
+outer sets, retain the old sufficient route, then intersect with each
+position's data-inverted θ interval and project the target.
+Keep closed endpoints, zero-slope constraints, empty intersections,
+per-position records and finite target unions with gaps. Narrowing data
+or menus must shrink both bounds; hulls do not replace unions, and
+empty inner alone does not prove infeasibility. An uncertain response
+specifies a family of quantum-record laws, not one midpoint law.
+This is conceptual only; BI has not run. Supplied intervals do not
+establish finite-shot coverage, noisy-corner treatment or apparatus
+calibration. No priors, continuous-position inference, inferred metric
+or gravity dynamics is included. RET integration and measured
+application readiness remain separately gated.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BG began from pushed BF commit
-`219d59750e87a8af625c1870b53fdec8a7ef7fd0`. Separate core, RET and application
-work is not included in the BG publication.
+scoped to this research; BH began from pushed BG commit
+`55fc87cd5b50cb4d3ef6a61f13a4a785a7e8b658`. Separate core, RET and application
+work is not included in the BH publication.
 
 ## Outcome sought
 
@@ -1700,7 +1752,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BE: target-specific measurement reduction | Four-site target-law and reduced-state preservation; rank-four observation map loses a target-null profile direction; twelve profiles/1,536 main + 80 off-model branches | 44 tests per mode; five-shot center reallocation improves9/ties3 versus repair5 but improves2/ties2/worsens8 versus corner5; no optimality, apparatus or off-model recovery claim |
 | QR-05BF: known-placement portability | Four-site target recovery iff (1−u)(1−v)=1/4; two moved equality controls need new weights, three off-locus positions have admitted target ambiguities; known-position full access repairs identification | 37 tests per mode; six positions/1,728 branches, 576 state marginals pass but 576/1,152 pathwise estimates differ; no unknown-position, calibration or gravity claim |
 | QR-05BG: finite sampling-position uncertainty | Exact finite admitted sets; same-full-law target difference 7/324 despite full access, harmless position ambiguity and a globally valid class-excluded profile | 39 tests per mode; 42 candidates/35 menus/1,568 branches; target hull is not exact set, class infeasibility is not physical contradiction; no priors, calibration or metric inference |
-| QR-05BH: certified global-admission refinement (proposed) | Preserve BG candidates; fixed rational Bernstein certificates and actual violation witnesses distinguish certified, refuted and unresolved cases; inner/outer target sets retain uncertainty | Freeze conversion, subdivision and witness points first; no numerical study yet; failed sufficient bounds are not invalidity, empty inner sets are not infeasibility; no new measurement information |
+| QR-05BH: certified global-admission refinement | 36 certified profiles (eight beyond old admission), six actual violations; all 35 finite hypothesis/target sets exact; broader validity exposes two old target identifications as ambiguities | 48 tests per mode; 210 patches/1,890 coefficients/378 witness values, whole BG math preserved; no general validity solver, new measurements or calibration |
+| QR-05BI: interval-valued interior response (proposed) | Fixed exact corners, finite positions and supplied response intervals; affine θ constraints give inner/outer per-position target intervals and finite unions, with zero-width BH recovery | Freeze interval menu first; no numerical study yet; keep empty sets/endpoints/gaps, monotone narrowing and law families; supplied widths are not calibrated confidence |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
