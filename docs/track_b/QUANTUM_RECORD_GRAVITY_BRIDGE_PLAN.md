@@ -1294,21 +1294,49 @@ agree. All 154 identities and the 2,092,414-byte suite remain exact; no
 post-first source, protocol, fixture or mathematical correction. See
 [QR-05AY results](../validation/qr-05ay-kernel-sign-certificates-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05AZ, refinement stability.** Subdivide existing
-integration tiles while preserving the physical kernel, probe, target-cell
-regions, reference scales and receiver observations. Verify additive raw
-moments/kernel integrals, the unchanged response functional and exact gain,
-and whether the finite corner envelope tightens.
+**QR-05AZ complete: refinement stability of bounded-field responses.**
+Quartering each integration tile from 12 to 48 preserves all 64 certified
+gains per geometry, with sharp maximum 1 at rows 6,7,15,23,31. Raw moments,
+independently integrated basis/kernel maps and actual paired field responses
+transport exactly. Bank coordinates increase 48→192, while the 37 receivers,
+decoder, physical kernels, probe and target scales remain unchanged.
 
-The bounded-measurable-field domain does not change with the partition.
-Restrictions of a parent bilinear field give correlated child corners;
-independent child-bilinear fields enlarge only that finite subclass.
-More integration coordinates are not more physical measurements. This is
-a supplied-geometry representation/scale test, not unknown geometry
-reconstruction or a continuum/gravity derivation. No fixed AZ refinement
-calculation has run; its detailed protocol and source freeze come first.
-Field-plus-acquisition error composition can follow separately, with
-apparatus calibration, RET integration and gravity independently gated.
+The corner envelope tightens on 26 rows per family, with largest decrease
+7/16 at rows 9,18,36,63. Their sharp gain remains 1/4; U changes 1→9/16,
+reducing its largest excess over S from 3/4 to 5/16. All 26 envelopes remain
+loose. The child U maximum is still 1 but now only at the five sharp
+maximizers, compared with 20 parent-envelope maximizers.
+
+The full measurable bounded-field domain is unchanged. Parent bilinear
+fields give correlated child corners through a convex restriction map;
+independent child corners enlarge only the finite bilinear subclass.
+Generic mixed controls show both newly certified and still-uncertified
+refinements, and a strict increase in the finite-class gain without
+changing the full-field functional. Tighter envelopes do not establish
+improved sensors, extra measurements, unknown geometry or gravity.
+
+All 72 tests pass normally and optimized, with 598 explicit guard rejections
+per isolated mode and 1,047 non-noop mutations. The independent reference
+audit agrees; 160 source/evidence identities and the 2,356,999-byte suite
+are preserved. See
+[QR-05AZ results](../validation/qr-05az-refinement-stability-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05BA, field-plus-acquisition error composition.**
+Keep the frozen response map and explicitly distinguish field-induced
+receiver error from additional acquisition error:
+y=B e(deltaF)+n. Declare field and receiver-coordinate budgets before
+evaluation. Their Cartesian product is a deterministic uncertainty-set
+assumption, not statistical independence or apparatus calibration.
+
+For defined rows, compose the certified sharp field term with the declared
+receiver-box gain. Where the field is uncertified and its budget is nonzero,
+retain attainable constant/bilinear lower bounds and the conservative
+upper envelope rather than inventing an exact value. Check actual joint
+signed witnesses, every off-target output, zero budgets, null normalized
+rows with potentially nonzero raw outputs, and refinement invariance.
+Receiver-coordinate changes must transport the uncertainty set. No fixed
+BA calculation has run; its detailed protocol and source freeze come first.
+Apparatus calibration, RET integration and gravity remain independently gated.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -1409,7 +1437,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AW: local bank error coordinates | Both geometries have sharp shared maximum 4 and 21 strict gaps; all 64 scales defined, 43 ties, complete block/inverse and transported endpoints | New local moment domain, not AV's noise; explicit generic null/raw-output semantics, no field realization, calibration or sensor improvement |
 | QR-05AX: bounded bilinear field-error realization | Both geometries have sharp field maximum 1, 26 strict reductions versus AW and 22 receiver-enclosure gaps; actual constants attain all 64 finite-class bounds | Integrated field witnesses and invertible Q, not equal-noise improvement, dimension reduction, pointwise kernel positivity or arbitrary bounded-field sharpness |
 | QR-05AY: kernel sign certificates and bounded-field envelopes | Both geometries certify all 64 arbitrary bounded-field gains; sharp maximum 1, with 26 loose corner-envelope rows and largest gap 3/4 | Actual pointwise signs and attaining fields, not integrated positivity alone, calibrated sensor accuracy or sharpness of every envelope |
-| QR-05AZ: refinement stability (proposed) | Subdivide integration tiles while retaining the same physical kernel, target scales and receiver observations; check additive moments, exact-gain invariance and corner-envelope behavior | Same all-bounded-field domain; preserve parent-field correlations and distinguish independently variable child bilinear fields from added measurements |
+| QR-05AZ: refinement stability | Both geometries preserve all 64 certified gains and actual parent-field observations; 26 corner envelopes tighten per family, largest remaining excess 3/4→5/16 | Same full bounded-field domain, unchanged 37 receivers and decoder; independent child bilinear coordinates are not new measurements or improved sensor precision |
+| QR-05BA: field-plus-acquisition error composition (proposed) | Combine the field-response contract with separately declared receiver-error budgets; retain joint signed witnesses, complete outputs and refinement invariance | Explicit Cartesian uncertainty set and coordinate units, not stochastic independence or calibration; exact field gain only where certified or its budget is zero; preserve null normalized rows |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
