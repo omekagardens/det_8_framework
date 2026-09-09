@@ -15,21 +15,24 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BD are recorded, including BB's interface design | BE is the next target-specific measurement-reduction study; finite passing examples do not close the whole Track-B program |
-| Physical geometry and dynamics | BD verifies an interior-access repair within a supplied-geometry model, with an explicit remaining off-model obstruction and mixed finite-shot risk | Apparatus calibration, unknown-geometry identification and dynamical correspondence remain missing |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BE are recorded, including BB's interface design | BF next tests known-placement portability of reduced access; finite passing examples do not close the whole Track-B program |
+| Physical geometry and dynamics | BD repairs model-specific identification; BE preserves the target-estimate law with fewer measurements, while losing full-profile information | Geometry is still supplied; off-model ambiguity, apparatus calibration, unknown-geometry identification and dynamical correspondence remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
-local-record estimator → BD interior measurement repair (all complete) →
-BE target-specific measurement reduction (not run)**. BD's center access
-identifies the bilinear-plus-bubble family using weights
-(1/12,1/36,1/36,0,1/9). A broader continuous profile remains invisible at all
-five sites while changing the true target by 1/1440. At equal five-shot
-cost, repair5 improves one fixed fixture, ties two and worsens seven:
-identification repair is not automatic precision improvement. The zero 11
-weight motivates a new four-site acquisition contract; BD still requires
-every original slot. BE must distinguish target recovery from full-profile
-and complete quantum-output recovery. There is no evidence-based numerical estimate
+local-record estimator → BD interior measurement repair → BE target-specific
+measurement reduction (all complete) → BF known-placement portability
+(not run)**. BE's new four-site acquisition contract has weights
+(1/12,1/36,1/36,1/9) at (00,10,01,cc), preserving repair5's complete target-
+estimate law and the correctly reduced output. An admitted collision pair
+has identical retained laws and targets but different full profiles and
+omitted-site states. Reassigning the saved shot to the center at equal
+five-shot count improves nine fixtures and ties three against repair5;
+against corner5 it improves two, ties two and worsens eight. BD's original
+contract still requires every slot. A broader continuous profile remains
+invisible at all five sites while changing the true target by 1/1440.
+BF will separate a stale decoder from target nonidentifiability when the
+known interior position changes. There is no evidence-based numerical estimate
 of gates until a physical gravity result. RET does not block this isolated
 mathematics, but does block claims of calibrated RET integration or
 application readiness.
@@ -1462,23 +1465,58 @@ population identification with explicit cost/risk, not finite-shot exactness,
 quantum advantage, unrestricted field recovery or apparatus validation. See
 [QR-05BD results](../validation/qr-05bd-interior-measurement-repair-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05BE, target-specific measurement reduction.**
-Define a new four-site plan (00,10,01,cc); do not weaken BD's frozen decoder.
-Check pathwise target estimates, full marginal record laws and appropriately
-reduced quantum outputs against the five-site plan. Retain admissible
-same-retained-law/target profiles with different omitted-site states and
-full coefficients. Compare equal four-shot costs, and preregister any
-five-shot reallocation before evaluating it. The remaining off-model
-obstruction and calibration assumptions stay explicit. No minimality,
-optimal allocation, complete-state recovery or physical advantage is
-automatic. BE has not run. RET integration, apparatus data, calibration
-and gravity remain independently gated.
+**QR-05BE complete: target-specific measurement reduction.** The new
+target4 plan uses (00,10,01,cc), with weights (1/12,1/36,1/36,1/9).
+Its rank-four evaluation map loses coefficient direction (0,0,0,1,−4),
+which the target integral annihilates. Pathwise estimates, full marginalized
+record probabilities and correctly traced unnormalized states agree with
+repair5; the captured full 32-dimensional and reduced 16-dimensional states
+remain distinct objects. Wrong-factor traces differ in 122/192 main rows
+and all 16 off-model rows. A physical-domain collision pair has identical
+retained branch reports and target zero but full five-site law TV 1/2,
+different omitted qubits and different full output states.
+
+The prespecified repeatcc5 plan reallocates the saved shot to an independent
+second center copy. Against repair5 at equal five-shot count it improves
+nine fixtures and ties three, with variance reduction (1−m_cc²)/162.
+Against the respective equal-cost corner baselines, target4 and repeatcc5
+each improve two, tie two and worsen eight. The off-model target 1/1440
+remains hidden from all three target plans; center repetition reduces
+variance without removing its bias. This is target-specific efficiency,
+not full-profile recovery, optimal allocation, calibrated hardware savings
+or quantum advantage.
+
+The two exact routes agree on all twelve profiles/1,536 main branches
+(530 zero-probability rows) and 80 off-model branches. All 44 tests pass
+normally and optimized in isolated Python 3.14.0; exactly one separate
+reference-only Python 3.11.6 audit matches the full mathematical subreport.
+The public observer checks 1,616 estimates, 3,232 list orders and 170 named
+refusals. Both full driver replays retain eleven frozen identities and the
+unchanged 2,241,522-byte capture. Prefreeze test-harness corrections are
+documented; no post-first source, protocol, math or test correction was
+needed. The selected BD overlap matches without running its old engines
+or recertifying its separate controls. See
+[QR-05BE results](../validation/qr-05be-target-specific-measurement-reduction-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05BF, known-placement portability of reduced
+access.** Hold the profile family, kernel and corners fixed while varying
+a prospectively supplied interior position z. Distinguish residuals of the
+unchanged BE decoder from existence of a recompiled four-site decoder.
+With full evaluation matrix A_z, integral row q and omitted direction
+d_z = A_z⁻¹e_11, test retained rank and q d_z = 0, including equality
+cases rather than assuming every displacement fails. Where it is nonzero,
+retain admitted identical-retained-law/different-target collisions and
+the full-access repair after restoring 11. Freeze a small placement menu
+and admission construction before evaluation; no BF numerical study has
+run. Known-position sensitivity is not unknown localization, apparatus
+calibration, metric inference or gravity. RET integration and measured
+application readiness remain independently gated.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BD began from pushed BC commit
-`f7322c7d360f37a399959f80ffbd6b82a53ff3ca`. Separate core, RET and application
-work is not included in the BD publication.
+scoped to this research; BE began from pushed BD commit
+`06845f4906b5b61ff3bb4ed72bacd2ede6a0a3c0`. Separate core, RET and application
+work is not included in the BE publication.
 
 ## Outcome sought
 
@@ -1579,7 +1617,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BB: operational bridge-design checkpoint (complete, analytical/design only) | Four local Z records, independently supplied geometric weights and a bilinear response target; an interior bubble proves equal record laws can hide different true integrals | Explicit response-map, point-sampling, fresh-copy, access and calibration premises; no numerical execution, inherited receiver certificate, quantum advantage or metric inference |
 | QR-05BC: local quantum records to a supplied geometric-response estimator | All six profiles/96 branches match independent routes; target weights (1/9,1/18,1/18,1/36); identical corner laws hide interior-target difference 1/144 | Restricted population correspondence, complete zero branches and label/reset/calibration failures; 44 tests per mode, no finite-shot exactness, quantum advantage, arbitrary-profile recovery or apparatus validation |
 | QR-05BD: interior-measurement repair | Ten profiles/800 branches and two-sided inverse agree; weights (1/12,1/36,1/36,0,1/9); further five-site collision hides target 1/1440 | Bias repaired for the admitted model, but equal-five-shot MSE improves1/ties2/worsens7; covariance/global-admission controls retained; 44 tests per mode, no unrestricted recovery or apparatus claim |
-| QR-05BE: target-specific measurement reduction (proposed) | Test omission of the zero-weight 11 site under a new four-site contract, with full marginal-law and reduced-state checks | Keep BD unchanged; separate target from full-profile/output recovery, prespecify matched costs and any reallocation; not yet executed |
+| QR-05BE: target-specific measurement reduction | Four-site target-law and reduced-state preservation; rank-four observation map loses a target-null profile direction; twelve profiles/1,536 main + 80 off-model branches | 44 tests per mode; five-shot center reallocation improves9/ties3 versus repair5 but improves2/ties2/worsens8 versus corner5; no optimality, apparatus or off-model recovery claim |
+| QR-05BF: known-placement portability (proposed) | Separate stale four-site weights from target nonidentifiability after a supplied interior-position change; retain equality cases, collisions and restored-access comparison | Freeze small placement menu first; no numerical study yet, no unknown-localization model, calibration, inferred metric or gravity dynamics |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
