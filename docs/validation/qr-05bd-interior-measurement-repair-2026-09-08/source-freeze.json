@@ -1,0 +1,54 @@
+{
+  "runtime_at_source_freeze": {
+    "implementation": "CPython",
+    "optimized": 0,
+    "python": "3.14.0"
+  },
+  "schema": "QR-05BD-source-freeze-v1",
+  "sources": {
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/README.md": {
+      "bytes": 9347,
+      "sha256": "16c3d003df67f4c3d5e7ef0684baca55761d5a6af3fa353698fc621a60f9cc33"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/RESULTS.md": {
+      "bytes": 10280,
+      "sha256": "cdc8b065f738814266e43fe9ec0348c0a9b1d67898a859adcd35e2f06444dfcd"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/protocol.json": {
+      "bytes": 2526,
+      "sha256": "7b07d4961163f4241c2eb0452fc78d992f38995918418b20fd38acdf911cf340"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/results.json": {
+      "bytes": 93015,
+      "sha256": "749d4fae5debaec73e383b52802762e588214c698dab6842d556878c7e98a665"
+    },
+    "docs/validation/qr-05bc-local-record-estimator-2026-09-08/source-freeze.json": {
+      "bytes": 1703,
+      "sha256": "c5184de8b4f071f7635b5810ed87e2314247e745e129ce1915e687a48c2d64f0"
+    },
+    "docs/validation/qr-05bd-interior-measurement-repair-2026-09-08/README.md": {
+      "bytes": 10073,
+      "sha256": "45ada4101577e805a584bacde3c5b71d380e6e742a4743bed9002ee347270a2b"
+    },
+    "docs/validation/qr-05bd-interior-measurement-repair-2026-09-08/protocol.json": {
+      "bytes": 3913,
+      "sha256": "68a49ef25e379663a04fa7742d06b28fe3490d12d431ed4f3adc2fddcb907d73"
+    },
+    "docs/validation/qr-05bd-interior-measurement-repair-2026-09-08/quantum.py": {
+      "bytes": 28012,
+      "sha256": "6790ba7ec9153ba709cf3fc283576f76c0071180f53fed832e712d73f13317eb"
+    },
+    "docs/validation/qr-05bd-interior-measurement-repair-2026-09-08/reference.py": {
+      "bytes": 19328,
+      "sha256": "3df046ad12bf2f25e582057d5c562b46716535528f155f14b9e0d9274866b05c"
+    },
+    "docs/validation/qr-05bd-interior-measurement-repair-2026-09-08/study.py": {
+      "bytes": 22045,
+      "sha256": "8b32ef354ddacbc19fbef1d08978248fa385d03625e6ccd4b5d5732e89184ae4"
+    },
+    "docs/validation/qr-05bd-interior-measurement-repair-2026-09-08/test_qr05bd.py": {
+      "bytes": 69011,
+      "sha256": "48e2ab102436fa9a7ba2eace431891f2cae60bbeb773569c2f63f1f7cef2c7a4"
+    }
+  }
+}
