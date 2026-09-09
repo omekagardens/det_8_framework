@@ -1,0 +1,261 @@
+{
+  "schema": "qr05br-protocol-v1",
+  "quota": 4,
+  "alpha": [
+    1,
+    20
+  ],
+  "tail_allocations": [
+    [
+      1,
+      80
+    ],
+    [
+      1,
+      80
+    ],
+    [
+      1,
+      80
+    ],
+    [
+      1,
+      80
+    ]
+  ],
+  "grid_denominator": 256,
+  "regions": {
+    "Q": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "I1": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "I2": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "geometries": [
+    {
+      "id": "flat",
+      "eta": 0,
+      "scale": 1
+    },
+    {
+      "id": "conformal",
+      "eta": 1,
+      "scale": 1
+    },
+    {
+      "id": "flat_x4",
+      "eta": 0,
+      "scale": 4
+    },
+    {
+      "id": "conformal_x4",
+      "eta": 1,
+      "scale": 4
+    }
+  ],
+  "density_bounds": [
+    {
+      "id": "uniform",
+      "interval": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "half",
+      "interval": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "one",
+      "interval": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "two",
+      "interval": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "flat_0",
+      "eta": 0,
+      "delta": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "flat_1",
+      "eta": 0,
+      "delta": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "flat_interior",
+      "eta": 0,
+      "delta": [
+        16,
+        11
+      ]
+    },
+    {
+      "id": "conformal_0",
+      "eta": 1,
+      "delta": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "conformal_1",
+      "eta": 1,
+      "delta": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "conformal_interior",
+      "eta": 1,
+      "delta": [
+        45,
+        158
+      ]
+    }
+  ],
+  "ties": [
+    {
+      "id": "lower_tie",
+      "side": "lower",
+      "k": 4,
+      "epsilon": [
+        1,
+        16
+      ]
+    },
+    {
+      "id": "upper_tie",
+      "side": "upper",
+      "k": 0,
+      "epsilon": [
+        1,
+        16
+      ]
+    }
+  ],
+  "observer": {
+    "schema": "qr05br-record-query-v1",
+    "protocol_id": "qr05br-n4-g256-a20-v1",
+    "data_kind": "paired_causal_records",
+    "bound_basis": "external_assumption",
+    "result_schema": "qr05br-record-result-v1",
+    "confidence_basis": "fixed_iid_paired_binomial_union",
+    "coverage_kind": "unconditional_model_relative"
+  },
+  "coverage": {
+    "tail_rows": 1285,
+    "tail_values": 2570,
+    "intervals": 5,
+    "counts": 15,
+    "cases": 60,
+    "hypotheses": 240,
+    "fixtures": 6,
+    "count_probabilities": 90,
+    "summaries": 24,
+    "scale_pairs": 2,
+    "comparisons": 2,
+    "ties": 2,
+    "obstruction_cases": 60,
+    "obstruction_coverage": 4
+  },
+  "limits": {
+    "source_bytes": 262144,
+    "artifact_bytes": 16777216,
+    "analysis_seconds": 30,
+    "suite_seconds": 120,
+    "alternate_reference_runs": 1
+  }
+}
