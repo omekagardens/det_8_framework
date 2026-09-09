@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BN are recorded; BB and BL are analytical design checkpoints | BO next tests a richer marked-causal query under density uncertainty; finite examples do not close the whole Track-B program |
-| Physical geometry and dynamics | BM verifies its five-world relative-volume model; BN exactly resolves 36 population/bound cases with a continuous density nuisance | Conditional identification only; whole-point geometry/density ambiguity, absolute scale, general metrics, apparatus calibration and dynamical correspondence remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BO are recorded; BB and BL are analytical design checkpoints | BP next tests supplied population-interval uncertainty; finite examples do not close the whole Track-B program |
+| Physical geometry and dynamics | BO's second causal query reconstructs the declared sampling polynomial and separates BN's membership-only collision | Conditional model-relative identification only; whole-point geometry/density ambiguity, absolute scale, uncertainty calibration, general metrics and dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -29,8 +29,9 @@ BJ fixed-budget interval refinement →
 BK analytic upper-admission boundary →
 BL relative-volume identification design →
 BM bounded relative-volume verification →
-BN bounded sampling-density partial identification (all complete; BB/BL design-only) →
-BO richer marked-causal queries under density uncertainty (not started)**. BF derives the
+BN bounded sampling-density partial identification →
+BO richer marked-causal queries under density uncertainty (all complete; BB/BL design-only) →
+BP interval-valued population-pair identification (not started)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -72,8 +73,12 @@ exact compatible targets under four externally supplied density bounds:
 10 of 36 cases identify a target, four remain ambiguous and 22 are
 model-infeasible. All 25 tests pass per mode, both full replays and one
 alternate reference audit match. A membership-only collision and a
-whole-point-law collision remain distinct. BO next asks whether a second
-marked causal query splits the former while preserving the latter.
+whole-point-law collision remain distinct. BO's second nested question
+splits the former by an exact second-probability gap 5/7296 while preserving
+the latter. Its nonsingular three-moment map reconstructs the sampling
+polynomial, not arbitrary densities or unique geometry/density factorization.
+All 22 tests pass per mode; full replays and one alternate reference audit
+match. BP next tests this distinction under supplied population intervals.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
 spacetime geometry.
 There is no evidence-based numerical estimate
@@ -1859,28 +1864,56 @@ or publication wrappers. Quantum-state and chart enumerations were not
 rerun. See
 [QR-05BN results](../validation/qr-05bn-bounded-density-identification-2026-09-09/RESULTS.md).
 
-**Next proposed gate: QR-05BO, richer marked-causal queries under density uncertainty.**
-Keep the BN family and propose a second supplied mark (3/4,1/2), whose
-interval contains the first. Freeze the exact joint same-point membership
-channel and population-data domain before execution. Retain its structural
-zero 10 outcome, old membership marginal and common attempt labels; do not
-multiply the two marginal laws as if their answers were independent.
-Test whether the new question splits BN's membership-only collision while
-preserving whole-point-law and scale obstructions. A normalization/two-query
-rank certificate on span{1,uv,u²v²} is a possible route to point-law
-identification, not yet a computed result or geometric factorization proof.
+**QR-05BO complete: richer marked-causal queries under density uncertainty.**
+The second supplied mark (3/4,1/2) adds a nested same-point membership
+question. The three moment functionals on span{1,uv,u²v²} have determinant
+5/32768 and exact left/right inverse certificates. Thus the normalized
+sampling polynomial is recovered within the declared span. Factorization
+is a separate admission step, not a consequence of matrix rank alone.
+Analytically, the two continuous geometry/density parameter curves intersect
+only at flat δ=1/conformal δ=0; their whole-point collision persists
+whenever both are admitted. Absolute scale remains unidentified everywhere.
 
-BO is not started. Marks/comparator access remain supplied premises, not
-inferred physical coordinates or clocks. Observed finite packets are not
-exact population pairs. Loss laws, finite-shot confidence, apparatus
-calibration, general metrics, RET integration and gravity dynamics remain
-separate. The unused global negative-θ optimization from BK is not a
-prerequisite.
+The earlier q₁=1/5 pair now has q₂=5/16 versus 2275/7296, a gap 5/7296.
+The 16 validation fixtures form six first-query classes and seven paired/
+point-law classes. All 4,096 paired-record rows are retained, including
+2,800 structural zeros; all 256 first-query marginal rows agree. A wrong
+independent-question channel gives forbidden10 positive mass. Across the
+48 fixed population/bound cases, 16 identify a target, four are ambiguous
+and 28 infeasible; the continuous nuisance is derived, not selected from
+the fixture grid. All 36 bound-inclusion checks and eight scale controls
+pass. The nonfamily f=4uv control has c₀=0 and is safely rejected without
+being treated as malformed probability data.
+
+All 22 tests pass per mode; both complete replays and exactly one Python
+3.11.6 reference audit match. First capture passed, with no post-first
+source correction; the 370,484-byte capture binds nine source/evidence
+identities. Possible four-attempt words still support every geometry;
+exact population separation is not finite-shot certainty or calibrated
+physical access. No quantum/chart enumeration was rerun. See
+[QR-05BO results](../validation/qr-05bo-richer-causal-queries-2026-09-09/RESULTS.md).
+
+**Next proposed gate: QR-05BP, interval-valued population-pair identification.**
+Keep the same continuous family and marks. Freeze externally supplied
+closed population-probability boxes, density bounds and comparison cases.
+Intersect both query inequalities in the same δ for each geometry; retain
+the coupled forward-curve images, empty/singleton/endpoints and discrete
+target sets. Test robust separation, point-box recovery of BO, tightening
+monotonicity and individually feasible queries lacking a common δ. Preserve
+the structural zero and scale/whole-point obstructions; do not replace
+coupled laws with independent endpoint choices or target interval hulls.
+
+BP is not started. A supplied probability box is not a calibrated error
+model or finite-shot confidence region. Marks/comparator access remain
+premises, not inferred physical coordinates or clocks. Loss, apparatus
+calibration, general densities/metrics, RET integration and gravity dynamics
+remain separate. The unused global negative-θ optimization from BK is not
+a prerequisite.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BN began from pushed BM commit
-`91dc16c59eaca8eee810bba680d7f48656ea38e5`. Only the nine BN artifacts and
+scoped to this research; BO began from pushed BN commit
+`a4b67c1494169e6f9107e971cc3b09531d4709d1`. Only the nine BO artifacts and
 this roadmap belong to its publication. Separate core, RET and application
 work is not included.
 
@@ -1993,7 +2026,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BL: relative-volume identification design (complete, analytical only) | Proper-volume pair targets 1/4 and 17/80; five-world whole-law classes expose density compensation and absolute-scale ambiguity | Explicit marks, sampler and access; no finite-shot certainty, numerical execution, quantum advantage, apparatus calibration or general metric/gravity claim |
 | QR-05BM: bounded relative-volume verification | Five worlds, 80 membership/1,280 joint rows, density/scale obstructions and all thirty passive-chart scalar equalities verified | 28 tests per mode; full replays and one alternate reference audit; finite-model population identification, not finite-shot certainty, calibrated acquisition or general metric/gravity recovery |
 | QR-05BN: bounded sampling-density partial identification | 36 population/bound cases: 10 target-identified, four ambiguous, 22 infeasible; continuous nuisance inverse and distinct membership/point-law collisions verified | 25 tests per mode; full replays and one alternate reference audit; external density bounds and exact population laws are premises, not calibration or finite-shot certainty |
-| QR-05BO: richer marked-causal queries under density uncertainty (proposed) | Test a second nested interval question for membership-only collision separation while preserving whole-point and scale obstructions | Freeze joint same-point channel and data; structural zero/marginal checks, explicit added access, no independence shortcut or geometry/density factorization claim |
+| QR-05BO: richer marked-causal queries under density uncertainty | Three-moment reconstruction verified; second query splits the membership-only pair by 5/7296; 16 fixtures and 48 population/bound cases retained | 22 tests per mode; full replays and one alternate reference audit; declared span/access only, persistent factorization/scale ambiguity and no finite-shot certainty |
+| QR-05BP: interval-valued population-pair identification (proposed) | Test robustness under supplied probability intervals by intersecting both forward constraints in one continuous δ | Freeze boxes/bounds; preserve coupled laws, discrete targets, empty/singleton sets and scale/whole-point obstructions; no confidence/calibration claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
