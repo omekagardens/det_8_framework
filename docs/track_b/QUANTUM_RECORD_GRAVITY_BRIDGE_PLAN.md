@@ -4,6 +4,37 @@ Started 5 September 2026. Authorized mathematical exploration in the primary
 checkout, following the discussion of the standalone quantum–record calculus.
 This plan does not reopen retired gravitational sources or clock couplings.
 
+## Roadmap checkup — 8 September 2026
+
+This is a review of recorded local evidence, not a fresh validation of the
+separately developing RET checkout state or a live instrument assessment.
+
+| Layer | Recorded position | What still gates its use |
+|---|---|---|
+| Core | G1 closed on its recorded frozen source | Later source changes need their own verification; do not inherit the old closure automatically |
+| RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
+| Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
+| Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
+| Quantum–record / Track-B mathematics | QR-01–04 and the bounded QR-05 investigations through BA are recorded | BB is the next bridge-design checkpoint; finite passing examples do not close the whole Track-B program |
+| Physical geometry and dynamics | Supplied-geometry mathematics is already under test | An operational event/readout bridge, a conventional comparison for that operational bridge and later dynamics correspondence are still missing |
+| Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
+
+The immediate sequence is **BA error composition (complete) → explicit
+bridge-design checkpoint → only then a separately specified next study**. The checkpoint
+must select one operational event/readout interface, one conventional geometric
+comparison, the information actually accessible to the observer, separately
+declared uncertainty sources and a possible failure criterion. More algebraic
+gates should answer an identified bridge question, not substitute for that
+choice. There is no evidence-based numerical estimate of gates until a
+physical gravity result. RET does not block this isolated mathematics, but
+does block claims of calibrated RET integration or application readiness.
+
+Evidence: [core G1 record](../validation/g1-core-hardening-2026-09-04.md),
+[RET preview status](../validation/ret-sdk-development-hardening.md),
+[latest recorded bank-generation implementation and remaining work](../validation/ret-sdk-bank-generation-implementation-2026-09-05.md),
+[application roadmap](../CORE_HARDENING_AND_APPLICATION_PLAN.md), and
+[quantum–record charter](../QUANTUM_RECORD_STRUCTURE_RESEARCH.md).
+
 ## Current status
 
 QR-05A completed its bounded investigative gate on 5 September 2026:
@@ -1321,27 +1352,59 @@ audit agrees; 160 source/evidence identities and the 2,356,999-byte suite
 are preserved. See
 [QR-05AZ results](../validation/qr-05az-refinement-stability-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05BA, field-plus-acquisition error composition.**
-Keep the frozen response map and explicitly distinguish field-induced
-receiver error from additional acquisition error:
-y=B e(deltaF)+n. Declare field and receiver-coordinate budgets before
-evaluation. Their Cartesian product is a deterministic uncertainty-set
-assumption, not statistical independence or apparatus calibration.
+**QR-05BA complete: field-plus-acquisition error composition.**
+For y=B e(deltaF)+n on the declared Cartesian uncertainty set, the sharp
+normalized gain is epsilon*S_i+eta*gamma_i wherever the field is certified;
+epsilon=0 gives an exact total without recertifying a mixed field kernel.
+Both geometries preserve all 64 exact gains at both levels under the four
+prespecified zero/field/acquisition/joint budgets. All raw field/noise/total
+outputs and actual paired witnesses agree. Undefined normalized targets
+remain NULL in generic controls even with nonzero raw acquisition output.
 
-For defined rows, compose the certified sharp field term with the declared
-receiver-box gain. Where the field is uncertified and its budget is nonzero,
-retain attainable constant/bilinear lower bounds and the conservative
-upper envelope rather than inventing an exact value. Check actual joint
-signed witnesses, every off-target output, zero budgets, null normalized
-rows with potentially nonzero raw outputs, and refinement invariance.
-Receiver-coordinate changes must transport the uncertainty set. No fixed
-BA calculation has run; its detailed protocol and source freeze come first.
-Apparatus calibration, RET integration and gravity remain independently gated.
+The field-only maximum stays 1. The uncalibrated raw receiver unit box has
+maximum 28,800 on grid row 18 and 5,308,416/25 on warp row 9. Joint maxima are
+115,201/4 and 21,233,689/100 respectively: the field contributes 1/4 on those
+rows, not its separate global maximum 1. These coordinate-dependent values
+do not rank physical sensor noise or geometries. Refinement preserves 512
+exact budget-target occurrences and tightens 104 upper-envelope entries;
+both counts include repetitions across budgets. All 70 gate tests pass in
+normal and optimized Python; 738 explicit guards per isolated mode and
+1,161 non-noop mutations pass. The independent audit and final replays
+agree; all 166 identities and the 3,927,273-byte suite remain exact.
+No post-first mathematical/source/protocol correction was needed. See
+[QR-05BA results](../validation/qr-05ba-field-acquisition-errors-2026-09-08/RESULTS.md).
+
+**Next proposed checkpoint: QR-05BB, operational bridge design.**
+Before freezing another numerical family, produce one small, explicit model
+sheet addressing the following decisions:
+
+- Select an operational meaning for an event, setting, outcome and retained
+  record. Specify what generates their order and what information the
+  observer actually receives; do not silently supply hidden geometry.
+- Select one conventional geometric comparison for that interface, its
+  target observable/function and its coordinate/normalization conventions.
+  Distinguish a known-geometry control from unknown-geometry identification.
+- Declare separately the quantum likelihood/instrument assumptions, where
+  applicable, selection/readout mechanisms, field/model approximation and
+  additional acquisition uncertainty. State which are stipulated and which
+  would require calibration; transport the actual uncertainty set.
+- Specify at least one discriminating success/failure comparison and
+  confounding control before observing results. An inconvenient mismatch
+  is not a setup/noise artifact without evidence. State what result would
+  stop or revise the proposed bridge.
+
+The deliverable is a bounded bridge specification and a justified next
+experiment, or a documented missing prerequisite—not an automatic claim of
+metric recovery or new dynamics. More mathematical hardening should answer
+a named need in that specification. RET integration, apparatus data,
+calibration and gravity remain independently gated. No BB fixed calculation
+has run in BA.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; QR-05AP was pushed as
-`5b4d767a1942640c38b8205b9a30d50208becdb0` before AQ began.
+scoped to this research; BA began from pushed AZ commit
+`fb8170842b5d3efca57908c4699f645babc1baf1`. Separate core, RET and application
+work is not included in the BA publication.
 
 ## Outcome sought
 
@@ -1438,7 +1501,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AX: bounded bilinear field-error realization | Both geometries have sharp field maximum 1, 26 strict reductions versus AW and 22 receiver-enclosure gaps; actual constants attain all 64 finite-class bounds | Integrated field witnesses and invertible Q, not equal-noise improvement, dimension reduction, pointwise kernel positivity or arbitrary bounded-field sharpness |
 | QR-05AY: kernel sign certificates and bounded-field envelopes | Both geometries certify all 64 arbitrary bounded-field gains; sharp maximum 1, with 26 loose corner-envelope rows and largest gap 3/4 | Actual pointwise signs and attaining fields, not integrated positivity alone, calibrated sensor accuracy or sharpness of every envelope |
 | QR-05AZ: refinement stability | Both geometries preserve all 64 certified gains and actual parent-field observations; 26 corner envelopes tighten per family, largest remaining excess 3/4→5/16 | Same full bounded-field domain, unchanged 37 receivers and decoder; independent child bilinear coordinates are not new measurements or improved sensor precision |
-| QR-05BA: field-plus-acquisition error composition (proposed) | Combine the field-response contract with separately declared receiver-error budgets; retain joint signed witnesses, complete outputs and refinement invariance | Explicit Cartesian uncertainty set and coordinate units, not stochastic independence or calibration; exact field gain only where certified or its budget is zero; preserve null normalized rows |
+| QR-05BA: field-plus-acquisition error composition | Rowwise sharp field and receiver terms add; all 512 exact budget-target occurrences survive refinement and 104 upper-envelope entries tighten | Explicit Cartesian set and raw coordinate units, not stochastic independence, physical noise ranking or calibration; zero-field-budget exactness does not recertify a mixed field kernel |
+| QR-05BB: operational bridge-design checkpoint (proposed) | Select one event/readout model, geometric target/comparator, observer-access contract, uncertainty model and discriminating failure criterion before another fixed study | A bounded bridge specification or documented missing prerequisite, not empirical validation, metric identification, dynamics or an arbitrary number of additional algebraic gates |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
