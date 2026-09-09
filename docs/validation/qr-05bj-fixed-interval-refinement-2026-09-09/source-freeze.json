@@ -1,0 +1,54 @@
+{
+  "runtime_at_source_freeze": {
+    "implementation": "CPython",
+    "optimized": 0,
+    "python": "3.14.0"
+  },
+  "schema": "QR-05BJ-source-freeze-v1",
+  "sources": {
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/README.md": {
+      "bytes": 11804,
+      "sha256": "d29109c97f0d21df27fb537cbf36d6471689cce7983350d5671f259ed81516c0"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/RESULTS.md": {
+      "bytes": 13683,
+      "sha256": "ec739e9384772899ddc85e9282616399e42a67f1575bef7250937e6aa4c76cb7"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/protocol.json": {
+      "bytes": 12432,
+      "sha256": "8da402d79a93108711929ede1af63e99be2e07f8097e5f33921edcafa6134127"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/results.json": {
+      "bytes": 1703421,
+      "sha256": "79b4dc506585ab1117c39b6bee86c10c7fe0dec469cf4633a47affcf1bc1dd29"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/source-freeze.json": {
+      "bytes": 2320,
+      "sha256": "dafe9c9e0c04d0d49214735ac8048e097fac2402d45b75377396ecc186f448cd"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/README.md": {
+      "bytes": 11331,
+      "sha256": "d9dcfadd19d06281672d1007d41b502312498fdd1f9d76f82dbbddde0eec93ec"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/protocol.json": {
+      "bytes": 17988,
+      "sha256": "533e807f943f1e37c7231f86300cf6b85d62a06b077ba5541f7d841549d00967"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/quantum.py": {
+      "bytes": 54927,
+      "sha256": "525b7d23e7a5517adc73eaeb5b36814315c101fe3fb1544573f1cffe644e6e48"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/reference.py": {
+      "bytes": 44454,
+      "sha256": "7eff375a604dc1b7fb949ca3fc5c2898e34861733b27248df8a89ce67284a5e5"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/study.py": {
+      "bytes": 18311,
+      "sha256": "e2d766c71defbb477275780b049388cc58c1435a4e2550337e3ce4b3d0b6babf"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/test_qr05bj.py": {
+      "bytes": 107584,
+      "sha256": "4298b6f540102a6980e463d105c91d0ead176f7f327f815d69ea84a54668ceb1"
+    }
+  }
+}

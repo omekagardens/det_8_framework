@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BI are recorded, including BB's interface design | BJ next tests one fixed additional validity-refinement budget; finite passing examples do not close the whole Track-B program |
-| Physical geometry and dynamics | BI propagates supplied response intervals through certified/necessary bounds: 101 of 105 menu sets are exact, four bounded; all feasible nonpoint menus are target-ambiguous | Spacetime geometry is still supplied; general uncertainty/validity, continuous positions, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BJ are recorded, including BB's interface design | BK next investigates one analytic upper-validity boundary; finite passing examples do not close the whole Track-B program |
+| Physical geometry and dynamics | BJ's fixed refinement makes 103 of 105 menu sets exact; two wide menus remain bounded, with certified and unresolved near-corner portions | Spacetime geometry is still supplied; general uncertainty/validity, continuous positions, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -24,8 +24,9 @@ local-record estimator → BD interior measurement repair → BE target-specific
 measurement reduction → BF known-placement portability →
 BG finite sampling-position uncertainty →
 BH certified global-admission refinement →
-BI interval-valued interior response (all complete) →
-BJ fixed-budget interval refinement (not run)**. BF derives the
+BI interval-valued interior response →
+BJ fixed-budget interval refinement (all complete) →
+BK analytic upper-admission boundary (not run)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -47,8 +48,11 @@ with supplied intervals, retaining target unions and coupled law families.
 All 35 point menus recover BH; 66 of 70 nonpoint menu sets are exact,
 and four are bounded because asymmetric/near_corner leaves unresolved
 outer portions. Every feasible nonpoint menu is already target-ambiguous.
-BJ will test one fixed quarter-square/5×5 refinement, without promising
-closure or treating new check points as acquired measurements.
+BJ's one fixed quarter-square/5×5 refinement completely excludes the
+narrow near-corner alternative and certifies part of its wide interval.
+It preserves every previously exact set and leaves only two wide menus
+bounded. BK next targets the remaining positive-θ validity boundary
+analytically, without treating mathematical check points as measurements.
 None of these gates treats sampling
 position as unknown spacetime geometry.
 There is no evidence-based numerical estimate
@@ -1677,29 +1681,73 @@ no old executors run. No post-first source, protocol, mathematical or
 test correction was needed. See
 [QR-05BI results](../validation/qr-05bi-interval-valued-response-2026-09-09/RESULTS.md).
 
-**Next proposed gate: QR-05BJ, fixed-budget interval refinement.**
-Keep BI data, positions, menus, profile family and coupled laws unchanged.
-Freeze one additional budget: 16 quarter-square Bernstein leaves and
-the corresponding 5×5 physical-witness grid. Retain the BI baseline
-and verify that sufficient inner bounds cannot shrink and necessary
-outer bounds cannot grow, including their target projections. Test
-whether the two near-corner intervals and four bounded menus narrow
-or become exact. No adaptive extra subdivisions or closure promise;
-unresolved remains an acceptable result. Actual witness violations,
-not failed coefficient certificates, justify exclusion. These added
-grid points are mathematical checks, not acquired measurements.
+**QR-05BJ complete: fixed-budget interval refinement.**
+The one fixed quarter-square/5×5 refinement makes 103 of 105 menu
+hypothesis and target sets exact, and 125 of 126 position sets exact.
+All 101 previously exact menus and 124 exact position sets are unchanged.
+The entire BI mathematical report is independently recomputed and retained;
+no response data, positions, geometry or quantum laws change.
 
-BJ is conceptual only and has not run. A general analytic-extrema solver
-with potentially algebraic endpoints is a separate contract. No finite-shot
-coverage, noisy corners, continuous-position inference, inferred metric or
-gravity dynamics is included. RET integration and measured application
-readiness remain separately gated.
+Only asymmetric has changed global bounds: sufficient θ expands from
+[−13,31/3] to [−61/4,151/12], while necessary θ contracts from
+[−52/3,44/3] to [−52/3,128/9]. The new actual witness at (1/4,1/2)
+is 1/3+(3/64)θ. It already reaches 145/144 at the narrow near-corner
+data interval's lower endpoint, excluding that whole interval. The two
+formerly bounded narrow menus become exact, while remaining ambiguous
+because other positions supply certified positive-width target sets.
+
+Wide near_corner now has certified θ=[304/27,151/12] inside necessary
+θ=[304/27,128/9], giving targets [269/1944,85/576] inside
+[269/1944,103/648]. Only wide/all and wide/center_near remain bounded.
+As a readout of the retained certificates, θ=12 gives m_cc=15/64,
+T=31/216 and quarter coefficient enclosure [−1/2,185/192]; it is
+valid despite failing BI's older sufficient bound. Certificate failure
+still never implies an actual violation.
+
+All existence and target statuses remain unchanged. The new wide/all
+inner target union has two components, separated by an actual outer-set
+gap; increasing an inner set need not reduce its component count.
+An exact interval is not unique target identification. The unchanged
+224 affine branches, 7,168 branch-diagonal pairs and 42 endpoint checks
+occur only once in bi_model, with their common response parameter.
+
+The report adds 112 affine patches, 1,008 coefficient pairs, 2,016 zero
+scalar reconstruction residuals and 175 actual witness pairs. Independent
+power conversion and second de Casteljau subdivision agree; a third
+Boole/Gram/cofactor oracle verifies every net and nonnegative row-sum-one
+parent restriction map. All 52 tests pass normally and optimized in
+isolated Python 3.14.0; exactly one reference-only Python 3.11.6 audit
+matches the full mathematical report. Both replays retain eleven source
+identities and the unchanged 3,080,661-byte capture. The entire BI math
+matches, but its separate BH restriction and prior validation lifecycle
+are not rerun. No post-first correction or adaptive extra budget was
+needed. See
+[QR-05BJ results](../validation/qr-05bj-fixed-interval-refinement-2026-09-09/RESULTS.md).
+
+**Next proposed gate: QR-05BK, analytic upper-admission boundary.**
+Keep data, finite positions, geometry and laws fixed. Investigate the
+single asymmetric positive-θ upper-validity threshold, bracketed by
+151/12 and 128/9, rather than select another finer grid. Nonnegative
+θ already gives f≥c·φ≥−1; the remaining condition is f≤1.
+Derive a complete analytic reduction, potentially through stationary
+contact f=1 and both first derivatives zero, accounting for boundary
+behavior, all admissible candidates and extraneous elimination roots.
+A stationary point alone is not a global certificate.
+
+Allow an exact algebraic endpoint with a rational isolating interval;
+do not force a rational answer or substitute a floating optimizer.
+Prospectively freeze the method, bounded resources and failure semantics,
+retain closed-boundary admission, and propagate any certified threshold
+to the existing wide-menu sets. Unresolved attempts remain visible.
+BK is conceptual only and has not run. General corners, negative-θ sharp
+bounds, continuous positions, noisy corners, finite-shot calibration,
+RET integration, metric inference and gravity dynamics remain separate.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BI began from pushed BH commit
-`4ac7848a27d184dd857606ba04afeb7d8b2e0877`. Separate core, RET and application
-work is not included in the BI publication.
+scoped to this research; BJ began from pushed BI commit
+`20545605a41540134ff2596710244d525c25e2f6`. Separate core, RET and application
+work is not included in the BJ publication.
 
 ## Outcome sought
 
@@ -1805,7 +1853,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BG: finite sampling-position uncertainty | Exact finite admitted sets; same-full-law target difference 7/324 despite full access, harmless position ambiguity and a globally valid class-excluded profile | 39 tests per mode; 42 candidates/35 menus/1,568 branches; target hull is not exact set, class infeasibility is not physical contradiction; no priors, calibration or metric inference |
 | QR-05BH: certified global-admission refinement | 36 certified profiles (eight beyond old admission), six actual violations; all 35 finite hypothesis/target sets exact; broader validity exposes two old target identifications as ambiguities | 48 tests per mode; 210 patches/1,890 coefficients/378 witness values, whole BG math preserved; no general validity solver, new measurements or calibration |
 | QR-05BI: interval-valued interior response | 101/105 menu sets exact, four bounded at asymmetric/near_corner; every feasible nonpoint menu target-ambiguous; zero-width BH recovery and coupled affine laws retained | 43 tests per mode; 126 position intervals, 35 affine patches, 224 branches, 42 endpoint checks; no calibrated confidence or general validity solver |
-| QR-05BJ: fixed-budget interval refinement (proposed) | Retain BI data/laws and compare one extra quarter-square Bernstein / 5×5 witness budget against its bounds | Freeze before computation; preserve nested inner/outer unions and unresolved results; no adaptive closure promise or new acquired data |
+| QR-05BJ: fixed-budget interval refinement | 103/105 menus exact; narrow near-corner fully excluded, wide partially certified; all prior exact sets and complete BI mathematics unchanged | 52 tests per mode; 112 new patches/1,008 pairs/175 witnesses; two wide menus still bounded; no new acquired data or arbitrary extra refinements |
+| QR-05BK: analytic upper-admission boundary (proposed) | Seek the sharp positive-θ validity threshold for the asymmetric profile at unchanged data, preserving exact algebraic endpoints if needed | Freeze a complete bounded method before computation; account for boundary/interior candidates and extraneous roots; no floating optimizer as proof or broader geometry claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
