@@ -1214,20 +1214,44 @@ agree. All136 identities and the1,245,154-byte suite remain exact; no post-first
 source, protocol, fixture or mathematical correction. See
 [QR-05AV results](../validation/qr-05av-shared-bank-errors-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05AW, local bank error coordinates.**
-Authenticate supplied geometry and the actual repair-bank tile/monomial order,
-then preregister local bank-coordinate synthesis and fine-target reference
-scales. Derive each block from its actual bank tile, not AP's old coarse tiles.
-Handle zero target scales explicitly as undefined rather than inventing a
-normalization. Keep AU's B,G,D fixed and retain complete shared/enclosure bounds.
+**QR-05AW complete: local bank error coordinates.** The authenticated
+repair-tile geometry now defines explicit local moment synthesis/inverse
+blocks and fine-target reference scales, with AU's B,G,D unchanged. Both fixed
+families have all 64 targets defined, a sharp maximum shared gain of 4 at
+rows 9,18,36,63, and 21 strict shared-versus-receiver-enclosure gaps.
+The other 43 rows tie (33 zero, ten positive).
 
-A unit box in local coordinates is a NEW declared error domain, not the same
-noise as AV's raw unit box and not better sensor precision. Preserve AV's
-evidence and separately test representation invariance of the new domain under
-complete coordinate transport. Geometry provides reference units, not measured
-uncertainty magnitudes. No fixed AW synthesis, scale, gain or witness calculation
-has run. Physical calibration, field-realizable errors, RET integration and
-gravity remain separate questions.
+Enclosure maxima are 48 (grid) and 572/45 (warp), both at row 18=(3,3);
+the largest rowwise gaps are 44 and 392/45 there. Equal shared maxima do not
+imply equal complete maps or all row bounds. This is a NEW local error-domain
+convention, not AV's raw unit box or an equal-noise sensor improvement.
+Synthetic full affine transport preserves the normalized shared calculus;
+generic null-cell targets remain explicitly undefined, including nonzero raw
+enclosure outputs that must not be zeroed.
+
+All 64 tests pass normally and optimized, with 432 explicit guard rejections
+per isolated mode and 576 non-noop mutation checks. Independent complete
+comparison, one normal reference-only audit and fresh final read-only replays
+agree. All 142 identities and the 1,320,632-byte suite remain exact; no
+post-first source, protocol, fixture or mathematical correction. See
+[QR-05AW results](../validation/qr-05aw-local-bank-errors-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05AX, bounded bilinear field-error realization.**
+Replace freely chosen local moment errors by a declared signed tilewise
+bilinear perturbation with bounded corner coefficients. Derive the exact
+corner-to-moment map Q; keep corner coefficients, local moments Qc and raw
+bank errors WQc distinct. Authenticate complete endpoint fields and their
+integrals, then propagate through the SAME B,G,D and target scales.
+
+Compare the resulting sharp field-class bounds with AW's larger moment box,
+preserving all null and coordinate-transport semantics. This is a smaller
+error body, not fewer coordinates or improved sensor precision. Check any
+nonnegative response coefficients or constant-field extrema explicitly; do
+not infer them for arbitrary generic G. Tile boundaries may be discontinuous;
+a signed perturbation need not preserve nonnegativity of a total source.
+No arbitrary bounded-field sharpness, empirical calibration or physical
+realization is implied. No fixed AX field synthesis, moment map, gain or
+witness calculation has run. RET integration and gravity remain separate.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -1325,7 +1349,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AT: bank-level structural portability | Warp all64 and grid63 responses structurally exact; grid(10,10) has intercept1/864 and twelve mass-coordinate defects while source restrictions remain exact | Frozen-map limitation, not measurement insufficiency; full zero/unit controls, no refit, inferred normalization, physical-source or noise claim |
 | QR-05AU: source-independent receiver construction | Both families recover all64 targets from the SAME37 inputs with a new zero-intercept D B=G map; ranks37/24/37 | Source-independent certificate, actual controls and partial/failure guards; preserve AT, no full-bank recovery, extra measurement, noise or physical claim |
 | QR-05AV: shared-bank error propagation | Seven strict shared-versus-enclosure gaps and57 ties per geometry; sharp shared maxima10/3,26/9 occur at a different target from enclosure maxima | Full signed endpoints and raw numerical unit box; no sensor improvement, intrinsic geometric ranking, field-realizability or physical calibration claim |
-| QR-05AW: local bank error coordinates (proposed) | Define a supplied-geometry local moment error box and certify its transported response bounds | New error-domain convention, actual bank/fine-target indexing and explicit undefined scales; preserve AV, no equal-noise improvement or apparatus claim |
+| QR-05AW: local bank error coordinates | Both geometries have sharp shared maximum 4 and 21 strict gaps; all 64 scales defined, 43 ties, complete block/inverse and transported endpoints | New local moment domain, not AV's noise; explicit generic null/raw-output semantics, no field realization, calibration or sensor improvement |
+| QR-05AX: bounded bilinear field-error realization (proposed) | Derive exact local moments of bounded signed corner fields and certify response bounds through unchanged maps | Smaller declared field-error body, not fewer coordinates, arbitrary bounded-field sharpness, physical realization or empirical noise calibration |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
