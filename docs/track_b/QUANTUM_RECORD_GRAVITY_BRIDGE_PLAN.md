@@ -15,14 +15,15 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BF are recorded, including BB's interface design | BG next studies a finite menu of uncertain sampling positions; finite passing examples do not close the whole Track-B program |
-| Physical geometry and dynamics | BF separates stale weights from lost target access when the known sampling position changes; full access repairs identification given that position | Spacetime geometry is still supplied; sampling-position uncertainty, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BG are recorded, including BB's interface design | BH next studies certified global-admission refinement; finite passing examples do not close the whole Track-B program |
+| Physical geometry and dynamics | BG retains exact finite target sets under uncertain sampling position; admitted full-law collisions show position information can matter even with full site access | Spacetime geometry is still supplied; continuous position uncertainty, conservative admission, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
 local-record estimator → BD interior measurement repair → BE target-specific
-measurement reduction → BF known-placement portability (all complete) →
-BG finite sampling-position uncertainty (not run)**. BF derives the
+measurement reduction → BF known-placement portability →
+BG finite sampling-position uncertainty (all complete) →
+BH certified global-admission refinement (not run)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -30,9 +31,15 @@ retained laws but different targets; restoring 11 and using the known
 position repairs identification. State marginalization still holds at all
 six positions, so discarding a subsystem is not the same as preserving a
 target estimator. BE's cost/risk and off-model boundaries remain recorded;
-BF does not inherit its center-blind polynomial at moved sites. BG will
-distinguish missing sampling-position information from missing site access,
-without treating either as unknown spacetime geometry. There is no evidence-based numerical estimate
+BF does not inherit its center-blind polynomial at moved sites. BG
+distinguishes missing sampling-position information from missing site access:
+two admitted full-law-equivalent hypotheses have target difference 7/324.
+Other menus identify the target while leaving position ambiguous. BG also
+retains a globally valid profile excluded by the sufficient admission rule;
+BH will distinguish certified validity, explicit violation and unresolved
+cases without confusing failed certification with physical inconsistency.
+Neither gate treats sampling position as unknown spacetime geometry.
+There is no evidence-based numerical estimate
 of gates until a physical gravity result. RET does not block this isolated
 mathematics, but does block claims of calibrated RET integration or
 application readiness.
@@ -1529,25 +1536,67 @@ executors or broader recertification. No post-first source, protocol, math
 or test correction was required. See
 [QR-05BF results](../validation/qr-05bf-known-placement-portability-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05BG, finite sampling-position uncertainty.**
-Keep the spacetime geometry, kernel, axes and basis fixed; expose only a
-small prespecified menu for a position that stays fixed during the run.
-Given full five-site population means, derive the admissible coefficient
-and target candidate for each menu position. Retain the exact feasible set
-with duplicates and distinguish infeasibility, harmless position ambiguity
-and genuine target ambiguity; do not call its interval hull the exact set.
-Test same-full-law/different-target position/profile pairs, then compare
-disclosure of exact position metadata without leaking it in observer labels.
-This is conceptual only; no BG numerical study has run. No position prior,
-per-shot random motion, continuous uncertainty, finite-shot confidence,
-apparatus calibration, inferred metric or gravity dynamics is included.
-RET integration and measured application readiness remain separately gated.
+**QR-05BG complete: finite sampling-position uncertainty.**
+Full five-site means give a unique candidate coefficient vector for each
+of six possible fixed sampling positions. The exact finite admitted sets
+retain every feasible position, including repeated coefficient/target values,
+and separate 25 identified, three ambiguous and seven class-infeasible
+case/menu reports. Of 42 candidates, 28 satisfy
+the sufficient global bound; the other fourteen retain local-only laws
+and targets, not global validity certification.
+
+The admitted quarter-interior profiles 4b at the center and (64/9)b at
+(3/4,3/4) have the same five means, all 32 unnormalized branch states
+and the same averaged internal state, but target difference 7/324.
+Full site access does not repair missing position information here.
+Conversely, the zero control and the equality/shifted quarter-interior
+menus identify targets while leaving position ambiguous. Because all
+corner coefficients are fixed and q_b = 1/144 is nonzero, a unique target
+does fix the coefficient vector in this particular full-corner model.
+The finite target set is not its interval hull; exact gap probes remain
+unattainable values, not estimators or posterior averages.
+
+The constant-corner/zero-interior center profile 1−16b has certified
+global range [0,1] despite admission bound 2. Thus its class refusal is
+not physical inconsistency. Disclosure of candidate position is hypothetical
+additional input, not measured calibration. All comparisons use role-
+labeled internal qubits, not spatial position degrees of freedom.
+
+The two exact routes and third test oracle agree on seven public and
+42 candidate laws, 1,568 branches including 756 zero rows. All 39 tests
+pass normally and optimized in isolated Python 3.14.0; exactly one
+reference-only Python 3.11.6 audit matches the complete mathematical
+subreport. Both full replays retain eleven identities and the unchanged
+1,971,938-byte capture. Selected BF six-position geometry and four center
+cases/128 distinct full-law branches match without old executors or
+recertifying its other controls. A prefreeze conceptual correction about
+target/coefficient uniqueness is documented; no post-first source,
+protocol, mathematical or test correction was needed. See
+[QR-05BG results](../validation/qr-05bg-finite-position-uncertainty-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05BH, certified global-admission refinement.**
+Keep BG's population inputs, geometry, inverses and candidate polynomials.
+Freeze an exact rational degree-(2,2) tensor-Bernstein conversion and
+bounded rectangular subdivision, with separate fixed rational violation
+points. Coefficient bounds on every leaf of the covering subdivision may
+certify global validity; a failed bound is not a counterexample, while
+an actual |f| > 1 witness is.
+Retain certified, explicitly refuted and unresolved outcomes, preserving
+old admissions. Certified and not-disproved hypothesis sets supply inner
+and outer target projections; empty inner alone is not infeasibility.
+Test the valid-but-excluded profile and a locally valid overshooting
+control without tuning the checking budget after evaluation.
+This is conceptual only; no BH numerical study has run. It need not
+decide every candidate. No position prior, per-shot random motion,
+continuous uncertainty, finite-shot confidence, apparatus calibration,
+inferred metric or gravity dynamics is included. RET integration and
+measured application readiness remain separately gated.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BF began from pushed BE commit
-`428702c3a14db2d89c32b803d8078ffad6c043e6`. Separate core, RET and application
-work is not included in the BF publication.
+scoped to this research; BG began from pushed BF commit
+`219d59750e87a8af625c1870b53fdec8a7ef7fd0`. Separate core, RET and application
+work is not included in the BG publication.
 
 ## Outcome sought
 
@@ -1650,7 +1699,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BD: interior-measurement repair | Ten profiles/800 branches and two-sided inverse agree; weights (1/12,1/36,1/36,0,1/9); further five-site collision hides target 1/1440 | Bias repaired for the admitted model, but equal-five-shot MSE improves1/ties2/worsens7; covariance/global-admission controls retained; 44 tests per mode, no unrestricted recovery or apparatus claim |
 | QR-05BE: target-specific measurement reduction | Four-site target-law and reduced-state preservation; rank-four observation map loses a target-null profile direction; twelve profiles/1,536 main + 80 off-model branches | 44 tests per mode; five-shot center reallocation improves9/ties3 versus repair5 but improves2/ties2/worsens8 versus corner5; no optimality, apparatus or off-model recovery claim |
 | QR-05BF: known-placement portability | Four-site target recovery iff (1−u)(1−v)=1/4; two moved equality controls need new weights, three off-locus positions have admitted target ambiguities; known-position full access repairs identification | 37 tests per mode; six positions/1,728 branches, 576 state marginals pass but 576/1,152 pathwise estimates differ; no unknown-position, calibration or gravity claim |
-| QR-05BG: finite sampling-position uncertainty (proposed) | Exact finite feasible position/coefficient/target sets from full population means; test genuine target ambiguity versus harmless position ambiguity and exact metadata disclosure | Freeze small menus first; no numerical study yet, interval hull is not exact set; no priors, continuous uncertainty, finite-shot confidence, apparatus calibration or metric inference |
+| QR-05BG: finite sampling-position uncertainty | Exact finite admitted sets; same-full-law target difference 7/324 despite full access, harmless position ambiguity and a globally valid class-excluded profile | 39 tests per mode; 42 candidates/35 menus/1,568 branches; target hull is not exact set, class infeasibility is not physical contradiction; no priors, calibration or metric inference |
+| QR-05BH: certified global-admission refinement (proposed) | Preserve BG candidates; fixed rational Bernstein certificates and actual violation witnesses distinguish certified, refuted and unresolved cases; inner/outer target sets retain uncertainty | Freeze conversion, subdivision and witness points first; no numerical study yet; failed sufficient bounds are not invalidity, empty inner sets are not infeasibility; no new measurement information |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise

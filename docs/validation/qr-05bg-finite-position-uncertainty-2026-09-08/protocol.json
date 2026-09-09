@@ -1,0 +1,51 @@
+{
+  "study": "QR-05BG",
+  "version": 1,
+  "base_commit": "219d59750e87a8af625c1870b53fdec8a7ef7fd0",
+  "classification": "exact finite synthetic population identification; no apparatus data",
+  "geometry": {"u": ["0", "1"], "v": ["0", "1"], "measure_factor": "1/2", "sigma_rule": "V^4", "field_rule": "F=V^2*f"},
+  "stations": ["00", "10", "01", "11", "cc"],
+  "corners": [["0", "0"], ["1", "0"], ["0", "1"], ["1", "1"]],
+  "outcomes": [-1, 1],
+  "positions": [
+    {"id": "center", "position": ["1/2", "1/2"]},
+    {"id": "equality_u", "position": ["1/3", "5/8"]},
+    {"id": "equality_v", "position": ["5/8", "1/3"]},
+    {"id": "shift_low", "position": ["1/3", "1/2"]},
+    {"id": "shift_high", "position": ["2/3", "1/2"]},
+    {"id": "near_corner", "position": ["3/4", "3/4"]}
+  ],
+  "menus": [
+    {"id": "all", "position_ids": ["center", "equality_u", "equality_v", "shift_low", "shift_high", "near_corner"]},
+    {"id": "center_only", "position_ids": ["center"]},
+    {"id": "equality_pair", "position_ids": ["equality_u", "equality_v"]},
+    {"id": "shifted_pair", "position_ids": ["shift_low", "shift_high"]},
+    {"id": "center_near", "position_ids": ["center", "near_corner"]}
+  ],
+  "cases": [
+    {"id": "zero", "population_means": ["0", "0", "0", "0", "0"]},
+    {"id": "plus", "population_means": ["1", "1", "1", "1", "1"]},
+    {"id": "minus", "population_means": ["-1", "-1", "-1", "-1", "-1"]},
+    {"id": "quarter_interior", "population_means": ["0", "0", "0", "0", "1/4"]},
+    {"id": "unit_interior", "population_means": ["0", "0", "0", "0", "1"]},
+    {"id": "constant_corners_zero_interior", "population_means": ["1", "1", "1", "1", "0"]},
+    {"id": "asymmetric", "population_means": ["1/2", "-1/3", "2/3", "-1/2", "1/3"]}
+  ],
+  "profile_rule": "f=sum(c_a*phi_a)+theta*b; b=u*(1-u)*v*(1-v)",
+  "admission_rule": "max(abs(c_a))+abs(theta)/16<=1; sufficient, not necessary",
+  "inverse_rule": "c=m_corners; theta_z=(m_cc-phi(z).c)/b(z); independently reconstruct means and integrate target",
+  "position_rule": "one fixed unknown position per run, declared finite menu, no prior or per-shot mixing",
+  "set_rule": "retain menu-ordered admitted position/coefficient/target triples; sorted distinct targets separately; status infeasible/identified/ambiguous by zero/one/multiple targets",
+  "hull_rule": "null for infeasible; otherwise minimum, maximum and width; never equate interval hull with exact finite set",
+  "gap_probe_rule": "null for fewer than two distinct targets; otherwise midpoint of first two sorted distinct targets, which is outside the exact finite set",
+  "disclosure_rule": "per candidate, exact position disclosure yields its target iff admitted; otherwise infeasible with null target",
+  "witnesses": [
+    {"id": "target_ambiguity", "case_id": "quarter_interior", "position_ids": ["center", "near_corner"]},
+    {"id": "harmless_position_ambiguity", "case_id": "zero", "position_ids": ["center", "near_corner"]}
+  ],
+  "domain_control": {"case_id": "constant_corners_zero_interior", "position_id": "center", "rule": "f=1-16*b is globally in [0,1] but outside the sufficient class; domain refusal is not physical invalidity"},
+  "third_oracle": {"name": "tensor Boole", "nodes": ["0", "1/4", "1/2", "3/4", "1"], "weights": ["7/90", "16/45", "2/15", "16/45", "7/90"], "verify_moments_through": 5},
+  "public_boundary": "exact five role-labeled population means and declared menu only; no origin position, private coefficients, position-specific preparation tag or actual-position prior; no new acquisition API",
+  "comparison": "complete native type-exact independent reports; selected BF six-position geometry and four center-profile full laws only; no historical numerical execution",
+  "no_claims": ["finite-shot confidence", "continuous position uncertainty", "position posterior", "random per-shot motion", "globally valid rejected profiles in general", "quantum advantage", "unrestricted profile recovery", "apparatus calibration", "metric inference", "RET integration", "gravity dynamics"]
+}
