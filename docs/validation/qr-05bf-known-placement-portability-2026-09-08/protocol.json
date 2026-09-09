@@ -1,0 +1,37 @@
+{
+  "study": "QR-05BF",
+  "version": 1,
+  "base_commit": "428702c3a14db2d89c32b803d8078ffad6c043e6",
+  "classification": "exact finite synthetic known-position study; no apparatus data",
+  "geometry": {"u": ["0", "1"], "v": ["0", "1"], "measure_factor": "1/2", "sigma_rule": "V^4", "field_rule": "F=V^2*f"},
+  "stations": ["00", "10", "01", "11", "cc"],
+  "corners": [["0", "0"], ["1", "0"], ["0", "1"], ["1", "1"]],
+  "retained_indices": [0, 1, 2, 4],
+  "omitted_index": 3,
+  "outcomes": [-1, 1],
+  "placements": [
+    {"id": "center", "position": ["1/2", "1/2"]},
+    {"id": "equality_u", "position": ["1/3", "5/8"]},
+    {"id": "equality_v", "position": ["5/8", "1/3"]},
+    {"id": "shift_low", "position": ["1/3", "1/2"]},
+    {"id": "shift_high", "position": ["2/3", "1/2"]},
+    {"id": "near_corner", "position": ["3/4", "3/4"]}
+  ],
+  "profile_rule": "f=sum(c_a*phi_a)+theta*b; b=u*(1-u)*v*(1-v)",
+  "admission_rule": "max(abs(c_a))+abs(theta)/16<=1; sufficient, not necessary",
+  "profiles": [
+    {"id": "zero", "corners": ["0", "0", "0", "0"], "theta": "0"},
+    {"id": "plus", "corners": ["1", "1", "1", "1"], "theta": "0"},
+    {"id": "minus", "corners": ["-1", "-1", "-1", "-1"], "theta": "0"},
+    {"id": "asymmetric_bubble", "corners": ["1/2", "-1/3", "2/3", "-1/2"], "theta": "4"}
+  ],
+  "collision": {"ids": ["collision_minus", "collision_plus"], "rule": "coefficients = -delta*d then +delta*d; d=A^-1*e11; delta=1/(2*(1+abs(d_theta)/16)); no fitted amplitude"},
+  "stale_weights": ["1/12", "1/36", "1/36", "1/9"],
+  "candidate_rule": "remove full compiled weight11 from q*A^-1; always retain diagnostic candidate, certify only when its entire row residual is zero",
+  "residual_orientation": "estimator row times observation map minus q",
+  "marginalization": "sum both full outcome branches over factor11 then trace original index3; compare direct reduced state/probability at every placement; separately retain full-minus-candidate pathwise differences",
+  "comparison": "full native type-exact independent reports; selected BE center geometry and four base-profile repair5/target4 branch reports only",
+  "third_oracle": {"name": "tensor Boole", "nodes": ["0", "1/4", "1/2", "3/4", "1"], "weights": ["7/90", "16/45", "2/15", "16/45", "7/90"], "verify_moments_through": 5},
+  "public_boundary": "mathematical geometry/target certificate only; no new public record decoder or acquisition API; position is supplied and coefficients/likelihoods are synthetic",
+  "no_claims": ["unknown-position recovery", "noise calibration", "new apparatus evidence", "quantum advantage", "uniform precision gain", "finite-shot exactness", "full-profile recovery from four sites", "unrestricted profile recovery", "metric inference", "RET integration", "gravity dynamics"]
+}
