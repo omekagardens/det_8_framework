@@ -1,0 +1,31 @@
+{
+  "schema": "qr05bn-protocol-v1",
+  "quota": 4,
+  "geometries": [
+    {"id": "flat", "eta": 0, "scale": 1},
+    {"id": "conformal", "eta": 1, "scale": 1},
+    {"id": "flat_x4", "eta": 0, "scale": 4},
+    {"id": "conformal_x4", "eta": 1, "scale": 4}
+  ],
+  "regions": {"Q": [[0,1],[1,1],[0,1],[1,1]], "I": [[0,1],[1,2],[0,1],[1,2]]},
+  "density_bounds": [
+    {"id": "uniform", "interval": [[0,1],[0,1]]},
+    {"id": "half", "interval": [[0,1],[1,2]]},
+    {"id": "one", "interval": [[0,1],[1,1]]},
+    {"id": "two", "interval": [[0,1],[2,1]]}
+  ],
+  "population_data": [
+    {"id": "zero", "q": [0,1]},
+    {"id": "conformal_pole", "q": [5,104]},
+    {"id": "flat_pole", "q": [1,16]},
+    {"id": "lower_edge", "q": [173,1136]},
+    {"id": "flat_edge", "q": [3,16]},
+    {"id": "interior", "q": [1,5]},
+    {"id": "overlap", "q": [17,80]},
+    {"id": "flat_uniform", "q": [1,4]},
+    {"id": "one", "q": [1,1]}
+  ],
+  "observer": {"schema": "qr05bn-query-v1", "data_kind": "population_probability", "bound_basis": "external_assumption"},
+  "coverage": {"cases": 36, "hypotheses": 144, "laws": 9, "membership_rows": 144, "monotonicity": 27, "finite_records": 64, "collisions": 2},
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216, "analysis_seconds": 30, "suite_seconds": 120, "alternate_reference_runs": 1}
+}
