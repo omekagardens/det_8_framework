@@ -1267,21 +1267,48 @@ agree. All 148 identities and the 1,904,029-byte suite remain exact; no
 post-first source, protocol, fixture or mathematical correction. See
 [QR-05AX results](../validation/qr-05ax-bilinear-field-errors-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05AY, kernel sign certificates and bounded-field
-envelopes.** Inspect the ACTUAL tilewise bilinear response kernel at its four
-corners, not merely AX's integrated coefficients. Where every tile is
-sign-definite, certify the sharp arbitrary bounded-measurable-field response
-using signed tile-constant extremizers through unchanged B,G,D. Different
-tiles can require different signs.
+**QR-05AY complete: kernel sign certificates and bounded-field envelopes.**
+All 64 target rows in each supplied geometry have nonnegative ACTUAL
+pointwise kernels, certifying AX's sharp gains for ALL measurable signed
+fields bounded by V² almost everywhere. C=L=S throughout; the sharp maximum
+remains **1** at rows 6,7,15,23,31 = (1,9),(1,10),(2,10),(3,10),(4,10).
+Each family has 31 nonzero and 33 zero rows, with 46 nonzero nonnegative
+target-tile kernels and 722 zero ones. No mixed tile or undefined target
+occurs in these fixed cases.
 
-If a tile changes sign internally, preserve that obstruction, admitted lower
-witnesses and a finite rational corner-supremum upper envelope; leave the
-simple exact route uncertified. Nonnegative integrated coefficients can hide
-a sign-changing kernel, so AX's constant-field success cannot replace this
-test. No arbitrary absolute-kernel integration, loose-bound sharpness,
-new measurements, empirical calibration or physical-law change is implied.
-No fixed AY kernel sign, envelope or witness calculation has run.
-RET integration and gravity remain separate.
+Actual positive/negative constant fields attain all signed response bounds.
+This now follows from pointwise signs, not merely integrated coefficients.
+Generic controls retain mixed kernels with positive integrated coefficients,
+opposite signs across tiles and zero-edge kernels. Mixed kernels keep a NULL
+uncertified exact gain and finite envelope; null targets remain distinct.
+
+The corner envelope U has maximum 1 at 20 rows but is loose on 26 rows per
+family. The largest rowwise gap U-S is 3/4 at rows 9,18,36,63, whose sharp gain
+is only 1/4. Equal global maxima do not imply equal row bounds. No mixed
+absolute-kernel integration or claim that a loose envelope is sharp is made.
+
+All 70 tests pass normally and optimized, with 522 explicit guard rejections
+per isolated mode and 677 non-noop mutations. Independent complete comparison,
+exactly one normal reference-only audit and fresh final read-only replays
+agree. All 154 identities and the 2,092,414-byte suite remain exact; no
+post-first source, protocol, fixture or mathematical correction. See
+[QR-05AY results](../validation/qr-05ay-kernel-sign-certificates-2026-09-08/RESULTS.md).
+
+**Next proposed gate: QR-05AZ, refinement stability.** Subdivide existing
+integration tiles while preserving the physical kernel, probe, target-cell
+regions, reference scales and receiver observations. Verify additive raw
+moments/kernel integrals, the unchanged response functional and exact gain,
+and whether the finite corner envelope tightens.
+
+The bounded-measurable-field domain does not change with the partition.
+Restrictions of a parent bilinear field give correlated child corners;
+independent child-bilinear fields enlarge only that finite subclass.
+More integration coordinates are not more physical measurements. This is
+a supplied-geometry representation/scale test, not unknown geometry
+reconstruction or a continuum/gravity derivation. No fixed AZ refinement
+calculation has run; its detailed protocol and source freeze come first.
+Field-plus-acquisition error composition can follow separately, with
+apparatus calibration, RET integration and gravity independently gated.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -1381,7 +1408,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05AV: shared-bank error propagation | Seven strict shared-versus-enclosure gaps and57 ties per geometry; sharp shared maxima10/3,26/9 occur at a different target from enclosure maxima | Full signed endpoints and raw numerical unit box; no sensor improvement, intrinsic geometric ranking, field-realizability or physical calibration claim |
 | QR-05AW: local bank error coordinates | Both geometries have sharp shared maximum 4 and 21 strict gaps; all 64 scales defined, 43 ties, complete block/inverse and transported endpoints | New local moment domain, not AV's noise; explicit generic null/raw-output semantics, no field realization, calibration or sensor improvement |
 | QR-05AX: bounded bilinear field-error realization | Both geometries have sharp field maximum 1, 26 strict reductions versus AW and 22 receiver-enclosure gaps; actual constants attain all 64 finite-class bounds | Integrated field witnesses and invertible Q, not equal-noise improvement, dimension reduction, pointwise kernel positivity or arbitrary bounded-field sharpness |
-| QR-05AY: kernel sign certificates and bounded-field envelopes (proposed) | Check actual bilinear kernel corners; certify sharp all-bounded-field gains where tile signs permit, retaining mixed-sign obstructions and finite envelopes elsewhere | Same supplied geometry/maps; do not mistake positive integrated coefficients or a loose upper bound for a sharp arbitrary-field certificate |
+| QR-05AY: kernel sign certificates and bounded-field envelopes | Both geometries certify all 64 arbitrary bounded-field gains; sharp maximum 1, with 26 loose corner-envelope rows and largest gap 3/4 | Actual pointwise signs and attaining fields, not integrated positivity alone, calibrated sensor accuracy or sharpness of every envelope |
+| QR-05AZ: refinement stability (proposed) | Subdivide integration tiles while retaining the same physical kernel, target scales and receiver observations; check additive moments, exact-gain invariance and corner-envelope behavior | Same all-bounded-field domain; preserve parent-field correlations and distinguish independently variable child bilinear fields from added measurements |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
