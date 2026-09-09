@@ -4,7 +4,7 @@ Started 5 September 2026. Authorized mathematical exploration in the primary
 checkout, following the discussion of the standalone quantum–record calculus.
 This plan does not reopen retired gravitational sources or clock couplings.
 
-## Roadmap checkup — 8 September 2026
+## Roadmap checkup — 9 September 2026
 
 This is a review of recorded local evidence, not a fresh validation of the
 separately developing RET checkout state or a live instrument assessment.
@@ -15,16 +15,17 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BH are recorded, including BB's interface design | BI next studies supplied interval-valued interior responses; finite passing examples do not close the whole Track-B program |
-| Physical geometry and dynamics | BH certifies eight formerly excluded profiles and refutes six others; all 42 fixed candidate validities are decided, and broader validity exposes two previously hidden target ambiguities | Spacetime geometry is still supplied; uncertain responses, continuous positions, general profile validity, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BI are recorded, including BB's interface design | BJ next tests one fixed additional validity-refinement budget; finite passing examples do not close the whole Track-B program |
+| Physical geometry and dynamics | BI propagates supplied response intervals through certified/necessary bounds: 101 of 105 menu sets are exact, four bounded; all feasible nonpoint menus are target-ambiguous | Spacetime geometry is still supplied; general uncertainty/validity, continuous positions, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
 local-record estimator → BD interior measurement repair → BE target-specific
 measurement reduction → BF known-placement portability →
 BG finite sampling-position uncertainty →
-BH certified global-admission refinement (all complete) →
-BI interval-valued interior response (not run)**. BF derives the
+BH certified global-admission refinement →
+BI interval-valued interior response (all complete) →
+BJ fixed-budget interval refinement (not run)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -41,9 +42,14 @@ BH certifies 36 candidates and refutes six by actual values; all 35 menus
 have exact inner/outer agreement. Its eight recovered valid alternatives
 resolve old class refusals but also turn two old target identifications
 into ambiguities. Failed bounds remain distinct from actual violations;
-no general validity solver is claimed. BI will replace exact interior
-means with supplied intervals, retaining target unions rather than
-silently averaging possible laws. None of these gates treats sampling
+no general validity solver is claimed. BI replaces exact interior means
+with supplied intervals, retaining target unions and coupled law families.
+All 35 point menus recover BH; 66 of 70 nonpoint menu sets are exact,
+and four are bounded because asymmetric/near_corner leaves unresolved
+outer portions. Every feasible nonpoint menu is already target-ambiguous.
+BJ will test one fixed quarter-square/5×5 refinement, without promising
+closure or treating new check points as acquired measurements.
+None of these gates treats sampling
 position as unknown spacetime geometry.
 There is no evidence-based numerical estimate
 of gates until a physical gravity result. RET does not block this isolated
@@ -1625,30 +1631,75 @@ validation process. Prefreeze static cleanup is documented; no post-first
 source, protocol, mathematical or test correction was needed. See
 [QR-05BH results](../validation/qr-05bh-global-admission-refinement-2026-09-08/RESULTS.md).
 
-**Next proposed gate: QR-05BI, interval-valued interior response.**
-Keep exact supplied corners, the finite position menus and profile
-family; freeze small rational interior-response intervals with zero-width
-BH recovery controls. For fixed corners, Bernstein coefficients and
-actual witness values are affine in the same θ at every position.
-Solve their scalar inequalities for sufficient inner and necessary
-outer sets, retain the old sufficient route, then intersect with each
-position's data-inverted θ interval and project the target.
-Keep closed endpoints, zero-slope constraints, empty intersections,
-per-position records and finite target unions with gaps. Narrowing data
-or menus must shrink both bounds; hulls do not replace unions, and
-empty inner alone does not prove infeasibility. An uncertain response
-specifies a family of quantum-record laws, not one midpoint law.
-This is conceptual only; BI has not run. Supplied intervals do not
-establish finite-shot coverage, noisy-corner treatment or apparatus
-calibration. No priors, continuous-position inference, inferred metric
-or gravity dynamics is included. RET integration and measured
-application readiness remain separately gated.
+**QR-05BI complete: interval-valued interior response.**
+Keep exact supplied corners, the six possible positions and five menus.
+Prespecified response radii 0,1/64,1/8 give 126 position/interval reports
+and 105 menus. Affine Bernstein and physical-witness inequalities yield
+global sufficient/necessary θ sets, intersected with each position's data
+interval and projected to exactly represented finite inner/outer target
+unions. The old sufficient
+route, signed and zero slopes, closed endpoints, empty/all-real constraints,
+open union gaps and non-strict budget/menu monotonicity remain visible.
+
+All 35 point menus recover selected BH geometry, hypotheses, certificates,
+witnesses, complete evaluated laws and menu sets/statuses. Across point,
+narrow and wide, target counts are respectively 26/7/2, 0/33/2 and 0/34/1
+identified/ambiguous/infeasible. All feasible nonpoint menus are ambiguous,
+even where their complete target set is exact. Inner and outer hypothesis
+and target sets coincide in 101 of 105 menus and 124 of 126
+position reports. The wider unit_interior/shifted_pair becomes feasible;
+equality_pair remains infeasible. Supplied population widths do not have
+statistical confidence coverage.
+
+quarter_interior/all/narrow has exact target union
+[5/192,17/480] ∪ [5/108,17/324], not its hull; wide coalesces to
+[1/72,2/27]. Only asymmetric/near_corner under narrow and wide has
+empty inner but nonempty outer portions, θ=[388/27,44/3] and
+[304/27,44/3]. Thus all and center_near in those budgets have bounded
+sets. Their other positions already certify ambiguity, so resolving
+additional alternatives cannot restore uniqueness at unchanged data.
+
+The same response parameter couples all 224 affine branches, 7,168
+branch-diagonal coefficient pairs and 224 averaged-state pairs.
+All 42 endpoint checks establish positivity/normalization throughout
+the supplied intervals by affinity. A midpoint law or independently
+bounded probability entries would lose this dependence. These diagonal
+quantum laws remain Bernoulli-equivalent, not a quantum advantage claim.
+
+Independent sparse quantum/monomial and beta/Bernoulli/interpolation
+routes plus a third Boole/Gram/cofactor/arrangement oracle agree.
+All 43 tests pass normally and optimized in isolated Python 3.14.0;
+exactly one reference-only Python 3.11.6 audit matches the complete
+mathematical report. Both full replays retain eleven identities and
+the unchanged 1,703,421-byte capture. The BH restriction is selected,
+not the whole historical report or its earlier validation lifecycle;
+no old executors run. No post-first source, protocol, mathematical or
+test correction was needed. See
+[QR-05BI results](../validation/qr-05bi-interval-valued-response-2026-09-09/RESULTS.md).
+
+**Next proposed gate: QR-05BJ, fixed-budget interval refinement.**
+Keep BI data, positions, menus, profile family and coupled laws unchanged.
+Freeze one additional budget: 16 quarter-square Bernstein leaves and
+the corresponding 5×5 physical-witness grid. Retain the BI baseline
+and verify that sufficient inner bounds cannot shrink and necessary
+outer bounds cannot grow, including their target projections. Test
+whether the two near-corner intervals and four bounded menus narrow
+or become exact. No adaptive extra subdivisions or closure promise;
+unresolved remains an acceptable result. Actual witness violations,
+not failed coefficient certificates, justify exclusion. These added
+grid points are mathematical checks, not acquired measurements.
+
+BJ is conceptual only and has not run. A general analytic-extrema solver
+with potentially algebraic endpoints is a separate contract. No finite-shot
+coverage, noisy corners, continuous-position inference, inferred metric or
+gravity dynamics is included. RET integration and measured application
+readiness remain separately gated.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BH began from pushed BG commit
-`55fc87cd5b50cb4d3ef6a61f13a4a785a7e8b658`. Separate core, RET and application
-work is not included in the BH publication.
+scoped to this research; BI began from pushed BH commit
+`4ac7848a27d184dd857606ba04afeb7d8b2e0877`. Separate core, RET and application
+work is not included in the BI publication.
 
 ## Outcome sought
 
@@ -1753,7 +1804,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BF: known-placement portability | Four-site target recovery iff (1−u)(1−v)=1/4; two moved equality controls need new weights, three off-locus positions have admitted target ambiguities; known-position full access repairs identification | 37 tests per mode; six positions/1,728 branches, 576 state marginals pass but 576/1,152 pathwise estimates differ; no unknown-position, calibration or gravity claim |
 | QR-05BG: finite sampling-position uncertainty | Exact finite admitted sets; same-full-law target difference 7/324 despite full access, harmless position ambiguity and a globally valid class-excluded profile | 39 tests per mode; 42 candidates/35 menus/1,568 branches; target hull is not exact set, class infeasibility is not physical contradiction; no priors, calibration or metric inference |
 | QR-05BH: certified global-admission refinement | 36 certified profiles (eight beyond old admission), six actual violations; all 35 finite hypothesis/target sets exact; broader validity exposes two old target identifications as ambiguities | 48 tests per mode; 210 patches/1,890 coefficients/378 witness values, whole BG math preserved; no general validity solver, new measurements or calibration |
-| QR-05BI: interval-valued interior response (proposed) | Fixed exact corners, finite positions and supplied response intervals; affine θ constraints give inner/outer per-position target intervals and finite unions, with zero-width BH recovery | Freeze interval menu first; no numerical study yet; keep empty sets/endpoints/gaps, monotone narrowing and law families; supplied widths are not calibrated confidence |
+| QR-05BI: interval-valued interior response | 101/105 menu sets exact, four bounded at asymmetric/near_corner; every feasible nonpoint menu target-ambiguous; zero-width BH recovery and coupled affine laws retained | 43 tests per mode; 126 position intervals, 35 affine patches, 224 branches, 42 endpoint checks; no calibrated confidence or general validity solver |
+| QR-05BJ: fixed-budget interval refinement (proposed) | Retain BI data/laws and compare one extra quarter-square Bernstein / 5×5 witness budget against its bounds | Freeze before computation; preserve nested inner/outer unions and unresolved results; no adaptive closure promise or new acquired data |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise

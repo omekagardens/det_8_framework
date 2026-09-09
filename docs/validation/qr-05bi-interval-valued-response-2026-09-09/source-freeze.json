@@ -1,0 +1,54 @@
+{
+  "runtime_at_source_freeze": {
+    "implementation": "CPython",
+    "optimized": 0,
+    "python": "3.14.0"
+  },
+  "schema": "QR-05BI-source-freeze-v1",
+  "sources": {
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/README.md": {
+      "bytes": 10796,
+      "sha256": "1eccd0856bdb9456e2a0c9db57ae5ee06fb5158baeb87537cd9869fc8a9af64f"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/RESULTS.md": {
+      "bytes": 13218,
+      "sha256": "cb758c2e0817961a5baa33ad5be313326d03a4534d6e43759f3c5dfd137d1b0e"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/protocol.json": {
+      "bytes": 9493,
+      "sha256": "6a9cbe4751e80e6f4783efe0ad06c0e6d0b5bb3d2127aee8ca038176b19cb4c8"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/results.json": {
+      "bytes": 2613666,
+      "sha256": "a5e1387c4de81d35641ea8b9f333d4530c66e729a3e60df2ca6e5f80e251d9f5"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/source-freeze.json": {
+      "bytes": 2337,
+      "sha256": "14ec10d9ea284e08788faac230de79f482d53e83bce0d4a74742e4d8e87d8661"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/README.md": {
+      "bytes": 11804,
+      "sha256": "d29109c97f0d21df27fb537cbf36d6471689cce7983350d5671f259ed81516c0"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/protocol.json": {
+      "bytes": 12432,
+      "sha256": "8da402d79a93108711929ede1af63e99be2e07f8097e5f33921edcafa6134127"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/quantum.py": {
+      "bytes": 43629,
+      "sha256": "781d3645f295a73f270c75a327c09efe29cf23510165b0f64a3ae4d0f9b0562b"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/reference.py": {
+      "bytes": 33271,
+      "sha256": "2f1e16e7bd596bc7a3a518a29e033093ee20124b5d22e62110f9890a9af862e8"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/study.py": {
+      "bytes": 23872,
+      "sha256": "d22fdc363a2222b2eac3d821b8a45add570c4653983f549cdc7c1860b4f878e9"
+    },
+    "docs/validation/qr-05bi-interval-valued-response-2026-09-09/test_qr05bi.py": {
+      "bytes": 86979,
+      "sha256": "3c6a96cdef2a404b9d57b3c481c89934a056db05bb49b90ec17f2c492062fe11"
+    }
+  }
+}
