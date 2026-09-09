@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BP are recorded; BB and BL are analytical design checkpoints | BQ next designs a finite-record uncertainty contract; finite examples do not close the whole Track-B program |
-| Physical geometry and dynamics | BO's added query separates the membership-only collision; under the widest density premise, BP preserves target identification for narrow population boxes and loses it for wider boxes | Conditional model-relative identification only; whole-point geometry/density ambiguity, absolute scale, finite-record uncertainty, calibration, general metrics and dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BQ are recorded; BB, BL and BQ are analytical/design checkpoints | BR next verifies the fixed finite-record confidence construction; the whole Track-B program remains open |
+| Physical geometry and dynamics | BP gives supplied-bound robustness; BQ analytically transfers simultaneous finite-record coverage to relative-volume target sets | Conditional model-relative confidence only; executable verification, acquisition calibration, whole-point geometry/density ambiguity, absolute scale, general metrics and dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -31,8 +31,9 @@ BL relative-volume identification design →
 BM bounded relative-volume verification →
 BN bounded sampling-density partial identification →
 BO richer marked-causal queries under density uncertainty →
-BP interval-valued population-pair identification (all complete; BB/BL design-only) →
-BQ finite-record uncertainty contract (not started; design-only proposed)**. BF derives the
+BP interval-valued population-pair identification →
+BQ finite-record uncertainty contract (all complete; BB/BL/BQ design-only) →
+BR bounded finite-record confidence verification (not started)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -84,9 +85,15 @@ population-box/bound cases: 28 target-identified, 18 ambiguous, 46 infeasible.
 Under the widest density premise, the two narrow centered boxes preserve
 their targets; the wider boxes admit both. All 48 zero-width BO projections
 recover the stored answers. All 25 tests pass per mode, both full replays
-and one alternate reference audit match. BQ next designs how fixed finite
-records could justify simultaneous population bounds; BP itself makes no
-finite-record coverage claim.
+and one alternate reference audit match. BQ now provides an analytical
+fixed-quota confidence contract: inclusive binomial tails and outward rational
+rounding give simultaneous coverage over the continuous probability domain;
+the shared-δ inverse transfers it to target sets under the true model/density
+premises. It does not give certainty conditional on a singleton report.
+For the proposed four-record 95% baseline, all00 must retain both targets;
+the selected interval procedure returns empty on the possible all11 packet.
+BQ executed no numerical study; BR next verifies the fixed construction.
+BP itself remains a supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
 spacetime geometry.
 There is no evidence-based numerical estimate
@@ -1927,29 +1934,60 @@ under stipulated population bounds is not confidence from finite records,
 nor proof that an apparatus meets those bounds. See
 [QR-05BP results](../validation/qr-05bp-population-intervals-2026-09-09/RESULTS.md).
 
-**Next proposed gate: QR-05BQ, finite-record uncertainty contract.**
-Begin with an analytical/design-only contract: fix iid paired-record quota,
-failure budget, four one-sided tail allocations and outward rational rounding
-before observing records. Define simultaneous population bounds through
-marginal binomial-tail inversion and a joint coverage argument that does
-not assume independent questions within a point. Prove coverage over the
-continuous domain, not only grid points, before proposing bounded execution.
+**QR-05BQ complete: finite-record uncertainty contract (analytical/design only).**
+Inclusive binomial-tail inversion on a fixed rational grid gives outward
+closed intervals. A threshold-in-count argument bounds each one-sided
+noncoverage event for every continuous probability, not only grid points.
+A four-tail union bound gives simultaneous population coverage without
+independence between the two questions. The exact shared-δ inverse then
+retains the true target with probability at least 1−α, conditional on the
+stipulated acquisition/model and a bound containing the true density.
 
-Transfer population coverage to target-set coverage through the shared-δ
-inverse only under the model and an independently justified density bound.
-Distinguish unconditional coverage from correctness conditional on reporting
-only singleton answers. Preserve empty sets and impossible-symbol refusals;
-neither diagnoses a specific hardware fault. Stopping, selection, loss and
-false density/model assumptions require explicit boundaries. BQ is not
-started; BP does not claim this confidence construction. Marks/comparator
-access, apparatus calibration, general densities/metrics, RET integration
-and gravity dynamics remain separate. BK's unused negative-θ optimization
-is not a prerequisite.
+Empty sets and wrong singletons jointly have unconditional probability
+at most α under those premises; singleton-selected correctness is a
+different claim. An explicit alternative rule within this model family
+has more than 95% coverage but always-wrong singleton reports under flat
+geometry. The proposed interval rule does not use that alternative rule.
+At the compensated equal-law pair, this shared-box procedure retains both
+targets with probability at least 1−α when both density values are admitted.
+The general same-law bound for arbitrary covering procedures is only 1−2α.
+
+The selected successor baseline keeps four attempts, total α=1/20, four
+tail budgets 1/80 and grid j/256. Analytically, all00 has probability at
+least 625/4096 in every world, so a deterministic uniformly 95%-covering
+rule cannot exclude either target on that packet. The proposed tail rule
+retains the full nuisance domains there. On all11 its first lower bound
+is at least 5/16>1/4, yielding an empty inverse; that allowed packet has
+positive probability at most 1/256. Neither outcome diagnoses apparatus.
+
+BQ ran no engine, test suite, confidence table, simulation or experiment;
+it created no numerical freeze/capture. The standalone proof, paired count
+law, provenance boundary and successor specification are in
+[QR-05BQ decision record](../validation/qr-05bq-finite-record-uncertainty-design-2026-09-09/RESULTS.md).
+
+**Next proposed gate: QR-05BR, bounded finite-record confidence verification.**
+Freeze the selected n=4/grid/budget construction before execution. Retain
+all 2,570 two-tail grid entries, five count intervals, 15 nested count states,
+60 box/bound cases and 240 geometry hypotheses. Six unit-scale fixtures
+give 90 count-law probabilities and 24 fixture/bound summaries. These are
+planned inventories, not evaluated outcomes. Preserve false-premise labels,
+empty sets, original probability weights and both collision controls.
+
+Use a new record interface with honest confidence-construction provenance;
+do not relabel frequencies or constructed bounds as BP's externally supplied
+population inputs. Validate paired attempts before counting, including a
+forbidden10 hidden by legal aggregate counts. Independent exact tail routes,
+shared-δ inverses, closed/tie/rounding controls and bounded create-only
+evidence are required. BR is not started; no singleton rate, tiny-box
+precision or physical utility is promised. Sampling/mark calibration,
+stopping/selection, general densities/metrics, RET integration and gravity
+dynamics remain separate; BK's unused negative-θ optimization is not a
+prerequisite.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BP began from pushed BO commit
-`766d3a80d44099635d2d7ac13cc1e4de5635c3be`. Only the nine BP artifacts and
+scoped to this research; BQ began from pushed BP commit
+`b5f0ce11d3487c3ad6f3e7855c93a5d5b855ab82`. Only the two BQ Markdown files and
 this roadmap belong to its publication. Separate core, RET and application
 work is not included.
 
@@ -2064,7 +2102,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BN: bounded sampling-density partial identification | 36 population/bound cases: 10 target-identified, four ambiguous, 22 infeasible; continuous nuisance inverse and distinct membership/point-law collisions verified | 25 tests per mode; full replays and one alternate reference audit; external density bounds and exact population laws are premises, not calibration or finite-shot certainty |
 | QR-05BO: richer marked-causal queries under density uncertainty | Three-moment reconstruction verified; second query splits the membership-only pair by 5/7296; 16 fixtures and 48 population/bound cases retained | 22 tests per mode; full replays and one alternate reference audit; declared span/access only, persistent factorization/scale ambiguity and no finite-shot certainty |
 | QR-05BP: interval-valued population-pair identification | Under the widest density premise, narrow centered boxes retain their targets and wider ones admit both; 92 cases retain all coupled intervals and 48 stored BO point projections | 25 tests per mode; full replays and one alternate audit; shared-δ incompatibility, closed contact, scale/whole-point obstructions; no finite-record confidence/calibration claim |
-| QR-05BQ: finite-record uncertainty contract (proposed, design-only) | Define simultaneous population bounds from fixed iid paired records, then transfer coverage to target sets under the supplied model | Prespecify quota/tail budget/outward rounding; continuous-domain coverage, selection/stopping boundaries and no singleton-conditional certainty or apparatus calibration |
+| QR-05BQ: finite-record uncertainty contract (complete, analytical/design only) | Inclusive-tail/outward-grid proof transfers simultaneous population coverage to target sets; four-record all00/all11 and selective-reporting controls expose limits | No numerical execution; true model/density and fixed acquisition premises; persistent same-law ambiguity, no singleton-conditional certainty or apparatus calibration |
+| QR-05BR: bounded finite-record confidence verification (proposed) | Verify n=4, grid j/256 and 95% construction across all 15 count states and 60 inverse cases, with six count-law fixtures | Freeze exact tails, provenance, tie/rounding/refusal controls and work bounds; continuous coverage comes from the theorem, not a finite fixture census |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
