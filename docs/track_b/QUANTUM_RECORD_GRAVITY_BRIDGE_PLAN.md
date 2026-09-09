@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BJ are recorded, including BB's interface design | BK next investigates one analytic upper-validity boundary; finite passing examples do not close the whole Track-B program |
-| Physical geometry and dynamics | BJ's fixed refinement makes 103 of 105 menu sets exact; two wide menus remain bounded, with certified and unresolved near-corner portions | Spacetime geometry is still supplied; general uncertainty/validity, continuous positions, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BK are recorded, including BB's interface design | BL next specifies a geometry-identification experiment and its observation assumptions; finite passing examples do not close the whole Track-B program |
+| Physical geometry and dynamics | BK's analytic positive boundary makes all 105 menu sets and 126 position sets exact in the fixed collection | Spacetime geometry is still supplied; unknown density, general validity, continuous positions, off-model ambiguity, apparatus calibration and dynamical correspondence remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -25,8 +25,9 @@ measurement reduction → BF known-placement portability →
 BG finite sampling-position uncertainty →
 BH certified global-admission refinement →
 BI interval-valued interior response →
-BJ fixed-budget interval refinement (all complete) →
-BK analytic upper-admission boundary (not run)**. BF derives the
+BJ fixed-budget interval refinement →
+BK analytic upper-admission boundary (all complete) →
+BL geometry-identifiability design checkpoint (not started)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -51,9 +52,14 @@ outer portions. Every feasible nonpoint menu is already target-ambiguous.
 BJ's one fixed quarter-square/5×5 refinement completely excludes the
 narrow near-corner alternative and certifies part of its wide interval.
 It preserves every previously exact set and leaves only two wide menus
-bounded. BK next targets the remaining positive-θ validity boundary
-analytically, without treating mathematical check points as measurements.
-None of these gates treats sampling
+bounded. BK certifies the sharp positive boundary [0,β], with
+13.4760<β<13.4764 and an exact algebraic endpoint, resolving those last
+two sets. Every old exact set and settled classification remains unchanged.
+The unused global negative-boundary gap remains explicit; it does not block
+the exact answers for this fixed collection. BL next defines one unknown
+relative geometric volume and the sampling/access premises needed for its
+identification, before any executable geometry experiment.
+None of the completed gates treats sampling
 position as unknown spacetime geometry.
 There is no evidence-based numerical estimate
 of gates until a physical gravity result. RET does not block this isolated
@@ -1724,30 +1730,65 @@ are not rerun. No post-first correction or adaptive extra budget was
 needed. See
 [QR-05BJ results](../validation/qr-05bj-fixed-interval-refinement-2026-09-09/RESULTS.md).
 
-**Next proposed gate: QR-05BK, analytic upper-admission boundary.**
-Keep data, finite positions, geometry and laws fixed. Investigate the
-single asymmetric positive-θ upper-validity threshold, bracketed by
-151/12 and 128/9, rather than select another finer grid. Nonnegative
-θ already gives f≥c·φ≥−1; the remaining condition is f≤1.
-Derive a complete analytic reduction, potentially through stationary
-contact f=1 and both first derivatives zero, accounting for boundary
-behavior, all admissible candidates and extraneous elimination roots.
-A stationary point alone is not a global certificate.
+**QR-05BK complete: analytic upper-admission boundary.**
+All 126 position sets and 105 menu hypothesis/target sets are now exact
+for the unchanged fixed collection. The asymmetric profile has sharp
+positive validity [0,β], where 13.4760<β<13.4764. Its exact endpoint is
+a rational image of the unique root α in [8524160,8524161]/2^24 of
+P(v)=2v^5+25v^4+90v^3−676v^2+553v−120. The other unit-interval root
+is retained and rejected by the unsquared derivative sign condition.
+P is not asserted minimal or irreducible, and enclosure endpoints are
+never substituted for α or β.
 
-Allow an exact algebraic endpoint with a rational isolating interval;
-do not force a rational answer or substitute a floating optimizer.
-Prospectively freeze the method, bounded resources and failure semantics,
-retain closed-boundary admission, and propagate any certified threshold
-to the existing wide-menu sets. Unresolved attempts remain visible.
-BK is conceptual only and has not run. General corners, negative-θ sharp
-bounds, continuous positions, noisy corners, finite-shot calibration,
-RET integration, metric inference and gravity dynamics remain separate.
+Strict convexity of the positive reciprocal-product decomposition of
+(1−r)/b, together with boundary divergence and the verified interior
+contact, establishes globality. Three zero polynomial contact residuals
+alone would not. At θ=β the profile is admitted; every θ>β violates
+the upper bound at that same interior point. No new sample was acquired.
+
+Only asymmetric/wide/near_corner changes, becoming exact
+θ=[304/27,β] and targets [269/1944,t*], t*=13/216+β/144.
+The newly exact wide/all union is [29/540,221/1728]∪[269/1944,t*];
+wide/center_near is [2/27,11/108]∪[269/1944,t*]. Both remain
+feasible and ambiguous, with unchanged open gaps. All 125 previously
+exact position sets, all 103 exact menus and all settled statuses persist.
+Global negative sufficient [−61/4,0] and necessary [−52/3,0] still
+differ, but their restrictions to every supplied data interval agree.
+This is not a sharp full global θ solver.
+
+Primary radical elimination/Sturm counts, independent stationary
+elimination/Bernstein–Descartes counts, and a third Sylvester/Hermite
+test verifier agree. The entire BJ mathematics is recomputed unchanged.
+All 39 tests pass normally and optimized; both full replays and exactly
+one reference-only Python 3.11.6 audit match. All thirteen source/evidence
+identities and the 3,350,395-byte capture remain unchanged. No post-first
+correction or adaptive budget increase was needed. See
+[QR-05BK results](../validation/qr-05bk-analytic-admission-boundary-2026-09-09/RESULTS.md).
+
+**Next proposed gate: QR-05BL, geometry-identifiability design checkpoint.**
+Move from a supplied geometric target to one explicitly unknown relative
+causal-interval volume V(I)/V(Q). Design a two-hypothesis conformal-volume
+family sharing causal order, with an explicitly assumed iid proper-volume
+sampler and accessible causal-membership records. Derive the complete
+forward law and freeze the observer's access and population-identification
+criterion before implementation. Do not hand the observer hidden coordinates,
+volume marks, or a quantum phase already encoding the desired geometry.
+
+Reuse the existing order-only and density-compensation controls: changed
+volume and changed sampling density can produce identical entire accessible
+laws. Normalized membership cannot fix absolute scale, and identical
+geometry-independent quantum payloads do not repair these obstructions.
+This would be conditional geometric-measure identification under a declared
+sampler, not metric reconstruction or a calibrated apparatus. BL is proposed
+design work, not yet started. The global negative-θ optimization outside
+the current data is not a prerequisite. Continuous positions, general corners,
+finite-shot confidence, RET integration and gravity dynamics remain separate.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BJ began from pushed BI commit
-`20545605a41540134ff2596710244d525c25e2f6`. Separate core, RET and application
-work is not included in the BJ publication.
+scoped to this research; BK began from pushed BJ commit
+`e608e472b9fd6251e294a988010ee4c1bc04f183`. Separate core, RET and application
+work is not included in the BK publication.
 
 ## Outcome sought
 
@@ -1854,7 +1895,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BH: certified global-admission refinement | 36 certified profiles (eight beyond old admission), six actual violations; all 35 finite hypothesis/target sets exact; broader validity exposes two old target identifications as ambiguities | 48 tests per mode; 210 patches/1,890 coefficients/378 witness values, whole BG math preserved; no general validity solver, new measurements or calibration |
 | QR-05BI: interval-valued interior response | 101/105 menu sets exact, four bounded at asymmetric/near_corner; every feasible nonpoint menu target-ambiguous; zero-width BH recovery and coupled affine laws retained | 43 tests per mode; 126 position intervals, 35 affine patches, 224 branches, 42 endpoint checks; no calibrated confidence or general validity solver |
 | QR-05BJ: fixed-budget interval refinement | 103/105 menus exact; narrow near-corner fully excluded, wide partially certified; all prior exact sets and complete BI mathematics unchanged | 52 tests per mode; 112 new patches/1,008 pairs/175 witnesses; two wide menus still bounded; no new acquired data or arbitrary extra refinements |
-| QR-05BK: analytic upper-admission boundary (proposed) | Seek the sharp positive-θ validity threshold for the asymmetric profile at unchanged data, preserving exact algebraic endpoints if needed | Freeze a complete bounded method before computation; account for boundary/interior candidates and extraneous roots; no floating optimizer as proof or broader geometry claim |
+| QR-05BK: analytic upper-admission boundary | All 126 positions/105 menus exact; sharp closed positive boundary [0,β], 13.4760<β<13.4764; old sets/statuses preserved | 39 tests per mode; independent algebraic/root certificates and whole BJ math preserved; exact sets are not unique targets, and negative global admission and metric inference remain open |
+| QR-05BL: geometry-identifiability design checkpoint (proposed) | Specify one unknown relative causal-interval volume and an accessible sampling law over a finite same-order family | Freeze access and sampler assumptions; retain density-compensation and scale ambiguities; no apparatus calibration, metric reconstruction or gravity claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise

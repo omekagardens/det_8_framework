@@ -1,0 +1,54 @@
+{
+  "runtime_at_source_freeze": {
+    "implementation": "CPython",
+    "optimized": 0,
+    "python": "3.14.0"
+  },
+  "schema": "QR-05BK-source-freeze-v1",
+  "sources": {
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/README.md": {
+      "bytes": 11331,
+      "sha256": "d9dcfadd19d06281672d1007d41b502312498fdd1f9d76f82dbbddde0eec93ec"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/RESULTS.md": {
+      "bytes": 13217,
+      "sha256": "2256dd9983f507caf0136cfaa6a7e19f57333b7eb9d2365930abae0bca0bf60f"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/protocol.json": {
+      "bytes": 17988,
+      "sha256": "533e807f943f1e37c7231f86300cf6b85d62a06b077ba5541f7d841549d00967"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/results.json": {
+      "bytes": 3080661,
+      "sha256": "04c2092edca46a329e73798a6701985b83a9870b3916c7ff59f65d3396ec969f"
+    },
+    "docs/validation/qr-05bj-fixed-interval-refinement-2026-09-09/source-freeze.json": {
+      "bytes": 2313,
+      "sha256": "f8a4f5935abf7b99212878e794fe17f0caccbce82d4585edf574b2b067e19fcc"
+    },
+    "docs/validation/qr-05bk-analytic-admission-boundary-2026-09-09/README.md": {
+      "bytes": 13767,
+      "sha256": "756d044eeabdb0603c2743922bf9b7905bd13bb67733b7c711617f398bb4b2ee"
+    },
+    "docs/validation/qr-05bk-analytic-admission-boundary-2026-09-09/protocol.json": {
+      "bytes": 20886,
+      "sha256": "924461cf18794bae1e6b022b92550f544246aad7595b59b8afb535968f7a86f5"
+    },
+    "docs/validation/qr-05bk-analytic-admission-boundary-2026-09-09/quantum.py": {
+      "bytes": 83262,
+      "sha256": "fc63cb1137b8f1c28f6ee0111692373d9177aeba05657e328352e2243d4cae03"
+    },
+    "docs/validation/qr-05bk-analytic-admission-boundary-2026-09-09/reference.py": {
+      "bytes": 80126,
+      "sha256": "5e9a3dd543467c72cd11732ef35bf2ec3a97ff5d64ce541e878df4dd3f4bbb06"
+    },
+    "docs/validation/qr-05bk-analytic-admission-boundary-2026-09-09/study.py": {
+      "bytes": 15991,
+      "sha256": "a31fc57582a779f33304aa29a1205090647a5220b7060ee214e5db113f834c00"
+    },
+    "docs/validation/qr-05bk-analytic-admission-boundary-2026-09-09/test_qr05bk.py": {
+      "bytes": 103771,
+      "sha256": "c56795bf09cfddb79c495daa1ad4bed04037bce4f80b8b15d349fd24a580e742"
+    }
+  }
+}
