@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BU are recorded; BB, BL, BQ, BS and BU are analytical/design checkpoints | BV next verifies the bounded acquisition-distortion contract; the whole Track-B program remains open |
-| Physical geometry and dynamics | BU derives exact bound-only actual-law separation max(D−2e,0) and an enlarged confidence inverse; BT's fixed-budget and BR's four-record evidence stay unchanged | Executable distortion-contract verification, acquisition/density calibration, whole-point ambiguity, absolute scale, general metrics and dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BV are recorded; BB, BL, BQ, BS and BU are analytical/design checkpoints | BW next defines reference-calibration admissibility; the whole Track-B program remains open |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; 28 tests per mode and exact replays pass | Independent reference/transfer evidence, acquisition/density calibration, whole-point ambiguity, absolute scale, general metrics and dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -36,8 +36,9 @@ BQ finite-record uncertainty contract →
 BR bounded finite-record confidence verification →
 BS separation and acquisition-budget contract →
 BT bounded separation and budget verification →
-BU bounded acquisition-distortion contract (all complete; BB/BL/BQ/BS/BU design-only) →
-BV bounded acquisition-distortion verification (not started)**. BF derives the
+BU bounded acquisition-distortion contract →
+BV bounded acquisition-distortion verification (all complete; BB/BL/BQ/BS/BU design-only) →
+BW reference-calibration admissibility contract (not started, design-only)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -115,9 +116,14 @@ capture. No large-quota count law was evaluated. BU now derives an exact
 actual-law class margin max(D−2e,0) and an enlarged confidence inverse under
 externally bounded population distortion. The fixed budget tolerates the
 uniform D/4 allowance but does not certify the still-separated half D/4
-case; at D/2 the bound-only classes share an actual record law. These are
-analytical results, not instrument calibration or a new numerical capture.
-BV next verifies a fixed eight-class/ten-box domain. BP itself remains a
+case; at D/2 the bound-only classes share an actual record law. BU's results
+were analytical; BV now verifies all eight class/error rows and ten population
+boxes in its first frozen capture. Three plans certify and five do not;
+the midpoint contact boxes require enlargement to retain both targets.
+All 28 tests pass per mode, both full replays and one alternate reference
+audit agree exactly. This is not instrument calibration. BW next defines
+what independent reference/transfer evidence could justify those premises.
+BP itself remains a
 supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
 spacetime geometry.
@@ -2110,25 +2116,58 @@ in BU. Independent analytical review tightened the probability quantifiers
 and nuisance-witness boundaries. See
 [QR-05BU decision record](../validation/qr-05bu-acquisition-distortion-design-2026-09-09/RESULTS.md).
 
-**Next proposed gate: QR-05BV, bounded acquisition-distortion verification.**
-Keep n=65,536,m=256,α=1/20 and four tail allocations 1/80. Fix eight
-class/error rows (uniform/half at e=0,D/4,D/2; one/two at e=0), ten derived
-singleton population boxes, one nonnested negative control and two scale
-comparisons at identical B,e,C. Retain exact actual-law witnesses, global
-lower bounds, signed budget outcomes, coupled nuisance intervals and
-closed-contact/empty-inverse distinctions. Freeze complete sources/schemas
-before the first evaluation and compare zero-error projections only with
-authenticated stored BT evidence; never rerun old mathematical executors.
+**QR-05BV complete: bounded acquisition-distortion verification.**
+The first frozen capture verifies all eight class/error rows, ten singleton
+population boxes, forty enlarged and forty unexpanded geometry hypotheses,
+one nonnested negative control and two same-input scale comparisons.
+Independent monomial/mass-inequality and Simpson/segment-parameter routes
+agree on the complete native rational report. A third moment/root-cell
+oracle agrees; all 28 tests pass per normal/optimized mode, both full replays
+and one Python 3.11.6 reference-only audit match the first capture.
 
-BV is not started. No adaptive allowance/quota/grid tuning, new device,
-records or calibration is implied. Sampling/mark calibration, general
-densities/metrics, RET integration and gravity dynamics remain separate;
-BK's unused negative-θ optimization is not a prerequisite.
+Three fixed-budget plans certify: uniform at e=0 and D/4, and half at e=0.
+The half D/4 row remains separated with score 4/9 but is not certified.
+The two narrow contact allowances produce actual-law collisions; the two
+broad e=0 rows retain the ideal collision. All five uncertified outcomes
+remain visible. At contact, the unexpanded midpoint inverse is empty;
+enlargement returns both targets. Half-class positive nuisance intervals
+are [16/41,1/2] and [0,18/209], with full original-box latent witnesses.
+An originally nonnested box remains empty before enlargement.
+
+The marginally unchanged negative law still violates nested support, and
+its first-attempt forbidden mass 1/16 exceeds α. Both scale comparisons
+preserve normalized inferences while raw constraints scale by four.
+All four complete classes and four zero-error legacy class plans match
+authenticated stored BT evidence without rerunning earlier mathematics.
+No frozen mathematical source was revised after the first run. See
+[QR-05BV results](../validation/qr-05bv-acquisition-distortion-verification-2026-09-09/RESULTS.md).
+
+**Next proposed gate: QR-05BW, reference-calibration admissibility contract.**
+Design-only: specify what independently justified reference information and
+same-population/mark transfer assumptions could establish a deterministic e
+or statistically valid e_cal. A close fit to production records does not,
+by itself, identify the true ideal world or certify a distortion bound
+relative to it. Keep support, iid/stationarity,
+pairing, mark association and loss handling as distinct premises; finite
+absence of 10 does not certify zero population forbidden mass.
+
+State calibration-validity, coverage and acceptance events explicitly,
+with α+β composition and selection-aware bounds. Do not inherit an
+accepted-batch guarantee from passing a selected budget check. Produce
+an auditable evidence/assumption interface with unresolved premises, not
+another toy fixture sweep or claimed calibration. If no independent reference
+or defensible transfer/support evidence is supplied, stop at the conditional
+contract; do not promote apparatus or geometric-identification readiness.
+
+BW is not started. No numerical β, adaptive allowance/quota/grid tuning,
+new device, records or calibration execution is implied. General densities/
+metrics, RET integration and gravity dynamics remain separate; BK's unused
+negative-θ optimization is not a prerequisite.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
-scoped to this research; BU began from pushed BT commit
-`58ef13c24fa09657fcdb537333be07c084c6c12e`. Only the two BU Markdown files and
+scoped to this research; BV began from pushed BU commit
+`cfee01c011301ca74424343053e146604081983b`. Only the nine BV files and
 this roadmap belong to its publication. The 231 pre-existing dirty status
 entries, including separate core, RET and application work, are not included.
 
@@ -2248,7 +2287,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BS: separation and acquisition-budget contract (complete, design-only) | Exact segment distances and whole-class margins; strict confidence width gives correct-singleton probability≥95%, with a sufficient n=65,536,m=256 narrow-bound design | No numerical execution; calibrated premises not supplied, conservative not minimal budget, persistent intersection/scale obstruction and unchanged BR counterexample |
 | QR-05BT: bounded separation and budget verification | 24 pointwise distances, four class margins and 28 plans: ten certified, ten not certified, eight out of premise; all six contact/width controls retained | 25 tests per mode, full replays and one alternate audit; narrow-bound sufficient budgets, no large-quota count law, adaptive tuning or physical acquisition |
 | QR-05BU: bounded acquisition-distortion contract (complete, design-only) | Exact actual-law separation max(D−2e,0), enlarged shared-density inverse and systematic collision witnesses; uniform D/4 budget passes while half D/4 remains uncertified | No mathematical execution; every-batch width premise, nested iid law and calibration validity remain explicit; no known-channel, apparatus or general geometry/gravity claim |
-| QR-05BV: bounded acquisition-distortion verification (proposed) | Eight class/error rows, ten singleton population boxes, one nonnested control and two fixed-input scale comparisons | Freeze independent exact witnesses and bounded evidence; no adaptive allowance/quota/grid tuning, confidence-table sweep or acquisition |
+| QR-05BV: bounded acquisition-distortion verification | Eight class/error plans: three certified, five not; ten exact enlarged inverses, complete endpoint witnesses and nonnested/scale controls verified | 28 tests per mode, full replays and one alternate audit; supplied e and nested iid premises, no apparatus calibration, adaptive tuning or acquisition |
+| QR-05BW: reference-calibration admissibility contract (proposed, design-only) | Define independent reference truth, same-population transfer, allowance validity and selection-aware error composition | Explicit unmet support/iid/mark/loss premises; no fixture sweep, numerical calibration allocation, device choice, acquisition or readiness claim |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
