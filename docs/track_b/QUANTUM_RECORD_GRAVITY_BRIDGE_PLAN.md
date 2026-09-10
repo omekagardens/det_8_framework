@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BV are recorded; BB, BL, BQ, BS and BU are analytical/design checkpoints | BW next defines reference-calibration admissibility; the whole Track-B program remains open |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; 28 tests per mode and exact replays pass | Independent reference/transfer evidence, acquisition/density calibration, whole-point ambiguity, absolute scale, general metrics and dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through BX are recorded; BB, BL, BQ, BS, BU, BW and BX are analytical/design checkpoints | The reference-calibration composition verification is deferred; geometric interpretation, dynamics and all measured tests remain open |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied | Independent reference/transfer evidence, a realized apparatus, measured data, whole-point ambiguity, absolute scale, general metrics and dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -38,7 +38,8 @@ BS separation and acquisition-budget contract →
 BT bounded separation and budget verification →
 BU bounded acquisition-distortion contract →
 BV bounded acquisition-distortion verification (all complete; BB/BL/BQ/BS/BU design-only) →
-BW reference-calibration admissibility contract (not started, design-only)**. BF derives the
+BW reference-calibration admissibility contract (complete, design-only) →
+BX apparatus-to-event interface design (complete, design-only)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -121,8 +122,12 @@ were analytical; BV now verifies all eight class/error rows and ten population
 boxes in its first frozen capture. Three plans certify and five do not;
 the midpoint contact boxes require enlargement to retain both targets.
 All 28 tests pass per mode, both full replays and one alternate reference
-audit agree exactly. This is not instrument calibration. BW next defines
-what independent reference/transfer evidence could justify those premises.
+audit agree exactly. This is not instrument calibration. BW now specifies,
+conditionally, what independent reference and same-population transfer
+evidence could justify those premises, composing them into e_cal=a+d while
+leaving twelve load-bearing premises unmet. BX then defines the
+apparatus-to-event interface that could supply them, with every layer
+unsupplied and geometric interpretation and dynamics still separate.
 BP itself remains a
 supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
@@ -2142,27 +2147,58 @@ authenticated stored BT evidence without rerunning earlier mathematics.
 No frozen mathematical source was revised after the first run. See
 [QR-05BV results](../validation/qr-05bv-acquisition-distortion-verification-2026-09-09/RESULTS.md).
 
-**Next proposed gate: QR-05BW, reference-calibration admissibility contract.**
-Design-only: specify what independently justified reference information and
-same-population/mark transfer assumptions could establish a deterministic e
-or statistically valid e_cal. A close fit to production records does not,
-by itself, identify the true ideal world or certify a distortion bound
-relative to it. Keep support, iid/stationarity,
-pairing, mark association and loss handling as distinct premises; finite
-absence of 10 does not certify zero population forbidden mass.
+**QR-05BW complete: reference-calibration admissibility contract (design-only).**
+The allowance BU consumes is split into two logically distinct claims:
+reference validity ||r_ref−q_true||∞≤a and same-population transfer
+||r−r_ref||∞≤d. Their exact triangle composition
+e*=||r−q_true||∞≤a+d=:e_cal then feeds BU's enlarged inverse and separation
+certificate unchanged. Perfect record–reference agreement gives e_cal=a, so
+a close fit alone cannot beat the reference-validity error; with a_sys
+unjustified the allowance is unbounded. A union bound needing no
+independence gives P(Gᶜ)≤β_ref+β_tr=β and P(E∩G)≥1−α−β, and a prespecified
+envelope e_max with BU's every-batch certificate carries this to
+correct-singleton probability at least 1−α−β−β_env and conditional
+wrong-target probability at most α+β+β_env. Selection-aware regimes are
+R1 (≥1−α−β), R2 (conditional on a fixed acceptance H,
+≥1−(α+β)/P(H)) and R3 (≤K prespecified repeats give budget ≤Kβ); an
+accepted-batch guarantee is not inherited from passing a selected budget
+check. Twelve load-bearing premises, including reference validity,
+independence and nested support, are all unmet, so the auditable
+evidence/assumption interface stays conditional_only. No engine, freeze,
+calibration, device or acquisition ran. See
+[QR-05BW decision record](../validation/qr-05bw-reference-calibration-design-2026-09-10/RESULTS.md).
 
-State calibration-validity, coverage and acceptance events explicitly,
-with α+β composition and selection-aware bounds. Do not inherit an
-accepted-batch guarantee from passing a selected budget check. Produce
-an auditable evidence/assumption interface with unresolved premises, not
-another toy fixture sweep or claimed calibration. If no independent reference
-or defensible transfer/support evidence is supplied, stop at the conditional
-contract; do not promote apparatus or geometric-identification readiness.
+**QR-05BX complete: apparatus-to-event interface design (design-only).**
+The program owner deferred BW's proposed composition verification and
+directed the apparatus-to-event interface next. BX defines a seven-layer
+tuple A=(M,E,R,R′,D,L,T): metrology, event identification, mark/region
+correspondence, reference characterization, population and sampling
+declaration, loss/selection accounting, and timebase/order. Each layer
+declares the fields it supplies, the BW premises it discharges and its
+error modes, and is flagged satisfied/unsupplied/refuted; every layer is
+unsupplied here. Bridge premises B1–B6 and BW's P1–P12 are carried through
+unmet. The uncertainty ledger routes each apparatus error into sampling
+α, enclosure h, systematic a_sys+d_sys, validity β, acceptance H/R1–R3, or
+a support/loss/mark premise; an unbounded apparatus systematic is a missing
+premise, not a larger α. Failed interfaces are results: the chain is
+inapplicable, conditional-only, refuted or void by explicit conditions, and
+six design-only controls F1–F6 state which premise each apparatus defect
+voids. No apparatus, device, record, measurement, calibration or numerical
+β ran. Geometric interpretation and Einstein-like dynamics remain separate
+and unproved; a valid interface makes the conditional results applicable to
+a physical measurement, and no more. BW's composition verification stays
+deferred, not rejected. See
+[QR-05BX decision record](../validation/qr-05bx-apparatus-event-interface-design-2026-09-10/RESULTS.md).
 
-BW is not started. No numerical β, adaptive allowance/quota/grid tuning,
-new device, records or calibration execution is implied. General densities/
-metrics, RET integration and gravity dynamics remain separate; BK's unused
-negative-θ optimization is not a prerequisite.
+**Next proposed gate: metric interpretation and dynamics.**
+Only after a physical protocol and measured data exist: assess whether a
+passing interface supports a geometric interpretation of the retained
+relational structure, then whether any such geometry has Einstein-like
+dynamics. No metric, field equation or gravitational coupling is claimed to
+follow from passing BW/BX. Measured tests and uncertainty models require a
+separate protocol. General densities/metrics, RET integration and gravity
+dynamics remain separate; BK's unused negative-θ optimization is not a
+prerequisite.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2288,8 +2324,10 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BT: bounded separation and budget verification | 24 pointwise distances, four class margins and 28 plans: ten certified, ten not certified, eight out of premise; all six contact/width controls retained | 25 tests per mode, full replays and one alternate audit; narrow-bound sufficient budgets, no large-quota count law, adaptive tuning or physical acquisition |
 | QR-05BU: bounded acquisition-distortion contract (complete, design-only) | Exact actual-law separation max(D−2e,0), enlarged shared-density inverse and systematic collision witnesses; uniform D/4 budget passes while half D/4 remains uncertified | No mathematical execution; every-batch width premise, nested iid law and calibration validity remain explicit; no known-channel, apparatus or general geometry/gravity claim |
 | QR-05BV: bounded acquisition-distortion verification | Eight class/error plans: three certified, five not; ten exact enlarged inverses, complete endpoint witnesses and nonnested/scale controls verified | 28 tests per mode, full replays and one alternate audit; supplied e and nested iid premises, no apparatus calibration, adaptive tuning or acquisition |
-| QR-05BW: reference-calibration admissibility contract (proposed, design-only) | Define independent reference truth, same-population transfer, allowance validity and selection-aware error composition | Explicit unmet support/iid/mark/loss premises; no fixture sweep, numerical calibration allocation, device choice, acquisition or readiness claim |
-| Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
+| QR-05BW: reference-calibration admissibility contract (complete, design-only) | Exact triangle composition e_cal=a+d, union-bound α+β without independence, e_max envelope and selection regimes R1–R3; twelve premises, all unmet, force a conditional interface | No engine, freeze, calibration, device or acquisition; reference validity, independence and nested support are premises a record fit cannot supply; no metric/gravity/readiness claim |
+| Deferred: reference-calibration composition verification | Would symbolically verify Proposition 1/Corollaries 1–2, the Proposition 2 union bound, regimes R1–R3 and the auditable schema, retaining the dropped-premise controls (deferred at BW, not rejected) | Conditional on P1–P12; no acquired data, device, numerical β/allowance, fixture sweep or calibration claim |
+| QR-05BX: apparatus-to-event interface design (complete, design-only) | Seven-layer interface A=(M,E,R,R′,D,L,T); each layer maps to BW premises and error modes; bridge premises B1–B6 and P1–P12 all unsupplied; explicit inapplicable/conditional/refuted/void failure conditions and F1–F6 controls | No apparatus, device, record, measurement, calibration or numerical β; a valid interface only makes the conditional results applicable, not geometry, continuum or gravity |
+| Next: metric interpretation and dynamics | Only after a physical protocol and measured data: assess geometric interpretation, then Einstein-like dynamics | No metric, field equation or gravitational coupling follows from passing BW/BX; measured tests need a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.
