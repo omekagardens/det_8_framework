@@ -1,0 +1,217 @@
+{
+  "schema": "qr05ca-protocol-v1",
+  "analysis_id": "qr05ca-rehearsal-v1",
+  "design": {
+    "n": 65536,
+    "m": 256,
+    "alpha": [1, 20],
+    "tails": [[1, 80], [1, 80], [1, 80], [1, 80]]
+  },
+  "rationals": "encoded as [numerator, denominator]",
+  "limits": {
+    "source_bytes": 262144,
+    "artifact_bytes": 16777216,
+    "analysis_seconds": 30,
+    "suite_seconds": 120
+  },
+  "datasets": [
+    {
+      "id": "D1",
+      "analysis_id": "qr05ca-rehearsal-v1",
+      "marks_match": true,
+      "loss_bound": [1, 4],
+      "stationarity_tol": [1, 4],
+      "attempts": [
+        {"index": 0, "event": "11", "loss": false},
+        {"index": 1, "event": "01", "loss": false},
+        {"index": 2, "event": "00", "loss": false},
+        {"index": 3, "event": "00", "loss": false},
+        {"index": 4, "event": "11", "loss": false},
+        {"index": 5, "event": "00", "loss": false},
+        {"index": 6, "event": "00", "loss": false},
+        {"index": 7, "event": "00", "loss": false}
+      ],
+      "case": {"B": [[0, 1]], "e": [0, 1], "by": "pass_all"},
+      "expected": {"status": "accepted", "K1": 2, "K2": 3, "n_eff": 8,
+                   "r_hat": [[1, 4], [3, 8]], "targets": [[1, 4]], "by": "pass_all"}
+    },
+    {
+      "id": "D2",
+      "analysis_id": "qr05ca-rehearsal-v1",
+      "marks_match": true,
+      "loss_bound": [1, 4],
+      "stationarity_tol": [1, 4],
+      "attempts": [
+        {"index": 0, "event": "11", "loss": true},
+        {"index": 1, "event": "01", "loss": false},
+        {"index": 2, "event": "00", "loss": false},
+        {"index": 3, "event": "00", "loss": false},
+        {"index": 4, "event": "11", "loss": false},
+        {"index": 5, "event": "00", "loss": false},
+        {"index": 6, "event": "00", "loss": false},
+        {"index": 7, "event": "00", "loss": false}
+      ],
+      "case": {"B": [[0, 1]], "e": [1, 4], "by": "pass_all"},
+      "expected": {"status": "accepted", "K1": 1, "K2": 2, "n_eff": 7,
+                   "r_hat": [[1, 7], [2, 7]], "targets": [[17, 80], [1, 4]], "by": "pass_all"}
+    }
+  ],
+  "refusals": [
+    {
+      "id": "RF_ten",
+      "analysis_id": "qr05ca-rehearsal-v1",
+      "marks_match": true,
+      "loss_bound": [1, 4],
+      "stationarity_tol": [1, 4],
+      "attempts": [
+        {"index": 0, "event": "11", "loss": false},
+        {"index": 1, "event": "01", "loss": false},
+        {"index": 2, "event": "00", "loss": false},
+        {"index": 3, "event": "00", "loss": false},
+        {"index": 4, "event": "11", "loss": false},
+        {"index": 5, "event": "00", "loss": false},
+        {"index": 6, "event": "00", "loss": false},
+        {"index": 7, "event": "00", "loss": false},
+        {"index": 8, "event": "10", "loss": false}
+      ],
+      "expected": {"status": "refused", "reason": "support"}
+    },
+    {
+      "id": "RF_loss",
+      "analysis_id": "qr05ca-rehearsal-v1",
+      "marks_match": true,
+      "loss_bound": [1, 4],
+      "stationarity_tol": [1, 4],
+      "attempts": [
+        {"index": 0, "event": "11", "loss": true},
+        {"index": 1, "event": "01", "loss": true},
+        {"index": 2, "event": "00", "loss": true},
+        {"index": 3, "event": "00", "loss": true},
+        {"index": 4, "event": "11", "loss": true},
+        {"index": 5, "event": "00", "loss": true},
+        {"index": 6, "event": "00", "loss": true},
+        {"index": 7, "event": "00", "loss": true}
+      ],
+      "expected": {"status": "refused", "reason": "loss"}
+    },
+    {
+      "id": "RF_drift",
+      "analysis_id": "qr05ca-rehearsal-v1",
+      "marks_match": true,
+      "loss_bound": [1, 4],
+      "stationarity_tol": [1, 4],
+      "attempts": [
+        {"index": 0, "event": "11", "loss": false},
+        {"index": 1, "event": "11", "loss": false},
+        {"index": 2, "event": "11", "loss": false},
+        {"index": 3, "event": "11", "loss": false},
+        {"index": 4, "event": "00", "loss": false},
+        {"index": 5, "event": "00", "loss": false},
+        {"index": 6, "event": "00", "loss": false},
+        {"index": 7, "event": "00", "loss": false}
+      ],
+      "expected": {"status": "refused", "reason": "stationarity"}
+    },
+    {
+      "id": "RF_mark",
+      "analysis_id": "qr05ca-rehearsal-v1",
+      "marks_match": false,
+      "loss_bound": [1, 4],
+      "stationarity_tol": [1, 4],
+      "attempts": [
+        {"index": 0, "event": "11", "loss": false},
+        {"index": 1, "event": "01", "loss": false},
+        {"index": 2, "event": "00", "loss": false},
+        {"index": 3, "event": "00", "loss": false},
+        {"index": 4, "event": "11", "loss": false},
+        {"index": 5, "event": "00", "loss": false},
+        {"index": 6, "event": "00", "loss": false},
+        {"index": 7, "event": "00", "loss": false}
+      ],
+      "expected": {"status": "refused", "reason": "mark"}
+    },
+    {
+      "id": "RF_analysis",
+      "analysis_id": "other-analysis",
+      "marks_match": true,
+      "loss_bound": [1, 4],
+      "stationarity_tol": [1, 4],
+      "attempts": [
+        {"index": 0, "event": "11", "loss": false},
+        {"index": 1, "event": "01", "loss": false},
+        {"index": 2, "event": "00", "loss": false},
+        {"index": 3, "event": "00", "loss": false},
+        {"index": 4, "event": "11", "loss": false},
+        {"index": 5, "event": "00", "loss": false},
+        {"index": 6, "event": "00", "loss": false},
+        {"index": 7, "event": "00", "loss": false}
+      ],
+      "expected": {"status": "refused", "reason": "analysis_id"}
+    },
+    {
+      "id": "RF_small",
+      "analysis_id": "qr05ca-rehearsal-v1",
+      "marks_match": true,
+      "loss_bound": [1, 4],
+      "stationarity_tol": [1, 4],
+      "attempts": [
+        {"index": 0, "event": "00", "loss": false},
+        {"index": 1, "event": "00", "loss": false},
+        {"index": 2, "event": "11", "loss": false}
+      ],
+      "expected": {"status": "refused", "reason": "insufficient"}
+    }
+  ],
+  "allowances": [
+    {
+      "id": "A1",
+      "a_sys": [1, 16], "a_stat": [1, 32], "d_sys": [1, 32], "d_stat": [1, 64],
+      "beta_ref": [1, 100], "beta_tr": [1, 100], "beta_env": [1, 100],
+      "e_max": [3, 16],
+      "expected": {"e_cal": [9, 64], "beta": [3, 100], "within": true}
+    },
+    {
+      "id": "A2",
+      "a_sys": [1, 16], "a_stat": [1, 32], "d_sys": [1, 32], "d_stat": [1, 64],
+      "beta_ref": [1, 100], "beta_tr": [1, 100], "beta_env": [1, 100],
+      "e_max": [1, 8],
+      "expected": {"e_cal": [9, 64], "beta": [3, 100], "within": false}
+    }
+  ],
+  "inverses": [
+    {"id": "INV0", "r_hat": [[1, 4], [3, 8]], "B": [[0, 1]], "e": [0, 1],
+     "expected": {"targets": [[1, 4]]}},
+    {"id": "INV1", "r_hat": [[17, 80], [21, 64]], "B": [[0, 1]], "e": [0, 1],
+     "expected": {"targets": [[17, 80]]}},
+    {"id": "INV2", "r_hat": [[37, 160], [45, 128]], "B": [[0, 1]], "e": [3, 128],
+     "expected": {"targets": [[17, 80], [1, 4]]}},
+    {"id": "INV3", "r_hat": [[11, 48], [67, 192]], "B": [[0, 1], [1, 2]], "e": [0, 1],
+     "expected": {"targets": [[1, 4]]}},
+    {"id": "INV4", "r_hat": [[1, 4], [3, 8]], "B": [[0, 1], [1, 2]], "e": [0, 1],
+     "expected": {"targets": [[1, 4]]}}
+  ],
+  "feasibility": [
+    {"id": "F1", "D": [3, 64], "e_max": [0, 1], "m": 256, "n": 65536,
+     "expected": {"s": [5, 128], "score": [100, 1], "certified": true}},
+    {"id": "F2", "D": [3, 64], "e_max": [3, 256], "m": 256, "n": 65536,
+     "expected": {"s": [1, 64], "score": [16, 1], "certified": true}},
+    {"id": "F3", "D": [3, 64], "e_max": [3, 128], "m": 256, "n": 65536,
+     "expected": {"s": [-1, 128], "score": [4, 1], "certified": false}},
+    {"id": "F4", "D": [1, 48], "e_max": [1, 192], "m": 256, "n": 65536,
+     "expected": {"s": [1, 384], "score": [4, 9], "certified": false}}
+  ],
+  "by_cases": [
+    {"id": "pass_all", "dim_estimates": [2, 2, 2], "tol": [1, 4],
+     "causal_consistent": true, "collision_declared": true,
+     "normalized": true, "preferred_clock": false, "limit_stable": true,
+     "expected": {"metric": "pass", "dynamics": "pass"}},
+    {"id": "fail_dim", "dim_estimates": [2, 3, 3], "tol": [1, 4],
+     "causal_consistent": true, "collision_declared": true,
+     "normalized": true, "preferred_clock": false, "limit_stable": true,
+     "expected": {"metric": "refute", "dynamics": "pass"}},
+    {"id": "fail_limit", "dim_estimates": [2, 2, 2], "tol": [1, 4],
+     "causal_consistent": true, "collision_declared": true,
+     "normalized": true, "preferred_clock": false, "limit_stable": false,
+     "expected": {"metric": "pass", "dynamics": "refute"}}
+  ]
+}

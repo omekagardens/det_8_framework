@@ -1,0 +1,497 @@
+{
+  "report": {
+    "allowances": [
+      {
+        "beta": [
+          3,
+          100
+        ],
+        "e_cal": [
+          9,
+          64
+        ],
+        "e_max": [
+          3,
+          16
+        ],
+        "id": "A1",
+        "within": true
+      },
+      {
+        "beta": [
+          3,
+          100
+        ],
+        "e_cal": [
+          9,
+          64
+        ],
+        "e_max": [
+          1,
+          8
+        ],
+        "id": "A2",
+        "within": false
+      }
+    ],
+    "analysis_id": "qr05ca-rehearsal-v1",
+    "by_tests": [
+      {
+        "dim_spread": [
+          0,
+          1
+        ],
+        "dynamics": "pass",
+        "dynamics_tests": {
+          "D1_well_defined_law": true,
+          "D2_stable_limit": true
+        },
+        "id": "pass_all",
+        "metric": "pass",
+        "metric_tests": {
+          "M1_dimension_stable": true,
+          "M2_causal_consistent": true,
+          "M3_collision_declared": true
+        }
+      },
+      {
+        "dim_spread": [
+          1,
+          1
+        ],
+        "dynamics": "pass",
+        "dynamics_tests": {
+          "D1_well_defined_law": true,
+          "D2_stable_limit": true
+        },
+        "id": "fail_dim",
+        "metric": "refute",
+        "metric_tests": {
+          "M1_dimension_stable": false,
+          "M2_causal_consistent": true,
+          "M3_collision_declared": true
+        }
+      },
+      {
+        "dim_spread": [
+          0,
+          1
+        ],
+        "dynamics": "refute",
+        "dynamics_tests": {
+          "D1_well_defined_law": true,
+          "D2_stable_limit": false
+        },
+        "id": "fail_limit",
+        "metric": "pass",
+        "metric_tests": {
+          "M1_dimension_stable": true,
+          "M2_causal_consistent": true,
+          "M3_collision_declared": true
+        }
+      }
+    ],
+    "datasets": [
+      {
+        "K1": 2,
+        "K2": 3,
+        "by": {
+          "dim_spread": [
+            0,
+            1
+          ],
+          "dynamics": "pass",
+          "dynamics_tests": {
+            "D1_well_defined_law": true,
+            "D2_stable_limit": true
+          },
+          "id": "pass_all",
+          "metric": "pass",
+          "metric_tests": {
+            "M1_dimension_stable": true,
+            "M2_causal_consistent": true,
+            "M3_collision_declared": true
+          }
+        },
+        "id": "D1",
+        "inverse": {
+          "targets": [
+            [
+              1,
+              4
+            ]
+          ],
+          "witness": [
+            {
+              "delta": [
+                0,
+                1
+              ],
+              "distance": [
+                0,
+                1
+              ],
+              "eta": 0
+            }
+          ]
+        },
+        "loss": {
+          "bound": [
+            1,
+            4
+          ],
+          "count": 0,
+          "fraction": [
+            0,
+            1
+          ]
+        },
+        "n_eff": 8,
+        "r_hat": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            8
+          ]
+        ],
+        "stationarity": {
+          "diff": [
+            0,
+            1
+          ],
+          "f1": [
+            1,
+            4
+          ],
+          "f2": [
+            1,
+            4
+          ],
+          "tol": [
+            1,
+            4
+          ]
+        },
+        "status": "accepted"
+      },
+      {
+        "K1": 1,
+        "K2": 2,
+        "by": {
+          "dim_spread": [
+            0,
+            1
+          ],
+          "dynamics": "pass",
+          "dynamics_tests": {
+            "D1_well_defined_law": true,
+            "D2_stable_limit": true
+          },
+          "id": "pass_all",
+          "metric": "pass",
+          "metric_tests": {
+            "M1_dimension_stable": true,
+            "M2_causal_consistent": true,
+            "M3_collision_declared": true
+          }
+        },
+        "id": "D2",
+        "inverse": {
+          "targets": [
+            [
+              17,
+              80
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "witness": [
+            {
+              "delta": [
+                0,
+                1
+              ],
+              "distance": [
+                3,
+                28
+              ],
+              "eta": 0
+            },
+            {
+              "delta": [
+                0,
+                1
+              ],
+              "distance": [
+                39,
+                560
+              ],
+              "eta": 1
+            }
+          ]
+        },
+        "loss": {
+          "bound": [
+            1,
+            4
+          ],
+          "count": 1,
+          "fraction": [
+            1,
+            8
+          ]
+        },
+        "n_eff": 7,
+        "r_hat": [
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "stationarity": {
+          "diff": [
+            0,
+            1
+          ],
+          "f1": [
+            0,
+            1
+          ],
+          "f2": [
+            0,
+            1
+          ],
+          "tol": [
+            1,
+            4
+          ]
+        },
+        "status": "accepted"
+      }
+    ],
+    "feasibility": [
+      {
+        "certified": true,
+        "id": "F1",
+        "s": [
+          5,
+          128
+        ],
+        "score": [
+          100,
+          1
+        ]
+      },
+      {
+        "certified": true,
+        "id": "F2",
+        "s": [
+          1,
+          64
+        ],
+        "score": [
+          16,
+          1
+        ]
+      },
+      {
+        "certified": false,
+        "id": "F3",
+        "s": [
+          -1,
+          128
+        ],
+        "score": [
+          4,
+          1
+        ]
+      },
+      {
+        "certified": false,
+        "id": "F4",
+        "s": [
+          1,
+          384
+        ],
+        "score": [
+          4,
+          9
+        ]
+      }
+    ],
+    "inverses": [
+      {
+        "id": "INV0",
+        "targets": [
+          [
+            1,
+            4
+          ]
+        ],
+        "witness": [
+          {
+            "delta": [
+              0,
+              1
+            ],
+            "distance": [
+              0,
+              1
+            ],
+            "eta": 0
+          }
+        ]
+      },
+      {
+        "id": "INV1",
+        "targets": [
+          [
+            17,
+            80
+          ]
+        ],
+        "witness": [
+          {
+            "delta": [
+              0,
+              1
+            ],
+            "distance": [
+              0,
+              1
+            ],
+            "eta": 1
+          }
+        ]
+      },
+      {
+        "id": "INV2",
+        "targets": [
+          [
+            17,
+            80
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "witness": [
+          {
+            "delta": [
+              0,
+              1
+            ],
+            "distance": [
+              3,
+              128
+            ],
+            "eta": 0
+          },
+          {
+            "delta": [
+              0,
+              1
+            ],
+            "distance": [
+              3,
+              128
+            ],
+            "eta": 1
+          }
+        ]
+      },
+      {
+        "id": "INV3",
+        "targets": [
+          [
+            1,
+            4
+          ]
+        ],
+        "witness": [
+          {
+            "delta": [
+              1,
+              2
+            ],
+            "distance": [
+              0,
+              1
+            ],
+            "eta": 0
+          }
+        ]
+      },
+      {
+        "id": "INV4",
+        "targets": [
+          [
+            1,
+            4
+          ]
+        ],
+        "witness": [
+          {
+            "delta": [
+              0,
+              1
+            ],
+            "distance": [
+              0,
+              1
+            ],
+            "eta": 0
+          }
+        ]
+      }
+    ],
+    "refusals": [
+      {
+        "id": "RF_ten",
+        "reason": "support",
+        "status": "refused"
+      },
+      {
+        "id": "RF_loss",
+        "reason": "loss",
+        "status": "refused"
+      },
+      {
+        "id": "RF_drift",
+        "reason": "stationarity",
+        "status": "refused"
+      },
+      {
+        "id": "RF_mark",
+        "reason": "mark",
+        "status": "refused"
+      },
+      {
+        "id": "RF_analysis",
+        "reason": "analysis_id",
+        "status": "refused"
+      },
+      {
+        "id": "RF_small",
+        "reason": "insufficient",
+        "status": "refused"
+      }
+    ],
+    "schema": "qr05ca-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05ca-capture-v1"
+}
