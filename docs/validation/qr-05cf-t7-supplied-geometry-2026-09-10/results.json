@@ -1,0 +1,91 @@
+{
+  "report": {
+    "analytic_r": {
+      "2": 0.5,
+      "3": 0.228571428571,
+      "4": 0.1
+    },
+    "conformal": {
+      "b": 1,
+      "mse": 0.005873333333,
+      "recovered": [
+        0.665,
+        0.76,
+        0.885,
+        1.07,
+        0.925,
+        1.05,
+        0.96,
+        1.16,
+        1.275,
+        1.25
+      ],
+      "trend_up": true,
+      "truth": [
+        0.7,
+        0.766666666667,
+        0.833333333333,
+        0.9,
+        0.966666666667,
+        1.033333333333,
+        1.1,
+        1.166666666667,
+        1.233333333333,
+        1.3
+      ],
+      "truth_monotone": true
+    },
+    "dimension": [
+      {
+        "abs_err": 0.016441102757,
+        "analytic_r": 0.5,
+        "d": 2,
+        "estimated": 2,
+        "r": 0.516441102757,
+        "recovers": true,
+        "within_tolerance": true
+      },
+      {
+        "abs_err": 0.008796992481,
+        "analytic_r": 0.228571428571,
+        "d": 3,
+        "estimated": 3,
+        "r": 0.21977443609,
+        "recovers": true,
+        "within_tolerance": true
+      },
+      {
+        "abs_err": 0.006077694236,
+        "analytic_r": 0.1,
+        "d": 4,
+        "estimated": 4,
+        "r": 0.106077694236,
+        "recovers": true,
+        "within_tolerance": true
+      }
+    ],
+    "invariance": {
+      "invariant": true
+    },
+    "negative_control": {
+      "antichain_r": 0.0,
+      "chain_r": 1.0,
+      "family_max": 0.5,
+      "family_min": 0.1,
+      "outside_family": true
+    },
+    "nullness": {
+      "links_nearer": true,
+      "mean_comparable": 0.184478109354,
+      "mean_link": 0.050613314428,
+      "n_comparable": 810,
+      "n_links": 190
+    },
+    "schema": "qr05cf-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cf-capture-v1"
+}

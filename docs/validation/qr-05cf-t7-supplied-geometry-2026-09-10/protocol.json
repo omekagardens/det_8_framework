@@ -1,0 +1,16 @@
+{
+  "schema": "qr05cf-protocol-v1",
+  "n": 400,
+  "dims": [2, 3, 4],
+  "seed": 42,
+  "dim_tolerance": 0.06,
+  "nullness_n": 60,
+  "nullness_seed": 7,
+  "conformal_n": 2000,
+  "conformal_b": 1,
+  "conformal_seed": 3,
+  "conformal_bins": 10,
+  "conformal_mse_tolerance": 0.01,
+  "control_n": 100,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
