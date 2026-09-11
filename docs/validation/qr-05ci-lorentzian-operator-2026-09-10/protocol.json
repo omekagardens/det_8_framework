@@ -1,0 +1,9 @@
+{
+  "schema": "qr05ci-protocol-v1",
+  "n_grid": [300, 600],
+  "seeds": [1, 2, 3, 4, 5, 6, 7, 8],
+  "margin": 0.15,
+  "constant_tolerance": 0.05,
+  "bconst_tolerance": 1.0,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

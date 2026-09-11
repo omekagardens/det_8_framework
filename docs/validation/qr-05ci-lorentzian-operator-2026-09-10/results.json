@@ -1,0 +1,41 @@
+{
+  "report": {
+    "constant_annihilated": false,
+    "constant_residuals": [
+      0.146179402,
+      0.009737511
+    ],
+    "ensemble": [
+      {
+        "layer_combo": 0.353820598,
+        "mean_B_const": -350.830564784,
+        "n": 300,
+        "points": 1204
+      },
+      {
+        "layer_combo": 0.490262489,
+        "mean_B_const": -46.740050804,
+        "n": 600,
+        "points": 2362
+      }
+    ],
+    "exact_form_agreement": true,
+    "operator": {
+      "coefficients": {
+        "L0": "-1/2",
+        "L1": "+1",
+        "L2": "-2",
+        "L3": "+1"
+      },
+      "formula": "B = 4/l^2 [-1/2 phi(x) + (sum_L1 - 2 sum_L2 + sum_L3) phi]",
+      "source": "Sorkin gr-qc/0703099 Eq. (1); l^2 = 1/rho"
+    },
+    "schema": "qr05ci-report-v1",
+    "validated": false
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05ci-capture-v1"
+}
