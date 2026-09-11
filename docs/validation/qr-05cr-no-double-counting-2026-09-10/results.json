@@ -1,0 +1,29 @@
+{
+  "report": {
+    "coefficient_matches_t7": {
+      "matches": true,
+      "max_dev": 0.0
+    },
+    "flux": {
+      "conservative_form_required": true,
+      "divergence_total": 0.0,
+      "pointwise_total": -0.790446692
+    },
+    "no_double_counting": true,
+    "schema": "qr05cr-report-v1",
+    "source_control": {
+      "added_source_max": 0.096592583,
+      "flagged": true
+    },
+    "source_term": {
+      "divergence_max": 0.0,
+      "no_source": true,
+      "pointwise_max": 0.0
+    }
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cr-capture-v1"
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "qr05cr-protocol-v1",
+  "n": 8000,
+  "seed": 29,
+  "a": 0.5,
+  "m": 12,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
