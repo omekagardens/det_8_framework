@@ -4,13 +4,16 @@
 Outcome: the order-only (longest-chain) reconstruction's scale-free uniform distortion
 is shown to decay as a power law with no plateau, exponent ≈ 0.27, consistent with the
 last-passage-percolation prediction 1/3 — so the longest-chain reconstruction is the
-axiom-compliant (DB/DC) *and* ceiling-convergent object.** The vanishing is supported
-numerically and reduced to a known LPP concentration question; an unconditional proof
-is flagged open. No metric, continuum, curvature or gravity claim.
+axiom-compliant (DB/DC) object and its ceiling is supported to vanish.**
+**Scope: bounded 1+1 numerics on supplied Minkowski geometry — correspondence-level
+(the T7 order→geometry *link*), not DET manifold emergence; the LPP-concentration proof
+and the 3+1 case (PHYSICS §15) remain open.** No metric, continuum, curvature or gravity
+claim.
 
-Follows [QR-05DC](../qr-05dc-max-plus-closure-2026-09-11/README.md) and closes the
-scale-free convergence question reopened by [QR-05CZ](../qr-05cz-scale-free-lgh-2026-09-10/README.md)
-and left open by [QR-05DA](../qr-05da-lgh-convergence-2026-09-10/README.md).
+Follows [QR-05DC](../qr-05dc-max-plus-closure-2026-09-11/README.md) and gives a bounded
+1+1 numerical answer to the scale-free convergence question reopened by
+[QR-05CZ](../qr-05cz-scale-free-lgh-2026-09-10/README.md) and left open by
+[QR-05DA](../qr-05da-lgh-convergence-2026-09-10/README.md).
 
 ## 1. Pre-specification (fixed before the computation)
 
@@ -82,11 +85,12 @@ alone does not give it.
    α = 0.27 (R² = 0.96), no plateau — consistent with the 1/3 prediction and steeper
    than DA's transient.
 4. **Control.** A non-manifoldlike layered order does not vanish.
-5. **Consequence.** The **longest-chain (order-only) reconstruction is the
-   axiom-compliant (DB/DC) and ceiling-convergent object**; the QR-05 scale-free
-   convergence question reopened by CZ is resolved positively, at the level of bounded
-   numerics plus the exact reduction. The remaining gap is an *unconditional* proof of
-   the uniform longest-chain fluctuation bound — a LPP concentration problem.
+5. **Consequence (scoped).** The **longest-chain (order-only) reconstruction is the
+   axiom-compliant (DB/DC) one and its ceiling is supported to vanish** in bounded 1+1
+   numerics. This is correspondence-level — the T7 order→geometry *link* on supplied
+   geometry, the route that produced the finite-observation calculus — not a
+   DET-emergence claim. The remaining gaps are an *unconditional* proof of the uniform
+   longest-chain fluctuation bound (a LPP concentration problem) and the 3+1 case.
 
 ## 5. Boundaries
 

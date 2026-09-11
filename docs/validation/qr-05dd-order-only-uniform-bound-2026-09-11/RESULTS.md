@@ -6,8 +6,10 @@ of the longest chain, so its vanishing is equivalent to a sublinear uniform fluc
 (LPP concentration) statement; imported Baik–Deift–Johansson scaling predicts `N^{-1/3}`;
 and the measured ceiling decays as a power law, α = 0.27 (R² = 0.96) over `N = 128 … 2048`,
 with no plateau — consistent with the prediction and steeper than QR-05DA's transient
-(α = 0.16). A non-manifoldlike control does not vanish. 12 tests pass. Supplied
-geometry; no metric, continuum, curvature or gravity claim.
+(α = 0.16). A non-manifoldlike control does not vanish. 12 tests pass. **Scope: bounded
+1+1 numerics on supplied Minkowski geometry — correspondence-level (the T7
+order→geometry link), not DET manifold emergence; the LPP-concentration proof and the
+3+1 case remain open.** No metric, continuum, curvature or gravity claim.
 
 ## 0. Setup
 
@@ -76,17 +78,21 @@ the manifoldlike/Poisson input, not of the reduction alone.
 3. **T3 (measured):** α = 0.27 (R² = 0.96), no plateau, consistent with 1/3; supersedes
    DA's transient α = 0.16.
 4. **Control:** a non-manifoldlike order does not vanish.
-5. **Consequence:** the longest-chain (order-only) reconstruction is the
-   axiom-compliant **and** ceiling-convergent object.
+5. **Consequence (scoped):** the longest-chain (order-only) reconstruction is the
+   axiom-compliant one (DB/DC) and its ceiling is supported to vanish in bounded 1+1
+   numerics. This is correspondence-level (the T7 order→geometry link on supplied
+   geometry), not a DET-emergence claim; the LPP-concentration theorem and the 3+1 case
+   remain open.
 
 ## What this changes and what remains
 
 **Changes.** The QR-05 scale-free convergence question reopened by CZ, localized by DA,
-and constrained by DB/DC is resolved **positively** for the order-only reconstruction:
-the longest-chain estimator — the only A2-compliant (DB) and non-order-dominated (DC)
-candidate — has a ceiling that decays as a power law consistent with the LPP rate. The
-convergence obstruction is therefore not a count/estimator artefact but a LPP
-fluctuation question with a favourable answer.
+and constrained by DB/DC is given a favourable **bounded 1+1 numerical** answer for the
+order-only reconstruction: the longest-chain estimator — the only A2-compliant (DB) and
+non-order-dominated (DC) candidate — has a ceiling that decays as a power law consistent
+with the LPP rate. The convergence obstruction is therefore not a count/estimator
+artefact but a LPP fluctuation question with a favourable bound. (Correspondence-level;
+the theorem and the 3+1 case remain open.)
 
 **Remains.** An **unconditional** proof of the uniform longest-chain fluctuation bound
 (equivalently, uniform LPP concentration) — beyond the range of this gate; the
@@ -104,7 +110,7 @@ the light-cone equivalence, pins the distortion on a hand-computed case, and ass
 flags and verdict.
 
 - Capture: `results.json`, SHA-256 `881ad6ca11fa8daedb29014097d14e264ff126ef86ea05e6b4148c2be908d0fd`.
-- Freeze: `source-freeze.json`, SHA-256 `bfb5931568bc3a6b3741b17489195d5e9911f9b276eef95d35012f3d7e88f60f`.
+- Freeze: `source-freeze.json`, SHA-256 `7936ac1666c2d031b75c415fd78b321ed3f962a86f8ec0d1fa8485ca0c12b5d1`.
 
 QR-05DD continues the committed `qr-05-bridge` branch (from QR-05DC commit `124ea91`).
 Publication is this directory and the
