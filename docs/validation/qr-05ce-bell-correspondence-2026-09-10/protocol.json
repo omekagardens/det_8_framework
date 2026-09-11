@@ -1,0 +1,19 @@
+{
+  "schema": "qr05ce-protocol-v1",
+  "dataset": {
+    "id": "VBI_Coincidence_20230707",
+    "sha256": "a3e687354b71895096aee4e28d113d629e157953c7d240d33de3bd0aca653254",
+    "bytes": 179104,
+    "source": "Dryad 10.5061/dryad.7m0cfxq59 (CC0-1.0); mirror github.com/NJU-Malab/Violate-CHSH-in-FI",
+    "referenced_from": "../qr-05cb-open-data-applicability-2026-09-10/data/VBI_Coincidence_20230707.dat"
+  },
+  "columns": {"cc4": 9},
+  "grid": {"beta_step": 32, "counts_alpha_rows": [5, 6, 7, 8]},
+  "curves": [
+    {"id": "alpha=0", "row_a": 0, "row_b": 2},
+    {"id": "alpha=pi/2", "row_a": 1, "row_b": 3}
+  ],
+  "kappa_decimals": 9,
+  "thresholds": {"visibility": [1, 2], "tsirelson": [2, 1]},
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

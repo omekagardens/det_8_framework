@@ -1,0 +1,42 @@
+{
+  "schema": "qr05cc-protocol-v1",
+  "norms": [
+    {"id": "N1", "r": [[0,1],[0,1]], "r_ref": [[1,2],[1,2]], "q": [[1,1],[1,1]], "a": [1,2], "d": [1,2],
+     "expected": {"e": [1,1], "bound_ok": true, "tight": true}},
+    {"id": "N2", "r": [[1,4],[3,8]], "r_ref": [[1,4],[3,8]], "q": [[1,4],[3,8]], "a": [0,1], "d": [0,1],
+     "expected": {"e": [0,1], "bound_ok": true, "tight": true}},
+    {"id": "N3", "r": [[0,1],[1,1]], "r_ref": [[0,1],[0,1]], "q": [[1,1],[0,1]], "a": [1,1], "d": [1,1],
+     "expected": {"e": [1,1], "bound_ok": true, "tight": false}},
+    {"id": "N4", "r": [[1,4],[3,8]], "r_ref": [[1,4],[3,8]], "q": [[1,4],[1,4]], "a": [1,8], "d": [0,1],
+     "expected": {"e": [1,8], "bound_ok": true, "tight": true}}
+  ],
+  "splits": [
+    {"id": "S1", "a_sys": [1,16], "a_stat": [1,32], "d_sys": [1,32], "d_stat": [1,64],
+     "expected": {"e_cal": [9,64]}},
+    {"id": "S2", "a_sys": [1,100], "a_stat": [0,1], "d_sys": [1,200], "d_stat": [0,1],
+     "expected": {"e_cal": [3,200]}}
+  ],
+  "spaces": [
+    {"id": "P1", "weights": [[1,2],[1,2]], "E": [0], "Ga": [0,1], "Gd": [0,1],
+     "expected": {"alpha": [1,2], "beta": [0,1], "p_EcapG": [1,2], "union_ok": true, "product": [1,2], "product_refuted": false}},
+    {"id": "P2", "weights": [[1,4],[1,4],[1,2]], "E": [0,1], "Ga": [0,2], "Gd": [1,2],
+     "expected": {"alpha": [1,2], "beta": [1,2], "p_EcapG": [0,1], "union_ok": true, "product": [1,4], "product_refuted": true}}
+  ],
+  "regimes": [
+    {"id": "R2a", "pH": [1,2], "alpha": [1,4], "beta": [1,4], "expected": {"uncond": [0,1], "cond": [0,1], "defined": true}},
+    {"id": "R2b", "pH": [1,4], "alpha": [1,20], "beta": [1,20], "expected": {"uncond": [3,20], "cond": [3,5], "defined": true}},
+    {"id": "R2c", "pH": [0,1], "alpha": [1,20], "beta": [1,20], "expected": {"defined": false}},
+    {"id": "R2d", "pH": [1,1], "alpha": [0,1], "beta": [0,1], "expected": {"uncond": [1,1], "cond": [1,1], "defined": true}}
+  ],
+  "repeats": [
+    {"id": "R3a", "K": 5, "beta": [1,20], "expected": {"budget": [1,4]}},
+    {"id": "R3b", "K": 1, "beta": [1,20], "expected": {"budget": [1,20]}}
+  ],
+  "schema_fixtures": [
+    {"id": "complete", "premises": [{"id": "P1", "status": "supplied"}, {"id": "P5", "status": "supplied"}],
+     "expected_conditional_only": false},
+    {"id": "unmet", "premises": [{"id": "P1", "status": "supplied"}, {"id": "P5", "status": "unmet"}],
+     "expected_conditional_only": true}
+  ],
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

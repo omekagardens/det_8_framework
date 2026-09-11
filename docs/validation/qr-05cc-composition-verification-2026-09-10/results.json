@@ -1,0 +1,243 @@
+{
+  "report": {
+    "norms": [
+      {
+        "bound_ok": true,
+        "e": [
+          1,
+          1
+        ],
+        "id": "N1",
+        "nrq": [
+          1,
+          2
+        ],
+        "nrr": [
+          1,
+          2
+        ],
+        "tight": true
+      },
+      {
+        "bound_ok": true,
+        "e": [
+          0,
+          1
+        ],
+        "id": "N2",
+        "nrq": [
+          0,
+          1
+        ],
+        "nrr": [
+          0,
+          1
+        ],
+        "tight": true
+      },
+      {
+        "bound_ok": true,
+        "e": [
+          1,
+          1
+        ],
+        "id": "N3",
+        "nrq": [
+          1,
+          1
+        ],
+        "nrr": [
+          1,
+          1
+        ],
+        "tight": false
+      },
+      {
+        "bound_ok": true,
+        "e": [
+          1,
+          8
+        ],
+        "id": "N4",
+        "nrq": [
+          1,
+          8
+        ],
+        "nrr": [
+          0,
+          1
+        ],
+        "tight": true
+      }
+    ],
+    "regimes": [
+      {
+        "cond": [
+          0,
+          1
+        ],
+        "defined": true,
+        "id": "R2a",
+        "uncond": [
+          0,
+          1
+        ]
+      },
+      {
+        "cond": [
+          3,
+          5
+        ],
+        "defined": true,
+        "id": "R2b",
+        "uncond": [
+          3,
+          20
+        ]
+      },
+      {
+        "cond": null,
+        "defined": false,
+        "id": "R2c",
+        "uncond": [
+          0,
+          1
+        ]
+      },
+      {
+        "cond": [
+          1,
+          1
+        ],
+        "defined": true,
+        "id": "R2d",
+        "uncond": [
+          1,
+          1
+        ]
+      }
+    ],
+    "repeats": [
+      {
+        "budget": [
+          1,
+          4
+        ],
+        "id": "R3a",
+        "matches_expected": true
+      },
+      {
+        "budget": [
+          1,
+          20
+        ],
+        "id": "R3b",
+        "matches_expected": true
+      }
+    ],
+    "schema": "qr05cc-report-v1",
+    "schemas": [
+      {
+        "conditional_only": false,
+        "id": "complete",
+        "matches_expected": true
+      },
+      {
+        "conditional_only": true,
+        "id": "unmet",
+        "matches_expected": true
+      }
+    ],
+    "spaces": [
+      {
+        "alpha": [
+          1,
+          2
+        ],
+        "beta": [
+          0,
+          1
+        ],
+        "beta_ref": [
+          0,
+          1
+        ],
+        "beta_tr": [
+          0,
+          1
+        ],
+        "id": "P1",
+        "p_EcapG": [
+          1,
+          2
+        ],
+        "p_G": [
+          1,
+          1
+        ],
+        "product": [
+          1,
+          2
+        ],
+        "product_refuted": false,
+        "union_ok": true
+      },
+      {
+        "alpha": [
+          1,
+          2
+        ],
+        "beta": [
+          1,
+          2
+        ],
+        "beta_ref": [
+          1,
+          4
+        ],
+        "beta_tr": [
+          1,
+          4
+        ],
+        "id": "P2",
+        "p_EcapG": [
+          0,
+          1
+        ],
+        "p_G": [
+          1,
+          2
+        ],
+        "product": [
+          1,
+          4
+        ],
+        "product_refuted": true,
+        "union_ok": true
+      }
+    ],
+    "splits": [
+      {
+        "e_cal": [
+          9,
+          64
+        ],
+        "id": "S1",
+        "matches_expected": true
+      },
+      {
+        "e_cal": [
+          3,
+          200
+        ],
+        "id": "S2",
+        "matches_expected": true
+      }
+    ]
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cc-capture-v1"
+}

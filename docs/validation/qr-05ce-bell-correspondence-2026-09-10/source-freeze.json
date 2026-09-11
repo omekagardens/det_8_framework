@@ -1,0 +1,33 @@
+{
+  "schema": "qr05ce-source-freeze-v1",
+  "sources": {
+    "../qr-05cb-open-data-applicability-2026-09-10/data/VBI_Coincidence_20230707.dat": {
+      "bytes": 179104,
+      "sha256": "a3e687354b71895096aee4e28d113d629e157953c7d240d33de3bd0aca653254"
+    },
+    "README.md": {
+      "bytes": 3239,
+      "sha256": "9453cc4244544255417c4ced24d248bdf11eca5b5d52a98dea4d872a528c0d4e"
+    },
+    "primary.py": {
+      "bytes": 2741,
+      "sha256": "0c16dec34c3e00e32346418ce237e6627eed0116e43048260d19686eb3c6cc5b"
+    },
+    "protocol.json": {
+      "bytes": 762,
+      "sha256": "5504af312d855d98ea230689fccecdaedb429010ce0ac2dcff05e8154fd4b00f"
+    },
+    "reference.py": {
+      "bytes": 2506,
+      "sha256": "910830a871d131bf4b4ee1afba711aca0a4c09e9065395dfd82edaf697b8c401"
+    },
+    "study.py": {
+      "bytes": 3520,
+      "sha256": "14439bb445a4d57077fc75cbc2cdd5b6f95bba6030906acf2efec5ccd75211c6"
+    },
+    "test_qr05ce.py": {
+      "bytes": 2669,
+      "sha256": "b0f37c2b541c598b36cd6a9a681e05f111edc0a8eb4fba6bb8430529ae607bbc"
+    }
+  }
+}

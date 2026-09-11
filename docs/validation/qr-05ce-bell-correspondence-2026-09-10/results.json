@@ -1,0 +1,61 @@
+{
+  "report": {
+    "curves": [
+      {
+        "E_max": [
+          304,
+          397
+        ],
+        "E_min": [
+          -147,
+          187
+        ],
+        "amplitude": [
+          115207,
+          148478
+        ],
+        "amplitude_sq": [
+          13272652849,
+          22045716484
+        ],
+        "chsh_witness": true,
+        "id": "alpha=0",
+        "kappa": 0.565529595,
+        "over_threshold_count": 7
+      },
+      {
+        "E_max": [
+          309,
+          394
+        ],
+        "E_min": [
+          -294,
+          379
+        ],
+        "amplitude": [
+          232947,
+          298652
+        ],
+        "amplitude_sq": [
+          54264304809,
+          89193017104
+        ],
+        "chsh_witness": true,
+        "id": "alpha=pi/2",
+        "kappa": 0.569575102,
+        "over_threshold_count": 6
+      }
+    ],
+    "dataset_sha256": "a3e687354b71895096aee4e28d113d629e157953c7d240d33de3bd0aca653254",
+    "grid": {
+      "alpha_steps": 37,
+      "beta_step": 32
+    },
+    "schema": "qr05ce-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05ce-capture-v1"
+}
