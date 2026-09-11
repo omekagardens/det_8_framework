@@ -29,18 +29,14 @@
     },
     "decay": {
       "chain_lower": 0.373920381,
-      "chain_median": 0.325723097,
-      "chain_p99": 0.303521329,
+      "chain_p99": 0.307033258,
       "chain_upper": 0.16015907,
-      "count_median": 0.477969222,
-      "count_p99": 0.418271814,
+      "count_p99": 0.40893592,
       "count_upper": 0.277582991,
       "ell_exponent_chain_lower": 0.747840762,
-      "ell_exponent_chain_median": 0.651446194,
-      "ell_exponent_chain_p99": 0.607042658,
+      "ell_exponent_chain_p99": 0.614066516,
       "ell_exponent_chain_upper": 0.32031814,
-      "ell_exponent_count_median": 0.955938444,
-      "ell_exponent_count_p99": 0.836543628,
+      "ell_exponent_count_p99": 0.81787184,
       "ell_exponent_count_upper": 0.555165982,
       "fit_n_min": 32
     },
@@ -69,13 +65,11 @@
     ],
     "flags": {
       "ceiling_is_at_large_proper_time": true,
+      "chain_bulk_decays_faster_than_chain_max": true,
       "chain_ceiling_decays_slowly": true,
-      "chain_median_decays_faster_than_chain_max": true,
-      "chain_p99_decays_faster_than_chain_max": true,
       "count_below_chain_from_n": 16,
+      "count_bulk_decays_faster_than_chain_bulk": true,
       "count_max_decays_faster_than_chain_max": true,
-      "count_median_decays_faster_than_chain_median": true,
-      "count_p99_decays_faster_than_chain_p99": true,
       "count_support_matches_directed": true,
       "exact_identity_optimal": true,
       "lgh_infimum_established": false
@@ -167,18 +161,16 @@
       "n": 128,
       "random": 3.300734823
     },
-    "schema": "qr05da-report-v2",
+    "schema": "qr05da-report-v1",
     "trend": [
       {
         "chain_lower_mean": 0.534543957,
         "chain_lower_over_ell": 2.138175829,
-        "chain_median_mean": 0.2452843,
-        "chain_p99_mean": 0.632866877,
+        "chain_p99_mean": 0.019237269,
         "chain_upper_mean": 0.632866877,
         "chain_upper_over_ell": 2.531467509,
         "chain_upper_sd": 0.225512923,
-        "count_median_mean": 0.387819861,
-        "count_p99_mean": 0.709825717,
+        "count_p99_mean": 0.059898069,
         "count_upper_mean": 0.709825717,
         "count_upper_over_ell": 2.839302866,
         "count_upper_sd": 0.077983812,
@@ -189,13 +181,11 @@
       {
         "chain_lower_mean": 0.456959622,
         "chain_lower_over_ell": 2.584953982,
-        "chain_median_mean": 0.266882221,
-        "chain_p99_mean": 0.809347673,
+        "chain_p99_mean": 0.014613447,
         "chain_upper_mean": 0.809347673,
         "chain_upper_over_ell": 4.578361821,
         "chain_upper_sd": 0.185694602,
-        "count_median_mean": 0.311755123,
-        "count_p99_mean": 0.709011341,
+        "count_p99_mean": 0.006591322,
         "count_upper_mean": 0.709011341,
         "count_upper_over_ell": 4.010773818,
         "count_upper_sd": 0.11558626,
@@ -206,13 +196,11 @@
       {
         "chain_lower_mean": 0.354347042,
         "chain_lower_over_ell": 2.834776334,
-        "chain_median_mean": 0.221707793,
-        "chain_p99_mean": 0.807275112,
+        "chain_p99_mean": 0.003931095,
         "chain_upper_mean": 0.819451483,
         "chain_upper_over_ell": 6.555611861,
         "chain_upper_sd": 0.137822897,
-        "count_median_mean": 0.203577844,
-        "count_p99_mean": 0.581837064,
+        "count_p99_mean": 0.002806313,
         "count_upper_mean": 0.590305964,
         "count_upper_over_ell": 4.72244771,
         "count_upper_sd": 0.063407513,
@@ -223,13 +211,11 @@
       {
         "chain_lower_mean": 0.241945353,
         "chain_lower_over_ell": 2.737299195,
-        "chain_median_mean": 0.171994697,
-        "chain_p99_mean": 0.64642038,
+        "chain_p99_mean": 0.003127212,
         "chain_upper_mean": 0.755269254,
         "chain_upper_over_ell": 8.544896176,
         "chain_upper_sd": 0.078140339,
-        "count_median_mean": 0.143702714,
-        "count_p99_mean": 0.458173125,
+        "count_p99_mean": 0.003391459,
         "count_upper_mean": 0.543114469,
         "count_upper_over_ell": 6.144638789,
         "count_upper_sd": 0.065094805,
@@ -240,13 +226,11 @@
       {
         "chain_lower_mean": 0.1827324,
         "chain_lower_over_ell": 2.9237184,
-        "chain_median_mean": 0.136574844,
-        "chain_p99_mean": 0.526313966,
+        "chain_p99_mean": 0.0026179,
         "chain_upper_mean": 0.668052943,
         "chain_upper_over_ell": 10.688847085,
         "chain_upper_sd": 0.12493013,
-        "count_median_mean": 0.10553763,
-        "count_p99_mean": 0.344677976,
+        "count_p99_mean": 0.002096208,
         "count_upper_mean": 0.438733471,
         "count_upper_over_ell": 7.019735529,
         "count_upper_sd": 0.052999508,
@@ -257,13 +241,11 @@
       {
         "chain_lower_mean": 0.159286441,
         "chain_lower_over_ell": 3.604240721,
-        "chain_median_mean": 0.111628743,
-        "chain_p99_mean": 0.426186973,
+        "chain_p99_mean": 0.002058961,
         "chain_upper_mean": 0.597225099,
         "chain_upper_over_ell": 13.51366135,
         "chain_upper_sd": 0.077904602,
-        "count_median_mean": 0.073110384,
-        "count_p99_mean": 0.245217268,
+        "count_p99_mean": 0.001451838,
         "count_upper_mean": 0.349918938,
         "count_upper_over_ell": 7.917761736,
         "count_upper_sd": 0.02231256,
@@ -274,13 +256,11 @@
       {
         "chain_lower_mean": 0.119506574,
         "chain_lower_over_ell": 3.824210383,
-        "chain_median_mean": 0.088999662,
-        "chain_p99_mean": 0.347243301,
+        "chain_p99_mean": 0.001671618,
         "chain_upper_mean": 0.528982983,
         "chain_upper_over_ell": 16.927455447,
         "chain_upper_sd": 0.077904601,
-        "count_median_mean": 0.05445755,
-        "count_p99_mean": 0.186628881,
+        "count_p99_mean": 0.001039586,
         "count_upper_mean": 0.281018623,
         "count_upper_over_ell": 8.992595921,
         "count_upper_sd": 0.026548901,
@@ -289,14 +269,11 @@
         "seeds": 5
       }
     ],
-    "verdict": "Scale-free LGH convergence re-examined. The certified lower bound for the order-only (longest-chain) time-separation decays steadily (exponent ~0.37 in N), but the natural-correspondence ceiling decays only ~N^-0.16 (much slower than ell) and is localized to large-proper-time pairs: it is the finite-size fluctuation of the longest-chain estimator, not a support or convention defect. The distortion is concentrated in the upper tail: the typical (median) distortion is ~N^-0.33 while the 99th percentile is ~N^-0.30, both far above the ceiling decay. The chain bracket therefore does NOT close and chain-based convergence is not established. The order+count (T7-native) reconstruction decays faster on every statistic (ceiling ~N^-0.28, median ~N^-0.48, 99th percentile ~N^-0.42) and falls below the chain ceiling from N=16, but its 99th percentile is still O(0.1) at N=512, so it too is not verified to converge. The obstruction is therefore estimator-specific: the convergence question depends on which discrete time-separation reconstruction is used, not on the directed-distance convention (already corrected by QR-05CZ). The order+count form is a distance estimator, not a Lorentzian metric (it violates the Lorentzian reverse-triangle inequality on a three-event chain). No metric, continuum, curvature or gravity claim."
+    "verdict": "Scale-free LGH convergence re-examined. The certified lower bound for the order-only (longest-chain) time-separation decays steadily (exponent ~0.37 in N), but the natural-correspondence ceiling decays only ~N^-0.16 (much slower than ell) and is localized to large-proper-time pairs: it is the finite-size fluctuation of the longest-chain estimator, not a support or convention defect. The chain bracket therefore does NOT close and chain-based convergence is not established. The order+count (T7-native) reconstruction decays faster (ceiling ~N^-0.28, bulk 99th percentile ~N^-0.41, consistent with Poisson counting) and falls below the chain ceiling from N=16. The obstruction is therefore estimator-specific: the convergence question depends on which discrete time-separation reconstruction is used, not on the directed-distance convention (already corrected by QR-05CZ). No metric, continuum, curvature or gravity claim."
   },
   "runtime": {
     "implementation": "CPython",
-    "version": "3.14.0"
+    "version": "3.11.6"
   },
-  "schema": "qr05da-capture-v2",
-  "supersedes": [
-    "results.superseded-p01-v1.json"
-  ]
+  "schema": "qr05da-capture-v1"
 }

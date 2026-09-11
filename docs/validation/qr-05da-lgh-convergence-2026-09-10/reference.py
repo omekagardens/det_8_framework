@@ -22,7 +22,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 MODULE_PATH = HERE / "../../../det8/models/order_count_geometry.py"
-SCHEMA = "qr05da-report-v1"
+SCHEMA = "qr05da-report-v2"
 BUCKET_LABELS = ["lt_2^-4"] + [f"2^{k}..2^{k+1}" for k in range(-4, 6)] + ["ge_2^6"]
 
 
@@ -91,6 +91,17 @@ def _interval_counts(prec, order):
                 mask |= (1 << k) | anc[k]
         anc[src] = mask
     return [[(desc[i] & anc[j]).bit_count() if prec[i][j] else 0 for j in range(n)] for i in range(n)]
+
+
+def _count_separation(prec, counts, ell):
+    """Order+count time-separation estimator ``ell * sqrt(1 + m_ij)``.
+
+    A distance estimator, not a metric: it violates the Lorentzian
+    reverse-triangle inequality on a three-event chain a ≺ b ≺ c.
+    """
+    n = len(prec)
+    return [[ell * math.sqrt(counts[i][j] + 1) if prec[i][j] else 0.0
+             for j in range(n)] for i in range(n)]
 
 
 def _tau(points, directed):
@@ -179,9 +190,25 @@ def _mismatch(a, b):
     return sum(1 for i in range(n) for j in range(n) if (a[i][j] > 0) != (b[i][j] > 0))
 
 
-def _p99(values):
+def _quantile(values, q):
+    """Nearest-rank quantile (index ``ceil(q n) - 1``); see the primary route.
+
+    The first capture used index ``int(0.01 n)`` -- the 1st percentile -- for a
+    statistic named ``p99``; the corrected form is the 99th percentile.
+    """
+    if not values:
+        raise ValueError("quantile of an empty sequence")
     ordered = sorted(values)
-    return ordered[min(int(0.01 * len(ordered)), len(ordered) - 1)]
+    index = min(len(ordered) - 1, max(0, math.ceil(q * len(ordered)) - 1))
+    return ordered[index]
+
+
+def _p99(values):
+    return _quantile(values, 0.99)
+
+
+def _median(values):
+    return _quantile(values, 0.5)
 
 
 def _bundle(module, n, seed, area):
@@ -193,7 +220,7 @@ def _bundle(module, n, seed, area):
     counts = _interval_counts(prec, order)
     tau_raw = _tau(points, True)
     raw_count = [[ell * math.sqrt(counts[i][j]) if counts[i][j] > 0 else 0.0 for j in range(n)] for i in range(n)]
-    count_time = [[ell * math.sqrt(counts[i][j] + 1) if prec[i][j] else 0.0 for j in range(n)] for i in range(n)]
+    count_time = _count_separation(prec, counts, ell)
     return {"n": n, "ell": ell, "chain_raw": chain_raw, "counts": counts, "tau_raw": tau_raw,
             "chain": _norm(chain_raw), "tau": _norm(tau_raw), "tau_symmetric": _norm(_tau(points, False)),
             "count": _norm(count_time), "raw_count": raw_count}
@@ -226,7 +253,8 @@ def build_report(protocol):
     scale_cache = {}
     trend = []
     for n in protocol["n_scale"]:
-        chain_upper, chain_lower, chain_p99, count_upper, count_p99 = [], [], [], [], []
+        chain_upper, chain_lower, chain_p99, chain_median = [], [], [], []
+        count_upper, count_p99, count_median = [], [], []
         for s in protocol["seeds"]:
             bundle = _bundle(module, n, s, area)
             chain, tau, count = bundle["chain"], bundle["tau"], bundle["count"]
@@ -234,26 +262,33 @@ def build_report(protocol):
             scale_cache[(n, s)] = c_chain
             chain_upper.append(chain_upper_value)
             chain_lower.append(_lb_scale(chain, tau, iters))
-            chain_p99.append(_p99([abs(chain[i][j] - c_chain * tau[i][j])
-                                   for i in range(n) for j in range(n) if tau[i][j] > 0]))
+            chain_distortion = [abs(chain[i][j] - c_chain * tau[i][j])
+                                for i in range(n) for j in range(n) if tau[i][j] > 0]
+            chain_p99.append(_p99(chain_distortion))
+            chain_median.append(_median(chain_distortion))
             c_count, count_upper_value = _minimax(_pairs(count, tau), iters)
             count_upper.append(count_upper_value)
-            count_p99.append(_p99([abs(count[i][j] - c_count * tau[i][j])
-                                   for i in range(n) for j in range(n) if tau[i][j] > 0]))
+            count_distortion = [abs(count[i][j] - c_count * tau[i][j])
+                                for i in range(n) for j in range(n) if tau[i][j] > 0]
+            count_p99.append(_p99(count_distortion))
+            count_median.append(_median(count_distortion))
         ell = math.sqrt(area / n)
         cu = sum(chain_upper) / len(chain_upper)
         cl = sum(chain_lower) / len(chain_lower)
         cp = sum(chain_p99) / len(chain_p99)
+        cm = sum(chain_median) / len(chain_median)
         xu = sum(count_upper) / len(count_upper)
         xp = sum(count_p99) / len(count_p99)
+        xm = sum(count_median) / len(count_median)
         trend.append({
             "n": n, "ell": _round(ell), "seeds": len(protocol["seeds"]),
             "chain_upper_mean": _round(cu),
             "chain_upper_sd": _round(math.sqrt(sum((v - cu) ** 2 for v in chain_upper) / len(chain_upper))),
-            "chain_lower_mean": _round(cl), "chain_p99_mean": _round(cp),
+            "chain_lower_mean": _round(cl),
+            "chain_median_mean": _round(cm), "chain_p99_mean": _round(cp),
             "count_upper_mean": _round(xu),
             "count_upper_sd": _round(math.sqrt(sum((v - xu) ** 2 for v in count_upper) / len(count_upper))),
-            "count_p99_mean": _round(xp),
+            "count_median_mean": _round(xm), "count_p99_mean": _round(xp),
             "chain_upper_over_ell": _round(cu / ell), "chain_lower_over_ell": _round(cl / ell),
             "count_upper_over_ell": _round(xu / ell)})
 
@@ -262,12 +297,15 @@ def build_report(protocol):
     decay = {
         "fit_n_min": protocol["fit_n_min"],
         "chain_lower": _round(-_slope(fitted_n, [r["chain_lower_mean"] for r in fitted])),
+        "chain_median": _round(-_slope(fitted_n, [r["chain_median_mean"] for r in fitted])),
         "chain_upper": _round(-_slope(fitted_n, [r["chain_upper_mean"] for r in fitted])),
         "chain_p99": _round(-_slope(fitted_n, [r["chain_p99_mean"] for r in fitted])),
+        "count_median": _round(-_slope(fitted_n, [r["count_median_mean"] for r in fitted])),
         "count_upper": _round(-_slope(fitted_n, [r["count_upper_mean"] for r in fitted])),
         "count_p99": _round(-_slope(fitted_n, [r["count_p99_mean"] for r in fitted])),
     }
-    for key in ("chain_lower", "chain_upper", "chain_p99", "count_upper", "count_p99"):
+    for key in ("chain_lower", "chain_median", "chain_upper", "chain_p99",
+                "count_median", "count_upper", "count_p99"):
         decay[f"ell_exponent_{key}"] = _round(2.0 * decay[key])
 
     buckets = {label: {"n": 0, "abs": [], "ratio": []} for label in BUCKET_LABELS}
@@ -322,9 +360,11 @@ def build_report(protocol):
     near_null = ("lt_2^-4", "2^-4..2^-3", "2^-3..2^-2")
     flags = {
         "chain_ceiling_decays_slowly": bool(decay["chain_upper"] > 0.0),
-        "chain_bulk_decays_faster_than_chain_max": bool(decay["chain_p99"] > decay["chain_upper"]),
+        "chain_median_decays_faster_than_chain_max": bool(decay["chain_median"] > decay["chain_upper"]),
+        "chain_p99_decays_faster_than_chain_max": bool(decay["chain_p99"] > decay["chain_upper"]),
         "count_max_decays_faster_than_chain_max": bool(decay["count_upper"] > decay["chain_upper"]),
-        "count_bulk_decays_faster_than_chain_bulk": bool(decay["count_p99"] > decay["chain_p99"]),
+        "count_median_decays_faster_than_chain_median": bool(decay["count_median"] > decay["chain_median"]),
+        "count_p99_decays_faster_than_chain_p99": bool(decay["count_p99"] > decay["chain_p99"]),
         "count_below_chain_from_n": crossover,
         "count_support_matches_directed": bool(all(v == 0 for v in convention["count_offset_vs_directed"].values())),
         "ceiling_is_at_large_proper_time": bool(
@@ -349,13 +389,18 @@ def build_report(protocol):
             f"{decay['chain_lower']:.2f} in N), but the natural-correspondence ceiling decays "
             f"only ~N^-{decay['chain_upper']:.2f} (much slower than ell) and is localized to "
             "large-proper-time pairs: it is the finite-size fluctuation of the longest-chain "
-            "estimator, not a support or convention defect. The chain bracket therefore does "
-            "NOT close and chain-based convergence is not established. The order+count "
-            f"(T7-native) reconstruction decays faster (ceiling ~N^-{decay['count_upper']:.2f}, "
-            f"bulk 99th percentile ~N^-{decay['count_p99']:.2f}, consistent with Poisson "
-            f"counting) and falls below the chain ceiling from N={crossover}. The obstruction "
-            "is therefore estimator-specific: the convergence question depends on which "
-            "discrete time-separation reconstruction is used, not on the directed-distance "
-            "convention (already corrected by QR-05CZ). No metric, continuum, curvature or "
-            "gravity claim."),
+            "estimator, not a support or convention defect. The distortion is concentrated in "
+            f"the upper tail: the typical (median) distortion is ~N^-{decay['chain_median']:.2f} "
+            f"while the 99th percentile is ~N^-{decay['chain_p99']:.2f}, both far above the "
+            "ceiling decay. The chain bracket therefore does NOT close and chain-based "
+            "convergence is not established. The order+count (T7-native) reconstruction decays "
+            f"faster on every statistic (ceiling ~N^-{decay['count_upper']:.2f}, median "
+            f"~N^-{decay['count_median']:.2f}, 99th percentile ~N^-{decay['count_p99']:.2f}) and "
+            f"falls below the chain ceiling from N={crossover}, but its 99th percentile is still "
+            "O(0.1) at N=512, so it too is not verified to converge. The obstruction is "
+            "therefore estimator-specific: the convergence question depends on which discrete "
+            "time-separation reconstruction is used, not on the directed-distance convention "
+            "(already corrected by QR-05CZ). The order+count form is a distance estimator, not a "
+            "Lorentzian metric (it violates the Lorentzian reverse-triangle inequality on a "
+            "three-event chain). No metric, continuum, curvature or gravity claim."),
     }

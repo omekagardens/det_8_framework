@@ -2589,19 +2589,32 @@ proper time** (distortion rises from `~0.10` at near-null to `~0.60` at large `�
 where the longest-chain ratio settles at a constant `≈ 1.2` with a shrinking relative
 spread): the ceiling is the finite-size fluctuation of the longest-chain estimator,
 not the directed-distance convention (settled by CZ) and not the near-null pairs. On
-the same footing the order+count reconstruction decays distinctly faster — ceiling
-`~N^−0.28`, bulk `p99` `~N^−0.41` (consistent with Poisson counting) — and its
-ceiling falls below the chain's from `N = 16`. So the reopened convergence question
-depends on the reconstruction, not on the convention. Neither is verified to converge
-(the count ceiling is still `O(0.3)` at `N = 512`). Identity is scale-free optimal on
-the exact grid (`N ≤ 7`); a random-correspondence control separates `0.74` from
-`3.30` at `N = 128`. Two routes agree; 15 tests pass. See
-[QR-05DA results](../validation/qr-05da-lgh-convergence-2026-09-10/RESULTS.md).
+the same footing the order+count reconstruction decays faster on every statistic —
+median `~N^−0.48`, upper tail (`p99`) `~N^−0.42`, ceiling `~N^−0.28` — and falls
+below the chain on the ceiling and upper tail from `N = 16` (median from `N = 32`).
+So the reopened convergence question depends on the reconstruction, not on the
+convention. Neither is verified to converge (the count ceiling is still `O(0.3)` and
+its `p99` `O(0.1)` at `N = 512`; an earlier capture's "count `p99` below `10⁻²`" was
+the 1st percentile mislabelled as the 99th and is withdrawn). The count form is
+demoted from "metric" to **distance estimator**: on a three-event chain `a ≺ b ≺ c`
+it gives `d(a,c) = ℓ√2 < d(a,b) + d(b,c) = 2ℓ`, violating the Lorentzian
+reverse-triangle inequality. Identity is scale-free optimal on the exact grid
+(`N ≤ 7`); a random-correspondence control separates `0.74` from `3.30` at `N = 128`.
+Two routes agree; 21 tests pass (including known-answer percentile and decay-fit
+checks that block the shared-error mode). The superseded first capture is retained.
+See [QR-05DA results](../validation/qr-05da-lgh-convergence-2026-09-10/RESULTS.md)
+and the [supersession record](../validation/qr-05da-lgh-convergence-2026-09-10/SUPERSEDED.md).
 
-**Next: a constructive count-based vanishing bound (research-grade) or the empirical bridge (Branch B; OPEN — physical evidence required).**
-The scale-free infimum is bracketed but the brackets do not meet. DA localizes why
-for the order-only chain (the ceiling is a large-proper-time longest-chain
-fluctuation) and shows a T7-native order+count reconstruction decays distinctly
+**Next: QR-05DB — a constructive vanishing bound for the order+count reconstruction (research-grade), or the empirical bridge (Branch B; OPEN — physical evidence required).**
+Do not simply increase `N`. QR-05DB asks: **can an order+count reconstruction be
+constructed with a provable vanishing error bound while satisfying the required
+Lorentzian metric-space properties?** — specified beforehand by admissible causal-set
+class, sampling/density assumptions, reconstruction formula, scale/anchor treatment,
+Lorentzian metric axioms, convergence notion, constructive upper/lower bounds, and
+adversarial non-manifoldlike controls. A counterexample or impossibility theorem is
+an equally valid outcome. The scale-free infimum is bracketed but the brackets do not
+meet. DA localizes why for the order-only chain (a large-proper-time longest-chain
+fluctuation) and shows the T7-native order+count reconstruction decays distinctly
 faster — but a *constructive* vanishing bound (and the statement that the count
 family is a metric space with a controlled limit), the density/commensurability
 condition and ensemble convergence remain open, and exact search still grows ≈ 10×
@@ -2767,8 +2780,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CX: LGH infimum at scale via branch-and-bound (complete, executable; inconclusive) | Exact infimum by branch-and-bound to N=10, boundary to N=12 (identity optimal throughout; brute-force validated ≤8); certified sorted-multiset lower bound ≈0.90 to N=256 (floor 0.896271) while the identity upper bound grows 2.389→3.333; nodes grow ≈10×/N; two routes agree, 11 tests pass | Extends CW; identity-optimality holds to N=12; **the fixed-scale non-vanishing floor was reclassified by CZ as a symmetric-counterpart artifact**; the scale-free comparison, density/commensurability, ensemble convergence and manifoldlikeness remain open; no metric, continuum, curvature or gravity claim |
 | QR-05CY: observational quotient and internal-reference no-go (complete, executable) | Exact observational quotient on a declared finite world class: dimension IDENTIFIED; order exactly blind to the conformal factor (counts identify it); absolute scale and reference validity NON_IDENTIFIABLE from the same channel (witness pairs); every `O`-built reference is blind on the witness class (no-go); taxonomy mapped onto `det8.claims` with no new vocabulary; two routes agree, 11 tests pass | Separates identifiability from empirical applicability; closes the non-empirical half of the BW/P5 blockage negatively; makes no ontological claim (P5 Status M); does not supply apparatus evidence or satisfy P5 physically |
 | QR-05CZ: scale-free LGH comparison and directed-distance correction (complete, executable) | Continuum counterpart corrected to the directed Lorentzian distance (chain-vs-symmetric support mismatches 18/251/15512; 0 directed); directed scale-free distortion ≤~0.9 vs 1.8–3.3; certified lower bound decreases monotonically 0.498→0.158 over N=8…256 (~2–3.6×ℓ); identity scale-free optimal on the exact grid; c*≈1; two routes agree, 11 tests pass | Withdraws/reclassifies the CW/CX non-vanishing floor as a convention artifact; reopens the scale-free convergence question (bracketed, not pinned); no metric, continuum, curvature or gravity claim |
-| QR-05DA: scale-free LGH convergence and the estimator split (complete, executable) | Chain ceiling localized in proper time (near-null ~0.10 → large-τ ~0.60); asymptotic decay exponents (N ≥ 32): chain lower bound 0.374, chain bulk (p99) 0.307, **chain ceiling 0.160**; order+count (T7-native) reconstruction ceiling 0.278, bulk 0.409 (consistent with Poisson ~N^−1/2); count ceiling below chain from N = 16; identity scale-free optimal on the exact grid; random control 0.74 vs 3.30; two routes agree, 15 tests pass | Resolves CZ's reopening into an **estimator dependence**: the order-only chain ceiling is fluctuation-limited at large proper time, the order+count reconstruction decays distinctly faster; neither is verified to converge; no metric, continuum, curvature or gravity claim |
-| Next: a constructive count-based vanishing bound (research-grade) or the empirical bridge (Branch B; OPEN — physical evidence required) | A proof that the order+count reconstruction's scale-free distortion vanishes (and that its count family is a metric space with a controlled limit); density/commensurability; ensemble convergence — or the BX apparatus | Branch A proceeds mathematically via CY/CZ/DA successors; Branch B remains open until physical evidence is supplied; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05DA: scale-free LGH convergence and the estimator split (complete, executable; `p99` statistic corrected) | Chain ceiling localized in proper time (near-null ~0.10 → large-τ ~0.60); asymptotic decay exponents (N ≥ 32): chain lower bound 0.374, chain median 0.326, chain p99 0.304, **chain ceiling 0.160**; order+count (T7-native) median 0.478, p99 0.418, ceiling 0.278; count below chain on ceiling and p99 from N = 16 (median from N = 32); identity scale-free optimal on the exact grid; random control 0.74 vs 3.30; count form violates the Lorentzian reverse triangle on a three-event chain; two routes agree, 21 tests pass (including known-answer statistics) | Resolves CZ's reopening into an **estimator dependence**: the order-only chain ceiling is fluctuation-limited at large proper time, the order+count reconstruction decays faster on every statistic; neither is verified to converge; the count form is a **distance estimator, not a metric**; an earlier capture's `p99` (the 1st percentile mislabelled) is corrected and retained as superseded; no metric, continuum, curvature or gravity claim |
+| QR-05DB: a constructive count-based vanishing bound (research-grade) or the empirical bridge (Branch B; OPEN — physical evidence required) | A proof that the order+count reconstruction's scale-free distortion vanishes (and that its count family is a metric space with a controlled limit); density/commensurability; ensemble convergence — or the BX apparatus | Branch A proceeds mathematically via CY/CZ/DA successors; Branch B remains open until physical evidence is supplied; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

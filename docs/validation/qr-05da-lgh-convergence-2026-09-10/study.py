@@ -18,10 +18,12 @@ from pathlib import Path
 from unittest import mock
 
 HERE = Path(__file__).resolve().parent
-SOURCE_PATHS = ("README.md", "protocol.json", "primary.py", "reference.py", "study.py", "test_qr05da.py")
+SOURCE_PATHS = ("README.md", "SUPERSEDED.md", "protocol.json",
+                "primary.py", "reference.py", "study.py", "test_qr05da.py")
 FIXTURE_PATHS = ("../../../det8/models/order_count_geometry.py",)
-CAPTURE_SCHEMA = "qr05da-capture-v1"
+CAPTURE_SCHEMA = "qr05da-capture-v2"
 FREEZE_SCHEMA = "qr05da-source-freeze-v1"
+SUPERSEDES = ("results.superseded-p01-v1.json",)
 
 
 def load_module(name, path):
@@ -114,6 +116,7 @@ def main(argv=None):
         _write_create_only(
             HERE / "results.json",
             {"schema": CAPTURE_SCHEMA,
+             "supersedes": list(SUPERSEDES),
              "runtime": {"implementation": platform.python_implementation(),
                          "version": platform.python_version()},
              "report": analyze()},
