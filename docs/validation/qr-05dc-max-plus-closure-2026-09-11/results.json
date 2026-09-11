@@ -1,0 +1,556 @@
+{
+  "report": {
+    "axiom_checks": [
+      {
+        "estimator": "chain",
+        "n": 32,
+        "object": "sprinkle_d2_n32_s0",
+        "reverse_triangle_violations": 0,
+        "seed": 0,
+        "support_mismatches": 0,
+        "triples": 739,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "count",
+        "n": 32,
+        "object": "sprinkle_d2_n32_s0",
+        "reverse_triangle_violations": 470,
+        "seed": 0,
+        "support_mismatches": 0,
+        "triples": 739,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "closure_a1",
+        "n": 32,
+        "object": "sprinkle_d2_n32_s0",
+        "reverse_triangle_violations": 0,
+        "seed": 0,
+        "support_mismatches": 0,
+        "triples": 739,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "chain",
+        "n": 32,
+        "object": "sprinkle_d2_n32_s1",
+        "reverse_triangle_violations": 0,
+        "seed": 1,
+        "support_mismatches": 0,
+        "triples": 752,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "count",
+        "n": 32,
+        "object": "sprinkle_d2_n32_s1",
+        "reverse_triangle_violations": 536,
+        "seed": 1,
+        "support_mismatches": 0,
+        "triples": 752,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "closure_a1",
+        "n": 32,
+        "object": "sprinkle_d2_n32_s1",
+        "reverse_triangle_violations": 0,
+        "seed": 1,
+        "support_mismatches": 0,
+        "triples": 752,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "chain",
+        "n": 64,
+        "object": "sprinkle_d2_n64_s0",
+        "reverse_triangle_violations": 0,
+        "seed": 0,
+        "support_mismatches": 0,
+        "triples": 7679,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "count",
+        "n": 64,
+        "object": "sprinkle_d2_n64_s0",
+        "reverse_triangle_violations": 4224,
+        "seed": 0,
+        "support_mismatches": 0,
+        "triples": 7679,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "closure_a1",
+        "n": 64,
+        "object": "sprinkle_d2_n64_s0",
+        "reverse_triangle_violations": 0,
+        "seed": 0,
+        "support_mismatches": 0,
+        "triples": 7679,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "chain",
+        "n": 64,
+        "object": "sprinkle_d2_n64_s1",
+        "reverse_triangle_violations": 0,
+        "seed": 1,
+        "support_mismatches": 0,
+        "triples": 8282,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "count",
+        "n": 64,
+        "object": "sprinkle_d2_n64_s1",
+        "reverse_triangle_violations": 5515,
+        "seed": 1,
+        "support_mismatches": 0,
+        "triples": 8282,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "closure_a1",
+        "n": 64,
+        "object": "sprinkle_d2_n64_s1",
+        "reverse_triangle_violations": 0,
+        "seed": 1,
+        "support_mismatches": 0,
+        "triples": 8282,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "chain",
+        "n": 128,
+        "object": "sprinkle_d2_n128_s0",
+        "reverse_triangle_violations": 0,
+        "seed": 0,
+        "support_mismatches": 0,
+        "triples": 56460,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "count",
+        "n": 128,
+        "object": "sprinkle_d2_n128_s0",
+        "reverse_triangle_violations": 24916,
+        "seed": 0,
+        "support_mismatches": 0,
+        "triples": 56460,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "closure_a1",
+        "n": 128,
+        "object": "sprinkle_d2_n128_s0",
+        "reverse_triangle_violations": 0,
+        "seed": 0,
+        "support_mismatches": 0,
+        "triples": 56460,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "chain",
+        "n": 128,
+        "object": "sprinkle_d2_n128_s1",
+        "reverse_triangle_violations": 0,
+        "seed": 1,
+        "support_mismatches": 0,
+        "triples": 65676,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "count",
+        "n": 128,
+        "object": "sprinkle_d2_n128_s1",
+        "reverse_triangle_violations": 38071,
+        "seed": 1,
+        "support_mismatches": 0,
+        "triples": 65676,
+        "zero_on_causal": 0
+      },
+      {
+        "estimator": "closure_a1",
+        "n": 128,
+        "object": "sprinkle_d2_n128_s1",
+        "reverse_triangle_violations": 0,
+        "seed": 1,
+        "support_mismatches": 0,
+        "triples": 65676,
+        "zero_on_causal": 0
+      }
+    ],
+    "domination": [
+      {
+        "a": 0.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.25,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.5,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.75,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s0",
+        "seed": 0
+      },
+      {
+        "a": 1.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.25,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.5,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.75,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s1",
+        "seed": 1
+      },
+      {
+        "a": 1.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.25,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.5,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.75,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s0",
+        "seed": 0
+      },
+      {
+        "a": 1.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.25,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.5,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.75,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s1",
+        "seed": 1
+      },
+      {
+        "a": 1.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.25,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.5,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.75,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s0",
+        "seed": 0
+      },
+      {
+        "a": 1.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s0",
+        "seed": 0
+      },
+      {
+        "a": 0.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.25,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.5,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s1",
+        "seed": 1
+      },
+      {
+        "a": 0.75,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s1",
+        "seed": 1
+      },
+      {
+        "a": 1.0,
+        "domination_violations": 0,
+        "holds": true,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s1",
+        "seed": 1
+      }
+    ],
+    "flags": {
+      "axiom_compliant_mixed_reconstruction_exists": true,
+      "chain_satisfies_all_axioms": true,
+      "closure_a1_tracks_the_chain": true,
+      "closure_dominates_the_weighted_longest_chain": true,
+      "closure_never_beats_the_count_ceiling": true,
+      "closure_satisfies_all_axioms": true,
+      "count_violates_reverse_triangle": true,
+      "mixed_uniform_bound_reduces_to_order_only": true,
+      "tuned_link_weight_recovers_the_count_ceiling": false
+    },
+    "schema": "qr05dc-report-v1",
+    "spec": {
+      "axioms": [
+        "A0 d(x,x)=0",
+        "A1 d(x,y)>0 iff x<y",
+        "A2 x<y<z => d(x,z) >= d(x,y)+d(y,z)"
+      ],
+      "convergence": "scale-free L-infinity distortion to the directed Lorentzian distance",
+      "link_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "question": "Can a mixed order+count reconstruction be constructed with a provable vanishing error bound while satisfying the Lorentzian metric-space axioms A0-A2?",
+      "reconstruction": "max-plus closure D_w(i,j) = max over chains sum w; mixed weight w_a = a*ell on links, ell*sqrt(1+m) otherwise",
+      "scale": "homothety only; matrices normalised by the mean positive entry (QR-05CY)"
+    },
+    "sweep": [
+      {
+        "best_closure": 0.942011273,
+        "chain": 1.02510915,
+        "closure_by_weight": {
+          "0.0": 0.942011273,
+          "0.25": 1.196451433,
+          "0.5": 1.073272762,
+          "0.75": 0.983487159,
+          "1.0": 1.02510915
+        },
+        "count": 0.637613562,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s0",
+        "seed": 0
+      },
+      {
+        "best_closure": 0.639363496,
+        "chain": 0.639363496,
+        "closure_by_weight": {
+          "0.0": 0.699697444,
+          "0.25": 0.867149507,
+          "0.5": 0.749619673,
+          "0.75": 0.648757698,
+          "1.0": 0.639363496
+        },
+        "count": 0.539127044,
+        "n": 32,
+        "object": "sprinkle_d2_n32_s1",
+        "seed": 1
+      },
+      {
+        "best_closure": 0.675604268,
+        "chain": 0.782337651,
+        "closure_by_weight": {
+          "0.0": 0.675604268,
+          "0.25": 0.787777074,
+          "0.5": 0.787678394,
+          "0.75": 0.791767705,
+          "1.0": 0.781138894
+        },
+        "count": 0.520756093,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s0",
+        "seed": 0
+      },
+      {
+        "best_closure": 0.555082508,
+        "chain": 0.690265856,
+        "closure_by_weight": {
+          "0.0": 0.555082508,
+          "0.25": 0.628448003,
+          "0.5": 0.614805078,
+          "0.75": 0.602708267,
+          "1.0": 0.690265856
+        },
+        "count": 0.463675139,
+        "n": 64,
+        "object": "sprinkle_d2_n64_s1",
+        "seed": 1
+      },
+      {
+        "best_closure": 0.782567643,
+        "chain": 0.892557983,
+        "closure_by_weight": {
+          "0.0": 0.782567643,
+          "0.25": 0.87302052,
+          "0.5": 0.845973215,
+          "0.75": 0.85039983,
+          "1.0": 0.874388998
+        },
+        "count": 0.480952243,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s0",
+        "seed": 0
+      },
+      {
+        "best_closure": 0.606118036,
+        "chain": 0.65979653,
+        "closure_by_weight": {
+          "0.0": 0.606118036,
+          "0.25": 0.636546256,
+          "0.5": 0.6300102,
+          "0.75": 0.642698308,
+          "1.0": 0.659249807
+        },
+        "count": 0.392196898,
+        "n": 128,
+        "object": "sprinkle_d2_n128_s1",
+        "seed": 1
+      }
+    ],
+    "verdict": "QR-05DC: the max-plus closure of a count weight is the canonical A2-compliant mixed order+count reconstruction, and it satisfies A0-A2 exactly (zero support mismatches and zero reverse-triangle violations). By construction it dominates the weighted longest chain: D >= (minimum link weight) * L pointwise. But its uniform scale-free L-infinity distortion equals the order-only longest-chain estimator's for every link weight tested (a in [0,1], including the A1-violating limit a=0) and is strictly above the count's best: the maximum over chains is fluctuation-dominated, so the count's smaller ceiling (QR-05DA/DB) is not accessible once A2 is imposed. The uniform scale-free distortion is not monotone under pointwise domination, so A2 compliance does not transfer the count's better ceiling; the mixed order+count uniform vanishing bound reduces to the order-only (longest-chain) uniform problem, which QR-05DA leaves open. No metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05dc-capture-v1"
+}

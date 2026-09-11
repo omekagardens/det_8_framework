@@ -2626,18 +2626,38 @@ count is structurally superadditive (`m_ac ≥ m_ab + m_bc + 1`, 0 violations ov
 triples). Two routes agree; 12 tests pass (known-answer census). See
 [QR-05DB results](../validation/qr-05db-count-reconstruction-obstruction-2026-09-11/RESULTS.md).
 
-**Next: a constructive vanishing bound for an order-based or mixed order+count reconstruction (research-grade), or the empirical bridge (Branch B; OPEN — physical evidence required).**
-DB rules the count-only family out and certifies the order-only chain as the
-axiom-compliant premetric, but the scale-free infimum is still bracketed, not pinned. A
-*constructive* vanishing bound for an order-based or **mixed** order+count
-reconstruction — whether such a reconstruction can satisfy A0–A2 *and* converge — the
-density/commensurability condition and ensemble convergence remain open, and exact
-search still grows ≈ 10× per N. The blocked gate is split: **Branch A** (mathematical
-closure) proceeds via CY/CZ/DA/DB and successors; **Branch B** (apparatus, BX/BW/BZ)
-stays open until physical evidence is supplied and no mathematical result marks an
-apparatus fact as supplied. Recommend a dedicated research effort, awaiting apparatus,
-or consolidation; do not promote either. Curvature stays quarantined; κ-gravity stays
-retired and gravity is standard GR under Option B.
+**QR-05DC complete: the max-plus closure — an A2-compliant mixed reconstruction whose uniform bound is order-dominated (executable; existence + negative uniform result).**
+DC takes the mixed order+count question directly. The max-plus (longest-path) closure
+`D_w(i,j) = max over chains Σ w` of the count weight `w_a = a·ℓ` on links, `ℓ√(1+m)`
+elsewhere, satisfies A0–A2 exactly (0 support mismatches, 0 reverse-triangle violations
+on all six sprinkled objects), and is the **pointwise-minimal** A2-compliant
+reconstruction dominating its weight; so an axiom-compliant mixed order+count
+reconstruction exists constructively (T1). It dominates the weighted longest chain,
+`D_w(i,j) ≥ a·ℓ·L(i,j)` (0 violations over 30 object×weight rows) (T2). But its
+scale-free `L∞` distortion **equals the order-only longest-chain estimator's** (≤2% at
+`a = 1`) and is strictly worse than the count's best, for every link weight tested
+including the A1-violating limit `a = 0` (T3): the maximum over chains is
+fluctuation-dominated, reproducing the chain's large probe fluctuations rather than the
+count's smaller ones. So enforcing A2 forfeits the count's ceiling, and the mixed
+*uniform* vanishing bound reduces to the **order-only** longest-chain problem that
+QR-05DA leaves open. 13 tests pass (known-answer closure checks). See
+[QR-05DC results](../validation/qr-05dc-max-plus-closure-2026-09-11/RESULTS.md).
+
+**Next: the order-only (longest-chain) uniform bound, non-uniform link weights, or the empirical bridge (Branch B; OPEN — physical evidence required).**
+The convergence obstruction is now entirely order-only. DB rules out the count-only
+family; DC shows an A2-compliant mixed closure does not beat the chain's uniform
+ceiling. What remains is (i) a constructive vanishing bound for the order-only
+longest-chain estimator itself — or a proof that its ceiling does not vanish (a
+non-convergence theorem would be equally decisive) — and (ii) the untested escape of a
+**non-uniform** (locally calibrated) link weight, the only apparent way for the count to
+enter an A2-compliant reconstruction without inheriting the chain's fluctuation. The
+scale-free infimum is still bracketed, not pinned; density/commensurability and ensemble
+convergence remain open, and exact search still grows ≈ 10× per N. The blocked gate is
+split: **Branch A** (mathematical closure) proceeds via CY/CZ/DA/DB/DC and successors;
+**Branch B** (apparatus, BX/BW/BZ) stays open until physical evidence is supplied and no
+mathematical result marks an apparatus fact as supplied. Recommend a dedicated research
+effort, awaiting apparatus, or consolidation; do not promote either. Curvature stays
+quarantined; κ-gravity stays retired and gravity is standard GR under Option B.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2796,7 +2816,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CZ: scale-free LGH comparison and directed-distance correction (complete, executable) | Continuum counterpart corrected to the directed Lorentzian distance (chain-vs-symmetric support mismatches 18/251/15512; 0 directed); directed scale-free distortion ≤~0.9 vs 1.8–3.3; certified lower bound decreases monotonically 0.498→0.158 over N=8…256 (~2–3.6×ℓ); identity scale-free optimal on the exact grid; c*≈1; two routes agree, 11 tests pass | Withdraws/reclassifies the CW/CX non-vanishing floor as a convention artifact; reopens the scale-free convergence question (bracketed, not pinned); no metric, continuum, curvature or gravity claim |
 | QR-05DA: scale-free LGH convergence and the estimator split (complete, executable; `p99` statistic corrected) | Chain ceiling localized in proper time (near-null ~0.10 → large-τ ~0.60); asymptotic decay exponents (N ≥ 32): chain lower bound 0.374, chain median 0.326, chain p99 0.304, **chain ceiling 0.160**; order+count (T7-native) median 0.478, p99 0.418, ceiling 0.278; count below chain on ceiling and p99 from N = 16 (median from N = 32); identity scale-free optimal on the exact grid; random control 0.74 vs 3.30; count form violates the Lorentzian reverse triangle on a three-event chain; two routes agree, 21 tests pass (including known-answer statistics) | Resolves CZ's reopening into an **estimator dependence**: the order-only chain ceiling is fluctuation-limited at large proper time, the order+count reconstruction decays faster on every statistic; neither is verified to converge; the count form is a **distance estimator, not a metric**; an earlier capture's `p99` (the 1st percentile mislabelled) is corrected and retained as superseded; no metric, continuum, curvature or gravity claim |
 | QR-05DB: the metric-axiom obstruction for count-only reconstructions (complete, executable) | Order-only `ℓ·L` satisfies A0–A2 on every finite causal set (Lorentzian premetric); QR-05DA count `ℓ·√(1+m)` violates A2 on real sprinklings (up to ~50% of triples at d=2,n=64; worst gap ≈ −1.2ℓ; 3-chain ℓ√2<2ℓ); raw `ℓ√m` fails A1 (links→0); **no count-only reconstruction is convergent, positive on links and axiom-compliant** (convergence ⇒ g~m^{1/d}; positivity+A2 ⇒ liminf g(m)/m≥g(0)); structural superadditivity m_ac≥m_ab+m_bc+1 (0/11 282); two routes agree, 12 tests pass | Refutes the count-only family as the axiom-compliant convergent object; the axiom-compliant route is order-based; a constructive vanishing bound for an order-based or mixed order+count reconstruction stays open; no metric, continuum, curvature or gravity claim |
-| Next: a constructive vanishing bound for an order-based or mixed order+count reconstruction (research-grade), or the empirical bridge (Branch B; OPEN — physical evidence required) | A proof that an order-based or mixed reconstruction's scale-free distortion vanishes while satisfying A0–A2; density/commensurability; ensemble convergence — or the BX apparatus | Branch A proceeds via CY/CZ/DA/DB successors; Branch B remains open until physical evidence is supplied; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05DC: the max-plus closure — an A2-compliant mixed reconstruction whose uniform bound is order-dominated (complete, executable) | Closure `D_w` of the count weight satisfies A0–A2 exactly (0 support/RT violations) and is the minimal A2-compliant reconstruction dominating its weight; dominates the weighted longest chain `D_w ≥ a·ℓ·L` (0/30); but its scale-free L∞ distortion = the order-only chain's (≤2% at a=1) and > the count's best for every link weight a∈[0,1] (max-over-chains fluctuation dominates); 13 tests pass | An axiom-compliant mixed order+count reconstruction exists, but A2 enforcement forfeits the count's ceiling: the mixed *uniform* vanishing bound reduces to the order-only longest-chain problem; no metric, continuum, curvature or gravity claim |
+| Next: the order-only (longest-chain) uniform bound, non-uniform link weights, or the empirical bridge (Branch B; OPEN — physical evidence required) | A constructive vanishing bound for the order-only longest-chain estimator (or a non-vanishing proof); a non-uniform (locally calibrated) link weight; density/commensurability; ensemble convergence — or the BX apparatus | The convergence obstruction is now entirely order-only; Branch A proceeds via CY/CZ/DA/DB/DC successors; Branch B remains open until physical evidence is supplied; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.
