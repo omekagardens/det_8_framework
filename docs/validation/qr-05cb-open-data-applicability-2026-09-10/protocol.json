@@ -1,0 +1,31 @@
+{
+  "schema": "qr05cb-protocol-v1",
+  "dataset": {
+    "id": "VBI_Coincidence_20230707",
+    "sha256": "a3e687354b71895096aee4e28d113d629e157953c7d240d33de3bd0aca653254",
+    "bytes": 179104,
+    "rows": 1184,
+    "cols": 29,
+    "beta_step": 32,
+    "source": "https://github.com/NJU-Malab/Violate-CHSH-in-FI (mirror of Dryad 10.5061/dryad.7m0cfxq59, CC0-1.0)"
+  },
+  "columns": {
+    "motor_a": 1, "motor_b": 2, "piezo_a": 3, "piezo_b": 4,
+    "single1": 5, "single2": 6, "single3": 7, "single4": 8,
+    "cc4": 9, "cc_alice": 10, "cc_bob": 11
+  },
+  "mappings": [
+    {"id": "single_normalized", "r1": ["cc4", "single1"], "r2": ["cc_alice", "single1"]},
+    {"id": "trigger_conditioned", "r1": ["cc4", "cc_alice"], "r2": ["cc_alice", "cc_alice"]},
+    {"id": "bob_normalized", "r1": ["cc4", "single1"], "r2": ["cc_bob", "single1"]}
+  ],
+  "family": {
+    "eta": [0, 1],
+    "delta": [[0, 1], [1, 2], [1, 1], [2, 1]]
+  },
+  "allowance": {
+    "a_sys": [1, 100], "a_stat": [0, 1], "d_sys": [1, 200], "d_stat": [0, 1], "e_cal": [3, 200]
+  },
+  "targets": {"eta0": [1, 4], "eta1": [17, 80]},
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

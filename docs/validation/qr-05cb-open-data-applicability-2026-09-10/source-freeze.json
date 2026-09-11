@@ -1,0 +1,33 @@
+{
+  "schema": "qr05cb-source-freeze-v1",
+  "sources": {
+    "README.md": {
+      "bytes": 4367,
+      "sha256": "b22c802ad438b7ac065f9fcf5f089f66338cd919bb04c02c1ad23b727c41e034"
+    },
+    "data/VBI_Coincidence_20230707.dat": {
+      "bytes": 179104,
+      "sha256": "a3e687354b71895096aee4e28d113d629e157953c7d240d33de3bd0aca653254"
+    },
+    "primary.py": {
+      "bytes": 3137,
+      "sha256": "52525fc02a4cdd1307c342e6de9be9548d7ef37f91a8e3affaa76a2ee8ea9a67"
+    },
+    "protocol.json": {
+      "bytes": 1157,
+      "sha256": "d1f1ef1b5053f98e5e940f63c1b85aecb9feb07ebf11bda23eb20394b59380de"
+    },
+    "reference.py": {
+      "bytes": 3295,
+      "sha256": "54d2cb0e464e6f388957925dfebeab43ff155c14568bd6ea5a28288e048ece1f"
+    },
+    "study.py": {
+      "bytes": 3657,
+      "sha256": "741c05a509ebe9bfc0c025ca4ee30e9cc6085e5b559fced434904d4edfcb34eb"
+    },
+    "test_qr05cb.py": {
+      "bytes": 3851,
+      "sha256": "f72235f7ff6a3bbcb702bbf1c2d88fa04443d1dd4c7511b0d3fac332a8d06558"
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "report": {
+    "allowance": {
+      "e_cal": [
+        3,
+        200
+      ]
+    },
+    "dataset": {
+      "beta_step": 32,
+      "bytes": 179104,
+      "cols": 29,
+      "id": "VBI_Coincidence_20230707",
+      "rows": 1184,
+      "sha256": "a3e687354b71895096aee4e28d113d629e157953c7d240d33de3bd0aca653254",
+      "source": "https://github.com/NJU-Malab/Violate-CHSH-in-FI (mirror of Dryad 10.5061/dryad.7m0cfxq59, CC0-1.0)"
+    },
+    "family_q2_max": [
+      3,
+      8
+    ],
+    "family_q2_min": [
+      567,
+      2272
+    ],
+    "grid": {
+      "alpha_steps": 37,
+      "beta_step": 32,
+      "cols": 29,
+      "rows": 1184
+    },
+    "mappings": [
+      {
+        "admitted_at_e": 0,
+        "dist_max": [
+          3918141079,
+          22347903200
+        ],
+        "dist_median": [
+          3880575751,
+          22213873376
+        ],
+        "dist_min": [
+          1788437615,
+          10284255712
+        ],
+        "id": "single_normalized",
+        "r1_max": [
+          407,
+          19274672
+        ],
+        "r1_min": [
+          19,
+          18315369
+        ],
+        "r2_max": [
+          684947,
+          9053042
+        ],
+        "r2_min": [
+          730193,
+          9836225
+        ],
+        "valid_all": true
+      },
+      {
+        "admitted_at_e": 0,
+        "dist_max": [
+          5,
+          8
+        ],
+        "dist_median": [
+          5,
+          8
+        ],
+        "dist_min": [
+          5,
+          8
+        ],
+        "id": "trigger_conditioned",
+        "r1_max": [
+          407,
+          1436668
+        ],
+        "r1_min": [
+          19,
+          1378819
+        ],
+        "r2_max": [
+          1,
+          1
+        ],
+        "r2_min": [
+          1,
+          1
+        ],
+        "valid_all": true
+      },
+      {
+        "admitted_at_e": 0,
+        "dist_max": [
+          7850199061,
+          41649474720
+        ],
+        "dist_median": [
+          8041440417,
+          42877345312
+        ],
+        "dist_min": [
+          58388883,
+          313183840
+        ],
+        "id": "bob_normalized",
+        "r1_max": [
+          407,
+          19274672
+        ],
+        "r1_min": [
+          19,
+          18315369
+        ],
+        "r2_max": [
+          1235577,
+          19573990
+        ],
+        "r2_min": [
+          1119647,
+          18331635
+        ],
+        "valid_all": true
+      }
+    ],
+    "schema": "qr05cb-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cb-capture-v1"
+}
