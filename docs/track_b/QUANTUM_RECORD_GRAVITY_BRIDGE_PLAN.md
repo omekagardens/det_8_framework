@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CJ are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CJ are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is parked (2D BD operator unvalidated); CJ resumes the metric path; a purpose-built apparatus remains open |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly; CF verifies the T7 estimators on supplied sprinklings; CG computes the 3+1 covering rate (−0.265 vs −0.506 in 1+1); CH verifies the graph-Laplacian action (ratio 0.989); CJ recovers the conformal factor up to scale, with boost covariance (MSE 0.0032) | The Lorentzian operator (CI) is parked; curvature convergence (quarantined), LGH convergence and the Benincasa–Dowker action remain open; a purpose-built apparatus, absolute scale and Einstein-like dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CK are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CK are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is parked (2D BD operator unvalidated); CJ–CK reconstruct the conformal factor up to scale, refinement-consistently; a purpose-built apparatus remains open |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly; CF verifies the T7 estimators; CG computes the 3+1 covering rate (−0.265 vs −0.506); CH verifies the graph-Laplacian action (ratio 0.989); CJ recovers the conformal factor up to scale (MSE 0.0032); CK shows refinement consistency (MSE 0.021→0.00026), grid robustness and the whole-point granularity bins/N | The Lorentzian operator (CI) is parked; curvature convergence (quarantined), LGH convergence and the Benincasa–Dowker action remain open; a purpose-built apparatus, absolute scale and Einstein-like dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -51,7 +51,8 @@ CF T7 supplied-geometry benchmark (complete, executable) →
 CG dimension-convergence benchmark (complete, executable) →
 CH graph-Laplacian action benchmark (complete, executable) →
 CI Lorentzian operator benchmark (parked: 2D operator not validated) →
-CJ metric-acceptance benchmark (complete, executable)**. BF derives the
+CJ metric-acceptance benchmark (complete, executable) →
+CK metric reconstruction / refinement benchmark (complete, executable)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -152,10 +153,11 @@ on supplied Minkowski sprinklings, CG computes the 1+1 vs 3+1 covering rate
 verifies the graph-Laplacian action against the continuum Laplace–Beltrami
 response on a supplied torus (mode-independent, ratio 0.989); CI (the Lorentzian
 operator) was parked after three candidate 2D forms failed the constant- and
-harmonic-annihilation tests, and CJ resumes the metric path by recovering the
-conformal factor up to scale with boost covariance (MSE 0.0032). Every geometric
-claim stays conditional on a supplied geometry or purpose-built apparatus that
-does not yet exist.
+harmonic-annihilation tests, CJ resumes the metric path by recovering the
+conformal factor up to scale with boost covariance (MSE 0.0032), and CK makes
+the reconstruction refinement-consistent (MSE 0.021→0.00026) with a declared
+whole-point granularity bins/N. Every geometric claim stays conditional on a
+supplied geometry or purpose-built apparatus that does not yet exist.
 BP itself remains a
 supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
@@ -2369,11 +2371,23 @@ not identified, and a uniform control fails (MSE 0.0327 vs 0.0032). Two routes
 agree; 8 tests pass. See
 [QR-05CJ results](../validation/qr-05cj-metric-acceptance-2026-09-10/RESULTS.md).
 
-**Next proposed gate: metric reconstruction / refinement benchmark.**
-Extend CJ toward the BY metric tests: reconstruct the conformal factor under
-refinement (two densities agree) and test the collision / whole-point handling
-(BG) on supplied geometry. Curvature and the Lorentzian operator remain parked;
-κ-gravity stays retired and gravity is standard GR under Option B.
+**QR-05CK complete: metric reconstruction / refinement benchmark (executable).**
+Reconstructs the conformal factor from counts on a supplied conformally-flat
+1+1 geometry at three densities. MSE-to-truth falls monotonically
+(0.0214 → 0.0029 → 0.00026), consecutive profiles agree pairwise (below 0.05),
+the profile is grid-robust (offset MSE 0.0077), the whole-point granularity is
+the declared bins/N (0.012 at N=1000), and a uniform control fails (MSE 0.0402
+vs 0.00026). Two routes agree; 8 tests pass. See
+[QR-05CK results](../validation/qr-05ck-metric-reconstruction-2026-09-10/RESULTS.md).
+
+**Next proposed gate: resume QR-05CI (2D Lorentzian operator).**
+The direct path to dynamics is blocked on the Lorentzian operator. Obtain the
+clean 2D Benincasa–Dowker layer operator from the separate Sorkin source,
+validate constant- and harmonic-annihilation to a declared tolerance, and only
+then attempt a Lorentzian dynamics benchmark. If it validates, it extends CH
+and enables BY's dynamics tests; if not, it is re-parked with the evidence.
+Curvature remains quarantined; κ-gravity stays retired and gravity is standard
+GR under Option B.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2514,7 +2528,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CH: graph-Laplacian action benchmark (complete, executable) | On a supplied flat torus: mode-independent response-adjusted constant (gap 0.0128), ratio 0.989 to the continuum `4πε`, non-eigenfunction control fails (0.783 vs 0.089), residual falls with N; two routes agree, 7 tests pass | Laplacian only; curvature deferred (module quarantined, normalization unreconciled); not a Lorentzian limit, not gravity |
 | QR-05CI: Lorentzian operator benchmark (parked) | Benincasa–Dowker d'Alembertian attempted on supplied sprinklings; three candidate 2D forms all fail constant- and harmonic-annihilation (residuals 0.04–855) | Parked, not shipped unverified; clean 2D layer operator in a separate source; no metric/curvature/gravity claim |
 | QR-05CJ: metric-acceptance benchmark (complete, executable) | On `Ω²=1+sin(πx)`: conformal factor recovered from counts (MSE 0.0032), order conformal-invariant and boost-covariant (β=0.4, all pairs), scale not identified, uniform control fails (0.0327); two routes agree, 8 tests pass | Supplied geometry; no continuum limit, curvature or gravity; absolute scale not identified |
-| Next: metric reconstruction / refinement benchmark | Reconstruct the conformal factor under refinement and test collision/whole-point handling (BG) on supplied geometry | Bounded supplied-geometry benchmark; curvature and the Lorentzian operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05CK: metric reconstruction / refinement benchmark (complete, executable) | On `Ω²=1+4x(1−x)`: MSE-to-truth 0.0214→0.0029→0.00026 over N=1000/4000/16000, pairwise consistent (<0.05), grid-robust (0.0077), whole-point granularity bins/N, uniform control fails (0.0402); two routes agree, 8 tests pass | Supplied geometry; no continuum limit, curvature or gravity; absolute scale not identified |
+| Next: resume QR-05CI (2D Lorentzian operator) | Obtain the clean 2D BD layer operator (Sorkin source), validate constant/harmonic annihilation, then attempt a Lorentzian dynamics benchmark | Blocking path to dynamics; curvature quarantined; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

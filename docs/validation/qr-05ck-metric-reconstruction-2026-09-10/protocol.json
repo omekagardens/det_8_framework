@@ -1,0 +1,11 @@
+{
+  "schema": "qr05ck-protocol-v1",
+  "n_grid": [1000, 4000, 16000],
+  "seed": 13,
+  "b": 1.0,
+  "bins": 12,
+  "consistency_tolerance": 0.05,
+  "grid_tolerance": 0.05,
+  "control_factor": 3.0,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
