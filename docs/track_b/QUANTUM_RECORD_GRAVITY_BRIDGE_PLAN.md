@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CV are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CV are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN–CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits it for a hidden source; CS consolidates the chord; CT–CU take bounded LGH-route steps; CV opens the research-grade LGH/embedding investigation and verifies its exact LMS core (the discrete time-separation is a genuine Lorentzian metric space) |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits the composed model; CS consolidates the chord; CT shows the discrete Lorentzian distance converges; CU gives a bounded upper LGH-distance estimate; CV verifies the exact LMS axioms for the discrete time-separation | CI is an imported correspondence; the LGH/embedding program (opened by CV) — the LGH infimum, density/commensurability, ensemble convergence and manifoldlikeness of the limit — remains research-grade and open; the empirical bridge (BX), absolute scale and Einstein-like dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CW are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CW are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN–CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits it for a hidden source; CS consolidates the chord; CT–CU take bounded LGH-route steps; CV opens the LGH/embedding investigation (exact LMS core); CW computes the exact small-space LGH infimum (identity optimal; scale-degenerate; inconclusive for convergence) |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits the composed model; CS consolidates the chord; CT shows the discrete Lorentzian distance converges; CU gives a bounded upper LGH-distance estimate; CV verifies the exact LMS axioms; CW shows identity-optimality and scale-degeneracy but is inconclusive for convergence | CI is an imported correspondence; the LGH/embedding program (CV, CW) — the LGH infimum at scale, density/commensurability, ensemble convergence and manifoldlikeness of the limit — remains research-grade and open; the empirical bridge (BX), absolute scale and Einstein-like dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -63,7 +63,8 @@ CR composed-model no-double-counting audit (C6, complete, executable) →
 CS T7/T5 geometry program consolidation (complete, design-only) →
 CT Lorentzian-distance continuum step (LGH route; complete, executable; positive) →
 CU Minguzzi–Suhr LGH distance attempt (bounded; complete, executable; positive) →
-CV LGH/embedding investigation opened (exact LMS core; complete, executable)**. BF derives the
+CV LGH/embedding investigation opened (exact LMS core; complete, executable) →
+CW LGH infimum via bottleneck assignment (small spaces; inconclusive; complete, executable)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -2525,15 +2526,22 @@ must compare with the continuum. Two routes agree; 6 tests pass. The open progra
 of the limit) is stated, not solved. See
 [QR-05CV results](../validation/qr-05cv-lgh-embedding-investigation-2026-09-10/RESULTS.md).
 
-**Next: LGH research program (open, unbounded).**
-The six steps in CV §3 — the exact `d`-isometry statement, the LGH infimum over
-correspondences/embeddings, density/commensurability, the scale/conformal class,
-ensemble convergence under growing fluctuations, and manifoldlikeness of the
-limit — are research-grade and have no bounded gate. The other frontier is the
-**empirical bridge** (blocked: needs the BX apparatus and a valid BW allowance).
-Recommend awaiting apparatus, a dedicated research effort, or consolidation; do
-not promote either. Curvature stays quarantined; κ-gravity stays retired and
-gravity is standard GR under Option B.
+**QR-05CW complete: LGH infimum via bottleneck assignment (small spaces; executable; inconclusive).**
+Exhaustive over correspondences (bijections) for N ≤ 8, the LGH-style distortion
+is minimized by the **identity** at fixed scale (improvement 0 at every N), the
+**free-scale infimum is degenerate** (`s=0` trivializes any comparison — the LGH
+class is conformal), and convergence is **not** demonstrated (distortion ≈1.7–2.8,
+incomparable control 2.16 not separated). `lgh_infimum_established = false`;
+verdict: inconclusive at accessible N. Two routes agree; 7 tests pass. See
+[QR-05CW results](../validation/qr-05cw-lgh-infimum-2026-09-10/RESULTS.md).
+
+**Next: LGH infimum at scale (research-grade) or the empirical bridge (blocked).**
+Pushing the exact infimum to larger N needs branch-and-bound/backtracking (hard),
+and the density/commensurability and ensemble-convergence steps remain open; the
+empirical bridge still needs the BX apparatus and a valid BW allowance. Recommend
+a dedicated research effort, awaiting apparatus, or consolidation; do not promote
+either. Curvature stays quarantined; κ-gravity stays retired and gravity is
+standard GR under Option B.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2686,7 +2694,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CT: Lorentzian-distance continuum step (LGH route; complete, executable; positive) | Discrete time-separation `(longest chain)·ℓ` vs continuum `τ`: mean ratio stable at 1.181021 over N=200…1600, spread falls 0.250→0.117, random-order control distinct (mean 120.0); two routes agree, 7 tests pass | Necessary-condition step only; not LGH convergence; the constant is a scale convention; no curvature, dynamics or gravity |
 | QR-05CU: Minguzzi–Suhr LGH distance attempt (bounded; complete, executable; positive) | Bounded upper LGH-distance estimate via the natural correspondence + one scale: distortion falls 0.0414→0.0228 over N=200…1600 (≈ ℓ), random-correspondence control 0.221; two routes agree, 7 tests pass | Upper estimate only, not the Minguzzi–Suhr infimum; scale a convention; embedding theory and manifoldlikeness of the limit open; no curvature, dynamics or gravity |
 | QR-05CV: LGH/embedding investigation opened (complete, executable) | Exact LMS core: A1–A4 hold, Riemannian triangle fails (witness found) in d=2,3 — the discrete time-separation is a genuine Lorentzian metric space; two routes agree, 6 tests pass | Opens the research-grade program (LGH infimum, density/commensurability, ensemble convergence, manifoldlikeness); no metric, continuum, curvature or gravity claim |
-| Next: LGH research program (open, unbounded) | The six steps of CV §3, or the empirical bridge (blocked: BX) | Research-grade; no bounded gate; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05CW: LGH infimum via bottleneck assignment (small spaces; complete, executable; inconclusive) | Exhaustive infimum over bijections for N≤8: identity optimal at fixed scale (improvement 0), free-scale infimum degenerate (0), convergence not shown (≈1.7–2.8; control 2.16 not separated); two routes agree, 7 tests pass | `lgh_infimum_established=false`; two exact sub-findings; convergence open; no metric, continuum, curvature or gravity claim |
+| Next: LGH infimum at scale (research-grade) or empirical bridge (blocked) | Larger-N infimum via branch-and-bound; density/commensurability; ensemble convergence — or the BX apparatus | Research-grade/blocked; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

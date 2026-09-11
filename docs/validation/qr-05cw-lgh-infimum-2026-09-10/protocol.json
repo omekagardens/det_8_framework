@@ -1,0 +1,7 @@
+{
+  "schema": "qr05cw-protocol-v1",
+  "n_grid": [5, 6, 7, 8],
+  "seed": 6,
+  "control_factor": 2.0,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

@@ -1,0 +1,47 @@
+{
+  "report": {
+    "control": {
+      "distinct": false,
+      "incomparable_infimum": 2.16
+    },
+    "identity_is_optimal": true,
+    "lgh_infimum_established": false,
+    "rows": [
+      {
+        "identity": 1.713339476,
+        "improvement": 0.0,
+        "infimum": 1.713339476,
+        "n": 5
+      },
+      {
+        "identity": 2.807017121,
+        "improvement": 0.0,
+        "infimum": 2.807017121,
+        "n": 6
+      },
+      {
+        "identity": 2.318062855,
+        "improvement": 0.0,
+        "infimum": 2.318062855,
+        "n": 7
+      },
+      {
+        "identity": 2.388728777,
+        "improvement": 0.0,
+        "infimum": 2.388728777,
+        "n": 8
+      }
+    ],
+    "scale_degeneracy": {
+      "free_scale_infimum_control": 0.0,
+      "note": "with a free scale, s=0 makes any comparison trivial (the LGH class is conformal); the distance must be scale-fixed"
+    },
+    "schema": "qr05cw-report-v1",
+    "verdict": "inconclusive at accessible N: identity is optimal at fixed scale, but the incomparable control is not separated (small-space distortion is large)"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cw-capture-v1"
+}
