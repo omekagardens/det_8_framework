@@ -130,7 +130,11 @@ the longest-chain estimator.
 5. **Convergence is not established.** The chain bracket closes at neither finite nor
    measured-asymptotic `N`, and the count ceiling is still `O(0.3)` and its `p99`
    `O(0.1)` at `N = 512` — smaller and faster-decaying than the chain, but not
-   verified to reach zero.
+   verified to reach zero. *(Superseded for the order-only chain by
+   [QR-05DD](../qr-05dd-order-only-uniform-bound-2026-09-11/RESULTS.md): over a
+   longer range the ceiling is a power law, α ≈ 0.27, consistent with the
+   last-passage-percolation rate `N^{-1/3}`; this gate's α = 0.16 is a finite-size
+   transient.)*
 
 ## What this changes and what remains
 

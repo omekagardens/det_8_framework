@@ -1,0 +1,188 @@
+{
+  "report": {
+    "by_n": {
+      "1024": 0.423778613,
+      "128": 0.744694598,
+      "2048": 0.352001025,
+      "256": 0.633982787,
+      "512": 0.591377616
+    },
+    "control": {
+      "ceiling_norm": 0.75,
+      "does_not_vanish": true,
+      "name": "layered_nonmanifoldlike",
+      "pairs": 30000
+    },
+    "convergence": [
+      {
+        "ceiling_links": 5.086608891,
+        "ceiling_norm": 0.892557983,
+        "mean_L": 5.69891143,
+        "median_norm": 0.19194484,
+        "n": 128,
+        "pairs": 4042,
+        "seed": 0
+      },
+      {
+        "ceiling_links": 4.078167998,
+        "ceiling_norm": 0.65979653,
+        "mean_L": 6.180947934,
+        "median_norm": 0.124869895,
+        "n": 128,
+        "pairs": 4283,
+        "seed": 1
+      },
+      {
+        "ceiling_links": 3.646046937,
+        "ceiling_norm": 0.681729281,
+        "mean_L": 5.348232848,
+        "median_norm": 0.137706592,
+        "n": 128,
+        "pairs": 3848,
+        "seed": 2
+      },
+      {
+        "ceiling_links": 5.606417191,
+        "ceiling_norm": 0.681935352,
+        "mean_L": 8.221332384,
+        "median_norm": 0.131302041,
+        "n": 256,
+        "pairs": 16857,
+        "seed": 0
+      },
+      {
+        "ceiling_links": 4.006533234,
+        "ceiling_norm": 0.518626589,
+        "mean_L": 7.725275413,
+        "median_norm": 0.096687576,
+        "n": 256,
+        "pairs": 15976,
+        "seed": 1
+      },
+      {
+        "ceiling_links": 5.284800889,
+        "ceiling_norm": 0.70138642,
+        "mean_L": 7.534792151,
+        "median_norm": 0.131716401,
+        "n": 256,
+        "pairs": 15492,
+        "seed": 2
+      },
+      {
+        "ceiling_links": 6.542173324,
+        "ceiling_norm": 0.576489149,
+        "mean_L": 11.348302617,
+        "median_norm": 0.101680816,
+        "n": 512,
+        "pairs": 65601,
+        "seed": 0
+      },
+      {
+        "ceiling_links": 7.078705749,
+        "ceiling_norm": 0.593212187,
+        "mean_L": 11.932839381,
+        "median_norm": 0.096826495,
+        "n": 512,
+        "pairs": 67078,
+        "seed": 1
+      },
+      {
+        "ceiling_links": 6.198380993,
+        "ceiling_norm": 0.604431513,
+        "mean_L": 10.254893834,
+        "median_norm": 0.090484261,
+        "n": 512,
+        "pairs": 62732,
+        "seed": 2
+      },
+      {
+        "ceiling_links": 6.918031932,
+        "ceiling_norm": 0.415878413,
+        "mean_L": 16.634746384,
+        "median_norm": 0.069057935,
+        "n": 1024,
+        "pairs": 264534,
+        "seed": 0
+      },
+      {
+        "ceiling_links": 7.062149394,
+        "ceiling_norm": 0.435507365,
+        "mean_L": 16.215912657,
+        "median_norm": 0.081426647,
+        "n": 1024,
+        "pairs": 261314,
+        "seed": 1
+      },
+      {
+        "ceiling_links": 6.532634359,
+        "ceiling_norm": 0.419950061,
+        "mean_L": 15.555740933,
+        "median_norm": 0.060977434,
+        "n": 1024,
+        "pairs": 255934,
+        "seed": 2
+      },
+      {
+        "ceiling_links": 8.262837557,
+        "ceiling_norm": 0.359726872,
+        "mean_L": 22.969753432,
+        "median_norm": 0.068518799,
+        "n": 2048,
+        "pairs": 1051392,
+        "seed": 0
+      },
+      {
+        "ceiling_links": 8.937062054,
+        "ceiling_norm": 0.370261707,
+        "mean_L": 24.137149142,
+        "median_norm": 0.064583032,
+        "n": 2048,
+        "pairs": 1052883,
+        "seed": 1
+      },
+      {
+        "ceiling_links": 7.351344687,
+        "ceiling_norm": 0.326014497,
+        "mean_L": 22.549134322,
+        "median_norm": 0.056559927,
+        "n": 2048,
+        "pairs": 1038897,
+        "seed": 2
+      }
+    ],
+    "fit": {
+      "alpha": 0.274327141,
+      "predicted_alpha_lpp": 0.333333333,
+      "r_squared": 0.958378981,
+      "range": [
+        128,
+        2048
+      ]
+    },
+    "flags": {
+      "ceiling_consistent_with_lpp_prediction": true,
+      "ceiling_does_not_plateau": true,
+      "ceiling_is_a_power_law": true,
+      "nonmanifoldlike_control_does_not_vanish": true,
+      "order_only_uniform_bound_vanishes": true,
+      "unconditional_proof_established": false
+    },
+    "schema": "qr05dd-report-v1",
+    "spec": {
+      "controls": [
+        "layered_nonmanifoldlike"
+      ],
+      "convergence": "scale-free L-infinity distortion to the directed Lorentzian distance",
+      "geometry": "1+1 Minkowski; the causal order is the 2-D dominance order in light-cone coordinates (u=t-x, v=t+x); longest chain = LPP/LIS",
+      "prediction": "LPP/BDJ: L fluctuation rho^{theta}, theta=1/6 in 1+1, so delta_order ~ N^{-(1/d-theta)} = N^{-1/3}",
+      "question": "Does the order-only longest-chain reconstruction's scale-free uniform (max-over-pairs) distortion vanish as the sprinkling density grows?",
+      "reduction": "delta_order = ell * U with U the uniform fluctuation of L; vanishes iff U = o(rho^{1/d})"
+    },
+    "verdict": "QR-05DD: the order-only (longest-chain) uniform bound. In 1+1 Minkowski the causal order is a 2-D dominance order, so the longest chain is a last-passage-percolation functional; the scale-free uniform distortion is exactly ell times the uniform fluctuation of L, so it vanishes iff that fluctuation is sublinear in rho^{1/d} (T1). Imported LPP/BDJ scaling predicts a fluctuation rho^{1/6} and hence a distortion ~ N^{-1/3} (T2). Measured over N = 128...2048, the ceiling decays as a power law with exponent 0.27 (R^2 = 0.958) and no plateau, consistent with the 1/3 prediction and steeper than QR-05DA's small-range fit (0.16): the order-only uniform bound is supported to vanish (T3). An adversarial non-manifoldlike layered order does not vanish. So the longest-chain reconstruction is the axiom-compliant (DB/DC) and ceiling-convergent object; an unconditional proof is a LPP concentration problem, flagged as open. No metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05dd-capture-v1"
+}

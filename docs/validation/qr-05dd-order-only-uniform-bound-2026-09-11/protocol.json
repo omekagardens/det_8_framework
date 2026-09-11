@@ -1,0 +1,9 @@
+{
+  "schema": "qr05dd-protocol-v1",
+  "area": 0.5,
+  "n_list": [128, 256, 512, 1024, 2048],
+  "seeds": [0, 1, 2],
+  "minimax_iters": 60,
+  "control_n": 300,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
