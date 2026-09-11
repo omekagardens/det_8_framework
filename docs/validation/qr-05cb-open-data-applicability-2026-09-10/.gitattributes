@@ -1,0 +1,4 @@
+# The acquired dataset, its documentation and the reference script are kept
+# byte-exact so the SHA-256 recorded in protocol.json / source-freeze.json
+# reproduces on a fresh checkout. Do not let Git normalize line endings here.
+data/* -text
