@@ -1,0 +1,82 @@
+{
+  "report": {
+    "coefficient_samples": [
+      {
+        "diffusion": 1.0,
+        "drift": 0.3,
+        "mu1": 0.03,
+        "mu2": 0.005,
+        "x": 0.0
+      },
+      {
+        "diffusion": 1.353553391,
+        "drift": 0.212132034,
+        "mu1": 0.021213203,
+        "mu2": 0.006767767,
+        "x": 0.125
+      },
+      {
+        "diffusion": 1.5,
+        "drift": 0.0,
+        "mu1": 0.0,
+        "mu2": 0.0075,
+        "x": 0.25
+      },
+      {
+        "diffusion": 1.353553391,
+        "drift": -0.212132034,
+        "mu1": -0.021213203,
+        "mu2": 0.006767767,
+        "x": 0.375
+      },
+      {
+        "diffusion": 1.0,
+        "drift": -0.3,
+        "mu1": -0.03,
+        "mu2": 0.005,
+        "x": 0.5
+      }
+    ],
+    "convergence": [
+      {
+        "h": 0.0625,
+        "m": 16,
+        "rel_error": 0.02414996
+      },
+      {
+        "h": 0.03125,
+        "m": 32,
+        "rel_error": 0.006290143
+      },
+      {
+        "h": 0.015625,
+        "m": 64,
+        "rel_error": 0.001596595
+      },
+      {
+        "h": 0.0078125,
+        "m": 128,
+        "rel_error": 0.000400942
+      }
+    ],
+    "convergence_exponent": 1.971554473,
+    "exact": {
+      "S_x": -0.020536413,
+      "S_x2": -0.008374524,
+      "match": true,
+      "mu1": -0.020536413,
+      "pred_x2": -0.008374524
+    },
+    "negative_control": {
+      "coefficients_vary": true,
+      "constant_variation": 0.0,
+      "variable_variation": 0.005
+    },
+    "schema": "qr05cm-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cm-capture-v1"
+}

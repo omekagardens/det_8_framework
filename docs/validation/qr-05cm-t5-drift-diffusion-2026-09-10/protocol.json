@@ -1,0 +1,11 @@
+{
+  "schema": "qr05cm-protocol-v1",
+  "a": 0.5,
+  "b": 0.3,
+  "h0": 0.05,
+  "x0": 0.37,
+  "grid": [16, 32, 64, 128],
+  "sample_xs": [0.0, 0.125, 0.25, 0.375, 0.5],
+  "exponent_tolerance": 0.4,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
