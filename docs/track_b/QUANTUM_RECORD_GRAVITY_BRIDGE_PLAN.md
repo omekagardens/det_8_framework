@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CP are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CP are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN bridges T7 and T5; CO shows scale consistency (C5); CP composes them into one operator whose coefficient is the T7 geometry; a purpose-built apparatus remains open |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them into one operator on the T7 geometry | CI is an imported correspondence; curvature convergence (quarantined), LGH convergence and the Benincasa–Dowker action remain open; the adversarial non-manifoldlike control, empirical bridge, absolute scale and Einstein-like dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CQ are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CQ are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN–CO bridge T7 and T5 across scales; CP composes them into one operator; CQ rejects a matched-ordering-fraction non-manifoldlike order by link structure; a purpose-built apparatus remains open |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them into one operator on the T7 geometry; CQ adds the adversarial non-manifoldlike control | CI is an imported correspondence; curvature convergence (quarantined), LGH convergence and the Benincasa–Dowker action remain open; the empirical bridge, absolute scale and Einstein-like dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -57,7 +57,8 @@ CL T5 wave-kernel benchmark (complete, executable; positive) →
 CM T5 drift-diffusion benchmark (complete, executable; positive) →
 CN T7/T5 compatibility bridge (design + witness, executable) →
 CO T7/T5 scale-consistency witness (C5, complete, executable) →
-CP composed T7+T5 operator (complete, executable; positive)**. BF derives the
+CP composed T7+T5 operator (complete, executable; positive) →
+CQ T7 adversarial non-manifoldlike control (complete, executable; positive)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -172,8 +173,10 @@ and CO shows the bridge survives coarse-graining (C5: consistent geometry and
 operator across two scales; the raw count is not scale-consistent, so the
 reconstruction must be intensive), and CP composes the two into one operator
 whose coefficient is the T7-reconstructed geometry (faithful composition,
-reconstruction corr 0.993). Every geometric claim stays conditional on a
-supplied geometry or purpose-built apparatus that does not yet exist.
+reconstruction corr 0.993), and CQ rejects a matched-ordering-fraction
+non-manifoldlike (bipartite) order by its link structure. Every geometric claim
+stays conditional on a supplied geometry or purpose-built apparatus that does
+not yet exist.
 BP itself remains a
 supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
@@ -2449,13 +2452,23 @@ site, dev 0.0 — the expected O(h²) constant), and an independently supplied
 coefficient fails (corr 0.018). Two routes agree; 7 tests pass. See
 [QR-05CP results](../validation/qr-05cp-composed-operator-2026-09-10/RESULTS.md).
 
-**Next proposed gate: T7 adversarial non-manifoldlike control.**
-Charter §7.4: test the geometric estimators on *adversarial* non-manifoldlike
-orders, so recovery is not confused with emergence — the estimators must **fail**
-to recover geometry on a random order of matched density (and on other
-non-manifoldlike controls). Design plus bounded witness, on supplied geometry;
-no gravity promotion. Curvature and the imported BD operator stay parked;
-κ-gravity stays retired and gravity is standard GR under Option B.
+**QR-05CQ complete: T7 adversarial non-manifoldlike control (executable; positive).**
+Charter §7.4. Manifoldlike diamond sprinkles d=2,3,4 pass the joint test
+(ordering fraction within 0.06 of `r(d)` and link fraction ≤ 0.8: 0.054/0.252/
+0.546). A **bipartite (Kleitman–Rothschild) order** matched to `r(2)=0.5` fools
+the ordering-fraction estimator but has **every** comparable pair a link (link
+fraction 1.0) and is **rejected**; chain (`r=1`) and antichain (`r=0`) are
+rejected as outside the family. Two routes agree; 7 tests pass. Recovery is not
+certified by a summary a non-manifoldlike order can also match. See
+[QR-05CQ results](../validation/qr-05cq-adversarial-control-2026-09-10/RESULTS.md).
+
+**Next proposed gate: composed-model no-double-counting audit (C6).**
+Verify the composed T7+T5 operator of CP introduces **no independent source or
+coupling**: its kernel is conservative and it annihilates constants across the
+T7-reconstructed geometries, so the composition adds no hidden second module.
+Design plus bounded witness, on supplied geometry; no gravity promotion.
+Curvature and the imported BD operator stay parked; κ-gravity stays retired and
+gravity is standard GR under Option B.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2602,7 +2615,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CN: T7/T5 compatibility bridge (design + witness, complete, executable) | Six compatibility conditions (C1–C6) requiring the T5 kernel to be a functional of the same `(V,≺,#,L)`; witness from one sprinkle: T7 vs derived-kernel correlation 0.973, independent-kernel control 0.009; two routes agree, 7 tests pass | Design + bounded witness; not a unification theorem; full composed model and C5 open; no gravity, curvature or dynamics |
 | QR-05CO: T7/T5 scale-consistency witness (C5, complete, executable) | Two scales: coarse-graining identity exact, geometry dev 0.0, operator corr 0.978 with scale ratio 1.0, bridge at both scales 0.953/0.995; control: raw-count scale ratio 2.0 (not consistent), normalized 1.0; two routes agree, 8 tests pass | C5 on supplied geometry; forces an intensive reconstruction; not a coarse-graining theorem, no curvature or gravity |
 | QR-05CP: composed T7+T5 operator (complete, executable; positive) | One operator whose coefficient is the T7-reconstructed geometry: reconstruction corr 0.993, faithful composition (`Sf/(h²f'')`=0.977361·`D`, dev 0.0), independent-coefficient control corr 0.018; two routes agree, 7 tests pass | Supplied geometry; not a unification theorem or field equation; no gravity, curvature or new coupling |
-| Next: T7 adversarial non-manifoldlike control | Estimators must fail to recover geometry on a random order of matched density (charter §7.4) | Design + bounded witness; supplied geometry; no gravity promotion; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05CQ: T7 adversarial non-manifoldlike control (complete, executable; positive) | Manifoldlike d=2,3,4 pass the joint test (link fractions 0.054/0.252/0.546); bipartite order matched to `r(2)=0.5` fools the dimension estimator but is rejected (link fraction 1.0); chain/antichain rejected; two routes agree, 7 tests pass | Charter §7.4 control on supplied geometry; not a manifoldlikeness theorem; no curvature or gravity |
+| Next: composed-model no-double-counting audit (C6) | Verify the composed T7+T5 operator is conservative and annihilates constants across the T7-reconstructed geometries (no independent source) | Design + bounded witness; supplied geometry; no gravity promotion; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

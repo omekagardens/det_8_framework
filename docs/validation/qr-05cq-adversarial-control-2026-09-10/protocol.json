@@ -1,0 +1,9 @@
+{
+  "schema": "qr05cq-protocol-v1",
+  "n": 300,
+  "dims": [2, 3, 4],
+  "seed": 5,
+  "dim_tolerance": 0.06,
+  "link_threshold": 0.8,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

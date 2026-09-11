@@ -1,0 +1,71 @@
+{
+  "report": {
+    "adversarial": [
+      {
+        "dim_fooled": true,
+        "id": "bipartite",
+        "link_fraction": 1.0,
+        "link_ok": false,
+        "r": 0.501672241,
+        "rejected": true
+      },
+      {
+        "dim_fooled": false,
+        "id": "chain",
+        "link_fraction": 0.006666667,
+        "link_ok": true,
+        "r": 1.0,
+        "rejected": true
+      },
+      {
+        "dim_fooled": false,
+        "id": "antichain",
+        "link_fraction": 0.0,
+        "link_ok": true,
+        "r": 0.0,
+        "rejected": true
+      }
+    ],
+    "discriminator": {
+      "bipartite_link": 1.0,
+      "link_threshold": 0.8,
+      "manifold_max_link": 0.546239491,
+      "separates": true
+    },
+    "manifoldlike": [
+      {
+        "analytic": 0.5,
+        "consistent": true,
+        "d": 2,
+        "dim_ok": true,
+        "link_fraction": 0.053835342,
+        "link_ok": true,
+        "r": 0.523500557
+      },
+      {
+        "analytic": 0.228571429,
+        "consistent": true,
+        "d": 3,
+        "dim_ok": true,
+        "link_fraction": 0.252437598,
+        "link_ok": true,
+        "r": 0.228673356
+      },
+      {
+        "analytic": 0.1,
+        "consistent": true,
+        "d": 4,
+        "dim_ok": true,
+        "link_fraction": 0.546239491,
+        "link_ok": true,
+        "r": 0.09812709
+      }
+    ],
+    "schema": "qr05cq-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cq-capture-v1"
+}
