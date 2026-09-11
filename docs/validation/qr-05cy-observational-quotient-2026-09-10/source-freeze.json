@@ -1,0 +1,37 @@
+{
+  "schema": "qr05cy-source-freeze-v1",
+  "sources": {
+    "../../../det8/claims.py": {
+      "bytes": 26158,
+      "sha256": "02266a1529c312521b755d4e724aa068112aa2ff27dbb5ef8505644fecde7bd2"
+    },
+    "../../../det8/models/order_count_geometry.py": {
+      "bytes": 17830,
+      "sha256": "224bfcbe04d447e02598f1d3132b44165ad19499ea140227cb5e89f8ed75280b"
+    },
+    "README.md": {
+      "bytes": 5892,
+      "sha256": "d51fe419e44caf14b3216849d9aecc17fd6d6a94c688d801c59414f2275aafc8"
+    },
+    "primary.py": {
+      "bytes": 13522,
+      "sha256": "1262422d9f58136ebdc843cfc7abec23385f34880bca4e398d15a25ad964d643"
+    },
+    "protocol.json": {
+      "bytes": 1073,
+      "sha256": "4e2d171d145927d0948d834286f8c8756d2287d36d7e87c7b949079a3f184372"
+    },
+    "reference.py": {
+      "bytes": 11181,
+      "sha256": "751daa423876e98ce8c72689ff30ca2f0a8844f47eafb435a581c53adbfece79"
+    },
+    "study.py": {
+      "bytes": 4028,
+      "sha256": "a42def98329ede64f14690a7bfada1f611a71074dcc01bf58cf51b99e5783b16"
+    },
+    "test_qr05cy.py": {
+      "bytes": 4240,
+      "sha256": "5f68e51ee2ea2ef0efa7274b31c81db3806c2eb353c943eb556f6509d4a35d47"
+    }
+  }
+}

@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CX are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CX are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN–CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits it for a hidden source; CS consolidates the chord; CT–CU take bounded LGH-route steps; CV opens the LGH/embedding investigation (exact LMS core); CW computes the exact small-space LGH infimum (identity optimal; scale-degenerate; inconclusive for convergence); CX extends the exact infimum by branch-and-bound (identity optimal to N=12) and adds a certified lower-bound floor that does not vanish to N=256 (inconclusive) |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits the composed model; CS consolidates the chord; CT shows the discrete Lorentzian distance converges; CU gives a bounded upper LGH-distance estimate; CV verifies the exact LMS axioms; CW shows identity-optimality and scale-degeneracy (inconclusive); CX certifies the exact infimum by branch-and-bound to N=12 and a non-vanishing lower-bound floor to N=256 (inconclusive) | CI is an imported correspondence; the LGH/embedding program (CV–CX) — the infimum under a scale-free comparison, density/commensurability, ensemble convergence and manifoldlikeness of the limit — remains research-grade and open; the empirical bridge (BX), absolute scale and Einstein-like dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CY are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CY are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN–CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits it for a hidden source; CS consolidates the chord; CT–CU take bounded LGH-route steps; CV opens the LGH/embedding investigation (exact LMS core); CW computes the exact small-space LGH infimum; CX extends the exact infimum by branch-and-bound and adds a certified floor to N=256; CY separates identifiability from empirical applicability (observational quotient; internal-reference no-go; dimension identified, absolute scale and reference validity not) |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits the composed model; CS consolidates the chord; CT shows the discrete Lorentzian distance converges; CU gives a bounded upper LGH-distance estimate; CV verifies the exact LMS axioms; CW/CX show identity-optimality and a non-vanishing floor; CY shows the absolute scale and reference validity are not identifiable from the same record channel | CI is an imported correspondence; the LGH/embedding program (CV–CX) and the scale-free comparison remain research-grade and open; the empirical bridge (BX) is now classified as `OPEN — PHYSICAL EVIDENCE REQUIRED` (Branch B), separable from the mathematical closure (Branch A); absolute scale and Einstein-like dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -65,7 +65,8 @@ CT Lorentzian-distance continuum step (LGH route; complete, executable; positive
 CU Minguzzi–Suhr LGH distance attempt (bounded; complete, executable; positive) →
 CV LGH/embedding investigation opened (exact LMS core; complete, executable) →
 CW LGH infimum via bottleneck assignment (small spaces; inconclusive; complete, executable) →
-CX LGH infimum at scale via branch-and-bound (certified floor to N=256; inconclusive; complete, executable)**. BF derives the
+CX LGH infimum at scale via branch-and-bound (certified floor to N=256; inconclusive; complete, executable) →
+CY observational quotient and internal-reference no-go (identifiability separated from applicability; complete, executable)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -2539,7 +2540,7 @@ verdict: inconclusive at accessible N. Two routes agree; 7 tests pass. See
 **QR-05CX complete: LGH infimum at scale via branch-and-bound (executable; inconclusive).**
 A depth-first branch-and-bound extends the exact infimum from brute force (N ≤ 8)
 to N = 10, with recorded boundary runs at N = 11 (18.7M nodes, ≈56 s) and N = 12
-(404M nodes, ≈11 min): the **identity remains optimal** at every N ≤ 12
+(207M nodes, ≈11 min): the **identity remains optimal** at every N ≤ 12
 (`improvement = 0`). A cheap **certified lower bound** (the sorted-multiset
 matching bound, valid at any N) stays ≈ 0.90 through **N = 256** (floor `0.896271`)
 while the natural-correspondence upper bound **grows** (2.389 → 3.333), so at the
@@ -2548,14 +2549,29 @@ degenerate and the incomparable control is not separated
 (`lgh_infimum_established = false`). Two routes agree; 11 tests pass. See
 [QR-05CX results](../validation/qr-05cx-lgh-scale-2026-09-10/RESULTS.md).
 
-**Next: the LGH infimum under a scale-free comparison (research-grade) or the empirical bridge (blocked).**
+**QR-05CY complete: observational quotient and internal-reference no-go (executable; identifiability separated from applicability).**
+On a declared finite class of DET-style worlds the observational quotient is
+computed exactly: **dimension is identified** (positive control), the **causal
+order is exactly blind to the conformal factor** (counts identify it), and
+**absolute scale and reference validity are NOT identifiable from the same record
+channel** — so an independent anchor is logically necessary (P2/P3), re-deriving
+the CW/CX free-scale degeneracy as a quotient statement. On the witness class every
+`O`-built reference is blind (the internal-reference no-go), closing the
+non-empirical half of the BW/P5 blockage negatively. The blockage taxonomy is
+mapped onto the existing `det8.claims` axes with **no new status vocabulary**. No
+ontological claim (P5 is Status M). Two routes agree; 11 tests pass. See
+[QR-05CY results](../validation/qr-05cy-observational-quotient-2026-09-10/RESULTS.md).
+
+**Next: the LGH infimum under a scale-free comparison (research-grade) or the empirical bridge (Branch B; OPEN — physical evidence required).**
 The fixed mean scale used here is a convention; the scale-free LGH comparison, the
 density/commensurability condition and ensemble convergence remain open, and the
-exact search cost grows ≈ 10× per N (the bottleneck-QAP wall). The empirical bridge
-still needs the BX apparatus and a valid BW allowance. Recommend a dedicated
-research effort, awaiting apparatus, or consolidation; do not promote either.
-Curvature stays quarantined; κ-gravity stays retired and gravity is standard GR
-under Option B.
+exact search cost grows ≈ 10× per N (the bottleneck-QAP wall). The blocked gate is
+now split: **Branch A** (mathematical closure) proceeds via CY and successors;
+**Branch B** (apparatus, BX/BW/BZ) stays open until physical evidence is supplied
+and no mathematical result marks an apparatus fact as supplied. Recommend a
+dedicated research effort, awaiting apparatus, or consolidation; do not promote
+either. Curvature stays quarantined; κ-gravity stays retired and gravity is
+standard GR under Option B.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2710,7 +2726,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CV: LGH/embedding investigation opened (complete, executable) | Exact LMS core: A1–A4 hold, Riemannian triangle fails (witness found) in d=2,3 — the discrete time-separation is a genuine Lorentzian metric space; two routes agree, 6 tests pass | Opens the research-grade program (LGH infimum, density/commensurability, ensemble convergence, manifoldlikeness); no metric, continuum, curvature or gravity claim |
 | QR-05CW: LGH infimum via bottleneck assignment (small spaces; complete, executable; inconclusive) | Exhaustive infimum over bijections for N≤8: identity optimal at fixed scale (improvement 0), free-scale infimum degenerate (0), convergence not shown (≈1.7–2.8; control 2.16 not separated); two routes agree, 7 tests pass | `lgh_infimum_established=false`; two exact sub-findings; convergence open; no metric, continuum, curvature or gravity claim |
 | QR-05CX: LGH infimum at scale via branch-and-bound (complete, executable; inconclusive) | Exact infimum by branch-and-bound to N=10, boundary to N=12 (identity optimal throughout; brute-force validated ≤8); certified sorted-multiset lower bound ≈0.90 to N=256 (floor 0.896271) while the identity upper bound grows 2.389→3.333; nodes grow ≈10×/N; two routes agree, 11 tests pass | Extends CW; identity-optimality holds to N=12 and the fixed-scale infimum does not vanish to N=256; the scale-free comparison, density/commensurability, ensemble convergence and manifoldlikeness remain open; no metric, continuum, curvature or gravity claim |
-| Next: the LGH infimum under a scale-free comparison (research-grade) or empirical bridge (blocked) | A scale-free (not merely fixed-scale) LGH comparison; density/commensurability; ensemble convergence — or the BX apparatus | Research-grade/blocked; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05CY: observational quotient and internal-reference no-go (complete, executable) | Exact observational quotient on a declared finite world class: dimension IDENTIFIED; order exactly blind to the conformal factor (counts identify it); absolute scale and reference validity NON_IDENTIFIABLE from the same channel (witness pairs); every `O`-built reference is blind on the witness class (no-go); taxonomy mapped onto `det8.claims` with no new vocabulary; two routes agree, 11 tests pass | Separates identifiability from empirical applicability; closes the non-empirical half of the BW/P5 blockage negatively; makes no ontological claim (P5 Status M); does not supply apparatus evidence or satisfy P5 physically |
+| Next: the LGH infimum under a scale-free comparison (research-grade) or empirical bridge (Branch B; OPEN — physical evidence required) | A scale-free (not merely fixed-scale) LGH comparison; density/commensurability; ensemble convergence — or the BX apparatus | Branch A proceeds mathematically via CY successors; Branch B remains open until physical evidence is supplied; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

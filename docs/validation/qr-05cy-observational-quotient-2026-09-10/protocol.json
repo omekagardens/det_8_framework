@@ -1,0 +1,24 @@
+{
+  "schema": "qr05cy-protocol-v1",
+  "n_base": 48,
+  "n_dim": 64,
+  "n_bins": 10,
+  "seed": 6,
+  "dims": [2, 3, 4],
+  "scale_factors": [1, 2, 4],
+  "conformal_b": [0.0, 2.0],
+  "probes": [
+    {"family": "dimension", "interface": "order", "target": "dimension"},
+    {"family": "scale", "interface": "scaled_distance", "target": "absolute_scale"},
+    {"family": "scale", "interface": "scaled_distance+anchor", "target": "absolute_scale"},
+    {"family": "conformal_signs", "interface": "order_signs", "target": "conformal_factor"},
+    {"family": "conformal_counts", "interface": "counts", "target": "conformal_factor"}
+  ],
+  "taxonomy": {
+    "dimension": {"evidence_status": "CORRESPONDENCE_ONLY", "blockage": "MATH"},
+    "absolute_scale": {"evidence_status": "NO_EMPIRICAL_SUPPORT", "blockage": "CHANNEL"},
+    "conformal_factor": {"evidence_status": "CORRESPONDENCE_ONLY", "blockage": "MATH"},
+    "reference_validity": {"evidence_status": "BOUNDED_CONDITIONAL_RESULT", "blockage": "CHANNEL"}
+  },
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

@@ -1,0 +1,153 @@
+{
+  "report": {
+    "external_anchor_resolves": true,
+    "identified_targets": [
+      "absolute_scale",
+      "conformal_factor",
+      "dimension"
+    ],
+    "internal_reference_no_go": {
+      "all_blind": true,
+      "blind_values": {
+        "max": 2.690870262,
+        "mean": 0.243055556,
+        "median": 0.0,
+        "min": 0.0,
+        "positive_fraction": 0.243055556,
+        "rms": 0.575117001
+      },
+      "family": "scale",
+      "interface": "scaled_distance",
+      "reference_family": [
+        "max",
+        "mean",
+        "median",
+        "min",
+        "positive_fraction",
+        "rms"
+      ],
+      "target": "absolute_scale",
+      "targets_differ": true,
+      "witness": [
+        "scale1",
+        "scale2"
+      ]
+    },
+    "non_identifiable_targets": [
+      "absolute_scale",
+      "conformal_factor"
+    ],
+    "ontological_claim": false,
+    "probes": [
+      {
+        "family": "dimension",
+        "interface": "order",
+        "n_worlds": 3,
+        "target": "dimension",
+        "verdict": "IDENTIFIED",
+        "witness": null
+      },
+      {
+        "family": "scale",
+        "interface": "scaled_distance",
+        "n_worlds": 3,
+        "target": "absolute_scale",
+        "verdict": "NON_IDENTIFIABLE",
+        "witness": [
+          "scale1",
+          "scale2"
+        ]
+      },
+      {
+        "family": "scale",
+        "interface": "scaled_distance+anchor",
+        "n_worlds": 3,
+        "target": "absolute_scale",
+        "verdict": "IDENTIFIED",
+        "witness": null
+      },
+      {
+        "family": "conformal_signs",
+        "interface": "order_signs",
+        "n_worlds": 2,
+        "target": "conformal_factor",
+        "verdict": "NON_IDENTIFIABLE",
+        "witness": [
+          "omega0.0",
+          "omega2.0"
+        ]
+      },
+      {
+        "family": "conformal_counts",
+        "interface": "counts",
+        "n_worlds": 2,
+        "target": "conformal_factor",
+        "verdict": "IDENTIFIED",
+        "witness": null
+      }
+    ],
+    "propositions": [
+      {
+        "id": "P1",
+        "statement": "tau is identifiable through O iff tau is constant on every O-class (tau factors through W/~_O).",
+        "status": "proved_elementary"
+      },
+      {
+        "id": "P2",
+        "statement": "If W1 ~_O W2 and tau(W1) != tau(W2), no sigma(O)-measurable function -- in particular no reference r_ref = f(O) built from the same channel -- can identify tau on {W1,W2}.",
+        "status": "proved_elementary"
+      },
+      {
+        "id": "P3",
+        "statement": "Absolute scale does not factor through any internally generated observable; it requires an independent external anchor.",
+        "status": "verified_finite_instance"
+      },
+      {
+        "id": "P4",
+        "statement": "The causal order is exactly blind to the conformal factor; the count density identifies it.",
+        "status": "verified_finite_instance"
+      },
+      {
+        "id": "P5",
+        "statement": "Observational equivalence is not ontological identity (Status M).",
+        "status": "governance_status_m"
+      }
+    ],
+    "schema": "qr05cy-report-v1",
+    "status_m_guard": "observational equivalence is not ontological identity (Status M; GOVERNANCE §3 F8-OPEN v2; ONTOLOGY.md §5)",
+    "taxonomy": {
+      "blockage_kinds": [
+        "CHANNEL",
+        "DATA",
+        "GAUGE",
+        "MATH"
+      ],
+      "mapping": {
+        "absolute_scale": {
+          "blockage": "CHANNEL",
+          "evidence_status": "NO_EMPIRICAL_SUPPORT"
+        },
+        "conformal_factor": {
+          "blockage": "MATH",
+          "evidence_status": "CORRESPONDENCE_ONLY"
+        },
+        "dimension": {
+          "blockage": "MATH",
+          "evidence_status": "CORRESPONDENCE_ONLY"
+        },
+        "reference_validity": {
+          "blockage": "CHANNEL",
+          "evidence_status": "BOUNDED_CONDITIONAL_RESULT"
+        }
+      },
+      "new_status_introduced": false,
+      "validated_against": "det8.claims"
+    },
+    "verdict": "identifiability is separable from empirical applicability: dimension is identified, the conformal factor is identified once counts (marks) are in the channel, and absolute scale and reference validity are NOT identifiable from the same record channel -- so an independent anchor is logically necessary (P2/P3). This closes the non-empirical half of the BW/P5 blockage negatively and leaves the apparatus branch open; it makes no ontological claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cy-capture-v1"
+}
