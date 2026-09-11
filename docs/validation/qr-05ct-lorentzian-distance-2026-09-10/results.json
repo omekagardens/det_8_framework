@@ -1,0 +1,45 @@
+{
+  "report": {
+    "constant": 1.181020656,
+    "control": {
+      "distinct": true,
+      "mean_ratio": 120.01843967,
+      "spread": 343.68106858
+    },
+    "lorentzian_distance_converges": true,
+    "manifoldlike": [
+      {
+        "ell": 0.05,
+        "mean_ratio": 1.142190333,
+        "n": 200,
+        "spread": 0.25027085
+      },
+      {
+        "ell": 0.035355339,
+        "mean_ratio": 1.202109924,
+        "n": 400,
+        "spread": 0.191619583
+      },
+      {
+        "ell": 0.025,
+        "mean_ratio": 1.181638835,
+        "n": 800,
+        "spread": 0.13052436
+      },
+      {
+        "ell": 0.01767767,
+        "mean_ratio": 1.198143533,
+        "n": 1600,
+        "spread": 0.117214813
+      }
+    ],
+    "mean_stable": true,
+    "schema": "qr05ct-report-v1",
+    "spread_decreasing": true
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05ct-capture-v1"
+}

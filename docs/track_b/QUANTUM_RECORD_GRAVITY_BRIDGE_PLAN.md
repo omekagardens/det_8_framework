@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CS are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CS are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN–CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits it for a hidden source; CS consolidates the chord; the empirical bridge and continuum-limit theorems remain open |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits the composed model for a hidden source (none); CS consolidates the chord | CI is an imported correspondence; curvature convergence (quarantined), LGH convergence and the Benincasa–Dowker action remain open; the empirical bridge (BX), absolute scale and Einstein-like dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CT are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CT are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN–CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits it for a hidden source; CS consolidates the chord; CT takes a bounded LGH-route step (Lorentzian-distance convergence); full LGH convergence and the empirical bridge remain open |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits the composed model; CS consolidates the chord; CT shows the discrete Lorentzian distance converges (mean ratio stable 1.18, spread shrinking; random order distinct) | CI is an imported correspondence; curvature convergence (quarantined) and the Benincasa–Dowker action remain open; full Minguzzi–Suhr LGH convergence, the empirical bridge (BX), absolute scale and Einstein-like dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -60,7 +60,8 @@ CO T7/T5 scale-consistency witness (C5, complete, executable) →
 CP composed T7+T5 operator (complete, executable; positive) →
 CQ T7 adversarial non-manifoldlike control (complete, executable; positive) →
 CR composed-model no-double-counting audit (C6, complete, executable) →
-CS T7/T5 geometry program consolidation (complete, design-only)**. BF derives the
+CS T7/T5 geometry program consolidation (complete, design-only) →
+CT Lorentzian-distance continuum step (LGH route; complete, executable; positive)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -178,9 +179,11 @@ whose coefficient is the T7-reconstructed geometry (faithful composition,
 reconstruction corr 0.993), CQ rejects a matched-ordering-fraction
 non-manifoldlike (bipartite) order by its link structure, and CR audits the
 composed operator for a hidden source (none; the divergence form is
-conservative), and CS consolidates the chord into one bounded statement with the
-open items. Every geometric claim stays conditional on a supplied geometry or
-purpose-built apparatus that does not yet exist.
+conservative), CS consolidates the chord into one bounded statement with the
+open items, and CT takes a bounded LGH-route step (the discrete Lorentzian
+distance converges to the continuum up to scale). Every geometric claim stays
+conditional on a supplied geometry or purpose-built apparatus that does not yet
+exist.
 BP itself remains a
 supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
@@ -2485,13 +2488,26 @@ operator (reclassified), LGH/Benincasa–Dowker continuum theorems, gravity, and
 the empirical bridge. No promotion. See
 [QR-05CS decision record](../validation/qr-05cs-geometry-consolidation-2026-09-10/RESULTS.md).
 
-**Next proposed gate: empirical bridge (blocked pending apparatus).**
-The chord's frontier is the empirical bridge: applying the T7/T5 program to a
-measured apparatus requires the BX interface and a valid BW allowance, neither
-supplied. Until then the program is complete on supplied geometry and remains
-conditional. No apparatus, device, measurement or calibration is implied.
-Curvature stays quarantined; κ-gravity stays retired and gravity is standard GR
-under Option B.
+**QR-05CT complete: Lorentzian-distance continuum step (LGH route; executable; positive).**
+A bounded necessary-condition step toward LGH convergence: on supplied Minkowski
+sprinklings the discrete time-separation `(longest chain)·ℓ` converges to the
+continuum Lorentzian distance up to one scale constant (mean ratio stable at
+1.181021 over N=200…1600) with narrowing fluctuations (spread 0.250→0.117), while
+a random total order is distinct (mean 120.0, spread 343.7). Two routes agree; 7
+tests pass. The constant is a scale convention; full Minguzzi–Suhr LGH
+convergence, the embedding arguments and manifoldlikeness of the limit remain
+open. See
+[QR-05CT results](../validation/qr-05ct-lorentzian-distance-2026-09-10/RESULTS.md).
+
+**Next proposed gate: Minguzzi–Suhr LGH distance attempt (research-grade).**
+Implement the Lorentzian Gromov–Hausdorff distance between a sprinkling and a
+supplied manifold via causal embeddings (Minguzzi–Suhr), bounded and honest; it
+may be inconclusive, in which case it is documented rather than promoted. No
+gravity promotion; curvature and the imported BD operator stay parked; κ-gravity
+stays retired and gravity is standard GR under Option B.
+
+**Deferred (blocked): empirical bridge.** Requires an apparatus satisfying BX and
+a valid BW allowance, neither supplied.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2641,7 +2657,10 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CQ: T7 adversarial non-manifoldlike control (complete, executable; positive) | Manifoldlike d=2,3,4 pass the joint test (link fractions 0.054/0.252/0.546); bipartite order matched to `r(2)=0.5` fools the dimension estimator but is rejected (link fraction 1.0); chain/antichain rejected; two routes agree, 7 tests pass | Charter §7.4 control on supplied geometry; not a manifoldlikeness theorem; no curvature or gravity |
 | QR-05CR: composed-model no-double-counting audit (C6, complete, executable) | Composed operator has no source term (`S(1)=0`), coefficient recovers as the T7 geometry (dev 0.0), divergence form conserves flux (0.0) while the pointwise form does not (−0.790), added source detected (0.097); two routes agree, 8 tests pass | Audit on supplied geometry; absence of a hidden source/coupling only; no field equation, curvature or gravity |
 | QR-05CS: T7/T5 geometry program consolidation (complete, design-only) | One bounded statement of CF–CR with DET commitment routing: what is established (T7 kinematics, T5 kernel-moment operators, the bridge/composed operator, adversarial control) and what is open (emergence, scale, curvature, LGH, gravity, empirical bridge) | Consolidation only; all results `CORR` on supplied geometry; no new result, promotion, metric or gravity claim |
-| Next: empirical bridge (blocked pending apparatus) | Apply the T7/T5 program to a measured apparatus via the BX interface and a valid BW allowance | Blocked: no apparatus or measured data; conditional; no measurement, device or calibration implied |
+| QR-05CT: Lorentzian-distance continuum step (LGH route; complete, executable; positive) | Discrete time-separation `(longest chain)·ℓ` vs continuum `τ`: mean ratio stable at 1.181021 over N=200…1600, spread falls 0.250→0.117, random-order control distinct (mean 120.0); two routes agree, 7 tests pass | Necessary-condition step only; not LGH convergence; the constant is a scale convention; no curvature, dynamics or gravity |
+| Next: Minguzzi–Suhr LGH distance attempt (research-grade) | Implement the Lorentzian Gromov–Hausdorff distance between a sprinkling and a supplied manifold via causal embeddings | Bounded and honest; may be inconclusive (then documented, not promoted); curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+
+Deferred (blocked): the empirical bridge (needs BX + a valid BW allowance).
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

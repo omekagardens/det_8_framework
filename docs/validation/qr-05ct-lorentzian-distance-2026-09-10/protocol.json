@@ -1,0 +1,9 @@
+{
+  "schema": "qr05ct-protocol-v1",
+  "n_grid": [200, 400, 800, 1600],
+  "seed": 4,
+  "mean_tolerance": 0.06,
+  "control_min_gap": 0.3,
+  "spread_ratio": 1.5,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
