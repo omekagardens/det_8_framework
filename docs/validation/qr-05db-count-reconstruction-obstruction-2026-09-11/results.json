@@ -1,0 +1,397 @@
+{
+  "report": {
+    "axiom_checks": [
+      {
+        "causal_pairs": 276,
+        "estimator": "chain",
+        "kind": "sprinkle",
+        "n": 32,
+        "object": "sprinkle_d2_n32",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 0,
+        "triples": 1121,
+        "witness": null,
+        "worst_gap": 0.0,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 276,
+        "estimator": "count_offset",
+        "kind": "sprinkle",
+        "n": 32,
+        "object": "sprinkle_d2_n32",
+        "reverse_triangle_violations": 744,
+        "support_mismatches": 0,
+        "triples": 1121,
+        "witness": [
+          28,
+          3,
+          26
+        ],
+        "worst_gap": -1.01926289,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 276,
+        "estimator": "count_raw",
+        "kind": "sprinkle",
+        "n": 32,
+        "object": "sprinkle_d2_n32",
+        "reverse_triangle_violations": 119,
+        "support_mismatches": 71,
+        "triples": 1121,
+        "witness": [
+          28,
+          3,
+          26
+        ],
+        "worst_gap": -0.65028154,
+        "zero_on_causal": 71
+      },
+      {
+        "causal_pairs": 1116,
+        "estimator": "chain",
+        "kind": "sprinkle",
+        "n": 64,
+        "object": "sprinkle_d2_n64",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 0,
+        "triples": 8987,
+        "witness": null,
+        "worst_gap": 0.0,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 1116,
+        "estimator": "count_offset",
+        "kind": "sprinkle",
+        "n": 64,
+        "object": "sprinkle_d2_n64",
+        "reverse_triangle_violations": 4511,
+        "support_mismatches": 0,
+        "triples": 8987,
+        "witness": [
+          21,
+          18,
+          6
+        ],
+        "worst_gap": -1.204186763,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 1116,
+        "estimator": "count_raw",
+        "kind": "sprinkle",
+        "n": 64,
+        "object": "sprinkle_d2_n64",
+        "reverse_triangle_violations": 1131,
+        "support_mismatches": 197,
+        "triples": 8987,
+        "witness": [
+          21,
+          13,
+          6
+        ],
+        "worst_gap": -0.929447639,
+        "zero_on_causal": 197
+      },
+      {
+        "causal_pairs": 123,
+        "estimator": "chain",
+        "kind": "sprinkle",
+        "n": 32,
+        "object": "sprinkle_d3_n32",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 0,
+        "triples": 166,
+        "witness": null,
+        "worst_gap": 0.0,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 123,
+        "estimator": "count_offset",
+        "kind": "sprinkle",
+        "n": 32,
+        "object": "sprinkle_d3_n32",
+        "reverse_triangle_violations": 49,
+        "support_mismatches": 0,
+        "triples": 166,
+        "witness": [
+          11,
+          29,
+          19
+        ],
+        "worst_gap": -0.682162755,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 123,
+        "estimator": "count_raw",
+        "kind": "sprinkle",
+        "n": 32,
+        "object": "sprinkle_d3_n32",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 75,
+        "triples": 166,
+        "witness": null,
+        "worst_gap": 0.414213562,
+        "zero_on_causal": 75
+      },
+      {
+        "causal_pairs": 491,
+        "estimator": "chain",
+        "kind": "sprinkle",
+        "n": 64,
+        "object": "sprinkle_d3_n64",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 0,
+        "triples": 940,
+        "witness": null,
+        "worst_gap": 0.0,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 491,
+        "estimator": "count_offset",
+        "kind": "sprinkle",
+        "n": 64,
+        "object": "sprinkle_d3_n64",
+        "reverse_triangle_violations": 286,
+        "support_mismatches": 0,
+        "triples": 940,
+        "witness": [
+          22,
+          6,
+          43
+        ],
+        "worst_gap": -0.763932023,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 491,
+        "estimator": "count_raw",
+        "kind": "sprinkle",
+        "n": 64,
+        "object": "sprinkle_d3_n64",
+        "reverse_triangle_violations": 1,
+        "support_mismatches": 251,
+        "triples": 940,
+        "witness": [
+          38,
+          6,
+          43
+        ],
+        "worst_gap": -0.086299497,
+        "zero_on_causal": 251
+      },
+      {
+        "causal_pairs": 28,
+        "estimator": "chain",
+        "kind": "chain",
+        "n": 8,
+        "object": "pure_chain_n8",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 0,
+        "triples": 56,
+        "witness": null,
+        "worst_gap": 0.0,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 28,
+        "estimator": "count_offset",
+        "kind": "chain",
+        "n": 8,
+        "object": "pure_chain_n8",
+        "reverse_triangle_violations": 56,
+        "support_mismatches": 0,
+        "triples": 56,
+        "witness": [
+          0,
+          3,
+          7
+        ],
+        "worst_gap": -1.086299497,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 28,
+        "estimator": "count_raw",
+        "kind": "chain",
+        "n": 8,
+        "object": "pure_chain_n8",
+        "reverse_triangle_violations": 20,
+        "support_mismatches": 7,
+        "triples": 56,
+        "witness": [
+          0,
+          3,
+          7
+        ],
+        "worst_gap": -0.696774627,
+        "zero_on_causal": 7
+      },
+      {
+        "causal_pairs": 21,
+        "estimator": "chain",
+        "kind": "poset",
+        "n": 12,
+        "object": "random_poset_n12",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 0,
+        "triples": 12,
+        "witness": null,
+        "worst_gap": 0.0,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 21,
+        "estimator": "count_offset",
+        "kind": "poset",
+        "n": 12,
+        "object": "random_poset_n12",
+        "reverse_triangle_violations": 12,
+        "support_mismatches": 0,
+        "triples": 12,
+        "witness": [
+          8,
+          0,
+          7
+        ],
+        "worst_gap": -0.682162755,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 21,
+        "estimator": "count_raw",
+        "kind": "poset",
+        "n": 12,
+        "object": "random_poset_n12",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 11,
+        "triples": 12,
+        "witness": null,
+        "worst_gap": 0.414213562,
+        "zero_on_causal": 11
+      },
+      {
+        "causal_pairs": 0,
+        "estimator": "chain",
+        "kind": "antichain",
+        "n": 6,
+        "object": "antichain_n6",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 0,
+        "triples": 0,
+        "witness": null,
+        "worst_gap": 0.0,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 0,
+        "estimator": "count_offset",
+        "kind": "antichain",
+        "n": 6,
+        "object": "antichain_n6",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 0,
+        "triples": 0,
+        "witness": null,
+        "worst_gap": 0.0,
+        "zero_on_causal": 0
+      },
+      {
+        "causal_pairs": 0,
+        "estimator": "count_raw",
+        "kind": "antichain",
+        "n": 6,
+        "object": "antichain_n6",
+        "reverse_triangle_violations": 0,
+        "support_mismatches": 0,
+        "triples": 0,
+        "witness": null,
+        "worst_gap": 0.0,
+        "zero_on_causal": 0
+      }
+    ],
+    "flags": {
+      "chain_satisfies_all_axioms": true,
+      "count_offset_support_exact": true,
+      "count_offset_violates_reverse_triangle": true,
+      "count_only_metric_established": false,
+      "count_raw_fails_causal_support": true,
+      "count_raw_reverse_triangle_fails_at_d2": true,
+      "structural_superadditivity_holds": true
+    },
+    "link_triple_bound": {
+      "gap_by_m_ac": {
+        "1": -0.585786438,
+        "2": -0.267949192,
+        "3": 0.0
+      },
+      "violating_for_m_ac_lt_3": true,
+      "worst_lower_bound_on_unit_ell": -0.585786438
+    },
+    "schema": "qr05db-report-v1",
+    "spec": {
+      "admissible_class": "fixed-count iid (Poisson) sprinklings into the unit causal diamond of d-dimensional Minkowski spacetime, d in [2, 3]; plus adversarial non-manifoldlike posets (pure chain, random poset, antichain)",
+      "axioms": [
+        "A0 d(x,x)=0",
+        "A1 d(x,y)>0 iff x≺y",
+        "A2 x≺y≺z => d(x,z) >= d(x,y)+d(y,z)"
+      ],
+      "bounds": "constructive link-triple violation bound; structural superadditivity m_ac >= m_ab+m_bc+1",
+      "controls": [
+        "pure_chain_n8",
+        "random_poset_n12",
+        "antichain_n6"
+      ],
+      "convergence": "scale-free LGH distortion -> 0; pointwise d_ij -> c*tau_ij; the count law m ~ rho*Vol(I) with the imported volume law Vol(I(p,q)) = c_d*d(p,q)^d",
+      "density": "n iid points in the diamond; mean spacing ell = n^(-1/d)",
+      "question": "Can an order+count reconstruction be constructed with a provable vanishing error bound while satisfying the required Lorentzian metric-space properties?",
+      "reconstruction": "count-only d(i,j) = ell*(m_ij + s)^a, m_ij = #{k: i≺k≺j}; tested: offset (s=1, a=1/2, QR-05DA) and raw (s=0, a=1/2); order-only d = ell*L (longest chain)",
+      "scale": "homothety only; absolute scale and reference are non-identifiable from the order (QR-05CY)"
+    },
+    "structural_lemma": {
+      "objects_checked": 7,
+      "triples": 11282,
+      "violations": 0
+    },
+    "three_chain": {
+      "chain": {
+        "L_ab": 1.0,
+        "L_ac": 2.0,
+        "L_bc": 1.0,
+        "reverse_triangle_holds": true
+      },
+      "count_offset": {
+        "d_ab": 1.0,
+        "d_ac": 1.4142135623730951,
+        "d_bc": 1.0,
+        "reverse_triangle_holds": false
+      },
+      "count_raw": {
+        "d_ab": 0.0,
+        "d_ac": 1.0,
+        "d_bc": 0.0,
+        "reverse_triangle_holds": true
+      },
+      "counts": {
+        "m_ab": 0,
+        "m_ac": 1,
+        "m_bc": 0
+      },
+      "tau": {
+        "reverse_triangle_holds": true,
+        "tau_ac": 2.0
+      }
+    },
+    "verdict": "QR-05DB: the metric-axiom obstruction for count-only reconstructions. The order-only longest-chain estimator d = ell*L satisfies the Lorentzian distance axioms A0-A2 on every finite causal set tested (support exact, zero reverse-triangle violations), a Lorentzian premetric. The QR-05DA count estimator d = ell*sqrt(1+m) is positive exactly on the causal relation but violates the reverse-triangle inequality A2 on the sprinklings and controls (witness: the three-event chain gives ell*sqrt(2) < 2*ell). The offset-free count form ell*sqrt(m) satisfies A2 on chains in the continuum mean but assigns zero distance to links (fails A1). The count is structurally superadditive (m_ac >= m_ab+m_bc+1), and with the imported volume law Vol(I) = c_d*tau^d, convergence forces the exponent a = 1/d while positivity on links forces an offset s > 0 that breaks A2; so no count-only power reconstruction is both convergent and a Lorentzian metric with causal support. The axiom-compliant route is order-based; constructing a convergent order-based or mixed reconstruction remains open. No metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05db-capture-v1"
+}

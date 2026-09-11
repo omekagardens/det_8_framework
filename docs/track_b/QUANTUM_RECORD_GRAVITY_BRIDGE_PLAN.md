@@ -2605,25 +2605,39 @@ checks that block the shared-error mode). The superseded first capture is retain
 See [QR-05DA results](../validation/qr-05da-lgh-convergence-2026-09-10/RESULTS.md)
 and the [supersession record](../validation/qr-05da-lgh-convergence-2026-09-10/SUPERSEDED.md).
 
-**Next: QR-05DB — a constructive vanishing bound for the order+count reconstruction (research-grade), or the empirical bridge (Branch B; OPEN — physical evidence required).**
-Do not simply increase `N`. QR-05DB asks: **can an order+count reconstruction be
-constructed with a provable vanishing error bound while satisfying the required
-Lorentzian metric-space properties?** — specified beforehand by admissible causal-set
-class, sampling/density assumptions, reconstruction formula, scale/anchor treatment,
-Lorentzian metric axioms, convergence notion, constructive upper/lower bounds, and
-adversarial non-manifoldlike controls. A counterexample or impossibility theorem is
-an equally valid outcome. The scale-free infimum is bracketed but the brackets do not
-meet. DA localizes why for the order-only chain (a large-proper-time longest-chain
-fluctuation) and shows the T7-native order+count reconstruction decays distinctly
-faster — but a *constructive* vanishing bound (and the statement that the count
-family is a metric space with a controlled limit), the density/commensurability
-condition and ensemble convergence remain open, and exact search still grows ≈ 10×
-per N. The blocked gate is split: **Branch A** (mathematical closure) proceeds via
-CY/CZ/DA and successors; **Branch B** (apparatus, BX/BW/BZ) stays open until physical
-evidence is supplied and no mathematical result marks an apparatus fact as supplied.
-Recommend a dedicated research effort, awaiting apparatus, or consolidation; do not
-promote either. Curvature stays quarantined; κ-gravity stays retired and gravity is
-standard GR under Option B.
+**QR-05DB complete: the metric-axiom obstruction for count-only reconstructions (executable; impossibility + positive control).**
+QR-05DB answers the pre-specified question negatively for the count-only family and
+positively for the order-only route, with the admissible class, sampling, reconstruction
+formula, scale/anchor treatment, axioms A0–A2, convergence notion, constructive bounds
+and adversarial controls fixed beforehand. Two independent routes census the Lorentzian
+axioms for three reconstructions on Poisson sprinklings (d = 2, 3) and non-manifoldlike
+controls. **(R3)** the order-only longest-chain estimator `ℓ·L` satisfies A0–A2 on
+*every* finite causal set (longest chains concatenate) — a Lorentzian premetric — but
+QR-05DA shows its scale-free ceiling does not vanish. **(R1)** the QR-05DA count
+estimator `ℓ·√(1+m)` is positive exactly on the causal relation yet **violates the
+reverse-triangle inequality A2** on real sprinklings (up to ~50% of triples at
+d = 2, n = 64, worst gap ≈ −1.2ℓ); the three-event chain gives `ℓ√2 < 2ℓ`: it is a
+distance estimator, not a metric. **(R2)** with the elementary volume law
+`Vol(I) = c_d·τ^d`, convergence forces `g(m) ~ m^{1/d}` (so `g(m)/m → 0`), while
+positivity on links (`g(0) > 0`) plus A2 forces `liminf g(m)/m ≥ g(0) > 0`; hence **no
+count-only reconstruction is convergent, positive on links and axiom-compliant** — the
+raw `ℓ√m` form escapes only by assigning links zero distance (fails A1). **(R4)** the
+count is structurally superadditive (`m_ac ≥ m_ab + m_bc + 1`, 0 violations over 11 282
+triples). Two routes agree; 12 tests pass (known-answer census). See
+[QR-05DB results](../validation/qr-05db-count-reconstruction-obstruction-2026-09-11/RESULTS.md).
+
+**Next: a constructive vanishing bound for an order-based or mixed order+count reconstruction (research-grade), or the empirical bridge (Branch B; OPEN — physical evidence required).**
+DB rules the count-only family out and certifies the order-only chain as the
+axiom-compliant premetric, but the scale-free infimum is still bracketed, not pinned. A
+*constructive* vanishing bound for an order-based or **mixed** order+count
+reconstruction — whether such a reconstruction can satisfy A0–A2 *and* converge — the
+density/commensurability condition and ensemble convergence remain open, and exact
+search still grows ≈ 10× per N. The blocked gate is split: **Branch A** (mathematical
+closure) proceeds via CY/CZ/DA/DB and successors; **Branch B** (apparatus, BX/BW/BZ)
+stays open until physical evidence is supplied and no mathematical result marks an
+apparatus fact as supplied. Recommend a dedicated research effort, awaiting apparatus,
+or consolidation; do not promote either. Curvature stays quarantined; κ-gravity stays
+retired and gravity is standard GR under Option B.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2781,7 +2795,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CY: observational quotient and internal-reference no-go (complete, executable) | Exact observational quotient on a declared finite world class: dimension IDENTIFIED; order exactly blind to the conformal factor (counts identify it); absolute scale and reference validity NON_IDENTIFIABLE from the same channel (witness pairs); every `O`-built reference is blind on the witness class (no-go); taxonomy mapped onto `det8.claims` with no new vocabulary; two routes agree, 11 tests pass | Separates identifiability from empirical applicability; closes the non-empirical half of the BW/P5 blockage negatively; makes no ontological claim (P5 Status M); does not supply apparatus evidence or satisfy P5 physically |
 | QR-05CZ: scale-free LGH comparison and directed-distance correction (complete, executable) | Continuum counterpart corrected to the directed Lorentzian distance (chain-vs-symmetric support mismatches 18/251/15512; 0 directed); directed scale-free distortion ≤~0.9 vs 1.8–3.3; certified lower bound decreases monotonically 0.498→0.158 over N=8…256 (~2–3.6×ℓ); identity scale-free optimal on the exact grid; c*≈1; two routes agree, 11 tests pass | Withdraws/reclassifies the CW/CX non-vanishing floor as a convention artifact; reopens the scale-free convergence question (bracketed, not pinned); no metric, continuum, curvature or gravity claim |
 | QR-05DA: scale-free LGH convergence and the estimator split (complete, executable; `p99` statistic corrected) | Chain ceiling localized in proper time (near-null ~0.10 → large-τ ~0.60); asymptotic decay exponents (N ≥ 32): chain lower bound 0.374, chain median 0.326, chain p99 0.304, **chain ceiling 0.160**; order+count (T7-native) median 0.478, p99 0.418, ceiling 0.278; count below chain on ceiling and p99 from N = 16 (median from N = 32); identity scale-free optimal on the exact grid; random control 0.74 vs 3.30; count form violates the Lorentzian reverse triangle on a three-event chain; two routes agree, 21 tests pass (including known-answer statistics) | Resolves CZ's reopening into an **estimator dependence**: the order-only chain ceiling is fluctuation-limited at large proper time, the order+count reconstruction decays faster on every statistic; neither is verified to converge; the count form is a **distance estimator, not a metric**; an earlier capture's `p99` (the 1st percentile mislabelled) is corrected and retained as superseded; no metric, continuum, curvature or gravity claim |
-| QR-05DB: a constructive count-based vanishing bound (research-grade) or the empirical bridge (Branch B; OPEN — physical evidence required) | A proof that the order+count reconstruction's scale-free distortion vanishes (and that its count family is a metric space with a controlled limit); density/commensurability; ensemble convergence — or the BX apparatus | Branch A proceeds mathematically via CY/CZ/DA successors; Branch B remains open until physical evidence is supplied; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05DB: the metric-axiom obstruction for count-only reconstructions (complete, executable) | Order-only `ℓ·L` satisfies A0–A2 on every finite causal set (Lorentzian premetric); QR-05DA count `ℓ·√(1+m)` violates A2 on real sprinklings (up to ~50% of triples at d=2,n=64; worst gap ≈ −1.2ℓ; 3-chain ℓ√2<2ℓ); raw `ℓ√m` fails A1 (links→0); **no count-only reconstruction is convergent, positive on links and axiom-compliant** (convergence ⇒ g~m^{1/d}; positivity+A2 ⇒ liminf g(m)/m≥g(0)); structural superadditivity m_ac≥m_ab+m_bc+1 (0/11 282); two routes agree, 12 tests pass | Refutes the count-only family as the axiom-compliant convergent object; the axiom-compliant route is order-based; a constructive vanishing bound for an order-based or mixed order+count reconstruction stays open; no metric, continuum, curvature or gravity claim |
+| Next: a constructive vanishing bound for an order-based or mixed order+count reconstruction (research-grade), or the empirical bridge (Branch B; OPEN — physical evidence required) | A proof that an order-based or mixed reconstruction's scale-free distortion vanishes while satisfying A0–A2; density/commensurability; ensemble convergence — or the BX apparatus | Branch A proceeds via CY/CZ/DA/DB successors; Branch B remains open until physical evidence is supplied; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

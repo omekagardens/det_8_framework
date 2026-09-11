@@ -1,0 +1,13 @@
+{
+  "schema": "qr05db-protocol-v1",
+  "seed": 7,
+  "sprinkle_n": [32, 64],
+  "sprinkle_dims": [2, 3],
+  "chain_len": 8,
+  "antichain_len": 6,
+  "poset_n": 12,
+  "poset_edge_prob": 0.3,
+  "poset_seed": 13,
+  "tol": 1e-9,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
