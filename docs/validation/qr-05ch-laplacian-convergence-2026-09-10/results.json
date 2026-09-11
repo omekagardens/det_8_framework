@@ -1,0 +1,49 @@
+{
+  "report": {
+    "continuum": {
+      "constant": 0.124273493,
+      "prediction_4pi_eps": 0.125663706,
+      "ratio": 0.988937039
+    },
+    "mode1": {
+      "constant": 0.124273493,
+      "mu": 39.478417604,
+      "residual": 0.089357436,
+      "slope": -0.040534851
+    },
+    "mode2": {
+      "constant": 0.12585956,
+      "mu": 157.913670417,
+      "residual": 0.06423404,
+      "slope": -0.099913235
+    },
+    "mode_gap": 0.012762711,
+    "mode_independent": true,
+    "negative_control": {
+      "control_required": true,
+      "local_residual": 0.089357436,
+      "residual": 0.783481794
+    },
+    "residual_decreasing": true,
+    "residual_grid": [
+      {
+        "n": 500,
+        "residual": 0.139527869
+      },
+      {
+        "n": 1000,
+        "residual": 0.112988535
+      },
+      {
+        "n": 2000,
+        "residual": 0.074596375
+      }
+    ],
+    "schema": "qr05ch-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05ch-capture-v1"
+}

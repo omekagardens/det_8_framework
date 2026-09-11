@@ -1,0 +1,11 @@
+{
+  "schema": "qr05ch-protocol-v1",
+  "n": 1500,
+  "seed": 5,
+  "torus_epsilon": 0.01,
+  "n_grid": [500, 1000, 2000],
+  "gap_tolerance": 0.05,
+  "residual_tolerance": 0.1,
+  "control_factor": 3.0,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
