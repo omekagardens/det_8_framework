@@ -1,0 +1,50 @@
+{
+  "report": {
+    "control": {
+      "distortion": 0.221129529,
+      "separates": true
+    },
+    "d_ub_decreasing": true,
+    "lgh_estimate_converges": true,
+    "rows": [
+      {
+        "cover": 0.039402474,
+        "d_ub": 0.041438536,
+        "ell": 0.05,
+        "forward": 0.041438536,
+        "n": 200,
+        "scale": 0.957636734
+      },
+      {
+        "cover": 0.036856708,
+        "d_ub": 0.036856708,
+        "ell": 0.035355339,
+        "forward": 0.032892859,
+        "n": 400,
+        "scale": 0.83887926
+      },
+      {
+        "cover": 0.029349271,
+        "d_ub": 0.029349271,
+        "ell": 0.025,
+        "forward": 0.02927689,
+        "n": 800,
+        "scale": 0.80568725
+      },
+      {
+        "cover": 0.024418607,
+        "d_ub": 0.024418607,
+        "ell": 0.01767767,
+        "forward": 0.022837875,
+        "n": 1600,
+        "scale": 0.778263995
+      }
+    ],
+    "schema": "qr05cu-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cu-capture-v1"
+}

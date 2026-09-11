@@ -1,0 +1,10 @@
+{
+  "schema": "qr05cu-protocol-v1",
+  "n_grid": [200, 400, 800, 1600],
+  "seed": 6,
+  "sources": 12,
+  "probes": 20,
+  "tau_floor": 0.1,
+  "control_factor": 2.0,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
