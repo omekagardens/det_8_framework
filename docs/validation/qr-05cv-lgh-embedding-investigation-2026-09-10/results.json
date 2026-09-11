@@ -1,0 +1,47 @@
+{
+  "report": {
+    "lms_candidate_verified": true,
+    "rows": [
+      {
+        "all_axioms_hold": true,
+        "axioms": {
+          "A1_diagonal_zero": true,
+          "A2_causality_iff_order": true,
+          "A3_causality_antisymmetric": true,
+          "A4_reverse_triangle": true
+        },
+        "d": 2,
+        "riemannian_triangle_fails": true,
+        "witness": [
+          0,
+          7,
+          1,
+          3
+        ]
+      },
+      {
+        "all_axioms_hold": true,
+        "axioms": {
+          "A1_diagonal_zero": true,
+          "A2_causality_iff_order": true,
+          "A3_causality_antisymmetric": true,
+          "A4_reverse_triangle": true
+        },
+        "d": 3,
+        "riemannian_triangle_fails": true,
+        "witness": [
+          0,
+          29,
+          1,
+          3
+        ]
+      }
+    ],
+    "schema": "qr05cv-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cv-capture-v1"
+}

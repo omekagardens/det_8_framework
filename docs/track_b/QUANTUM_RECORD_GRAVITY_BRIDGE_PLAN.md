@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CU are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CU are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN–CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits it for a hidden source; CS consolidates the chord; CT–CU take bounded LGH-route steps (Lorentzian-distance convergence, then an upper LGH-distance estimate); the full Minguzzi–Suhr distance and the empirical bridge remain open |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits the composed model; CS consolidates the chord; CT shows the discrete Lorentzian distance converges; CU gives a bounded upper LGH-distance estimate that decreases with refinement | CI is an imported correspondence; curvature convergence (quarantined) and the Benincasa–Dowker action remain open; the full Minguzzi–Suhr LGH distance, the empirical bridge (BX), absolute scale and Einstein-like dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CV are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CV are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL–CM give the DET-native T5 operators from kernel moments; CN–CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits it for a hidden source; CS consolidates the chord; CT–CU take bounded LGH-route steps; CV opens the research-grade LGH/embedding investigation and verifies its exact LMS core (the discrete time-separation is a genuine Lorentzian metric space) |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate; CH verifies the T5 graph-Laplacian (diffusion); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL–CM verify the T5 wave and drift-diffusion operators; CN/CO bridge T7 and T5 across scales; CP composes them; CQ adds the adversarial control; CR audits the composed model; CS consolidates the chord; CT shows the discrete Lorentzian distance converges; CU gives a bounded upper LGH-distance estimate; CV verifies the exact LMS axioms for the discrete time-separation | CI is an imported correspondence; the LGH/embedding program (opened by CV) — the LGH infimum, density/commensurability, ensemble convergence and manifoldlikeness of the limit — remains research-grade and open; the empirical bridge (BX), absolute scale and Einstein-like dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -62,7 +62,8 @@ CQ T7 adversarial non-manifoldlike control (complete, executable; positive) →
 CR composed-model no-double-counting audit (C6, complete, executable) →
 CS T7/T5 geometry program consolidation (complete, design-only) →
 CT Lorentzian-distance continuum step (LGH route; complete, executable; positive) →
-CU Minguzzi–Suhr LGH distance attempt (bounded; complete, executable; positive)**. BF derives the
+CU Minguzzi–Suhr LGH distance attempt (bounded; complete, executable; positive) →
+CV LGH/embedding investigation opened (exact LMS core; complete, executable)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -182,9 +183,12 @@ non-manifoldlike (bipartite) order by its link structure, and CR audits the
 composed operator for a hidden source (none; the divergence form is
 conservative), CS consolidates the chord into one bounded statement with the
 open items, CT takes a bounded LGH-route step (the discrete Lorentzian distance
-converges to the continuum up to scale), and CU gives a bounded upper LGH-distance
-estimate that decreases with refinement. Every geometric claim stays conditional
-on a supplied geometry or purpose-built apparatus that does not yet exist.
+converges to the continuum up to scale), CU gives a bounded upper LGH-distance
+estimate that decreases with refinement, and CV opens the research-grade
+LGH/embedding investigation, verifying its exact LMS core (the discrete
+time-separation is a genuine Lorentzian metric space). Every geometric claim
+stays conditional on a supplied geometry or purpose-built apparatus that does
+not yet exist.
 BP itself remains a
 supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
@@ -2510,13 +2514,26 @@ embedding theory and the manifoldlikeness of the limit remain open; the scale is
 a convention. See
 [QR-05CU results](../validation/qr-05cu-lgh-distance-2026-09-10/RESULTS.md).
 
-**Next proposed gate: none bounded — the supplied-geometry chord is complete.**
-CF–CU exhaust the bounded spectrum on supplied geometry. The two remaining steps
-are the **empirical bridge** (blocked: requires the BX apparatus and a valid BW
-allowance) and the **full Minguzzi–Suhr embedding theory** (research-grade,
-unbounded). Recommend a consolidation update or awaiting apparatus; do not
-promote either. Curvature stays quarantined; κ-gravity stays retired and gravity
-is standard GR under Option B.
+**QR-05CV complete: LGH/embedding investigation opened (exact LMS core; executable).**
+Opens the research-grade Lorentzian Gromov–Hausdorff route and verifies its exact
+core: for a finite causal set the discrete chain time-separation satisfies the
+Minguzzi–Suhr Lorentzian axioms exactly (A1 `d(x,x)=0`, A2 causality = the causal
+order, A3 antisymmetry, A4 reverse triangle) while the Riemannian triangle
+**fails** — so it is a genuine Lorentzian metric space, the object an LGH study
+must compare with the continuum. Two routes agree; 6 tests pass. The open program
+(the LGH infimum, density/commensurability, ensemble convergence, manifoldlikeness
+of the limit) is stated, not solved. See
+[QR-05CV results](../validation/qr-05cv-lgh-embedding-investigation-2026-09-10/RESULTS.md).
+
+**Next: LGH research program (open, unbounded).**
+The six steps in CV §3 — the exact `d`-isometry statement, the LGH infimum over
+correspondences/embeddings, density/commensurability, the scale/conformal class,
+ensemble convergence under growing fluctuations, and manifoldlikeness of the
+limit — are research-grade and have no bounded gate. The other frontier is the
+**empirical bridge** (blocked: needs the BX apparatus and a valid BW allowance).
+Recommend awaiting apparatus, a dedicated research effort, or consolidation; do
+not promote either. Curvature stays quarantined; κ-gravity stays retired and
+gravity is standard GR under Option B.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2668,7 +2685,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CS: T7/T5 geometry program consolidation (complete, design-only) | One bounded statement of CF–CR with DET commitment routing: what is established (T7 kinematics, T5 kernel-moment operators, the bridge/composed operator, adversarial control) and what is open (emergence, scale, curvature, LGH, gravity, empirical bridge) | Consolidation only; all results `CORR` on supplied geometry; no new result, promotion, metric or gravity claim |
 | QR-05CT: Lorentzian-distance continuum step (LGH route; complete, executable; positive) | Discrete time-separation `(longest chain)·ℓ` vs continuum `τ`: mean ratio stable at 1.181021 over N=200…1600, spread falls 0.250→0.117, random-order control distinct (mean 120.0); two routes agree, 7 tests pass | Necessary-condition step only; not LGH convergence; the constant is a scale convention; no curvature, dynamics or gravity |
 | QR-05CU: Minguzzi–Suhr LGH distance attempt (bounded; complete, executable; positive) | Bounded upper LGH-distance estimate via the natural correspondence + one scale: distortion falls 0.0414→0.0228 over N=200…1600 (≈ ℓ), random-correspondence control 0.221; two routes agree, 7 tests pass | Upper estimate only, not the Minguzzi–Suhr infimum; scale a convention; embedding theory and manifoldlikeness of the limit open; no curvature, dynamics or gravity |
-| Next: none bounded (chord complete) | The remaining steps are blocked (empirical bridge: BX) or research-grade (full Minguzzi–Suhr embedding theory) | Do not promote either; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05CV: LGH/embedding investigation opened (complete, executable) | Exact LMS core: A1–A4 hold, Riemannian triangle fails (witness found) in d=2,3 — the discrete time-separation is a genuine Lorentzian metric space; two routes agree, 6 tests pass | Opens the research-grade program (LGH infimum, density/commensurability, ensemble convergence, manifoldlikeness); no metric, continuum, curvature or gravity claim |
+| Next: LGH research program (open, unbounded) | The six steps of CV §3, or the empirical bridge (blocked: BX) | Research-grade; no bounded gate; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

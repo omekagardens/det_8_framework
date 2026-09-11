@@ -1,0 +1,7 @@
+{
+  "schema": "qr05cv-protocol-v1",
+  "n": 60,
+  "dims": [2, 3],
+  "seed": 3,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
