@@ -1,0 +1,64 @@
+{
+  "report": {
+    "coefficient_from_moment": [
+      {
+        "S_x2": 0.02,
+        "kernel": "nn",
+        "moment": 0.02,
+        "ratio": 1.0
+      },
+      {
+        "S_x2": 0.04,
+        "kernel": "double",
+        "moment": 0.04,
+        "ratio": 1.0
+      },
+      {
+        "S_x2": 0.02,
+        "kernel": "wide",
+        "moment": 0.02,
+        "ratio": 1.0
+      }
+    ],
+    "convergence": [
+      {
+        "h": 0.0625,
+        "m": 16,
+        "mean_abs_error": 0.40653736
+      },
+      {
+        "h": 0.03125,
+        "m": 32,
+        "mean_abs_error": 0.10251205
+      },
+      {
+        "h": 0.015625,
+        "m": 64,
+        "mean_abs_error": 0.02568353
+      },
+      {
+        "h": 0.0078125,
+        "m": 128,
+        "mean_abs_error": 0.006424363
+      }
+    ],
+    "convergence_exponent": 1.994795025,
+    "drift": {
+      "asymmetric_first_moment": -0.02,
+      "asymmetric_is_drift": true,
+      "symmetric_first_moment": 0.0
+    },
+    "exact_quadratics": {
+      "S_x2": 0.02,
+      "T_t2": 0.02,
+      "match": true,
+      "moment": 0.02
+    },
+    "schema": "qr05cl-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cl-capture-v1"
+}

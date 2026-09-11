@@ -1,0 +1,29 @@
+{
+  "schema": "qr05cl-source-freeze-v1",
+  "sources": {
+    "README.md": {
+      "bytes": 2999,
+      "sha256": "905aa5f5a751c75f3fdc2971b433c2e865a7da9dcc101bb68001cbbd8decac73"
+    },
+    "primary.py": {
+      "bytes": 4448,
+      "sha256": "5197f0bea95598053b7cd0b8dcf69c0daac756330be8f4f6086c432968783cbb"
+    },
+    "protocol.json": {
+      "bytes": 556,
+      "sha256": "f284d9ee5f16b0cac7d4cb9051b819bcae99d60169fcf095571cb24f582a9e09"
+    },
+    "reference.py": {
+      "bytes": 3789,
+      "sha256": "2333dba3d556c2435c5781065be8c77410025f39283e46480d1be5d7297753ae"
+    },
+    "study.py": {
+      "bytes": 3918,
+      "sha256": "5b8199969ac790d18dda68f08a0aa76772c8a94d144c3aa0d01c186c87827cbe"
+    },
+    "test_qr05cl.py": {
+      "bytes": 2962,
+      "sha256": "2d3320afb2eaced6a40e568e6bfd399d384651f9606fdd807936a25529d1f51b"
+    }
+  }
+}

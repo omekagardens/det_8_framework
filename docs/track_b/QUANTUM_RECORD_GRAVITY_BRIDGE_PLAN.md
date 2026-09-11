@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CK are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CK are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI records the correct 2D Sorkin operator but is reclassified as an imported causal-set correspondence (not DET-native; the DET-native wave route is T5); CJ–CK reconstruct the conformal factor up to scale, refinement-consistently; a purpose-built apparatus remains open |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly; CF verifies the T7 estimators; CG computes the 3+1 covering rate (−0.265 vs −0.506); CH verifies the graph-Laplacian action (ratio 0.989); CJ recovers the conformal factor up to scale (MSE 0.0032); CK shows refinement consistency (MSE 0.021→0.00026), grid robustness and the whole-point granularity bins/N | CI is an imported causal-set correspondence (not DET-native; the DET-native wave route is T5), not numerically validated; curvature convergence (quarantined), LGH convergence and the Benincasa–Dowker action remain open; a purpose-built apparatus, absolute scale and Einstein-like dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CL are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA–CL are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CH benchmark T7 estimators and the graph-Laplacian action; CI is reclassified as an imported correspondence; CJ–CK reconstruct the conformal factor up to scale; CL gives the DET-native T5 wave operator from kernel moments; a purpose-built apparatus remains open |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly (T6); CF verifies the T7 estimators; CG computes the 3+1 covering rate (−0.265 vs −0.506); CH verifies the graph-Laplacian action (T5 diffusion, ratio 0.989); CJ–CK recover the conformal factor up to scale, refinement-consistently; CL verifies the T5 wave operator from kernel moments (exponent 1.995) | CI is an imported correspondence; curvature convergence (quarantined), LGH convergence and the Benincasa–Dowker action remain open; a purpose-built apparatus, absolute scale and Einstein-like dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -52,7 +52,8 @@ CG dimension-convergence benchmark (complete, executable) →
 CH graph-Laplacian action benchmark (complete, executable) →
 CI 2D Lorentzian operator benchmark (complete, executable; implementation verified, continuum limit not demonstrated; reclassified as an imported causal-set correspondence, not DET-native) →
 CJ metric-acceptance benchmark (complete, executable) →
-CK metric reconstruction / refinement benchmark (complete, executable)**. BF derives the
+CK metric reconstruction / refinement benchmark (complete, executable) →
+CL T5 wave-kernel benchmark (complete, executable; positive)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -158,8 +159,11 @@ across N) and is reclassified as an imported causal-set correspondence (the
 DET-native wave route is T5), CJ resumes the metric path by recovering the
 conformal factor up to scale with boost covariance (MSE 0.0032), and CK makes
 the reconstruction refinement-consistent (MSE 0.021→0.00026) with a declared
-whole-point granularity bins/N. Every geometric claim stays conditional on a
-supplied geometry or purpose-built apparatus that does not yet exist.
+whole-point granularity bins/N, and CL gives the DET-native T5 route to a
+wave-like operator from a local conservative kernel, with coefficients from the
+kernel's moments (exact on quadratics, exponent 1.995). Every geometric claim
+stays conditional on a supplied geometry or purpose-built apparatus that does
+not yet exist.
 BP itself remains a
 supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
@@ -2386,14 +2390,24 @@ the declared bins/N (0.012 at N=1000), and a uniform control fails (MSE 0.0402
 vs 0.00026). Two routes agree; 8 tests pass. See
 [QR-05CK results](../validation/qr-05ck-metric-reconstruction-2026-09-10/RESULTS.md).
 
-**Next proposed gate: T5 local-kernel continuum — wave-like kernel benchmark.**
-A DET-native wave-like (Lorentzian) operator is T5, not the imported BD
-order-layer construction: take a local conservative (sign-indefinite) kernel and
-read the continuum operator's coefficients from discrete-kernel moments,
-extending the CH diffusion benchmark to the wave case on supplied geometry with
-the same two-route discipline. CI is reclassified as an imported correspondence
-and re-parked; curvature stays quarantined; κ-gravity stays retired and gravity
-is standard GR under Option B. Gravity remains out of scope until T7's kinematic
+**QR-05CL complete: T5 wave-kernel benchmark (executable; positive).**
+The DET-native T5 route to a wave-like operator: a local conservative kernel
+generates the d'Alembertian `∂_t²−∂_x²`, with the continuum coefficients read
+from the kernel's second moments. Exact on quadratics (`S x²=μ₂`, `T t²=μ₂`),
+second-order convergence to `∂_t²−∂_x²` on a sinusoid (log-log exponent 1.995),
+and the coefficient equals the kernel moment for three kernels (ratio 1.0); an
+asymmetric kernel produces drift (first moment −0.02), so reversibility needs
+the symmetric kernel. Two routes agree; 7 tests pass. This replaces the imported
+Benincasa–Dowker construction of CI. See
+[QR-05CL results](../validation/qr-05cl-t5-wave-kernel-2026-09-10/RESULTS.md).
+
+**Next proposed gate: T5 drift-diffusion / variable-coefficient benchmark.**
+CL verified the constant-coefficient wave operator from a local conservative
+kernel. The next T5 step is a spatially varying kernel whose moments vary with
+position, reproducing a drift-diffusion operator with position-dependent
+coefficients on supplied geometry — the T5 "drift-diffusion" branch. Curvature
+and the imported BD operator stay parked; κ-gravity stays retired and gravity is
+standard GR under Option B. Gravity remains out of scope until T7's kinematic
 theorem succeeds.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
@@ -2536,7 +2550,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CI: 2D Lorentzian operator benchmark (complete, executable; reclassified as an imported causal-set correspondence, not DET-native) | Correct Sorkin 2D operator (gr-qc/0703099 Eq. 1); Eq.1 layer sums == Eq.2 matrix exactly on a deterministic causet; constant-annihilation combo not consistent across N (0.354/0.490), `validated=false`; two routes agree, 6 tests pass | Borrowed causal-set MATH/CORR, not the DET-native T5 route (local kernels, moments); same class as CB; no DET-native metric/curvature/gravity claim |
 | QR-05CJ: metric-acceptance benchmark (complete, executable) | On `Ω²=1+sin(πx)`: conformal factor recovered from counts (MSE 0.0032), order conformal-invariant and boost-covariant (β=0.4, all pairs), scale not identified, uniform control fails (0.0327); two routes agree, 8 tests pass | Supplied geometry; no continuum limit, curvature or gravity; absolute scale not identified |
 | QR-05CK: metric reconstruction / refinement benchmark (complete, executable) | On `Ω²=1+4x(1−x)`: MSE-to-truth 0.0214→0.0029→0.00026 over N=1000/4000/16000, pairwise consistent (<0.05), grid-robust (0.0077), whole-point granularity bins/N, uniform control fails (0.0402); two routes agree, 8 tests pass | Supplied geometry; no continuum limit, curvature or gravity; absolute scale not identified |
-| Next: T5 local-kernel continuum — wave-like kernel benchmark | Local conservative (sign-indefinite) kernel → wave-like operator, coefficients from discrete-kernel moments (extend CH to the wave case) | DET-native T5 route; supplied geometry; two-route; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05CL: T5 wave-kernel benchmark (complete, executable; positive) | Local conservative kernel → d'Alembertian: exact on quadratics (`S x²=μ₂`), second-order convergence to `∂_t²−∂_x²` (exponent 1.995), coefficient = kernel moment for three kernels (ratio 1.0), asymmetric kernel → drift; two routes agree, 7 tests pass | DET-native T5 route; supplied geometry; no continuum-limit theorem, curvature or gravity; absolute scale a convention |
+| Next: T5 drift-diffusion / variable-coefficient benchmark | Spatially varying kernel moments → drift-diffusion operator with position-dependent coefficients on supplied geometry | T5 drift-diffusion branch; bounded supplied-geometry benchmark; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.
