@@ -1,0 +1,11 @@
+{
+  "schema": "qr05cn-protocol-v1",
+  "n": 4000,
+  "seed": 11,
+  "a": 0.5,
+  "bins": 12,
+  "kde_width": 0.05,
+  "corr_high": 0.9,
+  "corr_low": 0.5,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
