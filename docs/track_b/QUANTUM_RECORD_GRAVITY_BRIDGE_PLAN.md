@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CB are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA and CB are analytical/design checkpoints | CB shows public Bell-test data is not a QR-05 substrate; the reference-calibration composition verification is deferred; purpose-built measured data remain open |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB tests applicability on a public Bell-test dataset and finds it outside the ideal family | Independent reference/transfer evidence, a purpose-built apparatus, measured data, whole-point ambiguity, absolute scale, general metrics and Einstein-like dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CB are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA and CB are analytical/design checkpoints | CB's Bell-data test was reclassified as a category mismatch (quantum-correlation data, not a T7 geometry input); QR-05CC (the deferred composition verification) is the last open geometry item; purpose-built measured data remain open |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB showed public Bell-test data instantiates the quantum-correlation commitment, not the geometry one | The geometry path resumes on supplied Lorentzian geometries/sprinklings (T7) and needs a purpose-built apparatus; independent reference/transfer evidence, whole-point ambiguity, absolute scale, general metrics and Einstein-like dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -134,10 +134,10 @@ apparatus-to-event interface that could supply them, with every layer
 unsupplied, BY preregisters the metric-interpretation and
 dynamical-correspondence acceptance tests, BZ fixes the physical protocol
 and measured-data contract that a later run would follow, CA rehearses that
-pipeline end-to-end on declared synthetic data, and CB runs the model's
-applicability test on a public Bell-test dataset, which lies outside the
-ideal family under every declared mapping; every claim stays conditional on
-purpose-built data that does not yet exist.
+pipeline end-to-end on declared synthetic data, and CB tested a public
+Bell-test dataset but was reclassified as a category mismatch (quantum-
+correlation data, not a T7 geometry input); every claim stays conditional on
+a supplied geometry or purpose-built apparatus that does not yet exist.
 BP itself remains a
 supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
@@ -2262,17 +2262,23 @@ ideal family: q₂∈[567/2272,3/8] while r₂ is at most ≈0.076
 (single-/bob-normalized) or exactly 1 (trigger-conditioned), so the minimum
 gap is ≈0.174 and no setting is admitted at the BW allowance e_cal=3/200.
 Two independent routes agree and 9 tests pass. The verdict is per declared
-mapping and is not independent of it; this is a negative applicability
-finding, not a measurement. See
-[QR-05CB results](../validation/qr-05cb-open-data-applicability-2026-09-10/RESULTS.md).
+mapping and is not independent of it. A same-day step-back ontology review
+reclassified the finding as a **category mismatch**: the Bell dataset
+instantiates DET's quantum-correlation commitment, not the T7 geometry
+commitment, so the mapping fabricated the geometric side and the protocol is
+inapplicable to it — it is not a test of the QR-05 model. See
+[QR-05CB results](../validation/qr-05cb-open-data-applicability-2026-09-10/RESULTS.md)
+and the [ontology amendment](../validation/qr-05cb-open-data-applicability-2026-09-10/ONTOLOGY_AMENDMENT.md).
 
-**Next proposed gate: purpose-built apparatus run.**
-Only a purpose-built apparatus that supplies the BX interface (marks,
-pairing, support, reference) can move beyond this; no existing public
-dataset supplies it. No apparatus, device or calibration execution is
-implied; metric interpretation and dynamics remain separate and unproved.
-General densities/metrics, RET integration and gravity dynamics remain
-separate; BK's unused negative-θ optimization is not a prerequisite.
+**Next proposed gate: QR-05CC reference-calibration composition verification.**
+This is BW's deferred gate, the last open item on the geometry path; it is
+purely symbolic. After it, the geometry path resumes on *supplied Lorentzian
+geometries / sprinklings* (T7, as in QR-05D), which is its legitimate input,
+and ultimately a purpose-built geometric-probe apparatus. The Bell dataset
+belongs to a separate quantum-correspondence study (Bell/Tsirelson and the
+Fisher–Rao history distance), off the geometry→gravity path. No apparatus,
+device or calibration execution is implied; metric interpretation and dynamics
+remain separate and unproved.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2404,8 +2410,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BY: metric interpretation and dynamics design (complete, design-only) | Preregisters Φ : summary → [ (M,g) ]/~ with seven metric and five dynamics acceptance tests, and nine inherited obstructions as bounds; dynamics presupposes a metric | No metric, manifold, continuum limit or dynamical law; conditional on BW/BX; no Einstein equation or gravity claim |
 | QR-05BZ: physical protocol and measured-data design (complete, design-only) | Six-stage protocol, content-addressed append-only data contract, deterministic reduction, BX uncertainty ledger, BU/BT feasibility formula and explicit refusal conditions; all post-data decisions pre-registered | Conditional on BX/BW; no device, record, fabricated data, calibration or numerical study; no metric, continuum limit or dynamics |
 | QR-05CA: bounded synthetic pipeline rehearsal (complete, executable) | Exact-rational end-to-end run of the BZ pipeline on declared synthetic data: reduction, seven refusal conditions (incl. SHA-256 seal mutation), allowance/envelope, discrete inverse, feasibility and BY registry; two routes agree, 11 tests pass | Datasets are declared tables, not measurements; no device, calibration, metric or dynamics; conditional on BW/BX |
-| QR-05CB: open-data applicability run (complete, executable; negative) | Real Bell-test CHSH data (1,184×29, SHA-256 pinned) under three declared mappings; nesting by construction but minimum gap ≈0.174 to the ideal family, zero admitted at e_cal=3/200; two routes agree, 9 tests pass | Verdict is per declared mapping, not a measurement; public data is not a QR-05 substrate without an unjustified normalization; no apparatus, metric or dynamics |
-| Next: purpose-built apparatus run | An apparatus supplying the BX interface (marks, pairing, support, reference) assessed with the BZ protocol | No existing public dataset supplies it; no calibration, metric or dynamics follows from CB |
+| QR-05CB: open-data applicability run (complete, executable; reclassified as category mismatch) | Real Bell-test CHSH data (1,184×29, SHA-256 pinned) compared to the ideal family under three declared mappings; zero admitted at e_cal=3/200; two routes agree, 9 tests pass | Ontology review reclassified this: the dataset is a quantum-correlation object, not a T7 geometry input, so the mapping fabricated the geometric side; not a test of the model. Geometry path needs supplied sprinklings or a geometric-probe apparatus |
+| Next: QR-05CC reference-calibration composition verification | The deferred BW gate: symbolically verify the composition algebra, selection regimes and auditable schema | Last open item on the geometry path; conditional on P1–P12; no data, device, metric or dynamics |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

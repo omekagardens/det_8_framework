@@ -1,11 +1,14 @@
 # QR-05CB results
 
 10 September 2026 (Pacific/Honolulu). **Open-data applicability run complete.
-Negative result.** A real, public Bell-test dataset was acquired and run
-through the QR-05 record model's applicability test. Under every declared
-mapping the mapped data lies outside the ideal family by a wide margin, and
-no target is admitted. The dataset is not a valid substrate for the BZ
-protocol without an unjustified normalization.
+Amended the same day: reclassified as a category mismatch.** A real, public
+Bell-test dataset was acquired and compared to the QR-05 ideal family. Under
+every declared mapping the mapped data lies outside the family by a wide
+margin and no target is admitted. A step-back ontology review then showed that
+the dataset instantiates DET's **quantum-correlation** commitment, not the
+**T7 geometry** commitment the protocol targets, so the mapping fabricated the
+missing geometric side. The numerical gap is real; it is *not* a test of the
+QR-05 model. See the [ontology amendment](ONTOLOGY_AMENDMENT.md).
 
 The [contract](README.md), [fixed protocol](protocol.json), [source
 freeze](source-freeze.json) and [complete capture](results.json) retain the

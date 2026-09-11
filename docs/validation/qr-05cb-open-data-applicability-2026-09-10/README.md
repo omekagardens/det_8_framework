@@ -56,10 +56,12 @@ second coordinate spans a narrow band while the mapped data's second
 coordinate does not overlap it in any declared mapping, so no setting is
 admitted.
 
-This is a **negative applicability result**: the public Bell-test dataset is
-not a valid substrate for the QR-05/BZ protocol without an unjustified
-normalization, and the physical run cannot be completed meaningfully on it.
-A purpose-built apparatus (BX) is required.
+This is a **category mismatch, not a model failure** (see the
+[ontology amendment](ONTOLOGY_AMENDMENT.md)): the Bell dataset instantiates
+DET's quantum-correlation commitment, not the T7 geometry commitment, so the
+mapping fabricated the geometric side and the protocol is simply not
+applicable to it. The geometry path needs a supplied Lorentzian geometry /
+sprinkling (T7) or a purpose-built geometric-probe apparatus (BX).
 
 ## 4. Boundaries
 
