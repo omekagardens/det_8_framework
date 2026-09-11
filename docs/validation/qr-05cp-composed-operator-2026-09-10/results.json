@@ -1,0 +1,15 @@
+{
+  "report": {
+    "composed": true,
+    "composition_constant": 0.977361456,
+    "composition_dev": 0.0,
+    "control_corr": 0.018009701,
+    "reconstruction_corr": 0.992942628,
+    "schema": "qr05cp-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cp-capture-v1"
+}
