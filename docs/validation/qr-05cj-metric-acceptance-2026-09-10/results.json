@@ -1,0 +1,52 @@
+{
+  "report": {
+    "boost": {
+      "order_preserved": true,
+      "preserved": 159598,
+      "total": 159598
+    },
+    "conformal_recovery": {
+      "mse": 0.003166637,
+      "recovered": [
+        0.741,
+        0.837,
+        0.93,
+        1.059,
+        1.254,
+        1.167,
+        1.269,
+        1.263,
+        1.05,
+        0.921,
+        0.777,
+        0.732
+      ],
+      "truth": [
+        0.690000965,
+        0.843901636,
+        0.981885202,
+        1.094548313,
+        1.174213162,
+        1.215450722,
+        1.215450722,
+        1.174213162,
+        1.094548313,
+        0.981885202,
+        0.843901636,
+        0.690000965
+      ]
+    },
+    "negative_control": {
+      "control_required": true,
+      "mse": 0.032697412
+    },
+    "order_invariant": true,
+    "scale_invariant": true,
+    "schema": "qr05cj-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cj-capture-v1"
+}

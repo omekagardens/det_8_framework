@@ -1,0 +1,11 @@
+{
+  "schema": "qr05cj-protocol-v1",
+  "n": 4000,
+  "seed": 9,
+  "b": 1.0,
+  "bins": 12,
+  "boost_beta": 0.4,
+  "mse_tolerance": 0.01,
+  "control_factor": 3.0,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
