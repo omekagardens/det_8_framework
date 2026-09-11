@@ -1,0 +1,11 @@
+{
+  "schema": "qr05cz-protocol-v1",
+  "seed": 6,
+  "seeds": [0, 1, 2, 3],
+  "n_exact": [5, 6, 7],
+  "n_scale": [8, 16, 32, 64, 128, 256],
+  "convention_n": [8, 32, 256],
+  "minimax_iters": 80,
+  "area": 0.5,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

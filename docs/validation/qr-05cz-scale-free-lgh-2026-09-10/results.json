@@ -1,0 +1,199 @@
+{
+  "report": {
+    "arm_directed": [
+      {
+        "fixed_identity": 0.924146566,
+        "lower_bound": 0.924146566,
+        "n": 8,
+        "relative_scale": 0.904958789,
+        "scale_free_identity": 0.699455212
+      },
+      {
+        "fixed_identity": 0.763952002,
+        "lower_bound": 0.547353737,
+        "n": 16,
+        "relative_scale": 0.948804225,
+        "scale_free_identity": 0.677938951
+      },
+      {
+        "fixed_identity": 1.130863108,
+        "lower_bound": 0.342713108,
+        "n": 32,
+        "relative_scale": 0.944395438,
+        "scale_free_identity": 1.028777619
+      },
+      {
+        "fixed_identity": 0.650927007,
+        "lower_bound": 0.54975796,
+        "n": 64,
+        "relative_scale": 1.005231238,
+        "scale_free_identity": 0.638360811
+      },
+      {
+        "fixed_identity": 0.773219875,
+        "lower_bound": 0.340393753,
+        "n": 128,
+        "relative_scale": 1.023504955,
+        "scale_free_identity": 0.741193206
+      },
+      {
+        "fixed_identity": 0.554086155,
+        "lower_bound": 0.258467898,
+        "n": 256,
+        "relative_scale": 1.0496497,
+        "scale_free_identity": 0.54102358
+      }
+    ],
+    "arm_symmetric": [
+      {
+        "fixed_identity": 2.388728777,
+        "lower_bound": 0.953511788,
+        "n": 8
+      },
+      {
+        "fixed_identity": 2.553976453,
+        "lower_bound": 0.933910468,
+        "n": 16
+      },
+      {
+        "fixed_identity": 2.706159834,
+        "lower_bound": 0.916640665,
+        "n": 32
+      },
+      {
+        "fixed_identity": 2.738166406,
+        "lower_bound": 0.896271009,
+        "n": 64
+      },
+      {
+        "fixed_identity": 3.168404695,
+        "lower_bound": 0.902380287,
+        "n": 128
+      },
+      {
+        "fixed_identity": 3.333189318,
+        "lower_bound": 0.907912153,
+        "n": 256
+      }
+    ],
+    "convention": {
+      "chain_vs_directed": {
+        "256": 0,
+        "32": 0,
+        "8": 0
+      },
+      "chain_vs_symmetric": {
+        "256": 15512,
+        "32": 251,
+        "8": 18
+      },
+      "max_directed": {
+        "256": 3.333189318,
+        "32": 2.706159834,
+        "8": 2.388728777
+      },
+      "max_symmetric": {
+        "256": 3.333189318,
+        "32": 2.706159834,
+        "8": 2.388728777
+      },
+      "n_checked": [
+        8,
+        32,
+        256
+      ]
+    },
+    "directed_floor_lower_bound": 0.157884027,
+    "directed_lower_bound_decays": true,
+    "identity_is_optimal_scale_free": true,
+    "lgh_infimum_established": false,
+    "reclassification": "QR-05CW/CX built the continuum counterpart symmetrically (|dt|^2), which does not satisfy LMS A3 and does not match the directed chain support; the reverse-direction terms |0 - tau| = tau dominated, so their non-vanishing floor is an artifact of that convention. Their identity-optimality sub-finding is retained (identity is still optimal under the directed distance).",
+    "rows_exact": [
+      {
+        "exact_scale_free_infimum": 0.815608769,
+        "fixed_identity": 0.825995126,
+        "identity_optimal": true,
+        "n": 5,
+        "scale_free_identity": 0.815608769
+      },
+      {
+        "exact_scale_free_infimum": 0.859771806,
+        "fixed_identity": 1.029239343,
+        "identity_optimal": true,
+        "n": 6,
+        "scale_free_identity": 0.859771806
+      },
+      {
+        "exact_scale_free_infimum": 0.777172458,
+        "fixed_identity": 0.777740077,
+        "identity_optimal": true,
+        "n": 7,
+        "scale_free_identity": 0.777172458
+      }
+    ],
+    "schema": "qr05cz-report-v1",
+    "symmetric_floor_lower_bound": 0.896271009,
+    "trend_directed": [
+      {
+        "ell": 0.25,
+        "fixed_identity_mean": 0.6570461,
+        "lower_bound_mean": 0.497715291,
+        "lower_bound_over_ell": 1.990861165,
+        "n": 8,
+        "scale_free_identity_mean": 0.620618941,
+        "scale_free_identity_sd": 0.250639259
+      },
+      {
+        "ell": 0.176776695,
+        "fixed_identity_mean": 0.830034658,
+        "lower_bound_mean": 0.431357671,
+        "lower_bound_over_ell": 2.440127476,
+        "n": 16,
+        "scale_free_identity_mean": 0.787703204,
+        "scale_free_identity_sd": 0.201892772
+      },
+      {
+        "ell": 0.125,
+        "fixed_identity_mean": 0.865973942,
+        "lower_bound_mean": 0.357963511,
+        "lower_bound_over_ell": 2.86370809,
+        "n": 32,
+        "scale_free_identity_mean": 0.81132016,
+        "scale_free_identity_sd": 0.153014204
+      },
+      {
+        "ell": 0.088388348,
+        "fixed_identity_mean": 0.804078471,
+        "lower_bound_mean": 0.239149019,
+        "lower_bound_over_ell": 2.705662292,
+        "n": 64,
+        "scale_free_identity_mean": 0.729903261,
+        "scale_free_identity_sd": 0.066447141
+      },
+      {
+        "ell": 0.0625,
+        "fixed_identity_mean": 0.721073951,
+        "lower_bound_mean": 0.186627484,
+        "lower_bound_over_ell": 2.986039752,
+        "n": 128,
+        "scale_free_identity_mean": 0.691352921,
+        "scale_free_identity_sd": 0.129595435
+      },
+      {
+        "ell": 0.044194174,
+        "fixed_identity_mean": 0.674295926,
+        "lower_bound_mean": 0.157884027,
+        "lower_bound_over_ell": 3.572507711,
+        "n": 256,
+        "scale_free_identity_mean": 0.612405961,
+        "scale_free_identity_sd": 0.080212941
+      }
+    ],
+    "verdict": "convention defect corrected, obstruction withdrawn, convergence reopened. With the directed Lorentzian distance the scale-free distortion is much smaller than the contaminated value (<= ~0.9 vs ~1.8-3.3) and its certified lower bound decreases monotonically from ~0.50 (N=8) to ~0.16 (N=256, ~2-3.6 x ell), so the CW/CX non-vanishing floor was an artifact. The natural-correspondence upper bound does NOT visibly decay (~0.6-0.8, noisy), so the scale-free infimum (bracketed between them) is not shown to converge: the question is reopened, not settled. No metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cz-capture-v1"
+}
