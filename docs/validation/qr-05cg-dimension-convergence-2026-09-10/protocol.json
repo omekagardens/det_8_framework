@@ -1,0 +1,9 @@
+{
+  "schema": "qr05cg-protocol-v1",
+  "dims": [2, 4],
+  "n_grid": [125, 250, 500, 1000],
+  "seeds": [1, 2, 3, 4, 5],
+  "expected_exponent": {"2": -0.5, "4": -0.25},
+  "tol": 0.05,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

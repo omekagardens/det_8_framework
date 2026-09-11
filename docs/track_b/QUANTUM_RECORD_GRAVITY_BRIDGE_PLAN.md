@@ -15,8 +15,8 @@ separately developing RET checkout state or a live instrument assessment.
 | RET SDK | Implemented development preview; G2 remains open | Locked calibration, integrated same-source rehearsal and release evidence; QR-06 also needs the reviewed quantum likelihood/policy contract |
 | Materials monitoring | Downstream application gate remains open | Auditable measured data, baselines and leakage-safe holdout evaluation after the RET foundation |
 | Anomaly triage | Downstream application gate remains open | Null/fault calibration and independent measured-data replay; anomaly scores are not new-physics evidence |
-| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CF are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA, CB, CC, CD, CE and CF are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF benchmarks the T7 estimators on supplied geometry; a purpose-built apparatus remains open |
-| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly; CF verifies dimension, null structure and conformal-factor estimators on supplied Minkowski sprinklings | The 3+1 dimension-convergence rate and continuum-limit theorems remain open; a purpose-built apparatus, independent reference/transfer evidence, absolute scale, general metrics and Einstein-like dynamics remain unresolved |
+| Quantum–record / Track-B mathematics | QR-01–04 and bounded QR-05 investigations through CG are recorded; BB, BL, BQ, BS, BU, BW, BX, BY, BZ, CA, CB, CC, CD, CE, CF and CG are analytical/design checkpoints | CC closed BW's deferred composition verification; CD fixes the routing rule; CE runs the Bell data on its correct commitment; CF–CG benchmark the T7 estimators and the 1+1 vs 3+1 convergence rate on supplied geometry; a purpose-built apparatus remains open |
+| Physical geometry and dynamics | BV verifies bound-only actual-law separation max(D−2e,0), enlarged coupled inverses and eight planning rows; BW composes an independent reference and same-population transfer into a conditional allowance; BX defines the apparatus-to-event interface with every layer unsupplied; BY preregisters metric-interpretation and dynamical-correspondence acceptance tests; BZ fixes the measurement protocol and measured-data contract; CA rehearses that pipeline on synthetic data; CB was reclassified; CC verifies the composition algebra; CD routes datasets to targets; CE runs the Bell data correctly; CF verifies the T7 estimators on supplied sprinklings; CG computes the 3+1 covering rate (−0.265 vs −0.506 in 1+1) | LGH convergence, curvature/Laplacian estimators and continuum-limit theorems remain open; a purpose-built apparatus, independent reference/transfer evidence, absolute scale, general metrics and Einstein-like dynamics remain unresolved |
 | Book, clocks and retired gravity work | Book work remains archival; clocks and later gravity couplings remain deferred | No reopening or promotion follows from these mathematical studies |
 
 The immediate sequence is **BA error composition → BB bridge design → BC
@@ -47,7 +47,8 @@ CB open-data applicability run (reclassified as category mismatch) →
 CC reference-calibration composition verification (complete) →
 CD DET data-routing design (complete, design-only) →
 CE Bell correspondence and history distance (complete, executable) →
-CF T7 supplied-geometry benchmark (complete, executable)**. BF derives the
+CF T7 supplied-geometry benchmark (complete, executable) →
+CG dimension-convergence benchmark (complete, executable)**. BF derives the
 four-site target-identification condition (1−u)(1−v)=1/4 for this supplied
 model. At two moved equality positions, recompiling the weights repairs
 the stale BE row. At three other positions, admitted pairs have identical
@@ -142,10 +143,11 @@ pipeline end-to-end on declared synthetic data, and CB tested a public
 Bell-test dataset but was reclassified as a category mismatch; CC closed BW's
 deferred composition verification, CD fixes the dataset-routing rule, CE
 applies the Bell data correctly to the Bell/Tsirelson correspondence and the
-Fisher–Rao history distance, and CF benchmarks the T7 order-and-count
-estimators on supplied Minkowski sprinklings. Every geometric claim stays
-conditional on a supplied geometry or purpose-built apparatus that does not
-yet exist.
+Fisher–Rao history distance, CF benchmarks the T7 order-and-count estimators
+on supplied Minkowski sprinklings, and CG computes the 1+1 vs 3+1 covering
+rate (−0.506 vs −0.265), making the recorded 3+1-slowest caveat quantitative.
+Every geometric claim stays conditional on a supplied geometry or purpose-built
+apparatus that does not yet exist.
 BP itself remains a
 supplied-population-bound result.
 Earlier uncertainty about sampling position is not reinterpreted as unknown
@@ -2317,13 +2319,22 @@ factor is recovered from counts to MSE 0.0059, order is invariant under
 verification on known geometry, not emergence, and not gravity. See
 [QR-05CF results](../validation/qr-05cf-t7-supplied-geometry-2026-09-10/RESULTS.md).
 
-**Next proposed gate: dimension-convergence / continuum-limit benchmark.**
-Address the recorded caveat that the convergence rates (α≈0.50, 0.75, 0.85)
-were measured only in 1+1 and the physically relevant 3+1 rate is not yet
-computed. This is a bounded, supplied-geometry benchmark on T7 estimators, not
-a manifold-emergence or gravity claim; κ-gravity remains retired and gravity is
-standard GR under Option B. A purpose-built geometric-probe apparatus is still
-required for any measured claim.
+**QR-05CG complete: dimension-convergence benchmark (executable).**
+Measures the covering/fill-in rate of supplied sprinklings, addressing the
+recorded caveat that convergence rates were measured only in 1+1. Mean
+nearest-neighbour distance over N∈{125,250,500,1000} and five seeds gives
+exponent −0.506 in d=2 and −0.265 in d=4, both within 0.05 of −1/d, with 3+1
+the slowest. Two independent routes agree; 6 tests pass. It is a finite
+diagnostic on supplied geometry, not a continuum-limit theorem, not curvature
+and not gravity. See
+[QR-05CG results](../validation/qr-05cg-dimension-convergence-2026-09-10/RESULTS.md).
+
+**Next proposed gate: bond-Laplacian / curvature estimator benchmark.**
+The roadmap's DET-specific Step 2: verify a graph/order-derived Laplacian or
+curvature estimator against a supplied geometry and its known continuum value,
+with the same bounded, two-route discipline. LGH embedding and the Benincasa–
+Dowker action convergence remain shared, hard, and out of scope here; κ-gravity
+stays retired and gravity is standard GR under Option B.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
 RET quantum adapter under its own SDK/calibration gates. Publication remains
@@ -2460,7 +2471,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CD: DET data-routing design (complete, design-only) | Maps each DET structural target to its legitimate data and gate, with a five-point admissibility checklist; names the CB misroute | Discipline, not a result; supplies no metric, dynamics or physical claim |
 | QR-05CE: Bell correspondence and history distance (complete, executable) | Reproduces E(α,β); amplitudes ≈0.78 > 1/√2 (exact witness), so the Bell/Tsirelson correlation; Fisher–Rao history distance κ≈0.566/0.570; two routes agree, 7 tests pass | Correspondence on public data, not a derivation, not geometry, not new physics; off the geometry→gravity path |
 | QR-05CF: T7 supplied-geometry benchmark (complete, executable) | Dimension recovery d=2,3,4 (r=0.5164/0.2198/0.1061 vs analytic 0.5/8⁄35/0.1), links nearer null (0.0506 vs 0.1845), conformal-factor MSE 0.0059, Ω²-invariance, and a chain/antichain control outside [0.1,0.5]; two routes agree, 9 tests pass | Estimator verification on supplied geometry, not emergence; no curvature, continuum limit or gravity; manifoldlikeness open |
-| Next: dimension-convergence / continuum-limit benchmark | Compute the 3+1 convergence rate (the recorded caveat: rates measured only in 1+1) on supplied sprinklings | Bounded supplied-geometry benchmark; not manifold emergence or gravity; κ-gravity retired, gravity standard GR |
+| QR-05CG: dimension-convergence benchmark (complete, executable) | Mean nearest-neighbour covering rate on supplied sprinklings: exponent −0.506 (d=2) and −0.265 (d=4), both within 0.05 of −1/d, 3+1 slowest; two routes agree, 6 tests pass | Finite diagnostic on supplied geometry; not a continuum-limit theorem, not curvature, not gravity; κ-gravity retired, gravity standard GR |
+| Next: bond-Laplacian / curvature estimator benchmark | Verify a graph/order-derived Laplacian or curvature estimator against a supplied geometry and its known continuum value | DET-specific roadmap Step 2; bounded supplied-geometry benchmark; LGH embedding and Benincasa–Dowker convergence out of scope |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

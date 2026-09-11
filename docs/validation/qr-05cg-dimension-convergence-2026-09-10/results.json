@@ -1,0 +1,39 @@
+{
+  "report": {
+    "curves": [
+      {
+        "abs_err": 0.006144917761,
+        "d": 2,
+        "expected": -0.5,
+        "exponent": -0.506144917761,
+        "mean_nn": [
+          0.032293437241,
+          0.022790175161,
+          0.015901721545,
+          0.011306619342
+        ],
+        "within_tolerance": true
+      },
+      {
+        "abs_err": 0.01502574369,
+        "d": 4,
+        "expected": -0.25,
+        "exponent": -0.26502574369,
+        "mean_nn": [
+          0.118894069449,
+          0.097233706391,
+          0.081542469742,
+          0.068344282797
+        ],
+        "within_tolerance": true
+      }
+    ],
+    "schema": "qr05cg-report-v1",
+    "slowest_dim": 4
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cg-capture-v1"
+}
