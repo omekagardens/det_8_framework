@@ -1,0 +1,106 @@
+{
+  "report": {
+    "brute_agrees": true,
+    "certified_floor": 0.896271009,
+    "control": {
+      "distinct": false,
+      "incomparable_infimum": 1.953488372
+    },
+    "identity_is_optimal": true,
+    "lgh_infimum_established": false,
+    "no_convergence_to_zero": true,
+    "rows": [
+      {
+        "brute": 1.713339476,
+        "identity": 1.713339476,
+        "improvement": 0.0,
+        "infimum": 1.713339476,
+        "n": 5
+      },
+      {
+        "brute": 2.807017121,
+        "identity": 2.807017121,
+        "improvement": 0.0,
+        "infimum": 2.807017121,
+        "n": 6
+      },
+      {
+        "brute": 2.318062855,
+        "identity": 2.318062855,
+        "improvement": 0.0,
+        "infimum": 2.318062855,
+        "n": 7
+      },
+      {
+        "brute": 2.388728777,
+        "identity": 2.388728777,
+        "improvement": 0.0,
+        "infimum": 2.388728777,
+        "n": 8
+      },
+      {
+        "brute": null,
+        "identity": 2.47381589,
+        "improvement": 0.0,
+        "infimum": 2.47381589,
+        "n": 9
+      },
+      {
+        "brute": null,
+        "identity": 2.189744159,
+        "improvement": 0.0,
+        "infimum": 2.189744159,
+        "n": 10
+      }
+    ],
+    "scale": [
+      {
+        "identity_upper": 2.388728777,
+        "lower_bound": 0.953511788,
+        "max_dx": 2.16,
+        "n": 8
+      },
+      {
+        "identity_upper": 2.553976453,
+        "lower_bound": 0.933910468,
+        "max_dx": 2.290322581,
+        "n": 16
+      },
+      {
+        "identity_upper": 2.706159834,
+        "lower_bound": 0.916640665,
+        "max_dx": 2.820224719,
+        "n": 32
+      },
+      {
+        "identity_upper": 2.738166406,
+        "lower_bound": 0.896271009,
+        "max_dx": 3.287924366,
+        "n": 64
+      },
+      {
+        "identity_upper": 3.168404695,
+        "lower_bound": 0.902380287,
+        "max_dx": 3.494895695,
+        "n": 128
+      },
+      {
+        "identity_upper": 3.333189318,
+        "lower_bound": 0.907912153,
+        "max_dx": 3.541117179,
+        "n": 256
+      }
+    ],
+    "scale_degeneracy": {
+      "free_scale_infimum_control": 0.0,
+      "note": "with a free scale, s=0 makes any comparison trivial (the LGH class is conformal); the distance must be scale-fixed"
+    },
+    "schema": "qr05cx-report-v1",
+    "verdict": "inconclusive for LGH convergence: at the fixed mean scale the exact infimum is certified only on the exact grid (identity optimal throughout), and beyond it a certified lower-bound floor does not vanish to N=256; the free-scale infimum is degenerate, so the fixed scale is a convention"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05cx-capture-v1"
+}

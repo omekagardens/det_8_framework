@@ -1,0 +1,14 @@
+{
+  "schema": "qr05cx-protocol-v1",
+  "n_exact": [5, 6, 7, 8, 9, 10],
+  "n_brute_max": 8,
+  "n_scale": [8, 16, 32, 64, 128, 256],
+  "seed": 6,
+  "control_factor": 2.0,
+  "floor_threshold": 0.1,
+  "boundary": [
+    {"n": 11, "infimum": 2.405637178, "identity": 2.405637178, "identity_optimal": true, "perm_is_identity": true, "nodes": 18741792, "seconds": 56.24},
+    {"n": 12, "infimum": 2.468445727, "identity": 2.468445727, "identity_optimal": true, "perm_is_identity": true, "nodes": 207146123, "seconds": 675.65}
+  ],
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
