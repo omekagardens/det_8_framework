@@ -2,10 +2,12 @@
 
 10 September 2026 (Pacific/Honolulu). **Executable, supplied geometry, bounded.
 Outcome: implementation verified; continuum limit not demonstrated at
-accessible N.** This resumes the parked Lorentzian-operator gate with the
-correct 2D operator. It verifies the operator's two forms against each other
-exactly, attempts the continuum limit on supplied sprinklings, and reports the
-outcome honestly. Supplied geometry; no gravity claim.
+accessible N. Amended: reclassified as an imported causal-set correspondence,
+not the DET-native route.** The Benincasa–Dowker operator is a borrowed
+causal-set field-theory tool; DET's own commitments place a *wave-like*
+operator in **T5** (local conservative kernels; coefficients from kernel
+moments), not in an order-layer construction. See the
+[commitment-routing amendment](COMMITMENT_ROUTING.md).
 
 Continue [QR-05CK](../qr-05ck-metric-reconstruction-2026-09-10/README.md) and
 the T7 module `det8/models/order_count_geometry.py`.

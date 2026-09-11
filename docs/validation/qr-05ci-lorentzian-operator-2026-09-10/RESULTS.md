@@ -2,9 +2,12 @@
 
 10 September 2026 (Pacific/Honolulu). **2D Lorentzian operator benchmark
 complete. Outcome: implementation verified; continuum limit not demonstrated
-at accessible N.** This resumes the parked gate with the correct 2D operator,
-verifies its two forms exactly, attempts the continuum limit, and re-parks it
-with the evidence. Supplied geometry; no gravity claim.
+at accessible N. Amended: reclassified as an imported causal-set
+correspondence, not DET-native.** The Benincasa–Dowker operator is borrowed
+causal-set mathematics; DET's commitments put a wave-like operator in **T5**
+(local conservative kernels, coefficients from kernel moments). The numerical
+result stands; the routing changes. See the
+[commitment-routing amendment](COMMITMENT_ROUTING.md).
 
 ## The operator
 
