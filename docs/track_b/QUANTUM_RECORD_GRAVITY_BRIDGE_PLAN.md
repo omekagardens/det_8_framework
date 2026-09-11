@@ -2578,15 +2578,38 @@ established** (the natural-correspondence upper bound is noisy and does not deca
 Identity-optimality and scale-degeneracy stand. Two routes agree; 11 tests pass. See
 [QR-05CZ results](../validation/qr-05cz-scale-free-lgh-2026-09-10/RESULTS.md).
 
-**Next: the scale-free LGH infimum and its convergence (research-grade) or the empirical bridge (Branch B; OPEN — physical evidence required).**
-The scale-free infimum is bracketed but the brackets do not meet; a constructive
-vanishing-distortion bound, the density/commensurability condition and ensemble
-convergence remain open, and exact search still grows ≈ 10× per N. The blocked gate
-is split: **Branch A** (mathematical closure) proceeds via CY/CZ and successors;
-**Branch B** (apparatus, BX/BW/BZ) stays open until physical evidence is supplied
-and no mathematical result marks an apparatus fact as supplied. Recommend a
-dedicated research effort, awaiting apparatus, or consolidation; do not promote
-either. Curvature stays quarantined; κ-gravity stays retired and gravity is
+**QR-05DA complete: scale-free LGH convergence and the estimator split (executable; CZ's reopening resolved into an estimator dependence).**
+CZ's reopening is attacked directly. Two discrete time-separations are compared to
+the directed Lorentzian distance on the same points, spacing and scale: the
+order-only longest chain and a T7-native **order+count** reconstruction `ℓ·√(1+m)`
+(`m` = points strictly between). Extending the trend to `N = 512` and fitting over
+`N ≥ 32`, the chain's certified lower bound decays `~N^−0.37` but its
+natural-correspondence ceiling decays only `~N^−0.16` and is **localized to large
+proper time** (distortion rises from `~0.10` at near-null to `~0.60` at large `τ/ℓ`,
+where the longest-chain ratio settles at a constant `≈ 1.2` with a shrinking relative
+spread): the ceiling is the finite-size fluctuation of the longest-chain estimator,
+not the directed-distance convention (settled by CZ) and not the near-null pairs. On
+the same footing the order+count reconstruction decays distinctly faster — ceiling
+`~N^−0.28`, bulk `p99` `~N^−0.41` (consistent with Poisson counting) — and its
+ceiling falls below the chain's from `N = 16`. So the reopened convergence question
+depends on the reconstruction, not on the convention. Neither is verified to converge
+(the count ceiling is still `O(0.3)` at `N = 512`). Identity is scale-free optimal on
+the exact grid (`N ≤ 7`); a random-correspondence control separates `0.74` from
+`3.30` at `N = 128`. Two routes agree; 15 tests pass. See
+[QR-05DA results](../validation/qr-05da-lgh-convergence-2026-09-10/RESULTS.md).
+
+**Next: a constructive count-based vanishing bound (research-grade) or the empirical bridge (Branch B; OPEN — physical evidence required).**
+The scale-free infimum is bracketed but the brackets do not meet. DA localizes why
+for the order-only chain (the ceiling is a large-proper-time longest-chain
+fluctuation) and shows a T7-native order+count reconstruction decays distinctly
+faster — but a *constructive* vanishing bound (and the statement that the count
+family is a metric space with a controlled limit), the density/commensurability
+condition and ensemble convergence remain open, and exact search still grows ≈ 10×
+per N. The blocked gate is split: **Branch A** (mathematical closure) proceeds via
+CY/CZ/DA and successors; **Branch B** (apparatus, BX/BW/BZ) stays open until physical
+evidence is supplied and no mathematical result marks an apparatus fact as supplied.
+Recommend a dedicated research effort, awaiting apparatus, or consolidation; do not
+promote either. Curvature stays quarantined; κ-gravity stays retired and gravity is
 standard GR under Option B.
 
 Lean installation and physical interfaces remain separate; keep the QR-06
@@ -2744,7 +2767,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05CX: LGH infimum at scale via branch-and-bound (complete, executable; inconclusive) | Exact infimum by branch-and-bound to N=10, boundary to N=12 (identity optimal throughout; brute-force validated ≤8); certified sorted-multiset lower bound ≈0.90 to N=256 (floor 0.896271) while the identity upper bound grows 2.389→3.333; nodes grow ≈10×/N; two routes agree, 11 tests pass | Extends CW; identity-optimality holds to N=12; **the fixed-scale non-vanishing floor was reclassified by CZ as a symmetric-counterpart artifact**; the scale-free comparison, density/commensurability, ensemble convergence and manifoldlikeness remain open; no metric, continuum, curvature or gravity claim |
 | QR-05CY: observational quotient and internal-reference no-go (complete, executable) | Exact observational quotient on a declared finite world class: dimension IDENTIFIED; order exactly blind to the conformal factor (counts identify it); absolute scale and reference validity NON_IDENTIFIABLE from the same channel (witness pairs); every `O`-built reference is blind on the witness class (no-go); taxonomy mapped onto `det8.claims` with no new vocabulary; two routes agree, 11 tests pass | Separates identifiability from empirical applicability; closes the non-empirical half of the BW/P5 blockage negatively; makes no ontological claim (P5 Status M); does not supply apparatus evidence or satisfy P5 physically |
 | QR-05CZ: scale-free LGH comparison and directed-distance correction (complete, executable) | Continuum counterpart corrected to the directed Lorentzian distance (chain-vs-symmetric support mismatches 18/251/15512; 0 directed); directed scale-free distortion ≤~0.9 vs 1.8–3.3; certified lower bound decreases monotonically 0.498→0.158 over N=8…256 (~2–3.6×ℓ); identity scale-free optimal on the exact grid; c*≈1; two routes agree, 11 tests pass | Withdraws/reclassifies the CW/CX non-vanishing floor as a convention artifact; reopens the scale-free convergence question (bracketed, not pinned); no metric, continuum, curvature or gravity claim |
-| Next: the scale-free LGH infimum and its convergence (research-grade) or empirical bridge (Branch B; OPEN — physical evidence required) | A constructive vanishing-distortion bound and the meeting brackets; density/commensurability; ensemble convergence — or the BX apparatus | Branch A proceeds mathematically via CY/CZ successors; Branch B remains open until physical evidence is supplied; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
+| QR-05DA: scale-free LGH convergence and the estimator split (complete, executable) | Chain ceiling localized in proper time (near-null ~0.10 → large-τ ~0.60); asymptotic decay exponents (N ≥ 32): chain lower bound 0.374, chain bulk (p99) 0.307, **chain ceiling 0.160**; order+count (T7-native) reconstruction ceiling 0.278, bulk 0.409 (consistent with Poisson ~N^−1/2); count ceiling below chain from N = 16; identity scale-free optimal on the exact grid; random control 0.74 vs 3.30; two routes agree, 15 tests pass | Resolves CZ's reopening into an **estimator dependence**: the order-only chain ceiling is fluctuation-limited at large proper time, the order+count reconstruction decays distinctly faster; neither is verified to converge; no metric, continuum, curvature or gravity claim |
+| Next: a constructive count-based vanishing bound (research-grade) or the empirical bridge (Branch B; OPEN — physical evidence required) | A proof that the order+count reconstruction's scale-free distortion vanishes (and that its count family is a metric space with a controlled limit); density/commensurability; ensemble convergence — or the BX apparatus | Branch A proceeds mathematically via CY/CZ/DA successors; Branch B remains open until physical evidence is supplied; do not promote; curvature and the BD operator stay parked; κ-gravity retired, gravity standard GR |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise
 can complete an investigative gate without certifying the failed construction.

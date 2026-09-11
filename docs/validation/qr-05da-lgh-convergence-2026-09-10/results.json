@@ -1,0 +1,279 @@
+{
+  "report": {
+    "convention": {
+      "chain_vs_directed": {
+        "256": 0,
+        "32": 0,
+        "8": 0
+      },
+      "chain_vs_symmetric": {
+        "256": 15512,
+        "32": 251,
+        "8": 18
+      },
+      "count_offset_vs_directed": {
+        "256": 0,
+        "32": 0,
+        "8": 0
+      },
+      "count_raw_vs_directed": {
+        "256": 1025,
+        "32": 67,
+        "8": 12
+      },
+      "n_checked": [
+        8,
+        32,
+        256
+      ]
+    },
+    "decay": {
+      "chain_lower": 0.373920381,
+      "chain_p99": 0.307033258,
+      "chain_upper": 0.16015907,
+      "count_p99": 0.40893592,
+      "count_upper": 0.277582991,
+      "ell_exponent_chain_lower": 0.747840762,
+      "ell_exponent_chain_p99": 0.614066516,
+      "ell_exponent_chain_upper": 0.32031814,
+      "ell_exponent_count_p99": 0.81787184,
+      "ell_exponent_count_upper": 0.555165982,
+      "fit_n_min": 32
+    },
+    "exact": [
+      {
+        "exact_scale_free_infimum": 0.815608769,
+        "identity_optimal": true,
+        "n": 5,
+        "relative_scale": 1.059690035,
+        "scale_free_identity": 0.815608769
+      },
+      {
+        "exact_scale_free_infimum": 0.859771806,
+        "identity_optimal": true,
+        "n": 6,
+        "relative_scale": 0.939627181,
+        "scale_free_identity": 0.859771806
+      },
+      {
+        "exact_scale_free_infimum": 0.777172458,
+        "identity_optimal": true,
+        "n": 7,
+        "relative_scale": 1.025499569,
+        "scale_free_identity": 0.777172458
+      }
+    ],
+    "flags": {
+      "ceiling_is_at_large_proper_time": true,
+      "chain_bulk_decays_faster_than_chain_max": true,
+      "chain_ceiling_decays_slowly": true,
+      "count_below_chain_from_n": 16,
+      "count_bulk_decays_faster_than_chain_bulk": true,
+      "count_max_decays_faster_than_chain_max": true,
+      "count_support_matches_directed": true,
+      "exact_identity_optimal": true,
+      "lgh_infimum_established": false
+    },
+    "localization": [
+      {
+        "bucket": "lt_2^-4",
+        "max_abs": 0.096412696,
+        "mean_abs": 0.086651277,
+        "n": 43,
+        "ratio_mean": 46.867038483,
+        "ratio_sd": 51.783810882
+      },
+      {
+        "bucket": "2^-4..2^-3",
+        "max_abs": 0.089826751,
+        "mean_abs": 0.07813077,
+        "n": 155,
+        "ratio_mean": 10.888891662,
+        "ratio_sd": 2.191607779
+      },
+      {
+        "bucket": "2^-3..2^-2",
+        "max_abs": 0.174344751,
+        "mean_abs": 0.0694328,
+        "n": 491,
+        "ratio_mean": 5.498561625,
+        "ratio_sd": 1.333574552
+      },
+      {
+        "bucket": "2^-2..2^-1",
+        "max_abs": 0.223585211,
+        "mean_abs": 0.053021081,
+        "n": 1605,
+        "ratio_mean": 2.919570477,
+        "ratio_sd": 0.903465256
+      },
+      {
+        "bucket": "2^-1..2^0",
+        "max_abs": 0.269772752,
+        "mean_abs": 0.034753696,
+        "n": 5354,
+        "ratio_mean": 1.70217776,
+        "ratio_sd": 0.677372231
+      },
+      {
+        "bucket": "2^0..2^1",
+        "max_abs": 0.326801789,
+        "mean_abs": 0.057005318,
+        "n": 15885,
+        "ratio_mean": 1.28642312,
+        "ratio_sd": 0.526608854
+      },
+      {
+        "bucket": "2^1..2^2",
+        "max_abs": 0.373655567,
+        "mean_abs": 0.079820925,
+        "n": 42503,
+        "ratio_mean": 1.1809839,
+        "ratio_sd": 0.362392784
+      },
+      {
+        "bucket": "2^2..2^3",
+        "max_abs": 0.488133648,
+        "mean_abs": 0.103873823,
+        "n": 93657,
+        "ratio_mean": 1.188394686,
+        "ratio_sd": 0.236777103
+      },
+      {
+        "bucket": "2^3..2^4",
+        "max_abs": 0.604431512,
+        "mean_abs": 0.118209059,
+        "n": 127697,
+        "ratio_mean": 1.231989851,
+        "ratio_sd": 0.150576104
+      },
+      {
+        "bucket": "2^4..2^5",
+        "max_abs": 0.604431512,
+        "mean_abs": 0.132775959,
+        "n": 42064,
+        "ratio_mean": 1.275398974,
+        "ratio_sd": 0.110350832
+      }
+    ],
+    "random_control": {
+      "identity": 0.741193206,
+      "n": 128,
+      "random": 3.300734823
+    },
+    "schema": "qr05da-report-v1",
+    "trend": [
+      {
+        "chain_lower_mean": 0.534543957,
+        "chain_lower_over_ell": 2.138175829,
+        "chain_p99_mean": 0.019237269,
+        "chain_upper_mean": 0.632866877,
+        "chain_upper_over_ell": 2.531467509,
+        "chain_upper_sd": 0.225512923,
+        "count_p99_mean": 0.059898069,
+        "count_upper_mean": 0.709825717,
+        "count_upper_over_ell": 2.839302866,
+        "count_upper_sd": 0.077983812,
+        "ell": 0.25,
+        "n": 8,
+        "seeds": 5
+      },
+      {
+        "chain_lower_mean": 0.456959622,
+        "chain_lower_over_ell": 2.584953982,
+        "chain_p99_mean": 0.014613447,
+        "chain_upper_mean": 0.809347673,
+        "chain_upper_over_ell": 4.578361821,
+        "chain_upper_sd": 0.185694602,
+        "count_p99_mean": 0.006591322,
+        "count_upper_mean": 0.709011341,
+        "count_upper_over_ell": 4.010773818,
+        "count_upper_sd": 0.11558626,
+        "ell": 0.176776695,
+        "n": 16,
+        "seeds": 5
+      },
+      {
+        "chain_lower_mean": 0.354347042,
+        "chain_lower_over_ell": 2.834776334,
+        "chain_p99_mean": 0.003931095,
+        "chain_upper_mean": 0.819451483,
+        "chain_upper_over_ell": 6.555611861,
+        "chain_upper_sd": 0.137822897,
+        "count_p99_mean": 0.002806313,
+        "count_upper_mean": 0.590305964,
+        "count_upper_over_ell": 4.72244771,
+        "count_upper_sd": 0.063407513,
+        "ell": 0.125,
+        "n": 32,
+        "seeds": 5
+      },
+      {
+        "chain_lower_mean": 0.241945353,
+        "chain_lower_over_ell": 2.737299195,
+        "chain_p99_mean": 0.003127212,
+        "chain_upper_mean": 0.755269254,
+        "chain_upper_over_ell": 8.544896176,
+        "chain_upper_sd": 0.078140339,
+        "count_p99_mean": 0.003391459,
+        "count_upper_mean": 0.543114469,
+        "count_upper_over_ell": 6.144638789,
+        "count_upper_sd": 0.065094805,
+        "ell": 0.088388348,
+        "n": 64,
+        "seeds": 5
+      },
+      {
+        "chain_lower_mean": 0.1827324,
+        "chain_lower_over_ell": 2.9237184,
+        "chain_p99_mean": 0.0026179,
+        "chain_upper_mean": 0.668052943,
+        "chain_upper_over_ell": 10.688847085,
+        "chain_upper_sd": 0.12493013,
+        "count_p99_mean": 0.002096208,
+        "count_upper_mean": 0.438733471,
+        "count_upper_over_ell": 7.019735529,
+        "count_upper_sd": 0.052999508,
+        "ell": 0.0625,
+        "n": 128,
+        "seeds": 5
+      },
+      {
+        "chain_lower_mean": 0.159286441,
+        "chain_lower_over_ell": 3.604240721,
+        "chain_p99_mean": 0.002058961,
+        "chain_upper_mean": 0.597225099,
+        "chain_upper_over_ell": 13.51366135,
+        "chain_upper_sd": 0.077904602,
+        "count_p99_mean": 0.001451838,
+        "count_upper_mean": 0.349918938,
+        "count_upper_over_ell": 7.917761736,
+        "count_upper_sd": 0.02231256,
+        "ell": 0.044194174,
+        "n": 256,
+        "seeds": 5
+      },
+      {
+        "chain_lower_mean": 0.119506574,
+        "chain_lower_over_ell": 3.824210383,
+        "chain_p99_mean": 0.001671618,
+        "chain_upper_mean": 0.528982983,
+        "chain_upper_over_ell": 16.927455447,
+        "chain_upper_sd": 0.077904601,
+        "count_p99_mean": 0.001039586,
+        "count_upper_mean": 0.281018623,
+        "count_upper_over_ell": 8.992595921,
+        "count_upper_sd": 0.026548901,
+        "ell": 0.03125,
+        "n": 512,
+        "seeds": 5
+      }
+    ],
+    "verdict": "Scale-free LGH convergence re-examined. The certified lower bound for the order-only (longest-chain) time-separation decays steadily (exponent ~0.37 in N), but the natural-correspondence ceiling decays only ~N^-0.16 (much slower than ell) and is localized to large-proper-time pairs: it is the finite-size fluctuation of the longest-chain estimator, not a support or convention defect. The chain bracket therefore does NOT close and chain-based convergence is not established. The order+count (T7-native) reconstruction decays faster (ceiling ~N^-0.28, bulk 99th percentile ~N^-0.41, consistent with Poisson counting) and falls below the chain ceiling from N=16. The obstruction is therefore estimator-specific: the convergence question depends on which discrete time-separation reconstruction is used, not on the directed-distance convention (already corrected by QR-05CZ). No metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.11.6"
+  },
+  "schema": "qr05da-capture-v1"
+}

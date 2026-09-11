@@ -1,0 +1,16 @@
+{
+  "schema": "qr05da-protocol-v1",
+  "seed": 6,
+  "exact_seed": 6,
+  "control_seed": 11,
+  "seeds": [0, 1, 2, 3, 4],
+  "n_exact": [5, 6, 7],
+  "n_scale": [8, 16, 32, 64, 128, 256, 512],
+  "fit_n_min": 32,
+  "n_localize": 512,
+  "convention_n": [8, 32, 256],
+  "control_n": 128,
+  "minimax_iters": 60,
+  "area": 0.5,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
