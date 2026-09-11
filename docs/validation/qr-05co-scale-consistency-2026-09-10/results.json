@@ -1,0 +1,25 @@
+{
+  "report": {
+    "bridge_coarse": 0.953061865,
+    "bridge_consistent": true,
+    "bridge_fine": 0.994955378,
+    "coarse_graining_identity": true,
+    "control": {
+      "normalized_scale_ratio": 1.0,
+      "raw_scale_consistent": false,
+      "raw_scale_ratio": 2.0
+    },
+    "geometry_consistent": true,
+    "geometry_ratio_dev": 0.0,
+    "operator_consistent": true,
+    "operator_corr": 0.978225661,
+    "operator_pointwise_dev": 0.210944272,
+    "operator_scale_ratio": 1.0,
+    "schema": "qr05co-report-v1"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05co-capture-v1"
+}

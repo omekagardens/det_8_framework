@@ -1,0 +1,12 @@
+{
+  "schema": "qr05co-protocol-v1",
+  "n": 8000,
+  "seed": 17,
+  "a": 0.5,
+  "m_fine": 16,
+  "m_coarse": 8,
+  "kde_width": 0.04,
+  "corr_high": 0.9,
+  "ratio_tol": 0.1,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
