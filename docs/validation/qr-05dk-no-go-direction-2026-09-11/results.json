@@ -1,0 +1,242 @@
+{
+  "report": {
+    "flags": {
+      "a_geometry_free_law_exceeds_the_link_fraction": true,
+      "closure_dense_laws_are_under_linked": true,
+      "link_fraction_alone_does_not_capture_manifoldlikeness": true,
+      "manifoldlike_locus_is_mapped": true,
+      "no_go_established": false,
+      "obstruction_is_class_specific_to_closure_dense_laws": true
+    },
+    "geometry_free": {
+      "bipartite": [
+        {
+          "f": 0.051105528,
+          "link_fraction": 1.0,
+          "mean_interval": 0.0,
+          "p": 0.1
+        },
+        {
+          "f": 0.102211055,
+          "link_fraction": 1.0,
+          "mean_interval": 0.0,
+          "p": 0.2
+        },
+        {
+          "f": 0.152160804,
+          "link_fraction": 1.0,
+          "mean_interval": 0.0,
+          "p": 0.3
+        },
+        {
+          "f": 0.20281407,
+          "link_fraction": 1.0,
+          "mean_interval": 0.0,
+          "p": 0.4
+        },
+        {
+          "f": 0.252964824,
+          "link_fraction": 1.0,
+          "mean_interval": 0.0,
+          "p": 0.5
+        },
+        {
+          "f": 0.354371859,
+          "link_fraction": 1.0,
+          "mean_interval": 0.0,
+          "p": 0.7
+        },
+        {
+          "f": 0.453467337,
+          "link_fraction": 1.0,
+          "mean_interval": 0.0,
+          "p": 0.9
+        },
+        {
+          "f": 0.501658291,
+          "link_fraction": 1.0,
+          "mean_interval": 0.0,
+          "p": 1.0
+        }
+      ],
+      "layer_cake": [
+        {
+          "f": 0.502512563,
+          "k": 2,
+          "link_fraction": 1.0,
+          "mean_interval": 0.0
+        },
+        {
+          "f": 0.669949749,
+          "k": 3,
+          "link_fraction": 0.663366337,
+          "mean_interval": 0.111089109
+        },
+        {
+          "f": 0.753768844,
+          "k": 4,
+          "link_fraction": 0.5,
+          "mean_interval": 0.166666667
+        },
+        {
+          "f": 0.804020101,
+          "k": 5,
+          "link_fraction": 0.4,
+          "mean_interval": 0.2
+        },
+        {
+          "f": 0.837437186,
+          "k": 6,
+          "link_fraction": 0.330693069,
+          "mean_interval": 0.222178218
+        }
+      ],
+      "transitive_percolation": [
+        {
+          "f": 0.006482412,
+          "link_fraction": 0.690656566,
+          "mean_interval": 0.001948954,
+          "p": 0.005
+        },
+        {
+          "f": 0.020326633,
+          "link_fraction": 0.476765994,
+          "mean_interval": 0.004394339,
+          "p": 0.01
+        },
+        {
+          "f": 0.092437186,
+          "link_fraction": 0.206377326,
+          "mean_interval": 0.011337912,
+          "p": 0.02
+        },
+        {
+          "f": 0.221306533,
+          "link_fraction": 0.114136585,
+          "mean_interval": 0.024607927,
+          "p": 0.03
+        },
+        {
+          "f": 0.465452261,
+          "link_fraction": 0.061161281,
+          "mean_interval": 0.069678041,
+          "p": 0.05
+        },
+        {
+          "f": 0.675301508,
+          "link_fraction": 0.042694901,
+          "mean_interval": 0.144130415,
+          "p": 0.08
+        },
+        {
+          "f": 0.810050251,
+          "link_fraction": 0.032530915,
+          "mean_interval": 0.214165353,
+          "p": 0.12
+        },
+        {
+          "f": 0.903090452,
+          "link_fraction": 0.025902359,
+          "mean_interval": 0.268563487,
+          "p": 0.2
+        }
+      ]
+    },
+    "manifoldlike_locus": [
+      {
+        "dim": 2,
+        "f": 0.494070352,
+        "link_fraction": 0.078925956,
+        "mean_interval": 0.108436737,
+        "n": 200
+      },
+      {
+        "dim": 3,
+        "f": 0.238040201,
+        "link_fraction": 0.299556681,
+        "mean_interval": 0.036193794,
+        "n": 200
+      },
+      {
+        "dim": 4,
+        "f": 0.073567839,
+        "link_fraction": 0.637978142,
+        "mean_interval": 0.005556694,
+        "n": 200
+      },
+      {
+        "dim": 5,
+        "f": 0.043266332,
+        "link_fraction": 0.792102207,
+        "mean_interval": 0.002648084,
+        "n": 200
+      }
+    ],
+    "matched": [
+      {
+        "bipartite_exceeds": true,
+        "bipartite_ratio": 12.670103103,
+        "dim": 2,
+        "f": 0.494070352,
+        "link_bipartite": 1.0,
+        "link_sprinkle": 0.078925956,
+        "link_tp": 0.058642937,
+        "tp_ratio": 0.743012061,
+        "tp_under_links": true
+      },
+      {
+        "bipartite_exceeds": true,
+        "bipartite_ratio": 3.33826639,
+        "dim": 3,
+        "f": 0.238040201,
+        "link_bipartite": 1.0,
+        "link_sprinkle": 0.299556681,
+        "link_tp": 0.110505675,
+        "tp_ratio": 0.368897381,
+        "tp_under_links": true
+      },
+      {
+        "bipartite_exceeds": true,
+        "bipartite_ratio": 1.56745182,
+        "dim": 4,
+        "f": 0.073567839,
+        "link_bipartite": 1.0,
+        "link_sprinkle": 0.637978142,
+        "link_tp": 0.277130598,
+        "tp_ratio": 0.434388861,
+        "tp_under_links": true
+      },
+      {
+        "bipartite_exceeds": true,
+        "bipartite_ratio": 1.262463343,
+        "dim": 5,
+        "f": 0.043266332,
+        "link_bipartite": 1.0,
+        "link_sprinkle": 0.792102207,
+        "link_tp": 0.390750364,
+        "tp_ratio": 0.49330801,
+        "tp_under_links": true
+      }
+    ],
+    "schema": "qr05dk-report-v1",
+    "spec": {
+      "geometry_free_family": "transitive percolation (closure-dense) and 2-layer bipartite orders (sparse, no intermediates)",
+      "manifoldlike_locus": "sprinkles d = 2..5 (f, link fraction, mean interval)",
+      "n": 200,
+      "question": "The no-go direction: is the manifoldlike locus reachable by any geometry-free law, or is no geometry-free law manifoldlike?",
+      "sprinkle_dims": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "Track-B exploratory (Status M); no physical claim"
+    },
+    "verdict": "QR-05DK (direction A, no-go): the no-go fails. The QR-05DI/DJ obstruction — closure-dense geometry-free laws being under-linked — is real for that class (link fraction 0.4–0.8 of a sprinkle's), but a **2-layer (bipartite) order** is a geometry-free law with maximal link fraction ℓ = 1 at any f ≤ ½, exceeding the sprinkle's ℓ at every dimension. So geometry-free laws *do* reach (and exceed) the manifoldlike locus in link fraction; the link-fraction obstruction is class-specific (closure-dense), not a general no-go, and the link fraction alone does not capture manifoldlikeness (the bipartite order is plainly non-manifoldlike — a preferred 2-layer foliation, empty intervals μ = 0). A genuine no-go would need a higher-order manifoldlike invariant (interval structure + covariance) with a provenance-independent bound. Track-B exploratory (Status M); no metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05dk-capture-v1"
+}

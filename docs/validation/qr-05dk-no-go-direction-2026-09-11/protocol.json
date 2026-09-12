@@ -1,0 +1,12 @@
+{
+  "schema": "qr05dk-protocol-v1",
+  "seed": 7,
+  "n": 200,
+  "sprinkle_dims": [2, 3, 4, 5],
+  "tp_p": [0.005, 0.01, 0.02, 0.03, 0.05, 0.08, 0.12, 0.2],
+  "bipartite_p": [0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 0.9, 1.0],
+  "layer_k": [2, 3, 4, 5, 6],
+  "tp_seeds": [0, 1],
+  "tol": 1e-9,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
