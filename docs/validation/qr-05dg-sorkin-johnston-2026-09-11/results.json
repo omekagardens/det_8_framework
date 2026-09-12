@@ -1,0 +1,124 @@
+{
+  "report": {
+    "flags": {
+      "light_cones_recovered_from_the_pauli_jordan": true,
+      "pauli_jordan_supported_on_causal_pairs": true,
+      "real_part_symmetric_imag_antisymmetric": true,
+      "sj_state_condition_holds_above_a_critical_mass": true,
+      "sj_state_condition_holds_at_all_masses": false,
+      "sj_state_condition_is_mass_dependent": true,
+      "time_reversal_flips_delta_and_fixes_H": true,
+      "two_point_is_hermitian": true
+    },
+    "mass_sweep": {
+      "0.0": 3,
+      "0.25": 4,
+      "0.5": 6,
+      "1.0": 6,
+      "2.0": 6
+    },
+    "objects": [
+      {
+        "critical_mass": 0.0,
+        "n": 2,
+        "object": "2-chain",
+        "psd_by_mass": {
+          "0.0": true,
+          "0.25": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "critical_mass": 0.0,
+        "n": 3,
+        "object": "V",
+        "psd_by_mass": {
+          "0.0": true,
+          "0.25": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "critical_mass": 0.0,
+        "n": 3,
+        "object": "3-chain",
+        "psd_by_mass": {
+          "0.0": true,
+          "0.25": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "critical_mass": 0.5,
+        "n": 4,
+        "object": "diamond",
+        "psd_by_mass": {
+          "0.0": false,
+          "0.25": false,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "critical_mass": 0.25,
+        "n": 6,
+        "object": "sprinkle_d2_n6",
+        "psd_by_mass": {
+          "0.0": false,
+          "0.25": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "critical_mass": 0.5,
+        "n": 8,
+        "object": "sprinkle_d2_n8",
+        "psd_by_mass": {
+          "0.0": false,
+          "0.25": false,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      }
+    ],
+    "schema": "qr05dg-report-v1",
+    "spec": {
+      "masses": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "objects": [
+        "2-chain",
+        "V",
+        "3-chain",
+        "diamond",
+        "sprinkle_d2_n6",
+        "sprinkle_d2_n8"
+      ],
+      "prior_art": "Sorkin–Johnston state; Pauli–Jordan / Hadamard / Wightman functions; Benincasa–Dowker d'Alembertian",
+      "question": "E next step: is there a physical pair-kernel (Sorkin–Johnston) with the Pauli–Jordan light cones and a state condition?",
+      "retarded_green": "chain (resolvent) propagator G_R(m) = (I − e^{−m} L)^{-1}",
+      "status": "Track-B exploratory (Status M); SJ-structured, not the exact SJ vacuum; no physical claim",
+      "structure": "H = G_R + G_Rᵀ, Δ = G_R − G_Rᵀ, W = ½H + ½iΔ"
+    },
+    "verdict": "QR-05DG (E next step, Sorkin–Johnston): a physical pair-kernel realizes E's coupling. With a causal-set retarded Green function G_R(m) = (I − e^{−m}L)^{-1} the SJ structure is H = G_R + G_Rᵀ (symmetric), Δ = G_R − G_Rᵀ (antisymmetric), W = ½H + ½iΔ. The Pauli–Jordan function Δ is supported **exactly on causally related pairs** — its support is the light cone — and W is Hermitian with symmetric real part and antisymmetric imaginary part; time reversal flips Δ and fixes H. The SJ state condition (W strongly positive) holds only above a critical mass — at m = 0 only 3 of 6 objects qualify, while m ≥ 0.5 qualifies all 6 — so the physical two-point function needs a mass / IR regularisation on a finite causal set. Thus the light cones and the orientation come out of a physical two-point function as H (conformal) + iΔ (orientation), and strong positivity binds them — the relational coupling. Track-B exploratory (Status M): SJ-structured (the exact SJ vacuum's positive-frequency projection is not imposed), and no physical, metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05dg-capture-v1"
+}

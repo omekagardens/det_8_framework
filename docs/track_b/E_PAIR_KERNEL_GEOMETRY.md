@@ -74,6 +74,24 @@ So E's coupling **survives** the toy → physical step: the conformal class and 
 are realized as `supp` + `arg`, and strong positivity remains the binding constraint.
 See [QR-05DF](../validation/qr-05df-physical-pair-kernel-2026-09-11/README.md).
 
+## Physical 𝔇: Sorkin–Johnston (QR-05DG)
+
+E's next step takes the **physical** structure explicitly: a retarded Green function
+`G_R`, its **Pauli–Jordan** part `Δ = G_R − G_Rᵀ` (antisymmetric; the commutator) and its
+**Hadamard** part `H = G_R + G_Rᵀ`, and the **Wightman** two-point function
+`W = ½H + ½iΔ`. With the causal-set chain (resolvent) propagator `G_R(m) = (I − e^{−m}L)⁻¹`:
+
+- **`supp Δ` is exactly the causal relation — the light cones** (the physical locality
+  statement, and precisely E's coupling);
+- `W` is Hermitian, with symmetric (conformal) `H` and antisymmetric (orientation) `iΔ`;
+- time reversal flips `Δ` and fixes `H`;
+- the **SJ state condition `W ⪰ 0` holds only above a critical mass** (`m = 0`: 3 of 6
+  objects; `m ≥ 0.5`: 6 of 6) — a physical, mass-dependent binding constraint.
+
+So the physical two-point function **realizes E's coupling** and needs a mass/IR
+regularisation on a finite causal set. See
+[QR-05DG](../validation/qr-05dg-sorkin-johnston-2026-09-11/README.md).
+
 ## Ontological reading — the relational coupling (Status M)
 
 The "strong no / coupled yes" is DET's ontological view, stated explicitly:
