@@ -2,28 +2,28 @@
   "schema": "qr05dl-source-freeze-v1",
   "sources": {
     "README.md": {
-      "bytes": 4148,
-      "sha256": "763224553cdd533afd5ca73cd6b88a4c32f9c1d0c378ca55ea9ede1455be0fa1"
+      "bytes": 4575,
+      "sha256": "cd042c51a54a789408dac1befa5afdec9a7045ced47909932e1956568f5e0c89"
     },
     "primary.py": {
-      "bytes": 9110,
-      "sha256": "e984807175d89a9a7ba1423631f4424b2768762fbe68767a21b0bfcafa6104d2"
+      "bytes": 9440,
+      "sha256": "c49344adfab7e13a1d68ec753b7aaf8ef365d55083312a7cfa1ba48f8badf2cf"
     },
     "protocol.json": {
       "bytes": 266,
       "sha256": "674fa9a9a11ad0cef2561e6b38004714bd2736a0b8652696db1497454ee1d162"
     },
     "reference.py": {
-      "bytes": 7739,
-      "sha256": "205f484d354db740ef8421f72886d51c7e6ffc9cd329d67051e09f6711c685c7"
+      "bytes": 7864,
+      "sha256": "2194ea7e6d01963ef1bd9662b4c8a79237462afe4c599c670d332f95bf53c7aa"
     },
     "study.py": {
       "bytes": 4022,
-      "sha256": "ee36158a647a15428495f281ed89c3c7fa73daa31b6dc2bbf9f07aa98c0fd484"
+      "sha256": "0f51e92f0ace6a8a2707fc7551ee792f9080022aaa4bdca5b6ee65bd95f1a1ea"
     },
     "test_qr05dl.py": {
-      "bytes": 5537,
-      "sha256": "db70e03a51f9dee3801ee810e02ba6e6368c1c49c18065b5470f837933905086"
+      "bytes": 6298,
+      "sha256": "7bf51649c2298fde8f0a042fb58eb15a7ad8e73a7747eb7750f07da0014cdd8b"
     }
   }
 }

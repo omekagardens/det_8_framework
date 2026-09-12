@@ -109,6 +109,19 @@ class IntervalSelfSimilarityTests(unittest.TestCase):
             self.assertAlmostEqual(module.fglobal(prec),
                                    2.0 * comparable / (n * (n - 1)), places=9)
 
+    def test_known_answer_interval_density_is_a_complete_sweep(self):
+        # A chain of n has C(n,2) comparable pairs, of which the C(n-1,2) pairs with
+        # j > i+1 have a nonempty interval, so rho = (n-2)/n exactly.  A small cap
+        # must limit only the collected interval sample, never the pair sweep: the
+        # original v1 capture broke the sweep at the cap and reported a partial
+        # fraction (see SUPERSEDED.md).
+        for module in (primary_module(), reference_module()):
+            n = 10
+            chain = [[i < j for j in range(n)] for i in range(n)]
+            _mean, cnt, rho = module.interval_stats(chain, 3, 9, 5, 0)
+            self.assertEqual(cnt, 5)
+            self.assertAlmostEqual(rho, (n - 2) / n, places=12)
+
     def test_primary_reference_agree(self):
         _protocol, left, right = self.study.analyze_native()
         self.assertTrue(self.study.equivalent(left, right))
@@ -124,7 +137,7 @@ class IntervalSelfSimilarityTests(unittest.TestCase):
         if not path.exists():
             self.skipTest("capture not generated yet")
         capture = json.loads(path.read_bytes())
-        self.assertEqual(capture["schema"], "qr05dl-capture-v1")
+        self.assertEqual(capture["schema"], "qr05dl-capture-v2")
         self.assertEqual(capture["report"], self.report)
 
 

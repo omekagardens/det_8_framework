@@ -22,15 +22,19 @@ fail.
 
 | object | `f_global` | `d_MM(global)` | interval density | `⟨f(I)⟩` | `S` |
 |---|---|---|---|---|---|
-| sprinkle d=2 | 0.471 | 2.08 | 0.094 | 0.505 | **1.07** |
-| sprinkle d=3 | 0.242 | 2.93 | 0.168 | 0.214 | **0.88** |
+| sprinkle d=2 | 0.471 | 2.08 | 0.929 | 0.505 | **1.07** |
+| sprinkle d=3 | 0.242 | 2.93 | 0.733 | 0.214 | **0.88** |
 | sprinkle d=4 | 0.083 | 4.22 | 0.419 | 0.076 | **0.92** |
-| TP p=0.02 | 0.120 | 3.78 | 0.420 | 0.815 | **6.77** |
-| TP p=0.05 | 0.544 | 1.89 | 0.081 | 0.618 | 1.14 |
-| TP p=0.1 | 0.811 | 1.32 | 0.093 | 0.585 | 0.72 |
+| TP p=0.02 | 0.120 | 3.78 | 0.844 | 0.815 | **6.77** |
+| TP p=0.05 | 0.544 | 1.89 | 0.955 | 0.618 | 1.14 |
+| TP p=0.1 | 0.811 | 1.32 | 0.973 | 0.585 | 0.72 |
 | bipartite | 0.502 | 1.99 | **0.000** | — | — |
 | layer-cake k=3 | 0.669 | 1.60 | 0.335 | *(no intervals in range)* | — |
 | layer-cake k=4 | 0.753 | 1.43 | 0.503 | *(no intervals in range)* | — |
+
+The **interval density** column is the corrected v2 statistic (`ρ_int` over the complete
+comparable-pair sweep, `= 1 − ℓ`); the original v1 capture reported a partial-sweep
+fraction instead — see [SUPERSEDED.md](SUPERSEDED.md). Nothing else in the table changed.
 
 - **Sprinkles are self-similar:** `S ≈ 0.88–1.07` (≈1 up to finite-size bias), and the
   interval ordering fraction yields the same dimension as the global one.
@@ -65,7 +69,9 @@ curvature, dynamics or gravity claim; correspondence-level / Status M.
 `S`, interval density, dimension) and `reference.py` (light-cone-dominance causality;
 recoded) compute the invariants and the flags independently — RNG streams shared by
 construction (documented). The driver refuses on any difference. `test_qr05dl.py`
-(10 tests) pins the chain (`S = 1`, interval = chain), bipartite (`no intervals`) and
-layer-cake (intervals are whole layers, out of window) known answers and the flags.
-`study.py` writes create-only `results.json` and `source-freeze.json`. Decision record:
+(11 tests) pins the chain (`S = 1`, interval = chain), bipartite (`no intervals`),
+layer-cake (intervals are whole layers, out of window) and complete-sweep
+(`ρ_int = (n−2)/n`) known answers and the flags. `study.py` writes create-only
+`results.json` and `source-freeze.json`. The v1 capture's `interval_density` column is
+corrected and retained as superseded ([SUPERSEDED.md](SUPERSEDED.md)). Decision record:
 [RESULTS.md](RESULTS.md).

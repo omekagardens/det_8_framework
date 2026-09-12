@@ -13,7 +13,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 MODULE_PATH = HERE / "../../../det8/models/order_count_geometry.py"
-SCHEMA = "qr05dl-report-v1"
+SCHEMA = "qr05dl-report-v2"
 
 
 def load_module(name, path):
@@ -79,6 +79,8 @@ def fglobal(prec):
 
 
 def interval_stats(prec, m_min, m_max, cap, seed):
+    """Complete pair sweep; the `cap` limits only the collected interval sample,
+    so `rho_int` is the exact interval density (see SUPERSEDED.md)."""
     n = len(prec)
     rng = random.Random(seed)
     comp = [(i, j) for i in range(n) for j in range(i + 1, n) if prec[i][j] or prec[j][i]]
@@ -90,7 +92,7 @@ def interval_stats(prec, m_min, m_max, cap, seed):
         I = [k for k in range(n) if prec[a][k] and prec[k][b]]
         if I:
             nonempty += 1
-        if m_min <= len(I) <= m_max:
+        if m_min <= len(I) <= m_max and len(fis) < cap:
             s = t = 0
             for x in I:
                 for y in I:
@@ -100,8 +102,6 @@ def interval_stats(prec, m_min, m_max, cap, seed):
                             s += 1
             if t:
                 fis.append(s / t)
-        if len(fis) >= cap:
-            break
     mean_fI = sum(fis) / len(fis) if fis else float("nan")
     rho = nonempty / len(comp) if comp else 0.0
     return mean_fI, len(fis), rho

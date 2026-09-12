@@ -16,7 +16,7 @@ HERE = Path(__file__).resolve().parent
 SOURCE_PATHS = ("README.md", "protocol.json", "primary.py", "reference.py",
                 "study.py", "test_qr05dl.py")
 FIXTURE_PATHS = ()
-CAPTURE_SCHEMA = "qr05dl-capture-v1"
+CAPTURE_SCHEMA = "qr05dl-capture-v2"
 FREEZE_SCHEMA = "qr05dl-source-freeze-v1"
 
 

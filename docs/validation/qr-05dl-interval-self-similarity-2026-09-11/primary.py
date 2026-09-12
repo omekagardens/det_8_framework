@@ -30,7 +30,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 MODULE_PATH = HERE / "../../../det8/models/order_count_geometry.py"
-SCHEMA = "qr05dl-report-v1"
+SCHEMA = "qr05dl-report-v2"
 
 
 def load_module(name, path):
@@ -96,7 +96,14 @@ def fglobal(prec):
 
 
 def interval_stats(prec, m_min, m_max, cap, seed):
-    """Return (mean ordering fraction of intervals, #intervals, interval density)."""
+    """Return (mean ordering fraction of intervals, #intervals, interval density).
+
+    The pair sweep is *complete*: the `cap` stops only the *collection* of
+    interval ordering fractions, never the sweep, so `rho_int` is the exact
+    `P(I(x,y) nonempty)` over comparable pairs (= 1 - link fraction).  (The
+    original v1 capture broke the sweep at the cap and therefore reported a
+    partial-sweep fraction; see SUPERSEDED.md.)
+    """
     n = len(prec)
     rng = random.Random(seed)
     comp = [(i, j) for i in range(n) for j in range(i + 1, n) if prec[i][j] or prec[j][i]]
@@ -108,7 +115,7 @@ def interval_stats(prec, m_min, m_max, cap, seed):
         I = [k for k in range(n) if prec[a][k] and prec[k][b]]
         if I:
             nonempty += 1
-        if not (m_min <= len(I) <= m_max):
+        if not (m_min <= len(I) <= m_max) or len(fis) >= cap:
             continue
         s = t = 0
         for x in I:
@@ -119,8 +126,6 @@ def interval_stats(prec, m_min, m_max, cap, seed):
                         s += 1
         if t:
             fis.append(s / t)
-        if len(fis) >= cap:
-            break
     mean_fI = sum(fis) / len(fis) if fis else float("nan")
     rho = nonempty / len(comp) if comp else 0.0
     return mean_fI, len(fis), rho
