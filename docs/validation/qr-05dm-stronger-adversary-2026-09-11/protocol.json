@@ -1,0 +1,19 @@
+{
+  "schema": "qr05dm-protocol-v1",
+  "seed": 11,
+  "n": 192,
+  "sprinkle_dims": [2, 3],
+  "ladder_dims": [2],
+  "ladder_blocks": 2,
+  "interval_sizes": [6, 10, 14, 18, 22],
+  "cap": 400,
+  "bisect_steps": 40,
+  "bisect_bracket": [0.0001, 1.0],
+  "deviation_tol": 0.05,
+  "hist_factor": 3.0,
+  "tol": 1e-9,
+  "limits": {
+    "source_bytes": 262144,
+    "artifact_bytes": 16777216
+  }
+}
