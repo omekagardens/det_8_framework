@@ -4,7 +4,51 @@ Started 5 September 2026. Authorized mathematical exploration in the primary
 checkout, following the discussion of the standalone quantum–record calculus.
 This plan does not reopen retired gravitational sources or clock couplings.
 
-## Roadmap checkup — 9 September 2026
+## Current reconciliation — 12 September 2026
+
+The concurrent `qr-05-bridge` branch was reviewed at commit
+`ac1f80ffb51ac1f6be0d6d740eaf82a1e411c5a8`: 51 commits and 45 later gate
+directories beyond this checkout's BV baseline. It contains useful research,
+but its completion labels are **not adopted wholesale**. The audit inventories
+all 45 gates and selectively runs 18 suites (194 passing tests); passing
+tests did not catch several false implications, operator mismatches and
+evidence-binding gaps. See the
+[branch audit and adoption decisions](../validation/qr-05-bridge-reconciliation-2026-09-12/README.md).
+
+This checkout remains authoritative. BV's frozen result is unchanged.
+BW's reference/transfer intent now has a corrected conditional contract in
+the reconciliation: population quantities are distinct from estimates,
+valid marginal failure bounds compose without independence, and selection
+and apparatus premises remain explicit. No reference has been calibrated.
+
+The valuable CY/DO observational-quotient idea is independently rebuilt on
+one common world class with a joint target. Five fixed packets and all 27
+channel subsets agree with a separate pair-separator oracle; 19 tests pass
+in each normal/optimized mode, and three complete replays (including Python
+3.11) match the first six-source-frozen capture. Slice-wise successes do not
+establish joint identification. An injected scale oracle is not an available
+instrument. See the
+[reconciled calculus and results](../validation/qr-05-bridge-reconciliation-2026-09-12/RESULTS.md).
+
+**Next bounded step: a common-world geometric target/channel design.** Specify
+one joint world class varying order/orientation, conformal structure, density
+and absolute scale; declare the target tuple and the source of each observation.
+Distinguish a supplied coordinate/order/kernel from a measured channel. Derive
+exact collision witnesses and proposed distinguishing channels before running
+new geometry simulations. This replaces importing the branch's unsupported
+joint-anchor or physical pair-kernel closure claims.
+
+Subsequent repairs are separately scoped: causal-matrix/operator contracts and
+signed-path controls; true correspondence distortion and a noncollapsing
+normalization; then stochastic growth/null calibration and justified uniform
+bounds. Finite fits are not convergence theorems. RET/application integration,
+Lean installation, physical acquisition and gravity dynamics remain open;
+book work stays archival and clocks/retired couplings remain deferred.
+
+## Historical roadmap checkup — 9 September 2026
+
+The checkpoint below records the position at BV publication. Its proposed
+BW next step is superseded by the 12 September reconciliation above.
 
 This is a review of recorded local evidence, not a fresh validation of the
 separately developing RET checkout state or a live instrument assessment.
@@ -138,7 +182,7 @@ Evidence: [core G1 record](../validation/g1-core-hardening-2026-09-04.md),
 [application roadmap](../CORE_HARDENING_AND_APPLICATION_PLAN.md), and
 [quantum–record charter](../QUANTUM_RECORD_STRUCTURE_RESEARCH.md).
 
-## Current status
+## Recorded gate history through BV
 
 QR-05A completed its bounded investigative gate on 5 September 2026:
 117 tests passed in normal and optimized Python; eight independent exact
@@ -2142,7 +2186,9 @@ authenticated stored BT evidence without rerunning earlier mathematics.
 No frozen mathematical source was revised after the first run. See
 [QR-05BV results](../validation/qr-05bv-acquisition-distortion-verification-2026-09-09/RESULTS.md).
 
-**Next proposed gate: QR-05BW, reference-calibration admissibility contract.**
+**Proposed at BV publication: QR-05BW, reference-calibration admissibility contract.**
+This historical proposal is superseded by the corrected 12 September
+reconciliation at the top of this roadmap.
 Design-only: specify what independently justified reference information and
 same-population/mark transfer assumptions could establish a deterministic e
 or statistically valid e_cal. A close fit to production records does not,
@@ -2159,7 +2205,7 @@ another toy fixture sweep or claimed calibration. If no independent reference
 or defensible transfer/support evidence is supplied, stop at the conditional
 contract; do not promote apparatus or geometric-identification readiness.
 
-BW is not started. No numerical β, adaptive allowance/quota/grid tuning,
+At BV publication BW had not started. No numerical β, adaptive allowance/quota/grid tuning,
 new device, records or calibration execution is implied. General densities/
 metrics, RET integration and gravity dynamics remain separate; BK's unused
 negative-θ optimization is not a prerequisite.
@@ -2288,7 +2334,9 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BT: bounded separation and budget verification | 24 pointwise distances, four class margins and 28 plans: ten certified, ten not certified, eight out of premise; all six contact/width controls retained | 25 tests per mode, full replays and one alternate audit; narrow-bound sufficient budgets, no large-quota count law, adaptive tuning or physical acquisition |
 | QR-05BU: bounded acquisition-distortion contract (complete, design-only) | Exact actual-law separation max(D−2e,0), enlarged shared-density inverse and systematic collision witnesses; uniform D/4 budget passes while half D/4 remains uncertified | No mathematical execution; every-batch width premise, nested iid law and calibration validity remain explicit; no known-channel, apparatus or general geometry/gravity claim |
 | QR-05BV: bounded acquisition-distortion verification | Eight class/error plans: three certified, five not; ten exact enlarged inverses, complete endpoint witnesses and nonnested/scale controls verified | 28 tests per mode, full replays and one alternate audit; supplied e and nested iid premises, no apparatus calibration, adaptive tuning or acquisition |
-| QR-05BW: reference-calibration admissibility contract (proposed, design-only) | Define independent reference truth, same-population transfer, allowance validity and selection-aware error composition | Explicit unmet support/iid/mark/loss premises; no fixture sweep, numerical calibration allocation, device choice, acquisition or readiness claim |
+| Reference-calibration reconciliation (BW/BX intent, design-only) | Corrected population/estimate and reference/transfer contract; valid marginal budgets compose without independence, with explicit selection conditions | Recorded 12 September; apparatus support/iid/mark/loss premises unsupplied, no calibration execution or readiness claim |
+| Bridge-branch reconciliation: common-world channel calculus | Five packets, 27 subsets; independent partition/hitting-set agreement, collision witnesses and minimal/minimum distinction | 19 tests per mode and three exact replays; finite mathematical table, no physical channel or wholesale BW–DO gate adoption |
+| Next: common-world geometric target/channel design | Joint world class, declared observation sources, exact collisions and proposed distinguishing channels | Design-only; no supplied geometry silently reclassified as acquired, no kernel/gravity closure or RET integration |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise

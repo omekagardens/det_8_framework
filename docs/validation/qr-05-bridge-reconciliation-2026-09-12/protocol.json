@@ -1,0 +1,251 @@
+{
+  "schema": "qr05-reconciliation-v1",
+  "source_branch_commit": "ac1f80ffb51ac1f6be0d6d740eaf82a1e411c5a8",
+  "cases": [
+    {
+      "id": "xor_joint",
+      "packet": {
+        "channels": [
+          "a",
+          "b",
+          "xor"
+        ],
+        "rows": [
+          {
+            "id": "00",
+            "observations": [
+              0,
+              0,
+              0
+            ],
+            "target": [
+              0,
+              0
+            ]
+          },
+          {
+            "id": "01",
+            "observations": [
+              0,
+              1,
+              1
+            ],
+            "target": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "10",
+            "observations": [
+              1,
+              0,
+              1
+            ],
+            "target": [
+              1,
+              0
+            ]
+          },
+          {
+            "id": "11",
+            "observations": [
+              1,
+              1,
+              0
+            ],
+            "target": [
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "scale_anchor",
+      "packet": {
+        "channels": [
+          "colour",
+          "colour_copy",
+          "external_scale"
+        ],
+        "rows": [
+          {
+            "id": "blue1",
+            "observations": [
+              0,
+              0,
+              1
+            ],
+            "target": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "blue2",
+            "observations": [
+              0,
+              0,
+              2
+            ],
+            "target": [
+              0,
+              2
+            ]
+          },
+          {
+            "id": "red1",
+            "observations": [
+              1,
+              1,
+              1
+            ],
+            "target": [
+              1,
+              1
+            ]
+          },
+          {
+            "id": "red2",
+            "observations": [
+              1,
+              1,
+              2
+            ],
+            "target": [
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "constant",
+      "packet": {
+        "channels": [],
+        "rows": [
+          {
+            "id": "x",
+            "observations": [],
+            "target": [
+              0
+            ]
+          },
+          {
+            "id": "y",
+            "observations": [],
+            "target": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "blind",
+      "packet": {
+        "channels": [
+          "same"
+        ],
+        "rows": [
+          {
+            "id": "x",
+            "observations": [
+              1
+            ],
+            "target": [
+              0
+            ]
+          },
+          {
+            "id": "y",
+            "observations": [
+              1
+            ],
+            "target": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "minimal_not_minimum",
+      "packet": {
+        "channels": [
+          "a",
+          "b",
+          "xor"
+        ],
+        "rows": [
+          {
+            "id": "00",
+            "observations": [
+              0,
+              0,
+              0
+            ],
+            "target": [
+              0
+            ]
+          },
+          {
+            "id": "01",
+            "observations": [
+              0,
+              1,
+              1
+            ],
+            "target": [
+              0
+            ]
+          },
+          {
+            "id": "10",
+            "observations": [
+              1,
+              0,
+              1
+            ],
+            "target": [
+              1
+            ]
+          },
+          {
+            "id": "11",
+            "observations": [
+              1,
+              1,
+              0
+            ],
+            "target": [
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "limits": {
+    "channels": 8,
+    "worlds": 64,
+    "target_coordinates": 8,
+    "analysis_seconds": 30,
+    "suite_seconds": 60,
+    "source_bytes": 262144,
+    "artifact_bytes": 16777216
+  },
+  "coverage": {
+    "packets": 5,
+    "subsets": 27
+  },
+  "regressions": [
+    "same-data union bound",
+    "all-pair versus link max-plus",
+    "visibility is not CHSH",
+    "signed-path cancellation"
+  ]
+}

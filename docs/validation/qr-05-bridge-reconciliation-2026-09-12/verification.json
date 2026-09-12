@@ -1,0 +1,91 @@
+{
+  "schema": "qr05-bridge-reconciliation-verification-v1",
+  "date": "2026-09-12",
+  "freeze_sources": 6,
+  "first_capture": {
+    "exit_code": 0,
+    "cases": 5,
+    "report_bytes": 4349,
+    "report_sha256": "d4e63ec2f667b0ad462e6f3f1a5f11bc9c975935ea6be9f3f5d02a68eb9ea4fc"
+  },
+  "runs": [
+    {
+      "command": "python3 -B docs/validation/qr-05-bridge-reconciliation-2026-09-12/test_calculus.py",
+      "chunk_id": "102978",
+      "wall_time_seconds": 0.000002041,
+      "exit_code": 0,
+      "original_token_count": 30,
+      "output": "...................\n----------------------------------------------------------------------\nRan 19 tests in 0.042s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B -O docs/validation/qr-05-bridge-reconciliation-2026-09-12/test_calculus.py",
+      "chunk_id": "3b7862",
+      "wall_time_seconds": 0.035567333,
+      "exit_code": 0,
+      "original_token_count": 30,
+      "output": "...................\n----------------------------------------------------------------------\nRan 19 tests in 0.041s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-bridge-reconciliation-2026-09-12/study.py --replay docs/validation/qr-05-bridge-reconciliation-2026-09-12/results.json",
+      "chunk_id": "d8365b",
+      "wall_time_seconds": 0.000004042,
+      "exit_code": 0,
+      "original_token_count": 35,
+      "output": "{\"action\": \"replay\", \"cases\": 5, \"report_bytes\": 4349, \"report_sha256\": \"d4e63ec2f667b0ad462e6f3f1a5f11bc9c975935ea6be9f3f5d02a68eb9ea4fc\"}\n"
+    },
+    {
+      "command": "python3 -B -O docs/validation/qr-05-bridge-reconciliation-2026-09-12/study.py --replay docs/validation/qr-05-bridge-reconciliation-2026-09-12/results.json",
+      "chunk_id": "cb531f",
+      "wall_time_seconds": 0.0000015,
+      "exit_code": 0,
+      "original_token_count": 35,
+      "output": "{\"action\": \"replay\", \"cases\": 5, \"report_bytes\": 4349, \"report_sha256\": \"d4e63ec2f667b0ad462e6f3f1a5f11bc9c975935ea6be9f3f5d02a68eb9ea4fc\"}\n"
+    },
+    {
+      "command": "python3.11 -B docs/validation/qr-05-bridge-reconciliation-2026-09-12/study.py --replay docs/validation/qr-05-bridge-reconciliation-2026-09-12/results.json",
+      "chunk_id": "d49192",
+      "wall_time_seconds": 7.09e-7,
+      "exit_code": 0,
+      "original_token_count": 35,
+      "output": "{\"action\": \"replay\", \"cases\": 5, \"report_bytes\": 4349, \"report_sha256\": \"d4e63ec2f667b0ad462e6f3f1a5f11bc9c975935ea6be9f3f5d02a68eb9ea4fc\"}\n"
+    }
+  ],
+  "final_metadata": {
+    "new_source_identities_matched": 6,
+    "bv_source_identities_matched": 12,
+    "local_and_pinned_source_links_checked": 83,
+    "ruff": "passed",
+    "git_diff_check": "passed",
+    "original_dirty_status_entries": 231,
+    "missing_original_status_entries": [],
+    "new_status_entries": [
+      " M docs/track_b/QUANTUM_RECORD_GRAVITY_BRIDGE_PLAN.md",
+      "?? docs/validation/qr-05-bridge-reconciliation-2026-09-12/"
+    ]
+  },
+  "branch_tests": {
+    "scope": "Selective existing suites; not exhaustive verification of 39 executable gates",
+    "suites": 18,
+    "passed": 194,
+    "counts": {
+      "CA": 11,
+      "CB": 9,
+      "CC": 10,
+      "CE": 7,
+      "DC": 13,
+      "CR": 8,
+      "CY": 11,
+      "DE": 11,
+      "DF": 10,
+      "DG": 9,
+      "DH": 10,
+      "DN": 18,
+      "DI": 10,
+      "DJ": 10,
+      "DK": 9,
+      "DL": 11,
+      "DM": 12,
+      "DO": 15
+    }
+  }
+}

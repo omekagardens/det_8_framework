@@ -1,0 +1,647 @@
+{
+  "schema": "qr05-bridge-source-audit-v1",
+  "branch_commit": "ac1f80ffb51ac1f6be0d6d740eaf82a1e411c5a8",
+  "base_commit": "8b34191a8d05966cb8f60e856bfdbf1e30c2da45",
+  "gates": [
+    {
+      "directory": "docs/validation/qr-05bw-reference-calibration-design-2026-09-10",
+      "readme_sha256": "601f724bd514b680af4545a2581dcad30d3cf931bcb2697cf8288b5223e29367",
+      "kind": "design"
+    },
+    {
+      "directory": "docs/validation/qr-05bx-apparatus-event-interface-design-2026-09-10",
+      "readme_sha256": "f82e3133e870a51bfe594a882a6c81479afb3d740921d75aa1ab63951adca579",
+      "kind": "design"
+    },
+    {
+      "directory": "docs/validation/qr-05by-metric-dynamics-design-2026-09-10",
+      "readme_sha256": "16b2394def6ceacbc9842c201bb5e2fafa4cb7e8070465bb5f97ea45f0d40541",
+      "kind": "design"
+    },
+    {
+      "directory": "docs/validation/qr-05bz-physical-protocol-design-2026-09-10",
+      "readme_sha256": "8fb5d4a57e697a9fe4ec9f56fd0998da4d9623019e44a7accb39d79f957545b0",
+      "kind": "design"
+    },
+    {
+      "directory": "docs/validation/qr-05ca-synthetic-pipeline-rehearsal-2026-09-10",
+      "readme_sha256": "b26dfe4745285163ef5f9d51cb232cb170c0c71cb0c00be6132632ad29795ae7",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "c43a864cf1a177fb6b431c61f809a064c0d8792973aa4317230a8e5d09dea888",
+      "capture_sha256": "d4c195d863e6d860b792e84ec525faa40e5380a066cf004858f20ad00fbe6fda",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cb-open-data-applicability-2026-09-10",
+      "readme_sha256": "e7b2c0cba78be645af689c0150ebcff0fb5bd67386280b38aba8a49d43269094",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [
+        {
+          "path": "README.md",
+          "stored": {
+            "bytes": 4367,
+            "sha256": "b22c802ad438b7ac065f9fcf5f089f66338cd919bb04c02c1ad23b727c41e034"
+          },
+          "actual": {
+            "bytes": 4525,
+            "sha256": "e7b2c0cba78be645af689c0150ebcff0fb5bd67386280b38aba8a49d43269094"
+          }
+        }
+      ],
+      "freeze_sha256": "39a8b87dd437c5b8c96d874d3f141bbc02969200a26f7f877bc77e3087fdf9cc",
+      "capture_sha256": "4fa57f7a0f9f5c150aa6195de8f05bc01249fcfc127a2934fad29cc41da119dc",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cc-composition-verification-2026-09-10",
+      "readme_sha256": "7a6c1ab209f37e56c851cf5f3b193ad9949067630c8e1e32c50b18f57d21104a",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "be5239cd26ec254c7850a3cdde4c6ac543d1efca03d691cb883e88e53e4715d9",
+      "capture_sha256": "5d5c935090e3edc689b5e2734098e19b6689eebd38a58e97b2b65f9b101acfdb",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cd-det-data-routing-2026-09-10",
+      "readme_sha256": "2addb3a15881433ab4e334528b7e2a8adbf7a2b1b2f7ffc853ef6c1f0f2e4010",
+      "kind": "design"
+    },
+    {
+      "directory": "docs/validation/qr-05ce-bell-correspondence-2026-09-10",
+      "readme_sha256": "9453cc4244544255417c4ced24d248bdf11eca5b5d52a98dea4d872a528c0d4e",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "3469eac275662d7d8071583c556efb599c7d58a872d0f0a5c947d338b7677866",
+      "capture_sha256": "12c64c2941c10715473cdec20fab5a7a97cde451e1bec840a0731d00de7d8b76",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cf-t7-supplied-geometry-2026-09-10",
+      "readme_sha256": "d4f8a00eacc65aa2e9004463fd1a6312f7febbcce3559d3820cd33f5a46c9631",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "ad5b912af5f062e0b1c6921ef106cf3261bcfde97764e2e9c7a373490b50671b",
+      "capture_sha256": "9ffa11cb69b371ab404c5c49e7df4fafcef541674031d9b41d0900a42e4967c9",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cg-dimension-convergence-2026-09-10",
+      "readme_sha256": "f00d83b905338e29b43c22bdbcccf58a66b35d90b914af9dcba0ebb2ac3fc743",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "af2d764c797a901f6eee39e0ef6436da953f33abc149b4b47b3521289a3e6b96",
+      "capture_sha256": "959faf2601cc2c650c834af924c496eb925431cd2b0a5e75d2fee69014bd03ab",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05ch-laplacian-convergence-2026-09-10",
+      "readme_sha256": "82ec2301e648e1218625b64b7beece61f839e6f39679b53df185d1cb9612ee9f",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "423569b1b95c721c62461ec72907dfd4458df59e0b1b20a1eca1aeee4a0cde66",
+      "capture_sha256": "75000decfde7d4ca5c7c1f468359db77d1ca166fefdebbd59c6c55328b330c4f",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05ci-lorentzian-operator-2026-09-10",
+      "readme_sha256": "03de876fedf5b02d2b920175b8a2c90be977108da0b277774d8c4f6819d1f4fe",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "1e0502c787b354cff811910c58b6bfdb4696539864aa9a558d3b10de209927a4",
+      "capture_sha256": "75472caf2e78c555ec9978bd2178b48d0a9e4da17be54dd649f35958c08cc29f",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cj-metric-acceptance-2026-09-10",
+      "readme_sha256": "dcca07724d00ea5bd3960d086ee3a2f0440b323823b1d9ed6fc24e01a1a1db2e",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "287034dc6c436e21dbcf3350c2995606dcbd05d5e2246f7d7df31b421e408188",
+      "capture_sha256": "9819916ddf2c1065fece348cad94fe70db9c784e4787d28602eeef670420e7fa",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05ck-metric-reconstruction-2026-09-10",
+      "readme_sha256": "e169d38ae48f58050042c47c166a2783eda5ce27e544a4b0468fa89d65250c80",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "847adc93f0c170f8dbf0db18cc14be4bbc2a8d93285742b5eb4ff26a8677e13f",
+      "capture_sha256": "d8208d30ccd3280bd4a47423df10e1826793776ee7a9cc77d399f0997fc899b5",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cl-t5-wave-kernel-2026-09-10",
+      "readme_sha256": "905aa5f5a751c75f3fdc2971b433c2e865a7da9dcc101bb68001cbbd8decac73",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "ddf0d50e9868c0aad25016ec4b65f0711340b384b5579cc561a419f8a5b8f4c0",
+      "capture_sha256": "1f450331703d227e08295bfe0e8bb3d706e3bc9be0be0ff82b567d2c8650b75e",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cm-t5-drift-diffusion-2026-09-10",
+      "readme_sha256": "ebcfc493e175eba1185760403621876d1bbeecc95fdfb217c8a4619f2eba9d79",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "50b22558a4219147313f680a1f0bd32977d8260bb36082e9bd49065ce50c9cc6",
+      "capture_sha256": "e234d16330d9fefdebfd3d8784d424f640fd514732f63a40fac83f5edd56b87a",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cn-t7-t5-bridge-2026-09-10",
+      "readme_sha256": "50796da8beb59ef7d516a5ec09103ea0bb1c400869220dd81c2f5b79836a1be9",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "65c93c48d13eb8f8c11d233798f2e1a4d55eaaf71ffc6ecda5f55bc4d2408bfa",
+      "capture_sha256": "0125053070a70be75b45358c1a3b74c603ced4f208b473f77ffb4ab3bf6cf161",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05co-scale-consistency-2026-09-10",
+      "readme_sha256": "c1abce21ba5a98cf7adb00ad6a808b9de5593f48542ecbd26ecdeb8dc35c3119",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "7124055ffc42baa98a5a399cd50569b21f15207ed262f9b3fe6b4e171045d5cb",
+      "capture_sha256": "232b159c1fb6123e73f1259efff22275c73dd2eda24a9d7646429a498aa6bebf",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cp-composed-operator-2026-09-10",
+      "readme_sha256": "8eb26e3c4dc86615c1054d14750be37e1b8ad39cb6a234aaf341e55d67b2633d",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "abe1fd9e55db9318a1d3c52655c6bfbeb1eebd48b94505c9895e3af28bd278ef",
+      "capture_sha256": "27c7c5a4d585f4ff19aeab96635f8fa97ecbcf4fcb7c23880e0ff122014740f1",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cq-adversarial-control-2026-09-10",
+      "readme_sha256": "4ac62162cabc775677fa5c1481e5b95387d755611b431b13109f9757caadfd2b",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "cb7b2bee32ca25975f4a6eede11fc6be968211a8bfe6369234ea72de4ed96752",
+      "capture_sha256": "44ca44437672ac975b7519540e331bd603af753d31dbcfe683aea9be2195a66e",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cr-no-double-counting-2026-09-10",
+      "readme_sha256": "a5e4b393c44686fa5926dadf27cfcc77548d139c288970b5d70d5a4e2d97b3df",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "b0ad30dd7321c56fabcfa0452cad8f5f1932369bcf908f5624badcab2450457a",
+      "capture_sha256": "a050adcb2c495d6173e19057f1c3f346f280cad66bc3f8ae2ddf802d236a7eb1",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cs-geometry-consolidation-2026-09-10",
+      "readme_sha256": "ae1631c288c247a81e66a4bc5c0ee1568a2c7438172e277071cca75a2ea37560",
+      "kind": "design"
+    },
+    {
+      "directory": "docs/validation/qr-05ct-lorentzian-distance-2026-09-10",
+      "readme_sha256": "18605703ba4a14d48d087b7c8bd4f0308f2d550c7a67587d1a4e0b7fafcb82e8",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "9ec8a7c816c37ef6f8ec78913efe3bc3b0ad59ea63c919fa74b35fd7766935f5",
+      "capture_sha256": "694b8da2e0420970b95989ba7566567cea716228c63459b26e8a464dac6c0699",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cu-lgh-distance-2026-09-10",
+      "readme_sha256": "f802880c0d740e106a88a807effdaa58e453a1601e47d30d8dd2fa6d510f69eb",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "446755ee526e061849f3419cfcf8dc51b9028cf51a22765cb9c0e6537c8552b4",
+      "capture_sha256": "c934968f7adc5c0a3ed0c10df0d89745417a1ef4dbdf9d9def53c5d2351629e5",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cv-lgh-embedding-investigation-2026-09-10",
+      "readme_sha256": "f6ca496c6fd47452728c8036e57dcdd7447b52b97b72d7385f1958b4935f8543",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "142138991bfcaf3252838b11cf622da4fd3740add20593bffd6ccee2dad618bf",
+      "capture_sha256": "a05681928f63d8c90b7a673acf0e90254ef05aa1493e2c1379bfed3f3633c61b",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cw-lgh-infimum-2026-09-10",
+      "readme_sha256": "16f45372746c5ffbfad5fbf5b12072f758a8fcc2b5fa120e691e44817fc66d54",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "6191af92a9494ceff6a29d3f21810ba0dc16f1120feb23cd521dd8a44ce44357",
+      "capture_sha256": "fbed2f51e26e2088c2d73611523869c42539be969fbe373f29eb1a9e2143625a",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cx-lgh-scale-2026-09-10",
+      "readme_sha256": "f3f50233590fd73ecd20075a3be576c80876feba19814551e3bfaf5ef429c99d",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "0705d7df3ef56f9095fba1566e5395e7d9aec6ed402a66712780b1c5ef4d53ec",
+      "capture_sha256": "f650ab1a7b12fd9155b24d672e0b111f36d193c6be44f01189b4f7e7015070a6",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cy-observational-quotient-2026-09-10",
+      "readme_sha256": "d51fe419e44caf14b3216849d9aecc17fd6d6a94c688d801c59414f2275aafc8",
+      "kind": "executable",
+      "frozen_sources": 8,
+      "mismatches": [
+        {
+          "path": "../../../det8/claims.py",
+          "stored": {
+            "bytes": 26158,
+            "sha256": "02266a1529c312521b755d4e724aa068112aa2ff27dbb5ef8505644fecde7bd2"
+          },
+          "actual": {
+            "bytes": 27418,
+            "sha256": "b1106b90841e430433e582c488cda61e9fd3451af6e446b02b102fba5e23e7f2"
+          }
+        }
+      ],
+      "freeze_sha256": "2bcb7b95b9d29c6ce99d0c0e169c2b4938f5d6ebfe2ecbde3617bf48258c86a1",
+      "capture_sha256": "2849ece6d0f077748d87d83038c24a0e221426171ab547b80c708b4f5e001700",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05cz-scale-free-lgh-2026-09-10",
+      "readme_sha256": "830a7279cf9de43e186a67b684348b001b38f004926ccc64fff4665819287702",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "f344096b04d8f910cd8ad6de389235b6ce72d62337cc45fd7b20334fc03a967b",
+      "capture_sha256": "0f8e3fc8a2cb51ff32265ce6e51ac2d3c7f143fd0f0b53e4cf85ca02400c43e7",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05da-lgh-convergence-2026-09-10",
+      "readme_sha256": "af3ef3561e5bf3de8fc5b3a92be0e4c6dadcbb2ebd11b6b05c0951721e8368ac",
+      "kind": "executable",
+      "frozen_sources": 8,
+      "mismatches": [],
+      "freeze_sha256": "355f84d4434c71a4e18b585e8d6bbee44a16ed1286126a80827d42da7d28df3a",
+      "capture_sha256": "045c47f5bd9aca6a5a170cc65cdcafeb246c4724e789c7728119ad2d6b32c8cf",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema",
+        "supersedes"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05db-count-reconstruction-obstruction-2026-09-11",
+      "readme_sha256": "d1ebb5f4e779d5f7e815a6b4c1a7341597843d41b509830b04632e1ebbf7d225",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "c4d7b7708006f257ef683a9eeed9b9f4a4c9e9e2a82329f3054b752f50605014",
+      "capture_sha256": "77774c21c50f1ece76216eda8c0e73078cc04623acc559caaf551fdf75fa2697",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05dc-max-plus-closure-2026-09-11",
+      "readme_sha256": "4481484b991a36abacbe8efed7cfbe903094ea841359feaf3c33a2b6acc3dbc7",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "db18c119fe55981bb012e36c7866f36c6a1fbad24ca2c308412a0e213f74ce87",
+      "capture_sha256": "57c9f18672c9484d717b70dccf78ba2c1590c4e55fbb0186d29ced59136d8c54",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05dd-order-only-uniform-bound-2026-09-11",
+      "readme_sha256": "dd8afed2ecec667d2f78cc55c3cac8405baff20ad1af87ca4a2d21774b4b704a",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "7936ac1666c2d031b75c415fd78b321ed3f962a86f8ec0d1fa8485ca0c12b5d1",
+      "capture_sha256": "881ad6ca11fa8daedb29014097d14e264ff126ef86ea05e6b4148c2be908d0fd",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05de-pair-kernel-orientation-2026-09-11",
+      "readme_sha256": "783c05b27da8c4a7b0cbf604c2223b2d56d28925e9406cc66ff8b0bbc2482139",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "4bd2b031293db1b6528422eae26bd3191c58a38fd715cc960a2c789faeedd20e",
+      "capture_sha256": "9ddcca90c0224c87de3a18c375001e10ccc8f42a35adebe84c1d56f062b4d6d7",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05df-physical-pair-kernel-2026-09-11",
+      "readme_sha256": "09183f9a2e24f4b43ead7aab7ffe49f03f7e82b838b68d5feea20f3e5a44a32e",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "11b1fd0fe3872a2b3cc39116f7877a135a891df7e587d4dafeb49c2f4101e3c1",
+      "capture_sha256": "f2ca3ea3f3f899c4f6627bc4680b1c45c31c72ad5bc4a5a0886292bf8ccfb7ef",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05dg-sorkin-johnston-2026-09-11",
+      "readme_sha256": "e21d3ba696076e7f6fc7d7d242d1edb4b218e3ffe132454cef606b392eeca8dd",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "c3879d0459c15ffea2d35aa9cda7b222b69083a2f0a9a28d01c805eb5fac15a5",
+      "capture_sha256": "2c4fcc0f94aa58526d758941f1db9b0db725ad36d8ce10c3da3dd0b7e3abe465",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05dh-sj-vacuum-bd-2026-09-11",
+      "readme_sha256": "0bb242549085ac9feca42fac4a62d0140c82a67e86391ae0fea761fd050dcfc3",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "f884925277d7418b66be0640606417c027c801a69e4823a4e27af733f076bdee",
+      "capture_sha256": "b8085560432e2c3e09da82684181b7cdf13ee0e4466e23fd76a5a3d2a1ce4741",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05di-native-growth-law-2026-09-11",
+      "readme_sha256": "e1f215fea5b776cd4ea8ff6b06a9d5291ce4bb7ca6afd3553acb70b7ec0f6d5b",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "32dcdcae178482c21a743be533c78c5be36e774ea9513610fd4a86bfaf05e92f",
+      "capture_sha256": "bc78cff86e673cf75424e493ec004fac6c918414c42e39f8eec3e1be64d43f77",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05dj-det-native-law-2026-09-11",
+      "readme_sha256": "a772ead7bde3766aa7aa54e977f0fd5158959fe4497c715b9fc741839261fc0e",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "09ecb3657db57b7ae20783e3fcecceeb0ac920d9e99c22e461c4d50e644df6f4",
+      "capture_sha256": "6dbdedd8018f21f73000507f2637e0230ebc0bdc23b7d2095e698e9f29bc0e4a",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05dk-no-go-direction-2026-09-11",
+      "readme_sha256": "3c6778791c3ecf6c5220cbd3fee9dd9543030af17dca4714fb20426f93a6cfe8",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "e7550512dad4ab5e54a4bc9faddf8c57cef70740701eb589e6c25ea2e551023a",
+      "capture_sha256": "d10dedc230696e63a3c98d67e820c511ccf015f5dc896d04cddd812cc6572fec",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05dl-interval-self-similarity-2026-09-11",
+      "readme_sha256": "cd042c51a54a789408dac1befa5afdec9a7045ced47909932e1956568f5e0c89",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "b392b39dec1e066d5604606a818d35f939010341bef6037facf751a94a2398cb",
+      "capture_sha256": "cee8dbbce71d6664dc6e42e3a4eab8195da18ec2ae69a403729de72bc635116e",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05dm-stronger-adversary-2026-09-11",
+      "readme_sha256": "41f896ce0bb6624539d3d95ee1aa04193d7f296b061df78bfe20dc243fcc988c",
+      "kind": "executable",
+      "frozen_sources": 6,
+      "mismatches": [],
+      "freeze_sha256": "d585664bda19569a49e7bf1c1f7cba765cd99859f20da1eb83aa297e30944b1f",
+      "capture_sha256": "8a3230a07f61474b0ccea3f87fc019729115dbe6f1aa47613fcdc71529cfbdcf",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05dn-t7-link-2026-09-11",
+      "readme_sha256": "716ac7aec2c073cf0516211381b035a41db1a6c3716921c80b5ee0b28935c133",
+      "kind": "executable",
+      "frozen_sources": 7,
+      "mismatches": [],
+      "freeze_sha256": "97f977189b1da75b39c8c617bc0c0ffc89403b761f592fe1c4161f0a771109ca",
+      "capture_sha256": "6457d9c287de1b7560e297d2e11ef66ba8b04d2f86148d97c756c9e22b94ce1b",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    },
+    {
+      "directory": "docs/validation/qr-05do-anchor-calculus-2026-09-11",
+      "readme_sha256": "db2756699ef7cf6e1d173dde852e1df3b807bf927bf9a02c77aef68faccb582b",
+      "kind": "executable",
+      "frozen_sources": 8,
+      "mismatches": [],
+      "freeze_sha256": "28342c9101f7469cd626da58386696e1340fd73ac3d2d7a221b191dad63d0074",
+      "capture_sha256": "78af01b2a4d594ec8322b0de6821cbdefb4da553c6bf5ada6d988b1bb5087625",
+      "capture_keys": [
+        "report",
+        "runtime",
+        "schema"
+      ],
+      "source_bound_capture": false
+    }
+  ]
+}
