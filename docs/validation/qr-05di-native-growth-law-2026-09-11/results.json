@@ -1,0 +1,187 @@
+{
+  "report": {
+    "calibration": [
+      {
+        "d_mm": 2.063689401,
+        "dim": 2,
+        "f": 0.476599553,
+        "link_fraction": 0.102140443,
+        "mean_interval": 0.10368757,
+        "n": 150
+      },
+      {
+        "d_mm": 2.827025012,
+        "dim": 3,
+        "f": 0.262729306,
+        "link_fraction": 0.317098093,
+        "mean_interval": 0.038362852,
+        "n": 150
+      },
+      {
+        "d_mm": 4.232854411,
+        "dim": 4,
+        "f": 0.082147651,
+        "link_fraction": 0.676470588,
+        "mean_interval": 0.005679012,
+        "n": 150
+      }
+    ],
+    "controls": [
+      {
+        "d_mm": 1.0,
+        "f": 1.0,
+        "link_fraction": 0.013333333,
+        "name": "chain"
+      },
+      {
+        "d_mm": 80.0,
+        "f": 0.0,
+        "link_fraction": 0.0,
+        "name": "antichain"
+      }
+    ],
+    "flags": {
+      "growth_law_matches_the_two_point_dimension": true,
+      "growth_law_mismatches_the_link_structure": true,
+      "mm_estimator_is_calibrated": true,
+      "native_growth_law_is_manifoldlike": false,
+      "o7_emergence_achieved_without_inserting_geometry": false,
+      "two_point_mm_is_insufficient_for_manifoldlikeness": true
+    },
+    "matched": {
+      "2": {
+        "d_mm_matched": 2.0636894,
+        "f_sprinkle": 0.476599553,
+        "link_matched": 0.077671227,
+        "link_mismatch": true,
+        "link_ratio": 0.760435579,
+        "link_sprinkle": 0.102140443
+      },
+      "3": {
+        "d_mm_matched": 2.827025015,
+        "f_sprinkle": 0.262729306,
+        "link_matched": 0.138153575,
+        "link_mismatch": true,
+        "link_ratio": 0.435680875,
+        "link_sprinkle": 0.317098093
+      },
+      "4": {
+        "d_mm_matched": 4.232854411,
+        "f_sprinkle": 0.082147651,
+        "link_matched": 0.269472654,
+        "link_mismatch": true,
+        "link_ratio": 0.398350881,
+        "link_sprinkle": 0.676470588
+      }
+    },
+    "schema": "qr05di-report-v1",
+    "spec": {
+      "growth_law": "transitive percolation TP(n,p) (birth order; pair related w.p. p; closure)",
+      "n": 150,
+      "question": "O7: can a geometry-free native growth law grow a manifoldlike order (stable Myrheim–Meyer dimension + manifoldlikeness test)?",
+      "sprinkle_dims": [
+        2,
+        3,
+        4
+      ],
+      "status": "Track-B exploratory (Status M); no physical claim",
+      "tests": "2-point Myrheim–Meyer dimension d_MM from the ordering fraction; 3-point link fraction and mean interval"
+    },
+    "tp": [
+      {
+        "d_mm": 7.252297998,
+        "f": 0.00590604,
+        "f_spread": 0.001073826,
+        "link_fraction": 0.775,
+        "mean_interval": 0.001888889,
+        "p": 0.005
+      },
+      {
+        "d_mm": 5.850356383,
+        "f": 0.020357942,
+        "f_spread": 0.012438479,
+        "link_fraction": 0.550792738,
+        "mean_interval": 0.005411286,
+        "p": 0.01
+      },
+      {
+        "d_mm": 4.452811812,
+        "f": 0.068143177,
+        "f_spread": 0.005995526,
+        "link_fraction": 0.287303027,
+        "mean_interval": 0.011108036,
+        "p": 0.02
+      },
+      {
+        "d_mm": 3.547824761,
+        "f": 0.14590604,
+        "f_spread": 0.01458613,
+        "link_fraction": 0.188296037,
+        "mean_interval": 0.018875506,
+        "p": 0.03
+      },
+      {
+        "d_mm": 2.442360109,
+        "f": 0.356241611,
+        "f_spread": 0.023803132,
+        "link_fraction": 0.098016559,
+        "mean_interval": 0.045845071,
+        "p": 0.05
+      },
+      {
+        "d_mm": 1.864024758,
+        "f": 0.553243848,
+        "f_spread": 0.057181208,
+        "link_fraction": 0.064715259,
+        "mean_interval": 0.095446355,
+        "p": 0.07
+      },
+      {
+        "d_mm": 1.54863657,
+        "f": 0.694765101,
+        "f_spread": 0.0449217,
+        "link_fraction": 0.051906776,
+        "mean_interval": 0.153621593,
+        "p": 0.1
+      },
+      {
+        "d_mm": 1.327183893,
+        "f": 0.809485459,
+        "f_spread": 0.000715884,
+        "link_fraction": 0.039796603,
+        "mean_interval": 0.213725223,
+        "p": 0.15
+      },
+      {
+        "d_mm": 1.209712497,
+        "f": 0.875257271,
+        "f_spread": 0.003400447,
+        "link_fraction": 0.033790824,
+        "mean_interval": 0.251483658,
+        "p": 0.2
+      },
+      {
+        "d_mm": 1.101123815,
+        "f": 0.938791946,
+        "f_spread": 0.011096197,
+        "link_fraction": 0.027076838,
+        "mean_interval": 0.289951933,
+        "p": 0.3
+      },
+      {
+        "d_mm": 1.031255566,
+        "f": 0.980894855,
+        "f_spread": 0.001700224,
+        "link_fraction": 0.020937682,
+        "mean_interval": 0.316472011,
+        "p": 0.5
+      }
+    ],
+    "verdict": "QR-05DI (direction A): a geometry-free native growth law — transitive percolation TP(n,p) — is tested against the O7 criterion. The Myrheim–Meyer estimator is calibrated (sprinkles return d_MM ≈ 2, 3, 4). TP can match the 2-point MM dimension of a sprinkle at a tuned small p, but its link structure does not match (the link fraction at matched order is 40–76% of the sprinkle's; ℓ vs p trends opposite to ℓ vs d), so the simplest geometry-free growth law is **not manifoldlike** and the 2-point MM test is **insufficient**. O7's manifoldlike emergence is not achieved without inserting geometry; the obstruction is now a concrete higher-order (link/interval) statistic that a genuine native law must also match. Track-B exploratory (Status M); no physical, metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05di-capture-v1"
+}
