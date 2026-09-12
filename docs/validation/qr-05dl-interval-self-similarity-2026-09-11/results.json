@@ -1,0 +1,128 @@
+{
+  "report": {
+    "flags": {
+      "a_no_go_is_established": false,
+      "closure_dense_laws_fail_interval_self_similarity_at_low_f": true,
+      "degenerate_counterexamples_fail_interval_self_similarity": true,
+      "interval_self_similarity_is_a_higher_order_manifoldlike_invariant": true,
+      "manifoldlikeness_is_multi_faceted_no_single_invariant_sufficient": true,
+      "sprinkles_are_interval_self_similar": true
+    },
+    "objects": [
+      {
+        "d_mm_global": 2.07823479,
+        "d_mm_interval": 1.985658247,
+        "dimension_mismatch": 0.092576543,
+        "f_global": 0.471389558,
+        "interval_density": 0.094124864,
+        "intervals_sampled": 800,
+        "mean_f_interval": 0.505402885,
+        "object": "sprinkle_d2",
+        "self_similarity": 1.072155452
+      },
+      {
+        "d_mm_global": 2.927855204,
+        "d_mm_interval": 3.082930393,
+        "dimension_mismatch": 0.155075188,
+        "f_global": 0.242281124,
+        "interval_density": 0.168280069,
+        "intervals_sampled": 800,
+        "mean_f_interval": 0.213710051,
+        "object": "sprinkle_d3",
+        "self_similarity": 0.882074702
+      },
+      {
+        "d_mm_global": 4.22358655,
+        "d_mm_interval": 4.321649037,
+        "dimension_mismatch": 0.098062486,
+        "f_global": 0.082795181,
+        "interval_density": 0.418703919,
+        "intervals_sampled": 507,
+        "mean_f_interval": 0.076187223,
+        "object": "sprinkle_d4",
+        "self_similarity": 0.920189097
+      },
+      {
+        "d_mm_global": 3.778166565,
+        "d_mm_interval": 1.316674288,
+        "dimension_mismatch": 2.461492277,
+        "f_global": 0.120449799,
+        "interval_density": 0.42011203,
+        "intervals_sampled": 800,
+        "mean_f_interval": 0.815236204,
+        "object": "transitive_percolation_p0.02",
+        "self_similarity": 6.768265367
+      },
+      {
+        "d_mm_global": 1.887058695,
+        "d_mm_interval": 1.711492886,
+        "dimension_mismatch": 0.175565808,
+        "f_global": 0.543903614,
+        "interval_density": 0.081221572,
+        "intervals_sampled": 800,
+        "mean_f_interval": 0.618483774,
+        "object": "transitive_percolation_p0.05",
+        "self_similarity": 1.137120176
+      },
+      {
+        "d_mm_global": 1.324609654,
+        "d_mm_interval": 1.788146164,
+        "dimension_mismatch": 0.463536509,
+        "f_global": 0.810891566,
+        "interval_density": 0.092634415,
+        "intervals_sampled": 800,
+        "mean_f_interval": 0.58495669,
+        "object": "transitive_percolation_p0.1",
+        "self_similarity": 0.721374736
+      },
+      {
+        "d_mm_global": 1.994739785,
+        "d_mm_interval": null,
+        "dimension_mismatch": null,
+        "f_global": 0.501975904,
+        "interval_density": 0.0,
+        "intervals_sampled": 0,
+        "mean_f_interval": null,
+        "object": "bipartite_complete",
+        "self_similarity": null
+      },
+      {
+        "d_mm_global": 1.601319658,
+        "d_mm_interval": null,
+        "dimension_mismatch": null,
+        "f_global": 0.669333333,
+        "interval_density": 0.334661355,
+        "intervals_sampled": 0,
+        "mean_f_interval": null,
+        "object": "layer_cake_k3",
+        "self_similarity": null
+      },
+      {
+        "d_mm_global": 1.433282143,
+        "d_mm_interval": null,
+        "dimension_mismatch": null,
+        "f_global": 0.752963855,
+        "interval_density": 0.502645503,
+        "intervals_sampled": 0,
+        "mean_f_interval": null,
+        "object": "layer_cake_k4",
+        "self_similarity": null
+      }
+    ],
+    "schema": "qr05dl-report-v1",
+    "spec": {
+      "invariant": "interval self-similarity + interval density + interval dimension",
+      "m_max": 30,
+      "m_min": 3,
+      "n": 250,
+      "question": "A higher-order manifoldlike invariant: is the interval self-similarity S = <f(I)>/f_global ~ 1 for sprinkles and violated by the geometry-free counterexamples?",
+      "status": "Track-B exploratory (Status M); no physical claim"
+    },
+    "verdict": "QR-05DL (direction A, higher-order invariant): the **interval self-similarity** S = <f(I(x,y))>/f_global is a genuine higher-order manifoldlike invariant. Sprinkles (d = 2, 3, 4) are self-similar — S ≈ 1 up to finite-size bias, and the Myrheim–Meyer dimension of the interval ordering fraction matches the global one — while the QR-05DK geometry-free counterexamples fail: the degenerate orders (bipartite, layer-cake) have **no intervals** (interval density 0, S undefined), and transitive percolation has a large **dimension mismatch** at low ordering fraction (S up to ~8, |Δd_MM| up to ~2.7). So a higher-order invariant *does* separate the counterexamples from manifoldlike sets — the gap QR-05DK left is closed. But manifoldlikeness is **multi-faceted**: no single invariant (2-point, link, or interval self-similarity) is sufficient, and a no-go is not established. Track-B exploratory (Status M); no metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05dl-capture-v1"
+}

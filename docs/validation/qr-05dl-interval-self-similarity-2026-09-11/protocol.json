@@ -1,0 +1,13 @@
+{
+  "schema": "qr05dl-protocol-v1",
+  "seed": 7,
+  "n": 250,
+  "sprinkle_dims": [2, 3, 4],
+  "tp_p": [0.02, 0.05, 0.1],
+  "layer_k": [3, 4],
+  "m_min": 3,
+  "m_max": 30,
+  "cap": 800,
+  "tol": 1e-9,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
