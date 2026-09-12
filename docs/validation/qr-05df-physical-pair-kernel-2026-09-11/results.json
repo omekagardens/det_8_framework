@@ -1,0 +1,95 @@
+{
+  "report": {
+    "flags": {
+      "directed_propagator_recovers_light_cones": true,
+      "kernel_and_order_are_coupled_not_reduced": true,
+      "magnitude_is_orientation_blind": true,
+      "naive_physical_kernel_is_strongly_positive_for_all_objects": false,
+      "phase_sign_is_the_orientation": true,
+      "strong_positivity_is_a_nontrivial_constraint": true,
+      "time_reversal_acts_as_conjugation": true,
+      "undirected_comparability_is_the_support": true
+    },
+    "objects": [
+      {
+        "directed_light_cone_recovered": true,
+        "n": 2,
+        "object": "2-chain",
+        "phase_sign_is_orientation": true,
+        "strongly_positive": true,
+        "undirected_comparability_is_support": true
+      },
+      {
+        "directed_light_cone_recovered": true,
+        "n": 3,
+        "object": "V",
+        "phase_sign_is_orientation": true,
+        "strongly_positive": true,
+        "undirected_comparability_is_support": true
+      },
+      {
+        "directed_light_cone_recovered": true,
+        "n": 3,
+        "object": "3-chain",
+        "phase_sign_is_orientation": true,
+        "strongly_positive": true,
+        "undirected_comparability_is_support": true
+      },
+      {
+        "directed_light_cone_recovered": true,
+        "n": 4,
+        "object": "diamond",
+        "phase_sign_is_orientation": true,
+        "strongly_positive": false,
+        "undirected_comparability_is_support": true
+      },
+      {
+        "directed_light_cone_recovered": true,
+        "n": 6,
+        "object": "sprinkle_d2_n6",
+        "phase_sign_is_orientation": true,
+        "strongly_positive": false,
+        "undirected_comparability_is_support": true
+      },
+      {
+        "directed_light_cone_recovered": true,
+        "n": 8,
+        "object": "sprinkle_d2_n8",
+        "phase_sign_is_orientation": true,
+        "strongly_positive": false,
+        "undirected_comparability_is_support": true
+      }
+    ],
+    "schema": "qr05df-report-v1",
+    "spec": {
+      "kernel": "link matrix L; free path-sum propagator K = (I − L)^{-1}; G = K + Kᵀ, Ω = K − Kᵀ, 𝔇_K = G + iΩ",
+      "objects": [
+        "2-chain",
+        "V",
+        "3-chain",
+        "diamond",
+        "sprinkle_d2_n6",
+        "sprinkle_d2_n8"
+      ],
+      "question": "E next step: does a physical (directed, local) pair-kernel recover the light cones and the orientation, and can it be strongly positive?",
+      "status": "Track-B exploratory (Status M); model, not a physical claim"
+    },
+    "strong_positivity": {
+      "objects": 6,
+      "strongly_positive_count": 3
+    },
+    "time_reversal": {
+      "G_invariant": true,
+      "K_transposes": true,
+      "Omega_flipped": true,
+      "checked": 6,
+      "magnitude_invariant": true
+    },
+    "verdict": "QR-05DF (E next step): a physical-flavored, directed, local kernel — the free link-path propagator K = (I − L)^{-1} — recovers the light cones (its support off the diagonal is exactly the directed causal relation) and reproduces E's structure: the symmetric part G = K + Kᵀ is the undirected comparability (orientation-invariant), and the orientation is the sign of the phase arg 𝔇_K. Time reversal acts as conjugation (K↦Kᵀ, G↦G, Ω↦−Ω, |𝔇_K| invariant), so the magnitude stays orientation-blind. The naive symmetrisation 𝔇_K = G + iΩ is strongly positive only for three of the six objects (2-chain, V, 3-chain), failing for the diamond and the sprinklings: strong positivity is a genuine constraint, not automatic — the same coupling that E found. So the conformal/orientation reading survives for a directed physical kernel, and 𝔇 and ≺ remain non-redundant and coupled — the relational-coupling view. Track-B exploratory (Status M): a model, not Sorkin–Johnston / quantum-sequential-growth, and no physical, metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05df-capture-v1"
+}

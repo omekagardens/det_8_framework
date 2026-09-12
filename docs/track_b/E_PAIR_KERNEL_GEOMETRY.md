@@ -57,6 +57,40 @@ non-redundant and mutually constrained, and the conformal class is the shared ob
 So the single-primitive origin for signature **fails as stated**; a *shared-origin*
 refinement survives, and the pair-kernel is not a substitute for the order.
 
+## Physical 𝔇 (QR-05DF)
+
+E's next step replaces the toy `𝔇` with a **directed, local, physical-flavored kernel**:
+the free link-path propagator `K = (I − L)⁻¹` (`K(x,y)` = number of link-chains `x → y`),
+with `G = K + Kᵀ`, `Ω = K − Kᵀ`, `𝔇_K = G + iΩ`. On small causal sets:
+
+- `supp(K)` off the diagonal is exactly the **directed** causal relation — the local
+  propagator recovers the **light cones**;
+- `G` is the **undirected** (conformal) comparability, orientation-invariant;
+- the **sign of `arg 𝔇_K`** is the orientation (`+` for `x≺y`, `−` for `y≻x`);
+- time reversal acts as conjugation (`K↦Kᵀ`), `|𝔇_K|` invariant;
+- **strong positivity is not automatic** (3 of 6 objects).
+
+So E's coupling **survives** the toy → physical step: the conformal class and orientation
+are realized as `supp` + `arg`, and strong positivity remains the binding constraint.
+See [QR-05DF](../validation/qr-05df-physical-pair-kernel-2026-09-11/README.md).
+
+## Ontological reading — the relational coupling (Status M)
+
+The "strong no / coupled yes" is DET's ontological view, stated explicitly:
+
+- **Strong no:** `𝔇` does not reduce to — and does not subsume — the causal order.
+  `𝔇` and `≺` are **non-redundant**.
+- **Coupled yes:** they are **mutually constrained** — the conformal class is the shared
+  object (`Re 𝔇` / `supp`), orientation the directed remainder (`arg 𝔇` / `Im`), and
+  strong positivity bounds how they combine. This **relational coupling** (not a
+  reduction) is exactly the ontology DET adopts.
+
+DET may be **missing primitives** for a complete account — the true physical `𝔇`
+(Sorkin–Johnston / QSG) is unbuilt and the coupling strength uninterpreted — so this is
+used **exploratorily** in Track B: coherent and motivating, but **not hardened** into a
+core claim. Its role is to *shape* the search for the missing primitives, not to assert
+their existence.
+
 ## Prior art
 
 Sorkin decoherence functional / quantum measure theory (Hermiticity, strong positivity);

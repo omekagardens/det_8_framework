@@ -1,0 +1,7 @@
+{
+  "schema": "qr05df-protocol-v1",
+  "seed": 7,
+  "sprinkle_n": [6, 8],
+  "tol": 1e-9,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
