@@ -1,0 +1,37 @@
+{
+  "schema": "qr05do-source-freeze-v1",
+  "sources": {
+    "../../../det8/models/order_count_geometry.py": {
+      "bytes": 17830,
+      "sha256": "224bfcbe04d447e02598f1d3132b44165ad19499ea140227cb5e89f8ed75280b"
+    },
+    "../qr-05cy-observational-quotient-2026-09-10/primary.py": {
+      "bytes": 13522,
+      "sha256": "1262422d9f58136ebdc843cfc7abec23385f34880bca4e398d15a25ad964d643"
+    },
+    "README.md": {
+      "bytes": 5935,
+      "sha256": "db2756699ef7cf6e1d173dde852e1df3b807bf927bf9a02c77aef68faccb582b"
+    },
+    "primary.py": {
+      "bytes": 20221,
+      "sha256": "48d5c1bbdacb2a40edd611a119cefa927ca81c452bbd911444cb28d581035f42"
+    },
+    "protocol.json": {
+      "bytes": 742,
+      "sha256": "3d884f3e3ac038c7915211cd605b261506b3293a980bc1b2b7859c7dbf0f4731"
+    },
+    "reference.py": {
+      "bytes": 19726,
+      "sha256": "1f5e56f75565ae74ed6dfc1effa961d7bfc8471fdc379648830e74f49e1b68b4"
+    },
+    "study.py": {
+      "bytes": 4137,
+      "sha256": "3d2426b92178f649b33e63ba5810e4ae7c137b857f8ce9e22ce42daa779ab83f"
+    },
+    "test_qr05do.py": {
+      "bytes": 8814,
+      "sha256": "eed252b6515f2c856c06407c0ffa4420f928b72e436a21bb85b6569add378652"
+    }
+  }
+}

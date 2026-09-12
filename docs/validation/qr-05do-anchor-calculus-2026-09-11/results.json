@@ -1,0 +1,1891 @@
+{
+  "report": {
+    "anchor_check": {
+      "anchor_is_external": true,
+      "anchor_separates_the_witness": true,
+      "internal_channels_separating_the_witness": []
+    },
+    "flags": {
+      "a_declared_channel_separates_a_family_beyond_its_mechanism": true,
+      "absolute_scale_requires_the_external_anchor": true,
+      "every_internal_reference_is_blind_on_the_witness_class": true,
+      "identifiability_is_monotone_under_channel_refinement": true,
+      "no_go_remains_outside_the_anchor": true,
+      "the_anchor_is_not_constructible_from_the_record_channel": true,
+      "the_counts_channel_identifies_the_conformal_factor": true,
+      "the_joint_minimum_is_recorded_not_assumed": true,
+      "the_lattice_is_computed_exactly": true,
+      "the_one_channel_per_blind_direction_design_is_identifying": true,
+      "the_order_channel_identifies_the_declared_dimension_worlds": true
+    },
+    "internal_reference_blindness": {
+      "anchor_bearing_subsets_all_sighted": true,
+      "control_channels_are_blind": true,
+      "internal_subsets_all_blind": true,
+      "n_anchor_bearing_subsets": 16,
+      "n_internal_subsets": 16,
+      "target_differs": true,
+      "witness": [
+        "scale1",
+        "scale2"
+      ]
+    },
+    "joint_k_min": 2,
+    "joint_minimal_sets": [
+      [
+        "anchor",
+        "counts"
+      ]
+    ],
+    "lattice": [
+      {
+        "channels": [],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 0,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "dim2",
+              "dim3"
+            ]
+          }
+        }
+      },
+      {
+        "channels": [
+          "order"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 1,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order_signs"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 1,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "counts"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 1,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "distance_ratio"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 1,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 1,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "dim2",
+              "dim3"
+            ]
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "order_signs"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "counts"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "distance_ratio"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order_signs",
+          "counts"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order_signs",
+          "distance_ratio"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order_signs",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "counts",
+          "distance_ratio"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "counts",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "distance_ratio",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 2,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "order_signs",
+          "counts"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "order_signs",
+          "distance_ratio"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "order_signs",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "counts",
+          "distance_ratio"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "counts",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "distance_ratio",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order_signs",
+          "counts",
+          "distance_ratio"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order_signs",
+          "counts",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order_signs",
+          "distance_ratio",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "counts",
+          "distance_ratio",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 3,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "order_signs",
+          "counts",
+          "distance_ratio"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "size": 4,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "scale1",
+              "scale2"
+            ]
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "order_signs",
+          "counts",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 4,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "order_signs",
+          "distance_ratio",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0,
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 4,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "NON_IDENTIFIABLE",
+            "witness": [
+              "omega0.0",
+              "omega2.0"
+            ]
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "counts",
+          "distance_ratio",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 4,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order_signs",
+          "counts",
+          "distance_ratio",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 4,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      },
+      {
+        "channels": [
+          "order",
+          "order_signs",
+          "counts",
+          "distance_ratio",
+          "anchor"
+        ],
+        "family_partitions": {
+          "conformal": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "dimension": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "scale": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "size": 5,
+        "targets": {
+          "absolute_scale": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "conformal_factor": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          },
+          "dimension": {
+            "verdict": "IDENTIFIED",
+            "witness": null
+          }
+        }
+      }
+    ],
+    "minimal_sets": {
+      "absolute_scale": [
+        [
+          "anchor"
+        ]
+      ],
+      "conformal_factor": [
+        [
+          "counts"
+        ]
+      ],
+      "dimension": [
+        [
+          "counts"
+        ],
+        [
+          "distance_ratio"
+        ],
+        [
+          "order"
+        ],
+        [
+          "order_signs"
+        ]
+      ]
+    },
+    "monotonicity_violations": [],
+    "one_channel_per_direction_design": [
+      "anchor",
+      "counts",
+      "order"
+    ],
+    "ontological_claim": false,
+    "propositions": [
+      {
+        "id": "B1",
+        "statement": "tau is identifiable through O_S iff tau is constant on every O_S-class (CY's P1, extended to channel sets).",
+        "status": "proved_elementary"
+      },
+      {
+        "id": "B2",
+        "statement": "Identifiability is monotone under channel refinement: S subset S' and identified through S implies identified through S'.",
+        "status": "verified_exhaustively_on_the_lattice"
+      },
+      {
+        "id": "B3",
+        "statement": "The minimal anchor set is the inclusion-minimal identifying channel set.",
+        "status": "verified_exhaustively_on_the_lattice"
+      },
+      {
+        "id": "B4",
+        "statement": "Absolute scale and any reference from the same channel require the external anchor; every anchor-free channel set is blind on the scale witness class.",
+        "status": "verified_exhaustively_on_the_lattice"
+      },
+      {
+        "id": "B5",
+        "statement": "A finite channel universe can separate a declared family beyond its mechanism channel; the lattice minimum is therefore reported, not interpreted as a mechanism.",
+        "status": "verified_finite_instance"
+      },
+      {
+        "id": "B6",
+        "statement": "Observational equivalence is not ontological identity (Status M).",
+        "status": "governance_status_m"
+      }
+    ],
+    "schema": "qr05do-report-v1",
+    "single_channel_identifying_sets": {
+      "conformal": [
+        "counts"
+      ],
+      "dimension": [
+        "counts",
+        "distance_ratio",
+        "order",
+        "order_signs"
+      ],
+      "scale": [
+        "anchor"
+      ]
+    },
+    "spec": {
+      "channels": [
+        "order",
+        "order_signs",
+        "counts",
+        "distance_ratio",
+        "anchor"
+      ],
+      "external_channels": [
+        "anchor"
+      ],
+      "families": {
+        "conformal": {
+          "target": "conformal_factor"
+        },
+        "dimension": {
+          "target": "dimension"
+        },
+        "scale": {
+          "target": "absolute_scale"
+        }
+      },
+      "internal_channels": [
+        "order",
+        "order_signs",
+        "counts",
+        "distance_ratio"
+      ],
+      "joint_target": [
+        "dimension",
+        "conformal_factor",
+        "absolute_scale"
+      ],
+      "question": "What is the minimal additional channel/anchor that makes scale + reference + geometry identifiable?",
+      "status": "Track-B exploratory / correspondence (Status M); no physical claim"
+    },
+    "status_m_guard": "observational equivalence is not ontological identity (Status M; GOVERNANCE section 3 F8-OPEN v2; ONTOLOGY.md section 5)",
+    "verdict": "QR-05DO (direction B, the anchor calculus): CY's observational quotient is extended to a calculus over **channel sets**. Identifiability is **monotone** under channel refinement, verified with no violations over all 32 subsets; the order channel identifies the declared dimension worlds, the counts channel identifies the conformal factor, and absolute scale is identified only by sets containing the external **anchor** — with every **anchor-free** channel set blind on the scale witness class (no internal channel separates it, and all six reference constructors agree on the whole anchor-free half of the lattice: CY's P2, lattice-wide). The **joint** target (dimension, conformal factor, absolute scale) has its inclusion-minimal identifying sets recorded by the computation, and the one-channel-per-blind-direction design `{order, counts, anchor}` is identifying. So the minimal DET answer to 'what makes scale + reference + geometry identifiable?' is **one independent channel per blind direction** — an order channel for geometry, a count/mark channel for the conformal factor, and an external unit channel for scale — and only the last is unavailable from the record channel itself. The lattice minimum is reported as computed (it can be smaller than the design, because a finite channel universe may separate a declared family accidentally — recorded separately as B5) and is **not** read as a mechanism claim. Correspondence-level; no physical claim.",
+    "worlds": {
+      "conformal": [
+        "omega0.0",
+        "omega2.0"
+      ],
+      "dimension": [
+        "dim2",
+        "dim3",
+        "dim4"
+      ],
+      "scale": [
+        "scale1",
+        "scale2",
+        "scale4"
+      ]
+    }
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05do-capture-v1"
+}

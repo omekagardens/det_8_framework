@@ -1,0 +1,21 @@
+{
+  "schema": "qr05do-protocol-v1",
+  "seed": 6,
+  "n_base": 48,
+  "n_dim": 64,
+  "n_bins": 10,
+  "dims": [2, 3, 4],
+  "scale_factors": [1, 2, 4],
+  "conformal_b": [0.0, 2.0],
+  "channels": ["order", "order_signs", "counts", "distance_ratio", "anchor"],
+  "internal_channels": ["order", "order_signs", "counts", "distance_ratio"],
+  "external_channels": ["anchor"],
+  "families": {
+    "dimension": {"target": "dimension"},
+    "scale": {"target": "absolute_scale"},
+    "conformal": {"target": "conformal_factor"}
+  },
+  "joint_target": ["dimension", "conformal_factor", "absolute_scale"],
+  "reference_family": ["mean", "max", "min", "median", "rms", "positive_fraction"],
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}
