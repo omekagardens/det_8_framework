@@ -92,6 +92,19 @@ So the physical two-point function **realizes E's coupling** and needs a mass/IR
 regularisation on a finite causal set. See
 [QR-05DG](../validation/qr-05dg-sorkin-johnston-2026-09-11/README.md).
 
+## True SJ vacuum (QR-05DH)
+
+Using the **Benincasa–Dowker d'Alembertian** `B = −I + Σ_{n}(−1)^{n+1}C(N,n)A_n` (layer
+adjacencies) and its retarded inverse `G_R = (B − m²I)⁻¹`, the **true SJ state** is
+`W = ½(|Δ| + iΔ)`, `Δ = G_R − G_Rᵀ`, `|Δ| = √(−Δ²)`. It is **Hermitian and strongly
+positive by construction** (`−Δ² ⪰ 0`, eigenvalues `{0, ν_j}`) for every causal set and
+mass — **no critical mass** — while the naive symmetrisation of the same propagator is
+positive in **0 / 24** cases. `supp Δ` is again the causal relation (the light cones). So
+the QR-05DG "critical mass" is **superseded**: it was an artifact of symmetricising `G_R`
+instead of taking the positive part of `Δ`. E's coupling now holds with a genuine
+physical positive state. See
+[QR-05DH](../validation/qr-05dh-sj-vacuum-bd-2026-09-11/README.md).
+
 ## Ontological reading — the relational coupling (Status M)
 
 The "strong no / coupled yes" is DET's ontological view, stated explicitly:

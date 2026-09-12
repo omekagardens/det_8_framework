@@ -1,0 +1,147 @@
+{
+  "report": {
+    "flags": {
+      "light_cones_recovered_from_the_pauli_jordan": true,
+      "naive_symmetrisation_is_not_always_positive": true,
+      "negative_dsquared_is_psd": true,
+      "no_critical_mass_required": true,
+      "pauli_jordan_supported_on_causal_pairs": true,
+      "sj_state_is_hermitian": true,
+      "sj_state_is_strongly_positive_by_construction": true,
+      "time_reversal_flips_the_pauli_jordan": true
+    },
+    "mass_sweep": {
+      "0.0": 6,
+      "0.5": 6,
+      "1.0": 6,
+      "2.0": 6
+    },
+    "objects": [
+      {
+        "n": 2,
+        "naive_psd_by_mass": {
+          "0.0": false,
+          "0.5": false,
+          "1.0": false,
+          "2.0": false
+        },
+        "object": "2-chain",
+        "psd_by_mass": {
+          "0.0": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "n": 3,
+        "naive_psd_by_mass": {
+          "0.0": false,
+          "0.5": false,
+          "1.0": false,
+          "2.0": false
+        },
+        "object": "V",
+        "psd_by_mass": {
+          "0.0": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "n": 3,
+        "naive_psd_by_mass": {
+          "0.0": false,
+          "0.5": false,
+          "1.0": false,
+          "2.0": false
+        },
+        "object": "3-chain",
+        "psd_by_mass": {
+          "0.0": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "n": 4,
+        "naive_psd_by_mass": {
+          "0.0": false,
+          "0.5": false,
+          "1.0": false,
+          "2.0": false
+        },
+        "object": "diamond",
+        "psd_by_mass": {
+          "0.0": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "n": 6,
+        "naive_psd_by_mass": {
+          "0.0": false,
+          "0.5": false,
+          "1.0": false,
+          "2.0": false
+        },
+        "object": "sprinkle_d2_n6",
+        "psd_by_mass": {
+          "0.0": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      },
+      {
+        "n": 8,
+        "naive_psd_by_mass": {
+          "0.0": false,
+          "0.5": false,
+          "1.0": false,
+          "2.0": false
+        },
+        "object": "sprinkle_d2_n8",
+        "psd_by_mass": {
+          "0.0": true,
+          "0.5": true,
+          "1.0": true,
+          "2.0": true
+        }
+      }
+    ],
+    "schema": "qr05dh-report-v1",
+    "spec": {
+      "N": 3,
+      "bd_operator": "B = −I + Σ_{n=1}^{N} (−1)^{n+1} C(N,n) A_n (layer adjacencies)",
+      "masses": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "objects": [
+        "2-chain",
+        "V",
+        "3-chain",
+        "diamond",
+        "sprinkle_d2_n6",
+        "sprinkle_d2_n8"
+      ],
+      "question": "E next step: the true Sorkin–Johnston vacuum from the Benincasa–Dowker d'Alembertian — the light cones and a positive state with no critical mass.",
+      "retarded_green": "G_R = (B − m²I)^{-1} (lower-triangular ⇒ retarded)",
+      "sj_state": "W = ½(|Δ| + iΔ), Δ = G_R − G_Rᵀ, |Δ| = √(−Δ²) (PSD square root)",
+      "status": "Track-B exploratory (Status M); model, not a physical claim; N and the normalisation are conventions"
+    },
+    "verdict": "QR-05DH (E next step, true Sorkin–Johnston): with the Benincasa–Dowker d'Alembertian B = −I + Σ (−1)^{n+1}C(N,n)A_n and the retarded Green function G_R = (B − m²I)^{-1}, the Pauli–Jordan function Δ = G_R − G_Rᵀ is supported exactly on causally related pairs — the light cones — on every object and mass. The SJ Wightman function W = ½(|Δ| + iΔ) — the unique state determined by Δ alone — is Hermitian and strongly positive **by construction** (−Δ² ⪰ 0, eigenvalues {0, ν_j}), for every causal set and every mass, with no critical mass. This is the physical E coupling: light cones = supp Δ, conformal = |Δ|, orientation = iΔ, and the SJ state is positive — the QR-05DG critical mass was an artifact of the naive symmetrisation. Track-B exploratory (Status M): model, N and normalisation are conventions, no physical, metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05dh-capture-v1"
+}
