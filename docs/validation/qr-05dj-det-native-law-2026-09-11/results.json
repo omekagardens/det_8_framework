@@ -1,0 +1,344 @@
+{
+  "report": {
+    "controls": [
+      {
+        "d_mm": 1.0,
+        "f": 1.0,
+        "link_fraction": 0.013333333,
+        "name": "chain"
+      },
+      {
+        "d_mm": 80.0,
+        "f": 0.0,
+        "link_fraction": 0.0,
+        "name": "antichain"
+      }
+    ],
+    "flags": {
+      "det_native_law_is_manifoldlike": false,
+      "kappa_blind_control_has_no_leakage": true,
+      "o7_emergence_achieved_without_inserting_geometry": false,
+      "record_dependency_leaks_into_the_order": true,
+      "record_driven_law_matches_the_two_point_dimension": true,
+      "record_driven_law_mismatches_the_link_structure": true,
+      "record_legibility_vs_manifoldlikeness_tension": true
+    },
+    "modes": {
+      "blind": {
+        "curve": [
+          {
+            "d_mm": 4.384649221,
+            "f": 0.072214765,
+            "leakage": -0.021093481,
+            "link_fraction": 0.284660967,
+            "p0": 0.02
+          },
+          {
+            "d_mm": 3.504309439,
+            "f": 0.151260254,
+            "leakage": -0.028745272,
+            "link_fraction": 0.17991469,
+            "p0": 0.03
+          },
+          {
+            "d_mm": 2.335300458,
+            "f": 0.387173751,
+            "leakage": -0.044279841,
+            "link_fraction": 0.083344789,
+            "p0": 0.05
+          },
+          {
+            "d_mm": 1.862455123,
+            "f": 0.55388516,
+            "leakage": -0.03367285,
+            "link_fraction": 0.061969168,
+            "p0": 0.07
+          },
+          {
+            "d_mm": 1.519795768,
+            "f": 0.708993289,
+            "leakage": 0.030462758,
+            "link_fraction": 0.046614105,
+            "p0": 0.1
+          },
+          {
+            "d_mm": 1.38189903,
+            "f": 0.779985086,
+            "leakage": 0.005378304,
+            "link_fraction": 0.040485497,
+            "p0": 0.12
+          },
+          {
+            "d_mm": 1.284263017,
+            "f": 0.833139448,
+            "leakage": -0.012731586,
+            "link_fraction": 0.036287741,
+            "p0": 0.15
+          },
+          {
+            "d_mm": 1.184504389,
+            "f": 0.889783743,
+            "leakage": 0.021914755,
+            "link_fraction": 0.031052697,
+            "p0": 0.2
+          },
+          {
+            "d_mm": 1.128565966,
+            "f": 0.922505593,
+            "leakage": -0.012145524,
+            "link_fraction": 0.028649843,
+            "p0": 0.25
+          },
+          {
+            "d_mm": 1.091182941,
+            "f": 0.944727815,
+            "leakage": -1.1113e-05,
+            "link_fraction": 0.026176103,
+            "p0": 0.3
+          }
+        ],
+        "matched": {
+          "2": {
+            "f": 0.476599553,
+            "leakage": -0.038590136,
+            "link_matched": 0.071878675,
+            "link_mismatch": true,
+            "link_ratio": 0.703723938,
+            "link_sprinkle": 0.102140443
+          },
+          "3": {
+            "f": 0.262729306,
+            "leakage": -0.036085351,
+            "link_matched": 0.134285443,
+            "link_mismatch": true,
+            "link_ratio": 0.423482341,
+            "link_sprinkle": 0.317098093
+          }
+        }
+      },
+      "similar": {
+        "curve": [
+          {
+            "d_mm": 5.15770006,
+            "f": 0.037196122,
+            "leakage": 0.055811025,
+            "link_fraction": 0.402670049,
+            "p0": 0.02
+          },
+          {
+            "d_mm": 4.361087242,
+            "f": 0.073676361,
+            "leakage": 0.019725893,
+            "link_fraction": 0.283436278,
+            "p0": 0.03
+          },
+          {
+            "d_mm": 3.113635105,
+            "f": 0.208441462,
+            "leakage": -0.036483885,
+            "link_fraction": 0.138830104,
+            "p0": 0.05
+          },
+          {
+            "d_mm": 2.416649513,
+            "f": 0.363460104,
+            "leakage": -0.056588714,
+            "link_fraction": 0.090218362,
+            "p0": 0.07
+          },
+          {
+            "d_mm": 1.945937573,
+            "f": 0.520626398,
+            "leakage": -0.012659003,
+            "link_fraction": 0.066301948,
+            "p0": 0.1
+          },
+          {
+            "d_mm": 1.728224804,
+            "f": 0.61103654,
+            "leakage": 0.029596395,
+            "link_fraction": 0.056199981,
+            "p0": 0.12
+          },
+          {
+            "d_mm": 1.501996144,
+            "f": 0.717882177,
+            "leakage": 0.065064413,
+            "link_fraction": 0.046348141,
+            "p0": 0.15
+          },
+          {
+            "d_mm": 1.326091358,
+            "f": 0.810082028,
+            "leakage": 0.047968721,
+            "link_fraction": 0.038335607,
+            "p0": 0.2
+          },
+          {
+            "d_mm": 1.240851321,
+            "f": 0.857509321,
+            "leakage": 0.043114033,
+            "link_fraction": 0.033532097,
+            "p0": 0.25
+          },
+          {
+            "d_mm": 1.178278328,
+            "f": 0.89339299,
+            "leakage": 0.039020492,
+            "link_fraction": 0.030692195,
+            "p0": 0.3
+          }
+        ],
+        "matched": {
+          "2": {
+            "f": 0.476599553,
+            "leakage": -0.024964991,
+            "link_matched": 0.07300163,
+            "link_mismatch": true,
+            "link_ratio": 0.714718169,
+            "link_sprinkle": 0.102140443
+          },
+          "3": {
+            "f": 0.262729306,
+            "leakage": -0.043524637,
+            "link_matched": 0.121806173,
+            "link_mismatch": true,
+            "link_ratio": 0.384127737,
+            "link_sprinkle": 0.317098093
+          }
+        }
+      },
+      "sum": {
+        "curve": [
+          {
+            "d_mm": 5.862984643,
+            "f": 0.020134228,
+            "leakage": 0.258678569,
+            "link_fraction": 0.533855187,
+            "p0": 0.02
+          },
+          {
+            "d_mm": 5.052229543,
+            "f": 0.040745712,
+            "leakage": 0.246538495,
+            "link_fraction": 0.376533235,
+            "p0": 0.03
+          },
+          {
+            "d_mm": 3.926899344,
+            "f": 0.106338553,
+            "leakage": 0.267366742,
+            "link_fraction": 0.219647173,
+            "p0": 0.05
+          },
+          {
+            "d_mm": 3.158548034,
+            "f": 0.200954512,
+            "leakage": 0.25855236,
+            "link_fraction": 0.139889963,
+            "p0": 0.07
+          },
+          {
+            "d_mm": 2.336893129,
+            "f": 0.386696495,
+            "leakage": 0.320023447,
+            "link_fraction": 0.082194361,
+            "p0": 0.1
+          },
+          {
+            "d_mm": 2.019651015,
+            "f": 0.492677107,
+            "leakage": 0.34939909,
+            "link_fraction": 0.063190197,
+            "p0": 0.12
+          },
+          {
+            "d_mm": 1.774435993,
+            "f": 0.590842655,
+            "leakage": 0.354427935,
+            "link_fraction": 0.053108041,
+            "p0": 0.15
+          },
+          {
+            "d_mm": 1.501223371,
+            "f": 0.718269948,
+            "leakage": 0.365051479,
+            "link_fraction": 0.041906869,
+            "p0": 0.2
+          },
+          {
+            "d_mm": 1.394092774,
+            "f": 0.773512304,
+            "leakage": 0.385852067,
+            "link_fraction": 0.040018704,
+            "p0": 0.25
+          },
+          {
+            "d_mm": 1.30186435,
+            "f": 0.823385533,
+            "leakage": 0.383314441,
+            "link_fraction": 0.035916901,
+            "p0": 0.3
+          }
+        ],
+        "matched": {
+          "2": {
+            "f": 0.476599553,
+            "leakage": 0.344942723,
+            "link_matched": 0.066073182,
+            "link_mismatch": true,
+            "link_ratio": 0.646885599,
+            "link_sprinkle": 0.102140443
+          },
+          "3": {
+            "f": 0.262729306,
+            "leakage": 0.278996654,
+            "link_matched": 0.120701334,
+            "link_mismatch": true,
+            "link_ratio": 0.38064352,
+            "link_sprinkle": 0.317098093
+          }
+        }
+      }
+    },
+    "schema": "qr05dj-report-v1",
+    "spec": {
+      "law": "record-κ growth: p_ij = p0·φ(κ_i,κ_j), φ ∈ {blind,sum,similar}; closure",
+      "modes": [
+        "blind",
+        "sum",
+        "similar"
+      ],
+      "n": 150,
+      "question": "Does a DET-native record-driven law map grow a manifoldlike order (O7), or does record feedback trade manifoldlikeness for record-legibility (T8)?",
+      "sprinkle_dims": [
+        2,
+        3
+      ],
+      "status": "Track-B exploratory (Status M); no physical claim",
+      "tests": "linked 2-point MM + link-fraction discriminator (O7); κ–degree correlation (record-legibility / covariance)"
+    },
+    "sprinkle_reference": [
+      {
+        "d_mm": 2.063689401,
+        "dim": 2,
+        "f": 0.476599553,
+        "link_fraction": 0.102140443,
+        "n": 150
+      },
+      {
+        "d_mm": 2.827025012,
+        "dim": 3,
+        "f": 0.262729306,
+        "link_fraction": 0.317098093,
+        "n": 150
+      }
+    ],
+    "verdict": "QR-05DJ (direction A, DET-native): record-dependent order growth — the direction T8 currently assumes away — does not achieve O7's manifoldlike emergence. Each element carries a record κ ∈ [0,1] and the relation probability is κ-dependent (p_ij = p0·φ(κ_i,κ_j)). At a matched 2-point ordering fraction the link fraction is only ≈ 0.38–0.71 of a sprinkle's, so the geometry-free record-driven law is not manifoldlike; and the 'sum' coupling leaks the record into the order (the κ–degree correlation ≈ 0.3), i.e. the order encodes the record. So record feedback trades manifoldlikeness for record-legibility: the more the order depends on the record (DET-native), the less it looks like a manifold (O7). O7's emergence is not achieved; the obstruction is a concrete higher-order statistic plus a covariance (record-leakage) cost. Track-B exploratory (Status M); no physical, metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05dj-capture-v1"
+}
