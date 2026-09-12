@@ -1,7 +1,36 @@
 # Track B — E: does the pair-kernel force the conformal / orientation structure?
 
-11 September 2026 (Pacific/Honolulu). **Status: opened; first bounded result obtained
-(QR-05DE). Track-B mathematics; toy/structural model, no physical claim.**
+11 September 2026 (Pacific/Honolulu). **Status: CLOSED (11 September 2026). Four bounded
+gates (QR-05DE, DF, DG, DH). Track-B mathematics, correspondence-level (Status M); no
+physical claim.**
+
+## Status — E closed (11 September 2026)
+
+E asked whether the pair-kernel `𝔇` forces the conformal/signature structure. It is
+resolved as a **relational coupling**, not a derivation:
+
+| gate | result |
+|---|---|
+| [QR-05DE](../validation/qr-05de-pair-kernel-orientation-2026-09-11/README.md) | `𝔇` is orientation-blind in magnitude; the naive `C + iΩ` glue is strongly positive only for the antichain; an orientation kernel `I + i·r·Ω` is positive up to a poset-dependent `r*(P) ∈ (0,1]`. |
+| [QR-05DF](../validation/qr-05df-physical-pair-kernel-2026-09-11/README.md) | a directed physical propagator `K = (I−L)⁻¹` recovers the light cones (`supp K`) and the orientation (phase sign); strong positivity remains a constraint. |
+| [QR-05DG](../validation/qr-05dg-sorkin-johnston-2026-09-11/README.md) | the SJ structure `W = ½H + ½iΔ` (causal-set resolvent propagator): Pauli–Jordan support = light cone; the state condition `W ⪰ 0` needed a critical mass — a naive-symmetrisation artifact. |
+| [QR-05DH](../validation/qr-05dh-sj-vacuum-bd-2026-09-11/README.md) | the **true SJ vacuum** from the **Benincasa–Dowker inverse**: `W = ½(|Δ|+iΔ)` is Hermitian and strongly positive **by construction**, for all masses; `supp Δ` = the light cone. Supersedes DG. |
+
+**Outcome.** (i) The single-primitive origin for signature **fails** — `𝔇` does not force
+the geometry; `𝔇` and `≺` are **non-redundant**. (ii) The **coupling** holds: light cones =
+`supp Δ`, conformal = `|Δ|`/`Re 𝔇`, orientation = `iΔ`/`arg 𝔇`, and strong positivity binds
+them — the relational-coupling ontology, used **exploratorily** (Status M).
+
+**Uniqueness conjecture — not resolved (out of scope).** The state space
+`{A : A + iΔ/2 ⪰ 0}` is a positive-dimensional manifold, so the *bare* SJ axioms do not
+single out the state; the SJ state is its minimal corner. The *principled* uniqueness
+(entropic purity, e.g. arXiv:2412.07832) is a research-grade math-physics question that a
+finite computation cannot settle. A bounded gate could only *refute* the bare axioms
+(trivially, likely non-novel); it was **not** pursued.
+
+**Closed.** E is closed at the physical/correspondence level. What remains (Sorkin's
+principled uniqueness, the continuum limit of the BD/SJ construction) is research-grade
+and outside the bounded-gate program. Next direction: **A** (native growth law).
 
 ## The question
 
