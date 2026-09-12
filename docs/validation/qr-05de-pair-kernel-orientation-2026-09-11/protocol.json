@@ -1,0 +1,8 @@
+{
+  "schema": "qr05de-protocol-v1",
+  "naive_glue_n": [2, 3, 4, 5],
+  "r_star_n": [2, 3, 4],
+  "r_step": 0.01,
+  "tol": 1e-9,
+  "limits": {"source_bytes": 262144, "artifact_bytes": 16777216}
+}

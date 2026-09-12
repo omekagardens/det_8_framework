@@ -1,0 +1,104 @@
+{
+  "report": {
+    "examples": {
+      "2-chain": {
+        "naive_glue_psd": false,
+        "r_star": 1.0
+      },
+      "3-chain": {
+        "naive_glue_psd": false,
+        "r_star": 0.57
+      },
+      "V": {
+        "naive_glue_psd": false,
+        "r_star": 0.7
+      },
+      "diamond": {
+        "naive_glue_psd": false,
+        "r_star": 0.5
+      }
+    },
+    "flags": {
+      "magnitude_is_time_reversal_invariant": true,
+      "naive_conformal_plus_orientation_never_strongly_positive": true,
+      "orientation_carrying_strongly_positive_kernel_exists": true,
+      "orientation_magnitude_pinned_by_order": true,
+      "orientation_not_recoverable_from_magnitude": true,
+      "pair_kernel_hermitian_and_splits": true,
+      "signature_forced_by_the_pair_kernel_alone": false,
+      "strong_positivity_couples_the_kernel_to_the_order": true,
+      "support_is_undirected_comparability": true
+    },
+    "max_coherent_r": {
+      "2": {
+        "1.0": 3
+      },
+      "3": {
+        "0.57": 6,
+        "0.7": 6,
+        "1.0": 7
+      },
+      "4": {
+        "0.41": 24,
+        "0.44": 36,
+        "0.5": 6,
+        "0.51": 48,
+        "0.57": 32,
+        "0.61": 24,
+        "0.7": 24,
+        "1.0": 25
+      }
+    },
+    "naive_glue": {
+      "2": {
+        "naive_glue_psd": 1,
+        "posets": 3,
+        "psd_only_antichain": true
+      },
+      "3": {
+        "naive_glue_psd": 1,
+        "posets": 19,
+        "psd_only_antichain": true
+      },
+      "4": {
+        "naive_glue_psd": 1,
+        "posets": 219,
+        "psd_only_antichain": true
+      },
+      "5": {
+        "naive_glue_psd": 1,
+        "posets": 4231,
+        "psd_only_antichain": true
+      }
+    },
+    "poset_totals": {
+      "2": 3,
+      "3": 19,
+      "4": 219,
+      "5": 4231
+    },
+    "schema": "qr05de-report-v1",
+    "spec": {
+      "constructions": [
+        "naive glue C + iΩ",
+        "unimodular I + i·r·Ω"
+      ],
+      "model": "finite poset P; C = comparability (symmetric), Ω = orientation (antisymmetric); Hermitian 𝔇 = G + iΩ",
+      "prior_art": "Sorkin decoherence functional / QMT; Malament; Hawking–King–McCarthy; Rideout–Sorkin QSG; record_kernel_physics §3.4 (𝔇 = G + iΩ)",
+      "question": "Does the pair-kernel force the conformal / orientation structure of a causal set?"
+    },
+    "support_is_comparability": true,
+    "time_reversal": {
+      "C_invariant": true,
+      "Omega_flipped": true,
+      "checked": 4472,
+      "magnitude_invariant": true
+    },
+    "verdict": "QR-05DE (direction E): the pair-kernel does not force the conformal / orientation structure of a causal set. Hermiticity splits 𝔇 = G + iΩ; time reversal fixes G and flips Ω, so |𝔇| is orientation-blind (the undirected comparability — the conformal candidate — is recoverable, the direction is not). The naive glue 𝔇₀ = C + iΩ is strongly positive only for the antichain (any comparable pair x≺y gives a 2×2 minor of determinant −1), so 𝔇 is not freely assembled from conformal ⊕ i·orientation. A unimodular orientation kernel 𝔇_r = I + i·r·Ω is strongly positive up to a poset-dependent maximal r*(P) ∈ (0,1]: orientation can live in the phase, but its magnitude is pinned by the order. So the signature is not forced by the pair-kernel alone; the kernel and the order are non-redundant and coupled, with the conformal class shared (Re 𝔇) and orientation the directed remainder (Im 𝔇). MATH/toy model; no metric, continuum, curvature or gravity claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05de-capture-v1"
+}
