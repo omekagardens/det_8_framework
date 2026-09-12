@@ -1,0 +1,180 @@
+{
+  "report": {
+    "checks": {
+      "carries_no_promotion_language_in_the_title": true,
+      "development_status_remains_deferred": true,
+      "estimator_does_not_classify_as_supported": true,
+      "estimator_is_absent_from_the_supported_core_exports": true,
+      "evidence_links_resolve": true,
+      "evidence_status_is_bounded_conditional": true,
+      "falsifier_pins_the_bounded_scope": true,
+      "layer_is_correspondence": true,
+      "names_the_o7_target": true,
+      "not_in_the_primary_development_sequence": true,
+      "open_gaps_are_recorded_and_resolve": true,
+      "priority_is_null": true,
+      "registered": true,
+      "scope_is_recorded": true
+    },
+    "comparison": {
+      "new_evidence_status_introduced": false,
+      "new_layer_label_introduced": true
+    },
+    "evidence_links": [
+      {
+        "anchor_ok": true,
+        "exists": true,
+        "link": "docs/track_b/GEOMETRY_NEXT.md#2-the-open-target--a-native-derivation-of-geometry-o7",
+        "path": "docs/track_b/GEOMETRY_NEXT.md"
+      },
+      {
+        "anchor_ok": true,
+        "exists": true,
+        "link": "MODEL_CARD.md#6-open-problem-status-revised-per-mathematical-review-aug-2026",
+        "path": "MODEL_CARD.md"
+      },
+      {
+        "anchor_ok": true,
+        "exists": true,
+        "link": "docs/validation/qr-05cf-t7-supplied-geometry-2026-09-10/README.md#3-result",
+        "path": "docs/validation/qr-05cf-t7-supplied-geometry-2026-09-10/README.md"
+      },
+      {
+        "anchor_ok": true,
+        "exists": true,
+        "link": "docs/validation/qr-05cy-observational-quotient-2026-09-10/RESULTS.md#taxonomy-on-the-existing-registry",
+        "path": "docs/validation/qr-05cy-observational-quotient-2026-09-10/RESULTS.md"
+      },
+      {
+        "anchor_ok": null,
+        "exists": true,
+        "link": "docs/validation/qr-05dn-t7-link-2026-09-11/README.md",
+        "path": "docs/validation/qr-05dn-t7-link-2026-09-11/README.md"
+      }
+    ],
+    "flags": {
+      "a_new_layer_label_is_introduced_for_the_link": true,
+      "all_link_checks_pass": true,
+      "no_new_evidence_status_vocabulary_is_introduced": true,
+      "the_link_is_a_first_class_scoped_registry_claim": true,
+      "the_link_names_the_o7_target_and_resolves_its_evidence": true,
+      "the_link_records_its_scope_and_open_gaps": true,
+      "the_link_remains_gated_and_cannot_unlock_research": true,
+      "the_t7_estimator_is_not_promoted_by_the_link": true
+    },
+    "link": {
+      "claim_id": "DET8-T7-LINK",
+      "dependencies": [
+        "DET8-CORE"
+      ],
+      "development_status": "DEFERRED",
+      "estimator_is_supported": false,
+      "evidence_links": [
+        "docs/track_b/GEOMETRY_NEXT.md#2-the-open-target--a-native-derivation-of-geometry-o7",
+        "MODEL_CARD.md#6-open-problem-status-revised-per-mathematical-review-aug-2026",
+        "docs/validation/qr-05cf-t7-supplied-geometry-2026-09-10/README.md#3-result",
+        "docs/validation/qr-05cy-observational-quotient-2026-09-10/RESULTS.md#taxonomy-on-the-existing-registry",
+        "docs/validation/qr-05dn-t7-link-2026-09-11/README.md"
+      ],
+      "evidence_status": "BOUNDED_CONDITIONAL_RESULT",
+      "falsifier": "The link is read as manifoldlike emergence or as a native (DET-derived) geometry rather than a correspondence: its declared scope is exceeded (dimensions beyond 1+1 primary, or geometry not supplied), or a geometry-independent growth law is exhibited whose order is manifoldlike on the declared invariants, or the estimator is shown to require the Lorentzian structure it claims to recover.",
+      "in_development_sequence": false,
+      "layer": "CORRESPONDENCE",
+      "open_gaps_recorded": true,
+      "priority": null,
+      "scope_recorded": true,
+      "supported_core_export_modules": [
+        "det8.models.bonds",
+        "det8.models.det8_core",
+        "det8.models.event_graph",
+        "det8.models.mam0",
+        "det8.models.markov_kernel",
+        "det8.models.validation"
+      ],
+      "title": "T7 order-and-count geometry link (correspondence, bounded)"
+    },
+    "open_gaps": [
+      {
+        "gap": "no native growth law is manifoldlike (the O7 target itself)",
+        "pointer": "docs/validation/qr-05dm-stronger-adversary-2026-09-11/RESULTS.md",
+        "resolves": true
+      },
+      {
+        "gap": "3+1 and 2+1 rates are not computed",
+        "pointer": "PHYSICS.md",
+        "resolves": true
+      },
+      {
+        "gap": "no unconditional uniform LPP/longest-chain concentration proof",
+        "pointer": "docs/validation/qr-05dd-order-only-uniform-bound-2026-09-11/RESULTS.md",
+        "resolves": true
+      },
+      {
+        "gap": "density/commensurability condition where V ~ tau^d fails is uncharacterized",
+        "pointer": "docs/track_b/GEOMETRY_NEXT.md#tier-2--benchmark-fill-ins-low-novelty-the-framework-explicitly-flags-them",
+        "resolves": true
+      },
+      {
+        "gap": "absolute scale and reference validity are not identifiable from one record channel",
+        "pointer": "docs/validation/qr-05cy-observational-quotient-2026-09-10/RESULTS.md",
+        "resolves": true
+      },
+      {
+        "gap": "the manifoldlikeness certificate (BHS/interval test) is not built",
+        "pointer": "docs/track_b/GEOMETRY_NEXT.md#tier-2--benchmark-fill-ins-low-novelty-the-framework-explicitly-flags-them",
+        "resolves": true
+      },
+      {
+        "gap": "Myrheim-Meyer estimates carry an unfixed realization wobble (~0.1 at n ~ 200)",
+        "pointer": "docs/validation/qr-05dm-stronger-adversary-2026-09-11/RESULTS.md",
+        "resolves": true
+      }
+    ],
+    "registry": {
+      "claim_count": 11,
+      "estimator_module": "det8.models.order_count_geometry",
+      "estimator_module_status": "EXPERIMENTAL",
+      "evidence_status_vocabulary": [
+        "VERIFIED_SOFTWARE_CONTRACT",
+        "NOT_YET_VALIDATED",
+        "BOUNDED_CONDITIONAL_RESULT",
+        "CORRESPONDENCE_ONLY",
+        "NO_EMPIRICAL_SUPPORT",
+        "NOT_APPLICABLE"
+      ],
+      "primary_development_sequence": [
+        "DET8-CORE",
+        "DET8-RET-SDK",
+        "DET8-MATERIALS",
+        "DET8-ANOMALY-TRIAGE",
+        "DET8-CAUSAL-GROWTH",
+        "DET8-QUANTUM",
+        "DET8-F9-DISCRIMINATOR",
+        "DET8-KAPPA-CLOCK"
+      ]
+    },
+    "schema": "qr05dn-report-v1",
+    "spec": {
+      "claim_id": "DET8-T7-LINK",
+      "question": "Is the T7 order-and-count geometry estimator registered as a first-class, scoped correspondence the core may reference, without promoting it?",
+      "scope": {
+        "dimensions": "1+1 primary; 3+1 not computed (PHYSICS section 15)",
+        "geometry": "supplied Minkowski samples; DET inserts no geometry",
+        "not_claimed": [
+          "manifoldlike emergence",
+          "a native (DET-derived) geometry or law map",
+          "metric, continuum, curvature or dynamics",
+          "gravity"
+        ],
+        "verified": "T7 estimator behaviour (ordering fraction -> Myrheim-Meyer dimension, link/null diagnostics, counts -> conformal profile) as CORR on generated samples"
+      },
+      "status": "Track-B exploratory / correspondence (Status M); no physical claim"
+    },
+    "verdict": "QR-05DN (direction J, the governed link): the T7 order-and-count geometry estimator is registered as a first-class **correspondence** claim (`DET8-T7-LINK`, layer `CORRESPONDENCE`, evidence `BOUNDED_CONDITIONAL_RESULT`, development `DEFERRED`) with its **scope** (1+1 primary; supplied Minkowski samples; estimator verification only; no manifoldlike emergence, no native derivation, no metric/continuum/curvature/dynamics, no gravity), its **O7 target pointer**, and its **open gaps** recorded with resolving pointers. The non-promotion invariants hold executably: the estimator stays outside the supported core exports and classifies EXPERIMENTAL, and the claim does not enter the primary development sequence, so it cannot unlock gated work. Only the existing evidence-status vocabulary is used (one new *layer* label is introduced, which is the link's own classification). Correspondence-level; no physical claim."
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.0"
+  },
+  "schema": "qr05dn-capture-v1"
+}

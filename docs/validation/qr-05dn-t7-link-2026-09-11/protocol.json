@@ -1,0 +1,61 @@
+{
+  "schema": "qr05dn-protocol-v1",
+  "claim_id": "DET8-T7-LINK",
+  "required": {
+    "layer": "CORRESPONDENCE",
+    "evidence_status": "BOUNDED_CONDITIONAL_RESULT",
+    "development_status": "DEFERRED",
+    "must_not_be_in_development_sequence": true,
+    "priority_must_be_null": true,
+    "o7_pointer_anchor": "docs/track_b/GEOMETRY_NEXT.md#2-the-open-target--a-native-derivation-of-geometry-o7",
+    "promotion_words_forbidden_in_title": ["nativity", "emergence", "derivation"],
+    "promotion_markers_required_in_falsifier": ["manifoldlike emergence", "native"],
+    "estimator_module": "det8.models.order_count_geometry"
+  },
+  "scope": {
+    "dimensions": "1+1 primary; 3+1 not computed (PHYSICS section 15)",
+    "geometry": "supplied Minkowski samples; DET inserts no geometry",
+    "verified": "T7 estimator behaviour (ordering fraction -> Myrheim-Meyer dimension, link/null diagnostics, counts -> conformal profile) as CORR on generated samples",
+    "not_claimed": [
+      "manifoldlike emergence",
+      "a native (DET-derived) geometry or law map",
+      "metric, continuum, curvature or dynamics",
+      "gravity"
+    ]
+  },
+  "open_gaps": [
+    {
+      "gap": "no native growth law is manifoldlike (the O7 target itself)",
+      "pointer": "docs/validation/qr-05dm-stronger-adversary-2026-09-11/RESULTS.md"
+    },
+    {
+      "gap": "3+1 and 2+1 rates are not computed",
+      "pointer": "PHYSICS.md"
+    },
+    {
+      "gap": "no unconditional uniform LPP/longest-chain concentration proof",
+      "pointer": "docs/validation/qr-05dd-order-only-uniform-bound-2026-09-11/RESULTS.md"
+    },
+    {
+      "gap": "density/commensurability condition where V ~ tau^d fails is uncharacterized",
+      "pointer": "docs/track_b/GEOMETRY_NEXT.md#tier-2--benchmark-fill-ins-low-novelty-the-framework-explicitly-flags-them"
+    },
+    {
+      "gap": "absolute scale and reference validity are not identifiable from one record channel",
+      "pointer": "docs/validation/qr-05cy-observational-quotient-2026-09-10/RESULTS.md"
+    },
+    {
+      "gap": "the manifoldlikeness certificate (BHS/interval test) is not built",
+      "pointer": "docs/track_b/GEOMETRY_NEXT.md#tier-2--benchmark-fill-ins-low-novelty-the-framework-explicitly-flags-them"
+    },
+    {
+      "gap": "Myrheim-Meyer estimates carry an unfixed realization wobble (~0.1 at n ~ 200)",
+      "pointer": "docs/validation/qr-05dm-stronger-adversary-2026-09-11/RESULTS.md"
+    }
+  ],
+  "tol": 1e-9,
+  "limits": {
+    "source_bytes": 262144,
+    "artifact_bytes": 16777216
+  }
+}

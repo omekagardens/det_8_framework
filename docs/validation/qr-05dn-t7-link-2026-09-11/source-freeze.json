@@ -1,0 +1,33 @@
+{
+  "schema": "qr05dn-source-freeze-v1",
+  "sources": {
+    "../../../det8/claims.py": {
+      "bytes": 27418,
+      "sha256": "b1106b90841e430433e582c488cda61e9fd3451af6e446b02b102fba5e23e7f2"
+    },
+    "README.md": {
+      "bytes": 5090,
+      "sha256": "716ac7aec2c073cf0516211381b035a41db1a6c3716921c80b5ee0b28935c133"
+    },
+    "primary.py": {
+      "bytes": 11380,
+      "sha256": "abe2fc35919038c3b8210f9cc7c7956e27e4ea35dd5eb0cb2a87ad25a1253177"
+    },
+    "protocol.json": {
+      "bytes": 2543,
+      "sha256": "1f83b640d5020e0563400d2a556bbc23ce724fc3483a5583817532243c33db35"
+    },
+    "reference.py": {
+      "bytes": 15498,
+      "sha256": "e709daca9e43f2332bab0f4a6b8b077205d75fb60cdb0e9c5fc36b051bce943e"
+    },
+    "study.py": {
+      "bytes": 4029,
+      "sha256": "bef868a27960827942cadb97d162d88acc10d8f4de5f65196cf9b126bb87bbe3"
+    },
+    "test_qr05dn.py": {
+      "bytes": 8614,
+      "sha256": "2aa7824bcfef3ab126bbe695eb4111f99e36e3f8476bd19ecd879c9ee63e4f41"
+    }
+  }
+}

@@ -71,12 +71,12 @@ and is exactly where DET can be native rather than correspondence.
 
 | # | Direction | Note |
 |---|---|---|
-| **J** | **Governed link entry** | Make the T7 estimator a first-class, scoped component the core references: layer = Correspondence, validation = `BOUNDED_CONDITIONAL_RESULT`, pointer to O7, scope (1+1, supplied geometry) and open gaps. This is the concrete form of "the core needs a link." |
+| **J** | **Governed link entry** | Make the T7 estimator a first-class, scoped component the core references: layer = Correspondence, validation = `BOUNDED_CONDITIONAL_RESULT`, pointer to O7, scope (1+1, supplied geometry) and open gaps. This is the concrete form of "the core needs a link." **DONE** (QR-05DN): registered in `det8/claims.py` as **`DET8-T7-LINK`** — layer `CORRESPONDENCE`, evidence `BOUNDED_CONDITIONAL_RESULT`, development `DEFERRED`, **no `priority`** and absent from `PRIMARY_DEVELOPMENT_SEQUENCE` (so it cannot unlock gated work); scope, O7 pointer and a 7-item open-gap register all recorded; the estimator stays `EXPERIMENTAL` and outside `SUPPORTED_CORE_EXPORTS` (no promotion); no new evidence-status vocabulary; validated by two routes (live import vs `ast` parse) and 18 tests — see [QR-05DN](../validation/qr-05dn-t7-link-2026-09-11/README.md). |
 
 ## 4. Recommended sequence
 
-1. **J — link** (cheap; unblocks the core by naming the geometry link explicitly).
-2. **B — anchor calculus** (DET-native, novel-flavored, bounded; it is the finite-observation calculus applied to the link).
+1. **J — link** — **DONE** (QR-05DN): the T7 estimator is registered as `DET8-T7-LINK`, a scoped, gated correspondence the core can reference without promotion.
+2. **B — anchor calculus** (DET-native, novel-flavored, bounded; it is the finite-observation calculus applied to the link) — **next**: extend CY's observational quotient to `k` channels and show where scale + reference + geometry identifiability flips.
 3. **A — native growth law** (the only direction that addresses O7's actual resolution criterion rather than re-testing supplied geometry).
 4. **C** as the operator/curvature step; **E** kept as a flagged long-shot.
 
