@@ -1,8 +1,40 @@
 # QR-MAP — licensed G with committed P-snapshots
 
-12 September 2026. Owner-authorized mapping revision; definition, no executor.
-The [finite-birth finding](../validation/t8-q-licensed-growth-2026-09-12/BIRTH_F.md)
-and [stop decision](QUANTUM_RECORD_GRAVITY_BRIDGE_PLAN.md) govern this sitting.
+13 September 2026, latest owner clarification: **mass and gravity are included
+in the research scope**. The [expanded plan](QR_MAP_RELATIVITY_GEOMETRY_PLAN.md)
+now includes mass-bearing dynamics, matter–geometry coupling and the GR/Einstein
+limit, which may be investigated jointly with kinematics. This supersedes the
+previous kinematic-only research restriction, not the mathematical countermodels
+or the distinction between assumptions and derivations. The physical baseline
+and Status-M ontology are not automatically changed; retired κ-gravity is not
+revived by this scope edit.
+
+13 September 2026, subsequent owner request: formally justify the operational
+hypotheses from DET and plan the route to relativity/geometry. The
+[formal audit](../validation/t8-q-hypothesis-justification-2026-09-13/JUSTIFICATION.md)
+proves finite forward record-marginal consistency, but supplies compatible
+countermodels to purification, local tomography and ideal compression.
+**FULL_PACKAGE_NOT_ENTAILED** by the current premises. The
+[geometry dependency plan](QR_MAP_RELATIVITY_GEOMETRY_PLAN.md) also proves
+that the chosen two-port law cannot fill a spatially extended continuum
+region while preserving causal order. These findings leave the conditional
+QM construction below intact; they do not promote its hypotheses or reopen
+QR-05. No geometry implementation is started.
+
+## Previous operational-completion result — retained scope
+
+13 September 2026. The owner now authorizes **explicitly labeled additional
+axioms** toward full QM. The [current result](../validation/t8-q-operational-completion-2026-09-12/RECONSTRUCTION.md)
+is a **conditional finite-QM reconstruction**, a faithful full-instrument
+pair-kernel representation and an explicit chosen L_XYZ/F_L. The operational
+axioms and law choices are not promoted to consequences of original DET.
+The [strict admitted-D result](../validation/t8-q-strict-derivation-2026-09-12/DERIVATION.md)
+and its countermodels remain valid. The architecture below is unchanged.
+The [initial gaps](../validation/t8-q-licensed-growth-2026-09-12/BIRTH_F.md),
+[verified transport model](../validation/t8-q-renewal-port-verification-2026-09-12/RESULTS.md)
+and [assumed coherent-readout model](../validation/t8-q-coherent-readout-2026-09-12/CANDIDATE.md)
+remain separate, historically scoped results. See the
+[current scope decision](QUANTUM_RECORD_GRAVITY_BRIDGE_PLAN.md).
 
 ## Frozen definition
 
@@ -32,11 +64,14 @@ law or global now) are rejected. “Growing” names trace accumulation, not an
 assertion that past events still exist. This leaves the Status-M ontology
 unchanged.
 
-Retain 𝔇's relational quantum information and the required full
+The mathematical state is X=(C,𝔇_C), with C=(V,≺,R). The shorthand F(C)
+is insufficient unless reconstruction of the residual 𝔇_C from C has been
+established. Retain 𝔇's relational quantum information and the required full
 record-conditioned quantum update, including settings, outcomes and zero
 branches. Scalar probabilities or discarded-outcome channels cannot replace
 this payload. Ordinary quantum instruments are comparison language, not
-inserted primitives. The missing native update is explicit in the finding.
+inserted primitives. The initial missing update and the later assumed
+candidate's explicit update have distinct provenance.
 
 A summary is relative to a declared question family Q: every retained
 question's answer must factor through it. Adequacy for one Q implies nothing
@@ -57,5 +92,33 @@ about another; qubit-free identifiability entries are atlas, not QR-MAP.
   mixtures of order births are not coherent sums over orders.
 - Agency is not a variable. Option B and Status M remain unchanged.
 
-This freezes the licensed architecture, **not an already specified birth F
-or a geometry derivation**. No empirical or gravity claim follows.
+This freezes the licensed architecture, not a uniquely forced law or a
+geometry derivation. The renewal-port transport F has state-independent
+probabilities. The separate readout F assumes a noncommutative pair algebra,
+compatible history kernels and compression; it is algebraically equivalent
+to conventional finite quantum measurement, not uniquely DET-derived.
+At the same C, setting and atomic diagonal it gives conditional readout
+probabilities 3/4 versus 1/4. Thus a diagonal-only payload summary fails for
+that question. Its action/precursor marginals remain state-independent:
+quantum-sensitive readout is not quantum-sensitive order selection.
+
+The stricter result now obtains 3/4 versus 1/4 directly on a four-alternative
+recordable partition; no action factor or added operation algebra is used.
+Hilbert/Gram representation is existing T2/QMT mathematics, not full QM.
+Explicit countermodels show why recordability does not determine all-history
+sharp operators, residual updates or future weights. D's own proposed axioms,
+complex field selection and a physical L/measurement algebra remain gaps.
+No assumed candidate is promoted to a strictly forced DET-native F. No
+kinematic geometry map, QR-05 sequel or empirical claim follows; Option B
+and Status M are unchanged.
+
+The operational completion invokes the full published finite reconstruction
+framework and its six postulates as **proposed** hypotheses. It transports all
+finite quantum instruments through the injective J_n map on specified compatible
+kernel cones, not the unrestricted original D cone. Its separate L_XYZ chooses
+two ports, uniform actions, record-sum-modulo-three X/Y/Z contexts and selective
+projector updates. Nine exact checks pass, including 288 complete map and 576
+disjoint-composition comparisons. A reachable common record prefix gives
+next conditional readout weights 3/4 versus 1/4 for distinct residuals arising
+from same-diagonal initial kernels. Neither a uniquely DET-forced L, universal
+control by this protocol, physical Hamiltonian, QFT nor geometry is derived.

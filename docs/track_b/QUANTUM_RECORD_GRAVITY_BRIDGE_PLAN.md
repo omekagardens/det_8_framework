@@ -1,3 +1,236 @@
+# QR-MAP scope expanded to mass and gravity
+
+13 September 2026. The owner explicitly authorizes including gravity and mass.
+The [expanded research plan](QR_MAP_RELATIVITY_GEOMETRY_PLAN.md) now includes
+mass-bearing dynamics, matter–geometry coupling and a possible GR/Einstein
+limit. This supersedes the earlier exclusion of gravitational dynamics from
+the plan. These questions may be investigated alongside geometry, including
+through a coupled candidate law; completed kinematics is not an administrative
+prerequisite to thinking about mass or gravity.
+
+The plan separates a conditional formulation using declared standard structures
+from a native derivation that must account for those structures. In both cases,
+the quantum hypothesis countermodels and two-port geometry obstruction remain
+valid. No new derivation, empirical success or unique physical mass/source law
+is claimed by expanding the scope. Option B remains the physical baseline,
+Status M is unchanged and the particular retired κ-gravity model is not revived.
+Only research-scope documents change in this sitting.
+
+## Previous hypothesis-audit sitting — retained history
+
+# QR-MAP formal hypothesis audit and conditional geometry plan
+
+13 September 2026. The owner requested formal justification of the proposed
+operational hypotheses from DET, followed by a relativity/geometry plan.
+The [justification note](../validation/t8-q-hypothesis-justification-2026-09-13/JUSTIFICATION.md)
+records **PARTIAL_DERIVATION; FULL_PACKAGE_NOT_ENTAILED**. A normalized,
+past-dependent finite continuation preserves earlier record marginals, but
+explicit compatible models violate purification, local tomography and ideal
+compression. The other hypotheses have separately named obligations; this is
+not a claim to have proved every axiom independently false.
+
+Five exact witness tests pass normally and under optimization; Ruff lint and
+format checks pass. The universal countermodel arguments are deductive proofs,
+not conclusions from those finite tests. No Lean proof is claimed. The earlier
+conditional finite-QM reconstruction and chosen L_XYZ/F_L remain intact.
+
+The requested [relativity/geometry plan](QR_MAP_RELATIVITY_GEOMETRY_PLAN.md)
+separates operational axiom selection, native growth, manifold existence,
+count-to-volume meaning and later quantum–relativistic correspondence. Its
+immediate result is an exact structural obstruction: every L_XYZ history has
+width at most two, so it cannot give a causally faithful, volume-filling
+approximation to a spacetime neighborhood with spatial extent. No number of
+additional readout checks changes that order grammar.
+
+The plan is internal derivational support only. It does not start a geometry
+executor, port enlargement, coverage/noncollapse/identifiability sequel or new
+QR-05 letter. No RET, clocks, book, κ-gravity, shared API or global primitive
+changes occur. Option B, Status M and zero new gravity Novelty Ledger rows are
+unchanged. Further native work must address the named premises, not assume
+these obstructions have been repaired.
+
+## Previous operational-completion sitting — retained history
+
+# QR-MAP conditional finite-QM completion: proposed axioms and explicit L/F
+
+13 September 2026. The owner requested F, L and a full QM reconstruction,
+then explicitly authorized exploring additional unproved axioms. The
+[new reconstruction](../validation/t8-q-operational-completion-2026-09-12/RECONSTRUCTION.md)
+records **PROPOSED_AXIOM_EXTENSION; CONDITIONAL_FINITE_QM;
+CANDIDATE_L_AND_F_SPECIFIED**. These are not new global DET axioms or a
+claim of QM uniquely forced by the original primitives.
+
+The result separates three mathematical objects:
+
+- The full finite operational framework plus six explicitly proposed CDP
+  postulates, sufficient for the **published** complex-QM reconstruction
+  theorem. This imports and credits that theorem; it is not a new proof.
+- An injective J_n representation of the entire finite quantum instrument
+  calculus on compatible pair-kernel cones. It preserves full residual states,
+  mixtures, branch weights and serial/parallel composition. It does not
+  identify the unrestricted original D cone with physical QM.
+- A chosen two-port L_XYZ and complete joint commit F_L, with record-local
+  modulo-three contexts, X/Y/Z readouts, fixed action weights, positive/zero
+  branches and incomparable-birth map covariance. This protocol is not a
+  universal controller or a uniquely selected physical law.
+
+Nine exact tests pass normally and under optimization; Ruff passes. There
+are 288 complete branch-map and 576 disjoint-composition comparisons. A
+genuinely reachable common record prefix has probability 1/36 for both
+complex-conjugate same-diagonal initial preparations, but the next conditional
+readout probabilities are 3/4 versus 1/4. No earlier captured source changed;
+there is no new growth census or capture.
+
+**Remaining boundaries:** derive or justify the additional operational
+postulates from weaker DET premises; select a physical L and initial condition;
+interpret original kernels outside the compatible cones. Infinite-dimensional
+QM, QFT, physical Hamiltonians and the kinematic geometry map are not supplied
+by this finite reconstruction. The prior strict-D countermodels still apply.
+
+This sitting records the conditional reconstruction and candidate, not a next
+gate. QR-05 remains closed. No geometry, coverage/noncollapse/identifiability
+sequel, RET, clocks, book, κ-gravity, shared API or global governance work
+starts. Option B, Status M and zero new gravity Novelty Ledger rows are
+unchanged. No automatic continuation is scheduled.
+
+## Previous strict-derivation sitting — retained history
+
+# QR-MAP strict derivation: kernel representation established, full QM open
+
+12 September 2026. The owner requests stricter DET-derived QM. The
+[new derivation](../validation/t8-q-strict-derivation-2026-09-12/DERIVATION.md)
+removes the previous candidate's assumed noncommutative algebra and
+compression rule from its inputs. **DERIVED_FROM_ADMITTED_D;
+FULL_QM_NOT_DERIVED.** No new QR-05 letter is opened.
+
+The admitted complex, strongly positive pair-kernel gives a canonical
+finite Gram/null-quotient Hilbert space, additive event vectors and
+norm-squared record weights. This is an explicit restatement of existing
+T2/QMT mathematics, properly credited, not a novel full-QM derivation.
+A four-alternative example now gives record weights 3/4 versus 1/4 for
+identical atomic diagonals without an input Hilbert space, amplitude,
+qubit algebra, compression or extra action weight. The two primitive
+kernels and the recordable partition are declared input examples.
+
+The stricter analysis also proves the missing step is substantive:
+
+- Current-state projection needs coarse decoherence; interpreting a
+  Boolean event cut as a sharp operator on all histories requires vanishing
+  atomic cross-block entries. Imposing this for every singleton forces d
+  diagonal. A null-space witness can prevent the cut even being defined.
+- Different repeatable positive branch laws have identical current record
+  probabilities and proper zero outputs but different residual predictions.
+- Distinct fixed future-extension rules preserve the same old kernel
+  exactly while predicting different next records. Bare extendability
+  does not select a physical L or operation algebra.
+
+Eight small exact witness tests pass in normal and optimized Python, and
+the proof passed independent read-only review. These are checks of the
+displayed examples, not a growth executor, frozen certificate, large census
+or proof by finite enumeration. Existing captured sources are unchanged.
+
+**Remaining named gaps:** justify D's proposed axioms from weaker DET
+primitives if that stronger demand is intended; select the physical complex
+structure, lawful measurement contexts, residual transitions, subsystem
+composition and future/growth law. Abstractly constructing End(H_D) does
+not establish which operations are physically realizable. The earlier
+assumed coherent-readout F is not promoted to strictly DET-derived QM.
+
+This sitting ends with the positive derivation and explicit obstructions,
+not a successor gate. [QR-MAP](QR_MAP.md) retains its licensed-G architecture.
+No geometry/coverage/noncollapse/identifiability sequel, RET, clocks, book,
+κ-gravity, global governance, primitive-list or shared API work starts.
+Option B, Status M and zero new gravity Novelty Ledger rows are unchanged.
+
+## Previous transport/readout sitting — retained history
+
+# T8-Q transport verified and coherent readout specified; QR-05 remains closed
+
+12 September 2026. The owner authorized following the two-piece path:
+one bounded independent verification of the existing renewal-port law,
+then a coherence-sensitive recorded-readout construction. Both are complete
+within that scope; no new QR-05 letter or automatic continuation is opened.
+
+The [transport certificate](../validation/t8-q-renewal-port-verification-2026-09-12/RESULTS.md)
+retains 260 base histories, 397 linear-extension replays per independent
+route, 260 label transports per route, complete 81-unit payload maps and
+2,340 next branches, including 780 explicit zero maps. All 21 tests pass
+in normal and optimized modes. One create-only capture and both read-only
+replays agree, without post-capture source changes. This verifies the finite
+implementation of the existing conditional transport law, not general QM.
+
+The [new readout definition and theorem](../validation/t8-q-coherent-readout-2026-09-12/CANDIDATE.md)
+retains X=(C,D) and restricts D by explicit noncommutative-algebra compatibility
+identities. A derived compression branch gives different outcome probabilities
+for the same C, setting and atomic diagonal: 3/4 versus 1/4 conditional on a
+fixed action. Thus diagonal-only summaries are rejected for this readout.
+The full residual kernel, mixtures, positive/zero branches and incomparable
+birth-map covariance are retained. Its pre-outcome context is record parity,
+not the earlier transport law's outcome-XOR-parity setting.
+
+[Exact checks](../validation/t8-q-coherent-readout-2026-09-12/CHECKS.md) pass
+15/15 in each mode: 192 complete branch-map and 256 incomparable-composition
+comparisons, plus complex, mixture, correlated-input and zero-block controls.
+These are small algebra/unit checks, not a second growth census or a
+certificate series. The renewal-port certificate and this changed readout
+law have distinct provenance; one does not certify the other.
+
+**Load-bearing qualification:** the finite noncommutative multiplication
+table, compatible domain, compression and record-block preparation are
+additional candidate assumptions. They encode conventional finite quantum
+kinematics; their unique/native derivation from the existing DET primitives
+has not been shown. The old full-cone rank-one obstruction remains valid.
+This conditional model changes its domain explicitly, not through nonlinear
+reweighting or a hidden switch of normalization.
+
+Action marginals remain 1/3, so quantum-sensitive **readout** has been
+constructed, not quantum-sensitive **order selection**. The origin/selection
+of the added algebra and L, quantum-dependent order selection and the
+kinematic geometry map remain named gaps, not scheduled successor gates.
+No manifold/metric fixture or geometry conclusion is introduced.
+
+The frozen [QR-MAP architecture](QR_MAP.md), Option B, Status M and zero
+new gravity Novelty Ledger rows are unchanged. No QR-05 letter,
+geometry/coverage/noncollapse/identifiability or other forbidden sequel,
+RET, clocks, book, κ-gravity, shared API or global governance work starts.
+Existing unrelated checkout changes and prior frozen captures remain
+untouched. This authorized two-piece sitting stops at these results.
+
+## Previous candidate-search decision — retained history
+
+# T8-Q candidate specified; QR-05 remains closed
+
+12 September 2026. The owner authorized finding an explicitly assumed fixed
+candidate L. The [renewal-port candidate](../validation/t8-q-renewal-port-candidate-2026-09-12/CANDIDATE.md)
+now specifies the joint record/pair-kernel transformations, precursor
+selection, kernel and maximal append, with analytical birth-label covariance.
+This supersedes F_NOT_SPECIFIED as the inventory of **assumed candidates**;
+the earlier gap finding remains correct for the previously supplied laws.
+
+The candidate uses two declared control ports, three fixed actions and
+finite possibility permutations. It produces forks and joins and preserves
+the complete quantum payload. Its record-dependent settings are past-local;
+precursor support uses explicitly declared committed port metadata. It does
+not satisfy the stronger requirement that absolute precursor probabilities
+ignore all changing structural context. These locality assumptions cannot
+be silently omitted when reporting its conditional result.
+
+**Boundary:** all birth/outcome probabilities are quantum-state-independent.
+This is coherent-payload transport, not quantum-controlled growth, a uniquely
+DET-derived law or a geometry result. Hilbert matrices occur only in an
+after-the-fact comparison; no standard quantum operator, amplitude, metric,
+percolation parameter, future vertex or global birth-index law is an input.
+
+This candidate-search sitting updates exactly three documentary artifacts:
+[QR-MAP](QR_MAP.md), the isolated candidate note and this scope decision.
+No executor or finite capture ran, and no certificate pass is claimed.
+No QR-05 letter, coverage/noncollapse/identifiability or other forbidden
+sequel is opened. RET, clocks, book, κ-gravity, shared APIs, MODEL_CARD and
+GOVERNANCE remain untouched. Option B, Status M and the absence of gravity
+Novelty Ledger rows remain unchanged. No automatic successor is scheduled.
+
+## Previous T8-Q gap decision — retained history
+
 # T8-Q stop decision; QR-05 remains closed
 
 12 September 2026. **Licensed-G sitting complete by named gaps.
