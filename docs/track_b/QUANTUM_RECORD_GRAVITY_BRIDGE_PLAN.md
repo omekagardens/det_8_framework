@@ -4,7 +4,94 @@ Started 5 September 2026. Authorized mathematical exploration in the primary
 checkout, following the discussion of the standalone quantum–record calculus.
 This plan does not reopen retired gravitational sources or clock couplings.
 
-## Current gate — finite causal-operator verification, 12 September 2026
+## Current gate — measure/divergence verification, 12 September 2026
+
+**The bounded exact measure/divergence gate is complete.** Independent
+incidence-matrix and neighbor-exchange routes agree on all 36 fixed rows,
+252 full square matrix cells and 168 effective matrix cells. All 30 tests
+pass in each normal/optimized mode. Three full replays, including exactly
+one Python 3.11 replay, match the first nine-source-frozen capture. No
+prospective source was tuned after execution. See the
+[exact results and decision](../validation/qr-05-measure-divergence-verification-2026-09-12/RESULTS.md).
+
+Weighted conservation and adjoints hold for the declared measure. Boundary
+forcing retains mass exchange and energy-increase witnesses; an unanchored
+Dirichlet zero mode survives. Actual full/reduced moments now verify the CR
+coefficient correction: the arithmetic-face center half-second moment is
+5/4, not the pointwise profile value 1. The pointwise alternative conserves
+a different measure, which is explicitly retained rather than silently changed.
+
+Component-relative measures are reconstructed from full Q ratios and checked
+independently. All nine scale witnesses preserve Q while changing absolute
+measure. This is a useful information boundary, not acquired geometric measure
+or a stable noisy inverse. The weighted-QM norm identity remains conditional
+on choosing a Hamiltonian/evolution; no physical dynamics was selected.
+
+**Next gate: correspondence-distance and noncollapse contract, design-only.**
+Define directed separation, general correspondence versus bijection, supremum
+distortion versus trimmed diagnostics, and a noncollapsing scale convention.
+Retain all-pair max-plus closure and the counterexample to link-only recovery;
+keep the declared normalized quantity distinct from a different fitted
+statistic. No new geometry simulation or convergence claim precedes that contract.
+
+Publication scope is the ten-file verification bundle, the two-file preceding
+design and this research roadmap. The previous published head is `a032613`;
+231 unrelated dirty core/RET/application entries remain excluded. Historical
+uncommitted-state notes below and in frozen design records retain their
+earlier checkpoint meaning. No RET dependency/API or temporary model-sheet
+changes are part of this publication.
+
+Uniform-bound proofs, stochastic growth/null calibration, physical metrology
+and empirical interfaces remain separate. RET/application readiness and
+gravitational dynamics remain open; book/clock deferrals are unchanged.
+
+## Preceding design — supplied measure/divergence, 12 September 2026
+
+**The analytical measure/divergence contract is complete.** For the supplied
+finite graph Q=−W⁻¹BᵀKB, the design derives weighted conservation, Green/energy
+identities and componentwise zero modes. Closed, prescribed-outward-flux and
+Dirichlet-reservoir models retain their different affine balances. Exact
+moments are computed from the actual selected matrix, including nonzero
+zeroth moments in reduced boundary blocks. See the
+[standalone contract](../validation/qr-05-measure-divergence-design-2026-09-12/README.md)
+and [analytical decision](../validation/qr-05-measure-divergence-design-2026-09-12/RESULTS.md).
+
+The arithmetic-face center regression gives half-second moment 5/4 rather
+than the claimed pointwise coefficient 1. Pointwise multiplication can still
+conserve a different reciprocal-profile measure; the measure must be named.
+Full Q determines relative measures within each positive-conductance component,
+but leaves one absolute scale per component free. This additional ideal
+operator channel is not supplied by the earlier O,P,T observations.
+
+A stipulated weighted-Hermitian H=−Q permits norm-preserving quantum evolution;
+the alternative diffusion choice dissipates that norm. This is a mathematical
+interface, not physical Hamiltonian selection, new QM or gravity dynamics.
+No new mathematical executor, test suite, simulation or acquisition ran for
+this design. The prior causal-poset inverse theorem is not transplanted to
+the bidirectional graph operator.
+
+**Next gate: bounded exact supplied-measure/divergence verification.** Freeze
+nine bases with four separate relabel/orientation/scaling variants: 36 rows,
+92 full-node and 56 edge occurrences, 252 full square matrix cells and 168
+effective matrix cells over 72 dynamic-node occurrences. Compare independent
+incidence and neighbor-flux routes on full native rational matrices, boundary
+terms, actual moments, conservation/energy and identification witnesses.
+The census is prospective; none of these new cases has yet been executed.
+
+The completed preceding joint-geometry and causal-operator work was committed
+and pushed first as `a0326139dbe1a026392738b3c1397eced48ec66c`; a direct remote
+check confirmed `origin/ret`. Its 25 research files exclude the 231 unrelated
+dirty core/RET/application entries. Both existing normal suites passed again
+(23+27 tests) and both old captures replayed exactly before publication. Those
+checks are not a measure/divergence verification. This new design and roadmap
+update remain local. Historical uncommitted-state notes below and in frozen
+documents describe their earlier checkpoints and are superseded by this one.
+
+Correspondence/noncollapse, uniform bounds, stochastic growth/null calibration
+and empirical interfaces remain separate later work. RET/application readiness
+and gravitational dynamics remain open; book/clock deferrals are unchanged.
+
+## Preceding gate — finite causal-operator verification, 12 September 2026
 
 **The bounded exact causal-operator gate is complete.** Independent power-sum
 and exact-elimination routes agree on all 52 fixed rows, 452 cells per matrix

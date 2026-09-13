@@ -1,0 +1,183 @@
+{
+  "schema": "qr05-measure-divergence-verification-v1",
+  "date": "2026-09-12",
+  "timezone": "Pacific/Honolulu",
+  "claim_scope": "Exact bounded supplied-measure graph verification; not acquired geometry, physical dynamics, continuum convergence, or RET readiness.",
+  "publication_parent": "a0326139dbe1a026392738b3c1397eced48ec66c",
+  "freeze_sources": 9,
+  "first_capture": {
+    "action": "capture",
+    "rows": 36,
+    "edges": 56,
+    "report_bytes": 154123,
+    "report_sha256": "c9662f57a99b137a5ae5da67c5c2cff6f2f76e37db4d5361e47164a90820e1b0"
+  },
+  "coverage": {
+    "rows": 36,
+    "event_occurrences": 92,
+    "edges": 56,
+    "matrix_cells": 252,
+    "dynamic_occurrences": 72,
+    "effective_matrix_cells": 168,
+    "witnesses": 9
+  },
+  "tests": {
+    "normal": 30,
+    "optimized": 30,
+    "mathematical_api_per_mode": 20,
+    "evidence_per_mode": 10
+  },
+  "post_first_run_source_edits": false,
+  "alternate_full_replays": 1,
+  "runs": [
+    {
+      "command": "python3 -B docs/validation/qr-05-measure-divergence-verification-2026-09-12/study.py --freeze docs/validation/qr-05-measure-divergence-verification-2026-09-12/source-freeze.json",
+      "chunk_id": "59203f",
+      "wall_time_seconds": 0.000003916,
+      "exit_code": 0,
+      "original_token_count": 9,
+      "output": "{\"action\": \"freeze\", \"sources\": 9}\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-measure-divergence-verification-2026-09-12/study.py --capture docs/validation/qr-05-measure-divergence-verification-2026-09-12/results.json",
+      "chunk_id": "7c8c6e",
+      "wall_time_seconds": 0.038801208,
+      "exit_code": 0,
+      "original_token_count": 39,
+      "output": "{\"action\": \"capture\", \"rows\": 36, \"edges\": 56, \"report_bytes\": 154123, \"report_sha256\": \"c9662f57a99b137a5ae5da67c5c2cff6f2f76e37db4d5361e47164a90820e1b0\"}\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-measure-divergence-verification-2026-09-12/test_measure_divergence.py",
+      "chunk_id": "fd068e",
+      "wall_time_seconds": 0.396083375,
+      "exit_code": 0,
+      "original_token_count": 33,
+      "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 0.433s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B -O docs/validation/qr-05-measure-divergence-verification-2026-09-12/test_measure_divergence.py",
+      "chunk_id": "f6f96c",
+      "wall_time_seconds": 0.421765459,
+      "exit_code": 0,
+      "original_token_count": 33,
+      "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 0.435s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-measure-divergence-verification-2026-09-12/study.py --replay docs/validation/qr-05-measure-divergence-verification-2026-09-12/results.json",
+      "chunk_id": "a04980",
+      "wall_time_seconds": 0.008494292,
+      "exit_code": 0,
+      "original_token_count": 39,
+      "output": "{\"action\": \"replay\", \"rows\": 36, \"edges\": 56, \"report_bytes\": 154123, \"report_sha256\": \"c9662f57a99b137a5ae5da67c5c2cff6f2f76e37db4d5361e47164a90820e1b0\"}\n"
+    },
+    {
+      "command": "python3 -B -O docs/validation/qr-05-measure-divergence-verification-2026-09-12/study.py --replay docs/validation/qr-05-measure-divergence-verification-2026-09-12/results.json",
+      "chunk_id": "fd5599",
+      "wall_time_seconds": 0.060402291,
+      "exit_code": 0,
+      "original_token_count": 39,
+      "output": "{\"action\": \"replay\", \"rows\": 36, \"edges\": 56, \"report_bytes\": 154123, \"report_sha256\": \"c9662f57a99b137a5ae5da67c5c2cff6f2f76e37db4d5361e47164a90820e1b0\"}\n"
+    },
+    {
+      "command": "python3.11 -B docs/validation/qr-05-measure-divergence-verification-2026-09-12/study.py --replay docs/validation/qr-05-measure-divergence-verification-2026-09-12/results.json",
+      "chunk_id": "34bbd0",
+      "wall_time_seconds": 0.001642458,
+      "exit_code": 0,
+      "original_token_count": 39,
+      "output": "{\"action\": \"replay\", \"rows\": 36, \"edges\": 56, \"report_bytes\": 154123, \"report_sha256\": \"c9662f57a99b137a5ae5da67c5c2cff6f2f76e37db4d5361e47164a90820e1b0\"}\n"
+    }
+  ],
+  "static_runs": [
+    {
+      "command": "AST-only driver/protocol and dependency-pin check",
+      "chunk_id": "b097ba",
+      "wall_time_seconds": 0.000004083,
+      "exit_code": 0,
+      "original_token_count": 25,
+      "output": "AST-only driver/protocol equality and all three literal dependency pins match. No module imported.\n"
+    },
+    {
+      "command": ".venv/bin/ruff check docs/validation/qr-05-measure-divergence-verification-2026-09-12",
+      "chunk_id": "60097b",
+      "wall_time_seconds": 0.000004125,
+      "exit_code": 0,
+      "original_token_count": 5,
+      "output": "All checks passed!\n"
+    },
+    {
+      "command": ".venv/bin/ruff format --check docs/validation/qr-05-measure-divergence-verification-2026-09-12",
+      "chunk_id": "540df4",
+      "wall_time_seconds": 0.000004041,
+      "exit_code": 0,
+      "original_token_count": 7,
+      "output": "5 files already formatted\n"
+    },
+    {
+      "command": "python3 -B -c 'import ast,pathlib; p=pathlib.Path(\"docs/validation/qr-05-measure-divergence-verification-2026-09-12\"); fs=sorted(p.glob(\"*.py\")); [ast.parse(f.read_bytes(),filename=str(f)) for f in fs]; print(\"AST-only checks:\",len(fs))'",
+      "chunk_id": "76b08b",
+      "wall_time_seconds": 0.000003667,
+      "exit_code": 0,
+      "original_token_count": 5,
+      "output": "AST-only checks: 4\n"
+    },
+    {
+      "command": "git diff --check",
+      "chunk_id": "0d1d8c",
+      "wall_time_seconds": 0.0000035,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  ],
+  "previous_metadata": [
+    {
+      "directory": "qr-05-causal-operator-verification-2026-09-12",
+      "matched_sources": 9,
+      "freeze_sha256": "108f5b71f57301192c4fb3e1e547ffc3549f118d4ef56bec9fb18fcadbf67e8c",
+      "capture_sha256": "b37703a59518ec04718ed1822dc0074bb0c98319a7ddfb9fe606de931f083ed9"
+    },
+    {
+      "directory": "qr-05-joint-geometry-verification-2026-09-12",
+      "matched_sources": 10,
+      "freeze_sha256": "c717bba54983c8690a67b37952117b205899d1a1ff07462661e5ced0ba50d022",
+      "capture_sha256": "fe8c540f625712418121012ff2f4e1e1c8fc46017158a672036ba5448a3de83d"
+    },
+    {
+      "directory": "qr-05-bridge-reconciliation-2026-09-12",
+      "matched_sources": 6,
+      "freeze_sha256": "5ab341a61d4d94c3da23b2a71a38d85b204b0364304017b02e574d381df05156",
+      "capture_sha256": "23fa47dba62e1688aeb8b59a18290ec74b2a3e18a4d784ddbe07da3ca08b4291"
+    },
+    {
+      "directory": "qr-05bv-acquisition-distortion-verification-2026-09-09",
+      "matched_sources": 12,
+      "freeze_sha256": "6ea9205430992e4af8d90ef69270f67cbbaa2e43b831c54271f78c1b46e18571",
+      "capture_sha256": "44b2f745b4fae5e602bd004d0a33bb4c4c203c57e006e195dbadc95d25687e7b"
+    }
+  ],
+  "artifacts": {
+    "source-freeze.json": {
+      "bytes": 1243,
+      "sha256": "621705217af3aa9ee547b8a0e7e533f1afbf9076ec0fe7bc9fbda2f18c999cce"
+    },
+    "results.json": {
+      "bytes": 155377,
+      "sha256": "f6b20794672b26bedef6b033fe13e6cba537a4fedfa4ed497fede319efabced0"
+    },
+    "report": {
+      "bytes": 154123,
+      "sha256": "c9662f57a99b137a5ae5da67c5c2cff6f2f76e37db4d5361e47164a90820e1b0"
+    },
+    "sources": 9
+  },
+  "final_metadata": {
+    "source_bindings_checked": 46,
+    "capture_freeze_pairs_checked": 5,
+    "local_markdown_targets_resolved": 108,
+    "verification_directory_files": 10,
+    "publication_files": 13,
+    "preexisting_status_entries_preserved": 233,
+    "unrelated_status_entries_excluded": 231,
+    "mathematical_execution": false
+  }
+}
