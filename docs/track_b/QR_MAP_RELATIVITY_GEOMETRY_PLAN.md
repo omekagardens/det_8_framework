@@ -1,6 +1,16 @@
 # QR-MAP: conditional route to mass, relativity, geometry and gravity
 
-13 September 2026. **DEPENDENCY_PLAN_ONLY; NATIVE_GEOMETRY_NOT_DERIVED.**
+13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
+NATIVE_GEOMETRY_NOT_DERIVED.**
+
+**Plan execution update:** after publishing the
+[activity/commit/access implementation](RECORD_PROCESS_CONTRACT.md) as
+`f688212`, research begins with
+[record sufficiency and a conditional first-commit law](QR_MAP_RECORD_SUFFICIENCY.md).
+These establish a predictive-state criterion and account for silent activity
+without assuming another record must occur. They do not supply native silent
+dynamics, exclude the existing quantum countermodels, or remove the width-two
+obstruction below. Geometry, mass and gravity remain authorized research targets.
 
 **Owner scope expansion:** “you can include gravity/mass.” Mass, matter dynamics,
 gravitational coupling and possible derivation of an Einstein/GR limit are now
@@ -119,10 +129,11 @@ counterexample, a rejected construction or a named missing premise.
 
 | Work item | Required result | Dependency and stop condition |
 | --- | --- | --- |
+| Resolve the activity-to-record interface | State sufficiency for all declared future tests; retain silent evolution, committed nulls and never-commit probability separately | Initial criterion and conditional first-commit theorem are now written. The physical/native availability of the silent and commit maps, their sequencing and full order-branch selection remain gaps; a supplied CP protocol is not a DET-native law |
 | Resolve the quantum premise gap | Define the operational interpretation and prove which new/existing record principles exclude the classical and real countermodels | The current audit is complete as non-entailment. Do not report full DET-derived QM while the countermodels remain admissible |
 | Find a native order-generating candidate | A fully specified fixed L/F using only admitted primitives, with records and full residual payload retained | Independent of whether the six QM postulates have been forced. Current L_XYZ is rejected for a volume-filling continuum role; stop if the target geometry or a borrowed growth law supplies the answer |
 | Prove a manifoldlike regime exists | A justified limiting construction producing topology, dimension and Lorentzian causal structure from that candidate | Requires the native candidate. This is the central missing existence result, not another estimator inversion on a supplied mesh |
-| Establish count-to-volume meaning | Derive the relevant limiting local measure and its normalization from the candidate, with unit conventions and density assumptions exposed | May be proved together with manifold existence; raw detector counts and scalar total size are not silently identified with local spacetime volume |
+| Establish count-to-volume meaning | Derive the relevant limiting local measure and its normalization from the candidate, with unit conventions, formation and access mechanisms exposed | May be proved together with manifold existence; unknown formation/retention efficiency or delayed receipt cannot be omitted. Raw detector counts and scalar total size are not silently identified with local spacetime volume |
 | Apply the appropriate reconstruction theorem | Verify its actual causal, smoothness, measure and sampling hypotheses; then state exactly its conformal or metric conclusion | Depends on the existence and measure results, not the reverse. Stop if supplied proper times, distances or kernels are being recovered unchanged |
 | Establish the quantum–relativistic correspondence | Show that joint recorded predictions transport consistently with the recovered causal geometry, with a justified notion of local intervention | Requires both an explicit quantum assumption basis and native geometry. Disjoint-port commutation and birth-label invariance alone are insufficient |
 | Identify mass-bearing dynamics | Specify stable excitation/propagation dynamics and establish an inertial/rest-mass interpretation in a justified regime | May be investigated alongside geometry. Distinguish a derived mass scale or spectrum from an inserted mass parameter, a generic spectral gap or a unit conversion |

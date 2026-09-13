@@ -108,6 +108,12 @@ This is a clarification of the newer QR-MAP state, not a new hidden variable.
 [QR-MAP](QR_MAP.md) already rejects \(F(C)\) as sufficient unless residual
 reconstruction from \(C\) has been proved.
 
+**Subsequent precision correction:** the
+[record-sufficiency theorem](QR_MAP_RECORD_SUFFICIENCY.md) replaces literal
+residual reconstruction by reconstruction of the future-test equivalence
+class. Exact recovery of all kernel entries is sufficient but not necessary;
+descriptively different residuals can agree under every available experiment.
+
 Two cases must not be conflated:
 
 **The kernel is the complete operational residual state.** Differences that

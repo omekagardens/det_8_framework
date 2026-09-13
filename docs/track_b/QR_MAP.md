@@ -1,5 +1,14 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+13 September 2026, QR-MAP plan started after the implementation push:
+[record sufficiency and the first-commit law](QR_MAP_RECORD_SUFFICIENCY.md)
+states the exact criterion for record-only prediction, a conditional classical
+silent-operation counterexample, and a conditional first-commit construction
+that retains never-commit probability. **THEOREM_AND_COUNTEREXAMPLE;
+NATIVE_SILENT_LAW_STILL_OPEN.** Literal recovery of every residual kernel
+entry is not necessary: the relevant object is its future-test equivalence
+class under the declared operations. No new QR-05 gate or geometry claim follows.
+
 13 September 2026, implementation follow-through: the
 [record-process contract](RECORD_PROCESS_CONTRACT.md) now separates residual
 activity, append-only commitments and passive record access in an isolated
@@ -90,10 +99,14 @@ law or global now) are rejected. “Growing” names trace accumulation, not an
 assertion that past events still exist. This leaves the Status-M ontology
 unchanged.
 
-The mathematical state is X=(C,𝔇_C), with C=(V,≺,R). The shorthand F(C)
-is insufficient unless reconstruction of the residual 𝔇_C from C has been
-established. Retain 𝔇's relational quantum information and the required full
-record-conditioned quantum update, including settings, outcomes and zero
+The mathematical state is X=(C,𝔇_C), with C=(V,≺,R). A record-only predictor
+is licensed exactly when all reachable states sharing C agree on every
+declared common future-record experiment, with law and control context held
+fixed and nontermination included. Reconstructing 𝔇_C from C is sufficient,
+not necessary; reconstructing its future-test equivalence class is the exact
+operational requirement. This is not a claim that a unique native state-update
+map F(C) has been derived. Retain 𝔇's relational quantum information and the
+required full record-conditioned quantum update, including settings, outcomes and zero
 branches. Scalar probabilities or discarded-outcome channels cannot replace
 this payload. Ordinary quantum instruments are comparison language, not
 inserted primitives. The initial missing update and the later assumed
