@@ -4,7 +4,47 @@ Started 5 September 2026. Authorized mathematical exploration in the primary
 checkout, following the discussion of the standalone quantum–record calculus.
 This plan does not reopen retired gravitational sources or clock couplings.
 
-## Current gate — correspondence/noncollapse verification, 12 September 2026
+## Current gate — uniform coverage/stability design, 12 September 2026
+
+**The analytical uniform-coverage/stability contract is complete.** Valid
+simultaneous pairwise intervals on a known order now give a conservative
+closure with error bounded by interval width, without a graph-height factor.
+Interval feasibility is exactly the condition that the lower closure stays
+below the upper bounds. Combining this with a supplied global profile
+modulus and sample fill bound gives D_C≤2ω(h)+v. These are conditional
+theorems, not evidence of acquired coverage or calibrated intervals. See the
+[standalone design](../validation/qr-05-uniform-coverage-stability-design-2026-09-12/README.md)
+and [analytical decision](../validation/qr-05-uniform-coverage-stability-design-2026-09-12/RESULTS.md).
+
+The supplied Minkowski rectangle provides a concrete square-root continuity
+and noncollapse certificate, with exact null-boundary counterexamples to a
+Lipschitz assumption. Hidden-point coverage ambiguity, positive-noise path
+amplification, changed-order instability and the DD scale-factor obstruction
+remain explicit. Sampling guarantees require known covering/mass bounds;
+arbitrarily fine coverage cannot retain a fixed positive profile gap in an
+infinite compact distinguishing space. No new executor, mathematical test,
+fixture enumeration, simulation or acquisition ran in this design gate.
+
+**Next gate: bounded exact interval/coverage-certificate verification.**
+Freeze five coverage bases and six interval bases under four separate variants:
+20 coverage rows and 24 interval rows, with complete rational certificates,
+feasibility failures and four named control families. The prospective counts
+include 128 ordered coverage-graph discrepancy cells and 80 interval paths.
+Independent implementations must retain all cells, not just scalar bounds.
+Generic radicals, larger geometry simulations and stochastic acquisition
+remain outside that bounded contract.
+
+The preceding verification is published as
+`a5c7f6c2f93e5f0f01b3019bc177630b65547244`. This publication is only the
+two-file design and this roadmap. All 231 unrelated dirty core/RET/application
+entries and every prior frozen research source remain excluded. Historical
+checkpoint notes below retain their earlier meaning.
+
+Physical metrology, growth/null calibration, empirical interfaces and RET
+integration remain separate. Gravity dynamics and book/clock deferrals are
+unchanged.
+
+## Preceding gate — correspondence/noncollapse verification, 12 September 2026
 
 **The bounded exact correspondence/noncollapse gate is complete.** Independent
 relation and closure implementations agree on all 28 comparison rows and
