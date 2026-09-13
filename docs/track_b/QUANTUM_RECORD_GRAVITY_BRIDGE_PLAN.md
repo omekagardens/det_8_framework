@@ -1,3 +1,56 @@
+# T8-Q stop decision; QR-05 remains closed
+
+12 September 2026. **Licensed-G sitting complete by named gaps.
+F_NOT_SPECIFIED; no active next gate.**
+
+The owner's new instruction authorized a finite native birth-map inquiry,
+not reopening QR-05 or demanding a geometry derivation. It revises
+[QR-MAP](QR_MAP.md) to L/𝔇 → commit → maximal append → committed P-snapshot
+→ question-relative summary → optional T7 check. The independent
+[birth-F finding](../validation/t8-q-licensed-growth-2026-09-12/BIRTH_F.md)
+records missing native alternative/ideal selection, joint commit partition,
+quantum update/composition and stable-law covariance. These are finite birth
+gaps, not consequences of the earlier missing geometry map.
+
+## Current stop decision
+
+These are exactly this sitting's three artifacts: QR-MAP, the isolated birth
+finding and this decision. A bounded certificate was authorized **only if F
+could be specified**. That prerequisite is unmet; no executor, fixture,
+capture, test run or T7 check is created. No code or shared API is changed.
+
+Licensed G means only committed event entries belong to V; P is their
+record snapshot. Block-P future slots and naive-G global now/ambient counter
+as law are rejected. L remains unchanged under F. The quantum payload and
+event-indexed records remain part of the object. The definition does not
+claim an implemented birth law, Lorentz covariance or spacetime emergence.
+
+The following remain forbidden to start:
+
+- Any new QR-05 letter, BW/BX or BW–DO work, uniform coverage, noncollapse,
+  identifiability, causal-operator or measure/divergence sequel, or joint
+  geometry enlargement, including renamed/unlettered continuations.
+- A sequential scheduler advertised as covariant growth; percolation p
+  relabeled as L; future vertices; ambient birth index as law; a supplied
+  mesh/metric, Hilbert space or amplitudes as native-generative inputs.
+- Coherent sums over alternative orders; identifying J⁻(e) with R⁻;
+  claiming Lorentz/diffeomorphism/Einstein, DET-derived spacetime or
+  metric = record. Finite label invariance is not relativistic covariance.
+- RET, clocks, book or κ-gravity work; MODEL_CARD, GOVERNANCE, Track-A
+  primitive-list or shared API edits; imports from RET/T8 into this sitting.
+  Existing isolated research directories and captures stay isolated.
+- Any successor justified by "no larger simulation precedes this contract"
+  or by geometric-description utility. Gravity is neither a success line
+  nor a ban that makes a primitive-only finite construction illegal.
+
+The kinematic quantum↔geometry horizon remains unclaimed internal mathematics,
+not empirical correspondence or a discriminator. G0's physical closure,
+Option B, Status M and zero new gravity Novelty Ledger rows remain unchanged.
+No certificate is deferred or scheduled, and no successor is proposed.
+**Stop here.**
+
+## Prior QR-05 adjudication — retained decision history
+
 # QR-05 halt rule and historical roadmap
 
 12 September 2026. **HALTED — G0, close-current. No active next gate.**
