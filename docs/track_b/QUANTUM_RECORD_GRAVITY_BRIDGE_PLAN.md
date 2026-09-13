@@ -4,7 +4,80 @@ Started 5 September 2026. Authorized mathematical exploration in the primary
 checkout, following the discussion of the standalone quantum–record calculus.
 This plan does not reopen retired gravitational sources or clock couplings.
 
-## Current gate — measure/divergence verification, 12 September 2026
+## Current gate — correspondence/noncollapse verification, 12 September 2026
+
+**The bounded exact correspondence/noncollapse gate is complete.** Independent
+relation and closure implementations agree on all 28 comparison rows and
+16 closure rows. The capture retains all 2,380 onto relations, 69,976 raw
+ordered discrepancy cells, 69,960 normalized cells and 64 bijections. All
+39 tests pass in normal and optimized modes; three dedicated full replays,
+including exactly one Python 3.11 replay, match the first nine-source-frozen
+capture. No prospective source was repaired after execution. See the
+[verified results and decision](../validation/qr-05-correspondence-noncollapse-verification-2026-09-12/RESULTS.md).
+
+The audited correspondence/bijection discrepancy remains 1/10 versus 1.
+Strict profile-gap controls, local merging, trimmed-error and DD scale-factor
+witnesses pass. All-pair versus cover-only endpoint closure remains 3 versus
+2; zero-leg additive support is kept distinct from positive-weight reachability.
+The result verifies the finite implementations, not unsampled coverage,
+uniform continuum convergence, calibrated spacetime or gravitational dynamics.
+
+**Next gate: uniform coverage/stability and noncollapse contract, design-only.**
+Fix the ambient kernel/domain class, uniform profile-coverage and measurement-
+error premises, scale references and growing-size stability requirements.
+Distinguish supplied mathematical coverage from an acquisition method able
+to certify it; retain sampling/identifiability and DD normalization obstructions.
+No larger geometry simulation precedes this contract.
+
+Publication scope is the eleven-file verification, the two-file preceding
+design and this roadmap. The previous published head is `3b99240`; all
+231 unrelated dirty core/RET/application entries remain excluded. Earlier
+local-state notes below and in frozen design records retain their checkpoint
+meaning. No RET dependency/API or temporary model-sheet edits are included.
+
+Stochastic growth/null calibration, physical metrology and empirical
+interfaces remain separate. RET/application readiness and gravity dynamics
+remain open; book/clock deferrals are unchanged.
+
+## Preceding design — correspondence/noncollapse, 12 September 2026
+
+**The analytical directed-comparison contract is complete.** It separates
+onto-both correspondence error, normalized shape, calibrated scale and local
+point distinction. The audited fork pair has D_C=1/10 while its best bijection
+has error 1; a strict profile-gap criterion now states when restricting to
+bijections IS justified. A conditional uniform coverage bound also connects
+finite comparison error to a larger bounded-kernel space. Those coverage
+premises are not certified by finite samples. See the
+[standalone design](../validation/qr-05-correspondence-noncollapse-design-2026-09-12/README.md)
+and [analytical decision](../validation/qr-05-correspondence-noncollapse-design-2026-09-12/RESULTS.md).
+
+The design retains global-shrink and local-merging counterexamples, the
+missing factor between the declared DD statistic and its fitted surrogate,
+and the distinction between supremum errors and trimmed diagnostics.
+All-pair max-plus closure is proved as a least order-superadditive majorant;
+the cover-only recovery counterexample and zero-leg support boundary remain.
+No new executor, fixture enumeration, mathematical tests or simulation ran.
+
+**Next gate: bounded exact correspondence/noncollapse verification.** Freeze
+seven comparison bases under four separate variants: 28 rows with all 2,380
+onto relations and 69,976 full ordered raw discrepancy cells. Add four
+closure bases under four separate variants: 16 rows and 112 square cells.
+These are prospective analytical counts. Compare independent exhaustive-
+relation and max-plus implementations; retain complete rational evidence,
+named controls and the nine-source pre-execution freeze contract.
+
+The preceding measure/divergence gate was committed and pushed as
+`3b992408485fbd49902c1ee42623f44013e23c60`, with a direct `origin/ret`
+head check. This design and roadmap update remain local. The 231 unrelated
+dirty core/RET/application entries remain excluded, and historical notes
+below retain their earlier checkpoint meaning. No RET or temporary model-
+sheet changes are in scope.
+
+Uniform coverage/rate proofs, growth/null calibration, physical metrology
+and empirical interfaces remain separate. RET/application readiness and
+gravity dynamics remain open; book/clock deferrals are unchanged.
+
+## Preceding gate — measure/divergence verification, 12 September 2026
 
 **The bounded exact measure/divergence gate is complete.** Independent
 incidence-matrix and neighbor-exchange routes agree on all 36 fixed rows,
