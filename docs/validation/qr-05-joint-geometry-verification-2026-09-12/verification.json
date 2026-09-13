@@ -1,0 +1,128 @@
+{
+  "schema": "qr05-joint-geometry-verification-v1",
+  "date": "2026-09-12",
+  "claim_scope": "Exact finite verification of the declared common-world model; no acquisition or empirical gravity claim.",
+  "freeze_sources": 10,
+  "first_capture": {
+    "action": "capture",
+    "worlds": 64,
+    "menus": 32,
+    "report_bytes": 310259,
+    "report_sha256": "3fbbba9716e5d64cdeb18b04d973e4393533e088a6f62f108a26a62eb54d2a61"
+  },
+  "runtimes": {
+    "primary": "CPython 3.14.0",
+    "alternate": "CPython 3.11.6"
+  },
+  "coverage": {
+    "worlds": 64,
+    "channel_menus": 32,
+    "geometric_targets": 16,
+    "different_target_pairs": 1920,
+    "identifying_menus": 1,
+    "omission_witnesses": 5,
+    "simultaneous_collision_groups": 4
+  },
+  "tests": {
+    "normal": 23,
+    "optimized": 23
+  },
+  "post_first_run_source_edits": false,
+  "alternate_full_replays": 1,
+  "runs": [
+    {
+      "command": "python3 -B docs/validation/qr-05-joint-geometry-verification-2026-09-12/study.py --freeze docs/validation/qr-05-joint-geometry-verification-2026-09-12/source-freeze.json",
+      "chunk_id": "ecd0b0",
+      "wall_time_seconds": 0.00000325,
+      "exit_code": 0,
+      "original_token_count": 9,
+      "output": "{\"action\": \"freeze\", \"sources\": 10}\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-joint-geometry-verification-2026-09-12/study.py --capture docs/validation/qr-05-joint-geometry-verification-2026-09-12/results.json",
+      "chunk_id": "7f99e4",
+      "wall_time_seconds": 0.156205042,
+      "exit_code": 0,
+      "original_token_count": 40,
+      "output": "{\"action\": \"capture\", \"worlds\": 64, \"menus\": 32, \"report_bytes\": 310259, \"report_sha256\": \"3fbbba9716e5d64cdeb18b04d973e4393533e088a6f62f108a26a62eb54d2a61\"}\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-joint-geometry-verification-2026-09-12/test_joint_geometry.py",
+      "chunk_id": "0e6c67",
+      "wall_time_seconds": 0.798288708,
+      "exit_code": 0,
+      "original_token_count": 31,
+      "output": ".......................\n----------------------------------------------------------------------\nRan 23 tests in 0.847s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B -O docs/validation/qr-05-joint-geometry-verification-2026-09-12/test_joint_geometry.py",
+      "chunk_id": "cdf0bb",
+      "wall_time_seconds": 0.842474375,
+      "exit_code": 0,
+      "original_token_count": 31,
+      "output": ".......................\n----------------------------------------------------------------------\nRan 23 tests in 0.840s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-joint-geometry-verification-2026-09-12/study.py --replay docs/validation/qr-05-joint-geometry-verification-2026-09-12/results.json",
+      "chunk_id": "63be38",
+      "wall_time_seconds": 0.141068917,
+      "exit_code": 0,
+      "original_token_count": 40,
+      "output": "{\"action\": \"replay\", \"worlds\": 64, \"menus\": 32, \"report_bytes\": 310259, \"report_sha256\": \"3fbbba9716e5d64cdeb18b04d973e4393533e088a6f62f108a26a62eb54d2a61\"}\n"
+    },
+    {
+      "command": "python3 -B -O docs/validation/qr-05-joint-geometry-verification-2026-09-12/study.py --replay docs/validation/qr-05-joint-geometry-verification-2026-09-12/results.json",
+      "chunk_id": "b9c630",
+      "wall_time_seconds": 0.151704792,
+      "exit_code": 0,
+      "original_token_count": 40,
+      "output": "{\"action\": \"replay\", \"worlds\": 64, \"menus\": 32, \"report_bytes\": 310259, \"report_sha256\": \"3fbbba9716e5d64cdeb18b04d973e4393533e088a6f62f108a26a62eb54d2a61\"}\n"
+    },
+    {
+      "command": "python3.11 -B docs/validation/qr-05-joint-geometry-verification-2026-09-12/study.py --replay docs/validation/qr-05-joint-geometry-verification-2026-09-12/results.json",
+      "chunk_id": "d2bdae",
+      "wall_time_seconds": 0.148813667,
+      "exit_code": 0,
+      "original_token_count": 40,
+      "output": "{\"action\": \"replay\", \"worlds\": 64, \"menus\": 32, \"report_bytes\": 310259, \"report_sha256\": \"3fbbba9716e5d64cdeb18b04d973e4393533e088a6f62f108a26a62eb54d2a61\"}\n"
+    }
+  ],
+  "final_metadata": {
+    "new_source_identities_matched": 10,
+    "reconciliation_source_identities_matched": 6,
+    "bv_source_identities_matched": 12,
+    "captures_with_matching_source_and_freeze_bindings": 3,
+    "source_freeze": {
+      "bytes": 1372,
+      "sha256": "c717bba54983c8690a67b37952117b205899d1a1ff07462661e5ced0ba50d022"
+    },
+    "capture": {
+      "bytes": 311642,
+      "sha256": "fe8c540f625712418121012ff2f4e1e1c8fc46017158a672036ba5448a3de83d"
+    },
+    "canonical_report": {
+      "bytes": 310259,
+      "sha256": "3fbbba9716e5d64cdeb18b04d973e4393533e088a6f62f108a26a62eb54d2a61"
+    },
+    "links": {
+      "markdown_files": 5,
+      "local_links_checked": 98,
+      "broken_links": []
+    },
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "ast_python_files": 4,
+    "git_diff_check": "passed",
+    "status_delta": {
+      "baseline_entries": 233,
+      "current_entries": 234,
+      "missing": [],
+      "added": [
+        "?? docs/validation/qr-05-joint-geometry-verification-2026-09-12/"
+      ]
+    },
+    "unrelated_dirty_entries_preserved": 231,
+    "head_and_origin_tracking_ref": "47262b616296c632189d4e8b3e2582ed2016a6d8",
+    "commit_or_push_this_gate": false
+  }
+}

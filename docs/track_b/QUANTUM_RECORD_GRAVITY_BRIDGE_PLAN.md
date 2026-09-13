@@ -4,7 +4,138 @@ Started 5 September 2026. Authorized mathematical exploration in the primary
 checkout, following the discussion of the standalone quantum–record calculus.
 This plan does not reopen retired gravitational sources or clock couplings.
 
-## Current reconciliation — 12 September 2026
+## Current gate — finite causal-operator verification, 12 September 2026
+
+**The bounded exact causal-operator gate is complete.** Independent power-sum
+and exact-elimination routes agree on all 52 fixed rows, 452 cells per matrix
+and 304 path records, including zero contributions. All 27 tests pass in
+normal and optimized modes. Three complete replays, including one Python 3.11
+replay, match the first nine-source-frozen capture; no prospective sources were
+tuned afterward. See the
+[exact results and decision record](../validation/qr-05-causal-operator-verification-2026-09-12/RESULTS.md).
+
+Direct support equals the supplied order in 36 rows; reachability does so in
+48. Signed cancellation preserves reachability when every cover weight is
+nonzero. The deliberately missing-cover case remains unrecoverable under that
+route. All twelve same-G/same-Δ different-order witnesses are retained. A chosen
+response matrix is not an acquired physical channel or a selected wave operator.
+
+**Next gate: supplied-measure/divergence-operator contract, design-only.**
+Specify node measure, edge conductances, coordinates and boundary fluxes;
+derive weighted conservation, adjoint/energy identities and the actual
+selected kernel's first two moments. Retain the audited CR coefficient
+mismatch as an explicit regression. Do not infer supplied measure or weights
+from O,P,T, or promote finite-grid identities to continuum/physical dynamics.
+
+Correspondence/noncollapse, uniform bounds, stochastic growth/null calibration
+and empirical interfaces remain separate later work. RET/application readiness
+and gravity dynamics remain open; book/clock deferrals are unchanged. This gate
+and preceding local research remain uncommitted after the `47262b6` audit push.
+
+## Preceding design — finite causal operators, 12 September 2026
+
+**The finite causal-operator and signed-path design is analytically complete.**
+For a supplied strict order and signed supported A, the finite inverse
+G=(dI−A)^(-1) has the same directed support reachability as A. This equals
+the whole supplied order exactly when every cover weight is nonzero.
+Noncover cancellation can erase individual entries without destroying this
+recovery route. Entrywise nonnegativity plus positive covers gives the
+stronger pointwise-support/sign theorem. See the
+[standalone contract](../validation/qr-05-causal-operator-design-2026-09-12/README.md)
+and [analytical decision record](../validation/qr-05-causal-operator-design-2026-09-12/RESULTS.md).
+
+The design retains the audited toy's cancellation/sign witnesses with explicit
+inverse conventions. It also gives distinct orders with the same full G when
+zero covers are allowed, and a nonisomorphic fork/chain pair with the same
+antisymmetric Δ even when all covers are nonzero. A derived operator cannot
+supply geometric information absent from its input channels. No new operator
+executor, mathematical test suite, simulation or acquisition ran in this gate.
+
+**Next gate: bounded exact finite causal-operator verification.** Freeze the
+13 named base cases and four separate relabel/reversal/rescaling variants:
+52 rows with complete rational matrices, both inverse products, all 304 path
+contributions, cover/support closures and information-loss witnesses. Compare
+a finite-power route with independent exact elimination and path enumeration.
+Expected direct-support equality in 36 rows and reachability equality in 48
+are prospective analytical counts, not results already computed.
+
+Physical operator coefficients and measure/boundary contracts, actual
+divergence-operator moments, correspondence/noncollapse and growth/uniform-bound
+repairs remain separate later work. RET/calibrated applications and gravity
+dynamics remain open; book/clock deferrals are unchanged. This design and
+earlier joint-geometry work remain local after the published `47262b6` audit.
+
+## Preceding gate — joint-geometry verification, 12 September 2026
+
+**The bounded exact joint-geometry gate is complete.** The two independent
+implementations agree on all 64 common worlds, 32 observation-channel menus,
+16 complete geometric targets and 1,920 differing-target pairs. All 23 tests
+pass in each normal/optimized mode. Three complete replays, including one
+Python 3.11 replay, match the first ten-source-frozen capture; no prospective
+source was tuned after execution. See the
+[verification and decision record](../validation/qr-05-joint-geometry-verification-2026-09-12/RESULTS.md).
+
+Only the full O,P,T,D,R menu identifies globally in this supplied model.
+The other 31 menus retain ambiguity somewhere, although some individual
+fibers have a unique target. Four simultaneous collision groups each retain
+identical record intensity, normalized point law and O,P,T across four
+distinct geometric targets. The scale/density Fisher null direction survives
+repetition. The positive inverse still needs ideal density-shape and density-
+normalization references; none has been calibrated or acquired here.
+
+**Next gate: finite causal-operator and signed-path contract, design-only.**
+Fix strict order versus cover matrices, index/orientation conventions,
+supplied rational weights and exact inverse/path identities. Distinguish
+causal-support containment from equality under positive-path assumptions.
+Preserve the audited three-chain cancellation and sign-reversal witnesses.
+A finite matrix inverse is not a recovered physical wave operator: physical
+coefficients, measure/boundary choices and actual divergence-operator moments
+remain separate later obligations. No operator implementation or gravity-
+dynamics result follows from this gate.
+
+The following correspondence-distance/noncollapse, uniform-bound and growth/
+null-calibration repairs remain separate. Physical metrology, RET integration
+and application readiness remain open; book and clock deferrals are unchanged.
+The preceding design and this verification remain local and uncommitted after
+the already-pushed audit checkpoint `47262b6`. Unrelated core/RET/application
+work is outside this gate.
+
+## Preceding analytical design — joint geometric channels, 12 September 2026
+
+The branch audit and corrected finite calculus were committed and pushed as
+`47262b616296c632189d4e8b3e2582ed2016a6d8` before this gate began. Only its
+15 research files were published; the separate 231 dirty core/RET/application
+entries were excluded. The authoritative working branch remains `ret`.
+
+**Common-world geometric target/channel design is analytically complete.**
+One marked two-dimensional metric/sampling family now varies cone parameter,
+time orientation, conformal-factor profile, continuous metric scale and
+sampling shape/normalization together. Five declared information types identify
+the joint geometric target conditionally; exact deletion witnesses show why
+each is needed in this model. A four-world example preserves the entire
+stipulated point-process law while relative and/or absolute volume differ.
+
+The scale/density ambiguity also appears as a rank-one Fisher information
+matrix with a null direction that independent repetition cannot remove.
+This is statistical information geometry, not gravitational curvature.
+Conformal representative, conformal class, fixed marks and physical reference
+units are kept distinct. Ideal density references are not acquired measurements,
+and the count-law premise is not a causal growth law. See the
+[standalone design](../validation/qr-05-joint-geometry-design-2026-09-12/README.md)
+and [analytical decision record](../validation/qr-05-joint-geometry-design-2026-09-12/RESULTS.md).
+
+**Next gate: bounded exact joint-geometry verification.** Freeze a 64-world
+rational witness subclass with all six coordinates varying, all 32 channel
+subsets and 1,920 differing-target pair witnesses. Compare complete raw rational
+channels/targets and observation partitions against an independent separator
+route. No finite enumeration, new test suite, simulation or apparatus run was
+performed by this design gate. No branch BW–DO completion labels are inherited.
+
+Physical metrology/RET integration and general metric/dynamics claims remain
+open. The subsequent operator, correspondence-distance, convergence and growth
+repairs retain their separate gates; book and clock deferrals are unchanged.
+
+## Published reconciliation — 12 September 2026
 
 The concurrent `qr-05-bridge` branch was reviewed at commit
 `ac1f80ffb51ac1f6be0d6d740eaf82a1e411c5a8`: 51 commits and 45 later gate
@@ -30,13 +161,11 @@ establish joint identification. An injected scale oracle is not an available
 instrument. See the
 [reconciled calculus and results](../validation/qr-05-bridge-reconciliation-2026-09-12/RESULTS.md).
 
-**Next bounded step: a common-world geometric target/channel design.** Specify
-one joint world class varying order/orientation, conformal structure, density
-and absolute scale; declare the target tuple and the source of each observation.
-Distinguish a supplied coordinate/order/kernel from a measured channel. Derive
-exact collision witnesses and proposed distinguishing channels before running
-new geometry simulations. This replaces importing the branch's unsupported
-joint-anchor or physical pair-kernel closure claims.
+The audit proposed a common-world geometric target/channel design, now
+completed analytically as recorded above. It distinguishes a supplied
+coordinate/order/kernel from a measured channel and derives exact collision
+witnesses before new geometry simulations. This replaces importing the branch's
+unsupported joint-anchor or physical pair-kernel closure claims.
 
 Subsequent repairs are separately scoped: causal-matrix/operator contracts and
 signed-path controls; true correspondence distortion and a noncollapsing
@@ -2336,7 +2465,8 @@ visible rather than being described as noise or a setup artifact without evidenc
 | QR-05BV: bounded acquisition-distortion verification | Eight class/error plans: three certified, five not; ten exact enlarged inverses, complete endpoint witnesses and nonnested/scale controls verified | 28 tests per mode, full replays and one alternate audit; supplied e and nested iid premises, no apparatus calibration, adaptive tuning or acquisition |
 | Reference-calibration reconciliation (BW/BX intent, design-only) | Corrected population/estimate and reference/transfer contract; valid marginal budgets compose without independence, with explicit selection conditions | Recorded 12 September; apparatus support/iid/mark/loss premises unsupplied, no calibration execution or readiness claim |
 | Bridge-branch reconciliation: common-world channel calculus | Five packets, 27 subsets; independent partition/hitting-set agreement, collision witnesses and minimal/minimum distinction | 19 tests per mode and three exact replays; finite mathematical table, no physical channel or wholesale BW–DO gate adoption |
-| Next: common-world geometric target/channel design | Joint world class, declared observation sources, exact collisions and proposed distinguishing channels | Design-only; no supplied geometry silently reclassified as acquired, no kernel/gravity closure or RET integration |
+| Common-world geometric target/channel design (analytically complete) | Continuous scale/density model, marked geometric targets, five necessary/sufficient information types, simultaneous full-law collision and Fisher null direction | No mathematical execution; conditional ideal references, no acquired geometry, kernel/gravity closure or RET integration |
+| Next: bounded exact joint-geometry verification | 64-world rational subclass, 32 channel menus, full rational channels/targets and 1,920 differing-target separators | Freeze before execution; exact independent routes, no Poisson sampling/count-tail sweep, no empirical calibration |
 | Later: physical bridge and dynamics | Define an apparatus-to-event interface; only then assess geometric interpretation and dynamical correspondence | No claim that a metric or Einstein dynamics follows from passing earlier gates; measured tests and uncertainty models require a separate protocol |
 
 Proceed gate by gate. A mathematical failure that identifies a missing premise

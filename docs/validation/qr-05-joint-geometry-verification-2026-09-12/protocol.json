@@ -1,0 +1,139 @@
+{
+  "schema": "qr05-joint-geometry-protocol-v1",
+  "model": {
+    "kappa": [
+      1,
+      2
+    ],
+    "orientation": [
+      -1,
+      1
+    ],
+    "a": [
+      0,
+      1
+    ],
+    "b": [
+      0,
+      1
+    ],
+    "L": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "r": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "probes": [
+      [
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      [
+        [
+          7,
+          8
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      [
+        [
+          7,
+          8
+        ],
+        [
+          5,
+          8
+        ]
+      ]
+    ],
+    "strip": [
+      1,
+      2
+    ]
+  },
+  "channels": [
+    "O",
+    "P",
+    "T",
+    "D",
+    "R"
+  ],
+  "coverage": {
+    "worlds": 64,
+    "menus": 32,
+    "targets": 16,
+    "different_target_pairs": 1920,
+    "omission_witnesses": 5,
+    "collision_groups": 4,
+    "identifying_menus": 1
+  },
+  "controls": {
+    "scale_multiplier": [
+      3,
+      2
+    ],
+    "repetitions": [
+      1,
+      3
+    ],
+    "null_probes": [
+      [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    ]
+  },
+  "limits": {
+    "source_bytes": 262144,
+    "artifact_bytes": 16777216,
+    "analysis_seconds": 30,
+    "suite_seconds": 60,
+    "input_rational_bits": 128,
+    "alternate_replays": 1
+  },
+  "dependencies": {
+    "design_readme_sha256": "abd6df782f40f091163eab72b0891249a81e5525c7e6ea55d6cf7e9d61f10921",
+    "design_results_sha256": "c69fd56da11116ebbbd615bca8665fc54b7b00e48d320860433bbc8c1735cf07",
+    "quotient_sha256": "0fdfad80ffca8902c1af472b75afbbff2397f10b86cb7e1e7cb99697d4ca9d10",
+    "utility_sha256": "157b4f19725d3ead456eda2b74f3e2452ceb067ef8b0edd463a2367e48bd8a55"
+  }
+}
