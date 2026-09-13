@@ -1,5 +1,16 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+13 September 2026, native-operation obligation: the
+[operation-domain analysis](../validation/t8-q-operation-domain-2026-09-13/OPERATION_DOMAIN.md)
+derives the mass-preserving congruence criterion but rejects the attempted
+full-PSD-cone linear instrument completion. With total-entry normalization,
+its complete branch probabilities are residual-independent; a further exact
+counterexample shows convergent first-commit probabilities without a convergent
+residual-map sum. **FULL_CONE_CANDIDATE_REJECTED; OPERATIONAL_DOMAIN_GAP.**
+Existing recordable domains and conditional quantum image cones are not
+rejected. The next obligation is a DET-justified preparation/test domain and
+lawful transitions between domains, not another supplied quantum operator.
+
 13 September 2026, QR-MAP plan started after the implementation push:
 [record sufficiency and the first-commit law](QR_MAP_RECORD_SUFFICIENCY.md)
 states the exact criterion for record-only prediction, a conditional classical

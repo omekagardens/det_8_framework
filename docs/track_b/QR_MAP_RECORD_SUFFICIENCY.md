@@ -2,6 +2,14 @@
 
 13 September 2026. **THEOREM_AND_COUNTEREXAMPLE; CONDITIONAL_PROCESS_LAW.**
 
+**Subsequent native-operation result:** the
+[operation-domain analysis](../validation/t8-q-operation-domain-2026-09-13/OPERATION_DOMAIN.md)
+rejects an unrestricted total-entry-normalized linear instrument completion.
+Its branch probabilities cannot depend on residual state, and its residual
+first-commit map series may diverge despite convergent probabilities. Section 5
+below remains correct on the stated trace-normalized quantum systems and their
+compatible encoded cones; it is not a theorem on every primitive pair-kernel.
+
 This starts the QR-MAP plan after implementation of the
 [activity/commit/access contract](RECORD_PROCESS_CONTRACT.md). It establishes
 when a committed record is predictively sufficient and how a supplied silent

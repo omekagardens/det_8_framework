@@ -3,6 +3,16 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**Next-obligation result:** the
+[native-operation domain study](../validation/t8-q-operation-domain-2026-09-13/OPERATION_DOMAIN.md)
+rejects the full-PSD-cone positive-linear instrument candidate: its rank-one
+total-entry normalization permits no informative fixed branch probabilities.
+It also exhibits failure of unrestricted residual-map convergence. A derived
+congruence criterion constrains silent algebraic maps without selecting their
+physical availability. The next target is a DET-justified preparation/test
+domain and transitions between such domains; restricted classical and quantum
+choices remain unselected by the current premises. No new lettered gate opens.
+
 **Plan execution update:** after publishing the
 [activity/commit/access implementation](RECORD_PROCESS_CONTRACT.md) as
 `f688212`, research begins with
@@ -129,7 +139,7 @@ counterexample, a rejected construction or a named missing premise.
 
 | Work item | Required result | Dependency and stop condition |
 | --- | --- | --- |
-| Resolve the activity-to-record interface | State sufficiency for all declared future tests; retain silent evolution, committed nulls and never-commit probability separately | Initial criterion and conditional first-commit theorem are now written. The physical/native availability of the silent and commit maps, their sequencing and full order-branch selection remain gaps; a supplied CP protocol is not a DET-native law |
+| Resolve the activity-to-record interface | State sufficiency for all declared future tests; retain silent evolution, committed nulls and never-commit probability separately | Initial criterion and conditional first-commit theorem are written. The full-cone linear instrument candidate is now rejected by the operation-domain theorem; unrestricted residual elimination can diverge. Next justify the physical preparation/test domain and inter-domain operations, then the selected silent/commit law and precursor rule |
 | Resolve the quantum premise gap | Define the operational interpretation and prove which new/existing record principles exclude the classical and real countermodels | The current audit is complete as non-entailment. Do not report full DET-derived QM while the countermodels remain admissible |
 | Find a native order-generating candidate | A fully specified fixed L/F using only admitted primitives, with records and full residual payload retained | Independent of whether the six QM postulates have been forced. Current L_XYZ is rejected for a volume-filling continuum role; stop if the target geometry or a borrowed growth law supplies the answer |
 | Prove a manifoldlike regime exists | A justified limiting construction producing topology, dimension and Lorentzian causal structure from that candidate | Requires the native candidate. This is the central missing existence result, not another estimator inversion on a supplied mesh |
