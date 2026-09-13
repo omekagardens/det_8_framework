@@ -1,3 +1,47 @@
+# QR-05 halt rule and historical roadmap
+
+12 September 2026. **HALTED — G0, close-current. No active next gate.**
+
+This is the third adjudication artifact, accompanying the frozen
+[QR-MAP](QR_MAP.md) and [DG-OPEN / F finding](QR05_ADJUDICATION.md).
+These three artifacts supersede all earlier QR-05 continuation instructions,
+including every historical "current gate", "next gate" and proposed sequel
+below or in isolated research notes. Earlier wording is evidence of a past
+checkpoint, not present authorization.
+
+## Controlling halt rule
+
+- Do not implement, freeze or design uniform coverage, a noncollapse
+  contract, a causal-operator sequel, a measure/divergence sequel, BW/BX,
+  joint-geometry enlargement, or **any QR-05BW–DO work**, whether lettered,
+  renamed or unlettered. No coverage/noncollapse/identifiability gate opens.
+- Do not start another executor, finite certificate, fixture enumeration,
+  simulation, exact inverse of an inserted operator or successor gate to
+  resolve this adjudication. Existing coverage designs are not re-frozen,
+  ratified or activated by this note; their proposed execution is withdrawn.
+- Isolated research directories and retained captures stay isolated and
+  unchanged. No import into RET, no RET/application work, no clocks, no book
+  work and no revival of retired κ-gravity are authorized by this sitting.
+- Option B and metric-as-record Status M remain unchanged. G0 creates no
+  gravity Novelty Ledger row. Gravity cannot remain an implicit rationale
+  for continuing this closed lane while being excluded from its conclusions.
+- The internal horizon (≺, #, R, L, 𝔇) ⇒ manifoldlike Lorentzian structure
+  is recorded, not claimed or scheduled. No DET-native F is established;
+  its named borrows/gaps end this sitting. This is not a no-go theorem for
+  the full map, and internal derivation is not an empirical discriminator.
+- Retained mathematical yields are a frozen definition, a theorem about
+  that definition, a counterexample or a rejected summary. A/D supply the
+  summary rejections; stipulated-fixture identifiability is atlas, not
+  advancement toward gravity. Naming the missing F does not open a sequel.
+
+**Stop after these three documentary artifacts.** No mathematical execution,
+new gate or follow-on work is part of this adjudication.
+
+## Historical roadmap — superseded, no current authority
+
+<details>
+<summary>Preserved checkpoint history; all continuation directions below are inactive</summary>
+
 # Quantum records to geometric structure: research plan
 
 Started 5 September 2026. Authorized mathematical exploration in the primary
@@ -2721,3 +2765,5 @@ Background: [quantum-record charter](../QUANTUM_RECORD_STRUCTURE_RESEARCH.md),
 [Rideout–Sorkin classical sequential growth](https://arxiv.org/abs/gr-qc/9904062).
 The mutable local Track-B notes are conceptual context, not executable
 dependencies or imported evidence for this gate.
+
+</details>
