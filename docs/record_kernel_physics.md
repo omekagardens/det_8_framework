@@ -197,9 +197,13 @@ commit-ready when its alternatives are record-distinguishable
 \boxed{K_{\mathcal P}(i)=\mathfrak D(A_i,A_i)},\qquad \sum_i K_{\mathcal P}(i)=1.
 \]
 
-Clean distinction: `𝔇` = relational possibility structure before commit;
-`K_𝒫` = ordinary probabilities for a recordable partition; `X_e` = the
-committed outcome; `R⁺` = the resulting record.
+Clean distinction: `𝔇` = residual relational possibility structure;
+`K_𝒫` = ordinary probabilities for a declared recordable partition; `X_e` =
+the committed outcome; `R⁺` = the resulting record. Residual transformation,
+record formation and observation of an existing record are different operations.
+`𝔇` is not discarded between commits. The formal exact normalization claim
+requires exact decoherence; an approximate off-diagonal criterion needs an
+explicit error budget and does not silently become an exact commit rule.
 
 ### 3.2 What this quadratic derives
 
@@ -244,6 +248,15 @@ extendability* (`𝔇_n = Marginal(𝔇_{n+1})` for every lawful future refineme
 
 ## 4. Revised minimal Track A architecture
 
+**Semantic refinement (13 September 2026):** use the complete state
+`X=(C,Z)`, `C=(V,≺,R_comm)`, with the existing residual `D_C` as the first
+candidate for Z. No additional ontological variable is adopted. A supplied
+residual operation may change Z without appending to C; a positive selected
+commit appends one fresh maximal event; an access view is a separate projection
+of already committed entries. Logged null outcomes are commits, not silent
+steps. The [experimental contract](track_b/RECORD_PROCESS_CONTRACT.md) implements
+this distinction but does not derive the physical operation family or L.
+
 **Primitives:** `(V,≺)` causal event order; counting measure `#`; local
 committed record `R`; law map `L` (generates lawful alternatives and relational
 constraints); pair-kernel `𝔇` (candidate); local composition and commit
@@ -269,6 +282,13 @@ R^-_e \xrightarrow{L} (\Omega_e,\mathcal A_e,\mathfrak D_e,\mathcal C_e)
 
 κ is no longer placed between record and reality as an unexplained substance;
 it is derived afterward as a measure of how history changes the generated kernel.
+
+The displayed chain describes a commit-producing transition, not every possible
+residual transformation. A record-only input to L requires a sufficiency proof;
+otherwise current residual state and lawful context must be included. Neither
+cardinality nor the legacy count-based proper-time formula proves that record
+growth exhausts activity. Fundamental formation, detector retention and delayed
+receipt must be distinguished before identifying count with geometric volume.
 
 ---
 
@@ -394,9 +414,10 @@ from being multiplied together without derivation.
   additivity, `I_3=0`, Gram representation, nonnegative committed weights,
   classical additivity on decoherent partitions, composition closure. (Not yet
   "Born rule".)
-- **T3 — Record Formation Theorem.** Repeated weak commits ⇒
-  `P_record_error(N) ≤ e^{−NC}`, connecting redundancy to suppression of
-  pair-kernel cross terms.
+- **T3 — Record Stabilization Bound.** Assumed independent weak commits with
+  reliability p>1/2 give `P_record_error(N) ≤ e^{−NC}`. This bounds noisy-copy
+  error; it does not derive the first committed outcome or a pair-kernel
+  decoherence rate. Those formation/interaction obligations remain open.
 - **T4 — Kernel Irreversibility Theorem.** `⟨e^{−Σ}⟩=1`, `⟨Σ⟩≥0`, including
   conditions for absolute irreversibility and incomplete reverse support.
 - **T5 — Local Kernel Continuum Theorem.** When local conservative graph kernels

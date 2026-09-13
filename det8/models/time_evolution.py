@@ -175,9 +175,11 @@ def discrete_evolution_sequence(
 
     Returns the full sequence of states for analysis.
 
-    Note: In DET, evolution only occurs at commit events. Between
-    events, the record and state are frozen. This sequence models
-    the state at each successive commit event.
+    This samples a supplied algebraic propagator with fixed record inputs.
+    Iterations are not automatically committed events: residual activity,
+    record formation and record access are distinct. No native sequencing
+    law or identification of the supplied delta_tau with record count is
+    derived here; this helper does not append committed records.
     """
     state = initial_state.copy()
     sequence = [state.copy()]

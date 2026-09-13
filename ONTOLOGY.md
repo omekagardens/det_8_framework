@@ -39,7 +39,12 @@ DET's core ontological commitment:
 
 **The future is not ahead of us.** The future is the possibility structure that has not yet been committed. PRESENCE → R is fact genesis; Ω is the structure presence navigates.
 
-**The present is not a point in time.** It is the act of participation through which time grows. The present has no duration in record-time — the experience of duration is a Track-B phenomenon.
+**Present activity and record growth are distinct.** DET interprets the present
+through relational participation (Status M). Record-time orders and counts
+committed records; it has not been established that record production exhausts
+present transformation. A no-record interval does not by itself imply frozen
+relational state, nor does this distinction introduce an external universal
+clock. See [activity, commit and access](docs/track_b/RECORD_PROCESS_CONTRACT.md).
 
 **Identity is grounded in relational continuity of present participation, not in record continuity.** The record TRACKS identity; it does not carry it. Two moments of present participation are connected not because a record links them, but because they are participations of the same selfhood-bearing regime.
 
@@ -55,7 +60,12 @@ DET's core ontological commitment:
 
 **Target tension:** Some interpretations of relativity adopt a tenseless or block ontology. Relativity's successful formalism does not uniquely entail that ontology.
 
-**DET proposal (Status M):** The past is interpreted as determinate record \(\mathcal R^-\), the future as open support \(\Omega\), and the present as commit \(X_e \sim K_e\). “Time is record growth” is not derived from relativity and currently has no unique discriminator.
+**DET proposal (Status M):** The past is interpreted through committed traces
+\(\mathcal R^-\), and future outcomes through possibility structure. A commit
+\(X_e\sim K_e\) forms a record; it is not stipulated to be every element of
+present activity. Record-time describes committed growth, not a proved
+exhaustive time parameter for residual dynamics. Relativity does not derive
+this ontology and no unique discriminator is established.
 
 ### 3.2 Quantum: Many-Worlds → Open Relational Constraints
 

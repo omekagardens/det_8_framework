@@ -1,5 +1,30 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+13 September 2026, implementation follow-through: the
+[record-process contract](RECORD_PROCESS_CONTRACT.md) now separates residual
+activity, append-only commitments and passive record access in an isolated
+experimental module. Older claims equating every activity with commitment,
+or classical copying with first quantum outcome formation, are reconciled.
+**SEMANTIC_CONTRACT_IMPLEMENTED; NO_NEW_PHYSICAL_LAW_DERIVED.** No new
+operational selection postulate or autonomous no-append law is adopted.
+
+13 September 2026, present-activity consideration: the
+[DET-wide audit](PRESENT_ACTIVITY_RECORD_FORMATION.md) distinguishes residual
+activity, committed-record formation and subsequent record access. The state
+`(C, D_C)` already supports the first distinction; the chosen `L_XYZ` does not
+yet supply an autonomous no-append dynamics. Record-time exhaustivity,
+first-record formation and missing/delayed-record geometry remain explicit
+questions. **Initial audit: PROPOSED_REFINEMENT; NO_CORE_AXIOM_OR_EXECUTOR_CHANGED
+at that sitting.** See the implementation update above for the subsequent change.
+
+13 September 2026, principle-selection research: the
+[primary-source report](../validation/t8-q-principle-selection-research-2026-09-13/RESEARCH.md)
+identifies explicit additional principles excluding the audited classical,
+real-quantum and restricted-catalogue countermodels. It separates individual
+exclusions, conditional reconstruction packages and the energy-observability
+route. **RESEARCH_ONLY; NO_NEW_AXIOM_ADOPTED.** The previous non-entailment
+result remains valid; no new QR-05 gate, executor or physical claim is opened.
+
 13 September 2026, latest owner clarification: **mass and gravity are included
 in the research scope**. The [expanded plan](QR_MAP_RELATIVITY_GEOMETRY_PLAN.md)
 now includes mass-bearing dynamics, matter–geometry coupling and the GR/Einstein
@@ -56,8 +81,9 @@ and outcome must itself be a kernel sample, not an external choice.
 a block of not-yet-facts. A snapshot is finite and past-closed; # counts its
 entries, not a scheduler's physical time. Snapshot access does not imply
 global physical access or a shared now. Confluence, QR-01 comparisons and T7
-diagnostics concern snapshots, not an observer foliation. No MODEL_CARD
-primitive is changed.
+diagnostics concern snapshots, not an observer foliation. The later semantic
+clarification distinguishes residual state, committed history and record access;
+it does not add a new physical primitive or select an operational law.
 
 Block-P (adding uncommitted future slots) and naive-G (ambient birth index as
 law or global now) are rejected. “Growing” names trace accumulation, not an

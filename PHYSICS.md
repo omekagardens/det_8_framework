@@ -125,6 +125,21 @@ Seven relativistic correspondence observables are reproduced after mapping the e
 
 ## 5. Quantum Correspondence
 
+**Activity/record semantics (13 September 2026).** Distinguish present residual
+transformation, committed-record formation and subsequent access. The
+[semantic contract](docs/track_b/RECORD_PROCESS_CONTRACT.md) implements these as
+separate experimental operations without choosing a Hamiltonian or growth law.
+The conditional QR-MAP completion uses `X=(C,D_C)`, not a record-only state.
+Its prior mathematical results remain conditional; the authorized
+[mass/geometry/gravity research plan](docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md)
+does not revive retired κ-gravity. That isolated owner-authorized research
+is distinct from release hardening and supersedes earlier blanket research
+deferrals for this lane. The legacy formula `Δτ=ΠΔN` is a declared
+count-based quantity, not proof that no commit implies no physical evolution.
+Legacy claims below of a uniquely forced quantum theory or complete measurement
+derivation are not the current QR-MAP result: noisy copying stabilizes an assumed
+classical target; full QM remains conditional on additional operational premises.
+
 > **Honest reclassification.** These are **correspondence checks**: each recovers a standard quantum result. They are now supplemented — not replaced — by the theorem program (T2b quadratic commit, T2a grade-2, T6/T6b correlation class, why-ℂ). The honest bottom line: DET derives the *almost-quantum* framework, with grade-2 an empirical choice and ℂ forced by (empirical Ω≠0) + reversibility.
 
 | Correspondence | Key insight |

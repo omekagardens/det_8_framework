@@ -36,11 +36,23 @@ DET (Deep Existence Theory) is a two-track framework:
 
 ## 2. Primitives
 
+**Record/state/access distinction (13 September 2026).** A committed history
+`C=(V,≺,R_comm)` is distinct from its present residual state `Z` and an
+observer's accessible record. QR-MAP initially uses its existing residual
+`D_C` as `Z`; a new ontological variable is not inferred. Residual activity may
+leave C unchanged, a commit appends one event, and record access is a separate
+operation. Record-time orders/counts commits; it is not established that this
+exhausts present transformation. A fixed law needs sufficient state/context
+inputs, not necessarily records alone. See the
+[implemented semantic contracts](docs/track_b/RECORD_PROCESS_CONTRACT.md).
+These contracts do not supply a native dynamics, first-outcome selection or
+observer-independent geometry. Track-B interpretations remain Status M.
+
 | Primitive | Definition | Module |
 |---|---|---|
 | Event graph | \(\mathcal G = (V, \prec)\) — locally finite partial order | `event_graph.py` |
-| Record | \(\mathcal R\) — committed facts at each node (κ, F, σ, H, C, r, θ, η) | `det8_core.py` |
-| Law map | \(\mathcal L: \mathcal R^- \rightarrow (\Omega, \Sigma, K, \mathcal C)\) — generates possibility object | `mam0.py`, `det8_core.py` |
+| Record | \(\mathcal R_{comm}\) — committed entries; legacy `NodeRecord` is a mutable current-state container, not an immutable history | `record_process.py`, `det8_core.py` |
+| Law map | A fixed rule on sufficient committed/residual state and declared context; \(\mathcal L(\mathcal R^-)\) is record-only shorthand when sufficiency holds | `mam0.py`, `det8_core.py`; QR-MAP completion |
 | Commit kernel | \(K: \Omega \rightarrow [0,1]\) — proper transition kernel | `markov_kernel.py` |
 | Participation aperture | \(\Pi = \sigma \eta (1+F)^{-1}(1+H)^{-1}\phi(v)(1+\lambda_P\kappa)^{-1}\) — proper-time rate | `det8_core.py` |
 | Structural history | κ ∈ [0,1] — **L0/L1 fitted coordinate, not a primitive field** (rank-one special case of a predictive-history coordinate) | `det8_core.py` |
@@ -194,7 +206,7 @@ Four topics receive interpretive proposals (see `ONTOLOGY.md` and `det_falsifica
 
 | Topic | DET proposal | Epistemic status |
 |---|---|---|
-| **Time** | record-growth time | **M** — growing-block ideas are borrowed interpretive resources; relativity does not select this ontology |
+| **Time** | record-growth time, without activity exhaustivity | **M** — record order/count does not prove that all present transformation is record production; relativity does not select this ontology |
 | **Quantum** | open, real relational constraint | **M for openness and realism** — complex/grade-2/Born components have conditional mathematical or correspondence roles |
 | **Agency** | present-enactment agency | **M, quarantined** — record-side proxies do not establish agency |
 | **History** | mutable structural carrying | **M for the reading** — κ is a fitted predictive-history coordinate |

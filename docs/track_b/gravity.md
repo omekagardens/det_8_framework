@@ -51,6 +51,15 @@ T7 (det8/models/order_count_geometry.py) is correspondingly a **synthetic estima
 
 ## 4. The metric-as-record proposal
 
+**Record-interface clarification (13 September 2026).** Present residual
+activity, record formation and subsequent observation are distinct; see the
+[implemented semantic contract](RECORD_PROCESS_CONTRACT.md). Record-time does
+not assert activity exhaustivity. Missing records, variable retention and
+delayed receipt require an explicit observation/formation map before order
+and count can identify a metric. The [authorized research plan](QR_MAP_RELATIVITY_GEOMETRY_PLAN.md)
+includes mass and gravity as internal targets without promoting Status M or
+reviving retired κ-gravity. This clarification is not a geometric derivation.
+
 In GR, a metric represents invariant interval, causal, clock, geodesic, and curvature relations even though its individual components depend on coordinates. DET asks whether this relational pattern can be interpreted as a coarse-grained description of actualized records rather than as a further substance.
 
 That is a legitimate Track-B question, but the following stronger moves are not licensed:

@@ -37,7 +37,7 @@ The record is what events **leave behind**. It is the fruit of becoming, not bec
 | The person | The person is a selfhood-bearing regime that participates in actualization. The record is the trace of that participation. |
 | Identity itself | Identity is carried THROUGH the record, not stored IN the record. |
 | A soul-substitute | The record is physical (Track A). A soul would be non-physical (Track B/M). DET does not replace souls with records. |
-| Immutable | The record GROWS (new commits add to it). κ CHANGES (recovery reduces structural carrying). The record is dynamic, not frozen. |
+| An indestructible storage medium | Committed history grows without rewriting old events. Current physical carriers and fitted κ may change or become inaccessible; these are not the immutable history itself. |
 | The ground of being | The record depends on prior commit events. It is contingent, not necessary. |
 
 ---
@@ -101,9 +101,11 @@ The user's concern touches on a fundamental DET principle:
 
 The record is the fruit. The person is the becoming. Confusing them would be like confusing the footprint with the foot.
 
-This is why agency remains M (quarantined). The record can capture what an agent DID (intentions formed, actions taken, consequences committed). But the record cannot capture the agent's present participation in actualization — because that participation IS the act of committing new facts, which then become record.
-
-The person is always one commit event ahead of their record.
+Agency remains M (quarantined). Recorded actions do not establish an identity
+between present participation and record production. The historical phrase
+"one commit event ahead" is an interpretive metaphor, not a timing theorem.
+Present residual activity, committed records and their subsequent observation
+are distinct in the [refined semantic contract](RECORD_PROCESS_CONTRACT.md).
 
 ---
 
