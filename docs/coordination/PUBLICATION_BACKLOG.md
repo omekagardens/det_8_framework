@@ -321,3 +321,15 @@ Exact checker, test and manifest identities and the performed checks are in
 original review, QR summaries and unrelated working baseline remain unchanged.
 This makes the accepted-file inventory durable; it does not supply the missing
 QR acquisition/composition premise or reopen the RET lane.
+
+
+RI-24 is published in independently verified
+[db803fbcdbdde4e461e55d2a28e304d8de59b071](https://github.com/omekagardens/det_8_framework/commit/db803fbcdbdde4e461e55d2a28e304d8de59b071),
+tree `418cc786fd1ca568ce1f77e6db075291a3625a68`. All eight staged files
+matched the independently reviewed candidate; 89 scoped local links and all
+held/protected/unrelated preservation checks passed. The normal push and
+independent origin/ret lookup succeeded. The source-stable implementation
+reservation is released, and the final three-file coordinator record preserves
+the published manifest/checker/tests/guide and all earlier accepted artifacts.
+QR received an informational handoff with no new assignment. The premise/
+acquisition and measured-application dependencies remain unchanged.

@@ -3073,3 +3073,34 @@ The guide now records acceptance and the performed checks. This reproducibility
 item is complete at its byte-integrity boundary and awaits the exact eight-file
 publication checkpoint. QR remains source-quiet at the existing premise/
 acquisition decision; the checker adds no executor or new QR assignment.
+
+
+**RI-24 publication verified — reproducibility checkpoint complete**
+
+[Commit db803fbcdbdde4e461e55d2a28e304d8de59b071](https://github.com/omekagardens/det_8_framework/commit/db803fbcdbdde4e461e55d2a28e304d8de59b071),
+tree `418cc786fd1ca568ce1f77e6db075291a3625a68`, publishes exactly the eight
+reviewed paths. Final independent publication/status review accepted the
+candidate, and all staged bytes matched its captured identities. All 89
+scoped local links, whitespace and preservation checks passed: 71 prior held
+identities, six protected identities and unrelated working content remained
+unchanged. The normal origin/ret push succeeded; independent remote-ref lookup
+returned this full commit. The index was empty afterward.
+
+The accepted inventory still points to its historical `5ec58e5` source
+checkpoint. The new verifier's identity is separately bound by `db803fb`;
+its success neither authenticates the manifest nor reproves accepted results.
+The guide's accepted SHA256 is
+`c6e15777ee5a8f87b310c5b511d1700c05873f6d7320caf9913c262044252c2f`;
+checker, tests and manifest retain the exact hashes recorded above. The
+94 isolated regressions and two actual 71-file integrity checks remain the
+performed evidence, with zero new registered witnesses.
+
+Root sent QR the verified publication and read-only usage location as an
+informational handoff, explicitly preserving its source-quiet/no-successor
+boundary. The next substantive QR dependency remains a named acquisition/
+composition interface. A measured pilot still requires its concrete data,
+target and error/cost contract; no core/RET work is opened. Future cycles
+should respond to new evidence or another concrete unblocked review item,
+not refresh held digests or repeat completed proof/catalogue work merely to
+create an update. This final publication record changes only root plan,
+progress and backlog, leaving the complete RI-24 source candidate unchanged.
