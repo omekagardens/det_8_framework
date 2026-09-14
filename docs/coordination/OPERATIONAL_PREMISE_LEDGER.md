@@ -349,6 +349,15 @@ record, separately from these mathematical conclusions.
 
 ## 7. Application and project integration route
 
+RI-08j is assigned as one bounded observation-stability capstone; its candidate
+bounds are not yet accepted here. It will connect exact observability to
+explicit deterministic error budgets, distinguish filtered prediction distance
+from singular raw reconstruction, and verify supplied feasible witnesses
+without silently fitting incompatible tables. This closes the present round
+of finite-cone refinement before consolidation of a single conditional
+argument. It does not settle the operational-premise selection, retained-word
+first-commit extension or measured-application obligations below.
+
 The useful QR/application transfer at present is a disciplined answerability
 contract: declare the state/model, question, allowed observations, retained
 record and refusal condition. It is not a quantum algorithm or an advantage

@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08i | **Bounded handoffs accepted and registered.** RI-08i classifies terminal observation ranks and minimal three-setting full-state reconstruction under explicit read calibration/availability. Both independent audits, 94 additional exact probes and all 30 new checks in each staged replay pass. | Publish the accepted checkpoint before assigning the bounded robustness capstone. QR holds source quiet; no successor is yet assigned. |
+| QR coordination / RI-05–08i | **Bounded handoffs accepted and registered.** RI-08i classifies terminal observation ranks and minimal three-setting full-state reconstruction under explicit read calibration/availability. Both independent audits, 94 additional exact probes and all 30 new checks in each staged replay pass. | Accepted checkpoint `8714772` is pushed and independently verified. RI-08j is assigned as one observation-stability capstone, then this finite-cone branch stops for consolidation. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for seventeen suites.** Root replayed the exact staged source checkout in both modes: 356 finite witnesses, all 30 declared executable sources loaded, no skips or observed drift. The sixteen prior objects and runner are preserved. Forty-three staged registry regressions and 64 local registry/claim checks pass. | Review future bundles before registration. RI-15's 20 witnesses remain under its separate source contract; universal proofs remain distinct from finite verification. |
@@ -14,7 +14,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11, RI-12 exact contract and synthetic comparator fixture accepted.** Coordinator replay passed 236 focused cases: 34 new comparator, 108 identifiability, 54 applied/consumer and 40 registry. Model-conditional Gaussian oracles, exact observed-row/source bindings, held-out non-assimilation and byte-verified replay pass. | User's measured instrument/dataset choice remains open. Establish target, tolerance and evaluation objective before a measured pilot; coordinate RET ownership before source changes. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08i and the accepted conditional local-to-joint interface. The separate claim endpoint lists seventeen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | The first accepted research/adapter checkpoint is committed and pushed as [faad1e9](https://github.com/omekagardens/det_8_framework/commit/faad1e96d9c2818bbc91e7600dd575538259e5d8). The remote `ret` ref was independently checked against the full commit identity. Root coordinates git operations; hourly follow-through now includes commits and pushes. | Publish future reviewed scoped updates. Reconcile source ownership and dependency closure before publishing the remaining mixed baseline-dependent changes; preserve active QR and unrelated core/RET/evidence work. |
+| Remote checkpoints | Latest accepted research checkpoint: [8714772](https://github.com/omekagardens/det_8_framework/commit/8714772534b5407db79e0989c2a526a1c5370afd), pushed to `origin/ret` and independently verified against the full remote ref. It follows the first research/adapter checkpoint `faad1e9` and publication record `99157c1`. Root owns git/index operations. | Continue reviewed scoped commits and pushes. Preserve separately deferred local baseline, active QR work and unrelated core/RET/evidence files. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -1588,3 +1588,63 @@ The next checkpoint includes these accepted research sources and reviewed
 coordinator/QR summaries. It preserves the separately deferred local baseline
 and original dated review. Root remains the sole git/index owner; normal
 push and independent remote-ref verification follow source capture.
+
+**RI-08i remote checkpoint published; bounded capstone assigned**
+
+[Commit 8714772534b5407db79e0989c2a526a1c5370afd](https://github.com/omekagardens/det_8_framework/commit/8714772534b5407db79e0989c2a526a1c5370afd)
+contains the twelve reviewed paths: the three RI-08i artifacts, three registry
+integration files, three QR handoff/map documents and three coordinator
+plan/progress/ledger documents. Final tree identity:
+`d5410668a8f9f2aea153cb1546d8b3b29b825be8`.
+A tree comparison with the tested staged source snapshot found only the six
+subsequently updated Markdown coordination/map files; the tested executable,
+registry and theorem-note bytes are identical. The index allowlist, source
+hashes and scoped whitespace checks passed. No broader local baseline was
+included, and the dated original review is unchanged.
+
+A fresh fetch before capture found no local/remote divergence.
+`git push origin HEAD:ret` advanced `99157c1` to `8714772`; an independent
+`git ls-remote --heads origin refs/heads/ret` returned the exact full new
+commit. The index was empty afterward. Root notified QR of the verified
+checkpoint and released the source hold before sending the next assignment.
+This follow-up publication record changes no tested source.
+
+Two separate read-only planning reviews checked the next obligation against
+the original review. Their recommendation is **one robustness capstone, then
+consolidation**, rather than an unbounded series of finite quantum fixtures.
+RI-08j is now assigned to the existing Quantum Relativity thread, reserving
+only a new `t8-q-observation-stability-2026-09-13/` bundle and its existing
+three QR documents. It must return an independent proof/source review,
+normal/optimized exact checks and stable hashes, then stop for root acceptance.
+Root continues to own registry/claim integration and all git operations.
+
+The proposed theorem uses the full eight-outcome laws at empty/A/AA. For
+compatible normalized sources in the same known context, let epsilon_k be
+per-setting total variation, d_F half the sum of filtered block trace norms,
+and d_N half the native-kernel trace norm. If B is the inverse matrix of
+backward axes and b_k its column Euclidean norms, the candidate bound is
+`max epsilon_k ≤ d_F ≤ Σ b_k epsilon_k`. The best coefficient for a common
+maximum error is proposed to be `Σb_k`, attained on three independently
+perturbed cells. At the accepted tilt it is approximately 3.126749; the
+implementation must use exact expressions or certified upper enclosures.
+This is a candidate requiring QR proof, not an accepted empirical guarantee.
+
+The target also separates sharp filtered conditioning from the valid raw
+bound `d_N≤d_F/(1-|t|)`. The latter factor is unavoidable even for bounded
+raw sources, while the combined coefficient's sharpness is not assumed.
+Axis limits expose actual invisible directions; vanishing cell weights
+preclude uniform cell-conditioned precision. Supplied deterministic table
+error budgets and an exact positive feasible candidate should certify a
+nonempty compatible error set and its bounded diameter. Failure of one
+candidate is inconclusive without an infeasibility proof. Inconsistent exact
+tables can admit a feasible source under nonzero budgets, so exact inversion
+refusal and bounded-error feasibility must remain different contracts.
+
+No added preparation, control, reusable instrument, numerical fitting solver,
+finite-sample confidence or measured advantage is assigned. Full native data,
+zero cells, retained context/history and terminal-only semantics remain.
+A simple linear-target error corollary may connect this to the existing
+identifiability contract without changing application or RET sources.
+After the capstone, the next decision is a single premise-to-conclusion
+consolidation and the retained-word first-commit gap, with measured
+instrument/data/objective choices still explicitly open.

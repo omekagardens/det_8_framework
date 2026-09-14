@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; accepted results through RI-08i and RI-15. The next bounded robustness capstone is being specified before assignment.**
+Started 13 September 2026. **Active program; accepted results through RI-08i and RI-15. RI-08j, a bounded observation-stability capstone, is assigned to QR.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-08i accepted and registered after independent proof/source audits and complete staged-checkout replay. QR is holding source quiet for publication; a bounded robustness capstone is being specified, with no successor yet assigned. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-08i accepted and registered after independent proof/source audits and complete staged-checkout replay. The accepted checkpoint is pushed as `8714772`. RI-08j is assigned as one observation-stability capstone; QR must stop for independent review afterward. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -104,6 +104,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-08g | Minimal literal-cut-closed completion | QR, with coordinator review | **Conditional theorem and exact bundle accepted and registered.** The minimal convex cut-closed completion has four independent PSD2 blocks and span 16. Literal cuts are reusable on the explicitly changed return type. Interior mass is faithful; endpoint mass-dominated effects collapse to cell weights and nonzero zero-weight cuts remain. Cut-only equivalence and singular-limit bounds are proved. Root passed 32 checks in both modes, 147 independent probes per mode, and the complete registry; independent proof/source review passed. Physical availability remains extra. |
 | RI-08h | Reversible generators on the adopted completion | QR, with coordinator review | **Conditional theorem and exact bundle accepted and registered.** The added continuous reversible group premise gives four weighted block-unitary generators. Equal future laws require matched context, committed prefix and initial pending command metadata. Endpoint dark growth, transpose/divisibility and irreversible dephasing delimit the theorem. Two independent audits and 67 additional probes passed; root passed all 30 checks in both complete registry runs. Twelve mathematical parameters are not identified by the cut-only catalogue; no physical time, Hamiltonian selection or native dynamics is inferred. |
 | RI-08i | Minimal internal observation interface | QR, with coordinator review | **Conditional theorem and exact bundle accepted and registered.** Backward effect ranks 8/12/16 and positive sections establish the minimal full-span linear summaries. Three resolved tilted-read settings reconstruct every native entry from compatible exact tables, including zero cells without division. Full pre-read source/history retention, incompatible-table refusal and a terminal-only typed result pass both independent audits, 94 additional exact probes and all 30 new checks in each complete staged replay. State observability uses known calibrated controls/readout; generator identification, finite-sample accuracy and postmeasurement reuse remain separate. |
+| RI-08j | Observation stability and error-budget capstone | QR, with coordinator review | **Assigned; candidate results are not yet accepted.** Prove the sharp three-setting filtered-distance bound, axis-conditioning law and unavoidable raw endpoint singularity; implement exact supplied-candidate feasibility/error-budget certificates with explicit inconclusive/refusal outcomes and rare/zero-cell boundaries. Add no primary operations or empirical sampling claim. Deliver one source-stable independently reviewed bundle, then stop this finite-cone refinement branch for consolidation. |
 | RI-08 | F6/P4: one explicit operational reconstruction endpoint | QR | **Dependency-gated.** Select a precise premise set and endpoint. Discharge or declare every reconstruction assumption and explain which countermodels are excluded. State-space selection does not automatically select instruments, Hamiltonian or growth. |
 | RI-09 | P5/P6/P7: unbounded records, native order law and geometry | QR | **Research backlog.** Begin with typed probability/schedule consistency and a native generator classification. Fixed finite chain-forming port budgets fail the volume-filling role. Unbounded width alone is insufficient. Require an actual limiting object and measure before a reconstruction claim. |
 | RI-10 | F8: complete the existing G2 integration chain | Coordinator with RET owner | **Scoped backlog.** Verified bank-only evaluator and shared evaluation logic; consumption/source bindings; development equivalence; full source-held development rehearsal, independent audit, final matrix/wheel. Preserve truth declarations, acceptance rules and separate freeze/custody obligations. |
@@ -137,6 +138,29 @@ changed, the tests or proof review actually performed, remaining limits, and
 the next dependent work. Keep current progress in
 [REVIEW_PROGRESS.md](docs/coordination/REVIEW_PROGRESS.md). A new execution should
 read both this plan and the current QR handoff, not replay an obsolete task list.
+
+**Capstone and consolidation checkpoint**
+
+RI-08j is the final refinement of the current finite-cone branch before
+consolidation. Its declared measurement map, metrics and deterministic error
+budgets must stay explicit. The proposed filtered Lipschitz constant is sharp
+on the full mathematical four-cell domain; a valid native-kernel bound also
+contains `1/(1-|t|)`, whose divergence cannot be removed near singular mass.
+A verified feasible source can certify an error-set diameter; failure of one
+candidate does not prove that the set is empty. Probabilistic confidence,
+unknown calibration and conditional-state accuracy at arbitrarily small
+branch weight require separate premises.
+
+After capstone acceptance and publication, consolidate one reviewable
+premise-to-conclusion argument around the accepted operational endpoint,
+with its supplied domain, controls, composition, availability and surviving
+countermodels stated together. Do not automatically add another axis,
+control or reset fixture. The original review's larger obligations remain:
+DET selection of operational premises; extension of first commitment to the
+later unbounded retained command words; and one bounded measured application
+evaluation. RI-07's finite full-label theorem does not cover that retained-word
+extension without a new proof. Instrument/data, target/tolerance and evaluation
+objective remain the named measured-application dependencies.
 
 **Application decision**
 
