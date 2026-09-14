@@ -129,6 +129,26 @@ formation, disciplined observer access, information-loss/refusal boundaries
 and transparent measurement selection. A simulated prediction agreeing with
 its generator is a functioning-model result, not measured superiority.
 
+## Conditional acquisition budget
+
+The [RI-28 budget note](../experiments/QUBIT_ACQUISITION_BUDGET.md) supplies
+a separately reviewed planning certificate for disjoint frozen W bands and
+for resolving held completion intervals. It includes random fitted-center
+uncertainty, systematic/loss floors and exact fixed-count examples. The
+illustrative sufficient designs at 1% and 5% training-loss ceilings use
+112,500 and 703,128 attempted tomography acquisitions under the stated
+reference-gap and calibration/drift premises. These are sufficient designs, not a measured
+power estimate, an optimal schedule or a selected acquisition.
+
+Actual reference-state uncertainty can consume the gap slack, and longer
+runs must remain within justified calibration/drift windows. The existing
+plan fingerprint does not bind the new loss caps, gap premise or separation
+rule; a future campaign needs a separate hashed preregistration alongside
+its plan and source identities. All failed/missing attempts remain retained.
+A post-acquisition loss-cap check does not by itself yield conditional
+confidence among passing runs. The fixed-W data requirement above remains
+open; no additional dataset was acquired by this planning work.
+
 ## Practical RET direction retained
 
 The voltage-comparator pilot remains the practical application direction in

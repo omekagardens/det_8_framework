@@ -13,6 +13,7 @@ with unrelated changes to make an import succeed.
 | RI-25 qubit-and-record experiment | **Published in independently verified `9f463f2`.** Twelve isolated experiment files, three QR summaries and four coordinator records; final reviews, 61 tests per mode and 82 independent exported-data checks passed. | Preserve source pins; calibrated measured W remains external. No core/RET dependency is required by this standard-library experiment. |
 | RI-26 supplied-geometry observer model | **Published in independently verified `0fde8b2`.** Eleven isolated bundle files, three QR summaries and four coordinator records. Three final reviews, 51 tests per mode, 52 identical exports and 331 separate exported-data checks passed. | Preserve the eleven bundle identities and all 87 held predecessors. No core/RET dependency or automatic successor is opened. |
 | RI-27 published-model reproduction | **Published in independently verified `5e7f2f7`.** New combined guide and separate 23-file manifest, plus plan/progress/backlog. Independent inventory/packaging/recipe reviews and actual clean-archive replay passed. | Keep guide/manifest pins, all 98 prior accepted artifacts and the historical 71-file inventory fixed. |
+| RI-28 conditional acquisition budget | **Proof/design accepted; five-file publication candidate.** New qubit budget note plus four coordinator records. Complete mathematical/acquisition reviews and 617 supplementary exact arithmetic checks passed. | Publish this documentation scope; preserve all 100 accepted artifacts. A selected preregistered measured campaign remains separate. |
 | QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 design is published in verified `ad04963`. RI-18 is accepted and published in verified `ba12958`; its separate pinned integration and complete publication scope are recorded below. Preserve accepted sources and keep its 31 witnesses outside the 411-witness registry total. |
 | RI-02/RI-04 kernel and certificate repairs | Published in verified checkpoint `38be4c0c941c62329b9175883748d4e586b9745e`: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Maintain the numerical/research limits; review later changes against this source identity. |
 | RI-12 exact identifiability | Published in the same checkpoint: `identifiability.py` and its 108-case test file. The mathematical contract was already published. | A measured application still needs data and an evaluation objective. No RET or core prerequisite for this exact interface. |
@@ -456,3 +457,19 @@ and matched the accepted identities. All 76 local links and held/protected/
 unrelated preservation checks passed; normal push and separate remote lookup
 succeeded. The index is empty. Only plan/progress/backlog receive the final
 publication-status update; both new companions and all accepted source stay fixed.
+
+
+**RI-28 accepted acquisition-design note — five-path candidate**
+
+The [conditional budget](../experiments/QUBIT_ACQUISITION_BUDGET.md)
+connects the accepted qubit inference contract to sufficient fixed-count
+separation designs. It accounts for random training centers, loss and
+systematic floors, separate held-observation aims, reference uncertainty
+and unconditional error control with possible refusal. Full independent
+mathematical/acquisition reviews and 617 separate rational checks passed.
+
+The scope is the new note plus plan, progress, this backlog and data/follow-up
+note. No model, default plan, registry, historical inventory or QR summary
+changes. No experiment or hardware job was run. Source acceptance does not
+supply the missing reference/calibration/data or experiment-specific
+preregistration required before a measured campaign.

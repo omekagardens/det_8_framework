@@ -9,6 +9,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; the separately scoped RI-26 model is also independently accepted. |
 | RI-26 observer/signal model | **Independently accepted and published in verified `0fde8b2`.** Three final reviews passed. Root passed 51 isolated tests per mode, reproduced 52 identical worked exports and reconciled 331 independent exported-data checks. Eleven bundle identities are recorded below. | Preserve its eleven source identities and all 87 prior held identities. No successor or actualization-to-geometry rule is supplied. |
 | RI-27 published-model reproduction | **Accepted and published in verified `5e7f2f7`.** Independent inventory/packaging/recipe reviews and clean fixed-commit archive replay passed. Separate manifest covers 23 model files; exact extraction covers those plus checker and manifest. | Preserve the guide/manifest identities and all 98 prior accepted artifacts. No new model or QR successor. |
+| RI-28 qubit acquisition budget | **Conditional proof/design accepted.** Independent full mathematical and acquisition reviews passed. Random fitted-center shifts, systematic floors, loss-cap probability semantics and separately bound preregistration are explicit. Root passed 617 supplemental Fraction-only checks. | Publish the five-file note/coordination candidate. A measured campaign still needs data, justified reference/error bounds and a frozen acquisition contract; no QR successor. |
 | QR coordination / RI-05–08j and RI-16–19 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. RI-18 is published in verified `ba12958`. RI-19 proof/design is accepted: full classification, exact admission obstruction, matched-law stability and observation-rank results, with independent theorem/API review and 193 root native assertions. Published in independently verified `f6b8f18`; approximate execution remains unimplemented. Consolidation and operational-premise/application direction are the next coordinator decision. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
@@ -3503,3 +3504,62 @@ without changing the accepted guide, manifest, checker, models or historical
 inventory. No new tests or research are run for that administrative update.
 QR has no new source assignment; measured/application/feedback-law dependencies
 remain as documented.
+
+
+**RI-28 independent acceptance — conditional qubit acquisition budget**
+
+The follow-up read the current plan/progress/QR handoff and found QR idle
+after its completed publication acknowledgement, with no new source or
+theorem to review. Branch `ret`, upstream `origin/ret`, local HEAD and an
+independent remote lookup matched `6f0de705970a971a99962f1235f83e7f588949a8`,
+tree `a85a6c0e6783bbaa7249b2b71b598468a03f247b`. The index was empty.
+Entry snapshot: 100 held accepted files, six protected identities, 1,047
+tracked and 965 untracked file versions. Root reserved only the new budget
+note plus plan/progress/backlog/data note and informed QR; no QR source or
+summary reservation was opened.
+
+The [new proof/design](../experiments/QUBIT_ACQUISITION_BUDGET.md) uses
+RI-25's existing reference-center and frozen-band inequalities without
+changing any source or default parameter. The main sufficient condition is
+Δ>2(H++H−)+g++g−. It counts training uncertainty again when locating a
+random fitted band relative to the true reference probability. A physical
+Bloch-ball counterexample shows why the naive single-width condition fails.
+Separate endpoint arguments cover held completion-interval separation and
+exclusion of the other recipe's band; held loss is not silently folded into
+the accepted frozen-band algorithm.
+
+With the original common 0.01 calibration/drift budgets and εT=εW=e>0,
+the threshold is 7.6e+0.152+2.8LT. At nominal gap 0.36, the positive-e
+certificate needs LT<13/175; an 8% ceiling already has floor 0.376. This
+failure is not a physical impossibility or an empirical discrimination
+result. The reference gap remains an additional supplied premise; justified
+reference trace-distance errors reduce it separately from per-trial drift.
+
+The note derives N=ceil(15/(4e²)) from the exact inequality
+S32(15/2)>1800, which implies RI-25's unchanged S64 tail certificate at
+training allocation 1/900 and held allocation 1/300. Four sufficient designs
+use N=6,000, 9,375, 58,594 and 58,594 per stratum. All three recipes imply
+12N attempts, excluding serial controls, calibration and acquisition overhead.
+The fourth row assumes tighter 0.001 systematic budgets; data volume does
+not establish them. No runtime, cost, loss-cap attainment probability or
+conditional-on-passing confidence is inferred.
+
+Independent full mathematical and acquisition-design reviews accepted the
+proof, count table, physical counterexample, loss-cap/fixed-stopping semantics
+and preregistration boundary. Root's separate Fraction-only script passed
+617 assertions over exact count/slack/positive-series arithmetic and
+asymmetric endpoint inequalities on a rational corner grid. It imported no
+experiment source and ran no simulator, historical suite, calibration bank
+or acquisition. These supplemental checks are not registered witnesses; the
+proofs do not rely on a grid search. The final one-word clarification states
+positive e explicitly for the count formula. Final note SHA256:
+`2fc21051e5285596ad6ae5d49d2b1f978f94ad69d3811f0e73bd3dcdc1a13d28`.
+
+The failure guarantee concerns false conclusions together with passing
+predeclared caps; it is not automatically a conditional confidence level
+among selected runs. Existing plan fingerprints omit the caps, reference-gap
+premise, separation rule and extra calibration failure allocations. A future
+experiment must bind those separately, alongside its new plan and accepted
+source identities. All attempts remain retained. The five-path candidate
+contains the new note and four coordinator Markdown records; measured data,
+RET prerequisites and an explicit geometry-feedback law remain open.
