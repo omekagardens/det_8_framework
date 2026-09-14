@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j and RI-16–17 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`; RI-18 implementation is assigned and active. Root owns subsequent pinned launcher integration and acceptance. |
+| QR coordination / RI-05–08j and RI-16–18 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`; RI-18 is active. Root launcher infrastructure passed 62 isolated fixture/refusal cases and provisional review. Final artifact pins and actual protocol execution await QR acceptance. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for nineteen suites.** Cumulative411 witnesses/34 executable sources: prior384 source-bound results with unchanged pins plus27 new RI-16 checks per mode. Full preflight and43 isolated registry regressions pass. | Preserve execution boundaries;411 is not a fresh all-suite replay. RI-15 remains separate; the deferred claims endpoint remains its explicit18-reference subset. |
@@ -14,7 +14,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest application checkpoint: [f8339ea](https://github.com/omekagardens/det_8_framework/commit/f8339ea4a4ce886ddc4513d989a2cecbad9d8dca). Latest QR checkpoint: `22eca4e`; synthesis: `50d652f`; research/identifiability repairs: `38be4c0`. All pushed normally to `origin/ret` and independently verified. Root owns git/index. | Continue scoped publication after review, preserving QR reservations and the deferred baseline. |
+| Remote checkpoints | Latest application checkpoint: [f8339ea](https://github.com/omekagardens/det_8_framework/commit/f8339ea4a4ce886ddc4513d989a2cecbad9d8dca). Latest QR design checkpoint: `ad04963`; QR theorem checkpoint: `22eca4e`; synthesis: `50d652f`; research/identifiability repairs: `38be4c0`. All pushed normally to `origin/ret` and independently verified. Root owns git/index. | Continue scoped publication after review, preserving QR reservations and the deferred baseline. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -2295,3 +2295,81 @@ regression work for integration after the public callable contract is stable.
 The author must report imports, source pins and actual normal/optimized
 checks, obtain independent proof/source reviews and stop for acceptance.
 No further permission request or automatic broader successor is implied.
+
+
+**Heartbeat: RI-18 launcher infrastructure and an answerability consequence**
+
+The coordinator read the current plan, progress and QR handoff, confirmed
+branch `ret`/upstream `origin/ret` at verified `d72d430`, and inspected the
+empty index and existing dirty baseline. Quantum Relativity is actively
+implementing the assigned three-file RI-18 bundle with independent native
+arithmetic and proof work. No duplicate assignment or successor was sent.
+Root confirmed the six aliases/import boundary and reserved only its two
+new launcher/regression paths. Active QR source and summaries remain excluded
+from this coordinator publication.
+
+Root's launcher implementer produced a separate fixed six-alias source
+contract using the unchanged pinned research runner. Four published executable
+dependencies and their statements are bound, along with the accepted design;
+new RI-18 adapter/check/statement identities are explicitly pending. Pending
+identity refuses both inventory and execution before loading those artifacts.
+Synthetic fixtures replace only the new protocol/check and statement data;
+they load the actual published c/d/RI-15/i modules under the agreed aliases.
+Assertions verify bridge.c and bridge.d are the same module instances used
+by the new import graph.
+
+Independent read-only review of both complete launcher/test sources found no
+provisional infrastructure blocker. Root also read both files and captured
+them over published base `d72d430` in an isolated checkout. That candidate
+passed **62 focused pytest cases in 2.54 s**. These include normal/optimized
+fixture children, six-source execution/hash accounting, fixed alias/statement
+refusals, absent or skipped execution, malformed child results, captured-byte
+execution after disk replacement, endpoint drift and no generated fixture
+files/caches. The author also passed Ruff lint/format checks. These 62 cases
+include pending-production refusal tests; they are not a new protocol witness
+count and do not establish RI-18 execution.
+
+| Provisional root source; not published in this checkpoint | SHA-256 |
+|---|---|
+| `scripts/run_qr_finite_protocol.py` | `27a3df7ebbcc9b1833b6e75d1f20702cbf8097cc08d79dd4de1bb32c9eddc9ff` |
+| `det8/tests/test_qr_finite_protocol.py` | `bc8dec78d9f57f4015e9175f4f7f0ebe81da99fd1fe3b00d7b3f4b31d5e8bff5` |
+
+Final integration still requires the QR callable/import contract, independent
+proof/source acceptance, reviewed adapter/check/statement hashes, exact
+actual witness-count assertions and normal/optimized execution of all six
+real sources. Neither source identity nor endpoint drift checks establish an
+atomic filesystem capture or a sandbox for hostile code. The accepted general
+runner and old four-alias launcher remain unchanged.
+
+A separate coordinator application review derived and documented the chosen
+protocol's information boundary in the [application plan](APPLICATION_WORK_PLAN.md).
+On the full local span (m,x,y,z,Re c,Im c), the complete scalar outcome law is
+((m+y)/2) k0 direct-sum ((m-y)/2) k1. The fixed continuation laws are complete
+and have disjoint retained-r labels. Hence its linear rank is exactly two,
+its kernel is m=y=0, and normalized output-law total variation is exactly
+|delta y|/2. This statement excludes pre-existing source audit data and does
+not condition an actual zero-probability event. A lawful opposite-X pair
+with different complex-c payloads demonstrates positive-domain ambiguity.
+At y=+/-1 positivity gives exceptional singleton fibers, not general tomography.
+
+Root passed **172 exact supplemental assertions** using the full 66-coordinate
+table, the accepted c model and the published identifiability helper, including
+reference probabilities 0, 1/3, 2/3 and 1, rank/nullspace certificates, distance
+identities and a lawful distinct-raw/quotient pair with identical Y branches.
+A separate mathematical reviewer accepted the proof and reported 68 exact
+scalar-table checks plus independent native-branch checks. Root incorporated
+its two wording refinements: define continuations from supplied reset states
+rather than impossible conditioning, and call an X question one sufficient
+separating experiment rather than a uniquely necessary one. These checks
+supplement the written argument; no registered witness total is increased.
+
+The accepted c source is pinned at
+`173ad68ab8be40036a28e2806bfdb03dde8bd42030772a41084736d31e05fb86`;
+the identifiability helper at
+`136588b80cc9d1935137c81885dc26446947dc52f81c120a0652a75b7fb268d9`.
+Its bounded row solver receives the at most eighteen nonzero rows; the full
+scalar table still retains all structurally zero outcome labels. The finding
+was sent to QR for the new proof's limitation section without changing the
+accepted design or executor scope. Completing RI-18 can establish finite
+accounting; downstream observations after the reset cannot recover the lost
+initial coordinates. Measured apparatus/application benefit remains separate.

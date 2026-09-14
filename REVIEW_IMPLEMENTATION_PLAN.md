@@ -51,7 +51,7 @@ Active file reservations following the first implementation cycle:
 | Owner | Reserved files |
 |---|---|
 | QR task | After verified design publication: only the three RI-18 bundle paths specified below and the three existing QR maps/handoff. The accepted RI-17 plan, prior bundles and synthesis remain stable. |
-| Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/APPLICATION_WORK_PLAN.md` and maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md` |
+| Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/APPLICATION_WORK_PLAN.md`, maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md`, and RI-18 integration in new `scripts/run_qr_finite_protocol.py` plus `det8/tests/test_qr_finite_protocol.py`. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -125,7 +125,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 
 | RI-17 | Finite protocol composition design | QR, with coordinator review | **Accepted design.** One complete finite policy, exact probability/type adapters, 66-coordinate fixture and refusal requirements passed mathematical/API review. Design evidence creates no new executable or witness count. |
 
-| RI-18 | Implement the accepted finite composition contract | QR bundle; coordinator launcher/integration | **Assigned after verified `ad04963` publication.** Build only the accepted finite weighted trace and lossless preterminal adapter. Independent exact source/proof checks and isolated pinned execution precede acceptance. |
+| RI-18 | Implement the accepted finite composition contract | QR bundle; coordinator launcher/integration | **Assigned after verified `ad04963` publication; QR implementation active.** Root launcher infrastructure passed independent review and 62 isolated fixture/refusal cases. Its three new source pins remain pending; this is not RI-18 execution or acceptance. Independent exact source/proof checks and isolated pinned execution precede publication. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -371,6 +371,15 @@ history coordinate only if held-out utility supports it. A real-data pilot
 requires a suitable source, license, units, timestamps, acquisition context,
 conventional baselines and held-out evaluation; absent data is a named
 dependency, not permission to call synthetic data measured.
+
+The current QR composition also has a proved application boundary: its fixed
+first Y branch makes the complete scalar outcome law depend only on initial
+mass and Y expectation. The rank-two span map and exact normalized total
+variation identity are recorded in the
+[application plan](docs/coordination/APPLICATION_WORK_PLAN.md). Original source
+audit anchors are not additional observations. Full accounting in RI-18 does
+not provide initial-state tomography; a different pre-reset question requires
+its own supplied operation and fresh-source premises.
 
 **Recurring follow-through**
 

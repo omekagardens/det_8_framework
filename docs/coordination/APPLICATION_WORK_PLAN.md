@@ -283,3 +283,79 @@ objectives and closure for a separate evaluation contract: a four-record
 held-out arithmetic example is not a completed application acceptance test.
 Target-optimal action choice, policy superiority, measured calibration and
 G2 completion remain unestablished. Coordinate ownership before SDK changes.
+
+
+**Answerability of the fixed QR composition policy**
+
+14 September 2026 UTC. A coordinator consequence of the accepted
+[finite composition design](QR_PROTOCOL_COMPOSITION_PLAN.md), independent of
+whether its RI-18 executor is complete. Fix the declared apparatus, independent
+reference law and outcome-only command table. Consider only the complete
+66-coordinate **scalar outcome law**, not the audit envelopes that retain the
+already supplied original source. The latter are not new observations of an
+unknown initial state.
+
+Write an unnormalized local span element as D(rho^T/2,c), with
+rho=(m I+x X+y Y+z Z)/2 and complex c=u+iv. The real span has coordinates
+(m,x,y,z,u,v). The accepted
+[local branch formula](../validation/t8-q-repeatable-record-instrument-2026-09-13/model.py)
+is B_r(D)=[(m+(-1)^r y)/2] J2(Q_Y,r). Thus, for each positive selected branch, every subsequent normalized
+state and conditional read/stop law depends only on r and the fixed supplied
+apparatus. It is independent of the initial x,z,u,v. The actual first branch
+causes this loss; using a lawful branch into C0 does not preserve all earlier
+state information.
+
+Let k_r be the fixed complete normalized continuation law from V_Z J2(Q_Y,r),
+including reference-unavailable stops. This defines the continuation of the
+supplied reset source, not conditioning a particular input on an impossible
+event. Zero local or reference weights retain zero scalar coordinates and
+produce no selected state or record. The final scalar law is
+
+    P_D = ((m+y)/2) k_0  direct-sum  ((m-y)/2) k_1.
+
+The two components have disjoint labels because every possible final read or
+stop retains r. Each k_r has total mass one for any fixed complete reference
+law, including readiness probabilities zero and one. Consequently the linear
+map on the full six-dimensional span has **rank exactly two**, with kernel
+m=y=0. On normalized inputs only the initial Y expectation varies. For two
+normalized lawful inputs D and E,
+
+    TV(P_D,P_E) = |y_D-y_E|/2.
+
+The equality follows by summing the absolute differences separately over the
+two disjoint r components. It is not just a contraction bound. Summing each
+component recovers (m+y)/2 and (m-y)/2, so mass and y are exactly recoverable
+from the exact law. Conditional on the observed r, downstream outcomes carry
+no further information about the initial state under these fixed premises.
+These are statements about probability laws; one realized r does not determine
+y, and no finite-sample uncertainty guarantee follows. At the exceptional
+endpoints y=+/-1, positivity forces x=z=c=0; those singleton fibers do not
+provide general state tomography.
+
+A lawful counterexample uses rho_+=(I+X/2)/2, c_+=1/20 and
+rho_-=(I-X/2)/2, c_-=i/20. Both A=rho^T/2 have eigenvalues 3/8 and 1/8,
+so A>=|c|I. Their raw kernels and qubit quotients differ, but both have y=0
+and exactly the same unnormalized Y-branch outputs. Every later scalar outcome
+probability in this fixed protocol therefore coincides. This is an ambiguity
+inside the positive normalized domain, not just an unrestricted linear-span
+null direction.
+
+The published [identifiability helper](../../det8/applied_physics/identifiability.py)
+certifies the two observed marginal rows
+(1/2,0,1/2,0,0,0) and (1/2,0,-1/2,0,0,0): it identifies mass and y and
+returns exact null directions for x,z,u,v. Coordinator exact checks also used
+the explicit full 66-coordinate design table: its at most eighteen nonzero
+rows were submitted to the bounded helper, while all forty-eight structurally
+zero read labels remained in the full law. This algebraic row reduction does
+not authorize dropping outcomes from a protocol record.
+
+The practical consequence is precise: RI-18 can establish complete finite
+probability/type accounting for this chosen route; it cannot establish
+initial-state tomography. One sufficient separating experiment for the displayed opposite-X inputs
+is a separately declared X question on an available fresh source before the
+Y reset. More downstream readings of the already reset source
+cannot fix this loss. Arbitrary c remains outside the quotient-only local
+instrument catalogue. Apparatus validation or estimation of an unknown
+reference/read parameter asks a different question and needs its own
+calibration, availability and evaluation premises. No measured benefit or new
+apparatus implementation is inferred here.
