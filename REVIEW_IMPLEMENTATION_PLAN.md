@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active coordination program. RI-25/26 models and RI-27 reproduction handoff are published. RI-28 is independently accepted as a conditional acquisition-budget proof/design: random-center uncertainty, separate held-loss objectives, systematic floors and fixed-count examples are explicit; scoped publication is next. All 100 prior accepted artifact identities remain fixed. Calibrated measured W, practical RET prerequisites and an explicit actualization-to-geometry law remain open. No QR source reservation or automatic theorem successor is active. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026. **Active coordination program. RI-25/26 models and RI-27 reproduction handoff are published. RI-28 is independently accepted as a conditional acquisition-budget proof/design: random-center uncertainty, separate held-loss objectives, systematic floors and fixed-count examples are explicit; it is published in verified `829417d`. All 100 prior accepted artifact identities remain fixed. Calibrated measured W, practical RET prerequisites and an explicit actualization-to-geometry law remain open. No QR source reservation or automatic theorem successor is active. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -51,7 +51,7 @@ Active file reservations following the first implementation cycle:
 | Owner | Reserved files |
 |---|---|
 | QR task | No active implementation reservation. RI-26's eleven-file observer/signal bundle is accepted and source-quiet; it is published in verified `0fde8b2`. RI-25's twelve-file bundle and all 87 prior held identities remain fixed. No successor is assigned. |
-| Coordinator directly | This plan, progress, publication backlog and data/follow-up note; new RI-28 `docs/experiments/QUBIT_ACQUISITION_BUDGET.md`; exact scoped git/index operations. No changes to accepted models, reproduction companions, historical inventories, QR summaries, application plan or unrelated baseline. |
+| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. No source reservation or successor is active. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -133,7 +133,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-25 | Qubit-and-record worked experiment with withheld predictions | QR implementation; coordinator review | **Independently accepted and published in verified `9f463f2`.** The [complete experiment](docs/experiments/qubit_record_v1/EXPERIMENT.md) explicitly adopts Born/Lüders physics and supplies the C0 representation, all-attempt records, separate uncertainty budgets and frozen W evaluation. Final math/source/data reviews passed; root passed 61 isolated tests in each mode, 12 identical worked exports and 82 independent record/prediction/score reconciliation checks. This is a conditional model and simulation; calibrated measured W remains open. |
 | RI-26 | Observer/signal model in supplied geometries | QR implementation; coordinator review | **Independently accepted and published in verified `0fde8b2`.** Complete specification, exact kinematics, bounded local clocks, retained emission/reception records, receiver-only inference, simulator and worked controls. Three final reviews, 51 isolated tests per mode, 52 identical exports and 331 independent exported-data checks passed. Supplied geometry remains a premise; no feedback law or measured validation is supplied. |
 | RI-27 | Reproduce the two published small models from a clean archive | Coordinator; independent review | **Accepted and published in verified `5e7f2f7`.** Separate 23-file manifest anchored to verified `2529bfd`, an independently reviewed recipe and exact 25-file extraction with separately pinned checker. Replayed 61 qubit and 51 observer tests per mode; 12/52 export files match; before/after integrity and all extracted source hashes match. No accepted source or historical inventory changes. |
-| RI-28 | Conditional qubit acquisition and separation budget | Coordinator; independent review | **Proof/design accepted; scoped publication next.** Proves sufficient disjoint frozen-band, completion-interval and wrong-band-exclusion conditions with random fitted-center uncertainty and loss floors. Four exact fixed-N examples and 617 supplementary rational checks passed; full mathematical and acquisition-design reviews accepted. This is planning under a supplied reference gap and justified error bounds, not measured power or a selected acquisition. |
+| RI-28 | Conditional qubit acquisition and separation budget | Coordinator; independent review | **Proof/design accepted and published in verified `829417d`.** Proves sufficient disjoint frozen-band, completion-interval and wrong-band-exclusion conditions with random fitted-center uncertainty and loss floors. Four exact fixed-N examples and 617 supplementary rational checks passed; full mathematical and acquisition-design reviews accepted. This is planning under a supplied reference gap and justified error bounds, not measured power or a selected acquisition. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -883,3 +883,14 @@ calibration evidence. Caps are fixed before acquisition; violations retain
 all attempts and leave this separation certificate inconclusive. No source
 change, new experiment, data acquisition, RET work or QR successor is assigned.
 The publication scope is the new note and four coordinator records.
+
+
+RI-28 is published in independently verified
+[829417d29a4b0c25b2c3f9562dc3d887c7f529e7](https://github.com/omekagardens/det_8_framework/commit/829417d29a4b0c25b2c3f9562dc3d887c7f529e7),
+tree `ebe394724dfe78ef0527cbf659b9c083183dfa67`. Exact five-path staged identities,
+83 local Markdown targets, all 100 prior held/six protected identities and
+2,008 unrelated file versions passed preflight. Normal push and separate
+`origin/ret` lookup succeeded; the index was empty afterward. The accepted
+proof and data-note update remain fixed. The final three-record update
+records publication. Further measured work needs the documented data,
+reference/calibration evidence and separately bound acquisition plan.
