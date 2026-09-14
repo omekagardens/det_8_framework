@@ -10,7 +10,7 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-25 qubit-and-record experiment | Approved direction and data/readiness note published in verified `1904393`; the isolated QR implementation is still under review. | Publish only after quiet-source acceptance, isolated checks and actual worked-run reconciliation. Genuine calibrated W data remain an external dependency. |
+| RI-25 qubit-and-record experiment | **Independently accepted; nineteen-path publication candidate ready.** Twelve isolated experiment files, three QR summaries and four coordinator Markdown records. Final reviews and root 61-test normal/optimized replay plus 82 exported-data checks passed. | Stage only accepted identities and verify the remote commit. A calibrated measured W batch remains external; no core/RET dependency is required by the standard-library experiment. |
 | QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 design is published in verified `ad04963`. RI-18 is accepted and published in verified `ba12958`; its separate pinned integration and complete publication scope are recorded below. Preserve accepted sources and keep its 31 witnesses outside the 411-witness registry total. |
 | RI-02/RI-04 kernel and certificate repairs | Published in verified checkpoint `38be4c0c941c62329b9175883748d4e586b9745e`: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Maintain the numerical/research limits; review later changes against this source identity. |
 | RI-12 exact identifiability | Published in the same checkpoint: `identifiability.py` and its 108-case test file. The mathematical contract was already published. | A measured application still needs data and an evaluation objective. No RET or core prerequisite for this exact interface. |
@@ -363,3 +363,23 @@ push and independent remote-ref lookup succeeded. QR's active source and its
 three summaries remain outside this publication and await completed review.
 The next coordinator status checkpoint changes only root plan, progress and
 this backlog, preserving the published data note and the active QR reservation.
+
+
+**RI-25 accepted implementation — complete publication candidate**
+
+The returned twelve-file experiment is source-quiet and independently accepted.
+Runtime and focused validation need only Python 3.11+ standard-library modules;
+the minimal candidate imports no core/RET or accepted predecessor executor.
+Root's normal/optimized 61-test runs and separate worked executions passed;
+all twelve exports matched across modes and 82 independent export checks
+reconciled records, predictions and scores. Exact accepted bundle pins appear
+in the progress record. The statement and three summaries retain the adopted-
+physics, simulation-only, conservative-band and measured-data boundaries.
+
+The nineteen-path scope adds those twelve files and changes three QR summaries
+plus root plan, progress, this backlog and the data/follow-up note. The latter
+only records primary acceptance and links to the worked specification; its
+source/data findings remain unchanged. No generated trial dataset, registry
+entry, public-core/RET source or predecessor artifact is included. Publication
+will use the exact tested executable/schema bytes. The measured W acquisition
+gap and comparator prerequisites are not discharged by this synthetic result.

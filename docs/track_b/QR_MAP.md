@@ -1,5 +1,42 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+14 September 2026 UTC, independently accepted ordinary-qubit retained-record experiment: the
+[RI-25 bundle](../experiments/qubit_record_v1/EXPERIMENT.md) implements the
+user-approved restricted physical-model interface. Trace-one qubits, complex
+Hilbert space, Born effects, X/Y/Z/W availability and Lüders updates are
+explicitly adopted. J2(rho)=diag(rho^T/2,Zp rho^T Zp/2) has total-entry mass
+one and Phi J2=rho, with the Y transpose sign intact; the original rho has
+mass 1+rx and is not inserted into RI-23's unchanged mass-one set. This is a
+C0 mathematical embedding, not a four-cell L_t apparatus or a DET-native
+QM derivation. No accepted predecessor is changed.
+
+Fresh XYZ attempts fit a state/compatibility set before an oblique W is
+revealed. Every attempted binary-read/erasure record remains in the total N;
+unknown failures refuse inference. A fixed-stratum confidence allocation,
+separate calibration/drift budgets and exact box/ball feasibility produce
+conservative state and W intervals without repairing nonphysical midpoints.
+In the worked cases XZ alone keeps opposite-Y alternatives and no invented phase point. Serial
+Lüders controls retain prior records, stop after an erased outcome, and report
+actual probability-zero observations as mismatches. Generator truth/RNG stay
+outside the observable/fit interface; nominal IDs do not encode seeds.
+
+The default synthetic run retained 4,608 training and 1,536 held attempts;
+all held completion intervals overlap their frozen bands. The phase-pair
+bands also overlap, so finite-count W separation is not established. The
+same-record conventional linear-inversion baseline gives identical points;
+no DET accuracy advantage or physical validation is claimed. Actual focused
+normal/optimized checks and source review are recorded in the
+[handoff](../coordination/QR_HANDOFF.md). The calibrated measured-W dependency
+is separate; this assignment stops at review/publication handoff, with no
+new lettered gate, native F/L, geometry/mass/gravity claim or automatic successor.
+
+Coordinator final source acceptance and isolated 61-test normal/optimized
+replay are complete, with twelve matching worked exports and 82 separate
+record/prediction/score reconciliation checks. Publication is the next scoped
+coordinator step; all twelve bundle files retain their accepted identities.
+
+The earlier entries below retain their historical acceptance/scope statements.
+
 14 September 2026 UTC, composition-independence countermodel: the
 [RI-22 note](../coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md) proves that
 the class D=R+iJ, R real PSD and J real antisymmetric, is closed under

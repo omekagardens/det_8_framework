@@ -3,6 +3,31 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**RI-25 restricted operational interface, independently accepted:** the
+[ordinary-qubit experiment](../experiments/qubit_record_v1/EXPERIMENT.md)
+adopts Born/Lüders laws and calibrated XYZ plus withheld W availability.
+Its exact normalized J2/Phi embedding preserves the full C0 payload and Y
+transpose sign; it does not claim that ordinary apparatus realizes L_t or
+its higher-dimensional observation theorem. Full-attempt erasure accounting,
+fixed global confidence budgets, calibration/drift separation and physical
+point-refusal rules connect retained records to conservative predictions.
+The conventional same-data baseline is identical. The small simulation's
+phase-pair W bands overlap: exact model separation is not empirical or
+finite-count population separation. Partial XZ access need not resolve Y;
+serial disturbance does not erase previously retained records.
+
+This completes one user-authorized qubit/record implementation obligation,
+not the missing native F/L or geometry map. Calibrated measured W data,
+the practical RET comparator and observer-in-supplied-geometry exploration
+remain separately coordinated in the
+[data/follow-up note](../coordination/QUBIT_DATA_AND_FOLLOWUP.md).
+None starts automatically here. In particular, Hilbert space and states are
+inputs of RI-25, so it cannot pass the primitive-input test as a native
+quantum-to-Lorentzian derivation. Option B, Status M, the frozen QR-MAP
+constraints, and the separate physical mass/Einstein/gravity obligations are
+unchanged. Final coordinator source review and isolated normal/optimized replay are
+complete; scoped publication remains the coordinator's next step; no QR-05 lettered, coverage or noncollapse sequel opens.
+
 **RI-22 composition-independence countermodel, proof/design only:** the
 [new note](../coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md) locates a
 missing premise upstream of RI-20/21. An alternative associative product on

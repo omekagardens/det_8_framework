@@ -7,6 +7,11 @@ record format and withheld-setting prediction check. **No evaluated dataset
 has yet met the measured-data requirements for that experiment.** This does
 not block its independent mathematical specification or simulator.
 
+The [complete worked qubit model](../experiments/qubit_record_v1/EXPERIMENT.md)
+is now independently accepted, with isolated execution and source identities
+recorded in the [progress record](REVIEW_PROGRESS.md). Its simulation does not
+change the measured-data readiness assessment below.
+
 ## Model choice and the experimental question
 
 Adopt trace-one qubit states, explicitly available bounded Born effects and

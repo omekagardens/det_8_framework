@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RI-25 observable attempted acquisition, version 1",
+  "description": "Structural JSON contract. records.py additionally checks command/record precursor chains, exact prefix length, split continuity and context consistency. No truth or inferred state fields are allowed.",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "text": {"type": "string", "minLength": 1, "maxLength": 256},
+    "setting": {"enum": ["X", "Y", "Z", "W"]},
+    "command": {
+      "type": "object", "additionalProperties": false,
+      "required": ["command_id", "precursor_id", "setting", "kind"],
+      "properties": {
+        "command_id": {"$ref": "#/$defs/text"},
+        "precursor_id": {"$ref": "#/$defs/text"},
+        "setting": {"$ref": "#/$defs/setting"},
+        "kind": {"const": "projective_measure"}
+      }
+    }
+  },
+  "required": ["schema_version", "record_id", "trial_id", "preparation_id", "recipe_id", "session_id", "split", "step", "precursor_id", "commands", "setting", "frame_id", "calibration_id", "provenance", "acquisition_model", "preparation_status", "status", "measurement_occurred", "outcome", "reason"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "record_id": {"$ref": "#/$defs/text"},
+    "trial_id": {"$ref": "#/$defs/text"},
+    "preparation_id": {"$ref": "#/$defs/text"},
+    "recipe_id": {"$ref": "#/$defs/text"},
+    "session_id": {"$ref": "#/$defs/text"},
+    "split": {"enum": ["training", "heldout", "sequential"]},
+    "step": {"type": "integer", "minimum": 0},
+    "precursor_id": {"$ref": "#/$defs/text"},
+    "commands": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/command"}},
+    "setting": {"$ref": "#/$defs/setting"},
+    "frame_id": {"$ref": "#/$defs/text"},
+    "calibration_id": {"$ref": "#/$defs/text"},
+    "provenance": {"$ref": "#/$defs/text"},
+    "acquisition_model": {"$ref": "#/$defs/text"},
+    "preparation_status": {"enum": ["successful", "failed", "unknown"]},
+    "status": {"enum": ["detected", "missing", "failed"]},
+    "measurement_occurred": {"type": "boolean"},
+    "outcome": {"enum": [-1, 1, null]},
+    "reason": {"type": ["string", "null"], "minLength": 1, "maxLength": 256}
+  },
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "detected"}}},
+     "then": {"properties": {"measurement_occurred": {"const": true}, "outcome": {"enum": [-1, 1]}, "reason": {"type": "null"}}}},
+    {"if": {"properties": {"status": {"const": "missing"}}},
+     "then": {"properties": {"measurement_occurred": {"const": true}, "outcome": {"type": "null"}, "reason": {"const": "outcome_erased"}}}},
+    {"if": {"properties": {"status": {"const": "failed"}}},
+     "then": {"properties": {"outcome": {"type": "null"}, "reason": {"$ref": "#/$defs/text"}}}}
+  ]
+}

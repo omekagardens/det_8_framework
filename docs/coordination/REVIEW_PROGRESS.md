@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-25 qubit-and-record experiment | **Direction and data-readiness checkpoint published in verified `1904393`; implementation in review.** QR owns the isolated simulator/specification/record/inference bundle. Provisional independent review repaired record-identity and preparation-status gaps and found no remaining mathematical blocker in inspected drafts. | Receive quiet source hashes, complete independent review and isolated normal/optimized replay, reconcile exported records/predictions, then publish the accepted bundle. Public XYZ data do not supply a measured withheld W batch. |
+| RI-25 qubit-and-record experiment | **Independently accepted.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Publish the exact accepted bundle and coordinator records. Calibrated measured W remains open; the secondary supplied-geometry model follows under its own reservation. |
 | QR coordination / RI-05–08j and RI-16–19 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. RI-18 is published in verified `ba12958`. RI-19 proof/design is accepted: full classification, exact admission obstruction, matched-law stability and observation-rank results, with independent theorem/API review and 193 root native assertions. Published in independently verified `f6b8f18`; approximate execution remains unimplemented. Consolidation and operational-premise/application direction are the next coordinator decision. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
@@ -3190,3 +3190,92 @@ The secondary observer/signal review prepared a supplied-geometry model with
 explicit reception and horizon boundaries; implementation remains queued
 after primary publication. This update records current work and publication
 identity without accepting unfinished QR output.
+
+
+**RI-25 final source-quiet implementation independently accepted**
+
+The interim coordinator-status checkpoint is independently verified
+[b9aa82771fdd5c870c5172512163db2d55e08366](https://github.com/omekagardens/det_8_framework/commit/b9aa82771fdd5c870c5172512163db2d55e08366),
+tree `9c278b4b66a74ff874f26350e0087100ce200b32`. Exactly root plan, progress
+and backlog changed; 55 local links and held/unrelated preservation checks
+passed. The normal push and independent remote lookup succeeded.
+
+QR returned exactly twelve new files and its three reserved summaries, then
+stopped source-quiet. Root verified every returned hash, independently reviewed
+the complete mathematical specification, inference, record/simulator data flow
+and claims, and accepted the conditional model/implementation. The QR owner
+and its independent reviewers also found no remaining blocker. This is source
+acceptance, not physical validation or acceptance of an unsupplied premise.
+
+The accepted contract explicitly adopts trace-one qubits, Born probabilities
+and available X/Y/Z/W instruments. J2(rho)=D(rho^T/2,0) preserves total-entry
+mass one and trace distance, with the transpose/Y sign and full-image inverse
+checked. It does not put rho into RI-23's different mass-one domain, realize
+the four-cell L_t apparatus or derive QM from primitives. All attempted
+binary-read/erasure records count toward inference; separate calibration,
+drift and finite-count budgets support conservative exact bounds.
+
+The nearest-zero box witness proves feasibility; nonphysical empirical
+midpoints remain refused as physical point estimates. XZ-only records retain
+explicit opposite-Y alternatives in the worked cases. The uncertainty-aware
+W prediction is frozen before held outcomes are generated/scored. The same-data
+conventional linear-inversion comparator gives equal points by construction.
+Sequential controls retain earlier information, stop after unresolved reads
+and preserve impossible-outcome mismatches. Neither labels nor frozen objects
+authenticate externally supplied data.
+
+**Independent root execution and exported-artifact audit.** A minimal copied
+candidate containing only the isolated bundle passed all 61 focused tests
+with `-I -S -B` in 0.653 s and `-I -S -B -O` in 0.650 s on Python 3.11.6.
+The 61 comprise 21 exact qubit/bridge, 12 record, 18 inference and 10 worked
+checks. The two modes repeat the same tests; they do not constitute 122
+independent results or increase the historical 411-witness registry total.
+
+Separate direct normal/optimized worked CLI executions produced byte-identical
+contents across all twelve export files outside the checkout. Each retained
+4,608 training attempts (372 erased) and 1,536 W attempts (119 erased). Root's
+independent export audit passed 82 checks reconciling raw counts, unique fresh
+preparations, erasure completion bounds, feasible witnesses, frozen intervals,
+conventional points, held scores, XZ alternatives and serial controls. The
+reported prediction digest is
+`49b2217760a9fac5a508ced52d8c86399107f3fedb91d859c08705d725202820`;
+the exported summary file SHA256 is
+`72aca957a52cf5fc1024fdd4773ca5a6172280de9de2229bf1bf389d8d0084bb`.
+Canonical content digests and newline-terminated file hashes have distinct
+meanings. All three held completion intervals overlap their frozen bands;
+the phase-pair bands overlap each other, so finite-count W separation is
+not established. This verifies the stated simulation/accounting behavior.
+
+All eleven executable/test/schema files match the tested candidate exactly.
+The final statement differs from the independently reviewed mathematical
+version only by interpreter instructions/version and validation metadata;
+root and documentation/data reviewers verified that delta. The earlier
+80+33 draft mathematical assertions remain separate review evidence. No
+predecessor research suite, RET bank or broad working-tree test was replayed.
+
+Accepted bundle SHA256 identities:
+
+| File in `docs/experiments/qubit_record_v1/` | SHA256 |
+|---|---|
+| EXPERIMENT.md | `7ae44253f76ccd1b366ff404f0115e8ccfe607cfa4fdcbd252328b0d2d8e374b` |
+| inference.py | `fc6aa7248b40dcc11cc5ef6aa8b5a282378ac2daf9c6e45b0c953f7279e9865c` |
+| qubit.py | `c0095f9a753568b29dd7ddb8560ff386404ffefe9820a52a30a96b577aabb960` |
+| records.py | `ff806c033e3412459a10deb48938824010e8aac5d47c1ca202eee342e85b98f1` |
+| run_checks.py | `81fb14b73b5e61dc737bf4a8f1369d5e6f95deb30a60e5bb53cb0e8be7c9e59e` |
+| simulator.py | `ee04fdf1692c10b7e332da425e8f2c5af71a2bcc5beaa41c5266cf827856b816` |
+| test_inference.py | `dabd16c7f9272c17caa24d58cef07823b06260fa28ca6bf053141210cc887d97` |
+| test_qubit.py | `6800b33e0f5eecdde64d9de0218f739c40d2fad1015b1f117d8612ca5cf53006` |
+| test_records.py | `fc693c24515abffd77d4a3ce57f7baf3c5cc13d7163985f20a5ff1a3f19238df` |
+| test_worked.py | `4e8772509d49c1b0b38726ea96e620cca2600a1ed73d15e666e86a3f30594537` |
+| trial_record.schema.json | `db296afca116a128fecabfcb78529fe50c836e032ba4b98ae7597cc70cb0bc8b` |
+| worked_example.py | `0bca33afe5353bad28e6110c4f847ea3290dc73b9bc5e2d696b3683d8e49d37d` |
+
+The three QR summaries receive only coordinator acceptance metadata after
+this returned-source review. Their scientific content remains as reviewed.
+The publication candidate is exactly nineteen paths: the twelve-file bundle,
+three summaries and four coordinator Markdown files. All 75 held predecessors,
+six protected identities and unrelated baseline are preserved. Calibrated
+measured W remains an explicit dependency in the data note; a calculated
+W value cannot fill it. The next supplied-geometry model will be separately
+scoped after primary publication, without an invented actualization law or
+changes to the qubit source.

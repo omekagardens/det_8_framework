@@ -1,4 +1,108 @@
-# QR research handoff — scalar independence and composition countermodel
+# QR research handoff — qubit records and withheld prediction
+
+14 September 2026 UTC. **RI-25 CONDITIONAL_QUBIT_RECORD_EXPERIMENT;
+COORDINATOR_CONDITIONAL_MODEL_AND_IMPLEMENTATION_ACCEPTED.** The
+[standalone specification](../experiments/qubit_record_v1/EXPERIMENT.md)
+and isolated bundle implement the user-approved ordinary-qubit interface.
+The only other edited paths are this handoff and the two QR maps. The 75 held
+predecessor/RI-24 identities remain unchanged. No git/index operation, registry
+addition, core/RET/bank edit or predecessor-suite replay belongs to this work.
+Coordinator owns acceptance and scoped publication.
+
+Coordinator acceptance is complete at the returned twelve-file bundle pins.
+Independent final mathematical, record/data-flow and documentation reviews
+passed. Root replayed all 61 tests per mode from an isolated candidate,
+reproduced all twelve worked exports byte-identically and passed 82 separate
+export reconciliation checks. The source reservation is released; scoped
+publication is the coordinator's next step. Details and pins are in the
+[progress record](REVIEW_PROGRESS.md). The bundle itself remains unchanged.
+
+## RI-25 mathematical result and adopted boundary
+
+Trace-one qubits, complex Hilbert space, Born effects, X/Y/Z and the frozen
+oblique W=(0,3/5,4/5), independent fresh preparations and Lüders instruments
+are supplied premises. The complete J2(rho)=diag(rho^T/2,Zp rho^T Zp/2) is PSD,
+trace/total-entry normalized and satisfies Phi J2=rho with full-image checks.
+The transpose/Y sign is explicit; rho itself has total-entry mass 1+rx, not
+generally one. The embedding is trace-distance isometric. This restricted
+C0 interface does not implement L_t or the 16-dimensional theorem and is not
+strict DET-native reconstruction of QM.
+
+The experiment freezes all settings, schedules and error budgets before
+acquisition. XYZ-only fit has no simulator/truth/RNG or held-W input. W is
+generated only after predictions are persisted, then scored without refit.
+Nominal IDs are independent of seeds. Raw order and full command/record
+precursors are retained separately from canonical order-invariant fit hashes.
+Frozen objects/labels are trusted audit outputs, not authenticated provenance.
+
+Every attempted shot remains in N=n+ +n− +n0. An underlying binary read followed
+by even outcome-dependent erasure yields the pathwise completion interval;
+unknown failures/preparation problems refuse inference rather than filtering.
+Fixed-K Hoeffding allocation plus separately supplied average per-trial
+calibration and drift bounds give coordinate radii 2eta. Exact box/ball
+feasibility returns a witness, not a repaired fit. Nonphysical/incompletely
+observed midpoints are never projected into an alleged estimate. In the worked
+cases, XZ-only fits retain two physical opposite-Y alternatives and no point prediction.
+Future W probability and completed-frequency bands keep future calibration,
+drift and held sampling distinct; score compatibility is not validation.
+
+Same-axis repeatability, phase erasure under a known nonselective incompatible
+measurement and serial disturbance are exact controls. The actual Y,Y,Z,Y
+history keeps its first phase-sensitive record; only later Y access is lost.
+Erased serial outcomes stop without residual/continuation. An explicit
+fault-injection fixture keeps a zero-model-probability repeated outcome and
+reports mismatch. Actual point-zero held outcomes are retained and named.
+Same-record conventional erasure-aware linear inversion gives identical
+estimates and full-attempt Brier intervals; no DET accuracy advantage is claimed.
+
+## RI-25 execution and handoff boundary
+
+The default actual synthetic run (seed 20260914) retained 4,608 training
+attempts, including 372 erased, and 1,536 held W attempts, including 119 erased.
+All three held completion intervals overlap their frozen bands. The opposite-
+phase W bands overlap each other, so this run establishes neither finite-count
+W population separation nor empirical validation. Full XYZ midpoints are
+physical; partial XZ estimates remain interval-only with unresolved Y.
+
+Main executed the worked CLI in normal and optimized isolated Python. All
+12 output files were byte-identical across modes, including raw ordered
+records, frozen predictions, scoring and separate truth audit. Full trial
+datasets are outside the checkout. The content prediction digest is
+`49b2217760a9fac5a508ced52d8c86399107f3fedb91d859c08705d725202820`;
+the exported summary file digest is
+`72aca957a52cf5fc1024fdd4773ca5a6172280de9de2229bf1bf389d8d0084bb`.
+Canonical content digests differ from newline-terminated export-file hashes.
+
+The focused suite comprises 61 tests: 21 exact qubit/bridge, 12 record-contract,
+18 inference/adversarial and 10 simulator/worked checks. Main passed all 61
+in Python 3.11.6 with `-I -S -B` (0.642 s) and `-I -S -B -O` (0.650 s).
+The separate test author passed the same normal/optimized suite. Scoped lint
+and format checks pass. All 150 local Markdown links resolve; whitespace and
+conflict checks have zero findings. All 75 held predecessor/RI-24 identities
+match the entry pins; the durable71 checker reported match with zero research
+execution. These focused tests are not additions to the accepted research-
+registry witness totals. Only this isolated bundle is executed.
+
+Independent full mathematical/specification and source/dataflow reviews found
+no remaining substantive blocker. Their corrections are incorporated: valid
+global failure allocations; preparation-status and self-anchor integrity;
+seed-independent serial IDs; direct conventional-helper failure/duplicate
+guards; and the distinction between lost future phase access and retained
+earlier information. XZ need not resolve Y, but this is not universal: exact
+X=1,Z=0 together with the Bloch ball forces Y=0. The worked partial fits have
+genuine distinct alternatives. Coordinator acceptance is now complete; remote publication remains
+a separate coordinator step.
+
+Calibrated measured W data is a separate acquisition dependency; reconstructed
+W from XYZ is not held-out evidence. The coordinator's
+[data/follow-up note](QUBIT_DATA_AND_FOLLOWUP.md) owns that investigation and
+the separately queued comparator and geometry directions. No full QM, native
+F/L, physical time/mass, metric emergence or gravity promotion follows.
+Option B, Status M and the primitive-input test remain unchanged. No lettered
+QR-05 gate, coverage/noncollapse, clock/book/retired-kappa sequel or automatic
+successor starts. This assignment ends at reviewed source-quiet handoff.
+
+## Historical RI-22 handoff — accepted and published
 
 14 September 2026 UTC. **RI-22 CONDITIONAL_COMPOSITION_COUNTERMODEL;
 INDEPENDENTLY_REVIEWED; COORDINATOR_CONDITIONAL_PROOF_ACCEPTED.**
