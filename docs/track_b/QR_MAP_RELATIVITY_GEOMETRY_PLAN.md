@@ -3,6 +3,26 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**RI-21 finite-copy witness, conditional proof only:** the
+[new note](../coordination/QR_FINITE_COPY_WITNESS_PLAN.md) replaces an
+explicitly tailored all-vector probe family with one exact signed seed and at most n
+candidate copies for a fixed n-alternative problem. Its permutation Boolean
+events have weights m!det(D_I); the complete principal-minor lemma gives an
+exact 2^n-1-event PSD criterion, including singular cases. The determinant
+machinery is standard and credited, not a new physical law or novelty claim.
+Nonlinear dependence on the repeated candidate distinguishes this from
+RI-20's finite fixed linear-menu obstruction. The real seed detects complex
+defects through the D-dependent copies; self-power countermodels without that
+seed remain valid. Admission, independent identical preparations, the tensor
+law and catalogue-event positivity remain additional candidate premises.
+No copying operation, common recorded partition, sharp read, uniform precision
+or efficient measurement is supplied. Temporary exact arithmetic and three
+independent complete reviews passed; all 68 held identities match.
+Coordinator conditional-proof acceptance is complete. The pre-PSD admission gap, complex-field/full-QM
+reconstruction, native F/L and kinematic geometry remain separate. No global
+axiom, executor, physical mass/gravity promotion or automatic successor is
+assigned. Option B, Status M and the primitive-input test are unchanged.
+
 **RI-20 upstream premise audit, conditional proof only:** the
 [composition note](../coordination/QR_COMPOSITION_PREMISE_PLAN.md) identifies
 a known route from an independently admitted pre-PSD class to strong

@@ -1,4 +1,89 @@
-# QR research handoff — composition-premise audit and probe criterion
+# QR research handoff — finite-copy witness with one fixed seed
+
+14 September 2026 UTC. **RI-21 CONDITIONAL_FINITE_COPY_WITNESS_THEOREM;
+INDEPENDENTLY_REVIEWED; COORDINATOR_CONDITIONAL_PROOF_ACCEPTED.**
+The sole new artifact is
+[QR_FINITE_COPY_WITNESS_PLAN.md](QR_FINITE_COPY_WITNESS_PLAN.md).
+Only this handoff and the two existing QR maps are also edited. No executor,
+test source, dependency, registry entry or predecessor-suite replay is added.
+Coordinator owns all other paths and every git/index operation.
+
+RI-20 is accepted and published at
+`0bd4d4677bf0c0664c52e05fe6fb87c586383a3a`, tree
+`cd17aeec4d23b0f8df5ed8517fa867721f371f8b`, with accepted note SHA256
+`389d1ff809a921f5af832ca197e6bca4e3810ef1d0c7943193c5b6b9c9d95971`.
+The coordinator verified the normal push and remote identity. That accepted
+mathematical body is unchanged; the prior RI-20 handoff below is historical.
+
+## RI-21 finite-copy result and exact resource boundary
+
+For n×n Hermitian total-entry-normalized weak-positive D, supply the single
+fixed seed b=(1,-1,1), B=bb†, with total-entry mass one and trace three.
+For each principal subset I of size m, use its m! distinct permutation
+histories, paired with seed marker 0 for even permutations and 1 for odd.
+Marker reuse is legal because the candidate tuples are distinct; the unused
+third seed coordinate stays in the carrier for normalization. The exact
+Boolean-event weight is m!det(D_I), by direct permutation reindexing.
+Padding unused candidate factors by their whole carriers preserves that value.
+
+The note proves the complete principal-minor criterion and both directions
+of the resulting finite catalogue theorem: all 2^n-1 nonempty-subset events
+on D^tensor(n) tensor B are nonnegative iff D is PSD. The event definitions
+do not depend on D's values. At most n candidate copies and one seed suffice;
+this is not a minimality, dimension-independent, runtime or sample bound.
+Zero minors/event weights pass, and n=1 is included. The standard determinant
+identity and Dowker–Wilkes permutation machinery are explicitly credited;
+no literature novelty or DET-native admission theorem is claimed.
+
+All principal subsets matter: the original D3=(J3-I3)/6 has negative pair
+events -1/18 but a positive full determinant. Conversely
+H=[[1,1,1],[1,1,-1],[1,-1,1]]/5 is weak positive with all order-two minors
+zero and third-order event -24/125. The complex Di pair-plus-seed event
+is -3/2. Zero direct-sum D3 has every leading minor zero yet nonleading
+negative pair events. Diagonal/singular PSD and n=1 controls are included.
+
+There is no conflict with RI-20's finite fixed linear-menu obstruction:
+these tests repeat D and are nonlinear in the original candidate. On a
+composite space the unknown is restricted to the tensor-power image.
+Real seed signs plus D-dependent copies also avoid the one-copy fixed-real-
+probe premise. D3 still passes all self-powers without the signed seed.
+The specified seed is stronger admission data than a generic non-R+ member;
+its copy bound cannot be assigned to every such resource.
+
+Identical independent candidate preparation, independent seed admission,
+the tensor law and nonnegativity of the listed composite events remain
+supplied candidate premises. Equality of residual matrices does not imply
+independence, cloning access or merged origins. Excluding a seed coordinate
+from an event does not prepare a truncated seed. Catalogue events overlap
+and are not automatically a recorded partition or available sharp operations.
+The (R,Z) distinction and full retained histories remain intact. No global
+axiom, full-QM/complex-field selection or native F/L is established.
+
+## RI-21 verification and source-quiet boundary
+
+Main's temporary Gaussian-Fraction calculation passed 54 local base-event
+checks and 94 direct/padded event identities across seven examples and
+47 principal subsets. Determinants were computed by elimination independently
+of literal tensor-event summation. No source file was written or existing
+DET executor imported. This is supplementary arithmetic, not a new suite,
+registered witness, pinned execution or all-n proof.
+
+Independent complete mathematical, primary-source and premise/repository
+reviews passed with no substantive blocker. The table's order-three
+catalogue events are explicitly distinguished from the whole carrier of
+weight one. All 68 accepted predecessor/design/synthesis identities match
+their entry pins. All 134 local links resolve; scoped whitespace/conflict
+checks have zero findings. The exact four document identities accompany
+the source-quiet handoff. Coordinator conditional-proof acceptance is complete and the
+coordinator owns publication.
+
+No efficiency/noise/sample-confidence claim, physical instrument, measured
+pilot, core/RET/application/bank change, new operation family, QR-05BW–DO/
+coverage/noncollapse sequel, clocks, book, retired kappa-gravity or physical
+mass/geometry/gravity promotion is opened. The assignment stops at reviewed
+handoff; no automatic successor or premise adoption is authorized.
+
+## Historical RI-20 handoff — accepted and published
 
 14 September 2026 UTC. **RI-20 CONDITIONAL_PROOF_AND_PREMISE_AUDIT;
 INDEPENDENTLY_REVIEWED; COORDINATOR_PROOF_AND_AUDIT_ACCEPTED.**

@@ -1,5 +1,25 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+14 September 2026 UTC, finite-copy resource theorem: the
+[RI-21 note](../coordination/QR_FINITE_COPY_WITNESS_PLAN.md) proves that
+one fixed normalized seed b=(1,-1,1), B=bb† and at most n independent
+identically described candidate copies suffice to encode every principal
+minor of n×n Hermitian normalized D as a Boolean-event weight m!det(D_I).
+Even/odd permutation histories use two reusable marker labels, while the
+third seed coordinate remains for normalization. Whole-carrier padding gives
+2^n-1 fixed events on D^tensor(n) tensor B, nonnegative iff D is PSD.
+All principal subsets, zero minors and n=1 are retained; neither leading-only
+nor pairwise-only tests suffice. These nonlinear original-D tests do not
+contradict RI-20's fixed linear-probe criterion or unseeded countermodels.
+The standard determinant/permutation machinery is credited. Seed admission,
+independent identical preparations, tensor composition and composite-event
+positivity remain supplied premises, not sharp-measurement or copying access.
+Temporary exact arithmetic passed 54 base events and 94 direct/padded
+identities. Independent complete mathematical, primary-source and premise
+reviews passed; all 68 held identities match. Coordinator conditional-proof
+acceptance is complete; no executor, global axiom, efficiency/noise claim, full QM, geometry
+or automatic successor is opened.
+
 14 September 2026 UTC, upstream composition-premise audit: the
 [RI-20 note](../coordination/QR_COMPOSITION_PREMISE_PLAN.md) addresses original
 F3 without assuming PSD for the unknown kernel. It credits the known

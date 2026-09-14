@@ -216,3 +216,17 @@ remote-ref lookup succeeded. Root then actually dispatched the four-file
 RI-21 finite-copy witness proof/design assignment. Its active files are
 excluded from the coordinator publication record, and a returned result
 requires independent acceptance. The 68 accepted held identities are unchanged.
+
+
+**RI-21 conditional finite-copy proof accepted — publication candidate**
+
+Three independent coordinator reviews accepted the complete returned theorem,
+resource construction, exact examples, source attribution and three QR
+summaries. Publication is scoped to eight Markdown files: the new witness
+note and three summaries, root plan, premise ledger, progress and this backlog.
+Only reversible administrative wording changes the submitted QR files; the
+mathematical body is unchanged. Its 68 held predecessor/design/synthesis
+identities, registry, original review and unrelated baseline are preserved.
+No executor, registry addition, noisy/efficiency guarantee or new global axiom
+is part of this acceptance. The four-file QR reservation is released; the
+next bounded proof/application contract requires a separate assignment.

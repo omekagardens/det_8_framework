@@ -2784,3 +2784,68 @@ The coordinator-only dispatch record passes all 43 local-link targets and
 scoped whitespace checks, with all 68 held identities and unrelated content
 unchanged. Only the three coordinator status files enter this checkpoint;
 QR's active four-file reservation remains excluded.
+
+
+**RI-21 finite-copy theorem independently accepted**
+
+Entry HEAD/upstream was `0ba9b14f0d84b069ac14c85e6ec5c3f88bb89db8`, tree
+`8c4240e360a20f3ccf484a1e1d5c3f9539eea9e9`, with an empty index. Root
+verified the four returned source-quiet digests and captured their exact bytes.
+All 68 accepted predecessor/design/synthesis identities and the original
+review, registry, application corollary and broader protected snapshots match.
+
+Three independent complete coordinator reviews accepted the final note at
+`4717176b6a938e36ad0f979ac0bc06142da6c12daf69350f15b86e666932f906`.
+They checked the full proof and seven examples; primary literature/resource
+attribution and all three summaries; and the connected premise/application
+boundaries. The event identity correctly reindexes pi=tau∘sigma^(-1) without
+conjugating D or taking an absolute determinant. Distinct candidate permutation
+tuples make reused ancillary parity markers legitimate Boolean atoms.
+The principal-minor polynomial proves the PSD converse including singular
+cases; normalization gives the fixed-n padding and exact resource counts.
+
+The result is a finite D-independent catalogue with 2^n−1 events using n
+candidate copies and one fixed seed. Every nonempty principal subset is needed
+for the stated complete criterion. The seven reviewed cases include the
+−24/125 third-order witness, the complex −3/2 witness, a negative nonleading
+minor despite all leading minors vanishing, singular PSD and n=1. QR's
+reported 54 base-event checks and 94 direct/padded identities across 47 subsets
+are internally consistent and supplementary; root did not replay that
+calculation or any predecessor suite. The universal written proof and
+independent reviews carry acceptance, not a test count.
+
+The seed's mass-one/trace-three normalization, identical independent
+preparations, tensor law and composite-event positivity remain supplied.
+Catalogue events need not form a recorded partition or available sharp
+measurement. The tests are nonlinear in original D, so they do not contradict
+RI-20's fixed linear-menu obstruction, one-copy real-probe blindness or the
+unseeded self-copy counterexample. The known determinant machinery is credited;
+no literature novelty, minimal resource, uniform noise, efficiency, native
+admission or full-QM conclusion is claimed.
+
+Root changed only reversible administrative acceptance passages in the four
+QR files; reversing them exactly reconstructs submitted bytes. Accepted pins:
+
+| Accepted document | SHA256 |
+|---|---|
+| `docs/coordination/QR_FINITE_COPY_WITNESS_PLAN.md` | `62887089c6f661f543e066f23d2d141200c9d0b67f9cafa8dd06765072e12517` |
+| `docs/coordination/QR_HANDOFF.md` | `9ae76e4fa2adf7258916e2c8bb21b77e1572ae604877d7130b12dd5feaa09911` |
+| `docs/track_b/QR_MAP.md` | `3e1bf31068064bdacd25b243d323427bcd23dde1b9ccd4fd1f9f2b4b77461096` |
+| `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md` | `496d8282246053aa4fcc6c27f7f90e62085070bd5addcbb016569a5156c12041` |
+
+The four-file reservation is released. The determinant/resource assignment
+is complete; missing admission and ordinary tensor factorization remain
+separate, explicit premises. Further work needs a new bounded contract,
+rather than another audit of the same completed determinant argument.
+The eight-Markdown candidate passes all 224 local links and scoped whitespace/
+conflict checks. All 68 held statement/source/design/synthesis identities, six
+protected snapshots, 1,007 tracked paths outside the scope and all 965 unrelated
+pre-existing untracked paths remain unchanged. Reversing administrative edits
+recovers all four submitted QR identities exactly. No new executable, registry
+entry or RET work is assigned; publication remains scoped to these eight files.
+
+
+Final independent publication/status review accepted all eight manifest-bound
+files and confirmed the exact reversible administrative substitutions. Current
+ownership marks RI-21 complete and source-quiet; a successor still requires its
+own bounded assignment. No executable or broader evidence status changed.

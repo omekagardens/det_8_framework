@@ -669,3 +669,42 @@ at most n identical candidate copies and one specified signed seed. This is a
 finite resource certificate under supplied composition/admission premises,
 not a claim those premises are native. Its explicit assignment and acceptance
 will be tracked separately; no executor or global axiom follows from RI-20.
+
+
+## 13. Accepted one-seed finite-copy witness — RI-21
+
+The [RI-21 proof](QR_FINITE_COPY_WITNESS_PLAN.md) closes the assigned
+constructive resource theorem. For every nonempty principal subset I of a
+normalized n-alternative Hermitian D, pair its distinct ordered permutation
+histories with one of two parity markers in the fixed b=(1,−1,1) seed.
+Their Boolean event has weight |I|!det(D_I). Marker reuse creates no duplicate
+atoms. The third seed coordinate stays in its carrier for total-entry
+normalization; it is not a truncated or postselected preparation.
+
+Whole-carrier padding gives 2^n−1 fixed events on D^tensor(n) tensor B.
+All weights are nonnegative iff D is PSD, by the complete principal-minor
+criterion; in the PSD direction every composite event is positive or zero.
+The proof includes complex entries, n=1 and singular inputs. Leading minors,
+the full determinant alone or order-two tests alone are insufficient.
+The original F3 example has negative seeded pair events despite positive full
+determinant; the supplied H example has zero pair minors but third-order
+weight −24/125; 0 direct-sum D3 defeats leading-minor-only testing.
+
+This uses at most n candidate copies and one fixed seed, with no minimality
+or dimension-independent bound. Original-input tests are nonlinear, and the
+composite belongs to a restricted tensor-power image, so RI-20 is unchanged.
+Neither real-probe blindness on one copy nor positivity of unseeded self-powers
+is a counterexample to this additional-resource theorem.
+
+Three independent coordinator reviews accepted the complete written proof,
+examples, attribution and premise boundaries. QR reports supplementary exact
+Gaussian-Fraction arithmetic for seven examples; those finite checks are not
+the all-n proof or new registered witnesses. Only administrative acceptance
+wording differs from its reviewed submission.
+
+What remains is seed admission, identical independent preparations, ordinary
+tensor factorization and nonnegative catalogue-event weights. The determinant
+argument now needs no further repair or repetitive audit. A separate next
+contract should test a new composition premise or connect known scalar values
+to a deterministic inference/refusal condition. It must keep unavailable
+apparatus, measured calibration, global axioms and full-QM selection separate.
