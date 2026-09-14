@@ -6,6 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
+| RI-25 qubit-and-record experiment | **Direction and data-readiness checkpoint published in verified `1904393`; implementation in review.** QR owns the isolated simulator/specification/record/inference bundle. Provisional independent review repaired record-identity and preparation-status gaps and found no remaining mathematical blocker in inspected drafts. | Receive quiet source hashes, complete independent review and isolated normal/optimized replay, reconcile exported records/predictions, then publish the accepted bundle. Public XYZ data do not supply a measured withheld W batch. |
 | QR coordination / RI-05–08j and RI-16–19 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. RI-18 is published in verified `ba12958`. RI-19 proof/design is accepted: full classification, exact admission obstruction, matched-law stability and observation-rank results, with independent theorem/API review and 193 root native assertions. Published in independently verified `f6b8f18`; approximate execution remains unimplemented. Consolidation and operational-premise/application direction are the next coordinator decision. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
@@ -14,7 +15,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | RI-18 now supplies one complete earlier-weight/tree orchestration; general interoperability remains separate. The ledger records its supplied premises and rank-two limit. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest application checkpoint: [f8339ea](https://github.com/omekagardens/det_8_framework/commit/f8339ea4a4ce886ddc4513d989a2cecbad9d8dca). Latest QR proof checkpoint: `f6b8f18`; implementation: `ba12958`; finite design: `ad04963`; retained-word theorem: `22eca4e`; synthesis: `50d652f`; research/identifiability repairs: `38be4c0`. All pushed normally to `origin/ret` and independently verified. Root owns git/index. | Continue scoped publication after review, preserving QR reservations and the deferred baseline. |
+| Remote checkpoints | Latest coordinator direction/data checkpoint: [1904393](https://github.com/omekagardens/det_8_framework/commit/1904393409a28f7384d0a002e1a8cf85867a20dc). Durable inventory/checker: `db803fb`; scalar-value contract: `0410ccd`; composition countermodel: `ad3c8dd`; fixed-copy criterion: `14eba18`. Earlier source-bound checkpoints remain recorded below. All published normally to `origin/ret` and independently verified. Root owns git/index. | Continue scoped publication after acceptance, preserving QR reservations and the deferred core/RET baseline. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -3159,3 +3160,33 @@ paths: root plan, progress, publication backlog and the new data/follow-up
 note. QR's active directory and summaries are excluded. The original review,
 application corollary, 75 held identities and unrelated baseline remain
 preserved. Complete returned implementation checks will be recorded separately.
+
+
+**RI-25 direction/readiness publication verified; implementation review active**
+
+[Commit 1904393409a28f7384d0a002e1a8cf85867a20dc](https://github.com/omekagardens/det_8_framework/commit/1904393409a28f7384d0a002e1a8cf85867a20dc),
+tree `a8df0cbff156033b61da1fec359f429c0d7d1dbe`, publishes exactly the four
+coordinator Markdown paths described above. The normal push succeeded and
+independent `origin/ret` lookup returned that full commit. The checkpoint
+verified 59 local links; the index was empty afterward. A subsequent read-only
+audit retained all 75 held identities, six protected identities and 1,980
+unrelated tracked/untracked file versions. QR's active bundle and summaries
+were excluded from staging.
+
+The first owner-run synthetic experiment reports 4,608 training and 1,536
+held attempts, with erased outcomes retained. Root's provisional mathematical
+review passed 80 plus 33 exact in-memory assertions across changing drafts;
+these are draft review evidence, not final source acceptance or registry
+additions. Record review identified preparation-status changes within a
+serial preparation and self-referential precursor identities; the owner
+reported fixes and direct tests. Complete returned source/hash review, actual
+isolated replay and exported-record reconciliation remain pending.
+
+The worked document distinguishes exact phase-law differences from the broad,
+overlapping finite-count W bands. Sorted inference digests identify canonical
+record content; raw JSONL retains acquisition order separately. Neither
+metadata labels nor immutable fit objects authenticate external experiments.
+The secondary observer/signal review prepared a supplied-geometry model with
+explicit reception and horizon boundaries; implementation remains queued
+after primary publication. This update records current work and publication
+identity without accepting unfinished QR output.

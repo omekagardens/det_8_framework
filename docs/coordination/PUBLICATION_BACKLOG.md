@@ -10,6 +10,7 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
+| RI-25 qubit-and-record experiment | Approved direction and data/readiness note published in verified `1904393`; the isolated QR implementation is still under review. | Publish only after quiet-source acceptance, isolated checks and actual worked-run reconciliation. Genuine calibrated W data remain an external dependency. |
 | QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 design is published in verified `ad04963`. RI-18 is accepted and published in verified `ba12958`; its separate pinned integration and complete publication scope are recorded below. Preserve accepted sources and keep its 31 witnesses outside the 411-witness registry total. |
 | RI-02/RI-04 kernel and certificate repairs | Published in verified checkpoint `38be4c0c941c62329b9175883748d4e586b9745e`: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Maintain the numerical/research limits; review later changes against this source identity. |
 | RI-12 exact identifiability | Published in the same checkpoint: `identifiability.py` and its 108-case test file. The mathematical contract was already published. | A measured application still needs data and an evaluation objective. No RET or core prerequisite for this exact interface. |
@@ -352,3 +353,13 @@ baseline remain unchanged. The public measured-data candidate does not yet
 supply a compatible withheld W batch; simulation is independent of that
 external data dependency. Voltage-comparator and secondary observer/geometry
 directions are retained without delaying or expanding the primary assignment.
+
+
+The direction/readiness checkpoint is published in independently verified
+[1904393409a28f7384d0a002e1a8cf85867a20dc](https://github.com/omekagardens/det_8_framework/commit/1904393409a28f7384d0a002e1a8cf85867a20dc),
+tree `a8df0cbff156033b61da1fec359f429c0d7d1dbe`. Exactly four coordinator
+Markdown files were staged after scope/link and held-baseline checks. Normal
+push and independent remote-ref lookup succeeded. QR's active source and its
+three summaries remain outside this publication and await completed review.
+The next coordinator status checkpoint changes only root plan, progress and
+this backlog, preserving the published data note and the active QR reservation.
