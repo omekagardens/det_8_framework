@@ -309,7 +309,7 @@ only t=3/5 with six named common-X group elements. General generators,
 other unitaries and endpoint maps remain diagnostics. No physical time,
 Hamiltonian selection, energy units or native DET dynamics follows.
 
-**RI-08i is assigned and acknowledged, not yet accepted.** It investigates an
+**RI-08i has a source-stable handoff under independent review, not yet accepted.** It investigates an
 explicitly available calibrated terminal binary internal read. The candidate
 effect-span ranks are 8 for an X read, 12 for Z and 16 for a tilted axis,
 using the existing X-axis command group. A single tilted read with three

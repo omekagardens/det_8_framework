@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08h | **Bounded handoffs accepted and registered.** RI-08h classifies continuous reversible generators on the adopted interior cone and proves their nonidentification by cut-only outcomes under matched command/history metadata. Two independent audits and 67 additional probes passed; root passed all 30 new checks in both complete registry runs. | RI-08i terminal-read observability assignment acknowledged and active. Added measurement availability, terminal-only scope and state versus generator identification remain explicit. |
+| QR coordination / RI-05–08h | **Bounded handoffs accepted and registered.** RI-08h classifies continuous reversible generators on the adopted interior cone and proves their nonidentification by cut-only outcomes under matched command/history metadata. Two independent audits and 67 additional probes passed; root passed all 30 new checks in both complete registry runs. | RI-08i source-stable handoff received; independent proof/source audits started. Acceptance, registration and its next checkpoint remain pending. QR has no successor assignment. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for sixteen suites.** The 64 focused registry/claim checks pass. Root replayed all sixteen suites in both modes: 326 finite witnesses per mode, all 28 declared executable sources loaded, no skips or observed registered-source drift. The fifteen prior objects and runner are preserved. | Review and register future QR bundles after completed handoff; keep universal proof obligations separate. RI-15's 20 witnesses remain under its separate source contract. |
@@ -14,7 +14,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11, RI-12 exact contract and synthetic comparator fixture accepted.** Coordinator replay passed 236 focused cases: 34 new comparator, 108 identifiability, 54 applied/consumer and 40 registry. Model-conditional Gaussian oracles, exact observed-row/source bindings, held-out non-assimilation and byte-verified replay pass. | User's measured instrument/dataset choice remains open. Establish target, tolerance and evaluation objective before a measured pilot; coordinate RET ownership before source changes. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08h and the accepted conditional local-to-joint interface. The separate claim endpoint lists sixteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | The user now explicitly requests commits and pushes during work updates. The hourly instruction is updated; root coordinates the shared index and remote operations on `ret` / `origin/ret`. | Commit reviewed source-stable scoped checkpoints and verify the pushed remote identity. Preserve active QR edits and unrelated pre-existing core/RET/evidence changes. |
+| Remote checkpoints | The first accepted research/adapter checkpoint is committed and pushed as [faad1e9](https://github.com/omekagardens/det_8_framework/commit/faad1e96d9c2818bbc91e7600dd575538259e5d8). The remote `ret` ref was independently checked against the full commit identity. Root coordinates git operations; hourly follow-through now includes commits and pushes. | Publish future reviewed scoped updates. Reconcile source ownership and dependency closure before publishing the remaining mixed baseline-dependent changes; preserve active QR and unrelated core/RET/evidence work. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -1439,3 +1439,54 @@ snapshot, preserving its historical RI-08h-and-earlier sections. The live
 handoff and active QR maps remain in the working tree for the ongoing task;
 no active theorem/model/test is included. This separates the published
 checkpoint from later local work without rewriting the owner's live files.
+
+**First remote checkpoint published**
+
+[Commit faad1e96d9c2818bbc91e7600dd575538259e5d8](https://github.com/omekagardens/det_8_framework/commit/faad1e96d9c2818bbc91e7600dd575538259e5d8)
+contains the accepted research closure, exact adapter and review/coordination
+records: 50 changed files from a 61-path allowlist; eleven dependencies
+already matched HEAD. Its tree is `753e50d465602fdf618896a3413e22fae49bdc49`.
+The sole changed previously tracked research statement is the reviewed
+eight-line subsequent-result paragraph in `OPERATION_DOMAIN.md`, required by
+the accepted manifest pin. No active RI-08i artifact or unrelated implementation
+was staged. The accepted-only published handoff SHA-256 is
+`33261b7720f9c6af008c1d28e5c309527209f2e242ff08e4956d46694249327e`;
+the QR owner's live working-tree handoff remains intact for the next review.
+
+A checkout materialized from the exact staged index passed **79 focused
+registry/adapter regressions in 56.53 s**, including the adapter's normal and
+optimized witnesses. Both CLI preflights also passed under `-I -S -B`,
+verifying all sixteen registrations and the separate adapter without relying
+on uncommitted core/RET/claim/application code. This validates the executable
+checkpoint boundary; broader coordination notes remain working-tree reviews.
+The prior complete registry result is 326 witnesses per mode, recorded above.
+
+`git push origin HEAD:ret` succeeded from `c42cac0` to `faad1e9`.
+An independent `git ls-remote --heads origin refs/heads/ret` returned the exact
+full checkpoint commit. The index was empty afterward. No force push,
+rebase, cleanup or modification of the live QR handoff was needed.
+Subsequent documentation-only publication records do not alter this tested
+source-tree identity. Further completed updates will be committed and pushed
+under the user's instruction and the updated hourly follow-through contract.
+
+**Next review received during publication**
+
+QR delivered RI-08i after the first source checkpoint was pushed. Its live
+handoff and summaries are source quiet, and its owner stopped without starting
+a successor. Independent proof and implementation audits have begun; the
+result is not accepted or registered yet. The owner's 30 new checks per mode
+and 383 scoped checks are reported evidence, not a coordinator acceptance.
+The bundle is `docs/validation/t8-q-terminal-read-observability-2026-09-13/`:
+
+| Pending RI-08i source | Supplied SHA-256 |
+|---|---|
+| `TERMINAL_READ_OBSERVABILITY.md` | `aaf1d0bd828b22c5eae9b551bae5989dc27dd1ba04631181f4c642f3d410adb7` |
+| `model.py` | `0e60694bad07016886ec2451f4b17a5ac7dd24c089c8953dabb926620c8148d8` |
+| `check.py` | `cf508d61ef6260926123185814edefdf4b5b8393880aab01ba0645cba0bd8f22` |
+
+The next follow-through must read the live handoff, complete that independent
+acceptance, and publish its own reviewed source checkpoint before assigning
+another QR result. It must also preserve the remaining local application,
+core/RET and evidence scope rather than add it indiscriminately. This
+documentation update records the verified first push and the pending review;
+it does not change the already tested research or adapter sources.
