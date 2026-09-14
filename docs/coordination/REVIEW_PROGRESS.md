@@ -2753,3 +2753,34 @@ identities and verified the reversible QR acceptance substitutions. The ledger's
 older RI-20 assignment section is explicitly labeled historical; section 12
 carries its acceptance. RI-21 remains a selected proof target pending actual
 dispatch after publication.
+
+
+**RI-20 publication verified; RI-21 actually dispatched**
+
+[Commit 0bd4d4677bf0c0664c52e05fe6fb87c586383a3a](https://github.com/omekagardens/det_8_framework/commit/0bd4d4677bf0c0664c52e05fe6fb87c586383a3a),
+tree `cd17aeec4d23b0f8df5ed8517fa867721f371f8b`, publishes exactly the eight
+reviewed Markdown paths. Every staged byte identity matched the captured
+candidate; all 230 local links and preservation checks passed. The normal
+push to origin/ret succeeded and independent remote-ref lookup returned
+this full commit. The index was empty afterward.
+
+The QR owner received the verified identity and the concrete RI-21 assignment.
+Its reservation is exactly new `docs/coordination/QR_FINITE_COPY_WITNESS_PLAN.md`
+and the three existing QR handoff/map files. The target is the one-seed,
+at-most-n-copy principal-minor event theorem with all subsets, complex inputs,
+whole-carrier padding and exact resource accounting. It must distinguish
+nonlinear repeated-copy tests from fixed one-copy inequalities, preserve its
+admission, independence and tensor-law premises, and distinguish mathematical
+events from recorded measurements. Preliminary proof/arithmetic informs the assignment;
+a complete returned note still requires separate acceptance.
+
+All 68 accepted statement/source/design/synthesis identities now remain held,
+including the accepted RI-20 note. Root owns the coordinator-only metadata
+checkpoint; QR's four active paths are excluded. No new executor, registry
+entry, earlier-suite replay, measured pilot, RET or global axiom is assigned.
+
+
+The coordinator-only dispatch record passes all 43 local-link targets and
+scoped whitespace checks, with all 68 held identities and unrelated content
+unchanged. Only the three coordinator status files enter this checkpoint;
+QR's active four-file reservation remains excluded.

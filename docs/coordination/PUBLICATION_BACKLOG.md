@@ -206,3 +206,13 @@ RI-21 is selected as the next bounded proof target: a constructive finite-copy
 principal-minor witness using one fixed signed resource. Dispatch follows
 publication of RI-20; its result and additional admission/composition premises
 are not accepted in advance.
+
+
+RI-20 is published in verified
+[0bd4d4677bf0c0664c52e05fe6fb87c586383a3a](https://github.com/omekagardens/det_8_framework/commit/0bd4d4677bf0c0664c52e05fe6fb87c586383a3a),
+tree `cd17aeec4d23b0f8df5ed8517fa867721f371f8b`. All eight staged files
+matched the independently reviewed candidate. The normal push and independent
+remote-ref lookup succeeded. Root then actually dispatched the four-file
+RI-21 finite-copy witness proof/design assignment. Its active files are
+excluded from the coordinator publication record, and a returned result
+requires independent acceptance. The 68 accepted held identities are unchanged.
