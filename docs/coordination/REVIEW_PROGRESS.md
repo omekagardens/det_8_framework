@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j | **Bounded handoffs accepted and registered.** The stability capstone passed both independent audits, the requested provenance repair, 63 exact proof probes, 7 adversarial cases per mode and all 28 new staged checks per mode. | Publish the accepted capstone checkpoint, then assign the planned conditional observability/stability synthesis. No further finite-cone refinement is planned. |
+| QR coordination / RI-05–08j | **Bounded handoffs accepted and registered.** The stability capstone passed both independent audits, the requested provenance repair, 63 exact proof probes, 7 adversarial cases per mode and all 28 new staged checks per mode. | Checkpoint `da8fe99` is pushed and independently verified. QR is assigned one conditional observability/stability synthesis, then stops for combined-proof review. No further finite-cone refinement is planned. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for eighteen suites.** The cumulative inventory is 384 witnesses /32 executable sources: prior 356 verified witnesses with unchanged pins plus 28 new capstone checks passed normally and optimized. Complete manifest preflight, 43 staged registry regressions and 64 local integration checks pass. | Preserve historical execution boundaries; 384 is not a new all-suite replay. RI-15 remains under its separate source contract. |
@@ -14,7 +14,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11, RI-12 exact contract and synthetic comparator fixture accepted.** Coordinator replay passed 236 focused cases: 34 new comparator, 108 identifiability, 54 applied/consumer and 40 registry. Model-conditional Gaussian oracles, exact observed-row/source bindings, held-out non-assimilation and byte-verified replay pass. | User's measured instrument/dataset choice remains open. Establish target, tolerance and evaluation objective before a measured pilot; coordinate RET ownership before source changes. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest accepted research checkpoint: [8714772](https://github.com/omekagardens/det_8_framework/commit/8714772534b5407db79e0989c2a526a1c5370afd), pushed to `origin/ret` and independently verified against the full remote ref. It follows the first research/adapter checkpoint `faad1e9` and publication record `99157c1`. Root owns git/index operations. | Continue reviewed scoped commits and pushes. Preserve separately deferred local baseline, active QR work and unrelated core/RET/evidence files. |
+| Remote checkpoints | Latest accepted research checkpoint: [da8fe99](https://github.com/omekagardens/det_8_framework/commit/da8fe99a1b1b91dab962ec0ed17bde349a06458c), pushed to `origin/ret` and independently verified. Earlier accepted checkpoints `faad1e9` and `8714772` remain recorded below. Root owns git/index operations. | Continue reviewed scoped commits and pushes; preserve active QR work and the separately deferred local baseline. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -1774,3 +1774,47 @@ accepted digests. The claim implementation/generated reference remain part
 of the separately deferred local baseline; the publication scope is the
 self-contained research closure and reviewed coordination/QR documents.
 Only Markdown status/acceptance changes follow the tested source capture.
+
+**RI-08j checkpoint pushed; conditional synthesis assigned**
+
+[Commit da8fe99a1b1b91dab962ec0ed17bde349a06458c](https://github.com/omekagardens/det_8_framework/commit/da8fe99a1b1b91dab962ec0ed17bde349a06458c)
+publishes the twelve reviewed capstone/registry/QR/coordinator paths. Its
+final tree is `197f2e7a701746ff9e57d9319df7a7e0fc244768`.
+The final tree differs from the tested source-stage tree only in six
+Markdown plan/ledger/progress/handoff/map files. All six tested source paths
+were byte-compared with the materialized checkout before capture, and the
+three live QR document hashes matched the owner's quiet handoff. The exact
+index allowlist and scoped whitespace checks passed; no separately deferred
+local baseline or unaccepted successor was included.
+
+`git push origin HEAD:ret` advanced `e4d4bd4` to `da8fe99`. Independent
+`git ls-remote --heads origin refs/heads/ret` returned the full new commit,
+and the index was empty afterward. Root notified QR of the verified remote
+checkpoint and released its temporary source hold. This publication record
+changes none of the tested source identities.
+
+Root then assigned the existing QR thread one synthesis document,
+`docs/research/FINITE_RECORD_OBSERVABILITY.md`, plus its existing three QR
+map/handoff documents. The already authorized program covers this separate
+bounded assignment; no new user permission is needed. No new executable
+fixture, accepted-source edit, registry change, RET/application work or
+automatic successor is assigned. Root retains coordinator/registry and git
+ownership. QR must deliver one source-stable document with independent review
+of the combined proof and its exact cross-bundle arrows.
+
+The synthesis will center on the conditional finite-record observation and
+stability theorem with enough native-map/filter, matrix/inverse, compatibility
+and norm argument to assess it directly. It will distinguish the minimal
+known-command/read premises from the separate continuous-group classification,
+and label the local/joint/changed-return-domain route and RI-15 interface
+without implying a globally selected physical operational theory. It must
+retain the endpoint, rare-cell, calibration and failed-candidate boundaries.
+
+The final open-bridge section will specify why finitely many full committing
+labels do not cover unbounded retained command words, and what a countable-word
+output/norm/convergence/continuation theorem would still require. It will also
+retain the measured instrument/data, target/tolerance, noise or budget,
+cost, baseline and held-out evaluation dependencies. The document adds no
+sampling confidence, physical QM or measured benefit. Current accepted pins
+and formula/link checks suffice for this documentation synthesis; another
+complete witness replay is not required solely to rewrite the argument.

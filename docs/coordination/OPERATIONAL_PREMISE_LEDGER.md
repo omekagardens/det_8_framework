@@ -404,7 +404,7 @@ binary expectation difference can instead incur twice the TV budget.
 ## 7. Application and project integration route
 
 The accepted observation-stability capstone closes the present round of
-finite-cone refinement. The next planned artifact consolidates a single
+finite-cone refinement. The assigned `FINITE_RECORD_OBSERVABILITY.md` synthesis consolidates a single
 conditional observability/stability argument; it does not settle operational
 premise selection, the retained-word first-commit extension or measured
 application obligations below. Its finite theorem needs known A/A² command

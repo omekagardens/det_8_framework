@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; accepted results through RI-08j and RI-15. Finite-cone refinement is complete; conditional-proof consolidation is planned after publication.**
+Started 13 September 2026. **Active program; accepted results through RI-08j and RI-15. Finite-cone refinement is complete and published; the conditional-proof synthesis is assigned to QR.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-08j accepted and registered after the provenance repair, independent audits and staged replay. QR holds source quiet for its publication. The next bounded assignment is the planned conditional observability/stability synthesis, with no further finite-cone fixture. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-08j is accepted, registered and pushed as `da8fe99`. QR is assigned the single conditional observability/stability synthesis at `docs/research/FINITE_RECORD_OBSERVABILITY.md`, then must stop for combined-proof review. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -50,7 +50,7 @@ Active file reservations following the first implementation cycle:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | `docs/track_b/QR_MAP.md`, `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md`, new isolated `docs/validation/t8-q-*` work, `docs/coordination/QR_HANDOFF.md` |
+| QR task | `docs/track_b/QR_MAP.md`, `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md`, new isolated `docs/validation/t8-q-*` work, `docs/coordination/QR_HANDOFF.md`, and the explicitly assigned `docs/research/FINITE_RECORD_OBSERVABILITY.md` synthesis |
 | Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/APPLICATION_WORK_PLAN.md` and maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md` |
 
 The documentation, pair-kernel, certificate and research-runner implementers
@@ -105,7 +105,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-08h | Reversible generators on the adopted completion | QR, with coordinator review | **Conditional theorem and exact bundle accepted and registered.** The added continuous reversible group premise gives four weighted block-unitary generators. Equal future laws require matched context, committed prefix and initial pending command metadata. Endpoint dark growth, transpose/divisibility and irreversible dephasing delimit the theorem. Two independent audits and 67 additional probes passed; root passed all 30 checks in both complete registry runs. Twelve mathematical parameters are not identified by the cut-only catalogue; no physical time, Hamiltonian selection or native dynamics is inferred. |
 | RI-08i | Minimal internal observation interface | QR, with coordinator review | **Conditional theorem and exact bundle accepted and registered.** Backward effect ranks 8/12/16 and positive sections establish the minimal full-span linear summaries. Three resolved tilted-read settings reconstruct every native entry from compatible exact tables, including zero cells without division. Full pre-read source/history retention, incompatible-table refusal and a terminal-only typed result pass both independent audits, 94 additional exact probes and all 30 new checks in each complete staged replay. State observability uses known calibrated controls/readout; generator identification, finite-sample accuracy and postmeasurement reuse remain separate. |
 | RI-08j | Observation stability and error-budget capstone | QR, with coordinator review | **Conditional theorem and corrected exact contract accepted and registered.** Sharp inverse-column bounds, axis conditioning, native endpoint singularity and feasible-set diameter proofs passed independent review and 63 exact probes. Raw audits now reject unbound metadata; typed sources retain exact matching history. Seven independent adversarial cases and all 28 registered capstone checks passed in each mode. A failed candidate remains inconclusive; no fitting, confidence or physical-availability claim follows. This closes finite-cone refinement for consolidation. |
-| RI-08 | F6/P4: one explicit operational reconstruction endpoint | QR | **Dependency-gated.** Select a precise premise set and endpoint. Discharge or declare every reconstruction assumption and explain which countermodels are excluded. State-space selection does not automatically select instruments, Hamiltonian or growth. |
+| RI-08 | F6/P4: one explicit operational reconstruction endpoint | QR | **Conditional finite-record synthesis assigned; full operational reconstruction remains dependency-gated.** Consolidate the accepted observability/stability endpoint, exact premises and construction arrows in one document. Preserve the distinction between known finite command matrices and the separate continuous-group theorem. Combined-proof review must retain physical selection, unrestricted instruments/composites, retained-word processes and measured-application gaps. |
 | RI-09 | P5/P6/P7: unbounded records, native order law and geometry | QR | **Research backlog.** Begin with typed probability/schedule consistency and a native generator classification. Fixed finite chain-forming port budgets fail the volume-filling role. Unbounded width alone is insufficient. Require an actual limiting object and measure before a reconstruction claim. |
 | RI-10 | F8: complete the existing G2 integration chain | Coordinator with RET owner | **Scoped backlog.** Verified bank-only evaluator and shared evaluation logic; consumption/source bindings; development equivalence; full source-held development rehearsal, independent audit, final matrix/wheel. Preserve truth declarations, acceptance rules and separate freeze/custody obligations. |
 | RI-11 | F9: repair deferred applied comparisons | Coordinator | **Accepted for the scoped arithmetic/reporting contract.** Gaussian likelihood/BIC conditions, identifiable parameter limits, roughness and chronology repaired; causal winner outputs retired. Detected underflow and invalid grid losses refuse safely. Coordinator reran 54 focused tests and 12 legacy checks; independent numerical/chronology review passed. Calibrated application performance and a clock-noise/interval-average model remain separate work. |
@@ -161,7 +161,7 @@ evaluation. RI-07's finite full-label theorem does not cover that retained-word
 extension without a new proof. Instrument/data, target/tolerance and evaluation
 objective remain the named measured-application dependencies.
 
-The intended consolidation artifact is
+The assigned consolidation artifact is
 `docs/research/FINITE_RECORD_OBSERVABILITY.md`: a short, independently
 reviewable conditional observability/stability argument, with exact accepted
 source references and no new executable fixture. Its central theorem needs
@@ -169,8 +169,8 @@ known A/A² command matrices and the calibrated read, not RI-08h's stronger
 all-real continuity hypothesis. The route through maximal-domain obstruction,
 local C/C0 and K_t, the separate RI-15 adapter, and changed L_t return domain
 must label every added premise and composition boundary. RI-07 remains a
-separate theorem until its full-label/retained-word gap is proved. Root will
-assign this bounded synthesis only after the capstone is accepted and pushed.
+separate theorem until its full-label/retained-word gap is proved. Root assigned
+this bounded synthesis after the capstone was accepted and pushed as `da8fe99`.
 
 **Application decision**
 
