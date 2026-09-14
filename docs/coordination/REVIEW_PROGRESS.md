@@ -8,6 +8,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 |---|---|---|
 | RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; the separately scoped RI-26 model is also independently accepted. |
 | RI-26 observer/signal model | **Independently accepted and published in verified `0fde8b2`.** Three final reviews passed. Root passed 51 isolated tests per mode, reproduced 52 identical worked exports and reconciled 331 independent exported-data checks. Eleven bundle identities are recorded below. | Preserve its eleven source identities and all 87 prior held identities. No successor or actualization-to-geometry rule is supplied. |
+| RI-27 published-model reproduction | **Accepted.** Independent inventory/packaging/recipe reviews and clean fixed-commit archive replay passed. Separate manifest covers 23 model files; exact extraction covers those plus checker and manifest. | Publish the five-file documentation/inventory candidate; preserve all 98 accepted artifacts. No new model or QR successor. |
 | QR coordination / RI-05–08j and RI-16–19 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. RI-18 is published in verified `ba12958`. RI-19 proof/design is accepted: full classification, exact admission obstruction, matched-law stability and observation-rank results, with independent theorem/API review and 193 root native assertions. Published in independently verified `f6b8f18`; approximate execution remains unimplemented. Consolidation and operational-premise/application direction are the next coordinator decision. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
@@ -3429,3 +3430,59 @@ RI-25 and RI-26 now have complete published model obligations. Measured W,
 practical comparator prerequisites and an explicit actualization-to-geometry
 proposal remain the concrete future dependencies; no automatic successor
 is assigned and no new physical validation is claimed.
+
+
+**RI-27 accepted — published-model clean-archive reproduction**
+
+The hourly follow-up independently confirmed local `ret`, upstream `origin/ret`
+and remote HEAD at `2529bfd20e9dca88d58e891cb0e679f42bb67f54`,
+tree `1b6c9a34aecc20e7824d08b90a3d6e5b9d191051`. The index was empty.
+The current QR task was idle after a completed handoff; there was no new
+source or theorem to accept. Coordinator reserved only two new reproduction
+companions plus plan/progress/backlog, and informed QR without assigning
+a successor. Entry snapshot: 98 held files, six protected identities,
+1,045 tracked and 965 untracked file versions.
+
+The existing experiment notes supplied separate working commands, while the
+historical integrity inventory intentionally excluded both newer bundles.
+The [combined guide](../experiments/PUBLISHED_MODELS_REPRODUCTION.md) and
+[separate manifest](../experiments/published_models_v1.json) close that handoff
+gap. The new manifest has 23 entries: twelve qubit and eleven observer files.
+Every entry matches its accepted pin and actual source-anchor blob. Its
+SHA256 is `e032fbac46cab28fd54cc49d94bf45958033500b24ca83f1b5acebeef5949915`.
+The existing checker remains `73cdb6bbe4754818736968b75ee3b84936750da22f21d881afdd09559202124e`;
+the historical 71-file inventory and all accepted code remain untouched.
+
+Independent reviewers accepted the inventory schema/blob binding, import
+closure and complete recipe. The recipe separately verifies checker and
+manifest identities and the exact 25-file extracted set before execution.
+This addresses extra `test_*.py` discovery, which hash agreement alone does
+not exclude. Separate processes avoid the bundles' common module names.
+Four new output directories sit outside the extracted source root.
+
+**Actual root replay on Python 3.11.6:** qubit normal/optimized each passed
+61 tests (0.642/0.651 s); observer normal/optimized each passed 51 tests
+(0.048/0.045 s). The supplied source and tests were unchanged. Both direct
+worked pairs produced matching relative paths and bytes across twelve qubit
+and 52 observer exports, including published summary hashes
+`72aca957a52cf5fc1024fdd4773ca5a6172280de9de2229bf1bf389d8d0084bb`
+and `80a646f5dd007ba6a9d64f9ffd6dec7c3c4bb5a1a8d4974fa31c335545ac28a8`.
+Before/after checker reports were identical: match, 23 declared/checked/matched
+files, zero artifact execution by that checker. Separate post-run inspection
+confirmed all 25 source-file hashes unchanged and no `.git`, `.venv`, `det8`
+package or extra test source in the archive. All generated evidence stays
+outside checkout. The source archive and four runs use the documented
+recipe; the selected interpreter path is the only environment substitution.
+
+A review usability observation moved the output-location print immediately
+after directory creation so later failures retain a visible location. No
+model/test command, input or result changed. The final guide SHA256 is
+`8881378a244c6419a8992fa0cfd35675934b16303fb5ce48e3faa66f70eb3c29`. No new executor or tests were added.
+These are repeat executions of the accepted test sets; the historical
+82/331 temporary audit assertions and 411 registered witnesses are separate
+and are not claimed as re-executed by the guide.
+
+The five-path candidate contains the two new companions and three coordinator
+records. Calibrated measured W, practical RET prerequisites and any explicit
+actualization-to-geometry proposal remain open. There is no new physical
+claim, dataset import, registry change or QR implementation reservation.

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "checkpoint": {
+    "commit": "2529bfd20e9dca88d58e891cb0e679f42bb67f54",
+    "tree": "1b6c9a34aecc20e7824d08b90a3d6e5b9d191051"
+  },
+  "artifacts": [
+    {
+      "path": "docs/experiments/observer_signal_v1/EXPERIMENT.md",
+      "sha256": "767c8cc3cb6b5b41da7e55c81b5689e560f22beb1b26a30ae271e17f60277682"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/clock_readings.py",
+      "sha256": "cb03374cab47bceb3a9a25bd7fd437e70771786b195435e75fa484656e1fcc89"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/kinematics.py",
+      "sha256": "038631b6ba733592a89bd263700554f00ad076be75e71d5ddf115b41bf9a77ae"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/local_records.py",
+      "sha256": "7de92b4891da4303abbb2f4ba702839264d4df873d7a26534033a45d73c884c2"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/observer.py",
+      "sha256": "d630e65fa31b8282f824fbbcb6aaa8982ad8cfe89a141ae5e1034e5feefe5e50"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/run_checks.py",
+      "sha256": "85300aeeeddb783c6e89a0a7e120dae319d0dcf37b00a91d162a11f366f18382"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/sim.py",
+      "sha256": "dc038ede350979bb9ad90efb8a1245a9202d866c394095e25a09bec23092d1eb"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/test_kinematics.py",
+      "sha256": "fc8cb692b7ab04ca6dcfe089f0722ceb928289e542be58841dd5ca1770725460"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/test_records.py",
+      "sha256": "596a86ab7eda209485a8d5964ddb4fc6bb1dc042030617ec42efad622c39599f"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/test_worked.py",
+      "sha256": "519f2fbd65160becf50cdd6987435503406c19838b5a2021b3b83fb746c1f66e"
+    },
+    {
+      "path": "docs/experiments/observer_signal_v1/worked_example.py",
+      "sha256": "9741096cefd909256ed0ae3822d32f047724557ae77834d61bc40ea2f172b0d7"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/EXPERIMENT.md",
+      "sha256": "7ae44253f76ccd1b366ff404f0115e8ccfe607cfa4fdcbd252328b0d2d8e374b"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/inference.py",
+      "sha256": "fc6aa7248b40dcc11cc5ef6aa8b5a282378ac2daf9c6e45b0c953f7279e9865c"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/qubit.py",
+      "sha256": "c0095f9a753568b29dd7ddb8560ff386404ffefe9820a52a30a96b577aabb960"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/records.py",
+      "sha256": "ff806c033e3412459a10deb48938824010e8aac5d47c1ca202eee342e85b98f1"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/run_checks.py",
+      "sha256": "81fb14b73b5e61dc737bf4a8f1369d5e6f95deb30a60e5bb53cb0e8be7c9e59e"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/simulator.py",
+      "sha256": "ee04fdf1692c10b7e332da425e8f2c5af71a2bcc5beaa41c5266cf827856b816"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/test_inference.py",
+      "sha256": "dabd16c7f9272c17caa24d58cef07823b06260fa28ca6bf053141210cc887d97"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/test_qubit.py",
+      "sha256": "6800b33e0f5eecdde64d9de0218f739c40d2fad1015b1f117d8612ca5cf53006"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/test_records.py",
+      "sha256": "fc693c24515abffd77d4a3ce57f7baf3c5cc13d7163985f20a5ff1a3f19238df"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/test_worked.py",
+      "sha256": "4e8772509d49c1b0b38726ea96e620cca2600a1ed73d15e666e86a3f30594537"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/trial_record.schema.json",
+      "sha256": "db296afca116a128fecabfcb78529fe50c836e032ba4b98ae7597cc70cb0bc8b"
+    },
+    {
+      "path": "docs/experiments/qubit_record_v1/worked_example.py",
+      "sha256": "0bca33afe5353bad28e6110c4f847ea3290dc73b9bc5e2d696b3683d8e49d37d"
+    }
+  ]
+}
