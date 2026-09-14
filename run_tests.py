@@ -1006,13 +1006,20 @@ def test_applied_physics():
 
     section("Applied physics (5 tests + adversary)")
 
-    # BIC: perfect fit is −inf; penalizes extra parameters.
-    test("BIC: perfect fit = −inf", adv.bic(2, 10, 0.0) == float("-inf"))
-    test("BIC: penalizes extra params", adv.bic(5, 100, 1.0) > adv.bic(2, 100, 1.0))
-
-    # compare_bic: lower BIC wins.
-    cmp = adv.compare_bic(2, 0.5, 3, 1.0, 100)
-    test("compare_bic: DET wins when lower", cmp["det_wins"])
+    # Unknown Gaussian variance has no finite MLE at exact zero RSS.
+    test("BIC: zero RSS unavailable", adv.bic(2, 10, 0.0, regularity_confirmed=True) is None)
+    test("BIC: regularity must be declared", adv.bic(2, 100, 1.0) is None)
+    penalty = (adv.bic(5, 100, 1.0, regularity_confirmed=True)
+               - adv.bic(2, 100, 1.0, regularity_confirmed=True))
+    test("BIC: identifiable parameter penalty", abs(penalty - 3 * math.log(100)) < 1e-10)
+    cmp = adv.compare_bic(2, 0.5, 3, 1.0, 100, regularity_confirmed=True,
+                          families=("linear", "log_linear"))
+    test("conditional BIC compares named fit families",
+         cmp["preferred_family"] == "linear" and cmp["det_wins"] is None)
+    moments = adv.iid_roughness_moments(20, 0.1)
+    test("roughness retains shared adjacent-error covariance",
+         abs(moments["mean"] - 0.38) < 1e-12
+         and abs(moments["variance"] - 0.0224) < 1e-12)
 
     # κ-dynamics solver: recovers toward κ_eq with no damage.
     T_t = [300.0] * 100
@@ -1023,21 +1030,23 @@ def test_applied_physics():
     test("solve_kappa: decays toward κ_eq",
          k[-1] < k[0] and abs(k[-1] - 0.1) < abs(k[0] - 0.1))
 
-    # Discriminator: single-exponential → β≈1 (DET-like); stretched → β<1.
+    # A fitted exponent labels a curve shape, without identifying a mechanism.
     t = [i for i in range(100)]
     y_single = [math.exp(-i / 20.0) for i in t]
     y_stretched = [math.exp(-((i / 20.0) ** 0.5)) for i in t]
     fit1 = disc.fit_kww(t, y_single)
     fit2 = disc.fit_kww(t, y_stretched)
-    test("discriminator: single-exp → DET-like",
-         fit1["classification"] == "single_exponential_det_like")
-    test("discriminator: stretched → defect-like",
-         fit2["classification"] == "stretched_defect_like")
+    test("discriminator: single-exponential shape",
+         fit1["classification"] == "single_exponential")
+    test("discriminator: stretched-exponential shape",
+         fit2["classification"] == "stretched_exponential")
 
-    # run_all: 10 rows, all correctly identified.
+    # Ten supplied-generator examples are descriptive comparisons.
     r = run_all_applied_tests()
     test("applied tests: 10 rows", r["n_tests"] == 10)
-    test("applied tests: all correctly identified", r["n_correct_identification"] == 10)
+    test("applied tests: no fabricated identification count",
+         r["n_correct_identification"] is None
+         and all(row["bic_available"] is False for row in r["rows"]))
 
     # κ-recovery fit recovers a known exponential (the aging-model shape).
     from det8.applied_physics.applied_tests import _fit_exp_decay, run_aging_adversarial
@@ -1071,14 +1080,28 @@ def test_ingest_pipelines():
         test(f"{ds}: inputs equal length",
              n == len(inp["T_t"]) == len(inp["flux_t"]) == len(inp["observable"]) > 0)
 
-    # RINEX clock parser handles both bias-only (NVALS=1) and bias+drift (NVALS=2).
+    # RINEX 3.04 orders clock values as bias, bias sigma, then rate on a
+    # continuation row. NVALS=2 must never be misread as bias plus rate.
     rec = parse_igs_clock("AS G01 2024 01 01 00 00 00 2 1.0e-7 2.0e-15\n")
-    test("RINEX parser: parses AS line", len(rec) == 1 and abs(rec[0]["bias_s"] - 1e-7) < 1e-20
-         and abs(rec[0]["drift_s_per_s"] - 2e-15) < 1e-30)
+    test("RINEX parser: NVALS=2 is bias plus bias uncertainty",
+         len(rec) == 1
+         and abs(rec[0]["bias_s"] - 1e-7) < 1e-20
+         and abs(rec[0]["bias_sigma_s"] - 2e-15) < 1e-30
+         and rec[0]["drift_s_per_s"] is None)
     rec_bias_only = parse_igs_clock("AS G01 2024 01 01 00 00 00 1 -3.0e-4\n")
     test("RINEX parser: bias-only line", len(rec_bias_only) == 1
          and abs(rec_bias_only[0]["bias_s"] - (-3.0e-4)) < 1e-20
-         and rec_bias_only[0]["drift_s_per_s"] == 0.0)
+         and rec_bias_only[0]["bias_sigma_s"] is None
+         and rec_bias_only[0]["drift_s_per_s"] is None)
+    rec_with_rate = parse_igs_clock(
+        "AS G01 2024 01 01 00 00 00 3 1.0e-7 2.0e-15\n"
+        " 3.0e-18\n"
+    )
+    test("RINEX parser: NVALS=3 continuation carries clock rate",
+         len(rec_with_rate) == 1
+         and abs(rec_with_rate[0]["bias_s"] - 1e-7) < 1e-20
+         and abs(rec_with_rate[0]["bias_sigma_s"] - 2e-15) < 1e-30
+         and abs(rec_with_rate[0]["drift_s_per_s"] - 3e-18) < 1e-32)
 
     # IBM properties parser extracts T1/T2.
     obj = {"last_update_date": "2024", "qubits": [[

@@ -10,10 +10,10 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| QR results through RI-08j, registry, RI-15 adapter and conditional synthesis | Published; latest QR executable checkpoint `da8fe99a1b1b91dab962ec0ed17bde349a06458c`; synthesis checkpoint `50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473`, both remotely verified. RI-16 is now accepted and registered, giving a cumulative inventory of 411 witnesses. | Publish RI-16 after isolated new-suite replay and independent acceptance, preserving all prior source pins. |
+| QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 composition design is assigned. Review its probability/type contract before executor implementation; preserve accepted sources. |
 | RI-02/RI-04 kernel and certificate repairs | Published in verified checkpoint `38be4c0c941c62329b9175883748d4e586b9745e`: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Maintain the numerical/research limits; review later changes against this source identity. |
 | RI-12 exact identifiability | Published in the same checkpoint: `identifiability.py` and its 108-case test file. The mathematical contract was already published. | A measured application still needs data and an evaluation objective. No RET or core prerequisite for this exact interface. |
-| RI-11 applied comparison and clock reporting | Original scoped repairs accepted locally. Publication audit found and repaired two remaining underflow paths; chronology prerequisites now have bounded repairs under independent review. The validation helper is published in `38be4c0`. | Finish independent chronology review, capture clock-only tests and both affected runner groups, verify the isolated complete checkpoint and publish. |
+| RI-11 applied comparison and clock reporting | Complete reviewed publication candidate passed 105 focused tests and 33 legacy checks in isolation. Includes the corrected aggregate shape-norm guard, dated legacy/modern chronology and exact clock-only test/runner snapshots. | Publish the verified candidate and record its remote ref. Preserve the documented numerical, stable-file and synthetic-mapping limits. |
 | RI-12 synthetic comparator | Accepted locally; publication deferred for its actual RET import closure. | Resolve the existing RET baseline publication with its owner before publishing this consumer. No new RET implementation or bank work is assigned. |
 | RI-14 claims and generated reference | Accepted locally; unchanged whole-file publication would advertise missing public-core/RET surfaces and depend on unpublished contract changes. | Retain the existing research registry as the published research interface. Revisit claims with the corresponding baseline/support decision. |
 | RI-01 landing/status reconciliation and broader baseline | Accepted local reconciliation does not publish the source-bound core/RET evidence it describes. | Review prerequisites separately; preserve the unrelated working tree. |
@@ -50,15 +50,27 @@ on unrestricted real parameters. It returns either a row-space reconstruction
 or an exact nullspace counterexample. It does not provide noisy confidence,
 physical feasibility, model selection or measured application benefit.
 
-**Remaining dependency decisions**
+**RI-11 complete publication candidate**
 
-RI-11 needs chronology helpers `_epoch_coordinate` and `_elapsed_seconds`
-that are absent from the published ingestion module. Its reporting scripts
-also need `collect_daily_clock_drifts` and dated record fields. The current
-operational test file imports additional polling/ingestion work; copying that
-file whole would broaden the checkpoint. The next audit must identify a
-complete chronology scope and only its affected consumers, including the
-changed BIC/descriptive-report assertions in `test_applied_physics`.
+The completed scope contains six application/script modules, four focused
+test files, exactly two changed legacy runner groups and the corrected
+application document. The shared validation helper is already published.
+Runtime needs only the standard library and published package/helper sources;
+legacy `.Z` compatibility additionally invokes the existing system gzip tool.
+Pytest is a development dependency. No downloader, IBM ingestion, polling,
+core, RET, claims or packaging changes are included.
+
+The original broader ingestion/operational test files and runner remain in
+the working tree. Publication uses reviewed clock-only test snapshots and a
+HEAD-based runner snapshot; independent review confirmed exact retained
+function bodies and unchanged runner bytes outside the two selected groups.
+The final isolated candidate passed **105 focused tests** and **33 legacy
+checks**, after fixing the integration failure documented in the
+[progress record](REVIEW_PROGRESS.md). Every Python file is pinned there.
+The application Markdown status was updated after testing; executable bytes
+remain the tested versions. This does not constitute measured validation.
+
+**Remaining dependency decisions**
 
 The comparator's observed RET closure uses eleven files under `det8/ret`:
 `__init__.py`, `_codec.py`, `_planning.py`, `_score_arithmetic.py`,

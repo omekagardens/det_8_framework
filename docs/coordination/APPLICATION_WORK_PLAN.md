@@ -9,10 +9,12 @@ changed for this design.
 
 Publication is tracked separately in the
 [publication backlog](PUBLICATION_BACKLOG.md). The exact identifiability module
-and its 108 tests are published in verified checkpoint `38be4c0`. RI-11's
-chronology dependencies and the synthetic comparator's RET import closure
-remain unpublished prerequisites; local acceptance below does not imply that
-those complete consumers are available from the remote branch yet.
+and its 108 tests are published in verified checkpoint `38be4c0`. RI-11 now
+has a complete independently reviewed chronology/consumer publication
+candidate, with 105 focused tests and 33 legacy checks passing in isolation.
+The synthetic comparator's RET import closure remains a separate unpublished
+prerequisite; its local acceptance does not make that consumer available
+from the remote branch.
 
 **RI-11: accepted statistical repair batch**
 
@@ -23,9 +25,13 @@ group, and new `det8/tests/test_applied_comparison_contracts.py`. The audited
 direct consumers `scripts/full_year_aging.py` and `scripts/g11_quadratic.py`
 received narrow chronology/reporting changes, preserving configured paths and
 validated single-pass ingestion; their affected operational assertion was
-updated. Source reservations are released. Coordinator verification passed
-54 focused tests and 12 legacy checks, with separate independent numerical
-and chronology review. The retained specification below records the repair's
+updated. Publication review additionally repaired complete clock chronology
+and representability failures. Final isolated verification passed 105 focused
+tests (53 comparison, 36 chronology, 12 ingestion and 4 operational) and 33
+legacy checks (12 applied, 21 ingestion). Earlier 54-test/12-check acceptance
+was a local historical checkpoint. Independent chronology review added 188
+assertions across all 18 supported leap transitions and boundary/refusal cases.
+Source reservations are released. The retained specification below records the repair's
 mathematical basis. Historical reports remain historical; no real-data
 reanalysis or calibrated application benefit is established.
 
@@ -33,12 +39,26 @@ Current interfaces intentionally change: `bic()` returns `None` unless the
 caller explicitly confirms its regularity/sampling premises, and also at
 zero RSS under unknown variance. Causal winner/count fields are `None`;
 fit-family labels and descriptive RSS replace mechanism claims. Clock reports
-retain dated source records and actual elapsed days. Missing legacy `.clk.Z`
-chronology is refused. Interval averaging and clock-error covariance remain
-unmodeled; descriptive errors do not cure these scientific limitations.
-Detected positive-square underflow and nonfinite results refuse explicitly;
-an arithmetic refusal cannot silently remove a candidate from a grid search.
-These are bounded numerical guards, not general floating-point certification.
+retain dated source records and actual elapsed days. Legacy `.clk.Z`, modern
+and mixed products retain dates, time system and source identity and share
+ordering/duplicate checks. Unsupported or ambiguous chronology is refused.
+Every row's time scale is validated; finite rate arithmetic refuses nonzero
+underflow as well as overflow. UTC and UTC+3 GLO leap boundaries have explicit
+lower and upper table coverage; unknown time scales must be safe under both.
+The [progress record](REVIEW_PROGRESS.md) binds these changes to primary
+format/table sources, exact candidate pins and checks.
+
+Interval averaging and clock-error covariance remain unmodeled. File hashes
+assume stable files during parsing and later hashing; they do not establish
+immutable capture/replay. Legacy external decompression lacks the modern
+reader's stream-size limits. Generic satellite concatenation and synthetic
+temperature/forcing remain demonstration mappings outside measured acceptance.
+Detected residual-square underflow and nonfinite results refuse explicitly.
+The relaxation denominator uses an aggregate norm: tiny individual tail
+squares may round away when its total remains representable, while zero-total
+or entirely underflowed shapes refuse the whole bank in either search order.
+This avoids silently discarding a candidate and preserves ordinary descriptive
+demos. Subnormal accuracy and a certified optimizer are not established.
 
 The current RSS-based BIC assumes independent Gaussian errors with an unknown
 common variance. Distinguish it from known-noise likelihoods and descriptive

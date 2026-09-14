@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted and registered after the published RI-08 synthesis and RI-15 adapter. Its scoped publication is next. The applied chronology publication repairs are under independent review.**
+Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is the next QR assignment. The complete applied chronology publication candidate has passed independent review, 105 focused tests and 33 legacy checks in isolation.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 is accepted and registered after two independent reviews, 27 new checks per mode and 43 isolated registry regressions. Hold the six-file handoff quiet for scoped publication. No successor is yet assigned. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 is published in remotely verified `22eca4e`. RI-17 will define one bounded finite-protocol composition contract and remaining type/probability adapters, as specified below; no implementation is assigned before design review. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -50,7 +50,7 @@ Active file reservations following the first implementation cycle:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | `docs/track_b/QR_MAP.md`, `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md`, new isolated `docs/validation/t8-q-*` work, `docs/coordination/QR_HANDOFF.md`, and the explicitly assigned `docs/research/FINITE_RECORD_OBSERVABILITY.md` synthesis |
+| QR task | RI-17 design only: new `docs/coordination/QR_PROTOCOL_COMPOSITION_PLAN.md`, `docs/coordination/QR_HANDOFF.md`, `docs/track_b/QR_MAP.md` and `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md`. Accepted bundles and synthesis remain stable. |
 | Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/APPLICATION_WORK_PLAN.md` and maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md` |
 
 The documentation, pair-kernel, certificate and research-runner implementers
@@ -86,8 +86,9 @@ The [publication backlog](docs/coordination/PUBLICATION_BACKLOG.md) distinguishe
 accepted local work from complete remote checkpoints. RI-02/RI-04 repairs and
 RI-12 exact identifiability are published in remotely verified `38be4c0`:
 203 focused tests and 90 legacy research checks pass in its isolated source
-candidate without the unpublished core/RET baseline. RI-11 chronology, the comparator's RET imports,
-and RI-14 support/claim prerequisites remain separate publication work.
+candidate without the unpublished core/RET baseline. RI-11 now has a complete reviewed
+chronology/consumer candidate with 105 focused tests and 33 legacy checks passing.
+The comparator's RET imports and RI-14 support/claim prerequisites remain separate publication work.
 
 **Accepted implementation backlog**
 
@@ -115,12 +116,14 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-08 | F6/P4: one explicit operational reconstruction endpoint | QR | **Conditional finite-record synthesis assigned; full operational reconstruction remains dependency-gated.** Consolidate the accepted observability/stability endpoint, exact premises and construction arrows in one document. Preserve the distinction between known finite command matrices and the separate continuous-group theorem. Combined-proof review must retain physical selection, unrestricted instruments/composites, retained-word processes and measured-application gaps. |
 | RI-09 | P5/P6/P7: unbounded records, native order law and geometry | QR | **Research backlog.** Begin with typed probability/schedule consistency and a native generator classification. Fixed finite chain-forming port budgets fail the volume-filling role. Unbounded width alone is insufficient. Require an actual limiting object and measure before a reconstruction claim. |
 | RI-10 | F8: complete the existing G2 integration chain | Coordinator with RET owner | **Scoped backlog.** Verified bank-only evaluator and shared evaluation logic; consumption/source bindings; development equivalence; full source-held development rehearsal, independent audit, final matrix/wheel. Preserve truth declarations, acceptance rules and separate freeze/custody obligations. |
-| RI-11 | F9: repair deferred applied comparisons | Coordinator | **Accepted for the scoped arithmetic/reporting contract.** Gaussian likelihood/BIC conditions, identifiable parameter limits, roughness and chronology repaired; causal winner outputs retired. Detected underflow and invalid grid losses refuse safely. Coordinator reran 54 focused tests and 12 legacy checks; independent numerical/chronology review passed. Calibrated application performance and a clock-noise/interval-average model remain separate work. |
+| RI-11 | F9: repair deferred applied comparisons | Coordinator | **Accepted for the scoped arithmetic/reporting contract.** Gaussian likelihood/BIC conditions, identifiable parameter limits, roughness and chronology repaired; causal winner outputs retired. Detected underflow and invalid grid losses refuse safely. Final isolated publication candidate passed 105 focused tests and 33 legacy checks; independent numerical, chronology and snapshot review passed. Its aggregate shape-norm correction preserves ordinary demos while refusing an unevaluable bank. Calibrated application performance and a clock-noise/interval-average model remain separate work. |
 | RI-12 | O4/O5/O6: one bounded measurement/identifiability application | Coordinator, QR consultation | **Exact contract and synthetic public-API fixture accepted.** Observed-row certificates are paired with model-conditional Gaussian summaries and distinct mean/predictive variances. Repeated/distinct references, held-out non-assimilation and byte-verified replay pass 34 new independent tests. No RET source changes, policy comparison, closure or measured benefit. The [application work plan](docs/coordination/APPLICATION_WORK_PLAN.md) records remaining data/objective/evaluation obligations. |
 | RI-13 | F10/P0: premise/result and explanatory ledger | Coordinator, independent review | **Accepted consolidation, maintained through RI-08j and RI-15.** The [ledger](docs/coordination/OPERATIONAL_PREMISE_LEDGER.md) binds the accepted theorem chain to exact domains, premises, range/catalogue compatibility, safe conditional composition and exclusions. Initial acceptance had two independent reviews and 28 valid local links. RI-15 now supplies one exact adapter; general interoperability, physical availability and further reconstruction remain separate obligations. |
 | RI-14 | Machine-readable scoped research authorization | Coordinator | **Accepted.** A separate `research_activity_document()` endpoint and generated summary expose scoped authorization and eighteen explicit accepted references through RI-08j. Legacy claim/document contents, priorities and support/evidence statuses are preserved exactly. Detached metadata, isolated normal/optimized stdlib-only execution, links and export parity pass; 21 focused boundary/summary cases pass within the 64-case integration check. |
 | RI-15 | Exact local-to-joint source and history interchange | Coordinator, QR consultation | **Accepted bounded research interface.** The [adapter contract](docs/validation/t8-q-local-joint-adapter-2026-09-13/ADAPTER.md) preserves the exact RI-08c snapshot, pending controls, complete records and reference provenance through RI-08d stages. Weights are conditional on supplied normalized snapshots. Two source audits, 51 independent probes per mode and root's 36 regression cases pass, including the pinned 20-witness normal/optimized runs. This separate fixed-alias launcher changes neither accepted model nor registered runner. Full earlier protocol weights, general interoperability and physical availability remain separate. |
-| RI-16 | Retained-word first-commit extension | QR, with coordinator review | **Accepted and registered.** Complete countable output/base-norm, operator convergence, exact survival-minus-never tail, chronological prefix-shift leastness and bounded word-dependent continuation theorem. Two independent audits and27 new checks per mode plus43 registry regressions pass. Fixed finite-input/stationary-policy and terminal-scalar boundaries remain explicit. |
+| RI-16 | Retained-word first-commit extension | QR, with coordinator review | **Accepted, registered and published in verified `22eca4e`.** Complete countable output/base-norm, operator convergence, exact survival-minus-never tail, chronological prefix-shift leastness and bounded word-dependent continuation theorem. Two independent audits and27 new checks per mode plus43 registry regressions pass. Fixed finite-input/stationary-policy and terminal-scalar boundaries remain explicit. |
+
+| RI-17 | Finite protocol composition design | QR, with coordinator review | **Assigned and active.** Specify one complete finite policy and the exact probability/type adapters from local preparation to a terminal read. Independent design review precedes any executor implementation. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -243,6 +246,42 @@ without inventing a new instrument. The written proof must establish the
 infinite conclusion independently of the finite witnesses. Return a stable
 handoff with independent proof/source review, exact pins, actual check results
 and remaining limitations, then stop for coordinator acceptance.
+
+**RI-17 bounded design: finite protocol composition.** Following the verified
+RI-16 checkpoint, QR is assigned one new design artifact,
+`docs/coordination/QR_PROTOCOL_COMPOSITION_PLAN.md`, plus its three existing
+map/handoff documents. The assignment is a concrete implementation/proof
+contract for one finite route through existing accepted APIs, not a general
+SDK or another control/state-cone refinement. All accepted sources and the
+synthesis remain unchanged; root keeps registry, coordinator and git/index.
+
+Trace one supplied normalized local source through a fully declared finite
+record-dependent policy, an explicit independent reference selection, the
+RI-15 preterminal coupling interface, the fixed K_t image, the explicitly
+adopted L_t return type and one terminal read. Inspect actual current object
+types and retained fields. Identify where an exact adapter exists and where
+one still needs implementation or a new availability premise. Each transition
+must state domain, output type, full raw payload, context/frame, actual pending
+word, committed labels, origins/precursors, and unnormalized branch weight.
+
+Earlier preparation/reference-choice weights must be supplied by the complete
+policy; snapshot provenance cannot infer them. Keep every reference choice
+and local branch label, and sum probabilities only for a declared coarse
+question. Explain the C0 eligibility gate without excluding legitimate earlier
+C states, silently replacing them by J2Phi, or allowing a raw-payload policy
+oracle. No old terminal object may be reused as an L_t source; the design must
+identify the correct preterminal conversion point. Terminal scalar effects
+do not create a postread residual or continuation.
+
+Give a proposed finite conditional composition theorem, its mass/record/type
+invariants, a small exact acceptance fixture and refusal cases, and the exact
+files an implementation would need. Explain which existing tests could be
+reused and which new assertions would close the probability/type arrow.
+RI-16 does not make this finite adapter or earlier-weight orchestration exist
+automatically; do not conflate the two. Retain any missing premise explicitly.
+Obtain an independent design review, return a source-stable handoff, and stop.
+No new executor, witness registration, RET/apparatus work, empirical claim or
+automatic implementation is assigned in this design stage.
 
 **Application decision**
 

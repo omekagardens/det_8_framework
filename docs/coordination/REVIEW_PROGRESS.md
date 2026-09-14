@@ -6,15 +6,15 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j and RI-16 | **Conditional synthesis published; retained-word extension accepted and registered.** Two independent RI-16 audits passed, with18 exact theorem probes and108 native/context assertions. Root passed27 new witnesses normally and optimized plus43 isolated registry regressions. | Publish RI-16 with exact pins and retain the fixed-policy/finite-input and scalar-terminal boundaries. No successor is yet assigned. |
+| QR coordination / RI-05–08j and RI-16–17 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 finite protocol composition design is assigned and active. Review its actual probability/type interfaces before authorizing implementation. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for nineteen suites.** Cumulative411 witnesses/34 executable sources: prior384 source-bound results with unchanged pins plus27 new RI-16 checks per mode. Full preflight and43 isolated registry regressions pass. | Preserve execution boundaries;411 is not a fresh all-suite replay. RI-15 remains separate; the deferred claims endpoint remains its explicit18-reference subset. |
 | RI-04 current mathematical certificates | **Accepted.** Eight research modules and narrow legacy groups reconciled; coordinator reran 141 focused cases successfully. Implementer reports 80 impacted legacy checks with no failures/errors/skips. MODEL_CARD current O1/O2 assessment is reconciled; Previous remains historical. | RI-11 is now accepted separately; general reconstruction/physical premise selection remains open. |
-| RI-11–12 applied work | **RI-11, RI-12 exact contract and synthetic comparator fixture accepted.** Coordinator replay passed 236 focused cases: 34 new comparator, 108 identifiability, 54 applied/consumer and 40 registry. Model-conditional Gaussian oracles, exact observed-row/source bindings, held-out non-assimilation and byte-verified replay pass. | User's measured instrument/dataset choice remains open. Establish target, tolerance and evaluation objective before a measured pilot; coordinate RET ownership before source changes. |
+| RI-11–12 applied work | **RI-11 complete publication candidate verified:** 105 focused tests and 33 legacy checks pass in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Publish the reviewed RI-11 scope. Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest synthesis checkpoint: [50d652f](https://github.com/omekagardens/det_8_framework/commit/50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473). Latest executable repair checkpoint: [38be4c0](https://github.com/omekagardens/det_8_framework/commit/38be4c0c941c62329b9175883748d4e586b9745e). The QR executable baseline remains `da8fe99`. All are pushed to `origin/ret` and independently verified. Root owns git/index operations. | Continue reviewed scoped commits and pushes; preserve active QR work and the separately deferred local baseline. |
+| Remote checkpoints | Latest verified QR checkpoint: [22eca4e](https://github.com/omekagardens/det_8_framework/commit/22eca4e7eb1b73b84db6fe3b6ff613df932b15c1). Synthesis: `50d652f`; research/identifiability repairs: `38be4c0`. Each normal push to `origin/ret` was independently verified. Root owns git/index operations. | Complete RI-11 isolated integration and publish its exact scope; preserve active QR design work and the separately deferred baseline. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -2055,3 +2055,148 @@ close arbitrary growing-history policies, earlier selection probabilities,
 general protocol/type orchestration, physical selection or measured benefit.
 The local unpublished claims endpoint remains its explicit eighteen-reference
 subset through RI-08j; its broad core/RET support dependencies remain deferred.
+
+
+**RI-16 checkpoint pushed; RI-17 design dispatched**
+
+[Commit 22eca4e7eb1b73b84db6fe3b6ff613df932b15c1](https://github.com/omekagardens/det_8_framework/commit/22eca4e7eb1b73b84db6fe3b6ff613df932b15c1)
+publishes thirteen reviewed RI-16/registry/status paths. Its tree is
+`0078050a51566498254b472e21609e86b996753c`. Root checked the exact staged
+allowlist and candidate bytes, pushed normally to `origin/ret`, and verified
+the full remote branch ref independently. The index was empty afterward.
+
+Only after that verification, root assigned the existing Quantum Relativity
+thread the RI-17 design described in the root plan. It must inspect the actual
+APIs along one finite local preparation, reference selection, RI-15
+preterminal coupling, adopted L_t return and terminal-read route. Every
+transition must account for the full record, type and unnormalized weight.
+Earlier selection probabilities are supplied by a complete declared policy;
+provenance cannot infer them. The design must distinguish implemented adapters
+from missing adapters or availability premises. RI-16 does not supply this
+finite orchestration automatically. No executor or new registry entry is
+assigned before independent design acceptance.
+
+QR owns only the new composition plan and its three existing maps/handoff.
+Root retains coordinator and git/index ownership and advances RI-11
+independently. RET baseline publication and the measured instrument/data
+decision remain separate dependencies.
+
+
+**RI-11 publication audit: initial integration failure**
+
+A frozen candidate based on `22eca4e` included the complete reviewed clock
+reader and direct consumers, clock-only snapshots of two existing test files,
+and only the two affected legacy runner groups. Independent snapshot review
+confirmed the exact selected function bodies, all twelve source/document
+pins, nine whole-file matches and the unchanged runner remainder. No
+unpublished core/RET source or downloader implementation was required.
+The retained downloader references call only published pure URL/calendar
+helpers, with no download.
+
+The four focused test files passed **101 cases in 0.16 s**. The legacy ingest
+group passed **21 checks**. The applied group then exposed an integration
+regression in the new shape-norm guard: the ordinary cavity demo includes
+positive tail terms whose individual squares underflow even though its total
+shape norm is representable. The strict per-term norm check therefore stopped
+a valid descriptive fit. This failed candidate was not staged or published.
+The subsequent repair and its final validation are recorded below; the initial
+101-case result alone does not establish successful integration.
+
+
+**RI-11 complete chronology/consumer candidate accepted**
+
+The final source candidate is based on `22eca4e` and includes eleven Python
+paths plus `docs/applied_physics.md`. It closes the earlier missing chronology
+dependency without copying unrelated downloader, IBM, polling, core or RET
+work. The two clock scripts use the same dated reader/report contract.
+Their corrupt-input CLI regression now covers both scripts.
+
+The published-format clock reader preserves the six NVALS fields in order,
+continuations, calendar/time system, uncertainty values, source identity and
+rejection details. NVALS=2 means bias plus bias uncertainty; NVALS=3 adds rate.
+GLO is aligned to UTC(SU)+3 hours, so its inserted-second boundaries differ
+from UTC-labelled coordinates. These format claims follow the official
+[RINEX clock 3.04 specification](https://files.igs.org/pub/data/format/rinex_clock304.txt).
+The pinned coverage uses the [IERS leap-second history](https://hpiers.obspm.fr/iers/bul/bulc/Leap_Second.dat)
+and [Bulletin C 72](https://datacenter.iers.org/data/16/bulletinc-072.txt):
+UTC support starts at 1980-01-01 and ends at the declared 2027-01-01 boundary,
+with GLO labels shifted by three hours. Unknown scales must be unambiguous
+under both UTC and GLO interpretations.
+
+The audit repaired five chronology failure classes: unknown-scale GLO leap
+ambiguity, missing lower table coverage, invalid interior time-system rows,
+nonfinite/nonzero-underflow rate arithmetic, and inconsistent plain/gzip/legacy
+header refusal. Legacy rows now retain dates/time scale/source hash and share
+modern ordering, duplicate and overlap checks, including mixed collections.
+Independent review of the complete reader and new 36-case chronology suite
+added 188 exact/boundary assertions across all 18 supported leap transitions.
+No remaining blocker was found in that bounded contract.
+
+Two separate numerical failures were also repaired: a zero represented
+relaxation shape norm could silently drop a better bank candidate, and a
+clock quadratic fit could falsely report exact RSS=0 when nonzero residual
+squares underflowed. The first aggregate-norm repair was too strict for
+ordinary tiny tails, as recorded above. The final denominator uses `hypot`
+before squaring: representable aggregate norms survive tiny individual tails;
+a zero aggregate or entirely underflowed shape refuses the complete bank,
+including when another candidate was already evaluated. Strict residual
+square guards remain unchanged. Independent geometric-series and exact
+Fraction aggregate witnesses cover the corrected distinction. These are
+bounded representability guards, not accuracy or optimizer certificates.
+
+Final isolated verification:
+
+| Focused file/group | Passed |
+|---|---:|
+| Applied comparison contracts | 53 |
+| Clock chronology contracts | 36 |
+| Clock-only ingestion snapshot | 12 |
+| Clock-only operational snapshot | 4 |
+| Legacy applied group | 12 |
+| Legacy ingestion group | 21 |
+
+The four pytest files passed **105 cases in 0.17 s**. Both legacy groups
+completed with **33 passes, zero failures, zero errors and zero skips**; this
+includes the ordinary cavity demo that failed in the initial candidate.
+No unchanged QR, research, RET, G1, wheel or full calibration suite was replayed.
+The earlier local counts remain historical checkpoints.
+
+The independent snapshot audit confirmed the twelve candidate pins, nine
+whole-file copies, selected clock function bodies and byte-identical runner
+remainder. Only the downloader-validation tail and polling-only root-path
+entry were removed from copied test bodies; their broader working files are
+preserved. The unchanged legacy downloader references use published pure
+URL/calendar helpers only. The final two-source norm correction received its
+own delta review. No external datasets/services or tokens were accessed.
+
+Limits remain explicit: source hashes assume stable paths during parsing and
+later hashing, rather than immutable acquisition; legacy external decompression
+lacks the modern reader's stream-size bounds; generic satellite concatenation
+and synthetic temperature/forcing are demonstration mappings. Headerless
+snippets are conditional support, not complete strict RINEX certification.
+Interval averaging, clock-noise covariance, physical identification and
+measured application benefit remain outside this acceptance.
+
+| Final RI-11 candidate path | SHA-256 |
+|---|---|
+| `det8/applied_physics/adversarial.py` | `d0135d04988899cfa33a4e49bc74fa458c8a82fb260fefa61a17ed9277613de1` |
+| `det8/applied_physics/applied_tests.py` | `2284a9530109e642cc3c06cbfca9c3a51314d9ef20564a8e6250ca1cdcde93b4` |
+| `det8/applied_physics/discriminator.py` | `bbcf8c0af6d735512c5d089f9c779a9da519be626dc83d9fc8835abfc61db07d` |
+| `det8/applied_physics/ingest.py` | `78003b73f195d074c0a737bc377a475670aafdc5430f527e3d0e783b0e33ea28` |
+| `scripts/full_year_aging.py` | `2b496223b7340de4fbfcaf4644064b0f2cb7b897eefb9b0a082852588504cc29` |
+| `scripts/g11_quadratic.py` | `4bd85520884f46bf6c58db2998b1f2ff907f5ff13a0ea04f32e13e69e3f9fa5a` |
+| `det8/tests/test_applied_comparison_contracts.py` | `f5cf9b40eb2081aa461e56829226867e19d260244ab191c6bc1ed39bd0dc4e03` |
+| `det8/tests/test_clock_chronology_contracts.py` | `620c91a9bf147bfd08bf3bb39462ecdc8b2ef821801524ed426e684bb5fcbf67` |
+| `docs/applied_physics.md` | `435b2a2ed496cc084f2b75c485f0ec4ea52c0ce0b9fec72004a3ab6376a5843e` |
+| `det8/tests/test_ingestion.py` | `3bfd221008b52421844f41a8a80602ac880e3c0229dd223609c7d8e9dfd31c25` |
+| `det8/tests/test_operational_scripts.py` | `ec8378c6af6eeb128433974cf330554d2b04604e09e095407bb2a1944fbf945f` |
+| `run_tests.py` | `72ff241d1019ed2c5217a11fe1da0cd7a74ac914632486dadda4729249272647` |
+
+The three selectively staged paths retain broader working versions. Their
+unchanged working hashes are:
+
+| Preserved working path | SHA-256 |
+|---|---|
+| `det8/tests/test_ingestion.py` | `4056dbf30e61d435c3c164c362f2af2a4a2941e235a734f1cb0394e22598ecbf` |
+| `det8/tests/test_operational_scripts.py` | `05c697d88733a4dc008d9eaa2e995d455a959065e009534ab9ae82b592b9cdd4` |
+| `run_tests.py` | `819fc4e5cce73a3e5eabf970bdaa24931c1e480e7968471ac4d228e2ea0914de` |

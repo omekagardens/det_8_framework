@@ -1,38 +1,73 @@
-"""
-DET v8.0 — Applied Physics: the Five Applied Tests
+"""Descriptive applied fit demonstrations with explicit comparison limitations.
 
-Each test:
-  1. Generates SYNTHETIC data mimicking a real-world dataset (under the DET
-     κ-model AND under the standard model, so the comparison can be shown to
-     identify the generating model honestly).
-  2. Fits the standard baseline and the DET κ-model.
-  3. Compares BIC (DET wins only if lower BIC).
-  4. Runs the single-vs-stretched discriminator (where a relaxation is involved).
-
-The real datasets (IGS, IBM/Google calibration logs, NIST/LIGO cavity data,
-NASA/ESA telemetry, gauge-block archives) are external; the ingest stubs are
-in `kappa_ingest.py`. This module demonstrates the full adversarial machinery
-on synthetic surrogates, so it is runnable and testable today.
+Historical function names and generator aliases remain callable. Synthetic
+curves are declared fit families, not physical identification experiments.
+Grid/clipped fits have descriptive training RSS and no ordinary BIC claim.
+The roughness example declares its different observation-noise levels; it is
+not a diffusion-versus-defect mechanism discriminator. Real aging inputs keep
+actual elapsed chronology and require a separate observation-noise analysis.
 """
 
 from __future__ import annotations
 
 import math
+import random
+from itertools import pairwise
 
 from det8.applied_physics import adversarial as adv
-from det8.applied_physics import kappa_ingest as ki
 from det8.applied_physics import discriminator as disc
+from det8.applied_physics import kappa_ingest as ki
+from det8.models.validation import require_nonnegative_finite, require_positive_finite
+
+GRID_REASON = "finite search bank and possible clipping/degeneracy; ordinary BIC regularity not established"
+AGING_REASON = "finite tau bank and unvalidated clock-error covariance; ordinary BIC unavailable"
 
 
-# ── Shared helpers ──────────────────────────────────────────────────────────
+def _times(t, y):
+    t, y = adv.paired_series(t, y)
+    if any(value < 0 for value in t):
+        raise ValueError("elapsed times must be nonnegative")
+    return t, y
 
 
 def _det_drift(t, T_t, flux_t, kappa0, kappa_eq, tau0, E_a, damage_rate, dt, scale):
-    """The DET applied model: Δf/f(t) = scale·κ(t), κ from the κ-dynamics."""
-    tau_rec_t = ki.temperature_to_tau_rec(T_t, tau0, E_a)
-    damage_t = ki.flux_to_damage(flux_t, damage_rate)
-    kappa = ki.solve_kappa(kappa0, kappa_eq, tau_rec_t, damage_t, dt)
-    return [scale * k for k in kappa]
+    """Supplied clipped Euler recovery family y=scale*kappa; time units must agree."""
+    t, T_t = _times(t, T_t)
+    _, flux_t = adv.paired_series(t, flux_t)
+    dt = require_positive_finite(dt, "dt")
+    if any(not math.isclose(b - a, dt, rel_tol=1e-12, abs_tol=0)
+           for a, b in pairwise(t)):
+        raise ValueError("fixed-dt kappa solver requires evenly spaced actual times")
+    if any(value <= 0 for value in T_t) or any(value < 0 for value in flux_t):
+        raise ValueError("temperature must be positive and flux nonnegative")
+    kappa0 = require_nonnegative_finite(kappa0, "kappa0")
+    kappa_eq = require_nonnegative_finite(kappa_eq, "kappa_eq")
+    if max(kappa0, kappa_eq) > 1:
+        raise ValueError("kappa0 and kappa_eq must lie in [0,1]")
+    tau0 = require_positive_finite(tau0, "tau0")
+    E_a = require_nonnegative_finite(E_a, "activation energy")
+    damage_rate = require_nonnegative_finite(damage_rate, "damage_rate")
+    scale = require_positive_finite(scale, "scale")
+    tau = ki.temperature_to_tau_rec(T_t, tau0, E_a)
+    damage = ki.flux_to_damage(flux_t, damage_rate)
+    adv.finite_series(tau, "recovery time")
+    adv.finite_series(damage, "damage")
+    return adv.finite_series([scale * k for k in ki.solve_kappa(kappa0, kappa_eq, tau, damage, dt)], "predicted output")
+
+
+def kappa_output_coordinates(kappa0, kappa_eq, damage_rate, scale, tau0):
+    """Unclipped fixed-Ea equation depends on these products, not five independent scalars.
+
+    This is an upper bound of four identifiable combinations, not a fitted
+    rank certificate. Constant forcing may lower rank; clipping changes the
+    symmetry and regularity. A scale calibration must be independent to fix it.
+    """
+    values = [require_nonnegative_finite(value, "parameter")
+              for value in (kappa0, kappa_eq, damage_rate)]
+    scale, tau0 = require_positive_finite(scale, "scale"), require_positive_finite(tau0, "tau0")
+    products = adv.finite_series([scale * value for value in values], "output coordinate")
+    return {"y0": products[0], "y_eq": products[1],
+            "output_damage_rate": products[2], "tau0": tau0}
 
 
 def _fit_det_grid(t, drift, T_t, flux_t, dt,
@@ -40,365 +75,316 @@ def _fit_det_grid(t, drift, T_t, flux_t, dt,
                   kappa_eq_grid=(0.0, 0.02, 0.05, 0.1, 0.5),
                   tau0_grid=(0.1, 1.0, 10.0, 30.0, 100.0, 300.0),
                   damage_grid=(0.0, 1e-3, 1e-2, 1e-1, 0.5),
-                  scale_grid=(0.5, 1.0),
-                  E_a=0.01):
-    """Grid-search the DET κ-model to minimize RSS vs the drift series."""
-    best = {"rss": float("inf"), "params": None}
-    for k0 in kappa0_grid:
-        for ke in kappa_eq_grid:
-            for tau0 in tau0_grid:
-                for dmg in damage_grid:
-                    for sc in scale_grid:
+                  scale_grid=(0.5, 1.0), E_a=0.01):
+    """Descriptive finite-grid RSS fit; no rank inferred from named search quantities."""
+    t, drift = _times(t, drift)
+    _, T_t = adv.paired_series(t, T_t)
+    _, flux_t = adv.paired_series(t, flux_t)
+    grids = [tuple(grid) for grid in (kappa0_grid, kappa_eq_grid, tau0_grid, damage_grid, scale_grid)]
+    if any(not grid for grid in grids):
+        raise ValueError("parameter grids must be nonempty")
+    best = None
+    for k0 in grids[0]:
+        for ke in grids[1]:
+            for tau0 in grids[2]:
+                for dmg in grids[3]:
+                    for sc in grids[4]:
                         pred = _det_drift(t, T_t, flux_t, k0, ke, tau0, E_a, dmg, dt, sc)
                         rss = adv.rss_between(pred, drift)
-                        if rss < best["rss"]:
-                            best = {"rss": rss,
-                                    "params": {"kappa0": k0, "kappa_eq": ke, "tau0": tau0,
-                                               "damage_rate": dmg, "scale": sc}}
+                        if best is None or rss < best["rss"]:
+                            best = {"rss": rss, "params": {"kappa0": k0, "kappa_eq": ke,
+                                    "tau0": tau0, "damage_rate": dmg, "scale": sc}}
+    best.update({"fit_family": "clipped_forced_recovery_grid", "bic_available": False,
+                 "bic_reason": GRID_REASON, "identifiable_mean_parameters": None,
+                 "unclipped_fixed_Ea_identifiable_combinations_at_most": 4,
+                 "identifiability_note": "scale confounding without clipping; forcing may lower rank"})
     return best
+
+
+def _fit_design(columns, y, rank_tolerance=1e-12):
+    """Scaled modified Gram-Schmidt fit; rank is a stated numerical design diagnostic."""
+    y = adv.finite_series(y)
+    columns = [adv.finite_series(column) for column in columns]
+    if any(len(column) != len(y) for column in columns):
+        raise ValueError("design and observation lengths must match")
+    q, r, scales = [], [], []
+    for column in columns:
+        norm = math.sqrt(math.fsum(value * value for value in column))
+        scales.append(norm)
+        v = [value / norm for value in column] if norm else [0.0] * len(y)
+        coefficients = []
+        for basis in q:
+            coefficient = math.fsum(a * b for a, b in zip(basis, v))
+            coefficients.append(coefficient)
+            v = [a - coefficient * b for a, b in zip(v, basis)]
+        # Reorthogonalize to avoid pretending an ill-conditioned normal matrix is full rank.
+        for i, basis in enumerate(q):
+            correction = math.fsum(a * b for a, b in zip(basis, v))
+            coefficients[i] += correction
+            v = [a - correction * b for a, b in zip(v, basis)]
+        residual_norm = math.sqrt(math.fsum(value * value for value in v))
+        r.append(coefficients + [residual_norm])
+        if residual_norm > rank_tolerance:
+            q.append([value / residual_norm for value in v])
+    rank = len(q)
+    if rank != len(columns):
+        return None, rank
+    rhs = [math.fsum(a * b for a, b in zip(basis, y)) for basis in q]
+    scaled = [0.0] * rank
+    for i in reversed(range(rank)):
+        scaled[i] = (rhs[i] - math.fsum(r[j][i] * scaled[j] for j in range(i + 1, rank))) / r[i][i]
+    return [value / norm for value, norm in zip(scaled, scales)], rank
 
 
 def _fit_ieee(t, drift):
-    """Least-squares fit of IEEE aging y = a·ln(1+t) + b·t + c (3 params)."""
-    x1 = [math.log1p(ti) for ti in t]
-    x2 = list(t)
-    # Solve 3-parameter linear least squares via the normal equations.
-    n = len(t)
-    S11 = sum(a * a for a in x1); S12 = sum(a * b for a, b in zip(x1, x2))
-    S13 = sum(x1); S1y = sum(a * y for a, y in zip(x1, drift))
-    S22 = sum(b * b for b in x2); S23 = sum(x2); S2y = sum(b * y for b, y in zip(x2, drift))
-    S33 = n; S3y = sum(drift)
-    # Solve the 3x3 system (Gaussian elimination, fixed size).
-    M = [[S11, S12, S13], [S12, S22, S23], [S13, S23, S33]]
-    v = [S1y, S2y, S3y]
-    try:
-        coef = _solve3(M, v)
-    except ZeroDivisionError:
-        return {"rss": float("inf"), "params": None}
-    a, b, c = coef
-    pred = [a * math.log1p(ti) + b * ti + c for ti in t]
-    return {"rss": adv.rss_between(pred, drift), "params": {"a": a, "b": b, "c": c}}
+    """Log-linear a log(1+t)+bt+c; three mean parameters only for rank-three design."""
+    t, drift = _times(t, drift)
+    columns = [[math.log1p(value) for value in t], t, [1.0] * len(t)]
+    coefficient, rank = _fit_design(columns, drift)
+    metadata = {"fit_family": "log_linear", "design_rank": rank,
+                "rank_tolerance": 1e-12, "identifiable_mean_parameters": rank,
+                "bic_available": False, "bic_reason": "observation-noise and sampling assumptions not declared",
+                "monotonicity_assumed": False}
+    if coefficient is None:
+        return {**metadata, "rss": None, "params": None, "error": "rank-deficient log-linear design"}
+    pred = [sum(coefficient[j] * columns[j][i] for j in range(3)) for i in range(len(t))]
+    return {**metadata, "rss": adv.rss_between(pred, drift),
+            "params": dict(zip(("a", "b", "c"), coefficient))}
 
 
 def _solve3(M, v):
-    """Solve a 3x3 linear system by Gaussian elimination (returns 3 coefs)."""
-    A = [row[:] for row in M]
-    b = v[:]
+    """Retained small-system helper; solve with pivoting, reject singular systems."""
+    rows = [list(row) + [value] for row, value in zip(M, v, strict=True)]
+    if len(rows) != 3 or any(len(row) != 4 for row in rows):
+        raise ValueError("expected a three-by-three system")
     for i in range(3):
-        piv = A[i][i]
-        if abs(piv) < 1e-15:
-            raise ZeroDivisionError
-        for j in range(i + 1, 3):
-            f = A[j][i] / piv
-            for k in range(i, 3):
-                A[j][k] -= f * A[i][k]
-            b[j] -= f * b[i]
-    x = [0.0] * 3
-    for i in reversed(range(3)):
-        x[i] = (b[i] - sum(A[i][j] * x[j] for j in range(i + 1, 3))) / A[i][i]
-    return x
+        pivot = max(range(i, 3), key=lambda j: abs(rows[j][i]))
+        rows[i], rows[pivot] = rows[pivot], rows[i]
+        if rows[i][i] == 0:
+            raise ZeroDivisionError("singular system")
+        divisor = rows[i][i]
+        rows[i] = [value / divisor for value in rows[i]]
+        for j in range(3):
+            if j != i:
+                factor = rows[j][i]
+                rows[j] = [a - factor * b for a, b in zip(rows[j], rows[i])]
+    return [row[-1] for row in rows]
 
 
-def _result(name, generating_model, bic_det, bic_std, det_wins, extra=None):
-    correct = det_wins if generating_model == "det" else not det_wins
-    out = {
-        "test": name,
-        "generating_model": generating_model,
-        "bic_det": bic_det,
-        "bic_std": bic_std,
-        "det_wins": det_wins,
-        "correct_identification": correct,
-    }
-    if extra:
-        out.update(extra)
-    return out
+def descriptive_fit_report(fits, n_data, reason=GRID_REASON):
+    """Same-data training errors only, with no BIC or causal winner."""
+    if isinstance(n_data, bool) or not isinstance(n_data, int) or n_data <= 0:
+        raise ValueError("n_data must be a positive integer")
+    require_positive_finite(n_data, "n_data")
+    output = {}
+    for family, fit in fits.items():
+        rss = fit.get("rss")
+        if rss is not None:
+            rss = require_nonnegative_finite(rss, "rss")
+        output[family] = {**fit, "rss": rss, "rmse": math.sqrt(rss) / math.sqrt(n_data) if rss is not None else None}
+    scores = {family: fit["rss"] for family, fit in output.items() if fit["rss"] is not None}
+    minimum = min(scores.values()) if scores and len(scores) == len(output) else None
+    tied = [family for family, rss in scores.items() if rss == minimum]
+    reasons = [reason]
+    if any(rss == 0 for rss in scores.values()):
+        reasons.append("zero RSS: unknown-variance Gaussian likelihood is unbounded")
+    return {"fits": output, "n_data": n_data, "score_type": "descriptive_training_rss",
+            "lowest_rss_family": tied[0] if len(tied) == 1 else None,
+            "bic_available": False, "bic_reason": "; ".join(reasons),
+            "best": None, "det_wins": None, "physical_mechanism_identified": False}
 
 
-# ── Test 1: GNSS Clock Aging ───────────────────────────────────────────────
+def _generator(value, first, second):
+    aliases = {"det": first, "standard": second, first: first, second: second}
+    if value not in aliases:
+        raise ValueError("unknown synthetic generator")
+    return aliases[value]
+
+
+def _result(name, generator, report, **extra):
+    return {"test": name, "generating_model": generator, "data_kind": "synthetic",
+            **report, "bic_det": None, "bic_std": None, "correct_identification": None, **extra}
 
 
 def test_gnss_clock_aging(generating_model="det", seed=42):
-    """Does the κ-model beat IEEE aging on a clock's frequency-drift record?
-
-    The clock's cavity is a κ system; a solar-proton event spikes κ̇_damage.
-    """
-    dt = 1.0
-    n = 200
-    t = [i * dt for i in range(n)]
-    T_t = [300.0] * n
-    flux_t = [0.0] * n
-    flux_t[100] = 1.0   # solar-proton event: one sharp damage pulse at t=100.
-
-    if generating_model == "det":
-        # Steady state κ=0.5, proton event spikes κ → 1.0, then exponential
-        # recovery back to 0.5 (the "walk" IEEE log/linear aging cannot fit).
-        drift = _det_drift(t, T_t, flux_t, kappa0=0.5, kappa_eq=0.5,
-                           tau0=30.0, E_a=0.01, damage_rate=0.5, dt=dt, scale=1.0)
+    """Declared deterministic recovery-pulse and stepped log-linear generator examples."""
+    generator = _generator(generating_model, "clipped_recovery_pulse", "stepped_log_linear")
+    t, temperature, flux = list(range(200)), [300.0] * 200, [0.0] * 200
+    flux[100] = 1.0
+    if generator == "clipped_recovery_pulse":
+        drift = _det_drift(t, temperature, flux, 0.5, 0.5, 30, 0.01, 0.5, 1, 1)
     else:
-        drift = [adv.ieee_clock_aging(ti, 0.3, 0.001, 0.1) + (0.5 if i >= 100 else 0.0)
+        drift = [adv.ieee_clock_aging(ti, 0.3, 0.001, 0.1) + (0.5 if i >= 100 else 0)
                  for i, ti in enumerate(t)]
-
-    fit_det = _fit_det_grid(t, drift, T_t, flux_t, dt, E_a=0.01)
-    fit_ieee = _fit_ieee(t, drift)
-    cmp = adv.compare_bic(4, fit_det["rss"], 3, fit_ieee["rss"], n)
-    return _result("GNSS clock aging", generating_model, cmp["bic_det"], cmp["bic_std"], cmp["det_wins"])
-
-
-# ── Test 2: Superconducting Qubit Decoherence Drift ────────────────────────
+    report = descriptive_fit_report({"clipped_forced_recovery_grid": _fit_det_grid(t, drift, temperature, flux, 1),
+                                     "log_linear": _fit_ieee(t, drift)}, len(t))
+    return _result("GNSS clock aging", generator, report)
 
 
 def test_qubit_drift(generating_model="det", seed=42):
-    """Does κ-diffusion predict the spatial correlation of T1 drops across a
-    qubit chain better than an independent-walk model?
-
-    Coherence T1_i ∝ 1/(1 + κ_i): higher κ (more TLS drag) → shorter T1.
-    κ-diffusion correlates neighbouring qubits; independent walks do not.
-    """
-    n_qubits = 20
-    kappa_eq = 0.1
-    D = 0.05
-    tau_rec = 1e3
-
-    if generating_model == "det":
-        # κ-diffusion on a chain: κ_i relaxes toward κ_eq + couples neighbours.
-        import random
-        rng = random.Random(seed)
-        kappa = [0.8 if i == 5 else 0.2 for i in range(n_qubits)]  # one hot defect.
+    """Descriptive spatial roughness; generator noise variances differ by 100-fold."""
+    generator = _generator(generating_model, "smoothed_profile_low_noise", "constant_profile_high_noise")
+    rng = random.Random(seed)
+    n = 20
+    if generator == "smoothed_profile_low_noise":
+        kappa = [0.8 if i == 5 else 0.2 for i in range(n)]
         for _ in range(100):
             new = list(kappa)
-            for i in range(1, n_qubits - 1):
-                new[i] += D * (kappa[i - 1] - 2 * kappa[i] + kappa[i + 1]) - (kappa[i] - kappa_eq) / tau_rec
-            kappa = [max(0.0, min(1.0, k)) for k in new]
-        t1 = [1.0 / (1.0 + k) + rng.gauss(0, 0.01) for k in kappa]
+            for i in range(1, n - 1):
+                new[i] += 0.05 * (kappa[i - 1] - 2 * kappa[i] + kappa[i + 1]) - (kappa[i] - 0.1) / 1000
+            kappa = [max(0.0, min(1.0, value)) for value in new]
+        mean, sigma = [1 / (1 + value) for value in kappa], 0.01
     else:
-        import random
-        rng = random.Random(seed)
-        t1 = [rng.gauss(0.8, 0.1) for _ in range(n_qubits)]  # independent noise.
-
-    # Spatial-correlation proxy: the sum of squared first differences.
-    # Correlated neighbours → small differences; independent noise → large.
-    def _roughness(series):
-        return sum((series[i + 1] - series[i]) ** 2 for i in range(len(series) - 1))
-
-    roughness = _roughness(t1)
-    # DET predicts LOW roughness (correlated); independent predicts HIGH.
-    # "win" = the model's predicted roughness is closer to the observed.
-    det_expected = 0.0      # κ-diffusion smooths neighbours.
-    std_expected = 0.02     # independent noise has neighbor variance ~2σ².
-    det_err = (roughness - det_expected) ** 2
-    std_err = (roughness - std_expected) ** 2
-    det_wins = det_err < std_err
-    return _result("Qubit decoherence drift", generating_model, -det_err, -std_err, det_wins,
-                   extra={"roughness": round(roughness, 4)})
+        mean, sigma = [0.8] * n, 0.1
+    values = [value + rng.gauss(0, sigma) for value in mean]
+    report = {"score_type": "descriptive_path_roughness", "roughness": adv.roughness(values),
+              "declared_generator_null": adv.iid_roughness_moments(n, sigma, mean),
+              "constant_mean_sigma_0_1_null": adv.iid_roughness_moments(n, 0.1),
+              "declared_sigma": sigma, "bic_available": False, "det_wins": None,
+              "bic_reason": "roughness is not a fitted Gaussian likelihood or BIC score",
+              "physical_mechanism_identified": False,
+              "note": "Different noise variances confound the old mechanism classification; no classification threshold is used."}
+    return _result("Qubit spatial roughness", generator, report)
 
 
-# ── Test 3: Ultra-Stable Cavity Creep ──────────────────────────────────────
+def _relaxation_demo(name, generating_model, seed, times, amplitude, tau, stretch):
+    generator = _generator(generating_model, "single_exponential", "stretched_exponential")
+    rng = random.Random(seed)
+    beta = 1 if generator == "single_exponential" else stretch
+    drift = [amplitude * adv.kww_relaxation(ti, tau, beta) + rng.gauss(0, 0.005) for ti in times]
+    full = disc.fit_kww(times, drift)
+    single = disc.fit_kww(times, drift, beta_grid=(1.0,))
+    report = descriptive_fit_report({"single_exponential_grid": single, "stretched_exponential_grid": full}, len(times))
+    return _result(name, generator, report, fitted_beta=full["beta"], classification=full["classification"])
 
 
 def test_cavity_creep(generating_model="det", seed=42):
-    """Does the single-exponential κ-recovery beat the KWW stretched-exponential
-    on a decade-long cavity length-drift curve?
-
-    DET: one κ → single exponential (β=1). Standard: KWW (β<1).
-    """
-    import random
-    rng = random.Random(seed)
-    t = [i for i in range(0, 400, 4)]  # months, ~33 yr.
-
-    if generating_model == "det":
-        tau = 50.0
-        drift = [math.exp(-ti / tau) + rng.gauss(0, 0.005) for ti in t]
-    else:
-        tau, beta = 50.0, 0.5
-        drift = [math.exp(-((ti / tau) ** beta)) + rng.gauss(0, 0.005) for ti in t]
-
-    # Standard: KWW fit (3 params). DET: single exponential (β=1, 2 params).
-    fit_kww = disc.fit_kww(t, drift)
-    # DET = KWW with β pinned to 1.0 → 2 params (A, τ).
-    det_fit = disc.fit_kww(t, drift, beta_grid=(1.0,))
-    cmp = adv.compare_bic(2, det_fit["rss"], 3, fit_kww["rss"], len(t))
-    return _result("Ultra-stable cavity creep", generating_model, cmp["bic_det"], cmp["bic_std"],
-                   cmp["det_wins"], extra={"fitted_beta": round(fit_kww["beta"], 2),
-                                           "classification": fit_kww["classification"]})
-
-
-# ── Test 4: Spacecraft Solar-Cell / Sensor Degradation ─────────────────────
+    return _relaxation_demo("Cavity relaxation", generating_model, seed, list(range(0, 400, 4)), 1, 50, 0.5)
 
 
 def test_space_degradation(generating_model="det", seed=42):
-    """Does κ-dynamics (with eclipse thermal recovery) beat monotonic DDD on a
-    5-year sawtooth degradation record?
-    """
-    dt = 1.0
-    n = 200
-    t = [i * dt for i in range(n)]
-    # Orbital eclipse: hot/cold temperature cycle drives τ_rec(T) → sawtooth.
-    T_t = [400.0 if (i % 20) < 10 else 200.0 for i in range(n)]
-    flux_t = [1.0] * n  # constant radiation.
-
-    if generating_model == "det":
-        drift = _det_drift(t, T_t, flux_t, kappa0=0.1, kappa_eq=0.0,
-                           tau0=0.1, E_a=0.1, damage_rate=1e-3, dt=dt, scale=1.0)
+    generator = _generator(generating_model, "forced_recovery", "linear_cumulative_flux")
+    t, flux = list(range(200)), [1.0] * 200
+    temperature = [400.0 if i % 20 < 10 else 200.0 for i in t]
+    if generator == "forced_recovery":
+        drift = _det_drift(t, temperature, flux, 0.1, 0, 0.1, 0.1, 1e-3, 1, 1)
     else:
-        drift = [adv.ddd_degradation(1e-5 * i, 1.0) for i in range(n)]  # monotonic.
-
-    fit_det = _fit_det_grid(t, drift, T_t, flux_t, dt, E_a=0.1)
-    # Standard DDD: linear in cumulative flux (1 param).
-    cum = [sum(flux_t[:i + 1]) * dt for i in range(n)]
-    m, b, rss_std = adv.least_squares_fit_linear(cum, drift)
-    cmp = adv.compare_bic(4, fit_det["rss"], 1, rss_std, n)
-    return _result("Spacecraft degradation", generating_model, cmp["bic_det"], cmp["bic_std"], cmp["det_wins"])
-
-
-# ── Test 5: Gauge-Block / Metallurgy Drift ─────────────────────────────────
+        drift = [adv.ddd_degradation(1e-5 * i, 1) for i in t]
+    recovery = _fit_det_grid(t, drift, temperature, flux, 1, E_a=0.1)
+    cumulative = [i + 1 for i in t]
+    slope, intercept, rss = adv.least_squares_fit_linear(cumulative, drift)
+    baseline = {"rss": rss, "params": {"slope": slope, "intercept": intercept},
+                "identifiable_mean_parameters": 2, "fit_family": "linear_with_intercept"}
+    return _result("Spacecraft degradation", generator,
+                   descriptive_fit_report({"clipped_forced_recovery_grid": recovery, "linear_with_intercept": baseline}, len(t)))
 
 
 def test_gauge_block(generating_model="det", seed=42):
-    """Does κ-recovery (initial κ_0 from quenching history) predict which gauge
-    blocks will fail their next tolerance check, better than KWW?
-    """
-    import random
-    rng = random.Random(seed)
-    t = [i for i in range(0, 120, 2)]  # months.
-
-    if generating_model == "det":
-        tau = 30.0
-        drift = [0.5 * math.exp(-ti / tau) + rng.gauss(0, 0.005) for ti in t]
-    else:
-        tau, beta = 30.0, 0.6
-        drift = [0.5 * math.exp(-((ti / tau) ** beta)) + rng.gauss(0, 0.005) for ti in t]
-
-    fit_kww = disc.fit_kww(t, drift)
-    det_fit = disc.fit_kww(t, drift, beta_grid=(1.0,))
-    cmp = adv.compare_bic(2, det_fit["rss"], 3, fit_kww["rss"], len(t))
-    return _result("Gauge-block metallurgy", generating_model, cmp["bic_det"], cmp["bic_std"],
-                   cmp["det_wins"], extra={"fitted_beta": round(fit_kww["beta"], 2),
-                                           "classification": fit_kww["classification"]})
+    return _relaxation_demo("Gauge-block relaxation", generating_model, seed, list(range(0, 120, 2)), 0.5, 30, 0.6)
 
 
-# ── Run all ─────────────────────────────────────────────────────────────────
+def run_all_applied_tests():
+    functions = (test_gnss_clock_aging, test_qubit_drift, test_cavity_creep, test_space_degradation, test_gauge_block)
+    rows = [function(generating_model=generator) for function in functions for generator in ("det", "standard")]
+    return {"rows": rows, "n_tests": len(rows), "n_correct_identification": None,
+            "fraction_correct": None, "physical_mechanism_identified": False,
+            "interpretation": "Ten synthetic descriptive fit/roughness examples; no BIC winner or mechanism-identification success rate is established."}
 
 
-def run_all_applied_tests() -> dict:
-    """Run each of the five tests under BOTH generating models.
-
-    The honest demonstration: the BIC comparison correctly identifies the
-    generating model in (almost) every case — i.e., the machinery can tell
-    DET from the standard model when the data actually came from one or the
-    other, which is what will be needed on real data.
-    """
-    tests = [test_gnss_clock_aging, test_qubit_drift, test_cavity_creep,
-             test_space_degradation, test_gauge_block]
-    rows = []
-    for fn in tests:
-        for gen in ("det", "standard"):
-            rows.append(fn(generating_model=gen))
-
-    n_correct = sum(1 for r in rows if r["correct_identification"])
-    return {
-        "rows": rows,
-        "n_tests": len(rows),
-        "n_correct_identification": n_correct,
-        "fraction_correct": n_correct / len(rows),
-        "interpretation": (
-            f"The BIC comparison correctly identifies the generating model in "
-            f"{n_correct}/{len(rows)} synthetic cases. On real data this is the "
-            f"honest bar: DET 'wins' only where it genuinely beats the standard "
-            f"model, never by assumption."
-        ),
-    }
+TAU_GRID = (1, 2, 3, 5, 7, 10, 15, 20, 30, 50, 100, 200, 300, 500, 700, 1000, 2000, 5000, 10000)
 
 
-# ── Real-data aging adversarial (GNSS clocks) ──────────────────────────────
-
-
-TAU_GRID = (1, 2, 3, 5, 7, 10, 15, 20, 30, 50, 100, 200, 300,
-            500, 700, 1000, 2000, 5000, 10000)
-
-
-def _fit_exp_decay(t, y, tau_grid=TAU_GRID) -> dict:
-    """Fit the κ-recovery form y = A·exp(−t/τ) + C.
-
-    Grid-search τ; for each τ, (A, C) are linear least squares.
-    """
-    best = {"rss": float("inf"), "tau": None, "A": None, "C": None}
-    for tau in tau_grid:
+def _fit_exp_decay(t, y, tau_grid=TAU_GRID):
+    """Finite tau bank for A exp(-t/tau)+C, a nominal three-mean-parameter family."""
+    t, y = _times(t, y)
+    taus = tuple(require_positive_finite(value, "tau") for value in tau_grid)
+    if not taus:
+        raise ValueError("tau grid must be nonempty")
+    best = None
+    for tau in taus:
         xs = [math.exp(-ti / tau) for ti in t]
-        n = len(t)
-        Sx = sum(xs)
-        Sy = sum(y)
-        Sxx = sum(x * x for x in xs)
-        Sxy = sum(x * yi for x, yi in zip(xs, y))
-        den = n * Sxx - Sx * Sx
-        if abs(den) < 1e-15:
+        if len(set(xs)) < 2:
             continue
-        A = (n * Sxy - Sx * Sy) / den
-        C = (Sxx * Sy - Sx * Sxy) / den
-        rss = sum((yi - A * x - C) ** 2 for x, yi in zip(xs, y))
-        if rss < best["rss"]:
-            best = {"rss": rss, "tau": tau, "A": A, "C": C}
-    return best
+        amplitude, offset, rss = adv.least_squares_fit_linear(xs, y)
+        if best is None or rss < best["rss"]:
+            best = {"rss": rss, "tau": tau, "A": amplitude, "C": offset}
+    metadata = {"fit_family": "exponential_offset_grid", "nominal_continuous_mean_parameters": 3,
+                "identifiable_mean_parameters": None, "bic_available": False,
+                "bic_reason": "finite tau bank; zero amplitude or long tau can be degenerate"}
+    if best is None:
+        return {**metadata, "rss": None, "tau": None, "A": None, "C": None,
+                "error": "no identifiable amplitude/offset design in the tau bank"}
+    if best["A"] == 0:
+        best["grid_minimizer_tau"] = best["tau"]
+        best["tau"] = None
+        best["degeneracy"] = "zero amplitude: tau unidentified"
+    return {**best, **metadata}
 
 
-def run_aging_adversarial(clk_dir: str, svn: str,
-                          tau_grid=TAU_GRID) -> dict:
-    """Run the κ-vs-IEEE aging comparison on a REAL multi-day drift series.
+def clock_aging_coordinates(records):
+    """Elapsed days from actual interval starts, preserving gaps and time-scale handling.
 
-    κ-recovery:  y = A·exp(−t/τ) + C   (exponential relaxation to equilibrium)
-    IEEE log:    y = a·ln(1+t) + b·t + c  (logarithmic + linear aging)
-
-    Both are 3-parameter models; compare by BIC. |ΔBIC| < 2 = no evidence,
-    2-6 = positive, 6-10 = strong, >10 = very strong (Kass & Raftery).
+    Uses the existing ingestion elapsed-time contract (including leap seconds).
+    Missing metadata, mixed systems, duplicate/overlapping daily intervals and
+    multidate products are refused. Records are sorted without mutating inputs.
     """
+    from det8.applied_physics.ingest import _elapsed_seconds, _epoch_coordinate
+
+    records = list(records)
+    if not records:
+        raise ValueError("no dated clock records")
+    if any(not record.get("start_epoch") or not record.get("end_epoch") for record in records):
+        raise ValueError("unsupported chronology: daily start/end epochs are required")
+    if len({record.get("time_system") for record in records}) != 1:
+        raise ValueError("inconsistent clock time systems")
+    records = sorted(records, key=lambda record: _epoch_coordinate(record["start_epoch"]))
+    origin = {"epoch": records[0]["start_epoch"], "time_system": records[0].get("time_system")}
+    times, values = [], []
+    previous_end, previous_date = None, None
+    for record in records:
+        start, end = _epoch_coordinate(record["start_epoch"]), _epoch_coordinate(record["end_epoch"])
+        first = {"epoch": record["start_epoch"], "time_system": record.get("time_system")}
+        last = {"epoch": record["end_epoch"], "time_system": record.get("time_system")}
+        if start.date() != end.date() or start.date() == previous_date:
+            raise ValueError("daily clock intervals must occupy distinct single civil days")
+        if _elapsed_seconds(first, last) <= 0 or (previous_end is not None and start <= previous_end):
+            raise ValueError("clock intervals must be positive and nonoverlapping")
+        times.append(_elapsed_seconds(origin, first) / 86400)
+        values.append(record["drift_s_per_s"])
+        previous_end, previous_date = end, start.date()
+    return times, adv.finite_series(values, "clock drift"), records
+
+
+def aging_fit_report(records, *, tau_grid=TAU_GRID, extra_fitters=None):
+    """Shared descriptive clock comparison; no BIC until noise and fit assumptions are justified."""
+    t, y, ordered = clock_aging_coordinates(records)
+    fits = {"exponential_offset_grid": _fit_exp_decay(t, y, tau_grid), "log_linear": _fit_ieee(t, y)}
+    for family, fitter in (extra_fitters or {}).items():
+        if family in fits:
+            raise ValueError("duplicate fit-family label")
+        fits[family] = fitter(t, y)
+    return {**descriptive_fit_report(fits, len(y), AGING_REASON), "elapsed_days": t,
+            "span_days": t[-1] - t[0], "time_system": ordered[0].get("time_system"),
+            "time_coordinate": "elapsed seconds between recorded interval starts / 86400",
+            "source_records": ordered, "tau_best_days": fits["exponential_offset_grid"]["tau"],
+            "interval_averaging_modeled": False}
+
+
+def run_aging_adversarial(clk_dir, svn, tau_grid=TAU_GRID):
     from det8.applied_physics.ingest import run_clock_aging
 
-    series = run_clock_aging(clk_dir, svn)
-    if len(series) < 10:
-        return {"svn": svn, "n_days": len(series),
-                "error": "too few days (<10) for a meaningful BIC comparison"}
-
-    t = list(range(len(series)))
-    y = [s["drift_s_per_s"] for s in series]
-    det = _fit_exp_decay(t, y, tau_grid)
-    ieee = _fit_ieee(t, y)
-    n = len(y)
-    bic_det = adv.bic(3, n, det["rss"])
-    bic_ieee = adv.bic(3, n, ieee["rss"])
-
-    return {
-        "svn": svn,
-        "n_days": n,
-        "bic_kappa": bic_det,
-        "bic_ieee": bic_ieee,
-        "det_wins": bic_det < bic_ieee,
-        "delta_bic": bic_det - bic_ieee,
-        "tau_best_days": det["tau"],
-        "verdict": "κ-recovery wins" if bic_det < bic_ieee else "IEEE-log wins",
-        "strength": (
-            "none" if abs(bic_det - bic_ieee) < 2 else
-            "positive" if abs(bic_det - bic_ieee) < 6 else
-            "strong" if abs(bic_det - bic_ieee) < 10 else "very strong"
-        ),
-        "note": (
-            "|ΔBIC| < 2 = no evidence, 2-6 = positive, 6-10 = strong, >10 = very "
-            "strong. ~2 months is typically too short to distinguish logarithmic "
-            "from exponential aging; months-to-years is required."
-        ),
-    }
+    records = run_clock_aging(clk_dir, svn)
+    if len(records) < 10:
+        return {"svn": svn, "n_days": len(records), "error": "too few daily records (<10) for this descriptive comparison"}
+    try:
+        report = aging_fit_report(records, tau_grid=tau_grid)
+    except ValueError as exc:
+        return {"svn": svn, "n_days": len(records), "error": str(exc), "bic_available": False}
+    return {"svn": svn, "n_days": len(records), **report, "bic_kappa": None, "bic_ieee": None,
+            "delta_bic": None, "strength": None, "verdict": "descriptive fit errors only"}
 
 
-def run_all_aging_adversarial(clk_dir: str, svns: list[str]) -> dict:
-    """Run the aging adversarial on several satellites and summarize."""
-    rows = [run_aging_adversarial(clk_dir, s) for s in svns]
-    valid = [r for r in rows if "error" not in r]
-    n_kappa_wins = sum(1 for r in valid if r["det_wins"])
-    return {
-        "rows": rows,
-        "n_satellites": len(valid),
-        "n_kappa_wins": n_kappa_wins,
-        "interpretation": (
-            f"κ-recovery beats IEEE-log on {n_kappa_wins}/{len(valid)} satellites "
-            f"over {valid[0]['n_days'] if valid else 0} days — but the margins are "
-            f"small at this data volume; see each row's 'strength' field."
-        ),
-    }
+def run_all_aging_adversarial(clk_dir, svns):
+    rows = [run_aging_adversarial(clk_dir, svn) for svn in svns]
+    return {"rows": rows, "n_satellites": sum("error" not in row for row in rows),
+            "n_kappa_wins": None, "interpretation": "Dated descriptive fits; no causal winner count or calibrated BIC evidence."}
