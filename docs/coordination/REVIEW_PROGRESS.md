@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j | **Bounded handoffs accepted and registered; conditional synthesis accepted.** Both coordinator reviews passed the full combined argument. Root verified all 50 registered statement/source pins against published bytes and 123 scoped links; one reviewer passed 29 exact arithmetic/path checks. | Executable checkpoint `da8fe99` is pushed and verified. Publish the accepted synthesis, then assign the separate retained-word first-commit bridge. No further finite-cone refinement is planned. |
+| QR coordination / RI-05–08j | **Bounded handoffs accepted and registered; conditional synthesis accepted and published.** Both coordinator reviews passed the full combined argument. Root verified all 50 registered statement/source pins against published bytes and 123 scoped links; one reviewer passed 29 exact arithmetic/path checks. | Synthesis checkpoint `50d652f` and executable checkpoint `da8fe99` are pushed and verified. RI-16 retained-word first commitment is assigned; review its stable handoff. No further finite-cone refinement is planned. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for eighteen suites.** The cumulative inventory is 384 witnesses /32 executable sources: prior 356 verified witnesses with unchanged pins plus 28 new capstone checks passed normally and optimized. Complete manifest preflight, 43 staged registry regressions and 64 local integration checks pass. | Preserve historical execution boundaries; 384 is not a new all-suite replay. RI-15 remains under its separate source contract. |
@@ -14,7 +14,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11, RI-12 exact contract and synthetic comparator fixture accepted.** Coordinator replay passed 236 focused cases: 34 new comparator, 108 identifiability, 54 applied/consumer and 40 registry. Model-conditional Gaussian oracles, exact observed-row/source bindings, held-out non-assimilation and byte-verified replay pass. | User's measured instrument/dataset choice remains open. Establish target, tolerance and evaluation objective before a measured pilot; coordinate RET ownership before source changes. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest accepted source checkpoint: [38be4c0](https://github.com/omekagardens/det_8_framework/commit/38be4c0c941c62329b9175883748d4e586b9745e), publishing the research repairs and exact identifiability after isolated verification. The QR baseline remains `da8fe99`. Both are pushed to `origin/ret` and independently verified. Root owns git/index operations. | Continue reviewed scoped commits and pushes; preserve active QR work and the separately deferred local baseline. |
+| Remote checkpoints | Latest synthesis checkpoint: [50d652f](https://github.com/omekagardens/det_8_framework/commit/50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473). Latest executable repair checkpoint: [38be4c0](https://github.com/omekagardens/det_8_framework/commit/38be4c0c941c62329b9175883748d4e586b9745e). The QR executable baseline remains `da8fe99`. All are pushed to `origin/ret` and independently verified. Root owns git/index operations. | Continue reviewed scoped commits and pushes; preserve active QR work and the separately deferred local baseline. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -1954,3 +1954,38 @@ finite-cone refinement or RET implementation is assigned in this checkpoint.
 | `docs/coordination/QR_HANDOFF.md` | `26e6e4afe452e395c7eae310e0df43109b827667ee6f37d17361982c10ddec0a` |
 | `docs/track_b/QR_MAP.md` | `e4f764ee53c4866b9023aa2eb10fb42aeba42a60cc60499cfe8aab05c59236bf` |
 | `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md` | `ecf492d8ca376557bb2001a28222107eccb1a9970b7c2c05439df6f9b585eb47` |
+
+**Synthesis checkpoint pushed; RI-16 dispatched**
+
+[Commit 50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473](https://github.com/omekagardens/det_8_framework/commit/50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473)
+publishes the accepted synthesis and eight related Markdown documents.
+Final tree: `6e4891c14c4061eeb85f4082535789a18d4d35fc`.
+Root checked the exact nine-path allowlist, staged/working byte equality,
+scoped whitespace/conflict markers and 206 local links across those documents.
+A final independent status review passed after one stale candidate reference
+was corrected. The original review and working runner remain unchanged.
+The normal push advanced `38be4c0` to `50d652f`; independent remote-ref lookup
+returned the full commit above, and the index was empty afterward.
+
+Only after that verification, root sent the existing Quantum Relativity
+thread the bounded RI-16 assignment in the root plan. Its new isolated bundle
+will address countably retained words with a declared complete output norm,
+operator convergence, full mass/never accounting, prefix-shift recurrence and
+bounded word-dependent continuations. A preliminary feasibility review
+identified the base-norm proof route and counterexamples; it does not count
+as acceptance of an unwritten successor theorem.
+
+RI-16 explicitly distinguishes retained words from hidden paths. Its terminal
+read specialization may use supplied scalar effects with full labels, but
+may not invent a postread residual or treat the nonlinear probability-weighted
+pre-read audit source as a positive linear instrument. Literal-cut outputs
+retain their existing type and map. No physical availability, uniform rate
+over models, infinite-dimensional-input theorem or never-commit state is
+presumed. The proof, exact supplement and independent handoff remain pending.
+
+QR owns only the three new bundle files and its existing three maps/handoff;
+the accepted synthesis and executable bundles remain stable. Root keeps
+registry, coordinator and git/index ownership. The next independent root
+publication item is the RI-11 chronology/consumer prerequisite audit described
+in the backlog. RET baseline publication and the measured instrument/data
+decision remain separate dependencies; neither is silently resolved here.
