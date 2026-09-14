@@ -1,6 +1,6 @@
 # Explicit research check registry
 
-The [registry](research/registry.json) binds eighteen named standalone Q witness
+The [registry](research/registry.json) binds nineteen named standalone Q witness
 suites to their statement documents, premises, limitations and complete local
 executable source sets. The [runner](../scripts/run_research_checks.py) verifies
 those identities and executes only explicitly selected suites. It is separate
@@ -15,7 +15,7 @@ Test counts are descriptive execution metadata, not proof strength.
 
 ## Usage
 
-Run from the repository root with Python 3.11 or later. The runner and the eighteen
+Run from the repository root with Python 3.11 or later. The runner and the nineteen
 registered suites need only the Python standard library.
 
 ```sh
@@ -63,6 +63,7 @@ witness verification. Each suite has a manifest timeout of at most 60 seconds.
 | `reversible-generator` | [REVERSIBLE_GENERATOR.md](validation/t8-q-reversible-generator-2026-09-13/REVERSIBLE_GENERATOR.md) | `check.py`, `model.py` |
 | `terminal-read-observability` | [TERMINAL_READ_OBSERVABILITY.md](validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md) | `check.py`, `model.py` |
 | `observation-stability` | [OBSERVATION_STABILITY.md](validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md) | `check.py`, `model.py` |
+| `retained-word-first-commit` | [RETAINED_WORD_FIRST_COMMIT.md](validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md) | `check.py`, `model.py` |
 
 Paths in the last column are relative to that row's validation directory. Five
 suites have no local imports. Coherent readout imports both its algebra and
@@ -70,11 +71,22 @@ independent reference; registering its entrypoint alone would be incomplete.
 Controlled context, first-commit quotient, maximal record-domain,
 control-selected qubit, repeatable record instrument, joint recordability,
 repeatability robustness, joint repeatability, cut-closed completion, reversible
-generator, terminal-read observability and observation stability each import
+generator, terminal-read observability, observation stability and retained-word
+first commitment each import
 their own local model. The only directly imported standard-library modules
-across these thirty-two Python files are
+across these thirty-four Python files are
 `collections.abc`, `dataclasses`, `fractions`, `itertools`, `math`, `types` and
 `unittest`.
+
+The nineteenth registration extends RI-07's finite-full-label result to
+countably retained command words in a complete l1 output with faithful base
+norms. Its fixed finite-dimensional stationary-policy premises give full
+operator convergence, exact survival-minus-never tail accounting and the
+chronological prefix-shift least solution. Uniformly bounded word-dependent
+continuations preserve the limit and labels. Empty hidden steps require
+leastness; without them the word recurrence is unique. Terminal read effects
+remain scalar-only, and the finite exact supplement is not an infinite-process
+SDK or a proof by enumeration. The separate RI-15 adapter inventory is unchanged.
 
 The seventh registration follows the coordinator's independent review and the
 [QR handoff](coordination/QR_HANDOFF.md). Its three source hashes match that
@@ -487,7 +499,7 @@ timeouts, explicit selection, snapshot execution and absence of cache writes.
 
 This runner regression file participates in ordinary `det8/tests` discovery.
 Its real-registry check is read-only; its execution cases use tiny temporary
-fixtures. It does not implicitly execute the eighteen research suites. The
+fixtures. It does not implicitly execute the nineteen research suites. The
 [RI-15 local-to-joint adapter](validation/t8-q-local-joint-adapter-2026-09-13/ADAPTER.md)
 and its separate coordinator launcher/tests use an explicit alias contract;
 they are not registered here or included in these suite/source/witness totals.
@@ -588,3 +600,28 @@ through RI-08j; export parity and both legacy canonical claim JSON digests
 remain unchanged. Scoped Ruff check/format validation and all 24 guide links
 pass. RI-15 remains separate, and registration changes no broad scientific,
 physical-evidence or support status.
+
+Verification of the reviewed nineteenth registration: root passed all 27 new
+retained-word checks from an isolated publication candidate in normal and
+optimized modes (0.946/0.955 s), with both declared sources loaded and no
+failure, error, skip, expected failure, unexecuted source or observed drift.
+The same candidate passed 43 registry regressions in 2.30 s. Full manifest
+preflight validates nineteen suites and thirty-four executable sources.
+The cumulative inventory is **411 witnesses**: the preceding 384 retain their
+source-bound normal/optimized evidence; only the 27 new checks were replayed
+for this registration. RI-15's separate witnesses are excluded.
+
+The manifest SHA-256 is
+`6f1074841770f3677217c1383c5173c27a53360cfce9650eccfdb7304d06a257`.
+Removing the new object reconstructs the preceding manifest
+`a5d94f2d5451f6810855b129886500afc840bf1ee86b01dd515c98158cf5454f`
+exactly. All eighteen prior objects, their statement/source bytes, the runner
+and its import contract remain unchanged. The mathematical body of the new
+note is identical to the independently reviewed submission; only its
+administrative acceptance status changed. These finite checks supplement the
+written proof and independent theorem/native-interface reviews.
+
+The separately deferred local claims endpoint remains its explicitly named
+eighteen-reference subset through RI-08j. This registration does not publish
+or alter the unrelated core/RET/claims baseline; the complete current research
+inventory is this registry and the coordinator acceptance record.

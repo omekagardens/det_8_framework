@@ -1,4 +1,126 @@
-# QR research handoff — finite record observability consolidation
+# QR research handoff — retained-word first commitment
+
+14 September 2026 UTC. **RI-16 ACCEPTED_AND_REGISTERED_BY_COORDINATOR.**
+The completed bundle is
+[RETAINED_WORD_FIRST_COMMIT.md](../validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md),
+[model.py](../validation/t8-q-retained-word-first-commit-2026-09-14/model.py) and
+[check.py](../validation/t8-q-retained-word-first-commit-2026-09-14/check.py).
+The accepted consolidation was published by the coordinator in verified
+checkpoint 50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473,
+tree 6e4891c14c4061eeb85f4082535789a18d4d35fc. Its accepted source SHA256 is
+`55b6164f120f1b56bd75905be02a05d6a77a1ec0ab6aa08343746a96862c7966`;
+the older submission hash in its historical handoff below is not that
+accepted status-line identity. All accepted source bytes remain unchanged.
+
+This assignment edits only the three new bundle files and the existing
+QR map, relativity/geometry plan and this handoff. The registry, runner/schema,
+accepted synthesis, prior bundles, RI-15, claims, coordinator records,
+original review, core/RET/application source and protected evidence are outside
+this task's edit scope. No git/index operation or automatic successor.
+
+## RI-16 result and load-bearing premises
+
+Use one complete stationary experiment or finite controller on a finite direct
+sum of finite-dimensional closed pointed generating cones with faithful mass.
+Mutually exclusive silent/committing branch maps include policy selection;
+independently available commands are not simply added as outcomes. Known
+context, full prior prefix, initial pending word, nominal policy and residual
+types are retained. Hidden branches aggregate only inside the same complete
+retained-label/output-type coordinate, without making hidden paths observable.
+
+The countable output is a complete l1 direct sum over actual words and
+committing labels in faithful output base norms. Positive output norm equals
+total output mass, uniformly across all words. The chronological prefix-shift
+recurrence is
+
+    H_0 = 0,    H_(N+1) = J_B + sum_a L_a H_N S_a.
+
+Optional empty-token steps really retain no letter; N counts total silent
+steps, not just retained-word length. The proof constructs a positive full
+operator-norm limit H and a positive never functional ell, with
+
+    vH + ell = u,    ell S = ell,
+    ||H-H_N|| = ||u S^N-ell||,
+    ||(H-H_N)x|| = u S^N x-ell(x)  for x >= 0.
+
+The right-hand operator error uses the input base dual norm. The output norm
+uses the complete retained residual sum. No convergence of S^N, silent
+residual state or inverse of I-S is needed. Countable output mass plus never
+probability is complete; never is not an observed null record or a supplied
+terminal residual. Convergence is uniform over bounded inputs of each fixed
+model, not across policies/model families or growing prefixes.
+
+H solves the prefix-shift recurrence and is its least positive bounded
+solution. Without empty-token steps, recursive word coefficients make it
+unique. A genuine hidden empty-step dark component admits larger positive,
+even mass-nonincreasing fixed points that fabricate never commitment; only
+the least solution is the actual law. The old unlabelled equation H=B+HS
+does not define this retained-word object.
+
+Uniformly bounded word-dependent linear continuations interchange with the
+limit while retaining the original labels. Positive mass-nonincreasing maps
+are natural base-norm contractions. Dropping that uniform bound, using
+nonuniform coordinate norms, erasing words, or allowing infinite input
+dimension has an explicit counterexample. Hidden branch identities and
+discarded empty-step counts cannot control a retained-word continuation.
+Only positive total branch weight permits normalization and an append;
+zero-weight branches and never probability supply no conditional state.
+
+I/J's positive terminal effects may enter only as scalar outputs with full
+word/cell/sign labels. A pre-read audit does not repair the nonlinearity of
+N -> e(N) N/m(N) or supply a postread residual. Existing literal-cut maps
+remain legitimate linear residual outputs on their declared return type.
+The small nonclassical supplement uses that old cut-face representation;
+its terminal scalar helper is only a labeled mathematical continuation
+statistic, not a new instrument or operational reuse after a terminal read.
+
+## RI-16 verification and source hold
+
+The complete infinite proof and complete model/test sources have independent
+review, not just a citation or a finite enumeration audit. No mathematical or
+source blocker remains. The exact supplement has 27 checks. Main reran all
+27 normally and all 27 under optimization on the final source bytes; both
+passed, as did focused lint and formatting checks. The tests independently
+check matrix products, a noncommuting chronological witness, geometric word
+weights, positive/signed norm tails, hidden aggregation, typed records,
+positive selection, bounded last-new-letter effects, all stated boundary
+counterexamples and Gaussian-pair congruence on the existing filtered face.
+Finite witnesses supplement, and do not prove, the infinite theorem.
+
+All 50 unique registered statement/source pins plus the accepted synthesis
+pin match their entry identities: 51 checked, zero changed. No earlier suite
+was rerun and no cumulative witness count is reported as a fresh replay.
+All 110 local link targets across the new note and three QR summaries resolve;
+the six-file whitespace/conflict-marker check has zero findings.
+The coordinator independently accepted the proof and both sources. Its
+reviewers added 18 exact theorem probes and 108 exact native-image/context
+assertions. The isolated publication candidate passed all 27 new checks
+normally and optimized (0.946/0.955 s), plus 43 registry regressions. Complete
+preflight validates nineteen suites and thirty-four executable sources;
+the cumulative 411-witness inventory is not a fresh all-suite replay.
+The registry metadata also passed independent review. Only the note's two-line
+acceptance status differs from the reviewed submission; the mathematical body
+and executable sources are unchanged. Scoped publication is pending. Final
+registered identities are:
+
+| File in the RI-16 bundle | SHA256 |
+|---|---|
+| `RETAINED_WORD_FIRST_COMMIT.md` | `5af27962b038b219bc852c9abd77d99e71f086f03cbf8a8e35fd3c447e4c0a2f` |
+| `model.py` | `7b14f8d99a1983d3b244c70fefb10262cf99d6d3eef522784bdce07d0c94fda6` |
+| `check.py` | `995a01325ec7d4c4af6726c1a11d6ebe698e99b8e1749c7b40eaeb6dd356a1c2` |
+
+This is the bounded retained-word extension under explicitly supplied policy,
+cone, norm and availability premises, not a general process SDK or an
+end-to-end probability/type orchestration layer. It selects no physical
+record-formation law, QM, time, order, geometry, mass or gravity. Earlier
+preparation/reference-selection probabilities and the measured comparator
+pilot remain separate dependencies. No new finite-cone refinement, RET,
+apparatus/bank work or automatic successor is started. The bundle and three
+QR summaries remain source-quiet for scoped
+publication; git/index/registry and acceptance decisions remain with the
+coordinator.
+
+## Historical RI-08 consolidation handoff — accepted and published
 
 14 September 2026 UTC. **RI-08 CONSOLIDATION_ACCEPTED_BY_COORDINATOR.**
 The assigned single new synthesis is

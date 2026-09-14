@@ -89,6 +89,7 @@ def test_real_registry_covers_coherent_imports_and_lists_without_executing(monke
         "reversible-generator",
         "terminal-read-observability",
         "observation-stability",
+        "retained-word-first-commit",
     }
     paths = {Path(row["path"]).name for row in suites["coherent-readout"]["sources"]}
     assert paths == {"check.py", "algebra.py", "reference.py"}
@@ -124,6 +125,10 @@ def test_real_registry_covers_coherent_imports_and_lists_without_executing(monke
     assert terminal_read_paths == {"check.py", "model.py"}
     stability_paths = {Path(row["path"]).name for row in suites["observation-stability"]["sources"]}
     assert stability_paths == {"check.py", "model.py"}
+    retained_word_paths = {
+        Path(row["path"]).name for row in suites["retained-word-first-commit"]["sources"]
+    }
+    assert retained_word_paths == {"check.py", "model.py"}
     assert all(
         result["source_identities"][i]["sha256"] for i in range(len(result["source_identities"]))
     )

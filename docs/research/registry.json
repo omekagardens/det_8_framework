@@ -658,6 +658,49 @@
         "unittest"
       ],
       "timeout_seconds": 60
+    },
+    {
+      "id": "retained-word-first-commit",
+      "statement": "At a fixed prefix under a complete stationary finite-controller positive policy, countably retained command-word and committing-label residuals converge in operator norm in an l1 sum of faithful base-norm output spaces, with exact survival-minus-never tail accounting, prefix-shift leastness and bounded word-dependent continuation interchange.",
+      "premises": [
+        "Input controller spaces are finitely many finite-dimensional real spaces with closed pointed generating cones and faithful masses. Output types have the same finite-dimensional faithful base-norm hypotheses. The countable output is the complete l1 direct sum over full retained word/committing-label coordinates, not an arbitrary coordinatewise norm.",
+        "One fixed complete stationary experiment or finite-controller policy supplies mutually exclusive positive silent maps and positive committing maps, including every action-selection weight. Alternative available commands are not added as outcomes.",
+        "Retain actual words, known initial pending word, context, full earlier committed prefix, action/setting/outcome, allowed precursor and output type. Prior pending commands already acted on the supplied snapshot. Hidden paths aggregate only within identical retained labels and compatible residual types; epsilon steps are unobserved unless explicitly recorded.",
+        "Word-dependent continuations are independently supplied linear maps with a proved or assumed uniform operator bound; positive mass-nonincreasing maps contract in faithful base norms. Original word labels remain present. Conditional normalization follows aggregation and requires strictly positive branch weight.",
+        "The finite exact supplement is a supplied orthant A/B/K policy with a genuine never component and a fixed three-row bounded effect family. A separate existing Lt cell00-face example uses only the declared common-X A and literal cut with explicit half/half policy weights."
+      ],
+      "limits": [
+        "The written Banach-output proof establishes the infinite theorem; the finite supplement does not implement arbitrary infinite-output operators or infer it from enumeration. Explicit truncations are capped at twelve levels, while symbolic coordinate/tail formulas have their stated unrestricted finite-word meaning.",
+        "The norm tail equals the dual base norm of u S^N minus ell, and its value on positive inputs is survival minus never mass. Silent residuals need not converge and survival need not vanish. Never probability supplies neither a committed null event nor a terminal residual.",
+        "The retained-word fixed point is H = J_B + sum_a L_a H S_a with chronological prefix shifts. Without epsilon steps, coordinates force uniqueness; genuine hidden epsilon loops can admit positive mass-nonincreasing spurious dark-added solutions. Leastness selects the actual path sum; blind inversion of I-S is not used.",
+        "Nonuniform coordinate norms and unbounded positive continuations can destroy summability. Infinite-dimensional input can have pointwise convergence without operator-norm convergence. No convergence rate uniform across model families, growing prefixes, controller sizes or singular mass limits is claimed.",
+        "Equal aggregate residuals do not authorize erasing actual words: bounded word-dependent questions may distinguish them. Continuations cannot depend on discarded hidden paths or empty-step counts. Aggregating labels is a separate coarse question.",
+        "The I/J terminal read can enter as scalar positive effects with complete word/cell/sign labels and policy weights, not as a supplied postread residual. N -> e(N) N / m(N) is generally nonlinear; an audit sidecar does not repair that defect or establish empirical provenance.",
+        "The Lt representation retains a positive unnormalized two-by-two residual in the accepted native cell00 image. TerminalScalar is only a scalar mathematical continuation statistic on a lawful literal-cut coordinate; it creates no replacement first-commit instrument or operational postread continuation.",
+        "No new preparation/control availability, general process SDK, quotient-image classification, fully orchestrated earlier local/reference-selection probabilities, physical quantum selection, time, geometry, gravity, measured application or RET release result follows."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md",
+        "sha256": "5af27962b038b219bc852c9abd77d99e71f086f03cbf8a8e35fd3c447e4c0a2f"
+      },
+      "entrypoint": "docs/validation/t8-q-retained-word-first-commit-2026-09-14/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-retained-word-first-commit-2026-09-14/check.py",
+          "sha256": "995a01325ec7d4c4af6726c1a11d6ebe698e99b8e1749c7b40eaeb6dd356a1c2"
+        },
+        {
+          "path": "docs/validation/t8-q-retained-word-first-commit-2026-09-14/model.py",
+          "sha256": "7b14f8d99a1983d3b244c70fefb10262cf99d6d3eef522784bdce07d0c94fda6"
+        }
+      ],
+      "stdlib_imports": [
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
     }
   ]
 }

@@ -6,10 +6,10 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j | **Bounded handoffs accepted and registered; conditional synthesis accepted and published.** Both coordinator reviews passed the full combined argument. Root verified all 50 registered statement/source pins against published bytes and 123 scoped links; one reviewer passed 29 exact arithmetic/path checks. | Synthesis checkpoint `50d652f` and executable checkpoint `da8fe99` are pushed and verified. RI-16 retained-word first commitment is assigned; review its stable handoff. No further finite-cone refinement is planned. |
+| QR coordination / RI-05–08j and RI-16 | **Conditional synthesis published; retained-word extension accepted and registered.** Two independent RI-16 audits passed, with18 exact theorem probes and108 native/context assertions. Root passed27 new witnesses normally and optimized plus43 isolated registry regressions. | Publish RI-16 with exact pins and retain the fixed-policy/finite-input and scalar-terminal boundaries. No successor is yet assigned. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
-| RI-03 research registry | **Accepted for eighteen suites.** The cumulative inventory is 384 witnesses /32 executable sources: prior 356 verified witnesses with unchanged pins plus 28 new capstone checks passed normally and optimized. Complete manifest preflight, 43 staged registry regressions and 64 local integration checks pass. | Preserve historical execution boundaries; 384 is not a new all-suite replay. RI-15 remains under its separate source contract. |
+| RI-03 research registry | **Accepted for nineteen suites.** Cumulative411 witnesses/34 executable sources: prior384 source-bound results with unchanged pins plus27 new RI-16 checks per mode. Full preflight and43 isolated registry regressions pass. | Preserve execution boundaries;411 is not a fresh all-suite replay. RI-15 remains separate; the deferred claims endpoint remains its explicit18-reference subset. |
 | RI-04 current mathematical certificates | **Accepted.** Eight research modules and narrow legacy groups reconciled; coordinator reran 141 focused cases successfully. Implementer reports 80 impacted legacy checks with no failures/errors/skips. MODEL_CARD current O1/O2 assessment is reconciled; Previous remains historical. | RI-11 is now accepted separately; general reconstruction/physical premise selection remains open. |
 | RI-11–12 applied work | **RI-11, RI-12 exact contract and synthetic comparator fixture accepted.** Coordinator replay passed 236 focused cases: 34 new comparator, 108 identifiability, 54 applied/consumer and 40 registry. Model-conditional Gaussian oracles, exact observed-row/source bindings, held-out non-assimilation and byte-verified replay pass. | User's measured instrument/dataset choice remains open. Establish target, tolerance and evaluation objective before a measured pilot; coordinate RET ownership before source changes. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
@@ -1989,3 +1989,69 @@ registry, coordinator and git/index ownership. The next independent root
 publication item is the RI-11 chronology/consumer prerequisite audit described
 in the backlog. RET baseline publication and the measured instrument/data
 decision remain separate dependencies; neither is silently resolved here.
+
+**RI-16 retained-word first commitment accepted and registered**
+
+QR returned the assigned three-file bundle and three map/handoff documents.
+Root read the complete theorem and model. Independent mathematical review
+accepted the Banach l1 output construction, faithful base-norm identities,
+operator convergence and exact survival-minus-never tail, chronological
+prefix-shift recurrence, leastness with hidden empty steps and uniqueness
+without them, bounded continuation interchange and all counterexamples.
+Eighteen additional exact checks used a mixed empty-step/retained-letter law.
+
+A separate complete source audit accepted full retained contexts, immutable
+prefixes, pending-word handling, symbolic tails, positive selection and the
+checked last-new-letter effect family. It added 108 exact assertions on the
+native L_t image, complex payload, total-entry mass, partial-trace inverse,
+tilted scalar effect and metadata without replaying prior pending commands.
+Both reviews found no blocker. They do not create additional registered
+witnesses or prove physical availability.
+
+Reviewed note SHA-256:
+`b975fad1e382cd3068f35e19da379e1a9a6746414d387db403d6c2655214eedb`.
+Root changed only its two-line administrative acceptance status. Reversing
+that substitution reconstructs the reviewed digest exactly; the entire
+mathematical body and both executable sources are unchanged.
+
+The nineteenth explicit registry object passed a separate metadata audit.
+Removing it reconstructs the preceding eighteen-object manifest exactly;
+all earlier object contents and source/document pins are preserved. The
+new code imports only dataclasses, fractions, itertools and unittest,
+already allowed by the unchanged runner. No claims/core/RET, earlier QR
+executor or default-CI source was edited for this integration.
+
+Root materialized published base `d8d6a35f76bd43ac4e53f0de463af51bba7551ff`
+and overlaid the three RI-16 artifacts and three registry/guide files into an
+isolated publication candidate. Full pin/import preflight passed with
+**19 suites, 34 executable sources and 53 unique statement/source paths**.
+The runner's identity list additionally includes the manifest itself.
+Only the new suite was selected for execution:
+
+| Mode | New checks | Loaded declared sources | Result |
+|---|---:|---:|---|
+| Normal | 27 | 2 | Passed; 0.946 s |
+| Optimized | 27 | 2 | Passed; 0.955 s |
+
+There were no errors, failures, skips, expected failures, unexecuted declared
+sources or observed source drift. The candidate also passed **43 registry
+regressions in 2.30 s**. The cumulative inventory is now **411 witnesses**:
+the previous 384 retain their accepted normal/optimized source identities,
+and these 27 passed in both modes. This is not a fresh 411-witness replay;
+neither the independent review probes nor the separate RI-15 inventory are
+added to it. Subsequent guide/acceptance edits are Markdown only.
+
+| Final RI-16 registration source | SHA-256 |
+|---|---|
+| `RETAINED_WORD_FIRST_COMMIT.md` | `5af27962b038b219bc852c9abd77d99e71f086f03cbf8a8e35fd3c447e4c0a2f` |
+| `model.py` | `7b14f8d99a1983d3b244c70fefb10262cf99d6d3eef522784bdce07d0c94fda6` |
+| `check.py` | `995a01325ec7d4c4af6726c1a11d6ebe698e99b8e1749c7b40eaeb6dd356a1c2` |
+| `docs/research/registry.json` | `6f1074841770f3677217c1383c5173c27a53360cfce9650eccfdb7304d06a257` |
+| `det8/tests/test_research_registry.py` | `485497a72b306176ada7c385c48e009b42d9e0cb80f87817cc6a3d96e7fe2a1e` |
+
+This closes the named retained-word gap under the declared finite-input,
+stationary-policy and complete faithful-output-norm premises. It does not
+close arbitrary growing-history policies, earlier selection probabilities,
+general protocol/type orchestration, physical selection or measured benefit.
+The local unpublished claims endpoint remains its explicit eighteen-reference
+subset through RI-08j; its broad core/RET support dependencies remain deferred.

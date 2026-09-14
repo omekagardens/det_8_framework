@@ -1,7 +1,7 @@
 # Operational premises, result boundaries and composition obligations
 
 13 September 2026. RI-13 coordinator consolidation of the accepted review
-implementation and QR results through RI-08j, including RI-15 interoperability. The
+implementation and QR results through RI-08j and RI-16, including RI-15 interoperability. The
 [implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) and
 [progress record](REVIEW_PROGRESS.md) carry current ownership and acceptance.
 The [original review](../../indep%20ndent_review.md) remains a dated assessment.
@@ -407,13 +407,13 @@ The accepted observation-stability capstone closes the present round of
 finite-cone refinement. The accepted
 [FINITE_RECORD_OBSERVABILITY.md](../research/FINITE_RECORD_OBSERVABILITY.md) synthesis consolidates a single
 conditional observability/stability argument; it does not settle operational
-premise selection, the retained-word first-commit extension or measured
+premise selection or measured
 application obligations below. Its finite theorem needs known A/A² command
 matrices and the calibrated terminal read, not the stronger all-real
 continuity premise used in the separate generator classification.
 The full combined proof and its cross-bundle arrows passed two independent
-coordinator reviews. Acceptance adds no executable fixture or automatic
-extension to infinite retained command words. Publication state for the
+coordinator reviews. Its frozen open-bridge discussion predates the separately
+accepted RI-16 extension below. Publication state for the
 research repairs, exact identifiability, comparator and claims package is
 recorded separately in the [publication backlog](PUBLICATION_BACKLOG.md).
 
@@ -478,3 +478,39 @@ composition, a declared larger preparation/instrument class, or an extended
 first-commit observation interface. Each needs its own explicit premise set,
 countermodels, source-stable witnesses and independent acceptance. A union of
 accepted conditional results is not itself a reconstruction theorem.
+
+## 8. Accepted retained-word first commitment — RI-16
+
+The [RI-16 theorem](../validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md)
+closes the named finite-full-label gap for one complete stationary finite
+controller on finite-dimensional faithful input cones. Its complete output
+is an l1 sum indexed by actual words and full committing labels/types, with
+faithful base norms. Positive output norm equals total retained mass, so
+first-commit truncations converge in operator norm and their exact error is
+the dual base norm of survival minus never mass. Silent residuals need not
+converge; never mass is neither a null record nor a terminal residual.
+
+Chronological prefix shifts are essential in the fixed-point equation.
+Without empty steps its word coefficients give uniqueness; hidden empty
+loops can admit spurious dark-added positive solutions, so leastness selects
+the actual law. Uniformly bounded word-dependent linear continuations
+commute with the limit while preserving labels. Hidden path selectors and
+discarded waiting counts do not become available observations. Nonuniform
+norms, unbounded continuations, word erasure, infinite-dimensional input and
+uniform-model-rate claims have explicit counterexamples.
+
+The accepted terminal read contributes only its supplied scalar positive
+effects, with full word/cell/sign labels and complete policy weights. A
+probability-weighted pre-read audit source is generally nonlinear; it cannot
+manufacture a postread residual. Existing literal cuts retain their declared
+positive residual types. This result supplies neither physical availability
+nor the missing orchestration of earlier local/reference-selection weights.
+Its fixed-prefix theorem does not cover arbitrary unbounded-history policies
+or a changing model/controller limit.
+
+Two independent coordinator audits accepted the theorem and exact supplement,
+including separate exact theorem and native-interface probes. Root passed all
+27 new witnesses in both modes and 43 registry regressions from an isolated
+publication candidate. The nineteen-suite cumulative inventory is 411
+witnesses; the preceding 384 source-bound results were not rerun in this cycle.
+The accepted RI-15 adapter remains a separate inventory and interface.

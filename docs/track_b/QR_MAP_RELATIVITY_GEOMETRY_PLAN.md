@@ -3,6 +3,31 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**RI-16 retained-word first commitment, accepted and registered:**
+the [new conditional theorem](../validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md)
+addresses the specific unbounded-command-word gap named by the synthesis.
+One fixed complete stationary finite-controller policy acts on finite-dimensional
+input cones with faithful mass. A complete countable residual output sum retains actual
+words and all other committing labels/types. Chronological prefix shifts
+give H = J_B + sum_a L_a H S_a. The positive first-commit truncations converge
+in operator norm, with exact faithful-base-norm error ||uS^N-ell||; total
+committing mass plus never probability equals input mass. The map is the
+least positive fixed point, and without hidden empty-token steps it is unique.
+Uniformly bounded word-dependent linear continuations commute with the limit
+without erasing original labels. Nonuniform norms, unbounded continuations,
+word erasure and infinite input dimension have explicit counterexamples.
+There is no rate uniform across all policies. Scalar terminal effects do not
+supply reusable residuals; existing literal cuts retain their lawful types.
+Independent proof/source review and 27 focused normal/optimized checks pass.
+Coordinator proof/source reviews and isolated new-suite replay in both modes
+also pass, with 43 registry regressions; scoped publication remains pending.
+This is not a complete operational
+or physical theory: policy availability, earlier selection probabilities,
+general history orchestration and the measured comparator pilot remain
+separate dependencies. No native order/growth law, manifold limit, physical
+time, mass or gravity conclusion follows. The assignment stops for acceptance
+without a new finite-cone refinement, generic SDK or automatic successor.
+
 **RI-08 bounded consolidation, accepted 14 September 2026 UTC:**
 [Conditional observability and stability of a finite record cone](../research/FINITE_RECORD_OBSERVABILITY.md)
 now presents the accepted G/I/J result as one conditional finite theorem,
@@ -14,12 +39,15 @@ quotient, direct polarized C0 viability, the fixed equal-block K_t image,
 RI-15's retained wrapper and the explicit cut-closed enlargement to L_t.
 No global exclusion of earlier C inputs or terminal-to-reusable retagging
 is made. A complete operational chain still needs type/probability accounting.
-The final two bridges remain open: a word-indexed first-commit theorem that
-retains unbounded actual command words, and a measured pilot beyond exact
-identifiability/synthetic comparator arithmetic. Independent combined-proof
+The consolidation named two open bridges: a word-indexed first-commit theorem
+retaining unbounded actual command words, now addressed by the conditional
+RI-16 submission above, and a measured pilot beyond exact
+identifiability/synthetic comparator arithmetic, still open. Independent combined-proof
 and cross-arrow review found no remaining blocker. The source-stable synthesis
-is accepted by the coordinator. This document-only sitting does not
-launch either bridge or any QM/geometry/gravity promotion.
+was accepted by the coordinator and published at
+50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473. That document-only sitting launched
+neither bridge and made no QM/geometry/gravity promotion; RI-16 was separately
+assigned after publication.
 
 **Conditional observation-stability capstone, accepted and registered:** the
 [RI-08j study](../validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md)

@@ -1,5 +1,32 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+14 September 2026 UTC, retained-word first commitment: the new
+[RI-16 theorem](../validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md)
+extends RI-07's finite-full-label boundary under a fixed complete stationary
+finite-controller policy, finite-dimensional faithful input cones and a
+complete countable output sum in faithful base norms.
+**CONDITIONAL_COUNTABLE_LABEL_FIRST_COMMIT_THEOREM;
+PREFIX_SHIFT_LEAST_SOLUTION; UNIFORMLY_BOUNDED_CONTINUATION_INTERCHANGE.**
+Actual command words, settings, prior records, precursors and output types
+remain retained; hidden paths aggregate only inside the same full coordinate.
+The recurrence is H = J_B + sum_a L_a H S_a with chronological prefix shifts,
+not the word-erasing H = B + HS. The full map converges in operator norm,
+with exact tail ||H-H_N|| = ||uS^N-ell|| and countable committing mass plus
+never mass equal to input mass. No silent-state limit or inverse is required.
+Without empty-token steps the word recurrence is unique; hidden empty loops
+can admit spurious fixed points, so the actual law is the least positive one.
+Uniformly bounded word-dependent linear continuations preserve the limit
+while keeping original labels. Positive mass-nonincreasing maps are natural
+contractions. I/J reads enter only as scalar effects, never via a fabricated
+postread residual. Existing literal cuts retain their declared linear outputs.
+All 27 new exact checks pass normally and under optimization; independent
+full proof/source review found no blocker. The coordinator has accepted and
+registered the result after its own independent reviews, new-suite replay in
+both modes and 43 registry regressions. Scoped publication is pending in the
+[handoff](../coordination/QR_HANDOFF.md). This closes no physical selection,
+general process-SDK, measured-pilot, full-QM or geometry/gravity obligation.
+No further finite-cone refinement or automatic successor is opened.
+
 13 September 2026, bounded RI-08 consolidation: the
 [finite record observability synthesis](../research/FINITE_RECORD_OBSERVABILITY.md)
 assembles one self-contained conditional theorem from the accepted native
@@ -11,10 +38,13 @@ metadata, raw-versus-filtered norms and exact budget auditing remain explicit.
 The construction route distinguishes restricted domains, supplied operations,
 the separately implemented RI-15 wrapper and the explicitly enlarged L_t type.
 It does not assert one probability- and type-complete operational chain.
-The two open bridges are countably word-indexed first-commit output accounting
-and a measured comparator pilot; neither is implemented. Independent combined-proof
+At consolidation, the two open bridges were countably word-indexed first-commit
+output accounting and a measured comparator pilot. The former now has the
+conditional RI-16 submission above; the latter remains open. Independent combined-proof
 and cross-arrow review found no remaining blocker. The synthesis is source-stable
-and accepted by the coordinator on 14 September 2026 UTC. No new fixture, witness inventory,
+and accepted by the coordinator on 14 September 2026 UTC, then published at
+50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473. That document-only consolidation
+added no fixture or witness inventory,
 control, preparation, instrument, RET/apparatus work or automatic successor.
 
 13 September 2026, observation-stability capstone: the

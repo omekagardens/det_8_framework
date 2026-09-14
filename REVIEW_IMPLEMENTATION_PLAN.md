@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; accepted results through RI-08j, its published conditional-proof synthesis, and RI-15. Finite-cone refinement is complete. RI-16 retained-word first commitment is now assigned to QR.**
+Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted and registered after the published RI-08 synthesis and RI-15 adapter. Its scoped publication is next. The applied chronology publication repairs are under independent review.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-08j is pushed as `da8fe99`; the [conditional synthesis](docs/research/FINITE_RECORD_OBSERVABILITY.md) is accepted and published in verified `50d652f`. RI-16 retained-word first commitment is assigned below, then stops for independent acceptance. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 is accepted and registered after two independent reviews, 27 new checks per mode and 43 isolated registry regressions. Hold the six-file handoff quiet for scoped publication. No successor is yet assigned. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -97,7 +97,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 |---|---|---|---|
 | RI-01 | F1: reconcile current status and authorizations | Coordinator | **Accepted.** Six landing/status documents now distinguish source-bound local G1 closure, open G2 and the separately authorized bounded QR lane including mass/gravity research. Retired κ-gravity remains retired. Coordinator checked 117 local file links across these documents and the new trackers/runner guide; no missing targets. |
 | RI-02 | F2: repair the pair-kernel research contract | Coordinator | **Accepted for this research interface.** Singular Gram reconstruction, exact recordability and raw-probability validation repaired. Coordinator independently reran 97 focused pytest cases; implementer also ran 49 existing consumer checks. `cholesky()` returns a pivoted Gram factor, not necessarily triangular. No public-core promotion. |
-| RI-03 | F8: register and run isolated research checks with source identity | Coordinator | **Accepted for eighteen named suites.** The cumulative inventory is 384 witnesses and 32 executable sources. Root passed all 28 new capstone checks in both modes from the exact staged checkout; the prior 356 normal/optimized results retain unchanged source pins and all seventeen earlier registry objects. Complete pin/import preflight and 43 staged registry regressions pass, alongside 64 local registry/claim checks. This is not a fresh 384-witness all-suite replay. RI-15 remains a separate source contract. |
+| RI-03 | F8: register and run isolated research checks with source identity | Coordinator | **Accepted for nineteen named suites.** Cumulative inventory:411 witnesses/34 executable sources. Root passed27 new RI-16 checks in each mode and43 registry regressions from the isolated candidate; prior384 results retain unchanged pins. This is not a fresh411-witness replay. RI-15 remains separate. |
 | RI-04 | F3/F4/F2: reconcile older mathematical certificates | Coordinator | **Accepted within the eight-module research scope.** Corrected emitted premises/endpoints, almost-quantum level naming, TLM scope and two direct consumers. Invalid signed/nonfinite behaviors are refused. Coordinator reran 141 focused cases; implementer reports 80 impacted legacy checks. Imported theorems and finite diagnostics remain explicitly separate. |
 | RI-05 | P1/F5: lawful context transitions | QR | **Bounded conditional target accepted.** Two selected simplicial cones and explicit apparatus maps have complete lawful transitions. A nonextension counterexample preserves the need for domain restriction. Record-conditioned policy, physical availability and DET selection remain extra premises/open obligations. |
 | RI-06 | P2/O1: constructive future-test equivalence | QR, with coordinator review | **Finite theorem and two-mode implementation accepted.** Typed backward effect closure proves all-finite-word equivalence and returns exact separating tests. Read–switch–read distinguishes every coordinate here, so this model has no nontrivial residual compression. A general process SDK, unrestricted histories/ancillas and other observation interfaces are not established. |
@@ -120,7 +120,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-13 | F10/P0: premise/result and explanatory ledger | Coordinator, independent review | **Accepted consolidation, maintained through RI-08j and RI-15.** The [ledger](docs/coordination/OPERATIONAL_PREMISE_LEDGER.md) binds the accepted theorem chain to exact domains, premises, range/catalogue compatibility, safe conditional composition and exclusions. Initial acceptance had two independent reviews and 28 valid local links. RI-15 now supplies one exact adapter; general interoperability, physical availability and further reconstruction remain separate obligations. |
 | RI-14 | Machine-readable scoped research authorization | Coordinator | **Accepted.** A separate `research_activity_document()` endpoint and generated summary expose scoped authorization and eighteen explicit accepted references through RI-08j. Legacy claim/document contents, priorities and support/evidence statuses are preserved exactly. Detached metadata, isolated normal/optimized stdlib-only execution, links and export parity pass; 21 focused boundary/summary cases pass within the 64-case integration check. |
 | RI-15 | Exact local-to-joint source and history interchange | Coordinator, QR consultation | **Accepted bounded research interface.** The [adapter contract](docs/validation/t8-q-local-joint-adapter-2026-09-13/ADAPTER.md) preserves the exact RI-08c snapshot, pending controls, complete records and reference provenance through RI-08d stages. Weights are conditional on supplied normalized snapshots. Two source audits, 51 independent probes per mode and root's 36 regression cases pass, including the pinned 20-witness normal/optimized runs. This separate fixed-alias launcher changes neither accepted model nor registered runner. Full earlier protocol weights, general interoperability and physical availability remain separate. |
-| RI-16 | Retained-word first-commit extension | QR, with coordinator review | **Assigned after synthesis publication.** Prove the countable retained-label output/norm, convergence, mass, prefix-shift and word-dependent continuation contract below. A finite witness supplement does not establish the infinite theorem; source-stable independent acceptance remains pending. |
+| RI-16 | Retained-word first-commit extension | QR, with coordinator review | **Accepted and registered.** Complete countable output/base-norm, operator convergence, exact survival-minus-never tail, chronological prefix-shift leastness and bounded word-dependent continuation theorem. Two independent audits and27 new checks per mode plus43 registry regressions pass. Fixed finite-input/stationary-policy and terminal-scalar boundaries remain explicit. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -163,10 +163,11 @@ premise-to-conclusion argument around the accepted operational endpoint,
 with its supplied domain, controls, composition, availability and surviving
 countermodels stated together. Do not automatically add another axis,
 control or reset fixture. The original review's larger obligations remain:
-DET selection of operational premises; extension of first commitment to the
-later unbounded retained command words; and one bounded measured application
-evaluation. RI-07's finite full-label theorem does not cover that retained-word
-extension without a new proof. Instrument/data, target/tolerance and evaluation
+DET selection of operational premises and one bounded measured application
+evaluation. RI-16 now supplies the retained-word first-commit extension under
+its fixed finite-input, stationary-policy and faithful l1-output premises.
+Arbitrary growing-history policies and complete earlier-weight/type
+orchestration remain separate. Instrument/data, target/tolerance and evaluation
 objective remain the named measured-application dependencies.
 
 The accepted consolidation artifact is
@@ -177,7 +178,7 @@ known A/A² command matrices and the calibrated read, not RI-08h's stronger
 all-real continuity hypothesis. The route through maximal-domain obstruction,
 local C/C0 and K_t, the separate RI-15 adapter, and changed L_t return domain
 must label every added premise and composition boundary. RI-07 remains a
-separate theorem until its full-label/retained-word gap is proved. Root assigned
+separate theorem; RI-16 now proves the stated retained-word extension. Root assigned
 this bounded synthesis after the capstone was accepted and pushed as `da8fe99`.
 Both independent coordinator reviews accepted the complete argument. Root
 checked all 50 registered statement/source pins against published bytes and
@@ -185,12 +186,14 @@ checked all 50 registered statement/source pins against published bytes and
 checks. Only acceptance wording changed after that review. This closes the
 consolidation assignment without closing its explicitly named open bridges.
 
-**Next bounded proof: RI-16 retained-word first commitment**
+**RI-16 original bounded assignment — completed and accepted**
 
 Root dispatched this assignment after independently verifying publication of
 the accepted synthesis at `50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473`.
-It targets a specific RI-07 interface gap; that gap remains open until the
-new theorem passes independent acceptance.
+It targeted a specific RI-07 interface gap. The resulting theorem has now
+passed independent proof/source review and isolated executable verification.
+The original assignment below records its bounds; it is not an outstanding
+request to repeat completed work.
 QR will produce one isolated theorem bundle under
 `docs/validation/t8-q-retained-word-first-commit-2026-09-14/`, containing
 `RETAINED_WORD_FIRST_COMMIT.md`, `model.py` and `check.py`, and update only its
