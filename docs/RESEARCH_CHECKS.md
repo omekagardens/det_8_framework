@@ -13,6 +13,22 @@ adopt a reconstruction premise, validate physical availability or establish
 geometry, mass or gravity. The written arguments retain those obligations.
 Test counts are descriptive execution metadata, not proof strength.
 
+## Accepted-file integrity without execution
+
+The separate [RI-24 inventory guide](coordination/REVIEW_SNAPSHOT.md) describes
+a read-only byte check of the 71 accepted statement/source/design/synthesis
+files held through RI-22 and RI-23:
+
+```sh
+.venv/bin/python -I -S -B scripts/check_review_snapshot.py
+```
+
+It also covers proof/design companions outside this nineteen-suite registry.
+It imports and executes none of the listed sources and does not change the
+411 registered witness count. A match means agreement with a supplied manifest,
+not proof, a suite replay, whole-project coverage or publication authentication.
+The registry and launchers below retain their separate execution contracts.
+
 ## Usage
 
 Run from the repository root with Python 3.11 or later. The runner and the nineteen

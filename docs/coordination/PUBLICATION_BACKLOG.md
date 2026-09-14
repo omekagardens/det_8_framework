@@ -289,3 +289,35 @@ reservation or automatic successor. The 71 accepted held identities include
 both RI-22 and RI-23; the final coordinator publication record changes only
 root plan, progress and this backlog. The next QR dependency is a named
 premise/acquisition interface, not another automatic proof catalogue.
+
+
+**RI-24 in review — durable integrity inventory**
+
+The coordinator is making the 71 held accepted-file identities reproducible
+without temporary orchestration files. The [manifest](review_snapshot.json)
+has independent inventory review and matches the prior verified checkpoint
+`5ec58e5`; the [read-only checker contract](REVIEW_SNAPSHOT.md) remains separate
+from research execution, authentication, full-project coverage and acceptance
+of additional files. Source and regression review are in progress.
+
+The intended checkpoint contains exactly eight files: new manifest, checker,
+tests and guide, plus research-checks guide, root plan, progress and this
+backlog. All earlier accepted sources and QR notes, original review, registry
+and unrelated/core/RET baseline remain unchanged. No new QR successor or
+research executor is part of this reproducibility task.
+
+
+**RI-24 accepted — eight-file publication candidate**
+
+The held inventory and complete checker passed independent source/scope review.
+Root passed all 94 independent regressions in a minimal copied candidate and
+separately matched all 71 actual inventory files under normal and optimized
+Python, with zero research execution and unchanged candidate bytes. The
+reported prior research counts are unchanged.
+
+The eight-file scope above is now accepted and source-quiet for publication.
+Exact checker, test and manifest identities and the performed checks are in
+[review progress](REVIEW_PROGRESS.md). The existing registry, accepted sources,
+original review, QR summaries and unrelated working baseline remain unchanged.
+This makes the accepted-file inventory durable; it does not supply the missing
+QR acquisition/composition premise or reopen the RET lane.

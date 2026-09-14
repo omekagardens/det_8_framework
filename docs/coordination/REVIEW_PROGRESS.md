@@ -2996,3 +2996,80 @@ premise ledger, original review, registry, application corollary and unrelated
 working baseline are unchanged in this final metadata checkpoint. Recurring
 follow-through remains available for new evidence and other authorized work;
 RET/core/bank work and a new executor are not opened.
+
+
+**RI-24 started — durable accepted-file integrity inventory**
+
+This cycle began at verified origin/ret commit
+`5ec58e5f6961a01ce37d0442dfcf80cbac8725df`, tree
+`7df594315dd1c6f67c67b099dd7f844c5718671b`, with an empty index. QR is idle
+and its accepted RI-22 files are unchanged; no new premise/acquisition
+interface or QR successor has appeared. The coordinator is advancing an
+independent reproducibility improvement, not another QR proof or executor.
+
+The new [manifest](review_snapshot.json), SHA256
+`635e85203dac1d15d5d9e0a2116ce37b3002c6c62626afdfce1baa488858bc45`,
+persists all 71 held accepted-file identities at that prior checkpoint.
+Root checked every identity against both current bytes and committed blobs.
+Independent inventory review corroborated the entire set, all 53 registry
+pins and the 18 remaining adapters/launchers/syntheses/designs/contracts.
+The `53 + 7 + 5 + 6` coverage partition is exact; every anchored entry is a
+regular committed file. This is an explicit held collection, not all accepted
+project files, an import closure or the full working baseline.
+
+The [guide](REVIEW_SNAPSHOT.md) and research-checks entry passed independent
+scope review with one correction keeping RI-24 publication explicitly future.
+A standard-library read-only checker and independent regressions are under
+implementation review. They must distinguish valid matches, artifact drift or
+unreadability and invalid input, and must not execute listed sources, discover
+new artifacts, refresh digests, write evidence or authenticate git metadata.
+The manifest and checker need their own trusted publication identity.
+
+Reserved publication scope is eight paths: manifest, checker, tests, guide,
+research-checks guide, root plan, progress and backlog. All 71 accepted
+identities, six protected identities, original review, application corollary,
+premise ledger, QR summaries and unrelated baseline remain held. The original
+registry and launchers are unchanged; no old suite replay or count promotion
+is assigned. Implementation acceptance and actual verification follow below.
+
+
+**RI-24 implementation independently accepted — eight-file candidate**
+
+The read-only checker and independent tests have returned source-quiet.
+Independent full-source review accepted schema-before-artifact validation,
+strict path/size refusals, captured hash/count reporting, exit statuses and
+zero research execution/filesystem-write behavior. All manifest and checkpoint
+identities remain caller-supplied claims at runtime; non-atomic read limits
+and the narrow 71-file coverage are explicit. No source correction was needed.
+
+Accepted executable/test identities:
+
+- `scripts/check_review_snapshot.py` —
+  `73cdb6bbe4754818736968b75ee3b84936750da22f21d881afdd09559202124e`.
+- `det8/tests/test_review_snapshot.py` —
+  `e05f38303cfb351279941b584abeaece26e34f6d01df41b5bd4225092f4a4f4f`.
+
+The checker author passed six isolated API smoke cases and in-memory syntax
+checks. The independent test implementer passed 94 synthetic-fixture
+regressions normally and with optimization, plus scoped Ruff/format checks.
+The tests cover actual tamper/missing-file counts, invalid and duplicate JSON,
+full schema validation before artifact opens, canonical paths and symlink
+refusal, explicit 1,000,000-byte boundaries, alternate manifests and archive
+CLI behavior. The artifact containing Python write/raise statements is read
+as bytes and never imported; CLI cases leave source directories unchanged.
+
+Root independently built a minimal candidate from the 71 anchored committed
+blobs and the exact new checker, manifest and test bytes. It has no `.git`,
+installed DET package or unrelated user/core/RET baseline. All 94 regressions
+passed in 0.58 seconds with plugin auto-loading and pytest cache disabled.
+These include normal/optimized CLI checks. Separate direct normal and
+optimized runs each matched all 71 actual manifest files, reported zero
+executed files and left the candidate bytes unchanged. No predecessor suite,
+RI-18 execution or historical 411-witness replay was performed.
+
+The manifest remains SHA256
+`635e85203dac1d15d5d9e0a2116ce37b3002c6c62626afdfce1baa488858bc45`.
+The guide now records acceptance and the performed checks. This reproducibility
+item is complete at its byte-integrity boundary and awaits the exact eight-file
+publication checkpoint. QR remains source-quiet at the existing premise/
+acquisition decision; the checker adds no executor or new QR assignment.
