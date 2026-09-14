@@ -6,8 +6,8 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; RI-26 now owns the secondary supplied-geometry assignment. |
-| RI-26 observer/signal model | **Actually dispatched after RI-25 publication.** QR owns the separate supplied-geometry specification/simulator/record bundle and its three summaries. Root opened independent mathematical review of reception, clock and cutoff semantics. | Receive and independently review the complete source-quiet model and actual checks; preserve the 87 held predecessors. |
+| RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; the separately scoped RI-26 model is also independently accepted. |
+| RI-26 observer/signal model | **Independently accepted.** Three final reviews passed. Root passed 51 isolated tests per mode, reproduced 52 identical worked exports and reconciled 331 independent exported-data checks. Eleven bundle identities are recorded below. | Publish the exact eighteen-path candidate; preserve all 87 prior held identities. No successor or actualization-to-geometry rule is supplied. |
 | QR coordination / RI-05–08j and RI-16–19 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. RI-18 is published in verified `ba12958`. RI-19 proof/design is accepted: full classification, exact admission obstruction, matched-law stability and observation-rank results, with independent theorem/API review and 193 root native assertions. Published in independently verified `f6b8f18`; approximate execution remains unimplemented. Consolidation and operational-premise/application direction are the next coordinator decision. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
@@ -3319,3 +3319,92 @@ retain distinct events, and display arithmetic must not decide reception or
 cutoff validity. The static case has separate time/cutoff coordinates because
 q=1 identically when H=0. Redshift-only nonidentifiability is not a claim that
 complete calibrated timing records of the example geometries are identical.
+
+
+**RI-26 final source acceptance — supplied geometry, local observer records**
+
+The earlier four-record dispatch checkpoint is independently verified
+[c20ca2d0222f2d3d1d949f1495b6a6bfd9688670](https://github.com/omekagardens/det_8_framework/commit/c20ca2d0222f2d3d1d949f1495b6a6bfd9688670),
+tree `6f4960961aa4f9eb25683f3c83ec99de97690a83`. Its normal push and
+independent remote lookup succeeded. It recorded primary publication and
+the actual secondary assignment without staging active QR source.
+
+QR returned eleven new bundle files and its three reserved summaries, then
+stopped source-quiet. Root verified all fourteen returned hashes. Three
+final root reviewers independently accepted the mathematics/specification,
+record/observer/simulator implementation and documentation/scope. QR's own
+independent reviews also closed. Its source reservation is released. Root
+changes only acceptance metadata in the three summaries and coordinator
+records; all eleven bundle files remain at the returned identities.
+
+The [worked model](../experiments/observer_signal_v1/EXPERIMENT.md) adopts
+a flat radial exponential geometry, comoving ideal clocks and null/geometric-
+optics propagation. Exact rational q coordinates determine reception and
+cutoff for nonzero H; static time is separate. Horizon equality has no finite
+receipt. Finite observation-window absence cannot establish eternal
+nonarrival or even an unobserved emission. Unknown clock offsets prevent
+synchronized flight-time inference. Redshift-only nonidentifiability does
+not equate the complete calibrated timing records of different geometries.
+
+The logarithm series remainder plus exact rounding gives constructive
+synthetic clock-display error bounds. Physical calibration remains adopted.
+Whole-prefix interval feasibility repairs the nonadjacent chronology defect;
+rounded ties still retain separate events. Rendering failures refuse a run
+rather than hide a receipt. Receiver inference cannot read model/audit
+parameters, and fixed records give unchanged reports when those mutable
+audit fields are altered. Pulse-spacing ratios require declared common
+clock/train/history conditions and positive resolved intervals. The finite
+two-pulse ratio lies strictly between two and three; it is not either
+endpoint's instantaneous redshift stretch.
+
+**Actual root execution.** A minimal copied candidate passed all 51 tests
+on Python 3.11.6 with `-I -S -B` in 0.047 s and `-I -S -B -O` in 0.047 s:
+25 exact kinematic, 14 clock/record and 12 simulator/worked tests. These
+are the same tests in two modes, not 102 independent results. QR separately
+reported 51 passes in 0.046/0.045 s. No predecessor, core or RET suite was
+replayed, and the historical 411-witness registry count is unchanged.
+
+Root's direct normal/optimized CLI runs wrote all traces outside checkout.
+All 52 export files were byte-identical. Ten fixtures retain 11 emissions,
+eight receptions and 20 window closures, including emissions with no receipt
+in horizon/beyond-horizon/early-cutoff cases. The exported summary SHA256 is
+`80a646f5dd007ba6a9d64f9ffd6dec7c3c4bb5a1a8d4974fa31c335545ac28a8`.
+
+A separate root audit read only JSON/JSONL, importing no experiment source.
+Its 331 assertions independently reconciled exact arrival/frequency laws,
+all emissions/receipts/closures, payload correspondence, whole-history
+interval order, local-access field limits, absence reports, redshift and
+no inferred flight time. It also reconstructed the finite-spacing enclosure
+and exact power certificate. These are export/accounting checks, not new
+registered mathematical witnesses or physical measurements. The earlier
+151 in-memory mathematical assertions remain separate draft-review evidence.
+
+All ten Python files match the tested candidate byte-for-byte. The final
+EXPERIMENT note differs from that candidate only in the reviewed final
+verification paragraph. The units and mathematical body are unchanged.
+The final documentation reviewer also verified the two additional public
+data leads and identified two stale RI-25 publication statements in the QR
+maps; those receive coordinator publication-status corrections.
+
+Accepted bundle SHA256 identities:
+
+| File in `docs/experiments/observer_signal_v1/` | SHA256 |
+|---|---|
+| EXPERIMENT.md | `767c8cc3cb6b5b41da7e55c81b5689e560f22beb1b26a30ae271e17f60277682` |
+| clock_readings.py | `cb03374cab47bceb3a9a25bd7fd437e70771786b195435e75fa484656e1fcc89` |
+| kinematics.py | `038631b6ba733592a89bd263700554f00ad076be75e71d5ddf115b41bf9a77ae` |
+| local_records.py | `7de92b4891da4303abbb2f4ba702839264d4df873d7a26534033a45d73c884c2` |
+| observer.py | `d630e65fa31b8282f824fbbcb6aaa8982ad8cfe89a141ae5e1034e5feefe5e50` |
+| run_checks.py | `85300aeeeddb783c6e89a0a7e120dae319d0dcf37b00a91d162a11f366f18382` |
+| sim.py | `dc038ede350979bb9ad90efb8a1245a9202d866c394095e25a09bec23092d1eb` |
+| test_kinematics.py | `fc8cb692b7ab04ca6dcfe089f0722ceb928289e542be58841dd5ca1770725460` |
+| test_records.py | `596a86ab7eda209485a8d5964ddb4fc6bb1dc042030617ec42efad622c39599f` |
+| test_worked.py | `519f2fbd65160becf50cdd6987435503406c19838b5a2021b3b83fb746c1f66e` |
+| worked_example.py | `9741096cefd909256ed0ae3822d32f047724557ae77834d61bc40ea2f172b0d7` |
+
+The publication scope is exactly eighteen paths: eleven bundle files, three
+QR summaries and four coordinator Markdown records. The 87 held predecessors,
+six protected identities and unrelated entry baseline must remain unchanged.
+Calibrated measured W and practical comparator prerequisites remain open.
+No actualization feedback equation, native F/L, Einstein dynamics or physical
+mass/gravity claim is supplied; no automatic successor is assigned.

@@ -1,5 +1,35 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+14 September 2026 UTC, independently accepted supplied observer/signal baseline: the
+[RI-26 model](../experiments/observer_signal_v1/EXPERIMENT.md) integrates radial
+null propagation in a stipulated exponential flat-FLRW geometry. Exact q-domain
+arithmetic distinguishes finite arrival and nonfinite forecasts; finite cutoff
+absence is a separate local report. Static time has its own representation.
+Distinct emission/reception/crest identities and payloads persist, including
+zero-delay transfers and rounded timestamp ties. Observer records expose
+bounded local clocks and calibrated frequencies, not H/q/coordinates/offsets
+or forecasts. A transmitted timestamp does not supply synchronized flight time.
+
+The conditional results are uniqueness/order, a(t)nu transport, coordinate
+rescaling, ideal local-duration invariance, a static-limit bound and a rejected
+redshift-only geometry summary. The finite two-pulse secant ln2/ln(4/3) lies
+strictly between instantaneous endpoint stretches 2 and 3; local readings
+support an interval or an honest precision refusal. Ten fixtures retain 11
+emissions, eight receipts and 20 closures; all 52 exports match between normal
+and optimized runs. Complete independent mathematical and source reviews passed;
+final verification and publication status are in the
+[handoff](../coordination/QR_HANDOFF.md). Coordinator final reviews and
+isolated replay are complete: 51 tests per mode, 52 identical exports and
+331 separate exported-data checks. The eleven-file source reservation is
+released for scoped publication; no successor is assigned.
+
+This is a supplied-geometry observer baseline, not QR-MAP's native kinematic
+map: metric and coordinates are inputs. No actualization-to-geometry rule is
+supplied; any additional rule must name its equations and observer-accessible
+difference separately. RI-25's twelve-file bundle and other accepted artifacts
+remain unchanged. No mass/gravity promotion, lettered gate or automatic
+successor follows.
+
 14 September 2026 UTC, independently accepted ordinary-qubit retained-record experiment: the
 [RI-25 bundle](../experiments/qubit_record_v1/EXPERIMENT.md) implements the
 user-approved restricted physical-model interface. Trace-one qubits, complex
@@ -32,8 +62,8 @@ new lettered gate, native F/L, geometry/mass/gravity claim or automatic successo
 
 Coordinator final source acceptance and isolated 61-test normal/optimized
 replay are complete, with twelve matching worked exports and 82 separate
-record/prediction/score reconciliation checks. Publication is the next scoped
-coordinator step; all twelve bundle files retain their accepted identities.
+record/prediction/score reconciliation checks. RI-25 is published in verified
+`9f463f2`; all twelve bundle files retain their accepted identities.
 
 The earlier entries below retain their historical acceptance/scope statements.
 

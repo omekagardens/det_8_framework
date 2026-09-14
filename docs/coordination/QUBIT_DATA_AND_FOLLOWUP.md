@@ -74,6 +74,21 @@ the required tomography trial records.
 
 ## Concrete acquisition requirement
 
+A further bounded public-data review examined two additional experimental
+leads. Neither currently qualifies for the fixed RI-25 acquisition contract;
+this is not a claim that the literature has been exhausted.
+
+| Additional lead | Material inspected and remaining gap |
+|---|---|
+| Stricker et al., ion single-setting tomography | The experiment uses four-outcome nonorthogonal measurements. The public dataset lists five small CSVs; inspected files contain figure-level timing, fidelity and purity summaries. A raw all-attempt/calibration-linked acquisition payload was not established. This measurement interface cannot be relabeled as the binary W batch.[^8] |
+| An et al., photonic self-guided/shadow tomography | The experimental SGQT control uses adaptive projective directions; the shadow apparatus uses six Pauli eigenstates. Small inspected archives contained figure spreadsheets whose scientific table schemas were not validated. Postselection, discarded detections, adaptive setting logs and applicable calibration/drift bounds leave the full acquisition contract unresolved. No fixed-W batch was established.[^9] |
+
+Only public metadata and small payloads were inspected by the reviewer; no
+scientific data were imported into this project. The adaptive oblique protocol
+could inform a separately preregistered future variant if its actual settings,
+observations and calibration evidence become available. It does not change
+RI-25's frozen W or convert a reconstructed expectation into a measurement.
+
 The next measured step needs X/Y/Z and independently acquired W records for
 the same declared preparation/reference sessions. Preserve all attempted
 trials, their acquisition order and calibration links, including missing or
@@ -131,9 +146,10 @@ accepted synthetic comparator remains synthetic until those inputs exist.
 
 ## Secondary observer-and-expansion model
 
-RI-26 was actually assigned to QR after the primary qubit deliverable was
-accepted and published. Use a supplied static, expanding or
-contracting geometry and explicit signal propagation to model local observers,
+The [RI-26 observer/signal model](../experiments/observer_signal_v1/EXPERIMENT.md)
+is now independently accepted after the primary qubit deliverable was
+published. It uses supplied static, expanding and contracting geometries
+and explicit signal propagation to model local observers,
 local clock readings, emission/reception events and inferred redshifts.
 Retain the observer's accessible signals separately from global simulator
 coordinates. A standard supplied geometry/propagation calculation is one
@@ -142,9 +158,9 @@ model result; it does not derive geometry from record actualization.
 Any proposed actualization-to-geometry rule must specify its variables,
 equations and parameters, then predict a difference in observer-accessible
 quantities relative to the supplied-geometry baseline. Without such a rule,
-there is no additional observable consequence to calculate. This secondary
-scope must not delay RI-25 or be presented as a result about physical time,
-mass or gravity before its own model and review exist.
+there is no additional observable consequence to calculate. The accepted secondary
+model provides a baseline for assessing such a proposal; it does not supply
+a derivation of physical time, mass or gravity.
 
 The bounded assignment supplies a flat radial metric, an exponential scale
 factor with constant H (plus static control), comoving ideal clocks and null
@@ -156,10 +172,13 @@ remain distinct from local receipt records. A finite absent receipt is not
 an observation of the infinite future; the Hubble radius is not treated as
 a universal causal horizon.[^7]
 
-The implementation will also distinguish instantaneous frequency redshift
-from finite pulse-spacing ratios, retain unknown clock offsets, and demonstrate
+The implementation distinguishes instantaneous frequency redshift
+from finite pulse-spacing ratios, retains unknown clock offsets, and demonstrates
 that the same redshift can arise from different supplied parameter pairs.
-It will return for independent review and actual execution before acceptance.
+Three final reviews accepted the source. Root passed 51 isolated tests per
+mode, reproduced 52 matching exports and reconciled 331 independent exported-
+data checks. Source identities and publication status are in the
+[progress record](REVIEW_PROGRESS.md).
 There is still no supplied actualization-to-geometry feedback law.
 
 The originating discussion assistant is not monitoring this work until the
@@ -192,3 +211,10 @@ independent review and scoped commit/push follow-through.
 
 [^7]: Davis and Lineweaver, [Expanding Confusion](https://arxiv.org/abs/astro-ph/0310808),
     for the distinctions among cosmological horizons and the Hubble sphere.
+
+[^8]: Stricker et al., [Experimental Single-Setting Quantum State Tomography](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.3.040310);
+    [public data, DOI 10.5281/zenodo.7054827](https://zenodo.org/records/7054827).
+
+[^9]: An et al., [Efficient Characterizations of Multiphoton States with an Ultra-thin Optical Device](https://arxiv.org/html/2308.07067v2),
+    experimental sections and Supplementary Notes 3 and 5;
+    [public data metadata, DOI 10.5281/zenodo.10674374](https://zenodo.org/api/records/10674374).

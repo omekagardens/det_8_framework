@@ -3,6 +3,35 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**RI-26 supplied observer baseline, independently accepted:** the
+[worked model](../experiments/observer_signal_v1/EXPERIMENT.md) supplies an
+exponential spatially flat radial geometry, ideal comoving clocks and null/
+geometric-optics propagation. Exact rational q/H-sign comparisons determine
+finite arrival and cutoff inclusion; static time is separate. Finite absence
+is never promoted to an infinite-future horizon conclusion.
+
+Locally retained emissions, receptions, reference/crest payloads and bounded
+clock displays remain distinct from global parameters/forecasts. Numerical
+log/rounding bounds justify synthetic display errors, not physical calibration.
+Unknown offsets prevent synchronized flight-time inference. Ideal same-clock
+offset invariance differs from rounded-display invariance. One redshift leaves
+H and emission distance underdetermined; additional timing need not. Finite
+pulse spacing and instantaneous redshift stretch are explicitly different.
+The fixtures, invariant proofs and counterexamples are conditional kinematics,
+not measured accuracy or an empirical DET discriminator.
+
+No actualization-to-geometry feedback equation is supplied. A future rule needs
+variables/equations/parameters and an observer-accessible difference before
+another consequence can be computed. The supplied metric and coordinates fail
+the native primitive-input criterion by construction. Native F/L, emergence,
+physical mass/Einstein/gravity, Option B and Status M remain unchanged. RI-25
+is published; measured W and comparator prerequisites remain separate.
+Coordinator final reviews and isolated replay passed: 51 tests per mode,
+52 identical exports and 331 separate exported-data checks. Its eleven-file
+bundle remains source-quiet; the reservation is released for scoped
+publication. No automatic successor or reopened legacy/lettered/coverage/
+noncollapse program follows.
+
 **RI-25 restricted operational interface, independently accepted:** the
 [ordinary-qubit experiment](../experiments/qubit_record_v1/EXPERIMENT.md)
 adopts Born/Lüders laws and calibrated XYZ plus withheld W availability.
@@ -26,7 +55,8 @@ inputs of RI-25, so it cannot pass the primitive-input test as a native
 quantum-to-Lorentzian derivation. Option B, Status M, the frozen QR-MAP
 constraints, and the separate physical mass/Einstein/gravity obligations are
 unchanged. Final coordinator source review and isolated normal/optimized replay are
-complete; scoped publication remains the coordinator's next step; no QR-05 lettered, coverage or noncollapse sequel opens.
+complete; RI-25 is published in verified `9f463f2`. No QR-05 lettered,
+coverage or noncollapse sequel opens.
 
 **RI-22 composition-independence countermodel, proof/design only:** the
 [new note](../coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md) locates a

@@ -1,4 +1,100 @@
-# QR research handoff — qubit records and withheld prediction
+# QR research handoff — local observers in supplied geometry
+
+14 September 2026 UTC. **RI-26 SUPPLIED_GEOMETRY_OBSERVER_MODEL;
+COORDINATOR_CONDITIONAL_MODEL_AND_IMPLEMENTATION_ACCEPTED.** The
+[standalone specification](../experiments/observer_signal_v1/EXPERIMENT.md)
+and isolated bundle implement the separately authorized secondary exploration.
+Only this handoff and the two QR maps are otherwise edited. Coordinator owns
+all git/index, acceptance/publication and other source reservations.
+
+RI-25 is accepted and published at
+`9f463f2e60be81badb4836aaf8ef43d23fee2458`, tree
+`066a8bf8c5a3d09ee313406b016c0a23c96f642e`, with normal push and independent
+origin/ret verification by the coordinator. Its twelve bundle files are held
+unchanged. The new inventory holds 87 predecessor/RI-24/RI-25 files plus six
+protected identities. No accepted source, registry, core/RET or bank is
+imported, changed or replayed by this assignment.
+
+Coordinator final acceptance is complete at the returned eleven-file bundle
+identities. Three root mathematical, source/data-flow and documentation
+reviews passed; all ten Python sources match the isolated tested candidate.
+Root independently passed 51 tests per mode, reproduced 52 identical worked
+exports and reconciled 331 separate JSON-only exported-data checks. The QR
+source reservation is released; scoped publication is the coordinator's
+next step. Source hashes and actual evidence are in the
+[progress record](REVIEW_PROGRESS.md). No successor is assigned.
+
+## RI-26 conditional kinematic and record result
+
+The supplied exponential flat-FLRW radial metric, comoving clocks and null/
+geometric-optics propagation give q_r=q_e−H a_star ell/c. Positive q_r is a
+unique finite arrival with frequency ratio q_r/q_e; expansion q_r=0 is only
+asymptotic and q_r<0 is beyond the supplied model's future reach. Neither
+nonfinite case gets a receipt, measured zero frequency or infinite timestamp.
+All signs, chronology and inclusive cutoffs are rational; static H=0 has
+separate rational time. Future scheduled emissions after cutoff are refused
+as invalid actual inputs, while in-window emissions remain even without a
+visible receipt. Finite absence is not a horizon observation.
+
+The note proves order, a_r nu_r=a_e nu_e, coordinate-rescaling and ideal local-
+duration offset invariance, and the fixed-emission-time static limit. These
+are standard supplied kinematics, not new energy laws or Einstein dynamics.
+One redshift does not determine geometry: (H,d_e/c)=(1,1/2) and (2,1/4) give
+z=1 with delays ln2 and (ln2)/2. Their full timing records are not equated.
+The finite two-pulse secant ln2/ln(4/3) lies strictly between its endpoint
+instantaneous stretches 2 and 3; it is not either instantaneous redshift.
+
+Records retain distinct emission/signal/crest identities, transmitted and
+received reference payloads, actual local times/frequencies, local precursors
+and finite closure. H/q/coordinates/offsets/forecasts remain separate audit.
+Rational logarithm enclosures and exact grid/upward-error rounding prove the
+synthetic display bounds, not physical calibration. Ambiguous positive timing
+gaps refuse a ratio. Rounded differences need not be offset-invariant, and
+unknown cross-observer offsets prevent flight-time inference from transmitted
+timestamp subtraction. Whole-prefix clock-interval feasibility uses a running
+maximum lower endpoint; pairwise checking was rejected by counterexample.
+
+Receiver-only inference imports no geometry/simulator. Absent preannounced
+IDs get only `not_received_by_cutoff`, not proof of emission or eternal
+nonarrival. Common emitter clock/epoch, unit rates, pulse train, truthful
+reference payload and ideal calibration are supplied premises. Matching
+strings or immutable objects do not authenticate them. Existing records are
+not modified by later interpretation; rendering failures refuse the run rather
+than hiding an exact receipt behind an absence report.
+
+## RI-26 actual run and source-quiet boundary
+
+Ten worked fixtures retain 11 emissions, eight receptions and 20 local
+window closures. Half-unit static/expanding/contracting cases give delays
+1/2, ln2, ln(3/2), frequency ratios 1, 1/2, 3/2 and redshifts 0, 1, −1/3.
+Worked length units are light-seconds and time units seconds. Horizon,
+beyond-horizon and early-cutoff cases preserve emissions without fake receipts;
+the pulse example includes its second receipt exactly at cutoff.
+
+Main's direct normal/optimized worked runs produced byte-identical contents
+across all 52 exports, outside the checkout. Summary SHA256:
+`80a646f5dd007ba6a9d64f9ffd6dec7c3c4bb5a1a8d4974fa31c335545ac28a8`.
+Complete independent mathematical/specification and source/dataflow reviews
+found no remaining blocker after the chronology and direct pulse-helper guards
+were repaired. Main passed all 51 focused tests on Python 3.11.6 with
+`-I -S -B` (0.046 s) and `-I -S -B -O` (0.045 s): 25 exact kinematics,
+14 clock/record and 12 simulator/worked tests. Separate test authors also
+passed their normal/optimized checks. Scoped lint/format checks pass; all 152
+local links resolve, and whitespace/conflict checks have zero findings.
+All 87 held and six protected identities match their entry pins. No predecessor
+suite was replayed; research witness totals are unchanged. Final source
+identities accompany the quiet handoff. Coordinator source acceptance is
+now complete; remote publication remains a separate scoped step.
+
+No actualization-to-geometry equation is supplied. A future rule needs explicit
+variables, equations, parameters and an observer-accessible difference from
+this baseline; none is invented here. Metric and coordinates are inputs, not
+native emergence. Native F/L, physical mass/gravity, Option B and Status M are
+unchanged. Measured W and the practical comparator remain separate. No legacy
+clock/kappa work, QR-05 lettered/coverage/noncollapse gate or automatic successor
+starts. Stop at independently reviewed source-quiet handoff.
+
+## Historical RI-25 handoff — accepted and published
 
 14 September 2026 UTC. **RI-25 CONDITIONAL_QUBIT_RECORD_EXPERIMENT;
 COORDINATOR_CONDITIONAL_MODEL_AND_IMPLEMENTATION_ACCEPTED.** The
