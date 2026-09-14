@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program. RI-25 is independently accepted: an ordinary-qubit experiment with an explicit DET embedding, retained trial records and withheld-setting predictions. Its approved direction and data-readiness findings are published in verified `1904393`; the complete bundle passed final independent review, 61 isolated tests per mode and 82 exported-data reconciliation checks. Its scoped publication is next. Earlier accepted proof and implementation results remain fixed, with their status and limits recorded below. RI-24's durable integrity checker is published in verified `db803fb`; the latest scalar-value contract and composition countermodel are published in verified `0410ccd` and `ad3c8dd`. Measured qubit data with an independently acquired W setting remain a separate dependency. Scoped commits and pushes continue through this coordinator.**
+Started 13 September 2026. **Active program. RI-25 is independently accepted and published in verified `9f463f2`: the complete ordinary-qubit/record experiment passed final reviews, 61 isolated tests per mode and 82 exported-data reconciliation checks. RI-26 is now assigned to QR: a separate observer-and-signal model in supplied static, expanding and contracting geometries. Calibrated measured W data remain open; the practical RET comparator retains its separate prerequisites. All 87 held predecessor/RI-24/RI-25 identities remain fixed. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 is independently accepted, published in verified `ad3c8dd` and source-quiet; its explicit countermodel proves the listed scalar-independence premises leave ordinary tensor factorization undetermined. Its reservation is released. RI-25 is independently accepted: its complete worked specification, simulator, trial-record contract and withheld prediction passed final reviews and isolated replay. Its source reservation is released for scoped coordinator publication; earlier accepted results remain fixed. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 is independently accepted, published in verified `ad3c8dd` and source-quiet; its explicit countermodel proves the listed scalar-independence premises leave ordinary tensor factorization undetermined. Its reservation is released. RI-25 is independently accepted: its complete worked specification, simulator, trial-record contract and withheld prediction passed final reviews and isolated replay. It is published in verified `9f463f2`. RI-26 now has a separate supplied-geometry observer/signal assignment; earlier accepted results remain fixed. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -50,8 +50,8 @@ Active file reservations following the first implementation cycle:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-25 is source-quiet and independently accepted; its new isolated bundle and three-summary reservation is released. The coordinator owns acceptance/publication metadata and git/index. The secondary supplied-geometry assignment will receive a separate reservation after primary publication. |
-| Coordinator directly | This plan, progress and publication backlog; new `docs/coordination/QUBIT_DATA_AND_FOLLOWUP.md` for data-access/source findings and the separately queued voltage-comparator and geometry directions. Independently review the RI-25 model, uncertainty/DET bridge, simulator and withheld-data controls. QR owns its active bundle and summaries. Preserve the original review, accepted artifacts, application corollary, registry and unrelated working baseline. |
+| QR task | RI-26: new isolated `docs/experiments/observer_signal_v1/` specification/model/records/worked example/tests, plus the three existing QR handoff/map summaries. Preserve all 87 held artifacts and leave git/index to the coordinator. RI-25's twelve-file bundle is complete and source-quiet. |
+| Coordinator directly | This plan, progress and publication backlog; new `docs/coordination/QUBIT_DATA_AND_FOLLOWUP.md` for data-access/source findings and the separately queued voltage-comparator and geometry directions. Independently review the RI-26 supplied-geometry mathematics, observer records and worked simulation; RI-25 review is complete. QR owns its active RI-26 bundle and summaries. Preserve the original review, accepted artifacts, application corollary, registry and unrelated working baseline. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -130,7 +130,8 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-22 | Scalar independence versus event-pair composition | QR proof/design; coordinator acceptance | **Conditional countermodel accepted.** Three independent coordinator reviews accepted the [complete note](docs/coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md), complex-bilinear extension, full marginals, scalar independence and separate real-map naturality. Imaginary lineality and bounded-effect collapse delimit its operational meaning. Full event-pair factorization remains a stronger premise; no physical replacement law, executor or full-QM inference follows. |
 | RI-23 | Scalar values and deterministic positivity certificates | Coordinator, independent review | **Conditional proof/design accepted.** The [scalar-value contract](docs/coordination/SCALAR_VALUE_ERROR_CONTRACT.md) proves the fixed-catalogue inverse, deterministic radius and sufficient universal PSD/non-PSD certificates after verified feasibility. Three independent reviews and exact example arithmetic passed. The full-domain bounded-effect obstruction leaves acquisition/calibration explicit. No measured dataset, executor, RET integration or physical availability is assumed. |
 | RI-24 | Durable accepted-file integrity inventory | Coordinator, independent review | **Accepted and published in verified `db803fb`.** The [durable inventory/checker](docs/coordination/REVIEW_SNAPSHOT.md) preserves 71 accepted-file identities at verified `5ec58e5`. Independent manifest/source reviews passed; root passed 94 isolated regressions and actual 71-file checks in normal/optimized Python with zero research execution. Match is supplied byte identity, not proof, authentication or whole-project coverage. Registry and accepted sources remain unchanged. |
-| RI-25 | Qubit-and-record worked experiment with withheld predictions | QR implementation; coordinator review | **Independently accepted; scoped publication next.** The [complete experiment](docs/experiments/qubit_record_v1/EXPERIMENT.md) explicitly adopts Born/Lüders physics and supplies the C0 representation, all-attempt records, separate uncertainty budgets and frozen W evaluation. Final math/source/data reviews passed; root passed 61 isolated tests in each mode, 12 identical worked exports and 82 independent record/prediction/score reconciliation checks. This is a conditional model and simulation; calibrated measured W remains open. |
+| RI-25 | Qubit-and-record worked experiment with withheld predictions | QR implementation; coordinator review | **Independently accepted and published in verified `9f463f2`.** The [complete experiment](docs/experiments/qubit_record_v1/EXPERIMENT.md) explicitly adopts Born/Lüders physics and supplies the C0 representation, all-attempt records, separate uncertainty budgets and frozen W evaluation. Final math/source/data reviews passed; root passed 61 isolated tests in each mode, 12 identical worked exports and 82 independent record/prediction/score reconciliation checks. This is a conditional model and simulation; calibrated measured W remains open. |
+| RI-26 | Observer/signal model in supplied geometries | QR implementation; coordinator review | **Actually dispatched after primary publication.** Supply static/exponential expanding/contracting geometries, comoving local clocks, exact reception/frequency and horizon/cutoff decisions, retained local emission/reception records and a worked simulator. Separate global model information from observer access. No actualization-to-geometry feedback law, physical gravity derivation or measured validation is supplied. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -716,3 +717,59 @@ W batch is still required for experimental evaluation. The separately approved
 observer-in-supplied-geometry model remains the next bounded QR coordination
 item after this primary publication; no actualization-to-geometry law is
 assumed or inferred from the qubit result.
+
+
+**RI-25 publication and RI-26 secondary assignment**
+
+RI-25 is published in independently verified
+[9f463f2e60be81badb4836aaf8ef43d23fee2458](https://github.com/omekagardens/det_8_framework/commit/9f463f2e60be81badb4836aaf8ef43d23fee2458),
+tree `066a8bf8c5a3d09ee313406b016c0a23c96f642e`. The exact nineteen-path
+acceptance candidate was committed and pushed normally. Its twelve bundle
+files remain at the reviewed/tested identities. The calibrated measured-W
+dependency remains open.
+
+The user-approved secondary work was actually dispatched to the existing QR
+task after that publication. RI-26 owns a new isolated observer/signal bundle
+and the same three QR summaries. Root retains the four coordinator records
+and all git/index operations. A new entry snapshot holds 87 accepted files
+plus six protected identities, with an empty index and unrelated baseline
+recorded. No earlier source or registry entry is reopened.
+
+Supply the radial metric ds²=−c²dt²+a(t)²dχ², with
+a(t)=a*exp(H(t−t*)), c,a*>0 and constant H, including the static H=0 control.
+Two comoving observers keep local proper clocks τ_i=t+b_i; geometry does not
+synchronize their offsets. Adopt null propagation and geometric-optics
+frequency transport explicitly. These are supplied physical-model premises.
+
+The exact coordinate q=exp(−H(t−t*)) permits rational reception-domain
+decisions: q_r=q_e−H a*ell/c. For q_r>0 and H≠0, arrival delay is
+−log(q_r/q_e)/H and frequency ratio is q_r/q_e; static delay is a*ell/c.
+Expansion at the equality horizon has no finite receipt; beyond it has no
+receipt under the supplied forever-exponential model. Contraction reaches
+finite separation. Numerical logarithm displays must not decide exact
+horizon or observation-cutoff boundaries. Include zero separation.
+
+Retain local emission and reception records, signal/precursor identities,
+transmitted reference data and actual local timestamps separately from
+global coordinates and forecasts. A finite absent receipt means only
+not received by cutoff; no receipt at infinity is fabricated. A transmitted
+emitter timestamp is not evidence of synchronized clocks.
+Observer clock readouts may be explicitly approximate finite decimal
+displays; global logarithmic expressions stay in the model audit. Display
+precision alone is not a certified timing-error bound. Rounded timestamp
+ties retain distinct events, and unresolved/zero finite spacing is refused.
+No displayed float or rounded clock determines reception or cutoff validity.
+
+Required controls cover null travel, chronology, a_r nu_r=a_e nu_e, static
+limit, clock-offset and coordinate-rescaling invariance, and geometry
+nonidentifiability from redshift alone. Distinguish instantaneous redshift
+from the finite secant ratio of pulse spacings. The worked exponential
+examples and their exact cutoff/frequency checks must be implemented and
+independently reviewed before acceptance. Keep large traces outside checkout.
+
+No actualization-to-geometry feedback equation is supplied in RI-26. A later
+proposal would need explicit variables/equations/parameters and an additional
+observer-accessible consequence relative to this baseline. This assignment
+is the separately approved secondary model, not a native F/L, Einstein,
+retired-kappa or lettered QR-gate successor. Return source-quiet with actual
+checks and hashes; coordinator acceptance and publication remain separate.

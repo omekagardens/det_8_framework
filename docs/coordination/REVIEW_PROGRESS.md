@@ -6,7 +6,8 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-25 qubit-and-record experiment | **Independently accepted.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Publish the exact accepted bundle and coordinator records. Calibrated measured W remains open; the secondary supplied-geometry model follows under its own reservation. |
+| RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; RI-26 now owns the secondary supplied-geometry assignment. |
+| RI-26 observer/signal model | **Actually dispatched after RI-25 publication.** QR owns the separate supplied-geometry specification/simulator/record bundle and its three summaries. Root opened independent mathematical review of reception, clock and cutoff semantics. | Receive and independently review the complete source-quiet model and actual checks; preserve the 87 held predecessors. |
 | QR coordination / RI-05–08j and RI-16–19 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. RI-18 is published in verified `ba12958`. RI-19 proof/design is accepted: full classification, exact admission obstruction, matched-law stability and observation-rank results, with independent theorem/API review and 193 root native assertions. Published in independently verified `f6b8f18`; approximate execution remains unimplemented. Consolidation and operational-premise/application direction are the next coordinator decision. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
@@ -15,7 +16,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | RI-18 now supplies one complete earlier-weight/tree orchestration; general interoperability remains separate. The ledger records its supplied premises and rank-two limit. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest coordinator direction/data checkpoint: [1904393](https://github.com/omekagardens/det_8_framework/commit/1904393409a28f7384d0a002e1a8cf85867a20dc). Durable inventory/checker: `db803fb`; scalar-value contract: `0410ccd`; composition countermodel: `ad3c8dd`; fixed-copy criterion: `14eba18`. Earlier source-bound checkpoints remain recorded below. All published normally to `origin/ret` and independently verified. Root owns git/index. | Continue scoped publication after acceptance, preserving QR reservations and the deferred core/RET baseline. |
+| Remote checkpoints | Latest complete experiment: [9f463f2](https://github.com/omekagardens/det_8_framework/commit/9f463f2e60be81badb4836aaf8ef43d23fee2458). Direction/status: `1904393` and `b9aa827`; durable inventory/checker: `db803fb`; scalar-value contract: `0410ccd`; composition countermodel: `ad3c8dd`. Earlier source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Continue scoped publication after acceptance; root owns git/index and preserves the active QR reservation. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -3279,3 +3280,42 @@ measured W remains an explicit dependency in the data note; a calculated
 W value cannot fill it. The next supplied-geometry model will be separately
 scoped after primary publication, without an invented actualization law or
 changes to the qubit source.
+
+
+**RI-25 remote publication verified; RI-26 actually dispatched**
+
+[Commit 9f463f2e60be81badb4836aaf8ef43d23fee2458](https://github.com/omekagardens/det_8_framework/commit/9f463f2e60be81badb4836aaf8ef43d23fee2458),
+tree `066a8bf8c5a3d09ee313406b016c0a23c96f642e`, publishes exactly the
+ineteen-path acceptance scope. Every staged byte matched the accepted
+manifest; all twelve bundle pins stayed unchanged. Preflight checked 214
+local Markdown targets, the 75 prior held files, six protected files and
+1,980 unrelated file versions. The normal push succeeded and independent
+`origin/ret` lookup returned the full commit. The index was empty afterward.
+
+After primary publication, root dispatched the separately user-approved
+RI-26 supplied-geometry observer/signal model to the same QR task. It owns
+only a new `docs/experiments/observer_signal_v1/` bundle and its three
+existing summaries. Root owns plan, progress, backlog and data/follow-up
+note. Entry snapshot: 87 held identities (the previous 75 plus the twelve
+RI-25 files), six protected, 1,034 tracked and 965 untracked file versions.
+The new assignment requires a complete worked specification, local event
+records, simulator, focused tests, independent review and quiet-source handoff.
+
+The concrete contract is recorded in the root plan. It supplies static and
+constant-H expanding/contracting geometries, local proper clocks, exact
+reception-domain/frequency decisions, finite cutoffs and explicit absent-
+receipt semantics. Mathematical review prepared standard null/redshift
+equations and their elementary exponential specialization; a second root
+math audit is now assigned while QR implements. No metric is derived from
+actualization and no feedback rule is invented. The calibrated W and practical
+comparator dependencies remain unchanged. This four-file coordinator update
+records publication and actual dispatch, excluding active QR source/summaries.
+
+QR acknowledged RI-26 and began its reserved work. The accepted implementation
+choice keeps global exact logarithmic times in model/audit data while exposing
+explicitly approximate finite decimal local-clock displays. Root confirmed
+that precision labels are not timing-error certificates, rounded ties must
+retain distinct events, and display arithmetic must not decide reception or
+cutoff validity. The static case has separate time/cutoff coordinates because
+q=1 identically when H=0. Redshift-only nonidentifiability is not a claim that
+complete calibrated timing records of the example geometries are identical.

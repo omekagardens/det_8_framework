@@ -10,7 +10,8 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-25 qubit-and-record experiment | **Independently accepted; nineteen-path publication candidate ready.** Twelve isolated experiment files, three QR summaries and four coordinator Markdown records. Final reviews and root 61-test normal/optimized replay plus 82 exported-data checks passed. | Stage only accepted identities and verify the remote commit. A calibrated measured W batch remains external; no core/RET dependency is required by the standard-library experiment. |
+| RI-25 qubit-and-record experiment | **Published in independently verified `9f463f2`.** Twelve isolated experiment files, three QR summaries and four coordinator records; final reviews, 61 tests per mode and 82 independent exported-data checks passed. | Preserve source pins; calibrated measured W remains external. No core/RET dependency is required by this standard-library experiment. |
+| RI-26 supplied-geometry observer model | Actually dispatched after primary publication; implementation pending independent review. | Reserve new observer-signal bundle and three QR summaries; do not stage active files. All 87 accepted predecessors remain held. |
 | QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 design is published in verified `ad04963`. RI-18 is accepted and published in verified `ba12958`; its separate pinned integration and complete publication scope are recorded below. Preserve accepted sources and keep its 31 witnesses outside the 411-witness registry total. |
 | RI-02/RI-04 kernel and certificate repairs | Published in verified checkpoint `38be4c0c941c62329b9175883748d4e586b9745e`: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Maintain the numerical/research limits; review later changes against this source identity. |
 | RI-12 exact identifiability | Published in the same checkpoint: `identifiability.py` and its 108-case test file. The mathematical contract was already published. | A measured application still needs data and an evaluation objective. No RET or core prerequisite for this exact interface. |
@@ -383,3 +384,17 @@ source/data findings remain unchanged. No generated trial dataset, registry
 entry, public-core/RET source or predecessor artifact is included. Publication
 will use the exact tested executable/schema bytes. The measured W acquisition
 gap and comparator prerequisites are not discharged by this synthetic result.
+
+
+The RI-25 nineteen-path candidate is published in independently verified
+[9f463f2e60be81badb4836aaf8ef43d23fee2458](https://github.com/omekagardens/det_8_framework/commit/9f463f2e60be81badb4836aaf8ef43d23fee2458),
+tree `066a8bf8c5a3d09ee313406b016c0a23c96f642e`. Exact staged identities,
+214 local links and held/protected/unrelated preservation checks passed.
+Normal push and independent remote-ref lookup succeeded; the index is empty.
+
+RI-26 now has a separate active QR reservation for the supplied-geometry
+observer/signal model. Its code and results are not accepted or staged in
+advance. The next coordinator checkpoint changes only root plan, progress,
+this backlog and the data/follow-up note to record RI-25 publication and the
+actual secondary dispatch. It preserves all twelve qubit-bundle files and
+the other 75 held predecessors.

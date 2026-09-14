@@ -8,7 +8,7 @@ has yet met the measured-data requirements for that experiment.** This does
 not block its independent mathematical specification or simulator.
 
 The [complete worked qubit model](../experiments/qubit_record_v1/EXPERIMENT.md)
-is now independently accepted, with isolated execution and source identities
+is independently accepted and published in verified `9f463f2`, with isolated execution and source identities
 recorded in the [progress record](REVIEW_PROGRESS.md). Its simulation does not
 change the measured-data readiness assessment below.
 
@@ -131,7 +131,8 @@ accepted synthetic comparator remains synthetic until those inputs exist.
 
 ## Secondary observer-and-expansion model
 
-Queue this after the primary qubit deliverable. Use a supplied expanding or
+RI-26 was actually assigned to QR after the primary qubit deliverable was
+accepted and published. Use a supplied static, expanding or
 contracting geometry and explicit signal propagation to model local observers,
 local clock readings, emission/reception events and inferred redshifts.
 Retain the observer's accessible signals separately from global simulator
@@ -144,6 +145,22 @@ quantities relative to the supplied-geometry baseline. Without such a rule,
 there is no additional observable consequence to calculate. This secondary
 scope must not delay RI-25 or be presented as a result about physical time,
 mass or gravity before its own model and review exist.
+
+The bounded assignment supplies a flat radial metric, an exponential scale
+factor with constant H (plus static control), comoving ideal clocks and null
+propagation. The selected primary reference separates those standard
+kinematics from the further dynamical equations.[^6] Root and a separate
+reviewer derived the simple exponential arrival/frequency formulas for the
+assignment. Exact horizon decisions and a finite observation cutoff must
+remain distinct from local receipt records. A finite absent receipt is not
+an observation of the infinite future; the Hubble radius is not treated as
+a universal causal horizon.[^7]
+
+The implementation will also distinguish instantaneous frequency redshift
+from finite pulse-spacing ratios, retain unknown clock offsets, and demonstrate
+that the same redshift can arise from different supplied parameter pairs.
+It will return for independent review and actual execution before acceptance.
+There is still no supplied actualization-to-geometry feedback law.
 
 The originating discussion assistant is not monitoring this work until the
 user returns there. This coordinator retains the authorized project work,
@@ -167,3 +184,11 @@ independent review and scoped commit/push follow-through.
 [^5]: James et al., [On the Measurement of Qubits](https://arxiv.org/abs/quant-ph/0103121),
     for established linear and likelihood-based reconstruction. A radial Bloch
     projection is unweighted constrained least squares, not maximum likelihood.
+
+
+[^6]: Carroll, [General Relativity notes, section 8](https://preposterousuniverse.com/wp-content/uploads/grnotes-eight.pdf),
+    equations 8.1, 8.66–67 and 8.71–72 for metric, frequency ratio and null
+    propagation; Einstein dynamics is a further step.
+
+[^7]: Davis and Lineweaver, [Expanding Confusion](https://arxiv.org/abs/astro-ph/0310808),
+    for the distinctions among cosmological horizons and the Hubble sphere.
