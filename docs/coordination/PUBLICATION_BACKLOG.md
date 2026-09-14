@@ -138,7 +138,7 @@ Markdown publication scope is recorded below; implementation or registration
 requires a separate assignment.
 
 
-**RI-19 accepted conditional proof/design checkpoint**
+**RI-19 accepted and published conditional proof/design checkpoint**
 
 The new interface-robustness note and three QR summaries are independently
 accepted. Root also reviewed the entire note and corroborated its actual
@@ -156,3 +156,10 @@ Only reversible administrative acceptance passages differ from the final
 reviewed QR submission; the mathematical body is unchanged. Final identities
 and the independently verified remote checkpoint are tracked in
 [review progress](REVIEW_PROGRESS.md). No implementation successor is assigned.
+
+Verified commit [f6b8f18f8d7aa739c5b78209b7f69a5c1db87f67](https://github.com/omekagardens/det_8_framework/commit/f6b8f18f8d7aa739c5b78209b7f69a5c1db87f67),
+tree `1c8fd36d726a9f7e9aa1fbacc2244b0ad1c6c048`, publishes these ten
+reviewed Markdown files. Every staged document matched the captured candidate.
+The normal push succeeded, independent lookup returned this full origin/ret
+commit, and the index was empty afterward. No approximate implementation is
+assigned by publication of the theorem and design.
