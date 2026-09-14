@@ -2969,3 +2969,30 @@ requested source quiet. No successor is assigned: the next meaningful QR
 step requires a named domain/acquisition/composition interface, as recorded
 in the plan. This closes the bounded proof cycle without claiming native
 PSD/composition selection, measured application value or full QM.
+
+
+**RI-22 publication verified; QR proof cycle closed at its premise boundary**
+
+[Commit ad3c8dd94d10cc1c9f07202a6ea4d38eb3f31acd](https://github.com/omekagardens/det_8_framework/commit/ad3c8dd94d10cc1c9f07202a6ea4d38eb3f31acd),
+tree `85d5906ba57d9f6acdfea688027e1697dd9329e3`, publishes exactly the eight
+reviewed Markdown files. All staged bytes matched their captured candidate.
+Final independent status/scope review accepted the reversible administrative
+edits; all 237 scoped local links, whitespace, 70 held predecessor/contract
+identities and unrelated/protected baseline checks passed. The normal push
+succeeded and independent remote-ref lookup returned this full origin/ret
+commit. The index was empty afterward.
+
+Root sent the verified identity and accepted four-document hashes to QR. Its
+proof/design assignment is accepted, published and source-quiet, with no active
+reservation or automatic successor. The next QR work requires a named domain,
+calibrated bounded acquisition, preparation assumptions and explicit adopted
+or justified event-pair composition premise. This closes the assigned proof
+cycle, not native PSD/QM selection or the whole DET program.
+
+The coordinator publication record is limited to root plan, progress and
+backlog. All 71 accepted statement/source/design/synthesis/contract identities
+now remain held, including RI-22 and RI-23. The four accepted QR documents,
+premise ledger, original review, registry, application corollary and unrelated
+working baseline are unchanged in this final metadata checkpoint. Recurring
+follow-through remains available for new evidence and other authorized work;
+RET/core/bank work and a new executor are not opened.

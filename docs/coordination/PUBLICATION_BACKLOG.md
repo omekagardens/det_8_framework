@@ -277,3 +277,15 @@ predecessor/design/synthesis/contract identities and unrelated baseline remain
 preserved. No executor, registry entry, core/RET work, physical law or global
 axiom is adopted. QR's reservation is released with no automatic successor.
 A named domain/acquisition/composition interface is the next dependency.
+
+
+RI-22 is published in independently verified
+[ad3c8dd94d10cc1c9f07202a6ea4d38eb3f31acd](https://github.com/omekagardens/det_8_framework/commit/ad3c8dd94d10cc1c9f07202a6ea4d38eb3f31acd),
+tree `85d5906ba57d9f6acdfea688027e1697dd9329e3`. All eight staged files
+matched the independently reviewed candidate; 237 scoped local links and
+all preservation checks passed. The normal push and independent origin/ret
+lookup succeeded. QR received verified publication and retains no active
+reservation or automatic successor. The 71 accepted held identities include
+both RI-22 and RI-23; the final coordinator publication record changes only
+root plan, progress and this backlog. The next QR dependency is a named
+premise/acquisition interface, not another automatic proof catalogue.
