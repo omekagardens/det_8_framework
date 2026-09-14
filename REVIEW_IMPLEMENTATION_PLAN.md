@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
+Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is published in verified `ba12958`, independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. RI-19 interface-robustness design/proof is assigned to QR. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. QR has released its reservation; assess the next named premise/proof gap before dispatch. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 assigns a bounded design/proof on approximate-branch admission and full-law stability across that interface, with independent acceptance before implementation. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -50,7 +50,7 @@ Active file reservations following the first implementation cycle:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-18 handoff is accepted and its six-file reservation is released. Accepted bundles, the RI-17 plan and prior synthesis remain stable. A successor requires an explicit bounded assignment. |
+| QR task | RI-18 handoff is accepted and its six-file reservation is released. RI-19 reserves only new `docs/coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md` and the three QR maps/handoff. Accepted sources, statements, designs and launchers remain stable. |
 | Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/APPLICATION_WORK_PLAN.md`, maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md`, and RI-18 integration in new `scripts/run_qr_finite_protocol.py` plus `det8/tests/test_qr_finite_protocol.py`. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
@@ -124,6 +124,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-16 | Retained-word first-commit extension | QR, with coordinator review | **Accepted, registered and published in verified `22eca4e`.** Complete countable output/base-norm, operator convergence, exact survival-minus-never tail, chronological prefix-shift leastness and bounded word-dependent continuation theorem. Two independent audits and 27 new checks per mode plus 43 registry regressions pass. Fixed finite-input/stationary-policy and terminal-scalar boundaries remain explicit. |
 | RI-17 | Finite protocol composition design | QR, with coordinator review | **Accepted design.** One complete finite policy, exact probability/type adapters, 66-coordinate fixture and refusal requirements passed mathematical/API review. Design evidence creates no new executable or witness count. |
 | RI-18 | Implement the accepted finite composition contract | QR bundle; coordinator launcher/integration | **Bounded theorem, source and pinned integration accepted.** Independent mathematical/source reviews and 65 supplemental source probes passed. The isolated publication candidate passed 65 launcher regressions, including exactly 31 actual protocol witnesses in each mode. Complete 66-coordinate mass/label accounting and the rank-two limitation hold under supplied operations/reference law; no general initial-state tomography or physical availability follows. The 411-witness registry remains unchanged. |
+| RI-19 | Robust admission across the local-to-joint interface | QR design/proof; coordinator acceptance | **Bounded design/proof assigned after verified RI-18 publication.** Characterize exactly calibrated positive C→C0 approximate branches, prove why small error alone does not ensure admission, and derive a matched-full-label law stability bound for the existing suffix. Keep input-c dependence, typed instrument prefixes, exact rank versus small distinguishability and explicit availability/error premises separate. No executor or witness registration assigned yet. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -352,6 +353,83 @@ Return a source-quiet handoff with exact hashes, actual checks and remaining
 limits. Stop for coordinator acceptance/integration. No generic SDK, further
 cone refinement, infinite-policy extension, physical selection, measured pilot
 or automatic successor is assigned.
+
+**RI-19 bounded interface-robustness design assignment**
+
+After RI-18's verified publication, the next candidate closes a concrete
+compatibility gap between approximate local operations and the exact joint
+interface. Small repeatability error or raw distance alone need not put an
+output in C0: arbitrarily near-ideal positive full-C outputs can retain
+nonzero c and fail the polarized-reference recordability requirement. Adding
+more measurements after the ideal Y reset would not repair either issue.
+
+Scope this first as a proof/design note, with an independent review before
+any executor or witness implementation. QR may edit exactly the new
+`docs/coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md` and its three existing
+QR maps/handoff. Root owns this plan, progress/publication records, all
+source-pinned integration and git/index. Preserve the 60 previously held
+predecessor/design paths, the five accepted RI-18 source/statement files and
+the registry. No earlier theorem, source, launcher or design is repinned.
+
+The note must make the following targets concrete and either prove them or
+state the precise remaining obstruction:
+
+1. Classify positive real-linear maps C→C0 with one exactly calibrated
+   rank-one effect p=e_Q(d), and both complementary branches' complete
+   calibration. With c=u+iv, test the candidate form
+   B̃_Q(d)=J2(pH+uK+vL), with Hermitian H,K,L, Tr H=1 and
+   Tr K=Tr L=0. Prove the projected input domain p≥2|c| and necessity
+   and sufficiency of H+(cos θ K+sin θ L)/2≥0 for every θ. Derive
+   the corresponding uniform repeatability condition for 0≤ε≤1/2;
+   a sampled angle grid or assumed quotient descent is not a classification.
+   Identify the Φ-descending subclass (candidate K=L=0) and the ε=0
+   ideal-reset limit; exact C0 output alone does not imply either property.
+2. Exhibit a positive near-ideal full-C output with nonzero c that fails
+   the existing polarized-reference interface when a ready branch has
+   positive weight. Establish the contrasting lawful C→C0 class and a
+   nonfactorizing member if available. No J2∘Φ projection, recoupling,
+   unannounced preparation or widened return cone repairs a failed path.
+3. Specify the hypothetical approximate first instrument, its availability
+   and complete typed prefix/record/weight/premise contract. The accepted
+   RI-18 WeightedLocal derives the ideal branch; a different output cannot
+   be inserted into that executor or certified by forging an ideal record.
+   A mathematically compatible output and an executable typed interchange
+   are separate obligations. Identify actual unchanged suffix interfaces
+   and any new adapter obligation, without implementing it in this stage.
+4. Propagate the branch error through the fixed RI-18 finite suffix with
+   the same independent reference law and readiness β. Establish or
+   correct the candidate normalized scalar-law bound TV≤β√ε and
+   the same-initial-Y comparison bound min(1,2β√ε), with any branch-specific
+   bound and homogeneous incoming-mass extension stated separately. Contract from
+   the C0 base/raw-trace norm into the complete scalar law; do not assume
+   raw-trace contraction in the native L_t representation. Include
+   zero-selected-event refusals, all zero-weight coordinates and β=0,1.
+5. Define an explicit common scalar comparison alphabet retaining every
+   prospective outcome, setting, selector/preparation ID, command and
+   terminal/stop label. Different instrument/premise audit types are not
+   equal wrapper objects. Changed observed setting labels cannot silently
+   be identified to claim small TV. Show which initial coordinates the
+   fixed read catalogue actually observes: rank≤4 is a target bound,
+   not evidence that any c-dependence survives the suffix. Distinguish
+   exact rank, quantitative distinguishability and finite-sample precision.
+
+Whole-C positivity, exactly calibrated effects, exact C0 range, supplied
+branch/preparation/read availability, uniform error and fixed comparison
+metadata remain explicit premises. At β=0 only the two calibrated stops
+are observed, regardless of differing retained audit sources. Do not claim
+sharp composed constants, physical error calibration, unknown-instrument
+identification, a full quantum reconstruction or measured advantage without
+the corresponding proof/data. No generic positivity solver, process SDK,
+RET/bank work, new control catalogue or geometry work is assigned.
+
+Return a source-quiet design/proof handoff with independent mathematical and
+API/record review, exact dependency identities and any supplemental arithmetic
+clearly distinguished from theorem proof or pinned execution. Stop for
+coordinator acceptance. A subsequent exact implementation requires a separate
+assignment; after resolving this interface, consolidate the connected argument
+rather than automatically adding another operation family. The next larger
+   decision is a premise-selection theorem that excludes admitted countermodels
+   or a measured application with a supplied calibration/evaluation contract.
 
 **Application decision**
 

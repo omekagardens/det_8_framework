@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j and RI-16–18 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. Publish the scoped accepted candidate and record the independently verified remote identity below. |
+| QR coordination / RI-05–08j and RI-16–18 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. Published in independently verified `ba12958`; RI-19 now assigns bounded interface-robustness design/proof with independent review before any executor implementation. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for nineteen suites.** Cumulative411 witnesses/34 executable sources: prior384 source-bound results with unchanged pins plus27 new RI-16 checks per mode. Full preflight and43 isolated registry regressions pass. | Preserve execution boundaries;411 is not a fresh all-suite replay. RI-15 and RI-18 remain separate; the deferred claims endpoint remains its explicit18-reference subset. |
@@ -14,7 +14,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | RI-18 now supplies one complete earlier-weight/tree orchestration; general interoperability remains separate. The ledger records its supplied premises and rank-two limit. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest application checkpoint: [f8339ea](https://github.com/omekagardens/det_8_framework/commit/f8339ea4a4ce886ddc4513d989a2cecbad9d8dca). Latest QR design checkpoint: `ad04963`; QR theorem checkpoint: `22eca4e`; synthesis: `50d652f`; research/identifiability repairs: `38be4c0`. All pushed normally to `origin/ret` and independently verified. Root owns git/index. | Continue scoped publication after review, preserving QR reservations and the deferred baseline. |
+| Remote checkpoints | Latest application checkpoint: [f8339ea](https://github.com/omekagardens/det_8_framework/commit/f8339ea4a4ce886ddc4513d989a2cecbad9d8dca). Latest QR implementation checkpoint: `ba12958`; design: `ad04963`; retained-word theorem: `22eca4e`; synthesis: `50d652f`; research/identifiability repairs: `38be4c0`. All pushed normally to `origin/ret` and independently verified. Root owns git/index. | Continue scoped publication after review, preserving QR reservations and the deferred baseline. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -2438,3 +2438,72 @@ the 31 RI-18 witnesses remain separate. The original review and three broader
 working test/runner snapshots are unchanged. QR released its reservation and
 received the acceptance/pinning update; no successor is inferred from the
 handoff. Scoped publication and its independent remote verification follow.
+
+
+**RI-18 publication verified**
+
+[Commit ba129584e5c05a06f061e77cd3bf2daf18a02bdc](https://github.com/omekagardens/det_8_framework/commit/ba129584e5c05a06f061e77cd3bf2daf18a02bdc),
+tree `eed0446c8f6fc88539d4f1ca08e1d14bd65d620b`, publishes the accepted
+five-file implementation, three QR summaries and six coordinator/usage
+documents. Root verified the exact fourteen-path index, all five tested
+source/statement byte identities, scoped whitespace/conflict markers and
+242 resolving local links. Independent documentation review caught and fixed
+a stale top-summary pending status and an ambiguous zero-weight phrase
+before commit. No mathematical or executable change followed the tests.
+
+The normal push to origin/ret succeeded, and independent remote-ref lookup
+returned the full commit above. Post-publication tree/source checks match
+the candidate, the index is empty and the isolated test checkout contains no
+Python/pytest caches. The original review, unchanged registry, all held
+predecessors and broader pre-existing working snapshots remain preserved.
+
+
+**RI-19 next-direction review and bounded QR assignment**
+
+Two independent read-only reviewers recommended the same next target:
+approximate local-branch admission to the exact joint interface, followed by
+full scalar-law stability. Root checked the relevant accepted RI-08e and
+RI-08d statements and the RI-18 source boundary. A near-ideal positive full-C
+branch may retain nonzero output c and fail polarized-reference recordability
+exactly. Conversely, exact C0 output makes the raw joint interface eligible
+but does not imply quotient descent: RI-08e already supplies a calibrated
+C→C0 branch that depends on input c. This is a concrete gap in applying
+approximate local results to the accepted finite composition.
+
+RI-19 asks QR for one new design/proof note plus its three existing summaries,
+with the complete scope in the root plan. Targets are the full calibrated
+C→C0 branch classification, the arbitrarily near-ideal inadmissible family,
+the precise descending subclass and ε=0 limit, and a stability bound for
+the fixed complete suffix. Candidate TV bounds are obligations to establish,
+not newly accepted results. The actual terminal catalogue must determine
+which c-dependence survives; output dependence alone proves no observation
+rank. The ideal RI-18 rank-two theorem remains unchanged.
+
+The assignment explicitly preserves the scalar comparison alphabet and full
+prospective outcome/setting labels, while distinguishing unequal audit types.
+It uses contraction from the C0 base/raw-trace norm into the complete law,
+not native L_t raw-trace contraction. At β=0 exact calibration yields the
+same two scalar stops even when retained audits differ. It also requires a
+new approximate-instrument prefix/premise contract: RI-18's WeightedLocal
+computes the ideal branch and cannot accept a substituted residual or a
+forged ideal record. Mathematical range eligibility is not executed type
+interchange or an availability theorem.
+
+The 60 held predecessors/design paths, five accepted RI-18 files and registry
+remain fixed. QR receives no executor, solver, SDK, new control catalogue,
+RET/bank or geometry assignment. Independent mathematical and API/record
+review precede a source-quiet handoff and coordinator acceptance. After this
+interface is resolved, the program should consolidate the connected argument
+and choose a premise-selection theorem or measured application, rather than
+automatically extend the fixture family. The measured instrument/dataset and
+evaluation contract remain unresolved external inputs.
+
+Root dispatched this complete RI-19 assignment to the existing Quantum
+Relativity thread on 14 September 2026 at 05:39 UTC. The message tool confirmed delivery;
+this opens the stated design/proof assignment, not a claim of a returned
+result or completed successor. QR owns only the four assigned Markdown paths.
+
+The coordinator-only update passed its exact three-path index/whitespace
+check and all 40 local link targets. All 65 held predecessor/design/RI-18
+identities, the registry, original review and broader working snapshots
+remain unchanged. Active RI-19 QR files are excluded from this checkpoint.

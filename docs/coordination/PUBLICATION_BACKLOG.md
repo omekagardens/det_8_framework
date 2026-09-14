@@ -10,7 +10,7 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 design is published in verified `ad04963`. RI-18 is accepted and source-pinned integration passes; its separate publication checkpoint is tracked below and in review progress. Preserve accepted sources and keep its 31 witnesses outside the 411-witness registry total. |
+| QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 design is published in verified `ad04963`. RI-18 is accepted and published in verified `ba12958`; its separate pinned integration and complete publication scope are recorded below. Preserve accepted sources and keep its 31 witnesses outside the 411-witness registry total. |
 | RI-02/RI-04 kernel and certificate repairs | Published in verified checkpoint `38be4c0c941c62329b9175883748d4e586b9745e`: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Maintain the numerical/research limits; review later changes against this source identity. |
 | RI-12 exact identifiability | Published in the same checkpoint: `identifiability.py` and its 108-case test file. The mathematical contract was already published. | A measured application still needs data and an evaluation objective. No RET or core prerequisite for this exact interface. |
 | RI-11 applied comparison and clock reporting | Published in remotely verified `f8339ea4a4ce886ddc4513d989a2cecbad9d8dca`. Complete isolated candidate passed 105 focused tests and 33 legacy checks. Includes corrected shape-norm handling, dated legacy/modern chronology and exact clock-only test/runner snapshots. | Preserve the numerical, stable-file and synthetic-mapping limits. Measured application work still needs an instrument/dataset and evaluation objective. |
@@ -107,7 +107,7 @@ costs, conventional baseline and held-out evaluation. Publication of synthetic
 or structural tools does not discharge these requirements.
 
 
-**RI-18 accepted publication candidate**
+**RI-18 accepted and published checkpoint**
 
 The finite composition theorem, exact adapter/checker and separate six-alias
 launcher/regressions are independently accepted. An isolated candidate over
@@ -125,3 +125,13 @@ usage guide. The original review and unrelated working snapshots remain
 preserved. Exact source pins and the verified remote commit belong to the
 [progress record](REVIEW_PROGRESS.md). The 31 focused protocol witnesses are
 separate from the cumulative 411 registered witnesses.
+
+Verified commit [ba129584e5c05a06f061e77cd3bf2daf18a02bdc](https://github.com/omekagardens/det_8_framework/commit/ba129584e5c05a06f061e77cd3bf2daf18a02bdc),
+tree `eed0446c8f6fc88539d4f1ca08e1d14bd65d620b`, publishes exactly fourteen
+paths. The five new source/statement files match the isolated tested candidate
+byte-for-byte. All 242 scoped local links resolve. The normal push succeeded;
+independent remote-ref lookup returned this full commit for origin/ret. The
+index is empty and the original review, registry and unrelated baseline are
+preserved. The separately scoped RI-19 design/proof assignment tests approximate-branch
+admission and full-law stability without changing accepted executables.
+Implementation or registration requires a later accepted contract.
