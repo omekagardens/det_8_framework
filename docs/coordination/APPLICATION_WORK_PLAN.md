@@ -7,6 +7,13 @@ work specification and implementation record, not an executed pilot. No RET
 source, calibration bank, external data or historical validation results were
 changed for this design.
 
+Publication is tracked separately in the
+[publication backlog](PUBLICATION_BACKLOG.md). The exact identifiability module
+and its 108 tests form a standalone reviewed publication candidate. RI-11's
+chronology dependencies and the synthetic comparator's RET import closure
+remain unpublished prerequisites; local acceptance below does not imply that
+those complete consumers are available from the remote branch yet.
+
 **RI-11: accepted statistical repair batch**
 
 RI-11 is accepted for its scoped arithmetic and reporting contract. It changed

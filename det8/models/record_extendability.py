@@ -1,62 +1,24 @@
-"""
-DET v8.1 — T6 Residual: what "global record extendability" must mean
+"""DET v8.1 — bare kernel extension and operator-word consistency.
 
-The last open question of the correlation-class program: is DET's
-"global record extendability" (𝔇_n = Marginal(𝔇_{n+1}) for every lawful future
-refinement) EQUAL to NPA-extendability, or a distinct condition?
+A normalized pair-kernel extends by tensoring with any normalized pair-kernel;
+coarse-graining recovers the old kernel. This algebraic fact does not constrain
+the new marginal or enforce a physical measurement algebra. A Gram sum rule
+holds for the declared strongly positive kernels, including singular ones.
 
-THE RESOLUTION (honest and precise). The answer is: it depends on what 𝔇
-carries, and being precise about this SETTLES the question.
-
-  1. BARE pair-kernel extendability is TRIVIAL. A single decoherence functional
-     𝔇 on a finite algebra is always Gram-representable (𝔇(A,B)=⟨v_A,v_B⟩),
-     and it always extends — tensor with any normalized kernel and take the
-     marginal: marginal(𝔇 ⊗ 𝔇_new) = 𝔇 exactly. So "𝔇_n = marginal of SOME
-     𝔇_{n+1}" is satisfiable by EVERY pair-kernel, quantum or almost-quantum.
-     It therefore CANNOT isolate the quantum set.
-
-  2. NPA-extendability (moment-matrix / operator-algebra consistency) is the
-     NON-trivial condition. The level-1 moment matrix must extend to level 2, 3, …
-     while obeying the operator relations A_x² = I, [A_x,B_y] = 0 and the word
-     reductions. This is exactly what NPA convergence proves to be equivalent to
-     quantum realizability (Navascués–Pironio–Acín 2008).
-
-  3. Therefore: DET's "global record extendability" collapses Q̃ → Q IF AND ONLY
-     IF it is read as the operator-algebra (moment-matrix) consistency, NOT as the
-     bare decoherence-functional marginal. The collapse is then a SETTLED theorem
-     (NPA convergence), and DET's contribution is the precise identification of
-     what "record extendability" must mean — consistency of the full measurement
-     algebra under lawful refinement, not mere marginal consistency of 𝔇.
-
-What is implemented (pure stdlib):
-
-  - coarse-graining (marginal) of a pair-kernel over a refinement partition;
-  - the Gram SUM RULE: the coarse Gram vector is the sum of the fine Gram
-    vectors (v_coarse_a = Σ_i v_fine_(a,i)), verified numerically — this is the
-    constructive content of "a single Hilbert space realizes the refinement";
-  - the TRIVIALITY of bare extendability: marginal(𝔇 ⊗ 𝔇_new) = 𝔇 for any
-    normalized 𝔇_new, verified exactly;
-  - the CONTRAST with the non-trivial operator-algebra condition, reusing the
-    Bell-state level-1/level-2 moment matrices (correlation_class.py).
-
-DERIVATION CERTIFICATE (honest provenance):
-
-  Gram representation of 𝔇           MATH — spectral theorem / Cholesky (T2b).
-  coarse-graining + sum rule         MATH — decoherent histories (Gell-Mann–
-                                          Hartle; Griffiths; Omnès), credited.
-  bare extendability is trivial      TH-DET — verified construction.
-  NPA-extendability ⟺ quantum        MATH — Navascués–Pironio–Acín (2008), cited.
-  resolution (collapse iff operator
-    algebra consistency)             TH-DET — the sharpening of the DET condition.
-
-  NOT done: re-deriving NPA convergence, or the infinite inductive-limit
-  construction (standard, cited).
+The supplied Bell construction has compatible Q_{1+AB} and Q2 moment matrices.
+This is one finite example. It does not show that an arbitrary almost-quantum
+point fails at Q2, nor derive all-level NPA relations from bare D marginals.
+The full NPA hierarchy with its measurement-word relations targets commuting
+correlations C_qc; it does not generally select finite tensor-product C_q or
+its closure C_qa. Sources: https://arxiv.org/abs/0803.4290 and
+https://arxiv.org/abs/2001.04383. These are imported results, not a resolved
+DET forcing theorem. Historical function names and numeric examples remain.
 """
 
 from __future__ import annotations
 
+from det8.models.correlation_class import correlation_set_scope
 from det8.models.pair_kernel import PairKernel
-
 
 # ── Coarse-graining (marginal) of a pair-kernel ─────────────────────────────
 
@@ -108,8 +70,10 @@ def gram_sum_rule(pk_fine: PairKernel, blocks: list[frozenset]) -> dict:
         "max_abs_error": max_diff,
         "sum_rule_holds": max_diff < 1e-9,
         "interpretation": (
-            "The coarse Gram vectors are the sums of the fine Gram vectors, so "
-            "one Hilbert space (the fine one) realizes the coarse kernel exactly."
+            "Summing exact fine Gram vectors realizes the coarse kernel in the "
+            "same Hilbert space. This numerical diagnostic uses a "
+            "tolerance-qualified factorization; max_abs_error reports its "
+            "reconstruction error and sum_rule_holds tests that error < 1e-9."
         ),
     }
 
@@ -142,28 +106,25 @@ def trivial_extendability(pk: PairKernel, pk_new: PairKernel) -> dict:
 
 
 def operator_algebra_consistency() -> dict:
-    """The genuinely non-trivial condition: moment-matrix extendability.
-
-    Reuses the Bell-state level-1/level-2 NPA moment matrices. The Bell state
-    (quantum) extends: its level-1 Γ is a principal submatrix of a PSD level-2
-    Γ². An almost-quantum-but-not-quantum correlation fails exactly this step —
-    which is why it is not quantum (NPA convergence).
-    """
+    """Compare the supplied Bell Q_{1+AB} and Q2 matrices, not arbitrary data."""
     from det8.models.correlation_class import (
-        bell_state_npa_level1, global_record_extendability,
+        bell_state_npa_level1,
+        global_record_extendability,
     )
-    l1 = bell_state_npa_level1()
-    ext = global_record_extendability()
+    first = bell_state_npa_level1()
+    extension = global_record_extendability()
     return {
-        "bell_level1_psd": l1["psd"],
-        "bell_level2_psd": ext["level2_psd"],
-        "bell_level1_is_principal_submatrix": ext["level1_is_principal_submatrix"],
-        "bell_extends": ext["extends"],
+        "bell_level1_psd": first["psd"],
+        "bell_level2_psd": extension["level2_psd"],
+        "bell_level1_is_principal_submatrix": extension["level1_is_principal_submatrix"],
+        "bell_extends": extension["extends"],
+        "tested_levels": ("Q_1+AB", "Q_2"),
+        "arbitrary_almost_quantum_rejection_established": False,
+        "all_level_extension_tested": False,
         "why_this_is_non_trivial": (
-            "The level-2 matrix must obey A_x²=I, [A_x,B_y]=0 and the word "
-            "reductions (e.g. A₀·(A₀B₀)=B₀). These operator-algebra relations — "
-            "not the bare 𝔇 marginal — are what an almost-quantum-but-not-quantum "
-            "correlation fails to extend."
+            "NPA imposes measurement-word identities in addition to positivity. "
+            "The supplied Bell realization satisfies them; this check does not "
+            "find the exclusion level of an arbitrary nonquantum behavior."
         ),
     }
 
@@ -173,21 +134,14 @@ def operator_algebra_consistency() -> dict:
 
 def resolution() -> dict:
     return {
-        "question": "is 𝔇_n = Marginal(𝔇_{n+1}) equal to NPA-extendability?",
+        "question": "Does bare D marginal extension imply NPA operator-word extendability?",
         "answer": (
-            "Not as stated. As a BARE decoherence-functional marginal it is "
-            "trivial (every 𝔇 extends) and cannot isolate quantum. It collapses "
-            "Q̃ → Q if and only if 'record extendability' means consistency of the "
-            "full measurement algebra (the moment-matrix / operator relations), "
-            "which IS NPA-extendability — and that is the borrowed NPA-convergence "
-            "theorem, not a DET-specific result."
+            "No such implication follows from bare marginal consistency. Tensoring "
+            "with any normalized kernel already supplies a bare extension. NPA "
+            "additionally requires a specified measurement algebra and its word identities."
         ),
-        "status": (
-            "The collapse is a SETTLED theorem (NPA convergence) under the "
-            "operator-algebra reading. DET's contribution is the sharpened "
-            "definition: 'global record extendability' must be the operator-"
-            "algebra consistency, not the bare pair-kernel marginal."
-        ),
+        "status": "BARE_EXTENSION_TRIVIAL; OPERATOR_RELATIONS_ADDITIONAL; DET_FORCING_OPEN",
+        "scope": correlation_set_scope(),
     }
 
 
@@ -196,24 +150,21 @@ def resolution() -> dict:
 
 def derivation_certificate() -> dict:
     return {
-        "theorem": "T6 residual — what global record extendability must mean",
+        "theorem": "T6 residual — bare extension versus operational moment consistency",
         "deliverables": {
-            "coarse-graining (marginal) of 𝔇": "MATH — decoherent histories (Gell-Mann–Hartle, Griffiths, Omnès), credited",
-            "Gram sum rule (single Hilbert space realizes a refinement)": "TH-DET — verified numerically",
-            "bare extendability is trivial": "TH-DET — verified construction",
-            "NPA-extendability ⟺ quantum": "MATH — Navascués–Pironio–Acín (2008), cited",
-            "resolution (collapse iff operator-algebra consistency)": "TH-DET — sharpened DET condition",
+            "kernel coarse-graining": "MATH — finite biadditive marginal identity",
+            "Gram sum rule under strong positivity": "MATH — finite Gram construction; numerical examples",
+            "bare normalized tensor extension": "MATH — elementary construction",
+            "Bell Q_1+AB to Q2 extension": "CORR — one supplied quantum realization",
+            "all-level NPA target C_qc": "MATH — cited theorem with operator-word premises",
         },
+        "scope": correlation_set_scope(),
         "not_derived_here": [
-            "NPA convergence itself (cited)",
-            "the infinite inductive-limit construction (standard, cited)",
+            "NPA convergence or the general C_qa/C_qc separation (both cited)",
+            "an implication from bare record marginals to the NPA word relations",
+            "a selected tensor-product quantum theory or a physical update law",
         ],
-        "status": (
-            "Resolved: the bare 𝔇-marginal condition is trivial; the collapse "
-            "Q̃ → Q is the NPA theorem applied to the operator algebra. DET's "
-            "'global record extendability' is equivalent to NPA-extendability "
-            "when (and only when) it is read as the operator-algebra consistency."
-        ),
+        "status": "BARE_EXTENSION_PROVED; DET_OPERATIONAL_SELECTION_OPEN",
     }
 
 
@@ -244,14 +195,9 @@ def run_t6_residual() -> dict:
         "resolution": resolution(),
         "certificate": derivation_certificate(),
         "interpretation": (
-            "Bare 𝔇-extendability is trivial (marginal(𝔇⊗𝔇_new)=𝔇, error "
-            f"{trivial['max_abs_error']:.1e}). The Gram sum rule holds "
-            f"({srule['sum_rule_holds']}), so one Hilbert space realizes any "
-            "refinement. The genuinely non-trivial condition is the operator-"
-            f"algebra (moment-matrix) consistency — Bell extends to level 2 "
-            f"({op['bell_extends']}), and an almost-quantum-but-not-quantum "
-            "correlation fails exactly this. Hence 'global record extendability' "
-            "collapses Q̃→Q iff read as the operator-algebra consistency (= NPA "
-            "extendability), settling the residual."
+            f"Bare tensor extension recovers the old kernel (error {trivial['max_abs_error']:.1e}); "
+            f"the Gram sum rule holds ({srule['sum_rule_holds']}). The supplied Bell "
+            f"example extends to Q2 ({op['bell_extends']}). Neither result derives "
+            "NPA operator-word relations from records or selects tensor-product QM."
         ),
     }

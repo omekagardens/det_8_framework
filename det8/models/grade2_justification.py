@@ -1,52 +1,19 @@
-"""
-DET v8.1 — Grade-2 Justification (T2a)
+"""DET v8.1 — grade-two restriction and the separate strong-positivity premise.
 
-T2b assumed the pairwise/grade-2 restriction and derived the quantum framework
-(Gram/Hilbert, I_3 = 0) from it. T2a asks the harder, a-priori question: *why*
-is the pre-commit object a grade-2 (pairwise) pair-kernel rather than a grade-3
-(or higher) structure?
+An explicit nonnegative normalized grade-three set-function shows that
+normalization, eventwise positivity and binary event notation do not force
+grade two. No composition theorem follows without a specified composition
+contract. Grade two gives I3=0 on disjoint events, but eventwise positivity
+plus grade two does not imply strong positivity or a Hilbert representation.
+On three atoms, μ(A)=|A|(|A|-1)/6 is a counterexample: singleton weights are
+zero and pair weights are 1/3, impossible for a PSD Gram matrix.
 
-THE HONEST VERDICT (stated up front): grade-2 is NOT forced by the available
-record-formation primitives. Normalization, positivity (positive commitability),
-composition, and the binary nature of the causal order ≺ are all compatible
-with grade-3 structures. An explicit normalized, positive grade-3 measure with
-I_3 ≠ 0 exists and is constructed below. Therefore the pairwise restriction is
-an *independent, empirically discriminable* choice — the a-priori forcing
-theorem the program hoped for is not derivable from the current primitives, and
-the honest discriminator is §7.2 (measure I_2 and I_3 from raw
-alternative-combination counts).
-
-This is the "possibly a-priori-underivable" branch anticipated in the pair-kernel
-assessment. It is a NEGATIVE result about the a-priori route, delivered together
-with the positive machinery needed for the empirical route.
-
-What is implemented (pure stdlib):
-
-  - Sorkin's interference hierarchy: a measure μ on a finite alternative space
-    is written in its Möbius/grade basis μ(A) = Σ_{S ⊆ A} w_S, so that
-    I_k on disjoint singletons equals exactly the size-k weight w_S. grade-1 =
-    classical, grade-2 = quantum, grade-3+ = beyond quantum.
-  - The explicit negative result: a normalized, positive grade-3 measure with
-    I_3 ≠ 0 (and I_4 = 0), showing positivity + normalization do not force
-    grade-2. A grade-3 measure is still a valid measure over *binary* events,
-    so the binary causal order ≺ does not force grade-2 either.
-  - The empirical discriminator (§7.2): estimate μ, I_2, I_3 from raw
-    alternative-combination counts, and test I_3 = 0 (grade-2) vs I_3 ≠ 0.
-  - An honest enumeration of the candidate a-priori forcing routes and why each
-    is circular or open.
-
-DERIVATION CERTIFICATE (honest provenance):
-
-  interference hierarchy / grade basis  MATH — Sorkin et al. (quantum measure
-                                          theory), credited.
-  grade-2 ⇒ Gram/Hilbert, I_3 = 0       MATH/TH-DET — T2b (pair_kernel.py).
-  grade-2 NOT forced by positivity/
-    normalization/composition/binary ≺   TH-DET — explicit grade-3 counterexample
-                                          (a negative result).
-  grade-2 is an empirical choice (§7.2)  the honest status; discriminator below.
-
-  NOT derived: any a-priori forcing of grade-2. That remains OPEN (and is likely
-  underivable without a genuinely new primitive that is not itself grade-2).
+The finite Gram theorem in pair_kernel.py requires an admitted Hermitian,
+biadditive, strongly positive pair-kernel. These are additional premises.
+The count-based statistic below checks one triple against a fixed tolerance;
+it is neither a significance calculation nor evidence selecting the Born
+rule, the complex field, or all quantum instruments. Existing synthetic
+count generation and historical callable names are retained.
 """
 
 from __future__ import annotations
@@ -56,7 +23,6 @@ import math
 import random
 
 from det8.models.pair_kernel import PairKernel
-
 
 # ── The grade / Möbius basis of a finite measure ────────────────────────────
 
@@ -155,7 +121,13 @@ def make_grade3_counterexample(delta: float = 0.25, n: int = 4) -> GradeMeasure:
     all else zero. Then μ(Ω) = 1, μ(A) ≥ 0 for all A (for 0 < δ < 1), and
     I_3({0},{1},{2}) = w_{012} = δ ≠ 0, while I_4 = 0 (no 4-set weight).
     """
-    assert 0.0 < delta < 1.0
+    from det8.models.validation import require_real_finite
+
+    delta = require_real_finite(delta, "delta")
+    if not 0.0 < delta < 1.0:
+        raise ValueError("delta must lie strictly between 0 and 1")
+    if isinstance(n, bool) or not isinstance(n, int) or n < 3:
+        raise ValueError("n must be an integer of at least 3")
     weights = {frozenset([i]): (1.0 - delta) / n for i in range(n)}
     weights[frozenset([0, 1, 2])] = delta
     return GradeMeasure(weights, n)
@@ -165,12 +137,12 @@ def make_grade3_counterexample(delta: float = 0.25, n: int = 4) -> GradeMeasure:
 
 
 def negative_result() -> dict:
-    """Grade-2 is not forced by normalization + positivity (+ composition).
+    """Grade-2 is not forced by normalization and eventwise positivity.
 
     Constructs the explicit grade-3 counterexample and verifies it is a
-    legitimate normalized, positive measure with I_3 ≠ 0. Since it is a valid
-    measure on BINARY alternatives, the binary causal order ≺ also does not
-    force grade-2.
+    legitimate normalized, positive measure with I_3 ≠ 0. Binary yes/no
+    event notation alone does not constrain its degree. Additional axioms
+    connecting a causal order to the measure are not tested here.
     """
     m = make_grade3_counterexample(delta=0.25, n=4)
     i3 = m.interference({0}, {1}, {2})
@@ -187,9 +159,9 @@ def negative_result() -> dict:
             "grade-2; the pairwise restriction is an independent assumption."
         ),
         "binary_events_note": (
-            "Ω = {0,1,2,3} are binary (yes/no) alternatives, yet the measure "
-            "has I_3 ≠ 0. Hence 'the events/order are binary' does not force a "
-            "grade-2 measure."
+            "Each subset of Ω = {0,1,2,3} defines a yes/no event, yet I3 is nonzero. "
+            "Binary event notation alone does not force grade two; no extra "
+            "causal-order/measure compatibility axioms are tested."
         ),
     }
 
@@ -210,11 +182,11 @@ def a_priori_routes() -> dict:
         },
         "binary_causal_order": {
             "claim": "≺ is a binary relation, so the induced measure must be grade-2",
-            "status": "FALSE — a grade-3 measure is still a valid measure over binary events (see negative_result)",
+            "status": "NOT IMPLIED BY BINARY NOTATION ALONE — the counterexample has yes/no events; additional order/measure compatibility axioms are untested",
         },
         "composition_closure": {
             "claim": "composition of alternatives forces grade-2",
-            "status": "FALSE — the grade-k hierarchy is closed under composition; grade-3 does not compose down to grade-2",
+            "status": "NOT ESTABLISHED HERE — no physical composition contract or closure theorem is supplied",
         },
         "verdict": (
             "No non-circular a-priori forcing of grade-2 is available from the "
@@ -257,14 +229,14 @@ def interference_from_counts(counts: dict, *sets) -> float:
 
 
 def grade2_discriminator(counts: dict, tol: float = 0.05) -> dict:
-    """§7.2: classify a counted dataset as grade-2 (I_3 ≈ 0) or grade-3+.
+    """§7.2: compare one counted triple's I3 with a fixed tolerance.
 
     Estimates I_2 (pairwise interference) and I_3 (3-way) from raw counts and
     compares |I_3| to a tolerance. Honest note: the significance of |I_3| > 0
     depends on the counting model (Poisson/multinomial); this returns the raw
     estimates and a coarse classification, not a formal p-value.
     """
-    mu = estimate_mu_from_counts(counts)
+    estimate_mu_from_counts(counts)  # Validate the reference normalization.
     omega = frozenset().union(*counts.keys())
     # I_2 on the first two singletons, I_3 on the first three.
     atoms = sorted(omega)[:3]
@@ -275,11 +247,13 @@ def grade2_discriminator(counts: dict, tol: float = 0.05) -> dict:
         "I2": i2,
         "I3": i3,
         "grade2": abs(i3) < tol,
+        "scope": {"tested_triple": tuple(atoms), "significance_test": False,
+                  "universal_grade2_established": False, "born_rule_selected": False},
         "interpretation": (
             f"I_2 = {i2:+.4f} (pairwise interference), I_3 = {i3:+.4f} "
             f"(3-way). " + ("Consistent with grade-2 (I_3 ≈ 0)."
                             if abs(i3) < tol else
-                            "I_3 ≠ 0 → grade-3+ structure, NOT grade-2.")
+                            "Outside the stated tolerance on this triple; counting and apparatus errors require separate analysis.")
         ),
     }
 
@@ -310,22 +284,26 @@ def simulate_counts(measure: GradeMeasure, n_trials: int,
 
 def derivation_certificate() -> dict:
     return {
-        "theorem": "T2a — a-priori justification of the grade-2 (pairwise) restriction",
+        "theorem": "T2a — non-entailment of grade two and strong positivity",
         "deliverables": {
-            "interference hierarchy / grade basis": "MATH — Sorkin et al. (quantum measure theory), credited",
-            "grade-2 ⇒ Gram/Hilbert, I_3 = 0": "MATH/TH-DET — T2b (pair_kernel.py)",
-            "grade-2 NOT forced by normalization/positivity": "TH-DET — explicit grade-3 counterexample (negative result)",
-            "binary ≺ does not force grade-2": "TH-DET — counterexample",
-            "§7.2 empirical discriminator (I_2, I_3 from counts)": "CORR — statistical machinery",
+            "grade-two set-functions have I3=0 on disjoint events": "MATH — finite interference identity",
+            "strongly positive Hermitian biadditive D has a finite Gram representation": "MATH — conditional Gram theorem",
+            "normalization and eventwise positivity do not force grade two": "MATH — grade-three counterexample",
+            "nonnegative grade two does not force strong positivity": "MATH — zero-singleton, positive-pair counterexample",
+            "count-based I2 and I3 statistic": "CORR — fixed-tolerance descriptive calculation",
+        },
+        "scope": {
+            "grade2_implies_strong_positivity": False,
+            "gram_requires_strong_positivity": True,
+            "composition_closure_established": False,
+            "empirical_born_selection": False,
         },
         "not_derived_here": [
-            "any a-priori forcing of grade-2 — OPEN, and likely underivable without a genuinely new non-grade-2 primitive",
+            "a forcing of grade two or strong positivity from the record/order primitives",
+            "composition closure without a specified composition law",
+            "a universal interference law or Born rule from finite noisy counts",
         ],
-        "status": (
-            "Negative result (grade-2 is not forced a priori) + the empirical "
-            "discriminator. T2a's honest resolution is: the pairwise restriction "
-            "is an empirical choice pinned by §7.2 (I_3 = 0), not a theorem."
-        ),
+        "status": "COUNTEREXAMPLES_AND_CONDITIONAL_GRAM_THEOREM; FULL_QM_NOT_DERIVED",
     }
 
 
@@ -338,7 +316,7 @@ def run_t2a() -> dict:
     # 1. The negative result.
     neg = negative_result()
 
-    # 2. Grade-2 (quantum) has I_3 = 0, I_2 ≠ 0.
+    # 2. The supplied pair-kernel has I_3 = 0, I_2 ≠ 0.
     pk = make_pair_kernel(4, seed=42, coherent=True)
     g2 = grade_measure_from_pair_kernel(pk)
     g2_i2 = g2.interference({0}, {1})
@@ -367,6 +345,22 @@ def run_t2a() -> dict:
             f"discriminator reads grade-2 data as I_3 ≈ {disc_g2['I3']:+.4f} "
             f"(grade-2: {disc_g2['grade2']}) and grade-3 data as I_3 ≈ "
             f"{disc_g3['I3']:+.4f} (grade-2: {disc_g3['grade2']}). Grade-2 is "
-            "an empirical choice, pinned by measuring I_3 = 0 from raw counts."
+            "a separately proposed restriction; these synthetic counts do not establish it universally or select a Born rule."
         ),
+    }
+
+
+def strong_positivity_counterexample() -> dict:
+    """A nonnegative normalized grade-two measure with no strongly positive D."""
+    measure = GradeMeasure({frozenset(pair): 1 / 3
+                            for pair in itertools.combinations(range(3), 2)}, n=3)
+    return {
+        "measure": measure,
+        "singleton_weights": [measure.mu({i}) for i in range(3)],
+        "pair_weights": [measure.mu(pair) for pair in itertools.combinations(range(3), 2)],
+        "normalized": measure.is_normalized(),
+        "eventwise_positive": measure.is_positive(),
+        "grade": measure.grade(),
+        "strong_positive_representation_exists": False,
+        "proof": "PSD Cauchy-Schwarz makes every off-diagonal entry vanish when all diagonals vanish, contradicting the positive pair weights.",
     }

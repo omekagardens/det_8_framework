@@ -20,6 +20,10 @@ The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
 release gate or physical claim is closed by starting these assignments.
 
+Accepted work is not all published. The current
+[publication backlog](PUBLICATION_BACKLOG.md) records source dependencies and
+the isolated RI-02/RI-04 plus RI-12 identifiability checkpoint under review.
+
 **RI-02 acceptance detail**
 
 Changed `det8/models/pair_kernel.py` and added
@@ -1818,3 +1822,76 @@ cost, baseline and held-out evaluation dependencies. The document adds no
 sampling confidence, physical QM or measured benefit. Current accepted pins
 and formula/link checks suffice for this documentation synthesis; another
 complete witness replay is not required solely to rewrite the argument.
+
+**Research repairs and exact identifiability — isolated publication candidate**
+
+14 September 2026 UTC. Three independent publication audits examined the
+accepted research repairs, applied consumers and claims package against
+published HEAD while QR completed the assigned synthesis. The research repairs
+and exact identifiability interface have a complete independent source closure.
+Claims, chronology-dependent reporting and the RET comparator need the specific
+prerequisites in the [publication backlog](PUBLICATION_BACKLOG.md); none is
+silently included here. The newly received QR synthesis remains a separate
+submission pending coordinator review.
+
+The candidate starts from `9a0832939435c5d998cf680135d23a3d353af8db`.
+It overlays fourteen complete selected source files plus a published-runner
+snapshot containing only these eight accepted group replacements:
+
+- `test_correlation_class`, `test_correlation_frontier`;
+- `test_grade2_justification`, `test_record_extendability`, `test_why_complex`;
+- `test_born_rule_uniqueness`, `test_quantum_deadlock`, `test_frontier_research`.
+
+AST comparison verifies the exact set of changed top-level functions, equality
+of those eight functions to the working source, and equality of every other
+function and top-level statement to published HEAD. The unchanged
+`test_pair_kernel` group is also exercised. The working runner is preserved;
+its unrelated core/RET and other local consumer changes are not staged.
+The shared validation helper uses only the standard library. Its inclusion
+does not certify deferred consumers or expand the public-core support claim.
+
+The final source audit accepted the full selected model diffs, test files and
+helper. Two inherited statements were narrowed before the final test capture:
+the pair-kernel header now separates pairwise structure and strong positivity,
+and the Gram-sum report distinguishes its exact identity from numerical
+reconstruction with reported error and tolerance. Independent delta review
+accepted both qualifications and rechecked the exact identifiability theorem.
+
+From this isolated candidate, using CPython from the existing development
+environment with bytecode and pytest cache writing disabled:
+
+- `pytest det8/tests/test_pair_kernel_contracts.py
+  det8/tests/test_research_claim_contracts.py
+  det8/tests/test_applied_identifiability.py -q`: **203 passed in 0.19 s**
+  (47 kernel, 48 certificate and 108 identifiability cases).
+- The eight selected legacy groups and unchanged kernel group:
+  **90 PASS, 0 FAIL, 0 ERROR**.
+
+These results verify the selected publication candidate, not the whole
+dirty checkout, old G1 evidence, a RET calibration or physical selection of
+quantum premises. Exact identifiability concerns unrestricted real parameters
+under supplied rational coefficients; it does not certify noisy precision,
+feasibility or measured utility. No accepted QR executable or registry pin
+changes in this checkpoint, so the unchanged 384-witness cumulative inventory
+is not replayed or counted as new evidence.
+
+Only coordinator publication/status Markdown accompanies the fifteen source
+paths. Their tested SHA-256 identities follow.
+
+| Tested publication source | SHA-256 |
+|---|---|
+| `det8/models/pair_kernel.py` | `d45e3b09c3f923b08c7aa27ce0d78a610de6c98dc4c51c1b65a393b6ddb77cf7` |
+| `det8/models/why_complex.py` | `3353967424554efafa08b2c01ab9a291d0efe899fb1b9f65e7c0c42d41a01708` |
+| `det8/models/grade2_justification.py` | `ba76691e82c07f284adc97ccc23229d22a96abd838e48ce2b3674cfbf476768f` |
+| `det8/models/correlation_class.py` | `72bee81017c25dcf351cea57204a773095b25d734aa2db0587172a298a2d209e` |
+| `det8/models/correlation_frontier.py` | `8f3fbbf530e8325c3188260efd4e155065bcc3ebb6afba76d4220904af14e8b1` |
+| `det8/models/record_extendability.py` | `e62508ed69763a4f9c0fc351f1b4bc1d29113b605221fc938b78a5b45c7935d2` |
+| `det8/models/born_rule_uniqueness.py` | `b7d31d290f43f5e9db8a49fa9885cd239b1645e2c018f9f3a19779097f01f386` |
+| `det8/models/quantum_deadlock.py` | `5e97e3ab1defd63e5f122b3b4e99d3dc2e7b4cdb387c3c2673d968d8e40158ec` |
+| `det8/models/u1_emergence.py` | `61a36bb7da2f89756cffe819f7b8af760f41e4b20b411df391f8676d3751008c` |
+| `det8/models/validation.py` | `e29bdba205a2709eccfaadbde51771b0612e24c9622329df9b3d720a27dd232d` |
+| `det8/tests/test_pair_kernel_contracts.py` | `2d738f0dbac23cc6abc6b804acea4de246a4620fb84d2874367cce418de6abf3` |
+| `det8/tests/test_research_claim_contracts.py` | `b55d3e6cd27786847a9ea0fa02b054a4d288fe632acd51e5a0b359b44af8f5e3` |
+| `det8/applied_physics/identifiability.py` | `136588b80cc9d1935137c81885dc26446947dc52f81c120a0652a75b7fb268d9` |
+| `det8/tests/test_applied_identifiability.py` | `896951787410eb9a286591720f5659f7ffe3a357bdf32342941d90108d201088` |
+| `run_tests.py` | `67db5c364573dda855d645963d07a7ebe171790884f3110718f010d3d00d6ddf` |

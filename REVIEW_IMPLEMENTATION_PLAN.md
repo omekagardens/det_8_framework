@@ -82,6 +82,13 @@ QR source work. The earlier no-commit/no-push statements describe historical
 cycles; they are superseded for future scoped checkpoints. QR has acknowledged
 central coordination of git operations.
 
+The [publication backlog](docs/coordination/PUBLICATION_BACKLOG.md) distinguishes
+accepted local work from complete remote checkpoints. RI-02/RI-04 repairs and
+RI-12 exact identifiability now have an independently reviewed, isolated source
+candidate: 203 focused tests and 90 legacy research checks pass without the
+unpublished core/RET baseline. RI-11 chronology, the comparator's RET imports,
+and RI-14 support/claim prerequisites remain separate publication work.
+
 **Accepted implementation backlog**
 
 The IDs below identify review work, not new QR-05 or scientific acceptance gates.

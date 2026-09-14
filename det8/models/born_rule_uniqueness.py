@@ -106,6 +106,7 @@ def born_rule_uniqueness_theorem() -> dict:
             "the uniform case. Under Lp-normalized splits, conservation holds for "
             "every p (Σ_i |1/n^(1/p)|^p = n·(1/n) = 1)."
         ),
+        "scope": {"l2_normalization_assumed": True, "born_rule_derived": False},
         "honest_classification": (
             "CONSISTENCY CHECK, not a derivation. It does not force L2 over Lp, "
             "nor linear amplitude composition."
@@ -122,34 +123,30 @@ def born_rule_uniqueness_theorem() -> dict:
         "what_remains_open": [
             "why L2 rather than Lp (this is the real 'why squared' question)",
             "linear root composition (assumed to follow from sequential-measurement consistency)",
-            "unitary vs orthogonal basis change (why_complex.py handles the complex part)",
+            "physical scalar-field and operation selection (why_complex.py only checks an assumed compatible family)",
         ],
     }
 
 
 def grade2_born_connection() -> dict:
-    """Tie the L2-consistency result to grade-2 and the three-slit null.
-
-    Note: this connection does NOT rescue the "uniqueness" — grade-2 selects the
-    L2 structure empirically (three-slit I₃ = 0), so the Born rule's L2 form is
-    empirically anchored to grade-2, but the *norm convention* is still assumed,
-    not derived.
-    """
-
+    """Squared-norm composition implies grade two; the converse needs more premises."""
     return {
-        "claim": "p = 2 is the L2 form, which is the grade-2 (Sorkin) measure.",
+        "claim": "The squared norm of a sum of amplitudes gives a grade-2 set-function.",
         "reason": (
-            "a grade-2 measure is bi-additive in kernel roots (I₃ = 0); the "
-            "squared magnitude |Σ c_i|² is precisely that bi-additive form."
+            "Expanding the squared norm leaves singleton and pair terms, so I3 "
+            "vanishes on disjoint alternatives. Grade two and eventwise positivity "
+            "alone do not supply a strongly positive kernel or Hilbert space."
         ),
         "empirical_anchor": (
-            "the three-slit experiments bound I₃ ≈ 0 (κ_Sorkin ≲ 10⁻⁴), confirming "
-            "grade-2; so the L2 (Born) form is the empirically selected grade-2 "
-            "measure — but the norm convention (L2 vs Lp) is still assumed, not derived."
+            "A three-slit null constrains the tested interference statistic under "
+            "its apparatus and normalization assumptions. Finite precision does not "
+            "establish an exact universal law or select L2 and the Born rule."
         ),
+        "scope": {"grade2_implies_strong_positivity": False,
+                  "three_slit_null_selects_born": False, "l2_normalization_assumed": True},
         "links": {
-            "born_derivation.py": "kernel-root composition",
-            "dkappa_decoherence.py": "I₃ = κ·w₃ and the grade-2 theorem",
-            "why_complex.py": "ℂ forced by reversibility (complements this)",
+            "born_derivation.py": "conditional kernel-root composition",
+            "grade2_justification.py": "separate strong-positivity counterexample",
+            "why_complex.py": "compatible forms assumed; scalar-field selection open",
         },
     }
