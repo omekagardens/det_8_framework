@@ -1,5 +1,35 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+13 September 2026, observation-stability capstone: the
+[RI-08j theorem](../validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md)
+proves the sharp filtered-state bound
+max TV <= d_F <= sum b_k TV_k <= C max TV, where b_k are exact
+inverse-column norms and C is approximately 3.126749168936497 at the
+accepted tilt. The decimal is not a certified upper bound; the executable
+uses exact square-proved rational enclosures.
+**SHARP_FILTERED_OBSERVATION_STABILITY;
+SINGULAR_AND_RARE_CELL_BOUNDARIES;
+EXACT_SUPPLIED_CANDIDATE_BUDGET_CERTIFICATE.**
+The theorem is full-domain mathematical sharpness, not physical preparation
+attainability. Interior rank can remain full while conditioning deteriorates
+near a blind read axis. The raw bound d_N <= d_F/(1-|t|) has an unavoidable
+endpoint factor even for bounded raw sources; the composed coefficient
+C/(1-|t|) is not claimed sharp, and raw distance is not a probability.
+A supplied candidate passing declared deterministic table-error budgets
+certifies nonempty feasibility and a diameter bound. A failed candidate is
+inconclusive, not an infeasibility verdict; exact reconstruction refusal
+remains unchanged and no fitting is performed. Full source/context/history,
+initial pending metadata and actual cell/sign laws remain retained for
+typed sources. Raw-matrix audits require metadata=None; matched history
+requires a typed State, never a raw-matrix provenance declaration.
+Rare-cell conditional precision requires a positive weight lower bound;
+calibration, sampling and repeated preparations remain separate premises.
+RI-08j is independently accepted and registered by the coordinator after
+the narrow raw-metadata repair. Its 28 exact checks also pass normally and
+under optimization in the coordinator's exact staged checkout. The bundle
+is source-quiet pending scoped publication. No new control, preparation,
+instrument, solver, hardware, application/RET change or automatic successor.
+
 13 September 2026, terminal internal-read obligation: the
 [RI-08i theorem](../validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md)
 adds exactly one explicitly available calibrated terminal read to the

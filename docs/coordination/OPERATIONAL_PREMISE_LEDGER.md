@@ -1,7 +1,7 @@
 # Operational premises, result boundaries and composition obligations
 
 13 September 2026. RI-13 coordinator consolidation of the accepted review
-implementation and QR results through RI-08i, including RI-15 interoperability. The
+implementation and QR results through RI-08j, including RI-15 interoperability. The
 [implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) and
 [progress record](REVIEW_PROGRESS.md) carry current ownership and acceptance.
 The [original review](../../indep%20ndent_review.md) remains a dated assessment.
@@ -81,6 +81,7 @@ have positive mass. These three uses of “dark” must not be conflated.
 | [RI-08g minimal cut-closed completion](../validation/t8-q-cut-closed-completion-2026-09-13/CUT_CLOSED_COMPLETION.md) | Fixed supplied reference/coupler frame and explicit enlargement to the minimal convex cut-closed return cone L_t; separate fixed cut/read/stop catalogue. | Four independent positive blocks give span 16 and complete repeatable literal cuts. Interior mass is faithful; endpoint nonfaithfulness leaves positive dark payload. Whole-cone mass-dominated effects see internal blocks in the interior but collapse to weights at endpoints. Cut-only outcome laws use only the four weights throughout. |
 | [RI-08h reversible generators](../validation/t8-q-reversible-generator-2026-09-13/REVERSIBLE_GENERATOR.md) | Fixed interior L_t and an additional all-real strongly continuous group of real-linear cone automorphisms, positive with positive inverses and preserving mass. | Each block is invariant and admits a filtered Hamiltonian generator, unique modulo scalar. All four weights are fixed; cut-only outcomes cannot identify the twelve generator parameters. The finite-policy comparison also requires identical initial pending/nominal command metadata. No physical time, Hamiltonian selection or native dynamics is derived. |
 | [RI-08i terminal-read observability](../validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md) | Fixed known interior L_t, the supplied common-X command catalogue, and one additionally available exactly calibrated terminal internal read. Compare common finite policies at identical context, committed prefix, pending word and nominal metadata, without a raw-state observation oracle. | Mass-retaining homogeneous linear predictive ranks are 8/12/16 for X/transverse/tilted reads. Three resolved tilted-read settings uniquely reconstruct the full native state from compatible exact full-outcome tables, without division by cell mass. The result supplies neither a postmeasurement update nor empirical preparation/calibration, finite-sample accuracy or unknown-generator identification. |
+| [RI-08j observation stability](../validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md) | The fixed normalized interior cone and known three-setting calibrated terminal catalogue; compare full outcome laws. Deterministic table-error budgets are explicitly supplied, with any typed candidate retaining matched context, full prefix and pending word. | Sharp filtered-distance constants quantify observability; raw recovery has unavoidable singular polarization dependence. A verified supplied candidate proves nonempty budget feasibility and a diameter bound, while candidate failure remains inconclusive. Raw audits must have no metadata; they cannot claim a verified history. No sampling confidence, fitting, preparation availability or empirical advantage follows. |
 
 The general RI-06 closure can stabilize after at most the sum of the typed
 space dimensions in independent effect directions; rational data permits
@@ -347,16 +348,68 @@ unknown generator, physical time or a DET-selected observation law. Final
 registration/replay evidence and source identities belong to the progress
 record, separately from these mathematical conclusions.
 
+**RI-08j's theorem and corrected candidate contract are accepted.** For two
+normalized compatible sources, let epsilon_k be full-law total variation at
+each resolved empty/A/AA setting. Write d_F for half the sum of filtered
+block trace norms, d_N for half the native-kernel trace norm, and b_k for
+the Euclidean norms of the inverse backward-axis matrix columns. Then
+
+`max epsilon_k ≤ d_F ≤ Σ b_k epsilon_k`,
+
+with each weighted coefficient and their common-error sum sharp on the
+full mathematical four-cell domain. Three separate small positive-center
+perturbations attain the upper coefficients; moving center mass attains the
+lower coefficient one. At the fixed tilt,
+`b_0=b_2=125√41/768`, `b_1=5√6409/384`, and their sum is approximately
+3.126749. This decimal is explanatory; the implementation uses exact
+square-proved rational upper enclosures. Mathematical sharpness does not
+supply physical preparation procedures.
+
+For a unit read axis with `a=|n_x|` and `b=||n_perp||`, the exact general
+column-norm formula gives `aC→1` near a=0 and `bC→25/12` near b=0.
+Full rank can coexist with arbitrarily poor conditioning; at the blind
+axes information is absent. The native norm satisfies
+
+`d_F/(1+|t|) ≤ d_N ≤ d_F/(1-|t|)`.
+
+The endpoint factor is unavoidable even with bounded raw sources: moving a
+dark projector between two retained cells keeps d_N=1/4 while every full-law
+TV tends to zero as `(1-t)/4`. No joint sharpness of the composed observation/
+native coefficient is assumed. Native kernels need not have trace one, so
+d_N is not itself a probability distance.
+
+Given normalized full tables y_k and deterministic budgets eta_k, an exact
+positive supplied candidate inside every TV budget witnesses nonempty
+feasibility. Any two feasible sources have filtered distance at most
+`2Σ b_k eta_k`, with the corresponding native factor above. The executable
+returns safe rational upper bounds and preserves the candidate, data and
+actual errors. A failed candidate is inconclusive about existence of another;
+it supplies no infeasibility certificate, fitted state or table repair.
+Exact reconstruction may refuse inconsistent cell masses even when a
+positive candidate meets nonzero budgets.
+
+A raw-matrix audit must use `metadata=None`; every entry point rejects
+attached history metadata it cannot bind. A caller requiring exact known
+context, prefix and pending-word matching must supply the typed State.
+Neither audit path prepares a state, performs a read, creates a commitment
+or continues from a terminal result. Full native payload and zero cells
+remain intact. Rare-cell opposite states have vanishing full-law error but
+conditional distance one, so conditional accuracy needs a positive weight
+floor. A joint change of unknown read frame and source can preserve all
+setting laws: calibration and state are not jointly identified. Deterministic
+budgets do not establish confidence levels, repeated preparation or measured
+benefit. The linear-target corollary transfers event-probability error; a
+binary expectation difference can instead incur twice the TV budget.
+
 ## 7. Application and project integration route
 
-RI-08j is assigned as one bounded observation-stability capstone; its candidate
-bounds are not yet accepted here. It will connect exact observability to
-explicit deterministic error budgets, distinguish filtered prediction distance
-from singular raw reconstruction, and verify supplied feasible witnesses
-without silently fitting incompatible tables. This closes the present round
-of finite-cone refinement before consolidation of a single conditional
-argument. It does not settle the operational-premise selection, retained-word
-first-commit extension or measured-application obligations below.
+The accepted observation-stability capstone closes the present round of
+finite-cone refinement. The next planned artifact consolidates a single
+conditional observability/stability argument; it does not settle operational
+premise selection, the retained-word first-commit extension or measured
+application obligations below. Its finite theorem needs known A/A² command
+matrices and the calibrated terminal read, not the stronger all-real
+continuity premise used in the separate generator classification.
 
 The useful QR/application transfer at present is a disciplined answerability
 contract: declare the state/model, question, allowed observations, retained
@@ -386,8 +439,8 @@ this ledger authorizes no bank change or release claim.
 
 **RI-14 is accepted.** The separate
 `det8.claims.research_activity_document()` endpoint now exposes versioned,
-fully detached scoped authorization and seventeen explicitly accepted suite
-references through RI-08i. The generated [claim registry](../CLAIM_REGISTRY.md)
+fully detached scoped authorization and eighteen explicitly accepted suite
+references through RI-08j. The generated [claim registry](../CLAIM_REGISTRY.md)
 shows the same metadata. Existing `claim_summary()` and `registry_document()`
 contents, broad evidence/development statuses, priorities and module support
 boundaries are unchanged. The endpoint performs no repository lookup,

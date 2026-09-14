@@ -1,4 +1,181 @@
-# QR research handoff — terminal internal-read observability
+# QR research handoff — observation stability and error budgets
+
+13 September 2026. **RI-08j ACCEPTED_AND_REGISTERED_BY_COORDINATOR.**
+The corrected J source passed coordinator acceptance and registration;
+scoped publication is pending. This acceptance-status update changes only
+the handoff and two QR summaries, with all thirty-six research-source pins
+unchanged and no consolidation source work started.
+RI-08i is independently accepted, registered and published by the
+coordinator. The current bounded capstone quantifies exact observation
+stability and checks supplied feasible candidates under declared
+deterministic budgets. It adds no read, control, preparation, solver
+or postmeasurement instrument.
+
+Only the new observation-stability bundle, the two reserved QR map/plan
+files and this handoff are in scope. All thirty-three accepted source
+pins were verified unchanged at entry and at final handoff. Accepted bundles, the registered
+runner/schema/import contract, RI-15, claims, coordinator ledgers,
+core/RET/application source and protected evidence remain untouched.
+Git/index operations stay with the coordinator. No automatic successor.
+
+## RI-08j artifacts and result
+
+New isolated bundle:
+[OBSERVATION_STABILITY.md](../validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md),
+[model.py](../validation/t8-q-observation-stability-2026-09-13/model.py),
+[check.py](../validation/t8-q-observation-stability-2026-09-13/check.py).
+
+Retain the accepted interior L_t, native sixteen-label kernel, fixed known
+common-X commands and one calibrated tilted terminal read. Sources are
+normalized by native mass, not ordinary trace, and compared at the same
+known context, full earlier prefix and initial pending word. Full laws
+retain all eight cell/sign outcomes at resolved settings empty/A/AA.
+The proof allows general fixed interior t; the primary executor remains
+the accepted t=3/5 fixture. Diagnostics do not add available operations.
+
+Write epsilon_k=TV(p_k,p'_k),
+d_F=(1/2) sum_alpha ||sigma_alpha-sigma'_alpha||_1 and
+d_N=(1/2)||N-N'||_1. For V's three unit backward-axis rows and
+B=V^(-1), let b_k=||B_column_k||_2. The full-domain theorem is
+
+    max epsilon_k <= d_F <= sum b_k epsilon_k <= C max epsilon_k,
+    C=sum b_k.
+
+The proof uses ||Delta sigma||_1=max(|Delta q|,||Delta r||_2), the
+corresponding binary-pair TV identity and the inverse-column triangle
+bound. Three separate positive cells with opposite small Bloch vectors
+along the three inverse columns attain the weighted sum. Equal errors
+attain C, a single active cell attains each coefficient, and a transfer
+of center mass attains the lower coefficient one. These are full-domain
+mathematical witnesses, not physically available preparation claims.
+
+At the accepted tilt,
+b0=b2=125 sqrt(41)/768 and b1=5 sqrt(6409)/384, giving
+C approximately 3.126749168936497. The decimal is display-only.
+The executable certifies exact rational upper bounds by squaring, with
+bhat0=bhat2=640313/614400 and bhat1=1000703/960000.
+The sum of these slightly larger safe bounds is 8004483/2560000;
+sharpness belongs to the radical coefficients, not their enclosures.
+
+For a general axis with a=|n_x|>0 and b=||n_perp||>0,
+a^2+b^2=1, the note derives the inverse-column formula and proves
+a*C -> 1 as a -> 0, and b*C -> 25/12 as b -> 0. Thus a full-rank
+interior read can be arbitrarily poorly conditioned. At the exactly
+blind axes the earlier rank-loss result applies instead. No directional
+stability conclusion is inferred merely from a nonzero determinant.
+
+The native tensor-image identity gives
+||Delta N||_1=(1/4) sum ||Delta rho_alpha||_1, hence
+
+    d_F/(1+|t|) <= d_N <= d_F/(1-|t|).
+
+The endpoint factor is necessary even on bounded raw sources: move
+Q_Z- between cells00 and10 and retain the same
+(3+t)/(1+t) Q_Z- block in cell01. The normalized sources have
+d_N=1/4 and d_F=epsilon_k=(1-t)/4. At t=1 a nonzero raw dark
+difference is invisible to every whole-cone mass-dominated effect.
+The lower factor also has an extreme-ray equality witness. The composed
+C/(1-|t|) coefficient is not claimed jointly sharp; raw distance is
+not a probability distance.
+
+The new bounded audit accepts exact complete ordered tables y_k,
+three deterministic nonnegative budgets eta_k, and one supplied positive
+normalized candidate. A passing candidate proves nonempty feasibility
+and bounds the feasible-set diameter by 2 sum bhat_k eta_k in d_F,
+and by that number divided by 1-|t| in d_N. A failed candidate reports
+only inconclusive failure of that candidate; it does not prove infeasibility.
+No fitting, solver, clipping, projection, renormalization or table repair
+is performed. Tables with inconsistent cell masses can still have a
+budget-feasible center candidate while the unchanged exact inverse
+properly refuses them. Conversely, an exact feasible source can coexist
+with failure of a different candidate at zero budget.
+
+Typed audits retain and match the exact source object, full known
+context/history and initial pending word. Raw audits require metadata=None
+and reject any attached context/history declaration through the common
+audit validator. A caller requiring verified metadata binding must supply
+a typed State; no raw matrix is promoted into a prepared State.
+Success/failure objects are immutable
+audits, not States, physical reads or postmeasurement continuations.
+Direct construction revalidates rather than accepting forged conclusions;
+zero cells and one-shot exact inputs are handled without cell division.
+
+Rare-cell opposite X states have d_F=q and all three errors 3q/5,
+but conditional trace distance one. A positive cell-mass floor is needed
+for conditional bounds. A simultaneous common-X-commuting conjugation
+of source and unknown read frame leaves the full laws unchanged:
+deterministic budgets cannot establish calibration. The note's optional
+linear-target corollary transfers event-probability errors only; a binary
+expectation difference can incur 2 eta, not eta. No confidence level,
+repeated-preparation access or application performance follows.
+
+## RI-08j verification and integration boundary
+
+The initial proof/source/test review and 27-test replays completed.
+Coordinator proof review accepted the theorem, but coordinator full-source
+review found a provenance ambiguity: raw matrices could carry unbound
+SnapshotMetadata. The hold was released only to reject such input in the
+common audit validator, require metadata=None for raw audits, and add
+independent regressions through the helper and both direct constructors.
+The typed State's existing exact metadata comparison remains unchanged.
+The independent regression reproduced the pre-fix ambiguity and now
+passes through both feasible/failure paths in the helper and direct
+constructors. It verifies raw-without-metadata acceptance and matched
+typed acceptance alongside raw-with-metadata and mismatched-typed rejection.
+The narrow delta passed read-only independent review and focused normal/
+optimized replay. The owner and test author each replayed the complete
+revised J suite: **28 checks pass per mode, 56 executions** per full replay.
+Scoped lint/format checks pass. The prior 30 RI-08h and 30 RI-08i checks
+passed in both modes before this narrow correction; they were not rerun.
+No broad RET/G1, registry, accepted-source, other-lane or git work was
+performed for this repair.
+Finite checks supplement, not replace, the written full-domain proof and
+limiting arguments.
+
+Ruff check and format-check pass for both new Python files. All 96 local
+Markdown link targets in the four scoped documents resolve, and the
+six scoped files have no trailing-whitespace or conflict-marker findings.
+All thirty-three previously accepted source SHA256 pins remain unchanged.
+These revised source pins supersede the initial 27-test submission:
+
+| New source | SHA256 |
+| --- | --- |
+| OBSERVATION_STABILITY.md | `ca7e241399b1d4170b8181e42f510438c34951f2b601020e0146034b40bf2c88` |
+| model.py | `6e761e6e107fba9d3415276a6e0b6170e7f3b34441de2133e8c3874cc2099bea` |
+| check.py | `2deb8a90236a51c367c9086d090c9416a49b20473c8b909f26bf816a5339c88d` |
+
+~~~sh
+.venv/bin/python -B docs/validation/t8-q-observation-stability-2026-09-13/check.py
+.venv/bin/python -B -O docs/validation/t8-q-observation-stability-2026-09-13/check.py
+~~~
+
+The coordinator independently accepted and registered the corrected J
+bundle after both audits accepted. In the coordinator's exact staged
+checkout, the 28 new witnesses passed normally (25.128s) and optimized
+(24.971s), loading both declared J sources without skips, errors or drift.
+The coordinator reports full manifest pin/import validation for 18 suites
+and 32 sources, 43 staged registry regressions passing in 2.31s, 64 local
+integration checks passing in 2.56s, and the corrected final seven
+adversarial cases passing in each mode. The registered **384 witnesses
+are cumulative inventory**: the prior 356 with unchanged pins plus J's
+28, not a fresh all-suite replay. These coordinator checks are distinct
+from the historical owner replays above.
+
+Scoped commit/push remains with the coordinator. This owner performed no
+git/index operation and is source-quiet after the acceptance-status update.
+All thirty-six statement/model/check pins are unchanged. The accepted
+predecessor checkpoint is
+8714772534b5407db79e0989c2a526a1c5370afd, not a publication of RI-08j.
+This is the final bounded refinement of the finite-cone branch before
+any separately authorized premise-to-conclusion consolidation. No such
+consolidation, new hardware/control/preparation, postmeasurement law,
+full-QM claim, geometry/gravity promotion or automatic successor starts.
+
+## Historical RI-08i handoff — accepted and published
+
+The following handoff describes the completed RI-08i sitting. The
+coordinator published it in checkpoint 8714772534b5407db79e0989c2a526a1c5370afd;
+its earlier publication-stop statements refer to that sitting.
 
 13 September 2026. **RI-08i ACCEPTED_AND_REGISTERED_BY_COORDINATOR.**
 RI-08h is independently accepted and registered by the coordinator.

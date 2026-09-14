@@ -1,6 +1,6 @@
 # Explicit research check registry
 
-The [registry](research/registry.json) binds seventeen named standalone Q witness
+The [registry](research/registry.json) binds eighteen named standalone Q witness
 suites to their statement documents, premises, limitations and complete local
 executable source sets. The [runner](../scripts/run_research_checks.py) verifies
 those identities and executes only explicitly selected suites. It is separate
@@ -15,7 +15,7 @@ Test counts are descriptive execution metadata, not proof strength.
 
 ## Usage
 
-Run from the repository root with Python 3.11 or later. The runner and the seventeen
+Run from the repository root with Python 3.11 or later. The runner and the eighteen
 registered suites need only the Python standard library.
 
 ```sh
@@ -62,6 +62,7 @@ witness verification. Each suite has a manifest timeout of at most 60 seconds.
 | `cut-closed-completion` | [CUT_CLOSED_COMPLETION.md](validation/t8-q-cut-closed-completion-2026-09-13/CUT_CLOSED_COMPLETION.md) | `check.py`, `model.py` |
 | `reversible-generator` | [REVERSIBLE_GENERATOR.md](validation/t8-q-reversible-generator-2026-09-13/REVERSIBLE_GENERATOR.md) | `check.py`, `model.py` |
 | `terminal-read-observability` | [TERMINAL_READ_OBSERVABILITY.md](validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md) | `check.py`, `model.py` |
+| `observation-stability` | [OBSERVATION_STABILITY.md](validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md) | `check.py`, `model.py` |
 
 Paths in the last column are relative to that row's validation directory. Five
 suites have no local imports. Coherent readout imports both its algebra and
@@ -69,8 +70,9 @@ independent reference; registering its entrypoint alone would be incomplete.
 Controlled context, first-commit quotient, maximal record-domain,
 control-selected qubit, repeatable record instrument, joint recordability,
 repeatability robustness, joint repeatability, cut-closed completion, reversible
-generator and terminal-read observability each import their own local model.
-The only directly imported standard-library modules across these thirty Python files are
+generator, terminal-read observability and observation stability each import
+their own local model. The only directly imported standard-library modules
+across these thirty-two Python files are
 `collections.abc`, `dataclasses`, `fractions`, `itertools`, `math`, `types` and
 `unittest`.
 
@@ -366,6 +368,37 @@ supplied premises: no unknown Hamiltonian, physical time, full QM, geometry,
 rest mass or gravity is identified. The runner and seven-module allowlist are
 unchanged.
 
+The eighteenth registration follows coordinator acceptance and independent
+mathematical/source review of the observation-stability capstone, including
+the corrected raw-candidate metadata boundary. Its three source pins match
+the revised accepted bundle; all seventeen preceding objects are preserved.
+For the same three calibrated terminal-read settings, filtered distance is
+bounded below by the largest full-law TV error and above by the sum of errors
+weighted by inverse-axis column norms. Those coefficients and their sum are
+sharp on the full mathematical domain. Radical constants, safe rational upper
+enclosures and explanatory decimals remain distinct. The proof allows fixed
+interior t; the exact primary fixture still uses t=3/5 and the accepted tilt.
+
+The native raw-distance bound has an unavoidable factor `1/(1-abs(t))`, even
+for bounded raw sources; raw distance is not a probability distance. Axis
+conditioning also diverges as the read approaches either rank-loss boundary.
+Small full-law errors cannot uniformly control rare-cell conditional states,
+and a zero-cell conditional state is undefined. Neither finite deterministic
+budgets nor matching metadata establish calibration, repeated preparation or
+statistical confidence.
+
+A supplied exact feasible candidate certifies nonemptiness and a deterministic
+diameter bound. Failure of that candidate is inconclusive about other
+candidates; no solver, fitting, projection or silent normalization is supplied.
+Typed candidates preserve checked context/history/pending payloads. Raw-matrix
+audits require `metadata=None` and reject attached metadata through every entry
+point; they do not become prepared States. Audit results are not terminal
+continuations or physical operations. The event-probability target corollary
+is algebraic error transfer; binary expectations need the stated factor of
+two. No new observation, reusable instrument, measured application result,
+unknown dynamics, full QM or gravity claim follows. All six direct standard-
+library imports already fit the unchanged seven-module runner allowlist.
+
 Every statement document and executable source has a pinned SHA-256. The
 manifest records a statement summary, explicit premises and limits separately
 from the check entrypoint. Document cross-references and external mathematical
@@ -394,8 +427,8 @@ executable evidence inventory, not a formal proof-dependency graph.
    output. Compare actual loaded sources with the declared source set. A
    conditional import may remain unexecuted: it still must be pinned and is
    listed in `unexecuted_declared_sources`. Static coverage does not claim every
-   branch or source executed. All local modules are loaded in the current seventeen
-   suites' ordinary runs.
+   branch or source executed. The inventory contains eighteen suites; actual
+   source loading is reported separately for each selected run.
 6. Check the manifest, all registered documents/code and runner bytes afterward.
    If registered bytes change, fail the overall result and stop before starting
    later checks. The reported result remains attached to the original snapshots;
@@ -435,7 +468,8 @@ changed statement as interchangeable with the old one.
 The completed controlled-context, first-commit quotient, maximal record-domain,
 control-selected qubit, repeatable record instrument, joint-recordability,
 repeatability-robustness, joint-repeatability, cut-closed-completion and
-reversible-generator and terminal-read-observability handoffs are now registered.
+reversible-generator, terminal-read-observability and observation-stability
+handoffs are now registered.
 Subsequent Q research still
 requires a new independent handoff review before registration.
 Frozen bundles remain untouched; their own capture/replay procedures retain
@@ -453,7 +487,7 @@ timeouts, explicit selection, snapshot execution and absence of cache writes.
 
 This runner regression file participates in ordinary `det8/tests` discovery.
 Its real-registry check is read-only; its execution cases use tiny temporary
-fixtures. It does not implicitly execute the seventeen research suites. The
+fixtures. It does not implicitly execute the eighteen research suites. The
 [RI-15 local-to-joint adapter](validation/t8-q-local-joint-adapter-2026-09-13/ADAPTER.md)
 and its separate coordinator launcher/tests use an explicit alias contract;
 they are not registered here or included in these suite/source/witness totals.
@@ -533,3 +567,24 @@ RI-08i; export parity and both legacy canonical claim JSON digests are unchanged
 Scoped Ruff check/format validation and all 23 guide links pass. Complete
 coordinator replay results belong to the existing review-progress record;
 registration does not change broad claim statuses or physical evidence.
+
+Verification of the reviewed eighteenth registration: all 64 focused checks
+passed (43 registry regressions and 21 claim/summary checks). The complete
+manifest pin/import preflight validates eighteen suites and thirty-two local
+executable sources. The inventory contains 384 finite witnesses: 356 from the
+seventeen earlier suites, whose normal/optimized results and source pins are
+preserved, plus the capstone's 28. This is not a fresh 384-witness all-suite
+replay. Coordinator integration replay is scoped to the new capstone normally
+and with `-O`, complete-manifest preflight and staged registry regressions;
+its results are recorded in review progress.
+
+The manifest SHA-256 is
+`a5d94f2d5451f6810855b129886500afc840bf1ee86b01dd515c98158cf5454f`.
+Removing the new object reconstructs the exact preceding manifest
+`aabf2b1a0a25bbb1511e33ad7e34ce63958e87bf224fa743c4c5b7369390c3c5`.
+All seventeen prior objects and pinned files, the runner/import contract and
+the exporter are preserved. Explicit accepted-artifact references extend
+through RI-08j; export parity and both legacy canonical claim JSON digests
+remain unchanged. Scoped Ruff check/format validation and all 24 guide links
+pass. RI-15 remains separate, and registration changes no broad scientific,
+physical-evidence or support status.

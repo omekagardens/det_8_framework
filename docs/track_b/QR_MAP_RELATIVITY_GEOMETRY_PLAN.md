@@ -3,6 +3,34 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**Conditional observation-stability capstone, accepted and registered:** the
+[RI-08j study](../validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md)
+quantifies the accepted three-setting state reconstruction without adding
+an observation law or operation. The sharp full-domain bound uses the
+inverse-column norms, not just the determinant. Its general-axis constant
+diverges with a*C -> 1 near the YZ-plane blind axis and b*C -> 25/12
+near the X-axis blind direction, where a=|n_x| and b=||n_perp||.
+Exact rank loss at the endpoints of that axis family is distinct from
+poor interior conditioning. Filtered distance controls raw distance by
+1/(1-|t|), with a bounded-source singular counterexample; the composed
+observation/raw coefficient is not claimed jointly sharp. A supplied
+positive candidate can certify feasibility and a diameter under explicit
+deterministic budgets, using proved rational coefficient enclosures.
+Failure of that candidate is inconclusive and invokes no solver or fit.
+Full native payload, matched typed-source metadata and zero cells remain
+intact. Raw-matrix audits require metadata=None; a typed State is required
+to verify context/history binding, without preparing one from a matrix;
+rare-cell conditioned precision needs a positive mass floor. The target
+corollary concerns exact linear event probabilities, not empirical benefit.
+Calibration/state-frame ambiguity, confidence levels, repeated preparation
+and physical operation availability remain open. This is the final bounded
+refinement of this finite-cone branch before any separately authorized
+consolidation. After the narrow raw-metadata repair, RI-08j is independently
+accepted and registered by the coordinator. All 28 checks also pass normally
+and under optimization in the exact staged checkout. The bundle is
+source-quiet pending scoped publication. No automatic
+successor or full-QM/geometry/gravity claim.
+
 **Conditional terminal-read observability result:** the
 [RI-08i study](../validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md)
 separates hidden state directions from a missing read premise. Under

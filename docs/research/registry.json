@@ -615,6 +615,49 @@
         "unittest"
       ],
       "timeout_seconds": 60
+    },
+    {
+      "id": "observation-stability",
+      "statement": "The three calibrated terminal-read setting laws give sharp weighted bounds on filtered state distance, with explicit raw-norm, singular-axis and rare-cell boundaries; an exact supplied feasible candidate certifies nonemptiness and deterministic error-set diameter without fitting or inferring confidence.",
+      "premises": [
+        "Fix known interior |t| < 1 and the accepted L_t native image with four independent positive filtered blocks and unit total-entry mass. Retain the reference, frame, common-X commands and exactly calibrated tilted terminal read; raw native trace is not the normalization mass.",
+        "Compare the full eight-outcome laws at empty, A and AA settings for normalized compatible sources with the same context, full earlier prefix, initial pending word and nominal metadata. These laws are conditional on the supplied snapshot and do not supply repeated preparation or earlier selection probabilities.",
+        "The supplied-candidate contract takes three complete ordered normalized probability tables, exact nonnegative deterministic budgets and one exact positive normalized candidate. Tables need not be exactly compatible with each other. Typed State inputs bind retained context/history/pending metadata; raw-matrix diagnostics require metadata=None.",
+        "The universal argument allows fixed interior t. The exact primary fixture remains t=3/5 with the accepted tilted axis and existing commands; other polarizations/axes are mathematical diagnostics. No new primary observation or postmeasurement operation is added."
+      ],
+      "limits": [
+        "The filtered distance is d_F=(1/2) sum_alpha ||Delta sigma_alpha||_1; raw d_N=(1/2)||Delta N||_1 is not a probability distance or uniformly at most one. With b_k the Euclidean column norms of the inverse backward-axis matrix, max epsilon_k <= d_F <= sum b_k epsilon_k <= C max epsilon_k. Coefficients and C are sharp on the whole mathematical domain, not proven attainable by available preparations.",
+        "Exact radical coefficients are distinguished from safe rational upper enclosures and explanatory decimals. Full rank can coexist with arbitrarily poor axis conditioning; at a=|n_x| -> 0, aC -> 1, while at b=||n_perp|| -> 0, bC -> 25/12. Finite witnesses do not replace the written full-domain or limit proofs.",
+        "The native bound d_F/(1+|t|) <= d_N <= d_F/(1-|t|) has unavoidable endpoint factors, including bounded-raw-source witnesses. Joint sharpness of the composed observation-to-native coefficient is not claimed. At polarized endpoints dark differences remain invisible and faithful inversion fails.",
+        "A passing supplied candidate proves nonempty feasibility and bounds its diameter by 2 sum b_k eta_k in d_F, or by the certified rational enclosure divided by 1-|t| in d_N. These are valid bounds, not generally sharp diameters. A failed candidate or malformed input is inconclusive about existence of another candidate; no search, fitting, clipping, projection, normalization or infeasibility solver is performed.",
+        "Raw candidates with attached metadata are rejected through all audit entry points; matching context/history requires a typed State. Audit objects preserve exact tables, budgets, errors and candidate payload but are neither prepared States nor terminal continuations, and they do not independently certify empirical provenance or calibration.",
+        "Full-law error cannot uniformly control a cell-conditioned state as its mass vanishes; a positive cell-mass lower bound is required and the zero-cell conditional state is undefined. Unknown read-frame and source rotations commuting with the commands remain jointly ambiguous. Declared budgets are not confidence levels or substitutes for sampling, calibration and repeated preparation.",
+        "A linear-target corollary transfers event-probability budgets through explicit coefficients only. Binary expectation differences can incur twice the TV budget, and general law functionals use coefficient oscillation. No measured application performance, unknown dynamics, physical time, reusable instrument, full QM, native geometry, rest mass or gravity is established."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md",
+        "sha256": "ca7e241399b1d4170b8181e42f510438c34951f2b601020e0146034b40bf2c88"
+      },
+      "entrypoint": "docs/validation/t8-q-observation-stability-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-observation-stability-2026-09-13/check.py",
+          "sha256": "2deb8a90236a51c367c9086d090c9416a49b20473c8b909f26bf816a5339c88d"
+        },
+        {
+          "path": "docs/validation/t8-q-observation-stability-2026-09-13/model.py",
+          "sha256": "6e761e6e107fba9d3415276a6e0b6170e7f3b34441de2133e8c3874cc2099bea"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "math",
+        "unittest"
+      ],
+      "timeout_seconds": 60
     }
   ]
 }

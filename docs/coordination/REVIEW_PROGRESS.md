@@ -6,13 +6,13 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08i | **Bounded handoffs accepted and registered.** RI-08i classifies terminal observation ranks and minimal three-setting full-state reconstruction under explicit read calibration/availability. Both independent audits, 94 additional exact probes and all 30 new checks in each staged replay pass. | Accepted checkpoint `8714772` is pushed and independently verified. RI-08j is assigned as one observation-stability capstone, then this finite-cone branch stops for consolidation. |
+| QR coordination / RI-05–08j | **Bounded handoffs accepted and registered.** The stability capstone passed both independent audits, the requested provenance repair, 63 exact proof probes, 7 adversarial cases per mode and all 28 new staged checks per mode. | Publish the accepted capstone checkpoint, then assign the planned conditional observability/stability synthesis. No further finite-cone refinement is planned. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
-| RI-03 research registry | **Accepted for seventeen suites.** Root replayed the exact staged source checkout in both modes: 356 finite witnesses, all 30 declared executable sources loaded, no skips or observed drift. The sixteen prior objects and runner are preserved. Forty-three staged registry regressions and 64 local registry/claim checks pass. | Review future bundles before registration. RI-15's 20 witnesses remain under its separate source contract; universal proofs remain distinct from finite verification. |
+| RI-03 research registry | **Accepted for eighteen suites.** The cumulative inventory is 384 witnesses /32 executable sources: prior 356 verified witnesses with unchanged pins plus 28 new capstone checks passed normally and optimized. Complete manifest preflight, 43 staged registry regressions and 64 local integration checks pass. | Preserve historical execution boundaries; 384 is not a new all-suite replay. RI-15 remains under its separate source contract. |
 | RI-04 current mathematical certificates | **Accepted.** Eight research modules and narrow legacy groups reconciled; coordinator reran 141 focused cases successfully. Implementer reports 80 impacted legacy checks with no failures/errors/skips. MODEL_CARD current O1/O2 assessment is reconciled; Previous remains historical. | RI-11 is now accepted separately; general reconstruction/physical premise selection remains open. |
 | RI-11–12 applied work | **RI-11, RI-12 exact contract and synthetic comparator fixture accepted.** Coordinator replay passed 236 focused cases: 34 new comparator, 108 identifiability, 54 applied/consumer and 40 registry. Model-conditional Gaussian oracles, exact observed-row/source bindings, held-out non-assimilation and byte-verified replay pass. | User's measured instrument/dataset choice remains open. Establish target, tolerance and evaluation objective before a measured pilot; coordinate RET ownership before source changes. |
-| RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08i and the accepted conditional local-to-joint interface. The separate claim endpoint lists seventeen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
+| RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
 | Remote checkpoints | Latest accepted research checkpoint: [8714772](https://github.com/omekagardens/det_8_framework/commit/8714772534b5407db79e0989c2a526a1c5370afd), pushed to `origin/ret` and independently verified against the full remote ref. It follows the first research/adapter checkpoint `faad1e9` and publication record `99157c1`. Root owns git/index operations. | Continue reviewed scoped commits and pushes. Preserve separately deferred local baseline, active QR work and unrelated core/RET/evidence files. |
 
@@ -1648,3 +1648,129 @@ identifiability contract without changing application or RET sources.
 After the capstone, the next decision is a single premise-to-conclusion
 consolidation and the retained-word first-commit gap, with measured
 instrument/data/objective choices still explicitly open.
+
+**RI-08j capstone — independent acceptance and provenance repair**
+
+QR delivered a source-stable observation-stability theorem, exact model and
+27-test suite. Root read the complete statement, compared inherited code with
+the accepted RI-08i source, and inspected every new certificate path and the
+QR map/handoff diffs. The mathematical reviewer accepted the sharp constants,
+axis limits, native norm comparison, singular and rare-cell witnesses,
+unknown-calibration ambiguity and deterministic feasible-set diameter argument.
+That reviewer passed **63 independent exact probes in 2.607 s** on the initial
+submission. The theorem and numerical constants have not changed since.
+
+Root and the implementation auditor identified one provenance ambiguity:
+a raw matrix could carry SnapshotMetadata that the certificate never bound
+to a typed source. This did not invalidate the diameter theorem, but could
+misrepresent the audit's history contract. QR repaired the common raw-candidate
+validator to reject all non-None metadata. Matching context, complete prefix
+and pending word now requires the typed State. The raw path remains an
+explicit mathematical fixture and never manufactures a prepared state.
+
+The new 28th regression reproduces the old acceptance and checks the factory
+and direct FeasibleWitness/CandidateFailure constructors, covering successful
+and failing candidates: unannotated raw matrices remain valid, annotated raw
+matrices refuse, matched typed inputs succeed and mismatched typed metadata
+refuses. The note's section 5 and current handoff/maps state this rule.
+No predecessor source or theorem was modified. Owner and test-author replays
+passed all **28 revised checks in each mode**; owner times were 25.446 s and
+25.381 s. Scoped lint/format, 96 local links and whitespace checks passed.
+The earlier 27-check submission and H/I replay counts are historical, not the
+final capstone inventory.
+
+The full-source auditor inspected the repair and passed **7 independent
+adversarial cases in each mode** against captured final source bytes, with
+`-I -S -B` and additionally `-O` for optimized execution. Cases included a
+positive off-image kernel preserving coarse weights, one-shot inputs, deep
+input detachment, a 10^-400 rare cell, nested provenance mismatch, distinct
+per-setting budgets and exact coefficient squares. No failure, skip, error
+or source drift remained. Those cases are separate audit evidence, not new
+registered witnesses. Root accepts the corrected bounded source contract.
+
+| Final RI-08j artifact | SHA-256 |
+|---|---|
+| `OBSERVATION_STABILITY.md` | `ca7e241399b1d4170b8181e42f510438c34951f2b601020e0146034b40bf2c88` |
+| `model.py` | `6e761e6e107fba9d3415276a6e0b6170e7f3b34441de2133e8c3874cc2099bea` |
+| `check.py` | `2deb8a90236a51c367c9086d090c9416a49b20473c8b909f26bf816a5339c88d` |
+
+The sharp theorem compares full eight-outcome laws and filtered block trace
+norms: `max epsilon_k≤d_F≤Σb_k epsilon_k`. Each inverse-column coefficient
+and their common-error sum are attained on the full positive four-cell
+mathematical domain. The exact general-axis formula distinguishes full-rank
+poor conditioning from actual blind directions. Native reconstruction obeys
+`d_F/(1+|t|)≤d_N≤d_F/(1-|t|)`; bounded raw states prove the endpoint factor
+cannot be removed. The composed coefficient is valid but not claimed jointly
+sharp, and raw kernels are not trace-one probability states.
+
+Certified rational enclosures of the radical coefficients support an explicit
+error-budget audit. A supplied feasible positive source proves nonemptiness
+and a diameter bound; a failing candidate is inconclusive. Inconsistent exact
+tables can have a feasible source under nonzero budgets. There is no fitting,
+clipping, inferred infeasibility or confidence level. Zero cells and all native
+entries remain intact; rare-cell conditional precision needs a positive mass
+floor. Unknown calibration, preparation availability and measured advantage
+remain independent obligations.
+
+The capstone closes the assigned finite-cone refinement branch. The planned
+consolidation will state one conditional finite-record observability/stability
+argument, without a new executable fixture. Known A/A² matrices suffice for
+its finite theorem; the stronger continuous-group classification remains a
+separate proposition. The construction route and RI-15 adapter must preserve
+all domain/range/history qualifications. RI-07's finite-label first-commit
+result remains separate from the unproved extension to unbounded retained
+command words. Source quiet continues through registration and publication;
+root will make the already authorized consolidation assignment afterward.
+
+**Eighteenth registration — scoped staged-checkout verification**
+
+The eighteenth explicit registry object binds the final corrected capstone
+note/model/check. Removing it reconstructs the preceding manifest
+`aabf2b1a0a25bbb1511e33ad7e34ce63958e87bf224fa743c4c5b7369390c3c5`
+exactly. All seventeen earlier objects and their source/statement bytes remain
+unchanged. The new suite declares six direct standard-library imports,
+including `math.isqrt`; the existing seven-module allowlist already permits
+them. The runner and exporter are unchanged.
+
+The six publication source paths—three J artifacts and three registry files—
+were captured from the index into an isolated checkout. Initial tested tree:
+`7a1c417ca6e2ec1d6e539d2e2c73c00f8a4e28a2`. Under `-I -S -B`, the full
+manifest preflight passed with **18 suites and 32 declared executable sources**.
+The coordinator then explicitly selected only the new observation-stability
+suite from that checkout:
+
+| Mode | New witnesses | Loaded new sources | Result |
+|---|---:|---:|---|
+| Normal | 28 | 2 | Passed; 25.128 s |
+| Optimized | 28 | 2 | Passed; 24.971 s |
+
+There were no errors, failures, skips, expected failures, unexecuted declared
+J sources, observed registered-source changes or runner change. The same
+staged checkout passed **43 registry regressions in 2.31 s**. The integrator
+also passed **64 local registry/claim checks in 2.56 s**, export parity,
+scoped lint/format and 70 guide/generated-summary links. Root checked 161
+local links across the coordinator, QR and capstone documents with no missing
+target. All six integration reservations are released.
+
+The **384-witness total is the cumulative accepted inventory**: the prior
+356 passed normally and optimized at their unchanged source identities,
+plus these 28. This cycle did not rerun all 384 or count repeat executions as
+independent results. Neither the separate RI-15 witnesses nor additional
+review probes are added. The staged research closure again needs no local
+unpublished core/RET/claim/application source. Source acceptance does not
+recertify the whole checkout or close a release/physical claim.
+
+| Eighteenth integration source | SHA-256 |
+|---|---|
+| `docs/research/registry.json` | `a5d94f2d5451f6810855b129886500afc840bf1ee86b01dd515c98158cf5454f` |
+| `det8/tests/test_research_registry.py` | `7e03399135aac8effa890692fcf8a2636fc718bad85dcd2031f13abc492c3a65` |
+| `docs/RESEARCH_CHECKS.md` | `8ee8e516b0a650ca221c8e07e6e5eb9b233579df8aa47d96ce6306eccc47c43c` |
+| Local `det8/claims.py` | `a96028a7c731ba1ab53c46d78ac872348155289b3123f6879d2e18a15108872a` |
+| Local `det8/tests/test_claim_boundaries.py` | `786746967daef985c64f5e61478f844f18bb991045853638251d4a52475091a0` |
+| Local `docs/CLAIM_REGISTRY.md` | `2c974180402c491c867b663f2487098484b232896b8a8d385f78b8fededc72d5` |
+
+Both legacy canonical claim JSON outputs remain identical to their preceding
+accepted digests. The claim implementation/generated reference remain part
+of the separately deferred local baseline; the publication scope is the
+self-contained research closure and reviewed coordination/QR documents.
+Only Markdown status/acceptance changes follow the tested source capture.
