@@ -708,3 +708,37 @@ argument now needs no further repair or repetitive audit. A separate next
 contract should test a new composition premise or connect known scalar values
 to a deterministic inference/refusal condition. It must keep unavailable
 apparatus, measured calibration, global axioms and full-QM selection separate.
+
+
+## 14. Accepted scalar-value/error inference contract — RI-23
+
+The [coordinator contract](SCALAR_VALUE_ERROR_CONTRACT.md) gives n² fixed PSD
+rank-one tests with an explicit Hermitian inverse. Actual values determine
+the kernel; nonnegativity of that finite menu alone does not force PSD. Its
+normalized three-alternative example has every selected value in [0,1] and
+a negative eigenvalue. This separates reconstruction from RI-20's sign-only
+criterion without granting new preparation or readout availability.
+
+Finite deterministic intervals define a possibly empty bounded compatibility
+polytope of normalized weak-positive Hermitian kernels. The proved Frobenius
+radius also bounds operator error. After independently verifying nonemptiness,
+a positive lower matrix bound certifies every compatible kernel PSD; a strict
+negative-direction upper bound certifies every compatible kernel non-PSD.
+These are sufficient, potentially conservative tests. Invalid data, proven
+infeasibility, unresolved feasibility and nonempty inconclusive results remain
+distinct. Two opposite-status witnesses establish actual ambiguity. No
+normalization repair, eigenvalue clipping or sampling-confidence claim follows.
+
+The acquisition gap is substantive: on the entire raw total-entry-normalized
+PSD domain, every fixed mass-dominated positive scalar effect is a multiple
+of total-entry mass. Thus a full informationally complete catalogue cannot
+all be fixed bounded outcome probabilities there. A restricted source domain,
+different normalization/encoding or justified scalar acquisition model remains
+necessary. Neither RI-08i's supplied L_t source nor RI-18's rank-two original
+input law supplies this catalogue on unrestricted initial kernels.
+
+Three independent complete reviews and coordinator exact example arithmetic
+passed. This is an accepted mathematical data/refusal contract, with no new
+executor, measured dataset, calibration model, registered witnesses or RET
+work. RI-22 has returned source-quiet and awaits separate coordinator
+acceptance and publication.

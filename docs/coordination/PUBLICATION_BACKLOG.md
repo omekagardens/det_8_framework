@@ -240,3 +240,19 @@ Root then dispatched the four-file RI-22 composition-independence countermodel
 proof/design. Its active paths are excluded from this publication record.
 All 69 accepted held identities remain stable; a complete RI-22 return needs
 its own independent review and introduces no actual composition-source change.
+
+
+**RI-23 accepted coordinator inference contract — publication candidate**
+
+The [scalar-value/error contract](SCALAR_VALUE_ERROR_CONTRACT.md) passed three
+independent complete reviews and coordinator exact example arithmetic. Its
+fixed-catalogue inverse and sufficient deterministic certificates require a
+justified forward law and verified compatibility; the bounded-effect theorem
+prevents treating the unrestricted catalogue as an available probability
+instrument. No measured benefit or executable is claimed.
+
+The candidate is exactly five Markdown files: the contract, root plan,
+operational premise ledger, progress and this backlog. The 69 held accepted
+identities, protected original/application material and unrelated working
+baseline remain unchanged. The four returned RI-22 QR files are excluded
+until their separate coordinator acceptance and publication.

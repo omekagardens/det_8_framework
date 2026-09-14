@@ -2893,3 +2893,32 @@ and its explicit unaccepted-result boundary. The three coordinator metadata
 files pass all 43 local links and scoped whitespace checks, with all 69 held
 identities and unrelated content unchanged. QR's four active paths remain
 excluded from this checkpoint.
+
+
+**RI-23 scalar-value/error contract independently accepted**
+
+At this cycle's entry, HEAD and origin/ret were the preceding dispatch
+checkpoint `d9ac16d4b4e08cd5b5d2fec16d903f9af6441df7`; the index was empty.
+While QR completed RI-22, root developed the independent
+[scalar-value/error contract](SCALAR_VALUE_ERROR_CONTRACT.md). It supplies
+an explicit fixed-catalogue inverse, deterministic reconstruction radius,
+normalization contradiction test and feasibility-guarded universal positivity
+certificates. Exact examples distinguish PSD, non-PSD, true ambiguity and
+incompatible normalization. The full-domain bounded-effect obstruction keeps
+acquisition and calibration as missing premises.
+
+All three independent coordinator reviewers accepted the complete draft at
+SHA256 `a4be8c09fb3aed57a1db0417faf308413eb833e661f9f8764b58894e292e4b37`.
+The accepted document is SHA256 `f82f3ab5124e232f95ed6c41a40828a8ca0330df2df998c58267c1f8ddd991df`.
+Only acceptance wording and the clarification “a violation of (9)” changed
+after review. Root's temporary exact Gaussian-Fraction arithmetic verified
+the displayed catalogue, Boolean positivity, interval witnesses, squared
+radius certificates and one-dimensional conservative case. This is named
+example corroboration, not a new executor or registered witness count.
+
+Publication is scoped to five Markdown paths: this progress record, root
+plan, publication backlog, operational premise ledger and the new contract.
+All 69 held accepted identities, six protected identities, original review,
+application corollary and unrelated baseline remain protected. QR has now
+returned RI-22 source-quiet, but its four submitted files are excluded from
+this checkpoint and undergo separate full-note review.
