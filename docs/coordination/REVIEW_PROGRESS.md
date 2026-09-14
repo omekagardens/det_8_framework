@@ -8,7 +8,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 |---|---|---|
 | RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; the separately scoped RI-26 model is also independently accepted. |
 | RI-26 observer/signal model | **Independently accepted and published in verified `0fde8b2`.** Three final reviews passed. Root passed 51 isolated tests per mode, reproduced 52 identical worked exports and reconciled 331 independent exported-data checks. Eleven bundle identities are recorded below. | Preserve its eleven source identities and all 87 prior held identities. No successor or actualization-to-geometry rule is supplied. |
-| RI-27 published-model reproduction | **Accepted.** Independent inventory/packaging/recipe reviews and clean fixed-commit archive replay passed. Separate manifest covers 23 model files; exact extraction covers those plus checker and manifest. | Publish the five-file documentation/inventory candidate; preserve all 98 accepted artifacts. No new model or QR successor. |
+| RI-27 published-model reproduction | **Accepted and published in verified `5e7f2f7`.** Independent inventory/packaging/recipe reviews and clean fixed-commit archive replay passed. Separate manifest covers 23 model files; exact extraction covers those plus checker and manifest. | Preserve the guide/manifest identities and all 98 prior accepted artifacts. No new model or QR successor. |
 | QR coordination / RI-05–08j and RI-16–19 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. RI-18 is published in verified `ba12958`. RI-19 proof/design is accepted: full classification, exact admission obstruction, matched-law stability and observation-rank results, with independent theorem/API review and 193 root native assertions. Published in independently verified `f6b8f18`; approximate execution remains unimplemented. Consolidation and operational-premise/application direction are the next coordinator decision. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
@@ -17,7 +17,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | RI-18 now supplies one complete earlier-weight/tree orchestration; general interoperability remains separate. The ledger records its supplied premises and rank-two limit. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest complete experiment: [0fde8b2](https://github.com/omekagardens/det_8_framework/commit/0fde8b2f7a3b00adb4cb620621801c80a32150f5), supplied observers. Primary qubit model: `9f463f2`; dispatch metadata: `c20ca2d`; durable inventory/checker: `db803fb`. Earlier source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted source identities and record scoped publication. No active QR source reservation or automatic successor remains. |
+| Remote checkpoints | Latest reproduction handoff: [5e7f2f7](https://github.com/omekagardens/det_8_framework/commit/5e7f2f7566b0110dbad50d193b9af04bedc836b6). Complete observer model: `0fde8b2`; qubit model: `9f463f2`; earlier publication metadata: `2529bfd`. Previous source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted source identities and record scoped publication. No active QR source reservation or automatic successor remains. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -3486,3 +3486,20 @@ The five-path candidate contains the two new companions and three coordinator
 records. Calibrated measured W, practical RET prerequisites and any explicit
 actualization-to-geometry proposal remain open. There is no new physical
 claim, dataset import, registry change or QR implementation reservation.
+
+
+**RI-27 remote publication verified**
+
+[5e7f2f7566b0110dbad50d193b9af04bedc836b6](https://github.com/omekagardens/det_8_framework/commit/5e7f2f7566b0110dbad50d193b9af04bedc836b6),
+tree `e950ac2b80244bacca4e2538a924ddf07bceaa4e`, publishes exactly the five-file
+accepted guide/inventory candidate. Every staged path and byte matched its
+manifest. Preflight passed 76 local Markdown targets, 98 held predecessor
+identities, six protected identities and 2,007 unrelated file versions.
+Normal push succeeded; separate remote lookup returned the full commit.
+The index was empty afterward.
+
+This final three-Markdown status checkpoint records the verified publication
+without changing the accepted guide, manifest, checker, models or historical
+inventory. No new tests or research are run for that administrative update.
+QR has no new source assignment; measured/application/feedback-law dependencies
+remain as documented.
