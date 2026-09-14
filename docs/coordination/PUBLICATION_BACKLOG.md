@@ -256,3 +256,24 @@ operational premise ledger, progress and this backlog. The 69 held accepted
 identities, protected original/application material and unrelated working
 baseline remain unchanged. The four returned RI-22 QR files are excluded
 until their separate coordinator acceptance and publication.
+
+
+RI-23 is published in independently verified
+[0410ccd3e1c19e39c0c991110042e5319f524c1b](https://github.com/omekagardens/det_8_framework/commit/0410ccd3e1c19e39c0c991110042e5319f524c1b),
+tree `e1d9ae7775d95e4207d0680bdfaf3fe991636bff`. Its five staged documents
+matched the reviewed candidate; 103 local links and preservation checks
+passed. The normal push and independent origin/ret lookup succeeded.
+Its accepted contract remains unchanged in the separate RI-22 checkpoint.
+
+**RI-22 conditional countermodel accepted — publication candidate**
+
+Three independent coordinator reviews accepted the complete returned proof,
+primary-premise comparisons, examples and summaries. Publication is exactly
+eight Markdown paths: the new composition-independence note, three QR summaries,
+root plan, operational premise ledger, progress and this backlog. Only
+reversible administrative acceptance/current-status wording changes the four
+submitted QR documents; the mathematical body is unchanged. All 70 held
+predecessor/design/synthesis/contract identities and unrelated baseline remain
+preserved. No executor, registry entry, core/RET work, physical law or global
+axiom is adopted. QR's reservation is released with no automatic successor.
+A named domain/acquisition/composition interface is the next dependency.

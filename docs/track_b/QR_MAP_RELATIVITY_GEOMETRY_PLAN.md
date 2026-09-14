@@ -3,6 +3,28 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**RI-22 composition-independence countermodel, proof/design only:** the
+[new note](../coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md) locates a
+missing premise upstream of RI-20/21. An alternative associative product on
+Re(D)>=0 kernels retains scalar rectangle independence and whole-carrier
+complex marginals while omitting the -Im(D) tensor Im(E) term of ordinary
+tensor multiplication. It admits non-PSD kernels despite closure and the
+fixed signed seed. Full event-pair multiplicativity plus biadditivity fixes
+ordinary tensor entries; those stronger premises are not forced by the
+listed scalar requirements. Even complex bilinearity is insufficient.
+Under star the RI-21 witness gives m!det(Re(D)_I), not m!det(D_I), so the
+accepted theorem is unchanged. The class has invisible imaginary lineality,
+nonfaithful mass and only constant normalized mass-dominated effects; it is
+not a faithful operational quantum theory. Richer complex controls can
+exclude it, but current narrow QR lifts do not supply them globally on this
+class. No implementation, physical independence law or global axiom is adopted.
+Temporary exact arithmetic and three independent complete reviews passed;
+all 69 held identities match. Three complete coordinator reviews accepted
+the conditional proof/design. Full QM,
+native F/L, kinematic geometry, physical mass and gravity remain separate.
+Option B, Status M and the primitive-input test stay unchanged; no automatic
+successor or separate application implementation is launched.
+
 **RI-21 finite-copy witness, conditional proof only:** the
 [new note](../coordination/QR_FINITE_COPY_WITNESS_PLAN.md) replaces an
 explicitly tailored all-vector probe family with one exact signed seed and at most n

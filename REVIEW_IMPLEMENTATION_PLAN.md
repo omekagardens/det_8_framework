@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is published in verified `ba12958`, independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. RI-19 interface-robustness proof/design is published in verified `f6b8f18` and independently accepted; its compatible-branch classification, exact observation rank and full-law stability bounds are complete. RI-20 composition-premise/probe audit is independently accepted and published in verified `0bd4d46`: the exact normalized adequacy criterion is proved, while native admission/composition premises remain open. The cited coordinator synthesis is published in verified `5a73cef`. RI-21 is independently accepted and published in verified `14eba18`: one fixed signed seed and at most n candidate copies give a complete principal-minor event criterion under supplied preparation/composition premises. No approximate executor is assigned. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
+Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is published in verified `ba12958`, independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. RI-19 interface-robustness proof/design is published in verified `f6b8f18` and independently accepted; its compatible-branch classification, exact observation rank and full-law stability bounds are complete. RI-20 composition-premise/probe audit is independently accepted and published in verified `0bd4d46`: the exact normalized adequacy criterion is proved, while native admission/composition premises remain open. The cited coordinator synthesis is published in verified `5a73cef`. RI-21 is independently accepted and published in verified `14eba18`: one fixed signed seed and at most n candidate copies give a complete principal-minor event criterion under supplied preparation/composition premises. RI-22 is independently accepted: scalar independence and complex marginals leave the ordinary event-pair tensor law undetermined. RI-23 is accepted and published in verified `0410ccd`: exact scalar reconstruction and deterministic certificates retain the acquisition gap. No automatic QR successor or approximate executor is assigned. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 has returned source-quiet for independent coordinator review of a concrete alternative composition law to show which weaker scalar-independence premises leave ordinary tensor factorization undetermined. No approximate executor is assigned. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 is independently accepted and source-quiet; its explicit countermodel proves the listed scalar-independence premises leave ordinary tensor factorization undetermined. Its reservation is released. A named premise/acquisition interface is required before another QR assignment; no automatic executor or successor is assigned. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -50,8 +50,8 @@ Active file reservations following the first implementation cycle:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-22 only: new `docs/coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md`, plus `docs/coordination/QR_HANDOFF.md`, `docs/track_b/QR_MAP.md` and `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md`. Countermodel proof/design only; all 69 accepted statement/source/design/synthesis identities remain held. |
-| Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/PUBLICATION_BACKLOG.md`, maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md`, and new `docs/coordination/SCALAR_VALUE_ERROR_CONTRACT.md` for RI-23. RI-23 is independently accepted as conditional proof/design and awaits its scoped publication. RI-22 has returned source-quiet; its four files remain excluded from this coordinator checkpoint until separate acceptance. The original review, published synthesis, application corollary and accepted executable sources remain unchanged. |
+| QR task | No active source reservation. RI-22 is independently accepted and returned source-quiet. Its mathematical body and the 70 previously accepted statement/source/design/synthesis/contract identities remain held; root owns administrative acceptance and publication. |
+| Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/PUBLICATION_BACKLOG.md`, maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md`, and administrative acceptance/publication of the four returned RI-22 documents. RI-23 is published in verified `0410ccd` and its accepted contract remains unchanged. This checkpoint is exactly eight Markdown files; no source or executor is assigned. The original review, published synthesis, application corollary and accepted executable sources remain unchanged. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -127,7 +127,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-19 | Robust admission across the local-to-joint interface | QR design/proof; coordinator acceptance | **Conditional proof and design accepted.** Complete C→C0 branch classification, exact defect/descent/ideal-limit criteria, near-ideal admission obstruction, full-law TV bounds and actual suffix/initial observation ranks passed mathematical/API review. Root corroborated the native map with 193 exact assertions. An independently reviewed application corollary proves target-specific inverse/error lower bounds. These are mathematical results; new approximate prefix/adapters remain unimplemented, with no executor or registry assignment. |
 | RI-20 | F3: composition premises and probe adequacy | QR proof/audit; coordinator acceptance | **Conditional theorem and premise audit accepted.** Three independent coordinator reviews accepted the complex test-cone iff, normalized separation converse, resource constructions, countermodels and source ledger. The known class-containment theorem is credited; DET-native admission/composition and full QM remain open. Proof only, no executor or new registry count. |
 | RI-21 | Constructive finite-copy strong-positivity witness | QR proof/design; coordinator acceptance | **Conditional finite-copy theorem accepted.** Three independent coordinator reviews accepted the Boolean permutation event, principal-minor iff, whole-carrier padding, exact resource counts and seven examples. One fixed seed and at most n identical independent candidate copies suffice for the complete finite catalogue. Admission, the tensor law and event positivity remain supplied; no executor, minimality, noisy precision or full-QM claim. |
-| RI-22 | Scalar independence versus event-pair composition | QR proof/design; coordinator acceptance | **Assigned after verified RI-21 publication.** Prove or correct the explicit Re(D)≥0 composition countermodel, its scalar independence/full marginal/coarse-graining properties, and its failure of ordinary event-pair factorization. Preserve lineality, unavailable complex controls and nonlinear witness limits. This is a test of weaker premises, not a new physical law or source replacement. |
+| RI-22 | Scalar independence versus event-pair composition | QR proof/design; coordinator acceptance | **Conditional countermodel accepted.** Three independent coordinator reviews accepted the [complete note](docs/coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md), complex-bilinear extension, full marginals, scalar independence and separate real-map naturality. Imaginary lineality and bounded-effect collapse delimit its operational meaning. Full event-pair factorization remains a stronger premise; no physical replacement law, executor or full-QM inference follows. |
 | RI-23 | Scalar values and deterministic positivity certificates | Coordinator, independent review | **Conditional proof/design accepted.** The [scalar-value contract](docs/coordination/SCALAR_VALUE_ERROR_CONTRACT.md) proves the fixed-catalogue inverse, deterministic radius and sufficient universal PSD/non-PSD certificates after verified feasibility. Three independent reviews and exact example arithmetic passed. The full-domain bounded-effect obstruction leaves acquisition/calibration explicit. No measured dataset, executor, RET integration or physical availability is assumed. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
@@ -507,13 +507,13 @@ measured pilot. Return independent proof/premise review and exact four-file
 identities at a source-quiet handoff; stop for coordinator acceptance. The
 finite-copy result is not accepted in advance and no executor is assigned.
 
-**RI-22 returned assignment — scalar independence and composition law**
+**Historical RI-22 assignment — now independently accepted**
 
 Root dispatched this proof/design after independently verifying RI-21 publication
 at `14eba182f6d7f5ef3d8b709a9bb810403b0d4c19`. Two independent preliminary
-reviews accepted the candidate construction; its complete returned note still
-requires separate review. QR has returned its four documents source-quiet;
-coordinator acceptance remains pending in this checkpoint.
+reviews accepted the candidate construction. The complete returned note has
+now passed three independent coordinator reviews and is conditionally accepted.
+The following records the completed assignment; its reservation is released.
 
 Let D=R+iJ, with R real symmetric PSD, J real antisymmetric and total-entry
 mass one. For E=S+iK define D star E=R tensor S+i(J tensor S+R tensor K).
@@ -546,6 +546,22 @@ four-file identities, and stop at a source-quiet handoff. Supplementary small
 exact arithmetic is allowed; no executor, registry entry, dependencies,
 predecessor replay, measured pilot, core/RET work or automatic successor.
 The known-scalar-value/error contract remains a separate application option.
+
+**Current premise/acquisition decision after RI-22 and RI-23**
+
+The proof cycle is complete at its stated conditional boundaries. Resume QR
+for a named interface with its admitted domain, calibrated bounded outcomes,
+independent preparation assumptions and an explicit choice of whether full
+event-pair composition is adopted or independently justified. The accepted
+countermodel rules out deriving that law from the weaker scalar requirements;
+the scalar-value contract does not supply a physical acquisition mechanism.
+No additional operation catalogue or executor is automatically assigned.
+
+This is a dependency for the next QR proof target, not completion of the
+whole DET program. A measured application still requires the concrete source,
+question and error/cost requirements below. The coordinator retains recurring
+follow-through for new evidence and other authorized unblocked work, while
+accepted results and the RET lane remain unchanged.
 
 **Application decision**
 

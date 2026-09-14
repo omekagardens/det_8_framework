@@ -740,5 +740,40 @@ input law supplies this catalogue on unrestricted initial kernels.
 Three independent complete reviews and coordinator exact example arithmetic
 passed. This is an accepted mathematical data/refusal contract, with no new
 executor, measured dataset, calibration model, registered witnesses or RET
-work. RI-22 has returned source-quiet and awaits separate coordinator
-acceptance and publication.
+work. RI-22 subsequently passed separate coordinator acceptance, recorded below.
+
+
+## 15. Accepted composition-independence countermodel — RI-22
+
+The [complete note](QR_COMPOSITION_INDEPENDENCE_PLAN.md) proves that the
+class D=R+iJ, R real PSD and J real antisymmetric, is closed under
+D star E=R tensor S+i(J tensor S+R tensor K). It preserves normalized
+weak positivity, associativity, permutation covariance, unit, separate
+affinity, full complex whole-carrier marginals, scalar rectangle independence
+and separate real-congruence naturality. Even complex bilinearity is
+insufficient to exclude it: the transpose-based extension is complex bilinear
+and associative. Partition maps preserve mass but are not the only such maps.
+
+The missing ordinary-product term is −J tensor K. Full event-pair rectangle
+multiplication fixes ordinary entries by singleton pairs and biadditivity;
+the listed scalar requirements do not. The unchanged RI-21 parity event
+therefore tests |I|!det(R_I) under star, giving Di +1/2 instead of −3/2.
+This alters a supplied premise and does not refute RI-20/21. The class admits
+all individual normalized complex PSD kernels, but Q star Q can be non-PSD;
+it does not preserve the ordinary quantum composite subtheory.
+
+Imaginary lineality makes every positive scalar functional ignore J. Full
+Boolean weights recover only R; mass-dominated effects collapse further to
+aM. Mass is nonfaithful and a Boolean weight can exceed total mass, so no
+faithful operational theory or recorded-probability interface is supplied.
+An exact normalized complex-unitary counterexample shows that richer global
+controls would exclude this class, but current narrow QR lifts do not grant
+that availability on a different pre-PSD domain.
+
+Three independent coordinator proof, primary-source and project/application
+reviews accepted the full note and summaries. QR's reported 66 exact checks
+are supplementary; root did not rerun them or alter a registered count.
+Only reversible administrative acceptance/current-status wording differs
+from the reviewed submission. PairKernel.compose and accepted instruments
+remain unchanged. The next substantive QR step requires a named operational
+interface or a justified stronger premise; none is globally adopted here.

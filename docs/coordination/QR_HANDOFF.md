@@ -1,4 +1,99 @@
-# QR research handoff — finite-copy witness with one fixed seed
+# QR research handoff — scalar independence and composition countermodel
+
+14 September 2026 UTC. **RI-22 CONDITIONAL_COMPOSITION_COUNTERMODEL;
+INDEPENDENTLY_REVIEWED; COORDINATOR_CONDITIONAL_PROOF_ACCEPTED.**
+The sole new artifact is
+[QR_COMPOSITION_INDEPENDENCE_PLAN.md](QR_COMPOSITION_INDEPENDENCE_PLAN.md).
+Only this handoff and the two existing QR maps are also edited. No source,
+executor, dependency, registry entry or predecessor-suite replay is added.
+Coordinator owns every other path and all git/index operations.
+
+RI-21 is independently accepted and published at
+`14eba182f6d7f5ef3d8b709a9bb810403b0d4c19`, tree
+`0c284b0625f5dd288ea7f40301260fe40b8df84e`, with accepted note SHA256
+`62887089c6f661f543e066f23d2d141200c9d0b67f9cafa8dd06765072e12517`.
+Normal push and remote identity were verified by the coordinator. The accepted
+mathematical body remains held; the prior handoff below is historical.
+
+## RI-22 proved alternative and the missing premise
+
+Take D=R+iJ with R real symmetric PSD, J arbitrary real antisymmetric, and
+total-entry mass one. Define D star E=R tensor S+i(J tensor S+R tensor K).
+The note proves closure across carrier sizes, all-Boolean weak positivity,
+normalization, associativity, swap/factor-permutation covariance, unit [1],
+ambient real bilinearity and normalized separate affinity. It retains both
+whole-carrier complex marginals and scalar rectangular-event independence.
+Separate real congruence/incidence maps commute with composition on the
+unnormalized cones; partition maps preserve mass but are not the only maps
+that can do so. Generic overlapping/real maps can change or annihilate mass.
+
+The class contains every individually normalized complex PSD kernel and the
+fixed signed seed, but also non-PSD Di. Even two individual PSD projectors
+can have a non-PSD star joint; no ordinary-QM composite subtheory is preserved.
+Complex bilinearity is not an exclusion: on arbitrary complex matrices the
+extension is A star B=A tensor B-A_a tensor B_a, A_a=(A-A^T)/2.
+
+Ordinary tensor composition contains the missing -J tensor K term. The exact
+rectangle event-pair correction is +J(A,B)K(C,F); scalar diagonal independence
+does not see it. Full event-pair multiplicativity on singleton rectangles,
+together with biadditivity, fixes every ordinary tensor entry. That narrow
+sufficiency is proved, but the stronger premise is not derived from DET.
+
+Under star powers, every scalar event depends only on R^tensor(m). The
+unchanged RI-21 parity event with its intact real seed weighs m!det(R_I),
+not m!det(D_I). For Di this is +1/2 rather than ordinary tensor's -3/2.
+This changes the accepted tensor-law premise; RI-20/21 are not falsified.
+
+## RI-22 operational and source boundaries
+
+For n>=2 the raw cone has lineality ±iJ. All nonnegative real-linear scalar
+functionals annihilate it and factor through R. All formal Boolean base
+weights determine R, but neither they nor the real-map/star catalogue see J.
+Formal complex marginals preserve information without supplying a scalar
+observation. Mass is not faithful. If effects must also obey 0<=f<=M on the
+whole cone, they reduce to f=aM: bounded effects do not separate even all R.
+The seed has a Boolean weight four at mass one, so those weights are not
+automatically probabilities in one recorded partition.
+
+An exact rational complex unitary sends Di to a mass-one matrix with
+singleton weight -23/50. Hence arbitrary complex congruence availability
+would exclude this class. A pointed/separating-effect premise, all-complex-
+direction positivity tests or full event-pair multiplication are other
+stronger requirements; their distinct conclusions and missing justifications
+are explicit. Complex bilinearity alone is insufficient. Existing H/P/Z lifts
+and one tensor/coupler/read interface do not grant those operations globally
+on this different pre-PSD class. PairKernel.compose and every accepted QR
+instrument remain unchanged. This is a countermodel only to the listed weaker
+premises, not a replacement physical theory or global axiom adoption.
+
+## RI-22 verification and source-quiet boundary
+
+Main's temporary Gaussian-Fraction calculation passed 66 focused exact
+checks, including 28 Boolean weights and 16 rectangle identities, full 8x8
+associativity, complex marginals, naturality and the displayed counterexamples.
+No source file or existing DET executor was used. These corroborate the
+proofs; they are not a new registered suite or pinned execution.
+Three independent complete mathematical, primary-premise and repository
+reviews passed without a blocker or mathematical correction. All 69 held
+predecessor/design/synthesis identities match their entry pins. All 139 local
+links resolve; scoped whitespace/conflict checks have zero findings. The
+exact four document identities accompany the source-quiet handoff.
+Three further complete coordinator reviews accepted the conditional proof
+and its summaries. Only reversible administrative acceptance/current-status
+wording differs from the reviewed submission. The four-file reservation is
+released; coordinator owns the separate publication checkpoint.
+
+No actual independent-preparation/measurement law, source replacement,
+application/core/RET/bank implementation, full-QM/complex-field selection,
+native F/L or physical mass/geometry/gravity result is claimed. The separate
+[RI-23 scalar-value/error contract](SCALAR_VALUE_ERROR_CONTRACT.md) is
+independently accepted and published in verified `0410ccd`. Its acquisition
+and execution interface remains unimplemented.
+No QR-05BW–DO/coverage/noncollapse sequel, clocks, book, retired kappa-gravity,
+executor or automatic successor is opened. This assignment stops at reviewed
+handoff; coordinator retains acceptance/publication ownership.
+
+## Historical RI-21 handoff — accepted and published
 
 14 September 2026 UTC. **RI-21 CONDITIONAL_FINITE_COPY_WITNESS_THEOREM;
 INDEPENDENTLY_REVIEWED; COORDINATOR_CONDITIONAL_PROOF_ACCEPTED.**

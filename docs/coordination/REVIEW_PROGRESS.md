@@ -2922,3 +2922,50 @@ All 69 held accepted identities, six protected identities, original review,
 application corollary and unrelated baseline remain protected. QR has now
 returned RI-22 source-quiet, but its four submitted files are excluded from
 this checkpoint and undergo separate full-note review.
+
+
+**RI-23 publication verified**
+
+[Commit 0410ccd3e1c19e39c0c991110042e5319f524c1b](https://github.com/omekagardens/det_8_framework/commit/0410ccd3e1c19e39c0c991110042e5319f524c1b),
+tree `e1d9ae7775d95e4207d0680bdfaf3fe991636bff`, publishes exactly the five
+reviewed Markdown files. All staged bytes matched their captured candidate;
+103 scoped local links, whitespace and preservation checks passed. Final
+independent scope review accepted the candidate with one status clarification
+that RI-22 was then awaiting separate acceptance/publication. The normal push
+succeeded; independent remote-ref lookup returned this full origin/ret commit.
+The index was empty afterward. All four submitted QR identities remained
+unchanged and excluded. The accepted RI-23 contract now joins the held set.
+
+**RI-22 independently accepted — eight-file publication candidate**
+
+All three coordinator reviewers accepted the complete submitted note at
+SHA256 `bc42dcb0314b0ece27a4bbad4b9d23af495783c35dbd0bfd62360b2b34ccc5d0`,
+with no mathematical correction. Root also read the entire proof and current
+summaries. The reviews checked associativity including the complex-bilinear
+extension, weak-positive closure, full complex marginals, scalar independence,
+real-map naturality, full event-pair uniqueness, the RI-21 event comparison,
+lineality, bounded effects, Q star Q and the exact rational-unitary example.
+Primary-source comparisons and native-control boundaries are accepted.
+The QR owner's reported 66 supplementary checks were not replayed by root
+and are not new registered witnesses.
+
+One application-status clarification distinguishes the now accepted/published
+RI-23 proof/design from its unimplemented acquisition and execution interface.
+Together with acceptance wording, these are reversible administrative edits
+to the four submitted files; the mathematical body remains unchanged.
+Accepted identities:
+
+- `docs/coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md` — `bf712204df74665c8eede35f246227c2d12acbdc2a03e5284a5ddbfaf073c3a0`.
+- `docs/coordination/QR_HANDOFF.md` — `d21dc1cc9eff5c5cf41daf4c9c4fc57c688554265c2bb46a8976e2401b05b373`.
+- `docs/track_b/QR_MAP.md` — `5576c389fb3cb7ccac01ef0584ba8f161ff4ceee5394fb1bafa204fd590e627e`.
+- `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md` — `25529e7d1eb85f79fd136571fce54beeb6859c5fc9fa436cc2e37b956b696534`.
+
+Publication is exactly the four QR files, root plan, progress, operational
+premise ledger and publication backlog. All 70 previously accepted identities,
+six protected identities, registry, original review, application corollary
+and unrelated baseline remain held. Root sent the QR owner actual acceptance
+and the verified RI-23 identity, released its four-file reservation and
+requested source quiet. No successor is assigned: the next meaningful QR
+step requires a named domain/acquisition/composition interface, as recorded
+in the plan. This closes the bounded proof cycle without claiming native
+PSD/composition selection, measured application value or full QM.

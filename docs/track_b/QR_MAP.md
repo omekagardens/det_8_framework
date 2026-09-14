@@ -1,5 +1,28 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+14 September 2026 UTC, composition-independence countermodel: the
+[RI-22 note](../coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md) proves that
+the class D=R+iJ, R real PSD and J real antisymmetric, is closed under
+D star E=R tensor S+i(J tensor S+R tensor K). This preserves normalized
+weak positivity, associativity/unit/swap, separate affinity, full complex
+marginals, scalar rectangle independence and separate real-map naturality,
+yet admits non-PSD Di. It omits -J tensor K from ordinary multiplication.
+Full event-pair rectangle factorization plus biadditivity does fix the tensor
+law; scalar independence alone does not. Complex bilinearity alone is also
+insufficient, as an explicit extension exists. Star makes RI-21's event
+test m!det(R_I), giving Di weight +1/2 instead of -3/2; this changes a
+premise, not that theorem. Imaginary lineality is invisible to positive
+scalar effects; mass-dominated effects on the whole cone reduce to aM.
+All formal Boolean weights determine only R and need not be bounded recorded
+probabilities. Arbitrary complex controls can leave the class. Existing
+limited QR control availability is not promoted to that global premise.
+The countermodel concerns only the stated weaker assumptions; no accepted
+source, instrument or record/origin distinction is replaced. Temporary
+exact arithmetic passed 66 checks; three independent complete reviews passed.
+All 69 held identities match. Three complete coordinator reviews accepted
+the conditional proof/design; no global
+axiom, full QM, geometry or automatic successor is opened.
+
 14 September 2026 UTC, finite-copy resource theorem: the
 [RI-21 note](../coordination/QR_FINITE_COPY_WITNESS_PLAN.md) proves that
 one fixed normalized seed b=(1,-1,1), B=bb† and at most n independent
