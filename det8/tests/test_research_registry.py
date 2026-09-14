@@ -87,6 +87,7 @@ def test_real_registry_covers_coherent_imports_and_lists_without_executing(monke
         "joint-repeatability",
         "cut-closed-completion",
         "reversible-generator",
+        "terminal-read-observability",
     }
     paths = {Path(row["path"]).name for row in suites["coherent-readout"]["sources"]}
     assert paths == {"check.py", "algebra.py", "reference.py"}
@@ -116,6 +117,10 @@ def test_real_registry_covers_coherent_imports_and_lists_without_executing(monke
     assert cut_closed_paths == {"check.py", "model.py"}
     generator_paths = {Path(row["path"]).name for row in suites["reversible-generator"]["sources"]}
     assert generator_paths == {"check.py", "model.py"}
+    terminal_read_paths = {
+        Path(row["path"]).name for row in suites["terminal-read-observability"]["sources"]
+    }
+    assert terminal_read_paths == {"check.py", "model.py"}
     assert all(
         result["source_identities"][i]["sha256"] for i in range(len(result["source_identities"]))
     )

@@ -1,5 +1,230 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+13 September 2026, terminal internal-read obligation: the
+[RI-08i theorem](../validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md)
+adds exactly one explicitly available calibrated terminal read to the
+fixed interior L_t/common-X command catalogue. A Z read has full-span
+predictive rank 12, an X read rank 8, and a tilted read with X and YZ
+components rank 16; the normalized affine dimensions are 11, 7 and 15.
+**CONDITIONAL_BACKWARD_EFFECT_SPAN_CLASSIFICATION;
+MINIMAL_MASS_RETAINING_LINEAR_PREDICTIVE_DIMENSIONS;
+EXACT_THREE_SETTING_STATE_RECONSTRUCTION.**
+The fixed tilted axis (3/5,0,4/5) and resolved words empty/A/AA recover
+every native entry from compatible exact full-outcome probability tables,
+without division by cell weight. Three resolved binary settings are
+minimal for full-state recovery in this catalogue. The all-finite
+equivalence theorem requires the same context, prior committed prefix,
+initial pending metadata and nominal policy; retained raw payload is
+audit data, not an extra observation. Full (a,b,sign) terminal records
+remain distinct from preceding literal cuts. The response retains its
+pre-read source but specifies no postmeasurement residual or continuation.
+Z-hidden filtered-X witnesses and a nonparallel pi-Z countercontrol
+identify the observation boundary. Read calibration/availability remain
+added premises. RI-08i is independently accepted and registered, not an
+unknown-generator, physical-time, empirical preparation, finite-sample
+tomography, reusable instrument, full-QM or gravity result.
+
+13 September 2026, interior reversible-generator obligation: the
+[RI-08h theorem](../validation/t8-q-reversible-generator-2026-09-13/REVERSIBLE_GENERATOR.md)
+classifies real-linear, strongly continuous, two-sided positive
+mass-preserving groups on fixed interior L_t. Every cell and its weight
+remain invariant. Faithful filtering turns each block into a Bloch ball;
+its connected automorphisms have Hamiltonian form, with four Hermitian
+generators modulo scalar gauge and twelve nontrivial real parameters.
+**CONDITIONAL_INTERIOR_REVERSIBLE_GENERATOR_CLASSIFICATION;
+CUT_ONLY_GENERATOR_NONIDENTIFICATION; EXPLICIT_PREMISE_BOUNDARIES.**
+The group, reversibility and continuity laws are new premises, not DET
+consequences or physical time. Raw trace need not be conserved. Commands
+commute with literal cuts and preserve their probabilities. Finite law
+comparisons under the same retained nominal command/cut/stop policy and
+identical initial command metadata cannot identify the internal generators.
+Actual command words, full records and raw residuals remain distinct.
+Singular-endpoint dark growth and one-sided dephasing
+mark different premise boundaries; transpose is not an R-group
+counterexample obtained merely by dropping continuity. The rational
+witnesses check the fixed t=3/5 fixture, not all-real continuity.
+RI-08h was independently accepted and registered; its assigned terminal-read
+study is reported above. No selected Hamiltonian,
+physical clock/energy, native dynamics, full QM or geometry follows.
+
+13 September 2026, literal-cut-closed completion: the
+[RI-08g theorem](../validation/t8-q-cut-closed-completion-2026-09-13/CUT_CLOSED_COMPLETION.md)
+proves that four independent fixed-reference image blocks form the smallest
+convex cone L_t containing K_t and closed under the four literal cuts.
+Its real span is sixteen-dimensional. Literal cuts are positive, complete
+and perfectly repeat their full outcome at positive weight because the
+return domain has explicitly changed. **MINIMAL_CONVEX_CUT_CLOSED_EXTENSION;
+POLARIZATION_DEPENDENT_MASS_AND_EFFECT_BOUNDARY;
+CUT_CATALOGUE_WEIGHT_EQUIVALENCE.** Total-entry mass generally differs
+from raw trace. Interior polarization gives a faithful compact mass base;
+at full polarization positive zero-mass payload survives, with distinct
+4/12/15-dimensional dark-span/effect-kernel/mass-kernel objects. The
+four weights exactly characterize normalized sources' finite cut-only future laws at every t,
+while interior additional mathematical effects can see internal structure.
+The normalization bound diverges as `1/(1-|t|)` near either endpoint.
+RI-07 applies only under its separately stated hypotheses, with a faithful
+weight quotient required for the endpoint compact-base route. Full raw
+payload and actual records remain retained; convex closure does not confer
+physical preparation or control availability. RI-08g was independently
+accepted; its assigned reversible-law study is reported above.
+No physical promotion follows.
+
+13 September 2026, same-image joint repeatability: the
+[RI-08f theorem](../validation/t8-q-joint-repeatability-2026-09-13/JOINT_REPEATABILITY.md)
+pulls the accepted fixed-reference/coupler image's full-cell effects back
+to `E_ab=(I+(-1)^b t Z)/4`. No normalized state in that same image gives
+a full outcome more than `(1+|t|)/4 <= 1/2`. Thus positive calibrated
+branches returning to that image have minimum uniform relative repeat
+defect `(3-|t|)/4`; perfect full-outcome repeatability is impossible.
+The coarser next-b question has optimum `(1-|t|)/2`, reaching zero at
+full polarization while both actual fine `(a,b)` records remain intact.
+**CONDITIONAL_SAME_IMAGE_REPEATABILITY_OBSTRUCTION;
+SHARP_QUESTION_RELATIVE_TRADEOFF.** Algebraic reset branches attain the
+bounds, with their availability explicitly added, not inferred from
+terminal-cut reuse. The note separates three input-mass normalizations,
+the t=0 nonuniqueness and the fixed c=0 image choice at t=0. No new
+reference, context, enlarged return cone or general composite theory is
+supplied. RI-08f was independently accepted; no successor
+or full-QM/geometry promotion follows.
+
+13 September 2026, domain-aware repeatability robustness: the
+[RI-08e theorem and counterexample](../validation/t8-q-repeatability-robustness-2026-09-13/ROBUSTNESS.md)
+separate the composite-consistent c=0 cone C0 from the larger local-only
+cone C. On C0, positivity and exact rank-one effect calibration classify
+every real-linear branch as `B(d)=e_Q(d) h_Q`, for a fixed normalized
+positive target; repeatability is not assumed for this classification.
+An assumed uniform full-domain defect `0 <= ε <= 1/2` yields the sharp one-step
+raw trace-norm bound `2 p sqrt(ε)` on either domain. On C, the separate
+bound `|c_out| <= ε p/2` is sharp, but approximate branches can use input
+c and fail to descend through Φ; on C0 that nonzero-c input is prohibited.
+Finite common-history protocols with at most N records obey residual-error
+bound `min(2, 2 N sqrt(ε))` and full-record total-variation bound
+`min(1, (N-1) sqrt(ε))` for N≥1; both errors vanish at N=0. The proof uses
+positive approximate prefixes and contractive ideal suffixes, without an
+approximate CP or quotient-descent premise. A sharper Clifford/Pauli
+record-law bound is stated separately.
+**CONDITIONAL_C0_BRANCH_CLASSIFICATION; SHARP_ONE_STEP_RAW_BOUNDS;
+FINITE_RECORD_PROTOCOL_ROBUSTNESS.** Uniform error and instrument
+availability are mathematical premises, not empirical calibration or
+finite-sample conclusions. Full nominal settings, records and residuals
+remain explicit. RI-08e was independently accepted; no
+successor, full-QM, native-control, ancillary or geometry promotion follows.
+
+13 September 2026, polarized-reference joint-recordability obligation: the
+[RI-08d theorem](../validation/t8-q-joint-recordability-2026-09-13/JOINT_RECORDABILITY.md)
+starts with the full local complex-c cone, an explicitly independent
+polarized section reference and one supplied shared-system coupler. Exact
+cross-cell forms `tc` and `-tc` prove that nonzero reference polarization
+selects precisely the local c=0 subcone for this fixed interface.
+**CONDITIONAL_LOCAL_SUBCONE_SELECTION;
+FULL_PAYLOAD_JOINT_RECORDABILITY_OBSTRUCTION.** Illegal coupled outputs
+can remain PSD and normalized; no normalization or cut repairs their
+recordability. Native tensor labels, separate input histories, known
+reference orientation and full origin-tagged joint precursors are retained.
+Local product controls and an unpolarized reference remain blind to c;
+all c=0 local states survive the supplied lift. This is domain exclusion,
+not a physical measurement of c or a dynamics deleting it. Composition,
+independence, polarization, coupler availability and exact joint viability
+are additional premises, not DET-derived or a globally selected composite
+theory. RI-08d was independently accepted, with no full-QM, ancillary,
+preparation-richness or geometry promotion.
+
+13 September 2026, reusable record-instrument obligation: the
+[RI-08c exposed-ray theorem](../validation/t8-q-repeatable-record-instrument-2026-09-13/REPEATABLE_INSTRUMENT.md)
+proves that prescribed Pauli effects, positive same-source-cone range and
+perfect same-setting repeatability uniquely force
+`B_r(d)=e_r(d) J2(Q_r)` on the entire six-dimensional raw span. The output
+c=0 follows from the exposed positive face; it is not an input truncation
+or an inserted Kraus update. **CONDITIONAL_EXPOSED_RAY_INSTRUMENT_THEOREM;
+FINITE_SERIAL_RECORD_CLOSURE; RESTRICTED_PREPARATION_REACHABILITY.**
+Actual controls act once in a fixed frame; every reusable commitment keeps
+the axis, outcome, actual word, controller/type and full precursor. The
+new family does not authorize reuse/reset of the earlier terminal cuts.
+Dropping repeatability or source-cone range permits different raw branches.
+From the declared maximally mixed preparation, fine-history-conditioned
+residuals are only the center and six Pauli eigenstates. Explicit finite
+preparation-mixture marginals form the stabilizer octahedron, not the whole
+Bloch ball; their component histories are not erased. These operational
+premises and physical preparation availability remain unproved from DET.
+RI-08c was independently accepted; its assigned joint-interface study is
+reported above. Neither result establishes full QM or native geometry.
+
+13 September 2026, control-selected qubit obligation: the
+[RI-08b theorem](../validation/t8-q-control-selected-qubit-2026-09-13/CONTROL_SELECTED_QUBIT.md)
+starts from the full four-label recordability cone and derives the maximal
+viable form `D(A,c)=[[A,cZ],[conj(c)Z,ZAZ]]`, `A >= |c| I`, from explicitly
+supplied H/quarter-phase/Z controls, all-word mass/recordability closure and
+Z readout-swap calibration. **CONDITIONAL_MAXIMAL_VIABLE_CONE_THEOREM;
+CATALOGUE_RELATIVE_QUBIT_QUOTIENT.** The declared control words plus terminal
+binary read identify exactly `rho=2 A^T`; raw complex c remains intact.
+An additional bounded mathematical effect distinguishes equal-A states,
+so the result is not all-effect or all-map equivalence. Literal readout
+exits the source type and cannot be silently reused as a quantum instrument.
+Removing H, quarter-phase availability or calibration admits counterexamples
+over the whole remaining word-closed catalogue. Neither these tailored
+controls nor full preparation access are DET-derived; an uninformative
+invariant preparation ray remains allowed. RI-08b was independently accepted
+and registered. Its assigned reusable-instrument study is reported above;
+neither result establishes full QM, complex-field selection or geometry.
+
+13 September 2026, maximal-domain obligation: the
+[observable-quotient classification](../validation/t8-q-maximal-record-domain-2026-09-13/MAXIMAL_DOMAIN_QUOTIENT.md)
+proves that every bounded real-linear effect on an entire exact-recordability
+cone depends only on its cell weights. Every fixed full-domain positive
+mass-nonincreasing map induces a substochastic cell-weight map.
+**FULL_DOMAIN_EFFECT_CLASSIFICATION; SUBSTOCHASTIC_QUOTIENT_THEOREM.**
+Cell readouts make that quotient operationally exact when available; a smaller
+catalogue may reveal less. Neither all classical preparations/operations nor
+physical classicality is inferred. Proper-domain effects and the accepted
+selected switch are outside the full-domain premises. Quotient first-commit
+convergence still need not imply original residual convergence.
+The remaining premise is which preparation/control/observation domain DET
+actually selects, not another finite context example. RI-08a was accepted
+and registered; its assigned conditional control-domain study is reported
+above. No physical domain selection follows from either result.
+
+13 September 2026, first-commit/quotient obligation: the
+[finite typed theorem](../validation/t8-q-first-commit-quotient-2026-09-13/FIRST_COMMIT_QUOTIENT.md)
+proves operator-norm convergence of complete first-commit maps under explicit
+compact-base hypotheses, retaining full labels/residuals and never-commit
+probability. Silent states need not converge: an exact dark-controller cycle
+is a counterexample. Continuation-invariant, mass-retaining predictive
+quotients preserve the construction; their closed positive cones are proved
+under the stated hypotheses, not assumed for arbitrary projections.
+**FINITE_TYPED_COMPACT_BASE_THEOREM; CONDITIONAL_QUOTIENT_DESCENT.**
+Elimination forgets silent paths/counts, not recorded payload; it does not
+supply a residual state on the never-commit event. The result is conditional
+at each stated prefix and experiment, not a quantum or physical selection
+theorem. RI-07/P3 was accepted; its assigned RI-08a classification is reported
+above. No new QR-05 gate or physical promotion follows.
+
+13 September 2026, controlled-transition obligation: the
+[controlled-context construction](../validation/t8-q-controlled-context-2026-09-13/CONTROLLED_CONTEXT.md)
+specifies two selected rational preparation cones, lawful apparatus
+transitions, full residual/record/precursor accounting and an exact typed
+future-test equivalence procedure. A fixed read–switch–read program separates
+all four residual coordinates using committed outcomes; the full predictive
+rank is four, so this candidate demonstrates no residual compression.
+**CONDITIONAL_CONTROLLED_MODEL; CONSTRUCTIVE_EQUIVALENCE_THEOREM.**
+The selected switch cannot extend positively and linearly to the full
+recordability cone. The model remains classically representable; preparation,
+apparatus and observation availability are additional premises, not DET-derived
+QM. The bounded P1/P2 result was accepted by the coordinator; its assigned
+compact-base first-commit/quotient successor (P3/O2/O3) is reported above.
+See the
+[coordination handoff](../coordination/QR_HANDOFF.md).
+
+13 September 2026, conditional-domain obligation: the
+[record-context construction](../validation/t8-q-record-context-domain-2026-09-13/CONTEXT_DOMAIN.md)
+derives a closed convex exact-recordability domain for each supplied partition,
+retaining the coherence-sensitive readouts. It also proves that common initial
+recordability need not survive a conditional cut, and rejects a unique finest
+context and a specified deterministic symmetry-respecting selector.
+**CONDITIONAL_DOMAIN_CONSTRUCTED; PHYSICAL_CONTEXT_TRANSITION_LAW_OPEN.**
+No physical preparation set or unique update is selected. The next obligation
+is an explicitly justified record/apparatus-conditioned context transition,
+not a silently inserted quantum measurement rule.
+
 13 September 2026, native-operation obligation: the
 [operation-domain analysis](../validation/t8-q-operation-domain-2026-09-13/OPERATION_DOMAIN.md)
 derives the mass-preserving congruence criterion but rejects the attempted

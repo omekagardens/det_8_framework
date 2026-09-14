@@ -6,13 +6,13 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08h | **Bounded handoffs accepted and registered.** RI-08h classifies continuous reversible generators on the adopted interior cone and proves their nonidentification by cut-only outcomes under matched command/history metadata. Two independent audits and 67 additional probes passed; root passed all 30 new checks in both complete registry runs. | RI-08i source-stable handoff received; independent proof/source audits started. Acceptance, registration and its next checkpoint remain pending. QR has no successor assignment. |
+| QR coordination / RI-05–08i | **Bounded handoffs accepted and registered.** RI-08i classifies terminal observation ranks and minimal three-setting full-state reconstruction under explicit read calibration/availability. Both independent audits, 94 additional exact probes and all 30 new checks in each staged replay pass. | Publish the accepted checkpoint before assigning the bounded robustness capstone. QR holds source quiet; no successor is yet assigned. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
-| RI-03 research registry | **Accepted for sixteen suites.** The 64 focused registry/claim checks pass. Root replayed all sixteen suites in both modes: 326 finite witnesses per mode, all 28 declared executable sources loaded, no skips or observed registered-source drift. The fifteen prior objects and runner are preserved. | Review and register future QR bundles after completed handoff; keep universal proof obligations separate. RI-15's 20 witnesses remain under its separate source contract. |
+| RI-03 research registry | **Accepted for seventeen suites.** Root replayed the exact staged source checkout in both modes: 356 finite witnesses, all 30 declared executable sources loaded, no skips or observed drift. The sixteen prior objects and runner are preserved. Forty-three staged registry regressions and 64 local registry/claim checks pass. | Review future bundles before registration. RI-15's 20 witnesses remain under its separate source contract; universal proofs remain distinct from finite verification. |
 | RI-04 current mathematical certificates | **Accepted.** Eight research modules and narrow legacy groups reconciled; coordinator reran 141 focused cases successfully. Implementer reports 80 impacted legacy checks with no failures/errors/skips. MODEL_CARD current O1/O2 assessment is reconciled; Previous remains historical. | RI-11 is now accepted separately; general reconstruction/physical premise selection remains open. |
 | RI-11–12 applied work | **RI-11, RI-12 exact contract and synthetic comparator fixture accepted.** Coordinator replay passed 236 focused cases: 34 new comparator, 108 identifiability, 54 applied/consumer and 40 registry. Model-conditional Gaussian oracles, exact observed-row/source bindings, held-out non-assimilation and byte-verified replay pass. | User's measured instrument/dataset choice remains open. Establish target, tolerance and evaluation objective before a measured pilot; coordinate RET ownership before source changes. |
-| RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08h and the accepted conditional local-to-joint interface. The separate claim endpoint lists sixteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
+| RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08i and the accepted conditional local-to-joint interface. The separate claim endpoint lists seventeen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
 | Remote checkpoints | The first accepted research/adapter checkpoint is committed and pushed as [faad1e9](https://github.com/omekagardens/det_8_framework/commit/faad1e96d9c2818bbc91e7600dd575538259e5d8). The remote `ret` ref was independently checked against the full commit identity. Root coordinates git operations; hourly follow-through now includes commits and pushes. | Publish future reviewed scoped updates. Reconcile source ownership and dependency closure before publishing the remaining mixed baseline-dependent changes; preserve active QR and unrelated core/RET/evidence work. |
 
@@ -1490,3 +1490,101 @@ another QR result. It must also preserve the remaining local application,
 core/RET and evidence scope rather than add it indiscriminately. This
 documentation update records the verified first push and the pending review;
 it does not change the already tested research or adapter sources.
+
+**RI-08i independent proof and source acceptance**
+
+The coordinator accepts the bounded terminal-read theorem and typed source
+contract after two independent reviews. One reviewer checked the complete
+proof, exact rank and reconstruction identities; the other inspected the
+full implementation and independent witness source and passed 94 additional
+exact in-memory probes in 2.591 s. The coordinator read the proof and changed
+implementation paths, checked the complete read/table contract and reviewed
+the new registry and QR roadmap diffs. The only requested proof-note repair
+clarifies that the retained object has sixteen labels and every entry of a
+16×16 kernel. Its final SHA-256 is
+`ac00c0aa13b3b47c504b85ce9296d38ee16c5529a5c5932aca73c4e1f00ca1ad`;
+the earlier pending note pin remains historical. Executable pins are unchanged:
+
+| Accepted RI-08i source | SHA-256 |
+|---|---|
+| `model.py` | `0e60694bad07016886ec2451f4b17a5ac7dd24c089c8953dabb926620c8148d8` |
+| `check.py` | `cf508d61ef6260926123185814edefdf4b5b8393880aab01ba0645cba0bd8f22` |
+
+The proof classifies backward effects under the full common-X word catalogue,
+with ranks 8/12/16 and attained minimal homogeneous mass-retaining linear
+summaries. This is a full-span statement; available preparation subsets and
+arbitrary nonlinear encodings are outside its lower bound. The positive
+sections are mathematical, not preparation or reset operations.
+Empty/A/AA resolve a tilted read with determinant `−73728/78125` and an
+exact inverse. Shared cell sums and positive reconstructed blocks characterize
+compatible full-outcome probability tables, including zero cells without
+division. Three resolved settings are minimal in this catalogue. An added
+nonparallel pi-Z control still leaves the Z-read blind X direction intact.
+
+All-finite policy equivalence retains the same context, committed prefix,
+initial pending word and nominal metadata; raw audit payload cannot drive the
+policy. The terminal response keeps the complete pre-read source, calibrated
+effect and actual `(a,b,sign)` outcome, invents no separate cell commitment,
+specifies no postmeasurement residual and refuses continuation or zero-weight
+selection. Current-snapshot probabilities do not supply missing earlier
+preparation or reference selection weights. The general interior proof is
+separate from the t=3/5 exact fixture, and no endpoint inverse, unknown
+generator, physical clock, repeated preparation or finite-sample claim follows.
+
+The seventeenth registration preserves all sixteen earlier objects exactly:
+removing its final object reconstructs manifest
+`cab559036fe724ad78edd0beb7565586eb506515d24e4dc0dd4544074677f939`.
+Its manifest is `aabf2b1a0a25bbb1511e33ad7e34ce63958e87bf224fa743c4c5b7369390c3c5`.
+The unchanged runner and seven-module standard-library contract require no
+new import mechanism. The implementer passed 64 focused registry/claim checks
+in 2.42 s, export parity, scoped Ruff/format and 68 guide/generated-summary
+links. Both legacy canonical JSON digests and the exporter remain unchanged.
+All six integration reservations are released. The claim implementation and
+its generated reference remain a separately deferred local baseline; this
+publication includes the self-contained research registry and its closure.
+
+The QR owner also repaired two stale current-roadmap cells to distinguish
+already accepted conditional cones from the still-open DET selection and
+actual availability obligations. Historical theorem handoffs remain dated.
+Root checked 179 local links across the coordinator and research documents,
+with no missing targets. These reviews and finite tests are internal checks,
+not external peer review or formal proof verification. The independent 94
+probes and QR's 383-check inventory are not added to the registered total.
+
+**Seventeenth registration — exact staged-checkout replay**
+
+The initial six-path index contains only the three new RI-08i artifacts and
+three registry integration files. It was materialized into an isolated
+checkout; all other sources came from the already published parent. Its
+source-stage tree identity was `6f7b9285396795af8c6a125635fb67d5f2470637`.
+The complete runner executed under `-I -S -B`, with `--optimized` adding
+`-O` to every child. Final results:
+
+| Mode | Suites | Witnesses | Loaded executable sources | Result |
+|---|---:|---:|---:|---|
+| Normal | 17 | 356 | 30 | Passed; 117.208 s |
+| Optimized | 17 | 356 | 30 | Passed; 116.920 s |
+
+All thirty new checks passed per mode. No failures, errors, skips, expected
+failures, omitted declared source, observed registered-source drift or runner
+change occurred. The same staged checkout passed **43 registry regressions
+in 2.23 s** with bytecode/cache writing disabled. This verifies the current
+research source closure independently of the broader uncommitted core, RET,
+claim and applied implementations. RI-15 is unchanged and its earlier
+separate acceptance remains valid; no new adapter or release count is added.
+Subsequent acceptance/publication edits to coordinator and QR documents do
+not change this tested executable closure.
+
+| Seventeenth integration source | SHA-256 |
+|---|---|
+| `docs/research/registry.json` | `aabf2b1a0a25bbb1511e33ad7e34ce63958e87bf224fa743c4c5b7369390c3c5` |
+| `det8/tests/test_research_registry.py` | `7a1965eb6d2208891093a057063d4dbbc4570e9d837102e369f8ba5fa67e1cbe` |
+| `docs/RESEARCH_CHECKS.md` | `93827d533b6af50349794640dcebda3ccb78e16b3112e2638cac71bd03ce7996` |
+| Local `det8/claims.py` | `de8089909025559910ebd0913a12fb832cd029ceb8e1e42f390ae3a9b815b5f0` |
+| Local `det8/tests/test_claim_boundaries.py` | `b0011fac57077689ef5967b689aa548d6da096bd0826d6664d58d2847b5678d2` |
+| Local `docs/CLAIM_REGISTRY.md` | `0974e1402f7104094e17d425563babc80b7b27e4120da0287da044cab0b02d62` |
+
+The next checkpoint includes these accepted research sources and reviewed
+coordinator/QR summaries. It preserves the separately deferred local baseline
+and original dated review. Root remains the sole git/index owner; normal
+push and independent remote-ref verification follow source capture.

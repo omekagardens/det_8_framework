@@ -573,6 +573,48 @@
         "unittest"
       ],
       "timeout_seconds": 60
+    },
+    {
+      "id": "terminal-read-observability",
+      "statement": "One supplied calibrated terminal internal read, preceded by the known common-X commands and literal cuts, has an exact backward-effect classification: mass-retaining predictive dimensions are 12, 8 or 16 according to its axis, with full native state reconstruction from three resolved settings of the tilted read.",
+      "premises": [
+        "Fix known interior |t| < 1 and the sixteen-dimensional enlarged L_t cone of four independent PSD2 blocks, with the accepted native labels, frame, Z-oriented reference, coupler and faithful cell filters. Native normalization uses total-entry mass, not generally raw trace or physical rest mass.",
+        "The common-X command catalogue, literal full-cell cuts and a single terminal read are available. The added read is exactly calibrated to Tr(Q_n,sign sigma_alpha), retains the actual cell and sign as eight full outcomes, and has no specified postmeasurement instrument. Positivity alone does not establish its availability or calibration.",
+        "Finite comparisons use normalized sources at the same known context/read calibration, full committed prefix, initial pending word and retained nominal-command metadata, under a common policy depending only on retained labels and outcomes. Commands, cuts and stop may precede at most one terminal read; no operation follows it.",
+        "Minimal predictive dimensions concern homogeneous mass-retaining real-linear summaries on the full unnormalized mathematical span. Exact reconstruction tables concern the same supplied source snapshot and resolved known settings, with full outcome weights rather than probabilities conditioned on an already selected cell."
+      ],
+      "limits": [
+        "The all-interior effect-span, finite-experiment equivalence and minimality results are written proofs. Exact Gaussian-rational witnesses fix t=3/5, named rational group elements and the sole primary read axis (3/5,0,4/5); they do not establish all-parameter availability. Alternative X/Z reads and additional-control diagnostics are not primary operations.",
+        "Backward effect ranks are 12 for axes wholly in YZ, 8 for the X axis and 16 when both X and transverse components are nonzero; normalized affine dimensions are 11, 7 and 15. These are linear full-domain bounds, not nonlinear encoding or available-preparation bounds. Positive sections are mathematical maps, not available resets or permission to erase retained residuals/selectors.",
+        "Empty, A and AA commands suffice for exact tilted-read reconstruction of every native entry, including complex directions. Shared cell weights, unit total mass and positive reconstructed Bloch blocks characterize compatible tables. Zero cells require no division; incompatible tables are rejected without clipping, fitting or renormalization. This is exact model consistency, not finite-sample statistical validation.",
+        "Fewer than three resolved settings cannot determine a full interior block on the whole cone. Retained randomized selectors count as distinct settings, and forgetting them does not create an independent axis. An added pi Z control leaves the Z-read blind X direction invariant under every word; nonparallel control alone is insufficient.",
+        "A selected positive terminal response retains the pre-read source, context, complete history and pending words but supplies no postmeasurement residual. Commands, cuts, another read or reset on that response are refused. Zero-weight outcomes cannot be selected, and no fictitious prior cell record or past preparation/selection probability is inferred.",
+        "At |t| = 1 all whole-cone mass-dominated effects still factor through four weights; singular filtering does not provide full native observability or an interior inverse by continuity. Distinct known command words and contexts remain distinct even when raw outputs coincide.",
+        "This is conditional state observability under known calibrated commands and read probabilities, not identification of an unknown generator, physical time, empirical independence, repeated-preparation availability, tomography accuracy, a reusable instrument, full QM, native geometry, rest mass or gravity. Prior domain and reversible-law premises remain unproved from DET."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md",
+        "sha256": "ac00c0aa13b3b47c504b85ce9296d38ee16c5529a5c5932aca73c4e1f00ca1ad"
+      },
+      "entrypoint": "docs/validation/t8-q-terminal-read-observability-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-terminal-read-observability-2026-09-13/check.py",
+          "sha256": "cf508d61ef6260926123185814edefdf4b5b8393880aab01ba0645cba0bd8f22"
+        },
+        {
+          "path": "docs/validation/t8-q-terminal-read-observability-2026-09-13/model.py",
+          "sha256": "0e60694bad07016886ec2451f4b17a5ac7dd24c089c8953dabb926620c8148d8"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
     }
   ]
 }

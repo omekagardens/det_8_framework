@@ -1,11 +1,192 @@
-# QR research handoff — accepted checkpoint through RI-08h
+# QR research handoff — terminal internal-read observability
 
-13 September 2026. Coordinator publication snapshot. RI-08h and its
-predecessors are independently accepted and registered. The historical
-handoff sections below retain their original delivery status and evidence.
-Ongoing successor work is described in [REVIEW_PROGRESS.md](REVIEW_PROGRESS.md)
-and is excluded from this accepted research checkpoint. This snapshot does
-not replace the QR owner's live working-tree handoff.
+13 September 2026. **RI-08i ACCEPTED_AND_REGISTERED_BY_COORDINATOR.**
+RI-08h is independently accepted and registered by the coordinator.
+The current bounded obligation adds exactly one explicitly calibrated
+available terminal internal read to the accepted interior L_t/common-X
+command fixture. It studies exact state observability, not a reusable
+instrument or identification of an unknown generator.
+
+Only the new terminal-read-observability bundle, the two reserved QR
+maps/plan and this handoff were authored. All thirty previously accepted source pins
+remain unchanged. No accepted-source, adapter, registry,
+claim, coordinator-ledger/tracker, RET/application or protected-evidence
+edit or automatic successor occurred. Git integration is coordinated
+centrally; this owner performed no staging, commit or push. The brief
+documentation hold was honored and released. The coordinator's
+accepted-only index snapshot did not alter this live working-tree handoff.
+
+## RI-08i artifacts and result
+
+New isolated bundle:
+[TERMINAL_READ_OBSERVABILITY.md](../validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md),
+[model.py](../validation/t8-q-terminal-read-observability-2026-09-13/model.py),
+[check.py](../validation/t8-q-terminal-read-observability-2026-09-13/check.py).
+
+This conditional observation study retains the accepted interior L_t,
+its full sixteen-label native kernel, fixed known common-X A/B/AB/inverse
+commands and literal cuts. It adds exactly one explicitly available
+calibrated terminal internal read. Positivity of its effects does not
+derive availability or calibration from DET. The proof treats general
+fixed interior t, whereas the executable is restricted to t=3/5.
+
+For each independent cell, faithful filtered coordinates are
+sigma=E^(1/2) rho E^(1/2)=(q I+x X+y Y+z Z)/2.
+The terminal effects are Tr(Q_n,± sigma)=(q±n·r)/2, with the actual
+cell (a,b) retained: eight full outcomes, not one global binary
+outcome erasing cells. All weights are nonnegative and sum to native
+normalization mass. The sole primary read uses n=(3/5,0,4/5) and
+Q+=(1/10)[[9,3],[3,1]]. Z/X alternatives remain diagnostics.
+
+The backward-effect rank is proved for all finite words, not inferred
+from enumeration. Common-X words preserve the X line and YZ plane;
+A alone supplies the necessary axes because its transverse cosine
+and sine are -7/25 and 24/25. Per-cell rank is
+1+[n_x nonzero]+2[(n_y,n_z) nonzero]. Thus:
+
+| Read catalogue | Minimal mass-retaining homogeneous linear rank | Normalized affine dimension |
+| --- | ---: | ---: |
+| Z or another YZ-plane read | 12 | 11 |
+| X or minus X read | 8 | 7 |
+| Tilted read with both components | 16 | 15 |
+
+The full-span lower bound is separate from the normalized-law theorem:
+any homogeneous mass-retaining predictive summary has kernel within
+the common backward-effect kernel, as can be tested with small positive
+perturbations about an interior state. The displayed summaries attain
+the ranks. No minimum for arbitrary nonlinear encodings or a physically
+available preparation subset is inferred.
+
+The Z quotient is four q>=sqrt(y²+z²) cones with positive section x=0;
+the X quotient is four q>=|x| cones with section y=z=0. The tilted
+summary is faithful on the entire native span. These positive linear
+sections retain mass and respect commands/cuts, but do not supply a
+physical reset, preparation or erasure of original residuals.
+
+For normalized sources at the same context/calibration, full prior
+committed prefix, initial pending word and nominal metadata, equality
+of the respective summaries is equivalent to equality of ALL finite
+common command/cut/stop/terminal-read outcome laws. Sufficiency is
+finite policy-tree induction using descended operations/effects;
+necessity supplies a separating empty/A/AA experiment when needed.
+The policy may inspect retained nominal labels and committed outcomes,
+not the unknown raw payload retained for audit. Stopping is not a
+raw-state observation. Different actual words remain different records,
+even when they implement the same matrix. Unnormalized equivalence
+uses outcome-weight measures including mass, not normalized laws.
+
+One-cell filtered Q_X+ and Q_X- are invisible to every common-X word
+followed by a Z read, but the tilted plus weights are 4/5 and 1/5.
+Adding a merely nonparallel control is insufficient: pi-Z conjugation
+still preserves the X line and YZ observation plane under all words.
+These are mathematical witnesses and a rejected criterion, not
+available preparations or an extra primary control.
+
+For the exact tilted read, resolved words empty/A/AA give backward
+axes (3/5,0,4/5), (3/5,96/125,-28/125) and
+(3/5,-1344/3125,-2108/3125), with determinant -73728/78125.
+In each cell the full outcome differences d_k=p_k,+ - p_k,- yield
+x=(125 d0+70 d1+125 d2)/192,
+y=(-55 d0+180 d1-125 d2)/192 and
+z=(195 d0-70 d1-125 d2)/256.
+The shared cell sum is q, never a divisor.
+At t=3/5 recover rho=10 D_b^(-1) sigma D_b^(-1), with
+D0=diag(2,1) and D1=diag(1,2), then every native entry.
+
+Exact three-setting tables are compatible with a unique normalized
+source iff q is shared across settings, sum q=1, every q>=0, and
+q²>=x²+y²+z². Zero q forces a zero block without division.
+The executable refuses malformed/nonexact/reordered tables, inconsistent
+cell sums and nonpositive reconstructed states, then exactly rechecks
+every full table entry. It does not clip or fit incompatible input.
+Three distinct resolved binary settings are minimal: with q known,
+k settings span at most k Bloch axes per cell. Resolved randomized
+selectors count as their actual settings; cuts add only q.
+
+The new TerminalResult retains its exact pre-read State, complete
+context and calibration, all earlier records, pending word, full
+(a,b,sign) terminal record, declared effect and conditional snapshot
+probability. It is not a State, has no postmeasurement residual, and
+is rejected by commands, cuts and further reads. No extra cell
+commitment is invented when the terminal read directly observes a
+cell/sign. A zero-weight selected result is refused without changing
+the source. Existing local/reference selection weights are unspecified,
+not inferred from their stored histories. Reconstructed kernels and
+retained source entries are mathematical/audit data, not additional
+read availability or a physical preparation claim.
+
+The tilted reconstruction establishes state observability under known
+commands and exact probabilities, not identification of an unknown
+generator/Hamiltonian, a physical time law, empirical independence,
+repeated preparations, finite-sample accuracy, a reusable read
+instrument, full QM, native geometry, rest mass or gravity.
+Endpoint filtering/inversion is not extended through singular mass;
+RI-08g's endpoint mass-dominated-effect obstruction remains intact.
+
+## RI-08i review and reproduction
+
+Main replay under Python 3.11.6, with bytecode writing disabled, passed
+**383 distinct scoped checks** normally and with optimization: all
+preceding 353 checks and 30 new exact terminal-read checks. This is the
+QR scoped total, not the coordinator's registered-witness count or a
+whole-checkout/release result.
+
+The independent test author used separate Gaussian-pair arithmetic,
+native-index loops, full native signed-span/effect certificates and
+exact rank calculations. The suite covers all 12/8/16 and 11/7/15
+dimension distinctions, the exact axes/determinant/inverse, positive
+Z/X sections and command/cut intertwining, hidden-X and pi-Z witnesses,
+the two-setting blind direction, and full unconditioned-on-cell table
+reconstruction. It rejects nonnegative but nonpositive-state tables,
+shared-mass disagreement, missing/reordered/duplicate labels/settings,
+nonexact values and endpoint frames. Zero-cell reconstruction uses no
+division. Homogeneous raw weights remain distinct from normalized
+probability tables.
+
+Typed witnesses check the new explicit availability/calibration premise,
+all eight outcomes and complete source identity, full prior provenance
+and actual nominal words, no invented cell commitment, exact effect and
+probability validation, zero-outcome and counterfeit-result refusals,
+and rejection of every primary continuation from TerminalResult.
+One-shot inputs and immutable strict metadata are covered. A known-word
+stop/read counter-policy establishes the initial-metadata qualification.
+Conditional current-snapshot weights are checked separately from an
+explicit preceding cut weight; unknown earlier preparation selections
+are not inferred.
+
+Main read the complete note and final model/tests. A separate read-only
+reviewer independently derived the theorem and reviewed all 378 note
+lines, 1,426 model lines, 877 final test lines, both map summaries and
+the detailed handoff result. That reviewer and the test author each
+independently passed all 30 new tests normally and with optimization.
+No proof, code or scope blocker remains. These are internal
+proof/source reviews and exact witnesses, not external peer review,
+proof-assistant verification or empirical validation. The universal
+finite-word and minimum-dimension results rely on the written proofs,
+not finite enumeration.
+
+Ruff lint and format checks pass. All 92 local link targets resolve,
+and scoped whitespace checks pass. All thirty accepted source pins and
+the three new pins were reverified with no drift. Final handoff review
+found no mismatch or overclaim.
+
+## RI-08i pins and acceptance boundary
+
+| File | SHA256 |
+| --- | --- |
+| TERMINAL_READ_OBSERVABILITY.md | ac00c0aa13b3b47c504b85ce9296d38ee16c5529a5c5932aca73c4e1f00ca1ad |
+| model.py | 0e60694bad07016886ec2451f4b17a5ac7dd24c089c8953dabb926620c8148d8 |
+| check.py | cf508d61ef6260926123185814edefdf4b5b8393880aab01ba0645cba0bd8f22 |
+
+Terminal read calibration/availability, known commands, the interior
+domain and any physical preparation access remain added premises.
+State observability does not identify an unknown generator or physical
+time, confer repeated preparation or finite-sample accuracy, specify
+an instrument, or establish full QM, native geometry, mass or gravity.
+Option B and Status M are unchanged. Accepted sources and other
+reserved lanes remain untouched by this owner. The coordinator has
+accepted and registered RI-08i. This handoff is source-quiet for centrally
+coordinated publication. No successor is designed or started.
 
 ## Historical RI-08h handoff — subsequently accepted
 

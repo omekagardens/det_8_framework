@@ -1,7 +1,7 @@
 # Operational premises, result boundaries and composition obligations
 
 13 September 2026. RI-13 coordinator consolidation of the accepted review
-implementation and QR results through RI-08h, including RI-15 interoperability. The
+implementation and QR results through RI-08i, including RI-15 interoperability. The
 [implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) and
 [progress record](REVIEW_PROGRESS.md) carry current ownership and acceptance.
 The [original review](../../indep%20ndent_review.md) remains a dated assessment.
@@ -80,6 +80,7 @@ have positive mass. These three uses of “dark” must not be conflated.
 | [RI-08f joint repeatability](../validation/t8-q-joint-repeatability-2026-09-13/JOINT_REPEATABILITY.md) | Fixed K_t reference/coupler image; positive full-span linear branches with exact first effects and the same return range. Algebraic return-operation availability is added explicitly. | Full-outcome repeatability has a strictly positive sharp defect; a coarse subsequent b question has a different optimum while full records remain. Relative-optimal branches are unique aligned-ray resets for nonzero t; t=0 and input-mass minimax have explicit non-reset counterexamples. |
 | [RI-08g minimal cut-closed completion](../validation/t8-q-cut-closed-completion-2026-09-13/CUT_CLOSED_COMPLETION.md) | Fixed supplied reference/coupler frame and explicit enlargement to the minimal convex cut-closed return cone L_t; separate fixed cut/read/stop catalogue. | Four independent positive blocks give span 16 and complete repeatable literal cuts. Interior mass is faithful; endpoint nonfaithfulness leaves positive dark payload. Whole-cone mass-dominated effects see internal blocks in the interior but collapse to weights at endpoints. Cut-only outcome laws use only the four weights throughout. |
 | [RI-08h reversible generators](../validation/t8-q-reversible-generator-2026-09-13/REVERSIBLE_GENERATOR.md) | Fixed interior L_t and an additional all-real strongly continuous group of real-linear cone automorphisms, positive with positive inverses and preserving mass. | Each block is invariant and admits a filtered Hamiltonian generator, unique modulo scalar. All four weights are fixed; cut-only outcomes cannot identify the twelve generator parameters. The finite-policy comparison also requires identical initial pending/nominal command metadata. No physical time, Hamiltonian selection or native dynamics is derived. |
+| [RI-08i terminal-read observability](../validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md) | Fixed known interior L_t, the supplied common-X command catalogue, and one additionally available exactly calibrated terminal internal read. Compare common finite policies at identical context, committed prefix, pending word and nominal metadata, without a raw-state observation oracle. | Mass-retaining homogeneous linear predictive ranks are 8/12/16 for X/transverse/tilted reads. Three resolved tilted-read settings uniquely reconstruct the full native state from compatible exact full-outcome tables, without division by cell mass. The result supplies neither a postmeasurement update nor empirical preparation/calibration, finite-sample accuracy or unknown-generator identification. |
 
 The general RI-06 closure can stabilize after at most the sum of the typed
 space dimensions in independent effect directions; rational data permits
@@ -309,15 +310,42 @@ only t=3/5 with six named common-X group elements. General generators,
 other unitaries and endpoint maps remain diagnostics. No physical time,
 Hamiltonian selection, energy units or native DET dynamics follows.
 
-**RI-08i has a source-stable handoff under independent review, not yet accepted.** It investigates an
-explicitly available calibrated terminal binary internal read. The candidate
-effect-span ranks are 8 for an X read, 12 for Z and 16 for a tilted axis,
-using the existing X-axis command group. A single tilted read with three
-resolved command settings has a candidate exact reconstruction and minimality
-certificate. This is state observability under known controls, not generator
-identification or finite-sample accuracy. Terminal records must retain the
-full pre-read source and metadata, leave any postmeasurement residual
-unspecified and refuse continuation; effects alone supply no reusable update.
+**RI-08i's conditional proof and source contract are accepted.** Under the
+known common-X commands, the backward span for a terminal axis n has
+per-cell rank `1+[n_x≠0]+2[(n_y,n_z)≠(0,0)]`. X, transverse and tilted
+read catalogues therefore have total homogeneous linear dimensions 8, 12
+and 16, with normalized affine dimensions 7, 11 and 15. Positive sections
+attain the reduced quotient cones. They are algebraic right inverses, not
+available resets or preparations. Minimality concerns mass-retaining linear
+summaries on the actual full span, not nonlinear encodings or an available
+preparation subset.
+
+The tilted axis `(3/5,0,4/5)` and separately resolved empty/A/AA words
+have determinant `−73728/78125`. Full outcome differences and shared cell
+sums recover each `(q,x,y,z)` and all entries of the native kernel. The
+exact table criterion requires shared q, `Σq=1`, nonnegative q and
+`q²≥x²+y²+z²`. Zero-mass cells reconstruct as zero without division.
+Three resolved binary settings are minimal in this catalogue; an observed
+random selector counts its distinct settings. Malformed or incompatible
+tables are refused without clipping or fitting. Exact probability tables
+are not observed frequencies or proof of repeated preparation availability.
+
+The all-finite policy equivalence includes commands, literal cuts, stopping
+and a single terminal read, with the same full initial context, committed
+prefix, pending word and nominal metadata. Policies cannot inspect retained
+raw audit payload. A read directly produces the full `(a,b,sign)` record,
+with no fictitious preceding cell commitment. Its typed result retains the
+exact pre-read source, calibrated effect and strictly positive conditional
+snapshot probability, specifies no postmeasurement residual, and refuses
+continuation. Earlier preparation-selection weights remain unspecified.
+An effect does not determine a reusable instrument.
+
+The universal statement covers fixed known interior t; the executable
+primary fixture is only t=3/5. It does not extend faithful filtering through
+singular endpoints. Known-command state observability does not identify an
+unknown generator, physical time or a DET-selected observation law. Final
+registration/replay evidence and source identities belong to the progress
+record, separately from these mathematical conclusions.
 
 ## 7. Application and project integration route
 
@@ -349,8 +377,8 @@ this ledger authorizes no bank change or release claim.
 
 **RI-14 is accepted.** The separate
 `det8.claims.research_activity_document()` endpoint now exposes versioned,
-fully detached scoped authorization and sixteen explicitly accepted suite
-references through RI-08h. The generated [claim registry](../CLAIM_REGISTRY.md)
+fully detached scoped authorization and seventeen explicitly accepted suite
+references through RI-08i. The generated [claim registry](../CLAIM_REGISTRY.md)
 shows the same metadata. Existing `claim_summary()` and `registry_document()`
 contents, broad evidence/development statuses, priorities and module support
 boundaries are unchanged. The endpoint performs no repository lookup,

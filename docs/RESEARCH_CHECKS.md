@@ -1,6 +1,6 @@
 # Explicit research check registry
 
-The [registry](research/registry.json) binds sixteen named standalone Q witness
+The [registry](research/registry.json) binds seventeen named standalone Q witness
 suites to their statement documents, premises, limitations and complete local
 executable source sets. The [runner](../scripts/run_research_checks.py) verifies
 those identities and executes only explicitly selected suites. It is separate
@@ -15,7 +15,7 @@ Test counts are descriptive execution metadata, not proof strength.
 
 ## Usage
 
-Run from the repository root with Python 3.11 or later. The runner and the sixteen
+Run from the repository root with Python 3.11 or later. The runner and the seventeen
 registered suites need only the Python standard library.
 
 ```sh
@@ -61,15 +61,16 @@ witness verification. Each suite has a manifest timeout of at most 60 seconds.
 | `joint-repeatability` | [JOINT_REPEATABILITY.md](validation/t8-q-joint-repeatability-2026-09-13/JOINT_REPEATABILITY.md) | `check.py`, `model.py` |
 | `cut-closed-completion` | [CUT_CLOSED_COMPLETION.md](validation/t8-q-cut-closed-completion-2026-09-13/CUT_CLOSED_COMPLETION.md) | `check.py`, `model.py` |
 | `reversible-generator` | [REVERSIBLE_GENERATOR.md](validation/t8-q-reversible-generator-2026-09-13/REVERSIBLE_GENERATOR.md) | `check.py`, `model.py` |
+| `terminal-read-observability` | [TERMINAL_READ_OBSERVABILITY.md](validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md) | `check.py`, `model.py` |
 
 Paths in the last column are relative to that row's validation directory. Five
 suites have no local imports. Coherent readout imports both its algebra and
 independent reference; registering its entrypoint alone would be incomplete.
 Controlled context, first-commit quotient, maximal record-domain,
 control-selected qubit, repeatable record instrument, joint recordability,
-repeatability robustness, joint repeatability, cut-closed completion and reversible
-generator each import their own local model. The only directly imported
-standard-library modules across these twenty-eight Python files are
+repeatability robustness, joint repeatability, cut-closed completion, reversible
+generator and terminal-read observability each import their own local model.
+The only directly imported standard-library modules across these thirty Python files are
 `collections.abc`, `dataclasses`, `fractions`, `itertools`, `math`, `types` and
 `unittest`.
 
@@ -330,6 +331,41 @@ availability, native dynamics, full QM, geometry, rest mass or gravity. Its
 direct imports use the same five standard-library modules as the preceding
 suite; the runner and seven-module allowlist remain unchanged.
 
+The seventeenth registration follows independent proof/source audits and
+coordinator acceptance of the terminal-read-observability handoff. Its three
+pins match the accepted bundle; all sixteen earlier objects are preserved.
+One additional available, exactly calibrated terminal read resolves eight
+full cell/sign outcomes. With the supplied common-X commands, backward-effect
+ranks on the full interior L_t span are 12 for a YZ read axis, 8 for an X
+axis and 16 for a tilted axis; normalized affine dimensions are 11, 7 and 15.
+These are minimum homogeneous mass-retaining real-linear predictive dimensions
+on the whole mathematical cone, not physical preparation or nonlinear encoding
+bounds. Finite-policy equivalence requires matching known context/calibration,
+full prefix, initial pending word and nominal-command metadata; known selectors
+and distinct command words remain retained.
+
+The all-interior proof is separate from the exact t=3/5 fixture, whose only
+primary read has axis (3/5,0,4/5). Empty, A and AA settings reconstruct every
+native entry from full outcome weights for the same supplied source. Three
+resolved settings are necessary on the whole domain; randomized retained
+selectors still count as distinct settings. Shared cell weights, unit mass
+and positive reconstructed blocks characterize exact compatible tables.
+Zero cells need no division, and incompatible tables are refused rather than
+fitted or projected. This is exact model consistency, not empirical frequency
+validation or finite-sample tomography accuracy.
+
+A terminal response retains the pre-read source and full metadata but specifies
+no postmeasurement residual or reusable instrument. Further commands, cuts,
+reads and resets are refused; zero-weight outcomes cannot be selected. No
+earlier preparation or history-selection probability is inferred. At polarized
+endpoints, mass-dominated effects still see only four weights, so the faithful
+interior inverse and full observability do not extend. Alternative X/Z reads
+and extra-control counterexamples are diagnostic, not primary operations.
+Read calibration/availability, the inherited domain and known commands remain
+supplied premises: no unknown Hamiltonian, physical time, full QM, geometry,
+rest mass or gravity is identified. The runner and seven-module allowlist are
+unchanged.
+
 Every statement document and executable source has a pinned SHA-256. The
 manifest records a statement summary, explicit premises and limits separately
 from the check entrypoint. Document cross-references and external mathematical
@@ -358,7 +394,7 @@ executable evidence inventory, not a formal proof-dependency graph.
    output. Compare actual loaded sources with the declared source set. A
    conditional import may remain unexecuted: it still must be pinned and is
    listed in `unexecuted_declared_sources`. Static coverage does not claim every
-   branch or source executed. All local modules are loaded in the current sixteen
+   branch or source executed. All local modules are loaded in the current seventeen
    suites' ordinary runs.
 6. Check the manifest, all registered documents/code and runner bytes afterward.
    If registered bytes change, fail the overall result and stop before starting
@@ -399,7 +435,8 @@ changed statement as interchangeable with the old one.
 The completed controlled-context, first-commit quotient, maximal record-domain,
 control-selected qubit, repeatable record instrument, joint-recordability,
 repeatability-robustness, joint-repeatability, cut-closed-completion and
-reversible-generator handoffs are now registered. Subsequent Q research still
+reversible-generator and terminal-read-observability handoffs are now registered.
+Subsequent Q research still
 requires a new independent handoff review before registration.
 Frozen bundles remain untouched; their own capture/replay procedures retain
 their separate evidential scope.
@@ -416,7 +453,7 @@ timeouts, explicit selection, snapshot execution and absence of cache writes.
 
 This runner regression file participates in ordinary `det8/tests` discovery.
 Its real-registry check is read-only; its execution cases use tiny temporary
-fixtures. It does not implicitly execute the sixteen research suites. The
+fixtures. It does not implicitly execute the seventeen research suites. The
 [RI-15 local-to-joint adapter](validation/t8-q-local-joint-adapter-2026-09-13/ADAPTER.md)
 and its separate coordinator launcher/tests use an explicit alias contract;
 they are not registered here or included in these suite/source/witness totals.
@@ -482,3 +519,17 @@ allowlist and the claim exporter are preserved. Explicit accepted-artifact
 references extend through RI-08h. Export parity, legacy canonical claim JSON
 digests, scoped Ruff check/format validation and local Markdown links pass.
 RI-15 remains a separate adapter contract and is excluded from these totals.
+
+Verification of the reviewed seventeenth registration: all 64 focused checks
+passed (43 registry regressions and 21 claim/summary checks). The source-only
+check validates seventeen suites and thirty local executable sources; the
+inventory contains 356 finite witnesses. The manifest SHA-256 is
+`aabf2b1a0a25bbb1511e33ad7e34ce63958e87bf224fa743c4c5b7369390c3c5`.
+Removing the new object reconstructs the exact preceding manifest
+`cab559036fe724ad78edd0beb7565586eb506515d24e4dc0dd4544074677f939`.
+All sixteen prior objects and pinned files, the runner/import contract and the
+exporter are preserved. Explicit accepted-artifact references extend through
+RI-08i; export parity and both legacy canonical claim JSON digests are unchanged.
+Scoped Ruff check/format validation and all 23 guide links pass. Complete
+coordinator replay results belong to the existing review-progress record;
+registration does not change broad claim statuses or physical evidence.
