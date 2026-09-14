@@ -1,5 +1,28 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+14 September 2026 UTC, upstream composition-premise audit: the
+[RI-20 note](../coordination/QR_COMPOSITION_PREMISE_PLAN.md) addresses original
+F3 without assuming PSD for the unknown kernel. It credits the known
+tensor-closed-class dichotomy: one admitted negative/nonreal event-pair
+resource excludes the nonnegative-entry alternative and forces containment
+in strong positivity. Equality and full QM do not follow. DET has not yet
+justified the required pre-PSD admission, arbitrary finite mutual/self
+composition and all-Boolean event-positivity premises.
+For a fixed allowed PSD probe/event family, with all base indicators included,
+K=closed cone{(RBR^T)^T} equals PSD_n iff its linear inequalities force every
+normalized Hermitian candidate to be PSD. A proper K yields a normalized
+non-PSD separator after a small identity shift. Finite fixed menus fail for
+n>=2; nonlinear self-powers and unbounded generated resources are different
+quantifiers. The zero-sum-safe rank-one helper and four-phase grouping make
+the rich-resource burden explicit. Both the positive-entry all-self-power
+countermodel and real-probe-blind/self-square-failing complex example remain.
+Existing PSD-built interfaces, exact recordability and process faithfulness
+do not discharge the missing premises. Records, live residuals and payload
+stay distinct. Independent complete mathematical, primary-source and repository
+reviews passed; 66 held identities match. Coordinator proof/audit acceptance is complete;
+no executor, new axiom, geometry/mass/gravity promotion or automatic successor
+is opened.
+
 14 September 2026 UTC, interface robustness design/proof: the
 [RI-19 note](../coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md) classifies all
 exactly calibrated positive full-C→C0 rank-one-effect branches as

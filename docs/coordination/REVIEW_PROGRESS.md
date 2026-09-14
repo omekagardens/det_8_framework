@@ -2681,3 +2681,75 @@ were excluded from this checkpoint. Fixed ancillary linear tests and nonlinear
 candidate self-powers must retain their different quantifiers. A returned
 proof still needs independent coordinator acceptance; no new executable,
 registry entry or physical composition premise is accepted by this dispatch.
+
+
+**RI-20 source-quiet handoff independently accepted**
+
+Entry HEAD/upstream was `7066f160c44118fe996ca180a11fea50ced88531`, tree
+`2d99e9dd72a163d8bc1f36578e18fc33ab0403ab`, with an empty index.
+QR returned exactly its four reserved Markdown paths and stopped. Root
+verified all four submitted digests, captured their bytes, and held the 66
+predecessor/design identities plus the published coordinator synthesis.
+Original review, registry, application corollary and broader source snapshots
+remain unchanged.
+
+Three independent complete coordinator reviews accepted the returned note at
+`a398d6d5551bba4f13eeee592751736e19cce6563915f5ed8e31740e91a9245f`.
+They separately checked mathematics, primary-source/repository claims and
+project/application boundaries, including all three QR summaries. The exact
+fixed-probe iff and normalized separation converse are sound. The complex
+transpose, cone closure, all-base-event premise, strict positive-margin
+perturbation and unrestricted-candidate limit remain explicit. Finite fixed
+linear tests, nonlinear candidate self-powers and generated resource families
+are correctly separated. Countermodels and rank-one/four-phase constructions
+are sound. Primary theorem credit does not become native DET premise selection.
+
+The finite-menu obstruction concerns nonnegativity constraints. It does not
+rule out reconstructing a matrix from finitely many informative exact scalar
+values and then using nonlinear PSD analysis. That application distinction is
+now recorded in the premise ledger without assuming a measured apparatus or
+calibration contract. Native pre-PSD class admission, unrestricted independent
+composition and admission of an appropriate resource remain open.
+
+Root changed only reversible administrative acceptance passages in the four
+QR files. Reversing those substitutions recovers the exact submitted digests;
+no mathematical body changed. Final accepted identities:
+
+| Accepted document | SHA256 |
+|---|---|
+| `docs/coordination/QR_COMPOSITION_PREMISE_PLAN.md` | `389d1ff809a921f5af832ca197e6bca4e3810ef1d0c7943193c5b6b9c9d95971` |
+| `docs/coordination/QR_HANDOFF.md` | `87a2caf5902422af1bdcca269bd80ec7163911cd5e6d87d2d920d0f80380b261` |
+| `docs/track_b/QR_MAP.md` | `5bafaa3a0da2bd54d54d62ea3f9604d17b1c9e8ef783f396aec9d80c3df35d95` |
+| `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md` | `4b4028de7c504628585cf5d78bd3445e947bdc80974afa59fa6a0bc872661e52` |
+
+The four-file reservation is released. A concrete successor emerged in review:
+a determinant event built from permutation histories can reuse the seed's two
+signed ancillary markers, so one seed suffices. The initial suggestion of
+distinct ancillary markers and multiple seed copies was unnecessary. Independent
+review of this improvement is separate from RI-20 acceptance. Root's temporary
+Fraction calculation checked all seven principal-subset events, both direct
+and padded to three candidate copies, for the original F3 countermodel, a
+third-order negative-minor example and a diagonal PSD control. The third-order
+event is −24/125. These are supplemental calculations for assignment design,
+not an accepted successor, executor or registered witness suite.
+
+Two independent preliminary reviews confirmed the one-seed construction,
+its principal-minor completeness and fixed-n padding. They preserve every
+principal subset, distinguish nonlinear original-input tests from fixed linear
+probes, and make no minimality or efficient/noisy measurement claim. RI-21 is
+selected for a full independently reviewed proof/design note with explicit
+resource/admission limits; actual dispatch follows publication.
+
+The eight-Markdown-path RI-20 candidate passes all 230 local-link targets and
+scoped whitespace/conflict checks. All 67 held statement/source/design/synthesis
+identities, six protected snapshots, 1,006 tracked paths outside this scope and
+all 965 unrelated pre-existing untracked paths remain unchanged. Submitted QR
+bytes are exactly recovered by reversing administrative acceptance edits.
+No predecessor execution is replayed; the registry remains unchanged.
+
+
+Final independent publication/status review accepted all eight candidate
+identities and verified the reversible QR acceptance substitutions. The ledger's
+older RI-20 assignment section is explicitly labeled historical; section 12
+carries its acceptance. RI-21 remains a selected proof target pending actual
+dispatch after publication.

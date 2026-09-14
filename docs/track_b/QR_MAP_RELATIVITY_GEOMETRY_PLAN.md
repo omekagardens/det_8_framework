@@ -3,6 +3,28 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**RI-20 upstream premise audit, conditional proof only:** the
+[composition note](../coordination/QR_COMPOSITION_PREMISE_PLAN.md) identifies
+a known route from an independently admitted pre-PSD class to strong
+positivity: arbitrary finite tensor closure and one negative/nonreal
+event-pair resource exclude the nonnegative-entry alternative. It does not
+prove DET supplies those premises or that the resulting class is all QM.
+The exact fixed-probe test-cone criterion and normalized separator show
+precisely when restricted ancillary event tests can force PSD. Fixed finite
+menus, candidate self-powers and finitely generated unbounded/continuous
+resource families are distinguished. Event positivity is not exact
+recordability or apparatus availability; the existing conditional PSD and
+faithful-preparation constructions cannot be silently substituted.
+The next unproved arrow is the admission/composition contract itself, not
+another instrument or finite identifiability example. Independent complete
+mathematical, primary-source and repository reviews passed; 66 held identities
+match. Coordinator proof/audit acceptance is complete. No global axiom, executor or
+automatic successor is assigned.
+Complex-field selection, full operational reconstruction, native F/L and
+kinematic geometry remain separate obligations. The primitive-input test,
+Option B and metric-as-record Status M are unchanged; no physical time,
+rest mass, Einstein dynamics or gravity conclusion follows.
+
 **RI-19 exact admission and approximate-law stability, design/proof only:**
 the [new note](../coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md) separates
 small repeatability error, exact C0-range admission, typed executable

@@ -1,4 +1,97 @@
-# QR research handoff — interface robustness design/proof
+# QR research handoff — composition-premise audit and probe criterion
+
+14 September 2026 UTC. **RI-20 CONDITIONAL_PROOF_AND_PREMISE_AUDIT;
+INDEPENDENTLY_REVIEWED; COORDINATOR_PROOF_AND_AUDIT_ACCEPTED.**
+The sole new artifact is
+[QR_COMPOSITION_PREMISE_PLAN.md](QR_COMPOSITION_PREMISE_PLAN.md).
+The only other edits are this handoff and the existing QR map and
+relativity/geometry plan. No executor, test source, dependency, registry
+entry or source-pinned execution is added. Coordinator owns all git/index
+operations and separate acceptance/publication.
+
+RI-19 is accepted and published at
+`f6b8f18f8d7aa739c5b78209b7f69a5c1db87f67`, tree
+`1c8fd36d726a9f7e9aa1fbacc2244b0ad1c6c048`, with accepted note SHA256
+`e0e13b6102b7b17cdff008ba86675136d55fb0ddeee5cc12acce53151ce04770`.
+The older RI-19 submission digest below remains historical. The coordinator
+published the RI-20 assignment and
+[connected synthesis](../research/PROOF_SYNTHESIS_AND_PREMISE_SELECTION.md)
+at `5a73cef979ca35b596728cc498127506159837f8`, tree
+`9184647cc2c38aad1e75e23105d770836fc270f5`; the accepted synthesis SHA256 is
+`2d24326ca579c6b3d940d796c213a5f3577a0348e93ad47b9075d37e6b0ed82a`.
+These publication identities were verified by the coordinator, not by new
+git operations in this task.
+
+## RI-20 result and premise decision
+
+The note credits Dowker–Wilkes Theorem 4: a tensor-closed class of weak-positive
+systems lies in S or R+. One admitted negative/nonreal event-pair resource
+excludes R+, giving containment in S, not equality. All-S probes and Galois
+self-duality are not needed for this containment inference. Boës–Navascués
+Lemmas 2–3 provide the distinct finite-copy limit and tailored quantum-probe
+route. A positive off-diagonal entry alone does not exclude R+.
+
+For fixed independently specified PSD probes B and Boolean event incidence R,
+the exact linear test is Tr(DT) with T=(RBR^T)^T. Including every base
+indicator, the closed conic hull K of these T forces all normalized Hermitian
+test-positive D to be PSD iff K=PSD_n. A proper K has a non-PSD separator D0;
+adding sufficiently small delta I makes total-entry mass positive while
+retaining a negative eigenvalue, allowing legal normalization. The proof
+keeps the complex transpose, closure, base-event and unrestricted-candidate
+hypotheses explicit. It does not apply to a restricted source cone unchanged.
+
+Finite fixed matrix/event menus are polyhedral and inadequate for n>=2.
+Candidate-dependent self-powers are nonlinear tests, outside that argument;
+a finite generating alphabet need not give finitely many realized tests.
+The rank-one appended-coordinate helper supplies every vv†, including
+zero-sum v, when arbitrary complex amplitudes are admitted. Four phases with
+continuous magnitudes and grouping can also suffice. These are mathematical
+resource constructions, not preparation or apparatus-availability theorems.
+
+Both countermodels remain: (J3-I3)/6 is weak positive, non-PSD and valid at
+every self-power; the matrix with diagonal 1/2 and off-diagonals i,-i passes
+all real PSD probes but fails its own square with event weight -3/2.
+The second is not a counterexample to unbounded tensor-closed-class selection.
+
+The repository audit finds PSD explicitly assumed by the pair-kernel and
+strict derivation. Fixed reference/coupler/recordability interfaces do not
+establish pre-PSD all-Boolean tensor closure. A particular admitted PSD
+interference resource is not itself circular; its admission and class-wide
+closure still need independent justification. A postcoupler residual can
+be PSD yet not exactly recordable. Faithful process probes and faithful
+normalization mass do not imply the missing event-test resource richness.
+The full (R,Z) distinction and retained pair-kernel payload are preserved.
+
+The smallest unproved arrow is therefore a pre-PSD admission/composition
+contract: specify the actual class and justify its event positivity,
+independent product, arbitrary finite mutual/self closure and one admitted
+resource outside R+. If unproved, these stay additional candidate premises.
+No global axiom is adopted. Full QM, complex-field selection, purification,
+local tomography, instrument availability and native F/L remain separate.
+
+## RI-20 review and source-quiet boundary
+
+Complete independent mathematical, primary-source and repository reviews
+passed with no substantive blocker. Their final quantifier clarifications
+are incorporated: all nonrectangular Boolean joint events, class closure
+across carrier sizes and no minimal ancillary-dimension claim. Independent
+temporary exact arithmetic checked both countermodels' base events, a finite
+real-probe sample and the self-square negative event; it supplements the
+universal written proofs, not a new suite or registered/pinned execution.
+All 66 held predecessor/design identities match their entry pins. All 141
+local links resolve and scoped whitespace/conflict checks have zero findings.
+The four exact document identities accompany the source-quiet handoff.
+Coordinator proof/audit acceptance is complete; no accepted executable was replayed.
+
+No accepted source, launcher, registry, core/RET/application/bank or protected
+evidence is changed. No approximate executor, new operation family,
+QR-05BW–DO/coverage/noncollapse sequel, clocks, book, retired kappa-gravity,
+physical mass/geometry/gravity promotion or automatic successor is opened.
+The named premise gap is accepted as the audit result, not authorization
+to implement it. This assignment is complete; any successor needs a separate
+coordinator assignment.
+
+## Historical RI-19 handoff — accepted and published
 
 14 September 2026 UTC. **RI-19 DESIGN_AND_CONDITIONAL_PROOF_ONLY;
 INDEPENDENTLY_REVIEWED; COORDINATOR_PROOF_AND_DESIGN_ACCEPTED.**

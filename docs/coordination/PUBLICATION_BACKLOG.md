@@ -190,3 +190,19 @@ the reviewed candidate, all 101 scoped local links resolve, and the normal
 push/independent remote lookup succeeded. QR received the publication identity
 while retaining its active four-file RI-20 reservation; those files were not
 part of this commit and a returned result requires separate review.
+
+
+**RI-20 conditional proof/audit accepted — publication candidate**
+
+Three independent coordinator reviews accepted the returned proof and source
+ledger. Publication is scoped to eight Markdown paths: the new composition
+note and three QR summaries, root plan, premise ledger, progress and this
+backlog. Only reversible administrative acceptance wording changes the QR
+submission; its mathematical body remains intact. The accepted synthesis,
+original review, registry, application corollary and all predecessor sources
+remain held. There is no new executable or registered witness count.
+
+RI-21 is selected as the next bounded proof target: a constructive finite-copy
+principal-minor witness using one fixed signed resource. Dispatch follows
+publication of RI-20; its result and additional admission/composition premises
+are not accepted in advance.
