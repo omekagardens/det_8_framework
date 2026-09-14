@@ -181,3 +181,12 @@ executor or new registry entry is assigned. Three independent reviews accepted
 the synthesis; a final source/status review accepted the five-file candidate.
 The progress record carries the scope, preservation checks and subsequent
 publication identity.
+
+
+The five-path coordinator checkpoint is published in independently verified
+[5a73cef979ca35b596728cc498127506159837f8](https://github.com/omekagardens/det_8_framework/commit/5a73cef979ca35b596728cc498127506159837f8),
+tree `9184647cc2c38aad1e75e23105d770836fc270f5`. All staged identities match
+the reviewed candidate, all 101 scoped local links resolve, and the normal
+push/independent remote lookup succeeded. QR received the publication identity
+while retaining its active four-file RI-20 reservation; those files were not
+part of this commit and a returned result requires separate review.

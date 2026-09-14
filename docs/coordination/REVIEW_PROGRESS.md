@@ -2664,3 +2664,20 @@ reservations and all 965 pre-existing untracked paths retain their entry
 identities. The only new coordinator path is the cited synthesis. QR's active
 four-file reservation is excluded from staging; a returned QR result requires
 separate acceptance. The five-path candidate is ready for scoped publication.
+
+
+**Consolidation and RI-20 assignment publication verified**
+
+[Commit 5a73cef979ca35b596728cc498127506159837f8](https://github.com/omekagardens/det_8_framework/commit/5a73cef979ca35b596728cc498127506159837f8),
+tree `9184647cc2c38aad1e75e23105d770836fc270f5`, publishes exactly the five
+reviewed coordinator Markdown files. Every staged document matched the final
+captured candidate; the 101-link and preservation checks described above
+passed. The normal push to origin/ret succeeded and independent remote-ref
+lookup returned the full commit. The index was empty afterward.
+
+The QR owner received the verified publication identity and accepted synthesis
+pin while continuing the existing RI-20 assignment. Its four active files
+were excluded from this checkpoint. Fixed ancillary linear tests and nonlinear
+candidate self-powers must retain their different quantifiers. A returned
+proof still needs independent coordinator acceptance; no new executable,
+registry entry or physical composition premise is accepted by this dispatch.
