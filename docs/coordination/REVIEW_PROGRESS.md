@@ -2615,3 +2615,52 @@ The normal push to origin/ret succeeded; independent remote-ref lookup
 returned the full commit above. The index was empty afterward. The QR owner
 received the verified publication identity and continues at the recorded
 source-quiet boundary with no implementation successor assigned.
+
+
+**Connected proof consolidation and RI-20 premise-selection dispatch**
+
+The hourly follow-through began from verified HEAD/upstream
+`8fd98734a721b07ec08fc5e5966e8c409f3bd715`, tree
+`165b2c9e6e5bf6b4e40725edf2bc11bd683fb953`, with an empty index and QR idle
+at its accepted RI-19 source-quiet boundary. Root captured all 66 accepted
+statement/source/design identities, the registry, original review, application
+corollary and all existing tracked/untracked content identities before editing.
+
+Root used the deep-research workflow and checked primary papers by
+Boës–Navascués (arXiv:1609.09723, Lemmas 2–3) and Dowker–Wilkes
+(arXiv:2011.06120v2, Theorems 2–4). The useful next question is whether DET
+supplies the hypotheses of an existing strong-positivity selection theorem.
+Tensor closure plus one resource with a negative or nonreal event-pair value
+forces containment in the strongly positive class; it does not establish
+equality with the full class, select complex scalars or prove availability.
+The existing positive-entry F3 countermodel survives all self tensor powers.
+
+The new [coordinator companion](../research/PROOF_SYNTHESIS_AND_PREMISE_SELECTION.md)
+connects the domain chain, bounded RI-16/18 closures, distinct input/suffix
+observation ranks, RI-19 admission/descent boundary and application precision
+limits. It leaves the original review and frozen finite-record synthesis
+unchanged. Current plan entries now mark the older synthesis complete and
+release the completed RI-18 source reservation; the premise ledger names
+actual remaining arrows rather than repeating closed bounded assignments.
+
+Root actually dispatched RI-20 to the existing Quantum Relativity thread.
+QR owns only new `docs/coordination/QR_COMPOSITION_PREMISE_PLAN.md` and its
+three existing handoff/map documents. The task audits the known closure route,
+actual DET resource/independence/event premises and an exact restricted-probe
+cone criterion, preserving all countermodels and normalization details.
+Root owns this checkpoint and every git/index operation. No approximate
+executor, predecessor-suite replay, registry entry or RET work is assigned.
+Three independent reviews accepted the synthesis's mathematics, primary-source
+attribution, connected argument and application limits. A final source/status
+review accepted all five coordinator files after the single-branch rank wording
+was clarified. The final synthesis SHA256 is
+`2d24326ca579c6b3d940d796c213a5f3577a0348e93ad47b9075d37e6b0ed82a`.
+No new executable test or registry witness is claimed for this proof synthesis.
+
+Root's scoped check resolves all 101 local links and finds no whitespace or
+conflict-marker issue. All 66 accepted statement/source/design identities,
+six additional protected snapshots, 1,005 tracked paths outside both current
+reservations and all 965 pre-existing untracked paths retain their entry
+identities. The only new coordinator path is the cited synthesis. QR's active
+four-file reservation is excluded from staging; a returned QR result requires
+separate acceptance. The five-path candidate is ready for scoped publication.

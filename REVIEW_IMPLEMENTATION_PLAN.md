@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is published in verified `ba12958`, independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. RI-19 interface-robustness proof/design is published in verified `f6b8f18` and independently accepted; its compatible-branch classification, exact observation rank and full-law stability bounds are complete. No approximate executor is assigned. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
+Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is published in verified `ba12958`, independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. RI-19 interface-robustness proof/design is published in verified `f6b8f18` and independently accepted; its compatible-branch classification, exact observation rank and full-law stability bounds are complete. RI-20 composition-premise/probe audit is now assigned to QR; the cited coordinator synthesis has passed three independent reviews. No approximate executor is assigned. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. QR has released its four-file reservation. Consolidation and the next premise-selection/application decision follow; no approximate executor is assigned. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. QR has released RI-19 and received the bounded RI-20 composition-premise/probe audit. The one-interference-resource closure route is prior mathematics; the task is to identify its missing DET premises and characterize restricted probe adequacy. No approximate executor is assigned. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -50,8 +50,8 @@ Active file reservations following the first implementation cycle:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-18 and RI-19 handoffs are accepted and their reservations released. Accepted sources, statements, designs and launchers remain stable. Reserve any successor explicitly; no QR implementation is currently assigned. |
-| Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/APPLICATION_WORK_PLAN.md`, maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md`, and RI-18 integration in new `scripts/run_qr_finite_protocol.py` plus `det8/tests/test_qr_finite_protocol.py`. |
+| QR task | RI-20 only: new `docs/coordination/QR_COMPOSITION_PREMISE_PLAN.md`, plus `docs/coordination/QR_HANDOFF.md`, `docs/track_b/QR_MAP.md` and `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md`. Proof/design only; accepted sources, statements, designs and launchers remain stable. |
+| Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/PUBLICATION_BACKLOG.md`, maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md`, and new `docs/research/PROOF_SYNTHESIS_AND_PREMISE_SELECTION.md`. RI-18 integration is complete and its source reservation is released; the application corollary remains unchanged. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -113,7 +113,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-08h | Reversible generators on the adopted completion | QR, with coordinator review | **Conditional theorem and exact bundle accepted and registered.** The added continuous reversible group premise gives four weighted block-unitary generators. Equal future laws require matched context, committed prefix and initial pending command metadata. Endpoint dark growth, transpose/divisibility and irreversible dephasing delimit the theorem. Two independent audits and 67 additional probes passed; root passed all 30 checks in both complete registry runs. Twelve mathematical parameters are not identified by the cut-only catalogue; no physical time, Hamiltonian selection or native dynamics is inferred. |
 | RI-08i | Minimal internal observation interface | QR, with coordinator review | **Conditional theorem and exact bundle accepted and registered.** Backward effect ranks 8/12/16 and positive sections establish the minimal full-span linear summaries. Three resolved tilted-read settings reconstruct every native entry from compatible exact tables, including zero cells without division. Full pre-read source/history retention, incompatible-table refusal and a terminal-only typed result pass both independent audits, 94 additional exact probes and all 30 new checks in each complete staged replay. State observability uses known calibrated controls/readout; generator identification, finite-sample accuracy and postmeasurement reuse remain separate. |
 | RI-08j | Observation stability and error-budget capstone | QR, with coordinator review | **Conditional theorem and corrected exact contract accepted and registered.** Sharp inverse-column bounds, axis conditioning, native endpoint singularity and feasible-set diameter proofs passed independent review and 63 exact probes. Raw audits now reject unbound metadata; typed sources retain exact matching history. Seven independent adversarial cases and all 28 registered capstone checks passed in each mode. A failed candidate remains inconclusive; no fitting, confidence or physical-availability claim follows. This closes finite-cone refinement for consolidation. |
-| RI-08 | F6/P4: one explicit operational reconstruction endpoint | QR | **Conditional finite-record synthesis assigned; full operational reconstruction remains dependency-gated.** Consolidate the accepted observability/stability endpoint, exact premises and construction arrows in one document. Preserve the distinction between known finite command matrices and the separate continuous-group theorem. Combined-proof review must retain physical selection, unrestricted instruments/composites, retained-word processes and measured-application gaps. |
+| RI-08 | F6/P4: one explicit operational reconstruction endpoint | QR | **Conditional finite-record synthesis accepted and published in verified `50d652f`; full operational reconstruction remains dependency-gated.** The frozen synthesis preserves its original premises and open bridges. RI-16 later closes the bounded retained-word extension and RI-18 one finite earlier-weight/type arrow. The new coordinator companion consolidates these closures with RI-19 while retaining physical selection, unrestricted instruments/composites and measured-application gaps. |
 | RI-09 | P5/P6/P7: unbounded records, native order law and geometry | QR | **Research backlog.** Begin with typed probability/schedule consistency and a native generator classification. Fixed finite chain-forming port budgets fail the volume-filling role. Unbounded width alone is insufficient. Require an actual limiting object and measure before a reconstruction claim. |
 | RI-10 | F8: complete the existing G2 integration chain | Coordinator with RET owner | **Scoped backlog.** Verified bank-only evaluator and shared evaluation logic; consumption/source bindings; development equivalence; full source-held development rehearsal, independent audit, final matrix/wheel. Preserve truth declarations, acceptance rules and separate freeze/custody obligations. |
 | RI-11 | F9: repair deferred applied comparisons | Coordinator | **Accepted for the scoped arithmetic/reporting contract.** Gaussian likelihood/BIC conditions, identifiable parameter limits, roughness and chronology repaired; causal winner outputs retired. Detected underflow and invalid grid losses refuse safely. Published in verified `f8339ea`; final isolated candidate passed 105 focused tests and 33 legacy checks; independent numerical, chronology and snapshot review passed. Its aggregate shape-norm correction preserves ordinary demos while refusing an unevaluable bank. Calibrated application performance and a clock-noise/interval-average model remain separate work. |
@@ -125,6 +125,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-17 | Finite protocol composition design | QR, with coordinator review | **Accepted design.** One complete finite policy, exact probability/type adapters, 66-coordinate fixture and refusal requirements passed mathematical/API review. Design evidence creates no new executable or witness count. |
 | RI-18 | Implement the accepted finite composition contract | QR bundle; coordinator launcher/integration | **Bounded theorem, source and pinned integration accepted.** Independent mathematical/source reviews and 65 supplemental source probes passed. The isolated publication candidate passed 65 launcher regressions, including exactly 31 actual protocol witnesses in each mode. Complete 66-coordinate mass/label accounting and the rank-two limitation hold under supplied operations/reference law; no general initial-state tomography or physical availability follows. The 411-witness registry remains unchanged. |
 | RI-19 | Robust admission across the local-to-joint interface | QR design/proof; coordinator acceptance | **Conditional proof and design accepted.** Complete C→C0 branch classification, exact defect/descent/ideal-limit criteria, near-ideal admission obstruction, full-law TV bounds and actual suffix/initial observation ranks passed mathematical/API review. Root corroborated the native map with 193 exact assertions. An independently reviewed application corollary proves target-specific inverse/error lower bounds. These are mathematical results; new approximate prefix/adapters remain unimplemented, with no executor or registry assignment. |
+| RI-20 | F3: composition premises and probe adequacy | QR proof/design; coordinator independent review | **Assigned after RI-19 publication.** Audit the known tensor-closure selection theorem, its actual DET resource/closure premises, and an exact restricted-probe cone criterion. Preserve positive-entry, real-probe and finite-depth countermodels. One new note and three summaries; no executor, registry entry, new global axiom or full-QM claim. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -170,9 +171,10 @@ control or reset fixture. The original review's larger obligations remain:
 DET selection of operational premises and one bounded measured application
 evaluation. RI-16 now supplies the retained-word first-commit extension under
 its fixed finite-input, stationary-policy and faithful l1-output premises.
-Arbitrary growing-history policies and complete earlier-weight/type
-orchestration remain separate. Instrument/data, target/tolerance and evaluation
-objective remain the named measured-application dependencies.
+Arbitrary growing-history policies and general earlier-weight/type
+orchestration remain separate; RI-18 supplies one complete bounded finite route.
+Instrument/data, target/tolerance and evaluation objective remain the named
+measured-application dependencies.
 
 The accepted consolidation artifact is
 `docs/research/FINITE_RECORD_OBSERVABILITY.md`: a short, independently
@@ -430,6 +432,40 @@ assignment; after resolving this interface, consolidate the connected argument
 rather than automatically adding another operation family. The next larger
    decision is a premise-selection theorem that excludes admitted countermodels
    or a measured application with a supplied calibration/evaluation contract.
+
+**RI-20 bounded assignment — composition-premise selection**
+
+Root actually dispatched this assignment to the existing Quantum Relativity
+thread after RI-19 was accepted and published at `f6b8f18`, with current
+coordinator checkpoint `8fd9873`. The
+[connected proof synthesis and premise decision](docs/research/PROOF_SYNTHESIS_AND_PREMISE_SELECTION.md)
+records the literature, construction arrows and remaining obligations.
+
+The QR deliverable is one new proof/design note under the four-file reservation
+above. Start with finite Hermitian biadditive normalized weakly positive
+kernels, without assuming PSD for the unknown candidate. Check the exact
+Dowker–Wilkes Theorem 4 inference: unbounded tensor closure plus one admitted
+negative/nonreal event-pair resource forces containment in strong positivity.
+Credit this known result and distinguish containment from equality, Boolean
+event positivity from recordable observations, and resource availability from
+an existing PSD representation. Boës–Navascués supply relevant composition
+and fixed-copy-depth results; the linked synthesis names the primary sources.
+
+Establish or correct the probe adequacy criterion using the closed cone of
+matrices T=(RBR^T)^T from allowed PSD ancillary resources and Boolean events,
+with base indicators included. Show precisely when the inequalities Tr(DT)≥0
+force normalized D to be PSD. Preserve the original positive-entry self-power
+countermodel, real/classical probe limitations and the distinction between a
+finite fixed menu and a finite gate alphabet with unbounded or continuous
+resources. Map each proposed hypothesis to a proven DET statement or an
+explicit addition; importing full QM to supply the probes is not an upstream
+derivation of its premises.
+
+Return independent mathematical review, a premise/countermodel decision table,
+exact four-file identities and a source-quiet handoff. Stop for coordinator
+acceptance. No accepted executable changes, predecessor-suite replay, new
+registration, RET work or automatic successor is assigned. Missing measured
+application data/objective choices remain independent dependencies.
 
 **Application decision**
 

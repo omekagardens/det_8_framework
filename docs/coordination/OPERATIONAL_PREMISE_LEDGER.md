@@ -474,12 +474,13 @@ inventory check does not execute the adapter; `--run` is explicit. The full
 contract requires the wrapper, not an extracted legacy object. This interface
 confers no new operation availability or public-core support.
 
-Further substantial proofs should close a named arrow in this ledger:
-an explicit internal observation interface, earlier-weight/full-protocol
-composition, a declared larger preparation/instrument class, or an extended
-first-commit observation interface. Each needs its own explicit premise set,
-countermodels, source-stable witnesses and independent acceptance. A union of
-accepted conditional results is not itself a reconstruction theorem.
+The internal observation interface, one bounded earlier-weight/full-protocol
+composition and the fixed-policy retained-word extension are now accepted;
+their stated wider generalizations remain open. The next substantial proof
+should address a named missing premise, such as resource/composition selection
+or a justified larger preparation/instrument class. Each needs its own explicit
+premise set, countermodels and independent acceptance. A union of accepted
+conditional results is not itself a reconstruction theorem.
 
 ## 8. Accepted retained-word first commitment — RI-16
 
@@ -607,3 +608,28 @@ error as βκ becomes small. It assumes a fixed known instrument and error
 budget, not measured calibration or sampling confidence. The next substantial
 choice is consolidation plus operational-premise selection or a measured
 application contract, rather than another automatic operation-family extension.
+
+
+## 11. Consolidated endpoint and upstream premise assignment — RI-20
+
+The [new coordinator synthesis](../research/PROOF_SYNTHESIS_AND_PREMISE_SELECTION.md)
+connects the accepted domain, full-law and retained-word results without
+altering the frozen earlier synthesis. It distinguishes the rank-16 supplied
+L_t observation map, rank-two ideal original-input law and rank-two-to-four
+imperfect original-input laws. Source audits are not additional observations;
+exact C0 output admission does not imply quotient descent.
+
+The next QR assignment audits strong-positivity selection upstream of this
+PSD-based chain. A known tensor-closed-class theorem, plus one admitted
+negative/nonreal event-pair resource, implies containment in strong positivity.
+The cited theorem is prior mathematics. Unbounded independent composition,
+full Boolean event positivity and availability of the requisite resource
+have not been derived from DET here. Positive-entry self-power models survive
+weaker premises; the complex field and full operational reconstruction remain
+separate. The assigned fixed-probe cone criterion is a research target pending
+QR proof/review, not an accepted consequence of current source code.
+
+The coordinator owns the connected synthesis and status; QR owns its one new
+composition-premise note and three handoff/map files. All accepted sources and
+the registry remain held. No new approximate executor, calibration bank or
+physical premise is adopted by this assignment.

@@ -163,3 +163,21 @@ reviewed Markdown files. Every staged document matched the captured candidate.
 The normal push succeeded, independent lookup returned this full origin/ret
 commit, and the index was empty afterward. No approximate implementation is
 assigned by publication of the theorem and design.
+
+
+**Current consolidation and RI-20 dispatch checkpoint**
+
+The cited connected-proof and premise-selection companion and scoped plan,
+ledger and progress reconciliation have passed independent review. It preserves
+the frozen original review and finite-record synthesis. RI-08's completed
+synthesis and the later bounded RI-16/18 closures are now accurately reflected
+in the current plan; old integration reservations are released.
+
+QR has actually received the four-file RI-20 composition-premise/probe audit.
+Its active files are excluded from the coordinator checkpoint. The known
+composition selection result is credited; missing DET resource/closure
+premises and restricted probe adequacy are the assigned work. No approximate
+executor or new registry entry is assigned. Three independent reviews accepted
+the synthesis; a final source/status review accepted the five-file candidate.
+The progress record carries the scope, preservation checks and subsequent
+publication identity.
