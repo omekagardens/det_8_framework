@@ -1,5 +1,26 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+14 September 2026 UTC, finite probability/type composition design: the
+[RI-17 plan](../coordination/QR_PROTOCOL_COMPOSITION_PLAN.md) specifies one
+complete finite route through the actual accepted interfaces. A legitimate
+nonzero-c C input undergoes the supplied reusable Y branch, which produces
+C0, then an actual local Z control. An independent expressly supplied
+reference-ready/unavailable law retains both outcomes and their weights.
+Successful paths enter RI-15's validated coupled source, before any terminal
+commitment, and require a missing lossless adapter to the explicitly adopted
+L_t type. A literal cut then selects a known empty/A command word from its
+record and ends in one scalar-only tilted read. Proposed weighted wrappers
+retain every raw entry, earlier probability, context/frame, origin/precursor
+and both distinct pending-word namespaces. They do not infer probabilities
+from snapshot provenance, project earlier C to C0, or inspect raw payload to
+choose a policy. The conditional mass proof and exact rational acceptance
+table are specified; the actual orchestrator and preterminal adapter are not
+implemented. **DESIGN_ONLY; CONDITIONAL_FINITE_PROTOCOL_CONTRACT.** Independent
+full mathematical and API/record design reviews passed, with incoming-mass,
+outcome-only controller and terminal-anchor requirements made explicit.
+Coordinator design acceptance is complete. This design creates no executor, registry entry, general SDK,
+RET/apparatus work, physical/empirical claim or automatic implementation.
+
 14 September 2026 UTC, retained-word first commitment: the new
 [RI-16 theorem](../validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md)
 extends RI-07's finite-full-label boundary under a fixed complete stationary
@@ -22,7 +43,8 @@ postread residual. Existing literal cuts retain their declared linear outputs.
 All 27 new exact checks pass normally and under optimization; independent
 full proof/source review found no blocker. The coordinator has accepted and
 registered the result after its own independent reviews, new-suite replay in
-both modes and 43 registry regressions. Scoped publication is pending in the
+both modes and 43 registry regressions. Publication was independently verified
+at 22eca4e7eb1b73b84db6fe3b6ff613df932b15c1, as recorded in the
 [handoff](../coordination/QR_HANDOFF.md). This closes no physical selection,
 general process-SDK, measured-pilot, full-QM or geometry/gravity obligation.
 No further finite-cone refinement or automatic successor is opened.
@@ -40,7 +62,7 @@ the separately implemented RI-15 wrapper and the explicitly enlarged L_t type.
 It does not assert one probability- and type-complete operational chain.
 At consolidation, the two open bridges were countably word-indexed first-commit
 output accounting and a measured comparator pilot. The former now has the
-conditional RI-16 submission above; the latter remains open. Independent combined-proof
+accepted conditional RI-16 theorem above; the latter remains open. Independent combined-proof
 and cross-arrow review found no remaining blocker. The synthesis is source-stable
 and accepted by the coordinator on 14 September 2026 UTC, then published at
 50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473. That document-only consolidation

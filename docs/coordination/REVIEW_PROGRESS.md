@@ -6,15 +6,15 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j and RI-16–17 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 finite protocol composition design is assigned and active. Review its actual probability/type interfaces before authorizing implementation. |
+| QR coordination / RI-05–08j and RI-16–17 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 finite protocol composition design is accepted. Dispatch the bounded RI-18 implementation after verified design publication, with root-owned launcher integration. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for nineteen suites.** Cumulative411 witnesses/34 executable sources: prior384 source-bound results with unchanged pins plus27 new RI-16 checks per mode. Full preflight and43 isolated registry regressions pass. | Preserve execution boundaries;411 is not a fresh all-suite replay. RI-15 remains separate; the deferred claims endpoint remains its explicit18-reference subset. |
 | RI-04 current mathematical certificates | **Accepted.** Eight research modules and narrow legacy groups reconciled; coordinator reran 141 focused cases successfully. Implementer reports 80 impacted legacy checks with no failures/errors/skips. MODEL_CARD current O1/O2 assessment is reconciled; Previous remains historical. | RI-11 is now accepted separately; general reconstruction/physical premise selection remains open. |
-| RI-11–12 applied work | **RI-11 complete publication candidate verified:** 105 focused tests and 33 legacy checks pass in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Publish the reviewed RI-11 scope. Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
+| RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest verified QR checkpoint: [22eca4e](https://github.com/omekagardens/det_8_framework/commit/22eca4e7eb1b73b84db6fe3b6ff613df932b15c1). Synthesis: `50d652f`; research/identifiability repairs: `38be4c0`. Each normal push to `origin/ret` was independently verified. Root owns git/index operations. | Complete RI-11 isolated integration and publish its exact scope; preserve active QR design work and the separately deferred baseline. |
+| Remote checkpoints | Latest application checkpoint: [f8339ea](https://github.com/omekagardens/det_8_framework/commit/f8339ea4a4ce886ddc4513d989a2cecbad9d8dca). Latest QR checkpoint: `22eca4e`; synthesis: `50d652f`; research/identifiability repairs: `38be4c0`. All pushed normally to `origin/ret` and independently verified. Root owns git/index. | Continue scoped publication after review, preserving QR reservations and the deferred baseline. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -2200,3 +2200,75 @@ unchanged working hashes are:
 | `det8/tests/test_ingestion.py` | `4056dbf30e61d435c3c164c362f2af2a4a2941e235a734f1cb0394e22598ecbf` |
 | `det8/tests/test_operational_scripts.py` | `05c697d88733a4dc008d9eaa2e995d455a959065e009534ab9ae82b592b9cdd4` |
 | `run_tests.py` | `819fc4e5cce73a3e5eabf970bdaa24931c1e480e7968471ac4d228e2ea0914de` |
+
+
+**RI-11 checkpoint pushed and remotely verified**
+
+[Commit f8339ea4a4ce886ddc4513d989a2cecbad9d8dca](https://github.com/omekagardens/det_8_framework/commit/f8339ea4a4ce886ddc4513d989a2cecbad9d8dca)
+publishes the twelve-path candidate and four coordinator documents. Its tree
+is `a2bcce4e6e3af3ad3b9c19aa6522368db70f1d7e`. Root verified the exact
+sixteen-path allowlist, every tested Python byte and updated Markdown byte,
+scoped whitespace/conflict markers and local Markdown targets before commit.
+The two clock scripts retain their executable working modes.
+
+The normal push advanced `22eca4e` to `f8339ea`; independent remote-ref lookup
+returned the full commit above. The index was empty afterward. The broader
+working ingestion/operational tests and runner retain their recorded hashes;
+the original independent review remains unchanged. QR's active RI-17 design
+and three map/handoff paths were excluded, as were all unrelated baseline,
+RET, downloader/IBM/polling and evidence changes.
+
+
+**RI-17 composition design accepted; RI-18 implementation scoped**
+
+QR returned the source-quiet four-document design handoff. Root read the
+complete design and all three summary deltas. QR obtained independent full
+mathematical and actual-API/record reviews. Separate root-side mathematical
+and integration reviews accepted final submitted design SHA-256
+`436013e51936146f6b36a2df7965be7c9428490bf65c17b55a1f21cf1d573524`.
+No implementation or new witness suite was included.
+
+Two root review corrections are explicit in that final source: selected
+branch accounting includes incoming mass exactly once, and the cross-model
+equality uses the actual raw matrix and exact Fraction arguments. The only
+adaptive decision receives (a,b), because even a read-only full joint record
+would expose source kernels through its context. The final contract retains
+one selected reference record and full preceding terminal/stop audit anchors.
+The integration review additionally freezes the implementation to its declared
+empty-prefix/root-weight boundary: fixture-specific IDs must not accompany
+unrestricted history acceptance. That precision is in the RI-18 assignment.
+
+The conditional theorem composes the supplied local Y/Z maps, independent
+ready/unavailable law, exact preterminal coupling, expressly adopted L_t
+return, literal cut, record-selected empty/A word and scalar terminal read.
+It is a positive finite scalar-output map preserving incoming mass. The
+primary legitimate nonzero-c input reaches C0 through an actual branch, not
+projection. Existing APIs do not yet supply the weighted orchestration or
+lossless RI-15-to-i conversion; the plan specifies those two missing pieces.
+
+Independent exact algebra supports all displayed probabilities: 64 read-path
+coordinates plus two stops, with 16 positive reads totaling 2/3, two stops
+4/15 and 1/15 totaling 1/3, and 48 zero read coordinates. Zero coordinates
+create no selected source/record. This design arithmetic is not an executed
+multi-API protocol, physical availability result or a new test count. The
+registered inventory remains 411 witnesses with prior source identities.
+
+Root changed only one administrative status fragment in each QR document.
+Reversing each substitution reconstructs its full reviewed digest; the
+mathematical/design body is unchanged. Final accepted identities:
+
+| Accepted design/status source | SHA-256 |
+|---|---|
+| `docs/coordination/QR_PROTOCOL_COMPOSITION_PLAN.md` | `ae4558101ec1b1fa48c1f1eb259755a2af8c45a9f9887d59e9b0f3602615a696` |
+| `docs/track_b/QR_MAP.md` | `8b385cf0c37e35237c56f572d91bbf37648cb210ae6a1fb46fd3f70873d644aa` |
+| `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md` | `5f1ca33b5ba47661ec0e1f86b0371b8136c49166b2449c0941c0e7373c33a846` |
+| `docs/coordination/QR_HANDOFF.md` | `1575a93a49547b064fb4c7300f2ac2837e42a73853477e05f4edf28922c292cf` |
+
+The next bounded assignment is RI-18, recorded in the root plan for dispatch
+after verified design publication. QR owns three new bundle files and its
+three summaries; root owns the separate six-alias launcher/regressions and
+git/index. The accepted plan and all dependencies remain fixed. A temporary
+author check loader does not constitute accepted launcher integration.
+Independent proof/source review, exact finite-law/refusal checks and isolated
+pinned execution are required before implementation acceptance. No broader
+SDK, RET work, measured pilot or physical reconstruction is assigned.

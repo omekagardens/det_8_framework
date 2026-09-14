@@ -1,4 +1,91 @@
-# QR research handoff — retained-word first commitment
+# QR research handoff — finite protocol composition design
+
+14 September 2026 UTC. **RI-17 DESIGN_ONLY; INDEPENDENTLY_REVIEWED;
+COORDINATOR_DESIGN_ACCEPTED; IMPLEMENTATION_NOT_ASSIGNED.**
+The single new artifact is
+[QR_PROTOCOL_COMPOSITION_PLAN.md](QR_PROTOCOL_COMPOSITION_PLAN.md).
+It was separately assigned after RI-16 publication at remotely verified
+22eca4e7eb1b73b84db6fe3b6ff613df932b15c1,
+tree 0078050a51566498254b472e21609e86b996753c. RI-16's accepted note hash is
+`5af27962b038b219bc852c9abd77d99e71f086f03cbf8a8e35fd3c447e4c0a2f`;
+its model/check and all prior accepted sources remain unchanged.
+
+## RI-17 contract and exact missing work
+
+The design traces actual c/d/RI-15/i APIs and their distinct Python classes.
+The primary full-C source has rho0=(I+3Y/5)/2 and c=1/20. Its supplied
+reusable Y branch returns local weights 4/5 and 1/5 and produces C0 as an
+output property. Actual local Z then leaves a retained pending Z word.
+An independently supplied reference selector/preparer gives ready R_(3/5)
+with weight 2/3, or a recorded unavailable outcome with weight 1/3 and an
+explicit scalar stop. No reference state is fabricated on failure; no weight
+is inferred from snapshot provenance. Root weight one is an explicitly
+conditional starting boundary, not a claim about earlier preparation success.
+
+Successful paths use the accepted RI-15 prepare/promote/couple/promote route,
+then a proposed adapter consuming its **preterminal coupled JointSource**.
+The adapter must bind every native entry and all source/context metadata to
+the same K_t kernel under the expressly adopted L_t return contract.
+It does not call the old terminal commit and retag its result, recouple,
+project c away, or replay the local pending Z. The original BridgeContext
+stays in a new weighted envelope; new i.State pending starts empty because
+the joint A/B command vocabulary is a different namespace.
+
+One lawful L_t literal cut produces the full alpha=(a,b) record. The only
+adaptive command table maps a=0 to empty and a=1 to A. Its input is the
+outcome-only tuple, not even a read-only JointRecord that exposes raw kernels
+through Context. One tilted read then yields only a terminal scalar/record
+with pre-read audit data, never a new residual or continuation.
+
+The proposed conditional finite theorem composes positive linear branch maps
+and terminal effects and proves the sum of ready/read and unavailable/stop
+weights equals incoming mass. It distinguishes normalized-parent conditional
+probabilities from the cumulative incoming weight: Bx=m_in(x) p x_B.
+The complete fixture has 66 prospective law coordinates: 16 positive read
+leaves summing to 2/3, two stops 4/15 and 1/15 summing to 1/3, and 48 zero
+read coordinates. Zero coordinates supply no conditional source or event.
+All local/reference/cut/sign/word labels and origin-tagged precursors remain.
+
+Exactly two implementation gaps are identified: the finite weighted
+orchestration/reference-stop contract, and the lossless forward-bound
+RI-15-to-i preterminal source/context adapter. The plan gives explicit future
+source/launcher/regression paths and refusal requirements, not permission to
+create them now. A separate fixed-alias launcher would be needed; the current
+RI-15 four-alias source contract and general registry are not silently extended.
+RI-16's countable-word theorem does not supply either missing finite adapter.
+
+## RI-17 review, verification and stop boundary
+
+Independent full mathematical and actual-API/record reviews passed with no
+remaining blocker after their specific clarifications were incorporated.
+Read-only accepted-source arithmetic corroborates the complex local/native
+conversion, every K_t entry, branch probabilities and the displayed terminal
+table. This is design evidence, not an executed new multi-API orchestrator or
+a new witness suite. The proposed acceptance assertions are not reported as
+implemented or passed. Root's first mathematical review requested explicit
+incoming-mass normalization; that correction is incorporated. Independent
+review also clarified exact Fraction/matrix API parameters, the outcome-only
+controller view, one selected reference record per history and terminal/stop
+envelopes retaining their full preceding audit anchors. A terminal i result
+alone would omit original local pending/interface metadata; the proposed
+anchor chain explicitly preserves it. No old terminal is retagged.
+
+All 53 registered statement/source pins match, and the accepted synthesis
+plus five separate RI-15/launcher/runner dependencies match their entry
+identities: 59 checked, zero changed. Only this new plan and the three existing QR
+summary/handoff documents are in this task's edit scope. No code, executor,
+test source, registry, accepted bundle/synthesis, coordinator-owned file,
+core/RET/application source or protected evidence is changed here. No git/index
+operation. Final reviewed design SHA256:
+`436013e51936146f6b36a2df7965be7c9428490bf65c17b55a1f21cf1d573524`.
+All 117 local link targets across the four scoped documents resolve; scoped
+whitespace/conflict-marker checks have zero findings. No registered suite
+was replayed for this design and no new test count is claimed.
+All four files stop source-quiet for coordinator design acceptance.
+No implementation, general SDK, measured pilot, physical operation/benefit,
+QM/geometry/mass/gravity promotion or automatic successor is assigned.
+
+## Historical RI-16 handoff — accepted, registered and published
 
 14 September 2026 UTC. **RI-16 ACCEPTED_AND_REGISTERED_BY_COORDINATOR.**
 The completed bundle is
@@ -100,7 +187,8 @@ preflight validates nineteen suites and thirty-four executable sources;
 the cumulative 411-witness inventory is not a fresh all-suite replay.
 The registry metadata also passed independent review. Only the note's two-line
 acceptance status differs from the reviewed submission; the mathematical body
-and executable sources are unchanged. Scoped publication is pending. Final
+and executable sources are unchanged. Publication was subsequently verified
+at 22eca4e7eb1b73b84db6fe3b6ff613df932b15c1 on origin/ret. Final
 registered identities are:
 
 | File in the RI-16 bundle | SHA256 |
@@ -116,9 +204,9 @@ record-formation law, QM, time, order, geometry, mass or gravity. Earlier
 preparation/reference-selection probabilities and the measured comparator
 pilot remain separate dependencies. No new finite-cone refinement, RET,
 apparatus/bank work or automatic successor is started. The bundle and three
-QR summaries remain source-quiet for scoped
-publication; git/index/registry and acceptance decisions remain with the
-coordinator.
+QR summaries were held source-quiet through that scoped publication.
+Git/index/registry and acceptance decisions remain with the coordinator;
+RI-17 was separately assigned afterward, as recorded above.
 
 ## Historical RI-08 consolidation handoff — accepted and published
 

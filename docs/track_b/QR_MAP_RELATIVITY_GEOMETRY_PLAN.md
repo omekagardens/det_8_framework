@@ -3,6 +3,29 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**RI-17 finite protocol composition, design only:** the
+[new plan](../coordination/QR_PROTOCOL_COMPOSITION_PLAN.md) traces one full-C
+local source through an actual reusable branch into C0, independent reference
+selection, RI-15 preterminal coupling, the same raw K_t kernel under an
+explicit L_t return contract, one reusable cut, record-only command choice
+and one terminal read. It identifies the missing weight-carrying orchestrator
+and exact RI-15-to-i source/context adapter, including the different local
+and joint pending-command vocabularies. Supplied readiness and root weights
+are separate from normalized snapshots and provenance. Reference unavailability
+is an explicit stop, not dropped probability; validation failures are contract
+errors, not new physical outcomes. All prior records, native payload and
+origin-tagged precursors survive, while terminal results acquire no residual.
+The proposed finite conditional mass theorem has a concrete rational fixture:
+sixteen positive read leaves total 2/3 and two unavailable stops total 1/3.
+Independent full mathematical and API/record design reviews passed. Exact
+incoming-weight accounting, outcome-only controller input and full terminal
+audit anchors are explicit; coordinator design acceptance is complete.
+This sitting creates no executor,
+new witness suite or SDK and does not authorize the proposed implementation
+paths. The measured pilot, operational availability, native order/growth law,
+geometry and physical interpretation remain separate. Stop for design acceptance;
+there is no automatic implementation or successor.
+
 **RI-16 retained-word first commitment, accepted and registered:**
 the [new conditional theorem](../validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md)
 addresses the specific unbounded-command-word gap named by the synthesis.
@@ -20,13 +43,15 @@ There is no rate uniform across all policies. Scalar terminal effects do not
 supply reusable residuals; existing literal cuts retain their lawful types.
 Independent proof/source review and 27 focused normal/optimized checks pass.
 Coordinator proof/source reviews and isolated new-suite replay in both modes
-also pass, with 43 registry regressions; scoped publication remains pending.
+also pass, with 43 registry regressions. The coordinator published and verified
+22eca4e7eb1b73b84db6fe3b6ff613df932b15c1 on origin/ret.
 This is not a complete operational
 or physical theory: policy availability, earlier selection probabilities,
 general history orchestration and the measured comparator pilot remain
 separate dependencies. No native order/growth law, manifold limit, physical
-time, mass or gravity conclusion follows. The assignment stops for acceptance
-without a new finite-cone refinement, generic SDK or automatic successor.
+time, mass or gravity conclusion follows. That assignment completed without
+a new finite-cone refinement or generic SDK. RI-17 was separately assigned
+after publication and remains a design-only contract above.
 
 **RI-08 bounded consolidation, accepted 14 September 2026 UTC:**
 [Conditional observability and stability of a finite record cone](../research/FINITE_RECORD_OBSERVABILITY.md)
@@ -41,7 +66,7 @@ No global exclusion of earlier C inputs or terminal-to-reusable retagging
 is made. A complete operational chain still needs type/probability accounting.
 The consolidation named two open bridges: a word-indexed first-commit theorem
 retaining unbounded actual command words, now addressed by the conditional
-RI-16 submission above, and a measured pilot beyond exact
+accepted RI-16 theorem above, and a measured pilot beyond exact
 identifiability/synthetic comparator arithmetic, still open. Independent combined-proof
 and cross-arrow review found no remaining blocker. The source-stable synthesis
 was accepted by the coordinator and published at

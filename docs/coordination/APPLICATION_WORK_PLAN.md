@@ -9,9 +9,9 @@ changed for this design.
 
 Publication is tracked separately in the
 [publication backlog](PUBLICATION_BACKLOG.md). The exact identifiability module
-and its 108 tests are published in verified checkpoint `38be4c0`. RI-11 now
-has a complete independently reviewed chronology/consumer publication
-candidate, with 105 focused tests and 33 legacy checks passing in isolation.
+and its 108 tests are published in verified checkpoint `38be4c0`. RI-11 is
+published in remotely verified `f8339ea4a4ce886ddc4513d989a2cecbad9d8dca`,
+with 105 focused tests and 33 legacy checks passing in isolation.
 The synthetic comparator's RET import closure remains a separate unpublished
 prerequisite; its local acceptance does not make that consumer available
 from the remote branch.

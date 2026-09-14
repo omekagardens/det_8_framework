@@ -10,10 +10,10 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 composition design is assigned. Review its probability/type contract before executor implementation; preserve accepted sources. |
+| QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 composition design is accepted and ready for this scoped checkpoint. RI-18 implementation dispatch follows verified publication; preserve accepted sources. |
 | RI-02/RI-04 kernel and certificate repairs | Published in verified checkpoint `38be4c0c941c62329b9175883748d4e586b9745e`: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Maintain the numerical/research limits; review later changes against this source identity. |
 | RI-12 exact identifiability | Published in the same checkpoint: `identifiability.py` and its 108-case test file. The mathematical contract was already published. | A measured application still needs data and an evaluation objective. No RET or core prerequisite for this exact interface. |
-| RI-11 applied comparison and clock reporting | Complete reviewed publication candidate passed 105 focused tests and 33 legacy checks in isolation. Includes the corrected aggregate shape-norm guard, dated legacy/modern chronology and exact clock-only test/runner snapshots. | Publish the verified candidate and record its remote ref. Preserve the documented numerical, stable-file and synthetic-mapping limits. |
+| RI-11 applied comparison and clock reporting | Published in remotely verified `f8339ea4a4ce886ddc4513d989a2cecbad9d8dca`. Complete isolated candidate passed 105 focused tests and 33 legacy checks. Includes corrected shape-norm handling, dated legacy/modern chronology and exact clock-only test/runner snapshots. | Preserve the numerical, stable-file and synthetic-mapping limits. Measured application work still needs an instrument/dataset and evaluation objective. |
 | RI-12 synthetic comparator | Accepted locally; publication deferred for its actual RET import closure. | Resolve the existing RET baseline publication with its owner before publishing this consumer. No new RET implementation or bank work is assigned. |
 | RI-14 claims and generated reference | Accepted locally; unchanged whole-file publication would advertise missing public-core/RET surfaces and depend on unpublished contract changes. | Retain the existing research registry as the published research interface. Revisit claims with the corresponding baseline/support decision. |
 | RI-01 landing/status reconciliation and broader baseline | Accepted local reconciliation does not publish the source-bound core/RET evidence it describes. | Review prerequisites separately; preserve the unrelated working tree. |
@@ -50,9 +50,10 @@ on unrestricted real parameters. It returns either a row-space reconstruction
 or an exact nullspace counterexample. It does not provide noisy confidence,
 physical feasibility, model selection or measured application benefit.
 
-**RI-11 complete publication candidate**
+**RI-11 complete publication checkpoint**
 
-The completed scope contains six application/script modules, four focused
+Verified commit `f8339ea4a4ce886ddc4513d989a2cecbad9d8dca` publishes
+the completed scope: six application/script modules, four focused
 test files, exactly two changed legacy runner groups and the corrected
 application document. The shared validation helper is already published.
 Runtime needs only the standard library and published package/helper sources;
