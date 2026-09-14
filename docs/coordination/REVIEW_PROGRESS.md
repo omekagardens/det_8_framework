@@ -3104,3 +3104,58 @@ should respond to new evidence or another concrete unblocked review item,
 not refresh held digests or repeat completed proof/catalogue work merely to
 create an update. This final publication record changes only root plan,
 progress and backlog, leaving the complete RI-24 source candidate unchanged.
+
+
+**RI-25 approved interface received and actually dispatched**
+
+The user approved a small qubit-and-record experiment in **DET Conditions
+Explained** and explicitly sent that direction to this coordinator. This
+supersedes the earlier unresolved-interface gate for the bounded model;
+ordinary trace-one qubits, Born effects and specified projective updates
+may now be adopted as premises. Success is a useful coherent model or theorem,
+not derivation of all QM, time or gravity.
+
+At entry, HEAD was `6a96c7d225e547fdd6e13a2663fb97547b0d7bc5` and QR was
+idle. The index was empty and all 75 held predecessor/RI-24 identities and
+six protected identities matched. Root chose ordinary XYZ tomography with
+an explicit C0 embedding and withheld W=(0,3/5,4/5), rather than claiming
+the generic apparatus realizes the accepted four-cell L_t theorem. Independent
+math/DET-bridge reviews confirmed the phase convention, normalization change,
+fresh-preparation requirement and separate sequential Lüders example.
+
+Root actually assigned the complete specification/simulator/record format/
+training-only inference/withheld scoring/tests to the existing QR thread.
+Its reservation is the new isolated `docs/experiments/qubit_record_v1/`
+bundle plus its three existing handoff/map files. Root owns coordinator
+metadata and data-source work; all git/index operations remain centralized.
+No accepted source, registry count, public core or RET implementation is
+changed by this assignment. Source-quiet return and independent acceptance
+are required; a simulated success is not accepted in advance.
+
+The separate uncertainty review established the explicit binary-read-then-
+erasure midpoint/budget rule, including outcome-dependent erasure without
+detected-only renormalization. Fixed-sample Hoeffding/union allocation supplies
+an optional sampling layer under independent-shot assumptions. Calibration
+and preparation drift remain separate supplied bounds; the actual calibration
+condition controls average per-trial effect error, not merely error of an
+average effect when source and apparatus can covary. The simple Bloch-box
+feasibility witness and the distinction between physical estimates and
+compatible witnesses were sent to QR while implementation continued.
+
+Root's [data/follow-up note](QUBIT_DATA_AND_FOLLOWUP.md) identifies the public
+KIT qubit-tomography candidate and its exact limits: compressed scientific
+payload uninspected, shot/calibration provenance unverified, and documented
+XYZ measurements without the required additional W batch. It records the
+request-only angled-measurement lead without claiming acquired data. No
+provider contact, account query, hardware job or measured evaluation occurred.
+The voltage-comparator direction remains the practical RET application; the
+expanding/contracting observer-signal model is queued after this primary
+deliverable and needs a separate proposed actualization rule for any additional
+geometry prediction. The originating discussion assistant received an
+acknowledgement; its no-monitoring instruction did not pause this project.
+
+This coordinator direction/readiness checkpoint is exactly four Markdown
+paths: root plan, progress, publication backlog and the new data/follow-up
+note. QR's active directory and summaries are excluded. The original review,
+application corollary, 75 held identities and unrelated baseline remain
+preserved. Complete returned implementation checks will be recorded separately.

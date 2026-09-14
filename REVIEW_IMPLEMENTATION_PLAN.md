@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is published in verified `ba12958`, independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. RI-19 interface-robustness proof/design is published in verified `f6b8f18` and independently accepted; its compatible-branch classification, exact observation rank and full-law stability bounds are complete. RI-20 composition-premise/probe audit is independently accepted and published in verified `0bd4d46`: the exact normalized adequacy criterion is proved, while native admission/composition premises remain open. The cited coordinator synthesis is published in verified `5a73cef`. RI-21 is independently accepted and published in verified `14eba18`: one fixed signed seed and at most n candidate copies give a complete principal-minor event criterion under supplied preparation/composition premises. RI-22 is independently accepted and published in verified `ad3c8dd`: scalar independence and complex marginals leave the ordinary event-pair tensor law undetermined. RI-23 is accepted and published in verified `0410ccd`: exact scalar reconstruction and deterministic certificates retain the acquisition gap. RI-24 is accepted and published in verified `db803fb`: a durable 71-file integrity inventory and read-only checker passed 94 isolated regressions without research execution. No automatic QR successor or approximate executor is assigned. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
+Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is published in verified `ba12958`, independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. RI-19 interface-robustness proof/design is published in verified `f6b8f18` and independently accepted; its compatible-branch classification, exact observation rank and full-law stability bounds are complete. RI-20 composition-premise/probe audit is independently accepted and published in verified `0bd4d46`: the exact normalized adequacy criterion is proved, while native admission/composition premises remain open. The cited coordinator synthesis is published in verified `5a73cef`. RI-21 is independently accepted and published in verified `14eba18`: one fixed signed seed and at most n candidate copies give a complete principal-minor event criterion under supplied preparation/composition premises. RI-22 is independently accepted and published in verified `ad3c8dd`: scalar independence and complex marginals leave the ordinary event-pair tensor law undetermined. RI-23 is accepted and published in verified `0410ccd`: exact scalar reconstruction and deterministic certificates retain the acquisition gap. RI-24 is accepted and published in verified `db803fb`: a durable 71-file integrity inventory and read-only checker passed 94 isolated regressions without research execution. The user has now supplied the next concrete interface: RI-25 adopts an ordinary single-qubit model, explicit DET embedding and withheld-setting prediction experiment. Its scoped specification/simulator/record/inference work is authorized below; this does not reopen full-QM derivation. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 is independently accepted, published in verified `ad3c8dd` and source-quiet; its explicit countermodel proves the listed scalar-independence premises leave ordinary tensor factorization undetermined. Its reservation is released. A named premise/acquisition interface is required before another QR assignment; no automatic executor or successor is assigned. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 is independently accepted, published in verified `ad3c8dd` and source-quiet; its explicit countermodel proves the listed scalar-independence premises leave ordinary tensor factorization undetermined. Its reservation is released. The new user-approved ordinary-qubit measurement interface now supplies the next bounded assignment, RI-25. It includes a worked specification, simulator, trial-record contract and withheld prediction with independent review; earlier accepted results remain fixed. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -50,8 +50,8 @@ Active file reservations following the first implementation cycle:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | No active source reservation. RI-22 is independently accepted and returned source-quiet. All 71 accepted statement/source/design/synthesis/contract identities remain held. RI-22 is published in verified `ad3c8dd`; root owns the coordinator publication record. |
-| Coordinator directly | No active implementation reservation. The three-file RI-24 publication record is limited to this plan, `docs/coordination/REVIEW_PROGRESS.md` and `docs/coordination/PUBLICATION_BACKLOG.md`. The remotely published manifest, checker, tests and guide remain unchanged, as do all 71 prior held identities, original review, registry, premise/application ledgers, QR summaries and unrelated baseline. No research execution or QR successor is assigned. |
+| QR task | RI-25: new isolated `docs/experiments/qubit_record_v1/` bundle, plus `docs/coordination/QR_HANDOFF.md`, `docs/track_b/QR_MAP.md` and `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md`. Own the complete ordinary-qubit experiment specification, simulator, record format, inference/withheld evaluation and focused tests. Preserve all 75 held predecessor/RI-24 identities and leave git/index operations to the coordinator. |
+| Coordinator directly | This plan, progress and publication backlog; new `docs/coordination/QUBIT_DATA_AND_FOLLOWUP.md` for data-access/source findings and the separately queued voltage-comparator and geometry directions. Independently review the RI-25 model, uncertainty/DET bridge, simulator and withheld-data controls. QR owns its active bundle and summaries. Preserve the original review, accepted artifacts, application corollary, registry and unrelated working baseline. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -130,6 +130,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-22 | Scalar independence versus event-pair composition | QR proof/design; coordinator acceptance | **Conditional countermodel accepted.** Three independent coordinator reviews accepted the [complete note](docs/coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md), complex-bilinear extension, full marginals, scalar independence and separate real-map naturality. Imaginary lineality and bounded-effect collapse delimit its operational meaning. Full event-pair factorization remains a stronger premise; no physical replacement law, executor or full-QM inference follows. |
 | RI-23 | Scalar values and deterministic positivity certificates | Coordinator, independent review | **Conditional proof/design accepted.** The [scalar-value contract](docs/coordination/SCALAR_VALUE_ERROR_CONTRACT.md) proves the fixed-catalogue inverse, deterministic radius and sufficient universal PSD/non-PSD certificates after verified feasibility. Three independent reviews and exact example arithmetic passed. The full-domain bounded-effect obstruction leaves acquisition/calibration explicit. No measured dataset, executor, RET integration or physical availability is assumed. |
 | RI-24 | Durable accepted-file integrity inventory | Coordinator, independent review | **Accepted and published in verified `db803fb`.** The [durable inventory/checker](docs/coordination/REVIEW_SNAPSHOT.md) preserves 71 accepted-file identities at verified `5ec58e5`. Independent manifest/source reviews passed; root passed 94 isolated regressions and actual 71-file checks in normal/optimized Python with zero research execution. Match is supplied byte identity, not proof, authentication or whole-project coverage. Registry and accepted sources remain unchanged. |
+| RI-25 | Qubit-and-record worked experiment with withheld predictions | QR implementation; coordinator review | **New user-approved concrete interface.** Adopt trace-one qubit states and calibrated Born probabilities explicitly; implement fresh-preparation X/Y/Z inference, a withheld oblique setting, phase-separation and information-loss controls, records for every attempt and separate uncertainty budgets. Supply an explicit C0 bridge without claiming the four-cell L_t apparatus. Simulation is independent of later calibrated experimental data. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -548,7 +549,7 @@ exact arithmetic is allowed; no executor, registry entry, dependencies,
 predecessor replay, measured pilot, core/RET work or automatic successor.
 The known-scalar-value/error contract remains a separate application option.
 
-**Current premise/acquisition decision after RI-22 and RI-23**
+**Historical premise/acquisition decision after RI-22 and RI-23 — superseded by the approved RI-25 interface**
 
 The proof cycle is complete at its stated conditional boundaries. Resume QR
 for a named interface with its admitted domain, calibrated bounded outcomes,
@@ -620,3 +621,72 @@ subject to their actual project-specific prerequisites. No broad staging,
 commit, push or destructive cleanup was part of the first cycle. The later
 explicit user instruction now requires scoped commits and pushes during
 completed work updates, as specified above.
+
+
+**RI-25 user-approved directive — ordinary qubit and retained records**
+
+The user approved this direction in **DET Conditions Explained** and explicitly
+asked that it be sent to this coordinator. It supplies the named interface
+previously missing after RI-22/23. Success is a coherent, useful DET-compatible
+model or theorem; deriving all QM, time or gravity from ontology is not required.
+Ordinary qubit states, Born probabilities and specified instruments may be
+adopted as physical-model premises. Accepted earlier results remain unchanged.
+
+The primary route is ordinary single-qubit tomography with an explicit
+mathematical embedding J2(rho)=D(rho^T/2,0) into the accepted C0 section.
+Use trace-one rho=(I+r·sigma)/2, ||r||<=1, and declared bounded Born effects.
+This resolves the acquisition obstruction by an explicit restricted operational
+encoding; trace-one rho is not silently put into RI-23's total-entry-mass-one
+compatibility set. The generic apparatus does not implement the four-cell
+L_t construction, its filters or its 16-dimensional observation theorem.
+
+Train only on fresh comparable preparations measured in X, Y and Z. Freeze
+one oblique withheld setting, provisionally W=(0,3/5,4/5), before simulation
+or inference. Include opposite-phase preparations with identical Z laws and
+different Y laws, plus a generic mixed state. Fitting only X/Z must expose
+the unresolved Y direction rather than invent a phase prediction. A separate
+serial-measurement example uses explicit Lüders updates and demonstrates
+loss of access to an earlier state's phase; its later shots are not reused
+as independent tomography of that initial state.
+
+Records retain preparation/session/trial IDs, ordered actual commands and
+precursors, setting/frame, outcomes, calibration identity and detection/failure
+status. Keep all attempted acquisitions. Missing outcomes are not zeros,
+renormalized-away shots or inferred records. Stop unresolved serial trials
+when no failure/update law is supplied. Simulator truth and random state are
+separate from revealed observations; inference must not read withheld outcomes.
+Freeze predictions before scoring them, with a strict training-only interface
+and a test that changed withheld/truth data cannot change those predictions.
+
+Separate finite-count uncertainty, calibration bounds and preparation drift.
+Derive their contribution to deterministic probability/state bounds under
+explicit sampling and comparability premises. Compare the same observations
+with conventional tomography and report uncertainty, missingness, unresolved
+directions and model mismatch. No DET accuracy advantage is presumed.
+The contribution can be correct record accounting, a proved information-loss
+boundary or better-justified measurement selection.
+
+QR owns one isolated worked bundle with specification, simulator, documented
+record format, inference/withheld check and focused validation. Return exact
+source identities, actual checks and independent model/code review, then stop
+source-quiet for coordinator acceptance and scoped publication. No changes to
+accepted sources, registry totals, core/RET baseline, protected validation or
+calibration banks are assigned. A new standalone simulator is now expressly
+authorized; the previous no-successor text remains historical to the old gate.
+
+A calibrated experimental dataset follows when a suitable source is available.
+The coordinator will identify actual raw-data/calibration/access dependencies
+while the independent specification and simulation proceed. Preserve the
+voltage-comparator pilot as the practical RET direction: calibration/prediction
+quality and acquisition cost on suitable data, conventional baselines and
+withheld evaluation. No RET implementation is advanced in this primary cycle.
+
+A secondary exploration will model local observers exchanging signals in
+expanding/contracting supplied geometries, with local clocks and inferred
+redshifts. A proposed actualization-to-geometry rule must be specified
+separately before calculating its additional observable consequences. It is
+queued after the primary qubit deliverable and must not delay it.
+
+The originating discussion assistant's instruction not to monitor until the
+user checks in applies to that assistant. This project remains authorized to
+proceed, with existing follow-through and centrally coordinated commits/pushes.

@@ -333,3 +333,22 @@ reservation is released, and the final three-file coordinator record preserves
 the published manifest/checker/tests/guide and all earlier accepted artifacts.
 QR received an informational handoff with no new assignment. The premise/
 acquisition and measured-application dependencies remain unchanged.
+
+
+**RI-25 user-approved model and acquisition direction — coordinator checkpoint**
+
+The user supplied the next concrete qubit interface, and root actually
+dispatched its complete specification/simulator/records/withheld-prediction
+bundle to the existing QR task. The ordinary-qubit model and C0 bridge are
+explicit; they do not implement the four-cell L_t apparatus or claim native
+QM selection. The new simulator is now within the expressly approved scope.
+Its result, source and experimental claims require separate returned review.
+
+Root's four-file checkpoint comprises root plan, progress, this backlog and
+[data/access/follow-up findings](QUBIT_DATA_AND_FOLLOWUP.md). The active new
+QR directory and its three summaries are excluded. All 75 held artifacts,
+original review, registry, application corollary and unrelated/core/RET
+baseline remain unchanged. The public measured-data candidate does not yet
+supply a compatible withheld W batch; simulation is independent of that
+external data dependency. Voltage-comparator and secondary observer/geometry
+directions are retained without delaying or expanding the primary assignment.
