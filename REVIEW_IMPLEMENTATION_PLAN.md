@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is accepted; RI-18 implements its bounded missing adapters after this checkpoint is published. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
+Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 implementation is assigned and active with QR. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 is published in remotely verified `22eca4e`. RI-17 design has passed review. RI-18 will implement its exact finite weighted trace and preterminal adapter, with the independent acceptance and source boundaries below; dispatch follows verified design publication. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 is published in remotely verified `22eca4e`. RI-17 design has passed review. RI-18 is assigned to implement its exact finite weighted trace and preterminal adapter, with the independent acceptance and source boundaries below. Dispatch followed verified `ad04963` publication. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -125,7 +125,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 
 | RI-17 | Finite protocol composition design | QR, with coordinator review | **Accepted design.** One complete finite policy, exact probability/type adapters, 66-coordinate fixture and refusal requirements passed mathematical/API review. Design evidence creates no new executable or witness count. |
 
-| RI-18 | Implement the accepted finite composition contract | QR bundle; coordinator launcher/integration | **Prepared for dispatch after verified RI-17 publication.** Build only the accepted finite weighted trace and lossless preterminal adapter. Independent exact source/proof checks and isolated pinned execution precede acceptance. |
+| RI-18 | Implement the accepted finite composition contract | QR bundle; coordinator launcher/integration | **Assigned after verified `ad04963` publication.** Build only the accepted finite weighted trace and lossless preterminal adapter. Independent exact source/proof checks and isolated pinned execution precede acceptance. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already

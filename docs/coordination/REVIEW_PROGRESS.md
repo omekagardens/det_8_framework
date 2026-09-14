@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j and RI-16–17 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 finite protocol composition design is accepted. Dispatch the bounded RI-18 implementation after verified design publication, with root-owned launcher integration. |
+| QR coordination / RI-05–08j and RI-16–17 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`; RI-18 implementation is assigned and active. Root owns subsequent pinned launcher integration and acceptance. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for nineteen suites.** Cumulative411 witnesses/34 executable sources: prior384 source-bound results with unchanged pins plus27 new RI-16 checks per mode. Full preflight and43 isolated registry regressions pass. | Preserve execution boundaries;411 is not a fresh all-suite replay. RI-15 remains separate; the deferred claims endpoint remains its explicit18-reference subset. |
@@ -2272,3 +2272,26 @@ author check loader does not constitute accepted launcher integration.
 Independent proof/source review, exact finite-law/refusal checks and isolated
 pinned execution are required before implementation acceptance. No broader
 SDK, RET work, measured pilot or physical reconstruction is assigned.
+
+
+**RI-17 design checkpoint pushed; RI-18 dispatched**
+
+[Commit ad04963b28a9232b6496f233d2f475c12f333d4c](https://github.com/omekagardens/det_8_framework/commit/ad04963b28a9232b6496f233d2f475c12f333d4c)
+publishes the four accepted design/status documents and four coordinator
+records. Its tree is `5f6cfddfe21c56d001e5b8d5ad9ceebfddafc385`. Root
+verified the exact eight-path Markdown scope, 163 local links and scoped
+whitespace/conflict markers. All 59 accepted dependency paths and the registry
+remained unchanged, as did the original review, RI-11 published source pins
+and three broader working snapshot files. The normal push succeeded;
+independent remote-ref lookup returned the full commit above.
+
+After verification, root sent the existing Quantum Relativity thread the
+complete RI-18 implementation assignment and accepted design hash. The
+three new bundle files and three existing QR summaries are reserved to QR.
+The six aliases, finite input boundary, complete weight accounting, full
+metadata/audit anchors, independent native/tree checks and refusal obligations
+are fixed in that assignment. Root retains the separate pinned launcher and
+regression work for integration after the public callable contract is stable.
+The author must report imports, source pins and actual normal/optimized
+checks, obtain independent proof/source reviews and stop for acceptance.
+No further permission request or automatic broader successor is implied.
