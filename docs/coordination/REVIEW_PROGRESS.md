@@ -2849,3 +2849,47 @@ Final independent publication/status review accepted all eight manifest-bound
 files and confirmed the exact reversible administrative substitutions. Current
 ownership marks RI-21 complete and source-quiet; a successor still requires its
 own bounded assignment. No executable or broader evidence status changed.
+
+
+**RI-21 publication verified; RI-22 actually dispatched**
+
+[Commit 14eba182f6d7f5ef3d8b709a9bb810403b0d4c19](https://github.com/omekagardens/det_8_framework/commit/14eba182f6d7f5ef3d8b709a9bb810403b0d4c19),
+tree `0c284b0625f5dd288ea7f40301260fe40b8df84e`, publishes exactly the eight
+reviewed Markdown files. All staged bytes matched the captured candidate;
+224 local links and scope/preservation checks passed. The normal origin/ret
+push succeeded and independent remote-ref lookup returned this full commit.
+The index was empty afterward. QR received verified acceptance/publication.
+
+A concrete remaining-premise countermodel emerged during coordinator review.
+For D=R+iJ with real PSD R and antisymmetric J, define
+D star E=R tensor S+i(J tensor S+R tensor K). Two independent preliminary
+reviews confirmed its algebraic closure, weak positivity, associativity,
+normalization, full complex marginal preservation, scalar independence and
+separate real-map naturality. It omits the ordinary product's −J tensor K.
+Full event-pair rectangle factorization is the distinct missing requirement.
+The candidate even has a complex-bilinear extension on arbitrary matrices;
+complex bilinearity alone must not be falsely used to exclude it.
+
+Under this different rule, RI-21's signed-seed event tests det(R_I), giving
++1/2 for Di rather than −3/2. This is a countermodel to the listed weaker
+premises, not to the accepted theorem or to every richer QR control package.
+Its imaginary lineality and scalar blindness are material limitations, not
+an established faithful operational state space. No physical law or global
+axiom is proposed. The complete proof remains pending despite preliminary
+coordinator analysis; no new executable test was run for this construction.
+
+Root actually assigned RI-22 to the existing QR thread after publication.
+Its reservation is new `docs/coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md`
+plus the three existing QR handoff/map files. Root holds all 69 accepted
+identities and owns this coordinator-only metadata checkpoint. Active QR
+files are excluded. The task must return full mathematical/premise review,
+exact identities and a source-quiet handoff, then stop for acceptance. No
+source replacement, executor, registry entry, earlier-suite replay, measured
+pilot, core/RET work or automatic successor is assigned.
+
+
+Independent mathematical/status review accepted the written RI-22 assignment
+and its explicit unaccepted-result boundary. The three coordinator metadata
+files pass all 43 local links and scoped whitespace checks, with all 69 held
+identities and unrelated content unchanged. QR's four active paths remain
+excluded from this checkpoint.

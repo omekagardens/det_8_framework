@@ -230,3 +230,13 @@ identities, registry, original review and unrelated baseline are preserved.
 No executor, registry addition, noisy/efficiency guarantee or new global axiom
 is part of this acceptance. The four-file QR reservation is released; the
 next bounded proof/application contract requires a separate assignment.
+
+
+RI-21 is published in independently verified
+[14eba182f6d7f5ef3d8b709a9bb810403b0d4c19](https://github.com/omekagardens/det_8_framework/commit/14eba182f6d7f5ef3d8b709a9bb810403b0d4c19),
+tree `0c284b0625f5dd288ea7f40301260fe40b8df84e`. All eight staged files
+matched the reviewed candidate; the normal push and remote-ref check passed.
+Root then dispatched the four-file RI-22 composition-independence countermodel
+proof/design. Its active paths are excluded from this publication record.
+All 69 accepted held identities remain stable; a complete RI-22 return needs
+its own independent review and introduces no actual composition-source change.
