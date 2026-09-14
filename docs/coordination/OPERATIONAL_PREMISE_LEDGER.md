@@ -2,7 +2,8 @@
 
 13 September 2026. RI-13 coordinator consolidation of the accepted review
 implementation and QR results through RI-08j and RI-16, including RI-15
-interoperability and the accepted RI-18 finite composition below. The
+interoperability, accepted RI-18 finite composition and RI-19 interface
+robustness below. The
 [implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) and
 [progress record](REVIEW_PROGRESS.md) carry current ownership and acceptance.
 The [original review](../../indep%20ndent_review.md) remains a dated assessment.
@@ -559,3 +560,50 @@ actual 31 new witnesses normally and under optimization. Its separate
 the 411-witness registry and all 60 predecessor/design sources unchanged.
 This result is bounded finite composition, not a general process SDK,
 approximate interface theorem, selected physical theory or measured benefit.
+
+
+## 10. Accepted exact admission and approximate-law stability — RI-19
+
+The [RI-19 conditional proof/design](QR_INTERFACE_ROBUSTNESS_PLAN.md)
+classifies all real-linear positive C→C0 branches with a specified calibrated
+rank-one effect p=e_Q(d): B̃_Q(D)=J2(pH+uK+vL). Hermitian H,K,L have
+traces 1,0,0, and positivity is equivalent to the whole-circle condition
+H+(cos θ K+sin θ L)/2≥0. The projected input cone is exactly p≥2|c|.
+The note derives the exact uniform-repeatability condition, proves that
+branchwise Φ descent holds precisely when K=L=0, and recovers the unique
+ideal reset at zero defect. These are whole-domain arguments, not a sampled
+preparation grid or an ancillary complete-positivity theorem.
+
+Arbitrarily near-ideal positive full-C outputs can retain nonzero output c
+and fail the exact polarized joint interface. Small defect or raw distance
+is therefore insufficient for admission. The classified C→C0 range is an
+additional premise. Conversely, C0 output need not erase input-c dependence.
+Under the fixed positive-readiness suffix, the two branch payloads are
+observed injectively and the initial scalar-law rank is exactly
+2+rank{(K0,K1),(L0,L1)}. At readiness zero it is two. Initial X/Z remain
+unobserved, so even the admitted rank-four family is not full tomography.
+
+With matched complete scalar labels, exact first-effect calibration and the
+same expressly input/outcome-independent reference law, normalized law error
+is bounded by β sum_r p_r sqrt(ε_r), hence β sqrt(ε). Two same-Y inputs
+obey β min(1,2sqrt(ε)). The proof contracts the C0 base/raw-trace norm
+directly into the complete scalar law; it assumes no native L_t raw-trace
+contraction. Zero branches, scalar stops and incoming-mass versions are
+explicit. Different observed settings or instrument IDs cannot be erased to
+invoke these bounds; unequal source/audit objects are not compared as equal.
+
+The truthful approximate prefix and its forward-bound adapters are specified
+but unimplemented. RI-15 checks a c.State snapshot and grammar; RI-18
+additionally derives its actual ideal prefix. Neither supplies the new
+approximate type or certifies a substituted output. Exact raw admission,
+executed typed interchange and physical availability remain distinct.
+
+Independent full theorem/API reviews passed. Root's native audit passed
+193 exact assertions for the signed map, rank and positive-domain separators,
+without a new executor or registered suite. The separate coordinator
+[application corollary](APPLICATION_WORK_PLAN.md)
+quantifies necessary inverse constants and deterministic worst-case target
+error as βκ becomes small. It assumes a fixed known instrument and error
+budget, not measured calibration or sampling confidence. The next substantial
+choice is consolidation plus operational-premise selection or a measured
+application contract, rather than another automatic operation-family extension.

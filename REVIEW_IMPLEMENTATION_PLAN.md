@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is published in verified `ba12958`, independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. RI-19 interface-robustness design/proof is assigned to QR. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
+Started 13 September 2026. **Active program; RI-16 retained-word first commitment is accepted, registered and published. RI-17 finite-protocol composition design is published in verified `ad04963`; RI-18 finite composition is published in verified `ba12958`, independently accepted and integrated: 65 isolated launcher regressions include its exact 31-witness normal/optimized executions. RI-19 interface-robustness proof/design is independently accepted; its compatible-branch classification, exact observation rank and full-law stability bounds are complete. No approximate executor is assigned. Publication checkpoints are tracked in the progress record. RI-11 applied comparisons and dated clock reporting are published in verified `f8339ea`, after 105 focused tests and 33 legacy checks in isolation.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 assigns a bounded design/proof on approximate-branch admission and full-law stability across that interface, with independent acceptance before implementation. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted after complete mathematical/API reviews and root native checks. QR has released its four-file reservation. Consolidation and the next premise-selection/application decision follow; no approximate executor is assigned. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -50,7 +50,7 @@ Active file reservations following the first implementation cycle:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-18 handoff is accepted and its six-file reservation is released. RI-19 reserves only new `docs/coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md` and the three QR maps/handoff. Accepted sources, statements, designs and launchers remain stable. |
+| QR task | RI-18 and RI-19 handoffs are accepted and their reservations released. Accepted sources, statements, designs and launchers remain stable. Reserve any successor explicitly; no QR implementation is currently assigned. |
 | Coordinator directly | This plan, `docs/coordination/REVIEW_PROGRESS.md`, `docs/coordination/APPLICATION_WORK_PLAN.md`, maintenance of `docs/coordination/OPERATIONAL_PREMISE_LEDGER.md`, and RI-18 integration in new `scripts/run_qr_finite_protocol.py` plus `det8/tests/test_qr_finite_protocol.py`. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
@@ -124,7 +124,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-16 | Retained-word first-commit extension | QR, with coordinator review | **Accepted, registered and published in verified `22eca4e`.** Complete countable output/base-norm, operator convergence, exact survival-minus-never tail, chronological prefix-shift leastness and bounded word-dependent continuation theorem. Two independent audits and 27 new checks per mode plus 43 registry regressions pass. Fixed finite-input/stationary-policy and terminal-scalar boundaries remain explicit. |
 | RI-17 | Finite protocol composition design | QR, with coordinator review | **Accepted design.** One complete finite policy, exact probability/type adapters, 66-coordinate fixture and refusal requirements passed mathematical/API review. Design evidence creates no new executable or witness count. |
 | RI-18 | Implement the accepted finite composition contract | QR bundle; coordinator launcher/integration | **Bounded theorem, source and pinned integration accepted.** Independent mathematical/source reviews and 65 supplemental source probes passed. The isolated publication candidate passed 65 launcher regressions, including exactly 31 actual protocol witnesses in each mode. Complete 66-coordinate mass/label accounting and the rank-two limitation hold under supplied operations/reference law; no general initial-state tomography or physical availability follows. The 411-witness registry remains unchanged. |
-| RI-19 | Robust admission across the local-to-joint interface | QR design/proof; coordinator acceptance | **Bounded design/proof assigned after verified RI-18 publication.** Characterize exactly calibrated positive C→C0 approximate branches, prove why small error alone does not ensure admission, and derive a matched-full-label law stability bound for the existing suffix. Keep input-c dependence, typed instrument prefixes, exact rank versus small distinguishability and explicit availability/error premises separate. No executor or witness registration assigned yet. |
+| RI-19 | Robust admission across the local-to-joint interface | QR design/proof; coordinator acceptance | **Conditional proof and design accepted.** Complete C→C0 branch classification, exact defect/descent/ideal-limit criteria, near-ideal admission obstruction, full-law TV bounds and actual suffix/initial observation ranks passed mathematical/API review. Root corroborated the native map with 193 exact assertions. An independently reviewed application corollary proves target-specific inverse/error lower bounds. These are mathematical results; new approximate prefix/adapters remain unimplemented, with no executor or registry assignment. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -354,9 +354,9 @@ limits. Stop for coordinator acceptance/integration. No generic SDK, further
 cone refinement, infinite-policy extension, physical selection, measured pilot
 or automatic successor is assigned.
 
-**RI-19 bounded interface-robustness design assignment**
+**RI-19 bounded interface-robustness design assignment — completed and accepted**
 
-After RI-18's verified publication, the next candidate closes a concrete
+This completed assignment followed RI-18's verified publication and closes a concrete
 compatibility gap between approximate local operations and the exact joint
 interface. Small repeatability error or raw distance alone need not put an
 output in C0: arbitrarily near-ideal positive full-C outputs can retain

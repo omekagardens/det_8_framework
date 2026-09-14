@@ -1,4 +1,119 @@
-# QR research handoff — finite protocol composition implementation
+# QR research handoff — interface robustness design/proof
+
+14 September 2026 UTC. **RI-19 DESIGN_AND_CONDITIONAL_PROOF_ONLY;
+INDEPENDENTLY_REVIEWED; COORDINATOR_PROOF_AND_DESIGN_ACCEPTED.**
+The sole new artifact is
+[QR_INTERFACE_ROBUSTNESS_PLAN.md](QR_INTERFACE_ROBUSTNESS_PLAN.md).
+The only other edited files are this handoff and the existing QR map and
+relativity/geometry plan. There is no new executor, test source, API, registry
+entry or source-pinned execution. Coordinator retains all git/index ownership.
+
+RI-18 is accepted and published in independently verified
+ba129584e5c05a06f061e77cd3bf2daf18a02bdc, tree
+eed0446c8f6fc88539d4f1ca08e1d14bd65d620b. Its final accepted statement
+SHA256 is `323826e4a8e83d709f0047120056410fdc1b79d3a5198ffeed0a96e9a8477fe7`;
+adapter `ac8672708681bf50cd7afa48b79f4379d1d629531abc6ab9b8bb5309543ffa59`
+and checker `22b7a079da945fc1800c00c7aec2e6afd799c129c2a54789df123b63ed154b5c`
+are unchanged. The coordinator's 65 isolated integration regressions included
+31 actual witnesses normally and optimized; they were not replayed for RI-19.
+The earlier RI-18 detail below is a historical handoff, not the current scope.
+
+## RI-19 proved results and exact boundary
+
+For rank-one Q, p=e_Q(d) and c=u+iv, every calibrated positive real-linear
+full-C→C0 branch is uniquely J2(pH+uK+vL). H,K,L have traces 1,0,0.
+The projected input cone is exactly p≥2|c|; positivity is equivalent to
+H+(cos(theta)K+sin(theta)L)/2≥0 for every theta. The uniform defect condition
+is exactly a+sqrt(b²+e²)/2≤epsilon, where a,b,e are the I-Q expectations
+of H,K,L. These are whole-domain symbolic equivalences, not grid tests.
+Branchwise Phi descent is exactly K=L=0; epsilon=0 uniquely recovers Q.
+
+Small error is not exact admission: the positive C→C near-ideal fixed target
+with output c=epsilon exp(i theta)/2 has raw error 2epsilon p but nonzero
+polarized joint cross forms ±3epsilon exp(i theta)/10. A positive ready path
+is inadmissible; no projection, reset or recoupling repairs it. Conversely,
+lawful C→C0 approximate branches can retain dependence on both input-c
+coordinates. Exact output eligibility does not certify typed interchange
+or supplied physical availability.
+
+The unchanged fixed cut/empty-A/tilted-read suffix is positive, mass-preserving
+and rank four on arbitrary Hermitian branch payloads. Its probability-row
+minor is -27/78125. With r retained, for beta>0 the complete initial-law rank
+is exactly 2+rank{(K0,K1),(L0,L1)}, hence two, three or four; at beta=0 it is
+two. The ideal RI-18 rank-two theorem is unchanged. Initial X/Z remain
+invisible in the classified form, so even rank four is not full tomography.
+An admitted epsilon=1/5 family distinguishes same-Phi sources c=±1/8 and
+c=±i/8 with full-law TV 12beta/125 and 7beta/50, respectively.
+
+For a fixed explicitly input/r-independent complete reference law, common
+observed metadata and both exactly calibrated branches, the scalar-law error
+from the ideal is at most beta sum_r p_r sqrt(epsilon_r), hence beta sqrt(epsilon).
+Two normalized same-Y inputs obey the stronger cap beta min(1,2sqrt(epsilon)).
+Branch-specific and homogeneous incoming-mass versions are proved separately.
+Contraction is from C0's base/raw-trace norm directly to the complete scalar
+law, never an assumed raw-trace contraction on native L_t. At beta=0 only
+the same two calibrated scalar stops remain, even if audit prefixes differ.
+No sharp composed constant or finite-sample precision is claimed.
+
+## RI-19 hypothetical API and record obligations
+
+The note specifies new truthful approximate-instrument premise, record/state,
+weighted prefix and forward-bound joint/preterminal/suffix wrappers. RI-18
+WeightedLocal computes the ideal branch and cannot accept substituted outputs.
+RI-15 accepts an exact c.State snapshot/grammar but does not prove its earlier
+history; its wrapper cannot certify a new approximate record type. The
+existing raw Z congruence, independent reference law/decision, generic d input
+records, d preparation/coupling/source validation and i cut/command/read maps
+can remain unchanged only inside the new explicitly verified wrapper design.
+There is no implemented approximate type bridge in this sitting.
+
+The common scalar alphabet retains all 64 ready/read and two stop coordinates,
+every outcome, observed setting/preparation/selector ID, origin/precursor,
+actual command and planned terminal-setting label. Analytical model audits
+are distinguished from observations; genuinely different recorded action,
+source or apparatus labels cannot be erased to claim a small distance.
+Approximate and ideal audit wrappers are not equated. Conditional cut weights
+are computed from the current source, not fixed to the ideal fixture's 1/4.
+Zero coordinates remain and zero selections are refused; no postread residual.
+
+## RI-19 review, supplemental arithmetic and stop boundary
+
+Independent complete mathematical review and complete API/record review
+passed with no remaining blocker after their corrections. The note now says
+whole-circle positivity, not the stronger ancillary property called complete
+positivity; distinguishes RI-15 snapshot grammar from RI-18 ideal forward
+history; and uses actual c action/source names. The coordinator's request
+for explicit beta∈[0,1] and fixed input/outcome independence is incorporated.
+The final interior cut clarification q_b≥p/10>0 for p>0 follows directly
+from positivity and t=3/5; zero-input/read guards remain.
+
+A temporary independent native calculation checked 128 scalar coefficients,
+the rank minor and two corrected positive-domain c-separator laws using the
+unchanged i source `0e60694bad07016886ec2451f4b17a5ac7dd24c089c8953dabb926620c8148d8`.
+It corrected a preliminary imaginary-c hand sum before finalization of the
+note. Main's separate Fraction-only probe passed four checks: effect
+completeness, rank minor, and both TV values. These supplement the written
+proof; they are not a registered suite, pinned execution or implemented
+approximate-instrument trace. No predecessor suite was broadly replayed.
+
+All 65 held predecessor/design/RI-18 identities match their entry pins.
+Reviewed submission note SHA256:
+`294cc2ff576857f5a2acfa6c4532e4f09ab9d128b2b1b1a68fd9c84ebaf017ef`.
+All 122 local link targets across the four scoped documents resolve, and
+their whitespace/conflict-marker check has zero findings. The four exact
+document identities accompany the final source-quiet handoff. No accepted source, launcher,
+registry, core/RET/application/bank or protected evidence changed here.
+
+Coordinator proof/design acceptance is complete. The
+[progress record](REVIEW_PROGRESS.md) binds the final administrative acceptance
+identities and root review evidence to scoped publication. A future exact implementation needs a
+separate assignment; no solver, SDK, new operation family, measured pilot,
+full-QM derivation, physical mass/geometry/gravity promotion or automatic
+successor is opened. The later larger choice is consolidation plus premise
+selection or a measured application, not an indefinitely extended fixture
+family; neither larger path is launched by this design.
+
+## Historical RI-18 handoff — accepted, integrated and published
 
 14 September 2026 UTC. **RI-18 BOUNDED_THEOREM_AND_SOURCE_ACCEPTED;
 ISOLATED_PINNED_INTEGRATION_PASSED.** The assigned three-file bundle is

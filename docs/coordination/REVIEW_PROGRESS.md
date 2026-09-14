@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j and RI-16–18 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. Published in independently verified `ba12958`; RI-19 now assigns bounded interface-robustness design/proof with independent review before any executor implementation. |
+| QR coordination / RI-05–08j and RI-16–19 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. RI-18 is published in verified `ba12958`. RI-19 proof/design is accepted: full classification, exact admission obstruction, matched-law stability and observation-rank results, with independent theorem/API review and 193 root native assertions. Publish the scoped Markdown checkpoint; approximate execution remains unimplemented. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for nineteen suites.** Cumulative411 witnesses/34 executable sources: prior384 source-bound results with unchanged pins plus27 new RI-16 checks per mode. Full preflight and43 isolated registry regressions pass. | Preserve execution boundaries;411 is not a fresh all-suite replay. RI-15 and RI-18 remain separate; the deferred claims endpoint remains its explicit18-reference subset. |
@@ -2507,3 +2507,95 @@ The coordinator-only update passed its exact three-path index/whitespace
 check and all 40 local link targets. All 65 held predecessor/design/RI-18
 identities, the registry, original review and broader working snapshots
 remain unchanged. Active RI-19 QR files are excluded from this checkpoint.
+
+
+**RI-19 final conditional proof and design accepted**
+
+The preceding coordinator checkpoint
+[e6e89d85f31a0d10991b04edeb40bc54ff5ff0cb](https://github.com/omekagardens/det_8_framework/commit/e6e89d85f31a0d10991b04edeb40bc54ff5ff0cb),
+tree `01e038094062dc733c16e1e3332433b7f05a2616`, was normally pushed to
+origin/ret and independently verified. It recorded RI-18 publication and
+the actual bounded RI-19 dispatch, excluding active QR files.
+
+QR returned the four-file source-quiet handoff with final note
+`294cc2ff576857f5a2acfa6c4532e4f09ab9d128b2b1b1a68fd9c84ebaf017ef`.
+Complete independent mathematical and API/record reviews passed, followed
+by an explicit final clarification review. Root read the complete note and
+three summaries. Separate coordinator reviewers accepted the exact captured
+final note, including full-C classification, normalized-domain/circle argument,
+admission obstruction, β/zero/mass bounds and truthful future-type contracts.
+Corrections made before handoff clarify the fixed input/outcome-independent
+readiness law, positivity versus ancillary complete positivity, actual action
+names, and RI-15 snapshot grammar versus RI-18 ideal forward history.
+
+The theorem classifies calibrated positive C→C0 branches as J2(pH+uK+vL),
+with necessary-and-sufficient whole-circle positivity and uniform-defect
+conditions. It proves Φ descent iff K=L=0 and the exact ideal-reset limit.
+A positive full-C family remains arbitrarily close to the ideal branch but
+has nonzero output c and fails exact polarized joint admission. A contrasting
+admitted imperfect family can expose both input-c directions. The actual
+fixed suffix has rank four on Hermitian branch outputs; with r retained,
+the initial rank is 2+rank of the two stacked coefficient directions for
+β>0, and two for β=0. Initial X/Z remain invisible. The ideal RI-18 theorem
+is unchanged; its first ideal reset is precisely its information bottleneck.
+
+The matched full scalar-law error is at most β sum_r p_r sqrt(ε_r);
+same-Y inputs satisfy β min(1,2sqrt(ε)). These are proved upper bounds,
+not asserted sharp constants. The correct C0-to-scalar norm contraction
+avoids any false intermediate native L_t trace-norm claim. Nominal setting
+and action differences cannot be hidden by comparing unequal audit objects
+or erasing observed metadata. Approximate prefix types and full forward
+adapters remain unimplemented; algebraic admission does not validate an
+actual historical branch, preparation availability or error calibration.
+
+Root independently passed **193 exact native assertions** against the held
+terminal-read source `0e60694bad07016886ec2451f4b17a5ac7dd24c089c8953dabb926620c8148d8`.
+These cover all 128 signed-basis/full-coordinate coefficients, mass, the
+rank-four minor −27/78125, initial ranks two/three/four and selector endpoints,
+plus lawful real/imaginary c-separator laws and their exact TV distances
+12β/125 and 7β/50. Signed mathematical helpers were used for the linear
+audit; no ideal typed state was forged and no approximate protocol was run.
+QR separately reported its native coefficient audit and four Fraction-only
+checks. These supplement the proofs and add no registered witness count.
+
+A coordinator application corollary now makes the conditioning loss precise.
+For the admitted fixed family and positive βκ, recovering u or v from exact
+scalar laws requires target-specific inverse constants at least 25/(24βκ)
+and 5/(7βκ). A deterministic TV budget δ admits opposite-target midpoint
+ambiguities, giving worst-case absolute-error lower bounds
+min(1/4,25δ/(24βκ)) and min(1/4,5δ/(7βκ)). At βκ=0, the balanced-source
+subfamily has indistinguishable opposite extrema and error lower bound 1/4
+even for exact laws. These are necessary bounds, not an optimal estimator,
+full-state inverse or sampling-confidence guarantee.
+
+Independent mathematical review accepted the complete written corollary and
+its quantifiers. Root passed **544 Fraction-only assertions**: sixty
+budget/family/target cases with nine assertions each and four singular cases,
+retaining all 66 law coordinates. This is separate arithmetic evidence, not
+an implemented approximate instrument or a registered suite. The final
+application-plan SHA256 is
+`e5fababbf40aafd3b46600115fbe5d1a5f36d3cc99ec3b55819e682521dd6c7e`.
+
+Root changed only reversible administrative acceptance passages in the four
+QR files. Reversing the exact substitutions reconstructs every submitted
+file digest; the note's mathematical body is unchanged. Final accepted pins:
+
+| Accepted proof/status document | SHA-256 |
+|---|---|
+| `docs/coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md` | `e0e13b6102b7b17cdff008ba86675136d55fb0ddeee5cc12acce53151ce04770` |
+| `docs/track_b/QR_MAP.md` | `c868b6ad6353fbe9a3e2e95ce5c4b054c87b61373aa8e1c75e4b8e5eed7e1444` |
+| `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md` | `f66edff70a84974a86c7de834d0d0b5a0112f0fdcaa149775fcdbdc1540f1eca` |
+| `docs/coordination/QR_HANDOFF.md` | `a658ba4b5cef4725881bb102d714d3608131616549a1f8dfba413be500e32fa5` |
+
+The four-file QR reservation is released and the owner received acceptance.
+No new approximate executor, operation family or broader successor is
+assigned. After scoped publication, the next coordinator decision is to
+consolidate the connected argument and select an operational-premise problem
+or a measured application contract. Missing measured instrument/data and
+evaluation choices remain open; conditional mathematics does not supply them.
+
+Independent current-status/publication review found no blocker. The exact
+ten-Markdown-path candidate passes 255 local-link checks and scoped
+whitespace/conflict checks. All 65 held predecessor/design/RI-18 identities,
+the registry, original review and three broader working snapshots are
+unchanged. No accepted executable or registered witness count changes.

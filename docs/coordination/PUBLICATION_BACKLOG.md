@@ -132,6 +132,27 @@ paths. The five new source/statement files match the isolated tested candidate
 byte-for-byte. All 242 scoped local links resolve. The normal push succeeded;
 independent remote-ref lookup returned this full commit for origin/ret. The
 index is empty and the original review, registry and unrelated baseline are
-preserved. The separately scoped RI-19 design/proof assignment tests approximate-branch
-admission and full-law stability without changing accepted executables.
-Implementation or registration requires a later accepted contract.
+preserved. RI-19 now completes the separately scoped approximate-branch admission and
+full-law stability proof/design without changing accepted executables. Its
+Markdown publication scope is recorded below; implementation or registration
+requires a separate assignment.
+
+
+**RI-19 accepted conditional proof/design checkpoint**
+
+The new interface-robustness note and three QR summaries are independently
+accepted. Root also reviewed the entire note and corroborated its actual
+suffix with 193 exact native assertions. The application plan adds a separately
+reviewed inverse-conditioning and deterministic target-error corollary, with
+544 Fraction-only assertions checking its displayed budget/family cases.
+These are supplementary arithmetic, not a registered suite or an approximate
+executor. The accepted ideal source/launcher contracts remain unchanged.
+
+Publication is scoped to ten Markdown paths: the four QR files, root plan,
+progress and this backlog, the application and operational-premise plans,
+and the research verification guide. The original review, all 65 held
+predecessor/design/RI-18 paths, registry and unrelated baseline are preserved.
+Only reversible administrative acceptance passages differ from the final
+reviewed QR submission; the mathematical body is unchanged. Final identities
+and the independently verified remote checkpoint are tracked in
+[review progress](REVIEW_PROGRESS.md). No implementation successor is assigned.

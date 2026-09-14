@@ -362,3 +362,78 @@ instrument catalogue. Apparatus validation or estimation of an unknown
 reference/read parameter asks a different question and needs its own
 calibration, availability and evaluation premises. No measured benefit or new
 apparatus implementation is inferred here.
+
+
+**RI-19: exact rank does not guarantee useful precision**
+
+The accepted [interface-robustness theorem](QR_INTERFACE_ROBUSTNESS_PLAN.md)
+classifies compatible imperfect C→C0 branches. Its explicit family has
+H0=(I+(1−2ε)Y)/2, K0=2κX, L0=2κZ and an ideal branch one, where
+0<ε≤1/2 and 0<κ≤sqrt(ε(1−ε)). For a fixed known instrument and readiness
+β>0, the complete scalar law has rank four and identifies mass, initial Y,
+Re c and Im c from exact laws. Initial X/Z remain unidentified. Neither
+this family nor its exact range/calibration is inferred from device data.
+The truthful approximate prefix and its executable adapter remain unimplemented.
+
+A coordinator corollary quantifies the precision problem. Fix the instrument,
+all nominal metadata and the full scalar observation alphabet required by
+RI-19. Exclude the known original raw-source audit from observations. On the
+normalized balanced-source subfamily A=I/4, compare c=±a or c=±ia,
+0≤a≤1/4. All these sources are lawful because A≥|c|I, and their
+quotient, local Y probabilities and nominal preparation metadata agree.
+Equation (18) of the theorem gives the exact target-specific relations
+
+    TV(P_u,P_u') = (24/25) βκ |u−u'|,   u=Re c, v=0,
+    TV(P_v,P_v') = (7/5) βκ |v−v'|,     v=Im c, u=0.
+
+To see the factors, the branch-zero output differences have Bloch
+Δx=4κΔu or Δz=4κΔv. The absolute coefficient sums of the eight occupied
+scalar suffix effects are 12/25 and 7/10. Multiplication by readiness β
+and the TV factor 1/2 gives the displayed laws. Branch one, the unavailable
+stops and all cross-cell zero coordinates remain in the full 66-coordinate
+alphabet; none is postselected away.
+
+Therefore any inverse that is Lipschitz from exact scalar-law TV distance
+to the respective target needs constants at least
+
+    C_u ≥ 25/(24βκ),     C_v ≥ 5/(7βκ).
+
+These are necessary target-specific constants, not proved optimal global
+constants or a full-state inverse. They diverge as βκ tends to zero, even
+though the exact rank is four for every positive βκ in the admitted family.
+For example κ=ε is admissible for every ε in (0,1/2], so arbitrarily
+small permitted branch defects do not give a uniform inverse precision.
+
+There is also a direct deterministic error lower bound. Suppose the input
+to an estimator is a probability vector P_hat on the full matched alphabet,
+with an expressly supplied budget TV(P_hat,P_true)≤δ, δ≥0. With fixed
+known instrument and metadata, every estimator of u or v has worst-case
+absolute target error over lawful inputs and permitted data at least
+
+    E_u(δ) ≥ min(1/4, 25δ/(24βκ)),
+    E_v(δ) ≥ min(1/4, 5δ/(7βκ)),        βκ>0.
+
+**Proof.** Write C=(24/25)βκ for u, or C=(7/5)βκ for v, and choose
+a=min(1/4,δ/C). The two lawful opposite targets ±a have law distance
+2Ca. Their law midpoint is a valid probability vector, itself the c=0
+law in this subfamily, and has distance Ca≤δ from each. The same
+estimator input must therefore produce one answer for two possible targets
+separated by 2a; at least one absolute error is at least a. Taking the
+infimum over estimators preserves this lower bound. At δ=0 it is trivially
+zero. At βκ=0 the opposite extrema ±1/4 have identical scalar laws, so
+the lower bound is 1/4 even with exact law data; do not divide by zero.
+
+Independent mathematical review accepted the argument and factors. Root's
+193-assertion native audit corroborated the underlying signed scalar map;
+544 separate Fraction-only assertions checked sixty budget/family/target
+cases and four singular cases while retaining the full alphabet. These are
+supplemental arithmetic checks, not a new registered suite or an implemented
+approximate instrument. The original ideal RI-18 theorem and executor remain
+unchanged.
+
+The budget δ is a deterministic assumption, not a sampling confidence level
+or a measured error estimate. Real use still needs a selected apparatus,
+available preparations, calibrated instrument/readiness parameters and a
+defensible data-error model. The result gives a concrete abstention boundary
+for a prospective measurement contract; it does not establish an estimation
+algorithm, finite-sample accuracy or practical benefit from small imperfections.

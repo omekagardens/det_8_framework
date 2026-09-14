@@ -1,5 +1,27 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+14 September 2026 UTC, interface robustness design/proof: the
+[RI-19 note](../coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md) classifies all
+exactly calibrated positive full-C→C0 rank-one-effect branches as
+J2(pH+uK+vL), with necessary-and-sufficient whole-circle positivity and
+uniform-defect conditions. Phi descent is exactly K=L=0; epsilon=0 recovers
+the ideal reset. Arbitrarily near-ideal C→C outputs can retain nonzero c and
+fail the exact polarized joint interface, so small error is not admission.
+Admitted C0-output branches can instead transmit input c: the actual fixed
+ready suffix has rank four on branch payloads, yielding total initial rank
+2+rank{(K0,K1),(L0,L1)} for beta>0, and rank two for beta=0.
+Matched full scalar laws obey TV≤beta sum_r p_r sqrt(epsilon_r), with
+same-Y comparison≤beta min(1,2sqrt(epsilon)). The proof contracts C0 base
+norm into the complete scalar law, not native L_t raw trace norm.
+All labels and zeros remain; unequal instrument audits are not equated.
+A truthful approximate prefix and new forward adapters are specified only
+as implementation obligations: the ideal RI-18 executor is unchanged.
+Independent full mathematical and API/record reviews passed after wording
+clarifications; 65 held paths are unchanged. Supplementary exact native/scalar
+arithmetic is not a new witness suite or pinned execution. Coordinator
+proof/design acceptance is complete; no executor, geometry or automatic successor.
+Publication identity is tracked in the [progress record](../coordination/REVIEW_PROGRESS.md).
+
 14 September 2026 UTC, bounded finite composition implementation: RI-18
 implements the accepted RI-17 design in one isolated
 [bundle](../validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md).

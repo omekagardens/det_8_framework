@@ -667,3 +667,19 @@ labels, weights and audit anchors; its initial-state scalar law has rank two.
 This establishes neither initial-state tomography nor physical availability.
 Accepted source identities and scoped remote checkpoints are recorded in
 [review progress](coordination/REVIEW_PROGRESS.md).
+
+
+## RI-19 conditional proof and design
+
+The accepted [interface-robustness note](coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md)
+contains the complete branch classification, exact admission counterexample,
+scalar-law stability bounds and fixed-suffix observation-rank proof. It
+adds no executable, launcher or registered suite. Its truthful approximate
+prefix and forward adapters are explicit unimplemented obligations; running
+the RI-18 launcher still executes the accepted ideal protocol only.
+
+Independent mathematical/API review and supplemental exact arithmetic are
+recorded in [review progress](coordination/REVIEW_PROGRESS.md). The nineteen-suite
+411-witness registry, separate RI-15/RI-18 checks and all predecessor pins
+remain unchanged. The new [application precision corollary](coordination/APPLICATION_WORK_PLAN.md)
+is a deterministic conditional argument, not a measured accuracy report.

@@ -3,6 +3,28 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**RI-19 exact admission and approximate-law stability, design/proof only:**
+the [new note](../coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md) separates
+small repeatability error, exact C0-range admission, typed executable
+interchange and supplied operation availability. It proves the whole-C
+calibrated branch classification, circle positivity/uniform defect conditions,
+Phi-descending subclass and ideal limit. The near-ideal nonzero-output-c
+counterexample fails the polarized joint interface exactly. A contrasting
+admitted family can expose both input-c directions under the actual fixed
+suffix, with full initial rank two, three or four depending on its coefficients.
+This still misses initial X/Z and is not full tomography or physical c access.
+The complete matched-law bound is TV≤beta sum_r p_r sqrt(epsilon_r);
+same-Y comparisons obey beta min(1,2sqrt(epsilon)), and beta=0 gives the
+same calibrated scalar stops despite potentially different audit states.
+The common label/setting contract and C0-to-scalar norm argument are explicit.
+New approximate records/adapters are unimplemented obligations, not substituted
+ideal history. Independent full mathematical/API review passed; 65 held source
+identities match. No executor, registry entry, RET/bank work or geometry is
+assigned. Coordinator proof/design acceptance is complete; publication is
+tracked in the [progress record](../coordination/REVIEW_PROGRESS.md). The larger choice is
+consolidation with premise selection or a measured application, not an
+automatic new operation family. Neither larger path starts here.
+
 **RI-18 bounded implementation, checks complete:** the accepted finite design
 is implemented in the new
 [protocol bundle](../validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md).
