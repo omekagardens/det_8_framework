@@ -28,8 +28,8 @@ physical mass/Einstein/gravity, Option B and Status M remain unchanged. RI-25
 is published; measured W and comparator prerequisites remain separate.
 Coordinator final reviews and isolated replay passed: 51 tests per mode,
 52 identical exports and 331 separate exported-data checks. Its eleven-file
-bundle remains source-quiet; the reservation is released for scoped
-publication. No automatic successor or reopened legacy/lettered/coverage/
+bundle remains source-quiet and is published in verified `0fde8b2`; the
+reservation is released. No automatic successor or reopened legacy/lettered/coverage/
 noncollapse program follows.
 
 **RI-25 restricted operational interface, independently accepted:** the

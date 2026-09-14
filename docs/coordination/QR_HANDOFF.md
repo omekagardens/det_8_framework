@@ -1,7 +1,7 @@
 # QR research handoff — local observers in supplied geometry
 
 14 September 2026 UTC. **RI-26 SUPPLIED_GEOMETRY_OBSERVER_MODEL;
-COORDINATOR_CONDITIONAL_MODEL_AND_IMPLEMENTATION_ACCEPTED.** The
+COORDINATOR_ACCEPTED_AND_PUBLISHED.** The
 [standalone specification](../experiments/observer_signal_v1/EXPERIMENT.md)
 and isolated bundle implement the separately authorized secondary exploration.
 Only this handoff and the two QR maps are otherwise edited. Coordinator owns
@@ -20,8 +20,10 @@ identities. Three root mathematical, source/data-flow and documentation
 reviews passed; all ten Python sources match the isolated tested candidate.
 Root independently passed 51 tests per mode, reproduced 52 identical worked
 exports and reconciled 331 separate JSON-only exported-data checks. The QR
-source reservation is released; scoped publication is the coordinator's
-next step. Source hashes and actual evidence are in the
+source reservation is released. The complete eighteen-path candidate is
+published in `0fde8b2f7a3b00adb4cb620621801c80a32150f5`,
+tree `3a1ae535ba4f40ccbb0f2a181bb02ce57148907d`, after a normal push
+and independent `origin/ret` verification. Source hashes and actual evidence are in the
 [progress record](REVIEW_PROGRESS.md). No successor is assigned.
 
 ## RI-26 conditional kinematic and record result
@@ -84,7 +86,7 @@ local links resolve, and whitespace/conflict checks have zero findings.
 All 87 held and six protected identities match their entry pins. No predecessor
 suite was replayed; research witness totals are unchanged. Final source
 identities accompany the quiet handoff. Coordinator source acceptance is
-now complete; remote publication remains a separate scoped step.
+complete and remote publication is verified as recorded above.
 
 No actualization-to-geometry equation is supplied. A future rule needs explicit
 variables, equations, parameters and an observer-accessible difference from

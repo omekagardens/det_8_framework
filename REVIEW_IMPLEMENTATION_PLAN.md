@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active coordination program. RI-25 is independently accepted and published in verified `9f463f2`. RI-26 is now independently accepted: the separate supplied-geometry observer/signal model passed final mathematical, source and documentation reviews, 51 isolated tests per mode, 52 matching worked exports and 331 independent exported-data checks. Its QR source reservation is released for scoped coordinator publication. Calibrated measured W, practical RET prerequisites and any explicit actualization-to-geometry law remain open. All 87 prior held identities remain fixed. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026. **Active coordination program. RI-25 is independently accepted and published in verified `9f463f2`. RI-26 is independently accepted and published in verified `0fde8b2`: the separate supplied-geometry observer/signal model passed final mathematical, source and documentation reviews, 51 isolated tests per mode, 52 matching worked exports and 331 independent exported-data checks. Its QR source reservation is released and all eleven bundle files are held at accepted identities. Calibrated measured W, practical RET prerequisites and any explicit actualization-to-geometry law remain open. All 87 prior held identities remain fixed. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -50,8 +50,8 @@ Active file reservations following the first implementation cycle:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | No active implementation reservation. RI-26's eleven-file observer/signal bundle is accepted and source-quiet; its three summaries are released for coordinator acceptance metadata. RI-25's twelve-file bundle and all 87 prior held identities remain fixed. No successor is assigned. |
-| Coordinator directly | This plan, progress, publication backlog and data/follow-up note; acceptance metadata in the three released QR summaries; exact scoped git/index operations. Publish RI-26's accepted bundle without changing it. Preserve the original review, accepted artifacts, application corollary, registry and unrelated working baseline. |
+| QR task | No active implementation reservation. RI-26's eleven-file observer/signal bundle is accepted and source-quiet; it is published in verified `0fde8b2`. RI-25's twelve-file bundle and all 87 prior held identities remain fixed. No successor is assigned. |
+| Coordinator directly | This plan, progress, publication backlog and data/follow-up note; acceptance metadata in the three released QR summaries; exact scoped git/index operations. Record verified publication and preserve RI-26's eleven accepted identities. Preserve the original review, accepted artifacts, application corollary, registry and unrelated working baseline. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -131,7 +131,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-23 | Scalar values and deterministic positivity certificates | Coordinator, independent review | **Conditional proof/design accepted.** The [scalar-value contract](docs/coordination/SCALAR_VALUE_ERROR_CONTRACT.md) proves the fixed-catalogue inverse, deterministic radius and sufficient universal PSD/non-PSD certificates after verified feasibility. Three independent reviews and exact example arithmetic passed. The full-domain bounded-effect obstruction leaves acquisition/calibration explicit. No measured dataset, executor, RET integration or physical availability is assumed. |
 | RI-24 | Durable accepted-file integrity inventory | Coordinator, independent review | **Accepted and published in verified `db803fb`.** The [durable inventory/checker](docs/coordination/REVIEW_SNAPSHOT.md) preserves 71 accepted-file identities at verified `5ec58e5`. Independent manifest/source reviews passed; root passed 94 isolated regressions and actual 71-file checks in normal/optimized Python with zero research execution. Match is supplied byte identity, not proof, authentication or whole-project coverage. Registry and accepted sources remain unchanged. |
 | RI-25 | Qubit-and-record worked experiment with withheld predictions | QR implementation; coordinator review | **Independently accepted and published in verified `9f463f2`.** The [complete experiment](docs/experiments/qubit_record_v1/EXPERIMENT.md) explicitly adopts Born/Lüders physics and supplies the C0 representation, all-attempt records, separate uncertainty budgets and frozen W evaluation. Final math/source/data reviews passed; root passed 61 isolated tests in each mode, 12 identical worked exports and 82 independent record/prediction/score reconciliation checks. This is a conditional model and simulation; calibrated measured W remains open. |
-| RI-26 | Observer/signal model in supplied geometries | QR implementation; coordinator review | **Independently accepted; scoped publication next.** Complete specification, exact kinematics, bounded local clocks, retained emission/reception records, receiver-only inference, simulator and worked controls. Three final reviews, 51 isolated tests per mode, 52 identical exports and 331 independent exported-data checks passed. Supplied geometry remains a premise; no feedback law or measured validation is supplied. |
+| RI-26 | Observer/signal model in supplied geometries | QR implementation; coordinator review | **Independently accepted and published in verified `0fde8b2`.** Complete specification, exact kinematics, bounded local clocks, retained emission/reception records, receiver-only inference, simulator and worked controls. Three final reviews, 51 isolated tests per mode, 52 identical exports and 331 independent exported-data checks passed. Supplied geometry remains a premise; no feedback law or measured validation is supplied. |
 
 A mathematical obstruction completes a particular rejected candidate, not the
 whole foundations program. Do not repeatedly try to prove a statement already
@@ -804,3 +804,20 @@ what was inspected and the precise acquisition requirements. The practical
 voltage-comparator direction retains its source/data prerequisites. Any
 actualization-to-geometry extension still needs an explicit proposed law and
 a distinct observer-accessible consequence. No automatic QR sequel is assigned.
+
+
+**RI-26 remote publication verified**
+
+The complete eighteen-path candidate is published in
+[0fde8b2f7a3b00adb4cb620621801c80a32150f5](https://github.com/omekagardens/det_8_framework/commit/0fde8b2f7a3b00adb4cb620621801c80a32150f5),
+tree `3a1ae535ba4f40ccbb0f2a181bb02ce57148907d`. All staged bytes matched the acceptance
+manifest, including the eleven untouched bundle files. The preflight checked
+224 local Markdown targets, 87 held predecessors, six protected identities
+and 1,992 unrelated file versions. The normal push succeeded; independent
+`origin/ret` lookup returned the full commit, with an empty index afterward.
+
+Both small-model obligations are now implemented, reviewed and published.
+No QR implementation reservation or automatic successor remains. Ongoing
+coordination retains the documented measured-W, comparator and explicit-
+feedback-law requirements. This final publication-status update changes only
+coordinator records and the three released QR summaries.

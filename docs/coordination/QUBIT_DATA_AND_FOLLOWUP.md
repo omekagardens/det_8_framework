@@ -147,8 +147,8 @@ accepted synthetic comparator remains synthetic until those inputs exist.
 ## Secondary observer-and-expansion model
 
 The [RI-26 observer/signal model](../experiments/observer_signal_v1/EXPERIMENT.md)
-is now independently accepted after the primary qubit deliverable was
-published. It uses supplied static, expanding and contracting geometries
+is independently accepted and published in verified `0fde8b2`, following
+the primary qubit deliverable in `9f463f2`. It uses supplied static, expanding and contracting geometries
 and explicit signal propagation to model local observers,
 local clock readings, emission/reception events and inferred redshifts.
 Retain the observer's accessible signals separately from global simulator

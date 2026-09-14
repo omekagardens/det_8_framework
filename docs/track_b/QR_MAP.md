@@ -20,8 +20,8 @@ and optimized runs. Complete independent mathematical and source reviews passed;
 final verification and publication status are in the
 [handoff](../coordination/QR_HANDOFF.md). Coordinator final reviews and
 isolated replay are complete: 51 tests per mode, 52 identical exports and
-331 separate exported-data checks. The eleven-file source reservation is
-released for scoped publication; no successor is assigned.
+331 separate exported-data checks. RI-26 is published in verified `0fde8b2`.
+The eleven-file source reservation is released; no successor is assigned.
 
 This is a supplied-geometry observer baseline, not QR-MAP's native kinematic
 map: metric and coordinates are inputs. No actualization-to-geometry rule is
