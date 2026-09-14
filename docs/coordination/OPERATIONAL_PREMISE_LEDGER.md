@@ -1,7 +1,8 @@
 # Operational premises, result boundaries and composition obligations
 
 13 September 2026. RI-13 coordinator consolidation of the accepted review
-implementation and QR results through RI-08j and RI-16, including RI-15 interoperability. The
+implementation and QR results through RI-08j and RI-16, including RI-15
+interoperability and the accepted RI-18 finite composition below. The
 [implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) and
 [progress record](REVIEW_PROGRESS.md) carry current ownership and acceptance.
 The [original review](../../indep%20ndent_review.md) remains a dated assessment.
@@ -504,7 +505,9 @@ effects, with full word/cell/sign labels and complete policy weights. A
 probability-weighted pre-read audit source is generally nonlinear; it cannot
 manufacture a postread residual. Existing literal cuts retain their declared
 positive residual types. This result supplies neither physical availability
-nor the missing orchestration of earlier local/reference-selection weights.
+nor orchestration of earlier local/reference-selection weights. The separate
+RI-18 result below supplies one bounded finite orchestration under explicit
+preparation and availability premises.
 Its fixed-prefix theorem does not cover arbitrary unbounded-history policies
 or a changing model/controller limit.
 
@@ -514,3 +517,45 @@ including separate exact theorem and native-interface probes. Root passed all
 publication candidate. The nineteen-suite cumulative inventory is 411
 witnesses; the preceding 384 source-bound results were not rerun in this cycle.
 The accepted RI-15 adapter remains a separate inventory and interface.
+
+
+## 9. Accepted bounded finite composition — RI-18
+
+The [RI-18 theorem and adapter](../validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md)
+close the earlier-weight and preterminal type/context arrow for one fixed
+finite route. Executable inputs are normalized full-C local sources with the
+fixed interface, empty starting record/pending prefixes and root weight one.
+A complete ready/unavailable reference law, independence, preparation IDs,
+branch availability, polarized reference, adopted L_t return and calibrated
+terminal read are explicit supplied premises. None is inferred from source
+provenance or from positivity. The written theorem also states the homogeneous
+incoming-mass extension; the executable refuses wider initial histories.
+
+The actual Y branch sends the lawful nonzero-c input into C0. After actual
+local Z, reference selection and the RI-15 coupling, the new conversion
+preserves every native entry of the coupled preterminal source and its full
+original context. It neither reuses a terminal nor prepares or couples again.
+The local pending Z stays anchored while the distinct joint word is committed.
+The finite command choice sees only the retained cut pair; scalar terminal
+outputs and unavailable stops retain full labels and prior audit anchors.
+Every conditional weight occurs once, zero weights produce no selected state
+or record, and planned read-setting IDs remain on all 66 law coordinates.
+Retaining the planned setting on a stop does not perform a read.
+
+Positive linear full-law composition preserves total incoming mass. For the
+primary normalized fixture sixteen read leaves total 2/3, two stops weigh
+4/15 and 1/15, and forty-eight read coordinates are zero. The complete scalar
+law depends only on initial mass and Y expectation: rank two on the real
+span, one affine parameter on normalized states, with exact normalized
+TV=|delta y|/2 at fixed settings/reference law. Known original audit inputs
+may differ even when observation laws coincide. They are not additional
+observations or a way to recover discarded X/Z/c coordinates.
+
+Independent full proof/source reviews and supplementary source probes passed.
+The isolated pinned candidate passed 65 launcher regressions, including the
+actual 31 new witnesses normally and under optimization. Its separate
+[launcher](../../scripts/run_qr_finite_protocol.py) and
+[guide](../RESEARCH_CHECKS.md#separate-ri-18-finite-protocol-launcher) leave
+the 411-witness registry and all 60 predecessor/design sources unchanged.
+This result is bounded finite composition, not a general process SDK,
+approximate interface theorem, selected physical theory or measured benefit.

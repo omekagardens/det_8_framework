@@ -1,4 +1,145 @@
-# QR research handoff — finite protocol composition design
+# QR research handoff — finite protocol composition implementation
+
+14 September 2026 UTC. **RI-18 BOUNDED_THEOREM_AND_SOURCE_ACCEPTED;
+ISOLATED_PINNED_INTEGRATION_PASSED.** The assigned three-file bundle is
+[PROTOCOL_COMPOSITION.md](../validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md),
+`adapter.py` and `check.py` in that same new directory.
+The accepted RI-17 design is published in verified
+ad04963b28a9232b6496f233d2f475c12f333d4c,
+tree 5f6cfddfe21c56d001e5b8d5ad9ceebfddafc385, with accepted plan SHA256
+`ae4558101ec1b1fa48c1f1eb259755a2af8c45a9f9887d59e9b0f3602615a696`.
+Only its administrative acceptance text differs from the older reviewed
+submission hash in the historical handoff below. That plan and all predecessor
+sources are held unchanged during RI-18.
+
+This task owns only the three new bundle files and the three existing QR
+maps/handoff. The coordinator owns the new six-alias launcher/regressions,
+registry, other coordinator files and every git/index operation. The six
+aliases are local_source, joint_source, local_joint_adapter,
+terminal_read_source, finite_protocol and check; RI-15 must use the identical
+c/d module instances. Temporary explicit-alias draft execution is not
+reported as pinned launcher integration.
+
+The implementation boundary is a normalized exact c.State with empty starting
+records/pending, the fixed local source/frame/controller and root weight one,
+plus a complete explicitly independent ready/unavailable reference law. The
+primary nonzero-c fixture and zero-local-branch witness are in scope; wider
+histories are refused. The weighted trace must preserve every native entry,
+full source/context/precursor, local pending Z, new joint words, all 66 scalar
+law coordinates and unavailable stops. The policy receives only (a,b), never
+a record/context exposing raw kernels. No zero-selected state, terminal reuse,
+postread residual, recoupling, projection or inferred prior probability.
+
+The route is implemented. Its primary law retains all 66 prospective
+coordinates: sixteen positive read leaves total 2/3, two unavailable stops
+weigh 4/15 and 1/15, and 48 coordinates are zero without selected records.
+Each planned terminal-setting ID is retained on every coordinate, including
+stops and zeros; it is not a claim that a stopped read occurred.
+
+The written conditional theorem proves positive linear full-law composition,
+total mass completeness and each actual conditional factor occurring once.
+The full-span scalar-law rank is exactly two, or one affine parameter on
+normalized inputs: the fixed first Y branch erases initial X/Z/c before later
+physical stages. At fixed settings and reference law, full-law TV equals
+|delta y|/2. Two lawful distinct raw/quotient inputs with the same Y give the
+same scalar law while their known original audit inputs remain different.
+Thus this implementation is not initial-state tomography or evidence that
+later readings recover information discarded by its first operation.
+
+## RI-18 exact verification and source contract
+
+All **31 new focused tests pass normally and under optimization**, using a
+temporary explicit loader that executes the six actual paths with isolated
+Python flags `-I -S -B` (and `-O` for optimization). Main replay durations
+were 36.813s and 35.985s; the independent check author also obtained 31/31
+in both modes. These are not the separately pinned coordinator launcher
+results and are not additions to the existing 411-witness registry inventory.
+No predecessor suite was broadly replayed.
+
+The independent checker computes Gaussian Fraction-pair native arithmetic,
+tensor/grouping/coupling, literal cuts, weighted commands and tilted effects
+without calling accepted numerical branch/coupling/cut/control/read helpers
+for its expected law. It compares every 4x4/16x16 complex stage and the actual
+API factor products. Checks include selector endpoints, zero-local/read
+selection, retained origins/precursors and separate local Z/joint A words,
+outcome-only policy input, full-context/source/terminal refusals, immutable
+derived outputs and same-Y observational equivalence with different audits.
+Both new sources pass scoped Ruff lint and formatting checks. All 60 held
+predecessor/design identities match, with zero changes.
+
+Full independent checker/API cross-review and full theorem/source review
+found no blocker. The earlier nonzero-parent normalization clarification was
+incorporated before execution. The
+terminal-setting label gap found in review was repaired before these runs.
+
+The public entry is `run_protocol(boundary, law, terminal_read)`, equivalent
+to `ProtocolRun(...)`. The exact constructor and result inventory is in the
+[bundle source contract](../validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md#5-source-contract-verification-and-handoff).
+`Boundary` requires the exact normalized empty-prefix c.State and root one;
+`ReferenceLaw` requires both exact weights, explicit bound independence,
+preparation/law IDs and preparation availability. Stage outputs are derived,
+not accepted as constructor inputs. `convert_preterminal(source,anchor,read)`
+binds the exact coupled source to its full WeightedJoint history;
+`StopReport` and `StoppedBranch` require the planned read premise explicitly.
+`PathLabel` retains all path fields plus planned terminal_setting_id.
+
+Exact import inventory:
+
+- adapter: `dataclasses` (dataclass, field), `fractions` (Fraction),
+  `joint_source` as d, `local_joint_adapter` as bridge, `local_source` as c,
+  `terminal_read_source` as i.
+- check: `unittest`, `dataclasses` (FrozenInstanceError, replace),
+  `fractions` (Fraction as F), `itertools` (product), `finite_protocol` as m.
+
+Reviewed bundle submission identities:
+
+| File | SHA256 |
+|---|---|
+| PROTOCOL_COMPOSITION.md | f4a88fb8f42b26bd09dd88bc890b453f9b724bc9f75e4d8393f7ddc22d68b192 |
+| adapter.py | ac8672708681bf50cd7afa48b79f4379d1d629531abc6ab9b8bb5309543ffa59 |
+| check.py | 22b7a079da945fc1800c00c7aec2e6afd799c129c2a54789df123b63ed154b5c |
+
+All 114 local link targets in the four scoped Markdown documents resolve;
+the six scoped files have no whitespace or conflict-marker findings. The
+theorem's reviewed mathematical text is unchanged by the final administrative
+status update from review-in-progress to review-complete.
+
+The author handoff edited only the three new bundle files and three QR
+summaries. The coordinator subsequently accepted the proof/source contract
+and completed isolated pinned integration as recorded below. The author
+performed no git/index operation, core/RET/application/bank change,
+generic SDK, wider-history/infinite-policy implementation, physical selection,
+measured pilot, geometry/mass/gravity promotion or automatic successor.
+The author reservation is released; no successor is opened by this handoff.
+
+## Coordinator RI-18 acceptance and integration
+
+Independent complete theorem and source audits accept the submitted three-file
+bundle above. The final accepted statement hash is
+`323826e4a8e83d709f0047120056410fdc1b79d3a5198ffeed0a96e9a8477fe7`.
+Only two administrative acceptance passages differ from the reviewed
+`f4a88fb8...` submission; reversing them reconstructs that exact digest.
+Adapter and checker bytes are unchanged. A separate source reviewer passed
+65 additional assertions, including stop branches that retain the planned
+read setting without invoking a terminal read.
+
+The separately reviewed coordinator launcher binds six actual executable
+paths, six statement/design paths and the unchanged research runner. Its
+final SHA256 is `97bd8e39ce8cae0fcef28f296bff7ad5f6980086a4fd31800bf51b41ee361770`;
+its regression file is `ce6ccb6c62f7d37292e6f03c2bc67a0f6ce791fbce8aadd45c4d8d8b42fe4bbe`.
+An isolated published-base candidate passed **65 pytest cases in 74.56 s**.
+These include exactly 31 real protocol witnesses normally (35.82 s) and
+under optimization (35.99 s), all six sources executed, no skipped/failed
+checks or observed endpoint drift. Missing reviewed pins still refuse before
+runner loading. The 31 repeated witnesses remain separate from the existing
+411-witness registry. All 60 held predecessor/design identities are unchanged.
+
+The [verification guide](../RESEARCH_CHECKS.md) documents the separate CLI;
+the [progress record](REVIEW_PROGRESS.md) tracks scoped publication.
+This acceptance establishes the bounded conditional composition and its
+information limit, without physical premise selection or measured utility.
+
+## Historical RI-17 handoff — design accepted and published
 
 14 September 2026 UTC. **RI-17 DESIGN_ONLY; INDEPENDENTLY_REVIEWED;
 COORDINATOR_DESIGN_ACCEPTED; IMPLEMENTATION_NOT_ASSIGNED.**

@@ -1,6 +1,31 @@
 # QR-MAP — licensed G with committed P-snapshots
 
-14 September 2026 UTC, finite probability/type composition design: the
+14 September 2026 UTC, bounded finite composition implementation: RI-18
+implements the accepted RI-17 design in one isolated
+[bundle](../validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md).
+The executable boundary is an exact normalized full-C source with empty
+starting records/pending, fixed local interface and root weight one, plus a
+complete explicitly independent reference law. Actual local Y/Z operations,
+the retained RI-15 coupled preterminal source, the explicitly adopted L_t
+return type, one cut, outcome-only empty/A choice and one terminal read are
+connected with exact path weights and full audit anchors. All 66 law
+coordinates remain, including zero weights, planned read-setting IDs and
+explicit unavailable stops. The primary law has sixteen positive read leaves
+totaling 2/3 and two stops 4/15 and 1/15, totaling one. All 31 new focused checks
+pass normally and under optimization against an independent native oracle;
+the 60 held predecessor/design identities match. Independent full source/proof
+review found no blocker. Coordinator acceptance and isolated pinned integration
+are complete: 65 launcher regressions include the actual 31 checks in each mode.
+Publication identity is tracked in the [progress record](../coordination/REVIEW_PROGRESS.md).
+The fixed first Y branch limits the scalar law to the initial Y component:
+full-span rank two, one normalized affine parameter, and exact
+TV=|delta y|/2 at fixed settings/law. Later conditional readings cannot
+recover erased initial X, Z or c; different audit inputs are still retained.
+This is composition, not initial-state tomography. Wider histories, terminal
+reuse, general SDK, new operations, RET/application work, physical promotion
+and automatic successors are outside scope.
+
+Historical RI-17 design checkpoint (14 September 2026 UTC): the
 [RI-17 plan](../coordination/QR_PROTOCOL_COMPOSITION_PLAN.md) specifies one
 complete finite route through the actual accepted interfaces. A legitimate
 nonzero-c C input undergoes the supplied reusable Y branch, which produces
@@ -14,8 +39,9 @@ retain every raw entry, earlier probability, context/frame, origin/precursor
 and both distinct pending-word namespaces. They do not infer probabilities
 from snapshot provenance, project earlier C to C0, or inspect raw payload to
 choose a policy. The conditional mass proof and exact rational acceptance
-table are specified; the actual orchestrator and preterminal adapter are not
-implemented. **DESIGN_ONLY; CONDITIONAL_FINITE_PROTOCOL_CONTRACT.** Independent
+table were specified; the actual orchestrator and preterminal adapter were not
+implemented at that design checkpoint. RI-18 above is the separately assigned
+implementation. **DESIGN_ONLY; CONDITIONAL_FINITE_PROTOCOL_CONTRACT.** Independent
 full mathematical and API/record design reviews passed, with incoming-mass,
 outcome-only controller and terminal-anchor requirements made explicit.
 Coordinator design acceptance is complete. This design creates no executor, registry entry, general SDK,

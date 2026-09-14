@@ -6,13 +6,13 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j and RI-16–18 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`; RI-18 is active. Root launcher infrastructure passed 62 isolated fixture/refusal cases and provisional review. Final artifact pins and actual protocol execution await QR acceptance. |
+| QR coordination / RI-05–08j and RI-16–18 | **Conditional synthesis and retained-word extension published.** RI-16 passed two independent audits, 27 new witnesses per mode and 43 isolated registry regressions. | RI-17 design is published in verified `ad04963`. RI-18 proof/source and pinned integration are accepted: 65 isolated launcher regressions include exactly 31 real protocol witnesses per mode. Publish the scoped accepted candidate and record the independently verified remote identity below. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
-| RI-03 research registry | **Accepted for nineteen suites.** Cumulative411 witnesses/34 executable sources: prior384 source-bound results with unchanged pins plus27 new RI-16 checks per mode. Full preflight and43 isolated registry regressions pass. | Preserve execution boundaries;411 is not a fresh all-suite replay. RI-15 remains separate; the deferred claims endpoint remains its explicit18-reference subset. |
+| RI-03 research registry | **Accepted for nineteen suites.** Cumulative411 witnesses/34 executable sources: prior384 source-bound results with unchanged pins plus27 new RI-16 checks per mode. Full preflight and43 isolated registry regressions pass. | Preserve execution boundaries;411 is not a fresh all-suite replay. RI-15 and RI-18 remain separate; the deferred claims endpoint remains its explicit18-reference subset. |
 | RI-04 current mathematical certificates | **Accepted.** Eight research modules and narrow legacy groups reconciled; coordinator reran 141 focused cases successfully. Implementer reports 80 impacted legacy checks with no failures/errors/skips. MODEL_CARD current O1/O2 assessment is reconciled; Previous remains historical. | RI-11 is now accepted separately; general reconstruction/physical premise selection remains open. |
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
-| RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
+| RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | RI-18 now supplies one complete earlier-weight/tree orchestration; general interoperability remains separate. The ledger records its supplied premises and rank-two limit. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
 | Remote checkpoints | Latest application checkpoint: [f8339ea](https://github.com/omekagardens/det_8_framework/commit/f8339ea4a4ce886ddc4513d989a2cecbad9d8dca). Latest QR design checkpoint: `ad04963`; QR theorem checkpoint: `22eca4e`; synthesis: `50d652f`; research/identifiability repairs: `38be4c0`. All pushed normally to `origin/ret` and independently verified. Root owns git/index. | Continue scoped publication after review, preserving QR reservations and the deferred baseline. |
 
@@ -2373,3 +2373,68 @@ was sent to QR for the new proof's limitation section without changing the
 accepted design or executor scope. Completing RI-18 can establish finite
 accounting; downstream observations after the reset cannot recover the lost
 initial coordinates. Measured apparatus/application benefit remains separate.
+
+
+**RI-18 independent acceptance and isolated pinned integration**
+
+The preceding coordinator checkpoint
+[bd989be5624a15d55846f096abab0d2dc66f3b36](https://github.com/omekagardens/det_8_framework/commit/bd989be5624a15d55846f096abab0d2dc66f3b36),
+tree `292f1cc92cb7739dfd8ef475b36d2471d20acbdb`, was pushed normally and
+independently verified on origin/ret. It published the fixed-policy information
+boundary and provisional launcher review records, not the unfinished QR files.
+
+QR then returned a source-quiet RI-18 handoff with 31 exact author checks in
+each mode. Root read the complete theorem, adapter and independent native
+matrix checker. Separate complete mathematical and source reviews accepted
+the final submission. The source audit additionally passed 65 assertions,
+including readiness zero and custom terminal settings on positive and zero
+paths, full predecessor/precursor anchors and a trap proving that stop paths
+do not call the terminal read. The final theorem submission was
+`f4a88fb8f42b26bd09dd88bc890b453f9b724bc9f75e4d8393f7ddc22d68b192`;
+an independent delta audit proved its mathematical body unchanged from the
+fully reviewed draft. Root replaced two administrative acceptance passages
+with durable proof/source acceptance and a link to this separate execution
+record. Reversing those replacements reconstructs the submitted digest.
+
+The accepted finite theorem composes positive maps from C through actual
+branching into C0, retained preterminal coupling, the explicitly adopted L_t
+return, literal cuts and fixed outcome-only commands to scalar read/stop laws.
+Incoming mass is preserved and every actual conditional factor occurs once.
+All 66 prospective labels survive, including zero-weight coordinates and
+planned read-setting IDs on stops. The full law has rank exactly two on the
+initial local span; its normalized TV is exactly |delta y|/2. The first Y
+branch destroys initial X/Z/c information even though known initial sources
+remain in audit envelopes. This is a proved limitation of the supplied route,
+not evidence that audit history is an extra observation.
+
+Root froze the three new artifact pins in the previously reviewed launcher.
+Independent review accepted this final delta: production inventory must have
+all twelve reviewed executable/statement pins, production tests require
+exactly 31 witnesses per mode, and three synthetic missing-pin regressions
+refuse before runner loading. The launcher otherwise retains the separately
+reviewed captured-byte, shared-alias and actual-path execution contract.
+
+An isolated archive of the published base plus exactly the five new files
+below passed **65 pytest cases in 74.56 s** on Python 3.11.6. The two real
+production cases passed **31 witnesses normally in 35.82 s** and the same
+**31 with optimization in 35.99 s**; assertions require all six actual source
+paths executed, no failures/errors/skips/expected failures or endpoint drift.
+The remaining 63 cases verify fixture execution and refusal/source accounting.
+No broader predecessor, core, RET or application suite was replayed. All four
+new Python files pass scoped Ruff lint and formatting checks.
+
+| Final accepted candidate file | SHA-256 |
+|---|---|
+| `docs/validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md` | `323826e4a8e83d709f0047120056410fdc1b79d3a5198ffeed0a96e9a8477fe7` |
+| `docs/validation/t8-q-finite-protocol-composition-2026-09-14/adapter.py` | `ac8672708681bf50cd7afa48b79f4379d1d629531abc6ab9b8bb5309543ffa59` |
+| `docs/validation/t8-q-finite-protocol-composition-2026-09-14/check.py` | `22b7a079da945fc1800c00c7aec2e6afd799c129c2a54789df123b63ed154b5c` |
+| `scripts/run_qr_finite_protocol.py` | `97bd8e39ce8cae0fcef28f296bff7ad5f6980086a4fd31800bf51b41ee361770` |
+| `det8/tests/test_qr_finite_protocol.py` | `ce6ccb6c62f7d37292e6f03c2bc67a0f6ce791fbce8aadd45c4d8d8b42fe4bbe` |
+
+The 53 distinct registered source/statement paths and seven held synthesis,
+RI-15, runner and accepted-design paths match their prior reviewed/published
+bytes. The registry remains nineteen suites and 411 cumulative witnesses;
+the 31 RI-18 witnesses remain separate. The original review and three broader
+working test/runner snapshots are unchanged. QR released its reservation and
+received the acceptance/pinning update; no successor is inferred from the
+handoff. Scoped publication and its independent remote verification follow.

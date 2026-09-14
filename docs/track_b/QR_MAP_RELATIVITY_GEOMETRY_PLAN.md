@@ -3,7 +3,30 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
-**RI-17 finite protocol composition, design only:** the
+**RI-18 bounded implementation, checks complete:** the accepted finite design
+is implemented in the new
+[protocol bundle](../validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md).
+It targets the specific missing weighted trace and preterminal source/context
+adapter, not arbitrary histories or a generic process SDK. Normalized full-C
+inputs begin at an explicitly empty prefix/pending boundary with root weight
+one; supplied reference-law factors and actual API factors must be retained
+exactly once through the fixed finite route. Full raw payload, independent
+input origins, local pending Z and distinct new joint words stay anchored.
+All 66 prospective coordinates, planned read-setting metadata, zero-selection
+refusal and terminal/stop boundaries pass 31 new focused exact checks in
+normal and optimized modes, using an independent native-matrix oracle.
+All 60 held predecessor/design identities match. Independent full proof/source
+review found no blocker. Coordinator acceptance and six-alias pinned integration
+are complete: 65 isolated launcher regressions include the actual 31 witnesses
+in each mode. Publication identity is tracked in the
+[progress record](../coordination/REVIEW_PROGRESS.md). The scalar law factors
+only through initial mass and Y component,
+with exact TV=|delta y|/2 on normalized inputs at fixed settings/law.
+Initial X/Z/c differences may remain in known audit inputs but cannot be
+recovered from this protocol's outcome law. This is not initial-state
+tomography, a measured comparison, physical selection or a geometry bridge.
+
+**Historical RI-17 finite protocol composition, design-only checkpoint:** the
 [new plan](../coordination/QR_PROTOCOL_COMPOSITION_PLAN.md) traces one full-C
 local source through an actual reusable branch into C0, independent reference
 selection, RI-15 preterminal coupling, the same raw K_t kernel under an
@@ -20,11 +43,11 @@ sixteen positive read leaves total 2/3 and two unavailable stops total 1/3.
 Independent full mathematical and API/record design reviews passed. Exact
 incoming-weight accounting, outcome-only controller input and full terminal
 audit anchors are explicit; coordinator design acceptance is complete.
-This sitting creates no executor,
-new witness suite or SDK and does not authorize the proposed implementation
-paths. The measured pilot, operational availability, native order/growth law,
-geometry and physical interpretation remain separate. Stop for design acceptance;
-there is no automatic implementation or successor.
+That design sitting created no executor, witness suite or SDK and did not
+itself authorize implementation. RI-18 above was separately assigned after
+verified design publication. The measured pilot, operational availability,
+native order/growth law, geometry and physical interpretation remain separate.
+There is no automatic successor.
 
 **RI-16 retained-word first commitment, accepted and registered:**
 the [new conditional theorem](../validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md)

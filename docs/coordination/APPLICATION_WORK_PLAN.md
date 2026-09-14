@@ -289,7 +289,10 @@ G2 completion remain unestablished. Coordinate ownership before SDK changes.
 
 14 September 2026 UTC. A coordinator consequence of the accepted
 [finite composition design](QR_PROTOCOL_COMPOSITION_PLAN.md), independent of
-whether its RI-18 executor is complete. Fix the declared apparatus, independent
+the implementation state. RI-18 is now independently accepted and its
+[source-pinned launcher](../../scripts/run_qr_finite_protocol.py) passes the
+actual 31 checks in both modes within 65 isolated launcher regressions.
+Fix the declared apparatus, independent
 reference law and outcome-only command table. Consider only the complete
 66-coordinate **scalar outcome law**, not the audit envelopes that retain the
 already supplied original source. The latter are not new observations of an
@@ -349,8 +352,8 @@ rows were submitted to the bounded helper, while all forty-eight structurally
 zero read labels remained in the full law. This algebraic row reduction does
 not authorize dropping outcomes from a protocol record.
 
-The practical consequence is precise: RI-18 can establish complete finite
-probability/type accounting for this chosen route; it cannot establish
+The practical consequence is precise: the accepted RI-18 establishes complete
+finite probability/type accounting for this chosen route; it cannot establish
 initial-state tomography. One sufficient separating experiment for the displayed opposite-X inputs
 is a separately declared X question on an available fresh source before the
 Y reset. More downstream readings of the already reset source

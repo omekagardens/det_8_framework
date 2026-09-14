@@ -10,7 +10,7 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 design is published in verified `ad04963`; RI-18 implementation is active. Root launcher infrastructure passed provisional review and isolated fixture checks, but its new artifact pins await QR acceptance. Preserve accepted sources. |
+| QR results through RI-08j, RI-15, synthesis and RI-16 | Published with remotely verified checkpoints `da8fe99`, `50d652f` and `22eca4e7eb1b73b84db6fe3b6ff613df932b15c1`. RI-16 adds 27 witnesses to the cumulative inventory of 411; all prior source pins are unchanged. | RI-17 design is published in verified `ad04963`. RI-18 is accepted and source-pinned integration passes; its separate publication checkpoint is tracked below and in review progress. Preserve accepted sources and keep its 31 witnesses outside the 411-witness registry total. |
 | RI-02/RI-04 kernel and certificate repairs | Published in verified checkpoint `38be4c0c941c62329b9175883748d4e586b9745e`: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Maintain the numerical/research limits; review later changes against this source identity. |
 | RI-12 exact identifiability | Published in the same checkpoint: `identifiability.py` and its 108-case test file. The mathematical contract was already published. | A measured application still needs data and an evaluation objective. No RET or core prerequisite for this exact interface. |
 | RI-11 applied comparison and clock reporting | Published in remotely verified `f8339ea4a4ce886ddc4513d989a2cecbad9d8dca`. Complete isolated candidate passed 105 focused tests and 33 legacy checks. Includes corrected shape-norm handling, dated legacy/modern chronology and exact clock-only test/runner snapshots. | Preserve the numerical, stable-file and synthetic-mapping limits. Measured application work still needs an instrument/dataset and evaluation objective. |
@@ -105,3 +105,23 @@ The measured pilot remains dependent on a selected instrument/dataset,
 target and tolerance, noise or deterministic error assumptions, acquisition
 costs, conventional baseline and held-out evaluation. Publication of synthetic
 or structural tools does not discharge these requirements.
+
+
+**RI-18 accepted publication candidate**
+
+The finite composition theorem, exact adapter/checker and separate six-alias
+launcher/regressions are independently accepted. An isolated candidate over
+verified base `bd989be5624a15d55846f096abab0d2dc66f3b36` passed 65 focused
+pytest cases in 74.56 s, including exactly 31 actual protocol witnesses in
+normal and optimized modes. Its five new source/statement paths have complete
+published prerequisites; no core, RET, claims, packaging or bank baseline is
+needed. All 60 predecessor/design paths and the existing registry are held
+unchanged. Only the theorem's two administrative acceptance passages changed
+after full proof review; executable bytes are the reviewed versions.
+
+The checkpoint includes the accepted five-file implementation, three QR
+summaries, coordinator acceptance/limit records and the separate launcher
+usage guide. The original review and unrelated working snapshots remain
+preserved. Exact source pins and the verified remote commit belong to the
+[progress record](REVIEW_PROGRESS.md). The 31 focused protocol witnesses are
+separate from the cumulative 411 registered witnesses.

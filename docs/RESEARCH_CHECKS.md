@@ -625,3 +625,45 @@ The separately deferred local claims endpoint remains its explicitly named
 eighteen-reference subset through RI-08j. This registration does not publish
 or alter the unrelated core/RET/claims baseline; the complete current research
 inventory is this registry and the coordinator acceptance record.
+
+
+## Separate RI-18 finite-protocol launcher
+
+The accepted [finite composition](validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md)
+has a separate fixed six-alias launcher. From the project root:
+
+```sh
+python -B scripts/run_qr_finite_protocol.py --check
+python -B scripts/run_qr_finite_protocol.py --run
+python -B scripts/run_qr_finite_protocol.py --run --optimized
+```
+
+The default and `--check` verify identities and import closure without
+executing the protocol or its witnesses. Explicit `--run` loads the captured
+bytes of the accepted local source, joint source, RI-15 adapter, terminal-read
+source, new protocol adapter and checker under six fixed aliases. The child
+uses `-I -S -B`, plus `-O` when requested. The published c/d types remain the
+identical module instances imported by RI-15. The report binds actual source
+paths/hashes, six statement/design identities, runner, launcher and Python
+interpreter; every declared executable must actually load. Missing pins,
+source/import drift, skipped tests, malformed counts and unsuccessful children
+cannot become a passing execution. No source override or automatic repinning
+is provided.
+
+The isolated candidate passed **65 focused pytest cases**, including exactly
+**31 protocol witnesses in each mode**. These are the same 31 witnesses
+repeated under optimization, and are excluded from the general registry's
+411-witness inventory. The source-only default performs none of them. This
+regression file explicitly runs both real protocol modes when selected by
+pytest; allow roughly 75 seconds on the acceptance machine. To run it:
+
+```sh
+python -B -m pytest -q -p no:cacheprovider det8/tests/test_qr_finite_protocol.py
+```
+
+Source capture and endpoint checks are not an atomic filesystem snapshot or
+a hostile-code sandbox. The fixed conditional protocol preserves full law
+labels, weights and audit anchors; its initial-state scalar law has rank two.
+This establishes neither initial-state tomography nor physical availability.
+Accepted source identities and scoped remote checkpoints are recorded in
+[review progress](coordination/REVIEW_PROGRESS.md).
