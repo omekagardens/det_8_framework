@@ -3,6 +3,24 @@
 13 September 2026. **DEPENDENCY_PLAN_WITH_INITIAL_INTERFACE_THEOREMS;
 NATIVE_GEOMETRY_NOT_DERIVED.**
 
+**RI-08 bounded consolidation, accepted 14 September 2026 UTC:**
+[Conditional observability and stability of a finite record cone](../research/FINITE_RECORD_OBSERVABILITY.md)
+now presents the accepted G/I/J result as one conditional finite theorem,
+with the actual native image/filter, full-table compatibility inverse and
+sharp filtered/nonsharp-composed raw error bounds in one place. The finite
+known command/read premises do not require the separate all-real reversible
+group classification. The route audit distinguishes C from its catalogue
+quotient, direct polarized C0 viability, the fixed equal-block K_t image,
+RI-15's retained wrapper and the explicit cut-closed enlargement to L_t.
+No global exclusion of earlier C inputs or terminal-to-reusable retagging
+is made. A complete operational chain still needs type/probability accounting.
+The final two bridges remain open: a word-indexed first-commit theorem that
+retains unbounded actual command words, and a measured pilot beyond exact
+identifiability/synthetic comparator arithmetic. Independent combined-proof
+and cross-arrow review found no remaining blocker. The source-stable synthesis
+is accepted by the coordinator. This document-only sitting does not
+launch either bridge or any QM/geometry/gravity promotion.
+
 **Conditional observation-stability capstone, accepted and registered:** the
 [RI-08j study](../validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md)
 quantifies the accepted three-setting state reconstruction without adding
@@ -27,8 +45,9 @@ and physical operation availability remain open. This is the final bounded
 refinement of this finite-cone branch before any separately authorized
 consolidation. After the narrow raw-metadata repair, RI-08j is independently
 accepted and registered by the coordinator. All 28 checks also pass normally
-and under optimization in the exact staged checkout. The bundle is
-source-quiet pending scoped publication. No automatic
+and under optimization in the exact staged checkout. The bundle was published
+in verified checkpoint da8fe99a1b1b91dab962ec0ed17bde349a06458c; its source
+bytes remain unchanged. No automatic
 successor or full-QM/geometry/gravity claim.
 
 **Conditional terminal-read observability result:** the

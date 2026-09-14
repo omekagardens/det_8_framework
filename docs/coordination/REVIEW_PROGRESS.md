@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| QR coordination / RI-05–08j | **Bounded handoffs accepted and registered.** The stability capstone passed both independent audits, the requested provenance repair, 63 exact proof probes, 7 adversarial cases per mode and all 28 new staged checks per mode. | Checkpoint `da8fe99` is pushed and independently verified. QR is assigned one conditional observability/stability synthesis, then stops for combined-proof review. No further finite-cone refinement is planned. |
+| QR coordination / RI-05–08j | **Bounded handoffs accepted and registered; conditional synthesis accepted.** Both coordinator reviews passed the full combined argument. Root verified all 50 registered statement/source pins against published bytes and 123 scoped links; one reviewer passed 29 exact arithmetic/path checks. | Executable checkpoint `da8fe99` is pushed and verified. Publish the accepted synthesis, then assign the separate retained-word first-commit bridge. No further finite-cone refinement is planned. |
 | RI-01 status reconciliation | **Accepted.** Six landing/status documents updated; coordinator reviewed current versus historical scope and checked 117 local file links across them and the new trackers/runner guide, with no missing targets. Scoped whitespace checks pass. | Maintain current-source evidence distinctions as later work lands. |
 | RI-02 kernel contract | **Accepted.** Coordinator inspected factorization and recordability contracts and independently reran 97 focused pytest cases successfully. Implementer also reports 49 existing consumer checks and clean scoped lint/whitespace checks. | Keep this research interface separate from the validated public core. `cholesky()` now returns an original-event-order pivoted Gram factor, not necessarily triangular. |
 | RI-03 research registry | **Accepted for eighteen suites.** The cumulative inventory is 384 witnesses /32 executable sources: prior 356 verified witnesses with unchanged pins plus 28 new capstone checks passed normally and optimized. Complete manifest preflight, 43 staged registry regressions and 64 local integration checks pass. | Preserve historical execution boundaries; 384 is not a new all-suite replay. RI-15 remains under its separate source contract. |
@@ -14,7 +14,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11, RI-12 exact contract and synthetic comparator fixture accepted.** Coordinator replay passed 236 focused cases: 34 new comparator, 108 identifiability, 54 applied/consumer and 40 registry. Model-conditional Gaussian oracles, exact observed-row/source bindings, held-out non-assimilation and byte-verified replay pass. | User's measured instrument/dataset choice remains open. Establish target, tolerance and evaluation objective before a measured pilot; coordinate RET ownership before source changes. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | Keep full earlier probability/tree orchestration and general interoperability separate from the accepted conditional adapter. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest accepted research checkpoint: [da8fe99](https://github.com/omekagardens/det_8_framework/commit/da8fe99a1b1b91dab962ec0ed17bde349a06458c), pushed to `origin/ret` and independently verified. Earlier accepted checkpoints `faad1e9` and `8714772` remain recorded below. Root owns git/index operations. | Continue reviewed scoped commits and pushes; preserve active QR work and the separately deferred local baseline. |
+| Remote checkpoints | Latest accepted source checkpoint: [38be4c0](https://github.com/omekagardens/det_8_framework/commit/38be4c0c941c62329b9175883748d4e586b9745e), publishing the research repairs and exact identifiability after isolated verification. The QR baseline remains `da8fe99`. Both are pushed to `origin/ret` and independently verified. Root owns git/index operations. | Continue reviewed scoped commits and pushes; preserve active QR work and the separately deferred local baseline. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -22,7 +22,7 @@ release gate or physical claim is closed by starting these assignments.
 
 Accepted work is not all published. The current
 [publication backlog](PUBLICATION_BACKLOG.md) records source dependencies and
-the isolated RI-02/RI-04 plus RI-12 identifiability checkpoint under review.
+the published RI-02/RI-04 plus RI-12 identifiability checkpoint.
 
 **RI-02 acceptance detail**
 
@@ -1895,3 +1895,62 @@ paths. Their tested SHA-256 identities follow.
 | `det8/applied_physics/identifiability.py` | `136588b80cc9d1935137c81885dc26446947dc52f81c120a0652a75b7fb268d9` |
 | `det8/tests/test_applied_identifiability.py` | `896951787410eb9a286591720f5659f7ffe3a357bdf32342941d90108d201088` |
 | `run_tests.py` | `67db5c364573dda855d645963d07a7ebe171790884f3110718f010d3d00d6ddf` |
+
+**Research/identifiability checkpoint published**
+
+[Commit 38be4c0c941c62329b9175883748d4e586b9745e](https://github.com/omekagardens/det_8_framework/commit/38be4c0c941c62329b9175883748d4e586b9745e)
+contains the fifteen tested source paths above and four coordinator Markdown
+files. Final tree: `431c290916cd9fcd46911db111508213421baaa7`.
+Before committing, root checked the exact nineteen-path index allowlist,
+byte-compared every staged source with the tested candidate and passed scoped
+whitespace checks. The working runner retained SHA-256
+`819fc4e5cce73a3e5eabf970bdaa24931c1e480e7968471ac4d228e2ea0914de`.
+No unaccepted QR synthesis, unrelated core/RET baseline or claims/application
+dependency was staged. `git push origin HEAD:ret` advanced `9a08329` to
+`38be4c0`; independent `git ls-remote --heads origin refs/heads/ret` returned
+the full commit above. The index was empty afterward. These publication
+records do not change the tested source identities.
+
+**Conditional finite-record synthesis accepted**
+
+QR delivered the single assigned
+[synthesis](../research/FINITE_RECORD_OBSERVABILITY.md), plus its three
+existing map/handoff documents, without a new executable or successor.
+Submitted synthesis SHA-256:
+`a82cbda6bc4a9eb27a2a40d75e1fde0b7fde9f28641f743c808a78e6fc18d50d`.
+Root read the whole argument and accepted it after two independent reviews:
+one checked the full inverse, compatibility, sharp filtered constants,
+native norm and feasible-budget proofs; the other audited each construction
+arrow, record/type interface and the limits of first commitment and applied
+transfer. Neither found a substantive blocker. The mathematical reviewer
+also passed 29 independent exact arithmetic/path checks.
+
+Root verified all **50 unique registered statement/source pins** against
+both the manifest and published source bytes, and all **123 local links**
+in the four submitted documents. This is broader pin coverage than the
+author's reported 36-pin subset; neither check reran the witness inventory.
+All executable sources and the registry remain unchanged. The main theorem
+body is preserved byte-for-byte after review: reversing its two-line status
+change reconstructs the submitted SHA-256 exactly. The three QR documents
+receive only acceptance/status additions beyond their reviewed submission.
+
+The synthesis establishes one conditional finite-dimensional endpoint under
+the known interior native image, fixed commands, calibrated full terminal
+read and matching context/history. Its route table does not turn domain
+restrictions into dynamics, identify C with its quotient, invent previous
+selection probabilities, or convert terminal audit wrappers into reusable
+states. The all-real generator classification is a separate result. Exact
+budget feasibility remains a supplied-candidate check with deterministic
+diameter bounds, not an infeasibility solver or statistical confidence claim.
+
+The named retained-word first-commit gap is the next bounded proof target.
+The measured pilot remains dependent on instrument/data and its frozen
+evaluation objective. Neither gap is closed by the synthesis, and no further
+finite-cone refinement or RET implementation is assigned in this checkpoint.
+
+| Accepted synthesis/status source | SHA-256 |
+|---|---|
+| `docs/research/FINITE_RECORD_OBSERVABILITY.md` | `55b6164f120f1b56bd75905be02a05d6a77a1ec0ab6aa08343746a96862c7966` |
+| `docs/coordination/QR_HANDOFF.md` | `26e6e4afe452e395c7eae310e0df43109b827667ee6f37d17361982c10ddec0a` |
+| `docs/track_b/QR_MAP.md` | `e4f764ee53c4866b9023aa2eb10fb42aeba42a60cc60499cfe8aab05c59236bf` |
+| `docs/track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md` | `ecf492d8ca376557bb2001a28222107eccb1a9970b7c2c05439df6f9b585eb47` |

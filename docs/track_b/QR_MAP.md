@@ -1,5 +1,22 @@
 # QR-MAP — licensed G with committed P-snapshots
 
+13 September 2026, bounded RI-08 consolidation: the
+[finite record observability synthesis](../research/FINITE_RECORD_OBSERVABILITY.md)
+assembles one self-contained conditional theorem from the accepted native
+image, three-setting inverse and stability argument. A known finite A matrix
+and its repeated application, with a calibrated tilted terminal read, suffice;
+the all-real continuous reversible-group classification is a separate result,
+not a hidden reconstruction premise. Full cell/sign laws, same-snapshot
+metadata, raw-versus-filtered norms and exact budget auditing remain explicit.
+The construction route distinguishes restricted domains, supplied operations,
+the separately implemented RI-15 wrapper and the explicitly enlarged L_t type.
+It does not assert one probability- and type-complete operational chain.
+The two open bridges are countably word-indexed first-commit output accounting
+and a measured comparator pilot; neither is implemented. Independent combined-proof
+and cross-arrow review found no remaining blocker. The synthesis is source-stable
+and accepted by the coordinator on 14 September 2026 UTC. No new fixture, witness inventory,
+control, preparation, instrument, RET/apparatus work or automatic successor.
+
 13 September 2026, observation-stability capstone: the
 [RI-08j theorem](../validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md)
 proves the sharp filtered-state bound
@@ -27,7 +44,8 @@ calibration, sampling and repeated preparations remain separate premises.
 RI-08j is independently accepted and registered by the coordinator after
 the narrow raw-metadata repair. Its 28 exact checks also pass normally and
 under optimization in the coordinator's exact staged checkout. The bundle
-is source-quiet pending scoped publication. No new control, preparation,
+was published in verified checkpoint da8fe99a1b1b91dab962ec0ed17bde349a06458c
+and its source bytes remain unchanged. No new control, preparation,
 instrument, solver, hardware, application/RET change or automatic successor.
 
 13 September 2026, terminal internal-read obligation: the

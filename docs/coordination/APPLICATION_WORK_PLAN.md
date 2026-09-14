@@ -9,7 +9,7 @@ changed for this design.
 
 Publication is tracked separately in the
 [publication backlog](PUBLICATION_BACKLOG.md). The exact identifiability module
-and its 108 tests form a standalone reviewed publication candidate. RI-11's
+and its 108 tests are published in verified checkpoint `38be4c0`. RI-11's
 chronology dependencies and the synthetic comparator's RET import closure
 remain unpublished prerequisites; local acceptance below does not imply that
 those complete consumers are available from the remote branch yet.

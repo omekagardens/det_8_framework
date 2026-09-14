@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026. **Active program; accepted results through RI-08j and RI-15. Finite-cone refinement is complete and published; the conditional-proof synthesis is assigned to QR.**
+Started 13 September 2026. **Active program; accepted results through RI-08j, its conditional-proof synthesis, and RI-15. Finite-cone refinement is complete. The synthesis is accepted for publication; the next bounded proof target is retained-word first commitment.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -17,7 +17,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-08j is accepted, registered and pushed as `da8fe99`. QR is assigned the single conditional observability/stability synthesis at `docs/research/FINITE_RECORD_OBSERVABILITY.md`, then must stop for combined-proof review. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-08j is pushed as `da8fe99`; the [conditional synthesis](docs/research/FINITE_RECORD_OBSERVABILITY.md) has passed both coordinator reviews and is accepted. Hold its source quiet for publication. The separate retained-word first-commit assignment will follow the verified checkpoint. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -84,9 +84,9 @@ central coordination of git operations.
 
 The [publication backlog](docs/coordination/PUBLICATION_BACKLOG.md) distinguishes
 accepted local work from complete remote checkpoints. RI-02/RI-04 repairs and
-RI-12 exact identifiability now have an independently reviewed, isolated source
-candidate: 203 focused tests and 90 legacy research checks pass without the
-unpublished core/RET baseline. RI-11 chronology, the comparator's RET imports,
+RI-12 exact identifiability are published in remotely verified `38be4c0`:
+203 focused tests and 90 legacy research checks pass in its isolated source
+candidate without the unpublished core/RET baseline. RI-11 chronology, the comparator's RET imports,
 and RI-14 support/claim prerequisites remain separate publication work.
 
 **Accepted implementation backlog**
@@ -168,7 +168,7 @@ evaluation. RI-07's finite full-label theorem does not cover that retained-word
 extension without a new proof. Instrument/data, target/tolerance and evaluation
 objective remain the named measured-application dependencies.
 
-The assigned consolidation artifact is
+The accepted consolidation artifact is
 `docs/research/FINITE_RECORD_OBSERVABILITY.md`: a short, independently
 reviewable conditional observability/stability argument, with exact accepted
 source references and no new executable fixture. Its central theorem needs
@@ -178,6 +178,65 @@ local C/C0 and K_t, the separate RI-15 adapter, and changed L_t return domain
 must label every added premise and composition boundary. RI-07 remains a
 separate theorem until its full-label/retained-word gap is proved. Root assigned
 this bounded synthesis after the capstone was accepted and pushed as `da8fe99`.
+Both independent coordinator reviews accepted the complete argument. Root
+checked all 50 registered statement/source pins against published bytes and
+123 scoped local links; one reviewer also passed 29 exact arithmetic/path
+checks. Only acceptance wording changed after that review. This closes the
+consolidation assignment without closing its explicitly named open bridges.
+
+**Next bounded proof: RI-16 retained-word first commitment**
+
+This assignment follows publication of the accepted synthesis. It closes a
+specific RI-07 interface gap rather than adding another finite-cone premise.
+QR will produce one isolated theorem bundle under
+`docs/validation/t8-q-retained-word-first-commit-2026-09-14/`, containing
+`RETAINED_WORD_FIRST_COMMIT.md`, `model.py` and `check.py`, and update only its
+existing three handoff/map documents. Root retains the registry, coordinator
+records and git/index. The accepted synthesis and all earlier bundles remain
+unchanged. No generic process SDK, RET work or automatic successor is assigned.
+
+Use one fixed complete stationary experiment or finite-controller policy on
+finite-dimensional closed pointed generating input cones with faithful mass.
+The mutually exclusive silent maps and committing maps must include policy
+selection; alternative available commands cannot be added as outcomes.
+Specify precisely which actual words, settings, committing outcomes,
+precursors and residual/controller types are retained. Hidden paths may be
+summed only within an identical retained-label/output-type coordinate; they
+must not become newly observable by a bookkeeping choice.
+
+Construct the complete output space as an l1 direct sum over the countable
+retained labels, using faithful output base norms or a proved uniform
+mass-to-norm bound. Prove positivity, operator-norm convergence of first-commit
+truncations, complete countable mass accounting and the never-commit limit.
+With input/output base norms, establish the exact tail-norm relation to the
+survival functional when valid. The retained-word recurrence needs explicit
+prefix-shift maps; the old unlabelled `H=B+HS` is insufficient. Prove the
+appropriate least-positive-solution statement without a blind inverse.
+
+Prove interchange with uniformly bounded word-dependent linear continuations,
+retaining the original word labels. Positive mass-nonincreasing maps are the
+natural contract in base norms. Aggregating labels is a separately declared
+question, and normalization occurs only after a strictly positive branch
+weight is known. Retain counterexamples for nonuniform coordinate norms,
+unbounded continuations, word erasure and infinite-dimensional input; no
+uniform convergence rate across all models is claimed.
+
+The I/J terminal read can enter only through its supplied scalar positive
+effects with full word/cell/sign labels. It has no specified linear postread
+residual. The audit construction `N -> p(N) N / m(N)` is generally nonlinear;
+an audit sidecar does not make it a reusable committing-output state.
+Literal-cut branches can retain their already declared positive unnormalized
+residual maps. Mathematical continuation maps do not confer new physical
+availability on terminal results.
+
+Use a small exact rational executable supplement with retained geometric
+word weights, a genuine never component, type/record preservation,
+word-dependent bounded effects and explicit refusal/counterexample cases.
+Include a nonclassical residual example only if it fits this same contract
+without inventing a new instrument. The written proof must establish the
+infinite conclusion independently of the finite witnesses. Return a stable
+handoff with independent proof/source review, exact pins, actual check results
+and remaining limitations, then stop for coordinator acceptance.
 
 **Application decision**
 

@@ -10,17 +10,17 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| QR results through RI-08j, registry and RI-15 adapter | Published; latest executable checkpoint `da8fe99a1b1b91dab962ec0ed17bde349a06458c`. The cumulative registry inventory is 384 witnesses, with execution boundaries recorded in progress. | Preserve accepted sources. Review QR's assigned conditional synthesis when its author supplies a stable handoff. |
-| RI-02/RI-04 kernel and certificate repairs | Reviewed publication candidate: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Commit the isolated, tested source snapshot and verify `origin/ret`; record the result below. |
-| RI-12 exact identifiability | Reviewed standalone candidate: `identifiability.py` and its 108-case test file. The mathematical contract is already published. | Publish with the independent research repairs. No RET or core prerequisite. |
-| RI-11 applied comparison and clock reporting | Accepted locally; publication deferred for chronology and consumer dependencies. The validation helper is included in the current research candidate. | Audit ingestion prerequisites and migrate only the affected legacy consumer group before capturing a separate checkpoint. |
+| QR results through RI-08j, registry and RI-15 adapter | Published; latest QR executable checkpoint `da8fe99a1b1b91dab962ec0ed17bde349a06458c`. The cumulative registry inventory is 384 witnesses, with execution boundaries recorded in progress. The conditional synthesis has now passed coordinator review. | Publish the accepted synthesis and status changes, preserving all accepted executable sources. |
+| RI-02/RI-04 kernel and certificate repairs | Published in verified checkpoint `38be4c0c941c62329b9175883748d4e586b9745e`: nine research models, shared validation helper, two focused test files and eight selected legacy runner groups. | Maintain the numerical/research limits; review later changes against this source identity. |
+| RI-12 exact identifiability | Published in the same checkpoint: `identifiability.py` and its 108-case test file. The mathematical contract was already published. | A measured application still needs data and an evaluation objective. No RET or core prerequisite for this exact interface. |
+| RI-11 applied comparison and clock reporting | Accepted locally; publication deferred for chronology and consumer dependencies. The validation helper is included in published checkpoint `38be4c0`. | Audit ingestion prerequisites and migrate only the affected legacy consumer group before capturing a separate checkpoint. |
 | RI-12 synthetic comparator | Accepted locally; publication deferred for its actual RET import closure. | Resolve the existing RET baseline publication with its owner before publishing this consumer. No new RET implementation or bank work is assigned. |
 | RI-14 claims and generated reference | Accepted locally; unchanged whole-file publication would advertise missing public-core/RET surfaces and depend on unpublished contract changes. | Retain the existing research registry as the published research interface. Revisit claims with the corresponding baseline/support decision. |
 | RI-01 landing/status reconciliation and broader baseline | Accepted local reconciliation does not publish the source-bound core/RET evidence it describes. | Review prerequisites separately; preserve the unrelated working tree. |
 
 **Research and identifiability checkpoint**
 
-The candidate starts from published commit
+The published checkpoint starts from commit
 `9a0832939435c5d998cf680135d23a3d353af8db`. Its fifteen selected source paths
 need only existing package initializers, published research consumers and the
 standard library at runtime. Pytest is a development test dependency; no local
@@ -34,7 +34,14 @@ groups differ from the published runner; the ninth kernel group is already
 identical. The coordinator verified the remaining runner functions and
 top-level statements against the published version. The full working runner
 contains unrelated baseline work and is deliberately not the staged source.
-The original working file is preserved while the reviewed snapshot is staged.
+The original working file was preserved while the reviewed snapshot was staged.
+
+[Commit 38be4c0](https://github.com/omekagardens/det_8_framework/commit/38be4c0c941c62329b9175883748d4e586b9745e)
+contains those fifteen source paths and four coordinator Markdown files.
+Its tree is `431c290916cd9fcd46911db111508213421baaa7`. Every staged source
+was byte-compared with the tested candidate. The normal push to `origin/ret`
+succeeded and independent remote-ref lookup returned the full commit above.
+The index was empty afterward; the full working runner retained its prior hash.
 
 The research interface includes numerical refusal and tolerance contracts,
 not exact floating-point positivity certification or public-core promotion.

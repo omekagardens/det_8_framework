@@ -1,4 +1,103 @@
-# QR research handoff — observation stability and error budgets
+# QR research handoff — finite record observability consolidation
+
+14 September 2026 UTC. **RI-08 CONSOLIDATION_ACCEPTED_BY_COORDINATOR.**
+The assigned single new synthesis is
+[FINITE_RECORD_OBSERVABILITY.md](../research/FINITE_RECORD_OBSERVABILITY.md),
+“Conditional observability and stability of a finite record cone.”
+Its baseline is the coordinator's accepted and remotely verified RI-08j
+checkpoint da8fe99a1b1b91dab962ec0ed17bde349a06458c,
+tree 197f2e7a701746ff9e57d9319df7a7e0fc244768. The earlier J handoff below
+is historical; its publication-pending statements were satisfied by that
+checkpoint. The source hold was released only for this document-only synthesis.
+
+This sitting edits one new research document and the three existing QR
+summary/handoff documents. Every accepted statement/model/check pin,
+registry/runner/schema, RI-15, claims, coordinator records, original review,
+core/RET/application source and protected evidence remain unchanged.
+No git/index operation, new executable bundle, duplicate witness inventory,
+new primary control/preparation/instrument or automatic successor is started.
+
+## Consolidated result and cross-bundle boundaries
+
+The synthesis presents G/I/J as one self-contained conditional theorem.
+It supplies the actual sixteen-label image and inverse/filter, differentiates
+native mass from raw trace, and states the known finite common-X A matrix
+and its repeated use with an exactly calibrated tilted terminal read.
+Three full eight-outcome setting tables at the same normalized snapshot
+characterize compatible positive sources and reconstruct every native entry.
+The same object obeys sharp filtered-state bounds and the native trace-norm
+comparison, with radical constants distinguished from rational enclosures.
+A supplied exact feasible candidate proves nonempty deterministic budget
+feasibility and a diameter bound; a failed candidate remains inconclusive.
+Typed States alone bind matched metadata; raw audits require metadata=None.
+Terminal-only semantics and unknown earlier selection probabilities remain.
+
+The finite proof needs neither B/inverse commands, an all-real continuous
+group, Hamiltonian classification nor RI-07. Literal cuts are needed only
+for the optional larger finite-policy corollary. H's stronger reversible
+group result is a separate classification proposition, not a missing axiom
+silently imported into three-setting reconstruction.
+
+The route audit separates whole-domain mass-dominated effects on K_P,
+the control-selected local C, its proper catalogue-relative qubit quotient,
+direct polarized C0 viability, RI-08c's conditional record-producing branch,
+the fixed equal-block K_t image, RI-15's lossless retained-context wrapper,
+and the explicit mathematical cut closure L_t. Each arrow is labeled by
+its restriction/construction, additional-premise or implementation status.
+There is no single implemented probability- and type-complete operational
+chain: earlier branch/reference-selection weights still need orchestration,
+and physical preparation/control availability is not derived. Earlier C
+states remain legitimate; J2Phi is not identity and terminal wrappers are
+not retagged reusable.
+
+Sharpness, blind-axis conditioning/rank loss, bounded endpoint dark-state,
+rare-cell conditional and paired unknown-calibration examples remain intact.
+The final two open bridges are precise: RI-07's finite FULL labels do not
+cover arbitrarily long retained command words, requiring a word-indexed
+output norm, convergence, mass/label accounting and word-dependent
+continuation argument; and exact/synthetic comparator work does not supply
+a measured pilot's data, target/tolerance, calibrated noise/stability,
+measured costs, frozen conventional baseline and held-out evaluation.
+Neither bridge is implemented. J budgets are not confidence levels and its
+cone-specific constants do not automatically transfer to the comparator.
+
+## Consolidation review and verification
+
+Independent reviewers assessed the combined proof and every cross-bundle
+arrow, not only citations, and found no remaining mathematical or route
+blocker. Their requested clarifications made the C0-to-equal-block-K_t link,
+RI-15 wrapper-only metadata, optional RI-08c state-changing branch, local
+viability versus global state exclusion, and separate source inventories
+explicit. The combined finite G/I/J theorem is sound under its stated
+finite premises. The missing complete operational chain and countable-word
+first-commit extension remain openly named rather than inferred from it.
+
+Main review checked the displayed inverse, determinant, unit axes, coefficient
+norms/rational enclosures, general-axis specialization and limit constants
+with exact rational arithmetic, alongside the written native/filter proof.
+All thirty-six accepted statement/model/check pins remain unchanged.
+All 123 local Markdown links across the four scoped documents resolve;
+scoped whitespace/conflict-marker checks have no findings. No broad
+384-witness replay was performed for this document: accepted J just passed
+staged normal/optimized checks and predecessor results remain source-bound.
+The standalone source is approximately 2,200 words excluding displayed
+formulas and link targets. Its final source identity is recorded below.
+Reviewed submission SHA256:
+`a82cbda6bc4a9eb27a2a40d75e1fde0b7fde9f28641f743c808a78e6fc18d50d`.
+Coordinator acceptance changes only the synthesis status line; its complete
+mathematical body remains identical. Root's two independent reviews found no
+blocker, including 29 exact arithmetic/path checks. Root additionally verified
+all 50 unique registered statement/source pins against both their recorded
+hashes and published bytes, and all 123 scoped local links. The current
+accepted source identity and publication record are in
+[REVIEW_PROGRESS.md](REVIEW_PROGRESS.md).
+The existing registry remains the source inventory; RI-15 retains its
+separate launcher contract. This is not a new operational fixture or a
+DET-selected physical QM, geometry or gravity claim. All four scoped files
+are source-quiet for scoped publication; no successor is opened in this
+handoff, and git/index operations remain solely with the coordinator.
+
+## Historical RI-08j handoff — accepted, registered and published
 
 13 September 2026. **RI-08j ACCEPTED_AND_REGISTERED_BY_COORDINATOR.**
 The corrected J source passed coordinator acceptance and registration;

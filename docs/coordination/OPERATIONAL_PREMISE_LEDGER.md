@@ -404,12 +404,18 @@ binary expectation difference can instead incur twice the TV budget.
 ## 7. Application and project integration route
 
 The accepted observation-stability capstone closes the present round of
-finite-cone refinement. The assigned `FINITE_RECORD_OBSERVABILITY.md` synthesis consolidates a single
+finite-cone refinement. The accepted
+[FINITE_RECORD_OBSERVABILITY.md](../research/FINITE_RECORD_OBSERVABILITY.md) synthesis consolidates a single
 conditional observability/stability argument; it does not settle operational
 premise selection, the retained-word first-commit extension or measured
 application obligations below. Its finite theorem needs known A/A² command
 matrices and the calibrated terminal read, not the stronger all-real
 continuity premise used in the separate generator classification.
+The full combined proof and its cross-bundle arrows passed two independent
+coordinator reviews. Acceptance adds no executable fixture or automatic
+extension to infinite retained command words. Publication state for the
+research repairs, exact identifiability, comparator and claims package is
+recorded separately in the [publication backlog](PUBLICATION_BACKLOG.md).
 
 The useful QR/application transfer at present is a disciplined answerability
 contract: declare the state/model, question, allowed observations, retained
