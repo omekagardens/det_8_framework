@@ -3,6 +3,14 @@
 13 September 2026. **CONDITIONAL_NO_INFORMATION_THEOREM;
 FULL_CONE_INSTRUMENT_CANDIDATE_REJECTED; NATIVE_L_NOT_SELECTED.**
 
+**Subsequent result:** the
+[record-context domain construction](../t8-q-record-context-domain-2026-09-13/CONTEXT_DOMAIN.md)
+derives conditional exact-recordability cones for supplied partitions.
+They retain informative coherent records, but do not select physical
+preparations or the next context. Serial-closure and automatic-selector
+counterexamples locate the remaining transition-law obligation. The
+full-cone rejection and residual-convergence warning below are unchanged.
+
 This addresses the next obligation in the
 [QR-MAP plan](../../track_b/QR_MAP_RELATIVITY_GEOMETRY_PLAN.md): justify silent
 and commit operations from the admitted kernel calculus, rather than assume

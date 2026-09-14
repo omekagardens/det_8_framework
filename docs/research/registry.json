@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "finite_witness_verification_not_theorem_proof",
+  "suites": [
+    {
+      "id": "strict-derivation",
+      "statement": "Admitted strongly positive pair-kernels give recordable block weights and conditional histories, while examples separate these facts from unique physical updates and full QM.",
+      "premises": [
+        "Finite Hermitian biadditive normalized strongly positive event kernels.",
+        "Readout is restricted to a supplied exactly decoherent partition."
+      ],
+      "limits": [
+        "Checks are exact finite witnesses; the universal arguments live in the statement document.",
+        "No physical operation law, complex-field selection, full QM or geometry is derived."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-strict-derivation-2026-09-12/DERIVATION.md",
+        "sha256": "e9d238df4b61ce29984e13cce3699a70b29416bacb14278616442daf194a2ff0"
+      },
+      "entrypoint": "docs/validation/t8-q-strict-derivation-2026-09-12/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-strict-derivation-2026-09-12/check.py",
+          "sha256": "a506f424cebd9edb976bb2b001da833663098cc6264889cb8fc2343c3aac73ab"
+        }
+      ],
+      "stdlib_imports": [
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "operation-domain",
+      "statement": "Globally positive linear complete instruments on the full total-entry-normalized PSD cone have state-independent probabilities; a finite witness shows divergent residual first-commit sums.",
+      "premises": [
+        "The rejected candidate treats the entire PSD cone as one operational domain.",
+        "Fixed positive linear branch maps conserve total-entry mass."
+      ],
+      "limits": [
+        "The theorem is conditional on the stated full-domain candidate; witnesses do not prove its universal quantifiers.",
+        "Restricted recordable domains and compatible quantum image cones are not rejected."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-operation-domain-2026-09-13/OPERATION_DOMAIN.md",
+        "sha256": "dcd9f166118d744e38fc18adf77976f639555510dd067de8fbc43cfc70bb6959"
+      },
+      "entrypoint": "docs/validation/t8-q-operation-domain-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-operation-domain-2026-09-13/check.py",
+          "sha256": "96b7d74ad0be23103664f0beca90371452239ce298fdd96009d73d09a4c36de8"
+        }
+      ],
+      "stdlib_imports": [
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "hypothesis-countermodels",
+      "statement": "Finite forward record marginals are consistent under the declared instrument assumptions; compatible countermodels prevent purification, local tomography and ideal compression from following from the weaker source theory.",
+      "premises": [
+        "The finite source fragment and each countermodel operational catalogue are stated explicitly in JUSTIFICATION.md.",
+        "Published reconstruction axioms are not silently included in the weak premise set."
+      ],
+      "limits": [
+        "The suite verifies named finite countermodel calculations, not a reconstruction theorem.",
+        "Physical availability and the stronger operational premise package remain separate."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-hypothesis-justification-2026-09-13/JUSTIFICATION.md",
+        "sha256": "0638c588e30f3d10684bb67c72237805dc82c7a5832ae7e33f215472aaf76e2b"
+      },
+      "entrypoint": "docs/validation/t8-q-hypothesis-justification-2026-09-13/check_witnesses.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-hypothesis-justification-2026-09-13/check_witnesses.py",
+          "sha256": "136500400e32c676a10576f1bf92fec8696f16b3fa8d20ec54bfef7921f1b877"
+        }
+      ],
+      "stdlib_imports": [
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "chosen-law",
+      "statement": "The supplied two-port X/Y/Z renewal protocol preserves complete quantum branch maps and the stated finite composition comparisons within a conditional operational completion.",
+      "premises": [
+        "The finite operational reconstruction package is explicitly assumed.",
+        "The two-port law, contexts and selective updates are supplied choices on the compatible encoded cones."
+      ],
+      "limits": [
+        "Checks verify the chosen law and finite examples, not the published reconstruction theorem or its physical premises.",
+        "No unique DET-native law, universal control, manifold limit, mass or gravity follows."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-operational-completion-2026-09-12/RECONSTRUCTION.md",
+        "sha256": "60c1dac8486d2382f3eae180528bf7a5c868304f2d03980804e30b0819bd6c5b"
+      },
+      "entrypoint": "docs/validation/t8-q-operational-completion-2026-09-12/check_law.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-operational-completion-2026-09-12/check_law.py",
+          "sha256": "7681bc3e36861a55176384704fb7e85a50652873aa026e8a3be115f7415a15e0"
+        }
+      ],
+      "stdlib_imports": [
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "coherent-readout",
+      "statement": "A supplied finite pair algebra and compatible history kernels permit coherence-sensitive recorded readout at fixed record and atomic diagonal.",
+      "premises": [
+        "Finite noncommutative composition, compatible kernel domain, compression and orthogonal record-block preparation are extra hypotheses.",
+        "The primary algebra and independent reference modules are both executable dependencies."
+      ],
+      "limits": [
+        "This is a conditional finite candidate, not a derivation of its added algebra or update.",
+        "Quantum-sensitive readout does not establish quantum-sensitive order selection."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-coherent-readout-2026-09-12/CANDIDATE.md",
+        "sha256": "3ab9f1d8c3685aa295364204859d4c0a0f8b0065905a4cc8c30bcddd2f71272c"
+      },
+      "entrypoint": "docs/validation/t8-q-coherent-readout-2026-09-12/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-coherent-readout-2026-09-12/algebra.py",
+          "sha256": "ad2486e0c5eba1ecb561c01fa345989dbeeb052b7e871a9ad13ac9763b19f180"
+        },
+        {
+          "path": "docs/validation/t8-q-coherent-readout-2026-09-12/check.py",
+          "sha256": "8dd0fde8bf136ef68bee00c9fcd8202dec61dbcb192f9322c01e750e0424163e"
+        },
+        {
+          "path": "docs/validation/t8-q-coherent-readout-2026-09-12/reference.py",
+          "sha256": "cc071a052bcf562cc7935a6084b7f24ad03fb32f03d604f7c786dfde0621e5eb"
+        }
+      ],
+      "stdlib_imports": [
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "record-context",
+      "statement": "Supplied record partitions define conditional kernel domains and cuts; exact witnesses show that common initial recordability need not give serial closure or a unique equivariant context selector.",
+      "premises": [
+        "Finite strongly positive pair-kernels and exact recordability on a supplied partition.",
+        "Conditional cuts and the candidate selector requirements are specified in CONTEXT_DOMAIN.md."
+      ],
+      "limits": [
+        "Finite witnesses illustrate the written conditional theorems and counterexamples; they do not prove universal quantifiers.",
+        "Physical preparations, next context, operational availability and a native law remain unselected."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-record-context-domain-2026-09-13/CONTEXT_DOMAIN.md",
+        "sha256": "5b519778ba04a34c974e078e3b6ac3018045c419123633bba801109b4f37b4aa"
+      },
+      "entrypoint": "docs/validation/t8-q-record-context-domain-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-record-context-domain-2026-09-13/check.py",
+          "sha256": "0a273d2c16f9e9a69178c494170f7b15294c7e2faf0fa82f94e23c233131da86"
+        }
+      ],
+      "stdlib_imports": [
+        "fractions",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "controlled-context",
+      "statement": "Two chosen classical preparation cones encoded as coherent pair-kernels admit informative typed transitions and constructive finite future-effect equivalence; the declared complete test family has rank four in each mode and no nontrivial residual quotient.",
+      "premises": [
+        "Two supplied simplicial cones, exact rational coordinates, available read/switch/attempt operations, and a finite mode controller.",
+        "The observation interface supplies interaction boundaries for controlled branch cylinders; a fixed read-switch-read program also separates coordinates using committed read outcomes.",
+        "Whole-history chain precursors and the minimal classical product are additional model choices; structural state validation is not proof of global reachability."
+      ],
+      "limits": [
+        "The general future-effect and silent-limit arguments are written proofs; this suite verifies only the specified two-mode finite instance and named counterexamples.",
+        "Off-diagonal pair-kernel entries do not select QM: the model is classically representable and gives no nontrivial residual compression under its full test family.",
+        "Controlled procedure boundaries are not physical timestamps or committed nulls; no native operation law, whole-history schedule covariance, geometry, mass or gravity is derived."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-controlled-context-2026-09-13/CONTROLLED_CONTEXT.md",
+        "sha256": "249f776aca8bbe1fa997c425561b23284ac0f538daeee112ae0988a06d2e372e"
+      },
+      "entrypoint": "docs/validation/t8-q-controlled-context-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-controlled-context-2026-09-13/check.py",
+          "sha256": "292e24df6a2983f7b9132a900728f56ac33888e2906eedffe03de30ea6ac3372"
+        },
+        {
+          "path": "docs/validation/t8-q-controlled-context-2026-09-13/model.py",
+          "sha256": "6219051591c5ba5eb6ee4be4febfcfff1d0593bf53cdd4200853adaceba75f6e"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "types",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "first-commit-quotient",
+      "statement": "Faithfully normalized finite cones give operator-norm limits and least positive full-label first-commit maps with complementary never-commit mass; compatible predictive quotients preserve this construction, with selected classical examples and obstructions checked exactly.",
+      "premises": [
+        "At a fixed record prefix, a supplied stationary complete experiment or finite internal controller has positive silent and finitely many fully labelled commit maps conserving total mass.",
+        "Finite-dimensional closed pointed generating input and output convex cones have strictly positive mass functionals; these compact-base hypotheses are sufficient, not necessary or quantum-selecting.",
+        "A lawful quotient retains mass and every allowed continuation and terminal effect; full committed labels and external types remain distinct, and hidden path refinements are excluded only by the declared observation interface."
+      ],
+      "limits": [
+        "The suite verifies selected exact classical examples and counterexamples; finite checks do not prove the written general convergence and quotient theorems.",
+        "First-commit elimination preserves labelled residual maps and never-commit probability but forgets silent counts, paths and controller visits; the never event has no supplied terminal residual or committed record, and zero-mass branches cannot be selected.",
+        "The selected classical model and faithful-cone theorem derive no physical operation law or QM, global-history or uniform model-family limit, general nonfaithful-domain classification, geometry, mass or gravity."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-first-commit-quotient-2026-09-13/FIRST_COMMIT_QUOTIENT.md",
+        "sha256": "a702625b5e5af97881292e06750f94cef16319a0d0f3c065058207991818fe0c"
+      },
+      "entrypoint": "docs/validation/t8-q-first-commit-quotient-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-first-commit-quotient-2026-09-13/check.py",
+          "sha256": "0ab1fdc92eb391e2a52462f5b1cc77ab68adf641a0010600c6563faf08385970"
+        },
+        {
+          "path": "docs/validation/t8-q-first-commit-quotient-2026-09-13/model.py",
+          "sha256": "42c67879fc4ccba35d7155ab517275f76fadce68371a30c36438c237b636c8d0"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "maximal-record-domain",
+      "statement": "On maximal fixed-partition exact-recordability cones, bounded real-linear effects factor uniquely through cell weights and positive full-domain mass-nonincreasing maps induce substochastic quotient maps; exact witnesses cover complex span directions, realizations, proper-domain exceptions and divergent original first-commit residuals.",
+      "premises": [
+        "A supplied nonempty finite partition defines the entire PSD exact-recordability cone and its actual real Hermitian span, with total-entry mass rather than trace.",
+        "Effects are real-linear on the full span and bounded between zero and mass on the entire cone; fixed real-linear transformations are positive and mass-nonincreasing on that whole input cone.",
+        "Availability is fixed by the declared committed prefix, external type and controller, not hidden residual inspection; full committed labels, precursors, records and known apparatus types remain outside the residual quotient."
+      ],
+      "limits": [
+        "Finite exact witnesses verify the named calculations and counterexamples, not the general classification proof or physical preparation/control/observation availability.",
+        "The full-domain catalogue is at most cell-weight informative; exact residual equivalence needs available cell readout, and the full classical operational catalogue requires additional preparation and transition availability.",
+        "Faithful quotient first-commit sums converge under the prior finite-label fixed-policy and observation conditions; original nonfaithful kernel sums can diverge. A zero-probability branch may retain a nonzero dark kernel but cannot be normalized or selected as a commitment.",
+        "No physical classicality or QM selection, ancillary/composite behavior, global-history or uniform model-family limit, geometry, mass or gravity is established."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-maximal-record-domain-2026-09-13/MAXIMAL_DOMAIN_QUOTIENT.md",
+        "sha256": "57e509ffd245d24f244e052a0433bc7c1a46233387f2a54a9cfb618079780ad6"
+      },
+      "entrypoint": "docs/validation/t8-q-maximal-record-domain-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-maximal-record-domain-2026-09-13/check.py",
+          "sha256": "1f4de15abcb2178666ab2a6b5c4af32ac3b140479679347c51e6c32ab68e9804"
+        },
+        {
+          "path": "docs/validation/t8-q-maximal-record-domain-2026-09-13/model.py",
+          "sha256": "c3d1d33f117e5d9b7ad3af1ec5efc420bd6d9a6b415ee885211bd7d94b6bc606"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "control-selected-qubit",
+      "statement": "Supplied reversible controls and readout-swap calibration select a maximal viable subcone of the full four-label exact-recordability domain; its control-word and terminal-read predictions have a PSD2 quotient while complex cross-block payload remains in raw kernels.",
+      "premises": [
+        "The full complex Hermitian four-label exact-recordability cone is the starting domain, with a supplied two-cell partition and total-entry mass.",
+        "Block-twisted H, quarter-phase P and Z controls and inverses are available at a fixed declared prefix/type; every finite control word preserves mass and recordability, and Z exchanges terminal readout probabilities.",
+        "Availability is independent of hidden residual inspection. The observation catalogue is control words followed by a terminal cell read retaining the complete raw cut, actual setting word, outcome and precursor in a distinct output type."
+      ],
+      "limits": [
+        "Exact finite checks verify the named algebra, closed control groups and type boundaries; they do not prove the general maximality argument or physical availability of the supplied controls and preparations.",
+        "The viable raw cone retains a complex cross-block coordinate c; its PSD2 quotient is relative to the declared catalogue. Other bounded mathematical effects can distinguish c, and the positive quantum section is not the entire raw cone or an available preparation/reset.",
+        "Literal cell cuts leave the source control domain. A zero-probability cut can be nonzero but cannot be normalized or committed; no reusable instrument or same-type post-read control is supplied.",
+        "Physical preparation richness, all effects/instruments, complex-field selection, full QM, ancillary/composite closure, unbounded histories, native growth, geometry, mass and gravity are not established."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-control-selected-qubit-2026-09-13/CONTROL_SELECTED_QUBIT.md",
+        "sha256": "b9ce11fc5c8e11a8aeefa57e7da76b528673a720c54e6e6858f02380742233a2"
+      },
+      "entrypoint": "docs/validation/t8-q-control-selected-qubit-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-control-selected-qubit-2026-09-13/check.py",
+          "sha256": "8417baaa17d5ea6ab8a6ceef3492a63eccb413b02ff3fc3417ea81999425cbc5"
+        },
+        {
+          "path": "docs/validation/t8-q-control-selected-qubit-2026-09-13/model.py",
+          "sha256": "82a0e42a714cf744e9288618016f8cd12617eb0b92b1a1b59813e340db875cd4"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "repeatable-record-instrument",
+      "statement": "Same-source positivity, calibrated Pauli effects and perfect repeatability on the full six-dimensional control-selected cone uniquely determine reusable rank-one record branches; finite serial protocols preserve full histories, with restricted preparation reachability distinguished from explicit mixture marginals.",
+      "premises": [
+        "The previously conditional control-selected cone retains every Hermitian A and complex c with A at least |c| times the identity; its faithful total-entry mass and Pauli quotient effects are supplied.",
+        "Each branch is real-linear on the full signed source span, positive into the same cone, exactly effect-calibrated and perfectly repeatable on the entire cone; reusable availability is a separate premise at a fixed declared type, controller and frame.",
+        "Actual controls and finite feedback choices use only known settings and committed history. Preparation reachability starts from the declared maximally mixed section; finite classical randomization and record-blind marginalization are additional, explicitly separated interfaces."
+      ],
+      "limits": [
+        "Finite exact checks verify the named linear certificates, source/terminal boundaries and finite closure; they are witnesses, not proof-assistant certificates or empirical validation of the general cone lemma.",
+        "The exposed output ray forces c to vanish and zero-effect outputs to be the entire zero kernel. This does not restrict input c, establish physical availability or authorize a reset on the old separately typed literal-cut target.",
+        "Full outcomes, actual words, frames, controllers, selectors and precursors remain distinct. Fine-history-conditioned residuals are exactly the center and six Pauli eigenstates; explicitly allowed mixture marginals fill only the stabilizer octahedron, with rational weights giving its rational-coordinate points.",
+        "Full preparation richness, native justification of the supplied controls/range/calibration/repeatability, complex-field selection, all POVMs or instruments, ancillary complete positivity, composite systems, quantum advantage, unbounded histories, growth, geometry, mass and gravity are not established."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-repeatable-record-instrument-2026-09-13/REPEATABLE_INSTRUMENT.md",
+        "sha256": "7870bfa7549cb134a6dea54cd1b98ef3451736067ad6ebe6a86498576a40a62c"
+      },
+      "entrypoint": "docs/validation/t8-q-repeatable-record-instrument-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-repeatable-record-instrument-2026-09-13/check.py",
+          "sha256": "302ee08be226fab9d89d0031277e2357d71cfb5f9d0c56d6a6662681759f5677"
+        },
+        {
+          "path": "docs/validation/t8-q-repeatable-record-instrument-2026-09-13/model.py",
+          "sha256": "173ad68ab8be40036a28e2806bfdb03dde8bd42030772a41084736d31e05fb86"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "types",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "joint-recordability",
+      "statement": "For an independently supplied polarized section reference and one fixed shared CNOT-then-target-H lift, exact joint recordability selects precisely the c=0 local subcone from the full control-selected domain; full-payload cross forms distinguish this exclusion from mass preservation or a globally selected composite theory.",
+      "premises": [
+        "The full local cone D(A,c), A at least |c| times the identity, is composed by a declared raw tensor product with an independently prepared reference D((I+tZ)/4,0), where real t lies in [-1,1] and the Z orientation is known.",
+        "All sixteen native labels are retained through an explicit signed permutation and untwisting; the same shared-system lift of (I tensor H) CNOT is supplied in every joint-cell block, with its availability and order fixed by the declared interface.",
+        "The same four-cell joint partition must remain exactly recordable after that lift, requiring every complex cross-cell form to vanish. Input origins, both complete histories, the independence declaration, reference settings and actual coupler remain distinct."
+      ],
+      "limits": [
+        "Finite exact checks verify the named algebra, full-span rank constraints and typed boundaries; they do not replace the general real/complex proof or empirically certify preparation independence and coupler availability.",
+        "For nonzero t the maximal surviving local subcone is c=0; at t=0 the entire local cone survives. This is interface-domain exclusion, not a dynamics erasing c, an observable measuring c or a universal restriction on local states under other interfaces.",
+        "The chosen coupler preserves total-entry mass even for invalid c!=0 outputs because their cross forms cancel. Product controls, an unpolarized reference and CNOT alone are blind; arbitrary shared unitaries need not preserve mass off the surviving domain.",
+        "Lawful positive commitments retain full terminal raw cuts and origin-tagged precursors; zero-weight nonzero cuts cannot be normalized or selected. Snapshot validation checks finite grammar and cone properties, not trajectory reachability or empirical independence, and no terminal reuse is supplied.",
+        "No globally selected composite cone, all-state preparation richness, arbitrary ancillary complete positivity, native entangler or complex-field selection, quantum advantage, full QM, history-schedule covariance, native growth, geometry, mass or gravity is established."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-joint-recordability-2026-09-13/JOINT_RECORDABILITY.md",
+        "sha256": "34d7fb69bc72764de2d0ee239ee5af3f132ec37247d67e6674a41f98e0beb444"
+      },
+      "entrypoint": "docs/validation/t8-q-joint-recordability-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-joint-recordability-2026-09-13/check.py",
+          "sha256": "f088d2e99379d4ad6e852d4157b78760a50351cd74e48f690cab364b5a7f92c9"
+        },
+        {
+          "path": "docs/validation/t8-q-joint-recordability-2026-09-13/model.py",
+          "sha256": "666d3366e9b1be24d3b930973bb82b478a7af7901fe5b1321aecc06e47d26c30"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "repeatability-robustness",
+      "statement": "On composite-compatible C0, positive branches with an exact rank-one Pauli effect are completely classified by a normalized output target; an assumed uniform repeatability defect gives sharp one-step raw bounds and finite full-record/residual bounds, with a separate broader-C counterexample to approximate quotient descent.",
+      "premises": [
+        "The declared domain is either the four-dimensional C0 span with c=0 under the additional composite viability premises, or the separately labeled six-dimensional local-only C span retaining complex c; both have faithful total-entry mass equal to trace on their actual spans.",
+        "Branches are real-linear on the entire declared span, positive into the same cone, and exactly calibrated to rank-one Pauli effects; the uniform whole-cone repeatability defect is assumed at most epsilon with 0 <= epsilon <= 1/2, and complementary effects give complete mass.",
+        "Finite compared protocols share the same full normalized initial state, nominal settings, domain, record alphabet and known-prefix controller; existing Clifford controls act once, all outcomes/words/precursors remain recorded, and stopping depends only on the common full history."
+      ],
+      "limits": [
+        "The exact witnesses and linear certificates verify the named mathematical families and finite protocols; they do not infer uniform epsilon, physical preparation richness or approximate-instrument availability from finite data.",
+        "C0 calibration classifies branches as e_Q times a fixed positive target, while positive epsilon leaves a cap of possible targets. On broader C this factorization need not hold: nonzero input c can change later quotient predictions, and such inputs are excluded under C0 premises.",
+        "The raw norm bound 2 p sqrt(epsilon) and broader-C output-coordinate bound |c_out| <= epsilon p/2 are sharp separately. Equality of raw and quotient norms is limited to the matched-mass ideal-ray comparison; zero-effect outputs are the entire zero kernel.",
+        "At most N recorded tests give summed raw leaf-error at most min(2,2 N sqrt(epsilon)) and full-record total variation at most min(1,(N-1) sqrt(epsilon)) for N >= 1; both vanish at N=0. The sharper Clifford/Pauli coupling bound is not claimed optimal for general longer horizons.",
+        "Bounds use approximate positive prefixes and ideal contractive suffixes, not assumed approximate complete positivity or quotient descent. Undeclared c-sensitive tests, changed record alphabets, infinite stopping, ancillary diamond norms, native controls/field selection, full QM, geometry, mass or gravity are not established."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-repeatability-robustness-2026-09-13/ROBUSTNESS.md",
+        "sha256": "071187b895bc159dfdc2107dddbcd009364c0b2e3e21858fce7c441fece03d22"
+      },
+      "entrypoint": "docs/validation/t8-q-repeatability-robustness-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-repeatability-robustness-2026-09-13/check.py",
+          "sha256": "fd0e6fce4cd1d093c7339587e723d3a1bacaf876ccd4d9c6ac5ad3a32037055e"
+        },
+        {
+          "path": "docs/validation/t8-q-repeatability-robustness-2026-09-13/model.py",
+          "sha256": "61ca79626aeaa77a81638076ea28ae1eaef4ee929d809fe8376227d8ddef627d"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "math",
+        "types",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "joint-repeatability",
+      "statement": "Attained effect maxima give sharp relative and original-input-mass bounds for positive calibrated returns; on the fixed joint image, full-outcome repeatability is obstructed, while the coarser next-b question has a distinct sharp tradeoff and nonzero polarization gives relative-optimum reset uniqueness.",
+      "premises": [
+        "The general lemma assumes a cone with faithful mass m, nonzero bounded effects e and g with attained normalized maxima alpha and beta, and a branch real-linear on the actual span, positive into the same cone, with m B = e.",
+        "The application fixes the entire four-dimensional c=0 joint image K_t of PSD2, with real t in [-1,1], one independently supplied Z-oriented reference, the declared sixteen-label permutation/untwist and the fixed CNOT-then-target-H coupler.",
+        "Every return branch is positive on the whole fixed image and exactly calibrated to its full cell effect; algebraic reset targets and their reusable availability are additional operation/preparation premises, not consequences of literal terminal cuts.",
+        "All fine (a,b) records, known reference/frame/nominal setting, independent input origins, complete initial histories and origin-tagged precursors remain distinct; asking about the next b is a statistic of subsequent full records, not erasure or stored-memory rereading."
+      ],
+      "limits": [
+        "Finite exact witnesses supplement the general written proofs; they do not establish physical preparation richness, independence or return-operation availability.",
+        "The general relative optimum is 1-beta, while the original-input-mass minimax optimum is alpha(1-beta). Full-cell relative defect is (3-|t|)/4 and next-b relative defect is (1-|t|)/2; the denominator is the respective first branch weight.",
+        "The three original-input-mass optima are (1+|t|)(3-|t|)/16 for full repetition, (1-t^2)/8 for next b after one fine first branch, and (1-t^2)/4 after the analytically summed first-b branch; summing histories does not delete their fine labels.",
+        "For t != 0, maximizing-face geometry makes relatively optimal branches unique resets on the whole image span. This is not calibration-only or input-mass-minimax uniqueness; weighted dephasing is a non-reset minimax counterexample. At t=0 the chosen c=0 image is an extra restriction and scaled identity branches are optimal non-resets.",
+        "Nonzero literal full-cell cuts leave K_t, including nonzero zero-weight cuts that cannot be normalized or committed. Same-image calibrated branches have entire zero outputs at zero effect; inverse membership checks reconstruct every raw entry rather than projecting outsiders into the image.",
+        "Local RI-08e bounds do not automatically transfer to these effects/ranges. No ancillary complete positivity, physical reset or reference-repreparation law, full composite cone, native controls, full QM, geometry, mass or gravity is established."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-joint-repeatability-2026-09-13/JOINT_REPEATABILITY.md",
+        "sha256": "4dd17ccb2900a888f7e7f7362c1a9e84d168c9cb636d59fbb9290a4e0354cd2a"
+      },
+      "entrypoint": "docs/validation/t8-q-joint-repeatability-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-joint-repeatability-2026-09-13/check.py",
+          "sha256": "23cf5654c05033b167075c237fa1fb7afdaaea3815cc5dd9e09da6e4d3abce40"
+        },
+        {
+          "path": "docs/validation/t8-q-joint-repeatability-2026-09-13/model.py",
+          "sha256": "6c07d351a03159ca9963ec8d86eac1af0f7ed995c20aac18a9e347a8a3882386"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "cut-closed-completion",
+      "statement": "Closing the fixed equal-block joint image under literal cuts and convex conic sums gives the minimal direct sum of four PSD2 cones; cuts are complete and perfectly repeatable in this enlarged range, with polarization-dependent mass domination and exact cut-only weight equivalence.",
+      "premises": [
+        "Fix real t in [-1,1], the c=0 image blocks, independently supplied Z-oriented reference, native sixteen-label permutation/untwist and shared CNOT-then-target-H interface. The enlarged L_t has four independently positive Hermitian two-by-two blocks and a sixteen-dimensional actual real span.",
+        "Minimality is among mathematical convex cones containing K_t and closed under every literal full-cell cut. The changed L_t source/range and reusable cut availability are explicit premises; convex closure does not supply every preparation or erase known selectors.",
+        "Mass-dominated effects are real-linear on the actual span and satisfy 0 <= e <= m on the entire cone. Total-entry mass is the sum of cell effects, generally different from ordinary raw trace.",
+        "Future-record equivalence compares normalized states at the same retained full prefix and known context, using only the fixed full-cell read, its literal cuts and stopping under finite known-history policies. Extra internal probes, controls, reference changes, residual-dependent policies and silent dynamics are not included."
+      ],
+      "limits": [
+        "Exact finite witnesses supplement the universal proofs of minimality, positive inversion and effect classification; they do not establish physical availability. Inverse membership reconstructs all native entries rather than projecting outsiders into L_t.",
+        "For |t| < 1, mass is faithful and all mass-dominated effects span the sixteen-dimensional dual. At |t| = 1, such effects factor through the four weights: the positive zero-mass subcone spans four dimensions, their common linear kernel has dimension twelve, and the single mass kernel has dimension fifteen. Ordinary norm-bounded probes are not necessarily mass dominated.",
+        "Raw completeness includes nonzero zero-weight endpoint cuts. They remain inspectable but cannot be normalized or committed; summing only positive-weight normalized branches can omit nonzero raw payload even when scalar probabilities sum to one.",
+        "Equal normalized cut-only future laws are equivalent to equal four weights only at the stated common prefix/context. For unnormalized positive inputs the statement concerns outcome-weight measures including total mass, not laws after source normalization. The quotient API is an algebraic weight query, not a predicate comparing contexts or permission to replace full residuals and records.",
+        "The sharp interior estimate (1-|t|) Tr(N) <= m(N) <= (1+|t|) Tr(N) gives normalized raw trace up to 1/(1-|t|), with no uniform bound toward the endpoints; endpoint normalized bases are unbounded through positive dark additions.",
+        "RI-07 still requires a fixed prefix and stationary experiment or finite controller, positive complete branches, faithful committing-output cones, finite full labels and the declared silent-observation contract. At endpoints only the explicit faithful weight cone qualifies after all other premises and every claimed descent hold. A raw first-commit limit needs a separate proof; finite partial-sum intertwining or quotient convergence does not establish it.",
+        "Full native payload, fine outcomes, known settings and origin-tagged histories remain retained. No automatic old-type adapter, physical reset, new controls, arbitrary ancillary/composite theory, full QM, geometry, rest mass or gravity is established."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-cut-closed-completion-2026-09-13/CUT_CLOSED_COMPLETION.md",
+        "sha256": "23392a688924b6518e8a823f062ba87b0089c85f711f0a468f7d582b4b2897f9"
+      },
+      "entrypoint": "docs/validation/t8-q-cut-closed-completion-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-cut-closed-completion-2026-09-13/check.py",
+          "sha256": "1e37921c80dba78bd424e22519c929080173ef49f2687fdfcd5914c7fd77e483"
+        },
+        {
+          "path": "docs/validation/t8-q-cut-closed-completion-2026-09-13/model.py",
+          "sha256": "356212757e27cbde1f63f6047b3f4395011d5816ffaaefe14453b1be2c3710ba"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "reversible-generator",
+      "statement": "Strongly continuous positive reversible mass-preserving real-linear groups on the fixed interior cut-closed cone have independent filtered Hamiltonian generators in each cell; the declared cut-only catalogue cannot identify those generators, with explicit endpoint, continuity and reversibility boundaries.",
+      "premises": [
+        "Fix a known interior parameter |t| < 1 and the enlarged sixteen-dimensional L_t span, positively isomorphic to four independent PSD2 blocks. The native sixteen-label convention, Z-oriented independent reference, signed permutation and shared coupler remain supplied structure, not the older equal-block K_t domain.",
+        "The transformations form an all-real one-parameter group of real-linear maps on the actual span, positive with positive inverses, preserving native normalization mass and strongly continuous in the parameter. The parameter is not assumed to be physical time.",
+        "Each block has positive-definite mass effect E_ab=(I+(-1)^b t Z)/4. Faithful filtering converts its mass into ordinary trace; normalized positive extreme components and the fixed frame determine the classification.",
+        "Finite-policy comparisons use normalized sources at the same known context, full committed prefix, initial pending command word and retained nominal-command history. A common finite policy chooses only declared commands, literal cuts or stop from that retained history."
+      ],
+      "limits": [
+        "The universal classification and differentiability argument are written proofs under the stated hypotheses. Exact finite witnesses at t=3/5 use named rational group elements, not additive times, and do not establish all-real continuity or physical operation availability.",
+        "Each cell is preserved and its generator has filtered Hamiltonian form, equivalently G rho + rho G^dagger with G^dagger E + E G = 0. There are twelve nontrivial real generator parameters and four scalar gauge directions. Native mass is preserved but ordinary raw trace need not be; no Hamiltonian values, energies or rates are selected.",
+        "All classified flows preserve every cell weight and commute with every literal cut. Equal weights imply equal future cut-outcome laws only under the common retained-history contract, including identical initial pending metadata and nominal commands; changing known words can change records or policy choices. Full raw residuals and records are not identified or erased.",
+        "At polarized endpoints a positive reversible mass-preserving group can have unbounded raw dark growth, so the faithful interior filter and bounded conclusions do not extend. Static transpose is an orientation-reversing individual automorphism, not an R-group counterexample obtained by dropping continuity alone; divisibility still excludes its orientation and nontrivial cell permutations.",
+        "A discontinuous additive reparameterization supplies the genuine continuity obstruction but is nonconstructive, not executable evidence. Filtered forward dephasing has a nonpositive inverse and therefore lies outside the reversible-group hypotheses.",
+        "Additional dominated effects, arbitrary weighted generators/unitaries and endpoint/transpose/dephasing diagnostics are not silently available primary commands. Preserve all fine outcomes, source domains, settings, ordered pending words and origin-tagged precursors. No physical clock, native dynamics, full QM, geometry, rest mass, gravity, cross-bundle adapter or public API is established."
+      ],
+      "document": {
+        "path": "docs/validation/t8-q-reversible-generator-2026-09-13/REVERSIBLE_GENERATOR.md",
+        "sha256": "fae1ebf0ddf2ab6e74d45c542ec3d7023752b68cc59f4cee4724134673c90b11"
+      },
+      "entrypoint": "docs/validation/t8-q-reversible-generator-2026-09-13/check.py",
+      "sources": [
+        {
+          "path": "docs/validation/t8-q-reversible-generator-2026-09-13/check.py",
+          "sha256": "57289a41ec40e2a494c1c25426685ea1dda1aeb6f3ca1187c368a335974445fd"
+        },
+        {
+          "path": "docs/validation/t8-q-reversible-generator-2026-09-13/model.py",
+          "sha256": "071bb9ca1cdca4aca6d37132ad48c6f8dd1f519bad181fe52c8fa1530c23eb2f"
+        }
+      ],
+      "stdlib_imports": [
+        "collections.abc",
+        "dataclasses",
+        "fractions",
+        "itertools",
+        "unittest"
+      ],
+      "timeout_seconds": 60
+    }
+  ]
+}
