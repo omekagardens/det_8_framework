@@ -1,6 +1,6 @@
 **Accepted work and remote publication**
 
-14 September 2026 UTC. Coordinator-owned companion to the
+Updated 23 September 2026. Coordinator-owned companion to the
 [implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) and
 [progress record](REVIEW_PROGRESS.md). Acceptance of a bounded result in the
 shared working tree and publication of its complete source dependencies are
@@ -10,6 +10,8 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
+| RI-29 RET readiness handoff | **Static audit accepted; publication pending.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Publish only the audit and coordinator records. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
+| RI-30 comparator target precision | **Implementation assigned; not accepted or published.** Four isolated experiment files reserved to QR. | Independently review and test the exact interval/model-change/record-role contract before a scoped checkpoint. No RET dependency. |
 | RI-25 qubit-and-record experiment | **Published in independently verified `9f463f2`.** Twelve isolated experiment files, three QR summaries and four coordinator records; final reviews, 61 tests per mode and 82 independent exported-data checks passed. | Preserve source pins; calibrated measured W remains external. No core/RET dependency is required by this standard-library experiment. |
 | RI-26 supplied-geometry observer model | **Published in independently verified `0fde8b2`.** Eleven isolated bundle files, three QR summaries and four coordinator records. Three final reviews, 51 tests per mode, 52 identical exports and 331 separate exported-data checks passed. | Preserve the eleven bundle identities and all 87 held predecessors. No core/RET dependency or automatic successor is opened. |
 | RI-27 published-model reproduction | **Published in independently verified `5e7f2f7`.** New combined guide and separate 23-file manifest, plus plan/progress/backlog. Independent inventory/packaging/recipe reviews and actual clean-archive replay passed. | Keep guide/manifest pins, all 98 prior accepted artifacts and the historical 71-file inventory fixed. |

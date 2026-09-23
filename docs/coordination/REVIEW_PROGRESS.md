@@ -6,6 +6,8 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
+| RI-29 RET readiness | **Read-only audit accepted.** Two coordinator reviews and a concordant RET-owner handoff confirm the missing reader/evaluator bridge and separate comparator source-preview dependency. | Publish [the bounded audit](RET_REENTRY_AUDIT.md). Preserve the owner's explicit RET pause; no code, banks or historical suites were executed. |
+| RI-30 comparator precision | **Assigned to QR.** Four new standalone experiment files reserved; no accepted source or RET changes. | Review exact continuous-domain intervals/minimax error, model-change invalidation and training/held-out selection; independently test before publication. |
 | RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; the separately scoped RI-26 model is also independently accepted. |
 | RI-26 observer/signal model | **Independently accepted and published in verified `0fde8b2`.** Three final reviews passed. Root passed 51 isolated tests per mode, reproduced 52 identical worked exports and reconciled 331 independent exported-data checks. Eleven bundle identities are recorded below. | Preserve its eleven source identities and all 87 prior held identities. No successor or actualization-to-geometry rule is supplied. |
 | RI-27 published-model reproduction | **Accepted and published in verified `5e7f2f7`.** Independent inventory/packaging/recipe reviews and clean fixed-commit archive replay passed. Separate manifest covers 23 model files; exact extraction covers those plus checker and manifest. | Preserve the guide/manifest identities and all 98 prior accepted artifacts. No new model or QR successor. |
@@ -3580,3 +3582,42 @@ without altering the proof, data note, source, defaults or evidence counts.
 No research replay or acquisition is performed for that administrative step.
 The accepted note remains `2fc21051e5285596ad6ae5d49d2b1f978f94ad69d3811f0e73bd3dcdc1a13d28`.
 QR receives informational closure, with no new implementation assignment.
+
+**23 September restart — RI-29 accepted and RI-30 assigned**
+
+The user explicitly asked the coordinator to continue. Local HEAD and an
+independent remote lookup both returned
+`a8d6890efb05676e83d40f3e571267734709b8f5`; the index was empty. A fresh
+entry snapshot retained 1,048 tracked and 965 untracked file versions. The
+interrupted RET handoff and reviewer attempts had no accepted result; two new
+independent static audits were completed rather than inheriting failed work.
+
+The [RET readiness audit](RET_REENTRY_AUDIT.md) is accepted at SHA-256
+`3309a30d291a17ef8169289c6e0cdda0f0cdcb718ec0f2ebbd8ef22fd2f5708d`.
+The reader exists but has no consumer or direct tests. Its structural receipt
+does not supply ledger authority. The smallest proposed implementation is a
+tested predictive-family seam preserving draw/evaluation order, with separately
+matched development/public-root references. The proposed comparator preview
+instead needs owner agreement, actual source closure, facade checks and fresh
+candidate replay. G2 completion is not a prerequisite to that narrow synthetic
+source preview. No RET implementation or preview publication was assigned.
+
+The RET owner returned a concordant read-only handoff and confirmed the
+user's explicit pause on RET advancements. The existing provider reference
+does not rescind that pause; no exclude metadata or `temp_ret.qr` was changed.
+Root and both reviewers checked the audit against source, including its six
+hashes. No project execution, banks, rehearsal, calibration, historical test
+replay or external data was used for RI-29.
+
+The QR owner proposed RI-30 after checking the earlier application contracts.
+Root assigned exactly four new files under
+`docs/experiments/comparator_target_contract_v1/`: `CONTRACT.md`, `contract.py`,
+`test_contract.py` and `run_checks.py`. The fixed model asks for the offset
+target's compatible interval and minimax absolute error under affine,
+bounded-curvature or unrestricted-curvature premises. Actual training records
+may narrow it; proposed, missing and held-out rows may not. Model changes
+require recomputation. This standalone standard-library consumer needs no RET
+source and establishes no measured confidence or benefit. Its implementation
+is not yet accepted. QR owns those four files only; root owns coordination
+records and all git/index operations. Accepted QR sources and summaries remain
+held. The QR owner must stop at a source-stable handoff for independent review.
