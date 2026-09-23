@@ -7,7 +7,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | Item | Current evidence | Next action |
 |---|---|---|
 | RI-29 RET readiness | **Read-only audit accepted and published in verified `dcf6b67`.** Two coordinator reviews and a concordant RET-owner handoff confirm the missing reader/evaluator bridge and separate comparator source-preview dependency. | Preserve [the bounded audit](RET_REENTRY_AUDIT.md). Preserve the owner's explicit RET pause; no code, banks or historical suites were executed. |
-| RI-30 comparator precision | **Independently accepted.** Four standalone files passed full proof/source reviews, 48 isolated tests per mode and a separate 400-case exact projection audit. | Publish the [target contract](../experiments/comparator_target_contract_v1/CONTRACT.md) with the three coordinator records. Reservation released; measured benefit remains open. |
+| RI-30 comparator precision | **Independently accepted and published in verified `c7f20c6`.** Four standalone files passed full proof/source reviews, 48 isolated tests per mode and a separate 400-case exact projection audit. | Preserve the [target contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its four source identities. Reservation released; measured benefit remains open. |
 | RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; the separately scoped RI-26 model is also independently accepted. |
 | RI-26 observer/signal model | **Independently accepted and published in verified `0fde8b2`.** Three final reviews passed. Root passed 51 isolated tests per mode, reproduced 52 identical worked exports and reconciled 331 independent exported-data checks. Eleven bundle identities are recorded below. | Preserve its eleven source identities and all 87 prior held identities. No successor or actualization-to-geometry rule is supplied. |
 | RI-27 published-model reproduction | **Accepted and published in verified `5e7f2f7`.** Independent inventory/packaging/recipe reviews and clean fixed-commit archive replay passed. Separate manifest covers 23 model files; exact extraction covers those plus checker and manifest. | Preserve the guide/manifest identities and all 98 prior accepted artifacts. No new model or QR successor. |
@@ -20,7 +20,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | RI-18 now supplies one complete earlier-weight/tree orchestration; general interoperability remains separate. The ledger records its supplied premises and rank-two limit. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest readiness audit: `dcf6b67`. Conditional acquisition design: [829417d](https://github.com/omekagardens/det_8_framework/commit/829417d29a4b0c25b2c3f9562dc3d887c7f529e7). Reproduction handoff: `5e7f2f7`; observer model: `0fde8b2`; qubit model: `9f463f2`; prior status: `6f0de70`. Previous source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted identities and record scoped publication. RI-30 is accepted and its source reservation is released; no automatic successor is authorized. |
+| Remote checkpoints | Latest comparator contract: `c7f20c6`; readiness audit: `dcf6b67`. Conditional acquisition design: [829417d](https://github.com/omekagardens/det_8_framework/commit/829417d29a4b0c25b2c3f9562dc3d887c7f529e7). Reproduction handoff: `5e7f2f7`; observer model: `0fde8b2`; qubit model: `9f463f2`; prior status: `6f0de70`. Previous source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted identities and record scoped publication. RI-30 is accepted and its source reservation is released; no automatic successor is authorized. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -3699,3 +3699,19 @@ QR released the four-file reservation and stopped. This completes one bounded
 application consumer; it establishes neither measured benefit nor RET readiness.
 The RET user's explicit pause is still held pending a new direction. No
 automatic theorem, code or acquisition successor is assigned.
+
+**RI-30 remote publication verified**
+
+Commit `c7f20c6e320db4893a42b430f9cb2db5ec8e15a0`, tree
+`d2830640b8d8a111e2ce976fa18f76df97e33422`, publishes exactly the accepted
+four-file contract and three coordinator records. Staged hashes matched the
+accepted manifest; the three Python files match the isolated tested candidate.
+All 85 scoped local Markdown targets resolved. The 2,010 entry file versions
+outside the changed coordinator records, plus the accepted RI-29 audit,
+remain unchanged. The normal push succeeded and independent `origin/ret`
+lookup returned the full commit; the index was empty.
+
+A final three-record status checkpoint records that verified publication.
+No model, test, proof or evidence-count change is made for this administrative
+step. QR receives completion with no successor assignment. The separate RET
+pause remains in force pending the user's answer; elapsed time is not approval.
