@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is assigned to QR: one standalone comparator target-precision/model-change contract. Four new experiment files are reserved below. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. Its four-file reservation is released; scoped publication follows. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -46,12 +46,12 @@ consolidates domain, range, availability and composition boundaries.
 Acceptance details and source identities are in the progress record. Each
 successor still requires its own proof/source review.
 
-Active file reservations following the first implementation cycle:
+Active file reservations, updated 23 September:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | No active implementation reservation. RI-26's eleven-file observer/signal bundle is accepted and source-quiet; it is published in verified `0fde8b2`. RI-25's twelve-file bundle and all 87 prior held identities remain fixed. No successor is assigned. |
-| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. No source reservation or successor is active. |
+| QR task | No active source reservation. RI-30's four-file comparator target contract is independently accepted and source-quiet. All earlier accepted models, QR summaries and sources remain fixed; no automatic successor. |
+| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. No source implementation reservation is active; publish only the accepted RI-30 bundle and coordinator records. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -96,8 +96,8 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 
 | ID | Review finding / deliverable | Owner | State and completion criterion |
 |---|---|---|---|
-| RI-29 | RET readiness and publication handoff | Coordinator; RET owner consulted | **Static audit accepted.** [Current evidence and bounded next increments](docs/coordination/RET_REENTRY_AUDIT.md) distinguish the unintegrated reader, predictive-family bridge, and comparator source-preview prerequisites. No RET implementation or G2 execution is assigned; the owner confirms the user pause. |
-| RI-30 | Comparator target precision under model changes | QR implementation; coordinator acceptance | **Assigned, not accepted.** Reserve only `docs/experiments/comparator_target_contract_v1/{CONTRACT.md,contract.py,test_contract.py,run_checks.py}`. Exact compatible offset intervals, error-tolerance decision, changed-model and record-role fixtures; standalone standard library. Independent proof/source checks and normal/optimized tests precede publication. No RET edits or automatic successor. |
+| RI-29 | RET readiness and publication handoff | Coordinator; RET owner consulted | **Static audit accepted and published in verified `dcf6b67`.** [Current evidence and bounded next increments](docs/coordination/RET_REENTRY_AUDIT.md) distinguish the unintegrated reader, predictive-family bridge, and comparator source-preview prerequisites. No RET implementation or G2 execution is assigned; the owner confirms the user pause. |
+| RI-30 | Comparator target precision under model changes | QR implementation; coordinator acceptance | **Independently accepted; publication pending.** [Four-file contract](docs/experiments/comparator_target_contract_v1/CONTRACT.md) gives exact compatible offset intervals, minimax error and model/record-role handling. Root passed 48 tests per mode and 400 independent projection comparisons. Source reservation released; no RET edits or automatic successor. |
 | RI-01 | F1: reconcile current status and authorizations | Coordinator | **Accepted.** Six landing/status documents now distinguish source-bound local G1 closure, open G2 and the separately authorized bounded QR lane including mass/gravity research. Retired κ-gravity remains retired. Coordinator checked 117 local file links across these documents and the new trackers/runner guide; no missing targets. |
 | RI-02 | F2: repair the pair-kernel research contract | Coordinator | **Accepted for this research interface.** Singular Gram reconstruction, exact recordability and raw-probability validation repaired. Coordinator independently reran 97 focused pytest cases; implementer also ran 49 existing consumer checks. `cholesky()` returns a pivoted Gram factor, not necessarily triangular. No public-core promotion. |
 | RI-03 | F8: register and run isolated research checks with source identity | Coordinator | **Accepted for nineteen named suites.** Cumulative inventory:411 witnesses/34 executable sources. Root passed27 new RI-16 checks in each mode and43 registry regressions from the isolated candidate; prior384 results retain unchanged pins. This is not a fresh411-witness replay. RI-15 remains separate. |

@@ -6,8 +6,8 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-29 RET readiness | **Read-only audit accepted.** Two coordinator reviews and a concordant RET-owner handoff confirm the missing reader/evaluator bridge and separate comparator source-preview dependency. | Publish [the bounded audit](RET_REENTRY_AUDIT.md). Preserve the owner's explicit RET pause; no code, banks or historical suites were executed. |
-| RI-30 comparator precision | **Assigned to QR.** Four new standalone experiment files reserved; no accepted source or RET changes. | Review exact continuous-domain intervals/minimax error, model-change invalidation and training/held-out selection; independently test before publication. |
+| RI-29 RET readiness | **Read-only audit accepted and published in verified `dcf6b67`.** Two coordinator reviews and a concordant RET-owner handoff confirm the missing reader/evaluator bridge and separate comparator source-preview dependency. | Preserve [the bounded audit](RET_REENTRY_AUDIT.md). Preserve the owner's explicit RET pause; no code, banks or historical suites were executed. |
+| RI-30 comparator precision | **Independently accepted.** Four standalone files passed full proof/source reviews, 48 isolated tests per mode and a separate 400-case exact projection audit. | Publish the [target contract](../experiments/comparator_target_contract_v1/CONTRACT.md) with the three coordinator records. Reservation released; measured benefit remains open. |
 | RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; the separately scoped RI-26 model is also independently accepted. |
 | RI-26 observer/signal model | **Independently accepted and published in verified `0fde8b2`.** Three final reviews passed. Root passed 51 isolated tests per mode, reproduced 52 identical worked exports and reconciled 331 independent exported-data checks. Eleven bundle identities are recorded below. | Preserve its eleven source identities and all 87 prior held identities. No successor or actualization-to-geometry rule is supplied. |
 | RI-27 published-model reproduction | **Accepted and published in verified `5e7f2f7`.** Independent inventory/packaging/recipe reviews and clean fixed-commit archive replay passed. Separate manifest covers 23 model files; exact extraction covers those plus checker and manifest. | Preserve the guide/manifest identities and all 98 prior accepted artifacts. No new model or QR successor. |
@@ -20,7 +20,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | RI-18 now supplies one complete earlier-weight/tree orchestration; general interoperability remains separate. The ledger records its supplied premises and rank-two limit. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Latest conditional acquisition design: [829417d](https://github.com/omekagardens/det_8_framework/commit/829417d29a4b0c25b2c3f9562dc3d887c7f529e7). Reproduction handoff: `5e7f2f7`; observer model: `0fde8b2`; qubit model: `9f463f2`; prior status: `6f0de70`. Previous source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted identities and record scoped publication. No active QR source reservation or automatic successor remains. |
+| Remote checkpoints | Latest readiness audit: `dcf6b67`. Conditional acquisition design: [829417d](https://github.com/omekagardens/det_8_framework/commit/829417d29a4b0c25b2c3f9562dc3d887c7f529e7). Reproduction handoff: `5e7f2f7`; observer model: `0fde8b2`; qubit model: `9f463f2`; prior status: `6f0de70`. Previous source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted identities and record scoped publication. RI-30 is accepted and its source reservation is released; no automatic successor is authorized. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -3621,3 +3621,81 @@ source and establishes no measured confidence or benefit. Its implementation
 is not yet accepted. QR owns those four files only; root owns coordination
 records and all git/index operations. Accepted QR sources and summaries remain
 held. The QR owner must stop at a source-stable handoff for independent review.
+
+**RI-29 remote publication verified**
+
+Commit `dcf6b677b436cc3dfe7af0c3a3ad1ed2c837f0cd`, tree
+`cbeb964225ba07c24add0fa271af3031e3310952`, publishes exactly the accepted
+audit and three coordinator records. Every staged byte matched its acceptance
+manifest. All 76 scoped local Markdown targets resolved and all 2,010
+pre-existing file versions outside the three changed coordinator records
+remained unchanged. The normal push and independent `origin/ret` lookup
+confirmed the commit; the index was empty. RI-30 remains independently
+assigned and is excluded from this documentation checkpoint.
+
+**RI-30 independent acceptance — comparator precision under model change**
+
+QR delivered exactly four new files in
+`docs/experiments/comparator_target_contract_v1/`, with no existing-source or
+RET imports. The assignment implements a fixed question: how precisely can
+`b=f(0)` be estimated from selected readings at normalized references -1, 0
+and +1, under `f(x)=gx+b+cx²` and supplied simultaneous deterministic errors?
+Affine, bounded-curvature and unrestricted-curvature declarations are distinct
+inputs. All records and roles bind the input identity; only selected actual
+readings constrain the training compatibility set.
+
+Two independent coordinator reviews accepted the complete proof, source,
+record/identity handling and corrected tests. Repeated readings intersect at
+each location before projection; any empty intersection makes the stable-model
+premises incompatible. Missing endpoints leave free-gain ambiguity unless an
+actual selected zero reading bounds the target. The proof constructs parameters
+for every real target in the resulting interval. Its midpoint and half-width
+are exactly minimax for this deterministic compatibility set. Precision means
+radius <= tolerance, not a device offset specification, actuation decision or
+sampling-confidence claim. Structural identification is a separate property
+of the selected noiseless design within the declared parameter family.
+
+Root review found and QR repaired the report verifier's numeric-type aliasing:
+equal-valued bool/int/float substitutions can no longer replace exact typed
+report fields. Independent tests also corrected two expectations that had
+bypassed constructors using `object.__setattr__`; the declared frozen-object
+API is not a hostile-Python boundary. No broader security claim was added.
+
+Root captured the four-file candidate outside the repository and ran its own
+launcher using Python 3.11.6 with `-I -S -B`, then `-I -S -B -O`:
+**48 tests passed in 0.024 s and 48 in 0.023 s**, respectively, without skips
+or expected failures. Only the isolated bundle and standard library were
+available to that invocation. The owner separately reports 48 tests per mode
+and scoped Ruff checks; those are not additional independent scientific cases.
+
+Root's independently authored exact Fourier-Motzkin elimination audit projected
+the raw linear measurement inequalities directly, rather than reusing the
+bundle's interval formula. It agreed on **400 cases: 107 bounded, 130
+incompatible and 163 unbounded**. It also checked 810 constructed witnesses
+against the original inequalities, 400 nontraining-record invariance cases
+and 428 wrong-numeric-type report refusals. This temporary supplemental audit
+is not a registered suite or a substitute for the continuous-domain proof;
+the published four-file bundle contains the reproducible 48-case test suite.
+No historical research, RET bank, rehearsal or measured evaluation was run.
+
+Final source identities:
+
+| File under `docs/experiments/comparator_target_contract_v1/` | SHA-256 |
+|---|---|
+| `CONTRACT.md` | `66a9a461bd7f87cff8783bcc74ba59800657c5b8544dfc6cef4126fcea7cda1c` |
+| `contract.py` | `be69072e31dcb3feb25a09f9dff47e2ef1f4c49f8170f542036be411562abee8` |
+| `test_contract.py` | `7722e65b7da0ddce6f995d691d95e4a5dffe93516bafb76fb4674db4705c3f54` |
+| `run_checks.py` | `f3dda831efa1fb7a60ff2217d4cbe48503252f3b1ed7c66b6f2bf1c9b08e3e35` |
+
+The substantive document was reviewed at `9407e96e1af709d802e02d32dc94fe20c0f3212e3442ce9e8fa79c8083844082`;
+only its opening coordinator-acceptance label changed afterward. All three
+Python files retain the independently reviewed and tested bytes. The optional
+witness target has a 256-bit input bound, while derived report endpoints may
+exceed that bound. This disclosed implementation limit does not restrict the
+real-domain proof. Identity binds supplied declarations under SHA-256 collision
+resistance; it does not authenticate physical calibration, acquisition or code.
+
+QR released the four-file reservation and stopped. This completes one bounded
+application consumer; it establishes neither measured benefit nor RET readiness.
+The RET user's explicit pause is still held pending a new direction. No
+automatic theorem, code or acquisition successor is assigned.

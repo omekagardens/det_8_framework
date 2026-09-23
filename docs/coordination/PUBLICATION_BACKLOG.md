@@ -10,8 +10,8 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-29 RET readiness handoff | **Static audit accepted; publication pending.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Publish only the audit and coordinator records. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
-| RI-30 comparator target precision | **Implementation assigned; not accepted or published.** Four isolated experiment files reserved to QR. | Independently review and test the exact interval/model-change/record-role contract before a scoped checkpoint. No RET dependency. |
+| RI-29 RET readiness handoff | **Accepted and published in independently verified `dcf6b67`.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Preserve the published audit and its source boundaries. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
+| RI-30 comparator target precision | **Independently accepted; publication pending.** Four isolated files passed proof/API reviews, 48 root tests per mode and a separate 400-case projection audit. | Publish only the four-file [contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and coordinator records. No RET dependency; no measured benefit or automatic successor. |
 | RI-25 qubit-and-record experiment | **Published in independently verified `9f463f2`.** Twelve isolated experiment files, three QR summaries and four coordinator records; final reviews, 61 tests per mode and 82 independent exported-data checks passed. | Preserve source pins; calibrated measured W remains external. No core/RET dependency is required by this standard-library experiment. |
 | RI-26 supplied-geometry observer model | **Published in independently verified `0fde8b2`.** Eleven isolated bundle files, three QR summaries and four coordinator records. Three final reviews, 51 tests per mode, 52 identical exports and 331 separate exported-data checks passed. | Preserve the eleven bundle identities and all 87 held predecessors. No core/RET dependency or automatic successor is opened. |
 | RI-27 published-model reproduction | **Published in independently verified `5e7f2f7`.** New combined guide and separate 23-file manifest, plus plan/progress/backlog. Independent inventory/packaging/recipe reviews and actual clean-archive replay passed. | Keep guide/manifest pins, all 98 prior accepted artifacts and the historical 71-file inventory fixed. |
@@ -484,3 +484,23 @@ links and held/protected/unrelated preservation checks passed. Normal push
 and separate remote lookup succeeded; the index is empty. Only the three
 coordinator status records receive the final publication metadata; the
 accepted scientific note and data-readiness update remain fixed.
+
+
+**RI-30 accepted comparator target contract**
+
+The four-file standalone contract answers one fixed normalized-reference
+question with exact deterministic compatible intervals and minimax target
+error. Changed curvature premises require recomputation; held-out, prospective,
+missing and unselected readings do not narrow training information. Complete
+continuous-domain proof, independent implementation/test review and root's
+isolated 48-test normal/optimized checks passed. A separate exact inequality
+projection audit corroborated 400 cases without reusing the interval formula.
+
+The complete runtime closure is the bundle and Python standard library. No
+RET, unpublished core, comparator-preview dependency, registry change or
+previous experiment is required. Source identity, validation detail and limits
+are in the [progress record](REVIEW_PROGRESS.md). Publish exactly those four
+new files plus plan/progress/backlog, preserving the RI-29 audit and the entire
+pre-existing baseline. This is synthetic inference infrastructure; instrument
+selection, defensible error/reference bounds, costs and measured evaluation
+remain separate obligations. QR's source reservation is released.
