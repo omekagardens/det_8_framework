@@ -10,12 +10,13 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
+| RI-49 power-schedule family | **Assigned after RI-48 acceptance; one new analytic note reserved.** | Prove or refute the specified 0<a<1 height/width/density tradeoff; retain actual conditional law and no independence assumption. |
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
 | RI-44 nominal processing implementation | **Independently accepted and published in verified `2a5c6f6`.** Seven stable files include the passing 105-gate report and exact coefficient manifest. | Apply these admitted sources/coefficients to the frozen nominal public-data display. |
 | RI-45 first free completion cone | **Exact obstruction independently accepted and published in verified `ebb7b27`.** Full proof/source review and root/independent normal/optimized replay agree. | Preserve three accepted files; RI-46 is active on the occupation-controlled selector. |
-| RI-47 nominal public V2 display | **Active; seven new paths reserved and excluded.** RI-44 admission is already published. | Independently review/replay the exact numeric consumer and verify the separate renderer before publication. |
-| RI-46 occupation-controlled selector | **Independently accepted; scoped publication pending.** Complete proof reviews pass; no executor or numerical claim. | Publish the one stable note; RI-48 tests its actual morphology. |
-| RI-48 common-past layer regime | **Assigned; one new analytic note reserved and excluded.** | Review macroscopic-antichain and pair-density conclusions before any geometry inference. |
+| RI-47 nominal public V2 display | **Independently accepted; scoped publication pending.** Seven reviewed files and actual matching normal/optimized outputs. | Publish exact source/export/display identities; preserve all predecessor inputs and recipe. |
+| RI-46 occupation-controlled selector | **Published in verified `29ba6f4`.** Complete analytic reviews pass. | Preserve the accepted law; RI-48 adjudicates morphology and RI-49 tests the rate tradeoff. |
+| RI-48 common-past layer regime | **Independently accepted; separate publication pending.** Complete proof reviews pass. | Publish the stable note; RI-49 is active on its new reservation. |
 | RI-43 all-size height selection | **Bounded analytic results independently accepted and published in verified `1e2d2e4`.** One structural criterion/rejected-selector note; the general target stays open. | Preserve the published note; RI-45 is actively assigned the first free cone decision. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Three-file exact finite decision with isolated normal/optimized replay. | Preserve the published three-file bundle; RI-43 continues the native selection question. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-42 fixes nominal processing and RI-44 will qualify it. |
@@ -1093,3 +1094,55 @@ whether this exact law instead develops macroscopic common-past antichains
 and nonconvergent order-density behavior. Its one new analytic note is active
 and excluded from this publication. RI-47's numeric/display sources are under
 review in parallel, with no observed-data result accepted yet. RET stays paused.
+
+
+**RI-46 publication verified; RI-47 actual nominal public-data result accepted**
+
+RI-46 commit `29ba6f4bc1e7e661d757708c95760c6704e9205a`, tree
+`a0d2d777f96e0ceadcefee7e96282a59e1fb6f6e`, contains its accepted analytic
+note and three coordinator records. Preflight held 2050 other entry versions,
+checked 111 local links and six published note dependencies. A normal push and
+separate origin/ret lookup returned the same full commit; the index was empty.
+
+RI-47 now supplies the actual nominal V2 public-strain reproduction. Root and
+independent complete source reviews accept the numeric consumer and separate
+renderer. Pinned isolated normal/optimized processing exits zero with identical
+CROP.json, PROCESSING_REPORT.json and 350-byte stdout, SHA-256
+`f90153fad0849a95d6a4796df81ae9ae1963c06fce2b40f940cad1e2313625e6`;
+stderr is empty. All ten runtime fields match RI-44 admission. Both complete
+input snapshots are bound before parsing and unchanged afterward. Published
+inspector, coefficients, admission report and recipe remain fixed.
+
+An independent standard-library audit decoded all 8192 retained binary64
+values and reconciled sample grids, hashes, 24 flag definitions, 128 one-second
+bitfields, source/runtime identities and report binding. Root separately
+checked all 262144 raw samples against the pinned original snapshots. These
+audits do not claim a second independent full-filter recalculation. Actual
+normal/optimized rendering yields identical 147292-byte, 1100-by-760 PNGs and
+1675-byte render records; only informational font-cache text appears on stderr.
+Root visually inspected the entire shared-scale figure and the visible L1
+CW-clear annotation. Rendering uses its separately recorded environment.
+
+Root's six refusal controls per mode reject modified input, coefficient/source,
+annotation and sample bytes and an existing destination, preserving original
+outputs and producing no new artifact. These 12 runs are distinct from author
+synthetic checks (consumer 34 per mode; renderer 12 refusal cases per mode)
+and RI-44's prior 105-gate numerical qualification. No threshold was changed.
+
+This is nominal dimensionless filtered strain under the frozen recipe. No
+alignment, fit, template, uncertainty band, new detection, arrival-time estimate
+or native forward map is supplied. The L1 no-CW-injection flag remains clear
+throughout the input interval, with samples retained and no absence or negligible
+effect claim. The seven source/output reservations are released for scoped
+publication. Exact source/result identities and reproducible commands are in
+the linked result guide. A next conventional step must first qualify the public
+NR reference and distinguish its event-fitted provenance from a blind prediction.
+
+RI-48's independent complete proof reviews also accept the harmonic law's
+macroscopic-layer obstruction; its stable note is queued separately for
+publication. RI-49 is assigned to the QR task on the one reserved power-family
+note, testing whether a slower-decaying schedule instead drives comparable-pair
+density to one. Native geometry, gravity and a calibrated observation map remain
+open. The ongoing programme continues; RET stays paused.
+
+Result guide: [RI-47 display and evidence](../experiments/gwosc_nominal_result_v1/DISPLAY.md).

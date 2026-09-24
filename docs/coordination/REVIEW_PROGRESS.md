@@ -6,10 +6,13 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-45 first free completion cone | **Assigned after RI-43 acceptance.** Decide the exact size-five preserving-only completion equations from the frozen RI-41 prefix. | Review a complete rational completion or signed dual obstruction and quantitative finite drift gap; retain the separate propagation obligation. |
+| RI-49 power-schedule family | **Assigned after RI-48 acceptance; one new analytic note reserved.** | Prove or refute the specified 0<a<1 height/width/density tradeoff; retain actual conditional law and no independence assumption. |
+| RI-47 actual nominal display | **Independently accepted; publication pending.** Actual normal/optimized crop/report/PNG agree; source reviews and independent audits pass. | Publish the seven-file bundle; qualify the conventional NR reference next. |
+| RI-46/48 conditional growth and morphology | RI-46 is published in verified `29ba6f4`; RI-48 is independently accepted. | Publish RI-48 separately; RI-49 keeps the native proof question active. |
+| RI-45 first free completion cone | **Published in verified `ebb7b27`.** Exact size-five obstruction and quantitative drift bound pass independent review/replay. | Review a complete rational completion or signed dual obstruction and quantitative finite drift gap; retain the separate propagation obligation. |
 | RI-43 all-size height selection | **Bounded analytic results independently accepted and published in verified `1e2d2e4`.** Structural completion criterion and a.s. rejection of the explicit stress selector are proved. The general all-size target remains unresolved. | Preserve the analytic note; RI-45 tests the new invariant at the first free layer. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Common scaling fails the fixed-prefix half-height target; exact component scales satisfy it in every size-four row. | Preserve the finite witness and strict premises. No optimum or asymptotic geometry follows. |
-| RI-44 nominal processing implementation | **Active synthetic implementation.** Separate authors own the production filter, independent Decimal reference and qualification runner. Review and qualify them before coefficient publication and observed filtering. | Publish the actual passing numerical record before the fixed nominal display; report failures without relaxing thresholds. |
+| RI-44 nominal processing implementation | **Published in verified `2a5c6f6`.** 105 gates per mode and independent exact audits passed before RI-47 actual processing. | Publish the actual passing numerical record before the fixed nominal display; report failures without relaxing thresholds. |
 | RI-42 nominal strain display | **Design independently accepted and published in verified `95c91bf`.** Frozen filter, crop, reference and prospective tolerances with retained L1 CW annotation. | Preserve the recipe. RI-44 supplies numerical qualification and then bounded conventional reproduction. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Archive/member identities, nearest-time selection, four numeric tables and pointwise uncertainty scope are reviewed; isolated replay and reconciliation pass. | Preserve the three-file bundle; freeze the nominal-display recipe next. |
 | RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** Compact-cylinder measure construction and the conditional exponential height bound pass root and independent proof review. | Preserve the analytic note. RI-41 examines remaining normalization freedom; no universal geometry rejection. |
@@ -5014,3 +5017,67 @@ and excluded from this publication. RI-47's numeric/display sources are under
 review in parallel, with no observed-data result accepted yet. RET stays paused.
 
 Accepted RI-46 note SHA-256: `5069d0a1bdfdd7e2725d16a3bce9f7b985f2ac720e9b104200f426c62541b3b7`. Handoff SHA-256: `136cc56b263976779ab1cf0fc507cd54c337eb6534ecfc1c3a4740e49ae4475d`. The opening adjudication word and closing status reference are the only changes; mathematical and author-review text is retained.
+
+
+**RI-46 publication verified; RI-47 actual nominal public-data result accepted**
+
+RI-46 commit `29ba6f4bc1e7e661d757708c95760c6704e9205a`, tree
+`a0d2d777f96e0ceadcefee7e96282a59e1fb6f6e`, contains its accepted analytic
+note and three coordinator records. Preflight held 2050 other entry versions,
+checked 111 local links and six published note dependencies. A normal push and
+separate origin/ret lookup returned the same full commit; the index was empty.
+
+RI-47 now supplies the actual nominal V2 public-strain reproduction. Root and
+independent complete source reviews accept the numeric consumer and separate
+renderer. Pinned isolated normal/optimized processing exits zero with identical
+CROP.json, PROCESSING_REPORT.json and 350-byte stdout, SHA-256
+`f90153fad0849a95d6a4796df81ae9ae1963c06fce2b40f940cad1e2313625e6`;
+stderr is empty. All ten runtime fields match RI-44 admission. Both complete
+input snapshots are bound before parsing and unchanged afterward. Published
+inspector, coefficients, admission report and recipe remain fixed.
+
+An independent standard-library audit decoded all 8192 retained binary64
+values and reconciled sample grids, hashes, 24 flag definitions, 128 one-second
+bitfields, source/runtime identities and report binding. Root separately
+checked all 262144 raw samples against the pinned original snapshots. These
+audits do not claim a second independent full-filter recalculation. Actual
+normal/optimized rendering yields identical 147292-byte, 1100-by-760 PNGs and
+1675-byte render records; only informational font-cache text appears on stderr.
+Root visually inspected the entire shared-scale figure and the visible L1
+CW-clear annotation. Rendering uses its separately recorded environment.
+
+Root's six refusal controls per mode reject modified input, coefficient/source,
+annotation and sample bytes and an existing destination, preserving original
+outputs and producing no new artifact. These 12 runs are distinct from author
+synthetic checks (consumer 34 per mode; renderer 12 refusal cases per mode)
+and RI-44's prior 105-gate numerical qualification. No threshold was changed.
+
+This is nominal dimensionless filtered strain under the frozen recipe. No
+alignment, fit, template, uncertainty band, new detection, arrival-time estimate
+or native forward map is supplied. The L1 no-CW-injection flag remains clear
+throughout the input interval, with samples retained and no absence or negligible
+effect claim. The seven source/output reservations are released for scoped
+publication. Exact source/result identities and reproducible commands are in
+the linked result guide. A next conventional step must first qualify the public
+NR reference and distinguish its event-fitted provenance from a blind prediction.
+
+RI-48's independent complete proof reviews also accept the harmonic law's
+macroscopic-layer obstruction; its stable note is queued separately for
+publication. RI-49 is assigned to the QR task on the one reserved power-family
+note, testing whether a slower-decaying schedule instead drives comparable-pair
+density to one. Native geometry, gravity and a calibrated observation map remain
+open. The ongoing programme continues; RET stays paused.
+
+Result guide: [RI-47 display and evidence](../experiments/gwosc_nominal_result_v1/DISPLAY.md).
+
+Accepted RI-47 identities, within `docs/experiments/gwosc_nominal_result_v1/`:
+
+| File | SHA-256 |
+|---|---|
+| `process.py` | `f026667837cfb6e2040e228f8cd9dd73e983fb5bc0610cb106e8dce521d685fd` |
+| `render.py` | `fe1af8be09bdc58bcd3219d2bac7d5ef11dd34dd8757875601cdcb883b52f179` |
+| `RENDER_REQUIREMENTS.txt` | `48ee9dbf164ec7438470efa7b3847688dc1010a88d020a7777ace4934c1fcace` |
+| `DISPLAY.md` | `c0a18ebbdbba0fc06e8262400f2c16876bfbc82e208a5f6d287d95ac89587a06` |
+| `CROP.json` | `a580481b9f6ea8dbb90242f12023817709ee7ac208d504110966f01f353592e7` |
+| `PROCESSING_REPORT.json` | `98bf0c53d5b988d3bb2aaa5f60c0fbcd87512501dd1137175b25589cc4856820` |
+| `NOMINAL.png` | `5d66d06a0c62b4e586987bf8c537e7484344b1f31822f63b191a41d5d99334c6` |
