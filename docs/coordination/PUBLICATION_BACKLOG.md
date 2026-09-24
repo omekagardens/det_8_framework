@@ -10,7 +10,8 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-41 normalization and height | **Active; new sources excluded from publication.** | Independently review its source-stable exact decision and any certificate. |
+| RI-43 all-size height selection | **Active; new sources excluded from publication.** | Independently review its source-stable selection result or obstruction. |
+| RI-41 normalization and height | **Independently accepted; publication pending.** Three-file exact finite decision with isolated normal/optimized replay. | Publish only the released note/checker/certificate and coordinator records. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-41 stays independently reserved and the nominal-display recipe is next. |
 | RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** | Preserve the published note; RI-41 remains independently reserved. |
 | RI-38 extension criterion | **Independently accepted and published in verified `9ee565e`.** Conditional all-size proof and exact finite corroboration passed complete reviews and root replay. | Preserve the published two-source bundle and its evidence; review RI-39 separately. |
@@ -824,3 +825,20 @@ were excluded. This final three-record publication update changes no accepted
 science source, calibration interpretation or evidence count. RI-42's nominal
 display recipe is the next coordinator packet; native proof work continues
 on RI-41 and RET remains paused.
+
+
+**RI-41 exact finite-height checkpoint**
+
+Publish only the three accepted files in
+`docs/track_b/native_growth_height_normalization_v1/` plus the three
+coordinator records. Complete independent proof/source review and two
+independent pairs of isolated Python 3.11.6 normal/optimized executions
+reproduce the same 600-byte result. All canonical roots, raw ratios, direct
+height slots and stated strict margins are checked. Only the opening note
+status changes after handoff. No optimization or asymptotic claim is added.
+
+RI-36, RI-38 and RI-39 prerequisites are already published and stay fixed.
+RI-43's new analytic selection work and RI-42's active measurement recipe
+are excluded. The independent review, unrelated baseline, protected
+validation, acquired inputs and RET pause remain untouched. Root will
+validate the exact staged dependency closure and verify the remote push.

@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted and published in verified `9ee565e`; RI-39's history measure and chosen-normalization rejection are independently accepted and published in verified `3aca9cd`; QR is active on RI-41's exact height-growth normalization problem. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. RI-40's public C02 calibration-input qualification is independently accepted and published in verified `79650a6`; nominal strain-display design is the next measurement step. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted and published in verified `9ee565e`; RI-39's history measure and chosen-normalization rejection are independently accepted and published in verified `3aca9cd`; RI-41's finite normalization decision is independently accepted; RI-43 now targets all-size sublinear-height selection or a precise obstruction. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. RI-40's public C02 calibration-input qualification is independently accepted and published in verified `79650a6`; nominal strain-display design is the next measurement step. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -50,8 +50,9 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-39 is independently accepted and its one-file reservation is released. RI-41 reserves only new `docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md`, optional standalone `check.py` and optional `CERTIFICATE.json`. Preserve all accepted sources; root owns git/index and adjudication. |
+| QR task | RI-41 is independently accepted and its three-file reservation is released. RI-43 reserves only new `docs/track_b/native_growth_sublinear_selection_v1/SELECTION.md`, optional standalone `check.py` and optional exact `CERTIFICATE.json`. Investigate all-size drift selection or a precise obstruction from the frozen RI-41 prefix. Preserve accepted sources; root owns git/index and adjudication. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
+| RI-42 nominal display design | Coordinator reserves only new `docs/experiments/gwosc_nominal_display_v1/RECIPE.md`. Freeze the filter, exact sample selection, edge handling, independent numerical reference and CW annotation before any observed-strain transformation. No executor or display result is yet accepted. |
 | Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted, published and source-quiet; reservations are released. Root reserves only these three coordinator records; RI-37's four-file `docs/experiments/gwosc_input_qualification_v1/` bundle is accepted, published and source-quiet. The two preselected public V2 files are acquired outside the repository; hashes, schema, sample validity and every flag are inspected. No fitting or RET work. RI-33 CONTRACT.md stays fixed. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
@@ -1529,3 +1530,46 @@ were excluded. This final three-record publication update changes no accepted
 science source, calibration interpretation or evidence count. RI-42's nominal
 display recipe is the next coordinator packet; native proof work continues
 on RI-41 and RET remains paused.
+
+
+**RI-41 accepted — finite height control with component scales**
+
+Root and independent mathematical/source reviewers accept the common-scale
+infimum and strict feasibility criterion, the complete component formulation
+and the exact rational witness. For the fixed `interior_a` prefix, common
+scaling cannot meet the half-height target; the antichain/chain contradiction
+also proves this without enumeration. Component scales give maximum actual
+height-raising probability `14082809/29648025 < 19/40`, with positive proper
+branches and full complements in all 640 rows. No optimum or asymptotic law
+is claimed. The new three-file bundle is released for scoped publication.
+
+Root and a separate reviewer independently replayed isolated copies under
+Python 3.11.6, normal and optimized, reproducing the same 600-byte output.
+The checker reconstructs all 109 component roots, checks 7616 raw ratios and
+full-map multipliers, and evaluates actual height changes in all 5712 slots.
+The three negative controls pass. Prior-prefix validity is inherited, not
+replayed; locality/equivariance are structural with quotient-value agreement.
+
+**RI-43 assigned — all-size sublinear-height selection**
+
+Hold the complete accepted RI-41 prefix through parent size four fixed.
+Retain RI-38's strict positivity, precursor-record locality, parent-order
+access, fair newborn marks and passive full-kernel maps. First establish the
+cumulative actual-height drift lemma with conditional martingale increments,
+distinguishing almost-sure, in-probability and expectation statements.
+Then pursue a substantive selection result: a fixed all-size component-scale
+rule and inductive invariant implying a declared `delta_n -> 0` with
+`sup_(P,r) tau_n(P,r) <= delta_n`, or a precise structural obstruction to
+that declared uniform selection class. Recompute future potentials from the
+changed prefix; the old RI-39 normalization cannot be reused.
+
+Begin with analytic constraints between chain, antichain and other coupled
+rows; do not substitute higher-size brute-force enumeration for the theorem.
+If the uniform target is obstructed, state exactly what remains possible for
+occupation-weighted/typical drift. A positive constant bound below one half
+is insufficient for sublinear height. A formal drift identity, an unproved
+selector or a failed numerical search alone does not close this assignment.
+Return a source-stable bounded result, independent review and any actual
+blocker to root before another model or source reservation is opened.
+The native law is still conditional; no proper time, dimension, gravity or
+native detector forward map follows from this height screen.

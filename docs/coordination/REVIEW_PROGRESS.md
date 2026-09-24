@@ -6,8 +6,9 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-41 normalization and height | **Assigned after RI-39 acceptance.** Decide the fixed-prefix common/component-scale target using actual height-raising mass. | Review exact strict-domain witnesses and keep worst-row finite decisions separate from typical asymptotic geometry. |
-| RI-42 nominal strain display | **Next coordinator packet.** Freeze the processing/reference recipe and retained CW annotation before sample transformation. | Perform bounded conventional reproduction after design review; quantitative uncertainty and native prediction remain separate. |
+| RI-43 all-size height selection | **Assigned after RI-41 independent acceptance.** Seek a fixed all-size component rule with vanishing actual drift, or a precise uniform-selection obstruction. | Review the substantive selection result and distinguish typical from uniform control; the martingale criterion alone does not supply a law. |
+| RI-41 normalization and height | **Independently accepted; publication pending.** Common scaling fails the fixed-prefix half-height target; exact component scales satisfy it in every size-four row. | Preserve the finite witness and strict premises. No optimum or asymptotic geometry follows. |
+| RI-42 nominal strain display | **Active coordinator design packet.** Freeze the processing/reference recipe and retained CW annotation before sample transformation. | Perform bounded conventional reproduction after design review; quantitative uncertainty and native prediction remain separate. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Archive/member identities, nearest-time selection, four numeric tables and pointwise uncertainty scope are reviewed; isolated replay and reconciliation pass. | Preserve the three-file bundle; freeze the nominal-display recipe next. |
 | RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** Compact-cylinder measure construction and the conditional exponential height bound pass root and independent proof review. | Preserve the analytic note. RI-41 examines remaining normalization freedom; no universal geometry rejection. |
 | RI-38 general extension | **Independently accepted and published in verified `9ee565e`.** The analytic maximal-deletion potential proves every inherited ratio cycle consistent and supplies an all-size conditional family. Root isolated normal/optimized replay and independent reviews pass. | Preserve the accepted proof/checker. RI-39 examines history measures and the selected family's geometric regime; no native-gravity inference. |
@@ -4614,3 +4615,63 @@ were excluded. This final three-record publication update changes no accepted
 science source, calibration interpretation or evidence count. RI-42's nominal
 display recipe is the next coordinator packet; native proof work continues
 on RI-41 and RET remains paused.
+
+
+**RI-41 independent adjudication and RI-43 assignment**
+
+Root read the full 312-line checker, complete certificate and mathematical
+note. An independent mathematical reviewer accepted the common-scale
+infimum, strict `M<2b` criterion, component parameterization and closed-versus-
+strict domain argument. The analytic four-antichain/chain contradiction
+checks independently: the first needs `epsilon >= 1185921/512` for the
+half-height target; the second needs `epsilon < 1` for a positive full slot.
+This rejects the specified common-potential family at that layer only.
+
+The rational component witness passes complete source/certificate review
+and independent isolated replay. Root copied the released files outside the
+checkout, verified their handoff SHA-256 pins and ran the checker under
+Python 3.11.6 with `-I -S -B`, normally and with `-O`. Both return zero with
+empty stderr and identical 600-byte output, SHA-256
+`d9cceb8a462564d01a0f5e4aded95f3e3ee5d50f4cd9623b20f1de16ba7fa706`.
+A separate coordinator reviewer independently repeated both executions from
+a different temporary directory and reproduced the same identity.
+
+Coverage is 40 naturally labeled parents, 640 marked rows, 5072 proper-ideal
+occurrences, 305 quotient nodes and all 109 canonical component roots. Every
+one of the 7616 raw equations and scaled full-map multipliers passes,
+including 238 all-zero assignments, 1280 equal-precursor equations and 1536
+loops. The 5712 complete ideal slots participate in the direct actual-height
+and positivity check. All three negative controls pass: zero component, zero
+full complement, and positive normalized coefficients that miss the target.
+Row normalization follows algebraically from the full complement; its check
+is not an independent normalization oracle. The positive complements, exact
+ratios and actual-height checks provide the substantive additional evidence.
+
+The maximum actual height-raising mass is `14082809/29648025 < 19/40`;
+minimum full complement is `33901019/474368400`, minimum component scale
+`1/8`, and minimum ideal probability `9/681472`. Newborn-mark-resolved
+probabilities are half the ideal probabilities. Earlier-prefix diamonds
+are inherited from accepted sources and not replayed. Locality/equivariance
+are structural with quotient-value agreement; no separate permutation loop,
+nonpassive execution or terminal-record transport test is counted.
+
+Accepted identities under `docs/track_b/native_growth_height_normalization_v1/`:
+
+| File | SHA-256 |
+|---|---|
+| NORMALIZATION.md | `567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8` |
+| check.py | `f33a2345608867138f1036da6a020beb6608e3f58fc3032ceb1d3c3d5c9f90c5` |
+| CERTIFICATE.json | `3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969` |
+
+Only the note's opening adjudication word changes from the handed-off note
+SHA `56a73a6e4c91c652dec14884a3dd0f4b834f2066092140d32fa79914602a6ffc`;
+all mathematical and executable content remains the reviewed candidate.
+Root owns publication; the three-file QR reservation is released.
+
+The finite success does not establish a vanishing drift or native geometry.
+RI-43 is assigned in the existing QR task immediately after acceptance: hold
+this prefix fixed, prove the cumulative conditional-drift lemma, then seek
+an all-size rule/invariant with vanishing uniform actual-height drift or a
+precise obstruction. Failure of uniform control must not be promoted to
+failure of a typical regime. The new reservation is in the plan. RI-42's
+nominal public-data design proceeds independently; RET remains paused.
