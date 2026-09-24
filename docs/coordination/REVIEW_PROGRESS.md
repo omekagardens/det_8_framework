@@ -3785,3 +3785,20 @@ The next action is cycle 1's bounded native-law dossier plus parallel
 observation-channel/data-qualification design, with file ownership confirmed
 at activation. Implementation, acquisition, protected evaluation and automatic
 QR successors remain unassigned; RET's explicit pause is unchanged.
+
+
+**RI-31 remote publication verified**
+
+Commit `40b032932177abba9514a01c2f043c0ccb3fc20a`, tree
+`889496b721526326d7a7b401a1b50c0dc6a03ec8`, publishes exactly the new
+programme and three coordinator records. Each staged file matched its
+acceptance hash. All 85 local Markdown targets resolved; all 2,015 entry file
+versions outside the changed coordinator records remained unchanged. The
+normal push succeeded and an independent origin/ret lookup returned the full
+commit; the index was empty. The plan's final reviewed hash remains
+`63aaf8e044454509dbfb8987084f5daa24f8cce7b77c64c5abbc2a96c9fce435`.
+
+This final three-record publication-status checkpoint changes no research
+source, plan premise, model, test or evidence count. QR receives completion
+and the bounded cycle-1 recommendation without an implementation assignment.
+The existing RET pause remains in force.
