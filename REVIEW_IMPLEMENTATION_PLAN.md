@@ -13,7 +13,8 @@ recovered. Reviewed durable path adaptations and a fresh execution freeze
 preceded actual execution; no gate is relaxed.
 RI-74 and RI-75 are published in verified `314d5e8` and `3a30ab0`.
 RI-76's defect limit and height obstruction are published in verified `ad44848`;
-RI-77's random-cutoff mixture locality counterexample is independently accepted.
+RI-77's random-cutoff mixture locality counterexample and RI-78's spectrum design
+are published in independently verified `d43d144`.
 RI-79 tests whether postponing the first cutoff by one birth avoids that obstruction.
 Both RI-73 actual modes pass all 92 gates, with identical report/snapshot
 bytes; both independent entrywise audits also pass and match each other.
@@ -87,11 +88,11 @@ Active file reservations, updated 24 September UTC:
 | RI-74 Plancherel boundary graft | Published in independently verified `314d5e8`; reservation released. Unadopted zero-allowed theorem with fresh durable normal/optimized replay. |
 | RI-75 strict approximation | Published in independently verified `3a30ab0`; reservation released. Exact prefix and finite-depth convergence only. |
 | RI-76 approximation asymptotics | Published in independently verified `ad44848`; reservation released. Defect decay and positive-probability height obstruction are inseparable conclusions. |
-| RI-77 random-cutoff locality | Independently accepted after proof/source review and fresh normal/optimized replay; three-file reservation released to root publication. Fixed two-core locality witness domain, no new global parent-six table. |
+| RI-77 random-cutoff locality | Published in independently verified `d43d144` after proof/source review and fresh normal/optimized replay; three-file reservation released. Fixed two-core locality witness domain, no new global parent-six table. |
 | RI-79 delayed-cutoff locality | QR reserves only `LOCALITY.md`, optional `check.py` and optional `CERTIFICATE.json` in `docs/track_b/native_growth_delayed_cutoff_locality_v1/`. Exact two-record cubic-moment/sign question; no global M6 or q6/q7 probability inventory. Root owns git. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
 | RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` published in verified `ad44848`. Reservation released; preserve the fixed unit-white scope. |
-| RI-78 public off-event spectra design | Independently accepted; one-file reservation released to root publication. Fixed descriptive Welch PSD/ASD design on the recovered H1/L1 V2 pair; no observed result, whitening or covariance substitution. |
+| RI-78 public off-event spectra design | Published in independently verified `d43d144`; one-file reservation released. Fixed descriptive Welch PSD/ASD design on the recovered H1/L1 V2 pair; no observed result, whitening or covariance substitution. |
 | RI-80 spectra implementation | Coordinator implementation lane reserves only `spectra.py`, `qualify.py`, `validate_result.py`, `QUALIFICATION.json` and `IMPLEMENTATION.md` in `docs/experiments/gwosc_off_event_spectra_implementation_v1/`. Frozen RI-78 method; source review and fabricated normal/-O qualification only, before separate root actual-data freeze. |
 | RI-68 synthetic noise qualification | Two-file packet published in independently verified `4280198`; reservation released. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
@@ -4980,3 +4981,22 @@ review boundary within the user's existing authorization, not a new permission
 request. Keep every accepted predecessor fixed. The eventual PSD is descriptive;
 stationarity, signal/injection contamination, estimation uncertainty and a native
 forward map remain separate open requirements for physical inference.
+
+**Verified RI-77/78 publication; RI-79/80 active**
+
+The exact seven-path checkpoint is committed as
+`d43d144d5ed5135bb84f195551aaf93944cca441`, tree
+`c23782936db95d36ff1b47eb9a529c1fd34f3f1a`. Push succeeded; a separate
+origin/ret lookup returned that exact commit. Staged and post-commit checks
+confirmed the four accepted science files, twelve published dependencies,
+37 QR evidence entries, sixteen recovered-input source entries, both unchanged
+public input bodies and 145 local links. All 2136 unrelated entry-file identities
+were preserved. The index was empty after publication; active RI-79 and RI-80
+files and the pre-existing dirty baseline were not included.
+
+RI-79 is assigned to the existing Quantum Relativity task. RI-80 primary and
+independent qualification-source authors are working in their disjoint reserved
+files; their first handoff is source-only. Review and prospective source/runtime
+freeze precede fabricated execution, then a separately reviewed actual-data
+freeze precedes public spectra. Both substantive lanes remain active. The
+programme is not complete, and RET remains paused.

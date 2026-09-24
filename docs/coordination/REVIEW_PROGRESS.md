@@ -8128,3 +8128,22 @@ also passed a separate final reconciliation without rerunning the checker:
 ri77-replay/INDEPENDENT_FINAL_RECONCILIATION.json, 4195 bytes, SHA-256
 `92fee7110bcd52e2d0a1a4d439a49aeb4fa748e7a400445dff8f22d0940ab4ca`
 under the RI-78 root evidence directory. No accepted machine source changed.
+
+**Verified RI-77/78 publication; RI-79/80 active**
+
+The exact seven-path checkpoint is committed as
+`d43d144d5ed5135bb84f195551aaf93944cca441`, tree
+`c23782936db95d36ff1b47eb9a529c1fd34f3f1a`. Push succeeded; a separate
+origin/ret lookup returned that exact commit. Staged and post-commit checks
+confirmed the four accepted science files, twelve published dependencies,
+37 QR evidence entries, sixteen recovered-input source entries, both unchanged
+public input bodies and 145 local links. All 2136 unrelated entry-file identities
+were preserved. The index was empty after publication; active RI-79 and RI-80
+files and the pre-existing dirty baseline were not included.
+
+RI-79 is assigned to the existing Quantum Relativity task. RI-80 primary and
+independent qualification-source authors are working in their disjoint reserved
+files; their first handoff is source-only. Review and prospective source/runtime
+freeze precede fabricated execution, then a separately reviewed actual-data
+freeze precedes public spectra. Both substantive lanes remain active. The
+programme is not complete, and RET remains paused.
