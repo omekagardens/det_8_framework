@@ -10,8 +10,9 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-51 clone/full mechanism | **Independently accepted; publication pending.** Complete proof reviews pass. | Publish the stable note; select a structural successor outside the obstruction. |
-| RI-50 NR reference qualification | **Selected; implementation/acquisition pending.** Three new paths reserved; accepted measured outputs fixed. | Qualify the public data-informed reference and freeze its limited comparison contract. |
+| RI-52 Ferrers admission gate | **Assigned after RI-51 acceptance; three new files reserved.** | Decide exact first-layer leakage feasibility for the intrinsic corner family; no asymptotic geometry assumed. |
+| RI-51 clone/full mechanism | **Published in verified `ee20ad6`.** Complete proof reviews pass. | RI-52 is assigned the intrinsic corner-family admission gate. |
+| RI-50 NR reference qualification | **Independently accepted; publication pending.** Actual input and all-row audit pass; fixed comparison contract. | Publish the three-file qualification, then qualify the separate finite-support comparison. |
 | RI-49 power-schedule family | **Published in verified `a075bdb5`.** Complete proof reviews pass for every fixed 0<a<1. | RI-51 reviews the general mechanism on its separate reservation. |
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
 | RI-44 nominal processing implementation | **Independently accepted and published in verified `2a5c6f6`.** Seven stable files include the passing 105-gate report and exact coefficient manifest. | Apply these admitted sources/coefficients to the frozen nominal public-data display. |
@@ -1396,3 +1397,113 @@ filtering or overlay result is accepted yet. Original public inputs and every
 accepted scientific source remain fixed. RET remains paused.
 
 Accepted note: [RI-51 mechanism obstruction](../track_b/native_growth_clone_mechanism_v1/OBSTRUCTION.md).
+
+
+**RI-52 assigned after RI-51 adjudication — intrinsic Ferrers corner admission gate**
+
+RI-51 rules out schedule-only escape for the clone/full mechanism. Test a
+structurally different candidate: finite orders isomorphic to down-sets of
+the product order on N^2, called Ferrers orders here. Coordinates describe
+the combinatorial candidate, not a supplied physical metric. Square examples
+suggest the sublinear-height/sublinear-width/interior-density target, but no
+stochastic shape theorem, native dimension or preferred corner law is assumed.
+
+Reserve only three new files in
+`docs/track_b/native_growth_ferrers_gate_v1/`: `GATE.md`, `check.py`, and
+`CERTIFICATE.json`. Keep the entire RI-41 prefix fixed. First prove the
+intrinsic family and component-closure facts: maximal deletion of a Ferrers
+child is Ferrers; a local parent/ideal key determines its unmarked terminal
+child. Determine the actual marked-local ratio components, retaining all core
+records, automorphism roles and labeled ideal multiplicities. Do not replace
+them by one guessed unmarked scalar per shape or assume preferred ratios equal
+one. Verify the shape classification before using it.
+
+The proposed bounded first gate uses the four size-five parent types represented
+by partitions (5), (4,1), (3,1,1), (3,2), up to transpose/isomorphism, and every
+binary record assignment. The proposed proper Ferrers child types of size six
+are (5,1), (4,2), (4,1,1), (3,2,1). The remaining size-six Ferrers types are
+rectangles (6) and (3,3), reached by full births from (5) and (3,2). Prove or
+correct these identifications and boundary roles from actual order relations.
+No full later-layer table is requested.
+
+Decide whether the infimum of the worst marked Ferrers-row one-step probability
+of leaving this family is zero at the first free layer. Build the exact target
+component-incidence matrix A using actual RI-38 potentials from the fixed prefix.
+The proposed boundary criterion is alpha>=0, A alpha=1 on parent types (4,1)
+and (3,1,1), and A alpha<=1 on (5) and (3,2). Derive this criterion, including
+all marks, rather than presuming it. If feasible, provide exact rational scales
+and prove why mixing with a strict RI-38 interior solution gives arbitrarily
+small leakage while keeping every ideal/bit branch positive. Boundary zero
+entries or zero full complements themselves are not admitted laws. If infeasible,
+provide a checkable rational dual certificate and a quantitative leakage floor;
+do not claim optimality without proving it. Separate any numerical search from
+the exact checker and state complete finite coverage and source dependencies.
+
+This is a necessary first candidate-admission decision. It does not prove an
+all-size Ferrers law, concentration near squares, sublinear growth or an interior
+density limit. Arbitrary frozen histories and positive departures are not silently
+repaired: a non-Ferrers induced suborder cannot disappear under this growth, and
+an eventual core-plus-tail/defect construction or a different target remains a
+separate premise. No absorption, Plancherel law, metric, source or gravity is
+assumed. Return a stable bounded proof/certificate for independent adjudication.
+All accepted native notes and measurement files stay fixed. RET remains paused;
+root retains all git/index/publication operations.
+
+
+**RI-51 publication verified; RI-50 public NR reference independently qualified**
+
+RI-51 commit `ee20ad6fa20d782bfba3324ed2a9b8834ba59e1d`, tree
+`2d163f5ce82b095454df1886ac73afdf0be8851c`, publishes the accepted mechanism
+note and three coordinator records. Preflight checked 2060 unchanged other entry
+versions, 122 local links and five published note dependencies. The only note
+change from the reviewed handoff is the opening adjudication word. Normal push
+and separate origin/ret lookup returned the same commit; the index was empty.
+Active RI-50 source was excluded. RI-52 is now assigned to the existing QR task
+on its three new intrinsic Ferrers-gate paths after RI-51 adjudication.
+
+RI-50's source, actual report and declared comparison contract are independently
+accepted. The complete public NR body was acquired through HTTPS with no redirect,
+then verified as 142345 bytes, SHA-256
+`ed49c3e83f90e70ac85386f183031b7de3d3d6aa78e75a7d284e5a53a5cc0b76`.
+Primary release, technical-detail and tutorial bodies are also pinned externally.
+The guide records origin, acquisition times/headers, data-informed SXS provenance
+and the distinction between locally recorded hashes and publisher authentication.
+
+Root and an independent reviewer accepted all 245 inspector source lines.
+Isolated CPython 3.11.6 `-I -S -B` normal/optimized runs exited zero with empty
+stderr and identical 1439846-byte JSON, SHA-256
+`0a5ce388d722c185ce7de8fc81d36a69d9d98991ccba4235c9fb52817891de06`.
+The report retains all 2769 rows and 5538 finite decimal values, exact rational
+representations, lexical tokens, line/index entries and printing quanta. A
+separate integer/Fraction audit without Decimal or production imports reconciled
+every full row object, all time-grid diagnostics, four acquired-body hashes,
+source/input identities and actual report equality. Root's separately computed
+exact summaries agree. Original body and source bytes remain unchanged.
+
+Of 2768 adjacent intervals, 2764 equal 1/4096 second exactly. Four differ slightly;
+the maximum residual against the printed-first-plus-index grid is 2.5e-22 second.
+The closed half-last-place diagnostic permits a common arbitrary phase but not
+an integer/4096 phase. It establishes only compatibility with its stated printing
+hypothesis, not physical timing accuracy or an authorized reconstruction. No time
+sample is changed. The full represented span is exactly 173/256 second.
+
+The author's 55 synthetic checks per mode (26 positive, 29 refusal) passed before
+actual use, with identical 1920-byte output SHA-256
+`552e2953ac9f2ffc09085ce661aad50ef7764c39733730d234d875bd1fd1f5b0`.
+Root separately passed six refusal cases per mode on external copies: wrong hash,
+wrong length, non-ASCII, reversed time, nonfinite token and extra column. All 12
+exited one with empty success stdout. No tolerance or accepted source changed.
+
+The qualification does not filter or overlay the reference. Its future comparison
+contract preserves RI-47 observations and specifies an illustrative H1-only plot,
+the admitted coefficients and nominal index clock, separate finite-length
+qualification, unchanged supplied time coordinates and a declared historical
+53/125-second placement. Precise V1-to-V2 timing portability is not established;
+short-record padding is not validated physical continuation. No refit, residual
+statistic, calibrated agreement, significance, withheld prediction or DET/GR
+comparison is supplied. The three-file reservation is released for scoped
+publication. The next measurement step is the separately qualified finite-support
+comparison under this fixed contract; the native proof lane remains active.
+The original review, historical results and explicit RET pause remain intact.
+
+Accepted guide: [RI-50 reference qualification](../experiments/gwosc_nr_reference_v1/QUALIFICATION.md).
