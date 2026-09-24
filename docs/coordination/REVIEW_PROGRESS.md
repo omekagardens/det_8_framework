@@ -2,13 +2,18 @@
 
 13 September 2026. Coordinator-owned. See the root
 [implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) for scope and file
-reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work.
+reservations. [QR_HANDOFF.md](QR_HANDOFF.md) retains the historical QR handoff;
+the latest assignments below and in the plan govern current work.
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-60 context error repair | **Assigned; six new v2 paths reserved.** | Independently review per-coordinate bounds and source before new qualification. |
+| RI-64 observed-context consumer | **Assigned; seven new paths reserved, source work only.** | Review/freeze and qualify the new consumer before observed inputs. |
+| RI-63 first-free expected-cost decision | **Active; worker reports an exact primary optimum, not yet adjudicated.** | Finish canonical lexicographic certification, then independent source/proof review and replay. |
+| RI-62 observed H1/L1 context | **Design published in independently verified `052154c`.** | RI-64 implements the frozen windows, custody and numeric/proof gates. |
+| RI-61 candidate-specific suppression | **Published in independently verified `32824c3`.** | RI-63 tests the first-free candidate; asymptotic residual decay remains open. |
+| RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 gates and eight actual reference-input rows passed.** | Preserve the six reproducible files; RI-64 implements observed-context comparison. |
 | RI-57 selected-row sensitivity | **Failed qualification preserved in verified `995ed03`: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
-| RI-59 history-weighted candidate | **Assigned after RI-58 acceptance; one analytic path reserved.** | Specify the all-size rational selector and isolate its asymptotic drift obligation. |
+| RI-59 history-weighted candidate | **Published in independently verified `df5de32`.** | Preserve the conditional all-size law; residual drift asymptotics remain open. |
 | RI-58 twin-top defect obstruction | **Published in verified `995ed03`.** | Preserve the exact fixed-layer bound; RI-59 follows the actual history distribution. |
 | RI-56 robust intrinsic defect | **Published in verified `0f0ba1b`.** | Preserve conditional scope; RI-58 tests the next concrete admission obstruction. |
 | RI-55 finite-context sensitivity | **Published in verified `ef10f33`.** | RI-57 implements the qualified selected-row pilot. |
@@ -6418,3 +6423,38 @@ still pending, with declared time/memory limits and proposal-only optimization.
 This accepted design is not a computed observed-context result, calibration
 model or native forward map. RET remains paused, and the broader programme
 remains active.
+
+
+**RI-62 design publication verified; native and observed-data work remain active**
+
+Commit `052154c2f2ed957c99446863429424985ee6d466`, tree
+`d9813dcffca1cc899205bd10bc4e40c6ea7608f5`, publishes the accepted prospective
+RI-62 design and exactly three coordinator records. The accepted design is
+19255 bytes, SHA-256
+`636401b05620f227115362e1ecbf175a4a90a9dd34a021e0813f14e73ed58be2`;
+only its opening adjudication status changed after independent review.
+Preflight preserved 2097 other entry versions, reconciled eighteen published
+dependencies and 150 local links, and checked exact staged source identity and
+scope. Normal push succeeded; a separate `ls-remote` matched the full commit
+on `origin/ret`, and the index was empty. Active RI-63 and RI-64 sources remain
+excluded from this publication.
+
+RI-64's two source authors have agreed a dependency order without circular pins.
+The proposed 75-gate new-consumer inventory remains subject to source review
+and freeze; RI-60's 196 passing gates remain prior pinned evidence. Synthetic
+index, interval, endpoint-distance and custody controls precede any observed
+input access. No new observed-data result, renderer or physical claim is present.
+
+The QR worker reports an exact primary optimum
+m5=6650803/108900000 and a canonical candidate with 69 positive coordinates
+and 69 sequential face-dual witnesses. A distinct 66-coordinate equal-objective
+candidate reportedly establishes primary nonuniqueness; rank deficiency alone
+would not prove that. Its finite-layer calculation reports that all boundary
+defect drift occurs at critical parents, with zero noncritical contribution.
+These are worker progress reports, not coordinator acceptance. The standalone
+checker and normal/optimized QA are underway; complete source/proof review and
+coordinator replay must follow the source-stable handoff. The next native action
+remains that certification and review; no duplicate assignment or successor is
+opened. No later-layer or asymptotic conclusion follows from this size-five
+calculation. The residual asymptotic drift and native forward map remain open,
+and RET remains paused.

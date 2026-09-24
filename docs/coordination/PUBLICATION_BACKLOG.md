@@ -11,7 +11,7 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-64 observed-context consumer | **Assigned; seven new paths reserved, source work only.** | Implement the accepted design, independently review/freeze, then qualify before observed inputs. |
-| RI-62 recorded H1/L1 context | **Design independently accepted; publication pending.** | Publish the frozen prospective design; RI-64 implements it. |
+| RI-62 recorded H1/L1 context | **Design published in independently verified `052154c`.** | Preserve the accepted design; RI-64 implements it. |
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 qualification and eight actual rows passed.** | Preserve the six reproducible files; RI-62 designs the separate observed-context comparison. |
 | RI-57 selected-row sensitivity | **Failed qualification preserved in verified `995ed03`: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
 | RI-63 first-free expected-cost decision | **Assigned after RI-61 acceptance; three new paths reserved.** | Certify the actual first-free objective and canonical candidate layer exactly. |
@@ -2479,3 +2479,38 @@ still pending, with declared time/memory limits and proposal-only optimization.
 This accepted design is not a computed observed-context result, calibration
 model or native forward map. RET remains paused, and the broader programme
 remains active.
+
+
+**RI-62 design publication verified; native and observed-data work remain active**
+
+Commit `052154c2f2ed957c99446863429424985ee6d466`, tree
+`d9813dcffca1cc899205bd10bc4e40c6ea7608f5`, publishes the accepted prospective
+RI-62 design and exactly three coordinator records. The accepted design is
+19255 bytes, SHA-256
+`636401b05620f227115362e1ecbf175a4a90a9dd34a021e0813f14e73ed58be2`;
+only its opening adjudication status changed after independent review.
+Preflight preserved 2097 other entry versions, reconciled eighteen published
+dependencies and 150 local links, and checked exact staged source identity and
+scope. Normal push succeeded; a separate `ls-remote` matched the full commit
+on `origin/ret`, and the index was empty. Active RI-63 and RI-64 sources remain
+excluded from this publication.
+
+RI-64's two source authors have agreed a dependency order without circular pins.
+The proposed 75-gate new-consumer inventory remains subject to source review
+and freeze; RI-60's 196 passing gates remain prior pinned evidence. Synthetic
+index, interval, endpoint-distance and custody controls precede any observed
+input access. No new observed-data result, renderer or physical claim is present.
+
+The QR worker reports an exact primary optimum
+m5=6650803/108900000 and a canonical candidate with 69 positive coordinates
+and 69 sequential face-dual witnesses. A distinct 66-coordinate equal-objective
+candidate reportedly establishes primary nonuniqueness; rank deficiency alone
+would not prove that. Its finite-layer calculation reports that all boundary
+defect drift occurs at critical parents, with zero noncritical contribution.
+These are worker progress reports, not coordinator acceptance. The standalone
+checker and normal/optimized QA are underway; complete source/proof review and
+coordinator replay must follow the source-stable handoff. The next native action
+remains that certification and review; no duplicate assignment or successor is
+opened. No later-layer or asymptotic conclusion follows from this size-five
+calculation. The residual asymptotic drift and native forward map remain open,
+and RET remains paused.
