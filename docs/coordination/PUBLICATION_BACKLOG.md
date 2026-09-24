@@ -10,7 +10,7 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-36 native extension | **Assigned; not accepted or publishable yet.** QR owns a new proof note and optional exact checker only. | Independently review the four-birth extension decision before staging its source. Preserve RI-34; coordinator continuation after review is already authorized. |
+| RI-36 native extension | **Independently accepted; scoped publication next.** Two source-stable files prove/corroborate a strictly positive four-birth extension, retaining record feedback. | Independently review the four-birth extension decision before staging its source. Preserve RI-34; coordinator continuation after review is already authorized. |
 | RI-35 exact timing consumer | **Independently accepted and published in verified `e2e5fcd`.** Four standalone files, 43 tests per mode, seven identical exports and a separate 128-case exact projection audit. | Preserve the [bundle](../experiments/exact_timing_v1/IMPLEMENTATION.md) and source identities. Reservations are released; public-data qualification is separate, with no RET/core dependency. |
 | RI-29 RET readiness handoff | **Accepted and published in independently verified `dcf6b67`.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Preserve the published audit and its source boundaries. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
 | RI-30 comparator target precision | **Accepted and published in independently verified `c7f20c6`.** Four isolated files passed proof/API reviews, 48 root tests per mode and a separate 400-case projection audit. | Preserve the four-file [contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its reviewed identities. No RET dependency; no measured benefit or automatic successor. |
@@ -684,3 +684,18 @@ No RET pause, source protection or scientific acceptance threshold is weakened.
 QR dispatch is confirmed active. The existing hourly follow-up remains ACTIVE
 with its schedule preserved and its continuation instruction corrected and
 reread. RI-36 source remains outside this three-record coordination checkpoint.
+
+
+**RI-36 publication candidate and RI-38 continuation**
+
+Publish only RI-36's new proof/checker and three coordinator records. Root
+and two independent coordinator reviewers accepted the full analytic proof;
+root's isolated normal/optimized replay passed all declared finite inventories
+and negative controls. Two administrative acceptance phrases are the only
+change to the reviewed note. RI-37 is active and remains excluded.
+
+RI-38 now assigns the arbitrary-size one-level extension/cycle-consistency
+question in two separately reserved new files. This preserves native proof
+continuity after predecessor review without promoting a finite result to a
+full law. The original review, RI-33/34/35, RET pause and protected premises
+remain unchanged.

@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36 now assigns its four-birth extension problem to QR. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's four-birth extension theorem is independently accepted; its publication is next. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -50,8 +50,8 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-36: reserve only new `docs/track_b/native_joint_growth_extension_v1/EXTENSION.md` and, if needed for exact finite checks, `check.py` in that directory. RI-34 has already passed independent review. Preserve RI-32/33/34, all accepted models and QR summaries. Root owns git/index and final adjudication. |
-| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted, published and source-quiet; reservations are released. Root reserves only these three coordinator records. RI-33 CONTRACT.md stays fixed. No RET or acquisition work. |
+| QR task | RI-36 is independently accepted and its two-file reservation is released. RI-38 now reserves only new `docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md` and optional `check.py` there. Preserve all accepted sources, including RI-34/36; root owns git/index and final adjudication. |
+| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted, published and source-quiet; reservations are released. Root reserves these three coordinator records plus RI-37's new `docs/experiments/gwosc_input_qualification_v1/QUALIFICATION.md`, `inspect_inputs.py`, `INPUT_REPORT.json` and `requirements.txt`. Acquire only the two preselected public V2 files into external scratch storage; no repository binary data, fitting or RET work. RI-33 CONTRACT.md stays fixed. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -1223,3 +1223,83 @@ The coordinator's parallel next measurement packet remains qualification of
 RI-33's selected GWOSC V2 data before measured fitting. Simulations/public data
 remain the user's priority. Gravity/source dynamics is still an open target
 behind a viable joint law; successful timing software does not close it.
+
+
+**RI-37 — bounded public-input qualification, coordinator active**
+
+RI-36 remains QR-owned and active; its provisional result is not yet accepted.
+In parallel, acquire only RI-33's already selected GW150914 V2/C02 H1/L1
+32-second 4096 Hz HDF5 products into external scratch storage. First bind exact
+URLs, published checksums, retrieval provenance and local SHA-256. Read the
+file schema, detector/unit metadata, sample grid, finite/missing samples and
+every published 1 Hz quality/injection channel. Retain complete flag intervals
+and exclusion reasons; distinguish missing data from hardware-injection flags.
+This is input qualification only: no plot, filter, fit, inferred arrival lag,
+noise estimate, detection significance or native gravity comparison. Public
+prior access is recorded; these inputs are not blind evaluation data.
+
+Reserve exactly four new files under
+`docs/experiments/gwosc_input_qualification_v1/`: `QUALIFICATION.md`,
+`inspect_inputs.py`, `INPUT_REPORT.json`, `requirements.txt`. The checker is a
+fixed-file reproducibility tool, not a general scientific ingester. Inspect
+only explicitly supplied external files; preserve every project environment
+and dependency file. Before quantitative calibration-dependent inference,
+identify and qualify the applicable uncertainty artifacts, interpretation and
+correlations. Any remaining calibration gap must be explicit, not replaced
+by assumed precision. Root reviews the source and actual outputs, keeps QR's
+active artifacts out of staging, and publishes only this completed scope.
+
+
+**RI-36 accepted — positive extension, not an all-size law**
+
+Root and two independent coordinator reviewers read the complete final proof.
+Every strictly positive RI-34 parameter table has the constructed extension
+through all three-event rows and all two-event-base diamonds, including
+`f(0) != f(1)`. The fixed epsilon uses the law table, never current records;
+local/equivariant proper slots are positive and at most 1/8, and every full
+complement is at least 1/8. All unequal, equal and reversed precursor pairs
+retain the complete unnormalized residual and both newborn outcomes.
+
+Root's isolated Python 3.11.6 normal/optimized replay agrees byte for byte:
+each of four rational fixtures passes 67 rows, 353 slots, 1199 locality and
+1981 equivariance comparisons, and 436 diamonds/full-payload comparisons
+including all 400 new cases. Two altered controls pass the row checks but
+expose 32 and 48 diamond failures. These finite executions corroborate the
+arbitrary-real-parameter analytic proof; they do not prove an all-size law.
+Only two administrative acceptance phrases change in the final note.
+
+**RI-38 — general one-level extension criterion and cycle consistency**
+
+RI-36's independent adjudication supports this next QR assignment. Keep the
+same strictly positive scalar-passive, fair-binary, independent-mark,
+strict-local/equivariant model. For arbitrary finite n, start from a complete
+admissible prefix through parent size n-1 and all its prior diamonds. Define
+all unknown proper-ideal slots at size n, identify exactly those related by
+precursor-record locality and marked-parent isomorphism, and keep every
+labeled-ideal contribution in normalization. Handle self-loops, parallel edges,
+all-zero marks, equal precursor pairs and isolated variables explicitly.
+
+Derive every new full-payload diamond as a positive ratio relation between
+these quotient variables. Prove or correct the proposed criterion: positive
+extendibility is equivalent to unit product around every ratio cycle. If it
+holds, construct component potentials and fixed small positive scales, then
+set full ideals to their complements. Justify that new diamonds never involve
+the full ideal of the intermediate parent, and that scale selection depends
+on the complete fixed law table rather than forbidden current records.
+
+Then determine whether the inherited prefix premises force these cycle
+identities for every n. A structural proof with an explicit inductive selection
+would establish an all-size conditional kernel family; a valid prefix and an
+inconsistent cycle would give a precise obstruction. Do not assume cycle
+consistency because small cases passed. If that implication remains open,
+hand off the proved criterion with the exact unsolved lemma and strongest
+checked case, rather than claim arbitrary-size existence. Infinite-history
+measure, typical geometry, matter/source response and physical readout remain
+separate even if the kernel-extension problem succeeds.
+
+Reserve only `docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md`
+and optional standalone `check.py` there. Use analytic reasoning first, with
+finite exact checks as corroboration or explicit counterexamples. Preserve
+all accepted notes and RI-37's parallel files. Hand off source-stable sources,
+proofs, actual checks, limitations and the next evidence-based recommendation
+for root adjudication. Root continues the wider programme afterward.

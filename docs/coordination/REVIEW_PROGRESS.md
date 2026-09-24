@@ -6,7 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-36 native extension | **Assigned to QR after RI-34 independent acceptance.** Decide whether strictly positive scalar-passive record feedback survives every two-event-base diamond through four births. | Review the new source-stable proof and any exact checker; then choose the substantive successor from its result. Native research must not remain idle solely because a prior packet was completed. |
+| RI-36 native extension | **Independently accepted; publication next.** Every strictly positive RI-34 prefix extends through four births, preserving possible record feedback. Complete analytic reviews and root isolated normal/optimized replay passed. | Review the new source-stable proof and any exact checker; then choose the substantive successor from its result. Native research must not remain idle solely because a prior packet was completed. |
 | RI-35 exact timing consumer | **Independently accepted and published in verified `e2e5fcd`.** Four standalone files passed complete source review, 43 root tests per mode and a separate 128-case exact projection audit. Seven exports match between modes; twelve exported witnesses satisfy raw observations. | Preserve the [implementation](../experiments/exact_timing_v1/IMPLEMENTATION.md) and RI-33 contract. Public-data qualification is the next independent measurement packet; uncertain clocks and native dynamics remain separate. |
 | RI-29 RET readiness | **Read-only audit accepted and published in verified `dcf6b67`.** Two coordinator reviews and a concordant RET-owner handoff confirm the missing reader/evaluator bridge and separate comparator source-preview dependency. | Preserve [the bounded audit](RET_REENTRY_AUDIT.md). Preserve the owner's explicit RET pause; no code, banks or historical suites were executed. |
 | RI-30 comparator precision | **Independently accepted and published in verified `c7f20c6`.** Four standalone files passed full proof/source reviews, 48 isolated tests per mode and a separate 400-case exact projection audit. | Preserve the [target contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its four source identities. Reservation released; measured benefit remains open. |
@@ -4224,3 +4224,47 @@ assignment after predecessor adjudication whenever the native lane is idle
 and unblocked; it also preserves the separate measurement lane, RET pause,
 scientific boundaries, central scoped commits/pushes and quiet unchanged polls.
 No new automation, thread, theorem or source acceptance was created here.
+
+
+**RI-36 independent acceptance — four-birth positive extension**
+
+QR released its two-file handoff after complete internal proof/checker reviews.
+Root read the full 391-line note and 350-line checker. Two independent
+coordinator reviewers accepted the analytic construction and premise limits;
+one independently audited and ran the checker normally and optimized.
+
+All five three-parent row forms and every two-parent ideal pair are present.
+The mixed identities force the stated ratio dependencies but do not force
+`f(0)=f(1)`. Epsilon is selected once from positive fixed parameters; each
+proper slot is at most 1/8 and there are at most seven, leaving positive full
+complements. Substitution proves every full scalar-map identity on the whole
+admitted residual domain. Contrasting reachable two-chain root marks preserve
+the same conditional full residual/context and change an unlabeled order
+probability. The claim is a finite extension of the chosen model, not native
+geometry or a general nonpassive result.
+
+Root isolated the exact handoff and ran only its checker on Python 3.11.6
+with `-I -S -B`, then `-O`. Both exited zero with byte-identical stdout.
+Per each of four rational fixtures: 67 rows, 353 ideal slots, 1199 locality,
+1981 equivariance, 11 all-zero rows, 436 diamonds including 400 new, 132
+equal-precursor and 30 all-zero diamonds, and 436 complex-payload checks.
+The two negative controls retain valid local/equivariant rows but detect
+32 and 48 diamond failures. The analytic proof supplies real-parameter and
+arbitrary-payload validity; these are finite corroboration counts only.
+
+Original reviewed note SHA-256:
+`37f945306e0697eb84d61b771e659229614b845f4c8df762a5c034b411794318`.
+The publication note changes only two administrative phrases to acceptance;
+reversing those phrases must recover the reviewed bytes. Checker SHA-256:
+`7494e2e0c085812ee171d4b195adfd1712112c7c69e50851af9d4eb6d59a5d47`.
+Final note SHA-256 is
+`61423e355f508021f05cd941e5a0dbed62661c76ba750766583fd4b8c619e716`.
+All older accepted files remain fixed. RI-37's active measurement files are
+excluded from this proof checkpoint.
+
+Both independent reviewers recommend a general one-level extension criterion,
+using proper-slot locality/isomorphism classes and diamond-imposed positive
+ratios, instead of indefinite finite-size enumeration. RI-38 assigns that
+criterion and asks whether inherited premises force every cycle identity.
+A source-stable handoff will again receive independent adjudication; no
+all-size, history-measure or physical conclusion is assumed in advance.
