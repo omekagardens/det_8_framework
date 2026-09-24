@@ -17,7 +17,9 @@ RI-77's random-cutoff mixture locality counterexample and RI-78's spectrum desig
 are published in independently verified `d43d144`.
 RI-79 independently rejects the delayed-cutoff repair for its complete prior class,
 published in remotely verified `b647f6f`.
-RI-81 now asks for a structural locality criterion and harmonic-tilt construction.
+RI-81 independently establishes the structural locality criterion and harmonic-tilt
+construction. RI-82 now targets a concrete positive first departure with a
+finite expected-width gain.
 Both RI-73 actual modes pass all 92 gates, with identical report/snapshot
 bytes; both independent entrywise audits also pass and match each other.
 The exact RESULT.json is published in the same verified `ad44848`. RI-78
@@ -43,7 +45,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | Current native assignment: RI-81 structural mixture-locality criterion and harmonic-tilt construction, following independently accepted RI-79 counterexample. RI-75 is published in verified `3a30ab0`. RI-72 is accepted and published in verified `f18b5d9`. RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 is independently accepted, published in verified `ad3c8dd` and source-quiet; its explicit countermodel proves the listed scalar-independence premises leave ordinary tensor factorization undetermined. Its reservation is released. RI-25 is independently accepted: its complete worked specification, simulator, trial-record contract and withheld prediction passed final reviews and isolated replay. It is published in verified `9f463f2`. RI-26 is independently accepted after final reviews and isolated replay; its source reservation is released. Earlier accepted results remain fixed. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | Current native assignment: RI-82 finite proper-child harmonic first-departure design with an explicit width-gain target, following independently accepted RI-81 structural theorems. RI-75 is published in verified `3a30ab0`. RI-72 is accepted and published in verified `f18b5d9`. RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 is independently accepted, published in verified `ad3c8dd` and source-quiet; its explicit countermodel proves the listed scalar-independence premises leave ordinary tensor factorization undetermined. Its reservation is released. RI-25 is independently accepted: its complete worked specification, simulator, trial-record contract and withheld prediction passed final reviews and isolated replay. It is published in verified `9f463f2`. RI-26 is independently accepted after final reviews and isolated replay; its source reservation is released. Earlier accepted results remain fixed. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -76,7 +78,7 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is published in independently verified `f18b5d9`; reservation released. RI-74 is published in independently verified `314d5e8`; reservation released. RI-75 is published in verified `3a30ab0`; reservation released. RI-76 is published in verified `ad44848`; one-note reservation released. RI-77 is independently accepted; its three-file reservation is released. RI-79 is independently accepted; its reservation is released. RI-81 reserves only `docs/track_b/native_growth_local_mixture_criterion_v1/MIXTURES.md`. Preserve all accepted laws and central git ownership. |
+| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is published in independently verified `f18b5d9`; reservation released. RI-74 is published in independently verified `314d5e8`; reservation released. RI-75 is published in verified `3a30ab0`; reservation released. RI-76 is published in verified `ad44848`; one-note reservation released. RI-77 is independently accepted; its three-file reservation is released. RI-79 is independently accepted; its reservation is released. RI-81 is independently accepted; its one-note reservation is released. RI-82 reserves only `docs/track_b/native_growth_first_departure_v1/DESIGN.md`. Preserve all accepted laws and central git ownership. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -92,7 +94,8 @@ Active file reservations, updated 24 September UTC:
 | RI-76 approximation asymptotics | Published in independently verified `ad44848`; reservation released. Defect decay and positive-probability height obstruction are inseparable conclusions. |
 | RI-77 random-cutoff locality | Published in independently verified `d43d144` after proof/source review and fresh normal/optimized replay; three-file reservation released. Fixed two-core locality witness domain, no new global parent-six table. |
 | RI-79 delayed-cutoff locality | Published in independently verified `b647f6f` after complete proof/source review, exact saved arithmetic and fresh copied normal/optimized replay. Reservation released; no new probability inventory or numerical global scale. |
-| RI-81 structural mixture locality | QR reserves only `docs/track_b/native_growth_local_mixture_criterion_v1/MIXTURES.md`. Prior-robust criterion with zero-aware likelihoods, plus positive unmarked harmonic-tilt construction/converse. Note-only; no cutoff search, solver, adopted law or geometry claim. Root owns git. |
+| RI-81 structural mixture locality | Independently accepted after complete root and separate proof reviews and evidence reconciliation; one-note reservation released. Conditional prior-robust criterion and positive harmonic subclass, with nonconstant existence and geometry still open. |
+| RI-82 constructive first departure | QR reserves only `docs/track_b/native_growth_first_departure_v1/DESIGN.md`. Freeze one proper-child support, complete deletion closure/all record rows, symbolic scale cancellation and finite width-gain target before coefficient execution. Root owns git. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
 | RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` published in verified `ad44848`. Reservation released; preserve the fixed unit-white scope. |
 | RI-78 public off-event spectra design | Published in independently verified `d43d144`; one-file reservation released. Fixed descriptive Welch PSD/ASD design on the recovered H1/L1 V2 pair; no observed result, whitening or covariance substitution. |
@@ -5061,3 +5064,47 @@ RI-81 remains active in QR on the structural criterion and harmonic-tilt proof.
 RI-80's external fabricated-run freeze is being prepared for root review; no
 numerical qualification or observed spectrum is claimed at this checkpoint.
 The programme continues, with RET paused.
+
+**RI-81 accepted; constructive RI-82 active; RI-80 retains two real failures**
+
+The [RI-81 note](docs/track_b/native_growth_local_mixture_criterion_v1/MIXTURES.md)
+is independently accepted. The exact pairwise determinant criterion characterizes
+prior-robust record locality, including zero-history domains and countable priors.
+A positive finite unmarked h harmonic against every complete baseline record row
+gives a normalized local covariant law by h(child)/h(parent); its restricted
+converse and countable-mixture closure are proved. Full passive payloads and the
+actual held prefix are preserved under the stated hypotheses. Only h=1 is
+guaranteed; this is no nonconstant-existence or geometry/gravity result.
+
+After full proof adjudication, root assigned RI-82 to the existing QR task.
+Choose one small explicit support of seven-event child classes, preferably all
+with at least two maxima, and set h7=1+epsilon*z there and one elsewhere.
+Include the complete maximal-deletion closure of affected six-parents, every
+marked row and every labeled ideal mapping to each shared child variable.
+For that proper-child subclass the common positive a6 cancels, avoiding M6 and
+full-complement evaluation. Target a strictly positive expected-child-width
+change for one named complete row, with exact positivity and all harmonic
+constraints. Freeze the complete source/domain/resource design before any
+coefficient executor. A restricted-support failure is not a universal no-go;
+a finite witness is not an asymptotic geometric theorem or a global h solution.
+No successor calculation has begun.
+
+RI-80 passed complete source review and a separate mathematical/API review,
+but actual fabricated qualification has not passed. The first frozen normal
+attempt failed at pre-numerical environment admission: macOS inserted only
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0. Two bounded stdlib-only diagnostic/control
+runs identified and explicitly reproduced that value. A separately reviewed
+fresh freeze included it while keeping strict environment equality, all
+scientific sources and all thresholds unchanged.
+
+The corrected normal attempt reached numerical qualification but was stopped
+at the unchanged 512MiB sampled-RSS threshold: 6.581045958s, peak 533152KiB,
+exit -9. No final report or worker completion receipt exists; stdout/stderr
+are empty, and optimized execution did not start. Original/copied source and
+runtime bytes matched before and after. Both failed freezes and receipts are
+retained. The qualifier author now reserves only qualify.py for an equivalent
+allocation/lifetime repair. Every fixture, refusal, numerical gate and the
+180s/512MiB envelope remain fixed. The measured failing phase is not known;
+source-identified duplicate allocations are repair candidates, not a fabricated
+execution diagnosis. New source review and a new freeze precede another run.
+No QUALIFICATION.json or observed spectrum is claimed. RET remains paused.

@@ -4047,3 +4047,47 @@ RI-81 remains active in QR on the structural criterion and harmonic-tilt proof.
 RI-80's external fabricated-run freeze is being prepared for root review; no
 numerical qualification or observed spectrum is claimed at this checkpoint.
 The programme continues, with RET paused.
+
+**RI-81 accepted; constructive RI-82 active; RI-80 retains two real failures**
+
+The [RI-81 note](../track_b/native_growth_local_mixture_criterion_v1/MIXTURES.md)
+is independently accepted. The exact pairwise determinant criterion characterizes
+prior-robust record locality, including zero-history domains and countable priors.
+A positive finite unmarked h harmonic against every complete baseline record row
+gives a normalized local covariant law by h(child)/h(parent); its restricted
+converse and countable-mixture closure are proved. Full passive payloads and the
+actual held prefix are preserved under the stated hypotheses. Only h=1 is
+guaranteed; this is no nonconstant-existence or geometry/gravity result.
+
+After full proof adjudication, root assigned RI-82 to the existing QR task.
+Choose one small explicit support of seven-event child classes, preferably all
+with at least two maxima, and set h7=1+epsilon*z there and one elsewhere.
+Include the complete maximal-deletion closure of affected six-parents, every
+marked row and every labeled ideal mapping to each shared child variable.
+For that proper-child subclass the common positive a6 cancels, avoiding M6 and
+full-complement evaluation. Target a strictly positive expected-child-width
+change for one named complete row, with exact positivity and all harmonic
+constraints. Freeze the complete source/domain/resource design before any
+coefficient executor. A restricted-support failure is not a universal no-go;
+a finite witness is not an asymptotic geometric theorem or a global h solution.
+No successor calculation has begun.
+
+RI-80 passed complete source review and a separate mathematical/API review,
+but actual fabricated qualification has not passed. The first frozen normal
+attempt failed at pre-numerical environment admission: macOS inserted only
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0. Two bounded stdlib-only diagnostic/control
+runs identified and explicitly reproduced that value. A separately reviewed
+fresh freeze included it while keeping strict environment equality, all
+scientific sources and all thresholds unchanged.
+
+The corrected normal attempt reached numerical qualification but was stopped
+at the unchanged 512MiB sampled-RSS threshold: 6.581045958s, peak 533152KiB,
+exit -9. No final report or worker completion receipt exists; stdout/stderr
+are empty, and optimized execution did not start. Original/copied source and
+runtime bytes matched before and after. Both failed freezes and receipts are
+retained. The qualifier author now reserves only qualify.py for an equivalent
+allocation/lifetime repair. Every fixture, refusal, numerical gate and the
+180s/512MiB envelope remain fixed. The measured failing phase is not known;
+source-identified duplicate allocations are repair candidates, not a fabricated
+execution diagnosis. New source review and a new freeze precede another run.
+No QUALIFICATION.json or observed spectrum is claimed. RET remains paused.

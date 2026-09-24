@@ -8264,3 +8264,89 @@ RI-81 remains active in QR on the structural criterion and harmonic-tilt proof.
 RI-80's external fabricated-run freeze is being prepared for root review; no
 numerical qualification or observed spectrum is claimed at this checkpoint.
 The programme continues, with RET paused.
+
+**RI-81 accepted; constructive RI-82 active; RI-80 retains two real failures**
+
+The [RI-81 note](../track_b/native_growth_local_mixture_criterion_v1/MIXTURES.md)
+is independently accepted. The exact pairwise determinant criterion characterizes
+prior-robust record locality, including zero-history domains and countable priors.
+A positive finite unmarked h harmonic against every complete baseline record row
+gives a normalized local covariant law by h(child)/h(parent); its restricted
+converse and countable-mixture closure are proved. Full passive payloads and the
+actual held prefix are preserved under the stated hypotheses. Only h=1 is
+guaranteed; this is no nonconstant-existence or geometry/gravity result.
+
+After full proof adjudication, root assigned RI-82 to the existing QR task.
+Choose one small explicit support of seven-event child classes, preferably all
+with at least two maxima, and set h7=1+epsilon*z there and one elsewhere.
+Include the complete maximal-deletion closure of affected six-parents, every
+marked row and every labeled ideal mapping to each shared child variable.
+For that proper-child subclass the common positive a6 cancels, avoiding M6 and
+full-complement evaluation. Target a strictly positive expected-child-width
+change for one named complete row, with exact positivity and all harmonic
+constraints. Freeze the complete source/domain/resource design before any
+coefficient executor. A restricted-support failure is not a universal no-go;
+a finite witness is not an asymptotic geometric theorem or a global h solution.
+No successor calculation has begun.
+
+RI-80 passed complete source review and a separate mathematical/API review,
+but actual fabricated qualification has not passed. The first frozen normal
+attempt failed at pre-numerical environment admission: macOS inserted only
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0. Two bounded stdlib-only diagnostic/control
+runs identified and explicitly reproduced that value. A separately reviewed
+fresh freeze included it while keeping strict environment equality, all
+scientific sources and all thresholds unchanged.
+
+The corrected normal attempt reached numerical qualification but was stopped
+at the unchanged 512MiB sampled-RSS threshold: 6.581045958s, peak 533152KiB,
+exit -9. No final report or worker completion receipt exists; stdout/stderr
+are empty, and optimized execution did not start. Original/copied source and
+runtime bytes matched before and after. Both failed freezes and receipts are
+retained. The qualifier author now reserves only qualify.py for an equivalent
+allocation/lifetime repair. Every fixture, refusal, numerical gate and the
+180s/512MiB envelope remain fixed. The measured failing phase is not known;
+source-identified duplicate allocations are repair candidates, not a fabricated
+execution diagnosis. New source review and a new freeze precede another run.
+No QUALIFICATION.json or observed spectrum is claimed. RET remains paused.
+
+RI-81 original worker note: 20613 bytes/SHA-256
+`60b09934159f2db29be27cd0b82e8e22472d62db355963d8da2c7592dba669f1`;
+accepted note with administrative root adjudication: 21800 bytes/
+`ed0195b466c67dff9084a4a5284d72507185c0177157934347dc28ff31f1ab05`.
+The mathematical text is unchanged. Worker HANDOFF_MANIFEST.json is 6808 bytes/
+`d86be9dca58900bf39ebb1fd1bd62168f5a7fd4b967e04ffb4b9cc05ff990114`
+under `/Volumes/AI_DATA/development/det-review-evidence/ri81-qr/worker-pjmHy2/`;
+all three external evidence files and both published application references
+matched. Independent full review is
+`ri81-root-review/INDEPENDENT_REVIEW-20260924T233510Z-d39569a6.json`,
+11198 bytes/`6ce4004ac523c3afb4eb95c856ae333bd08f64c810764b64ab04e037e2a3b41a`,
+under the same durable evidence root. Root proof adjudication and checkpoint
+metadata are under `ri81-root-review/root-checkpoint-20260924T233812Z/`.
+This is complete hand mathematical review and source/evidence verification,
+not an executable or proof-assistant verification.
+
+RI-80 source/API review:
+`ri80-independent-math-review/SOURCE_REVIEW_20260924T232746Z_e0aeac33.json`,
+4931 bytes/`d861221b82d145402b12f53cf7cbbe1b1de0766d0f009630b52cf5f52221d5a7`.
+Failed first execution directory:
+`ri80-execution/prep-20260924T232043Z-d017fcb7/`; authorized freeze 14070 bytes/
+`3befcad4a027dc8e6fedb78ddc63f9ac4bcea625785d0396c1c5d7758362dd70`;
+ROOT_FIRST_ATTEMPT_ADJUDICATION.json 2024 bytes/
+`2f5c140531b0d48f942e31a3ffdcca28360fc63cb2abf3e54e7e17c6b59b71ca`.
+Startup diagnostic:
+`ri80-startup-diagnostic-20260924T233004Z-f3a4f677/PROBE_RECEIPT.json`,
+1651 bytes/`791ddcd3bbd3ecc6ee86c45094c382d295ddc866d2f1ca38fab8e5bde7edb817`;
+its explicit-environment-control/RECEIPT.json 1580 bytes/
+`9540bcbd2425b25bd2eb7c702cc2436c47c0be502329c0f19a3ec68794432d16`.
+Second execution directory:
+`ri80-execution/prep-environment-20260924T233154Z-ceb5147d/`; authorized
+freeze 16030 bytes/
+`7274706bde40183a7a23dfacef2507a77f440322e23c06397e7523499fe5343e`;
+ROOT_PREEXECUTION_REVIEW.json 8012 bytes/
+`7a67b4ab9956d40e5c92206d6ac2e431a601acaf52a514ba270a0adaf9cbe1c6`;
+ROOT_MEMORY_FAILURE_REVIEW.json 1544 bytes/
+`175fd0750a499028344fefbdf3527b35285fd4ffeaa5dd13229a18a739c7a428`.
+All paths above are under `/Volumes/AI_DATA/development/det-review-evidence/`.
+The independent review checklist remains prospective; no saved successful
+numerical report exists to audit. RI-80's active sources and RI-82's active
+note remain excluded from the current RI-81 checkpoint.
