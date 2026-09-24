@@ -11,7 +11,8 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-57 selected-row sensitivity | **Selected; seven new paths reserved.** | Review arithmetic/source, then run frozen qualification before actual input. |
-| RI-56 robust intrinsic defect | **Assigned to existing QR after RI-54 acceptance.** | Prove the diagnostic/drift gate without assuming an all-size selector. |
+| RI-58 twin-top defect obstruction | **Assigned after RI-56 acceptance; three new paths reserved.** | Prove/correct the structural mixed-component obstruction and certify the actual-prefix lower bound. |
+| RI-56 robust intrinsic defect | **Independently accepted; publication pending.** | Preserve conditional scope; RI-58 tests the next concrete admission obstruction. |
 | RI-55 finite-context sensitivity | **Published in verified `ef10f33`.** | RI-57 implements the qualified selected-row pilot. |
 | RI-54 rectangle bottleneck | **Published in verified `ef10f33`.** Exact capacity obstruction. | Preserve the scoped result; RI-56 examines robust defects. |
 | RI-53 finite-support comparison | **Published in verified `1993e24`.** Actual numerical qualification, processing, export audit and visual inspection passed. | Preserve the eight-file result; physical continuation, precise V2 timing and native forward map remain open. |
@@ -1920,3 +1921,81 @@ RI-57 is the next coordinator implementation/qualification packet on seven
 new reserved paths. The accepted obstruction closes the attempted consecutive
 Ferrers-preservation gate under its fixed prefix; it does not complete or
 abandon the native geometry, gravity and measurement programme.
+
+
+**RI-56 independently accepted — stable defect diagnostic and conditional drift gate**
+
+24 September 2026 UTC. The complete analytic note has passed separate root and
+independent full proof reviews. The source-stable handoff was 500 lines,
+22,232 bytes, SHA-256
+`ffa9afef880480c02876f398b103264ecc740f001f46552e2e0e00c90dcc39a6`.
+Only its opening adjudication changes on acceptance. Accepted SHA-256:
+`8517c996d159f4e17b66fee4246d3e7e90d8806fe5eee542500358676b81998a` (22,233 bytes). This is analytic review, not an executable
+feasibility verdict or proof-assistant certificate.
+
+The minimum number of arbitrary exceptions leaving an induced Ferrers order
+is intrinsic, monotone under ideals, and increases by zero or one per maximal
+birth. Every nonempty parent has a raising empty birth and at least one neutral
+birth. Requiring an ideal exception set is unstable: one cloned maximum of an
+N-vertex non-chain rectangle has arbitrary defect one but minimum ideal-core
+cost N-2, even for balanced rectangles. Actual vertices and records stay intact.
+
+Height/width normalized errors are at most k/N; comparable-pair density error
+is at most k(2N-k-1)/(N(N-1)) when the retained order has at least two vertices.
+Optimizers need not form a nested history, and sublinear defect supplies no
+balance or geometric limit. For an already fixed all-size law, bounded
+Bernoulli martingale differences vanish after division by N almost surely and
+in L2/L1. Sublinear defect is equivalent to vanishing Cesaro conditional drift
+in the corresponding mode; expectation/probability convergence alone is not
+promoted to almost-sure convergence.
+
+The finite-layer infimum of worst marked-row drift is zero exactly when the
+closed component-scale row polytope admits zero drift in every row. Strict
+interior mixing proves sufficiency but never attains zero for nonempty parents.
+Every component with any raising occurrence must vanish on that boundary;
+neutrality in one row is insufficient. The actual accepted three-vertex
+mixed component retains (1/3)(1/5)=(2/3)(1/10)=1/15. All record assignments,
+labeled multiplicities, full complements and passive payload remain required.
+No feasible defect-control law or all-size sublinear realization is established.
+The RI-56 reservation is released to root publication.
+
+**RI-58 assigned — twin-top defect-drift obstruction**
+
+After reviewing RI-56, the existing QR task receives the next native question.
+It reserves only `OBSTRUCTION.md`, `check.py`, `CERTIFICATE.json` in
+`docs/track_b/native_growth_defect_bottleneck_v1/`. Prove or correct the claim
+that the cloned rectangle's only largest induced Ferrers suborders delete one
+of its two tops. Classify every neutral birth intrinsically and test whether
+each proper neutral slot shares a component with a raising Ferrers-parent slot.
+Do not infer a general obstruction merely from a coordinate drawing.
+
+For the minimal rectangle R=(0,1,1,7), clone parent P=(0,1,1,7,7), the proposed
+neutral ideals are 3 and 5. With the unchanged actual RI-41 prefix, let
+p=q_R(7), a=q_R(3), b=q_R(5). Verify transported marked diamonds and whether
+worst drift across P and the two Ferrers corner-parent rows is at least
+p/(p+a+b)>0. This is a lower bound, not an optimum without an attaining law.
+An exact standalone checker/certificate must verify the small intrinsic orders,
+all relevant labeled ideals and the actual rational prefix factors. Reused
+accepted helper source must be pinned before execution and its reuse explicit.
+No full later-layer growth table, all-size selector or global LP is assigned.
+A finite obstruction to uniform zero drift would not exclude history-weighted
+Cesaro control; geometry, gravity and the native forward map remain open.
+
+**RI-57 source authoring remains active and excluded from this checkpoint**
+
+The independent exact DFI oracle is source-stable at 9,484 bytes, SHA-256
+`37f3dea8ccbc495e90123b51e35150c8e5324c18c598954182e76943a285a651`.
+Its author reports identical normal/optimized toy evidence, including 448 basis
+columns, 960 affine identities, 528 sharp-box/witness cases and 32 refusals.
+Root has read its complete source; independent full RI-57 qualification remains
+pending. This is not qualification of the admitted coefficients or actual data.
+
+The engine author and qualification/driver author own disjoint reserved files.
+Root algebra review accepts a prospective complex-pole quadratic-form bound,
+H^T P H=a2 P, plus the exact a2=0 scalar series, subject to concrete outward
+arithmetic/source review. Both H and H^T retain the frozen contraction search.
+All toy paths must exercise the validated arithmetic; no exact fallback bypass
+may substitute for those tests. The 256-bit arithmetic, N/T, selected rows and
+width thresholds stay fixed. No new admitted-coefficient run or input-data
+read is authorized before source/method freeze and the qualification gate.
+RET remains paused; the original review and all accepted sources are preserved.
