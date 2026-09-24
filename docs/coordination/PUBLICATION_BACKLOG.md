@@ -3545,3 +3545,22 @@ fields using the independent auditor. Fixed failed gates must remain failures.
 No observed-data read or sampler is assigned. Source/result reservations,
 calibration/physical prerequisites and the RET pause remain in force. This
 checkpoint does not complete the native geometry/gravity/measurement programme.
+
+
+**RI-73 source checkpoint accepted; prospective execution method reviewed**
+
+The unchanged final check.py (68018 bytes, SHA-256
+`574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887`)
+is ready for a source-only publication checkpoint with its fourteen already
+published dependencies. Actual RESULT.json remains absent and unqualified.
+Root and independent review now accept the external capture, report adapter
+and actual-run caller. Root copied normal/-O replays of the adapter's 109
+checks/23 explicit refusals/3996 leaf mutations and caller's 102 controls/11
+mocked flows pass identically. Independent reviewers added 94 adapter controls
+and 20 caller controls. Detailed pins, provenance and limits are in REVIEW_PROGRESS.
+Next root freezes the complete source/runtime/caller/observer/destinations,
+executes modes serially, preserves any failure and independently audits the
+captured intervals and every result field. This is conditional synthetic
+unit-white covariance qualification, not observed detector-noise calibration.
+RI-74 machine files are frozen for coordinator replay; final note/review
+reconciliation remains pending. Its zero-allowed proof is not adopted.

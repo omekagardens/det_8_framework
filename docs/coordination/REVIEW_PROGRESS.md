@@ -7487,3 +7487,82 @@ fields using the independent auditor. Fixed failed gates must remain failures.
 No observed-data read or sampler is assigned. Source/result reservations,
 calibration/physical prerequisites and the RET pause remain in force. This
 checkpoint does not complete the native geometry/gravity/measurement programme.
+
+
+**RI-73 external auditor/caller accepted and reviewed source checkpoint**
+
+Root has read the complete independent report adapter, schema contract, recipe
+and tiny tests, and compared the contract with literal AST declarations in the
+final producer without executing project code. report_adapter.py is 19466 bytes,
+SHA-256 `c6bb07ae06d17c4ccd40bcf87ba34e7413aad00cd5c508dfe3328d13ed1f5a22`;
+ADAPTER_RECIPE.md is 7228 bytes, SHA-256
+`52b2afd0c43dd30346b591c96eabe6a8f94952711f1a7efbaf83baca6b97b669`;
+producer_contract.json is 2517 bytes, SHA-256
+`e219070878872b10e5283174a01cb407c7cf1064612b2cfac369c4c575996bdc`.
+The separately authored 16078-byte arithmetic core remains SHA-256
+`87a5b73a8936f97929a33bc78743f822cda23230ed30e6f1cf246943a43592c4`.
+It independently computes every Gram/cross/intersection/inverse/probe/CDF field;
+the adapter reconstructs producer-format array identities and interval-derived
+RI-60 summary fields. An exhaustive typed tree comparison rejects extra fields.
+Runtime, source metadata, accepted fixtures and RI-60 proof/radius dictionaries
+are explicitly inherited evidence, not independently regenerated engine proofs.
+Matching a failed mathematical gate never grants full qualification. Incomplete
+resource/calculation failures are refused, not promoted from partial fields.
+
+Root's copied normal/-O adapter runs took 14.745/14.766s, both exit zero and
+empty stderr. Each passed 109 checks, 23 intended refusals and all 3996
+single-leaf mutations; identical 887-byte output SHA-256
+`55e6f9aa6033ad5be9fff6f60a6c0ea1ac61d0838368fe30c794cc75efe70ea8`.
+A separate complete source/schema review passed the same copied replay and
+94 further tiny controls, including signed interval gains, first witness,
+late-pivot partial-column representation and preserved failure statuses.
+Its normal/-O output is identical: 3363 bytes, SHA-256
+`7c67c8d65c7a2d34fb3f150ad62a980069300a85d017b31a2e0d2dc13d614e1c`.
+External receipts are in `det-ri73-root-7hxv1rxf/adapter-review` and
+`det-ri73-adapter-review-3oyjexu9` under the retained temporary root.
+
+Root and an independent reviewer read the complete external actual-run caller,
+prospective manifest, recipe and mocked tests. actual_caller.py is 23718 bytes,
+SHA-256 `080795a7f66cfd9f3dd87a6c3dd3b4a843edb5aad4901eb70485d4221767964d`;
+ACTUAL_PROSPECTIVE_MANIFEST.json is 12992 bytes, SHA-256
+`710f249db659238d503342dafdba69c62b2fabb91f2e2d1e72680713f2e648e3`;
+ACTUAL_REPLAY_RECIPE.md is 10180 bytes, SHA-256
+`a284c02545eb14ed22bf640fe46c5173f9c7df3b3601f479a98192288aa2c7ce`.
+The prospective manifest refuses execution. The root-controlled authorized
+freeze will be a separate file, preserving this reviewed handoff.
+
+The caller binds all fifteen source/receipt files before helper import, full
+qualified runtime/interpreter, reviewed capture and existing supervisor, caller
+bytes, all 92 gates and exclusive external destinations. Its observer captures
+both interval vectors only once, then binds all sixteen vector identities.
+It retains an exclusive PREPARED_REPORT.json before subsequent validation or
+stdout delivery can fail, reopens snapshot/prepared/stdout files independently,
+and checks source/runtime and late file identities. Serialization progress is
+not a substitute for actual file identity. The outer supervisor remains the
+independent authority on delivered stdout, exit, wall time and sampled RSS.
+
+Root's copied normal/-O mocked caller runs passed 102 controls across eleven
+flows in 5.847/5.929s, exit zero, empty stderr. Their identical 4092-byte output
+has SHA-256 `2ba6f66f5bd5bf6bf5d54c1c28a5e968494ac0e5fd469f3aec3ac82875f34f87`.
+Failures include partial capture, missing capture, wrong vectors, short stdout,
+invalid scientific metadata, changed runtime and late snapshot/prepared-file
+mutation. Complete scientific failure journals remain available. A separate
+review copied those controls and passed twenty more in both modes; identical
+1099-byte output SHA-256
+`e6fe364b351847482adb7ea1a8c3a0384550df0486ec75b02fd0c10e8fbb63fc`.
+The additional controls prove prospective-main refusal before runtime/helper
+entry and independently reconcile the full closure/metadata/gate inventory.
+External receipts are in `det-ri73-root-7hxv1rxf/caller-review`,
+`det-ri73-caller-review-bx8q1d0u` and `det-ri73-author-ymuh5d28`.
+
+Root reconciled the prospective complete inputs against both the worktree and
+retained candidate. The final scientific checker is source-quiet at its held
+574f5f1b... pin; fourteen dependencies are published. Source and method are
+accepted for a four-path checkpoint (checker plus three coordinator records).
+No actual coefficient reconstruction, captured-interval ingestion, observations
+or sampling occurred in these reviews; RESULT.json is absent. Next freeze the
+accepted caller/observer, source/runtime and exact external paths, then run
+normal/-O serially, one worker each, with unchanged 1800s/sampled-2GiB limits,
+256MiB snapshot and 64MiB scientific report caps. Failures remain failures.
+Independent result acceptance and physical/calibration claims remain separate.
+RI-74 proof/machine adjudication continues; RET remains paused.

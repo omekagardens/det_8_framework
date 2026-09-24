@@ -114,7 +114,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 
 | ID | Review finding / deliverable | Owner | State and completion criterion |
 |---|---|---|---|
-| RI-73 | Admitted-operator covariance implementation | Coordinator | **Source and fixtures accepted; actual result pending.** Caller/adapter review and complete freeze precede actual coefficients; two paths root-reserved. |
+| RI-73 | Admitted-operator covariance implementation | Coordinator | **Source/fixtures and prospective caller/adapter accepted; actual result pending.** Publish reviewed source, then freeze and execute serial modes; result stays root-reserved. |
 | RI-74 | Intrinsic Plancherel boundary and fixed-prefix graft | QR; coordinator review | **Assigned; three new paths reserved.** Prove or reject quotient normalization, all-case covariance and intrinsic graft; strict approximation remains separate. |
 | RI-72 | Critical-suppression height minimum | QR; coordinator review | **Published in independently verified `f18b5d9`.** Exact restricted endpoint and conditional all-size critical suppression; no adopted selector or asymptotic geometry theorem. |
 | RI-71 | Admitted-operator synthetic covariance design | Coordinator | **Published in independently verified `ebfd0ec`.** Proof/design only; RI-73 implements unchanged gates. |
@@ -4492,3 +4492,22 @@ fields using the independent auditor. Fixed failed gates must remain failures.
 No observed-data read or sampler is assigned. Source/result reservations,
 calibration/physical prerequisites and the RET pause remain in force. This
 checkpoint does not complete the native geometry/gravity/measurement programme.
+
+
+**RI-73 source checkpoint accepted; prospective execution method reviewed**
+
+The unchanged final check.py (68018 bytes, SHA-256
+`574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887`)
+is ready for a source-only publication checkpoint with its fourteen already
+published dependencies. Actual RESULT.json remains absent and unqualified.
+Root and independent review now accept the external capture, report adapter
+and actual-run caller. Root copied normal/-O replays of the adapter's 109
+checks/23 explicit refusals/3996 leaf mutations and caller's 102 controls/11
+mocked flows pass identically. Independent reviewers added 94 adapter controls
+and 20 caller controls. Detailed pins, provenance and limits are in REVIEW_PROGRESS.
+Next root freezes the complete source/runtime/caller/observer/destinations,
+executes modes serially, preserves any failure and independently audits the
+captured intervals and every result field. This is conditional synthetic
+unit-white covariance qualification, not observed detector-noise calibration.
+RI-74 machine files are frozen for coordinator replay; final note/review
+reconciliation remains pending. Its zero-allowed proof is not adopted.
