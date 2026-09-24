@@ -6323,3 +6323,37 @@ certificates. Fix meaningful custody/index/annotation/receipt refusals and
 normal/optimized/export checks. No magnitude acceptance cutoff, fit, native
 prediction, new calibration model or sample execution belongs to this design.
 RI-63 remains the active native decision; RET remains paused.
+
+
+**RI-60 numerical result and RI-61 theorem published; next native/data lanes active**
+
+Commit `32824c3c75e6cf835f9e8dfaee36be4dad9ea488`, tree
+`e1ae09d04404d2f2ad33dd3c4dfb9e6944d503de`, publishes exactly six accepted
+RI-60 reproduction files, the accepted RI-61 note and three coordinator records.
+The final RI-60 guide is 19527 bytes, SHA-256
+`d5927ea586dc42abad53f3ba0b03d6e3d6aafa3b391d97a20149befad895645d`;
+independent complete review and final provenance/replay-clarification checks
+passed. It distinguishes the earlier method review from the 11240-byte
+execution-frozen guide, preserves failed receipts and gives separate normal
+and optimized reproduction output paths. All executed Python sources match
+both frozen source closures. Qualification and actual reports match both
+successful modes exactly; their full proof traces are retained.
+
+The accepted RI-61 note is 27126 bytes, SHA-256
+`a9b721f65057492e8b616a1da8a0091d22103604944104a1d7a036a4800715bb`.
+Only its opening adjudication status changed after complete analytic review.
+Preflight preserved 2090 other entry versions, checked 141 local links, the
+published dependency closure, all source/report identities and exact staged
+scope. Normal push succeeded; a separate origin/ret lookup matched the full
+commit and the index was empty. The original review, v1 failed attempt,
+unrelated edits and protected/custody prerequisites remain unchanged.
+
+RI-63 is active in the existing QR task on the exact first-free expected-cost
+problem; its new source/certificate files remain excluded until independent
+review. RI-62 is active on the one-file observed H1/L1 context design. Its
+metadata-only inventory found the original qualified input files still present
+at their expected sizes; later byte admission is still required before HDF5
+access. No observed sample body has been read for RI-62. The programme remains
+active: suppression of known obstructions is proved, the residual endogenous
+drift bound is open, and nominal finite-context measurements remain separate
+from calibrated physical claims and a native geometry/gravity forward map.

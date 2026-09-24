@@ -50,12 +50,12 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is independently accepted; reservation released. RI-63 reserves only `COMPLETION.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_expected_defect_completion_v1/`. Preserve all accepted laws and central git ownership. |
+| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 reserves only `COMPLETION.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_expected_defect_completion_v1/`. Preserve all accepted laws and central git ownership. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
 | RI-57 context operator | Source-stable failed qualification packet; reservation released to root publication. No sensitivity output or actual read. |
-| RI-60 context error repair | Six reviewed v2 files independently accepted; reservation released and root publication pending. |
+| RI-60 context error repair | Six accepted v2 files published in verified `32824c3`; reservation released. |
 | RI-62 observed context | Only `docs/experiments/gwosc_observed_context_v1/DESIGN.md` reserved in the coordinator lane; design only, no samples or executor. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
 | RI-53 NR comparison | The eight-file bundle is published in verified `1993e24` and source-quiet; reservation released. |
@@ -3315,3 +3315,37 @@ certificates. Fix meaningful custody/index/annotation/receipt refusals and
 normal/optimized/export checks. No magnitude acceptance cutoff, fit, native
 prediction, new calibration model or sample execution belongs to this design.
 RI-63 remains the active native decision; RET remains paused.
+
+
+**RI-60 numerical result and RI-61 theorem published; next native/data lanes active**
+
+Commit `32824c3c75e6cf835f9e8dfaee36be4dad9ea488`, tree
+`e1ae09d04404d2f2ad33dd3c4dfb9e6944d503de`, publishes exactly six accepted
+RI-60 reproduction files, the accepted RI-61 note and three coordinator records.
+The final RI-60 guide is 19527 bytes, SHA-256
+`d5927ea586dc42abad53f3ba0b03d6e3d6aafa3b391d97a20149befad895645d`;
+independent complete review and final provenance/replay-clarification checks
+passed. It distinguishes the earlier method review from the 11240-byte
+execution-frozen guide, preserves failed receipts and gives separate normal
+and optimized reproduction output paths. All executed Python sources match
+both frozen source closures. Qualification and actual reports match both
+successful modes exactly; their full proof traces are retained.
+
+The accepted RI-61 note is 27126 bytes, SHA-256
+`a9b721f65057492e8b616a1da8a0091d22103604944104a1d7a036a4800715bb`.
+Only its opening adjudication status changed after complete analytic review.
+Preflight preserved 2090 other entry versions, checked 141 local links, the
+published dependency closure, all source/report identities and exact staged
+scope. Normal push succeeded; a separate origin/ret lookup matched the full
+commit and the index was empty. The original review, v1 failed attempt,
+unrelated edits and protected/custody prerequisites remain unchanged.
+
+RI-63 is active in the existing QR task on the exact first-free expected-cost
+problem; its new source/certificate files remain excluded until independent
+review. RI-62 is active on the one-file observed H1/L1 context design. Its
+metadata-only inventory found the original qualified input files still present
+at their expected sizes; later byte admission is still required before HDF5
+access. No observed sample body has been read for RI-62. The programme remains
+active: suppression of known obstructions is proved, the residual endogenous
+drift bound is open, and nominal finite-context measurements remain separate
+from calibrated physical claims and a native geometry/gravity forward map.
