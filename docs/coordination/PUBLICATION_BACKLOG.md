@@ -15,7 +15,7 @@ with unrelated changes to make an import succeed.
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 qualification and eight actual rows passed.** | Preserve the six reproducible files; RI-62 designs the separate observed-context comparison. |
 | RI-57 selected-row sensitivity | **Failed qualification preserved in verified `995ed03`: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
 | RI-65 actual residual re-entry | **Assigned; three new paths reserved.** | Independently certify the next-layer rectangle obstruction under the accepted strict prefix. |
-| RI-63 first-free expected-cost decision | **Independently accepted; publication pending.** | Publish the exact canonical completion and replay evidence; RI-65 addresses the next residual. |
+| RI-63 first-free expected-cost decision | **Published in independently verified `7ccba1c`.** | Preserve the exact canonical completion and replay evidence; RI-65 addresses the next residual. |
 | RI-61 candidate-specific suppression | **Published in independently verified `32824c3`.** | RI-63 targets the first-free exact candidate; asymptotic residual decay remains open. |
 | RI-59 history-weighted candidate | **Published in independently verified `df5de32`.** | RI-61 targets summable rejection of raising components; asymptotic sublinearity remains open. |
 | RI-58 twin-top defect obstruction | **Published in verified `995ed03`.** | Preserve the exact fixed-layer bound; RI-59 follows the actual history distribution. |
@@ -2575,3 +2575,34 @@ consumer sources; the independent reviewer is completing a bounded synthetic
 crop-prefix coverage check. The prospective guide, complete source freeze and
 new qualification still precede all observed access. No new observed sample
 body or admitted coefficient-row computation has run. RET remains paused.
+
+
+**RI-63 finite canonical completion published and remote-verified**
+
+Commit `7ccba1c0e057a65fe3fd60c7ffab4072fd18e5c7`, tree
+`b2664ad105aada97735b50f6601815607fecd8fd`, publishes exactly the three
+accepted RI-63 files and three coordinator records. Normal push succeeded;
+a separate origin/ret lookup matched the full commit, with an empty index.
+Preflight preserved 2098 other entry versions, verified four directly referenced
+published dependencies and 138 local links, and checked exact staged scope.
+The accepted note is 17102 bytes, SHA-256
+`e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122`;
+checker and certificate match the independently replayed handoff exactly.
+
+The separate coordinator algebra replay passed normally and optimized with
+identical 606-byte output, SHA-256
+`bfd126ffedc24222fc811691d03791f379103c46c289e6e7089cf0523cdf22df`.
+It independently verifies the complete primary/lexicographic certificate from
+the reconstructed problem, including 69 positive and 729 zero coordinate
+stages, four malformed controls and the finite neutrality claims; it is not
+a second independent domain generator. RI-65 has been dispatched to the QR
+task on the actual next-layer residual obstruction, keeping the one-time
+zero-defect-exit limitation explicit.
+
+RI-64 final source reviews are complete. The qualifier's six index gates now
+include 33228 two-detector nonconstant crop-prefix comparisons and six intended-
+reason off-by-one refusals; its total remains 75 gates. Independent distinct-
+detector fixtures and receipt/driver checks pass normally and optimized.
+Root has read the complete context, qualifier and driver at the final source
+versions. Prospective guide, complete freeze and new current qualification
+remain prerequisites to observed access; none has been bypassed.

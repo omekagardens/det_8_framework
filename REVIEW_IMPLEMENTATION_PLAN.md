@@ -50,7 +50,7 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is independently accepted; reservation released. RI-65 reserves only `OBSTRUCTION.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_residual_reentry_v1/`. Preserve all accepted laws and central git ownership. |
+| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 reserves only `OBSTRUCTION.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_residual_reentry_v1/`. Preserve all accepted laws and central git ownership. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -109,7 +109,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 |---|---|---|---|
 | RI-64 | Observed-context consumer | Coordinator | **Assigned; seven new paths reserved.** Review/freeze sources and qualify before observed samples; no actual result yet. |
 | RI-65 | Actual next-layer residual re-entry | QR; coordinator review | **Assigned; three new paths reserved.** Prove/check the actual marked rectangle obstruction and its summability limits. |
-| RI-63 | First-free expected-cost decision | QR; coordinator review | **Independently accepted; publication pending.** Exact optimum, canonical tie-break and finite strict-law replay; no asymptotic claim. |
+| RI-63 | First-free expected-cost decision | QR; coordinator review | **Published in independently verified `7ccba1c`.** Exact optimum, canonical tie-break and finite strict-law replay; no asymptotic claim. |
 | RI-62 | Observed H1/L1 context design | Coordinator | **Published in verified `052154c`.** Fixed windows, custody, numerical and selected-row rigorous gates; RI-64 implements it. |
 | RI-61 | Candidate-specific suppression | QR; coordinator review | **Published in verified `32824c3`.** Summable suppression does not resolve the residual drift. |
 | RI-60 | Context enclosure repair | Coordinator | **Published in verified `32824c3`.** 196/196 qualification gates and eight actual reference-input rows passed. |
@@ -3514,3 +3514,34 @@ consumer sources; the independent reviewer is completing a bounded synthetic
 crop-prefix coverage check. The prospective guide, complete source freeze and
 new qualification still precede all observed access. No new observed sample
 body or admitted coefficient-row computation has run. RET remains paused.
+
+
+**RI-63 finite canonical completion published and remote-verified**
+
+Commit `7ccba1c0e057a65fe3fd60c7ffab4072fd18e5c7`, tree
+`b2664ad105aada97735b50f6601815607fecd8fd`, publishes exactly the three
+accepted RI-63 files and three coordinator records. Normal push succeeded;
+a separate origin/ret lookup matched the full commit, with an empty index.
+Preflight preserved 2098 other entry versions, verified four directly referenced
+published dependencies and 138 local links, and checked exact staged scope.
+The accepted note is 17102 bytes, SHA-256
+`e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122`;
+checker and certificate match the independently replayed handoff exactly.
+
+The separate coordinator algebra replay passed normally and optimized with
+identical 606-byte output, SHA-256
+`bfd126ffedc24222fc811691d03791f379103c46c289e6e7089cf0523cdf22df`.
+It independently verifies the complete primary/lexicographic certificate from
+the reconstructed problem, including 69 positive and 729 zero coordinate
+stages, four malformed controls and the finite neutrality claims; it is not
+a second independent domain generator. RI-65 has been dispatched to the QR
+task on the actual next-layer residual obstruction, keeping the one-time
+zero-defect-exit limitation explicit.
+
+RI-64 final source reviews are complete. The qualifier's six index gates now
+include 33228 two-detector nonconstant crop-prefix comparisons and six intended-
+reason off-by-one refusals; its total remains 75 gates. Independent distinct-
+detector fixtures and receipt/driver checks pass normally and optimized.
+Root has read the complete context, qualifier and driver at the final source
+versions. Prospective guide, complete freeze and new current qualification
+remain prerequisites to observed access; none has been bypassed.
