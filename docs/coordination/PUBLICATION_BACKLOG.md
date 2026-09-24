@@ -15,7 +15,7 @@ with unrelated changes to make an import succeed.
 | RI-31 native geometry/gravity/measurement plan | **Plan independently accepted and published in verified `40b0329`.** One new programme and three coordinator records. | Preserve the plan. Proposed cycle 1: native joint-law dossier plus observation-channel and public-data qualification; no implementation reservation yet. |
 | RI-32 native candidate dossier | **Family-scoped rejection independently accepted and published in verified `45e3f76`.** | Preserve the reviewed one-document dossier; no implementation or automatic replacement family. |
 | RI-33 observation-channel contract | **Independently accepted and published in verified `2216ac8`.** Exact timing proof/design and GWOSC metadata-qualified candidate. | Preserve the accepted contract. No scientific data, executable consumer or RET dependency. |
-| RI-34 strict-local normalization note | **Independently accepted; publication pending.** Single-document reservation released. | Publish the reviewed note and three coordinator records. No executor, all-size native law or automatic successor. |
+| RI-34 strict-local normalization note | **Independently accepted and published in verified `02a9453`.** Single-document reservation released. | Preserve the reviewed note. No executor, all-size native law or automatic successor. |
 | RI-25 qubit-and-record experiment | **Published in independently verified `9f463f2`.** Twelve isolated experiment files, three QR summaries and four coordinator records; final reviews, 61 tests per mode and 82 independent exported-data checks passed. | Preserve source pins; calibrated measured W remains external. No core/RET dependency is required by this standard-library experiment. |
 | RI-26 supplied-geometry observer model | **Published in independently verified `0fde8b2`.** Eleven isolated bundle files, three QR summaries and four coordinator records. Three final reviews, 51 tests per mode, 52 identical exports and 331 separate exported-data checks passed. | Preserve the eleven bundle identities and all 87 held predecessors. No core/RET dependency or automatic successor is opened. |
 | RI-27 published-model reproduction | **Published in independently verified `5e7f2f7`.** New combined guide and separate 23-file manifest, plus plan/progress/backlog. Independent inventory/packaging/recipe reviews and actual clean-archive replay passed. | Keep guide/manifest pins, all 98 prior accepted artifacts and the historical 71-file inventory fixed. |
@@ -622,3 +622,13 @@ references are already published scope/background, with no runtime imports.
 All accepted predecessors, original review and unrelated source changes stay
 fixed. No project scientific suite, executor, data acquisition or RET work
 is required for this proof-only checkpoint.
+
+
+RI-34 is published in independently verified
+`02a945395ae4d6b46b3f9b2ba7476f38b63c4f59`, tree
+`5923f20b12f400e4db7f14ac83a7b5bf170d588c`. Exactly the accepted note and
+three coordinator records were committed. Staged identities, 97 local links,
+four published background targets and 2,018 unchanged entry versions passed
+preflight. Normal push and separate remote verification succeeded. The note
+remains at `ec489d9dce261ffbbf5be3c18d61f28c86cde6784f1f249f2e3e3743d71b4e7f`;
+only coordinator publication metadata is updated afterward.

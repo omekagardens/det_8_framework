@@ -4053,3 +4053,19 @@ references exist in the published HEAD. All 2,018 entry versions outside
 the four-file candidate remain unchanged, and reversing only the two status
 phrases reproduces the independently reviewed note byte for byte. Root stages
 only this candidate and verifies each index hash before commit/push.
+
+
+**RI-34 remote publication verified**
+
+Commit `02a945395ae4d6b46b3f9b2ba7476f38b63c4f59`, tree
+`5923f20b12f400e4db7f14ac83a7b5bf170d588c`, publishes exactly the new note
+and three coordinator records. Each staged hash matched its accepted
+manifest. All 97 local Markdown links and four already-published background
+references resolved, while all 2,018 entry versions outside the candidate
+remained unchanged. Normal push and an independent origin/ret lookup
+confirmed the full commit; the index was empty.
+
+The final three-record status checkpoint preserves every proof/source byte
+and adds no theorem, run or evidence count. QR receives publication completion
+with no successor assignment. Native-law existence/extension, matter/gravity,
+physical readout and the separate RET pause remain as previously recorded.
