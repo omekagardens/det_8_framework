@@ -6,9 +6,10 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-38 general extension | **QR active.** Investigate the arbitrary-size one-level extension criterion and whether inherited premises force ratio-cycle consistency. | Independently review the next source-stable result; no all-size existence or obstruction is presumed. |
+| RI-39 history and height | **Assigned after RI-38 independent acceptance.** Construct the canonical labeled history measure and test the selected normalization's forced height growth. | Review the measure/covariance distinction and quantitative bound before choosing a geometry-directed law-selection step. |
+| RI-38 general extension | **Independently accepted; scoped publication pending.** The analytic maximal-deletion potential proves every inherited ratio cycle consistent and supplies an all-size conditional family. Root isolated normal/optimized replay and independent reviews pass. | Preserve the accepted proof/checker. RI-39 examines history measures and the selected family's geometric regime; no native-gravity inference. |
 | RI-37 public-input qualification | **Independently accepted and published in verified `8071ee3`.** Actual bodies, source/evidence reviews, isolated replay and direct data reconciliation pass. Exact V2 pair, complete metadata/flags and source pins retained; L1 CW no-injection flag is clear throughout. | Preserve the accepted bundle; qualify applicable C02 uncertainty artifacts before calibration-dependent inference. |
-| RI-36 native extension | **Independently accepted and published in verified `7335760`.** Every strictly positive RI-34 prefix extends through four births, preserving possible record feedback. Complete analytic reviews and root isolated normal/optimized replay passed. | Preserve the accepted proof/checker. QR is active on RI-38, the general extension criterion and cycle-consistency problem. |
+| RI-36 native extension | **Independently accepted and published in verified `7335760`.** Every strictly positive RI-34 prefix extends through four births, preserving possible record feedback. Complete analytic reviews and root isolated normal/optimized replay passed. | Preserve the accepted proof/checker. Its general extension successor RI-38 is now independently accepted. |
 | RI-35 exact timing consumer | **Independently accepted and published in verified `e2e5fcd`.** Four standalone files passed complete source review, 43 root tests per mode and a separate 128-case exact projection audit. Seven exports match between modes; twelve exported witnesses satisfy raw observations. | Preserve the [implementation](../experiments/exact_timing_v1/IMPLEMENTATION.md) and RI-33 contract. Public-data qualification is the next independent measurement packet; uncertain clocks and native dynamics remain separate. |
 | RI-29 RET readiness | **Read-only audit accepted and published in verified `dcf6b67`.** Two coordinator reviews and a concordant RET-owner handoff confirm the missing reader/evaluator bridge and separate comparator source-preview dependency. | Preserve [the bounded audit](RET_REENTRY_AUDIT.md). Preserve the owner's explicit RET pause; no code, banks or historical suites were executed. |
 | RI-30 comparator precision | **Independently accepted and published in verified `c7f20c6`.** Four standalone files passed full proof/source reviews, 48 isolated tests per mode and a separate 400-case exact projection audit. | Preserve the [target contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its four source identities. Reservation released; measured benefit remains open. |
@@ -4366,3 +4367,90 @@ review; no all-size theorem is accepted here. The next coordinator measurement
 packet is applicable C02 uncertainty qualification and a frozen processing
 recipe, retaining the L1 CW-flag issue. This final three-record publication
 update changes no accepted science source or evidence count. RET stays paused.
+
+**RI-38 independent acceptance — all-size conditional extension**
+
+24 September 2026 UTC. Root read the complete handed-off theorem and checker.
+Two separate coordinator reviewers read the complete analytic proof; one also
+audited and independently replayed the checker. Both accepted with no blockers.
+A third reviewer examined the next scientific obligation and its geometric
+claim boundary. These are internal reviews, not external peer review or a
+proof-assistant certificate.
+
+The ratio graph retains the entire unmarked parent order, precursor marks,
+all variable classes, reciprocal traversals, loops, parallel edges and labeled
+normalization multiplicities. Inherited diamonds make the finite construction
+weight W independent of the natural construction through the required size.
+The alternating product over maximal deletions directly supplies a positive
+local potential. Pairing deletion subsets in the common terminal weight gives
+`Phi(H)=W(P)u_P(S)`, hence every new full-payload ratio identity. This proves
+cycle consistency for all sizes. The finite complete-table maximum fixes a
+positive scale before current records are read; the full-ideal complement is
+greater than one half and never appears as the second precursor in a new
+diamond. Induction preserves the seed, including possible `f(0)!=f(1)`.
+
+The reviews checked the horizon of inherited diamonds, arbitrary positive real
+parameters, empty and full old precursors, equal births, newborn marks, deletion
+to the empty parent and `n=1` (where `u=1` and `epsilon_1=1/4`). Whole-parent
+unmarked order is permitted input; stronger structural locality is not proved.
+The result still assumes scalar-passive maps, fair binary marks, independent
+record cubes, strict positivity and all ideals eligible. It does not select
+these premises from DET or supply nonpassive quantum information, an infinite
+history measure, a typical geometry, source response or gravity.
+
+Root copied the exact handed-off checker outside the checkout and ran Python
+3.11.6 with `-I -S -B`, then `-O`. Both exit zero with identical 2074-byte stdout,
+SHA-256 `acfe423c9f9ad64068880b425a8515f90f27544df76ee322c8b21d67470517f6`.
+The independent checker reviewer additionally ran both isolated modes on
+Python 3.14.0, with matching normal/optimized output. Those repeat runs do not
+increase the distinct fixture count.
+
+Per each of four rational fixtures, the revalidated inherited prefix has 67
+rows, 353 slots, 1199 locality and 1981 equivariance comparisons, and 436
+diamonds including 30 all-zero cases. The new layer has 40 natural parents,
+1320 raw local proper slots, 305 quotient nodes, 7616 raw edges (238 all-zero,
+1280 equal-precursor, 1536 loops), and 109 components with zero isolates or
+conflicts. The deletion potential independently passes 640 marked rows, 5712
+labeled slots, 5072 proper occurrences, 31360 locality and 137088 equivariance
+comparisons, plus 7616 full complex-payload comparisons. Synthetic controls
+exercise isolated nodes, consistent loops/parallel paths and inconsistent
+triangle/self-loop/parallel relations, including reverse traversal. The checker
+corroborates size four only; the written proof establishes the all-size result.
+
+Handed-off note SHA-256:
+`57f56fa57d2ec34cde16a04bb626faa75d7a61a36955444f56612ba8b98dfa02`.
+Only two administrative phrases change to record coordinator acceptance;
+reversing them must recover the handed-off bytes. Unchanged checker SHA-256:
+`9267d147717d9aa0f4883c7dfbccd9660e72511df67fe9b73fdfb67f2617cf72`.
+Final acceptance-note SHA-256:
+`65c779a8e189adf9a6d5033310b9d1d7521b5051bd371a5112ef3273f3273675`.
+Its standalone standard-library execution imports no project source. Four
+prerequisite references are already published; the fifth is the accepted
+checker included in this checkpoint. RI-38's source reservation is released.
+
+**RI-39 continuation after predecessor review**
+
+The next-science review identified a direct height-growth screen for the
+specific greater-than-half complement selection. QR was idle at its reviewed
+handoff and has now received a concrete RI-39 assignment: construct the
+canonical history measure and prove or correct the quantitative height bound,
+while separating finite covariance from infinite covariant-event measurability.
+The full assignment and new file reservation are in the implementation plan.
+No larger simulation or new physical claim is needed to investigate this
+possible obstruction to a declared sublinear-height target. Other admissible
+law choices remain open. Root will review the successor before accepting it.
+
+Publication is limited to RI-38's two reviewed sources and the three coordinator
+records. All older accepted artifacts, the original independent review, the
+source-bound QR handoff, RET pause and protected premises are preserved. The
+next measurement packet remains applicable C02 calibration uncertainty and a
+frozen processing/CW policy; no waveform inference is added in this proof review.
+
+QR dispatch is confirmed active on RI-39; the source-quiet RI-38 handoff has
+not left the native programme waiting for another user instruction.
+
+A separate publication audit matched all new counts, claims, source pins and
+the RI-39 assignment. Its reference-status wording correction is incorporated:
+the new checker is included here, while the four prerequisite references were
+already published. All 102 local links and five note targets resolve in the
+candidate; 2,029 other entry file versions remain unchanged.

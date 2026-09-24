@@ -10,9 +10,10 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-38 extension criterion | **QR active; unreviewed source is not publishable.** | Wait for source-stable proof/check handoff, then independently adjudicate the structural criterion and any claimed all-size implication. |
+| RI-39 history and height | **Assigned; new source is reserved and excluded from publication.** | Review the source-stable measure and height-screen result before accepting or publishing it. |
+| RI-38 extension criterion | **Independently accepted; scoped publication pending.** Conditional all-size proof and exact finite corroboration passed complete reviews and root replay. | Publish only the two accepted sources and three coordinator records; preserve RI-39's active source separately. |
 | RI-37 GWOSC input qualification | **Independently accepted and published in verified `8071ee3`.** Exact pair acquired, source/evidence reviews and isolated replay passed. | Preserve the four-file qualification bundle. Qualify C02 uncertainty next; no binary data or calibration-dependent fit is part of this checkpoint. |
-| RI-36 native extension | **Independently accepted and published in verified `7335760`.** Two source-stable files prove/corroborate a strictly positive four-birth extension, retaining record feedback. | Preserve RI-34/36 sources. RI-38 is active on the general extension criterion; review its full handoff before publication. |
+| RI-36 native extension | **Independently accepted and published in verified `7335760`.** Two source-stable files prove/corroborate a strictly positive four-birth extension, retaining record feedback. | Preserve RI-34/36 sources. RI-38's general extension result is now independently accepted. |
 | RI-35 exact timing consumer | **Independently accepted and published in verified `e2e5fcd`.** Four standalone files, 43 tests per mode, seven identical exports and a separate 128-case exact projection audit. | Preserve the [bundle](../experiments/exact_timing_v1/IMPLEMENTATION.md) and source identities. Reservations are released; public-data qualification is separate, with no RET/core dependency. |
 | RI-29 RET readiness handoff | **Accepted and published in independently verified `dcf6b67`.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Preserve the published audit and its source boundaries. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
 | RI-30 comparator target precision | **Accepted and published in independently verified `c7f20c6`.** Four isolated files passed proof/API reviews, 48 root tests per mode and a separate 400-case projection audit. | Preserve the four-file [contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its reviewed identities. No RET dependency; no measured benefit or automatic successor. |
@@ -733,3 +734,29 @@ unrelated entry versions and both held RI-36 identities passed. Normal push
 and independent remote lookup succeeded, leaving an empty index. Final
 publication metadata changes only three coordinator records; RI-38 remains
 active and excluded until its separate adjudication.
+
+**RI-38 all-size extension publication candidate; RI-39 continuation**
+
+Root and two independent coordinator reviewers accepted the complete analytic
+proof; complete checker review and isolated normal/optimized replay also pass.
+The local maximal-deletion potential proves inherited ratio-cycle consistency,
+and a fixed recursive scale constructs all-size conditional kernels. The four
+exact fixtures corroborate only the size-four layer. Strict positivity,
+fair binary records, scalar passivity and the free full-ideal complement are
+load-bearing premises, not physical conclusions.
+
+Publish only `CRITERION.md` and `check.py` under
+`docs/track_b/native_joint_growth_extension_criterion_v1/`, plus this backlog,
+the implementation plan and progress record. The note differs from its reviewed
+handoff only in two administrative acceptance phrases; checker bytes are fixed.
+Four prerequisite references are already published; the fifth is the accepted
+checker included in this checkpoint. Runtime is standard-library only. No
+historical result or unrelated baseline is part of this checkpoint.
+
+After that independent acceptance, QR received RI-39's precise history-measure
+and chosen-law height-screen assignment. Its new reserved files remain excluded
+until a separate source-stable handoff is reviewed. The normalization's possible
+linear-height regime is a reason to test the selected law before simulation,
+not grounds to reverse the accepted existence theorem or claim a universal
+geometry obstruction. The measurement lane retains its calibration/processing
+prerequisites and L1 CW flag; the explicit RET pause remains in force.

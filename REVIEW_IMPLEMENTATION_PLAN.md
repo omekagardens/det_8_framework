@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; QR actively investigates RI-38's general extension criterion. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted; QR is active on RI-39's history-measure construction and chosen-law height screen. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -50,7 +50,7 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-36 is independently accepted and its two-file reservation is released. RI-38 now reserves only new `docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md` and optional `check.py` there. Preserve all accepted sources, including RI-34/36; root owns git/index and final adjudication. |
+| QR task | RI-38 is independently accepted and its two-file reservation is released. RI-39 now reserves only new `docs/track_b/native_growth_history_height_v1/HISTORY_HEIGHT.md` and optional standalone `check.py` there. Preserve all accepted sources, including RI-34/36/38; root owns git/index and final adjudication. |
 | Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted, published and source-quiet; reservations are released. Root reserves only these three coordinator records; RI-37's four-file `docs/experiments/gwosc_input_qualification_v1/` bundle is accepted, published and source-quiet. The two preselected public V2 files are acquired outside the repository; hashes, schema, sample validity and every flag are inspected. No fitting or RET work. RI-33 CONTRACT.md stays fixed. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
@@ -96,6 +96,10 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 
 | ID | Review finding / deliverable | Owner | State and completion criterion |
 |---|---|---|---|
+| RI-39 | Canonical history measure and chosen-law height screen | QR; coordinator review | **Assigned after RI-38 acceptance.** Construct the labeled cylinder measure, distinguish finite covariance from covariant event measurability, and prove or correct the linear-height consequence of the selected full-ideal complement. No claim about all admissible laws or physical gravity. |
+| RI-38 | General positive extension and ratio cycles | QR; coordinator review | **Independently accepted; scoped publication pending.** [Conditional all-size theorem](docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md) supplies a local maximal-deletion potential and a fixed inductive selection. Root and independent reviews pass; isolated normal/optimized finite corroboration agrees. |
+| RI-37 | Actual public-input qualification | Coordinator | **Published in verified `8071ee3`.** Exact V2/C02 pair, complete flags and reproduction pins are retained. Applicable calibration uncertainty and a frozen processing/CW policy remain next; no fit is accepted. |
+| RI-36 | Strictly positive four-birth extension | QR; coordinator review | **Published in verified `7335760`.** Preserved as the finite predecessor of RI-38; its original claim boundary remains unchanged. |
 | RI-29 | RET readiness and publication handoff | Coordinator; RET owner consulted | **Static audit accepted and published in verified `dcf6b67`.** [Current evidence and bounded next increments](docs/coordination/RET_REENTRY_AUDIT.md) distinguish the unintegrated reader, predictive-family bridge, and comparator source-preview prerequisites. No RET implementation or G2 execution is assigned; the owner confirms the user pause. |
 | RI-30 | Comparator target precision under model changes | QR implementation; coordinator acceptance | **Independently accepted and published in verified `c7f20c6`.** [Four-file contract](docs/experiments/comparator_target_contract_v1/CONTRACT.md) gives exact compatible offset intervals, minimax error and model/record-role handling. Root passed 48 tests per mode and 400 independent projection comparisons. Source reservation released; no RET edits or automatic successor. |
 | RI-31 | Native geometry, gravity and measurement programme | Coordinator plan; QR read-only scope review | **Plan independently accepted and published in verified `40b0329`.** [Staged work packets](docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md) prioritize one native joint-law dossier, an observation-channel contract and public-data qualification. Simulations/public data first; no new implementation reservation or RET resumption. |
@@ -1347,3 +1351,69 @@ confirmed the full commit, leaving an empty index. RI-38's active new source
 was excluded. Only three coordinator records receive final publication
 metadata. Both native proof work and the measurement programme remain active;
 calibration qualification is the next coordinator step.
+
+**RI-38 accepted — conditional all-size kernels**
+
+Root and two independent coordinator reviewers read the complete final proof;
+the checker also received complete source review and independent replay. Every
+admissible strictly positive prefix in the stated scalar-passive, fair-binary
+model extends to the next size. The maximal-deletion formula reads only
+permitted precursor marks; a common terminal weight proves all new ratios.
+This establishes cycle consistency analytically, including loops, parallel
+relations, equal precursors and all-zero records. Fixed layer constants and
+free positive full-ideal complements permit induction without changing the
+seed. Arbitrary positive real parameters are covered by the proof.
+
+Root's isolated Python 3.11.6 normal/optimized replay agrees byte for byte.
+Each of four rational fixtures covers 40 size-four parents, 305 quotient
+nodes, 7616 raw edges, 640 new marked rows and 5712 labeled ideal slots.
+The finite corroboration includes locality, equivariance, full complex payloads
+and synthetic conflict controls; it is not the proof of arbitrary-size validity.
+The accepted result supplies a conditional family, not DET selection, informative
+quantum coupling, geometry or gravity. Source identities and exact counts are
+in the progress record. Publish only the two sources and three coordinator
+records; older accepted work and active successor files stay fixed/excluded.
+
+**RI-39 — history measure and a geometry-regime screen, assigned**
+
+Independent review identifies a concrete consequence worth resolving before
+larger simulations: RI-38's explicit epsilon/complement choice gives every
+newly constructed row full-precursor probability greater than one half. Each
+such birth increases longest-chain height by one. This is a feature of that
+chosen normalization, not a necessity proved for every admitted extension.
+
+QR now reserves only `docs/track_b/native_growth_history_height_v1/HISTORY_HEIGHT.md`
+and an optional useful standalone `check.py` there. With a fixed admissible
+finite seed and the explicit recursive selection, define canonical naturally
+labeled marked histories and cylinder probabilities from products of `q/2`.
+Prove normalization, prefix consistency and existence of the classical history
+measure, stating the measure-extension hypotheses. Explain finite natural-label
+covariance and correct labeled multiplicities: one construction weight is not
+an unlabeled terminal probability. Define a modest measurable covariant event
+algebra, for example through marked stem events, without claiming completeness
+for every covariant event.
+
+Then prove or correct the proposed height screen without assuming independent
+births. Sum both fair-mark branches to obtain the full-precursor probability.
+For `m` births after a seed cutoff `n0`, the suggested conditional lower-tail
+bound is `exp(-2 delta^2 m)` for
+`H_(n0+m) <= H_n0 + (1/2-delta)m`, with `0<delta<1/2`.
+Derive the corresponding almost-sure `liminf H_N/N >= 1/2`, retaining the
+finite-seed offset. Strict probability greater than one half does not by
+itself prove a strictly larger limiting fraction or existence of that limit.
+
+If valid, reject this specific selection for a declared target requiring
+`H_N/N -> 0`; do not call it a universal no-go for other normalizations or
+all geometries. A particular Lorentzian comparison requires its actual
+sampling, region and density assumptions. Height is intrinsic to each finite
+parent, but an asymptotic birth-prefix density is not automatically invariant
+under arbitrary infinite natural re-enumerations. Keep the finite-size regime
+screen and the covariant event algebra distinct. Neither width, proper time,
+posts nor physical gravity follows from the proposed bound.
+
+Conclude with the smallest next law-selection question and its remaining
+positivity/covariance obligations. Merely lowering full-ideal probabilities
+is not an accepted repair. Obtain independent internal reviews and return a
+source-stable handoff for root adjudication. Root continues the programme after
+that boundary. The parallel measurement next step remains applicable C02
+uncertainty qualification and frozen processing/CW treatment; RET stays paused.
