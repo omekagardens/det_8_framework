@@ -10,7 +10,9 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-39 history and height | **Assigned; new source is reserved and excluded from publication.** | Review the source-stable measure and height-screen result before accepting or publishing it. |
+| RI-41 normalization and height | **Active; new sources excluded from publication.** | Independently review its source-stable exact decision and any certificate. |
+| RI-40 calibration inputs | **Active; three-file bundle excluded pending complete review.** | Finish inspector/report adjudication; archive bodies stay outside the repository. |
+| RI-39 history and height | **Independently accepted; scoped publication pending.** | Publish only the one reviewed analytic note and three coordinator records; preserve RI-40/41 active sources. |
 | RI-38 extension criterion | **Independently accepted and published in verified `9ee565e`.** Conditional all-size proof and exact finite corroboration passed complete reviews and root replay. | Preserve the published two-source bundle and its evidence; review RI-39 separately. |
 | RI-37 GWOSC input qualification | **Independently accepted and published in verified `8071ee3`.** Exact pair acquired, source/evidence reviews and isolated replay passed. | Preserve the four-file qualification bundle. Qualify C02 uncertainty next; no binary data or calibration-dependent fit is part of this checkpoint. |
 | RI-36 native extension | **Independently accepted and published in verified `7335760`.** Two source-stable files prove/corroborate a strictly positive four-birth extension, retaining record feedback. | Preserve RI-34/36 sources. RI-38's general extension result is now independently accepted. |
@@ -769,3 +771,18 @@ targets and 2,029 preserved other entry versions passed. Normal push and
 independent remote lookup agreed, leaving an empty index. RI-39 is active
 and excluded. Final publication metadata changes only the three coordinator
 records, preserving the accepted theorem/checker and all historical evidence.
+
+**RI-39 analytic checkpoint and RI-41 continuation**
+
+Publish only `docs/track_b/native_growth_history_height_v1/HISTORY_HEIGHT.md`
+and the three coordinator records. Root and an independent coordinator reviewer
+read the complete proof and independently checked its primary measure theorem.
+The cylinder measure and conditional height screen are accepted; no numerical
+execution was needed. One administrative opening phrase is the only change
+from the handed-off note. The sole local prerequisite is published RI-38.
+
+RI-41 is assigned the fixed-prefix normalization decision after that review.
+Its new sources and RI-40's active calibration bundle are excluded. The
+selected-normalization rejection does not weaken RI-38's premises or claim
+a universal geometry obstruction. Original review, accepted identities,
+measurement prerequisites and RET pause remain fixed.

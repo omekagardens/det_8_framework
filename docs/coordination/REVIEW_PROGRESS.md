@@ -6,7 +6,9 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-39 history and height | **Assigned after RI-38 independent acceptance.** Construct the canonical labeled history measure and test the selected normalization's forced height growth. | Review the measure/covariance distinction and quantitative bound before choosing a geometry-directed law-selection step. |
+| RI-41 normalization and height | **Assigned after RI-39 acceptance.** Decide the fixed-prefix common/component-scale target using actual height-raising mass. | Review exact strict-domain witnesses and keep worst-row finite decisions separate from typical asymptotic geometry. |
+| RI-40 calibration inputs | **Coordinator active.** Public C02 archive acquired; nearest-time members and four tables independently inspected. Inspector/report review is pending. | Complete the bounded qualification before freezing a nominal strain-display recipe. |
+| RI-39 history and height | **Independently accepted; scoped publication pending.** Compact-cylinder measure construction and the conditional exponential height bound pass root and independent proof review. | Preserve the analytic note. RI-41 examines remaining normalization freedom; no universal geometry rejection. |
 | RI-38 general extension | **Independently accepted and published in verified `9ee565e`.** The analytic maximal-deletion potential proves every inherited ratio cycle consistent and supplies an all-size conditional family. Root isolated normal/optimized replay and independent reviews pass. | Preserve the accepted proof/checker. RI-39 examines history measures and the selected family's geometric regime; no native-gravity inference. |
 | RI-37 public-input qualification | **Independently accepted and published in verified `8071ee3`.** Actual bodies, source/evidence reviews, isolated replay and direct data reconciliation pass. Exact V2 pair, complete metadata/flags and source pins retained; L1 CW no-injection flag is clear throughout. | Preserve the accepted bundle; qualify applicable C02 uncertainty artifacts before calibration-dependent inference. |
 | RI-36 native extension | **Independently accepted and published in verified `7335760`.** Every strictly positive RI-34 prefix extends through four births, preserving possible record feedback. Complete analytic reviews and root isolated normal/optimized replay passed. | Preserve the accepted proof/checker. Its general extension successor RI-38 is now independently accepted. |
@@ -4471,3 +4473,49 @@ commit, leaving an empty index. QR is confirmed active on the assigned RI-39
 history-and-height theorem; its unfinished sources are excluded. This final
 three-record metadata update changes no science source or evidence count.
 Calibration qualification remains the next measurement step; RET stays paused.
+
+**RI-39 independent acceptance and RI-41 continuation**
+
+Root and one separate coordinator proof reviewer read the complete final
+421-line note. Both independently opened Scott Sheffield's MIT lecture and
+checked slides 12–14: countable additivity on the algebra and finite total
+mass meet the unique measure-extension hypothesis. The compact-cylinder
+argument supplies that premise correctly. Finite refinement retains every
+labeled transition, and the complete scalar payload extends entrywise/in norm.
+Stem measurability and invariance are proved without a complete quotient claim.
+
+The conditional exponential-moment proof correctly sums both fair-bit
+branches, needs no independent births and retains seed offsets. Its finite
+tail bound and summable-tail argument prove the claimed almost-sure lower
+height density. Root separately checked the square-position re-enumeration
+example: the same chain-plus-isolates order can have density zero or one
+under different natural exhaustions. It illustrates why the rejection is
+scoped to the stated birth-prefix target, not all infinite covariant events.
+
+No proof blocker remains. No checker, simulation or project execution was
+needed; text/source checks are not counted as probability tests. The result
+rejects RI-38's specific normalization for sublinear-height target (18), while
+preserving its conditional existence theorem and possible record feedback.
+No full DET derivation, quantum-to-order information, geometric correspondence
+or gravity result is claimed.
+
+Handed-off source SHA-256:
+`8b0e227b4b2bc187fdd9d57a4ba74099581dec6b52120d6cd0a98607212a7589`.
+Only the opening coordinator-adjudication phrase changes from pending to
+accepted; reversing it recovers those exact bytes. Published-candidate SHA-256:
+`8834cd8f14b753d46b5edeb0b94c07cf8167a8ed2d479f734d50ea812b46d07c`.
+RI-38's two accepted identities remain fixed. The new note has one local
+dependency, the published RI-38 theorem, and one verified external source.
+
+After this adjudication, root assigned RI-41's common/component normalization
+tradeoff and the fixed `interior_a` size-four target. It uses actual height-
+raising mass, including nonfull precursors containing a longest chain. Exact
+strict-domain certificates are required; a worst-row finite obstruction cannot
+be promoted to a typical-regime or all-law rejection. New source reservations
+are in the plan. QR is not left awaiting repeated user permission.
+
+RI-40's public archive, documentation and four selected tables have been
+acquired/inspected outside the repository. Its guide is independently reviewed;
+the inspector/report are receiving separate review. Those active files stay
+out of this four-path RI-39 checkpoint. No RET work, strain processing or
+protected-validation change is included.
