@@ -3330,3 +3330,55 @@ DESIGN.md and numerical thresholds stay fixed. No observations, sampler,
 calibration acceptance or RET implementation is involved. Native asymptotics,
 balanced geometry, gravity/source/observer maps and physical measurement
 qualification remain open; this programme is not complete.
+
+
+**RI-73 prospective coefficient capture independently reviewed; no actual run**
+
+Root prepared an external one-shot interval observer for the previously
+approved custody interface. It accepts exactly eight immutable triples
+(row,short_intervals,long_intervals), retaining all 109840 coefficient
+intervals and 219680 exact endpoints. It streams canonical sorted-key ASCII
+JSON with the fixed hexadecimal Fraction encoding, exclusively creates a new
+external file and enforces a predeclared 256 MiB snapshot ceiling. Failure
+preserves partial evidence and refuses an accepted receipt. Failure counters
+describe serialization progress, not a claimed on-disk partial-file identity.
+The complete implementation remains external in
+`/var/folders/47/s7fm88bn5ql2tw7j103kbyzr0000gn/T/det-ri73-root-7hxv1rxf/interval_capture.py`:
+5087 bytes, SHA-256
+`da149257eb369b6648192b56b205caa0327e2a2d08a92198a0ad29c174b28d06`.
+
+Root's 38 fabricated-data checks pass in the qualified Python normally and
+with -O, reproducing identical 1320-byte output SHA-256
+`8e8ceebb235e0ab3cc3c0089d1f5f9b12ef9d6e3320986884bde11652098fae6`.
+An independent full source review, copied replay and 36 additional controls
+pass in both modes; the latter output is 1971 bytes, SHA-256
+`d0d8b9268db334fb01160c0ab375e9ce3bcdc646ccf2bf805140c521efc17da3`.
+That auditor independently reconstructed canonical JSON and all 219680 exact
+endpoint values in a distinctive fabricated full-shape snapshot, and injected
+short writes, partial-write exceptions and flush failures. No test obtained
+an accepted receipt after a failed write or retried a used observer. Evidence
+is external in `det-ri73-capture-review-m2ih_wbb` under the same temporary root.
+This qualifies the prospective capture helper, not admitted coefficients.
+
+Root separately bound 14 already-published source, recipe and receipt files
+from RI-71's anchors and RI-60's transitive closure without executing helpers.
+This preliminary inventory is not the final execution freeze: the new checker,
+any additionally read dependency, trusted caller/observer, runtime, immutable
+rows and authorized external destinations must all be bound before execution.
+Capture must occur only after sixteen-adjoint/eight-summary reconciliation,
+within the same 1800-second/sampled-2-GiB execution envelope; source/row
+identities must match afterward. The caller must independently reopen/hash
+the successful snapshot and bind its inventory to the scientific result.
+The independent entrywise covariance auditor is being prepared from the
+accepted mathematics using only tiny synthetic fixtures and no project-helper
+imports. Its actual snapshot ingestion still requires separate source/recipe
+review and root authorization.
+
+RI-72 remains active in the QR task. The worker reports its single restricted
+endpoint discovery and exact recovery completed, with full checker and
+independent replay still pending. That report is provisional; no result or
+successor is accepted from discovery alone. The canonical law, all published
+historical results, calibration/physical premises and RET pause are preserved.
+No actual coefficient reconstruction, observed-data access or sampling has
+occurred in this increment. RI-73's two source/result reservations and RI-72's
+three-file reservation remain active; git/index operations remain central.
