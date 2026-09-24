@@ -8350,3 +8350,17 @@ All paths above are under `/Volumes/AI_DATA/development/det-review-evidence/`.
 The independent review checklist remains prospective; no saved successful
 numerical report exists to audit. RI-80's active sources and RI-82's active
 note remain excluded from the current RI-81 checkpoint.
+
+**RI-81 remote checkpoint verified**
+
+Commit `42558631e9f316f495bc5f88779ecfc75a38f141`, tree
+`a70fca6f4ce32a66cf6d8cf326ad29732fc1c116`, publishes exactly the accepted
+RI-81 note and the three coordinator records. The four-file staged checkpoint
+passed source/evidence and published-reference checks, 141 local links and
+whitespace checks; 2143 other entry-file identities were preserved. Push to
+`origin/ret` succeeded, and a separate `git ls-remote origin refs/heads/ret`
+returned the exact commit. The RI-79 result was already published and verified
+in `b647f6f`. RI-82's active constructive design and RI-80's ongoing allocation
+repair are excluded. Both failed measurement attempts remain preserved; no
+qualification pass, observed spectrum, release or physical claim is implied.
+The native and measurement lanes remain active; RET remains paused.

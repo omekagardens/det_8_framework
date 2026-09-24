@@ -18,7 +18,7 @@ are published in independently verified `d43d144`.
 RI-79 independently rejects the delayed-cutoff repair for its complete prior class,
 published in remotely verified `b647f6f`.
 RI-81 independently establishes the structural locality criterion and harmonic-tilt
-construction. RI-82 now targets a concrete positive first departure with a
+construction, published in remotely verified `4255863`. RI-82 now targets a concrete positive first departure with a
 finite expected-width gain.
 Both RI-73 actual modes pass all 92 gates, with identical report/snapshot
 bytes; both independent entrywise audits also pass and match each other.
@@ -94,7 +94,7 @@ Active file reservations, updated 24 September UTC:
 | RI-76 approximation asymptotics | Published in independently verified `ad44848`; reservation released. Defect decay and positive-probability height obstruction are inseparable conclusions. |
 | RI-77 random-cutoff locality | Published in independently verified `d43d144` after proof/source review and fresh normal/optimized replay; three-file reservation released. Fixed two-core locality witness domain, no new global parent-six table. |
 | RI-79 delayed-cutoff locality | Published in independently verified `b647f6f` after complete proof/source review, exact saved arithmetic and fresh copied normal/optimized replay. Reservation released; no new probability inventory or numerical global scale. |
-| RI-81 structural mixture locality | Independently accepted after complete root and separate proof reviews and evidence reconciliation; one-note reservation released. Conditional prior-robust criterion and positive harmonic subclass, with nonconstant existence and geometry still open. |
+| RI-81 structural mixture locality | Published in independently verified `4255863` after complete root and separate proof reviews and evidence reconciliation; one-note reservation released. Conditional prior-robust criterion and positive harmonic subclass, with nonconstant existence and geometry still open. |
 | RI-82 constructive first departure | QR reserves only `docs/track_b/native_growth_first_departure_v1/DESIGN.md`. Freeze one proper-child support, complete deletion closure/all record rows, symbolic scale cancellation and finite width-gain target before coefficient execution. Root owns git. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
 | RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` published in verified `ad44848`. Reservation released; preserve the fixed unit-white scope. |
@@ -5108,3 +5108,17 @@ allocation/lifetime repair. Every fixture, refusal, numerical gate and the
 source-identified duplicate allocations are repair candidates, not a fabricated
 execution diagnosis. New source review and a new freeze precede another run.
 No QUALIFICATION.json or observed spectrum is claimed. RET remains paused.
+
+**RI-81 remote checkpoint verified**
+
+Commit `42558631e9f316f495bc5f88779ecfc75a38f141`, tree
+`a70fca6f4ce32a66cf6d8cf326ad29732fc1c116`, publishes exactly the accepted
+RI-81 note and the three coordinator records. The four-file staged checkpoint
+passed source/evidence and published-reference checks, 141 local links and
+whitespace checks; 2143 other entry-file identities were preserved. Push to
+`origin/ret` succeeded, and a separate `git ls-remote origin refs/heads/ret`
+returned the exact commit. The RI-79 result was already published and verified
+in `b647f6f`. RI-82's active constructive design and RI-80's ongoing allocation
+repair are excluded. Both failed measurement attempts remain preserved; no
+qualification pass, observed spectrum, release or physical claim is implied.
+The native and measurement lanes remain active; RET remains paused.
