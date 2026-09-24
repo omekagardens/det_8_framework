@@ -50,7 +50,7 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is independently accepted; reservation released. RI-74 reserves only `PLANCHEREL_GRAFT.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_plancherel_graft_v1/`. Preserve all accepted laws and central git ownership. |
+| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is published in independently verified `f18b5d9`; reservation released. RI-74 reserves only `PLANCHEREL_GRAFT.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_plancherel_graft_v1/`. Preserve all accepted laws and central git ownership. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -60,7 +60,7 @@ Active file reservations, updated 24 September UTC:
 | RI-64 observed-context consumer | Seven-file packet published in independently verified `d44d1af`; reservation released. |
 | RI-67 conditional noise design | One-file design published in independently verified `bee0131`; reservation released. |
 | RI-70 native height tradeoff | Published in independently verified `ebfd0ec`; reservation released. |
-| RI-72 critical-suppression height | Independently accepted; three-file reservation released to root publication. |
+| RI-72 critical-suppression height | Published in independently verified `f18b5d9`; reservation released. |
 | RI-74 Plancherel boundary graft | Only `PLANCHEREL_GRAFT.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_plancherel_graft_v1/`; QR author, root git. Zero-allowed compatibility question; no adopted strict law. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
 | RI-73 operator covariance implementation | Only `check.py`, `RESULT.json` in `docs/experiments/gwosc_noise_operator_covariance_v1/`; source review/freeze before actual coefficients. |
@@ -114,9 +114,9 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 
 | ID | Review finding / deliverable | Owner | State and completion criterion |
 |---|---|---|---|
-| RI-73 | Admitted-operator covariance implementation | Coordinator | **Assigned; two new paths reserved.** Source and fixtures before separately frozen coefficient reconstruction. |
+| RI-73 | Admitted-operator covariance implementation | Coordinator | **Source and fixtures accepted; actual result pending.** Caller/adapter review and complete freeze precede actual coefficients; two paths root-reserved. |
 | RI-74 | Intrinsic Plancherel boundary and fixed-prefix graft | QR; coordinator review | **Assigned; three new paths reserved.** Prove or reject quotient normalization, all-case covariance and intrinsic graft; strict approximation remains separate. |
-| RI-72 | Critical-suppression height minimum | QR; coordinator review | **Independently accepted.** Exact restricted endpoint and conditional all-size critical suppression; no adopted selector or asymptotic geometry theorem. |
+| RI-72 | Critical-suppression height minimum | QR; coordinator review | **Published in independently verified `f18b5d9`.** Exact restricted endpoint and conditional all-size critical suppression; no adopted selector or asymptotic geometry theorem. |
 | RI-71 | Admitted-operator synthetic covariance design | Coordinator | **Published in independently verified `ebfd0ec`.** Proof/design only; RI-73 implements unchanged gates. |
 | RI-68 | Synthetic noise qualification | Coordinator | **Published in independently verified `4280198`.**54/54gates and complete independent131328-record replay; no observed or actual-A calculation. |
 | RI-67 | Conditional context-noise design | Coordinator | **Published in independently verified `bee0131`.** Shared-sample covariance, support theorem and frozen synthetic gates. |
@@ -4462,3 +4462,33 @@ No actual coefficients, observations or samples were processed. RESULT.json
 is absent. RI-73 remains root-reserved and excluded from this checkpoint.
 RI-74 has acknowledged its bounded assignment and is actively proving the
 all-case boundary-law/graft question; no duplicate task is assigned.
+
+
+**RI-72 published; native proof and measurement preparation remain active**
+
+Commit `f18b5d9013fd9a6552181e4a6387b54c2506e23b`, tree
+`c5fa4b1480d5ec31aca81f20154ccd3ab2cad06c`, publishes exactly the three
+accepted RI-72 files and three coordinator records. Normal push succeeded;
+a separate origin/ret lookup matched the complete commit and the index was
+empty. Staged and post-publication checks held 2124 other entry versions,
+verified 14 published dependencies and checked 134 local links. Active
+RI-73/74 paths, unrelated edits and historical sources were excluded.
+Final CRITICAL_HEIGHT.md is 20082 bytes, SHA-256
+`81648554e0682d50a5dc83c7b731d0789b709587f3e0c439b859c860c3f0341c`;
+check.py remains 27648 bytes, SHA-256
+`4b26bbd7e56c87aff939cf562ac5b11febe0a5402e7b3f5dd3734a4e2df96ef4`;
+certificate publication identity and complete byte-equivalent replay are
+recorded above. QR was informed of the one-byte formatting correction.
+
+RI-74 is active in the existing QR task, with proof review and bounded finite
+checks; no successor is duplicated. RI-73's independent report adapter is
+active. Its author now has an external-only assignment to prepare the trusted
+actual-run caller/recipe and fabricated caller tests for independent review.
+Actual coefficient execution is not yet authorized: source/fixture evidence
+is accepted, while caller/adapter review and complete execution freeze remain
+to do. Root will adjudicate those preparations, run separately frozen normal
+and optimized executions, and compare their snapshots and all derived result
+fields using the independent auditor. Fixed failed gates must remain failures.
+No observed-data read or sampler is assigned. Source/result reservations,
+calibration/physical prerequisites and the RET pause remain in force. This
+checkpoint does not complete the native geometry/gravity/measurement programme.

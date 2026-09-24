@@ -3515,3 +3515,33 @@ No actual coefficients, observations or samples were processed. RESULT.json
 is absent. RI-73 remains root-reserved and excluded from this checkpoint.
 RI-74 has acknowledged its bounded assignment and is actively proving the
 all-case boundary-law/graft question; no duplicate task is assigned.
+
+
+**RI-72 published; native proof and measurement preparation remain active**
+
+Commit `f18b5d9013fd9a6552181e4a6387b54c2506e23b`, tree
+`c5fa4b1480d5ec31aca81f20154ccd3ab2cad06c`, publishes exactly the three
+accepted RI-72 files and three coordinator records. Normal push succeeded;
+a separate origin/ret lookup matched the complete commit and the index was
+empty. Staged and post-publication checks held 2124 other entry versions,
+verified 14 published dependencies and checked 134 local links. Active
+RI-73/74 paths, unrelated edits and historical sources were excluded.
+Final CRITICAL_HEIGHT.md is 20082 bytes, SHA-256
+`81648554e0682d50a5dc83c7b731d0789b709587f3e0c439b859c860c3f0341c`;
+check.py remains 27648 bytes, SHA-256
+`4b26bbd7e56c87aff939cf562ac5b11febe0a5402e7b3f5dd3734a4e2df96ef4`;
+certificate publication identity and complete byte-equivalent replay are
+recorded above. QR was informed of the one-byte formatting correction.
+
+RI-74 is active in the existing QR task, with proof review and bounded finite
+checks; no successor is duplicated. RI-73's independent report adapter is
+active. Its author now has an external-only assignment to prepare the trusted
+actual-run caller/recipe and fabricated caller tests for independent review.
+Actual coefficient execution is not yet authorized: source/fixture evidence
+is accepted, while caller/adapter review and complete execution freeze remain
+to do. Root will adjudicate those preparations, run separately frozen normal
+and optimized executions, and compare their snapshots and all derived result
+fields using the independent auditor. Fixed failed gates must remain failures.
+No observed-data read or sampler is assigned. Source/result reservations,
+calibration/physical prerequisites and the RET pause remain in force. This
+checkpoint does not complete the native geometry/gravity/measurement programme.
