@@ -11,11 +11,13 @@ Fresh recovery evidence is retained outside the repository under
 fingerprint, 75/75 fixtures and all eleven recorded helper-source pins are
 recovered. Reviewed durable path adaptations and a fresh execution freeze
 preceded actual execution; no gate is relaxed.
-RI-74 is published in verified `314d5e8`; RI-75 strict approximation is
-independently accepted. RI-76 long-run defect and height is assigned to QR.
-RI-73's actual normal run passed all 92 producer gates and custody checks;
-optimized replay is running. Independent entrywise algebra remains pending,
-and RESULT.json remains absent. The numerical result is not yet accepted.
+RI-74 and RI-75 are published in verified `314d5e8` and `3a30ab0`.
+RI-76's defect limit and height obstruction are independently accepted;
+RI-77's random-cutoff mixture locality decision is assigned to QR.
+Both RI-73 actual modes pass all 92 gates, with identical report/snapshot
+bytes; both independent entrywise audits also pass and match each other.
+The exact RESULT.json is prepared for scoped publication. RI-78 will freeze
+real-data spectral characterization after identical input recovery.
 The native programme continues, and RET remains paused.
 
 
@@ -29,10 +31,11 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-76 approximation asymptotics | **Assigned; one new note reserved.** | Prove long-run defect decay and positive-probability height obstruction together. |
-| RI-75 strict approximation | **Independently accepted; source-stable for publication.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 examines the distinct long-run question. |
+| RI-77 random-cutoff locality | **Assigned; three possible new paths reserved.** | Decide strict record locality of the specified latent-cutoff mixture, with a frozen two-core witness domain. |
+| RI-76 approximation asymptotics | **Independently accepted; one note source-stable.** | Publish defect decay and height obstruction together; review RI-77 next. |
+| RI-75 strict approximation | **Published in independently verified `3a30ab0`.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 separately resolves long-run limits. |
 | RI-74 Plancherel boundary graft | **Published in independently verified `314d5e8`.** | Preserve the conditional zero-allowed theorem; RI-75 investigates strict approximation. |
-| RI-73 operator covariance implementation | **Reviewed source published in independently verified `6e58490`.** | Actual normal passes producer/custody checks; complete frozen optimized replay and independent entrywise audit before accepting and publishing a result. |
+| RI-73 operator covariance implementation | **Reviewed source published in independently verified `6e58490`.** | Both actual modes and independent audits pass; publish exact `RESULT.json` and preserve fixed unit-white scope. |
 | RI-72 critical-suppression height | **Published in independently verified `f18b5d9`.** | Preserve accepted exact minimum; RI-74 examines the boundary graft. |
 | RI-71 operator covariance design | **Published in independently verified `ebfd0ec`.** | Preserve the design; RI-73 implements unchanged gates. |
 | RI-68 synthetic noise qualification | **Published in independently verified `4280198`.** | Preserve the frozen result; RI-71 supplies the next integration design. |
@@ -3797,3 +3800,120 @@ yet accepted, and RESULT.json remains absent. Next preserve and compare both
 actual mode outputs, then freeze the captured input identities for that audit.
 No observed strain, random sampler, fitted detector noise, physical confidence
 or native gravity-forward-map claim is authorized by this qualification.
+
+
+**RI-75 published; RI-76 accepted; RI-77 locality decision assigned**
+
+RI-75 is published as `3a30ab073c3fc97ccfdbcbc4b525b22e80bdb433`, tree
+`f13a5071dd85720f7ac885bf0997bd027b5b23d0`. Push completed and a separate
+remote-ref lookup returned the same commit. The exact six-path staged
+checkpoint passed dependency/replay/identity and 137 local-link checks;
+all 2131 entry files outside that scope or declared active reservations
+retained their bytes. RI-76 and actual measurement outputs were excluded.
+
+Root and an independent coordinator reviewer accept RI-76's complete proof.
+For the specific fixed-epsilon RI-75 law, structural family exit is
+irreversible. The total number C of subsequent proper births satisfies
+E[C]<epsilon/14 and is finite almost surely. Deleting the finite exit prefix
+and those proper births leaves a chain; together with the no-exit bound,
+this proves an almost-sure finite random defect bound, hence delta/N tends
+to zero almost surely and in all finite Lp. No exit-time integrability is
+assumed. Nevertheless immediate exit has exact probability epsilon*c,
+0<c<1/98, with c fixed by the held prefix. On exit, all sufficiently late
+births are full, so height/N tends to one and width/N to zero. Height density
+therefore fails to converge to zero in probability. Finite antichain cylinders
+also give exact essential supremum ||delta/N||_infinity=1-1/N. These outcomes
+must be reported together: this law passes the normalized-defect test while
+failing the declared sublinear-height target. There is no certain-exit,
+positive-nonexit, uniform-rate, native-uniqueness or physical-gravity theorem.
+
+No executor, numerical asymptotic test or actual parent-six enumeration was
+needed. Root read the full final note, reopened four scope/review records
+and verified four published proof-context pins. Worker handoff:
+17418 bytes, SHA-256
+`dc4f55af509520714f0ba0e0c29c735ee8fed511538f5f8afe4edabe00c8b3d1`;
+accepted note after status/provenance-only reconciliation: 18617 bytes,
+SHA-256 `407562865b468b027dcc40581594177738d2a10fabb10fa1723385d1dfec0ccf`.
+Worker manifest: 2880 bytes, SHA-256
+`dc963fe5cbc2e3b92a42f3f61b80568bacad2dbce49cf316611cd3429a70f75a`,
+retained under `/Volumes/AI_DATA/development/det-review-evidence/ri76-qr/worker-jLxs2C/`.
+Analytical reviews and mechanical source hygiene are distinct evidence.
+
+After adjudication, root assigned RI-77 to the existing QR task. It reserves
+only `LOCALITY.md`, optional `check.py` and optional `CERTIFICATE.json` in
+`docs/track_b/native_growth_random_cutoff_locality_v1/`. Decide whether a
+latent finite-cutoff Plancherel-graft mixture preserves strict precursor-record
+locality. Fix dyadic weights w_R=2^{-(R-5)}, R>=6, and the RI-38 half-scale
+baseline only above the actual held prefix. Normalized history mixtures and
+full finite support do not automatically preserve local posterior rows.
+At Q=K6 ordinal-sum singleton, the empty-precursor row contains the posterior
+factor b/[2(1+b)], with b=1-a6*U6(K,r). The R=7 component contributes to the
+denominator but is already at its full-only bridge, hence contributes zero
+to this numerator. Since the remaining baseline empty-slot factor is positive
+and mark-independent, an exact U6 record variation would reject locality.
+
+The new witness domain is fixed to two six-cores `(0,1,0,0,15,15)` and
+`(0,1,1,0,15,15)`, all 64 markings each, plus a unique-top chain U6=1 control.
+Only held rows below six enter their deletion factors; inherited terminal-six
+catalogue verification is separate from this selected-row calculation.
+No new global parent-six table, M6 calculation, optimizer or domain expansion
+is assigned. A separately derived twin-top sum-of-squares identity supplies
+an independent arithmetic check. Source/domain/command/resource freeze must
+precede any witness calculation; copied normal/-O runs retain the 120s and
+sampled-512MiB limits and durable receipts. If neither core supplies a witness,
+report only that bounded nonfinding. This is a compatibility question, not
+adoption or an assumed geometric success; RET remains paused.
+
+
+**RI-73 actual covariance qualification and independent algebra completed**
+
+Both actual runs pass all 92 frozen gates with identical scientific report
+and interval-snapshot bytes. Normal/optimized execution took 560.710/542.043s,
+with sampled peaks 546848/605664 KiB; neither reached the unchanged
+1800s/sampled-2GiB watchdog limits. All sixteen reconstructed adjoints and
+eight inherited row summaries reconciled before capture. The input snapshot
+is 51891508 bytes, SHA-256
+`fe24ce8b35d97a9073eff8c8002ce733e4f81be3e2d9167453a640f7f2c21aba`.
+Root froze its exact identities with the report, prior method, commands and
+87-source closure before the independent arithmetic audit.
+
+The independent core and adapter, written and reviewed before the actual
+coefficients were available, pass in normal and optimized modes. Each
+reconciles 49084 containers and 85773 leaves, independently recomputing all
+integration matrices/scalars, interval-derived row summaries, array identities,
+probes and CDF bounds. Their outputs are byte-identical: 1570145 bytes,
+SHA-256 `7753bb1e5e82e043d494a3ab3e8f47444e4fe7f29c2d8e765c89a238b9814ed0`.
+Audit elapsed times are 83.551/83.665s; sampled peaks 693392/694400 KiB,
+with exit zero, empty stderr and no resource stop. The audit inherits the
+pinned fixture/refusal/runtime metadata and RI-60 proof summaries; it does
+not claim an independent rerun of the underlying enclosure engine.
+
+The actual covariance has certified rank eight and relative perturbation
+bound rho approximately 5.55196671204064e-56, below the unchanged usefulness
+threshold 1e-12. Exact rational values remain in the full result. No gate,
+precision, resource limit or noise-model assumption was relaxed. Root
+reopened the complete frozen sources, both producer receipt chains and both
+independent outputs. A separate final reviewer independently reconciled the
+receipt/source bindings, counted the complete report tree, checked canonical
+report/integration identities and the emitted exact scalar/matrix fields,
+and accepted publication. This final review did not repeat the independent
+auditors' interval dot products. `docs/experiments/gwosc_noise_operator_covariance_v1/RESULT.json`
+is the exact unchanged scientific stdout, 11180937 bytes, SHA-256
+`3a69e1f30042d3dcfed4a7fa95b59b7a8984de1e0ec4059a26f4ca25604b39fe`.
+Execution receipts and the 51-MB snapshot remain outside the repository.
+
+This qualifies the fixed conditional unit-white Gaussian operator model.
+No observed strain or random samples were processed in RI-73; the result
+supplies no fitted detector-noise law, empirical significance, calibrated
+physical inference or native gravity-forward map. The next coordinator
+step is RI-78: freeze a descriptive off-event Welch PSD/ASD design for the
+same previously selected RI-37 H1/L1 V2 public inputs, then perform the
+bounded conventional reproduction after input custody is restored. This
+is distinct from the completed nominal display, NR overlay and context
+comparison. Estimation uncertainty, stationarity, selection, compatible
+waveform/response/timing and calibration remain prerequisites for inference.
+L1's clear NO_CW_HW_INJ flag must remain visible. The two original temporary
+HDF5 files were lost; a scoped durable inventory found no copies there.
+Byte-identical recovery is proceeding without revision substitution or new
+pins. No PSD estimator, window choice, inverse-noise score or physical
+confidence calculation is adopted by this checkpoint.
