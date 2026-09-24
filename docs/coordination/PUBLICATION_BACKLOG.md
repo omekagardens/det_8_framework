@@ -12,7 +12,8 @@ with unrelated changes to make an import succeed.
 |---|---|---|
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
 | RI-44 nominal processing implementation | **Independently accepted and published in verified `2a5c6f6`.** Seven stable files include the passing 105-gate report and exact coefficient manifest. | Apply these admitted sources/coefficients to the frozen nominal public-data display. |
-| RI-45 first free completion cone | **Exact obstruction independently accepted; scoped publication pending.** Full proof/source review and root/independent normal/optimized replay agree. | Publish three stable files; RI-46 is separately assigned the occupation-controlled selector. |
+| RI-45 first free completion cone | **Exact obstruction independently accepted and published in verified `ebb7b27`.** Full proof/source review and root/independent normal/optimized replay agree. | Preserve three accepted files; RI-46 is active on the occupation-controlled selector. |
+| RI-47 nominal public V2 display | **Active; seven new paths reserved and excluded.** RI-44 admission is already published. | Independently review/replay the exact numeric consumer and verify the separate renderer before publication. |
 | RI-46 occupation-controlled selector | **Assigned; one new analytic note reserved and excluded.** | Review its private-component law and actual-history theorem before acceptance. |
 | RI-43 all-size height selection | **Bounded analytic results independently accepted and published in verified `1e2d2e4`.** One structural criterion/rejected-selector note; the general target stays open. | Preserve the published note; RI-45 is actively assigned the first free cone decision. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Three-file exact finite decision with isolated normal/optimized replay. | Preserve the published three-file bundle; RI-43 continues the native selection question. |
@@ -1020,3 +1021,35 @@ claimed sublinear, diverging height. No desired conclusion is assumed.
 Only `docs/track_b/native_growth_clone_selection_v1/SELECTION.md` is reserved.
 This successor is analytic, with no next-layer table. The nominal public-data
 display is the independent measurement next step; RET remains paused.
+
+
+**RI-45 publication verified; RI-47 nominal public-data processing opened**
+
+RI-45 commit `ebb7b27707714f38cdab6030cff43b42ae331058`, tree
+`15bd4e41f939df5cd56421b0edfa5174bfc46a48`, publishes exactly the three
+accepted native files and three coordinator records. All source/tested-candidate
+identities, 107 local links, published dependencies, seven published RI-44
+identities and 2040 other entry versions passed preflight. A normal push and
+separate origin/ret lookup returned the same full commit; the index is empty.
+RI-46 is confirmed active on its separately reserved analytic selector.
+
+RI-47 is the next coordinator measurement packet, now that RI-44's actual
+qualification and coefficients are published. Reserve only these seven new
+paths in `docs/experiments/gwosc_nominal_result_v1/`: `process.py`, `render.py`,
+`DISPLAY.md`, `RENDER_REQUIREMENTS.txt`, `CROP.json`, `PROCESSING_REPORT.json`
+and `NOMINAL.png`. The numeric consumer must verify published source/report/
+coefficient pins and the two complete public byte snapshots before parsing;
+reuse the published RI-37 schema/flag inspector on those same snapshots,
+then apply the admitted coefficients in the admitted runtime. Retain the
+fixed 4096-sample crop as exact binary64 hex values with integer sample indices,
+input/source/output identities and the full quality/injection annotation.
+
+Review and replay the consumer normally and under optimization from isolated
+copies before accepting its outputs. A separate renderer reads only the
+exported crop, uses the same nominal strain scale in both panels, the fixed
+seconds-after-GPS axis, and the visible L1 CW-injection warning. Rendering is
+distinct from numerical processing; it must not refilter, realign, renormalize,
+fit or supply uncertainty/detection/native claims. Root owns actual outputs,
+visual inspection, source acceptance and all git/index operations. External
+scratch holds data and environments; accepted inputs, recipe, numerical bundle,
+native proofs and the RET pause remain fixed.

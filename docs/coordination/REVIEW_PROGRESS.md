@@ -4941,3 +4941,35 @@ Accepted RI-45 source identities, within `docs/track_b/native_growth_neutral_com
 | `check.py` | `ee8019b9184ad5282aef8b11c896ad2372d804953584064abda87e718b86b586` |
 
 Handoff note identity was `2e2f0ed178c813df76dfbee345dc8bad8071c063b09778f3a31ae0f2ea12550d`; only the opening acceptance word changed. The independent RI-41 roots/default/overrides digest is `465c5de48c69527fc59e8df1f494fd8cea33f8aec243f59b9b2820bd5b1c07a7`.
+
+
+**RI-45 publication verified; RI-47 nominal public-data processing opened**
+
+RI-45 commit `ebb7b27707714f38cdab6030cff43b42ae331058`, tree
+`15bd4e41f939df5cd56421b0edfa5174bfc46a48`, publishes exactly the three
+accepted native files and three coordinator records. All source/tested-candidate
+identities, 107 local links, published dependencies, seven published RI-44
+identities and 2040 other entry versions passed preflight. A normal push and
+separate origin/ret lookup returned the same full commit; the index is empty.
+RI-46 is confirmed active on its separately reserved analytic selector.
+
+RI-47 is the next coordinator measurement packet, now that RI-44's actual
+qualification and coefficients are published. Reserve only these seven new
+paths in `docs/experiments/gwosc_nominal_result_v1/`: `process.py`, `render.py`,
+`DISPLAY.md`, `RENDER_REQUIREMENTS.txt`, `CROP.json`, `PROCESSING_REPORT.json`
+and `NOMINAL.png`. The numeric consumer must verify published source/report/
+coefficient pins and the two complete public byte snapshots before parsing;
+reuse the published RI-37 schema/flag inspector on those same snapshots,
+then apply the admitted coefficients in the admitted runtime. Retain the
+fixed 4096-sample crop as exact binary64 hex values with integer sample indices,
+input/source/output identities and the full quality/injection annotation.
+
+Review and replay the consumer normally and under optimization from isolated
+copies before accepting its outputs. A separate renderer reads only the
+exported crop, uses the same nominal strain scale in both panels, the fixed
+seconds-after-GPS axis, and the visible L1 CW-injection warning. Rendering is
+distinct from numerical processing; it must not refilter, realign, renormalize,
+fit or supply uncertainty/detection/native claims. Root owns actual outputs,
+visual inspection, source acceptance and all git/index operations. External
+scratch holds data and environments; accepted inputs, recipe, numerical bundle,
+native proofs and the RET pause remain fixed.
