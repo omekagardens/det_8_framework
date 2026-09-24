@@ -1,0 +1,415 @@
+{
+  "coefficient_manifest_sha256": "700b2c2f0e339df4a003ee7d772917cf243d8e3ffdbb90d087c9044bee42e3a0",
+  "fixture_declarations": [
+    {
+      "kind": "constant",
+      "name": "zeros",
+      "value_hex": "0x0.0p+0"
+    },
+    {
+      "kind": "constant",
+      "name": "ones",
+      "value_hex": "0x1.0000000000000p+0"
+    },
+    {
+      "index": 0,
+      "kind": "unit_impulse",
+      "name": "impulse_0"
+    },
+    {
+      "index": 1384,
+      "kind": "unit_impulse",
+      "name": "impulse_1384"
+    },
+    {
+      "index": 2768,
+      "kind": "unit_impulse",
+      "name": "impulse_2768"
+    }
+  ],
+  "fixtures": [
+    {
+      "audit": {
+        "comparison_arithmetic": "Exact Fraction difference between each binary64 output and the finite Decimal recurrence output; exact rational threshold comparison.",
+        "criterion": "1e-9*max(1,maxabs(input))",
+        "exact_zero_output_and_reference": true,
+        "exact_zero_required": true,
+        "input_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "e96553bef82c51c3eba7d38ce93449f0d9f4c63eb465801e50a496dfed2114be",
+          "shape": [
+            2769
+          ]
+        },
+        "input_peak_decimal": "0",
+        "input_peak_exact": "0",
+        "maximum_absolute_error_decimal": "0",
+        "maximum_absolute_error_exact": "0",
+        "maximum_error_index": 0,
+        "output_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "e96553bef82c51c3eba7d38ce93449f0d9f4c63eb465801e50a496dfed2114be",
+          "shape": [
+            2769
+          ]
+        },
+        "passed": true,
+        "production_at_maximum_error_hex": "0x0.0p+0",
+        "reference_at_maximum_error_decimal": "0E-1000078",
+        "reference_decimal_array_identity": {
+          "bytes": 35998,
+          "sha256": "eb2926bd1e1bb68d5fbb6f0d31dc8f14b8766bbd3732e2ca928bd9bd794d9cae"
+        },
+        "reference_identity_convention": "Canonical compact ASCII JSON list of complete Decimal output strings, without newline.",
+        "reference_precision": 80,
+        "reference_rounding": "ROUND_HALF_EVEN",
+        "sample_count_compared": 2769,
+        "scale_exact": "1",
+        "threshold_decimal": "1E-9",
+        "threshold_exact": "1/1000000000"
+      },
+      "fixture": {
+        "kind": "constant",
+        "name": "zeros",
+        "value_hex": "0x0.0p+0"
+      }
+    },
+    {
+      "audit": {
+        "comparison_arithmetic": "Exact Fraction difference between each binary64 output and the finite Decimal recurrence output; exact rational threshold comparison.",
+        "criterion": "1e-9*max(1,maxabs(input))",
+        "exact_zero_output_and_reference": false,
+        "exact_zero_required": false,
+        "input_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "af6a03e65c179cf9a05ecedc3a239747da2c2a6ba776251b72221b3310d8072a",
+          "shape": [
+            2769
+          ]
+        },
+        "input_peak_decimal": "1",
+        "input_peak_exact": "1",
+        "maximum_absolute_error_decimal": "1.6172248591534581676605652251188133556656484866864698091148966341359833305603578841215537248812632159557788270E-15",
+        "maximum_absolute_error_exact": "808612429576729083830282612559406677832824243343234904557448317067991665280178942060776862440631607977889413479459378500107393336953581106397947/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "maximum_error_index": 7,
+        "output_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "e92d6af2491f44aa5106d7cd923afc82b029499b5ecff7d18f03ab4d9dc73992",
+          "shape": [
+            2769
+          ]
+        },
+        "passed": true,
+        "production_at_maximum_error_hex": "0x1.d22221e169b9cp-50",
+        "reference_at_maximum_error_decimal": "-8.038622689874485684053724881263215955778826958918757000214786673907162212795894E-81",
+        "reference_decimal_array_identity": {
+          "bytes": 244636,
+          "sha256": "b4f3bff62c79078d8e4ac211c135cf77ebb876ce14b2615ebc0f1c1003d47b95"
+        },
+        "reference_identity_convention": "Canonical compact ASCII JSON list of complete Decimal output strings, without newline.",
+        "reference_precision": 80,
+        "reference_rounding": "ROUND_HALF_EVEN",
+        "sample_count_compared": 2769,
+        "scale_exact": "1",
+        "threshold_decimal": "1E-9",
+        "threshold_exact": "1/1000000000"
+      },
+      "fixture": {
+        "kind": "constant",
+        "name": "ones",
+        "value_hex": "0x1.0000000000000p+0"
+      }
+    },
+    {
+      "audit": {
+        "comparison_arithmetic": "Exact Fraction difference between each binary64 output and the finite Decimal recurrence output; exact rational threshold comparison.",
+        "criterion": "1e-9*max(1,maxabs(input))",
+        "exact_zero_output_and_reference": false,
+        "exact_zero_required": false,
+        "input_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "4b5c3a4e82e4c2c59610825bc86585f1ff94d0675d0eb0ba1d3bfa82622ea3b8",
+          "shape": [
+            2769
+          ]
+        },
+        "input_peak_decimal": "1",
+        "input_peak_exact": "1",
+        "maximum_absolute_error_decimal": "1.977976556178019687810740942014352921998517779171609217821084634131E-14",
+        "maximum_absolute_error_exact": "1977976556178019687810740942014352921998517779171609217821084634131/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "maximum_error_index": 15,
+        "output_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "3dcf056f3ca5dd9bdcdcc5e15d5558e60c338df1bcb368cf3c84afb3486b3986",
+          "shape": [
+            2769
+          ]
+        },
+        "passed": true,
+        "production_at_maximum_error_hex": "-0x1.e07547553a448p-3",
+        "reference_at_maximum_error_decimal": "-0.23459869126173106937845192133987599812025083200578248517779171609217821084634131",
+        "reference_decimal_array_identity": {
+          "bytes": 241114,
+          "sha256": "a81a499c1af02bdd8882dfedd5e55ba5655bb714b90c4f686e29ccb7159508b5"
+        },
+        "reference_identity_convention": "Canonical compact ASCII JSON list of complete Decimal output strings, without newline.",
+        "reference_precision": 80,
+        "reference_rounding": "ROUND_HALF_EVEN",
+        "sample_count_compared": 2769,
+        "scale_exact": "1",
+        "threshold_decimal": "1E-9",
+        "threshold_exact": "1/1000000000"
+      },
+      "fixture": {
+        "index": 0,
+        "kind": "unit_impulse",
+        "name": "impulse_0"
+      }
+    },
+    {
+      "audit": {
+        "comparison_arithmetic": "Exact Fraction difference between each binary64 output and the finite Decimal recurrence output; exact rational threshold comparison.",
+        "criterion": "1e-9*max(1,maxabs(input))",
+        "exact_zero_output_and_reference": false,
+        "exact_zero_required": false,
+        "input_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "f7e53dbd37b4a2751539bce09cb2251c14901bccf8d9e067465150ac02b25a16",
+          "shape": [
+            2769
+          ]
+        },
+        "input_peak_decimal": "1",
+        "input_peak_exact": "1",
+        "maximum_absolute_error_decimal": "5.1859939685126568792736221642601163196415553848271182050923790976702E-15",
+        "maximum_absolute_error_exact": "25929969842563284396368110821300581598207776924135591025461895488351/5000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "maximum_error_index": 1319,
+        "output_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "b45f97b4f7eff5b0f7d1485898a83dff371abdcf7cb830c5ec1df4082022bcb8",
+          "shape": [
+            2769
+          ]
+        },
+        "passed": true,
+        "production_at_maximum_error_hex": "0x1.0171325179e50p-9",
+        "reference_at_maximum_error_decimal": "0.0019641279147834005170967540102128520671815979153919071803848271182050923790976702",
+        "reference_decimal_array_identity": {
+          "bytes": 244104,
+          "sha256": "ed37521874e4f2f739b4c53c266f0a94990b388e5bcee776742fb131faffc7d7"
+        },
+        "reference_identity_convention": "Canonical compact ASCII JSON list of complete Decimal output strings, without newline.",
+        "reference_precision": 80,
+        "reference_rounding": "ROUND_HALF_EVEN",
+        "sample_count_compared": 2769,
+        "scale_exact": "1",
+        "threshold_decimal": "1E-9",
+        "threshold_exact": "1/1000000000"
+      },
+      "fixture": {
+        "index": 1384,
+        "kind": "unit_impulse",
+        "name": "impulse_1384"
+      }
+    },
+    {
+      "audit": {
+        "comparison_arithmetic": "Exact Fraction difference between each binary64 output and the finite Decimal recurrence output; exact rational threshold comparison.",
+        "criterion": "1e-9*max(1,maxabs(input))",
+        "exact_zero_output_and_reference": false,
+        "exact_zero_required": false,
+        "input_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "38345471a8200768590aa23559fd5df2ae9ed3ffffac3f80758498a56d17ad65",
+          "shape": [
+            2769
+          ]
+        },
+        "input_peak_decimal": "1",
+        "input_peak_exact": "1",
+        "maximum_absolute_error_decimal": "3.6860685767146136901874489113231611028920875734541557150038028172109E-14",
+        "maximum_absolute_error_exact": "36860685767146136901874489113231611028920875734541557150038028172109/1000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "maximum_error_index": 2684,
+        "output_array_identity": {
+          "bytes": 22152,
+          "dtype": "little-endian binary64",
+          "order": "C",
+          "sha256": "7f3944c2623371b7f99686dd877d56608d8fe4c93f80ea62837ad8634e64b9c6",
+          "shape": [
+            2769
+          ]
+        },
+        "passed": true,
+        "production_at_maximum_error_hex": "-0x1.ffb1655a25312p-5",
+        "reference_at_maximum_error_decimal": "-0.062462518647592128633469053042324094495698352765814077125734541557150038028172109",
+        "reference_decimal_array_identity": {
+          "bytes": 241165,
+          "sha256": "2b25c5e5895fadfb1a8cd5cdaf4ed6cc260f0275c6b377635ea0591098f7c8a9"
+        },
+        "reference_identity_convention": "Canonical compact ASCII JSON list of complete Decimal output strings, without newline.",
+        "reference_precision": 80,
+        "reference_rounding": "ROUND_HALF_EVEN",
+        "sample_count_compared": 2769,
+        "scale_exact": "1",
+        "threshold_decimal": "1E-9",
+        "threshold_exact": "1/1000000000"
+      },
+      "fixture": {
+        "index": 2768,
+        "kind": "unit_impulse",
+        "name": "impulse_2768"
+      }
+    }
+  ],
+  "gate_counts": {
+    "failed": 0,
+    "passed": 5,
+    "total": 5
+  },
+  "length": 2769,
+  "published_dependencies": {
+    "coefficients": {
+      "bytes": 7698,
+      "path": "gwosc_nominal_processing_v1/COEFFICIENTS.json",
+      "sha256": "700b2c2f0e339df4a003ee7d772917cf243d8e3ffdbb90d087c9044bee42e3a0"
+    },
+    "filtering": {
+      "bytes": 8805,
+      "path": "gwosc_nominal_processing_v1/filtering.py",
+      "sha256": "9a93c1f218fecfa6fdf7ee0e30e054ad0973dfb1f04ae339dfbb0e7a6f8ae1be"
+    },
+    "recipe": {
+      "bytes": 14014,
+      "path": "gwosc_nominal_display_v1/RECIPE.md",
+      "sha256": "872ab0e63ac15abb40b45dfe58d6cdfd6b0e920f1ed3d167044b17062386ad5a"
+    },
+    "reference": {
+      "bytes": 7253,
+      "path": "gwosc_nominal_processing_v1/reference.py",
+      "sha256": "c8cffaac8bf0c1647a120ecb00ba1505ef69b60f80cda653d60b2a2f7e9da305"
+    },
+    "synthetic_qualification": {
+      "bytes": 107468,
+      "path": "gwosc_nominal_processing_v1/SYNTHETIC_REPORT.json",
+      "sha256": "2522ca70a1402700e644feba25bf70abf2b5720a80031304f82225ea0e5808c3"
+    }
+  },
+  "recipe_sha256": "872ab0e63ac15abb40b45dfe58d6cdfd6b0e920f1ed3d167044b17062386ad5a",
+  "runtime": {
+    "byte_order": "little",
+    "hdf5_version": "1.12.2",
+    "machine": "arm64",
+    "numpy_configuration": {
+      "Build Dependencies": {
+        "blas": {
+          "detection method": "system",
+          "found": true,
+          "include directory": "unknown",
+          "lib directory": "unknown",
+          "name": "accelerate",
+          "openblas configuration": "unknown",
+          "pc file directory": "unknown",
+          "version": "unknown"
+        },
+        "lapack": {
+          "detection method": "system",
+          "found": true,
+          "include directory": "unknown",
+          "lib directory": "unknown",
+          "name": "accelerate",
+          "openblas configuration": "unknown",
+          "pc file directory": "unknown",
+          "version": "unknown"
+        }
+      },
+      "Compilers": {
+        "c": {
+          "commands": "cc",
+          "linker": "ld64",
+          "name": "clang",
+          "version": "15.0.0"
+        },
+        "c++": {
+          "commands": "c++",
+          "linker": "ld64",
+          "name": "clang",
+          "version": "15.0.0"
+        },
+        "cython": {
+          "commands": "cython",
+          "linker": "cython",
+          "name": "cython",
+          "version": "3.0.11"
+        }
+      },
+      "Machine Information": {
+        "build": {
+          "cpu": "aarch64",
+          "endian": "little",
+          "family": "aarch64",
+          "system": "darwin"
+        },
+        "host": {
+          "cpu": "aarch64",
+          "endian": "little",
+          "family": "aarch64",
+          "system": "darwin"
+        }
+      },
+      "Python Information": {
+        "path": "/private/var/folders/g6/rgtlsw6n123b0gt5483s5_cm0000gn/T/build-env-66yva2l8/bin/python",
+        "version": "3.11"
+      },
+      "SIMD Extensions": {
+        "baseline": [
+          "NEON",
+          "NEON_FP16",
+          "NEON_VFPV4",
+          "ASIMD"
+        ],
+        "found": [
+          "ASIMDHP"
+        ],
+        "not found": [
+          "ASIMDFHM"
+        ]
+      }
+    },
+    "operating_system": "Darwin",
+    "os_release": "25.5.0",
+    "os_version": "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+    "python_build": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "python_implementation": "CPython",
+    "versions": {
+      "h5py": "3.12.1",
+      "numpy": "2.1.3",
+      "python": "3.11.6",
+      "scipy": "1.14.1"
+    }
+  },
+  "schema_version": "ri53-short-record-qualification-v1",
+  "scope": "Five synthetic finite-array checks only. No observed or public NR inputs, physical continuation, endpoint-error bound, fitting or waveform interpretation.",
+  "source_identity": {
+    "bytes": 13916,
+    "sha256": "e0d63265d812a02a2524c1f8f9a712465a45afec165859567859b4a5d5802823"
+  },
+  "status": "all_short_record_gates_passed"
+}
