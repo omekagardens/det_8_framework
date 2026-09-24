@@ -56,7 +56,8 @@ Active file reservations, updated 24 September UTC:
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
 | RI-57 context operator | Source-stable failed qualification packet; reservation released to root publication. No sensitivity output or actual read. |
 | RI-60 context error repair | Six accepted v2 files published in verified `32824c3`; reservation released. |
-| RI-62 observed context | Only `docs/experiments/gwosc_observed_context_v1/DESIGN.md` reserved in the coordinator lane; design only, no samples or executor. |
+| RI-62 observed context | One-file design independently accepted; reservation released, publication pending. |
+| RI-64 observed-context consumer | Seven new paths in `docs/experiments/gwosc_observed_context_v1/` reserved as listed in the latest assignment; root owns all git and actual outputs. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
 | RI-53 NR comparison | The eight-file bundle is published in verified `1993e24` and source-quiet; reservation released. |
 | RI-50 NR reference qualification | Three files in `docs/experiments/gwosc_nr_reference_v1/` are published in verified `8bccceb`; reservations released. Complete actual normal/optimized inspection and independent all-row audit passed; no overlay result. |
@@ -3349,3 +3350,64 @@ access. No observed sample body has been read for RI-62. The programme remains
 active: suppression of known obstructions is proved, the residual endogenous
 drift bound is open, and nominal finite-context measurements remain separate
 from calibrated physical claims and a native geometry/gravity forward map.
+
+
+**RI-62 prospective observed-context design independently accepted**
+
+24 September 2026 UTC. Root and a separate reviewer read the complete 313-line,
+19254-byte source-stable design, SHA-256
+`aebf575615c30d0f26cdfa69bf5921c256cc696b6545b9cf4d343c7c1d7fde22`.
+No mathematical, custody or numerical-contract blocker remains. Root verified
+all thirteen tabled file identities, eighteen local published dependencies,
+exact half-open window arithmetic and scoped link/whitespace hygiene. Current
+primary GWOSC and pinned-version SciPy documentation confirm the cited release
+and padding distinctions; the official event page confirms the retained DOI.
+No observed sample body was parsed or used for this design review. Hash-only
+published-artifact integrity checks are not scientific-data processing.
+
+The design freezes both original H1/L1 products; central [65536:68305),
+extended [61440:72401), N=2769/L=4096/T=10961; eight selected rows; and the
+unchanged first2769 values from the accepted RI-47 crop. Both original file
+identities bind before HDF5 parsing, and the current RI-60 receipt plus all
+sixteen reconstructed coefficient certificates bind before observed access.
+All flags/missingness and the explicit L1 CW warning remain intact.
+
+Complete-vector production/Decimal diagnostics use 1e-9 times each actual
+input peak without a unit floor. Separate eight-row exact-output interval
+endpoint-distance gates certify the observed production values themselves;
+Decimal agreement alone is not that proof. Known-context a*x+b*z intervals
+have width at most 1e-12 times the extended-input peak. The direct interval is
+retained even if another dependency arrangement is narrower. Actual surrounding
+samples supply z, so no envelope M is invented. The rounded 32-second baseline,
+full-array nominal differences and eight-row exact certificates remain separate.
+No processing-effect magnitude threshold, fit or physical/native claim is added.
+
+**RI-64 assigned — implement and qualify the fixed observed-context consumer**
+
+RI-62's design-only reservation releases. RI-64 now reserves exactly seven
+new paths in `docs/experiments/gwosc_observed_context_v1/`: `context.py`,
+`check.py`, `process.py`, `IMPLEMENTATION.md`, `QUALIFICATION_REPORT.json`,
+`OBSERVED_CONTEXT.json`, `PROCESSING_REPORT.json`. The accepted DESIGN.md and
+all prior sources remain fixed. The context-module author and qualifier/driver
+author have disjoint ownership; root owns the guide, outputs, adjudication and
+all git/index/commit/push operations. A separate reviewer will check both source
+lanes before execution is admitted.
+
+Implement only the accepted fixed-input contract, preserving source/custody
+ordering, signed-zero exports, exact rational differences and every maximizing
+index. Reuse the pinned engine, independent oracle, original input inspection
+and numerical runtime. Qualify the new indexing, signed interval reductions,
+endpoint-distance checks, schema/provenance and meaningful refusals using the
+fixed synthetic cases before any new observed processing. Freeze complete
+sources and deterministic gate inventory after independent source review.
+Only successful normal/optimized qualification can admit the observed snapshots;
+reconstruct and reconcile all sixteen current row certificates before reading
+them. Require complete deterministic normal/optimized reports and an independent
+export audit afterward. No new renderer or figure is assigned.
+
+RI-63 remains actively assigned in the existing QR task; no duplicate native
+work was dispatched. Its parent-five exact candidate/certificate decision is
+still pending, with declared time/memory limits and proposal-only optimization.
+This accepted design is not a computed observed-context result, calibration
+model or native forward map. RET remains paused, and the broader programme
+remains active.
