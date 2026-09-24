@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted and published in verified `9ee565e`; RI-39's history measure and chosen-normalization rejection are independently accepted and published in verified `3aca9cd`; RI-41's finite normalization decision is independently accepted and published in verified `53f92fb`; RI-43's structural criterion and rejected stress rule are independently accepted and published in verified `1e2d2e4`, with a conditional all-size selection subsequently supplied in RI-46; RI-45's fixed-layer obstruction is published in verified `ebb7b27`; RI-46's all-size occupation-controlled law is published in verified `29ba6f4`; RI-48's macroscopic-layer obstruction is independently accepted, and RI-49 tests the power-schedule tradeoff. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. RI-40's public C02 calibration-input qualification is independently accepted and published in verified `79650a6`; RI-42's nominal strain-display design is independently accepted and published in verified `95c91bf`; RI-44's numerical implementation and synthetic qualification are published in verified `2a5c6f6`; RI-47's actual nominal display is independently accepted and queued for publication. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted and published in verified `9ee565e`; RI-39's history measure and chosen-normalization rejection are independently accepted and published in verified `3aca9cd`; RI-41's finite normalization decision is independently accepted and published in verified `53f92fb`; RI-43's structural criterion and rejected stress rule are independently accepted and published in verified `1e2d2e4`, with a conditional all-size selection subsequently supplied in RI-46; RI-45's fixed-layer obstruction is published in verified `ebb7b27`; RI-46's all-size occupation-controlled law is published in verified `29ba6f4`; RI-48's macroscopic-layer obstruction is independently accepted, and RI-49 tests the power-schedule tradeoff. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. RI-40's public C02 calibration-input qualification is independently accepted and published in verified `79650a6`; RI-42's nominal strain-display design is independently accepted and published in verified `95c91bf`; RI-44's numerical implementation and synthetic qualification are published in verified `2a5c6f6`; RI-47's actual nominal display is published in verified `9b73fe5`. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -101,7 +101,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | ID | Review finding / deliverable | Owner | State and completion criterion |
 |---|---|---|---|
 | RI-49 | Power-schedule morphology tradeoff | QR; coordinator review | **Assigned after RI-48 adjudication.** One analytic family note; height, width and comparable-density limits require independent proof review. |
-| RI-47 | Nominal public V2 display | Coordinator | **Independently accepted; publication pending.** Exact actual crop/report/PNG agree across modes; complete source reviews, export audit, refusal controls and visual inspection pass. |
+| RI-47 | Nominal public V2 display | Coordinator | **Published in verified `9b73fe5`.** Exact actual crop/report/PNG agree across modes; complete source reviews, export audit, refusal controls and visual inspection pass. |
 | RI-46 | Occupation-controlled all-size growth selector | QR; coordinator review | **Published in verified `29ba6f4`.** Explicit strict conditional law with logarithmic expected height and almost-sure sublinear/diverging height. |
 | RI-48 | Common-past layer and order-density regime | QR; coordinator review | **Independently accepted; separate publication pending.** Macroscopic layers and density obstruction for the unchanged harmonic law; RI-49 is active. |
 | RI-44 | Nominal filtering numerical qualification | Coordinator | **Independently accepted and published in verified `2a5c6f6`.** Seven files, 105 gates per mode and separate exact audits; observed processing remains next. |
@@ -2078,3 +2078,50 @@ density to one. Native geometry, gravity and a calibrated observation map remain
 open. The ongoing programme continues; RET stays paused.
 
 Result guide: [RI-47 display and evidence](docs/experiments/gwosc_nominal_result_v1/DISPLAY.md).
+
+
+**RI-47 publication verified; RI-48 harmonic morphology independently accepted**
+
+RI-47 commit `9b73fe58f3089d4c85bc438584bf1de87b9647b6`, tree
+`ce419f1a58ea360e294864904bedaa04fb406ae9`, publishes exactly seven result
+files plus three coordinator records. Preflight checked 2050 unchanged other
+entry versions, 119 local links, 15 published dependencies, executed-source
+equality and both modes' actual output equality. A normal push and separate
+origin/ret lookup returned the same full commit. The index was empty.
+
+Root and two separate complete proof reviewers independently accept RI-48's
+analytic morphology decision for the unchanged RI-46 harmonic law. From a
+suitable size-m history the all-preferred run to size N has probability m/N.
+From an unsuitable history, one full birth and then preferred births has
+probability greater than (m+1/2)/N. Both produce at least N-m common-past
+top vertices. Fair marks are summed; specifying one word carries its separate
+power-of-two factor. All finite-start and integer-rounding terms are retained.
+
+These events imply liminf P(W_N/N>=theta)>=1-theta for 0<theta<1.
+Disjoint geometric blocks and conditional failure products, without independence,
+prove limsup W_N/N=1 almost surely. The current maximal-set fraction also has
+liminf zero after infinitely many full births; width itself does not reset.
+The exact comparable-pair inequality gives almost-sure liminf density zero.
+A separate fixed-N probability bound rules out convergence in probability to
+any positive deterministic density; the almost-sure subsequence alone would
+not establish that conclusion. The note does not claim density converges to
+zero or a width limit, or derive a physical manifold or gravity.
+
+The preferred-run length has tail m/(m+ell), is finite almost surely and has
+infinite mean. Ending such a run need not leave the suitable-parent class.
+These conclusions exclude only explicitly stipulated regime targets such as
+vanishing relative width or positive deterministic comparable-pair density.
+They are conditional history-law results under the birth-prefix exhaustion,
+not a universal geometry rejection. No executor, numerical check, simulation
+or earlier research suite was run for this analytic packet.
+
+The sole administrative change is opening adjudication pending to accepted.
+Handoff SHA-256 `3867f57f99e115676d0fd8134b58682ea291f98dbefb9bd680cdd3ec060797c1`
+becomes accepted `83915211ee0691dad1f138690a13eacf8e5431d7ab24ddc9342d7e427016eaec`.
+The note reservation is released for scoped publication. RI-49's separately
+reserved power-family note is now handed off for independent review; no result
+is presumed from the author's report. The next measurement packet will qualify
+the official data-informed NR reference and its comparison assumptions. Native
+geometry/gravity and calibrated measurement remain open; RET remains paused.
+
+Accepted note: [RI-48 morphology](docs/track_b/native_growth_clone_regime_v1/REGIME.md).

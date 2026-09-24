@@ -14,7 +14,7 @@ with unrelated changes to make an import succeed.
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
 | RI-44 nominal processing implementation | **Independently accepted and published in verified `2a5c6f6`.** Seven stable files include the passing 105-gate report and exact coefficient manifest. | Apply these admitted sources/coefficients to the frozen nominal public-data display. |
 | RI-45 first free completion cone | **Exact obstruction independently accepted and published in verified `ebb7b27`.** Full proof/source review and root/independent normal/optimized replay agree. | Preserve three accepted files; RI-46 is active on the occupation-controlled selector. |
-| RI-47 nominal public V2 display | **Independently accepted; scoped publication pending.** Seven reviewed files and actual matching normal/optimized outputs. | Publish exact source/export/display identities; preserve all predecessor inputs and recipe. |
+| RI-47 nominal public V2 display | **Published in verified `9b73fe5`.** Seven reviewed files and actual matching normal/optimized outputs. | Publish exact source/export/display identities; preserve all predecessor inputs and recipe. |
 | RI-46 occupation-controlled selector | **Published in verified `29ba6f4`.** Complete analytic reviews pass. | Preserve the accepted law; RI-48 adjudicates morphology and RI-49 tests the rate tradeoff. |
 | RI-48 common-past layer regime | **Independently accepted; separate publication pending.** Complete proof reviews pass. | Publish the stable note; RI-49 is active on its new reservation. |
 | RI-43 all-size height selection | **Bounded analytic results independently accepted and published in verified `1e2d2e4`.** One structural criterion/rejected-selector note; the general target stays open. | Preserve the published note; RI-45 is actively assigned the first free cone decision. |
@@ -1146,3 +1146,50 @@ density to one. Native geometry, gravity and a calibrated observation map remain
 open. The ongoing programme continues; RET stays paused.
 
 Result guide: [RI-47 display and evidence](../experiments/gwosc_nominal_result_v1/DISPLAY.md).
+
+
+**RI-47 publication verified; RI-48 harmonic morphology independently accepted**
+
+RI-47 commit `9b73fe58f3089d4c85bc438584bf1de87b9647b6`, tree
+`ce419f1a58ea360e294864904bedaa04fb406ae9`, publishes exactly seven result
+files plus three coordinator records. Preflight checked 2050 unchanged other
+entry versions, 119 local links, 15 published dependencies, executed-source
+equality and both modes' actual output equality. A normal push and separate
+origin/ret lookup returned the same full commit. The index was empty.
+
+Root and two separate complete proof reviewers independently accept RI-48's
+analytic morphology decision for the unchanged RI-46 harmonic law. From a
+suitable size-m history the all-preferred run to size N has probability m/N.
+From an unsuitable history, one full birth and then preferred births has
+probability greater than (m+1/2)/N. Both produce at least N-m common-past
+top vertices. Fair marks are summed; specifying one word carries its separate
+power-of-two factor. All finite-start and integer-rounding terms are retained.
+
+These events imply liminf P(W_N/N>=theta)>=1-theta for 0<theta<1.
+Disjoint geometric blocks and conditional failure products, without independence,
+prove limsup W_N/N=1 almost surely. The current maximal-set fraction also has
+liminf zero after infinitely many full births; width itself does not reset.
+The exact comparable-pair inequality gives almost-sure liminf density zero.
+A separate fixed-N probability bound rules out convergence in probability to
+any positive deterministic density; the almost-sure subsequence alone would
+not establish that conclusion. The note does not claim density converges to
+zero or a width limit, or derive a physical manifold or gravity.
+
+The preferred-run length has tail m/(m+ell), is finite almost surely and has
+infinite mean. Ending such a run need not leave the suitable-parent class.
+These conclusions exclude only explicitly stipulated regime targets such as
+vanishing relative width or positive deterministic comparable-pair density.
+They are conditional history-law results under the birth-prefix exhaustion,
+not a universal geometry rejection. No executor, numerical check, simulation
+or earlier research suite was run for this analytic packet.
+
+The sole administrative change is opening adjudication pending to accepted.
+Handoff SHA-256 `3867f57f99e115676d0fd8134b58682ea291f98dbefb9bd680cdd3ec060797c1`
+becomes accepted `83915211ee0691dad1f138690a13eacf8e5431d7ab24ddc9342d7e427016eaec`.
+The note reservation is released for scoped publication. RI-49's separately
+reserved power-family note is now handed off for independent review; no result
+is presumed from the author's report. The next measurement packet will qualify
+the official data-informed NR reference and its comparison assumptions. Native
+geometry/gravity and calibrated measurement remain open; RET remains paused.
+
+Accepted note: [RI-48 morphology](../track_b/native_growth_clone_regime_v1/REGIME.md).

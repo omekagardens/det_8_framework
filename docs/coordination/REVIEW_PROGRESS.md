@@ -7,7 +7,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | Item | Current evidence | Next action |
 |---|---|---|
 | RI-49 power-schedule family | **Assigned after RI-48 acceptance; one new analytic note reserved.** | Prove or refute the specified 0<a<1 height/width/density tradeoff; retain actual conditional law and no independence assumption. |
-| RI-47 actual nominal display | **Independently accepted; publication pending.** Actual normal/optimized crop/report/PNG agree; source reviews and independent audits pass. | Publish the seven-file bundle; qualify the conventional NR reference next. |
+| RI-47 actual nominal display | **Published in verified `9b73fe5`.** Actual normal/optimized crop/report/PNG agree; source reviews and independent audits pass. | Publish the seven-file bundle; qualify the conventional NR reference next. |
 | RI-46/48 conditional growth and morphology | RI-46 is published in verified `29ba6f4`; RI-48 is independently accepted. | Publish RI-48 separately; RI-49 keeps the native proof question active. |
 | RI-45 first free completion cone | **Published in verified `ebb7b27`.** Exact size-five obstruction and quantitative drift bound pass independent review/replay. | Review a complete rational completion or signed dual obstruction and quantitative finite drift gap; retain the separate propagation obligation. |
 | RI-43 all-size height selection | **Bounded analytic results independently accepted and published in verified `1e2d2e4`.** Structural completion criterion and a.s. rejection of the explicit stress selector are proved. The general all-size target remains unresolved. | Preserve the analytic note; RI-45 tests the new invariant at the first free layer. |
@@ -5081,3 +5081,50 @@ Accepted RI-47 identities, within `docs/experiments/gwosc_nominal_result_v1/`:
 | `CROP.json` | `a580481b9f6ea8dbb90242f12023817709ee7ac208d504110966f01f353592e7` |
 | `PROCESSING_REPORT.json` | `98bf0c53d5b988d3bb2aaa5f60c0fbcd87512501dd1137175b25589cc4856820` |
 | `NOMINAL.png` | `5d66d06a0c62b4e586987bf8c537e7484344b1f31822f63b191a41d5d99334c6` |
+
+
+**RI-47 publication verified; RI-48 harmonic morphology independently accepted**
+
+RI-47 commit `9b73fe58f3089d4c85bc438584bf1de87b9647b6`, tree
+`ce419f1a58ea360e294864904bedaa04fb406ae9`, publishes exactly seven result
+files plus three coordinator records. Preflight checked 2050 unchanged other
+entry versions, 119 local links, 15 published dependencies, executed-source
+equality and both modes' actual output equality. A normal push and separate
+origin/ret lookup returned the same full commit. The index was empty.
+
+Root and two separate complete proof reviewers independently accept RI-48's
+analytic morphology decision for the unchanged RI-46 harmonic law. From a
+suitable size-m history the all-preferred run to size N has probability m/N.
+From an unsuitable history, one full birth and then preferred births has
+probability greater than (m+1/2)/N. Both produce at least N-m common-past
+top vertices. Fair marks are summed; specifying one word carries its separate
+power-of-two factor. All finite-start and integer-rounding terms are retained.
+
+These events imply liminf P(W_N/N>=theta)>=1-theta for 0<theta<1.
+Disjoint geometric blocks and conditional failure products, without independence,
+prove limsup W_N/N=1 almost surely. The current maximal-set fraction also has
+liminf zero after infinitely many full births; width itself does not reset.
+The exact comparable-pair inequality gives almost-sure liminf density zero.
+A separate fixed-N probability bound rules out convergence in probability to
+any positive deterministic density; the almost-sure subsequence alone would
+not establish that conclusion. The note does not claim density converges to
+zero or a width limit, or derive a physical manifold or gravity.
+
+The preferred-run length has tail m/(m+ell), is finite almost surely and has
+infinite mean. Ending such a run need not leave the suitable-parent class.
+These conclusions exclude only explicitly stipulated regime targets such as
+vanishing relative width or positive deterministic comparable-pair density.
+They are conditional history-law results under the birth-prefix exhaustion,
+not a universal geometry rejection. No executor, numerical check, simulation
+or earlier research suite was run for this analytic packet.
+
+The sole administrative change is opening adjudication pending to accepted.
+Handoff SHA-256 `3867f57f99e115676d0fd8134b58682ea291f98dbefb9bd680cdd3ec060797c1`
+becomes accepted `83915211ee0691dad1f138690a13eacf8e5431d7ab24ddc9342d7e427016eaec`.
+The note reservation is released for scoped publication. RI-49's separately
+reserved power-family note is now handed off for independent review; no result
+is presumed from the author's report. The next measurement packet will qualify
+the official data-informed NR reference and its comparison assumptions. Native
+geometry/gravity and calibrated measurement remain open; RET remains paused.
+
+Accepted note: [RI-48 morphology](../track_b/native_growth_clone_regime_v1/REGIME.md).
