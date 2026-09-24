@@ -8,7 +8,8 @@ the latest assignments below and in the plan govern current work.
 | Item | Current evidence | Next action |
 |---|---|---|
 | RI-64 observed-context consumer | **Assigned; seven new paths reserved, source work only.** | Review/freeze and qualify the new consumer before observed inputs. |
-| RI-63 first-free expected-cost decision | **Active; worker reports an exact primary optimum, not yet adjudicated.** | Finish canonical lexicographic certification, then independent source/proof review and replay. |
+| RI-65 actual residual re-entry | **Assigned; three new paths reserved.** | Certify the actual marked rectangle obstruction and distinguish finite forced drift from asymptotic failure. |
+| RI-63 first-free expected-cost decision | **Independently accepted; publication pending.** | Publish three reviewed files; RI-65 tests the next-layer residual. |
 | RI-62 observed H1/L1 context | **Design published in independently verified `052154c`.** | RI-64 implements the frozen windows, custody and numeric/proof gates. |
 | RI-61 candidate-specific suppression | **Published in independently verified `32824c3`.** | RI-63 tests the first-free candidate; asymptotic residual decay remains open. |
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 gates and eight actual reference-input rows passed.** | Preserve the six reproducible files; RI-64 implements observed-context comparison. |
@@ -6458,3 +6459,63 @@ remains that certification and review; no duplicate assignment or successor is
 opened. No later-layer or asymptotic conclusion follows from this size-five
 calculation. The residual asymptotic drift and native forward map remain open,
 and RET remains paused.
+
+
+**RI-63 independently accepted; RI-65 residual re-entry decision assigned**
+
+24 September 2026 UTC. Root read all 1172 checker lines, the complete 353-line
+note and certificate. A separate coordinator reviewer read the complete packet
+and independently checked its primary and sequential-face dual arithmetic:
+1490 row caps, 798 columns, 69 positive stages and 4146 stage gradients, with
+four malformed controls. No mathematical or source blocker remains. Removing
+nonnegative-cost coordinates preserves the canonical answer; forced primary
+rows and nonnegative stage gradients prove the positive-coordinate minima,
+and nonnegativity proves zero-coordinate minima. Two distinct exact feasible
+vectors prove primary nonuniqueness; a rank deficit alone would not suffice.
+
+Root copied the three pinned packet files and actual published RI-41 certificate
+into an isolated candidate. CPython 3.14.0 -I -S -B normal and optimized runs
+both exited zero, in 8.748/8.699 seconds. Their 4173-byte stdout was identical,
+SHA-256 `f6573f4e056701a15a8b13efc96a04a8510ae3097285f7cbc480d4876da534ab`.
+Both produced the same expected 503-byte progress stderr. Pre/post packet
+identities match the handoff. The complete reconstruction, strict-law replay,
+fifteen targeted certificate refusals and five domain/nonheredity controls pass.
+Only the note's opening adjudication status changes for publication.
+
+The exact first-free minimum is m5=6650803/108900000, with 69 canonical positive
+coordinates and a distinct 66-positive-coordinate primary optimum. All 69
+active components are everywhere neutral, and all 1198 noncritical marked-row
+classes have zero boundary drift. The strict mixture still has noncritical
+raising mass. Its expected increment is approximately0.06222124 and expected
+terminal defect approximately1.71142342. These are finite conditional-law
+results; no asymptotic shape, physical metric, gravity or native forward map
+follows. Source reservation releases for scoped publication.
+
+The tempting all-size zero-noncritical-drift comparator has a concrete next
+obstruction to check. A separate review calculation reports that, for every
+marking of the five-cell (3,2) parent B, actual q5(B,full) exceeds the sum of
+its two axis-ideal probabilities. RI-54's complete diamond inequality then
+forces positive defect drift at the noncritical six-cell rectangle R=(3,3)
+under any compatible next completion. Root independently checked that analytic
+implication; the new exact marked witnesses and weighted bound require their
+own packet and adjudication. This is not a size-six optimizer or an asymptotic
+no-go result. Since this rectangle has zero defect, its first defect exit can
+occur at most once; a positive finite-layer residual does not refute summability.
+
+RI-65 now reserves exactly three new paths in
+`docs/track_b/native_growth_residual_reentry_v1/`: `OBSTRUCTION.md`, `check.py`,
+`CERTIFICATE.json`. The QR task must derive the marked transport/axis-cap proof
+from the actual accepted RI-63 strict prefix, give exact all-mark probabilities
+and a positive history-weighted noncritical residual lower bound without
+constructing a parent-six law, and independently check the finite witnesses.
+Keep the distinction between a general-prefix example and this actual prefix,
+and between a one-time zero-defect exit and repeated positive-defect events.
+Use a structurally justified next proof question after the bounded obstruction;
+do not silently replace the RI-59 objective, tie-break, mixture or inherited
+law. All accepted sources, protected boundaries and central git ownership hold.
+
+RI-64 remains active in its separate seven paths. Root has read all three
+consumer sources; the independent reviewer is completing a bounded synthetic
+crop-prefix coverage check. The prospective guide, complete source freeze and
+new qualification still precede all observed access. No new observed sample
+body or admitted coefficient-row computation has run. RET remains paused.
