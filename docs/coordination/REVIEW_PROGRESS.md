@@ -7,8 +7,9 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | Item | Current evidence | Next action |
 |---|---|---|
 | RI-41 normalization and height | **Assigned after RI-39 acceptance.** Decide the fixed-prefix common/component-scale target using actual height-raising mass. | Review exact strict-domain witnesses and keep worst-row finite decisions separate from typical asymptotic geometry. |
-| RI-40 calibration inputs | **Coordinator active.** Public C02 archive acquired; nearest-time members and four tables independently inspected. Inspector/report review is pending. | Complete the bounded qualification before freezing a nominal strain-display recipe. |
-| RI-39 history and height | **Independently accepted; scoped publication pending.** Compact-cylinder measure construction and the conditional exponential height bound pass root and independent proof review. | Preserve the analytic note. RI-41 examines remaining normalization freedom; no universal geometry rejection. |
+| RI-42 nominal strain display | **Next coordinator packet.** Freeze the processing/reference recipe and retained CW annotation before sample transformation. | Perform bounded conventional reproduction after design review; quantitative uncertainty and native prediction remain separate. |
+| RI-40 calibration inputs | **Independently accepted; scoped publication pending.** Archive/member identities, nearest-time selection, four numeric tables and pointwise uncertainty scope are reviewed; isolated replay and reconciliation pass. | Preserve the three-file bundle; freeze the nominal-display recipe next. |
+| RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** Compact-cylinder measure construction and the conditional exponential height bound pass root and independent proof review. | Preserve the analytic note. RI-41 examines remaining normalization freedom; no universal geometry rejection. |
 | RI-38 general extension | **Independently accepted and published in verified `9ee565e`.** The analytic maximal-deletion potential proves every inherited ratio cycle consistent and supplies an all-size conditional family. Root isolated normal/optimized replay and independent reviews pass. | Preserve the accepted proof/checker. RI-39 examines history measures and the selected family's geometric regime; no native-gravity inference. |
 | RI-37 public-input qualification | **Independently accepted and published in verified `8071ee3`.** Actual bodies, source/evidence reviews, isolated replay and direct data reconciliation pass. Exact V2 pair, complete metadata/flags and source pins retained; L1 CW no-injection flag is clear throughout. | Preserve the accepted bundle; qualify applicable C02 uncertainty artifacts before calibration-dependent inference. |
 | RI-36 native extension | **Independently accepted and published in verified `7335760`.** Every strictly positive RI-34 prefix extends through four births, preserving possible record feedback. Complete analytic reviews and root isolated normal/optimized replay passed. | Preserve the accepted proof/checker. Its general extension successor RI-38 is now independently accepted. |
@@ -4519,3 +4520,82 @@ acquired/inspected outside the repository. Its guide is independently reviewed;
 the inspector/report are receiving separate review. Those active files stay
 out of this four-path RI-39 checkpoint. No RET work, strain processing or
 protected-validation change is included.
+
+**RI-39 publication independently verified**
+
+Commit `3aca9cd1500a3c2ed29ee837ae7d63df1922b129`, tree
+`e7b31502bc0ec79a079629c594bd7ae643331c8b`, publishes exactly four paths:
+the accepted note and three coordinator records. Staged bytes matched the
+reviewed candidate, with only its opening acceptance phrase changed. All 99
+local links and its already published RI-38 dependency resolved; 2,031 other
+entry versions remained unchanged. Normal push and separate remote lookup
+returned the same full commit, leaving the index empty. RI-40's three files
+and RI-41's active source were excluded. QR is confirmed active on RI-41.
+
+**RI-40 acquisition, source review and independent reproduction**
+
+The official DCC v3 O1 archive, README and example program were acquired via
+HTTPS 200 into external scratch. Their exact source URLs, UTC completion
+times, sizes and SHA-256 pins appear in the qualification guide. The example
+program was read, never executed. No binary archive, dependency package or
+instrument/protected data enters the repository.
+
+Root inspected the actual archive independently before the inspector was
+authored. It has 3784 entries: three directories, 2022 H1 FinalResults tables,
+1757 L1 tables and two statistical summaries. The four nearest/bracketing
+tables are all 100 by 7, finite and ordered, with positive magnitudes. Each
+grid spans 5–5000 Hz: ten rows below 10, 77 in [10,2048), and thirteen at or
+above 2048 Hz. The middle subset is only a frequency-domain compatibility
+classification for this 4096 Hz strain product, not a selected analysis band.
+
+The declared midpoint is GPS 1126259462, chosen from the fixed input window,
+not inferred from a waveform. Nearest-time selection is explicitly supported
+by the publisher's example. H1 selects 1126260391 (+929 s), with previous
+bracket 1126256791; L1 selects 1126257729 (-1733 s), with next bracket 1126261329.
+Root separately verified the full nearest-neighbor cells: H1
+(1126258591,1126262191), L1 (1126251755.5,1126259529). Both contain the entire
+closed [1126259446,1126259478] enclosure. This proves selection constancy,
+not actual calibration constancy or a temporal error bound.
+
+An independent researcher checked official DCC documentation and primary
+calibration papers. Another independent reviewer accepted the complete guide
+against acquisition/inventory/table evidence, then read all 324 inspector
+lines and reconciled every reported numeric token against root's prior
+independent table audit. Both reviews preserve the response-ratio orientation,
+pointwise statistical interpretation, unknown joint correlations and the
+bounded nominal-display successor. Those were source/evidence reviews, not
+independent experimental calibration or source execution.
+
+Root read the full inspector, copied it outside the checkout and replayed it
+on the acquired inputs with Python 3.11.6, `-I -S -B` and then `-O`. Both exit
+zero and emit the same 113022-byte JSON, SHA-256
+`9097cdf50286bec56ad0e2c986df06a0287572df42649979e9477b3a978203e6`.
+The exact output is CALIBRATION_REPORT.json. Separate reconciliation covers
+all 3784 inventory entries, the canonical inventory digest, four member
+identities and all 2800 original numeric tokens. The inventory digest is
+`b9926ae606a16461b5110f280bef65c11e5368ae9a5d2c6dd03e3c18155ac825`.
+
+Six root CLI refusals cover missing README, truncated example text and
+same-size-corrupted archive, each normally and under optimization. Every run
+exits one with empty stdout and the corresponding explicit refusal; original
+input identities remain unchanged. The author separately reports eighteen
+successful refusals covering all three failure forms for all three inputs
+in both modes. Those author executions are not added to root's count.
+
+Accepted three-file identities under
+`docs/experiments/gwosc_calibration_qualification_v1/`:
+
+| File | SHA-256 |
+|---|---|
+| QUALIFICATION.md | `e385f918e0239294cc773f1d055c90dcefb8ab592a86fa9256c8704a9b8bd650` |
+| inspect_calibration.py | `6117b566beb25a8d931c9c89cfadd19fdf8c4fc6ef1e2646bd1140f40c6f3820` |
+| CALIBRATION_REPORT.json | `9097cdf50286bec56ad0e2c986df06a0287572df42649979e9477b3a978203e6` |
+
+The bundle is independently accepted and its source reservation is released.
+The summaries are suitable documented nearest-time inputs for nominal public
+reproduction; they are not deterministic or simultaneous envelopes. No strain
+amplitude, filter, fit, waveform plot or arrival lag was computed. RI-37's
+L1 CW no-injection flag remains clear and must stay annotated. RI-42 next
+freezes nominal display processing/reference before sample transformation;
+precision claims still require their actual uncertainty model. RI-41 is active
+on native normalization and remains excluded from this publication scope.

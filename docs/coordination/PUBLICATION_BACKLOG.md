@@ -11,8 +11,8 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-41 normalization and height | **Active; new sources excluded from publication.** | Independently review its source-stable exact decision and any certificate. |
-| RI-40 calibration inputs | **Active; three-file bundle excluded pending complete review.** | Finish inspector/report adjudication; archive bodies stay outside the repository. |
-| RI-39 history and height | **Independently accepted; scoped publication pending.** | Publish only the one reviewed analytic note and three coordinator records; preserve RI-40/41 active sources. |
+| RI-40 calibration inputs | **Independently accepted; scoped publication pending.** Three reviewed files, exact isolated replay and actual table reconciliation. | Publish only the qualification bundle and coordinator records; keep RI-41 active sources excluded. |
+| RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** | Preserve the published note; RI-41 remains independently reserved. |
 | RI-38 extension criterion | **Independently accepted and published in verified `9ee565e`.** Conditional all-size proof and exact finite corroboration passed complete reviews and root replay. | Preserve the published two-source bundle and its evidence; review RI-39 separately. |
 | RI-37 GWOSC input qualification | **Independently accepted and published in verified `8071ee3`.** Exact pair acquired, source/evidence reviews and isolated replay passed. | Preserve the four-file qualification bundle. Qualify C02 uncertainty next; no binary data or calibration-dependent fit is part of this checkpoint. |
 | RI-36 native extension | **Independently accepted and published in verified `7335760`.** Two source-stable files prove/corroborate a strictly positive four-birth extension, retaining record feedback. | Preserve RI-34/36 sources. RI-38's general extension result is now independently accepted. |
@@ -786,3 +786,26 @@ Its new sources and RI-40's active calibration bundle are excluded. The
 selected-normalization rejection does not weaken RI-38's premises or claim
 a universal geometry obstruction. Original review, accepted identities,
 measurement prerequisites and RET pause remain fixed.
+
+RI-39 is published in independently verified
+`3aca9cd1500a3c2ed29ee837ae7d63df1922b129`, tree
+`e7b31502bc0ec79a079629c594bd7ae643331c8b`. Four exact reviewed paths, 99
+local links, one published note dependency and 2,031 unchanged other entry
+versions passed. Normal push and independent lookup agreed. RI-40/41 were
+excluded; the index was empty. QR is active on RI-41.
+
+**RI-40 calibration qualification publication candidate**
+
+Publish only the three accepted calibration files and three coordinator
+records. Root and independent reviews cover the complete inspector, guide,
+actual selected tables and interpretation. Isolated normal/optimized JSON
+agrees; all 2800 numeric tokens and 3784 inventory entries reconcile, and
+six root input-refusal runs pass. The author's eighteen separate refusal
+runs remain a distinct evidence count. Input bodies stay outside the repo;
+runtime needs only the standard library and the explicitly supplied files.
+
+The unchanged guide/source/report pins are recorded in progress. Previously
+published RI-39 remains fixed; active RI-41 files are excluded. The next
+measurement packet freezes a bounded nominal-display recipe with the L1 CW
+annotation. No joint calibration inference, native gravity, RET advancement
+or protected-validation waiver belongs to this checkpoint.
