@@ -8017,3 +8017,114 @@ normalization, side-specific segment counts, units, tolerances, exports and
 independent normalization checks before any PSD/ASD execution. Keep prior
 access and injection annotations explicit; a descriptive released-sample
 spectrum is not a proved detector-noise covariance or physical confidence law.
+
+**RI-77 independent acceptance and RI-79 dispatch — 24 September UTC**
+
+The previous metadata/custody checkpoint is published as
+`12fdaba7ccd88e34a1287450200359510d556f72`; a fresh independent origin/ret
+lookup returned that exact commit before this work. QR's three-file RI-77
+handoff is source-stable and independently accepted. Root read the full proof
+and checker, reopened the 37 external evidence identities, checked the six-file
+machine closure and retained the four already published dependencies unchanged.
+A separate coordinator reviewer read both arithmetic sources and independently
+re-summed all 192 certificate rows, 2048 proper slots and 4864 deletion factors.
+The alternate calculation uses the same accepted actual q5 prefix, so its
+agreement is not represented as an independent derivation of that prefix.
+
+For K2=(0,1,1,0,15,15), records 0 and 1 give the exact potential-sum difference
+33685055514151347365383342865/19206178020939013358718419748 > 0.
+At its universal-top extension the empty-birth posterior is b*g/[2(1+b)],
+b=1-a6 U6 and g>0 record-independent. The cutoff-seven component is at its
+own full-only bridge and contributes zero to that numerator. The nonzero
+record difference violates strict precursor-record locality. The chain control
+has U6=1; the other selected two-top core has no variation in this bounded
+check. No conclusion extends that negative control to unexamined cores.
+Covariance, normalized history weights and full support on finite histories
+survive this mixture, but the required local-class membership fails. There is no global
+no-go theorem for all cutoff/latent-state models, adopted law or gravity claim.
+
+Fresh copied root replay passed normal/-O in 9.215/9.293 seconds with sampled
+RSS peaks 123200/123040 KiB, no 120s/512MiB stop and exit zero. Both outputs
+exactly match worker results: stdout 3023 bytes, SHA-256
+`79d77255e3316b70bd7dbe5a35c0caffb4b814504c175c04999de25dcaf6e922`;
+stderr 951 bytes, SHA-256
+`803475c36d8bd4c5c4d0e7edce6bd72e43335efae5306127cbd412adf6c9360b`.
+The checker includes 20 new intended-reason controls and 15 inherited controls.
+All original/copied machine pins stayed fixed. The final checker is 18863 bytes,
+SHA-256 `d732d5dcd20bb82af6098ae864598b0492ccd635628ef315c40dfed877454483`;
+certificate 371353 bytes, SHA-256
+`b959c82edb9233b71647e7cf09534f607da10cb2f1cefeb6b86e2ed36eb297a0`.
+Root changed only the note's acceptance/provenance after worker handoff:
+LOCALITY.md is 20437 bytes, SHA-256
+`55337f01f410fdce52a0c101ab5fd141ec77dad20d36e1b2d88fa459a4fc3af6`.
+
+Durable root evidence is under
+`/Volumes/AI_DATA/development/det-review-evidence/ri78-root-20260924T2234/`.
+RI77_ROOT_REVIEW.json is 5799 bytes, SHA-256
+`85b14c2b5c658a5f3eb17aa06f1bb098cad08d2d16b74b20c4859754b2ae874e`.
+The prospective ri77-replay/ROOT_REPLAY_FREEZE.json is 1631 bytes, SHA-256
+`73e40c27f429e6d4b5f8e1caee9c7d1230a713bf1e79e9bc928a5f93389678ef`.
+Worker HANDOFF_MANIFEST.json remains 20810 bytes, SHA-256
+`abe1069802f4174917569a4cbc4b963c5ce48db502e1be2c767780bcb042ded4`,
+in `/Volumes/AI_DATA/development/det-review-evidence/ri77-qr/worker-n4ib7q/`.
+All sampled-memory limits are monitoring receipts, not continuous peak bounds.
+
+Following adjudication, root dispatched RI-79 to Quantum Relativity. It derives
+the general first-atom posterior criterion, then uses only two inherited q4/q5
+rows for the exact delayed-cutoff cubic-moment sign question in the plan.
+The symbolic scale stays bounded by selected-row information; no global M6
+or actual q6/q7 table is computed. This tests a substantive potential repair
+without treating cutoff-by-cutoff enumeration as the research programme.
+The three new delayed-cutoff files are actively reserved and excluded from
+this checkpoint. A local all-size law achieving the intended nondegenerate
+geometry/shape control, and a quantitative gravity/measurement forward map,
+remain open. RET remains paused.
+
+**RI-78 spectrum design independently accepted — 24 September UTC**
+
+Root and a separate measurement reviewer read the complete design and checked
+exact segment arithmetic, density normalization, analytic endpoint/Parseval
+fixtures, all-bin consistency budgets and retained input/custody premises.
+Primary NumPy/SciPy versioned sources and the historical GWOSC tutorial support
+the stated conventional method boundaries. The V2 four-second side spectra
+are a declared adaptation, not an exact V1 tutorial/discovery reproduction.
+Review corrected the handling of the admitted venv interpreter symlink and
+qualified the sampled-RSS limitation; no statistic, input or threshold changed.
+
+The four spectra retain every 0.25-Hz bin from DC through Nyquist, with seven
+left and six right overlapping segments per detector. Subtracting a segment's
+mean before Hann windowing does not force DC to zero; the lowest-cosine fixture
+explicitly checks that distinction. PSDs average before square roots produce
+ASDs. The fixed tau=2^-40 tests consistency on an input-power scale without a
+strain-unit absolute floor. It is not a certified floating-point enclosure or
+physical uncertainty budget. L1's NO_CW_HW_INJ clear bit and earlier public-data
+access remain explicit. No actual spectrum or fabricated numerical qualification
+has been run by this design packet.
+
+The reviewed author draft was 23044 bytes, SHA-256
+`b725ac0aa015459bfe53354b9d676abd21e1a70b5b14248b8849fac821db50cb`.
+After only root acceptance/provenance additions, DESIGN.md is 24390 bytes,
+SHA-256 `3393eaf9252c55ddd4bb5de6fe87455dd7479f79812dbce245ec7c7611f4b4ce`.
+Independent FINAL_DESIGN_REVIEW.json is 8520 bytes, SHA-256
+`5647e676ae7611ec8c96b2f80117377423f2a1a59fe0d58df9de760cfab462c8`,
+retained under
+`/Volumes/AI_DATA/development/det-review-evidence/ri78-independent-method-20260924T223957Z-58083398/`.
+The independent pre-draft derivation is 8046 bytes, SHA-256
+`d2962391d63241c236b160c6cdb30a8d20c931a66b0742976e41d7dbfb6f7872`.
+The original and two reviewed author versions, diff and handoffs remain under
+`/Volumes/AI_DATA/development/det-review-evidence/ri78-author-20260924T224524Z-d6fae4ef/`.
+
+RI-80's next concrete work is source-reviewed implementation, a complete closed
+validator and fabricated normal/-O qualification under RI-78's unchanged method
+and 180s/512MiB sampled-RSS limits. Its five new source/report files are reserved
+and excluded from this reviewed checkpoint. Actual public-input execution awaits
+independent qualification adjudication and a separate prospective freeze. This
+does not request new user permission or stop native RI-79 work. Estimated PSD
+cannot replace the known covariance in RI-67/71/73; detector-noise inference,
+calibrated physical claims and DET's native forward observable remain open.
+
+RI-77's final acceptance-note delta and actual root receipt/source identities
+also passed a separate final reconciliation without rerunning the checker:
+ri77-replay/INDEPENDENT_FINAL_RECONCILIATION.json, 4195 bytes, SHA-256
+`92fee7110bcd52e2d0a1a4d439a49aeb4fa748e7a400445dff8f22d0940ab4ca`
+under the RI-78 root evidence directory. No accepted machine source changed.

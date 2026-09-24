@@ -3959,3 +3959,39 @@ normalization, side-specific segment counts, units, tolerances, exports and
 independent normalization checks before any PSD/ASD execution. Keep prior
 access and injection annotations explicit; a descriptive released-sample
 spectrum is not a proved detector-noise covariance or physical confidence law.
+
+**RI-77 reviewed publication candidate; RI-79 active successor**
+
+RI-77's LOCALITY.md, check.py and CERTIFICATE.json are independently accepted
+and released to root publication. Full proof/source review, separate exact
+certificate re-summing and fresh copied normal/-O replay passed within the
+frozen resource limits. The actual bounded counterexample rejects the first
+random-cutoff candidate's record locality; it is not an all-model no-go or
+native geometry result. Final pins, exact counts and receipts are in the
+[progress record](REVIEW_PROGRESS.md). Preserve all accepted predecessors.
+
+RI-79 is assigned to the existing QR task after acceptance: general first-atom
+posterior criterion and one exact symbolic delayed-cutoff sign question using
+two inherited rows. Its three files in
+`docs/track_b/native_growth_delayed_cutoff_locality_v1/` are active and must
+remain excluded from publication until a separately reviewed handoff. Root
+continues all git/index operations, explicit path staging and remote verification.
+
+**RI-78 accepted design joins scoped publication; RI-80 reserved**
+
+The one-file `docs/experiments/gwosc_off_event_spectra_v1/DESIGN.md` is accepted
+after complete root and independent review. It freezes four descriptive V2
+H1/L1 side spectra, all bins, normalization/endpoint fixtures, the fixed
+power-scaled consistency budget and prior-access/injection/calibration limits.
+No observed calculation or synthetic numerical result is claimed. The review
+artifacts and final source identity are recorded in REVIEW_PROGRESS.md.
+
+RI-80 reserves only spectra.py, qualify.py, validate_result.py,
+QUALIFICATION.json and IMPLEMENTATION.md in
+`docs/experiments/gwosc_off_event_spectra_implementation_v1/`. Its implementation
+and fabricated qualification must be separately reviewed before actual-input
+execution. Active RI-79 and RI-80 files stay outside the seven-path checkpoint:
+three coordinator records, three accepted RI-77 files and the RI-78 design.
+RET remains paused; unrelated edits, original review and historical outputs stay
+unchanged. Publication requires the scoped index/dependency/custody checks and
+an independently verified remote ref.
