@@ -11,7 +11,8 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
-| RI-43 all-size height selection | **Active; new sources excluded from publication.** | Independently review its source-stable selection result or obstruction. |
+| RI-45 first free completion cone | **Assigned; active new sources excluded from publication.** | Independently review its exact finite decision before a propagation successor. |
+| RI-43 all-size height selection | **Bounded analytic results independently accepted; publication pending.** One structural criterion/rejected-selector note; the general target stays open. | Publish only the released note and coordinator records. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Three-file exact finite decision with isolated normal/optimized replay. | Preserve the published three-file bundle; RI-43 continues the native selection question. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-42 fixes nominal processing and RI-44 will qualify it. |
 | RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** | Preserve the published note; RI-41 is accepted and RI-43 is independently reserved. |
@@ -892,3 +893,20 @@ RI-43 continues the native all-size selection question. RI-44 is the next
 coordinator implementation packet: qualify the frozen numerical recipe,
 publish passing coefficients and then produce the bounded nominal display.
 Neither a geometry/gravity claim nor programme completion is inferred.
+
+
+**RI-43 analytic checkpoint**
+
+Publish only `docs/track_b/native_growth_sublinear_selection_v1/SELECTION.md`
+and the three coordinator records. Root and two independent complete proof
+reviews accept the drift criterion, component characterization, exact
+completion criterion and almost-sure rejection of the declared stress rule.
+No project suite or numerical simulation was run or required. The note's
+sole post-handoff change is its opening acceptance word.
+
+RI-38/39/41 prerequisites are published and fixed. The general all-size
+selector remains unresolved; RI-45 is actively assigned a precise first-free-
+layer cone decision after this adjudication. Its new sources are excluded.
+RI-42's published measurement recipe stays fixed and RI-44 remains the next
+coordinator implementation packet. Preserve all other entry identities,
+protected evidence, original review and the RET pause.

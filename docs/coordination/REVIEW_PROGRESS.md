@@ -6,7 +6,8 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-43 all-size height selection | **Assigned after RI-41 independent acceptance.** Seek a fixed all-size component rule with vanishing actual drift, or a precise uniform-selection obstruction. | Review the substantive selection result and distinguish typical from uniform control; the martingale criterion alone does not supply a law. |
+| RI-45 first free completion cone | **Assigned after RI-43 acceptance.** Decide the exact size-five preserving-only completion equations from the frozen RI-41 prefix. | Review a complete rational completion or signed dual obstruction and quantitative finite drift gap; retain the separate propagation obligation. |
+| RI-43 all-size height selection | **Bounded analytic results independently accepted; publication pending.** Structural completion criterion and a.s. rejection of the explicit stress selector are proved. The general all-size target remains unresolved. | Preserve the analytic note; RI-45 tests the new invariant at the first free layer. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Common scaling fails the fixed-prefix half-height target; exact component scales satisfy it in every size-four row. | Preserve the finite witness and strict premises. No optimum or asymptotic geometry follows. |
 | RI-44 nominal processing implementation | **Next coordinator packet.** Implement RI-42, run and independently review synthetic qualification, then pin coefficients before observed filtering. | Publish the actual passing numerical record before the fixed nominal display; report failures without relaxing thresholds. |
 | RI-42 nominal strain display | **Design independently accepted and published in verified `95c91bf`.** Frozen filter, crop, reference and prospective tolerances with retained L1 CW annotation. | Preserve the recipe. RI-44 supplies numerical qualification and then bounded conventional reproduction. |
@@ -4746,3 +4747,67 @@ RI-43 continues the native all-size selection question. RI-44 is the next
 coordinator implementation packet: qualify the frozen numerical recipe,
 publish passing coefficients and then produce the bounded nominal display.
 Neither a geometry/gravity claim nor programme completion is inferred.
+
+
+**RI-43 independent analytic adjudication**
+
+Root and two independent coordinator reviewers read the complete 455-line
+source, checked the inherited premises, and found no mathematical blocker.
+The conditional centered-Bernoulli moment bound has the stated constant,
+and the martingale decomposition retains the fixed size-four offset. Later
+finite-history conditioning explicitly restarts the sums and filtration.
+Almost-sure, probability, expectation and finite-positive-moment statements
+are properly separated; concentration of the martingale part does not
+force almost-sure convergence of an otherwise uncontrolled drift average.
+
+Every proper component fixes its unmarked terminal child, and each completed
+marked child contributes all its maximal-deletion roles to that component.
+This does not identify all possible marked completions. Multiple tallest
+maxima give preserving-only components; a unique tallest maximum gives mixed
+ones. A duplicated tallest past supplies a preserving-only option in each
+nonempty parent, but support does not solve simultaneous row equations.
+
+The closed feasible set is compact. Zero worst-row drift forces every full
+complement and every raising proper mass to vanish, hence every mixed
+coefficient to vanish. Thus zero strict infimum is equivalent to the exact
+nonnegative equations `A_0 beta=1` on preserving-only columns. A boundary
+completion is not admitted. Mixing with a known strict extension yields
+strictly positive rows and drift at most the mixing parameter. Propagation
+through the later recomputed potentials is not established.
+
+The stress rule is a valid all-size extension of the full frozen RI-41
+prefix: the antichain-empty node is a private component, and the other
+scales give proper mass below `eta_n/2`, with `eta_n=1/(n+1)`. Its antichain
+drift tends to zero, but survival from size five to N is exactly `5/N`.
+A relation therefore appears almost surely and is never removed. The
+non-antichain full-birth lower bound forces actual drift to one, hence
+`H(P_N)/N -> 1` almost surely and in every finite positive moment. No finite
+mean waiting time is inferred. This rejects that precise stress rule in
+both worst-row and typical regimes, without rejecting the general class.
+Cross-height and high-drift occupation inequalities have the stated scopes.
+
+Root independently opened the primary Brightwell--Luczak introduction,
+including its distinction between general order-invariant growth and the
+extra Bell-causality assumptions of classical sequential-growth models.
+This confirms a boundary warning, not an external theorem used in the proof.
+The two coordinator reviewers performed analytic source reviews; neither
+executed a numerical suite. No checker, simulation or larger-layer table
+was needed or produced by this packet.
+
+Accepted source:
+`docs/track_b/native_growth_sublinear_selection_v1/SELECTION.md`, SHA-256
+`0ff942612885c148bfa7a48451bfd5b330603f4a51a225fa9ee9eac75a4899d6`.
+Only the opening adjudication word changes from the handed-off identity
+`e9c67dc7d801d07c957c2c10cb2fe6aecbdb262c78e014c44c54e0540091c457`.
+The one-file reservation is released for root publication. The remaining
+all-size objective is explicitly unresolved, not declared completed or
+paused. RI-45 is assigned to the existing QR task immediately after review.
+
+RI-45 first decomposes preserving-only columns by parent height, discharges
+chain/antichain private blocks, and decides the first free size-five middle
+blocks using exact primal or dual evidence. A dual obstruction must include
+a finite positive worst-row drift bound, with no asymptotic no-go inference.
+A completion must include an admitted strict mixture, with no unproved
+propagation inference. In particular, zero-mixing limits can kill probabilities
+in next-layer denominators; continuity alone cannot establish continuation.
+RI-44 remains the parallel measurement implementation step; RET stays paused.
