@@ -7104,3 +7104,120 @@ rebuild or observation run. Both assignments and exact file reservations are
 in this plan. Candidate asymptotics, balanced native geometry, gravity/source/
 observer maps and calibrated empirical inference remain open; the programme
 continues and RET remains paused.
+
+
+**RI-70 height endpoints and RI-71 covariance design independently accepted**
+
+RI-70 establishes the exact range of expected one-birth height increment on
+RI-63's unchanged primary defect-optimal face, keeping all 1490 original caps,
+798 coordinates and the actual parent-five history weights. The minimum is
+69729502462340410231/79331762158387200000 (about 0.878961), the maximum is
+330159038233/337328640000 (about 0.978746). The canonical value
+25799901101980099/26711031029760000 (about 0.965889) and retained alternative
+10372327938670249993/10639712319160320000 (about 0.974869) lie strictly between.
+H=1+kappa.alpha; every proper-component kappa is strictly negative, with an
+intrinsic maximal-deletion factor from RI-66. Zero-beta coordinates must be
+retained at the minimum; eliminating them is justified only at the maximum.
+The minimum uses 140 positive coordinates, 70 zero-beta; the maximum uses 65,
+none zero-beta. Exact rational primal/dual certificates check every original
+constraint, unrestricted face multipliers, zero gaps and complementarity.
+This is finite primary-face freedom, not a new actual law, persistent bias,
+balanced geometry or an asymptotic theorem.
+
+Root read the complete proof, 448-line checker and certificate, then copied
+all three packet files and five pinned dependencies outside the project.
+Serial isolated normal/optimized runs pass in 12.006/11.990 seconds, sampled
+123648/123984 KiB, exit zero, no resource stop under 1800s/2GiB supervision.
+Both reproduce 2723-byte stdout SHA-256
+`b053b8c9c3c964834cc035293cab4b8c7420a006687e870eb59db930953e8b1e`
+and expected 825-byte progress stderr SHA-256
+`9325e15d04207f9325a16d4adcbbe67cff3db103dd317af697ee2e705c67ddbb`.
+The checker reconstructs 11424 raw marked histories/142944 proper labeled
+slots, replays RI-63's accepted completion and 15 controls, reuses the pinned
+RI-66 terminal certificate explicitly, and passes 14 new intended-reason
+controls. It does not claim a fresh full RI-66 mark-fiber reconstruction.
+A separate no-project-import audit reconstructs heights by arbitrary chain
+subsets and extension counts by forward ideal-prefix DP on the retained
+canonical domain: 35375 checks, all 1490 rows/15702 occurrences, 255 terminal
+types/671 roles, all 798 endpoint columns, and complete factors. Normal/-O
+agree at 11684 bytes, SHA-256
+`8d8d71ce76aa20b4075deecb841e8a5fca451f5f7ca8095930988de4422b10c0`.
+Its canonical domain/pi/u/defect data are inherited, not regenerated. Separate
+final packet replays take 11.835/12.069 seconds and match root; 25 direct
+cross-comparisons and a separate exact reduced-face audit pass. The exactly-two
+numerical discovery attempts and their timings remain worker-reported
+provenance; acceptance uses the independently checked exact certificates.
+
+The independent audit also classifies the minimum's 70 positive zero-beta
+coordinates by TERMINAL criticality. Six (components 566–571, terminal 241)
+enter critical children with total boundary probability 6650803/108900000;
+the other 64 do not. Terminal 241 is (0,1,1,7,7,7), defect 2; every maximal
+deletion has defect 1. Canonical, prior alternative and maximum boundary
+choices have zero critical-child probability. Full births cannot create a
+critical terminal because their child has a unique maximum. This is a
+concrete reason RI-61's canonical suppression cannot simply be inherited by
+an unrestricted height-minimum policy. The actual canonical mixture and its
+accepted critical-child probability stay unchanged.
+
+RI-71's single design is accepted after full root/independent proof and
+custody review. For the unchanged eight-row A=Q-P and expressly synthetic
+unit white input covariance, Omega=AA^T retains both cross terms. From
+coefficient midpoints/radii M,R it defines G=MM^T and entrywise error H,
+delta=||H||_infinity, exact V=G^-1, gamma=||V||_infinity and rho=delta*gamma.
+Positive exact LDL pivots and rho<1 certify rank 8, relative Loewner/inverse
+bounds, quadratic-score error, output-error bounds and a conditional chi-square
+CDF sandwich. The fixed usefulness gate is rho<=10^-12; the fixed displayed
+CDF enclosure at threshold 16 uses rho_bar=10^-12 and must have width<=10^-10.
+Singular midpoint, insufficient rank bound or failed accuracy remains an
+explicit stop; no ridge, row deletion, precision change or adaptive method.
+The design requires 16 certified adjoint reconstructions and reconciliation
+with all 8 retained RI-60 summaries: the old receipts contain interval hashes,
+not the coefficient arrays needed for Gram construction. Full closure/freeze,
+exact hexadecimal rational serialization, resource envelopes and independent
+replay are specified before implementation. Reviewer passed 347 independent
+pre-draft controls plus 94 draft-specific controls in both modes. Root read
+and reran the latter; identical 18275-byte output SHA-256
+`6d9b2135b5780c9ff821f3c3fbeb11cf0e029c655410f0888332ee45737925c4`.
+The output-error toy is explicitly a generic proved-output-error corollary,
+not a nonzero coefficient-radius example when rho=0. No actual coefficients,
+observations, covariance statistic or samples were processed. Actual rank,
+accuracy and tractability remain unknown. Accepted design/checker/certificate
+identities are held; only opening acceptance wording changed.
+
+**Next assigned increments: RI-72 native suppression-preserving height and RI-73 covariance implementation**
+
+RI-72 reserves only CRITICAL_HEIGHT.md,check.py,CERTIFICATE.json in
+`docs/track_b/native_growth_critical_height_v1/` to the QR task. On the same
+RI-63 primary-optimal face, require alpha_c=0 exactly when its proper terminal
+is critical (at least two maxima and every maximal deletion lowers defect).
+Recompute that classification; do not prohibit all zero-beta coordinates.
+Certify the minimum H=1+kappa.alpha on this slice with an original-constraint
+rational primal/dual certificate and compare the unrestricted minimum,
+canonical value and critical-entry mass. Canonical feasibility makes the
+slice nonempty. Permit one predeclared bounded numerical endpoint discovery
+with existing packages, followed by exact recovery; no new layer, Pareto
+sweep, second objective search or actual candidate replacement. Also prove
+or delimit the conditional all-size existence/suppression argument for this
+restricted secondary selection: distinguish inherited history weights,
+critical-terminal prohibition, rational tie-breaking and strict mixing.
+Keep RI-59/61's actual canonical law fixed; prospective-selector implications
+are conditional. Do not infer sublinear height/defect or balanced geometry
+from this finite question. Predeclare limits/controls before discovery and
+release a stable packet for independent adjudication before a successor.
+
+RI-73 reserves only check.py and RESULT.json in
+`docs/experiments/gwosc_noise_operator_covariance_v1/` to the coordinator's
+measurement implementer; the accepted RI-71 DESIGN.md stays fixed. Implement
+its exact fixtures, coefficient/receipt reconciliation, Gram error, LDL/inverse,
+score and CDF gates with the fixed 256-bit engine, 262144-bit derived-component
+budget, one worker, 1800s/2GiB per complete execution and 64MiB result ceiling.
+First provide complete source and a prospective closure/recipe for independent
+review. No actual coefficient reconstruction until root has reviewed source,
+fixture execution and the complete prospective source/runtime freeze. Then
+root controls any separately frozen normal/-O actual reconstruction and
+independent result replay. No observed bodies, data acquisition, sampler,
+changed precision/gates, covariance model fitting, physical claim or RET
+implementation is authorized. If a fixed gate fails, retain the failure;
+do not adjust thresholds. Native and measurement lanes remain active in
+parallel. Remote publication of RI-70/71 is the next root checkpoint, not
+completion of the overall geometry/gravity/measurement programme.
