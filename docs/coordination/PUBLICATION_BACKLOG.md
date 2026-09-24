@@ -10,7 +10,8 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-67 conditional noise design | **Assigned; one prospective design reserved.** | Derive shared-input covariance and freeze synthetic qualification; no empirical inference. |
+| RI-68 synthetic noise qualification | **Assigned; two paths reserved.** | Source review/freeze, then fixed simulation and independent audit. |
+| RI-67 conditional noise design | **Independently accepted; publication pending.** | Publish the one-file conditional theorem and prospective simulation contract. |
 | RI-64 observed-context consumer | **Published in independently verified `d44d1af`.** | Preserve fixed observed result; RI-67 supplies the next conditional-noise design. |
 | RI-62 recorded H1/L1 context | **Design published in independently verified `052154c`.** | Preserve the accepted design; RI-64 implements it. |
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 qualification and eight actual rows passed.** | Preserve the six reproducible files; RI-62 designs the separate observed-context comparison. |
@@ -2800,3 +2801,63 @@ RI-67's one-file conditional-noise/synthetic-qualification design is being
 authored and independently reviewed. Neither active packet is staged. Native
 positive-defect drift, quantitative geometry/gravity/observation maps, and
 actual-data noise/calibration prerequisites remain open; RET remains paused.
+
+
+**RI-67 conditional-noise design accepted; RI-68 synthetic implementation assigned**
+
+24 September 2026 UTC. Root and a separate reviewer read the complete RI-67
+prospective design. The known-covariance Gaussian theorem is accepted: for the
+fixed eight-row context-minus-short operator A=Q-P, Omega=A Sigma A^T retains
+both shared-input cross terms. The pseudoinverse quadratic has chi-square rank
+only under its stated fixed mean/covariance/Gaussian premises and on the
+covariance support. Rank zero is deterministic; off-support residuals fail the
+model even if their pseudoinverse quadratic is zero. An estimated covariance
+or fitted/selected mean does not inherit the fixed reference distribution.
+This is a conditional mathematical statement, not validation of detector noise.
+
+Root independently reconstructed the small FIR2/FIR4 matrices through the
+published exact oracle and checked all displayed covariance/cross terms,
+determinants/inverses/quadratics, singular Moore-Penrose cases, repeated-coordinate
+factor identities, alternative noncentrality/power margin and exact probability
+bounds. Thirty exact checks pass normally and optimized with identical 2988-byte
+output, SHA-256 `493b49ea3b6534a94c22688fcf037d6568ec54221f6f4e2d37d6312f39364ede`.
+The recorded stdlib replays took 0.045/0.046 seconds and had empty stderr.
+A separate reviewer hand-derived every displayed matrix and scalar theorem
+step. Both verified the frozen NumPy 2.1 API/stream-compatibility contract from
+primary documentation. One ambiguity was repaired before acceptance: the
+exponential polynomial uses degree128, hence129 terms, followed by its
+term129 remainder. Basis-vector domains are now explicit. No seed, model,
+threshold or budget changed, and no sampler or observed analysis has run.
+
+The prospective simulation has five named rational surrogates: exact cancellation,
+independent outputs, correlated shared outputs, rank-two repeated coordinates,
+and a fixed in-support shifted alternative. Four models use32768 draws each;
+cancellation uses256, totaling131328 rows. Fixed call shapes/seeds and exact
+Fraction maps/scores are retained. Three null tail-frequency gates and one
+power gate have a proved ideal-Gaussian family false-failure bound below1e-5.
+That bound does not certify a finite pseudorandom generator or imply a real-data
+false-discovery rate. The small surrogates are not the admitted GWOSC operator.
+
+RI-67's one-file reservation releases for scoped publication. RI-68 now reserves
+exactly `check.py` and `RESULT.json` in `docs/experiments/gwosc_context_noise_v1/`.
+The implementer owns only the checker; root owns result execution/publication.
+Implement the accepted exact fixtures, fixed five-model synthetic protocol and
+malformed controls, retaining one combined deterministic result. A separate
+reviewer will independently check the expected-answer and protocol logic.
+No fixed-seed model sampling starts before root source review and freeze.
+Use the existing qualified runtime, pinned design/oracle and prior synthetic
+runtime receipt; no observational HDF5, crop, reference or context-result body
+belongs to this execution closure. Full source/receipt identities, complete
+latent-state and sample/score hashes, all failed gates and prospective resource
+limits remain required. No actual-A covariance calculation, empirical statistic,
+new data, filter change or RET work is assigned.
+
+QR remains actively assigned RI-66's terminal-cost factorization in its separate
+three reserved files. No duplicate or replacement native task is dispatched.
+Positive-defect drift and native geometry/gravity/measurement maps remain open.
+After the synthetic gate, integrating the actual admitted operator still needs
+rigorous PSD/rank/inversion and numerical-law treatment; conventional observed
+inference separately needs noise, response/timing and calibration qualification.
+
+Accepted RI-67 DESIGN.md: 24027 bytes, SHA-256
+`74581df2266277b5ff12c9d45d110baf191f99dfbc7db8ea4b3810affa914921`. Only its opening acceptance wording changed.
