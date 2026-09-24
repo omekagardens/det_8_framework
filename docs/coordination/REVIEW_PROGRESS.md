@@ -7,8 +7,9 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | Item | Current evidence | Next action |
 |---|---|---|
 | RI-43 all-size height selection | **Assigned after RI-41 independent acceptance.** Seek a fixed all-size component rule with vanishing actual drift, or a precise uniform-selection obstruction. | Review the substantive selection result and distinguish typical from uniform control; the martingale criterion alone does not supply a law. |
-| RI-41 normalization and height | **Independently accepted; publication pending.** Common scaling fails the fixed-prefix half-height target; exact component scales satisfy it in every size-four row. | Preserve the finite witness and strict premises. No optimum or asymptotic geometry follows. |
-| RI-42 nominal strain display | **Active coordinator design packet.** Freeze the processing/reference recipe and retained CW annotation before sample transformation. | Perform bounded conventional reproduction after design review; quantitative uncertainty and native prediction remain separate. |
+| RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Common scaling fails the fixed-prefix half-height target; exact component scales satisfy it in every size-four row. | Preserve the finite witness and strict premises. No optimum or asymptotic geometry follows. |
+| RI-44 nominal processing implementation | **Next coordinator packet.** Implement RI-42, run and independently review synthetic qualification, then pin coefficients before observed filtering. | Publish the actual passing numerical record before the fixed nominal display; report failures without relaxing thresholds. |
+| RI-42 nominal strain display | **Design independently accepted; publication pending.** Frozen filter, crop, reference and prospective tolerances with retained L1 CW annotation. | Preserve the recipe. RI-44 supplies numerical qualification and then bounded conventional reproduction. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Archive/member identities, nearest-time selection, four numeric tables and pointwise uncertainty scope are reviewed; isolated replay and reconciliation pass. | Preserve the three-file bundle; freeze the nominal-display recipe next. |
 | RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** Compact-cylinder measure construction and the conditional exponential height bound pass root and independent proof review. | Preserve the analytic note. RI-41 examines remaining normalization freedom; no universal geometry rejection. |
 | RI-38 general extension | **Independently accepted and published in verified `9ee565e`.** The analytic maximal-deletion potential proves every inherited ratio cycle consistent and supplies an all-size conditional family. Root isolated normal/optimized replay and independent reviews pass. | Preserve the accepted proof/checker. RI-39 examines history measures and the selected family's geometric regime; no native-gravity inference. |
@@ -29,7 +30,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | RI-18 now supplies one complete earlier-weight/tree orchestration; general interoperability remains separate. The ledger records its supplied premises and rank-two limit. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | Calibration qualification: `79650a6`; history/height: `3aca9cd`; all-size conditional extension: `9ee565e`; native extension: `7335760`; actual GWOSC qualification: `8071ee3`. Exact timing consumer: `e2e5fcd`; native normalization note: `02a9453`; observation contract: `2216ac8`. Latest comparator contract: `c7f20c6`; readiness audit: `dcf6b67`. Conditional acquisition design: [829417d](https://github.com/omekagardens/det_8_framework/commit/829417d29a4b0c25b2c3f9562dc3d887c7f529e7). Reproduction handoff: `5e7f2f7`; observer model: `0fde8b2`; qubit model: `9f463f2`; prior status: `6f0de70`. Previous source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted identities and record scoped publication. RI-30 is accepted and its source reservation is released; no automatic successor is authorized. |
+| Remote checkpoints | Finite height normalization: `53f92fb`; calibration qualification: `79650a6`; history/height: `3aca9cd`; all-size conditional extension: `9ee565e`; native extension: `7335760`; actual GWOSC qualification: `8071ee3`. Exact timing consumer: `e2e5fcd`; native normalization note: `02a9453`; observation contract: `2216ac8`. Latest comparator contract: `c7f20c6`; readiness audit: `dcf6b67`. Conditional acquisition design: [829417d](https://github.com/omekagardens/det_8_framework/commit/829417d29a4b0c25b2c3f9562dc3d887c7f529e7). Reproduction handoff: `5e7f2f7`; observer model: `0fde8b2`; qubit model: `9f463f2`; prior status: `6f0de70`. Previous source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted identities and record scoped publication. RI-30 is accepted and its source reservation is released; no automatic successor is authorized. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -4675,3 +4676,55 @@ an all-size rule/invariant with vanishing uniform actual-height drift or a
 precise obstruction. Failure of uniform control must not be promoted to
 failure of a typical regime. The new reservation is in the plan. RI-42's
 nominal public-data design proceeds independently; RET remains paused.
+
+
+**RI-41 remote publication verified**
+
+Commit `53f92fb718a16b79f7a6f1732226945a917e2580`, tree
+`a784da689c4d49f924c2e62ce20487e2353519fb`, publishes exactly the three
+accepted normalization files and three coordinator records. The staged
+identities match the reviewed note and isolated-tested checker/certificate.
+All 105 local links, five distinct source targets and already-published
+inherited prerequisites passed; 2035 other entry versions stayed fixed.
+Normal push and a separate origin/ret lookup returned the same full commit;
+the index is empty. RI-42's active recipe was excluded. QR is confirmed
+active on RI-43's all-size selection question, with its new sources reserved
+and excluded from this checkpoint.
+
+
+**RI-42 independent design acceptance**
+
+The nominal display recipe is source-stable and accepted without edits,
+SHA-256 `872ab0e63ac15abb40b45dfe58d6cdfd6b0e920f1ed3d167044b17062386ad5a`,
+at `docs/experiments/gwosc_nominal_display_v1/RECIPE.md`. Root read the
+complete 247-line note and checked its input pins, exact crop alignment,
+filter specification and prospective evidence boundaries. The author
+researched the official GWOSC tutorial and versioned SciPy documentation.
+An independent reviewer read the full recipe and SciPy 1.14.1's primary
+`sosfiltfilt`, `sosfilt_zi` and odd-extension source. No design blocker remains.
+
+The 17 ordered filter stages use independent per-stage padding and passes;
+the reference initializes each section using preceding DC gains, initializes
+the reverse pass from the last complete forward output, keeps section order
+and removes padding before the next stage. The Decimal direct-form-I
+reference describes the ideal constant-prehistory semantics independently
+of SciPy's filtering helpers. Short and long synthetic crop indices align
+exactly. These are design/source reviews, not executions.
+
+The accepted recipe fixes CPython 3.11.6 / NumPy 2.1.3 / SciPy 1.14.1 /
+h5py 3.12.1, the precise response grid, five 2048-sample recurrence fixtures
+and 24 production-length tone/context fixtures. Prospective tolerances are
+`1e-8` for response representations, `1e-9*max(1,maxabs(input))` for the
+scalar-reference discrepancy, and `1e-3` for unit-tone/context discrepancies.
+No passing residual is invented. Finite synthetic tests cannot certify
+unknown physical continuation or a uniform arbitrary-signal error bound.
+Actual coefficients, their stability, measured residuals, normal/optimized
+agreement and manifest identities remain RI-44's implementation obligations.
+
+No observed waveform transformation, dependency installation, new data
+acquisition or plot was performed for this design. Previously qualified
+C02 summaries remain pointwise statistical inputs; no extra correction,
+confidence band or joint law is introduced. The L1 CW flag, nominal units
+and existing clock/physical-claim limits remain explicit. Publish this one
+recipe and three coordinator records only, then advance RI-44 while QR
+continues substantive RI-43 native-law work. The programme remains ongoing.

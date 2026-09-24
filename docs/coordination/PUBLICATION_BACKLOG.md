@@ -10,10 +10,11 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
+| RI-42 nominal display recipe | **Design independently accepted; publication pending.** One unchanged reviewed note; no numerical result. | Publish the frozen recipe and coordinator records, then implement RI-44. |
 | RI-43 all-size height selection | **Active; new sources excluded from publication.** | Independently review its source-stable selection result or obstruction. |
-| RI-41 normalization and height | **Independently accepted; publication pending.** Three-file exact finite decision with isolated normal/optimized replay. | Publish only the released note/checker/certificate and coordinator records. |
-| RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-41 stays independently reserved and the nominal-display recipe is next. |
-| RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** | Preserve the published note; RI-41 remains independently reserved. |
+| RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Three-file exact finite decision with isolated normal/optimized replay. | Preserve the published three-file bundle; RI-43 continues the native selection question. |
+| RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-42 fixes nominal processing and RI-44 will qualify it. |
+| RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** | Preserve the published note; RI-41 is accepted and RI-43 is independently reserved. |
 | RI-38 extension criterion | **Independently accepted and published in verified `9ee565e`.** Conditional all-size proof and exact finite corroboration passed complete reviews and root replay. | Preserve the published two-source bundle and its evidence; review RI-39 separately. |
 | RI-37 GWOSC input qualification | **Independently accepted and published in verified `8071ee3`.** Exact pair acquired, source/evidence reviews and isolated replay passed. | Preserve the four-file qualification bundle. Qualify C02 uncertainty next; no binary data or calibration-dependent fit is part of this checkpoint. |
 | RI-36 native extension | **Independently accepted and published in verified `7335760`.** Two source-stable files prove/corroborate a strictly positive four-birth extension, retaining record feedback. | Preserve RI-34/36 sources. RI-38's general extension result is now independently accepted. |
@@ -842,3 +843,34 @@ RI-43's new analytic selection work and RI-42's active measurement recipe
 are excluded. The independent review, unrelated baseline, protected
 validation, acquired inputs and RET pause remain untouched. Root will
 validate the exact staged dependency closure and verify the remote push.
+
+
+**RI-41 remote publication verified**
+
+Commit `53f92fb718a16b79f7a6f1732226945a917e2580`, tree
+`a784da689c4d49f924c2e62ce20487e2353519fb`, publishes exactly the three
+accepted normalization files and three coordinator records. The staged
+identities match the reviewed note and isolated-tested checker/certificate.
+All 105 local links, five distinct source targets and already-published
+inherited prerequisites passed; 2035 other entry versions stayed fixed.
+Normal push and a separate origin/ret lookup returned the same full commit;
+the index is empty. RI-42's active recipe was excluded. QR is confirmed
+active on RI-43's all-size selection question, with its new sources reserved
+and excluded from this checkpoint.
+
+
+**RI-42 frozen measurement-design checkpoint**
+
+Publish exactly `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` and
+the three coordinator records. Root and independent complete design review
+pass at the unchanged handed-off source identity recorded in progress.
+GWOSC's nominal tutorial and versioned SciPy primary sources support the
+explicit processing adaptation. Both local qualification dependencies are
+already published. No numerical run, new input acquisition, observed strain
+transformation or figure is part of this design-only checkpoint.
+
+RI-41 is already remotely verified and held fixed. RI-43's active native
+selection sources remain excluded. RI-44 is the next coordinator packet:
+implement and qualify the frozen numerical operations, publish passing
+coefficient identities, then produce the bounded nominal display. Existing
+calibration, source custody, protected validation and RET pause are preserved.
