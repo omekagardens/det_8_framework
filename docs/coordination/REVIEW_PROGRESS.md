@@ -3994,3 +3994,62 @@ entry versions outside the three changed coordinator records remain unchanged.
 The active RI-34 document is not staged. Root publishes only the reviewed
 assignment/ownership records; completed theorem acceptance remains pending
 the source-stable handoff and independent proof review.
+
+
+**RI-34 source handoff and independent acceptance — 24 September UTC**
+
+QR delivered the sole 379-line document
+`docs/track_b/native_joint_growth_constraints_v1/NORMAL_FORM.md` at SHA-256
+`3cb260e50556fac187048b17c428b910a9fddb3d4c3081526f3a3c966c2f63b5`,
+released its reservation and stopped. Root verified that identity and read
+the whole proof. Two independent coordinator reviewers separately accepted
+the same complete source: mathematical/prefix review and premise/domain/scope
+review. QR additionally reports two internal analytic reviews; these are not
+additional executions or scientific cases. The task snapshot is idle.
+
+Root checked Boolean inversion in both directions, the support-indexed
+coefficient sums on the full mark cube, separate pointwise positivity, and
+the common-sign response argument at fixed residual/context/background.
+Strict locality alone supplies no cross-parent consistency. Newborn-outcome
+probabilities, raw propensities, correlated preparation domains and processes
+with other mass-bearing alternatives are outside the stated corollary.
+
+For the scalar-passive fair-mark subfamily, all base-parent pairs were checked:
+empty parent (empty,empty) gives aD/4; singleton empty/empty gives adD/4;
+full/full gives (1-a)f(r)D/4; mixed gives (1-a)cD/4 versus a*g(r)D/4.
+Both outcomes, labeled multiplicities and complete transported residuals are
+retained. Equivariance and strict positivity yield the stated necessary and
+sufficient prefix inequalities; equal-precursor pairs impose no extra f
+restriction. No size-two-base diamond or all-size extension is established.
+
+The weak boundary uses undivided equations: a=0 forces c=0 without forcing
+g constant, and a=1 forces g=0. Unreachable parents remain in the admitted
+domain. The nonzero PSD matrix [[1,-1],[-1,1]] has zero total-entry mass;
+therefore scalar zero-map conclusions cannot be promoted to arbitrary
+full-map branches. The note accurately labels finite-prefix order feedback,
+all-zero records, scope restrictions and the absence of a native/physical
+conclusion. No proof correction or substantive scope change was needed.
+
+Only two administrative source phrases were updated to record coordinator
+acceptance. The final note hash is
+`ec489d9dce261ffbbf5be3c18d61f28c86cde6784f1f249f2e3e3743d71b4e7f`.
+Reversing those two phrases must reproduce the fully reviewed identity.
+All mathematical claims and the no-execution handoff remain unchanged.
+These checks were analytical; no project Python source, enumeration, random
+simulation, higher-parent search, scientific suite, data acquisition or
+protected/RET evaluation was run for this review.
+
+Entry HEAD is `508735d2dc9e6bb61ae0716cda44426e9f2ff663`, tree
+`127ed410b39c7df1f1befd607674a1afd6e9ab4f`; branch/upstream ret/origin/ret,
+index empty. Entry manifest contains 1,056 tracked and 966 untracked versions,
+including the handed-off note. Root will publish exactly that new note plus
+three coordinator records, preserving all 2,018 other entry versions. The
+new note's four document dependencies are published background only.
+No new QR assignment follows from acceptance. The exact timing consumer
+remains a separate coordinator opportunity, and RET's pause is unchanged.
+
+Publication preflight passed: 97 scoped local links resolve; all four note
+references exist in the published HEAD. All 2,018 entry versions outside
+the four-file candidate remain unchanged, and reversing only the two status
+phrases reproduces the independently reviewed note byte for byte. Root stages
+only this candidate and verifies each index hash before commit/push.
