@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted and published in verified `9ee565e`; RI-39's history measure and chosen-normalization rejection are independently accepted and published in verified `3aca9cd`; RI-41's finite normalization decision is independently accepted and published in verified `53f92fb`; RI-43's structural criterion and rejected stress rule are independently accepted and published in verified `1e2d2e4`, while all-size selection remains unresolved; RI-45's fixed-layer obstruction is published in verified `ebb7b27`; RI-46 now tests an occupation-controlled all-size selector. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. RI-40's public C02 calibration-input qualification is independently accepted and published in verified `79650a6`; RI-42's nominal strain-display design is independently accepted and published in verified `95c91bf`; RI-44's numerical implementation and synthetic qualification are published in verified `2a5c6f6`; observed processing remains next. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted and published in verified `9ee565e`; RI-39's history measure and chosen-normalization rejection are independently accepted and published in verified `3aca9cd`; RI-41's finite normalization decision is independently accepted and published in verified `53f92fb`; RI-43's structural criterion and rejected stress rule are independently accepted and published in verified `1e2d2e4`, while all-size selection remains unresolved; RI-45's fixed-layer obstruction is published in verified `ebb7b27`; RI-46's all-size occupation-controlled law is independently accepted; RI-48 now screens its morphology. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. RI-40's public C02 calibration-input qualification is independently accepted and published in verified `79650a6`; RI-42's nominal strain-display design is independently accepted and published in verified `95c91bf`; RI-44's numerical implementation and synthetic qualification are published in verified `2a5c6f6`; observed processing remains next. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -50,7 +50,7 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-45 is independently accepted and its three-file reservation is released for publication. RI-46 reserves only new `docs/track_b/native_growth_clone_selection_v1/SELECTION.md`: prove or refute the specified all-size occupation-controlled selector after the fixed RI-41 prefix. No next-layer table, accepted-source edit or git operation. |
+| QR task | RI-46 is independently accepted and its one-note reservation is released for publication. RI-48 reserves only new `docs/track_b/native_growth_clone_regime_v1/REGIME.md`: decide macroscopic common-past antichain and comparable-pair density behavior of that exact law. No new law, layer table, accepted-source edit or git operation. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. No observed display result is accepted yet. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -101,7 +101,8 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | ID | Review finding / deliverable | Owner | State and completion criterion |
 |---|---|---|---|
 | RI-47 | Nominal public V2 display | Coordinator | **Active after verified RI-44 admission.** Reproducible indexed crop and separate-panel display with exact identities and retained flags. |
-| RI-46 | Occupation-controlled all-size growth selector | QR; coordinator review | **Assigned after RI-45 acceptance.** Prove or refute the specified private-component law and actual-history height bounds. |
+| RI-46 | Occupation-controlled all-size growth selector | QR; coordinator review | **Independently accepted; publication pending.** Explicit strict conditional law with logarithmic expected height, almost-sure sublinear/diverging height and diverging width. |
+| RI-48 | Common-past layer and order-density regime | QR; coordinator review | **Assigned after RI-46 acceptance.** Determine macroscopic antichain and comparable-pair density behavior of the unchanged law. |
 | RI-44 | Nominal filtering numerical qualification | Coordinator | **Independently accepted and published in verified `2a5c6f6`.** Seven files, 105 gates per mode and separate exact audits; observed processing remains next. |
 | RI-43 | Structural height-drift selection criterion | QR; coordinator review | **Independently accepted and published in verified `1e2d2e4`.** Actual-history drift criterion and explicit antichain-focused rule rejection. |
 | RI-45 | First-free-layer preserving-only completion | QR; coordinator review | **Independently accepted and published in verified `ebb7b27`.** Exact finite separator and quantitative bound with root normal/optimized replay; RI-46 tests an occupation-controlled selector. |
@@ -1903,3 +1904,80 @@ fit or supply uncertainty/detection/native claims. Root owns actual outputs,
 visual inspection, source acceptance and all git/index operations. External
 scratch holds data and environments; accepted inputs, recipe, numerical bundle,
 native proofs and the RET pause remain fixed.
+
+
+**RI-48 assigned after RI-46 adjudication — macroscopic layer regime screen**
+
+RI-46 now proves sublinear but diverging height and diverging width for one
+strict conditional all-size law. Determine the morphology this law actually
+produces before treating those screens as geometric success. Keep the complete
+RI-46 formula and RI-41 prefix fixed. Reserve only the new analytic note
+`docs/track_b/native_growth_clone_regime_v1/REGIME.md`.
+
+Prove or refute the proposed exact run calculation. Starting at suitable size
+m, consecutive preferred births through size N have probability m/N and add
+N-m vertices to one antichain with identical strict past. For an arbitrary
+starting history, first take the preferred branch if suitable or a full birth
+if unsuitable, then take preferred births through N. Derive the exact conditional
+probability, retaining the one-step recovery and all marks, and bound it below
+by m/N; show that the final common-past top antichain has at least N-m vertices.
+Do not require a rare full birth from an already suitable parent as the only
+successful first step.
+
+Use this block event to assess two concrete targets: fixed-N lower tails
+`liminf P(width(P_N)/N >= theta) >= 1-theta` for 0<theta<1, and
+`limsup width(P_N)/N=1` almost surely via disjoint geometric blocks and
+conditional no-success products, with no independence assumption. State exact
+integer rounding and restart conditions. Define comparable-pair density using
+unordered distinct vertex pairs and determine which consequences follow from
+these antichains, including a proposed almost-sure liminf zero and failure of
+convergence in probability to any positive deterministic density.
+
+Distinguish finite-order intrinsic quantities, this birth-prefix exhaustion,
+limits in probability and almost-sure subsequences. If the targets hold, state
+precisely which additional regime requirements they exclude (such as vanishing
+relative width or a positive deterministic limiting order density). They are
+not, without further premises, a theorem about every continuum geometry or
+gravity. Do not tune eta, invent a replacement law, simulate more layers or
+import a target metric. Return the bounded analytic decision for independent
+review. RI-47 continues measured public-data reproduction in parallel; RET is
+still paused.
+
+
+**RI-46 independently accepted — an all-size occupation-controlled law**
+
+Root and a separate complete mathematical reviewer accept the analytic
+[selection theorem](docs/track_b/native_growth_clone_selection_v1/SELECTION.md). It keeps the complete RI-41 prefix through parent
+size four and explicitly selects every later level within RI-38's conditional
+scalar-passive model. For a parent whose maximal vertices have the same strict
+past C, the birth at C lies in a private marked-core component with unit loops.
+There is exactly one labeled preferred ideal in each such row and none in
+other rows. This proves that its large preferred probability is compatible
+with locality, equivariance, strict row normalization and every full-D scalar
+diamond. Actual earlier probabilities are recomputed in each later potential.
+
+With eta_n=1/(n+1), all other proper births have total mass below eta_n/2.
+Preferred births stay suitable and full births restore suitability from any
+parent. Thus unsuitable next-parent probability is below eta_n/2 at every
+history, and full-birth probability is above eta_n/2. Conditional harmonic
+bounds give expected height Theta(log N). Dyadic Markov/Borel-Cantelli and
+monotonicity prove H_N/N -> 0 almost surely and in every finite positive
+moment. A separate conditional no-full-birth product proves infinitely many
+full births, hence H_N -> infinity almost surely. Width also diverges from
+N<=height*width. All conditional sums restart at the specified finite cutoff.
+
+These are analytic statements; no executable, layer table, simulator or old
+suite was run. Reviews distinguish expected logarithmic height from an
+unproved almost-sure logarithmic bound, vanishing occupation from eventual
+suitability, and finite positive moments from L-infinity convergence. RI-45's
+specified unsuitable Q has drift above 11/12 under this law, so its finite
+separator remains valid; this law's worst-row drift tends to one.
+
+The construction is a new chosen conditional law, not DET entailment,
+informative quantum dynamics, a manifold, a physical clock or gravity. Its
+one-file reservation is released. Only administrative adjudication text is
+changed from the stable handoff. RI-48 is assigned after review to determine
+whether this exact law instead develops macroscopic common-past antichains
+and nonconvergent order-density behavior. Its one new analytic note is active
+and excluded from this publication. RI-47's numeric/display sources are under
+review in parallel, with no observed-data result accepted yet. RET stays paused.

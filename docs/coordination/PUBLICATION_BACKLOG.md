@@ -14,7 +14,8 @@ with unrelated changes to make an import succeed.
 | RI-44 nominal processing implementation | **Independently accepted and published in verified `2a5c6f6`.** Seven stable files include the passing 105-gate report and exact coefficient manifest. | Apply these admitted sources/coefficients to the frozen nominal public-data display. |
 | RI-45 first free completion cone | **Exact obstruction independently accepted and published in verified `ebb7b27`.** Full proof/source review and root/independent normal/optimized replay agree. | Preserve three accepted files; RI-46 is active on the occupation-controlled selector. |
 | RI-47 nominal public V2 display | **Active; seven new paths reserved and excluded.** RI-44 admission is already published. | Independently review/replay the exact numeric consumer and verify the separate renderer before publication. |
-| RI-46 occupation-controlled selector | **Assigned; one new analytic note reserved and excluded.** | Review its private-component law and actual-history theorem before acceptance. |
+| RI-46 occupation-controlled selector | **Independently accepted; scoped publication pending.** Complete proof reviews pass; no executor or numerical claim. | Publish the one stable note; RI-48 tests its actual morphology. |
+| RI-48 common-past layer regime | **Assigned; one new analytic note reserved and excluded.** | Review macroscopic-antichain and pair-density conclusions before any geometry inference. |
 | RI-43 all-size height selection | **Bounded analytic results independently accepted and published in verified `1e2d2e4`.** One structural criterion/rejected-selector note; the general target stays open. | Preserve the published note; RI-45 is actively assigned the first free cone decision. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Three-file exact finite decision with isolated normal/optimized replay. | Preserve the published three-file bundle; RI-43 continues the native selection question. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-42 fixes nominal processing and RI-44 will qualify it. |
@@ -1053,3 +1054,42 @@ fit or supply uncertainty/detection/native claims. Root owns actual outputs,
 visual inspection, source acceptance and all git/index operations. External
 scratch holds data and environments; accepted inputs, recipe, numerical bundle,
 native proofs and the RET pause remain fixed.
+
+
+**RI-46 independently accepted — an all-size occupation-controlled law**
+
+Root and a separate complete mathematical reviewer accept the analytic
+[selection theorem](../track_b/native_growth_clone_selection_v1/SELECTION.md). It keeps the complete RI-41 prefix through parent
+size four and explicitly selects every later level within RI-38's conditional
+scalar-passive model. For a parent whose maximal vertices have the same strict
+past C, the birth at C lies in a private marked-core component with unit loops.
+There is exactly one labeled preferred ideal in each such row and none in
+other rows. This proves that its large preferred probability is compatible
+with locality, equivariance, strict row normalization and every full-D scalar
+diamond. Actual earlier probabilities are recomputed in each later potential.
+
+With eta_n=1/(n+1), all other proper births have total mass below eta_n/2.
+Preferred births stay suitable and full births restore suitability from any
+parent. Thus unsuitable next-parent probability is below eta_n/2 at every
+history, and full-birth probability is above eta_n/2. Conditional harmonic
+bounds give expected height Theta(log N). Dyadic Markov/Borel-Cantelli and
+monotonicity prove H_N/N -> 0 almost surely and in every finite positive
+moment. A separate conditional no-full-birth product proves infinitely many
+full births, hence H_N -> infinity almost surely. Width also diverges from
+N<=height*width. All conditional sums restart at the specified finite cutoff.
+
+These are analytic statements; no executable, layer table, simulator or old
+suite was run. Reviews distinguish expected logarithmic height from an
+unproved almost-sure logarithmic bound, vanishing occupation from eventual
+suitability, and finite positive moments from L-infinity convergence. RI-45's
+specified unsuitable Q has drift above 11/12 under this law, so its finite
+separator remains valid; this law's worst-row drift tends to one.
+
+The construction is a new chosen conditional law, not DET entailment,
+informative quantum dynamics, a manifold, a physical clock or gravity. Its
+one-file reservation is released. Only administrative adjudication text is
+changed from the stable handoff. RI-48 is assigned after review to determine
+whether this exact law instead develops macroscopic common-past antichains
+and nonconvergent order-density behavior. Its one new analytic note is active
+and excluded from this publication. RI-47's numeric/display sources are under
+review in parallel, with no observed-data result accepted yet. RET stays paused.
