@@ -12,12 +12,12 @@ fingerprint, 75/75 fixtures and all eleven recorded helper-source pins are
 recovered. Reviewed durable path adaptations and a fresh execution freeze
 preceded actual execution; no gate is relaxed.
 RI-74 and RI-75 are published in verified `314d5e8` and `3a30ab0`.
-RI-76's defect limit and height obstruction are independently accepted;
+RI-76's defect limit and height obstruction are published in verified `ad44848`;
 RI-77's random-cutoff mixture locality decision is assigned to QR.
 Both RI-73 actual modes pass all 92 gates, with identical report/snapshot
 bytes; both independent entrywise audits also pass and match each other.
-The exact RESULT.json is prepared for scoped publication. RI-78 will freeze
-real-data spectral characterization after identical input recovery.
+The exact RESULT.json is published in the same verified `ad44848`. RI-78
+will freeze real-data spectral characterization using the recovered original inputs.
 The native programme continues, and RET remains paused.
 
 
@@ -7971,6 +7971,49 @@ optimized custody/freeze 2469/`4d80f270242cb272d14afe20a441419044b45bb7613a70e8a
 The normal metadata review's initial harness mistake rejected the already
 qualified interpreter symlink; its failure/source were retained and only
 that review predicate was corrected to the accepted caller semantics.
-No producer or auditor method changed. Final independent review is accepted: FINAL_INDEPENDENT_REVIEW.json,
+No producer or auditor method changed. Final independent review is accepted:
+FINAL_INDEPENDENT_REVIEW.json,
 5479 bytes, SHA-256
 `c4ac724cbde99d98b3b95f51fcf030a9ac00e48fd7aafa8998356e0f3a9eea1e`.
+
+
+**Verified publication of RI-76 and RI-73**
+
+The exact five-path checkpoint is committed as
+`ad44848f648a2533f5fe54a819e5234688eb2081`, tree
+`022547923b7af0f5682b9e7f82d2175dd02e441a`. Push succeeded; a separate
+`origin/ret` remote-ref lookup returned that exact commit. The staged source
+matched reviewed bytes; all 19 published dependencies, 134 local links,
+87 frozen external source entries and both independent audit outputs remained
+valid. All 2131 unrelated entry-file identities were retained. The index was
+empty afterward; unrelated pre-existing edits and active RI-77 work remain
+outside these commits. RI-77 is active in the existing QR task. RI-78 is the
+next coordinator design; exact input-custody recovery is now complete below.
+
+
+**Original public-data custody restored; RI-78 design next**
+
+The same two original RI-37 GWOSC V2 bodies were reacquired into durable
+`/Volumes/AI_DATA/development/det-review-evidence/ri37-input-recovery-20260924T221315Z-9ac44e02/inputs/`.
+Both single HTTP attempts returned 200 without redirects and matched original
+byte counts, SHA-256 and publisher MD5. No replacement revision or pin was
+chosen. Copied unchanged RI-37 inspector runs passed normal/-O in
+0.182/0.242s with empty stderr and the exact historical published report:
+31096 bytes, SHA-256
+`a734d2f73ed08749090a160f88e5a034077deffcfb4f8bd9abc4cc1c9ccbbe80`.
+Each detector has 131072 finite samples; L1's NO_CW_HW_INJ bit remains clear
+for all 32 seconds. These are fresh recovery receipts, not restored historical
+execution records. Root reopened both raw bodies, all 16 handoff source entries,
+four published source pins, runtime and both receipt/output chains.
+
+INPUT_RECOVERY_HANDOFF.json is 16293 bytes, SHA-256
+`be0b518ca43e423d7e2a737b85eec0cad119a1b4cbd19ed4f056f662277d2dc0`.
+Root custody review is retained as RI37_RECOVERY_REVIEW.json, 531 bytes,
+SHA-256 `ca616ff1c725e6df0854360288e091674da9cbed4d1b369bf40b6902094ee0e6`
+in the RI-73 root evidence directory. No strain transformation or spectral
+calculation has occurred. RI-78's next action is to freeze exact off-event
+indices, window/segment/overlap/detrend conventions, one-sided density
+normalization, side-specific segment counts, units, tolerances, exports and
+independent normalization checks before any PSD/ASD execution. Keep prior
+access and injection annotations explicit; a descriptive released-sample
+spectrum is not a proved detector-noise covariance or physical confidence law.

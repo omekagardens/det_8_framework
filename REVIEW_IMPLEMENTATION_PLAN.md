@@ -12,12 +12,12 @@ fingerprint, 75/75 fixtures and all eleven recorded helper-source pins are
 recovered. Reviewed durable path adaptations and a fresh execution freeze
 preceded actual execution; no gate is relaxed.
 RI-74 and RI-75 are published in verified `314d5e8` and `3a30ab0`.
-RI-76's defect limit and height obstruction are independently accepted;
+RI-76's defect limit and height obstruction are published in verified `ad44848`;
 RI-77's random-cutoff mixture locality decision is assigned to QR.
 Both RI-73 actual modes pass all 92 gates, with identical report/snapshot
 bytes; both independent entrywise audits also pass and match each other.
-The exact RESULT.json is prepared for scoped publication. RI-78 will freeze
-real-data spectral characterization after identical input recovery.
+The exact RESULT.json is published in the same verified `ad44848`. RI-78
+will freeze real-data spectral characterization using the recovered original inputs.
 The native programme continues, and RET remains paused.
 
 
@@ -71,7 +71,7 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is published in independently verified `f18b5d9`; reservation released. RI-74 is published in independently verified `314d5e8`; reservation released. RI-75 is published in verified `3a30ab0`; reservation released. RI-76 is independently accepted; one-note reservation released to root publication. RI-77 reserves only `LOCALITY.md`, optional `check.py` and optional `CERTIFICATE.json` in `docs/track_b/native_growth_random_cutoff_locality_v1/`. Preserve all accepted laws and central git ownership. |
+| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is published in independently verified `f18b5d9`; reservation released. RI-74 is published in independently verified `314d5e8`; reservation released. RI-75 is published in verified `3a30ab0`; reservation released. RI-76 is published in verified `ad44848`; one-note reservation released. RI-77 reserves only `LOCALITY.md`, optional `check.py` and optional `CERTIFICATE.json` in `docs/track_b/native_growth_random_cutoff_locality_v1/`. Preserve all accepted laws and central git ownership. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -84,10 +84,10 @@ Active file reservations, updated 24 September UTC:
 | RI-72 critical-suppression height | Published in independently verified `f18b5d9`; reservation released. |
 | RI-74 Plancherel boundary graft | Published in independently verified `314d5e8`; reservation released. Unadopted zero-allowed theorem with fresh durable normal/optimized replay. |
 | RI-75 strict approximation | Published in independently verified `3a30ab0`; reservation released. Exact prefix and finite-depth convergence only. |
-| RI-76 approximation asymptotics | Independently accepted; one-note reservation released to root publication. Defect decay and positive-probability height obstruction are inseparable conclusions. |
+| RI-76 approximation asymptotics | Published in independently verified `ad44848`; reservation released. Defect decay and positive-probability height obstruction are inseparable conclusions. |
 | RI-77 random-cutoff locality | Only `LOCALITY.md`, optional `check.py` and optional `CERTIFICATE.json` in `docs/track_b/native_growth_random_cutoff_locality_v1/`; QR author, root git. Fixed two-core locality witness domain, no new global parent-six table. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
-| RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` is source-stable for root publication. Preserve the fixed unit-white scope. |
+| RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` published in verified `ad44848`. Reservation released; preserve the fixed unit-white scope. |
 | RI-68 synthetic noise qualification | Two-file packet published in independently verified `4280198`; reservation released. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
 | RI-53 NR comparison | The eight-file bundle is published in verified `1993e24` and source-quiet; reservation released. |
@@ -4882,3 +4882,45 @@ HDF5 files were lost; a scoped durable inventory found no copies there.
 Byte-identical recovery is proceeding without revision substitution or new
 pins. No PSD estimator, window choice, inverse-noise score or physical
 confidence calculation is adopted by this checkpoint.
+
+
+**Verified publication of RI-76 and RI-73**
+
+The exact five-path checkpoint is committed as
+`ad44848f648a2533f5fe54a819e5234688eb2081`, tree
+`022547923b7af0f5682b9e7f82d2175dd02e441a`. Push succeeded; a separate
+`origin/ret` remote-ref lookup returned that exact commit. The staged source
+matched reviewed bytes; all 19 published dependencies, 134 local links,
+87 frozen external source entries and both independent audit outputs remained
+valid. All 2131 unrelated entry-file identities were retained. The index was
+empty afterward; unrelated pre-existing edits and active RI-77 work remain
+outside these commits. RI-77 is active in the existing QR task. RI-78 is the
+next coordinator design; exact input-custody recovery is now complete below.
+
+
+**Original public-data custody restored; RI-78 design next**
+
+The same two original RI-37 GWOSC V2 bodies were reacquired into durable
+`/Volumes/AI_DATA/development/det-review-evidence/ri37-input-recovery-20260924T221315Z-9ac44e02/inputs/`.
+Both single HTTP attempts returned 200 without redirects and matched original
+byte counts, SHA-256 and publisher MD5. No replacement revision or pin was
+chosen. Copied unchanged RI-37 inspector runs passed normal/-O in
+0.182/0.242s with empty stderr and the exact historical published report:
+31096 bytes, SHA-256
+`a734d2f73ed08749090a160f88e5a034077deffcfb4f8bd9abc4cc1c9ccbbe80`.
+Each detector has 131072 finite samples; L1's NO_CW_HW_INJ bit remains clear
+for all 32 seconds. These are fresh recovery receipts, not restored historical
+execution records. Root reopened both raw bodies, all 16 handoff source entries,
+four published source pins, runtime and both receipt/output chains.
+
+INPUT_RECOVERY_HANDOFF.json is 16293 bytes, SHA-256
+`be0b518ca43e423d7e2a737b85eec0cad119a1b4cbd19ed4f056f662277d2dc0`.
+Root custody review is retained as RI37_RECOVERY_REVIEW.json, 531 bytes,
+SHA-256 `ca616ff1c725e6df0854360288e091674da9cbed4d1b369bf40b6902094ee0e6`
+in the RI-73 root evidence directory. No strain transformation or spectral
+calculation has occurred. RI-78's next action is to freeze exact off-event
+indices, window/segment/overlap/detrend conventions, one-sided density
+normalization, side-specific segment counts, units, tolerances, exports and
+independent normalization checks before any PSD/ASD execution. Keep prior
+access and injection annotations explicit; a descriptive released-sample
+spectrum is not a proved detector-noise covariance or physical confidence law.

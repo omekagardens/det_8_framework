@@ -12,12 +12,12 @@ fingerprint, 75/75 fixtures and all eleven recorded helper-source pins are
 recovered. Reviewed durable path adaptations and a fresh execution freeze
 preceded actual execution; no gate is relaxed.
 RI-74 and RI-75 are published in verified `314d5e8` and `3a30ab0`.
-RI-76's defect limit and height obstruction are independently accepted;
+RI-76's defect limit and height obstruction are published in verified `ad44848`;
 RI-77's random-cutoff mixture locality decision is assigned to QR.
 Both RI-73 actual modes pass all 92 gates, with identical report/snapshot
 bytes; both independent entrywise audits also pass and match each other.
-The exact RESULT.json is prepared for scoped publication. RI-78 will freeze
-real-data spectral characterization after identical input recovery.
+The exact RESULT.json is published in the same verified `ad44848`. RI-78
+will freeze real-data spectral characterization using the recovered original inputs.
 The native programme continues, and RET remains paused.
 
 
@@ -32,10 +32,10 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-77 random-cutoff locality | **Assigned; three possible new paths reserved.** | Decide strict record locality of the specified latent-cutoff mixture, with a frozen two-core witness domain. |
-| RI-76 approximation asymptotics | **Independently accepted; one note source-stable.** | Publish defect decay and height obstruction together; review RI-77 next. |
+| RI-76 approximation asymptotics | **Published in independently verified `ad44848`.** | Preserve defect decay and height obstruction together; review RI-77 next. |
 | RI-75 strict approximation | **Published in independently verified `3a30ab0`.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 separately resolves long-run limits. |
 | RI-74 Plancherel boundary graft | **Published in independently verified `314d5e8`.** | Preserve the conditional zero-allowed theorem; RI-75 investigates strict approximation. |
-| RI-73 operator covariance implementation | **Reviewed source published in independently verified `6e58490`.** | Both actual modes and independent audits pass; publish exact `RESULT.json` and preserve fixed unit-white scope. |
+| RI-73 operator covariance implementation | **Source and accepted actual result published in independently verified `6e58490` and `ad44848`.** | Preserve fixed unit-white scope; advance RI-78 descriptive public-data spectrum design. |
 | RI-72 critical-suppression height | **Published in independently verified `f18b5d9`.** | Preserve accepted exact minimum; RI-74 examines the boundary graft. |
 | RI-71 operator covariance design | **Published in independently verified `ebfd0ec`.** | Preserve the design; RI-73 implements unchanged gates. |
 | RI-68 synthetic noise qualification | **Published in independently verified `4280198`.** | Preserve the frozen result; RI-71 supplies the next integration design. |
@@ -3917,3 +3917,45 @@ HDF5 files were lost; a scoped durable inventory found no copies there.
 Byte-identical recovery is proceeding without revision substitution or new
 pins. No PSD estimator, window choice, inverse-noise score or physical
 confidence calculation is adopted by this checkpoint.
+
+
+**Verified publication of RI-76 and RI-73**
+
+The exact five-path checkpoint is committed as
+`ad44848f648a2533f5fe54a819e5234688eb2081`, tree
+`022547923b7af0f5682b9e7f82d2175dd02e441a`. Push succeeded; a separate
+`origin/ret` remote-ref lookup returned that exact commit. The staged source
+matched reviewed bytes; all 19 published dependencies, 134 local links,
+87 frozen external source entries and both independent audit outputs remained
+valid. All 2131 unrelated entry-file identities were retained. The index was
+empty afterward; unrelated pre-existing edits and active RI-77 work remain
+outside these commits. RI-77 is active in the existing QR task. RI-78 is the
+next coordinator design; exact input-custody recovery is now complete below.
+
+
+**Original public-data custody restored; RI-78 design next**
+
+The same two original RI-37 GWOSC V2 bodies were reacquired into durable
+`/Volumes/AI_DATA/development/det-review-evidence/ri37-input-recovery-20260924T221315Z-9ac44e02/inputs/`.
+Both single HTTP attempts returned 200 without redirects and matched original
+byte counts, SHA-256 and publisher MD5. No replacement revision or pin was
+chosen. Copied unchanged RI-37 inspector runs passed normal/-O in
+0.182/0.242s with empty stderr and the exact historical published report:
+31096 bytes, SHA-256
+`a734d2f73ed08749090a160f88e5a034077deffcfb4f8bd9abc4cc1c9ccbbe80`.
+Each detector has 131072 finite samples; L1's NO_CW_HW_INJ bit remains clear
+for all 32 seconds. These are fresh recovery receipts, not restored historical
+execution records. Root reopened both raw bodies, all 16 handoff source entries,
+four published source pins, runtime and both receipt/output chains.
+
+INPUT_RECOVERY_HANDOFF.json is 16293 bytes, SHA-256
+`be0b518ca43e423d7e2a737b85eec0cad119a1b4cbd19ed4f056f662277d2dc0`.
+Root custody review is retained as RI37_RECOVERY_REVIEW.json, 531 bytes,
+SHA-256 `ca616ff1c725e6df0854360288e091674da9cbed4d1b369bf40b6902094ee0e6`
+in the RI-73 root evidence directory. No strain transformation or spectral
+calculation has occurred. RI-78's next action is to freeze exact off-event
+indices, window/segment/overlap/detrend conventions, one-sided density
+normalization, side-specific segment counts, units, tolerances, exports and
+independent normalization checks before any PSD/ASD execution. Keep prior
+access and injection annotations explicit; a descriptive released-sample
+spectrum is not a proved detector-noise covariance or physical confidence law.
