@@ -13,7 +13,7 @@ with unrelated changes to make an import succeed.
 | RI-29 RET readiness handoff | **Accepted and published in independently verified `dcf6b67`.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Preserve the published audit and its source boundaries. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
 | RI-30 comparator target precision | **Accepted and published in independently verified `c7f20c6`.** Four isolated files passed proof/API reviews, 48 root tests per mode and a separate 400-case projection audit. | Preserve the four-file [contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its reviewed identities. No RET dependency; no measured benefit or automatic successor. |
 | RI-31 native geometry/gravity/measurement plan | **Plan independently accepted and published in verified `40b0329`.** One new programme and three coordinator records. | Preserve the plan. Proposed cycle 1: native joint-law dossier plus observation-channel and public-data qualification; no implementation reservation yet. |
-| RI-32 native candidate dossier | **Family-scoped rejection independently accepted; publication pending.** | Publish the reviewed one-document dossier with coordinator records; no implementation or automatic replacement family. |
+| RI-32 native candidate dossier | **Family-scoped rejection independently accepted and published in verified `45e3f76`.** | Preserve the reviewed one-document dossier; no implementation or automatic replacement family. |
 | RI-33 observation-channel contract | **Independently accepted and published in verified `2216ac8`.** Exact timing proof/design and GWOSC metadata-qualified candidate. | Preserve the accepted contract. No scientific data, executable consumer or RET dependency. |
 | RI-25 qubit-and-record experiment | **Published in independently verified `9f463f2`.** Twelve isolated experiment files, three QR summaries and four coordinator records; final reviews, 61 tests per mode and 82 independent exported-data checks passed. | Preserve source pins; calibrated measured W remains external. No core/RET dependency is required by this standard-library experiment. |
 | RI-26 supplied-geometry observer model | **Published in independently verified `0fde8b2`.** Eleven isolated bundle files, three QR summaries and four coordinator records. Three final reviews, 51 tests per mode, 52 identical exports and 331 separate exported-data checks passed. | Preserve the eleven bundle identities and all 87 held predecessors. No core/RET dependency or automatic successor is opened. |
@@ -591,3 +591,12 @@ document references are published background; the untracked T8 source is
 explicit local-only attribution and is not imported or staged. The owner
 performed analytic reviews only, and root separately checked scalar witness
 arithmetic. No executor, enumeration, simulation or successor is needed.
+
+
+RI-32 is published in independently verified
+`45e3f765570c0b3fe630e15553207bd6a9530589`, tree
+`7157a8da6c2668b437822dc6f0f7607a63e1b401`. Exact four-file staged
+hashes, 95 local links, all five published dossier references, 2,016 preserved
+entry versions and the unchanged RI-33 contract passed. Normal push and
+separate remote lookup succeeded. Only the three coordinator records receive
+final publication metadata; no accepted science source is modified.

@@ -3931,3 +3931,22 @@ Final RI-32 publication identity:
 `341f9e195308a229e2c221bf4d430e9fa747aafb65c6aec78bf068d0c2a0a12f`.
 Reversing only that opening administrative label reproduces the independently
 reviewed handoff hash exactly.
+
+
+**RI-32 remote publication verified and next-scope consultation**
+
+Commit `45e3f765570c0b3fe630e15553207bd6a9530589`, tree
+`7157a8da6c2668b437822dc6f0f7607a63e1b401`, publishes exactly the accepted
+dossier and three coordinator records. Staged hashes matched acceptance;
+95 scoped local links and all five published background references resolved.
+All 2,016 entry file versions outside those records and the new accepted
+RI-33 contract remain unchanged. Normal push and independent origin/ret
+lookup confirmed the full commit; the index was empty.
+
+During publication QR reported its user's new request to continue with the
+next obligation. Root confirmed predecessor acceptance and requested one
+read-only next-scope recommendation, with no source reservation yet. It must
+address complete joint consistency, normalization and strict read permissions
+without weakening premises or implementing the rejected family. No new
+family/executor was automatically assigned. The final three-record status
+checkpoint preserves both completed documents and every accepted predecessor.

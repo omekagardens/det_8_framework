@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -51,7 +51,7 @@ Active file reservations, updated 23 September:
 | Owner | Reserved files |
 |---|---|
 | QR task | RI-32 is independently accepted as a family-scoped rejection; its single-document reservation is released. No active QR source reservation or automatic replacement family. Accepted models and summaries remain fixed. |
-| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. No source implementation reservation is active; RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. Root reserves the accepted new RI-32 dossier and these three records only for scoped publication; no RET or acquisition work. |
+| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. No source implementation reservation is active; RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. Only these three coordinator records remain reserved; no RET or acquisition work. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -99,7 +99,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-29 | RET readiness and publication handoff | Coordinator; RET owner consulted | **Static audit accepted and published in verified `dcf6b67`.** [Current evidence and bounded next increments](docs/coordination/RET_REENTRY_AUDIT.md) distinguish the unintegrated reader, predictive-family bridge, and comparator source-preview prerequisites. No RET implementation or G2 execution is assigned; the owner confirms the user pause. |
 | RI-30 | Comparator target precision under model changes | QR implementation; coordinator acceptance | **Independently accepted and published in verified `c7f20c6`.** [Four-file contract](docs/experiments/comparator_target_contract_v1/CONTRACT.md) gives exact compatible offset intervals, minimax error and model/record-role handling. Root passed 48 tests per mode and 400 independent projection comparisons. Source reservation released; no RET edits or automatic successor. |
 | RI-31 | Native geometry, gravity and measurement programme | Coordinator plan; QR read-only scope review | **Plan independently accepted and published in verified `40b0329`.** [Staged work packets](docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md) prioritize one native joint-law dossier, an observation-channel contract and public-data qualification. Simulations/public data first; no new implementation reservation or RET resumption. |
-| RI-32 | First native joint-law candidate dossier | QR; coordinator review | **Family-scoped rejection independently accepted; publication pending.** [Dossier](docs/track_b/native_joint_growth_v1/DOSSIER.md) gives a reachable full-map covariance counterexample for every parameter and strict-read failure for positive coupling. No executor or replacement family warranted by this result. |
+| RI-32 | First native joint-law candidate dossier | QR; coordinator review | **Family-scoped rejection independently accepted and published in verified `45e3f76`.** [Dossier](docs/track_b/native_joint_growth_v1/DOSSIER.md) gives a reachable full-map covariance counterexample for every parameter and strict-read failure for positive coupling. No executor or replacement family warranted by this result. |
 | RI-33 | Observation channel and public-data qualification | Coordinator | **Design independently accepted and published in verified `2216ac8`.** [Contract](docs/experiments/observer_channel_v1/CONTRACT.md) proves exact two-way offset compatibility and preserves uncertainty/channel boundaries; selected GWOSC V2 pair is metadata-qualified only. No scientific acquisition or RET change. |
 | RI-01 | F1: reconcile current status and authorizations | Coordinator | **Accepted.** Six landing/status documents now distinguish source-bound local G1 closure, open G2 and the separately authorized bounded QR lane including mass/gravity research. Retired κ-gravity remains retired. Coordinator checked 117 local file links across these documents and the new trackers/runner guide; no missing targets. |
 | RI-02 | F2: repair the pair-kernel research contract | Coordinator | **Accepted for this research interface.** Singular Gram reconstruction, exact recordability and raw-probability validation repaired. Coordinator independently reran 97 focused pytest cases; implementer also ran 49 existing consumer checks. `cholesky()` returns a pivoted Gram factor, not necessarily triangular. No public-core promotion. |
@@ -1010,3 +1010,20 @@ plus coordinator records; preserve all accepted predecessors and RI-33.
 The next useful coordinator increment is the reviewed exact timing consumer;
 any new native family requires a fresh bounded design addressing joint
 normalization, read permissions and complete-map covariance from the outset.
+
+
+RI-32 is published in independently verified
+`45e3f765570c0b3fe630e15553207bd6a9530589`, tree
+`7157a8da6c2668b437822dc6f0f7607a63e1b401`. Exactly the accepted dossier
+and three coordinator records were staged, with all accepted identities
+matching. All 95 scoped local links and the dossier's five published document
+references resolved. All 2,016 entry versions outside the changed coordinator
+records and the newly published RI-33 contract remain unchanged. Normal push
+and independent origin/ret verification passed; the index was empty.
+
+The QR user subsequently requested the next obligation. Root acknowledged
+that direction and requested a read-only, consistency-first scope
+recommendation addressing joint normalization, strict record reads and
+full-map covariance before reserving another family. This is consultation,
+not an implementation or automatic replacement assignment. Both completed
+cycle-1 artifacts remain fixed; RET remains paused.
