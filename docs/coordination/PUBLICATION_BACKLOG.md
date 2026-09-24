@@ -1,6 +1,6 @@
 **Accepted work and remote publication**
 
-Updated 23 September 2026. Coordinator-owned companion to the
+Updated 24 September 2026 UTC. Coordinator-owned companion to the
 [implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) and
 [progress record](REVIEW_PROGRESS.md). Acceptance of a bounded result in the
 shared working tree and publication of its complete source dependencies are
@@ -10,11 +10,12 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
+| RI-35 exact timing consumer | **Independently accepted; publication next.** Four standalone files, 43 tests per mode, seven identical exports and a separate 128-case exact projection audit. | Publish exactly the [bundle](../experiments/exact_timing_v1/IMPLEMENTATION.md) and three coordinator records. Its source is stable; no RET/core dependency or scientific data. |
 | RI-29 RET readiness handoff | **Accepted and published in independently verified `dcf6b67`.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Preserve the published audit and its source boundaries. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
 | RI-30 comparator target precision | **Accepted and published in independently verified `c7f20c6`.** Four isolated files passed proof/API reviews, 48 root tests per mode and a separate 400-case projection audit. | Preserve the four-file [contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its reviewed identities. No RET dependency; no measured benefit or automatic successor. |
-| RI-31 native geometry/gravity/measurement plan | **Plan independently accepted and published in verified `40b0329`.** One new programme and three coordinator records. | Preserve the plan. Proposed cycle 1: native joint-law dossier plus observation-channel and public-data qualification; no implementation reservation yet. |
+| RI-31 native geometry/gravity/measurement plan | **Plan independently accepted and published in verified `40b0329`.** One new programme and three coordinator records. | Preserve the plan. RI-32/33 supply the initial dossier and observation contract; RI-34 supplies native necessary conditions and RI-35 implements exact timing. Public-data qualification is the next independent measurement packet. |
 | RI-32 native candidate dossier | **Family-scoped rejection independently accepted and published in verified `45e3f76`.** | Preserve the reviewed one-document dossier; no implementation or automatic replacement family. |
-| RI-33 observation-channel contract | **Independently accepted and published in verified `2216ac8`.** Exact timing proof/design and GWOSC metadata-qualified candidate. | Preserve the accepted contract. No scientific data, executable consumer or RET dependency. |
+| RI-33 observation-channel contract | **Independently accepted and published in verified `2216ac8`.** Exact timing proof/design and GWOSC metadata-qualified candidate. | Preserve the accepted contract. The separate RI-35 bundle implements only exact timing; no scientific data or RET dependency. |
 | RI-34 strict-local normalization note | **Independently accepted and published in verified `02a9453`.** Single-document reservation released. | Preserve the reviewed note. No executor, all-size native law or automatic successor. |
 | RI-25 qubit-and-record experiment | **Published in independently verified `9f463f2`.** Twelve isolated experiment files, three QR summaries and four coordinator records; final reviews, 61 tests per mode and 82 independent exported-data checks passed. | Preserve source pins; calibrated measured W remains external. No core/RET dependency is required by this standard-library experiment. |
 | RI-26 supplied-geometry observer model | **Published in independently verified `0fde8b2`.** Eleven isolated bundle files, three QR summaries and four coordinator records. Three final reviews, 51 tests per mode, 52 identical exports and 331 separate exported-data checks passed. | Preserve the eleven bundle identities and all 87 held predecessors. No core/RET dependency or automatic successor is opened. |
@@ -632,3 +633,27 @@ four published background targets and 2,018 unchanged entry versions passed
 preflight. Normal push and separate remote verification succeeded. The note
 remains at `ec489d9dce261ffbbf5be3c18d61f28c86cde6784f1f249f2e3e3743d71b4e7f`;
 only coordinator publication metadata is updated afterward.
+
+
+**RI-35 accepted exact timing consumer**
+
+Publish exactly four new files under `docs/experiments/exact_timing_v1/` plus
+plan/progress/backlog. The implementation and tests were independently authored;
+root and a separate reviewer accepted the complete frozen source. Root's
+isolated Python 3.11.6 replay passed 43 tests per mode. Seven worked exports
+match between modes and contain twelve raw-constraint-checked witnesses.
+A separate 128-case exact linear projection audit agrees with the consumer
+(68 compatible, 60 incompatible), with 204 attaining targets checked.
+
+The four source identities and worked-output digest are recorded in progress.
+Runtime closure is standard library plus local bundle files only. The accepted
+RI-33 proof remains unchanged; no core, RET, data reader or calibration source
+is staged for this consumer. Declaration hashes are not external evidence
+checks, and exact conditional compatibility is not a measured physical result.
+
+The next independent measurement packet qualifies the already selected GWOSC
+V2 candidates' provenance, data quality and calibration requirements before a
+measured fit. Native-law extension and correlated uncertainty need separate
+bounded scopes; no new QR assignment follows automatically. All historical
+sources, acceptance thresholds, protected-validation requirements and the
+explicit RET pause remain held.

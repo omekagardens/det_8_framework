@@ -6,6 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
+| RI-35 exact timing consumer | **Independently accepted; scoped publication next.** Four standalone files passed complete source review, 43 root tests per mode and a separate 128-case exact projection audit. Seven exports match between modes; twelve exported witnesses satisfy raw observations. | Preserve the [implementation](../experiments/exact_timing_v1/IMPLEMENTATION.md) and RI-33 contract. Public-data qualification is the next independent measurement packet; uncertain clocks and native dynamics remain separate. |
 | RI-29 RET readiness | **Read-only audit accepted and published in verified `dcf6b67`.** Two coordinator reviews and a concordant RET-owner handoff confirm the missing reader/evaluator bridge and separate comparator source-preview dependency. | Preserve [the bounded audit](RET_REENTRY_AUDIT.md). Preserve the owner's explicit RET pause; no code, banks or historical suites were executed. |
 | RI-30 comparator precision | **Independently accepted and published in verified `c7f20c6`.** Four standalone files passed full proof/source reviews, 48 isolated tests per mode and a separate 400-case exact projection audit. | Preserve the [target contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its four source identities. Reservation released; measured benefit remains open. |
 | RI-25 qubit-and-record experiment | **Independently accepted and published in verified `9f463f2`.** Final mathematical, record/data-flow and scope reviews passed. Root passed 61 isolated tests per mode, reproduced 12 identical worked exports and reconciled 82 independent exported-data checks. All 12 bundle identities are recorded below. | Preserve its twelve source identities. Calibrated measured W remains open; the separately scoped RI-26 model is also independently accepted. |
@@ -4069,3 +4070,95 @@ The final three-record status checkpoint preserves every proof/source byte
 and adds no theorem, run or evidence count. QR receives publication completion
 with no successor assignment. Native-law existence/extension, matter/gravity,
 physical readout and the separate RET pause remain as previously recorded.
+
+
+**RI-35 — exact timing implementation independently accepted**
+
+24 September 2026 UTC. QR is idle after acknowledging RI-34 publication and
+this separate coordinator scope. No new theorem, counterexample or active
+source reservation needs adjudication. Root advances the accepted RI-33
+exact two-way timing contract in four new files, with no RET, scientific-data
+acquisition, project-package import or modification to any held proof/model.
+
+The agreed API requires four actual selected exact readings, explicit common
+unit/shared-rate constant-offset clocks, matching exchange/message identities,
+optional finite directional/asymmetry bounds and a precision tolerance.
+All declarations and record order bind the digest, including nontraining rows,
+uncertainty labels and reasons. During API review, an independent reviewer
+identified the missing retention of exclusion/missingness reasons. A required
+`disposition_reason` for nonactual, unselected or nonreading rows was added to
+the interface, implementation and independently authored tests before handoff.
+
+Root read all source; a separate reviewer read the same four final files and
+accepted the projection/witness arithmetic, role filtering, exact validation,
+refusal precedence, input limits, replay recipe and claim boundaries. The
+implementation author reports 64 focused self-check assertions on Python
+3.14.0; the test author reports 43 tests per mode. These author checks are
+separate from root's replay and are not additional scientific cases.
+
+Root copied the four accepted files into an isolated temporary directory and
+ran only that bundle using Python 3.11.6 with `-I -S -B`, and again with `-O`.
+Both runs passed **43 tests in 0.048 s each**, with no failures, errors, skips
+or expected failures. The suite retains seven RI-33 fixtures, direct clock and
+chronology checks, four generated schedules with 85 rational feasibility
+probes each, malformed/unsupported/missingness/association checks, all-field
+identity and role checks, 64-record/256-bit input boundaries, and exact derived
+endpoints whose sizes exceed the input limits. These are conditional rational
+fixtures, not physical measurements or a native-law simulation.
+
+The normal and optimized `--worked` outputs are byte-identical at SHA-256
+`48e5ac25b6024e408e5f76ae8c2e32323427b02658ea30565cf883c83bb179aa`.
+Root independently decoded all seven cases, reconstructed their declaration
+digests, checked expected interval/status/precision results, and checked all
+**12 exported witnesses** against their original displayed clocks, chronology
+and supplied directional/asymmetry bounds. The singleton's lower/mid/upper
+exports coincide; twelve is an export count, not twelve distinct experiments.
+
+A separate temporary coordinator oracle reused RI-33's exact generic
+Fourier–Motzkin machinery on the original linear clock/delay constraints,
+without importing the production interval formula. Across **128** deterministic
+requests (eight timestamp patterns, eight optional-bound masks, two bound
+variants), it agrees on **68 compatible and 60 incompatible** systems. All
+**204** lower/mid/upper witnesses for compatible systems satisfy those raw
+inequalities; outside targets are rejected. This finite implementation audit
+is supplemental, not a replacement for RI-33's proof, a new registered suite,
+or a published general uncertain-clock solver. Durable replay is the isolated
+43-test bundle and seven worked exports described in its guide.
+
+Accepted bundle SHA-256 identities:
+
+| File under `docs/experiments/exact_timing_v1/` | SHA-256 |
+|---|---|
+| `timing.py` | `6d2a8a332d37b324d18f4e4ea0617aaf2ec2e665a93f5a5f54485b9ae885a7ad` |
+| `test_timing.py` | `b59b5914cb0ac04b8975814fe1a4e6a16f35d24f7157ab39efee61382457197a` |
+| `run_checks.py` | `876085e3030e3525cdba658535e1dc40eca8300d1f0c1ffe29932835925c2c1f` |
+| `IMPLEMENTATION.md` | `a4c92e5725ee5df76c4043e67aab73f922e83759366c7a62d995f270f9fd6435` |
+
+The only runtime imports are standard-library modules and this bundle's own
+`timing` module; the launcher loads only `test_timing`. No site packages,
+project source, hidden simulator truth or bytecode output is needed. RI-33
+remains at `6dc0df2c94747df68f251114d75ba6e568cc69b75f27c8946b680aeac7d54f66`.
+
+Remaining premises: supplied clock and channel declarations are not verified
+calibration, source evidence or custody. Drift/quantization falsely labeled
+exact cannot be detected solely from four values. Finite nonreceipt has no
+numeric cutoff here and permits only insufficient-record disposition. Correlated
+uncertainty, multiexchange inference, public-data qualification, native dynamics
+and the native-to-instrument map remain distinct tasks. A bounded qualification
+packet for RI-33's selected GWOSC V2 products is the next independent measurement
+step; no scientific file was acquired this cycle. No QR successor or RET work
+is assigned.
+
+Entry HEAD is `f7697fab92a345c6b4ac800ab5b8dc6e66efb40a`, tree
+`0263623fbe8f823ee4dc3a0819f8dc43df15253d`, branch/upstream ret/origin/ret,
+with an empty index. The entry manifest records 1,057 tracked and 965 untracked
+versions. Publication includes only the four new bundle files and these three
+coordinator records; all 2,019 pre-existing versions outside the changed records
+must remain unchanged, including the original review and every held source.
+
+Publication preflight passed: all 101 scoped local Markdown links resolve,
+and the guide's five document/source references are in the candidate or
+published HEAD. All 2,019 entry versions outside the three changed records
+remain byte-identical. The four bundle files match the independently reviewed
+and isolated-tested candidate exactly. Root stages only these seven files and
+checks their index identities before the normal commit and push.

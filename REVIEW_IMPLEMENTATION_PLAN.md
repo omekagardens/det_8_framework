@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; no successor is assigned. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; no successor is assigned. RI-35 now implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Publication is the next step. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -46,12 +46,12 @@ consolidates domain, range, availability and composition boundaries.
 Acceptance details and source identities are in the progress record. Each
 successor still requires its own proof/source review.
 
-Active file reservations, updated 23 September:
+Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
 | QR task | RI-34 is independently accepted and its single-document reservation is released. No active QR source reservation or automatic successor. RI-32/33, all accepted models and QR summaries remain fixed. |
-| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. No source implementation reservation is active; RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; only these three coordinator status records remain reserved. No RET or acquisition work. |
+| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted and source-stable; author reservations are released. Root owns only their scoped publication and these three coordinator records. RI-33 CONTRACT.md stays fixed. No RET or acquisition work. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -1104,3 +1104,51 @@ Normal push and an independent origin/ret lookup confirmed the full commit;
 the index was empty. The proof note stays fixed at its accepted publication
 identity. Only three coordinator records receive this final status update.
 No native-law, executor or other QR successor is assigned.
+
+
+**RI-35 bounded coordinator implementation — exact timing consumer**
+
+Following the independently accepted RI-33 contract, implement only its
+exact two-message/four-timestamp inference and optional finite directional/
+asymmetry bounds in a standalone standard-library bundle. Preserve input
+roles, matching/clock/unit premises, complete declaration identity, explicit
+refusals, deterministic minimax output and constructive witnesses. The
+uncertain-clock solver, public-data acquisition and all native QR successors
+remain separate. Reserve exactly four new files under
+`docs/experiments/exact_timing_v1/`: `timing.py`, `test_timing.py`,
+`run_checks.py` and `IMPLEMENTATION.md`. Implementation and tests have separate
+authors; root owns design, final review, isolated validation and all git/index.
+No accepted source, historical result, registry, RET code or bank is touched.
+
+
+**RI-35 independent acceptance — executable exact timing contract**
+
+The [standalone consumer](docs/experiments/exact_timing_v1/IMPLEMENTATION.md)
+is independently accepted. Implementation and tests had separate authors;
+a third reviewer read all four files against RI-33, and root separately
+reviewed the complete source, status semantics and publication closure.
+The review added mandatory retained disposition reasons before source freeze.
+No post-handoff implementation correction was required.
+
+Root replayed the isolated candidate on Python 3.11.6: 43 tests passed in each
+of normal and optimized modes, with no failures, skips or expected failures.
+The seven worked exports are byte-identical between modes and contain twelve
+attaining witnesses. Separate exact Fourier–Motzkin elimination of the raw
+clock constraints agrees on 128 bounded requests (68 compatible, 60
+incompatible); 204 attaining targets satisfy the original inequalities.
+These are finite software checks, not additional theorems or physical data.
+
+The consumer binds every declaration, including excluded records and reasons,
+and separates malformed input, insufficient records, unsupported models and
+conditional incompatibility. Offset intervals and minimax radius depend on
+supplied shared-rate/exact-clock and matching premises. A declared model can
+be false in the world; the digest does not authenticate calibration or custody.
+There is no uncertain-clock solver or native-to-instrument map.
+
+Publish only four new bundle files and these three coordinator records.
+The next independent measurement step is a bounded provenance, data-quality
+and calibration qualification packet for RI-33's selected GWOSC V2 products,
+before any measured fit. A correlated-clock solver remains separate scope.
+RI-34's native extension question also remains separate; QR is idle, its
+accepted sources are fixed and no duplicate or automatic successor is assigned.
+RET's explicit pause and all protected-validation prerequisites remain held.
