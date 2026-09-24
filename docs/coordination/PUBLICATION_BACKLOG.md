@@ -12,7 +12,7 @@ with unrelated changes to make an import succeed.
 |---|---|---|
 | RI-51 clone/full mechanism | **Assigned after RI-49 acceptance; one new analytic note reserved.** | Review the schedule-independent counting obstruction and its precise premises. |
 | RI-50 NR reference qualification | **Selected; implementation/acquisition pending.** Three new paths reserved; accepted measured outputs fixed. | Qualify the public data-informed reference and freeze its limited comparison contract. |
-| RI-49 power-schedule family | **Independently accepted; publication pending.** Complete proof reviews pass for every fixed 0<a<1. | Publish the one stable note; review the general mechanism next. |
+| RI-49 power-schedule family | **Published in verified `a075bdb5`.** Complete proof reviews pass for every fixed 0<a<1. | RI-51 reviews the general mechanism on its separate reservation. |
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
 | RI-44 nominal processing implementation | **Independently accepted and published in verified `2a5c6f6`.** Seven stable files include the passing 105-gate report and exact coefficient manifest. | Apply these admitted sources/coefficients to the frozen nominal public-data display. |
 | RI-45 first free completion cone | **Exact obstruction independently accepted and published in verified `ebb7b27`.** Full proof/source review and root/independent normal/optimized replay agree. | Preserve three accepted files; RI-46 is active on the occupation-controlled selector. |
@@ -1322,3 +1322,25 @@ simulator, optimization, later table, endpoint tuning, metric or gravity claim
 is assigned. Preserve RI-46/48/49 and every measurement source. Return one
 stable analytic note for independent review; RI-50 proceeds as a distinct
 measurement qualification and RET remains paused.
+
+
+**RI-49 publication verified and continuing programme checkpoint**
+
+RI-49 commit `a075bdb5a0159803588b9eb4dfd764bdfb94adc5`, tree
+`611be82a6d2d54ce426202ba8138b853cc06a783`, publishes only the accepted
+one-file analytic family and three coordinator records. Preflight verified
+2050 other entry versions, 118 local links, the exact handoff-to-accepted
+administrative change, published RI-46/48 notes, all seven RI-47 source/result
+identities and 15 measurement dependencies. Both modes' executed sources and
+outputs remain exact. Normal push and separate origin/ret lookup returned the
+same full commit; the index was empty. No unrelated baseline or RET file was
+staged. The original independent review and pinned historical results are held.
+
+RI-51 has been dispatched to the existing QR task after RI-49 adjudication.
+Only its new mechanism-obstruction note is reserved; it is not accepted or
+published. RI-50 is the coordinator's next measurement implementation: qualify
+the supplied NR reference and its comparison contract before an overlay.
+Its three new paths are reserved, with no acquired/reference result claimed yet.
+These are concurrent substantive proof and public-data directions. Completion
+of the current publication checkpoint does not complete or pause the programme.
+The explicit RET pause alone remains in force.
