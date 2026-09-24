@@ -6109,3 +6109,68 @@ remain active and excluded. Thresholds, original review, unrelated baseline,
 accepted historical results, protected/custody boundaries and RET pause remain
 unchanged. Publication records a valid native obstruction and an unsuccessful
 numerical method; it does not claim a completed programme or physical result.
+
+
+**RI-60 sources independently accepted and prospectively frozen for qualification**
+
+Root and two disjoint independent reviewers accepted the complete engine,
+qualifier, driver and guide at their final source pins. Independent engine
+checks passed in both modes: 512 certified vectors/3904 exact coordinate
+containments, 512 radius hashes, 864 nonuniform pass-error corners/4032
+coordinates, 2512 odd-fold corners/12224 coordinates and eight refusals.
+The identical 470-byte output has SHA-256
+`f29839e33e7bf13bef9af768cd5f2cbf498aeaee34f64f51e44fae99bbc913f4`.
+Independent qualifier/driver checks passed 53 controls per mode, including
+failed-v1/current-receipt separation and unequal-radius interval handling.
+Their identical 2201-byte report has SHA-256
+`155e55df3700ada6c06d9e6b7eca9e41fe05cd323952b97b74dce6c4e24734c2`.
+The author additionally passed 104 helper/mock driver controls per mode.
+
+At 2026-09-24 07:30:59 UTC root froze an isolated twelve-file closure after
+these reviews, with no actual input present. Its manifest SHA-256 is
+`1b0fccef2046b53c1341b18c0fc7c1bc072d2eddf406bde271df24304818cef3`.
+Engine/check/process pins are recorded in the revised implementation guide.
+All reused dependencies match their already-published bytes. Both normal and
+optimized full qualification runs now use the pinned RI-44 runtime and all
+196 unchanged gates. Their results are pending. Actual input remains gated;
+source acceptance is not numerical qualification or a physical result.
+
+
+**RI-59 independently accepted; RI-61 assigned candidate-specific suppression**
+
+Root and a separate full-note reviewer accepted RI-59 at the source-stable
+21973-byte handoff, SHA-256
+`252be32e7f0b33d4b83ac258e38a0f98656686a1ac57d070bf6a8c24b04d91c9`.
+The only acceptance edit is the opening adjudication status. All six linked
+mathematical dependencies match published bytes. Root separately reconciled
+the exact prefix path factors and weighted lower bound; no optimizer or new
+layer was executed. This is analytic review, not theorem-prover verification.
+
+The note specifies a rational all-size strict law from the actual prefix:
+unconditional history weights, canonical lexicographic expected-drift minimizer,
+and eta_n=1/(n+1)^2 interior mixing. Its normalized expected defect tends to
+zero exactly when the endogenous Cesaro mean of the minima m_n does; the same
+condition characterizes L1/in-probability convergence. Almost-sure convergence
+needs its separate pathwise premise. Summable minima would imply finite total
+defect increments but is unproved. The actual first minimum is at least
+2401/450000. The rectangle-clone forcing budget is at most one in expectation,
+so that known mechanism alone cannot decide persistent drift.
+
+The existing QR task now reserves only
+`docs/track_b/native_growth_expected_defect_suppression_v1/SUPPRESSION.md`
+for RI-61. Prove or correct the candidate-specific elimination of proper
+components with nonnegative expected-drift coefficient: coordinatewise lowering
+preserves the closed row caps, and lexicographic tie-breaking should remove
+zero-cost coordinates too. Establish the consequent summable probability budget
+for every everywhere-raising proper component under the actual strict mixture.
+Classify a repeatable twin-top/clone family via intrinsic defect and complete
+ratio components to decide whether this suppresses a forcing mechanism beyond
+one-shot rectangles. Preserve every marking and labeled occurrence.
+
+Isolate the remaining mixed-component and full-complement drift exactly, and
+state a genuinely sufficient comparison bound for its Cesaro decay. Do not
+assume it, promote local suppression to sublinearity, or alter the RI-59 law.
+This is a one-note analytic proof assignment, with no global new-layer optimizer,
+new seed, executor or measurement/RET edits. The whole geometry/gravity programme
+remains active; geometry, balance, informative quantum coupling and detector
+forward maps remain separate open obligations.
