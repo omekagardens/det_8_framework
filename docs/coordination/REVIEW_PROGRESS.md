@@ -6550,3 +6550,71 @@ detector fixtures and receipt/driver checks pass normally and optimized.
 Root has read the complete context, qualifier and driver at the final source
 versions. Prospective guide, complete freeze and new current qualification
 remain prerequisites to observed access; none has been bypassed.
+
+
+**RI-65 accepted; positive-defect structural successor RI-66 assigned**
+
+24 September 2026 UTC. Root reviewed the complete 519-line checker and analytic
+argument, checked the certificate reconstruction, and replayed the three pinned
+sources with the actual published RI-63 checker/certificate and RI-41 certificate
+in an isolated candidate. CPython 3.14.0 -I -S -B normal/optimized runs exited
+zero in 8.913/8.801 seconds. Both stdout streams are 2811 bytes, SHA-256
+`619c88e6f476b7308b732832125b4b1ffb79d0a684da31347ebcd177f5ec6318`;
+both expected progress stderr streams are 725 bytes, SHA-256
+`3195d77029e07bebbb9bf2851b3179d581bfec51e72ecd7e16b43ba37b7b616f`.
+The new ten intended-reason refusals and inherited accepted-certificate controls
+pass. No parent-six probabilities or optimizer were evaluated.
+
+A separate coordinator reviewer, without loading RI-65 helpers, reconciled
+576 exact field/corner checks, all 32 marked rows, five natural-label transports
+and 1280 complete marked diamonds. Its separate enumeration of the 15 integer
+partitions of seven confirms only the two declared neutral children among this
+rectangle's ten slots; this is a targeted crosscheck, not a size-seven atlas.
+The intrinsic corner proof, actual history weights, fair newborn factors and
+first-exit arguments are accepted. The packet's own dependency reuse remains
+explicit. Only the opening note's administrative acceptance status changes.
+
+For the actual RI-63 strict prefix, every compatible nonnegative next completion
+has noncritical size-six drift at least
+373547816820557447672574241717832953716155489 /
+61130063355433100265364083673124889080540160000, approximately0.00611070554.
+The bound rejects an all-size zero-noncritical-drift comparator, not compatible
+continuation or asymptotic sublinearity. The entire zero-defect boundary sector
+has finite expected total hazard, bounded by (36/35)Pr(delta5=0), and finite
+hazard sum almost surely. Only the realized exit count is bounded by one
+pathwise; the predictable hazard sum need not be. Together with RI-61's
+critical-sector suppression, the unresolved expectation/L1/probability gate
+is vanishing Cesaro mean of positive-defect noncritical boundary drift T+.
+Almost-sure sublinearity retains its separate pathwise Cesaro condition.
+
+RI-65's reservation releases for scoped publication. RI-66 is assigned to the
+existing QR task and reserves exactly `FACTORIZATION.md`, `check.py`, and
+`CERTIFICATE.json` in `docs/track_b/native_growth_terminal_cost_v1/`.
+Prove or refute the terminal-child factorization beta_c/U_c=D(Q)/e(Q), with
+D(Q)=sum over maximal v of e(Q-v)[delta(Q)-delta((Q-v)+top)], e the linear-
+extension count and U_c the actual history-weighted proper-component capacity.
+Also derive the corresponding proper raising fraction H(Q). A separate exact
+diagnostic confirms the first identity on all 798 accepted finite components;
+this does not establish the all-size theorem. The proof must account for full
+marked histories, erased precursor records, component connectivity, natural
+labels and automorphism factors. Keep sector-restricted sums and the full-
+complement contribution explicit. Stress-test the hook (4,1) plus t isolates:
+proposed H=t/(t+5) and D/e=-15/[4(t+5)] would show why negative cost alone does
+not supply a uniformly safe raising fraction. Allocation and occupation remain
+unproved. Preserve the RI-59 objective, canonical tie-break, strict mixture
+and inherited law; no blanket new-layer optimization is assigned.
+
+RI-64 sources and prospective guide passed final independent review and were
+frozen before execution. All 75 new synthetic qualification gates pass normally
+and optimized with identical 33132-byte receipt, SHA-256
+`56aa06c442384bd6249875443930202e09e874b4318aa995a8b7bb6dec1dab1b`.
+Independent receipt audits pass. Each actual run then rebuilt and reconciled
+all sixteen coefficient certificates before opening observed inputs. Serial
+normal/optimized executions finished in 463.330/466.083 seconds, under the
+unchanged 1800-second and sampled 2-GiB resource envelope. Both passed with
+empty stderr and identical observed/context processing outputs. Their original
+raw inputs, published prerequisites, three new Python sources and frozen guide
+remained unchanged. Independent raw-sample/export arithmetic adjudication is
+underway; no result is accepted or published merely because both runs pass.
+Calibrated inference, native observation map, geometry and gravity remain open.
+RET remains paused; original review and unrelated baseline remain untouched.
