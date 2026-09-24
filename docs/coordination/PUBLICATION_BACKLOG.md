@@ -10,7 +10,7 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-35 exact timing consumer | **Independently accepted; publication next.** Four standalone files, 43 tests per mode, seven identical exports and a separate 128-case exact projection audit. | Publish exactly the [bundle](../experiments/exact_timing_v1/IMPLEMENTATION.md) and three coordinator records. Its source is stable; no RET/core dependency or scientific data. |
+| RI-35 exact timing consumer | **Independently accepted and published in verified `e2e5fcd`.** Four standalone files, 43 tests per mode, seven identical exports and a separate 128-case exact projection audit. | Preserve the [bundle](../experiments/exact_timing_v1/IMPLEMENTATION.md) and source identities. Reservations are released; public-data qualification is separate, with no RET/core dependency. |
 | RI-29 RET readiness handoff | **Accepted and published in independently verified `dcf6b67`.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Preserve the published audit and its source boundaries. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
 | RI-30 comparator target precision | **Accepted and published in independently verified `c7f20c6`.** Four isolated files passed proof/API reviews, 48 root tests per mode and a separate 400-case projection audit. | Preserve the four-file [contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its reviewed identities. No RET dependency; no measured benefit or automatic successor. |
 | RI-31 native geometry/gravity/measurement plan | **Plan independently accepted and published in verified `40b0329`.** One new programme and three coordinator records. | Preserve the plan. RI-32/33 supply the initial dossier and observation contract; RI-34 supplies native necessary conditions and RI-35 implements exact timing. Public-data qualification is the next independent measurement packet. |
@@ -657,3 +657,13 @@ measured fit. Native-law extension and correlated uncertainty need separate
 bounded scopes; no new QR assignment follows automatically. All historical
 sources, acceptance thresholds, protected-validation requirements and the
 explicit RET pause remain held.
+
+
+RI-35 is published in independently verified
+`e2e5fcd9b8ed80285d24add565d6767897900d35`, tree
+`a279a1bdccc9e71ed34cab93bde9c4fe76417d47`. Seven reviewed files only; staged
+identities matched the isolated-tested candidate. All 101 local links, five
+guide references and 2,019 preserved entry versions passed. Normal push and
+separate remote lookup succeeded, leaving an empty index. Final publication
+metadata updates only the three coordinator records; the four bundle files
+and every accepted predecessor remain fixed.

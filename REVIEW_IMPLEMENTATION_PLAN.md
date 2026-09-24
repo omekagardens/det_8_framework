@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; no successor is assigned. RI-35 now implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Publication is the next step. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; no successor is assigned. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -51,7 +51,7 @@ Active file reservations, updated 24 September UTC:
 | Owner | Reserved files |
 |---|---|
 | QR task | RI-34 is independently accepted and its single-document reservation is released. No active QR source reservation or automatic successor. RI-32/33, all accepted models and QR summaries remain fixed. |
-| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted and source-stable; author reservations are released. Root owns only their scoped publication and these three coordinator records. RI-33 CONTRACT.md stays fixed. No RET or acquisition work. |
+| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted, published and source-quiet; reservations are released. Root reserves only these three coordinator records. RI-33 CONTRACT.md stays fixed. No RET or acquisition work. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -1152,3 +1152,16 @@ before any measured fit. A correlated-clock solver remains separate scope.
 RI-34's native extension question also remains separate; QR is idle, its
 accepted sources are fixed and no duplicate or automatic successor is assigned.
 RET's explicit pause and all protected-validation prerequisites remain held.
+
+
+RI-35 is published in independently verified
+`e2e5fcd9b8ed80285d24add565d6767897900d35`, tree
+`a279a1bdccc9e71ed34cab93bde9c4fe76417d47`. Exactly the four new bundle files and
+three coordinator records were committed. Staged hashes matched the accepted,
+isolated-tested candidate; 101 local links and five guide dependencies passed,
+and all 2,019 other entry versions remained unchanged. Normal push and an
+independent origin/ret lookup confirmed the full commit, with an empty index.
+Only the three coordinator records receive this final publication metadata.
+The exact source and worked-output identities remain fixed. Public-data
+qualification is the next separate measurement step; QR and RET scope is
+unchanged.
