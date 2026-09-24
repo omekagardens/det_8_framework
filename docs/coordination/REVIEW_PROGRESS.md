@@ -6,6 +6,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
+| RI-36 native extension | **Assigned to QR after RI-34 independent acceptance.** Decide whether strictly positive scalar-passive record feedback survives every two-event-base diamond through four births. | Review the new source-stable proof and any exact checker; then choose the substantive successor from its result. Native research must not remain idle solely because a prior packet was completed. |
 | RI-35 exact timing consumer | **Independently accepted and published in verified `e2e5fcd`.** Four standalone files passed complete source review, 43 root tests per mode and a separate 128-case exact projection audit. Seven exports match between modes; twelve exported witnesses satisfy raw observations. | Preserve the [implementation](../experiments/exact_timing_v1/IMPLEMENTATION.md) and RI-33 contract. Public-data qualification is the next independent measurement packet; uncertain clocks and native dynamics remain separate. |
 | RI-29 RET readiness | **Read-only audit accepted and published in verified `dcf6b67`.** Two coordinator reviews and a concordant RET-owner handoff confirm the missing reader/evaluator bridge and separate comparator source-preview dependency. | Preserve [the bounded audit](RET_REENTRY_AUDIT.md). Preserve the owner's explicit RET pause; no code, banks or historical suites were executed. |
 | RI-30 comparator precision | **Independently accepted and published in verified `c7f20c6`.** Four standalone files passed full proof/source reviews, 48 isolated tests per mode and a separate 400-case exact projection audit. | Preserve the [target contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its four source identities. Reservation released; measured benefit remains open. |
@@ -4181,3 +4182,45 @@ scientific result or verification count. The bundle reservation is released.
 QR receives publication completion without a successor assignment; public-data
 qualification is the next independent measurement packet. RET's explicit pause
 and actual freeze/custody/protected-validation prerequisites remain unchanged.
+
+
+**24 September — continuity correction and RI-36 activation**
+
+The user asked why pursuit stopped. Root checked the current branch/upstream
+(ret/origin/ret), empty index, accepted source records and QR task state. QR
+was idle at its RI-35 publication acknowledgement. The saved hourly heartbeat
+was ACTIVE; the gap was coordinator scope selection, not an established
+scheduler failure. RI-34 had already passed independent review, so its
+“no automatic successor” handoff was not a reason to leave the lane idle.
+No native-geometry completion, new physical result or global pause existed.
+
+Root now assigns RI-36's four-birth extension problem in the implementation
+plan, with exactly two new possible QR files and all older source pins held.
+The concrete question is whether RI-34's `f(0) != f(1)` freedom extends to every
+three-event parent row and every two-event-base full-payload diamond under
+the same strict-positive, scalar-passive, fair-mark, local/equivariant premises.
+Either an exact construction or a scoped obstruction advances NG-01; finite
+checks are supporting evidence only. A worker's source-stable handoff remains
+a review boundary. Root's continuing responsibility is to adjudicate it and
+select the next substantive step without needing another user reminder.
+
+The next coordinator measurement packet remains GWOSC V2 provenance, quality
+and calibration qualification. No source beyond the three coordination records
+is part of this restart checkpoint; any active QR artifact is excluded from
+staging until independent review. The original review, RI-31 programme,
+RI-32/33/34/35 and pre-existing changes are preserved. RET remains paused.
+
+Dispatch is confirmed: the Quantum Relativity task is active on RI-36.
+An independent read-only scope review concurs. Its domain cross-check covers
+both two-event base-order types, 25 ordered precursor pairs in total, four
+old-mark assignments and four newborn-mark pairs: 400 raw cases before
+symmetry reduction, not a result or execution count. All five three-event
+intermediate order types must be retained.
+
+The existing hourly heartbeat was updated through the application tool and
+its saved configuration independently reread: it remains ACTIVE on this task,
+with its schedule preserved. The prompt now requires a substantive next QR
+assignment after predecessor adjudication whenever the native lane is idle
+and unblocked; it also preserves the separate measurement lane, RET pause,
+scientific boundaries, central scoped commits/pushes and quiet unchanged polls.
+No new automation, thread, theorem or source acceptance was created here.

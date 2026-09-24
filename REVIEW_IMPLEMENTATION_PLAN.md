@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; no successor is assigned. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36 now assigns its four-birth extension problem to QR. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -50,7 +50,7 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-34 is independently accepted and its single-document reservation is released. No active QR source reservation or automatic successor. RI-32/33, all accepted models and QR summaries remain fixed. |
+| QR task | RI-36: reserve only new `docs/track_b/native_joint_growth_extension_v1/EXTENSION.md` and, if needed for exact finite checks, `check.py` in that directory. RI-34 has already passed independent review. Preserve RI-32/33/34, all accepted models and QR summaries. Root owns git/index and final adjudication. |
 | Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted, published and source-quiet; reservations are released. Root reserves only these three coordinator records. RI-33 CONTRACT.md stays fixed. No RET or acquisition work. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
@@ -1165,3 +1165,61 @@ Only the three coordinator records receive this final publication metadata.
 The exact source and worked-output identities remain fixed. Public-data
 qualification is the next separate measurement step; QR and RET scope is
 unchanged.
+
+
+**24 September — restore continuous pursuit of the programme**
+
+The user asked why pursuit had stopped. The hourly follow-up was still ACTIVE,
+but the coordinator left QR idle after accepting RI-34 and treated completing
+the adjacent RI-35 timing consumer as sufficient progress. No scientific
+blocker or user pause justified leaving the native-law question unassigned.
+This was a coordination gap, not completion of the geometry/gravity goal.
+The separate RET pause remains applicable only to RET work.
+
+The user's continuing instruction authorizes choosing and assigning reviewed
+successors. Earlier packet-level statements of “no automatic successor” mean
+that a worker must hand off its bounded result for review; they do not require
+fresh user permission for every coordinator-selected step. After adjudicating
+a predecessor, root must assign the next useful bounded step or record an
+actual dependency and advance another substantive lane. An accepted report,
+commit or passing finite suite does not by itself finish the programme.
+Keep at least one native proof/candidate question active while independent
+measurement work advances, unless a concrete blocker makes that impossible.
+
+**RI-36 — QR four-birth extension decision, now assigned**
+
+Use RI-34's already reviewed strict-positive scalar-passive/fair-binary model,
+full independent mark cube, fixed full residual/context, one-commit mass,
+strict precursor-record locality and marked-parent equivariance. Extend its
+rows through all parents with three events and require every incomparable-birth
+full-payload diamond based at every two-event parent, including equal precursor
+sets, both newborn marks, all inherited marks and the all-zero sector. Earlier
+empty/singleton-base obligations remain in force. Largest diamond terminals
+have four births; this is an extension decision, not an all-size law claim.
+
+Decide whether the two-chain feedback `f(0) != f(1)` can survive this extension.
+First derive the full local/equivariant row forms and the new diamond equations.
+Deliver either a constructive strictly positive extension with exact verified
+rows and genuine unlabeled feedback, or a precise obstruction with its
+load-bearing assumptions and smallest witness. Prefer a symbolic necessary/
+sufficient characterization when tractable; do not withhold a decisive scoped
+obstruction merely to classify all parameters. If the system remains
+unresolved, state the reduced equations and exact unresolved condition instead
+of extending the claim from numerical feasibility. Weak endpoints and general
+nonpassive/null-mass maps are outside this assignment.
+
+Reserve only `docs/track_b/native_joint_growth_extension_v1/EXTENSION.md` and
+an optional standalone standard-library `check.py` for exact corroboration.
+No accepted file, registry, simulator, target geometry, RET source or historical
+result may be changed. A finite checker must explicitly cover the declared
+parent/mark/precursor/outcome domain and retain whole unnormalized scalar maps;
+checking scalar cases here licenses no general continuous-map identity.
+Root independently reviews the theorem and actual checks before accepting,
+committing and pushing this artifact. Stop only this packet at source-stable
+handoff; root then chooses the evidence-driven successor under the continuing
+programme authorization.
+
+The coordinator's parallel next measurement packet remains qualification of
+RI-33's selected GWOSC V2 data before measured fitting. Simulations/public data
+remain the user's priority. Gravity/source dynamics is still an open target
+behind a viable joint law; successful timing software does not close it.
