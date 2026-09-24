@@ -4014,3 +4014,20 @@ files; their first handoff is source-only. Review and prospective source/runtime
 freeze precede fabricated execution, then a separately reviewed actual-data
 freeze precedes public spectra. Both substantive lanes remain active. The
 programme is not complete, and RET remains paused.
+
+**RI-79 accepted for scoped publication; RI-81/80 continue separately**
+
+The three delayed-cutoff files are source-stable and independently accepted.
+Exact two-row coefficient arithmetic proves the full symbolic scale-interval
+sign; copied normal/-O replays and complete evidence reconciliation passed.
+This rejects the stated first-atom-seven prior class, not later cutoffs or all
+latent models. Source and evidence identities are in REVIEW_PROGRESS.md.
+Publish only those three files plus the three coordinator records.
+
+RI-81's single structural mixture/harmonic-tilt note is assigned and reserved;
+its proof and constructive existence claims require separate review. RI-80's
+four source-only files have been read by root and remain excluded pending
+fabricated qualification. External preparation of its copied-source/runtime/
+resource freeze is active; no numerical result or observed spectrum is yet
+claimed. Preserve the fixed method/gates and RET pause. Root alone stages,
+commits, pushes and independently verifies remote state.

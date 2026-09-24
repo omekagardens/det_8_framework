@@ -8147,3 +8147,104 @@ files; their first handoff is source-only. Review and prospective source/runtime
 freeze precede fabricated execution, then a separately reviewed actual-data
 freeze precedes public spectra. Both substantive lanes remain active. The
 programme is not complete, and RET remains paused.
+
+**RI-79 independently accepted; exact delayed-cutoff repair rejected**
+
+Root read the entire 405-line worker proof, 359-line checker and separate
+RI-63-direct coefficient source. Root and an independent mathematical reviewer
+verified all 38 external evidence entries, the seven-file machine closure and
+its five published predecessor dependencies. Separate certificate-only audits
+re-summed all four held marked rows (42 probability slots), 20 labeled
+quadratic/cubic pairs and two polynomial vectors. They reconcile the actual
+RI-77 prefix, Delta v=0, positive Delta U6 and the new positive Delta T3.
+
+The exact margin C=3 Delta U6-a_star^2 Delta T3 is positive. Therefore
+Delta U7(a6)<=-a6 C<0 for the entire interval
+0<a6<=1/[2(1+max(U6_0,U6_1))]. In the general posterior the distinct a7
+multiplies U7(a6). The resulting empty-precursor probability difference is
+strictly positive for every independent prior with first atom seven and s9>0.
+The compared parent-eight histories are positive even for bounded-support
+priors satisfying that tail condition. This does not establish positivity of
+all their histories, reject later first atoms, or produce native geometry.
+The new exact Delta T3 and full margin integers are retained in the proof and
+certificate. No numerical global scale, q6/q7 row, optimizer or larger domain
+was computed.
+
+Fresh copied root normal/-O replays exited zero in 9.162/9.214 seconds, peaks
+122912/122832 KiB sampled RSS, with no 120s/512MiB stop. Both complete streams
+match worker output: stdout 5283 bytes, SHA-256
+`8b81a6332a708a0049d56ab14517eb67553937aa0837cc16c501d1b926fd9705`;
+stderr 816 bytes, SHA-256
+`482acd90a5bac8aeebaf8eed07e8239525cfc8f304aa3e5ffa2880043b4bdc3d`.
+All seven original/copied machine pins stayed fixed. The 24 new intended-reason
+controls are distinct from the 15 inherited controls and 69 inherited stages.
+The finite arithmetic corroborates the complete symbolic argument; neither is
+represented as a proof-assistant formalization.
+
+Final three-file identities after only root acceptance/provenance additions:
+LOCALITY.md, 19938 bytes, SHA-256
+`5e96ed8c286bef6d6f634691af330121c2a063f569357ef2dcf26df1a7ab318e`;
+check.py, 17574 bytes, SHA-256
+`2f394aedf1c9c9c4952eda7c826eb4faf19b83b57c5f8236b8b44ac1e8be8a48`;
+CERTIFICATE.json, 14652 bytes, SHA-256
+`d06001c27ac1ed12a6ba7c5af7970524be825ce70eac50e8b34ef34603906143`.
+The two machine files are unchanged from worker handoff.
+
+Durable root evidence is under
+`/Volumes/AI_DATA/development/det-review-evidence/ri79-root-20260924T230503Z/`.
+Prospective replay/ROOT_REPLAY_FREEZE.json: 3290 bytes, SHA-256
+`6324499d17e7c1f0f2e4fdebc07f6b9e7e9c8078d192fc8b6fb59937d25f4c3a`.
+ROOT_CERTIFICATE_ARITHMETIC.json: 1128 bytes, SHA-256
+`cd17a514ab17dc5650755c162cf94e2f755cb38b4eda04f603cf50ab6187fb42`.
+ROOT_REPLAY_RECONCILIATION.json: 5472 bytes, SHA-256
+`41a64030c2cedacefde5325f20715ae3c643dd3bba8bf68e69ba3bede1393472`.
+INDEPENDENT_RI79_MATHEMATICAL_REVIEW.json: 5832 bytes, SHA-256
+`dbe51e01a04e57a46b0c00a72c5422838cfdf6997c150eb44dda8f16adc789b5`.
+The latter accepts the original 18180-byte worker note and verifies root's
+receipts without rerunning helpers. The worker manifest remains 23421 bytes,
+SHA-256 `75b6816a24cf7eae347e8e4cf723db0739ff4c63ea5596dc6ee4d1e86115fd07`,
+in `/Volumes/AI_DATA/development/det-review-evidence/ri79-qr/worker-svKfqO/`.
+
+**Next native question and parallel measurement status**
+
+After acceptance, root assigned RI-81 to the existing QR task: a note-only
+prior-robust locality criterion and positive unmarked harmonic-tilt construction/
+converse. The independent reviewer agrees this is a justified structural step.
+Zero likelihoods, countable sums, marked-row harmonicity, shared child variables,
+labeled multiplicities and fixed-prefix preservation are explicit obligations.
+This does not claim a nonconstant harmonic solution or a geometric law exists.
+No additional cutoff search is assigned. Its active note remains excluded from
+this checkpoint; accepted native laws and the original review remain unchanged.
+
+RI-80 authors completed source-only handoffs. Root read the full primary,
+validator, qualifier and implementation contract; the primary author separately
+reviewed all 624 qualifier lines and API/refusal paths. The qualifier's final
+allocation-only revision changes object lifetimes, not fixtures or thresholds.
+No numerical imports, fabricated run or observed read has yet occurred.
+The source-only handoff includes final spectra.py 25668 bytes/SHA-256
+`591321eafeae2faa231bae2409fb6d95227d67976a3ff0f801a37686bc745093`,
+validate_result.py 18529 bytes/
+`00514faa329cb4bc05d83de74db49d3b603fe8512f9435844f9af48c0c032a63`,
+qualify.py 35210 bytes/
+`a10b24b8dfaba91bf4936512941b9e32e12affeb707a80af0821b50d33882741`,
+and IMPLEMENTATION.md 13187 bytes/
+`be87979883c5eff5c686c9070a07e395fc09c8c099c3ce12381c7f2fefd00879`.
+These reviewed sources remain outside the current publication pending their
+actual fabricated qualification and evidence review. QUALIFICATION.json does
+not yet exist. Preparation of the copied closure and prospective resource/
+runtime/command freeze is active externally; root must review before launch.
+Future actual public-input execution remains separately frozen after fabricated
+qualification. Runtime/memory behavior is untested; preserve failures without
+relaxing the fixed 180s/512MiB sampled-RSS envelope or any numerical gate.
+
+Source-only handoff evidence:
+`ri80-source-author-20260924T231156Z-155ebda7/SOURCE_ONLY_HANDOFF.json`,
+5270 bytes/SHA-256 `83cbccaab27393fc587501316da5fcee91a93fcc297869f1e1db656da0e5a671`;
+its additive `qualifier-supplement-20260924T231534Z/PIN_SUPPLEMENT.json`,
+2393 bytes/`f26ea48e00f1f67a40f4c8b2a92a8b7a654ad02a14b2f4ed3082bc1c71863ee7`;
+and `ri80-qualifier-source-20260924T231527Z-59f42860/SOURCE_ONLY_HANDOFF.json`,
+7508 bytes/`4282fe9b380b8e9903d47fd3aacad186ff8edfa6bbcec3067077aa313ac52a0b`,
+all under `/Volumes/AI_DATA/development/det-review-evidence/`.
+RET remains paused. The native programme and public-data lane remain active;
+internal consistency, finite numerical qualification and physical claims stay
+separate.
