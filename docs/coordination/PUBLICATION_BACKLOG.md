@@ -12,7 +12,7 @@ with unrelated changes to make an import succeed.
 |---|---|---|
 | RI-57 selected-row sensitivity | **Selected; seven new paths reserved.** | Review arithmetic/source, then run frozen qualification before actual input. |
 | RI-58 twin-top defect obstruction | **Assigned after RI-56 acceptance; three new paths reserved.** | Prove/correct the structural mixed-component obstruction and certify the actual-prefix lower bound. |
-| RI-56 robust intrinsic defect | **Independently accepted; publication pending.** | Preserve conditional scope; RI-58 tests the next concrete admission obstruction. |
+| RI-56 robust intrinsic defect | **Published in verified `0f0ba1b`.** | Preserve conditional scope; RI-58 tests the next concrete admission obstruction. |
 | RI-55 finite-context sensitivity | **Published in verified `ef10f33`.** | RI-57 implements the qualified selected-row pilot. |
 | RI-54 rectangle bottleneck | **Published in verified `ef10f33`.** Exact capacity obstruction. | Preserve the scoped result; RI-56 examines robust defects. |
 | RI-53 finite-support comparison | **Published in verified `1993e24`.** Actual numerical qualification, processing, export audit and visual inspection passed. | Preserve the eight-file result; physical continuation, precise V2 timing and native forward map remain open. |
@@ -1999,3 +1999,21 @@ may substitute for those tests. The 256-bit arithmetic, N/T, selected rows and
 width thresholds stay fixed. No new admitted-coefficient run or input-data
 read is authorized before source/method freeze and the qualification gate.
 RET remains paused; the original review and all accepted sources are preserved.
+
+
+**RI-56 publication verified; RI-58 native work and RI-57 measurement work active**
+
+Commit `0f0ba1b38ff324b336cc2480e889133c7f025953`, tree
+`33c19549d17001738bc85c89cffa2dea1a4a2f94`, publishes only the accepted RI-56
+analytic note and these three coordinator records. Staged preflight preserved
+2079 other entry versions, checked 136 local links and verified all four
+linked mathematical dependencies against already published bytes. The note
+differs from its reviewed handoff only in the opening acceptance status.
+Normal push and an independent origin/ret lookup returned the same full commit;
+the index was empty. Active RI-57 source and RI-58 work were excluded.
+
+RI-58 remains assigned to the existing QR task; a separate analytic preview
+supports its structural conjecture but is not the forthcoming actual-prefix
+certificate. RI-57 remains under implementation and arithmetic review before
+admitted-coefficient qualification. Neither scoped publication completes the
+native geometry, gravity, measurement or independent-review programme.
