@@ -11,8 +11,8 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-38 extension criterion | **QR active; unreviewed source is not publishable.** | Wait for source-stable proof/check handoff, then independently adjudicate the structural criterion and any claimed all-size implication. |
-| RI-37 GWOSC input qualification | **Independently accepted; scoped publication next.** Exact pair acquired, source/evidence reviews and isolated replay passed. | Publish only the four-file qualification bundle and coordinator records after source review. No binary data or calibration-dependent fit is part of this packet. |
-| RI-36 native extension | **Independently accepted and published in verified `7335760`.** Two source-stable files prove/corroborate a strictly positive four-birth extension, retaining record feedback. | Independently review the four-birth extension decision before staging its source. Preserve RI-34; coordinator continuation after review is already authorized. |
+| RI-37 GWOSC input qualification | **Independently accepted and published in verified `8071ee3`.** Exact pair acquired, source/evidence reviews and isolated replay passed. | Preserve the four-file qualification bundle. Qualify C02 uncertainty next; no binary data or calibration-dependent fit is part of this checkpoint. |
+| RI-36 native extension | **Independently accepted and published in verified `7335760`.** Two source-stable files prove/corroborate a strictly positive four-birth extension, retaining record feedback. | Preserve RI-34/36 sources. RI-38 is active on the general extension criterion; review its full handoff before publication. |
 | RI-35 exact timing consumer | **Independently accepted and published in verified `e2e5fcd`.** Four standalone files, 43 tests per mode, seven identical exports and a separate 128-case exact projection audit. | Preserve the [bundle](../experiments/exact_timing_v1/IMPLEMENTATION.md) and source identities. Reservations are released; public-data qualification is separate, with no RET/core dependency. |
 | RI-29 RET readiness handoff | **Accepted and published in independently verified `dcf6b67`.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Preserve the published audit and its source boundaries. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
 | RI-30 comparator target precision | **Accepted and published in independently verified `c7f20c6`.** Four isolated files passed proof/API reviews, 48 root tests per mode and a separate 400-case projection audit. | Preserve the four-file [contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its reviewed identities. No RET dependency; no measured benefit or automatic successor. |
@@ -724,3 +724,12 @@ Publish only that reviewed bundle plus three coordinator records, keeping
 RI-38 active files excluded. Applicable calibration uncertainty and frozen
 processing/CW-injection policy remain the next measurement obligations; this
 packet supplies neither a fitted observable nor a native gravity prediction.
+
+
+RI-37 is published in independently verified `8071ee31b76d39befeb23b066de8a705043e5f50`,
+tree `7bc94f7515c49972fa34d2a2030c9d1a7d4ecddd`. Exactly seven reviewed files;
+accepted hashes, 102 local links, six guide dependencies, 2,023 preserved
+unrelated entry versions and both held RI-36 identities passed. Normal push
+and independent remote lookup succeeded, leaving an empty index. Final
+publication metadata changes only three coordinator records; RI-38 remains
+active and excluded until its separate adjudication.
