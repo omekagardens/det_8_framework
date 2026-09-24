@@ -12,8 +12,8 @@ with unrelated changes to make an import succeed.
 |---|---|---|
 | RI-57 selected-row sensitivity | **Selected; seven new paths reserved.** | Review arithmetic/source, then run frozen qualification before actual input. |
 | RI-56 robust intrinsic defect | **Assigned to existing QR after RI-54 acceptance.** | Prove the diagnostic/drift gate without assuming an all-size selector. |
-| RI-55 finite-context sensitivity | **Independently accepted; publication pending.** | RI-57 implements the qualified selected-row pilot. |
-| RI-54 rectangle bottleneck | **Independently accepted; publication pending.** Exact capacity obstruction. | Preserve the scoped result; RI-56 examines robust defects. |
+| RI-55 finite-context sensitivity | **Published in verified `ef10f33`.** | RI-57 implements the qualified selected-row pilot. |
+| RI-54 rectangle bottleneck | **Published in verified `ef10f33`.** Exact capacity obstruction. | Preserve the scoped result; RI-56 examines robust defects. |
 | RI-53 finite-support comparison | **Published in verified `1993e24`.** Actual numerical qualification, processing, export audit and visual inspection passed. | Preserve the eight-file result; physical continuation, precise V2 timing and native forward map remain open. |
 | RI-52 Ferrers admission gate | **Published in verified `1993e24`.** Exact boundary witness passes all marked rows; strict infimum zero. | Review all-size compatibility separately; no shape or gravity theorem follows. |
 | RI-51 clone/full mechanism | **Published in verified `ee20ad6`.** Complete proof reviews pass. | RI-52 is assigned the intrinsic corner-family admission gate. |
@@ -1899,3 +1899,24 @@ not required for that scoped read. No physical envelope M is selected: report
 the certified conditional ingredients and nonzero/unresolved statuses, not a
 physical uncertainty or agreement score. No actual computation is yet claimed.
 RI-56 remains the active native proof question in parallel; RET stays paused.
+
+
+**RI-54/55 publication verified; RI-56 active and RI-57 selected**
+
+Commit `ef10f33c951f79fa2fe7e9e7506c4029f6ae01f0`, tree
+`db4c016e531f60d75c3fef6951cf46f2917e4aea`, publishes exactly the three accepted RI-54
+files, the one-file RI-55 design and three coordinator records. Preflight held
+2075 other entry versions and verified 142 local links, all linked published
+prerequisites and both executed RI-52 dependencies. The checker/certificate
+match the isolated normal/optimized source copies; only adjudication wording
+changed in the two notes. Separate exact toy evidence is labeled corroboration,
+not full numerical certification or measured sensitivity.
+Normal push and a separate origin/ret lookup returned this same full commit;
+the index was empty. Active successor work, unrelated baseline, original review,
+pinned historical results and protected/RET boundaries are preserved.
+
+RI-56 is assigned to the existing QR task on its single reserved proof path.
+RI-57 is the next coordinator implementation/qualification packet on seven
+new reserved paths. The accepted obstruction closes the attempted consecutive
+Ferrers-preservation gate under its fixed prefix; it does not complete or
+abandon the native geometry, gravity and measurement programme.
