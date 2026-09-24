@@ -3802,3 +3802,68 @@ This final three-record publication-status checkpoint changes no research
 source, plan premise, model, test or evidence count. QR receives completion
 and the bounded cycle-1 recommendation without an implementation assignment.
 The existing RET pause remains in force.
+
+
+**24 September UTC — RI-32/33 first-cycle activation and RI-33 acceptance**
+
+The heartbeat resumed the accepted RI-31 plan after reading current plan,
+progress and QR handoff and checking task/file ownership. Entry HEAD was
+`2f99dfe69c0ba45de1c91479b23cb9e3b680db60`, tree
+`665d00cd0958acf1f22195ea742c10f3f1ded381`; branch/upstream were ret/origin/ret
+and an independent remote lookup matched HEAD. The index was empty. A
+temporary manifest captured 1,054 tracked and 965 untracked file versions.
+No ancestor/repository AGENTS.md was present. QR and RET snapshots were idle;
+RET's explicit implementation pause remains unchanged.
+
+Root assigned RI-32 only the new
+`docs/track_b/native_joint_growth_v1/DOSSIER.md`: one native-input family's
+primitive/domain/width audit, exact specification and premises or a scoped
+obstruction. Existing maps, QR_HANDOFF and accepted sources remain held. QR
+reports a candidate rejection under investigation; its document is still
+active/unreviewed and is not part of this coordinator checkpoint. No duplicate
+assignment, code execution, simulation or automatic successor was requested.
+
+In parallel root completed [RI-33](../experiments/observer_channel_v1/CONTRACT.md).
+For exact matched two-way timestamps with a shared unit-rate time model, the
+compatible offset is [-v,u], intersected with supplied directional/asymmetry
+bounds. The proof constructs complete chronological witnesses for every
+compatible offset; midpoint/radius are deterministic minimax quantities.
+Negative turnaround and empty compatibility return no inferred precision.
+Two explicit uncertainty counterexamples retain shared calibration and
+chronology rather than treating separate difference intervals as exact.
+The count-law proof states finite lambda>=0, eta in [0,1], known finite T>0;
+only the product eta*lambda is identified by the retained-count law, not
+exactly estimated from finite counts.
+
+Independent math/measurement and metadata/scope reviewers accepted final
+SHA-256 `6dc0df2c94747df68f251114d75ba6e568cc69b75f27c8946b680aeac7d54f66`.
+A further independent geometry/scope review checked the mathematics and
+identified the same two wording corrections, which root applied. Corrections
+replace four-message terminology by four timestamps and distinguish
+positive-exposure law identifiability from finite-data estimation.
+
+Root independently implemented temporary exact Fourier-Motzkin elimination
+of the raw observation/chronology/delay inequalities, without reusing the
+contract's projected-interval formula. Python 3.11.6 with -I -S -B corroborated
+**11 projections** (seven declared fixtures, two joint uncertainty sets and
+their two relaxations) and **12 endpoint/midpoint witnesses** against the raw
+inequalities. This is supplemental proof review, not a published executable
+contract, all-domain proof substitute or registered research suite. No
+project model, historical suite or RET code was imported/executed.
+
+The metadata reviewer and root independently read the official original
+GW150914 page and checksum manifest. The proposed acquisition pair is
+H-H1_LOSC_4_V2-1126259446-32.hdf5 and
+L-L1_LOSC_4_V2-1126259446-32.hdf5, with published MD5 values
+50441a42c13fc1f14e5c4ea5527f1515 and 361ae6a040a9fef7897b1e0124d5b0a1.
+Only HTML/text metadata were retrieved; the data bodies, actual flags,
+headers/time arrays and matching numerical calibration envelopes were not
+acquired. Root checked the public C02 calibration README and old tutorial's
+maintenance warning/V1 filenames. Known public strain remains a conventional
+development baseline, not blind evaluation or native-gravity evidence.
+
+The publication candidate is the single new RI-33 contract plus the three
+coordinator records. Root will verify scoped links, staged identities and
+all entry versions outside these records, excluding the separately active
+new QR dossier from this publication. The next action is independent RI-32
+review on handoff; only then assign a bounded successor.

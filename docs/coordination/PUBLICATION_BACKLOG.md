@@ -13,6 +13,8 @@ with unrelated changes to make an import succeed.
 | RI-29 RET readiness handoff | **Accepted and published in independently verified `dcf6b67`.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Preserve the published audit and its source boundaries. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
 | RI-30 comparator target precision | **Accepted and published in independently verified `c7f20c6`.** Four isolated files passed proof/API reviews, 48 root tests per mode and a separate 400-case projection audit. | Preserve the four-file [contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its reviewed identities. No RET dependency; no measured benefit or automatic successor. |
 | RI-31 native geometry/gravity/measurement plan | **Plan independently accepted and published in verified `40b0329`.** One new programme and three coordinator records. | Preserve the plan. Proposed cycle 1: native joint-law dossier plus observation-channel and public-data qualification; no implementation reservation yet. |
+| RI-32 native candidate dossier | **QR cycle-1 work active; not accepted or staged.** | Independently review the source-stable one-family dossier before publication; preserve QR reservation. |
+| RI-33 observation-channel contract | **Independently accepted; publication pending.** Exact timing proof/design and GWOSC metadata-qualified candidate. | Publish new contract plus three coordinator records only. No scientific data, executable consumer or RET dependency. |
 | RI-25 qubit-and-record experiment | **Published in independently verified `9f463f2`.** Twelve isolated experiment files, three QR summaries and four coordinator records; final reviews, 61 tests per mode and 82 independent exported-data checks passed. | Preserve source pins; calibrated measured W remains external. No core/RET dependency is required by this standard-library experiment. |
 | RI-26 supplied-geometry observer model | **Published in independently verified `0fde8b2`.** Eleven isolated bundle files, three QR summaries and four coordinator records. Three final reviews, 51 tests per mode, 52 identical exports and 331 separate exported-data checks passed. | Preserve the eleven bundle identities and all 87 held predecessors. No core/RET dependency or automatic successor is opened. |
 | RI-27 published-model reproduction | **Published in independently verified `5e7f2f7`.** New combined guide and separate 23-file manifest, plus plan/progress/backlog. Independent inventory/packaging/recipe reviews and actual clean-archive replay passed. | Keep guide/manifest pins, all 98 prior accepted artifacts and the historical 71-file inventory fixed. |
@@ -546,3 +548,22 @@ passed. The plan remains at reviewed SHA-256
 `63aaf8e044454509dbfb8987084f5daa24f8cce7b77c64c5abbc2a96c9fce435`;
 only plan/progress/backlog receive this final status checkpoint. No source
 implementation or measured evaluation is included.
+
+
+**RI-33 accepted observation-channel/public-data design**
+
+The [contract](../experiments/observer_channel_v1/CONTRACT.md) is independently
+accepted at SHA-256
+`6dc0df2c94747df68f251114d75ba6e568cc69b75f27c8946b680aeac7d54f66`.
+It contains exact two-way timing compatibility/attainability and scoped
+uncertainty/efficiency counterexamples, plus a precise metadata-only GWOSC V2
+file card. Independent proof and data/scope reviews passed after clarifying
+two-message/four-timestamp terminology and the positive-exposure Poisson
+domain. Root checked 11 raw-inequality projections and 12 witnesses in an
+isolated temporary standard-library calculation; it is not an implementation
+or a registered suite. Publisher checksums are not locally verified data hashes.
+
+Publish exactly this new contract and plan/progress/backlog. Active RI-32
+dossier, all accepted scientific sources, original review and unrelated
+working changes are excluded. No scientific data acquisition, project-source
+execution, RET work, bank, protected evaluation or physical claim is added.
