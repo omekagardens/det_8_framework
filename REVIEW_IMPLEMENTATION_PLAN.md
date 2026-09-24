@@ -15,7 +15,8 @@ RI-74 and RI-75 are published in verified `314d5e8` and `3a30ab0`.
 RI-76's defect limit and height obstruction are published in verified `ad44848`;
 RI-77's random-cutoff mixture locality counterexample and RI-78's spectrum design
 are published in independently verified `d43d144`.
-RI-79 independently rejects the delayed-cutoff repair for its complete prior class.
+RI-79 independently rejects the delayed-cutoff repair for its complete prior class,
+published in remotely verified `b647f6f`.
 RI-81 now asks for a structural locality criterion and harmonic-tilt construction.
 Both RI-73 actual modes pass all 92 gates, with identical report/snapshot
 bytes; both independent entrywise audits also pass and match each other.
@@ -90,7 +91,7 @@ Active file reservations, updated 24 September UTC:
 | RI-75 strict approximation | Published in independently verified `3a30ab0`; reservation released. Exact prefix and finite-depth convergence only. |
 | RI-76 approximation asymptotics | Published in independently verified `ad44848`; reservation released. Defect decay and positive-probability height obstruction are inseparable conclusions. |
 | RI-77 random-cutoff locality | Published in independently verified `d43d144` after proof/source review and fresh normal/optimized replay; three-file reservation released. Fixed two-core locality witness domain, no new global parent-six table. |
-| RI-79 delayed-cutoff locality | Independently accepted after complete proof/source review, exact saved arithmetic and fresh copied normal/optimized replay. Three-file reservation released to root publication; no new probability inventory or numerical global scale. |
+| RI-79 delayed-cutoff locality | Published in independently verified `b647f6f` after complete proof/source review, exact saved arithmetic and fresh copied normal/optimized replay. Reservation released; no new probability inventory or numerical global scale. |
 | RI-81 structural mixture locality | QR reserves only `docs/track_b/native_growth_local_mixture_criterion_v1/MIXTURES.md`. Prior-robust criterion with zero-aware likelihoods, plus positive unmarked harmonic-tilt construction/converse. Note-only; no cutoff search, solver, adopted law or geometry claim. Root owns git. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
 | RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` published in verified `ad44848`. Reservation released; preserve the fixed unit-white scope. |
@@ -5044,3 +5045,19 @@ counts. Both authors released source-only handoffs. Root is preparing a copied
 source/runtime/command/resource freeze for actual fabricated normal/-O runs.
 No numerical qualification or observed spectrum has yet run. The unchanged
 180s/512MiB sampled-RSS envelope and all RI-78 thresholds remain in force.
+
+**RI-79 remote checkpoint verified**
+
+Commit `b647f6f2a5d56b628ba8a0260d16267f46bbcb90`, tree
+`529c189e803bdaa01d9bfd82723ef58a88d1263c`, publishes exactly the three reviewed
+RI-79 files and the three coordinator records. The explicit six-file staged
+checkpoint passed source/evidence identity, dependency, local-link and whitespace
+checks; 2140 unrelated entry-file identities remained unchanged. Push to
+`origin/ret` succeeded, and a separate `git ls-remote origin refs/heads/ret`
+returned the exact commit. RI-80's source-only files and RI-81's active note
+were excluded. No accepted machine dependency changed.
+
+RI-81 remains active in QR on the structural criterion and harmonic-tilt proof.
+RI-80's external fabricated-run freeze is being prepared for root review; no
+numerical qualification or observed spectrum is claimed at this checkpoint.
+The programme continues, with RET paused.

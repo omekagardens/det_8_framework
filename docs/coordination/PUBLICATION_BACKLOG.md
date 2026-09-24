@@ -4031,3 +4031,19 @@ fabricated qualification. External preparation of its copied-source/runtime/
 resource freeze is active; no numerical result or observed spectrum is yet
 claimed. Preserve the fixed method/gates and RET pause. Root alone stages,
 commits, pushes and independently verifies remote state.
+
+**RI-79 remote checkpoint verified**
+
+Commit `b647f6f2a5d56b628ba8a0260d16267f46bbcb90`, tree
+`529c189e803bdaa01d9bfd82723ef58a88d1263c`, publishes exactly the three reviewed
+RI-79 files and the three coordinator records. The explicit six-file staged
+checkpoint passed source/evidence identity, dependency, local-link and whitespace
+checks; 2140 unrelated entry-file identities remained unchanged. Push to
+`origin/ret` succeeded, and a separate `git ls-remote origin refs/heads/ret`
+returned the exact commit. RI-80's source-only files and RI-81's active note
+were excluded. No accepted machine dependency changed.
+
+RI-81 remains active in QR on the structural criterion and harmonic-tilt proof.
+RI-80's external fabricated-run freeze is being prepared for root review; no
+numerical qualification or observed spectrum is claimed at this checkpoint.
+The programme continues, with RET paused.
