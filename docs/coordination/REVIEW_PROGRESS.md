@@ -6,8 +6,10 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-57 selected-row sensitivity | **Selected; seven new paths reserved.** | Review arithmetic/source, then run frozen qualification before actual input. |
-| RI-58 twin-top defect obstruction | **Assigned after RI-56 acceptance; three new paths reserved.** | Prove/correct the structural mixed-component obstruction and certify the actual-prefix lower bound. |
+| RI-60 context error repair | **Assigned; six new v2 paths reserved.** | Independently review per-coordinate bounds and source before new qualification. |
+| RI-57 selected-row sensitivity | **Qualification failed identically: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
+| RI-59 history-weighted candidate | **Assigned after RI-58 acceptance; one analytic path reserved.** | Specify the all-size rational selector and isolate its asymptotic drift obligation. |
+| RI-58 twin-top defect obstruction | **Independently accepted; publication pending.** | Preserve the exact fixed-layer bound; RI-59 follows the actual history distribution. |
 | RI-56 robust intrinsic defect | **Published in verified `0f0ba1b`.** | Preserve conditional scope; RI-58 tests the next concrete admission obstruction. |
 | RI-55 finite-context sensitivity | **Published in verified `ef10f33`.** | RI-57 implements the qualified selected-row pilot. |
 | RI-54 rectangle bottleneck | **Published in verified `ef10f33`.** Exact capacity obstruction. | Preserve the scoped result; RI-56 examines robust defects. |
@@ -5960,3 +5962,129 @@ supports its structural conjecture but is not the forthcoming actual-prefix
 certificate. RI-57 remains under implementation and arithmetic review before
 admitted-coefficient qualification. Neither scoped publication completes the
 native geometry, gravity, measurement or independent-review programme.
+
+
+**RI-58 independently accepted — the first free layer cannot have uniform zero drift**
+
+24 September 2026 UTC. Root and a separate reviewer read the complete proof,
+checker and certificate. Both isolated normal/optimized replays passed with
+empty stderr and identical 1182-byte stdout, SHA-256
+`9d74a7b2ebfb7ac195bd6c0173563c5a1167cdbb6e036e9abe7b02525d061e1a`.
+Root separately reconstructed all sixteen rectangle markings from the original
+published RI-41 executor/certificate, rather than the packet's reused RI-52
+helper. Its normal/optimized 3633-byte reports agree, SHA-256
+`e9fc6cbf25bef155c90d4432d3b48b2967e16b30684a80ff56e85a33413c0764`.
+No mathematical or source blocker remains; the three-file reservation releases.
+
+A rectangle with its maximum cloned has exactly two neutral birth ideals,
+its two axis precursors. Each shares an actual marked component with a raising
+Ferrers-parent slot. Its full birth raises, so the everywhere-neutral-component
+support condition from RI-56 fails. For the unchanged actual prefix and selected
+complete root-one marking, p=539/625 and a=b=1267/44000 force a strict worst-row
+drift greater than 13552/14457 (about 0.9374) across the three stated marked rows.
+This is a lower bound, not an optimum. Strict compatible extensions still exist;
+it is the added uniform zero-drift demand that fails.
+
+The exact checker examines 14 selected orders, every one of their 752 induced
+subsets, all eight twin-top ideals and eight transported marked diamond roles.
+It pins the reused RI-52 helper and actual RI-41 certificate before execution,
+reconciles their prefix data, and rejects three malformed certificates for the
+intended reasons. No unknown size-five probabilities, global new-layer table,
+geometry or informative quantum coupling is computed.
+
+Accepted source identities (only opening adjudication changed in the note):
+
+| File in `docs/track_b/native_growth_defect_bottleneck_v1/` | SHA-256 |
+|---|---|
+| `OBSTRUCTION.md` | `f3a2cb4b96d55cb78e1bd899786eccc61bb014d050ab6b84efc0c30bbaa021d6` |
+| `check.py` | `61ed48bd97d98c126dde616622d775678c0631433ef5d7971cc10add34a76b54` |
+| `CERTIFICATE.json` | `ef9f0338807e9087fc15685399e4cfd823e90f893ea60dbc64b60ecbafe29c64` |
+
+**RI-59 assigned — explicit history-weighted all-size candidate and its open bound**
+
+The existing QR task now reserves only
+`docs/track_b/native_growth_expected_defect_v1/EXPECTED_DEFECT.md`.
+This is an analytic candidate assignment, not a new executor or layer search.
+First prove/correct the history-weighted form of RI-58, including every newborn
+bit and distinct labeled first-birth cylinder. The proposed conditional next
+increment lower bound is p, and the two-birth defect lower bound is 1-a-b+p.
+Also prove that exact-rectangle-cloning events are mutually exclusive along a
+history: the first raises defect above zero permanently. Their history-weighted
+forcing terms therefore sum to at most one and cannot by themselves establish
+persistent Cesaro drift. This preview is not yet an accepted RI-59 result.
+
+Define a concrete prospective candidate using the actual prefix distribution
+at each parent size n>=5. Minimize its history-weighted defect drift over the
+complete closed RI-38 component polytope; call the minimum m_n. Choose its
+boundary minimizer by specified canonical lexicographic optimization, then mix
+with an explicit strictly interior component vector using eta_n=1/(n+1)^2.
+Prove rational finite computability, all-size consistency and history-measure
+existence while preserving every accepted prefix row. The layer parameters are
+fixed from the distribution of all histories; no realized outside-precursor
+record may be read. This is a myopic candidate, not an optimum over future laws.
+
+Derive m_n<=E[defect increment]<=m_n+eta_n and the exact expected/L1/probability
+sublinearity obligation on the resulting endogenous m_n. Keep almost-sure
+claims separate; examine summable minima as a stronger sufficient condition.
+RI-58 supplies a positive finite-layer cost, not an asymptotic estimate. No
+vanishing Cesaro minimum, balanced shape, native metric/matter/clock/gravity
+or physical detector map is promised. RET remains paused.
+
+**RI-57 full synthetic qualification running from frozen reviewed sources**
+
+At 2026-09-24 07:01:28 UTC root froze the eleven-file isolated closure after
+complete source/method reviews. The engine's signed Green-function error proof,
+small exact controls, and the qualifier/driver's numerical gates and input
+ordering are independently accepted for execution. Check source is 36039 bytes,
+SHA-256 `f68a8f54629f61a2e1e3bf8315c978167074c454efa097e16150d1fb7b3f106e`;
+process source is 17492 bytes,
+SHA-256 `ea89acd6d7120340acfa1a626482d8aebc6f38b84d6cf0e83ba9193b28896cb1`.
+Independent normal/optimized driver controls passed 41 cases per mode; author
+helper/mock checks passed 89 per mode. Mock tests are not qualification.
+
+Root is now running all 196 fixed synthetic gates normally and under -O with
+the existing pinned RI-44 runtime. The actual RI-53 central export has not been
+copied into that closure or opened by the new processor. Qualification results
+remain pending; precision, rows, lengths, thresholds and custody gates are fixed.
+All RI-57 files stay outside this native publication checkpoint.
+
+
+**RI-57 qualification failed; actual input remains gated; RI-60 repair assigned**
+
+The frozen normal and optimized runs each exited 1 with empty stderr and the
+same 161816-byte JSON, SHA-256
+`7dfbc8cac7e631a9c3663bca2b288b134d6cea03f1d0ca14c8334746761a808a`.
+The exact failed receipt is preserved in the v1 bundle. All 187 exact-toy,
+full-vector, transpose and refusal gates passed. All eight gain-width gates
+failed, and their dependent structural report could not complete: 9 of 196
+failed overall. No central synthetic-context width or actual waveform bound
+is promoted from those failed gates. The processor refuses the failed receipt;
+no actual sensitivity calculation or SENSITIVITY_REPORT is supplied.
+
+Root's frozen row-zero synthetic diagnosis found uniform radius approximately
+1.26e-10 and a gain-width/limit ratio about 1.05 million. The failure motivates
+preserving where each error occurs instead of spreading every boundary error
+to every coordinate. This is a numerical enclosure-method limitation, not a
+physical error measurement or a reason to relax the accepted thresholds.
+
+RI-60 reserves only six new paths in `docs/experiments/gwosc_context_operator_v2/`:
+`operator.py`, `check.py`, `process.py`, `IMPLEMENTATION.md`,
+`QUALIFICATION_REPORT.json`, `SENSITIVITY_REPORT.json`. The exact independent
+oracle is explicitly reused by its published v1 path and pin. The failed v1
+sources and receipt remain unchanged. The three authors have disjoint ownership:
+engine, qualifier/driver, and root guide/outputs; root retains all git operations.
+
+Root and independent analytic review accept the proposed per-coordinate
+residual recurrence for source authoring: the complex-pole adjoint error is
+bounded in P inverse norm using H P inverse H transpose=a2 P inverse, with
+upward 256-bit bound arithmetic, exact local residuals, and each startup error
+added only at the original pass-input coordinate zero. The a2=0 case has its
+own stable component bounds. Radii reverse and pad with their coordinates;
+odd-extension error propagation retains absolute-weight multiplicities.
+No frozen precision, dimensions, rows, coefficient bytes or width threshold
+changes. Mathematical validity does not guarantee useful widths.
+
+The revised sources must independently pass exact toys and full source review,
+then freeze before any revised admitted-coefficient qualification. Actual input
+still requires successful normal/optimized qualification. This is the next
+measurement action alongside the active RI-59 native candidate proof.

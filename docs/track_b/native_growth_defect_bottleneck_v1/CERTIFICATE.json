@@ -1,0 +1,201 @@
+{
+  "schema": "ri58-defect-bottleneck-v1",
+  "axis_precursors": [
+    3,
+    5
+  ],
+  "base": {
+    "past_masks": [
+      0,
+      1,
+      1,
+      7
+    ],
+    "record": 1
+  },
+  "clone_precursor": 7,
+  "dependencies": {
+    "ri41_certificate_sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+    "ri52_checker_sha256": "822d49b766a2ef2862f289f9e4abb4a262cfafcf58ac3ff4c34c044e75f6c654"
+  },
+  "geometry": {
+    "base_defect": 0,
+    "clone_children": [
+      {
+        "child_defect": 2,
+        "increment": 1,
+        "precursor": 0
+      },
+      {
+        "child_defect": 2,
+        "increment": 1,
+        "precursor": 1
+      },
+      {
+        "child_defect": 1,
+        "increment": 0,
+        "precursor": 3
+      },
+      {
+        "child_defect": 1,
+        "increment": 0,
+        "precursor": 5
+      },
+      {
+        "child_defect": 2,
+        "increment": 1,
+        "precursor": 7
+      },
+      {
+        "child_defect": 2,
+        "increment": 1,
+        "precursor": 15
+      },
+      {
+        "child_defect": 2,
+        "increment": 1,
+        "precursor": 23
+      },
+      {
+        "child_defect": 2,
+        "increment": 1,
+        "precursor": 31
+      }
+    ],
+    "clone_defect": 1,
+    "clone_optimal_retained_masks": [
+      15,
+      23
+    ],
+    "clone_past_masks": [
+      0,
+      1,
+      1,
+      7,
+      7
+    ],
+    "counterparts": [
+      {
+        "axis": 3,
+        "parent_defect": 0,
+        "past_masks": [
+          0,
+          1,
+          1,
+          7,
+          3
+        ],
+        "restored_child_defect": 1,
+        "restored_increment": 1,
+        "restored_precursor": 7
+      },
+      {
+        "axis": 5,
+        "parent_defect": 0,
+        "past_masks": [
+          0,
+          1,
+          1,
+          7,
+          5
+        ],
+        "restored_child_defect": 1,
+        "restored_increment": 1,
+        "restored_precursor": 7
+      }
+    ],
+    "full_increment": 1
+  },
+  "local_diamonds": [
+    {
+      "axis": 3,
+      "left_node": [
+        25374,
+        3,
+        1
+      ],
+      "left_potential": "229327/8800000",
+      "right_node": [
+        8990,
+        7,
+        1
+      ],
+      "right_potential": "97559/125000",
+      "shared_old_times_potential": "11237023/500000000"
+    },
+    {
+      "axis": 5,
+      "left_node": [
+        25374,
+        3,
+        1
+      ],
+      "left_potential": "229327/8800000",
+      "right_node": [
+        8990,
+        7,
+        1
+      ],
+      "right_potential": "97559/125000",
+      "shared_old_times_potential": "11237023/500000000"
+    }
+  ],
+  "lower_bound": "13552/14457",
+  "normalized_weights": [
+    "13552/14457",
+    "905/28914",
+    "905/28914"
+  ],
+  "old_factors": {
+    "a": "1267/44000",
+    "b": "1267/44000",
+    "p": "539/625"
+  },
+  "prefix_counts": {
+    "all_zero": 238,
+    "canonical_probability_keys": 585,
+    "components": 109,
+    "edges": 7616,
+    "equal": 1280,
+    "fixed_rows_through_four": 707,
+    "fixed_slots_through_four": 6065,
+    "loops": 1536,
+    "lower_raw_ratios": 436,
+    "maximum_height_drift": "14082809/29648025",
+    "minimum_full": "33901019/474368400",
+    "minimum_slot": "9/681472",
+    "nodes": 305,
+    "parents": 40,
+    "proper": 5072,
+    "rows": 640
+  },
+  "verification_counts": {
+    "clone_ideals": 8,
+    "ferrers_order_types": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 6
+    },
+    "ferrers_partitions": {
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 5,
+      "5": 7,
+      "6": 11
+    },
+    "induced_subsets_checked": 752,
+    "marked_diamond_roles": 8,
+    "maximum_geometry_size": 6,
+    "neutral_slots": 2,
+    "old_record_cases": 16,
+    "selected_geometry_orders": 14,
+    "selected_marked_row_classes": 2,
+    "selected_raw_marked_rows": 3
+  }
+}

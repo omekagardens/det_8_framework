@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted and published in verified `9ee565e`; RI-39's history measure and chosen-normalization rejection are independently accepted and published in verified `3aca9cd`; RI-41's finite normalization decision is independently accepted and published in verified `53f92fb`; RI-43's structural criterion and rejected stress rule are independently accepted and published in verified `1e2d2e4`, with a conditional all-size selection subsequently supplied in RI-46; RI-45's fixed-layer obstruction is published in verified `ebb7b27`; RI-46's all-size occupation-controlled law is published in verified `29ba6f4`; RI-48's macroscopic-layer obstruction is published in verified `b98cbe5`, and RI-49's power-schedule tradeoff is published in verified `a075bdb5`; RI-51's schedule-independent obstruction is published in verified `ee20ad6`; RI-52's finite Ferrers gate is published in verified `1993e24`; RI-54's two-layer capacity obstruction is published in verified `ef10f33`; RI-56 independently establishes the robust-defect diagnostic and conditional drift gate; RI-58 now tests a twin-top mixed-component obstruction. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. RI-40's public C02 calibration-input qualification is independently accepted and published in verified `79650a6`; RI-42's nominal strain-display design is independently accepted and published in verified `95c91bf`; RI-44's numerical implementation and synthetic qualification are published in verified `2a5c6f6`; RI-47's actual nominal display is published in verified `9b73fe5`; RI-50's public NR reference qualification is published in verified `8bccceb`; RI-53's actual finite-support comparison is published in verified `1993e24`; RI-55's context-sensitivity design is published in verified `ef10f33`; RI-57 next implements its qualified pilot, with calibrated/native claims still open. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted and published in verified `9ee565e`; RI-39's history measure and chosen-normalization rejection are independently accepted and published in verified `3aca9cd`; RI-41's finite normalization decision is independently accepted and published in verified `53f92fb`; RI-43's structural criterion and rejected stress rule are independently accepted and published in verified `1e2d2e4`, with a conditional all-size selection subsequently supplied in RI-46; RI-45's fixed-layer obstruction is published in verified `ebb7b27`; RI-46's all-size occupation-controlled law is published in verified `29ba6f4`; RI-48's macroscopic-layer obstruction is published in verified `b98cbe5`, and RI-49's power-schedule tradeoff is published in verified `a075bdb5`; RI-51's schedule-independent obstruction is published in verified `ee20ad6`; RI-52's finite Ferrers gate is published in verified `1993e24`; RI-54's two-layer capacity obstruction is published in verified `ef10f33`; RI-56 independently establishes the robust-defect diagnostic and conditional drift gate; RI-58 independently certifies the twin-top drift obstruction; RI-59 now defines a history-weighted candidate. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. RI-40's public C02 calibration-input qualification is independently accepted and published in verified `79650a6`; RI-42's nominal strain-display design is independently accepted and published in verified `95c91bf`; RI-44's numerical implementation and synthetic qualification are published in verified `2a5c6f6`; RI-47's actual nominal display is published in verified `9b73fe5`; RI-50's public NR reference qualification is published in verified `8bccceb`; RI-53's actual finite-support comparison is published in verified `1993e24`; RI-55's context-sensitivity design is published in verified `ef10f33`; RI-57 failed the unchanged enclosure-width qualification; RI-60 now reviews a separate per-coordinate repair, with actual input still gated and calibrated/native claims open. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -50,11 +50,12 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 reserves only `OBSTRUCTION.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_defect_bottleneck_v1/`. Preserve all accepted laws and central git ownership. |
+| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 reserves only `docs/track_b/native_growth_expected_defect_v1/EXPECTED_DEFECT.md`. Preserve all accepted laws and central git ownership. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
-| RI-57 context operator | Coordinator reserves only the seven new paths in `docs/experiments/gwosc_context_operator_v1/` listed in the latest assignment; no implementation result yet. |
+| RI-57 context operator | Source-stable failed qualification packet; reservation released to root publication. No sensitivity output or actual read. |
+| RI-60 context error repair | Six new paths in `docs/experiments/gwosc_context_operator_v2/` reserved as listed in the latest assignment. Root owns guide/outputs; engine and qualifier/driver authors have disjoint paths. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
 | RI-53 NR comparison | The eight-file bundle is published in verified `1993e24` and source-quiet; reservation released. |
 | RI-50 NR reference qualification | Three files in `docs/experiments/gwosc_nr_reference_v1/` are published in verified `8bccceb`; reservations released. Complete actual normal/optimized inspection and independent all-row audit passed; no overlay result. |
@@ -2952,3 +2953,129 @@ supports its structural conjecture but is not the forthcoming actual-prefix
 certificate. RI-57 remains under implementation and arithmetic review before
 admitted-coefficient qualification. Neither scoped publication completes the
 native geometry, gravity, measurement or independent-review programme.
+
+
+**RI-58 independently accepted — the first free layer cannot have uniform zero drift**
+
+24 September 2026 UTC. Root and a separate reviewer read the complete proof,
+checker and certificate. Both isolated normal/optimized replays passed with
+empty stderr and identical 1182-byte stdout, SHA-256
+`9d74a7b2ebfb7ac195bd6c0173563c5a1167cdbb6e036e9abe7b02525d061e1a`.
+Root separately reconstructed all sixteen rectangle markings from the original
+published RI-41 executor/certificate, rather than the packet's reused RI-52
+helper. Its normal/optimized 3633-byte reports agree, SHA-256
+`e9fc6cbf25bef155c90d4432d3b48b2967e16b30684a80ff56e85a33413c0764`.
+No mathematical or source blocker remains; the three-file reservation releases.
+
+A rectangle with its maximum cloned has exactly two neutral birth ideals,
+its two axis precursors. Each shares an actual marked component with a raising
+Ferrers-parent slot. Its full birth raises, so the everywhere-neutral-component
+support condition from RI-56 fails. For the unchanged actual prefix and selected
+complete root-one marking, p=539/625 and a=b=1267/44000 force a strict worst-row
+drift greater than 13552/14457 (about 0.9374) across the three stated marked rows.
+This is a lower bound, not an optimum. Strict compatible extensions still exist;
+it is the added uniform zero-drift demand that fails.
+
+The exact checker examines 14 selected orders, every one of their 752 induced
+subsets, all eight twin-top ideals and eight transported marked diamond roles.
+It pins the reused RI-52 helper and actual RI-41 certificate before execution,
+reconciles their prefix data, and rejects three malformed certificates for the
+intended reasons. No unknown size-five probabilities, global new-layer table,
+geometry or informative quantum coupling is computed.
+
+Accepted source identities (only opening adjudication changed in the note):
+
+| File in `docs/track_b/native_growth_defect_bottleneck_v1/` | SHA-256 |
+|---|---|
+| `OBSTRUCTION.md` | `f3a2cb4b96d55cb78e1bd899786eccc61bb014d050ab6b84efc0c30bbaa021d6` |
+| `check.py` | `61ed48bd97d98c126dde616622d775678c0631433ef5d7971cc10add34a76b54` |
+| `CERTIFICATE.json` | `ef9f0338807e9087fc15685399e4cfd823e90f893ea60dbc64b60ecbafe29c64` |
+
+**RI-59 assigned — explicit history-weighted all-size candidate and its open bound**
+
+The existing QR task now reserves only
+`docs/track_b/native_growth_expected_defect_v1/EXPECTED_DEFECT.md`.
+This is an analytic candidate assignment, not a new executor or layer search.
+First prove/correct the history-weighted form of RI-58, including every newborn
+bit and distinct labeled first-birth cylinder. The proposed conditional next
+increment lower bound is p, and the two-birth defect lower bound is 1-a-b+p.
+Also prove that exact-rectangle-cloning events are mutually exclusive along a
+history: the first raises defect above zero permanently. Their history-weighted
+forcing terms therefore sum to at most one and cannot by themselves establish
+persistent Cesaro drift. This preview is not yet an accepted RI-59 result.
+
+Define a concrete prospective candidate using the actual prefix distribution
+at each parent size n>=5. Minimize its history-weighted defect drift over the
+complete closed RI-38 component polytope; call the minimum m_n. Choose its
+boundary minimizer by specified canonical lexicographic optimization, then mix
+with an explicit strictly interior component vector using eta_n=1/(n+1)^2.
+Prove rational finite computability, all-size consistency and history-measure
+existence while preserving every accepted prefix row. The layer parameters are
+fixed from the distribution of all histories; no realized outside-precursor
+record may be read. This is a myopic candidate, not an optimum over future laws.
+
+Derive m_n<=E[defect increment]<=m_n+eta_n and the exact expected/L1/probability
+sublinearity obligation on the resulting endogenous m_n. Keep almost-sure
+claims separate; examine summable minima as a stronger sufficient condition.
+RI-58 supplies a positive finite-layer cost, not an asymptotic estimate. No
+vanishing Cesaro minimum, balanced shape, native metric/matter/clock/gravity
+or physical detector map is promised. RET remains paused.
+
+**RI-57 full synthetic qualification running from frozen reviewed sources**
+
+At 2026-09-24 07:01:28 UTC root froze the eleven-file isolated closure after
+complete source/method reviews. The engine's signed Green-function error proof,
+small exact controls, and the qualifier/driver's numerical gates and input
+ordering are independently accepted for execution. Check source is 36039 bytes,
+SHA-256 `f68a8f54629f61a2e1e3bf8315c978167074c454efa097e16150d1fb7b3f106e`;
+process source is 17492 bytes,
+SHA-256 `ea89acd6d7120340acfa1a626482d8aebc6f38b84d6cf0e83ba9193b28896cb1`.
+Independent normal/optimized driver controls passed 41 cases per mode; author
+helper/mock checks passed 89 per mode. Mock tests are not qualification.
+
+Root is now running all 196 fixed synthetic gates normally and under -O with
+the existing pinned RI-44 runtime. The actual RI-53 central export has not been
+copied into that closure or opened by the new processor. Qualification results
+remain pending; precision, rows, lengths, thresholds and custody gates are fixed.
+All RI-57 files stay outside this native publication checkpoint.
+
+
+**RI-57 qualification failed; actual input remains gated; RI-60 repair assigned**
+
+The frozen normal and optimized runs each exited 1 with empty stderr and the
+same 161816-byte JSON, SHA-256
+`7dfbc8cac7e631a9c3663bca2b288b134d6cea03f1d0ca14c8334746761a808a`.
+The exact failed receipt is preserved in the v1 bundle. All 187 exact-toy,
+full-vector, transpose and refusal gates passed. All eight gain-width gates
+failed, and their dependent structural report could not complete: 9 of 196
+failed overall. No central synthetic-context width or actual waveform bound
+is promoted from those failed gates. The processor refuses the failed receipt;
+no actual sensitivity calculation or SENSITIVITY_REPORT is supplied.
+
+Root's frozen row-zero synthetic diagnosis found uniform radius approximately
+1.26e-10 and a gain-width/limit ratio about 1.05 million. The failure motivates
+preserving where each error occurs instead of spreading every boundary error
+to every coordinate. This is a numerical enclosure-method limitation, not a
+physical error measurement or a reason to relax the accepted thresholds.
+
+RI-60 reserves only six new paths in `docs/experiments/gwosc_context_operator_v2/`:
+`operator.py`, `check.py`, `process.py`, `IMPLEMENTATION.md`,
+`QUALIFICATION_REPORT.json`, `SENSITIVITY_REPORT.json`. The exact independent
+oracle is explicitly reused by its published v1 path and pin. The failed v1
+sources and receipt remain unchanged. The three authors have disjoint ownership:
+engine, qualifier/driver, and root guide/outputs; root retains all git operations.
+
+Root and independent analytic review accept the proposed per-coordinate
+residual recurrence for source authoring: the complex-pole adjoint error is
+bounded in P inverse norm using H P inverse H transpose=a2 P inverse, with
+upward 256-bit bound arithmetic, exact local residuals, and each startup error
+added only at the original pass-input coordinate zero. The a2=0 case has its
+own stable component bounds. Radii reverse and pad with their coordinates;
+odd-extension error propagation retains absolute-weight multiplicities.
+No frozen precision, dimensions, rows, coefficient bytes or width threshold
+changes. Mathematical validity does not guarantee useful widths.
+
+The revised sources must independently pass exact toys and full source review,
+then freeze before any revised admitted-coefficient qualification. Actual input
+still requires successful normal/optimized qualification. This is the next
+measurement action alongside the active RI-59 native candidate proof.
