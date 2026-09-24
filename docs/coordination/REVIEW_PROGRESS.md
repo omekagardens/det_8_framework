@@ -3867,3 +3867,67 @@ coordinator records. Root will verify scoped links, staged identities and
 all entry versions outside these records, excluding the separately active
 new QR dossier from this publication. The next action is independent RI-32
 review on handoff; only then assign a bounded successor.
+
+
+**RI-33 remote publication verified**
+
+Commit `2216ac8a373459a7cf0b3791cf2da3b92b170528`, tree
+`9a45ffad9073768fa800222bcfd1ec65c85ce8ee`, publishes only the new contract
+and three coordinator records. Every staged hash matched acceptance. All
+88 local links resolved and all 2,016 entry file versions outside those
+records were preserved. The active QR dossier was explicitly excluded.
+Normal push and independent origin/ret lookup confirmed the full commit.
+The contract remains at accepted hash
+`6dc0df2c94747df68f251114d75ba6e568cc69b75f27c8946b680aeac7d54f66`.
+
+**RI-32 handoff and independent family-scoped rejection**
+
+QR handed off only `docs/track_b/native_joint_growth_v1/DOSSIER.md` at
+`0610ad757be832eac7241ab575770b60def3c89dd235386bb648d8b0d20ef181`,
+released its reservation and stopped. Root read the complete 373-line
+specification/proof and the linked licensed-birth/domain boundaries. An
+independent coordinator mathematical/scope reviewer accepted those same bytes;
+QR also reports separate internal mathematics and premise reviews.
+
+The chosen all-ideal law uses w=1+lambda*sum(R|S), a global normalizer and fair
+binary newborn marks, with fixed finite lambda>=0. Branches scale the full
+admitted total-entry-mass-one positive kernel by their probability and retain
+its conditional payload. Normalization, positivity/closure and relabeling
+equivariance hold. Arbitrarily large antichains merely have positive support;
+the all-zero antichain path probability is 2^(-n(n+1)/2), not a typical-width
+or manifold theorem. For positive lambda the next unlabeled chain probability
+responds to a singleton's mark, with the same retained residual/context; the
+empty-ideal probability simultaneously exposes a forbidden strict-local read.
+
+The decisive all-parameter counterexample starts at a reachable zero-mark
+singleton a. Births x with old precursor {a} and y with empty precursor, both
+marked zero, yield the same final marked order but intermediate parents with
+three versus four ideals. Their complete unnormalized maps are D/24 and D/32;
+from the empty initial state they are D/48 and D/64. Mass-one D is nonzero,
+so this fails for every admitted residual and every coupling. Normalizing
+the final residuals would erase precisely the failure under review. The
+known uniform-ideal obstruction is credited, with no claim of novelty or a
+universal no-go for feedback laws.
+
+Root independently checked the ideal lists and full-map reasoning, then used
+a temporary standard-library rational calculation for the displayed branch
+products and feedback substitutions at 0, 1/2, 1 and 7. These scalar
+substitutions are not an executor, enumeration, simulation or all-parameter
+proof; the analytic reachable-sector argument establishes the family-wide
+rejection. No project source, scientific data, protected validation or RET
+code was run. The owner's no-runtime-check statement remains scoped to its
+analytical handoff.
+
+The only post-review dossier edit changes the opening coordinator-status
+label from pending to accepted; mathematics and scope remain byte-identical.
+The complete accepted identity is recorded below before staging. This
+checkpoint will publish that single new document plus the three coordinator
+records, preserving RI-33 and every entry file outside those records. No
+replacement law or cycle-2 executor is assigned. The next coordinator item
+can implement the already reviewed exact timing contract after reserving
+its small scope; native growth remains open after this rejected candidate.
+
+Final RI-32 publication identity:
+`341f9e195308a229e2c221bf4d430e9fa747aafb65c6aec78bf068d0c2a0a12f`.
+Reversing only that opening administrative label reproduces the independently
+reviewed handoff hash exactly.
