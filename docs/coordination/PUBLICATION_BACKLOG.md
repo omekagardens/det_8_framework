@@ -16,7 +16,8 @@ with unrelated changes to make an import succeed.
 | RI-62 recorded H1/L1 context | **Design published in independently verified `052154c`.** | Preserve the accepted design; RI-64 implements it. |
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 qualification and eight actual rows passed.** | Preserve the six reproducible files; RI-62 designs the separate observed-context comparison. |
 | RI-57 selected-row sensitivity | **Failed qualification preserved in verified `995ed03`: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
-| RI-66 terminal-cost factorization | **Assigned; three new paths reserved.** | Prove/refute intrinsic cost and raising-fraction identities; preserve actual-law premises. |
+| RI-69 full-birth drift | **Assigned; three new paths reserved.** | Prove exact top geometry and cumulative recharge bound; keep remaining mass premise explicit. |
+| RI-66 terminal-cost factorization | **Independently accepted; publication pending.** | Publish conditional all-size theorem, hook obstruction and exact finite certificate. |
 | RI-65 actual residual re-entry | **Published in verified `bd0031a`.** | Preserve the finite obstruction and zero-defect reduction; RI-66 addresses terminal cost. |
 | RI-63 first-free expected-cost decision | **Published in independently verified `7ccba1c`.** | Preserve the exact canonical completion and replay evidence; RI-65 addresses the next residual. |
 | RI-61 candidate-specific suppression | **Published in independently verified `32824c3`.** | RI-63 targets the first-free exact candidate; asymptotic residual decay remains open. |
@@ -2879,3 +2880,75 @@ review/freeze remains its next gate. QR remains active on RI-66, with no
 predecessor handoff or duplicate assignment. No claim of calibrated inference,
 sublinear native defect, geometry/gravity derivation or programme completion
 follows from this design checkpoint. RET remains paused.
+
+
+**RI-66 terminal-cost theorem accepted; RI-69 full-birth drift bound assigned**
+
+24 September 2026 UTC. Root read the complete 434-line proof and 524-line checker,
+checked the complete saved-certificate reconstruction, and replayed an isolated
+copy with the actual pinned RI-63 checker/certificate and RI-41 certificate.
+CPython 3.14.0 -I -S -B normal/optimized runs both exited zero in 11.873/11.899
+seconds. Their 1401-byte stdout is identical, SHA-256
+`6064f6abe8397e79d0dc2bf03b390c2f5546970cdd76e055f578452b5842ebba`;
+their expected 814-byte progress stderr is identical, SHA-256
+`3f241616aefcd186c4b9767716dffb9842092c026a976a141d84a3b377960593`.
+All 14 new saved-certificate refusal controls and inherited 15 controls pass.
+No parent-six probability or terminal above six is evaluated.
+
+The all-size conditional theorem is accepted: U_c=K_c e(Q), beta_c=K_c D(Q)
+and R_c=K_c H_num(Q). The proof retains full-mark fibers, same-mark deletion
+connectivity, the free automorphism action on pairs of markings and linear
+extensions, and fair newborn-bit lifting. The intrinsic ratios do not erase
+marked components or their separate capacities/history-dependent masses.
+Restricted-sector sums use their actual restricted denominators; 95 zero-sector
+cases correctly have undefined conditional ratios. The full-complement term
+remains in the positive-defect residual. The all-size hook-plus-isolates family
+proves H=t/(t+5) and D/e=-15/[4(t+5)], rejecting a uniform cost-only raising
+charge. It proves neither allocation nor occupation nor asymptotic failure.
+
+A separate coordinator review accepted the complete proof/source/certificate.
+Its independent audit uses forward ideal dynamic programming for extension
+counts and its own pinned canonicalization utilities; accepted RI-63 domain,
+pi, potentials, defects and criticality remain explicit inherited inputs.
+It checks 15702 canonical labeled proper occurrences, 798 components, 255 terminal
+types, 671 deletion roles, 1381 component/parent-type weights, 16320 full terminal
+markings, 42944 marked deletion roles, 111040 automorphism-invariance checks,
+4788 factor equalities and five component/structural/fiber manifests.
+Normal/optimized audit outputs match: 1931 bytes, SHA-256
+`7c2fff82cae137428b2b00ba0d3e0dee887d835f6583e0d226931d09ed30b58c`,
+with empty stderr and 11.802/11.791-second runtimes. This is independent exact
+reaggregation, not an independently generated native domain or a later law.
+All three handoff identities remain fixed except the note's opening acceptance
+wording. The three-file reservation releases for scoped publication.
+
+RI-69 is now assigned to the existing QR task, reserving exactly TOP_DRIFT.md,
+check.py and CERTIFICATE.json in `docs/track_b/native_growth_top_drift_v1/`.
+Prove or refute the exact universal-top formulas using F(P), the largest induced
+Ferrers-suborder size, h(P), height, and R(P), the largest induced punctured
+rectangle (including chains/empty): F(P+top)=max(F,1+R), and for k>=1,
+F(P+chain_k)=max(F,1+R,h+k). Retain arbitrary induced subsets. Derive full-birth
+raising/quenching precisely; a first neutral full birth need not imply that
+subsequent full births are neutral.
+
+The proposed potential V=F-h is nonnegative. Full births consume V exactly
+when they raise defect; positive V increments occur only at proper neutral
+births that do not increase height. Prove the pathwise count identity and
+bound, then the actual-prefix boundary expectation version with explicit
+mixture error at most 2*sum eta. Factor the recharge statistic through RI-66's
+intrinsic deletion roles. This aims to bound the full-complement contribution,
+not assume that the charged proper-birth budget is small. Balanced Ferrers
+histories can recharge extensively with zero defect. The root/reviewer agree
+on these analytic leads, but the new dossier requires its own full review and
+finite exact checks. Keep concrete checks within the accepted small domain;
+no new-layer optimizer, altered law or blanket seven-event atlas is assigned.
+
+RI-68 remains active in its two separate reserved paths. Its implementer has
+supplied a checker review candidate and is finishing deterministic fixture and
+mock controls; the independent reviewer has prepared an expected-answer audit
+without reading that checker. No fixed-seed study or observed processing has
+run. Source review and freeze still precede sampling. Native asymptotic defect
+control, geometry/gravity/observation maps and calibrated inference remain open.
+RET remains paused and unrelated baseline edits remain untouched.
+
+Accepted RI-66 FACTORIZATION.md: 20409 bytes, SHA-256
+`719775ae7bdcba896d97dba5cc6c4d3308e21b2d8e358f5420c1cc52b4cc75e6`.
