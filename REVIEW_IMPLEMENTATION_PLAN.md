@@ -1,5 +1,21 @@
 **DET independent-review implementation and QR coordination**
 
+**24 September recovery status.** Source-only RI-73 checkpoint
+`6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
+verified on origin/ret. A host reboot interrupted RI-74 review and removed
+the temporary external runtime/helpers/receipts. Historical execution reports
+below remain historical reports; missing temporary artifacts are not presently
+available custody evidence. Committed sources and results remain intact.
+Fresh recovery evidence is retained outside the repository under
+`/Volumes/AI_DATA/development/det-review-evidence/`. Actual RI-73 coefficient
+execution remains unstarted and RESULT.json absent. The exact runtime fingerprint and 75/75 fixtures are recovered; helper
+reconciliation and a fresh durable execution freeze remain before execution.
+No gate is relaxed.
+RI-74 passed fresh durable normal/optimized replay and is independently
+accepted. RI-75 strict approximation is assigned to the existing QR task.
+The native programme continues, and RET remains paused.
+
+
 Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; RI-38's all-size conditional extension theorem is independently accepted and published in verified `9ee565e`; RI-39's history measure and chosen-normalization rejection are independently accepted and published in verified `3aca9cd`; RI-41's finite normalization decision is independently accepted and published in verified `53f92fb`; RI-43's structural criterion and rejected stress rule are independently accepted and published in verified `1e2d2e4`, with a conditional all-size selection subsequently supplied in RI-46; RI-45's fixed-layer obstruction is published in verified `ebb7b27`; RI-46's all-size occupation-controlled law is published in verified `29ba6f4`; RI-48's macroscopic-layer obstruction is published in verified `b98cbe5`, and RI-49's power-schedule tradeoff is published in verified `a075bdb5`; RI-51's schedule-independent obstruction is published in verified `ee20ad6`; RI-52's finite Ferrers gate is published in verified `1993e24`; RI-54's two-layer capacity obstruction is published in verified `ef10f33`; RI-56 independently establishes the robust-defect diagnostic and conditional drift gate; RI-58 independently certifies the twin-top drift obstruction; RI-59 independently establishes a history-weighted all-size candidate; RI-61 independently proves candidate-specific summable suppression; RI-63 independently certifies its first-free expected-cost problem; RI-65 independently proves the actual next-layer residual obstruction and finite zero-defect hazard; RI-66 independently proves intrinsic terminal-cost factorization, published in verified `d10b045`; RI-69 independently establishes full-birth drift identities and the near-chain limitation, published in verified `4280198`; RI-70 independently certifies its finite height range, published in verified `ebfd0ec`; RI-72 examines the critical-suppression slice. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. RI-37's actual public-input qualification is published in verified `8071ee3`, including the retained L1 CW-injection flag. RI-40's public C02 calibration-input qualification is independently accepted and published in verified `79650a6`; RI-42's nominal strain-display design is independently accepted and published in verified `95c91bf`; RI-44's numerical implementation and synthetic qualification are published in verified `2a5c6f6`; RI-47's actual nominal display is published in verified `9b73fe5`; RI-50's public NR reference qualification is published in verified `8bccceb`; RI-53's actual finite-support comparison is published in verified `1993e24`; RI-55's context-sensitivity design is published in verified `ef10f33`; RI-57 failed the unchanged enclosure-width qualification; RI-60 independently passes all 196 qualification gates and all eight actual reference-input rows; RI-62 designs recorded H1/L1 context comparisons; RI-64 independently reproduces those fixed comparisons; RI-67 independently establishes conditional noise accounting; RI-68 independently passes frozen synthetic qualification and full replay, published in verified `4280198`; RI-71's operator-covariance design is published in verified `ebfd0ec`; RI-73 implements its frozen gates, with calibrated/native claims open. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
@@ -17,7 +33,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | Current native assignment: RI-72 critical-suppression height minimum, following independently accepted RI-70. RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 is independently accepted, published in verified `ad3c8dd` and source-quiet; its explicit countermodel proves the listed scalar-independence premises leave ordinary tensor factorization undetermined. Its reservation is released. RI-25 is independently accepted: its complete worked specification, simulator, trial-record contract and withheld prediction passed final reviews and isolated replay. It is published in verified `9f463f2`. RI-26 is independently accepted after final reviews and isolated replay; its source reservation is released. Earlier accepted results remain fixed. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | Current native assignment: RI-75 strict approximation, following independently accepted RI-74 with fresh durable replay. RI-72 is accepted and published in verified `f18b5d9`. RI-16 and RI-17 are published in verified `22eca4e` and `ad04963`. RI-18 proof/source review and isolated pinned integration are accepted and published in verified `ba12958`. The fixed finite trace closes the assigned probability/type arrow; the scalar law has rank two. RI-19 proof/design is accepted and published in verified `f6b8f18`, after complete mathematical/API reviews and root native checks. RI-20 is independently accepted and its four-file reservation is released. The fixed-probe criterion is proved; native resource/closure premises remain open. RI-21 is independently accepted after complete proof, literature and premise reviews. Its four-file reservation is released. RI-22 is independently accepted, published in verified `ad3c8dd` and source-quiet; its explicit countermodel proves the listed scalar-independence premises leave ordinary tensor factorization undetermined. Its reservation is released. RI-25 is independently accepted: its complete worked specification, simulator, trial-record contract and withheld prediction passed final reviews and isolated replay. It is published in verified `9f463f2`. RI-26 is independently accepted after final reviews and isolated replay; its source reservation is released. Earlier accepted results remain fixed. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -50,7 +66,7 @@ Active file reservations, updated 24 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is published in independently verified `f18b5d9`; reservation released. RI-74 reserves only `PLANCHEREL_GRAFT.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_plancherel_graft_v1/`. Preserve all accepted laws and central git ownership. |
+| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is published in independently verified `f18b5d9`; reservation released. RI-74 is independently accepted; reservation released to root publication. RI-75 reserves only `APPROXIMATION.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_plancherel_approximation_v1/`. Preserve all accepted laws and central git ownership. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -61,9 +77,10 @@ Active file reservations, updated 24 September UTC:
 | RI-67 conditional noise design | One-file design published in independently verified `bee0131`; reservation released. |
 | RI-70 native height tradeoff | Published in independently verified `ebfd0ec`; reservation released. |
 | RI-72 critical-suppression height | Published in independently verified `f18b5d9`; reservation released. |
-| RI-74 Plancherel boundary graft | Only `PLANCHEREL_GRAFT.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_plancherel_graft_v1/`; QR author, root git. Zero-allowed compatibility question; no adopted strict law. |
+| RI-74 Plancherel boundary graft | Independently accepted after fresh durable normal/optimized replay; reservation released to root publication. Unadopted zero-allowed theorem. |
+| RI-75 strict approximation | Only `APPROXIMATION.md`, `check.py`, `CERTIFICATE.json` in `docs/track_b/native_growth_plancherel_approximation_v1/`; QR author, root git. Prove or refute strict-positive finite-depth approximation with the actual six-event prefix held. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
-| RI-73 operator covariance implementation | Only `check.py`, `RESULT.json` in `docs/experiments/gwosc_noise_operator_covariance_v1/`; source review/freeze before actual coefficients. |
+| RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Root retains `RESULT.json` reservation, still absent. Recover the qualified external runtime/caller/auditor, verify custody and freeze before actual coefficients. |
 | RI-68 synthetic noise qualification | Two-file packet published in independently verified `4280198`; reservation released. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
 | RI-53 NR comparison | The eight-file bundle is published in verified `1993e24` and source-quiet; reservation released. |
@@ -4511,3 +4528,96 @@ captured intervals and every result field. This is conditional synthetic
 unit-white covariance qualification, not observed detector-noise calibration.
 RI-74 machine files are frozen for coordinator replay; final note/review
 reconciliation remains pending. Its zero-allowed proof is not adopted.
+
+
+**RI-74 independently accepted after durable recovery; RI-75 assigned**
+
+The reboot did not alter the published branch or the new native machine
+sources. Root independently rechecked `origin/ret` at source-only RI-73 commit
+`6e58490142b5fa13bcd554f2bf4c5057bf644a79` (tree
+`0c604611cb5206acec7081a6712a8adda40d8eab`), with an empty index.
+That four-path checkpoint contains the reviewed checker and three coordinator
+records; RESULT.json is absent. The lost temporary helper/runtime/receipt
+artifacts are explicitly distinguished from surviving published sources and
+historical tool-reported tests. Recovery uses durable external storage and
+must preserve all original runtime, freeze, resource and acceptance gates.
+
+Root accepts RI-74's conditional zero-allowed law after full proof/source
+review and fresh copied normal/-O replay. All diagram embeddings are counted
+in w(F)=b(F)e(F)/|F|!, with individual labeled-ideal transitions w(child)/w(parent).
+The normalization and full positive/zero diamond proofs, exact Plancherel
+history pushforward and intrinsic six-ideal graft preserve every actual marked
+six-event prefix. Deleting the six-vertex core leaves a Ferrers suffix, so
+0<=delta(P_N)<=6 and delta(P_N)/N tends to zero pathwise for this proposed
+boundary law. This is a conditional all-size proof corroborated by finite
+checks, not a strictly positive law, adopted DET dynamics, balanced geometry,
+physical spacetime or gravity result. Imported Plancherel structure, passive
+carrier and fair records remain explicit premises.
+
+Fresh root replays took 65.793/66.166 seconds, sampled RSS 123952/123600 KiB,
+exit zero and no 900-second/2-GiB stop. Both stdout files have 2545 bytes,
+SHA-256 `2d9b1bdc9d6bccdcd4c81ed445ba0b529a305c35b5f531662a5ef5b6ec563f6c`;
+both progress stderr files have 830 bytes, SHA-256
+`00b1793253dc33bd4018b9549e76b1937dbe14222009d1e8ad060cc211949a45`.
+The five-file closure was copied and checked unchanged before/after each mode;
+the three inherited dependencies match published bytes. Fresh stdout/stderr,
+resource receipts, source copies, supervisor and baseline inventory reside in
+`/Volumes/AI_DATA/development/det-review-evidence/recovery-20260924-root/`.
+No historical missing receipt was recreated as though recovered.
+
+RI-74's three-file reservation is released to root publication. The existing
+QR task is now assigned RI-75, only APPROXIMATION.md, check.py, CERTIFICATE.json
+in `docs/track_b/native_growth_plancherel_approximation_v1/`. A separate
+independent scope review supports this next question; it is not yet an
+accepted successor theorem. Preserve the exact held prefix and investigate
+strict-positive compatible approximations with finite-depth marked-history
+convergence. No actual parent-six exhaustive inventory, optimizer, adoption,
+RET work or measurement change is part of that assignment.
+
+RI-75 proof target: on the complete RI-38 proper-node graph, use RI-66 terminal
+invariance to identify active components with terminal K plus Ferrers Z. Prove
+that every maximal-deletion factor for an active node has a positive graft
+limit, and that a_c=q_i^G/u_i^G is constant on each complete marked component.
+Do not remove boundary-zero edges or collapse different marked components.
+For rational 0<epsilon<=1 and n>=6, define h_i=a_c*u_i^epsilon on active
+components, zero elsewhere; let B_n and M_n be complete marked-layer maxima
+of proper row sums of h and u. With t_n=epsilon/(n+1)^2,
+lambda_n=(1-t_n)/max(1,B_n), tau_n=t_n/[2(1+M_n)], test
+q_i^epsilon=lambda_n*h_i+tau_n*u_i^epsilon and the full complement.
+Global constants are fixed during construction before observing current
+marks. Required proofs: rational strict positivity (full complement>t_n/2),
+all raw-edge diamonds, precursor-record locality/equivariance and finite-layer
+uniform convergence, hence finite-history total variation convergence.
+Inactive potentials may diverge; their total floor mass must be controlled
+without assuming continuity there. Summable t_n does not by itself control
+full-birth leakage from Ferrers support. No fixed-epsilon asymptotic defect
+claim or interchange of epsilon and size limits follows.
+
+
+**Measurement runtime recovered without changing qualification**
+
+The exact CPython 3.11.6 executable and the three required cached wheels
+survived. A new offline virtual environment was reconstructed in durable
+external storage; it is not the old temporary environment or a recovered run
+receipt. All ten fields of the existing RI-60 runtime fingerprint match,
+including the full Python/OS build, NumPy configuration and HDF5 1.12.2.
+Root independently exercised that equality through the unchanged RI-73
+admission path and copied fifteen-file published closure: fresh normal/-O
+fixture-only runs pass 75/75 gates in 0.483/0.591 seconds, empty stderr.
+Both produce exactly the historical 282213-byte report with SHA-256
+`d2e89bde345da2b4fca8cfddb9e9a6936fc0de9b0c0f5c0de2d27ff9dc48b26c`.
+No actual coefficient, observation or sampling run occurred. Root fixture
+receipts are in `recovery-20260924-root/ri73-fixtures/` under the durable
+external evidence root. The recovered environment and wheel/command records
+are in `ri73-recovery/recovery-20260924T212511Z-2403d37c/` there.
+
+Reviewed external helper sources are being reconstructed from their original
+task-local source-writing records and compared with the published review
+hashes. Matching source bytes do not recover lost execution receipts. The
+remaining measurement step is to reconcile all helper/fixture identities,
+replay the relevant fabricated controls, and freeze a new manifest with the
+new durable interpreter/caller/observer/output paths before actual normal/-O
+coefficient reconstruction and independent captured-interval/result audit.
+The prospective pre-reboot manifest remains non-authorizing and must not be
+silently reused with substituted paths. All scientific and resource gates,
+calibration/physical premises and the RET pause remain unchanged.

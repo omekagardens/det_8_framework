@@ -1,5 +1,21 @@
 **Independent-review implementation progress**
 
+**24 September recovery status.** Source-only RI-73 checkpoint
+`6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
+verified on origin/ret. A host reboot interrupted RI-74 review and removed
+the temporary external runtime/helpers/receipts. Historical execution reports
+below remain historical reports; missing temporary artifacts are not presently
+available custody evidence. Committed sources and results remain intact.
+Fresh recovery evidence is retained outside the repository under
+`/Volumes/AI_DATA/development/det-review-evidence/`. Actual RI-73 coefficient
+execution remains unstarted and RESULT.json absent. The exact runtime fingerprint and 75/75 fixtures are recovered; helper
+reconciliation and a fresh durable execution freeze remain before execution.
+No gate is relaxed.
+RI-74 passed fresh durable normal/optimized replay and is independently
+accepted. RI-75 strict approximation is assigned to the existing QR task.
+The native programme continues, and RET remains paused.
+
+
 13 September 2026. Coordinator-owned. See the root
 [implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) for scope and file
 reservations. [QR_HANDOFF.md](QR_HANDOFF.md) retains the historical QR handoff;
@@ -7,8 +23,8 @@ the latest assignments below and in the plan govern current work.
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-71 operator covariance design | **Assigned; one new path reserved.** | Conditional unit-white covariance/rank/inverse/error design; no actual run. |
-| RI-70 native height tradeoff | **Assigned; three new paths reserved.** | Certify exact height endpoints on the fixed defect-optimal face. |
+| RI-71 operator covariance design | **Published in independently verified `ebfd0ec`.** | RI-73 source is published; actual conditional qualification awaits runtime/custody recovery. |
+| RI-70 native height tradeoff | **Published in independently verified `ebfd0ec`.** | Preserve endpoints; RI-72 is published and RI-74 is under final review. |
 | RI-69 full-birth drift | **Published in independently verified `4280198`.** | Preserve signed identities and near-chain limitation. |
 | RI-68 synthetic noise qualification | **Published in independently verified `4280198`.** | Preserve the frozen result; RI-71 supplies the next integration design. |
 | RI-67 conditional-noise design | **Published in independently verified `bee0131`.** | Preserve frozen synthetic model/probability contract. |
@@ -7566,3 +7582,96 @@ normal/-O serially, one worker each, with unchanged 1800s/sampled-2GiB limits,
 256MiB snapshot and 64MiB scientific report caps. Failures remain failures.
 Independent result acceptance and physical/calibration claims remain separate.
 RI-74 proof/machine adjudication continues; RET remains paused.
+
+
+**RI-74 independently accepted after durable recovery; RI-75 assigned**
+
+The reboot did not alter the published branch or the new native machine
+sources. Root independently rechecked `origin/ret` at source-only RI-73 commit
+`6e58490142b5fa13bcd554f2bf4c5057bf644a79` (tree
+`0c604611cb5206acec7081a6712a8adda40d8eab`), with an empty index.
+That four-path checkpoint contains the reviewed checker and three coordinator
+records; RESULT.json is absent. The lost temporary helper/runtime/receipt
+artifacts are explicitly distinguished from surviving published sources and
+historical tool-reported tests. Recovery uses durable external storage and
+must preserve all original runtime, freeze, resource and acceptance gates.
+
+Root accepts RI-74's conditional zero-allowed law after full proof/source
+review and fresh copied normal/-O replay. All diagram embeddings are counted
+in w(F)=b(F)e(F)/|F|!, with individual labeled-ideal transitions w(child)/w(parent).
+The normalization and full positive/zero diamond proofs, exact Plancherel
+history pushforward and intrinsic six-ideal graft preserve every actual marked
+six-event prefix. Deleting the six-vertex core leaves a Ferrers suffix, so
+0<=delta(P_N)<=6 and delta(P_N)/N tends to zero pathwise for this proposed
+boundary law. This is a conditional all-size proof corroborated by finite
+checks, not a strictly positive law, adopted DET dynamics, balanced geometry,
+physical spacetime or gravity result. Imported Plancherel structure, passive
+carrier and fair records remain explicit premises.
+
+Fresh root replays took 65.793/66.166 seconds, sampled RSS 123952/123600 KiB,
+exit zero and no 900-second/2-GiB stop. Both stdout files have 2545 bytes,
+SHA-256 `2d9b1bdc9d6bccdcd4c81ed445ba0b529a305c35b5f531662a5ef5b6ec563f6c`;
+both progress stderr files have 830 bytes, SHA-256
+`00b1793253dc33bd4018b9549e76b1937dbe14222009d1e8ad060cc211949a45`.
+The five-file closure was copied and checked unchanged before/after each mode;
+the three inherited dependencies match published bytes. Fresh stdout/stderr,
+resource receipts, source copies, supervisor and baseline inventory reside in
+`/Volumes/AI_DATA/development/det-review-evidence/recovery-20260924-root/`.
+No historical missing receipt was recreated as though recovered.
+
+RI-74's three-file reservation is released to root publication. The existing
+QR task is now assigned RI-75, only APPROXIMATION.md, check.py, CERTIFICATE.json
+in `docs/track_b/native_growth_plancherel_approximation_v1/`. A separate
+independent scope review supports this next question; it is not yet an
+accepted successor theorem. Preserve the exact held prefix and investigate
+strict-positive compatible approximations with finite-depth marked-history
+convergence. No actual parent-six exhaustive inventory, optimizer, adoption,
+RET work or measurement change is part of that assignment.
+
+RI-74 publication source identities: PLANCHEREL_GRAFT.md 26879 bytes,
+SHA-256 `a37651bdfec4f650792512f9935c0e217c17178c9819e349de43f967100576cc`; check.py 28311 bytes,
+SHA-256 `edcf26c071d56d2db4a5b553dff9be4ea926e375e59814170892b6e34a473c3c`;
+CERTIFICATE.json 11002 bytes,
+SHA-256 `762d3594849eb8f42e4fe15389a1760227d56ed1970fe06ad2ca87dbdc22dff7`.
+Canonical witness remains `cc12374aac3943e8b197a9d2719a4380b0108434ac9ddaf3908cb96868c2abf3`.
+Only note acceptance/provenance changed after source-stable worker handoff
+(note then 25998 bytes, SHA-256 9316a4fe50c03fd4dac5fb2b271f16d18b1b8dd037f8b2ae13678b01ea269d65).
+
+The exact checker corroborates 23 pure rows/164 slots/263 pure diamonds,
+12131 held marked prefix rows/160433 slots, and 12013312 selected fully marked
+graft diamonds (1536 positive, 12011776 zero). Sixteen reason-specific new
+controls and fifteen inherited RI-63 controls pass. Pure exhaustive order
+coverage stops at six; selected graft examples stop at nine. These finite
+checks do not supply the all-size induction. Historical independent numerical
+audits are identified as tool-reported; the fresh copied runs do not pretend
+to be reruns of those lost separate audit programs. Full proof reviews and
+all-size mathematical arguments remain separately recorded in the note.
+
+
+**Measurement runtime recovered without changing qualification**
+
+The exact CPython 3.11.6 executable and the three required cached wheels
+survived. A new offline virtual environment was reconstructed in durable
+external storage; it is not the old temporary environment or a recovered run
+receipt. All ten fields of the existing RI-60 runtime fingerprint match,
+including the full Python/OS build, NumPy configuration and HDF5 1.12.2.
+Root independently exercised that equality through the unchanged RI-73
+admission path and copied fifteen-file published closure: fresh normal/-O
+fixture-only runs pass 75/75 gates in 0.483/0.591 seconds, empty stderr.
+Both produce exactly the historical 282213-byte report with SHA-256
+`d2e89bde345da2b4fca8cfddb9e9a6936fc0de9b0c0f5c0de2d27ff9dc48b26c`.
+No actual coefficient, observation or sampling run occurred. Root fixture
+receipts are in `recovery-20260924-root/ri73-fixtures/` under the durable
+external evidence root. The recovered environment and wheel/command records
+are in `ri73-recovery/recovery-20260924T212511Z-2403d37c/` there.
+
+Reviewed external helper sources are being reconstructed from their original
+task-local source-writing records and compared with the published review
+hashes. Matching source bytes do not recover lost execution receipts. The
+remaining measurement step is to reconcile all helper/fixture identities,
+replay the relevant fabricated controls, and freeze a new manifest with the
+new durable interpreter/caller/observer/output paths before actual normal/-O
+coefficient reconstruction and independent captured-interval/result audit.
+The prospective pre-reboot manifest remains non-authorizing and must not be
+silently reused with substituted paths. All scientific and resource gates,
+calibration/physical premises and the RET pause remain unchanged.
