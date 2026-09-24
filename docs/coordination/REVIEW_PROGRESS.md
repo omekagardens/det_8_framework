@@ -6174,3 +6174,22 @@ This is a one-note analytic proof assignment, with no global new-layer optimizer
 new seed, executor or measurement/RET edits. The whole geometry/gravity programme
 remains active; geometry, balance, informative quantum coupling and detector
 forward maps remain separate open obligations.
+
+
+**RI-59 published; RI-61 and RI-60 remain active**
+
+Commit `df5de32cb9b798b093078740d86ec1e65ad8f1c4`, tree
+`6353d293b3e6a4eeaf73f5eb141d35f73ebbc711`, publishes exactly the accepted
+RI-59 note and three coordinator records. The accepted note is 21974 bytes,
+SHA-256 `94e6b03345a81c1f8718bced306dad2bf03c3061b1d16525ebc6ffea09a8fa2a`;
+only its opening adjudication status differs from the reviewed handoff.
+Preflight checked 2089 held entry versions, 138 local links and six published
+mathematical prerequisites. The frozen twelve-file measurement closure matched
+its reviewed/executed source snapshots and was excluded from this checkpoint.
+Normal push succeeded; a separate origin/ret lookup matched the full commit,
+and the index was empty. Unrelated edits and the original review remain intact.
+
+RI-61 is assigned in the existing QR task and RI-60's normal/optimized
+qualification remains in progress. Neither this candidate definition nor its
+publication resolves the endogenous asymptotic minimum, physical geometry,
+gravity, informative quantum coupling or calibrated detector agreement.
