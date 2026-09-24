@@ -8,8 +8,9 @@ below remain historical reports; missing temporary artifacts are not presently
 available custody evidence. Committed sources and results remain intact.
 Fresh recovery evidence is retained outside the repository under
 `/Volumes/AI_DATA/development/det-review-evidence/`. Actual RI-73 coefficient
-execution remains unstarted and RESULT.json absent. The exact runtime fingerprint and 75/75 fixtures are recovered; helper
-reconciliation and a fresh durable execution freeze remain before execution.
+execution remains unstarted and RESULT.json absent. The exact runtime fingerprint, 75/75 fixtures and all eleven recorded
+helper-source pins are recovered. Durable path adaptations and their checks,
+then a fresh execution freeze, remain before actual execution.
 No gate is relaxed.
 RI-74 passed fresh durable normal/optimized replay and is independently
 accepted. RI-75 strict approximation is assigned to the existing QR task.
@@ -27,7 +28,7 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-75 strict approximation | **Assigned; three new paths reserved.** | Complete-graph support lemma, compatible positive construction and finite-history convergence; no asymptotic transfer. |
-| RI-74 Plancherel boundary graft | **Independently accepted; six-path publication checkpoint prepared.** | Three native files plus three coordinator records; preserve zero-allowed conditional scope. |
+| RI-74 Plancherel boundary graft | **Published in independently verified `314d5e8`.** | Preserve the conditional zero-allowed theorem; RI-75 investigates strict approximation. |
 | RI-73 operator covariance implementation | **Reviewed source published in independently verified `6e58490`.** | Actual result absent; restore qualified runtime and reviewed external execution tools, then freeze before reconstruction. |
 | RI-72 critical-suppression height | **Published in independently verified `f18b5d9`.** | Preserve accepted exact minimum; RI-74 examines the boundary graft. |
 | RI-71 operator covariance design | **Published in independently verified `ebfd0ec`.** | Preserve the design; RI-73 implements unchanged gates. |
@@ -3656,3 +3657,43 @@ coefficient reconstruction and independent captured-interval/result audit.
 The prospective pre-reboot manifest remains non-authorizing and must not be
 silently reused with substituted paths. All scientific and resource gates,
 calibration/physical premises and the RET pause remain unchanged.
+
+
+**RI-74 publication verified**
+
+Commit `314d5e848b3114704df8f1874e1b63ab62b08ab6`, tree
+`c5501826cb5c6215defac583526d85baf5e45251`, publishes exactly the accepted
+three-file Plancherel graft packet and three coordinator records. The normal
+push succeeded; a separate origin/ret lookup matched the complete commit and
+the index was empty. Pre-staging, staged and post-publication checks held
+2128 other entry-file versions, verified the copied machine closure and its
+published dependencies, and resolved 134 local Markdown links. The original
+review, unrelated edits, historical sources and active RI-75 paths were
+excluded. RI-75 is assigned to the existing QR task. Runtime recovery and
+fresh fixtures have passed; full external-helper reconciliation and a new
+prospective execution freeze remain before actual RI-73 covariance work.
+Neither the native programme nor the measurement programme is complete.
+
+
+**External helper source recovery completed**
+
+Root independently verified all fourteen reconstructed source/support files
+against the recovery inventory; all eleven recorded final source pins match
+the previously reviewed bytes. These include the caller, interval capture,
+independent arithmetic core, report adapter, supervisor and original prospective
+manifest. Recovery inventory SHA-256 is
+`157ea9015928e161dd0ab7a365b550accfcd48a98ac0d55c9bb3deb826ebcac2`;
+full runtime comparison receipt SHA-256 is
+`3db680451aed5af0fb1ac910c1d828587c3934ed85f5b25aa6952b537dc8f135`.
+Both are retained in the durable recovery directory named above. The three
+additional support files have new inventory identities; they are not claimed
+to have previously recorded final pins. Historical execution receipt bodies
+remain unavailable. No recovered actual caller/auditor was executed.
+
+Next preserve the recovered originals, adapt only external test/manifest paths
+in separately pinned copies, independently review/replay those controls, and
+freeze the durable actual-run closure before the first coefficient run. The
+old prospective manifest still refuses execution. Scientific algorithms,
+fixtures, thresholds and resource bounds remain fixed. Source recovery is
+complete; actual covariance qualification and physical measurement claims
+remain open while QR pursues RI-75.
