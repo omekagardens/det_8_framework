@@ -6,9 +6,10 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
+| RI-53 finite-support comparison | **Selected; eight new paths reserved, no source/result yet.** | Qualify the declared short-record fixtures, then process and display the supplied reference under RI-50. |
 | RI-52 Ferrers admission gate | **Assigned after RI-51 acceptance; three new files reserved.** | Decide exact first-layer leakage feasibility for the intrinsic corner family; no asymptotic geometry assumed. |
 | RI-51 clone/full mechanism | **Published in verified `ee20ad6`.** Complete proof reviews pass. | RI-52 is assigned the intrinsic corner-family admission gate. |
-| RI-50 NR reference qualification | **Independently accepted; publication pending.** Actual input and all-row audit pass; fixed comparison contract. | Publish the three-file qualification, then qualify the separate finite-support comparison. |
+| RI-50 NR reference qualification | **Published in verified `8bccceb`.** Actual input and all-row audit pass; fixed comparison contract. | RI-53 supplies the separately qualified finite-support comparison. |
 | RI-49 power-schedule family | **Published in verified `a075bdb5`.** Complete proof reviews pass for every fixed 0<a<1. | RI-51 reviews the general mechanism on its separate reservation. |
 | RI-47 actual nominal display | **Published in verified `9b73fe5`.** Actual normal/optimized crop/report/PNG agree; source reviews and independent audits pass. | Publish the seven-file bundle; qualify the conventional NR reference next. |
 | RI-46/48 conditional growth and morphology | **Published in verified `29ba6f4` and `b98cbe5`.** Chosen-law existence and harmonic morphology pass complete reviews. | Preserve both notes; RI-49 is independently accepted. |
@@ -5450,3 +5451,53 @@ Accepted RI-50 identities, within `docs/experiments/gwosc_nr_reference_v1/`:
 | `inspect_reference.py` | `8e4d69e31d694431e798baaa7f567dbe1723a7dce13d7ed7ab8ecf9cabe81072` |
 | `REFERENCE_REPORT.json` | `0a5ce388d722c185ce7de8fc81d36a69d9d98991ccba4235c9fb52817891de06` |
 | `QUALIFICATION.md` | `cbc0d76415399b894794d6790692e57fac259117b19fe6ec1c93035278b70af2` |
+
+
+**RI-50 publication verified; RI-53 finite-support comparison selected**
+
+RI-50 commit `8bccceb519376d45e1391db4bbe610ba2cea59aa`, tree
+`5be11a6dae5df9eb4ff9831e391d6ca4ae0c5413`, publishes exactly its three accepted
+files and three coordinator records. Preflight held 2060 other entry versions,
+checked 125 local links and all local source dependencies (three already
+published companions and two files in this checkpoint), and compared the source
+to the executed copy and report to both actual run outputs. Acquired body hashes
+and the published RI-51 note remained fixed. Normal push and separate origin/ret
+lookup returned the same commit; the index was empty. A compact task snapshot
+confirms QR is active on RI-52; no duplicate assignment is issued.
+
+RI-53 is the coordinator's next measurement packet under the accepted RI-50
+contract. Reserve only these eight new files in
+`docs/experiments/gwosc_nr_comparison_v1/`: `qualify.py`, `process.py`, `render.py`,
+`COMPARISON.md`, `QUALIFICATION_REPORT.json`, `REFERENCE.json`,
+`PROCESSING_REPORT.json`, `COMPARISON.png`. No source or output is created yet.
+Keep acquired bodies external and preserve every accepted predecessor.
+
+First qualify the actual reference length (2769) using the published production
+filter and independently authored 70-digit Decimal reference, with pinned
+coefficients/runtime. Declare five unit-scale synthetic fixtures before execution:
+all zeros, all ones, and unit impulses at indices 0, 1384 and 2768. Compare every
+output sample, including edges, against the Decimal result without rounding that
+result to binary64. Retain the established synthetic criterion
+max error<=1e-9*max(1,maxabs(input)); require exact zero output for the zero case.
+This is a numerical finite-array check, not a physical continuation claim.
+
+After that qualification passes, bind the public input/report/source identities,
+convert supplied decimal strain tokens once to binary64 and apply the admitted
+filter without amplitude adjustment. For the actual nonzero reference, add a
+prospective numerical audit of the whole result against the independent Decimal
+recurrence: max error<=1e-9*maxabs(input), evaluated in Decimal. This stricter
+scale-relative check avoids treating a tiny strain array as automatically passing
+an absolute unit-scale bound. It does not rescale the produced reference or
+provide physical uncertainty. Report any failure; do not relax either threshold.
+
+Retain all original reference time tokens, exact values and indexed binary64
+outputs with complete source/input/qualification identities. Generate the
+illustrative H1-only comparison under RI-50's fixed 53/125-second placement,
+showing only the supplied support within the observed interval. The renderer
+uses exports only, with no refiltering, fitting, interpolation or observed-sample
+transformation. Review both sources, run normal/optimized copies, independently
+reconcile exports and visually inspect the actual figure before acceptance.
+No endpoint-error bound, precise V2 alignment, calibrated score, new detection
+or native forward prediction follows. RI-52 remains the separate active native
+candidate question, and RET remains paused. The programme is not completed by
+these publication checkpoints.
