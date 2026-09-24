@@ -4831,3 +4831,54 @@ exactly seven new files; they remain unaccepted and excluded from this
 metadata checkpoint. External runtime setup and prospective numerical
 checks are separate from observed-strain processing. RI-42's frozen recipe,
 all scientific premises and the RET pause remain unchanged.
+
+
+**RI-44 independently accepted — numerical qualification before public-data processing**
+
+The seven-file [numerical bundle](../experiments/gwosc_nominal_processing_v1/PROCESSING.md) implements the unchanged RI-42
+recipe with separately authored production filtering, Decimal reference and
+qualification runner. Root reviewed all executable sources; independent full
+reference, runner and final guide/export reviews passed. The accepted runtime
+is external CPython 3.11.6, NumPy 2.1.3, SciPy 1.14.1, h5py 3.12.1 and HDF5
+1.12.2 on Darwin arm64. Repository environments were not changed.
+
+Root replay of pinned copies passed all 105 frozen numerical gates per mode:
+34 pole screens, 17 stage and one cascade frequency comparisons, five full-array
+Decimal comparisons and 48 tone/context comparisons. Normal and optimized runs
+both exited zero, with empty stderr and identical 107468-byte reports, SHA-256
+`2522ca70a1402700e644feba25bf70abf2b5720a80031304f82225ea0e5808c3`.
+The runner author's separate execution agrees. Maximum Decimal discrepancy is
+about `8.093e-14`, below the frozen `1e-9` scale-one threshold. Stage/cascade
+and tone/context thresholds remain unchanged.
+
+The admitted 7698-byte canonical coefficient manifest has SHA-256
+`700b2c2f0e339df4a003ee7d772917cf243d8e3ffdbb90d087c9044bee42e3a0`.
+Root independently reconciled all 120 binary64 coefficients and 17 matrix
+identities, and proved exact rational quadratic stability for all 20 sections.
+A separate Fraction transposed-direct-form-II audit passed 105 small cases
+per mode against the independent Decimal direct-form-I reference, maximum
+`5e-81` below `1e-70`, with six invalid-input refusals. These are supplemental
+checks, not additional frozen recipe gates. A temporary one-percent output
+gain fault failed nine of the 105 gates in both modes; failed outputs were
+retained separately, and accepted sources were unchanged.
+
+Only the generated synthetic qualification report and coefficient manifest
+are accepted here. No observed strain has been transformed. The next measurement
+step is the already frozen nominal display using the qualified public V2 pair,
+with exact input/source/coefficient identities, fixed crop and the retained L1
+CW-injection annotation. No calibration confidence band, detection, intersite
+delay or native forward-map claim follows. The seven-file reservation is
+released for scoped publication; RI-45's new native handoff remains excluded
+until its own independent adjudication and checkpoint. RET remains paused.
+
+Accepted RI-44 source identities, within `docs/experiments/gwosc_nominal_processing_v1/`:
+
+| File | SHA-256 |
+|---|---|
+| `COEFFICIENTS.json` | `700b2c2f0e339df4a003ee7d772917cf243d8e3ffdbb90d087c9044bee42e3a0` |
+| `PROCESSING.md` | `f36f07e26ddff8b7482301ae91945118b524bffd2a253b959c0de9fd3e8dfee3` |
+| `SYNTHETIC_REPORT.json` | `2522ca70a1402700e644feba25bf70abf2b5720a80031304f82225ea0e5808c3` |
+| `filtering.py` | `9a93c1f218fecfa6fdf7ee0e30e054ad0973dfb1f04ae339dfbb0e7a6f8ae1be` |
+| `reference.py` | `c8cffaac8bf0c1647a120ecb00ba1505ef69b60f80cda653d60b2a2f7e9da305` |
+| `requirements.txt` | `a2d33466962ed8fe1be0d1949bdff7cc334c689ed511c316fb16c887f78b237e` |
+| `run_checks.py` | `235168c38517d1dc33fed9e86702b06c185631008ad39877671089a9af3863f6` |
