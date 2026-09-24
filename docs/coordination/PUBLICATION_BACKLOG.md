@@ -11,8 +11,9 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
+| RI-44 nominal processing implementation | **Active; all seven new reserved files excluded.** Production, independent reference and runner are being authored separately. | Review stable sources and actual synthetic evidence before accepting or publishing coefficients. |
 | RI-45 first free completion cone | **Assigned; active new sources excluded from publication.** | Independently review its exact finite decision before a propagation successor. |
-| RI-43 all-size height selection | **Bounded analytic results independently accepted; publication pending.** One structural criterion/rejected-selector note; the general target stays open. | Publish only the released note and coordinator records. |
+| RI-43 all-size height selection | **Bounded analytic results independently accepted and published in verified `1e2d2e4`.** One structural criterion/rejected-selector note; the general target stays open. | Preserve the published note; RI-45 is actively assigned the first free cone decision. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Three-file exact finite decision with isolated normal/optimized replay. | Preserve the published three-file bundle; RI-43 continues the native selection question. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-42 fixes nominal processing and RI-44 will qualify it. |
 | RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** | Preserve the published note; RI-41 is accepted and RI-43 is independently reserved. |
@@ -910,3 +911,23 @@ layer cone decision after this adjudication. Its new sources are excluded.
 RI-42's published measurement recipe stays fixed and RI-44 remains the next
 coordinator implementation packet. Preserve all other entry identities,
 protected evidence, original review and the RET pause.
+
+
+**RI-43 remote publication verified; both research lanes active**
+
+Commit `1e2d2e48b4e6666d7be633f5d4a60fa00aea8495`, tree
+`fcc4b3ad7adf64ff80185a096dbb5e07d8afcce2`, publishes exactly the accepted
+analytic note and three coordinator records. The staged note matches the
+reviewed handoff except its opening acceptance word. All 102 local links,
+three published note dependencies, inherited RI-41 checker/certificate
+identities and 2039 other entry versions passed preflight. A normal push
+and separate origin/ret lookup returned the same full commit; the index
+is empty. No active successor source was staged.
+
+QR is confirmed active on RI-45's first-free-layer completion decision.
+The coordinator has started RI-44's synthetic implementation with separate
+production, independent-reference and runner authors. The plan reserves
+exactly seven new files; they remain unaccepted and excluded from this
+metadata checkpoint. External runtime setup and prospective numerical
+checks are separate from observed-strain processing. RI-42's frozen recipe,
+all scientific premises and the RET pause remain unchanged.
