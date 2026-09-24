@@ -9,8 +9,8 @@ the latest assignments below and in the plan govern current work.
 |---|---|---|
 | RI-71 operator covariance design | **Assigned; one new path reserved.** | Conditional unit-white covariance/rank/inverse/error design; no actual run. |
 | RI-70 native height tradeoff | **Assigned; three new paths reserved.** | Certify exact height endpoints on the fixed defect-optimal face. |
-| RI-69 full-birth drift | **Independently accepted; publication pending.** | Preserve signed identities and near-chain limitation. |
-| RI-68 synthetic noise qualification | **Independently accepted; publication pending.** | Publish54-gate result and full131328-record independent replay evidence. |
+| RI-69 full-birth drift | **Published in independently verified `4280198`.** | Preserve signed identities and near-chain limitation. |
+| RI-68 synthetic noise qualification | **Published in independently verified `4280198`.** | Preserve the frozen result; RI-71 supplies the next integration design. |
 | RI-67 conditional-noise design | **Published in independently verified `bee0131`.** | Preserve frozen synthetic model/probability contract. |
 | RI-66 terminal-cost factorization | **Published in independently verified `d10b045`.** | Preserve all-size conditional theorem and marked-fiber limits. |
 | RI-64 observed-context consumer | **Published in independently verified `d44d1af`.** | Preserve fixed raw/export/custody evidence and physical-claim limits. |
@@ -7080,3 +7080,27 @@ precision must remain unresolved. No actual coefficient run, sampler,
 observed statistic, new data, changed precision, calibration inference or
 RET implementation is assigned. This design is separately reviewed before
 any implementation. Native RI-70 runs concurrently.
+
+
+**RI-68 and RI-69 checkpoints published and remote-verified**
+
+Commit `428019856d5f86ab577339aa66a3efff85264722`, tree
+`fc25768065d20d195bcd0e439010a2bc37b53da0`, publishes exactly the two
+accepted RI-68 files, three accepted RI-69 files and three coordinator records.
+Normal push succeeded; a separate origin/ret lookup matched the full commit
+and the index was empty. Staged preflight verified all eight paths, preserved
+2115 other entry versions, bound 21 published dependencies and checked 138
+local links. All five scientific source/result identities remain those of
+the accepted replays, with only RI-69's opening acceptance wording changed.
+No active RI-70/71 source or unrelated dirty baseline was staged.
+
+Native RI-70 is active on exact height-increment extrema over the entire
+unchanged RI-63 primary-optimal face, including zero-primary-cost columns.
+The canonical tie-break's zero-coordinate conclusion is not imposed on that
+face. The worker located existing RI-63 numerical discovery packages; no
+installation is required. Measurement RI-71 is active on a one-file prospective
+operator-covariance design with independent review, no actual coefficient
+rebuild or observation run. Both assignments and exact file reservations are
+in this plan. Candidate asymptotics, balanced native geometry, gravity/source/
+observer maps and calibrated empirical inference remain open; the programme
+continues and RET remains paused.

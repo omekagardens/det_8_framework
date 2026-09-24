@@ -11,14 +11,14 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-71 operator covariance design | **Assigned; one new path reserved.** | Derive rank/inverse/error gates before actual-operator implementation. |
-| RI-68 synthetic noise qualification | **Independently accepted; publication pending.** | Publish exact checker and frozen54-gate result with full independent replay. |
+| RI-68 synthetic noise qualification | **Published in independently verified `4280198`.** | Preserve the frozen result; RI-71 supplies the next integration design. |
 | RI-67 conditional noise design | **Published in independently verified `bee0131`.** | Preserve conditional theorem and frozen protocol; RI-68 implements synthetic qualification. |
 | RI-64 observed-context consumer | **Published in independently verified `d44d1af`.** | Preserve fixed observed result; RI-67 supplies the next conditional-noise design. |
 | RI-62 recorded H1/L1 context | **Design published in independently verified `052154c`.** | Preserve the accepted design; RI-64 implements it. |
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 qualification and eight actual rows passed.** | Preserve the six reproducible files; RI-62 designs the separate observed-context comparison. |
 | RI-57 selected-row sensitivity | **Failed qualification preserved in verified `995ed03`: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
 | RI-70 height tradeoff | **Assigned; three new paths reserved.** | Exact extrema of height increment on the unchanged RI-63 optimal face. |
-| RI-69 full-birth drift | **Independently accepted; publication pending.** | Publish exact identities and near-chain limitation; RI-70 examines the fixed optimal face. |
+| RI-69 full-birth drift | **Published in independently verified `4280198`.** | Preserve exact identities and near-chain limitation; RI-70 examines the fixed optimal face. |
 | RI-66 terminal-cost factorization | **Published in independently verified `d10b045`.** | Preserve conditional all-size theorem and hook obstruction; RI-69 addresses full-birth drift. |
 | RI-65 actual residual re-entry | **Published in verified `bd0031a`.** | Preserve the finite obstruction and zero-defect reduction; RI-66 addresses terminal cost. |
 | RI-63 first-free expected-cost decision | **Published in independently verified `7ccba1c`.** | Preserve the exact canonical completion and replay evidence; RI-65 addresses the next residual. |
@@ -3136,3 +3136,27 @@ precision must remain unresolved. No actual coefficient run, sampler,
 observed statistic, new data, changed precision, calibration inference or
 RET implementation is assigned. This design is separately reviewed before
 any implementation. Native RI-70 runs concurrently.
+
+
+**RI-68 and RI-69 checkpoints published and remote-verified**
+
+Commit `428019856d5f86ab577339aa66a3efff85264722`, tree
+`fc25768065d20d195bcd0e439010a2bc37b53da0`, publishes exactly the two
+accepted RI-68 files, three accepted RI-69 files and three coordinator records.
+Normal push succeeded; a separate origin/ret lookup matched the full commit
+and the index was empty. Staged preflight verified all eight paths, preserved
+2115 other entry versions, bound 21 published dependencies and checked 138
+local links. All five scientific source/result identities remain those of
+the accepted replays, with only RI-69's opening acceptance wording changed.
+No active RI-70/71 source or unrelated dirty baseline was staged.
+
+Native RI-70 is active on exact height-increment extrema over the entire
+unchanged RI-63 primary-optimal face, including zero-primary-cost columns.
+The canonical tie-break's zero-coordinate conclusion is not imposed on that
+face. The worker located existing RI-63 numerical discovery packages; no
+installation is required. Measurement RI-71 is active on a one-file prospective
+operator-covariance design with independent review, no actual coefficient
+rebuild or observation run. Both assignments and exact file reservations are
+in this plan. Candidate asymptotics, balanced native geometry, gravity/source/
+observer maps and calibrated empirical inference remain open; the programme
+continues and RET remains paused.
