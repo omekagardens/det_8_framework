@@ -17,7 +17,7 @@ with unrelated changes to make an import succeed.
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 qualification and eight actual rows passed.** | Preserve the six reproducible files; RI-62 designs the separate observed-context comparison. |
 | RI-57 selected-row sensitivity | **Failed qualification preserved in verified `995ed03`: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
 | RI-69 full-birth drift | **Assigned; three new paths reserved.** | Prove exact top geometry and cumulative recharge bound; keep remaining mass premise explicit. |
-| RI-66 terminal-cost factorization | **Independently accepted; publication pending.** | Publish conditional all-size theorem, hook obstruction and exact finite certificate. |
+| RI-66 terminal-cost factorization | **Published in independently verified `d10b045`.** | Preserve conditional all-size theorem and hook obstruction; RI-69 addresses full-birth drift. |
 | RI-65 actual residual re-entry | **Published in verified `bd0031a`.** | Preserve the finite obstruction and zero-defect reduction; RI-66 addresses terminal cost. |
 | RI-63 first-free expected-cost decision | **Published in independently verified `7ccba1c`.** | Preserve the exact canonical completion and replay evidence; RI-65 addresses the next residual. |
 | RI-61 candidate-specific suppression | **Published in independently verified `32824c3`.** | RI-63 targets the first-free exact candidate; asymptotic residual decay remains open. |
@@ -2952,3 +2952,32 @@ RET remains paused and unrelated baseline edits remain untouched.
 
 Accepted RI-66 FACTORIZATION.md: 20409 bytes, SHA-256
 `719775ae7bdcba896d97dba5cc6c4d3308e21b2d8e358f5420c1cc52b4cc75e6`.
+
+
+**RI-66 terminal-cost checkpoint published and remote-verified**
+
+Commit `d10b04501ad7017e10c5dc9535a3040d9e15f131`, tree
+`77fbc8081105dc94234b6be8354fea5d46c57def`, publishes exactly the three
+accepted RI-66 packet files and three coordinator records. Normal push succeeded
+and a separate origin/ret lookup matched the full commit; the index was empty.
+Staged preflight preserved 2112 other entry versions, bound eight published
+prerequisites and checked 138 local links. Accepted proof/checker/certificate
+identities match the independent replay and opening-only acceptance change.
+RI-66 is source-quiet and its reservation is released. QR is active on RI-69's
+full-birth drift/potential question; no duplicate assignment is made.
+
+RI-68's source-stable checker is 40915 bytes, SHA-256
+`a09d54f21475c95dc47fbd410e9ff94699b8062f186ce268fb46ba9511b53d05`.
+Root read its complete 694-line source. The independent expected-answer audit
+passed 107 controls before reading that source; a separate complete source/API/
+protocol audit passed 256 controls in normal/optimized modes with identical
+7148-byte receipt, SHA-256
+`56a0f80be99ce799ede6bd121fe7cb2e09379b92f9244cf8b651e20aa70a84c3`.
+The author's deterministic fixture replays passed 49 gates, including 37
+intended-reason refusals, with identical 125885-byte output in both modes.
+Artificial-input and mocked-generator controls are distinguished from sampling.
+No selected-seed study has yet run. Root fixture replay, source/runtime freeze
+and the unchanged prospective resource/probability gates precede that execution.
+No observed input or admitted-operator integration belongs to RI-68. Native
+asymptotic control and physical measurement prerequisites remain open; RET stays
+paused and the programme remains active.

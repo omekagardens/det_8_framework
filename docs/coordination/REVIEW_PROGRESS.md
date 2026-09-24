@@ -6892,3 +6892,32 @@ RET remains paused and unrelated baseline edits remain untouched.
 
 Accepted RI-66 FACTORIZATION.md: 20409 bytes, SHA-256
 `719775ae7bdcba896d97dba5cc6c4d3308e21b2d8e358f5420c1cc52b4cc75e6`.
+
+
+**RI-66 terminal-cost checkpoint published and remote-verified**
+
+Commit `d10b04501ad7017e10c5dc9535a3040d9e15f131`, tree
+`77fbc8081105dc94234b6be8354fea5d46c57def`, publishes exactly the three
+accepted RI-66 packet files and three coordinator records. Normal push succeeded
+and a separate origin/ret lookup matched the full commit; the index was empty.
+Staged preflight preserved 2112 other entry versions, bound eight published
+prerequisites and checked 138 local links. Accepted proof/checker/certificate
+identities match the independent replay and opening-only acceptance change.
+RI-66 is source-quiet and its reservation is released. QR is active on RI-69's
+full-birth drift/potential question; no duplicate assignment is made.
+
+RI-68's source-stable checker is 40915 bytes, SHA-256
+`a09d54f21475c95dc47fbd410e9ff94699b8062f186ce268fb46ba9511b53d05`.
+Root read its complete 694-line source. The independent expected-answer audit
+passed 107 controls before reading that source; a separate complete source/API/
+protocol audit passed 256 controls in normal/optimized modes with identical
+7148-byte receipt, SHA-256
+`56a0f80be99ce799ede6bd121fe7cb2e09379b92f9244cf8b651e20aa70a84c3`.
+The author's deterministic fixture replays passed 49 gates, including 37
+intended-reason refusals, with identical 125885-byte output in both modes.
+Artificial-input and mocked-generator controls are distinguished from sampling.
+No selected-seed study has yet run. Root fixture replay, source/runtime freeze
+and the unchanged prospective resource/probability gates precede that execution.
+No observed input or admitted-operator integration belongs to RI-68. Native
+asymptotic control and physical measurement prerequisites remain open; RET stays
+paused and the programme remains active.
