@@ -11,7 +11,7 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-68 synthetic noise qualification | **Assigned; two paths reserved.** | Source review/freeze, then fixed simulation and independent audit. |
-| RI-67 conditional noise design | **Independently accepted; publication pending.** | Publish the one-file conditional theorem and prospective simulation contract. |
+| RI-67 conditional noise design | **Published in independently verified `bee0131`.** | Preserve conditional theorem and frozen protocol; RI-68 implements synthetic qualification. |
 | RI-64 observed-context consumer | **Published in independently verified `d44d1af`.** | Preserve fixed observed result; RI-67 supplies the next conditional-noise design. |
 | RI-62 recorded H1/L1 context | **Design published in independently verified `052154c`.** | Preserve the accepted design; RI-64 implements it. |
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 qualification and eight actual rows passed.** | Preserve the six reproducible files; RI-62 designs the separate observed-context comparison. |
@@ -2861,3 +2861,21 @@ inference separately needs noise, response/timing and calibration qualification.
 
 Accepted RI-67 DESIGN.md: 24027 bytes, SHA-256
 `74581df2266277b5ff12c9d45d110baf191f99dfbc7db8ea4b3810affa914921`. Only its opening acceptance wording changed.
+
+
+**RI-67 design checkpoint published and remote-verified**
+
+Commit `bee0131bef069f960ce46c7e74277cf96bee0374`, tree
+`0007d31928a7845e7f7079c47e10f3ab871832e3`, publishes exactly RI-67's
+accepted DESIGN.md and three coordinator records. Normal push succeeded and
+a separate origin/ret lookup matched the full commit; the index was empty.
+Preflight preserved 2111 other entry versions, verified seven published
+prerequisites and 137 local links, and checked the exact four staged paths.
+The accepted design is 24027 bytes, SHA-256
+`74581df2266277b5ff12c9d45d110baf191f99dfbc7db8ea4b3810affa914921`.
+RI-68's implementer and independent reviewer are actively assigned in their
+separate source/external-audit roles. No fixed-seed simulation has run; source
+review/freeze remains its next gate. QR remains active on RI-66, with no
+predecessor handoff or duplicate assignment. No claim of calibrated inference,
+sublinear native defect, geometry/gravity derivation or programme completion
+follows from this design checkpoint. RET remains paused.

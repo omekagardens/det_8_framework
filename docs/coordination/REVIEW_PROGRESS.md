@@ -6802,3 +6802,21 @@ inference separately needs noise, response/timing and calibration qualification.
 
 Accepted RI-67 DESIGN.md: 24027 bytes, SHA-256
 `74581df2266277b5ff12c9d45d110baf191f99dfbc7db8ea4b3810affa914921`. Only its opening acceptance wording changed.
+
+
+**RI-67 design checkpoint published and remote-verified**
+
+Commit `bee0131bef069f960ce46c7e74277cf96bee0374`, tree
+`0007d31928a7845e7f7079c47e10f3ab871832e3`, publishes exactly RI-67's
+accepted DESIGN.md and three coordinator records. Normal push succeeded and
+a separate origin/ret lookup matched the full commit; the index was empty.
+Preflight preserved 2111 other entry versions, verified seven published
+prerequisites and 137 local links, and checked the exact four staged paths.
+The accepted design is 24027 bytes, SHA-256
+`74581df2266277b5ff12c9d45d110baf191f99dfbc7db8ea4b3810affa914921`.
+RI-68's implementer and independent reviewer are actively assigned in their
+separate source/external-audit roles. No fixed-seed simulation has run; source
+review/freeze remains its next gate. QR remains active on RI-66, with no
+predecessor handoff or duplicate assignment. No claim of calibrated inference,
+sublinear native defect, geometry/gravity derivation or programme completion
+follows from this design checkpoint. RET remains paused.

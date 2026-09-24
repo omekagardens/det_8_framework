@@ -58,7 +58,7 @@ Active file reservations, updated 24 September UTC:
 | RI-60 context error repair | Six accepted v2 files published in verified `32824c3`; reservation released. |
 | RI-62 observed context | One-file design published in verified `052154c`; reservation released. |
 | RI-64 observed-context consumer | Seven-file packet published in independently verified `d44d1af`; reservation released. |
-| RI-67 conditional noise design | One-file design independently accepted; reservation released for root publication. |
+| RI-67 conditional noise design | One-file design published in independently verified `bee0131`; reservation released. |
 | RI-68 synthetic noise qualification | Only `check.py` and `RESULT.json` in `docs/experiments/gwosc_context_noise_v1/`; source review/freeze before any fixed-seed model sampling. Root owns result and git. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
 | RI-53 NR comparison | The eight-file bundle is published in verified `1993e24` and source-quiet; reservation released. |
@@ -110,7 +110,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | ID | Review finding / deliverable | Owner | State and completion criterion |
 |---|---|---|---|
 | RI-68 | Synthetic noise qualification | Coordinator | **Assigned; two new paths reserved.** Exact fixtures and frozen Gaussian surrogate diagnostics; no observed-data or admitted-operator calculation. |
-| RI-67 | Conditional context-noise design | Coordinator | **Independently accepted; publication pending.** Shared-sample covariance, support theorem and frozen synthetic gates. |
+| RI-67 | Conditional context-noise design | Coordinator | **Published in independently verified `bee0131`.** Shared-sample covariance, support theorem and frozen synthetic gates. |
 | RI-64 | Observed-context consumer | Coordinator | **Published in independently verified `d44d1af`.** Qualification, actual mode replays and independent raw-sample/export audits pass. |
 | RI-66 | Intrinsic terminal-cost factorization | QR; coordinator review | **Assigned; three new paths reserved.** Prove/refute the terminal-order cost and raising-fraction identities with full marked-history accounting. |
 | RI-65 | Actual next-layer residual re-entry | QR; coordinator review | **Published in verified `bd0031a`.** Positive finite residual and summable zero-defect sector; positive-defect drift remains open. |
@@ -3802,3 +3802,21 @@ inference separately needs noise, response/timing and calibration qualification.
 
 Accepted RI-67 DESIGN.md: 24027 bytes, SHA-256
 `74581df2266277b5ff12c9d45d110baf191f99dfbc7db8ea4b3810affa914921`. Only its opening acceptance wording changed.
+
+
+**RI-67 design checkpoint published and remote-verified**
+
+Commit `bee0131bef069f960ce46c7e74277cf96bee0374`, tree
+`0007d31928a7845e7f7079c47e10f3ab871832e3`, publishes exactly RI-67's
+accepted DESIGN.md and three coordinator records. Normal push succeeded and
+a separate origin/ret lookup matched the full commit; the index was empty.
+Preflight preserved 2111 other entry versions, verified seven published
+prerequisites and 137 local links, and checked the exact four staged paths.
+The accepted design is 24027 bytes, SHA-256
+`74581df2266277b5ff12c9d45d110baf191f99dfbc7db8ea4b3810affa914921`.
+RI-68's implementer and independent reviewer are actively assigned in their
+separate source/external-audit roles. No fixed-seed simulation has run; source
+review/freeze remains its next gate. QR remains active on RI-66, with no
+predecessor handoff or duplicate assignment. No claim of calibrated inference,
+sublinear native defect, geometry/gravity derivation or programme completion
+follows from this design checkpoint. RET remains paused.
