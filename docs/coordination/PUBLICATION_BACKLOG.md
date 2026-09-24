@@ -10,7 +10,7 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-42 nominal display recipe | **Design independently accepted; publication pending.** One unchanged reviewed note; no numerical result. | Publish the frozen recipe and coordinator records, then implement RI-44. |
+| RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
 | RI-43 all-size height selection | **Active; new sources excluded from publication.** | Independently review its source-stable selection result or obstruction. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Three-file exact finite decision with isolated normal/optimized replay. | Preserve the published three-file bundle; RI-43 continues the native selection question. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-42 fixes nominal processing and RI-44 will qualify it. |
@@ -874,3 +874,21 @@ selection sources remain excluded. RI-44 is the next coordinator packet:
 implement and qualify the frozen numerical operations, publish passing
 coefficient identities, then produce the bounded nominal display. Existing
 calibration, source custody, protected validation and RET pause are preserved.
+
+
+**RI-42 remote publication verified**
+
+Commit `95c91bf3e361ea1d8d71e5a0fe154edc02455441`, tree
+`87a0bece86b4c3a0d181fcad0769acb78614c5f5`, publishes exactly the unchanged
+accepted recipe and three coordinator records, including RI-41's verified
+publication evidence. All staged identities, 101 local links and both
+already-published qualification dependencies passed preflight. The 2035
+other entry versions and RI-41's accepted three-file bundle remained fixed.
+Normal push and an independent origin/ret lookup returned the same full
+commit, leaving an empty index. No active QR source was staged.
+
+Final publication metadata changes only these three coordinator records.
+RI-43 continues the native all-size selection question. RI-44 is the next
+coordinator implementation packet: qualify the frozen numerical recipe,
+publish passing coefficients and then produce the bounded nominal display.
+Neither a geometry/gravity claim nor programme completion is inferred.
