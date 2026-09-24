@@ -11,8 +11,9 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
-| RI-44 nominal processing implementation | **Independently accepted; scoped publication pending.** Seven stable files include the passing 105-gate report and exact coefficient manifest. | Publish the qualified implementation before the fixed nominal public-data display. |
-| RI-45 first free completion cone | **Source-stable exact obstruction under independent adjudication; excluded from this checkpoint.** | Review proof, full checker/certificate and actual replay before publication and the next native assignment. |
+| RI-44 nominal processing implementation | **Independently accepted and published in verified `2a5c6f6`.** Seven stable files include the passing 105-gate report and exact coefficient manifest. | Apply these admitted sources/coefficients to the frozen nominal public-data display. |
+| RI-45 first free completion cone | **Exact obstruction independently accepted; scoped publication pending.** Full proof/source review and root/independent normal/optimized replay agree. | Publish three stable files; RI-46 is separately assigned the occupation-controlled selector. |
+| RI-46 occupation-controlled selector | **Assigned; one new analytic note reserved and excluded.** | Review its private-component law and actual-history theorem before acceptance. |
 | RI-43 all-size height selection | **Bounded analytic results independently accepted and published in verified `1e2d2e4`.** One structural criterion/rejected-selector note; the general target stays open. | Preserve the published note; RI-45 is actively assigned the first free cone decision. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Three-file exact finite decision with isolated normal/optimized replay. | Preserve the published three-file bundle; RI-43 continues the native selection question. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-42 fixes nominal processing and RI-44 will qualify it. |
@@ -970,3 +971,52 @@ CW-injection annotation. No calibration confidence band, detection, intersite
 delay or native forward-map claim follows. The seven-file reservation is
 released for scoped publication; RI-45's new native handoff remains excluded
 until its own independent adjudication and checkpoint. RET remains paused.
+
+
+**RI-44 remote verified; RI-45 independently accepted; RI-46 assigned**
+
+RI-44 commit `2a5c6f6b453a5f29f6e952e341780af32ca29f98`, tree
+`f523640776ff9596050de9852d823eca953a890c`, publishes exactly its seven-file
+numerical bundle and three coordinator records. All staged identities, 107
+local links, published prerequisites and 2040 other entry versions passed
+preflight. A normal push and independent origin/ret lookup returned that
+same full commit, with an empty index afterward. No QR source was staged.
+
+Root and independent analytic/source reviewers now accept RI-45's exact
+fixed-prefix obstruction. All preserving-only columns remain inside one
+parent-height block. The height-one and height-five blocks have explicit
+private reciprocal completions retaining all 32 record assignments. A seven
+all-zero-row separator has sum -1756883 and nonnegative pairing against all
+516 preserving-only columns. It rejects the parent-five neutral completion
+with the complete RI-41 prefix held fixed.
+
+The stronger identity across all 798 columns proves
+`tau_Q > 1756883/3859907` for the specified all-zero marked parent
+`Q=(0,1,3,3,0)` under every strict extension. Root and an independent reviewer
+rechecked the six-child deletion table, automorphism incidence orientation,
+path weights and the distinction between path weights and orbit probability.
+The bound concerns this row and the layer's worst row; neither optimality nor
+typical/asymptotic impossibility follows.
+
+The complete standalone checker and certificate passed source review. Root
+and a separate reviewer independently replayed pinned copies on CPython
+3.11.6 with `-I -S -B` and with `-O`. Each exited zero with empty stderr and
+identical 1242-byte stdout, SHA-256
+`0cda0878682aa6165a41666a9cce147f80dfeba71d3ca704263eb9ef65144b12`.
+This agrees with the author's Python 3.14.0 evidence. Actual new coverage is
+357 natural parents, 11424 marked rows, 142944 proper occurrences, 2961 nodes,
+798 components and 216128 raw ratio equations. All 516 neutral and 798 full
+column inequalities, extreme-block marks, six-child inventories and two
+negative controls pass. Parent-four reconstruction is a required dependency;
+earlier 436 diamonds are inherited, not rerun. No parent-six table was built.
+
+The RI-45 reservation is released. The only note change is its opening
+adjudication word; executable and certificate bytes remain the tested source.
+RI-46 is assigned to the existing QR task after this review: prove or refute
+one all-size selector favoring parents whose maximal vertices share a common
+strict past, with full births restoring that class after departures. Its
+private-component/locality proof and occupation bounds must establish any
+claimed sublinear, diverging height. No desired conclusion is assumed.
+Only `docs/track_b/native_growth_clone_selection_v1/SELECTION.md` is reserved.
+This successor is analytic, with no next-layer table. The nominal public-data
+display is the independent measurement next step; RET remains paused.

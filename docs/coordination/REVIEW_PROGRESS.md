@@ -4882,3 +4882,62 @@ Accepted RI-44 source identities, within `docs/experiments/gwosc_nominal_process
 | `reference.py` | `c8cffaac8bf0c1647a120ecb00ba1505ef69b60f80cda653d60b2a2f7e9da305` |
 | `requirements.txt` | `a2d33466962ed8fe1be0d1949bdff7cc334c689ed511c316fb16c887f78b237e` |
 | `run_checks.py` | `235168c38517d1dc33fed9e86702b06c185631008ad39877671089a9af3863f6` |
+
+
+**RI-44 remote verified; RI-45 independently accepted; RI-46 assigned**
+
+RI-44 commit `2a5c6f6b453a5f29f6e952e341780af32ca29f98`, tree
+`f523640776ff9596050de9852d823eca953a890c`, publishes exactly its seven-file
+numerical bundle and three coordinator records. All staged identities, 107
+local links, published prerequisites and 2040 other entry versions passed
+preflight. A normal push and independent origin/ret lookup returned that
+same full commit, with an empty index afterward. No QR source was staged.
+
+Root and independent analytic/source reviewers now accept RI-45's exact
+fixed-prefix obstruction. All preserving-only columns remain inside one
+parent-height block. The height-one and height-five blocks have explicit
+private reciprocal completions retaining all 32 record assignments. A seven
+all-zero-row separator has sum -1756883 and nonnegative pairing against all
+516 preserving-only columns. It rejects the parent-five neutral completion
+with the complete RI-41 prefix held fixed.
+
+The stronger identity across all 798 columns proves
+`tau_Q > 1756883/3859907` for the specified all-zero marked parent
+`Q=(0,1,3,3,0)` under every strict extension. Root and an independent reviewer
+rechecked the six-child deletion table, automorphism incidence orientation,
+path weights and the distinction between path weights and orbit probability.
+The bound concerns this row and the layer's worst row; neither optimality nor
+typical/asymptotic impossibility follows.
+
+The complete standalone checker and certificate passed source review. Root
+and a separate reviewer independently replayed pinned copies on CPython
+3.11.6 with `-I -S -B` and with `-O`. Each exited zero with empty stderr and
+identical 1242-byte stdout, SHA-256
+`0cda0878682aa6165a41666a9cce147f80dfeba71d3ca704263eb9ef65144b12`.
+This agrees with the author's Python 3.14.0 evidence. Actual new coverage is
+357 natural parents, 11424 marked rows, 142944 proper occurrences, 2961 nodes,
+798 components and 216128 raw ratio equations. All 516 neutral and 798 full
+column inequalities, extreme-block marks, six-child inventories and two
+negative controls pass. Parent-four reconstruction is a required dependency;
+earlier 436 diamonds are inherited, not rerun. No parent-six table was built.
+
+The RI-45 reservation is released. The only note change is its opening
+adjudication word; executable and certificate bytes remain the tested source.
+RI-46 is assigned to the existing QR task after this review: prove or refute
+one all-size selector favoring parents whose maximal vertices share a common
+strict past, with full births restoring that class after departures. Its
+private-component/locality proof and occupation bounds must establish any
+claimed sublinear, diverging height. No desired conclusion is assumed.
+Only `docs/track_b/native_growth_clone_selection_v1/SELECTION.md` is reserved.
+This successor is analytic, with no next-layer table. The nominal public-data
+display is the independent measurement next step; RET remains paused.
+
+Accepted RI-45 source identities, within `docs/track_b/native_growth_neutral_completion_v1/`:
+
+| File | SHA-256 |
+|---|---|
+| `CERTIFICATE.json` | `be94ad433fd8901221feb3c8401459098b177a32b83d11c78c9749606e08b151` |
+| `COMPLETION.md` | `41c83ce2680f5b03e35f02b1ae21330e340c8e599fc95b4dff62a72414f1ae62` |
+| `check.py` | `ee8019b9184ad5282aef8b11c896ad2372d804953584064abda87e718b86b586` |
+
+Handoff note identity was `2e2f0ed178c813df76dfbee345dc8bad8071c063b09778f3a31ae0f2ea12550d`; only the opening acceptance word changed. The independent RI-41 roots/default/overrides digest is `465c5de48c69527fc59e8df1f494fd8cea33f8aec243f59b9b2820bd5b1c07a7`.
