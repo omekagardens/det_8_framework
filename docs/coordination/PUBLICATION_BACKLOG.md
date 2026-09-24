@@ -10,13 +10,15 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-49 power-schedule family | **Assigned after RI-48 acceptance; one new analytic note reserved.** | Prove or refute the specified 0<a<1 height/width/density tradeoff; retain actual conditional law and no independence assumption. |
+| RI-51 clone/full mechanism | **Assigned after RI-49 acceptance; one new analytic note reserved.** | Review the schedule-independent counting obstruction and its precise premises. |
+| RI-50 NR reference qualification | **Selected; implementation/acquisition pending.** Three new paths reserved; accepted measured outputs fixed. | Qualify the public data-informed reference and freeze its limited comparison contract. |
+| RI-49 power-schedule family | **Independently accepted; publication pending.** Complete proof reviews pass for every fixed 0<a<1. | Publish the one stable note; review the general mechanism next. |
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
 | RI-44 nominal processing implementation | **Independently accepted and published in verified `2a5c6f6`.** Seven stable files include the passing 105-gate report and exact coefficient manifest. | Apply these admitted sources/coefficients to the frozen nominal public-data display. |
 | RI-45 first free completion cone | **Exact obstruction independently accepted and published in verified `ebb7b27`.** Full proof/source review and root/independent normal/optimized replay agree. | Preserve three accepted files; RI-46 is active on the occupation-controlled selector. |
 | RI-47 nominal public V2 display | **Published in verified `9b73fe5`.** Seven reviewed files and actual matching normal/optimized outputs. | Publish exact source/export/display identities; preserve all predecessor inputs and recipe. |
 | RI-46 occupation-controlled selector | **Published in verified `29ba6f4`.** Complete analytic reviews pass. | Preserve the accepted law; RI-48 adjudicates morphology and RI-49 tests the rate tradeoff. |
-| RI-48 common-past layer regime | **Independently accepted; separate publication pending.** Complete proof reviews pass. | Publish the stable note; RI-49 is active on its new reservation. |
+| RI-48 common-past layer regime | **Published in verified `b98cbe5`.** Complete analytic proof reviews pass. | Preserve the harmonic law and its morphology decision. |
 | RI-43 all-size height selection | **Bounded analytic results independently accepted and published in verified `1e2d2e4`.** One structural criterion/rejected-selector note; the general target stays open. | Preserve the published note; RI-45 is actively assigned the first free cone decision. |
 | RI-41 normalization and height | **Independently accepted and published in verified `53f92fb`.** Three-file exact finite decision with isolated normal/optimized replay. | Preserve the published three-file bundle; RI-43 continues the native selection question. |
 | RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-42 fixes nominal processing and RI-44 will qualify it. |
@@ -1193,3 +1195,130 @@ the official data-informed NR reference and its comparison assumptions. Native
 geometry/gravity and calibrated measurement remain open; RET remains paused.
 
 Accepted note: [RI-48 morphology](../track_b/native_growth_clone_regime_v1/REGIME.md).
+
+
+**RI-48 publication verified; RI-49 power-family tradeoff independently accepted**
+
+RI-48 commit `b98cbe572c792ec1fe6a2624cfbc62f46ca4f0c7`, tree
+`c28db828ef8c0a54a2968ed2e2e4976ec2a70ff2`, contains its accepted note and
+three coordinator records. Preflight held 2050 other entry versions, checked
+112 local links and 15 measurement dependencies, held both native predecessors
+and all seven published RI-47 identities, and compared the only administrative
+change to the exact handoff. Normal push and independent origin/ret lookup
+returned the same commit; the index was empty. RI-49 stayed excluded.
+
+Root and a separate complete proof reviewer accept RI-49's new conditional
+family for every fixed real 0<a<1. The schedule eta_n=(n+1)^(-a) retains all
+RI-41 rows, private preferred components and actual same-parameter potential
+recomputation. Strict positivity, locality, equivariance and all full-D scalar
+diamonds follow by induction. Expected height is Theta(N^(1-a)); height is
+almost surely sublinear and diverging. These are chosen laws, not native
+entailment or physical dimension estimates.
+
+Full-birth conditional hazards bound reset age by a geometric tail. The note
+retains the arbitrary initial maximal count on the no-reset event; the bound
+E T_n<=2n^a+T_m-1 is valid at every conditioned cutoff. The exact incomparable
+pair increment is n-|S|. Preferred births add exactly T_n pairs; full births
+add zero; remaining proper births add at most n with total mass below eta_n/2.
+This proves the complete finite-start upper bound of order
+N^(1+a)+N^(2-a) on expected cumulative incomparable pairs.
+
+Dyadic Markov/Borel-Cantelli plus monotonicity of the cumulative count proves
+comparable-pair density tends to one almost surely, in probability and in every
+finite positive error moment. The exact binomial width inequality, including
+its 1/N correction, proves vanishing relative width in the same modes; width
+itself diverges. Thus every fixed member fails a stipulated density limit
+strictly between zero and one. No uniform-in-a result, endpoint, sharp almost-sure
+height rate, independent waiting time, continuum dimension or gravity is claimed.
+
+The 403-line note is analytic: no executor, finite table, simulation or old
+suite was run. Both coordinator reviews checked the full proof and necessary
+fixed dependencies; no mathematical correction was required. Only its opening
+adjudication word changed. Handoff SHA-256
+`9153cdd3f7be047029edb0ca9d9f0de74a299ad418dd1c16cfcc6f207cce0706`
+becomes accepted `af4ae5c9da9a13559cb06fe9a05521e3fe26e7d48215115ffc4b91f5a40aafb4`.
+Reservation released for scoped publication. The next native decision should
+test the clone/full mechanism across schedules, rather than selecting another
+power exponent. The programme and the separate measurement lane remain active;
+RET remains paused.
+
+Accepted note: [RI-49 family tradeoff](../track_b/native_growth_clone_power_family_v1/FAMILY.md).
+
+
+**RI-50 measurement next step — qualify the supplied NR comparison reference**
+
+The coordinator selects a bounded next packet under the user's public-data-first
+preference: qualify the official tutorial's scalar numerical-relativity reference
+and freeze a comparison contract before an overlay. Reserve only new
+`docs/experiments/gwosc_nr_reference_v1/QUALIFICATION.md`, `inspect_reference.py`
+and `REFERENCE_REPORT.json`. External scratch holds acquired source bytes;
+accepted RI-37/40/42/44/47 files stay fixed. Implementation and actual acquisition
+are pending; no qualified reference or comparison result is asserted here.
+
+The [GWOSC release](https://gwosc.org/events/GW150914/) identifies this reference
+as SXS:BBH:0305 with its time scaled to detector-frame total mass 74.6 solar
+masses and its amplitude/phase adjusted using the event data. It is a supplied,
+data-informed comparison, not a withheld prediction. Acquire the exact
+[tutorial text resource](https://gwosc.org/s/events/GW150914/GW150914_4_NR_waveform.txt),
+bind the URL/redirects/complete bytes and hash, inspect every finite ASCII row,
+the represented two-column time/strain grid and support, and distinguish exact
+dyadic spacing from decimal printing precision. Do not assume legacy URL aliases
+are identical or assume a row count before inspection.
+
+The [historical tutorial](https://gwosc.org/s/events/GW150914/GW150914_tutorial.py)
+uses V1 and supplied timing/sign conventions. Its NR placement maps to
+NRtime+0.424 seconds on RI-47's axis; this is a declared historical convention.
+[V2 release changes](https://gwosc.org/techdetails/) include C02 calibration and
+a corrected approximately 1 ms downsampling offset. The sources do not establish
+an exact V2 NR timing adjustment. No fit, correction or fresh arrival estimate
+is authorized by this qualification. Preserve that unresolved transfer premise.
+
+The contract should specify a later H1-only nominal overlay of unchanged RI-47
+samples with the reference filtered by the admitted RI-44 coefficients. Its
+shorter finite support requires explicit boundary treatment; it supplies no
+validated waveform continuation. Keep native time grids without interpolation
+or extrapolation merely for display, and do not shift/invert the observed pair.
+An actual overlay and its processing qualification are a separately reviewed
+successor. No residual score, significance, parameter recovery, calibrated
+agreement or DET prediction follows from a visual comparison.
+
+
+**RI-51 assigned after RI-49 adjudication — schedule-independent mechanism test**
+
+The power family is now independently accepted. Determine whether the obstruction
+belongs to the whole clone/full mechanism rather than its chosen schedules.
+Reserve only new `docs/track_b/native_growth_clone_mechanism_v1/OBSTRUCTION.md`
+for the QR task. This is a proposed analytic theorem, not an accepted result.
+
+First retain the complete prefix and prove admissibility for arbitrary fixed
+deterministic sequences 0<eta_n<1, with the same private preferred components,
+actual earlier-law potentials and all-other scale. No regular variation,
+monotonicity, power exponent or eta_n limit is assumed. Then isolate the
+following counting lemma under its explicit whole-history probability premises.
+
+For any finite cutoff m, let B_N count nonpreferred proper births and F_N count
+full births after that cutoff. Since beta_n<eta_n/2<q_full, the conditional
+drift of B_N-F_N is nonpositive. Prove an explicit bounded-increment conditional
+tail bound and (B_N-F_N)_+/N -> 0 almost surely, without independence. A direct
+conditional exponential-moment proof is welcome. Every full birth increases
+height, so F_N<=H_N-H_m. A preferred birth creates at most W_n incomparable
+pairs, while another proper birth creates at most n. Verify the pathwise bound
+I_N<=I_m+N W_N+N B_N, retaining arbitrary initial pairs and exact finite-N
+normalization by binom(N,2). Any sharper constants must be justified, not needed.
+
+Use these facts to prove or refute: simultaneous H_N/N ->0 and W_N/N ->0 in
+probability force comparable density d_N ->1 in probability and L1; the
+almost-sure versions force d_N ->1 almost surely. Give a finite conditional
+expectation inequality too, with all expectations consistently conditioned
+on the fixed starting history. If valid this excludes the conjunction of
+sublinear height, sublinear width and a deterministic interior density limit
+0<rho<1 for every schedule in this mechanism. It does not exclude density one
+or assert every geometry must satisfy that conjunction.
+
+State the minimal structural/probability premises of the counting lemma and
+which would have to change to escape it. Do not authorize arbitrary adaptive
+normalization without a new locality/diamond proof. No replacement candidate,
+simulator, optimization, later table, endpoint tuning, metric or gravity claim
+is assigned. Preserve RI-46/48/49 and every measurement source. Return one
+stable analytic note for independent review; RI-50 proceeds as a distinct
+measurement qualification and RET remains paused.
