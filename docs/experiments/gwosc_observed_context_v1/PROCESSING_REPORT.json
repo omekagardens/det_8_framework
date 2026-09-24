@@ -1,0 +1,1444 @@
+{
+  "complete_values_location": "All source-indexed input/output arrays, complete Decimal diagnostics and exact reductions, every maximizing index, full annotations and all selected-row interval/endpoint gates are retained in the bound OBSERVED_CONTEXT.json detector records.",
+  "crop_identity": {
+    "bytes": 395470,
+    "sha256": "a580481b9f6ea8dbb90242f12023817709ee7ac208d504110966f01f353592e7"
+  },
+  "detectors": [
+    {
+      "complete_result_identity": {
+        "bytes": 5332579,
+        "sha256": "02faee41f853ff82e0a7a649ac73cf872404a389d187117756afb3eed07bd592"
+      },
+      "detector": "H1",
+      "passed": true
+    },
+    {
+      "complete_result_identity": {
+        "bytes": 5349410,
+        "sha256": "4630862fdcded22489350c99750ffe451cef65317863fef793500da4a6bc7233"
+      },
+      "detector": "L1",
+      "passed": true
+    }
+  ],
+  "dimensions": {
+    "L": 4096,
+    "N": 2769,
+    "T": 10961,
+    "source_count": 131072
+  },
+  "event": "GW150914",
+  "exported_observed_context": {
+    "bytes": 13189579,
+    "filename": "OBSERVED_CONTEXT.json",
+    "sha256": "d9d094b7851ed97b732a142d3130c12d8420bdb6420921a211e3031c8a9bbfc4"
+  },
+  "failures": [],
+  "input_custody": {
+    "both_raw_snapshots_verified_before_any_hdf5_parse": true,
+    "complete_crop_and_annotations_verified": true,
+    "input_paths_not_exported": true,
+    "same_bytes_supply_inspection_and_samples": true,
+    "sixteen_certificates_reconciled_before_observed_access": true
+  },
+  "interpretation_boundary": {
+    "comparison": "Three finite boundary conditions applied to identical central observed samples; the published rounded 32-second result is a baseline, not physical ground truth.",
+    "context": "The retained recorded context is known released data. No envelope M, missing continuation, fitted alignment or model is inferred.",
+    "interpretation": "No detection, residual statistic, noise estimate, calibration interval, confidence claim, DET-versus-GR test, native forward map or gravity proof.",
+    "selected_rows": "Actual-specific exact-operator and rounded-output bounds apply only to the eight fixed coordinates per detector.",
+    "whole_vectors": "Complete production-versus-Decimal comparisons are numerical diagnostics; they are not exact-operator certificates for unexamined rows."
+  },
+  "new_qualification": {
+    "context_identity": {
+      "bytes": 32566,
+      "sha256": "fb0ec155f16292a07a5884e686e1dca167d5e37d7efc87e26ea1c41eb35f717b"
+    },
+    "design_identity": {
+      "bytes": 19255,
+      "sha256": "636401b05620f227115362e1ecbf175a4a90a9dd34a021e0813f14e73ed58be2"
+    },
+    "dimensions": {
+      "L": 4096,
+      "N": 2769,
+      "T": 10961,
+      "source_count": 131072
+    },
+    "gate_counts": {
+      "failed": 0,
+      "passed": 75,
+      "total": 75
+    },
+    "gate_inventory": [
+      "index:positive_plain",
+      "index:negative_plain",
+      "index:positive_zeros_a",
+      "index:negative_zeros_a",
+      "index:positive_zeros_b",
+      "index:negative_zeros_b",
+      "toy:identity:4:1",
+      "toy:identity:4:2",
+      "toy:identity:7:1",
+      "toy:identity:7:2",
+      "toy:first_order:4:1",
+      "toy:first_order:4:2",
+      "toy:first_order:7:1",
+      "toy:first_order:7:2",
+      "toy:biquad:4:1",
+      "toy:biquad:4:2",
+      "toy:biquad:7:1",
+      "toy:biquad:7:2",
+      "toy:two_sections:4:1",
+      "toy:two_sections:4:2",
+      "toy:two_sections:7:1",
+      "toy:two_sections:7:2",
+      "toy:two_stages:4:1",
+      "toy:two_stages:4:2",
+      "toy:two_stages:7:1",
+      "toy:two_stages:7:2",
+      "toy:fir:4:1",
+      "toy:fir:4:2",
+      "toy:fir:7:1",
+      "toy:fir:7:2",
+      "toy:zero_dc:4:1",
+      "toy:zero_dc:4:2",
+      "toy:zero_dc:7:1",
+      "toy:zero_dc:7:2",
+      "toy:zero_dc_then_biquad:4:1",
+      "toy:zero_dc_then_biquad:4:2",
+      "toy:zero_dc_then_biquad:7:1",
+      "toy:zero_dc_then_biquad:7:2",
+      "control:endpoint_outside_pass",
+      "control:endpoint_outside_fail",
+      "control:nominal_all_ties",
+      "control:nominal_signed_reduction",
+      "refusal:source_changed",
+      "refusal:source_missing",
+      "refusal:coefficients",
+      "refusal:stage_order",
+      "refusal:padding",
+      "refusal:current_receipt_missing",
+      "refusal:current_receipt_failed",
+      "refusal:current_receipt_stale",
+      "refusal:ri60_receipt_failed",
+      "refusal:ri60_receipt_stale",
+      "refusal:runtime_mismatch",
+      "refusal:unreconciled_rows",
+      "refusal:resource_exhaustion",
+      "refusal:input_missing",
+      "refusal:input_swapped",
+      "refusal:input_truncated",
+      "refusal:input_corrupt_same_size",
+      "refusal:grid_mismatch",
+      "refusal:nonfinite_samples",
+      "refusal:data_inconsistency",
+      "refusal:altered_flags",
+      "refusal:altered_annotations",
+      "refusal:index_shift",
+      "refusal:crop_values_changed",
+      "refusal:crop_identity_changed",
+      "refusal:output_exists",
+      "refusal:interval_misses_exact",
+      "refusal:interval_reversed",
+      "refusal:interval_overwide",
+      "refusal:numerical_threshold",
+      "refusal:midpoint_only",
+      "refusal:overlap_only",
+      "refusal:both_inputs_bound_before_parse"
+    ],
+    "gates": [
+      {
+        "detail": {
+          "arrays": {
+            "w": {
+              "bytes": 87688,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "3706f3d59fa9dace923ec13a87de1daff13c0f05b9aa697a3816d7b3f97fdb00",
+              "shape": [
+                10961
+              ]
+            },
+            "x": {
+              "bytes": 22152,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "07a24e38efe10193462d83f604c516debeada76ba92449c3697256fdd5679471",
+              "shape": [
+                2769
+              ]
+            },
+            "z": {
+              "bytes": 65536,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "c8a651b5c918ef02a5021cb8f619f0ed12de52b9e159db27fa2d876f73ee7cd2",
+              "shape": [
+                8192
+              ]
+            }
+          },
+          "case": "positive_plain",
+          "central_clocks_checked": 2769,
+          "crop_prefix_coordinates_checked": 5538,
+          "crop_prefix_off_by_one_refused": true,
+          "retained_coordinates_checked": 21922,
+          "signed_zero_variant": false,
+          "source_length": 131072
+        },
+        "id": "index:positive_plain",
+        "passed": true
+      },
+      {
+        "detail": {
+          "arrays": {
+            "w": {
+              "bytes": 87688,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "22f13163f27246d8c5ff13508f145f8c86c0c32380ff0c6c86235e76ef899994",
+              "shape": [
+                10961
+              ]
+            },
+            "x": {
+              "bytes": 22152,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "cf08dd2297484c40f1c9bdbc0a38b86a6105944dc9acbc0be0846b7aa0e3ab68",
+              "shape": [
+                2769
+              ]
+            },
+            "z": {
+              "bytes": 65536,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "b07dd15a30b4eb9450e89dacec1b7d3f767e6e8ac66cfa5228af623129e3bde5",
+              "shape": [
+                8192
+              ]
+            }
+          },
+          "case": "negative_plain",
+          "central_clocks_checked": 2769,
+          "crop_prefix_coordinates_checked": 5538,
+          "crop_prefix_off_by_one_refused": true,
+          "retained_coordinates_checked": 21922,
+          "signed_zero_variant": false,
+          "source_length": 131072
+        },
+        "id": "index:negative_plain",
+        "passed": true
+      },
+      {
+        "detail": {
+          "arrays": {
+            "w": {
+              "bytes": 87688,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "17055006d85305b6ae0dc1f853f5bf807f38b3288602d41e5291c12a033e8f9e",
+              "shape": [
+                10961
+              ]
+            },
+            "x": {
+              "bytes": 22152,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "0fdc788b44cb4ed807beb5d89bb403ac50f75af4a094ba01ce7814e009c1e4d2",
+              "shape": [
+                2769
+              ]
+            },
+            "z": {
+              "bytes": 65536,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "0e164085e7404c34d538ce9d58a27c6d2c419f4c3b737eba73ad6491a40e68a6",
+              "shape": [
+                8192
+              ]
+            }
+          },
+          "case": "positive_zeros_a",
+          "central_clocks_checked": 2769,
+          "crop_prefix_coordinates_checked": 5538,
+          "crop_prefix_off_by_one_refused": true,
+          "retained_coordinates_checked": 21922,
+          "signed_zero_variant": true,
+          "source_length": 131072
+        },
+        "id": "index:positive_zeros_a",
+        "passed": true
+      },
+      {
+        "detail": {
+          "arrays": {
+            "w": {
+              "bytes": 87688,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "14c3537aaec2cc6c6247c0e83de870923bf5675f5da88c1f2a3440cd2c7a3743",
+              "shape": [
+                10961
+              ]
+            },
+            "x": {
+              "bytes": 22152,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "394e7ed373bd6325d6da45d52993bb8c8f2a1022be8c25db631957edfd69de2c",
+              "shape": [
+                2769
+              ]
+            },
+            "z": {
+              "bytes": 65536,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "e2876d7275ccdf6e506f4518cdd123152ad0bdf2d01eed64ee7303a85100cad7",
+              "shape": [
+                8192
+              ]
+            }
+          },
+          "case": "negative_zeros_a",
+          "central_clocks_checked": 2769,
+          "crop_prefix_coordinates_checked": 5538,
+          "crop_prefix_off_by_one_refused": true,
+          "retained_coordinates_checked": 21922,
+          "signed_zero_variant": true,
+          "source_length": 131072
+        },
+        "id": "index:negative_zeros_a",
+        "passed": true
+      },
+      {
+        "detail": {
+          "arrays": {
+            "w": {
+              "bytes": 87688,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "322cffa46b6baea711eee9ef0c12cf5e0dcd49898878fa9130d1be0229ef7db1",
+              "shape": [
+                10961
+              ]
+            },
+            "x": {
+              "bytes": 22152,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "11c94b47721182ac37603a347ac9054d58a762a95b83c028e7d7aadb69aa4203",
+              "shape": [
+                2769
+              ]
+            },
+            "z": {
+              "bytes": 65536,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "16988ce7ccd29f462c3d26506d53b92f9a0297f7857dc73f100d2066f3623e5a",
+              "shape": [
+                8192
+              ]
+            }
+          },
+          "case": "positive_zeros_b",
+          "central_clocks_checked": 2769,
+          "crop_prefix_coordinates_checked": 5538,
+          "crop_prefix_off_by_one_refused": true,
+          "retained_coordinates_checked": 21922,
+          "signed_zero_variant": true,
+          "source_length": 131072
+        },
+        "id": "index:positive_zeros_b",
+        "passed": true
+      },
+      {
+        "detail": {
+          "arrays": {
+            "w": {
+              "bytes": 87688,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "f1e6206cefadf1a2d8d9d706243e6f6a214acdabced0d93e2f3f27dccd7423c5",
+              "shape": [
+                10961
+              ]
+            },
+            "x": {
+              "bytes": 22152,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "063db7e50243e92fea6534f32fcaee87d7845db4ae18a633cbb5a4d94e2ce01c",
+              "shape": [
+                2769
+              ]
+            },
+            "z": {
+              "bytes": 65536,
+              "dtype": "little-endian binary64",
+              "order": "C",
+              "sha256": "4c5e313cd4e7ad5324000e31ac8b2690198152b5a6999f2b6ca717199a226373",
+              "shape": [
+                8192
+              ]
+            }
+          },
+          "case": "negative_zeros_b",
+          "central_clocks_checked": 2769,
+          "crop_prefix_coordinates_checked": 5538,
+          "crop_prefix_off_by_one_refused": true,
+          "retained_coordinates_checked": 21922,
+          "signed_zero_variant": true,
+          "source_length": 131072
+        },
+        "id": "index:negative_zeros_b",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "identity",
+          "forward_basis_columns": 10,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 1
+        },
+        "id": "toy:identity:4:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "identity",
+          "forward_basis_columns": 12,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 2
+        },
+        "id": "toy:identity:4:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "identity",
+          "forward_basis_columns": 16,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 1
+        },
+        "id": "toy:identity:7:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "identity",
+          "forward_basis_columns": 18,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 2
+        },
+        "id": "toy:identity:7:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "first_order",
+          "forward_basis_columns": 10,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 1
+        },
+        "id": "toy:first_order:4:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "first_order",
+          "forward_basis_columns": 12,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 2
+        },
+        "id": "toy:first_order:4:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "first_order",
+          "forward_basis_columns": 16,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 1
+        },
+        "id": "toy:first_order:7:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "first_order",
+          "forward_basis_columns": 18,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 2
+        },
+        "id": "toy:first_order:7:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "biquad",
+          "forward_basis_columns": 10,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 1
+        },
+        "id": "toy:biquad:4:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "biquad",
+          "forward_basis_columns": 12,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 2
+        },
+        "id": "toy:biquad:4:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "biquad",
+          "forward_basis_columns": 16,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 1
+        },
+        "id": "toy:biquad:7:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "biquad",
+          "forward_basis_columns": 18,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 2
+        },
+        "id": "toy:biquad:7:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "two_sections",
+          "forward_basis_columns": 10,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 1
+        },
+        "id": "toy:two_sections:4:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "two_sections",
+          "forward_basis_columns": 12,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 2
+        },
+        "id": "toy:two_sections:4:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "two_sections",
+          "forward_basis_columns": 16,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 1
+        },
+        "id": "toy:two_sections:7:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "two_sections",
+          "forward_basis_columns": 18,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 2
+        },
+        "id": "toy:two_sections:7:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "two_stages",
+          "forward_basis_columns": 10,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 1
+        },
+        "id": "toy:two_stages:4:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "two_stages",
+          "forward_basis_columns": 12,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 2
+        },
+        "id": "toy:two_stages:4:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "two_stages",
+          "forward_basis_columns": 16,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 1
+        },
+        "id": "toy:two_stages:7:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "two_stages",
+          "forward_basis_columns": 18,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 2
+        },
+        "id": "toy:two_stages:7:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "fir",
+          "forward_basis_columns": 10,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 1
+        },
+        "id": "toy:fir:4:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "fir",
+          "forward_basis_columns": 12,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 2
+        },
+        "id": "toy:fir:4:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "fir",
+          "forward_basis_columns": 16,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 1
+        },
+        "id": "toy:fir:7:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "fir",
+          "forward_basis_columns": 18,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 2
+        },
+        "id": "toy:fir:7:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "zero_dc",
+          "forward_basis_columns": 10,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 1
+        },
+        "id": "toy:zero_dc:4:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "zero_dc",
+          "forward_basis_columns": 12,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 2
+        },
+        "id": "toy:zero_dc:4:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "zero_dc",
+          "forward_basis_columns": 16,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 1
+        },
+        "id": "toy:zero_dc:7:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "zero_dc",
+          "forward_basis_columns": 18,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 2
+        },
+        "id": "toy:zero_dc:7:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "zero_dc_then_biquad",
+          "forward_basis_columns": 10,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 1
+        },
+        "id": "toy:zero_dc_then_biquad:4:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 16,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 4,
+          "configuration": "zero_dc_then_biquad",
+          "forward_basis_columns": 12,
+          "input_combinations": 4,
+          "point_rows": 16,
+          "side": 2
+        },
+        "id": "toy:zero_dc_then_biquad:4:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "zero_dc_then_biquad",
+          "forward_basis_columns": 16,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 1
+        },
+        "id": "toy:zero_dc_then_biquad:7:1",
+        "passed": true
+      },
+      {
+        "detail": {
+          "broad_interval_rows": 28,
+          "broad_radius_rule": "((coordinate mod 3)+1)/1024; containment only, not actual width admission",
+          "central": 7,
+          "configuration": "zero_dc_then_biquad",
+          "forward_basis_columns": 18,
+          "input_combinations": 4,
+          "point_rows": 28,
+          "side": 2
+        },
+        "id": "toy:zero_dc_then_biquad:7:2",
+        "passed": true
+      },
+      {
+        "detail": {
+          "gate": {
+            "distance_bound_exact": "1/1099511627776",
+            "limit_exact": "1/1000000000",
+            "passed": true,
+            "point_exact": "1099511627777/1099511627776"
+          },
+          "point_outside_interval": true
+        },
+        "id": "control:endpoint_outside_pass",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "control:endpoint_outside_fail",
+        "passed": true
+      },
+      {
+        "detail": {
+          "maximizing_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "maximum_absolute_difference_exact": "1",
+          "operation": "exact_binary64_left_minus_right",
+          "sample_count": 4,
+          "values_exact": [
+            "1",
+            "-1",
+            "-1",
+            "1"
+          ]
+        },
+        "id": "control:nominal_all_ties",
+        "passed": true
+      },
+      {
+        "detail": {
+          "maximizing_indices": [
+            1
+          ],
+          "maximum_absolute_difference_exact": "10808639105689191/36028797018963968",
+          "operation": "exact_binary64_left_minus_right",
+          "sample_count": 4,
+          "values_exact": [
+            "-7205759403792793/36028797018963968",
+            "-10808639105689191/36028797018963968",
+            "0",
+            "0"
+          ]
+        },
+        "id": "control:nominal_signed_reduction",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:source_changed",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:source_missing",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:coefficients",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:stage_order",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:padding",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:current_receipt_missing",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:current_receipt_failed",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:current_receipt_stale",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:ri60_receipt_failed",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:ri60_receipt_stale",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:runtime_mismatch",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:unreconciled_rows",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:resource_exhaustion",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:input_missing",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:input_swapped",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:input_truncated",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:input_corrupt_same_size",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:grid_mismatch",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:nonfinite_samples",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:data_inconsistency",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:altered_flags",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:altered_annotations",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:index_shift",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:crop_values_changed",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:crop_identity_changed",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:output_exists",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:interval_misses_exact",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:interval_reversed",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:interval_overwide",
+        "passed": true
+      },
+      {
+        "detail": {
+          "input_peak_exact": "1/1048576",
+          "limit_exact": "1/1048576000000000",
+          "no_unit_floor": true,
+          "nonzero_output_for_zero_input_refused": true,
+          "passing_control": true,
+          "refused": true,
+          "rejected_residual_exact": "1/1099511627776",
+          "sample_count": 4,
+          "signed_zero_control": true
+        },
+        "id": "refusal:numerical_threshold",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:midpoint_only",
+        "passed": true
+      },
+      {
+        "detail": {
+          "refused": true
+        },
+        "id": "refusal:overlap_only",
+        "passed": true
+      },
+      {
+        "detail": {
+          "parser_calls": 0,
+          "refused": true,
+          "row_prerequisite_mocked_only_for_synthetic_order_control": true,
+          "verified_attempt_order": [
+            "H1",
+            "L1"
+          ]
+        },
+        "id": "refusal:both_inputs_bound_before_parse",
+        "passed": true
+      }
+    ],
+    "published_dependency_identities": {
+      "design": {
+        "bytes": 19255,
+        "sha256": "636401b05620f227115362e1ecbf175a4a90a9dd34a021e0813f14e73ed58be2"
+      },
+      "ri47_process": {
+        "bytes": 18823,
+        "sha256": "f026667837cfb6e2040e228f8cd9dd73e983fb5bc0610cb106e8dce521d685fd"
+      },
+      "ri60_check": {
+        "bytes": 38088,
+        "sha256": "a9440a15f31002209ec90519291af510d69813a2c6215b31944beb2eac14fd02"
+      },
+      "ri60_qualification": {
+        "bytes": 9413345,
+        "sha256": "1156cd98799c2b458489dd34b4bf5d9a1dfe2c870514691be99fdb1598bc3a6f"
+      }
+    },
+    "ri60_prior_gates": {
+      "status": "previously_passed_not_rerun_here",
+      "total": 196
+    },
+    "ri60_qualification_identity": {
+      "bytes": 9413345,
+      "sha256": "1156cd98799c2b458489dd34b4bf5d9a1dfe2c870514691be99fdb1598bc3a6f"
+    },
+    "rows": [
+      0,
+      1,
+      27,
+      805,
+      1384,
+      2741,
+      2767,
+      2768
+    ],
+    "runtime": {
+      "byte_order": "little",
+      "hdf5_version": "1.12.2",
+      "machine": "arm64",
+      "numpy_configuration": {
+        "Build Dependencies": {
+          "blas": {
+            "detection method": "system",
+            "found": true,
+            "include directory": "unknown",
+            "lib directory": "unknown",
+            "name": "accelerate",
+            "openblas configuration": "unknown",
+            "pc file directory": "unknown",
+            "version": "unknown"
+          },
+          "lapack": {
+            "detection method": "system",
+            "found": true,
+            "include directory": "unknown",
+            "lib directory": "unknown",
+            "name": "accelerate",
+            "openblas configuration": "unknown",
+            "pc file directory": "unknown",
+            "version": "unknown"
+          }
+        },
+        "Compilers": {
+          "c": {
+            "commands": "cc",
+            "linker": "ld64",
+            "name": "clang",
+            "version": "15.0.0"
+          },
+          "c++": {
+            "commands": "c++",
+            "linker": "ld64",
+            "name": "clang",
+            "version": "15.0.0"
+          },
+          "cython": {
+            "commands": "cython",
+            "linker": "cython",
+            "name": "cython",
+            "version": "3.0.11"
+          }
+        },
+        "Machine Information": {
+          "build": {
+            "cpu": "aarch64",
+            "endian": "little",
+            "family": "aarch64",
+            "system": "darwin"
+          },
+          "host": {
+            "cpu": "aarch64",
+            "endian": "little",
+            "family": "aarch64",
+            "system": "darwin"
+          }
+        },
+        "Python Information": {
+          "path": "/private/var/folders/g6/rgtlsw6n123b0gt5483s5_cm0000gn/T/build-env-66yva2l8/bin/python",
+          "version": "3.11"
+        },
+        "SIMD Extensions": {
+          "baseline": [
+            "NEON",
+            "NEON_FP16",
+            "NEON_VFPV4",
+            "ASIMD"
+          ],
+          "found": [
+            "ASIMDHP"
+          ],
+          "not found": [
+            "ASIMDFHM"
+          ]
+        }
+      },
+      "operating_system": "Darwin",
+      "os_release": "25.5.0",
+      "os_version": "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+      "python_build": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+      "python_implementation": "CPython",
+      "versions": {
+        "h5py": "3.12.1",
+        "numpy": "2.1.3",
+        "python": "3.11.6",
+        "scipy": "1.14.1"
+      }
+    },
+    "schema_version": "ri64-consumer-qualification-v1",
+    "scope": "New consumer synthetic/index/interval/custody controls only. No observed sample/crop access or new admitted coefficient-row computation.",
+    "source_identity": {
+      "bytes": 34640,
+      "sha256": "f76bab65b4f3a4d8cde5efe292d2bfe3a5d8792048feace55308884757f38241"
+    },
+    "status": "all_consumer_gates_passed"
+  },
+  "published_processing_identity": {
+    "bytes": 159384,
+    "sha256": "98bf0c53d5b988d3bb2aaa5f60c0fbcd87512501dd1137175b25589cc4856820"
+  },
+  "qualification_identity": {
+    "bytes": 33132,
+    "sha256": "56aa06c442384bd6249875443930202e09e874b4318aa995a8b7bb6dec1dab1b"
+  },
+  "ri60_qualification_identity": {
+    "bytes": 9413345,
+    "sha256": "1156cd98799c2b458489dd34b4bf5d9a1dfe2c870514691be99fdb1598bc3a6f"
+  },
+  "runtime": {
+    "byte_order": "little",
+    "hdf5_version": "1.12.2",
+    "machine": "arm64",
+    "numpy_configuration": {
+      "Build Dependencies": {
+        "blas": {
+          "detection method": "system",
+          "found": true,
+          "include directory": "unknown",
+          "lib directory": "unknown",
+          "name": "accelerate",
+          "openblas configuration": "unknown",
+          "pc file directory": "unknown",
+          "version": "unknown"
+        },
+        "lapack": {
+          "detection method": "system",
+          "found": true,
+          "include directory": "unknown",
+          "lib directory": "unknown",
+          "name": "accelerate",
+          "openblas configuration": "unknown",
+          "pc file directory": "unknown",
+          "version": "unknown"
+        }
+      },
+      "Compilers": {
+        "c": {
+          "commands": "cc",
+          "linker": "ld64",
+          "name": "clang",
+          "version": "15.0.0"
+        },
+        "c++": {
+          "commands": "c++",
+          "linker": "ld64",
+          "name": "clang",
+          "version": "15.0.0"
+        },
+        "cython": {
+          "commands": "cython",
+          "linker": "cython",
+          "name": "cython",
+          "version": "3.0.11"
+        }
+      },
+      "Machine Information": {
+        "build": {
+          "cpu": "aarch64",
+          "endian": "little",
+          "family": "aarch64",
+          "system": "darwin"
+        },
+        "host": {
+          "cpu": "aarch64",
+          "endian": "little",
+          "family": "aarch64",
+          "system": "darwin"
+        }
+      },
+      "Python Information": {
+        "path": "/private/var/folders/g6/rgtlsw6n123b0gt5483s5_cm0000gn/T/build-env-66yva2l8/bin/python",
+        "version": "3.11"
+      },
+      "SIMD Extensions": {
+        "baseline": [
+          "NEON",
+          "NEON_FP16",
+          "NEON_VFPV4",
+          "ASIMD"
+        ],
+        "found": [
+          "ASIMDHP"
+        ],
+        "not found": [
+          "ASIMDFHM"
+        ]
+      }
+    },
+    "operating_system": "Darwin",
+    "os_release": "25.5.0",
+    "os_version": "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+    "python_build": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "python_implementation": "CPython",
+    "versions": {
+      "h5py": "3.12.1",
+      "numpy": "2.1.3",
+      "python": "3.11.6",
+      "scipy": "1.14.1"
+    }
+  },
+  "schema_version": "ri64-observed-context-processing-v1",
+  "selected_rows": [
+    0,
+    1,
+    27,
+    805,
+    1384,
+    2741,
+    2767,
+    2768
+  ],
+  "source_identity": {
+    "check": {
+      "bytes": 34640,
+      "sha256": "f76bab65b4f3a4d8cde5efe292d2bfe3a5d8792048feace55308884757f38241"
+    },
+    "context": {
+      "bytes": 32566,
+      "sha256": "fb0ec155f16292a07a5884e686e1dca167d5e37d7efc87e26ea1c41eb35f717b"
+    },
+    "design": {
+      "bytes": 19255,
+      "sha256": "636401b05620f227115362e1ecbf175a4a90a9dd34a021e0813f14e73ed58be2"
+    },
+    "process": {
+      "bytes": 10478,
+      "sha256": "4a7ad4e1a800a03eb7fcb4ddafec3c6951d46af8032a20f2f45d6893ca633fcc"
+    },
+    "published_dependencies": {
+      "design": {
+        "bytes": 19255,
+        "sha256": "636401b05620f227115362e1ecbf175a4a90a9dd34a021e0813f14e73ed58be2"
+      },
+      "ri47_process": {
+        "bytes": 18823,
+        "sha256": "f026667837cfb6e2040e228f8cd9dd73e983fb5bc0610cb106e8dce521d685fd"
+      },
+      "ri60_check": {
+        "bytes": 38088,
+        "sha256": "a9440a15f31002209ec90519291af510d69813a2c6215b31944beb2eac14fd02"
+      },
+      "ri60_qualification": {
+        "bytes": 9413345,
+        "sha256": "1156cd98799c2b458489dd34b4bf5d9a1dfe2c870514691be99fdb1598bc3a6f"
+      }
+    }
+  },
+  "status": "all_observed_context_gates_passed",
+  "strain_product_version": "V2"
+}

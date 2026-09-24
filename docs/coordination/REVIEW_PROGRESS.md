@@ -6618,3 +6618,105 @@ remained unchanged. Independent raw-sample/export arithmetic adjudication is
 underway; no result is accepted or published merely because both runs pass.
 Calibrated inference, native observation map, geometry and gravity remain open.
 RET remains paused; original review and unrelated baseline remain untouched.
+
+
+**RI-65 publication verified; RI-64 observed-context result accepted**
+
+Native content commit `bd0031afe4eba62851284184194bbcc69efdfa63`, tree
+`63f6902dfb4e2726cc3c1935a809cffe688fb615`, publishes exactly the three
+RI-65 packet files and three coordinator records. Normal push succeeded and
+a separate origin/ret lookup matched the full commit; the index was empty.
+Preflight preserved 2101 other entry versions, bound eight published native
+dependencies, checked 138 local links and verified the exact staged bytes.
+Accepted OBSTRUCTION.md is 18973 bytes, SHA-256
+`6afea768ef2384605911e865cc2e1508b2bf4aeefd3b89952c912be5494123b2`;
+checker/certificate retain their replayed identities. QR is active on RI-66.
+
+The independent native audit's retained normal/optimized outputs also agree:
+994286 bytes, SHA-256
+`7fdcc9967964faac8b8c5d6d15b4ef7eb6fb183545de5f275fe6e38ec003257f`,
+with empty stderr. It reuses the accepted RI-63 problem derivative explicitly;
+its own canonicalization, exact arithmetic, transports, limited geometry
+crosscheck and linear-extension recursion are independent. This does not
+claim a second independent growth-domain generator. Its hook-family calculation
+is analytic for every t>=1; the general terminal-factorization theorem remains
+the assigned RI-66 question.
+
+RI-64's original qualification freeze was 24 September 2026 08:48:15 UTC;
+the actual-run freeze was 08:50:22 UTC after root and independent receipt
+adjudication. Execution bound the 32323-byte prospective guide, SHA-256
+`bb5fdf6656a9fa212bf56d2807303a4847c1ad49ed5cbe1e422e12550aba8bf3`.
+The final guide adds reviewed results after both runs; it does not retroactively
+change the frozen execution recipe. The actual freeze manifest is 5755 bytes,
+SHA-256 `ff167e29c5c4c812b5ea015500ba3b8d944050fad025f68cdba4a044f3021048`.
+All three executed Python files retain their reviewed/frozen bytes. Fifteen
+published prerequisites and two observed predecessor exports remain fixed.
+
+The new 75/75-gate qualification receipt is identical in normal/optimized modes:
+33132 bytes, SHA-256
+`56aa06c442384bd6249875443930202e09e874b4318aa995a8b7bb6dec1dab1b`.
+Its inventory is six index, 32 tiny-operator, four arithmetic and 33 refusal
+gates; 33228 nonconstant two-detector crop-prefix comparisons and six intended-
+reason off-by-one refusals are included. RI-60's separate 196-gate qualification
+remains pinned prior evidence. No observed input was used to qualify RI-64.
+
+Actual normal/optimized runs exited zero with empty stderr in 463.330/466.083
+seconds. Sampled peak RSS was 339248/347792 KiB under the unchanged 2-GiB limit;
+this watchdog is sampled, not a hard allocator bound. Each run rebuilt all
+eight short and eight long row certificates and matched their complete prior
+proof summaries before observed access. Both original HDF5 snapshots and both
+published baseline exports were bound before either HDF5 parse. Both modes
+produce identical OBSERVED_CONTEXT.json (13189579 bytes, SHA-256
+`d9d094b7851ed97b732a142d3130c12d8420bdb6420921a211e3031c8a9bbfc4`)
+and PROCESSING_REPORT.json (42247 bytes, SHA-256
+`8edfe1bd235a22ad308d1e086dacd9bbe7ac02cfbfc09240878ff5e05ab05869`).
+
+An independent auditor, importing no project helper, checked both original
+raw snapshot identities before HDF5 parsing, 43844 exported raw-window values,
+5538 baseline-prefix values, 27460 complete Decimal residuals/peaks/maximizers,
+11076 exact nominal differences/maximizers, all sixteen selected interval
+reductions/width gates and 48 endpoint-distance gates. Full source/runtime/
+annotation identities reconcile. Its normal/optimized reports both pass and
+are identical: 14516 bytes, SHA-256
+`9ff31647206675389a8ab70e5212e0cda73cb40a06f2b4f7f0074b3df2e0a1df`.
+This independently checks exported arithmetic and raw extraction, not the
+filter recurrence or unexported coefficient dot products; those rest on the
+reviewed implementation, synthetic oracles and exact-row proof machinery.
+Root reconciled these limits, result identities, all row statuses and both
+mode outputs and accepts the bounded observed result.
+
+For H1/L1, maximum |context-short| is respectively approximately1.300145066e-20
+and1.711427280e-20, at the unique index2762. Maximum |record-context| is
+approximately4.604739777e-23 and5.517297065e-23, at the unique index469.
+These are comparisons of three finite boundary conditions on identical central
+samples. The rounded 32-second baseline is not physical ground truth, and these
+maxima are not calibration/noise uncertainties. All sixteen fixed direct
+context-difference intervals exclude zero; whole-vector Decimal diagnostics
+are not exact-operator certificates at unexamined rows. The L1 CW-clear warning
+is retained verbatim; no injection-absence or negligible-effect claim follows.
+No fit, detection, confidence interval or native-gravity claim is introduced.
+
+RI-64's seven-file reservation releases after final documentation review and
+scoped publication. RI-67 is assigned as one prospective design/proof packet,
+reserving only `docs/experiments/gwosc_context_noise_v1/DESIGN.md`. It addresses
+the next scientific gap: the conditional noise covariance of the same fixed
+context-minus-short observation, retaining covariance from shared samples.
+Derive the fixed Gaussian covariance/support/quadratic-form theorem and freeze
+small exact fixtures and synthetic qualification before implementation or any
+empirical score. Estimated covariance, calibration and detector assumptions
+must not inherit a known-covariance chi-square claim. Numerical enclosures and
+stochastic uncertainty stay distinct. A new interior cut selected after these
+observed maxima would not become a predeclared measurement by relabeling it.
+Conventional public-data inference still needs qualified noise, response/timing
+and calibration premises; native inference still needs a quantitative forward
+law. RI-66 supplies the concurrent native proof lane. RET remains paused.
+
+
+RI-64 final documentation is independently accepted. Its 44764-byte
+IMPLEMENTATION.md has SHA-256 `b510535efa194b1d5d29d088804b466825d13c35bfe1c90afe25cb9ce3f9e9dd`.
+Root checked the complete final delta, shell/embedded-Python syntax and exact
+upward-rounded summaries. A separate reviewer reconciled the complete final
+delta with all frozen/run/audit evidence and independently checked twelve
+summary/index calculations. Only opening/closing administrative acceptance
+wording changed after that review. All seven accepted paths are source-quiet
+for scoped publication; concurrent RI-66 and RI-67 reservations stay active.
