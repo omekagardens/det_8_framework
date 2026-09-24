@@ -11,9 +11,9 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-60 context error repair | **Assigned; six new v2 paths reserved.** | Independently review per-coordinate bounds and source before new qualification. |
-| RI-57 selected-row sensitivity | **Qualification failed identically: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
+| RI-57 selected-row sensitivity | **Failed qualification preserved in verified `995ed03`: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
 | RI-59 history-weighted candidate | **Assigned after RI-58 acceptance; one analytic path reserved.** | Specify the all-size rational selector and isolate its asymptotic drift obligation. |
-| RI-58 twin-top defect obstruction | **Independently accepted; publication pending.** | Preserve the exact fixed-layer bound; RI-59 follows the actual history distribution. |
+| RI-58 twin-top defect obstruction | **Published in verified `995ed03`.** | Preserve the exact fixed-layer bound; RI-59 follows the actual history distribution. |
 | RI-56 robust intrinsic defect | **Published in verified `0f0ba1b`.** | Preserve conditional scope; RI-58 tests the next concrete admission obstruction. |
 | RI-55 finite-context sensitivity | **Published in verified `ef10f33`.** | RI-57 implements the qualified selected-row pilot. |
 | RI-54 rectangle bottleneck | **Published in verified `ef10f33`.** Exact capacity obstruction. | Preserve the scoped result; RI-56 examines robust defects. |
@@ -2145,3 +2145,24 @@ The revised sources must independently pass exact toys and full source review,
 then freeze before any revised admitted-coefficient qualification. Actual input
 still requires successful normal/optimized qualification. This is the next
 measurement action alongside the active RI-59 native candidate proof.
+
+
+**RI-58 theorem and RI-57 failed attempt published; both successor lanes active**
+
+Commit `995ed0390d1bd6a05a6a90c9aef021f09e9823d4`, tree
+`dc351e483a40f0b334dd1e9fa1aec171a4d6e5d2`, publishes exactly the three accepted
+RI-58 files, six frozen RI-57 reproduction files and three coordinator records.
+Preflight preserved 2080 other entry versions, verified 140 local links, every
+executed/new source identity and all published mathematical/numerical/input
+provenance dependencies. The native source/certificate match the isolated tested
+copies; the measurement source matches its failed normal/optimized execution.
+The failed receipt is byte-identical to both outputs. No actual sensitivity
+artifact was invented. The driver refused that receipt in both modes before
+input/output, with identical rejection text; no output directory was created.
+
+Normal push and a separate origin/ret lookup returned the same full commit;
+the index was empty. RI-59's one-file candidate proof and RI-60's six-file repair
+remain active and excluded. Thresholds, original review, unrelated baseline,
+accepted historical results, protected/custody boundaries and RET pause remain
+unchanged. Publication records a valid native obstruction and an unsuccessful
+numerical method; it does not claim a completed programme or physical result.
