@@ -3950,3 +3950,47 @@ address complete joint consistency, normalization and strict read permissions
 without weakening premises or implementing the rejected family. No new
 family/executor was automatically assigned. The final three-record status
 checkpoint preserves both completed documents and every accepted predecessor.
+
+
+**RI-34 scope review and bounded assignment — 24 September UTC**
+
+QR's read-only recommendation followed its user's explicit request to continue
+with the next obligation. Root confirmed the accepted RI-32 predecessor and
+reviewed the proposed Boolean normalization normal form and first scalar
+diamond equations. A separate coordinator reviewer independently derived the
+same coefficient cancellation and earliest birth constraints. Scope corrections
+make marked-parent equivariance and the full independent record cube explicit,
+list equal-precursor diamonds as well as the mixed case, and distinguish the
+weak-positivity endpoints from the strictly positive subfamily.
+
+The row theorem is conditional on the declared complete probability row at
+fixed residual/context. It neither supplies positivity nor full-payload
+covariance. Signed compensation is necessary for normalized ideal-marginal
+feedback; it is not sufficient for an unlabeled order change. The remaining
+chain-root response f(0) versus f(1) is only finite-prefix freedom, not an
+extendibility proof. Existing zero-total-mass nonzero kernels prevent promoting
+scalar zero-branch arguments to general full maps. No mathematical novelty
+or native/physical result is claimed by accepting this assignment's scope.
+
+QR owns only new
+`docs/track_b/native_joint_growth_constraints_v1/NORMAL_FORM.md`. It must
+return a complete source-stable note/hash, actual analytic checks and remaining
+premises, release the reservation, and stop for independent review. Root owns
+plan/progress/backlog and git/index. No new growth law, executor, numerical
+table, higher-parent search, simulation, data acquisition or RET work is
+authorized by this packet. The proposed theorem itself is not yet accepted
+as a completed artifact.
+
+Entry HEAD is `c2580884ca15ac67c31d0dbd36ed2fccb9db416b`, tree
+`c90626b531f61b92ee015d520d66a6faedb79c94`; branch/upstream ret/origin/ret and
+index empty. The entry manifest records 1,056 tracked and 965 untracked file
+versions. This checkpoint changes only three coordinator records and will
+preserve all 2,018 other entry versions, including RI-32/33 and the original
+review. Active QR source is excluded from publication until separately reviewed.
+No project source or scientific suite was executed for this scope review.
+
+Scope-check completion: all 90 local Markdown targets resolve, and all 2,018
+entry versions outside the three changed coordinator records remain unchanged.
+The active RI-34 document is not staged. Root publishes only the reviewed
+assignment/ownership records; completed theorem acceptance remains pending
+the source-stable handoff and independent proof review.

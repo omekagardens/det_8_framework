@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34 now assigns one bounded strict-local normalization proof note, following the QR user's request to continue. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -50,7 +50,7 @@ Active file reservations, updated 23 September:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-32 is independently accepted as a family-scoped rejection; its single-document reservation is released. No active QR source reservation or automatic replacement family. Accepted models and summaries remain fixed. |
+| QR task | RI-34 reserves only new `docs/track_b/native_joint_growth_constraints_v1/NORMAL_FORM.md`: all-finite-parent row-normalization theorem and the explicitly limited first-diamond boundary. No new growth law, executor or automatic successor. RI-32 and all accepted models/summaries remain fixed. |
 | Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. No source implementation reservation is active; RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. Only these three coordinator records remain reserved; no RET or acquisition work. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
@@ -101,6 +101,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | RI-31 | Native geometry, gravity and measurement programme | Coordinator plan; QR read-only scope review | **Plan independently accepted and published in verified `40b0329`.** [Staged work packets](docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md) prioritize one native joint-law dossier, an observation-channel contract and public-data qualification. Simulations/public data first; no new implementation reservation or RET resumption. |
 | RI-32 | First native joint-law candidate dossier | QR; coordinator review | **Family-scoped rejection independently accepted and published in verified `45e3f76`.** [Dossier](docs/track_b/native_joint_growth_v1/DOSSIER.md) gives a reachable full-map covariance counterexample for every parameter and strict-read failure for positive coupling. No executor or replacement family warranted by this result. |
 | RI-33 | Observation channel and public-data qualification | Coordinator | **Design independently accepted and published in verified `2216ac8`.** [Contract](docs/experiments/observer_channel_v1/CONTRACT.md) proves exact two-way offset compatibility and preserves uncertainty/channel boundaries; selected GWOSC V2 pair is metadata-qualified only. No scientific acquisition or RET change. |
+| RI-34 | Strict-local normalization before another native candidate | QR; coordinator independent review | **One proof note assigned after read-only scope review.** Boolean coefficient cancellation and scoped monotone-response obstruction; small scalar full-map diamond boundary only. No complete native law or all-size covariance claim; no code or data. |
 | RI-01 | F1: reconcile current status and authorizations | Coordinator | **Accepted.** Six landing/status documents now distinguish source-bound local G1 closure, open G2 and the separately authorized bounded QR lane including mass/gravity research. Retired κ-gravity remains retired. Coordinator checked 117 local file links across these documents and the new trackers/runner guide; no missing targets. |
 | RI-02 | F2: repair the pair-kernel research contract | Coordinator | **Accepted for this research interface.** Singular Gram reconstruction, exact recordability and raw-probability validation repaired. Coordinator independently reran 97 focused pytest cases; implementer also ran 49 existing consumer checks. `cholesky()` returns a pivoted Gram factor, not necessarily triangular. No public-core promotion. |
 | RI-03 | F8: register and run isolated research checks with source identity | Coordinator | **Accepted for nineteen named suites.** Cumulative inventory:411 witnesses/34 executable sources. Root passed27 new RI-16 checks in each mode and43 registry regressions from the isolated candidate; prior384 results retain unchanged pins. This is not a fresh411-witness replay. RI-15 remains separate. |
@@ -1027,3 +1028,41 @@ recommendation addressing joint normalization, strict record reads and
 full-map covariance before reserving another family. This is consultation,
 not an implementation or automatic replacement assignment. Both completed
 cycle-1 artifacts remain fixed; RET remains paused.
+
+
+**RI-34 bounded next QR obligation — normalization before candidate selection**
+
+After RI-32 was independently accepted and published, the QR user requested
+the next obligation. Root and an independent coordinator reviewer examined
+QR's read-only recommendation. Its elementary normalization theorem is a
+useful admission condition, not a native-geometry result or novelty claim.
+Reserve only new `docs/track_b/native_joint_growth_constraints_v1/NORMAL_FORM.md`.
+QR must hand off a source-stable proof note and stop for independent review.
+
+The scope fixes a finite parent, full independent binary record cube, the same
+admitted full residual/context, a common ideal/outcome envelope with zero
+slots retained, and one committed birth with total mass one. Expand each
+strict-local ideal marginal in its unique Boolean multilinear basis. Prove
+that row normalization is equivalent to constant coefficients summing to one
+and each nonconstant coefficient summing to zero over ideals containing its
+support. Positivity remains a separate pointwise requirement. The scoped
+monotone-response corollary concerns normalized ideal marginals only, not raw
+propensities, individual newborn outcomes, or arbitrary native processes.
+
+The small additional scalar/passive/fair-newborn subfamily must explicitly
+assume complete marked-parent equivariance. Retain empty-parent and every
+singleton-parent incomparable-birth pair, including equal precursor sets.
+The mixed pair gives (1-a)c=a*g(r); with 0<a<1 this fixes g, while chain-root
+f(0) versus f(1) remains finite-prefix freedom. State all positivity inequalities,
+transport the complete unnormalized payload and keep newborn outcomes. Endpoint
+a=0 or a=1 statements belong to a separately labeled weak-positivity boundary;
+they are outside the strictly positive subfamily and must use the undivided
+identity. A zero total-entry mass need not mean a zero full residual map.
+
+Exit with the reviewed row theorem and precisely scoped necessary-condition
+boundary, or a corrected/rejected statement if its domain fails. No numerical
+law, higher-parent search, all-size covariant dynamics, simulator, NG-02,
+geometry/mass/GR claim, RET change or automatic successor is assigned. RI-33
+and the original review remain held. Root continues to own all index/commit/
+push operations; the active QR artifact is excluded from this coordination
+checkpoint until its own source/proof review.
