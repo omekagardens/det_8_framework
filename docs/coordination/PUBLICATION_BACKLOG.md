@@ -11,7 +11,7 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-41 normalization and height | **Active; new sources excluded from publication.** | Independently review its source-stable exact decision and any certificate. |
-| RI-40 calibration inputs | **Independently accepted; scoped publication pending.** Three reviewed files, exact isolated replay and actual table reconciliation. | Publish only the qualification bundle and coordinator records; keep RI-41 active sources excluded. |
+| RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Three reviewed files, exact isolated replay and actual table reconciliation. | Preserve the published three-file bundle; RI-41 stays independently reserved and the nominal-display recipe is next. |
 | RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** | Preserve the published note; RI-41 remains independently reserved. |
 | RI-38 extension criterion | **Independently accepted and published in verified `9ee565e`.** Conditional all-size proof and exact finite corroboration passed complete reviews and root replay. | Preserve the published two-source bundle and its evidence; review RI-39 separately. |
 | RI-37 GWOSC input qualification | **Independently accepted and published in verified `8071ee3`.** Exact pair acquired, source/evidence reviews and isolated replay passed. | Preserve the four-file qualification bundle. Qualify C02 uncertainty next; no binary data or calibration-dependent fit is part of this checkpoint. |
@@ -809,3 +809,18 @@ published RI-39 remains fixed; active RI-41 files are excluded. The next
 measurement packet freezes a bounded nominal-display recipe with the L1 CW
 annotation. No joint calibration inference, native gravity, RET advancement
 or protected-validation waiver belongs to this checkpoint.
+
+
+**RI-40 remote publication verified**
+
+Commit `79650a62f2032453fa57d9f31f8a972af17879ba`, tree
+`56857e078ea5f814a282540b463d2634b329365c`, publishes exactly the three accepted
+calibration files and three coordinator records. All staged identities matched
+the reviewed guide/source and isolated-replayed report. The 104 local links
+and five guide targets resolved; 2,031 other entry versions and the accepted
+RI-39 note remained fixed. Normal push and an independent origin/ret lookup
+returned the same full commit, leaving an empty index. Active RI-41 sources
+were excluded. This final three-record publication update changes no accepted
+science source, calibration interpretation or evidence count. RI-42's nominal
+display recipe is the next coordinator packet; native proof work continues
+on RI-41 and RET remains paused.

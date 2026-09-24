@@ -8,7 +8,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 |---|---|---|
 | RI-41 normalization and height | **Assigned after RI-39 acceptance.** Decide the fixed-prefix common/component-scale target using actual height-raising mass. | Review exact strict-domain witnesses and keep worst-row finite decisions separate from typical asymptotic geometry. |
 | RI-42 nominal strain display | **Next coordinator packet.** Freeze the processing/reference recipe and retained CW annotation before sample transformation. | Perform bounded conventional reproduction after design review; quantitative uncertainty and native prediction remain separate. |
-| RI-40 calibration inputs | **Independently accepted; scoped publication pending.** Archive/member identities, nearest-time selection, four numeric tables and pointwise uncertainty scope are reviewed; isolated replay and reconciliation pass. | Preserve the three-file bundle; freeze the nominal-display recipe next. |
+| RI-40 calibration inputs | **Independently accepted and published in verified `79650a6`.** Archive/member identities, nearest-time selection, four numeric tables and pointwise uncertainty scope are reviewed; isolated replay and reconciliation pass. | Preserve the three-file bundle; freeze the nominal-display recipe next. |
 | RI-39 history and height | **Independently accepted and published in verified `3aca9cd`.** Compact-cylinder measure construction and the conditional exponential height bound pass root and independent proof review. | Preserve the analytic note. RI-41 examines remaining normalization freedom; no universal geometry rejection. |
 | RI-38 general extension | **Independently accepted and published in verified `9ee565e`.** The analytic maximal-deletion potential proves every inherited ratio cycle consistent and supplies an all-size conditional family. Root isolated normal/optimized replay and independent reviews pass. | Preserve the accepted proof/checker. RI-39 examines history measures and the selected family's geometric regime; no native-gravity inference. |
 | RI-37 public-input qualification | **Independently accepted and published in verified `8071ee3`.** Actual bodies, source/evidence reviews, isolated replay and direct data reconciliation pass. Exact V2 pair, complete metadata/flags and source pins retained; L1 CW no-injection flag is clear throughout. | Preserve the accepted bundle; qualify applicable C02 uncertainty artifacts before calibration-dependent inference. |
@@ -28,7 +28,7 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 | RI-11–12 applied work | **RI-11 published in verified `f8339ea`:** 105 focused tests and 33 legacy checks passed in isolation after numerical/chronology and snapshot review. RI-12 exact identifiability is published; synthetic comparator remains locally accepted with RET publication prerequisites. | Measured instrument/dataset, target, tolerance and evaluation objective remain open. |
 | RI-13–15 project wholeness | **Ledger, scoped metadata and exact adapter accepted.** The [operational premise ledger](OPERATIONAL_PREMISE_LEDGER.md) includes RI-08j and the accepted conditional local-to-joint interface. The separate claim endpoint lists eighteen accepted references and retains unchanged legacy outputs. RI-15 passed two source audits and root's 36 regression cases, including normal/optimized pinned witnesses. | RI-18 now supplies one complete earlier-weight/tree orchestration; general interoperability remains separate. The ledger records its supplied premises and rank-two limit. Measured application data/objectives remain open. |
 | Recurring follow-up | Hourly thread follow-up created and active: `det-review-follow-through`. | Read current ownership and results each run; review QR handoffs and advance the next bounded item. |
-| Remote checkpoints | All-size conditional extension: `9ee565e`; native extension: `7335760`; actual GWOSC qualification: `8071ee3`. Exact timing consumer: `e2e5fcd`; native normalization note: `02a9453`; observation contract: `2216ac8`. Latest comparator contract: `c7f20c6`; readiness audit: `dcf6b67`. Conditional acquisition design: [829417d](https://github.com/omekagardens/det_8_framework/commit/829417d29a4b0c25b2c3f9562dc3d887c7f529e7). Reproduction handoff: `5e7f2f7`; observer model: `0fde8b2`; qubit model: `9f463f2`; prior status: `6f0de70`. Previous source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted identities and record scoped publication. RI-30 is accepted and its source reservation is released; no automatic successor is authorized. |
+| Remote checkpoints | Calibration qualification: `79650a6`; history/height: `3aca9cd`; all-size conditional extension: `9ee565e`; native extension: `7335760`; actual GWOSC qualification: `8071ee3`. Exact timing consumer: `e2e5fcd`; native normalization note: `02a9453`; observation contract: `2216ac8`. Latest comparator contract: `c7f20c6`; readiness audit: `dcf6b67`. Conditional acquisition design: [829417d](https://github.com/omekagardens/det_8_framework/commit/829417d29a4b0c25b2c3f9562dc3d887c7f529e7). Reproduction handoff: `5e7f2f7`; observer model: `0fde8b2`; qubit model: `9f463f2`; prior status: `6f0de70`. Previous source-bound checkpoints remain below. Normal pushes and independent remote lookups verified each. | Preserve accepted identities and record scoped publication. RI-30 is accepted and its source reservation is released; no automatic successor is authorized. |
 
 The source tree already contained extensive edits before implementation began.
 This progress record reports only the scoped review-follow-through work. No
@@ -4599,3 +4599,18 @@ L1 CW no-injection flag remains clear and must stay annotated. RI-42 next
 freezes nominal display processing/reference before sample transformation;
 precision claims still require their actual uncertainty model. RI-41 is active
 on native normalization and remains excluded from this publication scope.
+
+
+**RI-40 remote publication verified**
+
+Commit `79650a62f2032453fa57d9f31f8a972af17879ba`, tree
+`56857e078ea5f814a282540b463d2634b329365c`, publishes exactly the three accepted
+calibration files and three coordinator records. All staged identities matched
+the reviewed guide/source and isolated-replayed report. The 104 local links
+and five guide targets resolved; 2,031 other entry versions and the accepted
+RI-39 note remained fixed. Normal push and an independent origin/ret lookup
+returned the same full commit, leaving an empty index. Active RI-41 sources
+were excluded. This final three-record publication update changes no accepted
+science source, calibration interpretation or evidence count. RI-42's nominal
+display recipe is the next coordinator packet; native proof work continues
+on RI-41 and RET remains paused.
