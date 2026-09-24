@@ -7324,3 +7324,136 @@ historical results, calibration/physical premises and RET pause are preserved.
 No actual coefficient reconstruction, observed-data access or sampling has
 occurred in this increment. RI-73's two source/result reservations and RI-72's
 three-file reservation remain active; git/index operations remain central.
+
+
+**RI-72 independently accepted; RI-74 boundary-law proof assigned**
+
+Root accepts the three-file RI-72 packet after complete proof/source review,
+copied normal/-O execution and a separate retained-domain arithmetic audit.
+On the unchanged 1490-cap/798-column primary-optimal face, setting every
+critical-terminal component to zero retains the defect optimum and gives
+boundary height minimum `2982979886099966479/3173270486335488000`
+(about 0.9400332871). The canonical boundary value is about 0.9658893763;
+the unrestricted minimum is about 0.8789607159. The restricted/unrestricted
+gap equals `m_5=6650803/108900000` in this finite problem, not by a general
+identity. The complete critical mask has 347 components. A signed equality
+multiplier is required in the restricted dual. Exact feasibility, zero
+primal/dual gap and complementarity prove optimality without a new solver.
+Mechanically erasing six critical zero-beta coordinates from the old minimum
+also attains the restricted value; it differs from the returned witness,
+so the restricted minimum is nonunique. Neither vector is certified as the
+final lexicographic choice.
+
+For the hypothetical all-size alternative, an actual strict prefix defines
+its own current weights and caps. Zeroing critical zero-beta coordinates
+preserves the primary optimum; minimizing height on that compact rational
+slice and then using the existing lexicographic order defines a selector.
+The unchanged strict-mixture construction preserves conditional covariance,
+precursor-record locality and summable critical entry. Noncritical zero-beta
+components remain available, so RI-61's stronger suppression of every
+beta>=0 component does not transfer. No selector is adopted, no actual q_5
+or historical law is altered, and no long-run defect/height, balanced geometry,
+gravity or physical measurement conclusion follows from this endpoint.
+
+Root's copied checker runs took 18.459/18.252 seconds, sampled peak RSS
+127472/126528 KiB, with exit zero and no resource stop. Both emitted 3870
+bytes, SHA-256 `030b7776031c48b6b5c079b2aff5a560330ca61bb79782c42f3892b93f92c4b9`;
+the identical 1484-byte expected refusal diagnostics have SHA-256
+`350ab3783d4d1905c6ef38a9f7b126b84438cd6721fd136e17e3b1645f8419ed`.
+Seventeen new reason-specific controls, fourteen inherited RI-70 controls
+and the inherited RI-63 checks pass in both modes. A separate root audit
+imports no project Python, uses the retained canonical domain and independently
+reconstructs heights, extension counts, induced-suborder criticality, all
+1490 rows/798 columns, complete mask, restricted primal/dual and mechanical
+erasure. Its 59926 checks pass normally and with -O in 5.203/5.203 seconds,
+44496/44592 KiB, empty stderr; identical 2454-byte output SHA-256
+`0aba47dd9e5824c23639c228fbcfc2046e9890cf5a168bdacff66147459aad33`.
+This audit inherits the retained raw-domain weights; it is not a fresh raw
+history enumeration. Worker discovery and worker-side independent reviews
+in the packet remain distinct from these coordinator checks. Root used no
+optimizer. External evidence is in `det-ri72-root-5qbule7y` under the retained
+temporary root. The initial acceptance changed only opening status; the final publication-byte
+reconciliation below records the subsequent EOF-only certificate correction.
+
+RI-74 now reserves only PLANCHEREL_GRAFT.md, check.py and CERTIFICATE.json in
+`docs/track_b/native_growth_plancherel_graft_v1/` to the existing QR task.
+An independent scope review motivates a zero-allowed benchmark, rather than
+another parent-five optimization. For a labeled Ferrers order F, let b(F)
+count all isomorphisms onto all oriented Young diagrams and let e(F) count
+linear extensions. Test the proposed weight w(F)=b(F)e(F)/|F|! and individual
+labeled-ideal transition w(F+x_S)/w(F), with zero for non-Ferrers children.
+Prove normalization with full embedding multiplicities, transported-mark
+equivariance/locality, positive and zero diamond cases and the precise
+Plancherel pushforward. Then prove or reject the intrinsic ordinal-sum graft
+P=K plus F above cutoff k=6, retaining every actual row below k, using full
+birth at the cutoff and full-only fallback outside the family. The unique
+size-k ideal, deletion closure and every cutoff/off-family diamond require
+explicit proofs. Finite examples must catch the singleton-to-chain and
+fork-arm multiplicities. This proposal is a question, not an accepted theorem.
+
+The literature anchors are [Strahov's Plancherel transition and marginal
+formulas](https://arxiv.org/pdf/0706.3292), section 1.1.1, and
+[Brightwell-Luczak's order-invariant grid measure](https://arxiv.org/pdf/0901.0242),
+section 10.
+The quotient and finite-prefix graft are proposed derivations to check.
+No chronological-label selector, chosen embedding, later-layer optimizer or
+exhaustive higher-layer enumeration is authorized. If a boundary theorem is
+proved, state its exact deletion-defect consequence and distinguish any
+cited diagram limit from physical spacetime. Zero probabilities violate
+RI-38's strict-positive induction: approximation with the held prefix and
+record locality needs a separate theorem. Rowwise mixing and continuity
+alone cannot supply it. Do not adopt a replacement law or resume RET.
+
+RI-73 remains independently source-reviewed work in progress. Root's copied
+fixture-only run at source 6a321069661cb9d1815df5c234257b52c20efe11bac53c48e5c86e4d1a14c81b
+passed 75/75 gates in both modes, identical 282176-byte report SHA-256
+c12f6e38b1904ac133d778281f839b436b29f15117087b99bb28ed8e18d7e2b2.
+No admitted coefficient construction ran. Metadata-only failure-path wording
+corrections supersede that source pin and require a final fixture replay.
+The independent covariance auditor and exact-field report adapter are being
+reviewed prospectively. The checker/caller/observer, full source/runtime
+closure and explicit external destinations must be frozen before any actual
+reconstruction; actual captured-interval ingestion has its own review gate.
+RI-73's two-path reservation remains active and excluded from this native
+checkpoint. Root owns all staging, commits and remote verification. Accepted
+historical laws, custody/experimental premises and unrelated edits stay held.
+
+
+**Final source and publication-byte reconciliation**
+
+Publication whitespace checking found one extra EOF newline in the new RI-72
+certificate. Root removed that one byte and verified exact parsed-data equality;
+all mathematical fields and executable source are unchanged. Publication
+CERTIFICATE.json is 24074 bytes, SHA-256
+`31e485b31163bf1b42e7149f32e0249d160c527e85bb93d2cb083059ea6b1a76`.
+CRITICAL_HEIGHT.md now records both the original handoff identity and corrected
+publication identity; this supplements its opening acceptance-status change.
+Fresh copied normal/-O runs at these publication bytes took 18.460/18.312s,
+127424/129872 KiB, and reproduced both checker output identities above.
+The separate 59926-check audit also passed at the updated certificate pin;
+its output differs only in that provenance identity. Its normal/-O output is
+identical, SHA-256 `82e0fb95613b9cc71bd2200f3814b5fa1d2113a00d1ebb5a07111936d4775869` (2454 bytes), and all mathematical fields match
+the original independent audit exactly. No whitespace exception or numerical
+acceptance threshold was introduced.
+
+RI-73's final source review is accepted: check.py is 68018 bytes, SHA-256
+`574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887`.
+Final changes precisely distinguish prescribed work limits from completed
+counts and name row admission after observer/post-custody success. Root's
+fresh copied normal/-O fixture replay passes 75/75, with identical 282213-byte
+report SHA-256 `d2e89bde345da2b4fca8cfddb9e9a6936fc0de9b0c0f5c0de2d27ff9dc48b26c`,
+empty stderr and unchanged fifteen-file closure. It took 0.514/0.780s and
+90672/99136 KiB sampled RSS in the qualified runtime. The independent source
+reviewer passed 245 controls on the preceding scientific source and explicitly
+accepted the final metadata-only diff; no scientific algorithm/gate changed.
+Root also read and copied the independent covariance arithmetic core and its
+196 tiny checks, including 40 exact corner/probe pairs and 18 intended refusals.
+Normal/-O reports match the independent author: 727 bytes, SHA-256
+`c72cb1a9092bb62f91f85bfd298f93f2f7106b4cbcd5f3859cf70c88ee1a254a`.
+These are source/method and fabricated-input checks, not actual covariance
+qualification. The report adapter must still be reviewed, then root must
+freeze the actual caller/observer, full source/runtime closure and destinations.
+No actual coefficients, observations or samples were processed. RESULT.json
+is absent. RI-73 remains root-reserved and excluded from this checkpoint.
+RI-74 has acknowledged its bounded assignment and is actively proving the
+all-case boundary-law/graft question; no duplicate task is assigned.
