@@ -10,7 +10,7 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-51 clone/full mechanism | **Assigned after RI-49 acceptance; one new analytic note reserved.** | Review the schedule-independent counting obstruction and its precise premises. |
+| RI-51 clone/full mechanism | **Independently accepted; publication pending.** Complete proof reviews pass. | Publish the stable note; select a structural successor outside the obstruction. |
 | RI-50 NR reference qualification | **Selected; implementation/acquisition pending.** Three new paths reserved; accepted measured outputs fixed. | Qualify the public data-informed reference and freeze its limited comparison contract. |
 | RI-49 power-schedule family | **Published in verified `a075bdb5`.** Complete proof reviews pass for every fixed 0<a<1. | RI-51 reviews the general mechanism on its separate reservation. |
 | RI-42 nominal display recipe | **Design independently accepted and published in verified `95c91bf`.** One unchanged reviewed note; no numerical result. | Preserve the frozen recipe and implement RI-44. |
@@ -1344,3 +1344,55 @@ Its three new paths are reserved, with no acquired/reference result claimed yet.
 These are concurrent substantive proof and public-data directions. Completion
 of the current publication checkpoint does not complete or pause the programme.
 The explicit RET pause alone remains in force.
+
+
+**RI-51 independently accepted — changing the schedule cannot escape the mechanism**
+
+Root and a separate complete mathematical reviewer accept RI-51's analytic
+schedule-independent obstruction. Every fixed deterministic sequence
+0<eta_n<1 admits the same private-component extension with actual prior-law
+potential recomputation. No monotonicity, rate or eta limit is needed. The
+proof retains all RI-41 rows, locality, equivariance, strict normalization and
+the complete passive scalar diamonds.
+
+The mechanism has other-proper mass beta below full-birth mass q. For the
+signed count increment X=1_other-1_full, its exact conditional exponential
+moment is at most cosh(s)<=exp(s^2/2), s>=0. Tower iteration gives the one-sided
+tail exp(-t^2/[2(N-m)]); summation proves the positive excess (B_N-F_N)_+/N
+vanishes almost surely. Neither absolute imbalance convergence nor pathwise
+B_N<=F_N is claimed. Cutoffs before size five retain the explicit bounded
+initial offset rather than assuming domination in the fixed prefix.
+
+The deterministic bounds retain initial pairs, I_N<=I_m+N W_N+N B_N and
+F_N<=H_N-H_m. Exact binomial normalization and the signed expectation bound
+give a finite conditional density inequality without a fluctuation remainder.
+Consequently simultaneous sublinear height and width in probability force
+comparable density to one in probability and L1. Almost-sure antecedents give
+almost-sure density one using the separate positive-excess result. These are
+implications, not claims that every admitted schedule has those antecedents.
+
+This closes rate tuning as a route to the conjunction of sublinear height,
+sublinear width and deterministic interior comparable density for this mechanism.
+The counting lemma identifies its actual premises and does not prove arbitrary
+adaptive normalizations admissible. Escaping a premise is necessary, not
+sufficient, for a replacement. No assertion makes that conjunction necessary
+for every geometry. Native clock, metric, mass/source response and gravity
+remain open; passive conditional laws are not promoted to DET entailment.
+
+The complete 367-line note and necessary dependencies passed both coordinator
+proof reviews without mathematical corrections. No executor, simulation, table,
+optimization or historical suite ran. Only the opening adjudication word changed:
+handoff SHA-256 `3677b551576170ad868ff217917bef13ab7713cfd04f5c86596196d484c89e46`
+becomes accepted `f1d47240265f9fcb66d6ac32a0347297cc5a4377436bb2ee0c428cf915035f66`.
+The reservation is released for scoped publication. The coordinator is now
+selecting a structural successor that changes a load-bearing mechanism premise;
+no additional rate scan or completed finite table is assigned.
+
+In parallel, RI-50 acquired the official tutorial NR text outside the repository:
+HTTP 200, no redirects, 142345 bytes, SHA-256
+`ed49c3e83f90e70ac85386f183031b7de3d3d6aa78e75a7d284e5a53a5cc0b76`.
+The numeric inspector is being implemented on its reserved path; no qualification,
+filtering or overlay result is accepted yet. Original public inputs and every
+accepted scientific source remain fixed. RET remains paused.
+
+Accepted note: [RI-51 mechanism obstruction](../track_b/native_growth_clone_mechanism_v1/OBSTRUCTION.md).
