@@ -8,8 +8,8 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 |---|---|---|
 | RI-55 finite-context sensitivity | **Selected; one design path reserved.** | Specify continuation assumptions and qualification before implementation. |
 | RI-54 rectangle bottleneck | **Assigned to existing QR after RI-52 acceptance.** | Prove the two-step inequality and decide the necessary augmented first-layer gate. |
-| RI-53 finite-support comparison | **Independently accepted; scoped publication pending.** Actual numerical qualification, processing, export audit and visual inspection passed. | Preserve the eight-file result; physical continuation, precise V2 timing and native forward map remain open. |
-| RI-52 Ferrers admission gate | **Independently accepted; scoped publication pending.** Exact boundary witness passes all marked rows; strict infimum zero. | Review all-size compatibility separately; no shape or gravity theorem follows. |
+| RI-53 finite-support comparison | **Published in verified `1993e24`.** Actual numerical qualification, processing, export audit and visual inspection passed. | Preserve the eight-file result; physical continuation, precise V2 timing and native forward map remain open. |
+| RI-52 Ferrers admission gate | **Published in verified `1993e24`.** Exact boundary witness passes all marked rows; strict infimum zero. | Review all-size compatibility separately; no shape or gravity theorem follows. |
 | RI-51 clone/full mechanism | **Published in verified `ee20ad6`.** Complete proof reviews pass. | RI-52 is assigned the intrinsic corner-family admission gate. |
 | RI-50 NR reference qualification | **Published in verified `8bccceb`.** Actual input and all-row audit pass; fixed comparison contract. | RI-53 supplies the separately qualified finite-support comparison. |
 | RI-49 power-schedule family | **Published in verified `a075bdb5`.** Complete proof reviews pass for every fixed 0<a<1. | RI-51 reviews the general mechanism on its separate reservation. |
@@ -5679,3 +5679,26 @@ and native strain forward law remain separately missing. The existing public
 data and simulation-first programme continues without waiting for those
 premises; native RI-54 is active in parallel. No new acquisition or fit is
 required for this design step, and RET remains paused.
+
+
+**RI-52/53 publication verified; successor lanes remain open**
+
+Commit `1993e248953abe5a20ca4804ccc717d7e845e769`, tree
+`9203994e6e3ed6be439dbcf3cd0baa125064a9c3`, publishes exactly the three accepted RI-52
+files, eight accepted RI-53 files and three coordinator records. Preflight held
+2064 other entry file versions, checked 146 local links, all linked source
+prerequisites and the 25-file published numerical/display dependency closure.
+The staged executables match the isolated executed copies; generated reports
+and PNG match both actual modes. The only RI-52 note delta is its adjudication
+status. Original review, pinned history, unrelated baseline, protected material
+and RET pause remain preserved. No active successor source is included.
+Normal push and a separate origin/ret lookup returned the same full commit;
+the index was empty after verification.
+
+RI-54 is assigned to the existing QR task on its three reserved new paths;
+its rectangle bottleneck and necessary augmented gate still require independent
+adjudication. RI-55 is selected for the coordinator's one-file finite-context
+sensitivity design. Neither the finite Ferrers gate nor the illustrative NR
+comparison completes the native programme. Exact all-size geometry, informative
+quantum coupling, matter/source response, clocks, gravity and a native measured
+forward map remain distinct proof obligations.
