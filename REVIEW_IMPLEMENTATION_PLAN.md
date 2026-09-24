@@ -57,7 +57,7 @@ Active file reservations, updated 24 September UTC:
 | RI-57 context operator | Source-stable failed qualification packet; reservation released to root publication. No sensitivity output or actual read. |
 | RI-60 context error repair | Six accepted v2 files published in verified `32824c3`; reservation released. |
 | RI-62 observed context | One-file design published in verified `052154c`; reservation released. |
-| RI-64 observed-context consumer | Seven-file packet independently accepted and source-quiet; reservation released for root publication. |
+| RI-64 observed-context consumer | Seven-file packet published in independently verified `d44d1af`; reservation released. |
 | RI-67 conditional noise design | Only `docs/experiments/gwosc_context_noise_v1/DESIGN.md`; prospective proof and synthetic qualification contract, no actual-data inference. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
 | RI-53 NR comparison | The eight-file bundle is published in verified `1993e24` and source-quiet; reservation released. |
@@ -109,7 +109,7 @@ The IDs below identify review work, not new QR-05 or scientific acceptance gates
 | ID | Review finding / deliverable | Owner | State and completion criterion |
 |---|---|---|---|
 | RI-67 | Conditional context-noise design | Coordinator | **Assigned; one new path reserved.** Shared-sample covariance, Gaussian support theorem and prospective synthetic qualification. |
-| RI-64 | Observed-context consumer | Coordinator | **Independently accepted; scoped publication pending.** Qualification, actual mode replays and independent raw-sample/export audits pass. |
+| RI-64 | Observed-context consumer | Coordinator | **Published in independently verified `d44d1af`.** Qualification, actual mode replays and independent raw-sample/export audits pass. |
 | RI-66 | Intrinsic terminal-cost factorization | QR; coordinator review | **Assigned; three new paths reserved.** Prove/refute the terminal-order cost and raising-fraction identities with full marked-history accounting. |
 | RI-65 | Actual next-layer residual re-entry | QR; coordinator review | **Published in verified `bd0031a`.** Positive finite residual and summable zero-defect sector; positive-defect drift remains open. |
 | RI-63 | First-free expected-cost decision | QR; coordinator review | **Published in independently verified `7ccba1c`.** Exact optimum, canonical tie-break and finite strict-law replay; no asymptotic claim. |
@@ -3718,3 +3718,25 @@ delta with all frozen/run/audit evidence and independently checked twelve
 summary/index calculations. Only opening/closing administrative acceptance
 wording changed after that review. All seven accepted paths are source-quiet
 for scoped publication; concurrent RI-66 and RI-67 reservations stay active.
+
+
+**RI-64 observed-context checkpoint published and remote-verified**
+
+Commit `d44d1af3a87e03f4b6643d9cc03715701c979e23`, tree
+`0a794c91b1bd58f36ceb8074d7866a50d8a1a325`, publishes exactly seven
+accepted RI-64 source/documentation/receipt/result files and three coordinator
+records. Normal push succeeded, and a separate origin/ret lookup matched the
+full commit with an empty index. Staged preflight checked all ten exact paths,
+twenty published prerequisites/status-change dependencies, 134 local links and
+2101 held entry versions. The three executed Python sources and three accepted
+scientific receipt/result files retain their qualified/audited byte identities.
+Final IMPLEMENTATION.md is 44764 bytes, SHA-256
+`b510535efa194b1d5d29d088804b466825d13c35bfe1c90afe25cb9ce3f9e9dd`.
+The independent reviewer also confirmed its opening/closing acceptance-only
+change. RI-64 is source-quiet and its reservation is released.
+
+The programme remains active. QR owns RI-66's terminal-cost factorization proof;
+RI-67's one-file conditional-noise/synthetic-qualification design is being
+authored and independently reviewed. Neither active packet is staged. Native
+positive-defect drift, quantitative geometry/gravity/observation maps, and
+actual-data noise/calibration prerequisites remain open; RET remains paused.

@@ -11,7 +11,7 @@ with unrelated changes to make an import succeed.
 | Lane | Publication state | Next action |
 |---|---|---|
 | RI-67 conditional noise design | **Assigned; one prospective design reserved.** | Derive shared-input covariance and freeze synthetic qualification; no empirical inference. |
-| RI-64 observed-context consumer | **Independently accepted; scoped publication pending.** | Publish seven reviewed source/result paths with required dependencies. |
+| RI-64 observed-context consumer | **Published in independently verified `d44d1af`.** | Preserve fixed observed result; RI-67 supplies the next conditional-noise design. |
 | RI-62 recorded H1/L1 context | **Design published in independently verified `052154c`.** | Preserve the accepted design; RI-64 implements it. |
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 qualification and eight actual rows passed.** | Preserve the six reproducible files; RI-62 designs the separate observed-context comparison. |
 | RI-57 selected-row sensitivity | **Failed qualification preserved in verified `995ed03`: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
@@ -2778,3 +2778,25 @@ delta with all frozen/run/audit evidence and independently checked twelve
 summary/index calculations. Only opening/closing administrative acceptance
 wording changed after that review. All seven accepted paths are source-quiet
 for scoped publication; concurrent RI-66 and RI-67 reservations stay active.
+
+
+**RI-64 observed-context checkpoint published and remote-verified**
+
+Commit `d44d1af3a87e03f4b6643d9cc03715701c979e23`, tree
+`0a794c91b1bd58f36ceb8074d7866a50d8a1a325`, publishes exactly seven
+accepted RI-64 source/documentation/receipt/result files and three coordinator
+records. Normal push succeeded, and a separate origin/ret lookup matched the
+full commit with an empty index. Staged preflight checked all ten exact paths,
+twenty published prerequisites/status-change dependencies, 134 local links and
+2101 held entry versions. The three executed Python sources and three accepted
+scientific receipt/result files retain their qualified/audited byte identities.
+Final IMPLEMENTATION.md is 44764 bytes, SHA-256
+`b510535efa194b1d5d29d088804b466825d13c35bfe1c90afe25cb9ce3f9e9dd`.
+The independent reviewer also confirmed its opening/closing acceptance-only
+change. RI-64 is source-quiet and its reservation is released.
+
+The programme remains active. QR owns RI-66's terminal-cost factorization proof;
+RI-67's one-file conditional-noise/synthetic-qualification design is being
+authored and independently reviewed. Neither active packet is staged. Native
+positive-defect drift, quantitative geometry/gravity/observation maps, and
+actual-data noise/calibration prerequisites remain open; RET remains paused.
