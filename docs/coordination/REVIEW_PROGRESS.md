@@ -6,7 +6,9 @@ reservations, and [QR_HANDOFF.md](QR_HANDOFF.md) for the QR owner's current work
 
 | Item | Current evidence | Next action |
 |---|---|---|
-| RI-36 native extension | **Independently accepted; publication next.** Every strictly positive RI-34 prefix extends through four births, preserving possible record feedback. Complete analytic reviews and root isolated normal/optimized replay passed. | Review the new source-stable proof and any exact checker; then choose the substantive successor from its result. Native research must not remain idle solely because a prior packet was completed. |
+| RI-38 general extension | **QR active.** Investigate the arbitrary-size one-level extension criterion and whether inherited premises force ratio-cycle consistency. | Independently review the next source-stable result; no all-size existence or obstruction is presumed. |
+| RI-37 public-input qualification | **Independently accepted; publication next.** Actual bodies, source/evidence reviews, isolated replay and direct data reconciliation pass. Exact V2 pair, complete metadata/flags and source pins retained; L1 CW no-injection flag is clear throughout. | Complete scoped publication, then qualify applicable C02 uncertainty artifacts before calibration-dependent inference. |
+| RI-36 native extension | **Independently accepted and published in verified `7335760`.** Every strictly positive RI-34 prefix extends through four births, preserving possible record feedback. Complete analytic reviews and root isolated normal/optimized replay passed. | Review the new source-stable proof and any exact checker; then choose the substantive successor from its result. Native research must not remain idle solely because a prior packet was completed. |
 | RI-35 exact timing consumer | **Independently accepted and published in verified `e2e5fcd`.** Four standalone files passed complete source review, 43 root tests per mode and a separate 128-case exact projection audit. Seven exports match between modes; twelve exported witnesses satisfy raw observations. | Preserve the [implementation](../experiments/exact_timing_v1/IMPLEMENTATION.md) and RI-33 contract. Public-data qualification is the next independent measurement packet; uncertain clocks and native dynamics remain separate. |
 | RI-29 RET readiness | **Read-only audit accepted and published in verified `dcf6b67`.** Two coordinator reviews and a concordant RET-owner handoff confirm the missing reader/evaluator bridge and separate comparator source-preview dependency. | Preserve [the bounded audit](RET_REENTRY_AUDIT.md). Preserve the owner's explicit RET pause; no code, banks or historical suites were executed. |
 | RI-30 comparator precision | **Independently accepted and published in verified `c7f20c6`.** Four standalone files passed full proof/source reviews, 48 isolated tests per mode and a separate 400-case exact projection audit. | Preserve the [target contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its four source identities. Reservation released; measured benefit remains open. |
@@ -4268,3 +4270,80 @@ ratios, instead of indefinite finite-size enumeration. RI-38 assigns that
 criterion and asks whether inherited premises force every cycle identity.
 A source-stable handoff will again receive independent adjudication; no
 all-size, history-measure or physical conclusion is assumed in advance.
+
+
+**RI-36 remote publication verified; RI-38 active**
+
+Commit `73357600cda3f47b3909499dc02d85c6f28428e5`, tree
+`0490423434d8a106abedf4173cbfd600b52547e0`, publishes only the reviewed proof/
+checker and three coordinator records. All staged hashes matched acceptance;
+the note's two status phrases were the only change from its reviewed bytes.
+All 101 local links and five proof dependencies resolved; 2,023 other entry
+versions remained unchanged. Normal push and an independent origin/ret lookup
+confirmed the same full commit; the index was empty. The active RI-37 bundle
+was excluded. QR is confirmed active on RI-38, not left awaiting another user
+instruction after predecessor acceptance.
+
+**RI-37 actual acquisition and independent reproduction**
+
+The acquired pair is exactly the public V2/C02 candidate selected in RI-33:
+H-H1_LOSC_4_V2-1126259446-32.hdf5 and L-L1_LOSC_4_V2-1126259446-32.hdf5.
+Acquisition/response URLs, UTC retrieval times, byte counts, publisher MD5 and
+local SHA-256 are documented in the new qualification guide. The independently
+retrieved 3352-byte checksum manifest matches both selected entries. The bodies
+and temporary tools stayed outside the repository; no protected data, RET
+bank, project environment or accepted source was changed.
+
+Root directly inspected HDF5 metadata, attributes, raw masks and sample
+finite/missing status before the inspector was authored. Both contain the
+expected 131072 float64 samples over the declared implicit 4096 Hz grid and
+32 aligned one-second DQ/injection masks. Both have zero NaNs/infinities and
+DQ=127 for every second. H1 injection masks are 31; L1 masks are 23, with
+NO_CW_HW_INJ clear throughout [1126259446,1126259478). All 24 named bit channels
+across the pair retain both set and clear intervals. A cleared no-injection
+flag is not missing data, and no science-specific veto is selected here.
+Literal strain Yunits is empty; dimensionless strain/C02 are external publisher
+interpretations. Consistent headers do not independently calibrate clock timing.
+
+The new inspector was independently authored. Root read the full source,
+copied it into an isolated candidate and ran it with `-I -B`, then `-O`, using
+an external Python 3.11.6 environment with h5py 3.12.1, NumPy 2.1.3 and HDF5
+1.12.2. Both exit zero and produce byte-identical 31096-byte JSON at SHA-256
+`a734d2f73ed08749090a160f88e5a034077deffcfb4f8bd9abc4cc1c9ccbbe80`.
+That exact output becomes INPUT_REPORT.json. A separate root audit reread the
+actual binary bodies and reconciled metadata, raw masks, every set/clear
+interval, all 64 DATA/finite rows, all 24 flag channels and exact final sample.
+The report preserves the L1 CW flag warning and imposes no hidden exclusion.
+
+Six independent root CLI checks (three cases in both modes) refuse missing,
+detector-swapped and same-size-corrupted inputs with exit 1 and empty stdout.
+The author's ten separate refusal runs additionally covered truncated and
+oversized copies; those author checks are not added to root's run count.
+All originals retained their acquired SHA-256 values. No test outputs, temporary
+dependencies or binary data enter the repository.
+
+Four-file publication identities:
+
+| File under `docs/experiments/gwosc_input_qualification_v1/` | SHA-256 |
+|---|---|
+| `QUALIFICATION.md` | `02a99c288d8dbd5be2321f5f947d97c0fe33f1db004146830803b5a6351242f8` |
+| `inspect_inputs.py` | `bdafb9c694fc9f33071072f1a2fc027bdb85e9262245ad3f9e29f860935d142a` |
+| `INPUT_REPORT.json` | `a734d2f73ed08749090a160f88e5a034077deffcfb4f8bd9abc4cc1c9ccbbe80` |
+| `requirements.txt` | `d620e6f33b9fedd517072fd58eb8ee36c489edb96f4f57b2f79101d3e68027c4` |
+
+An independent documentation/evidence reviewer accepted the guide/report/pins
+against captured acquisition/schema evidence and the primary release notes;
+that review did not execute or independently inspect the binary bodies.
+Remaining calibration uncertainty artifacts, epoch applicability, interpolation
+and correlations are explicitly unqualified. No plot, filter, waveform fit,
+arrival lag, noise estimate, detection claim or native-gravity comparison was
+produced. The next measurement packet must qualify those calibration inputs
+and freeze processing/CW-injection treatment before the corresponding inference.
+RI-38 remains a distinct active native proof lane; RET's pause is unchanged.
+
+A second independent reviewer read the complete inspector and matched it to
+the fixed-release schema/retrieval evidence, accepting its same-byte hash-first
+parsing, grid/flag/missingness logic and claim limits with no blockers. That
+review was read-only and made no execution claim. Root accepts the complete
+four-file RI-37 bundle; its author reservation is released. Publication is
+scoped to those four files and the three coordinator records.

@@ -1,6 +1,6 @@
 **DET independent-review implementation and QR coordination**
 
-Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's four-birth extension theorem is independently accepted; its publication is next. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. This coordinator continues scoped review, commits and pushes.**
+Started 13 September 2026; resumed 23 September. **Active coordination program. RI-25/26 models, RI-27 reproduction and RI-28 conditional acquisition design are published. RI-29 records the independently reviewed RET readiness handoff: the reader-to-evaluator bridge is missing, source-preview publication is distinct from G2, and the RET owner's explicit implementation pause remains active. RI-30 is independently accepted: one standalone comparator target-precision/model-change contract, with 48 tests per mode and a separate 400-case exact projection audit. It is published in independently verified `c7f20c6`; its four-file reservation is released. RI-31 now plans native geometry, gravity and measurements, prioritizing simulations and existing public data. Its independently reviewed plan is published in verified `40b0329`; cycle 1 has two bounded results: RI-32 independently rejects its first candidate family and is published in verified `45e3f76`, and RI-33's observation-channel/public-data design is published in verified `2216ac8`. RI-34's bounded strict-local normalization theorem and finite-prefix covariance classification are independently accepted and published in verified `02a9453`; RI-36's positive four-birth extension is independently accepted and published in verified `7335760`; QR actively investigates RI-38's general extension criterion. RI-35 implements the accepted exact timing consumer; independent source review, 43 tests per mode and a separate 128-case projection audit passed. Its four-file bundle is published in independently verified `e2e5fcd`. This coordinator continues scoped review, commits and pushes.**
 
 This is the execution and coordination record for the user's instruction to put
 the [independent review](indep%20ndent_review.md) into practice and follow through
@@ -51,7 +51,7 @@ Active file reservations, updated 24 September UTC:
 | Owner | Reserved files |
 |---|---|
 | QR task | RI-36 is independently accepted and its two-file reservation is released. RI-38 now reserves only new `docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md` and optional `check.py` there. Preserve all accepted sources, including RI-34/36; root owns git/index and final adjudication. |
-| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted, published and source-quiet; reservations are released. Root reserves these three coordinator records plus RI-37's new `docs/experiments/gwosc_input_qualification_v1/QUALIFICATION.md`, `inspect_inputs.py`, `INPUT_REPORT.json` and `requirements.txt`. Acquire only the two preselected public V2 files into external scratch storage; no repository binary data, fitting or RET work. RI-33 CONTRACT.md stays fixed. |
+| Coordinator directly | This plan, progress and publication backlog; scoped git/index operations. RI-28 proof/design and data note are published and source-quiet. Preserve accepted models, reproduction companions, inventories, QR summaries, application plan and unrelated baseline. RI-30 is published and source-quiet; RI-31's plan is held unchanged. RI-33 is published and source-quiet. RI-32 is published and source-quiet. RI-34 is published and source-quiet; RI-35's four files in `docs/experiments/exact_timing_v1/` are independently accepted, published and source-quiet; reservations are released. Root reserves these three coordinator records and the scoped publication of RI-37's four-file `docs/experiments/gwosc_input_qualification_v1/` bundle. The two preselected public V2 files are acquired outside the repository; hashes, schema, sample validity and every flag are inspected. No fitting or RET work. RI-33 CONTRACT.md stays fixed. |
 
 The documentation, pair-kernel, certificate and research-runner implementers
 have completed their handoffs and released their source reservations. The
@@ -1303,3 +1303,36 @@ finite exact checks as corroboration or explicit counterexamples. Preserve
 all accepted notes and RI-37's parallel files. Hand off source-stable sources,
 proofs, actual checks, limitations and the next evidence-based recommendation
 for root adjudication. Root continues the wider programme afterward.
+
+
+RI-36 publication is verified at `73357600cda3f47b3909499dc02d85c6f28428e5`,
+tree `0490423434d8a106abedf4173cbfd600b52547e0`. Exactly two reviewed proof/
+checker files and three coordinator records were committed; all 101 local
+links, five note dependencies and 2,023 other entry versions passed preflight.
+The normal push and independent origin/ret lookup agreed, with an empty index.
+RI-37's then-active files were excluded. QR is active on the assigned RI-38
+structural extension question; no all-size result is claimed.
+
+**RI-37 inspected public inputs — review and publication**
+
+The exact two selected H1/L1 V2 HDF5 bodies and the publisher checksum manifest
+were acquired over HTTPS into external scratch storage. Published MD5 entries
+match both bodies; local SHA-256 pins, actual headers, grids and complete flags
+are retained in the new qualification bundle. Both files have 131072 finite
+samples and DQ=127 throughout. H1 injection masks are 31; L1 masks are 23,
+so the L1 continuous-wave no-injection flag is clear throughout all 32 seconds.
+There is no missing-data exclusion, but the pair is not wholly injection-free.
+
+The fixed-file inspector verifies both byte snapshots before HDF5 parsing,
+retains all set/clear flag intervals and distinguishes literal metadata from
+external calibration interpretation. Root's isolated normal/optimized outputs
+are identical; direct independent HDF5 reconciliation covers both files, all
+64 per-second DATA rows and all 24 flag channels. Six root refusal runs reject
+missing, detector-swapped and same-size-corrupted inputs without producing a
+report. No waveform statistic, filter, fit or timing/gravity inference is made.
+
+The next measurement step is to qualify applicable H1/L1 C02 uncertainty
+artifacts and their epoch/frequency/correlation interpretation, then freeze a
+conventional reproduction recipe including treatment of the L1 CW flag.
+The unqualified calibration uncertainty is an actual limit on precision
+claims, not a reason to stop native proof work. RET remains separately paused.
