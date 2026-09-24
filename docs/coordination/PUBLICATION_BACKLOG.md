@@ -12,14 +12,14 @@ with unrelated changes to make an import succeed.
 |---|---|---|
 | RI-73 operator covariance implementation | **Assigned; two new paths reserved.** | Source review and fixtures before separately frozen coefficient reconstruction. |
 | RI-72 critical-suppression height | **Assigned; three new paths reserved.** | One exact minimum on the critical-free primary-optimal slice. |
-| RI-71 operator covariance design | **Independently accepted; publication pending.** | Publish the design; RI-73 implements unchanged gates. |
+| RI-71 operator covariance design | **Published in independently verified `ebfd0ec`.** | Preserve the design; RI-73 implements unchanged gates. |
 | RI-68 synthetic noise qualification | **Published in independently verified `4280198`.** | Preserve the frozen result; RI-71 supplies the next integration design. |
 | RI-67 conditional noise design | **Published in independently verified `bee0131`.** | Preserve conditional theorem and frozen protocol; RI-68 implements synthetic qualification. |
 | RI-64 observed-context consumer | **Published in independently verified `d44d1af`.** | Preserve fixed observed result; RI-67 supplies the next conditional-noise design. |
 | RI-62 recorded H1/L1 context | **Design published in independently verified `052154c`.** | Preserve the accepted design; RI-64 implements it. |
 | RI-60 context error repair | **Published in independently verified `32824c3`: 196/196 qualification and eight actual rows passed.** | Preserve the six reproducible files; RI-62 designs the separate observed-context comparison. |
 | RI-57 selected-row sensitivity | **Failed qualification preserved in verified `995ed03`: 187/196 passed, 9 failed.** | Preserve v1 and its failed receipt; no actual sensitivity read. |
-| RI-70 height tradeoff | **Independently accepted; publication pending.** | Publish exact endpoints; RI-72 tests critical suppression. |
+| RI-70 height tradeoff | **Published in independently verified `ebfd0ec`.** | Preserve exact endpoints; RI-72 tests critical suppression. |
 | RI-69 full-birth drift | **Published in independently verified `4280198`.** | Preserve exact identities and near-chain limitation; RI-70 examines the fixed optimal face. |
 | RI-66 terminal-cost factorization | **Published in independently verified `d10b045`.** | Preserve conditional all-size theorem and hook obstruction; RI-69 addresses full-birth drift. |
 | RI-65 actual residual re-entry | **Published in verified `bd0031a`.** | Preserve the finite obstruction and zero-defect reduction; RI-66 addresses terminal cost. |
@@ -3246,8 +3246,9 @@ identities are held; only opening acceptance wording changed.
 
 RI-72 reserves only CRITICAL_HEIGHT.md,check.py,CERTIFICATE.json in
 `docs/track_b/native_growth_critical_height_v1/` to the QR task. On the same
-RI-63 primary-optimal face, require alpha_c=0 exactly when its proper terminal
+RI-63 primary-optimal face, require alpha_c=0 for every component whose proper terminal
 is critical (at least two maxima and every maximal deletion lowers defect).
+Noncritical coordinates may still be zero; no positivity is imposed on them.
 Recompute that classification; do not prohibit all zero-beta coordinates.
 Certify the minimum H=1+kappa.alpha on this slice with an original-constraint
 rational primal/dual certificate and compare the unrestricted minimum,
@@ -3279,3 +3280,53 @@ implementation is authorized. If a fixed gate fails, retain the failure;
 do not adjust thresholds. Native and measurement lanes remain active in
 parallel. Remote publication of RI-70/71 is the next root checkpoint, not
 completion of the overall geometry/gravity/measurement programme.
+
+
+**RI-70 and RI-71 published; substantive successors remain active**
+
+Commit `ebfd0ec719316f86cb815aa58e4d30fd85b94dad`, tree
+`3f75106bce16ca8be526ff9c7fa686520d243d22`, publishes exactly the three
+accepted RI-70 files, one accepted RI-71 design and three coordinator records.
+Normal push succeeded; a separate origin/ret lookup matched the full commit,
+and the index was empty. Staged preflight held 2120 other entry versions,
+bound 20 published dependencies and checked 142 local links. No active
+RI-72/73 source, unrelated edit or protected historical result was staged.
+
+Accepted RI-70 HEIGHT_TRADEOFF.md is 16098 bytes, SHA-256
+`6ea899a24cacb7ded91d8c1c18e78f2486a6a47a72075d6d3211109059faefac`;
+check.py is 24804 bytes, SHA-256
+`af145a06b8028533d85be5853a4e840735a2ccf2e673846ad5465cb58b793995`;
+CERTIFICATE.json is 16123 bytes, SHA-256
+`de716ec1e07274ebdb431b6d7e2ccd37ba21af67268d208923db76d95c51c8dd`.
+Accepted RI-71 DESIGN.md is 29545 bytes, SHA-256
+`08e6e99d0f884e26b9b4a2422789431d6d6acf077dbb751dd73144b5c6409cd6`.
+Only the two documents' opening acceptance statuses differ from reviewed
+handoffs; executable source and scientific certificates are unchanged.
+
+RI-72 is dispatched to the existing QR task. Its new equality constraints
+set every critical-terminal component to zero; noncritical coordinates may
+still be zero and receive no extra positivity requirement. Independent
+prospective review identifies two further boundaries. Critical suppression
+may survive while RI-61's stronger suppression of every beta>=0 component
+does not: noncritical zero-beta coordinates remain available. A finite
+endpoint certificate proves the restricted minimum and an attaining vector,
+not that vector's final lexicographic selection. The hypothetical all-size
+selector may be proved to exist without computing its exact first-free
+selected coordinates; its first-free height can equal the certified value.
+No extra lexicographic optimizer ladder is assigned. These distinctions
+have been sent to QR before its final handoff.
+
+RI-73 implementation and independent source review are active. Its fixtures
+must avoid admitted coefficient construction before the execution freeze.
+A prospective optional programmatic observer may export immutable exact
+coefficient intervals for an independent entrywise Gram audit after all
+sixteen/eight-summary reconciliations. Root has authorized that interface
+for review, not actual execution. The observer/harness source, canonical
+encoding, external inventory and snapshot ceiling must be frozen; capture
+runs inside the same time/memory envelope, returns no scientific alteration,
+and all row/source identities are rechecked afterward. Result hashes alone
+are insufficient evidence for a later independent entrywise audit. Accepted
+DESIGN.md and numerical thresholds stay fixed. No observations, sampler,
+calibration acceptance or RET implementation is involved. Native asymptotics,
+balanced geometry, gravity/source/observer maps and physical measurement
+qualification remain open; this programme is not complete.
