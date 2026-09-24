@@ -7,13 +7,15 @@ the temporary external runtime/helpers/receipts. Historical execution reports
 below remain historical reports; missing temporary artifacts are not presently
 available custody evidence. Committed sources and results remain intact.
 Fresh recovery evidence is retained outside the repository under
-`/Volumes/AI_DATA/development/det-review-evidence/`. Actual RI-73 coefficient
-execution remains unstarted and RESULT.json absent. The exact runtime fingerprint, 75/75 fixtures and all eleven recorded
-helper-source pins are recovered. Durable path adaptations and their checks,
-then a fresh execution freeze, remain before actual execution.
-No gate is relaxed.
-RI-74 passed fresh durable normal/optimized replay and is independently
-accepted. RI-75 strict approximation is assigned to the existing QR task.
+`/Volumes/AI_DATA/development/det-review-evidence/`. The exact runtime
+fingerprint, 75/75 fixtures and all eleven recorded helper-source pins are
+recovered. Reviewed durable path adaptations and a fresh execution freeze
+preceded actual execution; no gate is relaxed.
+RI-74 is published in verified `314d5e8`; RI-75 strict approximation is
+independently accepted. RI-76 long-run defect and height is assigned to QR.
+RI-73's actual normal run passed all 92 producer gates and custody checks;
+optimized replay is running. Independent entrywise algebra remains pending,
+and RESULT.json remains absent. The numerical result is not yet accepted.
 The native programme continues, and RET remains paused.
 
 
@@ -27,9 +29,10 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-75 strict approximation | **Assigned; three new paths reserved.** | Complete-graph support lemma, compatible positive construction and finite-history convergence; no asymptotic transfer. |
+| RI-76 approximation asymptotics | **Assigned; one new note reserved.** | Prove long-run defect decay and positive-probability height obstruction together. |
+| RI-75 strict approximation | **Independently accepted; source-stable for publication.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 examines the distinct long-run question. |
 | RI-74 Plancherel boundary graft | **Published in independently verified `314d5e8`.** | Preserve the conditional zero-allowed theorem; RI-75 investigates strict approximation. |
-| RI-73 operator covariance implementation | **Reviewed source published in independently verified `6e58490`.** | Actual result absent; restore qualified runtime and reviewed external execution tools, then freeze before reconstruction. |
+| RI-73 operator covariance implementation | **Reviewed source published in independently verified `6e58490`.** | Actual normal passes producer/custody checks; complete frozen optimized replay and independent entrywise audit before accepting and publishing a result. |
 | RI-72 critical-suppression height | **Published in independently verified `f18b5d9`.** | Preserve accepted exact minimum; RI-74 examines the boundary graft. |
 | RI-71 operator covariance design | **Published in independently verified `ebfd0ec`.** | Preserve the design; RI-73 implements unchanged gates. |
 | RI-68 synthetic noise qualification | **Published in independently verified `4280198`.** | Preserve the frozen result; RI-71 supplies the next integration design. |
@@ -3697,3 +3700,100 @@ old prospective manifest still refuses execution. Scientific algorithms,
 fixtures, thresholds and resource bounds remain fixed. Source recovery is
 complete; actual covariance qualification and physical measurement claims
 remain open while QR pursues RI-75.
+
+
+**RI-75 independently accepted; RI-76 long-run defect and shape question assigned**
+
+RI-75 constructs, for each rational 0<epsilon<=1, a globally compatible
+strict-positive conditional law that exactly preserves every actual marked
+row below parent size six and approaches RI-74 uniformly on each finite
+layer. The complete raw-edge graph is retained, including zero target edges
+and distinct marked components. The positive-factor lemma keeps every active
+boundary denominator in a nonempty Ferrers suffix above the cutoff.
+Psi(Z)=w(Z-y)u_i^G proves component constancy directly. Complete-layer scales
+lambda=(1-t)/max(1,B), tau=t/[2(1+M)] with t=epsilon/(n+1)^2 give positive
+proper rows and full complement>t/2. They are fixed at construction time,
+not recomputed from current marks. Inactive potentials need not converge:
+their total floor contribution is bounded by t/2. The explicit finite-depth
+marked-history TV bound follows by coupling, with the actual six-event prefix
+held exactly. This is a conditional proof, not adopted native dynamics or
+an informative quantum/gravity derivation.
+
+Root read the full final proof and checker, and a separate coordinator
+proof review reconciled the final note. Fresh copied normal/-O runs passed
+in 0.260/0.258s, exit zero/no 120s/512-MiB stop, with unchanged machine bytes.
+Both stdout files are 5780 bytes, SHA-256
+`c4daa669735d44356f77115b7139add810ea962513cedef062e603af3168d04f`;
+both progress stderr files are 132 bytes, SHA-256
+`394c56bb3222aa0f46021a83bf983d94aa0bd43df2514cc2256b9ce7116f4fd9`.
+External RSS sampling is sparse for these short runs; it is not a true peak
+measurement. The checker independently enforces peak-RSS checkpoints. Root
+verified 41 worker external source/receipt identities and eight published
+proof-context pins. Fresh root evidence is retained at
+`/Volumes/AI_DATA/development/det-review-evidence/ri75-root-20260924/`.
+
+The machine certificate is a cutoff-zero toy, parents<=3/terminals<=4,
+with epsilons 1,1/2,1/4. Its complete structural graphs retain 436 edges;
+each epsilon checks 66 new marked rows/352 labeled slots, 1198 locality and
+1980 equivariance comparisons, and scalar/full-payload diamonds. All 640
+marked depth-four histories are positive under the approximant versus 80
+under the target. Thirteen refusals and six explicitly synthetic algebraic
+rows pass. The toy does not numerically test actual prefix feedback or the
+actual parent-six layer. The separate worker arithmetic checks 1188 witness
+comparisons; its five-vertex full-leak check is weight-only, not an enlarged
+probability domain. Its first macOS resource-limit setup failure is honestly
+retained as a retrospective record; fresh successful receipts are separate.
+
+RI-75's reservation is released to root publication. RI-76 reserves only
+`docs/track_b/native_growth_approximation_asymptotics_v1/ASYMPTOTICS.md` to the
+existing QR task. New independently reviewed coordinator reasoning motivates
+proving fixed-epsilon defect decay and its height obstruction together.
+Off-family states cannot return under any one-birth transition. Every proper
+component there is inactive, so subsequent proper-birth probability<t_n/2;
+their expected total count is <epsilon/14. On no exit, delta<=6. On finite
+exit, deleting the exit prefix and later proper births leaves a chain,
+yielding a finite random defect bound and suggesting a.s./finite-Lp decay
+of delta/N without assuming an integrable exit time. This successor must
+also prove eventual height/N=1 on exit and the positive exit probability
+0<alpha_epsilon<epsilon/98 already at size seven, hence failure of sublinear
+height in probability. Do not claim certain exit, uniform rates, an L-infinity
+limit or balanced geometry. These conclusions are the separately assigned
+question, not results of RI-75's finite-depth argument or bounded toy.
+
+**RI-73 concrete durable execution frozen and started**
+
+Root and an independent reviewer accepted the recovered prospective execution
+preparation and its complete 87-entry closure. Ten author normal/-O fabricated
+runs pass (12 path, 38 capture, 196 core, 109 adapter, 102 caller checks,
+3996 adapter mutations and 11 mocked caller flows); independent replay adds
+37 custody/environment controls. Root separately replayed the 12 path and
+102 caller controls in both modes with identical outputs and unchanged inputs.
+The caller, capture, supervisor, independent arithmetic core and adapter retain
+their reviewed bytes. The manifest changes only eight absolute paths; a
+separate durable launch supplement explicitly fixes TMPDIR to the external
+execution root, preserving the caller's existing containment requirement.
+Neither a source predicate nor a scientific gate was weakened.
+
+Root froze a separate authorized manifest (13179 bytes, SHA-256
+`94221a65ad78da4721d4c8f06cf776b4ee4b2f6b64d7dc4ca79b1869d4534eef`),
+changing only the reviewed prospective status. ROOT_EXECUTION_FREEZE.json is
+31637 bytes, SHA-256
+`645acc40fb7e2ea177d4420aef53d6b876385c934aec8ad9e6d28062e6ef8b6f`,
+under `/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/root-20260924/`.
+It binds the 87 files, accepted reviews, full runtime, exact caller/observer,
+commands, explicit environment and exclusive durable destinations. An
+independent review also accepted this concrete status-only freeze and root's
+separate custody-inspection helper. The actual normal coefficient run passed
+all 92 producer gates in 560.710s under the unchanged 1800s/sampled-2GiB
+watchdog, with sampled peak RSS 546848 KiB and no resource stop. Root custody
+inspection verified all 87 frozen files, the 16 captured adjoints and the
+reopened report/snapshot identities. The report is 11180937 bytes, SHA-256
+`3a69e1f30042d3dcfed4a7fa95b59b7a8984de1e0ec4059a26f4ca25604b39fe`;
+the snapshot is 51891508 bytes, SHA-256
+`fe24ce8b35d97a9073eff8c8002ce733e4f81be3e2d9167453a640f7f2c21aba`.
+Optimized replay is now running serially with the same frozen candidate.
+Independent entrywise algebra remains pending, the numerical result is not
+yet accepted, and RESULT.json remains absent. Next preserve and compare both
+actual mode outputs, then freeze the captured input identities for that audit.
+No observed strain, random sampler, fitted detector noise, physical confidence
+or native gravity-forward-map claim is authorized by this qualification.
