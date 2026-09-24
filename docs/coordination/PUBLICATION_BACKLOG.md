@@ -10,8 +10,10 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-55 finite-context sensitivity | **Selected; one design path reserved.** | Specify continuation assumptions and qualification before implementation. |
-| RI-54 rectangle bottleneck | **Assigned to existing QR after RI-52 acceptance.** | Prove the two-step inequality and decide the necessary augmented first-layer gate. |
+| RI-57 selected-row sensitivity | **Selected; seven new paths reserved.** | Review arithmetic/source, then run frozen qualification before actual input. |
+| RI-56 robust intrinsic defect | **Assigned to existing QR after RI-54 acceptance.** | Prove the diagnostic/drift gate without assuming an all-size selector. |
+| RI-55 finite-context sensitivity | **Independently accepted; publication pending.** | RI-57 implements the qualified selected-row pilot. |
+| RI-54 rectangle bottleneck | **Independently accepted; publication pending.** Exact capacity obstruction. | Preserve the scoped result; RI-56 examines robust defects. |
 | RI-53 finite-support comparison | **Published in verified `1993e24`.** Actual numerical qualification, processing, export audit and visual inspection passed. | Preserve the eight-file result; physical continuation, precise V2 timing and native forward map remain open. |
 | RI-52 Ferrers admission gate | **Published in verified `1993e24`.** Exact boundary witness passes all marked rows; strict infimum zero. | Review all-size compatibility separately; no shape or gravity theorem follows. |
 | RI-51 clone/full mechanism | **Published in verified `ee20ad6`.** Complete proof reviews pass. | RI-52 is assigned the intrinsic corner-family admission gate. |
@@ -1759,3 +1761,141 @@ sensitivity design. Neither the finite Ferrers gate nor the illustrative NR
 comparison completes the native programme. Exact all-size geometry, informative
 quantum coupling, matter/source response, clocks, gravity and a native measured
 forward map remain distinct proof obligations.
+
+
+**RI-54 independently accepted — exact two-layer Ferrers obstruction**
+
+Root and an independent coordinator reviewer accepted the complete 393-line
+proof, 240-line checker and 83-line certificate. The intrinsic non-chain
+rectangle classification yields exactly two labeled good corners; full-payload
+diamonds and precursor-record permissions give f*g<=b. Conditional two-step
+survival from a specified marked B=(3,2) is H<=2b, strict under strict rows.
+The prospective departure bounds imply
+b>=(1-epsilon5)*(1-epsilon6)/(2-epsilon6), including endpoint cases without
+dividing by f. Pointwise B/R statements and uniform A/E compactness premises
+are explicitly separated.
+
+Exact dual combinations of matched A/E row caps give b<7000/18447 for root
+bit zero and b<1325/8869 for root bit one in every admitted strict first-layer
+extension. They use row caps alone, not merely the zero-departure face.
+A different six-nonzero boundary vector simultaneously attains both closed
+capacities, proving capacity sharpness only. Thus the necessary b>=1/2 gate
+is infeasible. Conditional root-one two-step survival is below 2650/8869;
+as first-layer departure tends to zero, the relevant second-layer departure
+has liminf at least 6219/7544. This does not establish optimal survival,
+unconditional-from-empty probabilities or a general Ferrers/geometry no-go.
+The one-step RI-52 theorem remains correct and unchanged.
+
+Root isolated CPython 3.14.0 `-I -S -B` normal/optimized replay of the explicit
+five-file source/dependency closure exits zero with empty stderr and identical
+1301-byte stdout, SHA-256
+`ce50217fea43e06cf9605d2b71906c539a2e8759bb56d585b473e92903aa738f`.
+The independent reviewer reproduced it after full source review. A separate
+coordinator audit using only the published RI-52 reconstruction checked all
+32 marked duals, all 116 canonical primal rows, 768 target ratios and the
+note's 84 relevant canonical coefficient rows without the new checker.
+The new checker covers 320 dual entries (64 positive, 256 zero), all 128 raw
+primal rows and both intended negative controls. Prior matrix/root/source
+pins remain fixed. No later-layer table or successor probabilities are run.
+Only the opening adjudication status changed after handoff; reservation released.
+
+**RI-55 independently accepted — finite-context design and elementary proof**
+
+The one-file design fixes N=2769, 4096 hypothetical continuation samples on each
+side, and eight output probes. It defines the exact rational filter F separately
+from rounded SciPy/Decimal implementations and proves
+CF_T(Ex+Uz)-F_Nx=d+Bz. Under a declared envelope ||z||infinity<=M, the exact
+rowwise supremum is |d_i|+M*||B_i||1, with an attaining sign witness. Without
+an envelope, a row with a proved nonzero outside coefficient has no finite
+uniform bound over real continuations; zero and unresolved rows remain distinct.
+No actual row or physical envelope is supplied by this design.
+
+Root and an independent reviewer read the complete design and final deltas.
+The startup-aware DFII adjoint, full padded pass length, exact diagnostic
+inner products and constant-annihilation identity are accepted. The proposed
+256-bit stable-power/residual enclosure route is conditional on its future
+arithmetic proof and qualification. Naive interval wrapping, Decimal agreement
+or pole stability alone cannot certify its output. Eight probes do not bound
+unexamined rows, and one second of hypothetical context on each side does not
+bound infinite physical continuation. Rounded production needs its own error
+allowance before exact-operator bounds could be transferred to it.
+
+Root independently corroborated the finite algebra with exact rational toy
+systems. The full frozen small-system configurations (eight recipes, two central
+lengths and two side lengths) passed in CPython 3.11.6 `-I -S -B` normal and
+optimized modes: 448 DFI forward basis columns agree with 448 startup-aware
+DFII adjoint rows; 960 affine-vector identities, 528 sharp box suprema and
+528 attaining witnesses pass. Both 486-byte reports have SHA-256
+`db68313a93512869867cc7f25e5539fbfd13ae9f40e76abe1e058626ed0abf81`.
+An earlier independent three-recipe sanity audit also passed. These external
+proof checks are not a completed implementation qualification and do not run
+the admitted coefficients or actual strain. The future full-length numerical,
+validated-width and refusal gates remain prospective and unchanged.
+The single-file reservation is released; only its adjudication status changed.
+
+Accepted [RI-54 obstruction](../track_b/native_growth_ferrers_bottleneck_v1/BOTTLENECK.md) and [RI-55 design](../experiments/gwosc_context_sensitivity_v1/DESIGN.md).
+
+Accepted identities:
+
+| File | SHA-256 |
+|---|---|
+| `docs/track_b/native_growth_ferrers_bottleneck_v1/BOTTLENECK.md` | `78e536cb2ff6a5db36d423086b24d8a40cfb87ebf40e0880509c365ba89e3bf9` |
+| `docs/track_b/native_growth_ferrers_bottleneck_v1/check.py` | `d40d9770a1b03f9d3e9687958fc65b92aedf3d622827ae31fdf3e8d800bdf990` |
+| `docs/track_b/native_growth_ferrers_bottleneck_v1/CERTIFICATE.json` | `4ba95a92da12cb52082ff52e215fec1e21f663e7d2cdac1bc4432f601c927b40` |
+| `docs/experiments/gwosc_context_sensitivity_v1/DESIGN.md` | `e672cea6c5f06c5927b54b0021636793c14b01e8efe57aa8e719fd464a527e45` |
+
+
+**RI-56 assigned after RI-54 acceptance — robust intrinsic defect and drift gate**
+
+The existing QR task reserves only new
+`docs/track_b/native_growth_ferrers_defect_v1/DEFECT.md`. It must prove or correct
+an intrinsic approximation diagnostic delta(P): minimum cardinality of an
+arbitrary exception set whose induced complement is Ferrers (empty allowed).
+Exceptions are mathematical witnesses; every committed record stays in the
+actual history and kernel. No hidden chosen core becomes a law input.
+
+Review the ideal-core restriction before adopting it: a non-chain a-by-b
+rectangle with one clone of its unique maximum appears to have arbitrary
+exception defect one but minimum ideal-core size ab-2. Prove/correct this
+counterexample even for balanced rectangles. For arbitrary exceptions, prove
+ideal monotonicity, maximal-birth increments in {0,1}, fixed-defect sublevel
+closure, morphology/density transfer bounds and their limits. Check that the
+empty-ideal birth raises defect for nonempty parents and that every parent
+has some neutral birth, without inferring compatible normalization.
+
+Derive the precise conditional-drift/martingale criterion for sublinear defect,
+separating expectation, probability and almost-sure statements. Express the
+exact fixed-layer RI-38 component-scale boundary gate, including variable
+full-complement cost and every marked row. Do not assume neutral slots are
+whole private components or that the resulting LP is feasible. No all-size
+selection, sublinear-defect realization, balanced tail, physical dimension,
+metric/source/clock/gravity or informative quantum coupling is promised.
+No new project executor or later-layer enumeration is assigned.
+
+**RI-57 selected — qualified selected-row sensitivity implementation**
+
+The coordinator's next independent measurement packet implements the accepted
+RI-55 pilot. Reserve only the seven new files in
+`docs/experiments/gwosc_context_operator_v1/`: `operator.py`, `oracle.py`,
+`check.py`, `process.py`, `IMPLEMENTATION.md`, `QUALIFICATION_REPORT.json` and
+`SENSITIVITY_REPORT.json`. Root owns actual outputs and git; source authoring
+must allocate disjoint paths. The independent exact forward oracle must be
+authored without reading the new adjoint/validated engine, with later review
+of both clearly distinguished from that authorship boundary.
+
+First make the exact/validated arithmetic, residual error proof, finite resource
+contract and source closure concrete and independently reviewable. Freeze those
+sources before admitted-coefficient calculations. Run the frozen exact toy,
+complete N/T synthetic, transpose, certified-width and refusal gates in both
+modes; retain failure or unresolved status without changing the 256-bit setting,
+row selection, context lengths or acceptance thresholds. Source design may be
+revised transparently after a failed prospective test, but no failed gate is
+silently reclassified. A required method revision receives its own review.
+
+Only after qualification passes may the driver consume the already accepted
+RI-53 central input export for the eight-row sensitivity calculation. This is
+within the user's public-data/simulation programme; a new user permission is
+not required for that scoped read. No physical envelope M is selected: report
+the certified conditional ingredients and nonzero/unresolved statuses, not a
+physical uncertainty or agreement score. No actual computation is yet claimed.
+RI-56 remains the active native proof question in parallel; RET stays paused.
