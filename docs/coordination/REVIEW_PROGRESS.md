@@ -3715,3 +3715,73 @@ A final three-record status checkpoint records that verified publication.
 No model, test, proof or evidence-count change is made for this administrative
 step. QR receives completion with no successor assignment. The separate RET
 pause remains in force pending the user's answer; elapsed time is not approval.
+
+
+**RI-31 planning — native geometry, gravity and measurements**
+
+The user selected simulations and existing public data as the first
+measurement path. Root read the current coordination records and accepted
+geometry work order, inspected active source status, and obtained QR's
+read-only assessment. QR has no active source reservation; RET retains its
+explicit implementation pause. Root reserved only the new programme and
+three coordinator records. Entry HEAD is
+`3b2015f7cd93d494bf7867b9f067bcbd5054f79d`, tree
+`3591713a1623acaea22b72fdd285d8164b02e851`; the index was empty.
+A temporary entry manifest records 1,053 tracked and 965 untracked file
+versions, including the original review and unrelated dirty baseline.
+
+The [programme](NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md) specifies native
+joint-law admission/covariance, history extension, intrinsic regime screens,
+local geometry/measure and clock correspondence; matter/backreaction and
+controlled gravity limits; and a parallel observation/identifiability,
+public-data and eventual physical-comparison path. QR's review explicitly
+warned against treating T8c's independent-factor sufficient conditions as
+universal necessities for joint feedback, erasing residual payload before
+covariance checks, or calling label/mark-only changes geometry response.
+Those boundaries and a cheap initial primitive/domain/width audit are included.
+
+Root consulted primary literature and official public-data documentation.
+GWOSC is a proposed conventional analysis baseline, not a native discriminator
+without a forward observable law; its exact corrected release/files remain
+unselected and no data were downloaded. IGETS access and clock-product
+calibration/data-availability requirements are explicitly conditional.
+Three independent coordinator reviewers are checking the complete plan,
+with separate geometry, gravity and measurement emphasis; QR is reviewing
+its proposed scope. No project source was executed or historical scientific
+suite rerun for this documentation task.
+
+
+**RI-31 independent plan acceptance**
+
+Three independent coordinator reviews passed, with distinct geometry,
+gravity and measurement remits. QR additionally reviewed its proposed
+NG-01/cycle-1 scope and confirmed the final correction. Review produced
+three changes: native count-to-local-measure mathematics is independent
+of apparatus calibration; the elementary two-way clock identities explicitly
+require a shared transfer-time parameter; and supplied Hilbert/amplitude
+structures remain conditional comparisons rather than passing the native-input
+test merely through provenance labels.
+
+The corrected gravity/measurement review version was
+`b7590ba2809b3698617d417ce41af6156ca881b3495d2d06eeea1e484a7cc92a`.
+The only later substantive change strengthened the native-input paragraph;
+QR and the independent geometry reviewer accepted the final whole-plan hash
+`63aaf8e044454509dbfb8987084f5daa24f8cce7b77c64c5abbc2a96c9fce435`.
+Root rechecked the official GWOSC technical page for its timing-version,
+calibration-frequency and missing-data statements. This is documentation
+and scope acceptance, not proof of a proposed native dynamics.
+
+Scoped checks resolved all 85 local Markdown targets. The new plan's two
+local dependencies already exist in HEAD; references to unpublished T8
+sources are explicitly local background, not imported/publication dependencies.
+All 2,015 entry file versions outside the three changed coordinator records
+remain identical, including the original review, accepted proofs/models, RET
+and unrelated baseline. The only new repository path is the programme.
+No project model or historical suite was executed for this planning-only
+checkpoint. Root will stage exactly the four reviewed Markdown paths, compare
+the index to their accepted hashes, then commit and verify the remote push.
+
+The next action is cycle 1's bounded native-law dossier plus parallel
+observation-channel/data-qualification design, with file ownership confirmed
+at activation. Implementation, acquisition, protected evaluation and automatic
+QR successors remain unassigned; RET's explicit pause is unchanged.

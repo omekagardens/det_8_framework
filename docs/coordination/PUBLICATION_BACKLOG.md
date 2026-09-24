@@ -12,6 +12,7 @@ with unrelated changes to make an import succeed.
 |---|---|---|
 | RI-29 RET readiness handoff | **Accepted and published in independently verified `dcf6b67`.** Two independent coordinator reviews and the RET owner agree on the source/authority boundaries. | Preserve the published audit and its source boundaries. The proposed engineering/source-preview increments remain unassigned under the explicit RET pause. |
 | RI-30 comparator target precision | **Accepted and published in independently verified `c7f20c6`.** Four isolated files passed proof/API reviews, 48 root tests per mode and a separate 400-case projection audit. | Preserve the four-file [contract](../experiments/comparator_target_contract_v1/CONTRACT.md) and its reviewed identities. No RET dependency; no measured benefit or automatic successor. |
+| RI-31 native geometry/gravity/measurement plan | **Plan independently accepted; publication pending.** One new programme and three coordinator records. | Publish the reviewed four-file checkpoint. Proposed cycle 1: native joint-law dossier plus observation-channel and public-data qualification; no implementation reservation yet. |
 | RI-25 qubit-and-record experiment | **Published in independently verified `9f463f2`.** Twelve isolated experiment files, three QR summaries and four coordinator records; final reviews, 61 tests per mode and 82 independent exported-data checks passed. | Preserve source pins; calibrated measured W remains external. No core/RET dependency is required by this standard-library experiment. |
 | RI-26 supplied-geometry observer model | **Published in independently verified `0fde8b2`.** Eleven isolated bundle files, three QR summaries and four coordinator records. Three final reviews, 51 tests per mode, 52 identical exports and 331 separate exported-data checks passed. | Preserve the eleven bundle identities and all 87 held predecessors. No core/RET dependency or automatic successor is opened. |
 | RI-27 published-model reproduction | **Published in independently verified `5e7f2f7`.** New combined guide and separate 23-file manifest, plus plan/progress/backlog. Independent inventory/packaging/recipe reviews and actual clean-archive replay passed. | Keep guide/manifest pins, all 98 prior accepted artifacts and the historical 71-file inventory fixed. |
@@ -513,3 +514,24 @@ were committed; normal push and separate remote lookup succeeded. All staged
 bytes matched acceptance, 85 local links resolved, and the pre-existing
 baseline plus RI-29 audit remained unchanged. The final three-record status
 update preserves every accepted experiment source. No successor is assigned.
+
+
+**RI-31 native geometry, gravity and measurement planning**
+
+The [new plan](NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md) answers the user's
+request with simulations and public data first. Its first proposed QR packet
+is a fully specified native-input joint law with an all-size/domain theorem
+or family-scoped obstruction. Parallel measurement work begins with an
+observation channel, analytic nonidentifiability examples, synthetic fixtures
+and one qualified conventional public-data baseline. Native manifold
+existence, local measure, matter/source response, gravity limits and a
+quantitative physical comparison retain their distinct premises.
+
+Independent geometry, gravity and measurement reviews and QR scope review
+passed after three precise premise clarifications. Publish only the new
+programme and plan/progress/backlog. It has no executable dependency on the
+unpublished T8/RET baseline;
+those local sources are reference evidence only. Existing models, maps,
+inventories, original review and all unrelated edits remain fixed. No
+scientific acquisition, implementation, protected evaluation or release is
+performed by this planning checkpoint.
