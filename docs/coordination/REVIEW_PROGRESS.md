@@ -7,7 +7,7 @@ all declared cases and 37 intended refusals pass, and peak sampled RSS is
 the reviewed allocation repair are retained. RI-82's fixed first-departure
 harmonic design is independently accepted; actual feasibility remains unknown.
 RI-83's actual public-input caller/contract passed complete root and separate
-source review. Its unchanged two-file source checkpoint is being published;
+source review. Its unchanged two-file source checkpoint is published in verified `81c35fc`;
 external helper and fabricated integration preparation is active. QR's RI-84
 continues the exact native checker implementation. Neither new lane has executed
 its scientific target. RI-80/82 are published in independently verified
@@ -43,7 +43,7 @@ the latest assignments below and in the plan govern current work.
 |---|---|---|
 | RI-80 fabricated spectra qualification | **Published in independently verified `1f1e62a`.** Identical normal/-O reports, all declared cases and 37 intended refusals pass; two failed attempts preserved. | RI-83 separately implements the actual-input caller before a new freeze. |
 | RI-82 constructive native design | **Published in independently verified `1f1e62a`.** Complete closure, conditional rank/positivity and width target reviewed. | RI-84 implements the fixed exact decision; actual feasibility unknown. |
-| RI-83 observed spectral caller | **Source independently reviewed; two-file publication in progress.** No observed run or integration pass claimed. | Review external helper/harness source, freeze and run fabricated glue controls, then separately admit actual inputs. |
+| RI-83 observed spectral caller | **Source published in independently verified `81c35fc`.** No observed run or integration pass claimed. | Review external helper/harness source, freeze and run fabricated glue controls, then separately admit actual inputs. |
 | RI-84 native first-departure checker | **Source implementation active in QR.** Actual coefficient feasibility unknown. | Review source and a complete prospective freeze before coefficient execution; keep accepted support and limits. |
 | RI-71 operator covariance design | **Published in independently verified `ebfd0ec`.** | RI-73 recovered actual result is published in verified `ad44848`; preserve conditional unit-white scope. |
 | RI-70 native height tradeoff | **Published in independently verified `ebfd0ec`.** | Preserve endpoints; RI-72 and RI-74 are published in verified `f18b5d9` and `314d5e8`. |
@@ -8512,3 +8512,25 @@ issued. Its fixed first-departure rank decision remains open. The five-file
 checkpoint includes only the two unchanged reviewed RI-83 sources and three
 coordinator records. Its preflight/publication evidence is retained under
 /Volumes/AI_DATA/development/det-review-evidence/ri83-source-publication-20260925T001814Z-edd4016b/.
+
+**RI-83 source checkpoint remotely verified; interrupted authors resumed**
+
+Commit `81c35fcdda3c215316b2d829f3c32e1c7fa9a0eb`, tree
+`e6faebf054e18681fc27bedfce4ae2e410312c77`, publishes exactly the two reviewed, unchanged
+RI-83 sources and three coordinator records. Scoped staged preflight checked
+all source/handoff/review pins, twelve already published dependencies, one
+Python AST and 141 local links, preserving 2150 unrelated entry-file identities.
+Normal push succeeded and a separate remote lookup returned that exact commit;
+the index was empty afterward. This checkpoint contains no observed result,
+new helper, integration pass or numerical execution claim.
+
+The account usage limit interrupted the RI-83 helper/harness authors and the
+existing QR RI-84 author during source preparation. After the user's explicit
+limit-removal/continue message, root resumed those same workers in place with
+their original reservations; no duplicate assignment or new scientific scope.
+QR retained its author interruption evidence and reports its reviewed core is
+intact, with refusal controls/type guards still being completed. Measurement
+control/worker partials are intact. The independent saved-observed-evidence
+auditor is preparing source in a separate external directory, with no target
+imports or data reads. All preparation remains unexecuted until review and
+concrete prospective freezes; accepted sources and actual limits are unchanged.

@@ -7,7 +7,7 @@ all declared cases and 37 intended refusals pass, and peak sampled RSS is
 the reviewed allocation repair are retained. RI-82's fixed first-departure
 harmonic design is independently accepted; actual feasibility remains unknown.
 RI-83's actual public-input caller/contract passed complete root and separate
-source review. Its unchanged two-file source checkpoint is being published;
+source review. Its unchanged two-file source checkpoint is published in verified `81c35fc`;
 external helper and fabricated integration preparation is active. QR's RI-84
 continues the exact native checker implementation. Neither new lane has executed
 its scientific target. RI-80/82 are published in independently verified
@@ -114,7 +114,7 @@ Active file reservations, updated 25 September UTC:
 | RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` published in verified `ad44848`. Reservation released; preserve the fixed unit-white scope. |
 | RI-78 public off-event spectra design | Published in independently verified `d43d144`; one-file reservation released. Fixed descriptive Welch PSD/ASD design on the recovered H1/L1 V2 pair; no observed result, whitening or covariance substitution. |
 | RI-80 spectra implementation | Published in independently verified `1f1e62a` after actual normal/-O qualification and two saved-evidence audits; five-file reservation released. Preserve all report values, numerical source pins and failed receipts. |
-| RI-83 actual public spectra | `run_observed.py` and `EXECUTION.md` in `docs/experiments/gwosc_off_event_spectra_result_v1/` are source-stable and independently reviewed; reservation released to root for source-only publication. External helper and fabricated-integration source preparation is active outside the repository. Root reserves the uncreated `RESULT.json`; no observed read yet. Reviewed helpers, actual fabricated controls and complete source/data/runtime/qualification/window freeze precede serial actual runs under unchanged 180s/512MiB limits. |
+| RI-83 actual public spectra | `run_observed.py` and `EXECUTION.md` in `docs/experiments/gwosc_off_event_spectra_result_v1/` are published in independently verified `81c35fc`; source reservation released. External helper and fabricated-integration source preparation is active outside the repository. Root reserves the uncreated `RESULT.json`; no observed read yet. Reviewed helpers, actual fabricated controls and complete source/data/runtime/qualification/window freeze precede serial actual runs under unchanged 180s/512MiB limits. |
 | RI-68 synthetic noise qualification | Two-file packet published in independently verified `4280198`; reservation released. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
 | RI-53 NR comparison | The eight-file bundle is published in verified `1993e24` and source-quiet; reservation released. |
@@ -5268,3 +5268,25 @@ issued. Its fixed first-departure rank decision remains open. The five-file
 checkpoint includes only the two unchanged reviewed RI-83 sources and three
 coordinator records. Its preflight/publication evidence is retained under
 /Volumes/AI_DATA/development/det-review-evidence/ri83-source-publication-20260925T001814Z-edd4016b/.
+
+**RI-83 source checkpoint remotely verified; interrupted authors resumed**
+
+Commit `81c35fcdda3c215316b2d829f3c32e1c7fa9a0eb`, tree
+`e6faebf054e18681fc27bedfce4ae2e410312c77`, publishes exactly the two reviewed, unchanged
+RI-83 sources and three coordinator records. Scoped staged preflight checked
+all source/handoff/review pins, twelve already published dependencies, one
+Python AST and 141 local links, preserving 2150 unrelated entry-file identities.
+Normal push succeeded and a separate remote lookup returned that exact commit;
+the index was empty afterward. This checkpoint contains no observed result,
+new helper, integration pass or numerical execution claim.
+
+The account usage limit interrupted the RI-83 helper/harness authors and the
+existing QR RI-84 author during source preparation. After the user's explicit
+limit-removal/continue message, root resumed those same workers in place with
+their original reservations; no duplicate assignment or new scientific scope.
+QR retained its author interruption evidence and reports its reviewed core is
+intact, with refusal controls/type guards still being completed. Measurement
+control/worker partials are intact. The independent saved-observed-evidence
+auditor is preparing source in a separate external directory, with no target
+imports or data reads. All preparation remains unexecuted until review and
+concrete prospective freezes; accepted sources and actual limits are unchanged.
