@@ -9,13 +9,17 @@ forces every perturbation coefficient to zero. Actual witness, normal and
 fresh optimized replays and the independent full certificate audit pass.
 The two failed native admissions remain preserved; neither launched a child.
 The accepted source checkpoints `81c35fc`, `1f1e62a` and `7cc7461` remain unchanged.
-RI-85's complete four-vertex cap design is independently accepted; QR is now
-assigned RI-88's exact checker and positive-width-or-obstruction decision.
-RI-86's conditional colored-covariance theorem/design is independently
-accepted; RI-87 is assigned its exact source and qualification implementation.
-The accepted spectra and held RI-71/73 operator remain fixed. These are active
-scientific successors; all-size native geometry/gravity, a measurement forward
-map and calibrated inference remain open. RET remains paused.
+RI-85 and RI-86's accepted designs are published in remotely verified `d1733b8`.
+QR continues RI-88's exact native checker and positive-width-or-obstruction
+decision. RI-87's complete four-file exact proxy implementation is now independently
+source-reviewed and accepted for this scoped checkpoint. Seven fixture families,
+twelve tiny comparisons, four full-size scenarios and 106 intended refusals are
+implemented; none has yet run. The measurement author is preparing the minimal
+qualification caller using existing supervision and runtime. A concrete freeze
+and actual normal/optimized qualification precede saved-result application.
+The accepted spectra and held RI-71/73 operator remain fixed. All-size native
+geometry/gravity, a measurement forward map and calibrated inference remain
+open. The programme continues, and RET remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -52,10 +56,10 @@ with unrelated changes to make an import succeed.
 | RI-82 constructive native design | **Published in independently verified `1f1e62a`.** Frozen three-class support and complete closure retained. | RI-84 now rejects nonzero perturbations on exactly that support. RI-85 is a separately declared enlargement. |
 | RI-83 observed spectral caller | **Exact result published in independently verified `fc72c1f`; caller published `81c35fc`.** Actual normal/optimized equality, qualified saved-array audit and independent custody review pass. | Preserve the descriptive result and RESULT_REVIEW.md. RI-86 design is accepted and RI-87 implements its four conditional covariance-proxy envelopes; no calibrated/noise-law inference. |
 | RI-84 native first-departure checker | **Exact certificate published in independently verified `fc72c1f`; sources published `7cc7461`.** Rank three, no nonzero perturbation on frozen support; complete actual replays and independent arithmetic/custody checks pass. | Preserve the obstruction and failed admissions. RI-85 design is accepted and QR implements RI-88; do not repeat RI-84 or reopen its support. |
-| RI-85 complete four-vertex cap | **Design independently accepted and included in this checkpoint.** Complete 11-class/5-parent closure, 64-by-11 harmonic system and exact width decision proved. | RI-88 implements the frozen exact checker; actual coefficients and feasibility remain unevaluated. |
+| RI-85 complete four-vertex cap | **Design independently accepted and published in remotely verified `d1733b8`.** Complete 11-class/5-parent closure, 64-by-11 harmonic system and exact width decision proved. | RI-88 implements the frozen exact checker; actual coefficients and feasibility remain unevaluated. |
 | RI-88 native cap checker | **Source-only assignment active with Quantum Relativity.** Two-file reservation; no coefficient execution or certificate yet. | Complete checker/schema/control/source review and concrete execution freeze before the native decision. |
-| RI-86 colored covariance proxy | **Design independently accepted and included in this checkpoint.** Exact finite non-DC Loewner bounds and seven qualification fixture families proved. | RI-87 prepares exact consumer/validator/qualification source; no observed application or calibrated covariance claim. |
-| RI-87 exact proxy implementation | **Source-only assignment active.** Four-file reservation; all predecessor sources/results fixed. | Complete source review and prospective freeze before fabricated qualification, then separate saved-result application. |
+| RI-86 colored covariance proxy | **Design independently accepted and published in remotely verified `d1733b8`.** Exact finite non-DC Loewner bounds and seven qualification fixture families proved. | RI-87 prepares exact consumer/validator/qualification source; no observed application or calibrated covariance claim. |
+| RI-87 exact proxy implementation | **Complete four-file source independently accepted and included in this checkpoint.** Seven families, 12 tiny comparisons, four full-size scenarios and 106 refusals are implemented but unrun. | Review the minimal external qualification caller and concrete freeze, then actual normal/optimized qualification before separate saved-result application. |
 | RI-77 random-cutoff locality | **Published in independently verified `d43d144`; reservation released.** | Preserve the fixed two-core counterexample. RI-79/81 are also published; constructive RI-84 is now active. |
 | RI-76 approximation asymptotics | **Published in independently verified `ad44848`.** | Preserve defect decay and height obstruction together; review RI-77 next. |
 | RI-75 strict approximation | **Published in independently verified `3a30ab0`.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 separately resolves long-run limits. |
@@ -4611,3 +4615,66 @@ RI-87 measurement source preparation proceeds in parallel. The combined design
 checkpoint includes only RI-85 and RI-86's accepted notes plus these three
 coordinator records; six actively authored RI-87/88 files are excluded.
 The programme continues, and RET remains paused.
+
+**RI-87 complete exact proxy source accepted; qualification preparation active**
+
+The predecessor design checkpoint `d1733b8bab7c29dd5fbfc53d62af9e7c8c36e00d`
+(tree `fa45cc2519137ecc0d7d15bcaadb475c26eb7955`) was normally pushed and
+separately verified on origin/ret. RI-85/86 design bytes remain unchanged.
+
+Root read all 720 consumer lines, 358 independent-validator lines, 824
+qualification lines and the complete implementation note. Separate source/API
+reviews and the final qualification/note review pass without a blocker. The
+four-file packet in `docs/experiments/gwosc_colored_covariance_proxy_implementation_v1/`
+is accepted for source-only publication:
+
+| Source | Bytes | SHA-256 |
+|---|---:|---|
+| `consumer.py` | 39228 | `441d335ac06a54d69182a7da21e52f8cabac2ff9f2d5aca345fc35499843773a` |
+| `validate_result.py` | 19544 | `16fb31be704e7bdec6b7cbf83e88c9500440113d2a7abaadb41eba4c11f46558` |
+| `qualify.py` | 51042 | `86d1f3ea54264d97e92dc20b44459420e15926a5a6b43617823c79115298da37` |
+| `IMPLEMENTATION.md` | 16470 | `f27ac481d857df3caeacd9c71341439a90fc5d41fe210c82619b36997fc29e8f` |
+
+The source preserves all original PSD bins and byte identities, exact endpoint
+normalization, DC exclusion justified by the held operator theorem, all tied
+extrema and the full conditional Loewner matrices. Positive, zero and unresolved
+rank outcomes remain distinct. Both complete historical result identities are
+checked before either body is parsed. The independent validator reconstructs
+the output algebra; external source/input/runtime custody remains a separate
+frozen-caller obligation.
+
+The qualification source fixes seven independent M=4 cosine/dense-matrix
+families, twelve tiny comparisons, four independently expected full-size white
+scenarios and 106 intended-code refusals. Refusal groups have 7, 11, 5, 12, 13,
+34 and 24 cases respectively. Fabricated prior numerical fields and runtime
+metadata are explicitly labeled; they cannot replace actual predecessor or
+process evidence. Source AST/compilation and byte checks pass, and all 21
+scientific/source dependencies match published HEAD. These checks executed no
+target module, numerical fixture or observed calculation. There is no genuine
+qualification or application result yet.
+
+Root acceptance is
+/Volumes/AI_DATA/development/det-review-evidence/ri87-source-checkpoint-phb4cpxe/ROOT_SOURCE_ADJUDICATION.json,
+9956 bytes, SHA-256 `5935ea7ff8ca8e9965e9a435506c7ad59d54cf45932134565b5dd9249407037d`.
+The final independent source review is
+/Volumes/AI_DATA/development/det-review-evidence/ri87-source/remaining-closure-independent-review-rd3aifst/INDEPENDENT_REMAINING_CLOSURE_REVIEW.json,
+8008 bytes, SHA-256 `7adf68b2bae06185cb432654f59504469ef7083607b223290c8e578697a0c922`.
+Root read the complete report and reconciled its exact released source copies.
+
+The existing measurement author now prepares only the minimal qualification
+caller and concrete protocol in a fresh durable external evidence directory.
+Reuse the reviewed supervision and recovered CPython 3.11.6 environment,
+retaining 180 seconds, 512 MiB sampled RSS, all source/runtime binding and
+failure evidence. Root reviews that adapter and exact freeze before serial
+normal/optimized fabricated qualification; a separate saved-result application
+follows only after genuine qualification evidence is accepted. No new generic
+harness, altered threshold, raw-data replay or RET activity is assigned.
+
+RI-88 stays active with Quantum Relativity on its two reserved source files.
+Root reviewed the written structural/held/factor core as a partial source
+review; final RREF/dual/positivity/control closure remains with QR. Its complete
+source review and concrete 120-second/512-MiB execution freeze still precede
+any coefficients or certificate. No duplicate native assignment is issued.
+This source checkpoint includes only four stable RI-87 files and three
+coordinator records; active native sources and the unrelated baseline remain
+excluded. Neither qualification nor native/physical completion is claimed.

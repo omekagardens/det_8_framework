@@ -9,13 +9,17 @@ forces every perturbation coefficient to zero. Actual witness, normal and
 fresh optimized replays and the independent full certificate audit pass.
 The two failed native admissions remain preserved; neither launched a child.
 The accepted source checkpoints `81c35fc`, `1f1e62a` and `7cc7461` remain unchanged.
-RI-85's complete four-vertex cap design is independently accepted; QR is now
-assigned RI-88's exact checker and positive-width-or-obstruction decision.
-RI-86's conditional colored-covariance theorem/design is independently
-accepted; RI-87 is assigned its exact source and qualification implementation.
-The accepted spectra and held RI-71/73 operator remain fixed. These are active
-scientific successors; all-size native geometry/gravity, a measurement forward
-map and calibrated inference remain open. RET remains paused.
+RI-85 and RI-86's accepted designs are published in remotely verified `d1733b8`.
+QR continues RI-88's exact native checker and positive-width-or-obstruction
+decision. RI-87's complete four-file exact proxy implementation is now independently
+source-reviewed and accepted for this scoped checkpoint. Seven fixture families,
+twelve tiny comparisons, four full-size scenarios and 106 intended refusals are
+implemented; none has yet run. The measurement author is preparing the minimal
+qualification caller using existing supervision and runtime. A concrete freeze
+and actual normal/optimized qualification precede saved-result application.
+The accepted spectra and held RI-71/73 operator remain fixed. All-size native
+geometry/gravity, a measurement forward map and calibrated inference remain
+open. The programme continues, and RET remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -5626,3 +5630,66 @@ RI-87 measurement source preparation proceeds in parallel. The combined design
 checkpoint includes only RI-85 and RI-86's accepted notes plus these three
 coordinator records; six actively authored RI-87/88 files are excluded.
 The programme continues, and RET remains paused.
+
+**RI-87 complete exact proxy source accepted; qualification preparation active**
+
+The predecessor design checkpoint `d1733b8bab7c29dd5fbfc53d62af9e7c8c36e00d`
+(tree `fa45cc2519137ecc0d7d15bcaadb475c26eb7955`) was normally pushed and
+separately verified on origin/ret. RI-85/86 design bytes remain unchanged.
+
+Root read all 720 consumer lines, 358 independent-validator lines, 824
+qualification lines and the complete implementation note. Separate source/API
+reviews and the final qualification/note review pass without a blocker. The
+four-file packet in `docs/experiments/gwosc_colored_covariance_proxy_implementation_v1/`
+is accepted for source-only publication:
+
+| Source | Bytes | SHA-256 |
+|---|---:|---|
+| `consumer.py` | 39228 | `441d335ac06a54d69182a7da21e52f8cabac2ff9f2d5aca345fc35499843773a` |
+| `validate_result.py` | 19544 | `16fb31be704e7bdec6b7cbf83e88c9500440113d2a7abaadb41eba4c11f46558` |
+| `qualify.py` | 51042 | `86d1f3ea54264d97e92dc20b44459420e15926a5a6b43617823c79115298da37` |
+| `IMPLEMENTATION.md` | 16470 | `f27ac481d857df3caeacd9c71341439a90fc5d41fe210c82619b36997fc29e8f` |
+
+The source preserves all original PSD bins and byte identities, exact endpoint
+normalization, DC exclusion justified by the held operator theorem, all tied
+extrema and the full conditional Loewner matrices. Positive, zero and unresolved
+rank outcomes remain distinct. Both complete historical result identities are
+checked before either body is parsed. The independent validator reconstructs
+the output algebra; external source/input/runtime custody remains a separate
+frozen-caller obligation.
+
+The qualification source fixes seven independent M=4 cosine/dense-matrix
+families, twelve tiny comparisons, four independently expected full-size white
+scenarios and 106 intended-code refusals. Refusal groups have 7, 11, 5, 12, 13,
+34 and 24 cases respectively. Fabricated prior numerical fields and runtime
+metadata are explicitly labeled; they cannot replace actual predecessor or
+process evidence. Source AST/compilation and byte checks pass, and all 21
+scientific/source dependencies match published HEAD. These checks executed no
+target module, numerical fixture or observed calculation. There is no genuine
+qualification or application result yet.
+
+Root acceptance is
+/Volumes/AI_DATA/development/det-review-evidence/ri87-source-checkpoint-phb4cpxe/ROOT_SOURCE_ADJUDICATION.json,
+9956 bytes, SHA-256 `5935ea7ff8ca8e9965e9a435506c7ad59d54cf45932134565b5dd9249407037d`.
+The final independent source review is
+/Volumes/AI_DATA/development/det-review-evidence/ri87-source/remaining-closure-independent-review-rd3aifst/INDEPENDENT_REMAINING_CLOSURE_REVIEW.json,
+8008 bytes, SHA-256 `7adf68b2bae06185cb432654f59504469ef7083607b223290c8e578697a0c922`.
+Root read the complete report and reconciled its exact released source copies.
+
+The existing measurement author now prepares only the minimal qualification
+caller and concrete protocol in a fresh durable external evidence directory.
+Reuse the reviewed supervision and recovered CPython 3.11.6 environment,
+retaining 180 seconds, 512 MiB sampled RSS, all source/runtime binding and
+failure evidence. Root reviews that adapter and exact freeze before serial
+normal/optimized fabricated qualification; a separate saved-result application
+follows only after genuine qualification evidence is accepted. No new generic
+harness, altered threshold, raw-data replay or RET activity is assigned.
+
+RI-88 stays active with Quantum Relativity on its two reserved source files.
+Root reviewed the written structural/held/factor core as a partial source
+review; final RREF/dual/positivity/control closure remains with QR. Its complete
+source review and concrete 120-second/512-MiB execution freeze still precede
+any coefficients or certificate. No duplicate native assignment is issued.
+This source checkpoint includes only four stable RI-87 files and three
+coordinator records; active native sources and the unrelated baseline remain
+excluded. Neither qualification nor native/physical completion is claimed.
