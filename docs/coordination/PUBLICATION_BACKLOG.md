@@ -10,16 +10,18 @@ fresh optimized replays and the independent full certificate audit pass.
 The two failed native admissions remain preserved; neither launched a child.
 The accepted source checkpoints `81c35fc`, `1f1e62a` and `7cc7461` remain unchanged.
 RI-85 and RI-86's accepted designs are published in remotely verified `d1733b8`.
-QR continues RI-88's exact native checker and positive-width-or-obstruction
-decision. RI-87's complete four-file exact proxy implementation is now independently
-source-reviewed and accepted for this scoped checkpoint. Seven fixture families,
-twelve tiny comparisons, four full-size scenarios and 106 intended refusals are
-implemented; none has yet run. The measurement author is preparing the minimal
-qualification caller using existing supervision and runtime. A concrete freeze
-and actual normal/optimized qualification precede saved-result application.
-The accepted spectra and held RI-71/73 operator remain fixed. All-size native
-geometry/gravity, a measurement forward map and calibrated inference remain
-open. The programme continues, and RET remains paused.
+RI-87's four-file exact measurement implementation is published and remotely
+verified in `548dab7`; its external qualification caller is prepared and under
+review. RI-88's complete two-file native checker is now independently accepted
+for this source checkpoint. All 90 new refusal branches and three algebra
+fixtures have source review; actual coefficients, rank and feasibility are
+still uncomputed. Root accepted the narrowly adapted qualified monitor and
+prepares the first bounded native witness admission. Separate full certificate
+rederivation is assigned in parallel. Measurement qualification and subsequent
+saved-data application remain distinct, unrun steps. The accepted spectra and
+held operator stay fixed. All-size native geometry/gravity, a measurement
+forward map and calibrated inference remain open. The programme continues,
+and RET remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -57,9 +59,9 @@ with unrelated changes to make an import succeed.
 | RI-83 observed spectral caller | **Exact result published in independently verified `fc72c1f`; caller published `81c35fc`.** Actual normal/optimized equality, qualified saved-array audit and independent custody review pass. | Preserve the descriptive result and RESULT_REVIEW.md. RI-86 design is accepted and RI-87 implements its four conditional covariance-proxy envelopes; no calibrated/noise-law inference. |
 | RI-84 native first-departure checker | **Exact certificate published in independently verified `fc72c1f`; sources published `7cc7461`.** Rank three, no nonzero perturbation on frozen support; complete actual replays and independent arithmetic/custody checks pass. | Preserve the obstruction and failed admissions. RI-85 design is accepted and QR implements RI-88; do not repeat RI-84 or reopen its support. |
 | RI-85 complete four-vertex cap | **Design independently accepted and published in remotely verified `d1733b8`.** Complete 11-class/5-parent closure, 64-by-11 harmonic system and exact width decision proved. | RI-88 implements the frozen exact checker; actual coefficients and feasibility remain unevaluated. |
-| RI-88 native cap checker | **Source-only assignment active with Quantum Relativity.** Two-file reservation; no coefficient execution or certificate yet. | Complete checker/schema/control/source review and concrete execution freeze before the native decision. |
+| RI-88 native cap checker | **Complete two-file source independently accepted and included in this checkpoint.** Exact decision/control review and narrow supervisor carry-forward pass; coefficients remain uncomputed. | First bounded witness admission, then saved replays and complete independent certificate adjudication. |
 | RI-86 colored covariance proxy | **Design independently accepted and published in remotely verified `d1733b8`.** Exact finite non-DC Loewner bounds and seven qualification fixture families proved. | RI-87 prepares exact consumer/validator/qualification source; no observed application or calibrated covariance claim. |
-| RI-87 exact proxy implementation | **Complete four-file source independently accepted and included in this checkpoint.** Seven families, 12 tiny comparisons, four full-size scenarios and 106 refusals are implemented but unrun. | Review the minimal external qualification caller and concrete freeze, then actual normal/optimized qualification before separate saved-result application. |
+| RI-87 exact proxy implementation | **Complete four-file source independently accepted and published in remotely verified `548dab7`.** Seven families, 12 tiny comparisons, four full-size scenarios and 106 refusals are implemented but unrun. | Review the minimal external qualification caller and concrete freeze, then actual normal/optimized qualification before separate saved-result application. |
 | RI-77 random-cutoff locality | **Published in independently verified `d43d144`; reservation released.** | Preserve the fixed two-core counterexample. RI-79/81 are also published; constructive RI-84 is now active. |
 | RI-76 approximation asymptotics | **Published in independently verified `ad44848`.** | Preserve defect decay and height obstruction together; review RI-77 next. |
 | RI-75 strict approximation | **Published in independently verified `3a30ab0`.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 separately resolves long-run limits. |
@@ -4678,3 +4680,71 @@ any coefficients or certificate. No duplicate native assignment is issued.
 This source checkpoint includes only four stable RI-87 files and three
 coordinator records; active native sources and the unrelated baseline remain
 excluded. Neither qualification nor native/physical completion is claimed.
+
+**RI-88 complete source accepted; first exact decision admission prepared**
+
+RI-87's unchanged four-file source packet and three coordinator records are
+published in `548dab75ec3f939538e3ba78a59cb5f8f0825bee`, tree
+`141da23d3f952b984b410f3366f1a1f5dd7b26a8`. Normal push and a separate remote
+lookup both succeeded and agreed; all 2160 held entries were preserved. Its
+fresh external qualification caller is prepared under
+`/Volumes/AI_DATA/development/det-review-evidence/ri87-execution/preparation-20260925-CZofgf0J`.
+Source/freeze review continues before any measurement execution.
+
+QR released the complete RI-88 packet. Root read all 1145 checker lines, the
+385-line implementation note and the 584-line external supervisor. A separate
+coordinator-side reviewer independently read the whole mathematical/source
+closure, in addition to QR's complete internal reviews. No blocker was found.
+The two accepted source files in
+`docs/track_b/native_growth_four_vertex_cap_check_v1/` are:
+
+| Source | Bytes | SHA-256 |
+|---|---:|---|
+| `check.py` | 66081 | `93eb721e933d90ba922b62f8a6844b64529d2acee1ae3bb3e15c81c4de153568` |
+| `IMPLEMENTATION.md` | 21906 | `afd1bae0f61967b6f7397757b98e6cc74e174ab4f842e7b35550807822b00318` |
+
+The checker preserves eleven caps, five affected parents, 40 held rows and
+224 labeled probabilities, all 320 expanded rows, 2752 ideal occurrences and
+2752 uncancelled factors. Fourteen parent relabelings give 8448 marked-ideal
+comparisons and 10752 independently recomputed transported factors. Their
+aggregate manifest is retained; the individual transported entries are not
+separately serialized and must be rederived by the independent consumer.
+All canonical factors are fully retained. The moved-P2 control preserves the
+first-cap record by identity even if particular probabilities coincide.
+
+Exact deterministic RREF, elementary-operation replay, canonical null basis
+and signed free-zero dual implement the three frozen outcomes. Width uses all
+ideals and both fair newborn marks on the selected complete row. The positive
+branch checks every expanded residual and an interior amplitude; the signed
+dual lifts through representative rows without multiplicity division. The
+90 intended-reason controls and three algebra-only branch fixtures are source
+inventory, not executed results. No coefficient, rank, feasible vector,
+obstruction or resource outcome is inferred from source review.
+
+Root source acceptance:
+/Volumes/AI_DATA/development/det-review-evidence/ri88-source-checkpoint-xh4aj43n/ROOT_SOURCE_ADJUDICATION.json,
+4341 bytes, SHA-256 `8027619d8ca0d8322fd7576db2594477d1806d77140011fd793b2f8eb404c3ea`.
+Independent full source review:
+/Volumes/AI_DATA/development/det-review-evidence/ri88-independent-source-review-c2grkb3n/INDEPENDENT_SOURCE_REVIEW.json,
+10891 bytes, SHA-256 `c15d8ab4d26013a45977b78e7a6d1ed579aa959e9ad889b1b2bb8975b62610e2`.
+
+Root also verified exact full supervisor equality after only the declared
+root, checker-directory, checker-hash and header replacements. Its qualified
+predecessor and actual qualification evidence remain pinned. Fresh checks of
+25 unique files, all eleven freeze roles, literal interpreter symlink chains,
+ENV5, commands, resource bounds and nine absent destinations pass. Root accepts
+this unchanged monitor logic for a fresh admission; this is not a claim that
+the new adapter was separately qualified or that RI-88 has executed. The
+carry-forward decision is `ROOT_SUPERVISOR_CARRY_FORWARD.json` in
+`/Volumes/AI_DATA/development/det-review-evidence/ri88-qr-source-6aRFc9/`,
+2465 bytes, SHA-256 `a65f5a4931b7f5cc3c28b37eb504512527652f1f8eef0a0692671dba034aa8f8`.
+
+Next, root issues the exact new witness admission and runs only that command
+under the unchanged 120-second/512-MiB sampled envelope. Successful actual
+receipt and outer exit are both necessary. A candidate certificate then needs
+complete source-stable normal/optimized replays and independent full arithmetic
+and custody adjudication before scientific publication. The existing audit
+author prepares that independent consumer externally in parallel. A numerical
+failure must be preserved and investigated; it is not a mathematical obstruction.
+The first decision stays active, with no replacement support or duplicate QR
+assignment. RET remains paused, and the programme remains unfinished.
