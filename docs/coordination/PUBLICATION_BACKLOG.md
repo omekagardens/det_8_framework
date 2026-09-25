@@ -1,27 +1,24 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 25 September 2026 UTC.** RI-83's exact public H1/L1
-spectra and RI-84's exact finite native obstruction are independently accepted
-and published in remotely verified `fc72c1f` with separate review notes. Normal and
-optimized observed outputs agree; the qualified saved-data audit passes.
-The native three-class support has rank three: a retained record-bit change
-forces every perturbation coefficient to zero. Actual witness, normal and
-fresh optimized replays and the independent full certificate audit pass.
-The two failed native admissions remain preserved; neither launched a child.
-The accepted source checkpoints `81c35fc`, `1f1e62a` and `7cc7461` remain unchanged.
-RI-85 and RI-86's accepted designs are published in remotely verified `d1733b8`.
-RI-87's four-file exact measurement implementation is published and remotely
-verified in `548dab7`; its external qualification caller is prepared and under
-review. RI-88's complete two-file native checker is now independently accepted
-for this source checkpoint. All 90 new refusal branches and three algebra
-fixtures have source review; actual coefficients, rank and feasibility are
-still uncomputed. Root accepted the narrowly adapted qualified monitor and
-prepares the first bounded native witness admission. Separate full certificate
-rederivation is assigned in parallel. Measurement qualification and subsequent
-saved-data application remain distinct, unrun steps. The accepted spectra and
-held operator stay fixed. All-size native geometry/gravity, a measurement
-forward map and calibrated inference remain open. The programme continues,
-and RET remains paused.
+**Current checkpoint — 25 September 2026 UTC.** RI-88's positive finite
+native width perturbation and RI-87's fabricated measurement qualification are
+independently accepted for this checkpoint. The native 64-by-11 matrix has rank
+10 and one nonzero direction; epsilon=1/4 preserves strict positivity and gives
+an exact positive complete-row expected-width change. All eleven cap classes
+are necessary within this fixed pool. Witness, normal/optimized replay and a
+separate complete arithmetic audit pass. The measurement normal/optimized
+reports match exactly; twelve tiny cases, four full-sized fixtures and all
+106 intended-code refusals pass independent saved-evidence review.
+The unchanged source checkpoints `548dab7` and `d02b4b6` are remotely verified;
+this checkpoint adds only their genuine results, review notes and three
+coordination records. Prior accepted designs/results remain fixed.
+QR is assigned RI-89's first-continuation record-independence proof. The
+measurement author is assigned RI-90's separately reviewed caller for applying
+the qualified envelope to the saved public GWOSC spectra/operator certificate.
+RI-90 has no actual application result yet. Strict all-size extension existence
+does not establish persistent width improvement or suitable geometry; the
+half-scale height obstruction remains. Native gravity, a measurement forward
+map and calibrated inference remain open. The programme continues; RET is paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -4748,3 +4745,87 @@ author prepares that independent consumer externally in parallel. A numerical
 failure must be preserved and investigated; it is not a mathematical obstruction.
 The first decision stays active, with no replacement support or duplicate QR
 assignment. RET remains paused, and the programme remains unfinished.
+
+**RI-88 positive finite perturbation and RI-87 actual qualification accepted**
+
+The native checker sources were published in
+`d02b4b66fac8743c931252805db02a39782e0a61`, tree
+`4f59d276c21a17394969d8323d095940aeff8f7f`. Normal push and separate remote lookup
+both succeeded and agreed. Its unchanged actual witness now supplies a
+1,828,149-byte certificate, SHA-256
+`ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b`.
+Exact rank is 10, nullity one, and every canonical direction coordinate is
+nonzero. Epsilon=1/4 gives h7 in [3/4,5/4]. All 320 marked rows normalize;
+the complete selected parent row has positive expected-width change a6*u0/4.
+All eleven classes are necessary within this fixed pool: a proper subset forces
+one nonzero kernel coordinate to zero and hence the entire direction to zero.
+This is not global support minimality or an asymptotic geometry result.
+
+The actual witness, normal and optimized replays passed in 12.367616,
+12.452696 and 12.523282 seconds, with sampled peaks 127795200, 129925120 and
+129073152 bytes. The saved summaries match exactly (8939 bytes,
+`25210a0acf2fd78975a30c7003a68f3f8ac8e823bc3608e7d9eb1574a1a025ef`).
+All 90 new controls, three algebra fixtures and 15 inherited controls pass.
+A separately written, source-reviewed consumer genuinely rebuilt every
+coefficient, RREF operation, null direction, width and positivity value from
+authenticated held rows: 320 rows, 2752 canonical factors, 8448 transports and
+10752 transported factors. Its 17 reconstructed section hashes match the entire
+certificate. Actual audit exit was zero (`defb56`), 0.561571 seconds and
+54116352-byte sampled peak. Its report is 56803 bytes,
+`cb6499aef376592c14d9e8e514899e50f4d0e135ab5506c5d3be40174b7a495d`.
+Independent completed review reconciles all 31 audit inputs, six outputs and
+nine raw samples; prior witness/replay reviews reconcile 533 raw samples.
+The unchanged 120-second/512-MiB bound is sampled, not an allocator hard cap.
+
+RI-87's genuine fabricated qualification passed normal and optimized execution
+with identical 10061689-byte output,
+`0059391a6e6f964e1e5a858fc7ebff81c12cd1b1613cc37e1da745603ddbab32`.
+Independent saved-value review rebuilt all twelve tiny comparisons, every bin
+and exact endpoint of four production fixtures, and all 106 refusal results.
+Actual child times are 5.569923/5.751024 seconds; sampled peaks are
+127504/125408 KiB. All source/runtime custody and timing gaps pass the unchanged
+180-second/512-MiB envelope. Fixed fabricated runtime metadata remains separate
+from the genuine recovered runtime. Actual RI83/RI73 numerical values were not
+processed by qualification. The held RI60 qualification JSON supplied runtime
+metadata only. No actual saved-data envelope, noise adequacy or calibration is
+inferred from these synthetic checks.
+
+Durable root acceptance records are in
+/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/:
+RI88_ROOT_RESULT_ADJUDICATION.json (2783 bytes,
+`15cedc2d7683734450963dc147e2a0deef59f0713a6b9898d806d9dd1240bea6`)
+and RI87_ROOT_QUALIFICATION_ADJUDICATION.json (2488 bytes,
+`11425277b54cdac8e08d1e2b0f4e5ec924ab6317dfe0f1bdeb05cd9ecfda6c46`).
+Native completed review is 35072 bytes,
+`566ee7ad9589f89433c43ba97aabfeb1dec8f63e5d84f484d2851c114381cae9`;
+measurement completed review/supplement are 7360/2479 bytes,
+`79a931ce751e2dabd4a530bbc86479030c56c92a54594166d58be836de0d6418` and
+`8890b2232fd8ea04ad006c299015905a1da7dae3179a2b1d60f6390d3e5c0a9c`.
+Full evidence paths, actual mode exits and claim boundaries appear in the two
+new result review notes. Minor metadata-review field/label mistakes and their
+corrections are retained; no scientific attempt failed, no threshold was
+changed and no source or historical result was rewritten to obtain a pass.
+
+After predecessor adjudication, root assigned two concrete successors:
+
+- **RI-89, QR:** one proof/design note at
+  `docs/track_b/native_growth_relative_continuation_v1/CONTINUATION.md`.
+  Derive the proper-birth maximal-deletion ratio and necessary/sufficient
+  full-complement record-independence condition for the first continuation.
+  Determine what can be concluded analytically; if a numerical witness is
+  needed, freeze its smallest justified domain first. No q7, numerical a7/M7,
+  larger support catalogue or execution is part of this proof packet.
+- **RI-90, measurement author:** prepare a minimal source-only caller/protocol
+  in fresh durable external evidence, reusing qualified supervision and the
+  unchanged consumer plus validator for exact saved RI83/RI73 bodies. Bind
+  genuine runtime and accepted qualification. Root/independent source review
+  and a new concrete freeze precede actual application; no raw HDF/FFT replay,
+  calibration substitution or generic harness is assigned.
+
+RI-38 permits some all-size extension of the finite native seed. It does not
+ensure an all-size record-independent h or persistent width gain. RI-39's
+half-scale liminf height-density >=1/2 result applies to every finite seed,
+including this one. That normalization remains rejected for the vanishing-
+height-density target. Neither finite result supplies gravity, informative
+quantum dynamics, a physical forward map or DET uniqueness. RET remains paused.
+The original independent review, protected inputs and unrelated edits are held.
