@@ -5222,3 +5222,74 @@ pending. A separately written saved-result arithmetic audit is now being
 prepared before final application acceptance. No actual frequency-band
 result, numerical improvement or physical noise adequacy is yet claimed.
 Geometry/gravity and a native observation map remain open; RET remains paused.
+
+**RI-96 actual application passes both modes; independent saved arithmetic remains pending**
+
+The RI-95 five-file source checkpoint is committed, pushed and separately
+remote-verified at `9335b06aa78cb6ced8a6bd64796f63ddb3f1a47c`.
+Postcommit verification preserved 2188 held entry files, fourteen published
+dependencies and an empty index. QR has since released its external source-only
+producer/independent-consumer packet. The exact source publication is inherited;
+coordinator full packet review and native admissions remain the next native
+step. No new native coefficient or certificate is claimed.
+
+RI-96 now has actual normal and optimized application success. Root fully read
+all caller/helper source and the contract, reconciled independent source review,
+and freshly reopened the 36 ordered source pairs, both operands, 3925 runtime
+files and 28 retained qualification artifacts before normal authorization.
+The six retained functions and complete monitor loop are AST-identical to the
+actually qualified predecessor. The exact authorized freeze is 43593 bytes,
+cd23c0c27fdb31b33e2ac490cd6981790aea3e625f20f4abeaedc41799f32e72;
+only the prospective status changed. Root reviewed normal custody before the
+separate optimized authorization. Actual completion evidence is:
+
+| Mode | Genuine outer completion | Child seconds | Peak sampled KiB | Raw observations/samples |
+| --- | --- | ---: | ---: | ---: |
+| Normal | ab3417, exit 0 | 68.26647300000332 | 304816 | 2144 |
+| Optimized | 40d2fe, exit 0 | 68.67150933299854 | 310432 | 2152 |
+
+Each worker serialized the complete scientific result, released the producer
+object, reloaded the actual saved bytes and completed the independent recursive
+validator: eight rows, 65544 one-sided modes, fourteen bands and four scenarios.
+Parent/worker source, runtime, operand and acceptance records reconcile before
+and after. Root checked every raw observation and the unchanged 180-second,
+524288-KiB sampled-child-RSS and 0.1-second sample/final-gap gates; successful
+stderr is empty. This is sampled worker RSS, not an OS hard cap.
+Both complete results are 41673703 bytes at SHA-256
+5d0af7febecefd4db07bd93165b2fde7d887e7d3e7caf0243961638538db6580.
+Root also compared their whole byte streams. These are completed application
+and custody findings, not final independent arithmetic acceptance.
+
+The separately authored saved-arithmetic auditor is accepted at 49063 bytes,
+77bae781685fe0c42bbc1e7ff112399ae2aeecdd213db05a5373d4afb4d8c224;
+its contract is 11765 bytes,
+997606b1acb0ebd6fc3e4c2b7ecd8cb068d6b3a2d337b54f03c10654d3222132.
+Root read all 816 lines and the contract, plus two complete independent reviews.
+It reconstructs source-row uncertainty and quantization, all band C/H matrices,
+DC-inclusive midpoint Parseval and every scenario's weights, extrema/ties,
+Loewner endpoints, scalar intersections and ratios by direct product-of-magnitudes
+arithmetic. The qualified recursive transform's actual replay remains an explicit
+inherited premise; the auditor does not claim to derive a separate FFT.
+
+Root's exact completed descriptor and pending-arithmetic custody bridge are
+prepared. The runtime owner is assigned the minimal qualified supervision
+adaptation and independent source review. No audit invocation is authorized
+or claimed by this checkpoint. Its own genuine exit, resource/custody evidence,
+independent completed-evidence review and root mathematical adjudication must
+precede scientific result publication or claims of useful numerical improvement.
+The independent actual application custody review also passes: all 4296
+raw observations, full file identities and genuine exits reconcile. Its
+5376-byte verdict has SHA-256
+1fe95bb353e31f923c62d10775e9c01d649d0a160e7fb5e45ac2cfef2b2643c8
+in ri96-independent-completed-custody-8jm099ra. The reviewer disclosed
+authorship of the scientific producer; this is a separate custody review,
+not a substitute for the independently authored arithmetic consumer.
+
+All root admissions, genuine tool completions, custody checks, byte equality,
+source adjudication and descriptor are retained at
+/Volumes/AI_DATA/development/det-review-evidence/ri96-application-checkpoint-3cg5f8gf/.
+RI-95's released HANDOFF_MANIFEST.json is 13928 bytes,
+7bce4fe606f834086e450b05c3b89b6216a77679118349f16c9169d4c2ab0806,
+in the exact ri95-qr-source-00XpNr evidence directory; release is not root
+packet acceptance. Both lanes remain active. Physical covariance adequacy,
+calibrated significance and a native observation map remain open. RET stays paused.
