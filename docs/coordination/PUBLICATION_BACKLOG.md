@@ -1,23 +1,23 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 25 September 2026 UTC.** RI-101's complete signed
-one-layer lift is published and independently remote-verified in `a6c5fdc`.
-RI-102 now proves that this particular lift fails at the unchanged amplitude
-1/4: a J2 or J3 multiplier is strictly negative, and its positive threshold
-is below 1/82. Root and independent complete proof reviews pass. General
-positive extension remains open. RI-103 is assigned to the existing QR task
-to investigate a repair using private full-birth children, preserving all
-marked rows, the original baseline and seed.
-RI-100's actual normal and optimized applications and separately authored
-independent arithmetic audit are now accepted. All 8,192 modes and four
-scenarios reconstruct the entire saved result exactly; all three actual runs
-have independently reviewed custody under unchanged limits. This checkpoint
-publishes the exact RI-102 proof and five-file RI-100 result/audit bundle with
-these three coordinator records. RI-104 designs an observed off-event
-context-discrepancy benchmark on the existing public inputs. The finite
-covariance model and physical calibration remain premises; no native physical
-forward map or geometry/gravity result is claimed. Both substantive lanes
-continue, RET alone stays paused, and unrelated edits remain held.
+**Current checkpoint — 25 September 2026 UTC.** The RI-102 fixed-lift
+obstruction and RI-100 independent actual measurement audit are published and
+separately remote-verified in `38405bf`. RI-103 now establishes maximal-record
+invariance and the complete 27-child repair system. Any positive repair in
+that family requires a record-constant T1 full probability; its actual
+feasibility remains unresolved. Root and independent complete reviews accept
+the proof and fixed six-row polynomial-decision design. RI-105 is assigned
+to the existing QR task for a bounded exact checker and verification contract.
+RI-104's observed off-event comparison design also passes complete root and
+independent review. It fixes 26 windows, 208 discrepancies, exact finite side
+centering and comparisons with the four unchanged RI-100 proxy traces.
+RI-106 now implements this design externally, with separately authored primary
+and full validator code. No new scientific execution or observed-input read
+has occurred in these design packets. This checkpoint publishes the two
+accepted notes and three coordinator records. Fresh qualification and actual
+custody/admissions remain required; calibration, physical covariance and the
+native forward map remain separate. Both lanes continue; RET alone stays
+paused and unrelated edits remain held.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -63,11 +63,13 @@ with unrelated changes to make an import succeed.
 | RI-96 actual frequency-band application | **Result, independent arithmetic and custody published in verified `96daa9d`.** Five-file bundle preserved. | Keep physical adequacy separate; RI-98 qualification is accepted and RI-100 actual application and separate arithmetic audit are accepted; RI-104 designs observed comparison. |
 | RI-98 direct trace implementation | **Qualification published in verified `18dec9b`; sources in `d77e40f`.** Both modes pass 11 cases and 59 refusals with complete scientific equality. | Keep qualification fixed; RI-100 actual application and separate arithmetic audit are accepted; RI-104 designs observed comparison. |
 | RI-99 harmonic extension | **Conditional finite proof published in verified `b44622c`.** Local rank-two positive slice and complete incidence-closure limits retained. | RI-101 now supplies a global signed one-layer lift; prescribed-amplitude positivity stays separate. |
-| RI-100 actual direct trace | **Actual normal/optimized result and separate independent arithmetic audit accepted.** Exact full-result equality, all 8,192 modes/four scenarios and all three actual execution-custody reviews pass. | Publish the five-file result/audit bundle; RI-104 now designs observed off-event context-discrepancy comparison. Physical covariance adequacy remains open. |
+| RI-100 actual direct trace | **Five-file actual result/audit bundle published in independently verified `38405bf`.** All modes, scalar reconstruction and execution custody accepted. | Preserve exact result. RI-104 comparison design is accepted; RI-106 implements it before qualification and observed execution. |
 | RI-101 signed extension | **Published in independently verified `a6c5fdc`.** Complete signed lift and sufficiently-small-amplitude positivity retained. | RI-102 rejects this lift at amplitude 1/4; RI-103 examines private full-birth compensation. No all-size inference. |
-| RI-102 fixed-amplitude lift | **Complete manual proof independently accepted for this checkpoint.** Strict J2/J3 negativity at 1/4 and lift threshold below 1/82. | Publish exact AMPLITUDE.md; preserve scope to this lift. RI-103 tests a different positive repair with all marked constraints. |
-| RI-103 positive extension repair | **Assigned to QR externally, proof/design only.** | Test private full-birth compensation on the complete incoming closure; every marking and fixed amplitude retained. No scientific execution. |
-| RI-104 observed context benchmark | **Assigned externally, source-only design.** | Freeze inherited window/index mapping, centering and dependency limits before observed discrepancy/trace comparison. No acquisition or execution. |
+| RI-102 fixed-amplitude lift | **Exact proof published in independently verified `38405bf`.** Strict J2/J3 negativity at 1/4; lift threshold below 1/82. | Preserve fixed-lift scope. RI-103 supplies the compensated-family necessary condition; RI-105 targets its contrast. |
+| RI-103 positive extension repair | **Complete conditional proof/design independently accepted for this checkpoint.** Maximal-bit invariance, complete 27/16 system and necessary T1 record constancy. Actual feasibility remains open. | Publish REPAIR.md; RI-105 prepares the exact six-row/32-slot fixed-pair polynomial decision. No support or scale substitution. |
+| RI-104 observed context benchmark | **Complete source-only design independently accepted for this checkpoint.** Fixed 26-window map, direct exact contractions and finite side centering. | Publish DESIGN.md with one portable-link adaptation. RI-106 implements consumer/qualifier and separately authored full validator before execution. |
+| RI-105 native contrast decision | **Assigned to QR externally, source-only.** | Exact fixed-pair polynomial/root certificate and independent verification plan for six held rows/32 slots; no arithmetic execution or all-stem expansion yet. |
+| RI-106 observed benchmark implementation | **Assigned externally, source-only.** | Primary/qualifier and separate endpoint-sign full validator coordinate a closed API; unchanged gates and no observed operands or execution before review. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
 | RI-85 complete four-vertex cap | **Design published in verified `d1733b8`; result published `9d40744`.** The fixed 11-class construction has one nonzero harmonic direction and positive finite width gain. | Preserve the exact support and positivity premises; RI-89/91 study its continuation. |
@@ -5656,3 +5658,26 @@ accepted six research files and the three coordinator records. The
 [progress record](REVIEW_PROGRESS.md) retains exact identities,
 genuine execution evidence, review incidents and remaining gates. Both lanes
 remain active; RET alone stays paused, with no programme-completion claim.
+
+**25 September: native compatibility theorem and observed-data design accepted.**
+The prior RI-102/100 checkpoint is published in independently verified `38405bf`.
+Root and independent complete review accept the
+[RI-103 proof](../track_b/native_growth_full_birth_repair_v1/REPAIR.md):
+current-maximal-record invariance, complete 27-child/16-parent repair equations,
+and the necessary record-constant T1 full profile. The resulting nonzero
+polynomial of degree at most three supplies a bounded contrast question, not
+an actual rejection or positive repair. RI-105 now prepares its exact six-row/
+32-slot decision and independent verification contract externally.
+
+The [RI-104 observed-data design](../experiments/gwosc_off_event_context_benchmark_v1/DESIGN.md)
+is also accepted: fixed 26 windows, 208 raw discrepancies, complete raw/capture
+custody, exact finite side centering and comparison with four unchanged proxy
+traces. No independence, population-mean, calibrated noise or significance
+claim is inferred. RI-106 now prepares primary/qualifier and a separate full
+validator; qualification and observed execution remain gated future steps.
+This five-path checkpoint publishes the two accepted notes and three coordinator
+records. The RI-104 copy changes only one absolute Markdown link to a portable
+relative link; exact original and delta remain held. The
+[progress record](REVIEW_PROGRESS.md) carries proof scope,
+exact identities, reviewer roles, remaining premises and new assignments.
+Both lanes continue, with central git/admissions and RET alone paused.

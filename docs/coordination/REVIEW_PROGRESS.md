@@ -1,23 +1,23 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 25 September 2026 UTC.** RI-101's complete signed
-one-layer lift is published and independently remote-verified in `a6c5fdc`.
-RI-102 now proves that this particular lift fails at the unchanged amplitude
-1/4: a J2 or J3 multiplier is strictly negative, and its positive threshold
-is below 1/82. Root and independent complete proof reviews pass. General
-positive extension remains open. RI-103 is assigned to the existing QR task
-to investigate a repair using private full-birth children, preserving all
-marked rows, the original baseline and seed.
-RI-100's actual normal and optimized applications and separately authored
-independent arithmetic audit are now accepted. All 8,192 modes and four
-scenarios reconstruct the entire saved result exactly; all three actual runs
-have independently reviewed custody under unchanged limits. This checkpoint
-publishes the exact RI-102 proof and five-file RI-100 result/audit bundle with
-these three coordinator records. RI-104 designs an observed off-event
-context-discrepancy benchmark on the existing public inputs. The finite
-covariance model and physical calibration remain premises; no native physical
-forward map or geometry/gravity result is claimed. Both substantive lanes
-continue, RET alone stays paused, and unrelated edits remain held.
+**Current checkpoint — 25 September 2026 UTC.** The RI-102 fixed-lift
+obstruction and RI-100 independent actual measurement audit are published and
+separately remote-verified in `38405bf`. RI-103 now establishes maximal-record
+invariance and the complete 27-child repair system. Any positive repair in
+that family requires a record-constant T1 full probability; its actual
+feasibility remains unresolved. Root and independent complete reviews accept
+the proof and fixed six-row polynomial-decision design. RI-105 is assigned
+to the existing QR task for a bounded exact checker and verification contract.
+RI-104's observed off-event comparison design also passes complete root and
+independent review. It fixes 26 windows, 208 discrepancies, exact finite side
+centering and comparisons with the four unchanged RI-100 proxy traces.
+RI-106 now implements this design externally, with separately authored primary
+and full validator code. No new scientific execution or observed-input read
+has occurred in these design packets. This checkpoint publishes the two
+accepted notes and three coordinator records. Fresh qualification and actual
+custody/admissions remain required; calibration, physical covariance and the
+native forward map remain separate. Both lanes continue; RET alone stays
+paused and unrelated edits remain held.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -61,11 +61,13 @@ the latest assignments below and in the plan govern current work.
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |
 | RI-98 direct trace implementation | **Qualification published in verified `18dec9b`; sources in `d77e40f`.** Both modes pass 11 cases and 59 refusals with complete scientific equality. | Keep qualification fixed; RI-100 actual application and separate arithmetic audit are accepted; RI-104 designs observed comparison. |
 | RI-99 harmonic extension | **Conditional finite proof published in verified `b44622c`.** Local rank-two positive slice and complete incidence-closure limits retained. | RI-101 now supplies a global signed one-layer lift; prescribed-amplitude positivity stays separate. |
-| RI-100 actual direct trace | **Actual normal/optimized result and separate independent arithmetic audit accepted.** Exact full-result equality, all 8,192 modes/four scenarios and all three actual execution-custody reviews pass. | Publish the five-file result/audit bundle; RI-104 now designs observed off-event context-discrepancy comparison. Physical covariance adequacy remains open. |
+| RI-100 actual direct trace | **Five-file actual result/audit bundle published in independently verified `38405bf`.** All modes, scalar reconstruction and execution custody accepted. | Preserve exact result. RI-104 comparison design is accepted; RI-106 implements it before qualification and observed execution. |
 | RI-101 signed extension | **Published in independently verified `a6c5fdc`.** Complete signed lift and sufficiently-small-amplitude positivity retained. | RI-102 rejects this lift at amplitude 1/4; RI-103 examines private full-birth compensation. No all-size inference. |
-| RI-102 fixed-amplitude lift | **Complete manual proof independently accepted for this checkpoint.** Strict J2/J3 negativity at 1/4 and lift threshold below 1/82. | Publish exact AMPLITUDE.md; preserve scope to this lift. RI-103 tests a different positive repair with all marked constraints. |
-| RI-103 positive extension repair | **Assigned to QR externally, proof/design only.** | Test private full-birth compensation on the complete incoming closure; every marking and fixed amplitude retained. No scientific execution. |
-| RI-104 observed context benchmark | **Assigned externally, source-only design.** | Freeze inherited window/index mapping, centering and dependency limits before observed discrepancy/trace comparison. No acquisition or execution. |
+| RI-102 fixed-amplitude lift | **Exact proof published in independently verified `38405bf`.** Strict J2/J3 negativity at 1/4; lift threshold below 1/82. | Preserve fixed-lift scope. RI-103 supplies the compensated-family necessary condition; RI-105 targets its contrast. |
+| RI-103 positive extension repair | **Complete conditional proof/design independently accepted for this checkpoint.** Maximal-bit invariance, complete 27/16 system and necessary T1 record constancy. Actual feasibility remains open. | Publish REPAIR.md; RI-105 prepares the exact six-row/32-slot fixed-pair polynomial decision. No support or scale substitution. |
+| RI-104 observed context benchmark | **Complete source-only design independently accepted for this checkpoint.** Fixed 26-window map, direct exact contractions and finite side centering. | Publish DESIGN.md with one portable-link adaptation. RI-106 implements consumer/qualifier and separately authored full validator before execution. |
+| RI-105 native contrast decision | **Assigned to QR externally, source-only.** | Exact fixed-pair polynomial/root certificate and independent verification plan for six held rows/32 slots; no arithmetic execution or all-stem expansion yet. |
+| RI-106 observed benchmark implementation | **Assigned externally, source-only.** | Primary/qualifier and separate endpoint-sign full validator coordinate a closed API; unchanged gates and no observed operands or execution before review. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
 | RI-85 complete four-vertex cap | **Design published in verified `d1733b8`; result published `9d40744`.** The fixed 11-class construction has one nonzero harmonic direction and positive finite width gain. | Preserve the exact support and positivity premises; RI-89/91 study its continuation. |
 | RI-88 native cap checker | **Sources published `d02b4b6`; positive result and independent arithmetic review published `9d40744`.** Rank 10, nullity one; fixed finite width gain retained. | RI-95 obstruction is accepted; RI-99 is published; RI-101 supplies a signed one-layer lift; RI-102 rejects this fixed lift at 1/4; RI-103 investigates a positive repair. |
@@ -10299,3 +10301,149 @@ actual admission precede any later execution. This advances a direct observed
 comparison while QR pursues native positive repair. RET alone stays paused.
 The nine-path checkpoint preserves all unrelated baseline files, the original
 independent review, historical results and protected material.
+
+**RI-103 native record compatibility and RI-104 observed-data design accepted**
+
+The predecessor nine-path checkpoint is committed, normally pushed and separately
+remote-verified as `38405bf45c362dce5938eea5ab8ce4af848bb838`, tree
+`4ff9609424bb70353d79a460cb2f6aa4defd2066`. Genuine commit `f808d0`, push
+`1376e7` to `af8792`, and distinct remote check `3c398f` are retained in
+`/Volumes/AI_DATA/development/det-review-evidence/ri102-ri100-root-review-hnltxouk/PUBLICATION.json`.
+All 2210 nonscope entry files were preserved. The original independent review,
+RET material, historical source-only states and numerical results remain held.
+
+Root accepts the complete [RI-103 note](../track_b/native_growth_full_birth_repair_v1/REPAIR.md),
+20,198 bytes, SHA256 `8a2a4bf9142341e2511763cbfd799183860e907372d577b9b32d8c1cf24a955c`.
+All 528 lines were manually reviewed, with original RI-38/85/88/89/94/99/101/102
+premises and RI-63's rational strict-mixture premise. Fifteen packet pins and
+that supplemental prefix source were freshly reconciled. An independent full
+manual proof review passes. No native coefficient, certificate value, solver
+or numerical target was evaluated.
+
+The new induction proves that a currently maximal vertex's record is invisible
+to every ideal probability, including the full complement, under the retained
+positive scalar-passive locality and complete marked-diamond premises. Its
+smaller full-slot case is necessary when the precursor equals the smaller
+parent. This removes maximal bits by proof, reducing all 2048 raw marked rows
+to 384 representatives; it does not erase nonmaximal records or posit a new
+all-size law. In particular an old isolated bit cannot test the proposed
+full-probability contrast.
+
+The specified repair adds sixteen private full-birth children to the eleven
+empty-birth children. Unique-max deletion proves exactly 27 child variables,
+sixteen incoming parents, 54 backward roles and 50 forward ideal slots.
+Complete connected and disconnected marked equations retain shared values,
+individual ideal multiplicities and all strict recovered positivity conditions.
+Every outside correction row vanishes by the exhaustive incoming closure.
+
+The accepted RI-102 ratio above 41, combined with the unit normalized-row cap,
+forces `w1<4/41`. The repaired full probability is allowed to change; the old
+one-half proper-mass cap is not reused. The connected T1 equation then forces
+a strictly positive full-child correction and exactly record-constant actual
+T1 full probability. A single genuine contrast would reject this whole
+27-child family. T8 and T11 really have constant full profiles, so blanket
+record sensitivity is false. Neither RI-95's different obstruction nor an
+isolated-bit change supplies the required contrast.
+
+The fixed record0/1 contrast is
+`P01(x)=-4 DeltaE+6x Deltaj+4x^2 Deltav+x^3 DeltaK`.
+Accepted nonzero Deltaj makes this a nonzero polynomial of degree at most three.
+The actual half-scale is rational because the held strict prefix and every
+finite complete-layer row sum are rational. A positive repair therefore
+requires an admissible rational root in the original interval `(0,R]`.
+No root or actual contrast has been calculated; nonzero polynomial does not
+mean nonzero at the actual scale. General positive feasibility remains open.
+
+After this adjudication root assigned **RI-105** to the existing QR task:
+prepare a small exact polynomial decision/certificate and independent-check
+contract for only the six held C3/C4/H5 rows at records0/1, 32 slots. Complete
+no-real-root certification is sufficient; any rational-root exclusion must
+also be exact and bounded. A surviving candidate root or undecided method
+must remain unresolved, never become a selected actual scale or positive-law
+claim. The 24-row all-stem refinement and optional Y0 support enlargement are
+not assigned. Source-only implementation/review precedes separate qualification,
+source/input custody and numerical admission. No new q6/q7 table or global
+M6/M7 calculation is allowed in this bounded step.
+
+Root decision is `ri103-ri104-root-review-9dgey1cm/RI103_ROOT_FINAL_ADJUDICATION.json`,
+10337 bytes, `cdba6eb1a4b52a619040a0e6b493be06d790731fb03263e2ced20c55715491e3`,
+under the durable evidence parent. Independent review is
+`ri103-independent-proof-review-7rpvweek/INDEPENDENT_FULL_PROOF_REVIEW.json`,
+2651 bytes, `72e9dd8dc59af5b61ef24b79ae4867f55d2a9fe208e480425dd8a811eb6983f9`;
+its complete manual analysis is 12150 bytes,
+`1a6921a65d7dd9801256f3b15319d9547fa124affc5e546f8be555f35db5d2c0`.
+The source packet preserves prior incidents and its corrected missing-Markdown
+read; no exposed numerical body supplies a premise in this assignment.
+
+**RI-104 now fixes the next observed-data comparison.** Root and independent
+review accept the full 534-line [design](../experiments/gwosc_off_event_context_benchmark_v1/DESIGN.md).
+Each of thirteen inherited M=16384 windows per detector uses exactly its first
+T=10961 samples and short center `[4096,6865)`, with the same eight selected
+coordinates. The 26 windows give 208 raw discrepancy enclosures, 416 short/long
+enclosures, 32 side-mean enclosures and 208 centered enclosures. Exact clocks,
+partly covered one-second flag rows, all original segment hashes, overlap,
+excluded interval and unused tail remain explicit.
+
+Raw HDF5 snapshots are required: RI-83's rounded demeaned exports cannot be
+inverted by adding a saved mean. Both complete original files must be bound
+before either future parse, and the full inspector result must match. The
+complete original 109840 coefficient intervals remain a separate accepted
+input premise, streamed with full grammar and custody checks. No new raw
+sample, captured interval or observed-result value was decoded for this design.
+
+Exact coordinatewise input centering preserves one common uncertain linear
+operator. The design retains direct signed contractions, all means, centered
+responses and componentwise/total `U=V+Mbar` consistency intersections without
+adaptive interval tightening. Divisor n is descriptive. The expected centered
+energy identity includes covariance of the sample mean and between-window mean
+dispersion; overlap and unknown population means prevent equating the finite
+centered energy with the proxy trace or applying an n/(n-1) correction.
+The four RI-100 trace intervals are unchanged side-by-side model quantities,
+not empirical pass/fail bands, significance tests or held-out validation.
+
+All six output data artifacts are complete: two lossless full raw float64
+arrays and four exact coordinatewise mean arrays. A separately authored full
+validator must independently parse the capture and reconstruct every output
+from retained raw values, using endpoint-sign arithmetic independent of the
+primary midpoint/radius route. The fixed width gate remains
+`width <= 1e-12 * max(abs(input))`, with exact zero treated separately.
+The reviewed clarification says that deliberately wide synthetic boxes test
+primitive containment/dependence only; they cannot pass or bypass full-path
+width admission. The original draft and exact one-paragraph delta are retained.
+
+Source remains a design: no implementation, executed qualification, new input
+custody or actual result is claimed. The fixed 180-second/524288-KiB sampled
+child envelope and monitoring limits remain unchanged, with no promise that
+future exact dot products will fit. Resource or width failure must be retained;
+no automatic rerun, precision increase, operand change or relaxed threshold.
+Physical covariance, calibration, population means, protected validation and
+native observation-map prerequisites remain separate from this conventional
+finite measurement.
+
+The reviewed original is 32200 bytes,
+`cfbc0ad047ce2c4e590e4911fb0b4081205a3c62803aa9c9e54d783dabbf8b05`,
+in `ri104-observed-context-design-yba9xjx7/DESIGN.reviewed-v2.md`.
+The published copy changes only its sole absolute measurement-plan Markdown
+link to a portable relative link: 32152 bytes,
+`cd7a585f0002f1aef4d16bb96884c0a745291d41b33e73ff466567cbff5f2478`.
+No mathematical, numerical or gate text changes. The exact adaptation is
+retained in `ri103-ri104-root-review-9dgey1cm/RI104_PUBLICATION_LINK_ADAPTATION.json`.
+Root acceptance `RI104_ROOT_FINAL_ADJUDICATION.json` in that folder is 10268 bytes,
+`63b781b8a87c0ac86dfdf145ddf2b7073b71137eabd6c4778b5c8b10aabf8267`.
+Independent full design review is
+`ri104-independent-full-design-review-drhy95op/INDEPENDENT_FULL_DESIGN_REVIEW.json`,
+13669 bytes, `3ed7255fdbbe92851c038af18143746f90b249763dca53ca685332a883a3b075`.
+All 23 referenced source/document identities match; no fixture execution was
+substituted for manual mathematical review.
+
+After acceptance root assigned **RI-106** externally: the measurement owner
+writes the primary consumer, qualifier and closed API/schema; the separately
+authored validator uses independent endpoint-sign arithmetic and capture parsing.
+Their contract preserves all recorded dimensions, artifacts, intended-refusal
+reasons and gates. Source preparation opens no actual scientific operands and
+executes no targets. Full source review precedes genuine fabricated normal/
+optimized qualification; fresh caller/raw/capture custody and separate actual
+admissions follow only after qualification acceptance. Root retains all
+repository/index/publication and execution decisions. The native and observed
+lanes are active, RET alone paused, and this five-file proof/design checkpoint
+makes no programme-completion or physical-validation claim.
