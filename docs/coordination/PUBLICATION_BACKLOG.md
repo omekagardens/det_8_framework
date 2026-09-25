@@ -6,12 +6,14 @@ all declared cases and 37 intended refusals pass, and peak sampled RSS is
 440992/461168 KiB under the unchanged 512 MiB limit. Both earlier failures and
 the reviewed allocation repair are retained. RI-82's fixed first-departure
 harmonic design is independently accepted; actual feasibility remains unknown.
-Source-only RI-83 now prepares the actual public-input caller, while QR's RI-84
-implements the exact native certificate. Both require independent source review
-and a new execution freeze before scientific execution. This nine-file checkpoint is published in independently verified
-`1f1e62a`. RET remains paused.
+RI-83's actual public-input caller/contract passed complete root and separate
+source review. Its unchanged two-file source checkpoint is being published;
+external helper and fabricated integration preparation is active. QR's RI-84
+continues the exact native checker implementation. Neither new lane has executed
+its scientific target. RI-80/82 are published in independently verified
+`1f1e62a`; tracking commit `fb4ab80` is also remotely verified. RET remains paused.
 
-**24 September recovery status.** Source-only RI-73 checkpoint
+**24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
 verified on origin/ret. A host reboot interrupted RI-74 review and removed
 the temporary external runtime/helpers/receipts. Historical execution reports
@@ -44,8 +46,9 @@ with unrelated changes to make an import succeed.
 |---|---|---|
 | RI-80 fabricated spectra qualification | **Published in independently verified `1f1e62a`.** Identical normal/-O reports, all declared cases and 37 intended refusals pass; two failed attempts preserved. | RI-83 separately implements the actual-input caller before a new freeze. |
 | RI-82 constructive native design | **Published in independently verified `1f1e62a`.** Complete closure, conditional rank/positivity and width target reviewed. | RI-84 implements the fixed exact decision; actual feasibility unknown. |
-| RI-83 / RI-84 active successors | **Source-only implementation in disjoint reservations.** No observed spectra or new native coefficients executed. | Review source and complete prospective freezes; keep RET paused. |
-| RI-77 random-cutoff locality | **Assigned; three possible new paths reserved.** | Decide strict record locality of the specified latent-cutoff mixture, with a frozen two-core witness domain. |
+| RI-83 observed spectral caller | **Source independently reviewed; two-file publication in progress.** No observed run or integration pass claimed. | Review external helper/harness source, freeze and run fabricated glue controls, then separately admit actual inputs. |
+| RI-84 native first-departure checker | **Source implementation active in QR.** Actual coefficient feasibility unknown. | Review source and a complete prospective freeze before coefficient execution; keep accepted support and limits. |
+| RI-77 random-cutoff locality | **Published in independently verified `d43d144`; reservation released.** | Preserve the fixed two-core counterexample. RI-79/81 are also published; constructive RI-84 is now active. |
 | RI-76 approximation asymptotics | **Published in independently verified `ad44848`.** | Preserve defect decay and height obstruction together; review RI-77 next. |
 | RI-75 strict approximation | **Published in independently verified `3a30ab0`.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 separately resolves long-run limits. |
 | RI-74 Plancherel boundary graft | **Published in independently verified `314d5e8`.** | Preserve the conditional zero-allowed theorem; RI-75 investigates strict approximation. |
@@ -4190,3 +4193,63 @@ large-file warning; no report data was reduced. Index was empty afterward.
 Active RI-83 actual-input caller and RI-84 native checker remain excluded.
 Both are source-only until review and prospective execution admission. Original
 review, all historical identities, acceptance limits and RET pause remain intact.
+
+**RI-83 source review and reproducibility checkpoint — 25 September UTC**
+
+Root has read the complete caller and execution contract; a separate complete
+source/API/custody review passes at the same final pins. The author released
+both files, and no post-review code or contract change is included here:
+
+| Source | Bytes | SHA-256 |
+|---|---:|---|
+| run_observed.py | 21098 | `979a27b7af9ad432dd3c9d7abbe87197a8984226b5bc6e016ab93ef92108737b` |
+| EXECUTION.md | 20119 | `bf5d3fb79fb39ab6700c8ad4945036391db347b926accbcbb5505ac631019e17` |
+
+The caller authenticates the accepted qualification and window, captures
+admitted source bytes, binds both immutable public inputs before either HDF5
+parse, retains complete RI-37 metadata, applies the unchanged result validator,
+and checks an independently enumerated 235-file artifact closure. Canonical
+streaming preserves every scientific value; source/runtime/input and output
+bindings are checked again. External callbacks and an authorization string
+cannot authenticate themselves: the separately reviewed parent must enforce
+actual source/command/environment/runtime admission, resource limits, failures,
+post-exit custody and serial result equality.
+
+This is a source-only recovery checkpoint, not an executed integration or
+observed result. Source and handoff identity, Python AST and dependency/link
+checks do not replace the pending fabricated controls. All twelve repository
+dependencies are already published; the exact external recovery receipt is
+present and pinned. The already accepted window bytes still require a concrete
+reviewed extraction/copy in the new freeze. No observed HDF5 input was opened,
+no window/spectrum/FFT was computed and no numerical module was imported during
+this review or publication. RESULT.json remains absent.
+
+The source handoff is retained at
+/Volumes/AI_DATA/development/det-review-evidence/ri83-source-only-20260925T001512Z-b1a62382/SOURCE_ONLY_HANDOFF.json,
+10575 bytes, SHA-256
+`e484844829eb3a0cd0f54e44b1e1f345efbd5dc11068201bbc9c4f8043af216c`.
+Independent review:
+/Volumes/AI_DATA/development/det-review-evidence/ri83-independent-source-review-20260925T001349Z-2c7e9001/INDEPENDENT_SOURCE_REVIEW.json,
+7716 bytes, SHA-256
+`3ecc50f6b39abe12723bf2c9df88caf15ec0ebbe6c8175d02bbcc32616dedb59`.
+Root review:
+/Volumes/AI_DATA/development/det-review-evidence/ri80-ri82-publication-20260925T000640Z-63dd51ee/RI83_ROOT_SOURCE_REVIEW.json,
+1795 bytes, SHA-256
+`04db3919a9a3cc02ef564e34a2e41b0dc3df2833b24ce9b990a770eee8acb91b`.
+
+The next concrete measurement work is already active: the runtime/custody author
+prepares external control/worker/supervisor source and a concrete prospective
+freeze under ri83-execution/prep-20260925T001602Z-86696e9b/; a separate author
+prepares the bounded fabricated artifact/stream/refusal harness. Both are
+source-only until root and independent review. They may preserve an exact
+stdlib-only extraction of the accepted window, but may not launch scientific
+helpers or open observed inputs. Normal/-O fabricated integration must pass
+under the unchanged 180s/512MiB sampled-RSS envelope before a separate observed
+freeze. Calibration, covariance, significance, native forward maps and RET
+prerequisites remain unchanged.
+
+QR remains active on RI-84; no duplicate or replacement native assignment is
+issued. Its fixed first-departure rank decision remains open. The five-file
+checkpoint includes only the two unchanged reviewed RI-83 sources and three
+coordinator records. Its preflight/publication evidence is retained under
+/Volumes/AI_DATA/development/det-review-evidence/ri83-source-publication-20260925T001814Z-edd4016b/.
