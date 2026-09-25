@@ -1,22 +1,23 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 25 September 2026 UTC.** The previous source/custody
-checkpoint is published and independently remote-verified at `d77e40f`.
-RI-95's independently executed arithmetic audit reconstructs all 17 certificate
-sections and confirms the fixed positive-amplitude obstruction. Root accepts
-the result after independent completed custody review; this checkpoint publishes
-its exact certificate, audit report, consumer, contract and result review.
-RI-98's actual fabricated qualification passes 11 cases and 59 refusal checks
-in normal and optimized modes, with byte-identical report and three complete
-artifacts. Independent arithmetic and custody reviews pass; this checkpoint
-publishes the qualification report and review beside the unchanged sources.
-RI-99 is assigned to the existing QR task: derive the next-layer record-blind
-harmonic-extension feasibility conditions beyond the rejected common-level
-relative ansatz. RI-100 concurrently prepares the actual saved RI-96-input
-application caller, source only. Both assignments use fresh external packets;
-root owns repository changes, execution admission and publication. Geometry,
-gravity, an observation forward map and empirical covariance adequacy remain
-open. The programme continues; RET alone stays paused.
+**Current checkpoint — 25 September 2026 UTC.** RI-95's exact native
+amplitude obstruction and RI-98's completed fabricated qualification are
+published and independently remote-verified in `18dec9b`. RI-99's complete
+proof/design is now independently accepted. Its fixed local subsystem has
+eight child variables, rank two and a positive six-dimensional slice; the
+first deletion closure has seven parents and thirty roles. The sparse reset
+outside those children is rejected. Full incidence closure reaches the whole
+layer, and global signed/positive feasibility remains open. This checkpoint
+publishes the reviewed proof note with the three coordinator records.
+RI-101 is assigned to the existing QR task: signed extension feasibility,
+full-birth elimination and a native-specific symbolic solution or exact dual
+obstruction, with requested-amplitude positivity kept separate. RI-100's
+concrete source-only saved-data caller has been delivered. Root and independent complete source/metadata reviews pass; the caller is
+source-accepted. Genuine input-custody binding and reviewed freeze completion
+precede actual execution admission. A separate saved-arithmetic consumer is
+now assigned for external source preparation. Both lanes continue externally.
+No native geometry/gravity or empirical covariance claim follows. RET alone
+stays paused, and the original review and unrelated edits remain held.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -55,18 +56,19 @@ with unrelated changes to make an import succeed.
 | RI-84 native first-departure checker | **Exact certificate published in independently verified `fc72c1f`; sources published `7cc7461`.** Rank three, no nonzero perturbation on frozen support; complete actual replays and independent arithmetic/custody checks pass. | Preserve the obstruction and failed admissions. RI-85 design is accepted and QR implements RI-88; do not repeat RI-84 or reopen its support. |
 | RI-89 relative continuation | **Published in verified `e248bab`.** Conditional full-complement criterion and necessary t=s. | RI-91 actual obstruction is accepted; preserve the theorem and its fixed-baseline premises. |
 | RI-90 saved proxy application | **Published in verified `e248bab`.** Four actual proxies and independent reconstruction accepted. | Preserve broad global bounds; RI-92/93 develop certified frequency responses. |
-| RI-91 native relative obstruction | **Published in verified `8c68c8a`.** Actual certificate and full independent reconstruction accepted. | Preserve exact result; RI-95 now certifies the fixed positive-amplitude rectangle and RI-99 examines a broader extension question. |
+| RI-91 native relative obstruction | **Published in verified `8c68c8a`.** Actual certificate and full independent reconstruction accepted. | Preserve exact result; RI-95 now certifies the fixed positive-amplitude rectangle and RI-99 is accepted and RI-101 pursues global signed feasibility. |
 | RI-92 frequency-resolved proxy | **Published in verified `59f9c86`.** Fixed-band proof/design independently accepted. | Preserve full operator snapshots and design; RI-96 actual application is published in `96daa9d`. |
 | RI-93 frequency-resolved implementation | **Sources published `9e63656`; fabricated qualification accepted and published.** Complete mathematical/custody review passes. | Preserve sources/results and the published RI-96 actual application. |
-| RI-95 amplitude certificate | **Actual result and independent arithmetic/custody accepted for this checkpoint.** All 17 sections reconstruct exactly; fixed positive-amplitude obstruction. | Publish the five-file result bundle; RI-99 examines the general next-layer harmonic-extension conditions without weakening this obstruction. |
+| RI-95 amplitude certificate | **Exact result and independent audit published in verified `18dec9b`.** All 17 sections reconstruct the restricted positive-amplitude obstruction. | Preserve the fixed result; RI-99 is accepted and RI-101 pursues global harmonic-extension feasibility. |
 | RI-96 actual frequency-band application | **Result, independent arithmetic and custody published in verified `96daa9d`.** Five-file bundle preserved. | Keep physical adequacy separate; RI-98 qualification is accepted and RI-100 prepares the actual direct-trace application. |
-| RI-98 direct trace implementation | **Sources published `d77e40f`; actual fabricated qualification accepted.** Both modes pass 11 cases and 59 refusals; complete scientific outputs are identical. | Publish exact qualification/report review; RI-100 prepares the separate actual saved-input application. |
-| RI-99 harmonic extension | **Assigned to the existing QR task, external proof/design only.** | Define shared-child unknowns, positivity and harmonic/covariance/locality conditions; decide the fixed two-marking local subsystem and identify missing layer-wide closure. |
-| RI-100 actual direct trace | **Assigned to the measurement owner, external source preparation only.** | Bind the sole accepted complete RI-96 input and RI-98 qualification; review concrete caller/closure before separate actual normal admission and subsequent optimized/adjudication steps. |
+| RI-98 direct trace implementation | **Qualification published in verified `18dec9b`; sources in `d77e40f`.** Both modes pass 11 cases and 59 refusals with complete scientific equality. | RI-100 concrete actual saved-input caller is delivered for source review and separate admission. |
+| RI-99 harmonic extension | **Conditional finite proof/design independently accepted for this checkpoint.** Local positive rank-two slice and complete incidence-closure limits proved. | Publish the reviewed note; RI-101 examines global signed feasibility without inferring it from local positivity. |
+| RI-100 actual direct trace | **Concrete caller source independently accepted.** No actual input-custody decision, freeze or execution has been issued. | Bind genuine input custody and review concrete freeze completion before separately admitting normal; independent saved-audit source preparation runs in parallel. |
+| RI-101 signed extension | **Assigned to QR, external proof/design only.** | Eliminate unique-maximal child values, retain shared proper-child constraints and seek a global symbolic solution or exact dual obstruction; prescribed-amplitude positivity remains separate. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
 | RI-85 complete four-vertex cap | **Design published in verified `d1733b8`; result published `9d40744`.** The fixed 11-class construction has one nonzero harmonic direction and positive finite width gain. | Preserve the exact support and positivity premises; RI-89/91 study its continuation. |
-| RI-88 native cap checker | **Sources published `d02b4b6`; positive result and independent arithmetic review published `9d40744`.** Rank 10, nullity one; fixed finite width gain retained. | RI-95 obstruction is accepted; RI-99 examines general next-layer harmonic-extension conditions. |
+| RI-88 native cap checker | **Sources published `d02b4b6`; positive result and independent arithmetic review published `9d40744`.** Rank 10, nullity one; fixed finite width gain retained. | RI-95 obstruction is accepted; RI-99 is accepted; RI-101 pursues the remaining global signed problem. |
 | RI-86 colored covariance proxy | **Design published in verified `d1733b8`.** Finite non-DC Loewner bounds retain the explicit circulant-model premise. | RI-90 applies this model to the fixed saved empirical PSDs; physical covariance remains unestablished. |
 | RI-87 exact proxy implementation | **Source published `548dab7`; actual qualification and independent saved-fixture review published `9d40744`.** All 12 tiny cases, four production fixtures and 106 refusals pass in both modes. | Keep fabricated qualification distinct from RI-90 actual saved-data application and physical validation. |
 | RI-77 random-cutoff locality | **Published in independently verified `d43d144`; reservation released.** | Preserve the fixed two-core counterexample. RI-79/81 are also published; constructive RI-84 is now active. |
@@ -5599,3 +5601,14 @@ at their pinned durable evidence paths. Historical source-only snapshots remain
 unchanged. RI-99 proof/design and RI-100 concrete application preparation are
 assigned externally; neither packet is part of this publication. Root retains
 all index/commit/push ownership and preserves unrelated changes.
+
+**RI-99 accepted proof checkpoint.** RI-95/98 are remotely verified `18dec9b`.
+This checkpoint publishes the reviewed 22358-byte
+[harmonic-extension note](../track_b/native_growth_harmonic_extension_v1/EXTENSION.md)
+and three coordinator records. Root and two independent complete manual
+reviews pass; all source premises remain pinned. The local rank-two positive
+slice is not a global extension; full signed/positive feasibility remains open.
+RI-101 proof/design is assigned externally after adjudication. RI-100's delivered
+external caller, pending source/admission work and all actual execution outputs
+are excluded from this checkpoint. Root preserves the exact source dependencies,
+original review, protected results and unrelated working-tree edits.
