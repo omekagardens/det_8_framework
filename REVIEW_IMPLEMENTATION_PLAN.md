@@ -9,9 +9,11 @@ forces every perturbation coefficient to zero. Actual witness, normal and
 fresh optimized replays and the independent full certificate audit pass.
 The two failed native admissions remain preserved; neither launched a child.
 The accepted source checkpoints `81c35fc`, `1f1e62a` and `7cc7461` remain unchanged.
-QR is now assigned RI-85's complete four-vertex cap design and harmonic/width
-question. RI-86 concurrently develops conditional colored-covariance proxy
-bounds from the accepted spectra and held RI-71/73 operator. These are active
+RI-85's complete four-vertex cap design is independently accepted; QR is now
+assigned RI-88's exact checker and positive-width-or-obstruction decision.
+RI-86's conditional colored-covariance theorem/design is independently
+accepted; RI-87 is assigned its exact source and qualification implementation.
+The accepted spectra and held RI-71/73 operator remain fixed. These are active
 scientific successors; all-size native geometry/gravity, a measurement forward
 map and calibrated inference remain open. RET remains paused.
 
@@ -60,7 +62,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | Current native assignment: RI-85 complete four-vertex cap analytic closure and harmonic/width decision design, following accepted RI-84 rank-three obstruction. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | Current native assignment: RI-88 exact checker for independently accepted RI-85 four-vertex cap design. Actual coefficient/rank/width outcome remains open. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -112,8 +114,10 @@ Active file reservations, updated 25 September UTC:
 | RI-81 structural mixture locality | Published in independently verified `4255863` after complete root and separate proof reviews and evidence reconciliation; one-note reservation released. Conditional prior-robust criterion and positive harmonic subclass, with nonconstant existence and geometry still open. |
 | RI-82 constructive first departure | Published in independently verified `1f1e62a`; source reservation released. Complete two-parent closure, 128 marked rows and conditional width gain established; actual coefficients unevaluated. |
 | RI-84 exact first-departure decision | Sources published `7cc7461`; exact certificate and review published in independently verified `fc72c1f`. Reservation released. The frozen three-class support admits only zero perturbation. |
-| RI-85 complete four-vertex cap design | QR reserves only new `docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md`; analytic design/proof before any actual coefficient execution. |
-| RI-86 colored covariance proxy design | Coordinator reserves future `docs/experiments/gwosc_colored_covariance_proxy_v1/DESIGN.md`; external proof/design draft active. No observed execution or covariance substitution. |
+| RI-85 complete four-vertex cap design | Exact DESIGN.md accepted unchanged for this checkpoint; root and independent proof reviews pass. Reservation released after publication. |
+| RI-88 native cap checker | QR reserves only check.py and IMPLEMENTATION.md under new docs/track_b/native_growth_four_vertex_cap_check_v1/. Root reserves absent genuine certificate after execution. |
+| RI-86 colored covariance proxy design | Accepted DESIGN.md included in this checkpoint; root full proof/source and independent review passed. Keep its model and gates fixed. |
+| RI-87 colored covariance proxy implementation | Measurement agent reserves only consumer.py, validate_result.py, qualify.py, IMPLEMENTATION.md under new docs/experiments/gwosc_colored_covariance_proxy_implementation_v1/. Source only; no actual output until root admission. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
 | RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` published in verified `ad44848`. Reservation released; preserve the fixed unit-white scope. |
 | RI-78 public off-event spectra design | Published in independently verified `d43d144`; one-file reservation released. Fixed descriptive Welch PSD/ASD design on the recovered H1/L1 V2 pair; no observed result, whitening or covariance substitution. |
@@ -5509,3 +5513,116 @@ Both versions are retained. Root full proof review remains pending; neither
 is accepted or copied into the repository. Next: adjudicate the two designs before
 assigning their frozen implementations. Do not rerun completed RI-83/84 work.
 The scientific programme continues and RET remains paused.
+
+**RI-86 design accepted; RI-87 exact implementation assigned**
+
+The result-publication tracking checkpoint `7b645973db76dc2cf41bd3fab326f5db4658a41d`
+(tree `7ca369fcb6ba04cead5a3024e198ceb8a4a84d27`) is also normally pushed and
+independently verified on origin/ret. The new RI-86 design now has complete
+root and independent proof review. Its published predecessor byte identities
+were checked against HEAD. The acceptance resolves the root-review-pending
+state in the preceding handoff; no observed data values or numerical consumer
+were executed in choosing this model or reviewing its proof.
+
+For each of the four fixed detector/side spectra, the design maps exact saved
+dyadic PSD values to a postulated M=16384 circulant covariance. Endpoint
+normalization, finite crop/filter congruence and both shared-input cross terms
+are explicit. Exact constant prehistory gives A*1=0, so only DC is omitted
+from the extrema. Combining the non-DC eigenvalues ell,u with the held RI-73
+operator certificate proves
+`ell*(1-rho)*G <= Omega_proxy <= u*(1+rho)*G` in Loewner order.
+This gives diagonal and trace intervals, not off-diagonal scalar intervals
+or confidence limits. Zero lower bounds retain unresolved-rank semantics;
+DC-only input gives zero output exactly. All seven tiny exact fixture families
+and complete four-scenario output are frozen. No full colored covariance,
+inverse score, whitening, known-noise substitution or significance is claimed.
+
+The accepted note is
+`docs/experiments/gwosc_colored_covariance_proxy_v1/DESIGN.md`,
+32470 bytes, SHA-256 `2a00cac0017f0b749ed958efef4d623143c97e33ba36c60454a65ef9069dc04e`.
+Only its acceptance header/appendix differ from independently reviewed v2;
+all equations, gates, fixtures and input identities remain unchanged.
+Root adjudication:
+/Volumes/AI_DATA/development/det-review-evidence/ri86-design-publication-20260925T0300/ROOT_DESIGN_ADJUDICATION.json,
+4904 bytes, SHA-256 `302f8e4d8774cd15215d6636c3e2b08550a8a3c32e32cc6943848c36996dd195`.
+Independent final review:
+/Volumes/AI_DATA/development/det-review-evidence/ri86-independent-design-review-33jm04x3/FINAL_INDEPENDENT_DESIGN_REVIEW.json,
+7419 bytes, SHA-256 `f15c35465864a4135228c9957800afb7c3f7998516ad8cf134e00158c99c71b7`.
+
+RI-87 is assigned to the existing measurement implementation agent. It reserves
+only `consumer.py`, `validate_result.py`, `qualify.py` and `IMPLEMENTATION.md`
+in new `docs/experiments/gwosc_colored_covariance_proxy_implementation_v1/`.
+Prepare exact source, a closed validator, independent tiny-M oracle and
+intended-reason controls before execution. No observed numerical result bodies,
+raw data or scientific modules are read/run in source preparation. Preserve
+normal/-O safety and the exact prospective 180-second/512-MiB envelope; reuse
+reviewed supervision rather than adding a generic harness. Root reserves
+uncreated genuine qualification/application outputs for later adjudication.
+Complete source review and a concrete freeze precede fabricated qualification;
+a separately admitted saved-result application follows only after acceptance.
+
+Native RI-85 remains active with the existing Quantum Relativity task on its
+sole design-note reservation. The user's programme continues on both lanes;
+RET remains paused. This checkpoint contains only the accepted RI-86 design
+and three coordinator records, excluding both active implementations/designs.
+
+**RI-85 broader native design accepted; RI-88 exact checker assigned**
+
+Root read the complete source and independently traced its support, closure,
+record transport, every symbolic coefficient row and exact width decision.
+An additional coordinator-side proof reviewer independently checked the matrix,
+full-row width functional, nullspace/dual dichotomy and positivity. All agree
+with the QR task's three full internal reviews; no mathematical blocker remains.
+This is analytic design acceptance. Actual coefficients, rank and target
+feasibility are still unevaluated.
+
+The complete C3-plus-four-vertex-cap family has 11 classes and five affected
+parents. Its 27 maximal-deletion roles give 43 individual parent ideals,
+23 supported slots and 320 full marked rows. Explicit deletion factorization
+and the inherited twin-top diamond reduce the equations to a 64-by-11 exact
+matrix using precisely 40 held rows/224 probability slots on C3, C4, C5 and
+C3⊕A2. The first cap bit is retained where required; no bit0-only reduction
+is assumed. Every one of the 2752 ideal occurrences and 2752 raw deletion
+factors remains in the future certificate domain.
+
+On the frozen full P=C3⊕A3 all-zero row, width gain on the harmonic kernel
+is a strictly positive inherited factor times z1. Thus deterministic rational
+elimination must either provide a canonical harmonic vector with z1=1 and
+strictly positive amplitude, or a signed row-span witness forcing z1=0.
+Rank eleven rejects the entire supported kernel; a lower-rank width obstruction
+rejects only this named target. These are separate outcomes. The positive
+branch would give a finite admissible prefix; conditional extension existence
+does not prove persistent width gain or an all-size relative harmonic law.
+No geometry, gravity or physical prediction follows from this design.
+
+The unchanged accepted source is
+`docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md`,
+28127 bytes, SHA-256 `e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a`.
+Root proof adjudication:
+/Volumes/AI_DATA/development/det-review-evidence/ri86-design-publication-20260925T0300/ROOT_NATIVE_DESIGN_ADJUDICATION.json,
+3460 bytes, SHA-256 `3a2d38be3495717b706ce09952bf22daa0d3677448597b11114e429f4192d417`.
+Additional independent proof review:
+/Volumes/AI_DATA/development/det-review-evidence/ri85-independent-harmonic-width-review-5ezxuh6k/INDEPENDENT_PROOF_REVIEW.json,
+5057 bytes, SHA-256 `113b9c284f536cec10440b6c1e338b04d126827b4f3d6234a6285615b22fe6ef`.
+The root reviewed these complete reports and actual published dependency bytes.
+No enumeration, inherited import, coefficient calculation or solver ran for
+this design. This acceptance supersedes the authored note's pending-coordinator
+handoff status while preserving its reviewed bytes.
+
+RI-88 is assigned to the existing Quantum Relativity task. It reserves only
+`check.py` and `IMPLEMENTATION.md` in new
+`docs/track_b/native_growth_four_vertex_cap_check_v1/`. Prepare the exact
+checker/certificate schema, all expanded/compact/RREF and width/null-or-dual
+branches, intended-reason controls and an explicit finite relabeling domain.
+Do not compute actual coefficients, import predecessors, create a certificate
+or execute controls before root source review and a concrete freeze. Retain
+the accepted actual prefix, fair-record/scalar-passive premises and every
+specified record/factor; no numerical q6/q7, a6/M6 or new global catalogue.
+Reuse reviewed supervision with minimal source/closure deltas and the same
+prospective 120-second/512-MiB per-attempt limits. Root reserves the genuine
+certificate output after admitted execution and owns all git/index operations.
+
+RI-87 measurement source preparation proceeds in parallel. The combined design
+checkpoint includes only RI-85 and RI-86's accepted notes plus these three
+coordinator records; six actively authored RI-87/88 files are excluded.
+The programme continues, and RET remains paused.
