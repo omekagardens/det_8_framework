@@ -1,17 +1,19 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 25 September 2026 UTC.** RI-83 fabricated integration
-is independently accepted: all 33 intended refusals, 10 positive checks and
-235 artifacts pass in normal/-O, with identical reports and full fixtures.
-Separately frozen actual H1/L1 runs also completed in both modes, producing
-identical 38952074-byte spectra; independent full scientific/custody acceptance
-is still pending and RESULT.json remains unpublished. RI-84's exact native
-checker and implementation note passed complete root and separate source
-reviews and are released for this source-only checkpoint. Its actual rank
-remains unknown; external supervisor qualification precedes the native run.
-The unchanged RI-83 caller is published in verified `81c35fc`, with tracking
-commit `d50b0ee` also remotely verified. RI-80/82 remain published in verified
-`1f1e62a`. Both substantive lanes continue; RET remains paused.
+**Current checkpoint — 25 September 2026 UTC.** RI-83's exact public H1/L1
+spectra and RI-84's exact finite native obstruction are independently accepted
+and included in this result checkpoint with separate review notes. Normal and
+optimized observed outputs agree; the qualified saved-data audit passes.
+The native three-class support has rank three: a retained record-bit change
+forces every perturbation coefficient to zero. Actual witness, normal and
+fresh optimized replays and the independent full certificate audit pass.
+The two failed native admissions remain preserved; neither launched a child.
+The accepted source checkpoints `81c35fc`, `1f1e62a` and `7cc7461` remain unchanged.
+QR is now assigned RI-85's complete four-vertex cap design and harmonic/width
+question. RI-86 concurrently develops conditional colored-covariance proxy
+bounds from the accepted spectra and held RI-71/73 operator. These are active
+scientific successors; all-size native geometry/gravity, a measurement forward
+map and calibrated inference remain open. RET remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -44,10 +46,12 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-80 fabricated spectra qualification | **Published in independently verified `1f1e62a`.** Identical normal/-O reports, all declared cases and 37 intended refusals pass; two failed attempts preserved. | RI-83 actual runs completed; independently audit saved evidence before result publication. |
-| RI-82 constructive native design | **Published in independently verified `1f1e62a`.** Complete closure, conditional rank/positivity and width target reviewed. | RI-84 source review passed; qualify its supervisor and execute the frozen decision. Actual feasibility remains unknown. |
-| RI-83 observed spectral caller | **Source published in independently verified `81c35fc`; fabricated integration accepted.** Separately frozen actual modes produced identical external results; full acceptance pending. | Qualify the saved-evidence consumer and finish independent observed scientific/custody audit before publication. |
-| RI-84 native first-departure checker | **Source reviewed and released for publication.** Actual coefficient feasibility unknown. | Qualify the reviewed supervisor and admit the exact witness freeze before coefficient execution; keep accepted support and limits. |
+| RI-80 fabricated spectra qualification | **Published in independently verified `1f1e62a`.** All declared cases and 37 intended refusals pass in both modes; prior failed attempts preserved. | RI-83 actual result and separate audit are now accepted; keep qualification fixed. |
+| RI-82 constructive native design | **Published in independently verified `1f1e62a`.** Frozen three-class support and complete closure retained. | RI-84 now rejects nonzero perturbations on exactly that support. RI-85 is a separately declared enlargement. |
+| RI-83 observed spectral caller | **Exact result independently accepted and included in this checkpoint; caller published `81c35fc`.** Actual normal/optimized equality, qualified saved-array audit and independent custody review pass. | Preserve the descriptive result and RESULT_REVIEW.md. RI-86 designs four conditional covariance-proxy envelopes; no calibrated/noise-law inference. |
+| RI-84 native first-departure checker | **Exact certificate independently accepted and included in this checkpoint; sources published `7cc7461`.** Rank three, no nonzero perturbation on frozen support; complete actual replays and independent arithmetic/custody checks pass. | Preserve the obstruction and failed admissions. QR is assigned RI-85; do not repeat RI-84 or reopen its support. |
+| RI-85 complete four-vertex cap | **Assigned to the existing Quantum Relativity task after RI-84 adjudication.** Analytic design only; no actual coefficient result yet. | Prove complete affected-parent/record closure and freeze a harmonic feasibility plus full-row width-gain decision before exact execution. |
+| RI-86 colored covariance proxy | **Design/proof preparation active outside the repository.** RI-83 empirical spectra and RI-71/73 operator remain fixed. | Prove the finite circulant normalization and non-DC covariance envelopes; retain all estimation/calibration/native-map prerequisites. |
 | RI-77 random-cutoff locality | **Published in independently verified `d43d144`; reservation released.** | Preserve the fixed two-core counterexample. RI-79/81 are also published; constructive RI-84 is now active. |
 | RI-76 approximation asymptotics | **Published in independently verified `ad44848`.** | Preserve defect decay and height obstruction together; review RI-77 next. |
 | RI-75 strict approximation | **Published in independently verified `3a30ab0`.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 separately resolves long-run limits. |
@@ -4348,3 +4352,117 @@ Neither source publication nor finite/descriptive execution completes the
 programme. RET stays paused. This checkpoint stages only the two reviewed
 native sources and these three coordinator records; no active external helper,
 unreviewed result, original review or unrelated pre-existing edit is included.
+
+**RI-83/84 results accepted; native RI-85 and measurement RI-86 assigned**
+
+The preceding source-only checkpoint is `7cc7461ea740fcf40067f1ee833f374c29d44225`,
+tree `64a2b908cef5918e4939a5cd3b5945c121e7623b`, pushed normally and independently
+verified on origin/ret. It contains exactly the two unchanged RI-84 sources
+and three coordinator records; 2152 other entry-file identities were preserved.
+The present result checkpoint adds only the two accepted exact result files,
+their two result-review notes and updates to these three coordinator records.
+The original independent review and all unrelated baseline edits remain held.
+
+RI-83 is accepted as a descriptive reproduction of the fixed public V2 H1/L1
+pair. Exact RESULT.json is 38952074 bytes, SHA-256
+`e7aad05d912401b9b65c54579b46456bd8077afdc60079d0414fd2043844ed2f`.
+Actual normal and optimized executions exited zero and agree byte-for-byte.
+After 25 intended refusals and two full positive controls passed per mode,
+the unchanged independent saved-data consumer audited both actual result sets
+in one bounded run: 235 retained arrays per mode, including 113 recursive
+arrays/942191 values, all 30 PSD comparisons/245790 bins and 26 segments.
+It passed in 4.953141875 seconds at 303536 KiB peak sampled RSS. Independent
+actual review reconciled 429 raw monitor samples, 480 saved outputs including
+470 binary artifacts, source bindings and the complete 3925-file runtime.
+Source, data, window, method and thresholds were unchanged.
+
+The numerical consumer checks saved operands, window products, Parseval,
+reference residuals and ASD consistency; it supplies no separate FFT engine
+or raw-to-demeaned proof. Those operations retain their source qualification,
+actual producer checks and custody. No population PSD, known covariance,
+stationarity, significance, protected validation or native physical prediction
+is inferred. Preserve blank literal Yunits, publisher-based nominal units,
+L1's clear NO_CW_HW_INJ bit, prior access and RI-40 calibration limitations.
+
+RI-84 is accepted as an exact obstruction on the frozen record-blind support
+T1=C4⊕A3, T2=C5⊕A2, T3=C4⊕(C2 disjoint A1). The actual retained prefix has
+q1/q0=p1/p0=alpha1/alpha0=359/360 and v1=v0>0. Subtracting A0 from A1 forces
+z1=0; A0 then forces z3=0 and B0 forces z2=0. The three-row determinant is
+alpha0*v0²/180>0. Thus rank is three, the first failed compact row is index 2,
+and no nonzero perturbation or positive-width admission exists on that support.
+No wider native-law rejection follows.
+
+Exact CERTIFICATE.json is 422785 bytes, SHA-256
+`e8ef1434784d36f9174ead89588edf46176409c6b6609525670a59d965bba9a7`.
+The actual witness and normal/fresh-optimized replay all exited zero within
+120 seconds/512 MiB sampled RSS. Both replay streams agree, retaining 69
+canonical prefix stages, 15 inherited and 71 new intended-reason controls.
+The independent certificate consumer reconciled all 128 expanded rows,
+960 ideal occurrences, 448 deletion factors, 32 compact equations and 1472
+transported marked-ideal cases. Its genuine outer exit was zero; all three
+monitor attempts, two live observations, current source/input/output pins and
+terminal group absence were reviewed. Held-prefix provenance and arbitrary-label
+locality arguments retain their separate proofs; no numerical q6/q7, a6/M6,
+all-size continuation, adopted law or gravity result is asserted.
+
+Two native admission failures are retained. The first qualification refused
+before child creation because the Darwin CoreFoundation environment field
+was not bound. A fresh reviewed binding then passed 73 supervision controls.
+Later, a root review utility wrongly required empty diagnostic stderr; root's
+next dispatch inadvertently ran an optimized launcher before authorization.
+It refused with no child or samples. Fresh evidence-root-only recovery then
+passed with unchanged mathematics and resource gates. No failed receipt was
+overwritten or counted as a successful run.
+
+Durable evidence under /Volumes/AI_DATA/development/det-review-evidence/:
+
+- RI-83 root adjudication:
+  ri83-saved-audit-execution/prep-20260925T021546Z-c072584c/ROOT_RESULT_ADJUDICATION.json,
+  6680 bytes, SHA-256 `d47d0f1185cf25360290def0d70eb56bbe0dc3eac3aeff7deadfc691048eed29`.
+- RI-83 final independent actual review:
+  ri83-single-saved-audit-independent-completed-el4hub66/INDEPENDENT_COMPLETED_REVIEW.json,
+  6904 bytes, SHA-256 `d82909b8adf7e4a2153d4b34e1fe7a7e9c85b5f9ddd3f93865760b5ef721f771`.
+- RI-84 root adjudication:
+  ri84-certificate-audit-execution-bommbwhm/ROOT_RESULT_ADJUDICATION.json,
+  7954 bytes, SHA-256 `9a2e7b00738239f87d87e40ac2bce1c1527ab710d5709292db3dc80379de73fc`.
+- RI-84 independent arithmetic report:
+  ri84-certificate-audit-execution-bommbwhm/audit-01/REPORT.json,
+  4809 bytes, SHA-256 `affe0c2f2a05bf794382eb8c836417baf6ddd549dffe11ed2b5b8dd0c35ea73b`.
+- RI-84 final independent actual-audit and note-scope review:
+  ri84-independent-completed-audit-review-4umrbm4c/INDEPENDENT_COMPLETED_REVIEW.json,
+  17592 bytes, SHA-256 `b30ee2f1780b7e22a178041bf06a171138432bcb4b246af557c0b9529380e395`.
+- Scoped publication preflight and remote receipt:
+  ri83-ri84-result-publication-20260925T0238/.
+
+The two result-review notes provide readable mathematics, methods, full scope
+limits and further evidence pins. Sampled RSS is never represented as a hard
+OS memory cap. Earlier certificates, failures and qualification results stay fixed.
+
+**Next native question, RI-85.** Existing Quantum Relativity task
+01a074c4-4b09-76a3-8cb2-0caf116f6b9c owns only the new
+`docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md`. Prove the complete
+C3⊕Q support for four-element Q with at least two maxima, its affected-parent
+closure and every labeled-ideal multiplicity. Derive simultaneous harmonic
+constraints over all complete parent records, including rigorous induced-record
+transport; bound held queries to size at most five. Freeze a finite exact
+feasibility/positive-amplitude/full-row-width target before any coefficient
+execution. A nonzero null vector alone is not width success. Any reduction of
+record dependence must be proved, not assumed from RI-84. Complete family counts
+and feasibility are the worker's new proof obligations. No global size-six/seven
+inventory, numerical a6/M6/q6/q7 or automatic all-size completion is authorized.
+
+**Parallel measurement question, RI-86.** A separate coordinator agent develops
+an external design/proof for the reserved future
+`docs/experiments/gwosc_colored_covariance_proxy_v1/DESIGN.md`.
+Use each accepted detector/side spectrum as a separate postulated finite
+circulant covariance scenario. Prove one-sided/DC/Nyquist normalization and
+propagation through the held RI-71/73 operator, including shared-input terms,
+constant annihilation and singular support. The first implementation target
+is exact non-DC eigenvalue-envelope bounds using held G/rho; no dense covariance,
+new observed score, pooling, fitted noise law, whitening or adaptive floor.
+Freeze analytic qualification cases and report honest looseness if the bounds
+are wide. Empirical PSD, chosen model covariance and calibrated physical
+covariance remain distinct. Native forward maps and RET prerequisites stay open.
+
+Neither accepted result completes the programme. Both successor lanes are
+active; root owns review, exact staging, commits and normal remote pushes.
