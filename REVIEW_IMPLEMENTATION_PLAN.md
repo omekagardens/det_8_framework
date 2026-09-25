@@ -1,24 +1,22 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 25 September 2026 UTC.** RI-88's positive finite
-native width perturbation and RI-87's fabricated measurement qualification are
-independently accepted for this checkpoint. The native 64-by-11 matrix has rank
-10 and one nonzero direction; epsilon=1/4 preserves strict positivity and gives
-an exact positive complete-row expected-width change. All eleven cap classes
-are necessary within this fixed pool. Witness, normal/optimized replay and a
-separate complete arithmetic audit pass. The measurement normal/optimized
-reports match exactly; twelve tiny cases, four full-sized fixtures and all
-106 intended-code refusals pass independent saved-evidence review.
-The unchanged source checkpoints `548dab7` and `d02b4b6` are remotely verified;
-this checkpoint adds only their genuine results, review notes and three
-coordination records. Prior accepted designs/results remain fixed.
-QR is assigned RI-89's first-continuation record-independence proof. The
-measurement author is assigned RI-90's separately reviewed caller for applying
-the qualified envelope to the saved public GWOSC spectra/operator certificate.
-RI-90 has no actual application result yet. Strict all-size extension existence
-does not establish persistent width improvement or suitable geometry; the
-half-scale height obstruction remains. Native gravity, a measurement forward
-map and calibrated inference remain open. The programme continues; RET is paused.
+**Current checkpoint — 25 September 2026 UTC.** RI-89's conditional
+first-continuation criterion and RI-90's actual saved GWOSC proxy result are
+independently accepted. The native proof forces equal new common scales for
+record-independent relative weights; its remaining one-parent obstruction
+is the active RI-91 QR implementation question. The measured-data calculation
+passes normal/optimized byte equality and a separate complete exact audit.
+All 212 actual monitoring samples and complete source/runtime/input custody
+are independently reviewed. The four declared covariance proxies have rank-eight
+outputs, but their global envelopes span roughly 3–7 trillion-fold: they are
+mathematically valid and practically too broad for a useful covariance comparison.
+RI-92 is actively assigned a proof/design for certified bounds using operator
+frequency response. Both successors are source-only until separately reviewed
+and admitted; active files are excluded from this publication checkpoint.
+The previous result checkpoint `9d407440da4bf4e9c82c3778144ada7f3ea1f30c`
+is remotely verified. Earlier proofs, inputs and qualification reports stay fixed.
+All-size useful geometry, gravity dynamics, physical noise calibration and a
+native observation map remain open. The programme continues; RET remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -65,7 +63,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | Current native assignment: RI-89 first-continuation record-independence proof after independently accepted RI-88 positive finite result. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | Current native assignment: RI-91 exact one-parent polynomial obstruction checker/protocol after independently accepted RI-89 continuation theorem. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -98,7 +96,7 @@ Active file reservations, updated 25 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is published in independently verified `f18b5d9`; reservation released. RI-74 is published in independently verified `314d5e8`; reservation released. RI-75 is published in verified `3a30ab0`; reservation released. RI-76 is published in verified `ad44848`; one-note reservation released. RI-77 is independently accepted; its three-file reservation is released. RI-79 is independently accepted; its reservation is released. RI-81 is independently accepted; its one-note reservation is released. RI-82 is published in verified `1f1e62a` and released. RI-84 has released its reviewed checker and implementation note for source publication; external qualification remains active. Preserve all accepted laws and central git ownership. |
+| QR task | RI-46/48/49/51 are published; reservations released. RI-52 is published in verified `1993e24`; its three-file reservation is released. RI-54 is published in verified `ef10f33`; reservation released. RI-56 is independently accepted; reservation released. RI-58 is independently accepted; reservation released. RI-59 is independently accepted; reservation released. RI-61 is published in verified `32824c3`; reservation released. RI-63 is published in verified `7ccba1c`; reservation released. RI-65 is published in verified `bd0031a`; reservation released. RI-66 is published in verified `d10b045`; reservation released. RI-69 is published in verified `4280198`; reservation released. RI-70 is independently accepted; reservation released. RI-72 is published in independently verified `f18b5d9`; reservation released. RI-74 is published in independently verified `314d5e8`; reservation released. RI-75 is published in verified `3a30ab0`; reservation released. RI-76 is published in verified `ad44848`; one-note reservation released. RI-77 is independently accepted; its three-file reservation is released. RI-79 is independently accepted; its reservation is released. RI-81 is independently accepted; its one-note reservation is released. RI-82 is published in verified `1f1e62a` and released. RI-84/88 results are accepted and published; RI-89 proof is accepted and released. Active RI-91 reserves only `docs/track_b/native_growth_relative_obstruction_v1/check.py` and `IMPLEMENTATION.md`; no actual coefficient execution before root admission. Preserve all accepted laws and central git ownership. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -117,12 +115,13 @@ Active file reservations, updated 25 September UTC:
 | RI-81 structural mixture locality | Published in independently verified `4255863` after complete root and separate proof reviews and evidence reconciliation; one-note reservation released. Conditional prior-robust criterion and positive harmonic subclass, with nonconstant existence and geometry still open. |
 | RI-82 constructive first departure | Published in independently verified `1f1e62a`; source reservation released. Complete two-parent closure, 128 marked rows and conditional width gain established; actual coefficients unevaluated. |
 | RI-84 exact first-departure decision | Sources published `7cc7461`; exact certificate and review published in independently verified `fc72c1f`. Reservation released. The frozen three-class support admits only zero perturbation. |
-| RI-85 complete four-vertex cap design | Exact DESIGN.md accepted unchanged for this checkpoint; root and independent proof reviews pass. Reservation released after publication. |
-| RI-88 native cap checker | Sources published and released; root now publishes accepted actual certificate and result review. RI-89 alone is active with QR. |
-| RI-89 relative continuation | QR reserves only new docs/track_b/native_growth_relative_continuation_v1/CONTINUATION.md. Proof/design only; no new numerical layer. |
-| RI-90 saved colored-proxy application | Measurement author prepares external caller/protocol only; no repository reservation or actual application yet. |
-| RI-86 colored covariance proxy design | Accepted DESIGN.md included in this checkpoint; root full proof/source and independent review passed. Keep its model and gates fixed. |
-| RI-87 colored covariance proxy implementation | Sources published and released; actual qualification independently accepted. Root publishes exact qualification and review; RI-90 caller preparation is external only. |
+| RI-85 complete four-vertex cap design | Design published `d1733b8`; reservation released. Accepted RI-88 result published `9d40744`. |
+| RI-88 native cap checker | Sources published `d02b4b6`; positive certificate and independent arithmetic review published `9d40744`. Reservation released; RI-91 is active. |
+| RI-89 relative continuation | Complete conditional proof independently accepted and released for root publication. RI-91 now owns the separate two-file obstruction implementation reservation. |
+| RI-90 saved colored-proxy application | Actual normal/optimized application and independent arithmetic audit pass. Root owns the five-file `docs/experiments/gwosc_colored_covariance_proxy_result_v1/` publication bundle; independent completed-audit custody review passes. |
+| RI-92 frequency-resolved proxy | Coordinator measurement reviewer reserves only `docs/experiments/gwosc_frequency_resolved_proxy_v1/DESIGN.md`; proof/design only. No numerical execution or new data. |
+| RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
+| RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
 | RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` published in verified `ad44848`. Reservation released; preserve the fixed unit-white scope. |
 | RI-78 public off-event spectra design | Published in independently verified `d43d144`; one-file reservation released. Fixed descriptive Welch PSD/ASD design on the recovered H1/L1 V2 pair; no observed result, whitening or covariance substitution. |
@@ -5846,3 +5845,82 @@ including this one. That normalization remains rejected for the vanishing-
 height-density target. Neither finite result supplies gravity, informative
 quantum dynamics, a physical forward map or DET uniqueness. RET remains paused.
 The original independent review, protected inputs and unrelated edits are held.
+
+**RI-89 first-continuation theorem accepted; RI-90 actual modes reviewed**
+
+RI-89's [continuation note](docs/track_b/native_growth_relative_continuation_v1/CONTINUATION.md) is accepted at 21769 bytes,
+SHA-256 `56c45bb5aba5e9fa0ab1f09ff959a73235939cc850e6fdde91a4cc39180b5cd1`.
+For complete positive common-level-scale continuations, proper-terminal
+relative weights are the product over all maximal deletions times t/s.
+A positive unmarked h8 exists exactly when every full-birth ratio
+(1-tV)/(1-sU) is independent of all parent marks. The untouched RI-79
+nonzero record contrast has V=U and therefore forces t=s. This does not
+establish equality of the actual global maxima or an all-size harmonic law.
+
+Root read the complete proof and independently checked its signs, terminal
+cases, marked locality and all 18 proper-slot multiplicities. The separate
+complete proof review passes (12340 bytes,
+`e79a1e29438b5cce16953ba95d522d14d078c313c3f67b6092a0c6d7185d1952`).
+The root decision is
+/Volumes/AI_DATA/development/det-review-evidence/ri89-ri90-checkpoint-pf3q_wuy/RI89_ROOT_PROOF_ADJUDICATION.json
+(2156 bytes, `58bfaeb9587f06da354ba83be12757774efdbb56e22e9dd48d3a38be12e1a552`).
+No new polynomial coefficient calculation is part of this proof acceptance.
+
+**RI-91 is actively assigned to QR.** Only
+`docs/track_b/native_growth_relative_obstruction_v1/check.py` and
+`IMPLEMENTATION.md` are reserved. It prepares the fixed one-parent/two-record
+exact obstruction using six accepted rows/32 slots and H1,H2,H3. Unknown
+rho and s remain formal. No new q6/q7 table, global maximum, larger catalogue
+or selected numerical growth scale is authorized. Root separately admits any
+actual computation after complete source/protocol review. All git/index work
+remains central; these active sources are excluded from this checkpoint.
+
+RI-90 actually applied the unchanged qualified consumer and full validator to
+the saved RI83/RI73 bodies. Normal and optimized outer exits were zero
+(`607ce3` and `cc9aa7`); the entire outputs match at 6994965 bytes,
+`c3a90d4d4516cce5309e47ec0b276455a515dcd3a67c749fa6c2500a2d9af3bf`.
+Times were 2.343191/2.381167 seconds and sampled peaks 273760/278880 KiB.
+The independent custody review rederived all 127 raw samples, source/input
+snapshots and 3925 runtime files. Its report is 9896 bytes,
+`f04eb6756d4542eb64471114ff8c1c4bfc88801cc5292d9e4f01b936053d0314`.
+The independent numerical audit is accepted as detailed below. No empirical
+noise-law, stationarity, calibration, signal significance or native forward
+prediction follows from successful execution of a finite covariance proxy.
+
+**RI-90 completed exact audit accepted; RI-92 actively assigned**
+
+The [saved-result review](docs/experiments/gwosc_colored_covariance_proxy_result_v1/RESULT_REVIEW.md) now records genuine normal/optimized
+application and a separately written exact reconstruction of every field.
+The independent audit exited zero (`bbbda4`) in 2.779598 seconds, with
+291552-KiB sampled peak and 85 raw samples. Its complete report is 219279 bytes,
+`cfe2e80862078da49613ec852e81b9b92766755fadc94ac4eab865f1877cb223`.
+It rederived all 32772 PSD values, 32768 one-sided non-DC spectral representatives,
+512 matrix endpoints, 64 diagonal values, eight trace values and four exact
+saved-q differences, plus independent LDL/inverse/rho certificate identities.
+Reconstructed complete RESULT bytes agree with both actual producer modes.
+
+The final independent completed review (9861 bytes,
+`11ce24c059ac93d0fd32e3dd1f4c63c73a49a6cea8f45c27e48080a63d8939a3`)
+reconciles the 27-pair source closure, three helpers, thirteen acceptance records,
+all 3925 runtime files and all 85 audit samples. The accepted producer review
+supplies the other 127 samples. All unchanged 180-second/512-MiB sampled-RSS
+and timing gates pass. Root result adjudication is 5773 bytes,
+`ac1cc18491dfd9a9f1bd1bf546f0d0ecea3427eb287238f6c4783f6a3b34cd50`,
+at /Volumes/AI_DATA/development/det-review-evidence/ri89-ri90-checkpoint-pf3q_wuy/RI90_ROOT_RESULT_ADJUDICATION.json.
+Metadata-only comparison mistakes and corrections remain recorded; no scientific
+attempt failed or was retried and no threshold changed.
+
+All four proxy outputs have rank eight, but scalar upper/lower factors are
+approximately 4.223e12, 4.462e12, 2.906e12 and 7.443e12. Global spectral extrema
+lose the operator's frequency suppression and give excessively broad bounds.
+The next measurement item, **RI-92**, is therefore one proof/design note at
+`docs/experiments/gwosc_frequency_resolved_proxy_v1/DESIGN.md`, assigned to the
+coordinator measurement reviewer. It must define frequency-resolved response
+matrices, crop/DFT normalization and certified error propagation, assess actual
+retained operator evidence, and state the smallest justified next computation.
+The Gram matrix alone does not determine spectral response. No bin is removed,
+no floor or threshold is fitted, and no FFT/coefficient/new-data execution is
+part of this source-only assignment. Physical adequacy, calibrated inference
+and independent validation data remain separate; the already-used public
+32-second records cannot be relabeled held out. Active RI-91 and RI-92 files
+remain outside this checkpoint. The native programme continues and RET is paused.
