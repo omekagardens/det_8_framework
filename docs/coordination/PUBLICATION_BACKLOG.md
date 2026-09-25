@@ -1,5 +1,16 @@
 **Accepted work and remote publication**
 
+**Current checkpoint — 25 September 2026 UTC.** RI-80 fabricated spectral
+qualification is independently accepted: normal/-O reports are byte-identical,
+all declared cases and 37 intended refusals pass, and peak sampled RSS is
+440992/461168 KiB under the unchanged 512 MiB limit. Both earlier failures and
+the reviewed allocation repair are retained. RI-82's fixed first-departure
+harmonic design is independently accepted; actual feasibility remains unknown.
+Source-only RI-83 now prepares the actual public-input caller, while QR's RI-84
+implements the exact native certificate. Both require independent source review
+and a new execution freeze before scientific execution. This checkpoint is
+being prepared for scoped publication. RET remains paused.
+
 **24 September recovery status.** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
 verified on origin/ret. A host reboot interrupted RI-74 review and removed
@@ -31,6 +42,9 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
+| RI-80 fabricated spectra qualification | **Independently accepted; scoped publication in progress.** Identical normal/-O reports, all declared cases and 37 intended refusals pass; two failed attempts preserved. | RI-83 separately implements the actual-input caller before a new freeze. |
+| RI-82 constructive native design | **Independently accepted; scoped publication in progress.** Complete closure, conditional rank/positivity and width target reviewed. | RI-84 implements the fixed exact decision; actual feasibility unknown. |
+| RI-83 / RI-84 active successors | **Source-only implementation in disjoint reservations.** No observed spectra or new native coefficients executed. | Review source and complete prospective freezes; keep RET paused. |
 | RI-77 random-cutoff locality | **Assigned; three possible new paths reserved.** | Decide strict record locality of the specified latent-cutoff mixture, with a frozen two-core witness domain. |
 | RI-76 approximation asymptotics | **Published in independently verified `ad44848`.** | Preserve defect decay and height obstruction together; review RI-77 next. |
 | RI-75 strict approximation | **Published in independently verified `3a30ab0`.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 separately resolves long-run limits. |
@@ -4105,3 +4119,58 @@ in `b647f6f`. RI-82's active constructive design and RI-80's ongoing allocation
 repair are excluded. Both failed measurement attempts remain preserved; no
 qualification pass, observed spectrum, release or physical claim is implied.
 The native and measurement lanes remain active; RET remains paused.
+
+**RI-80 qualification accepted; RI-82 design accepted; RI-83/84 active**
+
+The completed RI-80 report is the actual unedited 63464716-byte normal stdout,
+SHA-256 `f247c20f9e112b48cc037d6256b47b5056ec354d58c0cf2817aad0363fc0fa0d`;
+optimized stdout is identical. Runs took 6.3082/6.8999 seconds with peak sampled
+RSS 440992/461168 KiB. Both passed the unchanged 180s/512MiB envelope and all
+14 analytic, 10 direct-DFT, 7 scaling, 2 whole-side, 1 aggregation, 18 producer
+refusal, 19 validator/parser refusal, 2 complete-schema and 1 metadata controls.
+All 345 arrays/1836244 values remain in the report. Root's saved-data audit and
+a separate complete fixture/array/arithmetic audit pass with explicit retained-
+operand limits. No observed strain was opened by this qualification packet.
+
+The initial strict-environment failure and subsequent 533152-KiB sampled-memory
+failure remain recorded. Only the qualifier's object lifetime/serialization and
+fixture mutation strategy changed; science, gates, refusal reasons, source
+validator and limits remained fixed. Root reviewed the repair and complete new
+freeze before successful serial runs. Full details, source identities, report,
+window and evidence pins are in the RI-80 IMPLEMENTATION.md acceptance appendix.
+The actual result schema is not an observed-data provenance guarantee; the
+separate caller must establish custody.
+
+Root also accepted RI-82 after full proof review, a separate complete review
+and all twelve source/dependency/evidence pin checks. Three fixed seven-child
+classes affect exactly two six-parent classes; all128 marked rows reduce to32
+exact balances. If their rank is two, the stated positive harmonic perturbation
+has complete-row expected-width gain a6*v0>0; rank three certifies no nonzero
+perturbation on this fixed support. Actual coefficient feasibility is unknown.
+No numerical a6 or global q6 table is required, and no all-size shape or gravity
+claim follows. The original note and all accepted predecessors are retained.
+
+RI-84 is assigned to the existing Quantum Relativity task to implement that
+exact certificate/checker. Source-only reservations are check.py and
+IMPLEMENTATION.md in docs/track_b/native_growth_first_departure_check_v1/;
+CERTIFICATE.json must remain absent until separately admitted execution. Root
+will review source and the concrete closure/commands before any coefficients,
+then freeze the actual certificate for normal/-O replay and independent saved-
+arithmetic review. Preserve all128 rows/960 ideal occurrences, intended-reason
+controls, actual inherited q5 and the 120s/512MiB per-attempt limit. Either exact
+rank outcome is valid; no support search or gate relaxation.
+
+RI-83 concurrently implements run_observed.py and EXECUTION.md in the separate
+public-spectra result directory. It must bind both raw snapshots before either
+parse, the unchanged RI-37 inspector/report, accepted qualification/window,
+complete source/runtime/command/environment custody and every emitted artifact.
+Source review and fresh prospective freeze precede actual normal/-O processing.
+Keep blank Yunits, the L1 clear CW no-injection bit and nominal prior-access
+scope; no calibration, whitening, covariance, significance or native forward-map
+claim is implied. RESULT.json remains root-reserved and absent.
+
+The nine-file checkpoint contains exactly the five accepted RI-80 files,
+RI-82's accepted design and these three coordinator records. Active RI-83/84,
+pre-existing user edits, original independent review, historical results and RET
+are excluded. Root retains publication/preflight evidence under
+/Volumes/AI_DATA/development/det-review-evidence/ri80-ri82-publication-20260925T000640Z-63dd51ee/.
