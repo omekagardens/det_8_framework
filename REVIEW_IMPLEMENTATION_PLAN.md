@@ -1,20 +1,20 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 25 September 2026 UTC.** RI-96's actual frequency-resolved
-proxy result is accepted after identical normal/optimized applications, the
-separately authored exact saved-arithmetic audit, and independent reviews of
-all three executions. This checkpoint publishes the five-file result/audit
-bundle. The four fixed proxy trace intervals are about 203–4455 times narrower
-than the earlier global envelopes, but remain broad; physical noise adequacy
-and calibration are not established. RI-97 is assigned an external proof/design
-for direct mode-weighted trace bounds on the same saved inputs. RI-95's source
-packet and exact supervisor carry-forward are accepted. Its first actual witness
-has exited zero; root execution-custody checks pass, with independent custody
-review in progress. No native certificate is yet materialized or scientifically
-accepted. Separate saved replay and independent arithmetic remain mandatory.
-QR is preparing the unchanged consumer's minimal audit caller source in parallel.
-Geometry, gravity, a native observation map and the full programme remain open.
-RET stays paused; the original review and unrelated edits stay held.
+**Current checkpoint — 25 September 2026 UTC.** RI-96's accepted frequency-resolved
+proxy result is published and separately remote-verified at `96daa9d`.
+RI-97's conditional direct mode-weighted trace proof/design is accepted and
+published by this checkpoint. It bounds the same eight-coordinate centered
+energy from all retained non-DC modes and separates band spread from enclosure
+slack; actual numerical improvement remains uncomputed. RI-98 source-only
+implementation and its separately authored product-form validator are assigned.
+RI-95's witness execution custody is independently accepted, its exact candidate
+is materialized, and normal saved replay plus its independent custody review
+are accepted. Optimized-only admission source is being prepared. The complete independent arithmetic
+consumer and the source-only audit caller are reviewed, but concrete audit
+bindings and actual execution remain pending. The candidate stays unpublished
+until independent arithmetic and final mathematical adjudication. Geometry,
+gravity, empirical covariance adequacy and a native observation map remain open.
+RET stays paused; the original review and unrelated edits remain held.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -61,7 +61,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-95 source/carry-forward accepted; first actual witness completed under root admission, with final arithmetic acceptance pending. QR prepares only the minimal independent audit caller source while root owns native admissions and replay. Same support, baseline and domains. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-95 witness custody accepted; exact saved candidate materialized and normal replay passed. Normal custody is independently accepted; root owns optimized admission. QR source-only audit caller is accepted; concrete bindings wait for genuine three-mode evidence. Final arithmetic acceptance remains pending. Same support, baseline and domains. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -120,9 +120,10 @@ Active file reservations, updated 25 September UTC:
 | RI-92 frequency-resolved proxy | **Published in verified `59f9c86`.** Fixed-band proof/design independently accepted; full operator snapshots remain available.  Preserve design. RI-93 qualification is accepted; RI-96 prepares the actual application. |
 | RI-93 frequency-resolved implementation | Sources published in verified `9e63656`; actual two-mode fabricated qualification independently accepted for this checkpoint. No active source reservation. |
 | RI-94 amplitude continuation | Proof/design published in verified `9e63656`; reservation released; full amplitude rectangle remains unresolved. |
-| RI-95 amplitude certificate | Sources published in verified `9335b06`; full execution packet/carry-forward accepted, first actual witness completed. Root reviews custody before candidate materialization and separate saved modes; mathematical acceptance awaits independent reconstruction. QR prepares external audit caller source. |
-| RI-96 actual frequency-band application | Exact actual result, independent arithmetic and all execution custody accepted. Root publishes only the five-file `docs/experiments/gwosc_frequency_resolved_proxy_result_v1/` bundle plus three coordinator records. RI-97 owns the separate next design. |
-| RI-97 selected-output trace design | Measurement reviewer prepares a proof/design outside the repository, using unchanged retained mode rectangles and every PSD weight; no implementation or actual-operand execution. Root/peer review precedes any publication or numerical application. |
+| RI-95 amplitude certificate | **Sources published `9335b06`; witness custody accepted and exact candidate materialized.** Normal saved replay passed; final mathematics pending.  Normal custody is independently accepted; review optimized-only admission source, then run optimized replay and actual independent arithmetic audit. Keep candidate unstaged until adjudication. |
+| RI-96 actual frequency-band application | **Result, independent arithmetic and custody published in verified `96daa9d`.** Five-file bundle preserved.  Keep physical adequacy separate; RI-97 proof/design is accepted and RI-98 implements the fixed direct trace operation. |
+| RI-97 selected-output trace | **Conditional proof/design accepted and included in this checkpoint.** Same rows, mode rectangles and PSDs.  RI-98 source-only implementation and separately authored complete validator; no numerical improvement claimed yet. |
+| RI-98 direct trace implementation | **External source-only consumer, qualifier and independent validator assigned.** No target executed or actual operand decoded.  Review complete source and frozen reason inventory before separately admitted fabricated qualification. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -6392,3 +6393,99 @@ coefficient search or gate relaxation is authorized. The native question stays
 active alongside RI-97. Geometry, gravity and a native observation map remain
 open; RET alone remains paused. The original review, unrelated edits and all
 pinned historical results are preserved.
+
+**RI-97 direct trace proof accepted; RI-98 implementation and RI-95 saved replay advance**
+
+The preceding eight-file RI-96 checkpoint is committed, pushed and independently
+remote-verified at `96daa9d48bc929321f6fe2dd3cc1953d91e160e4`, tree
+`cca2b65660e0e53af7d6f544b9e2b00a42147a78`. Genuine commit 324ef6,
+push 766d2e and separate remote check fb2acc all exited zero. The durable
+publication record is at
+/Volumes/AI_DATA/development/det-review-evidence/ri96-result-checkpoint-m4z2kzhh/PUBLICATION.json,
+2064 bytes, 79c62571d336ee8ebfd2adf561db7b43091c01efadd2924cdf66e2ede78bd685.
+
+Root accepts the complete RI-97 conditional proof and prospective design,
+including its independent full review and eleven unexecuted analytic cases.
+The exact 23571-byte design at
+65edcabef43e15cfa44299c19276c194aed717269fe17702877f76ca8af379e7
+is copied to docs/experiments/gwosc_mode_weighted_trace_v1/DESIGN.md.
+The root adjudication is RI97_ROOT_DESIGN_ADJUDICATION.json, 2430 bytes,
+a2b76efbe5105c286c8b50d9183e407726c3404b36309d0ed9fb65c95b1b9539,
+under /Volumes/AI_DATA/development/det-review-evidence/ri95-replay-checkpoint-ynqi5l1q/.
+The independent 8822-byte review is 90c937b7554c7a6219f30dd1991c4bc90f75abe0e86e0f8742cfbc2873a7214e,
+in ri97-independent-design-review-1w0fxnj_. The reviewer supplied preliminary
+proof/fixture advice and authored the accepted RI-96 arithmetic auditor; the
+final design is separately authored. This is disclosed complete review, not
+independent invention or another actual RI-96 audit.
+
+For each exact nonnegative PSD weight, summing the component bound
+|z^2-X^2|<=2|X|e+e^2 gives the direct selected trace interval [C-E,C+E].
+Pair multiplicity, singleton Nyquist, exact half-Q256 centers, coefficient
+radii and true-DC versus midpoint-Parseval distinctions remain explicit.
+The bound needs no Gaussianity or independence of enclosure errors. The
+proof establishes direct_upper<=raw_band_upper, with no promised raw-lower
+or full-width improvement. It preserves negative raw endpoints, scalar-only
+intersection with the accepted RI-96 trace, and undefined ratios. The exact
+band spread plus matrix-margin identity distinguishes spectral spread from
+deterministic enclosure slack. These are conditional bounds on four fixed
+finite circulant proxies and eight selected coordinates, not measured physical
+covariance, detector calibration, significance or native gravity.
+
+**RI-98 is assigned externally, source only.** The measurement author owns
+consumer.py, qualify.py and IMPLEMENTATION.md in ri98-source-eHMDesEW;
+a separate author owns validate.py with product-form reconstruction. Their
+API/schema is coordinated directly. All 8192 non-DC modes and four scenarios
+remain fixed. Complete source/reason-inventory review and fabricated normal/-O
+qualification precede any actual-input admission. No actual operand decoding,
+new transform, target execution, runtime admission or repository/git operation
+is assigned to these workers. Resource limits and calibration/held-out/native
+premises stay unchanged.
+
+**RI-95 witness custody is accepted and the exact saved candidate is materialized.**
+Independent review reconciles all 13 raw monitor samples, source/runtime/output
+identities and genuine witness a98934 exit zero. Root's accepted custody record
+is RI95_ROOT_ACCEPTED_WITNESS_CUSTODY.json, 2156 bytes,
+915d0f23ed3a58b44b3e9951480def3963704105e2d73b38043835327bcdfea6,
+in the same replay checkpoint. The reviewed normal-only helper ran at genuine
+4dec59 exit zero. Its complete construction record is 138448 bytes,
+e66f0d6b9e678a2a48d85d17fe739363eec56f8aade1200c948c6a340c7ec8c5,
+in ri95-root-normal-admission-source-RZ5FKMNk. Both distinct candidate files
+contain the unchanged 1134956-byte witness, SHA256
+f53ac470a02811d9d23dcf7d6c56c26ab72c69aa4af2bf389ca76dd603513223.
+Materialization is not scientific acceptance and this candidate remains unstaged.
+
+Actual normal saved replay completed at genuine 628e97 exit zero, under the
+unchanged native 120-second/536870912-byte sampled owned-process-group RSS
+contract. Root reopened all 14 raw samples (13 live), 11410 process-census rows,
+all inputs/outputs and final empty process group. The child took
+0.8801856670033885 seconds with 62881792 bytes peak. All 134 intended-reason
+refusals and 12 algebra fixtures passed. The normal receipt is 14328 bytes,
+1d17fe1ad35a27a3d94514d2259c2fa9d28902f213232f27d8fdf968dbedc101;
+stdout is 4464 bytes, 3f63f1ff7a4939b21aff96fc2ec982fac1a0fcaafc4b043332396ab7b99aeebe.
+Independent completed normal custody also passed. The 9704-byte review in
+ri95-independent-normal-completed-gfzo5gk1 has SHA256
+18bba6f5bebc3fc7cc2301879d6dc8735132217a9b37ccf0010a62ccde238fcd;
+it independently reconciles 164 unique files and the complete raw process census.
+Root accepts the actual normal custody in RI95_ROOT_ACCEPTED_NORMAL_CUSTODY.json,
+2917 bytes, 53547f72e62c0ba4f2aa4ad620c906fdb10c3f5be55b004e10013843dfb26380,
+in the replay checkpoint. A minimal optimized-only admission helper is assigned
+externally, source only, with unchanged source/history/witness/normal prerequisites.
+It remains subject to root full source review and separate invocation; no optimized
+authorization or execution exists at this checkpoint.
+
+Root completed its own full 870-line review of the separate arithmetic consumer,
+in addition to the previously accepted independent source review. It reconstructs
+all 17 certificate sections, exact tensor conversion/reversal and both algebraic
+routes; its 12 synthetic fixtures are rebuilt independently. Its 134 producer
+refusals remain declarations, with execution supported by producer custody.
+The source-only audit caller adapter and unchanged monitoring mechanics are
+accepted after full source/delta and independent review. Root source decisions
+RI95_ROOT_COMPLETE_CONSUMER_SOURCE_REVIEW.json and
+RI95_ROOT_AUDIT_CALLER_SOURCE_ADJUDICATION.json remain in the replay checkpoint.
+Concrete caller custody validation/bindings must use the genuine three-mode
+records, including original tool-completion paths; no future record may be
+fabricated. QR's existing concrete preparation step is waiting on optimized
+evidence, with no duplicate assignment. Actual independent arithmetic, its
+completed custody review and root mathematical adjudication remain required
+before publishing the native certificate or selecting its justified successor.
+The wider programme continues on both lanes. RET alone remains paused.
