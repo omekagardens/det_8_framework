@@ -1,0 +1,1026 @@
+{
+  "artifacts": [
+    {
+      "bytes": 99332,
+      "name": "TINY.json",
+      "sha256": "f35a62be8dc167056ea029fbae96eefc7c00a13e8ade61822d53cafc2c88d882"
+    },
+    {
+      "bytes": 74633,
+      "name": "ALGEBRA.json",
+      "sha256": "656beceb081bd8886472c8e02ad864d3637a1ff71764a913fe007f16956225cb"
+    },
+    {
+      "bytes": 2416884,
+      "name": "SYNTHETIC_INTERVALS.json",
+      "sha256": "6149bf82e9d6c1fa7ab84afb09e1cfc9f6053d32e4ad8e22501c92d862c5b8da"
+    },
+    {
+      "bytes": 1134758,
+      "name": "PRIOR.json",
+      "sha256": "5d271e8d6fd10038ea3630d41f063690e4d82c806ac6238d82e76d10533b7b3d"
+    },
+    {
+      "bytes": 30414137,
+      "name": "SCHEMA_FIXTURE.json",
+      "sha256": "a853080e5fc0f277176add977cbf8432d1e4cac653051071b22cdfa30594f29c"
+    },
+    {
+      "bytes": 2416885,
+      "name": "BAD_HEADER.json",
+      "sha256": "48671682c5dbca0a5ec64e5e8ee6a92004240169b4970455fbb466624a7a9608"
+    },
+    {
+      "bytes": 2416885,
+      "name": "BAD_TRAILING.json",
+      "sha256": "1a152c2df6512d587e6cb656c2dc642203f8668453b8c431380cec39de234f25"
+    },
+    {
+      "bytes": 2416885,
+      "name": "BAD_REVERSED.json",
+      "sha256": "f023f7c6446b573d6e58b5d057d150480b7917d0c0b9af6a1fc0ed016e9bc21b"
+    },
+    {
+      "bytes": 917719,
+      "name": "PRODUCTION_zero.json",
+      "sha256": "7e925752fce1ea963c5552b51172e4b86a15545c1832d39a0f77cfb4c9691ba7"
+    },
+    {
+      "bytes": 917857,
+      "name": "PRODUCTION_constant.json",
+      "sha256": "f8c29631c9c4685bc5861cbbc1f2c3ed8fbee34e76a748e9b0e40e416ee96c13"
+    },
+    {
+      "bytes": 917863,
+      "name": "PRODUCTION_alternating.json",
+      "sha256": "29c38ff55062d5c5f84eef20c428311e69d44c4f82951176b81c99cec81c8bb8"
+    },
+    {
+      "bytes": 917999,
+      "name": "PRODUCTION_quarter_cosine.json",
+      "sha256": "1f11b242e0da191d35cf8d886bae20d3a719734ec7e867341d6d677699311274"
+    },
+    {
+      "bytes": 6023885,
+      "name": "PRODUCTION_quarter_sine.json",
+      "sha256": "55218e3b151087e561d6193d7eb87f920b702af37d85e48a6e1a3d8e4bae57ac"
+    },
+    {
+      "bytes": 2949351,
+      "name": "PRODUCTION_impulse_zero.json",
+      "sha256": "6dead74088f9f2d532f5aecbea5fd6439ed7c93a9f9aef471cb3c344cd59b03e"
+    }
+  ],
+  "counts": {
+    "artifacts": 14,
+    "coefficient_corners": 64,
+    "full_production_schema_fixtures": 1,
+    "production_analytic_cases": 6,
+    "production_doubled_subcases": 1,
+    "production_modes_per_case": 16384,
+    "production_scaling_response_matrices": 8193,
+    "refusals": 77,
+    "spectral_cases": 6,
+    "tiny_direct_cases": 6
+  },
+  "limitations": [
+    "No actual source-input numerical body was decoded; file operands above are exclusively generated fixtures.",
+    "Full genuine source/runtime custody is separately established by the frozen outer caller.",
+    "Qualification establishes neither physical noise adequacy nor a native forward map."
+  ],
+  "phase": "fabricated_qualification",
+  "positive_checks": {
+    "all_mutations_restored": true,
+    "both_streamed_source_readers": true,
+    "canonical_result_roundtrip": true,
+    "coefficient_error_corners": true,
+    "full_independent_result_validation": true,
+    "independent_scalar_radical_oracle": true,
+    "lambda_weighted_H": true,
+    "midpoint_DC_preserved": true,
+    "production_analytic_enclosures": true,
+    "production_response_scaling": true,
+    "white_endpoint_mapping": true
+  },
+  "provenance": {
+    "acceptance": {
+      "qualification": null,
+      "ri90": {
+        "bytes": 5773,
+        "sha256": "ac1cc18491dfd9a9f1bd1bf546f0d0ecea3427eb287238f6c4783f6a3b34cd50"
+      },
+      "ri92": {
+        "bytes": 1873,
+        "sha256": "2a08c8d69cb3910918152e3f17394142df096c5ca4ee7428e3e57018cd004114"
+      }
+    },
+    "inputs": {
+      "ri73": {
+        "bytes": 2885,
+        "sha256": "340413503a0bb0d5370aede15423ceeed14b893b0012c7e75ff910d37e5d34b5"
+      },
+      "ri83": {
+        "bytes": 1066031,
+        "sha256": "a107ea7395b2803bd31f38ffa28ac6a51df06ba6fd9657977f31547e8fdf8adc"
+      },
+      "ri90": {
+        "bytes": 1134758,
+        "sha256": "5d271e8d6fd10038ea3630d41f063690e4d82c806ac6238d82e76d10533b7b3d"
+      },
+      "snapshot": {
+        "bytes": 2416884,
+        "sha256": "6149bf82e9d6c1fa7ab84afb09e1cfc9f6053d32e4ad8e22501c92d862c5b8da"
+      }
+    },
+    "runtime": {
+      "fingerprint": {
+        "bytes": 474,
+        "sha256": "51e1df53ab53cd91a0e3847d92b1d82fedd3d5bf0cd03850b39413cfca5f7bfc"
+      },
+      "interpreter": {
+        "bytes": 52640,
+        "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+      },
+      "inventory": {
+        "bytes": 1216343,
+        "sha256": "8b0329a83a1208b21dfb4771d2dd078aae6cb54a1741b7f20b4a4695c06e245c"
+      }
+    },
+    "sources": {
+      "consumer": {
+        "bytes": 33482,
+        "sha256": "c1749bd809e5b748bb5e5f67e2e5c3a1a4ba50b074287850e01a89fb64a304bd"
+      },
+      "design": {
+        "bytes": 23384,
+        "sha256": "1176d5bb3ebab7fd7ba59cc33da494ffeab7a0f0981652734e65714ad873c811"
+      },
+      "implementation": {
+        "bytes": 22600,
+        "sha256": "968821157c04efab7de30cb9724c493f4bcdef9c48c15902aa420f57914c1d7a"
+      },
+      "qualifier": {
+        "bytes": 37675,
+        "sha256": "5fe4c5c75513d9798027ef16b1f1429e7759acb1171a38a6b65474587ef8492c"
+      },
+      "validator": {
+        "bytes": 41930,
+        "sha256": "78592455b4d933d9ac9a48bec6acb1a8d55ae88732a868c9f6c7bfe418046c94"
+      }
+    }
+  },
+  "refusal_inventory": [
+    {
+      "expected_code": "EXACT",
+      "id": "p_bool_integer"
+    },
+    {
+      "expected_code": "RESOURCE",
+      "id": "p_large_integer"
+    },
+    {
+      "expected_code": "EXACT",
+      "id": "p_noncanonical_hex"
+    },
+    {
+      "expected_code": "EXACT",
+      "id": "p_unreduced_rational"
+    },
+    {
+      "expected_code": "EXACT",
+      "id": "p_negative_denominator"
+    },
+    {
+      "expected_code": "INTERVAL",
+      "id": "p_reversed_interval"
+    },
+    {
+      "expected_code": "INTERVAL",
+      "id": "p_negative_sqrt"
+    },
+    {
+      "expected_code": "DOMAIN",
+      "id": "p_wrong_transform_size"
+    },
+    {
+      "expected_code": "DOMAIN",
+      "id": "p_bool_transform_size"
+    },
+    {
+      "expected_code": "DOMAIN",
+      "id": "p_wrong_transform_length"
+    },
+    {
+      "expected_code": "EXACT",
+      "id": "p_float_transform_input"
+    },
+    {
+      "expected_code": "ROW",
+      "id": "p_bad_row_shape"
+    },
+    {
+      "expected_code": "INTERVAL",
+      "id": "p_negative_radius"
+    },
+    {
+      "expected_code": "DC",
+      "id": "p_nonzero_constant_box"
+    },
+    {
+      "expected_code": "DOMAIN",
+      "id": "p_wrong_matrix_domain"
+    },
+    {
+      "expected_code": "ALPHA",
+      "id": "p_negative_alpha"
+    },
+    {
+      "expected_code": "TRANSFORM",
+      "id": "p_missing_mode"
+    },
+    {
+      "expected_code": "PSD",
+      "id": "p_negative_psd"
+    },
+    {
+      "expected_code": "PSD",
+      "id": "p_nonfinite_psd"
+    },
+    {
+      "expected_code": "PSD",
+      "id": "p_noncanonical_float"
+    },
+    {
+      "expected_code": "PSD",
+      "id": "p_psd_hash"
+    },
+    {
+      "expected_code": "PSD",
+      "id": "p_psd_dtype"
+    },
+    {
+      "expected_code": "PSD",
+      "id": "p_float_shape"
+    },
+    {
+      "expected_code": "DOMAIN",
+      "id": "p_float_fs"
+    },
+    {
+      "expected_code": "BAND",
+      "id": "p_missing_band"
+    },
+    {
+      "expected_code": "BAND",
+      "id": "p_changed_band"
+    },
+    {
+      "expected_code": "BAND",
+      "id": "p_negative_H"
+    },
+    {
+      "expected_code": "GLOBAL",
+      "id": "p_bad_rho"
+    },
+    {
+      "expected_code": "GLOBAL",
+      "id": "p_nonpositive_gram"
+    },
+    {
+      "expected_code": "ROW",
+      "id": "p_extra_none_row"
+    },
+    {
+      "expected_code": "PHASE",
+      "id": "p_fake_actual_identity"
+    },
+    {
+      "expected_code": "PHASE",
+      "id": "p_fake_qualification_accepted"
+    },
+    {
+      "expected_code": "INPUT",
+      "id": "p_actual_body_before_path"
+    },
+    {
+      "expected_code": "INPUT",
+      "id": "p_snapshot_identity"
+    },
+    {
+      "expected_code": "SCHEMA",
+      "id": "p_snapshot_header"
+    },
+    {
+      "expected_code": "SCHEMA",
+      "id": "p_snapshot_trailing"
+    },
+    {
+      "expected_code": "INTERVAL",
+      "id": "p_snapshot_reversed"
+    },
+    {
+      "expected_code": "SCHEMA",
+      "id": "v_unknown_field"
+    },
+    {
+      "expected_code": "PHASE",
+      "id": "v_wrong_phase"
+    },
+    {
+      "expected_code": "SCHEMA",
+      "id": "v_wrong_status"
+    },
+    {
+      "expected_code": "SCHEMA",
+      "id": "v_wrong_model"
+    },
+    {
+      "expected_code": "DOMAIN",
+      "id": "v_changed_method"
+    },
+    {
+      "expected_code": "DOMAIN",
+      "id": "v_changed_crop"
+    },
+    {
+      "expected_code": "DOMAIN",
+      "id": "v_changed_normalization"
+    },
+    {
+      "expected_code": "DOMAIN",
+      "id": "v_changed_resource"
+    },
+    {
+      "expected_code": "ROW",
+      "id": "v_changed_rows"
+    },
+    {
+      "expected_code": "SCHEMA",
+      "id": "v_removed_limitations"
+    },
+    {
+      "expected_code": "SCHEMA",
+      "id": "v_changed_gates"
+    },
+    {
+      "expected_code": "SOURCE",
+      "id": "v_changed_design"
+    },
+    {
+      "expected_code": "PHASE",
+      "id": "v_fake_actual_identity"
+    },
+    {
+      "expected_code": "PHASE",
+      "id": "v_fake_qualification_accepted"
+    },
+    {
+      "expected_code": "PROVENANCE",
+      "id": "v_changed_runtime"
+    },
+    {
+      "expected_code": "GLOBAL",
+      "id": "v_changed_prior"
+    },
+    {
+      "expected_code": "ALPHA",
+      "id": "v_row_alpha"
+    },
+    {
+      "expected_code": "TRANSFORM",
+      "id": "v_row_initial"
+    },
+    {
+      "expected_code": "TRANSFORM",
+      "id": "v_row_mode"
+    },
+    {
+      "expected_code": "BAND",
+      "id": "v_band_partition"
+    },
+    {
+      "expected_code": "BAND",
+      "id": "v_repeated_band"
+    },
+    {
+      "expected_code": "BAND",
+      "id": "v_band_center"
+    },
+    {
+      "expected_code": "BAND",
+      "id": "v_band_error"
+    },
+    {
+      "expected_code": "PARSEVAL",
+      "id": "v_parseval_true_A_confusion"
+    },
+    {
+      "expected_code": "PARSEVAL",
+      "id": "v_parseval_status"
+    },
+    {
+      "expected_code": "PSD",
+      "id": "v_scenario_source"
+    },
+    {
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_ties"
+    },
+    {
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_lower"
+    },
+    {
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_upper"
+    },
+    {
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_weighted_H"
+    },
+    {
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_delta"
+    },
+    {
+      "expected_code": "GLOBAL",
+      "id": "v_scenario_global"
+    },
+    {
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_intersection"
+    },
+    {
+      "expected_code": "CANONICAL",
+      "id": "v_noncanonical_json"
+    },
+    {
+      "expected_code": "SCHEMA",
+      "id": "v_duplicate_json"
+    },
+    {
+      "expected_code": "INPUT",
+      "id": "v_actual_body_before_path"
+    },
+    {
+      "expected_code": "ENVELOPE",
+      "id": "wrong_unweighted_H"
+    },
+    {
+      "expected_code": "PARSEVAL",
+      "id": "wrong_midpoint_DC_omission"
+    },
+    {
+      "expected_code": "ENVELOPE",
+      "id": "wrong_Nyquist_pair_weight"
+    },
+    {
+      "expected_code": "ENVELOPE",
+      "id": "wrong_interior_PSD_factor"
+    }
+  ],
+  "refusals": [
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "p_bool_integer",
+      "message": "EXACT: integer required",
+      "passed": true
+    },
+    {
+      "code": "RESOURCE",
+      "expected_code": "RESOURCE",
+      "id": "p_large_integer",
+      "message": "RESOURCE: integer bit ceiling",
+      "passed": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "p_noncanonical_hex",
+      "message": "EXACT: canonical hex integer",
+      "passed": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "p_unreduced_rational",
+      "message": "EXACT: reduced rational required",
+      "passed": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "p_negative_denominator",
+      "message": "EXACT: positive denominator",
+      "passed": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "p_reversed_interval",
+      "message": "INTERVAL: ordered grid endpoints",
+      "passed": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "p_negative_sqrt",
+      "message": "INTERVAL: nonnegative square-root argument",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "p_wrong_transform_size",
+      "message": "DOMAIN: fixed transform sizes",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "p_bool_transform_size",
+      "message": "DOMAIN: fixed transform sizes",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "p_wrong_transform_length",
+      "message": "DOMAIN: fixed sequence length",
+      "passed": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "p_float_transform_input",
+      "message": "EXACT: Fraction required",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "p_bad_row_shape",
+      "message": "ROW: fixed sequence length",
+      "passed": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "p_negative_radius",
+      "message": "INTERVAL: nonnegative radii",
+      "passed": true
+    },
+    {
+      "code": "DC",
+      "expected_code": "DC",
+      "id": "p_nonzero_constant_box",
+      "message": "DC: constant-annihilation box excludes zero",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "p_wrong_matrix_domain",
+      "message": "DOMAIN: matrix size domain",
+      "passed": true
+    },
+    {
+      "code": "ALPHA",
+      "expected_code": "ALPHA",
+      "id": "p_negative_alpha",
+      "message": "ALPHA: nonnegative alpha",
+      "passed": true
+    },
+    {
+      "code": "TRANSFORM",
+      "expected_code": "TRANSFORM",
+      "id": "p_missing_mode",
+      "message": "TRANSFORM: fixed sequence length",
+      "passed": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "p_negative_psd",
+      "message": "PSD: canonical finite nonnegative binary64",
+      "passed": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "p_nonfinite_psd",
+      "message": "PSD: canonical finite nonnegative binary64",
+      "passed": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "p_noncanonical_float",
+      "message": "PSD: canonical finite nonnegative binary64",
+      "passed": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "p_psd_hash",
+      "message": "PSD: PSD raw byte identity",
+      "passed": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "p_psd_dtype",
+      "message": "PSD: PSD dtype/shape",
+      "passed": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "p_float_shape",
+      "message": "PSD: PSD dtype/shape",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "p_float_fs",
+      "message": "DOMAIN: fixed scenario domain",
+      "passed": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "p_missing_band",
+      "message": "BAND: fixed sequence length",
+      "passed": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "p_changed_band",
+      "message": "BAND: fixed band partition",
+      "passed": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "p_negative_H",
+      "message": "BAND: nonnegative error matrix",
+      "passed": true
+    },
+    {
+      "code": "GLOBAL",
+      "expected_code": "GLOBAL",
+      "id": "p_bad_rho",
+      "message": "GLOBAL: unchanged rho gate",
+      "passed": true
+    },
+    {
+      "code": "GLOBAL",
+      "expected_code": "GLOBAL",
+      "id": "p_nonpositive_gram",
+      "message": "GLOBAL: positive Gram pivots required",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "p_extra_none_row",
+      "message": "ROW: extra source row",
+      "passed": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "p_fake_actual_identity",
+      "message": "PHASE: fabricated operands must not claim actual identities",
+      "passed": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "p_fake_qualification_accepted",
+      "message": "PHASE: qualification not yet accepted",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "p_actual_body_before_path",
+      "message": "INPUT: accepted RI90 body identity",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "p_snapshot_identity",
+      "message": "INPUT: snapshot identity before decoding",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "p_snapshot_header",
+      "message": "SCHEMA: fixed snapshot header",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "p_snapshot_trailing",
+      "message": "SCHEMA: fixed snapshot footer and EOF",
+      "passed": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "p_snapshot_reversed",
+      "message": "INTERVAL: ordered coefficient interval",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "v_unknown_field",
+      "message": "closed object fields differ",
+      "passed": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "v_wrong_phase",
+      "message": "result phase differs",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "v_wrong_status",
+      "message": "result status differs",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "v_wrong_model",
+      "message": "model label differs",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "v_changed_method",
+      "message": "fixed method differs",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "v_changed_crop",
+      "message": "fixed method differs",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "v_changed_normalization",
+      "message": "fixed method differs",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "v_changed_resource",
+      "message": "fixed method differs",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "v_changed_rows",
+      "message": "fixed row inventory differs",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "v_removed_limitations",
+      "message": "scientific limitations differ",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "v_changed_gates",
+      "message": "complete gate inventory differs",
+      "passed": true
+    },
+    {
+      "code": "SOURCE",
+      "expected_code": "SOURCE",
+      "id": "v_changed_design",
+      "message": "accepted RI92 design identity differs",
+      "passed": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "v_fake_actual_identity",
+      "message": "fabricated input claims an actual identity",
+      "passed": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "v_fake_qualification_accepted",
+      "message": "fabricated qualification cannot already be accepted",
+      "passed": true
+    },
+    {
+      "code": "PROVENANCE",
+      "expected_code": "PROVENANCE",
+      "id": "v_changed_runtime",
+      "message": "provenance differs from admitted caller metadata",
+      "passed": true
+    },
+    {
+      "code": "GLOBAL",
+      "expected_code": "GLOBAL",
+      "id": "v_changed_prior",
+      "message": "reported prior differs from independently supplied prior",
+      "passed": true
+    },
+    {
+      "code": "ALPHA",
+      "expected_code": "ALPHA",
+      "id": "v_row_alpha",
+      "message": "alpha differs from exact sum of source radii",
+      "passed": true
+    },
+    {
+      "code": "TRANSFORM",
+      "expected_code": "TRANSFORM",
+      "id": "v_row_initial",
+      "message": "initial midpoint enclosure differs",
+      "passed": true
+    },
+    {
+      "code": "TRANSFORM",
+      "expected_code": "TRANSFORM",
+      "id": "v_row_mode",
+      "message": "recursive transform enclosure differs",
+      "passed": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "v_band_partition",
+      "message": "fixed band indices differ",
+      "passed": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "v_repeated_band",
+      "message": "fixed band indices differ",
+      "passed": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "v_band_center",
+      "message": "band center matrix differs",
+      "passed": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "v_band_error",
+      "message": "band error matrix differs",
+      "passed": true
+    },
+    {
+      "code": "PARSEVAL",
+      "expected_code": "PARSEVAL",
+      "id": "v_parseval_true_A_confusion",
+      "message": "midpoint Parseval center differs",
+      "passed": true
+    },
+    {
+      "code": "PARSEVAL",
+      "expected_code": "PARSEVAL",
+      "id": "v_parseval_status",
+      "message": "invalid Parseval status",
+      "passed": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "v_scenario_source",
+      "message": "scenario source PSD differs from admitted prior",
+      "passed": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_ties",
+      "message": "band extrema or complete ties differ",
+      "passed": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_lower",
+      "message": "independent scenario field differs: lower",
+      "passed": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_upper",
+      "message": "independent scenario field differs: upper",
+      "passed": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_weighted_H",
+      "message": "independent scenario field differs: H_plus",
+      "passed": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_delta",
+      "message": "independent scenario field differs: delta_plus",
+      "passed": true
+    },
+    {
+      "code": "GLOBAL",
+      "expected_code": "GLOBAL",
+      "id": "v_scenario_global",
+      "message": "independent scenario field differs: global_lower",
+      "passed": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "v_scenario_intersection",
+      "message": "independent scenario field differs: scalar_intersections",
+      "passed": true
+    },
+    {
+      "code": "CANONICAL",
+      "expected_code": "CANONICAL",
+      "id": "v_noncanonical_json",
+      "message": "result is not exact canonical JSON",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "v_duplicate_json",
+      "message": "duplicate object key",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "v_actual_body_before_path",
+      "message": "held RI90 body differs before decode",
+      "passed": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "wrong_unweighted_H",
+      "message": "ENVELOPE: unweighted H misses exact correlated corner",
+      "passed": true
+    },
+    {
+      "code": "PARSEVAL",
+      "expected_code": "PARSEVAL",
+      "id": "wrong_midpoint_DC_omission",
+      "message": "PARSEVAL: omitting nonzero midpoint DC changes Gram",
+      "passed": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "wrong_Nyquist_pair_weight",
+      "message": "ENVELOPE: doubling singleton Nyquist changes covariance",
+      "passed": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "wrong_interior_PSD_factor",
+      "message": "ENVELOPE: interior eigenvalue must use fs/2",
+      "passed": true
+    }
+  ],
+  "schema": "ri93-fabricated-qualification-v1",
+  "scope": "Fabricated mathematical and source-format qualification only; no actual interval/PSD values decoded.",
+  "status": "all_fabricated_gates_passed"
+}
