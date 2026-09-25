@@ -8,8 +8,8 @@ the reviewed allocation repair are retained. RI-82's fixed first-departure
 harmonic design is independently accepted; actual feasibility remains unknown.
 Source-only RI-83 now prepares the actual public-input caller, while QR's RI-84
 implements the exact native certificate. Both require independent source review
-and a new execution freeze before scientific execution. This checkpoint is
-being prepared for scoped publication. RET remains paused.
+and a new execution freeze before scientific execution. This nine-file checkpoint is published in independently verified
+`1f1e62a`. RET remains paused.
 
 **24 September recovery status.** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -106,12 +106,12 @@ Active file reservations, updated 24 September UTC:
 | RI-77 random-cutoff locality | Published in independently verified `d43d144` after proof/source review and fresh normal/optimized replay; three-file reservation released. Fixed two-core locality witness domain, no new global parent-six table. |
 | RI-79 delayed-cutoff locality | Published in independently verified `b647f6f` after complete proof/source review, exact saved arithmetic and fresh copied normal/optimized replay. Reservation released; no new probability inventory or numerical global scale. |
 | RI-81 structural mixture locality | Published in independently verified `4255863` after complete root and separate proof reviews and evidence reconciliation; one-note reservation released. Conditional prior-robust criterion and positive harmonic subclass, with nonconstant existence and geometry still open. |
-| RI-82 constructive first departure | Independently accepted design; source reservation released to root for publication. Complete two-parent closure, 128 marked rows and conditional width gain established; actual coefficients unevaluated. |
+| RI-82 constructive first departure | Published in independently verified `1f1e62a`; source reservation released. Complete two-parent closure, 128 marked rows and conditional width gain established; actual coefficients unevaluated. |
 | RI-84 exact first-departure decision | QR reserves only `check.py` and `IMPLEMENTATION.md` in `docs/track_b/native_growth_first_departure_check_v1/` for source-only implementation. `CERTIFICATE.json` is reserved for later real execution and must remain absent now. Independent source review and root freeze precede coefficients; preserve 120s/512MiB per attempt and either rank outcome. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
 | RI-73 operator covariance implementation | `check.py` published in independently verified `6e58490`; preserve its pin. Both actual modes and independent audits pass; exact `RESULT.json` published in verified `ad44848`. Reservation released; preserve the fixed unit-white scope. |
 | RI-78 public off-event spectra design | Published in independently verified `d43d144`; one-file reservation released. Fixed descriptive Welch PSD/ASD design on the recovered H1/L1 V2 pair; no observed result, whitening or covariance substitution. |
-| RI-80 spectra implementation | Independently accepted after actual normal/-O qualification and two saved-evidence audits; five-file reservation released to root for publication. Preserve all report values, numerical source pins and failed receipts. |
+| RI-80 spectra implementation | Published in independently verified `1f1e62a` after actual normal/-O qualification and two saved-evidence audits; five-file reservation released. Preserve all report values, numerical source pins and failed receipts. |
 | RI-83 actual public spectra | Coordinator implementation lane reserves only `run_observed.py` and `EXECUTION.md` in `docs/experiments/gwosc_off_event_spectra_result_v1/`. Source-only actual-caller/contract first; no observed reads yet. Root reserves the uncreated `RESULT.json`. Complete source/data/runtime/qualification/window freeze precedes serial actual runs under unchanged 180s/512MiB limits. |
 | RI-68 synthetic noise qualification | Two-file packet published in independently verified `4280198`; reservation released. |
 | RI-55 context sensitivity | One-file design published in verified `ef10f33` and source-quiet; reservation released. |
@@ -5190,3 +5190,19 @@ RI-82's accepted design and these three coordinator records. Active RI-83/84,
 pre-existing user edits, original independent review, historical results and RET
 are excluded. Root retains publication/preflight evidence under
 /Volumes/AI_DATA/development/det-review-evidence/ri80-ri82-publication-20260925T000640Z-63dd51ee/.
+
+**RI-80/82 remote checkpoint verified**
+
+Science commit `1f1e62ab0bb8f7343fc0f1b992afbad354ff9413`, tree
+`c696e54b8e63fc00a1fd483aa0539a36c3b1db17`, publishes exactly the five RI-80
+source/report files, accepted RI-82 design and three coordinator records.
+Staged preflight verified exact reviewed bytes, thirteen published dependencies,
+all saved evidence pins, both successful runs and both retained failures,
+three Python ASTs and 148 local links. It preserved 2144 unrelated entry files.
+No scientific rerun was needed after the completed independent audits. Normal
+push succeeded; a separate `git ls-remote origin refs/heads/ret` returned the
+exact commit. GitHub accepted the complete 60.52 MiB report with its advisory
+large-file warning; no report data was reduced. Index was empty afterward.
+Active RI-83 actual-input caller and RI-84 native checker remain excluded.
+Both are source-only until review and prospective execution admission. Original
+review, all historical identities, acceptance limits and RET pause remain intact.

@@ -8,8 +8,8 @@ the reviewed allocation repair are retained. RI-82's fixed first-departure
 harmonic design is independently accepted; actual feasibility remains unknown.
 Source-only RI-83 now prepares the actual public-input caller, while QR's RI-84
 implements the exact native certificate. Both require independent source review
-and a new execution freeze before scientific execution. This checkpoint is
-being prepared for scoped publication. RET remains paused.
+and a new execution freeze before scientific execution. This nine-file checkpoint is published in independently verified
+`1f1e62a`. RET remains paused.
 
 **24 September recovery status.** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -42,8 +42,8 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-80 fabricated spectra qualification | **Independently accepted; scoped publication in progress.** Identical normal/-O reports, all declared cases and 37 intended refusals pass; two failed attempts preserved. | RI-83 separately implements the actual-input caller before a new freeze. |
-| RI-82 constructive native design | **Independently accepted; scoped publication in progress.** Complete closure, conditional rank/positivity and width target reviewed. | RI-84 implements the fixed exact decision; actual feasibility unknown. |
+| RI-80 fabricated spectra qualification | **Published in independently verified `1f1e62a`.** Identical normal/-O reports, all declared cases and 37 intended refusals pass; two failed attempts preserved. | RI-83 separately implements the actual-input caller before a new freeze. |
+| RI-82 constructive native design | **Published in independently verified `1f1e62a`.** Complete closure, conditional rank/positivity and width target reviewed. | RI-84 implements the fixed exact decision; actual feasibility unknown. |
 | RI-83 / RI-84 active successors | **Source-only implementation in disjoint reservations.** No observed spectra or new native coefficients executed. | Review source and complete prospective freezes; keep RET paused. |
 | RI-77 random-cutoff locality | **Assigned; three possible new paths reserved.** | Decide strict record locality of the specified latent-cutoff mixture, with a frozen two-core witness domain. |
 | RI-76 approximation asymptotics | **Published in independently verified `ad44848`.** | Preserve defect decay and height obstruction together; review RI-77 next. |
@@ -4174,3 +4174,19 @@ RI-82's accepted design and these three coordinator records. Active RI-83/84,
 pre-existing user edits, original independent review, historical results and RET
 are excluded. Root retains publication/preflight evidence under
 /Volumes/AI_DATA/development/det-review-evidence/ri80-ri82-publication-20260925T000640Z-63dd51ee/.
+
+**RI-80/82 remote checkpoint verified**
+
+Science commit `1f1e62ab0bb8f7343fc0f1b992afbad354ff9413`, tree
+`c696e54b8e63fc00a1fd483aa0539a36c3b1db17`, publishes exactly the five RI-80
+source/report files, accepted RI-82 design and three coordinator records.
+Staged preflight verified exact reviewed bytes, thirteen published dependencies,
+all saved evidence pins, both successful runs and both retained failures,
+three Python ASTs and 148 local links. It preserved 2144 unrelated entry files.
+No scientific rerun was needed after the completed independent audits. Normal
+push succeeded; a separate `git ls-remote origin refs/heads/ret` returned the
+exact commit. GitHub accepted the complete 60.52 MiB report with its advisory
+large-file warning; no report data was reduced. Index was empty afterward.
+Active RI-83 actual-input caller and RI-84 native checker remain excluded.
+Both are source-only until review and prospective execution admission. Original
+review, all historical identities, acceptance limits and RET pause remain intact.
