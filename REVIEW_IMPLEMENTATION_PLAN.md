@@ -1,23 +1,23 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 25 September 2026 UTC.** RI-95's exact native
-amplitude obstruction and RI-98's completed fabricated qualification are
-published and independently remote-verified in `18dec9b`. RI-99's complete
-proof/design is now independently accepted. Its fixed local subsystem has
-eight child variables, rank two and a positive six-dimensional slice; the
-first deletion closure has seven parents and thirty roles. The sparse reset
-outside those children is rejected. Full incidence closure reaches the whole
-layer, and global signed/positive feasibility remains open. This checkpoint
-publishes the reviewed proof note with the three coordinator records.
-RI-101 is assigned to the existing QR task: signed extension feasibility,
-full-birth elimination and a native-specific symbolic solution or exact dual
-obstruction, with requested-amplitude positivity kept separate. RI-100's
-concrete source-only saved-data caller has been delivered. Root and independent complete source/metadata reviews pass; the caller is
-source-accepted. Genuine input-custody binding and reviewed freeze completion
-precede actual execution admission. A separate saved-arithmetic consumer is
-now assigned for external source preparation. Both lanes continue externally.
-No native geometry/gravity or empirical covariance claim follows. RET alone
-stays paused, and the original review and unrelated edits remain held.
+**Current checkpoint — 25 September 2026 UTC.** RI-99's complete finite
+extension criterion is published and independently remote-verified in `b44622c`.
+RI-101 now settles its global one-layer signed-feasibility question for the
+fixed baseline and seed: an explicit eleven-child lift satisfies every marked
+row. Complete root and independent proof reviews accept the construction and
+its strictly positive extension for sufficiently small amplitude. Positivity
+at the prescribed epsilon=1/4 remains unresolved. This checkpoint publishes
+the exact reviewed proof with the three coordinator records. RI-102 is assigned
+to the existing QR task to investigate that fixed-amplitude question without
+changing the baseline, direction or scales.
+RI-100's actual saved-input normal and optimized runs both pass all eleven
+declared gates and have identical complete result bytes. Execution custody is
+independently accepted under the unchanged resource limits. Separate saved
+arithmetic is still pending: its complete independently authored source and
+contract are accepted, and a minimal execution adapter is assigned externally.
+No scientific result publication, calibrated covariance or native physical
+forward map follows from custody acceptance. Both substantive lanes continue;
+RET alone stays paused and unrelated edits remain held.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -64,7 +64,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-99 finite harmonic-extension proof is accepted. RI-101 now pursues global signed feasibility, exact full-birth elimination and a native-specific solution or dual obstruction; external proof/design only. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-101 complete signed one-layer lift is independently accepted. RI-102 now investigates prescribed-amplitude positivity of that fixed lift; external proof/design only. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | G2 remains open. Current cycle records the integration obligations; it does not launch or alter a calibration bank. Coordinate source reservations before an eventual SDK implementation/rehearsal. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -97,7 +97,7 @@ Active file reservations, updated 25 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | All predecessor worker repository reservations are released. Root owns publication of the exact accepted RI-99 note. RI-101 owns a fresh external proof/design packet, intended future note `docs/track_b/native_growth_signed_extension_v1/SIGNED.md`. No QR repository edit or scientific execution is assigned. Preserve accepted laws and central git ownership. |
+| QR task | Root owns publication of the exact accepted RI-101 note. RI-102 reserves a fresh external proof/design packet, intended future note `docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md`. No worker repository edit or scientific execution is assigned. Preserve accepted laws and central git ownership. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -117,19 +117,20 @@ Active file reservations, updated 25 September UTC:
 | RI-82 constructive first departure | Published in independently verified `1f1e62a`; source reservation released. Complete two-parent closure, 128 marked rows and conditional width gain established; actual coefficients unevaluated. |
 | RI-84 exact first-departure decision | Sources published `7cc7461`; exact certificate and review published in independently verified `fc72c1f`. Reservation released. The frozen three-class support admits only zero perturbation. |
 | RI-85 complete four-vertex cap design | Design published `d1733b8`; reservation released. Accepted RI-88 result published `9d40744`. |
-| RI-88 native cap checker | **Sources published `d02b4b6`; positive result and independent arithmetic review published `9d40744`.** Rank 10, nullity one; fixed finite width gain retained. RI-95 obstruction is accepted; RI-99 is accepted; RI-101 pursues the remaining global signed problem. |
+| RI-88 native cap checker | **Sources published `d02b4b6`; positive result and independent arithmetic review published `9d40744`.** Rank 10, nullity one; fixed finite width gain retained. RI-95 obstruction is accepted; RI-99 is published; RI-101 supplies a signed one-layer lift; RI-102 studies its prescribed-amplitude positivity. |
 | RI-89 relative continuation | **Published in verified `e248bab`.** Conditional full-complement criterion and necessary t=s.  RI-91 actual obstruction is accepted; preserve the theorem and its fixed-baseline premises. |
 | RI-90 saved colored-proxy application | Five-file actual result and independent audit bundle published in remotely verified `e248bab`; reservation released. |
 | RI-92 frequency-resolved proxy | **Published in verified `59f9c86`.** Fixed-band proof/design independently accepted. Preserve full operator snapshots and design; RI-96 actual application is published in `96daa9d`. |
 | RI-93 frequency-resolved implementation | **Sources published `9e63656`; fabricated qualification accepted and published.** Complete mathematical/custody review passes. Preserve sources/results and the published RI-96 actual application. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
-| RI-95 amplitude certificate | **Exact result and independent audit published in verified `18dec9b`.** All 17 sections reconstruct the restricted positive-amplitude obstruction. Preserve the fixed result; RI-99 is accepted and RI-101 pursues global harmonic-extension feasibility. |
-| RI-96 actual frequency-band application | **Result, independent arithmetic and custody published in verified `96daa9d`.** Five-file bundle preserved. Keep physical adequacy separate; RI-98 qualification is accepted and RI-100 prepares the actual direct-trace application. |
+| RI-95 amplitude certificate | **Exact result and independent audit published in verified `18dec9b`.** All 17 sections reconstruct the restricted positive-amplitude obstruction. Preserve the fixed result; RI-101 supplies a complete signed one-layer lift and RI-102 studies its prescribed-amplitude positivity. |
+| RI-96 actual frequency-band application | **Result, independent arithmetic and custody published in verified `96daa9d`.** Five-file bundle preserved. Keep physical adequacy separate; RI-98 qualification is accepted and RI-100 actual application custody is accepted; its independent arithmetic audit is next. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. Keep empirical adequacy separate; actual saved-input application is RI-100. |
-| RI-98 direct trace implementation | **Qualification published in verified `18dec9b`; sources in `d77e40f`.** Both modes pass 11 cases and 59 refusals with complete scientific equality. RI-100 concrete actual saved-input caller is delivered for source review and separate admission. |
-| RI-99 harmonic extension | **Conditional finite proof/design independently accepted for this checkpoint.** Local positive rank-two slice and complete incidence-closure limits proved. Publish the reviewed note; RI-101 examines global signed feasibility without inferring it from local positivity. |
-| RI-100 actual direct trace | **Concrete caller source independently accepted.** No actual input-custody decision, freeze or execution has been issued. Bind genuine input custody and review concrete freeze completion before separately admitting normal; independent saved-audit source preparation runs in parallel. |
-| RI-101 signed extension | **Assigned to QR, external proof/design only.** Eliminate unique-maximal child values, retain shared proper-child constraints and seek a global symbolic solution or exact dual obstruction; prescribed-amplitude positivity remains separate. |
+| RI-98 direct trace implementation | **Qualification published in verified `18dec9b`; sources in `d77e40f`.** Both modes pass 11 cases and 59 refusals with complete scientific equality. Keep qualification fixed; RI-100 actual application custody is accepted and its separate arithmetic audit is next. |
+| RI-99 harmonic extension | **Conditional finite proof published in verified `b44622c`.** Local rank-two positive slice and complete incidence-closure limits retained. RI-101 now supplies a global signed one-layer lift; prescribed-amplitude positivity stays separate. |
+| RI-100 actual direct trace | **Both actual modes pass with complete result-byte equality; execution custody independently accepted.** Separate arithmetic source/contract is accepted; no actual independent arithmetic result yet. Prepare/review the minimal audit adapter, bind the accepted completed-custody bridge, separately admit the audit, then independently review its actual arithmetic and execution evidence. |
+| RI-101 signed extension | **Conditional complete one-layer proof independently accepted for this checkpoint.** Eleven supported children cover all marked rows; sufficiently small positive amplitude exists. Publish the exact note. RI-102 addresses the fixed epsilon=1/4 lift; no all-size or physical inference. |
+| RI-102 fixed-amplitude lift | **Assigned to the existing QR task, external proof/analytic design only.** Derive decisive bounds or a violating witness for e_Tj > -z_j/4 under fixed B; otherwise identify the exact missing domain. No scale/amplitude substitution or scientific execution. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -6627,3 +6628,28 @@ binding and execution admission still required. This four-file checkpoint publis
 only the accepted RI-99 note and three coordinator records. The
 [progress record](docs/coordination/REVIEW_PROGRESS.md) carries all evidence and
 remaining obligations; prior results and unrelated edits stay held.
+
+**25 September: global signed lift and actual measurement custody.** The exact
+[RI-101 proof](docs/track_b/native_growth_signed_extension_v1/SIGNED.md) passes
+complete root and independent manual review. The eleven values
+`y(T_j disjoint A1)=z_j/q_B(T_j,empty)` solve every marked row of `Ay=Z`;
+the sixteen-parent incoming closure and full-map diamond cancellation are
+proved. The fixed seed has a positive extension through eight births at every
+sufficiently small positive amplitude. Positivity at epsilon=1/4 and an all-size
+positive relative law remain open. RI-102 is now assigned to QR to investigate
+the former using unchanged baseline constraints, with no scientific execution,
+scale selection or replacement amplitude. Failure of this lift alone would
+not reject every shared-child positive solution.
+
+Both separately admitted RI-100 actual modes have now completed, with accepted
+root and independent custody reviews and identical full 8,844,567-byte outputs.
+All eleven declared gates pass. The separately authored complete scalar auditor
+and contract have passed root and two separate complete source reviews, with
+authorship disclosed. A minimal normal-only execution adapter is assigned
+externally; its concrete source/descriptor and genuine completed-custody bridge
+must be reviewed before later audit admission. The independent mathematical
+result and its own execution custody remain unestablished. This checkpoint
+publishes only the accepted native proof and these three coordinator records.
+The [progress record](docs/coordination/REVIEW_PROGRESS.md) holds exact identities,
+actual resource evidence and the next action. No geometry/gravity, physical
+noise adequacy, calibration release or programme completion is claimed.
