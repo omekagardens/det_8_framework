@@ -9413,3 +9413,71 @@ and global endpoints, scalar intersections and any actual improvement or lack
 of improvement. No bins, precision, thresholds or physical prerequisites change.
 QR remains active on RI-95; there is no duplicate native assignment. The
 programme continues with physical validation and native predictions still open.
+
+**RI-95 complete source acceptance; concrete execution and audit preparation assigned**
+
+RI-93's five-file qualification checkpoint is committed, pushed and separately
+remote-verified at `1bd7798df82171eebecdab66ddd28909e618802c`.
+The checkpoint preserved 2186 held entry files and all 35 published dependencies.
+
+Root accepts the complete [RI-95 checker protocol](../track_b/native_growth_relative_amplitude_certificate_v1/IMPLEMENTATION.md) after reading all
+1213 checker lines and 569 protocol lines and reconciling a separate full
+source review. The released identities are:
+
+| Source | Bytes | SHA-256 |
+| --- | ---: | --- |
+| check.py | 79250 | 572b156ce1f8833a23288e2b079cf48c4a1742e8e847b3bacb5652879d772639 |
+| IMPLEMENTATION.md | 24962 | 043d01630d78ddeab718fc15a1ba2b1ea9ff36ffd4fb749150c37b033a06743d |
+
+Both complete accepted input bodies are authenticated before either parse.
+The independent lower deletion sum, all 20/36 labeled slots and 80/220
+factors retain record transport, locality and unchanged full complements.
+Closed and deletion routes reconcile raw/divided polynomials, fixed
+`epsilon*rho^2` valuation and analytic degree bounds. All 68 tensor entries,
+scaled and ordinary reverse expansions, four edges, both full-complement
+s endpoints and the seventeen-entry factor-four RI-91 regression are covered.
+Weak A and strict included G corners preserve the positive/unresolved
+outcomes; a negative coordinate does not imply a root or surviving model.
+
+Root source-only AST/literal inspection reconciles all 134 unique ordered
+control names and twelve fixtures with the protocol, and reopens fourteen
+published dependencies. It executes no target import, executable compilation,
+fixture, coefficient arithmetic or saved replay. The independent reviewer
+previously authored the RI-91 arithmetic consumer; RI-95 is separately authored.
+The two semantic guard-order repairs were source corrections, not failed
+scientific executions. The full amplitude question remains unresolved.
+
+Root adjudication is retained at
+/Volumes/AI_DATA/development/det-review-evidence/ri95-source-checkpoint-q98eii86/RI95_ROOT_SOURCE_ADJUDICATION.json,
+7845 bytes, SHA-256
+ded6b642d57cc51e12ccca50e94da89105e80d78a20e6fd44476e8e155f63cbd.
+The independent review is 8629 bytes,
+0dd6d64a2da89d8afd755f997b8c1094b0aadd654a6bd004a46ea9abb50b9aa7,
+at the adjacent evidence-root directory
+ri95-coordinator-independent-source-review-3fqr8l50/INDEPENDENT_SOURCE_REVIEW.json.
+
+**QR has the next concrete assignment**, following predecessor adjudication:
+prepare the exact external producer closure, reviewed supervisor carry-forward,
+runtime and monitor identities, ordered original/copied inventories and fresh
+per-attempt admission packets. Preserve 120 seconds, 536870912 bytes sampled
+owned-group RSS, 50-ms waits, 250-ms monitor bounds and the exact five-entry
+environment. Sampling remains distinct from an OS hard cap. Witness custody
+must pass before saved normal mode, then optimized mode; genuine outer exit,
+raw live/final process-group evidence and complete byte identities are required.
+No numerical execution or authorization is supplied by this source checkpoint.
+
+QR also prepares a separately authored and reviewed data-only consumer for
+complete witness reconstruction and exact canonical equality, including all
+retained construction, fixtures, endpoint and decision fields. Producer replay
+cannot replace it; declared refusal names cannot replace actual execution.
+The two repository source reservations are released, and this next assignment
+has external-only reservations. Root continues all git/index and final acceptance.
+
+In parallel, RI-96's external caller and prospective freeze have an independent
+source/metadata PASS covering 368 checks, 36 original/copy source pairs,
+both operands, the 3925-file runtime and qualified monitoring evidence. Root
+has read that verdict; full root caller review and actual admission remain
+pending. A separately written saved-result arithmetic audit is now being
+prepared before final application acceptance. No actual frequency-band
+result, numerical improvement or physical noise adequacy is yet claimed.
+Geometry/gravity and a native observation map remain open; RET remains paused.
