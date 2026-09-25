@@ -1,17 +1,17 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 25 September 2026 UTC.** RI-80 fabricated spectral
-qualification is independently accepted: normal/-O reports are byte-identical,
-all declared cases and 37 intended refusals pass, and peak sampled RSS is
-440992/461168 KiB under the unchanged 512 MiB limit. Both earlier failures and
-the reviewed allocation repair are retained. RI-82's fixed first-departure
-harmonic design is independently accepted; actual feasibility remains unknown.
-RI-83's actual public-input caller/contract passed complete root and separate
-source review. Its unchanged two-file source checkpoint is published in verified `81c35fc`;
-external helper and fabricated integration preparation is active. QR's RI-84
-continues the exact native checker implementation. Neither new lane has executed
-its scientific target. RI-80/82 are published in independently verified
-`1f1e62a`; tracking commit `fb4ab80` is also remotely verified. RET remains paused.
+**Current checkpoint — 25 September 2026 UTC.** RI-83 fabricated integration
+is independently accepted: all 33 intended refusals, 10 positive checks and
+235 artifacts pass in normal/-O, with identical reports and full fixtures.
+Separately frozen actual H1/L1 runs also completed in both modes, producing
+identical 38952074-byte spectra; independent full scientific/custody acceptance
+is still pending and RESULT.json remains unpublished. RI-84's exact native
+checker and implementation note passed complete root and separate source
+reviews and are released for this source-only checkpoint. Its actual rank
+remains unknown; external supervisor qualification precedes the native run.
+The unchanged RI-83 caller is published in verified `81c35fc`, with tracking
+commit `d50b0ee` also remotely verified. RI-80/82 remain published in verified
+`1f1e62a`. Both substantive lanes continue; RET remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -44,10 +44,10 @@ with unrelated changes to make an import succeed.
 
 | Lane | Publication state | Next action |
 |---|---|---|
-| RI-80 fabricated spectra qualification | **Published in independently verified `1f1e62a`.** Identical normal/-O reports, all declared cases and 37 intended refusals pass; two failed attempts preserved. | RI-83 separately implements the actual-input caller before a new freeze. |
-| RI-82 constructive native design | **Published in independently verified `1f1e62a`.** Complete closure, conditional rank/positivity and width target reviewed. | RI-84 implements the fixed exact decision; actual feasibility unknown. |
-| RI-83 observed spectral caller | **Source published in independently verified `81c35fc`.** No observed run or integration pass claimed. | Review external helper/harness source, freeze and run fabricated glue controls, then separately admit actual inputs. |
-| RI-84 native first-departure checker | **Source implementation active in QR.** Actual coefficient feasibility unknown. | Review source and a complete prospective freeze before coefficient execution; keep accepted support and limits. |
+| RI-80 fabricated spectra qualification | **Published in independently verified `1f1e62a`.** Identical normal/-O reports, all declared cases and 37 intended refusals pass; two failed attempts preserved. | RI-83 actual runs completed; independently audit saved evidence before result publication. |
+| RI-82 constructive native design | **Published in independently verified `1f1e62a`.** Complete closure, conditional rank/positivity and width target reviewed. | RI-84 source review passed; qualify its supervisor and execute the frozen decision. Actual feasibility remains unknown. |
+| RI-83 observed spectral caller | **Source published in independently verified `81c35fc`; fabricated integration accepted.** Separately frozen actual modes produced identical external results; full acceptance pending. | Qualify the saved-evidence consumer and finish independent observed scientific/custody audit before publication. |
+| RI-84 native first-departure checker | **Source reviewed and released for publication.** Actual coefficient feasibility unknown. | Qualify the reviewed supervisor and admit the exact witness freeze before coefficient execution; keep accepted support and limits. |
 | RI-77 random-cutoff locality | **Published in independently verified `d43d144`; reservation released.** | Preserve the fixed two-core counterexample. RI-79/81 are also published; constructive RI-84 is now active. |
 | RI-76 approximation asymptotics | **Published in independently verified `ad44848`.** | Preserve defect decay and height obstruction together; review RI-77 next. |
 | RI-75 strict approximation | **Published in independently verified `3a30ab0`.** | Preserve conditional finite-depth theorem and bounded toy; RI-76 separately resolves long-run limits. |
@@ -4275,3 +4275,76 @@ control/worker partials are intact. The independent saved-observed-evidence
 auditor is preparing source in a separate external directory, with no target
 imports or data reads. All preparation remains unexecuted until review and
 concrete prospective freezes; accepted sources and actual limits are unchanged.
+
+**RI-84 reviewed source checkpoint; RI-83 actual runs awaiting full adjudication**
+
+The native checker and implementation note are source-stable and released by
+the existing QR task. Root read the complete checker, final control/coverage
+deltas and note; separate complete QR reviews concur. The source includes all
+128 marked rows, 960 ideal occurrences, 448 deletion factors, 32 compact rank
+rows and 71 intended-reason controls. No target, coefficient calculation,
+certificate or scientific rank outcome has yet been executed or inferred.
+
+| Native source | Bytes | SHA-256 |
+|---|---:|---|
+| check.py | 50869 | `1574221fc0c91a6268aa6d59f13586930715207cc1196ba9b2c7542d4193c639` |
+| IMPLEMENTATION.md | 20875 | `7be3bd5fb81bf2ecb2d467e14aa045900fe3b5a2dd0f281e196d9464ab7b6dc0` |
+
+Source closure and actual inherited-prefix interfaces are reviewed; the
+five-file closure remains fixed. Root's final source review is retained at
+/Volumes/AI_DATA/development/det-review-evidence/ri83-source-publication-20260925T001814Z-edd4016b/RI84_FINAL_CHECKER_SOURCE_REVIEW.json,
+2381 bytes, SHA-256 `76000d452c9a02e51772220b2bb2196530ab9b28b0ecb17e32ba5d14c44a9c3a`.
+The external supervisor and synthetic qualification are separately reviewed,
+source-only preparation. Their final frozen execution remains next, before
+any actual witness or saved normal/-O certificate replay. An independent
+certificate-only arithmetic consumer is being prepared alongside this work.
+The fixed-support rank-two construction or rank-three obstruction remains a
+finite candidate decision, not an all-size geometry or gravity result.
+
+RI-83's complete fabricated integration is now independently accepted. Both
+actual runs retain all 33 intended refusals, 10 positive checks and 235 arrays:
+normal 6.7414226 seconds /435408 KiB peak sampled RSS; optimized 6.5768693
+seconds /456192 KiB. All 415 valid monitor attempts/samples and final sampling
+gaps satisfy the unchanged 180-second/512-MiB envelope. Reports are identical:
+69298 bytes, SHA-256 `bee247e95effb7930ec4e25ed2eb3f6534a05af99a70c12c848b49d270fcd9ab`.
+Full fabricated results are identical: 38642203 bytes, SHA-256
+`b077ee26bde1a6eb742d2677cb267a54029ad419f72592d9f1dff1d1561d3ddf`.
+Root independently reconstructed all 113 recursive arrays/942191 values and
+122 direct arrays, including fixed-fixture window products, and reopened all
+235 arrays plus 251 retained nodes per mode. A separate runtime/parent review
+reconciled every intended reason, monitor sample, output and source binding.
+
+The durable execution root is
+/Volumes/AI_DATA/development/det-review-evidence/ri83-execution/prep-20260925T001602Z-86696e9b/.
+Its ROOT_FABRICATED_EVIDENCE_REVIEW.json is 2587 bytes, SHA-256
+`7ea0e6b30d148ce770099883f643366a29f5ef799531263d7cb313c9dad66644`;
+FABRICATED_ADJUDICATION.json is 1812 bytes, SHA-256
+`34f837d8c52dc7dc71643ed68c09bb01d13af260f51ef426a3c10ffe1a997f8b`.
+The separate completed review at
+/Volumes/AI_DATA/development/det-review-evidence/ri83-execution/independent-fabricated-review-20260925T014816Z-868112f1/INDEPENDENT_COMPLETED_REVIEW.json
+is 5187 bytes, SHA-256
+`4b2d62f57036e65ad092246760bc22caa20d54b82f24b6f253e7ccb5a7dea2a2`.
+All source-only preparations and earlier RI-80 failures remain retained.
+
+Following complete root and independent observed-freeze review, a separate
+status-only authorization admitted the fixed recovered public pair. Its freeze
+is 33360 bytes, SHA-256
+`da72f20717ec09f1ba1de843b82a2fa8da1f0d22f4a768ce00c29af9899db8bd`.
+Observed normal/-O both exited zero with source/runtime/input custody gates
+passing: 4.1260440/4.6923221 seconds and 259264/275696 KiB sampled peaks.
+The two 38952074-byte result files are identical, SHA-256
+`e7aad05d912401b9b65c54579b46456bd8077afdc60079d0414fd2043844ed2f`.
+Their 235 retained artifacts per mode and raw snapshots remain external;
+RESULT.json in the repository is still absent. Independent actual-custody
+review and the qualified full saved-array arithmetic consumer remain pending.
+Successful caller execution is not yet final scientific acceptance.
+
+Next: qualify and run the native exact decision without changing its support
+or 120-second/512-MiB limits; complete the measurement consumer's bounded
+fabricated controls and independent actual saved-evidence audit. Preserve
+blank Yunits, the L1 clear CW no-injection bit, prior public-data access and
+all calibration/covariance/significance/native-forward-map prerequisites.
+Neither source publication nor finite/descriptive execution completes the
+programme. RET stays paused. This checkpoint stages only the two reviewed
+native sources and these three coordinator records; no active external helper,
+unreviewed result, original review or unrelated pre-existing edit is included.
