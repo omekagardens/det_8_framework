@@ -1,19 +1,17 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 26 September 2026 UTC.** RI-105's exact native
-contrast checker and independent audit contract are published and remote-verified
-in `cd45823`. Its actual coefficients/root count and the positive repair remain
-unresolved; QR's RI-107 execution and auditor preparation stays active. Root and
-independent complete source review now accept the RI-106 observed-context
-implementation: exact input centering, separate endpoint reconstruction, complete
-raw/mean artifacts and repaired physical-file/T-crop refusal controls. The 11
-positive groups, 74 refusals and 33 retained fixture files are prospective counts,
-not executed qualification. RI-108 is assigned to prepare the minimal qualified
-RI-98 caller adaptation and complete source/runtime closure; separate root review
-and concrete admissions precede normal and optimized qualification. This eight-path
-checkpoint publishes five unchanged RI-106 source/protocol files and three
-coordinator records. No new scientific execution or observed-data decoding
-occurred. Both substantive lanes continue; RET alone remains paused.
+**Current checkpoint — 26 September 2026 UTC.** The five-file RI-106
+measurement implementation is published and independently remote-verified in
+`c2c2061`; its 11 groups/74 refusals remain unexecuted. RI-108 prepares the
+qualified caller and complete closure. Complete root and independent source
+review now accept RI-107's native supervisor adaptation and separate integer-pair
+arithmetic auditor. The historical 81-dependency/32-failure gate is retained;
+root prepares the first witness admission. QR's RI-109 now prepares the exact
+independent-consumer caller, with actual custody bindings still unavailable.
+This five-path checkpoint publishes the two unchanged auditor files and three
+coordinator records. Actual native coefficients/root count remain unadjudicated;
+no positive repair, geometry/gravity or physical measurement result is claimed.
+Both substantive lanes continue; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -130,8 +128,9 @@ Active file reservations, updated 26 September UTC:
 | RI-103 positive extension repair | **Proof/design published in independently verified `e8ca801`.** Maximal-bit invariance and complete 27/16 system; actual feasibility remains open. RI-105 source decision is accepted and RI-107 prepares controlled execution/audit. |
 | RI-104 observed context benchmark | **Design published in independently verified `e8ca801`.** Fixed 26-window map and exact finite side centering retained. RI-106 sources are accepted; RI-108 prepares the caller before qualification or observed execution. |
 | RI-105 native contrast decision | **Sources published in independently verified `cd45823`.** Fixed six rows/32 slots, 16 examples, 70 intended refusals, none executed. RI-107 prepares custody and auditor source. |
-| RI-106 observed benchmark implementation | **Complete root and independent source review accepted; five-file publication in this checkpoint.** Exact centering and separate full reconstruction retained; 11 groups/74 refusals/33 fixture files are prospective. RI-108 prepares qualification; no observed run. |
-| RI-107 native execution preparation | **Active with QR externally, source-only.** Execution-half review passes with inherited 81-dependency/32-failure prerequisite explicitly retained before admissions. Final auditor/root packet review remains open; no execution. |
+| RI-106 observed benchmark implementation | **Sources published in independently verified `c2c2061`.** Exact centering and separate full reconstruction retained; 11 groups/74 refusals/33 fixture files are prospective. RI-108 prepares qualification; no observed run. |
+| RI-107 native execution preparation | **Complete source and precise producer carry-forward accepted; auditor source publication in this checkpoint.** Root prepares witness admission under retained 81+32 historical gate; actual mathematical disposition remains open. |
+| RI-109 native independent caller | **Assigned to QR after RI-107 source adjudication.** Minimal qualified saved-audit caller adaptation; unavailable actual custody stays unbound and must refuse before an attempt. Exact final binding/review and fresh root admission precede arithmetic. |
 | RI-108 observed qualification preparation | **Assigned externally after RI-106 source acceptance.** Minimal genuinely qualified RI98 caller adaptation, exact source/runtime/metadata closure and independent applicability review precede root admission. Normal evidence review precedes separate optimized mode. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
@@ -6745,3 +6744,64 @@ and three coordinator records. Original review, historical results, RET and
 unrelated edits are preserved. The progress record binds exact sources, repaired
 findings, review roles and remaining scientific premises. Both substantive lanes
 continue; this source acceptance is not programme completion.
+
+**26 September: complete native execution/auditor source review accepted.**
+RI-106 sources are published in independently remote-verified `c2c2061`.
+Root has now read the complete RI-107 supervisor, minimal predecessor delta,
+execution package/inventory, historical addendum, independent auditor and
+implementation note. Exact metadata reconciliation matches 31 references and
+12 required absences; 25 function/class ASTs are unchanged. The changed function
+only selects the new original-candidate absence path. The accepted qualified
+RI95 producer-supervisor carry-forward therefore applies to the exact adapter,
+with every inherited prerequisite retained and no new qualification-run claim.
+
+The separately authored [native auditor](docs/track_b/native_growth_record_contrast_certificate_v1/AUDITOR_IMPLEMENTATION.md) reconstructs all sixteen saved
+sections with normalized integer pairs, sparse polynomial division and direct
+endpoint power sums. Its sixteen full synthetic certificates are rebuilt;
+seventy producer controls are checked only as ordered declarations, never
+claimed as independently executed by the auditor. The exact descriptor binds
+fifteen roles over thirteen distinct payload paths, with only two proof aliases,
+and requires equality with genuine producer stdout. Real-root exclusion would
+reject only the specified 27-child repair; surviving real roots stay unresolved.
+Own-source capture precedes descriptor validation and failure postchecks retain
+independent attempts. Late errors or nonzero exit invalidate any printed bytes.
+
+Root decision `ri107-root-source-review-dcc6kd6i/RI107_ROOT_SOURCE_ADJUDICATION.json`
+under `/Volumes/AI_DATA/development/det-review-evidence/` is 6915 bytes,
+`f3184031fbc19cfad184d9a98f5a87ba9ea82dae6d7849775a47c2f83a0a14ec`.
+The exact published sources are `audit_saved_certificate.py`, 40917 bytes,
+`0ed91135d1656cdf46efb43e580c888589282166fba889e4c9e0eb5becd55877`,
+and `AUDITOR_IMPLEMENTATION.md`, 14716 bytes,
+`814d17084d84b6d032a5cb3fa3252a3bb825cf6e7be5b51397ffdf4dcb5e5883`.
+The external supervisor remains 30516 bytes,
+`5073fb8b78ce9c0590e604bcef98dd0e4668f8a41fa5709cc9043c36f5f1ee78`.
+Its mandatory historical addendum is 3903 bytes,
+`7bd9421bff522847356227a903b71c5e787fffee22b33fe202a44c6ccadb219d`.
+The complete source handoff is 10696 bytes,
+`e06698f5244e26c4bc725729d4f37bfa3bcac10939b45527ab8021b905cfb448`;
+root source reconciliation is 10101 bytes,
+`150bdf574dd1e3e3e7f5d6aa9b5f74cb539fcd7e241240d375905d7547261471`.
+These are source/preparation identities, not executed scientific evidence.
+
+Every producer admission still needs fresh checking of all 81 ordered wider
+dependencies, 32 preserved failed files, current originals/copies/runtime link
+chains, source/protocol pins and absence rules. Runtime inputs remain exactly
+9 witness/11 saved, with 13/16 complete snapshot roles. The unchanged envelope
+is 120 seconds and 536870912 bytes sampled owned-group RSS, 50-ms waits and
+monitor calls capped by the smaller of 250 ms and the remaining deadline.
+A source decision does not issue the concrete freeze or authorization.
+
+After adjudication root assigned **RI-109** to QR: the smallest source-only
+adaptation of the genuinely qualified native saved-audit caller, preserving
+process/resource/custody mechanics and exact descriptor guards. Actual producer
+custody is not yet available; the preliminary caller must refuse before creating
+an attempt until a separately reviewed final binding exists. No arbitrary pinned
+JSON or invented receipt schema can supply acceptance. RI98 measurement
+qualification is unrelated to native caller qualification. Root owns producer
+witness/replays and all admissions; QR owns only external RI109 source preparation.
+
+Actual completed witness custody must precede candidate materialization;
+separate normal/optimized replays, accepted genuine custody and exact independent
+caller/descriptor admission precede saved arithmetic. No support, seed, amplitude,
+scale, record, budget or threshold is changed. The native result remains open,
+measurement qualification remains separate, and the programme is not complete.
