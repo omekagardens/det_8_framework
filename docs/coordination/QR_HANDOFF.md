@@ -1,3 +1,30 @@
+# Current QR coordination — RI-115 actual review and RI-116 observed result
+
+**Current checkpoint — 26 September 2026 UTC.** RI-116's actual public-data
+context comparison is accepted: genuine normal/optimized runs, full result and
+six-artifact byte equality, complete independent custody and saved arithmetic
+reviews. This checkpoint publishes the exact descriptive result and its review
+in `docs/experiments/gwosc_off_event_context_benchmark_result_v1/`. All twelve
+original numerical gates and thresholds remain. The result is conventional
+processing-context sensitivity on already inspected public development data;
+physical calibration, covariance adequacy and a native forward map remain open.
+
+RI-115 caller source and precise retained-engine applicability are accepted.
+The native witness and normal replay have actually completed under unchanged
+bounds; independent serial custody and the separately admitted optimized/audit
+stages remain in progress. The witness reports six identically-zero minors;
+this is provisional until complete independent arithmetic/custody acceptance.
+Even if confirmed, it leaves the fixed 28-child positive extension unresolved.
+QR's next analytic assignment follows root adjudication of that result, with
+all remaining parent equations preserved. RET alone stays paused.
+
+Root owns actual native execution and review; QR source preparation is complete
+and immutable. The next concrete QR proof assignment follows the actual audit
+and root mathematical adjudication. No duplicate caller or coefficient run is
+assigned. Native support, seed and epsilon=1/4 remain fixed.
+
+# Historical RI-115 source handoff
+
 # Current QR coordination — RI-115 concrete native rank caller
 
 26 September 2026 UTC. RI-112 source is accepted after complete independent
@@ -2917,3 +2944,15 @@ sufficient premise, not presumed necessary or quantum-selecting. General
 convergence and operational-domain selection remain separate from this finite
 candidate. The QR owner stops here pending the coordinator's final review;
 there is no new successor assignment or automatic atlas expansion.
+
+**26 September: RI-116 actual comparison accepted.** Both genuine modes pass the
+complete endpoint validator and preserve identical whole RESULT/six-artifact
+bytes. Independent saved arithmetic reconstructs all fixed raw/mean/centered
+quantities with inherited coefficient and calibration premises stated. See
+[the result review](../experiments/gwosc_off_event_context_benchmark_result_v1/RESULT_REVIEW.md).
+Root final adjudication is external `ri115-116-root-review-tyo8kzjn/RI116_ROOT_FINAL_OBSERVED_ADJUDICATION.json`
+(9,738 bytes, `2cad5a834d885189b6ca5aabc7f51bc87cf6bbf9da6788e05349de7049e92624`).
+Native RI-115 remains in actual independent review; no producer-only result
+is promoted to a proof. The next measurement step is a bounded joint-model
+design using RI-104 equation (5) to address overlap, centering and nuisance terms. The wider
+programme remains active and RET alone remains paused.

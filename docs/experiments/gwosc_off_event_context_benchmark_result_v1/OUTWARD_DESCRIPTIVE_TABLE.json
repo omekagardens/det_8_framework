@@ -1,0 +1,94 @@
+{
+  "interpretation": "V is the finite n-divisor centered long-minus-short context discrepancy on fixed development windows. The adjacent trace is the previously fixed empirical-PSD finite circulant proxy. Similarity or difference is descriptive only; no magnitude gate, ratio ranking, covariance adequacy, statistical significance, calibrated gravity test or protected validation is supplied.",
+  "method": "Each lower endpoint rounded toward negative infinity, upper toward positive infinity using Decimal precision 7; every displayed bound reconverted to an exact Fraction and checked against the original rational endpoint. Display widening is not the original rigorous interval width.",
+  "result": {
+    "bytes": 2296321,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/RESULT.json",
+    "sha256": "ca9405768281584afcf7ddba9644e262d81e6c59f4291ca387367c5c013f1c9b"
+  },
+  "rows": [
+    {
+      "M_outward_decimal": [
+        "3.388174E-42",
+        "3.388175E-42"
+      ],
+      "U_outward_decimal": [
+        "4.561979E-41",
+        "4.561980E-41"
+      ],
+      "V_outward_decimal": [
+        "4.223162E-41",
+        "4.223163E-41"
+      ],
+      "proxy_trace_outward_decimal": [
+        "4.930634E-41",
+        "4.930635E-41"
+      ],
+      "scenario": "H1:left",
+      "windows": 7
+    },
+    {
+      "M_outward_decimal": [
+        "4.430397E-42",
+        "4.430398E-42"
+      ],
+      "U_outward_decimal": [
+        "2.351780E-41",
+        "2.351781E-41"
+      ],
+      "V_outward_decimal": [
+        "1.908740E-41",
+        "1.908741E-41"
+      ],
+      "proxy_trace_outward_decimal": [
+        "5.331879E-41",
+        "5.331880E-41"
+      ],
+      "scenario": "H1:right",
+      "windows": 6
+    },
+    {
+      "M_outward_decimal": [
+        "7.471218E-42",
+        "7.471219E-42"
+      ],
+      "U_outward_decimal": [
+        "1.855667E-40",
+        "1.855668E-40"
+      ],
+      "V_outward_decimal": [
+        "1.780955E-40",
+        "1.780956E-40"
+      ],
+      "proxy_trace_outward_decimal": [
+        "1.616252E-40",
+        "1.616253E-40"
+      ],
+      "scenario": "L1:left",
+      "windows": 7
+    },
+    {
+      "M_outward_decimal": [
+        "1.413892E-41",
+        "1.413893E-41"
+      ],
+      "U_outward_decimal": [
+        "1.759178E-40",
+        "1.759179E-40"
+      ],
+      "V_outward_decimal": [
+        "1.617788E-40",
+        "1.617789E-40"
+      ],
+      "proxy_trace_outward_decimal": [
+        "1.618796E-40",
+        "1.618797E-40"
+      ],
+      "scenario": "L1:right",
+      "windows": 6
+    }
+  ],
+  "schema": "ri116-outward-descriptive-display-v1",
+  "significant_digits": 7,
+  "units": "nominal strain squared, sums over eight selected output coordinates"
+}

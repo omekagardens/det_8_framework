@@ -1,0 +1,108 @@
+{
+  "actual_result": {
+    "bytes": 2296321,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/RESULT.json",
+    "sha256": "ca9405768281584afcf7ddba9644e262d81e6c59f4291ca387367c5c013f1c9b"
+  },
+  "additional_check_counts": {
+    "artifacts": 6,
+    "centered_dot_records": 208,
+    "component_energy_records": 32,
+    "elementary_checks": 603103,
+    "mean_coordinates_recomputed": 43844,
+    "mean_dot_records": 32,
+    "not_independent_test_cases": true,
+    "operator_sum_records": 8,
+    "raw_dot_records": 208,
+    "raw_samples_reconstructed": 262144,
+    "scenarios": 4,
+    "short_long_route_intersections": 208,
+    "total_energy_records": 4,
+    "windows": 26
+  },
+  "findings": [],
+  "full_coefficient_validation_executed_before_this_review": {
+    "basis": "The actual worker receipt records exit 0, no error/postcheck error and full_validator_passed=true. Reviewed worker source invokes the separately authored validate_observed on the entire saved canonical report, exact same whole HDF5 snapshots and independent capture decoder, requires its full result, and writes custody only afterwards. Reviewed validator source reconstructs endpoint contractions and all expected rows and six artifacts without importing the primary, then compares full nested report fields.",
+    "custody": {
+      "bytes": 12586,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/CUSTODY.json",
+      "sha256": "24b8156bc9d071ff4e138f62001771d2d2b32f9e92000d4433164cf1f3286881"
+    },
+    "kind": "Distinct admitted in-child endpoint validator, not this additional reconstruction",
+    "retained_result": {
+      "artifacts": 6,
+      "centered": 208,
+      "mean": 32,
+      "raw": 208,
+      "scenarios": 4,
+      "short_long": 416,
+      "status": "all_fields_independently_match",
+      "windows": 26
+    },
+    "root_outer_custody_boundary": "Genuine outer completion and the complete caller/source/runtime/input/process-custody acceptance belong to the root and its separately assigned execution reviewer; this reviewer did not independently reconstruct process samples or every transitive custody record.",
+    "source": {
+      "bytes": 53961,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/validate.py",
+      "sha256": "3c90ce7e49d704b381abf9423d2835873db933928a85a6cb61c742314d25f9bd"
+    },
+    "worker_receipt": {
+      "bytes": 1487446,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/runtime.json",
+      "sha256": "82f204796efffd9450a4b1c1d2eae74b497659a7c2bd30219b89aa38f9727373"
+    }
+  },
+  "independent_additional_reconstruction": [
+    "Authenticated the complete 2,296,321-byte normal RESULT and its canonical JSON before scientific decoding; duplicate-key/nonfinite rejection and canonical reduced rational parsing used in independently authored stdlib code.",
+    "Authenticated exactly all six regular single-link artifacts against the report and custody. Read both complete little-endian raw exports, checked all 262,144 binary64 values finite, retained byte hashes, and represented every numeric value exactly as a Fraction.",
+    "Recomputed every one of 43,844 coordinatewise mean values from the unmodified raw samples over each fixed detector/side window family. Also checked all 43,844 coordinatewise sums of the centered input vectors equal zero.",
+    "Reconstructed every one of 26 M-segment byte hashes and projected records, all 78 M/T/short slices, exact GPS offsets and flag-row/mask lists; verified exclusion/tail avoidance and all 208 selected output sample-index bounds.",
+    "For every saved raw/mean/centered dot (208+32+208), checked complete field inventory, exact interval/center/radius/width identities, exact max-absolute input from the independently reconstructed vectors, frozen width_limit=input_max/10^12, true numerical width gate and zero-input rule. No dot was omitted.",
+    "Reconstructed each of 208 saved short/long difference-route intersections. Independently verified every mean-center linear identity, every centered-output center identity, the centered exact-center zero sums and zero containment of interval sums.",
+    "Recomputed every raw, mean and centered interval square and all n-divisor component U/M/V and identity intersections, then all four eight-component totals and total identity intersections. Also checked each point-center energy identity exactly.",
+    "Checked the eight saved operator sum midpoint/radius interval identities and zero containment. This verifies internal sum identities, not coefficients or the inherited true-operator annihilation proof.",
+    "Authenticated all six scientific source files at report provenance identities; checked the complete method literal, fixed 12-gate inventory, projection canonical identity and normal worker/custody complete-validator report. Rehashed all 16 reviewed saved/source files after calculation with identical inode/time metadata."
+  ],
+  "not_recomputed_by_this_reviewer": [
+    "Original HDF5-to-raw extraction, whole historical RI83/RI100 arithmetic, or every coefficient contraction from the 51,891,508-byte RI73 capture; the prior executed full endpoint validator and accepted predecessors supply those premises.",
+    "Original RI73 adjoint coefficient validity or exact A*1=0 theorem; neither successful saved identities nor endpoint arithmetic reproves them.",
+    "Full scientific runtime qualification/custody, normal-versus-optimized equality or optimized actual arithmetic. Only the normal mode was assigned and decoded here."
+  ],
+  "outward_descriptive_table": {
+    "bytes": 2768,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-independent-saved-arithmetic-gxugu8vd/OUTWARD_DESCRIPTIVE_TABLE.json",
+    "sha256": "2f1ff3b80565490facd06d5886d0db233995433f20b87e371542f7e1353ce09d"
+  },
+  "reconstruction": {
+    "bytes": 34351,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-independent-saved-arithmetic-gxugu8vd/SAVED_SCALAR_RECONSTRUCTION.json",
+    "sha256": "dfd535c87338fe3d3d95db3d25f8d4ca298c7a9689c2518302c880f716416f0f"
+  },
+  "reconstruction_completion": {
+    "actual_exit_code": 0,
+    "completion_tool": "09e051",
+    "launch_tool": "dab9cb",
+    "session_id": 36934
+  },
+  "reconstruction_source": {
+    "bytes": 17312,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-independent-saved-arithmetic-gxugu8vd/reconstruct_saved.py",
+    "sha256": "1632cf30c163149c994c6687dc773d937705f4836be2ff1e5f2f2c5073e3ace4"
+  },
+  "reviewer": "root independent ri116_saved_arithmetic_review; did not author RI113 scientific implementation or RI116 caller",
+  "root_next_action": "May use this normal-mode saved mathematical review as evidence alongside actual custody review. Root alone may admit optimized mode; final observed publication still requires genuine optimized completion, identical whole scientific result and all six artifact bytes, and independent final two-mode custody acceptance.",
+  "schema": "ri116-independent-saved-scientific-review-v1",
+  "scientific_adjudication": {
+    "energy_identity": "The shared exact midpoint operator gives mean center equal to mean raw centers, centered center equal to raw minus mean, and U_center=V_center+M_center exactly. The distinct enclosing intervals retain nonempty intersections of U with V+M; no endpoint equality or adaptive tightening is asserted.",
+    "remaining_premises": [
+      "A=Q-P uses the inherited exact finite rational filter and admitted coefficient enclosures; neither Q nor the longer context is physical ground truth.",
+      "V uses each side's exact coordinatewise mean and divisor n. Overlap, unknown means and absent joint cross-window covariance prevent identifying it as an unbiased proxy-trace estimator or applying an n/(n-1) repair.",
+      "The fixed four PSD trace proxies share the already inspected windows and remain assumed finite circulant models. No independent held-out validation, probability law, confidence interval, chi-square, SNR or p-value follows.",
+      "Literal blank Yunits, nominal V2/C02 interpretation, clear L1 NO_CW_HW_INJ, possible injection effects and unresolved low-frequency calibration remain unchanged.",
+      "No calibrated measurement model, native geometry/gravity forward map, DET physical confirmation, or RET resumption is established."
+    ],
+    "supported": "Finite deterministic conventional processing-context sensitivity for eight fixed coordinates of the prescribed exact rational finite filter, on fixed already inspected GWOSC development/calibration samples, conditional on inherited coefficient/custody premises.",
+    "width_result": "All 448 direct enclosures pass the pre-frozen deterministic input-relative width gate. Maximum width divided by the fixed limit is approximately 3.388965E-45. This is an arithmetic enclosure result, not a small-discrepancy/physical-noise test."
+  },
+  "scope": "Read-only mathematical and scientific-scope review of the actual completed normal report and all six artifacts. No new execution admission, repository mutation, target import/compile, HDF5 extraction, or native claim.",
+  "status": "PASS_NORMAL_SAVED_ARITHMETIC_REVIEW_WITH_EXPLICIT_INHERITED_PREMISES"
+}

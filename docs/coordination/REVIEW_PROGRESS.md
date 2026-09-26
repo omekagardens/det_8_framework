@@ -1,20 +1,22 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 26 September 2026 UTC.** The exact RI-112 native
-rank checker and independent auditor are published in remotely verified
-`0719992`. Their actual six-minor outcome remains unknown. QR is active on
-RI-115's concrete execution/custody caller in external
-`ri115-native-caller-source-fViRkoKT/`; all native admission prerequisites remain.
-RI-111's fixed 28-child criterion remains conditional and unresolved.
+**Current checkpoint — 26 September 2026 UTC.** RI-116's actual public-data
+context comparison is accepted: genuine normal/optimized runs, full result and
+six-artifact byte equality, complete independent custody and saved arithmetic
+reviews. This checkpoint publishes the exact descriptive result and its review
+in `docs/experiments/gwosc_off_event_context_benchmark_result_v1/`. All twelve
+original numerical gates and thresholds remain. The result is conventional
+processing-context sensitivity on already inspected public development data;
+physical calibration, covariance adequacy and a native forward map remain open.
 
-RI-114 now passes both genuine normal and optimized interface runs: the same
-22 cases, two positives/twenty refusals, with complete report byte equality and
-independent execution-custody review. This checkpoint publishes the exact report
-and bounded review. RI-113 source remains published in verified `408a431`, and
-RI-108 numerical applicability remains narrow. RI-116 is assigned source-only
-preparation of the observed caller adaptation; no observed retry is admitted.
-All original failures and thresholds remain. No new physical calibration,
-protected-validation or native-forward claim follows. RET alone stays paused.
+RI-115 caller source and precise retained-engine applicability are accepted.
+The native witness and normal replay have actually completed under unchanged
+bounds; independent serial custody and the separately admitted optimized/audit
+stages remain in progress. The witness reports six identically-zero minors;
+this is provisional until complete independent arithmetic/custody acceptance.
+Even if confirmed, it leaves the fixed 28-child positive extension unresolved.
+QR's next analytic assignment follows root adjudication of that result, with
+all remaining parent equations preserved. RET alone stays paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -62,19 +64,19 @@ the latest assignments below and in the plan govern current work.
 | RI-101 signed extension | **Published in independently verified `a6c5fdc`.** Complete signed lift and sufficiently-small-amplitude positivity retained. | RI-102 rejects this lift at amplitude 1/4; RI-103 examines private full-birth compensation. No all-size inference. |
 | RI-102 fixed-amplitude lift | **Exact proof published in independently verified `38405bf`.** Strict J2/J3 negativity at 1/4; lift threshold below 1/82. | Preserve fixed-lift scope. RI-103 supplies the compensated-family necessary condition; RI-105 targets its contrast. |
 | RI-103 positive extension repair | **Proof/design published `e8ca801`; restricted 27-child rejection independently accepted in RI-109.** Historical design retained; actual fixed-pair contrast certified. | Preserve exact premises; RI-111 studies a separately declared 28-child alternative. |
-| RI-104 observed context benchmark | **Design published in verified `e8ca801`.** Fixed 26-window map and exact side centering retained. | RI-114 qualification is accepted; RI-116 prepares a source-only observed caller before a separately admitted retry. |
+| RI-104 observed context benchmark | Design fixed; RI-116 actual result and independent reviews accepted. | Preserve exact windows and side centering; use RI-104 equation (5) to specify a joint model and bound nuisance terms before a probabilistic interpretation. |
 | RI-105 native contrast decision | **Sources published `cd45823`; exact certificate and independent report published in verified `c9907d6`.** All 16 sections and 16 rebuilt fixtures match. | Preserve the restricted 27-child obstruction; no all-extension claim. |
-| RI-106 observed benchmark implementation | **Original sources published `c2c2061`; historical RI-108 numerical qualification retained.** | RI-113 additive source is published `408a431` and RI-114 interface qualification is accepted. RI-116 prepares the observed caller. |
+| RI-106 observed benchmark implementation | Original source/failure retained; repaired v2 sources in `408a431`, interface qualification in `8479232`; RI-116 actual result accepted. | Preserve numerical path, twelve gates and original thresholds. |
 | RI-107 native execution preparation | **Auditor sources published `a9352cf`; all producer custody and RI-109 actual audit accepted.** Limits and historical failures preserved. | Preserve completed evidence; do not repeat successful modes. |
 | RI-108 observed qualification preparation | **Historical numerical qualification published `bf342b8`.** Both modes, 11 groups, 74 refusals and 33 artifacts retained. | Narrow unchanged-numerical applicability remains; accepted RI-114 adds fixed header qualification. RI-116 preserves both evidence sets. |
 | RI-109 native independent caller | **Result bundle published in remotely verified `c9907d6`.** Complete independent audit and restricted 27-child rejection accepted. | Preserve fixed source/results; RI-111 reduction is accepted and RI-112 is active. |
-| RI-110 observed context application | **First admitted normal attempt failed before scientific computation.** Exact inputs, empty result and full failure evidence remain immutable. | RI-113 repair and RI-114 qualification are accepted; RI-116 caller review and fresh serial observed admissions precede any retry. |
-| RI-111 one-column repair | **Conditional complete criterion published in verified `eb6234b`.** All 28 children and remaining strict parent requirements retained; actual feasibility unresolved. | RI-112 checker/auditor sources are published `0719992`; RI-115 prepares the concrete caller before native evaluation. |
-| RI-112 all-record rank decision | **Four source/protocol files published in verified `0719992`.** Actual outcome unknown. | RI-115 concrete caller active; preserve all native prerequisites. |
-| RI-113 observed interface repair | **Six exact v2 sources published in verified `408a431`; RI-114 two-mode interface qualification accepted.** Numerical bytes and thresholds retained. | RI-116 prepares the source-only observed caller, preserving RI-106/RI-108 and failed RI-110 evidence. |
-| RI-114 interface qualification caller | **Actual normal/optimized qualification accepted.** Same 22 cases and byte-identical complete reports; full source/runtime/custody and raw monitoring pass. | RI-116 prepares a separately reviewed observed caller; no actual retry yet. |
-| RI-116 observed caller adaptation | **Assigned after accepted RI-114 two-mode qualification.** External source-only reservation `ri116-observed-caller-source-guicDV9v/` acknowledged. | Complete minimal caller/source/history adaptation while preserving full scientific runtime and observed-input prerequisites, then independent review. No observed retry admitted. |
-| RI-115 native rank execution caller | **Assigned to QR after RI-112 source adjudication.** Source-only adaptation of retained native supervision and audit custody. | Return complete concrete source/closure for independent review before any actual witness, normal, optimized or auditor stage. |
+| RI-110 observed context application | Original failed normal attempt remains immutable; separately repaired/qualified RI-116 actual retry accepted. | Preserve failed evidence and keep public development results separate from protected validation. |
+| RI-111 one-column repair | Conditional complete criterion published `eb6234b`; strict positivity and all sixteen parent requirements remain. | Complete RI-115 actual independent audit, then select the next exact analytic question. |
+| RI-112 all-record rank decision | Sources published `0719992`; actual witness and normal completed through RI-115; final native disposition pending. | Complete serial optimized custody and independently admitted auditor; no feasibility claim from a producer flag. |
+| RI-113 observed interface repair | Six v2 sources in `408a431`; RI-114 qualification in `8479232`; RI-116 actual two-mode result accepted. | Preserve original implementation, failed RI-110 and numerical applicability limits. |
+| RI-114 interface qualification caller | Published `8479232`: both modes, all 22 cases and complete report equality; independent custody accepted. | Keep fixed qualification and numerical predecessor evidence distinct from RI-116 actual-data result. |
+| RI-116 observed caller adaptation | Actual normal/optimized result accepted with complete byte equality, endpoint validation, independent saved arithmetic and custody review. | Publish exact result and six artifacts; design joint-model and nuisance obligations starting from RI-104 equation (5) before any new measurement campaign. |
+| RI-115 native rank execution caller | Complete source and retained-engine applicability accepted; actual witness and normal completed under fixed bounds. | Root completes serial independent custody, optimized replay and separate arithmetic audit before mathematical adjudication. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
 | RI-85 complete four-vertex cap | **Design published in verified `d1733b8`; result published `9d40744`.** The fixed 11-class construction has one nonzero harmonic direction and positive finite width gain. | Preserve the exact support and positivity premises; RI-89/91 study its continuation. |
 | RI-88 native cap checker | **Sources published `d02b4b6`; positive result and independent arithmetic review published `9d40744`.** Rank 10, nullity one; fixed finite width gain retained. | RI-95 obstruction is accepted; RI-99 is published; RI-101 supplies a signed one-layer lift; RI-102 rejects this fixed lift at 1/4; RI-103 investigates a positive repair. |
@@ -11134,3 +11136,15 @@ Exact report `docs/experiments/gwosc_off_event_context_benchmark_check_v2/INTERF
 Root final decision is [RI114_ROOT_FINAL_QUALIFICATION_ADJUDICATION.json](/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_FINAL_QUALIFICATION_ADJUDICATION.json), 7,070 bytes, SHA256 `caccbee7db26f04232c9654391f79df596b93d89a43df6f9c9f70ce77e51aea8`. It binds the complete independent two-mode review, exact freeze, separate admissions, real outer completions and full saved custody. All 62 source pairs, 473 historical records, 3925 runtime files and four links are retained; fresh process fields use only the accepted metadata-specific adapter. Prior scientific runtime versions remain historical. RI-110 failure is unchanged.
 
 RI-116 now prepares the smallest source-only observed-caller adaptation with exact v2 sources and accepted RI-114 custody. Full scientific runtime, observed input provenance, twelve numerical gates, thresholds, prior failures and separate serial admissions remain mandatory. No actual-data retry or calibration/native claim is accepted. RI-112 sources are independently remote-verified in `0719992`; QR continues RI-115. RET alone stays paused.
+
+**26 September: RI-116 actual comparison accepted.** Both genuine modes pass the
+complete endpoint validator and preserve identical whole RESULT/six-artifact
+bytes. Independent saved arithmetic reconstructs all fixed raw/mean/centered
+quantities with inherited coefficient and calibration premises stated. See
+[the result review](../experiments/gwosc_off_event_context_benchmark_result_v1/RESULT_REVIEW.md).
+Root final adjudication is external `ri115-116-root-review-tyo8kzjn/RI116_ROOT_FINAL_OBSERVED_ADJUDICATION.json`
+(9,738 bytes, `2cad5a834d885189b6ca5aabc7f51bc87cf6bbf9da6788e05349de7049e92624`).
+Native RI-115 remains in actual independent review; no producer-only result
+is promoted to a proof. The next measurement step is a bounded joint-model
+design using RI-104 equation (5) to address overlap, centering and nuisance terms. The wider
+programme remains active and RET alone remains paused.
