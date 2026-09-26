@@ -1,21 +1,19 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 26 September 2026 UTC.** The RI-103 native repair
-proof and RI-104 observed benchmark design are published and independently
-remote-verified in `e8ca801`. A usage-limit interruption stopped the unfinished
-RI-105/106 handoffs; retained sources and all 2221 entry files were recovered
-unchanged. RI-105 now passes complete root and fresh independent source/math
-review: the fixed six-row/32-slot checker, square-free Sturm certificate and
-complete independent audit contract. Its 16 examples and 70 intended-reason
-controls are source-reviewed, not executed; actual root count and repair
-feasibility remain unresolved. RI-107 is assigned to QR for the minimal
-qualified-supervisor carry-forward and a separately authored complete auditor,
-with fresh custody and concrete admissions still required. RI-106 remains
-external: domain reconciliation and real artifact/T-crop refusal repairs pass
-source review; complete packet/caller review and actual fabricated qualification
-remain open. This checkpoint publishes only three RI-105 source/contract files
-and three coordinator records. No new scientific execution or observed-data
-read occurred. Both substantive lanes continue; RET alone remains paused.
+**Current checkpoint — 26 September 2026 UTC.** RI-105's exact native
+contrast checker and independent audit contract are published and remote-verified
+in `cd45823`. Its actual coefficients/root count and the positive repair remain
+unresolved; QR's RI-107 execution and auditor preparation stays active. Root and
+independent complete source review now accept the RI-106 observed-context
+implementation: exact input centering, separate endpoint reconstruction, complete
+raw/mean artifacts and repaired physical-file/T-crop refusal controls. The 11
+positive groups, 74 refusals and 33 retained fixture files are prospective counts,
+not executed qualification. RI-108 is assigned to prepare the minimal qualified
+RI-98 caller adaptation and complete source/runtime closure; separate root review
+and concrete admissions precede normal and optimized qualification. This eight-path
+checkpoint publishes five unchanged RI-106 source/protocol files and three
+coordinator records. No new scientific execution or observed-data decoding
+occurred. Both substantive lanes continue; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -10550,3 +10548,96 @@ active freeze or admission. Root reviews complete sources and caller, then
 issues concrete witness/normal/optimized/audit admissions separately. No
 support, seed, scale, amplitude, record or threshold is changed; no adaptive
 rational-root search is assigned. The actual native question stays active.
+
+**26 September UTC — RI-106 complete source adjudication and RI-108 assignment.**
+
+RI-105 is published in `cd458238befd4404918e5e84ae44b27def61b779`, tree
+`e7628066f64fe2716837966be3c59f946be3ee54`; independent remote verification passed.
+Its durable `ri105-ri106-root-source-review-mk3ngive/PUBLICATION.json` is
+3111 bytes, `95a9eb0bd8f179b0f8b7edd7d2266b60bd4c90ac88ec6b94a9adf9d5b66c562f`.
+The current entry snapshot contains 2224 files and an empty index on `ret`.
+
+Root now accepts the complete source-only
+[RI-106 implementation](../experiments/gwosc_off_event_context_benchmark_check_v1/IMPLEMENTATION.md).
+The original primary and separate validator, recovered qualifier repair and
+complete protocol were read in full. Root reviewed the original qualifier plus
+its exact retained repair; separate reviewers covered the complete validator,
+primary, actual delta and protocol. Authorship is explicit: the recovery primary
+reviewer authored the bounded repair/protocol, and a different reviewer reviewed
+those changes. Source AST parses and all 48 handoff reference identities match;
+no target import, compilation, scientific execution or numerical-data decoding
+was used to establish this source decision.
+
+| Published file | Bytes | SHA256 |
+|---|---:|---|
+| API.md | 11181 | 4ed999253bf865b68d8a722b0635893a5c44950250c8a94d01f51119b7e4d524 |
+| consumer.py | 34964 | 8b13ace9bdc768cb77401b24458d199e249a9687e5d0fbf02108eb079aa5a4f7 |
+| validate.py | 53383 | 00a2777378b94b7a2ff59cbef08eafc5dc6213fc5071017d6bbc590b5c3b4ce9 |
+| qualify.py | 34582 | b3ba3e9344d36447fbe7c3902fb92eb9c9efd8bdba7303dfe464ba5429a2a460 |
+| IMPLEMENTATION.md | 20615 | e0fea15552fb7d47f6948614131673c4bf4dc8a6c176d4a009dac687f12da7e5 |
+
+The fixed 26 windows retain 208 raw A contractions, 416 P/Q contractions, 32
+mean contractions and 208 centered contractions over four scenarios. Exact
+coordinatewise finite side means precede the shared uncertain operator; the
+validator uses independent endpoint-sign sums and reconstructs all fields and
+all six complete raw/mean artifacts. The first-T crop, embedded P, exact raw
+M-segment hashes, full metadata replay and complete capture remain fixed.
+Width <= maxabs(input)/10^12 and exact zero remain unchanged. P/Q route and
+U/V/M intersections are consistency checks, without adaptive tightening.
+
+Review corrections close the public-domain mismatch and replace misleading
+artifact/crop labels with accurately named controls plus genuine missing-file,
+same-size changed-body and alternate-T-crop refusals. All successful fabricated
+artifacts remain untouched in those proposed tests. The qualifier now specifies
+11 positive groups, 39 primary and 35 validator refusals (74), and 33 retained
+fixture files. These counts derive from source, not execution. Full-shape Q10
+uses zero inputs/coefficients; actual nonzero workload resource fit is not
+established by that case or this review.
+
+All following evidence paths are under
+`/Volumes/AI_DATA/development/det-review-evidence/`:
+
+- Root decision `ri106-root-source-publication-fl_12ugi/RI106_ROOT_FINAL_SOURCE_ADJUDICATION.json`,
+  8259 bytes, `999f4eb2b0d2095754a953621e79b2a110aa56241f561a2c5f71c57d21743117`.
+- Fresh source/reference reconciliation in the same directory,
+  `SOURCE_METADATA_RECONCILIATION.json`, 15233 bytes,
+  `95db0983d03884bb760d222f282e52cbf056e8bfac79187164fd85e05c035fd5`.
+- Complete handoff `ri106-source-56q7_mqy/SOURCE_HANDOFF.json`, 27276 bytes,
+  `d5879de2422ed2e51a7bea29283ee7f89405d249ff72b6aa2ab7e731f0451cb9`.
+- Recovery primary review `ri106-recovery-primary-review-5u33h_1e/FINAL_SOURCE_REVIEW.json`,
+  5574 bytes, `9825d21f054f1b3efd8a3ba364b0b721649158874266fe6c898a27b3e7199ce7`.
+- Independent complete protocol verdict
+  `ri106-validator-recovery-review-8zbkm8ej/INDEPENDENT_COMPLETE_PROTOCOL_REVIEW.json`,
+  7413 bytes, `ca9d2c657b90217cb8c568bdc376c2b3ecd5559facc543a517d034fd5470f9d7`.
+  The root decision also binds full validator, original primary and exact repair reviews.
+
+After this adjudication root assigned **RI-108** to prepare only the minimal
+RI98 qualification caller adaptation and complete closure. The six-source
+contract includes the accepted design plus five implementation files, full
+RI37 structural metadata, genuine runtime identities, exact fixture/output
+inventories and preserved historical prerequisites. The unchanged envelope is
+180 child seconds, 524288 KiB sampled sole-child RSS, .025-second poll target,
+.1-second maximum successful/final gap and .05-second ps timeout. Completed
+integer operations keep the 262144-bit guard. These are neither an OS/process-tree
+memory cap nor a bound on hidden allocations. Caller review, a concrete fresh
+freeze and root normal admission remain necessary. Normal completion/custody
+review precedes separate optimized admission and complete report/33-body equality.
+Observed HDF5/capture application and independent saved arithmetic are later gates.
+
+QR's **RI-107** remains active externally. Independent full execution-half review
+found no mechanical implementation defect but requested explicit retention of
+RI95's 81 ordered wider dependencies and 32 failed-file identities before each
+admission. All 113 still match; root sent the narrow clarification to QR.
+Evidence is `ri107-independent-execution-half-review-fpf0ktpo/HISTORICAL_GATE_RECONCILIATION.json`,
+54752 bytes, `277a98233f6ca1b27789d145b8990335c3cf46e5baa5e4b76c86c9a281263c18`;
+execution-half verdict is 4584 bytes,
+`e10c3afdf1d599829fd9af3788b558a9161d6850f06ca6150de29027a0d7990b`.
+This is a carry-forward prerequisite, not an additional runtime input list or
+execution authorization. The complete native auditor/root adjudication remains
+open and the actual polynomial/root count has not been evaluated.
+
+Only five exact RI-106 files and three coordinator records enter this checkpoint.
+Finite context discrepancies and assumed empirical-PSD traces remain distinct
+from physical noise adequacy, calibration, significance, protected validation,
+native forward prediction and gravity. Original independent review and historical
+results are preserved; RET alone remains paused. Both substantive lanes continue.

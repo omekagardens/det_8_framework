@@ -1,21 +1,19 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 26 September 2026 UTC.** The RI-103 native repair
-proof and RI-104 observed benchmark design are published and independently
-remote-verified in `e8ca801`. A usage-limit interruption stopped the unfinished
-RI-105/106 handoffs; retained sources and all 2221 entry files were recovered
-unchanged. RI-105 now passes complete root and fresh independent source/math
-review: the fixed six-row/32-slot checker, square-free Sturm certificate and
-complete independent audit contract. Its 16 examples and 70 intended-reason
-controls are source-reviewed, not executed; actual root count and repair
-feasibility remain unresolved. RI-107 is assigned to QR for the minimal
-qualified-supervisor carry-forward and a separately authored complete auditor,
-with fresh custody and concrete admissions still required. RI-106 remains
-external: domain reconciliation and real artifact/T-crop refusal repairs pass
-source review; complete packet/caller review and actual fabricated qualification
-remain open. This checkpoint publishes only three RI-105 source/contract files
-and three coordinator records. No new scientific execution or observed-data
-read occurred. Both substantive lanes continue; RET alone remains paused.
+**Current checkpoint — 26 September 2026 UTC.** RI-105's exact native
+contrast checker and independent audit contract are published and remote-verified
+in `cd45823`. Its actual coefficients/root count and the positive repair remain
+unresolved; QR's RI-107 execution and auditor preparation stays active. Root and
+independent complete source review now accept the RI-106 observed-context
+implementation: exact input centering, separate endpoint reconstruction, complete
+raw/mean artifacts and repaired physical-file/T-crop refusal controls. The 11
+positive groups, 74 refusals and 33 retained fixture files are prospective counts,
+not executed qualification. RI-108 is assigned to prepare the minimal qualified
+RI-98 caller adaptation and complete source/runtime closure; separate root review
+and concrete admissions precede normal and optimized qualification. This eight-path
+checkpoint publishes five unchanged RI-106 source/protocol files and three
+coordinator records. No new scientific execution or observed-data decoding
+occurred. Both substantive lanes continue; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -95,7 +93,7 @@ Active file reservations, updated 26 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task | Root publishes the accepted three-file RI-105 source packet. RI-107 reserves fresh external supervisor/auditor preparation only. All repository edits, numerical admissions and git/index operations remain coordinator-owned. |
+| QR task | RI-105 is published in verified `cd45823`. RI-107 reserves external supervisor/auditor preparation only. RI-108 separately reserves external measurement qualification caller preparation. All repository edits, numerical admissions and git/index operations remain coordinator-owned. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -130,10 +128,11 @@ Active file reservations, updated 26 September UTC:
 | RI-101 signed extension | **Published in independently verified `a6c5fdc`.** Complete signed lift and sufficiently-small-amplitude positivity retained. RI-102 rejects this lift at amplitude 1/4; RI-103 examines private full-birth compensation. No all-size inference. |
 | RI-102 fixed-amplitude lift | **Exact proof published in independently verified `38405bf`.** Strict J2/J3 negativity at 1/4; lift threshold below 1/82. Preserve fixed-lift scope. RI-103 supplies the compensated-family necessary condition; RI-105 targets its contrast. |
 | RI-103 positive extension repair | **Proof/design published in independently verified `e8ca801`.** Maximal-bit invariance and complete 27/16 system; actual feasibility remains open. RI-105 source decision is accepted and RI-107 prepares controlled execution/audit. |
-| RI-104 observed context benchmark | **Design published in independently verified `e8ca801`.** Fixed 26-window map and exact finite side centering retained. RI-106 completes source/qualifier/caller review before qualification or observed execution. |
-| RI-105 native contrast decision | **Complete source/math and audit-design review accepted; publication in this checkpoint.** Fixed six rows/32 slots, 16 examples, 70 intended refusals, none executed. RI-107 prepares custody and auditor source. |
-| RI-106 observed benchmark implementation | **External source work; domain and artifact/crop repairs reviewed.** Complete implementation/caller review remains open; 11 groups/74 refusals/33 fixture files are prospective, not executed. |
-| RI-107 native execution preparation | **Assigned to QR externally, source-only.** Minimal RI95 supervisor carry-forward and separately authored complete auditor; fixed scope/gates, full review and fresh root admissions before any execution. |
+| RI-104 observed context benchmark | **Design published in independently verified `e8ca801`.** Fixed 26-window map and exact finite side centering retained. RI-106 sources are accepted; RI-108 prepares the caller before qualification or observed execution. |
+| RI-105 native contrast decision | **Sources published in independently verified `cd45823`.** Fixed six rows/32 slots, 16 examples, 70 intended refusals, none executed. RI-107 prepares custody and auditor source. |
+| RI-106 observed benchmark implementation | **Complete root and independent source review accepted; five-file publication in this checkpoint.** Exact centering and separate full reconstruction retained; 11 groups/74 refusals/33 fixture files are prospective. RI-108 prepares qualification; no observed run. |
+| RI-107 native execution preparation | **Active with QR externally, source-only.** Execution-half review passes with inherited 81-dependency/32-failure prerequisite explicitly retained before admissions. Final auditor/root packet review remains open; no execution. |
+| RI-108 observed qualification preparation | **Assigned externally after RI-106 source acceptance.** Minimal genuinely qualified RI98 caller adaptation, exact source/runtime/metadata closure and independent applicability review precede root admission. Normal evidence review precedes separate optimized mode. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -6720,3 +6719,29 @@ fabricated qualification remain pending. No scientific-data read or numerical
 execution occurred in this checkpoint. The progress record binds exact sources,
 reviewer roles, incidents and remaining gates. Both lanes continue; RET alone
 remains paused, and unrelated work remains excluded.
+
+**26 September: RI-106 full source packet accepted; fabricated qualification preparation assigned.**
+The prior native source checkpoint is published and independently remote-verified
+in `cd45823`. Complete root source review and separate primary/validator/protocol
+reviews accept the [five-file RI-106 packet](docs/experiments/gwosc_off_event_context_benchmark_check_v1/IMPLEMENTATION.md): exact raw binary64 centering,
+fixed first-T embedding, midpoint/radius primary arithmetic and independently
+reconstructed endpoint arithmetic, six complete raw/mean artifacts, and true
+physical-file/T-crop refusal controls. No numerical qualification or observed
+application has run. The 11 groups, 74 refusals and 33 fixture files are explicit
+prospective inventories, not pass counts.
+
+RI-108 is assigned to prepare the smallest concrete adaptation of the genuinely
+qualified RI98 caller, preserving all inherited custody/runtime prerequisites
+and the 180-second/524288-KiB sampled-child envelope. Complete caller review and
+fresh root admission precede normal qualification; actual completion/custody
+review precedes a separate optimized admission. Actual HDF5/capture access and
+saved arithmetic remain later distinct steps. QR's RI-107 native evaluation
+preparation stays active: inherited 81 ordered dependencies and 32 preserved
+failure identities still match and must be retained before each admission.
+Final native auditor/root review remains open; no actual root count is claimed.
+
+This eight-path checkpoint contains only the five unchanged measurement sources
+and three coordinator records. Original review, historical results, RET and
+unrelated edits are preserved. The progress record binds exact sources, repaired
+findings, review roles and remaining scientific premises. Both substantive lanes
+continue; this source acceptance is not programme completion.
