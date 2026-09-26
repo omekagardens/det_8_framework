@@ -1,23 +1,21 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 25 September 2026 UTC.** The RI-102 fixed-lift
-obstruction and RI-100 independent actual measurement audit are published and
-separately remote-verified in `38405bf`. RI-103 now establishes maximal-record
-invariance and the complete 27-child repair system. Any positive repair in
-that family requires a record-constant T1 full probability; its actual
-feasibility remains unresolved. Root and independent complete reviews accept
-the proof and fixed six-row polynomial-decision design. RI-105 is assigned
-to the existing QR task for a bounded exact checker and verification contract.
-RI-104's observed off-event comparison design also passes complete root and
-independent review. It fixes 26 windows, 208 discrepancies, exact finite side
-centering and comparisons with the four unchanged RI-100 proxy traces.
-RI-106 now implements this design externally, with separately authored primary
-and full validator code. No new scientific execution or observed-input read
-has occurred in these design packets. This checkpoint publishes the two
-accepted notes and three coordinator records. Fresh qualification and actual
-custody/admissions remain required; calibration, physical covariance and the
-native forward map remain separate. Both lanes continue; RET alone stays
-paused and unrelated edits remain held.
+**Current checkpoint — 26 September 2026 UTC.** The RI-103 native repair
+proof and RI-104 observed benchmark design are published and independently
+remote-verified in `e8ca801`. A usage-limit interruption stopped the unfinished
+RI-105/106 handoffs; retained sources and all 2221 entry files were recovered
+unchanged. RI-105 now passes complete root and fresh independent source/math
+review: the fixed six-row/32-slot checker, square-free Sturm certificate and
+complete independent audit contract. Its 16 examples and 70 intended-reason
+controls are source-reviewed, not executed; actual root count and repair
+feasibility remain unresolved. RI-107 is assigned to QR for the minimal
+qualified-supervisor carry-forward and a separately authored complete auditor,
+with fresh custody and concrete admissions still required. RI-106 remains
+external: domain reconciliation and real artifact/T-crop refusal repairs pass
+source review; complete packet/caller review and actual fabricated qualification
+remain open. This checkpoint publishes only three RI-105 source/contract files
+and three coordinator records. No new scientific execution or observed-data
+read occurred. Both substantive lanes continue; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -66,10 +64,11 @@ with unrelated changes to make an import succeed.
 | RI-100 actual direct trace | **Five-file actual result/audit bundle published in independently verified `38405bf`.** All modes, scalar reconstruction and execution custody accepted. | Preserve exact result. RI-104 comparison design is accepted; RI-106 implements it before qualification and observed execution. |
 | RI-101 signed extension | **Published in independently verified `a6c5fdc`.** Complete signed lift and sufficiently-small-amplitude positivity retained. | RI-102 rejects this lift at amplitude 1/4; RI-103 examines private full-birth compensation. No all-size inference. |
 | RI-102 fixed-amplitude lift | **Exact proof published in independently verified `38405bf`.** Strict J2/J3 negativity at 1/4; lift threshold below 1/82. | Preserve fixed-lift scope. RI-103 supplies the compensated-family necessary condition; RI-105 targets its contrast. |
-| RI-103 positive extension repair | **Complete conditional proof/design independently accepted for this checkpoint.** Maximal-bit invariance, complete 27/16 system and necessary T1 record constancy. Actual feasibility remains open. | Publish REPAIR.md; RI-105 prepares the exact six-row/32-slot fixed-pair polynomial decision. No support or scale substitution. |
-| RI-104 observed context benchmark | **Complete source-only design independently accepted for this checkpoint.** Fixed 26-window map, direct exact contractions and finite side centering. | Publish DESIGN.md with one portable-link adaptation. RI-106 implements consumer/qualifier and separately authored full validator before execution. |
-| RI-105 native contrast decision | **Assigned to QR externally, source-only.** | Exact fixed-pair polynomial/root certificate and independent verification plan for six held rows/32 slots; no arithmetic execution or all-stem expansion yet. |
-| RI-106 observed benchmark implementation | **Assigned externally, source-only.** | Primary/qualifier and separate endpoint-sign full validator coordinate a closed API; unchanged gates and no observed operands or execution before review. |
+| RI-103 positive extension repair | **Conditional proof/design published in independently verified `e8ca801`.** Maximal-bit invariance and complete 27/16 system; actual feasibility remains open. | RI-105 source decision is accepted; RI-107 prepares controlled execution and independent audit. |
+| RI-104 observed context benchmark | **Design published in independently verified `e8ca801`.** Fixed 26-window map and exact finite side centering retained. | RI-106 completes source/qualifier/caller review before actual qualification or observed execution. |
+| RI-105 native contrast decision | **Complete source/math and audit-design review accepted; publication in this checkpoint.** Fixed six rows/32 slots, 16 examples, 70 intended refusals. | No actual root count or executed controls. RI-107 prepares concrete custody and independent auditor source. |
+| RI-106 observed benchmark implementation | **External source work; recovered domain and artifact/crop repairs reviewed.** 11 positive groups, 74 intended refusals and 33 retained fixture files are prospective counts. | Complete implementation packet and caller review precede actual fabricated qualification; no observed execution. |
+| RI-107 native execution preparation | **Assigned to existing QR task externally, source-only.** Minimal RI95 supervisor carry-forward and separately authored integer-pair/sparse-polynomial auditor. | Full source, caller and fresh custody review precede every root execution admission; fixed scope/gates preserved. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
 | RI-85 complete four-vertex cap | **Design published in verified `d1733b8`; result published `9d40744`.** The fixed 11-class construction has one nonzero harmonic direction and positive finite width gain. | Preserve the exact support and positivity premises; RI-89/91 study its continuation. |
@@ -5681,3 +5680,22 @@ relative link; exact original and delta remain held. The
 [progress record](REVIEW_PROGRESS.md) carries proof scope,
 exact identities, reviewer roles, remaining premises and new assignments.
 Both lanes continue, with central git/admissions and RET alone paused.
+
+**26 September: RI-105 source decision accepted; controlled evaluation preparation assigned.**
+The predecessor proof/design checkpoint is published and independently remote-verified
+in `e8ca801`. Usage-limit recovery preserved all source bytes and history.
+Root and fresh independent full review accept the [RI-105 source packet](../track_b/native_growth_record_contrast_certificate_v1/IMPLEMENTATION.md):
+fixed six-row/32-slot polynomial, square-free Sturm certificate and complete
+independent audit contract. Sixteen examples and 70 intended-reason controls are
+reviewed source only. Actual coefficients/root count and repair feasibility
+remain unresolved. This six-file checkpoint publishes the three accepted native
+source/contract files and three coordinator records.
+
+RI-107 now prepares the minimal qualified-supervisor carry-forward and a separately
+authored complete saved auditor externally. Source/caller review and fresh concrete
+root admissions precede every execution. RI-106's domain and real artifact/crop
+refusal repairs pass source review; its implementation handoff/caller and actual
+fabricated qualification remain pending. No scientific-data read or numerical
+execution occurred in this checkpoint. The progress record binds exact sources,
+reviewer roles, incidents and remaining gates. Both lanes continue; RET alone
+remains paused, and unrelated work remains excluded.
