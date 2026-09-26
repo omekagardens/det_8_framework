@@ -1,0 +1,1448 @@
+{
+  "artifacts": [
+    {
+      "bytes": 308419,
+      "name": "BOX_CORNERS.json",
+      "sha256": "24a070841a1e2fb537adefeee8e106bec100e6d2a38352725ca55d59bfb65d5d"
+    },
+    {
+      "bytes": 5691,
+      "name": "DEPENDENCY_CASE.json",
+      "sha256": "288f4e9d04dd774a51bce73650e3adaedb8868016d573590bb050c8f32be256a"
+    },
+    {
+      "bytes": 1048576,
+      "name": "INDEX_H1.f64le",
+      "sha256": "3aa68c48fa0721b54cce31f07e648abf3dd0ef76384ec106ab73abd7e2017b34"
+    },
+    {
+      "bytes": 1048576,
+      "name": "INDEX_L1.f64le",
+      "sha256": "411a621f61b5879e4334e39ea68175e9db6cc4634b3fbc7a29246342c6892f55"
+    },
+    {
+      "bytes": 45726,
+      "name": "INDEX_RECORDS.json",
+      "sha256": "c5000f432f80b60e7d44fb55234897027235a1575f555dfa75f7ca9c0dee8988"
+    },
+    {
+      "bytes": 41465,
+      "name": "PROJECTION.json",
+      "sha256": "24a689ccda0ebad17aaa99c3c620d7f65406369f15ca76aa1cbe78e9c53bf72c"
+    },
+    {
+      "bytes": 713627,
+      "name": "RESULT.json",
+      "sha256": "08fb44bbb2c344ba56799226f270aa31e5d236168db5bdfcfa61f10457a75cba"
+    },
+    {
+      "bytes": 2416868,
+      "name": "SYNTHETIC_CAPTURE.json",
+      "sha256": "e4594eb5992cc2df940c94b68aa9b386e5d139bed556082c502cb041a5f4f95e"
+    },
+    {
+      "bytes": 107899,
+      "name": "TINY_CASES.json",
+      "sha256": "e54bcaafc1b5fcdb44a3aa01b9fa76d0f672fd3aa7ac6f5b05df1fd46fd9da96"
+    },
+    {
+      "bytes": 372758,
+      "name": "application/H1-left-mean.json",
+      "sha256": "fb2c8f42626d53ae92a5a0f7b38bba3d0d450f597e5014ab6064a1c6e55c7891"
+    },
+    {
+      "bytes": 1048576,
+      "name": "application/H1-raw.f64le",
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+    },
+    {
+      "bytes": 372759,
+      "name": "application/H1-right-mean.json",
+      "sha256": "5fbf37433b7e3c666b6cd7a59bd5900524b32dd103cea8f50365096e061bf124"
+    },
+    {
+      "bytes": 372758,
+      "name": "application/L1-left-mean.json",
+      "sha256": "78fc9f1d6aa43ebdd81743c5ad68260ba7a26eb81c039237ab780269426dd136"
+    },
+    {
+      "bytes": 1048576,
+      "name": "application/L1-raw.f64le",
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+    },
+    {
+      "bytes": 372759,
+      "name": "application/L1-right-mean.json",
+      "sha256": "0b973482c43d80e7b1f42fa82849013c867a67c9af689730b1e67ba4135a745b"
+    },
+    {
+      "bytes": 372758,
+      "name": "negative-artifacts/changed-file-body/H1-left-mean.json",
+      "sha256": "88e3b242d70e372573f85344ad93346bf6f35e63c1ae4b4c2f5ec952803bf089"
+    },
+    {
+      "bytes": 1048576,
+      "name": "negative-artifacts/changed-file-body/H1-raw.f64le",
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+    },
+    {
+      "bytes": 372759,
+      "name": "negative-artifacts/changed-file-body/H1-right-mean.json",
+      "sha256": "5fbf37433b7e3c666b6cd7a59bd5900524b32dd103cea8f50365096e061bf124"
+    },
+    {
+      "bytes": 372758,
+      "name": "negative-artifacts/changed-file-body/L1-left-mean.json",
+      "sha256": "78fc9f1d6aa43ebdd81743c5ad68260ba7a26eb81c039237ab780269426dd136"
+    },
+    {
+      "bytes": 1048576,
+      "name": "negative-artifacts/changed-file-body/L1-raw.f64le",
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+    },
+    {
+      "bytes": 372759,
+      "name": "negative-artifacts/changed-file-body/L1-right-mean.json",
+      "sha256": "0b973482c43d80e7b1f42fa82849013c867a67c9af689730b1e67ba4135a745b"
+    },
+    {
+      "bytes": 1048576,
+      "name": "negative-artifacts/missing-mean-file/H1-raw.f64le",
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+    },
+    {
+      "bytes": 372759,
+      "name": "negative-artifacts/missing-mean-file/H1-right-mean.json",
+      "sha256": "5fbf37433b7e3c666b6cd7a59bd5900524b32dd103cea8f50365096e061bf124"
+    },
+    {
+      "bytes": 372758,
+      "name": "negative-artifacts/missing-mean-file/L1-left-mean.json",
+      "sha256": "78fc9f1d6aa43ebdd81743c5ad68260ba7a26eb81c039237ab780269426dd136"
+    },
+    {
+      "bytes": 1048576,
+      "name": "negative-artifacts/missing-mean-file/L1-raw.f64le",
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+    },
+    {
+      "bytes": 372759,
+      "name": "negative-artifacts/missing-mean-file/L1-right-mean.json",
+      "sha256": "0b973482c43d80e7b1f42fa82849013c867a67c9af689730b1e67ba4135a745b"
+    },
+    {
+      "bytes": 302230,
+      "name": "negative-captures/P-crossed_source_interval.json",
+      "sha256": "e89f9e8198b989ec5fc8ad0aad50f5c3c65baa11c5c16ba5b8ac7b500d7aab38"
+    },
+    {
+      "bytes": 180,
+      "name": "negative-captures/P-duplicate_source_key.json",
+      "sha256": "eb71896bfd2fdb6528338934aae10e6aa087a12b7704ef1263900da1c8381a03"
+    },
+    {
+      "bytes": 2718957,
+      "name": "negative-captures/P-extra_ninth_source_row.json",
+      "sha256": "a0d7632157899cd1aacc1697b6e3c4527f71d100f88554bb27fbd9b59aecd38e"
+    },
+    {
+      "bytes": 142,
+      "name": "negative-captures/P-missing_source_row.json",
+      "sha256": "1448df59d72316d0f88733db84af8b93346b35820ae6e1d5dfa52474dd7f2bfe"
+    },
+    {
+      "bytes": 1318269,
+      "name": "negative-captures/P-noncanonical_source_row.json",
+      "sha256": "46b723502f3e1b3dcc144132d40d1f2e613fd5accc3c2145aa1f9b775fb30637"
+    },
+    {
+      "bytes": 241313,
+      "name": "negative-captures/P-wrong_row_length.json",
+      "sha256": "046b61a37038cd450aefc4b986d8d700ed3866b4b771a79be6ebb84f33d6001a"
+    },
+    {
+      "bytes": 302230,
+      "name": "negative-captures/P-wrong_row_order.json",
+      "sha256": "1b143542e13ee92c67f51988b7c128486591811d14491e33236ae813bb37c5e3"
+    }
+  ],
+  "counts": {
+    "application_artifacts": 6,
+    "box_corners": 64,
+    "positive_groups": 11,
+    "primary_refusals": 39,
+    "refusals": 74,
+    "retained_files": 33,
+    "validator_refusals": 35
+  },
+  "limitations": [
+    "All operands are fabricated; accepted public metadata supplies schema/flags only, not observed strain or actual predecessor execution.",
+    "Wide box/dependency cases test exact primitive containment and deliberately do not pass the fixed full-path width gate.",
+    "Qualification does not authorize observed HDF5/capture/report access or establish physical noise, calibration, independence or a native forward map."
+  ],
+  "phase": "fabricated_qualification",
+  "positive": [
+    {
+      "counts": {
+        "segment_hashes": 26,
+        "selected_indices": 208,
+        "slices": 78,
+        "windows": 26
+      },
+      "id": "Q1:full_index_domain",
+      "passed": true
+    },
+    {
+      "id": "Q2:three_window_side",
+      "passed": true,
+      "rows": 2,
+      "windows": 3
+    },
+    {
+      "id": "Q3:two_window_side",
+      "passed": true,
+      "rows": 2,
+      "windows": 2
+    },
+    {
+      "id": "Q4:zero",
+      "passed": true,
+      "rows": 2,
+      "windows": 3
+    },
+    {
+      "id": "Q5:common_constant",
+      "passed": true,
+      "rows": 2,
+      "windows": 3
+    },
+    {
+      "id": "Q6:negative_amplitude",
+      "passed": true,
+      "rows": 2,
+      "windows": 3
+    },
+    {
+      "id": "Q7:double_amplitude",
+      "passed": true,
+      "rows": 2,
+      "windows": 3
+    },
+    {
+      "center_cases": 2,
+      "corners": 64,
+      "id": "Q8:all64_box_corners",
+      "passed": true,
+      "sides": 2
+    },
+    {
+      "centered_intervals": [
+        [
+          [
+            "-2",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "2",
+            "1"
+          ]
+        ]
+      ],
+      "id": "Q9:shared_uncertain_coefficient",
+      "passed": true
+    },
+    {
+      "full_validation": {
+        "artifacts": 6,
+        "centered": 208,
+        "mean": 32,
+        "raw": 208,
+        "scenarios": 4,
+        "short_long": 416,
+        "status": "all_fields_independently_match",
+        "windows": 26
+      },
+      "id": "Q10:full_production_zero_saved_validation",
+      "passed": true,
+      "result": {
+        "bytes": 713627,
+        "sha256": "08fb44bbb2c344ba56799226f270aa31e5d236168db5bdfcfa61f10457a75cba"
+      }
+    },
+    {
+      "cases": [
+        {
+          "input": [
+            [
+              "-2",
+              "1"
+            ],
+            [
+              "-1",
+              "1"
+            ]
+          ],
+          "square": [
+            [
+              "1",
+              "1"
+            ],
+            [
+              "4",
+              "1"
+            ]
+          ]
+        },
+        {
+          "input": [
+            [
+              "1",
+              "1"
+            ],
+            [
+              "3",
+              "1"
+            ]
+          ],
+          "square": [
+            [
+              "1",
+              "1"
+            ],
+            [
+              "9",
+              "1"
+            ]
+          ]
+        },
+        {
+          "input": [
+            [
+              "-2",
+              "1"
+            ],
+            [
+              "3",
+              "1"
+            ]
+          ],
+          "square": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "9",
+              "1"
+            ]
+          ]
+        },
+        {
+          "input": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "square": [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ]
+        },
+        {
+          "input": [
+            [
+              "2",
+              "1"
+            ],
+            [
+              "2",
+              "1"
+            ]
+          ],
+          "square": [
+            [
+              "4",
+              "1"
+            ],
+            [
+              "4",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "id": "Q11:square_endpoint_cases",
+      "passed": true
+    }
+  ],
+  "provenance": {
+    "acceptance": {
+      "custody": null,
+      "design": {
+        "bytes": 10268,
+        "sha256": "63b781b8a87c0ac86dfdf145ddf2b7073b71137eabd6c4778b5c8b10aabf8267"
+      },
+      "qualification": null,
+      "ri100": {
+        "bytes": 7451,
+        "sha256": "499fddd1a5315fb8c14c39ae8d161ab11e12f53f8f640d814b1ed81e2f780d21"
+      }
+    },
+    "input": {
+      "bytes": 41465,
+      "sha256": "24a689ccda0ebad17aaa99c3c620d7f65406369f15ca76aa1cbe78e9c53bf72c"
+    },
+    "runtime": {
+      "fingerprint": {
+        "bytes": 2302,
+        "sha256": "4e69452eb57244f0e9db42ffee662f8c1f2cf42ccd9db6bb747f9703efea61cd"
+      },
+      "interpreter": {
+        "bytes": 52640,
+        "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+      },
+      "inventory": {
+        "bytes": 1216343,
+        "sha256": "8b0329a83a1208b21dfb4771d2dd078aae6cb54a1741b7f20b4a4695c06e245c"
+      }
+    },
+    "sources": {
+      "api": {
+        "bytes": 11181,
+        "sha256": "4ed999253bf865b68d8a722b0635893a5c44950250c8a94d01f51119b7e4d524"
+      },
+      "consumer": {
+        "bytes": 34964,
+        "sha256": "8b13ace9bdc768cb77401b24458d199e249a9687e5d0fbf02108eb079aa5a4f7"
+      },
+      "design": {
+        "bytes": 32152,
+        "sha256": "cd7a585f0002f1aef4d16bb96884c0a745291d41b33e73ff466567cbff5f2478"
+      },
+      "implementation": {
+        "bytes": 20615,
+        "sha256": "e0fea15552fb7d47f6948614131673c4bf4dc8a6c176d4a009dac687f12da7e5"
+      },
+      "qualifier": {
+        "bytes": 34582,
+        "sha256": "b3ba3e9344d36447fbe7c3902fb92eb9c9efd8bdba7303dfe464ba5429a2a460"
+      },
+      "validator": {
+        "bytes": 53383,
+        "sha256": "00a2777378b94b7a2ff59cbef08eafc5dc6213fc5071017d6bbc590b5c3b4ce9"
+      }
+    }
+  },
+  "refusal_inventory": [
+    {
+      "code": "SCHEMA",
+      "id": "P:duplicate_json"
+    },
+    {
+      "code": "EXACT",
+      "id": "P:nonfinite_json"
+    },
+    {
+      "code": "EXACT",
+      "id": "P:noncanonical_hex"
+    },
+    {
+      "code": "EXACT",
+      "id": "P:zero_denominator"
+    },
+    {
+      "code": "EXACT",
+      "id": "P:unreduced_rational"
+    },
+    {
+      "code": "RESOURCE",
+      "id": "P:integer_ceiling"
+    },
+    {
+      "code": "INTERVAL",
+      "id": "P:crossed_interval"
+    },
+    {
+      "code": "EXACT",
+      "id": "P:nonexact_dot_input"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "P:dot_dimensions"
+    },
+    {
+      "code": "WIDTH",
+      "id": "P:overwide_interval"
+    },
+    {
+      "code": "INPUT",
+      "id": "P:raw_length"
+    },
+    {
+      "code": "INPUT",
+      "id": "P:raw_nonfinite"
+    },
+    {
+      "code": "FLAGS",
+      "id": "P:missing_flags"
+    },
+    {
+      "code": "FLAGS",
+      "id": "P:false_L1_CW_flag"
+    },
+    {
+      "code": "METADATA",
+      "id": "P:changed_metadata"
+    },
+    {
+      "code": "INPUT",
+      "id": "P:alternate_segment_start"
+    },
+    {
+      "code": "INPUT",
+      "id": "P:raw_segment_hash"
+    },
+    {
+      "code": "TRACE",
+      "id": "P:swapped_trace"
+    },
+    {
+      "code": "INTERVAL",
+      "id": "P:crossed_trace"
+    },
+    {
+      "code": "PHASE",
+      "id": "P:actual_phase_fabrication"
+    },
+    {
+      "code": "INPUT",
+      "id": "P:extra_projection_field"
+    },
+    {
+      "code": "INPUT",
+      "id": "P:changed_capture_pin"
+    },
+    {
+      "code": "SOURCE",
+      "id": "P:changed_source_design"
+    },
+    {
+      "code": "PHASE",
+      "id": "P:claimed_qualification"
+    },
+    {
+      "code": "INPUT",
+      "id": "P:changed_projection_binding"
+    },
+    {
+      "code": "PROVENANCE",
+      "id": "P:extra_provenance_field"
+    },
+    {
+      "code": "ROW",
+      "id": "P:missing_source_row"
+    },
+    {
+      "code": "ROW",
+      "id": "P:wrong_row_order"
+    },
+    {
+      "code": "ROW",
+      "id": "P:wrong_row_length"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "P:duplicate_source_key"
+    },
+    {
+      "code": "CANONICAL",
+      "id": "P:noncanonical_source_row"
+    },
+    {
+      "code": "INTERVAL",
+      "id": "P:crossed_source_interval"
+    },
+    {
+      "code": "ROW",
+      "id": "P:extra_ninth_source_row"
+    },
+    {
+      "code": "ARTIFACT",
+      "id": "P:missing_artifact_record"
+    },
+    {
+      "code": "ARTIFACT",
+      "id": "P:changed_artifact_pin"
+    },
+    {
+      "code": "ARTIFACT",
+      "id": "P:extra_artifact_record"
+    },
+    {
+      "code": "ARTIFACT",
+      "id": "P:wrong_artifact_name"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "P:unsupported_dot_size"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "P:unsupported_energy_count"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "V:extra_top_field"
+    },
+    {
+      "code": "PHASE",
+      "id": "V:wrong_phase"
+    },
+    {
+      "code": "SOURCE",
+      "id": "V:changed_design"
+    },
+    {
+      "code": "PHASE",
+      "id": "V:claimed_qualification"
+    },
+    {
+      "code": "INPUT",
+      "id": "V:wrong_input_identity"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "V:relaxed_width_method"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "V:n_minus_one_method"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "V:scalar_temporal_centering"
+    },
+    {
+      "code": "RESULT",
+      "id": "V:false_status"
+    },
+    {
+      "code": "RESULT",
+      "id": "V:missing_gate"
+    },
+    {
+      "code": "RESULT",
+      "id": "V:false_gate"
+    },
+    {
+      "code": "RESULT",
+      "id": "V:float_gate_count"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "V:changed_limitations"
+    },
+    {
+      "code": "DOT",
+      "id": "V:wrong_signed_dot"
+    },
+    {
+      "code": "DOT",
+      "id": "V:wrong_dot_scale"
+    },
+    {
+      "code": "ENERGY",
+      "id": "V:wrong_square_lower"
+    },
+    {
+      "code": "ENERGY",
+      "id": "V:wrong_energy_divisor"
+    },
+    {
+      "code": "ARTIFACT",
+      "id": "V:missing_artifact_record"
+    },
+    {
+      "code": "ARTIFACT",
+      "id": "V:changed_artifact_pin"
+    },
+    {
+      "code": "TRACE",
+      "id": "V:swapped_scenario_trace"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "V:wrong_scenario_count"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "V:duplicate_json"
+    },
+    {
+      "code": "CANONICAL",
+      "id": "V:noncanonical_result"
+    },
+    {
+      "code": "ROW",
+      "id": "V:missing_source_row"
+    },
+    {
+      "code": "ROW",
+      "id": "V:wrong_row_order"
+    },
+    {
+      "code": "ROW",
+      "id": "V:wrong_row_length"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "V:duplicate_source_key"
+    },
+    {
+      "code": "CANONICAL",
+      "id": "V:noncanonical_source_row"
+    },
+    {
+      "code": "INTERVAL",
+      "id": "V:crossed_source_interval"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "V:extra_ninth_source_row"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "V:unsupported_dot_size"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "V:unsupported_energy_count"
+    },
+    {
+      "code": "ARTIFACT",
+      "id": "V:missing_mean_file"
+    },
+    {
+      "code": "ARTIFACT",
+      "id": "V:changed_artifact_body"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "V:alternate_T_crop"
+    }
+  ],
+  "refusals": [
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "P:duplicate_json",
+      "passed": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "P:nonfinite_json",
+      "passed": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "P:noncanonical_hex",
+      "passed": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "P:zero_denominator",
+      "passed": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "P:unreduced_rational",
+      "passed": true
+    },
+    {
+      "code": "RESOURCE",
+      "expected_code": "RESOURCE",
+      "id": "P:integer_ceiling",
+      "passed": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "P:crossed_interval",
+      "passed": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "P:nonexact_dot_input",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "P:dot_dimensions",
+      "passed": true
+    },
+    {
+      "code": "WIDTH",
+      "expected_code": "WIDTH",
+      "id": "P:overwide_interval",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "P:raw_length",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "P:raw_nonfinite",
+      "passed": true
+    },
+    {
+      "code": "FLAGS",
+      "expected_code": "FLAGS",
+      "id": "P:missing_flags",
+      "passed": true
+    },
+    {
+      "code": "FLAGS",
+      "expected_code": "FLAGS",
+      "id": "P:false_L1_CW_flag",
+      "passed": true
+    },
+    {
+      "code": "METADATA",
+      "expected_code": "METADATA",
+      "id": "P:changed_metadata",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "P:alternate_segment_start",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "P:raw_segment_hash",
+      "passed": true
+    },
+    {
+      "code": "TRACE",
+      "expected_code": "TRACE",
+      "id": "P:swapped_trace",
+      "passed": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "P:crossed_trace",
+      "passed": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "P:actual_phase_fabrication",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "P:extra_projection_field",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "P:changed_capture_pin",
+      "passed": true
+    },
+    {
+      "code": "SOURCE",
+      "expected_code": "SOURCE",
+      "id": "P:changed_source_design",
+      "passed": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "P:claimed_qualification",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "P:changed_projection_binding",
+      "passed": true
+    },
+    {
+      "code": "PROVENANCE",
+      "expected_code": "PROVENANCE",
+      "id": "P:extra_provenance_field",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "P:missing_source_row",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "P:wrong_row_order",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "P:wrong_row_length",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "P:duplicate_source_key",
+      "passed": true
+    },
+    {
+      "code": "CANONICAL",
+      "expected_code": "CANONICAL",
+      "id": "P:noncanonical_source_row",
+      "passed": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "P:crossed_source_interval",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "P:extra_ninth_source_row",
+      "passed": true
+    },
+    {
+      "code": "ARTIFACT",
+      "expected_code": "ARTIFACT",
+      "id": "P:missing_artifact_record",
+      "passed": true
+    },
+    {
+      "code": "ARTIFACT",
+      "expected_code": "ARTIFACT",
+      "id": "P:changed_artifact_pin",
+      "passed": true
+    },
+    {
+      "code": "ARTIFACT",
+      "expected_code": "ARTIFACT",
+      "id": "P:extra_artifact_record",
+      "passed": true
+    },
+    {
+      "code": "ARTIFACT",
+      "expected_code": "ARTIFACT",
+      "id": "P:wrong_artifact_name",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "P:unsupported_dot_size",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "P:unsupported_energy_count",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "V:extra_top_field",
+      "passed": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "V:wrong_phase",
+      "passed": true
+    },
+    {
+      "code": "SOURCE",
+      "expected_code": "SOURCE",
+      "id": "V:changed_design",
+      "passed": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "V:claimed_qualification",
+      "passed": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "V:wrong_input_identity",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "V:relaxed_width_method",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "V:n_minus_one_method",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "V:scalar_temporal_centering",
+      "passed": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "V:false_status",
+      "passed": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "V:missing_gate",
+      "passed": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "V:false_gate",
+      "passed": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "V:float_gate_count",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "V:changed_limitations",
+      "passed": true
+    },
+    {
+      "code": "DOT",
+      "expected_code": "DOT",
+      "id": "V:wrong_signed_dot",
+      "passed": true
+    },
+    {
+      "code": "DOT",
+      "expected_code": "DOT",
+      "id": "V:wrong_dot_scale",
+      "passed": true
+    },
+    {
+      "code": "ENERGY",
+      "expected_code": "ENERGY",
+      "id": "V:wrong_square_lower",
+      "passed": true
+    },
+    {
+      "code": "ENERGY",
+      "expected_code": "ENERGY",
+      "id": "V:wrong_energy_divisor",
+      "passed": true
+    },
+    {
+      "code": "ARTIFACT",
+      "expected_code": "ARTIFACT",
+      "id": "V:missing_artifact_record",
+      "passed": true
+    },
+    {
+      "code": "ARTIFACT",
+      "expected_code": "ARTIFACT",
+      "id": "V:changed_artifact_pin",
+      "passed": true
+    },
+    {
+      "code": "TRACE",
+      "expected_code": "TRACE",
+      "id": "V:swapped_scenario_trace",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "V:wrong_scenario_count",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "V:duplicate_json",
+      "passed": true
+    },
+    {
+      "code": "CANONICAL",
+      "expected_code": "CANONICAL",
+      "id": "V:noncanonical_result",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "V:missing_source_row",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "V:wrong_row_order",
+      "passed": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "V:wrong_row_length",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "V:duplicate_source_key",
+      "passed": true
+    },
+    {
+      "code": "CANONICAL",
+      "expected_code": "CANONICAL",
+      "id": "V:noncanonical_source_row",
+      "passed": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "V:crossed_source_interval",
+      "passed": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "V:extra_ninth_source_row",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "V:unsupported_dot_size",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "V:unsupported_energy_count",
+      "passed": true
+    },
+    {
+      "code": "ARTIFACT",
+      "expected_code": "ARTIFACT",
+      "fixture": {
+        "affected_name": "H1-left-mean.json",
+        "difference": "absent_file",
+        "directory": "negative-artifacts/missing-mean-file",
+        "expected_bodies_source": "unchanged_successful_application_artifacts",
+        "expected_inventory": [
+          {
+            "bytes": 372758,
+            "dtype": "reduced_hex_rational",
+            "name": "H1-left-mean.json",
+            "sha256": "fb2c8f42626d53ae92a5a0f7b38bba3d0d450f597e5014ab6064a1c6e55c7891",
+            "shape": [
+              10961
+            ]
+          },
+          {
+            "bytes": 1048576,
+            "dtype": "<f8",
+            "name": "H1-raw.f64le",
+            "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+            "shape": [
+              131072
+            ]
+          },
+          {
+            "bytes": 372759,
+            "dtype": "reduced_hex_rational",
+            "name": "H1-right-mean.json",
+            "sha256": "5fbf37433b7e3c666b6cd7a59bd5900524b32dd103cea8f50365096e061bf124",
+            "shape": [
+              10961
+            ]
+          },
+          {
+            "bytes": 372758,
+            "dtype": "reduced_hex_rational",
+            "name": "L1-left-mean.json",
+            "sha256": "78fc9f1d6aa43ebdd81743c5ad68260ba7a26eb81c039237ab780269426dd136",
+            "shape": [
+              10961
+            ]
+          },
+          {
+            "bytes": 1048576,
+            "dtype": "<f8",
+            "name": "L1-raw.f64le",
+            "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+            "shape": [
+              131072
+            ]
+          },
+          {
+            "bytes": 372759,
+            "dtype": "reduced_hex_rational",
+            "name": "L1-right-mean.json",
+            "sha256": "0b973482c43d80e7b1f42fa82849013c867a67c9af689730b1e67ba4135a745b",
+            "shape": [
+              10961
+            ]
+          }
+        ],
+        "files": [
+          {
+            "bytes": 1048576,
+            "name": "H1-raw.f64le",
+            "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+          },
+          {
+            "bytes": 372759,
+            "name": "H1-right-mean.json",
+            "sha256": "5fbf37433b7e3c666b6cd7a59bd5900524b32dd103cea8f50365096e061bf124"
+          },
+          {
+            "bytes": 372758,
+            "name": "L1-left-mean.json",
+            "sha256": "78fc9f1d6aa43ebdd81743c5ad68260ba7a26eb81c039237ab780269426dd136"
+          },
+          {
+            "bytes": 1048576,
+            "name": "L1-raw.f64le",
+            "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+          },
+          {
+            "bytes": 372759,
+            "name": "L1-right-mean.json",
+            "sha256": "0b973482c43d80e7b1f42fa82849013c867a67c9af689730b1e67ba4135a745b"
+          }
+        ]
+      },
+      "id": "V:missing_mean_file",
+      "passed": true
+    },
+    {
+      "code": "ARTIFACT",
+      "expected_code": "ARTIFACT",
+      "fixture": {
+        "affected_name": "H1-left-mean.json",
+        "difference": "same_size_changed_bytes",
+        "directory": "negative-artifacts/changed-file-body",
+        "expected_bodies_source": "unchanged_successful_application_artifacts",
+        "expected_inventory": [
+          {
+            "bytes": 372758,
+            "dtype": "reduced_hex_rational",
+            "name": "H1-left-mean.json",
+            "sha256": "fb2c8f42626d53ae92a5a0f7b38bba3d0d450f597e5014ab6064a1c6e55c7891",
+            "shape": [
+              10961
+            ]
+          },
+          {
+            "bytes": 1048576,
+            "dtype": "<f8",
+            "name": "H1-raw.f64le",
+            "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+            "shape": [
+              131072
+            ]
+          },
+          {
+            "bytes": 372759,
+            "dtype": "reduced_hex_rational",
+            "name": "H1-right-mean.json",
+            "sha256": "5fbf37433b7e3c666b6cd7a59bd5900524b32dd103cea8f50365096e061bf124",
+            "shape": [
+              10961
+            ]
+          },
+          {
+            "bytes": 372758,
+            "dtype": "reduced_hex_rational",
+            "name": "L1-left-mean.json",
+            "sha256": "78fc9f1d6aa43ebdd81743c5ad68260ba7a26eb81c039237ab780269426dd136",
+            "shape": [
+              10961
+            ]
+          },
+          {
+            "bytes": 1048576,
+            "dtype": "<f8",
+            "name": "L1-raw.f64le",
+            "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+            "shape": [
+              131072
+            ]
+          },
+          {
+            "bytes": 372759,
+            "dtype": "reduced_hex_rational",
+            "name": "L1-right-mean.json",
+            "sha256": "0b973482c43d80e7b1f42fa82849013c867a67c9af689730b1e67ba4135a745b",
+            "shape": [
+              10961
+            ]
+          }
+        ],
+        "files": [
+          {
+            "bytes": 372758,
+            "name": "H1-left-mean.json",
+            "sha256": "88e3b242d70e372573f85344ad93346bf6f35e63c1ae4b4c2f5ec952803bf089"
+          },
+          {
+            "bytes": 1048576,
+            "name": "H1-raw.f64le",
+            "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+          },
+          {
+            "bytes": 372759,
+            "name": "H1-right-mean.json",
+            "sha256": "5fbf37433b7e3c666b6cd7a59bd5900524b32dd103cea8f50365096e061bf124"
+          },
+          {
+            "bytes": 372758,
+            "name": "L1-left-mean.json",
+            "sha256": "78fc9f1d6aa43ebdd81743c5ad68260ba7a26eb81c039237ab780269426dd136"
+          },
+          {
+            "bytes": 1048576,
+            "name": "L1-raw.f64le",
+            "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+          },
+          {
+            "bytes": 372759,
+            "name": "L1-right-mean.json",
+            "sha256": "0b973482c43d80e7b1f42fa82849013c867a67c9af689730b1e67ba4135a745b"
+          }
+        ]
+      },
+      "id": "V:changed_artifact_body",
+      "passed": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "fixture": {
+        "expected_T_slice": {
+          "dq_masks": [
+            127,
+            127,
+            127
+          ],
+          "end": 10961,
+          "flag_rows": [
+            0,
+            1,
+            2
+          ],
+          "gps_end_offset": [
+            "2ad1",
+            "1000"
+          ],
+          "gps_start_offset": [
+            "0",
+            "1"
+          ],
+          "injection_masks": [
+            31,
+            31,
+            31
+          ],
+          "start": 0
+        },
+        "mutated_T_slice": {
+          "dq_masks": [
+            127,
+            127,
+            127,
+            127
+          ],
+          "end": 13672,
+          "flag_rows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "gps_end_offset": [
+            "6ad",
+            "200"
+          ],
+          "gps_start_offset": [
+            "a97",
+            "1000"
+          ],
+          "injection_masks": [
+            31,
+            31,
+            31,
+            31
+          ],
+          "start": 2711
+        },
+        "scenario": "H1:left",
+        "window_start": 0
+      },
+      "id": "V:alternate_T_crop",
+      "passed": true
+    }
+  ],
+  "schema": "ri106-fabricated-qualification-v1",
+  "scope": "fixed_RI104_exact_interval_and_finite_centering_qualification_no_observed_execution",
+  "status": "all_fabricated_gates_passed"
+}

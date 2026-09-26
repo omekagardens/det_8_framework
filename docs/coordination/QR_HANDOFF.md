@@ -1,4 +1,43 @@
-# QR research handoff — local observers in supplied geometry
+# Current QR coordination — RI-109 concrete native arithmetic audit
+
+26 September 2026 UTC. The coordinator has accepted actual witness, normal and
+optimized execution custody for RI-107. The two saved summaries are identical
+and provisionally report no admissible root for the specified RI-103 27-child
+repair. Independent saved arithmetic is still required; this is neither an
+all-extension obstruction nor a native geometry/gravity result.
+
+The existing **Quantum Relativity** task now owns the narrow final RI-109 caller
+binding in the external directory
+`/Volumes/AI_DATA/development/det-review-evidence/ri109-independent-audit-concrete-825jq1lf/`.
+Root copied the eight accepted source files and the opaque candidate and built
+the immutable `AUDIT_INPUT.json`: 3665 bytes,
+`f2ee89fa4aba270bae6071ab055de69a8b03b6c184084abab191f4034753e14f`.
+Its fifteen bindings cover thirteen unique payload paths; only the RI-103 and
+RI-94 proof roles alias. The candidate equals the actual witness bytes.
+
+The actual root three-mode packet is in
+`/Volumes/AI_DATA/development/det-review-evidence/ri107-root-source-review-dcc6kd6i/RI109_ROOT_THREE_MODE_PACKET.json`:
+12537 bytes, `f28ca549b1b5026bce7873305025c79f46dba6b70417d3ccc769c68bf930b26c`.
+It binds the genuine root acceptances, receipts, source decisions, copied inputs
+and descriptor. It accepts custody for source binding only. The earlier accepted
+unbound RI-109 packet remains unchanged.
+
+QR must preserve the qualified process/monitor mechanics and bind the complete
+actual supporting evidence, exact schemas, candidate equality and mode ordering.
+Final independent/root source review, precise caller applicability, fresh
+historical/input reconciliation and separate root admission precede execution.
+The external assignment authorizes no scientific decoding, target execution,
+active freeze/authorization/attempt, repository edits or git/index operations.
+Root owns those later gates and publication. No new native candidate is assigned
+until the current mathematical predecessor is adjudicated. The parallel
+measurement lane continues under its own qualification and observed-data gates;
+RET alone remains paused.
+
+The original handoff below is retained as a dated historical record. The current
+[implementation plan](../../REVIEW_IMPLEMENTATION_PLAN.md) and
+[progress record](REVIEW_PROGRESS.md) govern later assignments.
+
+# Historical QR research handoff — local observers in supplied geometry
 
 14 September 2026 UTC. **RI-26 SUPPLIED_GEOMETRY_OBSERVER_MODEL;
 COORDINATOR_ACCEPTED_AND_PUBLISHED.** The

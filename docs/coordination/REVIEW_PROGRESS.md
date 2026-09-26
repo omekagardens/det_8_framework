@@ -1,19 +1,22 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 26 September 2026 UTC.** RI-106 measurement sources
-and RI-107 native auditor sources are published in remotely verified `c2c2061`
-and `a9352cf`. The actual native witness, normal replay and optimized replay
-all completed successfully under the unchanged limits. Both saved replay
-summaries are byte-identical and report zero admissible roots for the specified
-RI-103 27-child repair. Witness and normal execution custody are accepted;
-optimized custody and independent saved arithmetic remain pending, so the
-mathematical disposition is provisional and the candidate stays unpublished.
-RI-109's complete unbound caller source is accepted; actual binding follows
-accepted three-mode custody. RI-108's actual normal fabricated qualification
-passes 11 positive groups and 74 intended refusals, retaining 33 files; complete
-independent custody/mathematics review precedes optimized admission. No new
-observed-data application has run. This checkpoint records completed attempts
-and next gates only. Both substantive lanes continue; RET alone remains paused.
+**Current checkpoint — 26 September 2026 UTC.** Source checkpoints `c2c2061`
+and `a9352cf` and progress checkpoint `9a4a3b3` are pushed and independently
+verified remotely. Actual native witness, normal and optimized execution custody
+are all accepted. Both saved replay summaries report zero admissible roots for
+the specified RI-103 27-child repair; independent saved arithmetic remains
+pending, so the mathematical disposition is provisional and the candidate stays
+unpublished. QR is actively binding RI-109's final caller to the accepted actual
+three-mode packet and independently checked immutable descriptor.
+
+RI-108 real normal/optimized qualification is now accepted after independent
+complete saved arithmetic and custody review. All 11 distinct groups/74 intended
+refusals pass; the entire report and all 33 artifacts are byte-identical across
+modes. The compact qualification report and review are added in this checkpoint.
+RI-110 now prepares the actual observed-data caller externally, with full
+source/input/runtime custody and separate review/admissions still required.
+No new observed-data application has run. Both substantive lanes continue;
+RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -60,11 +63,14 @@ the latest assignments below and in the plan govern current work.
 | RI-100 actual direct trace | **Five-file actual result/audit bundle published in independently verified `38405bf`.** All modes, scalar reconstruction and execution custody accepted. | Preserve exact result. RI-104 comparison design is accepted; RI-106 implements it before qualification and observed execution. |
 | RI-101 signed extension | **Published in independently verified `a6c5fdc`.** Complete signed lift and sufficiently-small-amplitude positivity retained. | RI-102 rejects this lift at amplitude 1/4; RI-103 examines private full-birth compensation. No all-size inference. |
 | RI-102 fixed-amplitude lift | **Exact proof published in independently verified `38405bf`.** Strict J2/J3 negativity at 1/4; lift threshold below 1/82. | Preserve fixed-lift scope. RI-103 supplies the compensated-family necessary condition; RI-105 targets its contrast. |
-| RI-103 positive extension repair | **Conditional proof/design published in independently verified `e8ca801`.** Maximal-bit invariance and complete 27/16 system; actual feasibility remains open. | RI-105 source decision is accepted; RI-107 prepares controlled execution and independent audit. |
-| RI-104 observed context benchmark | **Design published in independently verified `e8ca801`.** Fixed 26-window map and exact finite side centering retained. | RI-106 completes source/qualifier/caller review before actual qualification or observed execution. |
-| RI-105 native contrast decision | **Complete source/math and audit-design review accepted; publication in this checkpoint.** Fixed six rows/32 slots, 16 examples, 70 intended refusals. | No actual root count or executed controls. RI-107 prepares concrete custody and independent auditor source. |
-| RI-106 observed benchmark implementation | **External source work; recovered domain and artifact/crop repairs reviewed.** 11 positive groups, 74 intended refusals and 33 retained fixture files are prospective counts. | Complete implementation packet and caller review precede actual fabricated qualification; no observed execution. |
-| RI-107 native execution preparation | **Assigned to existing QR task externally, source-only.** Minimal RI95 supervisor carry-forward and separately authored integer-pair/sparse-polynomial auditor. | Full source, caller and fresh custody review precede every root execution admission; fixed scope/gates preserved. |
+| RI-103 positive extension repair | **Proof/design published in verified `e8ca801`.** The actual producer reports rejection of this fixed 27-child repair; full independent saved arithmetic remains pending. | Preserve restricted scope; finish RI-109 audit before a successor decision. |
+| RI-104 observed context benchmark | **Design published in verified `e8ca801`.** Fixed 26-window map and exact finite side centering retained; RI-106 sources published. | Preserve accepted qualification while RI-110 prepares the observed caller. |
+| RI-105 native contrast decision | **Sources published in verified `cd45823`.** Fixed six rows/32 slots, 16 examples and 70 intended refusals pass actual producer modes. | Independent saved arithmetic remains pending; no all-extension claim. |
+| RI-106 observed benchmark implementation | **Sources published in verified `c2c2061`; RI-108 two-mode qualification accepted.** Exact centering and independent full reconstruction retained. | Preserve qualification and prepare RI-110 actual-input caller. |
+| RI-107 native execution preparation | **Auditor sources published in verified `a9352cf`; actual witness/normal/optimized custody accepted.** Historical 81+32 gate and limits retained. | RI-109 independent arithmetic still requires final caller review and admission. |
+| RI-108 observed qualification preparation | **Actual two-mode qualification independently accepted.** All 11/74/33 counts and whole report/artifact equality pass. | Publish the compact report/review and preserve the qualification. |
+| RI-109 native independent caller | **Accepted unbound source retained; actual immutable bindings independently checked.** QR owns final caller preparation. | Review stable caller/support closure and precise applicability before audit admission. |
+| RI-110 observed context application | **Assigned externally after accepted two-mode qualification.** Complete existing HDF5/capture custody and six artifacts required. | Review stable caller, closure and applicability before separate actual-data admissions. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
 | RI-85 complete four-vertex cap | **Design published in verified `d1733b8`; result published `9d40744`.** The fixed 11-class construction has one nonzero harmonic direction and positive finite width gain. | Preserve the exact support and positivity premises; RI-89/91 study its continuation. |
 | RI-88 native cap checker | **Sources published `d02b4b6`; positive result and independent arithmetic review published `9d40744`.** Rank 10, nullity one; fixed finite width gain retained. | RI-95 obstruction is accepted; RI-99 is published; RI-101 supplies a signed one-layer lift; RI-102 rejects this fixed lift at 1/4; RI-103 investigates a positive repair. |
@@ -10781,3 +10787,76 @@ reviewers cover execution custody and the complete saved fabricated arithmetic.
 Only accepted normal review permits optimized measurement admission. Actual
 observed application and independent native arithmetic remain distinct pending
 steps. RET stays paused, and neither lane is programme completion.
+
+**26 September: completed custody adjudications and accepted RI-108 qualification.**
+Root accepted native optimized custody at `dd6d5b` after the independent review
+of all 5200 raw process rows, seven censuses, sixteen snapshots, eleven ordered
+inputs, 81+32 historical identities and prior modes. `D/RI107_ROOT_OPTIMIZED_CUSTODY.json`
+is 4425 bytes, `dc8d4d4a2228010062ae56268db13cefc2a1609ece32c9e15b217fbcdefe0b21`.
+This is execution custody, not independent mathematics. The actual root packet
+`D/RI109_ROOT_THREE_MODE_PACKET.json` is 12537 bytes,
+`f28ca549b1b5026bce7873305025c79f46dba6b70417d3ccc769c68bf930b26c`.
+The immutable descriptor is 3665 bytes,
+`f2ee89fa4aba270bae6071ab055de69a8b03b6c184084abab191f4034753e14f`,
+in external `ri109-independent-audit-concrete-825jq1lf/`. Separate binding review
+`ri109-independent-immutable-binding-s0h_ugxt/INDEPENDENT_IMMUTABLE_BINDING_REVIEW.json`
+is 7923 bytes, `85e64b2ca469f4febea974ab432f95018f3367d530c780faef11ea6c78b71383`.
+It checks eight source copies, actual ordered mode acceptances, complete candidate
+byte equality and 15/13/14 descriptor/payload/expected-postcheck counts. It did
+not inspect or accept the in-progress concrete caller. QR received the concrete
+binding assignment; actual source/applicability review and audit are next.
+
+For measurement, separate reviewers reconstructed every retained fabricated
+mathematical field and both complete execution-custody sets. Root normal
+adjudication `854357` preceded corrected optimized admission `15417c`, genuine
+optimized dispatch `d5d881` (session 86559), poll `2a2634` and completed
+`0a38e4` exit zero. Optimized outer transcription is
+`D/RI108_OPTIMIZED_OUTER_TOOL_RESULT.json`, 1364 bytes,
+`d4583396dfe85c212d23a7a1e8c0e615247e2157cf23e97c3753f8a6309ae1de`.
+All modes retain the same 180-second/524288-KiB sampled-child limits and
+0.1-second maximum/final gap; these are not hard OS or full-process-tree caps.
+
+| Actual measurement mode | Child seconds | Peak KiB | Raw observations | Max gap seconds | Final gap seconds |
+|---|---:|---:|---:|---:|---:|
+| Normal | 17.465071584 | 113728 | 530 | 0.040284291 | 0.030147584 |
+| Optimized | 17.130962792 | 119632 | 525 | 0.047694375 | 0.030135292 |
+
+The entire 34097-byte report, SHA256
+`c2e49cd0ded81c8ce827fac932880f6a9b701dbc7472e7d0cd2915f27143ac87`,
+and all 33 artifact bodies are identical. The independent normal mathematical
+verdict is `ri108-normal-independent-math-recovery-crx1w6sf/FINAL_VERDICT.json`,
+5147 bytes, `eb51f1d8fb4fafd3aca5beb5314d204597819c0d4283f842e5c27b3887ad6599`.
+It reconstructs six tiny cases, 64 corners/128 side evaluations/2304 containment
+checks, dependency and square cases, both raw index arrays/all slices and the
+entire full-shape zero result. Internal index mean vectors and transient mutated
+reports were not retained; their executed assertions/outcomes remain source-and-
+custody-supported. Optimized mathematics carries only by complete byte equality.
+
+The separate two-mode custody review is
+`ri108-completed-two-mode-custody-review-ztp68npw/INDEPENDENT_TWO_MODE_CUSTODY_REVIEW.json`,
+9822 bytes, `9fe626daae8123808b47e80ecd2e575c39d99e9acbb02832117cb1f85c0e9a47`.
+Fresh 53/47 source pairs, 120 history, 3925 runtime files/152961716 bytes and four
+interpreter links match. Root final adjudication `600bef` is
+`D/RI108_ROOT_FINAL_QUALIFICATION_ADJUDICATION.json`, 8619 bytes,
+`f82ff831323e295dc009747e5111cfaac4468f20d2f531043a976c16c566fd6f`.
+The compact [qualification report](../experiments/gwosc_off_event_context_benchmark_check_v1/QUALIFICATION.json)
+and [review](../experiments/gwosc_off_event_context_benchmark_check_v1/QUALIFICATION_REVIEW.md)
+retain these evidence limits and full external reproducibility requirements.
+
+Independent pre-run review caught an omitted outer `-O` in the proposed optimized
+command. The rejected proposal and review remain preserved; the corrected
+proposal matches the unchanged freeze exactly. No bad-command attempt ran.
+Root's two earlier refusal-envelope review corrections also affected only root
+metadata checks before acceptance, not scientific sources or executed cases.
+The report's original frozen-stage wording/null fabricated acceptance fields,
+all thresholds and failed/protected historical evidence remain unchanged.
+
+After final qualification acceptance, root assigned **RI-110**: external
+source-only actual-input caller/custody preparation using accepted RI106/RI104
+and genuine RI108/RI100 precedents. Both existing full HDF5 byte bodies,
+unchanged inspector, complete capture and predecessor reports, 26 segment hashes,
+six artifacts, current runtime and full inherited custody must be bound before
+later serial admissions. No new observed application, physical calibration,
+protected validation or native forward map is established. Progress checkpoint
+`9a4a3b37e025e2bd44db71f04985089cde84b47e` was separately remote-verified before
+these later decisions. RET remains paused; both substantive lanes stay active.
