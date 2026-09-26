@@ -1,21 +1,21 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 26 September 2026 UTC.** RI-111's complete
-conditional 28-child repair criterion is published in remotely verified
-`eb6234b`. Actual feasibility remains unresolved. RI-112's exact six-minor
-rank/gcd checker and separately structured auditor have reached immutable
-source handoff and are now under coordinator review. The fixed 24 held rows,
-128 slots and remaining positivity/parent requirements are retained.
-No new native coefficient or scale has been evaluated.
+**Current checkpoint — 26 September 2026 UTC.** RI-112's exact six-minor
+rank/gcd checker and independently structured auditor are root-accepted as
+source only after four independent reviews, direct algebra/contract review
+and fresh source/premise checks. This checkpoint adds their four exact source
+and protocol files. RI-111's 28-child criterion remains published in verified
+`eb6234b`; actual feasibility is unresolved. No new native coefficient or scale
+has been evaluated. QR is assigned RI-115: the concrete native execution and
+custody caller, preserving all actual prerequisites before separate admissions.
 
-RI-113's additive measurement interface repair has passed independent source
-review and is root-accepted. Both readers use the genuine RI-100 header; exact
-reverse-delta checks retain all numerical code, input pins and twelve receiving
-gates. RI-108 evidence applies narrowly to the unchanged numerical path; the
-new interface is not yet execution-qualified. RI-114 is active on a concrete
-caller for 22 metadata-only production-helper cases in separately admitted
-normal/optimized modes. RI-110's failed attempt is immutable; no observed retry,
-new result or physical calibration is accepted. RET alone remains paused.
+RI-113's six additive measurement source files are published in remotely
+verified `408a431`. RI-108 evidence applies narrowly to unchanged numerical
+code; the new interface is not execution-qualified. RI-114's concrete caller
+has passed complete independent source review and awaits root adjudication,
+then 22 metadata-only helper checks in separately admitted normal/optimized
+modes. RI-110's failure remains immutable. No observed retry, calibrated result,
+protected-validation claim or native forward map is accepted. RET alone is paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -62,7 +62,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-111 conditional 28-child criterion accepted; actual feasibility unresolved. RI-112 all-record rank/gcd sources have reached stable handoff; coordinator independent source review is active. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-111 conditional criterion and RI-112 exact checker/auditor source accepted; actual feasibility unresolved. RI-115 concrete native caller is assigned to QR before separate root admissions. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | Explicitly paused. G2 and calibration obligations remain historical open items; no RET work resumes without the user lifting that pause. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -95,7 +95,7 @@ Active file reservations, updated 26 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task and coordinator reviewers | RI-112 external source packet `ri112-one-column-rank-source-uH7F8g/` is immutable after QR handoff; coordinator independent source review is active, with no numerical execution or repository edits. RI-111/RI-109 accepted evidence and failed RI-110 are immutable. RI-113 source packet `ri113-interface-source-DMQoHjg2/` is immutable and root-accepted; RI-114 owns only external source preparation in `ri114-interface-caller-source-J6oVpLYq/`. All repository edits, active admissions and git/index operations remain root-owned. |
+| QR task and coordinator reviewers | RI-112 external packet `ri112-one-column-rank-source-uH7F8g/` is immutable and source-accepted; root owns its four-file publication. RI-115 owns external `ri115-native-caller-source-fViRkoKT/` (creation `d10be5`) for source-only caller preparation. RI-113 is published in `408a431`; immutable RI-114 packet `ri114-interface-caller-source-J6oVpLYq/` has passed independent source review and awaits root adjudication. All actual admissions, repository edits and git/index operations remain root-owned. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -138,9 +138,9 @@ Active file reservations, updated 26 September UTC:
 | RI-108 observed qualification preparation | **Qualification published in remotely verified `bf342b8`.** Both actual modes, 11 groups, 74 intended refusals and 33 identical artifacts accepted. |
 | RI-110 observed context application | **First admitted normal attempt failed on a source-interface mismatch.** Exact inputs remain intact; RESULT is empty, no artifacts/custody or optimized attempt. Next: Preserve the failure. RI-113 source repair is accepted; RI-114 qualification and fresh observed admission still precede any retry. |
 | RI-111 one-column repair | **Conditional complete criterion published in remotely verified `eb6234b`.** 28 columns/16 parents, six cubic-or-lower compatibility minors, all remaining strict conditions. Actual feasibility unresolved. Next: RI-112 implements the fixed necessary rank/gcd test and separate auditor; no coefficients or execution yet. |
-| RI-112 all-record rank decision | **Stable QR source handoff received; coordinator independent review active.** Exactly 24 held rows/128 slots/six minors. Next: Complete source and independent auditor review, including all-zero/gcd/endpoint fixtures, before root execution admission. |
+| RI-112 all-record rank decision | Exact checker/auditor/protocol source accepted after four independent reviews and fresh premise/source checks; four-file source publication checkpoint. Actual outcome unknown. RI-115 prepares its concrete caller. |
 | RI-113 observed interface repair | **Exact additive v2 source independently reviewed and root-accepted.** Correct prior header; all other scientific bytes and thresholds retained. No executed interface qualification. Next: RI-114 prepares the concrete 22-case caller; preserve RI-106/RI-108 and the failed RI-110 attempt. |
-| RI-114 interface qualification caller | **Assigned after RI-113 source/applicability adjudication; external source-only preparation active.** Full captured source/runtime/history closure and complete report checking required. Next: Review the concrete caller, then admit normal qualification and review its actual completion before separate optimized admission. No observed retry yet. |
+| RI-114 interface qualification caller | Stable external caller passed independent complete source/closure review; root adjudication precedes actual freeze and separately admitted normal then optimized qualification. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -7072,3 +7072,54 @@ RI-112 stable source handoff subsequently arrived and was read completely
 Coordinator delegated a fresh complete source review; source acceptance and
 its next concrete QR assignment remain pending that predecessor adjudication.
 No coefficient calculation, candidate or execution has been admitted.
+
+**26 September: RI-112 checker/auditor source accepted; RI-115 assigned.**
+
+The exact source checkpoint adds `check.py`, `audit_saved_certificate.py`,
+`IMPLEMENTATION.md` and `AUDIT_CONTRACT.md` under
+`docs/track_b/native_growth_one_column_rank_check_v1/`. Their respective bytes
+and SHA256 are 57,049 / `73b204ba8acdefed418aa803ea95c0fc0dddba7c436ea1595996a01002f9287d`,
+54,458 / `0c3a781aee84f2d66fbe93e1aa3b07eb2961c3cd451abd6e5275931c25adbe3f`,
+17,714 / `0666dabeb554991e3ce7a70774666e2c162806b00f2d27541572131054b275bf`,
+and 11,987 / `355336403094890e0e8f62dc0e6d92662d16fcf0b3270fcd00582605ca820271`.
+
+Root source-only adjudication is external
+`ri112-root-source-adjudication-20wp9rwb/RI112_ROOT_SOURCE_ADJUDICATION.json`
+(7,884 bytes, `794701da153603ca765a60998a37222fabfa9ede4c340ed862f44d575fe84600`).
+The final independent complete-source verdict is
+`ri112-root-independent-source-review-zmoh3HOX/INDEPENDENT_RI112_COMPLETE_SOURCE_REVIEW.json`
+(31,009 bytes, `d7d14714ed25f28fc31aaeff9c119577fc0419fc00faf1086a2096a67f78f70d`).
+Root reviewed all four verdicts, complete contracts and key algebra/reconstruction
+functions; the separate reviewer read both complete Python files. Fresh root
+review (`6150a2`) verifies all 25 identities, literal runtime links and exact
+whole-source reconstruction from both predecessor patches. A reviewer metadata
+diff-grouping mismatch was corrected by full hunk reconstruction; no target or
+scientific calculation was attempted. Preparation incidents remain external.
+
+The checker retains all 24 complete held rows, 128 slots, eight profiles,
+accepted nonzero reference pivot and unchanged (0,R] radius. It constructs all
+six minors and their common gcd, including all-zero, constant, degree-drop and
+endpoint branches. The auditor separately reconstructs every one of 19 typed
+canonical fields. Sixteen root fixtures, ten gcd-family fixtures and 110 producer
+refusal controls are source declarations, not executed results or 110 independent
+auditor executions. All-zero or surviving common roots are unresolved; zero
+common roots can reject only the fixed 28-child support. Remaining parent
+positivity, actual rho/s, all-size extension and physical claims stay open.
+
+RI-115 was assigned immediately after adjudication: concrete native caller and
+custody adaptation with unchanged arithmetic/resource bounds, complete historical
+and failed-attempt closure, and real serial witness/normal/optimized/auditor
+prerequisites. QR may prepare external source only. Root retains all actual
+admissions and git/index operations. No source reuse grants new-target execution
+qualification, and no mathematical outcome is reported by this checkpoint.
+
+Parallel RI-114 stable caller passed complete independent source review at
+`ri114-independent-complete-caller-ka84wuan/INDEPENDENT_COMPLETE_CALLER_SOURCE_REVIEW.json`
+(17,448 bytes, `69aa38e2603c01d7a3856fa7bcad51845cfcb68ab23ed4a2470e735d407a3e86`).
+Its 62 source pairs, 473 historical records (including unchanged 302 prefix),
+3,925 runtime files / 152,961,716 bytes and four interpreter links were refreshed.
+The review records 191 static checks and 230 closure checks, with no findings.
+Actual 22-case execution still requires root adjudication, exact freeze and
+separate normal then optimized admissions. The six repaired measurement sources
+are already remotely verified in `408a431`; RI-110 failure is immutable. No
+observed retry, calibration validation or native forward map is accepted.

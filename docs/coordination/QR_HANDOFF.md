@@ -1,3 +1,42 @@
+# Current QR coordination — RI-115 concrete native rank caller
+
+26 September 2026 UTC. RI-112 source is accepted after complete independent
+reviews and root algebra/contract/provenance review. Root adjudication is
+`ri112-root-source-adjudication-20wp9rwb/RI112_ROOT_SOURCE_ADJUDICATION.json`
+under `/Volumes/AI_DATA/development/det-review-evidence/`: 7,884 bytes, SHA256
+`794701da153603ca765a60998a37222fabfa9ede4c340ed862f44d575fe84600`.
+The exact four-file checker/auditor/protocol bundle is in this source checkpoint
+at `docs/track_b/native_growth_one_column_rank_check_v1/`.
+Actual six-minor/gcd outcome remains unknown; no native coefficients or fixtures
+were evaluated. RI-111's conditional criterion and RI-109's restricted rejection
+remain unchanged. A surviving root would still leave positivity and the other
+parent equations unresolved.
+
+The existing **Quantum Relativity** task is assigned RI-115: the smallest
+concrete source-only adaptation of the qualified native supervisor and RI-109
+audit caller. Bind exact four inputs, 19 certificate fields, 17 audit bindings,
+14 distinct payloads and 15 postchecks; preserve full original/copy/runtime,
+source, historical acceptance and failed-attempt closure. Reconcile actual
+ancestry rather than assuming an old inventory count. Preserve all bounds,
+literal command/environment and exclusive prospective outputs. Do not infer
+new-target qualification from retained arithmetic or supervision.
+
+Prepare separate prospective witness, normal, optimized and independent-audit
+stages with real predecessor completion/custody prerequisites. Missing future
+custody must refuse before attempt; placeholders cannot stand in for acceptance.
+QR owns only external `ri115-native-caller-source-fViRkoKT/` (creation `d10be5`), acknowledged after reading the complete root adjudication. No target parse/import/compile,
+probe, native calculation, fixture execution, active inputs/candidate/descriptor,
+freeze/admission or run is assigned. Root owns actual acceptance, execution,
+repository/index and git. No new family/support, seed/amplitude, q6/q7 or H/z
+calculation is assigned. This source handoff boundary does not pause the programme.
+
+RI-113 is published in remotely verified `408a431`. The parallel RI-114 caller
+has passed complete independent source review; root adjudication and serial
+22-case interface qualification remain. RI-110 failure is preserved; no observed
+retry or physical/native claim follows. RET alone remains paused.
+
+# Historical RI-112 source assignment and handoff
+
 # Current QR coordination — RI-112 all-record rank/gcd source
 
 26 September 2026 UTC. RI-111's complete conditional 28-child repair criterion
