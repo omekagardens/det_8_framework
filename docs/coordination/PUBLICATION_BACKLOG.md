@@ -1,19 +1,20 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 26 September 2026 UTC.** RI-109 independently confirms
-zero admissible roots for the prescribed RI-103 27-child repair. Root accepts
-its family-scoped rejection after genuine independent execution and complete
-saved arithmetic/custody review. The exact certificate, independent report and
-bounded result review are added in this checkpoint. No general positive-extension,
-QM, geometry or gravity conclusion follows.
+**Current checkpoint — 26 September 2026 UTC.** RI-111's complete
+28-child repair criterion is independently reviewed and root-accepted. It
+reduces the all-eight-record prerequisite to six polynomials of degree at most
+three, with all other parent equations and strict positivity retained. Actual
+feasibility is unresolved. RI-109's restricted 27-child rejection is published
+in remotely verified `c9907d6`; its premises and conclusion remain fixed.
 
-RI-111 is assigned to QR: analyze the minimal one-proper-child enlargement
-Y0=C3 ordinal-sum A5, with complete record compatibility and strict positivity.
-Its feasibility is open; the rejected 27-child family stays fixed. RI-108's
-accepted two-mode qualification is published in remotely verified `bf342b8`.
-RI-110's observed-data caller has reached an immutable source handoff and is
-under separate complete independent review. No new observed-data application
-has run. Both substantive lanes continue; RET alone remains paused.
+RI-112 is active with QR: source-only exact rank/gcd checker and an independent
+auditor on 24 held rows/128 slots. No new native coefficient or scale has been
+evaluated. RI-110 passed source/admission review, but its first genuine normal
+observed attempt failed before computation: both RI-106 wrappers expect the
+wrong RI-100 success label. The complete failed attempt is preserved; no result
+or optimized run is accepted. RI-113 diagnosis is accepted; additive v2 source repair and metadata-envelope
+regression preparation are active before fresh qualification/admission. Both
+substantive lanes continue; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -64,13 +65,15 @@ with unrelated changes to make an import succeed.
 | RI-102 fixed-amplitude lift | **Exact proof published in independently verified `38405bf`.** Strict J2/J3 negativity at 1/4; lift threshold below 1/82. | Preserve fixed-lift scope. RI-103 supplies the compensated-family necessary condition; RI-105 targets its contrast. |
 | RI-103 positive extension repair | **Proof/design published `e8ca801`; restricted 27-child rejection independently accepted in RI-109.** Historical design retained; actual fixed-pair contrast certified. | Preserve exact premises; RI-111 studies a separately declared 28-child alternative. |
 | RI-104 observed context benchmark | **Design published in verified `e8ca801`.** Fixed 26-window map and exact finite side centering retained; RI-106 sources published. | Preserve accepted qualification while RI-110 prepares the observed caller. |
-| RI-105 native contrast decision | **Sources published `cd45823`; exact certificate and independent report accepted and added here.** Six rows/32 slots, all 16 sections and 16 rebuilt fixtures match. | Keep 70 producer declarations distinct from consumer execution; no all-extension claim. |
+| RI-105 native contrast decision | **Sources published `cd45823`; exact certificate and independent report published in verified `c9907d6`.** All 16 sections and 16 rebuilt fixtures match. | Preserve the restricted 27-child obstruction; no all-extension claim. |
 | RI-106 observed benchmark implementation | **Sources published in verified `c2c2061`; RI-108 two-mode qualification accepted.** Exact centering and independent full reconstruction retained. | Preserve qualification and prepare RI-110 actual-input caller. |
 | RI-107 native execution preparation | **Auditor sources published `a9352cf`; all producer custody and RI-109 actual audit accepted.** Limits and historical failures preserved. | Preserve completed evidence; do not repeat successful modes. |
-| RI-109 native independent caller | **Exact source/applicability, actual audit and restricted mathematical result independently accepted.** Three-file result bundle added in this checkpoint. | Preserve source/runtime/custody closure; RI-111 is the next native proof question. |
+| RI-109 native independent caller | **Result bundle published in remotely verified `c9907d6`.** Complete independent audit and restricted 27-child rejection accepted. | Preserve fixed source/results; RI-111 reduction is accepted and RI-112 is active. |
 | RI-108 observed qualification preparation | **Qualification published in remotely verified `bf342b8`.** Both actual modes, 11 groups, 74 intended refusals and 33 identical artifacts accepted. | Preserve fixed qualification while RI-110 source review proceeds. |
-| RI-110 observed context application | **Immutable external source handoff under independent complete review.** 56 source pairs, 6 opaque inputs, 302 historical records; no observed execution. | Resolve source findings, then root input-custody/applicability decisions and serial actual admissions. |
-| RI-111 one-column repair | **Assigned to QR after RI-109 adjudication.** Analyze Y0=C3 ordinal-sum A5, complete 28-column/16-parent closure and all-record compatibility; no feasibility presumption. | Deliver a bounded analytic theorem/obstruction or exact next decision design; no new numerical campaign. |
+| RI-110 observed context application | **First admitted normal attempt failed on a source-interface mismatch.** Exact inputs remain intact; RESULT is empty, no artifacts/custody or optimized attempt. | Preserve the failure. RI-113 repairs the RI-100 envelope contract in new source before fresh qualification/admission. |
+| RI-111 one-column repair | **Conditional complete criterion accepted; exact manuscript added here.** 28 columns/16 parents, six cubic-or-lower compatibility minors, all remaining strict conditions. Actual feasibility unresolved. | RI-112 implements the fixed necessary rank/gcd test and separate auditor; no coefficients or execution yet. |
+| RI-112 all-record rank decision | **Assigned after RI-111 root adjudication; QR source preparation active.** Exactly 24 held rows/128 slots/six minors. | Complete source and independent auditor review, including all-zero/gcd/endpoint fixtures, before root execution admission. |
+| RI-113 observed interface repair | **Diagnosis accepted; external v2 source repair active after genuine RI-110 failure.** Prior RI-100 uses `all_declared_checks_passed`; RI-106 wrappers incorrectly demand `all_gates_passed`. | Preserve RI-106/RI-108 and failed RI-110; prepare additive repair with metadata-envelope regression coverage. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
 | RI-85 complete four-vertex cap | **Design published in verified `d1733b8`; result published `9d40744`.** The fixed 11-class construction has one nonzero harmonic direction and positive finite width gain. | Preserve the exact support and positivity premises; RI-89/91 study its continuation. |

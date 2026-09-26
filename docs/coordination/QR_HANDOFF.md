@@ -1,4 +1,40 @@
-# Current QR coordination — RI-111 one-proper-child repair
+# Current QR coordination — RI-112 all-record rank/gcd source
+
+26 September 2026 UTC. RI-111's complete conditional 28-child repair criterion
+is accepted after root review of every line, complete independent proof reviews
+and fresh premise checks. The [exact manuscript](../track_b/native_growth_one_column_repair_v1/REPAIR.md)
+retains all records, strict positivity and all other parent equations. Actual
+feasibility remains unresolved; RI-109's restricted 27-child rejection is fixed.
+Root adjudication is `ri110-111-root-review-sRywfxac/RI111_ROOT_ANALYTIC_ADJUDICATION.json`
+under `/Volumes/AI_DATA/development/det-review-evidence/` (3,838 bytes,
+`fc4e9147db50ceb750d1f9fdcf503ffbb53363d2f1379557d1713bb844093249`).
+
+RI-112 is now assigned to the existing **Quantum Relativity** task. Prepare
+source for the exact six-minor rank/gcd test and a separately structured auditor,
+using exactly 24 complete held C3/C4/H5 rows, 128 slots and eight records.
+Retain all coefficient derivations, positive denominators, normalization,
+transport, twin-slot equality and the accepted nonzero P01 pivot. Distinguish
+all-zero minors, constants, degree drops, repeated roots and Sturm endpoints
+(0,R]. A surviving common root is unresolved and cannot select actual rho/s or
+satisfy the remaining parents. No new support, q6/q7 table, H/z calculation,
+amplitude/seed change or full positive-feasibility solver is assigned.
+
+QR reserved only external `ri112-one-column-rank-source-uH7F8g/` (creation
+`3c5cf8`). Source-defined synthetic cases and intended refusals require review;
+no coefficient evaluation, scientific-body query, target import/compilation,
+probe, fixtures or numerical campaign is admitted. Root owns all repository,
+index/git, source acceptance and future actual admissions. The stable RI-111
+handoff ends that bounded worker packet, not the ongoing programme.
+
+In parallel RI-110's first admitted observed normal attempt failed before
+computation because both wrappers expect the wrong RI-100 success label.
+The complete failed attempt is preserved; no observed result, optimized run,
+calibration validation or native forward map is accepted. Coordinator RI-113
+diagnosis and regression contract are accepted; additive v2 source preparation
+is reserved at `ri113-interface-source-DMQoHjg2/`. The exact failure is independently
+reviewed; source/fixture acceptance and a fresh admission still precede any retry. RET alone stays paused.
+
+# 26 September predecessor handoff — RI-111 one-proper-child repair
 
 26 September 2026 UTC. RI-109 independently reconstructs the complete fixed
 certificate and proves zero roots on (0,R]. Root accepts rejection of exactly
