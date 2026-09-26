@@ -1,22 +1,23 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 26 September 2026 UTC.** RI-116's actual public-data
-context comparison is accepted: genuine normal/optimized runs, full result and
-six-artifact byte equality, complete independent custody and saved arithmetic
-reviews. This checkpoint publishes the exact descriptive result and its review
-in `docs/experiments/gwosc_off_event_context_benchmark_result_v1/`. All twelve
-original numerical gates and thresholds remain. The result is conventional
-processing-context sensitivity on already inspected public development data;
-physical calibration, covariance adequacy and a native forward map remain open.
+**Current checkpoint — 26 September 2026 UTC.** RI-115's exact native result
+is independently accepted: all six rank minors are identically zero. Genuine
+witness, normal, optimized and separate audit runs pass, with full nineteen-section
+reconstruction, sixteen root fixtures, ten gcd-family fixtures and complete
+execution-custody review. This clears the particular T1 rank obstruction;
+strict positivity and the remaining coupled parent equations still determine
+whether the fixed 28-child extension exists. No finite common-root count or
+complete positive-extension claim is made.
 
-RI-115 caller source and precise retained-engine applicability are accepted.
-The native witness and normal replay have actually completed under unchanged
-bounds; independent serial custody and the separately admitted optimized/audit
-stages remain in progress. The witness reports six identically-zero minors;
-this is provisional until complete independent arithmetic/custody acceptance.
-Even if confirmed, it leaves the fixed 28-child positive extension unresolved.
-QR's next analytic assignment follows root adjudication of that result, with
-all remaining parent equations preserved. RET alone stays paused.
+RI-117 is assigned to the existing Quantum Relativity task: formalize the
+conditional positive T1 family and address D1's complete shared-variable
+compatibility and positivity, retaining connected-parent constraints and free
+w1. Preserve all sixteen parent obligations, fixed support, seed and epsilon=1/4.
+RI-116's exact public-data comparison and six artifacts are published in
+remotely verified `c34980c`. Parallel coordinator RI-118 develops the smallest
+joint-window model and overlap correction, starting from RI-104 equation (5).
+No new empirical campaign, calibrated inference or native forward map follows.
+The wider programme remains active. RET alone stays paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -71,12 +72,14 @@ the latest assignments below and in the plan govern current work.
 | RI-108 observed qualification preparation | **Historical numerical qualification published `bf342b8`.** Both modes, 11 groups, 74 refusals and 33 artifacts retained. | Narrow unchanged-numerical applicability remains; accepted RI-114 adds fixed header qualification. RI-116 preserves both evidence sets. |
 | RI-109 native independent caller | **Result bundle published in remotely verified `c9907d6`.** Complete independent audit and restricted 27-child rejection accepted. | Preserve fixed source/results; RI-111 reduction is accepted and RI-112 is active. |
 | RI-110 observed context application | Original failed normal attempt remains immutable; separately repaired/qualified RI-116 actual retry accepted. | Preserve failed evidence and keep public development results separate from protected validation. |
-| RI-111 one-column repair | Conditional complete criterion published `eb6234b`; strict positivity and all sixteen parent requirements remain. | Complete RI-115 actual independent audit, then select the next exact analytic question. |
-| RI-112 all-record rank decision | Sources published `0719992`; actual witness and normal completed through RI-115; final native disposition pending. | Complete serial optimized custody and independently admitted auditor; no feasibility claim from a producer flag. |
+| RI-111 one-column repair | Conditional complete criterion in `eb6234b`; RI-115 confirms the all-zero necessary rank branch. Complete positivity remains open. | RI-117 tackles D1 coupled compatibility and strict positivity; retain all sixteen parent obligations. |
+| RI-112 all-record rank decision | Sources in `0719992`; exact certificate and complete independent audit accepted through RI-115. Six minors vanish identically, gcd/root count null. | Preserve the rank result; do not repeat this test or infer a complete positive repair. |
 | RI-113 observed interface repair | Six v2 sources in `408a431`; RI-114 qualification in `8479232`; RI-116 actual two-mode result accepted. | Preserve original implementation, failed RI-110 and numerical applicability limits. |
 | RI-114 interface qualification caller | Published `8479232`: both modes, all 22 cases and complete report equality; independent custody accepted. | Keep fixed qualification and numerical predecessor evidence distinct from RI-116 actual-data result. |
-| RI-116 observed caller adaptation | Actual normal/optimized result accepted with complete byte equality, endpoint validation, independent saved arithmetic and custody review. | Publish exact result and six artifacts; design joint-model and nuisance obligations starting from RI-104 equation (5) before any new measurement campaign. |
-| RI-115 native rank execution caller | Complete source and retained-engine applicability accepted; actual witness and normal completed under fixed bounds. | Root completes serial independent custody, optimized replay and separate arithmetic audit before mathematical adjudication. |
+| RI-116 observed caller adaptation | Exact result, six artifacts and independent reviews published in verified `c34980c`; both modes identical. | RI-118 advances joint-window/overlap design under explicit model and nuisance premises. |
+| RI-117 coupled positive native repair | Assigned and acknowledged by Quantum Relativity in external `ri117-coupled-positive-family-QrAaK5YQ/` after RI-115 mathematical adjudication. Analytic source only, fixed 28-child family. | Establish the symbolic positive T1 lemma and decide D1 compatibility/positivity with connected-parent variables; return contradiction or reduced remaining family. |
+| RI-118 joint-window measurement model | Stable source-only handoff in external `ri118-joint-window-design-o2rbwohc/`; complete independent design review assigned. Uses existing RI-104 equation (5); no simulation or empirical evaluation yet. | Define coherent cross-window covariance and overlap arithmetic controls; independent review precedes any coefficient evaluation or new data campaign. |
+| RI-115 native rank execution caller | All four actual stages and independent arithmetic/custody accepted. Complete nineteen-section certificate and 16+10 auditor fixtures match. | Publish exact certificate/audit and bounded review; RI-117 advances the remaining coupled proof question. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
 | RI-85 complete four-vertex cap | **Design published in verified `d1733b8`; result published `9d40744`.** The fixed 11-class construction has one nonzero harmonic direction and positive finite width gain. | Preserve the exact support and positivity premises; RI-89/91 study its continuation. |
 | RI-88 native cap checker | **Sources published `d02b4b6`; positive result and independent arithmetic review published `9d40744`.** Rank 10, nullity one; fixed finite width gain retained. | RI-95 obstruction is accepted; RI-99 is published; RI-101 supplies a signed one-layer lift; RI-102 rejects this fixed lift at 1/4; RI-103 investigates a positive repair. |
@@ -11148,3 +11151,23 @@ Native RI-115 remains in actual independent review; no producer-only result
 is promoted to a proof. The next measurement step is a bounded joint-model
 design using RI-104 equation (5) to address overlap, centering and nuisance terms. The wider
 programme remains active and RET alone remains paused.
+
+**26 September: RI-115 exact rank result accepted; RI-117 assigned.**
+All six minors are identically zero. The separately authored actual audit
+reconstructs all nineteen sections and complete certificate bytes, sixteen root
+fixtures and ten gcd-family fixtures. Complete independent execution and
+mathematical reviews pass. Null gcd/root count are deliberate; neither rejection
+nor full positive feasibility follows. See [the native result review](../track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md).
+The existing QR task is assigned RI-117, retaining free w1 and every connected
+parent condition. A local T1 witness alone is not the full extension. RI-118
+continues a separate conventional joint-window measurement design. RI-116 was
+pushed as `c34980cb05832a57a8b503a2d070ace430f54555`; remote verification
+`057fe0` matched that exact commit. No protected-validation threshold, historical
+result, support, seed or epsilon=1/4 premise changes. RET alone remains paused.
+
+RI-117 reservation acknowledged: external `ri117-coupled-positive-family-QrAaK5YQ/`
+(creation `13ba9e`); QR read the complete root adjudication and began the analytic
+coupled-parent work. RI-118 DESIGN.md is source-stable (15,602 bytes,
+`d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4`);
+independent design review is assigned. This is not source acceptance, an executed
+simulation or permission to evaluate empirical/captured coefficients.

@@ -1,0 +1,263 @@
+{
+  "schema": "ri115-independent-completed-audit-custody-review-v1",
+  "status": "PASS_COMPLETED_AUDIT_CUSTODY_ONLY",
+  "mode": "audit",
+  "reviewer": "/root/ri109_concrete_source_review",
+  "recorded_at_utc": "2026-09-26T23:17:06.506136+00:00",
+  "blocking_findings": [],
+  "source_adjudication": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/ROOT_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/ROOT_SOURCE_ADJUDICATION.json",
+    "symlinks": [],
+    "bytes": 3160,
+    "sha256": "c1a0d6bfa5b41d4755ecb8c3b4366cdb290f2f507ed8dfaea7fb3d7c8007e3c7"
+  },
+  "applicability": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_APPLICABILITY.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_APPLICABILITY.json",
+    "symlinks": [],
+    "bytes": 4660,
+    "sha256": "548c63e99560ffc10e2a9bb78f19984a68652e940b45536f82dc4aa054532ec6"
+  },
+  "root_admission": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_ROOT_ADMISSION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_ROOT_ADMISSION.json",
+    "symlinks": [],
+    "bytes": 3157,
+    "sha256": "b52f2f90d69ad122559defb8fd90b900aaf4d483c34162d6eb3f15f61255099a"
+  },
+  "freeze": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_EXECUTION_FREEZE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_EXECUTION_FREEZE.json",
+    "symlinks": [],
+    "bytes": 385886,
+    "sha256": "979943a1e70f1bcc0266e1167178cd9cfb682660541cba069504be5dacd8c8a7"
+  },
+  "authorization": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_AUTHORIZATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_AUTHORIZATION.json",
+    "symlinks": [],
+    "bytes": 285,
+    "sha256": "89e715be41aa5aa333128c055ba4bf9c15f7f55c09cb423a874993ca23b19efc"
+  },
+  "genuine_outer": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_OUTER_TOOL_RESULT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_OUTER_TOOL_RESULT.json",
+    "symlinks": [],
+    "bytes": 1025,
+    "sha256": "a4bd10cc5bbfac4eaf731524f9504c917b03553a965177b0d7a018c2f96d7424"
+  },
+  "root_complete_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_ROOT_COMPLETE_REVIEW.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_ROOT_COMPLETE_REVIEW.json",
+    "symlinks": [],
+    "bytes": 6274,
+    "sha256": "7e82c72dd3705c9c9db9b261bd3766e176c12642f537e4148ba18d4af3128f03"
+  },
+  "receipt": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/receipt.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/receipt.json",
+    "symlinks": [],
+    "bytes": 507352,
+    "sha256": "f7cdc11d51a7652a4b1b40d80339fdda0aa6ee97e319cbd31f8425cfdf419c48"
+  },
+  "outputs": {
+    "receipt.json": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/receipt.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/receipt.json",
+      "symlinks": [],
+      "bytes": 507352,
+      "sha256": "f7cdc11d51a7652a4b1b40d80339fdda0aa6ee97e319cbd31f8425cfdf419c48"
+    },
+    "stdout.log": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/stdout.log",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/stdout.log",
+      "symlinks": [],
+      "bytes": 190757,
+      "sha256": "e5066c2073990d3731099abe4129db7954e290021d812fe71958c53014c2481e"
+    },
+    "stderr.log": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/stderr.log",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/stderr.log",
+      "symlinks": [],
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "samples.jsonl": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/samples.jsonl",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/samples.jsonl",
+      "symlinks": [],
+      "bytes": 52211,
+      "sha256": "c4dfbc5b0cd9c64ca330fac48ae8e1c5ec6da2c728800ea0488903bc06d2fa9d"
+    },
+    "prepared.json": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/prepared.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/prepared.json",
+      "symlinks": [],
+      "bytes": 334359,
+      "sha256": "7d6528278ae6831df55344448e0b7fff9a69eff152c1d3e9549c64a70ce8c92a"
+    },
+    "admission.json": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/admission.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/admission.json",
+      "symlinks": [],
+      "bytes": 253580,
+      "sha256": "2995cfa9995254dba35dd3f2f8ec0860313a0eb24925b9fbb0963cb2e88d8c73"
+    },
+    "REPORT.json": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/REPORT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/REPORT.json",
+      "symlinks": [],
+      "bytes": 190757,
+      "sha256": "e5066c2073990d3731099abe4129db7954e290021d812fe71958c53014c2481e"
+    }
+  },
+  "descriptor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_INPUT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_INPUT.json",
+    "symlinks": [],
+    "bytes": 5208,
+    "sha256": "cf0148bbf75d17dad96b318dd0a284e1567978b610aafe24dc8e6771b58762bc"
+  },
+  "actual_three_mode_binding": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_BINDING.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_BINDING.json",
+    "symlinks": [],
+    "bytes": 6132,
+    "sha256": "7e0ebe85c36405143dbff61ec5a86e8f1ce346773324bf709b22b7f89b04f9e0"
+  },
+  "accepted_predecessor_custodies": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/WITNESS_ROOT_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/WITNESS_ROOT_CUSTODY.json",
+      "symlinks": [],
+      "bytes": 3827,
+      "sha256": "c067e4b502ef54e4151f0deeabf2f9c85912ea9e1d6819caaf98749c7fe562d2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/NORMAL_ROOT_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/NORMAL_ROOT_CUSTODY.json",
+      "symlinks": [],
+      "bytes": 4567,
+      "sha256": "de69fdb64e80669200adccfe802f997fe39b63b4826778885c528f5bdbae8345"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/OPTIMIZED_ROOT_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/OPTIMIZED_ROOT_CUSTODY.json",
+      "symlinks": [],
+      "bytes": 4992,
+      "sha256": "1c3c55e18aa723410808d5a07164a58249bc0104aca47648547595eef450d7fb"
+    }
+  ],
+  "full_current_snapshot": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-independent-audit-custody-bcpc3569/FULL_CURRENT_SNAPSHOT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-independent-audit-custody-bcpc3569/FULL_CURRENT_SNAPSHOT.json",
+    "symlinks": [],
+    "bytes": 292957,
+    "sha256": "58bd51554c2927ecddc8817762962fcf755dca51a9d3dc7eade87aa251d2bbf9"
+  },
+  "before_after_prepared_admission_current_identities_match": true,
+  "terminal_owned_group_absent": true,
+  "raw_census_checks": [
+    {
+      "index": 1,
+      "raw_ps_rows": 846,
+      "raw_stdout_sha256": "11d54f93af703a4dc690179405262ad6089eea9f35e8c17ec71e70b40fbc2f36",
+      "owned_rows": [
+        {
+          "pid": 47425,
+          "pgid": 47425,
+          "rss_kib": 4272
+        }
+      ],
+      "rss_bytes": 4374528,
+      "before": 0.002290417000040179,
+      "after": 0.020835166997130727,
+      "terminal_absence": false
+    },
+    {
+      "index": 2,
+      "raw_ps_rows": 846,
+      "raw_stdout_sha256": "87d3bf452e3683b96f9efd10f4480fde7263a971feaade920a714946eb214aed",
+      "owned_rows": [
+        {
+          "pid": 47425,
+          "pgid": 47425,
+          "rss_kib": 33888
+        }
+      ],
+      "rss_bytes": 34701312,
+      "before": 0.07628783399923122,
+      "after": 0.09492033399874344,
+      "terminal_absence": false
+    },
+    {
+      "index": 3,
+      "raw_ps_rows": 845,
+      "raw_stdout_sha256": "4d57de13b479e99a2e43956fde7e6c09887c7c43b023f69d3cb8ad0e05bb86a9",
+      "owned_rows": [],
+      "rss_bytes": 0,
+      "before": 0.15063249999730033,
+      "after": 0.17222312499870895,
+      "terminal_absence": true
+    }
+  ],
+  "non_monitor_events": [
+    {
+      "elapsed": 0.0019205839998903684,
+      "event": "launch",
+      "pgid": 47425,
+      "pid": 47425,
+      "timestamp": "2026-09-26T23:12:31.305467+00:00"
+    },
+    {
+      "elapsed": 0.17278608400010853,
+      "event": "terminal_poll",
+      "returncode": 0,
+      "terminal_absence": true
+    }
+  ],
+  "counts": {
+    "ordered_inputs": 634,
+    "snapshot_roles": 638,
+    "snapshot_distinct_paths": 626,
+    "historical_files": 560,
+    "raw_ps_attempts": 3,
+    "raw_ps_rows": 2537,
+    "live_samples": 2,
+    "sampled_peak_owned_group_rss_bytes": 34701312,
+    "child_elapsed_seconds": 0.172921999997925,
+    "actual_outer_chunk_id": "d7dcb1",
+    "actual_outer_exit": 0,
+    "report_role_bindings": 17,
+    "unique_report_payload_paths": 14,
+    "actual_postchecks": 15,
+    "canonical_saved_sections": 19,
+    "consumer_saved_root_fixtures": 16,
+    "consumer_saved_gcd_fixtures": 10,
+    "producer_control_declarations": 110,
+    "producer_controls_executed_by_consumer": false,
+    "new_caller_control_declarations": {
+      "native": 38,
+      "audit": 54,
+      "executed": 0
+    }
+  },
+  "whole_byte_results": {
+    "stdout_equals_REPORT": true,
+    "all_three_candidate_copies_equal_actual_witness": true,
+    "normal_equals_optimized_summary": true,
+    "saved_report_reconstruction_equals_whole_actual_witness": true,
+    "canonical_section_digest_map_matches_all19_saved_sections": true
+  },
+  "scope": "Independent completed custody and saved-byte provenance review. Every raw process census row was parsed and its owned group/RSS reconstructed. All 638 full snapshots were compared to current identities twice; all three earlier independent reviews/custodies and their frozen closures remain unchanged. Exact report binding/postcheck and canonical serialization were checked. Native coefficient, rank, pivot, gcd, endpoint, positivity and physical interpretations are left to the separate mathematical reviewer and root final adjudication.",
+  "genuine_completion_basis": "Root task reported genuine single exec d7dcb1 exit0 with no running session. Exact retained tool transcription agrees original admitted literal invocation and actual receipt digest; reviewer did not invoke a target or fabricate tool output.",
+  "fixture_claim_boundary": "Report exposes16 independently rebuilt root fixtures and10 gcd fixtures. Its110 producer refusal names/reasons are source declarations with producer_controls_executed_by_consumer=false; they are not110 consumer mutation tests. RI11538/54 new caller declarations remain unexecuted. This custody verdict does not promote any of these to new whole-caller qualification.",
+  "native_arithmetic_recomputed": false,
+  "native_mathematics_accepted": false,
+  "scientific_reconstruction_serialized_for_byte_comparison_only": true,
+  "target_rerun_import_AST_compile_probe": false,
+  "active_packet_or_repo_index_git_writes": false,
+  "execution_or_next_admission_authorized": false,
+  "programme_complete": false
+}
