@@ -1,23 +1,27 @@
 # Current QR coordination — RI-117 coupled positive extension
 
-**Current checkpoint — 26 September 2026 UTC.** RI-115's exact native result
-is independently accepted: all six rank minors are identically zero. Genuine
-witness, normal, optimized and separate audit runs pass, with full nineteen-section
-reconstruction, sixteen root fixtures, ten gcd-family fixtures and complete
-execution-custody review. This clears the particular T1 rank obstruction;
-strict positivity and the remaining coupled parent equations still determine
-whether the fixed 28-child extension exists. No finite common-root count or
-complete positive-extension claim is made.
+**Current checkpoint — 26 September 2026 UTC.** RI-118's joint-window
+covariance design is independently accepted. It proves why within-window
+marginals do not select a joint expectation, derives the exact signed overlap
+correction under an explicit synthetic shared-white model, and retains separate
+mean, covariance-model and calibration premises. All eight identities/bounds
+and twelve proposed qualification groups pass proof review; 38 reviewer-owned
+tiny matrix/support checks pass. The twelve-group qualification has not run.
+This checkpoint publishes the exact design and bounded review.
 
-RI-117 is assigned to the existing Quantum Relativity task: formalize the
-conditional positive T1 family and address D1's complete shared-variable
-compatibility and positivity, retaining connected-parent constraints and free
-w1. Preserve all sixteen parent obligations, fixed support, seed and epsilon=1/4.
-RI-116's exact public-data comparison and six artifacts are published in
-remotely verified `c34980c`. Parallel coordinator RI-118 develops the smallest
-joint-window model and overlap correction, starting from RI-104 equation (5).
-No new empirical campaign, calibrated inference or native forward map follows.
-The wider programme remains active. RET alone stays paused.
+RI-119 is assigned the smallest synthetic implementation and separately authored
+exact validator, with complete cases, outputs, refusals and resource contracts
+before actual execution. Empirical inputs, RI-116's numeric body and the RI-73
+coefficient capture remain outside that first executable closure. Any actual
+coefficient integration and physical model assessment remain separate later work.
+
+Native RI-115 is published in remotely verified `f6d486e`: six identically-zero
+minors, complete independent audit and actual custody accepted. The full fixed
+28-child positive extension remains open. QR continues RI-117's T1 positive-family
+and coupled D1/shared-parent proof in external `ri117-coupled-positive-family-QrAaK5YQ/`.
+No duplicate QR assignment or new native numerical campaign is issued.
+RI-116's descriptive public-data result is preserved in verified `c34980c`.
+The wider programme remains active; RET alone stays paused.
 
 See the native result review for exact accepted certificate and audit identities.
 QR owns external RI-117 analytic source packet `ri117-coupled-positive-family-QrAaK5YQ/` (acknowledged creation `13ba9e`). Root owns
@@ -3004,3 +3008,22 @@ coupled-parent work. RI-118 DESIGN.md is source-stable (15,602 bytes,
 `d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4`);
 independent design review is assigned. This is not source acceptance, an executed
 simulation or permission to evaluate empirical/captured coefficients.
+
+**26 September: RI-118 joint-window design accepted; RI-119 assigned.**
+The [bounded design review](../experiments/gwosc_joint_window_covariance_v1/REVIEW.md) records the
+shared-sample counterexample (identical marginals, E[V]=3/2 versus 2), signed
+neighbor overlap correction, matrix bounds, and explicit missing mean/model/
+calibration premises. Independent verdict is 14,774 bytes, SHA256
+`d3ba95ca6de6f41b320c88fd7ea5492e9c00b7be851f93a1889ec2ff5efa272f`;
+root decision is external `ri118-root-review-pbvX2sYK/RI118_ROOT_DESIGN_ADJUDICATION.json`
+(4,320 bytes, `2ce273c59668a97992270bf62ccf30b6bb6bf71c5c3c5500199ea3a902ef3a8e`).
+The 38 reviewer-only exact checks are not the future twelve-group sign-enumeration
+qualification. RI-119 source preparation is assigned; no simulation, capture
+contraction, data reclassification or physical inference is accepted here.
+QR remains active on RI-117; native result `f6d486e995bdc4af38027335b2a759790387bd3c`
+was independently remote-verified by `02be2e`. RET alone remains paused.
+
+RI-119 reservation acknowledged: external `ri119-joint-window-source-119uwunz/`
+(creation `9a003a`). The author read both acceptance records and is preparing
+a separately authored moment-algebra validator. All repository, index, git and
+actual execution decisions remain coordinator-owned.

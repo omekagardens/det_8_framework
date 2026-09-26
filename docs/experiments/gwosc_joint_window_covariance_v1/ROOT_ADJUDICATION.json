@@ -1,0 +1,64 @@
+{
+  "accepted_conditional_results": [
+    "Explicit shared-raw selector realization of the inherited RI104 expectation identity.",
+    "Two coherent shared-sample models with identical window marginals have E[V]=3/2 and 2; marginals alone do not select the joint law.",
+    "Under the declared raw-white model, E[V]=sigma^2[(n-1)g/n-2(n-1)c/n^2]+b_mu with oriented C=A J_d A^T and c=tr(C).",
+    "For d<T<2d, the Loewner bounds and |c|<=g/2 hold without positive definiteness or Gaussianity.",
+    "Mean, covariance-model error and calibration-factor contributions have explicit separate conditional premises."
+  ],
+  "accepted_design": {
+    "bytes": 15602,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri118-joint-window-design-o2rbwohc/DESIGN.md",
+    "sha256": "d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4"
+  },
+  "actual_coefficient_capture_evaluated": false,
+  "empirical_data_processed": false,
+  "implementation_clarifications": [
+    "Read equations(7) and(8) as absolute bounds on the stated covariance contribution; eta must be supplied finite and nonnegative. The design proof already supports this interpretation.",
+    "Keep the Q12 standalone algebraic factors dimensioned as one output per window; they do not change the actual Pi=H_n tensor I_8.",
+    "Freeze literal case inventories, exact expected full outputs and first-refusal labels in the future implementation source contract. The current twelve-group prose is a design, not a complete executable qualification contract.",
+    "In Q09 a transpose error can leave a scalar trace unchanged. Require the advertised full oriented block covariance and entrywise identities.",
+    "Preserve the distinction between constructing one mathematically coherent completion and identifying the physically appropriate joint law. Arbitrary added covariance blocks must still form a PSD covariance."
+  ],
+  "independent_proof_review": {
+    "bytes": 14774,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri118-independent-joint-proof-licthAD1/INDEPENDENT_PROOF_DESIGN_REVIEW.json",
+    "sha256": "d3ba95ca6de6f41b320c88fd7ea5492e9c00b7be851f93a1889ec2ff5efa272f"
+  },
+  "independent_review_checks": {
+    "completion": "7f3a71 exit 0",
+    "count": 38,
+    "evidence": {
+      "bytes": 8493,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri118-independent-joint-proof-licthAD1/TINY_EXACT_IDENTITY_CHECKS.json",
+      "sha256": "d6a734d934afe21496541893dbb7bf9b23f54910f100c97430f12ea14541ea93"
+    },
+    "meaning": "reviewer-owned tiny matrix/support identities; not sign enumeration or execution of twelve future qualification groups"
+  },
+  "native_forward_map": false,
+  "next_action": "RI119 synthetic-only implementation source and separately authored exact validator, complete fixed case/output/refusal and runtime/resource contract before actual serial qualification; later coefficient integration separate.",
+  "physical_joint_law_selected": false,
+  "programme_complete": false,
+  "prospective_groups": 12,
+  "protected_validation": false,
+  "qualification_executed": false,
+  "ret_paused": true,
+  "root_review": [
+    "Read complete design and handoff (0e3329) and independent proof verdict (db59cd).",
+    "Checked selector orientation i=j+d, average centered covariance identity, signed trace correction, disjoint support Loewner proof and n=7/6 factors.",
+    "Checked identical-marginal counterexample and exact Q02/Q03/Q05/Q07/Q09/Q12 identities analytically. No root numerical or target campaign.",
+    "Fresh scientific premise/document pins match committed source; historical context snapshots are not active execution inputs."
+  ],
+  "root_source_and_dependencies": {
+    "bytes": 4244,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri118-root-review-pbvX2sYK/SOURCE_AND_SCIENTIFIC_DEPENDENCY_CHECK.json",
+    "sha256": "f0d4d39a80929cffd32c8666103a539f217c13b96c7c4e15b69b864b91d7bf2c"
+  },
+  "schema": "ri118-root-joint-window-design-adjudication-v1",
+  "source_handoff": {
+    "bytes": 3834,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri118-joint-window-design-o2rbwohc/HANDOFF.json",
+    "sha256": "8fdbbb343be41f59f54fcce671a1ee171117665dbc92baec0b09e8c519c9d85f"
+  },
+  "status": "ACCEPT_CONDITIONAL_JOINT_WINDOW_DESIGN_ONLY"
+}
