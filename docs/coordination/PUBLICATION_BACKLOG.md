@@ -1,17 +1,19 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 26 September 2026 UTC.** The five-file RI-106
-measurement implementation is published and independently remote-verified in
-`c2c2061`; its 11 groups/74 refusals remain unexecuted. RI-108 prepares the
-qualified caller and complete closure. Complete root and independent source
-review now accept RI-107's native supervisor adaptation and separate integer-pair
-arithmetic auditor. The historical 81-dependency/32-failure gate is retained;
-root prepares the first witness admission. QR's RI-109 now prepares the exact
-independent-consumer caller, with actual custody bindings still unavailable.
-This five-path checkpoint publishes the two unchanged auditor files and three
-coordinator records. Actual native coefficients/root count remain unadjudicated;
-no positive repair, geometry/gravity or physical measurement result is claimed.
-Both substantive lanes continue; RET alone remains paused.
+**Current checkpoint — 26 September 2026 UTC.** RI-106 measurement sources
+and RI-107 native auditor sources are published in remotely verified `c2c2061`
+and `a9352cf`. The actual native witness, normal replay and optimized replay
+all completed successfully under the unchanged limits. Both saved replay
+summaries are byte-identical and report zero admissible roots for the specified
+RI-103 27-child repair. Witness and normal execution custody are accepted;
+optimized custody and independent saved arithmetic remain pending, so the
+mathematical disposition is provisional and the candidate stays unpublished.
+RI-109's complete unbound caller source is accepted; actual binding follows
+accepted three-mode custody. RI-108's actual normal fabricated qualification
+passes 11 positive groups and 74 intended refusals, retaining 33 files; complete
+independent custody/mathematics review precedes optimized admission. No new
+observed-data application has run. This checkpoint records completed attempts
+and next gates only. Both substantive lanes continue; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -5784,3 +5786,16 @@ separate normal/optimized replays, accepted genuine custody and exact independen
 caller/descriptor admission precede saved arithmetic. No support, seed, amplitude,
 scale, record, budget or threshold is changed. The native result remains open,
 measurement qualification remains separate, and the programme is not complete.
+
+**26 September: execution-progress documentation checkpoint.**
+Sources remain published in independently verified `c2c2061` (measurement) and
+`a9352cf` (native auditor). The following actual evidence is retained externally:
+three completed native producer modes, exact saved-summary equality, accepted
+witness/normal custody, and the first successful RI-108 normal qualification.
+Complete evidence pins, genuine tool references and pending independent reviews
+are recorded in REVIEW_PROGRESS.md. This checkpoint stages only the plan,
+progress and publication records. The unadjudicated native CERTIFICATE.json stays
+untracked; no scientific output is published by this checkpoint. Original review,
+historical results, all unrelated tracked/untracked edits and RET are preserved.
+Next publication of native mathematics requires optimized custody, the final
+RI-109 binding/caller admission and independent saved arithmetic acceptance.

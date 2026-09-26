@@ -1,17 +1,19 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 26 September 2026 UTC.** The five-file RI-106
-measurement implementation is published and independently remote-verified in
-`c2c2061`; its 11 groups/74 refusals remain unexecuted. RI-108 prepares the
-qualified caller and complete closure. Complete root and independent source
-review now accept RI-107's native supervisor adaptation and separate integer-pair
-arithmetic auditor. The historical 81-dependency/32-failure gate is retained;
-root prepares the first witness admission. QR's RI-109 now prepares the exact
-independent-consumer caller, with actual custody bindings still unavailable.
-This five-path checkpoint publishes the two unchanged auditor files and three
-coordinator records. Actual native coefficients/root count remain unadjudicated;
-no positive repair, geometry/gravity or physical measurement result is claimed.
-Both substantive lanes continue; RET alone remains paused.
+**Current checkpoint — 26 September 2026 UTC.** RI-106 measurement sources
+and RI-107 native auditor sources are published in remotely verified `c2c2061`
+and `a9352cf`. The actual native witness, normal replay and optimized replay
+all completed successfully under the unchanged limits. Both saved replay
+summaries are byte-identical and report zero admissible roots for the specified
+RI-103 27-child repair. Witness and normal execution custody are accepted;
+optimized custody and independent saved arithmetic remain pending, so the
+mathematical disposition is provisional and the candidate stays unpublished.
+RI-109's complete unbound caller source is accepted; actual binding follows
+accepted three-mode custody. RI-108's actual normal fabricated qualification
+passes 11 positive groups and 74 intended refusals, retaining 33 files; complete
+independent custody/mathematics review precedes optimized admission. No new
+observed-data application has run. This checkpoint records completed attempts
+and next gates only. Both substantive lanes continue; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -10700,3 +10702,82 @@ separate normal/optimized replays, accepted genuine custody and exact independen
 caller/descriptor admission precede saved arithmetic. No support, seed, amplitude,
 scale, record, budget or threshold is changed. The native result remains open,
 measurement qualification remains separate, and the programme is not complete.
+
+**26 September: completed native modes and RI-108 normal qualification.**
+The source publications `c2c2061` and `a9352cf` were committed, pushed and
+separately verified remotely. Subsequent numerical work occurred only after
+complete source review, exact concrete metadata review and root admission.
+Evidence below is under `/Volumes/AI_DATA/development/det-review-evidence/`;
+`D` denotes `ri107-root-source-review-dcc6kd6i/`.
+
+| Actual native mode | Genuine outer completion | Child seconds | Sampled peak bytes | Live / all censuses |
+|---|---|---:|---:|---:|
+| Witness | `a9f851`, exit 0 | 0.478866542 | 55001088 | 7 / 8 |
+| Normal | `70891c`, exit 0 | 0.445769708 | 58392576 | 6 / 7 |
+| Optimized | `eef7b8`, exit 0 | 0.446670209 | 58671104 | 6 / 7 |
+
+All three root reviews rebuild saved raw census membership/RSS and require
+terminal owned-group absence, unchanged inputs and actual child/outer exits.
+The 120-second/536870912-byte sampled envelope is unchanged; sampling is not a
+hard allocation cap. The scientific candidate is exactly 84435 bytes,
+`d11e4596a7447312c19b6be4e87e8c341af2e38e9d1ec658c60e1820fe39a141`.
+It equals the genuine completed witness stdout in both original and copied
+locations. Each saved summary is 790 bytes,
+`5e0a0714037918f8770428bc0c72b3544f562e844f724991c52fa767ee3747f1`.
+The producer reports zero roots on the admissible interval and rejection only
+of the prescribed RI-103 repair. Root has not accepted independent mathematics;
+the candidate is explicitly excluded from this documentation checkpoint.
+
+Completed witness custody is accepted in `D/RI107_ROOT_WITNESS_CUSTODY.json`,
+3387 bytes, `e1c8b1ad20449332c337f94515752fcd4006b95181e28ba8447e9c2a683ee31d`.
+Normal custody is accepted in `D/RI107_ROOT_NORMAL_CUSTODY.json`, 3937 bytes,
+`cbfca02e84fb36dfda9040e7cd501eeffa9e0a897ad84e99bbe2bfabe989b39c`.
+Root optimized review is `D/OPTIMIZED_ROOT_CUSTODY_REVIEW.json`, 5568 bytes,
+`1e609b04545cd5738c78efda796994a4997bad19d2a0e83a0cb8554db2a0f381`;
+its separate completed-custody review remains pending. Whole historical arrays
+81+32, source/runtime literal links and all required absences were refreshed
+before each exclusive mode admission. No run was retried or threshold changed.
+
+Complete RI-109 unbound source acceptance is
+`D/RI109_ROOT_UNBOUND_SOURCE_ADJUDICATION.json`, 3427 bytes,
+`a49a3566ed89db4502762c9e22ed59215ae1cd8549dbaa5fd3ef7ad1fd8c064a`.
+Root read all 884 current caller lines, the complete contract and changed guards;
+separate independent reviews read the predecessor and exact full delta. Root
+reconciled the same 23 unchanged blocks/five changed blocks and six ordered
+historical arrays. Actual descriptor/candidate/custody constants remain absent;
+the custody validator unconditionally refuses. The next QR assignment binds real
+completed evidence after optimized custody acceptance; no invented acceptance
+schema or hash-only arbitrary JSON is permitted.
+
+RI-108 complete caller/source acceptance is
+`D/RI108_ROOT_CALLER_SOURCE_ADJUDICATION.json`, 4170 bytes,
+`11ab4eccef36117470fdc37ad8aa530d103eec4e0c72ab5d04899bcfb7b94c86`.
+The actual immutable freeze is 79765 bytes,
+`086cc9b385ed010f771f0bf1a157d961aefe7647bb3f00b1279a0bf490f0d04b`.
+Only the reviewed template's status changes; the preparation-boundary field is
+retained as a historical source snapshot. Fresh 53/47 source pairs, 120 history
+records, 3925 runtime files/152961716 bytes and four interpreter links matched.
+Root created only the canonical mode parents/tmp; the qualifier exclusively
+created absent artifact directories. Root normal admission is
+`D/RI108_NORMAL_ADMISSION.json`, 4009 bytes,
+`124f00fef0c5e25d47db4e637beed9dc6ee375ecb894144620641db13972295f`.
+
+The genuine normal dispatch `3ac6d9` (session 30840), poll `50cbbd`, and completed
+`6c4a2c` exit 0 are exactly transcribed in
+`D/RI108_NORMAL_OUTER_TOOL_RESULT.json`, 1595 bytes,
+`8bb6d20a8a7df71df0870f5043d6d60b9177147081a6662c373881c1cc93fedd`.
+The completed report declares 11 positive groups, 39 primary plus 35 validator
+intended-code refusals, 64 corners and 33 retained files, including six complete
+application artifacts. Child time is 17.465071584 seconds, sampled peak 113728 KiB,
+and final sampling gap 0.030147584 seconds. The original 180-second/524288-KiB,
+0.1-second gap and 0.05-second monitor limits remain unchanged.
+
+A task interruption occurred after both numerical runs completed. Root verified
+that HEAD remained `a9352cf`, the index was empty, and the completed evidence
+persisted. Independent optimized-native custody and normal-measurement reviews
+had not yet produced final durable verdicts; replacement read-only reviewers
+resume those specific checks. No scientific run is repeated. Separate measurement
+reviewers cover execution custody and the complete saved fabricated arithmetic.
+Only accepted normal review permits optimized measurement admission. Actual
+observed application and independent native arithmetic remain distinct pending
+steps. RET stays paused, and neither lane is programme completion.
