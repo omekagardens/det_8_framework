@@ -1,7 +1,7 @@
 # Current QR coordination — RI-112 all-record rank/gcd source
 
 26 September 2026 UTC. RI-111's complete conditional 28-child repair criterion
-is accepted after root review of every line, complete independent proof reviews
+is published in remotely verified `eb6234b` after root review of every line, complete independent proof reviews
 and fresh premise checks. The [exact manuscript](../track_b/native_growth_one_column_repair_v1/REPAIR.md)
 retains all records, strict positivity and all other parent equations. Actual
 feasibility remains unresolved; RI-109's restricted 27-child rejection is fixed.
@@ -29,10 +29,24 @@ handoff ends that bounded worker packet, not the ongoing programme.
 In parallel RI-110's first admitted observed normal attempt failed before
 computation because both wrappers expect the wrong RI-100 success label.
 The complete failed attempt is preserved; no observed result, optimized run,
-calibration validation or native forward map is accepted. Coordinator RI-113
-diagnosis and regression contract are accepted; additive v2 source preparation
-is reserved at `ri113-interface-source-DMQoHjg2/`. The exact failure is independently
-reviewed; source/fixture acceptance and a fresh admission still precede any retry. RET alone stays paused.
+calibration validation or native forward map is accepted. Coordinator RI-113's complete additive v2 source
+repair is now independently reviewed and root-accepted. The original numerical
+path retains narrowly stated RI-108 applicability; the new interface remains
+unqualified. RI-114 reserves external `ri114-interface-caller-source-J6oVpLYq/`
+for concrete source-only preparation of the 22-case normal/optimized interface
+caller. Root decision is `ri113-root-source-review-cHqXb1ye/RI113_ROOT_SOURCE_ADJUDICATION.json`
+(7,318 bytes, `f8ce775fbbd8e23fa2c3678243bbb8243a7c5d991d5929b02d454c3d7721e77f`).
+No observed retry, active freeze or admission is issued. Source packet and all
+failed evidence remain immutable. RET alone stays paused.
+
+RI-112 has now reached immutable source handoff at the same external directory:
+`HANDOFF.json` is 15,383 bytes, SHA256
+`3beb73841911e7faafc0eb7c6121c36b5c1a990e444d171cede0856fa3d3d999`.
+Root read the complete handoff (`9293e0`) and assigned independent complete
+coordinator source review. Its existing producer/auditor/combined reviews are
+source evidence only. No source acceptance, coefficient evaluation or new
+execution admission is inferred. QR's next concrete assignment follows root
+adjudication of this predecessor; the native question stays active in review.
 
 # 26 September predecessor handoff — RI-111 one-proper-child repair
 
