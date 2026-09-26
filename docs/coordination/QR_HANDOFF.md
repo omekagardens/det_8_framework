@@ -5,7 +5,7 @@ reviews and root algebra/contract/provenance review. Root adjudication is
 `ri112-root-source-adjudication-20wp9rwb/RI112_ROOT_SOURCE_ADJUDICATION.json`
 under `/Volumes/AI_DATA/development/det-review-evidence/`: 7,884 bytes, SHA256
 `794701da153603ca765a60998a37222fabfa9ede4c340ed862f44d575fe84600`.
-The exact four-file checker/auditor/protocol bundle is in this source checkpoint
+The exact four-file checker/auditor/protocol bundle is published in remotely verified `0719992`
 at `docs/track_b/native_growth_one_column_rank_check_v1/`.
 Actual six-minor/gcd outcome remains unknown; no native coefficients or fixtures
 were evaluated. RI-111's conditional criterion and RI-109's restricted rejection
@@ -30,10 +30,11 @@ freeze/admission or run is assigned. Root owns actual acceptance, execution,
 repository/index and git. No new family/support, seed/amplitude, q6/q7 or H/z
 calculation is assigned. This source handoff boundary does not pause the programme.
 
-RI-113 is published in remotely verified `408a431`. The parallel RI-114 caller
-has passed complete independent source review; root adjudication and serial
-22-case interface qualification remain. RI-110 failure is preserved; no observed
-retry or physical/native claim follows. RET alone remains paused.
+RI-113 is published in remotely verified `408a431`. Parallel RI-114 has now passed
+both genuine normal/optimized 22-case interface runs, with full report equality
+and independent custody review. RI-116 prepares a source-only observed-caller
+adaptation in external `ri116-observed-caller-source-guicDV9v/`; no actual observed retry is admitted. RI-110 failure remains intact.
+No physical/native claim follows. RET alone remains paused.
 
 # Historical RI-112 source assignment and handoff
 
