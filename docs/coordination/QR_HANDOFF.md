@@ -1,32 +1,37 @@
-# Current QR coordination — RI-117 coupled positive extension
+# Current QR coordination — RI-120 connected-profile sensitivity
 
-**Current checkpoint — 26 September 2026 UTC.** RI-118's joint-window
-covariance design is independently accepted. It proves why within-window
-marginals do not select a joint expectation, derives the exact signed overlap
-correction under an explicit synthetic shared-white model, and retains separate
-mean, covariance-model and calibration premises. All eight identities/bounds
-and twelve proposed qualification groups pass proof review; 38 reviewer-owned
-tiny matrix/support checks pass. The twelve-group qualification has not run.
-This checkpoint publishes the exact design and bounded review.
+**Current checkpoint — 26 September 2026 UTC.** RI-117's complete conditional
+coupled-parent reduction is independently accepted. Any positive repair on the
+fixed 28-child support requires f2 constant OR f3 constant. The proof retains
+the free positive T1 family, every D1 rank branch, strict bounds and all twelve
+remaining shared-parent systems. Actual profile constancy and full feasibility
+remain open. This checkpoint publishes the unchanged analytic packet and reviews.
 
-RI-119 is assigned the smallest synthetic implementation and separately authored
-exact validator, with complete cases, outputs, refusals and resource contracts
-before actual execution. Empirical inputs, RI-116's numeric body and the RI-73
-coefficient capture remain outside that first executable closure. Any actual
-coefficient integration and physical model assessment remain separate later work.
+RI-120 is assigned to Quantum Relativity after complete root adjudication:
+connected sensitivity using only the existing forty held rows/224 slots, all
+seven V contrasts and fifteen Q2 quadratics. Analytic proof and source preparation
+come first; exact gcd/root exclusion may settle the question without evaluating
+the actual scale. No new disconnected D1 rows or numerical campaign is admitted.
+The external source reservation is `ri120-connected-sensitivity-source-xru78ysn/`.
 
-Native RI-115 is published in remotely verified `f6d486e`: six identically-zero
-minors, complete independent audit and actual custody accepted. The full fixed
-28-child positive extension remains open. QR continues RI-117's T1 positive-family
-and coupled D1/shared-parent proof in external `ri117-coupled-positive-family-QrAaK5YQ/`.
-No duplicate QR assignment or new native numerical campaign is issued.
-RI-116's descriptive public-data result is preserved in verified `c34980c`.
-The wider programme remains active; RET alone stays paused.
+RI-118's conditional joint-window design is published in remotely verified
+`d957c43`. RI-119 has delivered stable synthetic sources and a separately
+authored validator in `ri119-joint-window-source-119uwunz/`; a complete independent
+coordinator review is now active. Its qualification has not run; empirical bodies and actual coefficient capture
+remain outside that first executable closure. Native RI-115 and descriptive
+RI-116 results remain published in verified `f6d486e` and `c34980c`.
+The wider native geometry/gravity and measurement programme remains active;
+RET alone stays paused. No physical correspondence is established here.
 
-See the native result review for exact accepted certificate and audit identities.
-QR owns external RI-117 analytic source packet `ri117-coupled-positive-family-QrAaK5YQ/` (acknowledged creation `13ba9e`). Root owns
-all repository/index/git operations and any later execution admission. No new
-q6/q7 table, H/z calculation, support change or selected actual scale is assigned.
+RI-117 is immutable and accepted; its worker handoff is not a programme pause.
+QR now owns external `ri120-connected-sensitivity-source-xru78ysn/`, assigned
+following complete root and independent mathematical review. The fixed scope
+uses only existing saved C3/C4/C5/H5 rows. All-zero polynomials have null gcd/root
+count; surviving roots do not select actual rho or prove a positive repair.
+Root owns every actual admission, repository/index operation, commit and push.
+No new q6/q7 table, H/z calculation, D1 disconnected inputs, support change or
+selected actual scale is assigned. The detailed proof review is in
+[RI-117 review](../track_b/native_growth_coupled_positive_family_v1/REVIEW.md).
 
 # Historical RI-115 actual-review checkpoint
 
@@ -3027,3 +3032,38 @@ RI-119 reservation acknowledged: external `ri119-joint-window-source-119uwunz/`
 (creation `9a003a`). The author read both acceptance records and is preparing
 a separately authored moment-algebra validator. All repository, index, git and
 actual execution decisions remain coordinator-owned.
+
+**26 September: RI-117 conditional coupled proof accepted; RI-120 assigned.**
+
+The complete analytic manuscript (15,564 bytes, SHA256
+`9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194`)
+and all eight companion packet files remain unchanged. Complete root manual
+review and a noncontributing independent review found no blockers. The latter
+is 17,283 bytes, SHA256
+`0be875c17834d778fbdcdc11a14261a5caf8c5e832cf3141ea4ec8fb45c11ad6`.
+Root adjudication is 4,617 bytes, SHA256
+`862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3`,
+retained in `ri117-root-proof-review-lyl4b3a6/ROOT_ADJUDICATION.json` under
+external det-review-evidence and copied into the published proof bundle.
+
+The exact free T1 interval and zero-safe D1 classification preserve every
+shared variable. Any positive fixed 28-child repair requires at least one of
+f2/f3 to be record-constant; actual sensitivity is not yet decided. A local
+four-parent witness in the branch where both profiles are constant is not a whole-system solution.
+Twelve other parent systems and every strict inequality remain binding.
+
+RI-120 is now assigned to the existing QR task using the complete existing
+forty-row/224-slot held domain. It prepares the connected sensitivity proof or
+exact certificate/independent-auditor sources with complete zero, degree and
+root-boundary cases. No new D1 row, actual scale, numerical target execution or
+active admission is assigned. Root remains responsible for actual review,
+freezes/custody and all repository/index/git operations. The next action is
+independent review of that stable source handoff, then any separately admitted
+finite decision. RI-119 has now delivered its stable source-only packet:
+HANDOFF.json is 3,753 bytes, SHA256
+`57abc3e84de290214d7e9b6b761ecad8694bf8041a8c2f8b3d77878106ed6a64`.
+All declared source pins match. Complete independent coordinator source review
+is assigned and active, including the direct signed-output checks and all 41
+refusal declarations per implementation. No qualification result is inferred
+from source review. Physical calibration, public-development interpretation and
+a native forward map remain separate. RET alone remains paused.
