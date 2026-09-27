@@ -1,0 +1,110 @@
+{
+  "applicability": {
+    "bytes": 4388,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_APPLICABILITY.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_APPLICABILITY.json",
+    "sha256": "1e9fed6f90a9d0ca6d449d69eefe7e7ec64e350580878de893dfb647a819f92f",
+    "symlinks": []
+  },
+  "authorization": {
+    "bytes": 306,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_AUTHORIZATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_AUTHORIZATION.json",
+    "sha256": "5096fb08b3f31dcf7d939cbf30f9b58682abeba9ce93b527db36e8498dd6dc93",
+    "symlinks": []
+  },
+  "before_after_current_identities_match": true,
+  "blocking_findings": [],
+  "freeze": {
+    "bytes": 2424735,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_EXECUTION_FREEZE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_EXECUTION_FREEZE.json",
+    "sha256": "96bc2066797004219160054e929b736d9c458946e03f92216f71a02e9423bbff",
+    "symlinks": []
+  },
+  "genuine_outer": {
+    "bytes": 1036,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_OUTER_TOOL_RESULT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_OUTER_TOOL_RESULT.json",
+    "sha256": "33b23154e3709c4e761114fbfefcefc7a64f3e70906b0adb97a60c5542b044a4",
+    "symlinks": []
+  },
+  "mode": "witness",
+  "native_arithmetic_recomputed": false,
+  "native_mathematics_accepted": false,
+  "outputs": {
+    "admission.json": {
+      "bytes": 1858371,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/admission.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/admission.json",
+      "sha256": "c997f022c3fbcd95914c03743b3b50707693e83378e743112858818b91349ee6",
+      "symlinks": []
+    },
+    "prepared.json": {
+      "bytes": 2395168,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/prepared.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/prepared.json",
+      "sha256": "55e6a6bf989128c02fb0be770a53a1323ee17e873ef42fb7f60a5da0a15b1e7f",
+      "symlinks": []
+    },
+    "receipt.json": {
+      "bytes": 3716750,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/receipt.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/receipt.json",
+      "sha256": "2789a16a1b835d603a0cc2b255c2efaf43bfb500202478f90fb155e369ba7e03",
+      "symlinks": []
+    },
+    "samples.jsonl": {
+      "bytes": 205281,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/samples.jsonl",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/samples.jsonl",
+      "sha256": "f97ee3fc5366cedfee4188b5b4f95e1d7df291fcc0c73bb0959d8b3f7ab99f1d",
+      "symlinks": []
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stderr.log",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "symlinks": []
+    },
+    "stdout.log": {
+      "bytes": 233035,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+      "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+      "symlinks": []
+    }
+  },
+  "programme_complete": false,
+  "raw_census_reconstruction": {
+    "attempts": 12,
+    "child_seconds": 0.8429490000016813,
+    "live": 11,
+    "peak_rss_bytes": 62357504
+  },
+  "receipt": {
+    "bytes": 3716750,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/receipt.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/receipt.json",
+    "sha256": "2789a16a1b835d603a0cc2b255c2efaf43bfb500202478f90fb155e369ba7e03",
+    "symlinks": []
+  },
+  "root_admission": {
+    "bytes": 3181,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_ADMISSION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_ADMISSION.json",
+    "sha256": "ee0ef5ede9d9d615545f990de6492eeab360047e9e88649957ee3eec09b47890",
+    "symlinks": []
+  },
+  "schema": "ri122-root-completed-mode-review-v1",
+  "source_adjudication": {
+    "bytes": 3539,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "sha256": "2073c8b912a9caa8117a16059b7cad43f244131f83646911dfd1beb29791606e",
+    "symlinks": []
+  },
+  "status": "PASS_COMPLETED_WITNESS_CUSTODY_PENDING_INDEPENDENT_REVIEW",
+  "terminal_owned_group_absent": true
+}

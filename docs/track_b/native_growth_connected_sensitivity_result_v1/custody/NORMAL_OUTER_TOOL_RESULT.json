@@ -1,0 +1,18 @@
+{
+  "record_type": "transcription_of_genuine_exec_command_result",
+  "source": "Coordinator task tool history; actual invocation, not replay or reconstructed success",
+  "invocation": {
+    "cmd": "/usr/bin/env -i LANG=C LC_ALL=C PATH=/usr/bin:/bin TZ=UTC __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/homebrew/bin/python3 -I -S -B /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py normal",
+    "login": false,
+    "max_output_tokens": 2000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure",
+    "yield_time_ms": 1000
+  },
+  "result": {
+    "chunk_id": "bc77ab",
+    "wall_time_seconds": 0.000006833,
+    "exit_code": 0,
+    "original_token_count": 60,
+    "output": "{\"mode\":\"normal\",\"receipt\":\"/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/normal-01/receipt.json\",\"receipt_sha256\":\"530f951110b10fe6c6b3682fc065efbe77d810749e297229a7f65a6f595ea4b9\",\"success\":true}\n"
+  }
+}

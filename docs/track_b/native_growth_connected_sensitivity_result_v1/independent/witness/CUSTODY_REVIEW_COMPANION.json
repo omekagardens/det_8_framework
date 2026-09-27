@@ -1,0 +1,106 @@
+{
+  "RET_paused": true,
+  "actual_checks": {
+    "current_unique_bytes_hashed": 163547926,
+    "input_metadata_exit": 0,
+    "input_metadata_tool_chunk": "4451fb",
+    "monitor_metadata_exit": 0,
+    "monitor_metadata_tool_chunk": "74ab7c",
+    "outputs": 6,
+    "protected_roles": 3724,
+    "raw_censuses": 12,
+    "raw_events": 14,
+    "raw_rows": 9995,
+    "unique_current_paths": 3706
+  },
+  "blocking_findings": [],
+  "closed_completed_review": {
+    "bytes": 7455,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-custody-review-Ita9OhbP/WITNESS_INDEPENDENT_COMPLETE_REVIEW.json",
+    "sha256": "e344e9606a6dd4dd7820985bedf18d6b4495b5f299597c0846102df6a3c8f3c8"
+  },
+  "closed_identity_occurrences_in_card": 13,
+  "display_incident": "One result projection accidentally included all raw-row arrays and was truncated. No truncated display was used as complete read. The monitor script was reread completely in bounded chunks; exact scalar/per-attempt projections and the complete report were then read. No source/evidence or result was changed.",
+  "execution_authorized": false,
+  "native_arithmetic_accepted": false,
+  "observed_timing_and_resource_scope": {
+    "exact_receipt_child_end_reconstructed": false,
+    "interpretation": "50ms is the retained sleep target between live iterations, not a start-to-start ceiling. Sampled RSS is not a continuous hard cap. The final child-ended assignment is not separately logged; its recorded value is checked for ordering/deadline only. Native child time excludes metadata preparation/cleanup.",
+    "largest_census_seconds": 0.021638709000399103,
+    "largest_census_start_gap_seconds": 0.07539058299880708,
+    "raw_terminal_elapsed_seconds": 0.8427583340017009,
+    "receipt_child_end_elapsed_seconds": 0.8429490000016813,
+    "sampled_peak_MiB": 59.46875,
+    "sampled_peak_rss_bytes": 62357504
+  },
+  "own_read_and_check_coverage": [
+    "Read the complete75-line root completed-mode review helper as text, exact root review and genuine completion/chain records, and relevant native completed-mode schema/closed-reference guards. Did not import or execute root review helper or candidate code.",
+    "Reused my independently authenticated prior manual caller-order transcription and freshly reconstructed all3724actual role bindings from3706current full hashes/link identities. Every freeze identity and all four actual snapshot maps matched; every current pre-existing source/input also matched the pre-execution review identities.",
+    "Verified actual active freeze, authorization and root admission are byte-identical to the exact reviewed proposals. Recomputed the freeze payload hash and admission/receipt binding. Checked prepared refusal of early authority, actual admission grant, source/applicability false-execution boundaries through unchanged proposal hashes, exact argv/cwd/environment/resource limits, candidate absence and empty stderr.",
+    "Freshly hashed all six outputs twice; the receipt binds its five nonreceipt artifacts and the root review binds all six. Raw monitor checker separately refreshed its eight evidence files twice and bound the exact receipt/stdout/sample hashes.",
+    "Matched all258directory records,40absence records,two host identity observations and11system locations in each saved namespace map. Independently checked each of2988external runtime records and its final-selection stat/link record, both namespace maps, both host maps and manifest pins in both pre/post files. Every observed field is equal across pre/post; timestamps surround caller execution.",
+    "Read the complete separately authored raw monitor checker in bounded chunks and its complete report. It reconstructs all9995psrows before comparing summaries, including owned-group sums, leader/poll races, terminal absence, exact effective timeouts, event ordering and limits. No parent claim to visually read every row is substituted for that complete parser coverage."
+  ],
+  "provenance": "Root supplied actual initial tool chunk68b05f/session54903 and finalee3610/exit0. Both transcribed parts and exact literal invocation/receipt hash reconcile. Their original tool provenance remains trusted root testimony, not a new independent tool witness.",
+  "remaining_boundary": "Root alone accepts custody and decides next stage after this exact review. Native stdout remains undecoded by these reviewers; full arithmetic and independent auditor obligations remain unaccepted. No replay, candidate creation or next-stage admission was performed.",
+  "repo_or_git_edits": false,
+  "schema": "ri122-independent-witness-custody-review-companion-v1",
+  "status": "COMPLETE_CUSTODY_REVIEW_PASS_NO_SCIENTIFIC_ACCEPTANCE",
+  "supplemental_evidence": [
+    {
+      "bytes": 13691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-custody-review-Ita9OhbP/CUSTODY_INPUT_CHECK.py",
+      "sha256": "e1379c926dbc9e794a7af8073a67d0639e470b1206cde60d4dd4ea1c725a1e21"
+    },
+    {
+      "bytes": 2122526,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-custody-review-Ita9OhbP/CUSTODY_INPUT_RESULT.json",
+      "sha256": "06fbdec73ab21c9b4e91b0f5f7fc139152df02a43c6570302deb7c0c83c1f288"
+    },
+    {
+      "bytes": 14616,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-custody-review-Ita9OhbP/MONITOR_CHECK.py",
+      "sha256": "79b887e68824d1caa5aab0028611f0c01e63de9152c93681b31beadf4412e46b"
+    },
+    {
+      "bytes": 964879,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-custody-review-Ita9OhbP/MONITOR_RESULT.json",
+      "sha256": "dce52758c761f42943967db911f9fbcc7606a05e0ba03a6c2dea5c4fbae5e962"
+    },
+    {
+      "bytes": 7347,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-custody-review-Ita9OhbP/MONITOR_REPORT.md",
+      "sha256": "7f430e8faa868c04343a7f8f537ea31de52ef19f291571bfd2b4642d25e057ea"
+    },
+    {
+      "bytes": 7455,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-custody-review-Ita9OhbP/WITNESS_INDEPENDENT_COMPLETE_REVIEW.json",
+      "sha256": "e344e9606a6dd4dd7820985bedf18d6b4495b5f299597c0846102df6a3c8f3c8"
+    },
+    {
+      "bytes": 1031,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/WITNESS_GENUINE_TOOL_CHAIN.json",
+      "sha256": "a39bbf93f7e3c7352af7f5290fe7798797eaee2d874ef7b00579f468a173aba2"
+    },
+    {
+      "bytes": 7617,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/review_native_mode.py",
+      "sha256": "3e9e95b9c1537a9faa51574d828852b8d19efd85eed09839d1085f2d7423bb9b"
+    },
+    {
+      "bytes": 5924,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_COMPLETE_REVIEW.json",
+      "sha256": "f36e00c1934a3131d14418797001aee02f347e7311d437122ac13d453687ae56"
+    },
+    {
+      "bytes": 5461216,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/witness-pre-runtime/RUNTIME_METADATA_RESULT.json",
+      "sha256": "8830fceb8002b220513ff67c086117f67ea1b8da4d3dd1257e94c209deee0125"
+    },
+    {
+      "bytes": 5461216,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/witness-post-runtime/RUNTIME_METADATA_RESULT.json",
+      "sha256": "8a38e33f84494a711b71672eb99e637cc8030fd864967dc427c45f2dc8c005b4"
+    }
+  ]
+}

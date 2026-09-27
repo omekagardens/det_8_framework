@@ -1,30 +1,49 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 27 September 2026 UTC.** RI-123's concrete conventional
-joint-window application design is independently accepted. The full directed
-white-overlap matrix reduces to two small coefficient strips; the separate
-hypothetical periodic-completion comparison uses retained odd-frequency terms.
-All four RI-116 rows, uncertainty terms and missing physical premises remain.
-Exact design, proof review and root acceptance are published in
-`docs/experiments/gwosc_joint_window_application_v1/`.
+**Current checkpoint — 27 September 2026 UTC.** RI-122 independently rejects
+the complete fixed 28-child positive repair at unchanged seed, baseline and
+amplitude 1/4. Both connected profiles are nonconstant; the necessary connected
+equations contradict strict positivity. Genuine witness, both byte-identical
+producer replays, full nineteen-section independent arithmetic audit and complete
+serial custody reviews pass. Exact result and limits are in
+`docs/track_b/native_growth_connected_sensitivity_result_v1/`.
 
-RI-125 is assigned source-only implementation in external
-`ri125-joint-window-application-source-fsra3wcw/`: complete contracts, fixed
-fabricated qualification and a separately authored full-field validator precede
-any new numerical application. RI-121's actual two-mode qualification is
-published in verified `52ef4cba54461b046125bde49de7b3b4e7dadec1`.
+This closes the fixed-support feasibility question negatively. The local positive
+T1 result remains valid; individual remaining-parent feasibility was not evaluated.
+No all-support or all-size rejection, native QM, geometry/gravity or physical
+measurement result follows. RI-124 is assigned to Quantum Relativity: derive the
+complete record-contrast compensation criterion and select a justified proper-child
+support beyond the rejected family, preserving incoming closure and positivity.
+Root owns all later numerical admission and Git; no duplicate RI-122 run is assigned.
 
-Native RI-122 has genuine successful witness, normal and optimized runs; the
-two replay reports are byte-identical and report both connected profiles
-nonconstant. Witness and normal custody are independently accepted. Optimized
-custody and the separately admitted complete arithmetic audit remain in progress.
-The fixed 28-child rejection is provisional until final mathematical/custody
-adjudication. No replacement candidate or duplicate target run is assigned yet.
+RI-123's concrete measurement application design is published in remotely verified
+`5ebc8d8b0c6b0965cd0131c24bd6eb759bcfc354`. RI-125 has a sealed, incomplete,
+unexecuted source checkpoint in external `ri125-joint-window-application-source-fsra3wcw/`.
+Its handoff is 3467 bytes, SHA256
+`37fb54456a46f724a46b86661ddde512564b6ed2730750e5e811500b78db28ce`.
+Independent source review is complete in `ri125-independent-source-review-mlsKzUKA/`:
+no white-kernel formula defect found; four required coverage improvements remain.
+The review handoff is 1602 bytes, SHA256
+`1005f7cd493ea5903327d012ffec6762563054c28f4a0cc9b25ca9dfde1baadd`.
+Root disposition `ri122-root-execution-review-6whn_vky/RI125_REVIEW_DISPOSITION.json`
+is 1641 bytes, SHA256
+`8f62f70abb5d8b8048a29839628c72829908f6e0f46e824841e0328139a53aa9`.
+The new source-only successor is assigned in `ri125-white-source-completion-bg27qfdn/`:
+close asymmetric/unequal-denominator interval coverage, nonzero Q256 uncertainty
+and negative endpoints, the STRUCTURAL kernel refusal, and complete response
+threshold-boundary cases; then finish the white capture/admission/assembly path.
+The result contract, 26 fabricated recipes, 37 refusal definitions and primary
+white kernel are present; admission wrappers, periodic consumer, join, separately
+authored validator and qualifier remain unfinished. No qualification or actual
+coefficient/PSD calculation is accepted. The successor preserves this checkpoint;
+a separately authored validator, remaining periodic/join sources and complete
+source review are still required before qualification can be considered.
 
-The programme remains active. Conventional public-data development, conditional
-mathematics, calibration, native forward maps, releases and protected validation
-remain distinct. All limits and acceptance thresholds stay fixed. RET alone stays
-paused; root retains central repository/index/Git and native-admission ownership.
+QR's active RI-124 reservation is external `ri124-compensation-support-UjbAZpTk/`.
+Both lanes are under `/Volumes/AI_DATA/development/det-review-evidence/`;
+root retains the repository/index/Git reservation.
+Physical covariance, mean, calibration and a native forward map remain open.
+The programme remains active, all thresholds remain fixed, and RET alone stays paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -71,7 +90,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-122 actual witness and both producer modes succeed; root completes independent custody/audit and final adjudication. Reported restricted rejection remains provisional. QR next candidate follows that adjudication. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-122 fixed 28-child obstruction is independently accepted. QR is assigned RI-124 record-contrast compensation and complete support closure; root owns later actual admissions. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | Explicitly paused. G2 and calibration obligations remain historical open items; no RET work resumes without the user lifting that pause. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -147,20 +166,21 @@ Active file reservations, updated 27 September UTC:
 | RI-109 native independent caller | **Result bundle published in remotely verified `c9907d6`.** Complete independent audit and restricted 27-child rejection accepted. Next: Preserve fixed source/results; RI-111 reduction is accepted and RI-112 is active. |
 | RI-108 observed qualification preparation | **Historical numerical qualification published `bf342b8`.** Both modes, 11 groups, 74 refusals and 33 artifacts retained. Next: Narrow unchanged-numerical applicability remains; accepted RI-114 adds fixed header qualification. RI-116 preserves both evidence sets. |
 | RI-110 observed context application | Original failed normal attempt remains immutable; separately repaired/qualified RI-116 actual retry accepted. Next: Preserve failed evidence and keep public development results separate from protected validation. |
-| RI-111 one-column repair | Conditional complete criterion in `eb6234b`; RI-115 confirms the all-zero necessary rank branch. Complete positivity remains open. Next: RI-117 conditional coupled reduction is accepted; RI-120 addresses actual connected sensitivity. Retain all sixteen parent obligations. |
+| RI-111 one-column repair | Conditional criterion preserved; RI-122 now rejects the entire fixed 28-child family at amplitude 1/4. Next: Preserve local T1 feasibility and the negative complete-support decision; RI-124 addresses a separately declared compensation support. |
 | RI-112 all-record rank decision | Sources in `0719992`; exact certificate and complete independent audit accepted through RI-115. Six minors vanish identically, gcd/root count null. Next: Preserve the rank result; do not repeat this test or infer a complete positive repair. |
 | RI-113 observed interface repair | Six v2 sources in `408a431`; RI-114 qualification in `8479232`; RI-116 actual two-mode result accepted. Next: Preserve original implementation, failed RI-110 and numerical applicability limits. |
 | RI-114 interface qualification caller | Published `8479232`: both modes, all 22 cases and complete report equality; independent custody accepted. Next: Keep fixed qualification and numerical predecessor evidence distinct from RI-116 actual-data result. |
 | RI-116 observed caller adaptation | Exact result, six artifacts and independent reviews published in verified `c34980c`; both modes identical. Next: RI-118 advances joint-window/overlap design under explicit model and nuisance premises. |
-| RI-115 native rank execution caller | Exact result/audit and independent reviews published in remotely verified `f6d486e`. Six minors vanish identically; positive feasibility remains open. Next: Preserve completed source/results; RI-117 conditional proof is accepted and RI-120 addresses connected sensitivity. |
-| RI-117 coupled positive native repair | Complete conditional reduction and independent reviews published in remotely verified `3aeb064`. Full 28-child feasibility remains open. Next: Preserve the result; RI-120 addresses connected sensitivity on the existing held slice. |
+| RI-115 native rank execution caller | Exact six-zero-minor result and independent reviews preserved in f6d486e; its local rank conclusion remains valid. Next: RI-122 separately rejects the complete fixed 28-child extension through the connected subsystem; keep these logically distinct results. |
+| RI-117 coupled positive native repair | Conditional reduction in verified 3aeb064 retained; RI-122 certifies both connected profiles nonconstant and the resulting fixed-support contradiction. Next: The remaining individual parent systems cannot rescue this family. Keep the local T1 theorem and move to RI-124. |
 | RI-118 joint-window measurement model | Conditional design published in remotely verified `d957c43`: all eight identities/bounds, twelve group oracles and 38 tiny reviewer checks; no qualification campaign. Next: RI-123 real-operator application design is independently accepted; RI-125 prepares source under explicit covariance, mean and calibration premises. |
 | RI-119 synthetic joint-window implementation | Sources in verified `c5939d2`; RI-121 actual two-mode qualification and full saved reconstruction pass. Next: Preserve nine cases/three bounds and all 41 controls per implementation; RI-123 application design is accepted and RI-125 sources are separately assigned. |
-| RI-120 connected-profile sensitivity | Conditional actual-prefix identities and complete checker/auditor source independently accepted; unchanged 40 rows/224 slots and all 7/15 contrasts. Published with reviews in verified `fc986bf`; no actual sensitivity decision. Next: RI-122 actual producer stages are complete; full independent audit and custody adjudication remain before an accepted sensitivity decision. All unchanged branch and resource contracts remain. |
+| RI-120 connected-profile sensitivity | Sources in verified fc986bf; RI-122 actual complete certificate and separate arithmetic/custody reviews now accepted. Next: Preserve all 40 rows/224 slots, all 7/15 contrasts and unchanged branch/domain limits; no actual-scale selection or broad rejection. |
 | RI-121 synthetic qualification caller | Actual two-mode qualification and independent arithmetic/custody published in verified `52ef4cb`; complete 81253-byte reports identical. Next: Preserve exact evidence; RI-123 application design is now independently accepted. |
-| RI-122 native connected-sensitivity caller | Genuine witness/normal/optimized runs succeed and both replay reports match; both connected profiles reported nonconstant. Witness/normal custody accepted. Next: Finish optimized custody, then independently admitted full arithmetic audit and final adjudication; restricted rejection remains provisional. |
+| RI-122 native connected-sensitivity caller | All four genuine stages and complete independent reviews accepted. Exact fixed 28-child obstruction, nineteen-section audit and matching 996-byte summaries. Next: Publish accepted source/result/custody bundle; RI-124 pursues a new justified compensation criterion/support. |
 | RI-123 joint-window application design | Conditional full white-overlap and periodic-completion design independently accepted; published with proof and schema reviews. Next: RI-125 source implementation only. Physical covariance, mean, calibration and native forward-map premises remain open. |
-| RI-125 joint-window application sources | Assigned externally to ri125-joint-window-application-source-fsra3wcw; no numerical run or admission. Next: Freeze exact contracts/cases/refusals and complete primary plus separately authored validator before independent source review and qualification. |
+| RI-124 native contrast compensation | Assigned to existing Quantum Relativity after final RI-122 adjudication; analytic proof/design only. Next: Derive joint record-contrast span/intercept conditions and complete incoming-parent closure for a justified proper-child enlargement; seek positive continuation or a scoped obstruction, without new probability campaigns. |
+| RI-125 joint-window application sources | Independent review of incomplete white source found no formula defect and four qualification-coverage gaps; source-only successor assigned in ri125-white-source-completion-bg27qfdn. Next: Close F01–F04 and complete white capture/admission/assembly source; preserve original packet. Separate validator, periodic/join completion and full source review remain before qualification. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -7358,3 +7378,13 @@ was performed. Literal predecessor fields H and M remain; physical covariance,
 mean and calibration inputs are unavailable. Implementation is reserved outside
 the repository; root owns all admissions and publication. Native RI-122 serial
 arithmetic/custody adjudication continues independently.
+
+**27 September: RI-122 obstruction accepted; RI-124 assigned.**
+Both connected profiles are nonconstant throughout the admitted scale interval.
+The complete necessary subsystem contradicts strict positivity at amplitude 1/4,
+so the unchanged 28-child family is rejected. All four actual stages, nineteen
+certificate sections, sixteen root/ten family/six decision fixtures and independent
+custody/math reviews pass. Preserve the earlier T1 local positive theorem and
+all historic source/results; no wider negative or physical claim follows.
+RI-124 addresses a justified record-contrast compensation support. RI-125 continues
+independent conventional measurement source work; RET alone stays paused.

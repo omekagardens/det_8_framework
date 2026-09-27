@@ -1,0 +1,64 @@
+{
+  "applicability": {
+    "bytes": 4370,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_APPLICABILITY.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_APPLICABILITY.json",
+    "sha256": "1473b496c787b87035b7f37d3fd00acb3931c4db3f2199cc5d6ec68d192a25ee",
+    "symlinks": []
+  },
+  "authorization": {
+    "bytes": 367,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_AUTHORIZATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_AUTHORIZATION.json",
+    "sha256": "657de26e436747f1a36211adf7801e83760450bcad9c8dde8c1d176d467fecec",
+    "symlinks": []
+  },
+  "freeze": {
+    "bytes": 2436389,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_EXECUTION_FREEZE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_EXECUTION_FREEZE.json",
+    "sha256": "4aed737a4286feefe6a7ad240a4f38fb711c4d5d767d73cea6defc6c38a4505f",
+    "symlinks": []
+  },
+  "history_manifest": {
+    "bytes": 2170307,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+    "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+    "symlinks": []
+  },
+  "mode": "normal",
+  "outer_argv": [
+    "/opt/homebrew/bin/python3",
+    "-I",
+    "-S",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+    "normal"
+  ],
+  "outer_cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure",
+  "outer_environment": {
+    "LANG": "C",
+    "LC_ALL": "C",
+    "PATH": "/usr/bin:/bin",
+    "TZ": "UTC",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "outer_invocation": {
+    "cmd": "/usr/bin/env -i LANG=C LC_ALL=C PATH=/usr/bin:/bin TZ=UTC __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/homebrew/bin/python3 -I -S -B /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py normal",
+    "login": false,
+    "max_output_tokens": 2000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure",
+    "yield_time_ms": 1000
+  },
+  "retry_or_limit_relaxation_authorized": false,
+  "schema": "ri122-root-stage-admission-v1",
+  "source_adjudication": {
+    "bytes": 3539,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "sha256": "2073c8b912a9caa8117a16059b7cad43f244131f83646911dfd1beb29791606e",
+    "symlinks": []
+  },
+  "status": "ADMITTED_ONE_FROZEN_NORMAL_INVOCATION"
+}

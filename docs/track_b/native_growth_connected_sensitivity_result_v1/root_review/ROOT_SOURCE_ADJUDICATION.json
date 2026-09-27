@@ -1,0 +1,64 @@
+{
+  "accepted_sources": {
+    "audit_caller": {
+      "bytes": 98660,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db",
+      "symlinks": []
+    },
+    "caller_contract": {
+      "bytes": 18999,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "sha256": "8ff0e9960ccb08b84833d68ba07551692f94d0ea2f23304c4073044bdcc79664",
+      "symlinks": []
+    },
+    "history_manifest": {
+      "bytes": 2170307,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+      "symlinks": []
+    },
+    "native_supervisor": {
+      "bytes": 82578,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4",
+      "symlinks": []
+    },
+    "runtime_manifest": {
+      "bytes": 2862854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920",
+      "symlinks": []
+    }
+  },
+  "execution_authorized": false,
+  "history_manifest": {
+    "bytes": 2170307,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+    "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+    "symlinks": []
+  },
+  "independent_review": {
+    "bytes": 25647,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+    "sha256": "ba915fa5931ca6c4ee7f77bd856944d985acd52ea229a515cb8084c70c434b98",
+    "symlinks": []
+  },
+  "qualification_transferred_to_changed_targets": false,
+  "ri120_source_adjudication": {
+    "bytes": 4346,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+    "sha256": "35554c18567e610ce450b3e804794edba20e3d552e7119318041691655c706d5",
+    "symlinks": []
+  },
+  "schema": "ri122-root-caller-source-adjudication-v1",
+  "status": "ACCEPT_EXACT_NATIVE_CALLER_SOURCE_ONLY"
+}

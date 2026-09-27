@@ -1,0 +1,129 @@
+{
+  "schema": "ri122-independent-complete-caller-source-review-v1",
+  "status": "PASS_COMPLETE_SOURCE_REVIEW_ONLY",
+  "reviewer": "/root/ri117_connected_constraints",
+  "date": "2026-09-26",
+  "blocking_findings": [],
+  "operative_review_notice": "FRESH SOURCE-ONLY VERDICT AFTER REPAIR. The initial 20012-byte PASS (SHA256 401f38d68955ab5adf01135891377ba3f9fbaa49d0698a8c0f291b3f4746640a) was withdrawn before handoff or execution because actual OpenSSL configuration was omitted. That PASS and the subsequent 21026-byte BLOCKED card (SHA256 67a714c64c166a9c01a9eb93cc505889e2e0e5218307bad219593a7490187727) remain byte-exact in pre_config_review, with the reviewed artifacts and old contract. This fresh verdict applies only to the corrected five source identities below. No prior PASS is silently carried forward and no failed target execution is implied.",
+  "scientific_execution": false,
+  "execution_authorized": false,
+  "target_import_parse_compile_probe_run": false,
+  "scientific_operand_decoding_performed": false,
+  "changed_target_qualification_inherited": false,
+  "actual_sensitivity_decided": false,
+  "programme_complete": false,
+  "sources": {
+    "native_supervisor": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "bytes": 82578,
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4",
+      "symlinks": []
+    },
+    "audit_caller": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "bytes": 98660,
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db",
+      "symlinks": []
+    },
+    "history_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "bytes": 2170307,
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+      "symlinks": []
+    },
+    "runtime_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "bytes": 2862854,
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920",
+      "symlinks": []
+    },
+    "caller_contract": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "bytes": 18999,
+      "sha256": "8ff0e9960ccb08b84833d68ba07551692f94d0ea2f23304c4073044bdcc79664",
+      "symlinks": []
+    }
+  },
+  "decision_scope": [
+    "The missing actual OpenSSL configuration input is now captured and independently reviewed. No blocking source, fixed-inventory or interface inconsistency remains for these corrected five identities under the explicit trusted-host and external prelaunch custody premises. This is source-only acceptance, not an execution freeze, stage applicability/admission, actual custody acceptance, mathematical adjudication or measured fit.",
+    "The corrected five full source identities were independently refreshed, with every literal path component checked for symlinks and pre/post stat stability, in 2bb5b1. Corrected manifest literals and whole-byte hashes were checked in 3c82db/727410. Both callers bind the real history and corrected runtime, not pending or invented identities.",
+    "Only the five sources above are structured identity references in this review. Supporting artifacts are identified narratively below so the current five-source review closure remains acyclic. This does not erase their separately retained provenance."
+  ],
+  "independence": [
+    "I did not author either RI122 caller, CALLER_CONTRACT.md, runtime manifest/interface/scope, history constructor or final history manifest. I authored the preliminary applicability review and proposed history-extension plan, then independently reviewed their implementation.",
+    "I contributed earlier RI117 connected-parent mathematics and independent RI120 source review. The current review does not re-prove my own prior mathematical contributions or reevaluate old scientific evidence. Those are exact accepted premises.",
+    "The separate historical closure reviewer authored the runtime capture but not the history constructor or history manifest. I independently recomputed the complete current runtime file/link/directory/absence inventory to avoid relying only on its author's check."
+  ],
+  "complete_read_coverage": [
+    "RI120 ROOT_ADJUDICATION.json, RI122_ASSIGNMENT.json and all 399 lines of the bound independent owner review were read completely before current caller review.",
+    "RI115 predecessors were read completely: native source 1051 lines, audit source 1230 lines, caller contract 324 lines, REVIEW_SCOPE.md, INDEPENDENT_SOURCE_REVIEW.json and ROOT_SOURCE_ADJUDICATION.json. Their exact source identities remain preserved in the history manifest.",
+    "RI122 native source: all 1353 lines read in 6906bd, 90110b, 3a1306 and 4bd8ed. RI122 audit source: all 1547 lines read in 87ab26, 93fc5f, 96b412 and da17f8. Subsequent history-pin literals were reread in 011bc5/4e90bb. Independent exact source diffs a5dd58/b392a9 prove the configuration repair changes only the two runtime-pin literals in each already fully reviewed source; no executable body changed.",
+    "The complete corrected 302-line caller contract was read in 4612a4; complete unchanged runtime interface in a5e59c; complete corrected runtime/history scope in 85b564; complete OpenSSL configuration correction note in 8f3315; complete corrected 288-line caller source notes in ca2862. The host-platform owner decision and current review scope were read in 62c7b4 and 83a7d1. All 390 lines of the actual installed openssl.cnf were independently read in bebaef/1047bf; pinned libcrypto default-path strings were statically inspected in fd9f99.",
+    "Complete independent history closure review was read in d8c651. Runtime/history/prospective metadata was examined with bounded structural and identity queries; large metadata displays that truncated were not treated as complete reads and were replaced by exact bounded checks. No scientific terminal file body was decoded."
+  ],
+  "retained_engine_review": [
+    "Independent lexical source comparison 58ea4e confirms 33 unchanged native blocks, seven changed native blocks and ten new native blocks; 32 unchanged audit blocks, eight changed audit blocks and ten new audit blocks. No block is removed. This comparison uses textual top-level delimiters, not Python parsing or execution.",
+    "Attempt, monitor, terminate_owned, signal handling, strict metadata decoding, canonical identities and durable exclusive-write helpers are unchanged. The complete native and audit launch-to-failure-handler substrings are byte-identical to their respective predecessors, including the audit's exclusive whole-stdout REPORT copy.",
+    "The retained owned-process-group sampler still requires a live leader sample, exact /bin/ps command and Darwin RSS units, a terminal empty group, exit zero and clean durable output. The 120-second active-child deadline, 512-MiB sampled owned-group envelope, 50-ms cadence and bounded 250-ms census timeout are unchanged. Auxiliary source/metadata checking is not newly described as part of the child deadline; sampled RSS is not represented as continuous kernel-enforced memory isolation.",
+    "Exclusive attempt directories, fixed targets/argv/environment/cwd, no retry, catchable-signal handling and owned-group cleanup are retained. No measurement-lane sole-child restriction or new supervisor design was imported. Retention qualifies only the exact retained mechanisms under their prior scope, not changed scientific targets or all newly introduced guards."
+  ],
+  "source_and_authority_review": [
+    "Both callers use the same twelve fixed ordered original/copy pairs: four accepted RI120 source/protocol files and all eight exact premises. Complete byte pins, whole-copy equality and literal role/path order remain required. No old proof alias replaces a required current premise.",
+    "RI120's fixed source adjudication is authenticated and checked for its exact source-only scope: 40 held rows, 224 probability slots, seven V contrasts, fifteen Q2 contrasts, nineteen certificate sections, eighteen audit payloads/nineteen protected objects, 16 root plus 10 family plus six decision fixtures and 166 producer controls. Its outcome and execution flags cannot silently become actual sensitivity or full-repair acceptance.",
+    "The exact current source set is the five identities above. Source decisions, independent review and stage applicability bind their actual current identities while preserving execution_authorized=false and changed_target_qualification_inherited=false. Recursive reference checks reject path/byte/hash declarations outside the closed protected inventory.",
+    "Witness, normal, optimized and audit remain four sequential, independently root-authorized stages. Each successor requires actual prior receipts, root admissions, literal genuine outer-tool invocation/completion, complete root and independent reviews, current input identities, live/terminal sampled custody and accepted predecessor custody. No caller creates missing authority or infers it from a source-only document.",
+    "The native candidate contract retains whole-byte equality, distinct literal paths and genuine exclusive-copy custody. It does not invent a four-copy physical-inode guard. Native validators do not decode witness/candidate scientific bodies."
+  ],
+  "audit_specific_review": [
+    "Preparation authenticates the two manifests and caches a real bound audit descriptor/candidate/custody configuration before allocating Attempt. The executing argv is derived from that one authenticated actual binding. Missing future evidence cannot be replaced by source-only placeholders.",
+    "The descriptor is exact: eight premise files plus candidate, three accepted source references, executing auditor and five ordered custody dependencies. This is eighteen distinct payload paths plus the separate descriptor. All nineteen must be positive bounded regular nonsymlink literal files; device/inode pairs must also be distinct. Full five-field byte identities are checked again after the physical-alias guard.",
+    "All native producer freezes, prepared/admission maps, before/after receipts, output identities, actual sampled custody and serial predecessor relationships are reconciled with current identities. Namespace evidence from each producer is compared with the same expected runtime map; source-only acceptance does not substitute for any completed stage.",
+    "The original genuine completion output is interpreted only as the caller's custody success record, not as scientific mathematics. Saved scientific stdout/candidates/reports remain opaque to these caller validators. Actual future consumer arithmetic and complete saved-output adjudication remain separate obligations."
+  ],
+  "runtime_closure_review": [
+    "Independent corrected fresh check 1273ba rehashed all 2988 runtime files, resolved every literal symlink chain and checked pre/post file-stat/link stability. It independently read every one of 258 directory identities twice, including exact names/kinds/link targets, and checked all 40 required absences with lstat ENOENT. The corrected manifest was unchanged before/after; zero errors were returned. This was read-only opaque metadata/hash work, not executing or importing the target, caller or Python runtime.",
+    "Independent repair checks 6ec9b4/51763c verify all 2986 previous file identities, all 256 previous directory identities and all 40 absences remain exact. Only openssl.cnf, legacy.dylib and their two directory observations are added. Current roles and paths are sorted/unique, totaling 103009117 literal-file bytes and 3526 directory members. Earlier independent stdlib/Resources checks remain applicable to the identical old entries: all 1831 source files, all 484 extant caches (309 normal and 175 opt-1), 76 extensions and complete recursive coverage except the explicitly excluded site-packages link target. Alias namespace roots resolve to the captured canonical stdlib. Top-level sibling membership is not a claim to hash unrelated sibling content.",
+    "All 87 static image paths and every observed non-system dependency path are captured. Independent e52af0 verifies all 86 old graph rows unchanged and every new image/dependency path closed. Independent static legacy-module load inspection 9ef4cb confirms only captured Cellar libcrypto and trusted Apple libSystem. Six external Homebrew dependency images retain their literal aliases; the additional provider is conservatively captured, not asserted active. No unresolved non-system dependency remains. Frozen-module backing, launcher, Python.app executable/resources and installed configuration are captured; this is not a measured imported-module list.",
+    "The authorized trusted-host boundary is explicit: pinned application/interpreter runtime under the Darwin kernel, loader and Apple shared-cache premise, not a complete OS image. Visible uname, build/architecture, authenticated SystemVersion.plist and eleven named system-location observations are retained. Ten system names are absent as ordinary files; /usr/lib/dyld is a regular file. Neither state establishes cache membership, which remains uninspected. No Homebrew dependency receives the Apple-system exception.",
+    "Static installed-layout justification and the fixed -I -S -B flags exclude ordinary user/script/site path additions; -O is confined to the optimized child. Existing bytecode is captured because -B suppresses writes rather than reads. No measured sys.path, independent frozen-getpath proof or arbitrary later dlopen closure is claimed. Actual default OpenSSL configuration consultation by this hashing workload is expressly inside the repaired closure, not dismissed as arbitrary behavior.",
+    "The retained sys.executable guard expects the same wrapper identity as the accepted predecessor. Both wrapper and Python.app branches are captured. No concrete incompatibility was identified, but current startup is unmeasured; an actual future invocation must satisfy the guard and refuse if it does not. Past custody and identical interpreter bytes are support for narrow applicability, not a new probe."
+  ],
+  "first_refusal_and_postflight_review": [
+    "Runtime/history preparation failure occurs before Attempt allocation and does not manufacture admitted custody. Once Attempt exists, ordinary file and independent namespace postchecks are attempted in finally. A later mismatch adds an error only if no original error exists, retaining the first refusal.",
+    "Namespace snapshots individually attempt all declared directories, absences, uname, version plist and ordered system locations. Permission/unavailable/error observations remain failed observations; they do not become verified absence. Expected, before, pre-admission and after maps must agree for success, and complete maps are retained in prepared/admission/receipt evidence.",
+    "No target or shared scientific helper is first imported in cleanup. The new plistlib import is top-level. Actual installed source was inspected: plistlib imports ParserCreate at line 70 and xml.parsers.expat imports pyexpat at top level; load/loads/parser paths do not first import Expat in the postflight path. This resolves the specific lazy-import concern for these pinned sources, not for arbitrary Python implementations.",
+    "An unentered or failed admission cannot become success through cleanup. Output, receipt, fsync or cleanup failure remains failure; ordinary postchecks are not claimed to guarantee durable evidence against process kill, power loss, hostile filesystem substitution or failure of the trusted host itself. No new fault-execution campaign was performed."
+  ],
+  "history_and_inventory_review": [
+    "Own metadata checks b537ad/7ae703 verify all 560 old full identities are exactly retained, all 560 qualified base-role/path/current-role mappings are valid, all 699 current paths and roles are sorted/unique/sequential, all 88 seeds are closed and all 12767 grouped metadata reference locations resolve within the new dictionary/role domain. No new RI116/OBSERVED measurement path was introduced.",
+    "The complete independent history closure review, SHA256 42ea7e3233ca8d6aaba11b028f3aa6b51a26759891a2a9bdbcf15c4721ccc3e0, reports its separate fresh opaque rehash of all 699 files and complete independent reconstruction of the 72 permitted metadata sources. Its reconstructed occurrence multiset exactly matches the compressed manifest provenance, including declared-key subsets and multiplicity. I read the full review and its limitations, rather than claiming to have independently repeated that entire 72-source traversal.",
+    "The immutable old manifest preserves its six arrays of lengths 81/32/20/32/14/73, 110 ordered RI109 memberships, three failed-native groups, 33 incident groups and old 4124-entry dictionary in its own namespace. Missing original chunks and superseded references remain historical disclosures. New roles and the new 2834-entry dictionary do not renumber old meanings. The 13328 total declarations comprise 12767 new metadata locations, 560 inherited declarations and the base-manifest identity.",
+    "Own corrected prospective check 55d3c5 reconciles all new runtime/history ordered slices and every count, unique-path and literal-alias summary; all nonruntime stage role/path entries are unchanged. Inputs/complete bindings are witness 3720/3724, normal 3739/3743, optimized 3753/3757 and audit 3770/3774. Prefix/suffix rules match the fully read callers. Complete unique-path counts are 3706/3725/3739/3755, not older candidate or RI115 counts.",
+    "The final corrected prospective inventory is narrative support only: 1155753 bytes, SHA256 decc33d7cc643220c3dcdca76b079899e0ab2898cbf4d3230b656732bf6c6e5f, independently refreshed in 766426. Its absence observation remains restricted to 78 fresh E122 execution paths, not historical paths or future guarantees. It creates no freeze or identity for missing future evidence."
+  ],
+  "qualification_boundary": [
+    "A future admitted RI120 producer witness/replay executes its actual 16+10+6 fixtures and 166 refusal controls. The independent auditor reconstructs the 32 fixtures and complete certificate, but does not execute producer mutations merely by repeating their labels.",
+    "The caller's 45 native and 62 audit control declarations are source-level refusal-surface declarations, not executed qualification. New runtime/source-binding/descriptor-alias/namespace guards and consumer failure branches are source-reviewed here and remain unexecuted.",
+    "Actual future good-path custody supports only that actual path. If the root owner later requires runtime qualification of a particular changed refusal surface, it requires an explicit narrowly scoped additional authorization; neither inherited engine qualification nor this review silently supplies one. No fake custody, harness, active freeze, admission or retry has been created."
+  ],
+  "review_incidents_and_resolutions": [
+    "Several initial metadata display projections were oversized and truncated; no truncated output was used as full coverage. Bounded exact structural queries supplied the required facts. A guessed history-review filename was absent; the actual listed independent history closure review was then read completely.",
+    "An initial broad membership query treated every root-level sibling and configured-prefix alias as a separate recursively hashed input and used directory instead of the declared dir kind. That reviewer query was not the runtime contract. The corrected canonical stdlib/Resources check and independent full actual runtime recomputation passed without any manifest change.",
+    "Root and runtime author first corrected scope prose stating all eleven system locations were absent; the manifest had always correctly marked /usr/lib/dyld regular_file. The current post-configuration-repair scope is SHA256 4d33bc64cd000a3725156c17622a9ca4dec533b33fdb1cf3aa86b06b73de0792, completely reread in 85b564. The eleven location observations and host premise remain unchanged; legacy is added only to the libSystem source-image list.",
+    "The prospective inventory's first draft selected 165 historical paths by an overbroad future-name pattern. Its author restricted the observation to the actual E122 prefix and disclosed the correction before this verdict. No caller source, real execution outcome or history identity was changed by that metadata correction."
+  ],
+  "openssl_reopening_and_repair_review": [
+    "The initial source-only PASS was incorrect about the exclusion of actual OpenSSL configuration and was withdrawn before any handoff seal or target execution. Both the initial PASS and explicit blocked state, with their original candidate artifacts, remain preserved. Independent opaque check fcaacd verified all eleven preserved files against the updated preservation record with zero errors. The present verdict is a new review of repaired identities, not retroactive validation of the omitted input.",
+    "Independent installed hashlib.py reading shows import-time use of _hashlib. CPython v3.14.0 Modules/_hashopenssl.c uses default-context provider enumeration and digest fetching. OpenSSL 3.6.0 crypto/provider_core.c requests configuration initialization for default-context enumeration; crypto/conf/conf_mod.c selects OPENSSL_CONF or the compiled default location. Primary source links: https://raw.githubusercontent.com/python/cpython/v3.14.0/Modules/_hashopenssl.c ; https://raw.githubusercontent.com/openssl/openssl/openssl-3.6.0/crypto/provider_core.c ; https://raw.githubusercontent.com/openssl/openssl/openssl-3.6.0/crypto/conf/conf_mod.c . These are static source correspondence, not a measured or formally matched installed-binary execution trace.",
+    "Actual pinned libcrypto strings identify OPENSSLDIR=/opt/homebrew/etc/openssl@3 and MODULESDIR=/opt/homebrew/Cellar/openssl@3/3.6.0/lib/ossl-modules. Full local openssl.cnf reading establishes only the default-provider initialization route, with no active include, external module directive, explicit provider activation, engine section or external OID file. The example FIPS include and activation lines are comments. The default-provider builtin path is supported by https://raw.githubusercontent.com/openssl/openssl/openssl-3.6.0/crypto/provider_predefined.c and the captured libcrypto; no invented external default-provider file is required.",
+    "The mandatory configuration is now byte-pinned, with complete literal path identity and exact parent directory membership. The sole installed provider file legacy.dylib and its exact directory are also conservatively captured; its activation is not claimed. TLS/CA/CT-log/private/backup/engine content is not a hashing dependency merely because its name appears in an inactive example section or adjacent directory. No active include reaches those files. Changing configuration, environment or workload requires renewed closure review.",
+    "The fixed environment remains unchanged and excludes OPENSSL_CONF, OPENSSL_CONF_INCLUDE, OPENSSL_MODULES and OPENSSL_ENGINES. No configuration-suppression flag, provider execution, new wrapper or fault harness was introduced. Full explanatory correction note SHA256 cb3466254a2f88ba68373bd402d104b100bfe25f2c9047c6e8ba9ecc4435a267 and final source notes SHA256 82d86a10609589efe4b837414736fc3a307d3e30021b3e706270f3b7e6a20fd4 were read completely and independently rehashed.",
+    "Bootstrap is explicitly external: top-level hashlib initialization occurs before caller self-checks. Before any future Python launch, root must independently authenticate the actual pinned interpreter/application runtime, crypto configuration/provider surface, exact namespace, authorized host premises and fixed launch environment. The current contract makes that prelaunch custody load-bearing. In-process pre/admission/postflight checks supplement it but cannot retroactively authenticate already-loaded bootstrap or prove absence of changes between observations. No hostile-host, sandbox or cryptographic OS identity claim is added."
+  ],
+  "final_boundary": "Fresh complete source-only review passes for the corrected five identities with the explicit trusted-host and external runtime/configuration prelaunch custody premises. This card does not itself perform or authorize root source adjudication, stage applicability, genuine sequential execution, retry or mathematical/custody acceptance. Scientific outcomes, resource fit, full repair and programme completion remain undecided here. No target or OpenSSL/Python/provider execution occurred. RET, measurement, clocks and book work remain untouched."
+}

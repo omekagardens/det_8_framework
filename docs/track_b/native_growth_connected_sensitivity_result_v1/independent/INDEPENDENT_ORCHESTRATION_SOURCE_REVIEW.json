@@ -1,0 +1,188 @@
+{
+  "active_cards_created": false,
+  "blocking_findings": [],
+  "contract_and_inventory_pins": [
+    {
+      "bytes": 18999,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "sha256": "8ff0e9960ccb08b84833d68ba07551692f94d0ea2f23304c4073044bdcc79664"
+    },
+    {
+      "bytes": 5101,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_INTERFACE.md",
+      "sha256": "f3c6d78e2687d4bda6dad5f97909608afcb9c0eec47ccc822580cd860b343679"
+    },
+    {
+      "bytes": 1155753,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/PROSPECTIVE_STAGE_INVENTORY.json",
+      "sha256": "decc33d7cc643220c3dcdca76b079899e0ab2898cbf4d3230b656732bf6c6e5f"
+    },
+    {
+      "bytes": 82578,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4"
+    },
+    {
+      "bytes": 98660,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db"
+    },
+    {
+      "bytes": 23450,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HANDOFF.json",
+      "sha256": "28acf383f4d70d08a9d2965b8665e2969e4e91e817f0edf3699acaf16b0df474"
+    },
+    {
+      "bytes": 19220,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/CALLER_CONTRACT.md",
+      "sha256": "a283f82da1e696f468d281d7824d650ae04e87d0fdb794d625c340321d09efa2"
+    },
+    {
+      "bytes": 11664,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/AUDIT_CONTRACT.md",
+      "sha256": "f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab"
+    }
+  ],
+  "coverage": {
+    "complete_contract_read": [
+      "RI122 CALLER_CONTRACT.md",
+      "RI122 RUNTIME_INTERFACE.md",
+      "retained RI115 CALLER_CONTRACT.md",
+      "RI120 AUDIT_CONTRACT.md"
+    ],
+    "complete_source_read": [
+      "native_serial.py",
+      "prepare_native_audit.py",
+      "metadata.py",
+      "review_native_mode.py",
+      "check_native_metadata.py"
+    ],
+    "fresh_complete_sealed_caller_rereview": false,
+    "prospective_inventory": "all four ordered arrays parsed as metadata; all role and unique-path counts independently counted; source construction and final four roles compared",
+    "sealed_caller_targeted_text_review": [
+      "supervise.py argv_for/prior_paths/input_paths/complete_paths/certificate_absence/runtime_expected_namespace/validate_freeze/validate_authorization",
+      "launch_audit.py mode_paths/base_paths/native_paths/input_paths/preparation_ready/argv_for/validate_freeze/validate_authorization and completed custody review binding sections"
+    ]
+  },
+  "findings": [
+    {
+      "assessment": "Normal preparation requires accepted witness custody before exclusive candidates/addendum/candidate custody are created. Optimized preparation requires accepted normal custody. Only exact saved witness bytes are copied; normal/optimized use the fixed checker with only the optimized child adding -O. Caller prerequisite validators independently enforce the complete predecessor chain.",
+      "topic": "sequential production"
+    },
+    {
+      "assessment": "The inherited witness freeze is adapted for fixed argv, mode, attempt directory and complete ordered current inputs. Authorization binds canonical compact freeze without authorization; the freeze then pins authorization. Current ROOT_ADMISSION stays outside its own freeze. Native authorization retains addendum_sha256; audit uses its distinct five-key RI95 authorization.",
+      "topic": "freeze and authority"
+    },
+    {
+      "assessment": "Six descriptor keys; files contains nine roles (eight premises plus candidate), not seven. Three accepted source roles, one audit_source and five correctly ordered custody dependencies yield eighteen payloads and nineteen protected objects including descriptor. No RI115 premise aliases remain.",
+      "topic": "audit descriptor count"
+    },
+    {
+      "assessment": "AUDIT_BINDING has exact substituted RI122 fields and audit_admitted=false; it binds all three real candidates, custodies and genuine completions, RI120 decision and history. Applicability selects launch_audit/auditor and descriptor byte/hash argv. The seven audit evidence outputs are the retained six plus REPORT.json; the reviewer requires whole REPORT/stdout equality and its receipt identity. Producer completed reviews remain exactly six outputs.",
+      "topic": "audit binding and outputs"
+    },
+    {
+      "assessment": "Audit requires 3770 ordered input roles and 3753 unique input paths, exactly matching the sealed inventory; complete snapshots add four roles with legitimate interpreter/supervisor aliases. Root helpers use inventory order; actual callers independently reconstruct and check exact order and paths.",
+      "topic": "prospective inventory"
+    },
+    {
+      "assessment": "Fresh root pre-issuance checks compare pinned handoff/runtime/history, full declared file identities, directories, absences, uname, SystemVersion values and system location status. Caller snapshots repeat expected/current runtime namespace at preparation, admission and finally. The saved reviewer expects all four namespace maps and all before/after/current file bindings to agree. No live runtime probe or hermetic Apple cache claim is introduced.",
+      "topic": "metadata and namespace"
+    },
+    {
+      "assessment": "Source checks genuine outer invocation/completion against admission, successful zero child/outer status, all outputs, ordered snapshots, freeze payload, raw ps census reconstruction, live/terminal ownership, sampled RSS and deadline. It preserves native 120s/512MiB/50ms/250ms bounds and does not import measurement monitoring limits. Optimized full stdout equality is explicit. Scientific correctness remains false/pending.",
+      "topic": "actual saved custody reviewer"
+    },
+    {
+      "assessment": "Use these root metadata helpers with optimization disabled. Their Python assertions are active review/issuance conditions; -O belongs only to the separately specified optimized scientific child. This is an invocation prerequisite, not a changed target or new scientific threshold.",
+      "topic": "assert-based root helpers"
+    },
+    {
+      "assessment": "These are root-owned orchestration aids for already admitted exact predecessor records, not hostile-input admission replacements. prepare only checks the predecessor status locally, and accept relies on the separately completed root/peer review bodies; downstream sealed caller validators still strictly enforce every ancestry schema and current identity. Preserve genuine independent review and no retry/manual success synthesis.",
+      "topic": "trusted root workflow"
+    }
+  ],
+  "native_sensitivity_result_claimed": false,
+  "new_qualification_claimed": false,
+  "remaining_actions": [
+    "Root alone adjudicates genuine witness custody before normal preparation.",
+    "Root separately reviews each actual native completion and independent custody before advancing.",
+    "Audit is admitted only after all three genuine producer custodies, exact candidate identity and whole normal/optimized equality.",
+    "Independent mathematical saved audit and final root scientific acceptance remain separate from all custody-only records."
+  ],
+  "repository_or_git_mutation": false,
+  "schema": "ri122-independent-root-orchestration-source-review-v1",
+  "scientific_execution": false,
+  "source_bytes_unchanged_during_review": true,
+  "sources": {
+    "check_native_metadata.py": {
+      "bytes": 5866,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/check_native_metadata.py",
+      "sha256": "a18df5ed070c018db8c22a957f5f58be8d7ae68884a7da193489fa7b2118c330"
+    },
+    "metadata.py": {
+      "bytes": 3144,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+    },
+    "native_serial.py": {
+      "bytes": 6587,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/native_serial.py",
+      "sha256": "fdd9dacae30f7a9b98819ae3882230d8d4d75b408d8e003682204867f8fc8c80"
+    },
+    "prepare_native_audit.py": {
+      "bytes": 5243,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/prepare_native_audit.py",
+      "sha256": "45ee1f5daf745bdb3d6c1d69f66772e92fd58e23906771a8ce177c37415724af"
+    },
+    "review_native_mode.py": {
+      "bytes": 7617,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/review_native_mode.py",
+      "sha256": "3e9e95b9c1537a9faa51574d828852b8d19efd85eed09839d1085f2d7423bb9b"
+    }
+  },
+  "stage_counts": {
+    "audit": {
+      "complete_protected_order": {
+        "roles": 3774,
+        "unique_literal_paths": 3755
+      },
+      "input_order": {
+        "roles": 3770,
+        "unique_literal_paths": 3753
+      }
+    },
+    "normal": {
+      "complete_protected_order": {
+        "roles": 3743,
+        "unique_literal_paths": 3725
+      },
+      "input_order": {
+        "roles": 3739,
+        "unique_literal_paths": 3722
+      }
+    },
+    "optimized": {
+      "complete_protected_order": {
+        "roles": 3757,
+        "unique_literal_paths": 3739
+      },
+      "input_order": {
+        "roles": 3753,
+        "unique_literal_paths": 3736
+      }
+    },
+    "witness": {
+      "complete_protected_order": {
+        "roles": 3724,
+        "unique_literal_paths": 3706
+      },
+      "input_order": {
+        "roles": 3720,
+        "unique_literal_paths": 3703
+      }
+    }
+  },
+  "status": "PASS_BOUNDED_ORCHESTRATION_SOURCE_REVIEW_ONLY",
+  "target_import_compile_parse_probe_or_run": false
+}

@@ -1,0 +1,266 @@
+{
+  "absence_observations": [
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_EXECUTION_FREEZE.json"
+    },
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_AUTHORIZATION.json"
+    },
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_ADMISSION.json"
+    },
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01"
+    },
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CERTIFICATE.json"
+    },
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/CERTIFICATE.json"
+    },
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CANDIDATE.json"
+    },
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/normal-01"
+    },
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01"
+    },
+    {
+      "ENOENT": true,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01"
+    }
+  ],
+  "active_admission_created": false,
+  "actual_additional_checks": {
+    "copies_metadata_exit_code": 0,
+    "copies_metadata_tool_chunk": "c7cd01",
+    "proposal_metadata_exit_code": 0,
+    "proposal_metadata_tool_chunk": "e6d368",
+    "proposal_observation_end": "2026-09-27T02:04:58.464332+00:00",
+    "proposal_observation_start": "2026-09-27T02:04:57.937736+00:00"
+  },
+  "blocking_findings": [],
+  "candidate_interpreter_or_target_invoked": false,
+  "checked_evidence": [
+    {
+      "bytes": 7611,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/prepare_witness.py",
+      "sha256": "3f9885785bc739bc1e7af80094091244bf5ed8127c075485ca7abdd9bd115c96"
+    },
+    {
+      "bytes": 3144,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+    },
+    {
+      "bytes": 5866,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/check_native_metadata.py",
+      "sha256": "a18df5ed070c018db8c22a957f5f58be8d7ae68884a7da193489fa7b2118c330"
+    },
+    {
+      "bytes": 3172,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/ROOT_SOURCE_AND_APPLICABILITY_REVIEW.json",
+      "sha256": "22aa082109b294e52823fdc4e580d5f2080a0fb76df10dd0de79199ad5da909e"
+    },
+    {
+      "bytes": 2958209,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/ROOT_FRESH_METADATA.json",
+      "sha256": "450e35bb92a6e8cdad2fef111d9cb28d8e35352ec394e0e93a054af0ecf93335"
+    },
+    {
+      "bytes": 11611,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/EXCLUSIVE_SOURCE_AND_PREMISE_COPIES.json",
+      "sha256": "c5a7d5dfb8131a6a28330a97ade9671d2c772c83a767cc0164f761a82f79636d"
+    },
+    {
+      "bytes": 2424735,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/WITNESS_FREEZE.proposal.json",
+      "sha256": "96bc2066797004219160054e929b736d9c458946e03f92216f71a02e9423bbff"
+    },
+    {
+      "bytes": 306,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/WITNESS_AUTHORIZATION.proposal.json",
+      "sha256": "5096fb08b3f31dcf7d939cbf30f9b58682abeba9ce93b527db36e8498dd6dc93"
+    },
+    {
+      "bytes": 3181,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/WITNESS_ADMISSION.proposal.json",
+      "sha256": "ee0ef5ede9d9d615545f990de6492eeab360047e9e88649957ee3eec09b47890"
+    },
+    {
+      "bytes": 3539,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+      "sha256": "2073c8b912a9caa8117a16059b7cad43f244131f83646911dfd1beb29791606e"
+    },
+    {
+      "bytes": 4388,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_APPLICABILITY.json",
+      "sha256": "1e9fed6f90a9d0ca6d449d69eefe7e7ec64e350580878de893dfb647a819f92f"
+    },
+    {
+      "bytes": 1155753,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/PROSPECTIVE_STAGE_INVENTORY.json",
+      "sha256": "decc33d7cc643220c3dcdca76b079899e0ab2898cbf4d3230b656732bf6c6e5f"
+    },
+    {
+      "bytes": 23450,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HANDOFF.json",
+      "sha256": "28acf383f4d70d08a9d2965b8665e2969e4e91e817f0edf3699acaf16b0df474"
+    },
+    {
+      "bytes": 82578,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4"
+    },
+    {
+      "bytes": 98660,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db"
+    },
+    {
+      "bytes": 18999,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "sha256": "8ff0e9960ccb08b84833d68ba07551692f94d0ea2f23304c4073044bdcc79664"
+    },
+    {
+      "bytes": 2862854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920"
+    },
+    {
+      "bytes": 2170307,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c"
+    },
+    {
+      "bytes": 25647,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "ba915fa5931ca6c4ee7f77bd856944d985acd52ea229a515cb8084c70c434b98"
+    },
+    {
+      "bytes": 16810,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-proposal-review-PZgqvDIS/PROPOSAL_METADATA_CHECK.py",
+      "sha256": "30c89c17e4896a5359c49b09e64bcc84f451bb0dd42c5333b01109a692c5df90"
+    },
+    {
+      "bytes": 4231614,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-proposal-review-PZgqvDIS/PROPOSAL_METADATA_RESULT.json",
+      "sha256": "1d6106e709f02a281297d88077923b93551f0930b10e04ca7a5a906c0f530a3c"
+    },
+    {
+      "bytes": 16800,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-proposal-review-PZgqvDIS/PROPOSAL_METADATA_CHECK.initial.py",
+      "sha256": "a1612c50a7f8cf0f5c66fd9277711b6f1aba0f0d55b7dcfe1770e15c04edc943"
+    },
+    {
+      "bytes": 852,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-proposal-review-PZgqvDIS/REVIEW_INCIDENT.json",
+      "sha256": "b8059b2f6fb68138d9eef27488088556eeb3c5df9c14afd3795ca0fa00220aea"
+    },
+    {
+      "bytes": 10091,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-proposal-review-PZgqvDIS/COPIES_CHECK.py",
+      "sha256": "72677f2d728fc96f81b6a16ab53563952bd1bb43e0cd9c4c7d420f1d634c46df"
+    },
+    {
+      "bytes": 100132,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-proposal-review-PZgqvDIS/COPIES_RESULT.json",
+      "sha256": "1874708c42585bf306f8535cfb5d3711258d07f503b74aa96a36004f5be34e4c"
+    },
+    {
+      "bytes": 5817,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-witness-proposal-review-PZgqvDIS/COPIES_REPORT.md",
+      "sha256": "ff6b491da8a3fcf366a175e16a227f5d1ab367656249929f198fabc981590ef6"
+    }
+  ],
+  "complete_read_coverage": [
+    "Entire prepare_witness.py (62 lines), metadata.py and check_native_metadata.py (101 lines), entire ROOT_SOURCE_AND_APPLICABILITY_REVIEW.json, actual source/applicability cards and complete small authorization/admission proposals were read as text or administrative JSON.",
+    "The complete 3,720-entry freeze proposal was administratively decoded and every ordered role/path/identity checked by independently authored metadata code. It was not treated as completely visually read from a truncated multi-megabyte display.",
+    "The caller had previously received my full 1,353-line native and 1,547-line audit textual review. For this proposal I reread fixed pairs/constants, input_paths/complete_paths, source/applicability validators, bind_all_refs, validate_freeze/authorization and completed-mode root-admission binding. No caller was parsed as code, imported, compiled or run.",
+    "A distinct reviewer read both root metadata helper sources and independently reconciled every saved ROOT_FRESH_METADATA record. I read their complete COPIES_REPORT.md. Their freshly executed copy/source metadata checks are separately scoped from my complete witness-input refresh."
+  ],
+  "copies_and_fresh_runtime": [
+    "A separate independent reviewer confirmed all twelve actual original/copy pairs, twenty-four distinct literal paths and five current source identities with two complete stable hash/link/stat passes. The twenty-four paths total 4,109,514 bytes per pass. Distinct device/inode observations and the source exclusive-create operation are distinguished from independently witnessing the historical write.",
+    "The root fresh metadata result reconciles all 4,031 ordered records: 33 sealed artifacts, 2,988 runtime files, 699 history files, 258 directory maps, 40 ENOENT absences, two host observations and eleven system locations. all_match is boolean true and errors is empty. The six-entry counts table omits the two separately recorded host rows, correctly totaling 4,029.",
+    "My prior independent metadata refresh checked all 2,988 runtime files, directory and absence maps before/after, host observations and the OpenSSL configuration/provider additions. This proposal check additionally freshly rehashed every existing witness input, including all runtime/history members. Current namespace/prelaunch observations must still be refreshed immediately before launch; saved checks do not guarantee future stability.",
+    "The root prelaunch metadata checker was read completely and is independent of the pinned native candidate interpreter. It attempts every declared observation, retains failures and exits nonzero on failure. Its administrative metadata helper contains Git snapshot definitions but that check path does not invoke them."
+  ],
+  "decision_scope": "The exact external witness proposals and actual source/applicability cards are internally consistent with the completely source-reviewed caller. No missing current metadata/source prerequisite was found in the checked domain. This independent verdict is not a root execution admission and does not turn external proposal files into active authorization.",
+  "execution_authorized": false,
+  "final_boundary": "Standalone external proposal verdict only. No candidate/caller/target or root preparer/helper was imported or executed by this reviewer; no scientific operand/result body was decoded; no active freeze/admission, sealed source, repository, index or Git state was changed. RET remains paused.",
+  "hash_cycle": {
+    "admission_proposal_bytes": 3181,
+    "admission_proposal_sha256": "ee0ef5ede9d9d615545f990de6492eeab360047e9e88649957ee3eec09b47890",
+    "authorization_bytes": 306,
+    "authorization_sha256": "5096fb08b3f31dcf7d939cbf30f9b58682abeba9ce93b527db36e8498dd6dc93",
+    "cycle_found": false,
+    "derivation": "SHA-256 of the exact canonical compact sorted-key freeze object excluding only authorization. The actual authorization proposal binds that payload and the supervisor hash. The complete freeze then binds the actual authorization proposal byte hash. Future root admission binds whole freeze and authorization proposal byte pins at their intended literal E paths.",
+    "freeze_bytes": 2424735,
+    "freeze_payload_sha256": "ccdae00948240eb3477652874763d6770457f94df4d9a813bca62ff85d5050bc",
+    "freeze_sha256": "96bc2066797004219160054e929b736d9c458946e03f92216f71a02e9423bbff",
+    "witness_addendum": null
+  },
+  "invocation_review": [
+    "The exact outer command starts /usr/bin/env -i with the five fixed environment assignments, then /opt/homebrew/bin/python3 -I -S -B, the literal supervise.py and witness. Tokenization independently agrees with those literals. login=false, the exact closure cwd, yield_time_ms=1000 and max_output_tokens=2000 remain bound.",
+    "The exact child command is /opt/homebrew/bin/python3 -I -S -B, the copied check.py, and --witness. There is no -O in this stage. The resource envelope remains 120 seconds active-child time, 536870912 bytes sampled owned-group RSS, 50 ms cadence and 250 ms maximum census timeout.",
+    "The external tool yield is not the child deadline. No continuous memory cap, sole-child measurement policy or pre/post hashing time within the child deadline is inferred."
+  ],
+  "literal_invocation": {
+    "cmd": "/usr/bin/env -i PATH=/usr/bin:/bin LANG=C LC_ALL=C TZ=UTC __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/homebrew/bin/python3 -I -S -B /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py witness",
+    "login": false,
+    "max_output_tokens": 2000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure",
+    "yield_time_ms": 1000
+  },
+  "new_guard_campaign_executed": false,
+  "ordered_inventory": {
+    "closed_reference_result": "Every structured reference encountered in source card, applicability, operative independent source review, RI120 source decision, freeze, authorization and root-admission proposals agrees with the complete witness identity domain. Supplemental external review references remain outside caller-consumed cards.",
+    "closed_structured_reference_occurrences_checked": 3752,
+    "complete_roles": 3724,
+    "complete_unique_paths": 3706,
+    "decomposition": "24 original/copy roles + monitor/history/runtime-manifest roles + 2,988 runtime roles + 699 historical roles + six caller/source/applicability roles. Complete order appends interpreter, supervisor, freeze, authorization.",
+    "fresh_existing_unique_bytes": 161122885,
+    "fresh_existing_unique_identities": 3704,
+    "future_boundary": "The two complete bindings for active freeze and authorization are prospective identities computed from actual external proposal bytes. Their intended E paths remain absent; they were not falsely reported as observed existing files.",
+    "future_expected_identities": 2,
+    "identity_evidence": "All current existing identities were freshly rehashed with complete literal-link resolution and stable pre/open/post file metadata. All declared runtime/history identities and all fixed scientific original/copy pins match; every original and its copy also compared as whole opaque bytes.",
+    "independent_method": "Manually transcribed the fixed twelve pair tuples and caller input-construction order; used the authenticated ordered runtime/history manifests only for their enumerated members. This independent expansion matches the proposal and the separate catalogue exactly, without importing or executing a target/helper.",
+    "input_roles": 3720,
+    "input_unique_paths": 3703
+  },
+  "preserved_review_incidents": [
+    "The initial independent administrative checker used a nonexistent prospective-catalogue key complete_order and failed with KeyError before any native runtime or scientific activity. Actual key inspection showed complete_protected_order. The exact initial checker and REVIEW_INCIDENT.json remain preserved; only that lookup was repaired. This was a reviewer-check bug, not a defect or failed native attempt. Corrected actual check exited zero in e6d368."
+  ],
+  "programme_complete": false,
+  "qualification_transferred": false,
+  "remaining_prerequisites": [
+    "Root must read this complete verdict and verify its exact immutable identity before issuing one actual witness; this review supplies no execution authority.",
+    "Immediately before candidate startup, independently authenticate current declared runtime/configuration/namespace/host and current input/source/card identities under the fixed launch environment. Top-level caller self-checks do not authenticate already-loaded bootstrap. Apple kernel/loader/shared-cache and stable-host premises remain explicit.",
+    "Root must exclusively issue exact reviewed active authorization/freeze/admission bytes, preserve genuine literal outer tool invocation/completion and actual failure tails, and apply the unchanged child resource and custody guards. No retry or threshold relaxation is authorized.",
+    "The 45 native and 62 audit caller control declarations remain source-reviewed and unexecuted. The actual witness must perform its 16 root, 10 family, six decision fixtures and 166 producer refusals. This proposal review does not claim those ran.",
+    "After an actual witness, complete independent custody review, full saved arithmetic adjudication and later separate audit/replay prerequisites remain necessary. No actual sensitivity, positive repair, geometry/gravity or measurement result is accepted here."
+  ],
+  "reviewer": "/root/ri116_saved_arithmetic_review",
+  "schema": "ri122-independent-witness-proposal-review-v1",
+  "schemas_and_authority": [
+    "The actual root source card has the exact eight-field caller schema, binds all five current sources and fixed independent/RI120/history evidence, and keeps execution_authorized and qualification_transferred_to_changed_targets false.",
+    "Actual witness applicability has the exact required schema and retained-engine/changed-validator flags; changed-target qualification and execution authorization remain false. It binds the current copied checker, supervisor, interpreter, monitor, argv, environment, cwd and resource envelope.",
+    "The freeze has exactly its twelve required top-level fields and every input exactly role/path/identity. Interpreter and supervisor identities match their observed paths; no arbitrary target, argument, environment or resource override enters the proposal.",
+    "Authorization and future root-admission proposals have the exact required schemas and only one witness mode. Their true authorization/admitted labels are prospective content stored outside E; the actual named active files were absent. Root must explicitly issue those files later.",
+    "The present root admission is deliberately absent from its own input/freeze domain. Root external prerequisite evidence and this independent proposal review are not inserted into caller closed schemas. Genuine outer completion and subsequent root/independent custody acceptance remain necessary before any next mode."
+  ],
+  "scientific_body_decoded": false,
+  "scientific_math_accepted": false,
+  "status": "PASS_WITNESS_PROPOSALS_ONLY"
+}

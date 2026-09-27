@@ -1,0 +1,59 @@
+{
+  "accepted_27_child_rejection_unchanged": true,
+  "accepted_results": [
+    "Exactly28 shared child columns,16 incoming parents,59 maximal-deletion roles and51 forward slots; Y0 has five incoming maximal deletions but one T1 core ideal.",
+    "All2048 marked rows covered by384 justified maximal-bit representatives; all eight stem records remain. Complete harmonic equations and strict y>-4 characterize this finite support through eight births.",
+    "D1 unchanged J1 slot preserves w1<4/41. New k*t term invalidates an unconditional inference v1>0.",
+    "Accepted P1(rho) nonzero gives beta=rho^3 Delta1p/P1, v1=beta*t, w1=1-Gamma*t. Six degree<=3 minors are exactly remaining T1 rank compatibility; no division by Delta1p.",
+    "t=0 and Gamma=0 rejected by D1; Delta1p=0 handled. Open local interval retains strict bounds; negative Gamma branch nonempty precisely Gamma<-37/164. This subsystem alone is not full feasibility.",
+    "Equations18,19,22,23 form a necessary-and-sufficient complete finite system on t,w2,...,w11 including all other ten connected/five disconnected parents and full-child strict inequalities.",
+    "Only24 already-held C3/C4/H5 rows and128 slots needed for the six-minor necessary decision. All-zero minors, degree drops, constant gcd, excluded0/includedR and surviving-root limits are explicit."
+  ],
+  "actual_28_child_feasibility": "UNRESOLVED",
+  "claim_boundary": "Conditional scalar-passive through-eight-birth theorem under fixed B, fixed eleven-class seed and epsilon1/4; no all-size extension, informative QM, empirical correspondence, native geometry or gravity.",
+  "findings": [],
+  "handoff": {
+    "bytes": 5821,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/HANDOFF.json",
+    "sha256": "e54be44a9b17302e73311e67b8d35ef641593a53b17b3e844b638f8f3aad2fe4"
+  },
+  "independent_complete_proof_reviews": [
+    {
+      "bytes": 10083,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-independent-proof-review-JRtT523D/INDEPENDENT_PROOF_REVIEW.json",
+      "sha256": "2ae7ad7019b00f3dddea170dc3119d118494d6878a0f910469b433edb5a697b0"
+    },
+    {
+      "bytes": 6997,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-independent-proof-review-TllbvZ/INDEPENDENT_PROOF_REVIEW.json",
+      "sha256": "396ef94ed2615abdf638114417556b0eb23462ccc1e9fe2a92bca56f66fe5c42"
+    }
+  ],
+  "manuscript": {
+    "bytes": 20656,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+    "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53"
+  },
+  "new_native_coefficients_or_scales_evaluated": false,
+  "new_numerical_execution_admitted": false,
+  "next_assignment": "RI112 source-only exact all-record rank/gcd checker and independent auditor; no coefficients, fixtures or scientific execution until separately reviewed root admission.",
+  "premises": {
+    "bytes": 12335,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/PREMISES.json",
+    "sha256": "f567d616e0f936cd1b2c5679f650aa2e96ba52abd57ad705087a957f3a47241a"
+  },
+  "root_complete_reads": {
+    "full_independent_reviews": "2a723d",
+    "handoff_review_record": "c07e32 plus complete44ee12",
+    "manuscript": "27adf0 lines1-190,152a67 lines191-370,a792c9 lines371-525 through EOF",
+    "opaque_refresh": "95bd7f / ddaaf6 exit0",
+    "premises": "b620b2"
+  },
+  "root_fresh_premises": {
+    "bytes": 12569,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri110-111-root-review-sRywfxac/RI111_ROOT_PREMISE_REFRESH.json",
+    "sha256": "cb05d9ca6467a9619ff39c45fa4b5f9281728e2b1b11a1b6d4cc7cfd1c617c80"
+  },
+  "schema": "ri111-root-analytic-adjudication-v1",
+  "status": "ACCEPT_CONDITIONAL_COMPLETE_28_CHILD_REDUCTION_ONLY"
+}

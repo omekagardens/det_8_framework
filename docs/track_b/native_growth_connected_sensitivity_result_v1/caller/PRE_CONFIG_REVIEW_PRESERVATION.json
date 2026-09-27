@@ -1,0 +1,75 @@
+{
+  "schema": "ri122-pre-config-source-review-preservation-v1",
+  "status": "SUPERSEDED_CANDIDATE_NOT_EXECUTION_ACCEPTANCE",
+  "reason": "Default OpenSSL configuration for actual hashlib startup was not captured; initial source-only PASS reopened before any execution or handoff seal.",
+  "scientific_execution": false,
+  "artifacts": [
+    {
+      "file": "pre_config_review/supervise.py",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "bytes": 82578,
+      "sha256": "dcfbcba31ad41eb807c314c1f553db6137df7f40ab46cd7efff59be4d4ee6158"
+    },
+    {
+      "file": "pre_config_review/launch_audit.py",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "bytes": 98660,
+      "sha256": "f73d01df71d36ea2aba3634d2e328b4a00b459be8bb07649218a1efccd4c0bab"
+    },
+    {
+      "file": "pre_config_review/RUNTIME_CLOSURE.json",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "bytes": 2853993,
+      "sha256": "e2d2d70cab8cf7726d39b7404ed49f086acc3e7fa8d3b83bf3cb88334e48910b"
+    },
+    {
+      "file": "pre_config_review/INDEPENDENT_SOURCE_REVIEW.json",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 20012,
+      "sha256": "401f38d68955ab5adf01135891377ba3f9fbaa49d0698a8c0f291b3f4746640a"
+    },
+    {
+      "file": "pre_config_review/PROSPECTIVE_STAGE_INVENTORY.json",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/PROSPECTIVE_STAGE_INVENTORY.json",
+      "bytes": 1154794,
+      "sha256": "c9840e644d1d50a7727ba92feba9d179fbc7be4e0d82d00eb87ef7a47b0800c4"
+    },
+    {
+      "file": "pre_config_review/CALLER_SOURCE_NOTES.md",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_SOURCE_NOTES.md",
+      "bytes": 13176,
+      "sha256": "4937cf42320e70e12603e5418188751247ee8b45071b1895a62698ee45482e05"
+    },
+    {
+      "file": "pre_config_review/RUNTIME_AND_HISTORY_SCOPE.md",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_AND_HISTORY_SCOPE.md",
+      "bytes": 12113,
+      "sha256": "f82dc922f339f81612b31da10ec97355dc494f2f1ed4e0caa8e6c792474b351d"
+    },
+    {
+      "file": "pre_config_review/SUPERVISE_SOURCE_DELTA.patch",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/SUPERVISE_SOURCE_DELTA.patch",
+      "bytes": 43799,
+      "sha256": "801b07e07afd90f2e5e1a28d6ea06fc631cd3564b76dbeb2b8b5c3aa81a9d47c"
+    },
+    {
+      "file": "pre_config_review/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "bytes": 50539,
+      "sha256": "154b3533dd6fa6da11e29df67bb3e385f218053e6f036c464b071c4f02327735"
+    },
+    {
+      "file": "pre_config_review/CALLER_CONTRACT.md",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "bytes": 18096,
+      "sha256": "8a74b3f865bc61f1d12b0cb3835d5529a1a9d173cfa9150ce44359a1a27b54bf"
+    },
+    {
+      "file": "pre_config_review/BLOCKED_RUNTIME_CONFIG_SOURCE_REVIEW.json",
+      "original_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 21026,
+      "sha256": "67a714c64c166a9c01a9eb93cc505889e2e0e5218307bad219593a7490187727"
+    }
+  ],
+  "contract_recovery": "Exact previous contract reconstructed by removing only the newly added bootstrap/config paragraph; whole prior18096-byte8a74b3f8 identity checked before saving."
+}

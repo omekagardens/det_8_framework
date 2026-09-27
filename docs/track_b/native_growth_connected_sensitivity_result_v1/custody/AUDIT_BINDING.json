@@ -1,0 +1,109 @@
+{
+  "audit_admitted": false,
+  "candidate_custody": {
+    "bytes": 2641,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CANDIDATE_CUSTODY.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CANDIDATE_CUSTODY.json",
+    "sha256": "ad1d37eab09f074a557de3a1baf854acd52f32a3f870f118fd6987bfb65302f2",
+    "symlinks": []
+  },
+  "candidates": {
+    "audit": {
+      "bytes": 233035,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CANDIDATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CANDIDATE.json",
+      "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+      "symlinks": []
+    },
+    "native": {
+      "bytes": 233035,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/CERTIFICATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/CERTIFICATE.json",
+      "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+      "symlinks": []
+    },
+    "original": {
+      "bytes": 233035,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CERTIFICATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CERTIFICATE.json",
+      "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+      "symlinks": []
+    }
+  },
+  "custodies": {
+    "normal": {
+      "bytes": 4568,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_CUSTODY.json",
+      "sha256": "73bc5f5946397f744640f1b3335e8dc8ad37f3f4f76f593f18f3262b2cb10d71",
+      "symlinks": []
+    },
+    "optimized": {
+      "bytes": 4993,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_ROOT_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_ROOT_CUSTODY.json",
+      "sha256": "dba7d41729eaf5a2c22609cc4fa13229cc750e514eaaee8ae5153d14e1a2168d",
+      "symlinks": []
+    },
+    "witness": {
+      "bytes": 3828,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+      "sha256": "1e290b1549872f526eac903847c843c7e742c5652ec15e89dc2ef9d4811b8b4d",
+      "symlinks": []
+    }
+  },
+  "descriptor": {
+    "bytes": 5501,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+    "sha256": "d486a552a9b3f68f33a83440c358625c4c9da7fa5be5b1160658c3e79d9c0d81",
+    "symlinks": []
+  },
+  "history_manifest": {
+    "bytes": 2170307,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+    "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+    "symlinks": []
+  },
+  "outer_completions": {
+    "normal": {
+      "bytes": 1034,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_OUTER_TOOL_RESULT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_OUTER_TOOL_RESULT.json",
+      "sha256": "4bd65a63bec8b75eb9dba9f98d60497cef6d01907948d6a1d5872408d47fdbf5",
+      "symlinks": []
+    },
+    "optimized": {
+      "bytes": 1043,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_OUTER_TOOL_RESULT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_OUTER_TOOL_RESULT.json",
+      "sha256": "0851f7d3adc1170c5a31e34ba569e93e4139b3f3094304c747272e181cd0b70b",
+      "symlinks": []
+    },
+    "witness": {
+      "bytes": 1036,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_OUTER_TOOL_RESULT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_OUTER_TOOL_RESULT.json",
+      "sha256": "33b23154e3709c4e761114fbfefcefc7a64f3e70906b0adb97a60c5542b044a4",
+      "symlinks": []
+    }
+  },
+  "ri120_source_adjudication": {
+    "bytes": 4346,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+    "sha256": "35554c18567e610ce450b3e804794edba20e3d552e7119318041691655c706d5",
+    "symlinks": []
+  },
+  "schema": "ri122-actual-three-mode-audit-binding-v1",
+  "source_adjudication": {
+    "bytes": 3539,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "sha256": "2073c8b912a9caa8117a16059b7cad43f244131f83646911dfd1beb29791606e",
+    "symlinks": []
+  },
+  "status": "ACCEPT_COMPLETED_THREE_MODE_CUSTODY_FOR_SOURCE_BINDING_ONLY"
+}

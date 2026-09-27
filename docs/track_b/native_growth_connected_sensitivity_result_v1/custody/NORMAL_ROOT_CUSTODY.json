@@ -1,0 +1,83 @@
+{
+  "actual_outer_chunk_id": "bc77ab",
+  "actual_outer_exit": 0,
+  "applicability": {
+    "bytes": 4370,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_APPLICABILITY.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_APPLICABILITY.json",
+    "sha256": "1473b496c787b87035b7f37d3fd00acb3931c4db3f2199cc5d6ec68d192a25ee",
+    "symlinks": []
+  },
+  "before_after_current_identities_match": true,
+  "candidate_custody": {
+    "bytes": 2641,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CANDIDATE_CUSTODY.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CANDIDATE_CUSTODY.json",
+    "sha256": "ad1d37eab09f074a557de3a1baf854acd52f32a3f870f118fd6987bfb65302f2",
+    "symlinks": []
+  },
+  "genuine_outer": {
+    "bytes": 1034,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_OUTER_TOOL_RESULT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_OUTER_TOOL_RESULT.json",
+    "sha256": "4bd65a63bec8b75eb9dba9f98d60497cef6d01907948d6a1d5872408d47fdbf5",
+    "symlinks": []
+  },
+  "independent_complete_review": {
+    "bytes": 7781,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_INDEPENDENT_COMPLETE_REVIEW.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_INDEPENDENT_COMPLETE_REVIEW.json",
+    "sha256": "e7055b3a1ba9316e0891129d33e338cb4d010506e92452e3caeccb5d25c61f30",
+    "symlinks": []
+  },
+  "mode": "normal",
+  "programme_complete": false,
+  "receipt": {
+    "bytes": 3731974,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/normal-01/receipt.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/normal-01/receipt.json",
+    "sha256": "530f951110b10fe6c6b3682fc065efbe77d810749e297229a7f65a6f595ea4b9",
+    "symlinks": []
+  },
+  "root_admission": {
+    "bytes": 3171,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_ADMISSION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_ADMISSION.json",
+    "sha256": "c7a23c8c33b9df67a2544d8951fb12fd22336743173114809d5af63748d10fac",
+    "symlinks": []
+  },
+  "root_complete_review": {
+    "bytes": 5895,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_COMPLETE_REVIEW.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_COMPLETE_REVIEW.json",
+    "sha256": "875745954b5069251bc99f733a37c5e78d9acf365188f6ddc3cbeb8b6d92bd08",
+    "symlinks": []
+  },
+  "root_normal_acceptance": null,
+  "root_witness_acceptance": {
+    "bytes": 3828,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+    "sha256": "1e290b1549872f526eac903847c843c7e742c5652ec15e89dc2ef9d4811b8b4d",
+    "symlinks": []
+  },
+  "saved_summary_whole_bytes_equal": null,
+  "schema": "ri122-root-completed-producer-custody-v1",
+  "scientific_math_accepted": false,
+  "source_adjudication": {
+    "bytes": 3539,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "sha256": "2073c8b912a9caa8117a16059b7cad43f244131f83646911dfd1beb29791606e",
+    "symlinks": []
+  },
+  "status": "ACCEPT_COMPLETED_PRODUCER_CUSTODY_ONLY",
+  "stdout": {
+    "bytes": 996,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/normal-01/stdout.log",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/normal-01/stdout.log",
+    "sha256": "277d2ec09a597146aeb14d7c1997cda5900945cc2c85cd5c1e9ba2ee3ac94e40",
+    "symlinks": []
+  },
+  "terminal_owned_group_absent": true
+}
