@@ -1,0 +1,10 @@
+{
+  "base_commit": "3027dc6813b95cc57e8637c6598a6b07325074f0",
+  "file_count": 117,
+  "manifest": {
+    "bytes": 20316,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/MANIFEST.json",
+    "sha256": "d3ece15e443eb76a6d99af700470e47b4adb40cdbb690ff219f3393f72f827fc"
+  },
+  "status": "EXACT_117_FILE_GIT_BASE_MATCH"
+}

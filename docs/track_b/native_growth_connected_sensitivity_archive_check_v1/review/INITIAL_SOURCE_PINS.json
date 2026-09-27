@@ -1,0 +1,20 @@
+{
+  "directory": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1",
+  "files": [
+    {
+      "bytes": 8419,
+      "path": "verify_archive.py",
+      "sha256": "1dbcc31bedce05be0c725ea0cdef3882c0990223260140584fceb83315eb8b0f"
+    },
+    {
+      "bytes": 20316,
+      "path": "MANIFEST.json",
+      "sha256": "d3ece15e443eb76a6d99af700470e47b4adb40cdbb690ff219f3393f72f827fc"
+    },
+    {
+      "bytes": 1830,
+      "path": "README.md",
+      "sha256": "96f7156e38056a451f0b99076307a6cebb971a5d7d9fac22176cc71d8e8a0771"
+    }
+  ]
+}

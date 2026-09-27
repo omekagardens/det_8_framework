@@ -11,10 +11,26 @@ serial custody reviews pass. Exact result and limits are in
 This closes the fixed-support feasibility question negatively. The local positive
 T1 result remains valid; individual remaining-parent feasibility was not evaluated.
 No all-support or all-size rejection, native QM, geometry/gravity or physical
-measurement result follows. RI-124 is assigned to Quantum Relativity: derive the
-complete record-contrast compensation criterion and select a justified proper-child
-support beyond the rejected family, preserving incoming closure and positivity.
-Root owns all later numerical admission and Git; no duplicate RI-122 run is assigned.
+measurement result follows. RI-124's source-stable author packet proposes a
+30-child support with the same sixteen parents and a conditional complete
+contrast/intercept/positivity criterion. Its T1 simplification and full 221-ideal
+inventory are under complete fresh nonauthor review in
+`ri124-independent-proof-review-hZW9Bs5Z/`; no positive continuation or final
+mathematical acceptance is claimed yet. Root has completed a separate manual
+review. After adjudication, the next native question is the full T2/T3 compensation
+minors and strict intercept/positivity conditions, with every shared Di constraint
+retained. Root owns later numerical admission and Git; no duplicate RI-122 run.
+
+RI-122 is published in remotely verified `3027dc6813b95cc57e8637c6598a6b07325074f0`.
+RI-126 adds a portable read-only archive checker in
+`docs/track_b/native_growth_connected_sensitivity_archive_check_v1/`.
+The manifest matches all 117 original Git-snapshot files; full nineteen-section
+saved reconstruction, summary bytes and decisions agree. Independent Python 3.9
+review passed thirteen CLI and ten saved-object cases, including relocated
+normal/optimized runs and meaningful tamper refusals. The verification routine
+opens only the manifest and archive. This checks published bytes and saved agreement; it does
+not rerun scientific arithmetic, authenticate execution custody or admit any
+new experiment. The original result archive remains byte-for-byte unchanged.
 
 RI-123's concrete measurement application design is published in remotely verified
 `5ebc8d8b0c6b0965cd0131c24bd6eb759bcfc354`. RI-125 has a sealed, incomplete,
@@ -110,8 +126,9 @@ the latest assignments below and in the plan govern current work.
 | RI-121 synthetic qualification caller | Actual two-mode qualification and independent arithmetic/custody published in verified `52ef4cb`; complete 81253-byte reports identical. | Preserve exact evidence; RI-123 application design is now independently accepted. |
 | RI-122 native connected-sensitivity caller | All four genuine stages and complete independent reviews accepted. Exact fixed 28-child obstruction, nineteen-section audit and matching 996-byte summaries. | Publish accepted source/result/custody bundle; RI-124 pursues a new justified compensation criterion/support. |
 | RI-123 joint-window application design | Conditional full white-overlap and periodic-completion design independently accepted; published with proof and schema reviews. | RI-125 source implementation only. Physical covariance, mean, calibration and native forward-map premises remain open. |
-| RI-124 native contrast compensation | Assigned to existing Quantum Relativity after final RI-122 adjudication; analytic proof/design only. | Derive joint record-contrast span/intercept conditions and complete incoming-parent closure for a justified proper-child enlargement; seek positive continuation or a scoped obstruction, without new probability campaigns. |
+| RI-124 native contrast compensation | Sealed author H30 criterion and complete closure under fresh nonauthor review; root manual review complete. Actual positive feasibility remains open. | Adjudicate complete proof review before assigning the T2/T3 compensation-minor/intercept decision; preserve all shared Di and positivity obligations. |
 | RI-125 joint-window application sources | Independent review of incomplete white source found no formula defect and four qualification-coverage gaps; source-only successor assigned in ri125-white-source-completion-bg27qfdn. | Close F01–F04 and complete white capture/admission/assembly source; preserve original packet. Separate validator, periodic/join completion and full source review remain before qualification. |
+| RI-126 portable native archive check | Portable 117-file archive verifier independently accepted for exact published bytes and complete saved-object agreement; 13 CLI plus 10 semantic/parser cases pass. | Publish the reviewed utility and evidence; preserve original scientific archive and all execution/physical claim boundaries. |
 | RI-115 native rank execution caller | Exact six-zero-minor result and independent reviews preserved in f6d486e; its local rank conclusion remains valid. | RI-122 separately rejects the complete fixed 28-child extension through the connected subsystem; keep these logically distinct results. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
 | RI-85 complete four-vertex cap | **Design published in verified `d1733b8`; result published `9d40744`.** The fixed 11-class construction has one nonzero harmonic direction and positive finite width gain. | Preserve the exact support and positivity premises; RI-89/91 study its continuation. |
@@ -11389,3 +11406,11 @@ custody/math reviews pass. Preserve the earlier T1 local positive theorem and
 all historic source/results; no wider negative or physical claim follows.
 RI-124 addresses a justified record-contrast compensation support. RI-125 continues
 independent conventional measurement source work; RET alone stays paused.
+
+**27 September: RI-126 portable archive verification accepted.**
+The new read-only standard-library checker verifies all 117 files of the exact
+RI-122 publication and complete nineteen-section saved audit agreement without
+external provenance-path access. Independent relocated normal/optimized, nine
+CLI refusals and ten saved-object/parser checks pass. Original archive, historical
+failures and source pins remain unchanged. RI-124 complete proof review and
+RI-125 white-path source completion continue under their existing reservations.

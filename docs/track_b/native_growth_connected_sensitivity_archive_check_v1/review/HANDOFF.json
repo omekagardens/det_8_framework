@@ -1,0 +1,57 @@
+{
+  "artifacts": [
+    {
+      "bytes": 7677,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/INDEPENDENT_REVIEW.md",
+      "sha256": "d979c079ceaab9ecfaac53396f09659ba96a1be415fdf7b793750dd82df5c40c"
+    },
+    {
+      "bytes": 2993,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/INDEPENDENT_REVIEW.json",
+      "sha256": "640d54bd980c009d55b8f2a98559e2faa9df3ba8d7264e4efa32a3d7fbc5ddb6"
+    },
+    {
+      "bytes": 598,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/INITIAL_SOURCE_PINS.json",
+      "sha256": "907328f67ae2d02d4cdac40f9607b03fa05185421c54b3d39abcf9ffbe17bb58"
+    },
+    {
+      "bytes": 1080,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/FINAL_SOURCE_PINS.json",
+      "sha256": "508ed484a110ee6488d96991a61b52a7ef53297e4b6690e5719867a5c0869ad9"
+    },
+    {
+      "bytes": 354,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/INITIAL_REVIEW_HARNESS_FAILURE.json",
+      "sha256": "a2aa1529ae2cd49b865933dc94e717d5606e026500fc6f8051490f9652d0146a"
+    },
+    {
+      "bytes": 37192,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/TEST_ARTIFACT_INVENTORY.json",
+      "sha256": "d75f732e23786f6d1ba13f1897ad20f0eb9e10e3d6d866101b76775c1264ce87"
+    },
+    {
+      "bytes": 8556,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/run_review_tests.py",
+      "sha256": "4e23ff4a832bf3183a70e935252bdf7fd2d3dfa3f95172da9d9feeb52ecfa12c"
+    },
+    {
+      "bytes": 8777,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/run_review_tests_v2.py",
+      "sha256": "ede61dcf5bd57e56aa216f0d164f9b716cdfcf5d6d3566e492beebb3a1afff1b"
+    },
+    {
+      "bytes": 21155,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/TEST_RESULTS.json",
+      "sha256": "e509a7340d42f072997cc5f93dec7eb0f94e61737425c393c205a8e8cfc3955d"
+    },
+    {
+      "bytes": 50513,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/OPEN_TRACE.json",
+      "sha256": "bdbef7ab8956d8f19c77b83dc428332eaff6dd275fea47f8d163957477d1f0ee"
+    }
+  ],
+  "schema": "ri126-independent-portable-archive-review-handoff-v1",
+  "scope": "Complete source/manifest/README review plus execution of NEW metadata verifier and fabricated adversarial tests only. No archived code or scientific arithmetic executed. No repository or Git mutations.",
+  "status": "PASS_PUBLISHED_BYTES_AND_SAVED_OBJECT_AGREEMENT_ONLY"
+}

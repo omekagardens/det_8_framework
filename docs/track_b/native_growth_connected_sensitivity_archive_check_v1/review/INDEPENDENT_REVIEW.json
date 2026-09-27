@@ -1,0 +1,73 @@
+{
+  "actual_runtime": "/usr/bin/python3 3.9.6",
+  "archived_code_executed": false,
+  "blocking_findings": [],
+  "cli_cases": 13,
+  "distinct_verifier_open_paths": 118,
+  "execution_custody_readjudicated": false,
+  "external_provenance_traversal": false,
+  "implementation_pins": {
+    "files": [
+      {
+        "bytes": 8426,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "sha256": "0fa494d92cf77a4403315fb383cb64e946d125349e97e26a779283368c10237c"
+      },
+      {
+        "bytes": 20316,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/MANIFEST.json",
+        "sha256": "d3ece15e443eb76a6d99af700470e47b4adb40cdbb690ff219f3393f72f827fc"
+      },
+      {
+        "bytes": 1830,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/README.md",
+        "sha256": "96f7156e38056a451f0b99076307a6cebb971a5d7d9fac22176cc71d8e8a0771"
+      }
+    ],
+    "manifest_pin": "d3ece15e443eb76a6d99af700470e47b4adb40cdbb690ff219f3393f72f827fc",
+    "original_archive_bytes_verified": 25185798,
+    "original_archive_files_verified": 117,
+    "runtime": "/usr/bin/python3 3.9.6",
+    "status": "FINAL_SOURCE_AND_ORIGINAL_ARCHIVE_STABLE"
+  },
+  "initial_review_only_assertion_failure_preserved": true,
+  "normal_and_optimized_verified": true,
+  "open_trace": {
+    "bytes": 50513,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/OPEN_TRACE.json",
+    "sha256": "bdbef7ab8956d8f19c77b83dc428332eaff6dd275fea47f8d163957477d1f0ee"
+  },
+  "repository_or_git_mutations": false,
+  "review": {
+    "bytes": 7677,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/INDEPENDENT_REVIEW.md",
+    "sha256": "d979c079ceaab9ecfaac53396f09659ba96a1be415fdf7b793750dd82df5c40c"
+  },
+  "reviewer_authored_implementation": false,
+  "saved_object_cases": 10,
+  "schema": "ri126-independent-portable-archive-review-v1",
+  "scientific_arithmetic_rerun": false,
+  "status": "PASS_PUBLISHED_BYTES_AND_SAVED_OBJECT_AGREEMENT_ONLY",
+  "test_results": {
+    "bytes": 21155,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/TEST_RESULTS.json",
+    "sha256": "e509a7340d42f072997cc5f93dec7eb0f94e61737425c393c205a8e8cfc3955d"
+  },
+  "tool_evidence": [
+    {
+      "chunk": "62cfee",
+      "exit_code": 1,
+      "scope": "Initial review-only event count assertion; per-case tests passed before failure."
+    },
+    {
+      "chunk": "ecf2fe",
+      "exit_code": 0,
+      "scope": "Final-source independent complete test harness."
+    },
+    {
+      "chunk": "3600a4",
+      "exit_code": 0,
+      "scope": "Original archive and final source stability check."
+    }
+  ]
+}

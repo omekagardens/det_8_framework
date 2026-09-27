@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "bytes": 8426,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+      "sha256": "0fa494d92cf77a4403315fb383cb64e946d125349e97e26a779283368c10237c"
+    },
+    {
+      "bytes": 20316,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/MANIFEST.json",
+      "sha256": "d3ece15e443eb76a6d99af700470e47b4adb40cdbb690ff219f3393f72f827fc"
+    },
+    {
+      "bytes": 1830,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/README.md",
+      "sha256": "96f7156e38056a451f0b99076307a6cebb971a5d7d9fac22176cc71d8e8a0771"
+    }
+  ],
+  "manifest_pin": "d3ece15e443eb76a6d99af700470e47b4adb40cdbb690ff219f3393f72f827fc",
+  "original_archive_bytes_verified": 25185798,
+  "original_archive_files_verified": 117,
+  "runtime": "/usr/bin/python3 3.9.6",
+  "status": "FINAL_SOURCE_AND_ORIGINAL_ARCHIVE_STABLE"
+}
