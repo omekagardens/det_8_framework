@@ -1,0 +1,141 @@
+{
+  "H_z_or_q6_q7_or_K4_K5_computation": false,
+  "active_cards_freezes_inputs_admissions_created": false,
+  "actual_C2_C3_decided": false,
+  "actual_rho_s_or_full_layer_maximum_evaluated": false,
+  "blocking_findings": [],
+  "complete_read_scope": {
+    "additional_complete_documents": [
+      "Current RI88/122/124/127 root decisions",
+      "RI127 DECISION_CONTRACT.md",
+      "RI117 CONNECTED_CONSTRAINTS_LEMMA.md"
+    ],
+    "artifacts": [
+      "ANALYTIC_BOUNDS.md",
+      "AUDIT_NOTES.md",
+      "HANDOFF.md",
+      "IMPLEMENTATION.md",
+      "INPUT_FORMULAS.md",
+      "PRODUCER_NOTES.md",
+      "QUALIFICATION.md",
+      "SOURCES.json",
+      "audit_saved.py",
+      "check.py"
+    ],
+    "auditor_lines": 874,
+    "prior_accepted_reviews_reused": [
+      "Complete RI124 nonauthor proof review",
+      "Complete RI127 nonauthor proof review"
+    ],
+    "producer_lines": 574,
+    "targeted_historical_reads": [
+      "RI38 maximal deletion and half-scale proof",
+      "RI85/RI102 actual baseline definitions",
+      "RI88 support/seed/held serialization and RI120 held/profile/contrast/radius source functions"
+    ]
+  },
+  "evidence": [
+    {
+      "bytes": 18798,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/INDEPENDENT_REVIEW.md",
+      "sha256": "3feb7646597e960ecfde97ed879df4a0ce38727b4262287782f83176769a7f1a"
+    },
+    {
+      "bytes": 32116,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/SOURCE_METADATA_CHECK.json",
+      "sha256": "e0a6d2eec466ba0dc1013b92aaa71fd94effd0373052e8622997b29f8edb7369"
+    },
+    {
+      "bytes": 15691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/FINAL_PIN_RECHECK.json",
+      "sha256": "e8768d363fe7e3e5d22f70314185fb5374311d3bc3e332240913b65130261f3d"
+    },
+    {
+      "bytes": 4223,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/check_metadata.py",
+      "sha256": "7d6c691b63b9b48c455a277b3adb42edf48196793653cac5b9bc7138d0d9ff25"
+    }
+  ],
+  "execution_authorized": false,
+  "manual_proof_checks": [
+    "Unique-maximum F(Q) has precisely every ideal of Q as proper ideal, including full Q, and each potential is the corresponding complete smaller-row probability for all records.",
+    "Actual M6,M7>=1 imply rho,s<=1/4 without evaluating scales/maxima; X=min(R,1/4),Y=1/4 contains the actual point.",
+    "Unused stronger s bound and seed-free necessary weighted identity are sound but not implemented new targets.",
+    "Eight complete rows/44 slots retain full complements and both H5 cap slots, with full40-row/224-slot pattern acceptance inherited.",
+    "All E/E2/C2 individual summands,14 T2 and12 T3 proper-ideal sums, q sign convention and R formula agree.",
+    "Both positively cleared P2/P3 identities and complete independent coefficient expansions agree at degree caps5/3.",
+    "Affine y-endpoint interpolation plus coefficient envelopes is sufficient, preserves zero/strict/unresolved and does not infer actual scales.",
+    "Any nonpositive target would reject fixed H30; generic two-positive branch is local only and precluded uniformly for actual negative-seed premises; all shared constraints remain."
+  ],
+  "metadata_checks": {
+    "all_match": true,
+    "reference_occurrences": 44,
+    "scientific_objects_opaque_only": true,
+    "seal_time_all_match": true,
+    "unique_paths": 37
+  },
+  "native_signs_or_numerical_polynomial_coefficients_evaluated": false,
+  "nonblocking_precision_notes": [
+    {
+      "finding": "Counters measure guarded op/tick arithmetic and routed comparisons; direct equality and zero tests are not individually counted.",
+      "id": "N01",
+      "producer_lines": [
+        223,
+        241,
+        242,
+        245,
+        246,
+        292
+      ],
+      "recommendation": "Describe operation counts with this exact scope; do not call them every Python comparison or total interpreter work.",
+      "source_repair_required": false,
+      "subject": "Counted operation wording"
+    }
+  ],
+  "positive_H30_or_H30_obstruction_accepted": false,
+  "recommendation": "Root may accept the analytic containment and sufficient-certificate method and exact source preparation for a separately reviewed changed-target qualification/caller stage. This review is not root adjudication or execution authority.",
+  "remaining_prerequisites": [
+    "Root proof/source adjudication.",
+    "Separately reviewed exact caller, full runtime/environment and historical dependency closure.",
+    "Changed-target normal and optimized qualification under unchanged120s/512MiB/8MiB ceilings and exact bit/operation/text guards.",
+    "Independent authorization of existing seed/row numerical extraction and genuine actual custody.",
+    "Actual independent full saved reconstruction and root mathematical/result adjudication if an execution is later admitted."
+  ],
+  "repository_index_git_mutation": false,
+  "ret_paused": true,
+  "reviewer": "/root/ri116_saved_arithmetic_review",
+  "reviewer_authored_RI128_sources": false,
+  "schema": "ri128-independent-complete-proof-source-review-v1",
+  "scientific_JSON_decode": false,
+  "source_coverage": {
+    "all_declared_actions_traced_manually": true,
+    "all_five_input_literal_pins_match": true,
+    "assert_only_guards_found": false,
+    "auditor_first_refusal_declarations": 16,
+    "auditor_protected_files": 8,
+    "certificate_sections": 14,
+    "current_literal_producer_pin_matches": true,
+    "fixture_or_refusal_execution": false,
+    "full_recursive_type_value_and_canonical_byte_comparison_reviewed": true,
+    "independent_arithmetic_routes": "Fraction/factored dense producer versus integer-pair/14-and12 individual-ideal/sparse explicit-coefficient auditor",
+    "producer_control_breakdown": {
+      "direct_boundary": 33,
+      "input_size_hash": 10,
+      "nested_value": 10,
+      "root_status": 4,
+      "whole_section_type": 14
+    },
+    "producer_decision_cases": 4,
+    "producer_failure_custody_delegated_to_future_outer_caller": true,
+    "producer_first_refusal_declarations": 71,
+    "producer_sign_fixture_declarations": 15,
+    "scientific_predecessor_or_producer_import_by_auditor": false
+  },
+  "source_handoff": {
+    "bytes": 9587,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/HANDOFF.json",
+    "sha256": "afa9831b15250ef48ff8b6277e253afcb72b78914b79fdad5f5a4274d6ee7c25"
+  },
+  "source_or_fixture_import_compile_ast_probe_run": false,
+  "status": "NO_BLOCKING_DEFECT_FOUND_COMPLETE_PROOF_AND_SOURCE_ONLY"
+}

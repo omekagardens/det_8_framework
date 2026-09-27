@@ -1,0 +1,397 @@
+{
+  "activity": {
+    "actual_scientific_body_decode": false,
+    "fixture_or_target_execution": false,
+    "repository_index_git_mutation": false,
+    "runtime_or_cards_created": false,
+    "target_import_compile_ast_probe": false
+  },
+  "distinct_paths_verified": 33,
+  "literal_checks": {
+    "case_count": 15,
+    "case_ids": [
+      "W01_single_white_two",
+      "W02_single_white_three",
+      "W03_oriented_two",
+      "W04_negative_scale",
+      "W05_double_scale",
+      "W06_interval_mixed",
+      "W07_interval_crosses_zero",
+      "W08_zero_shift",
+      "W09_production_boundary_sparse",
+      "W10_usefulness_boundaries",
+      "W11_asymmetric_rational_radii",
+      "W12_sparse_lifted_denominators",
+      "W13_full_response_below",
+      "W14_full_response_equal",
+      "W15_full_response_above"
+    ],
+    "control_count": 179,
+    "control_order": [
+      "WK01",
+      "WK02",
+      "WK03",
+      "WK04",
+      "WK05",
+      "WK06",
+      "WK07",
+      "WK08",
+      "WK09",
+      "WK10",
+      "WK11",
+      "WK12",
+      "WK13",
+      "WK14",
+      "WK15",
+      "WK16",
+      "WK17",
+      "WK18",
+      "WK19",
+      "WK20",
+      "WK21",
+      "WK22",
+      "WK23",
+      "WK24",
+      "WK25",
+      "WK26",
+      "WK27",
+      "WK28",
+      "WK29",
+      "WK30",
+      "WK31",
+      "WK32",
+      "WK33",
+      "WK34",
+      "WK35",
+      "WK36",
+      "WK37",
+      "WK38",
+      "WC01",
+      "WC02",
+      "WC03",
+      "WC04",
+      "WC05",
+      "WC06",
+      "WC07",
+      "WC08",
+      "WC09",
+      "WC10",
+      "WC11",
+      "WC12",
+      "WC13",
+      "WC14",
+      "WC15",
+      "WC16",
+      "WC17",
+      "WC18",
+      "WC19",
+      "WC20",
+      "WC21",
+      "WC22",
+      "WC23",
+      "WC24",
+      "WC25",
+      "WC26",
+      "WG01",
+      "WG02",
+      "WG03",
+      "WG04",
+      "WG05",
+      "WG06",
+      "WG07",
+      "WG08",
+      "WG09",
+      "WG10",
+      "WG11",
+      "WG12",
+      "WG13",
+      "WG14",
+      "WG15",
+      "WG16",
+      "WG17",
+      "WG18",
+      "WG19",
+      "WG20",
+      "WG21",
+      "WG22",
+      "WG23",
+      "WG24",
+      "WG25",
+      "WG26",
+      "WG27",
+      "WG28",
+      "WG29",
+      "WG30",
+      "WG31",
+      "WG32",
+      "WG33",
+      "WG34",
+      "WG35",
+      "WG36",
+      "WG37",
+      "WG38",
+      "WG39",
+      "WG40",
+      "WG41",
+      "WG42",
+      "WG43",
+      "WG44",
+      "WG45",
+      "WG46",
+      "WG47",
+      "WG48",
+      "WG49",
+      "WG50",
+      "WG51",
+      "WG52",
+      "WG53",
+      "WG54",
+      "WG55",
+      "WG56",
+      "WG57",
+      "WG58",
+      "WG59",
+      "WG60",
+      "WG61",
+      "WG62",
+      "WG63",
+      "WG64",
+      "WG65",
+      "WG66",
+      "WG67",
+      "WG68",
+      "WG69",
+      "WG70",
+      "WG71",
+      "WG72",
+      "WG73",
+      "WG74",
+      "WG75",
+      "WG76",
+      "WG77",
+      "WG78",
+      "WG79",
+      "WG80",
+      "WG81",
+      "WG82",
+      "WG83",
+      "WG84",
+      "WG85",
+      "WG86",
+      "WG87",
+      "WG88",
+      "WG89",
+      "WG90",
+      "WG91",
+      "WG92",
+      "WC27",
+      "WC28",
+      "WC29",
+      "WC30",
+      "WC31",
+      "WC32",
+      "WC33",
+      "WC34",
+      "WC35",
+      "WC36",
+      "WC37",
+      "WC38",
+      "WC39",
+      "WC40",
+      "WC41",
+      "WC42",
+      "WC43",
+      "WC44",
+      "WC45",
+      "WC46",
+      "WT01",
+      "WT02",
+      "WT03"
+    ],
+    "new_kernel_literals": 37,
+    "primary_manifest_first_codes_messages_agree": true,
+    "refusal_count": 176,
+    "sealed_wrapper_literals": 47,
+    "separate_validator_algorithms_reviewed_or_accepted": false,
+    "separate_validator_declaration_consistency_only": true,
+    "tail_count": 3
+  },
+  "qualification_claimed": false,
+  "records": [
+    {
+      "bytes": 4492,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/HANDOFF.json",
+      "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8"
+    },
+    {
+      "bytes": 21310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/CONTROL_EXPECTATIONS.json",
+      "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478"
+    },
+    {
+      "bytes": 4193,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREDECESSOR_PINS.json",
+      "sha256": "1bdb5c263fd2ccfed38c99f4b7c69b866ce056480e3e3070b78ebdb2956e72d1"
+    },
+    {
+      "bytes": 7575,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREPARATION_RECORD.md",
+      "sha256": "376a5230499123967abddc26c18399db0f9593ac24f5bc47466aa164511bd419"
+    },
+    {
+      "bytes": 3295,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/SOURCE_METADATA_CHECK.json",
+      "sha256": "494ce307f2db47433c9ea1dbceacd3787b7cbfc432e133a055af866c797510e8"
+    },
+    {
+      "bytes": 20505,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/STAGE_CONTRACT.md",
+      "sha256": "54178d21d90ef5f7f7dfc7d9d55f1a1df27dd57bef645b6e1b06d542dc572df0"
+    },
+    {
+      "bytes": 6834,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/kernel_controls.py",
+      "sha256": "8ccabc68a135f4aad40fefb2078f3ba35684f5ea8e277683401fd37bfb95c51e"
+    },
+    {
+      "bytes": 27375,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/qualify_white_only.py",
+      "sha256": "1c988f6e8520d47f73f3c3e94d9950593e20652bc5976e7e90480f29f2ffc689"
+    },
+    {
+      "bytes": 15878,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/white_fixtures.py",
+      "sha256": "9b40dc813035ad2d973e6d2c5d75557eaf7e8799a3dcbb1ff359fb504c9de409"
+    },
+    {
+      "bytes": 5379,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+      "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+    },
+    {
+      "bytes": 2174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/RI125_WHITE_SOURCE_DISPOSITION.json",
+      "sha256": "90c66df22b5ff16b578f38a4aba811638ec9f10f2b6089f898227691aa8219db"
+    },
+    {
+      "bytes": 1529,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/HANDOFF.json",
+      "sha256": "8ce87fa9e3bf333b804e8edd27d4c8ec3502f1c77aa517fbc2cf50e0979761bf"
+    },
+    {
+      "bytes": 3467,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/HANDOFF.json",
+      "sha256": "37fb54456a46f724a46b86661ddde512564b6ed2730750e5e811500b78db28ce"
+    },
+    {
+      "bytes": 12011,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CASES.md",
+      "sha256": "fbcabc6b49f5ffb741688293a0dab894e7dc3b2fd761c6f123fbdcacf2ee3eef"
+    },
+    {
+      "bytes": 26409,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CONTRACT.md",
+      "sha256": "abd8aeb6e74a46194bb38f9abc8c02e6be5bcff83318f8df1d27334fa317f2bd"
+    },
+    {
+      "bytes": 8758,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/FABRICATED_INTERFACES.md",
+      "sha256": "2e1db0380e13791448c957453a823c1d2d20874b8af80dc01ddb8c09b4927f4e"
+    },
+    {
+      "bytes": 4802,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/KERNEL_REFUSALS.md",
+      "sha256": "85651a0ead42ec2edf18bfdd049efd49c20cb09fb25bc2be1e4ba561b9b9f208"
+    },
+    {
+      "bytes": 3880,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREDECESSOR_PINS.json",
+      "sha256": "e1d0d5557056a536d2505d7e304ec7185b325a29ac0dd267f91b3f7a7aa0b70b"
+    },
+    {
+      "bytes": 7366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREPARATION_RECORD.md",
+      "sha256": "f58a58c7935f4cb27651c893bb358eb8ece45f58b70d71fa120465761de7e733"
+    },
+    {
+      "bytes": 97989,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_DIFF.patch",
+      "sha256": "edd788940663882972092dc62706f80c81df5e14d76aa90c34dff8cf1158a9e1"
+    },
+    {
+      "bytes": 10113,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_METADATA_CHECK.json",
+      "sha256": "3e713faa6a85e32d856640e7e509bc56e3cc479cc31323465e5e461ca6582cf9"
+    },
+    {
+      "bytes": 7426,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/WHITE_REFUSALS.md",
+      "sha256": "dbc6a3a400b22973379c632cea3924413e36bd441df9ff0e21c2f7507918f0bb"
+    },
+    {
+      "bytes": 15910,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_controls.py",
+      "sha256": "5055fb4aec16563680b2941d445da8273e99799d8fbf567fb7affe368f28e6a2"
+    },
+    {
+      "bytes": 12790,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_kernel.py",
+      "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+    },
+    {
+      "bytes": 32343,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_path.py",
+      "sha256": "32a084c003ecb0bb290ea3f85c3b4bcde4061e5cf62aa7b0b9f3ead19470618b"
+    },
+    {
+      "bytes": 4821,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+      "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+    },
+    {
+      "bytes": 56593,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+      "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+    },
+    {
+      "bytes": 17909,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+      "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+    },
+    {
+      "bytes": 14060,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+      "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+    },
+    {
+      "bytes": 3957,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+      "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+    },
+    {
+      "bytes": 3762,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PREDECESSOR_PINS.json",
+      "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+    },
+    {
+      "bytes": 8848,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/SOURCE_METADATA_CHECK.json",
+      "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+    },
+    {
+      "bytes": 4804,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.md",
+      "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+    }
+  ],
+  "resource_feasibility_demonstrated": false,
+  "roles_verified": 33,
+  "schema": "ri125-white-qualifier-independent-pin-and-text-check-v1",
+  "scope": "opaque whole-file identities and plain source declaration metadata only; no target parser/AST/import/compile/execution",
+  "source_lines": {
+    "STAGE_CONTRACT.md": 337,
+    "kernel_controls.py": 159,
+    "qualify_white_only.py": 431,
+    "white_fixtures.py": 294
+  }
+}

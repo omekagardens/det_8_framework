@@ -1,0 +1,49 @@
+{
+  "accepted": [
+    "All proper ideals of unique-maximum F(Q) are exactly all ideals of Q including Q; full smaller normalization proves M6,M7>=1 without evaluating scales.",
+    "Actual rectangle 0<rho<=min(R,1/4),0<s<=1/4 is valid under unchanged baseline and accepted R.",
+    "Factored and expanded P2/P3 positively clear the accepted denominators, have degrees at most5/3 and are affine in s.",
+    "Exact signed-coefficient endpoint envelopes are sufficient for uniform nonpositive/strict-positive/unresolved classifications; zero never supplies a strict interval.",
+    "Exact source/input/seed field closure, complete14-section reconstruction and declared15/4/71/16 tests pass manual full nonauthor review."
+  ],
+  "actual_signs_decided": false,
+  "full_H30_feasibility": false,
+  "independent_review": {
+    "bytes": 1835,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+    "sha256": "78c0977ae2d0eb23f07eb612c8e797071956c3f9db2b7a044a1a15f277be1eaf"
+  },
+  "next": "RI129: smallest concrete source-only native caller/witness/replay/auditor adaptation with full predecessor closure and unchanged resource limits; no actual execution admitted.",
+  "numerical_qualification_accepted": false,
+  "physical_claim": false,
+  "pin_check": {
+    "bytes": 24520,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/SEALED_INPUT_PIN_CHECK.json",
+    "sha256": "e669fd668d4dc54b3d5ac9c97883663b1d77877f7abbfd3f86dbe42e937417e7"
+  },
+  "precision_note": "Operation counts measure guarded arithmetic and routed comparison calls, not every direct Python equality/zero test or total interpreter work.",
+  "programme_complete": false,
+  "remaining": [
+    "Actual C2/C3 signs and any fixed-H30 obstruction or positive continuation remain unknown.",
+    "One shared T1 recovery, other connected equations, all5Di and strict positivity remain binding.",
+    "Separate complete changed-target/caller/runtime qualification and native outer custody before any actual numerical admission.",
+    "Fixed eight rows44slots and authenticated z2/z3 only; complete40row transport acceptance remains prerequisite."
+  ],
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "root_read_scope": [
+    "Complete ANALYTIC_BOUNDS, INPUT_FORMULAS, IMPLEMENTATION, QUALIFICATION and author handoff (current and preceding heartbeat).",
+    "Complete independent narrative review and sealed handoff; any combined-output clipping reread through EOF.",
+    "RI38 maximal-deletion/common-half-scale passages and actual RI85/RI102 baseline definition.",
+    "Full producer/auditor source review is inherited from complete fresh nonauthor review, not claimed as root complete source reread."
+  ],
+  "schema": "ri128-root-proof-source-adjudication-v1",
+  "scientific_body_decode": false,
+  "source": {
+    "bytes": 9587,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/HANDOFF.json",
+    "sha256": "afa9831b15250ef48ff8b6277e253afcb72b78914b79fdad5f5a4274d6ee7c25"
+  },
+  "source_execution": false,
+  "status": "ACCEPT_ACTUAL_SCALE_CONTAINMENT_AND_BOUNDED_UNEXECUTED_SIGN_SOURCES"
+}

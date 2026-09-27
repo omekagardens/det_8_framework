@@ -1,0 +1,41 @@
+{
+  "actual_C_signs_decided": false,
+  "blocking_findings": [],
+  "execution_authorized": false,
+  "files": [
+    {
+      "bytes": 18798,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/INDEPENDENT_REVIEW.md",
+      "sha256": "3feb7646597e960ecfde97ed879df4a0ce38727b4262287782f83176769a7f1a"
+    },
+    {
+      "bytes": 6697,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/INDEPENDENT_REVIEW.json",
+      "sha256": "bbe39b835b4daa2e8ee32c4997d11be06b9a58c3dd20502c5562e69108730673"
+    },
+    {
+      "bytes": 32116,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/SOURCE_METADATA_CHECK.json",
+      "sha256": "e0a6d2eec466ba0dc1013b92aaa71fd94effd0373052e8622997b29f8edb7369"
+    },
+    {
+      "bytes": 15691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/FINAL_PIN_RECHECK.json",
+      "sha256": "e8768d363fe7e3e5d22f70314185fb5374311d3bc3e332240913b65130261f3d"
+    },
+    {
+      "bytes": 4223,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/check_metadata.py",
+      "sha256": "7d6c691b63b9b48c455a277b3adb42edf48196793653cac5b9bc7138d0d9ff25"
+    }
+  ],
+  "schema": "ri128-independent-complete-proof-source-review-handoff-v1",
+  "scientific_JSON_decode": false,
+  "source_handoff": {
+    "bytes": 9587,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/HANDOFF.json",
+    "sha256": "afa9831b15250ef48ff8b6277e253afcb72b78914b79fdad5f5a4274d6ee7c25"
+  },
+  "status": "NO_BLOCKING_DEFECT_FOUND_COMPLETE_PROOF_AND_SOURCE_ONLY",
+  "target_or_fixture_execution": false
+}

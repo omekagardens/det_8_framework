@@ -1,0 +1,73 @@
+{
+  "activity": {
+    "active_runtime_or_admission": false,
+    "actual_scientific_body_decode": false,
+    "fixture_generation_or_evaluation": false,
+    "repository_index_git_mutation": false,
+    "source_import_compile_ast_probe": false
+  },
+  "actual_controls_executed": 0,
+  "actual_fixtures_evaluated": 0,
+  "actual_validation_admitted": false,
+  "authorship": {
+    "own_qualifier_review_performed": false,
+    "primary_white_source_author": true,
+    "root_owns_integrated_adjudication": true,
+    "separate_white_qualifier_author": true,
+    "validator_and_validator_controls_author": false
+  },
+  "blocking_defects": [],
+  "manual_findings": {
+    "all179_control_calls_and_first_refusal_order_manually_traced": true,
+    "closed_actual_binding_full_candidate_comparison_and_failure_tails_reviewed": true,
+    "complete_fixed_W01_W15_recipe_and_full_row_gram_linkage": true,
+    "directed_interval_polarization_response_and_structural_formulas_consistent": true,
+    "independent_integer_pair_formulas_consistent": true,
+    "no_scientific_acceptance_from_metadata_or_controls_names": true
+  },
+  "metadata_review": {
+    "bytes": 7188,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/METADATA_REVIEW.json",
+    "sha256": "eda73e25dd0ceca88971cc0f76d841a5355f1e1b42869448e6aa9e06e9fe8dc3"
+  },
+  "pending": [
+    "Root integrated source/interface/closure adjudication, independently reviewed qualifier.",
+    "Actual root-admitted white-only fabricated normal qualification and independent saved review, then separate optimized admission and review.",
+    "Additional validator-specific actual binding/candidate/postwrite guard mutation source, nonauthor review and actual qualification before actual validation admission.",
+    "Unchanged resource feasibility, exact caller runtime/history/source loaded-byte and host prerequisites, accepted actual primary custody and separate validation binding.",
+    "Periodic, mean/nuisance and join sources/validators, full32-case qualification, public-development application and all physical/calibration prerequisites."
+  ],
+  "physical_claim": false,
+  "postreview_all_source_and_metadata_pins_unchanged": true,
+  "programme_complete": false,
+  "qualification_claimed": false,
+  "read_coverage": {
+    "complete_protocol_authoring_record_handoffs_and_metadata": true,
+    "validator_controls.py": {
+      "complete": true,
+      "first_line": 1,
+      "last_line": 261
+    },
+    "white_validator.py": {
+      "complete": true,
+      "first_line": 1,
+      "last_line": 1050
+    }
+  },
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "review": {
+    "bytes": 19331,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "ec88bb4a923c610d61694d82eae0dba970c66784389bb434a87c87ab7ee5a555"
+  },
+  "root_source_acceptance_claimed": false,
+  "schema": "ri125-white-validator-nonauthor-source-verdict-v1",
+  "source_packet": {
+    "bytes": 4821,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+    "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+  },
+  "source_repairs_required": [],
+  "verdict": "PASS_BOUNDED_UNEXECUTED_SOURCE_ROOT_INTEGRATED_ADJUDICATION_REQUIRED"
+}

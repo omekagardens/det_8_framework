@@ -1,0 +1,19 @@
+# Independent WHITE validator source preparation record
+
+Root's RI125_WHITE_SOURCE_DISPOSITION accepted the bounded predecessor source for the next implementation stage only. This author was a nonauthor reviewer of that predecessor and is the author of the present independent validator; this record is **not** a nonauthor review of the new code.
+
+Completed new unexecuted source:
+
+- white_validator.py: independently expressed reduced integer-pair arithmetic, exact JSON/hex/type handling, complete directed interval Shift and Gram/response reconstruction, fixed white recipe enforcement and manually derived discriminatory anchors, all full-row/strip/Gram fixture linkage, independent bracket-stack row framing and complete exhaustion, fixed historical capture/report/source/acceptance reconciliation, strict full saved-field comparison, exclusive independent output and separate failure tails.
+- validator_controls.py: executable-source independent counterparts of all179 agreed WK/WC/WG/WT controls with exact ordered ids and normalized first code/message expectations; visibly fabricated-only artifacts and preserved complete tail records.
+- PROTOCOL.md: exact white-only callable/result interfaces, independent control envelope and separate prospective actual validation binding/report; complete remaining execution/admission boundaries.
+
+The arithmetic uses no Fraction and no primary lifted-row implementation. It contracts each interval pair independently in reduced rational form. The raw capture framer tracks object/array closing delimiters with a stack. Full fixture operands are generated from independently transcribed fixed recipes rather than read from a primary expected object; every supplied operand is compared completely against that recipe. The actual route accepts no saved primary Shift/response as an arithmetic operand.
+
+Manual source reasoning checked sign/orientation, all three deterministic error terms, per-coordinate polarization denominator4, exact inverse products and Schur positivity, response/structural/usefulness formulas, complete canonical vector identity conventions, row offsets and end-of-file advance, frozen input/source selection, output refusal semantics and matched control ordering. Root's WK25/WK28 ordering observation was independently confirmed: the first inverse-product entry fails before a later symmetry/pivot test. Contract field names and literal identities are shared normative data, not imported primary computation.
+
+The author did not import, compile, AST-parse, probe or execute either new target, any historical target/helper or any fixture. No actual coefficient/PSD/scientific JSON body was decoded. Only ordinary source text, accepted review/decision metadata and opaque pin checks were used. All new edits are confined to this reserved external source directory; the sealed predecessors, repository, Git/index and active runtime/admission files remain untouched. No actual binding/card was created.
+
+All returned success/independence/controls flags in function source are prospective values; no returned report exists. The declared179 controls include the specified white primary counterparts, not yet a complete campaign for every validator-specific actual binding/candidate/output guard. Such additional controls must be source-specified and independently qualified before actual validation. The independently authored source and supplied interface now require a different nonauthor's full review and root adjudication before any execution. The white generator/qualifier belongs to its separate author and has not been imported or read for expected outputs.
+
+Resource feasibility is not demonstrated. The retained 180s/524288KiB/25ms/100ms/50ms,64MiB/8MiB and262144-bit limits remain. No claim of complete32-case qualification, periodic/join/nuisance completion, calibration, protected validation, native geometry/gravity progress or programme completion follows. RET remains paused.

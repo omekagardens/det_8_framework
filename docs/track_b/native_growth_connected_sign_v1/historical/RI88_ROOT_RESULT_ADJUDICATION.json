@@ -1,0 +1,59 @@
+{
+  "accepted_replays": {
+    "bytes": 1558,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri88-certificate-audit-execution-fv4qc9xl/ROOT_REPLAY_ADMISSION.json",
+    "sha256": "578166dff36f279439b3acdb33dbb0ebc41cf6fa3f4432127d81b373a44dfd96"
+  },
+  "actual_audit_outer_exit": 0,
+  "additional_deduction": "One-dimensional kernel and allnonzero generator imply every strictsubset ofthisfixed11cap pool hastrivialkernel; notglobalminimality",
+  "audit_completion_chunk": "defb56",
+  "certificate": {
+    "bytes": 1828149,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri88-qr-source-6aRFc9/closure/native_growth_four_vertex_cap_check_v1/CERTIFICATE.json",
+    "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b"
+  },
+  "independent_arithmetic": {
+    "bytes": 56803,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri88-certificate-audit-execution-fv4qc9xl/audit-01/REPORT.json",
+    "sha256": "cb6499aef376592c14d9e8e514899e50f4d0e135ab5506c5d3be40174b7a495d"
+  },
+  "independent_completed_review": {
+    "bytes": 35072,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri88-independent-completed-audit-review-7ln5xzqd/INDEPENDENT_COMPLETED_REVIEW.json",
+    "sha256": "566ee7ad9589f89433c43ba97aabfeb1dec8f63e5d84f484d2851c114381cae9"
+  },
+  "metadata_history": "Root summary KeyError corrected before optimized launch; independentreviewer key/label corrections retained; 9abf09 printed18sectioncount while actualcompletecount17, correctedafd739; no science/thresholdchanges",
+  "next": "RI89 proof-first full-complement criterion at first relative continuation; no numeric newlayer orsupportenlargement",
+  "open": [
+    "allsize recordindependent relative h",
+    "persistent widthdrift andgeometry",
+    "nativegravity/measurement forward map/DETuniqueness"
+  ],
+  "premises": [
+    "fixedacceptedactualprefix anddeclaredprojectionlemmas",
+    "strict recordlocal equivariant fairbinary scalarpassive family",
+    "RI38 guarantees someallsizecontinuation only",
+    "RI39 halfscaleheightdensityobstruction persists foranyfiniteseed"
+  ],
+  "programme_complete": false,
+  "result": {
+    "all11_coordinates_nonzero": true,
+    "all90new_and15inherited_controls_passed_in_native_replays": true,
+    "canonical_factors": 2752,
+    "complete_reconstructed_sections": 17,
+    "epsilon": "1/4",
+    "expanded_rows": 320,
+    "h_range": [
+      "3/4",
+      "5/4"
+    ],
+    "nullity": 1,
+    "positive_complete_parent_row_width_gain": "a6*u0/4",
+    "rank": 10,
+    "transport_cases": 8448,
+    "transport_factors": 10752
+  },
+  "schema": "ri88-root-finite-result-adjudication-v1",
+  "source_checkpoint": "d02b4b66fac8743c931252805db02a39782e0a61",
+  "status": "accepted_positive_finite_width_bias"
+}

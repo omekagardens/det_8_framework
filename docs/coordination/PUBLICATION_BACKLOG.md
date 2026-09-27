@@ -1,62 +1,54 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 27 September 2026 UTC.** RI-127 independently
-proves every one of the fifteen T2 and seven T3 compensation minors zero, with
-complete record/relabel/newborn transport. Native beta/Gamma are positive and
-the exact local open intervals are now characterized by two strict margins
-`C2>0` and `C3>0`. Their actual signs remain undecided. Root and a fresh nonauthor
-reviewed the complete proof, cleared targets and input closure; no scientific
-calculation was executed. Exact manuscripts and decisions are in
-`docs/track_b/native_growth_connected_compensation_v1/`.
+**Current checkpoint — 27 September 2026 UTC.** RI-128 is independently
+accepted for an analytic bound on the unchanged actual scales: `M6,M7>=1`,
+hence `0<rho<=min(R,1/4)` and `0<s<=1/4`. Full smaller-parent normalization
+proves the containment without computing either scale. The exact cleared
+polynomials and sufficient endpoint sign tests, checker and separate saved
+reconstruction are accepted as bounded, unexecuted sources. Their complete
+proof/source review and root decision are preserved in
+`docs/track_b/native_growth_connected_sign_v1/`.
 
-The accepted RI-124 H30 theorem and T1 contrast discharge are preserved in
-remotely verified `d65d1f683a33559e02c3fb139312e7da1ec48687` at
-`docs/track_b/native_growth_contrast_compensation_v1/`.
-Its one shared T1 full correction, all other connected parents and all five Di
-equations/strict bounds remain binding. Neither a positive H30 continuation nor
-an H30 obstruction is claimed by RI-127.
+Actual `C2/C3` signs remain unknown. RI-127's complete connected cancellation
+and strict local reduction remain published in verified `a00e460`; RI-124's
+conditional H30 theorem remains in verified `d65d1f6`. One shared T1 recovery,
+all other connected equations, all five Di equations and every strict bound
+remain binding. A local interval is not full H30 feasibility. The earlier fixed
+28-child obstruction and its pinned evidence are unchanged.
 
-RI-128 is sealed in external `ri128-connected-sign-dvgWLqqv/`; complete fresh
-nonauthor proof/source review is active in `ri128-independent-proof-source-review-Q4vXBzjt/`.
-The author proposes a tighter proved scale bound and an exact sufficient sign
-checker with separately expressed saved reconstruction. Neither the new proof
-nor the sources are accepted yet, and no checker or fixture was executed.
-Actual connected-margin signs and simultaneous H30 feasibility remain open.
-Root adjudicates the full predecessor before assigning QR its next concrete step;
-all existing inputs, shared-parent equations and original bounds remain binding.
+QR is now assigned RI-129, the concrete source-only native caller/witness/replay/
+auditor adaptation, in acknowledged external `ri129-native-sign-caller-source-8TksBLo0/`.
+It preserves all five input roles, fourteen certificate sections, changed-target
+qualification and original 120-second/512-MiB bounds. Fresh nonauthor caller
+review, qualification and separate numerical admission precede any sign result.
 
-RI-122's complete fixed 28-child obstruction remains published in verified
-`3027dc6813b95cc57e8637c6598a6b07325074f0`. RI-126's portable 117-file archive
-checker and 23 independent checks remain in remotely verified
-`80cac4b65f6470209cd7fe6b10d782fc0075cd3b`. Published-byte integrity and saved
-agreement are separate from scientific execution and physical claims.
+The RI-125 independent WHITE validator and W01-W15 qualifier both pass complete
+component nonauthor review and root integration adjudication. Their exact
+sources/reviews are preserved in
+`docs/experiments/gwosc_joint_window_white_qualification_source_v1/`.
+The accepted primary source and historical F01-F04 findings remain in verified
+`c48fda40525178933609b329e14c92c4d1406132`. All 15 cases, W09 assembly,
+both 179-control envelopes and fresh full saved reconstruction remain required;
+none has been run for this source acceptance. Each reviewer authored the
+counterpart; this disclosed component nonauthor review is not self-review.
 
-RI-125's accepted primary WHITE source and complete source review are now
-preserved in `docs/experiments/gwosc_joint_window_white_source_v1/`, together with
-the original F01–F04 findings, unchanged predecessor source, root decisions and
-an independently reviewed direct-dependency map. All copied bytes retain their
-sealed identities. Five dependencies are already committed; three small RI-73
-custody records are included. The exact historical capture remains external,
-so this source archive cannot by itself replay the actual application or supply
-complete transitive runtime custody. No fixture or target was executed.
+RI-130 prepares the fabricated WHITE caller in acknowledged external
+`ri130-white-qualification-caller-source-Q4Aq7hZg/`. RI-131 prepares the additional
+actual-validator binding/candidate/postwrite guards in
+`ri131-white-validation-guards-source-dsbzg94o/`. Direct finite boundary controls
+and genuine whole-entry coverage must be distinguished. Full 32/periodic/mean/
+join completion, resource feasibility, changed caller qualification and separate
+actual admission remain open. Scientific equality is exact; any mode-specific
+custody relation must be complete and independently reviewed.
 
-Both next measurement source packets are sealed and awaiting complete nonauthor
-review: the independent validator in `ri125-independent-white-validator-source-i00kkece/`
-and W01–W15 qualifier in `ri125-white-qualification-source-y1l_fsch/`.
-The qualifier review is active in `ri125-white-qualifier-independent-review-qmRAU0M6/`.
-The validator review is active in `ri125-white-validator-independent-review-an02uo94/`;
-neither new source is published or accepted here. Their prospective interface retains all15 cases, both179-control
-inventories and fresh full saved reconstruction. Validator-specific actual
-binding/candidate/postwrite guard qualification also remains required.
-Full32/periodic/mean/join completion, resource/caller qualification and separate
-actual admission remain open; all physical premises and thresholds are unchanged.
-
-All worker reservations remain external under
-`/Volumes/AI_DATA/development/det-review-evidence/`; root owns repository/index/Git
-operations, adjudication and all native numerical admissions. Protected validation,
-experimental/calibration prerequisites and original thresholds remain intact.
-The programme continues; physical covariance, mean and a native forward map
-remain open. RET alone stays paused.
+All worker reservations are external under
+`/Volumes/AI_DATA/development/det-review-evidence/`; root owns repository/index/Git,
+publication, adjudication and numerical admissions. The source archive and its
+relative dependency maps do not establish complete runtime custody. No scientific
+body was decoded or target/fixture executed in this checkpoint. Protected
+validation, freeze/custody, calibration, covariance and mean adequacy, a native
+forward map and physical gravity claims remain separate obligations. The
+programme continues; RET alone stays paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -126,10 +118,13 @@ with unrelated changes to make an import succeed.
 | RI-122 native connected-sensitivity caller | Exact fixed 28-child obstruction and complete independent arithmetic/custody published in verified `3027dc6`. | Preserve the original evidence; RI-127 discharges all connected contrasts; RI-128 targets its strict positivity signs. |
 | RI-123 joint-window application design | Conditional full white-overlap and periodic-completion design independently accepted; published with proof and schema reviews. | RI-125 source implementation only. Physical covariance, mean, calibration and native forward-map premises remain open. |
 | RI-124 native contrast compensation | Complete conditional H30 theorem and T1 analytic discharge published in verified `d65d1f6`. | Preserve every shared-parent strict condition; RI-127 now discharges the complete T2/T3 contrasts. |
-| RI-125 joint-window application sources | Bounded white-path source accepted after complete nonauthor source review; F01–F04 source specifications repaired, all unexecuted. | Separate white validator and W01–W15 generator/orchestrator are assigned. Full qualification, periodic/mean/join and actual admission remain open. |
+| RI-125 joint-window application sources | Primary source published in verified `c48fda4`; independent validator and W01-W15 qualifier now accepted after complete component nonauthor and root integration review, all unexecuted. | RI-130 prepares fabricated caller; RI-131 prepares additional actual-validator guards. Full 32/periodic/mean/join, qualification and actual admission remain open. |
 | RI-126 portable native archive check | Published in remotely verified `80cac4b`: portable 117-file checker, 13 CLI and 10 semantic/parser cases pass. | Preserve the original archive; byte integrity and saved agreement do not replace scientific arithmetic or execution custody. |
-| RI-127 connected compensation decision | All 15 T2/all 7 T3 minors, full transport, native beta/Gamma signs and exact strict local reduction independently accepted; published in this checkpoint. | Actual C2/C3 signs and full shared H30 feasibility remain open; RI-128 targets actual-sign bounds or minimal exact saved-input source. |
-| RI-128 connected strict-sign decision | Author proof/source packet sealed; fresh complete nonauthor review active. | Settle actual-sign bounds if possible; otherwise prepare exact checker/reconstruction source on the authenticated existing subset. No trial-point or local-to-global promotion. |
+| RI-127 connected compensation decision | All 15 T2/all 7 T3 minors, full transport and strict local reduction independently accepted; published in verified `a00e460`. | RI-128 proves an actual-containing scale rectangle; actual C2/C3 signs and full shared H30 feasibility remain open. |
+| RI-128 connected strict-sign decision | Actual-scale containment and bounded unexecuted checker/reconstruction independently accepted; exact proof/source/reviews preserved in this checkpoint. | RI-129 prepares the native caller; changed-target/runtime qualification precedes actual sign evaluation. No trial-point or local-to-global promotion. |
+| RI-129 native sign caller | Assigned to QR after RI-128 adjudication; acknowledged external source-only reservation. | Complete minimal caller/witness/replay/audit source, fresh nonauthor review, qualification and separate actual admission. |
+| RI-130 WHITE fabricated caller | Assigned; source-only preparation in acknowledged external reservation. | Complete runtime/load closure and closed scientific/mode-custody comparison; fresh review before qualification. |
+| RI-131 actual-validator guard controls | Assigned; source-only finite guard campaign in acknowledged external reservation. | Distinguish genuine whole-entry refusals, direct finite controls and blocked deeper traversal; review before execution. |
 | RI-115 native rank execution caller | Exact six-zero-minor result and independent reviews preserved in f6d486e; its local rank conclusion remains valid. | RI-122 separately rejects the complete fixed 28-child extension through the connected subsystem; keep these logically distinct results. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
@@ -6238,3 +6233,64 @@ different nonauthor reviews. Root will adjudicate the complete reviews and
 integration before the next caller/qualification stage. The original independent
 review, unrelated edits, protected-validation requirements and all pinned
 historical results are preserved. RET alone remains paused.
+
+**27 September: RI-128 proof/source adjudication and integrated WHITE source checkpoint.**
+
+Root workspace is external `ri128-root-adjudication-tb3fbol5/` under
+`/Volumes/AI_DATA/development/det-review-evidence/`. The exact decisions are
+`RI128_ROOT_ADJUDICATION.json` (3230 bytes; SHA256
+`324644290d2d8eeb79a2af655bed476f02f7d0cc3ffb5fac1672f975f0a3ede1`)
+and `RI125_INTEGRATED_SOURCE_ADJUDICATION.json` (3908 bytes; SHA256
+`459885e5dc514ceb9e4c62d4810464e07d29515cf0e59744d9f12b1c1cfe6cda`).
+The shared sealed-input pin check covers all six source/review packets. Exact
+copies, including these decisions, are in the two named new bundles. The native
+26-role map includes the unchanged accepted RI88 seed receipt; WHITE's 31
+predecessor-reference occurrences resolve to exact already committed bytes.
+The relative manifests authenticate publication payloads, not runtime closure.
+
+The native result is analytic: unique-maximum extension has all smaller-parent
+ideals as its proper ideals, so full smaller normalization supplies a proper
+potential sum of one. This proves the actual scale bound without estimating
+M6/M7 or selecting a trial point. Endpoint coefficient envelopes are sufficient,
+possibly unresolved sign classifications on the proved rectangle. The guarded
+operation counter does not count all interpreter work. Neither C2/C3 nor full
+H30 feasibility has been decided. Native changes preserve all five input roles,
+eight rows/44 slots and fourteen result sections; accepted complete 40-row
+transport and exact seed/epsilon premises remain prerequisites.
+
+Measurement integration preserves immutable canonical operand bytes, independent
+integer-pair arithmetic and complete typed result/row/Gram correspondence. The
+15 WHITE cases plus W09 assembly, two 179-control envelopes, saved reconstruction,
+57 artifacts, 74 source/artifact postchecks and 3 tree checks are source contracts,
+not executed counts. Component reviewers are nonauthors of their reviewed
+components and authors of the counterparts; this is disclosed. Root's decision
+records the exact manual read/interface scope rather than claiming a second
+complete code review. Additional actual-validator guard qualification remains.
+
+After adjudication, RI-129 was sent to the existing QR task and acknowledged;
+RI-130 and RI-131 were assigned to separate measurement workers and acknowledged.
+Their exact external reservations and source-only scopes are recorded in
+`root/SUCCESSOR_RESERVATIONS.json` in each bundle. RI-130 must define a complete
+relation for mode-specific custody paths while preserving exact scientific
+equality; RI-131 must not mistake an early authentication refusal for a deep
+candidate/postwrite test. All require fresh nonauthor review and root acceptance.
+No duplicate native assignment or actual execution has been dispatched.
+
+The checkpoint is scoped to the two accepted bundles and four coordinator docs.
+All original sealed/historical bytes and unrelated work are preserved. The
+preceding `c48fda40525178933609b329e14c92c4d1406132` checkpoint was pushed and
+independently confirmed on `origin/ret`; the current commit/remote receipt is
+recorded externally after this checkpoint rather than predicting its own hash.
+Qualification, physical premises, protected validation and RET's pause remain
+unchanged. The programme stays active.
+
+The separate two-bundle publication review passed and root accepted its bounded
+scope: all 50 sealed copies, 37 handoff payload references, 54 relative payloads
+and 57 declared dependency roles match, including 45 existing Git paths at the
+fixed parent. The review remains external in
+`ri128-publication-closure-review-lgBHRcB2/`; `HANDOFF.json` is 1224 bytes, SHA256
+`721a999744775860e9aa3ea1090f95a36313be405cbaa58b03416b97bf89a0ad`.
+Root's separate preflight checks all 60 scoped paths and preserves the exact
+2678 nonscope file identities and inventory. The publication review grants no
+scientific execution or runtime admission. All bundle bytes are unchanged from
+its reviewed manifests; only these four coordinator records carry later status.
