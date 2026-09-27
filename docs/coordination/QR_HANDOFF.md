@@ -1,36 +1,34 @@
 # Current QR coordination — RI-122 native connected-sensitivity caller
 
-**Current checkpoint — 27 September 2026 UTC.** RI-121 now independently
-qualifies the joint-window measurement arithmetic in both genuine serial modes.
-Both pass 41 controls per implementation, nine cases, three bounds and twelve
-groups; their complete 81,253-byte reports are identical. Independent custody
-and mathematical reviews pass. Exact evidence is in
-`docs/experiments/gwosc_joint_window_qualification_v1/`.
+**Current checkpoint — 27 September 2026 UTC.** RI-123's concrete conventional
+joint-window application design is independently accepted. The full directed
+white-overlap matrix reduces to two small coefficient strips; the separate
+hypothetical periodic-completion comparison uses retained odd-frequency terms.
+All four RI-116 rows, uncertainty terms and missing physical premises remain.
+Exact design, proof review and root acceptance are published in
+`docs/experiments/gwosc_joint_window_application_v1/`.
 
-Production runtime qualification is complete for this fixed installed runtime:
-9923 files, actual two-mode profiles, genuine decimal fallback, full caller
-and scientific custody, and mandatory external namespace/cache/observed-loader
-checks. All limits and thresholds remain unchanged. Installed supplier/cache
-and Apple host premises remain explicit. The original caller refusal and its
-18/18 repaired guards remain preserved in verified `4554875`.
+RI-125 is assigned source-only implementation in external
+`ri125-joint-window-application-source-fsra3wcw/`: complete contracts, fixed
+fabricated qualification and a separately authored full-field validator precede
+any new numerical application. RI-121's actual two-mode qualification is
+published in verified `52ef4cba54461b046125bde49de7b3b4e7dadec1`.
 
-Next measurement work is the concrete application design connecting the
-qualified joint-window machinery to the existing RI-116 public development
-comparison, with explicit joint covariance, mean and calibration premises.
-This result is finite synthetic arithmetic, not empirical or physical validation.
+Native RI-122 has genuine successful witness, normal and optimized runs; the
+two replay reports are byte-identical and report both connected profiles
+nonconstant. Witness and normal custody are independently accepted. Optimized
+custody and the separately admitted complete arithmetic audit remain in progress.
+The fixed 28-child rejection is provisional until final mathematical/custody
+adjudication. No replacement candidate or duplicate target run is assigned yet.
 
-QR's RI-122 source handoff is sealed after its OpenSSL configuration correction.
-An additional complete non-QR caller review found no blocking discrepancy.
-Root continues source adjudication and fresh runtime/changed-guard prerequisites
-before the native witness and serial runs. Actual connected sensitivity and
-full 28-child positive feasibility remain unresolved; no duplicate preparation
-is assigned. RI-120 sources remain preserved in verified `fc986bf`.
+The programme remains active. Conventional public-data development, conditional
+mathematics, calibration, native forward maps, releases and protected validation
+remain distinct. All limits and acceptance thresholds stay fixed. RET alone stays
+paused; root retains central repository/index/Git and native-admission ownership.
 
-The programme remains active. Calibration, covariance adequacy, native forward
-maps, release and protected validation remain separate. RET alone stays paused.
-
-RI-120 is immutable and accepted. QR's RI-122 assignment follows complete
-root and independent review and keeps the native sensitivity question active.
+RI-120 is immutable and accepted. QR's saved-branch interpretation and fresh
+nonauthor proof/source reviews found no discrepancy. Root now owns the remaining
+actual serial audit and final adjudication; the native question remains active.
 All-zero polynomials retain null gcd/root count; surviving roots do not select
 actual rho or prove a positive repair. Root owns actual admissions and Git.
 The source review is in
@@ -3183,3 +3181,11 @@ The additional independent review is `ri122-independent-caller-review-jUFL4y4Y/H
 Both are under `/Volumes/AI_DATA/development/det-review-evidence/`. Root must
 review/admit the actual native predecessor before assigning a mathematical
 successor; a stable worker handoff does not pause the native programme.
+
+**27 September: RI-123 design accepted; RI-125 source implementation assigned.**
+The exact white strip and periodic odd-mode identities pass independent proof
+and actual historical-schema review. No actual coefficient or PSD contraction
+was performed. Literal predecessor fields H and M remain; physical covariance,
+mean and calibration inputs are unavailable. Implementation is reserved outside
+the repository; root owns all admissions and publication. Native RI-122 serial
+arithmetic/custody adjudication continues independently.

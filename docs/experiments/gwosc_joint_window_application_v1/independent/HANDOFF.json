@@ -1,0 +1,51 @@
+{
+  "all_45_predecessor_and_5_packet_pins_match_twice": true,
+  "blockers": [],
+  "file_count_excluding_handoff": 7,
+  "files": [
+    {
+      "bytes": 12866,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/FINAL_PIN_RECHECK.json",
+      "sha256": "e96e3e4a115fd4eb41fc9c80ba78eee415a8a322e59c19439f5d9d6916963631"
+    },
+    {
+      "bytes": 4033,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.json",
+      "sha256": "153aacb959144a41b42262461cd85727c0435ce79c37f5a3fd36fb310d467994"
+    },
+    {
+      "bytes": 16652,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.md",
+      "sha256": "a884413061b79491e5d4c6b2ca766b313c1ee396b0896664866a5611059ad3a8"
+    },
+    {
+      "bytes": 143338,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/PIN_REVIEW.json",
+      "sha256": "01bbc15c5af3c959ed840e83c737beef844b690c0c931994e70d857adbacf341"
+    },
+    {
+      "bytes": 11026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/SCHEMA_REVIEW.json",
+      "sha256": "6375d153246926be0ee47a0b7870e17c5240301eaea7ec06c0f18ee675ec05b2"
+    },
+    {
+      "bytes": 3632,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/inspect_schema.py",
+      "sha256": "bfc946bbb5ec53c72bcc33c292b3a911783d48c155b8a0eafe4f2c5eb9f7b572"
+    },
+    {
+      "bytes": 4673,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/seal_review.py",
+      "sha256": "bde4df0ed77e12d01bca0c97e1e876cae8e6f1ba2bb3d5e0c24a69580c40f350"
+    }
+  ],
+  "packet_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq",
+  "review": {
+    "bytes": 4033,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.json",
+    "sha256": "153aacb959144a41b42262461cd85727c0435ce79c37f5a3fd36fb310d467994"
+  },
+  "schema": "ri123-independent-design-review-handoff-v1",
+  "scope": "Independent complete design proof and retained schema/source-path review only; no scientific execution, runtime admission, physical acceptance or repository edits.",
+  "status": "ACCEPT_CONDITIONAL_APPLICATION_DESIGN_ONLY"
+}
