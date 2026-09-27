@@ -1,0 +1,15 @@
+{
+  "absent_paths": [
+    "/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+    "/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+    "/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib"
+  ],
+  "boundary": "Concrete observed failed loader search routes, separately root-checked before/after production; outside fixed v2 in-process guards. Stable trusted host premise retained.",
+  "schema": "ri121-root-observed-decimal-route-sidecar-v1",
+  "symlinks": [
+    {
+      "path": "/opt/homebrew/opt/mpdecimal",
+      "target": "../Cellar/mpdecimal/4.0.1"
+    }
+  ]
+}

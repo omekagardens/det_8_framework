@@ -1,0 +1,29 @@
+{
+  "card": {
+    "bytes": 1389,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/ADMIT_NORMAL.json",
+    "sha256": "ea3caf00a2360763006dcabcd17ce8880baa62376730c683eca04aba86932156"
+  },
+  "freeze": {
+    "bytes": 11310,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/AUTHORIZED_FREEZE.json",
+    "sha256": "011083d445af9aad10b7baa3407d535a8fa899b973a4514331af51797f631684"
+  },
+  "pre_metadata": {
+    "bytes": 10174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_PRE_METADATA.json",
+    "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+  },
+  "runtime": {
+    "bytes": 8067,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_RUNTIME_ADJUDICATION.json",
+    "sha256": "bec0594fca3bea11b1f80ca666b2ecc45d737b6ac5d4f718e5bd81d7bb939901"
+  },
+  "scientific_execution_so_far": false,
+  "sidecar": {
+    "bytes": 654,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ACTUAL_DYLD_ROUTE_SIDECAR.json",
+    "sha256": "985c88e41c23840d8fd3742bb849e64edc81eda8d69d1de9c683e5ada38d11e4"
+  },
+  "status": "ALL_ACTUAL_NORMAL_PREREQUISITES_PASS"
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/AUTHORIZED_FREEZE.json",
+    "normal"
+  ],
+  "freeze": {
+    "bytes": 11310,
+    "sha256": "011083d445af9aad10b7baa3407d535a8fa899b973a4514331af51797f631684"
+  },
+  "mode": "normal",
+  "phase": "fabricated_joint_window_qualification"
+}

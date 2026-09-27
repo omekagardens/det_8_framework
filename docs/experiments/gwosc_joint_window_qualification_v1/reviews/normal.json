@@ -1,0 +1,236 @@
+{
+  "actual_finite_qualification": {
+    "bound_count": 3,
+    "bound_ids": [
+      "Q12_calibrated_constant",
+      "Q12_covariance_error",
+      "Q12_calibration_error"
+    ],
+    "case_ids": [
+      "Q02_white_two",
+      "Q03_periodic_two",
+      "Q05_white_three",
+      "Q06_constant_mean",
+      "Q07_quadratic_mean",
+      "Q08_scale_minus_one",
+      "Q08_scale_two",
+      "Q09_oriented_matrix",
+      "Q10_zero_map"
+    ],
+    "control_breakdown": {
+      "PSD": 3,
+      "mutation": 33,
+      "parser": 5
+    },
+    "controls_per_implementation": 41,
+    "every_record": "Every expected refusal class equals both actual reported primary and validator class, with exact source-declared identities and inventory. Canonical complete output and fixed outer/scientific envelopes match the reviewed report domain.",
+    "field_count_precision": "Each saved case has 20 top-level fields including id, with complete nested scientific matrices and models read. Root message wording about 21 fields was informal; the actual saved root result also reports 20.",
+    "group_count": 12,
+    "pointwise_vs_report": "Per-sign Q06/Q08 and asymmetric Q09 obligations are supported by the reviewed fixed qualifier implementation and genuine full run, not inferred from aggregate saved covariance alone.",
+    "primary_baseline": {
+      "bounds": 3,
+      "cases": 9,
+      "groups": 12,
+      "status": "all_fields_primary_match"
+    },
+    "scientific_case_count": 9,
+    "validator_baseline": {
+      "bounds": 3,
+      "cases": 9,
+      "groups": 12,
+      "status": "all_fields_independently_match"
+    }
+  },
+  "blockers": [],
+  "complete_read_and_check_coverage": [
+    "All fields of the entire 81,253-byte saved RESULT read: complete nine scientific cases, all three bounds, the full twelve-group coverage and both envelopes, all 33 mutation plus five parser plus three PSD refusal records and limitations. No selected-field substitution for this reading.",
+    "Complete parent and worker scalar/custody fields, all 97 raw ps attempts and all 97 samples read; metadata review independently compared every attempt/sample and recomputed elapsed gaps, peak and final gap from the saved monitoring evidence.",
+    "Every parent 67-before/67-after and worker 69-before/80-after loaded module row checked against the exact accepted inventory/helper/science allowance. All 77 distinct origin files independently hashed. No before-origin changed or disappeared. The loaded-file map is an observation, not a complete loader trace or proof of bytecode/source equivalence.",
+    "Complete source and history metadata checked: 20 sealed packet file records plus manifest and handoff, four active helpers, three original/copied scientific pairs, all 48 inherited historical bindings, exact evidence/admission/freeze/report/custody dependencies. Before/after captured scientific bytes all identical.",
+    "All 9,923 saved runtime file descriptors independently re-encoded to recover the exact recorded runtime identity. Whole filesystem membership scans actually occurred in parent, worker and root; this reviewer did not repeat that runtime campaign.",
+    "Complete normal pre/post external records read/compared, byte identical to the pre-science accepted record, with mandatory nonnull exact observed-route sidecar. Current three concrete route absences and the mpdecimal opt symlink independently observed by metadata only."
+  ],
+  "evidence": [
+    {
+      "bytes": 105214,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-normal-saved-_vk7vsiq/INDEPENDENT_NORMAL_METADATA_CHECK.json",
+      "sha256": "26843b959f47fb1f11aa08b2d7216e27a7170ed5a9d4df531ff6c2dc069fce11"
+    },
+    {
+      "bytes": 12472,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-normal-saved-_vk7vsiq/review_saved_metadata.py",
+      "sha256": "7d9f4131015ff360f7b62e40a22b785e1a2bbdcb9797c844e9880d17d46f03b1"
+    },
+    {
+      "bytes": 81253,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/RESULT.json",
+      "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+    },
+    {
+      "bytes": 101959,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/receipt.json",
+      "sha256": "20a74dc14459d017b999c1a3fdabfc72e48cf5475ed9d82abc09d7a34892ec76"
+    },
+    {
+      "bytes": 80523,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/runtime.json",
+      "sha256": "aadecdb695dd2a2c1d51a63315f9a464f79678d44b7a05fa5af366aee86c5b34"
+    },
+    {
+      "bytes": 1410,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/CUSTODY.json",
+      "sha256": "14688d41a3f317be4314ec55156cce8a892b4aa68087ff08a5e34edf1a0e7d98"
+    },
+    {
+      "bytes": 591,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/attempt.json",
+      "sha256": "ed2a289d791b1bc67d6fef62ec7b53d2b78a81defe8c950bd571a19f2b693870"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 11310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/AUTHORIZED_FREEZE.json",
+      "sha256": "011083d445af9aad10b7baa3407d535a8fa899b973a4514331af51797f631684"
+    },
+    {
+      "bytes": 1389,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/ADMIT_NORMAL.json",
+      "sha256": "ea3caf00a2360763006dcabcd17ce8880baa62376730c683eca04aba86932156"
+    },
+    {
+      "bytes": 314,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_OUTER_TOOL.json",
+      "sha256": "e9e367ff797cd3058faa3f01a580681e1f423ef80ad51fb7e75d0cc535e01e54"
+    },
+    {
+      "bytes": 8067,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_RUNTIME_ADJUDICATION.json",
+      "sha256": "bec0594fca3bea11b1f80ca666b2ecc45d737b6ac5d4f718e5bd81d7bb939901"
+    },
+    {
+      "bytes": 10174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_PRE_METADATA.json",
+      "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+    },
+    {
+      "bytes": 10174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_POST_METADATA.json",
+      "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+    },
+    {
+      "bytes": 654,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ACTUAL_DYLD_ROUTE_SIDECAR.json",
+      "sha256": "985c88e41c23840d8fd3742bb849e64edc81eda8d69d1de9c683e5ada38d11e4"
+    }
+  ],
+  "execution_evidence": {
+    "child_exit_code": 0,
+    "full_independent_validator_passed": true,
+    "genuine_qualifier_run_started_and_completed": true,
+    "limits": {
+      "maximum_sample_gap_seconds": 0.1,
+      "ps_timeout_seconds": 0.05,
+      "rss_kib": 524288,
+      "target_poll_seconds": 0.025,
+      "wall_seconds": 180
+    },
+    "monitor_limits": "RSS is sampled for the one reviewed worker, not a hard operating-system cap. Raw attempts all return zero and have empty stderr. The reviewed inherited synchronous ps timeout mechanism is source-bound; raw records do not independently supply individual ps call durations.",
+    "monitoring": {
+      "elapsed_seconds": 3.1491453340022417,
+      "final_gap_seconds": 0.030104500001471024,
+      "max_sample_gap_seconds": 0.03785608299949672,
+      "peak_sampled_rss_kib": 54688,
+      "sample_count": 97
+    },
+    "normal_admitted_before_execution": "Exact root card binds the accepted source decision, active freeze, normal command and launcher command. normal_acceptance is correctly null; no optimized card existed at this independent review.",
+    "outer_exit_code": 0,
+    "outer_final_chunk": "cda7b7",
+    "outer_initial_chunk": "f388bf",
+    "parent_success": true,
+    "run_audit_distinction": "Previously fully reviewed fixed worker captures the three accepted scientific byte bodies, loads them, invokes genuine qualify.run(), saves/parses its output, rebuilds a fresh primary reference, applies the saved-report audit, and invokes the separately authored validator over the complete scientific body. Genuine run controls and fresh-reference scientific reconstruction are separate operations. The saved audit explicitly records historical_controls_reexecuted=false. Matching control labels alone would not witness execution; source custody plus genuine worker/outer completion supplies that evidence here.",
+    "session_id": 91595,
+    "stop_reason": null,
+    "worker_error": null
+  },
+  "historical_boundaries": [
+    "Original RI121 F01 first-refusal failure and its genuine failed guard run remain preserved. The repaired guard qualification is 18 finite normal metadata-Python checks; it is distinct from this actual candidate-Python scientific run.",
+    "RI110 original failure remains historical evidence. RI108 numerical qualification and RI114 interface/supervision qualification retain their distinct applicability scopes; no retroactive relabeling is implied.",
+    "Fixed synthetic arithmetic only. No empirical GWOSC remeasurement, calibration estimate, significance test, protected validation, selected physical joint-law validation, native forward prediction, or native all-size feasibility conclusion. RET pause remains in force."
+  ],
+  "next_action": "Root may independently accept this completed normal run and bind it in a separately issued optimized admission, preserving the same exact source, environment, limits, active freeze, full runtime closure and mandatory pre/post sidecar/namespace checks. Optimized completion and complete report equality remain future evidence, not granted by this verdict.",
+  "prior_independent_reviews": [
+    {
+      "bytes": 23996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-independent-complete-source-IpsOUShQ/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+      "sha256": "e389b9dc58c58f46d8ef992d632493c9ce832d97344a53f11825921b93170054"
+    },
+    {
+      "bytes": 17235,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-repaired-caller-c52tvvhd/INDEPENDENT_REPAIRED_CALLER_SOURCE_REVIEW.json",
+      "sha256": "85010607fc5f668e483783a009029222fd17f7433b3ac6534d9806f3a7c59f95"
+    },
+    {
+      "bytes": 8454,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-saved-guards-licnz9_a/INDEPENDENT_SAVED_GUARD_REVIEW.json",
+      "sha256": "2b8fc263307b8ff2471e0ad5572753d72be330fa76e91f2bec747fa4530b1322"
+    },
+    {
+      "bytes": 12893,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-saved-profile-7iz9gfzx/INDEPENDENT_SAVED_PROFILE_REVIEW.json",
+      "sha256": "e6c11ef58e972bfdcbea6e2ff6012648841d846a45e71d43564e836bb01d5c50"
+    }
+  ],
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_actions": "Wrote only this external reviewer directory. One preliminary metadata-only command had an incorrect packet count assertion and stopped before acceptance; corrected against the actual 20-record source manifest. No target/source/output mutation or target rerun occurred. Root alone retains active admission, repository, index, commit and push responsibility.",
+  "runtime_and_external_custody": {
+    "byte_closure": "Parent and worker before/after runtime identity all equal the exact 9,923-file inventory, interpreter alias chain and target. Source captures and mode/source/runtime acceptances also match before/after.",
+    "external_checks": "Exact root-required checker, metadata helper, sidecar, selection metadata and optional namespace descriptors all hashed and bound. Normal PRE and POST have exactly the same 10,174 bytes and SHA f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40, including exact nonnull 654-byte sidecar ref. Root scan reports all membership/bytes, loader aliases, optional namespaces and host uname/SystemVersion unchanged.",
+    "modules": {
+      "parent": {
+        "added_modules": [],
+        "after_count": 67,
+        "before_count": 67
+      },
+      "worker": {
+        "added_modules": [
+          "_contextvars",
+          "_pydecimal",
+          "contextvars",
+          "copy",
+          "decimal",
+          "fractions",
+          "numbers",
+          "ri121_science_primary",
+          "ri121_science_qualify",
+          "ri121_science_validator",
+          "weakref"
+        ],
+        "after_count": 80,
+        "before_count": 69
+      }
+    },
+    "profile": "All four parent/worker before/after process profiles equal the accepted CPython 3.11.6 normal profile, isolated=1, dont_write_bytecode=1, optimize=0, exact executable/prefix/base-prefix and four sys.path entries. Child command/environment equal the active manifest.",
+    "remaining_platform_premises": "Accepted stable trusted Apple kernel/loader/shared-cache platform, supplier/runtime/cache trust, and finite pre/post observation remain explicit. Neither hermetic-image provenance nor source/pyc equivalence nor every possible dependency execution path is established.",
+    "sidecar_premise": "Actual-profile-discovered Cryptex and resolved mpdecimal paths are enforced externally by root pre/post checks; they are not silently relabeled as in-process v2 guards. The fixed eight v2 absence checks remain unchanged."
+  },
+  "schema": "ri121-independent-complete-normal-saved-review-v1",
+  "scope": "Complete saved normal run, report, control records, source and capture custody, runtime observations, external root pre/post conditions and genuine outer completion. No target execution, import, compilation, fixtures, sign enumeration or new scientific calculation by this reviewer.",
+  "separate_mathematical_evidence": {
+    "boundary": "Read complete saved root reconstruction decision and bound its exact report/source pins. Root independently rebuilt all nine full cases and all three bounds using fixed-model Fraction moment algebra without target imports or sign enumeration. This reviewer independently read the complete science body and previously reviewed the source mathematics, but did not execute that root script or repeat new scientific calculations during this custody review.",
+    "root_reviewer_source": {
+      "bytes": 6498,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/review_saved_science.py",
+      "sha256": "7afcbc25cf9a5c1bdd574096270de63248adeff477837a71d780e1fd65000daf"
+    },
+    "root_saved_full_reconstruction": {
+      "bytes": 2602,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_SAVED_SCIENTIFIC_RECONSTRUCTION.json",
+      "sha256": "dc9af83ae372cfc7cc2cba345edb6a9160ce7462bd9edba0c2017ccb99d46428"
+    }
+  },
+  "status": "ACCEPT_COMPLETED_NORMAL_SYNTHETIC_QUALIFICATION_CUSTODY_FOR_SEPARATE_ROOT_OPTIMIZED_ADMISSION"
+}

@@ -1,0 +1,53 @@
+{
+  "actual_execution_evidence": "Exact captured qualifier.run sequence plus real monitored/reaped child and genuine outer exit; saved labels alone insufficient.",
+  "all41_controls_per_implementation": true,
+  "child_seconds": 3.127368416000536,
+  "custody": {
+    "bytes": 1416,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/CUSTODY.json",
+    "sha256": "be42f7e9c5a4f7f60d2664e49f5aff8ae2e34c9c2debe266137a95655decf63b"
+  },
+  "final_gap": 2.50409975706134e-05,
+  "maximum_gap": 0.03810008400250808,
+  "mode": "optimized",
+  "monitor_count": 97,
+  "outer": {
+    "bytes": 311,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/OPTIMIZED_OUTER_TOOL.json",
+    "sha256": "a7d0dedfaf1d82f8ea7671e014af5c590d3f31653f65b93e64401be7f4564f28"
+  },
+  "peak_sampled_rss_kib": 52864,
+  "receipt": {
+    "bytes": 102451,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/receipt.json",
+    "sha256": "92ca3fdcc9bb0298fd7c0aec5e7e4c449223f3afd732314d9ab256c90a10cd2a"
+  },
+  "report": {
+    "bytes": 81253,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/RESULT.json",
+    "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+  },
+  "root_post": {
+    "bytes": 10174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/OPTIMIZED_POST_METADATA.json",
+    "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+  },
+  "root_pre": {
+    "bytes": 10174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/OPTIMIZED_PRE_METADATA.json",
+    "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+  },
+  "sample_count": 97,
+  "saved_controls_reexecuted": false,
+  "sidecar": {
+    "bytes": 654,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ACTUAL_DYLD_ROUTE_SIDECAR.json",
+    "sha256": "985c88e41c23840d8fd3742bb849e64edc81eda8d69d1de9c683e5ada38d11e4"
+  },
+  "status": "ALL_SAVED_CUSTODY_GATES_PASS",
+  "worker": {
+    "bytes": 81027,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/runtime.json",
+    "sha256": "dd1a20594afa746e3579a623788d6128cf401f3bcdb5f9cd0cc69e5bfdbbed7f"
+  }
+}

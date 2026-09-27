@@ -1,0 +1,17 @@
+{
+  "admission": {
+    "bytes": 4383,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_ADMISSION.json",
+    "sha256": "cf0d4b02abe2732124d71ad8d9e2683694417a08a2cdd906c495a687951eb4db"
+  },
+  "mode": "optimized",
+  "run": {
+    "command": [
+      "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+      "-I",
+      "-B",
+      "-O",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/runtime_profile_probe.py"
+    ]
+  }
+}

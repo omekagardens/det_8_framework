@@ -1,0 +1,14 @@
+{
+  "normal_acceptance": {
+    "bytes": 2886,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_NORMAL_ADJUDICATION.json",
+    "sha256": "9a1ced5314557dd0268cacba68d98ec5a40c7f64ded7a00ea388af974cdcf61c"
+  },
+  "optimized_execution_so_far": false,
+  "pre": {
+    "bytes": 10174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/OPTIMIZED_PRE_METADATA.json",
+    "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+  },
+  "status": "ALL_OPTIMIZED_PREREQUISITES_PASS"
+}

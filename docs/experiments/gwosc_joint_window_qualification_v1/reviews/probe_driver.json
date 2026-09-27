@@ -1,0 +1,40 @@
+{
+  "activity": "Complete plain source reading only; no execution, target import, duplicate runtime scan, active card creation or repo/git mutation.",
+  "blocking_findings": [],
+  "complete_read_sources": [
+    {
+      "bytes": 1800,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/run_profile_probe.py",
+      "sha256": "02b9b9ae4e7c9ed3840ded53a4fa89d0c2541e16d73c965213fcb73e63f65f30"
+    },
+    {
+      "bytes": 3144,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/metadata.py",
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+    },
+    {
+      "bytes": 5857,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/check_runtime_metadata.py",
+      "sha256": "f3946a002fbf9a8e32a5f4a373c7bd70887b72a4dfc68f45336ca3bb14141de7"
+    }
+  ],
+  "driver_review": "Exactly one selected normal/optimized mode. Loads separate root PROFILE_ADMISSION, requires observation-only status, verifies every card dependency pin, exclusively saves attempt and opens separate stdout/stderr, invokes literal card argv with explicit env and DEVNULL stdin using subprocess.run timeout30/checkFalse. Retains actual returncode or timeout with null code, elapsed/command/environment/output/admission pins and exclusive completion; nonzero/timeout returns1. No retry, scientific target or production caller import.",
+  "extended_checker_review": "Independently checks fixed inventory body pin, full9923 membership and file identities/selection metadata, roots, exact symlinks, eight absences, all named loader/interpreter bindings and optional recursive namespace members; then helper/science/history opaque pins and host SystemVersion metadata. Does not import runtime_support or science. Optional namespace verification is explicitly external root custody, not a new v2 in-process guard.",
+  "metadata_helper_review": "Symlink-aware regular-file identity with finite64-link bound, descriptor/name and pre/post full metadata checks, stable literal links and size/hash; exclusive canonical fsync saves. Read-only git snapshot helpers are definitions and are not called on import; driver/checker do not execute git paths.",
+  "prior_probe_review": {
+    "bytes": 7019,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-profile-probe-x4s42ckq/INDEPENDENT_PROFILE_PROBE_SOURCE_REVIEW.json",
+    "sha256": "33fac0e19e599cb1e1e40da7d318666fa8e8ed42a0c33aa127c09342424474b7"
+  },
+  "root_custody_requirements": [
+    "The driver imports its metadata helper before parsing/verifying card dependencies; root must bind driver/helper and card externally, as stated. This is a finite root metadata operation, not a self-contained untrusted-file executor.",
+    "Card must contain exact reviewed interpreter,probe,driver/helper/candidate dependencies and frozen environment; root retains complete pre/post checks and genuine outer result.",
+    "Driver stores command/exit/output evidence but does not decide profile acceptance or enforce all report semantics; use the independent probe-review gates.",
+    "Root extended checker parses several dependency JSON files and later emits their hashes; root must compare them to accepted candidate pins before/after. Its hardcoded inventory pin alone is not every metadata file pin.",
+    "On preflight/file-open/non-timeout launch error, the driver may leave only partial exclusive artifacts and propagate. Preserve genuine outer failure; no completion or retry may be fabricated.",
+    "subprocess.run timeout bounds and kills/waits the probe child. Reviewed probe has no descendants under retained trusted site/supplier premises; no process-tree runtime guarantee is claimed."
+  ],
+  "schema": "ri121-independent-profile-driver-source-addendum-v1",
+  "scope": "No independent production runtime acceptance or scientific qualification follows. Actual normal/optimized probe outputs, whole custody and readout gates still require root/independent review.",
+  "status": "PASS_BOUNDED_ROOT_METADATA_DRIVER_SOURCE"
+}

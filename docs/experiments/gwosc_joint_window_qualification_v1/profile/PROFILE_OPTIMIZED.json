@@ -1,0 +1,536 @@
+{
+  "boundary": "Installed-runtime observation under pinned supplier, cache-selection and host premises; no scientific qualification.",
+  "decimal": {
+    "decimal_class_is_fallback": true,
+    "extension_import_error": {
+      "message": "dlopen(/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_decimal.cpython-311-darwin.so, 0x0002): Library not loaded: /opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib\n  Referenced from: <0D7ED905-BC7D-37C9-9ECD-CAF5F3BE837D> /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_decimal.cpython-311-darwin.so\n  Reason: tried: '/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib' (no such file), '/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib' (no such file), '/usr/local/lib/libmpdec.3.dylib' (no such file), '/usr/lib/libmpdec.3.dylib' (no such file, not in dyld cache), '/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib' (no such file), '/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib' (no such file), '/usr/local/lib/libmpdec.3.dylib' (no such file), '/usr/lib/libmpdec.3.dylib' (no such file, not in dyld cache)",
+      "type": "ImportError"
+    },
+    "extension_loaded": false,
+    "fallback_loaded": true,
+    "fraction_class_module": "fractions"
+  },
+  "hashlib": {
+    "available_openssl_names": [
+      "blake2b",
+      "blake2s",
+      "md5",
+      "md5-sha1",
+      "ripemd160",
+      "sha1",
+      "sha224",
+      "sha256",
+      "sha384",
+      "sha3_224",
+      "sha3_256",
+      "sha3_384",
+      "sha3_512",
+      "sha512",
+      "sha512_224",
+      "sha512_256",
+      "shake_128",
+      "shake_256",
+      "sm3"
+    ],
+    "openssl_sha256_empty": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_empty": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "modules": {
+    "__main__": {
+      "cached": null,
+      "file": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/runtime_profile_probe.py",
+      "loader_type": "NoneType",
+      "origin": null
+    },
+    "_abc": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_blake2": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+      "loader_type": "ExtensionFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so"
+    },
+    "_codecs": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_collections": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_collections_abc": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_collections_abc.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "_contextvars": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so",
+      "loader_type": "ExtensionFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so"
+    },
+    "_distutils_hack": {
+      "cached": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.opt-1.pyc",
+      "file": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py"
+    },
+    "_frozen_importlib": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "_frozen_importlib_external": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "_functools": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_hashlib": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+      "loader_type": "ExtensionFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so"
+    },
+    "_imp": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_io": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_json": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+      "loader_type": "ExtensionFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so"
+    },
+    "_locale": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_operator": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_pydecimal": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py"
+    },
+    "_signal": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_sitebuiltins": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_sitebuiltins.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "_sre": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_stat": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_thread": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_warnings": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "_weakref": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "abc": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/abc.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "builtins": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "codecs": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/codecs.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "collections": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py"
+    },
+    "contextvars": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py"
+    },
+    "copyreg": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py"
+    },
+    "decimal": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py"
+    },
+    "encodings": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py"
+    },
+    "encodings.aliases": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py"
+    },
+    "encodings.ascii": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/ascii.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py"
+    },
+    "encodings.utf_8": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py"
+    },
+    "enum": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py"
+    },
+    "fractions": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py"
+    },
+    "functools": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py"
+    },
+    "genericpath": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "hashlib": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py"
+    },
+    "io": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/io.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "itertools": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "json": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py"
+    },
+    "json.decoder": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py"
+    },
+    "json.encoder": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py"
+    },
+    "json.scanner": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py"
+    },
+    "keyword": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/keyword.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py"
+    },
+    "locale": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py"
+    },
+    "marshal": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "math": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+      "loader_type": "ExtensionFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so"
+    },
+    "numbers": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py"
+    },
+    "operator": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py"
+    },
+    "os": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "os.path": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "posix": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "posixpath": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "pwd": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "re": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py"
+    },
+    "re._casefix": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_casefix.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py"
+    },
+    "re._compiler": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py"
+    },
+    "re._constants": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py"
+    },
+    "re._parser": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py"
+    },
+    "reprlib": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/reprlib.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py"
+    },
+    "site": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "sitecustomize": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py"
+    },
+    "stat": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    },
+    "sys": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "time": {
+      "cached": null,
+      "file": null,
+      "loader_type": "type",
+      "origin": "built-in"
+    },
+    "types": {
+      "cached": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.opt-1.pyc",
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+      "loader_type": "SourceFileLoader",
+      "origin": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py"
+    },
+    "zipimport": {
+      "cached": null,
+      "file": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipimport.py",
+      "loader_type": "type",
+      "origin": "frozen"
+    }
+  },
+  "profile_after": {
+    "base_exec_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "base_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "byteorder": "little",
+    "dont_write_bytecode": 1,
+    "exec_prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "executable": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "implementation": "cpython",
+    "isolated": 1,
+    "optimize": 1,
+    "path": [
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python311.zip",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages"
+    ],
+    "prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "version": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "version_info": [
+      3,
+      11,
+      6,
+      "final",
+      0
+    ]
+  },
+  "profile_before": {
+    "base_exec_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "base_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "byteorder": "little",
+    "dont_write_bytecode": 1,
+    "exec_prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "executable": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "implementation": "cpython",
+    "isolated": 1,
+    "optimize": 1,
+    "path": [
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python311.zip",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages"
+    ],
+    "prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "version": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "version_info": [
+      3,
+      11,
+      6,
+      "final",
+      0
+    ]
+  },
+  "schema": "ri121-installed-runtime-profile-observation-v1",
+  "scientific_targets_imported_or_executed": false,
+  "startup": {
+    "distutils_hook_loaded": true,
+    "enable_user_site": false,
+    "site_prefixes": [
+      "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env"
+    ],
+    "sitecustomize_loaded": true,
+    "usercustomize_loaded": false
+  },
+  "uname": [
+    "Darwin",
+    "allan.local",
+    "25.5.0",
+    "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+    "arm64"
+  ]
+}

@@ -1,0 +1,2034 @@
+{
+  "bindings": [
+    {
+      "bytes": 5892,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+      "sha256": "bda7bd10e58320c2912a4405fec16d0b386b34c7edb6f9f5b86869cf7e936f92"
+    },
+    {
+      "bytes": 8067,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_RUNTIME_ADJUDICATION.json",
+      "sha256": "bec0594fca3bea11b1f80ca666b2ecc45d737b6ac5d4f718e5bd81d7bb939901"
+    },
+    {
+      "bytes": 4979,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json",
+      "sha256": "8e1deba9fc9f5fa02009aad02d5f7222dc4162aeb8d0f542d51eeca66d91de67"
+    },
+    {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    {
+      "bytes": 8184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    {
+      "bytes": 31898,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+      "sha256": "866d93f0db0e6bfddc839bfbfee507d6eae864ca248b9e6e43d3e32328cb3806"
+    },
+    {
+      "bytes": 10189,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+      "sha256": "1d637c181ac40c55476f7240914c22496856ecba8f085f54560357454be48841"
+    },
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 23321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/validator.py",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    },
+    {
+      "bytes": 23321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/validator.py",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    },
+    {
+      "bytes": 14435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/qualify.py",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    {
+      "bytes": 14435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/qualify.py",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    {
+      "bytes": 11078,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/REPORT_DOMAIN.source-only.json",
+      "sha256": "5d65ed63f39fc66f8bf2394a42082f555f97b1a8a0343d38fb364d63b3436f0e"
+    },
+    {
+      "bytes": 11357,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/HISTORY_CLOSURE.source-only.json",
+      "sha256": "4bda0fd8246a4ea0315d65402f7976f5bbf74f2b35847edf6e94a629ec5d84b7"
+    },
+    {
+      "bytes": 2806092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/RUNTIME_INVENTORY.json",
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    },
+    {
+      "bytes": 3753,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/HANDOFF.json",
+      "sha256": "57abc3e84de290214d7e9b6b761ecad8694bf8041a8c2f8b3d77878106ed6a64"
+    },
+    {
+      "bytes": 3683,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_PINS.json",
+      "sha256": "77df08ace0e7b9d2f024cd49bbab99feae9b45ae4b0cf542097580b49e4e6b47"
+    },
+    {
+      "bytes": 17291,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/CONTRACT.md",
+      "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+    },
+    {
+      "bytes": 7499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/IMPLEMENTATION.md",
+      "sha256": "76f5e84c4ab00aa7c31d9a822e45fdf505323ef80e6423fc718499abdd249ac3"
+    },
+    {
+      "bytes": 11143,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_REVIEW.md",
+      "sha256": "97f252915aaa30a08cc0c5d8dd8dba75656c4f3108bed8226873c52c5845a8fd"
+    },
+    {
+      "bytes": 3135,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREPARATION_RECORD.md",
+      "sha256": "2106d0d180dd3c2372c7ce0b1d56c56c7ec009faec3e7b0ba8a83faf9d8cbc2c"
+    },
+    {
+      "bytes": 6697,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/VALIDATOR_NOTES.md",
+      "sha256": "f147ae3b8633225bd1d8c06ca995439c538e6db2caf428843fe0abab6eccfc27"
+    },
+    {
+      "bytes": 2998,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREDECESSOR_PINS.json",
+      "sha256": "efb1fb2e20b0793ef2111d6a0fc9df9fbf0f2eaebc9b78675064d13af3eb78b2"
+    },
+    {
+      "bytes": 1078,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/RI121_ASSIGNMENT.json",
+      "sha256": "7f23eca71b461b2fc33d34a5e14b4f48ebf3653e406f85794709226c2513bf99"
+    },
+    {
+      "bytes": 11887,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/SOURCE_AND_SCIENTIFIC_DEPENDENCY_CHECK.json",
+      "sha256": "1876da28c636aba2a554deb69b48d566258577f65e3b40018f458de7c243c272"
+    },
+    {
+      "bytes": 23996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-independent-complete-source-IpsOUShQ/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+      "sha256": "e389b9dc58c58f46d8ef992d632493c9ce832d97344a53f11825921b93170054"
+    },
+    {
+      "bytes": 15602,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md",
+      "sha256": "d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4"
+    },
+    {
+      "bytes": 4320,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json",
+      "sha256": "2ce273c59668a97992270bf62ccf30b6bb6bf71c5c3c5500199ea3a902ef3a8e"
+    },
+    {
+      "bytes": 14774,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json",
+      "sha256": "d3ba95ca6de6f41b320c88fd7ea5492e9c00b7be851f93a1889ec2ff5efa272f"
+    },
+    {
+      "bytes": 5591,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/REVIEW.md",
+      "sha256": "ee2e450555a8be85e8a34c09b43540fc60fa52f4de03e983a59ea0f57efaf878"
+    },
+    {
+      "bytes": 81723,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/launch.py",
+      "sha256": "82cc4407417288f599ebbc8dc7da51c0f4d22af60a92a07701f0bbdee15ea29d"
+    },
+    {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    {
+      "bytes": 11243,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/worker.py",
+      "sha256": "32e4939430816a9d8fb6579451eb64d79d346afba39bd3e4d808f7238c9c2e29"
+    },
+    {
+      "bytes": 12456,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/EXECUTION_CONTRACT.source-only.md",
+      "sha256": "c8ca2150a9fc789c65375e1f857871eee30a016d6f0eca651999f790d5af1cf2"
+    },
+    {
+      "bytes": 7384,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/APPLICABILITY.source-only.md",
+      "sha256": "6b7f9f28393ddbadf40815d568c5dee370c4a22aa7123d4f8dfa7b7a1dc0a6a8"
+    },
+    {
+      "bytes": 7070,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_FINAL_QUALIFICATION_ADJUDICATION.json",
+      "sha256": "caccbee7db26f04232c9654391f79df596b93d89a43df6f9c9f70ce77e51aea8"
+    },
+    {
+      "bytes": 52422,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/launch.py",
+      "sha256": "bdb1eaa09dae805cd5d9911060888354ee560f3ce1afe2402e2e2b54c356c4b0"
+    },
+    {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    {
+      "bytes": 8079,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/worker.py",
+      "sha256": "96c997cade528ca0f964cb17f71fbd0b742290dc7c1af2edac06b81695174816"
+    },
+    {
+      "bytes": 555,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_GENUINE_OUTER.json",
+      "sha256": "8180192923313efbbfa006a20773f96834e0e8899199cb755cec32957b845d17"
+    },
+    {
+      "bytes": 559,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/OPTIMIZED_GENUINE_OUTER.json",
+      "sha256": "f4cf847bca55e7e0ca05d5cbfa290b9e9e298846ba18a72ba4fc7d3b9ed61a0b"
+    },
+    {
+      "bytes": 586576,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/receipt.json",
+      "sha256": "978be07f347529797797dd29a0606b6e861d0167a7aab2521beb724ec04649c0"
+    },
+    {
+      "bytes": 587810,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/receipt.json",
+      "sha256": "86fc5dd3c92e58d72257f913954c25a231284d09bd7caa28d63014b33023ccfc"
+    },
+    {
+      "bytes": 566161,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/runtime.json",
+      "sha256": "c6bed9cf5ed1029d8c7f4f829ad8dd5afea8fb8930489a3d70b9a1c729080378"
+    },
+    {
+      "bytes": 566644,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/runtime.json",
+      "sha256": "c72025cb05e82ea8b3ac6f68bcaa23f25e5dffea11f2500d86bdfd2a6c1ddae5"
+    },
+    {
+      "bytes": 4561,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/CUSTODY.json",
+      "sha256": "f51661abd4573d8434301fbd50cd62f8f2c7eb340e06b5bbba23ba1f5f2195f5"
+    },
+    {
+      "bytes": 4567,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/CUSTODY.json",
+      "sha256": "66295d0455df931f451eef3b2365e862fa09b1cab9f4ac0a759a417c6d6cffbe"
+    },
+    {
+      "bytes": 1410,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_NORMAL.json",
+      "sha256": "3a50552b9ee28a52146ded2f11e507f35b2da57750dff89cec4877ee0d850345"
+    },
+    {
+      "bytes": 1665,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_OPTIMIZED.json",
+      "sha256": "926adf8561e3b0ceb00e84b1a7ac6800ea72cc69b1aa8b5a22dece5bbc096895"
+    },
+    {
+      "bytes": 171603,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/AUTHORIZED_FREEZE.json",
+      "sha256": "bcec40caf6a75f8211cad9bb3e956f46adff95e47899bdaef9e7b0d6f2456956"
+    },
+    {
+      "bytes": 5543,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_CALLER_SOURCE_ADJUDICATION.json",
+      "sha256": "528ae29e3ad0323bc7bd935fb27b63223ef29b6960cd707b21752e4194f18a8b"
+    },
+    {
+      "bytes": 3114,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_ROOT_REVIEW.json",
+      "sha256": "af626d5cfd7bd7bd416ad5d679fd99f85d8e4db5691bf3f957729bd8fc0064bc"
+    },
+    {
+      "bytes": 12496,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-independent-two-mode-rego4cfj/INDEPENDENT_FINAL_TWO_MODE_QUALIFICATION_REVIEW.json",
+      "sha256": "d111d1b49314b24f4af559c2c8116e25d864142ea058af5c4e5b7f6fd808698c"
+    },
+    {
+      "bytes": 5090,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SUPERVISION_PROVENANCE.source-only.json",
+      "sha256": "ead8759a62a71502d614d201393ee4af01a0374a5ecb4a1fb1618c6359ac394d"
+    },
+    {
+      "bytes": 5303,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/HANDOFF.json",
+      "sha256": "f226f4def9bc6ac617a7d1f3193198d68b3238cf4330d5789036023353f4ab81"
+    },
+    {
+      "bytes": 8146,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SOURCE_PINS.json",
+      "sha256": "d22601fcfba8f433ae199e5d994ec254b55f6603af564ce9204de01a2a5299b6"
+    },
+    {
+      "bytes": 12744,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/APPLICABILITY_REVIEW.md",
+      "sha256": "0cdf31bdcc1ac21d7d590d3748824cc3445f22fcfab5f892b53e3895fa86c6e0"
+    },
+    {
+      "bytes": 25136,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-root-caller-3wistxrp/INDEPENDENT_CALLER_SOURCE_REVIEW.json",
+      "sha256": "69a262a2a6cf088f86bedcfc871eefb9680bba53851e1c6985206e753811fdc7"
+    },
+    {
+      "bytes": 5028,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_FIRST_REFUSAL_ADJUDICATION.json",
+      "sha256": "63a54d518e8a5c370cb70a92e96768eee548e530157c8110f5fd5534bbb61186"
+    },
+    {
+      "bytes": 4478,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/HANDOFF.json",
+      "sha256": "55e0172aee8588bf927f7d1ca295526a15c781fdc01507dbf8179664ba3990fb"
+    },
+    {
+      "bytes": 3923,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_STATIC_CLOSURE_REVIEW.json",
+      "sha256": "c06d5a8f89cdf20dfe5823c6a6c42fb90d80930776f77f0d960ddd35c6246e6e"
+    },
+    {
+      "bytes": 2603,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/RI122_HOST_PLATFORM_SCOPE_DECISION.json",
+      "sha256": "d575e6643e1cb44940218480be40d77e48a0b1ec4206e6af120365206270226b"
+    },
+    {
+      "bytes": 2881,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/BLOCK_CORRESPONDENCE.json",
+      "sha256": "b6df7bed4cbd9b5d905c5798d3c1525537d1d97a9c0a08e8e360893deec8bc8b"
+    },
+    {
+      "bytes": 3405,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/CHANGE_SPECIFIC_CHECKS.source-only.md",
+      "sha256": "8486d48d20c58bc8e4c3537c509396450519ba4a77a7f8ed380cc48c615bc625"
+    },
+    {
+      "bytes": 1896,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/COMMANDS.source-only.json",
+      "sha256": "8878db9fe8eda39fce0b62029e2cf4e7eb108fe101db5a4e7492c4f9a3e672ce"
+    },
+    {
+      "bytes": 15805,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/EXECUTION_CONTRACT.source-only.md",
+      "sha256": "86488430246ca3df7df6425f5f060d68fcd1b881d18be4eeb38d8488ebd109b4"
+    },
+    {
+      "bytes": 1069,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/FINAL_PREPARATION_METADATA.json",
+      "sha256": "224981a4adf3557b14854f5d152a5c71ce5f0fe5e1fe705d059a1c8bdab81612"
+    },
+    {
+      "bytes": 9194,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/MANIFEST.source-only-template.json",
+      "sha256": "28e1b89010b4c0ff676b0eec3d2ed4b546027d178ae4800f96fbe9fd2e4e2ee9"
+    },
+    {
+      "bytes": 2181,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/PREDECESSOR.json",
+      "sha256": "d5ac3345dc4a893e6f9fb7b505d211afdb8fda43fae7481f9e8476468cc1ecf3"
+    },
+    {
+      "bytes": 2104,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/PREPARATION_RECORD.md",
+      "sha256": "ab82a1fcc66fedc54480a0c3d92c1d3233207aaf586226f1060e913229a5edad"
+    },
+    {
+      "bytes": 31219,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/SOURCE_DIFF.patch",
+      "sha256": "0a0d60cb80010642cb20793030231774851def8e880fbad73712f6e8ee6aa3ee"
+    },
+    {
+      "bytes": 5090,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/SUPERVISION_PROVENANCE.source-only.json",
+      "sha256": "ead8759a62a71502d614d201393ee4af01a0374a5ecb4a1fb1618c6359ac394d"
+    },
+    {
+      "bytes": 13237,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/guard_controls.source-only.py",
+      "sha256": "e2200395568a8f634f2c37c3b8c76226ba6111e616f5878e17b4973a2a106fe2"
+    },
+    {
+      "bytes": 71658,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+      "sha256": "82ef0ba9e7dc409483696efbca376d333ab486f9d8551055db94216a0978d811"
+    },
+    {
+      "bytes": 30193,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_collections_abc.py",
+      "sha256": "ec646ef7e27aae261adef3c57b9d18822c6526b3e9562dabb9f3cb4e6803066c"
+    },
+    {
+      "bytes": 6299,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+      "sha256": "46849a60a7cc85189cf6b5ac62b3f135004862ce6a96540a81c95ef6fbc4dc3e"
+    },
+    {
+      "bytes": 48223,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.py",
+      "sha256": "2aa31b7369a9725ce893fed35e33a2ffb1c908ecc7411a34d7975cb25a28f695"
+    },
+    {
+      "bytes": 68856,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+      "sha256": "5b7f704fd3198cb474fea0e74cb21df2d159ceb6bde78aad5db3eb5efa883ccf"
+    },
+    {
+      "bytes": 98432,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+      "sha256": "751646919aab440190d8e49d0e36a9b92f856a8d44b4e761f617dabaad1488ea"
+    },
+    {
+      "bytes": 73384,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+      "sha256": "f24a3dee312dd3b0f50e568c2c95a578b742bde3611eccacc1b6214d9ae94db1"
+    },
+    {
+      "bytes": 54307,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_posixsubprocess.cpython-311-darwin.so",
+      "sha256": "7235f558ad9020206ccf1bf4298493a9f5801ba6b4c866f074facc1227721733"
+    },
+    {
+      "bytes": 3128,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_sitebuiltins.py",
+      "sha256": "b9388bc1d6d12ed6be12da420ab1feca40f99c0e33ec315d92b1e01cb69b25bc"
+    },
+    {
+      "bytes": 5893,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_weakrefset.py",
+      "sha256": "91895a451d06e9f521a1171b31b9b19bc9740f35af00d4fa106338ab7167c9ac"
+    },
+    {
+      "bytes": 6538,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/abc.py",
+      "sha256": "e558702a95cdce3febd289da021715d2b92bc43995b8a1bc58dfa1c3d8010287"
+    },
+    {
+      "bytes": 37150,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/codecs.py",
+      "sha256": "f16a81d14e7f73931ecf9f9f2e17c10bc0ca29bbe38b0243f6919b70882fcfea"
+    },
+    {
+      "bytes": 52018,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+      "sha256": "303701de55e434c0fbcc478ae8a79a28537d9ebe83b3150508438ffd6e3e14c7"
+    },
+    {
+      "bytes": 119,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/abc.py",
+      "sha256": "9cb4208f99128a0489b6c8e6c61637617dd7d4250c59e065491957eda084dd10"
+    },
+    {
+      "bytes": 27076,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py",
+      "sha256": "a907c5d2151782ac1253dc9eade52fd834a1db43f52cc2b5094dcc4b359de18e"
+    },
+    {
+      "bytes": 7677,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+      "sha256": "5499e1be7ba52d4715a911ae65ef2d703db9379d21fff2a07fad8877c318e070"
+    },
+    {
+      "bytes": 5884,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+      "sha256": "78c4744d407690f321565488710b5aaf6486b5afa8d185637aa1e7633ab59cd8"
+    },
+    {
+      "bytes": 15677,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+      "sha256": "6fdcc49ba23a0203ae6cf28e608f8e6297d7c4d77d52e651db3cb49b9564c6d2"
+    },
+    {
+      "bytes": 1248,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+      "sha256": "578aa1173f7cc60dad2895071287fe6182bd14787b3fbf47a6c7983dfe3675e3"
+    },
+    {
+      "bytes": 1005,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+      "sha256": "ba0cac060269583523ca9506473a755203037c57d466a11aa89a30a5f6756f3d"
+    },
+    {
+      "bytes": 78979,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+      "sha256": "573996961237c0f6649fe6e19c67ac7566fbea0d3ea2a62faf1340bef87e24e2"
+    },
+    {
+      "bytes": 52456,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/fcntl.cpython-311-darwin.so",
+      "sha256": "ddae443efc04a1cdb034f35d6c94945f98a4dec5cfd3bf8825f3175c03fcd8f6"
+    },
+    {
+      "bytes": 5999,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fnmatch.py",
+      "sha256": "6683da36e47af523f3f41e18ad244d837783e19e98911cc0b7415dea81494ebc"
+    },
+    {
+      "bytes": 38413,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+      "sha256": "6d80018a3fa9fed44c5b78f881987ee3ab3fb1238b077b4e6dcb4b76da7db73b"
+    },
+    {
+      "bytes": 4975,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py",
+      "sha256": "9d58ad64056a89f12258a62596c2073cd9e52b459dde152f710edc0cffcd865b"
+    },
+    {
+      "bytes": 11765,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+      "sha256": "e2bffb462e4d43e6637b9450e259e8ba2a56626ba3037d68aa1cee68b3f61d4a"
+    },
+    {
+      "bytes": 6089,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py",
+      "sha256": "49ad4fdc8139026f7f3773e3f50f09207ff6bd8e92a2c382545525235448e525"
+    },
+    {
+      "bytes": 1852,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_abc.py",
+      "sha256": "e24fa90513d1fd6e10df30dc28044dfcad857b88161c79de10f7109c18227e8d"
+    },
+    {
+      "bytes": 11487,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/util.py",
+      "sha256": "de645b9f6d595f5e415d117f4d04ce77f144ce5ad2a6477659a9b5547d54b9dd"
+    },
+    {
+      "bytes": 4240,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/io.py",
+      "sha256": "0bb3f9ba75c78b4ad69dedcfb0b360b4503188cf17a632579a70d398bd9ca0e4"
+    },
+    {
+      "bytes": 75002,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ipaddress.py",
+      "sha256": "c4a22d96741ef70d49120cd31f942a35094e666021af9b663446bd68dacdb9bd"
+    },
+    {
+      "bytes": 14020,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+      "sha256": "d5d41e2c29049515d295d81a6d40b4890fbec8d8482cfb401630f8ef2f77e4d5"
+    },
+    {
+      "bytes": 12473,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+      "sha256": "9f02654649816145bc76f8c210a5fe3ba1de142d4d97a1c93105732e747c285b"
+    },
+    {
+      "bytes": 16080,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+      "sha256": "7c358788fbb2a6a07f66f1f8446c52396f35fc201108f666d5be002d86f31af2"
+    },
+    {
+      "bytes": 2425,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+      "sha256": "8604d9d03786d0d509abb49e9f069337278ea988c244069ae8ca2c89acc2cb08"
+    },
+    {
+      "bytes": 1061,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+      "sha256": "afbe73afb68d32fa998e5ff3d081090deec457152470f5331cc2bd430a0e9d2a"
+    },
+    {
+      "bytes": 78998,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+      "sha256": "2bca02e9fc154dbec3f33bb9c71bcc8c08694f1dbfd31e079d692993bf3dca0c"
+    },
+    {
+      "bytes": 93719,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+      "sha256": "5dbbb0dd5e6e82508ea57b2d790928a63aea41b31b447404fe480af5d5c2fbe2"
+    },
+    {
+      "bytes": 30222,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ntpath.py",
+      "sha256": "030fdd768135c4de3b4c56ca0f13d2f4801ccbcde4144382334cf75a477dd0de"
+    },
+    {
+      "bytes": 10965,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+      "sha256": "b2af20f67667203c1730e686cc5d0427becc94db4c97f1d3efe3ed2158473f6a"
+    },
+    {
+      "bytes": 39504,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py",
+      "sha256": "021bfb21a96fdaac4b2c034d40636f5e18148a8a95282661a9bc14f3fa979a99"
+    },
+    {
+      "bytes": 17013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+      "sha256": "115bb3d2051318ee3d951cdb13c60f118f15cea837cb69fb52cf543c12fe25c3"
+    },
+    {
+      "bytes": 48566,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py",
+      "sha256": "3b21ac188fd9ac20bacc8ccd976fabd5d8ccf5000f8e157d3dfff005b228fb3d"
+    },
+    {
+      "bytes": 15889,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+      "sha256": "029ead61f362489e9bb034f4c2503abee95462056541e9ad07715de3c353b0da"
+    },
+    {
+      "bytes": 5446,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+      "sha256": "41572ac50cf96b04496e676d8a6708898bb8e752e06dad34ed4c50c5d8f1fe40"
+    },
+    {
+      "bytes": 26013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+      "sha256": "23b13f6c11c3343aff2b701b5844a6c82a1a0add70e5aa839d6855d57f691af7"
+    },
+    {
+      "bytes": 5930,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+      "sha256": "3e4463dc8ba87c4a3563be46d2d593e82ca9a0fb91768cfe5a07554ed3de82c5"
+    },
+    {
+      "bytes": 42197,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+      "sha256": "f8dfee5093475d3454ca70299880540673443eb99547d001b47af3f56eb91a3d"
+    },
+    {
+      "bytes": 5437,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+      "sha256": "264433cc232332db871666b3bb6e4c2cb97b092cb8d5056a45ec2e53daea2b1c"
+    },
+    {
+      "bytes": 74121,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/select.cpython-311-darwin.so",
+      "sha256": "8b658757c7432149746062e96a3324e3f5bd99e8489b06b75e4af119c3d26b2c"
+    },
+    {
+      "bytes": 19671,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/selectors.py",
+      "sha256": "1eeb102373e18c96311203f30c516e785bd8642275aa0bd66e43a284c9692385"
+    },
+    {
+      "bytes": 2438,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/signal.py",
+      "sha256": "6ae9e49fe09b607bc161fc80067de9763aa48f523567a34992f00be06057f00a"
+    },
+    {
+      "bytes": 22648,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py",
+      "sha256": "6803396ba0719e4d1d6ce9351f09f0bca11ab8e9c4efe0f935f598da8e8b903e"
+    },
+    {
+      "bytes": 3426,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+      "sha256": "d537eac36341d38454ed3bd8fae3e63b84de65ef89ee8632681e140360c1e160"
+    },
+    {
+      "bytes": 5485,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py",
+      "sha256": "052af0327eae6941b69b05c088b3e748f79995635f80ac4cc7125eb333eb4c77"
+    },
+    {
+      "bytes": 88448,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py",
+      "sha256": "2ff641d58f8696496e8718538cd96cd7afcd503ae271fb23da22422b3aee9fc7"
+    },
+    {
+      "bytes": 57988,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py",
+      "sha256": "2c4c1db159e1178896eca324082ae98d627c8d7017d0c7135b832f4fb3117210"
+    },
+    {
+      "bytes": 10067,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+      "sha256": "0c08fbb650c37535a7d8361fc12029e3f4c72a418cf564e8779dae14b979e5ba"
+    },
+    {
+      "bytes": 0,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 44075,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/parse.py",
+      "sha256": "0e67e2f5a301d0b573698e75a4e2d37c843b48cfe0e29fef894eda90d2189c27"
+    },
+    {
+      "bytes": 21025,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/warnings.py",
+      "sha256": "3c36ff80a66718e3fc8449f06730e9d7bcef87d1e7f91b626b42ca4d1f30eab0"
+    },
+    {
+      "bytes": 30897,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipimport.py",
+      "sha256": "e84b98dd13d3a8ae3ff2094ef2889dcead41d754f0531686f0b70b8d225676cc"
+    },
+    {
+      "bytes": 50559,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so",
+      "sha256": "71f19ed38797e27ac3eb8d582155e235ec747d79da9faa9451d167ab3a0f8cdc"
+    },
+    {
+      "bytes": 229202,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py",
+      "sha256": "14cf1bf7ead78a0beb578f19ebc4ec82f542e0879f5b77d327f01abf74591586"
+    },
+    {
+      "bytes": 129,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py",
+      "sha256": "5ed260be8d1f4fe92261b7810b4bb1e8539c42093d7493f677d076e1a87f459a"
+    },
+    {
+      "bytes": 8681,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py",
+      "sha256": "27dcfc53a4b9d4fbc3d90c74e549eb6eca9301524d6d2fbff9a6589cf51b6fd5"
+    },
+    {
+      "bytes": 320,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py",
+      "sha256": "000c00bad31d126b054c6ec7f3e02b27c0f9a4d579f987d3c4f879cee1bacb81"
+    },
+    {
+      "bytes": 28667,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py",
+      "sha256": "b11e850e354808b882d13a70a911c29accd1dbdd41757566704e3b7206c74edb"
+    },
+    {
+      "bytes": 10348,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py",
+      "sha256": "6d70991643a109e9c99e94d6ea2734a995fa8e89114a70ea09737413fa9ae292"
+    },
+    {
+      "bytes": 21513,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py",
+      "sha256": "56f8d313fb74019e53eb9287400702fbce788b7fe30e097b0b6e06296f3f080c"
+    },
+    {
+      "bytes": 6475,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/check_runtime_metadata.py",
+      "sha256": "919766190e3b2ba0a300b1d23eb301c1f21000812ab7df396f4edee295c2b587"
+    },
+    {
+      "bytes": 3144,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/metadata.py",
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+    },
+    {
+      "bytes": 654,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ACTUAL_DYLD_ROUTE_SIDECAR.json",
+      "sha256": "985c88e41c23840d8fd3742bb849e64edc81eda8d69d1de9c683e5ada38d11e4"
+    },
+    {
+      "bytes": 3820963,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/FILE_SELECTION_METADATA.candidate.json",
+      "sha256": "23211b59946b46e5c6f051b04d67bf5f8ed178ec9f27a30371887077ae86ea74"
+    },
+    {
+      "bytes": 4056,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/OPTIONAL_NATIVE_NAMESPACES.candidate.json",
+      "sha256": "8d49533bb80070e02defe236348a5528bcac4f4ce23ca214f781dd612475ac1d"
+    },
+    {
+      "bytes": 314,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_OUTER_TOOL.json",
+      "sha256": "e9e367ff797cd3058faa3f01a580681e1f423ef80ad51fb7e75d0cc535e01e54"
+    },
+    {
+      "bytes": 10174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_PRE_METADATA.json",
+      "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+    },
+    {
+      "bytes": 10174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_POST_METADATA.json",
+      "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+    },
+    {
+      "bytes": 1349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_ROOT_PREFLIGHT.json",
+      "sha256": "658d8b29ef1c95147b5abf6bd6a4b508090edb91f64792d860705bb9ee347e5a"
+    },
+    {
+      "bytes": 815,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_PREPARATION.json",
+      "sha256": "c4dfeae042381a67f621f9a452053b2ee6c9908a8a8e79ad1616d99d1d2ec3ee"
+    },
+    {
+      "bytes": 2602,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_SAVED_SCIENTIFIC_RECONSTRUCTION.json",
+      "sha256": "dc9af83ae372cfc7cc2cba345edb6a9160ce7462bd9edba0c2017ccb99d46428"
+    },
+    {
+      "bytes": 6498,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/review_saved_science.py",
+      "sha256": "7afcbc25cf9a5c1bdd574096270de63248adeff477837a71d780e1fd65000daf"
+    },
+    {
+      "bytes": 2523,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_ROOT_SAVED_CUSTODY_CHECK.json",
+      "sha256": "b4547e31aeacd01e03307d0856e892e166ca37627a42f7704fefe9b587912db2"
+    },
+    {
+      "bytes": 7600,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/SOURCE_PINS.json",
+      "sha256": "00ac8b737edf224a27e09efaf6d6a353dc9baaf59fdc78e21378e249d73c33f6"
+    },
+    {
+      "bytes": 4858,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/HANDOFF.json",
+      "sha256": "7a1d6489eec54aed712140bcb41a429f8b938fa3a9425d6b6a1b86ab6ca66256"
+    },
+    {
+      "bytes": 11310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/AUTHORIZED_FREEZE.json",
+      "sha256": "011083d445af9aad10b7baa3407d535a8fa899b973a4514331af51797f631684"
+    },
+    {
+      "bytes": 1389,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/ADMIT_NORMAL.json",
+      "sha256": "ea3caf00a2360763006dcabcd17ce8880baa62376730c683eca04aba86932156"
+    },
+    {
+      "bytes": 81253,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/RESULT.json",
+      "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+    },
+    {
+      "bytes": 101959,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/receipt.json",
+      "sha256": "20a74dc14459d017b999c1a3fdabfc72e48cf5475ed9d82abc09d7a34892ec76"
+    },
+    {
+      "bytes": 80523,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/runtime.json",
+      "sha256": "aadecdb695dd2a2c1d51a63315f9a464f79678d44b7a05fa5af366aee86c5b34"
+    },
+    {
+      "bytes": 1410,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/CUSTODY.json",
+      "sha256": "14688d41a3f317be4314ec55156cce8a892b4aa68087ff08a5e34edf1a0e7d98"
+    },
+    {
+      "bytes": 591,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/attempt.json",
+      "sha256": "ed2a289d791b1bc67d6fef62ec7b53d2b78a81defe8c950bd571a19f2b693870"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "checks": [
+    "retained freeze claim",
+    "retained freeze context",
+    "retained freeze environment",
+    "retained freeze helpers",
+    "retained freeze history_closure",
+    "retained freeze inputs",
+    "retained freeze interpreter",
+    "retained freeze limits",
+    "retained freeze mode_admissions",
+    "retained freeze phase",
+    "retained freeze report_domain",
+    "retained freeze root",
+    "retained freeze runs",
+    "retained freeze sources",
+    "freeze exact keys",
+    "retained scientific acceptance",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_RUNTIME_ADJUDICATION.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/control.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/primary.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/primary.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/validator.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/validator.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/qualify.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/qualify.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/REPORT_DOMAIN.source-only.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/HISTORY_CLOSURE.source-only.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/RUNTIME_INVENTORY.json",
+    "48 history refs",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/HANDOFF.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_PINS.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/CONTRACT.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/IMPLEMENTATION.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_REVIEW.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREPARATION_RECORD.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/VALIDATOR_NOTES.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREDECESSOR_PINS.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/RI121_ASSIGNMENT.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/SOURCE_AND_SCIENTIFIC_DEPENDENCY_CHECK.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri119-independent-complete-source-IpsOUShQ/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+    "exact /Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md",
+    "exact /Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json",
+    "exact /Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json",
+    "exact /Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/REVIEW.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/launch.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/control.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/worker.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/EXECUTION_CONTRACT.source-only.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/APPLICABILITY.source-only.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_FINAL_QUALIFICATION_ADJUDICATION.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/launch.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/control.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/worker.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_GENUINE_OUTER.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/OPTIMIZED_GENUINE_OUTER.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/receipt.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/receipt.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/runtime.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/runtime.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/CUSTODY.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/CUSTODY.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_NORMAL.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_OPTIMIZED.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/AUTHORIZED_FREEZE.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_CALLER_SOURCE_ADJUDICATION.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_ROOT_REVIEW.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri114-independent-two-mode-rego4cfj/INDEPENDENT_FINAL_TWO_MODE_QUALIFICATION_REVIEW.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SUPERVISION_PROVENANCE.source-only.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/HANDOFF.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SOURCE_PINS.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/APPLICABILITY_REVIEW.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-independent-root-caller-3wistxrp/INDEPENDENT_CALLER_SOURCE_REVIEW.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_FIRST_REFUSAL_ADJUDICATION.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/HANDOFF.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_STATIC_CLOSURE_REVIEW.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/RI122_HOST_PLATFORM_SCOPE_DECISION.json",
+    "20 source packet records plus manifests",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/BLOCK_CORRESPONDENCE.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/CHANGE_SPECIFIC_CHECKS.source-only.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/COMMANDS.source-only.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/EXECUTION_CONTRACT.source-only.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/FINAL_PREPARATION_METADATA.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/HISTORY_CLOSURE.source-only.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/MANIFEST.source-only-template.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/PREDECESSOR.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/PREPARATION_RECORD.md",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/REPORT_DOMAIN.source-only.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/SOURCE_DIFF.patch",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/SUPERVISION_PROVENANCE.source-only.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/control.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/guard_controls.source-only.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/primary.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/qualify.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/validator.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+    "actual normal first admission",
+    "admitted commands match",
+    "parent mode freeze phase",
+    "parent complete gated runtime",
+    "parent full source before after",
+    "parent full acceptance before after",
+    "parent complete history evidence",
+    "parent exact mode admission before after",
+    "worker mode freeze phase",
+    "worker complete gated runtime",
+    "worker full source before after",
+    "worker full acceptance before after",
+    "worker complete history evidence",
+    "worker exact mode admission before after",
+    "four complete runtime checks equal",
+    "exact 9923 runtime binding",
+    "whole saved runtime identity from all 9923 descriptors",
+    "all four actual profiles match admitted normal",
+    "parent child success",
+    "genuine run and complete independent validator",
+    "three captured scientific sources stable",
+    "custody full binding",
+    "custody validation records",
+    "complete scientific validator scope",
+    "saved audit not a historical control replay",
+    "exact output stdout",
+    "exact output stderr",
+    "exact output custody",
+    "exact output worker_receipt",
+    "parent verified custody pins",
+    "worker output pins",
+    "exact actual attempt",
+    "genuine initial and final outer transcription",
+    "actual command and environment",
+    "unchanged limits",
+    "all 97 samples and raw attempts",
+    "raw monitor sample 0",
+    "sample gap rss 0",
+    "raw monitor sample 1",
+    "sample gap rss 1",
+    "raw monitor sample 2",
+    "sample gap rss 2",
+    "raw monitor sample 3",
+    "sample gap rss 3",
+    "raw monitor sample 4",
+    "sample gap rss 4",
+    "raw monitor sample 5",
+    "sample gap rss 5",
+    "raw monitor sample 6",
+    "sample gap rss 6",
+    "raw monitor sample 7",
+    "sample gap rss 7",
+    "raw monitor sample 8",
+    "sample gap rss 8",
+    "raw monitor sample 9",
+    "sample gap rss 9",
+    "raw monitor sample 10",
+    "sample gap rss 10",
+    "raw monitor sample 11",
+    "sample gap rss 11",
+    "raw monitor sample 12",
+    "sample gap rss 12",
+    "raw monitor sample 13",
+    "sample gap rss 13",
+    "raw monitor sample 14",
+    "sample gap rss 14",
+    "raw monitor sample 15",
+    "sample gap rss 15",
+    "raw monitor sample 16",
+    "sample gap rss 16",
+    "raw monitor sample 17",
+    "sample gap rss 17",
+    "raw monitor sample 18",
+    "sample gap rss 18",
+    "raw monitor sample 19",
+    "sample gap rss 19",
+    "raw monitor sample 20",
+    "sample gap rss 20",
+    "raw monitor sample 21",
+    "sample gap rss 21",
+    "raw monitor sample 22",
+    "sample gap rss 22",
+    "raw monitor sample 23",
+    "sample gap rss 23",
+    "raw monitor sample 24",
+    "sample gap rss 24",
+    "raw monitor sample 25",
+    "sample gap rss 25",
+    "raw monitor sample 26",
+    "sample gap rss 26",
+    "raw monitor sample 27",
+    "sample gap rss 27",
+    "raw monitor sample 28",
+    "sample gap rss 28",
+    "raw monitor sample 29",
+    "sample gap rss 29",
+    "raw monitor sample 30",
+    "sample gap rss 30",
+    "raw monitor sample 31",
+    "sample gap rss 31",
+    "raw monitor sample 32",
+    "sample gap rss 32",
+    "raw monitor sample 33",
+    "sample gap rss 33",
+    "raw monitor sample 34",
+    "sample gap rss 34",
+    "raw monitor sample 35",
+    "sample gap rss 35",
+    "raw monitor sample 36",
+    "sample gap rss 36",
+    "raw monitor sample 37",
+    "sample gap rss 37",
+    "raw monitor sample 38",
+    "sample gap rss 38",
+    "raw monitor sample 39",
+    "sample gap rss 39",
+    "raw monitor sample 40",
+    "sample gap rss 40",
+    "raw monitor sample 41",
+    "sample gap rss 41",
+    "raw monitor sample 42",
+    "sample gap rss 42",
+    "raw monitor sample 43",
+    "sample gap rss 43",
+    "raw monitor sample 44",
+    "sample gap rss 44",
+    "raw monitor sample 45",
+    "sample gap rss 45",
+    "raw monitor sample 46",
+    "sample gap rss 46",
+    "raw monitor sample 47",
+    "sample gap rss 47",
+    "raw monitor sample 48",
+    "sample gap rss 48",
+    "raw monitor sample 49",
+    "sample gap rss 49",
+    "raw monitor sample 50",
+    "sample gap rss 50",
+    "raw monitor sample 51",
+    "sample gap rss 51",
+    "raw monitor sample 52",
+    "sample gap rss 52",
+    "raw monitor sample 53",
+    "sample gap rss 53",
+    "raw monitor sample 54",
+    "sample gap rss 54",
+    "raw monitor sample 55",
+    "sample gap rss 55",
+    "raw monitor sample 56",
+    "sample gap rss 56",
+    "raw monitor sample 57",
+    "sample gap rss 57",
+    "raw monitor sample 58",
+    "sample gap rss 58",
+    "raw monitor sample 59",
+    "sample gap rss 59",
+    "raw monitor sample 60",
+    "sample gap rss 60",
+    "raw monitor sample 61",
+    "sample gap rss 61",
+    "raw monitor sample 62",
+    "sample gap rss 62",
+    "raw monitor sample 63",
+    "sample gap rss 63",
+    "raw monitor sample 64",
+    "sample gap rss 64",
+    "raw monitor sample 65",
+    "sample gap rss 65",
+    "raw monitor sample 66",
+    "sample gap rss 66",
+    "raw monitor sample 67",
+    "sample gap rss 67",
+    "raw monitor sample 68",
+    "sample gap rss 68",
+    "raw monitor sample 69",
+    "sample gap rss 69",
+    "raw monitor sample 70",
+    "sample gap rss 70",
+    "raw monitor sample 71",
+    "sample gap rss 71",
+    "raw monitor sample 72",
+    "sample gap rss 72",
+    "raw monitor sample 73",
+    "sample gap rss 73",
+    "raw monitor sample 74",
+    "sample gap rss 74",
+    "raw monitor sample 75",
+    "sample gap rss 75",
+    "raw monitor sample 76",
+    "sample gap rss 76",
+    "raw monitor sample 77",
+    "sample gap rss 77",
+    "raw monitor sample 78",
+    "sample gap rss 78",
+    "raw monitor sample 79",
+    "sample gap rss 79",
+    "raw monitor sample 80",
+    "sample gap rss 80",
+    "raw monitor sample 81",
+    "sample gap rss 81",
+    "raw monitor sample 82",
+    "sample gap rss 82",
+    "raw monitor sample 83",
+    "sample gap rss 83",
+    "raw monitor sample 84",
+    "sample gap rss 84",
+    "raw monitor sample 85",
+    "sample gap rss 85",
+    "raw monitor sample 86",
+    "sample gap rss 86",
+    "raw monitor sample 87",
+    "sample gap rss 87",
+    "raw monitor sample 88",
+    "sample gap rss 88",
+    "raw monitor sample 89",
+    "sample gap rss 89",
+    "raw monitor sample 90",
+    "sample gap rss 90",
+    "raw monitor sample 91",
+    "sample gap rss 91",
+    "raw monitor sample 92",
+    "sample gap rss 92",
+    "raw monitor sample 93",
+    "sample gap rss 93",
+    "raw monitor sample 94",
+    "sample gap rss 94",
+    "raw monitor sample 95",
+    "sample gap rss 95",
+    "raw monitor sample 96",
+    "sample gap rss 96",
+    "actual peak RSS",
+    "actual elapsed below cap",
+    "final sample to reap bound",
+    "parent no module origin changed or disappeared",
+    "parent before loaded __main__",
+    "parent before loaded _blake2",
+    "parent before loaded _collections_abc",
+    "parent before loaded _distutils_hack",
+    "parent before loaded _frozen_importlib",
+    "parent before loaded _frozen_importlib_external",
+    "parent before loaded _hashlib",
+    "parent before loaded _json",
+    "parent before loaded _posixsubprocess",
+    "parent before loaded _sitebuiltins",
+    "parent before loaded _weakrefset",
+    "parent before loaded abc",
+    "parent before loaded codecs",
+    "parent before loaded collections",
+    "parent before loaded collections.abc",
+    "parent before loaded contextlib",
+    "parent before loaded copyreg",
+    "parent before loaded encodings",
+    "parent before loaded encodings.aliases",
+    "parent before loaded encodings.ascii",
+    "parent before loaded encodings.utf_8",
+    "parent before loaded enum",
+    "parent before loaded fcntl",
+    "parent before loaded fnmatch",
+    "parent before loaded functools",
+    "parent before loaded genericpath",
+    "parent before loaded hashlib",
+    "parent before loaded importlib",
+    "parent before loaded importlib._abc",
+    "parent before loaded importlib._bootstrap",
+    "parent before loaded importlib._bootstrap_external",
+    "parent before loaded importlib.util",
+    "parent before loaded io",
+    "parent before loaded ipaddress",
+    "parent before loaded json",
+    "parent before loaded json.decoder",
+    "parent before loaded json.encoder",
+    "parent before loaded json.scanner",
+    "parent before loaded keyword",
+    "parent before loaded locale",
+    "parent before loaded math",
+    "parent before loaded ntpath",
+    "parent before loaded operator",
+    "parent before loaded os",
+    "parent before loaded os.path",
+    "parent before loaded pathlib",
+    "parent before loaded posixpath",
+    "parent before loaded re",
+    "parent before loaded re._casefix",
+    "parent before loaded re._compiler",
+    "parent before loaded re._constants",
+    "parent before loaded re._parser",
+    "parent before loaded reprlib",
+    "parent before loaded ri121_runtime_support",
+    "parent before loaded select",
+    "parent before loaded selectors",
+    "parent before loaded signal",
+    "parent before loaded site",
+    "parent before loaded sitecustomize",
+    "parent before loaded stat",
+    "parent before loaded subprocess",
+    "parent before loaded threading",
+    "parent before loaded types",
+    "parent before loaded urllib",
+    "parent before loaded urllib.parse",
+    "parent before loaded warnings",
+    "parent before loaded zipimport",
+    "parent after loaded __main__",
+    "parent after loaded _blake2",
+    "parent after loaded _collections_abc",
+    "parent after loaded _distutils_hack",
+    "parent after loaded _frozen_importlib",
+    "parent after loaded _frozen_importlib_external",
+    "parent after loaded _hashlib",
+    "parent after loaded _json",
+    "parent after loaded _posixsubprocess",
+    "parent after loaded _sitebuiltins",
+    "parent after loaded _weakrefset",
+    "parent after loaded abc",
+    "parent after loaded codecs",
+    "parent after loaded collections",
+    "parent after loaded collections.abc",
+    "parent after loaded contextlib",
+    "parent after loaded copyreg",
+    "parent after loaded encodings",
+    "parent after loaded encodings.aliases",
+    "parent after loaded encodings.ascii",
+    "parent after loaded encodings.utf_8",
+    "parent after loaded enum",
+    "parent after loaded fcntl",
+    "parent after loaded fnmatch",
+    "parent after loaded functools",
+    "parent after loaded genericpath",
+    "parent after loaded hashlib",
+    "parent after loaded importlib",
+    "parent after loaded importlib._abc",
+    "parent after loaded importlib._bootstrap",
+    "parent after loaded importlib._bootstrap_external",
+    "parent after loaded importlib.util",
+    "parent after loaded io",
+    "parent after loaded ipaddress",
+    "parent after loaded json",
+    "parent after loaded json.decoder",
+    "parent after loaded json.encoder",
+    "parent after loaded json.scanner",
+    "parent after loaded keyword",
+    "parent after loaded locale",
+    "parent after loaded math",
+    "parent after loaded ntpath",
+    "parent after loaded operator",
+    "parent after loaded os",
+    "parent after loaded os.path",
+    "parent after loaded pathlib",
+    "parent after loaded posixpath",
+    "parent after loaded re",
+    "parent after loaded re._casefix",
+    "parent after loaded re._compiler",
+    "parent after loaded re._constants",
+    "parent after loaded re._parser",
+    "parent after loaded reprlib",
+    "parent after loaded ri121_runtime_support",
+    "parent after loaded select",
+    "parent after loaded selectors",
+    "parent after loaded signal",
+    "parent after loaded site",
+    "parent after loaded sitecustomize",
+    "parent after loaded stat",
+    "parent after loaded subprocess",
+    "parent after loaded threading",
+    "parent after loaded types",
+    "parent after loaded urllib",
+    "parent after loaded urllib.parse",
+    "parent after loaded warnings",
+    "parent after loaded zipimport",
+    "worker no module origin changed or disappeared",
+    "worker before loaded __main__",
+    "worker before loaded _blake2",
+    "worker before loaded _collections_abc",
+    "worker before loaded _distutils_hack",
+    "worker before loaded _frozen_importlib",
+    "worker before loaded _frozen_importlib_external",
+    "worker before loaded _hashlib",
+    "worker before loaded _json",
+    "worker before loaded _posixsubprocess",
+    "worker before loaded _sitebuiltins",
+    "worker before loaded _weakrefset",
+    "worker before loaded abc",
+    "worker before loaded codecs",
+    "worker before loaded collections",
+    "worker before loaded collections.abc",
+    "worker before loaded contextlib",
+    "worker before loaded copyreg",
+    "worker before loaded encodings",
+    "worker before loaded encodings.aliases",
+    "worker before loaded encodings.ascii",
+    "worker before loaded encodings.utf_8",
+    "worker before loaded enum",
+    "worker before loaded fcntl",
+    "worker before loaded fnmatch",
+    "worker before loaded functools",
+    "worker before loaded genericpath",
+    "worker before loaded hashlib",
+    "worker before loaded importlib",
+    "worker before loaded importlib._abc",
+    "worker before loaded importlib._bootstrap",
+    "worker before loaded importlib._bootstrap_external",
+    "worker before loaded importlib.util",
+    "worker before loaded io",
+    "worker before loaded ipaddress",
+    "worker before loaded json",
+    "worker before loaded json.decoder",
+    "worker before loaded json.encoder",
+    "worker before loaded json.scanner",
+    "worker before loaded keyword",
+    "worker before loaded locale",
+    "worker before loaded math",
+    "worker before loaded ntpath",
+    "worker before loaded operator",
+    "worker before loaded os",
+    "worker before loaded os.path",
+    "worker before loaded pathlib",
+    "worker before loaded posixpath",
+    "worker before loaded re",
+    "worker before loaded re._casefix",
+    "worker before loaded re._compiler",
+    "worker before loaded re._constants",
+    "worker before loaded re._parser",
+    "worker before loaded reprlib",
+    "worker before loaded ri121_runtime_support",
+    "worker before loaded ri121_worker_admission",
+    "worker before loaded ri121_worker_control",
+    "worker before loaded select",
+    "worker before loaded selectors",
+    "worker before loaded signal",
+    "worker before loaded site",
+    "worker before loaded sitecustomize",
+    "worker before loaded stat",
+    "worker before loaded subprocess",
+    "worker before loaded threading",
+    "worker before loaded types",
+    "worker before loaded urllib",
+    "worker before loaded urllib.parse",
+    "worker before loaded warnings",
+    "worker before loaded zipimport",
+    "worker after loaded __main__",
+    "worker after loaded _blake2",
+    "worker after loaded _collections_abc",
+    "worker after loaded _contextvars",
+    "worker after loaded _distutils_hack",
+    "worker after loaded _frozen_importlib",
+    "worker after loaded _frozen_importlib_external",
+    "worker after loaded _hashlib",
+    "worker after loaded _json",
+    "worker after loaded _posixsubprocess",
+    "worker after loaded _pydecimal",
+    "worker after loaded _sitebuiltins",
+    "worker after loaded _weakrefset",
+    "worker after loaded abc",
+    "worker after loaded codecs",
+    "worker after loaded collections",
+    "worker after loaded collections.abc",
+    "worker after loaded contextlib",
+    "worker after loaded contextvars",
+    "worker after loaded copy",
+    "worker after loaded copyreg",
+    "worker after loaded decimal",
+    "worker after loaded encodings",
+    "worker after loaded encodings.aliases",
+    "worker after loaded encodings.ascii",
+    "worker after loaded encodings.utf_8",
+    "worker after loaded enum",
+    "worker after loaded fcntl",
+    "worker after loaded fnmatch",
+    "worker after loaded fractions",
+    "worker after loaded functools",
+    "worker after loaded genericpath",
+    "worker after loaded hashlib",
+    "worker after loaded importlib",
+    "worker after loaded importlib._abc",
+    "worker after loaded importlib._bootstrap",
+    "worker after loaded importlib._bootstrap_external",
+    "worker after loaded importlib.util",
+    "worker after loaded io",
+    "worker after loaded ipaddress",
+    "worker after loaded json",
+    "worker after loaded json.decoder",
+    "worker after loaded json.encoder",
+    "worker after loaded json.scanner",
+    "worker after loaded keyword",
+    "worker after loaded locale",
+    "worker after loaded math",
+    "worker after loaded ntpath",
+    "worker after loaded numbers",
+    "worker after loaded operator",
+    "worker after loaded os",
+    "worker after loaded os.path",
+    "worker after loaded pathlib",
+    "worker after loaded posixpath",
+    "worker after loaded re",
+    "worker after loaded re._casefix",
+    "worker after loaded re._compiler",
+    "worker after loaded re._constants",
+    "worker after loaded re._parser",
+    "worker after loaded reprlib",
+    "worker after loaded ri121_runtime_support",
+    "worker after loaded ri121_science_primary",
+    "worker after loaded ri121_science_qualify",
+    "worker after loaded ri121_science_validator",
+    "worker after loaded ri121_worker_admission",
+    "worker after loaded ri121_worker_control",
+    "worker after loaded select",
+    "worker after loaded selectors",
+    "worker after loaded signal",
+    "worker after loaded site",
+    "worker after loaded sitecustomize",
+    "worker after loaded stat",
+    "worker after loaded subprocess",
+    "worker after loaded threading",
+    "worker after loaded types",
+    "worker after loaded urllib",
+    "worker after loaded urllib.parse",
+    "worker after loaded warnings",
+    "worker after loaded weakref",
+    "worker after loaded zipimport",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_collections_abc.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_posixsubprocess.cpython-311-darwin.so",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_sitebuiltins.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_weakrefset.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/abc.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/codecs.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/abc.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/fcntl.cpython-311-darwin.so",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fnmatch.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_abc.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/util.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/io.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ipaddress.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ntpath.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/select.cpython-311-darwin.so",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/selectors.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/signal.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__init__.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/parse.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/warnings.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipimport.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/control.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/primary.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/qualify.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/validator.py",
+    "exact /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py",
+    "parent origins identical",
+    "whole report canonical body",
+    "entire qualification envelope exact",
+    "entire scientific envelope exact",
+    "exact nine case three bound inventories",
+    "33 mutation 5 parser 3 PSD controls",
+    "actual reported control agreement M01_missing_root_key",
+    "actual reported control agreement M02_wrong_phase",
+    "actual reported control agreement M03_wrong_result_status",
+    "actual reported control agreement M04_physical_scope",
+    "actual reported control agreement M05_missing_case",
+    "actual reported control agreement M06_shared_coordinate",
+    "actual reported control agreement M07_first_T_crop",
+    "actual reported control agreement M08_output_map",
+    "actual reported control agreement M09_declared_factor",
+    "actual reported control agreement M10_nonPSD_covariance",
+    "actual reported control agreement M11_dropped_cross_term",
+    "actual reported control agreement M12_transposed_cross_block",
+    "actual reported control agreement M13_omitted_mean_dispersion",
+    "actual reported control agreement M14_wrong_n_divisor",
+    "actual reported control agreement M15_wrong_direct_energy",
+    "actual reported control agreement M16_rational_boolean",
+    "actual reported control agreement M17_unreduced_rational",
+    "actual reported control agreement M18_scientific_float",
+    "actual reported control agreement M19_wrong_sign_count",
+    "actual reported control agreement M20_boolean_sign_count",
+    "actual reported control agreement M21_calibrated_constant_claim",
+    "actual reported control agreement M22_negative_eta",
+    "actual reported control agreement M23_understated_covariance_bound",
+    "actual reported control agreement M24_understated_calibration_bound",
+    "actual reported control agreement M25_wrong_nuisance_dimension",
+    "actual reported control agreement M26_missing_case_field",
+    "actual reported control agreement M27_incomplete_covariance_row",
+    "actual reported control agreement M28_boolean_selector",
+    "actual reported control agreement M29_oversized_rational_component",
+    "actual reported control agreement M30_boolean_model_kind",
+    "actual reported control agreement M31_wrong_group_inventory",
+    "actual reported control agreement M32_zeroed_oriented_covariance",
+    "actual reported control agreement M33_oversized_malformed_scalar",
+    "actual reported control agreement P01_duplicate_keys",
+    "actual reported control agreement P02_nonfinite",
+    "actual reported control agreement P03_missing_terminal_newline",
+    "actual reported control agreement P04_body_over_limit",
+    "actual reported control agreement P05_nonbytes",
+    "actual reported control agreement G01_nonsymmetric",
+    "actual reported control agreement G02_negative_diagonal",
+    "actual reported control agreement G03_oversized_cancelled_products",
+    "full external pre post metadata byte identical",
+    "required nonnull exact actual dyld sidecar",
+    "actual route absent /System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+    "actual route absent /opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+    "actual route absent /System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+    "actual route symlink exact",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/check_runtime_metadata.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/metadata.py",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ACTUAL_DYLD_ROUTE_SIDECAR.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/FILE_SELECTION_METADATA.candidate.json",
+    "exact /Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/OPTIONAL_NATIVE_NAMESPACES.candidate.json",
+    "optimized not admitted during independent normal review"
+  ],
+  "elapsed_seconds": 3.1491453340022417,
+  "final_gap_seconds": 0.030104500001471024,
+  "max_sample_gap_seconds": 0.03785608299949672,
+  "method": "Reviewer-owned JSON comparison and opaque hashing only; no target import, fixtures, science arithmetic, replay or admission. Root and child whole 9923-file scans not duplicated.",
+  "modules": {
+    "parent": {
+      "added_modules": [],
+      "after_count": 67,
+      "before_count": 67
+    },
+    "worker": {
+      "added_modules": [
+        "_contextvars",
+        "_pydecimal",
+        "contextvars",
+        "copy",
+        "decimal",
+        "fractions",
+        "numbers",
+        "ri121_science_primary",
+        "ri121_science_qualify",
+        "ri121_science_validator",
+        "weakref"
+      ],
+      "after_count": 80,
+      "before_count": 69
+    }
+  },
+  "peak_sampled_rss_kib": 54688,
+  "reviewer_metadata_draft_correction": "An earlier unsaved metadata-only command stopped at the mistaken expectation len(sourcepins.files)+2==20; actual manifest has 20 records plus SOURCE_PINS/HANDOFF. Corrected before review acceptance, no target activity or output changes.",
+  "sample_count": 97,
+  "schema": "ri121-independent-normal-saved-metadata-check-v1",
+  "scientific_read_coverage": {
+    "bounds": 3,
+    "case_field_counts_including_id": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "complete_cases": 9,
+    "controls": 41,
+    "recomputed": false
+  },
+  "status": "ALL_SAVED_CUSTODY_METADATA_CHECKS_PASS",
+  "unique_loaded_files": [
+    {
+      "bytes": 31898,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+      "sha256": "866d93f0db0e6bfddc839bfbfee507d6eae864ca248b9e6e43d3e32328cb3806"
+    },
+    {
+      "bytes": 71658,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+      "sha256": "82ef0ba9e7dc409483696efbca376d333ab486f9d8551055db94216a0978d811"
+    },
+    {
+      "bytes": 30193,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_collections_abc.py",
+      "sha256": "ec646ef7e27aae261adef3c57b9d18822c6526b3e9562dabb9f3cb4e6803066c"
+    },
+    {
+      "bytes": 6299,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+      "sha256": "46849a60a7cc85189cf6b5ac62b3f135004862ce6a96540a81c95ef6fbc4dc3e"
+    },
+    {
+      "bytes": 48223,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.py",
+      "sha256": "2aa31b7369a9725ce893fed35e33a2ffb1c908ecc7411a34d7975cb25a28f695"
+    },
+    {
+      "bytes": 68856,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+      "sha256": "5b7f704fd3198cb474fea0e74cb21df2d159ceb6bde78aad5db3eb5efa883ccf"
+    },
+    {
+      "bytes": 98432,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+      "sha256": "751646919aab440190d8e49d0e36a9b92f856a8d44b4e761f617dabaad1488ea"
+    },
+    {
+      "bytes": 73384,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+      "sha256": "f24a3dee312dd3b0f50e568c2c95a578b742bde3611eccacc1b6214d9ae94db1"
+    },
+    {
+      "bytes": 54307,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_posixsubprocess.cpython-311-darwin.so",
+      "sha256": "7235f558ad9020206ccf1bf4298493a9f5801ba6b4c866f074facc1227721733"
+    },
+    {
+      "bytes": 3128,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_sitebuiltins.py",
+      "sha256": "b9388bc1d6d12ed6be12da420ab1feca40f99c0e33ec315d92b1e01cb69b25bc"
+    },
+    {
+      "bytes": 5893,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_weakrefset.py",
+      "sha256": "91895a451d06e9f521a1171b31b9b19bc9740f35af00d4fa106338ab7167c9ac"
+    },
+    {
+      "bytes": 6538,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/abc.py",
+      "sha256": "e558702a95cdce3febd289da021715d2b92bc43995b8a1bc58dfa1c3d8010287"
+    },
+    {
+      "bytes": 37150,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/codecs.py",
+      "sha256": "f16a81d14e7f73931ecf9f9f2e17c10bc0ca29bbe38b0243f6919b70882fcfea"
+    },
+    {
+      "bytes": 52018,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+      "sha256": "303701de55e434c0fbcc478ae8a79a28537d9ebe83b3150508438ffd6e3e14c7"
+    },
+    {
+      "bytes": 119,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/abc.py",
+      "sha256": "9cb4208f99128a0489b6c8e6c61637617dd7d4250c59e065491957eda084dd10"
+    },
+    {
+      "bytes": 27076,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py",
+      "sha256": "a907c5d2151782ac1253dc9eade52fd834a1db43f52cc2b5094dcc4b359de18e"
+    },
+    {
+      "bytes": 7677,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+      "sha256": "5499e1be7ba52d4715a911ae65ef2d703db9379d21fff2a07fad8877c318e070"
+    },
+    {
+      "bytes": 5884,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+      "sha256": "78c4744d407690f321565488710b5aaf6486b5afa8d185637aa1e7633ab59cd8"
+    },
+    {
+      "bytes": 15677,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+      "sha256": "6fdcc49ba23a0203ae6cf28e608f8e6297d7c4d77d52e651db3cb49b9564c6d2"
+    },
+    {
+      "bytes": 1248,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+      "sha256": "578aa1173f7cc60dad2895071287fe6182bd14787b3fbf47a6c7983dfe3675e3"
+    },
+    {
+      "bytes": 1005,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+      "sha256": "ba0cac060269583523ca9506473a755203037c57d466a11aa89a30a5f6756f3d"
+    },
+    {
+      "bytes": 78979,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+      "sha256": "573996961237c0f6649fe6e19c67ac7566fbea0d3ea2a62faf1340bef87e24e2"
+    },
+    {
+      "bytes": 52456,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/fcntl.cpython-311-darwin.so",
+      "sha256": "ddae443efc04a1cdb034f35d6c94945f98a4dec5cfd3bf8825f3175c03fcd8f6"
+    },
+    {
+      "bytes": 5999,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fnmatch.py",
+      "sha256": "6683da36e47af523f3f41e18ad244d837783e19e98911cc0b7415dea81494ebc"
+    },
+    {
+      "bytes": 38413,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+      "sha256": "6d80018a3fa9fed44c5b78f881987ee3ab3fb1238b077b4e6dcb4b76da7db73b"
+    },
+    {
+      "bytes": 4975,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py",
+      "sha256": "9d58ad64056a89f12258a62596c2073cd9e52b459dde152f710edc0cffcd865b"
+    },
+    {
+      "bytes": 11765,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+      "sha256": "e2bffb462e4d43e6637b9450e259e8ba2a56626ba3037d68aa1cee68b3f61d4a"
+    },
+    {
+      "bytes": 6089,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py",
+      "sha256": "49ad4fdc8139026f7f3773e3f50f09207ff6bd8e92a2c382545525235448e525"
+    },
+    {
+      "bytes": 1852,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_abc.py",
+      "sha256": "e24fa90513d1fd6e10df30dc28044dfcad857b88161c79de10f7109c18227e8d"
+    },
+    {
+      "bytes": 11487,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/util.py",
+      "sha256": "de645b9f6d595f5e415d117f4d04ce77f144ce5ad2a6477659a9b5547d54b9dd"
+    },
+    {
+      "bytes": 4240,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/io.py",
+      "sha256": "0bb3f9ba75c78b4ad69dedcfb0b360b4503188cf17a632579a70d398bd9ca0e4"
+    },
+    {
+      "bytes": 75002,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ipaddress.py",
+      "sha256": "c4a22d96741ef70d49120cd31f942a35094e666021af9b663446bd68dacdb9bd"
+    },
+    {
+      "bytes": 14020,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+      "sha256": "d5d41e2c29049515d295d81a6d40b4890fbec8d8482cfb401630f8ef2f77e4d5"
+    },
+    {
+      "bytes": 12473,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+      "sha256": "9f02654649816145bc76f8c210a5fe3ba1de142d4d97a1c93105732e747c285b"
+    },
+    {
+      "bytes": 16080,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+      "sha256": "7c358788fbb2a6a07f66f1f8446c52396f35fc201108f666d5be002d86f31af2"
+    },
+    {
+      "bytes": 2425,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+      "sha256": "8604d9d03786d0d509abb49e9f069337278ea988c244069ae8ca2c89acc2cb08"
+    },
+    {
+      "bytes": 1061,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+      "sha256": "afbe73afb68d32fa998e5ff3d081090deec457152470f5331cc2bd430a0e9d2a"
+    },
+    {
+      "bytes": 78998,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+      "sha256": "2bca02e9fc154dbec3f33bb9c71bcc8c08694f1dbfd31e079d692993bf3dca0c"
+    },
+    {
+      "bytes": 93719,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+      "sha256": "5dbbb0dd5e6e82508ea57b2d790928a63aea41b31b447404fe480af5d5c2fbe2"
+    },
+    {
+      "bytes": 30222,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ntpath.py",
+      "sha256": "030fdd768135c4de3b4c56ca0f13d2f4801ccbcde4144382334cf75a477dd0de"
+    },
+    {
+      "bytes": 10965,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+      "sha256": "b2af20f67667203c1730e686cc5d0427becc94db4c97f1d3efe3ed2158473f6a"
+    },
+    {
+      "bytes": 39504,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py",
+      "sha256": "021bfb21a96fdaac4b2c034d40636f5e18148a8a95282661a9bc14f3fa979a99"
+    },
+    {
+      "bytes": 17013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+      "sha256": "115bb3d2051318ee3d951cdb13c60f118f15cea837cb69fb52cf543c12fe25c3"
+    },
+    {
+      "bytes": 48566,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py",
+      "sha256": "3b21ac188fd9ac20bacc8ccd976fabd5d8ccf5000f8e157d3dfff005b228fb3d"
+    },
+    {
+      "bytes": 15889,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+      "sha256": "029ead61f362489e9bb034f4c2503abee95462056541e9ad07715de3c353b0da"
+    },
+    {
+      "bytes": 5446,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+      "sha256": "41572ac50cf96b04496e676d8a6708898bb8e752e06dad34ed4c50c5d8f1fe40"
+    },
+    {
+      "bytes": 26013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+      "sha256": "23b13f6c11c3343aff2b701b5844a6c82a1a0add70e5aa839d6855d57f691af7"
+    },
+    {
+      "bytes": 5930,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+      "sha256": "3e4463dc8ba87c4a3563be46d2d593e82ca9a0fb91768cfe5a07554ed3de82c5"
+    },
+    {
+      "bytes": 42197,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+      "sha256": "f8dfee5093475d3454ca70299880540673443eb99547d001b47af3f56eb91a3d"
+    },
+    {
+      "bytes": 5437,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+      "sha256": "264433cc232332db871666b3bb6e4c2cb97b092cb8d5056a45ec2e53daea2b1c"
+    },
+    {
+      "bytes": 8184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    {
+      "bytes": 74121,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/select.cpython-311-darwin.so",
+      "sha256": "8b658757c7432149746062e96a3324e3f5bd99e8489b06b75e4af119c3d26b2c"
+    },
+    {
+      "bytes": 19671,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/selectors.py",
+      "sha256": "1eeb102373e18c96311203f30c516e785bd8642275aa0bd66e43a284c9692385"
+    },
+    {
+      "bytes": 2438,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/signal.py",
+      "sha256": "6ae9e49fe09b607bc161fc80067de9763aa48f523567a34992f00be06057f00a"
+    },
+    {
+      "bytes": 22648,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py",
+      "sha256": "6803396ba0719e4d1d6ce9351f09f0bca11ab8e9c4efe0f935f598da8e8b903e"
+    },
+    {
+      "bytes": 3426,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+      "sha256": "d537eac36341d38454ed3bd8fae3e63b84de65ef89ee8632681e140360c1e160"
+    },
+    {
+      "bytes": 5485,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py",
+      "sha256": "052af0327eae6941b69b05c088b3e748f79995635f80ac4cc7125eb333eb4c77"
+    },
+    {
+      "bytes": 88448,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py",
+      "sha256": "2ff641d58f8696496e8718538cd96cd7afcd503ae271fb23da22422b3aee9fc7"
+    },
+    {
+      "bytes": 57988,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py",
+      "sha256": "2c4c1db159e1178896eca324082ae98d627c8d7017d0c7135b832f4fb3117210"
+    },
+    {
+      "bytes": 10067,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+      "sha256": "0c08fbb650c37535a7d8361fc12029e3f4c72a418cf564e8779dae14b979e5ba"
+    },
+    {
+      "bytes": 0,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 44075,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/parse.py",
+      "sha256": "0e67e2f5a301d0b573698e75a4e2d37c843b48cfe0e29fef894eda90d2189c27"
+    },
+    {
+      "bytes": 21025,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/warnings.py",
+      "sha256": "3c36ff80a66718e3fc8449f06730e9d7bcef87d1e7f91b626b42ca4d1f30eab0"
+    },
+    {
+      "bytes": 30897,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipimport.py",
+      "sha256": "e84b98dd13d3a8ae3ff2094ef2889dcead41d754f0531686f0b70b8d225676cc"
+    },
+    {
+      "bytes": 10189,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+      "sha256": "1d637c181ac40c55476f7240914c22496856ecba8f085f54560357454be48841"
+    },
+    {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    {
+      "bytes": 50559,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so",
+      "sha256": "71f19ed38797e27ac3eb8d582155e235ec747d79da9faa9451d167ab3a0f8cdc"
+    },
+    {
+      "bytes": 229202,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py",
+      "sha256": "14cf1bf7ead78a0beb578f19ebc4ec82f542e0879f5b77d327f01abf74591586"
+    },
+    {
+      "bytes": 129,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py",
+      "sha256": "5ed260be8d1f4fe92261b7810b4bb1e8539c42093d7493f677d076e1a87f459a"
+    },
+    {
+      "bytes": 8681,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py",
+      "sha256": "27dcfc53a4b9d4fbc3d90c74e549eb6eca9301524d6d2fbff9a6589cf51b6fd5"
+    },
+    {
+      "bytes": 320,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py",
+      "sha256": "000c00bad31d126b054c6ec7f3e02b27c0f9a4d579f987d3c4f879cee1bacb81"
+    },
+    {
+      "bytes": 28667,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py",
+      "sha256": "b11e850e354808b882d13a70a911c29accd1dbdd41757566704e3b7206c74edb"
+    },
+    {
+      "bytes": 10348,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py",
+      "sha256": "6d70991643a109e9c99e94d6ea2734a995fa8e89114a70ea09737413fa9ae292"
+    },
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 14435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/qualify.py",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    {
+      "bytes": 23321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/validator.py",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    },
+    {
+      "bytes": 21513,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py",
+      "sha256": "56f8d313fb74019e53eb9287400702fbce788b7fe30e097b0b6e06296f3f080c"
+    }
+  ]
+}

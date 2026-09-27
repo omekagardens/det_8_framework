@@ -1,0 +1,11 @@
+{
+  "actual_tool": "0a63bc",
+  "cause": "Unused self-comparison passed already encoded canonical bytes through JSON encoding again.",
+  "exception": "TypeError: Object of type bytes is not JSON serializable",
+  "kind": "root_saved_metadata_checker_draft_error",
+  "preserved_source": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/review_mode_custody.before-metadata-fix.py",
+  "repair": "Preserved draft, removed only unused line; saved metadata review rerun492aec passed.",
+  "saved_scientific_outputs_changed": false,
+  "scientific_or_caller_sources_changed": false,
+  "scientific_target_reexecuted": false
+}

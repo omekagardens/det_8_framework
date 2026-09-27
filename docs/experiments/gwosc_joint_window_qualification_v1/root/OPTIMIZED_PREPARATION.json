@@ -1,0 +1,18 @@
+{
+  "card": {
+    "bytes": 1655,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/ADMIT_OPTIMIZED.json",
+    "sha256": "ddbad863d5f5d43a90b18f0aa88b9a84f6ae8c17728bd2d38ae91d16bc78524a"
+  },
+  "freeze": {
+    "bytes": 11310,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/AUTHORIZED_FREEZE.json",
+    "sha256": "011083d445af9aad10b7baa3407d535a8fa899b973a4514331af51797f631684"
+  },
+  "normal_review": {
+    "bytes": 2886,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_NORMAL_ADJUDICATION.json",
+    "sha256": "9a1ced5314557dd0268cacba68d98ec5a40c7f64ded7a00ea388af974cdcf61c"
+  },
+  "optimized_execution_so_far": false
+}

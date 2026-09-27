@@ -1,0 +1,40 @@
+{
+  "admission": {
+    "bytes": 4383,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_ADMISSION.json",
+    "sha256": "cf0d4b02abe2732124d71ad8d9e2683694417a08a2cdd906c495a687951eb4db"
+  },
+  "command": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "-I",
+    "-B",
+    "-O",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/runtime_profile_probe.py"
+  ],
+  "elapsed_seconds": 0.04778854100004537,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "mode": "optimized",
+  "returncode": 0,
+  "stderr": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_OPTIMIZED.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 28419,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_OPTIMIZED.json",
+    "sha256": "2b4702db96b577fb2a558f0667de72e1de0a38af3ee6a896e4d7c86cd68e9a65"
+  },
+  "timeout": null
+}
