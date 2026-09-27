@@ -1,39 +1,39 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 26 September 2026 UTC.** RI-120's conditional
-prefix identities and complete connected-sensitivity source packet are
-independently accepted. C5's additional cap bit cancels from its full row;
-all four H5 stem slots share the actual strict-restoration coefficient,
-including the neutral root slot through a complete marked diamond. These
-identities simplify the question but do not prove either required sensitivity.
+**Current checkpoint — 27 September 2026 UTC.** RI-121's measurement
+caller repair and bounded guard regression are independently accepted. The
+original source first entered runtime support after failed prerequisites on
+six controlled refusal paths and overwrote the original stop reason on a
+seventh check. The repaired caller passes all 18 non-scientific guard cases;
+all 22 retained failure receipts and seven runtime case records were reviewed.
+Exact source and evidence are in
+`docs/experiments/gwosc_joint_window_caller_v1/`.
 
-This checkpoint publishes the sixteen unchanged packet files and root/independent
-reviews in `docs/track_b/native_growth_connected_sensitivity_v1/`. The complete
-checker and independent auditor retain 40 held rows/224 slots, seven V contrasts,
-fifteen Q2 quadratics and all nineteen certificate sections. Sixteen root,
-ten family and six decision fixtures, plus 166 producer refusal actions,
-are reviewed source declarations; none has run for RI-120.
+The source now retains only an admitted runtime helper in failure tails, requires
+complete stages on success, and binds eight startup/loader absences plus the
+core OpenSSL named-library/configuration paths. Original scientific sources,
+monitor, limits and numerical thresholds remain unchanged. These controls used
+metadata Python 3.14 with explicit fixture substitutions. Production Python 3.11
+runtime/profile acceptance and all 41 scientific controls per implementation
+remain pending; no new empirical or physical result is claimed.
 
-After predecessor adjudication, QR is assigned RI-122: the smallest concrete
-native execution caller and independent applicability review in external
-`ri122-native-caller-source-jgehvvxx/`, retaining all
-native resource bounds, complete runtime/history closure and genuine sequential
-custody. Actual connected sensitivity and full 28-child feasibility remain open.
-No new D1 inputs, support/seed/amplitude change or actual-scale selection is
-assigned. Root owns all actual admissions, repository/index and publication.
+Root's next measurement step is fresh complete runtime/profile and explicit
+startup/cache/host/OpenSSL/decimal closure, then actual normal scientific
+qualification and full saved/custody review before separate optimized admission.
+The immutable current caller is external `ri121-synthetic-caller-repair-7ys8vsc3/`;
+the original refused packet and superseded source preparation are preserved.
 
-Measurement RI-119 source publication is remotely verified in `c5939d2`;
-RI-121 continues its concrete synthetic caller preparation in external
-`ri121-synthetic-caller-source-0wmr9ajh/`. Complete current pure-Python stdlib
-and interpreter closure is required before its fresh admission; the inherited
-inventory alone is insufficient for that new caller. This does not establish
-a retrospective failure of RI-116. Actual qualification remains unperformed.
+QR's existing RI-122 native connected-sensitivity caller preparation remains
+active in `ri122-native-caller-source-jgehvvxx/`; source/runtime/history reviews
+continue without duplicate assignment. RI-120's conditional prefix identities
+and complete scientific source are published in verified `fc986bf`; actual
+sensitivity and full 28-child positive feasibility remain unresolved. Root owns
+actual admissions, repository/index operations and publication.
 
-RI-117's conditional proof, RI-118's measurement design, RI-115's rank result
-and RI-116's descriptive comparison remain published in verified `3aeb064`,
-`d957c43`, `f6d486e` and `c34980c`. The broader programme remains active.
-Physical calibration, a native forward map and protected validation remain
-separate. RET alone stays paused.
+The programme remains active. RI-119 source (`c5939d2`), RI-117 proof,
+RI-118 design, RI-115 rank result and RI-116 descriptive public comparison remain
+preserved. Calibration, covariance adequacy, native forward maps and protected
+validation remain separate. RET alone stays paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -97,9 +97,9 @@ with unrelated changes to make an import succeed.
 | RI-116 observed caller adaptation | Exact result, six artifacts and independent reviews published in verified `c34980c`; both modes identical. | RI-118 advances joint-window/overlap design under explicit model and nuisance premises. |
 | RI-117 coupled positive native repair | Complete conditional reduction and independent reviews published in remotely verified `3aeb064`. Full 28-child feasibility remains open. | Preserve the result; RI-120 addresses connected sensitivity on the existing held slice. |
 | RI-118 joint-window measurement model | Conditional design published in remotely verified `d957c43`: all eight identities/bounds, twelve group oracles and 38 tiny reviewer checks; no qualification campaign. | RI-119 completes synthetic implementation and independent validation sources before actual qualification. |
-| RI-119 synthetic joint-window implementation | Complete scientific source/contract published in remotely verified `c5939d2`: nine cases, three bounds, twelve groups and 41 declared controls per implementation. | RI-121 prepares concrete caller and applicability review; actual qualification remains unperformed. |
-| RI-120 connected-profile sensitivity | Conditional actual-prefix identities and complete checker/auditor source independently accepted; unchanged 40 rows/224 slots and all 7/15 contrasts. Published with reviews in this checkpoint; no actual sensitivity decision. | RI-122 prepares minimal native caller/applicability. Preserve all-zero/null-root and undetermined-scale branches, unchanged bounds and genuine custody. |
-| RI-121 synthetic qualification caller | Active external `ri121-synthetic-caller-source-0wmr9ajh/`. Complete current pure-Python stdlib/interpreter closure required beyond inherited inventory; independent applicability review in progress. | Review stable concrete caller, then root fresh identity/admission and actual serial normal/optimized qualification. No retrospective RI-116 failure inferred. |
+| RI-119 synthetic joint-window implementation | Complete scientific source/contract published in remotely verified `c5939d2`: nine cases, three bounds, twelve groups and 41 declared controls per implementation. | RI-121 caller source and bounded guards accepted; production runtime and actual scientific qualification remain pending. |
+| RI-120 connected-profile sensitivity | Conditional actual-prefix identities and complete checker/auditor source independently accepted; unchanged 40 rows/224 slots and all 7/15 contrasts. Published with reviews in verified `fc986bf`; no actual sensitivity decision. | RI-122 prepares minimal native caller/applicability. Preserve all-zero/null-root and undetermined-scale branches, unchanged bounds and genuine custody. |
+| RI-121 synthetic qualification caller | Caller source repair and 18/18 bounded non-scientific guards independently accepted; original six early-entry violations plus one overwritten stop reason retained. Current external `ri121-synthetic-caller-repair-7ys8vsc3/`; production runtime and science unqualified. | Establish fresh actual complete runtime/profile and startup/cache/host/OpenSSL/decimal premises, then admit normal scientific qualification and review before optimized. No retrospective RI-116 failure inferred. |
 | RI-122 native connected-sensitivity caller | Assigned and acknowledged by existing QR task after RI-120 root and complete independent source review, external `ri122-native-caller-source-jgehvvxx/`. | Prepare minimal source-only retained-supervisor caller with eight premises, 18 audit payloads/19 protected objects, full runtime/history/failure custody and fresh changed-target applicability. Root owns actual stages; no target execution assigned yet. |
 | RI-115 native rank execution caller | Exact result/audit and independent reviews published in remotely verified `f6d486e`. Six minors vanish identically; positive feasibility remains open. | Preserve completed source/results; RI-117 conditional proof is accepted and RI-120 addresses connected sensitivity. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |
@@ -6071,3 +6071,26 @@ full current interpreter/stdlib/source/ancestry closure and genuine ordered
 witness/replay/audit custody. QR receives this next concrete assignment after
 predecessor review; handoff completion does not pause the programme.
 Measurement RI-121 remains active separately; RET alone remains paused.
+
+
+**27 September: RI-121 refusal repair and bounded guards accepted.**
+
+Original failure-tail ordering is independently confirmed and experimentally
+reproduced in the limited harness: original 4/11 pass, six premature runtime
+entries and one stop-reason overwrite fail. Repaired 18/18 pass, genuine tool
+`85a307` exits 0; predecessor tool `684a0d` exits 1 as expected. Independent review
+checks both full reports, all 22 failure receipts, seven runtime records and
+source/admission/template custody. These are actual non-scientific guard tests
+under metadata Python 3.14; all 41 RI119 science controls remain unrun.
+
+Root final adjudication is retained in external
+`ri121-root-caller-review-e6_dha8i/ROOT_FINAL_GUARD_ADJUDICATION.json` and copied
+with exact sources/reviews into `docs/experiments/gwosc_joint_window_caller_v1/`.
+The original source, intermediate preparation, failed regression and historical
+results are preserved. Actual production runtime/profile, supplier/cache and
+host-loader premises, OpenSSL configuration/provider and decimal fallback
+verification remain the next concrete measurement prerequisite. Source-only
+acceptance is not a production mode admission. Unchanged limits and all
+numerical acceptance thresholds remain. QR RI-122 continues its current
+native caller review; root will review that predecessor before actual native
+execution or any successor assignment. RET alone remains paused.

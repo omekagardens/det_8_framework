@@ -1,0 +1,111 @@
+{
+  "admission_and_execution_scope": {
+    "admissions": [
+      {
+        "bytes": 3302,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_ADMISSION.json",
+        "sha256": "f88eabb13a1d0e8c6a09f3a9c7769284d737a9c99ab1e266228d64e67ff0f323"
+      },
+      {
+        "bytes": 3283,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/REPAIRED_GUARD_ADMISSION.json",
+        "sha256": "9d21963f50f0fd0a6d123fa2dcae0467c841975d9b0727ad1c8a9d382a619b91"
+      }
+    ],
+    "final_independent_binding_before_guards": {
+      "bytes": 963,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/INDEPENDENT_REVIEW_BINDING_BEFORE_GUARDS.json",
+      "sha256": "9bc6cae4f19bb889c9f341e75f8ca288bf71bda07c3122cb43e4df79e85e7440"
+    },
+    "interpreter": "Both admitted literal commands use /opt/homebrew/bin/python3 -I -B, resolved/pinned to metadata Python3.14.0_1. The recorded three-link chain and exact target bytes still match. Neither is the production recovery3.11 interpreter.",
+    "root_order": "Root retained source acceptance before actual helpers were tested and separately recorded final independent source review before both guard invocations. Saved actual completion records and root-provided tool identities are reviewed as genuine execution evidence; this reviewer did not replay them.",
+    "source_acceptance": {
+      "bytes": 5892,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+      "sha256": "bda7bd10e58320c2912a4405fec16d0b386b34c7edb6f9f5b86869cf7e936f92"
+    },
+    "template_binding": "Each root guard card includes the exact source_template pin; fresh post-review hash checks match it, closing the harness-local omission through root custody."
+  },
+  "blocking_findings": [],
+  "claim_limits": [
+    "The predicates exercised in helper main/finally are actual source, but admissions and runtime observations are explicit substitutes; a caller/runtime_acceptance label is not a test of the real production admission schemas.",
+    "Only the positive runtime fixture executes verify; all seven execute scan. The broad report field actual_scanner_and_verify_used must be interpreted with that reviewed contract distinction.",
+    "These are normal-mode metadata-interpreter guard regressions, not normal/optimized production qualification or an exhaustive caller test suite.",
+    "No actual current production interpreter/profile/native-loader/cache/site/OpenSSL/decimal closure has been accepted, and no production resource-fit inference follows from the subsecond guards.",
+    "RI119 scientific41-controls-per-implementation, complete mathematical saved validation, genuine production normal execution/custody, then separately admitted optimized execution/equality are still pending.",
+    "Historical RI108/RI114 qualifications and RI110 failure remain distinct and unchanged. There is no new empirical/physical validation, native forward map or programme completion."
+  ],
+  "complete_read_coverage": "Both complete reports, all22 complete retained failure receipts, all7 runtime case records, both exact admissions, both genuine outer completion transcriptions, source-only acceptance, final independent binding before guards, root source metadata and post-guard custody.",
+  "genuine_completions": [
+    {
+      "actual_exit_code": 1,
+      "actual_tool_chunk": "684a0d",
+      "interpretation": "Expected retained demonstration:4/11 checks pass,7/11 fail.",
+      "record": {
+        "bytes": 850,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_GENUINE_OUTER.json",
+        "sha256": "49f0bbda14d533281b6189eea936573859d8f0fb8b03fdce11fd01834cdc99e9"
+      }
+    },
+    {
+      "actual_exit_code": 0,
+      "actual_tool_chunk": "85a307",
+      "interpretation": "18/18 repaired controls pass.",
+      "record": {
+        "bytes": 844,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/REPAIRED_GUARD_GENUINE_OUTER.json",
+        "sha256": "a2054cbc3c60bb01852d5e1822068db9dcddf2a6a9d1b5f977356bf8a46011a3"
+      }
+    }
+  ],
+  "independent_saved_binding_checks": {
+    "bytes": 26657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-saved-guards-licnz9_a/INDEPENDENT_SAVED_BINDINGS.json",
+    "sha256": "a3d1075cdb3b4c52d1fc747fb217dcf6e20ed03ff0e15e0723071049f1d2a608"
+  },
+  "predecessor_findings": {
+    "details": "Three parent early refusals actually reached one first helper entry and loaded_files in finally. Three worker early refusals reached one first helper entry and one runtime verify; receipts then refused because runtime_bytes_before was null. These are observed harness counters tied to reviewed actual main/finally paths, with explicit fixture admissions/runtime.",
+    "four_passes": [
+      "parent_late",
+      "worker_source",
+      "worker_late",
+      "worker_late_postcheck"
+    ],
+    "not_a_production_attempt": "Every parent has no child exit, samples, raw monitor attempts or output; every worker has exit1, no scientific capture/run/operation. The candidate3.11 command recorded in fabricated manifests was never launched.",
+    "seventh_dedicated_failure": "parent_late_postcheck retained the original error text but replaced supervisor_ValueError by postcheck_ValueError. The distinct check for preserving original_stop_reason correctly failed.",
+    "six_first_refusal_violations": [
+      "parent_source",
+      "parent_caller",
+      "parent_runtime_acceptance",
+      "worker_caller",
+      "worker_runtime_acceptance",
+      "worker_mode"
+    ]
+  },
+  "recommendation": "Accept and publish the bounded F01 regression result and repaired18/18 guard pass with the preserved predecessor failure and explicit scope. Continue with fresh root-reviewed production runtime prerequisites before any scientific mode admission.",
+  "repaired_evidence": {
+    "all_first_refusals": "Seven early-refusal cases (including already-safe worker_source) show zero helper entries/scans, false prerequisites, not_entered helper/postcheck states and null runtime observations.",
+    "all_saved_receipts": "Every22 receipt pin and its exact fabricated freeze pin matches; all88 fixture helper copies match their correct original/repaired packet helper identities. No fixture science directory exists, and all science-entry counters are zero.",
+    "failure_tail_controls": 11,
+    "fresh_source_custody": "All20 final repaired packet records and root metadata pins remain identical. Both source templates, original/repaired helper mappings, harness, admissions, source adjudication and final independent source-review binding match. Production runtime inventory, freeze, mode cards, controls and tmp remain absent in the actual repaired packet.",
+    "late_failures": "Four late controls show exactly one first helper entry. Both ordinary late failures complete their retained-handle postchecks. Both forced postcheck failures retain entered but incomplete postcheck state and the original error; the parent preserves supervisor_ValueError.",
+    "runtime_cases": "One tiny positive scanner/verify case and six exact ValueError refusals cover appearing file, dangling link, missing declared binding, changed declared binding, changed actual alias and missing mandatory config. Five domain constants are deliberately substituted. No claim of production runtime closure.",
+    "runtime_guard_controls": 7,
+    "total": 18
+  },
+  "reports": [
+    {
+      "bytes": 13318,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_RESULT.json",
+      "sha256": "c8b5b3ba532d1e512841f2499bf7f4939ee8a787bb92ec984c5e6216c12bc465"
+    },
+    {
+      "bytes": 18410,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/REPAIRED_GUARD_RESULT.json",
+      "sha256": "690321d69979c75bdf20af80f1b3d13e194f0ce8e66991b3bfe94cb9b78e95cb"
+    }
+  ],
+  "schema": "ri121-independent-complete-saved-guard-review-v1",
+  "scope": "Saved evidence review only; no helper/harness reexecution, target import, runtime profiling, scientific decoding, repository or git changes.",
+  "status": "ACCEPT_BOUNDED_NONSCIENTIFIC_GUARD_EVIDENCE"
+}

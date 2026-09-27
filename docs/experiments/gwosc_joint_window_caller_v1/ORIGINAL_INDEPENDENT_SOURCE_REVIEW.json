@@ -1,0 +1,353 @@
+{
+  "accepted_source_findings": {
+    "mode_and_custody": [
+      "Source-only template rejects active execution; normalization permits only documented schema/status, runtime inventory/profile and caller/runtime acceptance fields to vary.",
+      "Each mode needs a separately pinned admission with exact freeze and literal outer/worker argv. Normal cannot claim a future normal acceptance; optimized requires actual root normal review with exact receipt/result/worker/custody and outer-completion binding.",
+      "All six per-mode outputs are exclusive; existing attempts refuse reuse. Normal receipt success and output/custody stability are rechecked before optimized launch; full report bytes and pins must match after optimized completion.",
+      "Parent success requires typed worker exit0, empty stderr, genuine_run_started/completed, full saved validation, source/runtime/profile/admission equality across both processes and no postcheck_error. Partial output or previously written custody does not turn a failed child into success.",
+      "Mode cards and self-checking receipts are not independent authenticity. Root must retain actual tool dispatch/completion and adjudicate the bound normal review and each historical prerequisite.",
+      "Both child and parent currently collect several postchecks in one try; an early postcheck failure short-circuits later checks. Do not claim independent attempt of every protected object on every failure. Root must close any missing failure-path custody before any retry/adjudication. This is an explicit limit, distinct from F01."
+    ],
+    "monitor": [
+      "The exclusive stdout/stderr open, Popen of a new owned session, raw ps observation loop through initial reap are byte-identical to RI116 and actual RI114 source. Six retained helpers, control.py and load_captured likewise match.",
+      "Limits remain180s active child,524288KiB sampled sole-child RSS,25ms target poll,100ms sample and final-to-reap gap,50ms ps timeout. Every observation retains raw output/error/status or exception metadata.",
+      "No sample, bad ps result while live, time/RSS/gap failure refuse; owned process group is killed only if necessary and actual child.wait supplies completion. A terminal ps race may break only when child has actually finished, followed by final-gap check.",
+      "The monitor is sole-child sampled RSS, not general process-tree accounting or a hard allocation limit. Root must establish that admitted site startup and workload do not add unmonitored descendants; otherwise applicability must be reconsidered.",
+      "RI114 metadata supports actual historical use of this exact mechanism. Its22metadata interface checks and RI108 numerical qualification are separate and do not qualify RI121 science/new gates/runtime or establish present resource fit. Historical RI110 failure remains preserved; no retrospective RI116 failure is inferred."
+    ],
+    "runtime": [
+      "New scanner fixes domain to full CPython stdlib, venv site and resolved system site roots plus venv config/interpreter/framework/ps. Walk errors raise. Special files, unapproved symlinks, changed file inventory and newly present python311.zip refuse.",
+      "The three allowed links have literal targets; framework aliases resolve to independently inventoried regular files, site alias target is separately traversed. Unknown links cannot silently drop runtime files.",
+      "Current profile compares version/implementation/version_info/executable/prefixes/sys.path/byteorder/isolation/bytecode flags against root-approved values; only explicit optimize difference is allowed.",
+      "Loaded file origins must belong to runtime inventory or exact current helper/science copies and match their pins. Prior loaded origins must remain equal after execution. Built-in/frozen/nonfile origins remain platform/profile premises; file-origin checks do not pin the whole loader or OS.",
+      "Full applicable non-OS native dependency closure must be externally resolved and pinned in extra_files, not replaced by a boolean assertion. Include extension modules, framework and site-startup surfaces; review native loading alternatives and relevant directory/absence constraints.",
+      "Explicit RI122 trusted kernel/loader/Apple system-cache premise is acceptable when documented. Homebrew and other third-party libraries are not in that exception. Root must record concrete build/architecture and visible system-dependency identities/drift checks; no hermetic or full OS-image claim.",
+      "Scanner returns a file inventory, not a complete immutable directory image: empty directory membership and OS cache bytes are not cryptographically inventoried. Runtime acceptance must state exactly the covered application closure and any import-resolution premises.",
+      "No current runtime inventory/profile/library closure was established by this review. All these are genuine remaining admission prerequisites."
+    ],
+    "science_admission_and_sequence": [
+      "Exact fixed RI119 source-only acceptance and three ordered original/copy science records are required. No external scientific input is accepted. Four caller helpers and complete source-template normalization bind all non-root-owned fields.",
+      "Normal success path checks source/mode/caller/runtime prerequisites before science. All3 complete science bytes are captured and checked against SCIENCE before any scientific module load.",
+      "Worker calls actual qualify.run(primary,validator); genuine_run_completed becomes true only after return. This is the only claimed historical execution witness in the child, with genuine outer custody still required.",
+      "Whole canonical report is written, flushed and fsynced. Worker then reloads actual file bytes, parses with qualifier.parse_report, builds a fresh caller-owned primary reference and calls qualifier.audit plus complete validator.validate_result.",
+      "Fresh reference is not read from the saved result. Repeated primary enumeration, validator calls and full child pre/postchecks are inside the 180s active-child budget. Runtime fit is unknown.",
+      "Report oracle has all33 mutation,5 parser,3 PSD labels; complete scopes, counts, coverage and exact9case/3bound IDs match read qualifier declarations. Parent compares full nonnumeric envelope and actual worker bindings; it does not claim those labels independently prove execution.",
+      "AUDIT_OK retains historical_controls_reexecuted=false. Genuine run, independent reconstruction and historical control execution are distinguished.",
+      "No scientific-source edit, numeric result, sign enumeration, empirical data or native operand is introduced."
+    ]
+  },
+  "blocking_findings": [
+    {
+      "contract_conflict": "EXECUTION_CONTRACT says root source/runtime prerequisites are checked before runtime-support import, and APPLICABILITY_REVIEW describes that order as a reviewed repair. The order holds on success but fails on these deliberate refusal paths.",
+      "id": "RI121-F01",
+      "impact": "No scientific result is incorrectly accepted by this path: original failure is retained and success remains false. It is nonetheless an executable first-refusal/admission-ordering defect and unnecessary new runtime activity after a failed prerequisite, so source acceptance should wait for repair.",
+      "parent_location": {
+        "lines": "323-327,385-395",
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/launch.py"
+      },
+      "parent_trace": "Keep mode admission valid but make source_admission refuse a missing/invalid caller acceptance or runtime acceptance. Main never reaches current_runtime at line325. Its finally still reaches runtime_helper(...).loaded_files at line390. runtime_helper imports/compiles the pinned runtime_support body if it is not in sys.modules. Thus failure postprocessing first enters an unadmitted runtime helper; a source-verification refusal can reach the same route.",
+      "required_fix": "Retain explicit successful prerequisite state and an admitted captured runtime-helper handle. Failure tails must not cause its first import/compile or start a runtime scan if prerequisite admission did not complete. Record unentered stages explicitly and preserve opaque source/input evidence and original failure. Do not weaken actual success postchecks or allow missing runtime fields on success.",
+      "required_followup": "Read both repaired complete failure tails and any changed support paths; refresh all dependent manifest/source pins and reviews. Include actual prospective refusal controls for failed source verification, failed caller acceptance, failed runtime acceptance and failed child mode admission, checking zero new runtime-helper/science entry.",
+      "severity": "blocking_source_contract_ordering",
+      "title": "Failure tails may enter the runtime helper after its prerequisites were refused",
+      "worker_location": {
+        "lines": "58-65,110-123",
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/worker.py"
+      },
+      "worker_trace": "After admission module is captured, make mode_admission or source_admission fail before line62. The finally guard at line111 only checks admission is not None; line112 current_runtime then first loads runtime_support despite the failed prerequisite. If earlier raw source verification itself fails and admission remains None this particular child route is skipped, which does not remove the other routes."
+    }
+  ],
+  "date": "2026-09-26",
+  "meaningful_prospective_qualification": {
+    "cases": [
+      {
+        "boundary": "prerequisite refusal",
+        "checks": "Valid small control plus failed source/caller/runtime/mode prerequisites; assert intended first reason and no runtime-helper/science entry, specifically both repaired F01 tails."
+      },
+      {
+        "boundary": "frozen template and commands",
+        "checks": "Source-only template, changed non-root-owned field, nonempty input, wrong worker/outer flags/argv and optimized without accepted normal must refuse before child/science."
+      },
+      {
+        "boundary": "captured sources",
+        "checks": "Change one original/copy/helper pin and a captured body in isolated fixtures; reject before first science import. Do not modify original accepted sources."
+      },
+      {
+        "boundary": "runtime closure",
+        "checks": "Exercise real scanner path with source-scoped fabricated domain: added/missing file, changed link, special file, traversal error and newly present archive must refuse. Positive fixture must include permitted link target coverage."
+      },
+      {
+        "boundary": "profile and origins",
+        "checks": "Changed expected profile, untracked module-file origin and previously loaded origin drift must fail without accepting self-discovered new baseline."
+      },
+      {
+        "boundary": "saved result and failure propagation",
+        "checks": "Tampered/truncated/noncanonical saved body, fresh-reference disagreement, validator refusal and postcheck failure after output/custody creation must produce failed completion and preserve actual evidence."
+      },
+      {
+        "boundary": "serial completion/output reuse",
+        "checks": "Prior output, missing/changed normal review/output, and optimized byte difference must refuse; no prewritten report or receipt may stand in for actual run and genuine outer zero."
+      }
+    ],
+    "constraints": "Use the actual reviewed boundary functions and distinguish any intentionally substituted small fixture infrastructure from production evidence. No empirical/native workload, changed scientific source, threshold relaxation, invented success receipt or broad generic framework. Root must separately admit these controls; the review itself authorizes none.",
+    "reason": "The inherited supervision identity and RI119 scientific controls do not exercise new caller gates, runtime scanner, captured-load ordering or saved-file/failure-custody paths.",
+    "status": "RECOMMENDED_SMALL_CHANGED_CALLER_QUALIFICATION_BEFORE_SCIENTIFIC_ADMISSION_NOT_EXECUTED"
+  },
+  "next_action": "Root should request bounded F01 repair and exact repinning, then independent delta/full-tail review. Fresh actual runtime review and a concrete changed-caller qualification decision remain separate before staged normal/optimized science admission.",
+  "opaque_metadata": {
+    "active_artifacts_absent_at_check": [
+      "AUTHORIZED_FREEZE.json",
+      "ADMIT_NORMAL.json",
+      "ADMIT_OPTIMIZED.json",
+      "RUNTIME_INVENTORY.json",
+      "controls",
+      "tmp"
+    ],
+    "all_history_pins_match": true,
+    "all_science_pairs_exact": true,
+    "all_source_pins_match": true,
+    "history_identity": {
+      "bytes": 9461,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/HISTORY_CLOSURE.source-only.json",
+      "sha256": "8d147220d847df3313095cef10e34fb00d35b30ca786aedf78481457484b3c2e"
+    },
+    "history_records": 40,
+    "monitor_correspondence": "63d70b includes terminal newline in its2667-byte slice; removing that newline gives the declared2666-byte block. Both full slices are identical across current/RI116/RI114. This is source-text comparison only.",
+    "science_pairs": 3,
+    "source_pin_records": 20,
+    "source_pins_records": [
+      {
+        "bytes": 12744,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/APPLICABILITY_REVIEW.md",
+        "relative": "APPLICABILITY_REVIEW.md",
+        "role": "protocol_provenance_or_review",
+        "sha256": "0cdf31bdcc1ac21d7d590d3748824cc3445f22fcfab5f892b53e3895fa86c6e0"
+      },
+      {
+        "bytes": 2685,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/BLOCK_CORRESPONDENCE.json",
+        "relative": "BLOCK_CORRESPONDENCE.json",
+        "role": "protocol_provenance_or_review",
+        "sha256": "b38f629845cbf57cee7c36124ff53892837da74cd94b6e9b041da25d4d423d9a"
+      },
+      {
+        "bytes": 3104,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/CHANGE_SPECIFIC_CHECKS.source-only.md",
+        "relative": "CHANGE_SPECIFIC_CHECKS.source-only.md",
+        "role": "protocol_provenance_or_review",
+        "sha256": "8b5ad58f23b42ebd45fe7d4a3e10519088e66382ff4ba1baa2ed4c1943eb7c85"
+      },
+      {
+        "bytes": 1896,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/COMMANDS.source-only.json",
+        "relative": "COMMANDS.source-only.json",
+        "role": "protocol_provenance_or_review",
+        "sha256": "6cf00ae5aeee776068cbdb4f3d198173bde228d7d5c77ec5a4cf976b414513bc"
+      },
+      {
+        "bytes": 10816,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/EXECUTION_CONTRACT.source-only.md",
+        "relative": "EXECUTION_CONTRACT.source-only.md",
+        "role": "protocol_provenance_or_review",
+        "sha256": "c191806af23346bab5a272e5c26ad10a67524c877f8dae6fac8062e1a33ed842"
+      },
+      {
+        "bytes": 798,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/FINAL_PREPARATION_METADATA.json",
+        "relative": "FINAL_PREPARATION_METADATA.json",
+        "role": "protocol_provenance_or_review",
+        "sha256": "550c2622653530a33d4ad3e4daac6c8a338f3577f7a00c9686c76a0a193b42f4"
+      },
+      {
+        "bytes": 9461,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/HISTORY_CLOSURE.source-only.json",
+        "relative": "HISTORY_CLOSURE.source-only.json",
+        "role": "protocol_provenance_or_review",
+        "sha256": "8d147220d847df3313095cef10e34fb00d35b30ca786aedf78481457484b3c2e"
+      },
+      {
+        "bytes": 11662,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/INITIAL_GATE_DRAFT.source-only.txt",
+        "relative": "INITIAL_GATE_DRAFT.source-only.txt",
+        "role": "preparation_only_not_active_helper",
+        "sha256": "b257281d09a6ecb2f87c8019dc650b68bdf3511f279761f90d71a1395971c1df"
+      },
+      {
+        "bytes": 9192,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/MANIFEST.source-only-template.json",
+        "relative": "MANIFEST.source-only-template.json",
+        "role": "protocol_provenance_or_review",
+        "sha256": "d3bda4baf5663b3d39cbc8bb7b6f633ad4aa2574587428b441330454bd1b3e72"
+      },
+      {
+        "bytes": 3087,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/PREPARATION_RECORD.md",
+        "relative": "PREPARATION_RECORD.md",
+        "role": "protocol_provenance_or_review",
+        "sha256": "798019da145694049ad86f4c2ae36182063734f9ecf6be14fa3b12b61747d617"
+      },
+      {
+        "bytes": 11078,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/REPORT_DOMAIN.source-only.json",
+        "relative": "REPORT_DOMAIN.source-only.json",
+        "role": "protocol_provenance_or_review",
+        "sha256": "5d65ed63f39fc66f8bf2394a42082f555f97b1a8a0343d38fb364d63b3436f0e"
+      },
+      {
+        "bytes": 5090,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SUPERVISION_PROVENANCE.source-only.json",
+        "relative": "SUPERVISION_PROVENANCE.source-only.json",
+        "role": "protocol_provenance_or_review",
+        "sha256": "ead8759a62a71502d614d201393ee4af01a0374a5ecb4a1fb1618c6359ac394d"
+      },
+      {
+        "bytes": 5171,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/control.py",
+        "relative": "control.py",
+        "role": "active_caller_source",
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      },
+      {
+        "bytes": 5561,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/declare_report_domain.py",
+        "relative": "declare_report_domain.py",
+        "role": "preparation_only_not_active_helper",
+        "sha256": "90484fa37a0cba96d676570ed35d7e5a7019157f5159dea34259c75f0604ccc9"
+      },
+      {
+        "bytes": 30158,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/launch.py",
+        "relative": "launch.py",
+        "role": "active_caller_source",
+        "sha256": "e4afd7276275ed8dc4349f72171d0d5efc1801265021276774d486944dcfdb37"
+      },
+      {
+        "bytes": 6560,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/runtime_support.py",
+        "relative": "runtime_support.py",
+        "role": "active_caller_source",
+        "sha256": "222470bedef3421fead3fa681dba7ea41c625ea893a808c6b6370ebd3937f6cd"
+      },
+      {
+        "bytes": 20346,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/science/primary.py",
+        "relative": "science/primary.py",
+        "role": "unchanged_accepted_scientific_source",
+        "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+      },
+      {
+        "bytes": 14435,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/science/qualify.py",
+        "relative": "science/qualify.py",
+        "role": "unchanged_accepted_scientific_source",
+        "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+      },
+      {
+        "bytes": 23321,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/science/validator.py",
+        "relative": "science/validator.py",
+        "role": "unchanged_accepted_scientific_source",
+        "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+      },
+      {
+        "bytes": 8995,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/worker.py",
+        "relative": "worker.py",
+        "role": "active_caller_source",
+        "sha256": "e040158cdba815fc2455966b81183816c72217954fdb423f64acf1c6c198c5aa"
+      }
+    ]
+  },
+  "read_coverage": {
+    "complete_current_documents": [
+      "HANDOFF.json",
+      "SOURCE_PINS.json",
+      "EXECUTION_CONTRACT.source-only.md",
+      "CHANGE_SPECIFIC_CHECKS.source-only.md",
+      "BLOCK_CORRESPONDENCE.json",
+      "COMMANDS.source-only.json",
+      "MANIFEST.source-only-template.json",
+      "REPORT_DOMAIN.source-only.json",
+      "HISTORY_CLOSURE.source-only.json",
+      "SUPERVISION_PROVENANCE.source-only.json",
+      "APPLICABILITY_REVIEW.md",
+      "PREPARATION_RECORD.md",
+      "FINAL_PREPARATION_METADATA.json"
+    ],
+    "complete_current_sources": [
+      "control.py (132 lines)",
+      "runtime_support.py (118 lines)",
+      "worker.py (132 lines)",
+      "launch.py (444 lines)",
+      "science/qualify.py"
+    ],
+    "inactive_preparation_sources": "INITIAL_GATE_DRAFT.source-only.txt and declare_report_domain.py were opaquely pinned but are not active helpers and were not fully reviewed as executable targets.",
+    "metadata_checks": "63d70b: all20 SOURCE_PINS records and all40 history records matched opaque stable reads; all3 original/copy science pairs exact; control,6 retained functions, captured loader and monitor block match prior source.",
+    "retained_science": "Both primary.py and validator.py were completely independently reviewed under RI119 (e389b9dc58c58f46d8ef992d632493c9ce832d97344a53f11825921b93170054). Their RI121 copies are byte-identical to those accepted sources. Current scientific envelopes and callable endpoints were reread; this is not a claimed second complete read in RI121.",
+    "supporting_complete_metadata": [
+      "RI121_ASSIGNMENT.json",
+      "RI122_HOST_PLATFORM_SCOPE_DECISION.json",
+      "RI114 NORMAL_GENUINE_OUTER.json",
+      "RI114 OPTIMIZED_GENUINE_OUTER.json",
+      "RI114 NORMAL_ROOT_REVIEW.json",
+      "RI114_ROOT_FINAL_QUALIFICATION_ADJUDICATION.json"
+    ],
+    "tool_reads": [
+      "d895f5",
+      "8cd9d3",
+      "a1d91b",
+      "077753",
+      "eab7a8",
+      "d81dff",
+      "4ccbd8",
+      "169283",
+      "b006e8",
+      "0b6b74"
+    ]
+  },
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri121-independent-root-complete-caller-review-v1",
+  "source_identity": {
+    "control": {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    "handoff": {
+      "bytes": 5303,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/HANDOFF.json",
+      "sha256": "f226f4def9bc6ac617a7d1f3193198d68b3238cf4330d5789036023353f4ab81"
+    },
+    "launch": {
+      "bytes": 30158,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/launch.py",
+      "sha256": "e4afd7276275ed8dc4349f72171d0d5efc1801265021276774d486944dcfdb37"
+    },
+    "runtime_support": {
+      "bytes": 6560,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/runtime_support.py",
+      "sha256": "222470bedef3421fead3fa681dba7ea41c625ea893a808c6b6370ebd3937f6cd"
+    },
+    "source_pins": {
+      "bytes": 8146,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SOURCE_PINS.json",
+      "sha256": "d22601fcfba8f433ae199e5d994ec254b55f6603af564ce9204de01a2a5299b6"
+    },
+    "worker": {
+      "bytes": 8995,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/worker.py",
+      "sha256": "e040158cdba815fc2455966b81183816c72217954fdb423f64acf1c6c198c5aa"
+    }
+  },
+  "status": "CHANGES_REQUIRED_FIRST_REFUSAL_FAILURE_TAIL_ORDERING",
+  "summary": "The complete synthetic scientific call sequence, source-only domain, retained monitor mechanism and new closure requirements are coherent, but both failure tails can first import runtime_support after required source/mode/runtime-adjudication prerequisites failed. Fix and re-review exact sources before acceptance or execution.",
+  "work_boundary": {
+    "active_freeze_admission_or_output": false,
+    "actual_operations": "Read source text and metadata, manually reason about control flow, hash opaque existing bytes, compare literal source blocks and write this independent external review.",
+    "actual_runtime_inventory_or_profile": false,
+    "modified_original_packet": false,
+    "repo_or_git_modification": false,
+    "scientific_decoding_or_enumeration": false,
+    "target_import_compile_AST_probe_run": false
+  }
+}

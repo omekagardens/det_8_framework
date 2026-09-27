@@ -1,0 +1,206 @@
+{
+  "F01_adjudication": {
+    "early_refusal": "Source or source/runtime acceptance refusal leaves helper and postcheck state not_entered and runtime observation fields null. Worker mode refusal also leaves them unentered. A helper capture exception leaves loading with no usable handle; finally does not retry a first load.",
+    "finding": "Original parent finally could first load runtime_support after source_admission refusal. Original worker could first load it merely because the admission module existed after a failed mode/source acceptance.",
+    "known_failure_limit": "Each existing postcheck sequence still short-circuits on its first error. The contract explicitly discloses unattempted later checks; a failed operation cannot claim complete custody and needs external preservation/review before any retry. This repair does not mislabel partial failure evidence as complete.",
+    "later_refusal": "Once a handle exists, later errors retain applicable runtime postchecks through it. Original parent error and stop_reason are preserved when termination or postcheck also fails. Worker error remains separate from postcheck_error.",
+    "parent_complete_path": "source_before -> acceptance_before -> prerequisites_passed -> loading -> runtime_helper -> captured -> verify -> profile -> loaded_files -> child creation. Finally rechecks mode, conditionally profiles and checks loaded origins using the retained handle, checks sources, conditionally verifies runtime using that handle, rechecks any established acceptance, then evaluates success. No runtime_helper/current_runtime/current_profile call occurs in finally.",
+    "repair": "Both mains start with runtime=None and explicit false/not_entered state. Runtime support is assigned only after successful source verification and source/runtime acceptance, and worker command/mode acceptance. The parent separately admits mode before entering the operation. Finally branches call only methods on that retained non-null handle.",
+    "success_is_not_weakened": "Parent and child require prerequisite true, captured helper, complete runtime postcheck state and every required runtime/source/acceptance before/after field present. Existing whole worker/parent equality, error-free exit, source capture, genuine run, independent saved validation, zero stderr, actual custody and optimized full-result equality checks remain.",
+    "worker_complete_path": "source_before -> captured admission module -> exact command -> mode_admission_before -> acceptance_before -> prerequisites_passed -> loading -> runtime_helper -> captured -> verify/profile/loaded_files -> complete scientific capture and run. Finally checks captured bytes if obtained and sources; only a retained runtime is verified/profiled/origin-checked; only established acceptance/mode records are repeated."
+  },
+  "activity_boundaries": {
+    "candidate_runtime_inventory_or_profile": false,
+    "guard_controls_executed_by_reviewer": false,
+    "production_admission_freeze_or_cards_created": false,
+    "repository_or_git_mutation": false,
+    "reviewer_activity": "Full plain source and contract reads; opaque regular-file identity comparisons using the system metadata interpreter; external review artifact writes only.",
+    "scientific_body_decoding_or_calculation": false,
+    "target_import_compile_ast_probe_or_execution": false
+  },
+  "blocking_findings": [],
+  "handoff": {
+    "bytes": 4858,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/HANDOFF.json",
+    "sha256": "7a1d6489eec54aed712140bcb41a429f8b938fa3a9425d6b6a1b86ab6ca66256"
+  },
+  "history_and_scope": {
+    "intermediate_seal": "The seven-absence repaired source seal was preserved externally in ri121-repair-before-eighth-absence-mdtntvwb/packet before the final bounded eighth-absence revision; it is not current acceptance.",
+    "original_packet": "Unchanged original20 source pins and F01 independent/root adjudications remain in the 48-row exact history.",
+    "programme_complete": false,
+    "qualification_distinctions": "Historical RI108 numerical qualification, RI114 actual source-interface qualification, RI110 retained failure and current prospective RI121 qualification remain separate. Historical evidence is not current changed-target admission.",
+    "ret_paused": true
+  },
+  "independent_opaque_closure": {
+    "bytes": 25960,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-repaired-caller-c52tvvhd/INDEPENDENT_FRESH_OPAQUE_CLOSURE.json",
+    "sha256": "94d9d89be64426d44500c2c91b465d9a97a8ec6d39350e0f4f92989e3cfba715"
+  },
+  "nonscientific_guard_harness_review": {
+    "case_inventory": [
+      "parent_source",
+      "parent_caller",
+      "parent_runtime_acceptance",
+      "parent_late",
+      "parent_late_postcheck",
+      "worker_source",
+      "worker_caller",
+      "worker_runtime_acceptance",
+      "worker_late",
+      "worker_late_postcheck",
+      "worker_mode"
+    ],
+    "early_case_coverage": "Each case checks failed completion, retained original error and no science entry. First-refusal cases check zero runtime-helper calls and zero scans; repaired entry states and null runtime fields are additionally checked. Historical missing state keys do not bypass semantic entry counters.",
+    "failure_tail_cases": 11,
+    "late_case_coverage": "Loaded-origin observation deliberately refuses after helper entry. Counters require one first helper entry and expected pre/post verify/profile/loaded observations. Separate postcheck-failure cases require retained postcheck errors and, for the parent, unchanged original supervisor stop reason.",
+    "limits_of_evidence": [
+      "The harness does not exercise every inherited scanner/admission/source-capture/custody path.",
+      "The caller/runtime_acceptance labels intentionally share a source_admission stub and test failure-tail ordering, not the real source_admission schemas.",
+      "The report field actual_scanner_and_verify_used is coarse: scan is used in all seven runtime cases; verify only in the positive case, as the contract explicitly states.",
+      "The helper pin guard does not independently bind MANIFEST.source-only-template.json in the small guard card. Root should retain the already reviewed template in ordinary before/after source custody for actual guard evidence.",
+      "Candidate_interpreter_invoked=false and science_module_executed=false remain scope declarations which root must substantiate with the genuine literal outer invocation and complete reviewed paths.",
+      "No finite guard success would establish 41 scientific controls per implementation, actual numerical resource fit, empirical validation or a native forward map."
+    ],
+    "retention": "Unexpected exceptions are retained as failures, all selected cases run, helper pins are rechecked, the report is exclusively created, all individual fixture receipts remain external. Old packet permits failure-tails scope; repaired packet all scope proposes 18 cases.",
+    "runtime_case_inventory": [
+      "positive",
+      "absent_file",
+      "absent_dangling_link",
+      "missing_loader",
+      "changed_loader_declaration",
+      "changed_loader_path",
+      "missing_config"
+    ],
+    "runtime_cases": 7,
+    "runtime_fixture_scope": "Actual runtime.scan and control.binding run on tiny isolated files after only ROOTS/REQUIRED_FILES/ALLOWED_LINKS/ABSENT_PATHS/REQUIRED_LOADER_BINDINGS substitution. The positive case also invokes actual verify and checks three pinned file rows. Six refusal cases require exact expected ValueError messages. Eight fabricated absent paths are distinct from seven runtime cases.",
+    "separate_admission": "An exact root guard card is required for packet path, scope, harness identity and all four helper identities. Isolated, no-bytecode, optimization-zero flags are enforced. This is separate from candidate production/runtime/scientific admission.",
+    "status": "SOURCE_REVIEW_ONLY_NOT_EXECUTED",
+    "what_is_actual": "The actual reviewed launch.main/worker.main control-flow and finally bodies execute in isolated fixture roots. Actual source files are copied as helper bytes. Admissions, verify_sources and runtime observations are explicit small substitutions; this isolates ordering and does not claim actual production admission rejection or runtime closure."
+  },
+  "packet": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3",
+  "predecessor_independent_review": {
+    "bytes": 25136,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-root-caller-3wistxrp/INDEPENDENT_CALLER_SOURCE_REVIEW.json",
+    "sha256": "69a262a2a6cf088f86bedcfc871eefb9680bba53851e1c6985206e753811fdc7"
+  },
+  "read_coverage": {
+    "complete_current_documents": [
+      "EXECUTION_CONTRACT.source-only.md",
+      "CHANGE_SPECIFIC_CHECKS.source-only.md",
+      "MANIFEST.source-only-template.json",
+      "COMMANDS.source-only.json",
+      "BLOCK_CORRESPONDENCE.json",
+      "PREDECESSOR.json",
+      "PREPARATION_RECORD.md",
+      "FINAL_PREPARATION_METADATA.json",
+      "HANDOFF.json",
+      "SOURCE_PINS.json"
+    ],
+    "complete_current_executable_sources": [
+      {
+        "lines": 132,
+        "pin": {
+          "bytes": 5171,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/control.py",
+          "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+        },
+        "relative": "control.py"
+      },
+      {
+        "lines": 465,
+        "pin": {
+          "bytes": 31898,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+          "sha256": "866d93f0db0e6bfddc839bfbfee507d6eae864ca248b9e6e43d3e32328cb3806"
+        },
+        "relative": "launch.py"
+      },
+      {
+        "lines": 146,
+        "pin": {
+          "bytes": 10189,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+          "sha256": "1d637c181ac40c55476f7240914c22496856ecba8f085f54560357454be48841"
+        },
+        "relative": "worker.py"
+      },
+      {
+        "lines": 145,
+        "pin": {
+          "bytes": 8184,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+          "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+        },
+        "relative": "runtime_support.py"
+      },
+      {
+        "lines": 218,
+        "pin": {
+          "bytes": 13237,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/guard_controls.source-only.py",
+          "sha256": "e2200395568a8f634f2c37c3b8c76226ba6111e616f5878e17b4973a2a106fe2"
+        },
+        "relative": "guard_controls.source-only.py"
+      }
+    ],
+    "delta_coverage": "Entire original-to-repair executable delta was read, with any truncated duplicated harness text replaced by a separate complete harness read. The final eighth-absence runtime line, fixture range 7 to 8 and complete contract delta were read after seal; launch and worker pins stayed identical.",
+    "metadata_checks": {
+      "active_production_artifacts_absent": true,
+      "all_matched": true,
+      "historical_pinned_records": 48,
+      "original_pinned_files_preserved": 20,
+      "repaired_pinned_files": 20,
+      "whole_original_science_copy_pairs": 3
+    },
+    "retained_unchanged_reads": "REPORT_DOMAIN and SUPERVISION_PROVENANCE and all three scientific sources were completely reviewed in the predecessor reviews; fresh opaque exact identities preserve that review. No scientific certificate or result was decoded for this repair.",
+    "static_runtime_basis": "Read complete STATIC_CLOSURE_REVIEW.md and current root static-closure adjudication; retain root explicit host-platform decision. This review does not claim a new independent 85-image raw Mach-O campaign."
+  },
+  "recommendation": "Root may accept this exact repaired source and separately admit the bounded 18-case metadata-interpreter guard regression, retaining an actual old-packet F01 demonstration. Actual production current runtime/profile/loader/cache/config acceptance, complete normal scientific qualification with genuine custody review, then separate optimized qualification and equality remain unfulfilled.",
+  "runtime_guard_review": {
+    "absence_semantics": "The exact ordered eight-path declaration must match. Actual file appearance or a dangling symlink refuses. Split-package opt-root absence is stronger than absence of its libexec child. The added /opt/homebrew/lib path is expressly conservative, not a claim that the absolute load uses LC_RPATH.",
+    "eight_absences": [
+      "python311.zip",
+      "higher-priority recovery env/bin/pyvenv.cfg",
+      "/opt/homebrew/opt/python-tk@3.11",
+      "/opt/homebrew/opt/python-gdbm@3.11",
+      "/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+      "/opt/homebrew/lib/libmpdec.3.dylib",
+      "/usr/local/lib/libmpdec.3.dylib",
+      "/usr/lib/libmpdec.3.dylib"
+    ],
+    "inventory_schema": "ri121-complete-stdlib-runtime-inventory-v2",
+    "loader_row_checks": "Exact row keys, sorted unique names, mandatory-row inclusion, actual complete named binding equality and explicit resolved-file membership refuse omission or silent named-path retargeting. Optional applicable non-OS bindings can be added only as root-reviewed inventory entries.",
+    "mandatory_crypto": "The literal /opt/homebrew/opt/openssl@3/lib/libcrypto.3.dylib name, opt symlink text, canonical 3.6.0 target and target bytes are an exact REQUIRED_LOADER_BINDINGS row. Every inventory loader row is checked with control.binding and its resolved path must be in extra_files. The canonical crypto file and installed OpenSSL config are mandatory extras.",
+    "not_a_runtime_admission": "These declarations and drift checks do not establish actual decimal fallback, current loaded dependency closure, site startup behavior, provider selection or runtime profile. They do not prevent startup before checking or prove .pyc/.py equivalence.",
+    "retained_premises": [
+      "Fresh actual candidate profile and closure must precede production source/runtime acceptance and mode admission.",
+      "Root must separately establish fixed-call non-OS dependency applicability, including any selected optional dependencies and exact config/default-provider/no-external-activation premise.",
+      "The documented trusted installed supplier/cache-selection and stable-host Darwin kernel/loader/shared-cache premise is explicit and finite; it does not exempt third-party code, Homebrew libraries or OpenSSL configuration.",
+      "Complete existing normal and optimized bytecode alternatives are pinned as bytes; no equivalence to source is inferred.",
+      "Full optional 75-extension static graph is not represented as executed fixed-call imports.",
+      "No old RI116 numerical or custody result is retroactively invalidated by this prospective closure improvement."
+    ],
+    "whole_tree_behavior": "Three fixed complete roots, explicit extras, all fixed allowed symlinks, exceptions on walk error and nonregular members, exact membership/content equality to root inventory, and before/after loaded module origin pins remain. Retained control.runtime_tree is not the new active scanner."
+  },
+  "schema": "ri121-independent-complete-repaired-caller-source-review-v1",
+  "scope": "Complete source-text review of repaired parent and child, runtime scanner and nonscientific harness; whole inherited source/contract review retained by exact original identities. No execution acceptance.",
+  "source_pins": {
+    "bytes": 7600,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/SOURCE_PINS.json",
+    "sha256": "00ac8b737edf224a27e09efaf6d6a353dc9baaf59fdc78e21378e249d73c33f6"
+  },
+  "status": "PASS_REPAIRED_CALLER_AND_LIMITED_GUARD_SOURCE_ONLY",
+  "unchanged_production_contract": {
+    "limits": {
+      "maximum_sample_gap_seconds": 0.1,
+      "ps_timeout_seconds": 0.05,
+      "rss_kib": 524288,
+      "target_poll_seconds": 0.025,
+      "wall_seconds": 180
+    },
+    "monitor": "Complete source monitor/reap block remains retained; sampled sole-child RSS is not a hard OS cap or descendant-process accounting. Exact fixed child behavior must remain justified by production closure.",
+    "report": "At most2097152-byte report, exact rational/dimension/component and label domains retained. Entire canonical result must agree between modes.",
+    "science": "Exactly three accepted RI119 copies, no external science inputs, full-body capture before import, actual qualify.run, full saved-byte parse, fresh primary-owned reference and separately authored validator. Main912 and bound8 sign workloads may be enumerated twice; declaration only.",
+    "serial_modes": "Independent normal admission with null future normal acceptance; actual genuine normal completion/custody/root review before separate optimized admission; normal artifacts and custody rechecked before and after optimized."
+  }
+}

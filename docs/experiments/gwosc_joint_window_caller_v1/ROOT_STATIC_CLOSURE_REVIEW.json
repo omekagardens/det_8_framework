@@ -1,0 +1,95 @@
+{
+  "decision": "Require concrete startup absences, core libcrypto named binding and OpenSSL config pin in successor. Preserve explicit source/cache supplier and trusted host-loader premises. Whole selected application runtime and actual import/profile validation remain future prerequisites. Optional extensions are not presumed executed.",
+  "handoff": {
+    "bytes": 4478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/HANDOFF.json",
+    "sha256": "55e0172aee8588bf927f7d1ca295526a15c781fdc01507dbf8179664ba3990fb"
+  },
+  "historical_results_invalidated": false,
+  "independent_full_raw_graph_reconstruction": {
+    "images": 85,
+    "matches_complete_saved_graph": true,
+    "non_os_edges": [
+      {
+        "image": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+        "names": [
+          "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/Python"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_decimal.cpython-311-darwin.so",
+        "names": [
+          "/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+        "names": [
+          "/opt/homebrew/opt/openssl@3/lib/libcrypto.3.dylib"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_lzma.cpython-311-darwin.so",
+        "names": [
+          "/opt/homebrew/opt/xz/lib/liblzma.5.dylib"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_sqlite3.cpython-311-darwin.so",
+        "names": [
+          "/opt/homebrew/opt/sqlite/lib/libsqlite3.0.dylib"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_ssl.cpython-311-darwin.so",
+        "names": [
+          "/opt/homebrew/opt/openssl@3/lib/libssl.3.dylib",
+          "/opt/homebrew/opt/openssl@3/lib/libcrypto.3.dylib"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/opt/openssl@3/lib/libssl.3.dylib",
+        "names": [
+          "/opt/homebrew/Cellar/openssl@3/3.6.0/lib/libcrypto.3.dylib"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/opt/openssl@3/lib/ossl-modules/legacy.dylib",
+        "names": [
+          "/opt/homebrew/Cellar/openssl@3/3.6.0/lib/libcrypto.3.dylib"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/opt/openssl@3/lib/engines-3/loader_attic.dylib",
+        "names": [
+          "/opt/homebrew/Cellar/openssl@3/3.6.0/lib/libcrypto.3.dylib"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/opt/openssl@3/lib/engines-3/capi.dylib",
+        "names": [
+          "/opt/homebrew/Cellar/openssl@3/3.6.0/lib/libcrypto.3.dylib"
+        ]
+      },
+      {
+        "image": "/opt/homebrew/opt/openssl@3/lib/engines-3/padlock.dylib",
+        "names": [
+          "/opt/homebrew/Cellar/openssl@3/3.6.0/lib/libcrypto.3.dylib"
+        ]
+      }
+    ]
+  },
+  "repair_owner": "/root/ri121_failure_tail_repair",
+  "root_reads": [
+    "STATIC_CLOSURE_REVIEW.md complete",
+    "STARTUP_IMPORT_REVIEW.md complete",
+    "both complete startup observations",
+    "static named-path observations",
+    "HANDOFF and correction history complete"
+  ],
+  "runtime_inventory_profile_freeze_or_admission_created": false,
+  "schema": "ri121-root-static-closure-review-v1",
+  "scientific_or_candidate_execution": false,
+  "status": "ACCEPT_FINITE_STATIC_FINDINGS_NOT_RUNTIME_ADMISSION",
+  "unchanged_limits": true
+}

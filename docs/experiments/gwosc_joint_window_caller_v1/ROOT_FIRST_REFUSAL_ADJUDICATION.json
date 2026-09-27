@@ -1,0 +1,47 @@
+{
+  "active_admission_created": false,
+  "additional_runtime_findings": "Static review still active: actual non-OS dylib/startup/absence closure remains required. No retrospective RI116 failure inferred.",
+  "assignment": {
+    "owner": "/root/ri121_failure_tail_repair",
+    "predecessor_preserved": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh",
+    "scope": "Fresh external successor source and bounded non-scientific regression preparation; no candidate interpreter or target execution, repository edits or git."
+  },
+  "consequence": "No scientific success is falsely accepted by this observed source path. Required admission ordering is violated, so no production caller/source acceptance, runtime admission or scientific execution is issued.",
+  "finding": "RI121-F01",
+  "independent_review": {
+    "bytes": 25136,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-root-caller-3wistxrp/INDEPENDENT_CALLER_SOURCE_REVIEW.json",
+    "sha256": "69a262a2a6cf088f86bedcfc871eefb9680bba53851e1c6985206e753811fdc7"
+  },
+  "native_lane": "Existing Quantum Relativity RI122 remains active; informed of analogous failure-tail risk without duplicate assignment.",
+  "programme_complete": false,
+  "required_repair": "Retain already admitted runtime helper and explicit entry state. Failure tails cannot create first runtime-helper import or scan after failed prerequisites. Preserve original error and mark unentered custody. Recheck exact unchanged monitor, sources and limits.",
+  "root_review": "Complete relevant parent and worker success/failure tails and runtime loader/scanner read; root confirms failure postchecks can first import runtime support after prerequisite refusal.",
+  "schema": "ri121-root-first-refusal-adjudication-v1",
+  "scientific_targets_executed": false,
+  "source_and_history_check": {
+    "bytes": 38913,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/SOURCE_AND_HISTORY_METADATA_CHECK.json",
+    "sha256": "e8fd3ee3ff1ff9f44c86427219fcf6f7f8cd41ac0836cb16e49eadb835d87a58"
+  },
+  "source_locations": {
+    "contract_conflict": "EXECUTION_CONTRACT says root source/runtime prerequisites are checked before runtime-support import, and APPLICABILITY_REVIEW describes that order as a reviewed repair. The order holds on success but fails on these deliberate refusal paths.",
+    "id": "RI121-F01",
+    "impact": "No scientific result is incorrectly accepted by this path: original failure is retained and success remains false. It is nonetheless an executable first-refusal/admission-ordering defect and unnecessary new runtime activity after a failed prerequisite, so source acceptance should wait for repair.",
+    "parent_location": {
+      "lines": "323-327,385-395",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/launch.py"
+    },
+    "parent_trace": "Keep mode admission valid but make source_admission refuse a missing/invalid caller acceptance or runtime acceptance. Main never reaches current_runtime at line325. Its finally still reaches runtime_helper(...).loaded_files at line390. runtime_helper imports/compiles the pinned runtime_support body if it is not in sys.modules. Thus failure postprocessing first enters an unadmitted runtime helper; a source-verification refusal can reach the same route.",
+    "required_fix": "Retain explicit successful prerequisite state and an admitted captured runtime-helper handle. Failure tails must not cause its first import/compile or start a runtime scan if prerequisite admission did not complete. Record unentered stages explicitly and preserve opaque source/input evidence and original failure. Do not weaken actual success postchecks or allow missing runtime fields on success.",
+    "required_followup": "Read both repaired complete failure tails and any changed support paths; refresh all dependent manifest/source pins and reviews. Include actual prospective refusal controls for failed source verification, failed caller acceptance, failed runtime acceptance and failed child mode admission, checking zero new runtime-helper/science entry.",
+    "severity": "blocking_source_contract_ordering",
+    "title": "Failure tails may enter the runtime helper after its prerequisites were refused",
+    "worker_location": {
+      "lines": "58-65,110-123",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/worker.py"
+    },
+    "worker_trace": "After admission module is captured, make mode_admission or source_admission fail before line62. The finally guard at line111 only checks admission is not None; line112 current_runtime then first loads runtime_support despite the failed prerequisite. If earlier raw source verification itself fails and admission remains None this particular child route is skipped, which does not remove the other routes."
+  },
+  "status": "REPAIR_REQUIRED_BEFORE_CALLER_SOURCE_ACCEPTANCE"
+}

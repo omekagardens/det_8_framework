@@ -1,0 +1,11 @@
+{
+  "schema": "ri121-actual-guard-tool-completion-v1",
+  "scope": "Repaired source guard regression only; metadata Python3.14, no production/science qualification",
+  "result": {
+    "chunk_id": "85a307",
+    "wall_time_seconds": 0.095597666,
+    "exit_code": 0,
+    "original_token_count": 127,
+    "output": "RI121 synthetic qualification refused: fixture_source\nRI121 synthetic qualification refused: fixture_caller\nRI121 synthetic qualification refused: fixture_runtime_acceptance\nRI121 synthetic qualification refused: fixture_late\nRI121 synthetic qualification refused: fixture_late\nRI121 synthetic qualification refused: fixture_mode\n{\"report\": \"/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/REPAIRED_GUARD_RESULT.json\", \"passed\": 18, \"failed\": 0, \"helpers_unchanged\": true}\n"
+  }
+}
