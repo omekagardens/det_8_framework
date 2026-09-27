@@ -1,0 +1,43 @@
+{
+  "coverage": "All three analytic notes and packet contracts/reviews/provenance. Root targeted executable review covers producer root/formula/contrast/gcd/decision/fixtures/replay and auditor profile/reconstruction/custody/failure/report tail; separate reviewer supplies complete executable reading. Accepted supporting theorem sections reread, not their numerical proofs. Truncated contract/source-note outputs reread in ab0937/a6f684/21e284.",
+  "operations": {
+    "active_admission": false,
+    "manual_symbolic_reasoning": true,
+    "native_or_fixture_execution": false,
+    "scientific_operand_decoding": false,
+    "source_text_opaque_metadata": true,
+    "target_import_parse_compile_probe_run": false
+  },
+  "proof_checks": [
+    "Ferrers principal ideals are rectangles. A chain principal ideal lies on an axis; incomparable such cells share only the origin. A shared chain past of at least two vertices is impossible.",
+    "C5 masks0,3,7,15 raise defect0to1; mask1 is hook(5,1). RI63 active-component neutrality gives restoration t=c5/36 on raising roles. Unique-top deletion gives D(0,3,7)=tB and e=tc; D(1)=tB(1)+N with N>=0 root-only. Normalization gives ell=1-t-N and complete sigma invariance.",
+    "H5 mask3 child has defect2: deleting any stem leaves old caps sharing at least two past vertices; deleting a cap leaves cap/newborn sharing two; deleting newborn leaves H5. Deleting newborn and a cap leaves C4. H5 mask1 child has defect1; deleting a cap leaves Ferrers hook(4,1).",
+    "C4 complete marked diamond with first precursors C3 and singleton root links neutral H5 root role to raising hook-parent C3 role. Positive first-leg factors and inherited potential identity force equal coefficients for every transported marking. All four H5 stem coefficients are t.",
+    "Singleton/double top deletions give G=tB^2/A. Both cap slots h=tc, m=t^2c and j=1-t sum(B^2/A)-2tc. Hence V=1+t^3 sum(B^3/A^2)-t sum(B^2/A)+2(t^2-t)c.",
+    "E2=t(1-2h-j)+Nr+th+h+j+1-t-N=1+(1-t)(h+j)+N(r-1). C2=t(E-3m-3j)+NH+tm=t(E-2m-3j)+NH. A2=E+2E2-j,B2=2m+2j+ell. Sigma duplication preserves all16 profiles and15contrasts.",
+    "Delta f3=s rho(1-rho) Delta V with actualrho<=R<1/2; Delta f2=-s rho Q2(rho). Nonzero gcd root exclusion on(0,R] proves f2 nonconstant; roots remaining imply only undetermined. Allzero means constant with null gcd/count. Only both proven nonconstant reject fixed28support.",
+    "Source-declared fixture endpoints checked symbolically, including cubic roots1/3,2/3,1 for(-2/9,11/9,-2,1), repeated endpoint and irrational quadratic cases. Ten15member families and sixcrossproduct decisions keep zero/constant/unknown distinctions. No fixture executed."
+  ],
+  "read_evidence": [
+    "a38f79",
+    "9366ab",
+    "65e6af",
+    "b4763b",
+    "ab0937",
+    "64d73f",
+    "3c1e10",
+    "6d5bc5",
+    "23d548",
+    "a6f684",
+    "21e284",
+    "972151",
+    "65c17e"
+  ],
+  "remaining": [
+    "Actual sensitivity unresolved; no V/Q2 coefficient evaluated.",
+    "Complete28child positivity/D1/remaining parents/all-size and native physical connection open.",
+    "Changed-target qualification, resource fit, full runtime/custody and actual runs unperformed."
+  ],
+  "schema": "ri120-root-manual-conditional-proof-review-v1",
+  "verdict": "PASS_CONDITIONAL_IDENTITIES_AND_DECISION_CONTRACT_ONLY"
+}

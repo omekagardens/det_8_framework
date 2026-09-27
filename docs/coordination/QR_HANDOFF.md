@@ -1,41 +1,46 @@
-# Current QR coordination — RI-120 connected-profile sensitivity
+# Current QR coordination — RI-122 native connected-sensitivity caller
 
-**Current checkpoint — 26 September 2026 UTC.** RI-119's exact synthetic
-joint-window sources and complete contract are independently accepted as source
-only. Primary complete sign enumeration and separately authored full moment
-validation cover nine cases, three bounds and twelve groups, with 41 declared
-first-refusal controls per implementation. Complete root and independent review
-found no blockers. Actual qualification and runtime fit remain untested.
+**Current checkpoint — 26 September 2026 UTC.** RI-120's conditional
+prefix identities and complete connected-sensitivity source packet are
+independently accepted. C5's additional cap bit cancels from its full row;
+all four H5 stem slots share the actual strict-restoration coefficient,
+including the neutral root slot through a complete marked diamond. These
+identities simplify the question but do not prove either required sensitivity.
 
-This checkpoint publishes the eleven unchanged source/metadata files, complete
-independent verdict, root decision and review. RI-121 is assigned the minimal
-concrete captured-source caller and supervision/runtime applicability review in
-external `ri121-synthetic-caller-source-0wmr9ajh/`. Root-owned actual admissions,
-serial normal/optimized runs and genuine custody remain required. No empirical
-body, actual operator capture or native scientific input enters this phase.
+This checkpoint publishes the sixteen unchanged packet files and root/independent
+reviews in `docs/track_b/native_growth_connected_sensitivity_v1/`. The complete
+checker and independent auditor retain 40 held rows/224 slots, seven V contrasts,
+fifteen Q2 quadratics and all nineteen certificate sections. Sixteen root,
+ten family and six decision fixtures, plus 166 producer refusal actions,
+are reviewed source declarations; none has run for RI-120.
 
-Native RI-117's conditional coupled-parent proof is published in remotely
-verified `3aeb064`. QR continues RI-120 in
-`ri120-connected-sensitivity-source-xru78ysn/`, using the fixed existing forty
-held rows/224 slots, all seven V contrasts and fifteen Q2 quadratics. Actual
-connected sensitivity and full 28-child feasibility remain open; no new D1
-inputs or numerical execution is admitted by that source assignment.
+After predecessor adjudication, QR is assigned RI-122: the smallest concrete
+native execution caller and independent applicability review in external
+`ri122-native-caller-source-jgehvvxx/`, retaining all
+native resource bounds, complete runtime/history closure and genuine sequential
+custody. Actual connected sensitivity and full 28-child feasibility remain open.
+No new D1 inputs, support/seed/amplitude change or actual-scale selection is
+assigned. Root owns all actual admissions, repository/index and publication.
 
-RI-118's design, RI-115's native rank result and RI-116's descriptive public-data
-comparison remain published in verified `d957c43`, `f6d486e` and `c34980c`.
-The wider native geometry/gravity and measurement programme remains active.
+Measurement RI-119 source publication is remotely verified in `c5939d2`;
+RI-121 continues its concrete synthetic caller preparation in external
+`ri121-synthetic-caller-source-0wmr9ajh/`. Complete current pure-Python stdlib
+and interpreter closure is required before its fresh admission; the inherited
+inventory alone is insufficient for that new caller. This does not establish
+a retrospective failure of RI-116. Actual qualification remains unperformed.
+
+RI-117's conditional proof, RI-118's measurement design, RI-115's rank result
+and RI-116's descriptive comparison remain published in verified `3aeb064`,
+`d957c43`, `f6d486e` and `c34980c`. The broader programme remains active.
 Physical calibration, a native forward map and protected validation remain
 separate. RET alone stays paused.
 
-RI-117 is immutable and accepted; its worker handoff is not a programme pause.
-QR now owns external `ri120-connected-sensitivity-source-xru78ysn/`, assigned
-following complete root and independent mathematical review. The fixed scope
-uses only existing saved C3/C4/C5/H5 rows. All-zero polynomials have null gcd/root
-count; surviving roots do not select actual rho or prove a positive repair.
-Root owns every actual admission, repository/index operation, commit and push.
-No new q6/q7 table, H/z calculation, D1 disconnected inputs, support change or
-selected actual scale is assigned. The detailed proof review is in
-[RI-117 review](../track_b/native_growth_coupled_positive_family_v1/REVIEW.md).
+RI-120 is immutable and accepted. QR's RI-122 assignment follows complete
+root and independent review and keeps the native sensitivity question active.
+All-zero polynomials retain null gcd/root count; surviving roots do not select
+actual rho or prove a positive repair. Root owns actual admissions and Git.
+The source review is in
+[RI-120 review](../track_b/native_growth_connected_sensitivity_v1/REVIEW.md).
 
 # Historical RI-115 actual-review checkpoint
 
@@ -3106,3 +3111,31 @@ Native proof checkpoint `3aeb064ef9962f72838b226931bd8309b35d7112` is remotely
 verified; QR RI-120 continues without duplicate assignment. Its analytic
 simplifications remain provisional until complete reviewed handoff. The wider
 programme remains active; RET alone is paused.
+
+**26 September: RI-120 independently accepted; RI-122 assigned.**
+
+Conditional C5 sigma independence and all four H5 restoration identities are
+accepted, including the neutral-root diamond argument. E2/C2/V simplifications
+retain unresolved cancellation and actual-scale questions. Complete nonauthor
+review covers both executables, 166 intended refusals, 32 fixture declarations,
+all nineteen certificate sections and repaired structured failure handling.
+Root independently checked the analytic proofs and critical source sections.
+No native coefficient, fixture or target was executed; no support rejection
+or complete positive extension is established.
+
+Root acceptance: external `ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json`,
+4,346 bytes, SHA256
+`35554c18567e610ce450b3e804794edba20e3d552e7119318041691655c706d5`.
+Complete independent verdict: 26,360 bytes, SHA256
+`b5dfacd3cc4b8c38c63506fb997cab961f715b1773a16c14ccd6904731511eef`.
+The sixteen original files are unchanged; source and all eight premise pins
+match. Two exact historical adjudications remain external custody dependencies,
+so source publication does not claim a standalone execution bundle.
+
+RI-122 assignment is retained alongside root acceptance: 3,331 bytes, SHA256
+`4c4d6a0ed4c2ef8ccde1d9c75f88a6f5d0af00cb34e0125e7ac7ead6c868ee6f`.
+It retains the native 120-second/512-MiB sampled group and arithmetic bounds,
+full current interpreter/stdlib/source/ancestry closure and genuine ordered
+witness/replay/audit custody. QR receives this next concrete assignment after
+predecessor review; handoff completion does not pause the programme.
+Measurement RI-121 remains active separately; RET alone remains paused.
