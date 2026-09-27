@@ -1,0 +1,63 @@
+{
+  "F01_F04_disposition": "Addressed at recipe/source specification level only; not executed qualification coverage.",
+  "actual_capture_or_result_decode": false,
+  "blocking_findings": [],
+  "case_recipes_source_checked": 32,
+  "checked_source_role_records": 53,
+  "complete_application_accepted": false,
+  "complete_source_text_delta_reconciled": true,
+  "complete_twelve_artifact_review": true,
+  "distinct_checked_paths": 45,
+  "execution_authorized": false,
+  "historical_gate_ids_source_checked": 92,
+  "kernel_refusal_declarations_source_checked": 38,
+  "metadata_check": {
+    "bytes": 18567,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/SOURCE_PIN_AND_TEXT_CHECK.json",
+    "sha256": "7151273599c7fe877bec2673e5c88e5ece49a37a5ff6329b633ca373156607c1"
+  },
+  "nonauthor": true,
+  "nonblocking_notes": [
+    {
+      "file": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CASES.md",
+      "finding": "Title retains revision1; body explicitly says revision2. Pinned inventory is unambiguous; cosmetic only, do not edit sealed packet.",
+      "line": 1
+    }
+  ],
+  "numeric_qualification_claimed": false,
+  "pending": [
+    "Different-author full-field white validator, independent parser/arithmetic/refusals.",
+    "Complete32-case generator/qualifier and originalWK01-WK37 calls plus independent counterparts.",
+    "Full periodic/Q256/PSD/parity and deterministic historical join/nuisance source and independent validators.",
+    "Fresh saved-report comparison, full transitive source/history/runtime closure and separate caller/execution admission."
+  ],
+  "physical_claim": false,
+  "primary_control_declarations_source_checked": 142,
+  "programme_complete": false,
+  "repository_index_git_mutation": false,
+  "required_repairs_to_bounded_white_source": [],
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "review": {
+    "bytes": 15014,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "41bf240263f9b64bc1fa2532a33b96bd3f059f1af2b03b49ee22fffcc350cf58"
+  },
+  "schema": "ri125-independent-white-successor-review-v1",
+  "source_boundaries": [
+    "Fixed six historical input identities before scientific decode.",
+    "Complete row/vector/result linkage and full footer/exhaustion.",
+    "Own-derived directed Shift with unchanged reviewed white kernel.",
+    "Independent per-reference failure tails and preserved first refusal.",
+    "Runtime/resource feasibility and source load custody remain prospective caller obligations."
+  ],
+  "source_handoff": {
+    "bytes": 5379,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+    "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+  },
+  "source_rechecked_unchanged_at_seal": true,
+  "status": "NO_BLOCKING_DEFECT_FOUND_IN_BOUNDED_UNEXECUTED_WHITE_SOURCE",
+  "target_import_compile_AST_probe": false,
+  "target_or_fixture_execution": false
+}

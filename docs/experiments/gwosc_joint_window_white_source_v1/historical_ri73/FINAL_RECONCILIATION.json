@@ -1,0 +1,65 @@
+{
+  "Omega_rank_certified": 8,
+  "audit_input_freeze": {
+    "bytes": 31442,
+    "sha256": "a10dd521e72e6cecbc55a5c35720a4d6755daebc9f1d07ecd5553af220402581"
+  },
+  "audit_runs": {
+    "normal": {
+      "elapsed_seconds": 83.55092049999985,
+      "peak_sampled_rss_kib": 693392,
+      "receipt": {
+        "bytes": 1804,
+        "sha256": "c99bc30728c0a872ed50e3273a074412a97dbcbb31d363a364fc592896ff8765"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 1570145,
+        "sha256": "7753bb1e5e82e043d494a3ab3e8f47444e4fe7f29c2d8e765c89a238b9814ed0"
+      }
+    },
+    "optimized": {
+      "elapsed_seconds": 83.66517662500019,
+      "peak_sampled_rss_kib": 694400,
+      "receipt": {
+        "bytes": 1820,
+        "sha256": "d02bb153175c92ed0f6235aaa491f1af719d3cc237bb313bf85508d9515cd1aa"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 1570145,
+        "sha256": "7753bb1e5e82e043d494a3ab3e8f47444e4fe7f29c2d8e765c89a238b9814ed0"
+      }
+    }
+  },
+  "comparison_counts_per_mode": {
+    "containers": 49084,
+    "leaves": 85773
+  },
+  "exact_rho_retained_in_report_and_audit": true,
+  "frozen_source_files_verified": 87,
+  "physical_sampling_or_observation_performed": false,
+  "producer_gates": {
+    "failed": 0,
+    "passed": 92,
+    "total": 92
+  },
+  "qualification_scope": "Fixed conditional unit-white Gaussian input; no fitted detector-noise, observed confidence, native forward map or physical inference.",
+  "report": {
+    "bytes": 11180937,
+    "sha256": "3a69e1f30042d3dcfed4a7fa95b59b7a8984de1e0ec4059a26f4ca25604b39fe"
+  },
+  "rho_display_approximation": 5.55196671204064e-56,
+  "schema": "ri73-root-final-reconciliation-v1",
+  "snapshot": {
+    "bytes": 51891508,
+    "sha256": "fe24ce8b35d97a9073eff8c8002ce733e4f81be3e2d9167453a640f7f2c21aba"
+  },
+  "status": "producer_and_independent_algebra_qualified_in_both_modes"
+}

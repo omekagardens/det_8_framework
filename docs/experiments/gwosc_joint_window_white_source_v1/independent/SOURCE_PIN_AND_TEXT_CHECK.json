@@ -1,0 +1,476 @@
+{
+  "actual_capture_result_decoded": false,
+  "complete_diff_documents": [
+    "white_path.py",
+    "white_controls.py",
+    "CONTRACT.md",
+    "CASES.md",
+    "KERNEL_REFUSALS.md",
+    "FABRICATED_INTERFACES.md",
+    "WHITE_REFUSALS.md",
+    "PREPARATION_RECORD.md"
+  ],
+  "declared_cases": 32,
+  "declared_kernel_controls": 38,
+  "declared_primary_controls": 142,
+  "fixture_generation_or_execution": false,
+  "full_runtime_or_transitive_custody_reaudit": false,
+  "historical_gate_ids": [
+    "fixture:fir",
+    "fixture:cancellation",
+    "fixture:singleton",
+    "fixture:offdiagonal_small",
+    "fixture:offdiagonal_large",
+    "fixture:failed_gate",
+    "fixture:midpoint",
+    "fixture:rank_ambiguity",
+    "fixture:singular",
+    "fixture:output_law",
+    "refusal:float_endpoint",
+    "refusal:bool_endpoint",
+    "refusal:nonfinite_endpoint",
+    "refusal:reversed_interval",
+    "refusal:negative_radius",
+    "refusal:matrix_rows",
+    "refusal:bool_dimension",
+    "refusal:bool_row_dimension",
+    "refusal:matrix_columns",
+    "refusal:ragged_box",
+    "refusal:asymmetric_gram",
+    "refusal:asymmetric_error",
+    "refusal:negative_error",
+    "refusal:negative_pivot",
+    "refusal:wrong_ldl",
+    "refusal:wrong_inverse",
+    "refusal:wrong_delta",
+    "refusal:wrong_gamma",
+    "refusal:incorrect_rank",
+    "refusal:bool_rank",
+    "refusal:wrong_mp1",
+    "refusal:wrong_mp2",
+    "refusal:wrong_mp3",
+    "refusal:off_support",
+    "refusal:negative_rho",
+    "refusal:rho_at_one",
+    "refusal:negative_output_error",
+    "refusal:unqualified_cdf",
+    "refusal:cdf_series_domain",
+    "refusal:negative_cdf_argument",
+    "refusal:estimated_covariance",
+    "refusal:colored_covariance",
+    "refusal:fraction_numerator_cap",
+    "refusal:fraction_denominator_cap",
+    "refusal:operation_result_cap",
+    "refusal:hex_length",
+    "refusal:hex_plus",
+    "refusal:hex_negative_zero",
+    "refusal:hex_leading_zero",
+    "refusal:hex_denominator_zero",
+    "refusal:hex_unreduced",
+    "refusal:work_cap",
+    "refusal:work_bool",
+    "refusal:output_cap",
+    "refusal:duplicate_json",
+    "refusal:nonfinite_json",
+    "refusal:overflow_json",
+    "refusal:changed_snapshot",
+    "refusal:bool_pin",
+    "refusal:changed_runtime",
+    "refusal:changed_runtime_build",
+    "refusal:failed_receipt",
+    "refusal:incomplete_receipt",
+    "refusal:changed_receipt_engine",
+    "refusal:changed_arithmetic",
+    "refusal:wrong_padding",
+    "refusal:bool_padding",
+    "refusal:changed_manifest_coefficient",
+    "refusal:changed_manifest_stage_order",
+    "refusal:changed_manifest_padding",
+    "refusal:missing_rows",
+    "refusal:wrong_rows",
+    "refusal:wrong_snapshot_shape",
+    "refusal:missing_expected_summaries",
+    "integration:reconstruction",
+    "integration:gram",
+    "integration:mathematical",
+    "integration:accuracy",
+    "integration:cross",
+    "probe:zero",
+    "probe:constant",
+    "probe:0",
+    "probe:1",
+    "probe:27",
+    "probe:805",
+    "probe:1384",
+    "probe:2741",
+    "probe:2767",
+    "probe:2768",
+    "integration:law",
+    "integration:final_custody",
+    "completion:custody"
+  ],
+  "literal_WK_WC_ids": [
+    "WK38",
+    "WC01",
+    "WC02",
+    "WC03",
+    "WC04",
+    "WC05",
+    "WC06",
+    "WC07",
+    "WC08",
+    "WC09",
+    "WC10",
+    "WC11",
+    "WC12",
+    "WC13",
+    "WC14",
+    "WC15",
+    "WC16",
+    "WC17",
+    "WC18",
+    "WC19",
+    "WC20",
+    "WC21",
+    "WC22",
+    "WC23",
+    "WC24",
+    "WC25",
+    "WC26",
+    "WC27",
+    "WC28",
+    "WC29",
+    "WC30",
+    "WC31",
+    "WC32",
+    "WC33",
+    "WC34",
+    "WC35",
+    "WC36",
+    "WC37",
+    "WC38",
+    "WC39",
+    "WC40",
+    "WC41",
+    "WC42",
+    "WC43",
+    "WC44",
+    "WC45",
+    "WC46"
+  ],
+  "schema": "ri125-white-independent-source-metadata-check-v1",
+  "scientific_arithmetic_performed": false,
+  "six_fixed_historical_inputs": [
+    {
+      "bytes": 51891508,
+      "role": "capture",
+      "sha256": "fe24ce8b35d97a9073eff8c8002ce733e4f81be3e2d9167453a640f7f2c21aba"
+    },
+    {
+      "bytes": 11180937,
+      "role": "ri73_result",
+      "sha256": "3a69e1f30042d3dcfed4a7fa95b59b7a8984de1e0ec4059a26f4ca25604b39fe"
+    },
+    {
+      "bytes": 68018,
+      "role": "ri73_source",
+      "sha256": "574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887"
+    },
+    {
+      "bytes": 2098,
+      "role": "ri73_reconciliation",
+      "sha256": "5263ab139542d6591af03300ded7f2d7c9fba5fd3585347b4f7b4bfb7605f232"
+    },
+    {
+      "bytes": 5479,
+      "role": "ri73_final_review",
+      "sha256": "c4ac724cbde99d98b3b95f51fcf030a9ac00e48fd7aafa8998356e0f3a9eea1e"
+    },
+    {
+      "bytes": 31442,
+      "role": "ri73_audit_freeze",
+      "sha256": "a10dd521e72e6cecbc55a5c35720a4d6755daebc9f1d07ecd5553af220402581"
+    }
+  ],
+  "source_handoff": {
+    "bytes": 5379,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+    "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+  },
+  "source_review_only": true,
+  "status": "SEALED_PINS_AND_COMPLETE_SOURCE_DIFF_AND_LITERAL_INVENTORIES_MATCH",
+  "target_import_compile_AST_probe_or_execution": false,
+  "unchanged_kernel": {
+    "bytes": 12790,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_kernel.py",
+    "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+  },
+  "verified_distinct_paths": 45,
+  "verified_role_records": [
+    {
+      "bytes": 5379,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+      "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+    },
+    {
+      "bytes": 12011,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CASES.md",
+      "sha256": "fbcabc6b49f5ffb741688293a0dab894e7dc3b2fd761c6f123fbdcacf2ee3eef"
+    },
+    {
+      "bytes": 26409,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CONTRACT.md",
+      "sha256": "abd8aeb6e74a46194bb38f9abc8c02e6be5bcff83318f8df1d27334fa317f2bd"
+    },
+    {
+      "bytes": 8758,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/FABRICATED_INTERFACES.md",
+      "sha256": "2e1db0380e13791448c957453a823c1d2d20874b8af80dc01ddb8c09b4927f4e"
+    },
+    {
+      "bytes": 4802,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/KERNEL_REFUSALS.md",
+      "sha256": "85651a0ead42ec2edf18bfdd049efd49c20cb09fb25bc2be1e4ba561b9b9f208"
+    },
+    {
+      "bytes": 3880,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREDECESSOR_PINS.json",
+      "sha256": "e1d0d5557056a536d2505d7e304ec7185b325a29ac0dd267f91b3f7a7aa0b70b"
+    },
+    {
+      "bytes": 7366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREPARATION_RECORD.md",
+      "sha256": "f58a58c7935f4cb27651c893bb358eb8ece45f58b70d71fa120465761de7e733"
+    },
+    {
+      "bytes": 97989,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_DIFF.patch",
+      "sha256": "edd788940663882972092dc62706f80c81df5e14d76aa90c34dff8cf1158a9e1"
+    },
+    {
+      "bytes": 10113,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_METADATA_CHECK.json",
+      "sha256": "3e713faa6a85e32d856640e7e509bc56e3cc479cc31323465e5e461ca6582cf9"
+    },
+    {
+      "bytes": 7426,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/WHITE_REFUSALS.md",
+      "sha256": "dbc6a3a400b22973379c632cea3924413e36bd441df9ff0e21c2f7507918f0bb"
+    },
+    {
+      "bytes": 15910,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_controls.py",
+      "sha256": "5055fb4aec16563680b2941d445da8273e99799d8fbf567fb7affe368f28e6a2"
+    },
+    {
+      "bytes": 12790,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_kernel.py",
+      "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+    },
+    {
+      "bytes": 32343,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_path.py",
+      "sha256": "32a084c003ecb0bb290ea3f85c3b4bcde4061e5cf62aa7b0b9f3ead19470618b"
+    },
+    {
+      "bytes": 3467,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/HANDOFF.json",
+      "sha256": "37fb54456a46f724a46b86661ddde512564b6ed2730750e5e811500b78db28ce"
+    },
+    {
+      "bytes": 18368,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/CONTRACT.md",
+      "sha256": "fc36bcee88c942f1b226fccaa2089d99c9b70dda054b94a4db7f5f93a53c076c"
+    },
+    {
+      "bytes": 8155,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/CASES.md",
+      "sha256": "c60006616fecef90b808fab448ac52f0b19dffaa773a55052867bd577382d121"
+    },
+    {
+      "bytes": 4212,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/KERNEL_REFUSALS.md",
+      "sha256": "e3a4c09e7c498d2cad6dddbd90cd5364e4ba5894d643c6254a319de14b3cbbb0"
+    },
+    {
+      "bytes": 12790,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/white_kernel.py",
+      "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+    },
+    {
+      "bytes": 4943,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/PREPARATION_RECORD.md",
+      "sha256": "b9bdff262feac3d0ef48c78add38d8a682d61c7da49484cf544adf7470db783a"
+    },
+    {
+      "bytes": 4098,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/PREDECESSOR_PINS.json",
+      "sha256": "856fbf2aaef8a702b19a819938c0e6929683326c133f27b084ea4bbca0f19c3d"
+    },
+    {
+      "bytes": 1602,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/HANDOFF.json",
+      "sha256": "1005f7cd493ea5903327d012ffec6762563054c28f4a0cc9b25ca9dfde1baadd"
+    },
+    {
+      "bytes": 7529,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/SOURCE_PIN_CHECK.json",
+      "sha256": "1de4bd4a212ca58e23dd1b125bf88e0200aaf19e3d9df4dedd59e552093a4028"
+    },
+    {
+      "bytes": 7125,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/MATH_REVIEW.md",
+      "sha256": "fad5f68b4132299fe66a5b5eca36de6ec021763eb3f2116de4e0951ec796e693"
+    },
+    {
+      "bytes": 10216,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "cc54762d8bd14aeefc3957418810bb3a00ff95abb39caaa86eb1b87e553057b9"
+    },
+    {
+      "bytes": 9025,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "0d9ea86f213d6b76a840bb489d868dd46220466a24eff7238c369ff4f9998447"
+    },
+    {
+      "bytes": 3467,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/HANDOFF.json",
+      "sha256": "37fb54456a46f724a46b86661ddde512564b6ed2730750e5e811500b78db28ce"
+    },
+    {
+      "bytes": 1602,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/HANDOFF.json",
+      "sha256": "1005f7cd493ea5903327d012ffec6762563054c28f4a0cc9b25ca9dfde1baadd"
+    },
+    {
+      "bytes": 10216,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "cc54762d8bd14aeefc3957418810bb3a00ff95abb39caaa86eb1b87e553057b9"
+    },
+    {
+      "bytes": 7125,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/MATH_REVIEW.md",
+      "sha256": "fad5f68b4132299fe66a5b5eca36de6ec021763eb3f2116de4e0951ec796e693"
+    },
+    {
+      "bytes": 1641,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI125_REVIEW_DISPOSITION.json",
+      "sha256": "8f62f70abb5d8b8048a29839628c72829908f6e0f46e824841e0328139a53aa9"
+    },
+    {
+      "bytes": 2948,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI123_ROOT_DESIGN_ADJUDICATION.json",
+      "sha256": "2963dbd483539f90ef52b744e93b52451265975cbd041ff2d59df26f0d94936a"
+    },
+    {
+      "bytes": 31586,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+      "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b"
+    },
+    {
+      "bytes": 68018,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/check.py",
+      "sha256": "574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887"
+    },
+    {
+      "bytes": 11180937,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/RESULT.json",
+      "sha256": "3a69e1f30042d3dcfed4a7fa95b59b7a8984de1e0ec4059a26f4ca25604b39fe"
+    },
+    {
+      "bytes": 35449,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py",
+      "sha256": "e33a591a3b196cfa5866138c33b665fc123c5a52bdf2610351da21ba711c77b6"
+    },
+    {
+      "bytes": 2098,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/root-20260924/FINAL_RECONCILIATION.json",
+      "sha256": "5263ab139542d6591af03300ded7f2d7c9fba5fd3585347b4f7b4bfb7605f232"
+    },
+    {
+      "bytes": 31442,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/root-20260924/AUDIT_INPUT_FREEZE.json",
+      "sha256": "a10dd521e72e6cecbc55a5c35720a4d6755daebc9f1d07ecd5553af220402581"
+    },
+    {
+      "bytes": 5479,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/independent-review-20260924T213526Z-1385e996/FINAL_INDEPENDENT_REVIEW.json",
+      "sha256": "c4ac724cbde99d98b3b95f51fcf030a9ac00e48fd7aafa8998356e0f3a9eea1e"
+    },
+    {
+      "bytes": 51891508,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/prep-20260924T213357Z-4493c189/actual-normal/INTERVALS.json",
+      "sha256": "fe24ce8b35d97a9073eff8c8002ce733e4f81be3e2d9167453a640f7f2c21aba"
+    },
+    {
+      "bytes": 31586,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+      "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b"
+    },
+    {
+      "bytes": 4667,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/HANDOFF.json",
+      "sha256": "37c6611aa6db3a0b04e6e243bd3b1519ce387ef1b5ba779b372ddcc03ef858d9"
+    },
+    {
+      "bytes": 20218,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/PREDECESSOR_PINS.json",
+      "sha256": "22dcd3d7d1f47de916edbc3b26a0a4a6c23d6bfd2d96c0b9953fa9f15faeeb6f"
+    },
+    {
+      "bytes": 2948,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI123_ROOT_DESIGN_ADJUDICATION.json",
+      "sha256": "2963dbd483539f90ef52b744e93b52451265975cbd041ff2d59df26f0d94936a"
+    },
+    {
+      "bytes": 16652,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.md",
+      "sha256": "a884413061b79491e5d4c6b2ca766b313c1ee396b0896664866a5611059ad3a8"
+    },
+    {
+      "bytes": 4033,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.json",
+      "sha256": "153aacb959144a41b42262461cd85727c0435ce79c37f5a3fd36fb310d467994"
+    },
+    {
+      "bytes": 68018,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/check.py",
+      "sha256": "574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887"
+    },
+    {
+      "bytes": 35449,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py",
+      "sha256": "e33a591a3b196cfa5866138c33b665fc123c5a52bdf2610351da21ba711c77b6"
+    },
+    {
+      "bytes": 17856,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/API.md",
+      "sha256": "06f99ba48958ab4919d421ab208a84fc1d8b763e87d04774eb78aab0c292f48e"
+    },
+    {
+      "bytes": 24861,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/consumer.py",
+      "sha256": "f014394b2e5646b2810fa00f7449eabccea8487c3a0622520eb48416cdcea009"
+    },
+    {
+      "bytes": 8664,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/API.md",
+      "sha256": "2a0af05b1501b93fc21e6acc524f5b3cecbde8884970487a993257b3919033ff"
+    },
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 17291,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/CONTRACT.md",
+      "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+    },
+    {
+      "bytes": 4385,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/README.md",
+      "sha256": "da18ca7b0d44071c182d4c5400133c8b7427ff264418d886c1f04cf8511b8f76"
+    }
+  ]
+}

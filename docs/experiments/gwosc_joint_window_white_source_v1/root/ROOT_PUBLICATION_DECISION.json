@@ -1,0 +1,56 @@
+{
+  "actual_run_admitted": false,
+  "actual_scientific_body_decode": false,
+  "checks": [
+    "Exact sealed handoff/artifact pins verified afresh.",
+    "All14 declared direct predecessor roles verified as opaque bytes; five existing Git dependencies match HEAD.",
+    "Sibling-only nonstdlib import closure reviewed as plain text.",
+    "Prior source review and publication-closure review read; original findings/dispositions preserved.",
+    "Repository-wide entry inventory captured before publication; scoped checkpoint verification follows."
+  ],
+  "complete_application_accepted": false,
+  "complete_source_review": {
+    "bytes": 1529,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/HANDOFF.json",
+    "sha256": "8ce87fa9e3bf333b804e8edd27d4c8ec3502f1c77aa517fbc2cf50e0979761bf"
+  },
+  "direct_dependency_map": {
+    "bytes": 6562,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-root-publication-vydnp31q/DIRECT_DEPENDENCY_MAP_WITH_HISTORY.json",
+    "sha256": "00dc1352d604b237460f1b560296d281018110653be873640d3fd4839f52a379"
+  },
+  "limitations": [
+    "Source archive only; external capture and transitive runtime/source custody remain necessary for actual replay.",
+    "Different-author validator and white-only qualifier are sealed but unaccepted, excluded from publication.",
+    "F01-F04 closed as source specifications only; all declared fixtures/controls unexecuted.",
+    "Full32/periodic/mean/join implementation, independent review, qualification and actual admission remain open."
+  ],
+  "native_RI128": "QR source handoff sealed; complete nonauthor review assigned. Actual signs and shared H30 feasibility open.",
+  "new_fixture_execution": false,
+  "new_target_execution": false,
+  "parent": "a00e460d3305e77d63a30693358bd708b575bc40",
+  "physical_claim": false,
+  "prior_root_disposition": {
+    "bytes": 2174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/RI125_WHITE_SOURCE_DISPOSITION.json",
+    "sha256": "90c66df22b5ff16b578f38a4aba811638ec9f10f2b6089f898227691aa8219db"
+  },
+  "programme_complete": false,
+  "publication_closure_review": {
+    "bytes": 1780,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-publication-closure-xjTxsfe6/HANDOFF.json",
+    "sha256": "39cac3299c04d30d1ea020a19618c2d258541a2045679931675c0cd88037188a"
+  },
+  "qualification_accepted": false,
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "schema": "ri125-root-white-source-publication-v1",
+  "source": {
+    "bytes": 5379,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+    "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+  },
+  "status": "PUBLISH_EXACT_PREVIOUSLY_ACCEPTED_BOUNDED_PRIMARY_WHITE_SOURCE",
+  "superseded_field": "Prior source_publication_deferred only; mathematical/source scope and all execution prerequisites unchanged.",
+  "target_import_compile_AST_probe": false
+}

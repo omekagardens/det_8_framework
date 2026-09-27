@@ -16,14 +16,14 @@ Its one shared T1 full correction, all other connected parents and all five Di
 equations/strict bounds remain binding. Neither a positive H30 continuation nor
 an H30 obstruction is claimed by RI-127.
 
-RI-128 is assigned to QR in external `ri128-connected-sign-dvgWLqqv/`.
-It targets rigorous signs or sufficient bounds for the two connected margins,
-first analytically and, if needed, through minimal exact saved-input checker
-source. Retain the existing eight-row/44-slot sufficient subset only with full
-inherited record-pattern acceptance, authenticated fixed seed and a domain
-proved to contain actual scales. The formal outer-box limit cannot locate
-actual rho; favorable points and surviving regions remain unresolved. No new
-q6/q7, H/z reconstruction, K4/K5 acquisition or actual-scale run is admitted.
+RI-128 is sealed in external `ri128-connected-sign-dvgWLqqv/`; complete fresh
+nonauthor proof/source review is active in `ri128-independent-proof-source-review-Q4vXBzjt/`.
+The author proposes a tighter proved scale bound and an exact sufficient sign
+checker with separately expressed saved reconstruction. Neither the new proof
+nor the sources are accepted yet, and no checker or fixture was executed.
+Actual connected-margin signs and simultaneous H30 feasibility remain open.
+Root adjudicates the full predecessor before assigning QR its next concrete step;
+all existing inputs, shared-parent equations and original bounds remain binding.
 
 RI-122's complete fixed 28-child obstruction remains published in verified
 `3027dc6813b95cc57e8637c6598a6b07325074f0`. RI-126's portable 117-file archive
@@ -31,22 +31,25 @@ checker and 23 independent checks remain in remotely verified
 `80cac4b65f6470209cd7fe6b10d782fc0075cd3b`. Published-byte integrity and saved
 agreement are separate from scientific execution and physical claims.
 
-RI-125's sealed white-path source in `ri125-white-source-completion-bg27qfdn/`
-passed complete nonauthor source review in `ri125-white-independent-review-z8c0p102/`.
-Root accepts the bounded unexecuted source for further implementation only.
-The exact source disposition and both actual assignment/reservation records are
-retained in external `ri127-root-proof-review-tz7oyfkj/` as
-`RI125_WHITE_SOURCE_DISPOSITION.json` and `RI125_WHITE_IMPLEMENTATION_ASSIGNMENTS.json`.
-F01–F04 are addressed as source/recipe specifications; no qualification or
-actual data result is accepted. The review handoff is 1529 bytes, SHA256
-`8ce87fa9e3bf333b804e8edd27d4c8ec3502f1c77aa517fbc2cf50e0979761bf`.
-The primary white-only W01–W15 generator/orchestrator is assigned in
-`ri125-white-qualification-source-y1l_fsch/`; a different author prepares the
-independent full-field validator in `ri125-independent-white-validator-source-i00kkece/`.
-Their agreed source interface preserves complete typed scientific equality,
-179 separately identified controls and fresh saved reconstruction. None has
-been executed. Full 32-case/periodic/mean/join completion, independent reviews,
-resource qualification, custody and actual admission remain required.
+RI-125's accepted primary WHITE source and complete source review are now
+preserved in `docs/experiments/gwosc_joint_window_white_source_v1/`, together with
+the original F01–F04 findings, unchanged predecessor source, root decisions and
+an independently reviewed direct-dependency map. All copied bytes retain their
+sealed identities. Five dependencies are already committed; three small RI-73
+custody records are included. The exact historical capture remains external,
+so this source archive cannot by itself replay the actual application or supply
+complete transitive runtime custody. No fixture or target was executed.
+
+Both next measurement source packets are sealed and awaiting complete nonauthor
+review: the independent validator in `ri125-independent-white-validator-source-i00kkece/`
+and W01–W15 qualifier in `ri125-white-qualification-source-y1l_fsch/`.
+The qualifier review is active in `ri125-white-qualifier-independent-review-qmRAU0M6/`.
+The validator review is active in `ri125-white-validator-independent-review-an02uo94/`;
+neither new source is published or accepted here. Their prospective interface retains all15 cases, both179-control
+inventories and fresh full saved reconstruction. Validator-specific actual
+binding/candidate/postwrite guard qualification also remains required.
+Full32/periodic/mean/join completion, resource/caller qualification and separate
+actual admission remain open; all physical premises and thresholds are unchanged.
 
 All worker reservations remain external under
 `/Volumes/AI_DATA/development/det-review-evidence/`; root owns repository/index/Git

@@ -1,0 +1,37 @@
+{
+  "blocking_kernel_formula_findings": 0,
+  "complete_application_accepted": false,
+  "execution_authorized": false,
+  "files": [
+    {
+      "bytes": 7529,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/SOURCE_PIN_CHECK.json",
+      "sha256": "1de4bd4a212ca58e23dd1b125bf88e0200aaf19e3d9df4dedd59e552093a4028"
+    },
+    {
+      "bytes": 7125,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/MATH_REVIEW.md",
+      "sha256": "fad5f68b4132299fe66a5b5eca36de6ec021763eb3f2116de4e0951ec796e693"
+    },
+    {
+      "bytes": 10216,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "cc54762d8bd14aeefc3957418810bb3a00ff95abb39caaa86eb1b87e553057b9"
+    },
+    {
+      "bytes": 9025,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "0d9ea86f213d6b76a840bb489d868dd46220466a24eff7238c369ff4f9998447"
+    }
+  ],
+  "qualification_completion_findings": 4,
+  "schema": "ri125-independent-bounded-review-handoff-v1",
+  "source": {
+    "bytes": 3467,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/HANDOFF.json",
+    "sha256": "37fb54456a46f724a46b86661ddde512564b6ed2730750e5e811500b78db28ce"
+  },
+  "source_only": true,
+  "sources_unchanged": true,
+  "status": "NO_KERNEL_ALGEBRA_DEFECT_FOUND_WITH_REQUIRED_COMPLETION_GAPS"
+}

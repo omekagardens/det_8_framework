@@ -1,0 +1,28 @@
+{
+  "complete_application_accepted": false,
+  "completed_white_kernel_formula_defects_found": 0,
+  "execution_authorized": false,
+  "independent_review": {
+    "bytes": 1602,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-source-review-mlsKzUKA/HANDOFF.json",
+    "sha256": "1005f7cd493ea5903327d012ffec6762563054c28f4a0cc9b25ca9dfde1baadd"
+  },
+  "next_assignment": "RI125 successor copy: repair four coverage gaps and explicit fabricated interfaces; complete the white capture/admission/assembly path and exact refusal source. Preserve previous packet; separate validator author and independent source review still required. Periodic/join implementation remains subsequent source work.",
+  "programme_complete": false,
+  "qualification_claimed": false,
+  "required_completion_findings": [
+    "F01 asymmetric nonzero directed errors and unequal denominator/multiple-coordinate fixtures",
+    "F02 nonzero-width and alpha Q256 oracle plus preserved negative periodic lower endpoint",
+    "F03 explicit STRUCTURAL kernel first refusal, not a caller campaign",
+    "F04 full Gram/strip/response cases below/at/above unchanged usefulness threshold"
+  ],
+  "ret_paused": true,
+  "schema": "ri125-root-bounded-review-disposition-v1",
+  "scientific_actual_input_decode_authorized": false,
+  "source_handoff": {
+    "bytes": 3467,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/HANDOFF.json",
+    "sha256": "37fb54456a46f724a46b86661ddde512564b6ed2730750e5e811500b78db28ce"
+  },
+  "status": "ACCEPT_REVIEW_AND_AUTHORIZE_WHITE_SOURCE_COMPLETION_ONLY"
+}
