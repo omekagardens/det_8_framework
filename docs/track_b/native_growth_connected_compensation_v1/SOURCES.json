@@ -1,0 +1,184 @@
+{
+  "schema": "ri127-author-source-identities-v1",
+  "status": "SOURCE_ONLY_AUTHOR_WORK_PENDING_FRESH_NONAUTHOR_REVIEW_AND_ROOT_ADJUDICATION",
+  "packet_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5",
+  "sources": [
+    {
+      "role": "RI124 accepted full conditional theorem and closure",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "bytes": 3645,
+      "sha256": "85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c",
+      "read_scope": "complete current sitting"
+    },
+    {
+      "role": "RI124 complete fresh nonauthor review",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/INDEPENDENT_PROOF_REVIEW.md",
+      "bytes": 18484,
+      "sha256": "55b2a892c67c2fd49dfb8e539f0876546b9dc3ddc25caca7336a16ee77c4fbc1",
+      "read_scope": "complete current sitting"
+    },
+    {
+      "role": "RI124 independent-review handoff",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/HANDOFF.json",
+      "bytes": 2045,
+      "sha256": "d632c7f26451e729d524a8eab98969969171719529fdcc1bd7e6f5c92c74ff43",
+      "read_scope": "complete current sitting"
+    },
+    {
+      "role": "RI124 immutable author handoff",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/HANDOFF.json",
+      "bytes": 6468,
+      "sha256": "a883a826a25f0fce18876e028fced6e40f7359c9b5e46098046fc13c5c15227e",
+      "read_scope": "complete preceding sitting; opaque verification this sitting"
+    },
+    {
+      "role": "RI124 complete parent and strict-positive criterion",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/COMPENSATION.md",
+      "bytes": 15921,
+      "sha256": "116b101809b4fbfc5a4c19e81885280b53df004a2fff411226e33854564db1b5",
+      "read_scope": "main authored/read complete preceding sitting; immutable identity checked"
+    },
+    {
+      "role": "RI124 finite coefficient definitions",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/COEFFICIENT_OBLIGATIONS.md",
+      "bytes": 18410,
+      "sha256": "a41886e29a1364b45d6826f272bf8b93e559e970543795884c45409ca01b3a64",
+      "read_scope": "complete preceding sitting; immutable identity checked"
+    },
+    {
+      "role": "RI115 accepted polynomial identities",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md",
+      "bytes": 6498,
+      "sha256": "0489c1cea77f8cc6cf0b93ee15b0423181fb274a963e8d9fbbffedf4c38d0a01",
+      "read_scope": "complete preceding sitting by main; fresh complete read by record author"
+    },
+    {
+      "role": "RI117 accepted negative pivot/contrast premises",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+      "bytes": 4617,
+      "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3",
+      "read_scope": "complete preceding sitting; accepted premise"
+    },
+    {
+      "role": "RI117 complete T2/T3 profile and record transport",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+      "read_scope": "complete preceding sitting; fresh author source reads disclosed in notes"
+    },
+    {
+      "role": "RI111 polynomial notation and reference elimination",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+      "bytes": 20656,
+      "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+      "read_scope": "complete preceding sitting; accepted premise"
+    },
+    {
+      "role": "RI102 strict disjunction and mixture identities",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+      "bytes": 17366,
+      "sha256": "bef68897a4d91e24deab41b9bcd3b9fd03edcc55e41b12fd9e4be31ea38081ba",
+      "read_scope": "complete preceding sitting by main; complete current positivity-author read"
+    },
+    {
+      "role": "RI120 analytic prefix identities",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+      "bytes": 7886,
+      "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247",
+      "read_scope": "complete current sitting"
+    },
+    {
+      "role": "RI120 core restoration identities",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+      "bytes": 8244,
+      "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2",
+      "read_scope": "complete preceding sitting by main; complete current record-author read"
+    },
+    {
+      "role": "RI41 fixed record-blind three-chain row",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "bytes": 16243,
+      "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+      "read_scope": "complete current sitting; no printed numerical value used as a new numerical operand"
+    },
+    {
+      "role": "RI63 actual strict mixture and raising-component premise",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "bytes": 17102,
+      "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+      "read_scope": "complete current sitting; printed numerical values not recomputed or used as new numerical operands"
+    },
+    {
+      "role": "RI122 final accepted complete reconstruction and obstruction",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "bytes": 15477,
+      "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc",
+      "read_scope": "complete preceding sitting by main; current authors read completely"
+    },
+    {
+      "role": "RI122 complete exact odd/even patterns and quadratic sign proof",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/ROOT_QUADRATIC_POSITIVITY_REVIEW.json",
+      "bytes": 7418,
+      "sha256": "9afb628549befc1bb25e64c9d370fa890e340a2216fd47b7d6c528e7ac90e6f9",
+      "read_scope": "complete current textual read of accepted mathematical review, not a numerical recomputation"
+    },
+    {
+      "role": "RI122 actual complete audit mathematical review",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-math-addendum-xkE4Xmwp/NONAUTHOR_AUDIT_REVIEW.md",
+      "bytes": 13203,
+      "sha256": "2df52eafb9ccb47ded7148660c3f530b395d9a5e6f4429985ff75f550b54ddd3",
+      "read_scope": "complete current sitting"
+    },
+    {
+      "role": "RI120 existing held-domain specification and input identity",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+      "bytes": 16451,
+      "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b",
+      "read_scope": "lines1-110 current sitting, full accepted source previously reviewed"
+    },
+    {
+      "role": "Existing RI88 held object, authenticated only",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "bytes": 1828149,
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b",
+      "read_scope": "opaque bytes only; no scientific decoding, extraction or numerical arithmetic"
+    }
+  ],
+  "contributors": [
+    {
+      "agent": "/root",
+      "role": "integration, result/remaining-system theorem, source-only sign contract and metadata",
+      "independent_reviewer": false
+    },
+    {
+      "agent": "/root/ri124_coefficient_scope",
+      "role": "new RI127 all-record transport/cancellation proof",
+      "independent_reviewer": false
+    },
+    {
+      "agent": "/root/ri124_support_author",
+      "role": "new RI127 sign and strict-local interval proof",
+      "independent_reviewer": false
+    }
+  ],
+  "integration_review": [
+    "Main read both complete author proofs, all new updates, and local positivity source metadata. Authors' analyses agree on the native sign derivation and strict interval equivalence.",
+    "Main clarified one section8 sentence in LOCAL_POSITIVITY.md: RI124 already discharged T1 contrasts; its reference/intercept and strict bounds remain binding. No mathematical formula changed.",
+    "All 15 T2 and7 T3 minors are discharged by source/hand proof; no new scientific certificate, row or polynomial coefficient was numerically regenerated.",
+    "The raw RI88 object was read only as opaque bytes for the declared identity; its scientific body was not decoded.",
+    "The existing root quadratic mathematical-review JSON was read as text for its accepted all-record pattern and sign proof. Printed saved rationals were not converted to new arithmetic operands."
+  ],
+  "boundaries": {
+    "target_or_existing_helper_import_compile_probe_run": false,
+    "numerical_probability_or_polynomial_campaign": false,
+    "new_H_z_or_actual_scale_evaluation": false,
+    "K4_K5_acquired": false,
+    "active_card_freeze_caller_admission": false,
+    "repository_index_git_write": false,
+    "predecessor_edit": false,
+    "actual_connected_positivity_decided": false,
+    "full_H30_positive_feasibility_claimed": false,
+    "fresh_nonauthor_review_completed": false,
+    "root_adjudication_claimed": false
+  }
+}
