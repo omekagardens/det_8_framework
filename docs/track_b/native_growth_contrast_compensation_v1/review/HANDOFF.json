@@ -1,0 +1,41 @@
+{
+  "artifacts": [
+    {
+      "bytes": 5293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/INDEPENDENT_PROOF_REVIEW.json",
+      "sha256": "56a41daebce9728b4a28123ec2bec875a39b3d2d87d0d3d15a461b2fdf08485f"
+    },
+    {
+      "bytes": 18484,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/INDEPENDENT_PROOF_REVIEW.md",
+      "sha256": "55b2a892c67c2fd49dfb8e539f0876546b9dc3ddc25caca7336a16ee77c4fbc1"
+    },
+    {
+      "bytes": 19807,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/SOURCE_PIN_CHECK.json",
+      "sha256": "77e0a99d7b7896452ba48f9194223f176e45a52143e2628ad33f25dc36fa2035"
+    },
+    {
+      "bytes": 3062,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/check_source_pins.py",
+      "sha256": "49496aa27bc75dabd533096814b43dfe86f6e171d11a522681d6d4824960d08a"
+    },
+    {
+      "bytes": 5511,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/seal_review.py",
+      "sha256": "433d60c4f502dc736c3b2ecbcdbd3db82a892bb60f9bb08fd3cf2a3a0a26cca3"
+    }
+  ],
+  "author_handoff": {
+    "bytes": 6468,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/HANDOFF.json",
+    "sha256": "a883a826a25f0fce18876e028fced6e40f7359c9b5e46098046fc13c5c15227e"
+  },
+  "blocking_findings": [],
+  "boundary": "Independent conditional proof/closure recommendation only. Root adjudication, publication, successor selection and all admissions remain root-owned. Original sources unchanged.",
+  "execution_authorized": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z",
+  "reviewer": "/root/ri116_saved_arithmetic_review",
+  "schema": "ri124-independent-proof-review-handoff-v1",
+  "status": "PASS_CONDITIONAL_ANALYTIC_THEOREM_AND_COMPLETE_CLOSURE_ONLY"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "ri124-support-author-read-identities-v1",
+  "status": "AUTHOR_SOURCE_ONLY_NOT_INDEPENDENT_ACCEPTANCE",
+  "identity_method": "Opaque whole-file byte length and SHA-256; no scientific rational decoding or target/helper execution",
+  "scientific_execution": false,
+  "repository_mutation": false,
+  "sources": [
+    {
+      "role": "RI111 complete support, equations and record theorem",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+      "bytes": 20656,
+      "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+      "read_scope": "complete"
+    },
+    {
+      "role": "RI103 full-parent closure and maximal-record invariance",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri103-full-birth-repair-QakuEg/REPAIR.md",
+      "bytes": 20198,
+      "sha256": "8a2a4bf9142341e2511763cbfd799183860e907372d577b9b32d8c1cf24a955c",
+      "read_scope": "complete"
+    },
+    {
+      "role": "RI85 full cap catalogue, precursor masks and symbolic held coefficients",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+      "bytes": 28127,
+      "sha256": "e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a",
+      "read_scope": "complete"
+    },
+    {
+      "role": "RI99 local child catalogue and complete first deletion closure",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_harmonic_extension_v1/EXTENSION.md",
+      "bytes": 22358,
+      "sha256": "2a44a7248ec5555ffccd5a37f492374e4933370ad19acf89da28bdd098ee1093",
+      "read_scope": "complete"
+    },
+    {
+      "role": "RI101 additional closure context; load-bearing facts also in complete RI103/111 reads",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_signed_extension_v1/SIGNED.md",
+      "bytes": 19057,
+      "sha256": "a587de47da512ae66bc88814f106a05a253cc60d0d0fbeaa16b53904f7f02a10",
+      "read_scope": "lines 1-290 only"
+    },
+    {
+      "role": "RI120 contextual complete-domain and connected-profile definitions",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+      "bytes": 16451,
+      "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b",
+      "read_scope": "lines 1-95 plus matching-line discovery; not claimed complete"
+    },
+    {
+      "role": "RI120 optional prefix simplification context; not needed for new deletion-factor derivation",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+      "bytes": 7886,
+      "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247",
+      "read_scope": "complete"
+    },
+    {
+      "role": "RI120 optional F3 prefix simplification context; not needed for new deletion-factor derivation",
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+      "bytes": 8244,
+      "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2",
+      "read_scope": "complete"
+    }
+  ],
+  "read_only_incident": {
+    "path": "docs/track_b/native_growth_connected_sensitivity_v1/DESIGN.md",
+    "result": "File did not exist; actual directory inventory and existing analytic notes read afterward",
+    "scientific_or_state_effect": "none"
+  },
+  "fresh_nonauthor_review": "Pending research-owner coordination; this author metadata is not that review"
+}

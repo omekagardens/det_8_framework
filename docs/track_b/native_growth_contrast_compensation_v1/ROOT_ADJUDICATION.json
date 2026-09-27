@@ -1,0 +1,55 @@
+{
+  "accepted_results": [
+    "For the unchanged baseline, eleven-class seed and amplitude 1/4, the specified H30 has exactly 30 distinct children, 16 incoming parents, 66 maximal-deletion roles, 221 complete individual ideals, 63 supported and 158 uncorrected slots. All five zero-seed D parent obligations remain.",
+    "The complete shared whole-record contrast equations, reference intercepts and strict child positivity are necessary and sufficient for the stated scalar-passive marked local continuation through eight births. No feasible correction vector is supplied.",
+    "Accepted RI115 polynomial coefficient identities and nonzero Delta_1 p discharge every T1 contrast for arbitrary t0,t2,t3 with one shared recovered v1. Reference recovery, strict positivity and shared D coupling still bind.",
+    "The precise record1 pivots are nonzero by specific accepted RI122 evidence, not generic nonconstancy. T2/T3 zero-minor, zero-intercept and t=0 branches remain in the complete criterion.",
+    "A sufficient symbolic coefficient closure is existing 40 rows/224 slots plus K4/K5 12 rows/112 slots, totaling 52/336, together with unchanged seed and actual scales or adequate analytic statements. This is not newly acquired data or a minimality claim."
+  ],
+  "all_size_claim": false,
+  "author_handoff": {
+    "bytes": 6468,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/HANDOFF.json",
+    "sha256": "a883a826a25f0fce18876e028fced6e40f7359c9b5e46098046fc13c5c15227e"
+  },
+  "blocking_findings": [],
+  "clarifications": [
+    "The conservative quotient and the separately inherited stronger T3 transport are distinct.",
+    "Specific accepted nonzero pivots and strict inequalities are retained."
+  ],
+  "counts": {
+    "conservative_record_quotient_rows": 384,
+    "ideal_occurrences": 28288,
+    "raw_marked_rows": 2048,
+    "supported_occurrences": 8064,
+    "uncorrected_occurrences": 20224
+  },
+  "execution_admitted": false,
+  "independent_review": {
+    "bytes": 2045,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/HANDOFF.json",
+    "sha256": "d632c7f26451e729d524a8eab98969969171719529fdcc1bd7e6f5c92c74ff43"
+  },
+  "new_scientific_arithmetic": false,
+  "new_support_obstruction_accepted": false,
+  "next_assignment": "RI127: full analytic T2/T3 compensation-minor and intercept/strict-positive decision using existing held domain first; all shared Di conditions retained.",
+  "physical_claim": false,
+  "positive_feasibility_accepted": false,
+  "programme_complete": false,
+  "remaining_open": [
+    "Complete T2/T3 compensation-minor and intercept/strict-positive decision.",
+    "Simultaneous all-parent feasibility with identical shared correction variables.",
+    "K4/K5 held inputs or analytic elimination if full disconnected profiles become necessary.",
+    "Actual-scale-dependent inequalities beyond accepted premises."
+  ],
+  "required_fixes": [],
+  "ret_paused": true,
+  "review_method": "Complete independent hand proof and combinatorial/symbolic review by root and named nonauthor; opaque metadata checks only. No scientific calculation, order-enumeration program or proof-assistant verification was executed for RI124.",
+  "root_manual_review": {
+    "bytes": 3260,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_MANUAL_REVIEW.json",
+    "sha256": "82d14a8106c17d91d05aed2e7c3c9b86de3892e7e66c146ca76507a13b6738d9"
+  },
+  "schema": "ri124-root-final-proof-adjudication-v1",
+  "status": "ACCEPT_CONDITIONAL_ANALYTIC_THEOREM_AND_COMPLETE_CLOSURE_ONLY"
+}

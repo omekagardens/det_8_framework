@@ -1,72 +1,69 @@
-# Current QR coordination — RI-124 native contrast compensation
+# Current QR coordination — RI-127 connected compensation decision
 
-**Current checkpoint — 27 September 2026 UTC.** RI-122 independently rejects
-the complete fixed 28-child positive repair at unchanged seed, baseline and
-amplitude 1/4. Both connected profiles are nonconstant; the necessary connected
-equations contradict strict positivity. Genuine witness, both byte-identical
-producer replays, full nineteen-section independent arithmetic audit and complete
-serial custody reviews pass. Exact result and limits are in
+**Current checkpoint — 27 September 2026 UTC.** RI-124's complete
+30-child contrast-compensation theorem and finite support/input closure are
+independently reviewed and accepted. The new analytic consequence discharges all
+T1 contrast residuals using previously accepted polynomial identities and one
+shared recovered full-child correction. Reference recovery, strict positivity
+and all shared Di equations still bind. The complete 30-child/16-parent/221-ideal
+criterion is conditional; no positive extension or new support obstruction is
+claimed. Exact manuscripts, independent review and root adjudication are in
+`docs/track_b/native_growth_contrast_compensation_v1/`.
+
+RI-127 is assigned to the existing Quantum Relativity task and acknowledged in
+external `ri127-connected-compensation-nMyz57P5/`. It targets every one of the
+fifteen T2 and seven T3 compensation minors, then strict intercept/positivity
+conditions using the existing 40-row/224-slot domain and accepted analytic
+identities first. Exact record transport, zero cases and all shared-parent
+constraints remain mandatory. K4/K5's extra held rows are a sufficient later
+closure, not newly acquired data. A connected pass alone cannot establish a
+positive continuation. No new numerical campaign is admitted.
+
+RI-122's complete fixed 28-child obstruction is preserved in remotely verified
+`3027dc6813b95cc57e8637c6598a6b07325074f0` and
 `docs/track_b/native_growth_connected_sensitivity_result_v1/`.
+Both connected profiles are nonconstant and the necessary equations contradict
+strict positivity at unchanged baseline, seed and amplitude 1/4. Its local T1
+result remains valid. All-size/all-support, native QM and gravity conclusions
+remain outside that result.
 
-This closes the fixed-support feasibility question negatively. The local positive
-T1 result remains valid; individual remaining-parent feasibility was not evaluated.
-No all-support or all-size rejection, native QM, geometry/gravity or physical
-measurement result follows. RI-124's source-stable author packet proposes a
-30-child support with the same sixteen parents and a conditional complete
-contrast/intercept/positivity criterion. Its T1 simplification and full 221-ideal
-inventory are under complete fresh nonauthor review in
-`ri124-independent-proof-review-hZW9Bs5Z/`; no positive continuation or final
-mathematical acceptance is claimed yet. Root has completed a separate manual
-review. After adjudication, the next native question is the full T2/T3 compensation
-minors and strict intercept/positivity conditions, with every shared Di constraint
-retained. Root owns later numerical admission and Git; no duplicate RI-122 run.
-
-RI-122 is published in remotely verified `3027dc6813b95cc57e8637c6598a6b07325074f0`.
-RI-126 adds a portable read-only archive checker in
+RI-126's portable read-only archive verifier is published in remotely verified
+`80cac4b65f6470209cd7fe6b10d782fc0075cd3b` at
 `docs/track_b/native_growth_connected_sensitivity_archive_check_v1/`.
-The manifest matches all 117 original Git-snapshot files; full nineteen-section
-saved reconstruction, summary bytes and decisions agree. Independent Python 3.9
-review passed thirteen CLI and ten saved-object cases, including relocated
-normal/optimized runs and meaningful tamper refusals. The verification routine
-opens only the manifest and archive. This checks published bytes and saved agreement; it does
-not rerun scientific arithmetic, authenticate execution custody or admit any
-new experiment. The original result archive remains byte-for-byte unchanged.
+All 117 file identities match the original Git snapshot; the complete nineteen
+saved sections, summary bytes and decisions agree. Independent Python 3.9 review
+passed thirteen CLI and ten saved-object cases, including relocated normal and
+optimized runs and tamper refusals. The verification routine opens only its
+manifest and archive. This verifies published bytes and saved agreement; it does
+not rerun scientific arithmetic or authenticate external execution custody.
 
-RI-123's concrete measurement application design is published in remotely verified
-`5ebc8d8b0c6b0965cd0131c24bd6eb759bcfc354`. RI-125 has a sealed, incomplete,
-unexecuted source checkpoint in external `ri125-joint-window-application-source-fsra3wcw/`.
-Its handoff is 3467 bytes, SHA256
-`37fb54456a46f724a46b86661ddde512564b6ed2730750e5e811500b78db28ce`.
-Independent source review is complete in `ri125-independent-source-review-mlsKzUKA/`:
-no white-kernel formula defect found; four required coverage improvements remain.
-The review handoff is 1602 bytes, SHA256
-`1005f7cd493ea5903327d012ffec6762563054c28f4a0cc9b25ca9dfde1baadd`.
-Root disposition `ri122-root-execution-review-6whn_vky/RI125_REVIEW_DISPOSITION.json`
-is 1641 bytes, SHA256
-`8f62f70abb5d8b8048a29839628c72829908f6e0f46e824841e0328139a53aa9`.
-The new source-only successor is assigned in `ri125-white-source-completion-bg27qfdn/`:
-close asymmetric/unequal-denominator interval coverage, nonzero Q256 uncertainty
-and negative endpoints, the STRUCTURAL kernel refusal, and complete response
-threshold-boundary cases; then finish the white capture/admission/assembly path.
-The result contract, 26 fabricated recipes, 37 refusal definitions and primary
-white kernel are present; admission wrappers, periodic consumer, join, separately
-authored validator and qualifier remain unfinished. No qualification or actual
-coefficient/PSD calculation is accepted. The successor preserves this checkpoint;
-a separately authored validator, remaining periodic/join sources and complete
-source review are still required before qualification can be considered.
+RI-123's conventional measurement application design remains published in
+remotely verified `5ebc8d8b0c6b0965cd0131c24bd6eb759bcfc354`.
+RI-125's source-only white-path successor is now sealed in external
+`ri125-white-source-completion-bg27qfdn/`. Its handoff is 5379 bytes, SHA256
+`4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468`.
+The original incomplete packet and its four required coverage findings remain
+preserved. The successor declares the complete white capture/admission/assembly
+source, F01–F04 coverage, 32 case recipes, 38 kernel controls and 142 primary
+guard/tail controls. None has been executed or accepted by this checkpoint.
+Complete fresh nonauthor source review is assigned in external
+`ri125-white-independent-review-z8c0p102/`. A separately authored validator,
+full qualifier, periodic/join completion, execution custody and actual admission
+remain required; no actual coefficient/PSD calculation is accepted.
 
-QR's active RI-124 reservation is external `ri124-compensation-support-UjbAZpTk/`.
-Both lanes are under `/Volumes/AI_DATA/development/det-review-evidence/`;
-root retains the repository/index/Git reservation.
-Physical covariance, mean, calibration and a native forward map remain open.
-The programme remains active, all thresholds remain fixed, and RET alone stays paused.
+Active worker reservations are external under
+`/Volumes/AI_DATA/development/det-review-evidence/`; root retains the repository,
+index, Git and all native numerical admissions. Source authors preserve sealed
+packets while reviewers work. Physical covariance, mean, calibration and a native
+forward map remain open. The programme remains active, all thresholds remain
+fixed, and RET alone stays paused.
 
-RI-120 and the accepted RI-122 actual result remain immutable. QR owns only its
-newly declared external RI-124 analytic packet. A useful successor must address
-T2/T3 record contrast, rather than only adding freedom at T1. Every incoming
-parent and individual ideal multiplicity, shared correction and strict positivity
-condition must be retained. No new actual rho/s, H/z, q6/q7 or full-layer campaign
-is assigned. Root reviews the resulting candidate before any computation.
+RI-124 is sealed and accepted as a conditional theorem. QR owns only external
+`ri127-connected-compensation-nMyz57P5/`; the complete assignment and acknowledgement
+are preserved with the RI-124 publication. Use existing 40/224 first. No K4/K5
+acquisition, new q6/q7, H/z, actual rho/s, target/helper execution, active card or
+repository/index/Git work is assigned. Root dispatches fresh nonauthor review
+after the complete author handoff and independently adjudicates its conclusion.
 
 # Historical RI-115 actual-review checkpoint
 
@@ -3241,3 +3238,25 @@ external provenance-path access. Independent relocated normal/optimized, nine
 CLI refusals and ten saved-object/parser checks pass. Original archive, historical
 failures and source pins remain unchanged. RI-124 complete proof review and
 RI-125 white-path source completion continue under their existing reservations.
+
+
+**27 September: RI-124 conditional theorem accepted; RI-127 assigned.**
+Root read the complete fresh nonauthor proof review and accepted the full H30
+criterion, all 221 individual ideals and 52/336 sufficient input closure. The new
+T1 contrast discharge follows analytically from accepted identities; no positive
+continuation follows. Root adjudication is 3645 bytes, SHA256
+`85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c`.
+The exact author and reviewer packets remain unchanged in
+`docs/track_b/native_growth_contrast_compensation_v1/`; all 22 declared historical
+source roles map to already committed bytes. Review was manual proof work plus
+opaque metadata checks, not scientific execution. RI-127 was actually dispatched
+to QR and its fresh external reservation acknowledged; complete T2/T3 minors and
+strict reference/positivity conditions are next, with every shared Di retained.
+
+RI-126 is committed and independently verified on origin/ret at
+`80cac4b65f6470209cd7fe6b10d782fc0075cd3b`. RI-125's sealed white-path successor
+is assigned to a nonauthor for complete source-only review in
+`ri125-white-independent-review-z8c0p102/`. Its cases and controls remain
+unexecuted and unaccepted; full application and scientific prerequisites remain.
+The original independent review, unrelated edits and all historical results are
+preserved. The native and measurement lanes remain active; RET alone is paused.
