@@ -1,27 +1,31 @@
 # Current QR coordination — RI-120 connected-profile sensitivity
 
-**Current checkpoint — 26 September 2026 UTC.** RI-117's complete conditional
-coupled-parent reduction is independently accepted. Any positive repair on the
-fixed 28-child support requires f2 constant OR f3 constant. The proof retains
-the free positive T1 family, every D1 rank branch, strict bounds and all twelve
-remaining shared-parent systems. Actual profile constancy and full feasibility
-remain open. This checkpoint publishes the unchanged analytic packet and reviews.
+**Current checkpoint — 26 September 2026 UTC.** RI-119's exact synthetic
+joint-window sources and complete contract are independently accepted as source
+only. Primary complete sign enumeration and separately authored full moment
+validation cover nine cases, three bounds and twelve groups, with 41 declared
+first-refusal controls per implementation. Complete root and independent review
+found no blockers. Actual qualification and runtime fit remain untested.
 
-RI-120 is assigned to Quantum Relativity after complete root adjudication:
-connected sensitivity using only the existing forty held rows/224 slots, all
-seven V contrasts and fifteen Q2 quadratics. Analytic proof and source preparation
-come first; exact gcd/root exclusion may settle the question without evaluating
-the actual scale. No new disconnected D1 rows or numerical campaign is admitted.
-The external source reservation is `ri120-connected-sensitivity-source-xru78ysn/`.
+This checkpoint publishes the eleven unchanged source/metadata files, complete
+independent verdict, root decision and review. RI-121 is assigned the minimal
+concrete captured-source caller and supervision/runtime applicability review in
+external `ri121-synthetic-caller-source-0wmr9ajh/`. Root-owned actual admissions,
+serial normal/optimized runs and genuine custody remain required. No empirical
+body, actual operator capture or native scientific input enters this phase.
 
-RI-118's conditional joint-window design is published in remotely verified
-`d957c43`. RI-119 has delivered stable synthetic sources and a separately
-authored validator in `ri119-joint-window-source-119uwunz/`; a complete independent
-coordinator review is now active. Its qualification has not run; empirical bodies and actual coefficient capture
-remain outside that first executable closure. Native RI-115 and descriptive
-RI-116 results remain published in verified `f6d486e` and `c34980c`.
-The wider native geometry/gravity and measurement programme remains active;
-RET alone stays paused. No physical correspondence is established here.
+Native RI-117's conditional coupled-parent proof is published in remotely
+verified `3aeb064`. QR continues RI-120 in
+`ri120-connected-sensitivity-source-xru78ysn/`, using the fixed existing forty
+held rows/224 slots, all seven V contrasts and fifteen Q2 quadratics. Actual
+connected sensitivity and full 28-child feasibility remain open; no new D1
+inputs or numerical execution is admitted by that source assignment.
+
+RI-118's design, RI-115's native rank result and RI-116's descriptive public-data
+comparison remain published in verified `d957c43`, `f6d486e` and `c34980c`.
+The wider native geometry/gravity and measurement programme remains active.
+Physical calibration, a native forward map and protected validation remain
+separate. RET alone stays paused.
 
 RI-117 is immutable and accepted; its worker handoff is not a programme pause.
 QR now owns external `ri120-connected-sensitivity-source-xru78ysn/`, assigned
@@ -3067,3 +3071,38 @@ is assigned and active, including the direct signed-output checks and all 41
 refusal declarations per implementation. No qualification result is inferred
 from source review. Physical calibration, public-development interpretation and
 a native forward map remain separate. RET alone remains paused.
+
+**26 September: RI-119 exact synthetic sources accepted; RI-121 assigned.**
+
+The stable source-only handoff is 3,753 bytes, SHA256
+`57abc3e84de290214d7e9b6b761ecad8694bf8041a8c2f8b3d77878106ed6a64`.
+Complete independent coordinator source review is 23,996 bytes, SHA256
+`e389b9dc58c58f46d8ef992d632493c9ce832d97344a53f11825921b93170054`.
+Root acceptance is 4,979 bytes, SHA256
+`8e1deba9fc9f5fa02009aad02d5f7222dc4162aeb8d0f542d51eeca66d91de67`,
+retained in external `ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json`
+and copied into `docs/experiments/gwosc_joint_window_synthetic_v1/`.
+
+The two independent scientific routes are complete sign enumeration and
+selector/moment/factor reconstruction. The source defines 912 main sign vectors
+and eight Q12 factor vectors, not observed execution counts. All full directed
+covariance fields, mean/scaling identities, pointwise Q06/Q08 checks, asymmetric
+Q09 and dimensioned Q12 factors are retained. Both source reviewers and root
+traced the 33 report, five parser and three PSD control declarations; none has
+been executed. The recorded resource-guard fixes and authorship exception are
+preserved, not hidden as a clean first attempt.
+
+RI-121 is assigned the minimal concrete caller in the fresh external reservation
+`ri121-synthetic-caller-source-0wmr9ajh/`. It must bind the exact three source
+modules and complete actual runtime/source closure, preserve the existing
+180-second/524,288-KiB sampled sole-child bounds and all timing/custody guards,
+and obtain independent applicability review. Root owns fresh actual admission
+and serial normal/optimized qualification after the predecessor's genuine
+completion/custody is reviewed. A saved audit does not itself witness historical
+control execution. No empirical body, actual operator capture, native operand,
+active execution card or synthetic output is created in this source checkpoint.
+
+Native proof checkpoint `3aeb064ef9962f72838b226931bd8309b35d7112` is remotely
+verified; QR RI-120 continues without duplicate assignment. Its analytic
+simplifications remain provisional until complete reviewed handoff. The wider
+programme remains active; RET alone is paused.

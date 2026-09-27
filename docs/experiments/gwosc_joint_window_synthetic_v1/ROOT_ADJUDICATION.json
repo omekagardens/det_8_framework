@@ -1,0 +1,76 @@
+{
+  "acceptance_limits": [
+    "Source/manual mathematics only; no import, compile, AST, probe, sign enumeration or actual qualification.",
+    "The finite cases qualify only their fixed synthetic algebra if actually passed; not a general actual-coefficient engine or physical covariance law.",
+    "No current runtime-member validation. Predecessor runtime inventory is candidate metadata, not a fresh admission.",
+    "No empirical HDF5/PSD, RI116 scientific body, RI73 coefficient capture or native operands enter the executable science closure."
+  ],
+  "accepted_fixed_domain": {
+    "bounds": 3,
+    "cases": 9,
+    "declared_Q12_factor_sign_vectors": 8,
+    "declared_controls_per_implementation": 41,
+    "declared_main_sign_vectors": 912,
+    "external_scientific_inputs": [],
+    "groups": 12
+  },
+  "active_execution_admission": false,
+  "actual_runtime_fit_verified": false,
+  "blocking_findings": [],
+  "date_utc": "2026-09-26",
+  "fixed_limits": {
+    "active_child_seconds": 180,
+    "body_bytes": 2097152,
+    "decimal_component_digits": 2467,
+    "maximum_successful_sample_and_final_to_reap_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rational_bits": 8192,
+    "sampled_sole_child_RSS_KiB": 524288,
+    "target_poll_seconds": 0.025
+  },
+  "handoff": {
+    "bytes": 3753,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/HANDOFF.json",
+    "sha256": "57abc3e84de290214d7e9b6b761ecad8694bf8041a8c2f8b3d77878106ed6a64"
+  },
+  "independence": "Primary exact enumeration versus separately authored full moment/selector/factor reconstruction. The explicitly recorded parent PSD resource-guard correction does not erase authorship provenance or become an independent scientific route.",
+  "independent_complete_source_review": {
+    "bytes": 23996,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-independent-complete-source-IpsOUShQ/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+    "sha256": "e389b9dc58c58f46d8ef992d632493c9ce832d97344a53f11825921b93170054"
+  },
+  "native_forward_claim": false,
+  "next_action": "RI121 source-only concrete minimal captured-source caller for serial normal/optimized synthetic qualification; complete runtime/supervision applicability and independent caller review before root-owned actual admission.",
+  "physical_calibration_claim": false,
+  "programme_complete": false,
+  "protected_validation": false,
+  "qualification_executed": false,
+  "ret_paused": true,
+  "root_review": [
+    "Complete contract and implementation read in71f23d/e04c71; complete primary and qualifier in cff929/dd6df9.",
+    "Complete validator read in8aaa46 with output-tail truncation recovered explicitly in a088cd; full author notes in8460c5, preparation record in8aaa46 aggregate output and full internal source review in f17886.",
+    "Complete independent nonauthor verdict read in325a3d, including all41 explicit source-path traces. Handoff/source manifests read in3fc5d3/41896f; complete final byte verification retained separately.",
+    "Manually rederived shared raw sampling, moment subtraction, Pi centering, mean-map orientation, expected_U=expected_V+mean_output_energy, Q07 scalar oracle and all Q12 factor reductions. Q09 retains full nonsymmetric directed block.",
+    "Checked per-sign Q06 row sums/constant cancellation and signed Q08 scaling before counting, all nine fixed domains and912 declared main signs plus8 Q12 signs.",
+    "Traced every33 full-report mutation,5 parser controls and3 PSD controls to the first declared deliberate refusal, including M33 decimal length before regex and G03 per-product8193-bit refusal before cancellation.",
+    "Checked complete typed schemas, bool/int separation, exact rational and byte limits, full independent expected fields, fresh caller-owned reference, canonical input/reference preservation and no assertion-only gates.",
+    "Checked that saved audit validates fields without claiming historical control execution, which must be witnessed by actual captured run() custody. No target execution or runtime fit inferred."
+  ],
+  "schema": "ri119-root-synthetic-source-adjudication-v1",
+  "source_and_dependency_check": {
+    "bytes": 11887,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/SOURCE_AND_SCIENTIFIC_DEPENDENCY_CHECK.json",
+    "sha256": "1876da28c636aba2a554deb69b48d566258577f65e3b40018f458de7c243c272"
+  },
+  "source_pins": {
+    "bytes": 3683,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_PINS.json",
+    "sha256": "77df08ace0e7b9d2f024cd49bbab99feae9b45ae4b0cf542097580b49e4e6b47"
+  },
+  "source_review": {
+    "bytes": 11143,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_REVIEW.md",
+    "sha256": "97f252915aaa30a08cc0c5d8dd8dba75656c4f3108bed8226873c52c5845a8fd"
+  },
+  "status": "ACCEPT_SCIENTIFIC_SOURCE_AND_CONTRACT_ONLY"
+}

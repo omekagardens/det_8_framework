@@ -1,0 +1,56 @@
+{
+  "candidate_inherited_runtime_and_supervision_references": [
+    {
+      "bytes": 18905,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/HANDOFF.json",
+      "role": "candidate_inherited_runtime_supervision_reference_not_ri119_admission",
+      "sha256": "ba03485a0bdf843dee98d50daca1665c31dcc64ea9267c0f76a882e7959b2451"
+    },
+    {
+      "bytes": 12456,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/EXECUTION_CONTRACT.source-only.md",
+      "role": "candidate_inherited_runtime_supervision_reference_not_ri119_admission",
+      "sha256": "c8ca2150a9fc789c65375e1f857871eee30a016d6f0eca651999f790d5af1cf2"
+    },
+    {
+      "bytes": 1216343,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/RUNTIME_INVENTORY.json",
+      "role": "candidate_inherited_runtime_supervision_reference_not_ri119_admission",
+      "sha256": "8b0329a83a1208b21dfb4771d2dd078aae6cb54a1741b7f20b4a4695c06e245c"
+    }
+  ],
+  "design_provenance": [
+    {
+      "bytes": 15602,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md",
+      "role": "accepted_design_provenance_only_not_runtime_scientific_input",
+      "sha256": "d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4"
+    },
+    {
+      "bytes": 4320,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json",
+      "role": "accepted_design_provenance_only_not_runtime_scientific_input",
+      "sha256": "2ce273c59668a97992270bf62ccf30b6bb6bf71c5c3c5500199ea3a902ef3a8e"
+    },
+    {
+      "bytes": 14774,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json",
+      "role": "accepted_design_provenance_only_not_runtime_scientific_input",
+      "sha256": "d3ba95ca6de6f41b320c88fd7ea5492e9c00b7be851f93a1889ec2ff5efa272f"
+    },
+    {
+      "bytes": 5591,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/REVIEW.md",
+      "role": "accepted_design_provenance_only_not_runtime_scientific_input",
+      "sha256": "ee2e450555a8be85e8a34c09b43540fc60fa52f4de03e983a59ea0f57efaf878"
+    }
+  ],
+  "design_publication_commit_reported_by_root": "d957c43721a6cdcdb52b058009b27ee569199c58",
+  "new_runtime_admission": false,
+  "note": "Metadata files were read and hashed without traversing their runtime members or evaluating target source. Current candidate interpreter/runtime/caller suitability must be established by root before execution.",
+  "runtime_members_freshly_rehashed": false,
+  "schema": "ri119-source-preparation-predecessor-pins-v1",
+  "scientific_body_inputs": [],
+  "source_text_or_metadata_only": true,
+  "target_import_compile_ast_probe_or_execution": false
+}

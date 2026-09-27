@@ -1,0 +1,90 @@
+{
+  "active_execution_card": null,
+  "active_runtime_admission": null,
+  "direct_executable_closure": [
+    "primary.py",
+    "validator.py",
+    "qualify.py"
+  ],
+  "direct_standard_library_imports": [
+    "copy",
+    "fractions",
+    "itertools",
+    "json",
+    "re"
+  ],
+  "external_scientific_inputs": [],
+  "files": [
+    {
+      "bytes": 20346,
+      "name": "primary.py",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/primary.py",
+      "role": "scientific_source",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 23321,
+      "name": "validator.py",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/validator.py",
+      "role": "scientific_source",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    },
+    {
+      "bytes": 14435,
+      "name": "qualify.py",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/qualify.py",
+      "role": "scientific_source",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    {
+      "bytes": 17291,
+      "name": "CONTRACT.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/CONTRACT.md",
+      "role": "protocol_or_review_provenance",
+      "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+    },
+    {
+      "bytes": 7499,
+      "name": "IMPLEMENTATION.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/IMPLEMENTATION.md",
+      "role": "protocol_or_review_provenance",
+      "sha256": "76f5e84c4ab00aa7c31d9a822e45fdf505323ef80e6423fc718499abdd249ac3"
+    },
+    {
+      "bytes": 6697,
+      "name": "VALIDATOR_NOTES.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/VALIDATOR_NOTES.md",
+      "role": "protocol_or_review_provenance",
+      "sha256": "f147ae3b8633225bd1d8c06ca995439c538e6db2caf428843fe0abab6eccfc27"
+    },
+    {
+      "bytes": 11143,
+      "name": "SOURCE_REVIEW.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_REVIEW.md",
+      "role": "protocol_or_review_provenance",
+      "sha256": "97f252915aaa30a08cc0c5d8dd8dba75656c4f3108bed8226873c52c5845a8fd"
+    },
+    {
+      "bytes": 3135,
+      "name": "PREPARATION_RECORD.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREPARATION_RECORD.md",
+      "role": "protocol_or_review_provenance",
+      "sha256": "2106d0d180dd3c2372c7ce0b1d56c56c7ec009faec3e7b0ba8a83faf9d8cbc2c"
+    },
+    {
+      "bytes": 2998,
+      "name": "PREDECESSOR_PINS.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREDECESSOR_PINS.json",
+      "role": "protocol_or_review_provenance",
+      "sha256": "efb1fb2e20b0793ef2111d6a0fc9df9fbf0f2eaebc9b78675064d13af3eb78b2"
+    }
+  ],
+  "new_caller_source": null,
+  "qualification_executed": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz",
+  "runtime_closure": "Candidate inherited metadata only in PREDECESSOR_PINS.json; full actual transitive runtime and caller capture must be pinned and freshly checked before any execution.",
+  "schema": "ri119-prepared-source-pins-v1",
+  "scientific_result_generated": false,
+  "source_review_exact_pins_match": true,
+  "status": "SOURCE_ONLY_PENDING_ROOT_REVIEW_AND_EXECUTION_ADMISSION"
+}
