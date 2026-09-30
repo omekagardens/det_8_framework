@@ -1,0 +1,13 @@
+{
+  "baseline_accepted": true,
+  "extra_root_files": [
+    "RI186_ROOT_FRESH_CHECK.json",
+    "BASELINE_CARD_CHECK.json",
+    "accept_capture.py"
+  ],
+  "next": "Fresh preflight and separately admitted normal profile, then independent review before optimized; R01 path applicability separate.",
+  "readme_decision": "RI186 independently accepts current-E metadata baseline evidence after 487,888 administrative predicates and all 12,429 opaque identities. Root reviewed its complete checker and interpretation, rehashed every identity and issued the closed ten-field baseline card. Earlier bootstrap authorship is disclosed; source acceptance is inherited and actual outcomes independently reviewed. Initial reviewer-code failure and successful corrected replay remain. The closing reference to 65 guards does not mandate a blanket rerun: the accepted R01 path-applicability review controls genuinely needed extra tests.\n",
+  "review_payload_key": "files",
+  "review_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu",
+  "table_status": "Actual current-E capture independently accepted; root issued exact baseline card after fresh 12429-identity replay."
+}

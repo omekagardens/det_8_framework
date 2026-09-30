@@ -1,0 +1,74 @@
+{
+  "capture": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy",
+  "constraints": [
+    "Do not rely on root pass labels as independent evidence; read saved administrative evidence and reconstruct predicates.",
+    "Disclose prior WHITE source authorship; this is independent actual outcome review, not new source review.",
+    "Administrative saved metadata decode/fresh opaque stable identity reads only. No scientific body decode, subject/helper/vendor execution/import/compile/AST/probe, new runtime capture, profile/fixture, operational cards, Git/repo edit, or new agents.",
+    "Write only reservation. Preserve failures and complete actual tool command outputs. Seal exact HANDOFF and complete namespace.",
+    "RET paused. No scientific/calibration/native claims."
+  ],
+  "installed_e": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "owner": "/root/archive_repro_review",
+  "pins": [
+    {
+      "bytes": 1240,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/ROOT_CAPTURE_CHECK.json",
+      "sha256": "ed82e1f639d68ee98de594f1b8e1967a571d82d3ffdbbe65bf829e1593d7c7f5"
+    },
+    {
+      "bytes": 3086,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_CAPTURE_INITIAL.json",
+      "sha256": "59fbf499b45135debbf0f433bae2f4ca413a4bbbda863d5d2f9948f6c2ff6229"
+    },
+    {
+      "bytes": 3243,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_CAPTURE_COMPLETE.json",
+      "sha256": "73a04ced7f6fc1f14507e14c6637e6e4046af3974be294e8416c5a97507eee82"
+    },
+    {
+      "bytes": 1446,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_OUTER.json",
+      "sha256": "271384cc47f69aff3213b9fa01887fc8e180c14b47ad9884f420ecc593cc787e"
+    },
+    {
+      "bytes": 2581,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_PREFLIGHT.json",
+      "sha256": "704e7fa0a322d2bf0fbd5ff2af4d427802f4551ba1fb40f2eb49bb5f806c752f"
+    },
+    {
+      "bytes": 1838,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_SOURCE_ADJUDICATION.json",
+      "sha256": "a80838225302a4e0862053887601c293c9c747fac4062d0931b6c4b28f4a0345"
+    },
+    {
+      "bytes": 1688,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_ADMISSION_CUSTODY.json",
+      "sha256": "0bc362227b660d36eb2d8b517e547ab7c233a2fd4a18d5cc2f6b08d892541a8d"
+    },
+    {
+      "bytes": 1735957,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_POST_CUSTODY.json",
+      "sha256": "bfbc7fecc888eb858a6968bb8554becfcb96afd28213b07f3244c8f4f8595e17"
+    },
+    {
+      "bytes": 6362349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RUNTIME_POST_IDENTITIES.json",
+      "sha256": "ee1b6d14132cb64c563229cd3cb7456dd69083f9e8c7cea1e2c67c918c6a386f"
+    },
+    {
+      "bytes": 8902,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/OPERATION_FINAL_IDENTITIES.json",
+      "sha256": "c0493726a8d06eeb863c9786c4a6a7a1dae622e190c21a290b42f6a7845f6462"
+    },
+    {
+      "bytes": 8930,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/check_capture.py",
+      "sha256": "88b7ecce6c0b55e7e24184644c6549255cff8371c1ab5c1243cefd33a8fe7f16"
+    }
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu",
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj",
+  "root_records": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy",
+  "schema": "ri186-independent-actual-capture-review-assignment-v1",
+  "scope": "Independently reconstruct the actual current-E metadata capture, genuine outer/tool origin, full monitor arithmetic, closed receipts/output namespace and PRE/POST equality. Check all fresh opaque runtime/source/E identities against actual capture and final custody. Independently judge sufficiency for a current-E baseline; root owns baseline/card/admission."
+}

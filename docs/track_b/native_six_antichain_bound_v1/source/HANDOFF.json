@@ -1,0 +1,124 @@
+{
+  "schema": "ri185-six-antichain-bound-handoff-v1",
+  "status": "SEALED_AUTHOR_THEOREM_INDEPENDENT_REVIEW_PENDING",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI185_NATIVE_ASSIGNMENT.json",
+    "bytes": 2994,
+    "sha256": "702cc0c194ed6bc90527ea4979b6474d5cd93a29ea22b8853c99408d5ac8f5d3"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI181_ROOT_ADJUDICATION.json",
+    "bytes": 1374,
+    "sha256": "e4ec6b405449b980d4834627d8aefb8e896d71838899bdc01af220e281c9e7b8"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "namespace": [
+    "ANTICHAIN_CLASSIFICATION.md",
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SIX_ANTICHAIN_BOUND.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/ANTICHAIN_CLASSIFICATION.md",
+      "bytes": 12640,
+      "sha256": "b64e4e8c1ec60fb9ff843165027caeaccf889567277eb5373cd21206011aef91"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/AUTHOR_CHECKS.json",
+      "bytes": 24890,
+      "sha256": "3721e531239be4e5f63ff5af5237bd0eab0dd83cb9b4dad33d1d99d0e369b8e4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/DEPENDENCY_NOTES.md",
+      "bytes": 17427,
+      "sha256": "bb61e845ab06897e6316d9325510947e4b49ca54e03effed9cdd17d077b0a9fb"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/HANDOFF.md",
+      "bytes": 3377,
+      "sha256": "2c883f84dadd44f2202ef4be2709b0ae20cb083403612104d4d893e839ef929d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/SIX_ANTICHAIN_BOUND.md",
+      "bytes": 10971,
+      "sha256": "6a9538be7a5b2b976bd74d9e165cbc8e0726e71b04effbc3cd00eaf027b1c3e4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/SOURCE_DEPENDENCIES.json",
+      "bytes": 322021,
+      "sha256": "5b3dda9dd005b8fbdf55fb967ecf940a0edf19756dafc19715f035b60021e70f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/SOURCE_IDENTITIES.json",
+      "bytes": 102164,
+      "sha256": "1c323a4005285c3f9e806920dadce1a3b15cea3375a29635b05a068fc794f841"
+    }
+  ],
+  "results": {
+    "marked_classification": "All63 proper A6 subsets with counts1,6,15,20,15,6. All64 parent records via S6 orbits1,6,15,20,15,6,1; selected countsC(m,j)C(n-m,k-j) retain every labeled occurrence.",
+    "defect_and_component_proof": "A5 defect4; empty birth A6 defect5. An antichain plus apex above nonempty S has largest Ferrers induced suborder2 under arbitrary deletion. For nonempty proper A5S, baseA4 diamond joins neutral target(4->4) to Qempty raising(3->4), all old/new bits and Ssize4 included. RI63 forces each proper A5 boundary component zero.",
+    "restored_law": "p_(5;k,j)=theta*u_(5;k,j) for k0..4, with unchangedtheta=1/[72(1+M5)]. Complete31-slot K5(m) gives j5(m)=1-theta*K5(m), with all full-record dependence retained.",
+    "complete_deletion_formula": "u_(n;k,j)=product_h p_(n-h;k,j)^[(-1)^(h+1)C(n-k,h)]. For k<=4,t6-k, restored u6=theta^t*product_(h2..t) p_(6-h;k,j)^[(-1)^h(h-1)C(t,h)]. All raw and reduced tables explicit; p0=1 solely by empty-parent scalar normalization.",
+    "full_terms": "At record weightm, six full A5 terms are6j5(0) at m0, (6-m)j5(m)+m*j5(m-1) for1<=m<=5, and6j5(5) at m6. Remaining57 positive terms retained. No extra theta applied to full slots.",
+    "strict_lower_bound": "K5<=M5 gives j5>=71/72+theta, hence U(A6,r_mark)>71/12+6theta for every one of64 records.",
+    "actual_containing_cap": "rho<Z6=6/(83+72theta)<Z4=9/(89+72theta)<1/8<R. Exact positive differenceZ4-Z6=(213+216theta)/[(89+72theta)(83+72theta)].",
+    "comparison_limits": "Improves guaranteed lower bound and cap, not an ordering of actual complete A6 and four-cap sums. Six full-five-parent sole-deletion terms is maximal count at size6, not M6 optimality or an upper bound on remainders.",
+    "smaller_domain_criterion": "Full curved-domain W<=0 on0<x<=Z6,0<y<=1/d(x) iffI(Z6)<=0, by unchanged RI175/178. StrictW for allowed positivey evenatI(Z6)=0; zero supremum then unattained.",
+    "remaining_endpoint": "D=83+72theta,B6=72lambda*j0/(77+72theta). I(Z6)<=0 iff v>B6 andq(Z6)>=432lambda*G_*v/[D^2*(v-B6)]. Actual comparison not decided; all original q/N terms retained."
+  },
+  "proper_ideal_count": 63,
+  "marked_parent_count": 64,
+  "five_antichain_proper_ideal_count": 31,
+  "other_positive_six_antichain_terms": 57,
+  "all_five_antichain_proper_components_restoration_only": true,
+  "strict_global_M6_lower_bound_proved": true,
+  "strictly_smaller_actual_containing_cap_proved": true,
+  "single_endpoint_iff_on_smaller_domain": true,
+  "full_canonical_substitution_retained": true,
+  "full_slot_record_independence_assumed": false,
+  "actual_global_M6_value_evaluated": false,
+  "attaining_parent_identified": false,
+  "actual_U6_greater_than_actual_U4_claimed": false,
+  "historical_RI63_component_premise_used": true,
+  "historical_certified_q_sign_used": true,
+  "historical_sign_recomputed": false,
+  "pure_general_DET_axiom_only_derivation_claimed": false,
+  "endpoint_comparison_decided": false,
+  "actual_W_sign_claimed": false,
+  "actual_109_vector_read": false,
+  "scientific_execution": false,
+  "independent_acceptance_claimed": false,
+  "new_agent_or_thread_created": false,
+  "repository_or_git_writes": false,
+  "physical_claim": false,
+  "ret_paused": true,
+  "provenance_scope": "349 selected sources/20,943,218 bytes, all337 inherited rows and eight named boundaries preserved. RI181AUTHOR newly opaque; whole inherited governance retained. No new historical paths or aliases. Only classified administrative bodies parsed; scientific/operational bodies remain opaque.",
+  "checks": {
+    "main_preseal_receipt": "ce8e58",
+    "main_preseal_exit_code": 0,
+    "main_preseal_sources": 349,
+    "main_preseal_fresh_identities": 355,
+    "companion_full_main_review": "cbe4d4",
+    "main_full_companion_review": "d64254",
+    "handoff_full_companion_review": "92c333",
+    "coauthor_final_metadata_check": "751d2c",
+    "final_notes_full_main_read": "832a05",
+    "author_checks_pin_receipt": "18971d",
+    "diagnostics": "No failed current shell command. One provenance coauthor stored-data projection clipped and was recovered; no source read/traversal occurred in that projection. Successful notes preclarification phase preserved separately from final pin. Author peer checks are not independent acceptance.",
+    "final8": "Externally reported after sealing; not preclaimed here."
+  },
+  "unchanged_obligations": "P2/P3,Y=1/4,31/139/20/42,sharedT1,other eight parents,fiveDi,strict endpoints,every labeled occurrence,same theta/M5 and complete weightedq/C5singletonN. RETpaused; measurement andRI184separate.",
+  "stopping_boundary": "Stop at sealed author handoff. Root owns independent acceptance, publication/Git, execution admission and successor selection. No actual endpoint/W/C2/C3/H30 or physical conclusion is promoted."
+}

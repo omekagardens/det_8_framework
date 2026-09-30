@@ -1,0 +1,33 @@
+{
+  "copy_acceptance": {
+    "bytes": 2660,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ACTUAL_COPY_ROOT_REVIEW.json",
+    "sha256": "d2a07795a297cddf7ca52472fff4d49cabd8cda65c742a4991b946d6dbad090c"
+  },
+  "fresh_preflight": {
+    "bytes": 2581,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_PREFLIGHT.json",
+    "sha256": "704e7fa0a322d2bf0fbd5ff2af4d427802f4551ba1fb40f2eb49bb5f806c752f"
+  },
+  "independent_postreview_required": true,
+  "prior_actual_capture": {
+    "bytes": 4412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RI146_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "5357b3ce425db7c3b2ad34a3b7644158656f461c4d3bf9e190c6cfbf28611d84"
+  },
+  "ret_paused": true,
+  "runtime_acceptance_created": false,
+  "schema": "ri183-current-e-capture-adjudication-v1",
+  "scope": "One capture parent and two PRE/POST metadata children under unchanged180/524288KiB/25ms/100ms/50ms and genuine960s outer bounds. Original RI130 snapshot source fields remain unchanged; E has separate before/after custody. No candidate interpreter/profile/guard/science entry. All four predecessor fields null.",
+  "source": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "source_review": {
+    "bytes": 3799,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+    "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+  },
+  "status": "ACCEPT_EXACT_SOURCE_FOR_ONE_NONSCIENTIFIC_CAPTURE"
+}

@@ -1,0 +1,18 @@
+{
+  "actual_tool_result": {
+    "content": [
+      {
+        "text": "{\"threadId\":\"01a074c4-4b09-76a3-8cb2-0caf116f6b9c\"}",
+        "type": "text"
+      }
+    ],
+    "isError": false
+  },
+  "assignment": {
+    "bytes": 2994,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI185_NATIVE_ASSIGNMENT.json",
+    "sha256": "702cc0c194ed6bc90527ea4979b6474d5cd93a29ea22b8853c99408d5ac8f5d3"
+  },
+  "new_assignment": true,
+  "schema": "ri185-genuine-dispatch-v1"
+}

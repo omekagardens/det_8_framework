@@ -1,0 +1,77 @@
+--- /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/protocol.py	2026-09-30 12:08:49
++++ /Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/protocol.py	2026-09-30 12:49:43
+@@ -10,7 +10,7 @@
+ SUBJECT = BASE + '/ri169-write-would-block-repair-7_868hay/supervise_native.py'
+ SUBJECT_SHA = '566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6'
+ ROLES = ('protocol', 'driver', 'worker', 'payload', 'checker', 'manifest', 'subject')
+-SOURCE_DIRECTORY = BASE + '/ri176-supervisor-qualification-repair-3ausb2jo'
++SOURCE_DIRECTORY = BASE + '/ri182-compound-cleanup-oracle-repair-6835ytb8'
+ FIXED_FILES = {'protocol':'protocol.py', 'driver':'qualify_supervisor.py', 'worker':'case_worker.py', 'payload':'inert_payload.py', 'checker':'check_saved.py', 'manifest':'CASE_MANIFEST.json'}
+ 
+ 
+--- /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_saved.py	2026-09-30 12:20:07
++++ /Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_saved.py	2026-09-30 12:49:43
+@@ -193,6 +193,35 @@
+         if event=='read_error':
+             check('first read on same pipe is injected '+message,not any(i<at for i in indices('read',input_tag)))
+         return at
++    def compound_cleanup_lifetime(read, unregister, close_error, subject_pid):
++        # These four cases have exactly one owned process of the selected role.
++        # Whole caller cases may have many *other-role* ps lifetimes; never merge
++        # their equal stream names with this caller's pipes. Observer-only cases
++        # have one ps lifetime. Refuse ambiguous same-role reuse rather than
++        # pretending tag-only events identify two different acquired handles.
++        role='ps' if case['kind']=='observer' else 'caller'
++        acquisitions=[(i,e) for i,e in enumerate(trace) if e['event']=='popen_acquired' and e['kind']==role]
++        check('compound unique owned role lifetime',len(acquisitions)==1 and type(subject_pid) is int and acquisitions[0][1]['pid']==subject_pid and type(acquisitions[0][1]['handle_id']) is int)
++        begin,owner=acquisitions[0]
++        check('compound injection belongs to owned lifetime',begin<read<unregister<close_error and input_tag==role+':'+stream)
++        for name in ('stdout','stderr'):
++            tag=role+':'+name
++            related=[i for i,e in enumerate(trace) if e.get('tag')==tag and e['event'] in ('register_installed','unregister_attempt','pipe_close_attempt','pipe_closed','unregister_error','pipe_close_error')]
++            check('compound pipe events follow acquisition '+tag,all(i>begin for i in related))
++            installed=indices('register_installed',tag)
++            successes=indices('pipe_closed',tag)
++            check('compound one successful close '+tag,len(installed)==1 and len(successes)==1 and begin<installed[0]<successes[0])
++            success=successes[0]
++            # Attempt events precede the underlying call: a rejected second
++            # close/unregister is forbidden even if no second success is emitted.
++            unregisters=indices('unregister_attempt',tag); closes=indices('pipe_close_attempt',tag)
++            check('compound no attempt after successful close '+tag,not any(i>success for i in unregisters+closes))
++            if name==stream:
++                check('compound failed pipe exact attempt counts '+tag,len(unregisters)==2 and len(closes)==2)
++                check('compound failed-close then successful retry '+tag,installed[0]<read<unregisters[0]<unregister<closes[0]<close_error<unregisters[1]<closes[1]<success)
++            else:
++                check('compound healthy pipe exact attempt counts '+tag,len(unregisters)==1 and len(closes)==1)
++                check('compound healthy pipe ordered close '+tag,installed[0]<unregisters[0]<closes[0]<success)
+     duration = (report['entry_end_monotonic_ns'] - report['entry_start_monotonic_ns'])/1000000000
+     check('elapsed positive', duration >= 0)
+     check('original limits in collection', collection['subject_deadline_seconds'] == 315 and collection['controller_collection_timeout_seconds'] == 335 and collection['new_subject_cleanup_budget'] is False)
+@@ -463,6 +492,17 @@
+             read=exact_input_injection('read_error','RI167_F01_READ')
+             u=exact_input_injection('unregister_error','RI171_UNREGISTER');c=exact_input_injection('pipe_close_error','RI171_PIPE_CLOSE')
+             check('all failing cleanups same pipe order and retry',read<u<c and any(i>c for i in indices('pipe_closed',tags)))
++            expected_errors=[{'stage':'pump:'+stream,'type':'OSError','message':'RI167_F01_READ'},
++                             {'stage':'unregister:'+stream,'type':'OSError','message':'RI171_UNREGISTER'},
++                             {'stage':'pipe_close:'+stream,'type':'OSError','message':'RI171_PIPE_CLOSE'}]
++            check('compound caller retained ordered primary and secondary errors',P.canonical(receipt['errors'][:3])==P.canonical(expected_errors) and all(sum(P.canonical(e)==P.canonical(want) for e in receipt['errors'])==1 for want in expected_errors))
++            source_positions=[]
++            for want in expected_errors:
++                matched=[i for i,e in enumerate(trace) if e['event']=='source_error' and P.canonical({k:e[k] for k in ('stage','type','message')})==P.canonical(want)]
++                check('compound caller exact source error '+want['stage'],len(matched)==1)
++                source_positions.append(matched[0])
++            check('compound caller source error order',read<source_positions[0]<u<source_positions[1]<c<source_positions[2])
++            compound_cleanup_lifetime(read,u,c,receipt['caller_pid'])
+         if f.startswith(('S04.','S05.caller.','S10.caller.')) and not f.endswith('.short_write') and '.read_would_block.' not in f:
+             other='stdout' if stream=='stderr' else 'stderr'
+             check('healthy sibling retained',outputs[other]==b'R'*64 and receipt['streams'][other]['eof'] is True)
+@@ -568,6 +608,9 @@
+                     check('observer independent cleanup errors',any(x=='ps unregister:'+stream+': OSError: RI171_UNREGISTER' for x in record['errors']) and any(x=='ps pipe_close:'+stream+': OSError: RI171_PIPE_CLOSE' for x in record['errors']))
+                     u=exact_input_injection('unregister_error','RI171_UNREGISTER');c=exact_input_injection('pipe_close_error','RI171_PIPE_CLOSE')
+                     check('observer same-pipe cleanup order',injected<u<c and any(i>c for i in indices('pipe_closed',input_tag)))
++                    expected_errors=['ps pump:'+stream+': OSError: RI167_F01_READ', 'ps unregister:'+stream+': OSError: RI171_UNREGISTER', 'ps pipe_close:'+stream+': OSError: RI171_PIPE_CLOSE']
++                    check('compound observer retained ordered primary and secondary errors',record['errors'][:3]==expected_errors and all(record['errors'].count(want)==1 for want in expected_errors))
++                    compound_cleanup_lifetime(injected,u,c,record['pid'])
+     else:
+         check('direct refusal observed',report['exception'] is not None and report['exception']['type']=='Refusal')
+         operands=events('direct_operand');check('complete direct operands',len(operands)==1)

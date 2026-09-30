@@ -1,0 +1,40 @@
+{
+  "F04_R": "SOURCE_REPAIR_SUFFICIENT_SUBJECT_TO_ROOT_ADJUDICATION",
+  "administrative_checks": 7255,
+  "cases": 92,
+  "current_runtime_observed": false,
+  "executed_cases": 0,
+  "executed_mutations": 0,
+  "execution_authorized": false,
+  "findings_resolved": [
+    "Exact caller primary/unregister/pipe-close prefix and matching source-error order",
+    "Single selected-role acquired lifetime; both failed pipe and sibling checked",
+    "Failed first close then one successful retry; no later unregister/close attempts, including failed repeats without another success",
+    "Preserved observer secondary strings, exact order, bounded subject reap and independent recovery"
+  ],
+  "groups": 13,
+  "locations": [
+    "check_saved.py:196-224",
+    "check_saved.py:490-505",
+    "check_saved.py:607-613",
+    "case_worker.py:344-408",
+    "RI169/supervise_native.py:116-136"
+  ],
+  "mutation_families": 35,
+  "nonauthor": true,
+  "observed_identities": 139,
+  "prior_roles": "Independent RI171/RI180 reviewer and unrelated WHITE validator/caller/bootstrap author; no authorship of RI182 or RI165/167/169 qualification supervisor.",
+  "qualification_accepted": false,
+  "recipes": 34,
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_NARROW_F04_R_SOURCE_REPAIR",
+  "remaining_source_blockers": [],
+  "ret_paused": true,
+  "root_owns_disposition_admission_publication": true,
+  "schema": "ri184-independent-source-verdict-v1",
+  "scientific_acceptance": false,
+  "subject": {
+    "bytes": 13764,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/HANDOFF.json",
+    "sha256": "55f33b57bb11d1633b8410c64574cebccfa17846397fb6aacc27fe4a23d6bd26"
+  }
+}

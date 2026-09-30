@@ -1,0 +1,5 @@
+{
+  "failure": "One functions.exec JavaScript parse error while submitting a combined file-writing call; no tool in that call ran and no files were created by it.",
+  "recovery": "Separate apply_patch succeeded and this metadata call records the actual disposition.",
+  "subject_failure": false
+}

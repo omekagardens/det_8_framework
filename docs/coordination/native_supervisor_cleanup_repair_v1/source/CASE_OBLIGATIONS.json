@@ -1,0 +1,972 @@
+{
+  "schema": "ri176-finite-obligations-v1",
+  "status": "UNEXECUTED_SOURCE_SPECIFICATION",
+  "not_operational_input": true,
+  "rows": [
+    {
+      "id": "S01.healthy",
+      "kind": "whole",
+      "fault": "none",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S02.timer",
+      "kind": "whole",
+      "fault": "timer",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S03.nonzero",
+      "kind": "whole",
+      "fault": "nonzero",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S03.stderr",
+      "kind": "whole",
+      "fault": "stderr",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stdout.exact",
+      "kind": "whole",
+      "fault": "cap_stdout_exact",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 8388608,
+        "stderr": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stdout.excess",
+      "kind": "whole",
+      "fault": "cap_stdout_excess",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stderr.exact",
+      "kind": "whole",
+      "fault": "cap_stderr_exact",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 0,
+        "stderr": 8388608
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stderr.excess",
+      "kind": "whole",
+      "fault": "cap_stderr_excess",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.dual.excess",
+      "kind": "whole",
+      "fault": "cap_dual_excess",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S05.observer.real",
+      "kind": "observer",
+      "fault": "ps_real",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.observer.duplicate",
+      "kind": "observer",
+      "fault": "ps_duplicate",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.observer.malformed",
+      "kind": "observer",
+      "fault": "ps_malformed",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.observer.nonascii",
+      "kind": "observer",
+      "fault": "ps_nonascii",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.observer.empty",
+      "kind": "observer",
+      "fault": "ps_empty",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.observer.nonzero",
+      "kind": "observer",
+      "fault": "ps_nonzero",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.observer.stderr",
+      "kind": "observer",
+      "fault": "ps_stderr",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.observer.overflow",
+      "kind": "observer",
+      "fault": "ps_overflow",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.observer.timeout",
+      "kind": "observer",
+      "fault": "ps_timeout",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S06.observed_descendant",
+      "kind": "whole",
+      "fault": "observed_descendant",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 0,
+        "stderr": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S07.fast_reparent",
+      "kind": "whole",
+      "fault": "fast_reparent",
+      "terminal": "missing_identity_choice",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S08.birth",
+      "kind": "direct",
+      "fault": "identity_birth",
+      "terminal": "direct",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S08.pgid",
+      "kind": "direct",
+      "fault": "identity_pgid",
+      "terminal": "direct",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S08.unverified_member",
+      "kind": "direct",
+      "fault": "identity_unverified_member",
+      "terminal": "direct",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S08.safe_second",
+      "kind": "direct",
+      "fault": "identity_safe_second",
+      "terminal": "direct",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S09.real_cutoffs",
+      "kind": "whole",
+      "fault": "real_cutoffs",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 0,
+        "stderr": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S09.real_expiry",
+      "kind": "whole",
+      "fault": "real_expiry",
+      "terminal": "hard_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "not_required"
+    },
+    {
+      "id": "S10.stdout.fsync",
+      "kind": "whole",
+      "fault": "late_fsync",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stdout.close",
+      "kind": "whole",
+      "fault": "late_close",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stdout.replacement",
+      "kind": "whole",
+      "fault": "late_replacement",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stdout.drift",
+      "kind": "whole",
+      "fault": "late_drift",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stderr.fsync",
+      "kind": "whole",
+      "fault": "late_fsync",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stderr.close",
+      "kind": "whole",
+      "fault": "late_close",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stderr.replacement",
+      "kind": "whole",
+      "fault": "late_replacement",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stderr.drift",
+      "kind": "whole",
+      "fault": "late_drift",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.processes.fsync",
+      "kind": "whole",
+      "fault": "late_fsync",
+      "terminal": "ordinary",
+      "input_tag": "caller:processes",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.processes.close",
+      "kind": "whole",
+      "fault": "late_close",
+      "terminal": "ordinary",
+      "input_tag": "caller:processes",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.processes.replacement",
+      "kind": "whole",
+      "fault": "late_replacement",
+      "terminal": "ordinary",
+      "input_tag": "caller:processes",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.processes.drift",
+      "kind": "whole",
+      "fault": "late_drift",
+      "terminal": "ordinary",
+      "input_tag": "caller:processes",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S11.preexists",
+      "kind": "whole",
+      "fault": "receipt_preexists",
+      "terminal": "receipt_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "not_required"
+    },
+    {
+      "id": "S11.partial",
+      "kind": "whole",
+      "fault": "receipt_partial",
+      "terminal": "receipt_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S11.fsync",
+      "kind": "whole",
+      "fault": "receipt_fsync",
+      "terminal": "receipt_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S11.base_sync",
+      "kind": "whole",
+      "fault": "receipt_base_sync",
+      "terminal": "receipt_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S11.post_receipt",
+      "kind": "whole",
+      "fault": "receipt_post_receipt",
+      "terminal": "receipt_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S12.ownership",
+      "kind": "whole",
+      "fault": "hard_ownership",
+      "terminal": "hard_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "not_required"
+    },
+    {
+      "id": "S12.drain",
+      "kind": "whole",
+      "fault": "hard_drain",
+      "terminal": "hard_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "not_required"
+    },
+    {
+      "id": "S12.finalization",
+      "kind": "whole",
+      "fault": "hard_finalization",
+      "terminal": "hard_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "not_required"
+    },
+    {
+      "id": "S13.journal_cap",
+      "kind": "whole",
+      "fault": "journal_cap",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S13.descendant_cap",
+      "kind": "direct",
+      "fault": "descendant_cap",
+      "terminal": "direct",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S13.ps_max",
+      "kind": "observer",
+      "fault": "ps_max",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S13.late_observer",
+      "kind": "whole",
+      "fault": "late_observer",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 0
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S08.signal_birth",
+      "kind": "direct",
+      "fault": "identity_signal_birth",
+      "terminal": "direct",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S08.signal_pgid",
+      "kind": "direct",
+      "fault": "identity_signal_pgid",
+      "terminal": "direct",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S10.stdout.descriptor",
+      "kind": "whole",
+      "fault": "late_descriptor",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stdout.size",
+      "kind": "whole",
+      "fault": "late_size",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stderr.descriptor",
+      "kind": "whole",
+      "fault": "late_descriptor",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.stderr.size",
+      "kind": "whole",
+      "fault": "late_size",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.processes.descriptor",
+      "kind": "whole",
+      "fault": "late_descriptor",
+      "terminal": "ordinary",
+      "input_tag": "caller:processes",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.processes.size",
+      "kind": "whole",
+      "fault": "late_size",
+      "terminal": "ordinary",
+      "input_tag": "caller:processes",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stdout.read",
+      "kind": "whole",
+      "fault": "S04.stdout.read",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stdout.write",
+      "kind": "whole",
+      "fault": "S04.stdout.write",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stdout.partial_write",
+      "kind": "whole",
+      "fault": "S04.stdout.partial_write",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stdout.short_write",
+      "kind": "whole",
+      "fault": "S04.stdout.short_write",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stderr.read",
+      "kind": "whole",
+      "fault": "S04.stderr.read",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stderr.write",
+      "kind": "whole",
+      "fault": "S04.stderr.write",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stderr.partial_write",
+      "kind": "whole",
+      "fault": "S04.stderr.partial_write",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stderr.short_write",
+      "kind": "whole",
+      "fault": "S04.stderr.short_write",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S05.caller.stdout.registration",
+      "kind": "whole",
+      "fault": "S05.caller.stdout.registration",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S05.caller.stderr.registration",
+      "kind": "whole",
+      "fault": "S05.caller.stderr.registration",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S05.ps.stdout.registration",
+      "kind": "observer",
+      "fault": "S05.ps.stdout.registration",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.ps.stderr.registration",
+      "kind": "observer",
+      "fault": "S05.ps.stderr.registration",
+      "terminal": "observer",
+      "input_tag": "ps:stderr",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.ps.stdout.read",
+      "kind": "observer",
+      "fault": "S05.ps.stdout.read",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.ps.stderr.read",
+      "kind": "observer",
+      "fault": "S05.ps.stderr.read",
+      "terminal": "observer",
+      "input_tag": "ps:stderr",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S05.fallback.alive",
+      "kind": "whole",
+      "fault": "S05.fallback.alive",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S05.fallback.already_exited",
+      "kind": "whole",
+      "fault": "S05.fallback.already_exited",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.caller.stdout.unregister_close",
+      "kind": "whole",
+      "fault": "S10.caller.stdout.unregister_close",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.caller.stderr.unregister_close",
+      "kind": "whole",
+      "fault": "S10.caller.stderr.unregister_close",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.ps.stdout.unregister_close",
+      "kind": "observer",
+      "fault": "S10.ps.stdout.unregister_close",
+      "terminal": "observer",
+      "input_tag": "ps:stdout",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S10.ps.stderr.unregister_close",
+      "kind": "observer",
+      "fault": "S10.ps.stderr.unregister_close",
+      "terminal": "observer",
+      "input_tag": "ps:stderr",
+      "healthy": {},
+      "subject_reap": "none"
+    },
+    {
+      "id": "S10.journal.alive",
+      "kind": "whole",
+      "fault": "S10.journal.alive",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S10.journal.already_exited",
+      "kind": "whole",
+      "fault": "S10.journal.already_exited",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S13.observer.kill_failure",
+      "kind": "whole",
+      "fault": "S13.observer.kill_failure",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S13.observer.nonreap",
+      "kind": "whole",
+      "fault": "S13.observer.nonreap",
+      "terminal": "deadline_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "incomplete"
+    },
+    {
+      "id": "S13.journal.kill_failure",
+      "kind": "whole",
+      "fault": "S13.journal.kill_failure",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S13.journal.nonreap",
+      "kind": "whole",
+      "fault": "S13.journal.nonreap",
+      "terminal": "deadline_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "incomplete"
+    },
+    {
+      "id": "S13.poll_unavailable",
+      "kind": "whole",
+      "fault": "S13.poll_unavailable",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "incomplete"
+    },
+    {
+      "id": "S13.deadline_exhausted",
+      "kind": "whole",
+      "fault": "S13.deadline_exhausted",
+      "terminal": "deadline_escape",
+      "input_tag": "caller:stdout",
+      "healthy": {},
+      "subject_reap": "incomplete"
+    },
+    {
+      "id": "S04.stdout.write_would_block.zero_progress",
+      "kind": "whole",
+      "fault": "S04.stdout.write_would_block.zero_progress",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stdout.write_would_block.after_prefix",
+      "kind": "whole",
+      "fault": "S04.stdout.write_would_block.after_prefix",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stdout.read_would_block.transient",
+      "kind": "whole",
+      "fault": "S04.stdout.read_would_block.transient",
+      "terminal": "ordinary",
+      "input_tag": "caller:stdout",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stderr.write_would_block.zero_progress",
+      "kind": "whole",
+      "fault": "S04.stderr.write_would_block.zero_progress",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stderr.write_would_block.after_prefix",
+      "kind": "whole",
+      "fault": "S04.stderr.write_would_block.after_prefix",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64
+      },
+      "subject_reap": "reaped"
+    },
+    {
+      "id": "S04.stderr.read_would_block.transient",
+      "kind": "whole",
+      "fault": "S04.stderr.read_would_block.transient",
+      "terminal": "ordinary",
+      "input_tag": "caller:stderr",
+      "healthy": {
+        "stdout": 64,
+        "stderr": 64
+      },
+      "subject_reap": "reaped"
+    }
+  ]
+}

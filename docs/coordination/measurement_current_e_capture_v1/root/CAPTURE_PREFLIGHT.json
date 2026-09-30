@@ -1,0 +1,40 @@
+{
+  "copy_acceptance": {
+    "bytes": 2660,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ACTUAL_COPY_ROOT_REVIEW.json",
+    "sha256": "d2a07795a297cddf7ca52472fff4d49cabd8cda65c742a4991b946d6dbad090c"
+  },
+  "observation": {
+    "bytes": 1646593,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_PREFLIGHT_OBSERVATION.json",
+    "sha256": "6867e3b8302e12cc4aa94595daf89a682ecfd8824ac7962cac497d317b1e04a2"
+  },
+  "platform_premises": [
+    "For these bounded local qualification operations, rely on the installed macOS 26.5.2/build25F84 Apple kernel, loader and shared cache implementation/integrity and resolution of the 17 explicitly named system suppliers. This is a root trust premise, not a demonstrated cache inventory or availability claim. An actual load failure refuses the operation.",
+    "Rely on the pinned inspection tools and Apple signature policy/trust store as observation infrastructure. Their transitive runtime, file magic database and trust roots were not independently closed.",
+    "Accept the 76-file installed-extension overapproximation as sufficient finite STATIC non-system scope for the unchanged isolated qualification sources. Dynamic import behavior, controlled environment, stable suppliers and actual flags remain separately checked or explicitly premised for each dispatch."
+  ],
+  "proposal_acceptance": {
+    "bytes": 1936,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI170_ROOT_ADJUDICATION.json",
+    "sha256": "3691e00175bf5322896d1d2d0eefeccfaba91b452ea6b75124cde62a2c2dc331"
+  },
+  "schema": "ri183-current-e-capture-preflight-v1",
+  "scope": "Fresh full opaque vendor, tools, host, original source and exact E48 custody for one nonscientific current-E capture. Stable host/supplier and Apple kernel/loader remain explicit premises; no continuous filesystem freeze or instruction trace is claimed.",
+  "selected_interpreter_binding": {
+    "bytes": 102352,
+    "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+    "state": [
+      16777232,
+      172336345,
+      33261,
+      1,
+      102352,
+      1762508227000000000,
+      1763521990665808991
+    ],
+    "symlink_chain": []
+  }
+}

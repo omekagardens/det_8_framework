@@ -1,0 +1,50 @@
+{
+  "admission": {
+    "bytes": 2773,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_CAPTURE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_CAPTURE.json",
+    "sha256": "80796fef710f5e96b96ce7002373db8497c5f82efa95b0dca83d1413bb05bea9",
+    "state": [
+      16777244,
+      419973,
+      33188,
+      1,
+      2773,
+      1790809355542398313,
+      1790809355542398313
+    ],
+    "symlink_chain": []
+  },
+  "preflight": {
+    "bytes": 2581,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_PREFLIGHT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_PREFLIGHT.json",
+    "sha256": "704e7fa0a322d2bf0fbd5ff2af4d427802f4551ba1fb40f2eb49bb5f806c752f",
+    "state": [
+      16777244,
+      419971,
+      33188,
+      1,
+      2581,
+      1790809355539769357,
+      1790809355539769357
+    ],
+    "symlink_chain": []
+  },
+  "source_review": {
+    "bytes": 1838,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_SOURCE_ADJUDICATION.json",
+    "sha256": "a80838225302a4e0862053887601c293c9c747fac4062d0931b6c4b28f4a0345",
+    "state": [
+      16777244,
+      419972,
+      33188,
+      1,
+      1838,
+      1790809355540645482,
+      1790809355540645482
+    ],
+    "symlink_chain": []
+  }
+}

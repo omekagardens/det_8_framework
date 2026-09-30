@@ -1,0 +1,319 @@
+{
+  "schema": "ri182-source-repair-handoff-v1",
+  "status": "UNEXECUTED_NARROW_F04_R_REPAIR_REQUIRES_NONAUTHOR_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8",
+  "owner": "/root/ri116_complete_caller_review",
+  "authorship": "Predecessor RI176/171 and RI165/167/169 author; also earlier RI125 primary/qualifier and RI131. This is not independent acceptance.",
+  "namespace": [
+    "ADMIN_CHECK.json",
+    "ADMIN_TOOL_RECORDS.json",
+    "AUTHENTICATION.json",
+    "AUTHOR_RECORD.md",
+    "CASE_MANIFEST.json",
+    "CASE_OBLIGATIONS.json",
+    "DEPENDENCY_BINDINGS.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INVOCATION.md",
+    "ORACLE_REJECTION_PLAN.md",
+    "PUBLICATION_SUBSET.json",
+    "REPAIR_CONTRACT.md",
+    "REVIEW_RESPONSE.md",
+    "SCHEMAS.md",
+    "SOURCE_CORRESPONDENCE.json",
+    "SOURCE_DIFF.patch",
+    "SOURCE_PINS.json",
+    "authenticate.mjs",
+    "case_worker.py",
+    "check_admin.mjs",
+    "check_saved.py",
+    "inert_payload.py",
+    "protocol.py",
+    "qualify_supervisor.py",
+    "repair_source.mjs",
+    "seal_metadata.mjs",
+    "write_documents.mjs"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/ADMIN_CHECK.json",
+      "bytes": 76651,
+      "sha256": "b1d70ae487afb2a22a714e37b25e13d8c472389021e4fb1b3a538dbb01199e17"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/ADMIN_TOOL_RECORDS.json",
+      "bytes": 3106,
+      "sha256": "267082803aaec6ba60eccdc816d698405ded46d5f27e2e8b980725efa2be73ff"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/AUTHENTICATION.json",
+      "bytes": 27954,
+      "sha256": "abf863ca0c48abc1f07dd88ddfbf06c9cc8ef502cb0c078eb25ac03f2b175e5f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/AUTHOR_RECORD.md",
+      "bytes": 1799,
+      "sha256": "44cb10b9dad77e94f15cde3b9c5ddec5e4017f90db0b4f7432724692e93dbf81"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_MANIFEST.json",
+      "bytes": 65870,
+      "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_OBLIGATIONS.json",
+      "bytes": 23202,
+      "sha256": "01f23aca8dfcf4ee1d3dc76ab4b82ff971e814608350054f9f88de85af70e701"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/DEPENDENCY_BINDINGS.json",
+      "bytes": 28111,
+      "sha256": "0f0cbefc5f3a2cfa3ea0f55686e2499c97c3935cd6533034fd3d670db2533b23"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/FINAL_IDENTITY_CHECK.json",
+      "bytes": 29396,
+      "sha256": "ca206ae4257bd55bca571bc9d59bdc55fbaab49669604b7ca4bc1fb0e4ee2212"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/INVOCATION.md",
+      "bytes": 3541,
+      "sha256": "8eebb1e7fd583e12ec865e012656124c7aafda926141fa844a226801b52949dd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/ORACLE_REJECTION_PLAN.md",
+      "bytes": 11478,
+      "sha256": "0d1f2257d93df523a9e0337b8733800004739e38c524831597f7e7aefbd89c72"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/PUBLICATION_SUBSET.json",
+      "bytes": 28701,
+      "sha256": "d584e16d1235b1f79ea5d1589865fc9b269685407a05bbc294bfa590077d1463"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/REPAIR_CONTRACT.md",
+      "bytes": 6693,
+      "sha256": "a7006eb9ce0bd8d2ba4062cab9381923761e448717f6113eb4d9e0dc36543e6a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/REVIEW_RESPONSE.md",
+      "bytes": 2137,
+      "sha256": "97c9bdb404317c32dc38256c615ec8cb9b19b0440bf2f5b22696b6479da02415"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SCHEMAS.md",
+      "bytes": 3467,
+      "sha256": "6993c60db904b9f70c2a6386f3d394abe64e9ba89bf5067d0addf17935b9c7d8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_CORRESPONDENCE.json",
+      "bytes": 9603,
+      "sha256": "8c9fd516cd47e5116b63aeb7b8162f308561f21d475140c4e18ebc501d51e874"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_DIFF.patch",
+      "bytes": 7363,
+      "sha256": "84803cd6b7720bdae0c5e67acc838f60d6fb21c732ac0f73ceb1526b74cb5c1e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_PINS.json",
+      "bytes": 1891,
+      "sha256": "e085e9d886463cb5c0472c6750e9445b921b52a3196980ccc1f577805c676d56"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/authenticate.mjs",
+      "bytes": 2161,
+      "sha256": "93ee28340c7dd01a89296ca55d943a30ccc5c7cdb82dbd6938ff56a82477c7a4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/case_worker.py",
+      "bytes": 26370,
+      "sha256": "577b2dc4d6200e6f6ec9f5f38eef62dddb0df4309e5835220e18272d46246413"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_admin.mjs",
+      "bytes": 7671,
+      "sha256": "1911792a237625b7d49fb3d401a20879f457bd0f944514b956442fcb3750eaa6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_saved.py",
+      "bytes": 73541,
+      "sha256": "953fa2119f962d19eb981d15a1246962d3c7ec511a3273b82c9f931b408d61ff"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/inert_payload.py",
+      "bytes": 5168,
+      "sha256": "3eb3d6fbb388b479080c8f9fac0a9b2a7fce6499e53462e0d42bd2c76ef41149"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/protocol.py",
+      "bytes": 7665,
+      "sha256": "be3ac0d873d0b4b267b45716f58ffd4d1338e947684ed95f628214a1d7b22f29"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/qualify_supervisor.py",
+      "bytes": 6127,
+      "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/repair_source.mjs",
+      "bytes": 5638,
+      "sha256": "a887a7303817794ae22dda89bd41061ad55c2dda9eb5e129d262681e53f48c96"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/seal_metadata.mjs",
+      "bytes": 6538,
+      "sha256": "7e1b6d7746d51310c26cd7a12a94b6351af0260faa1ca7bbd64417ad335ed28c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/write_documents.mjs",
+      "bytes": 8974,
+      "sha256": "1ed133b37ac3430c033235e07362df3043d581af7b11e886a0a9775806b53098"
+    }
+  ],
+  "source_roles": {
+    "protocol": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/protocol.py",
+      "bytes": 7665,
+      "sha256": "be3ac0d873d0b4b267b45716f58ffd4d1338e947684ed95f628214a1d7b22f29"
+    },
+    "driver": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/qualify_supervisor.py",
+      "bytes": 6127,
+      "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8"
+    },
+    "worker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/case_worker.py",
+      "bytes": 26370,
+      "sha256": "577b2dc4d6200e6f6ec9f5f38eef62dddb0df4309e5835220e18272d46246413"
+    },
+    "payload": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/inert_payload.py",
+      "bytes": 5168,
+      "sha256": "3eb3d6fbb388b479080c8f9fac0a9b2a7fce6499e53462e0d42bd2c76ef41149"
+    },
+    "checker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_saved.py",
+      "bytes": 73541,
+      "sha256": "953fa2119f962d19eb981d15a1246962d3c7ec511a3273b82c9f931b408d61ff"
+    },
+    "manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_MANIFEST.json",
+      "bytes": 65870,
+      "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595"
+    },
+    "subject": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+      "bytes": 26321,
+      "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+    }
+  },
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI182_REPAIR_ASSIGNMENT.json",
+    "bytes": 2756,
+    "sha256": "995bfb2a00824297e714dec4fef2fe1dfdc7540fae7f41ca789ba717e190a4c1"
+  },
+  "root_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI180_ROOT_ADJUDICATION.json",
+    "bytes": 1267,
+    "sha256": "08a709f36f6c19423d5ba34602666348807da5c480377032c82ef2ee395d38cc"
+  },
+  "full_nonauthor_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/INDEPENDENT_REVIEW.md",
+    "bytes": 15952,
+    "sha256": "15c2ed17bd90b072b860c453358342954e22790816cc423a9f2f6ef79635bc64"
+  },
+  "response": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/REVIEW_RESPONSE.md",
+    "bytes": 2137,
+    "sha256": "97c9bdb404317c32dc38256c615ec8cb9b19b0440bf2f5b22696b6479da02415"
+  },
+  "source_delta": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_DIFF.patch",
+    "bytes": 7363,
+    "sha256": "84803cd6b7720bdae0c5e67acc838f60d6fb21c732ac0f73ceb1526b74cb5c1e"
+  },
+  "whole_correspondence": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_CORRESPONDENCE.json",
+    "bytes": 9603,
+    "sha256": "8c9fd516cd47e5116b63aeb7b8162f308561f21d475140c4e18ebc501d51e874"
+  },
+  "changed_sources": [
+    "check_saved.py",
+    "protocol.py (directory literal only)"
+  ],
+  "unchanged_copies": [
+    "qualify_supervisor.py",
+    "case_worker.py",
+    "inert_payload.py",
+    "CASE_MANIFEST.json",
+    "CASE_OBLIGATIONS.json",
+    "SCHEMAS.md"
+  ],
+  "groups": 13,
+  "cases": 92,
+  "recipes": 34,
+  "entry_counts": {
+    "whole": 69,
+    "observer": 16,
+    "direct": 7
+  },
+  "compound_case_ids": [
+    "S10.caller.stdout.unregister_close",
+    "S10.caller.stderr.unregister_close",
+    "S10.ps.stdout.unregister_close",
+    "S10.ps.stderr.unregister_close"
+  ],
+  "prospective_mutation_families": 35,
+  "new_mutation_families": 9,
+  "executed_cases": 0,
+  "executed_mutations": 0,
+  "actual_admin": {
+    "checks": 278,
+    "fresh_unique_external": 110,
+    "complete_checker_reverse_projection": true,
+    "final_reference_count": 117,
+    "failed_commands": 0
+  },
+  "source_lines": {
+    "protocol.py": 164,
+    "qualify_supervisor.py": 122,
+    "case_worker.py": 499,
+    "inert_payload.py": 130,
+    "check_saved.py": 704
+  },
+  "unchanged_subject": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+    "bytes": 26321,
+    "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+  },
+  "all_prior_seals_failures_preserved": true,
+  "source_import_compile_AST_probe_execution": false,
+  "scientific_decode_or_evaluation": false,
+  "fixtures_or_operational_cards_created": false,
+  "runtime_or_vendor_observed": false,
+  "repo_git_or_new_agents": false,
+  "original_limits_unchanged": {
+    "outer_seconds": 315,
+    "work_seconds": 310,
+    "kill_seconds": 312,
+    "observer_work_seconds": 0.2,
+    "observer_cleanup_seconds": 0.2,
+    "stream_bytes": 8388608,
+    "journal_bytes": 67108864,
+    "ps_bytes": 262144,
+    "receipt_bytes": 262144,
+    "controller_collection_seconds": 335,
+    "new_cleanup_budget": false
+  },
+  "remaining": [
+    "Fresh complete nonauthor review and root adjudication.",
+    "All current source/runtime/supplier/host and genuine outer command/deadline/tool-origin prerequisites.",
+    "Separate actual admission and genuine independent review of all92 cases and planned semantic mutations.",
+    "Actual real-clock evidence and resolution of every external recovery obligation."
+  ],
+  "root_owns_admission_execution_publication": true,
+  "qualification_or_native_acceptance": false,
+  "RET": "paused",
+  "immutable_after_seal": true
+}

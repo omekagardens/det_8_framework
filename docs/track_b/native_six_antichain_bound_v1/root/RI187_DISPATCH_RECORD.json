@@ -1,0 +1,13 @@
+{
+  "actual_tool_result": {
+    "content": [
+      {
+        "text": "{\"threadId\":\"01a074c4-4b09-76a3-8cb2-0caf116f6b9c\"}",
+        "type": "text"
+      }
+    ],
+    "isError": false
+  },
+  "assignment": "RI187_NATIVE_ASSIGNMENT.json",
+  "schema": "ri187-genuine-dispatch-v1"
+}

@@ -1,0 +1,118 @@
+{
+  "schema": "ri181-four-cap-parent-bound-handoff-v1",
+  "status": "SEALED_AUTHOR_THEOREM_INDEPENDENT_REVIEW_PENDING",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI181_NATIVE_ASSIGNMENT.json",
+    "bytes": 4422,
+    "sha256": "e76e3d76f52c89e0d8acf7c36312daffbb8fa137e1aaaefe6ec6fd983fd25d44"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI178_ROOT_ADJUDICATION.json",
+    "bytes": 1393,
+    "sha256": "e36ee76395a16adf5128aa76f7da91643294f8e7220dbdc5f725f6d82ef824a2"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "FOUR_CAP_BOUND.md",
+    "FOUR_CAP_CLASSIFICATION.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/AUTHOR_CHECKS.json",
+      "bytes": 25121,
+      "sha256": "6e3947a5b8cf63b83eddaa96379a79196561c7951766660343bd74cc32abb85f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/DEPENDENCY_NOTES.md",
+      "bytes": 15772,
+      "sha256": "6d4aaafe62b4c8830881abbf00a47937e0c7be1474d11256ee1e90efb50a8b1e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/FOUR_CAP_BOUND.md",
+      "bytes": 10446,
+      "sha256": "cba65c44df0843863335a372059ec9edde75c0a70699f1765a2465963ba7419b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/FOUR_CAP_CLASSIFICATION.md",
+      "bytes": 15416,
+      "sha256": "b0e74ec87d93e20766559923fa1b481610475924ccc39483d67ea6fce0fc0618"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/HANDOFF.md",
+      "bytes": 3218,
+      "sha256": "23e88365e343f69f3868894da1033aca1abcf054318b436bb7c068fe8167b0e0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/SOURCE_DEPENDENCIES.json",
+      "bytes": 310358,
+      "sha256": "fce5a6bc4b090aa4936cf9d4e11468f9b377242190c592eef3b916d4838fffee"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/SOURCE_IDENTITIES.json",
+      "bytes": 90873,
+      "sha256": "6d1db5dbb62773086835e1be6e88890db8b1ef632b85cf0dc11de40190733151"
+    }
+  ],
+  "results": {
+    "complete_ideal_count": "3stem-contained+4onecap+6pair+4triple=17 proper ideals; full parent excluded.",
+    "marked_coverage": "All64 records covered by four fixed stem-bit pairs and S4 cap-Hamming-weight orbits with multiplicities1,4,6,4,1. No bitflip or full-slot cap independence imposed.",
+    "restoration_theorem": "Every proper slot of L3=C2 ordinal-sum A3 has actual coefficient theta. Empty/whole-stem are directly defect-raising; neutral root/onecap/twocap slots are joined by all-mark diamonds to defect-raising roles. Uses accepted RI63 everywhere-neutral-active-component theorem.",
+    "complete_smaller_row": "K3(D)=sum_(S in J(T)) z_S^3*a_S/e^3+sum_(b in D)t_b^2/a3+sum_(pairs in D)c_bc; j3(D)=1-theta*K3(D). All nine proper slots and full marked dependencies retained. e=1/44,a3=41/44 are inherited literal C3 construction constants.",
+    "complete_six_parent_sum": "U4=theta^4*sum_(S in J(T))z_S^6*a_S^3/e^8+theta^3*sum_caps t_b^3/a3^2+theta^2*sum_pairs c_bc+sum_triples j3(D), with all17 labeled occurrences.",
+    "strict_lower_bound": "Each K3<=actualM5 gives j3>=71/72+theta. Four distinct full terms plus13positive potentials yield U4>71/18+4theta>3>max(E0,E1) for every marked record.",
+    "actual_containing_cap": "M6>=U4 implies rho<Z=9/(89+72theta)<9/89<1/8<R. No maximum value or attaining parent determined.",
+    "smaller_domain_criterion": "By accepted RI175/RI178, W<=0 throughout0<x<=Z,0<y<=1/d(x) iffI(Z)<=0. No slope-regime premise. IfI(Z)=0, W<0 at every allowed positivey and supremum0 is unattained.",
+    "endpoint_comparison": "LetD=89+72theta andBZ=27lambda*j0/(20+18theta). I(Z)<=0 iff v>BZ andq(Z)>=972lambda*G_*v/[D^2*(v-BZ)]. Equality in strictcapacity fails; equality inq comparison retained.",
+    "remaining_gap": "The same-law magnitude comparison ofv andcompleteq(Z) against the endpoint threshold remains unresolved. I(Z)<I(R) proves a strictly smaller formal endpoint, not its actual sign."
+  },
+  "proper_ideal_count": 17,
+  "marked_parent_count": 64,
+  "all_three_cap_proper_components_restoration_only": true,
+  "strict_global_M6_lower_bound_proved": true,
+  "strictly_smaller_actual_containing_cap_proved": true,
+  "single_endpoint_iff_on_smaller_domain": true,
+  "full_canonical_substitution_retained": true,
+  "cap_record_independence_assumed": false,
+  "actual_global_M6_value_evaluated": false,
+  "attaining_parent_identified": false,
+  "historical_certified_q_sign_used": true,
+  "historical_sign_recomputed": false,
+  "pure_general_DET_axiom_only_derivation_claimed": false,
+  "endpoint_comparison_decided": false,
+  "actual_W_sign_claimed": false,
+  "actual_109_vector_read": false,
+  "scientific_execution": false,
+  "independent_acceptance_claimed": false,
+  "new_agent_or_thread_created": false,
+  "repository_or_git_writes": false,
+  "physical_claim": false,
+  "ret_paused": true,
+  "provenance_scope": "337 selected sources,20,258,450 bytes; all325 inherited rows and seven named inherited boundary/exception objects preserved. RI178 author history newly opaque. No additional construction paths or aliases. Opaque science/runtime bodies not decoded. Four distinct byte-equal source pairs remain distinct identities.",
+  "checks": {
+    "main_preseal_receipt": "81c4f2",
+    "main_preseal_exit_code": 0,
+    "main_preseal_sources": 337,
+    "main_preseal_fresh_identities": 343,
+    "companion_full_main_review": "913377",
+    "main_full_companion_review": "51f1e2",
+    "coauthor_final_metadata_check": "622b4e",
+    "author_checks_pin_receipt": "c28363",
+    "diagnostics": "Clipped coauthor RI63 display recovered by three full consecutive ranges; clipped main nested-governance projection recovered by focused current-field display. No failed current command or mathematical finding. Earlier note phase preserved as historical, not current pin.",
+    "final8": "Externally reported after sealing; not preclaimed in this file."
+  },
+  "unchanged_obligations": "P2/P3,Y=1/4,31/139/20/42,sharedT1,other eight parents,fiveDi,strict endpoints,every labeled occurrence and the unchanged actual law. Complete C5singletonN correction remains inq. RET paused; measurement and RI180 separate.",
+  "stopping_boundary": "Stop at sealed author handoff. Coordinator/root owns independent acceptance, publication/Git, execution admission and any successor. This native-parent bound is not a physical or empirical claim."
+}

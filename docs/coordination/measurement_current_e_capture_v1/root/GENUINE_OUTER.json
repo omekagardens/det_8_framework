@@ -1,0 +1,36 @@
+{
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_CAPTURE.json"
+  ],
+  "completion": {
+    "bytes": 3446,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/COMPLETE.json",
+    "sha256": "627175550b669cf2cf97f8db92019f0ac01b945b523a985119f6ab7bf4081912"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "exit_code": 0,
+  "external_timeout_seconds": 960,
+  "raw_tool_receipt": {
+    "bytes": 3243,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_CAPTURE_COMPLETE.json",
+    "sha256": "73a04ced7f6fc1f14507e14c6637e6e4046af3974be294e8416c5a97507eee82"
+  },
+  "schema": "ri133-root-genuine-outer-v1",
+  "status": "ACTUAL_TOOL_COMPLETION"
+}

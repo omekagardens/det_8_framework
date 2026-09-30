@@ -1,0 +1,29 @@
+{
+  "cases": 92,
+  "executed_cases": 0,
+  "executed_mutations": 0,
+  "execution_admitted": false,
+  "independent_review": {
+    "bytes": 13314,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m/INDEPENDENT_REVIEW.md",
+    "sha256": "45fa735d400e157feb7f06026f8d2dcdd8a80af937a00f48b1836a39516c122b"
+  },
+  "next": "Current operational preflight and separately admitted supervisor qualification, preserving genuine tool origin and every recovery obligation; no further source repair assigned without evidence.",
+  "prospective_mutation_families": 35,
+  "recipes": 34,
+  "remaining_source_blockers": [],
+  "ret_paused": true,
+  "root_fresh_replay": {
+    "bytes": 80546,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI184_ROOT_IDENTITY_CHECK.json",
+    "sha256": "d399a53b50cc295291d8de5c98a5252d5fb78e6c8ba4ddb2890af0392b98c3e2"
+  },
+  "root_manual_review": "All three added spans traced against unchanged synchronous RI169 stop_pipe and worker callbacks: exact once-only first three caller triples/source events and observer strings; selected owned lifetime; both pipes reject all post-success attempts and extra pre-success attempts. Failed pipe retries once, sibling closes once. All nine new mutation families require actual matched case-specific positive evidence and semantic rejection.",
+  "schema": "ri184-root-source-adjudication-v1",
+  "status": "ACCEPT_EXACT_UNEXECUTED_NARROW_F04_R_SOURCE_REPAIR",
+  "subject": {
+    "bytes": 13764,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/HANDOFF.json",
+    "sha256": "55f33b57bb11d1633b8410c64574cebccfa17846397fb6aacc27fe4a23d6bd26"
+  }
+}

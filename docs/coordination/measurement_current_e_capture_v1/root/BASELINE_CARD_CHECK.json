@@ -1,0 +1,16 @@
+{
+  "card": {
+    "bytes": 1657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/BASELINE_ACCEPTANCE.json",
+    "sha256": "75d30bdc2d03621867ce5a64c229eb619b6183f29b6434dbc04b4a2792e5e06e"
+  },
+  "current_e": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "decision": {
+    "bytes": 2455,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI186_ROOT_ADJUDICATION.json",
+    "sha256": "ac8ffe54952e49ad9534c4b8da612e8c2371213ff32d1232244a133a2492e4ef"
+  },
+  "next_profile_admitted": false,
+  "status": "PASS_CLOSED_TEN_FIELD_BASELINE_CARD",
+  "subject_execution": false
+}

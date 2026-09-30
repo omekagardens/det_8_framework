@@ -1,0 +1,41 @@
+{
+  "schema": "ri182-source-role-pins-v1",
+  "status": "NOT_AN_ADMISSION",
+  "roles": {
+    "protocol": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/protocol.py",
+      "bytes": 7665,
+      "sha256": "be3ac0d873d0b4b267b45716f58ffd4d1338e947684ed95f628214a1d7b22f29"
+    },
+    "driver": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/qualify_supervisor.py",
+      "bytes": 6127,
+      "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8"
+    },
+    "worker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/case_worker.py",
+      "bytes": 26370,
+      "sha256": "577b2dc4d6200e6f6ec9f5f38eef62dddb0df4309e5835220e18272d46246413"
+    },
+    "payload": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/inert_payload.py",
+      "bytes": 5168,
+      "sha256": "3eb3d6fbb388b479080c8f9fac0a9b2a7fce6499e53462e0d42bd2c76ef41149"
+    },
+    "checker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_saved.py",
+      "bytes": 73541,
+      "sha256": "953fa2119f962d19eb981d15a1246962d3c7ec511a3273b82c9f931b408d61ff"
+    },
+    "manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_MANIFEST.json",
+      "bytes": 65870,
+      "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595"
+    },
+    "subject": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+      "bytes": 26321,
+      "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+    }
+  }
+}

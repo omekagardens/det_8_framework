@@ -1,0 +1,16 @@
+{
+  "capture_acceptance_initial": {
+    "chunk_id": "ca2d4f",
+    "session_id": 74376
+  },
+  "capture_acceptance_terminal": {
+    "chunk_id": "62be3d",
+    "exit_code": 0
+  },
+  "diagnostic": "Two additional functions.exec JavaScript parse errors occurred before any tools ran while submitting capture acceptance/publication code. Recovered using separate calls. No subject ran in the failed submissions.",
+  "independent_checker_full_read": "dd0ea0 exit0",
+  "independent_review_full_read": "74d46d exit0",
+  "root_fresh_identities": 12429,
+  "schema": "ri183-final-actual-tool-checks-v1",
+  "target_or_scientific_execution_in_acceptance": false
+}

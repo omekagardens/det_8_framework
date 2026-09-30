@@ -1,0 +1,49 @@
+{
+  "administrative_result": {
+    "bytes": 5129,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/ADMIN_CHECK.json",
+    "sha256": "2f18b90f0a6c5fe8916da53ce48035547ebbb49c2c68ee1f467243257bd64ad1"
+  },
+  "assignment": {
+    "bytes": 4541,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI186_REVIEW_ASSIGNMENT.json",
+    "sha256": "db880dbc1be4d2d315cd301b2a7c14e131cda902be6adcf5fbf3ad93bc28dc4c"
+  },
+  "author": "/root/archive_repro_review",
+  "baseline_card_created": false,
+  "blocking_findings": [],
+  "capture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy",
+  "genuine_capture_terminal": {
+    "chunk_id": "5c0651",
+    "exit_code": 0,
+    "scope": "root supplied actual external tool evidence; no self-generated tool truth"
+  },
+  "independent_administrative_terminal": {
+    "chunk_id": "7c9995",
+    "exit_code": 0
+  },
+  "installed_e": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "opaque_identities": {
+    "bytes": 7903442,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/IDENTITIES.json",
+    "sha256": "741b59694c67d0a2532dd4c83fdace253d8409775cf883c879a3411050f551da"
+  },
+  "profile_or_guard_executed": false,
+  "remaining_premises": [
+    "Already independently accepted preparation source; reviewer was an author of earlier WHITE/caller/bootstrap sources and does not self-adjudicate source.",
+    "Genuine root/tool origin, stable host/suppliers and accepted Apple kernel/loader/shared cache/tool trust premises.",
+    "Sampled child RSS, no descendants, parent-PID receipt only; no hard quota, authenticated child/group trace or continuous filesystem freeze.",
+    "Exact current-E baseline card and later normal/optimized profile,65-guard,WHITE/full-mode/scientific admissions remain root-owned separate gates."
+  ],
+  "ret_paused": true,
+  "review": {
+    "bytes": 13402,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/INDEPENDENT_REVIEW.md",
+    "sha256": "bb711ee4ada7421d8e1f1487b118f289f5c322872ff145b26d3362f7007b579a"
+  },
+  "schema": "ri186-independent-current-e-outcome-review-v1",
+  "scientific_body_decode": false,
+  "scientific_credit": false,
+  "source_approval_created": false,
+  "status": "ACCEPT_CURRENT_E_METADATA_BASELINE_EVIDENCE"
+}

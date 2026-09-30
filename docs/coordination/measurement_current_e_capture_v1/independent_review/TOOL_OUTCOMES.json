@@ -1,0 +1,112 @@
+{
+  "administrative_invocation_prefix": [
+    "/opt/homebrew/bin/python3",
+    "-I",
+    "-B"
+  ],
+  "checker_attempts": [
+    {
+      "command": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py"
+      ],
+      "preserved_failure": {
+        "bytes": 4048,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/ADMIN_FAILURE.json",
+        "sha256": "04d1c3ccf347240352baf2307922f0fd3910abd698e1f87c7635b4f55f90bd10"
+      },
+      "result": {
+        "chunk_id": "cd6614",
+        "exit_code": 1,
+        "original_token_count": 1132,
+        "output": "Traceback (most recent call last):\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 235, in <module>\n    result=check();result.update(predicates=checks,opaque_unique_identities=len(observed),decoded_administrative_files=sorted(set(decoded)),administrative_python=sys.executable)\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 134, in check\n    equal(set(card['sources']),{'prepare.py','runtime_metadata.py','DEPENDENCIES.source-only.json'},'exact source triple')\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 14, in equal\n    def equal(x,y,reason): require(canonical(x)==canonical(y),reason)\n                                   ~~~~~~~~~^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 9, in canonical\n    def canonical(x): return (json.dumps(x,sort_keys=True,indent=2,allow_nan=False,ensure_ascii=True)+'\\n').encode('ascii')\n                              ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py\", line 261, in iterencode\n    return _iterencode(o, 0)\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\n                    f'is not JSON serializable')\nTypeError: Object of type set is not JSON serializable\n\nTraceback (most recent call last):\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 235, in <module>\n    result=check();result.update(predicates=checks,opaque_unique_identities=len(observed),decoded_administrative_files=sorted(set(decoded)),administrative_python=sys.executable)\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 134, in check\n    equal(set(card['sources']),{'prepare.py','runtime_metadata.py','DEPENDENCIES.source-only.json'},'exact source triple')\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 14, in equal\n    def equal(x,y,reason): require(canonical(x)==canonical(y),reason)\n                                   ~~~~~~~~~^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 9, in canonical\n    def canonical(x): return (json.dumps(x,sort_keys=True,indent=2,allow_nan=False,ensure_ascii=True)+'\\n').encode('ascii')\n                              ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py\", line 261, in iterencode\n    return _iterencode(o, 0)\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\n                    f'is not JSON serializable')\nTypeError: Object of type set is not JSON serializable\n",
+        "wall_time_seconds": 0.389202459
+      }
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture_v2.py"
+      ],
+      "completion": {
+        "chunk_id": "7c9995",
+        "exit_code": 0,
+        "original_token_count": 153,
+        "output": "{\"capture_entries\": 12, \"monitors\": [{\"elapsed_seconds\": 2.760499709, \"final_gap_seconds\": 0.015292124999999768, \"label\": \"PRE\", \"max_gap_seconds\": 0.03871304200000003, \"parent_pid_only\": 16075, \"peak_rss_kib\": 83008, \"samples\": 78}, {\"elapsed_seconds\": 1.8308661250000005, \"final_gap_seconds\": 0.05023154200000057, \"label\": \"POST\", \"max_gap_seconds\": 0.03960091599999993, \"parent_pid_only\": 16075, \"peak_rss_kib\": 84704, \"samples\": 48}], \"opaque_unique_identities\": 12429, \"predicates\": 487888, \"runtime_bytes\": 258862951, \"runtime_files\": 9923, \"status\": \"ALL_INDEPENDENT_ADMINISTRATIVE_PREDICATES_PASSED\"}\n",
+        "wall_time_seconds": 7.917e-06
+      },
+      "initial": {
+        "chunk_id": "25ae69",
+        "original_token_count": 0,
+        "output": "",
+        "session_id": 93181,
+        "wall_time_seconds": 1.00339675
+      },
+      "saved_result": {
+        "bytes": 5129,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/ADMIN_CHECK.json",
+        "sha256": "2f18b90f0a6c5fe8916da53ce48035547ebbb49c2c68ee1f467243257bd64ad1"
+      }
+    }
+  ],
+  "read_display_bytes_scope": "Raw read-only displays remain in tool transcript; event summaries do not reconstruct missing truncated bytes. All decisive checker source, exact invocation, terminal results, complete failure traceback, result and identities are retained here.",
+  "read_only_transcript_events": [
+    {
+      "chunk_id": "382c50",
+      "exit_code": 0,
+      "scope": "Authenticated assignment; complete read; empty reservation"
+    },
+    {
+      "chunk_id": "3c657e",
+      "exit_code": 0,
+      "scope": "Authenticated all 11 assignment pins; root records and saved checker read"
+    },
+    {
+      "chunk_id": "5a30e3",
+      "exit_code": 0,
+      "scope": "Overbroad receipt and host-module display was truncated; not full-display credit"
+    },
+    {
+      "chunk_id": "3e3c0a",
+      "exit_code": 0,
+      "scope": "Full root saved checker read; not executed"
+    },
+    {
+      "chunk_id": "37f793",
+      "exit_code": 0,
+      "scope": "Historical administrative helper and preparation monitor/run source text read; no import"
+    },
+    {
+      "chunk_id": "ecc917",
+      "exit_code": 0,
+      "scope": "Monitor tail and first runtime metadata source portion read"
+    },
+    {
+      "chunk_id": "6edefd",
+      "exit_code": 0,
+      "scope": "Remaining metadata source; bounded snapshot/preflight structure recovery"
+    },
+    {
+      "chunk_id": "9336a6",
+      "exit_code": 0,
+      "scope": "Complete preparation authentication source and assignment read"
+    },
+    {
+      "chunk_id": "05ca29",
+      "exit_code": 0,
+      "scope": "Complete small root administrative records and bounded namespace details"
+    },
+    {
+      "chunk_id": "8f8f29",
+      "exit_code": 0,
+      "scope": "Read independent result and final checker/failure pins"
+    }
+  ],
+  "schema": "ri186-independent-actual-review-tool-outcomes-v1",
+  "scientific_body_decode": false,
+  "subject_execution": false
+}

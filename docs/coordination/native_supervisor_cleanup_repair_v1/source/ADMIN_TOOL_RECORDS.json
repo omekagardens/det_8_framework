@@ -1,0 +1,98 @@
+{
+  "schema": "ri182-actual-admin-tool-records-v1",
+  "failures": [],
+  "subject_executions": 0,
+  "commands": [
+    {
+      "tool": "721f1d",
+      "exit_code": 0,
+      "kind": "read",
+      "files": [
+        "ri179-root-upper-review-lf_39rs0/RI182_REPAIR_ASSIGNMENT.json",
+        "ri179-root-upper-review-lf_39rs0/RI180_ROOT_REVIEW.md"
+      ]
+    },
+    {
+      "tool": "556929",
+      "exit_code": 0,
+      "kind": "read",
+      "files": [
+        "ri180-supervisor-independent-review-4xwmvctt/HANDOFF.json"
+      ]
+    },
+    {
+      "tool": "3acb7a",
+      "exit_code": 0,
+      "kind": "read",
+      "files": [
+        "ri180-supervisor-independent-review-4xwmvctt/INDEPENDENT_REVIEW.md"
+      ],
+      "complete": true
+    },
+    {
+      "tool": "9f23d8",
+      "exit_code": 0,
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/authenticate.mjs",
+      "result": {
+        "authenticated": 110,
+        "source_payloads_copied": 7
+      }
+    },
+    {
+      "tool": "a6f8ea",
+      "exit_code": 0,
+      "kind": "bounded source read",
+      "description": "Exact checker compound and injection branches; worker source_error/acquisition/pipe/selector paths; RI169 stop_pipe"
+    },
+    {
+      "tool": "761efd",
+      "exit_code": 0,
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/repair_source.mjs",
+      "result": {
+        "changed": [
+          "protocol.py",
+          "check_saved.py"
+        ],
+        "source_only": true,
+        "executed_cases": 0
+      }
+    },
+    {
+      "tool": "a7d027",
+      "exit_code": 0,
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/write_documents.mjs",
+      "description": "Only prospective documents/line references; no fixtures"
+    },
+    {
+      "tool": "1d220e",
+      "exit_code": 0,
+      "kind": "document write",
+      "description": "Repair contract, author record, exact inherited SCHEMAS copy"
+    },
+    {
+      "tool": "d6123a",
+      "exit_code": 0,
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_admin.mjs",
+      "result": {
+        "passed": true,
+        "checks": 278,
+        "external_identities": 110,
+        "cases": 92,
+        "recipes": 34,
+        "compound_cases": 4,
+        "prospective_mutation_families": 35,
+        "executed_cases": 0
+      }
+    },
+    {
+      "tool": "524d6f",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Complete changed-source patch and response map"
+    }
+  ],
+  "no_source_import_compile_AST_probe": true,
+  "no_vendor_or_runtime_observation": true,
+  "final_seal_command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/seal_metadata.mjs",
+  "final_seal_tool_receipt": "Returned separately to root; no pre-return fabricated completion."
+}

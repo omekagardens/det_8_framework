@@ -1,0 +1,22 @@
+{
+  "decoded_administrative_files": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI186_REVIEW_ASSIGNMENT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_PREFLIGHT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_SOURCE_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_PREFLIGHT_OBSERVATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_POST_CUSTODY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_ADMISSION_CUSTODY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_CAPTURE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/COMPLETE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/ATTEMPT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_OUTER.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_CAPTURE_COMPLETE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_CAPTURE_INITIAL.json"
+  ],
+  "error_type": "TypeError",
+  "message": "Object of type set is not JSON serializable",
+  "opaque_unique_identities": 2491,
+  "predicates_completed": 50048,
+  "status": "FAILED_ADMINISTRATIVE_CHECK",
+  "traceback": "Traceback (most recent call last):\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 235, in <module>\n    result=check();result.update(predicates=checks,opaque_unique_identities=len(observed),decoded_administrative_files=sorted(set(decoded)),administrative_python=sys.executable)\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 134, in check\n    equal(set(card['sources']),{'prepare.py','runtime_metadata.py','DEPENDENCIES.source-only.json'},'exact source triple')\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 14, in equal\n    def equal(x,y,reason): require(canonical(x)==canonical(y),reason)\n                                   ~~~~~~~~~^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py\", line 9, in canonical\n    def canonical(x): return (json.dumps(x,sort_keys=True,indent=2,allow_nan=False,ensure_ascii=True)+'\\n').encode('ascii')\n                              ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py\", line 261, in iterencode\n    return _iterencode(o, 0)\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\n                    f'is not JSON serializable')\nTypeError: Object of type set is not JSON serializable\n"
+}
