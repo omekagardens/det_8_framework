@@ -1,0 +1,58 @@
+{
+  "actual_metadata_checks": "343 dependencies; 145 administrative bodies; 115670 typed references; two whole-source projections; eight actual moved blocks/calls; exact 52/69 declarations and 77/62 source cases",
+  "author_source_modified": false,
+  "blocking_findings": [],
+  "complete_source_and_controls_reviewed": true,
+  "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3",
+  "files": [
+    {
+      "bytes": 4475,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/FINAL_PIN_CHECK.json",
+      "sha256": "82c32708a00b6fffbc8394b7350f3817e3beb92d61b6cb082c2be7ff57d5d280"
+    },
+    {
+      "bytes": 5418,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "30ed332ac446e01aa43971aa9eedb30a79a456b1f4d6cb0919e54a2d8c985198"
+    },
+    {
+      "bytes": 20707,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "c8173553d3310f009f6bc8a31d279482cd9117842f09faef44b47b7e491ef096"
+    },
+    {
+      "bytes": 147512,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/OPAQUE_TEXT_REVIEW.json",
+      "sha256": "b734de0375f2ea558cb5d87008e60c3509e6373e2bf103f552b60237071c8518"
+    },
+    {
+      "bytes": 12479,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/check_metadata.before-classification-normalization.py",
+      "sha256": "56d02f50a19c68882b30eb4fcf9c4dc1033012096968b28b63fa1939fbc46aaf"
+    },
+    {
+      "bytes": 11710,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/check_metadata.before-diff-comparison.py",
+      "sha256": "733d64f696ba6ab38b7f5fed9019adfdfa6db17c4a7dbb113f59e49b6754d963"
+    },
+    {
+      "bytes": 12411,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/check_metadata.py",
+      "sha256": "b5a1eceb5210c2c575bb15ac81ffc3660c50037471098b2229d192fa94007976"
+    }
+  ],
+  "qualification_or_admission_claimed": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "root_adjudication_required": true,
+  "runtime_inventory_or_execution": false,
+  "schema": "ri134-independent-source-review-handoff-v1",
+  "scientific_decode_or_execution": false,
+  "self_hash_excluded": true,
+  "source_handoff": {
+    "bytes": 14101,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/HANDOFF.json",
+    "sha256": "3dd25f629fffe6bf23491bfb98987df75870f180ccd2733d5011fde6abf882ac"
+  },
+  "status": "SEALED_COMPLETE_REVIEW_FOR_ROOT_ADJUDICATION",
+  "verdict": "PASS_BOUNDED_UNEXECUTED_SOURCE_ONLY"
+}

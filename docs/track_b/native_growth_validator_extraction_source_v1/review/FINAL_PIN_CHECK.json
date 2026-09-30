@@ -1,0 +1,93 @@
+{
+  "count": 17,
+  "schema": "ri134-review-final-source-pin-check-v1",
+  "source_files": [
+    {
+      "bytes": 10640,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/AUDIT_CALLER_DELTA.patch",
+      "sha256": "e8761139599cfeb35b12efc5d2aebe3b18583fc89f38148cfe4ff7454b52a9bb"
+    },
+    {
+      "bytes": 12815,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/AUDIT_EXTRACTION.md",
+      "sha256": "a0fb280eb8bf1f1be910da583a89217cea8bd4d61f9652a7b0ba6db3350ea0e9"
+    },
+    {
+      "bytes": 2190,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/AUTHOR_METADATA_CHECK.json",
+      "sha256": "3a79b0b041b9559f4651ff3a4fb0c9d9d369db718e0c0667e65223cc11e4b7eb"
+    },
+    {
+      "bytes": 28519,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/CALLER_CONTRACT.md",
+      "sha256": "a6bfd0c44aee35bb33fa622c9d40b5ae05fcd262a0090f961848598ff3412e2c"
+    },
+    {
+      "bytes": 9498,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/DEPENDENCY_NOTES.md",
+      "sha256": "80406f27dabc648b88ef7cb85e48f047f030a2939b2d6e952508625e21445f14"
+    },
+    {
+      "bytes": 6978,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/HANDOFF.md",
+      "sha256": "5c9cb4ddf4ff91cda20d155ea05ef36c9acd7b2d733f32998188fa275ce7d429"
+    },
+    {
+      "bytes": 10243,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/NATIVE_CALLER_DELTA.patch",
+      "sha256": "2fe72f96de2d09381d629ea7f883a416015fe68294318af73ee9c954fa9fcc65"
+    },
+    {
+      "bytes": 9205,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/NATIVE_EXTRACTION.md",
+      "sha256": "6158e793adb19989aa2b328260e425ded82f3cf6796df8f2ce65b8fdc9965a75"
+    },
+    {
+      "bytes": 9357,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/SOURCE_CORRESPONDENCE.json",
+      "sha256": "96285e62774b735c73b13b68631f7d35a6263900be7033130e33d18d174e56b8"
+    },
+    {
+      "bytes": 624320,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/SOURCE_DEPENDENCIES.json",
+      "sha256": "80fb2a5a5f5a318208c9c6389bb7b59646ca18002b32bec01c632d33904cea9a"
+    },
+    {
+      "bytes": 81519,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/audit_coverage.json",
+      "sha256": "b590e3eed2eb1d2368ccfebd3f8dbc7c8bf571b32e07639bd1fc2e4c6ac539ef"
+    },
+    {
+      "bytes": 19923,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/audit_policy_controls.py",
+      "sha256": "e04a1014d91a49061ec8bde6a2b318209e12328d82d7633f076fcd77a2952548"
+    },
+    {
+      "bytes": 103969,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/launch_audit.py",
+      "sha256": "74f3ef59520a7d8d360a280bcf5d5389d0e3f6c456e8f02178fbc773c4e5d60b"
+    },
+    {
+      "bytes": 53315,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/native_coverage.json",
+      "sha256": "439b49a70ee52c321c734f56c6d5f1428675e883514a96b7d51793bafe80a7a1"
+    },
+    {
+      "bytes": 22580,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/native_policy_controls.py",
+      "sha256": "8c50cb0ac29385265b89fa9d5b77ee766a74e84d49b0a354f9e7d7c0603e7f25"
+    },
+    {
+      "bytes": 89283,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/supervise.py",
+      "sha256": "e3e4b438dd169aa9f2ef815faec5d6f86766eb68da8a3da20412c90206e9f41d"
+    },
+    {
+      "bytes": 14101,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/HANDOFF.json",
+      "sha256": "3dd25f629fffe6bf23491bfb98987df75870f180ccd2733d5011fde6abf882ac"
+    }
+  ],
+  "target_executed": false,
+  "unchanged": true
+}

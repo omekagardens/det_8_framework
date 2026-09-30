@@ -1,0 +1,181 @@
+--- /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py	2026-09-26 19:31:46
++++ /Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/supervise.py	2026-09-29 22:01:39
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""RI-129 source-only adapter of the accepted RI-107 fixed-command supervisor.
++"""RI-134 source-only four-policy extraction from the accepted RI-129 supervisor.
+ 
+ Preparation grants no execution. The coordinator must review this adapter
+ and accept precise retained-engine applicability before use; changed validators
+@@ -23,7 +23,7 @@
+ import time
+ 
+ 
+-E = Path('/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0')
++E = Path('/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde')
+ ANCESTRY = Path('/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx')
+ C = E/'closure'
+ B = C/'native_growth_connected_strict_sign_v1'
+@@ -42,8 +42,8 @@
+ RUNTIME = ANCESTRY/'RUNTIME_CLOSURE.json'
+ DEPENDENCIES = E/'SOURCE_DEPENDENCIES.json'
+ # Closed source/evidence metadata, not a runtime inventory or execution card.
+-DEPENDENCIES_BYTES = 583262
+-DEPENDENCIES_SHA256 = 'a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c'
++DEPENDENCIES_BYTES = 624320
++DEPENDENCIES_SHA256 = '80fb2a5a5f5a318208c9c6389bb7b59646ca18002b32bec01c632d33904cea9a'
+ DEPENDENCY_ENTRIES = None
+ RUNTIME_BYTES = 2862854
+ RUNTIME_SHA256 = '35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920'
+@@ -356,21 +356,7 @@
+     return value
+ 
+ 
+-def dependency_prepare():
+-    """Authenticate only the closed authored metadata; never discover new files."""
+-    global DEPENDENCY_ENTRIES
+-    if DEPENDENCY_ENTRIES is not None:
+-        return
+-    need(type(DEPENDENCIES_BYTES) is int and 0 < DEPENDENCIES_BYTES <= 64*1024*1024
+-         and hexhash(DEPENDENCIES_SHA256) and DEPENDENCIES_SHA256 != '0'*64,
+-         'preparation', 'reviewed source dependency manifest pin is unbound')
+-    identity = file_identity(DEPENDENCIES)
+-    need((identity['bytes'], identity['sha256']) == (DEPENDENCIES_BYTES, DEPENDENCIES_SHA256),
+-         'dependency', 'reviewed source dependency manifest changed')
+-    raw = DEPENDENCIES.read_bytes()
+-    need(len(raw) == DEPENDENCIES_BYTES and sha256(raw).hexdigest() == DEPENDENCIES_SHA256,
+-         'dependency', 'source dependency bytes changed before metadata parse')
+-    value = strict_json(raw)
++def validate_dependency_payload(value):
+     exact_keys(value, ('schema', 'status', 'protected_files', 'scope'),
+                'dependency', 'static source dependency manifest')
+     need(value['schema'] == 'ri129-source-dependencies-v1'
+@@ -400,6 +386,25 @@
+              'dependency', 'static dependency provenance field types differ')
+         previous = path
+         entries.append(entry)
++    return entries
++
++
++def dependency_prepare():
++    """Authenticate only the closed authored metadata; never discover new files."""
++    global DEPENDENCY_ENTRIES
++    if DEPENDENCY_ENTRIES is not None:
++        return
++    need(type(DEPENDENCIES_BYTES) is int and 0 < DEPENDENCIES_BYTES <= 64*1024*1024
++         and hexhash(DEPENDENCIES_SHA256) and DEPENDENCIES_SHA256 != '0'*64,
++         'preparation', 'reviewed source dependency manifest pin is unbound')
++    identity = file_identity(DEPENDENCIES)
++    need((identity['bytes'], identity['sha256']) == (DEPENDENCIES_BYTES, DEPENDENCIES_SHA256),
++         'dependency', 'reviewed source dependency manifest changed')
++    raw = DEPENDENCIES.read_bytes()
++    need(len(raw) == DEPENDENCIES_BYTES and sha256(raw).hexdigest() == DEPENDENCIES_SHA256,
++         'dependency', 'source dependency bytes changed before metadata parse')
++    value = strict_json(raw)
++    entries = validate_dependency_payload(value)
+     same(file_identity(DEPENDENCIES), identity, 'source dependency manifest changed during preparation')
+     DEPENDENCY_ENTRIES = tuple(entries)
+ 
+@@ -758,24 +763,7 @@
+          'prerequisite', 'RI128 accepted source-only boundary differs')
+ 
+ 
+-def source_prerequisites(index):
+-    for role, original, copy, size, pin in PAIRS:
+-        for path in (original, copy):
+-            item = current(index, path)
+-            need((item['bytes'], item['sha256']) == (size, pin), 'identity', 'fixed scientific source/input changed')
+-    runtime_file_prerequisites(index)
+-    item = current(index, RI128_DECISION)
+-    need((item['bytes'], item['sha256']) == RI128_DECISION_PIN, 'identity', 'accepted RI128 source decision changed')
+-    for entry in HISTORY_IDENTITIES:
+-        same(current(index, entry['path']), entry['identity'], 'historical identity changed')
+-    item = current(index, HISTORY)
+-    need((item['bytes'], item['sha256']) == (HISTORY_BYTES, HISTORY_SHA256), 'history', 'history pin differs')
+-    for entry in DEPENDENCY_ENTRIES:
+-        same(current(index, entry['path']), entry['identity'], 'static source dependency identity changed')
+-    item = current(index, DEPENDENCIES)
+-    need((item['bytes'], item['sha256']) == (DEPENDENCIES_BYTES, DEPENDENCIES_SHA256),
+-         'dependency', 'static source dependency pin differs')
+-    decision = read_metadata(E/'ROOT_SOURCE_ADJUDICATION.json', index)
++def validate_source_decision_payload(decision, index):
+     exact_keys(decision, ('schema', 'status', 'accepted_sources', 'independent_review', 'ri128_source_adjudication',
+                           'history_manifest', 'dependency_manifest', 'execution_authorized', 'qualification_transferred_to_changed_targets'),
+                'prerequisite', 'root source adjudication')
+@@ -791,7 +779,9 @@
+                       ('ri128_source_adjudication', RI128_DECISION), ('history_manifest', HISTORY),
+                       ('dependency_manifest', DEPENDENCIES)):
+         bind(decision[key], path, index)
+-    review = read_metadata(E/'INDEPENDENT_SOURCE_REVIEW.json', index)
++
++
++def validate_source_review_payload(review, index):
+     need(review.get('schema') == 'ri129-independent-complete-caller-source-review-v1'
+          and review.get('status') == 'PASS_COMPLETE_SOURCE_REVIEW_ONLY'
+          and review.get('blocking_findings') == [] and review.get('scientific_execution') is False
+@@ -800,6 +790,29 @@
+     exact_keys(review.get('sources'), SOURCE_PATHS, 'prerequisite', 'independently reviewed sources')
+     for role, path in SOURCE_PATHS.items():
+         bind(review['sources'][role], path, index)
++
++
++def source_prerequisites(index):
++    for role, original, copy, size, pin in PAIRS:
++        for path in (original, copy):
++            item = current(index, path)
++            need((item['bytes'], item['sha256']) == (size, pin), 'identity', 'fixed scientific source/input changed')
++    runtime_file_prerequisites(index)
++    item = current(index, RI128_DECISION)
++    need((item['bytes'], item['sha256']) == RI128_DECISION_PIN, 'identity', 'accepted RI128 source decision changed')
++    for entry in HISTORY_IDENTITIES:
++        same(current(index, entry['path']), entry['identity'], 'historical identity changed')
++    item = current(index, HISTORY)
++    need((item['bytes'], item['sha256']) == (HISTORY_BYTES, HISTORY_SHA256), 'history', 'history pin differs')
++    for entry in DEPENDENCY_ENTRIES:
++        same(current(index, entry['path']), entry['identity'], 'static source dependency identity changed')
++    item = current(index, DEPENDENCIES)
++    need((item['bytes'], item['sha256']) == (DEPENDENCIES_BYTES, DEPENDENCIES_SHA256),
++         'dependency', 'static source dependency pin differs')
++    decision = read_metadata(E/'ROOT_SOURCE_ADJUDICATION.json', index)
++    validate_source_decision_payload(decision, index)
++    review = read_metadata(E/'INDEPENDENT_SOURCE_REVIEW.json', index)
++    validate_source_review_payload(review, index)
+     inherited = read_metadata(RI128_DECISION, index)
+     validate_ri128_source_decision(inherited)
+ 
+@@ -859,6 +872,18 @@
+         candidate_prerequisite(index)
+ 
+ 
++def validate_current_target_checks(review):
++    checks = review.get('current_target_checks')
++    exact_keys(checks, ('sign_fixtures', 'internal_decision_cases', 'intended_first_refusals'),
++               'prerequisite', 'completed current-target check counts')
++    need(all(type(checks[key]) is int for key in checks)
++         and checks == {'sign_fixtures': 15, 'internal_decision_cases': 4,
++                        'intended_first_refusals': 71}
++         and review.get('current_target_checks_completed') is True
++         and review.get('changed_target_qualification_inherited') is False,
++         'prerequisite', 'actual current-target checks absent or old qualification credited')
++
++
+ def completed_mode(mode, index):
+     """Validate prior *actual* custody; never infer outer success from a receipt."""
+     paths = prior_paths(mode)
+@@ -1016,15 +1041,7 @@
+              and review.get('native_arithmetic_recomputed') is False
+              and review.get('native_mathematics_accepted') is False and review.get('programme_complete') is False,
+              'prerequisite', 'completed independent/root review scope differs')
+-        checks = review.get('current_target_checks')
+-        exact_keys(checks, ('sign_fixtures', 'internal_decision_cases', 'intended_first_refusals'),
+-                   'prerequisite', 'completed current-target check counts')
+-        need(all(type(checks[key]) is int for key in checks)
+-             and checks == {'sign_fixtures': 15, 'internal_decision_cases': 4,
+-                            'intended_first_refusals': 71}
+-             and review.get('current_target_checks_completed') is True
+-             and review.get('changed_target_qualification_inherited') is False,
+-             'prerequisite', 'actual current-target checks absent or old qualification credited')
++        validate_current_target_checks(review)
+         for key, path in (('source_adjudication', E/'ROOT_SOURCE_ADJUDICATION.json'),
+                           ('applicability', paths['applicability']), ('genuine_outer', paths['tool_completion']),
+                           ('root_admission', paths['root_admission']), ('freeze', paths['freeze']),
