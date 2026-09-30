@@ -1,0 +1,101 @@
+{
+  "additional_changes": "Only version docstrings, new focused-control source and necessary dependency/contract/metadata/handoff files.",
+  "changed_modules": [
+    {
+      "changed_top_level_text_ranges": [
+        "run"
+      ],
+      "module": "prepare.py",
+      "new": {
+        "bytes": 44082,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+        "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+      },
+      "old": {
+        "bytes": 43601,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/prepare.py",
+        "sha256": "a3fdbf1c8e0c78974366d50caf53ec7acfbb91616c6ad684fa95aebeedcf2098"
+      },
+      "unchanged_functions": [
+        "acceptance",
+        "authenticate",
+        "body",
+        "canonical",
+        "check_top_namespace",
+        "child_run",
+        "dyld_attempts",
+        "environment",
+        "guard_card",
+        "guard_check",
+        "keys",
+        "main",
+        "monitor_text",
+        "need",
+        "opaque",
+        "parse",
+        "profile_check",
+        "pure",
+        "read",
+        "ref",
+        "same",
+        "save",
+        "source_set",
+        "verify_saved_namespace"
+      ]
+    },
+    {
+      "changed_top_level_text_ranges": [
+        "require_historical_interpreter",
+        "snapshot"
+      ],
+      "module": "runtime_metadata.py",
+      "new": {
+        "bytes": 18607,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/runtime_metadata.py",
+        "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+      },
+      "old": {
+        "bytes": 17471,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/runtime_metadata.py",
+        "sha256": "80474eadb9af39345bb8c3440980041876c19e16020bdb05ff959a00723450be"
+      },
+      "unchanged_functions": [
+        "absent_observations",
+        "binding",
+        "canonical",
+        "directory_namespaces",
+        "dyld_routes",
+        "file_ref",
+        "guard",
+        "host_bootstrap",
+        "literal_path",
+        "load_ref",
+        "metadata",
+        "metadata_json",
+        "missing",
+        "observe_file",
+        "same",
+        "source_observation",
+        "tree",
+        "walk_members"
+      ]
+    }
+  ],
+  "controls_executed": 0,
+  "fresh_interpreter_postcheck_identical": true,
+  "method": "Plain source substring/range comparison and opaque hashes only; no import/compile/AST/probe/run.",
+  "schema": "ri135-exact-source-correspondence-v1",
+  "source_syntax_validated": false,
+  "unchanged_literal_blocks": [
+    {
+      "bytes": 1130,
+      "start": "GUARD_IDS = ",
+      "whole_text_identical": true
+    },
+    {
+      "bytes": 306,
+      "start": "BOUNDS = ",
+      "whole_text_identical": true
+    }
+  ]
+}

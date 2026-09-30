@@ -1,0 +1,17 @@
+{
+  "execution_authorized": false,
+  "measurement": {
+    "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg",
+    "item": "RI137",
+    "owner": "/root/archive_repro_review",
+    "scope": "Minimal source-only bounded launcher for exact RI135 focused25; reuse authenticated complete prepare.child_run; fresh nonauthor review and root admission before execution."
+  },
+  "native": {
+    "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7",
+    "item": "RI136",
+    "owner": "Quantum Relativity",
+    "status": "already working; no duplicate assignment"
+  },
+  "repository_and_git_owner": "/root",
+  "schema": "ri135-successor-reservations-v1"
+}

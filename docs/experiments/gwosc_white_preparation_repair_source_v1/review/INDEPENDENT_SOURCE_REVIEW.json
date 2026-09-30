@@ -1,0 +1,106 @@
+{
+  "active_cards_freezes_admissions_attempts": false,
+  "actual_checks": {
+    "additions": 25,
+    "bounds_unchanged": true,
+    "complete_ri130_files": 48,
+    "dependency_bytes": 16220282,
+    "dependency_count": 253,
+    "historic_interpreter_and_handoff_full_pins_verified": true,
+    "historical_file_roles": 124,
+    "ordered_65_expression_unchanged": true,
+    "sealed_ri133_files_unchanged": 10,
+    "source_pins_unchanged_after": true,
+    "unchanged_functions": 42,
+    "unchanged_inherited_dependencies": 228,
+    "whole_byte_original_copy_pairs": 30,
+    "whole_two_module_delta_verified": true
+  },
+  "actual_metadata_checks": {
+    "bytes": 112858,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/OPAQUE_TEXT_CHECK.json",
+    "sha256": "06e2c585b5d0fea8915d1861d36c446dbe38a9af3cc2ae6289e6b86e946c45f1"
+  },
+  "blocking_findings": [],
+  "controls": {
+    "F01_source_cases": 14,
+    "F02_source_cases": 11,
+    "executed": 0,
+    "expected_failure_constructions": 23,
+    "f01_authority_and_runtime_doubles": true,
+    "f02_authentic_historical_metadata_reads_prospective": true,
+    "f02_snapshot_observers_are_explicit_doubles": true,
+    "positive_constructions": 2
+  },
+  "current_runtime_observed": false,
+  "execution_authorized": false,
+  "full_review": {
+    "bytes": 21584,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "b87b7a3ca66c899e0b90f0a3240e6bbf1aecde42716e9a16293610efb7132675"
+  },
+  "metadata_tool_result": {
+    "chunk_id": "cc9441",
+    "exit_code": 0
+  },
+  "original_findings": [
+    {
+      "basis": "genuine reference and safe tail state before ownership; every initial owned operation within protected scope; independent groups retain earliest error and partials",
+      "id": "F01",
+      "source_disposition": "RESOLVED"
+    },
+    {
+      "basis": "authentic historic binding/provenance in exact closure; full ordered binding comparison before runtime enumeration; fresh final check retained",
+      "id": "F02",
+      "source_disposition": "RESOLVED"
+    }
+  ],
+  "preliminary_metadata_inspection_incident": {
+    "chunk_id": "eb5953",
+    "exit_code": 1,
+    "reason": "Inspector expected a dict; historical closure is a124-row administrative list. No target activity; complete checker handles list correctly."
+  },
+  "preserved_limitations": [
+    "externally authenticated bootstrap/supplier",
+    "cache selection is not source equivalence or instruction trace",
+    "Apple kernel/loader/shared-cache and stable-host premises",
+    "sampled child limits and no-descendant premise",
+    "parent-PID observation is not child-identity authentication",
+    "genuine tool truth remains external"
+  ],
+  "prior_authorship_outside_scope": [
+    "RI125 primary and qualifier",
+    "RI131 guard source"
+  ],
+  "qualification_claimed": false,
+  "read_coverage": {
+    "all_control_cases_manually_traced": 25,
+    "all_packet_files": 12,
+    "complete_protocol_and_repair_notes": true,
+    "focused_control_lines": 297,
+    "prepare_lines": 659,
+    "runtime_metadata_lines": 409,
+    "total_source_lines": 1365
+  },
+  "remaining_prerequisites": [
+    "root source adjudication",
+    "separately reviewed genuine bounded wrapper/admission",
+    "actual focused25 execution and complete saved/outer review",
+    "actual current baseline then accepted normal before optimized profiles",
+    "separately admitted and reviewed65 caller guards",
+    "distinct future RI130 WHITE/RI131/full32 and actual-data work"
+  ],
+  "repository_or_git_operation": false,
+  "resource_feasibility_established": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri135-complete-nonauthor-repair-review-v1",
+  "scientific_body_decode": false,
+  "source_handoff": {
+    "bytes": 5902,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/HANDOFF.json",
+    "sha256": "4291a055c4cc125d4a07fe6be4fec0e0c5945dc31225cc4bda079fce84824b1d"
+  },
+  "status": "PASS_BOUNDED_UNEXECUTED_SOURCE_ONLY",
+  "subject_authorship": false,
+  "target_helper_import_compile_AST_probe_run": false
+}
