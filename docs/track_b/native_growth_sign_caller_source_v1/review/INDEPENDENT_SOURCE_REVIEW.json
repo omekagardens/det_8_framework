@@ -1,0 +1,133 @@
+{
+  "schema": "ri129-independent-complete-caller-source-review-v1",
+  "status": "PASS_COMPLETE_SOURCE_REVIEW_ONLY",
+  "reviewer": "/root/ri116_complete_caller_review",
+  "blocking_findings": [],
+  "sources": {
+    "native_supervisor": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "bytes": 88890,
+      "sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650",
+      "symlinks": []
+    },
+    "audit_caller": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "bytes": 103287,
+      "sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5",
+      "symlinks": []
+    },
+    "history_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "bytes": 2170307,
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+      "symlinks": []
+    },
+    "runtime_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "bytes": 2862854,
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920",
+      "symlinks": []
+    },
+    "caller_contract": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "bytes": 24196,
+      "sha256": "dc2d798e3e95957ddcc397f94155f3c2ca493bc500eec2086aa2147a53a11dd6",
+      "symlinks": []
+    },
+    "dependency_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "bytes": 583262,
+      "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c",
+      "symlinks": []
+    }
+  },
+  "authorship": {
+    "authored_RI129_or_RI128_components": false,
+    "other_work": "Authored RI125 primary WHITE/qualifier and RI131 finite guard source; historical reviewer only for native source/custody."
+  },
+  "read_coverage": {
+    "native_lines": 1452,
+    "audit_lines": 1623,
+    "audit_lines_with_exact_native_text_equivalence": 571,
+    "complete_current_contracts_notes_and_deltas": true,
+    "complete_retained_engine_contracts": true,
+    "target_full_math_source_review": "Inherited exact RI128 complete nonauthor review; current interface, pins, controls and entry/tails directly reread.",
+    "target_producer_direct_line_ranges": [
+      "1-180",
+      "380-574"
+    ],
+    "target_auditor_direct_line_ranges": [
+      "1-150",
+      "560-874"
+    ]
+  },
+  "metadata": {
+    "packet_files": 13,
+    "dependencies": 299,
+    "all_packet_and_dependency_identities_match": true,
+    "all_nine_original_pair_pins_match": true,
+    "administrative_records_traversed": 126,
+    "administrative_records_with_typed_references": 111,
+    "typed_reference_occurrences": 114488,
+    "unresolved_or_conflicting_references": 0,
+    "retained_history_roles": 699,
+    "retained_runtime_file_roles": 2988,
+    "retained_runtime_directory_records": 258,
+    "retained_runtime_absence_records": 40,
+    "exact_patch_reconstruction": true,
+    "corrected_reviewer_text_comparison_incident_preserved": true
+  },
+  "reviewed_interface": {
+    "original_copy_pairs": 9,
+    "target_inputs": 5,
+    "certificate_sections": 14,
+    "auditor_protected_objects": 8,
+    "producer_sign_fixtures": 15,
+    "producer_internal_decision_cases": 4,
+    "producer_refusals": 71,
+    "auditor_rebuilt_sign_fixtures": 15,
+    "auditor_own_refusals": 16,
+    "auditor_executes_producer_controls": false,
+    "candidate_copies": 3,
+    "third_candidate_is_auditor_operand": false,
+    "auditor_has_descriptor": false,
+    "native_caller_control_declarations": 52,
+    "audit_caller_control_declarations": 69
+  },
+  "scope_notes": [
+    "Complete pre-attempt prerequisite refusal has no finally snapshots or attempt receipt; root must preserve genuine outer failure and independently reconcile early custody.",
+    "Fresh in-attempt complete checks and independent final observations are retained.",
+    "Six source identities and299 dependency closure accepted for source review only.",
+    "Current root admission remains external before dispatch; genuine future custody and all report fields must be independently adjudicated.",
+    "Reviewer text-check initial mismatches were comparison-method errors; exact corrected full patches/retained spans pass without target changes."
+  ],
+  "remaining_prerequisites": [
+    "Root source adjudication.",
+    "Fresh changed-caller qualification including genuine missing-prerequisite pre-attempt refusals;52/69 tuples are not executed coverage.",
+    "External pre-bootstrap current runtime/configuration/namespace/host authentication and appropriate stage applicability.",
+    "Exclusive exact copies, freezes and separate genuine witness then normal then optimized then no-argument audit admissions.",
+    "Actual current producer15/4/71 and auditor15/16 qualification, complete saved independent reconstruction and final root scientific adjudication."
+  ],
+  "scientific_execution": false,
+  "execution_authorized": false,
+  "source_or_helper_import_compile_ast_probe_run": false,
+  "scientific_json_decode": false,
+  "current_runtime_inventory_created": false,
+  "actual_missing_prerequisite_refusal_executed": false,
+  "caller_or_target_qualification_executed": false,
+  "active_artifacts_created": false,
+  "source_acceptance_issued_by_root": false,
+  "qualification_transferred_to_changed_targets": false,
+  "actual_signs_decided": false,
+  "full_H30_feasibility": false,
+  "physical_claim": false,
+  "programme_complete": false,
+  "repository_index_git_modified": false,
+  "ret_paused": true
+}

@@ -1,0 +1,99 @@
+{
+  "accepted": [
+    "Complete source-only caller review for five input roles, nine original/copy pairs, fourteen certificate sections and no-argument eight-object saved audit.",
+    "Fresh pre-Attempt full prerequisite checks with repeated in-attempt checks, complete allocated-attempt failure custody and explicit externally owned early-refusal custody.",
+    "Exact retained-engine applicability only; 52 native and 69 audit declarations are not an executed qualification campaign."
+  ],
+  "accepted_sources": {
+    "audit_caller": {
+      "bytes": 103287,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5",
+      "symlinks": []
+    },
+    "caller_contract": {
+      "bytes": 24196,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "sha256": "dc2d798e3e95957ddcc397f94155f3c2ca493bc500eec2086aa2147a53a11dd6",
+      "symlinks": []
+    },
+    "dependency_manifest": {
+      "bytes": 583262,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c",
+      "symlinks": []
+    },
+    "history_manifest": {
+      "bytes": 2170307,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+      "symlinks": []
+    },
+    "native_supervisor": {
+      "bytes": 88890,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650",
+      "symlinks": []
+    },
+    "runtime_manifest": {
+      "bytes": 2862854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920",
+      "symlinks": []
+    }
+  },
+  "active_source_card_issued": false,
+  "actual_signs_decided": false,
+  "authorship": {
+    "independent_reviewer": "/root/ri116_complete_caller_review; no RI129 or RI128 source authorship.",
+    "root": "Source author/integrator, now adjudicating a separate nonauthor review; this is not a second full independent root source review."
+  },
+  "caller_qualification_executed": false,
+  "date_utc": "2026-09-30",
+  "execution_authorized": false,
+  "full_H30_feasibility": false,
+  "independent_narrative": {
+    "bytes": 16214,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "19d74caf5807a4d781bfac97959c2f791d9c181914496e0504145a321132f7eb"
+  },
+  "independent_review": {
+    "bytes": 6670,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.json",
+    "sha256": "d0e81254694db9c145c3760b08e86f02a8e2a1edadccfe10776842e4455710de"
+  },
+  "independent_review_handoff": {
+    "bytes": 3082,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+    "sha256": "6cd215563c660948188a73c6d3d0ccc6fe6f583b4d1bc2cc981654abcc223ac0"
+  },
+  "next_qr_step": "RI132 changed-native-caller qualification source and closed evidence contract; same accepted scientific sources, limits, support and all mathematical premises.",
+  "physical_claim": false,
+  "programme_complete": false,
+  "qualification_transferred_to_changed_targets": false,
+  "remaining": [
+    "RI132 must implement a concrete fresh changed-caller qualification harness and intended-first-failure inventory, distinguishing genuine whole-entry, direct boundary and unavailable coverage.",
+    "External current bootstrap/runtime/configuration/namespace conformity must be established before invoking the target interpreter or caller.",
+    "Genuine current producer15/4/71 and saved auditor15/16 checks, serial witness/normal/optimized/audit custody and independent arithmetic remain later separately admitted stages."
+  ],
+  "ret_paused": true,
+  "root_read_scope": "Complete independent review narrative/machine handoff and check methods; exact corrected text/delta/coverage reconciliation; current and previous bounded preflight/contract/interface reads. Complete caller review is supplied by the named nonauthor.",
+  "root_reconciliation": {
+    "bytes": 83987,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/ROOT_SOURCE_REVIEW_RECONCILIATION.json",
+    "sha256": "e43e9db507714de09a0cc6bdf1d55566f061cda39843615615b21068b58c541b"
+  },
+  "schema": "ri129-root-source-review-adjudication-record-v1",
+  "source_handoff": {
+    "bytes": 10184,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+    "sha256": "b3839ba2f81e791321e2549107ce5f1b84ffdbbcc635396ab4e72002386feac0"
+  },
+  "status": "ACCEPT_EXACT_UNEXECUTED_NATIVE_CALLER_SOURCE"
+}

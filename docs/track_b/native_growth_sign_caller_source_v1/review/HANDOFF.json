@@ -1,0 +1,61 @@
+{
+  "schema": "ri129-independent-caller-source-review-handoff-v1",
+  "status": "PASS_COMPLETE_SOURCE_REVIEW_ONLY",
+  "source_packet_handoff": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+    "bytes": 10184,
+    "sha256": "b3839ba2f81e791321e2549107ce5f1b84ffdbbcc635396ab4e72002386feac0"
+  },
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_authored_target_components": false,
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/CORRECTED_METADATA_SUMMARY.json",
+      "bytes": 18478,
+      "sha256": "2d69442db44cea379812c5b4907818b05e0c7008ab6d65061cc84a0a7bc65c04"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/FINAL_PIN_CHECK.json",
+      "bytes": 4840,
+      "sha256": "18ad39bcde08b83e6b1fff843e02469eb4c3005e3e8d58a301a509778cb4936d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 6670,
+      "sha256": "d0e81254694db9c145c3760b08e86f02a8e2a1edadccfe10776842e4455710de"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.md",
+      "bytes": 16214,
+      "sha256": "19d74caf5807a4d781bfac97959c2f791d9c181914496e0504145a321132f7eb"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/METADATA_REVIEW.json",
+      "bytes": 31528781,
+      "sha256": "966b139f5c9d9df317d19175d6a364ff3e5e134d5481bd41b77ab324101e2e06"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/TEXT_SPAN_MAP.json",
+      "bytes": 15980,
+      "sha256": "d63b685eb8b447af13e729204a48b9835557c1406a25a778b1d370bfe5e60088"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_metadata.py",
+      "bytes": 7437,
+      "sha256": "2c62a5254b0dde169dcbb3ff9925e67b9ae581077e0584b668260232ef3278cb"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_text_correction.py",
+      "bytes": 4782,
+      "sha256": "ac66cd1dadea7815f0f036229ddfd0b3087890a5b05e3d87b997839135034db7"
+    }
+  ],
+  "blocking_findings": [],
+  "scope": "Complete nonauthor source review and administrative metadata only. Machine review has only six closed typed source references; all other review evidence is bound here externally.",
+  "source_acceptance_recommendation": "Root may adjudicate exact unexecuted source only; qualification and scientific admission remain separate.",
+  "scientific_execution": false,
+  "execution_authorized": false,
+  "current_runtime_inventory_created": false,
+  "actual_signs_decided": false,
+  "repository_git_edits": false
+}
