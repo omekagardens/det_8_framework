@@ -1,0 +1,15 @@
+{
+  "command": "exec /usr/bin/env -i PATH=/usr/bin:/bin LC_ALL=C TZ=UTC TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 240; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/observe_bootstrap.py PRE",
+  "arguments": {
+    "cmd": "exec /usr/bin/env -i PATH=/usr/bin:/bin LC_ALL=C TZ=UTC TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 240; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/observe_bootstrap.py PRE",
+    "login": false,
+    "max_output_tokens": 1200
+  },
+  "result": {
+    "chunk_id": "48324d",
+    "wall_time_seconds": 0.400241333,
+    "exit_code": 0,
+    "original_token_count": 74,
+    "output": "{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/BOOTSTRAP_PRE.json', 'bytes': 1690939, 'sha256': '9ead0aca0235fb64af3c6d315ee7f39a48827a7f2f9bbf4dd540230588839310'}\n{'entries': 2004, 'file_bytes': 48024515, 'elapsed_seconds': 0.43192770799999997}\n"
+  }
+}

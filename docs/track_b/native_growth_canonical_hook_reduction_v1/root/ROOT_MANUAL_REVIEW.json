@@ -1,0 +1,35 @@
+{
+  "additional_review_observation": {
+    "derivation": "For Q, fullincrement1 and canonical properraisingzero, hence boundarydrift=1-sum(Arow*alpha)=0. EveryQ row is tight. Its residual/c equals alpha_i, includingzero; not merely some incident minimizing row.",
+    "premise": "RI63 literal critical() requires maximal deletion defect=delta-1; Q hasdelta0 so cannotbecritical. certificate_reports requires every noncritical canonical boundarydriftzero and activecomponentseverywhere neutral.",
+    "scope": "Canonical finite accepted face only; does not assert strict fullprobabilityzero, arbitraryprimaryoptimumtightness, coefficientordering or jointbudget.",
+    "status": "ROOT_MANUALLY_CONFIRMED_ACCEPTED_PREMISE_CONSEQUENCE"
+  },
+  "manual_findings": [
+    "Terminal(5,1) has only maximal newborn roles C5/root and Q/longarm; unequal arms trivial automorphisms; whole-parent isomorphisms and diamonds preserve terminal/root bit. Each root connects all8 longarm-markings to one singleton hub.",
+    "Perroot16C5+16Q canonical rows; Q4natural histories gives80rawrows.8base markings*4newbornpairs*2orderedprecursors=64directeddiamonds, everytarget oneoccurrence, disjoint rootsets.",
+    "Complete Q proper list0,1,3,7,15,17,19,23: doubledeletionsB*J/A; onlyleafdeleted fullB15; onlyarmtipdeleted J9,J11,J15. Neutral15,17,19; otherproperraise1. FullQ raises1 by unique-max rectangular obstruction; fullC5 neutral.",
+    "Accepted canonical active-neutral premise zeroes raising roles only at canonical point. Actual strict restoration never dropped.",
+    "All16Q historyweights positive; piQ*c=4*piC*beta by four marked incomparable swaps and fairbirth factors. Negative objective -w, w>0.",
+    "A>=0, disjointtargetrowsets, nonempty positivecoefficients. Drest is exact compact projection. Target slice rectangle; negativecosts force both residual minima includingzero/ties; minimizersliftbijectively; original full-vector lexicographic ordering indispensable.",
+    "Dual sign convention s=beta+A^Ty>=0 with y>=0; w>0 requires positive incident dualweight evenatzero. Complementary positive row reaches minimumcapacity.",
+    "Exact q substitution and kappa35/36 mapping preserve correlatedZ. Actualcoefficientordering,quantitativev/q budgets,rhomembership,W/C2/C3andH30stillopen."
+  ],
+  "read_scope": [
+    "Complete HOOK_INCIDENCE d030fe",
+    "Complete CANONICAL_FACE_COMPARISON bb5c83 and SYNTHESIS1eea05 (initial batched4783ee aggregate was truncated; not counted complete)",
+    "Complete DEPENDENCY_NOTES e0987a and AUTHOR_CHECKS05183a",
+    "RI63 COMPLETION sections1-4 literal accepted finite premises and fixed optimization",
+    "Fresh literal RI63check.py142-173,470-625,625-692,823-905,910-983; no execution"
+  ],
+  "ret_paused": true,
+  "schema": "ri149-root-manual-proof-review-v1",
+  "scientific_body_decode": false,
+  "scientific_execution": false,
+  "source": {
+    "bytes": 7499,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HANDOFF.json",
+    "sha256": "1471f833445c8ca4ed872737cdd8abf6660daf83d0399937b745cc959dc577cc"
+  },
+  "status": "MANUAL_DERIVATIONS_CHECKED_PENDING_COMPLETE_INDEPENDENT_SEAL"
+}

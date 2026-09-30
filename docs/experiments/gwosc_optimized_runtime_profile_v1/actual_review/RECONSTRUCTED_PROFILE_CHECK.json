@@ -1,0 +1,2079 @@
+{
+  "all_descriptors": [
+    {
+      "field": "file",
+      "identity": {
+        "bytes": 2696,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/profile_observe.source-only.py",
+        "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7"
+      },
+      "module": "__main__"
+    },
+    {
+      "field": "cached",
+      "module": "__main__",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "__main__",
+      "value": null
+    },
+    {
+      "field": "file",
+      "module": "_abc",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_abc",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_abc",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 71658,
+          "sha256": "82ef0ba9e7dc409483696efbca376d333ab486f9d8551055db94216a0978d811"
+        }
+      },
+      "field": "file",
+      "module": "_blake2"
+    },
+    {
+      "field": "cached",
+      "module": "_blake2",
+      "value": null
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 71658,
+          "sha256": "82ef0ba9e7dc409483696efbca376d333ab486f9d8551055db94216a0978d811"
+        }
+      },
+      "field": "origin",
+      "module": "_blake2"
+    },
+    {
+      "field": "file",
+      "module": "_codecs",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_codecs",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_codecs",
+      "value": "built-in"
+    },
+    {
+      "field": "file",
+      "module": "_collections",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_collections",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_collections",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_collections_abc.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_collections_abc.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 30193,
+          "sha256": "ec646ef7e27aae261adef3c57b9d18822c6526b3e9562dabb9f3cb4e6803066c"
+        }
+      },
+      "field": "file",
+      "module": "_collections_abc"
+    },
+    {
+      "field": "cached",
+      "module": "_collections_abc",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_collections_abc",
+      "value": "frozen"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 50559,
+          "sha256": "71f19ed38797e27ac3eb8d582155e235ec747d79da9faa9451d167ab3a0f8cdc"
+        }
+      },
+      "field": "file",
+      "module": "_contextvars"
+    },
+    {
+      "field": "cached",
+      "module": "_contextvars",
+      "value": null
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_contextvars.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 50559,
+          "sha256": "71f19ed38797e27ac3eb8d582155e235ec747d79da9faa9451d167ab3a0f8cdc"
+        }
+      },
+      "field": "origin",
+      "module": "_contextvars"
+    },
+    {
+      "binding": {
+        "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 6299,
+          "sha256": "46849a60a7cc85189cf6b5ac62b3f135004862ce6a96540a81c95ef6fbc4dc3e"
+        }
+      },
+      "field": "file",
+      "module": "_distutils_hack"
+    },
+    {
+      "absent_from_complete_inventory": true,
+      "field": "cached",
+      "module": "_distutils_hack",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.opt-1.pyc"
+    },
+    {
+      "binding": {
+        "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 6299,
+          "sha256": "46849a60a7cc85189cf6b5ac62b3f135004862ce6a96540a81c95ef6fbc4dc3e"
+        }
+      },
+      "field": "origin",
+      "module": "_distutils_hack"
+    },
+    {
+      "field": "file",
+      "module": "_frozen_importlib",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_frozen_importlib",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_frozen_importlib",
+      "value": "frozen"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 68856,
+          "sha256": "5b7f704fd3198cb474fea0e74cb21df2d159ceb6bde78aad5db3eb5efa883ccf"
+        }
+      },
+      "field": "file",
+      "module": "_frozen_importlib_external"
+    },
+    {
+      "field": "cached",
+      "module": "_frozen_importlib_external",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_frozen_importlib_external",
+      "value": "frozen"
+    },
+    {
+      "field": "file",
+      "module": "_functools",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_functools",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_functools",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 98432,
+          "sha256": "751646919aab440190d8e49d0e36a9b92f856a8d44b4e761f617dabaad1488ea"
+        }
+      },
+      "field": "file",
+      "module": "_hashlib"
+    },
+    {
+      "field": "cached",
+      "module": "_hashlib",
+      "value": null
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 98432,
+          "sha256": "751646919aab440190d8e49d0e36a9b92f856a8d44b4e761f617dabaad1488ea"
+        }
+      },
+      "field": "origin",
+      "module": "_hashlib"
+    },
+    {
+      "field": "file",
+      "module": "_imp",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_imp",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_imp",
+      "value": "built-in"
+    },
+    {
+      "field": "file",
+      "module": "_io",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_io",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_io",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 73384,
+          "sha256": "f24a3dee312dd3b0f50e568c2c95a578b742bde3611eccacc1b6214d9ae94db1"
+        }
+      },
+      "field": "file",
+      "module": "_json"
+    },
+    {
+      "field": "cached",
+      "module": "_json",
+      "value": null
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 73384,
+          "sha256": "f24a3dee312dd3b0f50e568c2c95a578b742bde3611eccacc1b6214d9ae94db1"
+        }
+      },
+      "field": "origin",
+      "module": "_json"
+    },
+    {
+      "field": "file",
+      "module": "_locale",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_locale",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_locale",
+      "value": "built-in"
+    },
+    {
+      "field": "file",
+      "module": "_operator",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_operator",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_operator",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 229202,
+          "sha256": "14cf1bf7ead78a0beb578f19ebc4ec82f542e0879f5b77d327f01abf74591586"
+        }
+      },
+      "field": "file",
+      "module": "_pydecimal"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 244337,
+          "sha256": "bd2bcb86563e2744d9c3689c678ee1a890d67f65b2706a0ed707677ea56186a8"
+        }
+      },
+      "field": "cached",
+      "module": "_pydecimal"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 229202,
+          "sha256": "14cf1bf7ead78a0beb578f19ebc4ec82f542e0879f5b77d327f01abf74591586"
+        }
+      },
+      "field": "origin",
+      "module": "_pydecimal"
+    },
+    {
+      "field": "file",
+      "module": "_signal",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_signal",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_signal",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_sitebuiltins.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_sitebuiltins.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 3128,
+          "sha256": "b9388bc1d6d12ed6be12da420ab1feca40f99c0e33ec315d92b1e01cb69b25bc"
+        }
+      },
+      "field": "file",
+      "module": "_sitebuiltins"
+    },
+    {
+      "field": "cached",
+      "module": "_sitebuiltins",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_sitebuiltins",
+      "value": "frozen"
+    },
+    {
+      "field": "file",
+      "module": "_sre",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_sre",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_sre",
+      "value": "built-in"
+    },
+    {
+      "field": "file",
+      "module": "_stat",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_stat",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_stat",
+      "value": "built-in"
+    },
+    {
+      "field": "file",
+      "module": "_thread",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_thread",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_thread",
+      "value": "built-in"
+    },
+    {
+      "field": "file",
+      "module": "_warnings",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_warnings",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_warnings",
+      "value": "built-in"
+    },
+    {
+      "field": "file",
+      "module": "_weakref",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "_weakref",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "_weakref",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/abc.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/abc.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 6538,
+          "sha256": "e558702a95cdce3febd289da021715d2b92bc43995b8a1bc58dfa1c3d8010287"
+        }
+      },
+      "field": "file",
+      "module": "abc"
+    },
+    {
+      "field": "cached",
+      "module": "abc",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "abc",
+      "value": "frozen"
+    },
+    {
+      "field": "file",
+      "module": "builtins",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "builtins",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "builtins",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/codecs.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/codecs.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 37150,
+          "sha256": "f16a81d14e7f73931ecf9f9f2e17c10bc0ca29bbe38b0243f6919b70882fcfea"
+        }
+      },
+      "field": "file",
+      "module": "codecs"
+    },
+    {
+      "field": "cached",
+      "module": "codecs",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "codecs",
+      "value": "frozen"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 52018,
+          "sha256": "303701de55e434c0fbcc478ae8a79a28537d9ebe83b3150508438ffd6e3e14c7"
+        }
+      },
+      "field": "file",
+      "module": "collections"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 78294,
+          "sha256": "2bcaaf6e3632688339d8aa0b6ace8dd33b6b6f8cbbff00f15986a6fd64c7d3e6"
+        }
+      },
+      "field": "cached",
+      "module": "collections"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 52018,
+          "sha256": "303701de55e434c0fbcc478ae8a79a28537d9ebe83b3150508438ffd6e3e14c7"
+        }
+      },
+      "field": "origin",
+      "module": "collections"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 129,
+          "sha256": "5ed260be8d1f4fe92261b7810b4bb1e8539c42093d7493f677d076e1a87f459a"
+        }
+      },
+      "field": "file",
+      "module": "contextvars"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 376,
+          "sha256": "713fef52f84b5fef217ef669d35026decd6aa02751f0678ed2655fceebaac444"
+        }
+      },
+      "field": "cached",
+      "module": "contextvars"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 129,
+          "sha256": "5ed260be8d1f4fe92261b7810b4bb1e8539c42093d7493f677d076e1a87f459a"
+        }
+      },
+      "field": "origin",
+      "module": "contextvars"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 7677,
+          "sha256": "5499e1be7ba52d4715a911ae65ef2d703db9379d21fff2a07fad8877c318e070"
+        }
+      },
+      "field": "file",
+      "module": "copyreg"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 8223,
+          "sha256": "e1cb8ab12366227ac16299a5725b219617c1f041faf6d45213087fbdf59a5ab4"
+        }
+      },
+      "field": "cached",
+      "module": "copyreg"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 7677,
+          "sha256": "5499e1be7ba52d4715a911ae65ef2d703db9379d21fff2a07fad8877c318e070"
+        }
+      },
+      "field": "origin",
+      "module": "copyreg"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 320,
+          "sha256": "000c00bad31d126b054c6ec7f3e02b27c0f9a4d579f987d3c4f879cee1bacb81"
+        }
+      },
+      "field": "file",
+      "module": "decimal"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 620,
+          "sha256": "ffa34541719db68bc255eee782c3f9c2e76516e9a620369052f4c486929ca1cc"
+        }
+      },
+      "field": "cached",
+      "module": "decimal"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 320,
+          "sha256": "000c00bad31d126b054c6ec7f3e02b27c0f9a4d579f987d3c4f879cee1bacb81"
+        }
+      },
+      "field": "origin",
+      "module": "decimal"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 5884,
+          "sha256": "78c4744d407690f321565488710b5aaf6486b5afa8d185637aa1e7633ab59cd8"
+        }
+      },
+      "field": "file",
+      "module": "encodings"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 6536,
+          "sha256": "2a9cfc2e7dce771e0f9564e992f497853b2d723b5b75ffe1a19a74eeea4e0100"
+        }
+      },
+      "field": "cached",
+      "module": "encodings"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 5884,
+          "sha256": "78c4744d407690f321565488710b5aaf6486b5afa8d185637aa1e7633ab59cd8"
+        }
+      },
+      "field": "origin",
+      "module": "encodings"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 15677,
+          "sha256": "6fdcc49ba23a0203ae6cf28e608f8e6297d7c4d77d52e651db3cb49b9564c6d2"
+        }
+      },
+      "field": "file",
+      "module": "encodings.aliases"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 12726,
+          "sha256": "2fb9432d4bde183d003402fd466928f4cbaa5a5b6c835f42180793d5cc527371"
+        }
+      },
+      "field": "cached",
+      "module": "encodings.aliases"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 15677,
+          "sha256": "6fdcc49ba23a0203ae6cf28e608f8e6297d7c4d77d52e651db3cb49b9564c6d2"
+        }
+      },
+      "field": "origin",
+      "module": "encodings.aliases"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 1248,
+          "sha256": "578aa1173f7cc60dad2895071287fe6182bd14787b3fbf47a6c7983dfe3675e3"
+        }
+      },
+      "field": "file",
+      "module": "encodings.ascii"
+    },
+    {
+      "absent_from_complete_inventory": true,
+      "field": "cached",
+      "module": "encodings.ascii",
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/ascii.cpython-311.opt-1.pyc"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 1248,
+          "sha256": "578aa1173f7cc60dad2895071287fe6182bd14787b3fbf47a6c7983dfe3675e3"
+        }
+      },
+      "field": "origin",
+      "module": "encodings.ascii"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 1005,
+          "sha256": "ba0cac060269583523ca9506473a755203037c57d466a11aa89a30a5f6756f3d"
+        }
+      },
+      "field": "file",
+      "module": "encodings.utf_8"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 2395,
+          "sha256": "7a1d3e9eb2c9396e80f0531aff174ce28a3fc30d641e69dc8ae6985dfdc8a7e5"
+        }
+      },
+      "field": "cached",
+      "module": "encodings.utf_8"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 1005,
+          "sha256": "ba0cac060269583523ca9506473a755203037c57d466a11aa89a30a5f6756f3d"
+        }
+      },
+      "field": "origin",
+      "module": "encodings.utf_8"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 78979,
+          "sha256": "573996961237c0f6649fe6e19c67ac7566fbea0d3ea2a62faf1340bef87e24e2"
+        }
+      },
+      "field": "file",
+      "module": "enum"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 87126,
+          "sha256": "32712a5511b2504ffcbf704b6b3271495206f9c331c8fc1e112dc2533cb8d297"
+        }
+      },
+      "field": "cached",
+      "module": "enum"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 78979,
+          "sha256": "573996961237c0f6649fe6e19c67ac7566fbea0d3ea2a62faf1340bef87e24e2"
+        }
+      },
+      "field": "origin",
+      "module": "enum"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 28667,
+          "sha256": "b11e850e354808b882d13a70a911c29accd1dbdd41757566704e3b7206c74edb"
+        }
+      },
+      "field": "file",
+      "module": "fractions"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 29310,
+          "sha256": "ff0942b7a9a9a73da4315b881b8df2bbba010eb1c5a06b279cea9f9130508536"
+        }
+      },
+      "field": "cached",
+      "module": "fractions"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 28667,
+          "sha256": "b11e850e354808b882d13a70a911c29accd1dbdd41757566704e3b7206c74edb"
+        }
+      },
+      "field": "origin",
+      "module": "fractions"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 38413,
+          "sha256": "6d80018a3fa9fed44c5b78f881987ee3ab3fb1238b077b4e6dcb4b76da7db73b"
+        }
+      },
+      "field": "file",
+      "module": "functools"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 46712,
+          "sha256": "95633c3cffb94760c93dc355c06e8df4b9d9c8deb638134af5c54985e338c47f"
+        }
+      },
+      "field": "cached",
+      "module": "functools"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 38413,
+          "sha256": "6d80018a3fa9fed44c5b78f881987ee3ab3fb1238b077b4e6dcb4b76da7db73b"
+        }
+      },
+      "field": "origin",
+      "module": "functools"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 4975,
+          "sha256": "9d58ad64056a89f12258a62596c2073cd9e52b459dde152f710edc0cffcd865b"
+        }
+      },
+      "field": "file",
+      "module": "genericpath"
+    },
+    {
+      "field": "cached",
+      "module": "genericpath",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "genericpath",
+      "value": "frozen"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 11765,
+          "sha256": "e2bffb462e4d43e6637b9450e259e8ba2a56626ba3037d68aa1cee68b3f61d4a"
+        }
+      },
+      "field": "file",
+      "module": "hashlib"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 12415,
+          "sha256": "ce9fd99642b076f79e738c4f72708ab2f75c9c4965af66f9db9426cffab9a820"
+        }
+      },
+      "field": "cached",
+      "module": "hashlib"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 11765,
+          "sha256": "e2bffb462e4d43e6637b9450e259e8ba2a56626ba3037d68aa1cee68b3f61d4a"
+        }
+      },
+      "field": "origin",
+      "module": "hashlib"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/io.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/io.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 4240,
+          "sha256": "0bb3f9ba75c78b4ad69dedcfb0b360b4503188cf17a632579a70d398bd9ca0e4"
+        }
+      },
+      "field": "file",
+      "module": "io"
+    },
+    {
+      "field": "cached",
+      "module": "io",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "io",
+      "value": "frozen"
+    },
+    {
+      "field": "file",
+      "module": "itertools",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "itertools",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "itertools",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 14020,
+          "sha256": "d5d41e2c29049515d295d81a6d40b4890fbec8d8482cfb401630f8ef2f77e4d5"
+        }
+      },
+      "field": "file",
+      "module": "json"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 14299,
+          "sha256": "2ea5a98f3e47453ede7920bcf21745446686cc3a632bb96349104717ea1565ab"
+        }
+      },
+      "field": "cached",
+      "module": "json"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 14020,
+          "sha256": "d5d41e2c29049515d295d81a6d40b4890fbec8d8482cfb401630f8ef2f77e4d5"
+        }
+      },
+      "field": "origin",
+      "module": "json"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 12473,
+          "sha256": "9f02654649816145bc76f8c210a5fe3ba1de142d4d97a1c93105732e747c285b"
+        }
+      },
+      "field": "file",
+      "module": "json.decoder"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 15266,
+          "sha256": "c4637a935aa68dba41dbe3d27ff90e98155df6350927ec60f3dcfc917913f6fa"
+        }
+      },
+      "field": "cached",
+      "module": "json.decoder"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 12473,
+          "sha256": "9f02654649816145bc76f8c210a5fe3ba1de142d4d97a1c93105732e747c285b"
+        }
+      },
+      "field": "origin",
+      "module": "json.decoder"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 16080,
+          "sha256": "7c358788fbb2a6a07f66f1f8446c52396f35fc201108f666d5be002d86f31af2"
+        }
+      },
+      "field": "file",
+      "module": "json.encoder"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 16888,
+          "sha256": "219c8df7ada517245588f63c0e49c4135d53e92d4deb2453360207691ec99488"
+        }
+      },
+      "field": "cached",
+      "module": "json.encoder"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 16080,
+          "sha256": "7c358788fbb2a6a07f66f1f8446c52396f35fc201108f666d5be002d86f31af2"
+        }
+      },
+      "field": "origin",
+      "module": "json.encoder"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 2425,
+          "sha256": "8604d9d03786d0d509abb49e9f069337278ea988c244069ae8ca2c89acc2cb08"
+        }
+      },
+      "field": "file",
+      "module": "json.scanner"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 3726,
+          "sha256": "124294b866962e7dc43ca240037a80b6e3f7fcee1e0c3982615c07988a4ba4c8"
+        }
+      },
+      "field": "cached",
+      "module": "json.scanner"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 2425,
+          "sha256": "8604d9d03786d0d509abb49e9f069337278ea988c244069ae8ca2c89acc2cb08"
+        }
+      },
+      "field": "origin",
+      "module": "json.scanner"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 1061,
+          "sha256": "afbe73afb68d32fa998e5ff3d081090deec457152470f5331cc2bd430a0e9d2a"
+        }
+      },
+      "field": "file",
+      "module": "keyword"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/keyword.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/keyword.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 1147,
+          "sha256": "f2c77a1986aaa82489778e2c739a239ff839e80e209f9c896a9df51f9b99d9f6"
+        }
+      },
+      "field": "cached",
+      "module": "keyword"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 1061,
+          "sha256": "afbe73afb68d32fa998e5ff3d081090deec457152470f5331cc2bd430a0e9d2a"
+        }
+      },
+      "field": "origin",
+      "module": "keyword"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 78998,
+          "sha256": "2bca02e9fc154dbec3f33bb9c71bcc8c08694f1dbfd31e079d692993bf3dca0c"
+        }
+      },
+      "field": "file",
+      "module": "locale"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 64370,
+          "sha256": "3368088de11d035ce8fbda1dc9fdeefcc0d9af95e89fa8bdd917740a7db922e0"
+        }
+      },
+      "field": "cached",
+      "module": "locale"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 78998,
+          "sha256": "2bca02e9fc154dbec3f33bb9c71bcc8c08694f1dbfd31e079d692993bf3dca0c"
+        }
+      },
+      "field": "origin",
+      "module": "locale"
+    },
+    {
+      "field": "file",
+      "module": "marshal",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "marshal",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "marshal",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 93719,
+          "sha256": "5dbbb0dd5e6e82508ea57b2d790928a63aea41b31b447404fe480af5d5c2fbe2"
+        }
+      },
+      "field": "file",
+      "module": "math"
+    },
+    {
+      "field": "cached",
+      "module": "math",
+      "value": null
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 93719,
+          "sha256": "5dbbb0dd5e6e82508ea57b2d790928a63aea41b31b447404fe480af5d5c2fbe2"
+        }
+      },
+      "field": "origin",
+      "module": "math"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 10348,
+          "sha256": "6d70991643a109e9c99e94d6ea2734a995fa8e89114a70ea09737413fa9ae292"
+        }
+      },
+      "field": "file",
+      "module": "numbers"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 15329,
+          "sha256": "eb2f527cf97db7905f2631b8251bfba7f107dc802c6d23906cbb57eddb13d108"
+        }
+      },
+      "field": "cached",
+      "module": "numbers"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 10348,
+          "sha256": "6d70991643a109e9c99e94d6ea2734a995fa8e89114a70ea09737413fa9ae292"
+        }
+      },
+      "field": "origin",
+      "module": "numbers"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 10965,
+          "sha256": "b2af20f67667203c1730e686cc5d0427becc94db4c97f1d3efe3ed2158473f6a"
+        }
+      },
+      "field": "file",
+      "module": "operator"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 18838,
+          "sha256": "be98d47b94ea7dc85c8634e6b669bd6a214e049188936dab248325a634f2b0a1"
+        }
+      },
+      "field": "cached",
+      "module": "operator"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 10965,
+          "sha256": "b2af20f67667203c1730e686cc5d0427becc94db4c97f1d3efe3ed2158473f6a"
+        }
+      },
+      "field": "origin",
+      "module": "operator"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 39504,
+          "sha256": "021bfb21a96fdaac4b2c034d40636f5e18148a8a95282661a9bc14f3fa979a99"
+        }
+      },
+      "field": "file",
+      "module": "os"
+    },
+    {
+      "field": "cached",
+      "module": "os",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "os",
+      "value": "frozen"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 17013,
+          "sha256": "115bb3d2051318ee3d951cdb13c60f118f15cea837cb69fb52cf543c12fe25c3"
+        }
+      },
+      "field": "file",
+      "module": "os.path"
+    },
+    {
+      "field": "cached",
+      "module": "os.path",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "os.path",
+      "value": "frozen"
+    },
+    {
+      "field": "file",
+      "module": "posix",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "posix",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "posix",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 17013,
+          "sha256": "115bb3d2051318ee3d951cdb13c60f118f15cea837cb69fb52cf543c12fe25c3"
+        }
+      },
+      "field": "file",
+      "module": "posixpath"
+    },
+    {
+      "field": "cached",
+      "module": "posixpath",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "posixpath",
+      "value": "frozen"
+    },
+    {
+      "field": "file",
+      "module": "pwd",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "pwd",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "pwd",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 15889,
+          "sha256": "029ead61f362489e9bb034f4c2503abee95462056541e9ad07715de3c353b0da"
+        }
+      },
+      "field": "file",
+      "module": "re"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 19393,
+          "sha256": "896b15baa186b50ecf8eac4c7d5c222a8b9bfbeaed5024538b806e1b431c4cb8"
+        }
+      },
+      "field": "cached",
+      "module": "re"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 15889,
+          "sha256": "029ead61f362489e9bb034f4c2503abee95462056541e9ad07715de3c353b0da"
+        }
+      },
+      "field": "origin",
+      "module": "re"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 5446,
+          "sha256": "41572ac50cf96b04496e676d8a6708898bb8e752e06dad34ed4c50c5d8f1fe40"
+        }
+      },
+      "field": "file",
+      "module": "re._casefix"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_casefix.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_casefix.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 1925,
+          "sha256": "6866a934088ce86c14fae080cf85d1fa3137b03ad0b275058ab14218da76f3eb"
+        }
+      },
+      "field": "cached",
+      "module": "re._casefix"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 5446,
+          "sha256": "41572ac50cf96b04496e676d8a6708898bb8e752e06dad34ed4c50c5d8f1fe40"
+        }
+      },
+      "field": "origin",
+      "module": "re._casefix"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 26013,
+          "sha256": "23b13f6c11c3343aff2b701b5844a6c82a1a0add70e5aa839d6855d57f691af7"
+        }
+      },
+      "field": "file",
+      "module": "re._compiler"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 31443,
+          "sha256": "f39c821d5922a35c86cf8f6689e91080ad49098729da692426ddc49da6a8eaaf"
+        }
+      },
+      "field": "cached",
+      "module": "re._compiler"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 26013,
+          "sha256": "23b13f6c11c3343aff2b701b5844a6c82a1a0add70e5aa839d6855d57f691af7"
+        }
+      },
+      "field": "origin",
+      "module": "re._compiler"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 5930,
+          "sha256": "3e4463dc8ba87c4a3563be46d2d593e82ca9a0fb91768cfe5a07554ed3de82c5"
+        }
+      },
+      "field": "file",
+      "module": "re._constants"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 6029,
+          "sha256": "1530e2129975068022fa76c8f423f06c8f11b9267310d4aa1020001a3774b938"
+        }
+      },
+      "field": "cached",
+      "module": "re._constants"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 5930,
+          "sha256": "3e4463dc8ba87c4a3563be46d2d593e82ca9a0fb91768cfe5a07554ed3de82c5"
+        }
+      },
+      "field": "origin",
+      "module": "re._constants"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 42197,
+          "sha256": "f8dfee5093475d3454ca70299880540673443eb99547d001b47af3f56eb91a3d"
+        }
+      },
+      "field": "file",
+      "module": "re._parser"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 50020,
+          "sha256": "346c2613803362457eb2a3f8ca2b0653e68a6d7f3369e847470a9ff4af3184b4"
+        }
+      },
+      "field": "cached",
+      "module": "re._parser"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 42197,
+          "sha256": "f8dfee5093475d3454ca70299880540673443eb99547d001b47af3f56eb91a3d"
+        }
+      },
+      "field": "origin",
+      "module": "re._parser"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 5437,
+          "sha256": "264433cc232332db871666b3bb6e4c2cb97b092cb8d5056a45ec2e53daea2b1c"
+        }
+      },
+      "field": "file",
+      "module": "reprlib"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/reprlib.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/reprlib.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 9757,
+          "sha256": "a2a6e3a7eb07ae741b6ea3a42c6dc845b5a86037a3f007d8562fdf9293f90897"
+        }
+      },
+      "field": "cached",
+      "module": "reprlib"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 5437,
+          "sha256": "264433cc232332db871666b3bb6e4c2cb97b092cb8d5056a45ec2e53daea2b1c"
+        }
+      },
+      "field": "origin",
+      "module": "reprlib"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 22648,
+          "sha256": "6803396ba0719e4d1d6ce9351f09f0bca11ab8e9c4efe0f935f598da8e8b903e"
+        }
+      },
+      "field": "file",
+      "module": "site"
+    },
+    {
+      "field": "cached",
+      "module": "site",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "site",
+      "value": "frozen"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 3426,
+          "sha256": "d537eac36341d38454ed3bd8fae3e63b84de65ef89ee8632681e140360c1e160"
+        }
+      },
+      "field": "file",
+      "module": "sitecustomize"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 4191,
+          "sha256": "e46ce96badf953b5c4d2a6ab93d949782b2d25885e7380cc65e9b6b4c46b2981"
+        }
+      },
+      "field": "cached",
+      "module": "sitecustomize"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 3426,
+          "sha256": "d537eac36341d38454ed3bd8fae3e63b84de65ef89ee8632681e140360c1e160"
+        }
+      },
+      "field": "origin",
+      "module": "sitecustomize"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 5485,
+          "sha256": "052af0327eae6941b69b05c088b3e748f79995635f80ac4cc7125eb333eb4c77"
+        }
+      },
+      "field": "file",
+      "module": "stat"
+    },
+    {
+      "field": "cached",
+      "module": "stat",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "stat",
+      "value": "frozen"
+    },
+    {
+      "field": "file",
+      "module": "sys",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "sys",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "sys",
+      "value": "built-in"
+    },
+    {
+      "field": "file",
+      "module": "time",
+      "value": null
+    },
+    {
+      "field": "cached",
+      "module": "time",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "time",
+      "value": "built-in"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 10067,
+          "sha256": "0c08fbb650c37535a7d8361fc12029e3f4c72a418cf564e8779dae14b979e5ba"
+        }
+      },
+      "field": "file",
+      "module": "types"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.opt-1.pyc",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.opt-1.pyc",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 14898,
+          "sha256": "17809519990c5954b775ada36f08ac8d037de2494db62a02e97bbc0ef30414fe"
+        }
+      },
+      "field": "cached",
+      "module": "types"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 10067,
+          "sha256": "0c08fbb650c37535a7d8361fc12029e3f4c72a418cf564e8779dae14b979e5ba"
+        }
+      },
+      "field": "origin",
+      "module": "types"
+    },
+    {
+      "binding": {
+        "named_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipimport.py",
+        "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipimport.py",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 30897,
+          "sha256": "e84b98dd13d3a8ae3ff2094ef2889dcead41d754f0531686f0b70b8d225676cc"
+        }
+      },
+      "field": "file",
+      "module": "zipimport"
+    },
+    {
+      "field": "cached",
+      "module": "zipimport",
+      "value": null
+    },
+    {
+      "field": "origin",
+      "module": "zipimport",
+      "value": "frozen"
+    }
+  ],
+  "expected_runtime": {
+    "base_exec_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "base_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "byteorder": "little",
+    "dont_write_bytecode": 1,
+    "exec_prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "executable": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "implementation": "cpython",
+    "isolated": 1,
+    "optimize": 1,
+    "path": [
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python311.zip",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages"
+    ],
+    "prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "version": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "version_info": [
+      3,
+      11,
+      6,
+      "final",
+      0
+    ]
+  },
+  "full_dyld_error": {
+    "message": "dlopen(/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_decimal.cpython-311-darwin.so, 0x0002): Library not loaded: /opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib\n  Referenced from: <0D7ED905-BC7D-37C9-9ECD-CAF5F3BE837D> /opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_decimal.cpython-311-darwin.so\n  Reason: tried: '/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib' (no such file), '/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib' (no such file), '/usr/local/lib/libmpdec.3.dylib' (no such file), '/usr/lib/libmpdec.3.dylib' (no such file, not in dyld cache), '/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib' (no such file), '/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib' (no such file), '/usr/local/lib/libmpdec.3.dylib' (no such file), '/usr/lib/libmpdec.3.dylib' (no such file, not in dyld cache)",
+    "type": "ImportError"
+  },
+  "full_import_trace_claim": false,
+  "hash_algorithm_names": [
+    "blake2b",
+    "blake2s",
+    "md5",
+    "md5-sha1",
+    "ripemd160",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha3_224",
+    "sha3_256",
+    "sha3_384",
+    "sha3_512",
+    "sha512",
+    "sha512_224",
+    "sha512_256",
+    "shake_128",
+    "shake_256",
+    "sm3"
+  ],
+  "ordered_actual_dyld_attempts": [
+    {
+      "path": "/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+      "reason": "no such file"
+    },
+    {
+      "path": "/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+      "reason": "no such file"
+    },
+    {
+      "path": "/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+      "reason": "no such file"
+    },
+    {
+      "path": "/usr/local/lib/libmpdec.3.dylib",
+      "reason": "no such file"
+    },
+    {
+      "path": "/usr/lib/libmpdec.3.dylib",
+      "reason": "no such file, not in dyld cache"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+      "reason": "no such file"
+    },
+    {
+      "path": "/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+      "reason": "no such file"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+      "reason": "no such file"
+    },
+    {
+      "path": "/usr/local/lib/libmpdec.3.dylib",
+      "reason": "no such file"
+    },
+    {
+      "path": "/usr/lib/libmpdec.3.dylib",
+      "reason": "no such file, not in dyld cache"
+    }
+  ],
+  "preobserved_domain": {
+    "absent_paths": [
+      "/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+      "/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+      "/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+      "/opt/homebrew/lib/libmpdec.3.dylib",
+      "/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+      "/usr/lib/libmpdec.3.dylib",
+      "/usr/local/lib/libmpdec.3.dylib"
+    ],
+    "schema": "ri133-preobserved-dyld-route-domain-v1",
+    "scope": "All predeclared routes; actual ordered attempts must be fully parsed and be contained here. No retrospective precheck credit.",
+    "symlinks": [
+      {
+        "path": "/opt/homebrew/opt/mpdecimal",
+        "target": "../Cellar/mpdecimal/4.0.1"
+      }
+    ]
+  },
+  "scientific_qualification": false,
+  "status": "SAVED_PROFILE_FIELDS_RECONCILED_NOT_RUNTIME_ACCEPTANCE",
+  "supplier_cache_and_stable_host_premises_retained": true
+}

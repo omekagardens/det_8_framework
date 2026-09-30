@@ -1,0 +1,45 @@
+{
+  "monitors": [
+    {
+      "elapsed": 1.9771733749999998,
+      "final_gap": 0.05017125,
+      "label": "PRE",
+      "maximum_gap": 0.03866650000000016,
+      "peak_rss_kib": 89712,
+      "samples": 52
+    },
+    {
+      "elapsed": 0.041350083000000204,
+      "final_gap": 0.0352078330000003,
+      "label": "PROFILE",
+      "maximum_gap": 0.006142249999999905,
+      "peak_rss_kib": 3216,
+      "samples": 1
+    },
+    {
+      "elapsed": 1.9002295830000002,
+      "final_gap": 0.050169165999999876,
+      "label": "POST",
+      "maximum_gap": 0.03881408300000011,
+      "peak_rss_kib": 88608,
+      "samples": 51
+    }
+  ],
+  "operation_entries": 18,
+  "output_entries": 16,
+  "parent_seconds": 5.995889042,
+  "runtime_bytes": 258862951,
+  "runtime_files": 9923,
+  "schema": "ri150-root-saved-optimized-profile-check-v1",
+  "scientific_credit": false,
+  "scope": "Profile child actual completion and monitor custody checked; complete profile field semantics await separate nonauthor review. Saved complete snapshot comparison, every runtime file fresh opaque identity/selection, actual monitor arithmetic, full output namespace; independent actual review remains separate",
+  "snapshots": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "snapshots_byte_equal": true,
+  "source_admission_and_vendor_unchanged": true,
+  "source_files": 547,
+  "status": "PASS_PENDING_INDEPENDENT_REVIEW"
+}

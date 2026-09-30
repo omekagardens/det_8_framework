@@ -1,0 +1,138 @@
+{
+  "schema": "ri149-singleton-hook-canonical-reduction-handoff-v1",
+  "status": "SEALED_AUTHOR_PROOF_WITH_REDUCED_CANONICAL_FACE_GAP_REQUIRES_NONAUTHOR_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/NATIVE_SUCCESSOR_RESERVATION.json",
+    "bytes": 2443,
+    "sha256": "a142be0bdd2fc3e17df3611ed8836ef152103fa9895ba760fab795bcedca87fb"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/RI147_ROOT_ADJUDICATION.json",
+    "bytes": 3033,
+    "sha256": "b8c4e2a94ce50294a426823ad879179ed89065ad4f0f99b7724a02005c1ad385"
+  },
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/ANALYTIC_RESULT.json",
+      "bytes": 3495,
+      "sha256": "22b1af63c1dbeeb4b6c8b8c601173e80bf47622ae875a64683f8d4194d4eadfe"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/AUTHOR_CHECKS.json",
+      "bytes": 15485,
+      "sha256": "800ed2d37fc6ed582faa509154ba7a009e7d1ff920b75230299324a91a677246"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/CANONICAL_FACE_COMPARISON.md",
+      "bytes": 14805,
+      "sha256": "cbdd95c8d2882b2dacf90cea9e0070fda0c758afffdb8feea63c3658b5d4f34b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/CANONICAL_REDUCTION_SYNTHESIS.md",
+      "bytes": 11443,
+      "sha256": "04557bb129faa4ae6dc4952c5ccdf1ba933c2ac56801acf02f436879bf628f71"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/DEPENDENCY_NOTES.md",
+      "bytes": 10411,
+      "sha256": "a73c6398f65c26c78fff01d4faa89d5dcb11badfde2d100a2f1192ec6a8ca93e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HANDOFF.md",
+      "bytes": 3142,
+      "sha256": "295187784883499e9cba9bca3930934b1b4f312e33ec335a4c4debf8de3a2b9f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HOOK_INCIDENCE.md",
+      "bytes": 18572,
+      "sha256": "815b5b8e2b8893fc6dc0742451a55eccf185b193532c5119be3e3d87a35dd900"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/SOURCE_DEPENDENCIES.json",
+      "bytes": 117410,
+      "sha256": "6011a27534d06de1d3db23a33a1d983cddfcf2cd524dcd76b0875e9d80854358"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/SOURCE_IDENTITIES.json",
+      "bytes": 18906,
+      "sha256": "54a7080f3eddac716240d62abcf7ee531fd327ad10ab266c25b9ced2c9620853"
+    }
+  ],
+  "namespace": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "CANONICAL_FACE_COMPARISON.md",
+    "CANONICAL_REDUCTION_SYNTHESIS.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "HOOK_INCIDENCE.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "namespace_count": 10,
+  "payload_count": 9,
+  "dependency_count": 129,
+  "conclusion": "Complete marked singleton-hook incidence and negative objective columns prove exact target residual-capacity saturation. Full primary elimination and original full-vector canonical tie-break retained. The weighted comparison at the reduced canonical face remains open.",
+  "new_analytic_claims": [
+    "Exactly two terminal-(5,1) components indexed by root bit, each with one C5 singleton hub and eight Q=(4,1) long-arm marked neighbors; no further marked subdivision.",
+    "Complete two-role incidence: per component32 canonical marked rows,80 raw marked natural rows and64 directed raw diamond occurrences, with one target ideal per row and no row containing both target coordinates.",
+    "Complete transported Q eight-proper-ideal potential table and C5 five-proper-ideal cap; only Q15/17/19 and C5root neutral, with canonical-only zero simplification.",
+    "Exact history-weighted target objective columns -w_i<0, with w_i=4 B_i(1) times total history mass of all16 incident C5 markings.",
+    "At the fixed canonical point each target coefficient equals its least normalized residual row capacity; delta_kappa=(35/36)(L0-L1). Zero coefficients and tied caps retained.",
+    "Exact projection and elimination of both target coordinates from the full primary optimization, preserving all remaining coordinates and all row caps.",
+    "Canonical lexicographic minimization must use the reconstructed full vector at original indices; lexicographic order of the remaining coordinates alone is not equivalent.",
+    "Incident dual-face relation, including existence of a positive incident dual multiplier even when a target coefficient is zero.",
+    "Exact q residual after substitution of canonical capacity minima, retaining the actual correlated interval and full joint sensitivity budget."
+  ],
+  "remaining_actual_premise": "At the original reconstructed canonical minimizer z_star, prove (35/36)[p0 T0(z_star) k0(x)-p1 T1(z_star) k1(x)]>=b D3-T_core(x) throughout the correlated actual-containing[0,Z], with an adequate separate v/D3 bound and both RI147 joint budgets. T_i are complete residual minima, canonically depending on actual global Q17/Q19 coordinates; no ordering or values have been proved.",
+  "actual_results": {
+    "canonical_coefficient_ordering_decided": false,
+    "adequate_quantitative_contrast_bound_proved": false,
+    "actual_rho_in_delta0_proved": false,
+    "actual_W_C2_C3_signs_decided": false,
+    "full_H30_decided": false
+  },
+  "actual_author_check": {
+    "chunk_id": "ab2142",
+    "exit_code": 0,
+    "dependencies": 129,
+    "selected_bytes": 3898981,
+    "inherited_unchanged_except_role": 108,
+    "administrative_bodies": 35,
+    "historical_refs": 506,
+    "current_refs": 60,
+    "literal_manuscript_reference_occurrences": 8,
+    "fresh_end_rechecks": 137,
+    "current_preseal_files": 8,
+    "scientific_execution": false
+  },
+  "independence": "Main and all three contributors are author-side; peer algebra and metadata checks are not independent acceptance.",
+  "unchanged": {
+    "baseline_seed_amplitude_support": true,
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "shared_constraints": "One T1 recovery with strict bounds and D1 consequence, other eight connected parents, all five Di, same recovered variables and individual ideal multiplicities.",
+    "RET": "paused",
+    "measurement": "separate",
+    "Option_B": "unchanged",
+    "metric_as_record": "Status M unchanged"
+  },
+  "execution": {
+    "scientific_body_decode": false,
+    "actual_coefficient_scale_maximum_seed_H_evaluation": false,
+    "symbolic_numerical_engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "runtime_controller_card_admission": false,
+    "repository_index_Git_mutation": false
+  },
+  "stop": "Stop sealed for nonauthor review and root adjudication. Root owns repository/index/Git/publication and any subsequent assignment. No successor, controller or execution admission."
+}

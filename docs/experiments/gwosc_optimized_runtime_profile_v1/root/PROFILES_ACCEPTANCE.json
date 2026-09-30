@@ -1,0 +1,51 @@
+{
+  "completions": {
+    "profile_normal": {
+      "bytes": 4002,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/output/COMPLETE.json",
+      "sha256": "95a085e9edc4752e1ec9b767d5eb598361805874839c6681de7e4243d3ab0284"
+    },
+    "profile_optimized": {
+      "bytes": 4041,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/COMPLETE.json",
+      "sha256": "6e411e6c20855cb3329293fb8b9233319b993cb56e330c92f7e94973b8dfc9ae"
+    }
+  },
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment",
+  "genuine_outer": {
+    "profile_normal": {
+      "bytes": 1444,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/GENUINE_OUTER.json",
+      "sha256": "e14554ede8b90c95461900988126a018110d71cb774756790f3e4cb96e7c352f"
+    },
+    "profile_optimized": {
+      "bytes": 1456,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_OUTER.json",
+      "sha256": "37ab3cd6162ecd5583da2faa93ca332f8bbab197ac0d37839bf8b87e83cebc28"
+    }
+  },
+  "independent_review": {
+    "bytes": 6593,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+    "sha256": "fab678fdf26173fdd952e2e3aab9fce54fee092d298c8f756c5120cb99d0719f"
+  },
+  "packet": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg",
+  "schema": "ri133-root-preparation-stage-review-v1",
+  "scientific_execution": false,
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  },
+  "stage": "profiles",
+  "status": "ACCEPT_NONSCIENTIFIC_PREPARATION_EVIDENCE"
+}

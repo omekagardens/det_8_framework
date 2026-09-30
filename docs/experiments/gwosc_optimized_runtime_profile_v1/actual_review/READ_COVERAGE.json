@@ -1,0 +1,47 @@
+{
+  "authorship": "No RI141/RI130 observer/RI150 caller or admission authorship; prior RI125 primary/qualifier and RI131 outside target.",
+  "collector_comparison": "Exact prior full-reviewed body except schema literal ri148\u2192ri150.",
+  "fresh_complete_root_sources": [
+    {
+      "bytes": 2837,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/setup_profile.py",
+      "sha256": "779287361dc194d77908888ab01d56590d509ef8b47f834c32c724472be8f069"
+    },
+    {
+      "bytes": 4022,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/admit_profile.py",
+      "sha256": "eae1d70f803a905cb80c1e1f1e36e63155e07130d6c147e1bf90caee3c8a7b7f"
+    }
+  ],
+  "fresh_full_saved_evidence": "Complete optimized ten-field report, all71 modules/213 coordinates, exact CHECKS reconstruction, both prior acceptances and complete source/admission/namespace/monitor/tool/vendor/runtime snapshots; retained normal full reconstruction and raw monitoring; all547 source/history objects opaque.",
+  "fresh_manual_source_spans": {
+    "PROTOCOL.md": [
+      [
+        51,
+        113
+      ]
+    ],
+    "prepare.py": [
+      [
+        179,
+        295
+      ],
+      [
+        425,
+        500
+      ],
+      [
+        562,
+        666
+      ]
+    ]
+  },
+  "new_root_collector": {
+    "bytes": 4602,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/observe_bootstrap.py",
+    "sha256": "d3a7edd5a93a939ff8ff46c36329d96e752c771ee5d3ff13982d2c3a854d24b3"
+  },
+  "prohibited_actions_performed": [],
+  "reused_complete_reading": "Complete unchanged RI141 prepare.py/runtime_metadata.py/PROTOCOL.md and RI130 observer from RI148, authenticated freshly by original pins; complete reviewed supplier/helper reasoning inherited without an execution claim.",
+  "schema": "ri150-independent-source-read-coverage-v1"
+}

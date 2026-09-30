@@ -1,0 +1,85 @@
+{
+  "active_card_or_admission": false,
+  "adaptation_correction": {
+    "chunk_id": "91444b",
+    "corrected_generator": {
+      "bytes": 14410,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/adapt_review.py",
+      "sha256": "5b3317513b07a24cf8b7e13fa3407e166f5345d59abd0a72f3caddf828a3e17d"
+    },
+    "exit_code": 0
+  },
+  "adaptation_failure": {
+    "cause": "Unbounded replacement of source count 504 altered a session-ID substring in memory; assertion prevented output checker creation.",
+    "chunk_id": "a21339",
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/adapt_review.py",
+    "diagnostic": {
+      "bytes": 630,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/ADAPTATION_FAILURE_01.json",
+      "sha256": "1ee9c4c3194ba044a1d67b73014996ff186bc9f5881fcaabebaffb3631ca2524"
+    },
+    "exit_code": 1,
+    "source": {
+      "bytes": 14362,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/adapt_review.before-count-boundary-fix.py",
+      "sha256": "f0282a55ab60729dc69381299c3f2227881dad79aa7fe1057949cb8901b051a8"
+    },
+    "subject_or_review_checker_ran": false
+  },
+  "current_runtime_inventory": false,
+  "failed_actual_review_checks": 0,
+  "failed_administrative_source_adaptations": 1,
+  "findings_writes": [
+    {
+      "chunk_id": "a3a307",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e7536b",
+      "exit_code": 0
+    }
+  ],
+  "origin": "Reviewer-retained actual tool calls and returns; this administrative record is not self-authenticating external authority.",
+  "read_commands": [
+    {
+      "chunk_id": "8cb6d1",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "6b7e31",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "fb0ac7",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7d3639",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "8dec4c",
+      "exit_code": 0
+    }
+  ],
+  "repository_git_index_mutations": false,
+  "schema": "ri150-independent-review-command-record-v1",
+  "subject_execution": false,
+  "successful_review": {
+    "chunk_id": "5d796f",
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/review_saved_optimized.py",
+    "complete_saved_result": {
+      "bytes": 10439610,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/SAVED_OPTIMIZED_CHECKS.json",
+      "sha256": "2459e473732f7c14e6cad62ec02d2977773e895753b644711377f3a431e02b68"
+    },
+    "exit_code": 0,
+    "note": "Same tool first added genuine terminal-details check and precise mode labels before this first administrative checker execution.",
+    "source": {
+      "bytes": 42899,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/review_saved_optimized.py",
+      "sha256": "0762607c2e62664303a3a57cfcbf35725c0496d853e28991aa987fc3935aeccf"
+    },
+    "wall_time_seconds": 0.869914625
+  }
+}

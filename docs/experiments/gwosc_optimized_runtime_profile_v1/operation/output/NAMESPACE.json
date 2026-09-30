@@ -1,0 +1,94 @@
+{
+  "entries": [
+    {
+      "bytes": 1221,
+      "kind": "file",
+      "relative": "ATTEMPT.json",
+      "sha256": "f0a1e37c027d8765d65dce0d2d0a8e1492de23926e0550e218703aacb9e0cd0c"
+    },
+    {
+      "bytes": 81943,
+      "kind": "file",
+      "relative": "CHECKS.json",
+      "sha256": "4af9ee510ab570781962f8600d3538bace616f83474e90d2e5004a12646491fc"
+    },
+    {
+      "bytes": 895,
+      "kind": "file",
+      "relative": "POST.ATTEMPT.json",
+      "sha256": "486e1977fbc41d74c915ed187ff60baf349ebb8aa274e41873fffe8541a6b7d5"
+    },
+    {
+      "bytes": 14424,
+      "kind": "file",
+      "relative": "POST.COMPLETION.json",
+      "sha256": "1083b13b9c416e6284e574f3d74f4e5a47eb2559769310a18a0cd28b404de699"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "POST.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7142026,
+      "kind": "file",
+      "relative": "POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 895,
+      "kind": "file",
+      "relative": "PRE.ATTEMPT.json",
+      "sha256": "486e1977fbc41d74c915ed187ff60baf349ebb8aa274e41873fffe8541a6b7d5"
+    },
+    {
+      "bytes": 14458,
+      "kind": "file",
+      "relative": "PRE.COMPLETION.json",
+      "sha256": "d83c06fa02be79e7e83adac0d63b8fa59dd8885b300acf847cc71bc828ae251d"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "PRE.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7142026,
+      "kind": "file",
+      "relative": "PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 801,
+      "kind": "file",
+      "relative": "PROFILE.ATTEMPT.json",
+      "sha256": "f7d29a7816b40ac011f119cbba35debae7bf432dfd7a94c3df2ba954efef0ed9"
+    },
+    {
+      "bytes": 1812,
+      "kind": "file",
+      "relative": "PROFILE.COMPLETION.json",
+      "sha256": "7a412682602486d01b092e7c22bd64c8276b8b2e38fa8dd50e1d6a4f20712310"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "PROFILE.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 28432,
+      "kind": "file",
+      "relative": "PROFILE.stdout",
+      "sha256": "bf42ade4ad64ae3d752220340a636f3dcf43eb29516308955d8ef2243026b326"
+    }
+  ],
+  "excluded_not_yet_written": [
+    "NAMESPACE.json",
+    "COMPLETE.json"
+  ],
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output",
+  "schema": "ri133-retained-namespace-v1"
+}

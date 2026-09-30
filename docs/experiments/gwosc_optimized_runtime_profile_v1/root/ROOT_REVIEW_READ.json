@@ -1,0 +1,18 @@
+{
+  "findings": [
+    "No blocking discrepancy reported; root actual operation succeeded under unchanged gates",
+    "71modules213coords:111runtime,1main,99sentinels,2absentoptimizedcaches; complete reports intentionally differ",
+    "One actual optimized sample and finalgap retained; no continuous peak or benchmark claim",
+    "One reviewer adaptation failure before checker creation preserved; subject did not retry",
+    "Current104 and retainednormal121rawmonitor samples distinct; complete PREPOST equal samebaseline"
+  ],
+  "narrative": {
+    "bytes": 21514,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/INDEPENDENT_OPTIMIZED_REVIEW.md",
+    "sha256": "6d50374bb80842867fa28b78f699e6e8910d8e6ec5d3fb4b0115a92563ecf333"
+  },
+  "ret_paused": true,
+  "schema": "ri150-root-complete-narrative-read-v1",
+  "scope": "Root inspected exact optimized authentication/acceptance/source ordering and entire independent narrative; own fresh saved/runtime custody check and own diagnostic30cachechanges+2flags. Independent reviewer freshly reconstructed all profile fields, both-mode relation, full225saved samples and all currentinputclosure. No claim root freshly reread entire1490historical source/protocol lines.",
+  "tool": "28a8e7 complete narrative read before final seal; root acceptance must match this exact pin to sealed payload"
+}

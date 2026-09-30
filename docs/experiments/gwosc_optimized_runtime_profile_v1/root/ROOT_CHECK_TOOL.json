@@ -1,0 +1,12 @@
+{
+  "actual_initial": "ed392e session91856",
+  "actual_terminal": "8b8828 exit0",
+  "admission": "80a0b0 exit0",
+  "custody_initial": "4e13bc session62629",
+  "custody_terminal": "c6438e exit0",
+  "reviewer_scope": "Actual complete optimized report, all descriptors and ordered dyld routes; both-mode relation and fresh full baseline/source/vendor/operation custody. No scientific qualification.",
+  "schema": "ri150-root-genuine-check-results-v1",
+  "setup": "d2f402 exit0",
+  "vendor_post": "a1d315 exit0",
+  "vendor_pre": "48324d exit0"
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "ri150-genuine-tool-call-details-v1",
+  "initial_workdir_parameter": "omitted",
+  "actual_default_workdir": "/Volumes/AI_DATA/development/det_8_framework-ret",
+  "initial": {
+    "chunk_id": "ed392e",
+    "session_id": 91856
+  },
+  "terminal_arguments": {
+    "session_id": 91856,
+    "chars": "",
+    "max_output_tokens": 1200,
+    "yield_time_ms": 1000
+  },
+  "terminal_chunk_id": "8b8828",
+  "terminal_exit_code": 0,
+  "existing_receipt_unchanged": true,
+  "rerun": false
+}

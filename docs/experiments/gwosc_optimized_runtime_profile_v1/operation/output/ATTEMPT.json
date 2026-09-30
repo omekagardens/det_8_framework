@@ -1,0 +1,36 @@
+{
+  "admission": {
+    "bytes": 3240,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/OPTIMIZED_ADMISSION.json",
+    "sha256": "827adcbd982b4417fd17e680c529e8f20354420ef4f210487a4776acb9b781dd"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "phase": "profile_optimized",
+  "schema": "ri133-preparation-attempt-v1",
+  "scientific_execution": false,
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  }
+}

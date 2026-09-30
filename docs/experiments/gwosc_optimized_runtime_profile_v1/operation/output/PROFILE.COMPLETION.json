@@ -1,0 +1,56 @@
+{
+  "child_exit_code": 0,
+  "command": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "-I",
+    "-B",
+    "-O",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/profile_observe.source-only.py"
+  ],
+  "elapsed_seconds": 0.041350083000000204,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "final_sample_gap_passed": true,
+  "final_sample_to_reap_gap_seconds": 0.0352078330000003,
+  "first_error": null,
+  "monitor_attempts": [
+    {
+      "elapsed_seconds": 0.006142249999999905,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "  3216\n"
+    }
+  ],
+  "passed": true,
+  "peak_sampled_rss_kib": 3216,
+  "samples": [
+    {
+      "elapsed_seconds": 0.006142249999999905,
+      "gap_seconds": 0.006142249999999905,
+      "rss_kib": 3216
+    }
+  ],
+  "stderr": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PROFILE.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 28432,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PROFILE.stdout",
+    "sha256": "bf42ade4ad64ae3d752220340a636f3dcf43eb29516308955d8ef2243026b326"
+  },
+  "stop_reason": null,
+  "tail_errors": [],
+  "wall_seconds": 30
+}

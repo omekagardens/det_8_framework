@@ -1,35 +1,37 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-147's actual-scale
-bound and RI-148's genuine normal runtime profile are independently reviewed
-and root accepted. Exact evidence is archived in
-`docs/track_b/native_growth_actual_scale_bound_v1/` and
-`docs/experiments/gwosc_normal_runtime_profile_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** RI-149's singleton-hook
+canonical reduction and RI-150's optimized runtime profile with both-mode
+review are independently reviewed and root accepted. Exact evidence is in
+`docs/track_b/native_growth_canonical_hook_reduction_v1/` and
+`docs/experiments/gwosc_optimized_runtime_profile_v1/`.
 
-The native proof derives M5>1, theta<1/144, j_i>71/72 and actual rho<12/95
-from complete individual-parent sums. It preserves the singleton component
-correlation and supplies a stronger conditional weighted envelope. The actual
-C4/C5 coefficient budget, rho membership in the obstruction interval, W/C2/C3
-signs and shared H30 remain open. All fixed P2/P3, Y=1/4 and 31/139/20/42
-obligations remain. QR owns RI-149 in `ri149-singleton-hook-incidence-yfjac93v` for the intrinsic
-singleton-hook incidence and canonical-constraint comparison, following full
-RI-147 adjudication. The RI-143 unchanged-entry controller blocker is retained.
+The native proof gives complete marked incidence and history-weighted
+objective columns, exact residual-capacity saturation and two-coordinate
+elimination. The original full-vector canonical tie-break remains required.
+An additional independently checked consequence of RI-63 makes every canonical
+Q=(4,1) row tight. The actual coefficient ordering, quantitative v/q budget,
+obstruction-interval membership, W/C2/C3 and shared H30 remain open. All fixed
+P2/P3, Y=1/4, 31/139/20/42, shared T1, other eight connected parents and five Di
+obligations remain. QR owns RI-151 in `ri151-canonical-q-equalities-_546ie2h` to use the coupled Q row
+equalities and the other neutral component incidences. RI-143's controller
+blocker is retained; it does not prevent this analytic work.
 
-RI-148 genuinely ran the unchanged RI-141 parent, both metadata children and
-one normal installed-runtime profile. All 71 modules/213 descriptor fields,
-ten ordered loader attempts and 121 raw monitor samples reconcile. Complete
-PRE/POST snapshots equal the accepted RI-146 baseline, covering 9,923 runtime
-files and 258,862,951 bytes. Fresh source/baseline and vendor observations pass.
-All fixed resource limits and trusted supplier/cache/host premises remain.
-This is normal profile acceptance only; no scientific target or data ran.
-Reviewer-only checker failures are preserved and did not trigger a replay.
+RI-150 genuinely completed one optimized profile under unchanged source and
+bounds. All 71 modules/213 descriptor fields, ten ordered loader attempts and
+104 new raw monitor samples reconcile. Thirty cache descriptors differ from
+normal, including two correctly absent optimized cache paths; both complete
+reports remain. PRE/POST snapshots equal the accepted baseline and normal
+snapshots across 9,923 runtime files and 258,862,951 bytes. Both-mode review
+retains source/cache/loader/host and sampled-resource premises. This accepts
+installed-runtime observations only; no scientific target, guard or data ran.
 
-RI-150 is root-owned in `ri150-root-optimized-profile-0ydjxad3` for the separately admitted optimized
-profile in the same environment after fresh preflight. Both-mode independent
-acceptance precedes the separate 65 guards, WHITE/full32 and conventional GWOSC
-reproduction. Calibration and the native forward map remain open. Root owns
-all Git and actual admissions; active successors and unrelated edits are
-excluded. The programme continues; RET alone remains paused.
+RI-152 is root-owned in `ri152-root-guard-qualification-pd116byo` for fresh preflight and a separate
+admission of the 65 guards. Both-mode acceptance is complete; WHITE/full32 and the
+selected conventional GWOSC reproduction remain later gates. Calibration and
+the native forward map remain open. Root owns all Git and actual admissions;
+active successors and unrelated edits are excluded.
+The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -76,7 +78,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-147 actual-scale bound accepted; RI-149 singleton-hook incidence and canonical comparison active. Actual signs and H30 remain open. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-149 canonical reduction and all-Q-tight consequence accepted; RI-151 coupled equality comparison active. Actual signs and H30 remain open. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | Explicitly paused. G2 and calibration obligations remain historical open items; no RET work resumes without the user lifting that pause. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -109,9 +111,9 @@ Active file reservations, updated 30 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task and coordinator reviewers | RI-147 independently adjudicated; QR owns active `ri149-singleton-hook-incidence-yfjac93v/`. Root owns Git/admissions. |
-| Native current-runtime review | Native scientific execution remains separately gated; RI-148 measurement normal profile accepted. Root owns future runtime/qualification/actual admissions. |
-| Measurement source implementation/review | RI-148 normal profile independently accepted; root owns `ri150-root-optimized-profile-0ydjxad3/` for separately admitted optimized profile. |
+| QR task and coordinator reviewers | RI-149 independently adjudicated; QR owns active `ri151-canonical-q-equalities-_546ie2h/`. Root owns Git/admissions. |
+| Native current-runtime review | Native scientific execution remains separately gated; RI-150 measurement both-mode profile review accepted. Root owns future admissions. |
+| Measurement source implementation/review | RI-150 optimized/both-mode review independently accepted; root owns `ri152-root-guard-qualification-pd116byo/` for separately admitted 65 guards. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -191,8 +193,10 @@ Active file reservations, updated 30 September UTC:
 | RI-146 genuine current capture | First production capture independently/root accepted with complete matching snapshots. Next: RI-148 separate normal runtime profile. |
 | RI-147 actual native scale comparison | Actual rho<12/95 and correlated conditional envelope independently/root accepted; actual sign budget remains. Next: RI-149 complete singleton-hook incidence and canonical comparison. |
 | RI-148 normal runtime profile | Genuine normal observation and complete saved review accepted, with unchanged baseline. Next: RI-150 separately admitted optimized profile. |
-| RI-149 singleton-hook canonical comparison | Assigned to QR after RI-147 adjudication. Next: Complete intrinsic incidence, row/objective columns and actual canonical-face comparison. |
-| RI-150 optimized runtime profile | Root reservation after independent normal acceptance. Next: Fresh preflight, same environment, one optimized profile and independent both-mode review. |
+| RI-149 singleton-hook canonical comparison | Exact incidence, canonical elimination and all-Q-tight consequence independently/root accepted; weighted comparison open. Next: RI-151 coupled Q equalities and neighboring neutral components. |
+| RI-150 optimized runtime profile | Genuine optimized report and both-mode review accepted, with unchanged complete baseline. Next: RI-152 fresh preflight and separate 65-guard admission. |
+| RI-151 canonical Q row equalities | Assigned to QR after RI-149 adjudication. Next: Exploit every tight Q row with complete neutral-component coupling and original canonical constraints. |
+| RI-152 runtime guard qualification | Root reservation after both-mode profile acceptance. Next: Fresh source/supplier checks, separate 65-guard card and independent actual review before further qualification. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -8005,3 +8009,19 @@ Parent d3ec316 was independently verified on origin/ret. Only reviewed archives
 and four coordination documents are included; full unrelated identity/inventory
 preservation and new commit/push/remote verification are recorded externally.
 The broader programme and physical validation remain open.
+
+
+**RI-149 canonical hook reduction and RI-150 optimized profile — 30 September 2026 UTC.**
+Independent proof review and root adjudication accept exact marked incidence,
+negative history-weighted columns and canonical coordinate elimination. The
+reviewer all-Q-tight observation is independently traced to RI-63 criticality
+and noncritical zero boundary drift; strict mixed full probabilities remain
+positive. All 129 dependency objects and 506+60 typed references reconcile.
+Optimized genuine ed392e/session91856/terminal8b8828 exited zero; all 71 modules,
+213 descriptor fields and 104 new raw samples are independently reviewed with
+the retained 121 normal samples. Thirty cache descriptors and two mode flags
+change; both whole reports and original administrative failures are retained.
+RI-151 advances native equalities; RI-152 reserves the separate guard stage.
+Parent 357acd9 was independently verified on origin/ret. Scoped archive checks,
+whole unrelated identity/inventory preservation and new commit/push/remote
+verification are recorded externally. Programme and physical claims remain open.

@@ -1,0 +1,59 @@
+{
+  "dependencies": 129,
+  "dependency_bytes": 3898981,
+  "review_preseal_namespace": [
+    "INDEPENDENT_CANONICAL_REVIEW.json",
+    "INDEPENDENT_CANONICAL_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "review_preseal_pins": [
+    {
+      "bytes": 8480,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/INDEPENDENT_CANONICAL_REVIEW.json",
+      "sha256": "7ce0bbd96d2ca52dbc00299bb0cb3d882afb8bb6d54c795eb75d0ef863d1663b"
+    },
+    {
+      "bytes": 23281,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/INDEPENDENT_CANONICAL_REVIEW.md",
+      "sha256": "bb1ac2f0efff3dab374e0e5a2fa042b3b656e9a3742e79fc1c0f0dec1d247d61"
+    },
+    {
+      "bytes": 88788,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/METADATA_CHECK.json",
+      "sha256": "3d419beebcbf71a2679ecdcc7500b66c8e8d2b7b8405f8ca4643ab9818fcd334"
+    },
+    {
+      "bytes": 2837,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/REVIEW_DIAGNOSTICS.json",
+      "sha256": "54fe7e1c19f966a82f1d609123c52d62ebfa999f52d87bc1bd51c3c16cc2de64"
+    },
+    {
+      "bytes": 8020,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/check_metadata.py",
+      "sha256": "f2874ebfd1483f1a9224d7d948e5ab96a0e91597262cdca0fc34f65b9c428de2"
+    }
+  ],
+  "schema": "ri149-independent-final-pin-check-v1",
+  "scientific_execution": false,
+  "source_files": 10,
+  "status": "PASS_ADMINISTRATIVE_RECHECK_NOT_PROOF_BY_HASH",
+  "subject_handoff": {
+    "bytes": 7499,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HANDOFF.json",
+    "sha256": "1471f833445c8ca4ed872737cdd8abf6660daf83d0399937b745cc959dc577cc"
+  },
+  "subject_namespace": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "CANONICAL_FACE_COMPARISON.md",
+    "CANONICAL_REDUCTION_SYNTHESIS.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "HOOK_INCIDENCE.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ]
+}

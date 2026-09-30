@@ -1,0 +1,50 @@
+{
+  "schema": "ri149-singleton-hook-canonical-reduction-result-v1",
+  "status": "AUTHOR_PROOF_COMPLETE_WITH_ACTUAL_REDUCED_CANONICAL_FACE_COMPARISON_OPEN",
+  "method": "Manual fixed-shape graph/mark reasoning and algebra from accepted literal definitions; administrative identity/reference checks only.",
+  "new_results": [
+    "Exactly two terminal-(5,1) components indexed by root bit, each with one C5 singleton hub and eight Q=(4,1) long-arm marked neighbors; no further marked subdivision.",
+    "Complete two-role incidence: per component32 canonical marked rows,80 raw marked natural rows and64 directed raw diamond occurrences, with one target ideal per row and no row containing both target coordinates.",
+    "Complete transported Q eight-proper-ideal potential table and C5 five-proper-ideal cap; only Q15/17/19 and C5root neutral, with canonical-only zero simplification.",
+    "Exact history-weighted target objective columns -w_i<0, with w_i=4 B_i(1) times total history mass of all16 incident C5 markings.",
+    "At the fixed canonical point each target coefficient equals its least normalized residual row capacity; delta_kappa=(35/36)(L0-L1). Zero coefficients and tied caps retained.",
+    "Exact projection and elimination of both target coordinates from the full primary optimization, preserving all remaining coordinates and all row caps.",
+    "Canonical lexicographic minimization must use the reconstructed full vector at original indices; lexicographic order of the remaining coordinates alone is not equivalent.",
+    "Incident dual-face relation, including existence of a positive incident dual multiplier even when a target coefficient is zero.",
+    "Exact q residual after substitution of canonical capacity minima, retaining the actual correlated interval and full joint sensitivity budget."
+  ],
+  "remaining": [
+    "No sign or adequate quantitative bound for L0-L1 proved.",
+    "Actual capacities still depend on the globally constrained canonical coordinates reached by Q17/Q19 and the original primary/lexicographic face.",
+    "The required weighted capacity comparison for q(x)/D3 on actual-containing[0,Z], and separate adequate v/D3 comparison, are unproved.",
+    "Actual rho in delta0, W/C2/C3 signs and full shared H30 remain unresolved.",
+    "No impossibility theorem, freely chosen coefficient countermodel or alternative-primary-vector substitution."
+  ],
+  "unchanged": {
+    "baseline_seed_amplitude_support": true,
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "shared_constraints": "One T1 recovery with strict bounds and D1 consequence, other eight connected parents, all five Di, same recovered variables and individual ideal multiplicities.",
+    "RET": "paused",
+    "measurement": "separate",
+    "Option_B": "unchanged",
+    "metric_as_record": "Status M unchanged"
+  },
+  "execution": {
+    "scientific_body_decode": false,
+    "actual_coefficient_scale_maximum_seed_H_evaluation": false,
+    "symbolic_numerical_engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "runtime_controller_card_admission": false,
+    "repository_index_Git_mutation": false
+  },
+  "acceptance": "Author and author-peer work only; nonauthor proof review and root adjudication required.",
+  "stop": "Sealed analytic proof handoff only; no successor, new executor or operational admission."
+}

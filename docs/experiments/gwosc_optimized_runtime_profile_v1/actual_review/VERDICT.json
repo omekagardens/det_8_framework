@@ -1,0 +1,117 @@
+{
+  "actual_call_details": {
+    "bytes": 491,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_TOOL_CALL_DETAILS.json",
+    "sha256": "5a925fe5c942702a878c577161d699acdd519e0deea1e594ec4dac5f316cf3a7"
+  },
+  "actual_data_admission": false,
+  "actual_profile": {
+    "bytes": 28432,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PROFILE.stdout",
+    "sha256": "bf42ade4ad64ae3d752220340a636f3dcf43eb29516308955d8ef2243026b326"
+  },
+  "actual_tool": {
+    "bytes": 1149,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "26d2fb69783d8ae28830f763346603883fcef1ee59c97de7d75d54edaa9a595a"
+  },
+  "blocking_findings": [],
+  "counts": {
+    "changed_cache_descriptors": 30,
+    "combined_reviewed_samples": 225,
+    "opaque_dependencies": 442,
+    "optimized_absent_cache_fields": 2,
+    "optimized_descriptor_coordinates": 213,
+    "optimized_main_identity": 1,
+    "optimized_modules": 71,
+    "optimized_operation_samples": 104,
+    "optimized_runtime_bindings": 111,
+    "optimized_sentinels": 99,
+    "retained_normal_samples": 121,
+    "runtime_files": 9923,
+    "source_objects": 547,
+    "whole_report_diagnostic_differences": 32
+  },
+  "findings": {
+    "bytes": 21514,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/INDEPENDENT_OPTIMIZED_REVIEW.md",
+    "sha256": "6d50374bb80842867fa28b78f699e6e8910d8e6ec5d3fb4b0115a92563ecf333"
+  },
+  "full32_qualified": false,
+  "full_check": {
+    "bytes": 10439610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/SAVED_OPTIMIZED_CHECKS.json",
+    "sha256": "2459e473732f7c14e6cad62ec02d2977773e895753b644711377f3a431e02b68"
+  },
+  "genuine_outer": {
+    "bytes": 1456,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_OUTER.json",
+    "sha256": "37ab3cd6162ecd5583da2faa93ca332f8bbab197ac0d37839bf8b87e83cebc28"
+  },
+  "guards_executed": false,
+  "mode_relation": {
+    "bytes": 85969,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/BOTH_MODE_RELATION.json",
+    "sha256": "0f7fc92fbf883a3820f4456102db86b9bfb46e6cad0419a3969b05c1fc838b4b"
+  },
+  "next_action": "Root adjudication and profiles acceptance, then a separate prospective65 caller-guard admission with original limits and fresh complete custody.",
+  "normal_acceptance": {
+    "bytes": 1662,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/NORMAL_ACCEPTANCE.json",
+    "sha256": "516e64fbf2f432d3f65872dc2ceb7ebd3a21f88303139f5598946494d9ec68af"
+  },
+  "normal_root_adjudication": {
+    "bytes": 4967,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/RI148_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "8f76c91ef005b305f796dcfd42dd491d3147a903d087f6914eb9fc8367e96074"
+  },
+  "parent_completion": {
+    "bytes": 4041,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/COMPLETE.json",
+    "sha256": "6e411e6c20855cb3329293fb8b9233319b993cb56e330c92f7e94973b8dfc9ae"
+  },
+  "profiles_acceptance_created": false,
+  "reconstruction": {
+    "bytes": 77699,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/RECONSTRUCTED_PROFILE_CHECK.json",
+    "sha256": "4752c15d10fbe2967e3042f63765db47ac138331cc578935b3616bebca9f1625"
+  },
+  "remaining_premises": [
+    "Root genuine-tool origin is external; recorded local JSON cannot authenticate itself.",
+    "Vendor/bootstrap/Apple loader/shared cache and stable host/supplier remain trusted; no full import trace or source/cache/frozen-code equivalence.",
+    "Child RSS/gap/output evidence is sampled; parent PID is not child authentication; no-descendant premise and no hard aggregate quota.",
+    "Runtime/vendor were reviewed through complete saved genuine observations, not freshly recaptured by this reviewer."
+  ],
+  "resource_interpretation": {
+    "claimed_benchmark": false,
+    "peak_is_sampled_not_continuous": true,
+    "profile_elapsed_seconds": 0.041350083000000204,
+    "profile_final_gap_seconds": 0.0352078330000003,
+    "profile_samples": 1,
+    "unchanged_thresholds": true
+  },
+  "ret_paused": true,
+  "root_adjudication_required": true,
+  "schema": "ri150-independent-actual-optimized-profile-verdict-v1",
+  "scientific_qualification": false,
+  "scope": "One actual optimized installed-runtime observation and exact prescribed relation to accepted normal; genuine completion remains distinct from root acceptance.",
+  "source_adjudication": {
+    "bytes": 3661,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILE_SOURCE_ADJUDICATION.json",
+    "sha256": "4bd13269417fa03335ce7a47941d0b01939093fc91e5d495ec72288c2605e499"
+  },
+  "status": "ACCEPT_BOUNDED_OPTIMIZED_AND_BOTH_MODE_PROFILE_EVIDENCE",
+  "summary": {
+    "bytes": 6523,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/SAVED_CHECK_SUMMARY.json",
+    "sha256": "653b8ddd74cf54f95ff938318732366c11d671b1aaaafd450a1734cdb29df847"
+  },
+  "timing": {
+    "child_timers_include_startup_and_authentication": true,
+    "complete_write_and_return_covered_by_genuine_outer": true,
+    "outer_fields": 8,
+    "parent_completion_fields": 17,
+    "parent_preownership_authentication_outside_internal_timer": true,
+    "parent_saved_elapsed_after_namespace_before_final_complete_write": true
+  }
+}

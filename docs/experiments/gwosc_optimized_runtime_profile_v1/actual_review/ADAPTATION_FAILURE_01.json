@@ -1,0 +1,9 @@
+{
+  "cause": "Authoring-time global count replacement also altered a historical session-ID substring in memory; assertion prevented output checker creation.",
+  "chunk_id": "a21339",
+  "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/adapt_review.py",
+  "error": "AssertionError: \"'24c0ff',wall_time_seconds=1.002777792,session_id=50493\"",
+  "exit_code": 1,
+  "source_preserved": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/adapt_review.before-count-boundary-fix.py",
+  "subject_or_checker_executed": false
+}

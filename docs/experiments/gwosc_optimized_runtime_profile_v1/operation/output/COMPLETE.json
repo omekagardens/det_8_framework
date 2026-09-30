@@ -1,0 +1,95 @@
+{
+  "actual_data_admitted": false,
+  "admission": {
+    "bytes": 3240,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/OPTIMIZED_ADMISSION.json",
+    "sha256": "827adcbd982b4417fd17e680c529e8f20354420ef4f210487a4776acb9b781dd"
+  },
+  "artifacts": {
+    "POST": {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    "POST_completion": {
+      "bytes": 14424,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/POST.COMPLETION.json",
+      "sha256": "1083b13b9c416e6284e574f3d74f4e5a47eb2559769310a18a0cd28b404de699"
+    },
+    "PRE": {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    "PRE_completion": {
+      "bytes": 14458,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PRE.COMPLETION.json",
+      "sha256": "d83c06fa02be79e7e83adac0d63b8fa59dd8885b300acf847cc71bc828ae251d"
+    },
+    "PROFILE": {
+      "bytes": 28432,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PROFILE.stdout",
+      "sha256": "bf42ade4ad64ae3d752220340a636f3dcf43eb29516308955d8ef2243026b326"
+    },
+    "PROFILE_completion": {
+      "bytes": 1812,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PROFILE.COMPLETION.json",
+      "sha256": "7a412682602486d01b092e7c22bd64c8276b8b2e38fa8dd50e1d6a4f20712310"
+    },
+    "checks": {
+      "bytes": 81943,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/CHECKS.json",
+      "sha256": "4af9ee510ab570781962f8600d3538bace616f83474e90d2e5004a12646491fc"
+    },
+    "namespace": {
+      "bytes": 2714,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/NAMESPACE.json",
+      "sha256": "da05a5811ec80c801468c4e7d8f285890c87fb0b11f67fa8b6c27bfb7c3c5bfc"
+    }
+  },
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/OPTIMIZED_ADMISSION.json"
+  ],
+  "elapsed_seconds": 5.995889042,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "first_error": null,
+  "full32_qualified": false,
+  "genuine_outer_created": false,
+  "independent_tail_errors": [],
+  "phase": "profile_optimized",
+  "ret_paused": true,
+  "runtime_acceptance_created": false,
+  "schema": "ri133-preparation-completion-v1",
+  "scientific_targets_executed": false,
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  },
+  "status": "CAPTURED_FOR_INDEPENDENT_REVIEW"
+}
