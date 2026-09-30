@@ -1,0 +1,26 @@
+{
+  "RET_remains_paused": true,
+  "controls_defined": 84,
+  "controls_executed": 0,
+  "owner": "/root/archive_repro_review",
+  "predecessor": {
+    "bytes": 4544,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/RI156_ROOT_ADJUDICATION.json",
+    "sha256": "b83be131484c2c530072d39a4b1d868ea6a866b8d77547ea6c3c2d6ced550768"
+  },
+  "requirements": [
+    "Independently trace F01/F02 repair in complete changed adapter.py and mode_verify.py and all29 integration controls; check genuine reachable positive/negative paths, exact first-refusal traces and simultaneous failure semantics.",
+    "Verify nine unchanged original module bodies including complete55 and all525 dependencies/27file source seal. Review full revised contracts, source schema/inventory and administrative diagnostics.",
+    "Check every source observation is bound to authenticated pins before ownership; all produced ordinary/action output bytes reconcile in final tails; saved-mode root equals previously verified post state. Preserve independent eligible tails and honest partial expected-output availability.",
+    "Do not accept new gaps introduced by factoring authentication/runner boundaries or by inert integration doubles. Keep genuine-origin, bootstrap/current-environment and complete independent saved arithmetic separate.",
+    "Source/manual review and bounded opaque administrative hashing only. No subject/control import,compile,AST,probe/run,scientific decode,runtime/cards/freeze/admission,Git or new agent spawning.",
+    "Disclose prior authorship and seal exact independent verdict, findings and actual administrative records. Root adjudicates before qualification."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju",
+  "schema": "ri158-independent-repair-review-assignment-v1",
+  "subject": {
+    "bytes": 12934,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/HANDOFF.json",
+    "sha256": "69638eb05897dc2e72c4a29f84d27593dff5e83b98e102c1efccc67f9ded4fa2"
+  }
+}

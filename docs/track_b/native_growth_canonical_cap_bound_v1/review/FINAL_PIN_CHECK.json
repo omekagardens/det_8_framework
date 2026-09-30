@@ -1,0 +1,82 @@
+{
+  "assignment": {
+    "bytes": 1764,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/NATIVE_REVIEW_ASSIGNMENT.json",
+    "sha256": "8a007487ce1abb1c57a41cdc222327a8bf2e31ce4107dad8e85c22a7d55d2269"
+  },
+  "fresh_full_source_state_equal": true,
+  "historical_state_compared_to_current": false,
+  "reviewer_preseal_payloads": [
+    {
+      "bytes": 3867,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/ACTUAL_CHECKS.json",
+      "sha256": "98b31e80797c181eca9a733e34a344a0b27a03382b427ca70e7753666ecb1c62"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 515,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/CHECK.stdout",
+      "sha256": "6c28e6a38556ad0708dc392faad7ca3d87e1eaa7e43d1c987ddafc7f8f7af62b"
+    },
+    {
+      "bytes": 18574,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/INDEPENDENT_PROOF_REVIEW.md",
+      "sha256": "0cee852db8a9513e8480c4abcd0e9cdb2edbc4431274ba2d29b77a97c147050a"
+    },
+    {
+      "bytes": 3070932,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/METADATA_CHECK.json",
+      "sha256": "c342bdd15842ed987200f645ea9551a9b75fd077b4d9039708fd1695472c34c1"
+    },
+    {
+      "bytes": 3700,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/VERDICT.json",
+      "sha256": "9722fab91c20b8653435b74e2665bc8b5e92cb093506b192361df4f74f7ef5b9"
+    },
+    {
+      "bytes": 13326,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/check_metadata.py",
+      "sha256": "28a94915df18320ef1ce5ace56b09acc660e9c9299d5a7c3fdd82bad86dbd01e"
+    },
+    {
+      "bytes": 5133,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/seal_review.py",
+      "sha256": "458c07a1977e2e77939ef2b38358b41551a0c6e55278e9d65dc539c5905e8ac2"
+    }
+  ],
+  "schema": "ri157-independent-final-pin-check-v1",
+  "source_count": 234,
+  "source_observations": {
+    "bytes": 3070932,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/METADATA_CHECK.json",
+    "sha256": "c342bdd15842ed987200f645ea9551a9b75fd077b4d9039708fd1695472c34c1"
+  },
+  "status": "MATCH_NO_SCIENTIFIC_EXECUTION",
+  "subject": {
+    "bytes": 10114,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/HANDOFF.json",
+    "sha256": "968e3c853ce107aceff080126b8ca22f8ba846bbba914ff0b13a32360c660b8c"
+  },
+  "subject_namespace": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "CANONICAL_CAP_BOUND.md",
+    "CORRELATED_CAPACITY_SYNTHESIS.md",
+    "CORRELATED_CONTRAST_BOUND.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "subject_payload_count": 9,
+  "trusted_helper": {
+    "bytes": 3144,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+    "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+  }
+}

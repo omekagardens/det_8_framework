@@ -1,43 +1,52 @@
-# Current QR coordination — RI-157 independent cap proof review
+# Current QR coordination — RI-159 final-witness grid audit preparation
 
-**Current checkpoint — 30 September 2026 UTC.** RI-156's measurement adapter
-requires two independently reviewed and root-confirmed custody repairs before
-source acceptance or qualification. Exact review, root disposition and repair
-assignment are in `docs/experiments/gwosc_white_adapter_repair_review_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** RI-157's native canonical-cap
+and signed-contrast proof is independently reviewed and root accepted. Exact
+source, independent review and root adjudication are published together in
+`docs/track_b/native_growth_canonical_cap_bound_v1/`.
 
-F01 binds the post-authentication source baseline to the accepted source pins.
-F02 reconciles final owned outputs with their captured identities and the final
-saved-mode root with its verified post observation. Existing source records can
-currently describe observed drift without refusing it. These findings are source
-traces; no control or scientific target was executed. All 55 existing controls
-remain unexecuted. The sealed RI-156 implementation and failed evidence remain
-immutable and external, with exact dependencies bound by the published review.
+For both orientations, F_i<35743/12100<71/24<E_i, so the retained
+Mcap=max(E0,E1) and Z=R. This does not identify global M6 or actual rho.
+The proof also gives 0<v<1147/9092160; a strict capacity pass would require
+lambda<1147/15370080<1/13000 and Dminus>213d7 (component factor8733).
+Actual capacity, the marked comparison, adequate q/v budget, W/C2/C3 and shared
+H30 remain open. P2/P3, numerical Y=1/4,31 focused/139 policy/20native/42audit
+deeper obligations, strict endpoints, multiplicities, other eight parents,
+five Di and shared T1 remain unchanged. No coefficient or scientific body ran.
 
-The existing measurement author owns RI-158 in
-`ri158-white-custody-repair-68cdvzn6/`, under the review bundle's
-`root/MEASUREMENT_REPAIR_ASSIGNMENT.json`. Narrow repairs and meaningful inert
-integration controls precede fresh nonauthor review and separate qualification.
-Preserve first errors, independent eligible tails, partial outputs, all bounds,
-15 WHITE cases, both 179-control sets, 57 artifacts, 74 postchecks and three trees.
-R01 applicability, genuine new-environment capture/profiles, actual modes and
-separate saved arithmetic remain gates. Full32/periodic/mean/join and selected
-conventional public GWOSC reproduction remain distinct later obligations.
+Root replay025829 exit0 matches all15,407 independent administrative predicates,
+223 dependencies and234 current whole identities; final adjudicationd83b8e
+exit0 rechecks source/review custody. Mathematical acceptance comes from the
+complete independent and root manual proof reviews, not those metadata checks.
+Full diagnostics and original handoff namespaces remain externally pinned.
 
-RI-155's YE<1/25 proof and exact strict-capacity reduction are published in
-verified `114d05d`; follow-up coordination is verified in `75be938`. RI-157 is
-sealed and assigned fresh nonauthor proof review in
-`ri157-independent-cap-review-wt1tl1ip/`. Its proposed actual cap identification
-Z=R and sharper contrast bounds remain unadjudicated. Root has completed a
-preliminary manual reading and will adjudicate the full independent review
-before assigning the next native step. Actual v>B, adequate q/v budget, W/C2/C3
-and shared H30 remain open. A final-witness coefficient grid remains unproved;
-discovery rounding supplies no premise. Original P2/P3, numerical Y=1/4,
-31/139/20/42 obligations, strict endpoints, marked multiplicities, shared T1,
-other eight parents and five Di remain.
+The existing Quantum Relativity chat owns RI-159 in
+`ri159-final-witness-grid-source-47ofu03n/`, assigned after RI-157 acceptance.
+Its source-only question is the exact1/1000 grid of the complete unchanged
+final109-component RI41 witness, including default and every override. Prepare
+the minimal exact checker, independently structured saved auditor and meaningful
+inert qualification cases. Discovery rounding is no accepted grid premise.
+Fresh source/control review and a bounded actual admission precede certificate
+body reading; no global enumeration, coefficient evaluation or runtime is assigned.
+The precise assignment is the native archive's `root/NATIVE_SUCCESSOR_ASSIGNMENT.json`.
 
-Root owns adjudication, admissions and Git. Active successor files and unrelated
-edits are excluded. Calibration, native forward maps and physical claims remain
-open. The programme continues; RET alone remains paused.
+RI-156's F01/F02 custody findings and repair assignment are published in remotely
+verified `886eb8b`; source acceptance and qualification are still withheld.
+RI-158 is now sealed in `ri158-white-custody-repair-68cdvzn6/` with changed
+adapter/mode verifier, nine unchanged original module bodies and29 new integrated
+control definitions:84 defined,zero executed. Fresh nonauthor review owns
+`ri158-independent-repair-review-nxij3eju/` under the native archive's
+`root/MEASUREMENT_REVIEW_ASSIGNMENT.json`. Full review and root adjudication
+precede source acceptance or qualification. Active source is excluded here.
+Preserve first errors, independent tails, partial outputs, all bounds,15 WHITE
+cases,both179-control sets,57 artifacts,74 postchecks and three trees. R01 path
+applicability, actual new-environment capture/profiles, genuine modes, independent
+custody and separate saved arithmetic remain gates. Full32/periodic/mean/join
+and conventional reproduction on selected public GWOSC data remain distinct.
+
+Root owns all adjudication, admissions and Git. Preserve original reviews,
+historical failed evidence and unrelated edits. Calibration, native forward maps
+and physical claims remain open. The programme continues; RET alone remains paused.
 
 **RI-129 retained assignment scope (completed and source-adjudicated).**
 RI-129 followed the completed RI-128 root adjudication, not an unreviewed author
