@@ -1,0 +1,65 @@
+{
+  "RET": "paused",
+  "actual_admin_tool": {
+    "chunk_id": "5b8398",
+    "exit_code": 0
+  },
+  "actual_tool_result": {
+    "bytes": 1321,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/ADMIN_TOOL_RESULT.json",
+    "sha256": "ae1ae5701bfe704c02e8513db98c93d08db440b1900e39f37b7edaeba2532dac"
+  },
+  "administrative_check": {
+    "bytes": 1050142,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/METADATA_CHECK.json",
+    "sha256": "78c4aa7d92e2353c44a2c1c3e054dea0c41ccf8a096d64aab652ac051481ce6a"
+  },
+  "all_proposed_paths_still_absent": true,
+  "all_whole_byte_pins_and_selection_routes_still_exact": true,
+  "assignment": {
+    "bytes": 1693,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "7d1aecb0b5a7d94adabac54a6f7f4f5178027da4a60a7574ab5a5ee841661415"
+  },
+  "checker": {
+    "bytes": 14709,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/check_preflight.py",
+    "sha256": "69b2aa5dcf9f83403960396bee5dd53e688fad24d31f48220cec11396c0e36fc"
+  },
+  "controls_executed": 0,
+  "diagnostics": {
+    "bytes": 4091,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/REVIEWER_DIAGNOSTICS.json",
+    "sha256": "40e2f61b2fe6c435313d10b8ec398b8ddc565380bc53feaeb895e671c28c1dbc"
+  },
+  "narrative": {
+    "bytes": 13211,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "af8f6772e4ba423a48f561d7eec733fc0d541c1d663d43a3693a337ee2df7634"
+  },
+  "operational_admission": false,
+  "publication": {
+    "bytes": 929,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/PUBLICATION_SUBSET.json",
+    "sha256": "3390dee43bfa87e94867f1bbedbc1d4ee34f87104a6098a611bc27c0a6930425"
+  },
+  "rechecked_unique_opaque_identities": 642,
+  "schema": "ri162-independent-final-seal-check-v1",
+  "seal_source": {
+    "bytes": 11773,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/seal_review.py",
+    "sha256": "e13514fbe0951ab6ea8d474f7fba780588f913cfd7001fe2ccfc0312cf6fe7be"
+  },
+  "subject_handoff": {
+    "bytes": 8931,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/HANDOFF.json",
+    "sha256": "97b16e9424e415dc03d3ff654785ea3bfb691964dbfa7c4c1e1a26db3e1207bf"
+  },
+  "subject_namespace_exact": true,
+  "subject_payloads": 12,
+  "verdict": {
+    "bytes": 4488,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/VERDICT.json",
+    "sha256": "f444e08d3395439d9937d9ccc96e4b6dc8b5ce3e2d20ec21b7e2cbbf268f7920"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "external_only": [
+    {
+      "bytes": 1050142,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/METADATA_CHECK.json",
+      "sha256": "78c4aa7d92e2353c44a2c1c3e054dea0c41ccf8a096d64aab652ac051481ce6a"
+    }
+  ],
+  "include_names": [
+    "ADMIN_TOOL_RESULT.json",
+    "FINAL_SEAL_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "PUBLICATION_SUBSET.json",
+    "REVIEWER_DIAGNOSTICS.json",
+    "VERDICT.json",
+    "check_preflight.py",
+    "seal_review.py"
+  ],
+  "older_subject_failures": "Remain immutable in subject seal; this review pins their exact declarations and stderr.",
+  "reason": "Preserve the complete1,050,142-byte identity/predicate diagnostic immutable externally; publish compact actual tool result, reproducible checker, full narrative/verdict and exact reference.",
+  "schema": "ri162-independent-publication-subset-v1"
+}

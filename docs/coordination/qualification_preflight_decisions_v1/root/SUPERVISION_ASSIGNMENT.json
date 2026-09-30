@@ -1,0 +1,40 @@
+{
+  "RET": "paused",
+  "accepted_caller": {
+    "bytes": 41969,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+    "sha256": "9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721"
+  },
+  "deliverables": [
+    "Prefer a minimal fixed command or narrow supervisor source using already installed system primitives; no install or generic framework. Preserve accepted five sources, request and control families.",
+    "Specify exact environment/working directory/ownership, exclusive durable8MiB streams, genuine external completion and timeout/partial paths, process identification and separately sessioned descendant handling. No inherited active timer may enter the caller. Do not infer cleanup from a signal sent.",
+    "Use source-only reasoning and read-only fixed-system tool/source inspection. Explicitly list any small supervisor-only qualification necessary before real use, without constructing or executing fixtures now.",
+    "Address resource bounds and kernel/hard-abort limitations without weakening acceptance. Record concrete remaining action rather than adding recursive launcher layers.",
+    "Seal exact minimal proposal/source with actual metadata checks. Root arranges fresh independent review and any bounded supervisor-only checks separately."
+  ],
+  "facts": [
+    "Selected gtimeout and three bounded alternatives absent; /usr/bin/perl exists. Historical Perl alarm then exec conflicts with caller entry ITIMER_REAL==0.",
+    "Existing RI141 child_run assumes no descendants and64MiB sampled output; do not treat it as unchanged applicable native supervision. Native caller creates two separate child sessions.",
+    "RI161 internal300s caller/120s child with2s cleanup/512MiB address space/110CPU/core0/8MiB internal stream limits remain unchanged; outer proposal315s and8MiB per stream stay bounded."
+  ],
+  "forbidden": [
+    "No vendor/caller/target/control import,compile,AST,probe or execution; no fixtures or actual admission/output.",
+    "No scientific body decode,threshold weakening,source packet changes,new agents,repo/index/Git.",
+    "RI164 owns native supplier closure; do not duplicate that work."
+  ],
+  "objective": "Supply the smallest concrete external dispatch/supervision step for unchanged RI161 native caller: separate timer, bounded durable outer streams and honest owned-descendant cleanup; no qualification harness redesign.",
+  "owner": "/root/ri116_complete_caller_review",
+  "predecessor": {
+    "bytes": 2324,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/RI163_ROOT_ADJUDICATION.json",
+    "sha256": "746b96126bcd2d0d74514d635d97f6b45072547a9d2a77bc0d61cf4780f8a340"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v",
+  "schema": "ri165-native-external-supervision-assignment-v1",
+  "source": {
+    "bytes": 13272,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/HANDOFF.json",
+    "sha256": "ea9df2610f7969b626608866e10f78e597ea00d75e74f539148d86b970e18347"
+  },
+  "status": "ASSIGNED_AFTER_RI163_CONFIRMED_RT01"
+}

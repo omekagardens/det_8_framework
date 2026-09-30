@@ -1,0 +1,35 @@
+{
+  "RET": "paused",
+  "administrative_replay": {
+    "bytes": 911,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/MEASUREMENT_METADATA_REPLAY.json",
+    "sha256": "752a53a000429dc268669b5844fbf50aa89b4fee069d1d53405e421d89cd56eb"
+  },
+  "blocking_source_findings": [],
+  "controls_defined": 106,
+  "controls_executed": 0,
+  "independent_review": {
+    "bytes": 6718,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/HANDOFF.json",
+    "sha256": "77429dfed8cc872057cb11a1f783cfa027c1c351ea94ab65bcf5453ceacde240"
+  },
+  "operational_admission": false,
+  "remaining_prerequisites": [
+    "Root adoption, fresh complete supplier/framework/host/environment/source/card preflight and explicit stable loader/cache/no-descendants premises",
+    "Exclusive actual setup, real current preflight FilePin and separately recorded admission/dispatch",
+    "One actual bounded invocation and actual initial/pending/terminal tool records with independently reviewed streams,ps attempts,samples,reap and partials",
+    "Independent full106 outcomes and complete source/card/supplier/environment/namespace postchecks, even after failure"
+  ],
+  "root_manual": {
+    "bytes": 5619,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/ROOT_MANUAL_REVIEW.md",
+    "sha256": "f9473b54fad61aac2b4ecd74006a0198bfcf6a5dd4596dd0e59747a650aea0d4"
+  },
+  "schema": "ri162-root-command-proposal-adjudication-v1",
+  "status": "ACCEPT_EXACT_PREFLIGHT_PROPOSAL_FOR_GENUINE_PREFLIGHT_AND_SEPARATE_INERT106_ADMISSION",
+  "subject": {
+    "bytes": 8931,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/HANDOFF.json",
+    "sha256": "97b16e9424e415dc03d3ff654785ea3bfb691964dbfa7c4c1e1a26db3e1207bf"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "chunk_id": "5b8398",
+  "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/check_preflight.py",
+  "exit_code": 0,
+  "preceding_same_cell_edit": "Before the first checker invocation, replaced JSON-incompatible set comparison with sorted lists. This was checker authoring only; no prior failed check existed.",
+  "provenance": "Transcribed from actual tool delivery to this reviewer. Does not self-authenticate tool origin or create operational evidence.",
+  "schema": "ri162-independent-genuine-administrative-tool-result-v1",
+  "stderr": "",
+  "stdout_object": {
+    "all_paths_absent": true,
+    "controls_executed": 0,
+    "current_selected_binding_exact": true,
+    "current_selected_files": 6,
+    "eight_unchanged_spans": 8,
+    "predicates": 3224,
+    "result": {
+      "bytes": 1050142,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/METADATA_CHECK.json",
+      "sha256": "78c4aa7d92e2353c44a2c1c3e054dea0c41ccf8a096d64aab652ac051481ce6a"
+    },
+    "source_dependencies": 567,
+    "source_evidence_bytes": 33796686,
+    "source_evidence_count": 623,
+    "status": "ALL_FINITE_ADMINISTRATIVE_CHECKS_PASSED",
+    "unique_observed_identities": 642
+  },
+  "subject_executed": false
+}

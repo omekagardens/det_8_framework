@@ -1,0 +1,119 @@
+{
+  "RET": "paused",
+  "actual_own_failed_commands": [],
+  "actual_read_tools": [
+    {
+      "chunk_id": "1b45df",
+      "exit_code": 0,
+      "scope": "assignment and authenticated subject seal/13 namespace/12payloads"
+    },
+    {
+      "chunk_id": "1b28e4",
+      "exit_code": 0,
+      "scope": "complete preflight contract and literal invocation"
+    },
+    {
+      "chunk_id": "6862aa",
+      "exit_code": 0,
+      "scope": "complete proposal and fixed current facts"
+    },
+    {
+      "chunk_id": "ac89bf",
+      "exit_code": 0,
+      "scope": "complete proposal/facts author scripts, diagnostics and retained exact failed-read stderr"
+    },
+    {
+      "chunk_id": "c7a734",
+      "exit_code": 0,
+      "scope": "complete sealing source/final/publication and selecting root assignments/adjudications"
+    },
+    {
+      "chunk_id": "87c247",
+      "exit_code": 0,
+      "scope": "monitor imports/constants/helpers and source lines1\u2013360"
+    },
+    {
+      "chunk_id": "ca4eae",
+      "exit_code": 0,
+      "scope": "complete monitor327\u2013404 completion path and full adapter1\u2013289; unrelated adjacent source text only"
+    },
+    {
+      "chunk_id": "ad155b",
+      "exit_code": 0,
+      "scope": "monitor guarded entry, full contract and proposal writer"
+    },
+    {
+      "chunk_id": "98e8c4",
+      "exit_code": 0,
+      "scope": "trusted administrative helper, review assignment and full fixed-fact record"
+    },
+    {
+      "chunk_id": "d3624a",
+      "exit_code": 0,
+      "scope": "source ID/runner references, final-fixture consequence text, all17 literal lines and author actual diagnostics"
+    },
+    {
+      "chunk_id": "513c17",
+      "exit_code": 0,
+      "scope": "complete combined/integration/inert runner interfaces and full current facts observer script"
+    }
+  ],
+  "administrative_check": {
+    "bytes": 1321,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/ADMIN_TOOL_RESULT.json",
+    "sha256": "ae1ae5701bfe704c02e8513db98c93d08db440b1900e39f37b7edaeba2532dac"
+  },
+  "author_diagnostics": {
+    "bytes": 2227,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/ACTUAL_READ_ONLY_DIAGNOSTICS.json",
+    "sha256": "7201c709ad45701b1cba70f62a0d3544c106d2fa62de358ec73ff228773131b9"
+  },
+  "author_preserved_clipped_read": {
+    "chunk_id": "163082",
+    "exit_code": 0,
+    "recovered_relevant_eight_entries": "d2a510"
+  },
+  "author_preserved_failed_commands": [
+    {
+      "chunk_id": "de440f",
+      "declared_recoveries": [
+        "791097",
+        "916f14"
+      ],
+      "exit_code": 2,
+      "reason": "Incorrect RI139 launch.py filename; correct launch_controls.source-only.py recovered. No subject execution.",
+      "stderr": {
+        "bytes": 150,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/READ_DIAGNOSTIC.stderr",
+        "sha256": "a03568c5715370791bfa71e1f7e1ed372c00f1357d23fb08cd7fe2325bcc68c8"
+      }
+    }
+  ],
+  "authoring_correction_before_first_run": "Sorted-list metadata comparison substituted for Python set before first check execution, in cell5b8398; no discarded failure or target execution.",
+  "only_writable_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw",
+  "own_actual_executed_selected_OS_utility": {
+    "command": [
+      "/usr/bin/sw_vers"
+    ],
+    "returncode": 0,
+    "scope": "read-only permitted host OS facts; selected vendor never invoked",
+    "stderr": ""
+  },
+  "own_clipped_displays": [],
+  "own_write_tools_before_seal": [
+    {
+      "chunk_id": "c0d090",
+      "exit_code": 0,
+      "scope": "wrote independent admin checker"
+    },
+    {
+      "chunk_id": "a8b890",
+      "exit_code": 0,
+      "scope": "wrote narrative"
+    }
+  ],
+  "schema": "ri162-independent-reviewer-diagnostics-v1",
+  "scientific_decode": false,
+  "seal_tool_result": "Delivered separately after seal; not fabricated in this pre-result document.",
+  "source_only": true
+}

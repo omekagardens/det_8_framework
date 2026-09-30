@@ -1,0 +1,49 @@
+{
+  "actual_check": {
+    "chunk_id": "4a4dfc",
+    "exit_code": 0
+  },
+  "command_pin": {
+    "bytes": 547,
+    "sha256": "23c91a3409ce4b6b8da18055749dd302f57758ad14dc38150e610c8f83cb98b6"
+  },
+  "controls_executed": 0,
+  "dependencies": 307,
+  "environment_pin": {
+    "bytes": 48,
+    "sha256": "37325ce8957b1b42f6a7d58f743fbc01b44df615bae14df36e74becf4dd19625"
+  },
+  "full_report": {
+    "bytes": 1443183,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/NATIVE_METADATA_CHECK.json",
+    "sha256": "e9400ffb11b976fe80070a87fe5d4fe3e2feb86adb3fea9beeb868ee3bb9a757"
+  },
+  "inherited_rows": 280,
+  "operational_admission": false,
+  "payloads": 10,
+  "proposed_path_absences": {
+    "admission": true,
+    "outer_completion": true,
+    "outer_stderr": true,
+    "outer_stdout": true,
+    "output_directory": true,
+    "request": true
+  },
+  "request_bytes": {
+    "bytes": 2304,
+    "sha256": "bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749"
+  },
+  "schema": "ri163-root-finite-review-summary-v1",
+  "selected_gtimeout_absent": true,
+  "selected_source_bytes": 33312952,
+  "source_files": 11,
+  "source_reference_expansion_not_replayed": "Author assertions authenticated; this root check did not expand all2721 historical references.",
+  "status": "EXACT_PREPARATION_AND_CURRENT_FIXED_FACTS_CONFIRMED_NOT_ADMITTED",
+  "unique_full_file_identities": 2135,
+  "vendor_counts": {
+    "directory": 185,
+    "file": 1810,
+    "symlink": 10
+  },
+  "vendor_regular_bytes": 48024515
+}

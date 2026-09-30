@@ -1,47 +1,58 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-161's synthetic grid
-qualification source is independently reviewed and root accepted with execution
-prerequisites, published in `docs/track_b/native_growth_grid_qualification_source_v1/`.
-The three complete sources define independent expected answers, all 109-index
-sweeps, exact refusals, compound faults and a bounded caller for the accepted
-RI-159 checker/auditor. All 2,547 prospective cases per mode remain unexecuted.
+**Current checkpoint — 30 September 2026 UTC.** RI-163's native qualification
+preparation is independently/root reviewed with confirmed dispatch gaps. RI-162's
+measurement command proposal is independently reviewed and root adopted for fresh
+preflight and a separate one-shot admission. Both decisions and exact preparation
+packets are published in `docs/coordination/qualification_preflight_decisions_v1/`.
+No native or measurement qualification controls have run.
 
-Root's complete source review and fresh replay 295128 / comparison 0b9b5b exit 0
-confirm 21,368 administrative predicates, 280 dependencies and 292 identities;
-every independent report field agrees except schema. Independent check 83ba9b
-and seal 966136 exit 0. These are source/provenance checks, not runtime qualification.
-Genuine bootstrap/interpreter/stdlib/host admission, complete actual outcomes and
-independent full-case review remain required. QP04's actual fixed-input audit
-follows separately. No certificate body or actual grid result was decoded here.
+Native RT01: the selected timeout is absent. The historical Perl alarm-then-exec
+recipe conflicts with the unchanged caller's timer guard. RI141's existing monitor
+cannot simply be reused natively: its no-descendants premise and 64 MiB sampled
+outputs differ from the caller's separate child sessions and 8 MiB outer limit.
+RT02: current framework hashes do not establish native library resolution or
+system loader/cache trust. Neither gap is a reason to restart the accepted proof.
 
-After adjudication, the existing Quantum Relativity task owns RI-163 in
-`ri163-native-qualification-preflight-fqexul5v/`, under the source archive's
-`root/NATIVE_SUCCESSOR_ASSIGNMENT.json`. Prepare the exact one-shot command/request
-and current fixed-host/runtime prerequisites for the unchanged caller. No further
-harness framework is assigned. Preserve 300 s whole-caller, 120 s child including
-2 s cleanup, 512 MiB address space, 110 CPU seconds and 8 MiB stream/report limits.
-Address space is not RSS; unsupported limits refuse. Root owns actual admission,
-dispatch, full outcome adjudication and later actual-certificate admission.
+Root check 4a4dfc exit 0 repeated 307 source identities, all 1,810 vendor files,
+185 directory name sets and ten link targets, exact proposal hashes and six absent
+operational paths. The accepted five native sources are unchanged. The author-only
+2,721 historical-reference expansion remains attributed; root did not rerun it.
+The 2,547 cases per mode remain prospective. Genuine source/runtime/host admission,
+complete outcome review and later separate QP04 actual-witness audit remain gates.
 
-The actual final 109-component grid remains unknown. An accepted universal
+After this adjudication, the existing Quantum Relativity task owns RI-164 in
+`ri164-native-supplier-closure-ddcuy7rz/`, under the archive's
+`root/NATIVE_SUCCESSOR_ASSIGNMENT.json`. Resolve the static Mach-O/non-system
+supplier graph with bounded read-only inspection, preserving explicit system
+premises. The existing implementation agent owns RI-165 in
+`ri165-native-external-supervision-krvtol4v/`, under
+`root/SUPERVISION_ASSIGNMENT.json`: supply minimal external supervision compatible
+with the unchanged caller, separate timer, bounded captures and honest cleanup.
+Root owns subsequent independent review and actual admission; no new harness
+architecture or repeated user permission is required for these assigned steps.
+
+Native caller/child/cleanup bounds remain 300/120/2 s, 512 MiB address space,
+110 CPU seconds, core zero and 8 MiB streams/reports. Address space is not RSS.
+Unsupported limits refuse; actual flags/resource installation remain untested.
+The actual final 109-component grid is still unknown. An accepted universal
 1/1000 grid with retained strict core order gives
 lambda>d7>=41/44000>1/13000 and rejects only the retained sufficient envelope.
-GRID_FAIL removes that shortcut; refusal establishes neither conclusion.
-RI-157's finite cap and signed contrasts remain accepted in verified `ff6a0f3`;
-actual capacity, adequate joint q/v, global M6/rho and W/C2/C3/shared H30 stay open.
-Preserve P2/P3, numerical Y=1/4, 31 focused/139 policy/20 native/42 audit deeper
-obligations, strict endpoints, multiplicities, other eight parents and five Di.
+GRID_FAIL removes that shortcut; refusal establishes neither result.
+Actual capacity, adequate joint q/v, global M6/rho and W/C2/C3/shared H30 remain
+open. Preserve P2/P3, Y=1/4, 31 focused/139 policy/20 native/42 audit deeper cases,
+strict endpoints, multiplicities, shared T1, other eight parents and five Di.
 
-Measurement RI-160's final fixture-custody repair is accepted as unexecuted source
-and published in verified `9276e36`; all 106 controls remain unexecuted. RI-162's
-concrete qualification proposal is sealed in
-`ri162-inert-qualification-preflight-wb69vu5s/`. Fresh review owns
-`ri162-independent-preflight-review-i6j707uw/`, under the source archive's
-`root/MEASUREMENT_REVIEW_ASSIGNMENT.json`. Root inspects the complete proposal,
-fresh fixed facts and independent findings before genuine preflight/admission
-and the one-shot inert controls. Later science gates do not unnecessarily block
-this separate qualification step; active/unreviewed material is excluded here.
+RI-162 needs no measurement command-source repair. Root replay cf71b8 and
+comparison 4a4dfc exit 0 reproduce 3,224 predicates, 623 source/review objects,
+567 dependencies, 642 fresh identities, eight unchanged monitor spans and all
+17 invocation lines. Every independent report field matches except schema/time.
+The selected vendor still equals RI-160's immutable full binding; all eight
+measurement operation paths remain absent. All 106 controls remain unexecuted.
+Next: root's genuine current supplier/host/environment bracket, exclusive setup,
+one-shot admission and actual bounded qualification, followed by independent
+full-outcome review. RI-164 supplies relevant static vendor evidence without
+admitting or conflating the separate measurement operation.
 
 Preserve 180 s / 524288 KiB sampled-child RSS / 25 ms poll / 100 ms maximum gap /
 50 ms sample timeout, file/capture/tree limits and genuine 960 s outer bound.
@@ -49,9 +60,9 @@ R01 actual path applicability, current-E unchanged RI141 capture/baseline/profil
 genuine normal before optimized, complete 27/13/30 records, 57 artifacts,
 74 postchecks, three trees and independent saved arithmetic remain later gates.
 RI131, 15 WHITE, full32, periodic/mean/join and conventional selected public GWOSC
-reproduction remain distinct; calibration and a native forward map stay open.
-Root owns admissions and Git; unrelated edits and all historical evidence are
-preserved. No source checkpoint establishes physical claims.
+reproduction stay distinct; calibration and a native forward map remain open.
+Root owns Git and admissions; active source work, unrelated edits and immutable
+historical evidence are preserved. No physical claim is advanced here.
 The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
@@ -12376,3 +12387,35 @@ The new archive preserves11 source,nine compact review andseven root files
 byte-for-byte. Publication checks and the genuine commit/push/remote receipt are
 retained in ri161-root-qualification-review-0dyyjyuy. Active preparations/review
 and unrelated source edits are excluded. The programme continues; RET alone is paused.
+
+
+**RI-162/163 preparation adjudication — 30 September 2026 UTC.**
+Root adopts the reviewed RI-162 exact command proposal for genuine fresh preflight
+and separate inert106 admission. Replaycf71b8 and comparison4a4dfc exit0 confirm
+3,224 predicates,623 source/review objects,567 dependencies,642 identities,eight
+unchanged spans and exact command/request/card fields. Every report field matches
+except schema and fresh timestamp. No selected vendor binding drift was observed.
+All106 controls remain unexecuted; source adoption is not an operational admission.
+
+Native preparation's RT01/RT02 gaps are confirmed. Root independently reopened
+all307 source dependencies and1810 vendor files,reconciled185 directories/ten
+links,and checked request/command/environment hashes and six proposed absences.
+The existing monitor's no-descendants/64MiB assumptions prevent unchanged native
+reuse. The root checker initially conflated framework and supplemental absence
+rows; failed artifacts and corrected V2 are preserved with genuine outcomes.
+No historical state,missing-parent diagnostic or clipped read was erased.
+
+After adjudication,RI164 went to the existing QR task for the actual static
+native dependency gap. RI165 went to the existing implementation agent for a
+minimal external supervisor compatible with unchanged native sources and limits.
+No new agent,source redesign or target execution was authorized. These concrete
+steps keep qualification advancing toward the live actual-grid proof question.
+Root next reviews their results and admits actual native/measurement operations
+only when their applicable prerequisites are met. RET alone remains paused.
+
+Exact preparation,measurement review and root evidence are archived in
+qualification_preflight_decisions_v1. Large diagnostics and vendor binaries stay
+externally pinned. Source/check failures and actual-tool provenance remain in
+root/ACTUAL_TOOLS.json; scoped publication and remote receipts are retained in
+ri163-root-preflight-review-u80slv0b. Active assignments and unrelated edits are
+excluded. No calibrated,native-forward-map or physical result follows.

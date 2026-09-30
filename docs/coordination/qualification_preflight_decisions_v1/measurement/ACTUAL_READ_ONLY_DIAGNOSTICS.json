@@ -1,0 +1,65 @@
+{
+  "active_admission_or_fixture": false,
+  "clipped_read": [
+    {
+      "chunk_id": "163082",
+      "description": "Full RI141 correspondence display was clipped. Exact relevant monitor/eight dependency-span entries separately recovered in d2a510; complete administrative JSON was authenticated/read by metadata checker. No claim of a new manual read of every unrelated function entry.",
+      "exit_code": 0
+    }
+  ],
+  "failed_read_commands": [
+    {
+      "chunk_id": "de440f",
+      "command": "rg -n child_run/load/prepare.py/MONITOR/alarm/command on RI139 launch.py and RI135 prepare.py",
+      "exit_code": 2,
+      "failure": "RI139 filename was launch_controls.source-only.py, not launch.py. Other source search output retained by the tool; no target or operation was attempted.",
+      "recovered_by": [
+        "791097",
+        "916f14"
+      ],
+      "stderr_file": "READ_DIAGNOSTIC.stderr"
+    }
+  ],
+  "fixed_fact_observation": {
+    "actual_OS_utility": {
+      "command": [
+        "/usr/bin/sw_vers"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "vendor_or_monitor_executed": false
+    },
+    "chunk_id": "78f5ea",
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/observe_fixed_facts.py",
+    "exit_code": 0,
+    "selected_file_count": 6
+  },
+  "new_agents": 0,
+  "origin": "Transcribed actual administrative tool results; operational command has never executed.",
+  "repository_or_Git_operation": false,
+  "schema": "ri162-real-read-only-diagnostics-v1",
+  "scientific_decode": false,
+  "source_proposal_check": {
+    "chunk_id": "546634",
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/prepare_metadata_proposals.py",
+    "controls_executed": 0,
+    "distinct_authenticated_identities": 623,
+    "exit_code": 0,
+    "identical_monitor_function_spans": 8,
+    "source_dependencies": 567
+  },
+  "successful_document_write": "5c5083",
+  "successful_reads": [
+    "2788af",
+    "ef99f8",
+    "9407cb",
+    "791097",
+    "c3dc1b",
+    "916f14",
+    "947167",
+    "d2a510",
+    "1e1d4c",
+    "823acb"
+  ],
+  "target_or_control_execution": false
+}

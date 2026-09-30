@@ -1,0 +1,453 @@
+{
+  "schema": "ri163-author-checks-v1",
+  "status": "PREPARATION_WITH_NAMED_GAPS_NOT_RUNTIME_ADMISSION",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v",
+  "selecting_assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "bytes": 4505,
+    "sha256": "626a487052217a29fcae452d40d05da3e5312212cac5435971e7963f7526867f"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/RI161_ROOT_ADJUDICATION.json",
+    "bytes": 2883,
+    "sha256": "a6fad90e2b969eee48ce6de4ae005741a2f63529c6d504b82f79c0e38e8e9678"
+  },
+  "actual_reads": [
+    {
+      "tool": "25ecfd",
+      "exit_code": 0,
+      "scope": "Authenticated exact assignment and root decision; complete text read"
+    },
+    {
+      "tool": "e4c81c",
+      "exit_code": 0,
+      "scope": "Authenticated and fully read current source/review handoffs, root manual and root replay"
+    },
+    {
+      "tool": "e84b02",
+      "exit_code": 0,
+      "scope": "Authenticated and fully read independent source-review narrative"
+    },
+    {
+      "tool": "e9036f",
+      "exit_code": 0,
+      "scope": "Complete historical host preflight, dispatch and observer source as text only; later pin authentication4451ef"
+    },
+    {
+      "tool": "9431c3",
+      "exit_code": 0,
+      "scope": "Complete current DEPENDENCY_NOTES readback"
+    },
+    {
+      "tool": "a0ee08",
+      "exit_code": 0,
+      "scope": "Complete current PREPARATION/HANDOFF readback; later surgical clarification replaces generic nothing-invoked with no target/vendor invocation"
+    }
+  ],
+  "peer_reviews": {
+    "metadata": {
+      "tools": [
+        "5f62a4",
+        "5e076c",
+        "5af1bb",
+        "4b4b14",
+        "b68045",
+        "ef27ff",
+        "ad27b4",
+        "4ccb95"
+      ],
+      "exit_code": 0,
+      "result": "307 source-provenance identities, exact inherited280/source11/review10,108admin/2721 historicalrefs/50 currentrefs,17 historical-state noncomparisons,fourpairs. Current runtime support is separate. All reads/checks successful and untruncated."
+    },
+    "audit": {
+      "tools": [
+        "b56cd4",
+        "96be4d",
+        "44e881",
+        "e0afa6",
+        "f99cbd",
+        "adaf06",
+        "357fde",
+        "926dbb",
+        "d04428",
+        "5f6164",
+        "cc13bf",
+        "949f70",
+        "7c7d32"
+      ],
+      "exit_code": 0,
+      "result": "Unchanged caller timer/resource/session semantics and all proposal documents reviewed as text/admin JSON; no concrete artifact mismatch. Historical cached-path wording corrected; retained diagnostics below. No accepted source or interpreter invoked."
+    },
+    "independence": "These are author/coauthor preparation reviews, not fresh independent runtime admission or executed-outcome adjudication."
+  },
+  "phase1_observation": {
+    "command": "node <<'RI163_PHASE1'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg', P='/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n', V='/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[],state:Object.fromEntries(fields.map(k=>[k,st[k].toString()]))};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst policyPath='/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/OBSERVATION_POLICY.json';\nconst pr=read(policyPath), policy=JSON.parse(pr.body), observations=[];\nfor(const selected of policy.phase1_paths){\n try{\n  if(selected.role==='external_timeout_alias'){\n   let current=selected.path;const hops=[];\n   for(let i=0;i<16;i++){const s=fs.lstatSync(current);if(!s.isSymbolicLink()){observations.push({role:selected.role,path:selected.path,status:'RESOLVED_METADATA_ONLY',resolved_path:current,symlink_chain:hops,target_type:s.isFile()?'regular':s.isDirectory()?'directory':'other',bytes:s.size,target_bytes_read:false});break;}\n    const target=fs.readlinkSync(current);hops.push({path:current,target});current=p.resolve(p.dirname(current),target);need(current.startsWith('/opt/homebrew/Cellar/coreutils/'),'timeout outside fixed supplier root');if(i===15)throw Error('symlink bound');\n   }\n  }else{\n   const r=read(selected.path);let version_text=null;if(selected.role==='host_version'){need(r.bytes<=16384,'version size');const v=r.body.toString('utf8');need(v.startsWith('<?xml'),'version not selected XML');version_text=v;}\n   observations.push({role:selected.role,status:'OBSERVED_NOT_ADMITTED',identity:simple(r),resolved_path:r.resolved_path,symlinks:r.symlinks,state:r.state,executable_mode:(Number(r.state.mode)&73)!==0,administrative_version_text:version_text});\n  }\n }catch(error){observations.push({role:selected.role,path:selected.path,status:'FAILED_OBSERVATION',error_type:error.name,error_code:error.code||null,message:error.message,target_invoked:false});}\n}\nconsole.log(JSON.stringify({schema:'ri163-fixed-host-phase1-observation-v1',policy_identity:simple(pr),observations,candidate_invocations:0},null,2));\n\nRI163_PHASE1",
+    "tool_receipt": "4e9b5f",
+    "exit_code": 0,
+    "complete_output_retained_in": "HOST_RUNTIME_FACTS.json.phase1",
+    "original_policy_snapshot": {
+      "bytes": 3195,
+      "sha256": "638820cdaff1d8cb45ad403ea51f8ec123dee9a72fd558242b509e6fc4389da9",
+      "scope": "Historical preextension policy identity at the actual first read, not the final current policy pin."
+    },
+    "result": "Candidate/env/shell/installed OS finite identities; selected gtimeout ENOENT; no target invocation."
+  },
+  "historical_selection": {
+    "command": "node <<'RI163_SELECTOR'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg', P='/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n', V='/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst x=pin({path:'/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/BOOTSTRAP_PRE.json',bytes:1690949,sha256:'cb536ed79a79c47570b66bc0bd0b159243a36fc5ea15985524c898fbe76a7f0c'});\nconst d=JSON.parse(x.body), rows=d.framework_namespace;\nneed(Array.isArray(rows)&&rows.length===2004,'fixed historical selector count');\nconst prefix='/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9';\nconst selection=rows.map(r=>{need(typeof r.path==='string'&&(r.path===prefix||r.path.startsWith(prefix+'/'))&&p.normalize(r.path)===r.path,'supplier selector path');return {path:r.path,historical_type:r.type||r.kind||null};});\nneed(new Set(selection.map(r=>r.path)).size===2004,'selector duplicates');\nconsole.log(JSON.stringify({selector:simple(x),top_keys:Object.keys(d),sample:rows.slice(0,3),selection}));\n\nRI163_SELECTOR",
+    "tool_receipt": "739c62",
+    "exit_code": 0,
+    "output_disposition": "The complete2004-path selection returned by this administrative decode was saved in OBSERVATION_POLICY before any expanded supplier reads. Sample rows/keys were displayed; no target/fixture data decoded.",
+    "policy_write_failure": "Initial apply_patch combined delete/add for the same policy path was rejected before changing it; corrected single Update File patch succeeded before vendor observations.",
+    "boundary": "BOOTSTRAP_PRE was decoded only as administrative selector metadata. Its historical loaded modules, environment, trust and state are not current facts."
+  },
+  "vendor_observation": {
+    "inline_administrative_script": "const fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg', P='/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n', V='/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let length=0;const cap=Number(st.size)+1;while(length<cap){const block=Buffer.alloc(Math.min(65536,cap-length));const got=fs.readSync(fd,block,0,block.length,null);if(!got)break;chunks.push(block.subarray(0,got));length+=got;}b=Buffer.concat(chunks);need(b.length===Number(st.size),'size drift');need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[],state:Object.fromEntries(fields.map(k=>[k,st[k].toString()]))};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst policyPath='/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/OBSERVATION_POLICY.json';\nconst pr=read(policyPath), policy=JSON.parse(pr.body), ext=policy.supplier_extensions[0];\nneed(policy.schema==='ri163-read-only-observation-selection-v1'&&ext.entries.length===2004,'policy');\nconst all=[{path:ext.root_path,expected_kind:'directory'},...ext.entries,...ext.explicit_absence_checks.map(path=>({path,expected_kind:'absent'}))];\nneed(all.length<=4096,'selection bound');\nconst part=Number(process.argv[2]);need(Number.isInteger(part)&&part>=0&&part<9,'batch');\nconst start=Date.now(),observations=[];let fileBytes=0,directoryEntries=0;\nconst stateOf=s=>Object.fromEntries(fields.map(k=>[k,s[k].toString()]));\nfunction parents(path){let at='/';for(const k of path.split('/').filter(Boolean).slice(0,-1)){at=p.join(at,k);const t=fs.lstatSync(at);need(t.isDirectory()&&!t.isSymbolicLink(),'parent type '+at);}}\nfor(const row of all.slice(part*250,(part+1)*250)){\n try{\n  need(Date.now()-start<180000,'elapsed bound');parents(row.path);\n  let before;try{before=fs.lstatSync(row.path,{bigint:true});}catch(e){if(e.code==='ENOENT'&&row.expected_kind==='absent'){observations.push({path:row.path,kind:'absent',status:'OBSERVED_ABSENT'});continue;}throw e;}\n  const same=s=>fields.every(k=>s[k]===before[k]);\n  if(row.expected_kind==='absent'){observations.push({path:row.path,kind:'present',status:'EXPECTED_ABSENCE_NOT_MET',state:stateOf(before)});continue;}\n  if(row.expected_kind==='directory'){\n   need(before.isDirectory()&&!before.isSymbolicLink(),'directory type');\n   const actual=[];const directory=fs.opendirSync(row.path);\n   try{for(let item;(item=directory.readSync())!==null;){actual.push(item.name);need(actual.length<=4096&&++directoryEntries<=8192,'directory-name bound');}}finally{directory.closeSync();}\n   actual.sort();need(same(fs.lstatSync(row.path,{bigint:true})),'directory state drift');\n   const expected=ext.entries.filter(x=>p.dirname(x.path)===row.path).map(x=>p.basename(x.path)).sort();\n   const a=new Set(actual),b=new Set(expected),added=actual.filter(x=>!b.has(x)),missing=expected.filter(x=>!a.has(x));\n   observations.push({path:row.path,kind:'directory',status:added.length||missing.length?'NAMESPACE_DIFFERENCE':'MATCH_CURRENT_NAMES',state:stateOf(before),entries:actual.length,names_sha256:c.createHash('sha256').update(JSON.stringify(actual)).digest('hex'),added,missing});\n  }else if(row.expected_kind==='symlink'){\n   need(before.isSymbolicLink(),'symlink type');const target=fs.readlinkSync(row.path);\n   need(target.length<=4096&&same(fs.lstatSync(row.path,{bigint:true})),'link changed/bound');\n   observations.push({path:row.path,kind:'symlink',status:'OBSERVED_LINK_NOT_FOLLOWED',target,state:stateOf(before)});\n  }else{\n   need(row.expected_kind==='file'&&before.isFile()&&!before.isSymbolicLink(),'regular type');\n   need(before.size<=67108864n&&fileBytes+Number(before.size)<=33554432,'batch byte bound');\n   const r=read(row.path);fileBytes+=r.bytes;\n   observations.push({path:r.path,kind:'file',status:'OBSERVED_CURRENT_BYTES',bytes:r.bytes,sha256:r.sha256,state:r.state});\n  }\n }catch(error){observations.push({path:row.path,expected_kind:row.expected_kind,status:'FAILED_OBSERVATION',type:error.name,code:error.code||null,message:error.message});}\n}\nconsole.log(JSON.stringify({schema:'ri163-vendor-observation-batch-v1',policy_identity:simple(pr),batch:part,selected_count:observations.length,file_bytes:fileBytes,directory_entries:directoryEntries,elapsed_ms:Date.now()-start,observations,target_invocations:0}));\n",
+    "exact_command_rule": "For batch0 through8: node - BATCH <<'RI163_VENDOR' followed by the literal inline_administrative_script and a closing RI163_VENDOR delimiter. No script file or launcher was created.",
+    "actual_returns": [
+      {
+        "chunk_id": "f20adf",
+        "exit_code": 0,
+        "batch": 0,
+        "selected_count": 250,
+        "file_bytes": 8288006,
+        "directory_entries": 432,
+        "elapsed_ms": 57,
+        "partial_diagnostics": []
+      },
+      {
+        "chunk_id": "01df29",
+        "exit_code": 0,
+        "batch": 1,
+        "selected_count": 250,
+        "file_bytes": 3348664,
+        "directory_entries": 247,
+        "elapsed_ms": 51,
+        "partial_diagnostics": []
+      },
+      {
+        "chunk_id": "2411bb",
+        "exit_code": 0,
+        "batch": 2,
+        "selected_count": 250,
+        "file_bytes": 21078432,
+        "directory_entries": 182,
+        "elapsed_ms": 83,
+        "partial_diagnostics": []
+      },
+      {
+        "chunk_id": "7ef742",
+        "exit_code": 0,
+        "batch": 3,
+        "selected_count": 250,
+        "file_bytes": 3722782,
+        "directory_entries": 221,
+        "elapsed_ms": 52,
+        "partial_diagnostics": []
+      },
+      {
+        "chunk_id": "bee674",
+        "exit_code": 0,
+        "batch": 4,
+        "selected_count": 250,
+        "file_bytes": 1116034,
+        "directory_entries": 240,
+        "elapsed_ms": 48,
+        "partial_diagnostics": []
+      },
+      {
+        "chunk_id": "ab75ae",
+        "exit_code": 0,
+        "batch": 5,
+        "selected_count": 250,
+        "file_bytes": 4039117,
+        "directory_entries": 265,
+        "elapsed_ms": 53,
+        "partial_diagnostics": []
+      },
+      {
+        "chunk_id": "99a575",
+        "exit_code": 0,
+        "batch": 6,
+        "selected_count": 250,
+        "file_bytes": 3080212,
+        "directory_entries": 238,
+        "elapsed_ms": 51,
+        "partial_diagnostics": []
+      },
+      {
+        "chunk_id": "c1cf3d",
+        "exit_code": 0,
+        "batch": 7,
+        "selected_count": 250,
+        "file_bytes": 3333036,
+        "directory_entries": 175,
+        "elapsed_ms": 51,
+        "partial_diagnostics": []
+      },
+      {
+        "chunk_id": "57abd9",
+        "exit_code": 0,
+        "batch": 8,
+        "selected_count": 7,
+        "file_bytes": 18232,
+        "directory_entries": 4,
+        "elapsed_ms": 3,
+        "partial_diagnostics": [
+          {
+            "path": "/Library/Python/3.9/site-packages",
+            "expected_kind": "absent",
+            "status": "FAILED_OBSERVATION",
+            "type": "Error",
+            "code": "ENOENT",
+            "message": "ENOENT: no such file or directory, lstat '/Library/Python'"
+          }
+        ]
+      }
+    ],
+    "output_disposition": "Every returned current observation is retained verbatim as parsed administrative data under HOST_RUNTIME_FACTS.vendor_batches. Raw output was not clipped; complete JSON parsing succeeded for every batch.",
+    "scopes": "Predeclared2004 paths plus root and two explicit absence checks. No recursive new-path read, no link following, no executable load, no environment secret scan. Perbatch32MiB/perfile64MiB caps and finite180-second elapsed checks; nine batches retained48024515 regular-file bytes. Directory state/name sets are finite observations, not simultaneous custody."
+  },
+  "absence_recovery": {
+    "command": "node <<'RI163_ABSENCE'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg', P='/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n', V='/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst x='/Library/Python/3.9/site-packages';let at='/',missing=null;\nfor(const segment of x.split('/').filter(Boolean)){at=p.join(at,segment);try{const s=fs.lstatSync(at);need(!s.isSymbolicLink(),'symlink invalidates absence chain');}catch(e){if(e.code==='ENOENT'){missing=at;break;}throw e;}}\nneed(missing!==null,'absence no longer observed');\nconsole.log(JSON.stringify({schema:'ri163-absence-recheck-v1',path:x,status:'OBSERVED_ABSENT_VIA_MISSING_ANCESTOR',first_missing_path:missing,retains_prior_failed_observation:'57abd9',finite_observation_only:true}));\nfor(const i of [\n{path:'/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/BOOTSTRAP_HOST_PREFLIGHT.json',bytes:3073,sha256:'b35d395d6afa517230a491e628aecd639c0a975fa6e4e44907bd8df1bc463188'},\n{path:'/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/ROOT_DISPATCH.json',bytes:4841,sha256:'59f3a78aca3323ed35831f1b8972ec7a123bddbc687100c7562090addff8c775'},\n{path:'/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/observe_bootstrap.py',bytes:4602,sha256:'1f8d8186cfcd27b4191f1ad456cf9bbe476ce7350d9a1ea8cb7a371a9c1c968f'}])console.log(JSON.stringify({historical_support_identity:simple(pin(i)),executed:false}));\n\nRI163_ABSENCE",
+    "tool_receipt": {
+      "chunk_id": "4451ef",
+      "wall_time_seconds": 0.000009208,
+      "exit_code": 0,
+      "original_token_count": 259,
+      "output": "{\"schema\":\"ri163-absence-recheck-v1\",\"path\":\"/Library/Python/3.9/site-packages\",\"status\":\"OBSERVED_ABSENT_VIA_MISSING_ANCESTOR\",\"first_missing_path\":\"/Library/Python\",\"retains_prior_failed_observation\":\"57abd9\",\"finite_observation_only\":true}\n{\"historical_support_identity\":{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/BOOTSTRAP_HOST_PREFLIGHT.json\",\"bytes\":3073,\"sha256\":\"b35d395d6afa517230a491e628aecd639c0a975fa6e4e44907bd8df1bc463188\"},\"executed\":false}\n{\"historical_support_identity\":{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/ROOT_DISPATCH.json\",\"bytes\":4841,\"sha256\":\"59f3a78aca3323ed35831f1b8972ec7a123bddbc687100c7562090addff8c775\"},\"executed\":false}\n{\"historical_support_identity\":{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/observe_bootstrap.py\",\"bytes\":4602,\"sha256\":\"1f8d8186cfcd27b4191f1ad456cf9bbe476ce7350d9a1ea8cb7a371a9c1c968f\"},\"executed\":false}\n"
+    },
+    "result": "Initial57abd9 missing-parent diagnostic retained; new4451ef observation established absent selected site-packages via missing/Library/Python. Same command freshly authenticated three historical support pins."
+  },
+  "proposed_paths": {
+    "command": "node <<'RI163_PROPOSED_PATHS'\nconst fs=require('fs'),crypto=require('crypto');\nconst selection={\"nonce\":\"0f632c815ef94824b7a160deb809c4ae\",\"admission\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-admission-0f632c815ef94824b7a160deb809c4ae.json\",\"request\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json\",\"output_directory\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-run-0f632c815ef94824b7a160deb809c4ae\",\"outer_stdout\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stdout\",\"outer_stderr\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stderr\",\"outer_completion\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.completion.json\"};\nconst observations=Object.entries(selection).filter(([key])=>key!=='nonce').map(([role,path])=>{try{const s=fs.lstatSync(path);return {role,path,status:'COLLISION_PRESENT',mode:s.mode};}catch(e){if(e.code==='ENOENT')return {role,path,status:'OBSERVED_ABSENT_NOT_RESERVED'};throw e;}});\nconsole.log(JSON.stringify({schema:'ri163-proposed-path-observations-v1',observations,no_paths_created:true}));\nRI163_PROPOSED_PATHS",
+    "tool_receipt": {
+      "chunk_id": "e3a924",
+      "wall_time_seconds": 0.000008167,
+      "exit_code": 0,
+      "original_token_count": 316,
+      "output": "{\"schema\":\"ri163-proposed-path-observations-v1\",\"observations\":[{\"role\":\"admission\",\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-admission-0f632c815ef94824b7a160deb809c4ae.json\",\"status\":\"OBSERVED_ABSENT_NOT_RESERVED\"},{\"role\":\"request\",\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json\",\"status\":\"OBSERVED_ABSENT_NOT_RESERVED\"},{\"role\":\"output_directory\",\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-run-0f632c815ef94824b7a160deb809c4ae\",\"status\":\"OBSERVED_ABSENT_NOT_RESERVED\"},{\"role\":\"outer_stdout\",\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stdout\",\"status\":\"OBSERVED_ABSENT_NOT_RESERVED\"},{\"role\":\"outer_stderr\",\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stderr\",\"status\":\"OBSERVED_ABSENT_NOT_RESERVED\"},{\"role\":\"outer_completion\",\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.completion.json\",\"status\":\"OBSERVED_ABSENT_NOT_RESERVED\"}],\"no_paths_created\":true}\n"
+    },
+    "meaning": "Six proposed future evidence paths absent at this finite observation; no reservation or creation."
+  },
+  "request_byte_pin": {
+    "command": "node <<'RI163_REQUEST_BYTES'\nconst c=require('crypto');const raw=Buffer.from(\"{\\n  \\\"schema\\\": \\\"ri161-qualification-request-v1\\\",\\n  \\\"nonce\\\": \\\"0f632c815ef94824b7a160deb809c4ae\\\",\\n  \\\"interpreter\\\": {\\n    \\\"path\\\": \\\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9\\\",\\n    \\\"bytes\\\": 102352,\\n    \\\"sha256\\\": \\\"1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524\\\"\\n  },\\n  \\\"sources\\\": {\\n    \\\"caller\\\": {\\n      \\\"path\\\": \\\"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py\\\",\\n      \\\"bytes\\\": 41969,\\n      \\\"sha256\\\": \\\"9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721\\\"\\n    },\\n    \\\"qualify\\\": {\\n      \\\"path\\\": \\\"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/qualify_grid.py\\\",\\n      \\\"bytes\\\": 37082,\\n      \\\"sha256\\\": \\\"95a76ccf0a7c9ff50ce7bf98e24481d051b839378b87d888ae2c8d443e150653\\\"\\n    },\\n    \\\"fault\\\": {\\n      \\\"path\\\": \\\"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/fault_cases.py\\\",\\n      \\\"bytes\\\": 30012,\\n      \\\"sha256\\\": \\\"70778a4c6e5c73c5f053770adf46bf5c51b2726b7e6fe9a05715d092a8ba48d8\\\"\\n    },\\n    \\\"checker\\\": {\\n      \\\"path\\\": \\\"/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py\\\",\\n      \\\"bytes\\\": 16091,\\n      \\\"sha256\\\": \\\"cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982\\\"\\n    },\\n    \\\"auditor\\\": {\\n      \\\"path\\\": \\\"/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py\\\",\\n      \\\"bytes\\\": 22760,\\n      \\\"sha256\\\": \\\"aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277\\\"\\n    }\\n  },\\n  \\\"output_directory\\\": \\\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-run-0f632c815ef94824b7a160deb809c4ae\\\",\\n  \\\"trust_basis\\\": {\\n    \\\"admission_reference\\\": \\\"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-admission-0f632c815ef94824b7a160deb809c4ae.json\\\",\\n    \\\"stdlib_basis\\\": \\\"RI163 HOST_RUNTIME_FACTS.json and OBSERVATION_POLICY.json in /Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v; ROOT MUST SEPARATELY ACCEPT TRANSITIVE RUNTIME/APPLE SYSTEM TRUST AND EXTERNAL SUPERVISION BEFORE MATERIALIZING THIS PROPOSAL.\\\",\\n    \\\"external_bootstrap_required\\\": true,\\n    \\\"qualification_only\\\": true\\n  }\\n}\\n\",'utf8');console.log(JSON.stringify({proposal_only:true,bytes:raw.length,sha256:c.createHash('sha256').update(raw).digest('hex'),actual_request_created:false}));\nRI163_REQUEST_BYTES",
+    "tool_receipt": {
+      "chunk_id": "ed2eaa",
+      "wall_time_seconds": 0.000010666,
+      "exit_code": 0,
+      "original_token_count": 36,
+      "output": "{\"proposal_only\":true,\"bytes\":2304,\"sha256\":\"bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749\",\"actual_request_created\":false}\n"
+    },
+    "meaning": "Hash of proposed request string only; no actual request file created."
+  },
+  "command_environment_pins": {
+    "command": "node <<'RI163_COMMAND_PINS'\nconst c=require('crypto');const p=s=>({bytes:Buffer.byteLength(s,'utf8'),sha256:c.createHash('sha256').update(s,'utf8').digest('hex')});console.log(JSON.stringify({command:p(\"exec /usr/bin/env -i LC_ALL=C LANG=C PATH=/usr/bin:/bin /opt/homebrew/bin/gtimeout --signal=TERM --kill-after=5s 310s /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -S -B /Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py --request /Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json --request-sha256 bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749\"),environment:p(\"{\\\"LANG\\\":\\\"C\\\",\\\"LC_ALL\\\":\\\"C\\\",\\\"PATH\\\":\\\"/usr/bin:/bin\\\"}\"),future_execution:false}));\nRI163_COMMAND_PINS",
+    "tool_receipt": {
+      "chunk_id": "fc3b08",
+      "wall_time_seconds": 0.000007916,
+      "exit_code": 0,
+      "original_token_count": 58,
+      "output": "{\"command\":{\"bytes\":547,\"sha256\":\"23c91a3409ce4b6b8da18055749dd302f57758ad14dc38150e610c8f83cb98b6\"},\"environment\":{\"bytes\":48,\"sha256\":\"37325ce8957b1b42f6a7d58f743fbc01b44df615bae14df36e74becf4dd19625\"},\"future_execution\":false}\n"
+    },
+    "meaning": "Hashes of command/environment strings only; no dispatch."
+  },
+  "administrative_preseal": {
+    "command": "node <<'RI163_ADMIN'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v', P='/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg', V='/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:276227,sha256:'ba4c9cc5b34cd994b885cec3989d6cbadd783864bc075f2c1f020d3f87de0321'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:21353,sha256:'3f0797e4a19b745f72beb4b9d5a345af7f67adc49ffeb5710bc410706a95e5fd'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body), S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body), M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===307,'count');D.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity);});need(eq([...M.keys()],[...M.keys()].sort()),'sort');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body), omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===280,'old280');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherit');\nfor(const d of[P,V]){const h=JSON.parse(read(d+'/HANDOFF.json').body), n=fs.readdirSync(d).sort();need(eq(n,[...h.namespace].sort())&&eq(n,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'namespace');h.payloads.forEach(pin);}\nlet refs=0,extended=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','ref closure '+x.path);pin(x);refs++;if(x.state!==undefined&&x.symlink_chain!==undefined)extended++;}Object.values(x).forEach(scan);}\nlet admin=0;for(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body));}\nneed(admin===108&&refs===2721&&extended===17,'admin refs');refs=0;scan(S);need(refs===50,'current refs');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'pair');\nconst final=[\"PREPARATION.md\",\"REQUEST_PROPOSAL.json\",\"DISPATCH_PROPOSAL.json\",\"OBSERVATION_POLICY.json\",\"HOST_RUNTIME_FACTS.json\",\"DEPENDENCY_NOTES.md\",\"SOURCE_DEPENDENCIES.json\",\"SOURCE_IDENTITIES.json\",\"AUTHOR_CHECKS.json\",\"HANDOFF.md\",\"HANDOFF.json\"].sort();\nneed(eq(Object.keys(S.actual_input_roles_qp04_only).sort(),[\"certificate\",\"original_source\",\"original_manuscript\",\"assignment\",\"accepted_predecessor\",\"accepted_manual_review\"].sort()),\"runtime role set\");Object.values(S.actual_input_roles_qp04_only).forEach(pin);\nneed(eq(Object.keys(S.source_roles).sort(),[\"auditor\",\"caller\",\"checker\",\"fault\",\"qualify\"]),\"subject role set\");Object.values(S.source_roles).forEach(pin);\nconst stage=process.env.RI163_STAGE||'preseal9',expected=stage==='final11'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));\nlet sourceRefs=0;for(const n of ['PREPARATION.md','HANDOFF.md']){const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');for(const match of txt.matchAll(/\\x60(\\/Volumes\\/[^\\x60 \\n]+\\.(?:md|json|py))\\x60/g)){need(M.has(match[1])||expected.some(f=>Q+'/'+f===match[1]),'literal reference '+match[1]);sourceRefs++;}}\nif(stage==='final11'){const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===10,'current seal');need(eq(h.payloads.map(x=>p.basename(x.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current payload coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_predecessor);}\n\nconst F=JSON.parse(read(Q+'/HOST_RUNTIME_FACTS.json').body), O=JSON.parse(read(Q+'/OBSERVATION_POLICY.json').body), R=JSON.parse(read(Q+'/REQUEST_PROPOSAL.json').body), C=JSON.parse(read(Q+'/DISPATCH_PROPOSAL.json').body);\nneed(F.status==='FINITE_OBSERVATIONS_WITH_MISSING_PREREQUISITES_NOT_RUNTIME_ADMISSION','fact scope');\npin(F.policy);F.historical_support.forEach(pin);F.phase1.outcome.observations.filter(r=>r.identity).forEach(r=>pin(r.identity));\nneed(F.historical_support.length===4,'runtime support4');need(O.supplier_extensions[0].entries.length===2004,'selected runtime names');\nfor(const b of F.vendor_batches){pin(b.outcome.policy_identity);need(b.exit_code===0&&b.outcome.target_invocations===0,'batch scope');}\nconst rows=F.vendor_batches.flatMap(b=>b.outcome.observations);\nneed(rows.length===2007&&new Set(rows.map(r=>r.path)).size===2007,'current observation count');\nconst selection=new Set([O.supplier_extensions[0].root_path,...O.supplier_extensions[0].entries.map(r=>r.path),...O.supplier_extensions[0].explicit_absence_checks]);\nneed(rows.every(r=>selection.has(r.path)),'current selection closure');\nneed(rows.filter(r=>r.kind==='file').length===1810&&rows.filter(r=>r.kind==='file').reduce((n,r)=>n+r.bytes,0)===48024515,'runtime files summary');\nneed(rows.filter(r=>r.kind==='directory').length===185&&rows.filter(r=>r.kind==='directory').every(r=>r.status==='MATCH_CURRENT_NAMES'&&r.added.length===0&&r.missing.length===0),'directory summary');\nneed(rows.filter(r=>r.kind==='symlink').length===10,'symlink summary');\nneed(rows.filter(r=>r.status==='FAILED_OBSERVATION').length===1&&F.absence_recheck.outcome.first_missing_path==='/Library/Python','retained absence diagnostic');\nneed(F.summary.external_timeout_available===false&&F.summary.interpreter_invocations===0,'missing supervisor/no target invocation');\nconst rq=Buffer.from(R.exact_proposed_request_utf8,'utf8'),ri=R.prospective_request_identity;\nneed(rq.length===ri.bytes&&c.createHash('sha256').update(rq).digest('hex')===ri.sha256,'proposed request byte pin');\nneed(eq(JSON.parse(rq),R.proposed_request),'exact request representation');\nneed(eq(Object.keys(R.proposed_request).sort(),['schema','nonce','interpreter','sources','output_directory','trust_basis'].sort()),'six request fields');\nneed(eq(Object.keys(R.proposed_request.sources).sort(),Object.keys(S.source_roles).sort()),'five source roles');\nfor(const [role,i] of Object.entries(R.proposed_request.sources)){need(['path','bytes','sha256'].every(k=>i[k]===S.source_roles[role][k]),'source proposal binding '+role);pin(i);}\nneed(eq(R.proposed_request.interpreter,F.summary.fixed_interpreter_identity),'interpreter proposal binding');pin(R.proposed_request.interpreter);\nneed(eq(C.request_proposal_identity,ri)&&C.source_caller_unchanged.sha256===S.source_roles.caller.sha256,'command request/source');\nneed(Buffer.byteLength(C.command_utf8)===C.command_pin.bytes&&c.createHash('sha256').update(C.command_utf8).digest('hex')===C.command_pin.sha256,'command byte pin');\nconst env=JSON.stringify(C.environment);need(Buffer.byteLength(env)===C.environment_pin.bytes&&c.createHash('sha256').update(env).digest('hex')===C.environment_pin.sha256,'environment byte pin');\nneed(C.command_utf8==='exec '+C.outer_argv.join(' ')&&eq(C.parent_argv,C.outer_argv.slice(9)),'exact argv assembly');\nneed(C.status==='NOT_DISPATCHABLE_UNTIL_ROOT_RESOLVES_PREREQUISITES'&&C.supervisor.identity===null&&C.supervisor.status==='MISSING_ENOENT','dispatch blocked');\nneed(C.candidate_invocations===0&&C.actual_request_created===false&&C.admission_created===false&&C.output_namespace_created===false,'no invocation/request/admission/output');\nneed(C.source_counts.per_mode===2547&&C.source_counts.total===5094,'source counts');\nfor(const [role,path] of Object.entries(C.evidence_paths_proposed))if(role!=='nonce'){let absent=false;try{fs.lstatSync(path);}catch(e){if(e.code==='ENOENT')absent=true;else throw e;}need(absent,'proposed path collision '+path);}\nconst limits=C.retained_limits;need(limits.caller_seconds===300&&limits.each_child_seconds===120&&limits.reserved_child_cleanup_seconds===2&&limits.child_RLIMIT_AS_bytes===536870912&&limits.child_RLIMIT_CPU_seconds===110&&limits.child_RLIMIT_CORE_bytes===0&&limits.each_internal_stream_and_report_bytes===8388608,'unchanged limits');\n\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nconsole.log(JSON.stringify({schema:'ri163-author-administrative-check-v1',status:'MATCH_NOT_PROOF_ACCEPTANCE',stage,dependencies:307,selected_bytes:D.protected_files.reduce((n,r)=>n+r.identity.bytes,0),inherited:280,administrative_bodies:108,historical_typed_refs:2721,premise_refs:50,extended_historical_identity_occurrences:17,historical_state_compared_to_current:false,predecessor_namespaces:[11,10],counterparts:4,absolute_manuscript_reference_occurrences:sourceRefs,final_fresh_identity_rechecks:before.length,current_payloads:payloads,runtime_support_records:4,runtime_observation_rows:2007,runtime_files_observed_in_retained_records:1810,vendor_namespace_observations_reexecuted_by_this_check:false,phase1_file_identities_rechecked:4,request_bytes:2304,proposed_request_present:false,external_supervisor_missing:true,scientific_execution:false},null,2));\nRI163_ADMIN",
+    "tool_receipt": {
+      "chunk_id": "234ca0",
+      "wall_time_seconds": 0.042894209,
+      "exit_code": 0,
+      "original_token_count": 798,
+      "output": "{\n  \"schema\": \"ri163-author-administrative-check-v1\",\n  \"status\": \"MATCH_NOT_PROOF_ACCEPTANCE\",\n  \"stage\": \"preseal9\",\n  \"dependencies\": 307,\n  \"selected_bytes\": 33312952,\n  \"inherited\": 280,\n  \"administrative_bodies\": 108,\n  \"historical_typed_refs\": 2721,\n  \"premise_refs\": 50,\n  \"extended_historical_identity_occurrences\": 17,\n  \"historical_state_compared_to_current\": false,\n  \"predecessor_namespaces\": [\n    11,\n    10\n  ],\n  \"counterparts\": 4,\n  \"absolute_manuscript_reference_occurrences\": 0,\n  \"final_fresh_identity_rechecks\": 324,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/DEPENDENCY_NOTES.md\",\n      \"bytes\": 16794,\n      \"sha256\": \"c6d276d2c10f4762969bd2efb7f489da689e1311f101160ae11c575bd29b2b77\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/DISPATCH_PROPOSAL.json\",\n      \"bytes\": 7462,\n      \"sha256\": \"774e9f26d8f2d6cec7f6e9f28ea974fe633c8d28857f94cbcd5ec9663d304756\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/HANDOFF.md\",\n      \"bytes\": 2915,\n      \"sha256\": \"555757ba373954677ed203f879f712825ad731bd3ff9656d09c2b29cec38b5be\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/HOST_RUNTIME_FACTS.json\",\n      \"bytes\": 1367184,\n      \"sha256\": \"2f1fb808bd151ec98327c553cfeaf38c096e4869602a1e0f95f60b47cfb0d4de\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/OBSERVATION_POLICY.json\",\n      \"bytes\": 562853,\n      \"sha256\": \"d08cd1653d2091b1e6ce6be09ba057bf16b5aff777bcff9354ce746befe45f54\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/PREPARATION.md\",\n      \"bytes\": 8899,\n      \"sha256\": \"1bc6f06d7249613a209af09adb9630fcba7aa1c1491d29784ef0547953a2872e\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/REQUEST_PROPOSAL.json\",\n      \"bytes\": 8253,\n      \"sha256\": \"f7486d87e407be9c8b20721d23217889016f1b8636ea284f603b24cc2a15761e\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/SOURCE_DEPENDENCIES.json\",\n      \"bytes\": 276227,\n      \"sha256\": \"ba4c9cc5b34cd994b885cec3989d6cbadd783864bc075f2c1f020d3f87de0321\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/SOURCE_IDENTITIES.json\",\n      \"bytes\": 21353,\n      \"sha256\": \"3f0797e4a19b745f72beb4b9d5a345af7f67adc49ffeb5710bc410706a95e5fd\"\n    }\n  ],\n  \"runtime_support_records\": 4,\n  \"runtime_observation_rows\": 2007,\n  \"runtime_files_observed_in_retained_records\": 1810,\n  \"vendor_namespace_observations_reexecuted_by_this_check\": false,\n  \"phase1_file_identities_rechecked\": 4,\n  \"request_bytes\": 2304,\n  \"proposed_request_present\": false,\n  \"external_supervisor_missing\": true,\n  \"scientific_execution\": false\n}\n"
+    },
+    "outcome": {
+      "schema": "ri163-author-administrative-check-v1",
+      "status": "MATCH_NOT_PROOF_ACCEPTANCE",
+      "stage": "preseal9",
+      "dependencies": 307,
+      "selected_bytes": 33312952,
+      "inherited": 280,
+      "administrative_bodies": 108,
+      "historical_typed_refs": 2721,
+      "premise_refs": 50,
+      "extended_historical_identity_occurrences": 17,
+      "historical_state_compared_to_current": false,
+      "predecessor_namespaces": [
+        11,
+        10
+      ],
+      "counterparts": 4,
+      "absolute_manuscript_reference_occurrences": 0,
+      "final_fresh_identity_rechecks": 324,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/DEPENDENCY_NOTES.md",
+          "bytes": 16794,
+          "sha256": "c6d276d2c10f4762969bd2efb7f489da689e1311f101160ae11c575bd29b2b77"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/DISPATCH_PROPOSAL.json",
+          "bytes": 7462,
+          "sha256": "774e9f26d8f2d6cec7f6e9f28ea974fe633c8d28857f94cbcd5ec9663d304756"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/HANDOFF.md",
+          "bytes": 2915,
+          "sha256": "555757ba373954677ed203f879f712825ad731bd3ff9656d09c2b29cec38b5be"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/HOST_RUNTIME_FACTS.json",
+          "bytes": 1367184,
+          "sha256": "2f1fb808bd151ec98327c553cfeaf38c096e4869602a1e0f95f60b47cfb0d4de"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/OBSERVATION_POLICY.json",
+          "bytes": 562853,
+          "sha256": "d08cd1653d2091b1e6ce6be09ba057bf16b5aff777bcff9354ce746befe45f54"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/PREPARATION.md",
+          "bytes": 8899,
+          "sha256": "1bc6f06d7249613a209af09adb9630fcba7aa1c1491d29784ef0547953a2872e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/REQUEST_PROPOSAL.json",
+          "bytes": 8253,
+          "sha256": "f7486d87e407be9c8b20721d23217889016f1b8636ea284f603b24cc2a15761e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/SOURCE_DEPENDENCIES.json",
+          "bytes": 276227,
+          "sha256": "ba4c9cc5b34cd994b885cec3989d6cbadd783864bc075f2c1f020d3f87de0321"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/SOURCE_IDENTITIES.json",
+          "bytes": 21353,
+          "sha256": "3f0797e4a19b745f72beb4b9d5a345af7f67adc49ffeb5710bc410706a95e5fd"
+        }
+      ],
+      "runtime_support_records": 4,
+      "runtime_observation_rows": 2007,
+      "runtime_files_observed_in_retained_records": 1810,
+      "vendor_namespace_observations_reexecuted_by_this_check": false,
+      "phase1_file_identities_rechecked": 4,
+      "request_bytes": 2304,
+      "proposed_request_present": false,
+      "external_supervisor_missing": true,
+      "scientific_execution": false
+    },
+    "boundary": "Complete historical source closure and current preparation metadata/pins. Four runtime context records and four phase1 regular identities reopened separately. All1810 vendor observations retained but not repeated by this source-seal check. Proposed actual paths remain absent. No scientific source or Python target loaded."
+  },
+  "diagnostics": [
+    {
+      "tool": "4c168e",
+      "exit_code": 1,
+      "description": "Bounded manifest rg lookup returned no path names matching runtime/vendor/supplier/host/bootstrap/admission/preflight/supervision/timeout. Search miss retained; not validation."
+    },
+    {
+      "tool": "7b17d2",
+      "exit_code": 1,
+      "description": "Guessed historical glob failed in zsh with no matching path before sed could read it. Exact supplied historical paths were then used; no broad search or source execution."
+    },
+    {
+      "tool": "apply_patch",
+      "exit_code": null,
+      "description": "Policy delete/add-in-one-patch rejected: multiple operations target same path. No file deletion occurred; single Update File retry succeeded before supplier reads."
+    },
+    {
+      "tool": "4e9b5f",
+      "exit_code": 0,
+      "description": "Administrative command completed, but selected gtimeout observation failed ENOENT. This remains an unresolved external-supervision prerequisite."
+    },
+    {
+      "tool": "57abd9",
+      "exit_code": 0,
+      "description": "Batch returned one FAILED_OBSERVATION because the external site-packages ancestor /Library/Python was missing. Separate4451ef absence observation retained alongside it; no erased failure."
+    },
+    {
+      "owner": "audit coauthor",
+      "description": "One broad historical-manifest display was clipped; only exact relevant files/spans were then fully read. No conclusion relies on the clipped display."
+    },
+    {
+      "owner": "audit coauthor",
+      "tool": "adaf06",
+      "exit_code": 0,
+      "description": "Earlier informal claim of existing normal/opt-1 pyc paths retracted. Historical selector has no __pycache__ or opt-1.pyc paths; cached strings were not existence evidence."
+    },
+    {
+      "owner": "audit coauthor",
+      "tool": "7c7d32",
+      "exit_code": 0,
+      "description": "First local parent-argv comparison used outer_argv[10:] and returned false; corrected index9 comparison returned true. Artifact command did not change; diagnostic mistake retained."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "RT01",
+      "status": "MISSING",
+      "requirement": "A genuine root-admitted external supervisor with a separate timer, bounded retained outer streams and demonstrated owned-process completion/cleanup. Selected gtimeout path is absent. No install or substitute is authorized by this packet."
+    },
+    {
+      "id": "RT02",
+      "status": "UNESTABLISHED",
+      "requirement": "Current static native dependency mapping and closure of reachable non-system suppliers, plus explicit root acceptance of Darwin kernel/Apple loader/shared-cache premises. Framework byte snapshots do not prove transitive runtime provenance."
+    },
+    {
+      "id": "RT03",
+      "status": "ROOT_ACTION",
+      "requirement": "Fresh one-shot root bootstrap/request/host admission and actual execution custody. Documentary strings, historical vendor observations and unchanged file hashes are not that admission."
+    },
+    {
+      "id": "RT04",
+      "status": "UNTESTED_UNTIL_ADMITTED_ATTEMPT",
+      "requirement": "Actual Python -I/-S/-B/-O flags and installed/read-back RLIMIT_AS512MiB,CPU110s,core0. No capability probe is permitted here; unsupported-limit refusal must remain a failed attempt without threshold relaxation."
+    }
+  ],
+  "unchanged_limits": {
+    "caller_seconds": 300,
+    "each_child_seconds": 120,
+    "reserved_child_cleanup_seconds": 2,
+    "child_work_seconds": 118,
+    "child_RLIMIT_AS_bytes": 536870912,
+    "child_RLIMIT_CPU_seconds": 110,
+    "child_RLIMIT_CORE_bytes": 0,
+    "each_internal_stream_and_report_bytes": 8388608,
+    "receipt_bytes": 262144,
+    "source_bytes": 2097152,
+    "request_bytes": 65536,
+    "cases_max": 10000
+  },
+  "source_counted_obligations": {
+    "families": 63,
+    "Q": 474,
+    "R": 1994,
+    "fault": 75,
+    "caller": 4,
+    "per_mode": 2547,
+    "total": 5094,
+    "Q05_indices_per_implementation": 109,
+    "R07": 545,
+    "R08": 436,
+    "R13_dictionaries": 120,
+    "R13_removals": 814,
+    "R13_extras": 120,
+    "executed": 0
+  },
+  "no_actions": {
+    "target_or_vendor_interpreter_invocations": 0,
+    "subject_control_caller_imports": 0,
+    "compilations": 0,
+    "AST": 0,
+    "probes": 0,
+    "fixtures": 0,
+    "actual_requests": 0,
+    "admissions": 0,
+    "actual_output_namespaces": 0,
+    "scientific_decodes": 0,
+    "new_agents": 0,
+    "source_edits": 0,
+    "repository_index_Git_writes": 0
+  },
+  "scientific_boundary": "No actual grid/capacity/joint q-v/W/C2/C3/H30/globalM6-rho/physical claim. Original P2/P3,Y=1/4,31focused/139policy/20native/42auditdeeper,sharedT1/other8parents/5Di/strict endpoints/multiplicities preserved. RET paused; measurement separate; QP04 later.",
+  "final_check_boundary": "Preseal covers9 files. A fresh final11 check and actual tool receipt must follow this author record and the handoff; neither is preclaimed here."
+}

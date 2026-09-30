@@ -1,0 +1,20 @@
+{
+  "external_only_preserved": [],
+  "historical_source_operands": "623 exact whole source/review identities remain at their original paths; no repeated scientific payload archive or fixture tree exists here.",
+  "include_names": [
+    "ACTUAL_READ_ONLY_DIAGNOSTICS.json",
+    "FINAL_PREPARATION_CHECK.json",
+    "FIXED_CURRENT_FACTS.json",
+    "HANDOFF.json",
+    "MONITOR_INVOCATION.proposal.txt",
+    "PREFLIGHT_AND_COMMAND.md",
+    "PUBLICATION_SUBSET.json",
+    "QUALIFICATION_PROPOSAL.json",
+    "READ_DIAGNOSTIC.stderr",
+    "SOURCE_AND_MONITOR_AUTHENTICATION.json",
+    "observe_fixed_facts.py",
+    "prepare_metadata_proposals.py",
+    "seal_preflight.py"
+  ],
+  "schema": "ri162-publication-subset-v1"
+}

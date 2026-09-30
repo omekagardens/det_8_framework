@@ -1,0 +1,160 @@
+{
+  "active_admission_created": false,
+  "current_binding_equals_immutable_expected_binding": true,
+  "current_selected_binding": {
+    "bytes": 102352,
+    "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+    "state": [
+      16777232,
+      172336345,
+      33261,
+      1,
+      102352,
+      1762508227000000000,
+      1763521990665808991
+    ],
+    "symlink_chain": []
+  },
+  "historical_selected_binding": {
+    "bytes": 102352,
+    "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+    "state": [
+      16777232,
+      172336345,
+      33261,
+      1,
+      102352,
+      1762508227000000000,
+      1763521990665808991
+    ],
+    "symlink_chain": []
+  },
+  "host": {
+    "sw_vers": {
+      "command": [
+        "/usr/bin/sw_vers"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t26.5.2\nBuildVersion:\t\t25F84\n",
+      "timeout_seconds": 10
+    },
+    "uname": {
+      "machine": "arm64",
+      "release": "25.5.0",
+      "sysname": "Darwin",
+      "version": "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000"
+    }
+  },
+  "limitations": [
+    "Finite fixed-file bytes/selection and OS facts only; no selected interpreter execution, sys.executable/flags/environment observation, runtime import/profile or complete supplier preflight.",
+    "Full supplier/cache/loader/host applicability remains a root predispatch responsibility; historical supplier observations are not current.",
+    "Path-component symlinks are represented by complete resolved_path; explicit chain lists endpoint symlink traversal. Direct vendor is required to have named path equal resolved path and empty chain."
+  ],
+  "observed_at_utc": "2026-09-30T18:37:13.541585+00:00",
+  "runtime_inventory": false,
+  "schema": "ri162-fixed-read-only-facts-v1",
+  "selected_file_observations": [
+    {
+      "bytes": 102352,
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+      "state": [
+        16777232,
+        172336345,
+        33261,
+        1,
+        102352,
+        1762508227000000000,
+        1763521990665808991
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 45721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe",
+      "state": [
+        16777244,
+        404038,
+        33188,
+        1,
+        45721,
+        1790765596177463239,
+        1790765596177463239
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 102368,
+      "path": "/usr/bin/env",
+      "resolved_path": "/usr/bin/env",
+      "sha256": "6e506aec3c0cff703ac1e66cedc6f1945354ad41339a38db4425c7c88227128f",
+      "state": [
+        16777232,
+        1152921500312571972,
+        33261,
+        1,
+        102368,
+        1782354543000000000,
+        1782354543000000000
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 101840,
+      "path": "/usr/bin/perl",
+      "resolved_path": "/usr/bin/perl",
+      "sha256": "abda2bfd23a6c9a8e57adf2291f0aea4abd8faf440558ee49fe4ced55e8d9ad0",
+      "state": [
+        16777232,
+        1152921500312572546,
+        33261,
+        1,
+        101840,
+        1782354543000000000,
+        1782354543000000000
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 170816,
+      "path": "/bin/ps",
+      "resolved_path": "/bin/ps",
+      "sha256": "472992c470606d28f577590decfecd7f4a20f832fd92c671bebc6d44790b5d02",
+      "state": [
+        16777232,
+        1152921500312571422,
+        35309,
+        1,
+        170816,
+        1782354543000000000,
+        1782354543000000000
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 135536,
+      "path": "/usr/bin/sw_vers",
+      "resolved_path": "/usr/bin/sw_vers",
+      "sha256": "f4704a35bc196e6dd101a7de40f9e9ce51dd17bdba7ef29ce465a00d123f2ec5",
+      "state": [
+        16777232,
+        1152921500312572878,
+        33261,
+        1,
+        135536,
+        1782354543000000000,
+        1782354543000000000
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "target_or_control_execution": false
+}
