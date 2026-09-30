@@ -1,0 +1,6 @@
+{
+  "checks_completed": 55978,
+  "error": "source uniqueness",
+  "error_type": "ValueError",
+  "status": "CHECKER_FAILURE_RETAINED"
+}

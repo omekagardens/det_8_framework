@@ -1,0 +1,245 @@
+{
+  "actual_occurrence": {
+    "elapsed_seconds": 4.767447042000001,
+    "genuine_tool_origin_basis": "Root supplied actual tool occurrences; saved exact dispatch/session/completion agree. Inert fixture INERT_NOT_A_REAL_TOOL records were never treated as genuine.",
+    "independently_recomputed_final_sample_to_reap_gap_seconds": 0.03505383300000009,
+    "independently_recomputed_maximum_sample_gap_seconds": 0.040021207999999975,
+    "maximum_sample_gap_limit_seconds": 0.1,
+    "no_timeout_exception_malformed_ps_or_tail_failure": true,
+    "observed_saved_child_exit": 0,
+    "outer_alarm_source_literal_seconds": 960,
+    "outer_and_child_stdout_stderr_empty": true,
+    "pending_session": 66856,
+    "ps_timeout_source_literal_seconds": 0.05,
+    "root_attested_initial_chunk": "f3f711",
+    "root_attested_terminal_chunk": "9921e9",
+    "root_genuine_terminal_exit": 0,
+    "rss_kib_limit": 524288,
+    "sampled_child_peak_rss_kib": 67040,
+    "samples_and_raw_attempts": 130,
+    "target_poll_source_literal_seconds": 0.025,
+    "wall_seconds_limit": 180
+  },
+  "control_review": {
+    "actual_outer_success": "All106 case records pass; outer COMPLETE has no first error, all9 tail errors null, actual final namespace has no mismatches. Actual final tree excludes only its then-unwritten COMPLETE; external POST includes that exact subsequently written file.",
+    "integration29": "All7 source,15 output,2 fixture and5 mode cases checked against exact first-error precedence, full actual recorded call order, registered tail inventory, retained COMPLETE/MODE_REVIEW bodies and current complete output trees. Primary/partial/final-write failures remain expected control outcomes, not erased errors.",
+    "new22": "Independently derives original and all mutated tree rows from the fixed alpha/beta/new-member/root-replacement bytes and targets. Checks missing/add/delete/file/link/root-kind changes for both roots, prefix normalization preserving every field, expectation availability, every member/output/fixture mismatch, primary-versus-late first error, earlier tail success and complete final scan. L21 preserves partial unknown expectation without inventing equality; L22 rejects successful action lacking required expectations.",
+    "retained55": "Exact IDs/order, every literal refusal and positive metadata outcome; source-role/runtime observers explicitly substituted. Whole inert mode30/27/13 metadata counters and no-science flags checked. Reduced-copy and direct-tail coverage remain reduced/direct. Positive relation independently compares all53 exact inert file bodies, all3 complete tree records with only2 WC19 seed-link relocations, and entire propagated fake qualifier metadata."
+  },
+  "count_clarification": "The582 source observations comprise581 distinct paths because the exact RI141 prepare.py monitor observation occurs twice identically. SOURCE_SET itself is separately pinned at SOURCES_BEFORE.source_manifest and in actual13-source tails. These are observation counts, not582 distinct files.",
+  "created_at_unix_ns": 1790799684652184000,
+  "current_custody": {
+    "distinct_source_paths": 581,
+    "inert_fixture_nodes": 2194,
+    "inspection_tools": 4,
+    "integration_fixture_nodes": 804,
+    "operation_files": 2468,
+    "operation_nodes": 3002,
+    "runtime_namespace": 195,
+    "source_manifest_dependencies": 567,
+    "source_observations": 582,
+    "vendor_files": 1810
+  },
+  "inherited_premises": [
+    "For these bounded local qualification operations, rely on the installed macOS 26.5.2/build25F84 Apple kernel, loader and shared cache implementation/integrity and resolution of the 17 explicitly named system suppliers. This is a root trust premise, not a demonstrated cache inventory or availability claim. An actual load failure refuses the operation.",
+    "Rely on the pinned inspection tools and Apple signature policy/trust store as observation infrastructure. Their transitive runtime, file magic database and trust roots were not independently closed.",
+    "Accept the 76-file installed-extension overapproximation as sufficient finite STATIC non-system scope for the unchanged isolated qualification sources. Dynamic import behavior, controlled environment, stable suppliers and actual flags remain separately checked or explicitly premised for each dispatch.",
+    "Unchanged reviewed isolated vendor/stdlib and adapter sources do not introduce undeclared dynamic suppliers or child descendants; these are explicit source/platform assumptions, not runtime closure proofs.",
+    "Root retains before/after hashes, source/card bytes and exact environment. Read-window stability is not an enforced global filesystem freeze.",
+    "The fixed 960s outer alarm and reviewed 180s child monitor are operational controls, not continuous/group RSS enforcement. Any missed 100ms sampling gap, absent samples, output overflow or genuine nonzero exit refuses this attempt."
+  ],
+  "limits_of_acceptance": [
+    "One genuine inert administrative qualification only; no additional target execution occurred in this review.",
+    "No RI131 campaign, WHITE15 numerical qualification, full32 qualification, scientific arithmetic acceptance, native forward map, experimental/noise adequacy, protected-validation or physical claim is established.",
+    "Inert credential/authority/runtime/process objects are deliberate fixtures, not authentic historical admission or current supplier/runtime evidence.",
+    "Current hash/stat/member reconciliation checks read-window stability. It is not an enforced global filesystem freeze or a dynamic/hermetic loader closure.",
+    "Owned-child RSS is sampled, not a continuous or process-group hard cap. No ps invocation duration is separately logged; the fixed timeout is checked through accepted monitor source and absence of failed attempts. Kernel/shared-cache, inspection-tool trust and stable no-descendant behavior remain explicit inherited premises.",
+    "No new automatic successor or root admission is issued by this reviewer."
+  ],
+  "preserved_review_diagnostics": {
+    "exact_repairs": [
+      {
+        "bytes": 1353,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/CHECKER_METADATA_REPAIR.diff",
+        "sha256": "51a65369e08c59a8e857702fa99d4c2668de60b836fb9b49f5d954fff0d0b516"
+      },
+      {
+        "bytes": 4654,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/CHECKER_DUPLICATE_OBSERVATION_REPAIR.diff",
+        "sha256": "2f1b594fcf5e7d5ae75671ecc0f00ac3988f1509add76430fe1eeb6a5af522b2"
+      }
+    ],
+    "explanation": "Two reviewer metadata assumptions were too strong: source manifest was expected inside sources list rather than its separately pinned top-level field, then582 observations were mistaken for582 unique paths. Both failures are retained. Exact snapshots/diffs document corrections; no subject file or acceptance gate changed. A separate exploratory duplicate-summary print also had an extra all() TypeError after printing the correct582/581 counts; this was not a subject failure.",
+    "failed_checker_records": [
+      {
+        "bytes": 158,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/CHECK_FAILURE-1790799473571732000.json",
+        "sha256": "54e338ace91974626a5d832fa7385504316068df5f3e515bb332140a078f6069"
+      },
+      {
+        "bytes": 134,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/CHECK_FAILURE-1790799497449780000.json",
+        "sha256": "ac064c413cf90e9c7848d10e324c0134b526156638e6258bc3c4d2373ab26fc3"
+      }
+    ],
+    "prior_checker_sources": [
+      {
+        "bytes": 39534,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/check_saved.initial.py",
+        "sha256": "88fcdf9f1edceec03359b95029da17ba230f189393b01d6e02281686821e8e53"
+      },
+      {
+        "bytes": 39665,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/check_saved.manifest-aware.py",
+        "sha256": "bc0155c36ebc7804ced93316cb04c3d497abaa7aa8d295f16720d86f1eab462a"
+      }
+    ]
+  },
+  "review_method": {
+    "allowed_interpreter": "/opt/homebrew/bin/python3",
+    "finite_checker": {
+      "bytes": 39963,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/check_saved.py",
+      "sha256": "4baacd6382ed8df1f763a0a13b28653430645a0472ed2f006c181918197b7b6b"
+    },
+    "finite_result": {
+      "bytes": 28990,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/CHECK_RESULT.json",
+      "sha256": "c29eed3872f85faac783474ced5881f403e0f0b0628a0ca8d471ff71fc606918"
+    },
+    "manual_source_reads": [
+      {
+        "bytes": 22982,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py",
+        "sha256": "28ed8355cee100c63b94338fd59a335c5a2193cc2f442fc9433062ec731e8ff9"
+      },
+      {
+        "bytes": 5313,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/custody_io.py",
+        "sha256": "b15e4edf55adead7a26759704edbe2d557b02c104b13a9c027a8ae0d7181fe7e"
+      },
+      {
+        "bytes": 28135,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/inert_controls.py",
+        "sha256": "170d50361e5b705a2998cac715222d56af274f30745d1cb3aa446772b74fefcc"
+      },
+      {
+        "bytes": 35291,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/integration_controls.py",
+        "sha256": "2ad1b1074c49df99d8432dc0d4f7017b58e77520009b02a58c9c3988be04f33c"
+      },
+      {
+        "bytes": 3874,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/monitor_checks.py",
+        "sha256": "e7ec6e2a220e1bae7e323a7146638c5d5e6c6d157c1bfbb0f9a3dcda3dd62f05"
+      },
+      {
+        "bytes": 22152,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_stage.py",
+        "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+      },
+      {
+        "bytes": 45721,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+        "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+      }
+    ],
+    "metadata_only": true,
+    "new_agents": false,
+    "original_evidence_modified": false,
+    "positive_relation_supplement_checker": {
+      "bytes": 5092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/check_saved_supplement.py",
+      "sha256": "5bcb5f86b6aae589d51cd84e5c5e818c3430f655bd69f8d272accdbd5459fbb2"
+    },
+    "positive_relation_supplement_result": {
+      "bytes": 627,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/SUPPLEMENT_RESULT.json",
+      "sha256": "0490a34bce864f93e05c8a96d89450fb36bf0401d0594a6de0eeec7a64301b1f"
+    },
+    "repository_or_git_writes": false,
+    "scientific_operand_decode": false,
+    "source_review_scope": "Complete adapter/inert-controls/integration-controls/custody/monitor verifier source read plus retained compare_modes and actual child_run; complete upstream source acceptance is authenticated as a premise, not recertified by mere byte hashing.",
+    "target_or_helper_import_compile_AST_rerun": false,
+    "vendor_invocation": false
+  },
+  "reviewer": "measurement_replay_review",
+  "role_disclosure": "Independent reviewer of this RI160/RI162 adapter-control execution. I did not author or execute the immutable RI160 source or root RI162 dispatch. Earlier unrelated measurement consumer/review authorship gives no additional authority here. Root owns final acceptance.",
+  "schema": "ri162-independent-completed-inert106-outcome-review-v1",
+  "status": "PASS_COMPLETE_SAVED_INERT106_OUTCOMES_AND_GENUINE_EXECUTION_CUSTODY",
+  "subject": {
+    "actual_summary": {
+      "bytes": 2752,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/ACTUAL_RUN_SUMMARY.json",
+      "sha256": "6cb30ad211c8be4fe25e9bc036dcf7ee4ba3ef6341f7ce43f655ca64dfff4847"
+    },
+    "admission": {
+      "bytes": 1927,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/ADAPTER_ADMISSION.json",
+      "sha256": "97b4963786e9c30391873ba0cf54cb4117c3d1f0a0491744ffc449b8b134a8e7"
+    },
+    "attempt": {
+      "bytes": 386,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri162-inert106-wb69vu5s/ATTEMPT.json",
+      "sha256": "b5732ff9f96a61bcc748b66c04ffbbbcfec6d13dae53c285d530b79ead3dd536"
+    },
+    "complete": {
+      "bytes": 3455655,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri162-inert106-wb69vu5s/COMPLETE.json",
+      "sha256": "5a4c0ba0ab2b963e3dc946c183e69ec19575157413fc86d777bc33ba98d2532c"
+    },
+    "external_post": {
+      "bytes": 3326313,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/POST_CUSTODY.json",
+      "sha256": "bf909414a3df6397ae261a284df2316b05c67f351d92a900a69e17ebec0633ab"
+    },
+    "genuine_initial": {
+      "bytes": 4938,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_INITIAL_TOOL.json",
+      "sha256": "360e8961008de8ec3a4089a28365a58fcf3b3fe747d7b8d24d5eeedbb3b9e7d9"
+    },
+    "genuine_terminal": {
+      "bytes": 487,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_TERMINAL_TOOL.json",
+      "sha256": "9d3b52fe299bbec1fbd5f4d5a1c7577de5e1d1ec6b9c1b09de23f2a34954b5d4"
+    },
+    "monitor": {
+      "bytes": 33024,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-monitor-proposed-wb69vu5s/CONTROLS.COMPLETION.json",
+      "sha256": "b2702177bb6d128da209d405f149fd12aa6beb14f5855b22972ecb68635116d3"
+    },
+    "preflight": {
+      "bytes": 3665,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/BOOTSTRAP_PREFLIGHT.json",
+      "sha256": "cd80d59cd9967afaf398d6b7c90c363c0c9dcfaf5deec1317cd550810ef73936"
+    },
+    "result": {
+      "bytes": 3245944,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri162-inert106-wb69vu5s/RESULT.json",
+      "sha256": "838059a30c617a6df1694fa97477bb214d5e3c379baadd80fc03abcafff7a0c9"
+    },
+    "source_adjudication": {
+      "bytes": 2582,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+      "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+    },
+    "source_manifest": {
+      "bytes": 147447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+      "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+    }
+  },
+  "verdict": {
+    "all106_exact_ids_order_closed_rows_and_typed_counts": true,
+    "all106_recorded_outcomes_reviewed_against_declared_control_scope": true,
+    "all22_new_late_fixture_oracles_reconstructed_independently": true,
+    "all9_actual_tail_errors_null": true,
+    "blocking_findings": [],
+    "complete_externally_pinned_and_included_in_post_tree": true,
+    "complete_raw_and_normalized_fixture_rows_equal_current_bytes": true,
+    "complete_receipt_independent_tails": 9,
+    "literal_intended_first_reasons_and_complete_eligible_tails": true,
+    "ret_paused": true,
+    "source_tools_cards_and_runtime_bytes_currently_unchanged": true
+  }
+}

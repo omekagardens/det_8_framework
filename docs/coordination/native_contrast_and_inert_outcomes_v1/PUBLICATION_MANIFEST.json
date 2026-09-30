@@ -1,0 +1,184 @@
+{
+  "exact_copies": 33,
+  "parent": "cf5789c0f2249a32a739b820a8886c373dc8ffa2",
+  "payload": [
+    {
+      "bytes": 1340340,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "18d0bd9db45abfc23767b9ee5d27ea03f5b462e09e7d20fda181607d7eaaf846"
+    },
+    {
+      "bytes": 1846,
+      "path": "README.md",
+      "sha256": "4820beebe7beee5e90fb941f549248ebce3c230ce606de1568bac79edf22ba39"
+    },
+    {
+      "bytes": 4654,
+      "path": "measurement_review/CHECKER_DUPLICATE_OBSERVATION_REPAIR.diff",
+      "sha256": "2f1b594fcf5e7d5ae75671ecc0f00ac3988f1509add76430fe1eeb6a5af522b2"
+    },
+    {
+      "bytes": 1353,
+      "path": "measurement_review/CHECKER_METADATA_REPAIR.diff",
+      "sha256": "51a65369e08c59a8e857702fa99d4c2668de60b836fb9b49f5d954fff0d0b516"
+    },
+    {
+      "bytes": 158,
+      "path": "measurement_review/CHECK_FAILURE-1790799473571732000.json",
+      "sha256": "54e338ace91974626a5d832fa7385504316068df5f3e515bb332140a078f6069"
+    },
+    {
+      "bytes": 134,
+      "path": "measurement_review/CHECK_FAILURE-1790799497449780000.json",
+      "sha256": "ac064c413cf90e9c7848d10e324c0134b526156638e6258bc3c4d2373ab26fc3"
+    },
+    {
+      "bytes": 28990,
+      "path": "measurement_review/CHECK_RESULT.json",
+      "sha256": "c29eed3872f85faac783474ced5881f403e0f0b0628a0ca8d471ff71fc606918"
+    },
+    {
+      "bytes": 16134,
+      "path": "measurement_review/INDEPENDENT_OUTCOME_REVIEW.json",
+      "sha256": "5482ba4ea3113c53a23486ad4f0d5d8f14acd3bced3cf52119bea796e701685b"
+    },
+    {
+      "bytes": 627,
+      "path": "measurement_review/SUPPLEMENT_RESULT.json",
+      "sha256": "0490a34bce864f93e05c8a96d89450fb36bf0401d0594a6de0eeec7a64301b1f"
+    },
+    {
+      "bytes": 39534,
+      "path": "measurement_review/check_saved.initial.py",
+      "sha256": "88fcdf9f1edceec03359b95029da17ba230f189393b01d6e02281686821e8e53"
+    },
+    {
+      "bytes": 39665,
+      "path": "measurement_review/check_saved.manifest-aware.py",
+      "sha256": "bc0155c36ebc7804ced93316cb04c3d497abaa7aa8d295f16720d86f1eab462a"
+    },
+    {
+      "bytes": 39963,
+      "path": "measurement_review/check_saved.py",
+      "sha256": "4baacd6382ed8df1f763a0a13b28653430645a0472ed2f006c181918197b7b6b"
+    },
+    {
+      "bytes": 5092,
+      "path": "measurement_review/check_saved_supplement.py",
+      "sha256": "5bcb5f86b6aae589d51cd84e5c5e818c3430f655bd69f8d272accdbd5459fbb2"
+    },
+    {
+      "bytes": 32382,
+      "path": "native_proof/AUTHOR_CHECKS.json",
+      "sha256": "48f79e3b31a47c4b4e4d81a90b1ccc7f6d56102871998f9b833b0b75fd936dba"
+    },
+    {
+      "bytes": 11920,
+      "path": "native_proof/CONTRAST_COUPLING.md",
+      "sha256": "cfb1c64f3e9d8caa28427cf9a6acb993d85d52bec5e4d7f8458c4da43273fd51"
+    },
+    {
+      "bytes": 16754,
+      "path": "native_proof/DEPENDENCY_NOTES.md",
+      "sha256": "24efe0e868394b670038d1fc7966f63a056c077e1ae5ae4197ccbd3b9710c498"
+    },
+    {
+      "bytes": 7884,
+      "path": "native_proof/HANDOFF.json",
+      "sha256": "418f9577fb0adb0e5f775c20b5e68903c76255154dc036f5fd979bf7fe392048"
+    },
+    {
+      "bytes": 2610,
+      "path": "native_proof/HANDOFF.md",
+      "sha256": "4d271fee887b0e2b28a76ae480f8d7d9ae0d0b88dc3c1286316557a074274965"
+    },
+    {
+      "bytes": 15927,
+      "path": "native_proof/REDUCED_SYSTEM.md",
+      "sha256": "0188b268a391da30b2fedfbd67c2f3d2d44303f1dcaefb7a0eb2b134cb682f02"
+    },
+    {
+      "bytes": 228353,
+      "path": "native_proof/SOURCE_DEPENDENCIES.json",
+      "sha256": "be240c6accdc71867af794339d511657c0e002f9a4ab3543d10d24cd19429d66"
+    },
+    {
+      "bytes": 40504,
+      "path": "native_proof/SOURCE_IDENTITIES.json",
+      "sha256": "28e9032dbaa8d49bf683c3b7c84f413896f4ddcce178e0365e65eed0f3e6c16e"
+    },
+    {
+      "bytes": 7092,
+      "path": "root/ADJUDICATOR_COUNT_REPAIR.diff",
+      "sha256": "bd1191e7408cc65f08bda9804017cdffecc112397b0ad7287a246279e02da6b7"
+    },
+    {
+      "bytes": 352,
+      "path": "root/ADJUDICATOR_DIAGNOSTIC.json",
+      "sha256": "00f04b0c14411507b89fd6c929ccf409e1b503c878e5704e65156097544db14c"
+    },
+    {
+      "bytes": 9283,
+      "path": "root/RI162_OUTCOME_ROOT_ADJUDICATION.json",
+      "sha256": "092095afb037f4bbbe96632aec107cd163e87eee8ce7df1dc06f396053808e26"
+    },
+    {
+      "bytes": 1261,
+      "path": "root/RI166_ROOT_ADJUDICATION.json",
+      "sha256": "635d33bda65c3aec4c75293694741b652977750d009575b5559793d863bb8dd7"
+    },
+    {
+      "bytes": 2875,
+      "path": "root/RI168_NATIVE_ASSIGNMENT.json",
+      "sha256": "a49d7c62a8a5c312a648b9962186dc6bc0af112b0ea4e1965ba7fd3268ff7710"
+    },
+    {
+      "bytes": 165522,
+      "path": "root/ROOT_METADATA_RECHECK.json",
+      "sha256": "d92d53c4f480d1488fed127639c1cd1510d9d9c44c8e5fcc3d5dd456125b4c3d"
+    },
+    {
+      "bytes": 6009,
+      "path": "root/ROOT_PROOF_REVIEW.md",
+      "sha256": "4cd94482cc501ce5f0b6fd563350ed3b00b6c4e75108eef864b57d34eb845e4f"
+    },
+    {
+      "bytes": 5860,
+      "path": "root/adjudicate.initial.py",
+      "sha256": "9991524c14c34ed4c62f86afa9a4bac87cd22a0d546a571c88f54e800eb77f8b"
+    },
+    {
+      "bytes": 5934,
+      "path": "root/adjudicate.py",
+      "sha256": "f19c5af794c42468d3ea7e9909d9e28e938a69c52e74575684762c90a6e27250"
+    },
+    {
+      "bytes": 29002,
+      "path": "root/measurement_replay/CHECK_RESULT.json",
+      "sha256": "67e5229b50b06b8f0bcfb05b6466079c17767e3d0e28803a6bed217945961572"
+    },
+    {
+      "bytes": 639,
+      "path": "root/measurement_replay/SUPPLEMENT_RESULT.json",
+      "sha256": "6f00eb4ba920ea6636559fd9e302c4a96cfa6f02345520a1fadb30500e07966a"
+    },
+    {
+      "bytes": 39963,
+      "path": "root/measurement_replay/check_saved.py",
+      "sha256": "4baacd6382ed8df1f763a0a13b28653430645a0472ed2f006c181918197b7b6b"
+    },
+    {
+      "bytes": 5092,
+      "path": "root/measurement_replay/check_saved_supplement.py",
+      "sha256": "5bcb5f86b6aae589d51cd84e5c5e818c3430f655bd69f8d272accdbd5459fbb2"
+    },
+    {
+      "bytes": 2853,
+      "path": "root/recheck.py",
+      "sha256": "8c2ba4e268e59f9c1dba6961724d8dff9be07d6072142fbb0a83dd8c2ec6ebcf"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": false
+}

@@ -1,0 +1,8 @@
+{
+  "chunk": "371ee6",
+  "exit_code": 1,
+  "reason": "Root incorrectly equated saved predicate count with later terminal count. Saved result captures 232815 before five final evidence pins (15 checks) and checker pin (3 checks), yielding terminal 232833.",
+  "subject_failure": false,
+  "prior_decisions_written": false,
+  "threshold_changed": false
+}

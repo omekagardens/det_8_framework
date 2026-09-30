@@ -1,0 +1,6 @@
+{
+  "checks_completed": 55977,
+  "error": "every source-set member in before closure",
+  "error_type": "ValueError",
+  "status": "CHECKER_FAILURE_RETAINED"
+}

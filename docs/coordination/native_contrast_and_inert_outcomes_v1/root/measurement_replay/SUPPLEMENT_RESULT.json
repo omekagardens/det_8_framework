@@ -1,0 +1,15 @@
+{
+  "checker": {
+    "bytes": 5092,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/measurement_replay/check_saved_supplement.py",
+    "sha256": "5bcb5f86b6aae589d51cd84e5c5e818c3430f655bd69f8d272accdbd5459fbb2"
+  },
+  "checks": 89,
+  "completed_at_unix_ns": 1790800087497606000,
+  "inert_relation_full53_bytes_and3tree_records_and_report": true,
+  "only_literal_seed_links_relocated": 2,
+  "positive_copy_and_policy_complete": true,
+  "scientific_or_genuine_fixture_credit": false,
+  "source_decision_matches_manifest": true,
+  "status": "PASS_ADDITIVE_SOURCE_AND_INERT_RELATION_REVIEW"
+}

@@ -1,62 +1,67 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-164's finite static native
-supplier closure is independently accepted under explicit Apple platform premises.
-The unchanged measurement adapter has completed its 106 inert controls once;
-full independent review of the control outcomes is active. Evidence is published
-in `docs/coordination/native_static_and_inert_qualification_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** RI-166's exact contrast identities,
+six-component separation and counterexample to its enumerated local relaxation
+are independently accepted. The full native-law comparison remains unresolved.
+The unchanged measurement adapter's actual 106-control run is now independently
+accepted as one inert metadata qualification. This checkpoint's evidence is in
+`docs/coordination/native_contrast_and_inert_outcomes_v1/`.
 
-Root check b1bf8e (exit 0) independently read the binary headers of 76 native
-objects and compared all 152 slices and 2,186 load commands with the captures.
-All 200 dependency edges reconcile: two resolve to the selected framework and
-198 name 17 Apple system candidates. Fresh hashes cover 322 historical objects,
-76 native files and seven tools. The author's historical reference expansion is
-not relabeled as a root replay. Apple platform/tool trust is an explicit premise;
-system-cache inventory, dynamic loading and hermetic runtime closure are unproved.
-An actual loading failure must refuse the operation.
+Complete C4 normalization gives Dminus=d7+Dplus+c0-c1. Therefore the proposed
+Dminus<=213*d7 bound requires Dplus+c0-c1<=212*d7, equivalently all three
+component halfspaces with coefficient 8733. The checked rational family satisfies
+all seven reduced premise groups for every 0<theta<1/144, yet Dminus/d7 is
+unbounded. It does not satisfy a checked complete native component table,
+all marked rows or a same-law global M5/canonical extension. The actual fixed
+109-vector remains unread; no full-law or physical counterexample is claimed.
+Root manual proof review and check 5830bf (exit 0) cover all eight packet files,
+252 historical identities and 223 unchanged inherited dependency rows.
 
-RI-165's independent supervisor review found two ordinary failure gaps: a pump
-error can discard the healthy stream, and fallback kill can omit the available
-direct-child reap. Root accepted both findings and assigned RI-167's narrow repair
-to the existing author in `ri167-native-supervisor-repair-79xn8tjz/`. Preserve the
-315-second/8-MiB bounds, unchanged native sources/request and focused checks.
-The author's administrative system-Python startup exception remains disclosed
-and receives no qualification credit. No supervisor or native control has run.
+RI-168 is assigned to the existing Quantum Relativity task in
+`ri168-terminal-row-coupling-f50p8xyj/`. It must determine the complete marked-row
+coupling of those six components through every maximal-deletion presentation,
+including alternative parents, retained marks and labeled ideal multiplicities.
+The aim is a substantive cross-row bound or exact remaining obstruction.
+No symmetry of the asymmetric fixed prefix is assumed. This remains a manual
+native proof lane alongside the independent measurement work.
 
-The existing Quantum Relativity task owns RI-166 in
-`ri166-native-contrast-gap-2j9ykuoq/`: determine whether Dminus <= 213*d7 follows
-from the retained native law and normalization without the unverified grid premise.
-A counterexample to a reduced constraint system cannot reject the full native law.
-The original 109-vector stays unread pending qualification and separate QP04.
-The 2,547 cases per mode (5,094 total) remain prospective. Native 300/120/2-second,
-512-MiB address-space, 110-CPU-second, core-zero and 8-MiB limits remain unchanged.
-A verified universal 1/1000 grid would imply lambda > d7 >= 41/44000 > 1/13000
-and reject only the retained sufficient envelope; GRID_FAIL removes that shortcut.
+The actual measurement run f3f711/session 66856 -> 9921e9 exited 0 and passed
+106/106 controls once. Independent review checked all outcomes, 22 late-fixture
+oracles, retained trees, nine tails and 130 monitor samples. Root replay 4bf10c
+and supplement 423834 both exited 0. The saved result records 232,815 predicates;
+terminal evidence/checker hashing brings the count to 232,833, plus 89 separate
+relation checks. Both counts and the corrected root count-assumption failure
+are retained. Current custody covers 1,810 vendor files, 195 directory/link
+records, four tools and 582 source observations over 581 distinct paths.
+SOURCE_SET is separately pinned and checked through the actual source tail.
+Elapsed time was 4.767447042 seconds, peak sampled child RSS 67,040 KiB,
+maximum sample gap 0.040021208 seconds and final gap 0.035053833 seconds.
 
-Fresh measurement preflight 3de2cf (exit 0) authenticated the bootstrap binding,
-all 1,810 vendor files and 195 directory/link records, sources, primitives, host
-and controlled environment before root admission. Actual tool f3f711 returned
-session 66856; terminal 9921e9 exited 0 with empty output. The run reports 106/106
-passed in 4.767447042 seconds, with 130 valid samples and 67,040 KiB peak sampled
-child RSS. Root postcheck 9b69eb (exit 0) reconciled all samples/gaps/peaks,
-source/vendor/card identities and the full external tree including COMPLETE.
-All nine adapter tail checks report no error. Full independent control, oracle
-and fixture review remains required; this checkpoint does not accept qualification.
+The next measurement step is root's concrete current-E capture/baseline/profile
+preflight, then actual R01 applicability and separately admitted genuine
+normal-before-optimized WHITE15 qualification with independent saved arithmetic.
+Preserve complete 27/13/30 records, 57 artifacts, 74 postchecks and three trees.
+No RI131, WHITE15, full32, scientific-data admission or GWOSC reproduction credit
+comes from these inert controls. Preserve the 180-second/524288-KiB sampled-child,
+25-ms target, 100-ms gap, 50-ms ps and 960-second outer limits. They are not
+continuous or group memory quotas. Platform/tool trust and stable-loader premises
+remain explicit; read-window hashes are not an enforced filesystem freeze.
 
-Preserve the 180-second/524288-KiB sampled-child, 25-ms target, 100-ms gap, 50-ms ps
-and 960-second outer bounds. These are not continuous or group memory quotas.
-After acceptance, advance unchanged current-E capture/baseline/profiles, actual
-R01 applicability, genuine normal-before-optimized ordering, complete 27/13/30
-records, 57 artifacts, 74 postchecks, three trees and independent saved arithmetic.
-Actual 15 WHITE, RI131, full32 and selected public GWOSC conventional reproduction
-remain separate. Inert credentials gain no genuine runtime or scientific credit.
-Calibration, the native forward map and physical claims remain open.
+RI-167's supervisor repair is sealed and awaits independent root source review;
+its 13 retained groups and 28 focused variants are all unexecuted. It is excluded
+from this accepted-source publication. Native 2,547-case qualification in each
+mode, the actual coefficient-vector grid check and QP04 admission remain pending.
+Preserve the 315-second supervisor and 300/120/2-second native limits, 512-MiB
+address-space/110-CPU-second/core-zero controls and 8-MiB output bounds.
+RI-164's finite static closure remains accepted under its explicit Apple trust
+premises, not as dynamic or hermetic closure. Prior startup failures retain
+zero qualification credit.
 
-Actual capacity, adequate joint q/v, global M6/rho and W/C2/C3/shared H30 remain
-open. Preserve P2/P3, Y=1/4, 31 focused/139 policy/20 native/42 audit deeper cases,
-strict endpoints, multiplicities, shared T1, the other eight parents and five Di.
-Root owns Git, admissions and independent acceptance; historical evidence,
-unrelated edits and active work remain preserved.
+Actual capacity, joint q/v, global M6/rho, W/C2/C3/shared H30, calibration and
+the native forward map remain open. Preserve P2/P3, Y=1/4, the 31/139/20/42
+obligations, shared T1, the other eight parents and all five Di. Root retains
+Git/index, admission and publication ownership. Historical evidence, unrelated
+edits and active reservations remain intact.
 The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
@@ -12473,4 +12478,70 @@ open. Preserve P2/P3, Y=1/4, 31 focused/139 policy/20 native/42 audit deeper cas
 strict endpoints, multiplicities, shared T1, the other eight parents and five Di.
 Root owns Git, admissions and independent acceptance; historical evidence,
 unrelated edits and active work remain preserved.
+The programme continues; RET alone remains paused.
+
+**30 September 2026 — native contrast review and actual inert outcomes accepted.**
+
+**Current checkpoint — 30 September 2026 UTC.** RI-166's exact contrast identities,
+six-component separation and counterexample to its enumerated local relaxation
+are independently accepted. The full native-law comparison remains unresolved.
+The unchanged measurement adapter's actual 106-control run is now independently
+accepted as one inert metadata qualification. This checkpoint's evidence is in
+`docs/coordination/native_contrast_and_inert_outcomes_v1/`.
+
+Complete C4 normalization gives Dminus=d7+Dplus+c0-c1. Therefore the proposed
+Dminus<=213*d7 bound requires Dplus+c0-c1<=212*d7, equivalently all three
+component halfspaces with coefficient 8733. The checked rational family satisfies
+all seven reduced premise groups for every 0<theta<1/144, yet Dminus/d7 is
+unbounded. It does not satisfy a checked complete native component table,
+all marked rows or a same-law global M5/canonical extension. The actual fixed
+109-vector remains unread; no full-law or physical counterexample is claimed.
+Root manual proof review and check 5830bf (exit 0) cover all eight packet files,
+252 historical identities and 223 unchanged inherited dependency rows.
+
+RI-168 is assigned to the existing Quantum Relativity task in
+`ri168-terminal-row-coupling-f50p8xyj/`. It must determine the complete marked-row
+coupling of those six components through every maximal-deletion presentation,
+including alternative parents, retained marks and labeled ideal multiplicities.
+The aim is a substantive cross-row bound or exact remaining obstruction.
+No symmetry of the asymmetric fixed prefix is assumed. This remains a manual
+native proof lane alongside the independent measurement work.
+
+The actual measurement run f3f711/session 66856 -> 9921e9 exited 0 and passed
+106/106 controls once. Independent review checked all outcomes, 22 late-fixture
+oracles, retained trees, nine tails and 130 monitor samples. Root replay 4bf10c
+and supplement 423834 both exited 0. The saved result records 232,815 predicates;
+terminal evidence/checker hashing brings the count to 232,833, plus 89 separate
+relation checks. Both counts and the corrected root count-assumption failure
+are retained. Current custody covers 1,810 vendor files, 195 directory/link
+records, four tools and 582 source observations over 581 distinct paths.
+SOURCE_SET is separately pinned and checked through the actual source tail.
+Elapsed time was 4.767447042 seconds, peak sampled child RSS 67,040 KiB,
+maximum sample gap 0.040021208 seconds and final gap 0.035053833 seconds.
+
+The next measurement step is root's concrete current-E capture/baseline/profile
+preflight, then actual R01 applicability and separately admitted genuine
+normal-before-optimized WHITE15 qualification with independent saved arithmetic.
+Preserve complete 27/13/30 records, 57 artifacts, 74 postchecks and three trees.
+No RI131, WHITE15, full32, scientific-data admission or GWOSC reproduction credit
+comes from these inert controls. Preserve the 180-second/524288-KiB sampled-child,
+25-ms target, 100-ms gap, 50-ms ps and 960-second outer limits. They are not
+continuous or group memory quotas. Platform/tool trust and stable-loader premises
+remain explicit; read-window hashes are not an enforced filesystem freeze.
+
+RI-167's supervisor repair is sealed and awaits independent root source review;
+its 13 retained groups and 28 focused variants are all unexecuted. It is excluded
+from this accepted-source publication. Native 2,547-case qualification in each
+mode, the actual coefficient-vector grid check and QP04 admission remain pending.
+Preserve the 315-second supervisor and 300/120/2-second native limits, 512-MiB
+address-space/110-CPU-second/core-zero controls and 8-MiB output bounds.
+RI-164's finite static closure remains accepted under its explicit Apple trust
+premises, not as dynamic or hermetic closure. Prior startup failures retain
+zero qualification credit.
+
+Actual capacity, joint q/v, global M6/rho, W/C2/C3/shared H30, calibration and
+the native forward map remain open. Preserve P2/P3, Y=1/4, the 31/139/20/42
+obligations, shared T1, the other eight parents and all five Di. Root retains
+Git/index, admission and publication ownership. Historical evidence, unrelated
+edits and active reservations remain intact.
 The programme continues; RET alone remains paused.

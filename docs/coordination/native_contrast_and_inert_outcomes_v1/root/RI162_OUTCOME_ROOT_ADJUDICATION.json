@@ -1,0 +1,145 @@
+{
+  "accepted_action": "controls",
+  "accepted_controls": 106,
+  "actual_data_admitted": false,
+  "actual_occurrence": {
+    "elapsed_seconds": 4.767447042000001,
+    "genuine_tool_origin_basis": "Root supplied actual tool occurrences; saved exact dispatch/session/completion agree. Inert fixture INERT_NOT_A_REAL_TOOL records were never treated as genuine.",
+    "independently_recomputed_final_sample_to_reap_gap_seconds": 0.03505383300000009,
+    "independently_recomputed_maximum_sample_gap_seconds": 0.040021207999999975,
+    "maximum_sample_gap_limit_seconds": 0.1,
+    "no_timeout_exception_malformed_ps_or_tail_failure": true,
+    "observed_saved_child_exit": 0,
+    "outer_alarm_source_literal_seconds": 960,
+    "outer_and_child_stdout_stderr_empty": true,
+    "pending_session": 66856,
+    "ps_timeout_source_literal_seconds": 0.05,
+    "root_attested_initial_chunk": "f3f711",
+    "root_attested_terminal_chunk": "9921e9",
+    "root_genuine_terminal_exit": 0,
+    "rss_kib_limit": 524288,
+    "sampled_child_peak_rss_kib": 67040,
+    "samples_and_raw_attempts": 130,
+    "target_poll_source_literal_seconds": 0.025,
+    "wall_seconds_limit": 180
+  },
+  "actual_summary": {
+    "bytes": 2752,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/ACTUAL_RUN_SUMMARY.json",
+    "sha256": "6cb30ad211c8be4fe25e9bc036dcf7ee4ba3ef6341f7ce43f655ca64dfff4847"
+  },
+  "all_nine_tails_error_null": true,
+  "complete_external_custody": true,
+  "genuine_initial": {
+    "bytes": 4938,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_INITIAL_TOOL.json",
+    "sha256": "360e8961008de8ec3a4089a28365a58fcf3b3fe747d7b8d24d5eeedbb3b9e7d9"
+  },
+  "genuine_terminal": {
+    "bytes": 487,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_TERMINAL_TOOL.json",
+    "sha256": "9d3b52fe299bbec1fbd5f4d5a1c7577de5e1d1ec6b9c1b09de23f2a34954b5d4"
+  },
+  "independent_review": {
+    "bytes": 16134,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/INDEPENDENT_OUTCOME_REVIEW.json",
+    "sha256": "5482ba4ea3113c53a23486ad4f0d5d8f14acd3bced3cf52119bea796e701685b"
+  },
+  "inherited_premises": [
+    "For these bounded local qualification operations, rely on the installed macOS 26.5.2/build25F84 Apple kernel, loader and shared cache implementation/integrity and resolution of the 17 explicitly named system suppliers. This is a root trust premise, not a demonstrated cache inventory or availability claim. An actual load failure refuses the operation.",
+    "Rely on the pinned inspection tools and Apple signature policy/trust store as observation infrastructure. Their transitive runtime, file magic database and trust roots were not independently closed.",
+    "Accept the 76-file installed-extension overapproximation as sufficient finite STATIC non-system scope for the unchanged isolated qualification sources. Dynamic import behavior, controlled environment, stable suppliers and actual flags remain separately checked or explicitly premised for each dispatch.",
+    "Unchanged reviewed isolated vendor/stdlib and adapter sources do not introduce undeclared dynamic suppliers or child descendants; these are explicit source/platform assumptions, not runtime closure proofs.",
+    "Root retains before/after hashes, source/card bytes and exact environment. Read-window stability is not an enforced global filesystem freeze.",
+    "The fixed 960s outer alarm and reviewed 180s child monitor are operational controls, not continuous/group RSS enforcement. Any missed 100ms sampling gap, absent samples, output overflow or genuine nonzero exit refuses this attempt."
+  ],
+  "limits": [
+    "One genuine inert administrative qualification only; no additional target execution occurred in this review.",
+    "No RI131 campaign, WHITE15 numerical qualification, full32 qualification, scientific arithmetic acceptance, native forward map, experimental/noise adequacy, protected-validation or physical claim is established.",
+    "Inert credential/authority/runtime/process objects are deliberate fixtures, not authentic historical admission or current supplier/runtime evidence.",
+    "Current hash/stat/member reconciliation checks read-window stability. It is not an enforced global filesystem freeze or a dynamic/hermetic loader closure.",
+    "Owned-child RSS is sampled, not a continuous or process-group hard cap. No ps invocation duration is separately logged; the fixed timeout is checked through accepted monitor source and absence of failed attempts. Kernel/shared-cache, inspection-tool trust and stable no-descendant behavior remain explicit inherited premises.",
+    "No new automatic successor or root admission is issued by this reviewer."
+  ],
+  "new_target_runs_this_review": 0,
+  "next_action": "Bind current-E capture, baseline and profile applicability under a fresh scoped root preflight; then preserve separate actual R01, genuine normal-before-optimized WHITE15 and independent arithmetic acceptance. This outcome decision alone authorizes no additional dispatch.",
+  "original_source_acceptance": {
+    "bytes": 2582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+    "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+  },
+  "ret_paused": true,
+  "review_diagnostics": {
+    "exact_repairs": [
+      {
+        "bytes": 1353,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/CHECKER_METADATA_REPAIR.diff",
+        "sha256": "51a65369e08c59a8e857702fa99d4c2668de60b836fb9b49f5d954fff0d0b516"
+      },
+      {
+        "bytes": 4654,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/CHECKER_DUPLICATE_OBSERVATION_REPAIR.diff",
+        "sha256": "2f1b594fcf5e7d5ae75671ecc0f00ac3988f1509add76430fe1eeb6a5af522b2"
+      }
+    ],
+    "explanation": "Two reviewer metadata assumptions were too strong: source manifest was expected inside sources list rather than its separately pinned top-level field, then582 observations were mistaken for582 unique paths. Both failures are retained. Exact snapshots/diffs document corrections; no subject file or acceptance gate changed. A separate exploratory duplicate-summary print also had an extra all() TypeError after printing the correct582/581 counts; this was not a subject failure.",
+    "failed_checker_records": [
+      {
+        "bytes": 158,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/CHECK_FAILURE-1790799473571732000.json",
+        "sha256": "54e338ace91974626a5d832fa7385504316068df5f3e515bb332140a078f6069"
+      },
+      {
+        "bytes": 134,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/CHECK_FAILURE-1790799497449780000.json",
+        "sha256": "ac064c413cf90e9c7848d10e324c0134b526156638e6258bc3c4d2373ab26fc3"
+      }
+    ],
+    "prior_checker_sources": [
+      {
+        "bytes": 39534,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/check_saved.initial.py",
+        "sha256": "88fcdf9f1edceec03359b95029da17ba230f189393b01d6e02281686821e8e53"
+      },
+      {
+        "bytes": 39665,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/check_saved.manifest-aware.py",
+        "sha256": "bc0155c36ebc7804ced93316cb04c3d497abaa7aa8d295f16720d86f1eab462a"
+      }
+    ]
+  },
+  "root_replay": {
+    "full_result_equal_except_checker_location_and_timestamp": true,
+    "main": {
+      "bytes": 29002,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/measurement_replay/CHECK_RESULT.json",
+      "sha256": "67e5229b50b06b8f0bcfb05b6466079c17767e3d0e28803a6bed217945961572"
+    },
+    "main_tool": {
+      "chunk": "4bf10c",
+      "exit_code": 0,
+      "saved_result_predicates": 232815,
+      "terminal_predicates_after_evidence_and_checker_hashes": 232833
+    },
+    "source_exact_copies": true,
+    "supplement": {
+      "bytes": 639,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/measurement_replay/SUPPLEMENT_RESULT.json",
+      "sha256": "6f00eb4ba920ea6636559fd9e302c4a96cfa6f02345520a1fadb30500e07966a"
+    },
+    "supplement_tool": {
+      "chunk": "423834",
+      "exit_code": 0,
+      "predicates": 89
+    }
+  },
+  "schema": "ri162-root-inert106-outcome-adjudication-v1",
+  "scientific_qualification_accepted": false,
+  "source_count": "582 observations, 581 distinct paths; SOURCE_SET separately pinned and freshly checked through both preflight and actual source tail",
+  "source_manifest": {
+    "bytes": 147447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+  },
+  "status": "ACCEPT_ONE_GENUINE_INERT_METADATA_QUALIFICATION"
+}
