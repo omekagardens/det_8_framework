@@ -1,0 +1,99 @@
+{
+  "exact_namespace": [
+    "AUTHORING_RECORD.md",
+    "BOOTSTRAP_VERIFICATION_DESIGN.json",
+    "DEPENDENCIES.source-only.json",
+    "DEPENDENCY_ADDITIONS.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "METADATA_CHECK.json",
+    "METADATA_CHECK_ATTEMPT1.json",
+    "PROTOCOL.md",
+    "REPAIR.diff",
+    "REPAIR_CONTRACT.md",
+    "SOURCE_CORRESPONDENCE.json",
+    "fault_controls.source-only.py",
+    "prepare.py",
+    "runtime_metadata.py"
+  ],
+  "files": [
+    {
+      "bytes": 5165,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/AUTHORING_RECORD.md",
+      "sha256": "4484d463f02743bd744bb1042a0cd0287b38eb4c3e659b97b83854edc7715d37"
+    },
+    {
+      "bytes": 7491,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/BOOTSTRAP_VERIFICATION_DESIGN.json",
+      "sha256": "72586486cc6be1ae06a2cd51fc0b769dccc569b1275c9b5f18b5faf08227ca25"
+    },
+    {
+      "bytes": 127567,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    {
+      "bytes": 74268,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCY_ADDITIONS.json",
+      "sha256": "ca7666839b695be8de5290545c0d48dc95b876acf1e8eee38adbc91eba3466d3"
+    },
+    {
+      "bytes": 9366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+    },
+    {
+      "bytes": 1617,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.md",
+      "sha256": "52217a8f8e38f9269181bbe1a717069c09e8fd7a67d082b6ea482c978dca7a8e"
+    },
+    {
+      "bytes": 120090,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/METADATA_CHECK.json",
+      "sha256": "62b609b048fd7126c4e2a4506a1b4f5be57144abb8a3829d03705354b19f93ee"
+    },
+    {
+      "bytes": 828,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/METADATA_CHECK_ATTEMPT1.json",
+      "sha256": "2b61a297088b48a2eb29485e7b626e792be4a0e15f729d7f8bfec3b1dd61b60f"
+    },
+    {
+      "bytes": 26464,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "sha256": "ee99c90a46ffd1b1bc828e8da5fa8bcc6d18e47d4f0945d8ebc9d0e2cc65ec75"
+    },
+    {
+      "bytes": 6209,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/REPAIR.diff",
+      "sha256": "0d890df3ec3a3c208947cb7bab9c7084ee4decfabd0a20dc826e9ba0ac826204"
+    },
+    {
+      "bytes": 7209,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/REPAIR_CONTRACT.md",
+      "sha256": "781548c211d0be2dff75fcd5ad1b8476df1429dd010ce2ea473211a5ae09817a"
+    },
+    {
+      "bytes": 22724,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/SOURCE_CORRESPONDENCE.json",
+      "sha256": "2826f53b180f0b2537bfd35c8f9e3979e322683a7d4898181a40a4c7f473c173"
+    },
+    {
+      "bytes": 19967,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/fault_controls.source-only.py",
+      "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+    },
+    {
+      "bytes": 45721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    {
+      "bytes": 18728,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  ],
+  "review_only_no_current_runtime": true,
+  "schema": "ri141-reviewer-final-source-custody-v1",
+  "source_packet_unchanged": true
+}

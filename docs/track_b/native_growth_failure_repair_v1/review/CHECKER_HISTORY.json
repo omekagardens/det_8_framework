@@ -1,0 +1,36 @@
+{
+  "failed_current_checker_attempts": [],
+  "note": "Some long plain text-display calls were truncated; they are not failed checker executions and receive no complete-body semantic credit. Missing current-diff text was separately reread.",
+  "prior_diagnostic_bodies_opened": false,
+  "prior_ri138_distinct_success": "004aa6 exit 0",
+  "prior_ri138_failures_retained": [
+    "d0a200 exit 1",
+    "916334 exit 1"
+  ],
+  "runs": [
+    {
+      "actual_tool_completion": {
+        "chunk_id": "3c7fd9",
+        "exit_code": 0,
+        "wall_time_seconds": 0.050511
+      },
+      "checks": 430,
+      "complete_authoring_shell_command_not_reproduced": true,
+      "errors": [],
+      "executed_checker_component_command": "python3 /Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/check_review_metadata.py",
+      "meaning": "Opaque identity and literal-text/administrative-reference comparisons only; zero subject execution.",
+      "result": {
+        "bytes": 174064,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/OPAQUE_TEXT_CHECK.json",
+        "sha256": "dee3f88bc0154998b515793f172cd28492db4ec7f93824d9af176f296a4eca2e"
+      },
+      "source": {
+        "bytes": 10293,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/check_review_metadata.py",
+        "sha256": "3e599e3fff7ba845ec9e08741cb6ec1947c1a7bfd84164bc55bcf757718579cb"
+      }
+    }
+  ],
+  "schema": "ri140-independent-actual-metadata-history-v1",
+  "scope": "Transcription from genuine reviewer tool history; root must reconcile it, not treat this local file as self-authenticating tool authority."
+}

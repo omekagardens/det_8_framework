@@ -1,0 +1,37 @@
+{
+  "measurement": {
+    "adjudication": {
+      "bytes": 3799,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+      "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+    },
+    "assigned": true,
+    "dispatch": "Actual collaboration.followup_task succeeded after review seal; worker separately acknowledged exact reservation and source-only scope.",
+    "execution_admitted": false,
+    "item": "RI144",
+    "owner": "/root/archive_repro_review",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt",
+    "predecessor_decision": {
+      "bytes": 3799,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+      "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+    },
+    "scope": "Complete-source isolated B01-B10 control implementation,15 expectations with six B07 variants, source only until new nonauthor review/root admission"
+  },
+  "native": {
+    "assigned": true,
+    "dispatch": "Actual mcp__codex_app__send_message_to_thread succeeded to specified existing QR thread; not an operational tool receipt or admission.",
+    "execution_admitted": false,
+    "item": "RI143",
+    "owner": "Quantum Relativity 01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge",
+    "predecessor_decision": {
+      "bytes": 5028,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI140_ROOT_ADJUDICATION.json",
+      "sha256": "c6611c3e7ae4d915dbef12d37cafcbd9ec714eb76a66fb84815a9ed2968b0481"
+    },
+    "scope": "Concrete exact-boundary feasibility for unchanged subjects and at most 31 attempts; justified bounded controller source or explicit blocker/minimum premise. No subject globals replacement, startup bypass, intended-timing credit, faults or policy/science execution."
+  },
+  "operational_admission": false,
+  "schema": "ri140-ri141-dispatched-successors-v1"
+}

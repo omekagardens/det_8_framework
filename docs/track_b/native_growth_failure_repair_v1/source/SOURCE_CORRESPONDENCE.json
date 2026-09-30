@@ -1,0 +1,1589 @@
+{
+  "schema": "ri140-source-correspondence-v1",
+  "status": "AUTHOR_LITERAL_TEXT_COMPARISON_NOT_EXECUTION",
+  "predecessor": "RI138 immutable source; no source-body import, compile, AST, probe or execution",
+  "method": "Complete unified diffs reconstructed every current byte from the predecessor text. Definition spans were found by literal indentation/signature scanning, not a Python parser. Terminal empty lines are outside each recorded slice. Each listed identical slice was compared as UTF-8 bytes. Class spans overlap their methods and do not imply disjoint line coverage or a semantic proof.",
+  "source_diffs": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_CODE.diff",
+      "bytes": 23623,
+      "sha256": "1bd097ae935978447488ba80a3146eade0c2c05a86ff27ead15e5dfbe276135e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/METADATA_CONTRACT.diff",
+      "bytes": 73046,
+      "sha256": "fa5f8669a3bc90bd56398ddcea61b3e3ecc7e1e94fc6dbb5ab602bbd5c123f25"
+    }
+  ],
+  "complete_source_delta_checks": [
+    {
+      "name": "custody.py",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/custody.py",
+        "bytes": 33143,
+        "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/custody.py",
+        "bytes": 33143,
+        "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+      },
+      "hunks": 0,
+      "reconstructed_exactly": true
+    },
+    {
+      "name": "owned_process.py",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py",
+        "bytes": 38953,
+        "sha256": "8e749ead931f4a47f83853b1e4bb24c4c752aef79aac7349f0fd5cb7f8de5b62"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+        "bytes": 43838,
+        "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+      },
+      "hunks": 10,
+      "reconstructed_exactly": true
+    },
+    {
+      "name": "launch_policy_case.py",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py",
+        "bytes": 57622,
+        "sha256": "670232ab5da7b2efa63d703c6fbd38fa088ff758d9d4dea129ac62845aab6ab9"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+        "bytes": 60009,
+        "sha256": "a0526720e530caa529499ff4d6e9e9794462fb50a1975232eb229e37d683828d"
+      },
+      "hunks": 12,
+      "reconstructed_exactly": true
+    }
+  ],
+  "complete_shared_metadata_contract_delta_checks": [
+    {
+      "name": "SOURCE_DEPENDENCIES.json",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_DEPENDENCIES.json",
+        "bytes": 673928,
+        "sha256": "48feb69eb10637ffa1f9f57522c09661e21b4eb9283737b6499497be7e8f22f2"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_DEPENDENCIES.json",
+        "bytes": 699052,
+        "sha256": "bd04d9013a543e63eb3db2488156c9c1c22333c48b68bdbce2ffcb9e33461544"
+      },
+      "hunks": 7,
+      "reconstructed_exactly": true
+    },
+    {
+      "name": "SOURCE_IDENTITIES.json",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_IDENTITIES.json",
+        "bytes": 23755,
+        "sha256": "ea8dec463c6827bd10ebb15df1bb52932cd03552baee869c933acae4f74c5465"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_IDENTITIES.json",
+        "bytes": 26029,
+        "sha256": "25a694353f782aa3d6c50f925981b5403a5da28308676930256b420c110f192c"
+      },
+      "hunks": 2,
+      "reconstructed_exactly": true
+    },
+    {
+      "name": "DEPENDENCY_NOTES.md",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/DEPENDENCY_NOTES.md",
+        "bytes": 9639,
+        "sha256": "dacd4443ade07837d52ea407c33d86d705094b7356ed1f80757a2804774d58c3"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/DEPENDENCY_NOTES.md",
+        "bytes": 11423,
+        "sha256": "18ac7ec773bbe979d07ff45b5a466c01661baf94cf379421b168e6cdf1e28a97"
+      },
+      "hunks": 1,
+      "reconstructed_exactly": true
+    },
+    {
+      "name": "ROOT_INTERFACE_CONTRACT.md",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/ROOT_INTERFACE_CONTRACT.md",
+        "bytes": 11369,
+        "sha256": "52b1888a51f68f1e80b3d31d147d8f0032d115e497dd5521655cc45c2f8ccbf9"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/ROOT_INTERFACE_CONTRACT.md",
+        "bytes": 15005,
+        "sha256": "b47225767ebab5822fbca8d40727fe57fed577b054c6a52606d030a5cee0c34b"
+      },
+      "hunks": 3,
+      "reconstructed_exactly": true
+    },
+    {
+      "name": "REVIEW_OBLIGATIONS.md",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/REVIEW_OBLIGATIONS.md",
+        "bytes": 2658,
+        "sha256": "43b67b0134ca393e9fe8ab31a2f721bc232e74df08833c95391296d0b5fb6f9d"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/REVIEW_OBLIGATIONS.md",
+        "bytes": 2996,
+        "sha256": "3c94e32c7200c899ca1f5788595124aeb91f37f8d4e77ca381aff70c3317a79c"
+      },
+      "hunks": 1,
+      "reconstructed_exactly": true
+    },
+    {
+      "name": "HANDOFF.md",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.md",
+        "bytes": 3702,
+        "sha256": "0145c4f2d5a682ae8f51b04509999aabeb0661d8acc233227adede86b488d6b4"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.md",
+        "bytes": 4696,
+        "sha256": "d6a2e6379ea9e1f763e8222b47afc51444a1922c79b9dd81d3aadc56a213c836"
+      },
+      "hunks": 1,
+      "reconstructed_exactly": true
+    }
+  ],
+  "modules": [
+    {
+      "name": "custody.py",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/custody.py",
+        "bytes": 33143,
+        "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/custody.py",
+        "bytes": 33143,
+        "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+      },
+      "old_lines": 617,
+      "current_lines": 617,
+      "whole_file_identical": true,
+      "unchanged_definitions": [
+        {
+          "name": "Stop",
+          "kind": "class",
+          "old_start": 40,
+          "old_end": 43,
+          "current_start": 40,
+          "current_end": 43,
+          "bytes": 124,
+          "sha256": "5b067f8cd0010f567cbdd4697a3b8c34034685d70d7feb88ce8e233c5be0e86e"
+        },
+        {
+          "name": "Stop.__init__",
+          "kind": "def",
+          "old_start": 41,
+          "old_end": 43,
+          "current_start": 41,
+          "current_end": 43,
+          "bytes": 98,
+          "sha256": "7f799de69538e62392715a292efd41c712ab20e6bc7916734b6b974b563fdf05"
+        },
+        {
+          "name": "need",
+          "kind": "def",
+          "old_start": 46,
+          "old_end": 48,
+          "current_start": 46,
+          "current_end": 48,
+          "bytes": 92,
+          "sha256": "79dfa7a1a4bcf0249c491f2e7fe1e171c50022374c6fd1072ce73471b77526de"
+        },
+        {
+          "name": "canonical",
+          "kind": "def",
+          "old_start": 51,
+          "old_end": 52,
+          "current_start": 51,
+          "current_end": 52,
+          "bytes": 109,
+          "sha256": "0e05d954995060aa924ebd3e442a6193ceaa8e4db5804b2fea38bbfbafa1058f"
+        },
+        {
+          "name": "exact_keys",
+          "kind": "def",
+          "old_start": 55,
+          "old_end": 56,
+          "current_start": 55,
+          "current_end": 56,
+          "bytes": 136,
+          "sha256": "6cdbf5d7781e89dbc568309625881bf78088229d94d0c964e88372d29905d782"
+        },
+        {
+          "name": "hexhash",
+          "kind": "def",
+          "old_start": 59,
+          "old_end": 60,
+          "current_start": 59,
+          "current_end": 60,
+          "bytes": 119,
+          "sha256": "1977f1509e54e20b4f260b6e24e9e3cbaa9e727923128e79bb772805b19766de"
+        },
+        {
+          "name": "same",
+          "kind": "def",
+          "old_start": 63,
+          "old_end": 64,
+          "current_start": 63,
+          "current_end": 64,
+          "bytes": 98,
+          "sha256": "4fabda01cc35435fce6954951c2f4605c9de8a66c4c97407d28e73ffc2401c95"
+        },
+        {
+          "name": "strict_json",
+          "kind": "def",
+          "old_start": 67,
+          "old_end": 76,
+          "current_start": 67,
+          "current_end": 76,
+          "bytes": 426,
+          "sha256": "611fe260ed68782e22eee2ab509dbef410c85b60217f4672a64012e3dba1a6f6"
+        },
+        {
+          "name": "strict_json.pairs",
+          "kind": "def",
+          "old_start": 68,
+          "old_end": 73,
+          "current_start": 68,
+          "current_end": 73,
+          "bytes": 204,
+          "sha256": "3113e7fdcb9ff513013bc820535a25ddcd711ab797f7e1284253c5ed10a3bd7f"
+        },
+        {
+          "name": "strict_json.bad",
+          "kind": "def",
+          "old_start": 74,
+          "old_end": 75,
+          "current_start": 74,
+          "current_end": 75,
+          "bytes": 111,
+          "sha256": "ba9117ac558c80844e0002da67a2b39893f65fa883ee136fdace631bee00d33d"
+        },
+        {
+          "name": "canonical_path",
+          "kind": "def",
+          "old_start": 79,
+          "old_end": 82,
+          "current_start": 79,
+          "current_end": 82,
+          "bytes": 220,
+          "sha256": "1b9650061a8f27f24a029e90d0584a3c76f0fe62ced1d43dc1a6a0418b54cb70"
+        },
+        {
+          "name": "validate_identity",
+          "kind": "def",
+          "old_start": 85,
+          "old_end": 97,
+          "current_start": 85,
+          "current_end": 97,
+          "bytes": 764,
+          "sha256": "d83f15905ef5530e9b8c88cf31fb3c18be96308d9928cd16126212a575fa53dd"
+        },
+        {
+          "name": "full_identity",
+          "kind": "def",
+          "old_start": 100,
+          "old_end": 107,
+          "current_start": 100,
+          "current_end": 107,
+          "bytes": 327,
+          "sha256": "409fdd22fdaaca50881964246555bbb0ed498365d0e8e4a1de473ed649ed606e"
+        },
+        {
+          "name": "check_deadline",
+          "kind": "def",
+          "old_start": 110,
+          "old_end": 112,
+          "current_start": 110,
+          "current_end": 112,
+          "bytes": 172,
+          "sha256": "17fd1262256460281b96b82c3d896dbe24eaba95e193787393ab9c7f18793b1e"
+        },
+        {
+          "name": "resolve_links",
+          "kind": "def",
+          "old_start": 115,
+          "old_end": 140,
+          "current_start": 115,
+          "current_end": 140,
+          "bytes": 1251,
+          "sha256": "644ceb53a29b3b72b37378212875ca412cb2969d3116ec4e4bb091a3f4d7d5d1"
+        },
+        {
+          "name": "read_file",
+          "kind": "def",
+          "old_start": 143,
+          "old_end": 177,
+          "current_start": 143,
+          "current_end": 177,
+          "bytes": 1962,
+          "sha256": "d3151d7f24fa4706b55ddda486e3e225d2c46ba77080ea81aae9410421f3e73b"
+        },
+        {
+          "name": "file_identity",
+          "kind": "def",
+          "old_start": 180,
+          "old_end": 181,
+          "current_start": 180,
+          "current_end": 181,
+          "bytes": 81,
+          "sha256": "3a09b4c37f775554328444aec56be7a680fd43e41cd7f0c2a8ff84ffde5a5737"
+        },
+        {
+          "name": "read_expected_manifest",
+          "kind": "def",
+          "old_start": 184,
+          "old_end": 191,
+          "current_start": 184,
+          "current_end": 191,
+          "bytes": 447,
+          "sha256": "99535a67ce1374d0aa1cd0f3e43db69d87062dcd60319f46aab15aa736544a83"
+        },
+        {
+          "name": "validate_entries",
+          "kind": "def",
+          "old_start": 194,
+          "old_end": 225,
+          "current_start": 194,
+          "current_end": 225,
+          "bytes": 2139,
+          "sha256": "79e26e020c17acf38cb4c3e66ddb751b759a66136b6e56d4c4d32cace9c22a8c"
+        },
+        {
+          "name": "validate_runtime",
+          "kind": "def",
+          "old_start": 228,
+          "old_end": 317,
+          "current_start": 228,
+          "current_end": 317,
+          "bytes": 6336,
+          "sha256": "2a6c21b325eee89a12c2040db33057f59eabd764db35f846e37f7726904d7589"
+        },
+        {
+          "name": "load_expected",
+          "kind": "def",
+          "old_start": 320,
+          "old_end": 379,
+          "current_start": 320,
+          "current_end": 379,
+          "bytes": 3524,
+          "sha256": "c4b1abb794c91b4ad0c731447552ea239756b489928a012f989ca6e681a10308"
+        },
+        {
+          "name": "load_expected.add",
+          "kind": "def",
+          "old_start": 336,
+          "old_end": 346,
+          "current_start": 336,
+          "current_end": 346,
+          "bytes": 619,
+          "sha256": "cf33109444c78b2ba3e026bc2adeb1b7f584dd60db41a2630d259e3d939f3087"
+        },
+        {
+          "name": "runtime_directory_identity",
+          "kind": "def",
+          "old_start": 382,
+          "old_end": 413,
+          "current_start": 382,
+          "current_end": 413,
+          "bytes": 1857,
+          "sha256": "3d6d84ad5f0b9fdfd5a7cec3b4518973f18078b9f12b5b1c8c283a560fa268e0"
+        },
+        {
+          "name": "runtime_directory_identity.members",
+          "kind": "def",
+          "old_start": 386,
+          "old_end": 404,
+          "current_start": 386,
+          "current_end": 404,
+          "bytes": 1074,
+          "sha256": "2a15b8ce97b3db1068ab40fbef4feafbb17331609a104738f7bfe200e0812858"
+        },
+        {
+          "name": "runtime_system_location",
+          "kind": "def",
+          "old_start": 416,
+          "old_end": 425,
+          "current_start": 416,
+          "current_end": 425,
+          "bytes": 426,
+          "sha256": "094a89ba2ce2e2d0e79cf75dbdb6482a544a6747c831ffb0efd57dcffed2d6b5"
+        },
+        {
+          "name": "runtime_system_version",
+          "kind": "def",
+          "old_start": 428,
+          "old_end": 436,
+          "current_start": 428,
+          "current_end": 436,
+          "bytes": 661,
+          "sha256": "84c4c48ce7d52d1ac653494f953214f1d6e61af503c128dd2d905eaf9ca15e50"
+        },
+        {
+          "name": "observe_object",
+          "kind": "def",
+          "old_start": 439,
+          "old_end": 460,
+          "current_start": 439,
+          "current_end": 460,
+          "bytes": 1043,
+          "sha256": "ef57e3c03e1df0781f94f465128627e32756adb771081b4eec16420decf8b2cb"
+        },
+        {
+          "name": "error_record",
+          "kind": "def",
+          "old_start": 463,
+          "old_end": 465,
+          "current_start": 463,
+          "current_end": 465,
+          "bytes": 153,
+          "sha256": "7613d0e9f9311dcf6275f7e374604453f3a76193abc453ea3c8539db3862bc87"
+        },
+        {
+          "name": "validate_spec",
+          "kind": "def",
+          "old_start": 468,
+          "old_end": 502,
+          "current_start": 468,
+          "current_end": 502,
+          "bytes": 2472,
+          "sha256": "a60c36ee926539f7501215928d64c61ef173b4b7735605f3c46f15e494c1e0bb"
+        },
+        {
+          "name": "validate_reference",
+          "kind": "def",
+          "old_start": 505,
+          "old_end": 510,
+          "current_start": 505,
+          "current_end": 510,
+          "bytes": 435,
+          "sha256": "c018dc56abc9ed4c3d65a63498a1069a92a6f385263f3045aa6bc0e2ba95201a"
+        },
+        {
+          "name": "extend_spec",
+          "kind": "def",
+          "old_start": 513,
+          "old_end": 543,
+          "current_start": 513,
+          "current_end": 543,
+          "bytes": 1690,
+          "sha256": "7e8c7833c5e57aa62793d43cb7a33c4c902cd1a4f088b30ec99375fab5fee78f"
+        },
+        {
+          "name": "observe_all",
+          "kind": "def",
+          "old_start": 546,
+          "old_end": 617,
+          "current_start": 546,
+          "current_end": 617,
+          "bytes": 4531,
+          "sha256": "7bd2890903587ad83276b0b68648cff0de4b8ac9ceb000664966d663b12b2f4c"
+        }
+      ],
+      "changed_definitions": [],
+      "added_definitions": [],
+      "removed_definitions": []
+    },
+    {
+      "name": "owned_process.py",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py",
+        "bytes": 38953,
+        "sha256": "8e749ead931f4a47f83853b1e4bb24c4c752aef79aac7349f0fd5cb7f8de5b62"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+        "bytes": 43838,
+        "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+      },
+      "old_lines": 765,
+      "current_lines": 850,
+      "whole_file_identical": false,
+      "unchanged_definitions": [
+        {
+          "name": "CollectionFailure",
+          "kind": "class",
+          "old_start": 39,
+          "old_end": 40,
+          "current_start": 39,
+          "current_end": 40,
+          "bytes": 48,
+          "sha256": "3898fc840378f0d999724aff140a9aeeadad3cfd4ff5f0268750040a10f0afda"
+        },
+        {
+          "name": "canonical",
+          "kind": "def",
+          "old_start": 43,
+          "old_end": 45,
+          "current_start": 51,
+          "current_end": 53,
+          "bytes": 174,
+          "sha256": "c7e20586dd39a473001c0f3b863310ea8a23a9518707c78310ce54bf30ef3b49"
+        },
+        {
+          "name": "error_value",
+          "kind": "def",
+          "old_start": 48,
+          "old_end": 54,
+          "current_start": 56,
+          "current_end": 62,
+          "bytes": 339,
+          "sha256": "7622862394dbc94f4d5fdd3328cdc1e4811a8ee9a0ffd988202d958136e52b40"
+        },
+        {
+          "name": "hard_abort_active",
+          "kind": "def",
+          "old_start": 57,
+          "old_end": 59,
+          "current_start": 65,
+          "current_end": 67,
+          "bytes": 121,
+          "sha256": "50715a5118171d597b8164aec2b7b3a936183ce84d189f086cb0119c3d86b2b2"
+        },
+        {
+          "name": "abort_owned",
+          "kind": "def",
+          "old_start": 62,
+          "old_end": 107,
+          "current_start": 70,
+          "current_end": 115,
+          "bytes": 1806,
+          "sha256": "10840c5c6d9f387cfc0e727398200f7cd0837c221d8e17860cfdf5547e79eab4"
+        },
+        {
+          "name": "directory_sync",
+          "kind": "def",
+          "old_start": 110,
+          "old_end": 115,
+          "current_start": 118,
+          "current_end": 123,
+          "bytes": 159,
+          "sha256": "2f5c6d74d7f2302681464a0c005e724ea59ef0ee604490c2b37eddc79f9de646"
+        },
+        {
+          "name": "Sink",
+          "kind": "class",
+          "old_start": 118,
+          "old_end": 193,
+          "current_start": 126,
+          "current_end": 201,
+          "bytes": 3623,
+          "sha256": "bd6bebfeede52d7a9e61cfe14b1dc28171429c4d37388157bd6fbe1101d1c70d"
+        },
+        {
+          "name": "Sink.__init__",
+          "kind": "def",
+          "old_start": 121,
+          "old_end": 126,
+          "current_start": 129,
+          "current_end": 134,
+          "bytes": 318,
+          "sha256": "171b8f9f946a538f4d628e0aecfe0d4648896d1b701c20ca534d293dffa990cb"
+        },
+        {
+          "name": "Sink.append",
+          "kind": "def",
+          "old_start": 128,
+          "old_end": 142,
+          "current_start": 136,
+          "current_end": 150,
+          "bytes": 664,
+          "sha256": "57eeea7d2c82423612a6b5314a210b75036642a4bb974a57e6a047ab81f9a1e4"
+        },
+        {
+          "name": "Sink.close",
+          "kind": "def",
+          "old_start": 144,
+          "old_end": 193,
+          "current_start": 152,
+          "current_end": 201,
+          "bytes": 2548,
+          "sha256": "a01cbf2696974ae5020581c3f2251e0b9b327637a6f9117d32f60f436a820cdb"
+        },
+        {
+          "name": "Owner.__init__",
+          "kind": "def",
+          "old_start": 197,
+          "old_end": 217,
+          "current_start": 205,
+          "current_end": 225,
+          "bytes": 1220,
+          "sha256": "f03192fd9533883e899a8c7888b9a8f72830d7c9d5e5d8da4fa3464756416dd5"
+        },
+        {
+          "name": "Owner.remember_error",
+          "kind": "def",
+          "old_start": 219,
+          "old_end": 225,
+          "current_start": 227,
+          "current_end": 233,
+          "bytes": 264,
+          "sha256": "7c478978204582da5b9377b22ebca9217b05cb7aafaedca7986281016c80f634"
+        },
+        {
+          "name": "Owner.event",
+          "kind": "def",
+          "old_start": 240,
+          "old_end": 242,
+          "current_start": 250,
+          "current_end": 252,
+          "bytes": 158,
+          "sha256": "479a7b90401f809ae398453a75f974bb3ff28226c2766291371d01fddecee25a"
+        },
+        {
+          "name": "Owner.signal_received",
+          "kind": "def",
+          "old_start": 244,
+          "old_end": 250,
+          "current_start": 254,
+          "current_end": 260,
+          "bytes": 351,
+          "sha256": "21b0c19c9737d51bc5c17a249ba5477b228179dcca2b2750746ad1259c6713cf"
+        },
+        {
+          "name": "Owner.poll_child",
+          "kind": "def",
+          "old_start": 252,
+          "old_end": 259,
+          "current_start": 262,
+          "current_end": 269,
+          "bytes": 444,
+          "sha256": "ff9a3601988c31f0a9c5432723f6a28e882ceadc382f0b62715902440fcf55fe"
+        },
+        {
+          "name": "Owner.register_pipe",
+          "kind": "def",
+          "old_start": 261,
+          "old_end": 264,
+          "current_start": 271,
+          "current_end": 274,
+          "bytes": 221,
+          "sha256": "2cd4483f7ddce78958e44f339908fb6857b20f6e05c1b7fd9ac9cad7e0e1963f"
+        },
+        {
+          "name": "Owner.close_pipe",
+          "kind": "def",
+          "old_start": 266,
+          "old_end": 277,
+          "current_start": 276,
+          "current_end": 287,
+          "bytes": 438,
+          "sha256": "6dc3eaf58db5503d4e99d8b09c05473ff6fe77873059984510e429d323583624"
+        },
+        {
+          "name": "Owner.kill",
+          "kind": "def",
+          "old_start": 328,
+          "old_end": 345,
+          "current_start": 345,
+          "current_end": 362,
+          "bytes": 1009,
+          "sha256": "3c0a8f28daf4161055406a7245cdfe403fa354077aa762882de1c10df9b770d9"
+        },
+        {
+          "name": "Owner.drive",
+          "kind": "def",
+          "old_start": 478,
+          "old_end": 500,
+          "current_start": 503,
+          "current_end": 525,
+          "bytes": 1337,
+          "sha256": "7417b5ac74265b7b90007f28585c08c7fa73414fd70bf9b54dc57390aa83de03"
+        },
+        {
+          "name": "Owner.cleanup",
+          "kind": "def",
+          "old_start": 502,
+          "old_end": 565,
+          "current_start": 527,
+          "current_end": 590,
+          "bytes": 3520,
+          "sha256": "73a03241525a82fd9cc512c441f92ee7c7ccfe1792dc84cff8b06bf3e6769d6e"
+        },
+        {
+          "name": "Owner.close_sink",
+          "kind": "def",
+          "old_start": 567,
+          "old_end": 575,
+          "current_start": 592,
+          "current_end": 600,
+          "bytes": 369,
+          "sha256": "931cc4a1159900751aaca75a51690855eea81daac87d377052a128ce66691260"
+        },
+        {
+          "name": "Owner.save",
+          "kind": "def",
+          "old_start": 577,
+          "old_end": 610,
+          "current_start": 602,
+          "current_end": 635,
+          "bytes": 1548,
+          "sha256": "c77b53f61482351b8bf259edee1a619902ef5282ecce4a7165d6e5fcaab2cc4b"
+        },
+        {
+          "name": "Owner.success",
+          "kind": "def",
+          "old_start": 612,
+          "old_end": 619,
+          "current_start": 637,
+          "current_end": 644,
+          "bytes": 631,
+          "sha256": "de76e942bcbebf0664e3c14cea9ea0d6005e52c6f1a6db12f895ccc1f913bc43"
+        }
+      ],
+      "changed_definitions": [
+        {
+          "name": "Owner",
+          "kind": "class",
+          "old": {
+            "name": "Owner",
+            "kind": "class",
+            "start": 196,
+            "end": 619,
+            "bytes": 22281,
+            "sha256": "e092be90d107a1c8d5214e022c4bf9e93b05c93fcaea59527190e0ce3bd65124"
+          },
+          "current": {
+            "name": "Owner",
+            "kind": "class",
+            "start": 204,
+            "end": 644,
+            "bytes": 23506,
+            "sha256": "749bea6b08937392d1a5b9a6fcc48d83ef64b1a73d09be81627fe754f2a9753b"
+          }
+        },
+        {
+          "name": "Owner.failure",
+          "kind": "def",
+          "old": {
+            "name": "Owner.failure",
+            "kind": "def",
+            "start": 227,
+            "end": 238,
+            "bytes": 682,
+            "sha256": "0fc68a3ca8f2d107168aae5e3dd58c0cdd56e6b07c2430eeee2aeb2c916bef3a"
+          },
+          "current": {
+            "name": "Owner.failure",
+            "kind": "def",
+            "start": 235,
+            "end": 248,
+            "bytes": 832,
+            "sha256": "5b4cb5ded4c81240a697cb10d8431caf90e9f24a62d01f47cfb6aed307aa0bbb"
+          }
+        },
+        {
+          "name": "Owner.pump",
+          "kind": "def",
+          "old": {
+            "name": "Owner.pump",
+            "kind": "def",
+            "start": 279,
+            "end": 326,
+            "bytes": 2408,
+            "sha256": "efc7487d02650c1f1c0e7ed0bb0e73a3ba96a337e24ff60541b9f874ea6a6314"
+          },
+          "current": {
+            "name": "Owner.pump",
+            "kind": "def",
+            "start": 296,
+            "end": 343,
+            "bytes": 2599,
+            "sha256": "4fb1e24ecc3fd86317c212732bc89b3e59a59239dfa66ebb4d7f9a1a0f17c03b"
+          }
+        },
+        {
+          "name": "Owner.census",
+          "kind": "def",
+          "old": {
+            "name": "Owner.census",
+            "kind": "def",
+            "start": 347,
+            "end": 476,
+            "bytes": 7653,
+            "sha256": "8265a231fdacf7909a440e107513d6c54eb9da459fcc456945f6a2ed76157119"
+          },
+          "current": {
+            "name": "Owner.census",
+            "kind": "def",
+            "start": 364,
+            "end": 501,
+            "bytes": 8231,
+            "sha256": "e64f3e4f55a88c43f64671dbafa6e2dca1ea76d45649d899bf5fb810f351c5b1"
+          }
+        },
+        {
+          "name": "run_child",
+          "kind": "def",
+          "old": {
+            "name": "run_child",
+            "kind": "def",
+            "start": 622,
+            "end": 765,
+            "bytes": 9235,
+            "sha256": "07e5736917a210c6004857f5767418ecf0d4b3600d0e84f4ee6bd74a3013968b"
+          },
+          "current": {
+            "name": "run_child",
+            "kind": "def",
+            "start": 647,
+            "end": 850,
+            "bytes": 12624,
+            "sha256": "e600183ca8b6a1fb08224695798499a6308238e78dce18cc0d4ecd5e031f7105"
+          }
+        }
+      ],
+      "added_definitions": [
+        {
+          "name": "RecordedPipeFailure",
+          "kind": "class",
+          "start": 43,
+          "end": 48,
+          "bytes": 269,
+          "sha256": "c4b2289749fe5b31efa392706f9d3c046a0fb4620390a3059ad4870588bbd12a"
+        },
+        {
+          "name": "RecordedPipeFailure.__init__",
+          "kind": "def",
+          "start": 46,
+          "end": 48,
+          "bytes": 160,
+          "sha256": "01fba15dcd141856956dc97417900d76fb6426a7190d49870a876314d01da529"
+        },
+        {
+          "name": "Owner.fail_pipe",
+          "kind": "def",
+          "start": 289,
+          "end": 294,
+          "bytes": 305,
+          "sha256": "acbdfafc987f2afecd9d831a860d99eefa52d04a3824914a9d3f77f27dca21a5"
+        }
+      ],
+      "removed_definitions": []
+    },
+    {
+      "name": "launch_policy_case.py",
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py",
+        "bytes": 57622,
+        "sha256": "670232ab5da7b2efa63d703c6fbd38fa088ff758d9d4dea129ac62845aab6ab9"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+        "bytes": 60009,
+        "sha256": "a0526720e530caa529499ff4d6e9e9794462fb50a1975232eb229e37d683828d"
+      },
+      "old_lines": 982,
+      "current_lines": 1040,
+      "whole_file_identical": false,
+      "unchanged_definitions": [
+        {
+          "name": "Refused",
+          "kind": "class",
+          "old_start": 52,
+          "old_end": 53,
+          "current_start": 54,
+          "current_end": 55,
+          "bytes": 38,
+          "sha256": "98d7cf3f12ec68c70aea631a1467acc294de5669a8dd4141fdfe1fb51af2a8ce"
+        },
+        {
+          "name": "HardDeadline",
+          "kind": "class",
+          "old_start": 56,
+          "old_end": 57,
+          "current_start": 58,
+          "current_end": 59,
+          "bytes": 66,
+          "sha256": "1edc31ed717946e53648e20cba7b016de97c513470472ac2844a0c48b90c2fb3"
+        },
+        {
+          "name": "require",
+          "kind": "def",
+          "old_start": 60,
+          "old_end": 62,
+          "current_start": 62,
+          "current_end": 64,
+          "bytes": 86,
+          "sha256": "9b56f7f91072c455d75bcc6fffd05948336aaa84b37699b7285b56ef7afa4174"
+        },
+        {
+          "name": "propagate_hard",
+          "kind": "def",
+          "old_start": 65,
+          "old_end": 67,
+          "current_start": 67,
+          "current_end": 69,
+          "bytes": 108,
+          "sha256": "481fe2b9506b9eddeb61093d1f1eb5f6cece11c2f81c543f9c7c724f69a11c99"
+        },
+        {
+          "name": "hard_unwinding",
+          "kind": "def",
+          "old_start": 70,
+          "old_end": 72,
+          "current_start": 72,
+          "current_end": 74,
+          "bytes": 118,
+          "sha256": "1d0d6bbf0a5a41aa4129fe5762cf465224a15f7fc3f314961b4e5dcc16833c98"
+        },
+        {
+          "name": "canonical",
+          "kind": "def",
+          "old_start": 84,
+          "old_end": 85,
+          "current_start": 86,
+          "current_end": 87,
+          "bytes": 126,
+          "sha256": "4dfad7507e0a0bc21e2a1bf552fc91d5a27028e20ea0463a5da92d8a6b7b973f"
+        },
+        {
+          "name": "raw_json",
+          "kind": "def",
+          "old_start": 88,
+          "old_end": 89,
+          "current_start": 90,
+          "current_end": 91,
+          "bytes": 72,
+          "sha256": "0586a58c0152d7b3b32bc816b7fa84c45dd3560440efb6104730cf1374565433"
+        },
+        {
+          "name": "exact",
+          "kind": "def",
+          "old_start": 92,
+          "old_end": 93,
+          "current_start": 94,
+          "current_end": 95,
+          "bytes": 120,
+          "sha256": "629474d2990ac576676a5f953fc8b6b75b227efefde4774eaf73719121475f5a"
+        },
+        {
+          "name": "same",
+          "kind": "def",
+          "old_start": 96,
+          "old_end": 97,
+          "current_start": 98,
+          "current_end": 99,
+          "bytes": 90,
+          "sha256": "ce5c90715f3f472748b80d085a12ed67d6be9feb1df2f07bf8b2b519cf752fe7"
+        },
+        {
+          "name": "strict_json",
+          "kind": "def",
+          "old_start": 100,
+          "old_end": 116,
+          "current_start": 102,
+          "current_end": 118,
+          "bytes": 761,
+          "sha256": "f5a0728febf5ac2cd74a1cb0ecf06e08b89b759539b4956ea26eabe791229461"
+        },
+        {
+          "name": "strict_json.pairs",
+          "kind": "def",
+          "old_start": 101,
+          "old_end": 106,
+          "current_start": 103,
+          "current_end": 108,
+          "bytes": 205,
+          "sha256": "94a989da9d30f31e37f86ec0aa8ac9a05975fdfb1ff1c6b28da3e598eb77ff52"
+        },
+        {
+          "name": "strict_json.number",
+          "kind": "def",
+          "old_start": 107,
+          "old_end": 111,
+          "current_start": 109,
+          "current_end": 113,
+          "bytes": 254,
+          "sha256": "7c29e4323c67f4a18eb5a57253127217ca0177c3648ba875724b5bb3593136f6"
+        },
+        {
+          "name": "strict_json.bad",
+          "kind": "def",
+          "old_start": 112,
+          "old_end": 113,
+          "current_start": 114,
+          "current_end": 115,
+          "bytes": 77,
+          "sha256": "c4e80538c9a9a0d863e0abc15e0d4e249fe782685f6adfffbaac0f412a7a12da"
+        },
+        {
+          "name": "check_time",
+          "kind": "def",
+          "old_start": 119,
+          "old_end": 123,
+          "current_start": 121,
+          "current_end": 125,
+          "bytes": 287,
+          "sha256": "57d455781679757398a967e3c34eb7cb39b9c05146d982276180d053cf3f5005"
+        },
+        {
+          "name": "literal_path",
+          "kind": "def",
+          "old_start": 133,
+          "old_end": 136,
+          "current_start": 147,
+          "current_end": 150,
+          "bytes": 216,
+          "sha256": "c9f43cc7cf588757be66a5236ef73a5f2e74a78b28363ac86f36beb117bc39a0"
+        },
+        {
+          "name": "nonsymlink",
+          "kind": "def",
+          "old_start": 139,
+          "old_end": 143,
+          "current_start": 153,
+          "current_end": 157,
+          "bytes": 198,
+          "sha256": "6f80befc333f9a8a8ff38a333594161a441db823173595ebf5f5ab77f2345b68"
+        },
+        {
+          "name": "identity_shape",
+          "kind": "def",
+          "old_start": 146,
+          "old_end": 152,
+          "current_start": 160,
+          "current_end": 166,
+          "bytes": 495,
+          "sha256": "fb196c223b99d30fcf13c6d07738bfd384c630ca44e4a441357c6e0ffd760348"
+        },
+        {
+          "name": "read_file",
+          "kind": "def",
+          "old_start": 155,
+          "old_end": 184,
+          "current_start": 169,
+          "current_end": 198,
+          "bytes": 1310,
+          "sha256": "88b857c997fa1cf33c64d64135b3fe4a479c9b9d9b126c02d510e329f80108b3"
+        },
+        {
+          "name": "read_json",
+          "kind": "def",
+          "old_start": 187,
+          "old_end": 189,
+          "current_start": 201,
+          "current_end": 203,
+          "bytes": 172,
+          "sha256": "4ed26ed25d3acac03a540ffe4f2e00d16fe19e85c18ee3c82619bace4ba7cc63"
+        },
+        {
+          "name": "error_value",
+          "kind": "def",
+          "old_start": 192,
+          "old_end": 193,
+          "current_start": 206,
+          "current_end": 207,
+          "bytes": 119,
+          "sha256": "6c88f2771965d185c4bbb6b5227fa86d66b51f7263431a73f9b3b3be39e10fb6"
+        },
+        {
+          "name": "directory_sync",
+          "kind": "def",
+          "old_start": 196,
+          "old_end": 201,
+          "current_start": 210,
+          "current_end": 215,
+          "bytes": 159,
+          "sha256": "2f5c6d74d7f2302681464a0c005e724ea59ef0ee604490c2b37eddc79f9de646"
+        },
+        {
+          "name": "DurableSink.__call__",
+          "kind": "def",
+          "old_start": 229,
+          "old_end": 230,
+          "current_start": 285,
+          "current_end": 286,
+          "bytes": 81,
+          "sha256": "834be592015e46d2c3c6ce459cbc7a4fd8a8a23fb918058cbe45b4f3c0f2b0cf"
+        },
+        {
+          "name": "DurableSink.close",
+          "kind": "def",
+          "old_start": 232,
+          "old_end": 249,
+          "current_start": 288,
+          "current_end": 305,
+          "bytes": 1122,
+          "sha256": "a7276245adf5fe88f018c6bc897cab3885dfa2faee95b1742c14371b3501096f"
+        },
+        {
+          "name": "invocation",
+          "kind": "def",
+          "old_start": 271,
+          "old_end": 275,
+          "current_start": 326,
+          "current_end": 330,
+          "bytes": 383,
+          "sha256": "bbce8f991a5085443e9ad1d3ec8195e034799cd3bf26ae0500bfa7b981387412"
+        },
+        {
+          "name": "namespace",
+          "kind": "def",
+          "old_start": 278,
+          "old_end": 293,
+          "current_start": 333,
+          "current_end": 348,
+          "bytes": 869,
+          "sha256": "b2af4f733cffb8befe96ac96852a0eb1631e1ad985ceb168f301fc32530e0a77"
+        },
+        {
+          "name": "load_module",
+          "kind": "def",
+          "old_start": 296,
+          "old_end": 301,
+          "current_start": 351,
+          "current_end": 356,
+          "bytes": 324,
+          "sha256": "9119f678e25da348fd8a72bce3e28292d601b14fd1643909309b6600ac68dfac"
+        },
+        {
+          "name": "Phase.__init__",
+          "kind": "def",
+          "old_start": 426,
+          "old_end": 435,
+          "current_start": 482,
+          "current_end": 491,
+          "bytes": 539,
+          "sha256": "84fb8af750c01142f8de9eca345c1829866e9c12803d1209d4009566c71170bb"
+        },
+        {
+          "name": "Phase.fail",
+          "kind": "def",
+          "old_start": 437,
+          "old_end": 443,
+          "current_start": 493,
+          "current_end": 499,
+          "bytes": 235,
+          "sha256": "85baa83e667fb1e1b85fa68be90cbeb893ad2e1910a40d613d028b91266ec6b9"
+        },
+        {
+          "name": "Phase.add_receipt",
+          "kind": "def",
+          "old_start": 445,
+          "old_end": 450,
+          "current_start": 501,
+          "current_end": 506,
+          "bytes": 282,
+          "sha256": "7d640926de49e3094f12a59c4820b4e9ad19af9bfa928bf4d58b08de96166d54"
+        },
+        {
+          "name": "Phase.save",
+          "kind": "def",
+          "old_start": 452,
+          "old_end": 454,
+          "current_start": 508,
+          "current_end": 510,
+          "bytes": 189,
+          "sha256": "3176ae3ff44878688d6bab65d6babeecfa621062e4efa83d80c344159024503e"
+        },
+        {
+          "name": "Phase.observe.failed_sink",
+          "kind": "def",
+          "old_start": 476,
+          "old_end": 477,
+          "current_start": 534,
+          "current_end": 535,
+          "bytes": 108,
+          "sha256": "4db8d92f20fab36a8b4aeaf4a3c6c2f4b9c970a025f5dab6b56770102cd8188a"
+        },
+        {
+          "name": "Phase.namespace_check",
+          "kind": "def",
+          "old_start": 499,
+          "old_end": 503,
+          "current_start": 557,
+          "current_end": 561,
+          "bytes": 243,
+          "sha256": "f520bfedaafb657bb2f8ac1b6a9714384c1da01dbbfadefc9b8357c924bab847"
+        },
+        {
+          "name": "Phase.source_namespace_check",
+          "kind": "def",
+          "old_start": 505,
+          "old_end": 509,
+          "current_start": 563,
+          "current_end": 567,
+          "bytes": 247,
+          "sha256": "a250c9f355d077c4421710833ed5dd934b5c4bbce8ad490d6691aa50862ca823"
+        },
+        {
+          "name": "Phase.finish",
+          "kind": "def",
+          "old_start": 511,
+          "old_end": 572,
+          "current_start": 569,
+          "current_end": 630,
+          "bytes": 4145,
+          "sha256": "1acf79a7f4a3840600b9c00dade7ecc40106b6aa195189484b91bfcc379df280"
+        },
+        {
+          "name": "create_cards",
+          "kind": "def",
+          "old_start": 575,
+          "old_end": 610,
+          "current_start": 633,
+          "current_end": 668,
+          "bytes": 3085,
+          "sha256": "ee31672bbf6cb8c4a38d6dd2c3174d7ebca982a62928ab6496f288e40c407510"
+        },
+        {
+          "name": "validate_prepare",
+          "kind": "def",
+          "old_start": 613,
+          "old_end": 706,
+          "current_start": 671,
+          "current_end": 764,
+          "bytes": 7782,
+          "sha256": "72017c8ed7d9d2f8e589a434625638264f2ad8cded46c5932e8b5eda3821b25b"
+        },
+        {
+          "name": "validate_child",
+          "kind": "def",
+          "old_start": 709,
+          "old_end": 802,
+          "current_start": 767,
+          "current_end": 860,
+          "bytes": 7086,
+          "sha256": "668d30d4a93b5e1188f049c767695eca1cfb46f1041af0fd32e9d58c5d32888d"
+        },
+        {
+          "name": "validate_child.register",
+          "kind": "def",
+          "old_start": 736,
+          "old_end": 741,
+          "current_start": 794,
+          "current_end": 799,
+          "bytes": 256,
+          "sha256": "db81b66cc8216bd71416784a3cd1876c69d67280d103daaa8e46adb913150b79"
+        },
+        {
+          "name": "collect_process_artifacts",
+          "kind": "def",
+          "old_start": 805,
+          "old_end": 890,
+          "current_start": 863,
+          "current_end": 948,
+          "bytes": 5272,
+          "sha256": "2172e99a44ee3d4df5fae2c52fb8b928da52c23eebfab8b4ae7cf674cf0f98e3"
+        },
+        {
+          "name": "run_phase",
+          "kind": "def",
+          "old_start": 893,
+          "old_end": 959,
+          "current_start": 951,
+          "current_end": 1017,
+          "bytes": 4096,
+          "sha256": "801cd262414e923a5dab7b603605661f60a99879d58d89a07d9495389e7e85dd"
+        },
+        {
+          "name": "main",
+          "kind": "def",
+          "old_start": 962,
+          "old_end": 972,
+          "current_start": 1020,
+          "current_end": 1030,
+          "bytes": 462,
+          "sha256": "c617ca9197090ce306af4454735945a49ccb21e49e1c2df9593255980b476e7d"
+        }
+      ],
+      "changed_definitions": [
+        {
+          "name": "close_on_abort",
+          "kind": "def",
+          "old": {
+            "name": "close_on_abort",
+            "kind": "def",
+            "start": 75,
+            "end": 81,
+            "bytes": 233,
+            "sha256": "3eca39ad4a1600c0bf2478c761d7840d4a228f560a607936c92c2c0e7d31b21c"
+          },
+          "current": {
+            "name": "close_on_abort",
+            "kind": "def",
+            "start": 77,
+            "end": 83,
+            "bytes": 257,
+            "sha256": "3f7f9532290430fa2ee207a2202d57af841f5eaf9e3c05c8d41c99706e156ced"
+          }
+        },
+        {
+          "name": "signal_received",
+          "kind": "def",
+          "old": {
+            "name": "signal_received",
+            "kind": "def",
+            "start": 126,
+            "end": 130,
+            "bytes": 272,
+            "sha256": "06b9441a32834a7ca58b23609b741452636a7220d60b4245fe4e2535de08bc58"
+          },
+          "current": {
+            "name": "signal_received",
+            "kind": "def",
+            "start": 128,
+            "end": 144,
+            "bytes": 867,
+            "sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b"
+          }
+        },
+        {
+          "name": "DurableSink",
+          "kind": "class",
+          "old": {
+            "name": "DurableSink",
+            "kind": "class",
+            "start": 204,
+            "end": 249,
+            "bytes": 2374,
+            "sha256": "2b58184df64e1443e19b5dfdbae87cd65b5d373b67db3df8f126b00ce3cd13ab"
+          },
+          "current": {
+            "name": "DurableSink",
+            "kind": "class",
+            "start": 248,
+            "end": 305,
+            "bytes": 2933,
+            "sha256": "c849ef5e6b265637906e24b6045d5f22f72827a29a640dfe9702b485f325291d"
+          }
+        },
+        {
+          "name": "DurableSink.__init__",
+          "kind": "def",
+          "old": {
+            "name": "DurableSink.__init__",
+            "kind": "def",
+            "start": 206,
+            "end": 211,
+            "bytes": 325,
+            "sha256": "cad764581e4ba5ecbe462c4e9fda4d00ccea4b6dc07a34fe471d5fed94a5ade0"
+          },
+          "current": {
+            "name": "DurableSink.__init__",
+            "kind": "def",
+            "start": 250,
+            "end": 255,
+            "bytes": 252,
+            "sha256": "60f2fcc55a4e1e44f9097733995ea707e18fc95e73ca716341a4213956b37d79"
+          }
+        },
+        {
+          "name": "DurableSink.append_bytes",
+          "kind": "def",
+          "old": {
+            "name": "DurableSink.append_bytes",
+            "kind": "def",
+            "start": 213,
+            "end": 227,
+            "bytes": 737,
+            "sha256": "175488bee57ceb8af98051126d9d5a0074eb5ea77d6ef3225ac900f0b97dd634"
+          },
+          "current": {
+            "name": "DurableSink.append_bytes",
+            "kind": "def",
+            "start": 269,
+            "end": 283,
+            "bytes": 761,
+            "sha256": "0e9cb841287b4c63eba0441d6d238a6b788ddef0745110099f9d288b0ee3eca8"
+          }
+        },
+        {
+          "name": "write_new",
+          "kind": "def",
+          "old": {
+            "name": "write_new",
+            "kind": "def",
+            "start": 252,
+            "end": 268,
+            "bytes": 677,
+            "sha256": "55e8418528cae3d58af2d0af19d4a474d145748fbd04b3e015000e8237668df9"
+          },
+          "current": {
+            "name": "write_new",
+            "kind": "def",
+            "start": 308,
+            "end": 323,
+            "bytes": 676,
+            "sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6"
+          }
+        },
+        {
+          "name": "authenticate",
+          "kind": "def",
+          "old": {
+            "name": "authenticate",
+            "kind": "def",
+            "start": 304,
+            "end": 422,
+            "bytes": 9405,
+            "sha256": "da2e5d0643408dfb840ab73c9f6c5d3c582c49c5ee2a2756c712c8ca7b67bac8"
+          },
+          "current": {
+            "name": "authenticate",
+            "kind": "def",
+            "start": 359,
+            "end": 478,
+            "bytes": 9433,
+            "sha256": "cda37acba526b3e903bc2183eed438239efaf1e3fdce159f66aae2cd287323bd"
+          }
+        },
+        {
+          "name": "Phase",
+          "kind": "class",
+          "old": {
+            "name": "Phase",
+            "kind": "class",
+            "start": 425,
+            "end": 572,
+            "bytes": 8222,
+            "sha256": "1ab1dd260772a679238a0f542705a8440b6e763c10082d1f2a90c0f725a68212"
+          },
+          "current": {
+            "name": "Phase",
+            "kind": "class",
+            "start": 481,
+            "end": 630,
+            "bytes": 8310,
+            "sha256": "51792e150b7dc5b0ba8f9f21ea59abd26651589aea8e0fce9c7eee06a628cdd5"
+          }
+        },
+        {
+          "name": "Phase.claim",
+          "kind": "def",
+          "old": {
+            "name": "Phase.claim",
+            "kind": "def",
+            "start": 456,
+            "end": 466,
+            "bytes": 651,
+            "sha256": "c5d554bed06f538b21f0faca9cfcb50d8230d13d888145c36fc61a8919e09eb1"
+          },
+          "current": {
+            "name": "Phase.claim",
+            "kind": "def",
+            "start": 512,
+            "end": 520,
+            "bytes": 597,
+            "sha256": "57b83ac803139b235682bd9ab050460da986b20c84b4d047fdb2e0db66559ba9"
+          }
+        },
+        {
+          "name": "Phase.observe",
+          "kind": "def",
+          "old": {
+            "name": "Phase.observe",
+            "kind": "def",
+            "start": 468,
+            "end": 497,
+            "bytes": 1670,
+            "sha256": "20dd51a0e8ebb1e92d27d88beff36fe714173dca1a198d28bd1e51c9cf773fc9"
+          },
+          "current": {
+            "name": "Phase.observe",
+            "kind": "def",
+            "start": 522,
+            "end": 555,
+            "bytes": 1812,
+            "sha256": "f22b3bad305ef1fc65259024f3cc44da476547aadb806c5a36d8eaa9e4eed2d1"
+          }
+        }
+      ],
+      "added_definitions": [
+        {
+          "name": "AcquisitionSignals",
+          "kind": "class",
+          "start": 218,
+          "end": 245,
+          "bytes": 1039,
+          "sha256": "e4fa8879ae05fb4dac7722607badf6b9f71cdb9eb1830995086b3de9774e1eb8"
+        },
+        {
+          "name": "AcquisitionSignals.__init__",
+          "kind": "def",
+          "start": 220,
+          "end": 221,
+          "bytes": 74,
+          "sha256": "1e67e5ac788014d78249393551bd45dadaf33b901c11027daaf20c28e4e7ca3a"
+        },
+        {
+          "name": "AcquisitionSignals.__enter__",
+          "kind": "def",
+          "start": 223,
+          "end": 227,
+          "bytes": 196,
+          "sha256": "6c243a637082b86fb3598d8ea73e667f70110fe64f64fbe50f97bc46c38624d5"
+        },
+        {
+          "name": "AcquisitionSignals.__exit__",
+          "kind": "def",
+          "start": 229,
+          "end": 240,
+          "bytes": 526,
+          "sha256": "d4e796f5ec6f157b54fbceee9aa426460b4faebce83e7acbcd703048a4a3db4f"
+        },
+        {
+          "name": "AcquisitionSignals.interrupt",
+          "kind": "def",
+          "start": 242,
+          "end": 245,
+          "bytes": 130,
+          "sha256": "4240069717bf6b3c0700670601f4db4099e815925db29a1e9d582e64cce6c275"
+        },
+        {
+          "name": "DurableSink.acquire",
+          "kind": "def",
+          "start": 257,
+          "end": 267,
+          "bytes": 607,
+          "sha256": "65c18edd6efd9b3d4cad1704326f2d4b3436e97eaeb92cd3e87c03166aed5dc2"
+        }
+      ],
+      "removed_definitions": [
+        {
+          "name": "Phase.claim.opened",
+          "kind": "def",
+          "start": 460,
+          "end": 461,
+          "bytes": 52,
+          "sha256": "296f735a014890f445afb7195e9ae735e4a02e2abf8fc602706c4145a2a6df93"
+        }
+      ]
+    }
+  ],
+  "non_definition_changes": {
+    "custody.py": "None: complete file identical.",
+    "owned_process.py": "Opening RI140 description and added RecordedPipeFailure class/docstring; all original constants/imports unchanged. The authorized startup extension is confined to run_child.",
+    "launch_policy_case.py": "Opening description, current packet path and exact subject-manifest bytes/hash, two acquisition globals, added acquisition scope declaration. authenticate contains only handoff-schema/lineage/423-count adaptation. Other wire schemas retained."
+  },
+  "line_counts": {
+    "predecessor": 2364,
+    "current": 2507
+  },
+  "scope": {
+    "execution_authorized": false,
+    "controls_executed": 0,
+    "scientific_execution": false,
+    "current_runtime_observed": false,
+    "repository_modified": false
+  },
+  "limitations": [
+    "These are source-text equalities and reconstruction checks, not Python validity, runtime safety, signal-delivery or independent-acceptance evidence.",
+    "The complete current contracts and added notes/design have no execution effect or runtime credit. No operational record or controller was created.",
+    "Both findings and the one authorized startup extension require fresh complete nonauthor review and root adjudication.",
+    "All current and historical claims retain their status; unchanged sources do not acquire new acceptance by being copied."
+  ]
+}

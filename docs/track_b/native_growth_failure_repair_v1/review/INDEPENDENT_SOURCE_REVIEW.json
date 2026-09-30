@@ -1,0 +1,339 @@
+{
+  "all_current_contracts_and_complete_diffs_reviewed": true,
+  "all_current_metadata_read_completely": true,
+  "blocking_findings": [],
+  "boundaries": {
+    "execution_admitted": false,
+    "fixture_or_controller_created": false,
+    "four_excluded_diagnostic_bodies_opened": false,
+    "operational_cards_created": false,
+    "repository_or_git_modified": false,
+    "ret_paused": true,
+    "root_owns_publication_and_admission": true,
+    "runtime_observed": false,
+    "scientific_body_decoded": false,
+    "subject_import_compile_ast_probe_run": false
+  },
+  "fresh_source_coverage": [
+    {
+      "lines": 617,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/custody.py",
+      "whole_module_manually_read": true
+    },
+    {
+      "lines": 850,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "whole_module_manually_read": true
+    },
+    {
+      "lines": 1040,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "whole_module_manually_read": true
+    }
+  ],
+  "independence": {
+    "authored_dependency_rows_count": 21,
+    "authored_dependency_rows_identity_provenance_only": [
+      {
+        "bytes": 3957,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+        "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5",
+        "symlinks": []
+      },
+      {
+        "bytes": 4821,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9",
+        "symlinks": []
+      },
+      {
+        "bytes": 4804,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.md",
+        "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559",
+        "symlinks": []
+      },
+      {
+        "bytes": 3762,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PREDECESSOR_PINS.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PREDECESSOR_PINS.json",
+        "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7",
+        "symlinks": []
+      },
+      {
+        "bytes": 14060,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990",
+        "symlinks": []
+      },
+      {
+        "bytes": 8848,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/SOURCE_METADATA_CHECK.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/SOURCE_METADATA_CHECK.json",
+        "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d",
+        "symlinks": []
+      },
+      {
+        "bytes": 17909,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa",
+        "symlinks": []
+      },
+      {
+        "bytes": 56593,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def",
+        "symlinks": []
+      },
+      {
+        "bytes": 3278,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/FIXED_SOURCE_LITERAL_CHECK.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/FIXED_SOURCE_LITERAL_CHECK.json",
+        "sha256": "96a40b55ef05d18990af2e4e0fc1ef5e6510b75d125c366559e719b1f795af33",
+        "symlinks": []
+      },
+      {
+        "bytes": 2160,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/HANDOFF.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/HANDOFF.json",
+        "sha256": "59c6e81b50abf3b715bea4f4ca12014322d6f0bdd91594882763af2bb98befaf",
+        "symlinks": []
+      },
+      {
+        "bytes": 3854,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/INDEPENDENT_SOURCE_REVIEW.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/INDEPENDENT_SOURCE_REVIEW.json",
+        "sha256": "db4caa8492695d17b8b1d8bb077cce632fceeb9707b1f32e679b703f5948d964",
+        "symlinks": []
+      },
+      {
+        "bytes": 14609,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/INDEPENDENT_SOURCE_REVIEW.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/INDEPENDENT_SOURCE_REVIEW.md",
+        "sha256": "c80ba1e67b12a55a3f087a821215f80f9f3d5715b399761b970821b99870c94d",
+        "symlinks": []
+      },
+      {
+        "bytes": 12244,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/SOURCE_PIN_AND_TEXT_CHECK.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/SOURCE_PIN_AND_TEXT_CHECK.json",
+        "sha256": "20ffe71f2aaeab18abfed71aed17eb0a8c4680323b2f1b04d4fe759e53b7b671",
+        "symlinks": []
+      },
+      {
+        "bytes": 4283,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_HISTORY.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_HISTORY.json",
+        "sha256": "5db748d50a6997c5aa5c04d5c168d4b1db10f562efbd5ae54398ad27f7f6f8c0",
+        "symlinks": []
+      },
+      {
+        "bytes": 950,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_V2_TRACEBACK.txt",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_V2_TRACEBACK.txt",
+        "sha256": "822e1a358a26c079ac353716522136ac950b822e5a6f8b143648e03dece137e1",
+        "symlinks": []
+      },
+      {
+        "bytes": 104571,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/FINAL_PIN_CHECK.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/FINAL_PIN_CHECK.json",
+        "sha256": "482fddd8eca029d22e156698be519a103e0077b433d568cd78fd4b48062e64a8",
+        "symlinks": []
+      },
+      {
+        "bytes": 7951,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/HANDOFF.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/HANDOFF.json",
+        "sha256": "3729b27090a01824b6e1c743bf495e6b4416a69ffc4344567e44e867c7a2cc2b",
+        "symlinks": []
+      },
+      {
+        "bytes": 6629,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.json",
+        "sha256": "cb82ef3b3a8db04f9fdf799dde030d7d7fad5652aa6ef9e632a3ba54868bf7ca",
+        "symlinks": []
+      },
+      {
+        "bytes": 19545,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.md",
+        "sha256": "cc695d49e9f7b1c407f34d8857983aa11baf208d4ebecd904fae559a34820dfb",
+        "symlinks": []
+      },
+      {
+        "bytes": 287207,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V3.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V3.json",
+        "sha256": "2901c60867336047a1def9f3096dc13a721efea393173296313ab6b3c8286f31",
+        "symlinks": []
+      },
+      {
+        "bytes": 10444,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v3.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v3.py",
+        "sha256": "5cbf0ee02e186077895947937e302c2575c854d59b5d1e74a42a6ca11f13ee6f",
+        "symlinks": []
+      }
+    ],
+    "current_native_predecessor_author": false,
+    "current_native_source_author": false,
+    "no_semantic_self_acceptance": true,
+    "selecting_ri138_review_author": true,
+    "separate_white_authorship": [
+      "RI125 validator",
+      "RI130",
+      "RI133",
+      "RI135",
+      "RI137",
+      "RI139",
+      "RI141"
+    ]
+  },
+  "inherited_167_administrative_traversals_rerun": false,
+  "metadata_check": {
+    "bytes": 174064,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/OPAQUE_TEXT_CHECK.json",
+    "sha256": "dee3f88bc0154998b515793f172cd28492db4ec7f93824d9af176f296a4eca2e"
+  },
+  "metadata_result": {
+    "additions": 27,
+    "checks": 430,
+    "current_namespace": 17,
+    "dependency_bytes": 169620097,
+    "dependency_count": 423,
+    "inherited_preserved_except_roles": 396,
+    "new_admin_bodies": 7,
+    "new_admin_reference_occurrences": 460,
+    "payloads": 16,
+    "status": "PASS",
+    "subject_reference_occurrences": 24,
+    "unchanged_overlapping_slices": 96
+  },
+  "pending": {
+    "actual_c2_c3_h30_pending": true,
+    "all_139_policy_outcomes_pending": true,
+    "audit_deeper_rows": 42,
+    "controller_feasibility_qualified": false,
+    "deterministic_boundary_controller_implemented": false,
+    "f01_cap": 23,
+    "f02_cap": 8,
+    "focused_attempts_executed": 0,
+    "native_deeper_rows": 20,
+    "policy_cases_executed": 0,
+    "prospective_focused_attempt_cap": 31,
+    "root_adjudication": true
+  },
+  "publication": "Entire new seven-file review packet is compact; no new external-only diagnostics. Preserve the four old RI138 V1/V2 diagnostics externally by their existing declarations, not new reads.",
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_F01_F02_REPAIR_SOURCE",
+  "repairs": [
+    {
+      "executed": false,
+      "id": "F01",
+      "locations": {
+        "collector": [
+          [
+            674,
+            705
+          ],
+          [
+            782,
+            850
+          ]
+        ],
+        "launcher": [
+          [
+            128,
+            144
+          ],
+          [
+            218,
+            267
+          ],
+          [
+            308,
+            323
+          ],
+          [
+            512,
+            555
+          ],
+          [
+            955,
+            1017
+          ]
+        ]
+      },
+      "paths": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py"
+      ],
+      "retained_limits": [
+        "Exact acquisition-primary exception only; no promise of all tails under arbitrary repeated later signals.",
+        "Actual pinned raising parent handlers, ordinary signals initially unblocked, eligible hard watchdog.",
+        "Failed host mask/handler operations and hard abort remain incomplete/refused, never certified restoration.",
+        "Saved report/close precede restoration; full returned state and genuine outer completion remain required."
+      ],
+      "source_disposition": "RESOLVED_IN_EXACT_SOURCE_SUBJECT_TO_STATED_PREMISES"
+    },
+    {
+      "executed": false,
+      "id": "F02",
+      "locations": [
+        [
+          43,
+          48
+        ],
+        [
+          226,
+          248
+        ],
+        [
+          276,
+          343
+        ],
+        [
+          441,
+          467
+        ],
+        [
+          503,
+          580
+        ],
+        [
+          717,
+          745
+        ]
+      ],
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "retained_limits": [
+        "Origin memory record before journal and close attempts.",
+        "Same-owner exact token propagates prior record; unrelated errors preserved.",
+        "EOF-only close and previous first errors unchanged.",
+        "Capture prefixes, first child overflow byte and omissions remain fail-closed."
+      ],
+      "source_disposition": "RESOLVED_IN_EXACT_SOURCE_SUBJECT_TO_STATED_PREMISES"
+    }
+  ],
+  "review_note": {
+    "bytes": 22740,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "7384df200c3473836c212399c0cd6e6ca3cdc5e66e25bb14ba1caa6a0b5dc9ea"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri140-independent-complete-source-review-v1",
+  "source_handoff": {
+    "bytes": 6044,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.json",
+    "sha256": "8726a3d8be2d62b2326a6ad45d5e1f497fda521d4a1e4a9c92e04101c16f2141"
+  },
+  "source_repairs_required": [],
+  "status": "COMPLETE_SOURCE_REVIEW_ROOT_ADJUDICATION_REQUIRED",
+  "total_current_source_lines": 2507
+}

@@ -1,0 +1,52 @@
+{
+  "also_include_final_manifest_names": [
+    "PUBLICATION_SUBSET.json",
+    "HANDOFF.json"
+  ],
+  "copied_mutation_trees": 0,
+  "files": [
+    {
+      "bytes": 4237,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "5a23eeba894ce86fc051fb3d4bee97e39421a0c86561af595f0c951f31025e09"
+    },
+    {
+      "bytes": 4641,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "640e4dea8335b2a56698689054eb23f155c4f6440e4528afd880cfa6c498e641"
+    },
+    {
+      "bytes": 19709,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "c9eb8d0f7fb4bb2312ac3c861968bbce0dfc8bcbfba028cf7bbb744afaa370d2"
+    },
+    {
+      "bytes": 167968,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/OPAQUE_SOURCE_CHECK.json",
+      "sha256": "37662c0b8b410ab6183e7cd0d5088bb4d84e8738e79e41226ac95832330ed9e5"
+    },
+    {
+      "bytes": 3428,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/REVIEWER_DIAGNOSTICS.json",
+      "sha256": "5533a219d028803f0d7d66077201f96a6b732b6d7f3d054672a32d8146c3455b"
+    },
+    {
+      "bytes": 13129,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.before-evidence-domain-fix.py",
+      "sha256": "52696c14e97daa9a06e04b50b6ae2687db4f1eba08701af12bed327fb975971f"
+    },
+    {
+      "bytes": 13373,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.before-framework-shape-fix.py",
+      "sha256": "ee3125ce750a0269d5ba957cf33764ec8b4137894d01a7438e0e6d1f6bef0df9"
+    },
+    {
+      "bytes": 13285,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.py",
+      "sha256": "245764054c6912aa58dd519ce293ff6d694ccae798665bda1527939ea4bce60f"
+    }
+  ],
+  "no_runtime_scientific_or_operation_bundle_created": true,
+  "schema": "ri141-independent-review-publication-subset-v1",
+  "scope": "Compact complete source review, administrative checker and actual check evidence, preserved failed reviewer versions/diagnostics. No subject code copies or runtime artifacts."
+}

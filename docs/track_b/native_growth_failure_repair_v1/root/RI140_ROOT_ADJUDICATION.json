@@ -1,0 +1,80 @@
+{
+  "accepted_repairs": [
+    "F01 recoverable descriptor and phase ownership before ordinary acquisition interruption; hard abort remains immediate and incomplete best-effort.",
+    "F01 collector handlers installed before startup acquisition; supported pinned raising parent, initially unblocked ordinary mask, exact old mask and handler restoration; pending observations remain distinct from delivery.",
+    "F02 original read/write/overflow cause recorded before unregister/close; owner-scoped propagation avoids relabelling or replacing first cause; EOF remains distinct."
+  ],
+  "actual_checks": {
+    "current_root": "This invocation verifies sealed review namespace, all six payload pins and complete result gates; actual tool completion recorded separately.",
+    "independent": [
+      "3c7fd9 exit 0",
+      "e8ea35 exit 0"
+    ],
+    "root": "4714f0 exit 0"
+  },
+  "blocking_findings": [],
+  "excluded_history": "Four prior V1/V2 diagnostic bodies not opened or newly hashed; immutable declared ancestry retained.",
+  "execution_admitted": false,
+  "focused_controls_executed": 0,
+  "independence": "Reviewer did not author current native source; selecting prior review and unrelated WHITE authorship disclosed. No WHITE semantic self-acceptance.",
+  "independent_handoff": {
+    "bytes": 5887,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/HANDOFF.json",
+    "sha256": "7fdb6fa7c042cfebb47607cf11932efba8aabb1fcf9e8d0959962e3acf2673e1"
+  },
+  "independent_review": {
+    "bytes": 22740,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "7384df200c3473836c212399c0cd6e6ca3cdc5e66e25bb14ba1caa6a0b5dc9ea"
+  },
+  "next_action": "Assign RI143 concrete unchanged-subject boundary-controller feasibility, with truthful actual boundary evidence or precise blocker; preserve all limits and sealed subjects. Independent source review and genuine root admission before execution.",
+  "policy_cases_executed": 0,
+  "remaining_premises": [
+    "No deterministic boundary controller implemented or qualified; maximum 31 prospective attempts (23 F01 + 8 F02) remain unexecuted.",
+    "No guarantee of complete cleanup under arbitrary repeated signals, unsupported host mask or handler failure, or hard interruption.",
+    "Saved process receipts may precede restoration errors; post-restoration return or exception and genuine outer completion remain necessary.",
+    "Fresh genuine supplier/source/runtime custody, literal dispatch and root admission precede operational use.",
+    "Original 139 policy cases, 20 native/42 audit deeper rows and actual C2/C3 signs with shared H30 feasibility remain open."
+  ],
+  "ret_paused": true,
+  "review_checker": {
+    "bytes": 10293,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/check_review_metadata.py",
+    "sha256": "3e599e3fff7ba845ec9e08741cb6ec1947c1a7bfd84164bc55bcf757718579cb"
+  },
+  "review_final_pins": {
+    "bytes": 111775,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/FINAL_PIN_CHECK.json",
+    "sha256": "c7e59f911588b52e334acc06f95df5d2f0a23534916e73c0fb718bbbf3376c94"
+  },
+  "review_metadata": {
+    "bytes": 174064,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/OPAQUE_TEXT_CHECK.json",
+    "sha256": "dee3f88bc0154998b515793f172cd28492db4ec7f93824d9af176f296a4eca2e"
+  },
+  "reviewer_history": {
+    "bytes": 1728,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/CHECKER_HISTORY.json",
+    "sha256": "636bf66b5c826422a36f4b9fb9f20c335a8e4291fa536481ad4a69f4d92967f0"
+  },
+  "root_check": {
+    "bytes": 19308,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_CHECK.json",
+    "sha256": "f0477e553bd4bb19d8c0473d54effc6041ea063faba3395a1ee5fde6935caa3a"
+  },
+  "root_review": {
+    "bytes": 3887,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_REVIEW.md",
+    "sha256": "2ec34c80d5853bc9cdf9b6e1c1e3c707c8a7b70fc7cb2171aabb5acf8a1c0e08"
+  },
+  "root_scope": "Entire delta and critical integration paths, both full text diff reconstructions, all 423 selected identities and 96 overlapping unchanged slices; complete 2507-line nonauthor module review separately supplied. No claim root reread all unchanged custody source.",
+  "runtime_observed": false,
+  "schema": "ri140-root-source-adjudication-v1",
+  "scientific_body_decoded": false,
+  "status": "ACCEPT_EXACT_SOURCE_WITH_EXECUTION_PREREQUISITES",
+  "subject_handoff": {
+    "bytes": 6044,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.json",
+    "sha256": "8726a3d8be2d62b2326a6ad45d5e1f497fda521d4a1e4a9c92e04101c16f2141"
+  }
+}

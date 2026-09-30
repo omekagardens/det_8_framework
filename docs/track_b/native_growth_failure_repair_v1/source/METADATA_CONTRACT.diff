@@ -1,0 +1,1189 @@
+--- RI138/SOURCE_DEPENDENCIES.json
++++ RI140/SOURCE_DEPENDENCIES.json
+@@ -8218,6 +8218,438 @@
+     },
+     {
+       "role": "dep_0390",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_HISTORY.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_HISTORY.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_HISTORY.json",
++        "bytes": 4283,
++        "sha256": "5db748d50a6997c5aa5c04d5c168d4b1db10f562efbd5ae54398ad27f7f6f8c0",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Selected compact review ancestry retained by whole opaque identity only. Embedded pins for external-only V1/V2 diagnostic bodies remain declared review history, not active custody inputs or fresh observations; the 64-MiB cap is unchanged."
++      ]
++    },
++    {
++      "role": "dep_0391",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_V2_TRACEBACK.txt",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_V2_TRACEBACK.txt",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_V2_TRACEBACK.txt",
++        "bytes": 950,
++        "sha256": "822e1a358a26c079ac353716522136ac950b822e5a6f8b143648e03dece137e1",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Selected compact RI138 independent-review publication subset; immutable F01/F02 findings and review-method ancestry, not executed qualification."
++      ]
++    },
++    {
++      "role": "dep_0392",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/FINAL_PIN_CHECK.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/FINAL_PIN_CHECK.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/FINAL_PIN_CHECK.json",
++        "bytes": 104571,
++        "sha256": "482fddd8eca029d22e156698be519a103e0077b433d568cd78fd4b48062e64a8",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Selected compact review ancestry retained by whole opaque identity only. Embedded pins for external-only V1/V2 diagnostic bodies remain declared review history, not active custody inputs or fresh observations; the 64-MiB cap is unchanged."
++      ]
++    },
++    {
++      "role": "dep_0393",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/HANDOFF.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/HANDOFF.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/HANDOFF.json",
++        "bytes": 7951,
++        "sha256": "3729b27090a01824b6e1c743bf495e6b4416a69ffc4344567e44e867c7a2cc2b",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Selected compact review ancestry retained by whole opaque identity only. Embedded pins for external-only V1/V2 diagnostic bodies remain declared review history, not active custody inputs or fresh observations; the 64-MiB cap is unchanged."
++      ]
++    },
++    {
++      "role": "dep_0394",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.json",
++        "bytes": 6629,
++        "sha256": "cb82ef3b3a8db04f9fdf799dde030d7d7fad5652aa6ef9e632a3ba54868bf7ca",
++        "symlinks": []
++      },
++      "classification": "existing-administrative-source-custody-metadata",
++      "access_policy": "metadata-identities-only-no-scientific-body-decoding",
++      "reference_provenance": [
++        "Selected compact RI138 independent-review publication subset; immutable F01/F02 findings and review-method ancestry, not executed qualification."
++      ]
++    },
++    {
++      "role": "dep_0395",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.md",
++        "bytes": 19545,
++        "sha256": "cc695d49e9f7b1c407f34d8857983aa11baf208d4ebecd904fae559a34820dfb",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Selected compact RI138 independent-review publication subset; immutable F01/F02 findings and review-method ancestry, not executed qualification."
++      ]
++    },
++    {
++      "role": "dep_0396",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V3.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V3.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V3.json",
++        "bytes": 287207,
++        "sha256": "2901c60867336047a1def9f3096dc13a721efea393173296313ab6b3c8286f31",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Selected compact review ancestry retained by whole opaque identity only. Embedded pins for external-only V1/V2 diagnostic bodies remain declared review history, not active custody inputs or fresh observations; the 64-MiB cap is unchanged."
++      ]
++    },
++    {
++      "role": "dep_0397",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v3.py",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v3.py",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v3.py",
++        "bytes": 10444,
++        "sha256": "5cbf0ee02e186077895947937e302c2575c854d59b5d1e74a42a6ca11f13ee6f",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Selected compact RI138 independent-review publication subset; immutable F01/F02 findings and review-method ancestry, not executed qualification."
++      ]
++    },
++    {
++      "role": "dep_0398",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/AUTHOR_STATIC_CHECKS.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/AUTHOR_STATIC_CHECKS.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/AUTHOR_STATIC_CHECKS.json",
++        "bytes": 20632,
++        "sha256": "cab9596fa703f97a9b4e53512d35bc18530a5531d275e8c76ec5d39ed2383060",
++        "symlinks": []
++      },
++      "classification": "existing-administrative-source-custody-metadata",
++      "access_policy": "metadata-identities-only-no-scientific-body-decoding",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0399",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/CUSTODY_SOURCE_NOTES.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/CUSTODY_SOURCE_NOTES.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/CUSTODY_SOURCE_NOTES.md",
++        "bytes": 15127,
++        "sha256": "26d783bf5a222f3ac93a8c5b86fccdc6a574279e7e30c2872932d4aab2b0e376",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0400",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/DEPENDENCY_NOTES.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/DEPENDENCY_NOTES.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/DEPENDENCY_NOTES.md",
++        "bytes": 9639,
++        "sha256": "dacd4443ade07837d52ea407c33d86d705094b7356ed1f80757a2804774d58c3",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0401",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.json",
++        "bytes": 5173,
++        "sha256": "6ee043592352d35048bb31a34aa8b550bb830a9af2afc99170db14b3806510e0",
++        "symlinks": []
++      },
++      "classification": "existing-administrative-source-custody-metadata",
++      "access_policy": "metadata-identities-only-no-scientific-body-decoding",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0402",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.md",
++        "bytes": 3702,
++        "sha256": "0145c4f2d5a682ae8f51b04509999aabeb0661d8acc233227adede86b488d6b4",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0403",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/LAUNCHER_SOURCE_NOTES.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/LAUNCHER_SOURCE_NOTES.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/LAUNCHER_SOURCE_NOTES.md",
++        "bytes": 14420,
++        "sha256": "b6ead5e9c0c54ea97cd7b40941fcf327c030f8ac2ecb2a4a7acab7b1bd2cc512",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0404",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/PROCESS_SOURCE_NOTES.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/PROCESS_SOURCE_NOTES.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/PROCESS_SOURCE_NOTES.md",
++        "bytes": 14602,
++        "sha256": "179138fc5fdd7e9ee2ec4370c702405b0db43cad340fef564468dd54a792c60b",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0405",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/REVIEW_OBLIGATIONS.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/REVIEW_OBLIGATIONS.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/REVIEW_OBLIGATIONS.md",
++        "bytes": 2658,
++        "sha256": "43b67b0134ca393e9fe8ab31a2f721bc232e74df08833c95391296d0b5fb6f9d",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0406",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/ROOT_INTERFACE_CONTRACT.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/ROOT_INTERFACE_CONTRACT.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/ROOT_INTERFACE_CONTRACT.md",
++        "bytes": 11369,
++        "sha256": "52b1888a51f68f1e80b3d31d147d8f0032d115e497dd5521655cc45c2f8ccbf9",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0407",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_CORRESPONDENCE.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_CORRESPONDENCE.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_CORRESPONDENCE.json",
++        "bytes": 15330,
++        "sha256": "5d33f8b40fd7cb2d55f3080082373b6d30ad737eacfbd459dc941a4c20d468eb",
++        "symlinks": []
++      },
++      "classification": "existing-administrative-source-custody-metadata",
++      "access_policy": "metadata-identities-only-no-scientific-body-decoding",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0408",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_DEPENDENCIES.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_DEPENDENCIES.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_DEPENDENCIES.json",
++        "bytes": 673928,
++        "sha256": "48feb69eb10637ffa1f9f57522c09661e21b4eb9283737b6499497be7e8f22f2",
++        "symlinks": []
++      },
++      "classification": "existing-administrative-source-custody-metadata",
++      "access_policy": "metadata-identities-only-no-scientific-body-decoding",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0409",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_IDENTITIES.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_IDENTITIES.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_IDENTITIES.json",
++        "bytes": 23755,
++        "sha256": "ea8dec463c6827bd10ebb15df1bb52932cd03552baee869c933acae4f74c5465",
++        "symlinks": []
++      },
++      "classification": "existing-administrative-source-custody-metadata",
++      "access_policy": "metadata-identities-only-no-scientific-body-decoding",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0410",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/custody.py",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/custody.py",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/custody.py",
++        "bytes": 33143,
++        "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0411",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py",
++        "bytes": 57622,
++        "sha256": "670232ab5da7b2efa63d703c6fbd38fa088ff758d9d4dea129ac62845aab6ab9",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0412",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py",
++        "bytes": 38953,
++        "sha256": "8e749ead931f4a47f83853b1e4bb24c4c752aef79aac7349f0fd5cb7f8de5b62",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Complete preserved RI138 native launcher source namespace; rejected F01/F02 predecessor, not execution acceptance."
++      ]
++    },
++    {
++      "role": "dep_0413",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_ADJUDICATION.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_ADJUDICATION.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_ADJUDICATION.json",
++        "bytes": 2948,
++        "sha256": "2c191580f03416e7d6071518a6bdf7f94adfd8df62c2dfe166fad97e3e493942",
++        "symlinks": []
++      },
++      "classification": "existing-administrative-source-custody-metadata",
++      "access_policy": "metadata-identities-only-no-scientific-body-decoding",
++      "reference_provenance": [
++        "Selected RI138 native root source-repair adjudication and support; not the complete mixed-lane root namespace."
++      ]
++    },
++    {
++      "role": "dep_0414",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_RECONCILIATION.json",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_RECONCILIATION.json",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_RECONCILIATION.json",
++        "bytes": 252362,
++        "sha256": "d840a4eaeaecab73bff6dbe3e703df62bca0c5aea48af5238f4e0a4f11395302",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Selected native root reconciliation retained by whole opaque identity only; internal review-method or historical references are not expanded into active custody."
++      ]
++    },
++    {
++      "role": "dep_0415",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_SOURCE_REVIEW.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_SOURCE_REVIEW.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_SOURCE_REVIEW.md",
++        "bytes": 3647,
++        "sha256": "8cc95fb2ac2e40d8a9ab451d6adf36cff54005cae1568b6eb2bba19b4313e086",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Selected RI138 native root source-repair adjudication and support; not the complete mixed-lane root namespace."
++      ]
++    },
++    {
++      "role": "dep_0416",
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/RI140_STARTUP_SCOPE_ADDENDUM.md",
++      "identity": {
++        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/RI140_STARTUP_SCOPE_ADDENDUM.md",
++        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/RI140_STARTUP_SCOPE_ADDENDUM.md",
++        "bytes": 1715,
++        "sha256": "8a6259d9fb2bc0597de215fd8f51a77ab228a6dc1e053fda3ba96643310d9008",
++        "symlinks": []
++      },
++      "classification": "immutable-source-or-opaque-historical-evidence",
++      "access_policy": "opaque-bytes-only",
++      "reference_provenance": [
++        "Explicit root-selected source-governance addendum for minimal F01 collector startup-order repair; only this file is selected from the RI142 directory, with no runtime, operation or other cross-lane input."
++      ]
++    },
++    {
++      "role": "dep_0417",
+       "path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+       "identity": {
+         "path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+@@ -8236,7 +8668,7 @@
+       ]
+     },
+     {
+-      "role": "dep_0391",
++      "role": "dep_0418",
+       "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+       "identity": {
+         "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+@@ -8262,7 +8694,7 @@
+       ]
+     },
+     {
+-      "role": "dep_0392",
++      "role": "dep_0419",
+       "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md",
+       "identity": {
+         "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md",
+@@ -8281,7 +8713,7 @@
+       ]
+     },
+     {
+-      "role": "dep_0393",
++      "role": "dep_0420",
+       "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+       "identity": {
+         "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+@@ -8307,7 +8739,7 @@
+       ]
+     },
+     {
+-      "role": "dep_0394",
++      "role": "dep_0421",
+       "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/check.py",
+       "identity": {
+         "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/check.py",
+@@ -8326,7 +8758,7 @@
+       ]
+     },
+     {
+-      "role": "dep_0395",
++      "role": "dep_0422",
+       "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/ANALYTIC_REDUCTION.md",
+       "identity": {
+         "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/ANALYTIC_REDUCTION.md",
+@@ -8345,7 +8777,7 @@
+       ]
+     },
+     {
+-      "role": "dep_0396",
++      "role": "dep_0423",
+       "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+       "identity": {
+         "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+--- RI138/SOURCE_IDENTITIES.json
++++ RI140/SOURCE_IDENTITIES.json
+@@ -856,9 +856,9 @@
+     "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c"
+   },
+   "dependency_manifest": {
+-    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_DEPENDENCIES.json",
+-    "bytes": 673928,
+-    "sha256": "48feb69eb10637ffa1f9f57522c09661e21b4eb9283737b6499497be7e8f22f2"
++    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_DEPENDENCIES.json",
++    "bytes": 699052,
++    "sha256": "bd04d9013a543e63eb3db2488156c9c1c22333c48b68bdbce2ffcb9e33461544"
+   },
+   "scope": {
+     "execution_authorized": false,
+@@ -867,5 +867,51 @@
+     "complete_caller_qualification": false,
+     "old_cases_included": false,
+     "production_entry_authorized": false
++  },
++  "repair_ancestry": {
++    "predecessor_source_handoff": {
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.json",
++      "bytes": 5173,
++      "sha256": "6ee043592352d35048bb31a34aa8b550bb830a9af2afc99170db14b3806510e0"
++    },
++    "independent_review": {
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.json",
++      "bytes": 6629,
++      "sha256": "cb82ef3b3a8db04f9fdf799dde030d7d7fad5652aa6ef9e632a3ba54868bf7ca"
++    },
++    "independent_review_note": {
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.md",
++      "bytes": 19545,
++      "sha256": "cc695d49e9f7b1c407f34d8857983aa11baf208d4ebecd904fae559a34820dfb"
++    },
++    "independent_review_handoff": {
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/HANDOFF.json",
++      "bytes": 7951,
++      "sha256": "3729b27090a01824b6e1c743bf495e6b4416a69ffc4344567e44e867c7a2cc2b"
++    },
++    "root_adjudication": {
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_ADJUDICATION.json",
++      "bytes": 2948,
++      "sha256": "2c191580f03416e7d6071518a6bdf7f94adfd8df62c2dfe166fad97e3e493942"
++    },
++    "root_review": {
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_SOURCE_REVIEW.md",
++      "bytes": 3647,
++      "sha256": "8cc95fb2ac2e40d8a9ab451d6adf36cff54005cae1568b6eb2bba19b4313e086"
++    },
++    "root_reconciliation": {
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_RECONCILIATION.json",
++      "bytes": 252362,
++      "sha256": "d840a4eaeaecab73bff6dbe3e703df62bca0c5aea48af5238f4e0a4f11395302"
++    },
++    "findings": [
++      "F01",
++      "F02"
++    ],
++    "startup_scope_addendum": {
++      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/RI140_STARTUP_SCOPE_ADDENDUM.md",
++      "bytes": 1715,
++      "sha256": "8a6259d9fb2bc0597de215fd8f51a77ab228a6dc1e053fda3ba96643310d9008"
++    }
+   }
+ }
+--- RI138/DEPENDENCY_NOTES.md
++++ RI140/DEPENDENCY_NOTES.md
+@@ -1,169 +1,192 @@
+-# RI138 — external-launch subjects and static dependencies
++# RI140 — F01/F02 repair lineage and bounded dependencies
+ 
+-Source-only preparation for the concrete launcher selected by the RI136 root
+-adjudication. These files identify the accepted, unexecuted dispatcher and its
+-existing 139 cases. They create no runtime observation, case result, execution
+-admission, complete caller qualification or scientific conclusion.
++Source-only metadata for the narrow immutable repair selected by the RI138 root
++adjudication. RI138 was rejected for operational use pending F01/F02 repair.
++These references preserve that negative finding; they do not accept the repaired
++source, qualify a case, admit execution or create a scientific result.
+ 
+-## Fixed metadata
+-
+ Current packet:
+-`/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w`.
++`/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0`.
+ 
+ | File | Bytes | SHA-256 |
+ | --- | ---: | --- |
+-| SOURCE_DEPENDENCIES.json | 673928 | `48feb69eb10637ffa1f9f57522c09661e21b4eb9283737b6499497be7e8f22f2` |
+-| SOURCE_IDENTITIES.json | 23755 | `ea8dec463c6827bd10ebb15df1bb52932cd03552baee869c933acae4f74c5465` |
++| SOURCE_DEPENDENCIES.json | 699052 | `bd04d9013a543e63eb3db2488156c9c1c22333c48b68bdbce2ffcb9e33461544` |
++| SOURCE_IDENTITIES.json | 26029 | `25a694353f782aa3d6c50f925981b5403a5da28308676930256b420c110f192c` |
+ 
+-The subject manifest has schema
+-`ri138-external-launch-subject-identities-v1`, status
+-`SOURCE_ONLY_VERSION_BOUND_EXTERNAL_LAUNCH`, and exactly these fields:
+-schema, status, dispatcher, dispatcher_subject_manifest,
+-dispatcher_source_handoff, subjects, acceptance, expected_runtime,
+-expected_history, dependency_manifest, scope. Ordinary identities have exactly
+-path, bytes, sha256. Six scope flags are false: execution_authorized,
+-current_runtime_observed, scientific_execution, complete_caller_qualification,
+-old_cases_included and production_entry_authorized.
++## Retained protocol and exact repair predecessor
+ 
+-Dispatcher, its subject manifest and its source handoff remain the immutable
+-RI136 files under `ri136-native-policy-dispatch-source-g_z472z7`. The dispatcher
+-is 23248 bytes, SHA-256
+-`1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37`.
+-The handoff is 11534 bytes, SHA-256
+-`748b0e5e7b309705d5a6daf0aaaf6b89dce071f95af4fe3f4b9cb572a6f9ae18`.
+-Neither is copied, retargeted or changed by this metadata extension.
++The subject manifest retains schema
++`ri138-external-launch-subject-identities-v1` and status
++`SOURCE_ONLY_VERSION_BOUND_EXTERNAL_LAUNCH`. All existing fields except the
++new dependency_manifest identity are unchanged: dispatcher,
++dispatcher_subject_manifest, dispatcher_source_handoff, subjects, acceptance,
++expected_runtime, expected_history and scope. The 77 native and 62 audit case
++objects, ordering and distinct nine-key/eleven-key observation contracts compare
++exactly with RI138. The unchanged pure-policy subjects are not replaced by this
++failure-path repair; they are not scientific execution.
+ 
+-`subjects` is an exact copy of the complete native and audit objects in the
+-accepted RI136 subject manifest: the four unchanged RI134 caller/control
+-identities, all 77 native and 62 audit id/family/mutation triples in original
+-order, and the distinct nine-key native and eleven-key audit result contracts.
+-There are eight positive baselines, 129 isolated negatives and two native
+-ordering probes. No expected result is recomputed here; the exact pinned
+-controls remain authoritative for their separate exception, return and
+-argument-preservation rules. No old RI132 case or production entry is added.
++One new field, repair_ancestry, has exactly predecessor_source_handoff,
++independent_review, independent_review_note, independent_review_handoff,
++root_adjudication, root_review, root_reconciliation, startup_scope_addendum and
++findings. The eight identity fields use ordinary path/bytes/sha256 identities.
++findings is exactly [F01, F02].
+ 
+-The acceptance object binds the complete RI136 independent review JSON, review
+-Markdown and review handoff; RI136 root adjudication and root review; and the
+-unchanged RI136 LAUNCH_COLLECTION_CONTRACT.md. The selected root status is
+-`ACCEPT_EXACT_UNEXECUTED_DISPATCHER_SELECT_EXTERNAL_IMPLEMENTATION`.
+-That accepts source and selects implementation; execution_admitted and
+-current_runtime_observed remain false, with controls_executed zero.
++The repair predecessor is the RI138 source HANDOFF.json: 5173 bytes, SHA-256
++`6ee043592352d35048bb31a34aa8b550bb830a9af2afc99170db14b3806510e0`.
++The new current HANDOFF must use schema
++`ri140-native-failure-repair-source-handoff-v1`, retain the existing eight-field
++source-only handoff protocol and bind this repair predecessor through
++repair_ancestry.predecessor_source_handoff. In contrast, dispatcher_source_handoff
++continues to identify the accepted unchanged RI136 dispatcher. Confusing those
++two roles would misstate either code ancestry or the executable subject.
+ 
+-## Dependency extension: 373 retained and 23 added
++The complete independent review's status is
++`REQUIRE_F01_F02_REPAIR_BEFORE_LAUNCH_ADMISSION`; the root status is
++`REQUIRE_F01_F02_IMMUTABLE_SOURCE_REPAIR`. F01 concerns safe ordinary-signal
++acquisition/ownership and subsequent close/after-custody obligations. F02 concerns
++retaining the original pipe read/write/overflow cause before secondary cleanup
++failures. These are source findings, not executed faults or mathematical results.
++Fresh complete nonauthor review and root adjudication remain necessary before
++any execution admission. The current root's selection/FYI is not that admission.
+ 
+-The dependency manifest deliberately retains the existing wire protocol:
+-schema `ri129-source-dependencies-v1`, status
+-`SOURCE_ONLY_CLOSED_DEPENDENCIES`, fields schema/status/protected_files/scope,
+-and the complete prior scope object. The new whole-file pin binds RI138's
+-396-entry version; retaining the protocol does not transfer execution credit.
++## Exact active dependency selection
+ 
+-Every inherited RI136 entry retains its complete identity, classification,
+-access policy and reference provenance. Only role numbering changes after
+-sorting by canonical absolute literal path. Roles are dep_0001 through
+-dep_0396. Full identities retain path, resolved_path, bytes, sha256 and symlinks.
+-Different literal paths remain distinct even when content matches; equal paths
+-could be deduplicated only with identical complete identities. No duplicate
+-path occurred in this extension.
++The dependency manifest keeps the existing wire schema
++`ri129-source-dependencies-v1`, status `SOURCE_ONLY_CLOSED_DEPENDENCIES`, four
++top-level fields and unchanged scope object. Its 423 canonical absolute paths
++are sorted and numbered dep_0001 through dep_0423. Each full identity retains
++path, resolved_path, bytes, sha256 and symlinks. Every one of RI138's 396 entries
++is preserved exactly except sorted role renumbering: identity, classification,
++access policy and reference provenance are unchanged.
+ 
+-Exactly 23 files were added:
++There are exactly 27 additions, with no duplicate literal path:
+ 
+-| Predecessor namespace | Files |
++| Selected predecessor material | Files |
+ | --- | ---: |
+-| Entire RI136 source namespace, including its handoff | 12 |
+-| Entire RI136 independent-review namespace, including its handoff | 6 |
+-| Selected RI136 root acceptance/support files | 5 |
++| Complete immutable RI138 source namespace | 15 |
++| Compact RI138 review subset declared by its handoff | 8 |
++| Selected native RI138 root adjudication/review/reconciliation | 3 |
++| Root-selected F01 collector startup-scope addendum | 1 |
+ 
+-The complete namespaces are `ri136-native-policy-dispatch-source-g_z472z7` and
+-`ri136-dispatch-independent-review-s5t7rk5z` under the evidence root. Actual
+-directory membership agrees with each handoff's complete payload inventory
+-plus the handoff itself.
++The source namespace is `ri138-native-external-launch-source-92pbd52w` under
++the evidence root. Its entire fifteen-name directory and fourteen handoff
++payload pins were checked; no source file was changed or copied into place.
+ 
+-The selected root files under `ri136-root-dispatch-adjudication-ytfuubsm` are
+-RI136_ROOT_ADJUDICATION.json, ROOT_SOURCE_REVIEW.md,
+-ROOT_REVIEW_RECONCILIATION.json, check_review.py and
+-SUCCESSOR_RESERVATIONS.json. This is not a claim to include that directory's
+-complete publication namespace. REPO_ENTRY, reservation bookkeeping and
+-unselected measurement artifacts are not added.
++The selected review namespace is
++`ri138-launch-independent-review-6xGu5oak`. The eight selected names exactly
++match its handoff's publication.compact_public_review_subset:
++CHECKER_HISTORY.json, CHECKER_V2_TRACEBACK.txt, FINAL_PIN_CHECK.json,
++HANDOFF.json, INDEPENDENT_SOURCE_REVIEW.json, INDEPENDENT_SOURCE_REVIEW.md,
++OPAQUE_TEXT_CHECK_V3.json and check_metadata_v3.py. This is an explicitly
++selected compact subset, not a claim to include the entire twelve-file review
++directory. Every selected non-handoff identity matches the complete handoff;
++the handoff itself matches the externally selected review pin.
+ 
+-Both implementation authors confirmed that the contemplated custody and
+-owned-process adaptations use only already inherited RI134 support. No
+-RI135/RI137 measurement source, new cross-lane acceptance or unrelated support
+-closure was selected. Earlier review-method scripts are retained as source
+-provenance, not invoked as current launchers or checkers.
++The root subset under `ri139-root-bootstrap-adjudication-goau3dIc` is precisely
++RI138_ROOT_ADJUDICATION.json, RI138_ROOT_SOURCE_REVIEW.md and
++RI138_ROOT_RECONCILIATION.json. The mixed directory's RI139 measurement records,
++runtime captures, publication bookkeeping and other executors are not imported.
++The existing 396-file ancestry may contain previously accepted identity-only
++provenance; this repair does not expand or reaccept its semantics.
+ 
+-The unchanged RI136 dispatcher still pins its original subject manifest and
+-373-file dependency manifest. The unchanged RI134 callers still pin their
+-own 343-file manifest. This new 396-file closure does not overwrite either.
+-RI138's external custody must include all 396 expected identities, plus the
+-separately bound complete current packet and operational/root authority
+-identities. Supplying only the old 373 entries would omit this extension's
+-23 dependencies and would not satisfy that obligation.
++The one additional source-governance dependency is
++`/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/RI140_STARTUP_SCOPE_ADDENDUM.md`:
++1715 bytes, SHA-256
++`8a6259d9fb2bc0597de215fd8f51a77ab228a6dc1e053fda3ba96643310d9008`.
++Root selected the minimal collector startup-order repair as the same F01
++ordinary-signal acquisition class at a second site. The addendum requires
++record-only ordinary handlers and protected resource registration before
++startup acquisition, restoration on ordinary tails, and unchanged hard-watchdog
++limits. It was fully read and opaquely hashed, not executed. Only this named
++opaque governance file is selected from RI142; no other RI142 source, runtime,
++operation or measurement record is imported. It is not an execution admission.
+ 
+-## Expected runtime and history are not recaptured
++## Oversized diagnostic remains external ancestry
+ 
+-Both explicit expectation identities remain under
+-`/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx`:
++The review handoff deliberately distinguishes four external-only diagnostics
++from the compact publication subset. Their declared pins remain intact in the
++unchanged handoff/history. They are **not** entries in this 423-file active
++custody selection:
+ 
+-| Expected manifest | Bytes | SHA-256 |
++| External-only review file | Declared bytes | Declared SHA-256 |
+ | --- | ---: | --- |
+-| RUNTIME_CLOSURE.json | 2862854 | `35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920` |
+-| HISTORY_RECONCILIATION.json | 2170307 | `b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c` |
++| check_metadata.py | 8992 | `75b6f11cc105a3d5736be95706f13990b256f50cfe63a25ad3a913c945f9890e` |
++| check_metadata_v2.py | 9976 | `48687e86dcc8db50c268b97110c62cc1b6d15f05c9d65e068f4dd676a623688f` |
++| OPAQUE_TEXT_CHECK.json | 1947826 | `2217ed34a9b76d38e874299e6c8274795876cd4b99afbb359fafaeed1bb41b5a` |
++| OPAQUE_TEXT_CHECK_V2.json | 77941960 | `9ba85518fe6e0487a915c11ccc84be7d443a938411471834abd2bd9cc03139c7` |
+ 
+-They already occur in the inherited dependency set. Their actual complete
+-file bytes were opaquely checked here, not their current runtime referents.
+-No runtime file, installed supplier, namespace, absence or host-state inventory
+-was collected. Their internal bodies were not decoded in this tranche. A
+-future externally authenticated observation must establish current conformity
+-before dispatch; an expected manifest or historical match cannot do so.
++All four paths are under the selected review directory. These are declarations
++from its authenticated handoff, not fresh observations of those four bodies.
++None was opened, decoded or newly hashed in this preparation. In particular,
++the 77941960-byte V2 occurrence dump exceeds the unchanged 67108864-byte
++operational read bound. It is not an active custody input, there is no new
++large-file exception, and no runtime or metadata cap is raised.
+ 
+-## Performed author metadata checks and closure limits
++The compact review HANDOFF, CHECKER_HISTORY, FINAL_PIN_CHECK and V3 report are
++retained by whole opaque identity as review ancestry. Their internal reference
++pins do not recursively become active operational inputs. The complete handoff
++was read as required disposition/selection context; retaining it for future
++opaque custody is not permission to follow its external diagnostic pointers.
++The native root reconciliation is likewise whole opaque supporting evidence.
+ 
+-All 396 dependency files were opaquely hashed against their expected complete
+-identities. Each path and every path component was checked for symlinks; all
+-selected files were regular and nonsymlink. Device, inode, mode, size, mtime and
+-ctime agreed across initial path, open descriptor, post-read descriptor and
+-final path checks. The two predecessor namespace inventories and every payload
+-pin matched. This is finite author metadata checking, not independent review,
+-future custody, a continuous filesystem lock or a hostile-host guarantee.
++Both failed reviewer tool executions remain failed historical evidence: the
++review describes a first closure-scope assumption failure and a second V2
++report-printing failure. The compact V3 successful metadata check has a separate
++genuine historical completion. No internal V2 success flag is promoted into a
++successful tool result, and no failed diagnostic is deleted or overwritten.
++This selection preserves their declared history without replaying a checker or
++requiring the operational launcher to ingest an oversized diagnostic dump.
+ 
+-There are 167 administrative-readable entries and 229 opaque entries. The
+-156 inherited administrative-body traversals were not repeated or relabeled as
+-fresh RI138 work. Their accepted predecessor review remains the premise.
+-The eleven newly added administrative JSON bodies were authenticated as whole
+-bytes before decoding and traversed for typed path/bytes/sha256 references.
+-All 1699 such occurrences match identities in the 396-entry dependency set,
+-including every supplied resolved_path/symlinks field. There were no missing
+-or mismatched occurrences. DISPATCHER_REFUSALS.json is one of the eleven
+-administrative bodies and contributes no typed identity occurrence.
++This is a bounded selection already provided by the predecessor review handoff
++and approved by the current root, not a new general reference-closure scheme.
++No broad inherited historical expansion, measurement-lane closure or new
++reviewing executor is introduced.
+ 
+-The new subject manifest's sixteen typed references also match: fifteen name
+-the fixed predecessor dependencies and one names the new dependency manifest.
+-Exact subject-object comparison confirms unchanged 77/62 inventories and both
+-result contracts. The retained 373 entry objects compare identically after
+-removing only their old/new role fields.
++## Author checks and explicit limits of those checks
+ 
+-ROOT_REVIEW_RECONCILIATION.json and SUCCESSOR_RESERVATIONS.json remain
+-opaque-only mixed-lane supporting records. Their internal references are not
+-traversed, promoted to native dependencies or accepted as measurement authority.
+-This deliberately limited access policy is explicit; no claim is made that
+-all references in every opaque file were decoded or closed. Scientific bodies
+-and preserved negative results likewise remain opaque identity dependencies.
++All 423 selected dependency files were opaquely hashed against their full
++expected identities. Canonical paths, nonsymlink components and regular files
++were checked. Device, inode, mode, size, mtime and ctime agreed across initial
++path, open descriptor, post-read descriptor and final path observations. Every
++selected file fits the unchanged 64-MiB per-file cap. This finite author check
++is not independent acceptance, future runtime custody or a continuous lock.
+ 
+-## Acyclic current-packet binding and stop
++There are 174 metadata-readable entries and 249 opaque entries. The seven new
++metadata-readable bodies are the five RI138 source JSON files, the structured
++independent review and the native root adjudication. Their complete bytes were
++authenticated before decoding. Their 460 typed path/bytes/sha256 occurrences
++all match the 423-file selection, including supplied resolved_path/symlinks
++fields. No missing or mismatched occurrence was found. The new subject manifest
++has 24 typed references: 23 match selected dependencies and one names the new
++dependency manifest. All match their actual selected identities.
+ 
+-The dependency manifest contains no current RI138 source file. The subject
+-manifest binds that dependency file and unchanged predecessor subjects and
+-authority; it excludes itself, current helper/launcher code, this note and the
+-current HANDOFF. The parent launcher can therefore hard-pin the complete
+-subject manifest without a source hash cycle. A separately root-pinned current
+-HANDOFF must bind the entire RI138 source packet, including all new code and
+-these three files. No metadata self-description replaces that outside binding.
++The inherited 167 administrative-body traversal was not rerun here. The RI138
++independent review's stated direct-reference census and 112276 undereferenced
++external historical occurrences remain historical review premises, not new
++RI140 observations. No claim is made that every reference in every opaque
++review/history body closes inside the active selection. Scientific bodies,
++runtime/history expectation bodies and unselected external diagnostics were
++not decoded or recursively opened.
+ 
+-Only administrative JSON, ordinary source/document text and opaque hashing
+-were used. No research source/helper import, compilation, AST, probe, control,
+-fixture or scientific execution; no scientific JSON decode; no current runtime
+-inventory or active copy/card/freeze/admission/attempt; and no repository/index/
+-Git operation occurred. No standalone checking executor was added. All three
+-files require fresh nonauthor review with the complete RI138 implementation
+-and owner adjudication. RET remains paused, measurement remains independent,
+-and all 139 direct case outcomes remain unobserved here.
++Expected_runtime and expected_history retain the original RI122 whole-file
++pins. The original RI136 dispatcher and RI134 callers keep their own 373/343
++dependency manifests. No expected installation, source-law input, case count,
++runtime namespace or resource budget is changed. Current runtime conformity
++and every actual case outcome remain unobserved in this source preparation.
++
++## Acyclic current binding and stop
++
++SOURCE_DEPENDENCIES includes no current RI140 source file. SOURCE_IDENTITIES
++binds that new dependency manifest and the unchanged subjects plus repair
++ancestry, but excludes itself, current helper/launcher code and current HANDOFF.
++The new launcher can hard-pin it without a self-hash cycle. The externally
++pinned final current HANDOFF must bind all current payloads separately.
++
++Only administrative metadata, ordinary documents and opaque selected bytes
++were used. No subject/helper/launcher import, compilation, AST, probe, fault,
++control, fixture or scientific execution; no scientific JSON decode, current
++runtime inventory, operational card/admission/attempt; and no repository/index/
++Git action occurred. The F01/F02 repair still requires independent source review
++and root adjudication. The deeper caller and scientific obligations, actual
++C2/C3 signs and simultaneous H30 feasibility remain unresolved; RET remains
++paused and measurement remains independent.
+--- RI138/ROOT_INTERFACE_CONTRACT.md
++++ RI140/ROOT_INTERFACE_CONTRACT.md
+@@ -1,13 +1,14 @@
+-# RI138 external launch and custody contract
++# RI140 F01/F02 source-repair contract
+ 
+-This packet implements the external collection obligation selected by the
+-accepted RI136 dispatcher review. It is unexecuted source for fresh independent
++This packet repairs only F01 and F02 in the rejected RI138 external launcher.
++It retains the external collection obligation selected by the accepted RI136
++dispatcher review. It is unexecuted source for fresh independent
+ review. It supplies concrete observation, launch, capture and cleanup code;
+ it does not supply an execution admission or a scientific result. Root retains
+ operational authority, actual tool-history reconciliation and Git ownership.
+ 
+ The fixed packet directory is
+-`/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w`.
++`/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0`.
+ The unchanged dispatcher remains in
+ `/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7`.
+ Only one of its exact 77 native or 62 audit pure-policy cases can be selected.
+@@ -145,7 +146,7 @@
+ 
+ The custody base contains 4374 ordered rows: three manifests, 373 dependencies,
+ 699 history files, 2988 runtime files, 258 directories, 40 absences and 13 host
+-observations. All 396 current dependency identities, current packet identities
++observations. All 423 current dependency identities, current packet identities
+ and root/operational inputs are supplied additionally. Shared original rows
+ retain their group identities; supplements may deduplicate identical paths.
+ An ordinary error in one object cannot skip later object attempts. Deadline
+@@ -183,3 +184,58 @@
+ This handoff stops for fresh nonauthor review and owner adjudication. No
+ runtime observation, active card, admission, policy execution, scientific
+ result, repository change or Git operation occurs in source preparation.
++
++## Narrow repair and immutable ancestry
++
++RI138 remains unchanged and rejected for operational use. The current source
++manifest retains the original subject and dispatcher interfaces and separately
++binds RI138, the complete selected review, and root's F01/F02 decision. The
++current handoff schema is `ri140-native-failure-repair-source-handoff-v1`;
++its predecessor is RI138, not the still-unchanged RI136 dispatcher. All 396
++inherited execution dependencies remain intact. The 27 additions are RI138's
++15 source records, eight compact review records, three native root records,
++and the owner's F01 collector-startup scope addendum.
++The four explicitly pinned V1/V2 review diagnostics are external history, not
++new execution inputs. Their historical existence neither expands the active
++closure nor changes the 64-MiB per-read operational cap.
++
++F01 requires a fully initialized, locally recoverable sink before acquisition.
++An ordinary TERM, INT or HUP received during the narrow exclusive-open,
++file-descriptor registration and phase-ownership transition is recorded and
++refused only after acquired resources and ownership are recoverable. A true
++failed open remains preownership. Known acquired resources receive independent
++close attempts, and an owned phase still attempts full after custody on an
++ordinary failure. SIGALRM remains immediate and hard-watchdog incompleteness
++is not represented as complete custody. No deadline is extended.
++
++The addendum identifies the same acquisition risk in collector startup: its
++record-only ordinary handlers previously followed the four sink acquisitions.
++Install those handlers under protected cleanup before startup acquisition;
++retain and refuse recorded signals, register resources before further fallible
++work, and restore changed handlers on ordinary tails. SIGALRM remains untouched.
++Only TERM/INT/HUP are temporarily masked during handler-state transitions;
++the original mask is restored. A pending signal observed during restoration is
++recorded distinctly from handler delivery and prevents success. All restoration
++attempts precede unmasking, so reinstating one raising handler cannot interrupt
++the remaining handler attempts. Failed masking/restoration is a refusal, not an
++exemption or a completed cleanup claim.
++The supported caller is the authenticated launcher with its raising ordinary
++handlers and those signals initially unblocked. Unsupported initial blocked or
++noncallable ordinary-handler states refuse before startup resources. A callable
++check alone is not proof of handler behavior; the complete pinned caller supplies
++that premise. If host masking fails, restoration is explicitly best effort and
++incomplete, never a successful all-tail certificate.
++This is part of F01, not a new launcher or generalized cleanup redesign.
++
++F02 requires the original read, sink-write, child-overflow or census-overflow
++failure to be retained before unregister and close are attempted. Cleanup
++failures follow that cause; propagation does not add a duplicate or relabel it.
++EOF with a failing close retains its close-only failure semantics. Existing raw
++prefixes, overflow-byte evidence, error-detail bounds, and process limits stay
++unchanged.
++
++The focused qualification document specifies prospective evidence only.
++Neither these contracts nor author text/hash checks establish the repair's
++runtime behavior. Fresh complete nonauthor review and root adjudication are
++required before any separately admitted qualification. There is no new general
++launcher, policy case, native science run, runtime capture, or operational card.
+--- RI138/REVIEW_OBLIGATIONS.md
++++ RI140/REVIEW_OBLIGATIONS.md
+@@ -1,28 +1,43 @@
+-# RI138 source review obligations
++# RI140 review obligations
+ 
+-These are prospective review questions for the concrete external launcher,
+-not executed controls or new scientific gates. Author metadata and literal
+-source checks provide no execution credit. Independent review must examine
+-the complete new code and the exact preserved dispatcher contract.
++This source-only repair closes neither execution qualification nor the native
++scientific obligation. RI138 was rejected for F01 and F02; it is immutable.
++Review the complete repaired modules, all current contracts and manifests, the
++complete diffs, and exact text correspondence. Author checks are not independent
++acceptance. The pinned RI138 notes remain historical explanations, superseded
++only where the current F01/F02 notes explicitly repair them.
+ 
+-| Boundary | Required evidence in source | Refusal meaning |
+-| --- | --- | --- |
+-| Initial authority | Externally pinned root plan, whole handoff and real bootstrap evidence; actual tool origin reserved to root | Missing provenance cannot be repaired by a local success flag |
+-| Source authentication | Complete helpers authenticated before whole non-main loading; all 396 dependencies retained | An early hash refusal does not test a deeper policy |
+-| Preparation | Full frozen before inventory, delegated exact cards, independent after observations and real completion | Partial cards after failure are not authority to run |
+-| Command binding | Plan hash external to plan; authorization hash external to authorization; root dispatch before actual invocation | No circular digest or reconstructed tool success |
+-| Run startup | Fresh complete before observations plus authentic completed preparation | Stale preparation alone is insufficient |
+-| Owned process | New group, actual leader relation, bounded independent census and both stream drains | Fast no-live sample, malformed census or overrun is failure |
+-| Cleanup | Original first error, independent termination/reap/close attempts, empty group only after actual leader reap | No nominal child success can erase collection failure |
+-| Post custody | All frozen objects attempted independently after ordinary failure; pure spec extension | Never replace old expectations with changed actual bytes |
+-| Durability | Exclusive capped writes, partial counts, `fsync`, close errors and actual terminal completion | Missing final receipt or failed writer remains a raw failure |
+-| Result semantics | Exact RI136 envelope, source/card bindings and distinct native/audit result contract | Direct policy success is not production qualification |
++1. For F01, trace every ordinary-signal interleaving from the exclusive open
++   through recoverable local sink, descriptor registration and phase ownership.
++   Check repeated signals, an original open exception, ownership refusal,
++   observation-sink failure, first append failure, independent close and full
++   after custody. A real failed open must not acquire phase ownership. Hard
++   SIGALRM must remain immediate and incomplete, without new time allowance.
++   Include the owner's startup addendum: record-only ordinary handlers precede
++   collector acquisitions; signals remain a refusal; every changed handler is
++   restored on ordinary tails, including partial setup and finalization failures.
++   Inspect the exact saved-mask transition, pending-versus-delivered signal
++   distinction, restoration-before-unmask ordering and failure paths. SIGALRM
++   must never enter the temporary ordinary-signal mask.
++2. For F02, trace original read, sink-write and both overflow failures through
++   unregister, close, census and outer-body handlers. Primary retention precedes
++   cleanup; propagation adds no duplicate/relabelled primary. Unrelated errors
++   still record normally. EOF-only close failure is not a read error. Retained
++   prefixes, overflow bytes and all storage/deadline limits remain unchanged.
++3. Check all unchanged lifecycle, custody and authority boundaries from RI138,
++   including bootstrap/tool origin, root's external dispatch pin, independent
++   full after observations, no rebaseline, and finite before/after limitations.
++   A repair does not erase other obligations merely because its diff is small.
++4. Authenticate the current acyclic packet and 423-entry closure. Preserve all
++   396 inherited entries apart from sorted role renumbering. Verify the exact
++   27 additions and explicit external-only diagnostic boundary; do not import
++   a historical oversized diagnostic into a bounded current read.
++5. Review the bounded focused qualification design without executing it. Any
++   later boundary controller, fixture, actual fault or runtime admission needs
++   separate review and root authorization. A nominal run or self-asserted
++   injected fault does not demonstrate a branch was exercised.
+ 
+-Source-only defenses do not demonstrate that their branches have executed.
+-Future fault injection would require a separately reviewed and genuinely
+-admitted test plan; it cannot be accomplished by modifying a sealed source,
+-patching module globals or silently reusing an operational reservation.
+-
+-The permitted next action after this source handoff is independent review and
+-owner adjudication. Execution remains unadmitted. Measurement remains separate,
+-RET remains paused, and no change to scientific claims follows from this work.
++The only next disposition is complete independent review and root adjudication.
++There are zero executed controls here. No scientific promotion, successor gate,
++RET work, measurement change, repository edit, commit or push is authorized by
++this packet. Root retains publication and Git ownership.
+--- RI138/HANDOFF.md
++++ RI140/HANDOFF.md
+@@ -1,64 +1,80 @@
+-# RI138 external launcher source handoff
++# RI140: narrow F01/F02 source repair
+ 
+-This source packet supplies the concrete external launcher and custody
+-implementation selected by the accepted RI136 review. It is for fresh
+-independent source review, not execution. The code has not been imported,
+-compiled, syntax-checked, probed or run during authoring. No case result,
+-current runtime inventory, active authorization or scientific finding exists
+-from this work.
++This packet proposes repairs to the two findings that caused root to reject
++RI138 for operational use. It stops for fresh complete nonauthor review and
++root adjudication. It is not execution admission or a passing qualification.
+ 
+-The implementation has three parts: full frozen custody observations,
+-bounded owned-process collection, and a two-phase launch coordinator. The
+-separate prepare and run commands allow root to preserve actual preparation
+-completion and bind the final authorization digest before launching the
+-unchanged RI136 dispatcher. The source implements file/namespace observations,
+-exclusive durable evidence, independent failure tails, real process-group
+-census, concurrent stream draining, termination and reap handling. It does
+-not delegate these ordinary mechanisms to a later design packet.
++The immutable predecessor is
++`ri138-native-external-launch-source-92pbd52w/HANDOFF.json`, 5173 bytes,
++SHA-256 `6ee043592352d35048bb31a34aa8b550bb830a9af2afc99170db14b3806510e0`.
++The selecting independent review and root decision remain pinned, including
++their negative findings. Root separately authorized the related collector
++startup acquisition defect within F01. No prior source was overwritten.
+ 
+-## What remains a trusted boundary
++## What changed
+ 
+-Root must authenticate the launcher before its interpreter starts and retain
+-genuine tool history. Neither a hash nor a local receipt proves its own origin.
+-The trusted Darwin host/loader premise and an external hard-stop boundary for
+-uninterruptible host operations remain explicit. A hard abort preserves partial
+-evidence; it does not establish completed custody or cleanup.
++F01 initializes and locally registers the launcher sink before acquisition,
++protects the ordinary-signal transition through descriptor and phase ownership,
++and preserves genuine failed-open preownership. Known resources remain available
++to independent close and owned-phase after custody. SIGALRM remains immediate;
++hard-stop incompleteness is not converted into a successful tail.
+ 
+-The unchanged active-process bounds are 120 seconds, 512 MiB sampled group RSS,
+-50 ms intended sampling, 250 ms bounded census, 8 MiB independently per stream
+-and 64 MiB auxiliary metadata. Cleanup reserves two seconds inside the process
+-limit. Root preparation and custody have separate explicit bounded costs.
+-No fast-process handshake, fake live sample, retry or limit relaxation is added.
++The related F01 startup repair establishes record-only ordinary handlers before
++collector resource acquisition and protects restoration on ordinary tails.
++Only TERM/INT/HUP handler-state transitions use a temporary saved signal mask;
++SIGALRM is excluded. Pending observations are not fabricated handler deliveries.
++Recorded interruptions and failed restoration cannot yield a successful return.
+ 
+-## Author verification and limits
++F02 records the original pipe read, sink-write, child-overflow or census-overflow
++cause before unregister/close cleanup. Owner-scoped propagation refers to that
++cause without duplicating or relabeling it. EOF-only close failure, raw prefixes,
++overflow evidence and all resource limits are preserved.
+ 
+-Author metadata checks rehashed all 396 source dependencies, preserved all
+-373 inherited entries except sorted role renumbering, and accounted for exactly
+-23 additions. The exact twelve-file RI136 source and six-file independent-review
+-namespaces matched their handoffs. The eleven newly readable administrative
+-bodies contain 1699 typed identity references, all matched; the current subject
+-manifest has sixteen matched references. The 156 inherited administrative-body
+-traversals are not represented as newly performed. Opaque mixed-lane and
+-scientific bodies remain opaque.
++`custody.py` is byte-for-byte unchanged. The RI136 dispatcher and all 77 native
++and 62 audit policy cases remain unchanged. Neither a new general launcher nor
++an enlarged scientific/policy inventory is introduced.
+ 
+-The component authors and parent performed source reading and author-peer
+-integration review. They are not independent reviewers of their own packet.
+-The performed metadata checks are recorded in `AUTHOR_STATIC_CHECKS.json`;
+-literal source correspondence is recorded separately. These checks do not
+-establish Python validity, runtime performance or a single executed control.
+-The source handoff binds every payload and excludes its own hash to avoid a
+-self-reference cycle. Root must separately pin the complete handoff.
++## Evidence and review route
+ 
+-## Review and stop
++- F01_SOURCE_NOTES.md and F02_SOURCE_NOTES.md explain the exact failure-path
++  changes; the latter also describes the authorized F01 startup transition.
++- ROOT_INTERFACE_CONTRACT.md preserves root/tool provenance, literal dispatch,
++  finite custody, resource and evidence boundaries.
++- SOURCE_CODE.diff contains the complete old-to-new Python changes.
++  METADATA_CONTRACT.diff contains complete changes to shared metadata/contracts.
++- SOURCE_CORRESPONDENCE.json gives exact unchanged definition slices, changed
++  and added definitions, complete source pins and full-delta reconstruction.
++  Text matching is not Python parsing, compilation, execution or a theorem.
++- AUTHOR_STATIC_CHECKS.json reports administrative source/metadata checks only.
++  Authors and author peers cannot confer independent acceptance on this packet.
++- REVIEW_OBLIGATIONS.md identifies the required complete review.
++  FOCUSED_QUALIFICATION_DESIGN.md is prospective only: at most 31 separately
++  admitted attempts (23 F01, eight F02), without a controller or any executed
++  fault. Boundary-control feasibility remains unimplemented and unqualified.
+ 
+-Read the complete three modules, component notes, dependency notes,
+-`ROOT_INTERFACE_CONTRACT.md` and `REVIEW_OBLIGATIONS.md`, then reconcile the
+-exact packet against `HANDOFF.json`. Fresh nonauthor review and root
+-adjudication are required before any operational admission.
++The active dependency selection is 423 files: all 396 inherited entries remain
++identical except sorted role numbering, plus 15 complete RI138 source files,
++eight compact review records, three native root records and one startup scope
++addendum. The four declared V1/V2 external diagnostic bodies are not selected or
++newly read. Their pins and failed history remain explicit. The operational
++64-MiB read cap is unchanged; there is no retrospective full-history expansion.
+ 
+-All 139 direct native/audit cases remain unexecuted here. Whole-caller
+-qualification, the 20 native and 42 audit deeper rows, genuine producer
+-15/4/71 and auditor 15/16 checks, C2/C3 signs and H30 feasibility remain open.
+-No scientific interface or mathematical mechanism was changed. Measurement
+-remains independent and RET remains paused. No repository, index, Git commit
+-or push was performed by this source-author task; publication belongs to root.
++The subject manifest binds this ancestry and the unchanged subjects, not its
++own hash or the current code. The externally pinned current HANDOFF.json binds
++all current payloads without self-reference. Its predecessor is RI138; the
++executable dispatcher ancestry remains the distinct RI136 source handoff.
++
++## Disposition and stop
++
++Zero subject/helper imports, compilations, AST passes, probes, fixtures, controls,
++scientific executions, current runtime captures, operational cards or admissions
++were performed here. There are no repository, index or Git changes. The owner
++retains publication, Git and runtime-admission authority.
++
++The actual native scientific question remains the C2/C3 strict signs and shared
++H30 feasibility. This repair supplies no answer, QM derivation, geometry bridge
++or physical claim. All policy outcomes and deeper caller obligations remain
++separate. Measurement remains independent and RET remains paused.
++
++Next disposition: fresh complete nonauthor review and root adjudication of this
++exact packet. No execution or successor research starts from author checks.

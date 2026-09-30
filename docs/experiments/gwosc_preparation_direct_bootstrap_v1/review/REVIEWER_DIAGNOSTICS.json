@@ -1,0 +1,75 @@
+{
+  "authority_boundary": "These are transcribed actual reviewer tool observations from the conversation; this JSON does not authenticate its own tool origin or any subject operation.",
+  "errors_were_reviewer_metadata_only": true,
+  "preserved_attempts": [
+    {
+      "cause": "Guessed metadata filename after complete requested reads; actual RI130 closure filenames subsequently listed and read.",
+      "error": "FileNotFoundError: RI130/SOURCE_PINS.json does not exist",
+      "full_raw_tool_receipt_saved": false,
+      "kind": "exploratory_administrative_read",
+      "sequence": 1,
+      "subject_changes": false
+    },
+    {
+      "cause": "HISTORY_CLOSURE.source-only.json is an array; later checker reads the complete actual array.",
+      "error": "AttributeError: list object has no attribute items",
+      "full_raw_tool_receipt_saved": false,
+      "kind": "exploratory_administrative_shape_read",
+      "sequence": 2,
+      "subject_changes": false
+    },
+    {
+      "cause": "Initially excluded the four explicitly declared repository RI118 archive files.",
+      "error": "ValueError: external evidence only, no vendor/current-runtime referent",
+      "exit_code": 1,
+      "genuine_tool_chunk": "c168e5",
+      "kind": "reviewer_metadata_checker",
+      "repair": "Allow only those exact four archive paths as well as external evidence; still prohibit all current vendor/runtime referents.",
+      "sequence": 3,
+      "source": {
+        "bytes": 13129,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.before-evidence-domain-fix.py",
+        "sha256": "52696c14e97daa9a06e04b50b6ae2687db4f1eba08701af12bed327fb975971f"
+      },
+      "subject_changes": false
+    },
+    {
+      "cause": "Saved framework row nests the full binding in identity; initial checker expected flattened fields.",
+      "error": "KeyError: bytes",
+      "exit_code": 1,
+      "genuine_tool_chunk": "4dc0f0",
+      "kind": "reviewer_metadata_checker",
+      "repair": "Compare row.identity with the entire selected six-field binding, including full state and symlink chain.",
+      "sequence": 4,
+      "source": {
+        "bytes": 13373,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.before-framework-shape-fix.py",
+        "sha256": "ee3125ce750a0269d5ba957cf33764ec8b4137894d01a7438e0e6d1f6bef0df9"
+      },
+      "subject_changes": false
+    }
+  ],
+  "schema": "ri141-reviewer-administrative-diagnostics-v1",
+  "successful_check": {
+    "command": [
+      "/usr/bin/python3",
+      "-I",
+      "-B",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.py"
+    ],
+    "exit_code": 0,
+    "genuine_tool_chunk": "b383f6",
+    "result": {
+      "bytes": 167968,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/OPAQUE_SOURCE_CHECK.json",
+      "sha256": "37662c0b8b410ab6183e7cd0d5088bb4d84e8738e79e41226ac95832330ed9e5"
+    },
+    "source": {
+      "bytes": 13285,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.py",
+      "sha256": "245764054c6912aa58dd519ce293ff6d694ccae798665bda1527939ea4bce60f"
+    },
+    "wall_time_seconds": 0.174331083
+  },
+  "target_activity": false
+}

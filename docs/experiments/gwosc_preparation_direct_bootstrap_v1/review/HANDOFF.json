@@ -1,0 +1,115 @@
+{
+  "RET_paused": true,
+  "actual_administrative_check": {
+    "exit_code": 0,
+    "result": {
+      "bytes": 167968,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/OPAQUE_SOURCE_CHECK.json",
+      "sha256": "37662c0b8b410ab6183e7cd0d5088bb4d84e8738e79e41226ac95832330ed9e5"
+    },
+    "tool_chunk": "b383f6"
+  },
+  "added": 189,
+  "blocking_findings": [],
+  "candidate_or_current_bootstrap_observed": false,
+  "complete_packet_files": 15,
+  "controls_executed": 0,
+  "earlier_authorship_disclosed": [
+    "RI125 primary/qualifier",
+    "RI131 guard source"
+  ],
+  "exact_namespace": [
+    "FINAL_SOURCE_CUSTODY.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "OPAQUE_SOURCE_CHECK.json",
+    "PUBLICATION_SUBSET.json",
+    "REVIEWER_DIAGNOSTICS.json",
+    "check_metadata.before-evidence-domain-fix.py",
+    "check_metadata.before-framework-shape-fix.py",
+    "check_metadata.py"
+  ],
+  "execution_admission": false,
+  "files": [
+    {
+      "bytes": 4237,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "5a23eeba894ce86fc051fb3d4bee97e39421a0c86561af595f0c951f31025e09"
+    },
+    {
+      "bytes": 4641,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "640e4dea8335b2a56698689054eb23f155c4f6440e4528afd880cfa6c498e641"
+    },
+    {
+      "bytes": 19709,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "c9eb8d0f7fb4bb2312ac3c861968bbce0dfc8bcbfba028cf7bbb744afaa370d2"
+    },
+    {
+      "bytes": 167968,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/OPAQUE_SOURCE_CHECK.json",
+      "sha256": "37662c0b8b410ab6183e7cd0d5088bb4d84e8738e79e41226ac95832330ed9e5"
+    },
+    {
+      "bytes": 2525,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/PUBLICATION_SUBSET.json",
+      "sha256": "6b1f1e2c88fcd33670bb6e527a95093e43862c05554c19e818da88ac85d119c4"
+    },
+    {
+      "bytes": 3428,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/REVIEWER_DIAGNOSTICS.json",
+      "sha256": "5533a219d028803f0d7d66077201f96a6b732b6d7f3d054672a32d8146c3455b"
+    },
+    {
+      "bytes": 13129,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.before-evidence-domain-fix.py",
+      "sha256": "52696c14e97daa9a06e04b50b6ae2687db4f1eba08701af12bed327fb975971f"
+    },
+    {
+      "bytes": 13373,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.before-framework-shape-fix.py",
+      "sha256": "ee3125ce750a0269d5ba957cf33764ec8b4137894d01a7438e0e6d1f6bef0df9"
+    },
+    {
+      "bytes": 13285,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/check_metadata.py",
+      "sha256": "245764054c6912aa58dd519ce293ff6d694ccae798665bda1527939ea4bce60f"
+    }
+  ],
+  "final_source_check": {
+    "exit_code": 0,
+    "result": {
+      "bytes": 4237,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "5a23eeba894ce86fc051fb3d4bee97e39421a0c86561af595f0c951f31025e09"
+    },
+    "tool_chunk": "1f54fa"
+  },
+  "full_source_coverage_lines": 1389,
+  "opaque_bytes": 25947539,
+  "opaque_dependencies": 442,
+  "preserved": 253,
+  "remaining": "Root adjudication and chosen changed-guard evidence; fresh authentic direct bootstrap/source/host/environment/loader preflight then genuine capture with real parent/PRE/POST under original limits. Old25 is old-target credit only. Accepted baseline precedes normal, accepted normal precedes optimized, accepted both precede separately admitted65 guards. Scientific qualification/RI131/full32 remain distinct.",
+  "repo_git_index_actions": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp",
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_diagnostics_retained": true,
+  "schema": "ri141-independent-source-review-handoff-v1",
+  "scientific_body_decode": false,
+  "scientific_execution": false,
+  "source_correspondence": {
+    "added": 1,
+    "changed_existing": 2,
+    "complete_harness_unchanged": true,
+    "unchanged_spans": 43
+  },
+  "source_handoff": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "status": "SEALED_PASS_UNEXECUTED_SOURCE_FOR_ROOT_ADJUDICATION",
+  "target_authorship": false
+}
