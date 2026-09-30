@@ -1,0 +1,26 @@
+{
+  "case": "15_saved_outcome_tamper",
+  "checker": {
+    "bytes": 11568,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/portable/utility/verify_archive.py",
+    "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/portable/utility/verify_archive.py",
+    "--archive",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/fixtures/15_saved_outcome_tamper"
+  ],
+  "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/different-cwd",
+  "elapsed_seconds": 0.12673512499999973,
+  "exit_code": 1,
+  "expected_exit": 1,
+  "expected_refusal_substring": "payload bytes differ",
+  "passed": true,
+  "scope_note": "Outcome tamper detected at payload hash; does not independently qualify deeper saved-outcome branches.",
+  "stderr": "{\"error\": \"payload bytes differ: operation/output/controls/REPORT.json\", \"status\": \"REFUSED\"}\n",
+  "stdout": "",
+  "timeout_seconds": 30
+}

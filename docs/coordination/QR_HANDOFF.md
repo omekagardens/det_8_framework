@@ -1,6 +1,14 @@
 # Current QR coordination — RI-140 native failure repair
 
-**Current checkpoint — 30 September 2026 UTC.** Measurement RI-139's single
+**Current checkpoint — 30 September 2026 UTC.** RI-142's portable read-only
+archive verifier is independently reviewed and root accepted in
+`docs/experiments/gwosc_focused25_archive_check_v1/`. All 17 checks pass: three
+positive cases (including relocation/default checkout layout) and fourteen
+expected refusals. It verifies the published RI-139 bytes and selected saved
+agreements without executing archived code or opening historical external paths.
+This adds offline reproducibility, not current-runtime or scientific qualification.
+
+Retained measurement result: RI-139's single
 focused operation is independently reviewed and root accepted: all 25 outcomes
 pass (two positives, 23 expected refusals). The exact source, reviews, genuine
 tool records and full retained operation are archived in
@@ -13,9 +21,13 @@ separate archive. Source acceptance and this finite result do not qualify scienc
 
 The unchanged real RI-135 preparation route still selects `/usr/bin/python3` for
 its parent and PRE/POST children. Focused F01 processes were explicit doubles.
-RI-141 is assigned in `ri141-white-bootstrap-source-h58ls076/` to repair that
-production route consistently with the authenticated direct-vendor binding,
-exact environment and existing limits. Fresh nonauthor review and root admission
+RI-141 has sealed its unexecuted direct-vendor replacement in
+`ri141-white-bootstrap-source-h58ls076/`: fifteen files and 442 preserved opaque
+dependencies. Complete fresh nonauthor review is assigned in
+`ri141-bootstrap-independent-review-k5bss5xp/`; the exact reservation is retained
+in the RI-142 bundle. The changed parent/PRE/POST binding has ten prospective
+verification rows; the unchanged old focused harness supplies no automatic
+new-target execution credit. Source adjudication and genuine root admission
 precede current capture; baseline acceptance, normal then optimized profiles,
 separate 65 guards and WHITE/full32 public-data reproduction remain subsequent.
 
@@ -32,8 +44,12 @@ remain externally pinned and are explicitly identified in the archived handoff.
 After adjudication, Quantum Relativity has RI-140 in
 `ri140-native-failure-repair-source-l_a4mna0/`: only ownership/ordinary-signal and
 first-cause/cleanup repairs with necessary correspondence and focused prospective
-qualification design. Fresh independent review precedes any genuine admission.
-All 139 policy cases and 20/42 deeper obligations remain open. Actual C2/C3 signs
+qualification design. Root also confirms the related pre-handler startup
+acquisition gap, covered by the exact `root/RI140_STARTUP_SCOPE_ADDENDUM.md` in
+the RI-142 bundle. This is a source finding, not an executed counterexample.
+Handler/mask transition behavior remains subject to complete fresh independent
+review before any genuine admission. All 139 policy cases and 20/42 deeper
+obligations remain open. Actual C2/C3 signs
 and simultaneous H30 feasibility remain active native questions with their real
 qualification/execution blocker recorded; fixed mathematical premises are unchanged.
 

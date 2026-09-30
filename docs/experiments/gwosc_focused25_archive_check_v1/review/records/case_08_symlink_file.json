@@ -1,0 +1,26 @@
+{
+  "case": "08_symlink_file",
+  "checker": {
+    "bytes": 11568,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/portable/utility/verify_archive.py",
+    "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/portable/utility/verify_archive.py",
+    "--archive",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/fixtures/08_symlink_file"
+  ],
+  "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/different-cwd",
+  "elapsed_seconds": 0.11468720799999987,
+  "exit_code": 1,
+  "expected_exit": 1,
+  "expected_refusal_substring": "nonregular archive member",
+  "passed": true,
+  "scope_note": "Static symlink rejected by inventory before payload open; target is reviewer-owned.",
+  "stderr": "{\"error\": \"nonregular archive member\", \"status\": \"REFUSED\"}\n",
+  "stdout": "",
+  "timeout_seconds": 30
+}

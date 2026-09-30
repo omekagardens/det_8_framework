@@ -1,0 +1,26 @@
+{
+  "case": "14_partial_json_repaired",
+  "checker": {
+    "bytes": 11568,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/portable/utility/verify_archive.py",
+    "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/portable/utility/verify_archive.py",
+    "--archive",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/fixtures/14_partial_json_repaired"
+  ],
+  "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/different-cwd",
+  "elapsed_seconds": 0.12074416699999979,
+  "exit_code": 1,
+  "expected_exit": 1,
+  "expected_refusal_substring": "nonregular or changed-size file",
+  "passed": true,
+  "scope_note": "Baseline accepts exact deliberately partial receipt bytes; changing them to valid JSON is tampering, not repair.",
+  "stderr": "{\"error\": \"nonregular or changed-size file: /Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/fixtures/14_partial_json_repaired/operation/output/controls/F01_attempt_partial/owned-output/ATTEMPT.json\", \"status\": \"REFUSED\"}\n",
+  "stdout": "",
+  "timeout_seconds": 30
+}

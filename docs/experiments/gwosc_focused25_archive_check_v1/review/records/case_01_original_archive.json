@@ -1,0 +1,26 @@
+{
+  "case": "01_original_archive",
+  "checker": {
+    "bytes": 11568,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/verify_archive.py",
+    "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/verify_archive.py",
+    "--archive",
+    "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_focused25_result_v1"
+  ],
+  "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/different-cwd",
+  "elapsed_seconds": 0.14127029200000002,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "expected_refusal_substring": null,
+  "passed": true,
+  "scope_note": "Original public archive, explicit path, unrelated working directory; read only.",
+  "stderr": "",
+  "stdout": "{\"archived_code_executed\": false, \"archived_files\": 135, \"current_runtime_qualified\": false, \"exact_copies\": 132, \"external_paths_opened\": false, \"historical_empty_directories_required_on_disk\": false, \"historical_tool_origin_independently_authenticated\": false, \"operation_files\": 89, \"published_commit\": \"878ef6041d937abd4ecdc7b0d4fa9adbc81a5005\", \"saved_control_outcomes\": 25, \"saved_monitor_samples\": 30, \"scientific_claim_established\": false, \"status\": \"PUBLISHED_BYTES_AND_SAVED_AGREEMENT_PASS\"}\n",
+  "timeout_seconds": 30
+}

@@ -1,0 +1,33 @@
+{
+  "archived_subject_execution": false,
+  "committed_manifest_matches_working_bytes": true,
+  "documentation": {
+    "bytes": 2459,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/README.md",
+    "sha256": "d64b0e70cce611d62457fe74d74d19de44a7472fceb5bb9e2a0139b74d1be7c7"
+  },
+  "external_provenance_operands_opened": false,
+  "independent_review_pending": true,
+  "initial_actual_cli_check": {
+    "archived_files": 135,
+    "chunk_id": "ae4376",
+    "command": "python3 -B /Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/verify_archive.py --archive /Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_focused25_result_v1",
+    "exit_code": 0,
+    "operation_files": 89,
+    "saved_monitor_samples": 30,
+    "saved_outcomes": 25
+  },
+  "original_published_manifest": {
+    "bytes": 25566,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_focused25_result_v1/PUBLICATION_MANIFEST.json",
+    "sha256": "da4ccad5e3f06e313ad0ba2a0b00b23c4a6aa7b5faaa6b28043c6259998024ee"
+  },
+  "published_commit": "878ef6041d937abd4ecdc7b0d4fa9adbc81a5005",
+  "root_source_author": true,
+  "schema": "ri142-portable-checker-base-v1",
+  "source": {
+    "bytes": 11568,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/verify_archive.py",
+    "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+  }
+}

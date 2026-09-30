@@ -1,0 +1,50 @@
+{
+  "actual_test_driver_tool": {
+    "chunk_id": "c0fe42",
+    "exit_code": 0
+  },
+  "authorship_independent": true,
+  "blocking_findings": [],
+  "complete_review": {
+    "bytes": 9216,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/INDEPENDENT_REVIEW.md",
+    "sha256": "cbe59b92324b5913c3b0fbca0a14a312321f55432c85896d6156791efc4e1d82"
+  },
+  "failed_reviewer_attempts": 0,
+  "full_source_lines_read": 223,
+  "original_archive_unchanged": true,
+  "publication_fixture_trees_excluded": true,
+  "readme": {
+    "bytes": 2459,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/README.md",
+    "sha256": "d64b0e70cce611d62457fe74d74d19de44a7472fceb5bb9e2a0139b74d1be7c7"
+  },
+  "repository_or_git_writes": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri142-independent-portable-checker-review-v1",
+  "scope_limits": [
+    "Fixed snapshot integrity and selected saved agreements only",
+    "Earlier manifest/payload rejection does not execute deeper parser/type/outcome negative branches",
+    "Stable local filesystem, not adversarial containment or original custody",
+    "No archived source execution or controls/science recomputation",
+    "No independent publisher/tool-origin authentication or current-runtime admission"
+  ],
+  "source": {
+    "bytes": 11568,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/verify_archive.py",
+    "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+  },
+  "source_unchanged": true,
+  "test_result": {
+    "bytes": 63393,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/TEST_RESULTS.json",
+    "sha256": "f00c08af271fecfd8263b4f7537811e7fab2dc91273098ced6090eb261b050b6"
+  },
+  "tests": {
+    "negative": 14,
+    "passed": 17,
+    "positive": 3,
+    "total": 17
+  },
+  "verdict": "PASS_NARROW_READ_ONLY_ARCHIVE_UTILITY"
+}

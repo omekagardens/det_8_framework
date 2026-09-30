@@ -1,0 +1,16 @@
+{
+  "all_payload_and_442_dependency_pins_match": true,
+  "execution_admitted": false,
+  "review_begins_after_RI142_review_seal": true,
+  "review_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp",
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri141-independent-source-review-reservation-v1",
+  "scope": "Fresh complete source review, precise predecessor correspondence and changed-bootstrap prospective evidence; no subject execution/current capture.",
+  "source": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "source_accepted": false,
+  "source_namespace_files": 15
+}
