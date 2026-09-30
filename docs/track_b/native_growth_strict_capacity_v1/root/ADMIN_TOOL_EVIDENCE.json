@@ -1,0 +1,38 @@
+{
+  "adjudication_and_final_recheck": {
+    "chunk": "b1bec8",
+    "exit_code": 0
+  },
+  "assignment_dispatched": true,
+  "assignment_dispatched_via": "mcp__codex_app__send_message_to_thread",
+  "focused_original_formula_read": {
+    "chunk": "839c6f",
+    "exit_code": 0
+  },
+  "future_publication_not_preclaimed": true,
+  "native_assignment": {
+    "bytes": 2632,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "sha256": "7985a580d642c793da71a185d0f3d7efcf98b7ad34fe558acb66e8e0997025b9"
+  },
+  "native_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "post_replay_summary_comparison": {
+    "chunk": "5868d9",
+    "exit_code": 0,
+    "only_difference": "schema"
+  },
+  "read_display_limit_notes": [
+    "933476 aggregate metadata display exceeded output limits; exact report structure and full-field equality were subsequently checked in5868d9 and b1bec8."
+  ],
+  "root_metadata_replay": {
+    "chunk": "9f7a8b",
+    "exit_code": 0
+  },
+  "schema": "ri155-root-actual-tool-evidence-v1",
+  "scientific_execution": false,
+  "source_manual_notes": {
+    "bytes": 7134,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/ROOT_MANUAL_REVIEW.md",
+    "sha256": "4fcf72ce95f02636c84dd13dc6556b4a75ae463f871c812bfe2db2df1e3aefb0"
+  }
+}

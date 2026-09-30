@@ -1,0 +1,68 @@
+{
+  "schema": "ri155-strict-capacity-result-v1",
+  "status": "AUTHOR_PROVED_FIRST_CAPACITY_AND_REDUCED_JOINT_CAPACITIES_WITH_ACTUAL_CONTRAST_GAP",
+  "load_bearing_inherited_premise": "Unchanged accepted RI41 parent-four law: in every marked row the total probability of all height-raising ideals is strictly below one half. This is a printed finite-certificate theorem, not derived anew from DET axioms.",
+  "new_results": [
+    "Marked C3 diamonds and complete height sums give C4 w,p_i<1/82, s_i<1/164, c_i<1/2, hence b_i>77/164. Both T4 arm ideals remain separate row occurrences.",
+    "The held empty/core ratio cancels theta^3 exactly: eta=41^2(w/b0)^3<1/32.",
+    "At the same actual-containing Z, j0+gZ<1 and YE<14256/370025<1/25. The first actual strict capacity is proved with slack greater than24/25.",
+    "Yu3>1/4>YE makes the old maximum factor exactly1. Both strict capacities are equivalent to v>B=12lambda*j0*Z/(1-Z). If B/v<=1, C1>21/100, but C0=0 still rejects the envelope.",
+    "Complete sums prove E_i<3 and V_i<1, hence1/8<R<12/95 and0<v<1/72. Only retained F_i can lower Z to or below1/8; the exact nonnegative-N threshold preserves equality.",
+    "Capacity success requires lambda<(1+2M_cap)/852. On Fmax<=3 it requires lambda<7/852; the opposite weak inequality conditionally rejects this envelope.",
+    "The remaining exact same-prefix comparison is theta*b0^3*(t-1)*H>12*j0*J, with t=1/Z, J=b0^2+b0*b1+b1^2 and H the complete signed relative C4 contrast."
+  ],
+  "proof_dependencies": [
+    "CAPACITY_STRUCTURE.md",
+    "CAPACITY_COMPARISON.md",
+    "STRICT_CAPACITY_SYNTHESIS.md"
+  ],
+  "actual_YE_less_than_one_proved": true,
+  "actual_YE_bound": "0<YE<14256/370025<1/25",
+  "extra_capacity_multiplier_proved_one": true,
+  "actual_v_greater_than_B_proved": false,
+  "actual_joint_capacities_proved": false,
+  "actual_adequate_q_v_joint_budget_proved": false,
+  "actual_branch_or_root_order_decided": false,
+  "actual_W_C2_C3_signs_decided": false,
+  "actual_rho_in_delta0_proved": false,
+  "full_H30_decided": false,
+  "remaining": "Prove or disprove the strict quantitative comparison v>B on the actual correlated prefix; a pass still leaves the inherited adequate q threshold. No arbitrary positive-coefficient example is a counterexample to this law.",
+  "conditional_implication": "Passing the complete retained envelope would give W<=0 and obstruct this fixed H30 candidate. Failure of a sufficient capacity/envelope does not decide W or H30.",
+  "diagnostics": [
+    "Exploratory inverse-theta eta idea withdrawn after literal epsilon3 definition showed the exact theta^3 cancellation; no result relies on that idea.",
+    "Historical RI153 seed-order comparison remains excluded from all theorem, branch, order and sign credit.",
+    "RI153 N01 retained: only Kbox and maximum Kcorr have inherited old-floor dominance, not each ratio anchor.",
+    "Root-approved uniform coefficient margin is bound as optional clarification but not needed by the proof; all-row height theorem is the actual inherited premise."
+  ],
+  "preserved": {
+    "RET": "paused",
+    "measurement": "separate",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "other_eight_connected_parents": true,
+    "all_five_Di": true,
+    "shared_T1_recovery": true,
+    "individual_ideal_multiplicities": true,
+    "strict_endpoints": true
+  },
+  "scope": {
+    "manual_source_proof": true,
+    "scientific_body_decode": false,
+    "actual_numerical_operand_evaluation": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "engine": false,
+    "global_enumeration": false,
+    "repository_index_Git_write": false,
+    "predecessor_mutation": false,
+    "runtime_controller_card_admission": false,
+    "physical_claim": false
+  },
+  "stop": "Sealed source proof for fresh nonauthor review and coordinator adjudication; no successor or additional q-floor work assigned."
+}

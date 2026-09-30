@@ -1,0 +1,165 @@
+{
+  "schema": "ri155-strict-capacity-proof-handoff-v1",
+  "status": "SEALED_SOURCE_PROOF_FOR_FRESH_NONAUTHOR_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/NATIVE_SUCCESSOR_RESERVATION.json",
+    "bytes": 2446,
+    "sha256": "8810144710b6e9777cedd6c8d3d8038e84b4ec5a31fb09a9cf908763ba472439"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/RI153_ROOT_ADJUDICATION.json",
+    "bytes": 13692,
+    "sha256": "32fdceef9651d5a97e22060a5c2040cb53f250d8e7c66ff43c199bd18b73b0f2"
+  },
+  "namespace": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "CAPACITY_COMPARISON.md",
+    "CAPACITY_STRUCTURE.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "STRICT_CAPACITY_SYNTHESIS.md"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/ANALYTIC_RESULT.json",
+      "bytes": 4031,
+      "sha256": "fd5c26ace1bf25d2e03643350800d697ac21ef88b2bf7132f8efff36ab26a9e4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/AUTHOR_CHECKS.json",
+      "bytes": 15758,
+      "sha256": "f1841488670b4d71fd6e3ea48a1d15dc9c8e386d22b4e9ad9b1756780de94df2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/CAPACITY_COMPARISON.md",
+      "bytes": 12875,
+      "sha256": "f31c55d31f253b25fb7a748e54cb06a4a14ba46ad3aad1a3ed909825673b8873"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/CAPACITY_STRUCTURE.md",
+      "bytes": 15579,
+      "sha256": "54fa9b1e421520527a2403e20d0e243f257bdc8ef244e945200e4a652ab3d936"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/DEPENDENCY_NOTES.md",
+      "bytes": 12969,
+      "sha256": "b45123542b00ed32ed8f508896776e2935ab00fbb825be2171a71d52d862408f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.md",
+      "bytes": 3033,
+      "sha256": "8c1b1a91ece04bdbddcf0d8791d9b083d34a59155536fe20a725d7cfb1e284bd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/SOURCE_DEPENDENCIES.json",
+      "bytes": 174260,
+      "sha256": "c58ffadd73d363c1b56815ad11ae5042967be08e60a869bfcedafc2daee82462"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/SOURCE_IDENTITIES.json",
+      "bytes": 28089,
+      "sha256": "95b2a7df278506cd796d948789eaff9d7cbcc24d7845dc256d31b2ccfeb3bdc3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/STRICT_CAPACITY_SYNTHESIS.md",
+      "bytes": 12373,
+      "sha256": "01c43f913bac3351982e8f529606f2e7aff56b0ea358caaceb66507503b2f361"
+    }
+  ],
+  "compact_publication_subset": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "CAPACITY_COMPARISON.md",
+    "CAPACITY_STRUCTURE.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "STRICT_CAPACITY_SYNTHESIS.md"
+  ],
+  "external_only_diagnostics": [],
+  "manual_result": "AUTHOR_PROVED_FIRST_CAPACITY_AND_REDUCED_JOINT_CAPACITIES_WITH_ACTUAL_CONTRAST_GAP",
+  "load_bearing_inherited_premise": "Unchanged accepted RI41 parent-four law: in every marked row the total probability of all height-raising ideals is strictly below one half. This is a printed finite-certificate theorem, not derived anew from DET axioms.",
+  "new_results": [
+    "Marked C3 diamonds and complete height sums give C4 w,p_i<1/82, s_i<1/164, c_i<1/2, hence b_i>77/164. Both T4 arm ideals remain separate row occurrences.",
+    "The held empty/core ratio cancels theta^3 exactly: eta=41^2(w/b0)^3<1/32.",
+    "At the same actual-containing Z, j0+gZ<1 and YE<14256/370025<1/25. The first actual strict capacity is proved with slack greater than24/25.",
+    "Yu3>1/4>YE makes the old maximum factor exactly1. Both strict capacities are equivalent to v>B=12lambda*j0*Z/(1-Z). If B/v<=1, C1>21/100, but C0=0 still rejects the envelope.",
+    "Complete sums prove E_i<3 and V_i<1, hence1/8<R<12/95 and0<v<1/72. Only retained F_i can lower Z to or below1/8; the exact nonnegative-N threshold preserves equality.",
+    "Capacity success requires lambda<(1+2M_cap)/852. On Fmax<=3 it requires lambda<7/852; the opposite weak inequality conditionally rejects this envelope.",
+    "The remaining exact same-prefix comparison is theta*b0^3*(t-1)*H>12*j0*J, with t=1/Z, J=b0^2+b0*b1+b1^2 and H the complete signed relative C4 contrast."
+  ],
+  "actual_YE_less_than_one_proved": true,
+  "actual_YE_bound": "0<YE<14256/370025<1/25",
+  "actual_joint_capacities_proved": false,
+  "actual_v_greater_than_B_proved": false,
+  "actual_q_threshold_proved": false,
+  "actual_W_C2_C3_signs_proved": false,
+  "full_H30_decided": false,
+  "remaining": "Prove or disprove the strict quantitative comparison v>B on the actual correlated prefix; a pass still leaves the inherited adequate q threshold. No arbitrary positive-coefficient example is a counterexample to this law.",
+  "conditional_implication": "Passing the complete retained envelope would give W<=0 and obstruct this fixed H30 candidate. Failure of a sufficient capacity/envelope does not decide W or H30.",
+  "actual_author_check": {
+    "tool_chunk": "8565bf",
+    "exit_code": 0,
+    "stage": "preseal8",
+    "dependencies": 193,
+    "bytes": 5432055,
+    "inherited": 171,
+    "administrative_bodies": 65,
+    "historical_typed_refs": 1294,
+    "current_typed_refs": 79,
+    "extended_historical_identity_occurrences": 17,
+    "historical_state_compared_to_current": false,
+    "source_pairs": 4,
+    "literal_manuscript_references": 6,
+    "final_fresh_rechecks_at_preseal": 201,
+    "receipt_payload": "AUTHOR_CHECKS.json"
+  },
+  "final_check_boundary": "Separate final10 check after this seal must freshly reopen the193 selected dependencies and10currentfiles. This handoff does not preclaim that future receipt.",
+  "diagnostics": [
+    "Exploratory inverse-theta eta idea withdrawn after literal epsilon3 definition showed the exact theta^3 cancellation; no result relies on that idea.",
+    "Historical RI153 seed-order comparison remains excluded from all theorem, branch, order and sign credit.",
+    "RI153 N01 retained: only Kbox and maximum Kcorr have inherited old-floor dominance, not each ratio anchor.",
+    "Root-approved uniform coefficient margin is bound as optional clarification but not needed by the proof; all-row height theorem is the actual inherited premise."
+  ],
+  "preserved": {
+    "RET": "paused",
+    "measurement": "separate",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "other_eight_connected_parents": true,
+    "all_five_Di": true,
+    "shared_T1_recovery": true,
+    "individual_ideal_multiplicities": true,
+    "strict_endpoints": true
+  },
+  "scope": {
+    "manual_source_proof": true,
+    "scientific_body_decode": false,
+    "actual_numerical_operand_evaluation": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "engine": false,
+    "global_enumeration": false,
+    "repository_index_Git_write": false,
+    "predecessor_mutation": false,
+    "runtime_controller_card_admission": false,
+    "physical_claim": false
+  },
+  "author_peers_not_independent_reviewers": true,
+  "immutable_after_seal": true,
+  "root_owns_adjudication_admission_repository_Git_and_publication": true,
+  "no_successor_assigned": true
+}

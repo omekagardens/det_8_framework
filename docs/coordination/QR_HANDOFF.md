@@ -1,33 +1,35 @@
-# Current QR coordination — RI-155 independent proof review
+# Current QR coordination — RI-157 correlated capacity comparison
 
-**Current checkpoint — 30 September 2026 UTC.** RI-154's exact WHITE
-relocation map and full external mode-custody requirements are independently
-reviewed and root accepted as bounded preparation. Exact author, review and
-root evidence are in `docs/experiments/gwosc_white_mode_preparation_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** RI-155's native strict-capacity
+proof is independently reviewed and root accepted. Exact manuscripts, compact
+independent review and root evidence are in
+`docs/track_b/native_growth_strict_capacity_v1/`.
 
-The complete 48-file map retains 30 target pairs, 11 helper/declaration bindings,
-124 original history roles and 17 stage roles. The review confirms three real
-compatibility gaps: original guard paths, the old temporary-directory environment,
-and the collector's original-only source domain. Unchanged RI-141 can support a
-fresh capture and ordered normal/optimized profile sequence in the proposed
-environment, with separate copied-source/card observations. No active copy,
-runtime observation, freeze or scientific admission is created here.
+The inherited finite all-marked height bound now gives 0<YE<1/25. Complete
+parent sums and the canonical quadratic threshold are retained. Both strict
+capacities reduce exactly to v>B, equivalently
+`theta*b0^3*(t-1)*H>12*j0*J` at the same actual canonical cap. Equality fails
+the sufficient capacity. The actual comparison and F branch, adequate q/v
+budget, W/C2/C3 and shared H30 remain open. Conditional envelope rejection does
+not decide W. Original P2/P3, numerical Y=1/4, 31/139/20/42 obligations,
+strict endpoints, marked multiplicities, shared T1, other eight parents and
+five Di remain. No numerical scientific execution or new physical result occurs.
 
-RI-156 is assigned to the measurement contributor for the smallest concrete
-external adapter and complete saved-mode verifier in the external reservation
-recorded in `root/MEASUREMENT_SUCCESSOR_ASSIGNMENT.json`. All existing thresholds,
-15 WHITE cases, both 179-control sets, 57 artifacts, 74 postchecks, three trees
-and independent saved reconstruction remain. Implementation and its qualification
-precede separate genuine scientific operation. Full32/periodic/mean/join and the
-selected conventional GWOSC reproduction remain later distinct obligations.
+After this adjudication QR is assigned RI-157 in
+`ri157-correlated-capacity-proof-tusjyk77/` under the native bundle's exact
+`root/NATIVE_SUCCESSOR_ASSIGNMENT.json`. The next question is a quantitative
+bound on v/lambda and the actual canonical cap using native component/marked-row
+correlations. Any conditional rejection needs its actual-law premises proved;
+more q-floor algebra alone cannot settle the capacity prerequisite.
 
-RI-153's fixed-prefix identities and conditional joint-budget reduction are
-published in verified `775ff06`. QR's RI-155 proof is now sealed and assigned
-fresh nonauthor review in `ri155-independent-capacity-review-3gu50gvs`.
-The author's proposed first-capacity bound and reduced strict comparison remain
-unadjudicated. Actual v>B, q adequacy, W/C2/C3 and shared H30 remain open.
-No numerical scientific execution is assigned. Fixed P2/P3, numerical Y=1/4,
-31/139/20/42 obligations, other eight parents and five Di remain.
+RI-154's exact WHITE relocation and complete external custody preparation are
+published in independently verified `d5ffc02`. RI-156 remains actively authored
+in `ri156-white-external-adapter-source-1plzn4nm/` under
+`docs/experiments/gwosc_white_mode_preparation_v1/root/MEASUREMENT_SUCCESSOR_ASSIGNMENT.json`.
+Source review and qualification precede genuine scientific operation. All
+thresholds, 15 WHITE cases, both 179-control sets, 57 artifacts, 74 postchecks,
+three trees and independent saved reconstruction remain. Full32/periodic/mean/join
+and selected conventional GWOSC reproduction remain distinct later obligations.
 
 Root owns adjudication, admissions and Git. Active successor files and unrelated
 edits are excluded. Calibration, native forward maps and physical claims remain

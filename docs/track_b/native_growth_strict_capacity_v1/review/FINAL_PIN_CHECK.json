@@ -1,0 +1,167 @@
+{
+  "fresh_full_identity_rechecks": 204,
+  "new_mathematical_evaluation_by_checker": false,
+  "preseal_review_identities": [
+    {
+      "bytes": 5422,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/ACTUAL_CHECKS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/ACTUAL_CHECKS.json",
+      "sha256": "b6c8b086d696e9501ceb8e0c8ebe20a0c79a14d3f345c20219718d0682b839a9",
+      "state": [
+        16777244,
+        412020,
+        33188,
+        1,
+        5422,
+        1790782557975095762,
+        1790782557975095762
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stderr",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        412015,
+        33188,
+        1,
+        0,
+        1790782042865306191,
+        1790782042865324025
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 408,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stdout",
+      "sha256": "5aceaf82849ed5b855f62c82c27d8ca321ba814f56ed63583744f61b51139225",
+      "state": [
+        16777244,
+        412014,
+        33188,
+        1,
+        408,
+        1790782043100828143,
+        1790782043100828143
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 20271,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/INDEPENDENT_PROOF_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/INDEPENDENT_PROOF_REVIEW.md",
+      "sha256": "8a21f89e29a60ea460671aa2ec7d7689474d125545355e559d4bd9528b4103fc",
+      "state": [
+        16777244,
+        412019,
+        33188,
+        1,
+        20271,
+        1790782444341382870,
+        1790782444341382870
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1980257,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/METADATA_CHECK.json",
+      "sha256": "d85b9ced889a38505070973734d0aaf31a4d0df8191720fe8f460790c873cbea",
+      "state": [
+        16777244,
+        412016,
+        33188,
+        1,
+        1980257,
+        1790782043095092316,
+        1790782043095092316
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4101,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/VERDICT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/VERDICT.json",
+      "sha256": "e276bf554816c1742a983e51c2adb1d4afe7b7ce7df8d4ea27acdb528b645cec",
+      "state": [
+        16777244,
+        412021,
+        33188,
+        1,
+        4101,
+        1790782557986489989,
+        1790782557986489989
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10998,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/check_metadata.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/check_metadata.py",
+      "sha256": "c506b2dae3291e1535ea71fba2b15e0891a9e30ba0d3b64336bc0c92c1d7135a",
+      "state": [
+        16777244,
+        412013,
+        33188,
+        1,
+        10998,
+        1790782042864849567,
+        1790782042864849567
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4548,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/seal_review.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/seal_review.py",
+      "sha256": "b8f8efbd3adcbfc86bbb910546a7bcbed2869d5c9667a33a18ac2d635da5821c",
+      "state": [
+        16777244,
+        412022,
+        33188,
+        1,
+        4548,
+        1790782557993600074,
+        1790782557993600074
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "preseal_review_namespace": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "INDEPENDENT_PROOF_REVIEW.md",
+    "METADATA_CHECK.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "seal_review.py"
+  ],
+  "schema": "ri155-independent-final-pin-check-v1",
+  "scientific_body_decode": false,
+  "status": "PASS_ADMINISTRATIVE_ONLY",
+  "subject": {
+    "bytes": 8064,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.json",
+    "sha256": "d4fd15fd5236990227bf1c059df960a3e0e53d01559c2bf1fee5422d7f059690"
+  },
+  "subject_execution": false,
+  "subject_namespace": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "CAPACITY_COMPARISON.md",
+    "CAPACITY_STRUCTURE.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "STRICT_CAPACITY_SYNTHESIS.md"
+  ],
+  "subject_payloads_verified": 9,
+  "terminal_tool_completion": "external to this record; root receives actual final tool result"
+}
