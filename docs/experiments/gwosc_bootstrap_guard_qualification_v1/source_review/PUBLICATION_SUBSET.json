@@ -1,0 +1,41 @@
+{
+  "also_include_final_manifest_names": [
+    "PUBLICATION_SUBSET.json",
+    "HANDOFF.json"
+  ],
+  "files": [
+    {
+      "bytes": 1442,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/ACTUAL_REVIEWER_CHECK.json",
+      "sha256": "63b029d73485b52f23ca563aeea2d942195344e58702018e03c4c0b2b39a85bf"
+    },
+    {
+      "bytes": 2930,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "451cf185b952062dec7fb6ff55d099abbeac54fc9f97d57a0c62c1e0b657d108"
+    },
+    {
+      "bytes": 4176,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "28fa78d6015d4f8c545740ec7fa46d904159c73972314b6319d507a79ee9e350"
+    },
+    {
+      "bytes": 22143,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "e8f99129955811cd382f62c7c4de956c3540f997e0712a40c82b54480c661ff3"
+    },
+    {
+      "bytes": 134963,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/OPAQUE_TEXT_CHECK.json",
+      "sha256": "120bfdeecf465558561734a81267c7ce12296d696b9e4f447923a471d976736f"
+    },
+    {
+      "bytes": 11698,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/check_metadata.py",
+      "sha256": "030aa9eb6fc81675c114476c29d70a52297c50f839da786c982a0f078c470cfb"
+    }
+  ],
+  "schema": "ri144-independent-source-review-publication-subset-v1",
+  "scope": "Compact complete source review, exact administrative checker/output and genuine reviewer check record; no source or operation execution evidence manufactured.",
+  "source_copies_fixture_trees_or_runtime_artifacts": 0
+}

@@ -1,0 +1,32 @@
+{
+  "complete_administrative_envelopes_checked": true,
+  "controls": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07_path",
+    "B07_resolved_path",
+    "B07_symlink_chain",
+    "B07_bytes",
+    "B07_sha256",
+    "B07_state",
+    "B08",
+    "B09",
+    "B10"
+  ],
+  "count": 15,
+  "namespace": {
+    "bytes": 4478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/NAMESPACE.json",
+    "sha256": "827fa0d5479b46343f99da1cca38ad5cf9830477026cbea82c5c3ff815404991"
+  },
+  "report": {
+    "bytes": 162784,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/REPORT.json",
+    "sha256": "230f968c82ebd099d7cd0f5e88ff654b78ff7801f11eb343c02f0616fc273dc0"
+  },
+  "scientific_evaluation": false
+}

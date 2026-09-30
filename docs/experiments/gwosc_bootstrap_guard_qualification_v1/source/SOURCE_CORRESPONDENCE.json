@@ -1,0 +1,296 @@
+{
+  "added_definitions": [
+    "recipe"
+  ],
+  "after": {
+    "bytes": 26035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/launch_controls.source-only.py",
+    "sha256": "458732fd274d525ba1fb8ac3b7985796cea0b490d964ec7ec5edf0421c6fe289"
+  },
+  "before": {
+    "bytes": 26387,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py",
+    "sha256": "4f26515027d5a497ca82169bbd05b566c9d761b81f8e23e9f6c3ab3eaa4ac794"
+  },
+  "boundary": "Text correspondence supports exact inherited source applicability only. These new sources and all15 controls are UNEXECUTED.",
+  "changed_existing_definition_spans": [
+    {
+      "after_lines": [
+        128,
+        137
+      ],
+      "before_lines": [
+        133,
+        138
+      ],
+      "name": "environment"
+    },
+    {
+      "after_lines": [
+        201,
+        255
+      ],
+      "before_lines": [
+        219,
+        254
+      ],
+      "name": "inspect_controls"
+    },
+    {
+      "after_lines": [
+        270,
+        330
+      ],
+      "before_lines": [
+        269,
+        323
+      ],
+      "name": "prepare_launch"
+    },
+    {
+      "after_lines": [
+        331,
+        394
+      ],
+      "before_lines": [
+        324,
+        387
+      ],
+      "name": "run"
+    }
+  ],
+  "exact_target_module": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  },
+  "exact_target_selected_bootstrap": {
+    "bytes": 1350,
+    "end": 147,
+    "sha256": "b2a870720bb516a10a5eed46162ed055fa6ec49ae7cdbb75c0597e10a318161a",
+    "start": 127
+  },
+  "method": "Whole-file bytes and regex-delimited top-level def source slices only; no import, compile, AST, parse or execution of subject source. Spans include any intervening text before next top-level definition or __main__ guard.",
+  "monitor_called_only": "child_run; environment equality is checked before ownership; never run/authenticate or patch monitor globals",
+  "new_control_source": {
+    "bytes": 20413,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/bootstrap_controls.source-only.py",
+    "sha256": "730ee9164db2b74bea0206b0222724710fb23b00b98217ff2cf4f15027929483"
+  },
+  "qualified_monitor_unchanged_function": {
+    "bytes": 5262,
+    "end": 381,
+    "sha256": "09ac74822bc62a5f95b1416bc906e27e66a24e9a829bc2c9ebec5959d040c5b3",
+    "start": 304
+  },
+  "qualified_monitor_whole_source": {
+    "bytes": 44082,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+    "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+  },
+  "recipe_literal_identical": true,
+  "removed_existing_definitions": [
+    "inspect_f01",
+    "inspect_f02"
+  ],
+  "same_13_copied_helper_spans_in_control_and_launcher": [
+    "need",
+    "canonical",
+    "same",
+    "keys",
+    "pure",
+    "body",
+    "ref",
+    "parse",
+    "captured",
+    "read",
+    "save",
+    "tree",
+    "separated"
+  ],
+  "schema": "ri144-literal-source-correspondence-v1",
+  "unchanged_existing_definition_spans": [
+    {
+      "after_lines": [
+        57,
+        70
+      ],
+      "before_lines": [
+        62,
+        75
+      ],
+      "bytes": 758,
+      "name": "body",
+      "sha256": "5ce49c58a2d8349d7674bcdef0af752f7efd78ed5c3a1040bd5d7bb653b1c032"
+    },
+    {
+      "after_lines": [
+        41,
+        44
+      ],
+      "before_lines": [
+        46,
+        49
+      ],
+      "bytes": 138,
+      "name": "canonical",
+      "sha256": "cee37749b62289cb40bb35194ce715a998af2d0581cf40f2d03d3718a4193922"
+    },
+    {
+      "after_lines": [
+        87,
+        94
+      ],
+      "before_lines": [
+        92,
+        99
+      ],
+      "bytes": 365,
+      "name": "captured",
+      "sha256": "ce25f9db99b742fb2680a31a551e1242f7d9445aa5954caa964e377269da8823"
+    },
+    {
+      "after_lines": [
+        49,
+        52
+      ],
+      "before_lines": [
+        54,
+        57
+      ],
+      "bytes": 103,
+      "name": "keys",
+      "sha256": "75582bcdeb763edb9bd572c91ce5679aacc61c21273e48842fb038dc7395f3ac"
+    },
+    {
+      "after_lines": [
+        37,
+        40
+      ],
+      "before_lines": [
+        42,
+        45
+      ],
+      "bytes": 66,
+      "name": "need",
+      "sha256": "c46f0e1459a1bb06a61322b24a69639bf2905a1a10069def8f8bbb637c5f769b"
+    },
+    {
+      "after_lines": [
+        75,
+        86
+      ],
+      "before_lines": [
+        80,
+        91
+      ],
+      "bytes": 420,
+      "name": "parse",
+      "sha256": "1b58079a28ed3f5668a9ceaf3a99e57907f3c47dd81b8b06e58795fcd7491de0"
+    },
+    {
+      "after_lines": [
+        53,
+        56
+      ],
+      "before_lines": [
+        58,
+        61
+      ],
+      "bytes": 94,
+      "name": "pure",
+      "sha256": "0883d7fc0397ea1084422669c66a1676dcd7b4a1c411d2215ba2aa628aef79c5"
+    },
+    {
+      "after_lines": [
+        95,
+        98
+      ],
+      "before_lines": [
+        100,
+        103
+      ],
+      "bytes": 49,
+      "name": "read",
+      "sha256": "f7b00fd274ccca300c299f9a0f88d7af5d48d028c296af1f7c2eb106429ac6b0"
+    },
+    {
+      "after_lines": [
+        71,
+        74
+      ],
+      "before_lines": [
+        76,
+        79
+      ],
+      "bytes": 68,
+      "name": "ref",
+      "sha256": "7f7146d72a273d51490ba4a58dd2485af6d4364f517f184e3196c7dfbc5b3955"
+    },
+    {
+      "after_lines": [
+        45,
+        48
+      ],
+      "before_lines": [
+        50,
+        53
+      ],
+      "bytes": 75,
+      "name": "same",
+      "sha256": "5cdd04606ec44329bbf82b440ec9cf6ada4017c250c658e29434a45b10cf87f1"
+    },
+    {
+      "after_lines": [
+        99,
+        104
+      ],
+      "before_lines": [
+        104,
+        109
+      ],
+      "bytes": 202,
+      "name": "save",
+      "sha256": "75d80153943b01aaf8283a8a66f67ab21bac822594027f3ae3ed80b10a71cb05"
+    },
+    {
+      "after_lines": [
+        256,
+        269
+      ],
+      "before_lines": [
+        255,
+        268
+      ],
+      "bytes": 930,
+      "name": "selected_bootstrap",
+      "sha256": "08c61511abae0458bf13f89e428ca3330fb19fee64e3603ab42b3525e853b5fc"
+    },
+    {
+      "after_lines": [
+        124,
+        127
+      ],
+      "before_lines": [
+        129,
+        132
+      ],
+      "bytes": 87,
+      "name": "separated",
+      "sha256": "4915b455a5e7d912fdaa1ef77524e281ee386742aa52dc0b305beb06b96e0e85"
+    },
+    {
+      "after_lines": [
+        105,
+        123
+      ],
+      "before_lines": [
+        110,
+        128
+      ],
+      "bytes": 1095,
+      "name": "tree",
+      "sha256": "6a8f1d78bffd679c5bbf20353b535c775c261d38315e74617d1b7143129057f6"
+    }
+  ]
+}

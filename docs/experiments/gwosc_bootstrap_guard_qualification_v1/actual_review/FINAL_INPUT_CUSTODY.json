@@ -1,0 +1,77 @@
+{
+  "all_bound_input_objects": [
+    {
+      "bytes": 1128,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/GENUINE_TOOL_COMPLETE.json",
+      "sha256": "9702f430c0ead8329ff4c12ecefaf01d6f2b83d5ac3df9b58c60f9a62e840ae3"
+    },
+    {
+      "bytes": 1690949,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_POST.json",
+      "sha256": "f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb"
+    },
+    {
+      "bytes": 1690949,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_PRE.json",
+      "sha256": "f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb"
+    },
+    {
+      "bytes": 5006,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_DISPATCH.json",
+      "sha256": "25f63340660f14cbe360897546657e9236e85df3fb9e99f9297a5699942321cf"
+    },
+    {
+      "bytes": 1299,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_POST_TOOL.json",
+      "sha256": "99409477ed72f05838890d03b805b9ccfb522fd948be0d64433f938afe3ae98f"
+    },
+    {
+      "bytes": 1289,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_PRE_TOOL.json",
+      "sha256": "775e2f470367f88864a57b3732cc599001489c2aae8549b8a6b86dafde7f7c16"
+    },
+    {
+      "bytes": 283249,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_MEASUREMENT_SOURCE_CHECK.json",
+      "sha256": "82ba06fa91a22841424527c355e4fad056069af7a24e56014154641dbc5cc8ae"
+    },
+    {
+      "bytes": 2341,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/RI144_ROOT_ADJUDICATION.json",
+      "sha256": "14009b952cefe42db6753626f2653fb598169e77863c9e64f117404777e39230"
+    },
+    {
+      "bytes": 9005,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/HANDOFF.json",
+      "sha256": "2c0da438ab15490d4f3c5ac4c557ef2ddedc879d8f97def7f77537fbd5588796"
+    },
+    {
+      "bytes": 4413,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/HANDOFF.json",
+      "sha256": "488a6cec458226b6bd6c6d27e25800112108d36c86ab5cdda8027401793e847b"
+    }
+  ],
+  "all_source_and_dependency_full_saved_identities_unchanged": 482,
+  "assigned_review_input": {
+    "bytes": 28201,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ACTUAL15_REVIEW_INPUT.json",
+    "sha256": "cc05c7cfc41891451003a946b8f632b3aee0fb5978aea32f1dea2fdc06ed2cfa"
+  },
+  "current_vendor_reobserved": false,
+  "entire_operation_saved_full_identity_equal": true,
+  "operation_entries": 52,
+  "operation_files": 32,
+  "schema": "ri144-independent-final-saved-custody-v1",
+  "source_observation_record": {
+    "bytes": 283249,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_MEASUREMENT_SOURCE_CHECK.json",
+    "sha256": "82ba06fa91a22841424527c355e4fad056069af7a24e56014154641dbc5cc8ae"
+  },
+  "status": "PASS",
+  "subject_or_helper_executed": false,
+  "supplementary_root_actual_reconciliation": {
+    "bytes": 8458,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_ACTUAL15_CHECK.json",
+    "sha256": "139ede1e15a61807200aecab21d4eee2dccaa9188414e38be0cd285c5f5b874a"
+  }
+}

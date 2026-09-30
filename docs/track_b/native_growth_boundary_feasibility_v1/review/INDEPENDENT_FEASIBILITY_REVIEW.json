@@ -1,0 +1,245 @@
+{
+  "actual_checks": {
+    "audit_policy_cases": 62,
+    "checker": {
+      "bytes": 12178,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/check_metadata.py",
+      "sha256": "3490e3c6b09f9259d4db0627c39604efe9e5d22a907676d7667be24b7fd01758"
+    },
+    "complete_policy_objects_equal": 139,
+    "dependencies": 450,
+    "dependency_bytes": 171097748,
+    "exact_namespace": 14,
+    "native_policy_cases": 77,
+    "new_dependencies": 27,
+    "new_dependency_groups": {
+      "RI140_independent_review_namespace": 7,
+      "RI140_source_namespace": 17,
+      "root_native_adjudication": 3
+    },
+    "payload_pins": 13,
+    "range_pins": 104,
+    "result": {
+      "bytes": 47583,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/OPAQUE_TEXT_CHECK.json",
+      "sha256": "e0947a148a105debc9134a00deb91c4d72df32f6fbacd4e242ad211281db2eb1"
+    },
+    "retained_full_objects_except_role": 423,
+    "scope": "Opaque whole-file identities and administrative/source-text consistency only; not live custody or source execution.",
+    "successful_administrative_tool": {
+      "chunk_id": "eba9a0",
+      "command": "/usr/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/check_metadata.py",
+      "exit_code": 0
+    },
+    "typed_current_references": 45
+  },
+  "blockers_to_accepting_this_design_conclusion": [],
+  "case_ids": [
+    "F01-1-SIGTERM",
+    "F01-1-SIGINT",
+    "F01-1-SIGHUP",
+    "F01-2-SIGTERM",
+    "F01-2-SIGINT",
+    "F01-2-SIGHUP",
+    "F01-3",
+    "F01-4",
+    "F01-5",
+    "F01-6",
+    "F01-7",
+    "F01-8",
+    "F01-9",
+    "F01-10-SIGTERM",
+    "F01-10-SIGINT",
+    "F01-10-SIGHUP",
+    "F01-11",
+    "F01-12",
+    "F01-13",
+    "F01-14-SIGTERM",
+    "F01-14-SIGINT",
+    "F01-14-SIGHUP",
+    "F01-15",
+    "F02-1-UNREGISTER",
+    "F02-1-CLOSE",
+    "F02-2",
+    "F02-3",
+    "F02-4",
+    "F02-5",
+    "F02-6",
+    "F02-7"
+  ],
+  "diagnostics": {
+    "bytes": 894,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/REVIEWER_DIAGNOSTICS.json",
+    "sha256": "de90eb463aef355c2ffa9805053e5099b86ec508d7cd8aba79ba822efc5f13a6"
+  },
+  "fresh_review": {
+    "additional_context_read": [
+      "collector definitions and error recording",
+      "collector pipe cleanup and startup",
+      "collector complete finalization/restoration through line850",
+      "launcher failure registration and terminal handling",
+      "custody.py546-617 complete observe_all"
+    ],
+    "boundary_rows_read": 31,
+    "complete_current_payload_text_or_metadata_read": true,
+    "distinct_mapped_lines_by_module": {
+      "launch_policy_case.py": 230,
+      "owned_process.py": 424,
+      "qualify_policies.py": 16
+    },
+    "distinct_mapped_source_lines": 670,
+    "four_external_only_diagnostic_bodies_opened": false,
+    "historical_protocols_read": [
+      "RI140 FOCUSED_QUALIFICATION_DESIGN.md",
+      "RI140 ROOT_INTERFACE_CONTRACT.md",
+      "RI140 root native adjudication and review"
+    ],
+    "historical_scientific_bodies_decoded": false,
+    "source_ranges_read_and_pinned": 104
+  },
+  "independence": {
+    "WHITE_semantics_accepted_in_this_review": false,
+    "author_of_current_subject": false,
+    "author_of_reviewed_native_modules": false,
+    "author_peer_checks_are_independent_acceptance": false,
+    "previous_full_RI140_review_is_inherited_not_second_fresh_full_read": true,
+    "previous_independent_native_reviews": [
+      "RI138",
+      "RI140"
+    ],
+    "reviewer": "/root/archive_repro_review",
+    "separate_WHITE_authorship_disclosed": [
+      "independent white validator",
+      "RI130",
+      "RI133",
+      "RI135",
+      "RI137",
+      "RI139",
+      "RI141",
+      "RI144"
+    ]
+  },
+  "narrative": {
+    "bytes": 20096,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/INDEPENDENT_FEASIBILITY_REVIEW.md",
+    "sha256": "8135e19e8c4228c0b2fd27ca9eca1cde6ceaf71a76f414adc5293cc5f8f7f858"
+  },
+  "publication": {
+    "copy_giant_historical_diagnostics": false,
+    "entire_review_reservation_is_compact_public_subset": true,
+    "external_only_historical_diagnostics": [
+      "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata.py",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v2.py",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK.json",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V2.json"
+    ]
+  },
+  "recommendation": "ACCEPT_EXACT_BLOCKED_DESIGN_CONCLUSION_FOR_ROOT_ADJUDICATION",
+  "required_repairs": [],
+  "review_date": "2026-09-30",
+  "review_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324",
+  "reviewed_handoff": {
+    "bytes": 6743,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.json",
+    "sha256": "6ffa8638c138ccd481514d6ce8dd835d8c2c17f48e91c4215d80eb1e47546307"
+  },
+  "root_adjudication": false,
+  "schema": "ri143-independent-feasibility-review-v1",
+  "scope_boundaries": {
+    "RET_paused": true,
+    "RI140_source_rejected": false,
+    "actual_source_faults_observed": 0,
+    "complete_controller_justified": false,
+    "current_runtime_capture": false,
+    "deeper_audit_obligations_unchanged": 42,
+    "deeper_native_obligations_unchanged": 20,
+    "execution_admitted": false,
+    "focused_attempts_executed": 0,
+    "platform_impossibility_claimed": false,
+    "policy_cases_executed": 0,
+    "repo_git_index_changed": false,
+    "scientific_result": false,
+    "successor_assigned": false
+  },
+  "source_conclusions": [
+    {
+      "conclusion": "A send, syscall return or marker alone does not establish actual Python handler execution and descriptor/owner state at a selected acquisition boundary.",
+      "id": "R01",
+      "locations": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py:128-144",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py:218-267"
+      ],
+      "severity": "retained_prerequisite"
+    },
+    {
+      "conclusion": "Initially preseeded marker refuses at namespace checking; F01-8 requires independently witnessed later insertion at the real exclusive-open boundary.",
+      "id": "R02",
+      "locations": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py:333-348",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py:951-965"
+      ],
+      "severity": "retained_prerequisite"
+    },
+    {
+      "conclusion": "F01-12 fsync-first representative requires directory close to succeed; if finally-close also raises its exception propagates. The map explicitly preserves this distinction.",
+      "id": "R03",
+      "locations": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py:118-123",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py:681-707"
+      ],
+      "severity": "confirmed_caveat"
+    },
+    {
+      "conclusion": "Post-restoration returned or escaped state controls; saved process report and close are provisional. Pending-observation construction, actual restored-handler raise and record ordering are distinct.",
+      "id": "R04",
+      "locations": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py:748-850"
+      ],
+      "severity": "confirmed_ordering"
+    },
+    {
+      "conclusion": "Read/write/overflow causes are recorded before independent unregister/close. Selected census-tail read may follow an earlier census-body cause, which must remain first.",
+      "id": "R05",
+      "locations": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py:276-343",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py:441-475"
+      ],
+      "severity": "confirmed_ordering"
+    },
+    {
+      "conclusion": "Ordinary capped dispatcher envelope is not a child-overflow producer; no universal exceptional-concatenation bound asserted. Positive genuine ps quota and producer remain required.",
+      "id": "R06",
+      "locations": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py:371-400",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py:299-403"
+      ],
+      "severity": "retained_prerequisite"
+    },
+    {
+      "conclusion": "Natural EOF is source-reachable without an injector; independent actual EOF/cleanup, complete monitor/custody and genuine completion remain unqualified.",
+      "id": "R07",
+      "locations": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py:317-323",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py:503-526"
+      ],
+      "severity": "bounded_positive_reachability"
+    },
+    {
+      "conclusion": "After journal failure each frozen row still receives its independent attempt/record path; exhausted-deadline rows can remain unobserved and sink errors prevent completeness.",
+      "id": "R08",
+      "locations": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/custody.py:546-617",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py:522-579"
+      ],
+      "severity": "confirmed_tail_boundary"
+    }
+  ],
+  "unresolved_execution_prerequisites": [
+    "Concrete authenticated independent whole-entry observer with actual source/descriptor/interpreter boundary evidence and bounded effects.",
+    "Selective actual operation fault suppliers and independent ordered Python consequences for paired-failure cases.",
+    "Admissible unchanged-entry overflow producers reaching unchanged positive limits.",
+    "Separate root approval of each concrete controller/protocol and genuine bootstrap, custody, tool completion and output review.",
+    "Keep all original source, closure, supplier, stable-host, loader/cache, process-group, sampling, resource and deadline premises.",
+    "Preserve failed/partial outcomes and first-error versus late-tail ordering; no earlier-refusal credit."
+  ]
+}

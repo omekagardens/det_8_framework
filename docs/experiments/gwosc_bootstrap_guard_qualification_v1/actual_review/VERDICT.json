@@ -1,0 +1,110 @@
+{
+  "accepted_operation": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2",
+  "actual_check_summary": {
+    "bytes": 8763,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/SAVED_CHECK_SUMMARY.json",
+    "sha256": "280ce828668bdca6d5846f9915bc67e06ac6d04433345939ab70c67a4e96d4d7"
+  },
+  "actual_genuine_tool": {
+    "chunk_id": "32ad3f",
+    "exit_code": 0,
+    "session_id": null
+  },
+  "actual_positive_expectations": 1,
+  "actual_refusal_expectations": 14,
+  "blocking_findings": [],
+  "candidate_runtime_qualified": false,
+  "complete_review": {
+    "bytes": 15939,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/INDEPENDENT_ACTUAL_REVIEW.md",
+    "sha256": "5b3085064cef30feb8abea42562dbc381b350146f223f0bf3c950b2463c0a0a8"
+  },
+  "final_custody": {
+    "bytes": 3641,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/FINAL_INPUT_CUSTODY.json",
+    "sha256": "073222e8e29d6490c8162a34a6c670e9c33a0a56dfca620b8ebcba4b18cbdf85"
+  },
+  "historical_ri137_failure_reclassified": false,
+  "limits": {
+    "monitor": {
+      "attempts": 10,
+      "child_elapsed_excludes_preallocation_authentication": true,
+      "elapsed_seconds": 0.382986917,
+      "final_reap_gap_seconds": 0.02544154200000004,
+      "genuine_outer_exit": 0,
+      "maximum_gap_seconds": 0.043370540999999985,
+      "parent_elapsed_seconds": 0.503560459,
+      "peak_sampled_rss_kib": 46896,
+      "samples": 10
+    },
+    "namespace": {
+      "child_entries": 33,
+      "child_recorded_entries": 32,
+      "operation_directories": 20,
+      "operation_entries": 52,
+      "operation_files": 32,
+      "output_file_bytes": 202642,
+      "parent_entries": 43,
+      "parent_recorded_entries": 41
+    },
+    "saved_bootstrap": {
+      "cached_names_recorded_absent": 53,
+      "current_runtime_or_vendor_probed_by_reviewer": false,
+      "file_bytes": 48024515,
+      "framework_entries": 2004,
+      "frozen_origins": [
+        "_frozen_importlib",
+        "_frozen_importlib_external",
+        "importlib._bootstrap",
+        "importlib._bootstrap_external",
+        "zipimport"
+      ],
+      "kinds": {
+        "directory": 184,
+        "file": 1810,
+        "symlink": 10
+      },
+      "module_file_identities": 67,
+      "pre_post_bytes": 1690949,
+      "pre_post_sha256": "f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb",
+      "recorded_absences": 2,
+      "saved_bindings": 9,
+      "startup_modules": 92,
+      "tool_origin_remains_root_observed_external_premise": true
+    },
+    "source": {
+      "all_full_saved_states_equal": 482,
+      "dependencies": 472,
+      "dependency_bytes": 26701752,
+      "packet": 10
+    }
+  },
+  "next_operation_authorized_by_this_review": false,
+  "production_capture_accepted": false,
+  "remaining_prerequisites": [
+    "Root actual15 adjudication and genuine tool-origin custody.",
+    "Separate fresh RI141 production capture admission, authenticated candidate binding before traversal, current supplier/runtime/source/namespace custody under unchanged bounds.",
+    "Later separately admitted normal and optimized profiles in required order, then separately admitted65 guards.",
+    "Stable host, Apple loader/cache, no-descendant and sampled-child/parent-PID limits remain; no hermeticity or instruction-trace claim."
+  ],
+  "ret_paused": true,
+  "reviewer_authorship": "RI125 primary/qualifier and RI131 outside target; prior RI144 independent source review. No RI135/139/141/144 source authorship.",
+  "reviewer_commands": {
+    "bytes": 3008,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/ACTUAL_REVIEWER_COMMANDS.json",
+    "sha256": "3c9a7ed4021944938a3c085ba043c801b60489f3d8d46c934fc056cbcade3aaa"
+  },
+  "ri130_65_credit": false,
+  "ri131_credit": false,
+  "saved_genuine_evidence": {
+    "bytes": 1128,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "9702f430c0ead8329ff4c12ecefaf01d6f2b83d5ac3df9b58c60f9a62e840ae3"
+  },
+  "schema": "ri144-independent-actual15-verdict-v1",
+  "scientific15_or_full32_credit": false,
+  "scientific_credit": false,
+  "source_author_independent": true,
+  "source_or_helper_executed_by_reviewer": false,
+  "status": "ACCEPT_BOUNDED_ACTUAL15"
+}

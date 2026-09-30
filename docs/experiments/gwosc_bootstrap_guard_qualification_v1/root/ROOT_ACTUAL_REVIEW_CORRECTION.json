@@ -1,0 +1,23 @@
+{
+  "affected": "VERDICT.json limits.monitor.child_elapsed_excludes_preallocation_authentication and matching summary/full-check field",
+  "classification": "Mislabelled summary annotation; not a failed or missed runtime check",
+  "correction": {
+    "inner_report_elapsed_excludes_child_authentication": true,
+    "owned_child_elapsed_includes_child_startup_and_authentication": true,
+    "parent_preownership_authentication_outside_child_timer": true
+  },
+  "preserve_original": true,
+  "review": {
+    "bytes": 5688,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/HANDOFF.json",
+    "sha256": "4e1cf194aa8e7f4b641ddf68037fb0c93b4e5b45123f2b4284a62d479cc77dd7"
+  },
+  "reviewer_confirmation": "Existing nonauthor reviewer confirmed exact three corrections in final chat reply after root query; numerical checks/recommendation unchanged; no sealed files changed or checks rerun",
+  "root_read_tool": {
+    "chunk_id": "4faeca",
+    "exit_code": 0
+  },
+  "schema": "ri144-root-review-annotation-erratum-v1",
+  "scope": "Interpret these precise fields with this correction; no new operation, parameter or threshold",
+  "source_basis": "RI135 prepare.py child_run304-381: timer precedes ATTEMPT and Popen; inner RI144 run authenticates before its own elapsed starts"
+}

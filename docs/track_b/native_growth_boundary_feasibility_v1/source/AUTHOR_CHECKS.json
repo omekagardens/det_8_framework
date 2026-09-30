@@ -1,0 +1,475 @@
+{
+  "schema": "ri143-author-checks-v1",
+  "status": "AUTHOR_CHECKS_ONLY_NOT_INDEPENDENT_ACCEPTANCE_OR_QUALIFICATION",
+  "scope": {
+    "source_only": true,
+    "subject_import_compile_ast_probe_run": false,
+    "current_subject_runtime_observed": false,
+    "controller_or_fixture_created": false,
+    "operational_cards_created": false,
+    "focused_attempts_executed": 0,
+    "policy_cases_executed": 0,
+    "scientific_execution": false,
+    "repository_or_git_operations": false
+  },
+  "dependency_check": {
+    "tool_outcome": {
+      "chunk_id": "ebb60d",
+      "exit_code": 0
+    },
+    "report": {
+      "schema": "ri143-author-local-dependency-check-v1",
+      "status": "AUTHOR_METADATA_CHECK_NOT_QUALIFICATION",
+      "dependency_manifest": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_DEPENDENCIES.json",
+        "bytes": 724108,
+        "sha256": "0b80123c32cedc50bb4597fe4eac2d06f5b7e049d5d598024cb1e0da2a02c16c"
+      },
+      "subject_manifest": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_IDENTITIES.json",
+        "bytes": 25382,
+        "sha256": "29a5650700a1963a8708a990274a93a7108bce254f3157e65bd5a0887f6b23f4"
+      },
+      "inherited": 423,
+      "current": 450,
+      "additions": 27,
+      "inherited_equal_except_role": true,
+      "all_identities_match": true,
+      "bytes": 171097748,
+      "largest_bytes": 31528781,
+      "ordered_identity_array_sha256": "36aa17dfe85f309ff97ea646cfb523882733f45e10bff68d59484112ba809ae9",
+      "policies": {
+        "metadata-identities-only-no-scientific-body-decoding": 182,
+        "opaque-bytes-only": 268
+      },
+      "new_administrative_bodies": 8,
+      "new_administrative_references": 580,
+      "subject_references": 20,
+      "unchanged_policy_objects": true,
+      "dispatcher_bindings_identical": true,
+      "namespaces": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0",
+          "names": [
+            "AUTHOR_STATIC_CHECKS.json",
+            "DEPENDENCY_NOTES.md",
+            "F01_SOURCE_NOTES.md",
+            "F02_SOURCE_NOTES.md",
+            "FOCUSED_QUALIFICATION_DESIGN.md",
+            "HANDOFF.json",
+            "HANDOFF.md",
+            "METADATA_CONTRACT.diff",
+            "REVIEW_OBLIGATIONS.md",
+            "ROOT_INTERFACE_CONTRACT.md",
+            "SOURCE_CODE.diff",
+            "SOURCE_CORRESPONDENCE.json",
+            "SOURCE_DEPENDENCIES.json",
+            "SOURCE_IDENTITIES.json",
+            "custody.py",
+            "launch_policy_case.py",
+            "owned_process.py"
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b",
+          "names": [
+            "CHECKER_HISTORY.json",
+            "FINAL_PIN_CHECK.json",
+            "HANDOFF.json",
+            "INDEPENDENT_SOURCE_REVIEW.json",
+            "INDEPENDENT_SOURCE_REVIEW.md",
+            "OPAQUE_TEXT_CHECK.json",
+            "check_review_metadata.py"
+          ]
+        }
+      ],
+      "new_dependencies": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/CHECKER_HISTORY.json",
+          "bytes": 1728,
+          "sha256": "636bf66b5c826422a36f4b9fb9f20c335a8e4291fa536481ad4a69f4d92967f0"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/FINAL_PIN_CHECK.json",
+          "bytes": 111775,
+          "sha256": "c7e59f911588b52e334acc06f95df5d2f0a23534916e73c0fb718bbbf3376c94"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/HANDOFF.json",
+          "bytes": 5887,
+          "sha256": "7fdb6fa7c042cfebb47607cf11932efba8aabb1fcf9e8d0959962e3acf2673e1"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.json",
+          "bytes": 15287,
+          "sha256": "3c94838a9a073ba2ab91ec3f8ae0c36f9ec4697b863a56a40b24da88b621f6c3"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.md",
+          "bytes": 22740,
+          "sha256": "7384df200c3473836c212399c0cd6e6ca3cdc5e66e25bb14ba1caa6a0b5dc9ea"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/OPAQUE_TEXT_CHECK.json",
+          "bytes": 174064,
+          "sha256": "dee3f88bc0154998b515793f172cd28492db4ec7f93824d9af176f296a4eca2e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/check_review_metadata.py",
+          "bytes": 10293,
+          "sha256": "3e599e3fff7ba845ec9e08741cb6ec1947c1a7bfd84164bc55bcf757718579cb"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/AUTHOR_STATIC_CHECKS.json",
+          "bytes": 17386,
+          "sha256": "d2605afbeabce911ca54f1d38245bcd1c912afbf8acfa2b3e0e0e42d9d68c8a3"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/DEPENDENCY_NOTES.md",
+          "bytes": 11423,
+          "sha256": "18ac7ec773bbe979d07ff45b5a466c01661baf94cf379421b168e6cdf1e28a97"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/F01_SOURCE_NOTES.md",
+          "bytes": 14864,
+          "sha256": "094585ca7cc46794f6911be92f5df1d2863a774f79acfc2204e5741b2c851bc2"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/F02_SOURCE_NOTES.md",
+          "bytes": 15600,
+          "sha256": "c359fd52c232f36239e6c30582a7e549a13b65769638ee7997c599c9c9a470ec"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/FOCUSED_QUALIFICATION_DESIGN.md",
+          "bytes": 8969,
+          "sha256": "d7be9dec61b3588af4e271afe4bfaea60060a4b6486f7cf229c60e3f33401107"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.json",
+          "bytes": 6044,
+          "sha256": "8726a3d8be2d62b2326a6ad45d5e1f497fda521d4a1e4a9c92e04101c16f2141"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.md",
+          "bytes": 4696,
+          "sha256": "d6a2e6379ea9e1f763e8222b47afc51444a1922c79b9dd81d3aadc56a213c836"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/METADATA_CONTRACT.diff",
+          "bytes": 73046,
+          "sha256": "fa5f8669a3bc90bd56398ddcea61b3e3ecc7e1e94fc6dbb5ab602bbd5c123f25"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/REVIEW_OBLIGATIONS.md",
+          "bytes": 2996,
+          "sha256": "3c94e32c7200c899ca1f5788595124aeb91f37f8d4e77ca381aff70c3317a79c"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/ROOT_INTERFACE_CONTRACT.md",
+          "bytes": 15005,
+          "sha256": "b47225767ebab5822fbca8d40727fe57fed577b054c6a52606d030a5cee0c34b"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_CODE.diff",
+          "bytes": 23623,
+          "sha256": "1bd097ae935978447488ba80a3146eade0c2c05a86ff27ead15e5dfbe276135e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_CORRESPONDENCE.json",
+          "bytes": 51931,
+          "sha256": "69d78e6c2b10ee26dfce2455817c6037389162aa4dfe41ac43e8f8cc68e7befa"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_DEPENDENCIES.json",
+          "bytes": 699052,
+          "sha256": "bd04d9013a543e63eb3db2488156c9c1c22333c48b68bdbce2ffcb9e33461544"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_IDENTITIES.json",
+          "bytes": 26029,
+          "sha256": "25a694353f782aa3d6c50f925981b5403a5da28308676930256b420c110f192c"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/custody.py",
+          "bytes": 33143,
+          "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "bytes": 60009,
+          "sha256": "a0526720e530caa529499ff4d6e9e9794462fb50a1975232eb229e37d683828d"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "bytes": 43838,
+          "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI140_ROOT_ADJUDICATION.json",
+          "bytes": 5028,
+          "sha256": "c6611c3e7ae4d915dbef12d37cafcbd9ec714eb76a66fb84815a9ed2968b0481"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_CHECK.json",
+          "bytes": 19308,
+          "sha256": "f0477e553bd4bb19d8c0473d54effc6041ea063faba3395a1ee5fde6935caa3a"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_REVIEW.md",
+          "bytes": 3887,
+          "sha256": "2ec34c80d5853bc9cdf9b6e1c1e3c707c8a7b70fc7cb2171aabb5acf8a1c0e08"
+        }
+      ],
+      "current_runtime_observed": false,
+      "subject_import_compile_ast_probe_run": false,
+      "method": "Bounded inline Node administrative JSON/opaque identity read; no subject imports or execution. Pre/open/post/named stats and canonical nonsymlink paths matched. Corrected comparison uses the actual dispatcher_bindings grouping."
+    },
+    "inline_command": "node <<'NODE'\nconst fs=require('fs'),path=require('path'),crypto=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge',P='/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0';\nconst hash=b=>crypto.createHash('sha256').update(b).digest('hex'),j=p=>JSON.parse(fs.readFileSync(p,'utf8')),fail=s=>{throw Error(s);};\nconst old=j(P+'/SOURCE_DEPENDENCIES.json'),now=j(Q+'/SOURCE_DEPENDENCIES.json'),subject=j(Q+'/SOURCE_IDENTITIES.json'),oldSubject=j(P+'/SOURCE_IDENTITIES.json');\nconst attrs=['dev','ino','mode','size','mtimeNs','ctimeNs'],raw=new Map();\nfunction identity(p,keep=false){if(!path.isAbsolute(p)||path.normalize(p)!==p||fs.realpathSync(p)!==p)fail('path');let prefix='/';for(const part of p.split('/').filter(Boolean)){prefix=path.join(prefix,part);if(fs.lstatSync(prefix).isSymbolicLink())fail('link');}const before=fs.lstatSync(p,{bigint:true});if(!before.isFile()||before.size>67108864n)fail('type/cap');const fd=fs.openSync(p,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let total=0,h=crypto.createHash('sha256'),chunks=[];try{const opened=fs.fstatSync(fd,{bigint:true}),b=Buffer.alloc(65536);while(true){const n=fs.readSync(fd,b,0,b.length,null);if(!n)break;total+=n;if(total>67108864)fail('readcap');h.update(b.subarray(0,n));if(keep)chunks.push(Buffer.from(b.subarray(0,n)));}const after=fs.fstatSync(fd,{bigint:true}),named=fs.lstatSync(p,{bigint:true});if(attrs.some(k=>before[k]!==opened[k]||opened[k]!==after[k]||after[k]!==named[k])||BigInt(total)!==after.size||fs.realpathSync(p)!==p)fail('changed');}finally{fs.closeSync(fd);}if(keep)raw.set(p,Buffer.concat(chunks));return {path:p,resolved_path:p,bytes:total,sha256:h.digest('hex'),symlinks:[]};}\nconst olds=new Map(old.protected_files.map(e=>[e.path,e])),news=new Map(now.protected_files.map(e=>[e.path,e]));\nconst withoutRole=e=>{const {role,...rest}=e;return JSON.stringify(rest);};\nif(olds.size!==423||news.size!==450||now.protected_files.length!==450)fail('counts');\nfor(const [p,e]of olds)if(withoutRole(e)!==withoutRole(news.get(p)||{}))fail('inherited');\nconst actuals=[],policies={};let prev='',total=0;\nfor(const [i,e]of now.protected_files.entries()){if(e.path<=prev||e.role!=='dep_'+String(i+1).padStart(4,'0'))fail('roleorder');prev=e.path;const keep=!olds.has(e.path)&&e.access_policy==='metadata-identities-only-no-scientific-body-decoding',a=identity(e.path,keep);if(JSON.stringify(a)!==JSON.stringify(e.identity))fail('identity '+e.path);actuals.push(a);total+=a.bytes;policies[e.access_policy]=(policies[e.access_policy]||0)+1;}\nconst pins=new Map(actuals.map(x=>[x.path,x]));let refs=0;\nfunction walk(v){if(!v||typeof v!=='object')return;if(!Array.isArray(v)&&typeof v.path==='string'&&Number.isInteger(v.bytes)&&typeof v.sha256==='string'){const a=pins.get(v.path);if(!a||['path','bytes','sha256','resolved_path','symlinks'].some(k=>k in v&&JSON.stringify(a[k])!==JSON.stringify(v[k])))fail('reference '+v.path);refs++;}for(const x of Object.values(v))walk(x);}\nfor(const b of raw.values())walk(JSON.parse(b.toString('utf8')));const adminRefs=refs;\nconst dep=identity(Q+'/SOURCE_DEPENDENCIES.json');pins.set(dep.path,dep);walk(subject);\nif(JSON.stringify(subject.unchanged_policy_subjects)!==JSON.stringify(oldSubject.subjects))fail('policy differs');\nfor(const name of ['dispatcher','dispatcher_source_handoff','dispatcher_subject_manifest'])if(JSON.stringify(subject.dispatcher_bindings[name])!==JSON.stringify(oldSubject[name]))fail('dispatcher '+name);\nconst namespaces=[];for(const p of [P,'/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b']){const h=j(p+'/HANDOFF.json'),expected=h.files.map(x=>path.basename(x.path)).concat('HANDOFF.json').sort();if(JSON.stringify(fs.readdirSync(p).sort())!==JSON.stringify(expected))fail('namespace');for(const pin of h.files){const a=pins.get(pin.path);if(!a||['path','bytes','sha256'].some(k=>a[k]!==pin[k]))fail('payloadpin');}namespaces.push({path:p,names:expected});}\nconst simple=a=>({path:a.path,bytes:a.bytes,sha256:a.sha256});\nconsole.log(JSON.stringify({schema:'ri143-author-local-dependency-check-v1',status:'AUTHOR_METADATA_CHECK_NOT_QUALIFICATION',dependency_manifest:simple(dep),subject_manifest:simple(identity(Q+'/SOURCE_IDENTITIES.json')),inherited:423,current:450,additions:27,inherited_equal_except_role:true,all_identities_match:true,bytes:total,largest_bytes:Math.max(...actuals.map(x=>x.bytes)),ordered_identity_array_sha256:hash(JSON.stringify(actuals)),policies,new_administrative_bodies:raw.size,new_administrative_references:adminRefs,subject_references:refs-adminRefs,unchanged_policy_objects:true,dispatcher_bindings_identical:true,namespaces,new_dependencies:actuals.filter(x=>!olds.has(x.path)).map(simple),current_runtime_observed:false,subject_import_compile_ast_probe_run:false,method:'Bounded inline Node administrative JSON/opaque identity read; no subject imports or execution. Pre/open/post/named stats and canonical nonsymlink paths matched. Corrected comparison uses the actual dispatcher_bindings grouping.'},null,2));\nNODE"
+  },
+  "current_design_check": {
+    "tool_outcome": {
+      "chunk_id": "873d31",
+      "exit_code": 0
+    },
+    "report": {
+      "schema": "ri143-author-current-design-check-v1",
+      "status": "AUTHOR_METADATA_CHECK_NOT_QUALIFICATION",
+      "namespace": [
+        "ADMIN_CHECK_FAILURE.txt",
+        "DEPENDENCY_NOTES.md",
+        "F01_BOUNDARIES.json",
+        "F01_FEASIBILITY.md",
+        "F02_BOUNDARIES.json",
+        "F02_FEASIBILITY.md",
+        "FEASIBILITY_CONTRACT.md",
+        "FEASIBILITY_DECISION.md",
+        "HANDOFF.md",
+        "SOURCE_APPLICABILITY.json",
+        "SOURCE_DEPENDENCIES.json",
+        "SOURCE_IDENTITIES.json"
+      ],
+      "payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/ADMIN_CHECK_FAILURE.txt",
+          "bytes": 1048,
+          "sha256": "44f131bb6cee34cfc37653f9a7b1fa0cdf4952c0750c42e6c0a0aac76dda3d1e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/DEPENDENCY_NOTES.md",
+          "bytes": 8690,
+          "sha256": "3734e4aa023d28151f02da3f47cd4b64d6e3054984bb4913e2fb4fe6634b3a2c"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_BOUNDARIES.json",
+          "bytes": 139932,
+          "sha256": "3ae6ee9e8f0229d87730a84ffbeb3949be208c81a3215d0939e0b6be48fc4ee8"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_FEASIBILITY.md",
+          "bytes": 16839,
+          "sha256": "8d5b7bae285dcdd535f3bdc8e8de4971468056656b321e4ba2328fc7da101039"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F02_BOUNDARIES.json",
+          "bytes": 63780,
+          "sha256": "a0b21bf2bb0796ddf7b044a556e85d611982af89618233804b8ad96b713e8b6c"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F02_FEASIBILITY.md",
+          "bytes": 15348,
+          "sha256": "e210d24f1e9a3769399a5386984118c200b11c917c0557d1ecac0e33be77ace0"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/FEASIBILITY_CONTRACT.md",
+          "bytes": 10467,
+          "sha256": "079bcd1a8704789f587a7c9e05f97647bcd58cbb91f51e540f51485fd3704b99"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/FEASIBILITY_DECISION.md",
+          "bytes": 8485,
+          "sha256": "4bf9188060df015729e83e874625644b9b4858448a68e4012ff9afad7af8a08b"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.md",
+          "bytes": 4988,
+          "sha256": "9f41cfa2c734bbd30efe1ad0abead5178f7524baeb25ec263cabd69562654c07"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_APPLICABILITY.json",
+          "bytes": 6243,
+          "sha256": "76ea980c93e2fe032369eb7423cd1f046b141ba50cd773e1cd189b7f1a3c3aea"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_DEPENDENCIES.json",
+          "bytes": 724108,
+          "sha256": "0b80123c32cedc50bb4597fe4eac2d06f5b7e049d5d598024cb1e0da2a02c16c"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_IDENTITIES.json",
+          "bytes": 25382,
+          "sha256": "29a5650700a1963a8708a990274a93a7108bce254f3157e65bd5a0887f6b23f4"
+        }
+      ],
+      "typed_references": 45,
+      "F01_ids": [
+        "F01-1-SIGTERM",
+        "F01-1-SIGINT",
+        "F01-1-SIGHUP",
+        "F01-2-SIGTERM",
+        "F01-2-SIGINT",
+        "F01-2-SIGHUP",
+        "F01-3",
+        "F01-4",
+        "F01-5",
+        "F01-6",
+        "F01-7",
+        "F01-8",
+        "F01-9",
+        "F01-10-SIGTERM",
+        "F01-10-SIGINT",
+        "F01-10-SIGHUP",
+        "F01-11",
+        "F01-12",
+        "F01-13",
+        "F01-14-SIGTERM",
+        "F01-14-SIGINT",
+        "F01-14-SIGHUP",
+        "F01-15"
+      ],
+      "F02_ids": [
+        "F02-1-UNREGISTER",
+        "F02-1-CLOSE",
+        "F02-2",
+        "F02-3",
+        "F02-4",
+        "F02-5",
+        "F02-6",
+        "F02-7"
+      ],
+      "source_location_ranges_checked": 104,
+      "source_line_counts": {
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py": 1040,
+        "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py": 850,
+        "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py": 400
+      },
+      "all_rows_have_entry_preconditions_and_first_reachable_refusal": true,
+      "all_rows_unexecuted": true,
+      "no_available_controller_claimed": true,
+      "no_source_copies_or_diffs": true,
+      "current_runtime_observed": false,
+      "subject_import_compile_ast_probe_run": false,
+      "method": "Bounded administrative JSON, canonical/nonsymlink regular-file identity and source line-range checks only; source files read as plain text, never imported, compiled, parsed as Python or run."
+    },
+    "inline_command": "node - <<'NODE'\nconst fs=require('fs'),crypto=require('crypto'),assert=require('assert/strict'),path=require('path');\nconst base='/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge';\nconst hash=b=>crypto.createHash('sha256').update(b).digest('hex');\nfunction read(p) {\n assert.equal(fs.realpathSync(p),p); let cur='/';\n for(const x of p.split('/').filter(Boolean)){cur=path.join(cur,x);assert.equal(fs.lstatSync(cur).isSymbolicLink(),false);}\n const a=fs.lstatSync(p,{bigint:true});assert(a.isFile());assert(a.size<=67108864n);\n const fd=fs.openSync(p,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);\n const first=fs.fstatSync(fd,{bigint:true}), b=fs.readFileSync(fd),last=fs.fstatSync(fd,{bigint:true});fs.closeSync(fd);\n const named=fs.lstatSync(p,{bigint:true});for(const v of [first,last,named])for(const k of ['dev','ino','mode','size','mtimeNs','ctimeNs'])assert.equal(v[k],a[k]);\n assert.equal(BigInt(b.length),a.size); return {body:b,identity:{path:p,bytes:b.length,sha256:hash(b)}};\n}\nconst names=fs.readdirSync(base).sort();\nassert.deepEqual(names,['ADMIN_CHECK_FAILURE.txt','DEPENDENCY_NOTES.md','F01_BOUNDARIES.json','F01_FEASIBILITY.md','F02_BOUNDARIES.json','F02_FEASIBILITY.md','FEASIBILITY_CONTRACT.md','FEASIBILITY_DECISION.md','HANDOFF.md','SOURCE_APPLICABILITY.json','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json'].sort());\nconst files=Object.fromEntries(names.map(n=>[n,read(path.join(base,n))]));\nconst parsed={};for(const [n,v]of Object.entries(files))if(n.endsWith('.json'))parsed[n]=JSON.parse(v.body);\nconst deps=parsed['SOURCE_DEPENDENCIES.json'].protected_files;assert.equal(deps.length,450);\nconst known=new Map(deps.map(x=>[x.identity.path,x.identity]));for(const v of Object.values(files))known.set(v.identity.path,v.identity);\nlet typed=0;\nfunction walk(v){if(v&&typeof v==='object'){if(typeof v.path==='string'&&Number.isInteger(v.bytes)&&typeof v.sha256==='string'){const p=known.get(v.path);assert(p,'unselected '+v.path);assert.equal(v.bytes,p.bytes);assert.equal(v.sha256,p.sha256);typed++;}for(const x of Object.values(v))walk(x);}}\nfor(const [n,v]of Object.entries(parsed))if(n!=='SOURCE_DEPENDENCIES.json')walk(v);\nconst f01=parsed['F01_BOUNDARIES.json'],f02=parsed['F02_BOUNDARIES.json'];\nconst ids1=[];for(let i=1;i<=15;i++){if([1,2,10,14].includes(i))for(const s of ['SIGTERM','SIGINT','SIGHUP'])ids1.push('F01-'+i+'-'+s);else ids1.push('F01-'+i);}\nconst ids2=['F02-1-UNREGISTER','F02-1-CLOSE','F02-2','F02-3','F02-4','F02-5','F02-6','F02-7'];\nassert.deepEqual(f01.rows.map(r=>r.id),ids1);assert.deepEqual(f02.cases.map(r=>r.id),ids2);\nlet locations=0;const sourceLines=new Map();\nfunction verifyLocation(p,a,b){assert(known.has(p),'location source not selected '+p);if(!sourceLines.has(p)){const got=read(p);assert.equal(got.identity.bytes,known.get(p).bytes);assert.equal(got.identity.sha256,known.get(p).sha256);sourceLines.set(p,got.body.toString('utf8').split('\\n').length-1);}assert(Number.isInteger(a)&&Number.isInteger(b)&&a>0&&b>=a&&b<=sourceLines.get(p));locations++;}\nfor(const r of [...f01.rows,...f02.cases]){\n assert.equal(r.executed,false);assert.equal(r.id.startsWith('F01') ? r.available_mechanism_established : r.available,false);\n assert(r.entry_preconditions&&Object.keys(r.entry_preconditions).length>0);assert(r.first_reachable_refusal&&Object.keys(r.first_reachable_refusal).length>0);\n if(r.id.startsWith('F01')){assert.equal(r.passed,false);for(const s of r.subject_locations)verifyLocation(s.path,s.start_line,s.end_line);}\n else {assert.equal(r.controller_implemented,false);assert.equal(r.actual_outcome,null);for(const s of r.source_locations)verifyLocation(f02.sources[s.source].path,s.start_line,s.end_line);}\n}\nconst app=parsed['SOURCE_APPLICABILITY.json'];\nassert.equal(app.coverage.total_focused_variants,31);assert.equal(app.coverage.policy_cases,139);\nassert.equal(app.coverage.focused_attempts_executed,0);assert.equal(app.coverage.policy_cases_executed,0);\nassert.equal(app.copied_executable_source,false);assert.equal(app.modified_executable_source,false);assert.deepEqual(app.source_diffs,[]);\nconst c12=f01.rows.find(r=>r.id==='F01-12');assert(/successful|normally|success/.test(JSON.stringify(c12.entry_preconditions)));\nconsole.log(JSON.stringify({schema:'ri143-author-current-design-check-v1',status:'AUTHOR_METADATA_CHECK_NOT_QUALIFICATION',namespace:names,payloads:Object.values(files).map(v=>v.identity),typed_references:typed,F01_ids:ids1,F02_ids:ids2,source_location_ranges_checked:locations,source_line_counts:Object.fromEntries(sourceLines),all_rows_have_entry_preconditions_and_first_reachable_refusal:true,all_rows_unexecuted:true,no_available_controller_claimed:true,no_source_copies_or_diffs:true,current_runtime_observed:false,subject_import_compile_ast_probe_run:false,method:'Bounded administrative JSON, canonical/nonsymlink regular-file identity and source line-range checks only; source files read as plain text, never imported, compiled, parsed as Python or run.'}));\nNODE"
+  },
+  "administrative_history": [
+    {
+      "kind": "failed_dependency_checker",
+      "tool_outcome": {
+        "chunk_id": "cb9b5e",
+        "wall_time_seconds": 0.073405542,
+        "exit_code": 1,
+        "original_token_count": 199,
+        "output": "[stdin]:3\nconst hash=b=>crypto.createHash('sha256').update(b).digest('hex'),j=p=>JSON.parse(fs.readFileSync(p,'utf8')),fail=s=>{throw Error(s);};\n                                                                                                                      ^\n\nError: dispatcher dispatcher\n    at fail ([stdin]:3:125)\n    at [stdin]:18:160\n    at runScriptInThisContext (node:internal/vm:219:10)\n    at node:internal/process/execution:451:12\n    at [stdin]-wrapper:6:24\n    at runScriptInContext (node:internal/process/execution:449:60)\n    at evalFunction (node:internal/process/execution:283:30)\n    at evalTypeScript (node:internal/process/execution:295:3)\n    at node:internal/main/eval_stdin:51:5\n    at ReadStream.<anonymous> (node:internal/process/execution:205:5)\n\nNode.js v25.3.0\n"
+      },
+      "cause": "Author compared dispatcher at the obsolete top-level key rather than the design schema dispatcher_bindings. No complete passed check was claimed for that invocation.",
+      "retained_raw_file": "ADMIN_CHECK_FAILURE.txt",
+      "correction": {
+        "chunk_id": "33cf99",
+        "exit_code": 0
+      },
+      "later_complete_recheck": {
+        "chunk_id": "ebb60d",
+        "exit_code": 0
+      }
+    },
+    {
+      "kind": "agent_reported_rejected_patch",
+      "author": "/root/ri132_native_controls",
+      "tool": "functions.exec/tools.apply_patch",
+      "operation_identifier": null,
+      "identifier_note": "No chunk/cell/operation identifier returned to the author.",
+      "outcome": "rejected before writing",
+      "raw_message": "Script error:\napply_patch verification failed: invalid patch: multiple operations target /Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_BOUNDARIES.json",
+      "cause": "Delete File plus Add File attempted for the same file in one administrative metadata patch.",
+      "correction": "Update File hunks applied; no subject target or source execution."
+    },
+    {
+      "kind": "agent_reported_rejected_patch",
+      "author": "/root/ri132_native_controls",
+      "tool": "functions.exec/tools.apply_patch",
+      "operation_identifier": null,
+      "identifier_note": "No chunk/cell/operation identifier returned to the author.",
+      "outcome": "rejected before writing",
+      "raw_message": "apply_patch verification failed: Failed to find expected lines in /Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_FEASIBILITY.md:\nearlier PROCESS_REPORT/PROCESS_CLOSE files remain provisional; actual\npost-restoration return or exception plus genuine outer completion are required.",
+      "cause": "Patch context omitted initial capital The.",
+      "correction": "Corrected Update File applied; later author-reported administrative count/pin commands 73c214 and ab760d exited0."
+    },
+    {
+      "kind": "failed_source_text_lookup",
+      "tool_outcome": {
+        "chunk_id": "039856",
+        "exit_code": 0,
+        "output": "nl: /Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/process_collector.py: No such file or directory\n"
+      },
+      "cause": "Author used an incorrect collector filename. Pipeline exit0 is not a successful source read.",
+      "correction": {
+        "chunk_id": "616f43",
+        "exit_code": 0,
+        "actual_file": "owned_process.py",
+        "read_lines": "270–350"
+      }
+    },
+    {
+      "kind": "failed_current_design_checker",
+      "tool_outcome": {
+        "chunk_id": "87dccd",
+        "wall_time_seconds": 0.000008875,
+        "exit_code": 1,
+        "original_token_count": 205,
+        "output": "node:assert:149\n  throw new AssertionError(obj);\n  ^\n\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ undefined\n- false\n\n    at [stdin]:29:40\n    at runScriptInThisContext (node:internal/vm:219:10)\n    at node:internal/process/execution:451:12\n    at [stdin]-wrapper:6:24\n    at runScriptInContext (node:internal/process/execution:449:60)\n    at evalFunction (node:internal/process/execution:283:30)\n    at evalTypeScript (node:internal/process/execution:295:3)\n    at node:internal/main/eval_stdin:51:5\n    at ReadStream.<anonymous> (node:internal/process/execution:205:5)\n    at ReadStream.emit (node:events:508:28) {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: undefined,\n  expected: false,\n  operator: 'strictEqual',\n  diff: 'simple'\n}\n\nNode.js v25.3.0\n"
+      },
+      "cause": "Author incorrectly applied F01 available_mechanism_established field to F02, whose schema uses available.",
+      "correction": {
+        "chunk_id": "873d31",
+        "exit_code": 0
+      },
+      "effect": "Checker corrected to respect both existing schemas; no map weakened or subject changed."
+    }
+  ],
+  "author_review": [
+    {
+      "reviewer": "main source author",
+      "scope": "Complete selecting root decision/review, independent handoff/Markdown/structured review, complete current prose and applicability metadata; targeted immutable source excerpts and structured entry/refusal projections; final dependency and map shape/identity/range checks. No fresh full semantic review of every inherited body or every JSON field claimed.",
+      "display_caveat": "Initial combined independent-review display was truncated and reread in full in tool chunks5ea65b/72065d. Later projection display90a0b1 was truncated; representative F01 projections reread in e9b995, F02 field review also covered by its author peer. No truncated display counted as full read.",
+      "source_location_correction": "Main natural EOF citation corrected to collector316–322; directory_sync118–123 independently read in4c7fe8."
+    },
+    {
+      "reviewer": "/root/ri132_evidence_contract",
+      "scope": "Full read-only author-peer review of FEASIBILITY_CONTRACT and FEASIBILITY_DECISION before final EOF citation correction and directory-close finding addition.",
+      "finding": "No concrete scope/count/platform-impossibility/natural-EOF/provisional-receipt overclaim in the reviewed versions.",
+      "independent_acceptance": false
+    },
+    {
+      "reviewer": "/root/ri132_native_controls",
+      "scope": "F02 full prose, all8 case objects including separately recovered truncated portions, scoped limits and record rules.",
+      "finding": "No concrete contradiction reported; F02 files then unchanged.",
+      "prior_source_role": "Launcher authorship and collector author-peer review; not independent source review.",
+      "independent_acceptance": false
+    },
+    {
+      "reviewer": "/root/ri132_audit_controls",
+      "scope": "Full F01 prose, all23 entry/refusal projections, targeted acquisition/receipt/observe/collector source spans; final full corrected F01-12 row and changed prose, with final pins matched.",
+      "finding": "F01-12 previously claimed a compound directory-close error would stay later without replacing propagated fsync. Corrected to require successful directory close for isolated fsync and preserve contrary compound evidence without credit.",
+      "prior_source_role": "Collector source author; not independent source review.",
+      "independent_acceptance": false
+    }
+  ],
+  "limitations": [
+    "Finite identity checks are not continuous immutability or operational custody.",
+    "Typed-reference/range checks do not prove semantic feasibility.",
+    "Administrative failures are not subject failures; their corrections are not focused qualification passes.",
+    "No executable source copied or changed; source diffs intentionally not applicable.",
+    "Root adjudication and any admission remain outstanding."
+  ]
+}

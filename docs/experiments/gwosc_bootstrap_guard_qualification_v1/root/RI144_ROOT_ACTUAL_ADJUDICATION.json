@@ -1,0 +1,76 @@
+{
+  "RET_paused": true,
+  "actual_controls": 15,
+  "annotation_correction": {
+    "bytes": 1325,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_ACTUAL_REVIEW_CORRECTION.json",
+    "sha256": "faacac55ae6858ba9287857b1e15b508f8004565eec8fd5aac0d1e7c52e0177e"
+  },
+  "blocking_findings": [],
+  "bootstrap_post": {
+    "bytes": 1690949,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_POST.json",
+    "sha256": "f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb"
+  },
+  "bootstrap_pre": {
+    "bytes": 1690949,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_PRE.json",
+    "sha256": "f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb"
+  },
+  "current_production_capture_accepted": false,
+  "full_findings": {
+    "bytes": 15939,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/INDEPENDENT_ACTUAL_REVIEW.md",
+    "sha256": "5b3085064cef30feb8abea42562dbc381b350146f223f0bf3c950b2463c0a0a8"
+  },
+  "genuine_origin": "Actual root-observed command/response in this thread; saved JSON is retained custody, not self-authenticating authority",
+  "genuine_outer": {
+    "bytes": 1128,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "9702f430c0ead8329ff4c12ecefaf01d6f2b83d5ac3df9b58c60f9a62e840ae3"
+  },
+  "genuine_outer_chunk": "32ad3f",
+  "genuine_outer_exit": 0,
+  "independent_actual_review": {
+    "bytes": 5688,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/HANDOFF.json",
+    "sha256": "4e1cf194aa8e7f4b641ddf68037fb0c93b4e5b45123f2b4284a62d479cc77dd7"
+  },
+  "independent_check_tool": {
+    "chunk_id": "bdd3a1",
+    "exit_code": 0
+  },
+  "next_action": "RI146 root prepares and separately admits one fresh genuine RI141 production capture under unchanged bounds, then independent actual baseline review before any profile",
+  "old25_scope_unchanged": true,
+  "operation_entries_final_unchanged": 52,
+  "positive_expectations": 1,
+  "premises": [
+    "stable host/supplier and no descendants",
+    "Darwin/Apple loader/shared cache and source/cache limitations",
+    "sampled child RSS only; saved parent PID not authenticated child identity",
+    "genuine external timeout and independent cleanup if required"
+  ],
+  "refusal_expectations": 14,
+  "review_annotation_corrected_without_mutation": true,
+  "root_actual_check": {
+    "bytes": 8458,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_ACTUAL15_CHECK.json",
+    "sha256": "139ede1e15a61807200aecab21d4eee2dccaa9188414e38be0cd285c5f5b874a"
+  },
+  "root_check_tool": {
+    "chunk_id": "f3bea0",
+    "exit_code": 0
+  },
+  "schema": "ri144-root-actual15-adjudication-v1",
+  "scientific_or_actual_data_credit": false,
+  "scientific_runtime_qualified": false,
+  "scope": "Exact isolated selected_bootstrap boundary with disclosed private provenance and supplier observation doubles, whole actual real-source loading and preserved monitor/custody premises",
+  "source_decision": {
+    "bytes": 2341,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/RI144_ROOT_ADJUDICATION.json",
+    "sha256": "14009b952cefe42db6753626f2653fb598169e77863c9e64f117404777e39230"
+  },
+  "source_states_final_unchanged": 482,
+  "status": "ACCEPT_FIFTEEN_ISOLATED_BOOTSTRAP_GUARD_OUTCOMES",
+  "whole_case_envelopes_and_namespaces_reconciled": true
+}

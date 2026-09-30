@@ -1,0 +1,309 @@
+{
+  "case_results": [
+    {
+      "first_refusal": null,
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B01",
+      "observed_observers": [
+        "private_provenance_read",
+        "supplier_bytes",
+        "supplier_lstat",
+        "interpreter_descriptor"
+      ],
+      "returned_binding": {
+        "bytes": 102352,
+        "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+        "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+        "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+        "state": [
+          16777232,
+          172336345,
+          33261,
+          1,
+          102352,
+          1762508227000000000,
+          1763521990665808991
+        ],
+        "symlink_chain": []
+      },
+      "trace_entries": 28
+    },
+    {
+      "first_refusal": {
+        "message": "bootstrap selection provenance absent from closure",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B02",
+      "observed_observers": [],
+      "returned_binding": null,
+      "trace_entries": 1
+    },
+    {
+      "first_refusal": {
+        "message": "metadata reference drift",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B03",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 9
+    },
+    {
+      "first_refusal": {
+        "message": "accepted direct bootstrap selection provenance",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B04",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 19
+    },
+    {
+      "first_refusal": {
+        "message": "closed selected interpreter binding",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B05",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 20
+    },
+    {
+      "first_refusal": {
+        "message": "closed selected interpreter binding",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B06",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 20
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B07_path",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B07_resolved_path",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B07_symlink_chain",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B07_bytes",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B07_sha256",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B07_state",
+      "observed_observers": [
+        "private_provenance_read"
+      ],
+      "returned_binding": null,
+      "trace_entries": 21
+    },
+    {
+      "first_refusal": {
+        "message": "opaque evidence reference drift",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B08",
+      "observed_observers": [
+        "private_provenance_read",
+        "supplier_bytes"
+      ],
+      "returned_binding": null,
+      "trace_entries": 24
+    },
+    {
+      "first_refusal": {
+        "message": "selected interpreter state drift",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B09",
+      "observed_observers": [
+        "private_provenance_read",
+        "supplier_bytes",
+        "supplier_lstat"
+      ],
+      "returned_binding": null,
+      "trace_entries": 26
+    },
+    {
+      "first_refusal": {
+        "message": "direct interpreter descriptor",
+        "type": "ValueError"
+      },
+      "full_envelope": true,
+      "full_private_bytes": true,
+      "id": "B10",
+      "observed_observers": [
+        "private_provenance_read",
+        "supplier_bytes",
+        "supplier_lstat",
+        "interpreter_descriptor"
+      ],
+      "returned_binding": null,
+      "trace_entries": 28
+    }
+  ],
+  "checker": {
+    "bytes": 27123,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/review_saved_actual15.py",
+    "sha256": "48df7d10ec94887377177e45549eedb523a6c7cd80230dde9ac00ad6865a18cd"
+  },
+  "checks_passed": 16382,
+  "current_supplier_observation": false,
+  "detailed_check_log": {
+    "bytes": 1509827,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/SAVED_ACTUAL_CHECKS.json",
+    "sha256": "4ef7a8a4237a71a89be6a8b2212a60ffe55e4a43185bdcc2ebe2d03faeb7729c"
+  },
+  "execution_performed_by_reviewer": false,
+  "input": {
+    "bytes": 28201,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ACTUAL15_REVIEW_INPUT.json",
+    "sha256": "cc05c7cfc41891451003a946b8f632b3aee0fb5978aea32f1dea2fdc06ed2cfa"
+  },
+  "log_count_is_metadata_predicates_not_independent_controls": true,
+  "observations": {
+    "monitor": {
+      "attempts": 10,
+      "child_elapsed_excludes_preallocation_authentication": true,
+      "elapsed_seconds": 0.382986917,
+      "final_reap_gap_seconds": 0.02544154200000004,
+      "genuine_outer_exit": 0,
+      "maximum_gap_seconds": 0.043370540999999985,
+      "parent_elapsed_seconds": 0.503560459,
+      "peak_sampled_rss_kib": 46896,
+      "samples": 10
+    },
+    "namespace": {
+      "child_entries": 33,
+      "child_recorded_entries": 32,
+      "operation_directories": 20,
+      "operation_entries": 52,
+      "operation_files": 32,
+      "output_file_bytes": 202642,
+      "parent_entries": 43,
+      "parent_recorded_entries": 41
+    },
+    "saved_bootstrap": {
+      "cached_names_recorded_absent": 53,
+      "current_runtime_or_vendor_probed_by_reviewer": false,
+      "file_bytes": 48024515,
+      "framework_entries": 2004,
+      "frozen_origins": [
+        "_frozen_importlib",
+        "_frozen_importlib_external",
+        "importlib._bootstrap",
+        "importlib._bootstrap_external",
+        "zipimport"
+      ],
+      "kinds": {
+        "directory": 184,
+        "file": 1810,
+        "symlink": 10
+      },
+      "module_file_identities": 67,
+      "pre_post_bytes": 1690949,
+      "pre_post_sha256": "f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb",
+      "recorded_absences": 2,
+      "saved_bindings": 9,
+      "startup_modules": 92,
+      "tool_origin_remains_root_observed_external_premise": true
+    },
+    "source": {
+      "all_full_saved_states_equal": 482,
+      "dependencies": 472,
+      "dependency_bytes": 26701752,
+      "packet": 10
+    }
+  },
+  "schema": "ri144-independent-saved-actual15-check-v1",
+  "scientific_body_decoded": false,
+  "status": "PASS"
+}

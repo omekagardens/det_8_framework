@@ -1,0 +1,32 @@
+{
+  "admission": {
+    "bytes": 2434,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+    "sha256": "71542ee3752859987992734d4e42b152afff73d73f6cac5c851ed435bd1cf965"
+  },
+  "controls": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07_path",
+    "B07_resolved_path",
+    "B07_symlink_chain",
+    "B07_bytes",
+    "B07_sha256",
+    "B07_state",
+    "B08",
+    "B09",
+    "B10"
+  ],
+  "old25_rerun": false,
+  "schema": "ri144-controls-attempt-v1",
+  "supplier_observation_is_double": true,
+  "target": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  }
+}

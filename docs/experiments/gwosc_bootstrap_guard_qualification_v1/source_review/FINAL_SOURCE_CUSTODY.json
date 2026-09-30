@@ -1,0 +1,69 @@
+{
+  "exact_namespace": [
+    "AUTHORING_RECORD.md",
+    "AUTHOR_DIAGNOSTICS.json",
+    "DEPENDENCIES.source-only.json",
+    "HANDOFF.json",
+    "METADATA_CHECK.json",
+    "PROTOCOL.md",
+    "REPAIR.diff",
+    "SOURCE_CORRESPONDENCE.json",
+    "bootstrap_controls.source-only.py",
+    "launch_controls.source-only.py"
+  ],
+  "no_current_runtime_or_subject_execution": true,
+  "schema": "ri144-independent-final-source-custody-v1",
+  "source_files": [
+    {
+      "bytes": 6702,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/AUTHORING_RECORD.md",
+      "sha256": "78cfb76dbb7c0481ad43f2b4453aecdf88b09e7661707dc74f05dc483dc8ead4"
+    },
+    {
+      "bytes": 2126,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/AUTHOR_DIAGNOSTICS.json",
+      "sha256": "aff491cfa0ca342b2d7796f7bd8d555260007efe8cdf0971e48c1156aaa82435"
+    },
+    {
+      "bytes": 162285,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/DEPENDENCIES.source-only.json",
+      "sha256": "255ee1f97126e79ad31f2d2e00bcb1b513f23422051be7b1fba99b97b8b76f5d"
+    },
+    {
+      "bytes": 9005,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/HANDOFF.json",
+      "sha256": "2c0da438ab15490d4f3c5ac4c557ef2ddedc879d8f97def7f77537fbd5588796"
+    },
+    {
+      "bytes": 11379,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/METADATA_CHECK.json",
+      "sha256": "89aafe08631a4d6ed845e13092e72c7c86ec96e4701058f1f4ad7cf9472c4b29"
+    },
+    {
+      "bytes": 20561,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/PROTOCOL.md",
+      "sha256": "e044afda87f8562b0d7dc3df8e64e022de7440f54fe5251950465c5d06591d9e"
+    },
+    {
+      "bytes": 50751,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/REPAIR.diff",
+      "sha256": "56b17379c553fd9bcb588e23a2c9d3077d032ea88490b2bd9d0f0bca30a367d1"
+    },
+    {
+      "bytes": 6859,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/SOURCE_CORRESPONDENCE.json",
+      "sha256": "91bc722477428584c004925e53db1ca9aeb8182b1c5b08dd95c807cc5eb17f0b"
+    },
+    {
+      "bytes": 20413,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/bootstrap_controls.source-only.py",
+      "sha256": "730ee9164db2b74bea0206b0222724710fb23b00b98217ff2cf4f15027929483"
+    },
+    {
+      "bytes": 26035,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/launch_controls.source-only.py",
+      "sha256": "458732fd274d525ba1fb8ac3b7985796cea0b490d964ec7ec5edf0421c6fe289"
+    }
+  ],
+  "source_packet_unchanged": true
+}

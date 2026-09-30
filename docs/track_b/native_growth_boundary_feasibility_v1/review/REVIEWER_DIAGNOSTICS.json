@@ -1,0 +1,17 @@
+{
+  "failures": [
+    {
+      "cause": "Renderer assumed every nonempty signal field was one string; F01-3 deliberately has a list of signals. Groups1/2 printed; later groups were not read by that failed command.",
+      "chunk_id": "b321d3",
+      "complete_tool_input_retained": "b321d3",
+      "correction": "Normalize only type(signal) is str; preserve list-valued rows literally.",
+      "error": "TypeError: replace() argument 1 must be str, not list",
+      "exit_code": 1,
+      "failing_fragment": "if r['signal']:s=s.replace(r['signal'],'<SIGNAL>')",
+      "operation": "Plain administrative boundary-map rendering, not subject execution",
+      "subject_executed": false,
+      "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nTypeError: replace() argument 1 must be str, not list\n"
+    }
+  ],
+  "schema": "ri143-reviewer-diagnostics-v1"
+}

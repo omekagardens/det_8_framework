@@ -1,0 +1,5011 @@
+{
+  "actual_supplier_observed": false,
+  "admission": {
+    "bytes": 2434,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+    "sha256": "71542ee3752859987992734d4e42b152afff73d73f6cac5c851ed435bd1cf965"
+  },
+  "controls": [
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B01/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B01/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": null,
+        "expected_returned_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal direct bootstrap selection",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_bytes"
+          },
+          {
+            "kind": "gate",
+            "name": "opaque evidence reference drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_lstat"
+          },
+          {
+            "kind": "gate",
+            "name": "selected interpreter state drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "interpreter_descriptor"
+          },
+          {
+            "kind": "gate",
+            "name": "direct interpreter descriptor",
+            "passed": true
+          }
+        ],
+        "first_refusal": null,
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B01/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B01/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal direct bootstrap selection",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_bytes"
+          },
+          {
+            "kind": "gate",
+            "name": "opaque evidence reference drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_lstat"
+          },
+          {
+            "kind": "gate",
+            "name": "selected interpreter state drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "interpreter_descriptor"
+          },
+          {
+            "kind": "gate",
+            "name": "direct interpreter descriptor",
+            "passed": true
+          }
+        ]
+      },
+      "id": "B01",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B02/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "bootstrap selection provenance absent from closure",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "bootstrap selection provenance absent from closure",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B02/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B02/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B02",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B03/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B03/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "metadata reference drift",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "metadata reference drift",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B03/PROVENANCE_DOUBLE.json",
+          "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B03/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B03",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B04/PROVENANCE_DOUBLE.json",
+            "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B04/PROVENANCE_DOUBLE.json",
+              "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "accepted direct bootstrap selection provenance",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "accepted direct bootstrap selection provenance",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B04/PROVENANCE_DOUBLE.json",
+          "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B04/PROVENANCE_DOUBLE.json",
+          "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B04",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B05/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B05/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "closed selected interpreter binding",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "closed selected interpreter binding",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B05/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B05/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B05",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B06/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B06/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "closed selected interpreter binding",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "closed selected interpreter binding",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "extra": true,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B06/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B06/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B06",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_path/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_path/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9.changed",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_path/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_path/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B07_path",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_resolved_path/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_resolved_path/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9.changed",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_resolved_path/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_resolved_path/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B07_resolved_path",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_symlink_chain/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_symlink_chain/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": [
+              {
+                "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9.alias",
+                "target": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9"
+              }
+            ]
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_symlink_chain/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_symlink_chain/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B07_symlink_chain",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_bytes/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_bytes/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102353,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_bytes/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_bytes/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B07_bytes",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_sha256/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_sha256/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_sha256/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_sha256/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B07_sha256",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_state/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_state/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "genuine preflight selected interpreter identity",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336346,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_state/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_state/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B07_state",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B08/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B08/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "opaque evidence reference drift",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal direct bootstrap selection",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_bytes"
+          },
+          {
+            "kind": "gate",
+            "name": "opaque evidence reference drift",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "opaque evidence reference drift",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102353,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B08/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B08/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal direct bootstrap selection",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_bytes"
+          },
+          {
+            "kind": "gate",
+            "name": "opaque evidence reference drift",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B08",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B09/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B09/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "selected interpreter state drift",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal direct bootstrap selection",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_bytes"
+          },
+          {
+            "kind": "gate",
+            "name": "opaque evidence reference drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_lstat"
+          },
+          {
+            "kind": "gate",
+            "name": "selected interpreter state drift",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "selected interpreter state drift",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "state": [
+            16777232,
+            172336346,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B09/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B09/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal direct bootstrap selection",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_bytes"
+          },
+          {
+            "kind": "gate",
+            "name": "opaque evidence reference drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_lstat"
+          },
+          {
+            "kind": "gate",
+            "name": "selected interpreter state drift",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B09",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_supplier_observed": false,
+        "baseline_binding": {
+          "bytes": 102352,
+          "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ],
+          "symlink_chain": []
+        },
+        "captured_loaded_bytes": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "complete_loaded_module": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "dependency_operand": {
+          "bootstrap_selection_provenance": {
+            "bytes": 616,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B10/PROVENANCE_DOUBLE.json",
+            "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+          },
+          "opaque_files": [
+            {
+              "bytes": 616,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B10/PROVENANCE_DOUBLE.json",
+              "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+            }
+          ],
+          "selected_bootstrap_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "expected_first_refusal": {
+          "message": "direct interpreter descriptor",
+          "type": "ValueError"
+        },
+        "expected_returned_binding": null,
+        "expected_trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal direct bootstrap selection",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_bytes"
+          },
+          {
+            "kind": "gate",
+            "name": "opaque evidence reference drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_lstat"
+          },
+          {
+            "kind": "gate",
+            "name": "selected interpreter state drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "interpreter_descriptor"
+          },
+          {
+            "kind": "gate",
+            "name": "direct interpreter descriptor",
+            "passed": false
+          }
+        ],
+        "first_refusal": {
+          "message": "direct interpreter descriptor",
+          "type": "ValueError"
+        },
+        "inputs_unchanged": true,
+        "observer_doubles": {
+          "bytes": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+          },
+          "descriptor": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9.changed",
+          "state": [
+            16777232,
+            172336345,
+            33261,
+            1,
+            102352,
+            1762508227000000000,
+            1763521990665808991
+          ]
+        },
+        "preflight_operand": {
+          "selected_interpreter_binding": {
+            "bytes": 102352,
+            "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+            "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+            "state": [
+              16777232,
+              172336345,
+              33261,
+              1,
+              102352,
+              1762508227000000000,
+              1763521990665808991
+            ],
+            "symlink_chain": []
+          }
+        },
+        "private_provenance_actual": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B10/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "private_provenance_declared": {
+          "bytes": 616,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B10/PROVENANCE_DOUBLE.json",
+          "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+        },
+        "production_authenticate_called": false,
+        "real_private_reader_parser_and_comparisons": true,
+        "returned_binding": null,
+        "substitutions": [
+          "private provenance file and closure operand",
+          "supplier byte observation",
+          "supplier lstat observation",
+          "sys.executable descriptor"
+        ],
+        "trace": [
+          {
+            "kind": "gate",
+            "name": "bootstrap selection provenance absent from closure",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "private_provenance_read"
+          },
+          {
+            "kind": "gate",
+            "name": "closed metadata FilePin",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal source/metadata path",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "bounded regular source/metadata",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata opened drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata descriptor drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata read drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "metadata reference drift",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "duplicate metadata key",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "canonical metadata framing",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "accepted direct bootstrap selection provenance",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "closed selected interpreter binding",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "genuine preflight selected interpreter identity",
+            "passed": true
+          },
+          {
+            "kind": "gate",
+            "name": "literal direct bootstrap selection",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_bytes"
+          },
+          {
+            "kind": "gate",
+            "name": "opaque evidence reference drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "supplier_lstat"
+          },
+          {
+            "kind": "gate",
+            "name": "selected interpreter state drift",
+            "passed": true
+          },
+          {
+            "kind": "observer",
+            "name": "interpreter_descriptor"
+          },
+          {
+            "kind": "gate",
+            "name": "direct interpreter descriptor",
+            "passed": false
+          }
+        ]
+      },
+      "id": "B10",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "failed": 0,
+    "passed": 15,
+    "total": 15
+  },
+  "current_runtime_qualified": false,
+  "elapsed_seconds": 0.15964666700000002,
+  "first_error": null,
+  "independent_tail_errors": [],
+  "old25_rerun": false,
+  "order": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07_path",
+    "B07_resolved_path",
+    "B07_symlink_chain",
+    "B07_bytes",
+    "B07_sha256",
+    "B07_state",
+    "B08",
+    "B09",
+    "B10"
+  ],
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls",
+  "production_authenticate_called": false,
+  "ret_paused": true,
+  "schema": "ri144-fifteen-bootstrap-control-report-v1",
+  "scientific_execution": false,
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 162285,
+      "sha256": "255ee1f97126e79ad31f2d2e00bcb1b513f23422051be7b1fba99b97b8b76f5d"
+    },
+    "bootstrap_controls.source-only.py": {
+      "bytes": 20413,
+      "sha256": "730ee9164db2b74bea0206b0222724710fb23b00b98217ff2cf4f15027929483"
+    },
+    "launch_controls.source-only.py": {
+      "bytes": 26035,
+      "sha256": "458732fd274d525ba1fb8ac3b7985796cea0b490d964ec7ec5edf0421c6fe289"
+    }
+  },
+  "status": "FIFTEEN_EXPECTATIONS_PASSED",
+  "target_handoff": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "target_module": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "checks": [
+    {
+      "error": null,
+      "id": "B01"
+    },
+    {
+      "error": null,
+      "id": "B02"
+    },
+    {
+      "error": null,
+      "id": "B03"
+    },
+    {
+      "error": null,
+      "id": "B04"
+    },
+    {
+      "error": null,
+      "id": "B05"
+    },
+    {
+      "error": null,
+      "id": "B06"
+    },
+    {
+      "error": null,
+      "id": "B07_path"
+    },
+    {
+      "error": null,
+      "id": "B07_resolved_path"
+    },
+    {
+      "error": null,
+      "id": "B07_symlink_chain"
+    },
+    {
+      "error": null,
+      "id": "B07_bytes"
+    },
+    {
+      "error": null,
+      "id": "B07_sha256"
+    },
+    {
+      "error": null,
+      "id": "B07_state"
+    },
+    {
+      "error": null,
+      "id": "B08"
+    },
+    {
+      "error": null,
+      "id": "B09"
+    },
+    {
+      "error": null,
+      "id": "B10"
+    }
+  ],
+  "report": {
+    "bytes": 162784,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/REPORT.json",
+    "sha256": "230f968c82ebd099d7cd0f5e88ff654b78ff7801f11eb343c02f0616fc273dc0"
+  }
+}

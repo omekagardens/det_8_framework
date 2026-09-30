@@ -1,0 +1,1956 @@
+{
+  "schema": "ri143-f01-boundary-feasibility-v1",
+  "status": "BLOCKED_DESIGN_SOURCE_ANALYSIS_ONLY",
+  "scope": {
+    "expanded_f01_variants": 23,
+    "f01_executions": 0,
+    "controller_created": false,
+    "fixtures_created": false,
+    "subject_import_compile_ast_probe_run": false,
+    "source_or_module_global_changed": false,
+    "runtime_inventory_or_capture": false,
+    "operational_cards_created": false,
+    "scientific_execution": false,
+    "repository_or_git_modified": false,
+    "execution_admitted": false,
+    "platform_impossibility_claim": false
+  },
+  "sources": {
+    "launcher": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "bytes": 60009,
+      "sha256": "a0526720e530caa529499ff4d6e9e9794462fb50a1975232eb229e37d683828d"
+    },
+    "collector": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "bytes": 43838,
+      "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+    },
+    "design": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/FOCUSED_QUALIFICATION_DESIGN.md",
+      "bytes": 8969,
+      "sha256": "d7be9dec61b3588af4e271afe4bfaea60060a4b6486f7cf229c60e3f33401107"
+    },
+    "root_decision": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI140_ROOT_ADJUDICATION.json",
+      "bytes": 5028,
+      "sha256": "c6611c3e7ae4d915dbef12d37cafcbd9ec714eb76a66fb84815a9ed2968b0481"
+    }
+  },
+  "inherited_contract": {
+    "whole_focused_cap": 31,
+    "f01_cap": 23,
+    "f02_cap": 8,
+    "attempts_per_expanded_variant": 1,
+    "retries": 0,
+    "parent_seconds": 840,
+    "child_seconds": 120,
+    "cleanup_inside_child_seconds": 2,
+    "census_milliseconds": 250,
+    "sampled_group_rss_bytes": 536870912,
+    "stream_bytes_each": 8388608,
+    "auxiliary_bytes": 67108864,
+    "metadata_before_after_final_seconds": [
+      60,
+      300,
+      300,
+      60
+    ]
+  },
+  "interpretation": {
+    "blocked_design": "No justified available unchanged-subject mechanism under current premises; not a theorem of platform-wide impossibility.",
+    "candidate": "Specific additional capabilities requiring root admissibility and supplier/runtime/source custody; no availability claim or hidden fault controller.",
+    "signal_events": "OS send, OS pending, low-level delivery and actual Python callback execution are distinct evidence events.",
+    "fault_provenance": "Natural failed operation, externally caused actual host fault, and substituted operation result must be labeled separately. A fabricated errno is not an observed genuine host fault.",
+    "boundary_failure": "A missed or earlier guard remains retained unresolved/failure, never replaced by a retry or a different gate.",
+    "source_acceptance": "RI140 exact repair source accepted with prerequisites, not fault qualification or policy/science acceptance."
+  },
+  "common_required_evidence": [
+    "Genuine root admission, exact literal dispatch and actual terminal tool history; no source-shaped card proves origin.",
+    "Authenticated source/interpreter/observer supplier pins and complete before/after frozen custody; no rebaseline to changed data.",
+    "Independent boundary trace binds process/thread, instruction/call, named path/fd/object and monotonic order; source line is only a location locator.",
+    "Actual applicable full after inventory attempts for owned ordinary failure; honest missing evidence for hard abort or truly preownership failure.",
+    "Independent chronological error evidence plus original raw partials; provisional receipts alone cannot certify late restoration outcomes.",
+    "Observer/stop time remains within all original budgets; no unreviewed extra logging, allowance or target pause exemption."
+  ],
+  "rows": [
+    {
+      "id": "F01-1-SIGTERM",
+      "scenario": "F01-1",
+      "signal": "SIGTERM",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 218,
+          "end_line": 267
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 512,
+          "end_line": 520
+        }
+      ],
+      "boundary_state_predicate": "Marker exclusive open has returned a real new fd; STORE into this sink.fd has not occurred; acquisition.deferring is true; owner.owned is false.",
+      "required_independent_observable": {
+        "boundary": "Read-only instruction/frame witness ties the actual successful marker open and returned fd to the still-None sink.fd and exact suspended assignment, then locates actual Python handler execution before that assignment.",
+        "fault": "An OS-origin SIGTERM and later actual launcher signal_received execution in the named interval; neither send time nor OS pending alone proves the Python callback point.",
+        "consequence": "After resumption, same fd stored and same Phase.owned set before ordinary refusal; independent close attempts and complete frozen after-inventory attempts; outer failure and immutable subject pins."
+      },
+      "cause_order": {
+        "earlier": "No earlier failure in the selected representative trace.",
+        "origin": "The stable acquisition.pending Refused for SIGTERM.",
+        "later": "Close/custody errors stay later; Phase.add_receipt wraps the origin in a durability Refused without changing causal order."
+      },
+      "candidate_unchanged_source_mechanism": "Conditionally stop at a nonpatching native instruction boundary around the pinned interpreter's return-to-assignment transition, send the real OS signal, and trace actual Python callback, fd store and owner store without replacing code, globals, registers carrying operation results, or receipts.",
+      "actual_blockers": [
+        "No pinned interpreter instruction/object map or qualified nonpatching stop/trace facility is supplied.",
+        "Python callback scheduling at this pre-STORE boundary is not established; a kernel-return stop plus kill can resume too late.",
+        "No independent fd/ownership/after trace or admitted supplier exists."
+      ],
+      "minimum_additional_premises": [
+        "Authenticated read-only instruction/object observer for this exact runtime and OS signal-delivery/handler trace.",
+        "Demonstration that actual handler entry is possible before the specific STORE without changing subject semantics; otherwise retain this row unresolved.",
+        "Root authorization and original custody/budgets for the observer and real signal operation.",
+        "The pinned interpreter must have a legal evaluation/signal-checkpoint opportunity for actual Python callback execution in this exact interval. A stop plus OS send cannot create that opportunity or justify an artificial handler call."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "Refused",
+        "origin_message_template": "launcher interrupted by signal <actual numeric SIGTERM>",
+        "outer_success": false
+      },
+      "invalid_shortcut": "A successful kill, a file appearance, a source line breakpoint or final SIGNALS entry does not locate the handler before Python fd assignment.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "The exact current PREPARE_STARTED marker is absent, constructor completed and local sink is recoverable, exclusive marker open succeeded, and no earlier exception exists.",
+          "Actual Python handler checkpoint before sink.fd store must exist and be independently demonstrated; kernel signal timing alone is insufficient.",
+          "All intermediate operations reach protected context exit; cleanup may fail only as separately retained later evidence."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "The stable pending Refused is raised by AcquisitionSignals.interrupt after registration, message 'launcher interrupted by signal <actual numeric signal>'.",
+          "first_receipt": "write_new catches it as the first exclusive-write error; known-fd close follows.",
+          "first_owned_record": "Phase.add_receipt records the receipt origin as a durability Refused before the later 'phase claim could not be durably completed' refusal.",
+          "owned": true
+        },
+        "earlier_refusal_not_credit": "Any authentication, namespace, constructor/time guard or open failure before the successful marker open is a different earlier boundary.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-1-SIGINT",
+      "scenario": "F01-1",
+      "signal": "SIGINT",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 218,
+          "end_line": 267
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 512,
+          "end_line": 520
+        }
+      ],
+      "boundary_state_predicate": "Marker exclusive open has returned a real new fd; STORE into this sink.fd has not occurred; acquisition.deferring is true; owner.owned is false.",
+      "required_independent_observable": {
+        "boundary": "Read-only instruction/frame witness ties the actual successful marker open and returned fd to the still-None sink.fd and exact suspended assignment, then locates actual Python handler execution before that assignment.",
+        "fault": "An OS-origin SIGINT and later actual launcher signal_received execution in the named interval; neither send time nor OS pending alone proves the Python callback point.",
+        "consequence": "After resumption, same fd stored and same Phase.owned set before ordinary refusal; independent close attempts and complete frozen after-inventory attempts; outer failure and immutable subject pins."
+      },
+      "cause_order": {
+        "earlier": "No earlier failure in the selected representative trace.",
+        "origin": "The stable acquisition.pending Refused for SIGINT.",
+        "later": "Close/custody errors stay later; Phase.add_receipt wraps the origin in a durability Refused without changing causal order."
+      },
+      "candidate_unchanged_source_mechanism": "Conditionally stop at a nonpatching native instruction boundary around the pinned interpreter's return-to-assignment transition, send the real OS signal, and trace actual Python callback, fd store and owner store without replacing code, globals, registers carrying operation results, or receipts.",
+      "actual_blockers": [
+        "No pinned interpreter instruction/object map or qualified nonpatching stop/trace facility is supplied.",
+        "Python callback scheduling at this pre-STORE boundary is not established; a kernel-return stop plus kill can resume too late.",
+        "No independent fd/ownership/after trace or admitted supplier exists."
+      ],
+      "minimum_additional_premises": [
+        "Authenticated read-only instruction/object observer for this exact runtime and OS signal-delivery/handler trace.",
+        "Demonstration that actual handler entry is possible before the specific STORE without changing subject semantics; otherwise retain this row unresolved.",
+        "Root authorization and original custody/budgets for the observer and real signal operation.",
+        "The pinned interpreter must have a legal evaluation/signal-checkpoint opportunity for actual Python callback execution in this exact interval. A stop plus OS send cannot create that opportunity or justify an artificial handler call."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "Refused",
+        "origin_message_template": "launcher interrupted by signal <actual numeric SIGINT>",
+        "outer_success": false
+      },
+      "invalid_shortcut": "A successful kill, a file appearance, a source line breakpoint or final SIGNALS entry does not locate the handler before Python fd assignment.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "The exact current PREPARE_STARTED marker is absent, constructor completed and local sink is recoverable, exclusive marker open succeeded, and no earlier exception exists.",
+          "Actual Python handler checkpoint before sink.fd store must exist and be independently demonstrated; kernel signal timing alone is insufficient.",
+          "All intermediate operations reach protected context exit; cleanup may fail only as separately retained later evidence."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "The stable pending Refused is raised by AcquisitionSignals.interrupt after registration, message 'launcher interrupted by signal <actual numeric signal>'.",
+          "first_receipt": "write_new catches it as the first exclusive-write error; known-fd close follows.",
+          "first_owned_record": "Phase.add_receipt records the receipt origin as a durability Refused before the later 'phase claim could not be durably completed' refusal.",
+          "owned": true
+        },
+        "earlier_refusal_not_credit": "Any authentication, namespace, constructor/time guard or open failure before the successful marker open is a different earlier boundary.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-1-SIGHUP",
+      "scenario": "F01-1",
+      "signal": "SIGHUP",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 218,
+          "end_line": 267
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 512,
+          "end_line": 520
+        }
+      ],
+      "boundary_state_predicate": "Marker exclusive open has returned a real new fd; STORE into this sink.fd has not occurred; acquisition.deferring is true; owner.owned is false.",
+      "required_independent_observable": {
+        "boundary": "Read-only instruction/frame witness ties the actual successful marker open and returned fd to the still-None sink.fd and exact suspended assignment, then locates actual Python handler execution before that assignment.",
+        "fault": "An OS-origin SIGHUP and later actual launcher signal_received execution in the named interval; neither send time nor OS pending alone proves the Python callback point.",
+        "consequence": "After resumption, same fd stored and same Phase.owned set before ordinary refusal; independent close attempts and complete frozen after-inventory attempts; outer failure and immutable subject pins."
+      },
+      "cause_order": {
+        "earlier": "No earlier failure in the selected representative trace.",
+        "origin": "The stable acquisition.pending Refused for SIGHUP.",
+        "later": "Close/custody errors stay later; Phase.add_receipt wraps the origin in a durability Refused without changing causal order."
+      },
+      "candidate_unchanged_source_mechanism": "Conditionally stop at a nonpatching native instruction boundary around the pinned interpreter's return-to-assignment transition, send the real OS signal, and trace actual Python callback, fd store and owner store without replacing code, globals, registers carrying operation results, or receipts.",
+      "actual_blockers": [
+        "No pinned interpreter instruction/object map or qualified nonpatching stop/trace facility is supplied.",
+        "Python callback scheduling at this pre-STORE boundary is not established; a kernel-return stop plus kill can resume too late.",
+        "No independent fd/ownership/after trace or admitted supplier exists."
+      ],
+      "minimum_additional_premises": [
+        "Authenticated read-only instruction/object observer for this exact runtime and OS signal-delivery/handler trace.",
+        "Demonstration that actual handler entry is possible before the specific STORE without changing subject semantics; otherwise retain this row unresolved.",
+        "Root authorization and original custody/budgets for the observer and real signal operation.",
+        "The pinned interpreter must have a legal evaluation/signal-checkpoint opportunity for actual Python callback execution in this exact interval. A stop plus OS send cannot create that opportunity or justify an artificial handler call."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "Refused",
+        "origin_message_template": "launcher interrupted by signal <actual numeric SIGHUP>",
+        "outer_success": false
+      },
+      "invalid_shortcut": "A successful kill, a file appearance, a source line breakpoint or final SIGNALS entry does not locate the handler before Python fd assignment.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "The exact current PREPARE_STARTED marker is absent, constructor completed and local sink is recoverable, exclusive marker open succeeded, and no earlier exception exists.",
+          "Actual Python handler checkpoint before sink.fd store must exist and be independently demonstrated; kernel signal timing alone is insufficient.",
+          "All intermediate operations reach protected context exit; cleanup may fail only as separately retained later evidence."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "The stable pending Refused is raised by AcquisitionSignals.interrupt after registration, message 'launcher interrupted by signal <actual numeric signal>'.",
+          "first_receipt": "write_new catches it as the first exclusive-write error; known-fd close follows.",
+          "first_owned_record": "Phase.add_receipt records the receipt origin as a durability Refused before the later 'phase claim could not be durably completed' refusal.",
+          "owned": true
+        },
+        "earlier_refusal_not_credit": "Any authentication, namespace, constructor/time guard or open failure before the successful marker open is a different earlier boundary.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-2-SIGTERM",
+      "scenario": "F01-2",
+      "signal": "SIGTERM",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 229,
+          "end_line": 267
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        }
+      ],
+      "boundary_state_predicate": "The new marker fd is already in the local sink.fd; the protected finally has not assigned owner.owned=True; acquisition remains deferring.",
+      "required_independent_observable": {
+        "boundary": "Read-only object identities and instruction position demonstrate sink.fd is the real acquired descriptor, owner.owned is false, and actual Python handler executes before line267's store.",
+        "fault": "Actual SIGTERM handler execution, not merely OS send or pending status, in that store-to-store interval.",
+        "consequence": "Same owner transitions true before pending refusal; close and complete after-inventory independently attempted; origin preserved through receipt wrapping."
+      },
+      "cause_order": {
+        "earlier": "None in representative trace.",
+        "origin": "Stable pending acquisition Refused for SIGTERM.",
+        "later": "Independent close, postchecks and phase-wrapper errors; none may rewrite the underlying signal cause."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching interpreter instruction stops and read-only state inspection across the fd STORE and owner STORE, with a real externally delivered ordinary signal and observed callback/resumption.",
+      "actual_blockers": [
+        "A line-level stop cannot separate both state writes reliably.",
+        "No available facility or exact runtime state layout has been admitted; actual Python callback opportunity between stores remains unproved."
+      ],
+      "minimum_additional_premises": [
+        "Exact pinned-runtime instruction/object-state discrimination between the two stores.",
+        "Actual callback-entry trace and stable owner/fd identities.",
+        "Original external admission/custody and bounded observer completion.",
+        "The pinned interpreter must have a legal evaluation/signal-checkpoint opportunity for actual Python callback execution in this exact interval. A stop plus OS send cannot create that opportunity or justify an artificial handler call."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "Refused",
+        "origin_message_template": "launcher interrupted by signal <actual numeric SIGTERM>",
+        "outer_success": false
+      },
+      "invalid_shortcut": "Seeing fd present at a later breakpoint or owner true in a final receipt does not prove delivery before ownership.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "The exact current PREPARE_STARTED marker is absent, constructor completed and local sink is recoverable, exclusive marker open succeeded, and no earlier exception exists.",
+          "Actual Python handler checkpoint after sink.fd store and before owner.owned store must exist and be independently demonstrated.",
+          "All intermediate operations reach protected context exit; cleanup may fail only as separately retained later evidence."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "The stable pending Refused is raised by AcquisitionSignals.interrupt after registration, message 'launcher interrupted by signal <actual numeric signal>'.",
+          "first_receipt": "write_new catches it as the first exclusive-write error; known-fd close follows.",
+          "first_owned_record": "Phase.add_receipt records the receipt origin as a durability Refused before the later 'phase claim could not be durably completed' refusal.",
+          "owned": true
+        },
+        "earlier_refusal_not_credit": "Any authentication, namespace, constructor/time guard or open failure before the successful marker open is a different earlier boundary.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-2-SIGINT",
+      "scenario": "F01-2",
+      "signal": "SIGINT",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 229,
+          "end_line": 267
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        }
+      ],
+      "boundary_state_predicate": "The new marker fd is already in the local sink.fd; the protected finally has not assigned owner.owned=True; acquisition remains deferring.",
+      "required_independent_observable": {
+        "boundary": "Read-only object identities and instruction position demonstrate sink.fd is the real acquired descriptor, owner.owned is false, and actual Python handler executes before line267's store.",
+        "fault": "Actual SIGINT handler execution, not merely OS send or pending status, in that store-to-store interval.",
+        "consequence": "Same owner transitions true before pending refusal; close and complete after-inventory independently attempted; origin preserved through receipt wrapping."
+      },
+      "cause_order": {
+        "earlier": "None in representative trace.",
+        "origin": "Stable pending acquisition Refused for SIGINT.",
+        "later": "Independent close, postchecks and phase-wrapper errors; none may rewrite the underlying signal cause."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching interpreter instruction stops and read-only state inspection across the fd STORE and owner STORE, with a real externally delivered ordinary signal and observed callback/resumption.",
+      "actual_blockers": [
+        "A line-level stop cannot separate both state writes reliably.",
+        "No available facility or exact runtime state layout has been admitted; actual Python callback opportunity between stores remains unproved."
+      ],
+      "minimum_additional_premises": [
+        "Exact pinned-runtime instruction/object-state discrimination between the two stores.",
+        "Actual callback-entry trace and stable owner/fd identities.",
+        "Original external admission/custody and bounded observer completion.",
+        "The pinned interpreter must have a legal evaluation/signal-checkpoint opportunity for actual Python callback execution in this exact interval. A stop plus OS send cannot create that opportunity or justify an artificial handler call."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "Refused",
+        "origin_message_template": "launcher interrupted by signal <actual numeric SIGINT>",
+        "outer_success": false
+      },
+      "invalid_shortcut": "Seeing fd present at a later breakpoint or owner true in a final receipt does not prove delivery before ownership.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "The exact current PREPARE_STARTED marker is absent, constructor completed and local sink is recoverable, exclusive marker open succeeded, and no earlier exception exists.",
+          "Actual Python handler checkpoint after sink.fd store and before owner.owned store must exist and be independently demonstrated.",
+          "All intermediate operations reach protected context exit; cleanup may fail only as separately retained later evidence."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "The stable pending Refused is raised by AcquisitionSignals.interrupt after registration, message 'launcher interrupted by signal <actual numeric signal>'.",
+          "first_receipt": "write_new catches it as the first exclusive-write error; known-fd close follows.",
+          "first_owned_record": "Phase.add_receipt records the receipt origin as a durability Refused before the later 'phase claim could not be durably completed' refusal.",
+          "owned": true
+        },
+        "earlier_refusal_not_credit": "Any authentication, namespace, constructor/time guard or open failure before the successful marker open is a different earlier boundary.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-2-SIGHUP",
+      "scenario": "F01-2",
+      "signal": "SIGHUP",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 229,
+          "end_line": 267
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        }
+      ],
+      "boundary_state_predicate": "The new marker fd is already in the local sink.fd; the protected finally has not assigned owner.owned=True; acquisition remains deferring.",
+      "required_independent_observable": {
+        "boundary": "Read-only object identities and instruction position demonstrate sink.fd is the real acquired descriptor, owner.owned is false, and actual Python handler executes before line267's store.",
+        "fault": "Actual SIGHUP handler execution, not merely OS send or pending status, in that store-to-store interval.",
+        "consequence": "Same owner transitions true before pending refusal; close and complete after-inventory independently attempted; origin preserved through receipt wrapping."
+      },
+      "cause_order": {
+        "earlier": "None in representative trace.",
+        "origin": "Stable pending acquisition Refused for SIGHUP.",
+        "later": "Independent close, postchecks and phase-wrapper errors; none may rewrite the underlying signal cause."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching interpreter instruction stops and read-only state inspection across the fd STORE and owner STORE, with a real externally delivered ordinary signal and observed callback/resumption.",
+      "actual_blockers": [
+        "A line-level stop cannot separate both state writes reliably.",
+        "No available facility or exact runtime state layout has been admitted; actual Python callback opportunity between stores remains unproved."
+      ],
+      "minimum_additional_premises": [
+        "Exact pinned-runtime instruction/object-state discrimination between the two stores.",
+        "Actual callback-entry trace and stable owner/fd identities.",
+        "Original external admission/custody and bounded observer completion.",
+        "The pinned interpreter must have a legal evaluation/signal-checkpoint opportunity for actual Python callback execution in this exact interval. A stop plus OS send cannot create that opportunity or justify an artificial handler call."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "Refused",
+        "origin_message_template": "launcher interrupted by signal <actual numeric SIGHUP>",
+        "outer_success": false
+      },
+      "invalid_shortcut": "Seeing fd present at a later breakpoint or owner true in a final receipt does not prove delivery before ownership.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "The exact current PREPARE_STARTED marker is absent, constructor completed and local sink is recoverable, exclusive marker open succeeded, and no earlier exception exists.",
+          "Actual Python handler checkpoint after sink.fd store and before owner.owned store must exist and be independently demonstrated.",
+          "All intermediate operations reach protected context exit; cleanup may fail only as separately retained later evidence."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "The stable pending Refused is raised by AcquisitionSignals.interrupt after registration, message 'launcher interrupted by signal <actual numeric signal>'.",
+          "first_receipt": "write_new catches it as the first exclusive-write error; known-fd close follows.",
+          "first_owned_record": "Phase.add_receipt records the receipt origin as a durability Refused before the later 'phase claim could not be durably completed' refusal.",
+          "owned": true
+        },
+        "earlier_refusal_not_credit": "Any authentication, namespace, constructor/time guard or open failure before the successful marker open is a different earlier boundary.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-3",
+      "scenario": "F01-3",
+      "signal": [
+        "SIGTERM",
+        "SIGINT"
+      ],
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 229,
+          "end_line": 245
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        }
+      ],
+      "boundary_state_predicate": "One finite representative pair: SIGTERM handler runs while acquisition defers; SIGINT handler runs across exit/context clear while that same pending Refused is actively handled.",
+      "required_independent_observable": {
+        "boundary": "Independent ordered instruction/object trace of both actual handler executions, one pending exception object, ACQUISITION_PRIMARY identity, context clear, and same active exception in write_new's handler.",
+        "fault": "Two actual distinct callbacks in the prescribed states; OS standard-signal coalescing or a sent-count is not callback evidence.",
+        "consequence": "Both signal records retained; original exception identity remains primary; registered fd/owner recovered, independent cleanup and full after attempt, no extended clock."
+      },
+      "cause_order": {
+        "earlier": "None; if an earlier error is introduced accidentally, it must remain first and this selected trace is not reached as designed.",
+        "origin": "First SIGTERM pending Refused object.",
+        "later": "Second SIGINT is a recorded interruption, not a replacement primary; cleanup failures remain later."
+      },
+      "candidate_unchanged_source_mechanism": "Two externally originated real signals with independent callback handshakes supplied only by nonpatching observation, not sleeps or subject hooks; second release depends on observed exact exception identity across exit.",
+      "actual_blockers": [
+        "No deterministic callback/exception-identity observer exists in the admitted packet.",
+        "The finite pair is a candidate representative, not an exhaustive repeated-signal scheduler proof; root must fix that pair in any future admission."
+      ],
+      "minimum_additional_premises": [
+        "Independent object-identity and event-order evidence spanning context exit and active-exception handling.",
+        "A finite real-signal schedule demonstrating actual callbacks without changing globals or inserting delays in subject source."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "Refused",
+        "origin_message_template": "launcher interrupted by signal <actual numeric SIGTERM>",
+        "second_replaces_primary": false,
+        "outer_success": false
+      },
+      "invalid_shortcut": "Repeated kill calls without callback order, or a second signal after the primary is no longer active, do not establish the requested preservation.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "Successful absent-marker acquisition and same-owner registration, no earlier error.",
+          "Both actual Python callbacks must occur in the specified deferral/active-primary states; successful sends alone do not establish them.",
+          "The second callback occurs while the first exact acquisition exception is active, not after its handler ends."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "One stable first pending Refused from the SIGTERM representative; the later SIGINT callback records but must not replace that exact primary.",
+          "first_receipt": "Original pending exception appears as exclusive-write receipt origin and subsequently as a durability wrapper; both actual signal records remain.",
+          "owned": true
+        },
+        "earlier_refusal_not_credit": "A second signal delivered after the first exception ceases to be active, or before the intended acquisition, does not test exact-primary preservation.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-4",
+      "scenario": "F01-4",
+      "signal": "ONE_ORDINARY_SIGNAL_TO_BE_ADMITTED",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 229,
+          "end_line": 267
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 512,
+          "end_line": 520
+        }
+      ],
+      "boundary_state_predicate": "The exact marker os.open fails with a real operation error; an ordinary callback has been recorded during the active failing acquisition; fd remains None and owner remains false.",
+      "required_independent_observable": {
+        "boundary": "Independent operation identity/path/flags, no-created-fd result, error provenance and callback timing in the same acquisition; inspect exact original exception identity leaving the context.",
+        "fault": "Natural OS denial is distinguished from a supplier-injected operation result. Candidate real permissions/storage denial must be established after earlier authentication/namespace checks, not assumed effective.",
+        "consequence": "No close receipt for a nonexistent descriptor, no owned after-completion claim; original open error survives pending signal and appears inside the unclaimed-phase refusal. The original error is in the local write_new receipt and Refused wrapper, not an owned first_error artifact; terminal text may truncate, so the external origin/error trace must retain full bounded relevant details."
+      },
+      "cause_order": {
+        "earlier": "None in selected trace.",
+        "origin": "Actual open exception (errno/type/message determined by observed host failure, not invented now).",
+        "later": "Ordinary pending signal is retained without replacing it; Phase.claim wraps receipt errors in preownership Refused."
+      },
+      "candidate_unchanged_source_mechanism": "Conditionally induce a narrowly scoped real filesystem open denial on the operational marker, synchronize a real ordinary signal during that exact call, and externally trace its OS/Python failure boundary. An injected errno result is a distinct intervention requiring explicit approval, not a natural fault.",
+      "actual_blockers": [
+        "No authorized selective real denial or callback synchronization capability is supplied.",
+        "A denial set before launch can fail earlier path/namespace work; a failure after successful open is the wrong boundary."
+      ],
+      "minimum_additional_premises": [
+        "Independent actual open-return/error/no-fd evidence plus callback occurrence in that acquisition.",
+        "Root-admitted fault provenance and narrow operational path permissions/storage transition that does not alter sealed supplier/runtime inputs."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "OBSERVED_OPEN_EXCEPTION_NOT_FIXED",
+        "origin_message": null,
+        "outer_type": "Refused",
+        "outer_message_prefix": "phase was not claimed: ",
+        "owned": false
+      },
+      "invalid_shortcut": "An earlier missing-path/authentication failure, mocked OSError, or final no-marker state does not prove this coupled open-failure case.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "All preclaim authentication, namespace and constructor checks passed; acquire's deferral is active.",
+          "The marker open itself fails before returning any fd, while a real ordinary callback has been recorded in that acquisition.",
+          "No unrelated earlier error; exact natural or induced-host fault provenance must be observed, not a fabricated errno."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "The actual os.open exception is the original protected-body exception; its type/errno/message are not source-fixed.",
+          "first_receipt": "write_new catches that open exception in receipt.errors; the pending signal does not replace it.",
+          "first_uncaught_claim_refusal": "Phase.claim raises Refused with prefix 'phase was not claimed: ' and serialized receipt errors; the terminal wrapper can truncate.",
+          "owned": false,
+          "no_owned_first_error_or_journal_promised": true
+        },
+        "earlier_refusal_not_credit": "A permissions/path change that first fails authentication, namespace, constructor nonsymlink or earlier path checks never reaches the target os.open.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-5",
+      "scenario": "F01-5",
+      "signal": null,
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 250,
+          "end_line": 255
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 512,
+          "end_line": 520
+        }
+      ],
+      "boundary_state_predicate": "Safe constructor initialization fails before acquire is called; representative target is the SHA256 accumulator initialization on line253, before any marker open.",
+      "required_independent_observable": {
+        "boundary": "Read-only call/exception trace identifies the actual constructor operation failing; syscall trace proves no marker open was issued and owner.owned stayed false.",
+        "fault": "Actual initialization exception from an authenticated allocator/library failure mechanism; changing the hash function or simply fabricating MemoryError is not equivalent.",
+        "consequence": "No acquired marker/fd, no fabricated close or owned result; explicit preownership refusal preserves the initializer failure."
+      },
+      "cause_order": {
+        "earlier": "None.",
+        "origin": "Actual constructor initialization error, type/message not presently specified by an available supplier.",
+        "later": "Phase.claim unclaimed wrapper; no close error should be fabricated for an unopened sink."
+      },
+      "candidate_unchanged_source_mechanism": "A selectively failing actual runtime allocation/library operation at the accumulator creation is a conceptual unchanged-Python-source candidate; no such supplier is presently established. A constructor path/time guard is a different chosen boundary and cannot silently replace this representative.",
+      "actual_blockers": [
+        "No genuine selective initializer-fault capability or isolated natural failure condition is available.",
+        "Global memory exhaustion would introduce uncontrolled earlier failures and cannot locate this initialization."
+      ],
+      "minimum_additional_premises": [
+        "Root-admissible actual allocation/library failure at the identified operation, with supplier pins and truthful intervention label.",
+        "Independent exception provenance and absence-of-open evidence without changing interpreter/subject functions."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "OBSERVED_INITIALIZER_EXCEPTION_NOT_FIXED",
+        "origin_message": null,
+        "outer_message_prefix": "phase was not claimed: ",
+        "owned": false
+      },
+      "invalid_shortcut": "A missing initial input, expired earlier guard, monkeypatched sha256, or subject error label is not a located initializer failure.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "Genuine entry reaches the first marker's DurableSink constructor after prior checks.",
+          "Chosen representative is actual failure of accumulator initialization at line253, before acquire/open; no broader host failure may silently replace it."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "Actual initializer operation exception, not source-fixed; a fabricated MemoryError is not evidence.",
+          "first_receipt": "write_new records the constructor exception; there is no sink/fd close receipt.",
+          "first_uncaught_claim_refusal": "Refused prefix 'phase was not claimed: ' containing the constructor error.",
+          "owned": false,
+          "no_owned_first_error_or_journal_promised": true
+        },
+        "earlier_refusal_not_credit": "A failed initial ROOT_PLAN/source read, earlier expired deadline, or altered constructor argument is not this initializer boundary.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-6",
+      "scenario": "F01-6",
+      "signal": null,
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 269,
+          "end_line": 304
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 512,
+          "end_line": 520
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 569,
+          "end_line": 579
+        }
+      ],
+      "boundary_state_predicate": "First marker append's actual os.write at line276 fails after fd/owner acquisition; the independent os.close operation at line293 also genuinely fails.",
+      "required_independent_observable": {
+        "boundary": "Exact marker descriptor identity, first write call/error, subsequent distinct close call/error and ordered receipt records; prove owner was already true before either failure.",
+        "fault": "Two observed operation failures with supplier provenance, not one generic write-failure label reused as close evidence.",
+        "consequence": "Origin append error precedes close error; all four close stages independently attempted as applicable and complete frozen after inventory attempted; raw partial/zero bytes and resulting missing evidence retained."
+      },
+      "cause_order": {
+        "earlier": "None in representative trace.",
+        "origin": "Observed first marker write exception.",
+        "later": "Observed close exception and any later readback/directory-sync/custody failures."
+      },
+      "candidate_unchanged_source_mechanism": "Conceptual selective real write-denial plus independently witnessed close-failure supplier scoped to the marker descriptor. External fd revocation or forced return substitution would be explicitly labeled interventions and require separate root admissibility; neither is assumed a natural fault.",
+      "actual_blockers": [
+        "No mechanism establishes both chosen operation failures while preserving accepted source/FD semantics and earlier guards.",
+        "A full disk, permission change or failed fsync alone cannot establish a close error or the selected first-write failure."
+      ],
+      "minimum_additional_premises": [
+        "Authenticated selective two-operation fault capability with real call/return trace and exact fd provenance.",
+        "Evidence that cleanup still invokes independent operations and after inventory under original budgets."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "OBSERVED_WRITE_EXCEPTION_NOT_FIXED",
+        "later_type": "OBSERVED_CLOSE_EXCEPTION_NOT_FIXED",
+        "outer_success": false,
+        "owned": true
+      },
+      "invalid_shortcut": "A single persistence error, a mocked close, or only an eventual receipt error does not prove the paired faults.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "Marker constructor/open/owner registration succeeded; first append has not yet written its selected bytes.",
+          "Actual first marker os.write fails and the later independent os.close on that same registered fd also fails; both operations are independently identified."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "Observed first marker write exception; actual errno/message are not fixed by source.",
+          "first_receipt": "exclusive-write origin is appended before sink-close failure in the same receipt.",
+          "first_owned_record": "First receipt error becomes durability first_error; close and 'phase claim could not be durably completed' are later.",
+          "owned": true
+        },
+        "earlier_refusal_not_credit": "Open failure is preownership and wrong; later fsync failure, an error-journal write, or close failure alone does not prove paired first-append/close faults.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-7",
+      "scenario": "F01-7",
+      "signal": null,
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 522,
+          "end_line": 555
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 569,
+          "end_line": 579
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 965,
+          "end_line": 970
+        }
+      ],
+      "boundary_state_predicate": "During an already-owned phase, the selected BEFORE observation journal's exclusive open fails; all original frozen observation rows still enter observation and failing-sink handling.",
+      "required_independent_observable": {
+        "boundary": "Proof marker ownership preceded the selected journal call; genuine open error/no journal fd; independent per-row entry/operation and evidence-attempt trace against the exact frozen spec, including later rows and after inventory.",
+        "fault": "A one-shot real journal-name collision created only after initial namespace validation and before this open is a concrete filesystem candidate; distinguish it from an earlier namespace rejection.",
+        "consequence": "Failing-sink errors create no fake durable ranges; complete inventory is attempted even without a journal; later after attempts are independently visible rather than inferred from the summary."
+      },
+      "cause_order": {
+        "earlier": "Successful phase claim.",
+        "origin": "Actual selected observation-journal open error.",
+        "later": "Per-row journal-unavailable errors, incomplete-summary refusal and any after/close errors."
+      },
+      "candidate_unchanged_source_mechanism": "Conditionally create a new operational BEFORE journal collision at an independently stopped post-ownership/pre-journal-open boundary; externally observe the unchanged exclusive open and every frozen loop row.",
+      "actual_blockers": [
+        "No post-auth synchronization or admitted operational race exists.",
+        "With journal absent, the subject summary alone is insufficient independent evidence of every observation; no suitable per-row observer or performance evidence exists."
+      ],
+      "minimum_additional_premises": [
+        "Real exclusive external name creation with pinned identity and no source/runtime mutation.",
+        "Read-only per-row control-flow/actual operation trace against original immutable expectations, within existing custody time/output caps."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "OBSERVED_OPEN_EXCEPTION_NOT_FIXED",
+        "failing_sink_message_prefix": "journal unavailable: ",
+        "owned": true,
+        "outer_success": false
+      },
+      "invalid_shortcut": "Preseeding the journal before initial namespace validation, or trusting a complete-looking summary without per-row evidence, does not qualify this boundary.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "Successful marker claim, persisted PREPARE_EXPECTATIONS and owned Phase; BEFORE journal is reached after earlier initial namespace validation.",
+          "The selected BEFORE journal genuinely cannot open; its external collision must be inserted only after that earlier namespace check.",
+          "Original frozen observation spec is retained; every row must be independently witnessed despite missing journal ranges."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "Actual BEFORE-journal open exception from acquire; errno/message depend on observed operation.",
+          "first_owned_record": "Phase.fail records PREPARE_BEFORE-open before failed_sink raises 'journal unavailable: ' for rows.",
+          "later": "Incomplete summary check can raise 'PREPARE_BEFORE complete custody did not match'; complete-before gate and after failures remain later.",
+          "owned": true
+        },
+        "earlier_refusal_not_credit": "A journal preseeded at launch reaches 'operational namespace has absent/unexpected artifacts' before claim; that does not qualify a failed journal open in an owned phase.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-8",
+      "scenario": "F01-8",
+      "signal": null,
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 333,
+          "end_line": 348
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 264,
+          "end_line": 267
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 512,
+          "end_line": 520
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 951,
+          "end_line": 965
+        }
+      ],
+      "boundary_state_predicate": "Current phase marker exists at its exclusive open but was absent from the successful initial namespace observation. A PREPARE_STARTED marker in prepare or RUN_STARTED marker in run is not in initial expected names.",
+      "required_independent_observable": {
+        "boundary": "Initial namespace actually returned successfully; independently created marker identity then exists before exact O_EXCL open; genuine EEXIST-style open refusal, unchanged original bytes/inode, no acquired fd or owner.",
+        "fault": "Real marker insertion after line961's namespace success, before line264 in claim; preserve the marker and all failure evidence.",
+        "consequence": "Preownership refusal from the marker open without overwrite/retry/fresh authority; original file independently unchanged."
+      },
+      "cause_order": {
+        "earlier": "No prior failure; earlier namespace must succeed.",
+        "origin": "Actual exclusive marker open conflict.",
+        "later": "Phase.claim preownership wrapper only; no fabricated owned after result."
+      },
+      "candidate_unchanged_source_mechanism": "Post-namespace external exclusive creation of the exact current-phase marker under a nonpatching stop/trace witness; a filesystem race candidate, not an already seeded launch directory.",
+      "actual_blockers": [
+        "A marker present before launch reaches namespace line347, not marker acquire; this is a proven earlier blocker for naive setup.",
+        "No admitted post-namespace synchronization/creation facility or authority for that controlled operational mutation exists."
+      ],
+      "minimum_additional_premises": [
+        "Independent namespace-completion and later creation-before-open evidence.",
+        "Root authorization for the narrowly timed operational collision with original marker preservation and unchanged source/custody."
+      ],
+      "source_fixed_outcome": {
+        "naive_first_type": "Refused",
+        "naive_first_message": "operational namespace has absent/unexpected artifacts",
+        "intended_origin": "OBSERVED_EXCLUSIVE_OPEN_CONFLICT",
+        "intended_outer_prefix": "phase was not claimed: ",
+        "owned": false
+      },
+      "invalid_shortcut": "Calling the initial unexpected-artifact refusal an O_EXCL test would miscredit a different guard. Existing previous-phase PREPARE marker during run is not the current RUN marker.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "For intended EEXIST route, current-phase marker is absent during the successful initial namespace observation but inserted before marker open; actual external insertion is authorized and independently timed.",
+          "For naive preseed analysis, marker already exists at initial namespace; this deliberately fails before Phase is constructed or claimed."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "Naive preseed at launch deterministically reaches the earlier namespace refusal, not the selected open. With absent marker and no admitted later insertion there is no forced exclusive-open refusal.",
+        "first_raised_or_recorded": {
+          "naive_preseed_first": "Refused: operational namespace has absent/unexpected artifacts, namespace line347 called from run_phase line961; Phase.claim is not reached.",
+          "candidate_origin": "After proven post-namespace insertion, actual exclusive marker open conflict is caught in the receipt.",
+          "candidate_uncaught_claim_refusal": "Refused prefix 'phase was not claimed: '; no descriptor or phase ownership.",
+          "owned": false,
+          "no_owned_first_error_or_journal_promised": true
+        },
+        "earlier_refusal_not_credit": "The naive initial namespace error is exactly the earlier nonqualifying guard; calling it an exclusive-open test would miscredit it.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-9",
+      "scenario": "F01-9",
+      "signal": "SIGALRM",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 257,
+          "end_line": 267
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 308,
+          "end_line": 323
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 1020,
+          "end_line": 1040
+        }
+      ],
+      "boundary_state_predicate": "Representative acquisition boundary: marker fd has been stored but phase owner assignment has not run; actual SIGALRM handler executes while AcquisitionSignals is active.",
+      "required_independent_observable": {
+        "boundary": "Independent current instruction/object state, OS signal provenance, immediate actual handler branch/HardDeadline identity, and known descriptor cleanup attempts; genuine outer terminal outcome.",
+        "fault": "Real externally delivered SIGALRM is distinguishable from expiration of the preexisting 840-second timer; future admission must specify which was observed without replacing timer state.",
+        "consequence": "Non-Exception hard propagation, only known-fd best-effort close, no full after or success claim; real missing evidence and budget retained."
+      },
+      "cause_order": {
+        "earlier": "No earlier ordinary error in selected representative.",
+        "origin": "HardDeadline from actual SIGALRM handler.",
+        "later": "Emergency cleanup is best effort; absent tails are incomplete, not ordinary successful after custody."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching instruction stop and real SIGALRM delivery at the selected known-fd acquisition position, followed by actual handler-entry/termination trace.",
+      "actual_blockers": [
+        "No instruction/callback synchronization or authenticated alarm-origin trace supplied.",
+        "A signal sent during a debugger pause may execute only after resumption at another state; stopping for 840 seconds does not prove handler execution at the target."
+      ],
+      "minimum_additional_premises": [
+        "Actual handler-execution timing against the known-fd acquisition state, not planned delay.",
+        "Root authorization distinguishing injected alarm signal from natural timer expiry; external deadline never extended."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "HardDeadline",
+        "origin_message": "overall launcher watchdog fired",
+        "outer_exit": 2,
+        "complete_after_required": false,
+        "outer_success": false
+      },
+      "invalid_shortcut": "An expired outer tool, killed process or refusal string alone is not the named SIGALRM path. This one point does not execute all hard-abort acquisition windows.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_PREPARE_ENTRY",
+        "common": [
+          "Enter the unchanged launcher main in prepare mode with a genuine root-authorized literal invocation, exact interpreter/env/flags, authenticated ROOT_PLAN/current handoff/source manifest and complete helper bytes.",
+          "Initial operational namespace, immutable expected-spec construction and all preceding deadline/path/identity guards must succeed; required fault position must be reached inside the original metadata/overall budgets.",
+          "No source/runtime/global/argument substitution; the proposed independent observer and real operational action remain unavailable and require separate admission."
+        ],
+        "case_specific": [
+          "Actual SIGALRM handler must execute in the chosen known-fd acquisition interval before owner store, with watchdog unchanged and no expired earlier guard.",
+          "Externally delivered SIGALRM is explicitly distinguished from natural 840-second timer expiry."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "HardDeadline: overall launcher watchdog fired, from actual signal_received SIGALRM branch before ordinary deferral.",
+          "outer_terminal": "Main terminal wrapper reports the hard failure and exits2; only known-fd best-effort close, no complete owned after result.",
+          "owned_error_artifact_promised": false
+        },
+        "earlier_refusal_not_credit": "An earlier 'bounded phase deadline exhausted', cooperative overall-budget exhaustion or external hard kill is not observed SIGALRM handler execution in acquisition.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-10-SIGTERM",
+      "scenario": "F01-10",
+      "signal": "SIGTERM",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 129,
+          "end_line": 134
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 254,
+          "end_line": 260
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 681,
+          "end_line": 707
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 748,
+          "end_line": 850
+        }
+      ],
+      "boundary_state_predicate": "The first collector Sink is process-errors.jsonl: its successful open has occurred, but its object has not entered owner.sinks['errors']; all three record-only handlers are installed and ordinary mask restored.",
+      "required_independent_observable": {
+        "boundary": "Independent open-success/fd identity plus actual collector callback before dictionary registration, saved handler/mask state, subsequent same-object registration and pre-dispatch failure.",
+        "fault": "Actual SIGTERM callback in that interval; callback is Owner.signal_received, not the launcher's raising handler and not merely pending while startup mask remains set.",
+        "consequence": "Signal recorded; no dispatcher Popen; acquired sink becomes known to cleanup; independent sink closes and saved-handler/mask restoration or honest refusal/incomplete tail."
+      },
+      "cause_order": {
+        "earlier": "No earlier failure.",
+        "origin": "Delivered collector interruption recorded before dispatch.",
+        "later": "CollectionFailure pre-dispatch plus cleanup/restoration errors; no fabricated policy result."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching interpreter/native observation spanning Sink os.open return and caller dictionary insertion, real OS signal and callback trace, without adding a hold/wrapper in Sink.",
+      "actual_blockers": [
+        "No pin-bound observer proves constructor-return/dictionary-registration separation or callback opportunity.",
+        "Kernel file appearance or later owner.sinks membership cannot establish where callback ran."
+      ],
+      "minimum_additional_premises": [
+        "Exact first Sink object/fd and dictionary-operation trace, installed handler identity and actual delivery.",
+        "Same immutable runtime/sources plus admitted observer and original startup/collection budgets."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "CollectionFailure",
+        "origin_message": "catchable interruption before dispatcher launch",
+        "dispatcher_launched": false,
+        "outer_success": false
+      },
+      "invalid_shortcut": "A signal while startup mask is active tests pending registration, not this unmasked post-open registration gap.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "Startup mask/handler registration and pending check succeeded; original ordinary mask was restored before first Sink.",
+          "First process-errors Sink open succeeded; actual Owner.signal_received callback executes before its owner.sinks dictionary insertion.",
+          "Remaining startup sink/selector operations succeed until the existing pre-dispatch signal check, so a different earlier failure cannot replace the intended refusal."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_event": "Owner.signal_received only records the actual interruption; it does not raise.",
+          "first_raise": "CollectionFailure: catchable interruption before dispatcher launch at line700.",
+          "first_owned_record": "owned-body records that refusal; original registered resources close and restoration errors remain later.",
+          "dispatcher_launched": false
+        },
+        "earlier_refusal_not_credit": "Invalid process arguments, initially blocked/noncallable handlers, pending startup signal or initial Sink failure are earlier distinct guards/faults.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-10-SIGINT",
+      "scenario": "F01-10",
+      "signal": "SIGINT",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 129,
+          "end_line": 134
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 254,
+          "end_line": 260
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 681,
+          "end_line": 707
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 748,
+          "end_line": 850
+        }
+      ],
+      "boundary_state_predicate": "The first collector Sink is process-errors.jsonl: its successful open has occurred, but its object has not entered owner.sinks['errors']; all three record-only handlers are installed and ordinary mask restored.",
+      "required_independent_observable": {
+        "boundary": "Independent open-success/fd identity plus actual collector callback before dictionary registration, saved handler/mask state, subsequent same-object registration and pre-dispatch failure.",
+        "fault": "Actual SIGINT callback in that interval; callback is Owner.signal_received, not the launcher's raising handler and not merely pending while startup mask remains set.",
+        "consequence": "Signal recorded; no dispatcher Popen; acquired sink becomes known to cleanup; independent sink closes and saved-handler/mask restoration or honest refusal/incomplete tail."
+      },
+      "cause_order": {
+        "earlier": "No earlier failure.",
+        "origin": "Delivered collector interruption recorded before dispatch.",
+        "later": "CollectionFailure pre-dispatch plus cleanup/restoration errors; no fabricated policy result."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching interpreter/native observation spanning Sink os.open return and caller dictionary insertion, real OS signal and callback trace, without adding a hold/wrapper in Sink.",
+      "actual_blockers": [
+        "No pin-bound observer proves constructor-return/dictionary-registration separation or callback opportunity.",
+        "Kernel file appearance or later owner.sinks membership cannot establish where callback ran."
+      ],
+      "minimum_additional_premises": [
+        "Exact first Sink object/fd and dictionary-operation trace, installed handler identity and actual delivery.",
+        "Same immutable runtime/sources plus admitted observer and original startup/collection budgets."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "CollectionFailure",
+        "origin_message": "catchable interruption before dispatcher launch",
+        "dispatcher_launched": false,
+        "outer_success": false
+      },
+      "invalid_shortcut": "A signal while startup mask is active tests pending registration, not this unmasked post-open registration gap.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "Startup mask/handler registration and pending check succeeded; original ordinary mask was restored before first Sink.",
+          "First process-errors Sink open succeeded; actual Owner.signal_received callback executes before its owner.sinks dictionary insertion.",
+          "Remaining startup sink/selector operations succeed until the existing pre-dispatch signal check, so a different earlier failure cannot replace the intended refusal."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_event": "Owner.signal_received only records the actual interruption; it does not raise.",
+          "first_raise": "CollectionFailure: catchable interruption before dispatcher launch at line700.",
+          "first_owned_record": "owned-body records that refusal; original registered resources close and restoration errors remain later.",
+          "dispatcher_launched": false
+        },
+        "earlier_refusal_not_credit": "Invalid process arguments, initially blocked/noncallable handlers, pending startup signal or initial Sink failure are earlier distinct guards/faults.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-10-SIGHUP",
+      "scenario": "F01-10",
+      "signal": "SIGHUP",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 129,
+          "end_line": 134
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 254,
+          "end_line": 260
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 681,
+          "end_line": 707
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 748,
+          "end_line": 850
+        }
+      ],
+      "boundary_state_predicate": "The first collector Sink is process-errors.jsonl: its successful open has occurred, but its object has not entered owner.sinks['errors']; all three record-only handlers are installed and ordinary mask restored.",
+      "required_independent_observable": {
+        "boundary": "Independent open-success/fd identity plus actual collector callback before dictionary registration, saved handler/mask state, subsequent same-object registration and pre-dispatch failure.",
+        "fault": "Actual SIGHUP callback in that interval; callback is Owner.signal_received, not the launcher's raising handler and not merely pending while startup mask remains set.",
+        "consequence": "Signal recorded; no dispatcher Popen; acquired sink becomes known to cleanup; independent sink closes and saved-handler/mask restoration or honest refusal/incomplete tail."
+      },
+      "cause_order": {
+        "earlier": "No earlier failure.",
+        "origin": "Delivered collector interruption recorded before dispatch.",
+        "later": "CollectionFailure pre-dispatch plus cleanup/restoration errors; no fabricated policy result."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching interpreter/native observation spanning Sink os.open return and caller dictionary insertion, real OS signal and callback trace, without adding a hold/wrapper in Sink.",
+      "actual_blockers": [
+        "No pin-bound observer proves constructor-return/dictionary-registration separation or callback opportunity.",
+        "Kernel file appearance or later owner.sinks membership cannot establish where callback ran."
+      ],
+      "minimum_additional_premises": [
+        "Exact first Sink object/fd and dictionary-operation trace, installed handler identity and actual delivery.",
+        "Same immutable runtime/sources plus admitted observer and original startup/collection budgets."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "CollectionFailure",
+        "origin_message": "catchable interruption before dispatcher launch",
+        "dispatcher_launched": false,
+        "outer_success": false
+      },
+      "invalid_shortcut": "A signal while startup mask is active tests pending registration, not this unmasked post-open registration gap.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "Startup mask/handler registration and pending check succeeded; original ordinary mask was restored before first Sink.",
+          "First process-errors Sink open succeeded; actual Owner.signal_received callback executes before its owner.sinks dictionary insertion.",
+          "Remaining startup sink/selector operations succeed until the existing pre-dispatch signal check, so a different earlier failure cannot replace the intended refusal."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_event": "Owner.signal_received only records the actual interruption; it does not raise.",
+          "first_raise": "CollectionFailure: catchable interruption before dispatcher launch at line700.",
+          "first_owned_record": "owned-body records that refusal; original registered resources close and restoration errors remain later.",
+          "dispatcher_launched": false
+        },
+        "earlier_refusal_not_credit": "Invalid process arguments, initially blocked/noncallable handlers, pending startup signal or initial Sink failure are earlier distinct guards/faults.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-11",
+      "scenario": "F01-11",
+      "signal": null,
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 681,
+          "end_line": 692
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 720,
+          "end_line": 721
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 782,
+          "end_line": 850
+        }
+      ],
+      "boundary_state_predicate": "SIGTERM's record-only installation succeeded; the subsequent SIGINT signal.signal operation itself fails ordinarily, before any startup Sink/selector/child.",
+      "required_independent_observable": {
+        "boundary": "Independent successful first handler replacement and actual failing second installation/errno or runtime exception; actual original masks/handlers and all later restoration attempts.",
+        "fault": "Selective actual handler-installation failure, not an initially noncallable/blocked-state guard and not an altered signum or injected Python exception.",
+        "consequence": "No startup Sink/selector/child acquired; original setup error remains primary; already changed handler independently restored or explicit failed/incomplete restoration."
+      },
+      "cause_order": {
+        "earlier": "One successful handler installation.",
+        "origin": "Actual second installation failure.",
+        "later": "Saved-handler/mask restoration errors and provisional receipt errors must remain later."
+      },
+      "candidate_unchanged_source_mechanism": "A specifically admitted host/interpreter signal-installation fault supplier at the second existing call; accepted arguments remain unchanged. A substituted return/exception is a different explicit intervention, not natural failure.",
+      "actual_blockers": [
+        "No natural selective failure condition or authenticated supplier for valid main-thread signal.signal calls is established.",
+        "Blocked original mask or noncallable handler triggers earlier guards, so cannot substitute for actual partial-installation failure."
+      ],
+      "minimum_additional_premises": [
+        "Independent first-success/second-failure trace and actual handler identities.",
+        "Root decision on admissibility of a precise installation fault mechanism, with unchanged subject/runtime admission."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "OBSERVED_INSTALLATION_EXCEPTION_NOT_FIXED",
+        "origin_message": null,
+        "startup_resources_acquired": false,
+        "outer_success": false
+      },
+      "invalid_shortcut": "An unsupported-parent precondition or fake setup exception does not exercise failed installation after one changed handler.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "Ordinary mask operation and initially-unblocked guard succeeded; all inspected parent originals are the actual supported callable raising handlers.",
+          "First SIGTERM installation genuinely succeeded; second SIGINT signal.signal genuinely fails before any startup Sink/selector or child."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "Actual second signal.signal installation exception; class/errno/message not source-fixed.",
+          "first_owned_record": "owned-body records the actual setup error; restoration and receipt errors remain later.",
+          "startup_resource_acquisition": false
+        },
+        "earlier_refusal_not_credit": "The exact guards 'unsupported initially blocked ordinary signal in parent launcher' and 'unsupported noncallable ordinary handler in parent launcher' occur before the desired actual installation fault and receive no F01-11 credit.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-12",
+      "scenario": "F01-12",
+      "signal": null,
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 118,
+          "end_line": 123
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 693,
+          "end_line": 700
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 720,
+          "end_line": 752
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 782,
+          "end_line": 850
+        }
+      ],
+      "boundary_state_predicate": "All four startup Sink opens and owner registrations succeeded; directory_sync(outputdir) is reached, and its directory fsync fails.",
+      "required_independent_observable": {
+        "boundary": "Actual four distinct sink fd identities/registration, directory fd provenance, actual fsync failure at helper line121, successful directory close at line123, and each later known-sink close/restoration attempt.",
+        "fault": "Selective real directory synchronization failure at this operation; an earlier Sink open failure or a later receipt-directory sync error is not this case.",
+        "consequence": "With independently observed successful directory close, the original fsync error reaches owned-body first; every registered Sink is independently closed and all saved handlers/mask attempted; no child launched. A compound directory-close failure can replace the propagated fsync exception and is not credited as this isolated chronology."
+      },
+      "cause_order": {
+        "earlier": "All four startup acquisitions succeeded.",
+        "origin": "Observed directory fsync exception.",
+        "later": "After the required successful directory close, known-sink close, report/close and restoration failures stay later. If directory close itself also raises, unchanged directory_sync propagates that close exception instead of fsync; do not claim source-preserved fsync priority in that compound case."
+      },
+      "candidate_unchanged_source_mechanism": "Conditionally use a root-admitted filesystem/storage fault affecting this actual directory fsync only after the four successful opens; independently trace operation identity and failure. No host/storage failure mechanism is currently available.",
+      "actual_blockers": [
+        "No selective supported-host directory-fsync failure provenance is supplied.",
+        "Broad storage/permission changes may fail earlier operations or custody and cannot locate the selected syscall.",
+        "The unchanged directory_sync finally does not catch directory-close failure independently: a compound close error can replace the propagated fsync exception. Source labels alone cannot recover or qualify the chosen isolated fsync chronology."
+      ],
+      "minimum_additional_premises": [
+        "Actual filesystem operation trace distinguishing directory fd from sink file fds and later receipt syncs.",
+        "Approved narrow storage fault and real first-error/independent-cleanup evidence under fixed bounds.",
+        "Independent successful return of the directory's own os.close, not just later sink closes; retain any contrary compound failure rather than relabeling it as fsync-first."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "OBSERVED_DIRECTORY_FSYNC_EXCEPTION_NOT_FIXED",
+        "origin_message": null,
+        "dispatcher_launched": false,
+        "outer_success": false
+      },
+      "invalid_shortcut": "A generic fsync label or failed startup open is not directory sync after four registrations.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "All startup handler/mask checks succeeded; four Sink objects are actually registered and their opens succeeded.",
+          "The directory open within directory_sync succeeded; actual directory fsync is the selected failing operation before selector/dispatcher creation.",
+          "For this selected isolated fsync representative, the directory's finally os.close returns normally; if it also raises, the propagated exception can be close instead and the selected fsync-first observation is not established."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "Actual directory fsync exception at directory_sync line121; message/errno not source-fixed.",
+          "first_owned_record": "Only when directory close succeeds does owned-body record the fsync exception first; known-sink and handler cleanup failures are later. If the unguarded directory finally close raises, that close exception escapes and may become owned-body instead; no fsync-first record is promised.",
+          "dispatcher_launched": false
+        },
+        "earlier_refusal_not_credit": "Earlier sink/open/pending checks or directory-open failure do not prove the chosen fsync-after-four-registrations boundary. A compound directory-close failure cannot be presented as preserved propagated fsync-first ordering; retain its actual replacement exception and external operation chronology.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-13",
+      "scenario": "F01-13",
+      "signal": null,
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 152,
+          "end_line": 158
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 602,
+          "end_line": 635
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 748,
+          "end_line": 781
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 782,
+          "end_line": 850
+        }
+      ],
+      "boundary_state_predicate": "An ordinary exception escapes finalization before the former restoration site. Representative: real allocation failure forming Sink.close's receipt when Owner.save calls it at line623 during PROCESS_REPORT save, outside that save's body except.",
+      "required_independent_observable": {
+        "boundary": "Independent exact unguarded exception origin, propagation out of save/finalization, then outer-finally entry and each saved-handler/mask restoration attempt; actual escaped error/outer tool result.",
+        "fault": "A true ordinary allocation/runtime failure at the selected unguarded close initialization. An os.fsync error caught into a close receipt is not an escaped finalization error.",
+        "consequence": "No fabricated completed process return or successful receipt; original escaping error remains causal, restoration still independently attempted within original clock."
+      },
+      "cause_order": {
+        "earlier": "No earlier failure for this selected representative; any observed existing error must retain chronology.",
+        "origin": "Observed escaping ordinary allocation/runtime exception.",
+        "later": "Restoration errors are later; provisional receipts never certify the missing completed return."
+      },
+      "candidate_unchanged_source_mechanism": "Conceptual selective actual allocation failure in the identified unguarded receipt construction, with nonpatching exception/handler trace. Root must first admit a supplier that does not replace Python functions or manufacture exception objects.",
+      "actual_blockers": [
+        "Most ordinary I/O failures in close/save are caught; provoking one does not satisfy escape.",
+        "No selective actual allocation-fault mechanism/exception provenance is supplied; broad memory pressure would not isolate this boundary."
+      ],
+      "minimum_additional_premises": [
+        "Independent distinction between a caught receipt error and a genuinely escaping finalization exception.",
+        "Explicitly admissible selective runtime-fault supplier and observation of outer restoration despite escape."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "OBSERVED_ESCAPING_ORDINARY_EXCEPTION_NOT_FIXED",
+        "origin_message": null,
+        "completed_process_return": false,
+        "outer_success": false
+      },
+      "invalid_shortcut": "A failed receipt containing errors is not necessarily an exception escaping finalization; monkeypatching save to raise changes the subject.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "Supported genuine collector route reaches ordinary finalization with an authenticated chronological prior-error history.",
+          "For selected representative, PROCESS_REPORT save reaches Sink.close receipt construction from line623; real allocation/runtime failure escapes that unguarded operation before outer restoration.",
+          "Caught fsync/readback/receipt errors alone are insufficient."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "Actual ordinary exception escaping finalization; not a source-fixed error and not just a returned receipt containing errors.",
+          "first_outer_record": "Outer launcher catches escaping error as phase-body when applicable; collector may return no process dictionary and need not have a new owner.first_error entry for the escaped finalization cause.",
+          "later": "Outer collector finally still attempts saved handler/mask restoration; prior errors and any late failures retain actual order.",
+          "completed_process_return": false
+        },
+        "earlier_refusal_not_credit": "An earlier caught receipt error, capped child output failure or intentional source-level raise does not demonstrate an ordinary finalization exception escaping before restoration.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-14-SIGTERM",
+      "scenario": "F01-14",
+      "signal": "SIGTERM",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 798,
+          "end_line": 830
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 842,
+          "end_line": 850
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        }
+      ],
+      "boundary_state_predicate": "Restoration SIG_BLOCK succeeded; original SIGTERM handler has been restored; other saved-handler attempts remain; SIGTERM newly becomes OS-pending while all ordinary signals are masked.",
+      "required_independent_observable": {
+        "boundary": "Independent actual mask and handler-state trace, first restoration complete and later attempts outstanding; OS pending membership for SIGTERM in that interval, followed by later source pending check and original-mask restoration.",
+        "fault": "Real OS signal becomes pending while blocked; it is not reported as delivered Owner.signal_received. Trace actual eventual delivery/raising separately after unmask.",
+        "consequence": "Remaining restoration attempts proceed before original mask restored; pending observation and/or actual restored-parent raise prevents success; preserve stale earlier receipts as provisional and actual final failure/escape."
+      },
+      "cause_order": {
+        "earlier": "Successful collector completion or explicit earlier error retained; choose and authenticate actual ordering.",
+        "origin": "New masked pending interruption, evidenced as pending rather than callback.",
+        "later": "signal-pending-unmask record and/or actual signal-mask-restore exception; any prior first_error stays first."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching stop after the first actual signal.signal restoration, send real SIGTERM to the correct OS process/thread route, observe OS pending state and subsequent unchanged restoration/pending/unmask operations.",
+      "actual_blockers": [
+        "No admitted actual mask/pending/handler-state observer or exact restoration-position gate exists.",
+        "OS send acknowledgement does not prove correct pending membership; debugger masks or thread routing could alter behavior."
+      ],
+      "minimum_additional_premises": [
+        "Independent supported-runtime/thread signal-mask and pending observation, actual target identity and nonpatching first-restoration proof.",
+        "Proof observer does not substitute mask state; authentic actual raising-parent supplier; late return/tool outcome retained."
+      ],
+      "source_fixed_outcome": {
+        "pending_stage": "signal-pending-unmask",
+        "pending_message_template": "pending ordinary signals after handler restoration: <actual pending list>",
+        "delivery_record_must_not_be_fabricated": true,
+        "outer_success": false
+      },
+      "invalid_shortcut": "A delivered signal before remasking or after all handlers restore, or a guessed pending set from kill success, misses this boundary.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "All ordinary startup/child/cleanup prerequisites reached restoration; choose a successful earlier collection representative or preserve a separately observed earlier error.",
+          "Restoration remask succeeded; first pending check completed with no target signal; first saved raising SIGTERM handler was actually restored while other saved attempts remain.",
+          "Real target signal becomes pending during that still-masked interval; actual original mask is initially unblocked and parent behavior is pinned raising."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_evidence": "Later sigpending at line819 observes target membership; source constructs signal-pending-unmask CollectionFailure before unmask, without throwing it yet.",
+          "first_possible_raise": "Actual restored parent handler may raise Refused at original-mask restoration line826; this is caught as signal-mask-restore.",
+          "first_owned_record": "At line829, pending-observation CollectionFailure is recorded before the later mask-restore handler exception if no prior first_error; an earlier existing error stays first.",
+          "late_receipts": "Prior PROCESS_REPORT/PROCESS_CLOSE are provisional and cannot override returned/escaped failure."
+        },
+        "earlier_refusal_not_credit": "A signal pending before first restoration, delivered before remasking, or sent only after all saved-handler attempts is not the selected pending-arrival interval; remask failure is an incomplete different fault.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-14-SIGINT",
+      "scenario": "F01-14",
+      "signal": "SIGINT",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 798,
+          "end_line": 830
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 842,
+          "end_line": 850
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        }
+      ],
+      "boundary_state_predicate": "Restoration SIG_BLOCK succeeded; original SIGTERM handler has been restored; other saved-handler attempts remain; SIGINT newly becomes OS-pending while all ordinary signals are masked.",
+      "required_independent_observable": {
+        "boundary": "Independent actual mask and handler-state trace, first restoration complete and later attempts outstanding; OS pending membership for SIGINT in that interval, followed by later source pending check and original-mask restoration.",
+        "fault": "Real OS signal becomes pending while blocked; it is not reported as delivered Owner.signal_received. Trace actual eventual delivery/raising separately after unmask.",
+        "consequence": "Remaining restoration attempts proceed before original mask restored; pending observation and/or actual restored-parent raise prevents success; preserve stale earlier receipts as provisional and actual final failure/escape."
+      },
+      "cause_order": {
+        "earlier": "Successful collector completion or explicit earlier error retained; choose and authenticate actual ordering.",
+        "origin": "New masked pending interruption, evidenced as pending rather than callback.",
+        "later": "signal-pending-unmask record and/or actual signal-mask-restore exception; any prior first_error stays first."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching stop after the first actual signal.signal restoration, send real SIGINT to the correct OS process/thread route, observe OS pending state and subsequent unchanged restoration/pending/unmask operations.",
+      "actual_blockers": [
+        "No admitted actual mask/pending/handler-state observer or exact restoration-position gate exists.",
+        "OS send acknowledgement does not prove correct pending membership; debugger masks or thread routing could alter behavior."
+      ],
+      "minimum_additional_premises": [
+        "Independent supported-runtime/thread signal-mask and pending observation, actual target identity and nonpatching first-restoration proof.",
+        "Proof observer does not substitute mask state; authentic actual raising-parent supplier; late return/tool outcome retained."
+      ],
+      "source_fixed_outcome": {
+        "pending_stage": "signal-pending-unmask",
+        "pending_message_template": "pending ordinary signals after handler restoration: <actual pending list>",
+        "delivery_record_must_not_be_fabricated": true,
+        "outer_success": false
+      },
+      "invalid_shortcut": "A delivered signal before remasking or after all handlers restore, or a guessed pending set from kill success, misses this boundary.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "All ordinary startup/child/cleanup prerequisites reached restoration; choose a successful earlier collection representative or preserve a separately observed earlier error.",
+          "Restoration remask succeeded; first pending check completed with no target signal; first saved raising SIGTERM handler was actually restored while other saved attempts remain.",
+          "Real target signal becomes pending during that still-masked interval; actual original mask is initially unblocked and parent behavior is pinned raising."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_evidence": "Later sigpending at line819 observes target membership; source constructs signal-pending-unmask CollectionFailure before unmask, without throwing it yet.",
+          "first_possible_raise": "Actual restored parent handler may raise Refused at original-mask restoration line826; this is caught as signal-mask-restore.",
+          "first_owned_record": "At line829, pending-observation CollectionFailure is recorded before the later mask-restore handler exception if no prior first_error; an earlier existing error stays first.",
+          "late_receipts": "Prior PROCESS_REPORT/PROCESS_CLOSE are provisional and cannot override returned/escaped failure."
+        },
+        "earlier_refusal_not_credit": "A signal pending before first restoration, delivered before remasking, or sent only after all saved-handler attempts is not the selected pending-arrival interval; remask failure is an incomplete different fault.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-14-SIGHUP",
+      "scenario": "F01-14",
+      "signal": "SIGHUP",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 798,
+          "end_line": 830
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 842,
+          "end_line": 850
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        }
+      ],
+      "boundary_state_predicate": "Restoration SIG_BLOCK succeeded; original SIGTERM handler has been restored; other saved-handler attempts remain; SIGHUP newly becomes OS-pending while all ordinary signals are masked.",
+      "required_independent_observable": {
+        "boundary": "Independent actual mask and handler-state trace, first restoration complete and later attempts outstanding; OS pending membership for SIGHUP in that interval, followed by later source pending check and original-mask restoration.",
+        "fault": "Real OS signal becomes pending while blocked; it is not reported as delivered Owner.signal_received. Trace actual eventual delivery/raising separately after unmask.",
+        "consequence": "Remaining restoration attempts proceed before original mask restored; pending observation and/or actual restored-parent raise prevents success; preserve stale earlier receipts as provisional and actual final failure/escape."
+      },
+      "cause_order": {
+        "earlier": "Successful collector completion or explicit earlier error retained; choose and authenticate actual ordering.",
+        "origin": "New masked pending interruption, evidenced as pending rather than callback.",
+        "later": "signal-pending-unmask record and/or actual signal-mask-restore exception; any prior first_error stays first."
+      },
+      "candidate_unchanged_source_mechanism": "Conditional nonpatching stop after the first actual signal.signal restoration, send real SIGHUP to the correct OS process/thread route, observe OS pending state and subsequent unchanged restoration/pending/unmask operations.",
+      "actual_blockers": [
+        "No admitted actual mask/pending/handler-state observer or exact restoration-position gate exists.",
+        "OS send acknowledgement does not prove correct pending membership; debugger masks or thread routing could alter behavior."
+      ],
+      "minimum_additional_premises": [
+        "Independent supported-runtime/thread signal-mask and pending observation, actual target identity and nonpatching first-restoration proof.",
+        "Proof observer does not substitute mask state; authentic actual raising-parent supplier; late return/tool outcome retained."
+      ],
+      "source_fixed_outcome": {
+        "pending_stage": "signal-pending-unmask",
+        "pending_message_template": "pending ordinary signals after handler restoration: <actual pending list>",
+        "delivery_record_must_not_be_fabricated": true,
+        "outer_success": false
+      },
+      "invalid_shortcut": "A delivered signal before remasking or after all handlers restore, or a guessed pending set from kill success, misses this boundary.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "All ordinary startup/child/cleanup prerequisites reached restoration; choose a successful earlier collection representative or preserve a separately observed earlier error.",
+          "Restoration remask succeeded; first pending check completed with no target signal; first saved raising SIGTERM handler was actually restored while other saved attempts remain.",
+          "Real target signal becomes pending during that still-masked interval; actual original mask is initially unblocked and parent behavior is pinned raising."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_evidence": "Later sigpending at line819 observes target membership; source constructs signal-pending-unmask CollectionFailure before unmask, without throwing it yet.",
+          "first_possible_raise": "Actual restored parent handler may raise Refused at original-mask restoration line826; this is caught as signal-mask-restore.",
+          "first_owned_record": "At line829, pending-observation CollectionFailure is recorded before the later mask-restore handler exception if no prior first_error; an earlier existing error stays first.",
+          "late_receipts": "Prior PROCESS_REPORT/PROCESS_CLOSE are provisional and cannot override returned/escaped failure."
+        },
+        "earlier_refusal_not_credit": "A signal pending before first restoration, delivered before remasking, or sent only after all saved-handler attempts is not the selected pending-arrival interval; remask failure is an incomplete different fault.",
+        "owned_error_artifact_claim": false
+      }
+    },
+    {
+      "id": "F01-15",
+      "scenario": "F01-15",
+      "signal": "SIGALRM",
+      "subject_locations": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 681,
+          "end_line": 692
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 722,
+          "end_line": 725
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+          "start_line": 782,
+          "end_line": 794
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+          "start_line": 128,
+          "end_line": 144
+        }
+      ],
+      "boundary_state_predicate": "Representative startup transition: ordinary SIG_BLOCK has returned and its original mask is registered, before all record-only handlers are installed; SIGALRM is not blocked and actual parent watchdog handler executes there.",
+      "required_independent_observable": {
+        "boundary": "Independent actual ordinary mask excludes SIGALRM, exact startup position and saved original mask; actual SIGALRM handler entry and HardDeadline propagation; known-resource/mask emergency attempts and outer outcome.",
+        "fault": "Real SIGALRM event with explicit distinction between externally injected signal and natural timer expiry, never a modified timer or fake timeout exception.",
+        "consequence": "Immediate non-Exception abort and incomplete evidence; ordinary masking never delays the watchdog; only known-state best-effort restoration and no extra deadline."
+      },
+      "cause_order": {
+        "earlier": "No earlier failure for selected representative.",
+        "origin": "Actual parent SIGALRM HardDeadline.",
+        "later": "Incomplete emergency tails or saved-mask restoration failure; no completed process return."
+      },
+      "candidate_unchanged_source_mechanism": "Conditionally stop after actual ordinary-mask registration with nonpatching native observation, deliver a real SIGALRM, and trace actual callback/mask state rather than relying on code's mask literal.",
+      "actual_blockers": [
+        "No admitted instruction/mask/actual callback observer; OS send timing cannot show immediate eligible handler execution.",
+        "Natural timer expiry at the chosen instruction is not established, and pausing/altering timer would change the premise."
+      ],
+      "minimum_additional_premises": [
+        "Independent saved/active mask and exact callback state evidence, unchanged parent timer/handler/source.",
+        "Explicit root admission of alarm provenance and external completion within existing ceiling."
+      ],
+      "source_fixed_outcome": {
+        "origin_type": "HardDeadline",
+        "origin_message": "overall launcher watchdog fired",
+        "complete_after_required": false,
+        "outer_success": false
+      },
+      "invalid_shortcut": "A hard kill or ordinary pending signal does not prove SIGALRM remained eligible and executed during the mask transition.",
+      "disposition": "BLOCKED_DESIGN",
+      "source_candidate_feasibility": "CONDITIONAL_UNESTABLISHED",
+      "available_mechanism_established": false,
+      "executed": false,
+      "passed": false,
+      "entry_preconditions": {
+        "route": "WHOLE_UNCHANGED_RUN_ENTRY",
+        "common": [
+          "Enter unchanged launcher main in run mode, not by direct helper invocation; genuine successful preparation, literal ROOT_DISPATCH and actual prepare tool history must pass validate_prepare.",
+          "Current run namespace, source/runtime/bootstrap custody, frozen expectations, phase ownership and complete before custody/namespace checks must succeed before the unchanged run_child call.",
+          "Collector exact command/cwd/env/host/deadline preconditions must pass; supported pinned raising parent handlers, initially unblocked TERM/INT/HUP and eligible SIGALRM are required.",
+          "No source/runtime/global/argument substitution; additional observer/fault capability is not presently available or admitted."
+        ],
+        "case_specific": [
+          "Actual startup ordinary SIG_BLOCK succeeded, saved original mask was registered, no unsupported original mask/handler condition caused an earlier refusal.",
+          "Actual parent SIGALRM executes while ordinary transition remains masked; SIGALRM is eligible and source/timer unchanged.",
+          "Root distinguishes deliberately delivered SIGALRM from naturally expired840s timer."
+        ]
+      },
+      "first_reachable_refusal": {
+        "baseline": "No deterministic ordinary refusal is forced by the unchanged entry when all prerequisites and natural operations succeed; the named fault is conditional, not produced by this design.",
+        "first_raised_or_recorded": {
+          "first_raise": "HardDeadline: overall launcher watchdog fired from actual parent callback.",
+          "outer_terminal": "Immediate incomplete hard route with best-effort known resources/saved-mask actions; no completed process return or full ordinary after guarantee."
+        },
+        "earlier_refusal_not_credit": "Unsupported initially blocked/noncallable state, startup pending-ordinary refusal, SIG_BLOCK error or external process kill does not qualify actual SIGALRM callback during supported masking.",
+        "owned_error_artifact_claim": false
+      }
+    }
+  ]
+}

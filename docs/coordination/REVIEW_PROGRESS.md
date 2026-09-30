@@ -1,48 +1,41 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-140 native failure repair
-and RI-141 production-bootstrap repair are independently reviewed and root
-accepted as exact unexecuted source. Their complete sources, reviews and root
-decisions are archived in `docs/track_b/native_growth_failure_repair_v1/` and
-`docs/experiments/gwosc_preparation_direct_bootstrap_v1/`. Source acceptance does
-not grant execution, runtime qualification or scientific credit.
+**Current checkpoint — 30 September 2026 UTC.** RI-143's native boundary
+feasibility conclusion and RI-144's fifteen actual bootstrap guard outcomes are
+independently reviewed and root accepted. Exact evidence is archived in
+`docs/track_b/native_growth_boundary_feasibility_v1/` and
+`docs/experiments/gwosc_bootstrap_guard_qualification_v1/`.
 
-Native F01 now protects acquired resources and phase ownership before ordinary
-interruption; its collector startup and handler restoration retain explicit
-raising-handler/unblocked-signal and incomplete-host-failure premises. F02 records
-original stream failures before cleanup and preserves their identity through
-propagation. Complete nonauthor review covers 2,507 lines. Root also verifies all
-423 dependencies, 396 unchanged inherited rows/27 additions, complete diffs and
-96 unchanged overlapping text slices. RI-138's rejection stays immutable.
+Native review confirms a concrete blocker: no complete unchanged-entry controller
+has been justified for the 31 proposed fault attempts under the preserved bounds
+and custody premises. This is not platform impossibility. Preseeded markers fail
+an earlier guard; actual Python handler timing needs a witness; directory-close
+failure can replace fsync; census tail errors may follow earlier causes; saved
+receipts remain provisional through restoration. Natural EOF is source-reachable
+but unqualified. All 450 dependencies/139 policies/104 ranges reconcile; no native
+fault or policy case ran. All 20 native and 42 audit deeper obligations and C2/C3/shared H30 remain.
 
-After this adjudication, Quantum Relativity owns RI-143 in
-`ri143-native-boundary-feasibility-0i0dbnge`: decide concrete boundary-control feasibility
-for the unchanged subjects and 31 prospective focused attempts. A truthful
-controller must establish actual boundaries without silently replacing source,
-startup custody or limits. Its implementation/review and genuine root admission
-remain prerequisites. All 139 policy cases, 20/42 deeper obligations and actual
-C2/C3 strict signs/shared H30 feasibility remain open behind this explicit
-qualification blocker; mathematical support is unchanged.
+After adjudication, Quantum Relativity owns RI-145 in `ri145-native-weighted-margin-proof-zo96x_ci`:
+derive a substantive analytic bound from the accepted seed-free weighted margin
+and correlated scale relation. A full obstruction or an exact conditional interval
+must state remaining coefficient premises. The fixed RI-128 numerical targets,
+domain and all execution requirements are unchanged. New proof needs review.
 
-Measurement RI-141 consistently selects the authenticated direct Apple supplier
-for parent/PRE/POST. Complete nonauthor review covers 1,389 lines; all 442 opaque
-dependencies, 253 preserved pins/189 additions and 43 unchanged function spans
-reconcile. Two existing functions change and one check is added. The helper loads
-before the supplier self-check, so external pre-startup authentication remains
-essential. Historical focused25 does not qualify this new source or real startup.
+Measurement actual RI-144 used a fresh genuine root admission and matching full
+supplier PRE/POST. Tool 32ad3f exited 0. All 15 isolated expectations, complete
+operands/private files/first-refusal traces, 43-entry parent and 33-entry child namespaces and ten
+raw monitor samples are independently reconciled. Child wall time 0.382986917 seconds,
+peak 46,896 KiB, maximum gap 0.043370541 seconds remain within unchanged limits.
+The cases use explicit supplier doubles; this is not real production capture.
 
-RI-144 in `ri144-bootstrap-guard-source-oaj1jvyt` now implements the 15 isolated
-new-guard expectations (B01–B10 with six B07 variants), using explicit observer
-doubles and existing bounded evidence supervision. Fresh source review and genuine
-admission precede those controls. After independent control acceptance comes one
-real current capture, then accepted baseline, normal/optimized profiles, separate
-65 guards, WHITE/full32 qualification and conventional public GWOSC reproduction.
-
-RI-139's accepted 25 outcomes and RI-142's independently reviewed portable verifier
-with all 17 checks remain preserved. RI-133/137 failures and reviewer/root
-administrative diagnostics remain explicit. Root owns repository/index/Git and
-actual admissions; unrelated and active successor edits are excluded. Calibration,
-releases and a native forward map remain separate from these source decisions.
+RI-146 is root-owned in `ri146-root-current-capture-9bfi4u8s`: genuinely admit the unchanged
+RI-141 production parent and both current PRE/POST metadata children after fresh
+source/supplier/host checks. Independent baseline acceptance precedes normal,
+then optimized, separate 65 guards, WHITE/full32 and conventional GWOSC reproduction.
+Historical 25 retains original-target credit. Current runtime, calibrated claims and a
+native forward map remain distinct. All historical failures and original review
+remain intact. Root owns repository/index/Git and genuine operational admissions;
+active successor work and unrelated changes are excluded from this checkpoint.
 The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
@@ -12022,3 +12015,15 @@ operational admissions. Active reservations are recorded in both archived
 `root/SUCCESSOR_ASSIGNMENTS.json` copies. This checkpoint preserves the entire
 unrelated inventory and stages only reviewed archives and coordination documents;
 new commit/push/remote verification is recorded externally after publication.
+
+
+**RI-143 feasibility and RI-144 actual15 — 30 September 2026 UTC.**
+Native root accepts the precise unchanged-entry observation/fault-supplier blocker,
+with 450 dependencies and all 31 boundary maps. Measurement root accepts one genuinely
+admitted 15-control operation after complete independent actual review. Source
+review, real tool completion, saved arithmetic and supplier PRE/POST are separate
+evidence; exact details and pins are in the two new archives. RI-145 is assigned
+a substantive analytical question; RI-146 is the next root-owned current capture.
+Parent 2f8dc97 was independently verified on origin/ret. This scoped checkpoint
+preserves all nonscope identity/inventory and records its actual commit/push and
+remote verification externally after publication. The programme remains active.

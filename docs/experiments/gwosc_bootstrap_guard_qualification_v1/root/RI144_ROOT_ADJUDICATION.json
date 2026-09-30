@@ -1,0 +1,49 @@
+{
+  "RET_paused": true,
+  "blocking_findings": [],
+  "complete_findings": {
+    "bytes": 22143,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "e8f99129955811cd382f62c7c4de956c3540f997e0712a40c82b54480c661ff3"
+  },
+  "controls_executed": 0,
+  "dependencies": 472,
+  "execution_admitted": false,
+  "independent_lines": 736,
+  "independent_review": {
+    "bytes": 4413,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/HANDOFF.json",
+    "sha256": "488a6cec458226b6bd6c6d27e25800112108d36c86ab5cdda8027401793e847b"
+  },
+  "limits": [
+    "Same-author envelope reconstruction needs independent actual review",
+    "Actual15 parent43/child33 domains and all final exclusions required",
+    "Late namespace failure rejects despite prior saved pass label",
+    "Historical25 applies only to old target/doubles",
+    "Current supplier/host/startup/tool-origin/loader/cache and sampled-child limitations remain"
+  ],
+  "next_action": "Fresh genuine preflight and root single-operation admission for normal isolated15; independent actual acceptance before separate production capture",
+  "review_tool": {
+    "chunk_id": "1b1cb5",
+    "exit_code": 0
+  },
+  "root_check": {
+    "bytes": 283249,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_MEASUREMENT_SOURCE_CHECK.json",
+    "sha256": "82ba06fa91a22841424527c355e4fad056069af7a24e56014154641dbc5cc8ae"
+  },
+  "root_coverage": "Full changed harness and wrapper control path, complete protocol and correspondence; independent full736 source review supplies unchanged-wrapper manual scope. Fresh root opaque472/dependency/span/full-diff checker and all selected source identities reconciled.",
+  "schema": "ri144-root-bootstrap-guard-source-adjudication-v1",
+  "science_credit": false,
+  "source_accepted": true,
+  "source_handoff": {
+    "bytes": 9005,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/HANDOFF.json",
+    "sha256": "2c0da438ab15490d4f3c5ac4c557ef2ddedc879d8f97def7f77537fbd5588796"
+  },
+  "source_tool": {
+    "chunk_id": "f0c26e",
+    "exit_code": 0
+  },
+  "status": "ACCEPT_EXACT_SOURCE_WITH_EXECUTION_PREREQUISITES"
+}

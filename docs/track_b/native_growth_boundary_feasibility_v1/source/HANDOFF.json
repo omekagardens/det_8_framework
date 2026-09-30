@@ -1,0 +1,156 @@
+{
+  "schema": "ri143-boundary-feasibility-handoff-v1",
+  "status": "SEALED_PROVISIONAL_BLOCKED_DESIGN_REQUIRES_ROOT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge",
+  "selecting_root_decision": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI140_ROOT_ADJUDICATION.json",
+    "bytes": 5028,
+    "sha256": "c6611c3e7ae4d915dbef12d37cafcbd9ec714eb76a66fb84815a9ed2968b0481"
+  },
+  "unchanged_subject_handoff": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.json",
+    "bytes": 6044,
+    "sha256": "8726a3d8be2d62b2326a6ad45d5e1f497fda521d4a1e4a9c92e04101c16f2141"
+  },
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/ADMIN_CHECK_FAILURE.txt",
+      "bytes": 1048,
+      "sha256": "44f131bb6cee34cfc37653f9a7b1fa0cdf4952c0750c42e6c0a0aac76dda3d1e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/AUTHOR_CHECKS.json",
+      "bytes": 34682,
+      "sha256": "1dc7eba4ea752100d78be7193b4d36a58fe8ad6777b31384e257048d16a08445"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/DEPENDENCY_NOTES.md",
+      "bytes": 8690,
+      "sha256": "3734e4aa023d28151f02da3f47cd4b64d6e3054984bb4913e2fb4fe6634b3a2c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_BOUNDARIES.json",
+      "bytes": 139932,
+      "sha256": "3ae6ee9e8f0229d87730a84ffbeb3949be208c81a3215d0939e0b6be48fc4ee8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_FEASIBILITY.md",
+      "bytes": 16839,
+      "sha256": "8d5b7bae285dcdd535f3bdc8e8de4971468056656b321e4ba2328fc7da101039"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F02_BOUNDARIES.json",
+      "bytes": 63780,
+      "sha256": "a0b21bf2bb0796ddf7b044a556e85d611982af89618233804b8ad96b713e8b6c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F02_FEASIBILITY.md",
+      "bytes": 15348,
+      "sha256": "e210d24f1e9a3769399a5386984118c200b11c917c0557d1ecac0e33be77ace0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/FEASIBILITY_CONTRACT.md",
+      "bytes": 10467,
+      "sha256": "079bcd1a8704789f587a7c9e05f97647bcd58cbb91f51e540f51485fd3704b99"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/FEASIBILITY_DECISION.md",
+      "bytes": 8485,
+      "sha256": "4bf9188060df015729e83e874625644b9b4858448a68e4012ff9afad7af8a08b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.md",
+      "bytes": 4988,
+      "sha256": "9f41cfa2c734bbd30efe1ad0abead5178f7524baeb25ec263cabd69562654c07"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_APPLICABILITY.json",
+      "bytes": 6243,
+      "sha256": "76ea980c93e2fe032369eb7423cd1f046b141ba50cd773e1cd189b7f1a3c3aea"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_DEPENDENCIES.json",
+      "bytes": 724108,
+      "sha256": "0b80123c32cedc50bb4597fe4eac2d06f5b7e049d5d598024cb1e0da2a02c16c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_IDENTITIES.json",
+      "bytes": 25382,
+      "sha256": "29a5650700a1963a8708a990274a93a7108bce254f3157e65bd5a0887f6b23f4"
+    }
+  ],
+  "namespace": [
+    "ADMIN_CHECK_FAILURE.txt",
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "F01_BOUNDARIES.json",
+    "F01_FEASIBILITY.md",
+    "F02_BOUNDARIES.json",
+    "F02_FEASIBILITY.md",
+    "FEASIBILITY_CONTRACT.md",
+    "FEASIBILITY_DECISION.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_APPLICABILITY.json",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payload_count": 13,
+  "namespace_count": 14,
+  "dependency_files": 450,
+  "prospective_inventory": {
+    "F01": 23,
+    "F02": 8,
+    "total": 31,
+    "policy": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42
+  },
+  "disposition": {
+    "complete_controller_justified": false,
+    "platform_impossibility_claimed": false,
+    "natural_EOF_source_reachable": true,
+    "natural_EOF_qualified": false,
+    "all_prospective_variants_retained": true,
+    "no_source_repair_requested_by_packet": true,
+    "requires_independent_root_adjudication": true
+  },
+  "implementation": {
+    "copied_executable_source": false,
+    "modified_executable_source": false,
+    "controller_implemented": false,
+    "source_diffs": [],
+    "source_diffs_not_applicable": "Only design and administrative artifacts were created; unchanged executable subjects are externally pinned."
+  },
+  "scope": {
+    "subject_import_compile_ast_probe_run": false,
+    "current_subject_runtime_observed": false,
+    "fixture_or_controller_execution": false,
+    "operational_cards_created": false,
+    "execution_admitted": false,
+    "focused_attempts_executed": 0,
+    "policy_cases_executed": 0,
+    "scientific_execution": false,
+    "repository_or_git_operations": false,
+    "RET_paused": true,
+    "measurement_separate": true
+  },
+  "administrative_checks": {
+    "dependency_check": {
+      "chunk_id": "ebb60d",
+      "exit_code": 0
+    },
+    "current_design_check": {
+      "chunk_id": "873d31",
+      "exit_code": 0
+    },
+    "preseal_namespace_and_payload_check": {
+      "chunk_id": "63df2b",
+      "exit_code": 0
+    },
+    "prior_failures": "Retained in AUTHOR_CHECKS.json, including raw first checker failure in ADMIN_CHECK_FAILURE.txt. Administrative outcomes are not subject/fault outcomes."
+  },
+  "review_status": "Author and disclosed author-peer checks only; no independent acceptance of RI143.",
+  "stop_rule": "Stop at this exact blocked design. No automatic successor, generic launcher, changed subject/runtime/globals, direct-function substitution, new admission or execution. Root must decide any specific additional observer/fault/producer premise.",
+  "acyclic_binding": "This handoff does not hash itself; the two source manifests do not include current handoff or current payloads in the inherited dependency selection."
+}

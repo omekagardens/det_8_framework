@@ -1,0 +1,223 @@
+{
+  "actual_exit_code": 0,
+  "actual_tool_chunk": "32ad3f",
+  "cases": [
+    {
+      "first_refusal": null,
+      "id": "B01",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B01/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 28
+    },
+    {
+      "first_refusal": {
+        "message": "bootstrap selection provenance absent from closure",
+        "type": "ValueError"
+      },
+      "id": "B02",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B02/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 1
+    },
+    {
+      "first_refusal": {
+        "message": "metadata reference drift",
+        "type": "ValueError"
+      },
+      "id": "B03",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B03/PROVENANCE_DOUBLE.json",
+        "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2"
+      },
+      "trace_length": 9
+    },
+    {
+      "first_refusal": {
+        "message": "accepted direct bootstrap selection provenance",
+        "type": "ValueError"
+      },
+      "id": "B04",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B04/PROVENANCE_DOUBLE.json",
+        "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2"
+      },
+      "trace_length": 19
+    },
+    {
+      "first_refusal": {
+        "message": "closed selected interpreter binding",
+        "type": "ValueError"
+      },
+      "id": "B05",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B05/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 20
+    },
+    {
+      "first_refusal": {
+        "message": "closed selected interpreter binding",
+        "type": "ValueError"
+      },
+      "id": "B06",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B06/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 20
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "id": "B07_path",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_path/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "id": "B07_resolved_path",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_resolved_path/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "id": "B07_symlink_chain",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_symlink_chain/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "id": "B07_bytes",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_bytes/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "id": "B07_sha256",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_sha256/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 21
+    },
+    {
+      "first_refusal": {
+        "message": "genuine preflight selected interpreter identity",
+        "type": "ValueError"
+      },
+      "id": "B07_state",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_state/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 21
+    },
+    {
+      "first_refusal": {
+        "message": "opaque evidence reference drift",
+        "type": "ValueError"
+      },
+      "id": "B08",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B08/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 24
+    },
+    {
+      "first_refusal": {
+        "message": "selected interpreter state drift",
+        "type": "ValueError"
+      },
+      "id": "B09",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B09/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 26
+    },
+    {
+      "first_refusal": {
+        "message": "direct interpreter descriptor",
+        "type": "ValueError"
+      },
+      "id": "B10",
+      "private_bytes": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B10/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+      },
+      "trace_length": 28
+    }
+  ],
+  "checker": {
+    "bytes": 9491,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/check_actual15.py",
+    "sha256": "93a1aa65865bdbbd6b7d0a33734af3dd30da39f5a9050ea590381f6c1477855b"
+  },
+  "child_entries": 33,
+  "child_seconds": 0.382986917,
+  "complete_bootstrap_PRE_POST_equal": true,
+  "complete_operation_identity_unchanged": true,
+  "final_gap_seconds": 0.02544154200000004,
+  "maximum_sample_gap_seconds": 0.043370540999999985,
+  "monitor_attempts": 10,
+  "parent_entries": 43,
+  "peak_sampled_rss_kib": 46896,
+  "remaining": "Separate complete nonauthor actual review, then root actual adjudication; production capture remains separate",
+  "review_input": {
+    "bytes": 28201,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ACTUAL15_REVIEW_INPUT.json",
+    "sha256": "cc05c7cfc41891451003a946b8f632b3aee0fb5978aea32f1dea2fdc06ed2cfa"
+  },
+  "schema": "ri144-root-saved-actual15-reconciliation-v1",
+  "scientific_credit": false,
+  "source_dependencies": 472,
+  "status": "PASS_SAVED_RECORD_AND_CUSTODY_CHECK",
+  "subject_execution_by_this_checker": false
+}

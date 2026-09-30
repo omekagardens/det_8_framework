@@ -1,0 +1,107 @@
+{
+  "WHITE_semantics_accepted": false,
+  "actual_administrative_check": {
+    "chunk_id": "eba9a0",
+    "command": "/usr/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/check_metadata.py",
+    "exit_code": 0
+  },
+  "author_of_reviewed_subject": false,
+  "conclusion": "No complete whole-entry controller is justified under selected unchanged-subject premises. This is a bounded missing-premise conclusion, not platform impossibility or rejection of accepted RI140 source.",
+  "counts": {
+    "F01_variants": 23,
+    "F02_variants": 8,
+    "additions": 27,
+    "dependencies": 450,
+    "dependency_bytes": 171097748,
+    "distinct_mapped_source_lines": 670,
+    "focused_attempts_executed": 0,
+    "full_policy_objects": 139,
+    "inherited_complete_rows_except_role": 423,
+    "policy_cases_executed": 0,
+    "source_ranges": 104,
+    "subject_namespace": 14,
+    "subject_payloads": 13
+  },
+  "critical_caveat_retained": "Directory fsync-first representative requires normal directory finally-close; compound close failure changes the propagated error.",
+  "external_only_historical_diagnostics": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v2.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V2.json"
+  ],
+  "namespace": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_FEASIBILITY_REVIEW.json",
+    "INDEPENDENT_FEASIBILITY_REVIEW.md",
+    "OPAQUE_TEXT_CHECK.json",
+    "REVIEWER_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "payloads": [
+    {
+      "bytes": 5740,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/FINAL_PIN_CHECK.json",
+      "sha256": "9938324acdfd4843f2ee80c7260e1a255c10edc1f5805a594a477263b2174482"
+    },
+    {
+      "bytes": 11073,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/INDEPENDENT_FEASIBILITY_REVIEW.json",
+      "sha256": "a7d2da37e1870c3c130038c84c246d7b7eb1ee1c3569c0af3dae7c972b4146fc"
+    },
+    {
+      "bytes": 20096,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/INDEPENDENT_FEASIBILITY_REVIEW.md",
+      "sha256": "8135e19e8c4228c0b2fd27ca9eca1cde6ceaf71a76f414adc5293cc5f8f7f858"
+    },
+    {
+      "bytes": 47583,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/OPAQUE_TEXT_CHECK.json",
+      "sha256": "e0947a148a105debc9134a00deb91c4d72df32f6fbacd4e242ad211281db2eb1"
+    },
+    {
+      "bytes": 894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/REVIEWER_DIAGNOSTICS.json",
+      "sha256": "de90eb463aef355c2ffa9805053e5099b86ec508d7cd8aba79ba822efc5f13a6"
+    },
+    {
+      "bytes": 12178,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/check_metadata.py",
+      "sha256": "3490e3c6b09f9259d4db0627c39604efe9e5d22a907676d7667be24b7fd01758"
+    }
+  ],
+  "positive_source_reachability_retained": "Natural EOF is reachable at source level; actual independent witness, monitor/custody and genuine completion are pending.",
+  "previous_RI140_review_disclosed": true,
+  "public_review_subset": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_FEASIBILITY_REVIEW.json",
+    "INDEPENDENT_FEASIBILITY_REVIEW.md",
+    "OPAQUE_TEXT_CHECK.json",
+    "REVIEWER_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "recommendation": "ACCEPT_EXACT_BLOCKED_DESIGN_CONCLUSION_FOR_ROOT_ADJUDICATION",
+  "required_repairs": [],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324",
+  "schema": "ri143-independent-feasibility-review-handoff-v1",
+  "scope": {
+    "RET_paused": true,
+    "current_runtime_observation": false,
+    "operational_card_or_admission": false,
+    "repo_git_index_changes": false,
+    "root_acceptance": false,
+    "scientific_body_decoded": false,
+    "source_text_and_metadata_only": true,
+    "subject_or_helper_import_compile_AST_probe_run": false,
+    "successor_assigned": false
+  },
+  "status": "SEALED_INDEPENDENT_BLOCKED_DESIGN_REVIEW_FOR_ROOT_ADJUDICATION",
+  "stop": "Sealed for root adjudication only. Preserve originals and failure records; no execution or controller follow-on is authorized by this review.",
+  "subject_handoff": {
+    "bytes": 6743,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.json",
+    "sha256": "6ffa8638c138ccd481514d6ce8dd835d8c2c17f48e91c4215d80eb1e47546307"
+  },
+  "unrelated_WHITE_authorship_disclosed": true
+}

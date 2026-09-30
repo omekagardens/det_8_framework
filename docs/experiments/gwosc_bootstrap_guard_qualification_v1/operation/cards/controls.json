@@ -1,0 +1,63 @@
+{
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/bootstrap_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+    "--output",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls"
+  ],
+  "controls": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07_path",
+    "B07_resolved_path",
+    "B07_symlink_chain",
+    "B07_bytes",
+    "B07_sha256",
+    "B07_state",
+    "B08",
+    "B09",
+    "B10"
+  ],
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/environment",
+  "genuine_outer_required": true,
+  "independent_source_review": {
+    "bytes": 5103,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/HANDOFF.json",
+    "sha256": "fb2ccb6ea23abd009db852c56fa2ac6e33f1c0b54a5b1db9324722e05ca214fb"
+  },
+  "launcher_handoff": {
+    "bytes": 9005,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/HANDOFF.json",
+    "sha256": "2c0da438ab15490d4f3c5ac4c557ef2ddedc879d8f97def7f77537fbd5588796"
+  },
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls",
+  "schema": "ri144-root-bootstrap-control-admission-v1",
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 162285,
+      "sha256": "255ee1f97126e79ad31f2d2e00bcb1b513f23422051be7b1fba99b97b8b76f5d"
+    },
+    "bootstrap_controls.source-only.py": {
+      "bytes": 20413,
+      "sha256": "730ee9164db2b74bea0206b0222724710fb23b00b98217ff2cf4f15027929483"
+    },
+    "launch_controls.source-only.py": {
+      "bytes": 26035,
+      "sha256": "458732fd274d525ba1fb8ac3b7985796cea0b490d964ec7ec5edf0421c6fe289"
+    }
+  },
+  "status": "AUTHORIZE_ONLY_FIFTEEN_ISOLATED_BOOTSTRAP_EXPECTATIONS",
+  "target_handoff": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  }
+}

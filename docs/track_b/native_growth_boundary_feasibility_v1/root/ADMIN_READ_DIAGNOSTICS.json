@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "chunk": "637dbc",
+      "exit_code": 1,
+      "reason": "Assumed review filename missing; no source mutation"
+    },
+    {
+      "chunk": "79a0fa",
+      "exit_code": 1,
+      "reason": "Handoff read succeeded; assumed verdict filename missing"
+    },
+    {
+      "chunk": "a6fce6",
+      "exit_code": 0,
+      "reason": "Exact handoff-named complete review and verdict read"
+    },
+    {
+      "chunk": "ff5b6b",
+      "exit_code": 0,
+      "reason": "Repository-wide AGENTS search pipeline emitted unrelated missing build-cache directory warnings; no applicable repository AGENTS found; not a proof of complete wider-tree search"
+    }
+  ],
+  "previous_initial_failure": {
+    "bytes": 252,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/INITIAL_CHECK_FAILURE.json",
+    "sha256": "7e5f38640bbec37bf284fb553a73effbb62814b1016c8278c8da43f1e5b5bf5d"
+  },
+  "schema": "ri143-root-administrative-read-diagnostics-v1"
+}

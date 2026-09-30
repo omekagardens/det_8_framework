@@ -1,0 +1,20 @@
+Administrative check cb9b5e exited 1. This is preserved as a failed author check, not a subject/fault result.
+The checker assumed dispatcher identities were top-level in the new design-only schema; inspect the actual grouping before a corrected check.
+
+[stdin]:3
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex'),j=p=>JSON.parse(fs.readFileSync(p,'utf8')),fail=s=>{throw Error(s);};
+                                                                                                                      ^
+
+Error: dispatcher dispatcher
+    at fail ([stdin]:3:125)
+    at [stdin]:18:160
+    at runScriptInThisContext (node:internal/vm:219:10)
+    at node:internal/process/execution:451:12
+    at [stdin]-wrapper:6:24
+    at runScriptInContext (node:internal/process/execution:449:60)
+    at evalFunction (node:internal/process/execution:283:30)
+    at evalTypeScript (node:internal/process/execution:295:3)
+    at node:internal/main/eval_stdin:51:5
+    at ReadStream.<anonymous> (node:internal/process/execution:205:5)
+
+Node.js v25.3.0
