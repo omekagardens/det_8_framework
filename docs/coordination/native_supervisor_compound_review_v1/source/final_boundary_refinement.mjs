@@ -1,0 +1,7 @@
+// Bounded unsealed author correction; retain every preceding administrative result.
+import fs from 'node:fs';const D='/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo';let t=fs.readFileSync(D+'/check_saved.py','utf8');
+function r(a,b){if(t.split(a).length!==2)throw Error('missing/nonunique '+a.slice(0,80));t=t.replace(a,b)}
+r("        if obligation['subject_reap']=='reaped' and receipt is not None:", "        if obligation['subject_reap']=='incomplete' and receipt is not None:\n            check('declared incomplete subject has no invented reap or code',receipt['caller_reaped'] is False and receipt['caller_returncode'] is None and receipt['observed_cleanup'] is False)\n        if obligation['subject_reap']=='reaped' and receipt is not None:");
+r("        check('recovery exact acquired identity '+str(expected['handle_id']),{k:actual.get(k) for k in ('handle_id','kind','pid')}=={k:expected[k] for k in ('handle_id','kind','pid')})", "        check('recovery exact acquired identity '+str(expected['handle_id']),type(actual.get('handle_id')) is int and type(actual.get('pid')) is int and type(actual.get('kind')) is str and {k:actual.get(k) for k in ('handle_id','kind','pid')}=={k:expected[k] for k in ('handle_id','kind','pid')})");
+fs.writeFileSync(D+'/check_saved.py',t);
+for(const name of ['ADMIN_CHECK.json','SOURCE_PINS.json','DEPENDENCY_BINDINGS.json','SOURCE_DIFF.patch'])fs.renameSync(D+'/'+name,D+'/'+name.replace(/\.(json|patch)$/,'.pre-final.$1'));

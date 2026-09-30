@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const D='/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo';
+function edit(n,fn){let t=fs.readFileSync(D+'/'+n,'utf8');const r=(a,b)=>{if(t.split(a).length!==2)throw Error(n+': '+a.slice(0,70));t=t.replace(a,b)};fn(r);fs.writeFileSync(D+'/'+n,t)}
+edit('case_worker.py',r=>r("            report['return'] = inst.original['process_snapshot'](time.monotonic_ns()+400000000, report['journal'].append)","            observer_deadline = time.monotonic_ns()+400000000\n            inst.event('observer_entry', deadline_monotonic_ns=observer_deadline)\n            report['return'] = inst.original['process_snapshot'](observer_deadline, report['journal'].append)"));
+edit('check_saved.py',r=>{
+r('"S13.journal_cap": {"kind":"whole","fault":"journal_cap","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":0,"stderr":0},"subject_reap":"reaped"}', '"S13.journal_cap": {"kind":"whole","fault":"journal_cap","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":0},"subject_reap":"reaped"}');
+r("'sync_base_complete':{'ordinal'}, 'leaf_recovery_signal':{'identity','signal'},", "'sync_base_complete':{'ordinal'}, 'leaf_recovery_signal':{'identity','signal'}, 'observer_entry':{'deadline_monotonic_ns'},");
+r("        return at\n", "        if event=='read_error':\n            check('first read on same pipe is injected '+message,not any(i<at for i in indices('read',input_tag)))\n        return at\n");
+r("                finish=min(report['entry_start_monotonic_ns']+400000000,record['start_monotonic_ns']+400000000)", "                invocation=events('observer_entry')\n                check('literal observer call deadline recorded',len(invocation)==1 and type(invocation[0]['deadline_monotonic_ns']) is int and 0<invocation[0]['deadline_monotonic_ns']-invocation[0]['monotonic_ns']<=400000000)\n                finish=min(invocation[0]['deadline_monotonic_ns'],record['start_monotonic_ns']+400000000)");
+});
+let j=JSON.parse(fs.readFileSync(D+'/CASE_OBLIGATIONS.json'));j.rows.find(r=>r.id==='S13.journal_cap').healthy.stdout=64;fs.writeFileSync(D+'/CASE_OBLIGATIONS.json',JSON.stringify(j,null,2)+'\n');

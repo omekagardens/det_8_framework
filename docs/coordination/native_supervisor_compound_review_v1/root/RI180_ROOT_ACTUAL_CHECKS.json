@@ -1,0 +1,16 @@
+{
+  "schema": "ri180-root-actual-checks-v1",
+  "checks": [
+    {"chunk_id": "d6a48b", "exit_code": 0, "scope": "Complete targeted caller and observer branches, worker event wrappers, unchanged subject cleanup."},
+    {"chunk_id": "7a51a6", "exit_code": 0, "scope": "Complete independent V2 administrative checker read; no import or execution."},
+    {"chunk_id": "6cfc42", "exit_code": 0, "scope": "Root whole identities and exact subject/review namespace authentication; all98 independent inputs unchanged."},
+    {"chunk_id": "f07d07", "exit_code": 0, "scope": "Root adjudication and exclusive RI182 repair assignment metadata."}
+  ],
+  "diagnostics": [
+    {"chunk_id": "9007be", "exit_code": 2, "scope": "Initial search used nonexistent REVIEW_BACKLOG.md; corrected to PUBLICATION_BACKLOG.md, no mutation."},
+    {"scope": "Combined display was clipped; publication helpers/checkpoint/metadata sources and tables recovered in complete 5ba917; targeted source and V2 reads recovered in d6a48b and7a51a6. No claim of full root reread of all subject modules."}
+  ],
+  "subject_execution": false,
+  "qualification_admitted": false,
+  "ret_paused": true
+}

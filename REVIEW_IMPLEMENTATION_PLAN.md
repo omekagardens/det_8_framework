@@ -1,32 +1,33 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 30 September 2026 UTC.** RI175 is independently accepted:
-the unchanged-prefix normalized intercept I=a/Q is strictly increasing on
-0<x<=R. The proof uses the historically certified RI122 monic quadratic sign,
-reconciled through RI127 and RI145 to the same q. It is new algebra from an
-accepted finite premise, not a recomputation or a general-axiom-only sign proof.
-All canonical corrections, three signed products and lower-end cases remain.
+**Current checkpoint — 30 September 2026 UTC.** RI178 is independently accepted:
+full curved-domain W<=0 is equivalent to I(R)<=0 alone, without the earlier
+slope-regime premise. Both complete reference complements and the upper
+boundary J increase. More strongly, I(x)<=0 implies J(x)<-1/(2d(x))<=-1/12.
+This makes the upper-endpoint comparison redundant for this sign test.
 
-The intercept requirement is now exactly I(R)<=0. Under RI173's separately
-conditional slope regime v<=T_R, this is equivalent to full-domain W<=0;
-equality still gives strict W<0 at every allowed positive y. The remaining
-comparison is v>B and q(R)>=12lambda*G_*R^2*v/(v-B). Actual slope-regime
-membership, that endpoint comparison and W(rho,s) remain unresolved.
+If I(R)<=0, W is strictly negative at every allowed positive-y point.
+At I(R)=0 the zero supremum is unattained because y=0 is excluded. If I(R)>0,
+formal sufficiently small positive-y points at R violate full-domain
+nonpositivity, but this does not place the actual pair (rho,s).
+The remaining exact comparison is v>B_cap and
+q(R)>=12lambda*G_*R^2*v/(v-B_cap). Its actual sign is still unresolved.
 
-The complete source and independent root review are in
-`docs/track_b/native_same_law_intercept_v1/`. Root's actual metadata replay
-matched 313 dependencies, all 300 inherited rows, 3,634 historical and 157
-current typed references, four byte-equal pairs and 321 fresh whole identities.
-Those are provenance checks, not mathematical execution. The historical
-literal-read exception remains bounded and does not expand runtime authority.
+The complete proof and independent root review are in
+`docs/track_b/native_single_endpoint_criterion_v1/`. Root's actual metadata
+replay matched 325 sources, all 313 inherited rows, 4,120 historical and 168
+current typed references, four separate byte-equal pairs and 333 fresh whole
+identities. These establish provenance, not mathematical execution. The
+historically certified finite q-sign premise remains explicit; all canonical
+corrections and labeled multiplicities remain in the proof.
 
-RI-178 is assigned to the existing Quantum Relativity task after RI175's
-independent adjudication. Determine whether the upper-y boundary
-J(x)=W(x,1/d(x))/r also strictly increases without the slope-regime assumption.
-A proved result would reduce the full curved-domain question to the two
-boundary comparisons at R. This is active proof work, not an accepted sign.
-RI173's conditional slope result and RI172's finite-layer nonimplication
-remain unchanged; no altered-law family replaces the actual prefix.
+RI-181 is assigned to the existing Quantum Relativity task after RI178's
+independent acceptance. Derive the complete proper-potential sum for the new
+six-parent C2 ordinal-sum A4, including all 17 proper ideals and marked records,
+and determine whether it strengthens the global-M6 lower bound. A proved
+smaller cap could sharpen actual-scale containment and the I endpoint test.
+This is a native candidate question, not an accepted bound or sign.
+RI147's five-parent bounds and RI157's inactive-F result remain unchanged.
 
 RI-174 completed one genuine measurement metadata copy after fresh source,
 vendor, namespace, tools and host checks. Tool d49fc5 exited zero. Root's
@@ -47,17 +48,18 @@ arithmetic remain separate. No scientific analysis ran during the copy.
 Conventional GWOSC reproduction, calibration/protected validation and the
 native forward map remain unfinished.
 
-RI-171's prospective 92-case supervisor qualification is rejected for source
-repair. Nonauthor review and root tracing identify five groups of defects:
-caller read faults can hit ps; late-observer checks are shadowed; ordinary
-failures can pass using only a receipt candidate; defining sibling/reap/kill
-and recovery obligations are missing; stderr hash drift instead changes size.
-The sealed source and review are preserved in
-`docs/coordination/native_supervisor_qualification_review_v1/`. The independent
-3,525-predicate metadata check establishes inventory consistency only.
-RI-176 assigns the original worker a focused source-only repair, with explicit
-prospective negative oracle checks and unchanged subject limits. All 92 controls,
-2,547 native cases per mode, original-vector audit and QP04 remain unexecuted.
+RI-176's source repair has received complete nonauthor RI180 review and
+bounded independent root tracing. F01/F02/F03/F05 and the main F04 repairs
+are present, but compound cleanup checking still omits exact caller secondary
+receipt errors and rejects no attempts after a successful close. Qualification
+remains withheld. The sealed source, complete independent review, preserved
+failed diagnostics and root disposition are in
+`docs/coordination/native_supervisor_compound_review_v1/`.
+The independent 6,972-predicate check and root reobservation of all 98 inputs
+are provenance checks only. RI-182 assigns the original worker that narrow
+saved-checker repair and prospective omission/repeat-attempt controls.
+All 92 supervisor controls, 2,547 native cases per mode, original-vector audit
+and QP04 remain unexecuted; immutable RI169 and all original limits remain.
 
 Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
 512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. Preserve
@@ -115,7 +117,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-178 upper-y boundary monotonicity active after RI-175 acceptance. Actual grid/capacity/H30 remain open. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-181 four-cap parent proper-potential bound active after RI-178 acceptance. Actual grid/capacity/H30 remain open. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | Explicitly paused. G2 and calibration obligations remain historical open items; no RET work resumes without the user lifting that pause. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -148,9 +150,9 @@ Active file reservations, updated 30 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task and coordinator reviewers | QR owns RI166; existing author owns RI167 supervisor repair. Root owns source/outcome review, admission and Git. |
+| QR task and coordinator reviewers | QR owns exclusive external RI181 native-parent reservation; original author owns external RI182 compound-cleanup repair. RI178, RI176 and RI180 sealed sources are immutable. Root owns adjudication, admissions and Git. |
 | Native current-runtime review | Native scientific execution remains separately gated; RI-151 analytic formula accepted. Root owns future admissions. |
-| Measurement source implementation/review | Actual 106 controls completed under genuine root admission; complete independent outcome review active. Later current-E/WHITE/GWOSC remain separate. |
+| Measurement source implementation/review | Accepted RI174 copy remains in its reserved E. Root owns fresh current-E runtime-capture preflight/admission, then independent baseline review and profiles; actual WHITE/GWOSC stages remain separate. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -257,9 +259,13 @@ Active file reservations, updated 30 September UTC:
 | RI-173 same-law weighted endpoint slope | Conditional same-law slope theorem independently accepted; actual regime and weighted sign unresolved. |
 | RI-174 genuine measurement exact copy | One admitted48-file copy and independent full outcome/custody replay accepted. |
 | RI-175 same-law intercept monotonicity | Independently accepted unchanged-prefix intercept monotonicity; conditional full-domain endpoint criterion. |
-| RI-176 supervisor qualification source repair | Original worker assigned five independently reviewed defect groups. |
+| RI-176 supervisor qualification source repair | Sealed source reviewed; F04-R compound cleanup oracle repair required before qualification. |
 | RI-177 independent intercept review | Complete manual proof and 321-identity provenance replay accepted. |
-| RI-178 upper-y boundary monotonicity | Assigned to existing QR after RI175 independent acceptance. |
+| RI-178 upper-y boundary monotonicity | Independently accepted full-domain W<=0 iff I(R)<=0 without the slope regime; actual comparison unresolved. |
+| RI-179 independent upper-boundary review | Complete proof review and 333-identity provenance replay accepted. |
+| RI-180 independent supervisor repair review | Complete nonauthor review and root corroboration require narrow F04-R repair. |
+| RI-181 four-cap parent proper potential | Existing QR assigned complete C2 ordinal-sum A4 marked-parent bound after RI178 acceptance. |
+| RI-182 compound cleanup oracle repair | Existing original author assigned exact secondary-error and once-closed lifecycle repair. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |

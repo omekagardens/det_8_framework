@@ -1,0 +1,113 @@
+{
+  "schema": "ri178-upper-boundary-monotonicity-handoff-v1",
+  "status": "SEALED_AUTHOR_THEOREM_INDEPENDENT_REVIEW_PENDING",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri177-root-intercept-review-va0vbeed/RI178_NATIVE_ASSIGNMENT.json",
+    "bytes": 3609,
+    "sha256": "faa9d2e4bc74829d35d3df86709fc5558e84933cc3c1b0a3d9a5c3ff6faa8f34"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri177-root-intercept-review-va0vbeed/RI175_ROOT_ADJUDICATION.json",
+    "bytes": 1351,
+    "sha256": "ac20e55477f8aba61e517282a5e20582658c57c45c85d103db78cfe974baf444"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "REFERENCE_COMPLEMENTS.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "UPPER_BOUNDARY.md"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/AUTHOR_CHECKS.json",
+      "bytes": 22210,
+      "sha256": "ad37453e3cc7e415ce311ed20feca74a1a66ec81363cb1612faf06833b53bb17"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/DEPENDENCY_NOTES.md",
+      "bytes": 16109,
+      "sha256": "55ee88c85f737fd3f4c86c81f27badb5b10b04384eb322b43a9cd4bc01e00ca1"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/HANDOFF.md",
+      "bytes": 3333,
+      "sha256": "468110a46da80e3a5dd3d6a4a8d0ab3625b670fe51c71af33fd0e21b9b5c00bc"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/REFERENCE_COMPLEMENTS.md",
+      "bytes": 10724,
+      "sha256": "bdcac3f281af544690323f8bfd82588ba28a920e2f04fd596f01a868633ef949"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/SOURCE_DEPENDENCIES.json",
+      "bytes": 298777,
+      "sha256": "d478343f33a6a845084a9747d7b92f673a6692a5de05b545d1f90e16a7f29e49"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/SOURCE_IDENTITIES.json",
+      "bytes": 81026,
+      "sha256": "6b7493d2243593cf2231265c9cd37061b08197b94797a5797ac9e73a9d734390"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/UPPER_BOUNDARY.md",
+      "bytes": 13039,
+      "sha256": "89edbbe412a3d3be14f07d168186d2452ed90672df12953626f2292da7fcb5fc"
+    }
+  ],
+  "results": {
+    "reference_complements": "Both 1-U20/d and 1-U30/d strictly increase. Their complete quotient numerators exceed127/128 and67/24 respectively; canonical singleton corrections and all labeled multiplicities retained.",
+    "upper_boundary": "J(x)=W(x,1/d(x))/r is strictly increasing on0<x<=R, without assuming v<=T_R. Uses accepted RI175q>0,qprime<0,q0>0, positive increasing complete reference complements, and the full varying denominator derivative.",
+    "lower_limits": "Both I(x) and J(x) tend to-1 asx tends to0 from above for the unchanged actual prefix.",
+    "two_endpoint_criterion": "W<=0 throughout0<x<=R,0<y<=1/d(x) iffI(R)<=0 andJ(R)<=0; W/r=(1-dy)I+dyJ.",
+    "pointwise_domination": "I(x)<=0 impliesJ(x)<-1/(2d(x))<=-1/12<0, using u+t<=1, E_add<99/128<1 andmin(U20,U30)>3/2. No slope sign is inferred.",
+    "single_endpoint_criterion": "W<=0 on the full curved domain iffI(R)<=0, with no RI173 slope-regime premise. If it holds, W<0 at every allowed positive-y point.",
+    "supremum_and_equality": "sup(W/r)=max(I(R),J(R)); sup(W)=r times that maximum. IfI(R)=0, J(R)<-1/12, so the supremum0 is unattained becausey=0 is excluded. CasesI(R)<=0,J(R)=0 anddouble-zero are excluded by domination.",
+    "positive_endpoint": "IfI(R)>0, formal sufficiently small positivey atx=R violates full-domain nonpositivity; no actualrho,s is placed.",
+    "remaining_comparison": "I(R)<=0 iff v>B_cap andq(R)>=12lambda*G_*R^2*v/(v-B_cap), B_cap=12lambda*j0*R/(1-R). This actual-prefix comparison remains undecided."
+  },
+  "reference_complements_increasing": true,
+  "upper_boundary_increasing": true,
+  "pointwise_intercept_domination_proved": true,
+  "single_endpoint_iff_without_slope_regime": true,
+  "full_canonical_substitution_retained": true,
+  "historical_certified_derivative_sign_used": true,
+  "historical_sign_recomputed": false,
+  "current_ri122_literal_reread_performed": false,
+  "pure_general_axiom_only_derivation_claimed": false,
+  "slope_regime_determined": false,
+  "endpoint_comparison_decided": false,
+  "actual_W_sign_claimed": false,
+  "actual_109_vector_read": false,
+  "scientific_execution": false,
+  "independent_acceptance_claimed": false,
+  "new_agent_or_thread_created": false,
+  "repository_or_git_writes": false,
+  "physical_claim": false,
+  "ret_paused": true,
+  "provenance_scope": "325 selected sources, all313 inherited rows and six inherited boundary/exception objects unchanged. RI175 author history newly opaque. RI122 final decision remains opaque to automated traversal; the current assignment's optional bounded literal reread was not used. Four separate-path byte-equality pairs retain distinct identities.",
+  "checks": {
+    "preseal_receipt": "faecca",
+    "preseal_exit_code": 0,
+    "preseal_sources": 325,
+    "preseal_fresh_checks": 331,
+    "prior_failed_checker_receipt": "78eae3",
+    "prior_failed_checker_reason": "Initial administrative checker expected112 analytic text rows instead of117. Corrected count only; no scientific calculation or source mutation. Failure and exact adaptation preserved in AUTHOR_CHECKS.json.",
+    "author_checks_pin_receipt": "b95482",
+    "peer_final_normalization_check": "c3fff7",
+    "final8": "Externally reported after sealing; not preclaimed in this file."
+  },
+  "unchanged_obligations": "P2/P3,Y=1/4,31/139/20/42,sharedT1,other eight parents,fiveDi,strict endpoints,every labeled occurrence and the unchanged actual prefix. RET paused; measurement and RI176 separately owned.",
+  "stopping_boundary": "Stop at sealed author handoff. Coordinator/root owns independent acceptance, next assignment, execution admission and repository/index/Git/publication. No actual endpoint,W,C2/C3,capacity,H30,full continuation or physical conclusion is promoted."
+}

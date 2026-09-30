@@ -1,0 +1,40 @@
+// Administrative final identity check/seal; no subject or Python execution.
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';
+const D='/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo';
+function pin(p){let b=fs.readFileSync(p);return {path:p,bytes:b.length,sha256:crypto.createHash('sha256').update(b).digest('hex')}}
+function put(n,v){fs.writeFileSync(D+'/'+n,JSON.stringify(v,null,2)+'\n',{flag:'wx'})}
+const record={schema:'ri176-actual-admin-tool-records-v1',all_subject_cases_unexecuted:true,source_import_compile_AST_probe:false,failed_admin_commands:[],display_diagnostics:[{tool:'261fa3',exit_code:0,issue:'Combined display truncated; not credited as complete read',recovery_tool:'e0f83b',recovery_exit_code:0,scope:'Final six recipe objects and saved checker tail re-read completely'}],commands:[
+{tool:'a8d449',exit_code:0,kind:'read',description:'Full assignment/root decision/independent review handoff, prior context retained'},
+{tool:'fe098e',exit_code:0,kind:'read',description:'Complete independent review'},
+{tool:'efc329',exit_code:0,kind:'read',description:'Complete predecessor check_saved.py'},
+{tool:'848530',exit_code:0,kind:'read',description:'Complete predecessor case_worker.py'},
+{tool:'2525ff',exit_code:0,kind:'read',description:'Full assignment/protocol/controller/payload'},
+{tool:'039b75',exit_code:0,kind:'read',description:'Relevant unchanged subject pump, observer and finalization spans'},
+{tool:'d836fa',exit_code:0,kind:'Node metadata',description:'Authenticated four exact assignment/decision/handoff identities; read exact manifest metadata; copied six active source/manifest files exclusively'},
+{tool:'570ad0',exit_code:0,kind:'read',description:'Observer completion tail and retained three interface documents'},
+{tool:'a9e6b4',exit_code:0,kind:'Node metadata',description:'Read complete direct dependency map/role pins and administrative manifest recipe example'},
+{tool:'a71acb',exit_code:0,kind:'Node source editing',command:'/opt/homebrew/bin/node '+D+'/author_repair.mjs'},
+{tool:'0f6f22',exit_code:0,kind:'Node source editing',command:'/opt/homebrew/bin/node '+D+'/repair_oracle.mjs'},
+{tool:'bd4519',exit_code:0,kind:'Node source editing',command:'/opt/homebrew/bin/node '+D+'/refine_source.mjs'},
+{tool:'d9fe75',exit_code:0,kind:'Node source editing',command:'/opt/homebrew/bin/node '+D+'/complete_obligations.mjs'},
+{tool:'956803',exit_code:0,kind:'document write',description:'Source-only repair contract and prospective negative-oracle plan'},
+{tool:'c6f5d7',exit_code:0,kind:'Node metadata',description:'Inspected original sealed namespaces/payload shape'},
+{tool:'2c96e7',exit_code:0,kind:'read',description:'Bounded final source spans; no source execution'},
+{tool:'feb023',exit_code:0,kind:'Node metadata',command:'/opt/homebrew/bin/node '+D+'/check_admin.mjs',result:{passed:true,checks:266,fresh_external_identities:64,unchanged_function_text_spans:47,cases_executed:0},disposition:'Preserved as pre-final metadata after two small author boundary refinements'},
+{tool:'e0f83b',exit_code:0,kind:'read',description:'Final source tail and complete six remaining recipe objects'},
+{tool:'271c59',exit_code:0,kind:'Node source editing plus metadata',commands:['/opt/homebrew/bin/node '+D+'/final_boundary_refinement.mjs','/opt/homebrew/bin/node '+D+'/check_admin.mjs'],result:{passed:true,checks:266,fresh_external_identities:64,unchanged_function_text_spans:47,cases_executed:0}},
+{tool:'74bec0',exit_code:0,kind:'document write and Node literal metadata',description:'Schema delta, author record, prospective command adaptation and exact line response map'}
+],final_sealing_invocation:'/opt/homebrew/bin/node '+D+'/seal_metadata.mjs',seal_tool_receipt:'Reported separately to root; not fabricated inside its own pre-return artifact.'};
+put('ADMIN_TOOL_RECORDS.json',record);
+const check=JSON.parse(fs.readFileSync(D+'/ADMIN_CHECK.json'));
+let got=[];for(const x of [...check.fresh_external_identities,...Object.values(check.source_roles)]){const p=pin(x.path);if(p.bytes!==x.bytes||p.sha256!==x.sha256)throw Error('identity drift '+x.path);got.push(p)}
+put('FINAL_CHECK.json',{schema:'ri176-final-identity-check-v1',passed:true,checked_references:got.length,identities:got,current_runtime_observed:false,subject_or_fixture_executed:false});
+const sourcepins=JSON.parse(fs.readFileSync(D+'/SOURCE_PINS.json'));
+const addnames=['PUBLICATION_SUBSET.json','HANDOFF.json'];
+const finalnames=[...fs.readdirSync(D),...addnames].sort();
+put('PUBLICATION_SUBSET.json',{schema:'ri176-publication-subset-v1',status:'SOURCE_ONLY_NOT_ACCEPTED',include_relative_files:finalnames,external_only_preserved:check.fresh_external_identities,notes:['All local source, author scripts, plans, administrative diagnostics and inactive pre-final metadata are included; no fixture trees exist.','Pinned predecessor source/reviews/failures remain external historical dependencies.','The inherited 325-reference provenance is retained through exact pins, not fresh runtime capture.','Root owns publication; this file causes no repository or Git operation.']});
+let payloads=fs.readdirSync(D).sort().map(n=>pin(D+'/'+n));
+put('HANDOFF.json',{schema:'ri176-source-repair-handoff-v1',status:'UNEXECUTED_F01_F05_REPAIR_REQUIRES_NONAUTHOR_REVIEW',reservation:D,owner:'/root/ri116_complete_caller_review',authorship:'Same author as RI171 and RI165/167/169; saved oracle is a separately implemented interpretation, not nonauthor acceptance. Prior RI125 primary/qualifier and RI131 authorship disclosed.',namespace:finalnames,payloads,source_roles:sourcepins.roles,assignment:check.fresh_external_identities.find(p=>p.path.endsWith('/RI176_REPAIR_ASSIGNMENT.json')),root_predecessor:check.fresh_external_identities.find(p=>p.path.endsWith('/RI171_ROOT_ADJUDICATION.json')),independent_findings:check.fresh_external_identities.find(p=>p.path.endsWith('/INDEPENDENT_REVIEW.md')),response:pin(D+'/REVIEW_RESPONSE.md'),contract:pin(D+'/REPAIR_CONTRACT.md'),groups:13,cases:92,recipes:34,entry_counts:check.entry_counts,manifest_and_driver_byte_identical:true,protocol_only_fixed_source_directory_change:true,unchanged_subject:sourcepins.roles.subject,source_lines:Object.fromEntries(['protocol.py','qualify_supervisor.py','case_worker.py','inert_payload.py','check_saved.py'].map(n=>[n,fs.readFileSync(D+'/'+n,'utf8').split('\n').length-1])),actual_checks:{administrative:266,fresh_external_identities:64,unchanged_plain_function_spans:47,subject_cases_executed:0,oracle_rejection_plans_executed:0,failed_admin_commands:0},oracle_mutation_plan_families:26,source_execution_or_import_compile_AST_probe:false,runtime_or_vendor_observation:false,scientific_decode_or_evaluation:false,fixtures_or_operational_cards_created:false,repo_git_or_agents:false,prior_failures_and_seals_preserved:true,root_owns_adjudication_admission_execution:true,remaining_prerequisites:['Fresh complete nonauthor review and root source adjudication.','Concrete source/runtime/vendor/host and genuine outer deadline preflight.','All92 separately admitted genuine outcomes and the prospective oracle mutation checks.','Genuine clock cases and resolution of every external recovery obligation.','No native, scientific, measurement, calibration or physical acceptance inferred.'],limits_unchanged:{outer_seconds:315,term_seconds:310,kill_seconds:312,observer_work_seconds:0.2,observer_cleanup_seconds:0.2,stream_bytes:8388608,journal_bytes:67108864,ps_bytes:262144,receipt_bytes:262144,controller_collection_seconds:335,new_subject_cleanup_budget:false},RET:'paused',immutable_after_seal:true});
+if(JSON.stringify(fs.readdirSync(D).sort())!==JSON.stringify(finalnames))throw Error('sealed namespace mismatch');
+const h=JSON.parse(fs.readFileSync(D+'/HANDOFF.json'));for(const x of h.payloads){let y=pin(x.path);if(y.bytes!==x.bytes||y.sha256!==x.sha256)throw Error('seal payload changed')}
+console.log(JSON.stringify({handoff:pin(D+'/HANDOFF.json'),namespace:finalnames.length,payloads:payloads.length,final_identity_references:got.length,executed_cases:0}));

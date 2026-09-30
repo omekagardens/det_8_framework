@@ -1,0 +1,65 @@
+{
+  "actual_case_outcomes": 0,
+  "actual_mutation_outcomes": 0,
+  "cases": 92,
+  "decision": "REQUIRE_NARROW_F04_R_REPAIR_BEFORE_QUALIFICATION_ADMISSION",
+  "findings": [
+    {
+      "caller_cases": [
+        "S10.caller.stdout.unregister_close",
+        "S10.caller.stderr.unregister_close"
+      ],
+      "counterpaths": [
+        "Omit caller unregister and/or pipe_close secondary triples from consistently rebound candidate/completion while retaining exact injected events, primary, buffers, reap and ordinary terminal evidence. No caller predicate rejects the lost subject errors.",
+        "Retain one successful retry, then add subsequent same-pipe unregister/close attempts; current any-later-close predicates do not enforce the inherited successful-closes-not-repeated requirement."
+      ],
+      "executed_counterexample": false,
+      "id": "F04-R",
+      "lifecycle_cases": [
+        "S10.caller.stdout.unregister_close",
+        "S10.caller.stderr.unregister_close",
+        "S10.ps.stdout.unregister_close",
+        "S10.ps.stderr.unregister_close"
+      ],
+      "locations": [
+        "check_saved.py:272-276",
+        "check_saved.py:461-465",
+        "check_saved.py:568-570",
+        "case_worker.py:201-203",
+        "case_worker.py:350-358",
+        "case_worker.py:399-403",
+        "RI169/supervise_native.py:116-136"
+      ],
+      "required_repair": [
+        "Require both exact caller secondary triples in their source-derived order after primary.",
+        "Require eventual successful retry and no unregister/close attempts after success for the compound failed pipe and successfully closed sibling.",
+        "Add isolated prospective caller-error-removal and repeat-after-success oracle mutations, preserving actual matched positive and separate synthetic admission boundaries."
+      ],
+      "severity": "blocking",
+      "title": "Complete compound cleanup receipt and once-closed lifecycle assertions remain missing"
+    }
+  ],
+  "mutation_plan_families": 26,
+  "new_source_lines_read": 1576,
+  "nonauthor": true,
+  "prior_findings": {
+    "F01": "MAIN_SOURCE_DEFECT_REPAIRED",
+    "F02": "MAIN_SOURCE_DEFECT_REPAIRED",
+    "F03": "MAIN_SOURCE_DEFECT_REPAIRED",
+    "F04": "MAIN_BUFFER_KILL_REAP_RECOVERY_REPAIRS_PRESENT_WITH_F04_R_RESIDUAL",
+    "F05": "MAIN_SOURCE_DEFECT_REPAIRED"
+  },
+  "prior_roles": "Independent RI171/RI165 reviewer; unrelated earlier WHITE validator/caller/bootstrap author.",
+  "qualification_accepted": false,
+  "recipes": 34,
+  "ret_paused": true,
+  "root_owns_adjudication_repairs_admission_publication": true,
+  "schema": "ri180-independent-source-verdict-v1",
+  "source_execution": false,
+  "subject": {
+    "bytes": 14679,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/HANDOFF.json",
+    "sha256": "572fe0bfc79489dc3b9c4a6df9bc4d7bbb0ff455de1c68eb2fbb00e6d870421e"
+  },
+  "unchanged_subject_lines_read": 588
+}

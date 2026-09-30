@@ -1,0 +1,18 @@
+{
+  "schema": "ri181-dispatch-record-v1",
+  "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI181_NATIVE_ASSIGNMENT.json",
+    "bytes": 4422,
+    "sha256": "e76e3d76f52c89e0d8acf7c36312daffbb8fa137e1aaaefe6ec6fd983fd25d44"
+  },
+  "actual_tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a074c4-4b09-76a3-8cb2-0caf116f6b9c\"}"
+      }
+    ],
+    "isError": false
+  }
+}

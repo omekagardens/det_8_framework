@@ -1,32 +1,33 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 30 September 2026 UTC.** RI175 is independently accepted:
-the unchanged-prefix normalized intercept I=a/Q is strictly increasing on
-0<x<=R. The proof uses the historically certified RI122 monic quadratic sign,
-reconciled through RI127 and RI145 to the same q. It is new algebra from an
-accepted finite premise, not a recomputation or a general-axiom-only sign proof.
-All canonical corrections, three signed products and lower-end cases remain.
+**Current checkpoint — 30 September 2026 UTC.** RI178 is independently accepted:
+full curved-domain W<=0 is equivalent to I(R)<=0 alone, without the earlier
+slope-regime premise. Both complete reference complements and the upper
+boundary J increase. More strongly, I(x)<=0 implies J(x)<-1/(2d(x))<=-1/12.
+This makes the upper-endpoint comparison redundant for this sign test.
 
-The intercept requirement is now exactly I(R)<=0. Under RI173's separately
-conditional slope regime v<=T_R, this is equivalent to full-domain W<=0;
-equality still gives strict W<0 at every allowed positive y. The remaining
-comparison is v>B and q(R)>=12lambda*G_*R^2*v/(v-B). Actual slope-regime
-membership, that endpoint comparison and W(rho,s) remain unresolved.
+If I(R)<=0, W is strictly negative at every allowed positive-y point.
+At I(R)=0 the zero supremum is unattained because y=0 is excluded. If I(R)>0,
+formal sufficiently small positive-y points at R violate full-domain
+nonpositivity, but this does not place the actual pair (rho,s).
+The remaining exact comparison is v>B_cap and
+q(R)>=12lambda*G_*R^2*v/(v-B_cap). Its actual sign is still unresolved.
 
-The complete source and independent root review are in
-`docs/track_b/native_same_law_intercept_v1/`. Root's actual metadata replay
-matched 313 dependencies, all 300 inherited rows, 3,634 historical and 157
-current typed references, four byte-equal pairs and 321 fresh whole identities.
-Those are provenance checks, not mathematical execution. The historical
-literal-read exception remains bounded and does not expand runtime authority.
+The complete proof and independent root review are in
+`docs/track_b/native_single_endpoint_criterion_v1/`. Root's actual metadata
+replay matched 325 sources, all 313 inherited rows, 4,120 historical and 168
+current typed references, four separate byte-equal pairs and 333 fresh whole
+identities. These establish provenance, not mathematical execution. The
+historically certified finite q-sign premise remains explicit; all canonical
+corrections and labeled multiplicities remain in the proof.
 
-RI-178 is assigned to the existing Quantum Relativity task after RI175's
-independent adjudication. Determine whether the upper-y boundary
-J(x)=W(x,1/d(x))/r also strictly increases without the slope-regime assumption.
-A proved result would reduce the full curved-domain question to the two
-boundary comparisons at R. This is active proof work, not an accepted sign.
-RI173's conditional slope result and RI172's finite-layer nonimplication
-remain unchanged; no altered-law family replaces the actual prefix.
+RI-181 is assigned to the existing Quantum Relativity task after RI178's
+independent acceptance. Derive the complete proper-potential sum for the new
+six-parent C2 ordinal-sum A4, including all 17 proper ideals and marked records,
+and determine whether it strengthens the global-M6 lower bound. A proved
+smaller cap could sharpen actual-scale containment and the I endpoint test.
+This is a native candidate question, not an accepted bound or sign.
+RI147's five-parent bounds and RI157's inactive-F result remain unchanged.
 
 RI-174 completed one genuine measurement metadata copy after fresh source,
 vendor, namespace, tools and host checks. Tool d49fc5 exited zero. Root's
@@ -47,17 +48,18 @@ arithmetic remain separate. No scientific analysis ran during the copy.
 Conventional GWOSC reproduction, calibration/protected validation and the
 native forward map remain unfinished.
 
-RI-171's prospective 92-case supervisor qualification is rejected for source
-repair. Nonauthor review and root tracing identify five groups of defects:
-caller read faults can hit ps; late-observer checks are shadowed; ordinary
-failures can pass using only a receipt candidate; defining sibling/reap/kill
-and recovery obligations are missing; stderr hash drift instead changes size.
-The sealed source and review are preserved in
-`docs/coordination/native_supervisor_qualification_review_v1/`. The independent
-3,525-predicate metadata check establishes inventory consistency only.
-RI-176 assigns the original worker a focused source-only repair, with explicit
-prospective negative oracle checks and unchanged subject limits. All 92 controls,
-2,547 native cases per mode, original-vector audit and QP04 remain unexecuted.
+RI-176's source repair has received complete nonauthor RI180 review and
+bounded independent root tracing. F01/F02/F03/F05 and the main F04 repairs
+are present, but compound cleanup checking still omits exact caller secondary
+receipt errors and rejects no attempts after a successful close. Qualification
+remains withheld. The sealed source, complete independent review, preserved
+failed diagnostics and root disposition are in
+`docs/coordination/native_supervisor_compound_review_v1/`.
+The independent 6,972-predicate check and root reobservation of all 98 inputs
+are provenance checks only. RI-182 assigns the original worker that narrow
+saved-checker repair and prospective omission/repeat-attempt controls.
+All 92 supervisor controls, 2,547 native cases per mode, original-vector audit
+and QP04 remain unexecuted; immutable RI169 and all original limits remain.
 
 Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
 512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. Preserve
@@ -189,9 +191,13 @@ with unrelated changes to make an import succeed.
 | RI-173 same-law weighted endpoint slope | Conditional same-law slope theorem independently accepted; actual regime and weighted sign unresolved. | RI175 studies the remaining intercept monotonicity with full canonical correlations. |
 | RI-174 genuine measurement exact copy | One admitted48-file copy and independent full outcome/custody replay accepted. | Separate current-E runtime capture before baseline/profile acceptance. |
 | RI-175 same-law intercept monotonicity | Independently accepted unchanged-prefix intercept monotonicity; conditional full-domain endpoint criterion. | Actual endpoint and slope regime unresolved; RI178 tests upper-y boundary monotonicity. |
-| RI-176 supervisor qualification source repair | Original worker assigned five independently reviewed defect groups. | Preserve92 cases and unchanged RI169 subject; source-only repair and renewed independent review. |
+| RI-176 supervisor qualification source repair | Sealed source reviewed; F04-R compound cleanup oracle repair required before qualification. | RI182 repairs exact secondary receipt errors and once-closed lifecycles; preserve all92 controls. |
 | RI-177 independent intercept review | Complete manual proof and 321-identity provenance replay accepted. | Publish reviewed source; preserve historical finite-sign premise. |
-| RI-178 upper-y boundary monotonicity | Assigned to existing QR after RI175 independent acceptance. | Determine whether full-domain comparison reduces to two endpoint tests without a slope-regime premise. |
+| RI-178 upper-y boundary monotonicity | Independently accepted full-domain W<=0 iff I(R)<=0 without the slope regime; actual comparison unresolved. | RI181 investigates a stronger six-parent proper-potential cap. |
+| RI-179 independent upper-boundary review | Complete proof review and 333-identity provenance replay accepted. | Preserve finite q-sign premise and exact actual-sign boundary. |
+| RI-180 independent supervisor repair review | Complete nonauthor review and root corroboration require narrow F04-R repair. | Keep qualification withheld; all92 cases and26 mutation families unexecuted. |
+| RI-181 four-cap parent proper potential | Existing QR assigned complete C2 ordinal-sum A4 marked-parent bound after RI178 acceptance. | Derive all17 proper ideals and assess genuine global-M6 improvement. |
+| RI-182 compound cleanup oracle repair | Existing original author assigned exact secondary-error and once-closed lifecycle repair. | Seal minimal source changes and prospective semantic controls for independent review. |
 | RI-115 native rank execution caller | Exact six-zero-minor result and independent reviews preserved in f6d486e; its local rank conclusion remains valid. | RI-122 separately rejects the complete fixed 28-child extension through the connected subsystem; keep these logically distinct results. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |

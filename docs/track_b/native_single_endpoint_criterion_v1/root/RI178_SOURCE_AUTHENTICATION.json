@@ -1,0 +1,142 @@
+{
+  "identities": [
+    {
+      "bytes": 6870,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/HANDOFF.json",
+      "sha256": "8053eaa6d0102e818e4a336e5c63c827015ac7f6b68b188135be80612b8813ba",
+      "state": [
+        16777244,
+        419469,
+        33188,
+        1,
+        6870,
+        1790807539324504189,
+        1790807539324504189
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 22210,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/AUTHOR_CHECKS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/AUTHOR_CHECKS.json",
+      "sha256": "ad37453e3cc7e415ce311ed20feca74a1a66ec81363cb1612faf06833b53bb17",
+      "state": [
+        16777244,
+        419467,
+        33188,
+        1,
+        22210,
+        1790807281879050440,
+        1790807281879050440
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16109,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/DEPENDENCY_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/DEPENDENCY_NOTES.md",
+      "sha256": "55ee88c85f737fd3f4c86c81f27badb5b10b04384eb322b43a9cd4bc01e00ca1",
+      "state": [
+        16777244,
+        419464,
+        33188,
+        1,
+        16109,
+        1790807009904650911,
+        1790807009904650911
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3333,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/HANDOFF.md",
+      "sha256": "468110a46da80e3a5dd3d6a4a8d0ab3625b670fe51c71af33fd0e21b9b5c00bc",
+      "state": [
+        16777244,
+        419466,
+        33188,
+        1,
+        3333,
+        1790807134382099390,
+        1790807134382099390
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10724,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/REFERENCE_COMPLEMENTS.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/REFERENCE_COMPLEMENTS.md",
+      "sha256": "bdcac3f281af544690323f8bfd82588ba28a920e2f04fd596f01a868633ef949",
+      "state": [
+        16777244,
+        419454,
+        33188,
+        1,
+        10724,
+        1790806850455139183,
+        1790806850455139183
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 298777,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/SOURCE_DEPENDENCIES.json",
+      "sha256": "d478343f33a6a845084a9747d7b92f673a6692a5de05b545d1f90e16a7f29e49",
+      "state": [
+        16777244,
+        419395,
+        33188,
+        1,
+        298777,
+        1790806746650572146,
+        1790806746650572146
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 81026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/SOURCE_IDENTITIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/SOURCE_IDENTITIES.json",
+      "sha256": "6b7493d2243593cf2231265c9cd37061b08197b94797a5797ac9e73a9d734390",
+      "state": [
+        16777244,
+        419453,
+        33188,
+        1,
+        81026,
+        1790806808179857583,
+        1790806808179857583
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13039,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/UPPER_BOUNDARY.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/UPPER_BOUNDARY.md",
+      "sha256": "89edbbe412a3d3be14f07d168186d2452ed90672df12953626f2292da7fcb5fc",
+      "state": [
+        16777244,
+        419465,
+        33188,
+        1,
+        13039,
+        1790807094760340286,
+        1790807094760340286
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "REFERENCE_COMPLEMENTS.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "UPPER_BOUNDARY.md"
+  ]
+}

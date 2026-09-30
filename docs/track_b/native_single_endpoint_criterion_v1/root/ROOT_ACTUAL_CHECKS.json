@@ -1,0 +1,18 @@
+{
+  "schema": "ri179-actual-root-checks-v1",
+  "checks": [
+    {"description": "Fresh whole repository entry and complete RI178 eight-file / RI176 thirty-three-file authentication", "receipt": "0812c4", "exit_code": 0},
+    {"description": "Independent bounded provenance replay:325 sources,313 inherited rows,4120 historical/168 current references,333 fresh identities", "receipt": "ce3f6f", "exit_code": 0},
+    {"description": "Independent mathematical adjudication and new native-parent candidate assignment", "receipt": "dc5859", "exit_code": 0}
+  ],
+  "diagnostics": [
+    {"description": "First combined source display clipped; main manuscript recovered completely in70fd0c. Companion4d682c and dependency notee05cab were complete."},
+    {"description": "Guessed RI149 glob failed before reading; exact paths recovered using repository-wide file inventory09bce5. No mutation or mathematical effect.", "receipt": "0cc1e2", "exit_code": 1}
+  ],
+  "author_final_receipt": "768b0a reported by author; current root replay isce3f6f",
+  "scientific_execution": false,
+  "mathematical_formula_execution": false,
+  "historical_finite_sign_used": true,
+  "historical_sign_recomputed": false,
+  "ret_paused": true
+}

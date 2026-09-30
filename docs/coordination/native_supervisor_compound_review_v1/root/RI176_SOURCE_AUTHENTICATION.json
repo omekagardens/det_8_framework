@@ -1,0 +1,567 @@
+{
+  "identities": [
+    {
+      "bytes": 14679,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/HANDOFF.json",
+      "sha256": "572fe0bfc79489dc3b9c4a6df9bc4d7bbb0ff455de1c68eb2fbb00e6d870421e",
+      "state": [
+        16777244,
+        419463,
+        33188,
+        1,
+        14679,
+        1790806978314055880,
+        1790806978314055880
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 64436,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/ADMIN_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/ADMIN_CHECK.json",
+      "sha256": "05ea5030c2492c971187128f6a19ff3814272fcfbad4713de1bb316a2e4644f3",
+      "state": [
+        16777244,
+        419450,
+        33188,
+        1,
+        64436,
+        1790806807321950150,
+        1790806807321950150
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 64436,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/ADMIN_CHECK.pre-final.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/ADMIN_CHECK.pre-final.json",
+      "sha256": "66ff48faa2fa579cf516c1a93eddde8853d9219da00365faeabb77cd55447dfc",
+      "state": [
+        16777244,
+        419392,
+        33188,
+        1,
+        64436,
+        1790806741954165222,
+        1790806807225423784
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5387,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/ADMIN_TOOL_RECORDS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/ADMIN_TOOL_RECORDS.json",
+      "sha256": "abd63d22e059c1ae89f08640684b35b5cb44f8e8efdb6c26738f376aeac62e5c",
+      "state": [
+        16777244,
+        419460,
+        33188,
+        1,
+        5387,
+        1790806978308465906,
+        1790806978308465906
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1362,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/AUTHENTICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/AUTHENTICATION.json",
+      "sha256": "0e73f511408562feee1a119db8937393079a00c6529ae5aa34b3d75c8d261786",
+      "state": [
+        16777244,
+        418904,
+        33188,
+        1,
+        1362,
+        1790806005029437148,
+        1790806005029437148
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3014,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/AUTHOR_RECORD.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/AUTHOR_RECORD.md",
+      "sha256": "370dc48d6ff0ab971eea38f6f5f1775a59b122d627f11aeba616c6b864c6e30e",
+      "state": [
+        16777244,
+        419456,
+        33188,
+        1,
+        3014,
+        1790806894404472344,
+        1790806894404472344
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 65870,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/CASE_MANIFEST.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/CASE_MANIFEST.json",
+      "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595",
+      "state": [
+        16777244,
+        418910,
+        33188,
+        1,
+        65870,
+        1790806005030492123,
+        1790806005030492123
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 23202,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/CASE_OBLIGATIONS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/CASE_OBLIGATIONS.json",
+      "sha256": "01f23aca8dfcf4ee1d3dc76ab4b82ff971e814608350054f9f88de85af70e701",
+      "state": [
+        16777244,
+        419274,
+        33188,
+        1,
+        23202,
+        1790806392588914035,
+        1790806392588914035
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16615,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/DEPENDENCY_BINDINGS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/DEPENDENCY_BINDINGS.json",
+      "sha256": "99ddf0bd5c80c323e655f57e5b39615461e75c19cee00ce24c81df5545c74c2a",
+      "state": [
+        16777244,
+        419452,
+        33188,
+        1,
+        16615,
+        1790806807322417321,
+        1790806807322417321
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16615,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/DEPENDENCY_BINDINGS.pre-final.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/DEPENDENCY_BINDINGS.pre-final.json",
+      "sha256": "99ddf0bd5c80c323e655f57e5b39615461e75c19cee00ce24c81df5545c74c2a",
+      "state": [
+        16777244,
+        419394,
+        33188,
+        1,
+        16615,
+        1790806741954638768,
+        1790806807225608577
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 17940,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/FINAL_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/FINAL_CHECK.json",
+      "sha256": "88031cd37e61aaa71d418276f09a1bf77730f9ab5f181efce50e2a9a0d56f5df",
+      "state": [
+        16777244,
+        419461,
+        33188,
+        1,
+        17940,
+        1790806978311987984,
+        1790806978311987984
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3291,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/INVOCATION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/INVOCATION.md",
+      "sha256": "33e47fd296814286f25a781fc5e5226c9a354fd9a0ef13500578bd1d3296cfb2",
+      "state": [
+        16777244,
+        419457,
+        33188,
+        1,
+        3291,
+        1790806894465864600,
+        1790806894465864600
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6037,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/ORACLE_REJECTION_PLAN.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/ORACLE_REJECTION_PLAN.md",
+      "sha256": "d966e2f39b2fd835bf3d46eb6714e91138c3b969946b9e13cece6a28047bc4f3",
+      "state": [
+        16777244,
+        419291,
+        33188,
+        1,
+        6037,
+        1790806659459128264,
+        1790806659459128264
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 17505,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/PUBLICATION_SUBSET.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/PUBLICATION_SUBSET.json",
+      "sha256": "1d515681cbd8965c2b8cce901ef2e487ed4f6821ea2e651c21386674ea40e826",
+      "state": [
+        16777244,
+        419462,
+        33188,
+        1,
+        17505,
+        1790806978312344738,
+        1790806978312344738
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10768,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/REPAIR_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/REPAIR_CONTRACT.md",
+      "sha256": "6aae42d7b033237dd9804b7625462354dd2fa23ee90c6e4a580ebc5dfdf7c594",
+      "state": [
+        16777244,
+        419290,
+        33188,
+        1,
+        10768,
+        1790806659456508737,
+        1790806659456508737
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1858,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/REVIEW_RESPONSE.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/REVIEW_RESPONSE.md",
+      "sha256": "8c7e30e08dbab622a90ac8441ebb45fd7dbb1d4a9f64d7cd2871fae113f81d46",
+      "state": [
+        16777244,
+        419458,
+        33188,
+        1,
+        1858,
+        1790806894467444991,
+        1790806894467444991
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3467,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SCHEMAS.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SCHEMAS.md",
+      "sha256": "6993c60db904b9f70c2a6386f3d394abe64e9ba89bf5067d0addf17935b9c7d8",
+      "state": [
+        16777244,
+        419455,
+        33188,
+        1,
+        3467,
+        1790806894401929110,
+        1790806894401929110
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 56304,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SOURCE_DIFF.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SOURCE_DIFF.patch",
+      "sha256": "8a0fbf306095328a20d29170ee427623a32bdfb43da2635cc7e8c5e0fa4f997d",
+      "state": [
+        16777244,
+        419449,
+        33188,
+        1,
+        56304,
+        1790806807317472646,
+        1790806807317472646
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 55919,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SOURCE_DIFF.pre-final.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SOURCE_DIFF.pre-final.patch",
+      "sha256": "3a700fb86d87bd3de2dba00248b2345f65b2f9381ee8bb2cfb6d67a0b20b82cb",
+      "state": [
+        16777244,
+        419391,
+        33188,
+        1,
+        55919,
+        1790806741949452215,
+        1790806807225674953
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1897,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SOURCE_PINS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SOURCE_PINS.json",
+      "sha256": "fb36158eed0d1e33a1c037e04317d645e2e71b55b790b18f40e07f153c470ed0",
+      "state": [
+        16777244,
+        419451,
+        33188,
+        1,
+        1897,
+        1790806807322129402,
+        1790806807322129402
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1897,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SOURCE_PINS.pre-final.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SOURCE_PINS.pre-final.json",
+      "sha256": "70dd6fbf02810e00012eaab32e1516ab043be4c8df3be5a8881b96c9e5c413bc",
+      "state": [
+        16777244,
+        419393,
+        33188,
+        1,
+        1897,
+        1790806741954365640,
+        1790806807225534827
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4113,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/author_repair.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/author_repair.mjs",
+      "sha256": "b2593a66de92cdade6ebcca6bbee3c2c3ce2a17101953b25d98e381d8c9cecb3",
+      "state": [
+        16777244,
+        419242,
+        33188,
+        1,
+        4113,
+        1790806129866309446,
+        1790806129866309446
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 26370,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/case_worker.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/case_worker.py",
+      "sha256": "577b2dc4d6200e6f6ec9f5f38eef62dddb0df4309e5835220e18272d46246413",
+      "state": [
+        16777244,
+        418907,
+        33188,
+        1,
+        26370,
+        1790806392588164028,
+        1790806392588164028
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7350,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_admin.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_admin.mjs",
+      "sha256": "aa72ce867384b2fdebbb6063164976e0e3777e02aa7b5bb3c1c85e81e7b2b17d",
+      "state": [
+        16777244,
+        419390,
+        33188,
+        1,
+        7350,
+        1790806741854388739,
+        1790806741854388739
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 69350,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_saved.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_saved.py",
+      "sha256": "aa434123dd342304ffb4447af8826d694da347404ca384ad0c97b67ffadc1f53",
+      "state": [
+        16777244,
+        418909,
+        33188,
+        1,
+        69350,
+        1790806807225153198,
+        1790806807225153198
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5177,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/complete_obligations.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/complete_obligations.mjs",
+      "sha256": "adbceec5af6f3ae18626e8f94561e6b2734539972898d925b6eccad8cf47aae2",
+      "state": [
+        16777244,
+        419278,
+        33188,
+        1,
+        5177,
+        1790806490119705967,
+        1790806490119705967
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1520,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/final_boundary_refinement.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/final_boundary_refinement.mjs",
+      "sha256": "6ce24633aa68b3dffa92a6a61e959537c69ff1e0809f03a40e7d707fff31e61c",
+      "state": [
+        16777244,
+        419448,
+        33188,
+        1,
+        1520,
+        1790806807158839683,
+        1790806807158839683
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5168,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/inert_payload.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/inert_payload.py",
+      "sha256": "3eb3d6fbb388b479080c8f9fac0a9b2a7fce6499e53462e0d42bd2c76ef41149",
+      "state": [
+        16777244,
+        418908,
+        33188,
+        1,
+        5168,
+        1790806129931760478,
+        1790806129931760478
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7666,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/protocol.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/protocol.py",
+      "sha256": "29b61f1f000f3b90fdc05516a1d8ea039c9ed8545315cd361f409d0b3303f00b",
+      "state": [
+        16777244,
+        418905,
+        33188,
+        1,
+        7666,
+        1790806129931146176,
+        1790806129931146176
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6127,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/qualify_supervisor.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/qualify_supervisor.py",
+      "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8",
+      "state": [
+        16777244,
+        418906,
+        33188,
+        1,
+        6127,
+        1790806005029836821,
+        1790806005029836821
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2219,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/refine_source.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/refine_source.mjs",
+      "sha256": "a147a662e2bef83cc032545741a54a06404c58eab16f154e9c75f04d52e925b7",
+      "state": [
+        16777244,
+        419275,
+        33188,
+        1,
+        2219,
+        1790806392522251101,
+        1790806392522251101
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 20746,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/repair_oracle.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/repair_oracle.mjs",
+      "sha256": "e44eb35112a349d90bc95bf0d683d5e23e1bd0bb5f26adae29ccbb62acef21ba",
+      "state": [
+        16777244,
+        419273,
+        33188,
+        1,
+        20746,
+        1790806334087190781,
+        1790806334087190781
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 8134,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/seal_metadata.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/seal_metadata.mjs",
+      "sha256": "d5f889c657279faa6825cfb5eaedc72afa5533a1936692a891648779de9ee8b1",
+      "state": [
+        16777244,
+        419459,
+        33188,
+        1,
+        8134,
+        1790806978242506146,
+        1790806978242506146
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "namespace": [
+    "ADMIN_CHECK.json",
+    "ADMIN_CHECK.pre-final.json",
+    "ADMIN_TOOL_RECORDS.json",
+    "AUTHENTICATION.json",
+    "AUTHOR_RECORD.md",
+    "CASE_MANIFEST.json",
+    "CASE_OBLIGATIONS.json",
+    "DEPENDENCY_BINDINGS.json",
+    "DEPENDENCY_BINDINGS.pre-final.json",
+    "FINAL_CHECK.json",
+    "HANDOFF.json",
+    "INVOCATION.md",
+    "ORACLE_REJECTION_PLAN.md",
+    "PUBLICATION_SUBSET.json",
+    "REPAIR_CONTRACT.md",
+    "REVIEW_RESPONSE.md",
+    "SCHEMAS.md",
+    "SOURCE_DIFF.patch",
+    "SOURCE_DIFF.pre-final.patch",
+    "SOURCE_PINS.json",
+    "SOURCE_PINS.pre-final.json",
+    "author_repair.mjs",
+    "case_worker.py",
+    "check_admin.mjs",
+    "check_saved.py",
+    "complete_obligations.mjs",
+    "final_boundary_refinement.mjs",
+    "inert_payload.py",
+    "protocol.py",
+    "qualify_supervisor.py",
+    "refine_source.mjs",
+    "repair_oracle.mjs",
+    "seal_metadata.mjs"
+  ]
+}

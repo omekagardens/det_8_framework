@@ -1,0 +1,31 @@
+{
+  "actual_root_check": {
+    "chunk_id": "6cfc42",
+    "evidence": {
+      "bytes": 67388,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI180_ROOT_AUTHENTICATION.json",
+      "sha256": "c2b0db1c61f8b15c240730a56f7eeb279c07509b7a1f5797f396d0952bbd1bbb"
+    },
+    "exit_code": 0
+  },
+  "executed_cases": 0,
+  "executed_mutations": 0,
+  "qualification_admitted": false,
+  "review": {
+    "bytes": 4180,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/HANDOFF.json",
+    "sha256": "62270fcfc8fccd571d884ac13ca45ba0d2034b34e6cccb849659aee142c3a500"
+  },
+  "root_review": {
+    "bytes": 3948,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI180_ROOT_REVIEW.md",
+    "sha256": "d589f55613219cd9098501e9a424bd88f110723447b56242a4c1821f6f80e0ae"
+  },
+  "schema": "ri180-root-adjudication-v1",
+  "status": "REQUIRE_NARROW_F04_R_REPAIR_BEFORE_QUALIFICATION_ADMISSION",
+  "subject": {
+    "bytes": 14679,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/HANDOFF.json",
+    "sha256": "572fe0bfc79489dc3b9c4a6df9bc4d7bbb0ff455de1c68eb2fbb00e6d870421e"
+  }
+}

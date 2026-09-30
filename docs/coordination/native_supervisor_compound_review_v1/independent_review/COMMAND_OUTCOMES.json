@@ -1,0 +1,106 @@
+{
+  "exact_v1_command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/check_metadata.py",
+  "exact_v2_command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/check_metadata_v2.py",
+  "failed_attempts_preserved": [
+    "check_metadata.py",
+    "FAILED_ADMIN_V1.json"
+  ],
+  "own_displays_truncated": false,
+  "records": [
+    {
+      "chunk_id": "981d49",
+      "description": "Authenticated complete assignment and handoff; read both",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "3a0e1c",
+      "description": "Authenticated exact33/32 namespace; reservation empty; read all six main source/contracts/author documents",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7ef7ad",
+      "description": "Read checker1-180 including all92 literal obligations",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ac6776",
+      "description": "Read checker181-345",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7cd3c4",
+      "description": "Read checker346-520",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "968abb",
+      "description": "Read checker521-661",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "5a5c0d",
+      "description": "Read worker1-255",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f2a6da",
+      "description": "Read worker256-499",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "6e0af2",
+      "description": "Read unchanged RI169 supervisor1-250",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0f9943",
+      "description": "Read unchanged RI169 supervisor251-588",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "a90dfd",
+      "description": "Read complete protocol/controller/payload",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "fdbdf3",
+      "description": "Read metadata schemas, complete declared tool records and author administrative checker",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "8101e3",
+      "description": "Read complete selected compound/fallback/journal/kill/receipt case records",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ff585f",
+      "description": "Own administrative V1 rejected textual unified-diff alignment; failure source and diagnostic preserved",
+      "exit_code": 1
+    },
+    {
+      "chunk_id": "70e5da",
+      "description": "Preserved V1 diagnostic; created V2 literal-hunk reconstruction; V2 passed6972 predicates/98 identities",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "25c380",
+      "description": "Read complete original repair assignment/root decision, all92 case mapping and remaining complete inherited recipes",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "df5893",
+      "description": "Wrote complete independent narrative",
+      "exit_code": 0
+    }
+  ],
+  "schema": "ri180-actual-administrative-outcomes-v1",
+  "scope": "Actual conversation tool references, not fabricated operation/admission cards. Final sealing and final read-only verification tool results are supplied separately to root.",
+  "subject_or_vendor_execution": false,
+  "successful_result": {
+    "bytes": 534125,
+    "checks": 6972,
+    "executed_cases": 0,
+    "identities": 98,
+    "sha256": "0f7a30d60bd2776c9ae7341b289a060a6802f51313957096949760f51450ef2c"
+  }
+}
