@@ -1,0 +1,58 @@
+{
+  "active_admissions_created": false,
+  "actual65_controls_pending": true,
+  "artifacts": [
+    {
+      "bytes": 22530,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "da5cea63cc5a073d6d0348eb8eafb4fa635e29a495bbfc93bb5b2752a2c40d47"
+    },
+    {
+      "bytes": 3374,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "c1c3f704013cd615bf007baccc72e524012992f877e44d43b5869586764a27ee"
+    },
+    {
+      "bytes": 177569,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/OPAQUE_METADATA_REVIEW.json",
+      "sha256": "f99904467672db7b8b8f37506ceecc1ce8e86bec4494f3d38b5853e9cca168fa"
+    },
+    {
+      "bytes": 12793,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/FINAL_SOURCE_REHASH.json",
+      "sha256": "ee41b491717478834252256517daad89017b13fbc20bdd598acf32a02266ff61"
+    },
+    {
+      "bytes": 7244,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/check_opaque_metadata.py",
+      "sha256": "6ba3e33fefc5873e27de5b2ff150271e3b9954b486da943667fa9a77314fa992"
+    },
+    {
+      "bytes": 7249,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/check_opaque_metadata.before-field-name-fix.py",
+      "sha256": "48103076b9371c6d035da0bbb65c2338d53333a450b9ed3af8b0804418179c3f"
+    }
+  ],
+  "authorship_boundary": {
+    "RI125_independent_validator_author": false,
+    "RI125_primary_and_qualifier_author": true,
+    "RI130_new_caller_author": false,
+    "RI131_author": true,
+    "self_scientific_readjudication": false
+  },
+  "blocking_findings": [],
+  "fixture_evaluation": false,
+  "fresh_runtime_and_scientific_modes_pending": true,
+  "repository_or_git_changes": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW",
+  "schema": "ri130-independent-caller-source-review-handoff-v1",
+  "scientific_body_decode": false,
+  "source_handoff": {
+    "bytes": 26684,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+    "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8"
+  },
+  "status": "SEALED_SOURCE_REVIEW_ONLY",
+  "target_execution": false,
+  "verdict": "PASS_UNEXECUTED_SOURCE_ONLY"
+}

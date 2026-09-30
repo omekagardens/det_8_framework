@@ -1,0 +1,56 @@
+# Complete mode custody contract (UNEXECUTED)
+
+This closes the outer receipt treatment around the complete scientific/stage relation in `evidence.compare_modes`. Every complete normal and optimized file is retained independently. A fresh nonauthor/root review must inspect each enclosing receipt in full; neither `compare_modes` nor a self-reported JSON value authenticates a process or accepts an outer receipt. Dynamic fields below are checked against actual genuine custody, never discarded to manufacture equality. Unknown success keys, a missing required field, a partial record or an unreviewed diagnostic cannot be accepted.
+
+## Entire stage envelope
+
+`result`, `report_pin`, `artifacts`, `postchecks`, `tree_postchecks`, `namespace`, `refusal` are exactly the seven permitted fields. `refusal` must be null and every postcheck successful. All53 fixed artifact files are byte-identical. Only the two literal WC19 link targets, the three tree inventory canonical pins (including the unchanged kernel tree explicitly), and the resulting report pin may propagate through the exact paths implemented in `compare_modes`. The entire transformed `result` and then entire transformed return envelope must equal optimized. There is no mode normalization of scientific matrices, Gram, rows, scalar encodings, interval endpoints, errors, denominators, old/new thresholds, case identities, refusal messages or fresh reconstructed results.
+
+## Entire successful worker receipt
+
+`launch.check_worker` requires exactly the following fields (grouped only for reading):
+
+| Fields | Required relation and individual check |
+|---|---|
+| `schema,phase,context,freeze,limits,source_count,actual_scientific_inputs,entry,entry_phase,entry_invocations,entry_returned,error,status,full32_qualified,actual_data_admitted,ret_paused` | Literal expected successful WHITE values; identical in both modes, including one entry call,30 sources, empty actual inputs, error null, no full32/actual promotion and RET paused. |
+| `mode` | Exactly `normal` / `optimized` for that run and the separate root card. |
+| `target_load_witness,captured_targets` | Full exact eight-source pin maps and complete ordered sequence/name/copy path/pin/loaded records, identical between modes under one frozen source root. No partial loading state accepted. |
+| `before` | Exactly sources/source_admission/mode_admission/runtime/profile/loaded. Sources, source acceptance and complete runtime inventory identity/interpreter binding are equal to the parent and stable afterward. Profile has exactly the corresponding frozen optimize0/1 value; all other frozen profile fields agree. Mode admission must be the exact separately bound card and current evidence, including genuine reviewed normal predecessor for optimized. Loaded records are preserved in full and each origin/pin checked against the complete runtime/helper/source closure; they are not arbitrarily stripped to equalize processes. |
+| `loaded_after_capture` | Complete module-origin observations, with every8 exact captured target path/pin required. Fresh review reconciles all other entries against the full admitted inventory/loaded-source set and original process observations. |
+| `postchecks` | Exactly freeze/sources/source_admission/mode_admission/captured_targets/runtime/profile/loaded/namespace/saved_custody; each complete `{value,error}` record retained, error null. Named before/after objects equal; capture/freeze stable. Loaded origins remain within the full admitted set. Namespace/saved-custody fields are the full mode-specific stage checks below. |
+| `saved_custody` | Exact whole metadata-check object from the mode's complete stage envelope; counts57/74/3 and scope flags identical. Report/namespace hashes are derived separately from the full corresponding mode objects through the closed stage relation. Arithmetic-recomputed flag stays false for this metadata operation. |
+| `namespace_after` | Equals the complete namespace postcheck, with actual entire stage inventory equal to that mode's returned namespace. Only the two links and four artifact pins differ under the stage relation. |
+| `envelope_pin` | Entire actual caller stdout bytes for that mode. It is derived from the entire related envelope, not reused across modes or computed from a projection. |
+| `elapsed_seconds` | Finite nonnegative elapsed time at most180, separately reconciled against the actual monitored child/genuine outer; not required equal across runs. It does not replace actual monitor samples. |
+| `custody_pin` | Entire actual mode `CUSTODY.json` bytes; derived from the complete custody object below, preserving all mode-specific dependent hashes/namespace. |
+
+The full `before.loaded` and every later module-origin dictionary are retained as complete observed maps. The unchanged runtime scanner validates them in the actual processes. External saved review must check every recorded file origin against the frozen full runtime/helper/source table, preserve exact no-file-origin premises and compare source-load witnessing with the genuine caller. A list of8 targets is not permission to omit other modules.
+
+## Entire successful worker custody file
+
+There are exactly `schema,mode,phase,freeze,status,error,entry_invocations,entry_returned,envelope_pin,saved_custody,namespace_after,full32_qualified,actual_data_admitted`. `check_worker` compares this entire object to the full corresponding worker values. Literal success fields agree across modes; `mode` is fixed by its card; envelope pin, full saved-custody object and full namespace are derived from that mode's complete files. This file deliberately does not hash the worker receipt that in turn binds it. The external parent/root binds both complete files after the child exits.
+
+## Entire successful supervisor receipt
+
+The exact successful top-level inventory is:
+
+`schema,mode,phase,context,freeze,limits,command,launcher_command,environment,before,postchecks,monitor_attempts,samples,peak_sampled_rss_kib,child_exit_code,child_elapsed_seconds,final_sample_to_reap_gap_seconds,final_sample_gap_passed,stop_reason,status,error,worker_check,mode_relation,retained_outputs,full32_qualified,actual_data_admitted,ret_paused,child_pid,ownership_tail,pre_receipt_namespace`.
+
+Any extra failure-only record or absent required field requires rejection of successful qualification and preservation of the record. A resource/exception path can legitimately have a different partial schema, but cannot be promoted to this success schema.
+
+| Fields | Complete individual and cross-mode treatment |
+|---|---|
+| `schema,phase,context,freeze,limits,environment,child_exit_code,stop_reason,status,error,full32_qualified,actual_data_admitted,ret_paused` | Exact expected values; zero exit, no stop/error, status `completed_pending_external_custody_review`, identical frozen limits/env/scope. This status is still not root acceptance. |
+| `mode,command,launcher_command` | Exact normal/optimized fields from the same freeze, with `-O` only in optimized and exact script/freeze/mode arguments. No command sanitization. |
+| `before` | Exactly sources/source_admission/mode_admission/runtime/profile/loaded; compare complete named parent/child before fields and all current root references. The loaded parent modules include its distinct supervisor imports and are checked in full against the admitted runtime/helper/source table. Profile optimize flag and actual mode card are mode-specific; all frozen source/runtime identities remain equal. |
+| `postchecks` | Exactly freeze/sources/source_admission/mode_admission/runtime/profile/loaded/namespace. Every check has full value and null error. Stable before/after objects match; full loaded maps remain admitted. Namespace equals the complete actual stage inventory. No independent tail record is omitted. |
+| `monitor_attempts,samples,peak_sampled_rss_kib,child_elapsed_seconds,final_sample_to_reap_gap_seconds,final_sample_gap_passed,child_pid` | Actual observed mode-specific process evidence. Independently review every attempt/time/stdout/stderr/returncode and every sample. Recompute observed integer RSS, ordering, gaps (initial from start0), peak, final sample-to-reap gap and child duration. RSS<=524288KiB, all gaps<=0.1s, wall<=180s,25ms requested polling and50ms ps timeout remain binding. A malformed/nonzero final ps may occur only at the genuine child-exit race under the inherited monitor semantics; no missing initial sample accepted. Correlate pid/owned session/exit with genuine outer evidence. These are dynamic observations, never replaced with the other mode's values. |
+| `ownership_tail` | On ordinary successful supervision, complete close_stdout and close_stderr records, each `{value:null,error:null}`. A separately needed reap record, exception or termination event is failure/partial evidence requiring review; it does not authorize dropping that record. |
+| `worker_check` | Exact status plus whole worker/envelope pins and entire stage metadata-check object. Re-run `check_worker` or independently check every equivalent condition; bind all complete corresponding files. Pin differences derive from mode-specific whole worker/custody/envelope records, not an arbitrary equality exception. |
+| `mode_relation` | Null for normal. Optimized must contain the entire exact `compare_modes` result, with all53 byte-identical names, only the two literal targets, all four propagated artifact names, complete-envelopes true and no omitted scientific fields. Independently recompute/review the relation using both complete saved stage envelopes. |
+| `retained_outputs` | Exactly stdout/stderr/worker_receipt/custody/claim, each full `{value:<actual entire file pin>,error:null}`. Stderr must be the empty-file identity. Rehash all files; preserve every byte. The claim is the exact immutable exclusive attempt object binding that mode's command context/freeze/card and no-retry requirement. |
+| `pre_receipt_namespace` | Exact complete `{value,error:null}` tree snapshot of the mode directory before its supervisor receipt. It must contain precisely5 caller files plus white-stage and every descendant, including all intentional bad links. Root checks the final actual tree by adding only the full supervisor receipt file identity to that retained namespace; all other records remain exact. |
+
+A root normal acceptance binds six entire caller files: stdout, stderr, worker receipt, supervisor receipt, custody, claim. An optimized admission rechecks all six before and after its child. The stage namespace is fully rechecked separately. Final root review must also retain/recheck the whole parent receipt, its final namespace, original/copy/history/current-runtime bodies, fresh mandatory pre/post sidecars and genuine external process record. Root review's own files lie outside the owned mode namespace and get separate whole-file pins; no circular self-hash is implied.
+
+The source packet supplies full executable worker/stage checks, not a substitute for root external acceptance of its own supervisor. This contract is the closed required outer-review mapping; a fresh root review must enforce it in full. No returned supervisor receipt is automatically accepted merely because a subset of its fields look successful.

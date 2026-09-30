@@ -1,54 +1,49 @@
 # Current QR coordination — RI-132 changed-caller qualification source
 
-**Current checkpoint — 30 September 2026 UTC.** RI-129's exact native
-caller source now passes complete nonauthor review and root adjudication. The
-source/review archive is `docs/track_b/native_growth_sign_caller_source_v1/`.
-Root is a disclosed source author/integrator adjudicating a separate nonauthor
-review. Root independently reconciled all 299 dependency identities, 114488
-closed metadata-reference occurrences, both complete patches and five retained
-code comparisons. No caller or scientific target has run for this acceptance.
+**Current checkpoint — 30 September 2026 UTC.** RI-130's exact fabricated
+WHITE caller is accepted after complete nonauthor review and root adjudication.
+The source/review archive is `docs/experiments/gwosc_white_caller_source_v1/`.
+Root independently reconciled all 47 source payloads, 30 whole original/copy
+pairs, 124 opaque historical identities and 65 ordered prospective controls.
+The reviewer did not author RI-130; its earlier primary/qualifier components
+retain their separate different-author scientific reviews.
 
-The native caller checks complete prerequisites before allocating an attempt,
-then repeats validation inside the guarded run. Early refusal has no attempt
-receipt or finally postchecks; genuine outer failure and external before/after
-custody remain required. All five input roles, fourteen certificate sections,
-eight physical audit objects and unchanged limits are preserved.
+The source preserves complete qualification and normal/optimized custody:
+all 15 WHITE cases/fullW 09, both 179 reports, 57 artifacts, 74 postchecks and 3 trees.
+The mode relation keeps 53 whole files byte-identical and permits only two named
+WC19 link targets with four derived pins; full envelopes and every enclosing
+mode record remain required. All 65 caller controls remain unexecuted. Acceptance
+of this source supplies no active execution card, runtime admission or result.
 
-A fresh external current-runtime comparison matched 2988 runtime files, 258
-directory records, 40 absences, 699 historical entries, 33 older sealed artifacts
-and 11 visible system locations, plus host checks. No pins were refreshed and no
-drift exception was made. This is a read-only metadata observation, not a target
-interpreter launch, qualification or admission; repeat it before later stages.
+RI-133 now owns concrete current runtime/bootstrap/profile/sidecar and bounded
+nonscientific guard orchestration source in
+`ri133-white-runtime-preparation-source-lrck33ys/`. Fresh independent source
+review precedes use. Genuine 65-guard execution and fresh normal/optimized runtime
+profiles with full before/after custody precede scientific normal; independently
+accepted normal precedes optimized. All actually observed dyld routes need real
+bound observations. RI-131's202 unexecuted guards/four deeper obligations,
+full 32 periodic/mean/join and actual public GWOSC admission remain separate.
 
-After predecessor adjudication, QR was assigned RI-132 and acknowledged external
-`ri132-native-caller-qualification-source-0ZmB3R5I/`. It implements concrete
-changed-caller qualification source and exact correspondence for all 52 native/
-69 audit declarations, separating unchanged-entry, direct-boundary and blocked
-coverage. Native actual C2/C3 signs and simultaneous H30 feasibility remain the
-active question, blocked on this qualification and separately admitted execution.
-The RI-128 scale bound, RI-127 connected cancellation, shared T1/remaining Di
-equations, strict bounds, fixed support/seed/epsilon and prior obstruction remain.
+Native RI-129 source is published in verified `cac7f5b`. QR sealed RI-132's
+11-file qualification packet; its 10 bound payloads match the handoff identity.
+Fresh complete nonauthor review is active in
+`ri132-native-qualification-independent-review-ye271mv3/`. The exact 52/69
+mapping separates direct calls, retained applicability, whole-entry specifications
+and deeper blocked guards. The minimal new-version extraction proposal remains
+unimplemented and unaccepted pending this review and root adjudication.
+Actual C2/C3 signs and simultaneous H30 feasibility remain active and unresolved,
+blocked on changed-caller qualification and separately admitted execution.
+The RI-128 scale bound and RI-127 connected cancellation remain accepted.
 
-RI-130's WHITE caller is sealed in `ri130-white-qualification-caller-source-Q4Aq7hZg/`.
-Its complete nonauthor review is assigned in `ri130-caller-independent-review-GpeTxmLW/`;
-root adjudication is pending. This covers the new caller, 65 declared controls,
-all 47 handoff payloads, 30 target original/copy pairs, 124 historical pins and the
-complete mode-custody relation. Copied scientific components retain their separate
-accepted reviews; a reviewer does not self-adjudicate their own earlier component.
+The last native external runtime comparison matched 2988 files, 258 directories,
+40 absences, 699 historical entries, 33 older artifacts and 11 system locations
+plus host checks. It was read-only metadata and must be repeated before use;
+it neither qualifies RI-130's runtime nor launches a target interpreter.
 
-RI-131's 202 declared finite guards are published in verified
-`7c89f017306ee9df1c83c41f7a7671a1a46bda27` on `origin/ret`. They remain unexecuted;
-four deeper actual-entry obligations stay open. Caller applicability/design follows
-RI-130 review; it is not inherited automatically. All 15 WHITE cases/W09, both
-179-control envelopes, full saved reconstruction, full32/periodic/mean/join and
-genuine normal/optimized qualification remain required before actual admission.
-
-Reservations remain under `/Volumes/AI_DATA/development/det-review-evidence/`.
-Root owns repository/index/Git and all execution/adjudication. Only source text,
-administrative metadata and opaque bytes were checked in this checkpoint; no
-scientific body decode, fixtures or active admission occurred. Calibration,
-physical covariance/mean/model-error adequacy, protected validation, release and
-a native forward map remain separate. The programme continues; RET alone is paused.
+Root owns all repository/index/Git operations and actual admissions. Sealed
+predecessors and all unrelated edits are preserved. Scientific/calibrated
+physical claims, native forward map, protected validation and release remain
+separate. The programme continues; RET alone remains paused.
 
 **RI-129 retained assignment scope (completed and source-adjudicated).**
 RI-129 followed the completed RI-128 root adjudication, not an unreviewed author
@@ -3377,3 +3372,55 @@ metadata-validator extraction proposal. This finding is not qualification or a
 blanket refactor acceptance. Finish unblocked unchanged-function/early-refusal
 source, then adjudicate the precise residuals; never count an earlier missing
 binding as coverage of a deeper guard. RI-129 stays immutable.
+
+**30 September: RI-130 caller source adjudicated; RI-133 runtime preparation assigned.**
+
+RI-130's complete nonauthor review passes for exact unexecuted source. Its handoff
+is 2597 bytes, SHA256 `4092f5be60516217cebcf9c7a906184895635908977d5501d061d2cc16e36df4`.
+Root read its entire findings, protocol, closed mode-custody contract and the new
+contract/worker/launcher/evidence chain. Root independently reconciled 47 source
+payloads, six reviewer payloads, both complete sealed namespaces, 30 original/copy
+pairs, 124 historical pins (10625600 bytes, including two valid empty stderr files),
+retained support/monitor text, 65 ordered declarations and 1802-line bookkeeping.
+No target was imported, compiled, AST-parsed, probed or executed; no scientific
+body was decoded. The reviewer metadata KeyError and correction remain preserved.
+
+Root decision is `ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json`,
+2189 bytes, SHA256 `3a9f030a18fdd4ef3cac3bb0204354a6250b2a0ae489e42fbf1be41c5d7fee79`.
+Reconciliation is 146958 bytes, SHA256
+`dbee230dea1e1fa4716b4a95c6178a33781d234e2e7237915bbc878cec577b28`.
+The reviewer did not author RI-130 but authored copied primary/qualifier components;
+those retain prior different-author acceptance. Root does not claim a second full
+1802-line nonauthor source review or actual 65-control qualification.
+
+The complete mode relation retains 53 byte-identical files, precisely two declared
+WC19 link targets, three full inventory pins and one report pin propagated through
+the complete stage envelope. Every dynamic enclosing record remains independently
+checked. All 15/W09/both 179/57/74/3 gates, unchanged scientific resource limits,
+independent saved arithmetic and fresh runtime/outer custody remain mandatory.
+
+RI-133 is assigned to the existing source author in external
+`ri133-white-runtime-preparation-source-lrck33ys/`: concrete minimal source for
+current runtime/bootstrap/profiles/selection/optional/observed-dyld/host checks and
+bounded separately admitted 65-guard orchestration. Independent review precedes
+use; root owns genuine execution/cards. Native RI-132 remains active without a
+duplicate assignment. Its precise coverage/refactor finding will be adjudicated
+before any new-version repair; actual C2/C3 and H30 remain open. RI-131's deeper
+obligations, full 32, actual data and calibrated/native physical claims remain.
+
+This checkpoint archives 61 exact source/review/root files and records 156 dependency
+roles; it is not a self-contained runtime or an execution root. Prior `cac7f5b` is
+verified on origin/ret. This checkpoint's exact commit and independent remote
+receipt are recorded externally after publication. Unrelated edits, original
+review, historical bytes and RET's explicit pause remain preserved.
+
+RI-132 sealed during this checkpoint: handoff 9135 bytes, SHA256
+`5841f7d783b549b4e8e5a978e1ed3ebceb169412ffc8573ed04ebe52a6d9d53e`.
+Root verified all 10 bound payloads and the exact 11-file namespace, then assigned
+complete nonauthor review in `ri132-native-qualification-independent-review-ye271mv3/`.
+The reviewer acknowledged no RI-129/132 authorship. Review explicitly covers the
+17 native/16 audit prospective cases, three whole-entry refusal specifications,
+all 52/69 direct/retained/entry/blocked mappings, genuine prerequisite requirements
+and the minimal new-version validator-extraction design. This is no source or
+qualification acceptance. The next QR implementation awaits actual predecessor
+adjudication; the lane is actively assigned for review, not left for user permission.

@@ -1,0 +1,19 @@
+{
+  "authorship": "Reviewer authored no RI129/RI132 component; separate measurement authorship remains disclosed.",
+  "checked_exact_namespace_files": 11,
+  "checked_source_payloads": 10,
+  "native_question": "Actual C2/C3 signs and simultaneousH30 feasibility",
+  "next_action": "Adjudicate review then promptly assign justified minimal repair or qualification; no repeated user permission.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3",
+  "review_scope": "Complete modules, contract, all52/69 mappings, exact first-refusal reachability and minimal new-version extraction design. Source-only; no target activity.",
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_acknowledged": true,
+  "root_adjudication_pending": true,
+  "schema": "ri132-review-reservation-v1",
+  "source_handoff": {
+    "bytes": 9135,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.json",
+    "sha256": "5841f7d783b549b4e8e5a978e1ed3ebceb169412ffc8573ed04ebe52a6d9d53e"
+  },
+  "status": "ASSIGNED_INDEPENDENT_REVIEW_PENDING"
+}

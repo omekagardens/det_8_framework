@@ -1,0 +1,248 @@
+{
+  "all47_bound_artifacts_unchanged": true,
+  "artifacts": [
+    {
+      "bytes": 5421,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+      "sha256": "711cf7c4c7c193544050983d90162b70d15a754848b7d05a3d2f8f049c31cdf3"
+    },
+    {
+      "bytes": 783,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/BLOCK_CORRESPONDENCE.source-only.json",
+      "sha256": "656e34463d1a48891630076c06902548393ebe435f088eafdf7a19bdc9d565dc"
+    },
+    {
+      "bytes": 2353,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.md",
+      "sha256": "d1cb0c2a908a6905acd95ad1fedbc4f1bd0e63797b42dd452c270d159d0b76b6"
+    },
+    {
+      "bytes": 29806,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HISTORY_CLOSURE.source-only.json",
+      "sha256": "f78ca32b9de47f5390d20c4de44a87aa462b871ba1b51b3bc1329e08c8c6aafa"
+    },
+    {
+      "bytes": 11259,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+      "sha256": "5f9186bd0fdfd64924f5bceb9d0c4a14210db466686ec45fcefe6637a28695af"
+    },
+    {
+      "bytes": 23244,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+      "sha256": "2456a4b74815e5f47216fdcffdf796a67bd394effa31ff880b8708e627cac5c5"
+    },
+    {
+      "bytes": 49499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/SOURCE_METADATA_CHECK.json",
+      "sha256": "566a6b61e364dec643dc17c3b49fe3297992569e16f614521760efef3f8a14f7"
+    },
+    {
+      "bytes": 10760,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/TARGET_CLOSURE.source-only.json",
+      "sha256": "69d927acb494c05ee45326b8e02159c99a583b7ee2533c947a1762b550b1ed83"
+    },
+    {
+      "bytes": 18749,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/caller_contract.py",
+      "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+    },
+    {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    {
+      "bytes": 22152,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/evidence.py",
+      "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+    },
+    {
+      "bytes": 38688,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/guard_controls.source-only.py",
+      "sha256": "e11e53400374068a9036b24e1a50bf8505fc910ae279a8742f24af17dfba8f72"
+    },
+    {
+      "bytes": 14159,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/launch.py",
+      "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+    },
+    {
+      "bytes": 3644,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/monitor.py",
+      "sha256": "5ca6f82423c5ba862b919de846684c2b8364e59442da27d9f5ed933c33a9cb51"
+    },
+    {
+      "bytes": 2696,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/profile_observe.source-only.py",
+      "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7"
+    },
+    {
+      "bytes": 8184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/runtime_support.py",
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    {
+      "bytes": 12011,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/CASES.md",
+      "sha256": "fbcabc6b49f5ffb741688293a0dab894e7dc3b2fd761c6f123fbdcacf2ee3eef"
+    },
+    {
+      "bytes": 26409,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/CONTRACT.md",
+      "sha256": "abd8aeb6e74a46194bb38f9abc8c02e6be5bcff83318f8df1d27334fa317f2bd"
+    },
+    {
+      "bytes": 8758,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/FABRICATED_INTERFACES.md",
+      "sha256": "2e1db0380e13791448c957453a823c1d2d20874b8af80dc01ddb8c09b4927f4e"
+    },
+    {
+      "bytes": 5379,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/HANDOFF.json",
+      "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+    },
+    {
+      "bytes": 4802,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/KERNEL_REFUSALS.md",
+      "sha256": "85651a0ead42ec2edf18bfdd049efd49c20cb09fb25bc2be1e4ba561b9b9f208"
+    },
+    {
+      "bytes": 3880,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/PREDECESSOR_PINS.json",
+      "sha256": "e1d0d5557056a536d2505d7e304ec7185b325a29ac0dd267f91b3f7a7aa0b70b"
+    },
+    {
+      "bytes": 7366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/PREPARATION_RECORD.md",
+      "sha256": "f58a58c7935f4cb27651c893bb358eb8ece45f58b70d71fa120465761de7e733"
+    },
+    {
+      "bytes": 97989,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/SOURCE_DIFF.patch",
+      "sha256": "edd788940663882972092dc62706f80c81df5e14d76aa90c34dff8cf1158a9e1"
+    },
+    {
+      "bytes": 10113,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/SOURCE_METADATA_CHECK.json",
+      "sha256": "3e713faa6a85e32d856640e7e509bc56e3cc479cc31323465e5e461ca6582cf9"
+    },
+    {
+      "bytes": 7426,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/WHITE_REFUSALS.md",
+      "sha256": "dbc6a3a400b22973379c632cea3924413e36bd441df9ff0e21c2f7507918f0bb"
+    },
+    {
+      "bytes": 15910,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/white_controls.py",
+      "sha256": "5055fb4aec16563680b2941d445da8273e99799d8fbf567fb7affe368f28e6a2"
+    },
+    {
+      "bytes": 12790,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/white_kernel.py",
+      "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+    },
+    {
+      "bytes": 32343,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/white_path.py",
+      "sha256": "32a084c003ecb0bb290ea3f85c3b4bcde4061e5cf62aa7b0b9f3ead19470618b"
+    },
+    {
+      "bytes": 21310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/CONTROL_EXPECTATIONS.json",
+      "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478"
+    },
+    {
+      "bytes": 4492,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/HANDOFF.json",
+      "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8"
+    },
+    {
+      "bytes": 4193,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/PREDECESSOR_PINS.json",
+      "sha256": "1bdb5c263fd2ccfed38c99f4b7c69b866ce056480e3e3070b78ebdb2956e72d1"
+    },
+    {
+      "bytes": 7575,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/PREPARATION_RECORD.md",
+      "sha256": "376a5230499123967abddc26c18399db0f9593ac24f5bc47466aa164511bd419"
+    },
+    {
+      "bytes": 3295,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/SOURCE_METADATA_CHECK.json",
+      "sha256": "494ce307f2db47433c9ea1dbceacd3787b7cbfc432e133a055af866c797510e8"
+    },
+    {
+      "bytes": 20505,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/STAGE_CONTRACT.md",
+      "sha256": "54178d21d90ef5f7f7dfc7d9d55f1a1df27dd57bef645b6e1b06d542dc572df0"
+    },
+    {
+      "bytes": 6834,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/kernel_controls.py",
+      "sha256": "8ccabc68a135f4aad40fefb2078f3ba35684f5ea8e277683401fd37bfb95c51e"
+    },
+    {
+      "bytes": 27375,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/qualify_white_only.py",
+      "sha256": "1c988f6e8520d47f73f3c3e94d9950593e20652bc5976e7e90480f29f2ffc689"
+    },
+    {
+      "bytes": 15878,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/white_fixtures.py",
+      "sha256": "9b40dc813035ad2d973e6d2c5d75557eaf7e8799a3dcbb1ff359fb504c9de409"
+    },
+    {
+      "bytes": 3957,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/AUTHORING_RECORD.md",
+      "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+    },
+    {
+      "bytes": 4821,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/HANDOFF.json",
+      "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+    },
+    {
+      "bytes": 4804,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/HANDOFF.md",
+      "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+    },
+    {
+      "bytes": 3762,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/PREDECESSOR_PINS.json",
+      "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+    },
+    {
+      "bytes": 14060,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/PROTOCOL.md",
+      "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+    },
+    {
+      "bytes": 8848,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/SOURCE_METADATA_CHECK.json",
+      "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+    },
+    {
+      "bytes": 17909,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/validator_controls.py",
+      "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+    },
+    {
+      "bytes": 56593,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/white_validator.py",
+      "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+    },
+    {
+      "bytes": 9021,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/worker.py",
+      "sha256": "0250bdfa9c47fcbe8b00278be79f2cf7e3ca8b955bf93f16eb3d18c1e7936550"
+    }
+  ],
+  "schema": "ri130-independent-final-source-rehash-v1",
+  "scientific_decode": false,
+  "source_handoff": {
+    "bytes": 26684,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+    "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8"
+  },
+  "target_execution": false
+}

@@ -1,0 +1,375 @@
+{
+  "files": [
+    {
+      "bytes": 56593,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+      "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+    },
+    {
+      "bytes": 17909,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+      "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+    },
+    {
+      "bytes": 14060,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+      "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+    },
+    {
+      "bytes": 3957,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+      "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+    }
+  ],
+  "imports_by_plain_text": {
+    "validator_controls.py": [
+      "import copy",
+      "import io",
+      "import os",
+      "from pathlib import Path",
+      "import white_validator as V"
+    ],
+    "white_validator.py": [
+      "import hashlib",
+      "import json",
+      "import math",
+      "import os",
+      "from pathlib import Path",
+      "import re",
+      "import stat"
+    ]
+  },
+  "literal_inventory": {
+    "historical_count": 92,
+    "historical_exact_order_matches_sealed_primary_text": true,
+    "historical_gates": [
+      "fixture:fir",
+      "fixture:cancellation",
+      "fixture:singleton",
+      "fixture:offdiagonal_small",
+      "fixture:offdiagonal_large",
+      "fixture:failed_gate",
+      "fixture:midpoint",
+      "fixture:rank_ambiguity",
+      "fixture:singular",
+      "fixture:output_law",
+      "refusal:float_endpoint",
+      "refusal:bool_endpoint",
+      "refusal:nonfinite_endpoint",
+      "refusal:reversed_interval",
+      "refusal:negative_radius",
+      "refusal:matrix_rows",
+      "refusal:bool_dimension",
+      "refusal:bool_row_dimension",
+      "refusal:matrix_columns",
+      "refusal:ragged_box",
+      "refusal:asymmetric_gram",
+      "refusal:asymmetric_error",
+      "refusal:negative_error",
+      "refusal:negative_pivot",
+      "refusal:wrong_ldl",
+      "refusal:wrong_inverse",
+      "refusal:wrong_delta",
+      "refusal:wrong_gamma",
+      "refusal:incorrect_rank",
+      "refusal:bool_rank",
+      "refusal:wrong_mp1",
+      "refusal:wrong_mp2",
+      "refusal:wrong_mp3",
+      "refusal:off_support",
+      "refusal:negative_rho",
+      "refusal:rho_at_one",
+      "refusal:negative_output_error",
+      "refusal:unqualified_cdf",
+      "refusal:cdf_series_domain",
+      "refusal:negative_cdf_argument",
+      "refusal:estimated_covariance",
+      "refusal:colored_covariance",
+      "refusal:fraction_numerator_cap",
+      "refusal:fraction_denominator_cap",
+      "refusal:operation_result_cap",
+      "refusal:hex_length",
+      "refusal:hex_plus",
+      "refusal:hex_negative_zero",
+      "refusal:hex_leading_zero",
+      "refusal:hex_denominator_zero",
+      "refusal:hex_unreduced",
+      "refusal:work_cap",
+      "refusal:work_bool",
+      "refusal:output_cap",
+      "refusal:duplicate_json",
+      "refusal:nonfinite_json",
+      "refusal:overflow_json",
+      "refusal:changed_snapshot",
+      "refusal:bool_pin",
+      "refusal:changed_runtime",
+      "refusal:changed_runtime_build",
+      "refusal:failed_receipt",
+      "refusal:incomplete_receipt",
+      "refusal:changed_receipt_engine",
+      "refusal:changed_arithmetic",
+      "refusal:wrong_padding",
+      "refusal:bool_padding",
+      "refusal:changed_manifest_coefficient",
+      "refusal:changed_manifest_stage_order",
+      "refusal:changed_manifest_padding",
+      "refusal:missing_rows",
+      "refusal:wrong_rows",
+      "refusal:wrong_snapshot_shape",
+      "refusal:missing_expected_summaries",
+      "integration:reconstruction",
+      "integration:gram",
+      "integration:mathematical",
+      "integration:accuracy",
+      "integration:cross",
+      "probe:zero",
+      "probe:constant",
+      "probe:0",
+      "probe:1",
+      "probe:27",
+      "probe:805",
+      "probe:1384",
+      "probe:2741",
+      "probe:2767",
+      "probe:2768",
+      "integration:law",
+      "integration:final_custody",
+      "completion:custody"
+    ],
+    "kernel_count": 38,
+    "kernel_refusal_pairs": [
+      [
+        "SHAPE",
+        "strip rows list"
+      ],
+      [
+        "DOMAIN",
+        "fixed primitive domain"
+      ],
+      [
+        "DOMAIN",
+        "fixed primitive domain"
+      ],
+      [
+        "SCHEMA",
+        "closed object keys"
+      ],
+      [
+        "ROW",
+        "row order"
+      ],
+      [
+        "SHAPE",
+        "exact list length"
+      ],
+      [
+        "SHAPE",
+        "exact list length"
+      ],
+      [
+        "EXACT",
+        "hex string required"
+      ],
+      [
+        "EXACT",
+        "canonical signed hex"
+      ],
+      [
+        "EXACT",
+        "canonical signed hex"
+      ],
+      [
+        "EXACT",
+        "reduced positive denominator"
+      ],
+      [
+        "EXACT",
+        "reduced positive denominator"
+      ],
+      [
+        "RESOURCE",
+        "integer text ceiling"
+      ],
+      [
+        "RESOURCE",
+        "integer bit ceiling"
+      ],
+      [
+        "INTERVAL",
+        "ordered endpoints"
+      ],
+      [
+        "ORIENTATION",
+        "directed shift label"
+      ],
+      [
+        "SCHEMA",
+        "closed object keys"
+      ],
+      [
+        "SHAPE",
+        "fixed matrix size"
+      ],
+      [
+        "BOUND",
+        "nonnegative shift radius"
+      ],
+      [
+        "POLARIZATION",
+        "saved polarization"
+      ],
+      [
+        "DIRECT",
+        "saved direct enclosure intersection"
+      ],
+      [
+        "TRACE",
+        "complete shift trace"
+      ],
+      [
+        "DOMAIN",
+        "fixed window count"
+      ],
+      [
+        "SCHEMA",
+        "closed object keys"
+      ],
+      [
+        "GRAM",
+        "both inverse products"
+      ],
+      [
+        "GRAM",
+        "symmetric Gram/inverse and nonnegative bound"
+      ],
+      [
+        "GRAM",
+        "both inverse products"
+      ],
+      [
+        "GRAM",
+        "both inverse products"
+      ],
+      [
+        "GRAM",
+        "delta row-sum bound"
+      ],
+      [
+        "GRAM",
+        "gamma inverse row-sum bound"
+      ],
+      [
+        "GRAM",
+        "unchanged inherited rho gate"
+      ],
+      [
+        "GRAM",
+        "unchanged inherited rho gate"
+      ],
+      [
+        "BOUND",
+        "nonnegative error, positive lower bound"
+      ],
+      [
+        "BOUND",
+        "nonnegative error, positive lower bound"
+      ],
+      [
+        "ZERO_DIVISOR",
+        "division by zero"
+      ],
+      [
+        "RESOURCE",
+        "integer bit ceiling"
+      ],
+      [
+        "GRAM",
+        "nonpositive inherited Gram pivot"
+      ],
+      [
+        "STRUCTURAL",
+        "trace structural interval intersection"
+      ]
+    ],
+    "total_declared_controls": 179,
+    "wc_order": [
+      "WC01",
+      "WC02",
+      "WC03",
+      "WC04",
+      "WC05",
+      "WC06",
+      "WC07",
+      "WC08",
+      "WC09",
+      "WC10",
+      "WC11",
+      "WC12",
+      "WC13",
+      "WC14",
+      "WC15",
+      "WC16",
+      "WC17",
+      "WC18",
+      "WC19",
+      "WC20",
+      "WC21",
+      "WC22",
+      "WC23",
+      "WC24",
+      "WC25",
+      "WC26",
+      "WC27",
+      "WC28",
+      "WC29",
+      "WC30",
+      "WC31",
+      "WC32",
+      "WC33",
+      "WC34",
+      "WC35",
+      "WC36",
+      "WC37",
+      "WC38",
+      "WC39",
+      "WC40",
+      "WC41",
+      "WC42",
+      "WC43",
+      "WC44",
+      "WC45",
+      "WC46"
+    ],
+    "wg_declared_loop_over_literal_92": true,
+    "wt_declared_order": [
+      "WT01",
+      "WT02",
+      "WT03"
+    ]
+  },
+  "metadata_attempts": [
+    {
+      "outcome": "plain-text extraction error; broad regex counted references outside the primary literal inventory; no target code run or changed",
+      "repair": "restrict scan to named RI73_GATES literal block",
+      "subsequent_outcome": "literal 92 ids and order agree",
+      "tool_chunk": "41a4fb"
+    }
+  ],
+  "prohibited_activity": {
+    "active_card_or_runtime_created": false,
+    "actual_scientific_body_decode": false,
+    "compile_or_ast": false,
+    "repository_or_git_mutation": false,
+    "target_import": false,
+    "target_or_fixture_execution": false
+  },
+  "qualification_claimed": false,
+  "resource_feasibility_demonstrated": false,
+  "schema": "ri125-independent-white-validator-source-metadata-v1",
+  "source_acceptance_claimed": false,
+  "source_lines": {
+    "validator_controls.py": 261,
+    "white_validator.py": 1050
+  },
+  "status": "SOURCE_TEXT_AND_OPAQUE_PINS_ONLY"
+}

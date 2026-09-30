@@ -1,0 +1,86 @@
+{
+  "activity": {
+    "active_runtime_or_admission": false,
+    "actual_scientific_body_decode": false,
+    "compile_ast_probe": false,
+    "fixture_or_target_execution": false,
+    "repository_index_git_mutation": false,
+    "target_import": false
+  },
+  "actual_data_admitted": false,
+  "completed_source": [
+    "W01-W15 complete fixed fabricated generation, including W10 predicate-only and full-row W09/W13-W15 plus discriminatory W11/W12.",
+    "All concrete WK01-WK37 primary refusal calls; unchanged WK38 and all142 wrapper/tail controls integrated into179 per implementation.",
+    "Exact agreed separate-validator API, complete typed primary/independent result comparison and fresh independent reconstruction from saved operands.",
+    "Distinct white-only orchestration/report, exclusive outputs, complete control-tree/namespace identities and independent first-failure-preserving postchecks.",
+    "Closed stage schemas and exact176-refusal plus3-tail control source manifest."
+  ],
+  "files": [
+    {
+      "bytes": 21310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/CONTROL_EXPECTATIONS.json",
+      "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478"
+    },
+    {
+      "bytes": 4193,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREDECESSOR_PINS.json",
+      "sha256": "1bdb5c263fd2ccfed38c99f4b7c69b866ce056480e3e3070b78ebdb2956e72d1"
+    },
+    {
+      "bytes": 7575,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREPARATION_RECORD.md",
+      "sha256": "376a5230499123967abddc26c18399db0f9593ac24f5bc47466aa164511bd419"
+    },
+    {
+      "bytes": 3295,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/SOURCE_METADATA_CHECK.json",
+      "sha256": "494ce307f2db47433c9ea1dbceacd3787b7cbfc432e133a055af866c797510e8"
+    },
+    {
+      "bytes": 20505,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/STAGE_CONTRACT.md",
+      "sha256": "54178d21d90ef5f7f7dfc7d9d55f1a1df27dd57bef645b6e1b06d542dc572df0"
+    },
+    {
+      "bytes": 6834,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/kernel_controls.py",
+      "sha256": "8ccabc68a135f4aad40fefb2078f3ba35684f5ea8e277683401fd37bfb95c51e"
+    },
+    {
+      "bytes": 27375,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/qualify_white_only.py",
+      "sha256": "1c988f6e8520d47f73f3c3e94d9950593e20652bc5976e7e90480f29f2ffc689"
+    },
+    {
+      "bytes": 15878,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/white_fixtures.py",
+      "sha256": "9b40dc813035ad2d973e6d2c5d75557eaf7e8799a3dcbb1ff359fb504c9de409"
+    }
+  ],
+  "immutable_after_handoff": true,
+  "pending": [
+    "Independent complete review of this new source and separately authored validator/controls.",
+    "Root reconciliation and exact transitive source/history/runtime closure and reviewed caller.",
+    "Root-admitted actual normal qualification and independent saved review, followed by separate optimized admission and genuine completion review.",
+    "The unchanged resource limits have not been shown feasible.",
+    "Ten periodic, five mean/nuisance/calibration and two join cases/consumers and their independent validators, full32-case application qualification and actual-data admission."
+  ],
+  "physical_claim": false,
+  "predecessor_handoff": {
+    "bytes": 5379,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+    "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+  },
+  "programme_complete": false,
+  "qualification_claimed": false,
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "root_predecessor_disposition": {
+    "bytes": 2174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/RI125_WHITE_SOURCE_DISPOSITION.json",
+    "sha256": "90c66df22b5ff16b578f38a4aba811638ec9f10f2b6089f898227691aa8219db"
+  },
+  "schema": "ri125-white-only-qualification-source-handoff-v1",
+  "source_acceptance_claimed": false,
+  "status": "UNEXECUTED_WHITE_ONLY_SOURCE_FOR_INDEPENDENT_REVIEW"
+}
