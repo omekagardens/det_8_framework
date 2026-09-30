@@ -1,0 +1,135 @@
+{
+  "schema": "ri153-fixed-prefix-weighted-proof-handoff-v1",
+  "status": "SEALED_AUTHOR_PROOF_PENDING_FRESH_NONAUTHOR_REVIEW_AND_ROOT_ADJUDICATION",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/NATIVE_SUCCESSOR_RESERVATION.json",
+    "bytes": 2872,
+    "sha256": "5e9831650ce2defca777500392419b16bf3d820458f19c1bfca2c522a4869e51"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/RI151_ROOT_ADJUDICATION.json",
+    "bytes": 5022,
+    "sha256": "42572ffd230ccf25eb761c4bf8741f66a99d218b40234329cad4cc4b29aab882"
+  },
+  "namespace": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "FIXED_PREFIX_MARGIN_SYNTHESIS.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "PREFIX_STRUCTURE.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "WEIGHTED_PREFIX_COMPARISON.md"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/ANALYTIC_RESULT.json",
+      "bytes": 3122,
+      "sha256": "1d93314e11c0cfa932c3e0ebd6327b042bc5f6eeefedf227f1efbb9b45860445"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/AUTHOR_CHECKS.json",
+      "bytes": 13645,
+      "sha256": "be78e062ec642b63ef05eb76e2d894127a2182eb1f1881bb8852be57bd285abd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/DEPENDENCY_NOTES.md",
+      "bytes": 10054,
+      "sha256": "b58183a7babae28342dadc5d23a023ec9aade17cbbaebafb62febed884114e1c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/FIXED_PREFIX_MARGIN_SYNTHESIS.md",
+      "bytes": 13670,
+      "sha256": "3671a7415d6f9f36a77e704439e3560172cfb6240d43a0a97bc546537cdfd7c8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.md",
+      "bytes": 2905,
+      "sha256": "4e66b9e665ff480ca568440783f1e1b075746d858c485aed46ebbbaa86a45d74"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/PREFIX_STRUCTURE.md",
+      "bytes": 15472,
+      "sha256": "2880e8bb604b054a30101015b9b471a4bd714703816ed1bb65b9746041e19b08"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_DEPENDENCIES.json",
+      "bytes": 154597,
+      "sha256": "8289ef9fc22a290924584d0ad0447b1e37b1cb2a0cb5d9ae7b921e368cc612ab"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_IDENTITIES.json",
+      "bytes": 23951,
+      "sha256": "d75764fa333400acef5b1c151b4ee0f44780a4ba31c380f63d8f486d3a4a8268"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/WEIGHTED_PREFIX_COMPARISON.md",
+      "bytes": 11750,
+      "sha256": "a9ebc8a952ad2cbab2b958a439c4b4b113190805a557f32488df9edf6999339a"
+    }
+  ],
+  "result": {
+    "prefix": "Actual J3 root-only; exact hook full-complement compensation and square remainder parallelograms; stricter branch bounds without selecting a branch.",
+    "weighting": "p<1/41, omega<11/1476, k>2561/1476; exact kernel-ratio monotonicity and stronger all-sign floors.",
+    "endpoint_theorem": "For m>=0, S>=m on[0,Z] iff S(0)>=m andS(Z)>=m. Not extended to negative floors.",
+    "joint_budget": "Both envelope budgets iff positiveC0,C1 andminq>=Qreq=A max(1/C0,(1-Yu2)/C1); same correlated prefix throughout.",
+    "remaining_exact_relation": "YE<1; v>B max(1,(1-Yu3)/(1-YE)); q endpoint inequalities againstQreq plus positively cleared interior-vertex inequality when applicable.",
+    "actual_comparisons_proved": false,
+    "full_H30_decided": false,
+    "conditional_H30_implication": "A true pass impliesW<=0 and obstructs this fixedH30 candidate; no pass is established. Failing a sufficient test does not decideW."
+  },
+  "diagnostics": "Withdrawn source-table seed-order inference disclosed and unused; no actual numerical values computed/substituted. Early diamond-label message corrected before proof. Conditional H30 consequence and evaluation-scope language repaired before seal.",
+  "actual_author_checks": {
+    "preseal_chunk": "48f638",
+    "preseal_exit_code": 0,
+    "dependencies": 171,
+    "selected_bytes": 4855024,
+    "inherited_rows_preserved_except_role": 150,
+    "administrative_bodies": 55,
+    "historical_typed_references": 992,
+    "current_premise_references": 72,
+    "whole_byte_source_pairs": 4,
+    "absolute_current_manuscript_reference_occurrences": 4,
+    "preseal_fresh_identity_rechecks": 179,
+    "post_author_pin_chunk": "99c533",
+    "post_author_pin_exit_code": 0
+  },
+  "author_review": "Main read complete current proof texts and narrow final refinements; both mathematical coauthors read main synthesis. These are author-peer checks, not independent acceptance.",
+  "preserved": {
+    "RET": "paused",
+    "measurement": "separate",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "shared_T1_recovery": true,
+    "other_eight_connected_parents": true,
+    "all_five_Di": true,
+    "individual_ideal_multiplicities": true,
+    "strict_endpoints": true
+  },
+  "scope": {
+    "manual_source_proof": true,
+    "scientific_execution": false,
+    "scientific_body_decode": false,
+    "actual_numerical_values_computed_or_substituted": false,
+    "withdrawn_seed_comparison_disclosed": true,
+    "global_graph_enumeration": false,
+    "engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "repository_index_Git_write": false,
+    "predecessor_mutation": false,
+    "runtime_controller_card_admission": false,
+    "physical_claim": false
+  },
+  "ret_paused": true,
+  "stop": "Fresh independent review and root adjudication required. Root owns publication, repository/index/Git and execution admission. No successor assigned."
+}

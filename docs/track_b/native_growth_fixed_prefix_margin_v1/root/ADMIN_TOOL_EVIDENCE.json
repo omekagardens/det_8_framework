@@ -1,0 +1,45 @@
+{
+  "schema": "ri153-root-proof-tool-evidence-v1",
+  "metadata_check": {
+    "arguments": {
+      "cmd": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/check_native.py",
+      "workdir": "/Volumes/AI_DATA/development/det_8_framework-ret",
+      "yield_time_ms": 1000,
+      "max_output_tokens": 2000
+    },
+    "result": {
+      "chunk_id": "58ede7",
+      "wall_time_seconds": 0.000010709,
+      "exit_code": 0,
+      "original_token_count": 92,
+      "output": "{\"bytes\": 116325, \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/METADATA_CHECK.json\", \"sha256\": \"c398f6fb86f9d8d658242d5802c0a61e887fdb1c800bf0e1c70e35e7898e23f5\"}\n{\"bytes\": 4855024, \"current_refs\": 72, \"dependencies\": 171, \"historical_refs\": 992, \"status\": \"PASS_METADATA_ONLY_NOT_PROOF_ACCEPTANCE\", \"subject_files\": 10}\n"
+    }
+  },
+  "adjudication": {
+    "arguments": {
+      "cmd": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/adjudicate_native.py",
+      "workdir": "/Volumes/AI_DATA/development/det_8_framework-ret",
+      "yield_time_ms": 1000,
+      "max_output_tokens": 2000
+    },
+    "result": {
+      "chunk_id": "a59370",
+      "wall_time_seconds": 0.909194542,
+      "exit_code": 0,
+      "original_token_count": 110,
+      "output": "{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/RI153_ROOT_ADJUDICATION.json', 'bytes': 13692, 'sha256': '32fdceef9651d5a97e22060a5c2040cb53f250d8e7c66ff43c199bd18b73b0f2'}\n{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/NATIVE_SUCCESSOR_RESERVATION.json', 'bytes': 2446, 'sha256': '8810144710b6e9777cedd6c8d3d8038e84b4ec5a31fb09a9cf908763ba472439'}\n"
+    }
+  },
+  "root_read_diagnostics": [
+    {
+      "chunk": "2cd186",
+      "exit_code": 1,
+      "reason": "Incorrect narrative filename; read-only, recovered actual file."
+    },
+    {
+      "chunk": "0ea139",
+      "reason": "Aggregate output clipped five tokens in first-section paragraph; recovered in 780b23."
+    }
+  ],
+  "scientific_execution": false
+}

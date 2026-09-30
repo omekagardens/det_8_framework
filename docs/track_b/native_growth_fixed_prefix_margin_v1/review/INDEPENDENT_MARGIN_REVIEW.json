@@ -1,0 +1,164 @@
+{
+  "accepted_manual_results": [
+    "J3 actual raising-terminal component identity",
+    "Complete hook compensation and square remainder parallelograms",
+    "Strict normalization/kernel inequalities",
+    "Conditional exact kernel-ratio monotonic direction",
+    "Valid signed floors with aggregate dominance",
+    "Exact two-endpoint equivalence for every nonnegative singleton floor",
+    "Exact strict-capacity and adequate threshold resolution of both old sufficient budgets",
+    "Exact full-q endpoint/vertex remaining relation"
+  ],
+  "accepted_predecessor": {
+    "bytes": 5022,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/RI151_ROOT_ADJUDICATION.json",
+    "sha256": "42572ffd230ccf25eb761c4bf8741f66a99d218b40234329cad4cc4b29aab882"
+  },
+  "actual_administrative_check": {
+    "checker": {
+      "bytes": 8351,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/check_metadata.py",
+      "sha256": "463fbd99e436bc2a113972d218331383a37d8f85e6968a7213e801e1ff2d2251"
+    },
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/check_metadata.py",
+    "exit_code": 0,
+    "report": {
+      "bytes": 116330,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/METADATA_CHECK.json",
+      "sha256": "5c523ca4cfb59845d6339a27d8322c873c226a020bf148b362de58b62a68fd1b"
+    },
+    "tool_chunk": "0ec99a"
+  },
+  "assignment": {
+    "bytes": 2872,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/NATIVE_SUCCESSOR_RESERVATION.json",
+    "sha256": "5e9831650ce2defca777500392419b16bf3d820458f19c1bfca2c522a4869e51"
+  },
+  "clarifications": [
+    {
+      "accepted_scope": "Kbox and hence maximum Kcorr dominate the old bound, strictly if either sigma is positive; all three are valid uniform floors.",
+      "id": "N01",
+      "location": "ANALYTIC_RESULT.json new_results[4]; WEIGHTED_PREFIX_COMPARISON.md144-164; FIXED_PREFIX_MARGIN_SYNTHESIS.md110-122",
+      "not_accepted": "An additional claim that each individual ratio anchor itself must dominate the old bound.",
+      "required_repair": false,
+      "severity": "NONBLOCKING_SUMMARY_SCOPE_CLARIFICATION",
+      "wording": "Three all-sign correlated singleton floors dominate the old bound"
+    }
+  ],
+  "complete_current_manuscripts": [
+    "PREFIX_STRUCTURE.md",
+    "WEIGHTED_PREFIX_COMPARISON.md",
+    "FIXED_PREFIX_MARGIN_SYNTHESIS.md"
+  ],
+  "conditional_implication": "A genuine pass implies W<=0 on actual-containing domain, excludes simultaneous strict C2/C3 positivity and obstructs this fixed H30 candidate; no pass shown. Failure of sufficient test does not decide W.",
+  "excluded_inference": {
+    "FS1_greater_than_FS0_accepted": false,
+    "exact_diagnostic_retained": true,
+    "new_actual_seed_comparison_performed_by_reviewer": false,
+    "source": "AUTHOR_CHECKS.json diagnostics[0]",
+    "theorem_branch_order_sign_credit": false
+  },
+  "findings": [
+    {
+      "finding": "Complete three maximal deletion roles, correct C3 precursor1/3 diamond, F3 equal-precursor loops, three local nodes per root and equal positive E^2/F_i potentials prove actual parent-four J3 root-only; no canonical-zero shortcut.",
+      "id": "R01",
+      "location": "PREFIX_STRUCTURE.md56-106"
+    },
+    {
+      "finding": "Complete hook/square normalization retains all individual ideals and genuine full complements. Compensation, parallelograms, strict branch caps, Gamma identity and every zero/branch case have correct signs and positive divisors.",
+      "id": "R02",
+      "location": "PREFIX_STRUCTURE.md108-230,254-294"
+    },
+    {
+      "finding": "Withdrawn literal seed-order comparison supplies no premise, actual root sign, branch or theorem credit. All symbolic difference identities are conditional. Sealed J3 proof uses corrected1/3 pair, not withdrawn root/full1/7 label.",
+      "id": "R03",
+      "location": "PREFIX_STRUCTURE.md232-252; AUTHOR_CHECKS.json diagnostics"
+    },
+    {
+      "finding": "Strict complete-row p<1/41 gives omega<11/1476, k>2561/1476; k is decreasing positive. Ratio derivative factors exactly and its strictly positive bracket leaves both actual root order cases unselected.",
+      "id": "R04",
+      "location": "WEIGHTED_PREFIX_COMPARISON.md45-121"
+    },
+    {
+      "finding": "Three signed floors valid; maximum dominates old via Kbox. Nonnegative-floor endpoint theorem proven for every p/sigma order including ties/zeros; negative endpoint floor not promoted. Sum of separate minima is sufficient only.",
+      "id": "R05",
+      "location": "WEIGHTED_PREFIX_COMPARISON.md123-260"
+    },
+    {
+      "finding": "Both original RI147 budgets exactly equivalent to strictly positive C0/C1 and mu>=A max(1/C0,(1-Yu2)/C1). Capacities equivalent to YE<1 plus strict v threshold; no zero/negative division and no actual pass established.",
+      "id": "R06",
+      "location": "FIXED_PREFIX_MARGIN_SYNTHESIS.md124-210"
+    },
+    {
+      "finding": "Core and full q coefficients match accepted polynomial; all core minimum cases retained. With inherited q2>0, both endpoints plus applicable positively cleared interior vertex exactly test full q against Qreq. Pass obstructs fixed H30; failure of sufficient envelope does not decide W.",
+      "id": "R07",
+      "location": "FIXED_PREFIX_MARGIN_SYNTHESIS.md212-272"
+    },
+    {
+      "finding": "0ec99a exit0 independently verifies171dependencies4855024bytes,150inherited+21,992historical72currentrefs,13historicalnamespaces,4pairs4literalrefs,181freshidentityrechecks,exact10subjectnamespace/all9payloads.",
+      "id": "R08",
+      "location": "METADATA_CHECK.json"
+    }
+  ],
+  "independence": {
+    "O01_and_RI151_root_accepted_inherited_premises": true,
+    "O01_review_observation_authorship_disclosed": true,
+    "author_of_current_subject": false,
+    "author_peer_checks_counted_as_independent": false,
+    "prior_RI145_RI147_RI149_RI151_review_authorship": true,
+    "unrelated_WHITE_authorship_disclosed": true
+  },
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "individual_ideal_multiplicities": true,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "remaining": {
+    "actual_W_C2_C3_signs_decided": false,
+    "actual_adequate_q_v_joint_budget_proved": false,
+    "actual_capacity_signs_proved": false,
+    "actual_positive_part_branch_decided": false,
+    "actual_rho_in_earlier_small_x_interval_proved": false,
+    "actual_root_order_decided": false,
+    "full_H30_decided": false,
+    "precise_relation": "At same correlated actual prefix, prove YE<1 and v>B max(1,(1-Yu3)/(1-YE)), then q(0)>=Qreq, q(Z)>=Qreq and, when -2q2Z<q1<0,4q2(q0-Qreq)-q1^2>=0; or prove inherited direct cleared W endpoint inequalities."
+  },
+  "required_repairs": [],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY",
+  "reviewer": "/root/archive_repro_review",
+  "root_owns_adjudication_publication_and_successor": true,
+  "schema": "ri153-independent-margin-review-v1",
+  "scope": {
+    "administrative_identity_reference_checks": true,
+    "global_graph_enumeration": false,
+    "historical_mutation": false,
+    "manual_mathematical_review": true,
+    "numerical_scientific_evaluation": false,
+    "operational_acceptance": false,
+    "physical_claim": false,
+    "repository_index_Git_write": false,
+    "runtime_controller_card_admission": false,
+    "scientific_body_decode": false,
+    "subject_import_compile_AST_probe_run": false,
+    "symbolic_numerical_engine": false
+  },
+  "status": "ACCEPT_EXACT_PREFIX_IDENTITIES_AND_CONDITIONAL_JOINT_BUDGET_REDUCTION",
+  "subject_handoff": {
+    "bytes": 6422,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.json",
+    "sha256": "4058c2a9545211d2e845661a86516a69b94d15833c3ebbccb9657dc8de61beb7"
+  }
+}

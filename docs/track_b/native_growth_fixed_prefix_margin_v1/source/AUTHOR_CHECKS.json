@@ -1,0 +1,142 @@
+{
+  "schema": "ri153-author-checks-v1",
+  "status": "AUTHOR_ONLY_NOT_INDEPENDENT_ACCEPTANCE",
+  "manual_review": {
+    "main_complete_reads": [
+      "Selecting assignment and RI151 root adjudication:fc55fd exit0.",
+      "Selecting ROOT_MANUAL_REVIEW and independent HANDOFF:29d18b exit0; complete independent narrative:cec892 exit0.",
+      "Current WEIGHTED_PREFIX_COMPARISON.md:14a9c0 exit0, complete.",
+      "Current PREFIX_STRUCTURE.md:746db1 exit0, complete before disclosed narrow final refinements; final changed scope spans:bcc23d exit0.",
+      "Current FIXED_PREFIX_MARGIN_SYNTHESIS.md authored and manually cross-checked, with both mathematical author peers reading it completely.",
+      "Current DEPENDENCY_NOTES.md:6f049d exit0; SOURCE_IDENTITIES.json:d1bf3e exit0, complete.",
+      "Fresh RI147 ACTUAL_SCALE_BOUND.md227-321 and COMPONENT_CONTRASTS.md173-204:bcc23d exit0. Previous complete unchanged source/proof reads reused without claiming fresh whole-file reads."
+    ],
+    "checks": [
+      "All three maximal deletion roles and the equal-precursor loops of the five-terminal J3 component; correct C3 pair masks1/3, not1/7; positive deletion-potential cancellation.",
+      "Complete hook and square row sums with each individual ideal and genuine full complement; root/atom transport, parallelogram and cross-root difference signs.",
+      "Strict p and omega bounds from complete positive Q4 normalization; no selected actual seed order used.",
+      "Kernel-ratio derivative factorization, all-sign box/two-anchor floors, exact nonnegative-floor endpoint theorem with every order/zero case.",
+      "Strict joint-budget capacities and their equivalent v threshold; exact maximum giving adequate Qreq for BOTH budgets.",
+      "Whole-core and whole-q polynomial coefficients, mT endpoint/vertex cases, q2-positive exact uniform threshold criterion and same correlated [0,Z].",
+      "Failure of a sufficient test does not decide W; a genuine pass would imply the fixed H30 obstruction, but no pass is established."
+    ]
+  },
+  "author_peers": [
+    {
+      "agent": "/root/ri132_native_controls",
+      "role": "Structural coauthor, not independent reviewer",
+      "report": "Completed prefix incidence/remainder proof and full main/weighted peer reads; no concrete mathematical issue. Tentative seed comparison withdrawn and explicitly retained as diagnostic."
+    },
+    {
+      "agent": "/root/ri132_audit_controls",
+      "role": "Weighted algebra coauthor, not independent reviewer",
+      "report": "Full main synthesis checked: kernel and endpoint arguments, t/q coefficients, strict capacities, resolvent and vertex condition. Suggested narrowing conditional H30 consequence; main corrected it before seal."
+    },
+    {
+      "agent": "/root/ri132_evidence_contract",
+      "role": "Administrative provenance coauthor, not independent reviewer",
+      "report": "ccaab4 and8de701 exit0:171 files,4855024bytes,150 inherited rows preserved except role,55admin bodies,992historical/72current refs,4whole-byte source pairs."
+    }
+  ],
+  "diagnostics": [
+    {
+      "kind": "WITHDRAWN_AUTHOR_INFERENCE_NOT_A_PREMISE",
+      "description": "Native peer initially proposed an actual FS1>FS0 sign by comparing literal numerical seed declarations. Main excluded it under the source-only boundary. PREFIX_STRUCTURE section5 expressly discloses it and retains only symbolic difference identities with conditional sign consequences. No actual numerical operand was computed or substituted, and no result or branch relies on that comparison. A blanket claim of no numerical comparison is not made."
+    },
+    {
+      "kind": "MANUAL_MESSAGE_LABEL_CORRECTION",
+      "description": "An early peer message called the J3 connecting pair root/full. Both peer and main corrected it to the C3 masks1/3 before manuscript completion. Mask1/7 belongs to J7=41p. The sealed proof uses the correct pair."
+    },
+    {
+      "kind": "PRESEAL_SCOPE_REPAIR",
+      "description": "Algebra peer noted that actually passing the W envelope would obstruct this fixed H30 candidate. Main removed ambiguous language suggesting no H30 consequence and retained that the present proof establishes no actual pass."
+    },
+    {
+      "kind": "PRESEAL_EDITORIAL_SCOPE",
+      "description": "Prefix/main scope text now distinguishes no numerical values computed/substituted from the disclosed withdrawn seed comparison. Prefix added its manual five-vertex three-corner non-Ferrers justification. These were preseal edits, not changes to a sealed packet."
+    }
+  ],
+  "administrative_check": {
+    "command": "node <<'NODE'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5', P='/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h', V='/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path&&eq(a.symlinks,i.symlinks),'fullpin');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:154597,sha256:'8289ef9fc22a290924584d0ad0447b1e37b1cb2a0cb5d9ae7b921e368cc612ab'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:23951,sha256:'d75764fa333400acef5b1c151b4ee0f44780a4ba31c380f63d8f486d3a4a8268'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body), S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body), M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===171,'count');D.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity);});need(eq([...M.keys()],[...M.keys()].sort()),'sort');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body), omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===150,'old150');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherit');\nfor(const d of[P,V]){const h=JSON.parse(read(d+'/HANDOFF.json').body), n=fs.readdirSync(d).sort();need(eq(n,[...h.namespace].sort())&&eq(n,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'namespace');h.payloads.forEach(pin);}\nlet refs=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','ref closure '+x.path);pin(x);refs++;}Object.values(x).forEach(scan);}\nlet admin=0;for(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body));}\nneed(admin===55&&refs===992,'admin refs');refs=0;scan(S);need(refs===72,'current refs');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'pair');\nconst final=[\"ANALYTIC_RESULT.json\",\"AUTHOR_CHECKS.json\",\"DEPENDENCY_NOTES.md\",\"FIXED_PREFIX_MARGIN_SYNTHESIS.md\",\"HANDOFF.json\",\"HANDOFF.md\",\"PREFIX_STRUCTURE.md\",\"SOURCE_DEPENDENCIES.json\",\"SOURCE_IDENTITIES.json\",\"WEIGHTED_PREFIX_COMPARISON.md\"];\nconst stage=process.env.RI153_STAGE||'preseal8',expected=stage==='final10'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));\nlet sourceRefs=0;for(const n of ['FIXED_PREFIX_MARGIN_SYNTHESIS.md','PREFIX_STRUCTURE.md','WEIGHTED_PREFIX_COMPARISON.md']){const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');for(const match of txt.matchAll(/\\x60(\\/Volumes\\/[^\\x60 \\n]+\\.(?:md|json|py))\\x60/g)){need(M.has(match[1])||expected.some(f=>Q+'/'+f===match[1]),'literal reference '+match[1]);sourceRefs++;}}\nif(stage==='final10'){const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===9,'current seal');need(eq(h.payloads.map(x=>p.basename(x.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current payload coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_predecessor);}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nconsole.log(JSON.stringify({schema:'ri153-author-administrative-check-v1',status:'MATCH_NOT_PROOF_ACCEPTANCE',stage,dependencies:171,selected_bytes:D.protected_files.reduce((n,r)=>n+r.identity.bytes,0),inherited:150,administrative_bodies:55,historical_typed_refs:992,premise_refs:72,predecessor_namespaces:[10,7],counterparts:4,absolute_manuscript_reference_occurrences:sourceRefs,final_fresh_identity_rechecks:before.length,current_payloads:payloads,scientific_execution:false},null,2));\nNODE",
+    "tool_chunk": "48f638",
+    "exit_code": 0,
+    "result": {
+      "schema": "ri153-author-administrative-check-v1",
+      "status": "MATCH_NOT_PROOF_ACCEPTANCE",
+      "stage": "preseal8",
+      "dependencies": 171,
+      "selected_bytes": 4855024,
+      "inherited": 150,
+      "administrative_bodies": 55,
+      "historical_typed_refs": 992,
+      "premise_refs": 72,
+      "predecessor_namespaces": [
+        10,
+        7
+      ],
+      "counterparts": 4,
+      "absolute_manuscript_reference_occurrences": 4,
+      "final_fresh_identity_rechecks": 179,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/ANALYTIC_RESULT.json",
+          "bytes": 3122,
+          "sha256": "1d93314e11c0cfa932c3e0ebd6327b042bc5f6eeefedf227f1efbb9b45860445"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/DEPENDENCY_NOTES.md",
+          "bytes": 10054,
+          "sha256": "b58183a7babae28342dadc5d23a023ec9aade17cbbaebafb62febed884114e1c"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/FIXED_PREFIX_MARGIN_SYNTHESIS.md",
+          "bytes": 13670,
+          "sha256": "3671a7415d6f9f36a77e704439e3560172cfb6240d43a0a97bc546537cdfd7c8"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.md",
+          "bytes": 2905,
+          "sha256": "4e66b9e665ff480ca568440783f1e1b075746d858c485aed46ebbbaa86a45d74"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/PREFIX_STRUCTURE.md",
+          "bytes": 15472,
+          "sha256": "2880e8bb604b054a30101015b9b471a4bd714703816ed1bb65b9746041e19b08"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_DEPENDENCIES.json",
+          "bytes": 154597,
+          "sha256": "8289ef9fc22a290924584d0ad0447b1e37b1cb2a0cb5d9ae7b921e368cc612ab"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_IDENTITIES.json",
+          "bytes": 23951,
+          "sha256": "d75764fa333400acef5b1c151b4ee0f44780a4ba31c380f63d8f486d3a4a8268"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/WEIGHTED_PREFIX_COMPARISON.md",
+          "bytes": 11750,
+          "sha256": "a9ebc8a952ad2cbab2b958a439c4b4b113190805a557f32488df9edf6999339a"
+        }
+      ],
+      "scientific_execution": false
+    }
+  },
+  "scope": {
+    "manual_source_proof": true,
+    "scientific_execution": false,
+    "scientific_body_decode": false,
+    "actual_numerical_values_computed_or_substituted": false,
+    "withdrawn_seed_comparison_disclosed": true,
+    "global_graph_enumeration": false,
+    "engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "repository_index_Git_write": false,
+    "predecessor_mutation": false,
+    "runtime_controller_card_admission": false,
+    "physical_claim": false
+  },
+  "ret_paused": true,
+  "measurement_separate": true,
+  "postseal_rule": "HANDOFF.json binds nine payloads including this record. Final10 check is a separate subsequent actual receipt, with all cached identities freshly reopened; no independent acceptance or continuous-custody claim."
+}

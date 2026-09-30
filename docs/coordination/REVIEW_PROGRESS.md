@@ -1,39 +1,39 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-151's exact canonical
-target formula and RI-152's actual 65 caller guards are independently reviewed
-and root accepted. Exact evidence is in
-`docs/track_b/native_growth_canonical_target_formula_v1/` and
-`docs/experiments/gwosc_caller_guard_qualification_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** RI-153's fixed-prefix
+identities and conditional joint-budget reduction are independently reviewed
+and root accepted. Exact source, full review and root evidence are in
+`docs/track_b/native_growth_fixed_prefix_margin_v1/`.
 
-The native formula is `a_i=[41p_i-f_i/2-min(g_i0,g_i1)]_+/(41p_i c_i)`.
-Complete marked incidence, both symmetric arm ideals, the original full optimal
-face and canonical coordinate order prove attainment, including equal and zero
-cases. It yields `N_i=(35/1476)sigma_i` in the exact weighted q expression.
-Actual prefix branches/root ordering, adequate q/D3 and v/D3 floors, both joint
-budgets, correlated Z, actual rho membership, W/C2/C3 and shared H30 stay open.
-All fixed P2/P3, Y=1/4, 31/139/20/42, shared T1, other eight parents and five Di
-remain. QR returned RI-153 in `ri153-fixed-prefix-weighted-margin-7_73jtl5` for a substantive fixed-prefix
-weighted-margin proof. Its fresh independent review is active in
-`ri153-independent-margin-review-FciZqSiY`; the author packet remains unaccepted
-and excluded here. The next QR assignment follows predecessor adjudication.
-RI-143's execution blocker does not prevent this analysis.
+The new J3 component identity retains complete marked incidence and strict
+prefix positivity. Hook/square full-complement identities sharpen the bounds.
+For a nonnegative singleton floor, the two endpoints are now necessary and
+sufficient. Kbox and the maximum Kcorr improve the previous bound; no claim
+that each ratio anchor individually dominates is accepted. Both joint budgets
+reduce exactly to strict capacities and one adequate q threshold at the same
+correlated prefix. A true pass would obstruct this fixed H30 candidate; no pass
+is established. Actual capacity signs, branches/root order, q/v magnitudes,
+small-x membership, individual C2/C3 and shared H30 remain open. The withdrawn
+seed-order inference supplies no premise. Fixed P2/P3, numerical Y=1/4,
+31/139/20/42 obligations, shared T1, other eight parents and five Di remain.
 
-RI-152 completed once under unchanged source and limits: all 65 nonscientific
-guards passed. Full independent outcome/source review retains the explicit
-metadata/process/runtime doubles and source-mediated in-memory refusals. The
-148 actual monitor samples, both cards, 599 source objects, full 9,923-file runtime
-and complete 1,406-entry operation reconcile. PRE/POST equal the accepted baseline.
-The complete 1,385-entry fixture tree is preserved losslessly as data, including
-all 1,172 regular bodies and 44 literal links; no links are recreated. Genuine
-execution, saved evidence and supplier/tool-origin premises remain distinct.
+QR owns RI-155 in `ri155-strict-capacity-proof-jv0xliup` to resolve the actual
+strict-capacity prerequisite using the retained normalization, incidence and
+scale correlations. It follows RI-153 adjudication; a failed sufficient envelope
+alone cannot decide W. No numerical scientific execution is assigned.
 
-Root owns RI-154 in `ri154-white-mode-preparation-42_uvw15` to prepare the separately reviewed WHITE
-qualification execution-root bindings and external mode-custody prerequisites.
-No scientific mode is admitted by this checkpoint. WHITE/full32 qualification,
-selected conventional GWOSC reproduction, calibration and native forward map
-remain separate gates. Root owns Git/admissions; active successors and unrelated
-edits are excluded. The programme continues; RET alone remains paused.
+RI-151's exact canonical formula and RI-152's genuine 65 caller guards remain
+accepted and published in verified `b590f08`. WHITE scientific qualification and
+the selected conventional GWOSC reproduction are still separate gates. RI-154
+source/custody preparation is active in `ri154-white-mode-preparation-42_uvw15`,
+with the measurement contributor authoring for subsequent independent review.
+Its exact relocation, environment and complete external mode-custody requirements
+must be settled before scientific admission. Historical runtime/profile/guard
+observations cannot silently authorize changed paths or environments.
+
+Root owns adjudication, admissions and Git. Active successor files and unrelated
+edits are excluded. Calibration, native forward maps and physical claims remain
+open. The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -12082,3 +12082,19 @@ RI-153 advances fixed-prefix proof; RI-154 prepares WHITE bindings and custody.
 Parent 4125411 was independently verified on origin/ret. Scoped archive checks,
 full unrelated identity/inventory preservation and new commit/push/remote
 verification are recorded externally. The broader programme remains active.
+
+
+**RI-153 fixed-prefix and joint-budget proof — 30 September 2026 UTC.**
+Complete coordinator and nonauthor proof reviews accept the new smaller-terminal
+incidence, full-complement identities, stronger kernel bounds, nonnegative-floor
+endpoint theorem and exact strict-capacity/q-threshold reduction. Aggregate
+floor dominance is accepted with clarification N01. The withdrawn seed-order
+inference receives no premise credit; actual comparisons remain open.
+Root metadata check 58ede7 exited 0: 171 dependencies / 4,855,024 bytes,
+992 historical and 72 current references, four source pairs and 181 final
+identities. Root adjudication a59370 exited 0 and assigned RI-155. No scientific
+body decode or source execution occurred. RI-154 measurement preparation remains
+active and unadmitted. Parent b590f08 was independently verified on origin/ret.
+Scoped exact-copy, staged/committed-blob and whole-unrelated-custody checks plus
+commit/push/remote receipts are retained externally. Programme and physical
+claims remain open; RET remains paused.
