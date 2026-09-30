@@ -1,0 +1,100 @@
+{
+  "author_diagnostics_preserved": {
+    "clipped_display": "faed7e",
+    "complete_recoveries": [
+      "c270c3",
+      "826c74",
+      "3dfefd",
+      "193414"
+    ],
+    "declared_successful": [
+      "cef2d2",
+      "5023cf"
+    ],
+    "failed_lookup": {
+      "chunk_id": "5269bc",
+      "exit_code": 1,
+      "stderr_file": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/ADMIN_READ_FAILURE.stderr"
+    },
+    "lookup_recoveries": [
+      "601576",
+      "9a93e3"
+    ]
+  },
+  "checker": {
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/CHECK.stderr",
+    "exit_code": 0,
+    "scope": "Opaque identities, bounded selected administrative metadata, literal source text comparisons only",
+    "stderr_empty": true,
+    "tool_chunk_id": "f7ec63"
+  },
+  "clipped_displays": [],
+  "controls_executed": 0,
+  "failed_commands": [],
+  "pre_execution_draft_edit": "Corrected administrative checker dispatch marker ident to identifier after literal source read, before its first execution; not a subject change or hidden failed checker.",
+  "provenance": "Actual tools observed by this independent reviewer; author tool claims are separately pinned subject evidence.",
+  "read_and_authoring_tools": [
+    {
+      "chunk_id": "b2f255",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "bb0ab9",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "6dc4fc",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f39601",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "a74983",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ea274e",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "69967b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "6fdeba",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "63a2b4",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "6c3367",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "3b2f11",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ef011d",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "fffaa7",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "47020c",
+      "exit_code": 0
+    }
+  ],
+  "repository_or_Git_write": false,
+  "runtime_observation": false,
+  "schema": "ri160-independent-actual-checks-v1",
+  "scientific_decode": false,
+  "seal_tool_result": "Reported separately by genuine final tool return; not self-created tool truth.",
+  "source_import_compile_AST_probe_execution": false
+}

@@ -1,0 +1,2 @@
+{"additions": 42, "changed_modules": 2, "controls": {"executed": 0, "new": 22, "retained": 84, "total": 106}, "dependencies": 567, "final_fresh_identity_count": 599, "inherited": 525, "new_modules": 0, "predicates": 4167, "selected_dependency_bytes": 31853372, "status": "PASS_ADMINISTRATIVE_IDENTITY_AND_TEXT_NOT_SOURCE_ACCEPTANCE", "unchanged_modules": 10}
+{"bytes": 817604, "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/METADATA_CHECK.json", "sha256": "67b5f3aadf78538adfd48c1019b5ac84ba3bff100d00ee32497a079e484cce93"}

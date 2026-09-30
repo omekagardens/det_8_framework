@@ -1,0 +1,58 @@
+{
+  "F02_R": "Closed in exact reviewed source; actual qualification not established.",
+  "RET": "paused",
+  "blocking_findings": [],
+  "comparison_tool": {
+    "chunk": "58d82a",
+    "exit_code": 0
+  },
+  "controls": {
+    "defined": 106,
+    "executed": 0,
+    "new": 22,
+    "retained": 84
+  },
+  "date": "2026-09-30",
+  "operational_admission": false,
+  "prerequisites": [
+    "Root exact-source adjudication and separate bounded actual106 admission/results/independent evidence review",
+    "R01 actual path applicability and current-environment unchanged RI141 genuine capture/baseline/profile chain",
+    "Actual normal before optimized, complete saved modes and independent fresh arithmetic reviewer",
+    "RI131 actual-validator campaign and actual15 WHITE qualification; full32 and public-data/physical interpretation remain separate"
+  ],
+  "review": {
+    "bytes": 7293,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/HANDOFF.json",
+    "sha256": "e25342fcaa37c812a70552e6e664aa6e026f11d16e8b40b7be7fc127fef36093"
+  },
+  "root_manual": {
+    "bytes": 5972,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/ROOT_MANUAL_REVIEW.md",
+    "sha256": "df64f8549703f905dcf47afc91d4b3f7b66e8e99e6e9a917cae176b42eed2eb6"
+  },
+  "root_replay": {
+    "bytes": 1515,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/ROOT_METADATA_REPLAY.json",
+    "sha256": "71ebd83009ff368db688622805067a8f125528fece643516eaaff8f7f83b0919"
+  },
+  "runtime_observation": false,
+  "schema": "ri160-root-fixture-source-adjudication-v1",
+  "scientific_execution": false,
+  "source_execution": false,
+  "source_manifest": {
+    "bytes": 147447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+  },
+  "status": "ACCEPT_EXACT_UNEXECUTED_FIXTURE_CUSTODY_REPAIR_SOURCE_WITH_QUALIFICATION_PREREQUISITES",
+  "subject": {
+    "bytes": 14881,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/HANDOFF.json",
+    "sha256": "a0067b9dbacf3ae293260cae242ee646c67c53a0c32ed25d0f47ab3c4056b00f"
+  },
+  "verdict": {
+    "bytes": 2389,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/VERDICT.json",
+    "sha256": "59dddefa999778701a4e0b67d29b091478c90cf418e313edb871316b5ce33021"
+  }
+}

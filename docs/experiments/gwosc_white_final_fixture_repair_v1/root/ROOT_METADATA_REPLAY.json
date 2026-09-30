@@ -1,0 +1,36 @@
+{
+  "all_report_fields_equal_except_schema": true,
+  "dependencies": 567,
+  "fresh_full_identities_rechecked": 599,
+  "historical_states_compared_to_current": false,
+  "independent_full_report": {
+    "bytes": 817604,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/METADATA_CHECK.json",
+    "sha256": "67b5f3aadf78538adfd48c1019b5ac84ba3bff100d00ee32497a079e484cce93"
+  },
+  "predicates": 4167,
+  "replay_command_chunk": "ad1f74",
+  "replay_exit_code": 0,
+  "review": {
+    "bytes": 7293,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/HANDOFF.json",
+    "sha256": "e25342fcaa37c812a70552e6e664aa6e026f11d16e8b40b7be7fc127fef36093"
+  },
+  "review_payloads_rechecked": 9,
+  "review_preseal_pins_rechecked": 8,
+  "root_full_report": {
+    "bytes": 817597,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/METADATA_CHECK.json",
+    "sha256": "82ad9d4df362912e5e64f56834d7d3922345ae8113769477b40342b7a9218aa3"
+  },
+  "schema": "ri160-root-exact-metadata-replay-v1",
+  "scientific_body_decode": false,
+  "selected_bytes": 31853372,
+  "source_control_execution": false,
+  "status": "PASS_ADMINISTRATIVE_ONLY",
+  "subject": {
+    "bytes": 14881,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/HANDOFF.json",
+    "sha256": "a0067b9dbacf3ae293260cae242ee646c67c53a0c32ed25d0f47ab3c4056b00f"
+  }
+}

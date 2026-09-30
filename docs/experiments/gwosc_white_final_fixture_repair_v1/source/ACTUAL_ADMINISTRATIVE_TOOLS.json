@@ -1,0 +1,67 @@
+{
+  "clipped_display": {
+    "chunk_id": "faed7e",
+    "exit_code": 0,
+    "recovered_by": [
+      "c270c3",
+      "826c74",
+      "3dfefd",
+      "193414"
+    ],
+    "scope": "Long combined old adapter/integration source display"
+  },
+  "controls_executed": 0,
+  "failed_commands": [
+    {
+      "chunk_id": "5269bc",
+      "command": "ls -la /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo && cat /Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/INDEPENDENT_REVIEW.md",
+      "effect": "Read-only wrong basename; no target or control execution.",
+      "exit_code": 1,
+      "stderr_file": "ADMIN_READ_FAILURE.stderr"
+    }
+  ],
+  "origin": "Transcription of actual tool outcomes observed in this author turn; no self-authenticated external operation claim.",
+  "other_read_or_authoring_tools_exit0": [
+    "05e4cf",
+    "d2b622",
+    "88e59d",
+    "450302",
+    "1b31e4",
+    "c29b63",
+    "4592b7",
+    "3c265c",
+    "3d8be7"
+  ],
+  "recovery": [
+    {
+      "chunk_id": "601576",
+      "exit_code": 0,
+      "scope": "List exact reviewer namespace."
+    },
+    {
+      "chunk_id": "9a93e3",
+      "exit_code": 0,
+      "scope": "Complete correctly named independent narrative plus assignment/root review."
+    }
+  ],
+  "runtime_observed": false,
+  "schema": "ri160-author-actual-administrative-tools-v1",
+  "scientific_execution": false,
+  "source_acceptance": false,
+  "successful_administrative_tools": [
+    {
+      "chunk_id": "cef2d2",
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/authenticate_predecessors.py",
+      "exit_code": 0,
+      "summary": "Four given pins, exact27/10 namespaces,26/9 payloads authenticated."
+    },
+    {
+      "chunk_id": "5023cf",
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/check_administrative.py",
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"changed_executable_files\": 2, \"controls\": [84, 22, 106, 0], \"dependencies\": 567, \"status\": \"PASS_OPAQUE_AND_TEXT_ONLY\", \"unchanged_adapter_functions\": 8, \"unchanged_executable_files\": 10, \"unchanged_integration_functions\": 4}\n",
+      "subject_execution": false
+    }
+  ]
+}

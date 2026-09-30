@@ -1,0 +1,314 @@
+{
+  "RET": "paused",
+  "actual_admin_check": {
+    "chunk_id": "5023cf",
+    "exit_code": 0,
+    "meaning": "Opaque567 dependency and12source identities, two full deltas, complete namespaces, literal counts and unchanged spans only.",
+    "report": {
+      "bytes": 147856,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/ADMINISTRATIVE_CHECK.json",
+      "sha256": "6b784d207fe42b50d36cb2b078912fd937e1edd71f80f269dc75f9fa24689de5"
+    }
+  },
+  "actual_diagnostics": {
+    "bytes": 2341,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/ACTUAL_ADMINISTRATIVE_TOOLS.json",
+    "sha256": "382b5ea25ad84c003c5a8352565428cfc1218632a80dd5179cfa3d6aeebd1b86"
+  },
+  "actual_fixture_created": false,
+  "assignment": {
+    "bytes": 3860,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/MEASUREMENT_REPAIR_ASSIGNMENT.json",
+    "sha256": "1cb89c7279761a3b892d9d8c440d97db3e0b5f5aecb4b43792b2bac19eff64e8"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "control_contract": {
+    "bytes": 7650,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/FINAL_FIXTURE_CONTROL_CONTRACT.md",
+    "sha256": "e1dfb41a6cf8836129b2d1342a9f64f86ab9efdf9e87ecd0762abb377343ac47"
+  },
+  "controls": {
+    "executed": 0,
+    "inventory": {
+      "bytes": 6007,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/CONTROL_INVENTORY.json",
+      "sha256": "c51426e9f78aab8e9ec719f60aef62b0d02f8e6f47d4b42ee621b346a3ee6936"
+    },
+    "new_defined": 22,
+    "retained84_exact_order": true,
+    "scope": "Actual post-authentication runner with explicit inert prior authentication/action and O13-timed observer proxy; no authentic whole-entry or runtime/scientific credit.",
+    "total_defined": 106
+  },
+  "correspondence": {
+    "bytes": 8395,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_CORRESPONDENCE.json",
+    "sha256": "b153bc27c073e99581af8508fafe75109c130a06ed3506f1141b3af42aeffbb3"
+  },
+  "dependencies": {
+    "bytes": 143546,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/DEPENDENCIES.json",
+    "sha256": "6fe6cf2cc826c4f222e28f0dbfd4ccc63d41c3a3ee0cfd0c4ad2f95436a7c1be"
+  },
+  "dependency_count": 567,
+  "failed_administrative_commands": [
+    {
+      "chunk_id": "5269bc",
+      "exit_code": 1,
+      "reason": "read-only wrong predecessor narrative basename; corrected full read",
+      "stderr": {
+        "bytes": 144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/ADMIN_READ_FAILURE.stderr",
+        "sha256": "8fcc6d4f26fdb6387ef6485e8b93b40aadaae4b7dc5860cb77bee448467c52d0"
+      }
+    }
+  ],
+  "final_source_pin_check": {
+    "bytes": 3482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/FINAL_SOURCE_PIN_CHECK.json",
+    "sha256": "b2733f8a11bed91612fe8dc731046dcdbb37e2bad26c6cdf42926b08b5db1bb4"
+  },
+  "full_delta": {
+    "bytes": 21999,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_DIFF.patch",
+    "sha256": "87668514e388a64a397369289ccf2cf33de21750f865efa3711cfbf9cfc62d12"
+  },
+  "namespace": [
+    "ACTUAL_ADMINISTRATIVE_TOOLS.json",
+    "ADMINISTRATIVE_CHECK.json",
+    "ADMIN_READ_FAILURE.stderr",
+    "AUTHORING_RECORD.md",
+    "CONTROL_INVENTORY.json",
+    "DEPENDENCIES.json",
+    "FINAL_FIXTURE_CONTROL_CONTRACT.md",
+    "FINAL_SOURCE_PIN_CHECK.json",
+    "HANDOFF.json",
+    "PREDECESSOR_AUTHENTICATION.json",
+    "PUBLICATION_SUBSET.json",
+    "README.md",
+    "REPAIR_CONTRACT.md",
+    "SOURCE_CORRESPONDENCE.json",
+    "SOURCE_DIFF.patch",
+    "SOURCE_SET.json",
+    "adapter.py",
+    "authenticate_predecessors.py",
+    "bindings.py",
+    "check_administrative.py",
+    "custody_io.py",
+    "inert_controls.py",
+    "integration_controls.py",
+    "mode_verify.py",
+    "monitor_checks.py",
+    "retained_contract.py",
+    "retained_control.py",
+    "retained_guards.py",
+    "retained_stage.py",
+    "retained_supervisor.py",
+    "seal_packet.py"
+  ],
+  "new_agents": 0,
+  "payload_count": 30,
+  "payloads": [
+    {
+      "bytes": 2341,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/ACTUAL_ADMINISTRATIVE_TOOLS.json",
+      "sha256": "382b5ea25ad84c003c5a8352565428cfc1218632a80dd5179cfa3d6aeebd1b86"
+    },
+    {
+      "bytes": 147856,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/ADMINISTRATIVE_CHECK.json",
+      "sha256": "6b784d207fe42b50d36cb2b078912fd937e1edd71f80f269dc75f9fa24689de5"
+    },
+    {
+      "bytes": 144,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/ADMIN_READ_FAILURE.stderr",
+      "sha256": "8fcc6d4f26fdb6387ef6485e8b93b40aadaae4b7dc5860cb77bee448467c52d0"
+    },
+    {
+      "bytes": 5946,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/AUTHORING_RECORD.md",
+      "sha256": "589d3e123e5ba3d6f76ecb46bc7130565dcf5be1481b351aed8cb02eff6127fe"
+    },
+    {
+      "bytes": 6007,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/CONTROL_INVENTORY.json",
+      "sha256": "c51426e9f78aab8e9ec719f60aef62b0d02f8e6f47d4b42ee621b346a3ee6936"
+    },
+    {
+      "bytes": 143546,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/DEPENDENCIES.json",
+      "sha256": "6fe6cf2cc826c4f222e28f0dbfd4ccc63d41c3a3ee0cfd0c4ad2f95436a7c1be"
+    },
+    {
+      "bytes": 7650,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/FINAL_FIXTURE_CONTROL_CONTRACT.md",
+      "sha256": "e1dfb41a6cf8836129b2d1342a9f64f86ab9efdf9e87ecd0762abb377343ac47"
+    },
+    {
+      "bytes": 3482,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/FINAL_SOURCE_PIN_CHECK.json",
+      "sha256": "b2733f8a11bed91612fe8dc731046dcdbb37e2bad26c6cdf42926b08b5db1bb4"
+    },
+    {
+      "bytes": 11682,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/PREDECESSOR_AUTHENTICATION.json",
+      "sha256": "a661ba1d759dc43618d0bde3a10f2762e53163e8c2a526b062d86db58e70838a"
+    },
+    {
+      "bytes": 1208,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/PUBLICATION_SUBSET.json",
+      "sha256": "05249ae89b5295e143b5e9bad15b4b7b4658e77a04bd2786cfadadb7e81abad3"
+    },
+    {
+      "bytes": 831,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/README.md",
+      "sha256": "b1b265cd040e7f2751b2e35a28b59c2346a3c2d8da1afbb0d71389436997a8dd"
+    },
+    {
+      "bytes": 8590,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/REPAIR_CONTRACT.md",
+      "sha256": "b9065c9eb12f02978701ebaa7272481d9760483c555d1845d566ec9dd63c8986"
+    },
+    {
+      "bytes": 8395,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_CORRESPONDENCE.json",
+      "sha256": "b153bc27c073e99581af8508fafe75109c130a06ed3506f1141b3af42aeffbb3"
+    },
+    {
+      "bytes": 21999,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_DIFF.patch",
+      "sha256": "87668514e388a64a397369289ccf2cf33de21750f865efa3711cfbf9cfc62d12"
+    },
+    {
+      "bytes": 147447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+      "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+    },
+    {
+      "bytes": 22982,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py",
+      "sha256": "28ed8355cee100c63b94338fd59a335c5a2193cc2f442fc9433062ec731e8ff9"
+    },
+    {
+      "bytes": 1873,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/authenticate_predecessors.py",
+      "sha256": "66b4bac05e18412359676f2b04fa6ac17e800357b2e3f6310288a6aac2e26a93"
+    },
+    {
+      "bytes": 22129,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "sha256": "302393a719232b42cf5145d7264b69ee8cdbc850fc3c2f60a0dca182e55a0256"
+    },
+    {
+      "bytes": 8358,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/check_administrative.py",
+      "sha256": "a3f4a0f970b2da8ce911bb7a8f352b79b72d152e8dab02052973feed0910349e"
+    },
+    {
+      "bytes": 5313,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/custody_io.py",
+      "sha256": "b15e4edf55adead7a26759704edbe2d557b02c104b13a9c027a8ae0d7181fe7e"
+    },
+    {
+      "bytes": 28135,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/inert_controls.py",
+      "sha256": "170d50361e5b705a2998cac715222d56af274f30745d1cb3aa446772b74fefcc"
+    },
+    {
+      "bytes": 35291,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/integration_controls.py",
+      "sha256": "2ad1b1074c49df99d8432dc0d4f7017b58e77520009b02a58c9c3988be04f33c"
+    },
+    {
+      "bytes": 23552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/mode_verify.py",
+      "sha256": "938a0cc357046d4a4d9ffdc2382a9f94fd5a4d9a20333bfa47077427b0d3f5a3"
+    },
+    {
+      "bytes": 3874,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/monitor_checks.py",
+      "sha256": "e7ec6e2a220e1bae7e323a7146638c5d5e6c6d157c1bfbb0f9a3dcda3dd62f05"
+    },
+    {
+      "bytes": 18749,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+    },
+    {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    {
+      "bytes": 38688,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_guards.py",
+      "sha256": "e11e53400374068a9036b24e1a50bf8505fc910ae279a8742f24af17dfba8f72"
+    },
+    {
+      "bytes": 22152,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_stage.py",
+      "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+    },
+    {
+      "bytes": 14159,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_supervisor.py",
+      "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+    },
+    {
+      "bytes": 6549,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/seal_packet.py",
+      "sha256": "59ed69f6fe92bf4c6d911dfc54b8ad5cd8a0c3f21885b46ca2fa423429780c34"
+    }
+  ],
+  "predecessor_independent_review": {
+    "bytes": 5894,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/HANDOFF.json",
+    "sha256": "02f3ef205a747dfdc096f849c1ff64a58984b10a4c3eb635e292b284a1314619"
+  },
+  "predecessor_source": {
+    "bytes": 12934,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/HANDOFF.json",
+    "sha256": "69638eb05897dc2e72c4a29f84d27593dff5e83b98e102c1efccc67f9ded4fa2"
+  },
+  "remaining_prerequisites": [
+    "Fresh complete nonauthor source/control review and root adjudication",
+    "Genuine current-source106 qualification plus independent actual evidence review under unchanged limits",
+    "R01 original65 actual path applicability or required relocated controls",
+    "New-E unchanged RI141 genuine capture and accepted ordered profiles with actual environment",
+    "External startup-through-return monitoring, actual960s outer deadline and genuine tool/host/supplier custody",
+    "Actual normal plus full27/13/30 and57/74/3 evidence and separate saved arithmetic/root normal acceptance before optimized",
+    "Complete two-mode53 exact files/two links/four propagated pins and independent final root acceptance",
+    "RI131, full32, periodic/mean/join, public-data/calibration and native/physical claims remain separate"
+  ],
+  "repair_contract": {
+    "bytes": 8590,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/REPAIR_CONTRACT.md",
+    "sha256": "b9065c9eb12f02978701ebaa7272481d9760483c555d1845d566ec9dd63c8986"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo",
+  "root_owns_acceptance_admission_and_Git": true,
+  "root_predecessor_adjudication": {
+    "bytes": 2058,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/RI158_ROOT_ADJUDICATION.json",
+    "sha256": "d4b636f90564a7eba586de4bbb5f8bbb82f50a63d02c51c1b91f37471c57f7a9"
+  },
+  "runtime_observed": false,
+  "schema": "ri160-source-repair-handoff-v1",
+  "scientific_decode_or_execution": false,
+  "seal_actual_return": "Delivered separately through genuine author tool result; this file is not self-authentication.",
+  "sealed_immutable": true,
+  "source_scope": {
+    "added_executable_files": 0,
+    "changed_executable_files": 2,
+    "original_integration_helper_case_bodies_unchanged": 4,
+    "other_adapter_functions_unchanged": 8,
+    "production_change": "only run_authenticated.namespace_tail",
+    "saved_mode_verifier_whole_unchanged": true,
+    "unchanged_executable_files": 10
+  },
+  "source_set": {
+    "bytes": 147447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+  },
+  "status": "UNEXECUTED_SOURCE_READY_FOR_FRESH_NONAUTHOR_REVIEW"
+}

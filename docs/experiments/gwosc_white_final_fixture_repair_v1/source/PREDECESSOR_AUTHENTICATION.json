@@ -1,0 +1,254 @@
+{
+  "known_pins": [
+    {
+      "bytes": 3860,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/MEASUREMENT_REPAIR_ASSIGNMENT.json",
+      "sha256": "1cb89c7279761a3b892d9d8c440d97db3e0b5f5aecb4b43792b2bac19eff64e8"
+    },
+    {
+      "bytes": 2058,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/RI158_ROOT_ADJUDICATION.json",
+      "sha256": "d4b636f90564a7eba586de4bbb5f8bbb82f50a63d02c51c1b91f37471c57f7a9"
+    },
+    {
+      "bytes": 12934,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/HANDOFF.json",
+      "sha256": "69638eb05897dc2e72c4a29f84d27593dff5e83b98e102c1efccc67f9ded4fa2"
+    },
+    {
+      "bytes": 5894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/HANDOFF.json",
+      "sha256": "02f3ef205a747dfdc096f849c1ff64a58984b10a4c3eb635e292b284a1314619"
+    }
+  ],
+  "packets": [
+    {
+      "namespace": [
+        "ACTUAL_ADMINISTRATIVE_TOOLS.json",
+        "ADMINISTRATIVE_CHECK.json",
+        "AUTHORING_RECORD.md",
+        "CONTROL_INVENTORY.json",
+        "DEPENDENCIES.json",
+        "FINAL_SOURCE_PIN_CHECK.json",
+        "INTEGRATION_CONTROL_CONTRACT.md",
+        "PUBLICATION_SUBSET.json",
+        "README.md",
+        "REPAIR_CONTRACT.md",
+        "SOURCE_CORRESPONDENCE.json",
+        "SOURCE_DIFF.patch",
+        "SOURCE_SET.json",
+        "adapter.py",
+        "bindings.py",
+        "check_administrative.py",
+        "custody_io.py",
+        "inert_controls.py",
+        "integration_controls.py",
+        "mode_verify.py",
+        "monitor_checks.py",
+        "retained_contract.py",
+        "retained_control.py",
+        "retained_guards.py",
+        "retained_stage.py",
+        "retained_supervisor.py",
+        "HANDOFF.json"
+      ],
+      "root": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6",
+      "verified_payloads": [
+        {
+          "bytes": 2049,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/ACTUAL_ADMINISTRATIVE_TOOLS.json",
+          "sha256": "1ab102b7bcd1cd469586dcd3cf6ddcc94f3e1069b590cd509e782e5623c5886d"
+        },
+        {
+          "bytes": 144876,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/ADMINISTRATIVE_CHECK.json",
+          "sha256": "fb8152b921b258fe80306fb74daf3513d45bad63e19f544f7608daf3a6529893"
+        },
+        {
+          "bytes": 4512,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/AUTHORING_RECORD.md",
+          "sha256": "5ab2c128f0f7df2681c8cab739d8e380c35333e2cde04bb342eea7770286e492"
+        },
+        {
+          "bytes": 4727,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/CONTROL_INVENTORY.json",
+          "sha256": "02a3fa11754c2d1fa9ee9f283d72b64cb101aae0f8b354fa5a6096f22b38b214"
+        },
+        {
+          "bytes": 133429,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/DEPENDENCIES.json",
+          "sha256": "a6bfc460dfb48a10c4efdf3f8f5bb181ea7ce3532ee3d526d4e0f2269cc95a01"
+        },
+        {
+          "bytes": 3273,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/FINAL_SOURCE_PIN_CHECK.json",
+          "sha256": "9df821320c36744b3104f9e1e288162696de822f6ba10d71a09aa8103edd1676"
+        },
+        {
+          "bytes": 7201,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/INTEGRATION_CONTROL_CONTRACT.md",
+          "sha256": "b8d54e018a53e1af23d709a11961d0eae12468e74864b470233935aa3d7b94e7"
+        },
+        {
+          "bytes": 673,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/PUBLICATION_SUBSET.json",
+          "sha256": "97a3d073b12d1f3d7496b6fe4b810ce9e64f964977f76121d78d642c542a1ca5"
+        },
+        {
+          "bytes": 931,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/README.md",
+          "sha256": "5d210a353edc1a2213deb9b6bdbc7e5c4e5d568c229b1863fdfcad8da9842de3"
+        },
+        {
+          "bytes": 8933,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/REPAIR_CONTRACT.md",
+          "sha256": "6ed6279c97f82c383405fc2520bf7258995088285463b8e4ebc1f3a48c92d7ad"
+        },
+        {
+          "bytes": 7764,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/SOURCE_CORRESPONDENCE.json",
+          "sha256": "60b94b6d30c2172203a8ba8a0938f3702a9b7e093f30a3e7ceb0f67dec43c4d4"
+        },
+        {
+          "bytes": 19120,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/SOURCE_DIFF.patch",
+          "sha256": "7ab04abe3b210c98b921d0cd6c68787167465e113c363b4b137ddf3bf550c126"
+        },
+        {
+          "bytes": 137218,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/SOURCE_SET.json",
+          "sha256": "ebcd5184bfa99f5d633fcad6057d34f353eedb50a9c25d31cb522d6579a15c51"
+        },
+        {
+          "bytes": 20412,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/adapter.py",
+          "sha256": "8f3072d6314a88156447b81592d84eb980abcf12e363e34a4e74cba7c4b7a5f6"
+        },
+        {
+          "bytes": 22129,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/bindings.py",
+          "sha256": "302393a719232b42cf5145d7264b69ee8cdbc850fc3c2f60a0dca182e55a0256"
+        },
+        {
+          "bytes": 7675,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/check_administrative.py",
+          "sha256": "0d9478d9fb125ee58eea22631af148d7554c149c095367420598b46394c1e0af"
+        },
+        {
+          "bytes": 5313,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/custody_io.py",
+          "sha256": "b15e4edf55adead7a26759704edbe2d557b02c104b13a9c027a8ae0d7181fe7e"
+        },
+        {
+          "bytes": 28135,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/inert_controls.py",
+          "sha256": "170d50361e5b705a2998cac715222d56af274f30745d1cb3aa446772b74fefcc"
+        },
+        {
+          "bytes": 22100,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/integration_controls.py",
+          "sha256": "7d695f80492ab28722a4c472b40f42e758645779fab3a1c6c86b291eddfa1e58"
+        },
+        {
+          "bytes": 23552,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/mode_verify.py",
+          "sha256": "938a0cc357046d4a4d9ffdc2382a9f94fd5a4d9a20333bfa47077427b0d3f5a3"
+        },
+        {
+          "bytes": 3874,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/monitor_checks.py",
+          "sha256": "e7ec6e2a220e1bae7e323a7146638c5d5e6c6d157c1bfbb0f9a3dcda3dd62f05"
+        },
+        {
+          "bytes": 18749,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/retained_contract.py",
+          "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+        },
+        {
+          "bytes": 5171,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/retained_control.py",
+          "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+        },
+        {
+          "bytes": 38688,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/retained_guards.py",
+          "sha256": "e11e53400374068a9036b24e1a50bf8505fc910ae279a8742f24af17dfba8f72"
+        },
+        {
+          "bytes": 22152,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/retained_stage.py",
+          "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+        },
+        {
+          "bytes": 14159,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/retained_supervisor.py",
+          "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+        }
+      ]
+    },
+    {
+      "namespace": [
+        "ACTUAL_CHECKS.json",
+        "CHECK.stderr",
+        "CHECK.stdout",
+        "FINAL_PIN_CHECK.json",
+        "HANDOFF.json",
+        "INDEPENDENT_SOURCE_REVIEW.md",
+        "METADATA_CHECK.json",
+        "VERDICT.json",
+        "check_metadata.py",
+        "seal_review.py"
+      ],
+      "root": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju",
+      "verified_payloads": [
+        {
+          "bytes": 5208,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/ACTUAL_CHECKS.json",
+          "sha256": "61a9be46fc61058127a9fcc5193f2a3e36fc9051002194b0c2ad3fa71bd4f857"
+        },
+        {
+          "bytes": 0,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/CHECK.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 569,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/CHECK.stdout",
+          "sha256": "2afd7a6d98e8e77d7133e327599c60578ed85821616fd50e4fa0f7a2602de3f7"
+        },
+        {
+          "bytes": 3769,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/FINAL_PIN_CHECK.json",
+          "sha256": "878e70f008f5ca95025f0972ce04a22966ab4d6a1acd861a1248fa51993f88aa"
+        },
+        {
+          "bytes": 20478,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/INDEPENDENT_SOURCE_REVIEW.md",
+          "sha256": "8ee66a049bff66e42edffc1923e73fe3c4beecfd5807de33b580c169b818c3cb"
+        },
+        {
+          "bytes": 759737,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/METADATA_CHECK.json",
+          "sha256": "5597fa2d49190d53a909ae3fb1a6264afd00a408e813e2ee5118b078acd13d93"
+        },
+        {
+          "bytes": 5817,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/VERDICT.json",
+          "sha256": "b31b92db8a571db1bb3de68d2c730e7d691680a49ad6a97d0a60089a022a67fb"
+        },
+        {
+          "bytes": 10696,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/check_metadata.py",
+          "sha256": "ffbad734b32b86120eb94e332bc65d5dfe19e314a8f4c6a2a79aeb417e2b19e5"
+        },
+        {
+          "bytes": 5779,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/seal_review.py",
+          "sha256": "57d1212a661ee856e8acd6dd866d2dabca3199662e8771e9c57792b2370c515a"
+        }
+      ]
+    }
+  ],
+  "runtime_observation": false,
+  "subject_execution": false
+}

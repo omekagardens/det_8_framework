@@ -1,0 +1,53 @@
+{
+  "RET": "paused",
+  "allowed_now": [
+    "Literal source and selected administrative metadata reading.",
+    "Separate bounded identity scripts and read-only OS metadata observations of the explicitly selected fixed vendor/host/monitor/outer files only; no environment-secret inventory.",
+    "New preparation files in reservation only; no target or operational execution."
+  ],
+  "controls_defined": 106,
+  "controls_executed": 0,
+  "deliverables": [
+    "Authenticate complete current source/review and unchanged selected monitor ancestry. Read the existing accepted owned-child primitive and exact call interface; propose the smallest concrete invocation without writing another launcher framework.",
+    "Fresh read-only observations of the fixed direct vendor interpreter, selected monitor and fixed outer primitives, permitted host version facts and declared controlled environment. Bind whole bytes,resolution,symlinks and full states where required; compare honestly with historical selection, report actual drift/missing premises. Do not execute the vendor interpreter, target modules, collector or monitor.",
+    "Produce an exact reviewable one-shot command/request/admission-field proposal, administrative working directory and prospective exclusive operation/tmp paths under the evidence parent. Keep root-only operational cards as clearly non-authorizing proposals; do not create E,fixtures,actual operation output,active runtime inventory,freeze or admission.",
+    "Preserve existing180s/524288KiB/25ms/100ms/50ms and960s outer bounds, all stdout/stderr/initial-pending-terminal objects, genuine process completion and partial evidence requirements. Distinguish sampled child from outer/parent scope.",
+    "List only actual missing qualification prerequisites and the exact next root action. Later R01/current-E/WHITE/science gates stay separate; do not block inert controls on unrelated later scientific work or fabricate historical current facts.",
+    "Seal exact preparation namespace,pins,real read-only observation tools and any failures for root inspection."
+  ],
+  "forbidden": [
+    "No target/control/helper imports,compile,AST,probes or execution; no qualification or fixture creation.",
+    "No scientific bodies/engines/public-data reruns/RI141 dynamic capture; no E installation,active card,freeze or admission.",
+    "No old seals edits,threshold changes,recursive launcher development,new agents,repo/index/Git. Root owns actual admission,dispatch,independent outcomes and publication."
+  ],
+  "independent_review": {
+    "bytes": 7293,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/HANDOFF.json",
+    "sha256": "e25342fcaa37c812a70552e6e664aa6e026f11d16e8b40b7be7fc127fef36093"
+  },
+  "objective": "Prepare the concrete bounded actual106 inert qualification admission using the unchanged accepted monitor and genuine current fixed-bootstrap/host facts; do not run the controls yet.",
+  "owner": "/root/ri116_complete_caller_review",
+  "predecessor_adjudication": {
+    "bytes": 2582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+    "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+  },
+  "protocol": {
+    "bytes": 16852,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm/PROTOCOL.md",
+    "sha256": "0604a4a4d5b75b0286e11eea8739ca566147ffa43424af88fdc7cae1832cdbbc"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s",
+  "schema": "ri162-inert-qualification-preflight-assignment-v1",
+  "source": {
+    "bytes": 14881,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/HANDOFF.json",
+    "sha256": "a0067b9dbacf3ae293260cae242ee646c67c53a0c32ed25d0f47ab3c4056b00f"
+  },
+  "source_manifest": {
+    "bytes": 147447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+  },
+  "status": "ASSIGNED_AFTER_RI160_ROOT_SOURCE_ACCEPTANCE"
+}

@@ -1,0 +1,64 @@
+{
+  "assignment": {
+    "bytes": 2233,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "ca2da6c561cc14586ba60a797494f76983078a515a2a484b07b0766c8682a5a1"
+  },
+  "controls_executed": 0,
+  "dependency_count": 567,
+  "fresh_full_identity_rechecks": 599,
+  "historical_states_compared_to_current": false,
+  "own_review_preseal_files": [
+    {
+      "bytes": 2714,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/ACTUAL_CHECKS.json",
+      "sha256": "5d278068694e0812f2ceafc7b7acc4c138f27eed74467f3eece0c0baff3975f3"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 577,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/CHECK.stdout",
+      "sha256": "db1dca4b001f04ece7fe47ce12992c8b5bce5efbceb995561c7ecd227322ee7a"
+    },
+    {
+      "bytes": 17505,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "af3de5f9af51f183f4bb1304b4c8c9a56ec089dfa7b10dca6dee9ae5984dcd88"
+    },
+    {
+      "bytes": 817604,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/METADATA_CHECK.json",
+      "sha256": "67b5f3aadf78538adfd48c1019b5ac84ba3bff100d00ee32497a079e484cce93"
+    },
+    {
+      "bytes": 2389,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/VERDICT.json",
+      "sha256": "59dddefa999778701a4e0b67d29b091478c90cf418e313edb871316b5ce33021"
+    },
+    {
+      "bytes": 13198,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/check_metadata.py",
+      "sha256": "ef8bd2c92af3ac3d680584b0c5aa4a2d73d4fb6032cc4213ad289653261a789e"
+    },
+    {
+      "bytes": 6372,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/seal_review.py",
+      "sha256": "5c784cf647cbc1a1357f0f13749db4f08737756a7dbba6e35e67991d3f3d52f9"
+    }
+  ],
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_FIXTURE_CUSTODY_REPAIR_SOURCE_WITH_QUALIFICATION_PREREQUISITES",
+  "root_adjudication_required": true,
+  "schema": "ri160-independent-source-review-final-pin-check-v1",
+  "status": "OPAQUE_SOURCE_AND_REVIEW_IDENTITIES_STABLE_NOT_EXECUTION_ACCEPTANCE",
+  "subject": {
+    "bytes": 14881,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/HANDOFF.json",
+    "sha256": "a0067b9dbacf3ae293260cae242ee646c67c53a0c32ed25d0f47ab3c4056b00f"
+  },
+  "subject_files": 31,
+  "subject_payloads": 30
+}
