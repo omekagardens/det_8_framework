@@ -1,0 +1,125 @@
+{
+  "RET_paused": true,
+  "administrative_only_execution": true,
+  "assignment": {
+    "bytes": 1787,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/INDEPENDENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "3f0d98bbd556a1be64e2a0533dcbecf9248ebed689f623da7d07f62b051ffbd1"
+  },
+  "blocking_findings": [],
+  "compact_public_review_subset": [
+    "ADMIN_FAILURE_01.json",
+    "COMMAND_OUTCOMES.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_COVERAGE.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "check_metadata_v2.py"
+  ],
+  "complete_subject_namespace_count": 8,
+  "dependency_count": 276,
+  "external_only_diagnostic_files": [],
+  "failed_checker_actual_tool": {
+    "chunk": "c5a140",
+    "exit_code": 1,
+    "retained": true
+  },
+  "final_identity_check": {
+    "bytes": 2814,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/FINAL_IDENTITY_CHECK.json",
+    "sha256": "cc132df6389a752614450926a7bf7e1a93f74ad2d71c4309ef0c6d193b63d01d"
+  },
+  "historical_reference_traversal_rerun": false,
+  "mathematical_or_runtime_engine_invoked": false,
+  "namespace": [
+    "ADMIN_FAILURE_01.json",
+    "COMMAND_OUTCOMES.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_COVERAGE.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "check_metadata_v2.py"
+  ],
+  "new_agents": false,
+  "own_truncated_display": {
+    "chunk": "88c780",
+    "exit_code": 0,
+    "recovered": true
+  },
+  "payloads": [
+    {
+      "bytes": 1792,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/ADMIN_FAILURE_01.json",
+      "sha256": "54e943d9715b07678ccc3a980cec3d16e531de2a7e65f78996d75964c57f8aba"
+    },
+    {
+      "bytes": 4886,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/COMMAND_OUTCOMES.json",
+      "sha256": "13e5cc83da3b1609281c593ff866d4c4fe36cff5848ba7e905e14412d8779a21"
+    },
+    {
+      "bytes": 2814,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/FINAL_IDENTITY_CHECK.json",
+      "sha256": "cc132df6389a752614450926a7bf7e1a93f74ad2d71c4309ef0c6d193b63d01d"
+    },
+    {
+      "bytes": 16592,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/INDEPENDENT_REVIEW.md",
+      "sha256": "fe6949e40a4be7ac7bff673e2fe893980bf0795b325fd3d0246b026348f4a39b"
+    },
+    {
+      "bytes": 206219,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/METADATA_CHECK.json",
+      "sha256": "1279302bd77f80023fb358f578d1719cc5a2738ebf52086890c91f53ffb943d1"
+    },
+    {
+      "bytes": 6778,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/REVIEW_COVERAGE.json",
+      "sha256": "a75df0c71dc56b80f3658f3bc30d67e156db2a3950eda0d52595360481fe52bd"
+    },
+    {
+      "bytes": 3695,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/VERDICT.json",
+      "sha256": "34e6b4d27603919b5ef394bb55985d95ef0b70d0b606e392e7e251fd463398d3"
+    },
+    {
+      "bytes": 7988,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata.py",
+      "sha256": "163fe1905861d1099249a9063aa473ac841705089826f388df0b76a583c88f3c"
+    },
+    {
+      "bytes": 8040,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata_v2.py",
+      "sha256": "1759be889af6dfbfe1a171ec84e6f10647a56aedf39b4c7b0ed7178c4aa76b49"
+    }
+  ],
+  "prior_roles_disclosed": true,
+  "repository_index_or_Git_written": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby",
+  "reviewer_is_subject_or_candidate_author": false,
+  "root_owns_disposition_publication_successors_and_admission": true,
+  "schema": "ri172-independent-proof-review-handoff-v1",
+  "scientific_body_or_vector_decoded": false,
+  "seal_policy": "All current review files immutable after this handoff. Preserve first failed checker and traceback; no silent repair.",
+  "source_reading_and_manual_algebra": true,
+  "status": "SEALED_NONAUTHOR_MANUAL_REVIEW_FOR_ROOT_ADJUDICATION",
+  "subject": {
+    "bytes": 6736,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/HANDOFF.json",
+    "sha256": "552d173833a735c2778c02a3c561e0a9c4c204cb214f4f5db3e3e8910479079d"
+  },
+  "subject_or_helper_import_compile_AST_probe_run": false,
+  "successful_checker_actual_tool": {
+    "chunk": "38aad1",
+    "exit_code": 0
+  },
+  "successor_recommendation_not_assignment": "Actual same-law sign of RI145 y-slope b(x), with full canonical singleton substitution; no preaccepted sign.",
+  "typed_current_references": 123,
+  "verdict": "RECOMMEND_ACCEPT_COMPLETE_FINITE_LAYER_NONIMPLICATION_IN_DECLARED_CLASS"
+}

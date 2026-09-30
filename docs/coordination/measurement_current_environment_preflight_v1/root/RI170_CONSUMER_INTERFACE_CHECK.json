@@ -1,0 +1,24 @@
+{
+  "actual_current_E_admission": false,
+  "exact_required_nine_fields": true,
+  "genuine_outer": {
+    "bytes": 6859,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI162_GENUINE_OUTER_CONSUMER_BINDING.json",
+    "sha256": "c1dfa6d5546ee0f18246fcf0795a628a3a873abfd765394d339b6946160a8523"
+  },
+  "ordered_actual_controls": 106,
+  "proposed_roots_absent": true,
+  "qualification": {
+    "bytes": 4041,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI162_CONSUMER_QUALIFICATION.json",
+    "sha256": "0e27e1393c949a24a244ef2e2367ed8c72a10df1d3e3a6057cee8a4d20c9e0d7"
+  },
+  "schema": "ri170-root-issued-interface-check-v1",
+  "scientific_credit": false,
+  "source_adjudication": {
+    "bytes": 1936,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI170_ROOT_ADJUDICATION.json",
+    "sha256": "3691e00175bf5322896d1d2d0eefeccfaba91b452ea6b75124cde62a2c2dc331"
+  },
+  "status": "PASS"
+}

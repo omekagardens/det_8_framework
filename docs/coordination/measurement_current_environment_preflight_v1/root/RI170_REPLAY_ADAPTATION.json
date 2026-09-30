@@ -1,0 +1,20 @@
+{
+  "adapted": {
+    "bytes": 12287,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/ri170-metadata-replay/check_preflight_metadata.py",
+    "sha256": "aee6723ed6caa43f40e1e867df63cef9bfc5d42c874bfab07476fba1c4b3e566"
+  },
+  "exact_reverse_projection": true,
+  "original": {
+    "bytes": 11975,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/check_preflight_metadata.py",
+    "sha256": "85d49fc46725dd74c15aa3ceb7e9b566bb36ca87ed123819304c6e23739e37cd"
+  },
+  "replacements": {
+    "H/'METADATA_CHECK.json'": "Path('/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/ri170-metadata-replay')/'METADATA_CHECK.json'",
+    "path=H/'CHECK_FAILURE.third.json'": "path=Path('/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/ri170-metadata-replay')/'CHECK_FAILURE.third.json'"
+  },
+  "schema": "ri170-root-output-only-replay-adaptation-v1",
+  "scientific_execution": false,
+  "source_input_directory_unchanged": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy"
+}

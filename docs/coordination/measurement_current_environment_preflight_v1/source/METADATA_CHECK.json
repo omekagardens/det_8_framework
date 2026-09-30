@@ -1,0 +1,53 @@
+{
+  "checker": {
+    "bytes": 11975,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/check_preflight_metadata.py",
+    "sha256": "85d49fc46725dd74c15aa3ceb7e9b566bb36ca87ed123819304c6e23739e37cd"
+  },
+  "checks_passed": 5301,
+  "counts": {
+    "RI141_opaque_dependencies": 442,
+    "adapter_dependencies": 567,
+    "adapter_modules": 11,
+    "copied_originals": 48,
+    "helper_destinations": 11,
+    "historical_roles": 124,
+    "literal_controls": 106,
+    "proposed_absent_roots": 8,
+    "stage_bindings": 17,
+    "target_originals": 30
+  },
+  "decoded_administrative_files": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/REFERENCE_BINDINGS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/PREFLIGHT_PROPOSAL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/COMMAND_PROPOSALS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI162_OUTCOME_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/CONTROL_INVENTORY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BASELINE_ACCEPTANCE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json"
+  ],
+  "no_actual_cards_or_admission": true,
+  "no_current_runtime_observation": true,
+  "no_scientific_or_fixture_JSON_decoding": true,
+  "no_subject_import_compile_AST_or_execution": true,
+  "not_independent_acceptance": true,
+  "proposed_operational_paths_absent": {
+    "capture_output": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy",
+    "copy_environment": "/Volumes/AI_DATA/development/det-review-evidence/ri170-copy-environment-proposed-gikj2giy",
+    "copy_monitor": "/Volumes/AI_DATA/development/det-review-evidence/ri170-copy-monitor-proposed-gikj2giy",
+    "copy_operation": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri170-copy-proposed-gikj2giy",
+    "current_E": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+    "normal_profile_output": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy",
+    "optimized_profile_output": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-optimized-proposed-gikj2giy",
+    "root_records": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy"
+  },
+  "role_observation_canonical_sha256": "d238554be06939b32571dcb2325ebc628234188b1e6a053a93dcac2f165bae40",
+  "schema": "ri170-author-finite-metadata-check-v1",
+  "source_history_role_observations": 1274,
+  "status": "PASS_SOURCE_PROPOSAL_ONLY",
+  "unique_source_history_files": 593
+}

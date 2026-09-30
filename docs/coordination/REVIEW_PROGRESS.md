@@ -1,56 +1,56 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI168's complete terminal
-incidence and exact contrast corridor are independently accepted. The selected
-six components occupy 72 raw / 38 canonical rows, 92 raw / 56 canonical ideal
-occurrences and 104 raw diamonds. The full families contain 2, 4 and 8 graph
-components. Inherited actual record transport equates some values across
-distinct components; it does not merge them or impose root-flip symmetry.
+**Current checkpoint — 30 September 2026 UTC.** RI172 independently establishes
+that the complete stated size-four margin constraints do not imply
+D_minus<=213d. A single global path changes all eight core B components while
+preserving every marked row, ratio, coefficient/complement floor and strict
+height bound. All 16 C4 rows and 32 affected raw diamonds are retained; every
+other component and non-C4 row remains unchanged. D_minus stays positive while
+d(t)=td, so D_minus/d(t) is unbounded for positive t tending to zero.
 
-Complete C4/V4/T4 rows retain the same shared z column. With d=b0-b1>0,
-C=c1-c0 and the defined alternative-row contrast K, the desired reverse bound
-is exactly equivalent to C>=-212d and
--26158d-41C<=K<=26117d+82C. Neither a d-relative bound nor a full-law
-counterexample follows. The full fixed vector and higher same-law constraints
-remain unresolved. Root's manual review and fresh 272-identity check accompany
-the independent nonauthor review in `docs/track_b/native_terminal_row_coupling_v1/`.
+This is a theorem about the declared comparison class, not a counterexample
+to the frozen actual law. Original positive sensitivity is used only to show
+the starting numerator is positive. Higher canonical/polynomial identities,
+exact attained extrema, grid membership, M5/M6/rho and H30 are not transported
+to the altered tables. Root's manual proof and fresh 284-identity check accompany
+the separate nonauthor review in `docs/track_b/native_full_layer_nonimplication_v1/`.
+The size-four-only route is closed; the actual selected-vector question remains.
 
-RI-172 assigns the existing Quantum Relativity task the next analytic decision:
-prove or refute an explicitly delimited nonimplication for the complete
-size-four row/ratio/floor/height system by a shared core-component perturbation.
-Keep every global occurrence and full mark cube. Any changed coefficient family
-must remain distinct from the actual fixed vector and later canonical/polynomial
-constraints. This is a new candidate, not an already accepted theorem.
+RI-173 assigns the existing Quantum Relativity task a distinct same-law proof:
+determine the y-slope sign in RI145's exact weighted W identity on 0<x<=R,
+using the actual canonical singleton corrections and complete signed q formula.
+A nonpositive slope would make the lower-y endpoint sufficient for the full
+curved-domain comparison. This is a candidate question, not an accepted sign
+claim. A conditional result must explicitly delimit its actual-prefix premises.
+The separately owned fixed-vector qualification/audit is not duplicated.
 
-RI169 independently closes the supervisor write-error gap at source level.
-Only os.read can silently retry BlockingIOError; write failures now retain the
-original pump error and reject, including zero-progress empty captures. Root
-read all 588 lines and independently verified exact whole-source reversal to
-RI167, fourteen unchanged global functions, all thirteen groups / 28 retained
-recipes and six added unexecuted recipes. The source and review are in
-`docs/coordination/native_supervisor_write_repair_v1/`. Prior failures remain
-immutable; no supervisor or native qualification ran.
+RI170's current-E preparation proposal is accepted with one explicit prose
+correction: the adapter's closed field list has 12 fields, not 13. The listed
+names and code agree. Root replay passed 5,301 predicates (1,274 roles/593 files);
+a separate check reconciled 1,296 roles/614 files and the genuine accepted
+106-control outcome. Root issued the exact consumer qualification interface,
+binding the unchanged source, ordered controls, actual report, genuine tool
+chain and independent review. No new execution or scientific credit follows.
+The complete source, preserved failed checks and root review/interface are in
+`docs/coordination/measurement_current_environment_preflight_v1/`.
 
-RI-171 is active with the existing worker in
-`ri171-supervisor-qualification-source-zksymhs1/`, implementing the executable
-finite supervisor-only cases and a separate saved-outcome checker. Its sources
-require review before actual root admission. Real processes, declared fault
-doubles and full-clock evidence remain distinct. The initial worker dispatch
-hit the agent limit; delivery succeeded after the measurement worker finished.
+Measurement's next action is fresh copy-only preflight/admission and the exact 48
+copy into the unchanged absent E, with a disjoint copy TMPDIR. Independent copy
+acceptance must precede separate current-E capture, baseline and normal/optimized
+profiles. Old environment cards remain inapplicable. Actual R01 path review,
+WHITE15, RI131 applicability, complete 27/13/30 records, 57 artifacts, 74 postchecks,
+three trees and independent arithmetic remain separate. Conventional GWOSC
+reproduction, calibration/protected validation and a native forward map remain
+unfinished. No proposed operational root was created by this checkpoint.
 
-Measurement's genuine 106-control inert qualification remains accepted in
-verified 44188f4. RI170's sealed current-E preflight is received for root review,
-with no execution or operational acceptance. Its proposed order is exact48
-copy into the unchanged fresh root, then a separately admitted current-E
-capture, baseline and normal/optimized profiles. The accepted outcome still
-needs the consumer's precise qualification interface; actual R01 applicability,
-WHITE15, complete 27/13/30 records, 57 artifacts, 74 postchecks, three trees and
-independent arithmetic remain separate. Inert controls give no GWOSC scientific
-reproduction, calibration or native-forward-map credit.
+RI-171 remains active in its existing external reservation. The worker reports
+92 prospective supervisor-only cases (58 boundary cases plus 34 recipes); its
+packet still requires source review and separately admitted actual qualification.
+The repaired RI169 supervisor is source-accepted; no supervisor/native campaign
+has run. Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
+512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. The 2,547 native
+cases per mode, original-vector audit and QP04 remain unexecuted.
 
-Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
-512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. The 2,547
-native cases per mode, original-vector audit and QP04 remain unexecuted.
 Preserve measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target,
 100-ms gap, 50-ms ps and 960-second outer bounds. Platform/tool trust,
 read-window stability, incomplete fork coverage and startup/kernel limits
@@ -12655,6 +12655,68 @@ reproduction, calibration or native-forward-map credit.
 Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
 512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. The 2,547
 native cases per mode, original-vector audit and QP04 remain unexecuted.
+Preserve measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target,
+100-ms gap, 50-ms ps and 960-second outer bounds. Platform/tool trust,
+read-window stability, incomplete fork coverage and startup/kernel limits
+remain explicit premises. Actual capacity, joint q/v, global M6/rho, W/C2/C3,
+shared H30 and physical claims remain open. Keep P2/P3, Y=1/4, 31/139/20/42,
+shared T1, the other eight parents and all five Di. Root owns Git/index,
+admissions and publication; unrelated and active edits are preserved.
+The programme continues; RET alone remains paused.
+
+**30 September 2026 — complete finite-layer nonimplication and measurement interface accepted.**
+
+**Current checkpoint — 30 September 2026 UTC.** RI172 independently establishes
+that the complete stated size-four margin constraints do not imply
+D_minus<=213d. A single global path changes all eight core B components while
+preserving every marked row, ratio, coefficient/complement floor and strict
+height bound. All 16 C4 rows and 32 affected raw diamonds are retained; every
+other component and non-C4 row remains unchanged. D_minus stays positive while
+d(t)=td, so D_minus/d(t) is unbounded for positive t tending to zero.
+
+This is a theorem about the declared comparison class, not a counterexample
+to the frozen actual law. Original positive sensitivity is used only to show
+the starting numerator is positive. Higher canonical/polynomial identities,
+exact attained extrema, grid membership, M5/M6/rho and H30 are not transported
+to the altered tables. Root's manual proof and fresh 284-identity check accompany
+the separate nonauthor review in `docs/track_b/native_full_layer_nonimplication_v1/`.
+The size-four-only route is closed; the actual selected-vector question remains.
+
+RI-173 assigns the existing Quantum Relativity task a distinct same-law proof:
+determine the y-slope sign in RI145's exact weighted W identity on 0<x<=R,
+using the actual canonical singleton corrections and complete signed q formula.
+A nonpositive slope would make the lower-y endpoint sufficient for the full
+curved-domain comparison. This is a candidate question, not an accepted sign
+claim. A conditional result must explicitly delimit its actual-prefix premises.
+The separately owned fixed-vector qualification/audit is not duplicated.
+
+RI170's current-E preparation proposal is accepted with one explicit prose
+correction: the adapter's closed field list has 12 fields, not 13. The listed
+names and code agree. Root replay passed 5,301 predicates (1,274 roles/593 files);
+a separate check reconciled 1,296 roles/614 files and the genuine accepted
+106-control outcome. Root issued the exact consumer qualification interface,
+binding the unchanged source, ordered controls, actual report, genuine tool
+chain and independent review. No new execution or scientific credit follows.
+The complete source, preserved failed checks and root review/interface are in
+`docs/coordination/measurement_current_environment_preflight_v1/`.
+
+Measurement's next action is fresh copy-only preflight/admission and the exact 48
+copy into the unchanged absent E, with a disjoint copy TMPDIR. Independent copy
+acceptance must precede separate current-E capture, baseline and normal/optimized
+profiles. Old environment cards remain inapplicable. Actual R01 path review,
+WHITE15, RI131 applicability, complete 27/13/30 records, 57 artifacts, 74 postchecks,
+three trees and independent arithmetic remain separate. Conventional GWOSC
+reproduction, calibration/protected validation and a native forward map remain
+unfinished. No proposed operational root was created by this checkpoint.
+
+RI-171 remains active in its existing external reservation. The worker reports
+92 prospective supervisor-only cases (58 boundary cases plus 34 recipes); its
+packet still requires source review and separately admitted actual qualification.
+The repaired RI169 supervisor is source-accepted; no supervisor/native campaign
+has run. Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
+512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. The 2,547 native
+cases per mode, original-vector audit and QP04 remain unexecuted.
+
 Preserve measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target,
 100-ms gap, 50-ms ps and 960-second outer bounds. Platform/tool trust,
 read-window stability, incomplete fork coverage and startup/kernel limits

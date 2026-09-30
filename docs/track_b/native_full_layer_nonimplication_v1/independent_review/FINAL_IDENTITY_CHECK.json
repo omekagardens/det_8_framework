@@ -1,0 +1,73 @@
+{
+  "continuous_custody": false,
+  "failures": [],
+  "manual_read_pin_rechecks": 18,
+  "observed_external_identity_rechecks": 285,
+  "review_namespace_before_this_receipt": [
+    "ADMIN_FAILURE_01.json",
+    "COMMAND_OUTCOMES.json",
+    "INDEPENDENT_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_COVERAGE.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "check_metadata_v2.py"
+  ],
+  "review_payloads_before_this_receipt": [
+    {
+      "bytes": 1792,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/ADMIN_FAILURE_01.json",
+      "sha256": "54e943d9715b07678ccc3a980cec3d16e531de2a7e65f78996d75964c57f8aba"
+    },
+    {
+      "bytes": 4886,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/COMMAND_OUTCOMES.json",
+      "sha256": "13e5cc83da3b1609281c593ff866d4c4fe36cff5848ba7e905e14412d8779a21"
+    },
+    {
+      "bytes": 16592,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/INDEPENDENT_REVIEW.md",
+      "sha256": "fe6949e40a4be7ac7bff673e2fe893980bf0795b325fd3d0246b026348f4a39b"
+    },
+    {
+      "bytes": 206219,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/METADATA_CHECK.json",
+      "sha256": "1279302bd77f80023fb358f578d1719cc5a2738ebf52086890c91f53ffb943d1"
+    },
+    {
+      "bytes": 6778,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/REVIEW_COVERAGE.json",
+      "sha256": "a75df0c71dc56b80f3658f3bc30d67e156db2a3950eda0d52595360481fe52bd"
+    },
+    {
+      "bytes": 3695,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/VERDICT.json",
+      "sha256": "34e6b4d27603919b5ef394bb55985d95ef0b70d0b606e392e7e251fd463398d3"
+    },
+    {
+      "bytes": 7988,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata.py",
+      "sha256": "163fe1905861d1099249a9063aa473ac841705089826f388df0b76a583c88f3c"
+    },
+    {
+      "bytes": 8040,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata_v2.py",
+      "sha256": "1759be889af6dfbfe1a171ec84e6f10647a56aedf39b4c7b0ed7178c4aa76b49"
+    }
+  ],
+  "schema": "ri172-final-independent-identity-review-v1",
+  "scientific_decode": false,
+  "status": "ALL_DECLARED_FINITE_RECHECKS_MATCH",
+  "subject_execution": false,
+  "subject_namespace": [
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "FULL_LAYER_PATH.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "NONIMPLICATION.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "subject_payloads": 7
+}

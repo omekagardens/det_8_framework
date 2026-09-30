@@ -1,0 +1,44 @@
+{
+  "exact_scope": {
+    "affected_marked_rows": 16,
+    "affected_raw_diamonds": 32,
+    "changed_global_components": 8,
+    "changed_other_parent_rows": 0
+  },
+  "fixed_actual_vector_verdict": false,
+  "higher_same_law_preservation": false,
+  "independent_review": {
+    "bytes": 5171,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/HANDOFF.json",
+    "sha256": "4fc46cb9eb87a59af2c923fcb11436136a0fc6b7cb287b4080d81819b1fa6941"
+  },
+  "next_action": "Select a distinct same-law endpoint slope question using RI145 exact weighted identity and RI151 complete canonical singleton correction; keep fixed-vector execution qualification separate.",
+  "original_sensitivity_used_only_at_start": true,
+  "physical_claim": false,
+  "result": "The complete declared size-four margin class does not imply D_minus<=213d; the ratio is unbounded on the all-eight-B-component path with d>0.",
+  "ret_paused": true,
+  "review_authentication": {
+    "bytes": 169964,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/INDEPENDENT_REVIEW_AUTHENTICATION.json",
+    "sha256": "f25e47cdc5161bafbe6d97d8f09112ab44c9137297e9856df2a655a13511ed7e"
+  },
+  "root_candidate_selection_disclosed": true,
+  "root_identity_check": {
+    "bytes": 161256,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI172_ROOT_METADATA_CHECK.json",
+    "sha256": "29cf18c070d9fc0aaad364c34b3946c1b85f8971b94633cb48aea20992fb9afa"
+  },
+  "root_manual_review": {
+    "bytes": 4285,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI172_ROOT_PROOF_REVIEW.md",
+    "sha256": "ddd19ea3a8044968728a0207e3c10d25fb9eaa5a75383134fbade99389b16d19"
+  },
+  "schema": "ri172-root-native-proof-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_COMPLETE_FINITE_LAYER_NONIMPLICATION_ONLY",
+  "subject": {
+    "bytes": 6736,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/HANDOFF.json",
+    "sha256": "552d173833a735c2778c02a3c561e0a9c4c204cb214f4f5db3e3e8910479079d"
+  }
+}

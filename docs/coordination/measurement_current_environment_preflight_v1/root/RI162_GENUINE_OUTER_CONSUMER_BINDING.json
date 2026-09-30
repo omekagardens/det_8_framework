@@ -1,0 +1,81 @@
+{
+  "accepted_root_decision": {
+    "bytes": 9283,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI162_OUTCOME_ROOT_ADJUDICATION.json",
+    "sha256": "092095afb037f4bbbe96632aec107cd163e87eee8ce7df1dc06f396053808e26"
+  },
+  "actual_summary": {
+    "bytes": 2752,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/ACTUAL_RUN_SUMMARY.json",
+    "sha256": "6cb30ad211c8be4fe25e9bc036dcf7ee4ba3ef6341f7ce43f655ca64dfff4847"
+  },
+  "actual_tool_chain": {
+    "exit_code": 0,
+    "initial_chunk": "f3f711",
+    "session_id": 66856,
+    "terminal_chunk": "9921e9"
+  },
+  "command": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-environment-proposed-wb69vu5s/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B -c 'import hashlib, importlib.util, os, sys\nfrom pathlib import Path\nexpected_environment = {'\"'\"'PATH'\"'\"': '\"'\"'/usr/bin:/bin'\"'\"', '\"'\"'LC_ALL'\"'\"': '\"'\"'C'\"'\"', '\"'\"'TZ'\"'\"': '\"'\"'UTC'\"'\"', '\"'\"'TMPDIR'\"'\"': '\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-environment-proposed-wb69vu5s/tmp'\"'\"', '\"'\"'OMP_NUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'OPENBLAS_NUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'MKL_NUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'VECLIB_MAXIMUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'NUMEXPR_NUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'__CF_USER_TEXT_ENCODING'\"'\"': '\"'\"'0x1F5:0x0:0x0'\"'\"'}\nif dict(os.environ) != expected_environment: raise RuntimeError('\"'\"'RI162 exact controlled environment'\"'\"')\nif sys.executable != '\"'\"'/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9'\"'\"' or (sys.flags.isolated, sys.flags.dont_write_bytecode, sys.flags.optimize) != (1, 1, 0): raise RuntimeError('\"'\"'RI162 direct normal isolated vendor'\"'\"')\nsource_path = Path('\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py'\"'\"')\nif source_path.is_symlink() or source_path.resolve(strict=True) != source_path: raise RuntimeError('\"'\"'RI162 literal monitor source'\"'\"')\nbefore = source_path.stat()\nwith source_path.open('\"'\"'rb'\"'\"') as stream: captured = stream.read(67108865)\nstate = lambda s: (s.st_dev, s.st_ino, s.st_mode, s.st_nlink, s.st_size, s.st_mtime_ns, s.st_ctime_ns)\nif state(before) != state(source_path.stat()) or len(captured) != 45721 or hashlib.sha256(captured).hexdigest() != '\"'\"'8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe'\"'\"': raise RuntimeError('\"'\"'RI162 complete monitor capture'\"'\"')\nmodule_name = '\"'\"'ri162_whole_unchanged_ri141_monitor'\"'\"'\nif module_name in sys.modules: raise RuntimeError('\"'\"'RI162 fresh non-main monitor name'\"'\"')\nspec = importlib.util.spec_from_file_location(module_name, source_path)\nmodule = importlib.util.module_from_spec(spec)\nexec(compile(captured, str(source_path), '\"'\"'exec'\"'\"'), module.__dict__)\nmodule.child_run(['\"'\"'/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9'\"'\"', '\"'\"'-I'\"'\"', '\"'\"'-B'\"'\"', '\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py'\"'\"', '\"'\"'--admission'\"'\"', '\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/ADAPTER_ADMISSION.json'\"'\"'], Path('\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-monitor-proposed-wb69vu5s'\"'\"'), '\"'\"'CONTROLS'\"'\"', 180, expected_environment)\n'",
+    "login": false,
+    "max_output_tokens": 4000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s",
+    "yield_time_ms": 1000
+  },
+  "completion": {
+    "bytes": 3455655,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri162-inert106-wb69vu5s/COMPLETE.json",
+    "sha256": "5a4c0ba0ab2b963e3dc946c183e69ec19575157413fc86d777bc33ba98d2532c"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-environment-proposed-wb69vu5s/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "external_timeout_seconds": 960,
+  "fixture_credentials_remain_non_genuine": true,
+  "genuine_initial": {
+    "bytes": 4938,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_INITIAL_TOOL.json",
+    "sha256": "360e8961008de8ec3a4089a28365a58fcf3b3fe747d7b8d24d5eeedbb3b9e7d9"
+  },
+  "genuine_terminal": {
+    "bytes": 487,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_TERMINAL_TOOL.json",
+    "sha256": "9d3b52fe299bbec1fbd5f4d5a1c7577de5e1d1ec6b9c1b09de23f2a34954b5d4"
+  },
+  "independent_review": {
+    "bytes": 16134,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-outcome-review-s6xrt59o/INDEPENDENT_OUTCOME_REVIEW.json",
+    "sha256": "5482ba4ea3113c53a23486ad4f0d5d8f14acd3bced3cf52119bea796e701685b"
+  },
+  "monitor": {
+    "bytes": 33024,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-monitor-proposed-wb69vu5s/CONTROLS.COMPLETION.json",
+    "sha256": "b2702177bb6d128da209d405f149fd12aa6beb14f5855b22972ecb68635116d3"
+  },
+  "monitored_child_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/ADAPTER_ADMISSION.json"
+  ],
+  "new_execution": false,
+  "result": {
+    "bytes": 3245944,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri162-inert106-wb69vu5s/RESULT.json",
+    "sha256": "838059a30c617a6df1694fa97477bb214d5e3c379baadd80fc03abcafff7a0c9"
+  },
+  "schema": "ri170-root-accepted-inert-genuine-outer-binding-v1",
+  "scientific_execution": false,
+  "status": "BIND_PREVIOUSLY_ACCEPTED_ACTUAL_TOOL_COMPLETION"
+}

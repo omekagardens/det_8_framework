@@ -1,0 +1,138 @@
+{
+  "author_actual_checks_are_preserved_not_rerun": true,
+  "diagnostic_recovery": {
+    "required_fields_and_passages_recovered_by": [
+      "937368",
+      "4f5268",
+      "f0de32",
+      "54318b",
+      "c10a55"
+    ],
+    "terminal_exit_was_zero": true,
+    "truncated_chunk": "88c780",
+    "truncated_output_credited_as_complete": false
+  },
+  "exact_checker_commands": [
+    {
+      "chunk_id": "c5a140",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata.py",
+      "exit_code": 1,
+      "failure_record": {
+        "bytes": 1792,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/ADMIN_FAILURE_01.json",
+        "sha256": "54e943d9715b07678ccc3a980cec3d16e531de2a7e65f78996d75964c57f8aba"
+      }
+    },
+    {
+      "chunk_id": "38aad1",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata_v2.py",
+      "exit_code": 0,
+      "stdout": "{\"bytes\": 206219, \"current_references\": 123, \"dependencies\": 276, \"identities\": 285, \"predicates\": 19345, \"sha256\": \"1279302bd77f80023fb358f578d1719cc5a2738ebf52086890c91f53ffb943d1\", \"status\": \"PASS_BOUNDED_ADMINISTRATIVE_CHECKS_ONLY\"}"
+    }
+  ],
+  "no_subject_execution": true,
+  "records": [
+    {
+      "chunk_id": "6e3a60",
+      "exit_code": 0,
+      "scope": "Initial interpreter-path observation, empty reservation and exact assignment/seal authentication."
+    },
+    {
+      "chunk_id": "6d4984",
+      "exit_code": 0,
+      "scope": "Complete two-manuscript source read."
+    },
+    {
+      "chunk_id": "d1b428",
+      "exit_code": 0,
+      "scope": "Complete dependency notes/handoff and administrative decision/schema reads."
+    },
+    {
+      "chunk_id": "87582b",
+      "exit_code": 0,
+      "scope": "Current premise records and complete author actual checks including embedded administrative source, text only."
+    },
+    {
+      "chunk_id": "6a9125",
+      "exit_code": 0,
+      "scope": "Complete RI168 incidence and coupled-bound read."
+    },
+    {
+      "chunk_id": "dd187c",
+      "exit_code": 0,
+      "scope": "Complete RI41 normalization and RI157 contrast proof; located original factorization."
+    },
+    {
+      "chunk_id": "c0de2d",
+      "exit_code": 0,
+      "scope": "RI147 exact factorization, complete RI168 root proof and RI127 record transport."
+    },
+    {
+      "chunk_id": "88c780",
+      "exit_code": 0,
+      "scope": "Overbroad administrative fields and textual source search; output TRUNCATED, not full-read credit."
+    },
+    {
+      "chunk_id": "b54520",
+      "exit_code": 0,
+      "scope": "Complete line-numbered FULL_LAYER_PATH re-read."
+    },
+    {
+      "chunk_id": "4f5268",
+      "exit_code": 0,
+      "scope": "Complete line-numbered NONIMPLICATION re-read; bounded RI151/RI153 successor passages."
+    },
+    {
+      "chunk_id": "937368",
+      "exit_code": 0,
+      "scope": "Recovered required metadata boundary fields; bounded RI145 endpoint source passages."
+    },
+    {
+      "chunk_id": "a22290",
+      "exit_code": 0,
+      "scope": "Created independent metadata checker V1 in exclusive reservation."
+    },
+    {
+      "chunk_id": "c5a140",
+      "exit_code": 1,
+      "scope": "Metadata V1 stopped on current-manifest versus historical-allowlist mistake; traceback/source preserved."
+    },
+    {
+      "chunk_id": "aa8b99",
+      "exit_code": 0,
+      "scope": "Saved exact failure record and created V2 with one narrow allowlist change."
+    },
+    {
+      "chunk_id": "38aad1",
+      "exit_code": 0,
+      "scope": "Successful bounded administrative checker; result 206219 bytes and exact pin recorded."
+    },
+    {
+      "chunk_id": "f0de32",
+      "exit_code": 0,
+      "scope": "Complete RI145 endpoint identity/reduction and RI153 joint-budget relevant passages."
+    },
+    {
+      "chunk_id": "54318b",
+      "exit_code": 0,
+      "scope": "RI147 actual-scale passages and RI157 missing-grid boundary."
+    },
+    {
+      "chunk_id": "c10a55",
+      "exit_code": 0,
+      "scope": "RI151 complete coupled block, primary-face variation and minimizer cases."
+    },
+    {
+      "chunk_id": "2a6798",
+      "exit_code": 0,
+      "scope": "Bounded author command/failure/preseal declarations and own metadata counts."
+    },
+    {
+      "chunk_id": "e74d2a",
+      "exit_code": 0,
+      "scope": "Created independent narrative only in exclusive reservation."
+    }
+  ],
+  "reproduction_boundary": "Checker has exclusive output creation. Reproduction needs a fresh external output destination; do not overwrite this sealed review or any subject. Administrative source alone is executable here; no subject/helper loading.",
+  "schema": "ri172-independent-review-command-outcomes-v1"
+}

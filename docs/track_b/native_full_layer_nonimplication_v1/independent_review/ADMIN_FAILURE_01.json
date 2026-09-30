@@ -1,0 +1,11 @@
+{
+  "schema": "ri172-review-administrative-diagnostic-v1",
+  "chunk_id": "c5a140",
+  "exit_code": 1,
+  "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata.py",
+  "output": "Traceback (most recent call last):\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata.py\", line 119, in <module>\n    traverse(s,'SOURCE_IDENTITIES')\n    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata.py\", line 116, in traverse\n    for k,v in obj.items(): traverse(v,location+'/'+k)\n                            ~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata.py\", line 114, in traverse\n    demand(obj['path'] in by, 'current source reference selected: '+location)\n    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby/check_metadata.py\", line 20, in demand\n    raise ValueError(label)\nValueError: current source reference selected: SOURCE_IDENTITIES/dependency_manifest\n",
+  "cause": "Reviewer checker incorrectly required the current dependency-manifest reference to be a historical dependency. It is instead authenticated by the current HANDOFF payload closure. No subject defect.",
+  "repair": "Only permit that exact current SOURCE_DEPENDENCIES.json path in addition to selected historical paths; whole-byte and typed pin checks remain. V1 preserved.",
+  "subject_or_helper_execution": false,
+  "partial_result_created": false
+}
