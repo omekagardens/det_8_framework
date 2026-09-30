@@ -1,45 +1,45 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 30 September 2026 UTC.** Native RI-136's immutable
-dispatcher is independently accepted as bounded unexecuted source. Archive:
-`docs/track_b/native_growth_policy_dispatch_source_v1/`. Complete nonauthor review
-covered 1,265 lines and all 139 declared cases. Root separately checked the full
-source/review namespaces, 373 dependencies, 343 retained entries/30 additions,
-785 new administrative references, fourteen manifest references, all literal case
-triples and the full seven-hunk correspondence. Zero policy cases have run.
+**Current checkpoint — 30 September 2026 UTC.** Measurement RI-139's single
+focused operation is independently reviewed and root accepted: all 25 outcomes
+pass (two positives, 23 expected refusals). The exact source, reviews, genuine
+tool records and full retained operation are archived in
+`docs/experiments/gwosc_focused25_result_v1/`. Actual child elapsed is 1.117708042
+seconds; 30 samples, peak 65,952 KiB, maximum gap 0.038787375 seconds and final
+gap 0.000034125 seconds satisfy the unchanged limits. Root/independent reviews
+reconcile every envelope, mutation, partial, ordered tail, command/card and namespace.
+The earlier RI-137 environment refusal remains rejected and preserved in its
+separate archive. Source acceptance and this finite result do not qualify science.
 
-After adjudication, QR is implementing RI-138's concrete external bootstrap,
-custody and bounded launcher/collector in
-`ri138-native-external-launch-source-92pbd52w/`. Existing limits and independent
-late checks remain intact. Fresh review and genuine root admission precede use.
-The 20/42 deeper rows, native qualification, actual C2/C3 signs and simultaneous
-H30 feasibility remain open. The native scientific question stays active with
-its actual qualification/execution blocker recorded.
+The unchanged real RI-135 preparation route still selects `/usr/bin/python3` for
+its parent and PRE/POST children. Focused F01 processes were explicit doubles.
+RI-141 is assigned in `ri141-white-bootstrap-source-h58ls076/` to repair that
+production route consistently with the authenticated direct-vendor binding,
+exact environment and existing limits. Fresh nonauthor review and root admission
+precede current capture; baseline acceptance, normal then optimized profiles,
+separate 65 guards and WHITE/full32 public-data reproduction remain subsequent.
 
-Measurement RI-137 passed complete source review and root adjudication, then one
-genuine separately admitted launch refused at the exact environment check. Tool
-`feff2a` exited 1 before control-module load, child monitoring or output creation.
-Zero of the 25 focused controls ran. Archive:
-`docs/experiments/gwosc_focused_launcher_refusal_v1/`. Source acceptance did not
-establish operational bootstrap applicability. The failed attempt is preserved.
+Native RI-138 received complete independent 2,364-line source review. Root confirms
+F01: ordinary interruption can leave an acquired marker without registered phase
+ownership; and F02: pipe cleanup can displace the original failure. Source remains
+unexecuted and requires repair. Exact packet, compact review, failed-checker history
+and root adjudication are archived in
+`docs/track_b/native_growth_external_launch_review_v1/`. All 396 direct identities,
+373 retained/23 added entries, 1,699 new administrative references, sixteen subject
+references and eight unchanged definitions reconcile. Large redundant diagnostics
+remain externally pinned and are explicitly identified in the archived handoff.
 
-Benign external diagnostics found four extra variables through the Apple Python
-entry point; direct use of the already observed resolved vendor interpreter kept
-exactly the declared environment. Full vendor PRE/POST metadata is byte-identical,
-with source/cards unchanged. These diagnostics are neither control retries nor
-current scientific-runtime qualification. RI-139's narrow source repair is sealed
-in `ri139-focused-bootstrap-repair-source-XP8iNwMw/`; root verified all eight
-source names and 310 dependencies, then assigned fresh nonauthor review in
-`ri139-bootstrap-independent-review-VMq4RmI9/`. The exact environment guard,
-original monitor, bounds and 25 controls stay fixed. Root adjudication and new
-genuine admission follow review before any fresh execution.
+After adjudication, Quantum Relativity has RI-140 in
+`ri140-native-failure-repair-source-l_a4mna0/`: only ownership/ordinary-signal and
+first-cause/cleanup repairs with necessary correspondence and focused prospective
+qualification design. Fresh independent review precedes any genuine admission.
+All 139 policy cases and 20/42 deeper obligations remain open. Actual C2/C3 signs
+and simultaneous H30 feasibility remain active native questions with their real
+qualification/execution blocker recorded; fixed mathematical premises are unchanged.
 
-RI-135 F01/F02 source remains accepted; RI-133 original preparation remains
-rejected. Actual25 evidence acceptance precedes current capture/baseline acceptance,
-normal before optimized profiles and separately admitted 65 guards. WHITE science,
-RI-131, full32 and conventional public GWOSC reproduction remain separate from
-calibration and a native forward map. Root owns repository/index/Git and genuine
-admissions; sealed history, unrelated edits and original review are preserved.
+Root owns repository/index/Git and actual admissions. Unrelated edits, protected
+prerequisites, original review and historical failures are preserved. Public-data
+reproduction, calibration and a native forward map remain distinct.
 The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
@@ -87,7 +87,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-136 exact-source dispatcher is independently accepted. QR implements RI-138 concrete external bootstrap/custody and launcher; all 139 policy cases remain unexecuted. Root owns runtime checks and numerical admissions. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-138 independent source review found two blocking ordinary-failure paths; root confirms both. RI-140 narrow immutable repair is assigned. All 139 policy cases and native scientific qualification remain open. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | Explicitly paused. G2 and calibration obligations remain historical open items; no RET work resumes without the user lifting that pause. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -120,9 +120,9 @@ Active file reservations, updated 30 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task and coordinator reviewers | RI-128/129/132/134 history remains sealed and preserved. RI-136 source/review and root adjudication are complete; QR owns active `ri138-native-external-launch-source-92pbd52w/` only. Fresh nonauthor review follows source seal. Root owns repository/index/Git, publication and every numerical admission. |
+| QR task and coordinator reviewers | RI-138 source and complete independent review are sealed; root requires F01/F02 repair. QR owns only active `ri140-native-failure-repair-source-l_a4mna0/`. Root owns repository/index/Git, publication and all execution admissions; fresh nonauthor review follows seal. |
 | Native current-runtime review | RI-122 fresh-runtime and actual execution/custody reviews are complete and preserved. The fresh RI-129 external current comparison also matches; no target interpreter/caller has launched. Root owns every future runtime/qualification/actual admission. |
-| Measurement source implementation/review | RI-130/131/133/135 source and review history remain sealed. RI-137 source/review are sealed; first admitted attempt is rejected before controls for bootstrap environment mismatch. Exact failed operation `ri137-focused25-run-musr4qw9/` is preserved. RI-139 source is sealed; nonauthor reviewer owns active `ri139-bootstrap-independent-review-VMq4RmI9/`; independent actual-refusal review is sealed in `ri137-actual-refusal-independent-review-5hya_8t5/`. Root retains execution admissions. No scientific target/fixture run is assigned. |
+| Measurement source implementation/review | RI-139 source, source review, actual25 operation and separate actual review are sealed and root accepted. RI-137 failed attempt remains immutable. Original author owns only active `ri141-white-bootstrap-source-h58ls076/` for the real production route repair. No current capture or scientific execution is admitted. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -178,21 +178,23 @@ Active file reservations, updated 30 September UTC:
 | RI-122 native connected-sensitivity caller | Exact fixed 28-child obstruction and complete independent arithmetic/custody published in verified `3027dc6`. Next: Preserve the original evidence; RI-127 discharges all connected contrasts; RI-128 targets its strict positivity signs. |
 | RI-123 joint-window application design | Conditional full white-overlap and periodic-completion design independently accepted; published with proof and schema reviews. Next: RI-125 source implementation only. Physical covariance, mean, calibration and native forward-map premises remain open. |
 | RI-124 native contrast compensation | Complete conditional H30 theorem and T1 analytic discharge published in verified `d65d1f6`. Next: Preserve every shared-parent strict condition; RI-127 now discharges the complete T2/T3 contrasts. |
-| RI-125 joint-window application sources | Primary source published in verified `c48fda4`; independent validator and W01-W15 qualifier now accepted after complete component nonauthor and root integration review, all unexecuted. Next: RI-130 caller is source-adjudicated; RI-133 original remains rejected; RI-135 repair source is accepted; RI-137 actual bootstrap refusal is preserved and RI-139 repairs it; RI-131 finite guard source is independently accepted, unexecuted. Full 32/periodic/mean/join, qualification and actual admission remain open. |
+| RI-125 joint-window application sources | Primary source published in verified `c48fda4`; independent validator and W01-W15 qualifier now accepted after complete component nonauthor and root integration review, all unexecuted. Next: RI-130 caller is source-adjudicated; RI-133 original remains rejected; RI-135 repair source is accepted; RI-139 actual25 is accepted; RI-141 repairs the remaining real preparation bootstrap route; RI-131 finite guard source is independently accepted, unexecuted. Full 32/periodic/mean/join, qualification and actual admission remain open. |
 | RI-126 portable native archive check | Published in remotely verified `80cac4b`: portable 117-file checker, 13 CLI and 10 semantic/parser cases pass. Next: Preserve the original archive; byte integrity and saved agreement do not replace scientific arithmetic or execution custody. |
 | RI-127 connected compensation decision | All 15 T2/all 7 T3 minors, full transport and strict local reduction independently accepted; published in verified `a00e460`. Next: RI-128 proves an actual-containing scale rectangle; actual C2/C3 signs and full shared H30 feasibility remain open. |
 | RI-128 connected strict-sign decision | Actual-scale containment and bounded unexecuted checker/reconstruction independently accepted; exact proof/source/reviews published in verified `35e5f60`. Next: RI-129 caller is independently source-accepted; RI-132 implements changed-caller qualification before actual sign evaluation. No trial-point or local-to-global promotion. |
-| RI-129 native sign caller | Exact unexecuted source accepted after complete nonauthor review; source/review archive published in verified `cac7f5b`. Next: RI-132 source is accepted with explicit remaining gaps; RI-134 extraction is source-adjudicated; RI-136 dispatch is accepted; RI-138 implements external launch/custody before qualification and actual admission. |
-| RI-130 WHITE fabricated caller | Exact unexecuted caller independently accepted and published in verified `cfb5966`; RI-135 narrow preparation repair source is accepted. Next: RI-137 first actual launch refused before controls; RI-139 repairs bootstrap selection before fresh review/admission and actual25. |
+| RI-129 native sign caller | Exact unexecuted source accepted after complete nonauthor review; source/review archive published in verified `cac7f5b`. Next: RI-132 source is accepted with explicit remaining gaps; RI-134 extraction is source-adjudicated; RI-136 dispatch is accepted; RI-138 source review requires F01/F02 repair, assigned as RI-140 before qualification and actual admission. |
+| RI-130 WHITE fabricated caller | Exact unexecuted caller independently accepted and published in verified `cfb5966`; RI-135 narrow preparation repair source is accepted. Next: RI-137 failed launch is preserved; RI-139 actual25 is accepted. RI-141 production bootstrap repair precedes real capture. |
 | RI-131 actual-validator guard controls | Complete nonauthor source review accepted; exact unexecuted 202-control packet published in verified `7c89f01`. Next: Separate caller applicability/design follows RI-130 source seal/review; all four whole-entry obligations and genuine qualification remain open. |
-| RI-132 changed-native-caller qualification | Bounded unexecuted coverage source independently accepted; exact mapping retains 25/48 deeper blocked rows. Next: RI-134 four-policy extraction is source-adjudicated; RI-136 dispatch is accepted and RI-138 implements external launch/custody. |
-| RI-133 WHITE runtime preparation | Original RI-133 remains rejected with F01/F02 source/findings preserved; RI-135 narrow replacement source is accepted. Next: RI-137 first actual launch refused before controls; RI-139 repairs bootstrap selection before fresh review/admission and actual25. |
-| RI-134 native policy extraction | Exact unexecuted extraction and RI-136 dispatcher independently accepted. Next: RI-138 external launcher/custody implementation; all 139 cases and 20/42 deeper rows remain open. |
-| RI-135 WHITE preparation repair | F01/F02 source independently accepted; zero of 25 controls ran. Next: RI-137 bootstrap refusal preserved; RI-139 narrow repair then fresh review and genuine admission. |
-| RI-136 native policy dispatcher | Exact bounded unexecuted source independently accepted; all 373 dependencies checked. Next: RI-138 implements concrete external bootstrap/custody and bounded launch/collection. |
-| RI-137 focused-control launcher | Source accepted; first genuine launch refused at exact environment guard before module load/output. Next: RI-139 direct authenticated interpreter selection repair; preserve failed attempt and exact environment/bounds. |
-| RI-138 native external launcher | Active source implementation by QR after RI-136 adjudication. Next: Concrete observer/ownership/collector; nonauthor review and genuine admission before use. |
-| RI-139 focused bootstrap repair | Exact eight-file source sealed and 310 dependencies authenticated; fresh nonauthor review active. Next: Consistent authenticated direct vendor entry; strict environment and unchanged controls/monitor; review before use. |
+| RI-132 changed-native-caller qualification | Bounded unexecuted coverage source independently accepted; exact mapping retains 25/48 deeper blocked rows. Next: RI-134 four-policy extraction is source-adjudicated; RI-136 dispatch is accepted and RI-138 requires F01/F02 repair in RI-140 before launch admission. |
+| RI-133 WHITE runtime preparation | Original RI-133 remains rejected with F01/F02 source/findings preserved; RI-135 narrow replacement source is accepted. Next: RI-137 failed launch is preserved; RI-139 actual25 is accepted. RI-141 production bootstrap repair precedes real capture. |
+| RI-134 native policy extraction | Exact unexecuted extraction and RI-136 dispatcher independently accepted. Next: RI-138 source review requires two repairs, assigned as RI-140; all 139 cases and 20/42 deeper rows remain open. |
+| RI-135 WHITE preparation repair | F01/F02 source and RI-139 actual25 evidence independently accepted. Next: RI-141 addresses real production bootstrap; retain explicit focused-test doubles and current-runtime prerequisites. |
+| RI-136 native policy dispatcher | Exact bounded unexecuted source independently accepted; all 373 dependencies checked. Next: RI-138 source requires ownership/first-cause repairs in RI-140 before launch admission. |
+| RI-137 focused-control launcher | Source accepted; first genuine launch refused at exact environment guard before controls. Next: Preserve immutable failed attempt; separately reviewed/admitted RI-139 successor passes actual25. |
+| RI-138 native external launcher | Complete independent source review; root confirms F01 ownership and F02 primary-error ordering defects. Next: RI-140 narrow source repair; all cases unexecuted and no launch admitted. |
+| RI-139 focused bootstrap repair | Source accepted; one genuinely admitted actual25 operation independently/root accepted. Next: RI-141 production parent/snapshot bootstrap route repair before current capture. |
+| RI-140 native failure repair | Assigned to QR after RI-138 independent/root adjudication. Next: Protect ordinary acquisition/ownership and retain primary cause before cleanup; source review before use. |
+| RI-141 real preparation bootstrap | Assigned after independently accepted actual25 exposes unchanged real snapshot route. Next: Narrow authenticated direct-vendor parent/PRE/POST command repair; source review before real capture. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -7890,3 +7892,43 @@ verified on origin/ret. This checkpoint's commit/push verification is saved
 externally after publication. Root stages only the declared two archives and
 four coordinator documents, preserving the entire unrelated inventory. RET alone
 remains paused and the broader programme remains active.
+
+**30 September — RI-139 actual25 accepted; RI-138 source repair adjudicated.**
+
+Actual source-only RI-139 acceptance preceded fresh vendor PRE and genuine single
+operation admission. Tools7538a9/session12210 and terminal0982f4/exit0 are preserved
+with the original literal command. Independent actual review handoff4074 bytes /
+f39896ff1b8d634397f817f7905bc32b0da6049e1f5db8fe199f8027b0933d46 covers all25
+complete outcomes,30 raw ps attempts,325 static source/dependency observations,
+full operation including final namespace exclusions and explicit doubles. Root
+rechecked427 saved file-identity rows, all325 source states and the complete
+operation after review. Root actual acceptance3357 bytes /
+1d6a9928570f1db9fbf87c1133b53d9fe708f17495b6443ddbd3ae71a8d109b1 follows those
+checks; the genuine tool-session relation remains an origin premise, not a claim
+that local receipt bytes authenticate themselves. Root actual reconciliation was
+completed by toola25c30 exit0; review/adjudication toolb1c730 exited0.
+
+Native independent review handoff7951 bytes /
+3729b27090a01824b6e1c743bf495e6b4416a69ffc4344567e44e867c7a2cc2b and root
+adjudication2948 bytes /2c191580f03416e7d6071518a6bdf7f94adfd8df62c2dfe166fad97e3e493942
+retain the complete unexecuted source and two ordinary-failure counterpaths.
+Root metadata reconciliation252362 bytes /
+d840a4eaeaecab73bff6dbe3e703df62bca0c5aea48af5238f4e0a4f11395302 completed
+with tool4615d0 exit0. The independent2364-line review and root fresh critical-path
+inspection are distinct coverage. The two reviewer metadata failures remain
+failed; compact terminal-successfulV3 and final pin checks do not erase them.
+Four redundant diagnostics are retained externally with exact pins in the review
+handoff/dependency map; none is silently represented as an archived body.
+
+RI140 and RI141 external source reservations are assigned after these respective
+adjudications. Their active edits are excluded from this checkpoint. Native
+actual C2/C3/H30 is still blocked on qualification and admitted execution; the
+measurement route repair precedes actual current capture. No native scientific
+case, WHITE scientific test, calibration result, full32 reproduction or release
+is inferred from this bounded checkpoint. RET alone remains paused.
+
+Parent83388e37fb25e6f0b8d2662ef6123dce92a99179 was independently verified on
+origin/ret. This checkpoint stages only two reviewed archives and four coordinator
+documents, verifies full nonscope identity/inventory preservation, then commits
+and pushes centrally; actual new commit/remote evidence is saved externally after
+publication. No broad staging, forced update or historical cleanup is performed.

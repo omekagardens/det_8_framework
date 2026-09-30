@@ -1,0 +1,16 @@
+{
+  "CONTROL_METADATA_DOUBLE_ONLY": true,
+  "host_bootstrap": {
+    "bootstrap": {
+      "named": {
+        "CONTROL_DOUBLE_NOT_RUNTIME": true
+      }
+    },
+    "system_version": {
+      "CONTROL": true
+    },
+    "uname": [
+      "CONTROL"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "bytes": 27,
+      "kind": "file",
+      "relative": "ATTEMPT.json",
+      "sha256": "44a73f57d138370f5ffa9c3d839edf655d846e4d8df467c6fa688a3ef75e5720"
+    },
+    {
+      "bytes": 101,
+      "kind": "file",
+      "relative": "CHECKS.json",
+      "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+    },
+    {
+      "bytes": 51,
+      "kind": "file",
+      "relative": "POST.COMPLETION.json",
+      "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+    },
+    {
+      "bytes": 254,
+      "kind": "file",
+      "relative": "POST.stdout",
+      "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+    }
+  ],
+  "excluded_not_yet_written": [
+    "NAMESPACE.json",
+    "COMPLETE.json"
+  ],
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_partial/owned-output",
+  "schema": "ri133-retained-namespace-v1"
+}

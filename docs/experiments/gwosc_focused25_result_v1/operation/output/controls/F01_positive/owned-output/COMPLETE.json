@@ -1,0 +1,85 @@
+{
+  "actual_data_admitted": false,
+  "admission": {
+    "bytes": 1094,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/FABRICATED_CONTROL_METADATA.json",
+    "sha256": "48af5856a6f1ec8ffe5734f8ee9cc3920b762df0a55872ced4ef22b567d5eb73"
+  },
+  "artifacts": {
+    "POST": {
+      "bytes": 254,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/POST.stdout",
+      "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+    },
+    "POST_completion": {
+      "bytes": 51,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/POST.COMPLETION.json",
+      "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+    },
+    "PRE": {
+      "bytes": 254,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/PRE.stdout",
+      "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+    },
+    "PRE_completion": {
+      "bytes": 51,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/PRE.COMPLETION.json",
+      "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+    },
+    "checks": {
+      "bytes": 74,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/CHECKS.json",
+      "sha256": "34a17c536f0c20348911d6438f09c96e53e0d60d212f4ba431d8dc8c7bd62e28"
+    },
+    "namespace": {
+      "bytes": 1318,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/NAMESPACE.json",
+      "sha256": "9f5388e61ea63743487887994d53901c6ba4cf6a74ceff4ed8c673acf1c2bbe7"
+    }
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/FABRICATED_CONTROL_METADATA.json"
+  ],
+  "elapsed_seconds": 0.004596083000000001,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/ENVIRONMENT_DOUBLE/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "first_error": null,
+  "full32_qualified": false,
+  "genuine_outer_created": false,
+  "independent_tail_errors": [],
+  "phase": "capture",
+  "ret_paused": true,
+  "runtime_acceptance_created": false,
+  "schema": "ri133-preparation-completion-v1",
+  "scientific_targets_executed": false,
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 76036,
+      "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+    },
+    "prepare.py": {
+      "bytes": 44082,
+      "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18607,
+      "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+    }
+  },
+  "status": "CAPTURED_FOR_INDEPENDENT_REVIEW"
+}

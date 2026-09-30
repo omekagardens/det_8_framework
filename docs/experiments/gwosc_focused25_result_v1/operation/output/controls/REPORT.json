@@ -1,0 +1,2868 @@
+{
+  "actual_current_runtime_qualified": false,
+  "admission": {
+    "bytes": 1773,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/controls.json",
+    "sha256": "fa34890fc0072da102b7b967c84a79024859fa4130fc345e28c6d642a8dc8fc2"
+  },
+  "all_substitutions_explicit": true,
+  "controls": [
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1094,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "48af5856a6f1ec8ffe5734f8ee9cc3920b762df0a55872ced4ef22b567d5eb73"
+            },
+            "artifacts": {
+              "POST": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/POST.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "POST_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/POST.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "PRE": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/PRE.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "PRE_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/PRE.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "checks": {
+                "bytes": 74,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/CHECKS.json",
+                "sha256": "34a17c536f0c20348911d6438f09c96e53e0d60d212f4ba431d8dc8c7bd62e28"
+              },
+              "namespace": {
+                "bytes": 1318,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output/NAMESPACE.json",
+                "sha256": "9f5388e61ea63743487887994d53901c6ba4cf6a74ceff4ed8c673acf1c2bbe7"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.004596083000000001,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": null,
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "CAPTURED_FOR_INDEPENDENT_REVIEW"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 1,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "save_ATTEMPT.json",
+          "child_PRE_SUBSTITUTED",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_NAMESPACE.json",
+          "save_COMPLETE.json"
+        ],
+        "first_error": null,
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1094,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "48af5856a6f1ec8ffe5734f8ee9cc3920b762df0a55872ced4ef22b567d5eb73"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 1261,
+            "kind": "file",
+            "relative": "owned-output/ATTEMPT.json",
+            "sha256": "33f3a7da9237e4efb8ec772c33bcc477fa2c2f149c43f32beedeb5192b7faa84"
+          },
+          {
+            "bytes": 74,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "34a17c536f0c20348911d6438f09c96e53e0d60d212f4ba431d8dc8c7bd62e28"
+          },
+          {
+            "bytes": 3620,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "347dd61563b10dd30395dd4cf9a9fe9858c1d2abcd0f9da8dd6417552e2f3185"
+          },
+          {
+            "bytes": 1318,
+            "kind": "file",
+            "relative": "owned-output/NAMESPACE.json",
+            "sha256": "9f5388e61ea63743487887994d53901c6ba4cf6a74ceff4ed8c673acf1c2bbe7"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/POST.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/POST.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/PRE.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/PRE.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          }
+        ],
+        "returncode": 0,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [],
+        "calls": {
+          "checks": 0,
+          "complete": 0,
+          "post": 0,
+          "pre": 0,
+          "source_set": 0,
+          "source_tail": 0,
+          "tree": 0
+        },
+        "escaped": {
+          "message": "CONTROL_PRE_ADMISSION_READ",
+          "type": "ValueError"
+        },
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership"
+        ],
+        "first_error": {
+          "message": "CONTROL_PRE_ADMISSION_READ",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1114,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "25a65cf6e42d9684e129ea40a3555162de9c10ecb40a62238267705bb9de4d67"
+          }
+        ],
+        "returncode": null,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_pre_admission_read",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [],
+        "calls": {
+          "checks": 0,
+          "complete": 0,
+          "post": 0,
+          "pre": 0,
+          "source_set": 0,
+          "source_tail": 0,
+          "tree": 0
+        },
+        "escaped": {
+          "message": "one fresh root-owned preparation output",
+          "type": "ValueError"
+        },
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED"
+        ],
+        "first_error": {
+          "message": "one fresh root-owned preparation output",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1094,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "a97accea4badb5ef4e6d718b9bcb0e0754d4099833348d577bca20ef50cbceae"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 12,
+            "kind": "file",
+            "relative": "owned-output/UNRELATED_OCCUPIED",
+            "sha256": "b072885a36ba742a882e9a6db2be87feca22e4ea463bc6cb5f3adf9f685d978c"
+          }
+        ],
+        "returncode": null,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_occupied",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [],
+        "calls": {
+          "checks": 0,
+          "complete": 0,
+          "post": 0,
+          "pre": 0,
+          "source_set": 0,
+          "source_tail": 0,
+          "tree": 0
+        },
+        "escaped": {
+          "message": "CONTROL_MKDIR_FAILURE",
+          "type": "ValueError"
+        },
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership"
+        ],
+        "first_error": {
+          "message": "CONTROL_MKDIR_FAILURE",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1088,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "331fdf4982217787a43dfe453b811f0e69d09d68b79722651cd6618b41c504ff"
+          }
+        ],
+        "returncode": null,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_mkdir",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1116,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_post_admission_read/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "1021bfb5c8339e1534f414913c1d8c5948eae788284fd991ff0b550241b3446b"
+            },
+            "artifacts": {
+              "POST": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_post_admission_read/owned-output/POST.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "POST_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_post_admission_read/owned-output/POST.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "checks": {
+                "bytes": 101,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_post_admission_read/owned-output/CHECKS.json",
+                "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+              },
+              "namespace": {
+                "bytes": 809,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_post_admission_read/owned-output/NAMESPACE.json",
+                "sha256": "e3cda8a4eb63045ddf02d3b767788423f133c15d72d7bd8bc63d7de3fa18c302"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_post_admission_read/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.002538874999999996,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_post_admission_read/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_POST_ADMISSION_READ",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 1,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "child_POST_SUBSTITUTED",
+          "sources_1",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_NAMESPACE.json",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_POST_ADMISSION_READ",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1116,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "1021bfb5c8339e1534f414913c1d8c5948eae788284fd991ff0b550241b3446b"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 101,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+          },
+          {
+            "bytes": 3204,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "e82db41b8775d1073c8b5de4a29fa55854800d3210008e78ae6dbf6547dddd56"
+          },
+          {
+            "bytes": 809,
+            "kind": "file",
+            "relative": "owned-output/NAMESPACE.json",
+            "sha256": "e3cda8a4eb63045ddf02d3b767788423f133c15d72d7bd8bc63d7de3fa18c302"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/POST.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/POST.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          }
+        ],
+        "returncode": 1,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_post_admission_read",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1116,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "840314f5b702488b1c23e63215db4be21d50698ba767ccdf126a5cfedcb754cc"
+            },
+            "artifacts": {
+              "POST": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/owned-output/POST.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "POST_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/owned-output/POST.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "checks": {
+                "bytes": 101,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/owned-output/CHECKS.json",
+                "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+              },
+              "namespace": {
+                "bytes": 809,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/owned-output/NAMESPACE.json",
+                "sha256": "920fda9d8b8e4cee17c37517a481ab9a160d3c533d63ce9c74e4aa3b800ffe80"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.002762125000000004,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_INITIAL_SOURCE_READ",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_NAMESPACE.json",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_INITIAL_SOURCE_READ",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1116,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "840314f5b702488b1c23e63215db4be21d50698ba767ccdf126a5cfedcb754cc"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 101,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+          },
+          {
+            "bytes": 3204,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "bfb6bf0b02c90682b2d8092204557838736d94d2ed47f81fec69f2e1d0c04272"
+          },
+          {
+            "bytes": 809,
+            "kind": "file",
+            "relative": "owned-output/NAMESPACE.json",
+            "sha256": "920fda9d8b8e4cee17c37517a481ab9a160d3c533d63ce9c74e4aa3b800ffe80"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/POST.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/POST.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          }
+        ],
+        "returncode": 1,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_initial_source_read",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1102,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_open/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "457dab04bcf43ee145993e82d94706e13d3e4048411ae76535e26f48e1c88c6b"
+            },
+            "artifacts": {
+              "POST": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_open/owned-output/POST.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "POST_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_open/owned-output/POST.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "checks": {
+                "bytes": 101,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_open/owned-output/CHECKS.json",
+                "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+              },
+              "namespace": {
+                "bytes": 802,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_open/owned-output/NAMESPACE.json",
+                "sha256": "a7c9f8e892d70d7b3aca08380df2c90dfa6666a33d5ba49803b3aaf819984636"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_open/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.0034123329999999896,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_open/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_ATTEMPT_OPEN",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "save_ATTEMPT.json",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_NAMESPACE.json",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_ATTEMPT_OPEN",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1102,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "457dab04bcf43ee145993e82d94706e13d3e4048411ae76535e26f48e1c88c6b"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 101,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+          },
+          {
+            "bytes": 3149,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "69799b7f08ec22f8b6495befc7bde5c090336b0fcd8f0824549e1c684c571bea"
+          },
+          {
+            "bytes": 802,
+            "kind": "file",
+            "relative": "owned-output/NAMESPACE.json",
+            "sha256": "a7c9f8e892d70d7b3aca08380df2c90dfa6666a33d5ba49803b3aaf819984636"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/POST.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/POST.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          }
+        ],
+        "returncode": 1,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_attempt_open",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1108,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_partial/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "c7f9d8de61e3c35b82e2f0ce790470bd7dced13a2afedff4929bd9700887feed"
+            },
+            "artifacts": {
+              "POST": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_partial/owned-output/POST.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "POST_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_partial/owned-output/POST.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "checks": {
+                "bytes": 101,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_partial/owned-output/CHECKS.json",
+                "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+              },
+              "namespace": {
+                "bytes": 976,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_partial/owned-output/NAMESPACE.json",
+                "sha256": "7c2e47d57a428a7ea5762d79f6a61ecfb50d169cbe56f7a882999543f3a46456"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_partial/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.0033276250000000007,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_attempt_partial/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_ATTEMPT_PARTIAL",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "save_ATTEMPT.json",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_NAMESPACE.json",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_ATTEMPT_PARTIAL",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1108,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "c7f9d8de61e3c35b82e2f0ce790470bd7dced13a2afedff4929bd9700887feed"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 27,
+            "kind": "file",
+            "relative": "owned-output/ATTEMPT.json",
+            "sha256": "44a73f57d138370f5ffa9c3d839edf655d846e4d8df467c6fa688a3ef75e5720"
+          },
+          {
+            "bytes": 101,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+          },
+          {
+            "bytes": 3173,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "f904d90e52368b9f6a0eab96529f356676a842f44255dd8d916ca1fb4ca9997a"
+          },
+          {
+            "bytes": 976,
+            "kind": "file",
+            "relative": "owned-output/NAMESPACE.json",
+            "sha256": "7c2e47d57a428a7ea5762d79f6a61ecfb50d169cbe56f7a882999543f3a46456"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/POST.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/POST.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          }
+        ],
+        "returncode": 1,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_attempt_partial",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1106,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_post/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "3c9a3a025f2209b4f4ad76e7c8cb1f017b1097cbc6b1ff925da892ad274887a0"
+            },
+            "artifacts": {
+              "checks": {
+                "bytes": 47,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_post/owned-output/CHECKS.json",
+                "sha256": "2d7c0d46adb0d18e24b058d9d542e822313b4debce70862ed9f5080a19a08a90"
+              },
+              "namespace": {
+                "bytes": 624,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_post/owned-output/NAMESPACE.json",
+                "sha256": "1a8653fe456aa1cb735ab4d2a125c7012ea2304b0f69eec7fa64650364bc6848"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_post/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.0020000419999999797,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_post/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_ATTEMPT_PARTIAL",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [
+              {
+                "message": "CONTROL_SECONDARY_POST",
+                "tail": "post_metadata",
+                "type": "ValueError"
+              }
+            ],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "save_ATTEMPT.json",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_NAMESPACE.json",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_ATTEMPT_PARTIAL",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1106,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "3c9a3a025f2209b4f4ad76e7c8cb1f017b1097cbc6b1ff925da892ad274887a0"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 27,
+            "kind": "file",
+            "relative": "owned-output/ATTEMPT.json",
+            "sha256": "44a73f57d138370f5ffa9c3d839edf655d846e4d8df467c6fa688a3ef75e5720"
+          },
+          {
+            "bytes": 47,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "2d7c0d46adb0d18e24b058d9d542e822313b4debce70862ed9f5080a19a08a90"
+          },
+          {
+            "bytes": 2704,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "41b8a752077038e16e5ee98dd8c49a34a321faf7b2929813ec298841b6ede9d9"
+          },
+          {
+            "bytes": 624,
+            "kind": "file",
+            "relative": "owned-output/NAMESPACE.json",
+            "sha256": "1a8653fe456aa1cb735ab4d2a125c7012ea2304b0f69eec7fa64650364bc6848"
+          }
+        ],
+        "returncode": 1,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_secondary_post",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1110,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_source/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "801f5940913f599789c4d1946b8eca753c417d3d7ccfee6b7129b7bea5f831b6"
+            },
+            "artifacts": {
+              "POST": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_source/owned-output/POST.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "POST_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_source/owned-output/POST.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "checks": {
+                "bytes": 57,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_source/owned-output/CHECKS.json",
+                "sha256": "51851bb769121a53aaeaead1c382802787af3775cf58d2c581a7b31c40e5e62c"
+              },
+              "namespace": {
+                "bytes": 976,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_source/owned-output/NAMESPACE.json",
+                "sha256": "881218bbe2f0c691b22dbb3b0927b14fdc7c64880bcad4631bc16bfb822aaa4d"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_source/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.0033111249999999703,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_source/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_ATTEMPT_PARTIAL",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [
+              {
+                "message": "CONTROL_SECONDARY_SOURCE",
+                "tail": "source_admission",
+                "type": "ValueError"
+              }
+            ],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "save_ATTEMPT.json",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_NAMESPACE.json",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_ATTEMPT_PARTIAL",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1110,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "801f5940913f599789c4d1946b8eca753c417d3d7ccfee6b7129b7bea5f831b6"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 27,
+            "kind": "file",
+            "relative": "owned-output/ATTEMPT.json",
+            "sha256": "44a73f57d138370f5ffa9c3d839edf655d846e4d8df467c6fa688a3ef75e5720"
+          },
+          {
+            "bytes": 57,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "51851bb769121a53aaeaead1c382802787af3775cf58d2c581a7b31c40e5e62c"
+          },
+          {
+            "bytes": 3300,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "4716bf095d29eb606171ef89442e59d238011bd92beb43cab25611ec0f014378"
+          },
+          {
+            "bytes": 976,
+            "kind": "file",
+            "relative": "owned-output/NAMESPACE.json",
+            "sha256": "881218bbe2f0c691b22dbb3b0927b14fdc7c64880bcad4631bc16bfb822aaa4d"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/POST.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/POST.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          }
+        ],
+        "returncode": 1,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_secondary_source",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1116,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_namespace/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "990c8be2eb03124d115233f6d1ef7430f3bd35e50b24e277a4f017db817f9bb3"
+            },
+            "artifacts": {
+              "POST": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_namespace/owned-output/POST.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "POST_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_namespace/owned-output/POST.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "checks": {
+                "bytes": 101,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_namespace/owned-output/CHECKS.json",
+                "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_namespace/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.002207166000000038,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_namespace/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_ATTEMPT_PARTIAL",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [
+              {
+                "message": "CONTROL_SECONDARY_NAMESPACE",
+                "tail": "retain_namespace",
+                "type": "ValueError"
+              }
+            ],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "save_ATTEMPT.json",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_ATTEMPT_PARTIAL",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1116,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "990c8be2eb03124d115233f6d1ef7430f3bd35e50b24e277a4f017db817f9bb3"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 27,
+            "kind": "file",
+            "relative": "owned-output/ATTEMPT.json",
+            "sha256": "44a73f57d138370f5ffa9c3d839edf655d846e4d8df467c6fa688a3ef75e5720"
+          },
+          {
+            "bytes": 101,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+          },
+          {
+            "bytes": 3032,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "8518242b92ad0520b8910bde112508e564df8e45ab566bae72036cc33cc87d7b"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/POST.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/POST.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          }
+        ],
+        "returncode": 1,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_secondary_namespace",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1110,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_checks/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "582d05f6eaf3dd780ea17237eb9b30ac687f2637f2e362ecc288cd24507472a3"
+            },
+            "artifacts": {
+              "POST": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_checks/owned-output/POST.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "POST_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_checks/owned-output/POST.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "namespace": {
+                "bytes": 806,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_checks/owned-output/NAMESPACE.json",
+                "sha256": "3fbf76ad8e0047b26e766a33c57880d55170faa049b9db97e68307ec79d2b7b0"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_checks/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.0028193340000000067,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_checks/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_ATTEMPT_PARTIAL",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [
+              {
+                "message": "CONTROL_SECONDARY_CHECKS",
+                "tail": "save_checks",
+                "type": "ValueError"
+              }
+            ],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "save_ATTEMPT.json",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_NAMESPACE.json",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_ATTEMPT_PARTIAL",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1110,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "582d05f6eaf3dd780ea17237eb9b30ac687f2637f2e362ecc288cd24507472a3"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 27,
+            "kind": "file",
+            "relative": "owned-output/ATTEMPT.json",
+            "sha256": "44a73f57d138370f5ffa9c3d839edf655d846e4d8df467c6fa688a3ef75e5720"
+          },
+          {
+            "bytes": 3013,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "dcec226aca0bc57e7d3365fb4066ee8739b00a94f849a281a78b2d3b3b50dfc2"
+          },
+          {
+            "bytes": 806,
+            "kind": "file",
+            "relative": "owned-output/NAMESPACE.json",
+            "sha256": "3fbf76ad8e0047b26e766a33c57880d55170faa049b9db97e68307ec79d2b7b0"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/POST.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/POST.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          }
+        ],
+        "returncode": 1,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_secondary_checks",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1108,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_three_secondary/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "055e8634b5758232dcff61508aa861b5178183950c71f628323205adced18c8c"
+            },
+            "artifacts": {
+              "checks": {
+                "bytes": 3,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_three_secondary/owned-output/CHECKS.json",
+                "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_three_secondary/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.0014895839999999883,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_three_secondary/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_ATTEMPT_PARTIAL",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [
+              {
+                "message": "CONTROL_SECONDARY_POST",
+                "tail": "post_metadata",
+                "type": "ValueError"
+              },
+              {
+                "message": "CONTROL_SECONDARY_SOURCE",
+                "tail": "source_admission",
+                "type": "ValueError"
+              },
+              {
+                "message": "CONTROL_SECONDARY_NAMESPACE",
+                "tail": "retain_namespace",
+                "type": "ValueError"
+              }
+            ],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": null,
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "save_ATTEMPT.json",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_ATTEMPT_PARTIAL",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1108,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "055e8634b5758232dcff61508aa861b5178183950c71f628323205adced18c8c"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 27,
+            "kind": "file",
+            "relative": "owned-output/ATTEMPT.json",
+            "sha256": "44a73f57d138370f5ffa9c3d839edf655d846e4d8df467c6fa688a3ef75e5720"
+          },
+          {
+            "bytes": 3,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+          },
+          {
+            "bytes": 2661,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "c0997c5ce8ce34a32315e37dd3a1e14bfbb849099ccaaeffe086812d53f6417e"
+          }
+        ],
+        "returncode": 1,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_three_secondary",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_runtime_or_production_admission": false,
+        "attempted_completion": [
+          {
+            "actual_data_admitted": false,
+            "admission": {
+              "bytes": 1104,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_final_partial/FABRICATED_CONTROL_METADATA.json",
+              "sha256": "6d2c93f7d55b9d2c39b725b8e4cdfa22e1b649650ad134e55eefe6987b998dda"
+            },
+            "artifacts": {
+              "POST": {
+                "bytes": 254,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_final_partial/owned-output/POST.stdout",
+                "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+              },
+              "POST_completion": {
+                "bytes": 51,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_final_partial/owned-output/POST.COMPLETION.json",
+                "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+              },
+              "checks": {
+                "bytes": 101,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_final_partial/owned-output/CHECKS.json",
+                "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+              },
+              "namespace": {
+                "bytes": 974,
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_final_partial/owned-output/NAMESPACE.json",
+                "sha256": "569f72a9db67dc5d9972a486e493eb8c6bbdd7eb2b3003647d1e4a2b38f93786"
+              }
+            },
+            "command": [
+              "/usr/bin/python3",
+              "-I",
+              "-B",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+              "--admission",
+              "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_final_partial/FABRICATED_CONTROL_METADATA.json"
+            ],
+            "elapsed_seconds": 0.0029996250000000058,
+            "environment": {
+              "LC_ALL": "C",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "PATH": "/usr/bin:/bin",
+              "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_final_partial/ENVIRONMENT_DOUBLE/tmp",
+              "TZ": "UTC",
+              "VECLIB_MAXIMUM_THREADS": "1",
+              "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+            },
+            "first_error": {
+              "message": "CONTROL_ATTEMPT_PARTIAL",
+              "type": "ValueError"
+            },
+            "full32_qualified": false,
+            "genuine_outer_created": false,
+            "independent_tail_errors": [],
+            "phase": "capture",
+            "ret_paused": true,
+            "runtime_acceptance_created": false,
+            "schema": "ri133-preparation-completion-v1",
+            "scientific_targets_executed": false,
+            "sources": {
+              "DEPENDENCIES.source-only.json": {
+                "bytes": 76036,
+                "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+              },
+              "prepare.py": {
+                "bytes": 44082,
+                "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+              },
+              "runtime_metadata.py": {
+                "bytes": 18607,
+                "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+              }
+            },
+            "status": "REFUSED_RETAIN_ALL_PARTIALS"
+          }
+        ],
+        "calls": {
+          "checks": 1,
+          "complete": 1,
+          "post": 1,
+          "pre": 0,
+          "source_set": 2,
+          "source_tail": 1,
+          "tree": 1
+        },
+        "escaped": {
+          "message": "CONTROL_FINAL_RECEIPT_WRITE",
+          "type": "ValueError"
+        },
+        "events": [
+          "AUTHENTICATION_SUBSTITUTED",
+          "admission_ref_preownership",
+          "admission_ref_owned",
+          "sources_1",
+          "save_ATTEMPT.json",
+          "child_POST_SUBSTITUTED",
+          "sources_2",
+          "source_tail_SUBSTITUTED",
+          "save_CHECKS.json",
+          "namespace_tail",
+          "save_NAMESPACE.json",
+          "save_COMPLETE.json"
+        ],
+        "first_error": {
+          "message": "CONTROL_ATTEMPT_PARTIAL",
+          "type": "ValueError"
+        },
+        "retained_tree": [
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE"
+          },
+          {
+            "kind": "directory",
+            "relative": "ENVIRONMENT_DOUBLE/tmp"
+          },
+          {
+            "bytes": 1104,
+            "kind": "file",
+            "relative": "FABRICATED_CONTROL_METADATA.json",
+            "sha256": "6d2c93f7d55b9d2c39b725b8e4cdfa22e1b649650ad134e55eefe6987b998dda"
+          },
+          {
+            "kind": "directory",
+            "relative": "owned-output"
+          },
+          {
+            "bytes": 27,
+            "kind": "file",
+            "relative": "owned-output/ATTEMPT.json",
+            "sha256": "44a73f57d138370f5ffa9c3d839edf655d846e4d8df467c6fa688a3ef75e5720"
+          },
+          {
+            "bytes": 101,
+            "kind": "file",
+            "relative": "owned-output/CHECKS.json",
+            "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+          },
+          {
+            "bytes": 28,
+            "kind": "file",
+            "relative": "owned-output/COMPLETE.json",
+            "sha256": "a7c379ff113d74faf37156be6cd43f3efaff2aca7acffd4a02248a0b1712320b"
+          },
+          {
+            "bytes": 974,
+            "kind": "file",
+            "relative": "owned-output/NAMESPACE.json",
+            "sha256": "569f72a9db67dc5d9972a486e493eb8c6bbdd7eb2b3003647d1e4a2b38f93786"
+          },
+          {
+            "bytes": 51,
+            "kind": "file",
+            "relative": "owned-output/POST.COMPLETION.json",
+            "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+          },
+          {
+            "bytes": 254,
+            "kind": "file",
+            "relative": "owned-output/POST.stdout",
+            "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+          }
+        ],
+        "returncode": null,
+        "substitutions": [
+          "authentication",
+          "runtime snapshot/processes",
+          "source observation"
+        ]
+      },
+      "id": "F01_final_partial",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 0,
+          "host": 0,
+          "interpreter": 0,
+          "loaders": 0,
+          "namespaces": 0,
+          "routes": 0,
+          "sources": 0,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": null,
+        "snapshot_observers_substituted": false
+      },
+      "id": "F02_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 0,
+          "host": 0,
+          "interpreter": 0,
+          "loaders": 0,
+          "namespaces": 0,
+          "routes": 0,
+          "sources": 0,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python.changed",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": {
+          "message": "candidate interpreter differs from authentic historical binding",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": false
+      },
+      "id": "F02_named_path",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 0,
+          "host": 0,
+          "interpreter": 0,
+          "loaders": 0,
+          "namespaces": 0,
+          "routes": 0,
+          "sources": 0,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11.changed",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": {
+          "message": "candidate interpreter differs from authentic historical binding",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": false
+      },
+      "id": "F02_resolved_path",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 0,
+          "host": 0,
+          "interpreter": 0,
+          "loaders": 0,
+          "namespaces": 0,
+          "routes": 0,
+          "sources": 0,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "./python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": {
+          "message": "candidate interpreter differs from authentic historical binding",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": false
+      },
+      "id": "F02_link_literal",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 0,
+          "host": 0,
+          "interpreter": 0,
+          "loaders": 0,
+          "namespaces": 0,
+          "routes": 0,
+          "sources": 0,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": {
+          "message": "candidate interpreter differs from authentic historical binding",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": false
+      },
+      "id": "F02_link_order",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 0,
+          "host": 0,
+          "interpreter": 0,
+          "loaders": 0,
+          "namespaces": 0,
+          "routes": 0,
+          "sources": 0,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": {
+          "message": "candidate interpreter differs from authentic historical binding",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": false
+      },
+      "id": "F02_link_omitted",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 0,
+          "host": 0,
+          "interpreter": 0,
+          "loaders": 0,
+          "namespaces": 0,
+          "routes": 0,
+          "sources": 0,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52641,
+            "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": {
+          "message": "candidate interpreter differs from authentic historical binding",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": false
+      },
+      "id": "F02_target_bytes",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 0,
+          "host": 0,
+          "interpreter": 0,
+          "loaders": 0,
+          "namespaces": 0,
+          "routes": 0,
+          "sources": 0,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": {
+          "message": "candidate interpreter differs from authentic historical binding",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": false
+      },
+      "id": "F02_target_sha",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 0,
+          "host": 0,
+          "interpreter": 0,
+          "loaders": 0,
+          "namespaces": 0,
+          "routes": 0,
+          "sources": 0,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": true,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json"
+        ],
+        "refusal": {
+          "message": "historical interpreter handoff identity",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": false
+      },
+      "id": "F02_provenance_missing",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 1,
+          "host": 1,
+          "interpreter": 1,
+          "loaders": 8,
+          "namespaces": 1,
+          "routes": 1,
+          "sources": 1,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "./python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/OPTIONAL_NATIVE_NAMESPACES.candidate.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": {
+          "message": "candidate interpreter differs from authentic historical binding",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": true
+      },
+      "id": "F02_snapshot_alias",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_current_interpreter_observed": false,
+        "calls": {
+          "absences": 1,
+          "host": 1,
+          "interpreter": 1,
+          "loaders": 8,
+          "namespaces": 1,
+          "routes": 1,
+          "sources": 1,
+          "walk": 0
+        },
+        "current_binding_control_operand": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+          "symlink_chain": [
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+              "target": "python3.11"
+            },
+            {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+              "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+            },
+            {
+              "path": "/opt/homebrew/opt/python@3.11",
+              "target": "../Cellar/python@3.11/3.11.6_1"
+            },
+            {
+              "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+              "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+            }
+          ],
+          "target": {
+            "bytes": 52640,
+            "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+          }
+        },
+        "genuine_historical_binding": {
+          "bytes": 1057,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+          "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+        },
+        "historical_provenance": {
+          "bytes": 4302,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+        },
+        "provenance_after_authentication_mutated_in_memory": false,
+        "reads": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/OPTIONAL_NATIVE_NAMESPACES.candidate.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json"
+        ],
+        "refusal": {
+          "message": "candidate interpreter differs from authentic historical binding",
+          "type": "RuntimeError"
+        },
+        "snapshot_observers_substituted": true
+      },
+      "id": "F02_snapshot_target",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "failed": 0,
+    "passed": 25,
+    "total": 25
+  },
+  "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls",
+  "order": [
+    "F01_positive",
+    "F01_pre_admission_read",
+    "F01_occupied",
+    "F01_mkdir",
+    "F01_post_admission_read",
+    "F01_initial_source_read",
+    "F01_attempt_open",
+    "F01_attempt_partial",
+    "F01_secondary_post",
+    "F01_secondary_source",
+    "F01_secondary_namespace",
+    "F01_secondary_checks",
+    "F01_three_secondary",
+    "F01_final_partial",
+    "F02_positive",
+    "F02_named_path",
+    "F02_resolved_path",
+    "F02_link_literal",
+    "F02_link_order",
+    "F02_link_omitted",
+    "F02_target_bytes",
+    "F02_target_sha",
+    "F02_provenance_missing",
+    "F02_snapshot_alias",
+    "F02_snapshot_target"
+  ],
+  "production_admission_created": false,
+  "ret_paused": true,
+  "runtime_profiles_or_65_caller_guards_executed": false,
+  "schema": "ri135-focused-fault-control-report-v1",
+  "scientific_execution": false,
+  "sources_after": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 76036,
+      "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+    },
+    "fault_controls.source-only.py": {
+      "bytes": 19967,
+      "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+    },
+    "prepare.py": {
+      "bytes": 44082,
+      "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18607,
+      "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+    }
+  },
+  "sources_before": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 76036,
+      "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+    },
+    "fault_controls.source-only.py": {
+      "bytes": 19967,
+      "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+    },
+    "prepare.py": {
+      "bytes": 44082,
+      "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18607,
+      "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+    }
+  },
+  "sources_unchanged": true,
+  "status": "ALL25_FOCUSED_CONTROLS_PASSED"
+}

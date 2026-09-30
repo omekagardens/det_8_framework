@@ -1,0 +1,56 @@
+{
+  "controls": [
+    "F01_positive",
+    "F01_pre_admission_read",
+    "F01_occupied",
+    "F01_mkdir",
+    "F01_post_admission_read",
+    "F01_initial_source_read",
+    "F01_attempt_open",
+    "F01_attempt_partial",
+    "F01_secondary_post",
+    "F01_secondary_source",
+    "F01_secondary_namespace",
+    "F01_secondary_checks",
+    "F01_three_secondary",
+    "F01_final_partial",
+    "F02_positive",
+    "F02_named_path",
+    "F02_resolved_path",
+    "F02_link_literal",
+    "F02_link_order",
+    "F02_link_omitted",
+    "F02_target_bytes",
+    "F02_target_sha",
+    "F02_provenance_missing",
+    "F02_snapshot_alias",
+    "F02_snapshot_target"
+  ],
+  "genuine_outer_required": true,
+  "independent_source_review": {
+    "bytes": 2187,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/HANDOFF.json",
+    "sha256": "bd035e6017edf7c15b6c2f33e4519d8a43c66da00a9dd862fb50bb1a6dfd5d8e"
+  },
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls",
+  "schema": "ri135-root-fault-control-admission-v1",
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 76036,
+      "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+    },
+    "fault_controls.source-only.py": {
+      "bytes": 19967,
+      "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+    },
+    "prepare.py": {
+      "bytes": 44082,
+      "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18607,
+      "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+    }
+  },
+  "status": "AUTHORIZE_F01_F02_NONSCIENTIFIC_CONTROLS_ONLY"
+}

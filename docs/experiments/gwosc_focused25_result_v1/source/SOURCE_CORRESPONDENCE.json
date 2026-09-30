@@ -1,0 +1,123 @@
+{
+  "changed_existing_functions": [
+    "prepare_launch",
+    "run"
+  ],
+  "closed_launcher_card_fields_unchanged": 14,
+  "complete_delta": {
+    "bytes": 7967,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/REPAIR.diff",
+    "sha256": "5b706a4acc484dbdf5f072bbe894dc234f3889df236e0fb71d95dcea03209f85"
+  },
+  "controls_executed": 0,
+  "execution_admitted": false,
+  "new_binding_function_lines": [
+    255
+  ],
+  "new_dependency_files": 34,
+  "new_functions": [
+    "selected_bootstrap"
+  ],
+  "new_preflight_required_field": "selected_interpreter_binding",
+  "old_dependency_files_preserved": 276,
+  "predecessor": {
+    "bytes": 25158,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py",
+    "sha256": "8a9313355f20f8c4b15e3b7b855303d893c892116174a6dc583fd609156ea0c9"
+  },
+  "ret_paused": true,
+  "schema": "ri139-plain-text-source-correspondence-v1",
+  "scope": "Literal text spans and opaque pins only; no source parsing/compile/import/AST or runtime test.",
+  "source_accepted": false,
+  "source_lines": 390,
+  "source_syntax_validated": false,
+  "successor": {
+    "bytes": 26387,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py",
+    "sha256": "4f26515027d5a497ca82169bbd05b566c9d761b81f8e23e9f6c3ab3eaa4ac794"
+  },
+  "unchanged_all_25_control_inspection_functions": true,
+  "unchanged_control_limit_premise_block": {
+    "bytes": 1201,
+    "sha256": "b11ed0b1cf332d23a1c81dadbc32a84777f13ef5fa840a434011a419275a6319"
+  },
+  "unchanged_environment_function": true,
+  "unchanged_functions": [
+    {
+      "name": "need",
+      "sha256": "c46f0e1459a1bb06a61322b24a69639bf2905a1a10069def8f8bbb637c5f769b",
+      "utf8_bytes": 66
+    },
+    {
+      "name": "canonical",
+      "sha256": "cee37749b62289cb40bb35194ce715a998af2d0581cf40f2d03d3718a4193922",
+      "utf8_bytes": 138
+    },
+    {
+      "name": "same",
+      "sha256": "5cdd04606ec44329bbf82b440ec9cf6ada4017c250c658e29434a45b10cf87f1",
+      "utf8_bytes": 75
+    },
+    {
+      "name": "keys",
+      "sha256": "75582bcdeb763edb9bd572c91ce5679aacc61c21273e48842fb038dc7395f3ac",
+      "utf8_bytes": 103
+    },
+    {
+      "name": "pure",
+      "sha256": "0883d7fc0397ea1084422669c66a1676dcd7b4a1c411d2215ba2aa628aef79c5",
+      "utf8_bytes": 94
+    },
+    {
+      "name": "body",
+      "sha256": "5ce49c58a2d8349d7674bcdef0af752f7efd78ed5c3a1040bd5d7bb653b1c032",
+      "utf8_bytes": 758
+    },
+    {
+      "name": "ref",
+      "sha256": "7f7146d72a273d51490ba4a58dd2485af6d4364f517f184e3196c7dfbc5b3955",
+      "utf8_bytes": 68
+    },
+    {
+      "name": "parse",
+      "sha256": "1b58079a28ed3f5668a9ceaf3a99e57907f3c47dd81b8b06e58795fcd7491de0",
+      "utf8_bytes": 420
+    },
+    {
+      "name": "captured",
+      "sha256": "ce25f9db99b742fb2680a31a551e1242f7d9445aa5954caa964e377269da8823",
+      "utf8_bytes": 365
+    },
+    {
+      "name": "read",
+      "sha256": "f7b00fd274ccca300c299f9a0f88d7af5d48d028c296af1f7c2eb106429ac6b0",
+      "utf8_bytes": 49
+    },
+    {
+      "name": "save",
+      "sha256": "75d80153943b01aaf8283a8a66f67ab21bac822594027f3ae3ed80b10a71cb05",
+      "utf8_bytes": 202
+    },
+    {
+      "name": "tree",
+      "sha256": "6a8f1d78bffd679c5bbf20353b535c775c261d38315e74617d1b7143129057f6",
+      "utf8_bytes": 1095
+    },
+    {
+      "name": "separated",
+      "sha256": "4915b455a5e7d912fdaa1ef77524e281ee386742aa52dc0b305beb06b96e0e85",
+      "utf8_bytes": 87
+    },
+    {
+      "name": "environment",
+      "sha256": "851697a5656a533ed7652e314d743868001a9856a8d227e5bdd8afdf8bc624b2",
+      "utf8_bytes": 7233
+    },
+    {
+      "name": "inspect_controls",
+      "sha256": "a096c68757bf26e8d18a3c758d2a9f9cc1c1e5743aa49da5999acaa4b5a8d0ab",
+      "utf8_bytes": 3083
+    }
+  ],
+  "unchanged_monitor_call_and_complete_module_pin": true
+}

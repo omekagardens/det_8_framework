@@ -1,0 +1,140 @@
+{
+  "actual_activity": {
+    "controls_executed": 0,
+    "operational_cards_admission_attempts": false,
+    "repository_index_git": false,
+    "reviewer_checker_tool_failures_retained": 2,
+    "reviewer_metadata_checkers_executed": 3,
+    "runtime_inventory": false,
+    "scientific_decode": false,
+    "source_edits": false,
+    "subject_import_compile_ast_probe_execute": false
+  },
+  "authorship": {
+    "author_peer_reviews_are_independent_acceptance": false,
+    "current_native_subject_or_source_author": false,
+    "own_source_semantics_accepted": false,
+    "retained_own_white_paths_identity_only": [
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.md",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PREDECESSOR_PINS.json",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/SOURCE_METADATA_CHECK.json",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/FIXED_SOURCE_LITERAL_CHECK.json",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/HANDOFF.json",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/INDEPENDENT_SOURCE_REVIEW.json",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/INDEPENDENT_SOURCE_REVIEW.md",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/SOURCE_PIN_AND_TEXT_CHECK.json"
+    ],
+    "white_ri135_ri137_ri139_author": true
+  },
+  "blocking_findings": [
+    {
+      "executed": false,
+      "id": "F01",
+      "lines": [
+        126,
+        210,
+        211,
+        255,
+        256,
+        460,
+        462,
+        929
+      ],
+      "paths": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py"
+      ],
+      "required_repair": "Safe state before exclusive open; defer ordinary raising signals until acquired FD and phase ownership are registered; retain original error and independently perform close/full after checks once owned. Preserve hard-abort limits and genuine preownership refusal.",
+      "severity": "blocking",
+      "title": "Exclusive phase marker ownership gap on ordinary failure"
+    },
+    {
+      "executed": false,
+      "id": "F02",
+      "lines": [
+        219,
+        227,
+        266,
+        273,
+        277,
+        298,
+        314,
+        319,
+        325,
+        424,
+        684
+      ],
+      "paths": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py"
+      ],
+      "required_repair": "Retain the original I/O or overflow cause before independent close_pipe operations; preserve cleanup as later errors without duplicate primary relabeling; keep EOF-only close failures distinct.",
+      "severity": "blocking",
+      "title": "Pipe cleanup errors can replace an earlier read/write/overflow cause"
+    }
+  ],
+  "complete_source_lines": {
+    "custody.py": 617,
+    "launch_policy_case.py": 982,
+    "owned_process.py": 765
+  },
+  "fresh_manual_executable_lines": 2364,
+  "fresh_metadata": {
+    "additions": 23,
+    "allowed_admin_bodies": 167,
+    "direct_bytes": 167977792,
+    "direct_dependencies": 396,
+    "inherited_entries_unchanged_except_roles": 373,
+    "inherited_external_occurrences_undereferenced": 112276,
+    "literal_unchanged_definitions": 8,
+    "matching_direct_reference_occurrences": 5878,
+    "new_admin_bodies": 11,
+    "new_reference_occurrences": 1699,
+    "opaque_body_decodes": 0,
+    "subject_reference_occurrences": 16,
+    "successful_result": {
+      "bytes": 287207,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V3.json",
+      "sha256": "2901c60867336047a1def9f3096dc13a721efea393173296313ab6b3c8286f31"
+    },
+    "total_reference_occurrences": 118154
+  },
+  "inherited_coverage": [
+    "RI134 complete caller/control semantic acceptance and RI136 dispatcher/contract semantic acceptance; exact byte identities and complete subject metadata preserved.",
+    "4374-base historical/runtime expectation construction reviewed as source; opaque expectation bodies and current runtime referents not decoded/inventoried.",
+    "Historical proof/WHITE evidence retained by identity only; no new semantic acceptance."
+  ],
+  "limits": {
+    "auxiliary_metadata_bytes": 67108864,
+    "census_ceiling_ms": 250,
+    "each_output_bytes": 8388608,
+    "intended_poll_ms": 50,
+    "overall_parent_seconds": 840,
+    "process_wall_seconds": 120,
+    "sampled_owned_group_rss_bytes": 536870912
+  },
+  "pending": [
+    "F01/F02 immutable source repair, fresh nonauthor review and root adjudication.",
+    "Genuine root/tool bootstrap, separate exact phase dispatch authority and real tool completion.",
+    "Separately admitted focused failure evidence and all139 direct case observations.",
+    "20native/42audit deeper caller obligations and separate full scientific qualification."
+  ],
+  "ret_paused": true,
+  "review": {
+    "bytes": 19545,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "cc695d49e9f7b1c407f34d8857983aa11baf208d4ebecd904fae559a34820dfb"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication_required": true,
+  "schema": "ri138-independent-complete-source-review-v1",
+  "source_handoff": {
+    "bytes": 5173,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.json",
+    "sha256": "6ee043592352d35048bb31a34aa8b550bb830a9af2afc99170db14b3806510e0"
+  },
+  "status": "REQUIRE_F01_F02_REPAIR_BEFORE_LAUNCH_ADMISSION"
+}

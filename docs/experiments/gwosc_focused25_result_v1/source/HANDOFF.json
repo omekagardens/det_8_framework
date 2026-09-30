@@ -1,0 +1,142 @@
+{
+  "changed_existing_functions": [
+    "prepare_launch",
+    "run"
+  ],
+  "closed_namespace": [
+    "AUTHORING_RECORD.md",
+    "DEPENDENCIES.source-only.json",
+    "HANDOFF.json",
+    "METADATA_CHECK.json",
+    "PROTOCOL.md",
+    "REPAIR.diff",
+    "SOURCE_CORRESPONDENCE.json",
+    "launch_controls.source-only.py"
+  ],
+  "complete_RI135_monitor_and_control_sources_unchanged": true,
+  "complete_delta": {
+    "bytes": 7967,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/REPAIR.diff",
+    "sha256": "5b706a4acc484dbdf5f072bbe894dc234f3889df236e0fb71d95dcea03209f85"
+  },
+  "current_runtime_inventory_card_admission_attempt_created": false,
+  "dependency_declaration": {
+    "bytes": 120094,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/DEPENDENCIES.source-only.json",
+    "sha256": "7be3dea02bd2f9d0e6dd565dbecad2977ed90eeab95612add058fd74a0be7309"
+  },
+  "direct_root_diagnostic": {
+    "bytes": 1386,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/DIRECT_VENDOR_ENV_DIAGNOSTIC.json",
+    "sha256": "b730a8e715da3087e13a3d877017074ebd481ab2c9e5f1186e90e300888552ac"
+  },
+  "exact_environment_and_resource_bounds_unchanged": true,
+  "execution_admitted": false,
+  "files": [
+    {
+      "bytes": 3386,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/AUTHORING_RECORD.md",
+      "sha256": "adb5e821ab4d7395078a24e8a8cfeccd7a45feaa37eca90751728749ad8e9095"
+    },
+    {
+      "bytes": 120094,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/DEPENDENCIES.source-only.json",
+      "sha256": "7be3dea02bd2f9d0e6dd565dbecad2977ed90eeab95612add058fd74a0be7309"
+    },
+    {
+      "bytes": 81149,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/METADATA_CHECK.json",
+      "sha256": "174d15a64bffd3d97716c6535e02ecfad23d22e65648910ba80343236c888a0f"
+    },
+    {
+      "bytes": 22142,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/PROTOCOL.md",
+      "sha256": "8d879ea7dda5d192c029ef93cd12aac90a6de683c6585087fabdb0da82f233a6"
+    },
+    {
+      "bytes": 7967,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/REPAIR.diff",
+      "sha256": "5b706a4acc484dbdf5f072bbe894dc234f3889df236e0fb71d95dcea03209f85"
+    },
+    {
+      "bytes": 3983,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/SOURCE_CORRESPONDENCE.json",
+      "sha256": "b2c0cd252cefc78dd28236daf541fa733b56ed5284ea8604d7e60a53d16dbc58"
+    },
+    {
+      "bytes": 26387,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py",
+      "sha256": "4f26515027d5a497ca82169bbd05b566c9d761b81f8e23e9f6c3ab3eaa4ac794"
+    }
+  ],
+  "focused_control_declarations": 25,
+  "new_controls_executed": 0,
+  "new_function": "selected_bootstrap",
+  "next_action": "Fresh nonauthor complete narrow-delta/source-contract review and root adjudication; root genuine fresh direct-bootstrap binding/preflight and new exact cards before any separately admitted focused25 operation.",
+  "opaque_dependency_bytes": 21106955,
+  "opaque_dependency_count": 310,
+  "payload_file_count": 7,
+  "predecessor_actual_refusal": {
+    "bytes": 3228,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/RI137_ACTUAL_REFUSAL_REVIEW.json",
+    "sha256": "8227aefa2338205826d713e00ef6b0737922b8f833822bc800f5305b5a2af022"
+  },
+  "predecessor_review": {
+    "bytes": 3396,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/HANDOFF.json",
+    "sha256": "ca1a29eec2d789f474b9dad13d09f433d12713bb8ccef0de70fe3de47d961009"
+  },
+  "predecessor_root_source_adjudication": {
+    "bytes": 1282,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/RI137_ROOT_ADJUDICATION.json",
+    "sha256": "d5ce36a3bebf5b3af968c47d425719b9761ace8bb52bd16da5e4bc949c2ee48e"
+  },
+  "predecessor_source": {
+    "bytes": 4642,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/HANDOFF.json",
+    "sha256": "95112c29b0448f7f48810fb34d9510b6d7b6079826054383795758e3f70b2cbd"
+  },
+  "protected_namespace_roots": 385,
+  "repository_or_git_operation": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw",
+  "ret_paused": true,
+  "retained_boundaries": [
+    "RI137 genuine attempt refused before module load/ownership; zero controls, no retry or retrospective promotion.",
+    "Separate benign direct vendor diagnostic supports bootstrap selection only; does not qualify current runtime or25 outcomes.",
+    "Root preflight must supply fresh authenticated selected_interpreter_binding; path/bytes/state/sys.executable checks are not loader proof.",
+    "All monitor bounds, sampled-child-not-parent/group scope, stable supplier/no descendants, Apple loader/cache and source-cache premises remain.",
+    "Outer parent timeout does not imply child group cleanup or completed finally tails; genuine command/tool/process evidence remains required.",
+    "RI138, RI131, scientific WHITE/full32/current-runtime qualification and RET remain outside this repair."
+  ],
+  "schema": "ri139-direct-bootstrap-repair-source-handoff-v1",
+  "scientific_body_decode": false,
+  "selected_bootstrap_binding": {
+    "bytes": 102352,
+    "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+    "state": [
+      16777232,
+      172336345,
+      33261,
+      1,
+      102352,
+      1762508227000000000,
+      1763521990665808991
+    ],
+    "symlink_chain": []
+  },
+  "self_hash_excluded": true,
+  "source_accepted": false,
+  "source_author": "/root/archive_repro_review; author of predecessor RI137/RI135 and separate RI125 validator, no independent self-review.",
+  "source_correspondence": {
+    "bytes": 3983,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/SOURCE_CORRESPONDENCE.json",
+    "sha256": "b2c0cd252cefc78dd28236daf541fa733b56ed5284ea8604d7e60a53d16dbc58"
+  },
+  "source_lines": 390,
+  "source_or_helper_import_compile_ast_probe_run": false,
+  "source_syntax_validated": false,
+  "status": "UNEXECUTED_NARROW_REPAIR_AWAITING_NONAUTHOR_REVIEW",
+  "unchanged_existing_functions": 15
+}

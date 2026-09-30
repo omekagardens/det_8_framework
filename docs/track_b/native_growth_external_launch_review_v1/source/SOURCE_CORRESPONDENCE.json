@@ -1,0 +1,536 @@
+{
+  "schema": "ri138-source-correspondence-v1",
+  "status": "AUTHOR_LITERAL_TEXT_COMPARISON_NOT_EXECUTION",
+  "sources": {
+    "ri134_native": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/supervise.py",
+      "bytes": 89283,
+      "sha256": "e3e4b438dd169aa9f2ef815faec5d6f86766eb68da8a3da20412c90206e9f41d"
+    },
+    "ri136_dispatcher": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+      "bytes": 23248,
+      "sha256": "1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37"
+    },
+    "custody": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/custody.py",
+      "bytes": 33143,
+      "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+    },
+    "owned_process": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py",
+      "bytes": 38953,
+      "sha256": "8e749ead931f4a47f83853b1e4bb24c4c752aef79aac7349f0fd5cb7f8de5b62"
+    },
+    "launcher": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py",
+      "bytes": 57622,
+      "sha256": "670232ab5da7b2efa63d703c6fbd38fa088ff758d9d4dea129ac62845aab6ab9"
+    }
+  },
+  "exact_unchanged_definitions": {
+    "custody": [
+      {
+        "name": "Stop",
+        "old_start": 134,
+        "old_end": 137,
+        "new_start": 40,
+        "new_end": 43,
+        "whole_definition_bytes": 124,
+        "sha256": "5b067f8cd0010f567cbdd4697a3b8c34034685d70d7feb88ce8e233c5be0e86e"
+      },
+      {
+        "name": "need",
+        "old_start": 140,
+        "old_end": 142,
+        "new_start": 46,
+        "new_end": 48,
+        "whole_definition_bytes": 92,
+        "sha256": "79dfa7a1a4bcf0249c491f2e7fe1e171c50022374c6fd1072ce73471b77526de"
+      },
+      {
+        "name": "canonical",
+        "old_start": 145,
+        "old_end": 146,
+        "new_start": 51,
+        "new_end": 52,
+        "whole_definition_bytes": 109,
+        "sha256": "0e05d954995060aa924ebd3e442a6193ceaa8e4db5804b2fea38bbfbafa1058f"
+      },
+      {
+        "name": "exact_keys",
+        "old_start": 157,
+        "old_end": 158,
+        "new_start": 55,
+        "new_end": 56,
+        "whole_definition_bytes": 136,
+        "sha256": "6cdbf5d7781e89dbc568309625881bf78088229d94d0c964e88372d29905d782"
+      },
+      {
+        "name": "hexhash",
+        "old_start": 161,
+        "old_end": 162,
+        "new_start": 59,
+        "new_end": 60,
+        "whole_definition_bytes": 119,
+        "sha256": "1977f1509e54e20b4f260b6e24e9e3cbaa9e727923128e79bb772805b19766de"
+      },
+      {
+        "name": "runtime_system_location",
+        "old_start": 582,
+        "old_end": 591,
+        "new_start": 416,
+        "new_end": 425,
+        "whole_definition_bytes": 426,
+        "sha256": "094a89ba2ce2e2d0e79cf75dbdb6482a544a6747c831ffb0efd57dcffed2d6b5"
+      }
+    ],
+    "launcher": [
+      {
+        "name": "Refused",
+        "old_start": 54,
+        "old_end": 55,
+        "new_start": 52,
+        "new_end": 53,
+        "bytes": 38,
+        "sha256": "98d7cf3f12ec68c70aea631a1467acc294de5669a8dd4141fdfe1fb51af2a8ce"
+      },
+      {
+        "name": "require",
+        "old_start": 58,
+        "old_end": 60,
+        "new_start": 60,
+        "new_end": 62,
+        "bytes": 86,
+        "sha256": "9b56f7f91072c455d75bcc6fffd05948336aaa84b37699b7285b56ef7afa4174"
+      }
+    ],
+    "owned_process": []
+  },
+  "adaptation_groups": [
+    {
+      "component": "custody.py",
+      "ancestor_definitions": [
+        "strict_json",
+        "resolve_links",
+        "file_identity",
+        "validate_identity",
+        "dependency_prepare",
+        "preparation_ready",
+        "runtime_prepare",
+        "runtime_directory_identity",
+        "runtime_system_version",
+        "runtime_namespace_snapshot",
+        "snapshot",
+        "same"
+      ],
+      "current_definitions": [
+        "strict_json",
+        "resolve_links",
+        "read_file",
+        "file_identity",
+        "validate_identity",
+        "canonical_path",
+        "full_identity",
+        "read_expected_manifest",
+        "validate_entries",
+        "validate_runtime",
+        "runtime_directory_identity",
+        "runtime_system_version",
+        "observe_object",
+        "observe_all",
+        "same"
+      ],
+      "changes": "Preserve fixed file/link/runtime/namespace/host meanings; add complete bounded reads, cooperative deadlines, immutable local expectations, exact counts, separate per-object durable sink references, ordinary failure continuation and non-Exception hard-abort propagation. Six literal unchanged definitions are separately proven above."
+    },
+    {
+      "component": "custody.py",
+      "ancestor_definitions": [],
+      "current_definitions": [
+        "check_deadline",
+        "load_expected",
+        "validate_spec",
+        "extend_spec",
+        "validate_reference",
+        "error_record"
+      ],
+      "changes": "New bounded glue and immutable inventory/extension protocol; no source import, discovery, authority writer or scientific decoding."
+    },
+    {
+      "component": "owned_process.py",
+      "ancestor_definitions": [
+        "Attempt",
+        "monitor",
+        "terminate_owned",
+        "run",
+        "stop_signal"
+      ],
+      "current_definitions": [
+        "CollectionFailure",
+        "canonical",
+        "error_value",
+        "hard_abort_active",
+        "abort_owned",
+        "directory_sync",
+        "Sink",
+        "Owner",
+        "run_child"
+      ],
+      "changes": "New implementation of reviewed obligations, not whole-function reuse. Replace subprocess.run/direct output files/blocking cleanup with selector-driven concurrent child/census drains, original-deadline cleanup, capped durable streams/metadata/errors, actual live leader and post-reap empty census, and hard-abort guards. No qualification transfer."
+    },
+    {
+      "component": "launch_policy_case.py",
+      "ancestor_definitions": [
+        "canonical",
+        "exact",
+        "literal_path",
+        "validate_identity",
+        "read_stable",
+        "read_json",
+        "load_exact_module",
+        "validate_observation",
+        "execute_one",
+        "main"
+      ],
+      "current_definitions": [
+        "canonical",
+        "exact",
+        "literal_path",
+        "identity_shape",
+        "read_file",
+        "read_json",
+        "load_module",
+        "validate_child",
+        "run_phase",
+        "main"
+      ],
+      "changes": "Adapt authentication/whole-module and observation contracts to an external two-phase coordinator. Preserve exact RI136 result/card/case meanings; add root-plan binding, separately preserved literal dispatch, complete custody, original capture pins, independent namespaces/tails, and shared phase deadlines. Refused/require are the only proven literal unchanged launcher definitions."
+    },
+    {
+      "component": "launch_policy_case.py",
+      "ancestor_definitions": [],
+      "current_definitions": [
+        "HardDeadline",
+        "propagate_hard",
+        "hard_unwinding",
+        "close_on_abort",
+        "raw_json",
+        "same",
+        "strict_json",
+        "check_time",
+        "signal_received",
+        "nonsymlink",
+        "error_value",
+        "directory_sync",
+        "DurableSink",
+        "write_new",
+        "invocation",
+        "namespace",
+        "authenticate",
+        "Phase",
+        "create_cards",
+        "validate_prepare",
+        "collect_process_artifacts"
+      ],
+      "changes": "New integration glue; strict transcript floats only, no fake provenance, no production entry, no automatic retry and no runtime bootstrap inferred from self-checks."
+    }
+  ],
+  "definition_indexes": {
+    "custody": [
+      {
+        "line": 40,
+        "declaration": "class Stop(RuntimeError):"
+      },
+      {
+        "line": 46,
+        "declaration": "def need(condition, code, message):"
+      },
+      {
+        "line": 51,
+        "declaration": "def canonical(value):"
+      },
+      {
+        "line": 55,
+        "declaration": "def exact_keys(value, keys, code, context):"
+      },
+      {
+        "line": 59,
+        "declaration": "def hexhash(value):"
+      },
+      {
+        "line": 63,
+        "declaration": "def same(left, right, context):"
+      },
+      {
+        "line": 67,
+        "declaration": "def strict_json(raw):"
+      },
+      {
+        "line": 79,
+        "declaration": "def canonical_path(value):"
+      },
+      {
+        "line": 85,
+        "declaration": "def validate_identity(value):"
+      },
+      {
+        "line": 100,
+        "declaration": "def full_identity(value):"
+      },
+      {
+        "line": 110,
+        "declaration": "def check_deadline(deadline_ns):"
+      },
+      {
+        "line": 115,
+        "declaration": "def resolve_links(path, deadline_ns):"
+      },
+      {
+        "line": 143,
+        "declaration": "def read_file(path, deadline_ns, retain_bytes=False):"
+      },
+      {
+        "line": 180,
+        "declaration": "def file_identity(path, deadline_ns):"
+      },
+      {
+        "line": 184,
+        "declaration": "def read_expected_manifest(name, deadline_ns):"
+      },
+      {
+        "line": 194,
+        "declaration": "def validate_entries(value, family, count):"
+      },
+      {
+        "line": 228,
+        "declaration": "def validate_runtime(value):"
+      },
+      {
+        "line": 320,
+        "declaration": "def load_expected(supplemental_identities, deadline_ns):"
+      },
+      {
+        "line": 382,
+        "declaration": "def runtime_directory_identity(path, deadline_ns):"
+      },
+      {
+        "line": 416,
+        "declaration": "def runtime_system_location(path):"
+      },
+      {
+        "line": 428,
+        "declaration": "def runtime_system_version(path, expected_file, deadline_ns):"
+      },
+      {
+        "line": 439,
+        "declaration": "def observe_object(item, deadline_ns):"
+      },
+      {
+        "line": 463,
+        "declaration": "def error_record(error):"
+      },
+      {
+        "line": 468,
+        "declaration": "def validate_spec(spec_bytes):"
+      },
+      {
+        "line": 505,
+        "declaration": "def validate_reference(reference, raw):"
+      },
+      {
+        "line": 513,
+        "declaration": "def extend_spec(spec_bytes, supplemental_identities):"
+      },
+      {
+        "line": 546,
+        "declaration": "def observe_all(spec_bytes, phase, sink, deadline_ns):"
+      }
+    ],
+    "owned_process": [
+      {
+        "line": 39,
+        "declaration": "class CollectionFailure(RuntimeError):"
+      },
+      {
+        "line": 43,
+        "declaration": "def canonical(value):"
+      },
+      {
+        "line": 48,
+        "declaration": "def error_value(phase, error):"
+      },
+      {
+        "line": 57,
+        "declaration": "def hard_abort_active():"
+      },
+      {
+        "line": 62,
+        "declaration": "def abort_owned(owner, extra_process=None):"
+      },
+      {
+        "line": 110,
+        "declaration": "def directory_sync(path):"
+      },
+      {
+        "line": 118,
+        "declaration": "class Sink:"
+      },
+      {
+        "line": 196,
+        "declaration": "class Owner:"
+      },
+      {
+        "line": 622,
+        "declaration": "def run_child(command, cwd, env, outputdir, *, outer_deadline_ns):"
+      }
+    ],
+    "launcher": [
+      {
+        "line": 52,
+        "declaration": "class Refused(RuntimeError):"
+      },
+      {
+        "line": 56,
+        "declaration": "class HardDeadline(BaseException):"
+      },
+      {
+        "line": 60,
+        "declaration": "def require(condition, message):"
+      },
+      {
+        "line": 65,
+        "declaration": "def propagate_hard(error):"
+      },
+      {
+        "line": 70,
+        "declaration": "def hard_unwinding():"
+      },
+      {
+        "line": 75,
+        "declaration": "def close_on_abort(sink):"
+      },
+      {
+        "line": 84,
+        "declaration": "def canonical(value):"
+      },
+      {
+        "line": 88,
+        "declaration": "def raw_json(value):"
+      },
+      {
+        "line": 92,
+        "declaration": "def exact(value, keys, context):"
+      },
+      {
+        "line": 96,
+        "declaration": "def same(left, right, context):"
+      },
+      {
+        "line": 100,
+        "declaration": "def strict_json(raw, tool_record=False):"
+      },
+      {
+        "line": 119,
+        "declaration": "def check_time(deadline):"
+      },
+      {
+        "line": 126,
+        "declaration": "def signal_received(signum, frame):"
+      },
+      {
+        "line": 133,
+        "declaration": "def literal_path(value):"
+      },
+      {
+        "line": 139,
+        "declaration": "def nonsymlink(path):"
+      },
+      {
+        "line": 146,
+        "declaration": "def identity_shape(value, positive=True):"
+      },
+      {
+        "line": 155,
+        "declaration": "def read_file(path, deadline, expected=None, cap=CAP):"
+      },
+      {
+        "line": 187,
+        "declaration": "def read_json(path, deadline, expected=None, tool_record=False):"
+      },
+      {
+        "line": 192,
+        "declaration": "def error_value(stage, error):"
+      },
+      {
+        "line": 196,
+        "declaration": "def directory_sync(path):"
+      },
+      {
+        "line": 204,
+        "declaration": "class DurableSink:"
+      },
+      {
+        "line": 252,
+        "declaration": "def write_new(path, raw, deadline, opened=None):"
+      },
+      {
+        "line": 271,
+        "declaration": "def invocation(phase, plan_sha, directory):"
+      },
+      {
+        "line": 278,
+        "declaration": "def namespace(directory, expected_names, deadline):"
+      },
+      {
+        "line": 296,
+        "declaration": "def load_module(identity, name, deadline):"
+      },
+      {
+        "line": 304,
+        "declaration": "def authenticate(phase, plan_sha, deadline):"
+      },
+      {
+        "line": 425,
+        "declaration": "class Phase:"
+      },
+      {
+        "line": 575,
+        "declaration": "def create_cards(state, deadline):"
+      },
+      {
+        "line": 613,
+        "declaration": "def validate_prepare(context, plan_sha, deadline):"
+      },
+      {
+        "line": 709,
+        "declaration": "def validate_child(context, cards, process, deadline):"
+      },
+      {
+        "line": 805,
+        "declaration": "def collect_process_artifacts(state, deadline):"
+      },
+      {
+        "line": 893,
+        "declaration": "def run_phase(phase, plan_sha):"
+      },
+      {
+        "line": 962,
+        "declaration": "def main():"
+      }
+    ]
+  },
+  "actual_text_check_completions": [
+    {
+      "chunk_id": "737aa6",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7dd01c",
+      "exit_code": 0
+    }
+  ],
+  "review_scope": "Main read complete modules and changed spans, component notes and selected ancestor mechanisms. Author peers reviewed integration. These are not fresh nonauthor review, proof of semantic equivalence, Python compilation or executed tests.",
+  "source_execution": false,
+  "measurement_source_selected": false,
+  "full_module_equivalence_claimed": false
+}

@@ -1,0 +1,80 @@
+{
+  "RI137_rejection_preserved": true,
+  "active_admissions_or_fixtures": false,
+  "blocking_findings": [],
+  "complete_review": {
+    "bytes": 13787,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/INDEPENDENT_ACTUAL_REVIEW.md",
+    "sha256": "2d999ca103dc4e7e3d02beaaa95d5dbdfb5ec5d7e824fb1116bff91803ec10e6"
+  },
+  "counts": {
+    "F01": 14,
+    "F02": 11,
+    "declared_positives": 2,
+    "expected_refusals": 23,
+    "passed": 25,
+    "total": 25
+  },
+  "custody": {
+    "all25_envelopes_reconstructed": true,
+    "all30_raw_samples_reconciled": true,
+    "all_states_unchanged": true,
+    "control_entries": 129,
+    "opaque_dependencies": 310,
+    "output_entries": 139,
+    "source_review_dependency_rows": 325,
+    "vendor_PRE_POST_identical": true
+  },
+  "dispatch": {
+    "bytes": 4841,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/ROOT_DISPATCH.json",
+    "sha256": "59f3a78aca3323ed35831f1b8972ec7a123bddbc687100c7562090addff8c775"
+  },
+  "evidence_check": {
+    "bytes": 305561,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/SAVED_EVIDENCE_CHECK.json",
+    "sha256": "6029fe67c529554f450c166c145fb5334d5a2571bd0313f54a6fbb25e061d5be"
+  },
+  "genuine_tool_relation": {
+    "exit_code": 0,
+    "initial_chunk": "7538a9",
+    "origin_premise": "Parent genuine tool history binds terminal poll to session; final saved object itself has no session field.",
+    "session": 12210,
+    "terminal_chunk": "0982f4"
+  },
+  "module_check": {
+    "bytes": 47631,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/SAVED_MODULE_FIELD_CHECK.json",
+    "sha256": "2d1fd8d04e5d17bb1b7337ed68b8053bed918d35d82c9a620f5a07749f1a514c"
+  },
+  "monitor": {
+    "arithmetic_tolerance_only": 1e-12,
+    "child_elapsed_seconds": 1.1177080419999998,
+    "count": 30,
+    "final_gap_seconds": 3.4124999999995964e-05,
+    "maximum_recorded_gap_seconds": 0.038787374999999846,
+    "peak_rss_kib": 65952,
+    "pid_is_parent_not_authenticated_child": true,
+    "pid_owner": 34202,
+    "thresholds_unrelaxed": true,
+    "wrapper_elapsed_seconds": 1.2385645
+  },
+  "new_runtime_observation": false,
+  "next_current_preparation_prerequisite": "Reconcile unchanged RI135 BOOTSTRAP=/usr/bin/python3 real PRE/POST snapshot command route before actual capture; focused F01 snapshots are explicit doubles and do not qualify that route. Then separately admit current baseline capture, accepted normal then optimized profile, separately admitted65 guards.",
+  "next_step_admitted": false,
+  "remaining_premises": [
+    "Parent genuine tool history binds saved terminal result to session12210",
+    "Apple kernel/loader/cache and stable authenticated bootstrap supplier",
+    "No descendants; sampled owned child only, not parent/group quota",
+    "Associated source/cache descriptor identities are not loaded-code equivalence",
+    "Saved pid_owner is parent, not independently authenticated child identity"
+  ],
+  "repository_or_git_changes": false,
+  "ret_paused": true,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_subject_reexecution": false,
+  "root_adjudication_required": true,
+  "schema": "ri139-independent-actual-focused25-review-v1",
+  "scientific_decode": false,
+  "verdict": "ACCEPT_SINGLE_FOCUSED25_OUTCOME_UNDER_RETAINED_PREMISES"
+}

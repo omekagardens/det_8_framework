@@ -1,0 +1,35 @@
+{
+  "baseline_acceptance": null,
+  "bootstrap": {
+    "CONTROL_DOUBLE_NOT_RUNTIME": true
+  },
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_checks/ENVIRONMENT_DOUBLE",
+  "guard_admission": null,
+  "host": {
+    "system_version": {
+      "CONTROL": true
+    },
+    "uname": [
+      "CONTROL"
+    ]
+  },
+  "normal_acceptance": null,
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_checks/owned-output",
+  "phase": "capture",
+  "profiles_acceptance": null,
+  "schema": "ri135-FABRICATED_CONTROL_NOT_ADMISSION",
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 76036,
+      "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+    },
+    "prepare.py": {
+      "bytes": 44082,
+      "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18607,
+      "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+    }
+  }
+}

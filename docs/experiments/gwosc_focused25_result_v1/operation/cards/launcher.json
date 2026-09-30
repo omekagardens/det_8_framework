@@ -1,0 +1,82 @@
+{
+  "bootstrap_host_preflight": {
+    "bytes": 3073,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/preflight.json",
+    "sha256": "b35d395d6afa517230a491e628aecd639c0a975fa6e4e44907bd8df1bc463188"
+  },
+  "child_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/fault_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/controls.json",
+    "--output",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls"
+  ],
+  "controls_admission": {
+    "bytes": 1773,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/controls.json",
+    "sha256": "fa34890fc0072da102b7b967c84a79024859fa4130fc345e28c6d642a8dc8fc2"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/environment",
+  "external_premises": {
+    "apple_loader_and_cache_external": true,
+    "genuine_bootstrap_host_preflight_external": true,
+    "genuine_tool_completion_external": true,
+    "sampled_child_only_not_parent_or_group_quota": true,
+    "saved_parent_pid_not_authenticated_child_identity": true,
+    "stable_supplier_host_and_no_descendants": true
+  },
+  "launcher_adjudication": {
+    "bytes": 1355,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/adjudication.json",
+    "sha256": "040a7d3f07e85d80265af8e86fc435e711b5959161ae3c65de2706bf4c763c2f"
+  },
+  "launcher_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/launcher.json"
+  ],
+  "launcher_handoff": {
+    "bytes": 7035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/HANDOFF.json",
+    "sha256": "24e6815b31bd47b543211f4f51156d1c0c67d96dac88db65db48f85d3be898d0"
+  },
+  "launcher_review": {
+    "bytes": 4113,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/review.json",
+    "sha256": "83103b433a7caa1763c2bea9a2565bede26b35a60da1383d8674b661ae37b613"
+  },
+  "limits": {
+    "child_rss_kib": 524288,
+    "child_seconds": 180,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "maximum_sample_gap_seconds": 0.1,
+    "namespace_bytes": 536870912,
+    "namespace_entries": 25000,
+    "parent_soft_seconds": 900,
+    "poll_seconds": 0.025,
+    "ps_timeout_seconds": 0.05,
+    "stream_bytes": 67108864
+  },
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output",
+  "schema": "ri139-root-focused-launcher-admission-v1",
+  "status": "AUTHORIZE_ONLY_RI135_FOCUSED25"
+}

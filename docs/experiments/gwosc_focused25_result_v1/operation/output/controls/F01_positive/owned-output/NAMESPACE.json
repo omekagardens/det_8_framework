@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "bytes": 1261,
+      "kind": "file",
+      "relative": "ATTEMPT.json",
+      "sha256": "33f3a7da9237e4efb8ec772c33bcc477fa2c2f149c43f32beedeb5192b7faa84"
+    },
+    {
+      "bytes": 74,
+      "kind": "file",
+      "relative": "CHECKS.json",
+      "sha256": "34a17c536f0c20348911d6438f09c96e53e0d60d212f4ba431d8dc8c7bd62e28"
+    },
+    {
+      "bytes": 51,
+      "kind": "file",
+      "relative": "POST.COMPLETION.json",
+      "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+    },
+    {
+      "bytes": 254,
+      "kind": "file",
+      "relative": "POST.stdout",
+      "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+    },
+    {
+      "bytes": 51,
+      "kind": "file",
+      "relative": "PRE.COMPLETION.json",
+      "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+    },
+    {
+      "bytes": 254,
+      "kind": "file",
+      "relative": "PRE.stdout",
+      "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+    }
+  ],
+  "excluded_not_yet_written": [
+    "NAMESPACE.json",
+    "COMPLETE.json"
+  ],
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_positive/owned-output",
+  "schema": "ri133-retained-namespace-v1"
+}
