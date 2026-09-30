@@ -1,0 +1,32 @@
+{
+  "RET_remains_paused": true,
+  "independent_review": {
+    "bytes": 6429,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/HANDOFF.json",
+    "sha256": "bbd180974649391bb6b94498b2697a1ece0a3d65837a0c171701b6a2ff1e1a42"
+  },
+  "item": "RI-158",
+  "native_lane": "RI157 remains independently reviewed in its separate reservation.",
+  "owner": "/root/ri116_complete_caller_review",
+  "predecessor_adjudication": {
+    "bytes": 4544,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/RI156_ROOT_ADJUDICATION.json",
+    "sha256": "b83be131484c2c530072d39a4b1d868ea6a866b8d77547ea6c3c2d6ced550768"
+  },
+  "requirements": [
+    "Bind adapter/module/manifest preownership source observations to authenticated pins; preserve full stable baseline through final tails and safe ownership/error boundaries.",
+    "Reconcile final owned output bytes to captured ordinary/action-specific pins or complete values and final mode root to verified expected post observation. Cover ATTEMPT/RESULT, all five sidecars, MODE_REVIEW and existing whole inert-tree relation.",
+    "Preserve first error, all independent eligible tails, partial namespaces when expected outputs do not exist, exclusive no-retry/no-cleanup semantics and self-excluding COMPLETE with external final custody.",
+    "Add meaningful integrated unchanged/late-drift/first-error controls that reach these exact comparisons; preserve all existing55 and whole retained modules, graph, bounds and genuine-origin prerequisites. Do not claim direct-tail tests cover adapter integration.",
+    "Fresh external source only. Do not modify predecessor/review or repository/Git, spawn agents, decode science, import/compile/AST/probe/run source/controls, observe/create active environment/runtime/cards/freezes/admissions. Bounded administrative hashing/text verification is permitted.",
+    "Seal complete changed source, dependencies, inventories, exact evidence/diagnostics and limitations for fresh independent review before any qualification."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6",
+  "schema": "ri158-white-custody-repair-assignment-v1",
+  "subject": {
+    "bytes": 11804,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm/HANDOFF.json",
+    "sha256": "4414cf5440061b1a2bf143b74a81315e31bb9213da46e76d508c4106d757d4c3"
+  },
+  "task": "Repair the two adjudicated RI156 custody integration gaps with focused inert controls and exact revised source/control/contract pins."
+}

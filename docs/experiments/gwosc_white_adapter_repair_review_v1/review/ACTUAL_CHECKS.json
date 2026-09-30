@@ -1,0 +1,168 @@
+{
+  "author_diagnostics_record": {
+    "bytes": 2437,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm/ADMIN_TOOL_RECORDS.json",
+    "sha256": "18a6537d94a2d0bbb97ca75c18ccb558e8b5fe704f0dea4b5a69256d7bde8cb0"
+  },
+  "failed_reads": [
+    {
+      "command": "ls -1 /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15 && sed -n '1,140p' /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/INTERFACE_INVENTORY.source-only.json",
+      "correction": "Read the complete observed INTERFACE_FIELDS.source-only.json; no subject or sealed file changed.",
+      "correction_exit_code": 0,
+      "correction_tool": "777551",
+      "diagnostic": "sed: /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/INTERFACE_INVENTORY.source-only.json: No such file or directory\n",
+      "exit_code": 1,
+      "tool_chunk": "7f5647"
+    }
+  ],
+  "final_seal_tool_completion": "Reported externally to root after seal; not self-authenticated by this record.",
+  "metadata_runs": [
+    {
+      "checker": {
+        "bytes": 11370,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/check_metadata.py",
+        "sha256": "d79ff7dc918b1f4a1aec460e540218e2717a396c57faae92a45c9942d0d09b42"
+      },
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK.stderr",
+      "exit_code": 0,
+      "report": {
+        "bytes": 1013454,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/METADATA_CHECK.json",
+        "sha256": "d7711dc205c5a0ca57cc0c16ced34d586cd7ca645ed2754224fc6af6bbed7c93"
+      },
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 362,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK.stdout",
+        "sha256": "03129659ce0f93c1a084d8a6c77e9f453104bef36f7652b0e1709927771b4deb"
+      },
+      "superseded_reason": "One redundant always-true placeholder was counted in addition to the real graph pin checks. Original source and all outputs remain retained; no target code was invoked.",
+      "tool_chunk": "8caa20"
+    },
+    {
+      "checker": {
+        "bytes": 11250,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/check_metadata_v2.py",
+        "sha256": "ef9eb610f31a49b596075a1707e021766d6b5da7d520662e5d1fc74737fcc767"
+      },
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/check_metadata_v2.py > /Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK_V2.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK_V2.stderr",
+      "exit_code": 0,
+      "report": {
+        "bytes": 1013367,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/METADATA_CHECK_V2.json",
+        "sha256": "ed73966fe2152c3a8ff8ad993955056a71d81a768333297f039eb66af363d0a7"
+      },
+      "revision": "Only removes the inert placeholder and selects its distinct output file. Exact full-text revision independently checked here.",
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK_V2.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 362,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK_V2.stdout",
+        "sha256": "ade6fe97e12f8bbd370afae68e00fc353027073f4bb4737b93c7cf66adf333fd"
+      },
+      "tool_chunk": "dd4ebc"
+    }
+  ],
+  "read_operations": [
+    {
+      "exit_code": 0,
+      "scope": "Complete assignment/handoff and empty exclusive reservation",
+      "tool_chunk": "3cd482"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete protocol, control contract, authoring record and all source line counts",
+      "tool_chunk": "ce1b8b"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete custody_io.py, monitor_checks.py, adapter.py",
+      "tool_chunk": "18b5d4"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete bindings.py",
+      "tool_chunk": "b59854"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete mode_verify.py",
+      "tool_chunk": "967ff4"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete retained_control.py and retained_supervisor.py",
+      "tool_chunk": "988148"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete retained_contract.py",
+      "tool_chunk": "382947"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete retained_stage.py",
+      "tool_chunk": "98af75"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Retained_guards.py lines 1\u2013260",
+      "tool_chunk": "1ae17a"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Retained_guards.py lines 261\u2013480 and inert_controls.py lines 1\u2013165",
+      "tool_chunk": "e49981"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Inert_controls.py lines 166\u2013298; complete final retained correspondence, author tool records and control inventory",
+      "tool_chunk": "63e15f"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete author administrative checker, README, publication subset, final pin record and earlier correspondence",
+      "tool_chunk": "f300da"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Administrative declaration schemas, graph schema/mappings and complete RI154 root adjudication",
+      "tool_chunk": "41557b"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete correct RI154 interface field inventory",
+      "tool_chunk": "777551"
+    },
+    {
+      "exit_code": 0,
+      "scope": "V2 check output, RI141 route/source lookup and complete original RI130 monitor.py",
+      "tool_chunk": "f3c991"
+    },
+    {
+      "exit_code": 0,
+      "scope": "RI141 complete authenticate/child_run and production environment/stage order excerpts",
+      "tool_chunk": "22935f"
+    }
+  ],
+  "schema": "ri156-independent-actual-tools-v1",
+  "scope": {
+    "RET_resumed": false,
+    "additional_agents": false,
+    "freeze_or_admission_created": false,
+    "proposed_E_observed_or_created": false,
+    "repository_or_Git_write": false,
+    "runtime_or_operational_card_observation": false,
+    "scientific_body_decoded": false,
+    "subject_or_control_import_compile_AST_probe_run": false
+  },
+  "source_reading_not_execution": true,
+  "subject_controls_executed": 0
+}
