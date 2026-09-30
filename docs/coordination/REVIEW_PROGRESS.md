@@ -23,9 +23,12 @@ correlations. Any conditional rejection needs its actual-law premises proved;
 more q-floor algebra alone cannot settle the capacity prerequisite.
 
 RI-154's exact WHITE relocation and complete external custody preparation are
-published in independently verified `d5ffc02`. RI-156 remains actively authored
-in `ri156-white-external-adapter-source-1plzn4nm/` under
+published in independently verified `d5ffc02`. RI-156 is now sealed in
+`ri156-white-external-adapter-source-1plzn4nm/` under
 `docs/experiments/gwosc_white_mode_preparation_v1/root/MEASUREMENT_SUCCESSOR_ASSIGNMENT.json`.
+Fresh independent review is assigned in `ri156-independent-adapter-review-dko2kzl_/`;
+55 controls are defined and zero executed. The exact review assignment is
+`/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/MEASUREMENT_REVIEW_ASSIGNMENT.json`.
 Source review and qualification precede genuine scientific operation. All
 thresholds, 15 WHITE cases, both 179-control sets, 57 artifacts, 74 postchecks,
 three trees and independent saved reconstruction remain. Full32/periodic/mean/join
@@ -12139,3 +12142,19 @@ predecessor; RI-156 measurement implementation continues separately. Scoped
 exact-copy, staged/committed-blob, unrelated-identity and commit/push/remote
 receipts are retained externally. Parent d5ffc02 is independently verified on
 origin/ret. RET remains paused and the programme is not complete.
+
+
+**RI-155 publication and successor handoff — 30 September 2026 UTC.**
+Commit `114d05d3247e3175703d467cd24609fb16f59386` is pushed and independently
+verified on origin/ret. All 34 scoped files and 27 exact copies passed staged
+and committed checks; 3,843 unrelated file identities remained unchanged.
+External remote receipt is in `ri155-root-capacity-review-0f1typdz/`.
+RI-156 subsequently sealed 26 files (25 payloads); root authenticated the
+whole handoff and assigned fresh independent source/control review. The subject
+handoff SHA256 is `4414cf5440061b1a2bf143b74a81315e31bb9213da46e76d508c4106d757d4c3`.
+No source acceptance, control execution or scientific admission is claimed.
+RI-157 may use RI-41's explicitly accepted full-complement minimum. A proposed
+1/1000 coefficient grid remains unproved: discovery rounding is not a certified
+final-witness grid theorem. Any grid-based rejection remains conditional pending
+its own complete witness audit. The external RI157_GRID_PREMISE_CLARIFICATION.json
+records that scope; no scientific body decode or new execution is assigned.

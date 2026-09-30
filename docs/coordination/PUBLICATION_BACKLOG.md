@@ -23,9 +23,12 @@ correlations. Any conditional rejection needs its actual-law premises proved;
 more q-floor algebra alone cannot settle the capacity prerequisite.
 
 RI-154's exact WHITE relocation and complete external custody preparation are
-published in independently verified `d5ffc02`. RI-156 remains actively authored
-in `ri156-white-external-adapter-source-1plzn4nm/` under
+published in independently verified `d5ffc02`. RI-156 is now sealed in
+`ri156-white-external-adapter-source-1plzn4nm/` under
 `docs/experiments/gwosc_white_mode_preparation_v1/root/MEASUREMENT_SUCCESSOR_ASSIGNMENT.json`.
+Fresh independent review is assigned in `ri156-independent-adapter-review-dko2kzl_/`;
+55 controls are defined and zero executed. The exact review assignment is
+`/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/MEASUREMENT_REVIEW_ASSIGNMENT.json`.
 Source review and qualification precede genuine scientific operation. All
 thresholds, 15 WHITE cases, both 179-control sets, 57 artifacts, 74 postchecks,
 three trees and independent saved reconstruction remain. Full32/periodic/mean/join
@@ -134,7 +137,7 @@ with unrelated changes to make an import succeed.
 | RI-153 fixed-prefix weighted margin | Exact prefix identities, endpoint theorem and conditional joint-budget reduction independently/root accepted. | RI-155 actual strict-capacity proof; actual budget success remains open. |
 | RI-154 WHITE qualification preparation | Exact relocation and complete outer-custody requirements independently/root accepted; R01–R04 retained. | RI-156 concrete adapter and complete verifier source; no scientific admission. |
 | RI-155 strict-capacity proof | Actual YE<1/25 and exact strict reduction independently/root accepted; remaining actual contrast open. | RI-157 correlated quantitative comparison; preserve finite-law premises and all remaining obligations. |
-| RI-156 WHITE external adapter and full verifier | Assigned concrete source implementation after RI-154 adjudication. | Implement exact source/card observations, acyclic bindings, full saved-mode predicates and targeted inert controls; independently review before qualification/use. |
+| RI-156 WHITE external adapter and full verifier | Source sealed after RI-154 adjudication; fresh independent review assigned. | Review all eleven modules, 55 unexecuted controls and complete source/custody requirements before qualification/use. |
 | RI-157 correlated capacity comparison | Assigned to QR after RI-155 adjudication. | Prove decisive native-law bounds on v/lambda and actual canonical cap, or a new quantitative relation with its precise remaining premise. No scientific execution. |
 | RI-115 native rank execution caller | Exact six-zero-minor result and independent reviews preserved in f6d486e; its local rank conclusion remains valid. | RI-122 separately rejects the complete fixed 28-child extension through the connected subsystem; keep these logically distinct results. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |

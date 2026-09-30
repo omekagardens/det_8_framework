@@ -23,9 +23,12 @@ correlations. Any conditional rejection needs its actual-law premises proved;
 more q-floor algebra alone cannot settle the capacity prerequisite.
 
 RI-154's exact WHITE relocation and complete external custody preparation are
-published in independently verified `d5ffc02`. RI-156 remains actively authored
-in `ri156-white-external-adapter-source-1plzn4nm/` under
+published in independently verified `d5ffc02`. RI-156 is now sealed in
+`ri156-white-external-adapter-source-1plzn4nm/` under
 `docs/experiments/gwosc_white_mode_preparation_v1/root/MEASUREMENT_SUCCESSOR_ASSIGNMENT.json`.
+Fresh independent review is assigned in `ri156-independent-adapter-review-dko2kzl_/`;
+55 controls are defined and zero executed. The exact review assignment is
+`/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/MEASUREMENT_REVIEW_ASSIGNMENT.json`.
 Source review and qualification precede genuine scientific operation. All
 thresholds, 15 WHITE cases, both 179-control sets, 57 artifacts, 74 postchecks,
 three trees and independent saved reconstruction remain. Full32/periodic/mean/join
