@@ -1,0 +1,79 @@
+{
+  "exact_sealed_copies": 12,
+  "parent": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+  "payload": [
+    {
+      "bytes": 19903,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "352a599c89d65f0f5273bc25aa77287f0e8b1926f9f0862e42c21d352d64e03a"
+    },
+    {
+      "bytes": 2308,
+      "path": "README.md",
+      "sha256": "103600de0b5905b8d29f2416f1b8330b5445c922f93f3e221a2992abe2d2269b"
+    },
+    {
+      "bytes": 2639,
+      "path": "review/COORDINATION_RECOVERY.json",
+      "sha256": "c787e04da3761a82dc16fb7b4c0b166fd36aca5195e904709ebbe7f96c610239"
+    },
+    {
+      "bytes": 9814,
+      "path": "review/RI131_INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "29d4a3cc1360ef5df41a43534b4ee13b23085f650fda7f8ea42d13d5dc0c904e"
+    },
+    {
+      "bytes": 18942,
+      "path": "review/RI131_METADATA_REVIEW.json",
+      "sha256": "d6e892509062ea83a8afee15385ac2816557cf890e8ac7a9bbe76fa203feecd0"
+    },
+    {
+      "bytes": 3102,
+      "path": "review/RI131_ROOT_ADJUDICATION.json",
+      "sha256": "303033c31dd24f419079f34a4db330df436124c29a13383c429f683a3a483781"
+    },
+    {
+      "bytes": 53147,
+      "path": "source/CONTROL_INVENTORY.json",
+      "sha256": "93cf8aa75f08d55d15c082f487016e1adf2b3a0425b8adf7746a6bf3745181a9"
+    },
+    {
+      "bytes": 6365,
+      "path": "source/DEPENDENCY_PINS.json",
+      "sha256": "6a1b463a1ba239f045076799c2ce9adf55d8cc9b498426cb9677df053ece5323"
+    },
+    {
+      "bytes": 24081,
+      "path": "source/GUARD_CONTRACT.md",
+      "sha256": "95452ab06359927f9664a150ffcd61d4133ee0c397440c468c7e81468800b018"
+    },
+    {
+      "bytes": 7104,
+      "path": "source/HANDOFF.json",
+      "sha256": "11abcc3655cbcd6872c61b0afb77d8101d213550787727c353d35b20f93a2c62"
+    },
+    {
+      "bytes": 9004,
+      "path": "source/PREPARATION_RECORD.md",
+      "sha256": "8f68f0e91e44d8e47197ada97dca524338db66cf4fc1c4b57e5d449bf1426108"
+    },
+    {
+      "bytes": 4624,
+      "path": "source/RESUME_DELTA.patch",
+      "sha256": "82e756a3eb5ed2c934a744c71c21bae199a0a67f5a6e317ec4bc37280ac9dcad"
+    },
+    {
+      "bytes": 10379,
+      "path": "source/SOURCE_METADATA_CHECK.json",
+      "sha256": "9b450ae51932e09f0d2f869880ebc5503cf88cd3bbf9367e71be58f171f0b4d1"
+    },
+    {
+      "bytes": 42915,
+      "path": "source/validation_guard_controls.py",
+      "sha256": "b05ca631e325474ffbd399fe6c2f6968481c96b1a7f75c30b636a20dc15277ed"
+    }
+  ],
+  "schema": "ri131-publication-manifest-v1",
+  "scientific_execution": false,
+  "source_only": true
+}

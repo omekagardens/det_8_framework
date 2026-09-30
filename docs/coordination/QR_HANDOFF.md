@@ -1,54 +1,52 @@
-# Current QR coordination — RI-129 native sign caller preparation
+# Current QR coordination — RI-129 native sign caller independent review
 
-**Current checkpoint — 27 September 2026 UTC.** RI-128 is independently
-accepted for an analytic bound on the unchanged actual scales: `M6,M7>=1`,
-hence `0<rho<=min(R,1/4)` and `0<s<=1/4`. Full smaller-parent normalization
-proves the containment without computing either scale. The exact cleared
-polynomials and sufficient endpoint sign tests, checker and separate saved
-reconstruction are accepted as bounded, unexecuted sources. Their complete
-proof/source review and root decision are preserved in
-`docs/track_b/native_growth_connected_sign_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** The completed RI-128
+actual-scale bound and integrated WHITE sources were pushed and independently
+verified at `35e5f6076f6967c2d9f47daa4d462e3115721c9e` on `origin/ret`.
+Preparation was then interrupted by a usage limit. The three saved external
+reservations have now resumed; the intervening gap is not completed review or
+execution work.
 
-Actual `C2/C3` signs remain unknown. RI-127's complete connected cancellation
-and strict local reduction remain published in verified `a00e460`; RI-124's
-conditional H30 theorem remains in verified `d65d1f6`. One shared T1 recovery,
-all other connected equations, all five Di equations and every strict bound
-remain binding. A local interval is not full H30 feasibility. The earlier fixed
-28-child obstruction and its pinned evidence are unchanged.
+RI-131's additional validator guard packet now passes complete root nonauthor
+source review and is accepted as **unexecuted finite source**. The exact source,
+contract, literal inventory, review and decision are preserved in
+`docs/experiments/gwosc_white_validation_guards_v1/`. Its 202 declared controls
+comprise 62 unchanged-entry early refusals and 140 direct boundary controls.
+Four actual whole-entry obligations remain blocked on authentic primary/history
+custody and separate caller/fault/load/runtime review. No control has run.
+The next action is caller applicability/design after RI-130 is sealed and
+independently reviewed; RI-130 applicability does not automatically cover RI-131.
 
-QR is now assigned RI-129, the concrete source-only native caller/witness/replay/
-auditor adaptation, in acknowledged external `ri129-native-sign-caller-source-8TksBLo0/`.
-It preserves all five input roles, fourteen certificate sections, changed-target
-qualification and original 120-second/512-MiB bounds. Fresh nonauthor caller
-review, qualification and separate numerical admission precede any sign result.
+QR completed and sealed RI-129 in `ri129-native-sign-caller-source-8TksBLo0/`.
+Root read the new pre-Attempt prerequisite chain and retained in-attempt checks;
+that bounded read is not complete caller acceptance. A fresh complete nonauthor
+review is active in `ri129-native-caller-independent-review-Z0SqaY10/`.
+No duplicate native assignment or sign execution is dispatched. The active native
+question remains actual `C2/C3` signs and simultaneous H30 feasibility; its next
+execution is blocked on caller review, changed-target/runtime qualification and
+separate root admission. A successor is selected after predecessor adjudication.
 
-The RI-125 independent WHITE validator and W01-W15 qualifier both pass complete
-component nonauthor review and root integration adjudication. Their exact
-sources/reviews are preserved in
-`docs/experiments/gwosc_joint_window_white_qualification_source_v1/`.
-The accepted primary source and historical F01-F04 findings remain in verified
-`c48fda40525178933609b329e14c92c4d1406132`. All 15 cases, W09 assembly,
-both 179-control envelopes and fresh full saved reconstruction remain required;
-none has been run for this source acceptance. Each reviewer authored the
-counterpart; this disclosed component nonauthor review is not self-review.
+RI-128 proves `M6,M7>=1` and hence `0<rho<=min(R,1/4)`, `0<s<=1/4` without
+computing the actual scales. Its sign checker/reconstruction remain unexecuted.
+RI-127 complete connected cancellation, the shared T1 and remaining connected/Di
+equations, strict bounds, fixed seed/epsilon and prior fixed 28-child obstruction
+are preserved. A local sign result would not establish full H30 feasibility.
 
-RI-130 prepares the fabricated WHITE caller in acknowledged external
-`ri130-white-qualification-caller-source-Q4Aq7hZg/`. RI-131 prepares the additional
-actual-validator binding/candidate/postwrite guards in
-`ri131-white-validation-guards-source-dsbzg94o/`. Direct finite boundary controls
-and genuine whole-entry coverage must be distinguished. Full 32/periodic/mean/
-join completion, resource feasibility, changed caller qualification and separate
-actual admission remain open. Scientific equality is exact; any mode-specific
-custody relation must be complete and independently reviewed.
+RI-130 continues source-only fabricated WHITE caller preparation in the original
+`ri130-white-qualification-caller-source-Q4Aq7hZg/` reservation. The accepted
+primary/validator/qualifier sources stay immutable. All 15 cases, W09 assembly,
+both 179-control envelopes, complete saved reconstruction and exact scientific
+equality remain required. Mode-specific custody needs a closed reviewed relation.
+Full32/periodic/mean/join, genuine normal/optimized qualification, resource
+feasibility and separate actual primary/validator admissions remain open.
 
-All worker reservations are external under
-`/Volumes/AI_DATA/development/det-review-evidence/`; root owns repository/index/Git,
-publication, adjudication and numerical admissions. The source archive and its
-relative dependency maps do not establish complete runtime custody. No scientific
-body was decoded or target/fixture executed in this checkpoint. Protected
-validation, freeze/custody, calibration, covariance and mean adequacy, a native
-forward map and physical gravity claims remain separate obligations. The
-programme continues; RET alone stays paused.
+All reservations are under `/Volumes/AI_DATA/development/det-review-evidence/`.
+Root owns repository/index/Git, publication, adjudication and numerical admissions.
+Only text and opaque metadata checks occurred in this checkpoint. No scientific
+body decode, target/fixture execution, active runtime inventory or admission
+occurred. Calibration, physical covariance/mean/model-error adequacy, protected
+validation, release and a native forward map remain separate. The programme
+continues; RET alone stays paused.
 
 RI-129 follows the completed RI-128 root adjudication, not an unreviewed author
 handoff. Its exact assignment is source-only: preserve the immutable producer
@@ -3283,3 +3281,43 @@ validator and white-only generator/orchestrator assignments are both active;
 full application qualification and scientific/physical acceptance remain open.
 All sealed predecessors, original independent review and unrelated edits remain
 preserved. Native proof and measurement work continue; RET alone remains paused.
+
+**30 September: recovery, RI-131 independent guard-source acceptance, native caller review.**
+
+The usage-limit interruption left three partial source reservations; work resumed
+in those same directories. No missing time is represented as successful work.
+Root recovery evidence is `ri129-recovery-review-53wfd40p/` under the external
+evidence directory. The preceding `35e5f6076f6967c2d9f47daa4d462e3115721c9e`
+push is independently verified by its retained remote receipt; this checkpoint's
+commit and remote receipt will be recorded externally after publication.
+
+Root independently read the complete RI-131 module/contract/inventory, final
+strict-refusal delta and corresponding unchanged validator boundaries. All 202
+ordered literal declarations and four blocked obligations match; all eight
+sealed author files and 22 dependency occurrences match exact bytes, including
+already committed copies at the fixed parent. The exact decision is 3102 bytes,
+SHA256 `303033c31dd24f419079f34a4db330df436124c29a13383c429f683a3a483781`.
+Review, metadata checks and source-only acceptance are archived with the source.
+One metadata check was corrected to recognize EV13's literal-prefix/role message
+construction; no target changed or ran. The 62 early-entry checks require empty
+read sets; the other 140 are explicitly direct boundaries, not actual full-field
+reconstruction or genuine whole-entry fault qualification. Prospective 9-source,
+405-artifact and 202-tree final checks remain execution requirements.
+
+RI-129's exact 13-file packet is sealed. Its handoff is 10184 bytes, SHA256
+`b3839ba2f81e791321e2549107ce5f1b84ffdbbcc635396ab4e72002386feac0`.
+The new complete prerequisite checks precede Attempt allocation and retain the
+in-attempt checks. Root's bounded read identifies no blocker in that chain but
+does not accept the whole caller. A disclosed nonauthor now reviews its complete
+source, retained-engine applicability, qualification obligations and dependencies
+in `ri129-native-caller-independent-review-Z0SqaY10/`. No automatic-successor
+wording is used as a permission gate; predecessor review is the current real
+dependency. Actual C2/C3 and full H30 feasibility remain unresolved.
+
+RI-130 continues its existing unexecuted caller source assignment. RI-131's next
+caller applicability/design depends on RI-130 source seal and independent review;
+genuine normal qualification, independent saved/custody acceptance and separately
+admitted optimized qualification follow. All four deeper actual-entry obligations,
+full32/periodic/mean/join and scientific/physical admission gates remain. No active
+runtime inventory, fixture, scientific body decode or target run occurred. RET
+alone remains paused. Unrelated edits and all pinned historical bytes remain.

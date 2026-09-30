@@ -1,0 +1,60 @@
+{
+  "accepted_scope": {
+    "declared_controls": 202,
+    "direct_boundary_controls": 140,
+    "prospective_artifact_postchecks": 405,
+    "prospective_case_tree_postchecks": 202,
+    "source_roles": 9,
+    "unchanged_entry_early_refusals": 62
+  },
+  "blocked_end_to_end": [
+    {
+      "id": "E2E01",
+      "reason": "Full validate_saved_white traversal through fixed actual RI73 result and complete capture requires genuine prior primary execution, original historical custody and separate root admission."
+    },
+    {
+      "id": "E2E02",
+      "reason": "Mutated full actual candidate at the primary request output cannot be substituted into immutable accepted evidence or justified by a fabricated admission. Direct comparator controls are not this coverage."
+    },
+    {
+      "id": "E2E03",
+      "reason": "Whole-entry output-write interruption and source/runtime mutation during a genuine actual numerical reconstruction require a separately reviewed caller/fault boundary and authentic inputs. Direct writer/read-set controls are not this coverage."
+    },
+    {
+      "id": "E2E04",
+      "reason": "Capture-load-source identity, runtime closure, watchdog, genuine process completion and normal-before-optimized qualification belong to a separate reviewed root caller; this module launches nothing."
+    }
+  ],
+  "date_utc": "2026-09-30",
+  "execution_admitted": false,
+  "handoff": {
+    "bytes": 7104,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/HANDOFF.json",
+    "sha256": "11abcc3655cbcd6872c61b0afb77d8101d213550787727c353d35b20f93a2c62"
+  },
+  "independent_metadata_review": {
+    "bytes": 18942,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-recovery-review-53wfd40p/RI131_METADATA_REVIEW.json",
+    "sha256": "d6e892509062ea83a8afee15385ac2816557cf890e8ac7a9bbe76fa203feecd0"
+  },
+  "independent_source_review": {
+    "bytes": 9814,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-recovery-review-53wfd40p/RI131_INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "29d4a3cc1360ef5df41a43534b4ee13b23085f650fda7f8ea42d13d5dc0c904e"
+  },
+  "physical_claim": false,
+  "programme_complete": false,
+  "qualification_claimed": false,
+  "remaining": [
+    "Separate caller applicability and complete load/runtime/history/monitor/custody review; no reuse admission implied by RI130.",
+    "Genuine complete normal guard execution, independent saved/custody review and root acceptance before separately admitted optimized qualification.",
+    "Actual primary custody and separately reviewed whole-entry obligations remain prerequisites for actual validator admission.",
+    "RI130 WHITE15, full32/periodic/mean/join, physical covariance/mean/model-error/calibration and native forward-map obligations remain separate."
+  ],
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "reviewer": "root coordinator, not RI131 author",
+  "schema": "ri131-root-source-adjudication-v1",
+  "scientific_result_claimed": false,
+  "status": "ACCEPT_UNEXECUTED_FINITE_GUARD_SOURCE_ONLY"
+}

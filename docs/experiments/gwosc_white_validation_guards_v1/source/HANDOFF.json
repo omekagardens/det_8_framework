@@ -1,0 +1,141 @@
+{
+  "actual_preparation_checks": {
+    "actual_runtime_inventory_or_admission": false,
+    "actual_scientific_body_decode_or_copy": false,
+    "guard_import_compile_ast_probe": false,
+    "guard_source_or_fixture_execution": false,
+    "literal_source_inventory_metadata_check_tool_chunk": "60b0ea",
+    "opaque_immutable_predecessor_records_verified": 16,
+    "repository_write_or_git_index_activity": false,
+    "source_lines": 656
+  },
+  "actual_validation_admitted": false,
+  "all_actual_guard_coverage_complete": false,
+  "authorship": {
+    "fresh_nonauthor_review_required": true,
+    "independent_validator_author": false,
+    "primary_white_and_qualifier_author": true,
+    "prior_nonauthor_validator_reviewer": true,
+    "self_authored_nonauthor_review": false
+  },
+  "blocked_end_to_end": [
+    {
+      "id": "E2E01",
+      "reason": "Full validate_saved_white traversal through fixed actual RI73 result and complete capture requires genuine prior primary execution, original historical custody and separate root admission."
+    },
+    {
+      "id": "E2E02",
+      "reason": "Mutated full actual candidate at the primary request output cannot be substituted into immutable accepted evidence or justified by a fabricated admission. Direct comparator controls are not this coverage."
+    },
+    {
+      "id": "E2E03",
+      "reason": "Whole-entry output-write interruption and source/runtime mutation during a genuine actual numerical reconstruction require a separately reviewed caller/fault boundary and authentic inputs. Direct writer/read-set controls are not this coverage."
+    },
+    {
+      "id": "E2E04",
+      "reason": "Capture-load-source identity, runtime closure, watchdog, genuine process completion and normal-before-optimized qualification belong to a separate reviewed root caller; this module launches nothing."
+    }
+  ],
+  "completed_source": [
+    "Exact unchanged-entry metadata refusal controls with pre-registration stop assertions and complete retained inputs/diagnostics.",
+    "Exact direct candidate/parser/canonical/typed-field/writer/read-set/failure-tail boundaries, with no target patching or fabricated historical-body traversal.",
+    "Literal ordered202-control inventory, complete first-code/message/path expectations and exact per-role tail oracles.",
+    "Closed source/call/report/artifact/namespace/custody contract, with required external capture/load/runtime/monitor and genuine mode-specific qualification."
+  ],
+  "declared_controls": {
+    "CB": 13,
+    "CF": 73,
+    "EB": 38,
+    "EV": 24,
+    "OW": 4,
+    "TB": 25,
+    "TF": 25,
+    "direct_boundaries": 140,
+    "executed": 0,
+    "total": 202,
+    "whole_entry_early_refusals": 62
+  },
+  "files": [
+    {
+      "bytes": 42915,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/validation_guard_controls.py",
+      "sha256": "b05ca631e325474ffbd399fe6c2f6968481c96b1a7f75c30b636a20dc15277ed"
+    },
+    {
+      "bytes": 24081,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/GUARD_CONTRACT.md",
+      "sha256": "95452ab06359927f9664a150ffcd61d4133ee0c397440c468c7e81468800b018"
+    },
+    {
+      "bytes": 53147,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/CONTROL_INVENTORY.json",
+      "sha256": "93cf8aa75f08d55d15c082f487016e1adf2b3a0425b8adf7746a6bf3745181a9"
+    },
+    {
+      "bytes": 6365,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/DEPENDENCY_PINS.json",
+      "sha256": "6a1b463a1ba239f045076799c2ce9adf55d8cc9b498426cb9677df053ece5323"
+    },
+    {
+      "bytes": 9004,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/PREPARATION_RECORD.md",
+      "sha256": "8f68f0e91e44d8e47197ada97dca524338db66cf4fc1c4b57e5d449bf1426108"
+    },
+    {
+      "bytes": 4624,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/RESUME_DELTA.patch",
+      "sha256": "82e756a3eb5ed2c934a744c71c21bae199a0a67f5a6e317ec4bc37280ac9dcad"
+    },
+    {
+      "bytes": 10379,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/SOURCE_METADATA_CHECK.json",
+      "sha256": "9b450ae51932e09f0d2f869880ebc5503cf88cd3bbf9367e71be58f171f0b4d1"
+    }
+  ],
+  "full32_qualification_satisfied": false,
+  "immutable_after_handoff": true,
+  "physical_claim": false,
+  "post_interruption_changes": {
+    "complete_delta": {
+      "bytes": 4624,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/RESUME_DELTA.patch",
+      "sha256": "82e756a3eb5ed2c934a744c71c21bae199a0a67f5a6e317ec4bc37280ac9dcad"
+    },
+    "contract": "Matching exact-prefix normalization sentence only.",
+    "inventory": "Unchanged 53147-byte literal202-control inventory.",
+    "resumed_source_baseline": {
+      "bytes": 42789,
+      "sha256": "72c294f6eec18c138c7419d308c29f164c153a4d98d61dfc53305c3445961f65"
+    },
+    "source": "Only strict exact refusal prefix/completed message comparisons at entry/read-set/tail sites."
+  },
+  "programme_complete": false,
+  "qualification_claimed": false,
+  "remaining": [
+    "Complete fresh nonauthor source review and root adjudication; no source acceptance claimed.",
+    "Separate root-reviewed capture/load/source/runtime/monitor caller and specifically scoped fabricated guard admission; no reuse of RI130 caller applicability without review.",
+    "Actual normal complete202-case qualification and independent saved/custody review, root acceptance, then separate optimized admission with complete semantic comparison and genuine evidence.",
+    "Authentic actual primary completion/custody and separately reviewed resolution of all4 blocked actual-entry obligations before actual validation.",
+    "RI130 white15 qualification and periodic/mean/join/full32 application requirements remain separate; physical covariance/mean/model error/calibration/protected validation/release/native forward map remain open."
+  ],
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "root_source_only_assignment_premise": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI125_INTEGRATED_SOURCE_ADJUDICATION.json",
+    "pin": {
+      "bytes": 3908,
+      "sha256": "459885e5dc514ceb9e4c62d4810464e07d29515cf0e59744d9f12b1c1cfe6cda"
+    }
+  },
+  "schema": "ri131-validator-guards-source-handoff-v1",
+  "source_acceptance_claimed": false,
+  "status": "UNEXECUTED_RI131_VALIDATOR_GUARD_SOURCE_READY_FOR_NONAUTHOR_REVIEW",
+  "unchanged_validator": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+    "pin": {
+      "bytes": 56593,
+      "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+    }
+  },
+  "white15_qualification_satisfied": false
+}

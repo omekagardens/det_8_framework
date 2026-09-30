@@ -1,0 +1,2009 @@
+{
+  "blocked_end_to_end": [
+    {
+      "id": "E2E01",
+      "reason": "Full validate_saved_white traversal through fixed actual RI73 result and complete capture requires genuine prior primary execution, original historical custody and separate root admission."
+    },
+    {
+      "id": "E2E02",
+      "reason": "Mutated full actual candidate at the primary request output cannot be substituted into immutable accepted evidence or justified by a fabricated admission. Direct comparator controls are not this coverage."
+    },
+    {
+      "id": "E2E03",
+      "reason": "Whole-entry output-write interruption and source/runtime mutation during a genuine actual numerical reconstruction require a separately reviewed caller/fault boundary and authentic inputs. Direct writer/read-set controls are not this coverage."
+    },
+    {
+      "id": "E2E04",
+      "reason": "Capture-load-source identity, runtime closure, watchdog, genuine process completion and normal-before-optimized qualification belong to a separate reviewed root caller; this module launches nothing."
+    }
+  ],
+  "controls": [
+    {
+      "expected_code": "INPUT",
+      "expected_message": "externally frozen request bytes",
+      "id": "EV01",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SCHEMA",
+      "expected_message": "invalid bounded JSON",
+      "id": "EV02",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SCHEMA",
+      "expected_message": "duplicate JSON key",
+      "id": "EV03",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "positive bounded pin length",
+      "id": "EV04",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "externally frozen validation binding",
+      "id": "EV05",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SCHEMA",
+      "expected_message": "invalid bounded JSON",
+      "id": "EV06",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SCHEMA",
+      "expected_message": "duplicate JSON key",
+      "id": "EV07",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "closed object keys",
+      "id": "EV08",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "closed object keys",
+      "id": "EV09",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "PHASE",
+      "expected_message": "actual phase before body decoding",
+      "id": "EV10",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SOURCE",
+      "expected_message": "closed object keys",
+      "id": "EV11",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SOURCE",
+      "expected_message": "closed object keys",
+      "id": "EV12",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "fixed historical pin capture",
+      "id": "EV13",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SOURCE",
+      "expected_message": "closed object keys",
+      "id": "EV14",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "literal absolute nonsymlink path",
+      "id": "EV15",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SOURCE",
+      "expected_message": "loaded primary path",
+      "id": "EV16",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SOURCE",
+      "expected_message": "loaded kernel path",
+      "id": "EV17",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SOURCE",
+      "expected_message": "loaded validator path",
+      "id": "EV18",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SOURCE",
+      "expected_message": "loaded validator path",
+      "id": "EV19",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "BINDING",
+      "expected_message": "candidate is the primary exclusive output",
+      "id": "EV20",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "positive bounded pin length",
+      "id": "EV21",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "OUTPUT",
+      "expected_message": "exclusive absent output",
+      "id": "EV22",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "distinct validation input and output paths",
+      "id": "EV23",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "distinct required file paths",
+      "id": "EV24",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB01",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "schema"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB02",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "phase"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB03",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "status"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB04",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "primary_request",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB05",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "candidate",
+        "pin",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB06",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "design",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB07",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "contract",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB08",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "primary",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB09",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "white_kernel",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB10",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "validator",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB11",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "qualifier",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB12",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "cases",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB13",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "kernel_refusals",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB14",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "white_refusals",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB15",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "fabricated_interfaces",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB16",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "inputs",
+        "capture",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB17",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "inputs",
+        "ri73_result",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB18",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "inputs",
+        "ri73_source",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB19",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "inputs",
+        "ri73_reconciliation",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB20",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "inputs",
+        "ri73_final_review",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB21",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "inputs",
+        "ri73_audit_freeze",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB22",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "qualification",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB23",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "custody",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB24",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "runtime",
+        "fingerprint",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB25",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "runtime",
+        "inventory",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB26",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "runtime",
+        "interpreter",
+        "sha256"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB27",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "history_and_runtime_adjudicated_by_root"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB28",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "protected_validation"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB29",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "ret_paused"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB30",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "limits",
+        "seconds"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB31",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "limits",
+        "sampled_rss_kib"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB32",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "limits",
+        "poll_ms"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB33",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "limits",
+        "max_gap_ms"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB34",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "limits",
+        "ps_timeout_ms"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB35",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "sources",
+        "__extra__"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB36",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "runtime",
+        "__extra__"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB37",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "inputs",
+        "__extra__"
+      ]
+    },
+    {
+      "expected_code": "ADMISSION",
+      "expected_message": "exact independent root-bound validation card",
+      "id": "EB38",
+      "mechanism": "unchanged_entry_metadata_refusal",
+      "mutation_path": [
+        "qualification",
+        "bytes"
+      ]
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "whole body pin",
+      "id": "CB01",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "CUSTODY",
+      "expected_message": "path state changed",
+      "id": "CB02",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "literal absolute nonsymlink path",
+      "id": "CB03",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "regular single-link source or input",
+      "id": "CB04",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SCHEMA",
+      "expected_message": "duplicate JSON key",
+      "id": "CB05",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "EXACT",
+      "expected_message": "decimal or nonfinite JSON token",
+      "id": "CB06",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "EXACT",
+      "expected_message": "decimal or nonfinite JSON token",
+      "id": "CB07",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "SCHEMA",
+      "expected_message": "invalid bounded JSON",
+      "id": "CB08",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "CANONICAL",
+      "expected_message": "canonical actual candidate",
+      "id": "CB09",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "CANONICAL",
+      "expected_message": "canonical actual candidate",
+      "id": "CB10",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CB11",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CB12",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CB13",
+      "mechanism": "direct_candidate_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF01",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "schema"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF02",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "phase"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF03",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "status"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF04",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "model"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF05",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "dimensions",
+        "r"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF06",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "dimensions",
+        "N"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF07",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "dimensions",
+        "L"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF08",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "dimensions",
+        "T"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF09",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "dimensions",
+        "M"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF10",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "dimensions",
+        "d"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF11",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "dimensions",
+        "raw_samples"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF12",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "dimensions",
+        "fs"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF13",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "rows"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF14",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "n_order"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF15",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "crop"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF16",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "integer_bit_limit"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF17",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "precision_limit"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF18",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "method",
+        "centering"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF19",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "provenance",
+        "sources"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF20",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "provenance",
+        "inputs"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF21",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "provenance",
+        "acceptance",
+        "design"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF22",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "provenance",
+        "acceptance",
+        "qualification"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF23",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "provenance",
+        "acceptance",
+        "custody"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF24",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "provenance",
+        "acceptance",
+        "dependencies"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF25",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "provenance",
+        "runtime"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF26",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "capture"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF27",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "ri73_result"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF28",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "ri73_gram_detail"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF29",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "shape"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF30",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "row_identities",
+        0,
+        "row"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF31",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "row_identities",
+        0,
+        "source_row_pin"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF32",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "row_identities",
+        0,
+        "short_count"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF33",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "row_identities",
+        0,
+        "long_count"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF34",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "row_identities",
+        0,
+        "head_pin"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF35",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "row_identities",
+        0,
+        "tail_pin"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF36",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "row_identities",
+        0,
+        "a_row_sum_interval"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF37",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "row_identities",
+        0,
+        "contains_zero"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF38",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "gram",
+        "G"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF39",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "gram",
+        "H"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF40",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "gram",
+        "delta"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF41",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "gram",
+        "inverse"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF42",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "gram",
+        "gamma"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF43",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "gram",
+        "rho"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF44",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "inherited_gate_inventory"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF45",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "operator",
+        "inherited_gates_all_passed"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF46",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "shift",
+        "orientation"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF47",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "shift",
+        "center"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF48",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "shift",
+        "error"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF49",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "shift",
+        "direct"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF50",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "shift",
+        "midpoint_polarization"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF51",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "shift",
+        "trace_center"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF52",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "shift",
+        "trace_error"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF53",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "n"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF54",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "a"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF55",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "b"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF56",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "center"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF57",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "error"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF58",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "entry_intervals"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF59",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "trace_interval"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF60",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "trace_from_g_c"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF61",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "structural_trace_interval"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF62",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "delta"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF63",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "ell"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF64",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "eps"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF65",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "enclosure_state"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF66",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "white_responses",
+        0,
+        "usefulness_state"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF67",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "checks",
+        "inventory"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF68",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "checks",
+        "counts",
+        "total"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF69",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "checks",
+        "counts",
+        "passed"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF70",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "checks",
+        "counts",
+        "failed"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF71",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "checks",
+        "results",
+        0,
+        "id"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF72",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "checks",
+        "results",
+        0,
+        "passed"
+      ]
+    },
+    {
+      "expected_code": "COMPARISON",
+      "expected_message": "complete independently reconstructed white result",
+      "id": "CF73",
+      "mechanism": "direct_symbolic_full_field_comparator",
+      "mutation_path": [
+        "data",
+        "limitations"
+      ]
+    },
+    {
+      "expected_code": "OUTPUT",
+      "expected_message": "output absent before exclusive open",
+      "id": "OW01",
+      "mechanism": "direct_writer_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "INPUT",
+      "expected_message": "literal absolute nonsymlink path",
+      "id": "OW02",
+      "mechanism": "direct_writer_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "OW03",
+      "mechanism": "direct_writer_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": "RESOURCE",
+      "expected_message": "serialized byte ceiling",
+      "id": "OW04",
+      "mechanism": "direct_writer_boundary",
+      "mutation_path": null
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF01",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:capture"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF02",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_result"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF03",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_source"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF04",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_reconciliation"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF05",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_final_review"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF06",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_audit_freeze"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF07",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:design"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF08",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:contract"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF09",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:primary"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF10",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:white_kernel"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF11",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:validator"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF12",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:qualifier"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF13",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:cases"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF14",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:kernel_refusals"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF15",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:white_refusals"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF16",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:fabricated_interfaces"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF17",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "design_acceptance"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF18",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "qualification"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF19",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "custody"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF20",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "admission"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF21",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "runtime:fingerprint"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF22",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "runtime:inventory"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF23",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "runtime:interpreter"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF24",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "candidate"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TF25",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "independent_output"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB01",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:capture"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB02",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_result"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB03",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_source"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB04",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_reconciliation"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB05",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_final_review"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB06",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "input:ri73_audit_freeze"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB07",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:design"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB08",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:contract"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB09",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:primary"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB10",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:white_kernel"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB11",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:validator"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB12",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:qualifier"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB13",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:cases"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB14",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:kernel_refusals"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB15",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:white_refusals"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB16",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "source:fabricated_interfaces"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB17",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "design_acceptance"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB18",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "qualification"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB19",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "custody"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB20",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "admission"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB21",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "runtime:fingerprint"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB22",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "runtime:inventory"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB23",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "runtime:interpreter"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB24",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "candidate"
+      ]
+    },
+    {
+      "expected_code": null,
+      "expected_message": null,
+      "id": "TB25",
+      "mechanism": "direct_complete_readset_and_tail",
+      "mutation_path": [
+        "independent_output"
+      ]
+    }
+  ],
+  "phase": "source_specification_only",
+  "schema": "ri131-source-control-inventory-v1"
+}

@@ -1,0 +1,44 @@
+--- resumed-baseline/validation_guard_controls.py
++++ current/validation_guard_controls.py
+@@ -309,7 +309,9 @@
+         require(Path(binding['output']).read_bytes()==b'RI131_OWNED_OCCUPIED_OUTPUT\n','occupied output preserved')
+     else: require(not os.path.lexists(binding.get('output','')),'no actual output created')
+     for name in INPUT_NAMES: require(not os.path.lexists(base_request['inputs'][name]['path']),'no fabricated historical file created')
+-    return refusal['code'],refusal['message'].split(': ',2)[-1],result
++    prefix='Refusal: '+refusal['code']+': '
++    require(type(refusal['message']) is str and refusal['message'].startswith(prefix),'exact entry refusal prefix')
++    return refusal['code'],refusal['message'][len(prefix):],result
+ 
+ 
+ def symbolic_tree():
+@@ -451,8 +453,8 @@
+             message=('whole body pin' if i==changed_index and initial_failure else
+                      'initial custody incomplete' if initial_failure else 'path state changed')
+             code='INPUT' if i==changed_index and initial_failure else 'CUSTODY'
+-            require(record['pin'] is None and type(record['error']) is str
+-                and record['error'].split(': ',1)[-1]==code+': '+message,'exact failed role diagnostic')
++            require(record['pin'] is None and record['error']=='Refusal: '+code+': '+message,
++                    'exact failed role diagnostic')
+     prior=V.finish_validation(earlier,{'ri131_apparent_result':True},None,postchecks)
+     late=V.finish_validation(None,{'ri131_apparent_result':True},None,postchecks)
+     # A completed output pin may survive a subsequent refusal only as evidence.
+@@ -470,7 +472,7 @@
+         require(type(refusal) is dict and set(refusal)=={'schema','status','phase','stage','code','message','scientific_disposition_emitted','postchecks'},'closed tail refusal')
+         require(refusal['schema']=='ri125-application-refusal-v1' and refusal['status']=='REFUSED'
+             and refusal['phase']=='fixed_saved_application' and refusal['stage']=='white'
+-            and refusal['code']==code and refusal['message'].split(': ',2)[-1]==message
++            and refusal['code']==code and refusal['message']=='Refusal: '+code+': '+message
+             and refusal['scientific_disposition_emitted'] is False and same(refusal['postchecks'],postchecks),'exact first and late error semantics')
+     return {'changed_role':REGISTERED_ROLES[changed_index],'initial_references':refs,'initial_failure':initial_failure,
+             'postchecks':postchecks,'earlier_failure_result':prior,'late_failure_result':late,
+--- resumed-baseline/GUARD_CONTRACT.md
++++ current/GUARD_CONTRACT.md
+@@ -99,7 +99,7 @@
+ 
+ `Declaration = {id:String, mechanism:String, expected_code:String|null, expected_message:String|null, mutation_path:list[String|Int]|null}` is exactly the corresponding inventory record.
+ 
+-`Observed = {code:String|null, message:String|null, unexpected:Bool, returned:Diagnostic|null}`. Target `Refusal` uses its actual `code` and `message`. Outer exception type names may be normalized only at the known `Refusal: CODE: message` envelope prefix. No substring search, alternative refusal-code fallback or arbitrary schema acceptance is permitted. Any other exception marks `unexpected:true` and fails its case.
++`Observed = {code:String|null, message:String|null, unexpected:Bool, returned:Diagnostic|null}`. Target `Refusal` uses its actual `code` and `message`. An entry envelope must have the exact prefix `Refusal: CODE: ` before that prefix alone is removed for the observation; complete tail/refusal diagnostics must match the full expected `Refusal: CODE: message`. No substring search, alternative refusal-code fallback or arbitrary schema acceptance is permitted. Any other exception marks `unexpected:true` and fails its case.
+ 
+ `Case = {schema:"ri131-validator-guard-case-v1", context:CONTEXT, declaration:Declaration, observed:Observed, passed:Bool, actual_scientific_input_opened:false, actual_validation_admitted:false, complete_actual_entry_qualified:false}`. Each case is saved as `<ID>/CASE_RESULT.fabricated.json`. Diagnostics are exactly: the full target refusal envelope for EV/EB; null on intended CB/CF refusals; null on intended OW refusals or `{pin:Pin,canonical_complete:true}` for OW03; and `{changed_role:String, initial_references:list[FileRef], initial_failure:Bool, postchecks:list[TargetPostcheck], earlier_failure_result:TargetEnvelope, late_failure_result:TargetEnvelope, earlier_failure_with_retained_pin:TargetEnvelope, late_failure_with_retained_pin:TargetEnvelope, whole_entry_coverage:false}` for TF/TB.
+ 

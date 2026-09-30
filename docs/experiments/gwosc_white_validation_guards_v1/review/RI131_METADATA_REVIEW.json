@@ -1,0 +1,415 @@
+{
+  "all_ordered_literal_declarations_match": true,
+  "blocked_actual_entry_obligations": [
+    {
+      "id": "E2E01",
+      "reason": "Full validate_saved_white traversal through fixed actual RI73 result and complete capture requires genuine prior primary execution, original historical custody and separate root admission."
+    },
+    {
+      "id": "E2E02",
+      "reason": "Mutated full actual candidate at the primary request output cannot be substituted into immutable accepted evidence or justified by a fabricated admission. Direct comparator controls are not this coverage."
+    },
+    {
+      "id": "E2E03",
+      "reason": "Whole-entry output-write interruption and source/runtime mutation during a genuine actual numerical reconstruction require a separately reviewed caller/fault boundary and authentic inputs. Direct writer/read-set controls are not this coverage."
+    },
+    {
+      "id": "E2E04",
+      "reason": "Capture-load-source identity, runtime closure, watchdog, genuine process completion and normal-before-optimized qualification belong to a separate reviewed root caller; this module launches nothing."
+    }
+  ],
+  "dependency_occurrences": [
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 19331,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/INDEPENDENT_SOURCE_REVIEW.md",
+        "sha256": "ec88bb4a923c610d61694d82eae0dba970c66784389bb434a87c87ab7ee5a555"
+      },
+      "pin": {
+        "bytes": 19331,
+        "sha256": "ec88bb4a923c610d61694d82eae0dba970c66784389bb434a87c87ab7ee5a555"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator_review/INDEPENDENT_SOURCE_REVIEW.md",
+      "role": "nonauthor_review"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 3908,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI125_INTEGRATED_SOURCE_ADJUDICATION.json",
+        "sha256": "459885e5dc514ceb9e4c62d4810464e07d29515cf0e59744d9f12b1c1cfe6cda"
+      },
+      "pin": {
+        "bytes": 3908,
+        "sha256": "459885e5dc514ceb9e4c62d4810464e07d29515cf0e59744d9f12b1c1cfe6cda"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/root/RI125_INTEGRATED_SOURCE_ADJUDICATION.json",
+      "role": "root_source_adjudication"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 56593,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+      },
+      "pin": {
+        "bytes": 56593,
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/white_validator.py",
+      "role": "validator"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 17909,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+      },
+      "pin": {
+        "bytes": 17909,
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/validator_controls.py",
+      "role": "validator_controls"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 4821,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+      },
+      "pin": {
+        "bytes": 4821,
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/HANDOFF.json",
+      "role": "validator_handoff"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 14060,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+      },
+      "pin": {
+        "bytes": 14060,
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/PROTOCOL.md",
+      "role": "validator_protocol"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 4821,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+      },
+      "pin": {
+        "bytes": 4821,
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/HANDOFF.json",
+      "role": "retained_predecessor_1"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 1349,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/HANDOFF.json",
+        "sha256": "67171fbcedc10b79e15de9bfe5b15f5a39c1fc7b55e48d9ebf137c8e9014ff46"
+      },
+      "pin": {
+        "bytes": 1349,
+        "sha256": "67171fbcedc10b79e15de9bfe5b15f5a39c1fc7b55e48d9ebf137c8e9014ff46"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator_review/HANDOFF.json",
+      "role": "retained_predecessor_2"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 3908,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI125_INTEGRATED_SOURCE_ADJUDICATION.json",
+        "sha256": "459885e5dc514ceb9e4c62d4810464e07d29515cf0e59744d9f12b1c1cfe6cda"
+      },
+      "pin": {
+        "bytes": 3908,
+        "sha256": "459885e5dc514ceb9e4c62d4810464e07d29515cf0e59744d9f12b1c1cfe6cda"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/root/RI125_INTEGRATED_SOURCE_ADJUDICATION.json",
+      "role": "retained_predecessor_3"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 56593,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+      },
+      "pin": {
+        "bytes": 56593,
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/white_validator.py",
+      "role": "retained_predecessor_4"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 17909,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+      },
+      "pin": {
+        "bytes": 17909,
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/validator_controls.py",
+      "role": "retained_predecessor_5"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 14060,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+      },
+      "pin": {
+        "bytes": 14060,
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/PROTOCOL.md",
+      "role": "retained_predecessor_6"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 3957,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+        "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+      },
+      "pin": {
+        "bytes": 3957,
+        "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/AUTHORING_RECORD.md",
+      "role": "retained_predecessor_7"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 3762,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PREDECESSOR_PINS.json",
+        "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+      },
+      "pin": {
+        "bytes": 3762,
+        "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/PREDECESSOR_PINS.json",
+      "role": "retained_predecessor_8"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 8848,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/SOURCE_METADATA_CHECK.json",
+        "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+      },
+      "pin": {
+        "bytes": 8848,
+        "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/SOURCE_METADATA_CHECK.json",
+      "role": "retained_predecessor_9"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 4804,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.md",
+        "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+      },
+      "pin": {
+        "bytes": 4804,
+        "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/HANDOFF.md",
+      "role": "retained_predecessor_10"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 19331,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/INDEPENDENT_SOURCE_REVIEW.md",
+        "sha256": "ec88bb4a923c610d61694d82eae0dba970c66784389bb434a87c87ab7ee5a555"
+      },
+      "pin": {
+        "bytes": 19331,
+        "sha256": "ec88bb4a923c610d61694d82eae0dba970c66784389bb434a87c87ab7ee5a555"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator_review/INDEPENDENT_SOURCE_REVIEW.md",
+      "role": "retained_predecessor_11"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 7188,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/METADATA_REVIEW.json",
+        "sha256": "eda73e25dd0ceca88971cc0f76d841a5355f1e1b42869448e6aa9e06e9fe8dc3"
+      },
+      "pin": {
+        "bytes": 7188,
+        "sha256": "eda73e25dd0ceca88971cc0f76d841a5355f1e1b42869448e6aa9e06e9fe8dc3"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator_review/METADATA_REVIEW.json",
+      "role": "retained_predecessor_12"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 3414,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/VERDICT.json",
+        "sha256": "accaf8e6667bd7f6cb2364b88c634f9781ef6f44ab0c0590905f09cdd4db81d5"
+      },
+      "pin": {
+        "bytes": 3414,
+        "sha256": "accaf8e6667bd7f6cb2364b88c634f9781ef6f44ab0c0590905f09cdd4db81d5"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator_review/VERDICT.json",
+      "role": "retained_predecessor_13"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 4492,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/HANDOFF.json",
+        "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8"
+      },
+      "pin": {
+        "bytes": 4492,
+        "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/HANDOFF.json",
+      "role": "retained_predecessor_14"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 2160,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/HANDOFF.json",
+        "sha256": "59c6e81b50abf3b715bea4f4ca12014322d6f0bdd91594882763af2bb98befaf"
+      },
+      "pin": {
+        "bytes": 2160,
+        "sha256": "59c6e81b50abf3b715bea4f4ca12014322d6f0bdd91594882763af2bb98befaf"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier_review/HANDOFF.json",
+      "role": "retained_predecessor_15"
+    },
+    {
+      "commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+      "original": {
+        "bytes": 5379,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+        "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+      },
+      "pin": {
+        "bytes": 5379,
+        "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+      },
+      "repository_path": "docs/experiments/gwosc_joint_window_white_source_v1/source/HANDOFF.json",
+      "role": "retained_predecessor_16"
+    }
+  ],
+  "direct_boundaries": 140,
+  "exact_source_namespace_count": 8,
+  "fixtures_executed": 0,
+  "handoff": {
+    "bytes": 7104,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/HANDOFF.json",
+    "sha256": "11abcc3655cbcd6872c61b0afb77d8101d213550787727c353d35b20f93a2c62"
+  },
+  "metadata_check_repair": "First metadata check 0414ff incorrectly required EV13 complete dynamically constructed message to occur as one source literal. Verified exact fixed historical pin prefix plus capture role and repaired only this metadata check; no target change or execution.",
+  "method": "Independent manual complete source and contract read plus restricted regex/literal metadata construction, opaque file identities, exact fixed-parent Git byte checks. No target imported or executed.",
+  "ordered_inventory_count": 202,
+  "qualification_claimed": false,
+  "registered_roles": [
+    "input:capture",
+    "input:ri73_result",
+    "input:ri73_source",
+    "input:ri73_reconciliation",
+    "input:ri73_final_review",
+    "input:ri73_audit_freeze",
+    "source:design",
+    "source:contract",
+    "source:primary",
+    "source:white_kernel",
+    "source:validator",
+    "source:qualifier",
+    "source:cases",
+    "source:kernel_refusals",
+    "source:white_refusals",
+    "source:fabricated_interfaces",
+    "design_acceptance",
+    "qualification",
+    "custody",
+    "admission",
+    "runtime:fingerprint",
+    "runtime:inventory",
+    "runtime:interpreter",
+    "candidate",
+    "independent_output"
+  ],
+  "runtime_closure_proved": false,
+  "schema": "ri131-root-source-metadata-review-v1",
+  "scientific_json_decoding": false,
+  "source_compile_or_ast": false,
+  "source_execution": false,
+  "source_files": [
+    {
+      "bytes": 42915,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/validation_guard_controls.py",
+      "sha256": "b05ca631e325474ffbd399fe6c2f6968481c96b1a7f75c30b636a20dc15277ed"
+    },
+    {
+      "bytes": 24081,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/GUARD_CONTRACT.md",
+      "sha256": "95452ab06359927f9664a150ffcd61d4133ee0c397440c468c7e81468800b018"
+    },
+    {
+      "bytes": 53147,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/CONTROL_INVENTORY.json",
+      "sha256": "93cf8aa75f08d55d15c082f487016e1adf2b3a0425b8adf7746a6bf3745181a9"
+    },
+    {
+      "bytes": 6365,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/DEPENDENCY_PINS.json",
+      "sha256": "6a1b463a1ba239f045076799c2ce9adf55d8cc9b498426cb9677df053ece5323"
+    },
+    {
+      "bytes": 9004,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/PREPARATION_RECORD.md",
+      "sha256": "8f68f0e91e44d8e47197ada97dca524338db66cf4fc1c4b57e5d449bf1426108"
+    },
+    {
+      "bytes": 4624,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/RESUME_DELTA.patch",
+      "sha256": "82e756a3eb5ed2c934a744c71c21bae199a0a67f5a6e317ec4bc37280ac9dcad"
+    },
+    {
+      "bytes": 10379,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o/SOURCE_METADATA_CHECK.json",
+      "sha256": "9b450ae51932e09f0d2f869880ebc5503cf88cd3bbf9367e71be58f171f0b4d1"
+    }
+  ],
+  "status": "PASS_METADATA_AND_LITERAL_TEXT_ONLY",
+  "strict_refusal_normalization_present": true,
+  "whole_entry_early_refusals": 62
+}
