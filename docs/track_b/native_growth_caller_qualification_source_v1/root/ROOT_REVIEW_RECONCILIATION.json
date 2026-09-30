@@ -1,0 +1,1043 @@
+{
+  "coverage": [
+    {
+      "caller": "native",
+      "case_ids": [
+        "N01-zero-byte-identity",
+        "N02-unavailable-root-identity",
+        "N03-unavailable-review-identity",
+        "N04-fixed-source-pin",
+        "N05-runtime-file-identity",
+        "N06-runtime-link-identity",
+        "N07-historical-identity",
+        "N08-source-dependency-identity",
+        "N09-authenticated-metadata-body",
+        "N10-bound-current-identity",
+        "N11-unclosed-reference",
+        "N12-freeze-role-order",
+        "N13-unavailable-witness-identity",
+        "N14-unavailable-normal-identity",
+        "N15-source-only-decision-scope",
+        "N16-boolean-byte-count",
+        "N17-authorization-binding"
+      ],
+      "declaration_count": 52,
+      "literal_block": {
+        "bytes": 6055,
+        "sha256": "88a3a1269a202c433948c34e62a1c89f3be6552c077a14d2e5c7f32163920181"
+      },
+      "partition": {
+        "blocked": 25,
+        "direct": 16,
+        "retained": 10,
+        "whole_entry_specification": 1
+      }
+    },
+    {
+      "caller": "audit",
+      "case_ids": [
+        "audit-binding-null",
+        "audit-binding-zero-size",
+        "audit-binding-zero-digest",
+        "audit-binding-arbitrary-path",
+        "audit-history-empty-log-identity",
+        "audit-auth-false",
+        "audit-unclosed-reference",
+        "audit-runtime-file-argument-change",
+        "audit-runtime-index-positive",
+        "audit-dependency-prepare-positive",
+        "audit-preflight-wrong-mode",
+        "audit-ri128-promotion",
+        "audit-no-argument-argv",
+        "audit-target-path-argument",
+        "audit-target-symlink-argument",
+        "audit-target-oversize-argument"
+      ],
+      "declaration_count": 69,
+      "literal_block": {
+        "bytes": 7857,
+        "sha256": "c8d56ccb982c4630d4c2890451484e624caf039cb4c341f9796870b55346f198"
+      },
+      "partition": {
+        "blocked": 48,
+        "direct": 8,
+        "retained": 12,
+        "whole_entry_specification": 1
+      }
+    }
+  ],
+  "current_transitive_runtime_observation": false,
+  "exact_namespaces": {
+    "RI129": 13,
+    "RI129_review": 9,
+    "RI132": 11,
+    "review": 6
+  },
+  "independent_review_handoff": {
+    "bytes": 2150,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/HANDOFF.json",
+    "sha256": "575d63c2218d51aea7d489cb86fd49dd970229e17c181c7cdef55174a406932f"
+  },
+  "manifest_counts": [
+    {
+      "count": 2988,
+      "key": "files",
+      "reference": {
+        "bytes": 2862854,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+        "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920"
+      }
+    },
+    {
+      "count": 699,
+      "key": "protected_files",
+      "reference": {
+        "bytes": 2170307,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+        "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c"
+      }
+    },
+    {
+      "count": 299,
+      "key": "protected_files",
+      "reference": {
+        "bytes": 583262,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+        "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c"
+      }
+    }
+  ],
+  "predecessor_identities": [
+    {
+      "bytes": 2170307,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+      "state": [
+        16777244,
+        396153,
+        33188,
+        1,
+        2170307,
+        1790470594955684283,
+        1790470594955684283
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10879,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_APPLICABILITY_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_APPLICABILITY_REVIEW.md",
+      "sha256": "66b163bfb90bee45539a188abe16b59367ebad946c41b32b81e1b1a4677ab0f4",
+      "state": [
+        16777244,
+        396091,
+        33188,
+        1,
+        10879,
+        1790469489043138935,
+        1790469489043138935
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2862854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920",
+      "state": [
+        16777244,
+        396114,
+        33188,
+        1,
+        2862854,
+        1790471676566953083,
+        1790471676566953083
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1828149,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b",
+      "state": [
+        16777244,
+        397341,
+        33188,
+        1,
+        1828149,
+        1790474380310065879,
+        1790474380310065879
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 98660,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db",
+      "state": [
+        16777244,
+        396101,
+        33188,
+        1,
+        98660,
+        1790471838845317355,
+        1790471838845317355
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 82578,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4",
+      "state": [
+        16777244,
+        396100,
+        33188,
+        1,
+        82578,
+        1790471838844648775,
+        1790471838844648775
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 15477,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc",
+      "state": [
+        16777244,
+        397704,
+        33188,
+        1,
+        15477,
+        1790477254797829999,
+        1790477254797829999
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3645,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "sha256": "85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c",
+      "state": [
+        16777244,
+        398950,
+        33188,
+        1,
+        3645,
+        1790479450597710082,
+        1790479450597710082
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4071,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+      "sha256": "66d274815c101015256ba506f3e6a125375797b1b7946831159d39692ffebd77",
+      "state": [
+        16777244,
+        399160,
+        33188,
+        1,
+        4071,
+        1790481087274572178,
+        1790481087274572178
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13789,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/AUDIT_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/AUDIT_NOTES.md",
+      "sha256": "89af7f6f7f4ea17e835770ff24ed71e181f5f6f28751f4f7fc8c57cdca77caf6",
+      "state": [
+        16777244,
+        399346,
+        33188,
+        1,
+        13789,
+        1790482333739863249,
+        1790482333739863249
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 9005,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "sha256": "e9053c9b8e9f6d113febf4cc4b5597aca5e2238a25e67d14c5a3b743149aad26",
+      "state": [
+        16777244,
+        399317,
+        33188,
+        1,
+        9005,
+        1790482162021400767,
+        1790482162021400767
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 41355,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "sha256": "5c9494e78df31c726c973d2aa0188ca745a3532a351a5826dcb312fca3892ed7",
+      "state": [
+        16777244,
+        399323,
+        33188,
+        1,
+        41355,
+        1790482243885884866,
+        1790482243885884866
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 27288,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "sha256": "73bb32320be53c38cf85889ca108229d9c2ea2d79b27814ac258eb4b6f133e38",
+      "state": [
+        16777244,
+        399324,
+        33188,
+        1,
+        27288,
+        1790482162012629427,
+        1790482162012629427
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1835,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+      "sha256": "78c0977ae2d0eb23f07eb612c8e797071956c3f9db2b7a044a1a15f277be1eaf",
+      "state": [
+        16777244,
+        399687,
+        33188,
+        1,
+        1835,
+        1790485976202958736,
+        1790485976202958736
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3230,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json",
+      "sha256": "324644290d2d8eeb79a2af655bed476f02f7d0cc3ffb5fac1672f975f0a3ede1",
+      "state": [
+        16777244,
+        399691,
+        33188,
+        1,
+        3230,
+        1790486109572110566,
+        1790486109572110566
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 18478,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/CORRECTED_METADATA_SUMMARY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/CORRECTED_METADATA_SUMMARY.json",
+      "sha256": "2d69442db44cea379812c5b4907818b05e0c7008ab6d65061cc84a0a7bc65c04",
+      "state": [
+        16777244,
+        401133,
+        33188,
+        1,
+        18478,
+        1790749236181492203,
+        1790749236181492203
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4840,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/FINAL_PIN_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/FINAL_PIN_CHECK.json",
+      "sha256": "18ad39bcde08b83e6b1fff843e02469eb4c3005e3e8d58a301a509778cb4936d",
+      "state": [
+        16777244,
+        401134,
+        33188,
+        1,
+        4840,
+        1790749316104744304,
+        1790749316104744304
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3082,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+      "sha256": "6cd215563c660948188a73c6d3d0ccc6fe6f583b4d1bc2cc981654abcc223ac0",
+      "state": [
+        16777244,
+        401137,
+        33188,
+        1,
+        3082,
+        1790749487392548545,
+        1790749487392548545
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6670,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "d0e81254694db9c145c3760b08e86f02a8e2a1edadccfe10776842e4455710de",
+      "state": [
+        16777244,
+        401136,
+        33188,
+        1,
+        6670,
+        1790749487328341298,
+        1790749487328341298
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16214,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "19d74caf5807a4d781bfac97959c2f791d9c181914496e0504145a321132f7eb",
+      "state": [
+        16777244,
+        401135,
+        33188,
+        1,
+        16214,
+        1790749426718002691,
+        1790749426718002691
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 31528781,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/METADATA_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/METADATA_REVIEW.json",
+      "sha256": "966b139f5c9d9df317d19175d6a364ff3e5e134d5481bd41b77ab324101e2e06",
+      "state": [
+        16777244,
+        401131,
+        33188,
+        1,
+        31528781,
+        1790749151648474691,
+        1790749151648474691
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 15980,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/TEXT_SPAN_MAP.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/TEXT_SPAN_MAP.json",
+      "sha256": "d63b685eb8b447af13e729204a48b9835557c1406a25a778b1d370bfe5e60088",
+      "state": [
+        16777244,
+        401013,
+        33188,
+        1,
+        15980,
+        1790748545663270972,
+        1790748545663270972
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7437,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_metadata.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_metadata.py",
+      "sha256": "2c62a5254b0dde169dcbb3ff9925e67b9ae581077e0584b668260232ef3278cb",
+      "state": [
+        16777244,
+        401130,
+        33188,
+        1,
+        7437,
+        1790749149801517799,
+        1790749149801517799
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4782,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_text_correction.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_text_correction.py",
+      "sha256": "ac66cd1dadea7815f0f036229ddfd0b3087890a5b05e3d87b997839135034db7",
+      "state": [
+        16777244,
+        401132,
+        33188,
+        1,
+        4782,
+        1790749235979462475,
+        1790749235979462475
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10788,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_NOTES.md",
+      "sha256": "177a73c780c99c489ac3b3fac3e1f3a974218b9fe3904ac5351827b85bf0c5b9",
+      "state": [
+        16777244,
+        399813,
+        33188,
+        1,
+        10788,
+        1790487056856758659,
+        1790487056856758659
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 44763,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "sha256": "a286bd5bc63cab4e0ad7bd24cdea5ac83e665c1c8a89adcc64ffd836f057c7a2",
+      "state": [
+        16777244,
+        400089,
+        33188,
+        1,
+        44763,
+        1790487354322321943,
+        1790487354322321943
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6386,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUTHOR_METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUTHOR_METADATA_CHECK.json",
+      "sha256": "2fe662e72507cbd342e66663cc3a4d5a621aa5c16fd14d361df57ebc77c36cc9",
+      "state": [
+        16777244,
+        400954,
+        33188,
+        1,
+        6386,
+        1790747852534888986,
+        1790747852534888986
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 24196,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "sha256": "dc2d798e3e95957ddcc397f94155f3c2ca493bc500eec2086aa2147a53a11dd6",
+      "state": [
+        16777244,
+        400083,
+        33188,
+        1,
+        24196,
+        1790487354178343355,
+        1790487354178343355
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6135,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/DEPENDENCY_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/DEPENDENCY_NOTES.md",
+      "sha256": "f229ae82ae3ea2a79dfe85a7c3a104617d92effd08b64fdeb710a9c625557d57",
+      "state": [
+        16777244,
+        400086,
+        33188,
+        1,
+        6135,
+        1790487321234700501,
+        1790487321234700501
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+      "sha256": "b3839ba2f81e791321e2549107ce5f1b84ffdbbcc635396ab4e72002386feac0",
+      "state": [
+        16777244,
+        400959,
+        33188,
+        1,
+        10184,
+        1790747926020805096,
+        1790747926020805096
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7233,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.md",
+      "sha256": "085be026fcffcddc39b9775fb9037a06a0cae89155053049cf16ea8b123ab7a0",
+      "state": [
+        16777244,
+        400957,
+        33188,
+        1,
+        7233,
+        1790747852304203219,
+        1790747852304203219
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 14421,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/NATIVE_SOURCE_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/NATIVE_SOURCE_NOTES.md",
+      "sha256": "d48d5fa27d7e3f33b3620137f6c4af2daa2c7fae99e0ebdf1c7bc0a9f41f1b5d",
+      "state": [
+        16777244,
+        399827,
+        33188,
+        1,
+        14421,
+        1790487106731370051,
+        1790487106731370051
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 583262,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c",
+      "state": [
+        16777244,
+        400062,
+        33188,
+        1,
+        583262,
+        1790486948336952739,
+        1790486948336952739
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 31725,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SUPERVISE_SOURCE_DELTA.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SUPERVISE_SOURCE_DELTA.patch",
+      "sha256": "8a0d2fa476b4a148c4e14536b5c5dc99d602194e14b7c6f671f34a0e3e0c3927",
+      "state": [
+        16777244,
+        400088,
+        33188,
+        1,
+        31725,
+        1790487354257837886,
+        1790487354257837886
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 28109,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/TARGET_APPLICABILITY.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/TARGET_APPLICABILITY.md",
+      "sha256": "1bdc6d46ff6890dfa687fe03b26423607760b12aa305e6873c7a774f2077006f",
+      "state": [
+        16777244,
+        399826,
+        33188,
+        1,
+        28109,
+        1790747852261140444,
+        1790747852261140444
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 103287,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5",
+      "state": [
+        16777244,
+        399820,
+        33188,
+        1,
+        103287,
+        1790487021868770632,
+        1790487021868770632
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 88890,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650",
+      "state": [
+        16777244,
+        399814,
+        33188,
+        1,
+        88890,
+        1790487106725446320,
+        1790487106725446320
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6126,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+      "sha256": "4b3139b7595e3f9c94c9bda3725dc7b6e329b7b100b1493124199064a4743266",
+      "state": [
+        16777244,
+        401147,
+        33188,
+        1,
+        6126,
+        1790751395577692545,
+        1790751395577692545
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 83987,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/ROOT_SOURCE_REVIEW_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/ROOT_SOURCE_REVIEW_RECONCILIATION.json",
+      "sha256": "e43e9db507714de09a0cc6bdf1d55566f061cda39843615615b21068b58c541b",
+      "state": [
+        16777244,
+        401146,
+        33188,
+        1,
+        83987,
+        1790751340605511583,
+        1790751340605511583
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2783,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+      "sha256": "15cedc2d7683734450963dc147e2a0deef59f0713a6b9898d806d9dd1240bea6",
+      "state": [
+        16777244,
+        388998,
+        33188,
+        1,
+        2783,
+        1790309720227792573,
+        1790309720227792573
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "qualification": false,
+  "retained_audit_spans": [
+    {
+      "bytes": 7255,
+      "name": "runtime_prepare",
+      "sha256": "966d28b03588e079c720a7e7b1c5306abd9e129863da26389216485316c64bd6"
+    },
+    {
+      "bytes": 349,
+      "name": "runtime_file_prerequisites",
+      "sha256": "042af53ab55e0e86620324b82922cda3149b69ff1a64c2804820f90f34bb6a98"
+    },
+    {
+      "bytes": 1112,
+      "name": "metadata",
+      "sha256": "0ff3e696a87a8fcde2a686c2763ad446af1d8a770446b3162da9aadefa94258b"
+    },
+    {
+      "bytes": 3142,
+      "name": "validate_freeze",
+      "sha256": "e16363d1c6c5f37de040243677cca4de1b28ab56536145d0fc4e70c61926082d"
+    },
+    {
+      "bytes": 3296,
+      "name": "monitor",
+      "sha256": "0f6663365aad3768d33e098a3b7301e9553abcc1a5ef0fea8056b63b9779c0b8"
+    },
+    {
+      "bytes": 962,
+      "name": "terminate_owned",
+      "sha256": "10b57f5a1a1020e3c61d871e2a57c961bc95f4d71621ae418c329b29e1c33379"
+    }
+  ],
+  "reviewer_predicates": 378,
+  "schema": "ri132-root-source-review-reconciliation-v1",
+  "scientific_body_decode": false,
+  "sealed_payload_identities": [
+    {
+      "bytes": 12730,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/AUDIT_COVERAGE.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/AUDIT_COVERAGE.md",
+      "sha256": "42705805336c98a9f48f757eeffe466d267e3ed52bc8d599b52411d917fae11e",
+      "state": [
+        16777244,
+        401419,
+        33188,
+        1,
+        12730,
+        1790752216166998944,
+        1790752216166998944
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 28190,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/EVIDENCE_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/EVIDENCE_CONTRACT.md",
+      "sha256": "db823a7a1515b823f2196a8409b8368cedd0ce20fbe370ac2bbefaa3fc50e763",
+      "state": [
+        16777244,
+        401156,
+        33188,
+        1,
+        28190,
+        1790752423507461713,
+        1790752423507461713
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5992,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.md",
+      "sha256": "b387317784b4f41c89b7e7f4e0c68e9128bcd03cca74664ca302767a6768fe5a",
+      "state": [
+        16777244,
+        401424,
+        33188,
+        1,
+        5992,
+        1790752642764070039,
+        1790752642764070039
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10044,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/NATIVE_COVERAGE.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/NATIVE_COVERAGE.md",
+      "sha256": "80dde578e0c3320fafc1fc42cdc3b3c709896bdf7627105ba5caf5ce3600163f",
+      "state": [
+        16777244,
+        401216,
+        33188,
+        1,
+        10044,
+        1790752745655260205,
+        1790752745655260205
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6678,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/REFACTOR_DESIGN.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/REFACTOR_DESIGN.md",
+      "sha256": "07149e1b1b8d62895a30854de279bb290cebb1fbcb73ac2255a6295b2782df42",
+      "state": [
+        16777244,
+        401335,
+        33188,
+        1,
+        6678,
+        1790751935303404593,
+        1790751935303404593
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13141,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/SOURCE_IDENTITIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/SOURCE_IDENTITIES.json",
+      "sha256": "81944b87ee986ea7a1e53e15f7af2f12d2d6f2322d022644c632f7842ea84329",
+      "state": [
+        16777244,
+        401427,
+        33188,
+        1,
+        13141,
+        1790752715753674582,
+        1790752715753674582
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 39050,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py",
+      "sha256": "f7729e31a7060d307e9c517cb35209b64f87f38c59236fe203e1705fa1003694",
+      "state": [
+        16777244,
+        401412,
+        33188,
+        1,
+        39050,
+        1790752216166599650,
+        1790752216166599650
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 24869,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/entry_evidence.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/entry_evidence.py",
+      "sha256": "55743a8b234bc48d643abca134fd1e50bbe1aad12350c47048530f8ef5dd01f2",
+      "state": [
+        16777244,
+        401418,
+        33188,
+        1,
+        24869,
+        1790752404835669091,
+        1790752404835669091
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 32809,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py",
+      "sha256": "3b2c89c646638edc1a4d6334ca92ac5f6fe9a02e23f17c582a32161c167ef0c4",
+      "state": [
+        16777244,
+        401215,
+        33188,
+        1,
+        32809,
+        1790752745654816909,
+        1790752745654816909
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 14025,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/qualify_callers.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/qualify_callers.py",
+      "sha256": "758c82dc6e07026e4fb5bcb4f7368b0d04a0d5203710420d26237fdd3e54b996",
+      "state": [
+        16777244,
+        401413,
+        33188,
+        1,
+        14025,
+        1790752129689080846,
+        1790752129689080846
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 23570,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/INDEPENDENT_SOURCE_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "c315545f71d78f54dc71e87577222eb5a64464bdbafd3900c972724c6eb3149b",
+      "state": [
+        16777244,
+        401733,
+        33188,
+        1,
+        23570,
+        1790753367477572963,
+        1790753367477572963
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3023,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/INDEPENDENT_SOURCE_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "53f7e506c7d7ccca665e432fc7f843c09c3517ce23408e4a80c0717dcbab1561",
+      "state": [
+        16777244,
+        401735,
+        33188,
+        1,
+        3023,
+        1790753367585244001,
+        1790753367585244001
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 150366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+      "sha256": "d64c1ef2ac50465f240bc9e6bc5d40258f21b9b8f61b0c90a4ae881e1f1a9d22",
+      "state": [
+        16777244,
+        401731,
+        33188,
+        1,
+        150366,
+        1790753159453676410,
+        1790753159453676410
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2910,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/FINAL_PIN_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/FINAL_PIN_CHECK.json",
+      "sha256": "b52e9e7ef11bb7125750c9f7432c105b991bd2269fe91329651b19abc1f9fe25",
+      "state": [
+        16777244,
+        401734,
+        33188,
+        1,
+        2910,
+        1790753367584762080,
+        1790753367584762080
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/check_metadata.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/check_metadata.py",
+      "sha256": "30d43419c836f1d0a28990f076281b66abf2db9cd09ac2c781418c4157cb0d55",
+      "state": [
+        16777244,
+        401730,
+        33188,
+        1,
+        7293,
+        1790753159312925874,
+        1790753159312925874
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "source_handoff": {
+    "bytes": 9135,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.json",
+    "sha256": "5841f7d783b549b4e8e5a978e1ed3ebceb169412ffc8573ed04ebe52a6d9d53e"
+  },
+  "source_line_counts": {
+    "audit_controls.py": 428,
+    "entry_evidence.py": 416,
+    "native_controls.py": 416,
+    "qualify_callers.py": 270
+  },
+  "status": "PASS_SOURCE_IDENTITIES_AND_LITERAL_COVERAGE",
+  "target_activity": false
+}

@@ -1,0 +1,218 @@
+{
+  "schema": "ri132-native-caller-qualification-source-handoff-v1",
+  "status": "SOURCE_ONLY_SEALED_FOR_NONAUTHOR_REVIEW",
+  "packet_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I",
+  "sealed_local_date": "2026-09-29",
+  "timezone": "Pacific/Honolulu",
+  "author_thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "owner_thread_id": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/AUDIT_COVERAGE.md",
+      "bytes": 12730,
+      "sha256": "42705805336c98a9f48f757eeffe466d267e3ed52bc8d599b52411d917fae11e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/EVIDENCE_CONTRACT.md",
+      "bytes": 28190,
+      "sha256": "db823a7a1515b823f2196a8409b8368cedd0ce20fbe370ac2bbefaa3fc50e763"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.md",
+      "bytes": 5992,
+      "sha256": "b387317784b4f41c89b7e7f4e0c68e9128bcd03cca74664ca302767a6768fe5a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/NATIVE_COVERAGE.md",
+      "bytes": 10044,
+      "sha256": "80dde578e0c3320fafc1fc42cdc3b3c709896bdf7627105ba5caf5ce3600163f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/REFACTOR_DESIGN.md",
+      "bytes": 6678,
+      "sha256": "07149e1b1b8d62895a30854de279bb290cebb1fbcb73ac2255a6295b2782df42"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/SOURCE_IDENTITIES.json",
+      "bytes": 13141,
+      "sha256": "81944b87ee986ea7a1e53e15f7af2f12d2d6f2322d022644c632f7842ea84329"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py",
+      "bytes": 39050,
+      "sha256": "f7729e31a7060d307e9c517cb35209b64f87f38c59236fe203e1705fa1003694"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/entry_evidence.py",
+      "bytes": 24869,
+      "sha256": "55743a8b234bc48d643abca134fd1e50bbe1aad12350c47048530f8ef5dd01f2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py",
+      "bytes": 32809,
+      "sha256": "3b2c89c646638edc1a4d6334ca92ac5f6fe9a02e23f17c582a32161c167ef0c4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/qualify_callers.py",
+      "bytes": 14025,
+      "sha256": "758c82dc6e07026e4fb5bcb4f7368b0d04a0d5203710420d26237fdd3e54b996"
+    }
+  ],
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+    "bytes": 6126,
+    "sha256": "4b3139b7595e3f9c94c9bda3725dc7b6e329b7b100b1493124199064a4743266"
+  },
+  "accepted_source_handoff": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+    "bytes": 10184,
+    "sha256": "b3839ba2f81e791321e2549107ce5f1b84ffdbbcc635396ab4e72002386feac0"
+  },
+  "accepted_independent_review_handoff": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+    "bytes": 3082,
+    "sha256": "6cd215563c660948188a73c6d3d0ccc6fe6f583b4d1bc2cc981654abcc223ac0"
+  },
+  "authored_interfaces": {
+    "direct_runner": "qualify_callers.py: one externally admitted direct case per fresh process; complete unchanged source loaded under non-main name only during future admitted execution",
+    "native_cases": 17,
+    "audit_cases": 16,
+    "direct_cases_requiring_explicit_genuine_prerequisite_acceptance": {
+      "native": 5,
+      "audit": 4
+    },
+    "whole_unchanged_entry_specifications": [
+      "native-invalid-mode",
+      "native-witness-missing-copy",
+      "audit-missing-binding"
+    ],
+    "early_refusal_verifier": "entry_evidence.py: structural EVIDENCE_CONSISTENCY_ONLY; no I/O, launch or origin authentication",
+    "coverage": {
+      "native": {
+        "declarations": 52,
+        "direct_boundary": 16,
+        "retained_applicability": 10,
+        "prospective_whole_entry": 1,
+        "blocked_deeper": 25
+      },
+      "audit": {
+        "declarations": 69,
+        "direct_boundary": 8,
+        "retained_applicability": 12,
+        "prospective_whole_entry": 1,
+        "blocked_deeper": 48
+      }
+    },
+    "counts_are_source_inventory_not_passes": true,
+    "executed_cases": 0,
+    "complete_changed_caller_qualification": false
+  },
+  "residual_blockers": [
+    "Fixed whole-byte authentication precedes dependency/history parsing; changing bytes exercises an earlier hash refusal, not the deeper parser guard.",
+    "RI129 source-card and completed-review15/4/71 policies are inline after real fixed-file reads; no direct argument-taking validator exists.",
+    "Audit argv_for requires genuine actual binding and three-mode custody; the eight-object path also requires genuine current context.",
+    "Retained code equality and narrow synthetic argument boundaries do not qualify changed full entry, actual filesystem faults or genuine serial custody.",
+    "No runtime resource fit or scientific sign outcome is established by these source controls."
+  ],
+  "follow_on_design": {
+    "file": "REFACTOR_DESIGN.md",
+    "coordinator_requested": true,
+    "scope": "Minimal extraction of pure validators in a new caller version while preserving original production authentication and exact first-failure ordering.",
+    "implemented": false,
+    "accepted_ri129_modified": false,
+    "complete_coverage_promised": false
+  },
+  "preserved_scientific_interface": {
+    "input_roles": [
+      "ri88",
+      "ri88_root",
+      "ri122_root",
+      "ri124_root",
+      "ri127_root"
+    ],
+    "original_copy_pairs": 9,
+    "certificate_sections": 14,
+    "replay_summary_fields": 9,
+    "audit_report_fields": 17,
+    "audit_objects": 8,
+    "candidate_copies": 3,
+    "auditor_has_descriptor": false,
+    "stage_order": [
+      "witness",
+      "normal",
+      "optimized",
+      "audit"
+    ],
+    "later_producer_qualification": {
+      "sign_fixtures": 15,
+      "internal_decisions": 4,
+      "first_refusals": 71
+    },
+    "later_independent_auditor_qualification": {
+      "rebuilt_fixtures": 15,
+      "own_refusals": 16,
+      "producer_declarations": 71,
+      "producer_declarations_executed_by_consumer": false
+    },
+    "native_sign_H30_question_unchanged": true
+  },
+  "limits_unchanged": {
+    "active_scientific_child_wall_seconds": 120,
+    "sampled_owned_group_rss_bytes": 536870912,
+    "intended_sampling_interval_ms": 50,
+    "census_timeout_ms": 250,
+    "scientific_body_bytes": 8388608,
+    "auxiliary_metadata_bytes": 67108864,
+    "input_rational_bits": 32768,
+    "working_rational_bits": 1048576,
+    "transient_rational_bits": 2097154,
+    "guarded_operations": 200000,
+    "rational_text_characters": 20000,
+    "routed_counter_is_not_all_interpreter_operations": true
+  },
+  "author_verification": {
+    "authors": [
+      "/root",
+      "/root/ri132_native_controls",
+      "/root/ri132_audit_controls",
+      "/root/ri132_evidence_contract"
+    ],
+    "source_only_manual_integration": true,
+    "literal_declaration_text_checks": [
+      {
+        "caller": "native",
+        "exact_declarations": 52
+      },
+      {
+        "caller": "audit",
+        "exact_declarations": 69
+      }
+    ],
+    "opaque_predecessor_pins_rechecked": 40,
+    "accepted_source_namespace_files": 13,
+    "accepted_review_namespace_files": 9,
+    "metadata_method_correction_preserved_in": "SOURCE_IDENTITIES.json",
+    "fresh_nonauthor_review_performed": false,
+    "compile_or_syntax_execution_performed": false
+  },
+  "execution_authorized": false,
+  "scientific_execution": false,
+  "scope": {
+    "source_or_helper_import_compile_ast_probe_run": false,
+    "scientific_body_json_decoded": false,
+    "scientific_fixture_evaluated": false,
+    "accepted_source_changed": false,
+    "active_cards_copies_fixtures_runtime_inventory_freezes_admissions_attempts_created": false,
+    "repository_index_git_operation": false,
+    "historical_acceptance_fabricated": false,
+    "current_runtime_conformity_claimed": false,
+    "resource_feasibility_demonstrated": false,
+    "actual_signs_decided": false,
+    "full_H30_feasibility": false,
+    "physical_claim": false,
+    "programme_complete": false,
+    "ret_paused": true,
+    "measurement_lane_separate": true
+  },
+  "next_boundary": "Fresh complete nonauthor review and coordinator adjudication of this exact source-only packet. Stop; no execution, scientific successor, active artifact or repository/Git operation is authorized."
+}

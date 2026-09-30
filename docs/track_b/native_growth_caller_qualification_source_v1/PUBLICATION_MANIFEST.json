@@ -1,0 +1,129 @@
+{
+  "exact_copies": 22,
+  "execution_admitted": false,
+  "parent": "cfb59663a029696cf0d7dfba8c5f1c5325be80fb",
+  "payload": [
+    {
+      "bytes": 26410,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "7176ddb66561bd608479223f21adb201e478a0742fc8a2d2ee53b837c2606ac5"
+    },
+    {
+      "bytes": 3293,
+      "path": "README.md",
+      "sha256": "4d50cd60ccb9e79fd8700fcba30d99f6256b2dd9fc3c33ea391b1f7464776838"
+    },
+    {
+      "bytes": 2910,
+      "path": "review/FINAL_PIN_CHECK.json",
+      "sha256": "b52e9e7ef11bb7125750c9f7432c105b991bd2269fe91329651b19abc1f9fe25"
+    },
+    {
+      "bytes": 2150,
+      "path": "review/HANDOFF.json",
+      "sha256": "575d63c2218d51aea7d489cb86fd49dd970229e17c181c7cdef55174a406932f"
+    },
+    {
+      "bytes": 3023,
+      "path": "review/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "53f7e506c7d7ccca665e432fc7f843c09c3517ce23408e4a80c0717dcbab1561"
+    },
+    {
+      "bytes": 23570,
+      "path": "review/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "c315545f71d78f54dc71e87577222eb5a64464bdbafd3900c972724c6eb3149b"
+    },
+    {
+      "bytes": 150366,
+      "path": "review/OPAQUE_SOURCE_REVIEW.json",
+      "sha256": "d64c1ef2ac50465f240bc9e6bc5d40258f21b9b8f61b0c90a4ae881e1f1a9d22"
+    },
+    {
+      "bytes": 7293,
+      "path": "review/check_metadata.py",
+      "sha256": "30d43419c836f1d0a28990f076281b66abf2db9cd09ac2c781418c4157cb0d55"
+    },
+    {
+      "bytes": 2155,
+      "path": "root/RI132_ROOT_ADJUDICATION.json",
+      "sha256": "393b11b96fcfa929323169c96ea508b6d8a01c8ebcdc448f90432aea99d90a77"
+    },
+    {
+      "bytes": 36783,
+      "path": "root/ROOT_REVIEW_RECONCILIATION.json",
+      "sha256": "eceb1a9ba6dc19cf8b881c213ed496279ffb3f7f9ecf79e6f70e302214ca2503"
+    },
+    {
+      "bytes": 4552,
+      "path": "root/ROOT_SOURCE_REVIEW.md",
+      "sha256": "aeaffdefebb0384c6e78b9b613766e29a2320907ff7ef75f39181f1c4c691c22"
+    },
+    {
+      "bytes": 1412,
+      "path": "root/SUCCESSOR_RESERVATIONS.json",
+      "sha256": "94a06cb10bfe4b6c4e541f0968d71261de3b4503000142680be17b04dc278f78"
+    },
+    {
+      "bytes": 5225,
+      "path": "root/check_review.py",
+      "sha256": "4eaac6be8cfe14153cd4a430f41c3eac2b9809aa97893f2443eebb6c1e07f916"
+    },
+    {
+      "bytes": 12730,
+      "path": "source/AUDIT_COVERAGE.md",
+      "sha256": "42705805336c98a9f48f757eeffe466d267e3ed52bc8d599b52411d917fae11e"
+    },
+    {
+      "bytes": 28190,
+      "path": "source/EVIDENCE_CONTRACT.md",
+      "sha256": "db823a7a1515b823f2196a8409b8368cedd0ce20fbe370ac2bbefaa3fc50e763"
+    },
+    {
+      "bytes": 9135,
+      "path": "source/HANDOFF.json",
+      "sha256": "5841f7d783b549b4e8e5a978e1ed3ebceb169412ffc8573ed04ebe52a6d9d53e"
+    },
+    {
+      "bytes": 5992,
+      "path": "source/HANDOFF.md",
+      "sha256": "b387317784b4f41c89b7e7f4e0c68e9128bcd03cca74664ca302767a6768fe5a"
+    },
+    {
+      "bytes": 10044,
+      "path": "source/NATIVE_COVERAGE.md",
+      "sha256": "80dde578e0c3320fafc1fc42cdc3b3c709896bdf7627105ba5caf5ce3600163f"
+    },
+    {
+      "bytes": 6678,
+      "path": "source/REFACTOR_DESIGN.md",
+      "sha256": "07149e1b1b8d62895a30854de279bb290cebb1fbcb73ac2255a6295b2782df42"
+    },
+    {
+      "bytes": 13141,
+      "path": "source/SOURCE_IDENTITIES.json",
+      "sha256": "81944b87ee986ea7a1e53e15f7af2f12d2d6f2322d022644c632f7842ea84329"
+    },
+    {
+      "bytes": 39050,
+      "path": "source/audit_controls.py",
+      "sha256": "f7729e31a7060d307e9c517cb35209b64f87f38c59236fe203e1705fa1003694"
+    },
+    {
+      "bytes": 24869,
+      "path": "source/entry_evidence.py",
+      "sha256": "55743a8b234bc48d643abca134fd1e50bbe1aad12350c47048530f8ef5dd01f2"
+    },
+    {
+      "bytes": 32809,
+      "path": "source/native_controls.py",
+      "sha256": "3b2c89c646638edc1a4d6334ca92ac5f6fe9a02e23f17c582a32161c167ef0c4"
+    },
+    {
+      "bytes": 14025,
+      "path": "source/qualify_callers.py",
+      "sha256": "758c82dc6e07026e4fb5bcb4f7368b0d04a0d5203710420d26237fdd3e54b996"
+    }
+  ],
+  "schema": "ri132-qualification-source-publication-manifest-v1",
+  "source_only": true
+}

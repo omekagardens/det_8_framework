@@ -1,0 +1,56 @@
+{
+  "H30_feasibility": false,
+  "RET_paused": true,
+  "audit_partition": {
+    "blocked": 48,
+    "direct": 8,
+    "retained": 12,
+    "whole": 1
+  },
+  "blocking_source_findings": [],
+  "complete_changed_caller_qualification": false,
+  "executed_cases": 0,
+  "execution_admission": false,
+  "independent_review": {
+    "bytes": 23570,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "c315545f71d78f54dc71e87577222eb5a64464bdbafd3900c972724c6eb3149b"
+  },
+  "independent_review_handoff": {
+    "bytes": 2150,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/HANDOFF.json",
+    "sha256": "575d63c2218d51aea7d489cb86fd49dd970229e17c181c7cdef55174a406932f"
+  },
+  "native_partition": {
+    "blocked": 25,
+    "direct": 16,
+    "retained": 10,
+    "whole": 1
+  },
+  "native_signs_decided": false,
+  "reconciliation": {
+    "bytes": 36783,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-root-coverage-adjudication-8hve4ntf/ROOT_REVIEW_RECONCILIATION.json",
+    "sha256": "eceb1a9ba6dc19cf8b881c213ed496279ffb3f7f9ecf79e6f70e302214ca2503"
+  },
+  "refactor_first_tranche": [
+    "dependency payload",
+    "current source-decision payload",
+    "independent source-review payload",
+    "exact typed15/4/71 current-target policy"
+  ],
+  "root_review": {
+    "bytes": 4552,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-root-coverage-adjudication-8hve4ntf/ROOT_SOURCE_REVIEW.md",
+    "sha256": "aeaffdefebb0384c6e78b9b613766e29a2320907ff7ef75f39181f1c4c691c22"
+  },
+  "schema": "ri132-root-unexecuted-coverage-adjudication-v1",
+  "scientific_body_decode": false,
+  "source_handoff": {
+    "bytes": 9135,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.json",
+    "sha256": "5841f7d783b549b4e8e5a978e1ed3ebceb169412ffc8573ed04ebe52a6d9d53e"
+  },
+  "source_target_activity": false,
+  "status": "ACCEPT_BOUNDED_UNEXECUTED_QUALIFICATION_SOURCE_AND_SELECT_NARROW_REPAIR"
+}
