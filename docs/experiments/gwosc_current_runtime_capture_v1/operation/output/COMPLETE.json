@@ -1,0 +1,85 @@
+{
+  "actual_data_admitted": false,
+  "admission": {
+    "bytes": 2775,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/CAPTURE_ADMISSION.json",
+    "sha256": "10c1e2597b11fe09c208cef3c0f171f56b422b9bd724f476351f594e9bcf23a8"
+  },
+  "artifacts": {
+    "POST": {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    "POST_completion": {
+      "bytes": 14051,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/POST.COMPLETION.json",
+      "sha256": "e8f116f8666dd53e0002f725d9cdae63172b4c4955903120ec2cbd6221848bc0"
+    },
+    "PRE": {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    "PRE_completion": {
+      "bytes": 25213,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/PRE.COMPLETION.json",
+      "sha256": "6b56c982c41b38f72a49f3b2f0cda8f4eb02ef18fce01c618f3d3927605d69ff"
+    },
+    "checks": {
+      "bytes": 74,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/CHECKS.json",
+      "sha256": "34a17c536f0c20348911d6438f09c96e53e0d60d212f4ba431d8dc8c7bd62e28"
+    },
+    "namespace": {
+      "bytes": 1997,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/NAMESPACE.json",
+      "sha256": "66c68062a3085ffccef65666eaf7864a607cacce02efddc17e7f424fc8e70e82"
+    }
+  },
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/CAPTURE_ADMISSION.json"
+  ],
+  "elapsed_seconds": 5.998126334,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "first_error": null,
+  "full32_qualified": false,
+  "genuine_outer_created": false,
+  "independent_tail_errors": [],
+  "phase": "capture",
+  "ret_paused": true,
+  "runtime_acceptance_created": false,
+  "schema": "ri133-preparation-completion-v1",
+  "scientific_targets_executed": false,
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  },
+  "status": "CAPTURED_FOR_INDEPENDENT_REVIEW"
+}

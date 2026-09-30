@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "bytes": 1207,
+      "kind": "file",
+      "relative": "ATTEMPT.json",
+      "sha256": "1bbf70aeb83a5307cfbbe2d6d9e61de27178c6d9f7461064f8d8c03a1e0ec80f"
+    },
+    {
+      "bytes": 74,
+      "kind": "file",
+      "relative": "CHECKS.json",
+      "sha256": "34a17c536f0c20348911d6438f09c96e53e0d60d212f4ba431d8dc8c7bd62e28"
+    },
+    {
+      "bytes": 891,
+      "kind": "file",
+      "relative": "POST.ATTEMPT.json",
+      "sha256": "0745a37e4302852f2650827e7ee5e0baec03b698479b26a44057620765b758fa"
+    },
+    {
+      "bytes": 14051,
+      "kind": "file",
+      "relative": "POST.COMPLETION.json",
+      "sha256": "e8f116f8666dd53e0002f725d9cdae63172b4c4955903120ec2cbd6221848bc0"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "POST.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7142026,
+      "kind": "file",
+      "relative": "POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 891,
+      "kind": "file",
+      "relative": "PRE.ATTEMPT.json",
+      "sha256": "0745a37e4302852f2650827e7ee5e0baec03b698479b26a44057620765b758fa"
+    },
+    {
+      "bytes": 25213,
+      "kind": "file",
+      "relative": "PRE.COMPLETION.json",
+      "sha256": "6b56c982c41b38f72a49f3b2f0cda8f4eb02ef18fce01c618f3d3927605d69ff"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "PRE.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7142026,
+      "kind": "file",
+      "relative": "PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    }
+  ],
+  "excluded_not_yet_written": [
+    "NAMESPACE.json",
+    "COMPLETE.json"
+  ],
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output",
+  "schema": "ri133-retained-namespace-v1"
+}

@@ -1,0 +1,213 @@
+{
+  "schema": "ri145-author-checks-v1",
+  "status": "AUTHOR_PROOF_AND_METADATA_CHECKS_NOT_INDEPENDENT_ACCEPTANCE",
+  "administrative_check": {
+    "tool_outcome": {
+      "chunk_id": "a89d96",
+      "exit_code": 0
+    },
+    "report": {
+      "schema": "ri145-author-identity-check-v1",
+      "status": "ADMINISTRATIVE_MATCH_NOT_PROOF_ACCEPTANCE",
+      "dependency_manifest": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_DEPENDENCIES.json",
+        "bytes": 79269,
+        "sha256": "8f26931fc568f4c0158d4840eb07fcfebf86021d404c8c542f4e0805a51b1807"
+      },
+      "premise_manifest": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_IDENTITIES.json",
+        "bytes": 13725,
+        "sha256": "cc7724991ebecca4d84243f34e142e468e5583edb62d88500f194e69b26322c4"
+      },
+      "dependencies": 86,
+      "bytes": 3098788,
+      "classifications": {
+        "analytic-source-text-or-review": 42,
+        "opaque-historical-acceptance-or-source-support": 27,
+        "opaque-scientific-historical-premise": 1,
+        "selected-administrative-proof-provenance": 16
+      },
+      "administrative_bodies": 16,
+      "administrative_references": 132,
+      "premise_references": 45,
+      "namespaces": [
+        {
+          "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5",
+          "count": 8
+        },
+        {
+          "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv",
+          "count": 11
+        },
+        {
+          "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB",
+          "count": 6
+        },
+        {
+          "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt",
+          "count": 6
+        },
+        {
+          "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324",
+          "count": 7
+        }
+      ],
+      "actual_read_counterparts": [
+        {
+          "actual_read": {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+            "bytes": 7886,
+            "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+          },
+          "published": {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+            "bytes": 7886,
+            "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+          },
+          "whole_bytes_equal": true
+        },
+        {
+          "actual_read": {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F2_ANALYTIC_CHECK.md",
+            "bytes": 10742,
+            "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833"
+          },
+          "published": {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md",
+            "bytes": 10742,
+            "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833"
+          },
+          "whole_bytes_equal": true
+        },
+        {
+          "actual_read": {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F3_ANALYTIC_CHECK.md",
+            "bytes": 8244,
+            "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2"
+          },
+          "published": {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+            "bytes": 8244,
+            "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2"
+          },
+          "whole_bytes_equal": true
+        },
+        {
+          "actual_read": {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+            "bytes": 11893,
+            "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+          },
+          "published": {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+            "bytes": 11893,
+            "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+          },
+          "whole_bytes_equal": true
+        }
+      ],
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/ANALYTIC_RESULT.json",
+          "bytes": 4378,
+          "sha256": "5a2a71ab683c54d26b1c0973ff088011f9dc6c27d2045c7db3118e3344e2e359"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/DEPENDENCY_NOTES.md",
+          "bytes": 13495,
+          "sha256": "4c1b347b79ad73c451c509ee92f1089884df1bb8ca49edfee3d71035518e1c98"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/ENDPOINT_REDUCTION.md",
+          "bytes": 16141,
+          "sha256": "9b548f8a0cc912682c85f73f5a5f49a58d8a63d9daacbbb7156ffb1a65976a0d"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/HANDOFF.md",
+          "bytes": 3813,
+          "sha256": "f12bb49a7ef7fed5954be1415f1aee03fbb9d252fc48fbb1a8f2b8ad947d00b6"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/PROOF_CROSSCHECK.md",
+          "bytes": 8006,
+          "sha256": "3cdce3cd670243c0b850886451cc2a412d24835702ff92e88146f7fb9719adad"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_DEPENDENCIES.json",
+          "bytes": 79269,
+          "sha256": "8f26931fc568f4c0158d4840eb07fcfebf86021d404c8c542f4e0805a51b1807"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_IDENTITIES.json",
+          "bytes": 13725,
+          "sha256": "cc7724991ebecca4d84243f34e142e468e5583edb62d88500f194e69b26322c4"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/WEIGHTED_MARGIN_PROOF.md",
+          "bytes": 11272,
+          "sha256": "9bb479dcf644af911bb5c87fcccf722b987219ff0b5cf7f385efde764bbb2e02"
+        }
+      ],
+      "scope": "Bounded administrative provenance JSON and opaque whole-file identities only; no mathematical or scientific code execution, no scientific body decoding, no current runtime capture."
+    },
+    "inline_command": "node - <<'NODE'\nconst fs=require('fs'),crypto=require('crypto'),path=require('path'),assert=require('assert/strict');\nconst base='/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci';\nfunction read(p){assert.equal(fs.realpathSync(p),p);let cur='/';for(const part of p.split('/').filter(Boolean)){cur=path.join(cur,part);assert.equal(fs.lstatSync(cur).isSymbolicLink(),false);}const a=fs.lstatSync(p,{bigint:true});assert(a.isFile()&&a.size<=67108864n);const fd=fs.openSync(p,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);const o=fs.fstatSync(fd,{bigint:true}),body=fs.readFileSync(fd),q=fs.fstatSync(fd,{bigint:true});fs.closeSync(fd);const t=fs.lstatSync(p,{bigint:true});for(const v of[o,q,t])for(const k of['dev','ino','mode','nlink','size','mtimeNs','ctimeNs'])assert.equal(v[k],a[k]);assert.equal(BigInt(body.length),a.size);return{body,identity:{path:p,bytes:body.length,sha256:crypto.createHash('sha256').update(body).digest('hex')}};}\nconst df=read(base+'/SOURCE_DEPENDENCIES.json'),d=JSON.parse(df.body);assert.equal(d.protected_files.length,86);\nconst sf=read(base+'/SOURCE_IDENTITIES.json'),s=JSON.parse(sf.body);\nconst known=new Map([[df.identity.path,df.identity],[sf.identity.path,sf.identity]]), raws=new Map(),counts={};let bytes=0;\nfor(let i=0;i<d.protected_files.length;i++){const e=d.protected_files[i];assert.equal(e.role,'dep_'+String(i+1).padStart(4,'0'));assert.equal(e.path,e.identity.path);assert.equal(e.identity.resolved_path,e.path);assert.deepEqual(e.identity.symlinks,[]);assert(!e.path.startsWith(base+'/'));assert(!known.has(e.path));const got=read(e.path);assert.equal(got.identity.bytes,e.identity.bytes);assert.equal(got.identity.sha256,e.identity.sha256);known.set(e.path,got.identity);raws.set(e.path,got.body);bytes+=got.body.length;counts[e.classification]=(counts[e.classification]||0)+1;}\nassert.deepEqual(d.protected_files.map(e=>e.path),d.protected_files.map(e=>e.path).sort());\nlet refs=0;function walk(v){if(v&&typeof v==='object'){if(typeof v.path==='string'&&Number.isInteger(v.bytes)&&typeof v.sha256==='string'){const k=known.get(v.path);assert(k,'missing typed identity '+v.path);assert.equal(v.bytes,k.bytes);assert.equal(v.sha256,k.sha256);refs++;}for(const x of Object.values(v))walk(x);}}\nlet admins=0;for(const e of d.protected_files)if(e.classification==='selected-administrative-proof-provenance'){walk(JSON.parse(raws.get(e.path)));admins++;}\nconst adminRefs=refs;walk(s);const subjectRefs=refs-adminRefs;\nconst dirs=['ri127-connected-compensation-nMyz57P5','ri128-connected-sign-dvgWLqqv','ri127-independent-proof-review-F2Esp0RB','ri128-independent-proof-source-review-Q4vXBzjt','ri143-independent-feasibility-review-f68n6324'];\nconst namespaces=dirs.map(n=>{const dir='/Volumes/AI_DATA/development/det-review-evidence/'+n;const expected=d.protected_files.filter(e=>path.dirname(e.path)===dir).map(e=>path.basename(e.path)).sort();const actual=fs.readdirSync(dir).sort();assert.deepEqual(actual,expected);return{directory:dir,count:actual.length};});\nconst aliases=[\n['/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md','/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md'],\n['/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F2_ANALYTIC_CHECK.md','/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md'],\n['/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F3_ANALYTIC_CHECK.md','/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md'],\n['/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md','/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md']];\nfor(const[a,b]of aliases){assert(raws.has(a)&&raws.has(b),'unselected counterpart '+b);assert(raws.get(a).equals(raws.get(b)));}\nconst names=fs.readdirSync(base).sort();assert.deepEqual(names,['ANALYTIC_RESULT.json','DEPENDENCY_NOTES.md','ENDPOINT_REDUCTION.md','HANDOFF.md','PROOF_CROSSCHECK.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','WEIGHTED_MARGIN_PROOF.md'].sort());\nconst current=names.map(n=>read(base+'/'+n).identity);const result=JSON.parse(read(base+'/ANALYTIC_RESULT.json').body);assert.equal(result.scope.scientific_body_decode,false);assert.equal(result.scope.subject_helper_import_compile_AST_probe_run,false);assert.equal(result.review.independent_acceptance,false);\nconsole.log(JSON.stringify({schema:'ri145-author-identity-check-v1',status:'ADMINISTRATIVE_MATCH_NOT_PROOF_ACCEPTANCE',dependency_manifest:df.identity,premise_manifest:sf.identity,dependencies:d.protected_files.length,bytes,classifications:counts,administrative_bodies:admins,administrative_references:adminRefs,premise_references:subjectRefs,namespaces,actual_read_counterparts:aliases.map(([a,b])=>({actual_read:known.get(a),published:known.get(b),whole_bytes_equal:true})),current_payloads:current,scope:'Bounded administrative provenance JSON and opaque whole-file identities only; no mathematical or scientific code execution, no scientific body decoding, no current runtime capture.'}));\nNODE"
+  },
+  "mathematical_review": {
+    "method": "Manual source-based algebra only; no symbolic engine, proof assistant, numerical scientific extraction or executed test.",
+    "main": "Read complete RI127 decision, result, local positivity and record transport; RI128 analytic bounds/input formulas; complete narrative/structured independent127/128 reviews and root decisions; actual143 review/decision; complete RI120 prefix/F2/F3 and RI41 normalization/RI63 completion. Reviewed all current proof text and checked exact normalized W, A/B, positive K decomposition, quadratic minimum/interval and endpoint logic.",
+    "contributions": [
+      {
+        "author": "/root/ri132_native_controls",
+        "file": "ENDPOINT_REDUCTION.md",
+        "scope": "Exact clearing and normalized identity, retained singleton q residual, complete positive-factor U20 upper bound, formal complement bounds, exact endpoint equivalence and conditional magnitude comparisons."
+      },
+      {
+        "author": "/root/ri132_audit_controls",
+        "file": "PROOF_CROSSCHECK.md",
+        "scope": "Independent author derivation of E2<2, lower U bounds, normalized W, positive quadratic minimum and interval; then full main-proof and endpoint-note author-peer algebra review."
+      }
+    ],
+    "scope_peer": {
+      "author": "/root/ri132_evidence_contract",
+      "scope": "Full main-proof scope review before final squeeze/aggregate-notation clarification; preserved actual membership/full-domain gap, immutable old targets and shared constraints."
+    },
+    "corrected_exposition": "Scope peer noted that an upper bound alone does not prove uniform convergence. Main explicitly added the positive-complement lower bound0<W/r+1 and two-sided squeeze. Mathematical peer then checked the complete corrected proof.",
+    "independence": "Every current reviewer is an author/contributor to this packet or its integration. None supplies independent acceptance. Fresh nonauthor review and root adjudication are outstanding."
+  },
+  "administrative_history": [
+    {
+      "kind": "bounded_display_recovery",
+      "detail": "A combined initial source display clipped part of LOCAL_POSITIVITY. Main reread it completely in2c2230; other mathematical texts were read through EOF. No clipped passage was credited as complete."
+    },
+    {
+      "kind": "actual_read_dependency_repair",
+      "detail": "Initial82-file selection bound published RI120 texts only. Added three distinct actual external read paths after whole-byte comparison, then the separately read external RI117 lemma, making86. Published counterparts remain separate entries. RI41 normalization is directly pinned for the1/44 premise."
+    },
+    {
+      "kind": "expected_negative_search",
+      "tool_outcome": {
+        "chunk_id": "870045",
+        "exit_code": 1,
+        "output": ""
+      },
+      "detail": "rg found no RI117 external lemma path in the earlier dependency selection; this administrative finding prompted the explicit additional dependency, not a subject failure."
+    },
+    {
+      "kind": "terminology_correction",
+      "detail": "Author cross-check replaced size-two/size-three with T2/T3 for two seven-parent families; no formula or target changed."
+    }
+  ],
+  "limitations": [
+    "Administrative identity agreement does not establish the mathematics or qualify runtime execution.",
+    "Historical scientific JSON is opaque; displayed historical large numerical constants were not reused as new operands.",
+    "Symbolic delta widths are proved positive but not numerically instantiated; actual rho membership remains unproved.",
+    "All31/139/20/42 runtime obligations, original RI128 targets/domain/thresholds and full shared H30 constraints remain unchanged.",
+    "No source copied/modified, new executable, controller, fixture, admission, repository/index/Git operation, or successor."
+  ],
+  "source_diff_applicability": {
+    "copied_executable_source": false,
+    "modified_executable_source": false,
+    "diffs": [],
+    "explanation": "Only proof prose and administrative metadata were authored; original source modules remain immutable opaque provenance."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "ri146-root-administrative-check-diagnostics-v1",
+  "first": {
+    "chunk_id": "616fb8",
+    "exit_code": 1,
+    "cause": "Reviewer checker compared current {directories} wrapper with historical {directories,notes,status} wrapper. Source contract compares directories only.",
+    "retained_checker": "check_capture.before-optional-wrapper-fix.py",
+    "written_before_failure": "SOURCE_POST.json"
+  },
+  "correction": "Compare complete directories value; no actual capture/source/output was changed or rerun. Verify existing SOURCE_POST rather than overwrite.",
+  "corrected_initial": {
+    "chunk_id": "f9ac19",
+    "wall_time_seconds": 1.003420333,
+    "session_id": 25396,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "corrected_terminal": {
+    "chunk_id": "9be99c",
+    "wall_time_seconds": 0.000007833,
+    "exit_code": 0,
+    "original_token_count": 217,
+    "output": "{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RUNTIME_POST_IDENTITIES.json', 'bytes': 6362349, 'sha256': 'ee1b6d14132cb64c563229cd3cb7456dd69083f9e8c7cea1e2c67c918c6a386f'}\n{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/OPERATION_FINAL_IDENTITIES.json', 'bytes': 10043, 'sha256': 'c1a58e529353f3c64df264a9212783b4fc71b2c49132d9c3aa7b6f5941c67d62'}\n{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/GENUINE_OUTER.json', 'bytes': 1448, 'sha256': '1f846701e52bfb22b2f0b1891d56780737867a99e447c2f8274729790a5df0b1'}\n{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/ROOT_CAPTURE_CHECK.json', 'bytes': 1236, 'sha256': '521bbfc7307d0c798903855cbf24b4de2aea4c0106df8b9db34d857c44af0651'}\n"
+  }
+}

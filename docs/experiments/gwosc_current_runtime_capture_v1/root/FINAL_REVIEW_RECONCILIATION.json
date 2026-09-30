@@ -1,0 +1,10 @@
+{
+  "erratum_binding": true,
+  "operation_entries": 16,
+  "original_seal_preserved": true,
+  "review_files": 14,
+  "reviewer_inputs": 500,
+  "source_states": 471,
+  "status": "PASS",
+  "subject_rerun": false
+}

@@ -1,0 +1,43 @@
+{
+  "corrections": [
+    {
+      "basis": "The checker already compares the complete exact eight-field expected object against actual GENUINE_OUTER.json; only prose number was wrong.",
+      "correct": "closed eight-field genuine wrapper",
+      "exact_fields": [
+        "command",
+        "completion",
+        "environment",
+        "exit_code",
+        "external_timeout_seconds",
+        "raw_tool_receipt",
+        "schema",
+        "status"
+      ],
+      "location": "Genuine outer evidence and scope, sentence describing separately saved closed wrapper",
+      "original": "closed nine-field genuine wrapper"
+    },
+    {
+      "basis": "prepare.py run() finalization places elapsed=time.monotonic()-started before completion object construction and save(out/COMPLETE.json, completion).",
+      "correct": "The parent 5.998126334-second internal elapsed value is sampled after the namespace tail and before COMPLETE construction/write. It includes both owned children and the preceding finalization tails. COMPLETE construction/write and process return remain covered by the genuine outer 960-second deadline and actual terminal completion. Parent preownership authentication also lies outside its internal timer and inside the genuine outer operation.",
+      "location": "Raw monitoring, precise timer scopes and final custody, parent internal timer paragraph"
+    }
+  ],
+  "interpretation_precedence": "Read these corrections with the original immutable findings and verdict. They supersede only the two identified descriptive statements.",
+  "new_subject_or_administrative_checker_execution": false,
+  "numeric_results_or_acceptance_changed": false,
+  "original_findings": {
+    "bytes": 18478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/INDEPENDENT_CAPTURE_REVIEW.md",
+    "sha256": "ede39c96fb67e43ed4a1bbbb9c1162227606ee326b8f676aaaf79b16709fbfee"
+  },
+  "original_review_files_modified": false,
+  "original_sealed_handoff": {
+    "bytes": 5997,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/HANDOFF.json",
+    "sha256": "76a681bff2c332f032eff78822d285277d7586cc822e07ebc6dc9058d5b44fed"
+  },
+  "root_adjudication_still_required": true,
+  "runtime_check_omitted": false,
+  "schema": "ri146-independent-capture-review-wording-erratum-v1",
+  "status": "CORRECT_TWO_DESCRIPTIVE_STATEMENTS_NO_EVIDENCE_CHANGE"
+}

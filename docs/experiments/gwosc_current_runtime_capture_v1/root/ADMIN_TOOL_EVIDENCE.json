@@ -1,0 +1,54 @@
+{
+  "capture_admission": {
+    "chunk_id": "9f19c0",
+    "exit_code": 0
+  },
+  "capture_records": [
+    {
+      "bytes": 1047,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/GENUINE_TOOL_COMPLETE.json",
+      "sha256": "81071284db9ccad7232b23f384da6cae4a01b4b8659d0c5c2433d6102c503b44"
+    },
+    {
+      "bytes": 1493,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/GENUINE_TOOL_ARGUMENTS.json",
+      "sha256": "f321ae705d15a8fe38716fc416f0f725b86aa939f537a555e9870573c9d92ff5"
+    },
+    {
+      "bytes": 1067,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BOOTSTRAP_PRE_TOOL.json",
+      "sha256": "e6b816afb0a382a3eb52cea881f3d2ec900e4fa4f4c57a09c00e338d165d4e8c"
+    },
+    {
+      "bytes": 1069,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BOOTSTRAP_POST_TOOL.json",
+      "sha256": "c51460dc8f0feae9552bbf5c76fb522d07f9221646d58c164c56fd2a338719e6"
+    },
+    {
+      "bytes": 1781,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/ROOT_CHECK_DIAGNOSTICS.json",
+      "sha256": "ff7eb9cbd741c128d011cb913706e7554eb239065e67495c78d508373878df9a"
+    }
+  ],
+  "historical_selection_reconstruction": {
+    "chunk_id": "a34f6b",
+    "exit_code": 0
+  },
+  "native_adjudication": {
+    "chunk_id": "84a761",
+    "exit_code": 0
+  },
+  "origin": "Recorded genuine tool outcomes from root conversation; local metadata does not self-authenticate origin.",
+  "parent_remote": {
+    "chunk_id": "a848aa",
+    "commit": "99f877abd35358f7e94f384e09457868822f6701",
+    "exit_code": 0,
+    "ref": "refs/heads/ret",
+    "sha256_note": "Git commit ID below is not SHA256"
+  },
+  "schema": "ri145-ri146-root-admin-tool-evidence-v1",
+  "source_setup": {
+    "chunk_id": "9454c4",
+    "exit_code": 0
+  }
+}

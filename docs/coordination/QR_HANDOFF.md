@@ -1,41 +1,36 @@
-# Current QR coordination — RI-145 analytic weighted margin
+# Current QR coordination — RI-147 actual-scale comparison
 
-**Current checkpoint — 30 September 2026 UTC.** RI-143's native boundary
-feasibility conclusion and RI-144's fifteen actual bootstrap guard outcomes are
+**Current checkpoint — 30 September 2026 UTC.** RI-145's conditional
+weighted-margin theorem and RI-146's genuine current metadata capture are
 independently reviewed and root accepted. Exact evidence is archived in
-`docs/track_b/native_growth_boundary_feasibility_v1/` and
-`docs/experiments/gwosc_bootstrap_guard_qualification_v1/`.
+`docs/track_b/native_growth_weighted_margin_interval_v1/` and
+`docs/experiments/gwosc_current_runtime_capture_v1/`.
 
-Native review confirms a concrete blocker: no complete unchanged-entry controller
-has been justified for the 31 proposed fault attempts under the preserved bounds
-and custody premises. This is not platform impossibility. Preseeded markers fail
-an earlier guard; actual Python handler timing needs a witness; directory-close
-failure can replace fsync; census tail errors may follow earlier causes; saved
-receipts remain provisional through restoration. Natural EOF is source-reachable
-but unqualified. All 450 dependencies/139 policies/104 ranges reconcile; no native
-fault or policy case ran. All 20 native and 42 audit deeper obligations and C2/C3/shared H30 remain.
+The native theorem gives strict singleton-preserving reference bounds and an
+explicit positive interval where W<=-alpha r. It does not yet place actual rho
+in that interval or settle the full-domain endpoints, C2/C3 or shared H30.
+All fixed numerical targets, Y=1/4 and 31/139/20/42 runtime obligations remain.
+RI-143's unchanged-entry controller blocker is retained; this is not platform
+impossibility. Quantum Relativity is actively assigned RI-147 in `ri147-native-scale-membership-q4lxbpke`
+to derive actual record-sensitivity and normalization comparisons that could
+close the scale-membership gap. New proof requires independent review.
 
-After adjudication, Quantum Relativity owns RI-145 in `ri145-native-weighted-margin-proof-zo96x_ci`:
-derive a substantive analytic bound from the accepted seed-free weighted margin
-and correlated scale relation. A full obstruction or an exact conditional interval
-must state remaining coefficient premises. The fixed RI-128 numerical targets,
-domain and all execution requirements are unchanged. New proof needs review.
+RI-146 genuinely ran the unchanged RI-141 parent and both metadata children.
+The complete 7,142,026-byte PRE/POST snapshots match, covering 9,923 runtime files
+and 258,862,951 bytes. Complete source/supplier/host, selection, optional native
+and loader-route evidence and 148 raw monitor attempts reconcile. Both children
+and the genuine outer exited zero under unchanged bounds; no profile, guard,
+scientific target or actual-data processing ran. The accepted baseline retains
+trusted supplier/cache and sampled-resource premises. Historical selection differs
+only in 4,609 device numbers; the existing fresh-stability requirement passed.
+Original failures remain.
 
-Measurement actual RI-144 used a fresh genuine root admission and matching full
-supplier PRE/POST. Tool 32ad3f exited 0. All 15 isolated expectations, complete
-operands/private files/first-refusal traces, 43-entry parent and 33-entry child namespaces and ten
-raw monitor samples are independently reconciled. Child wall time 0.382986917 seconds,
-peak 46,896 KiB, maximum gap 0.043370541 seconds remain within unchanged limits.
-The cases use explicit supplier doubles; this is not real production capture.
-
-RI-146 is root-owned in `ri146-root-current-capture-9bfi4u8s`: genuinely admit the unchanged
-RI-141 production parent and both current PRE/POST metadata children after fresh
-source/supplier/host checks. Independent baseline acceptance precedes normal,
-then optimized, separate 65 guards, WHITE/full32 and conventional GWOSC reproduction.
-Historical 25 retains original-target credit. Current runtime, calibrated claims and a
-native forward map remain distinct. All historical failures and original review
-remain intact. Root owns repository/index/Git and genuine operational admissions;
-active successor work and unrelated changes are excluded from this checkpoint.
+RI-148 is root-owned in `ri148-root-normal-profile-qfvdi_75` for one separately admitted normal
+runtime profile using the same environment and fresh preflight. Independent
+normal acceptance precedes optimized, separate 65 guards, WHITE/full32 and
+conventional GWOSC reproduction. No next-stage card is inferred from capture.
+Calibration and a native forward map remain open. Root owns all Git and actual
+admissions; active successors and unrelated edits are excluded from publication.
 The programme continues; RET alone remains paused.
 
 **RI-129 retained assignment scope (completed and source-adjudicated).**

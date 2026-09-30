@@ -1,0 +1,131 @@
+{
+  "checks_are_metadata_predicates_not_controls": true,
+  "checks_passed": 103901,
+  "complete_detail": {
+    "bytes": 19006185,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/SAVED_CAPTURE_CHECKS.json",
+    "sha256": "d851832efa34d5c02a167cc211abf977ac799e2df2eea66f33fd1eea58afde36"
+  },
+  "current_runtime_or_vendor_observation": false,
+  "descriptive_log_annotation": "One label says whole18field parent completion; exact observed and expected object comparison covers17 fields. No acceptance predicate uses18; executed evidence preserved.",
+  "executed_checker": {
+    "bytes": 26391,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/review_saved_capture.py",
+    "sha256": "5b4d7a3980e637b109da586d69e2070e758c9763c88eb9c972dfcbd0cf1c2d26"
+  },
+  "reviewer_subject_helper_execution": false,
+  "schema": "ri146-independent-saved-capture-summary-v1",
+  "scientific_body_decode": false,
+  "status": "PASS",
+  "summary": {
+    "bootstrap": {
+      "cached_names_saved_absent": 61,
+      "child_descriptor_modules": 103,
+      "child_module_file_bindings": 78,
+      "current_vendor_files_opened_by_reviewer": 0,
+      "frozen_origins": [
+        "_frozen_importlib",
+        "_frozen_importlib_external",
+        "importlib._bootstrap",
+        "importlib._bootstrap_external",
+        "zipimport"
+      ],
+      "vendor_file_bytes": 48024515,
+      "vendor_namespace_entries": 2004,
+      "vendor_record_bytes": 1690931,
+      "vendor_record_sha256": "f4ad1b1364d073430cad97d245cc230442b8df11cba9c3b21c3582d5842e21fb",
+      "vendor_whole_pre_post_equal": true
+    },
+    "monitors": [
+      {
+        "elapsed_seconds": 3.507470125,
+        "final_gap_seconds": 0.01528187499999989,
+        "label": "PRE",
+        "maximum_gap_seconds": 0.038898666999999776,
+        "maximum_subtraction_residual_seconds": 2.220446049250313e-16,
+        "owned_child_timer_includes_startup_and_authentication": true,
+        "peak_rss_kib": 88096,
+        "raw_attempts": 98,
+        "samples": 98,
+        "zero_RSS_samples": 1
+      },
+      {
+        "elapsed_seconds": 1.9141976249999995,
+        "final_gap_seconds": 0.050089915999999235,
+        "label": "POST",
+        "maximum_gap_seconds": 0.039126416999999414,
+        "maximum_subtraction_residual_seconds": 0.0,
+        "owned_child_timer_includes_startup_and_authentication": true,
+        "peak_rss_kib": 90176,
+        "raw_attempts": 50,
+        "samples": 50,
+        "zero_RSS_samples": 0
+      }
+    ],
+    "outcome": {
+      "candidate_interpreter_executed": false,
+      "complete_parent_fields": 17,
+      "genuine_initial_session": 81040,
+      "genuine_outer_960_seconds_covers_parent_startup": true,
+      "genuine_terminal_exit_code": 0,
+      "operation_directories": 3,
+      "operation_entries": 16,
+      "operation_files": 13,
+      "output_bytes": 14331849,
+      "output_entries": 12,
+      "owned_child_timers_include_startup_and_authentication": true,
+      "parent_elapsed_seconds": 5.998126334,
+      "parent_preownership_authentication_outside_internal_timer": true,
+      "scientific_credit": false,
+      "snapshot_bytes": 7142026,
+      "snapshot_sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e",
+      "whole_snapshots_equal": true
+    },
+    "runtime_metadata": {
+      "bytes": 258862951,
+      "difference_details": {
+        "bytes": 738,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/HISTORICAL_SELECTION_COMPARISON.json",
+        "sha256": "c44655859ea88475445bb8799bb96af4048e8716aaf005620b99a880830a0029"
+      },
+      "extras": 13,
+      "files": 9923,
+      "fixed_absences": 8,
+      "historical_runtime_whole_object_equal": true,
+      "historical_selection_difference_count": 4609,
+      "loader_bindings": 8,
+      "opaque_pyc_headers": 3394,
+      "optional_members": [
+        20,
+        5,
+        6
+      ],
+      "optional_native_directories": 3,
+      "preobserved_dyld_routes": 7,
+      "reviewer_current_runtime_files_opened": 0,
+      "root_current_saved_runtime_identities_matched": 9923,
+      "roots": [
+        {
+          "regular_files": 2878,
+          "root": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11"
+        },
+        {
+          "regular_files": 5313,
+          "root": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages"
+        },
+        {
+          "regular_files": 1719,
+          "root": "/opt/homebrew/lib/python3.11/site-packages"
+        }
+      ],
+      "tree_links": 3
+    },
+    "source": {
+      "dependency_bytes": 25947539,
+      "dependency_files": 442,
+      "full_states": 471,
+      "review_namespace": 10,
+      "source_namespace": 15
+    }
+  }
+}

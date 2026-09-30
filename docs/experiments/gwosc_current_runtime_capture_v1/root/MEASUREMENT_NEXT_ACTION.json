@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "bytes": 1659,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BASELINE_ACCEPTANCE.json",
+    "sha256": "4e82e7e3aae50e45fdbae3aada5a2ab55422c690a843edbb4fb6673e6607f2c8"
+  },
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment",
+  "next": "Fresh whole source/supplier/host checks, one separate genuine profile_normal admission, both current snapshots equal accepted baseline,30-second profile and independent full saved actual review. No optimized or65 admission before predecessor acceptance.",
+  "operational_admission_created": false,
+  "owner": "root",
+  "predecessor": {
+    "bytes": 4412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RI146_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "5357b3ce425db7c3b2ad34a3b7644158656f461c4d3bf9e190c6cfbf28611d84"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75",
+  "ret_paused": true,
+  "schema": "ri148-root-normal-profile-assignment-v1",
+  "scientific_credit": false,
+  "source_packet": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076",
+  "status": "ACTIVE_ROOT_PREPARATION_NOT_OPERATIONAL_ADMISSION"
+}

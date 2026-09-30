@@ -1,0 +1,37 @@
+{
+  "monitors": [
+    {
+      "elapsed": 3.507470125,
+      "final_gap": 0.01528187499999989,
+      "label": "PRE",
+      "maximum_gap": 0.038898666999999776,
+      "peak_rss_kib": 88096,
+      "samples": 98
+    },
+    {
+      "elapsed": 1.9141976249999995,
+      "final_gap": 0.050089915999999235,
+      "label": "POST",
+      "maximum_gap": 0.039126416999999414,
+      "peak_rss_kib": 90176,
+      "samples": 50
+    }
+  ],
+  "operation_entries": 16,
+  "output_entries": 12,
+  "parent_seconds": 5.998126334,
+  "runtime_bytes": 258862951,
+  "runtime_files": 9923,
+  "schema": "ri146-root-saved-capture-check-v1",
+  "scientific_credit": false,
+  "scope": "Saved complete snapshot comparison, every runtime file fresh opaque identity/selection, actual monitor arithmetic, full output namespace; independent actual review remains separate",
+  "snapshots": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "snapshots_byte_equal": true,
+  "source_admission_and_vendor_unchanged": true,
+  "source_files": 471,
+  "status": "PASS_PENDING_INDEPENDENT_REVIEW"
+}

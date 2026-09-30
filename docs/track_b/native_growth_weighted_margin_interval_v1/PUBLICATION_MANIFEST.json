@@ -1,0 +1,129 @@
+{
+  "exact_copies": 22,
+  "parent": "99f877abd35358f7e94f384e09457868822f6701",
+  "payload": [
+    {
+      "bytes": 64699,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "c32b70a0c23a38a02f60c0e19fa36ef58156adf0888d88084490437c5198d22f"
+    },
+    {
+      "bytes": 1894,
+      "path": "README.md",
+      "sha256": "cb5dd5d1096ba4ffeadde87d0aa719c556088e9f2523f0df1e440f4d10374564"
+    },
+    {
+      "bytes": 4324,
+      "path": "review/FINAL_PIN_CHECK.json",
+      "sha256": "9aec30e0471f46e3aaf908bf99397e4e4959ba6fb8085295be79d6ca05c33408"
+    },
+    {
+      "bytes": 4678,
+      "path": "review/HANDOFF.json",
+      "sha256": "e30140e00872f1269933db73509f3f066c463b8a98650e171be1b737bb6f2374"
+    },
+    {
+      "bytes": 8267,
+      "path": "review/INDEPENDENT_PROOF_REVIEW.json",
+      "sha256": "75960276676a6359952dd5942c39fec42cf8e4d8651ea28cdb1f96e90f790dfe"
+    },
+    {
+      "bytes": 18775,
+      "path": "review/INDEPENDENT_PROOF_REVIEW.md",
+      "sha256": "fe4723159266caed2e425e323221d753fa129c786bbe4300f261254355066271"
+    },
+    {
+      "bytes": 49418,
+      "path": "review/METADATA_CHECK.json",
+      "sha256": "78b62b0c7fd8a82ff856a4c7ec69fbd0b27d8e4d140825c1fd538f002e813ef9"
+    },
+    {
+      "bytes": 824,
+      "path": "review/REVIEW_DIAGNOSTICS.json",
+      "sha256": "ecb4cec808f0f27adc44d4c0820ed0b9a24918de5d54a1af3474d518941b278d"
+    },
+    {
+      "bytes": 10033,
+      "path": "review/check_metadata.py",
+      "sha256": "8bda3601c27f10dba4ae002edcab79f794a8ca4f6d0b3d189a693ef5bd572504"
+    },
+    {
+      "bytes": 1961,
+      "path": "root/ADMIN_TOOL_EVIDENCE.json",
+      "sha256": "11cc320dc9ad973100e7c5b2cf89db9245ea425c7e40c96df467eb2c3d8a7020"
+    },
+    {
+      "bytes": 2148,
+      "path": "root/NATIVE_SUCCESSOR_RESERVATION.json",
+      "sha256": "9d3adc1db19469d6eeeb4b47856e2426ee353cf0c4a04add927d660be773081c"
+    },
+    {
+      "bytes": 2631,
+      "path": "root/RI145_ROOT_ADJUDICATION.json",
+      "sha256": "a8c6bead842cd523c059e7ea7d72a6402a2b497039f3e7e21bc22834f8f27f60"
+    },
+    {
+      "bytes": 58875,
+      "path": "root/ROOT_NATIVE_CHECK.json",
+      "sha256": "4f4c564231498f9ac4feeb151d2b445b25e2fb13946e8d24c84bc0603312fe5d"
+    },
+    {
+      "bytes": 5825,
+      "path": "root/adjudicate_native.py",
+      "sha256": "038dbbdcfc63280c78e6eb90a09f59969fd5ab7b22d1fc5ad9e8e316094a1267"
+    },
+    {
+      "bytes": 4378,
+      "path": "source/ANALYTIC_RESULT.json",
+      "sha256": "5a2a71ab683c54d26b1c0973ff088011f9dc6c27d2045c7db3118e3344e2e359"
+    },
+    {
+      "bytes": 16863,
+      "path": "source/AUTHOR_CHECKS.json",
+      "sha256": "c536c922c9edd9f7f280b15abb2f3e343cefea26cf537afa845b2077555274c6"
+    },
+    {
+      "bytes": 13495,
+      "path": "source/DEPENDENCY_NOTES.md",
+      "sha256": "4c1b347b79ad73c451c509ee92f1089884df1bb8ca49edfee3d71035518e1c98"
+    },
+    {
+      "bytes": 16141,
+      "path": "source/ENDPOINT_REDUCTION.md",
+      "sha256": "9b548f8a0cc912682c85f73f5a5f49a58d8a63d9daacbbb7156ffb1a65976a0d"
+    },
+    {
+      "bytes": 6015,
+      "path": "source/HANDOFF.json",
+      "sha256": "f53a0e1c49069a1e9057ad69169facca556b77e7cfb2534eba440b7eaa91db19"
+    },
+    {
+      "bytes": 3813,
+      "path": "source/HANDOFF.md",
+      "sha256": "f12bb49a7ef7fed5954be1415f1aee03fbb9d252fc48fbb1a8f2b8ad947d00b6"
+    },
+    {
+      "bytes": 8006,
+      "path": "source/PROOF_CROSSCHECK.md",
+      "sha256": "3cdce3cd670243c0b850886451cc2a412d24835702ff92e88146f7fb9719adad"
+    },
+    {
+      "bytes": 79269,
+      "path": "source/SOURCE_DEPENDENCIES.json",
+      "sha256": "8f26931fc568f4c0158d4840eb07fcfebf86021d404c8c542f4e0805a51b1807"
+    },
+    {
+      "bytes": 13725,
+      "path": "source/SOURCE_IDENTITIES.json",
+      "sha256": "cc7724991ebecca4d84243f34e142e468e5583edb62d88500f194e69b26322c4"
+    },
+    {
+      "bytes": 11272,
+      "path": "source/WEIGHTED_MARGIN_PROOF.md",
+      "sha256": "9bb479dcf644af911bb5c87fcccf722b987219ff0b5cf7f385efde764bbb2e02"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

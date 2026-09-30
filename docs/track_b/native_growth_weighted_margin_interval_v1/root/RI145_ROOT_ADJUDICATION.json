@@ -1,0 +1,42 @@
+{
+  "accepted": [
+    "Exact seed-free W and positive clearing",
+    "Strict singleton-preserving reference/complement bounds",
+    "Positive symbolic quadratic minimum and uniform L/K compensation bound",
+    "Explicit positive delta_alpha interval with included upper endpoint",
+    "Equivalent two-polynomial endpoint criterion and complete singleton contrast residual"
+  ],
+  "actual_gap": [
+    "Actual rho<=delta0 unproved",
+    "LX+KX^2<=1 sufficient but unproved and not necessary",
+    "Full-domain endpoint signs unproved",
+    "Actual W/C2/C3 and full shared H30 unresolved"
+  ],
+  "blocking_findings": [],
+  "formal_prover_used": false,
+  "independent_handoff": {
+    "bytes": 4678,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/HANDOFF.json",
+    "sha256": "e30140e00872f1269933db73509f3f066c463b8a98650e171be1b737bb6f2374"
+  },
+  "independent_narrative": {
+    "bytes": 18775,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/INDEPENDENT_PROOF_REVIEW.md",
+    "sha256": "fe4723159266caed2e425e323221d753fa129c786bbe4300f261254355066271"
+  },
+  "remaining": "Fixed baseline/seed/amplitude/support; shared T1, other eight connected parents and all five Di; immutable P2/P3 Y=1/4; unchanged31/139/20/42 runtime obligations and genuine custody. RET paused.",
+  "root_check": {
+    "bytes": 58875,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/ROOT_NATIVE_CHECK.json",
+    "sha256": "4f4c564231498f9ac4feeb151d2b445b25e2fb13946e8d24c84bc0603312fe5d"
+  },
+  "root_manual_review": "Read full main proof, endpoint derivation, author-peer crosscheck, dependency scope and actual author checks; full independent narrative and structured review. Rechecked held-epsilon cancellation, singleton P>0 decomposition, all positive brackets, q clamp and rationalized root, excluded y=0 continuity, q contrast residual. Traced exact RI120 prefix/F2, RI127 q sign and RI128 formulas/B14/B15 plus RI41 singleton/RI63 strict-mixture definitions. Independent full premise review supplies remaining historical lineage; no claim to redo ancestral numerical arithmetic.",
+  "schema": "ri145-root-analytic-adjudication-v1",
+  "scientific_execution": false,
+  "source_handoff": {
+    "bytes": 6015,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/HANDOFF.json",
+    "sha256": "f53a0e1c49069a1e9057ad69169facca556b77e7cfb2534eba440b7eaa91db19"
+  },
+  "status": "ACCEPT_EXACT_CONDITIONAL_ANALYTIC_PROOF_WITH_ACTUAL_SCALE_GAP"
+}

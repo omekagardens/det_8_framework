@@ -1,0 +1,124 @@
+{
+  "schema": "ri145-weighted-margin-proof-handoff-v1",
+  "status": "SEALED_PROVISIONAL_ANALYTIC_INTERVAL_REQUIRES_INDEPENDENT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/NATIVE_SUCCESSOR_RESERVATION.json",
+    "bytes": 1342,
+    "sha256": "1867552d948b698adcf5119c91827ef32adc00d3d5adbd260c8256f1c6450d0e"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/RI143_ROOT_ADJUDICATION.json",
+    "bytes": 3064,
+    "sha256": "e5c55d33b173714ce6d990707d33a12afcff5278a4622c92e12a3c1e0a6b2728"
+  },
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/ANALYTIC_RESULT.json",
+      "bytes": 4378,
+      "sha256": "5a2a71ab683c54d26b1c0973ff088011f9dc6c27d2045c7db3118e3344e2e359"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/AUTHOR_CHECKS.json",
+      "bytes": 16863,
+      "sha256": "c536c922c9edd9f7f280b15abb2f3e343cefea26cf537afa845b2077555274c6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/DEPENDENCY_NOTES.md",
+      "bytes": 13495,
+      "sha256": "4c1b347b79ad73c451c509ee92f1089884df1bb8ca49edfee3d71035518e1c98"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/ENDPOINT_REDUCTION.md",
+      "bytes": 16141,
+      "sha256": "9b548f8a0cc912682c85f73f5a5f49a58d8a63d9daacbbb7156ffb1a65976a0d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/HANDOFF.md",
+      "bytes": 3813,
+      "sha256": "f12bb49a7ef7fed5954be1415f1aee03fbb9d252fc48fbb1a8f2b8ad947d00b6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/PROOF_CROSSCHECK.md",
+      "bytes": 8006,
+      "sha256": "3cdce3cd670243c0b850886451cc2a412d24835702ff92e88146f7fb9719adad"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_DEPENDENCIES.json",
+      "bytes": 79269,
+      "sha256": "8f26931fc568f4c0158d4840eb07fcfebf86021d404c8c542f4e0805a51b1807"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_IDENTITIES.json",
+      "bytes": 13725,
+      "sha256": "cc7724991ebecca4d84243f34e142e468e5583edb62d88500f194e69b26322c4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/WEIGHTED_MARGIN_PROOF.md",
+      "bytes": 11272,
+      "sha256": "9bb479dcf644af911bb5c87fcccf722b987219ff0b5cf7f385efde764bbb2e02"
+    }
+  ],
+  "namespace": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "ENDPOINT_REDUCTION.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "PROOF_CROSSCHECK.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "WEIGHTED_MARGIN_PROOF.md"
+  ],
+  "payload_count": 9,
+  "namespace_count": 10,
+  "dependency_count": 86,
+  "conclusion": "Explicit seed-free negative-margin interval and stronger whole-domain reference-sum bounds proved by author manual algebra; actual scale membership and full-domain weighted sign remain unresolved.",
+  "new_analytic_claims": [
+    "Exact weighted seed elimination with held epsilon/scaled-e distinction.",
+    "7/4<U20<3 and3/2<U30<2 on full correlated domain, preserving singleton corrections.",
+    "Positive formal complements, explicit positive quadratic floor and uniform normalized margin bound.",
+    "Quantified delta_alpha withW<=-alpha*r30 on its subdomain.",
+    "Exact endpoint equivalence and retained q contrast gap, not a performed full-domain sign decision."
+  ],
+  "actual_results": {
+    "actual_C2_sign_decided": false,
+    "actual_C3_sign_decided": false,
+    "actual_W_sign_decided": false,
+    "actual_rho_in_obstruction_interval_proved": false,
+    "full_domain_W_nonpositive_proved": false,
+    "actual_H30_obstruction": false,
+    "positive_H30_feasibility": false
+  },
+  "immutable_scope": {
+    "original_RI128_P2_P3_unchanged": true,
+    "original_numerical_Y": "1/4",
+    "fixed_baseline_seed_amplitude_support_unchanged": true,
+    "shared_T1_other_connected_all_Di_retained": true,
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42
+  },
+  "execution": {
+    "scientific_body_decode": false,
+    "numerical_coefficient_seed_scale_or_maximum_evaluation": false,
+    "subject_helper_import_compile_AST_probe_run": false,
+    "symbolic_engine": false,
+    "new_controller_fixture_or_executable": false,
+    "focused_attempts_executed": 0,
+    "policy_cases_executed": 0,
+    "admitted": false,
+    "repository_or_git_operations": false
+  },
+  "administrative_check": {
+    "chunk_id": "a89d96",
+    "exit_code": 0,
+    "scope": "86 whole identities, five complete historical namespaces,16 administrative bodies/132typed references,45 premise references, four actual-read/published whole-byte equalities and eight preseal payloads; not proof acceptance."
+  },
+  "source_diffs": [],
+  "review_status": "Disclosed author and author-peer checks only; fresh independent proof review and root adjudication required.",
+  "stop": "No successor, numerical retry, coefficient extraction, controller, runtime admission or execution. RET paused; measurement separate. Root alone owns repository/index/Git/publication and subsequent scope.",
+  "acyclic_binding": "Handoff pins all nine payloads, never itself. Dependency selection contains no current artifacts; current premise manifest pins dependencies and its dependency manifest only."
+}

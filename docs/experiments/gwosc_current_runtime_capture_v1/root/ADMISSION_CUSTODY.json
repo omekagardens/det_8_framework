@@ -1,0 +1,41 @@
+{
+  "card": {
+    "bytes": 2775,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/CAPTURE_ADMISSION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/CAPTURE_ADMISSION.json",
+    "sha256": "10c1e2597b11fe09c208cef3c0f171f56b422b9bd724f476351f594e9bcf23a8",
+    "state": [
+      16777244,
+      407862,
+      33188,
+      1,
+      2775,
+      1790772418456395860,
+      1790772418456395860
+    ],
+    "symlink_chain": []
+  },
+  "genuine_operation_count": 1,
+  "operation": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2",
+  "source_pre": {
+    "bytes": 277180,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/SOURCE_PRE.json",
+    "sha256": "a22eb8d4dd4a48db35e6f7cfab557f17c7ea11a3e602251bfa6b7a72c4adfd79"
+  },
+  "source_review": {
+    "bytes": 3262,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/CAPTURE_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/CAPTURE_SOURCE_ADJUDICATION.json",
+    "sha256": "fb9c9d7c1faf2e990fc0490314dbfdd0547ab32a4b712c088f2536883504e6de",
+    "state": [
+      16777244,
+      407861,
+      33188,
+      1,
+      3262,
+      1790772418451901871,
+      1790772418451901871
+    ],
+    "symlink_chain": []
+  }
+}
