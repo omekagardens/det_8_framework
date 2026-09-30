@@ -1,0 +1,46 @@
+{
+  "additional_read_inputs": [
+    {
+      "bytes": 1867,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/ROOT_CHECK_TOOL.json",
+      "sha256": "4cdd4c1e4b1118b571aa305f0a998042bbb08331b3d7ff5da400b180f47ffe53"
+    },
+    {
+      "bytes": 2581,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/setup_profile.py",
+      "sha256": "cba605de2229f944c223b3505ef400fec99ca65840ce8891339e91ad5eee828e"
+    },
+    {
+      "bytes": 3534,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/admit_profile.py",
+      "sha256": "e40f9b4c69b08fd9a84f9023aa3d2f5b294c7845fda96bf045ad6bac11d5cd34"
+    },
+    {
+      "bytes": 4602,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/observe_bootstrap.py",
+      "sha256": "e2191216ed388aa22c5047f88acdffaac29b7346a7f42fed6037452f3411bf1a"
+    },
+    {
+      "bytes": 3144,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+    },
+    {
+      "bytes": 26464,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "sha256": "ee99c90a46ffd1b1bc828e8da5fa8bcc6d18e47d4f0945d8ebc9d0e2cc65ec75"
+    }
+  ],
+  "all_reviewed_inputs_unchanged": true,
+  "input_count": 539,
+  "runtime_or_vendor_recaptured": false,
+  "schema": "ri148-independent-final-input-custody-v1",
+  "scope": "Opaque final re-read of exactly the previously reviewed saved source/evidence inputs; no current runtime paths opened.",
+  "source_and_operation_replayed": false,
+  "status": "UNCHANGED_SAVED_INPUTS",
+  "whole_checked_input_list": {
+    "bytes": 10229837,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/SAVED_NORMAL_CHECKS.json",
+    "sha256": "28b585aac113515afecc8094f56fd7c677007d10c872ab87b4335707aae8b3ec"
+  }
+}

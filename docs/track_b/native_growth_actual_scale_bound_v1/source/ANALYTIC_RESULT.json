@@ -1,0 +1,49 @@
+{
+  "schema": "ri147-actual-scale-membership-analytic-result-v1",
+  "status": "AUTHOR_ANALYTIC_COMPARISONS_COMPLETE_ACTUAL_MEMBERSHIP_UNRESOLVED",
+  "method": "Manual symbolic derivation from accepted literal definitions and accepted conditional finite-baseline results; new administrative byte/reference checks only.",
+  "new_results": [
+    "Actual C4 component and C5 singleton canonical component factorizations, preserving N_i=kappa_i B_i(1).",
+    "Root-mark separation of the singleton ratio components, without asserting an ordering of their fixed coefficients.",
+    "Exact v/D3 and q(x)/D3 contrast reductions and a correlated signed-part singleton lower bound.",
+    "Single H5 parent proves M5>1,theta<1/144,omega_i<11/36,j_i>71/72.",
+    "Single six-parent C4 ordinal-sum A2 proves U4_i=1+ell_i^2+N_i^2(1/B_i(1)-1)>1 and M6>=U4_i.",
+    "Complete C3 ordinal-sum A3 sum gives M6>71/24 and actual rho<12/95, with stronger held-coefficient caps retained.",
+    "Sharper actual-containing weighted-margin envelope retaining negative complement terms and an explicit sufficient two-endpoint comparison.",
+    "Exact fixed canonical singleton-coefficient threshold needed for any proposed q(x)/D3 lower bound."
+  ],
+  "not_proved": [
+    "Actual rho<=RI145 delta0.",
+    "Actual weighted W nonpositive, either actual C2/C3 sign, or full-domain weighted nonpositivity.",
+    "A quantified positive lower bound for v/D3 and q(x)/D3 sufficient to meet the compensation budget.",
+    "Full shared H30 feasibility or obstruction.",
+    "No claim that further manual analytic proof is impossible."
+  ],
+  "unchanged": {
+    "baseline_seed_amplitude_support": true,
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "shared_constraints": "One T1 recovery with strict bounds and D1 consequence, other eight connected parents, all five Di, same recovered variables and individual ideal multiplicities.",
+    "RET": "paused",
+    "measurement": "separate",
+    "Option_B": "unchanged",
+    "metric_as_record": "Status M unchanged"
+  },
+  "execution": {
+    "scientific_body_decode": false,
+    "actual_coefficient_scale_maximum_seed_H_evaluation": false,
+    "symbolic_numerical_engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "runtime_controller_card_admission": false,
+    "repository_index_Git_mutation": false
+  },
+  "acceptance": "Author and author-peer checks are not independent acceptance; sealed packet requires nonauthor review and coordinator adjudication.",
+  "stop": "No successor or runtime is assigned."
+}

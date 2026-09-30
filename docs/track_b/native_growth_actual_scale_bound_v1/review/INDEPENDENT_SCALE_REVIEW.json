@@ -1,0 +1,161 @@
+{
+  "administrative_evidence": {
+    "additions": 22,
+    "command": "python3 -I -B check_metadata.py",
+    "current_typed_refs": 53,
+    "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3",
+    "dependencies": 108,
+    "exit_code": 0,
+    "historical_typed_refs": 309,
+    "report": {
+      "bytes": 76905,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/METADATA_CHECK.json",
+      "sha256": "6f49799df021fa96049e65a59a7412cfc80b8d47689fd217c288992c7cd48570"
+    },
+    "retained_predecessor_rows_except_role": 86,
+    "selected_bytes": 3505381,
+    "source_namespace_count": 10,
+    "source_payload_count": 9,
+    "tool_chunk": "b5dc04"
+  },
+  "challenges": [
+    "zero singleton coordinates",
+    "zero or negative signed contrasts",
+    "vanishing weighted variance",
+    "full versus proper mask15",
+    "separate repeated ideal multiplicities",
+    "distinct components with equal coefficients",
+    "quadratic vertex below/inside/above interval including endpoints",
+    "formal x=0 and excluded actual y=0",
+    "strict versus non-strict envelope equality",
+    "failed sufficient envelope is not positive W",
+    "no free-coefficient counterexample to actual law"
+  ],
+  "complete_current_manuscripts": [
+    "COMPONENT_CONTRASTS.md",
+    "ACTUAL_SCALE_BOUND.md",
+    "SCALE_MEMBERSHIP_SYNTHESIS.md"
+  ],
+  "full_fresh_literal_source_reads": [
+    {
+      "lines": 312,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/check.py"
+    },
+    {
+      "lines": 1172,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/check.py"
+    }
+  ],
+  "independence": {
+    "author_of_native_proof_premises": false,
+    "author_of_ri147": false,
+    "author_peer_checks_not_independent_acceptance": true,
+    "previous_independent_native_reviews": [
+      "RI138",
+      "RI140",
+      "RI143",
+      "RI145"
+    ],
+    "self_acceptance_of_white": false,
+    "separate_white_authorship_disclosed": true
+  },
+  "manual_findings": [
+    {
+      "finding": "Actual layer-specific coefficients give B=A alpha4 and N=kappa B, with zero canonical singleton coordinates retained.",
+      "id": "P01",
+      "location": "COMPONENT_CONTRASTS.md:30-92"
+    },
+    {
+      "finding": "Same terminal class and intrinsic root mark persist along all literal component edges and node quotients. Components differ, but coefficient inequality, positivity above restoration and ordering do not follow.",
+      "id": "P02",
+      "location": "COMPONENT_CONTRASTS.md:94-140"
+    },
+    {
+      "finding": "Complete signed square/cube factorizations, residual sign, theta factors and positive D3 clearing agree exactly; d1,d3 and delta_kappa remain signed actual contrasts.",
+      "id": "P03",
+      "location": "COMPONENT_CONTRASTS.md:141-216,290-359"
+    },
+    {
+      "finding": "Correlated residual factors, strict 41/36 and 19/36 lower bounds and signed-part floor preserve zeros and negative signs. Conditional delta_kappa threshold is exact without treating correlated quantities as free.",
+      "id": "P04",
+      "location": "SCALE_MEMBERSHIP_SYNTHESIS.md:73-163"
+    },
+    {
+      "finding": "Complete H5 sum proves M5>1, theta<1/144, j>71/72. The five six-parent shapes retain every proper ideal, giving M6>71/24 and actual rho<12/95, plus the retained F_i bound and rho<=Z.",
+      "id": "P05",
+      "location": "ACTUAL_SCALE_BOUND.md:64-178"
+    },
+    {
+      "finding": "Strict reference-sum monotonicity, clamped positive q minimum and positive-factor substitutions justify the stronger affine envelope. Its two endpoint inequalities are equivalent only to its sufficient bound, not to actual W nonpositivity.",
+      "id": "P06",
+      "location": "ACTUAL_SCALE_BOUND.md:179-321"
+    },
+    {
+      "finding": "The fixed canonical C4/C5 quantitative sensitivity comparisons remain unproved; actual scale membership, weighted/connected signs and full H30 remain open.",
+      "id": "P07",
+      "location": "SCALE_MEMBERSHIP_SYNTHESIS.md:128-183"
+    }
+  ],
+  "narrative": {
+    "bytes": 21123,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/INDEPENDENT_SCALE_REVIEW.md",
+    "sha256": "3b9e5768a5c79d5af02beb9bbc18c0bc1ee02da1c0e1653ca9b581d5eb8ed195"
+  },
+  "not_established": [
+    "actual rho<=delta0",
+    "actual W sign",
+    "separate connected C2/C3 signs",
+    "full shared H30",
+    "physical geometry/gravity/QM correspondence",
+    "any execution qualification"
+  ],
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "prior_complete_read_reused": [
+    "RI145 WEIGHTED_MARGIN_PROOF.md",
+    "RI145 ENDPOINT_REDUCTION.md",
+    "RI145 PROOF_CROSSCHECK.md",
+    "RI117 CONNECTED_CONSTRAINTS_LEMMA.md"
+  ],
+  "recommendation": "ACCEPT_EXACT_CONDITIONAL_ANALYTIC_INCREMENT_WITH_ACTUAL_COEFFICIENT_GAP",
+  "remaining_premise": {
+    "correlated_domain": "Z and kappa0 remain fixed actual-law expressions; none is independently fitted or varied.",
+    "joint_budget": "Both a2+a3<=1 and (1-Y u2)a2+(1-Y u3)a3+Y b_envelope<=1, or a direct proof of both exact cleared endpoint inequalities.",
+    "quantitative_q": "For a proposed b>0, delta_kappa >= [b D3-T(x)-kappa0 d1 h_*(x)]/[beta1 k1(x)] for every x in the fixed actual-containing [0,Z]. This comparison has not been proved.",
+    "quantitative_v": "H7+gamma1 H1+gamma3 H3 >= a_v theta^2 t7 for an adequate positive fixed-law lower bound a_v."
+  },
+  "repair_findings": [],
+  "root_adjudication": false,
+  "schema": "ri147-independent-scale-proof-review-v1",
+  "scope": {
+    "actual_coefficient_scale_maximum_seed_H_evaluation": false,
+    "administrative_identity_checks": true,
+    "manual_algebra": true,
+    "repository_index_Git_write": false,
+    "runtime_controller_card_admission": false,
+    "scientific_body_decode": false,
+    "subject_helper_import_compile_AST_probe_run": false,
+    "symbolic_numerical_engine": false
+  },
+  "subject_handoff": {
+    "bytes": 6645,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/HANDOFF.json",
+    "sha256": "a963f33ba976b9972fe4867bb5790f76e77857971e73f43b0876a4107b97b1e2"
+  },
+  "successor_recommendation_only": "Classify the terminal-(5,1) singleton-hook component incidences and derive complete symbolic row-cap and history-weighted objective columns, retaining root marks, other coordinates and canonical tie-break constraints, before attempting a valid exchange/dual-face comparison. No successor authored or result claimed."
+}

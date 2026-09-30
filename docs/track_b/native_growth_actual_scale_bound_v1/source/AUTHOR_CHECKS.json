@@ -1,0 +1,162 @@
+{
+  "schema": "ri147-author-checks-v1",
+  "status": "AUTHOR_MANUAL_PROOFS_AND_ADMINISTRATIVE_CHECKS_NOT_INDEPENDENT_ACCEPTANCE",
+  "administrative_check": {
+    "tool_outcome": {
+      "chunk_id": "4a68d5",
+      "exit_code": 0
+    },
+    "report": {
+      "schema": "ri147-author-administrative-check-v1",
+      "status": "MATCH_NOT_PROOF_ACCEPTANCE",
+      "stage": "preseal8",
+      "dependencies": 108,
+      "selected_bytes": 3505381,
+      "inherited": 86,
+      "administrative_bodies": 25,
+      "historical_typed_refs": 309,
+      "premise_refs": 53,
+      "predecessor_namespaces": [
+        10,
+        7
+      ],
+      "counterparts": 4,
+      "absolute_manuscript_reference_occurrences": 25,
+      "final_fresh_identity_rechecks": 116,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ACTUAL_SCALE_BOUND.md",
+          "bytes": 13744,
+          "sha256": "2cdaa5fa384f81a5b253a28f26c088ee6a3dd83e4fe7e60dde56f1a5b6aa7577"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ANALYTIC_RESULT.json",
+          "bytes": 2686,
+          "sha256": "035544573404431a9ceeb9c0da027562613f77a139a9d4178dc9dd6f4c823543"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/COMPONENT_CONTRASTS.md",
+          "bytes": 19001,
+          "sha256": "b982477d162bce2210aabaffe91cc68e52315734c186d2895e67da4736c9a49f"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/DEPENDENCY_NOTES.md",
+          "bytes": 9557,
+          "sha256": "0f9b901a52e5f4ed6d427a9ecf37750e5feea8d91e8619e46edf79888d6710c4"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/HANDOFF.md",
+          "bytes": 3321,
+          "sha256": "28daff57be169a688f0ac831acb439ac1fb338a3fdf3fd84bc9f02ccee133b20"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SCALE_MEMBERSHIP_SYNTHESIS.md",
+          "bytes": 9487,
+          "sha256": "3e659eff15463cb880df1fdda58564d0683302a1357c2b524e0ef704ac7c2d6e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SOURCE_DEPENDENCIES.json",
+          "bytes": 98941,
+          "sha256": "d69cee9f4d21ed3db98bd13b13b576da952753af56661708b2a8284d63c1c497"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SOURCE_IDENTITIES.json",
+          "bytes": 16523,
+          "sha256": "73c958998e3a1e09198534014fbcfff17bec0e274c25cf9d83aa33b927fe7399"
+        }
+      ],
+      "scientific_execution": false
+    },
+    "command": "node <<'NODE'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke', P='/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci', V='/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path&&eq(a.symlinks,i.symlinks),'fullpin');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:98941,sha256:'d69cee9f4d21ed3db98bd13b13b576da952753af56661708b2a8284d63c1c497'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:16523,sha256:'73c958998e3a1e09198534014fbcfff17bec0e274c25cf9d83aa33b927fe7399'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body), S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body), M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===108,'count');D.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity);});need(eq([...M.keys()],[...M.keys()].sort()),'sort');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body), omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===86,'old86');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherit');\nfor(const d of[P,V]){const h=JSON.parse(read(d+'/HANDOFF.json').body), n=fs.readdirSync(d).sort();need(eq(n,[...h.namespace].sort())&&eq(n,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'namespace');h.payloads.forEach(pin);}\nlet refs=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','ref closure '+x.path);pin(x);refs++;}Object.values(x).forEach(scan);}\nlet admin=0;for(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body));}\nneed(admin===25&&refs===309,'admin refs');refs=0;scan(S);need(refs===53,'current refs');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'pair');\nconst final=['ACTUAL_SCALE_BOUND.md','ANALYTIC_RESULT.json','AUTHOR_CHECKS.json','COMPONENT_CONTRASTS.md','DEPENDENCY_NOTES.md','HANDOFF.json','HANDOFF.md','SCALE_MEMBERSHIP_SYNTHESIS.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json'];\nconst stage=process.env.RI147_STAGE||'preseal8',expected=stage==='final10'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));\nlet sourceRefs=0;for(const n of ['ACTUAL_SCALE_BOUND.md','COMPONENT_CONTRASTS.md','SCALE_MEMBERSHIP_SYNTHESIS.md']){const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');for(const match of txt.matchAll(/\\x60(\\/Volumes\\/[^\\x60 \\n]+\\.(?:md|json|py))\\x60/g)){need(M.has(match[1])||expected.some(f=>Q+'/'+f===match[1]),'literal reference '+match[1]);sourceRefs++;}}\nif(stage==='final10'){const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===9,'current seal');need(eq(h.payloads.map(x=>p.basename(x.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current payload coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_predecessor);}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nconsole.log(JSON.stringify({schema:'ri147-author-administrative-check-v1',status:'MATCH_NOT_PROOF_ACCEPTANCE',stage,dependencies:108,selected_bytes:D.protected_files.reduce((n,r)=>n+r.identity.bytes,0),inherited:86,administrative_bodies:25,historical_typed_refs:309,premise_refs:53,predecessor_namespaces:[10,7],counterparts:4,absolute_manuscript_reference_occurrences:sourceRefs,final_fresh_identity_rechecks:before.length,current_payloads:payloads,scientific_execution:false},null,2));\nNODE",
+    "method": "Standard-library administrative byte/hash/reference checking only; JSON parsed only for declared administrative documents and current metadata. No historical checker was loaded or executed.",
+    "finite_identity_window": "Each read checks all nonsymlink path components, canonical absolute path, regular-file status, 64MiB cap and stable dev/ino/mode/size/mtimeNs/ctimeNs/nlink through pre-open/descriptor-before/descriptor-after/path-after. After the complete check, all116 read identities were freshly reopened and compared.",
+    "does_not_establish": "Mathematical acceptance, continuing runtime custody, historical arithmetic reexecution, or operational authorization."
+  },
+  "manual_main_checks": [
+    "Read complete current COMPONENT_CONTRASTS (18040a), ACTUAL_SCALE_BOUND (bb8c2c), DEPENDENCY_NOTES (1d484e), SOURCE_IDENTITIES (589bf1/e86d95); authored and checked synthesis/result/handoff.",
+    "Rechecked the ratio-graph terminal invariant: appending the precursor supplies each node's terminal class, a diamond preserves it; in either singleton hook the unique root lies below every maximum and in every incident precursor. Empty precursor or newborn-bit change cannot erase or flip that root bit.",
+    "Checked actual B_i(S)=A(S)alpha4 and N_i=kappa_i B_i(1), without retrieving actual component indices, overrides or canonical alpha values.",
+    "Re-expanded all four-slot Delta c,h,m,j,V and D3 formulas, q core coefficients, correlated singleton factor and both normalized sensitivity ratios.",
+    "Checked exact square identity for K_i and complete seven-proper-ideal F_i; kept both cap ideals and separate C5 full ell. Every bound on M_n gives the stated upper bound on actual scale.",
+    "Checked theta<1/144, omega<11/36, j>71/72, E>71/24 and actual rho<12/95, with no actual value evaluated.",
+    "Checked singleton k/h lower bounds, monotone upper bounds, multiplication directions for signed-part C_N, and positive-denominator exact canonical-contrast threshold.",
+    "Checked U20/U30 derivative brackets, cap Z and actual s<=Y direction, positive full-factor bounds before replacing coefficients, affine endpoint supremum including excluded y=0, and normalized sensitivity budget.",
+    "Checked zero canonical coefficients and N values, zero or negative d1/d3/delta_kappa, vanishing variance sum, included upper x endpoints, quadratic vertex at/outside/inside endpoints, and equality at nonpositive weighted bound.",
+    "Neither a failed sufficient comparison nor positive W is called a feasibility verdict. No actual sign, actual delta0 membership, positive quantitative ratio threshold, or complete shared H30 result asserted."
+  ],
+  "author_peers": [
+    {
+      "agent": "/root/ri132_native_controls",
+      "authored": "COMPONENT_CONTRASTS.md",
+      "reviewed": "Complete SCALE_MEMBERSHIP_SYNTHESIS.md; exact singleton factors, signed floor, q coefficients and canonical-contrast threshold.",
+      "result": "No repair identified by manual author-peer check; not independent review.",
+      "source_read_scope": "Complete published RI41 check.py312 lines and RI63 check.py1172 lines as text; full selecting assignment/decision; inherited full RI145 premise reads explicitly disclosed in the manuscript."
+    },
+    {
+      "agent": "/root/ri132_audit_controls",
+      "authored": "ACTUAL_SCALE_BOUND.md",
+      "reviewed": "Complete SCALE_MEMBERSHIP_SYNTHESIS.md; M5 square identity, theta/j/E/rho directions, singleton factorization and signed floor, v/q expansions, threshold positive division.",
+      "result": "No repair identified by manual author-peer check; not independent review."
+    },
+    {
+      "agent": "/root/ri132_evidence_contract",
+      "authored": [
+        "SOURCE_DEPENDENCIES.json",
+        "SOURCE_IDENTITIES.json",
+        "DEPENDENCY_NOTES.md"
+      ],
+      "reported_checks": [
+        {
+          "chunk_id": "95c02f",
+          "exit_code": 0,
+          "scope": "108 identities/3505381 bytes, two exact predecessor namespaces,177 new administrative typed references"
+        },
+        {
+          "chunk_id": "3f6d5d",
+          "exit_code": 0,
+          "scope": "86 inherited entries preserved except role;25 administrative bodies/309 refs,53 current refs,4 equal-byte literal-path pairs"
+        }
+      ],
+      "result": "Administrative author work; not independent proof review."
+    }
+  ],
+  "main_fresh_source_reads": [
+    "Complete RI145 independent narrative/structured review and selecting assignment/root decision.",
+    "Complete external RI120 ANALYTIC_PREFIX_LEMMAS,F2_ANALYTIC_CHECK,F3_ANALYTIC_CHECK; complete RI41 NORMALIZATION and RI63 COMPLETION.",
+    "RI145 WEIGHTED_MARGIN_PROOF complete; ENDPOINT_REDUCTION365-472; RI38 CRITERION1-430 including complete mathematical sections.",
+    "RI127 LOCAL_POSITIVITY1-280 and RECORD_TRANSPORT1-260; RI128 INPUT_FORMULAS1-290. Earlier full premise reads retained as disclosed accepted premises.",
+    "Literal function-name search bcb055, then RI41check65-215 and RI63check138-195,250-416,624-673,910-952 in0deab5. No execution or selected numerical coefficient lookup."
+  ],
+  "diagnostics": [
+    {
+      "tool_chunk": "f7a628",
+      "exit_code": 1,
+      "description": "Initial rg --files search for AGENTS.md/SKILL.md returned no matches. Read-only discovery, not a scientific or metadata test."
+    },
+    {
+      "tool_chunk": "6d7388",
+      "exit_code": 1,
+      "description": "Writing skill main file read successfully; guessed references/writing_quality.md did not exist. Correct writing_quality.md was read fully in8a0a11. No evidence mutation."
+    },
+    {
+      "tool": "functions.exec",
+      "description": "First administrative wrapper failed to parse with SyntaxError Invalid or unexpected token because an unescaped backtick appeared inside a JS template literal. No nested command ran. Replaced the literal with hexadecimal regex escape; actual corrected check4a68d5 exited0. Failure is retained, not counted as a passed check."
+    }
+  ],
+  "preserved": {
+    "scientific_body_decode": false,
+    "actual_coefficient_probability_scale_maximum_H_z_evaluation": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "numerical_symbolic_engine": false,
+    "global_enumeration": false,
+    "repository_index_Git_mutation": false,
+    "predecessor_edit": false,
+    "controller_runtime_card_admission": false,
+    "P2_P3_and_Y_quarter_unchanged": true,
+    "all_31_139_20_42_unchanged": true,
+    "all_shared_H30_constraints_unchanged": true,
+    "RET_paused": true,
+    "measurement_separate": true
+  },
+  "stop": "Final HANDOFF.json binds this record and all payloads. Its final fresh check is reported to the coordinator after sealing rather than creating a self-referential record. Nonauthor review and root adjudication required; no successor assigned."
+}

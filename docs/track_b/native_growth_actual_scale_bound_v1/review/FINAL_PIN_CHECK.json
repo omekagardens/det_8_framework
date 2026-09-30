@@ -1,0 +1,60 @@
+{
+  "dependency_bytes": 3505381,
+  "dependency_files": 108,
+  "mathematical_validation_by_hash": false,
+  "review_preseal_namespace": [
+    "INDEPENDENT_SCALE_REVIEW.json",
+    "INDEPENDENT_SCALE_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "review_preseal_pins": [
+    {
+      "bytes": 7023,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/INDEPENDENT_SCALE_REVIEW.json",
+      "sha256": "13dd882d97888b6377a5bbe55a5ec2bb0a42667af75260e41b950ca30f2c8016"
+    },
+    {
+      "bytes": 21123,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/INDEPENDENT_SCALE_REVIEW.md",
+      "sha256": "3b9e5768a5c79d5af02beb9bbc18c0bc1ee02da1c0e1653ca9b581d5eb8ed195"
+    },
+    {
+      "bytes": 76905,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/METADATA_CHECK.json",
+      "sha256": "6f49799df021fa96049e65a59a7412cfc80b8d47689fd217c288992c7cd48570"
+    },
+    {
+      "bytes": 2734,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/REVIEW_DIAGNOSTICS.json",
+      "sha256": "6dcda4ac1e8d421a8b094e43e7df6f384b260b6fe313590d98898ed2d1913c2c"
+    },
+    {
+      "bytes": 8680,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/check_metadata.py",
+      "sha256": "173cada6340b1c80cea1288e5d27fc7c6db92503d46ac4a8914b0fc51ee93b9a"
+    }
+  ],
+  "schema": "ri147-independent-final-pin-check-v1",
+  "scientific_execution": false,
+  "source_namespace": [
+    "ACTUAL_SCALE_BOUND.md",
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "COMPONENT_CONTRASTS.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SCALE_MEMBERSHIP_SYNTHESIS.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "status": "PASS_OPAQUE_ADMINISTRATIVE_RECHECK",
+  "subject_files": 10,
+  "subject_handoff": {
+    "bytes": 6645,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/HANDOFF.json",
+    "sha256": "a963f33ba976b9972fe4867bb5790f76e77857971e73f43b0876a4107b97b1e2"
+  }
+}

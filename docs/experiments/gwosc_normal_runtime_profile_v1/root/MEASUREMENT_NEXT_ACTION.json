@@ -1,0 +1,27 @@
+{
+  "baseline_acceptance": {
+    "bytes": 1659,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BASELINE_ACCEPTANCE.json",
+    "sha256": "4e82e7e3aae50e45fdbae3aada5a2ab55422c690a843edbb4fb6673e6607f2c8"
+  },
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment",
+  "next": "Fresh full source/supplier/host checks, one separate profile_optimized card and exclusive output in same environment. PRE/POST equal accepted complete baseline. Unchanged observer-I-B-O under30seconds; independent full report and both-mode relation review before profiles acceptance. Different optimized cache descriptors are retained, not forced to whole-report byte equality. Both-mode acceptance precedes65guards,WHITE/full32 and public-data reproduction.",
+  "normal_acceptance": {
+    "bytes": 1662,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/NORMAL_ACCEPTANCE.json",
+    "sha256": "516e64fbf2f432d3f65872dc2ceb7ebd3a21f88303139f5598946494d9ec68af"
+  },
+  "operational_admission_created": false,
+  "owner": "root",
+  "predecessor": {
+    "bytes": 4967,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/RI148_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "8f76c91ef005b305f796dcfd42dd491d3147a903d087f6914eb9fc8367e96074"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3",
+  "ret_paused": true,
+  "schema": "ri150-root-optimized-profile-assignment-v1",
+  "scientific_credit": false,
+  "source_packet": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076",
+  "status": "RESERVED_NEXT_PHASE_NOT_OPERATIONAL_ADMISSION"
+}

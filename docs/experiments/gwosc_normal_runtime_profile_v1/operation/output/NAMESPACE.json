@@ -1,0 +1,94 @@
+{
+  "entries": [
+    {
+      "bytes": 1212,
+      "kind": "file",
+      "relative": "ATTEMPT.json",
+      "sha256": "3d111d02e7d13507f9851e8378f99d91250bcd5a505e874756720177f5a118d7"
+    },
+    {
+      "bytes": 82329,
+      "kind": "file",
+      "relative": "CHECKS.json",
+      "sha256": "112dcd5ff4c352632616df4544263412b8185e7b19f4799f0fb6916221b3e067"
+    },
+    {
+      "bytes": 889,
+      "kind": "file",
+      "relative": "POST.ATTEMPT.json",
+      "sha256": "173017714b451dacff88d1bf6a3d8591b887025730c2c9cd5e60e39d34b10d35"
+    },
+    {
+      "bytes": 14374,
+      "kind": "file",
+      "relative": "POST.COMPLETION.json",
+      "sha256": "7128f4b15b5a7789cba06f27cdf67939a85505752eeae08389a8754e849788f1"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "POST.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7142026,
+      "kind": "file",
+      "relative": "POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 889,
+      "kind": "file",
+      "relative": "PRE.ATTEMPT.json",
+      "sha256": "173017714b451dacff88d1bf6a3d8591b887025730c2c9cd5e60e39d34b10d35"
+    },
+    {
+      "bytes": 14584,
+      "kind": "file",
+      "relative": "PRE.COMPLETION.json",
+      "sha256": "02ae1599d9411d01afbd7e3bba2852cd46aadb05d4bf1f9bdfd345ecf050e988"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "PRE.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7142026,
+      "kind": "file",
+      "relative": "PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 791,
+      "kind": "file",
+      "relative": "PROFILE.ATTEMPT.json",
+      "sha256": "318b8d8def792f382b99af879493e7e76d3211b72874e2f357bf7872df673e76"
+    },
+    {
+      "bytes": 5749,
+      "kind": "file",
+      "relative": "PROFILE.COMPLETION.json",
+      "sha256": "7b8448da9c825c1ae16c5d1252dff487e4d69752352bb5ad65365e861b84ad23"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "PROFILE.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 28252,
+      "kind": "file",
+      "relative": "PROFILE.stdout",
+      "sha256": "bf8e39f5a6fb27bc4224280a78036d6d1bf6970e7ad564f3a272e4986cfae241"
+    }
+  ],
+  "excluded_not_yet_written": [
+    "NAMESPACE.json",
+    "COMPLETE.json"
+  ],
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/output",
+  "schema": "ri133-retained-namespace-v1"
+}

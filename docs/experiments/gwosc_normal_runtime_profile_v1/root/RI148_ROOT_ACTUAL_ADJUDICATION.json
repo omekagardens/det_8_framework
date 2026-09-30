@@ -1,0 +1,103 @@
+{
+  "accepted_baseline": {
+    "bytes": 1659,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BASELINE_ACCEPTANCE.json",
+    "sha256": "4e82e7e3aae50e45fdbae3aada5a2ab55422c690a843edbb4fb6673e6607f2c8"
+  },
+  "actual": {
+    "absent_cache_fields": 0,
+    "baseline_snapshots_byte_equal": true,
+    "descriptor_fields": 213,
+    "exit_code": 0,
+    "full_runtime_bindings": 113,
+    "independent_check": "d8ab59 exit0",
+    "independent_seal": "67f558 exit0",
+    "initial_chunk": "24c0ff",
+    "modules": 71,
+    "monitor_samples": 121,
+    "observer_main": 1,
+    "ordered_dyld_attempts": 10,
+    "sentinels": 99,
+    "session": 50493,
+    "terminal_chunk": "9ddbb4"
+  },
+  "actual_data_admission": false,
+  "full32_qualified": false,
+  "genuine_outer": {
+    "bytes": 1444,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/GENUINE_OUTER.json",
+    "sha256": "e14554ede8b90c95461900988126a018110d71cb774756790f3e4cb96e7c352f"
+  },
+  "genuine_tool": {
+    "bytes": 1563,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "faaea76e5c0d4cc3ced0ef054d52512c0a6ba06bc63394c1e9e704d439f14eaa"
+  },
+  "independent_reconstruction": {
+    "bytes": 78057,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/RECONSTRUCTED_PROFILE_CHECK.json",
+    "sha256": "71c42c7254657be2632f02fb37eed4f184c45f232a2d122331d0fb3ed9aa7515"
+  },
+  "independent_review": {
+    "bytes": 6852,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+    "sha256": "dda8890bc60be37f1391c88972eb11a67d4e52d68fa860ca01a92042e1c6c276"
+  },
+  "independent_verdict": {
+    "bytes": 4800,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/VERDICT.json",
+    "sha256": "36826779d97249a3ed841669cee8f921d3dee726f18ce9151a539123157177b4"
+  },
+  "limits": [
+    "Root real-tool origin and bootstrap/Apple kernel/loader/shared-cache authority remain external premises.",
+    "Recorded descriptors and opaque source/cache/frozen identities are not an import trace or proof of executed-code equivalence.",
+    "Saved current runtime/vendor observations were independently reconciled; reviewer did not recapture runtime or vendor files.",
+    "Child RSS/output/gaps are sampled; parent PID is not child authentication; no-descendant/stable-supplier premise and no hard aggregate quota remain."
+  ],
+  "next_optimized_admission_created": false,
+  "preserved_reviewer_failures": [
+    {
+      "bytes": 824577,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_01.json",
+      "sha256": "3a88cd7cc46a9a30d1227350f66ec91d657bbaf1ec944106928b92e2a217d8e3"
+    },
+    {
+      "bytes": 986544,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_02.json",
+      "sha256": "6bbe8f0b700ff4795e84dda94ea97b7b2449070ccc4c203a6c5835c7c99cc9cd"
+    },
+    {
+      "bytes": 10183904,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_03.json",
+      "sha256": "81f203c24ea10493d7667a9731b027a9c408acf899f8394b3f9c7e02fbc388f5"
+    }
+  ],
+  "reading_diagnostic": "331237 displayed the real handoff but two guessed ancillary filenames were absent; correct VERDICT/PUBLICATION_SUBSET and complete summary/commands were read in ec4708. No source or actual result changed.",
+  "ret_paused": true,
+  "root_actual_check": {
+    "bytes": 1581,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/ROOT_PROFILE_CHECK.json",
+    "sha256": "862de4ed7ad3033848e257c6b601e350bcb96d5bb7d04a59ecc96464306bc76e"
+  },
+  "root_check_tool": {
+    "bytes": 1867,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/ROOT_CHECK_TOOL.json",
+    "sha256": "4cdd4c1e4b1118b571aa305f0a998042bbb08331b3d7ff5da400b180f47ffe53"
+  },
+  "root_read_scope": {
+    "bytes": 1414,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/ROOT_REVIEW_READ.json",
+    "sha256": "9418dc3ef7f7f7bd783ab4a818db6f243f4c090069acdb43ed6af80f5af58928"
+  },
+  "schema": "ri148-root-normal-profile-adjudication-v1",
+  "scientific_qualification": false,
+  "status": "ACCEPT_GENUINE_NORMAL_RUNTIME_PROFILE",
+  "timing": {
+    "child_timer_includes_child_startup_and_authentication": true,
+    "complete_write_and_return_covered_by_genuine_outer": true,
+    "outer_fields": 8,
+    "parent_completion_fields": 17,
+    "parent_internal_elapsed_sampled_after_namespace_before_complete_construction_and_write": true,
+    "parent_preownership_authentication_outside_internal_timer": true
+  }
+}

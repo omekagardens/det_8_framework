@@ -1,0 +1,135 @@
+{
+  "schema": "ri147-actual-scale-membership-proof-handoff-v1",
+  "status": "SEALED_AUTHOR_ANALYTIC_COMPARISONS_WITH_ACTUAL_COMPONENT_GAP_REQUIRES_NONAUTHOR_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/NATIVE_SUCCESSOR_RESERVATION.json",
+    "bytes": 2148,
+    "sha256": "9d3adc1db19469d6eeeb4b47856e2426ee353cf0c4a04add927d660be773081c"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RI145_ROOT_ADJUDICATION.json",
+    "bytes": 2631,
+    "sha256": "a8c6bead842cd523c059e7ea7d72a6402a2b497039f3e7e21bc22834f8f27f60"
+  },
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ACTUAL_SCALE_BOUND.md",
+      "bytes": 13744,
+      "sha256": "2cdaa5fa384f81a5b253a28f26c088ee6a3dd83e4fe7e60dde56f1a5b6aa7577"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ANALYTIC_RESULT.json",
+      "bytes": 2686,
+      "sha256": "035544573404431a9ceeb9c0da027562613f77a139a9d4178dc9dd6f4c823543"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/AUTHOR_CHECKS.json",
+      "bytes": 15202,
+      "sha256": "d57fb03c4bb2098bfdba7d8ad18a98934ad261203924a39af2752cb4079d6f45"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/COMPONENT_CONTRASTS.md",
+      "bytes": 19001,
+      "sha256": "b982477d162bce2210aabaffe91cc68e52315734c186d2895e67da4736c9a49f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/DEPENDENCY_NOTES.md",
+      "bytes": 9557,
+      "sha256": "0f9b901a52e5f4ed6d427a9ecf37750e5feea8d91e8619e46edf79888d6710c4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/HANDOFF.md",
+      "bytes": 3321,
+      "sha256": "28daff57be169a688f0ac831acb439ac1fb338a3fdf3fd84bc9f02ccee133b20"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SCALE_MEMBERSHIP_SYNTHESIS.md",
+      "bytes": 9487,
+      "sha256": "3e659eff15463cb880df1fdda58564d0683302a1357c2b524e0ef704ac7c2d6e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SOURCE_DEPENDENCIES.json",
+      "bytes": 98941,
+      "sha256": "d69cee9f4d21ed3db98bd13b13b576da952753af56661708b2a8284d63c1c497"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SOURCE_IDENTITIES.json",
+      "bytes": 16523,
+      "sha256": "73c958998e3a1e09198534014fbcfff17bec0e274c25cf9d83aa33b927fe7399"
+    }
+  ],
+  "namespace": [
+    "ACTUAL_SCALE_BOUND.md",
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "COMPONENT_CONTRASTS.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SCALE_MEMBERSHIP_SYNTHESIS.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "namespace_count": 10,
+  "payload_count": 9,
+  "dependency_count": 108,
+  "conclusion": "Stronger actual normalization enclosure, exact actual-component correlations and normalized contrast formulas, and sharper weighted sufficient comparisons. Actual scale membership and weighted sign remain unresolved.",
+  "new_analytic_claims": [
+    "Actual C4 component and C5 singleton canonical component factorizations, preserving N_i=kappa_i B_i(1).",
+    "Root-mark separation of the singleton ratio components, without asserting an ordering of their fixed coefficients.",
+    "Exact v/D3 and q(x)/D3 contrast reductions and a correlated signed-part singleton lower bound.",
+    "Single H5 parent proves M5>1,theta<1/144,omega_i<11/36,j_i>71/72.",
+    "Single six-parent C4 ordinal-sum A2 proves U4_i=1+ell_i^2+N_i^2(1/B_i(1)-1)>1 and M6>=U4_i.",
+    "Complete C3 ordinal-sum A3 sum gives M6>71/24 and actual rho<12/95, with stronger held-coefficient caps retained.",
+    "Sharper actual-containing weighted-margin envelope retaining negative complement terms and an explicit sufficient two-endpoint comparison.",
+    "Exact fixed canonical singleton-coefficient threshold needed for any proposed q(x)/D3 lower bound."
+  ],
+  "remaining_actual_premise": "The fixed C4 signed contrast combination and fixed C5 canonical singleton contrast must satisfy the quantitative sensitivity budget stated in ACTUAL_SCALE_BOUND.md; SCALE_MEMBERSHIP_SYNTHESIS.md isolates the exact canonical contrast threshold for any proposed q/D3 floor. These comparisons are not proved for the actual coefficients.",
+  "actual_results": {
+    "actual_rho_in_delta0_proved": false,
+    "actual_W_sign_decided": false,
+    "actual_C2_C3_signs_decided": false,
+    "full_H30_decided": false
+  },
+  "actual_author_check": {
+    "chunk_id": "4a68d5",
+    "exit_code": 0,
+    "dependencies": 108,
+    "selected_bytes": 3505381,
+    "admin_bodies": 25,
+    "historical_refs": 309,
+    "current_refs": 53,
+    "literal_manuscript_reference_occurrences": 25,
+    "fresh_end_rechecks": 116,
+    "current_preseal_files": 8,
+    "scientific_execution": false
+  },
+  "independence": "Three contributors and main are the author team. Algebra cross-checks and metadata checks do not constitute independent acceptance.",
+  "unchanged": {
+    "baseline_seed_amplitude_support": true,
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "shared_constraints": "One T1 recovery with strict bounds and D1 consequence, other eight connected parents, all five Di, same recovered variables and individual ideal multiplicities.",
+    "RET": "paused",
+    "measurement": "separate",
+    "Option_B": "unchanged",
+    "metric_as_record": "Status M unchanged"
+  },
+  "execution": {
+    "scientific_body_decode": false,
+    "actual_coefficient_scale_maximum_seed_H_evaluation": false,
+    "symbolic_numerical_engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "runtime_controller_card_admission": false,
+    "repository_index_Git_mutation": false
+  },
+  "stop": "Stop sealed for nonauthor review and root adjudication. Root owns repository/index/Git/publication and any subsequent authorization. No successor or runtime assigned."
+}

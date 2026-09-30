@@ -1,0 +1,32 @@
+{
+  "schema": "ri147-root-manual-proof-review-v1",
+  "scope": "Root read every line of all three current manuscripts, provenance note and author check fields; independently traced critical literal definitions and accepted premise equations. Separate complete nonauthor proof review remains required before adjudication.",
+  "current_reads": ["COMPONENT_CONTRASTS.md", "ACTUAL_SCALE_BOUND.md", "SCALE_MEMBERSHIP_SYNTHESIS.md", "DEPENDENCY_NOTES.md", "HANDOFF.json", "AUTHOR_CHECKS.json"],
+  "premise_reads": [
+    "RI41 check.py65-177: complete potential and ratio-edge setup, source-text only",
+    "RI63 check.py250-332,665-684: full prefix row/potential, component aggregation and M5 maximum; function definitions and actual mixture lines searched as text",
+    "RI120 ANALYTIC_PREFIX_LEMMAS1-150: actual H5 restoration, complete row complement, retained C5 singleton exception",
+    "RI145 ENDPOINT_REDUCTION360-476: complete signed q residual and scope; WEIGHTED_MARGIN_PROOF1-205: W, reference-sum positive decomposition and symbolic floor",
+    "RI128 INPUT_FORMULAS1-160: complete row/ideal domains and fixed scientific object boundary; no scientific body decoded"
+  ],
+  "manual_crosschecks": [
+    "Chain unique-maximal deletion gives A(S)alpha4; mixed singleton coefficient theta+kappa multiplies actual B(1). N=kappa B(1) and root-bit retention follow without identifying numerical component indices.",
+    "A terminal hook has an intrinsic unique root below every maximal vertex. Every proper-birth presentation retains that root in the precursor; ratio diamonds preserve terminal class and transport rather than complement its mark. Thus root0 and root1 components separate, with no coefficient ordering consequence.",
+    "Expanding complete-row squares gives K=1+c^2+variance with c>0. M5>=K>1; theta=1/[72(1+M5)] and actual j=1-theta K imply theta<1/144 and j>71/72. Positive E stem plus3m+3j proves M6>71/24 and rho<12/95. No selected-row substitute for the global maximum.",
+    "P4 has five stem ideals with potentials D(S)^2/B(S) and two distinct cap ideals with ell. Sum is theta^2+2theta N+N^2/B(1)+2ell=1+ell^2+N^2(1/B(1)-1)>1, including N=0.",
+    "With Delta=record1-record0 and d=B0-B1, Delta j=theta sum d(p-2) and Delta V=theta sum d[p+2theta-2-theta^2 t]. Inserting these into accepted q equation29 produces the stated F coefficients, preserving singleton record0-record1 sign.",
+    "Factor beta0 k0-beta1 k1 as d1[(2-x)-2theta p1+theta^3 x^2 t1]; adding delta_kappa beta1 k1 yields the exact correlated residual. Signed-part floor changes direction for negative d1/delta_kappa, covers zeros, and never assumes a positive floor.",
+    "k>41/36 and h*>19/36 follow from omega<11/36, x<=1/4 and nonnegative quadratic terms. Derivatives give strict upper2, including closed formal endpoints; no actual zero scale admitted.",
+    "Differentiating x times each term of the accepted positive K decomposition gives all stated -U20 derivative brackets. Each is positive; U30 derivative negative. Lower uj on[0,Z] retain positive full factors before replacing their positive coefficients.",
+    "The affine upper envelope has supremum at y=0 orY, equivalent to both endpoint inequalities. Equality is sufficient for W<=0; failure does not imply positive W. q floor uses the clamped positive quadratic vertex without numeric minimization.",
+    "v/D3, q/D3 and the canonical threshold divide only named positive denominators. Actual membership, endpoint signs, local margins and full shared H30 are still unproved. All other parent constraints and31/139/20/42 remain."
+  ],
+  "execution": {"scientific_body_decode": false, "native_coefficient_or_scale_evaluation": false, "symbolic_or_numerical_engine": false, "subject_source_import_compile_AST_probe_run": false},
+  "independent_review_required": true,
+  "ret_paused": true,
+  "diagnostics": [
+    {"chunk_id": "2bc6c2", "exit_code": 1, "meaning": "Read-only author-check display used absent author_peer_checks key; corrected complete non-administrative fields displayed in e60d51 exit0. No artifact mutation or scientific execution."},
+    {"chunk_id": "e9ed5b", "exit_code": 1, "meaning": "Existing publication helpers displayed; guessed build_publication.py absent. Actual publish_checkpoint.py subsequently read in b7c1f3 exit0."},
+    {"chunk_id": "881ec0", "exit_code": 1, "meaning": "Published README files displayed; guessed not-yet-created reviewer script absent. Reviewer work left untouched."}
+  ]
+}

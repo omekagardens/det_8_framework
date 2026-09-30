@@ -1,0 +1,60 @@
+{
+  "additional_read_chunks": [
+    "0a60eb",
+    "9c1e8f",
+    "850278",
+    "626490",
+    "b1d1a1",
+    "c256f6",
+    "86f3f8",
+    "c70ada"
+  ],
+  "administrative_check": {
+    "command": "python3 -I -B check_metadata.py",
+    "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3",
+    "exit_code": 0,
+    "output": {
+      "bytes": 76905,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/METADATA_CHECK.json",
+      "sha256": "6f49799df021fa96049e65a59a7412cfc80b8d47689fd217c288992c7cd48570"
+    },
+    "scientific_scope": false,
+    "source": {
+      "bytes": 8680,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/check_metadata.py",
+      "sha256": "173cada6340b1c80cea1288e5d27fc7c6db92503d46ac4a8914b0fc51ee93b9a"
+    },
+    "tool_chunk": "b5dc04"
+  },
+  "display_incident": {
+    "description": "One combined parallel read exceeded functions.exec display budget; both underlying commands reported exit0. No new full-read credit inferred from truncated display.",
+    "recovery_chunk": "c70ada",
+    "recovery_exit_code": 0,
+    "recovery_scope": "Fresh RI117 lines1-90, RI41 lines54-154 and RI145 exact q-residual lines394-419; prior complete reading separately disclosed.",
+    "visible_chunk": "c3343e"
+  },
+  "final_seal_description": "Separate inline administrative-only Python command authenticates the same root metadata helper, rechecks every subject/dependency identity and complete namespaces, records final pin evidence, then exclusively saves the handoff. The actual final tool chunk/exit are reported to root after completion; no self-created tool success receipt is inserted.",
+  "fresh_source_read_chunks": [
+    "4dfc48",
+    "f4a181",
+    "1dea8d",
+    "cc6493",
+    "3ec5b5"
+  ],
+  "helper": {
+    "authorization": "Root explicitly authorized administrative-only import after pin authentication; no subject helper loaded.",
+    "bytes": 3144,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+    "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+  },
+  "preserved_author_diagnostics": {
+    "scope": "Author path/search and wrapper incidents remain immutable author provenance, not relabeled as reviewer checks.",
+    "source": {
+      "bytes": 15202,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/AUTHOR_CHECKS.json",
+      "sha256": "d57fb03c4bb2098bfdba7d8ad18a98934ad261203924a39af2752cb4079d6f45"
+    }
+  },
+  "reviewer_checker_failures": [],
+  "schema": "ri147-independent-review-diagnostics-v1"
+}
