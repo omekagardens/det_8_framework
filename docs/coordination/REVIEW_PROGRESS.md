@@ -1,63 +1,70 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI172 independently establishes
-that the complete stated size-four margin constraints do not imply
-D_minus<=213d. A single global path changes all eight core B components while
-preserving every marked row, ratio, coefficient/complement floor and strict
-height bound. All 16 C4 rows and 32 affected raw diamonds are retained; every
-other component and non-C4 row remains unchanged. D_minus stays positive while
-d(t)=td, so D_minus/d(t) is unbounded for positive t tending to zero.
+**Current checkpoint — 30 September 2026 UTC.** RI173 is independently accepted
+as a conditional theorem at the unchanged law. Its threshold satisfies
+T_R/B>7957/891>8, so v<=8B gives a strictly negative weighted y-slope throughout
+0<x<=R, including equality. The complete canonical singleton corrections and
+all three signed products remain. If v>T_R there is one crossover; beyond it,
+the remaining condition is an upper-q comparison with the shared correction
+on both sides. Actual membership in any regime is unresolved.
 
-This is a theorem about the declared comparison class, not a counterexample
-to the frozen actual law. Original positive sensitivity is used only to show
-the starting numerator is positive. Higher canonical/polynomial identities,
-exact attained extrema, grid membership, M5/M6/rho and H30 are not transported
-to the altered tables. Root's manual proof and fresh 284-identity check accompany
-the separate nonauthor review in `docs/track_b/native_full_layer_nonimplication_v1/`.
-The size-four-only route is closed; the actual selected-vector question remains.
+The separate intercept argument proves a(R)>0 if v<=B, giving formal positive-y
+points near zero with W>0. It does not decide W at the actual pair (rho,s).
+Root's manual proof review and fresh 308-identity check accompany the complete
+source in `docs/track_b/native_same_law_slope_region_v1/`. The 300 selected
+dependencies, 276 inherited rows, 3,175 historical and 142 current typed
+references matched. These metadata checks are not mathematical execution.
+RI172's accepted finite-layer nonimplication remains unchanged; its altered
+coefficient family is not substituted for the actual law.
 
-RI-173 assigns the existing Quantum Relativity task a distinct same-law proof:
-determine the y-slope sign in RI145's exact weighted W identity on 0<x<=R,
-using the actual canonical singleton corrections and complete signed q formula.
-A nonpositive slope would make the lower-y endpoint sufficient for the full
-curved-domain comparison. This is a candidate question, not an accepted sign
-claim. A conditional result must explicitly delimit its actual-prefix premises.
-The separately owned fixed-vector qualification/audit is not duplicated.
+RI-175 is assigned to the existing Quantum Relativity task after RI173's
+independent adjudication. Determine whether the actual canonical quadratic q
+makes a(x)/Q(x) increasing on (0,R], and hence whether the intercept reduces
+to one endpoint comparison in the conditional slope regime. Retain all
+canonical correlations and lower-end degeneracies. If actual monotonicity
+remains unresolved, require a substantive conditional theorem and its exact
+missing premise. This is active proof work, not an accepted derivative sign.
 
-RI170's current-E preparation proposal is accepted with one explicit prose
-correction: the adapter's closed field list has 12 fields, not 13. The listed
-names and code agree. Root replay passed 5,301 predicates (1,274 roles/593 files);
-a separate check reconciled 1,296 roles/614 files and the genuine accepted
-106-control outcome. Root issued the exact consumer qualification interface,
-binding the unchanged source, ordered controls, actual report, genuine tool
-chain and independent review. No new execution or scientific credit follows.
-The complete source, preserved failed checks and root review/interface are in
-`docs/coordination/measurement_current_environment_preflight_v1/`.
+RI-174 completed one genuine measurement metadata copy after fresh source,
+vendor, namespace, tools and host checks. Tool d49fc5 exited zero. Root's
+independent replay b5cc2b matched all 48 exact copies, 124 historical originals,
+30 target originals, nine directories, the full saved observations and all ten
+independent tails. The complete receipt was separately checked after exit.
+The monitor retained 24 samples, 0.868752458 seconds elapsed, 55,696 KiB peak
+sampled child RSS, maximum gap 0.047152167 seconds and final gap 0.00003375
+seconds. Sources and the 1,810-file vendor selection remained unchanged.
+The exact evidence is in `docs/coordination/measurement_exact_copy_v1/`.
 
-Measurement's next action is fresh copy-only preflight/admission and the exact 48
-copy into the unchanged absent E, with a disjoint copy TMPDIR. Independent copy
-acceptance must precede separate current-E capture, baseline and normal/optimized
-profiles. Old environment cards remain inapplicable. Actual R01 path review,
-WHITE15, RI131 applicability, complete 27/13/30 records, 57 artifacts, 74 postchecks,
-three trees and independent arithmetic remain separate. Conventional GWOSC
-reproduction, calibration/protected validation and a native forward map remain
-unfinished. No proposed operational root was created by this checkpoint.
+The reserved E now contains the accepted copies and empty tmp/normal/optimized
+directories. Next is a separately admitted current-E runtime capture, then
+independent baseline acceptance and normal/optimized profiles. Old environment
+cards cannot substitute. Actual R01 path review, WHITE15, RI131 applicability,
+complete 27/13/30 records, 57 artifacts, 74 postchecks, three trees and independent
+arithmetic remain separate. No scientific analysis ran during the copy.
+Conventional GWOSC reproduction, calibration/protected validation and the
+native forward map remain unfinished.
 
-RI-171 remains active in its existing external reservation. The worker reports
-92 prospective supervisor-only cases (58 boundary cases plus 34 recipes); its
-packet still requires source review and separately admitted actual qualification.
-The repaired RI169 supervisor is source-accepted; no supervisor/native campaign
-has run. Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
-512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. The 2,547 native
-cases per mode, original-vector audit and QP04 remain unexecuted.
+RI-171's prospective 92-case supervisor qualification is rejected for source
+repair. Nonauthor review and root tracing identify five groups of defects:
+caller read faults can hit ps; late-observer checks are shadowed; ordinary
+failures can pass using only a receipt candidate; defining sibling/reap/kill
+and recovery obligations are missing; stderr hash drift instead changes size.
+The sealed source and review are preserved in
+`docs/coordination/native_supervisor_qualification_review_v1/`. The independent
+3,525-predicate metadata check establishes inventory consistency only.
+RI-176 assigns the original worker a focused source-only repair, with explicit
+prospective negative oracle checks and unchanged subject limits. All 92 controls,
+2,547 native cases per mode, original-vector audit and QP04 remain unexecuted.
 
-Preserve measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target,
-100-ms gap, 50-ms ps and 960-second outer bounds. Platform/tool trust,
-read-window stability, incomplete fork coverage and startup/kernel limits
-remain explicit premises. Actual capacity, joint q/v, global M6/rho, W/C2/C3,
-shared H30 and physical claims remain open. Keep P2/P3, Y=1/4, 31/139/20/42,
-shared T1, the other eight parents and all five Di. Root owns Git/index,
-admissions and publication; unrelated and active edits are preserved.
+Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
+512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. Preserve
+measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target, 100-ms gap,
+50-ms ps and 960-second outer bounds. Platform/tool trust, read-window stability,
+incomplete fork coverage and startup/kernel limits remain explicit premises.
+Actual capacity, joint q/v, global M5/M6/rho, W/C2/C3, shared H30 and physical
+claims remain open. Keep P2/P3, Y=1/4, 31/139/20/42, shared T1, the other eight
+parents and all five Di. Root owns Git/index, admissions and publication;
+unrelated and active edits are preserved.
 The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
@@ -12724,4 +12731,73 @@ remain explicit premises. Actual capacity, joint q/v, global M6/rho, W/C2/C3,
 shared H30 and physical claims remain open. Keep P2/P3, Y=1/4, 31/139/20/42,
 shared T1, the other eight parents and all five Di. Root owns Git/index,
 admissions and publication; unrelated and active edits are preserved.
+The programme continues; RET alone remains paused.
+
+**30 September 2026 — conditional slope, genuine exact copy and supervisor review.**
+
+**Current checkpoint — 30 September 2026 UTC.** RI173 is independently accepted
+as a conditional theorem at the unchanged law. Its threshold satisfies
+T_R/B>7957/891>8, so v<=8B gives a strictly negative weighted y-slope throughout
+0<x<=R, including equality. The complete canonical singleton corrections and
+all three signed products remain. If v>T_R there is one crossover; beyond it,
+the remaining condition is an upper-q comparison with the shared correction
+on both sides. Actual membership in any regime is unresolved.
+
+The separate intercept argument proves a(R)>0 if v<=B, giving formal positive-y
+points near zero with W>0. It does not decide W at the actual pair (rho,s).
+Root's manual proof review and fresh 308-identity check accompany the complete
+source in `docs/track_b/native_same_law_slope_region_v1/`. The 300 selected
+dependencies, 276 inherited rows, 3,175 historical and 142 current typed
+references matched. These metadata checks are not mathematical execution.
+RI172's accepted finite-layer nonimplication remains unchanged; its altered
+coefficient family is not substituted for the actual law.
+
+RI-175 is assigned to the existing Quantum Relativity task after RI173's
+independent adjudication. Determine whether the actual canonical quadratic q
+makes a(x)/Q(x) increasing on (0,R], and hence whether the intercept reduces
+to one endpoint comparison in the conditional slope regime. Retain all
+canonical correlations and lower-end degeneracies. If actual monotonicity
+remains unresolved, require a substantive conditional theorem and its exact
+missing premise. This is active proof work, not an accepted derivative sign.
+
+RI-174 completed one genuine measurement metadata copy after fresh source,
+vendor, namespace, tools and host checks. Tool d49fc5 exited zero. Root's
+independent replay b5cc2b matched all 48 exact copies, 124 historical originals,
+30 target originals, nine directories, the full saved observations and all ten
+independent tails. The complete receipt was separately checked after exit.
+The monitor retained 24 samples, 0.868752458 seconds elapsed, 55,696 KiB peak
+sampled child RSS, maximum gap 0.047152167 seconds and final gap 0.00003375
+seconds. Sources and the 1,810-file vendor selection remained unchanged.
+The exact evidence is in `docs/coordination/measurement_exact_copy_v1/`.
+
+The reserved E now contains the accepted copies and empty tmp/normal/optimized
+directories. Next is a separately admitted current-E runtime capture, then
+independent baseline acceptance and normal/optimized profiles. Old environment
+cards cannot substitute. Actual R01 path review, WHITE15, RI131 applicability,
+complete 27/13/30 records, 57 artifacts, 74 postchecks, three trees and independent
+arithmetic remain separate. No scientific analysis ran during the copy.
+Conventional GWOSC reproduction, calibration/protected validation and the
+native forward map remain unfinished.
+
+RI-171's prospective 92-case supervisor qualification is rejected for source
+repair. Nonauthor review and root tracing identify five groups of defects:
+caller read faults can hit ps; late-observer checks are shadowed; ordinary
+failures can pass using only a receipt candidate; defining sibling/reap/kill
+and recovery obligations are missing; stderr hash drift instead changes size.
+The sealed source and review are preserved in
+`docs/coordination/native_supervisor_qualification_review_v1/`. The independent
+3,525-predicate metadata check establishes inventory consistency only.
+RI-176 assigns the original worker a focused source-only repair, with explicit
+prospective negative oracle checks and unchanged subject limits. All 92 controls,
+2,547 native cases per mode, original-vector audit and QP04 remain unexecuted.
+
+Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
+512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. Preserve
+measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target, 100-ms gap,
+50-ms ps and 960-second outer bounds. Platform/tool trust, read-window stability,
+incomplete fork coverage and startup/kernel limits remain explicit premises.
+Actual capacity, joint q/v, global M5/M6/rho, W/C2/C3, shared H30 and physical
+claims remain open. Keep P2/P3, Y=1/4, 31/139/20/42, shared T1, the other eight
+parents and all five Di. Root owns Git/index, admissions and publication;
+unrelated and active edits are preserved.
 The programme continues; RET alone remains paused.

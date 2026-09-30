@@ -1,0 +1,14 @@
+{
+  "RET": "paused",
+  "constraints": "Read-only subject/source review and bounded administrative metadata only. No subject/vendor/helper import, compile, AST, probe, run; no fixtures, operational cards, current runtime observation, Git/index/repo writes or new agents. Use authenticated Homebrew Python-I-B or Node for metadata. Keep original sources/failures immutable; only write this exclusive review reservation.",
+  "handoff": "Seal complete nonauthor review and actual checks, with precise actionable findings and source anchors. Do not assign repairs or self-author a repaired subject. Root owns adjudication and publication.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu",
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri174-ri171-nonauthor-source-review-assignment-v1",
+  "subject": {
+    "bytes": 14569,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/HANDOFF.json",
+    "sha256": "b83a4588d780d552cbf665263a599e514e8c6944d41d3237bce1bd1180b01078"
+  },
+  "task": "Independently review all five new Python modules, complete92-case manifest, thirteen groups and34 inherited recipes against the unchanged RI169 supervisor and assignment. Audit executable path, injection reachability, exact/over-limit boundaries, complete saved oracle, first/tail failures, cleanup/reap/identity recovery, hard-deadline evidence and scope of doubles. Identify concrete blocking false-pass, false-refusal or missing-case defects. Do not infer qualification from metadata."
+}

@@ -1,0 +1,486 @@
+{
+  "identities": [
+    {
+      "bytes": 14569,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/HANDOFF.json",
+      "sha256": "b83a4588d780d552cbf665263a599e514e8c6944d41d3237bce1bd1180b01078",
+      "state": [
+        16777244,
+        418641,
+        33188,
+        1,
+        14569,
+        1790804342217921074,
+        1790804342217921074
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3853,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/ADMIN_TOOL_RECORDS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/ADMIN_TOOL_RECORDS.json",
+      "sha256": "416bdd203a2e73b0910abd8506f7dd570e04f94394ed9a43b7f9145de79d358a",
+      "state": [
+        16777244,
+        418305,
+        33188,
+        1,
+        3853,
+        1790804342214350748,
+        1790804342214350748
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6078,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHENTICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHENTICATION.json",
+      "sha256": "c34453cbc1e0d87fbd83c7af1888be904513c625a53ff1c4ca392cc5c42424fd",
+      "state": [
+        16777244,
+        417959,
+        33188,
+        1,
+        6078,
+        1790802095496304576,
+        1790802095496304576
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1122,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_ADDITIONS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_ADDITIONS.json",
+      "sha256": "b979caed402043cd26234477f0a93738afac90efe1babcf29df89c02edf9ef74",
+      "state": [
+        16777244,
+        418248,
+        33188,
+        1,
+        1122,
+        1790803839778229159,
+        1790803839778229159
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4331,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_METADATA_CHECK.before-observer-oracle.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_METADATA_CHECK.before-observer-oracle.json",
+      "sha256": "d86546980510ee354b8530deaac7aa5c6d1e9a6023e5deddfab764d691e02562",
+      "state": [
+        16777244,
+        418300,
+        33188,
+        1,
+        4331,
+        1790804049085918760,
+        1790804258243782999
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4331,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_METADATA_CHECK.json",
+      "sha256": "013d0731a35785578208f7b4342722d58c3fa08f241e2d6cd4941f7019a11f47",
+      "state": [
+        16777244,
+        418392,
+        33188,
+        1,
+        4331,
+        1790804258326081185,
+        1790804258326081185
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4688,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_RECORD.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_RECORD.md",
+      "sha256": "e4091819b4af811849b55647c5a07c8bce2e7cd5286c770069e0e788503b2124",
+      "state": [
+        16777244,
+        418290,
+        33188,
+        1,
+        4688,
+        1790804342134391148,
+        1790804342134391148
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 65870,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/CASE_MANIFEST.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/CASE_MANIFEST.json",
+      "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595",
+      "state": [
+        16777244,
+        417960,
+        33188,
+        1,
+        65870,
+        1790803839777494399,
+        1790803839777494399
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5250,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/COVERAGE.before-observer-oracle.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/COVERAGE.before-observer-oracle.json",
+      "sha256": "02fda9ff32c5bc65b3ef3ee006b301690db8a61e8543d8b3bda1e5b5cb15f107",
+      "state": [
+        16777244,
+        418299,
+        33188,
+        1,
+        5250,
+        1790804049085763258,
+        1790804258243711797
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5250,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/COVERAGE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/COVERAGE.json",
+      "sha256": "02fda9ff32c5bc65b3ef3ee006b301690db8a61e8543d8b3bda1e5b5cb15f107",
+      "state": [
+        16777244,
+        418391,
+        33188,
+        1,
+        5250,
+        1790804258325876286,
+        1790804258325876286
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 8790,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/DEPENDENCY_BINDINGS.before-observer-oracle.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/DEPENDENCY_BINDINGS.before-observer-oracle.json",
+      "sha256": "a09add22045e723587cfa4b618d95c124f5fdd5f2ccd3164c4ea0e9dc6a86a4e",
+      "state": [
+        16777244,
+        418298,
+        33188,
+        1,
+        8790,
+        1790804049085367586,
+        1790804258243643303
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 8790,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/DEPENDENCY_BINDINGS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/DEPENDENCY_BINDINGS.json",
+      "sha256": "bb04047e0c30677da4d52668d507afee9bfbb8582996b4be28a7681ed6835409",
+      "state": [
+        16777244,
+        418390,
+        33188,
+        1,
+        8790,
+        1790804258325370165,
+        1790804258325370165
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1681,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/FAILED_ADMIN_TOOL.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/FAILED_ADMIN_TOOL.json",
+      "sha256": "bfdb0bc862331c6dbd085b9e459ec83b1e948b8b9bdb5b4b07b6799a1b6d374b",
+      "state": [
+        16777244,
+        418304,
+        33188,
+        1,
+        1681,
+        1790804139132470113,
+        1790804139132470113
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10086,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/FINAL_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/FINAL_CHECK.json",
+      "sha256": "e49543f07517d389646019e69e8e1d9a7cd3c3b0ddec4e3ef2517de5b7398426",
+      "state": [
+        16777244,
+        418639,
+        33188,
+        1,
+        10086,
+        1790804342216417434,
+        1790804342216417434
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2997,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/INVOCATION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/INVOCATION.md",
+      "sha256": "2526c0581456ed4ad16e7a736d57ef5d78632d71fd3dc0b8724b13477e1b74d2",
+      "state": [
+        16777244,
+        418264,
+        33188,
+        1,
+        2997,
+        1790803429997533752,
+        1790803429997533752
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 9725,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/PROTOCOL.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/PROTOCOL.md",
+      "sha256": "3d141f62052b254036cc405eafb38579c8e7f14414112146925938e9c6a97051",
+      "state": [
+        16777244,
+        418263,
+        33188,
+        1,
+        9725,
+        1790803839778078240,
+        1790803839778078240
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1586,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/PUBLICATION_SUBSET.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/PUBLICATION_SUBSET.json",
+      "sha256": "96d63881b4fa0a8a864a1780d36a48a82ccfd162b7d1eb1317237a9d4d92f015",
+      "state": [
+        16777244,
+        418640,
+        33188,
+        1,
+        1586,
+        1790804342216592644,
+        1790804342216592644
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6781,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/SCHEMAS.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/SCHEMAS.md",
+      "sha256": "46c5e02a08a40bf64ddae3d41dd61532d83799d54f8b3c12ab6413d51634c6ae",
+      "state": [
+        16777244,
+        418266,
+        33188,
+        1,
+        6781,
+        1790803754640979345,
+        1790803754640979345
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1902,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/SOURCE_PINS.before-observer-oracle.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/SOURCE_PINS.before-observer-oracle.json",
+      "sha256": "86428ac1bdd6dbb6e9e6037fc41bcc5fe36ef0a7cd1e357ae1f9df8a887bf6a1",
+      "state": [
+        16777244,
+        418297,
+        33188,
+        1,
+        1902,
+        1790804049085121707,
+        1790804258243564435
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1902,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/SOURCE_PINS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/SOURCE_PINS.json",
+      "sha256": "f3b330a285a9fbb60173bf670d656b0040ae9d7c14f62b9e50493fc85e260f0e",
+      "state": [
+        16777244,
+        418389,
+        33188,
+        1,
+        1902,
+        1790804258324756052,
+        1790804258324756052
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 25490,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/case_worker.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/case_worker.py",
+      "sha256": "493c453041aabd0f0c24fc609283b9b52f012e2837142cb98ebd0ed998797e3f",
+      "state": [
+        16777244,
+        417976,
+        33188,
+        1,
+        25490,
+        1790803940936302318,
+        1790803940936302318
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7674,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_metadata.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_metadata.mjs",
+      "sha256": "39ca78b2f4bac13e7d1a91d94698a1c3147362a7705c8937307a919ea2d9043b",
+      "state": [
+        16777244,
+        418296,
+        33188,
+        1,
+        7674,
+        1790804049003934359,
+        1790804049003934359
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 34569,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_saved.before-observer-oracle.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_saved.before-observer-oracle.py",
+      "sha256": "109d6c9195f8aec9522fd2ee228a3fad9fedac19765a142fe374067a619a0901",
+      "state": [
+        16777244,
+        418388,
+        33188,
+        1,
+        34569,
+        1790804258243171387,
+        1790804258243171387
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 35555,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_saved.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_saved.py",
+      "sha256": "6e9743a21a5c7ee23a11e0bd43b3de67d8b5c7aecf654248ed9e2260768a8ef0",
+      "state": [
+        16777244,
+        418245,
+        33188,
+        1,
+        35555,
+        1790804258243397242,
+        1790804258243397242
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5043,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/inert_payload.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/inert_payload.py",
+      "sha256": "d9698a0e46b8c1355bbc313f80e3d3f3ab28a0bb14486fc61e3e305fb35aa37e",
+      "state": [
+        16777244,
+        417965,
+        33188,
+        1,
+        5043,
+        1790802973065779526,
+        1790802973065779526
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6460,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.first.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.first.mjs",
+      "sha256": "845e094d5d5d3e6194781ca4c04ad03569e393dd7cf3baf2287fef9bc702c534",
+      "state": [
+        16777244,
+        417958,
+        33188,
+        1,
+        6460,
+        1790802095422855852,
+        1790802095422855852
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6471,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.mjs",
+      "sha256": "21522f56c7c22c0c28b6fdcfba5a4a93f2ad3cb7dcd0f7496a6195c8521f1d93",
+      "state": [
+        16777244,
+        417957,
+        33188,
+        1,
+        6471,
+        1790802095423056186,
+        1790802095423056186
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7666,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/protocol.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/protocol.py",
+      "sha256": "802cafa8aa8c3d9050e16dc183ee737277d991e1da359cc9e1a62e72e3f81260",
+      "state": [
+        16777244,
+        417964,
+        33188,
+        1,
+        7666,
+        1790803429990829536,
+        1790803429990829536
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6127,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/qualify_supervisor.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/qualify_supervisor.py",
+      "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8",
+      "state": [
+        16777244,
+        418177,
+        33188,
+        1,
+        6127,
+        1790803088034813940,
+        1790803088034813940
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6686,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/seal_metadata.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/seal_metadata.mjs",
+      "sha256": "28693d28b8d642a48cbae6a1ab04ddc9915160973f70517356fadae1ad8595dd",
+      "state": [
+        16777244,
+        418638,
+        33188,
+        1,
+        6686,
+        1790804342137363051,
+        1790804342137363051
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "schema": "ri174-root-ri171-whole-packet-identity-v1",
+  "status": "PASS_IDENTITY_NOT_SOURCE_ACCEPTANCE"
+}

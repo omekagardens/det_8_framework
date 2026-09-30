@@ -1,0 +1,149 @@
+{
+  "schema": "ri171-author-metadata-check-v1",
+  "passed": true,
+  "source_stats": {
+    "protocol": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/protocol.py",
+      "bytes": 7666,
+      "sha256": "802cafa8aa8c3d9050e16dc183ee737277d991e1da359cc9e1a62e72e3f81260",
+      "lines": 164,
+      "column_zero_functions": [
+        "need",
+        "canonical",
+        "pairs",
+        "decode",
+        "capture",
+        "put",
+        "bind_sources",
+        "request",
+        "tree",
+        "postcheck"
+      ],
+      "method": "Literal text only; not Python syntax/AST/compile/import."
+    },
+    "driver": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/qualify_supervisor.py",
+      "bytes": 6127,
+      "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8",
+      "lines": 122,
+      "column_zero_functions": [
+        "load_protocol",
+        "main"
+      ],
+      "method": "Literal text only; not Python syntax/AST/compile/import."
+    },
+    "worker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/case_worker.py",
+      "bytes": 25490,
+      "sha256": "493c453041aabd0f0c24fc609283b9b52f012e2837142cb98ebd0ed998797e3f",
+      "lines": 485,
+      "column_zero_functions": [
+        "bootstrap",
+        "direct",
+        "main"
+      ],
+      "method": "Literal text only; not Python syntax/AST/compile/import."
+    },
+    "payload": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/inert_payload.py",
+      "bytes": 5043,
+      "sha256": "d9698a0e46b8c1355bbc313f80e3d3f3ab28a0bb14486fc61e3e305fb35aa37e",
+      "lines": 129,
+      "column_zero_functions": [
+        "save",
+        "emit",
+        "observer",
+        "main"
+      ],
+      "method": "Literal text only; not Python syntax/AST/compile/import."
+    },
+    "checker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_saved.py",
+      "bytes": 34569,
+      "sha256": "109d6c9195f8aec9522fd2ee228a3fad9fedac19765a142fe374067a619a0901",
+      "lines": 402,
+      "column_zero_functions": [
+        "bootstrap",
+        "inspect",
+        "main"
+      ],
+      "method": "Literal text only; not Python syntax/AST/compile/import."
+    },
+    "subject": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+      "bytes": 26321,
+      "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6",
+      "lines": 588,
+      "column_zero_functions": [
+        "need",
+        "canonical",
+        "error",
+        "write_all",
+        "new_file",
+        "sync_base",
+        "readback",
+        "clear_child_timer",
+        "hard_stop",
+        "stop_pipe",
+        "readable_names",
+        "process_snapshot",
+        "discover",
+        "signal_observed",
+        "supervise"
+      ],
+      "method": "Literal text only; not Python syntax/AST/compile/import."
+    }
+  },
+  "distinct_originals": 24,
+  "predecessor_namespace_unchanged": true,
+  "entire_34_recipe_objects_and_order_exact": true,
+  "groups": 13,
+  "cases": 92,
+  "base_cases": 58,
+  "source_text_predicates": [
+    {
+      "id": "whole actual entry",
+      "passed": true
+    },
+    {
+      "id": "whole original observer entry",
+      "passed": true
+    },
+    {
+      "id": "literal selected native subject",
+      "passed": true
+    },
+    {
+      "id": "source-module body, not snippets",
+      "passed": true
+    },
+    {
+      "id": "copied operands",
+      "passed": true
+    },
+    {
+      "id": "no fabricated accepted outcome",
+      "passed": true
+    },
+    {
+      "id": "complete independent saved stream operand",
+      "passed": true
+    },
+    {
+      "id": "literal inert payload",
+      "passed": true
+    },
+    {
+      "id": "complete postcheck loops",
+      "passed": true
+    },
+    {
+      "id": "no target load in saved checker",
+      "passed": true
+    }
+  ],
+  "target_or_fixture_execution": false,
+  "python_import_compile_AST_or_probe": false,
+  "administrative_node_only": true,
+  "actual_qualification_outcomes": 0
+}

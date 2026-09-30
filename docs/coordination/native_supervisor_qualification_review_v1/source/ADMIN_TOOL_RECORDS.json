@@ -1,0 +1,135 @@
+{
+  "schema": "ri171-actual-administrative-records-v1",
+  "records": [
+    {
+      "chunk_id": "f26490",
+      "exit_code": 0,
+      "scope": "Read entire exact assignment"
+    },
+    {
+      "chunk_id": "d150b6",
+      "exit_code": 0,
+      "scope": "Empty reservation"
+    },
+    {
+      "chunk_id": "2321d1",
+      "exit_code": 0,
+      "scope": "Read full root disposition and retained13 groups"
+    },
+    {
+      "chunk_id": "e25a05",
+      "exit_code": 0,
+      "scope": "Read original whole observer/discovery/signal source"
+    },
+    {
+      "chunk_id": "72a8b8",
+      "exit_code": 1,
+      "scope": "Retained failed Node administrative property-order comparison"
+    },
+    {
+      "chunk_id": "880ec6",
+      "exit_code": 0,
+      "scope": "Corrected fieldwise pin comparison and initial84-case administrative manifest"
+    },
+    {
+      "chunk_id": "5836e9",
+      "exit_code": 0,
+      "scope": "Wrote unexecuted protocol and inert-payload sources"
+    },
+    {
+      "chunk_id": "131860",
+      "exit_code": 0,
+      "scope": "Wrote unexecuted whole worker and explicit doubles"
+    },
+    {
+      "chunk_id": "f22335",
+      "exit_code": 0,
+      "scope": "Wrote controller and literal source refinements"
+    },
+    {
+      "chunk_id": "425952",
+      "exit_code": 0,
+      "scope": "Wrote separate saved oracle source"
+    },
+    {
+      "chunk_id": "496a93",
+      "exit_code": 0,
+      "scope": "Literal eight-case coverage additions and source refinements"
+    },
+    {
+      "chunk_id": "9b6058",
+      "exit_code": 0,
+      "scope": "Independent custody-tail source refinements"
+    },
+    {
+      "chunk_id": "5b4b74",
+      "exit_code": 0,
+      "scope": "Closed event/operand/source-path scope refinements"
+    },
+    {
+      "chunk_id": "5738c8",
+      "exit_code": 0,
+      "scope": "Read worker direct and whole entry/tail text"
+    },
+    {
+      "chunk_id": "3f37ac",
+      "exit_code": 0,
+      "scope": "Read complete controller source"
+    },
+    {
+      "chunk_id": "02ee8d",
+      "exit_code": 0,
+      "scope": "Protocol/invocation documents and source-only root directory guard"
+    },
+    {
+      "chunk_id": "300351",
+      "exit_code": 0,
+      "scope": "Closed collection/source schema documentation"
+    },
+    {
+      "chunk_id": "fb29bc",
+      "exit_code": 0,
+      "scope": "Source-only complete raw-journal saved oracle"
+    },
+    {
+      "chunk_id": "57dd2c",
+      "exit_code": 0,
+      "scope": "Explicit fixture-directory sync and failed-pump source oracles"
+    },
+    {
+      "chunk_id": "e11638",
+      "exit_code": 0,
+      "scope": "Corrected unexecuted S07 timing prediction and failed-observation distinction"
+    },
+    {
+      "chunk_id": "88b5c8",
+      "exit_code": 0,
+      "scope": "Bounded stale-observer fixture latency and author record"
+    },
+    {
+      "chunk_id": "a5a88f",
+      "exit_code": 0,
+      "scope": "Literal metadata/24-original identity/full92manifest/34recipe equality check"
+    },
+    {
+      "chunk_id": "6aa169",
+      "exit_code": 0,
+      "scope": "Preserved sole failed administrative attempt and actual command records."
+    },
+    {
+      "chunk_id": "66b712",
+      "exit_code": 0,
+      "scope": "Preserved pre-refinement checker/metadata; final literal observer oracle and complete metadata rerun. No target execution."
+    }
+  ],
+  "actual_supervisor_controls": 0,
+  "actual_fixture_executions": 0,
+  "actual_native_runs": 0,
+  "python_source_import_compile_AST_probe": false,
+  "current_runtime_observation": false,
+  "scope": "Actual Node/shell administrative tools only. Source case inventories are not executed outcomes. Tool-origin records are transcription of actual author tools; root separately verifies origin.",
+  "failures": [
+    "72a8b8"
+  ],
+  "remaining_seal_tool_record": "Supplied with final handoff message after immutable seal."
+}

@@ -1,0 +1,91 @@
+{
+  "actual_runtime_observed": false,
+  "administrative_checks": 3525,
+  "decision": "REQUIRE_SOURCE_REPAIRS_BEFORE_QUALIFICATION_ADMISSION",
+  "defined_cases": 92,
+  "executed_cases": 0,
+  "findings": [
+    {
+      "id": "F01",
+      "locations": [
+        "case_worker.py:71-77",
+        "case_worker.py:332-345",
+        "check_saved.py:212-226",
+        "RI169/supervise_native.py:423-447"
+      ],
+      "required_repair": "Exact role-and-stream injection plus independently checked error tag and same-pipe ordering.",
+      "severity": "blocking",
+      "title": "Caller read injections select the observer; transient cases can falsely pass"
+    },
+    {
+      "id": "F02",
+      "locations": [
+        "check_saved.py:234-260",
+        "check_saved.py:305-308",
+        "case_worker.py:254-263"
+      ],
+      "required_repair": "Closed late-file fault set and reachable dedicated second-observer refusal oracle.",
+      "severity": "blocking",
+      "title": "late_observer is shadowed by both generic late-file branches"
+    },
+    {
+      "id": "F03",
+      "locations": [
+        "check_saved.py:97-130",
+        "check_saved.py:234-247",
+        "case_worker.py:453-480",
+        "qualify_supervisor.py:94-113",
+        "RI169/supervise_native.py:570-580"
+      ],
+      "required_repair": "Case-specific terminal requirements: expected return, no unrelated escape, durable full saved receipt for ordinary cases; explicit partial semantics only where declared.",
+      "severity": "blocking",
+      "title": "Ordinary failed cases can pass with only a candidate receipt after unrelated terminal escape"
+    },
+    {
+      "id": "F04",
+      "locations": [
+        "check_saved.py:297-318",
+        "check_saved.py:342-355",
+        "check_saved.py:389-394",
+        "case_worker.py:300-328",
+        "case_worker.py:370-375"
+      ],
+      "required_repair": "Finite complete per-case obligations and identity-complete recovery reconciliation; retain deliberate incomplete deadline/nonreap outcomes without claiming successful cleanup.",
+      "severity": "blocking",
+      "title": "Inherited defining faults, healthy captures, subject reap and recovery completeness are not fully asserted"
+    },
+    {
+      "id": "F05",
+      "locations": [
+        "inert_payload.py:117-125",
+        "case_worker.py:137-154",
+        "check_saved.py:305-307"
+      ],
+      "required_repair": "Nonempty deterministic stderr with unchanged intended first error; verify same length and actual byte/hash mutation separately from size mutation.",
+      "severity": "blocking",
+      "title": "stderr hash-drift test changes file size"
+    }
+  ],
+  "historical_325_references_freshly_walked": false,
+  "native_scientific_acceptance": false,
+  "new_source_lines_read": 1310,
+  "observed_identities": 55,
+  "prior_roles": "Earlier separate WHITE validator/caller/bootstrap author and independent RI165 reviewer; no authorship of RI165/167/169 supervisor or RI171.",
+  "qualification_accepted": false,
+  "remaining_root_actions": [
+    "Adjudicate exact source findings",
+    "Assign narrow repair to original author",
+    "Obtain fresh independent review of repaired source",
+    "Separately determine genuine per-case admission, timing, custody and recovery; no execution authorized by this review"
+  ],
+  "ret_paused": true,
+  "reviewer_authored_subject": false,
+  "schema": "ri171-independent-source-verdict-v1",
+  "source_modules_read": 5,
+  "subject": {
+    "bytes": 14569,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/HANDOFF.json",
+    "sha256": "b83a4588d780d552cbf665263a599e514e8c6944d41d3237bce1bd1180b01078"
+  },
+  "unchanged_supervisor_lines_read": 588
+}

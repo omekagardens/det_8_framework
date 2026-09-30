@@ -1,0 +1,60 @@
+{
+  "all_ten_independent_tails_passed": true,
+  "complete": {
+    "bytes": 176991,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri170-copy-proposed-gikj2giy/COMPLETE.json",
+    "sha256": "f4f045288f7ecfa89f7fa73d4e1d6713ab2a6ee2f25930bedfce8f357cec574e"
+  },
+  "complete_file_externally_included": true,
+  "copied_files": 48,
+  "copied_root_directories": 9,
+  "copy_root": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "elapsed_seconds": 0.8687524579999999,
+  "final_gap_seconds": 3.3749999999832525e-05,
+  "genuine_tool": {
+    "bytes": 3961,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/GENUINE_TOOL.json",
+    "sha256": "c8faac02fe54e17ace8bc0d0056cb29fd5a3463e74756eed01a650d2825f4d8c"
+  },
+  "history_originals": 124,
+  "host_uname_unchanged": true,
+  "maximum_sample_gap_seconds": 0.047152166999999995,
+  "monitor": {
+    "bytes": 7455,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-copy-monitor-proposed-gikj2giy/COPY.COMPLETION.json",
+    "sha256": "6028eaf97c5ab61a618c1a6bd6abd2584d385dc14294080e7b5d94ff20bd102b"
+  },
+  "namespace_entries_rechecked": 195,
+  "observed_at_unix_ns": 1790805112695584000,
+  "peak_sampled_rss_kib": 55696,
+  "preflight": {
+    "bytes": 3613,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "dbee2cdc1148e06da42165ceb9b19f1f776e2d42cf072d2f7bd92e4738509c50"
+  },
+  "primitives_rechecked": 4,
+  "result": {
+    "bytes": 290958,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri170-copy-proposed-gikj2giy/RESULT.json",
+    "sha256": "3614dad91438950d9704c01a8c031a96434c3c64832bccc3453c4e1d53cac05b"
+  },
+  "ret_paused": true,
+  "runtime_before": {
+    "bytes": 1260494,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/RUNTIME_BEFORE.json",
+    "sha256": "6ab064c8f280fe20f5d46c9f34872646a0a672feb91952d6284239d7b956970f"
+  },
+  "runtime_capture_executed": false,
+  "samples": 24,
+  "schema": "ri174-root-actual-copy-review-v1",
+  "scientific_execution": false,
+  "sources_before": {
+    "bytes": 471009,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/SOURCES_BEFORE.json",
+    "sha256": "42e13b789f9432f32c40a067ddca541b2bb6c940fd2d9fbd82a27dd974c9ce3f"
+  },
+  "sources_rechecked": 810,
+  "status": "ACCEPT_ONE_EXACT_METADATA_COPY_ONLY",
+  "target_originals": 30,
+  "vendor_files_rechecked": 1810
+}

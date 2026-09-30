@@ -1,0 +1,164 @@
+{
+  "actual_control_outcomes": 0,
+  "checker_stdout": {
+    "bytes": 269609,
+    "cases": 92,
+    "checks": 3525,
+    "identities": 55,
+    "sha256": "14ef68bdea792a4b5a17161c381d632d49cbbcf9d73e2807a03e887fa9281da5",
+    "status": "IDENTITIES_AND_LITERAL_INVENTORIES_MATCH_NOT_QUALIFICATION"
+  },
+  "display_recovery": {
+    "no_truncated_complete_read_credit": true,
+    "recovered_by": [
+      "dbc07b",
+      "2be246",
+      "085732",
+      "20e85e"
+    ],
+    "truncated_chunk": "4256b5"
+  },
+  "exact_checker_command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/check_admin.py",
+  "own_failed_commands": [],
+  "records": [
+    {
+      "chunk_id": "6f4111",
+      "description": "Authenticated exclusive reservation, assignment and handoff; read assignment/schema/namespace",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "cf6a03",
+      "description": "Authenticated exact30/29 and read source pins plus complete protocol/schema/invocation",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "8d92c2",
+      "description": "Read complete protocol, controller and inert payload",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "5c3b96",
+      "description": "Read worker lines1-250",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "8b2990",
+      "description": "Read worker lines250-485 and unchanged RI169 lines1-220",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "5fd073",
+      "description": "Read unchanged RI169 lines220-588",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "f5dca0",
+      "description": "Read saved checker lines1-155",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "c84bae",
+      "description": "Read saved checker lines155-305",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "4256b5",
+      "description": "Read saved checker lines305-410; combined manifest display truncated and not credited complete",
+      "exit_code": 0,
+      "output_truncated": true
+    },
+    {
+      "chunk_id": "2be246",
+      "description": "Recovered manifest header and complete cases28-58",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "085732",
+      "description": "Recovered complete manifest cases59-86",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "70313a",
+      "description": "Read author record, failure and administrative schemas",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "20e85e",
+      "description": "Read dependency roles,24 paths and manifest cases87-92",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "3ed3f0",
+      "description": "Read predecessor bindings, recipe fields and full actual author tool records",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "e2a549",
+      "description": "Read original assignment, root decision, full metadata checker, metadata result and coverage",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "dbc07b",
+      "description": "Recovered complete manifest cases1-27",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "85987e",
+      "description": "Created own read-only check_admin.py",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "59ddad",
+      "description": "Executed own bounded read-only administrative checker only",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "f855b0",
+      "description": "Created complete narrative review",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "163161",
+      "description": "Listed review reservation after continuation; three expected files",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "1cb89e",
+      "description": "Read own complete administrative checker",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    {
+      "chunk_id": "fca7ee",
+      "description": "Read own complete narrative before seal",
+      "exit_code": 0,
+      "output_truncated": false
+    }
+  ],
+  "schema": "ri171-independent-tool-outcomes-v1",
+  "subject_correction": "880ec6 exit0 administrative only",
+  "subject_original_failures_preserved": [
+    "72a8b8 exit1 FilePin property-order administrative failure",
+    "Original RI165 system-Python startup deviation: no qualification credit"
+  ],
+  "tool_record_scope": "These are genuine tool-result references from this review conversation, not created execution/admission cards. Final sealing and read-only verification results are returned directly to root."
+}

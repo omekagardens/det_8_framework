@@ -1,0 +1,20 @@
+{
+  "schema": "ri174-genuine-metadata-copy-tool-v1",
+  "tool": "exec_command",
+  "actual_arguments": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri170-copy-environment-proposed-gikj2giy/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B -c '# Prospective text only. Not executed or an admission. Root must review and issue actual cards first.\nimport hashlib, importlib.util, os, sys\nfrom pathlib import Path\nexpected_environment = {'\"'\"'LC_ALL'\"'\"': '\"'\"'C'\"'\"', '\"'\"'MKL_NUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'NUMEXPR_NUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'OMP_NUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'OPENBLAS_NUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'PATH'\"'\"': '\"'\"'/usr/bin:/bin'\"'\"', '\"'\"'TMPDIR'\"'\"': '\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri170-copy-environment-proposed-gikj2giy/tmp'\"'\"', '\"'\"'TZ'\"'\"': '\"'\"'UTC'\"'\"', '\"'\"'VECLIB_MAXIMUM_THREADS'\"'\"': '\"'\"'1'\"'\"', '\"'\"'__CF_USER_TEXT_ENCODING'\"'\"': '\"'\"'0x1F5:0x0:0x0'\"'\"'}\nif dict(os.environ) != expected_environment: raise RuntimeError('\"'\"'RI170 exact copy environment'\"'\"')\nif sys.executable != '\"'\"'/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9'\"'\"' or (sys.flags.isolated, sys.flags.dont_write_bytecode, sys.flags.optimize) != (1, 1, 0): raise RuntimeError('\"'\"'RI170 direct normal isolated vendor'\"'\"')\nsource_path = Path('\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py'\"'\"')\nif source_path.is_symlink() or source_path.resolve(strict=True) != source_path: raise RuntimeError('\"'\"'RI170 literal monitor source'\"'\"')\nbefore = source_path.stat()\nwith source_path.open('\"'\"'rb'\"'\"') as stream: captured = stream.read(67108865)\nstate = lambda s: (s.st_dev, s.st_ino, s.st_mode, s.st_nlink, s.st_size, s.st_mtime_ns, s.st_ctime_ns)\nif state(before) != state(source_path.stat()) or len(captured) != 45721 or hashlib.sha256(captured).hexdigest() != '\"'\"'8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe'\"'\"': raise RuntimeError('\"'\"'RI170 complete monitor capture'\"'\"')\nmodule_name = '\"'\"'ri170_whole_unchanged_ri141_copy_monitor'\"'\"'\nif module_name in sys.modules: raise RuntimeError('\"'\"'RI170 fresh non-main monitor name'\"'\"')\nspec = importlib.util.spec_from_file_location(module_name, source_path)\nmodule = importlib.util.module_from_spec(spec)\nexec(compile(captured, str(source_path), '\"'\"'exec'\"'\"'), module.__dict__)\nmodule.child_run(['\"'\"'/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9'\"'\"', '\"'\"'-I'\"'\"', '\"'\"'-B'\"'\"', '\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py'\"'\"', '\"'\"'--admission'\"'\"', '\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_COPY_ADAPTER.json'\"'\"'], Path('\"'\"'/Volumes/AI_DATA/development/det-review-evidence/ri170-copy-monitor-proposed-gikj2giy'\"'\"'), '\"'\"'COPY'\"'\"', 180, expected_environment)\n'",
+    "login": false,
+    "max_output_tokens": 2000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy",
+    "yield_time_ms": 1000
+  },
+  "actual_result": {
+    "chunk_id": "d49fc5",
+    "wall_time_seconds": 0.844910042,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "completed_in_initial_call": true,
+  "subsequent_wait_required": false
+}

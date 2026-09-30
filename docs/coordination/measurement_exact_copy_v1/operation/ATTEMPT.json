@@ -1,0 +1,11 @@
+{
+  "action": "copy",
+  "admission": {
+    "bytes": 2149,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_COPY_ADAPTER.json",
+    "sha256": "7216f9d6ca78a3be5c8635fe2eac974924862ea2213cfbc91cd393fc908e6a93"
+  },
+  "no_retry": true,
+  "schema": "ri156-exclusive-metadata-attempt-v1",
+  "scientific_execution": false
+}

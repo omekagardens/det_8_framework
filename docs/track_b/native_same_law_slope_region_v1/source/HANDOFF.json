@@ -1,0 +1,109 @@
+{
+  "schema": "ri173-same-law-endpoint-slope-handoff-v1",
+  "status": "SEALED_AUTHOR_SUBMISSION_INDEPENDENT_REVIEW_PENDING",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI173_NATIVE_ASSIGNMENT.json",
+    "bytes": 3942,
+    "sha256": "a0a26e57ed0e18ca1a5bf67d87f207e78df42ed640d89752ca7dc8153709862a"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI172_ROOT_ADJUDICATION.json",
+    "bytes": 2163,
+    "sha256": "32d26865e042061153443d38fff1e272831a55e01d38486786b178a147570ee4"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "operational_governance_role": "Whole pinned governance boundary only; not a mathematical premise or execution admission. Preserve named opaque author support boundaries.",
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "CANONICAL_SLOPE.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SLOPE_REGION.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/AUTHOR_CHECKS.json",
+      "bytes": 19272,
+      "sha256": "eeab6952e1eac5d9c6a0b42837620f9635b4bd03372c820169de77549870b263"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/CANONICAL_SLOPE.md",
+      "bytes": 15263,
+      "sha256": "81821c78fd0407db6d8d0523aa78641dfde6e34fd49aa7613295953c72ba9ac2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/DEPENDENCY_NOTES.md",
+      "bytes": 16529,
+      "sha256": "96648774b13fbd28536d98d1a1c9460d0f649145014094ef92cf9e7065d9f6ba"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/HANDOFF.md",
+      "bytes": 3066,
+      "sha256": "0902b0a560307d7f5eaaae2922f0154db215b4d3129a5070c494924f4dbf12c4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/SLOPE_REGION.md",
+      "bytes": 9969,
+      "sha256": "eabe9d0a322d046a002cc9a48a22087a2b40af4f7773523f0434fb03ca50c295"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/SOURCE_DEPENDENCIES.json",
+      "bytes": 273912,
+      "sha256": "736b1107eb357b071ce1ee8c76042f950b792ef6b9139252d4719fc88b58f0dc"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/SOURCE_IDENTITIES.json",
+      "bytes": 61039,
+      "sha256": "4174222c4afce5d99b25569aca95f2f08f3f58edfbe0ca2da27e5126d061fd75"
+    }
+  ],
+  "results": {
+    "conditional_region": "For the unchanged actual same-law prefix, v<=T_R implies b(x)<0 for every0<x<=R; v=T_R andx=R remain strict because the complete positive q term remains.",
+    "threshold": "T_R=lambda*j0*U30(R)/[R(1-R)(1+eta)(j0+G_*R)], withT_R/B>7957/891>8 andB=12lambda*j0*R/(1-R).",
+    "simple_sufficient_region": "v<=8B, including equality.",
+    "normalized_margin": "Onv<=8B, b/(12xQ)<-(829/7128)*x*(1+eta)*(j0+G_*x)<0.",
+    "complement": "Ifv>T_R, unique x_c in(0,R) withT(x_c)=v; b<0 on(0,x_c]; on(x_c,R], b<=0 iff the complete canonicalq<=lambda*G_*x*U20/Psi.",
+    "canonical_dependence": "Full35/1476 positive-part correction, tied minima, zero/positive branches, DeltaN,Delta(N omega),Delta(N omega^2), and simultaneous N0 contribution toU20 andq retained. Equation17b exposes the correlated clearing without assigning a sign toPsi-lambda*G_*x^2.",
+    "separate_intercept": "Onv<=B, direct RI145 intercept formula givesa(R)>0; formal positive-y W>0 near0 does not determineW(rho,s)."
+  },
+  "unresolved": [
+    "Actual membership inv<=T_R (or the sufficientv<=8B).",
+    "Ifv>T_R, actual canonical upper-q comparison on the terminal interval.",
+    "Intercept comparison needed for full-domain weighted nonpositivity; no actualW/C2/C3 sign orH30 feasibility follows.",
+    "Actual capacity, jointq/v, globalM5/M6/rho, all shared and higher continuation obligations."
+  ],
+  "conditional_same_law_slope_theorem": true,
+  "full_canonical_substitution_retained": true,
+  "actual_regime_determined": false,
+  "unconditional_slope_claimed": false,
+  "actual_W_sign_claimed": false,
+  "actual_109_vector_read": false,
+  "scientific_execution": false,
+  "independent_acceptance_claimed": false,
+  "new_agent_or_thread_created": false,
+  "repository_or_git_operation": false,
+  "physical_claim": false,
+  "ret_paused": true,
+  "unchanged_obligations": "P2/P3,Y=1/4,31/139/20/42,sharedT1,other eight parents,fiveDi,strict endpoints,labeled multiplicities and frozen same-law prefix. RI170/RI171 separately owned.",
+  "checks": {
+    "preseal_receipt": "b19383",
+    "preseal_exit_code": 0,
+    "preseal_sources": 300,
+    "preseal_fresh_checks": 306,
+    "peer_final_read": "bf2042",
+    "peer_final_exit_code": 0,
+    "scope": "Manual author/peer algebra plus bounded administrative identity checks only. Independent acceptance pending.",
+    "final8": "Not preclaimed; externally report final seal check after this file exists."
+  },
+  "stopping_boundary": "Stop at bounded sealed author handoff. Root independently reviews and owns next assignment, execution admission and repository/publication."
+}
