@@ -1,60 +1,58 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-160's final fixture-custody
-repair is independently reviewed and root accepted as exact unexecuted source,
-published in `docs/experiments/gwosc_white_final_fixture_repair_v1/`.
-RI-158 F02-R is closed at source level: both complete normalized fixture subtrees
-are reconciled against captured expectations using the same final namespace scan.
-All comparable structural, ordinary-output and fixture mismatches remain available
-before first refusal; earlier primary errors and unavailable partial expectations
-retain their proper meaning. No actual control or measurement result is claimed.
+**Current checkpoint — 30 September 2026 UTC.** RI-161's synthetic grid
+qualification source is independently reviewed and root accepted with execution
+prerequisites, published in `docs/track_b/native_growth_grid_qualification_source_v1/`.
+The three complete sources define independent expected answers, all 109-index
+sweeps, exact refusals, compound faults and a bounded caller for the accepted
+RI-159 checker/auditor. All 2,547 prospective cases per mode remain unexecuted.
 
-Root independently read the complete changed modules, all 22 new controls, patch,
-contracts and inherited tree/tail/protocol boundaries. Replay ad1f74 and fresh
-comparison 58d82a exit 0: 4,167 administrative predicates, 567 dependencies and
-599 full identities; every independent report field matches except schema.
-Ten executable files, eight adapter functions, four integration helper/case bodies
-and the original 84 IDs/order are unchanged. All 106 controls remain unexecuted.
+Root's complete source review and fresh replay 295128 / comparison 0b9b5b exit 0
+confirm 21,368 administrative predicates, 280 dependencies and 292 identities;
+every independent report field agrees except schema. Independent check 83ba9b
+and seal 966136 exit 0. These are source/provenance checks, not runtime qualification.
+Genuine bootstrap/interpreter/stdlib/host admission, complete actual outcomes and
+independent full-case review remain required. QP04's actual fixed-input audit
+follows separately. No certificate body or actual grid result was decoded here.
 
-The existing measurement author owns RI-162 in
-`ri162-inert-qualification-preflight-wb69vu5s/`, under the repair archive's
-`root/MEASUREMENT_SUCCESSOR_ASSIGNMENT.json`. Prepare the exact bounded actual-106
-invocation with the existing unchanged monitor and fresh read-only observations
-of fixed bootstrap/host prerequisites. No recursive launcher, active operational
-card, fixture, control or scientific execution is assigned. Root inspects the
-concrete preparation and separately admits actual controls, then requires fresh
-independent outcomes review. Later scientific gates do not substitute for or
-unnecessarily block this inert qualification step.
+After adjudication, the existing Quantum Relativity task owns RI-163 in
+`ri163-native-qualification-preflight-fqexul5v/`, under the source archive's
+`root/NATIVE_SUCCESSOR_ASSIGNMENT.json`. Prepare the exact one-shot command/request
+and current fixed-host/runtime prerequisites for the unchanged caller. No further
+harness framework is assigned. Preserve 300 s whole-caller, 120 s child including
+2 s cleanup, 512 MiB address space, 110 CPU seconds and 8 MiB stream/report limits.
+Address space is not RSS; unsupported limits refuse. Root owns actual admission,
+dispatch, full outcome adjudication and later actual-certificate admission.
 
-Preserve 180 s / 524288 KiB sampled-child RSS / 25 ms poll / 100 ms maximum gap /
-50 ms sample timeout, file/capture/tree limits and the genuine 960 s outer bound.
-R01 actual path applicability, current-E unchanged RI141 capture/baseline/ordered
-profiles, genuine normal acceptance before optimized, complete 27/13/30 records,
-57 artifacts, 74 postchecks, three trees and independent saved arithmetic remain.
-RI131, 15 WHITE, full32, periodic/mean/join and conventional selected public GWOSC
-reproduction remain distinct; calibration and a native forward map stay open.
-
-Native RI-159's grid checker and independent auditor source is published in
-remotely verified `53a2fc4`. RI-161's 11-file qualification-source packet is sealed
-in `ri161-grid-qualification-source-679wwadg/`. Fresh nonauthor review owns
-`ri161-independent-qualification-review-2gvpjm9r/`, under the repair archive's
-`root/NATIVE_REVIEW_ASSIGNMENT.json`. Review all three complete executables,
-all Q/R/P families, full 109-index sweeps, independent expected objects, exact
-refusals, compound faults and every genuine caller completion/partial path.
-The author's 2,547 prospective records per mode are not executed passes. Source
-review, qualification admission/outcome review and QP04 actual audit remain separate.
-
-The actual final 109-component grid is still unknown. An accepted universal
-1/1000 grid with retained strict core order would give
-lambda>d7>=41/44000>1/13000 and reject only the retained sufficient envelope.
+The actual final 109-component grid remains unknown. An accepted universal
+1/1000 grid with retained strict core order gives
+lambda>d7>=41/44000>1/13000 and rejects only the retained sufficient envelope.
 GRID_FAIL removes that shortcut; refusal establishes neither conclusion.
 RI-157's finite cap and signed contrasts remain accepted in verified `ff6a0f3`;
 actual capacity, adequate joint q/v, global M6/rho and W/C2/C3/shared H30 stay open.
 Preserve P2/P3, numerical Y=1/4, 31 focused/139 policy/20 native/42 audit deeper
 obligations, strict endpoints, multiplicities, other eight parents and five Di.
-Root owns adjudication, admissions and Git; active or unrelated edits are excluded.
-No source checkpoint establishes calibration, native forward maps or physical
-claims. The programme continues; RET alone remains paused.
+
+Measurement RI-160's final fixture-custody repair is accepted as unexecuted source
+and published in verified `9276e36`; all 106 controls remain unexecuted. RI-162's
+concrete qualification proposal is sealed in
+`ri162-inert-qualification-preflight-wb69vu5s/`. Fresh review owns
+`ri162-independent-preflight-review-i6j707uw/`, under the source archive's
+`root/MEASUREMENT_REVIEW_ASSIGNMENT.json`. Root inspects the complete proposal,
+fresh fixed facts and independent findings before genuine preflight/admission
+and the one-shot inert controls. Later science gates do not unnecessarily block
+this separate qualification step; active/unreviewed material is excluded here.
+
+Preserve 180 s / 524288 KiB sampled-child RSS / 25 ms poll / 100 ms maximum gap /
+50 ms sample timeout, file/capture/tree limits and genuine 960 s outer bound.
+R01 actual path applicability, current-E unchanged RI141 capture/baseline/profiles,
+genuine normal before optimized, complete 27/13/30 records, 57 artifacts,
+74 postchecks, three trees and independent saved arithmetic remain later gates.
+RI131, 15 WHITE, full32, periodic/mean/join and conventional selected public GWOSC
+reproduction remain distinct; calibration and a native forward map stay open.
+Root owns admissions and Git; unrelated edits and all historical evidence are
+preserved. No source checkpoint establishes physical claims.
+The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -160,8 +158,9 @@ with unrelated changes to make an import succeed.
 | RI-158 WHITE source/output custody repair | F02-R final fixture finding independently/root confirmed and published in verified `6d95f16`. | RI-160 sealed repair and 22 new late controls under fresh review. |
 | RI-159 complete final-witness grid audit | Exact source accepted and published in verified `53a2fc4`; no actual grid result. | RI-161 qualification harness/caller under independent review; retain QP01-QP04. |
 | RI-160 final fixture custody repair | F02-R exact source repair independently/root accepted; all 106 controls unexecuted. | RI-162 concrete bounded qualification preflight, then root admission and independent outcome review. |
-| RI-161 grid qualification source | Exact 11-file source sealed; fresh independent source/control/caller review assigned. | Review full family/index expectations, faults, caller completion and actual author checks before disposition. |
-| RI-162 inert qualification preflight | Assigned after RI-160 root source acceptance. | Prepare exact one-shot controls invocation and current fixed-bootstrap/host evidence with unchanged monitor; root owns actual admission. |
+| RI-161 grid qualification source | Exact unexecuted source independently/root accepted; 2,547 defined cases per mode. | RI-163 concrete invocation and runtime preflight; root-admitted actual qualification and independent outcome review precede QP04. |
+| RI-162 inert qualification preflight | Exact preparation sealed; fresh independent command/fact/custody review assigned. | Root review of complete findings and genuine current supplier/host bracket, then one-shot actual 106 controls and independent outcomes. |
+| RI-163 native qualification preflight | Assigned to existing QR task after RI-161 root source acceptance. | Prepare exact invocation/request proposal and current fixed-host/runtime prerequisites using unchanged caller; no source redesign or actual execution assigned. |
 | RI-115 native rank execution caller | Exact six-zero-minor result and independent reviews preserved in f6d486e; its local rank conclusion remains valid. | RI-122 separately rejects the complete fixed 28-child extension through the connected subsystem; keep these logically distinct results. |
 | RI-97 selected-output trace | Conditional proof/design published in independently verified `5e425ad`. RI-98 fabricated qualification is accepted. | Keep empirical adequacy separate; actual saved-input application is RI-100. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |

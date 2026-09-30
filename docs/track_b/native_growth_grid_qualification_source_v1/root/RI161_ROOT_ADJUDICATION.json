@@ -1,0 +1,66 @@
+{
+  "RET": "paused",
+  "actual_cases_executed": 0,
+  "actual_grid_result": null,
+  "administrative_replay": {
+    "bytes": 1526,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/ROOT_METADATA_REPLAY.json",
+    "sha256": "1de8fc9a418a73ed4fd94df44c2a0d38350d373c97e8d9da63a2358ca21579a4"
+  },
+  "blocking_source_findings": [],
+  "execution_prerequisites": [
+    {
+      "id": "QE01",
+      "requirement": "Root exact-source adjudication and separate genuine interpreter/transitive runtime/bootstrap/request/external-supervision admission."
+    },
+    {
+      "id": "QE02",
+      "requirement": "Actually run and independently review all2547 records per genuine normal/optimized mode with full variant counts, expected outcomes, captures, partial/failure receipts, resource and process-group/reap evidence. No skipped case or family-only substitute."
+    },
+    {
+      "id": "QE03",
+      "requirement": "Retain finite custody, address-space-not-RSS, sampled terminal group and hard-abort/kernel limitations; missing or nonzero external completion never accepted from a prior PASS-looking file."
+    },
+    {
+      "id": "QP04",
+      "requirement": "Only after independent synthetic qualification acceptance, separately admit unchanged actual fixed-certificate producer/saved-auditor operation."
+    }
+  ],
+  "historical_failures_and_state_preserved": true,
+  "independent_review": {
+    "bytes": 8260,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/HANDOFF.json",
+    "sha256": "a4c99c567890adeee2b429c8947dc095d8fe4098588141a4c9954c4d59d3a65c"
+  },
+  "manual_review": {
+    "bytes": 5620,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/ROOT_MANUAL_REVIEW.md",
+    "sha256": "a2349dfd1519a299b8ab85a2cebbb9fbd935a17985e6e700eb210d7a408ab78a"
+  },
+  "prospective_counts": {
+    "caller_records_per_mode": 4,
+    "families": 63,
+    "fault_records_per_mode": 75,
+    "q05_indices_per_implementation": 109,
+    "q_records_per_mode": 474,
+    "q_variants": 237,
+    "r07_records": 545,
+    "r08_records": 436,
+    "r13_dictionary_locations": 120,
+    "r13_extras": 120,
+    "r13_removals": 814,
+    "r_records_per_mode": 1994,
+    "source_inspected_not_executed": true,
+    "total_per_mode": 2547,
+    "total_two_modes": 5094
+  },
+  "schema": "ri161-root-qualification-source-adjudication-v1",
+  "scientific_claims_advanced": false,
+  "source_review_not_runtime_admission": true,
+  "status": "ACCEPT_EXACT_UNEXECUTED_GRID_QUALIFICATION_SOURCE_WITH_EXECUTION_PREREQUISITES",
+  "subject": {
+    "bytes": 9989,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/HANDOFF.json",
+    "sha256": "32a5bab9518259f379f1893e56a45f7eec28dab682995b29ce6cc9ae697b9760"
+  }
+}

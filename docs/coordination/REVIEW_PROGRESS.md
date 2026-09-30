@@ -1,60 +1,58 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-160's final fixture-custody
-repair is independently reviewed and root accepted as exact unexecuted source,
-published in `docs/experiments/gwosc_white_final_fixture_repair_v1/`.
-RI-158 F02-R is closed at source level: both complete normalized fixture subtrees
-are reconciled against captured expectations using the same final namespace scan.
-All comparable structural, ordinary-output and fixture mismatches remain available
-before first refusal; earlier primary errors and unavailable partial expectations
-retain their proper meaning. No actual control or measurement result is claimed.
+**Current checkpoint — 30 September 2026 UTC.** RI-161's synthetic grid
+qualification source is independently reviewed and root accepted with execution
+prerequisites, published in `docs/track_b/native_growth_grid_qualification_source_v1/`.
+The three complete sources define independent expected answers, all 109-index
+sweeps, exact refusals, compound faults and a bounded caller for the accepted
+RI-159 checker/auditor. All 2,547 prospective cases per mode remain unexecuted.
 
-Root independently read the complete changed modules, all 22 new controls, patch,
-contracts and inherited tree/tail/protocol boundaries. Replay ad1f74 and fresh
-comparison 58d82a exit 0: 4,167 administrative predicates, 567 dependencies and
-599 full identities; every independent report field matches except schema.
-Ten executable files, eight adapter functions, four integration helper/case bodies
-and the original 84 IDs/order are unchanged. All 106 controls remain unexecuted.
+Root's complete source review and fresh replay 295128 / comparison 0b9b5b exit 0
+confirm 21,368 administrative predicates, 280 dependencies and 292 identities;
+every independent report field agrees except schema. Independent check 83ba9b
+and seal 966136 exit 0. These are source/provenance checks, not runtime qualification.
+Genuine bootstrap/interpreter/stdlib/host admission, complete actual outcomes and
+independent full-case review remain required. QP04's actual fixed-input audit
+follows separately. No certificate body or actual grid result was decoded here.
 
-The existing measurement author owns RI-162 in
-`ri162-inert-qualification-preflight-wb69vu5s/`, under the repair archive's
-`root/MEASUREMENT_SUCCESSOR_ASSIGNMENT.json`. Prepare the exact bounded actual-106
-invocation with the existing unchanged monitor and fresh read-only observations
-of fixed bootstrap/host prerequisites. No recursive launcher, active operational
-card, fixture, control or scientific execution is assigned. Root inspects the
-concrete preparation and separately admits actual controls, then requires fresh
-independent outcomes review. Later scientific gates do not substitute for or
-unnecessarily block this inert qualification step.
+After adjudication, the existing Quantum Relativity task owns RI-163 in
+`ri163-native-qualification-preflight-fqexul5v/`, under the source archive's
+`root/NATIVE_SUCCESSOR_ASSIGNMENT.json`. Prepare the exact one-shot command/request
+and current fixed-host/runtime prerequisites for the unchanged caller. No further
+harness framework is assigned. Preserve 300 s whole-caller, 120 s child including
+2 s cleanup, 512 MiB address space, 110 CPU seconds and 8 MiB stream/report limits.
+Address space is not RSS; unsupported limits refuse. Root owns actual admission,
+dispatch, full outcome adjudication and later actual-certificate admission.
 
-Preserve 180 s / 524288 KiB sampled-child RSS / 25 ms poll / 100 ms maximum gap /
-50 ms sample timeout, file/capture/tree limits and the genuine 960 s outer bound.
-R01 actual path applicability, current-E unchanged RI141 capture/baseline/ordered
-profiles, genuine normal acceptance before optimized, complete 27/13/30 records,
-57 artifacts, 74 postchecks, three trees and independent saved arithmetic remain.
-RI131, 15 WHITE, full32, periodic/mean/join and conventional selected public GWOSC
-reproduction remain distinct; calibration and a native forward map stay open.
-
-Native RI-159's grid checker and independent auditor source is published in
-remotely verified `53a2fc4`. RI-161's 11-file qualification-source packet is sealed
-in `ri161-grid-qualification-source-679wwadg/`. Fresh nonauthor review owns
-`ri161-independent-qualification-review-2gvpjm9r/`, under the repair archive's
-`root/NATIVE_REVIEW_ASSIGNMENT.json`. Review all three complete executables,
-all Q/R/P families, full 109-index sweeps, independent expected objects, exact
-refusals, compound faults and every genuine caller completion/partial path.
-The author's 2,547 prospective records per mode are not executed passes. Source
-review, qualification admission/outcome review and QP04 actual audit remain separate.
-
-The actual final 109-component grid is still unknown. An accepted universal
-1/1000 grid with retained strict core order would give
-lambda>d7>=41/44000>1/13000 and reject only the retained sufficient envelope.
+The actual final 109-component grid remains unknown. An accepted universal
+1/1000 grid with retained strict core order gives
+lambda>d7>=41/44000>1/13000 and rejects only the retained sufficient envelope.
 GRID_FAIL removes that shortcut; refusal establishes neither conclusion.
 RI-157's finite cap and signed contrasts remain accepted in verified `ff6a0f3`;
 actual capacity, adequate joint q/v, global M6/rho and W/C2/C3/shared H30 stay open.
 Preserve P2/P3, numerical Y=1/4, 31 focused/139 policy/20 native/42 audit deeper
 obligations, strict endpoints, multiplicities, other eight parents and five Di.
-Root owns adjudication, admissions and Git; active or unrelated edits are excluded.
-No source checkpoint establishes calibration, native forward maps or physical
-claims. The programme continues; RET alone remains paused.
+
+Measurement RI-160's final fixture-custody repair is accepted as unexecuted source
+and published in verified `9276e36`; all 106 controls remain unexecuted. RI-162's
+concrete qualification proposal is sealed in
+`ri162-inert-qualification-preflight-wb69vu5s/`. Fresh review owns
+`ri162-independent-preflight-review-i6j707uw/`, under the source archive's
+`root/MEASUREMENT_REVIEW_ASSIGNMENT.json`. Root inspects the complete proposal,
+fresh fixed facts and independent findings before genuine preflight/admission
+and the one-shot inert controls. Later science gates do not unnecessarily block
+this separate qualification step; active/unreviewed material is excluded here.
+
+Preserve 180 s / 524288 KiB sampled-child RSS / 25 ms poll / 100 ms maximum gap /
+50 ms sample timeout, file/capture/tree limits and genuine 960 s outer bound.
+R01 actual path applicability, current-E unchanged RI141 capture/baseline/profiles,
+genuine normal before optimized, complete 27/13/30 records, 57 artifacts,
+74 postchecks, three trees and independent saved arithmetic remain later gates.
+RI131, 15 WHITE, full32, periodic/mean/join and conventional selected public GWOSC
+reproduction remain distinct; calibration and a native forward map stay open.
+Root owns admissions and Git; unrelated edits and all historical evidence are
+preserved. No source checkpoint establishes physical claims.
+The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -12347,3 +12345,34 @@ pinned; original namespace/reference/patch bytes are unchanged. Publication
 checks and independently verified remote receipt are retained externally under
 `ri160-root-fixture-adjudication-0rmgmo7y/`. Unreviewed native source and active
 preflight files are excluded. The programme continues across both lanes.
+
+
+**RI-161 source adjudication and RI-163 actual-run preparation — 30 September 2026 UTC.**
+Root accepted the exact qualification source after complete reading of all 2,166
+executable lines, contract/coverage and independent narrative/actual checks.
+Replay295128 and comparison0b9b5b exit0 establish all21,368 administrative
+predicates,280 dependencies,292 fresh identities and every independent report
+field except schema. Nine review payloads andeight preseal pins were rechecked.
+Full independent/root metadata reports remain externally pinned; historical
+states, failures and recovered display limitations remain explicit.
+
+The 63 Q/R/P families define2,547 records per mode, including all109-index sweeps,
+independent complete expected objects, exact class/code/message refusals and
+compound IO/final-custody faults. None ran here. The bounded caller preserves
+genuine owned-child completion, captures and partial evidence; its512 MiB
+RLIMIT_AS is not sampled RSS. Root runtime admission, genuine external completion
+and full actual-outcome review remain prerequisites, followed by separate QP04.
+The actual grid/capacity/q-v/H30/physical questions remain open.
+
+Only after this adjudication, root assigned RI-163 to the idle existing QR task
+in ri163-native-qualification-preflight-fqexul5v. The concrete task is to prepare
+the exact unchanged-caller invocation and current fixed runtime/host facts for
+actual qualification, preserving all limits and external trust requirements.
+No new harness or recursive launcher is requested. Measurement RI-162 sealed
+preparation is under fresh review in ri162-independent-preflight-review-i6j707uw;
+its actual106-control run awaits root review and genuine preflight/admission.
+
+The new archive preserves11 source,nine compact review andseven root files
+byte-for-byte. Publication checks and the genuine commit/push/remote receipt are
+retained in ri161-root-qualification-review-0dyyjyuy. Active preparations/review
+and unrelated source edits are excluded. The programme continues; RET alone is paused.

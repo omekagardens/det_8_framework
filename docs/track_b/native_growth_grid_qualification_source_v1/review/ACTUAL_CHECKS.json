@@ -1,0 +1,130 @@
+{
+  "author_diagnostics": {
+    "failed_lookup": "eb3d76 exit1",
+    "incidental_readonly_git_status": "9f6a66 exit0/clipped; not cleanliness evidence",
+    "other_display_and_empty_range_recoveries": "Preserved complete in author record",
+    "preseal_check": "f4d604 exit0/preseal9",
+    "scope": "Authenticated declarations, not this reviewer replaying historical commands or claiming their operational truth.",
+    "source": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/AUTHOR_CHECKS.json"
+  },
+  "checker": {
+    "chunk_id": "83ba9b",
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/CHECK.stderr",
+    "exit_code": 0,
+    "scope": "Independent opaque identity, allowlisted administrative reference and bounded literal-source/count checks only.",
+    "stderr_empty": true
+  },
+  "clipped_displays": [
+    {
+      "affected_chunk": "982a2b",
+      "recovered_scope": "Complete grid_check.py83-308; other displayed old source portions and complete new sources unaffected.",
+      "recovery_chunk": "b4b064",
+      "scope": "Combined independent old-source display exceeded orchestration output budget; checker middle clipped. Underlying shell exit0, not a complete displayed source read."
+    }
+  ],
+  "failed_commands": [],
+  "fixtures_created": 0,
+  "initial_seal_authentication": {
+    "before_subject_source_reads": true,
+    "chunk_id": "34cf4a",
+    "exit_code": 0,
+    "files": 11,
+    "payloads": 10
+  },
+  "read_and_authoring_tools": [
+    {
+      "chunk_id": "6aefba",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "2981d4",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "419a8c",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ad8a89",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "c2c2e4",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "a8feb7",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "aa1d08",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "3143cd",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "9c53a6",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "5b5f4e",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0eabd8",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0b4d63",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "982a2b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7e9179",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "b4b064",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "fe3338",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "8fe1ee",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7fe2b1",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "1ab56b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0e5c16",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "d544e5",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "4e9569",
+      "exit_code": 0
+    }
+  ],
+  "repository_or_Git_write": false,
+  "runtime_observation_card_admission": false,
+  "schema": "ri161-independent-actual-checks-v1",
+  "scientific_decode_evaluation": false,
+  "seal_completion": "Actual final administrative tool return reported separately; no self-created operational truth.",
+  "subject_control_import_compile_AST_probe_run": false
+}

@@ -1,0 +1,180 @@
+{
+  "accepted_subject_prior_review": {
+    "bytes": 6943,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/HANDOFF.json",
+    "sha256": "4f25fd23d0c772e86c16335b74b34670a15245c56c765d1a0947fd81401949f5"
+  },
+  "actual_administrative_check": {
+    "additions": 28,
+    "administrative_bodies": 98,
+    "chunk_id": "83ba9b",
+    "current_typed_refs": 49,
+    "dependencies": 280,
+    "exit_code": 0,
+    "fresh_identities": 292,
+    "historical_identity_state_noncomparisons": 17,
+    "historical_typed_refs": 2335,
+    "inherited_rows": 252,
+    "payloads": 10,
+    "predicates": 21368,
+    "selected_bytes": 24169856,
+    "source_pairs": 4,
+    "stderr_empty": true,
+    "subject_namespace_files": 11
+  },
+  "actual_cases_executed": 0,
+  "assignment": {
+    "bytes": 2626,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/NATIVE_REVIEW_ASSIGNMENT.json",
+    "sha256": "6e4182b5463b207f8b7d5974e78889ff7caa531210906441466828d691464843"
+  },
+  "blocking_source_findings": [],
+  "boundaries": [
+    "No source/control/helper import,compile,AST,probe or execution; only authenticated administrative metadata helper loaded by separate own scripts",
+    "No scientific decode/evaluation, fixture creation, runtime observation/card/freeze/admission",
+    "No repository/index/Git, predecessor edits, new agents or successor assignment",
+    "Source-counted2547per-mode/5094two-mode are not executed outcomes",
+    "Root genuine bootstrap/host/runtime supervision, finite custody, hard-abort/kernel, address-space-not-RSS limitations retained",
+    "Actual grid/capacity/q-v/W/C2/C3/H30/globalM6-rho and physical/native-geometry/gravity conclusions remain open; all original fixed obligations retained",
+    "QP04 separate later actual-input admission; RET paused, measurement separate"
+  ],
+  "compact_publication_subset": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "VERDICT.json",
+    "check_metadata.py",
+    "seal_review.py"
+  ],
+  "diagnostics": "Own admin checker first run exit0; one aggregate old-source display clipped and complete affected span recovered. Full author failed search/incidental diagnostic/recoveries retained as declared historical evidence.",
+  "execution_prerequisites": [
+    {
+      "id": "QE01",
+      "requirement": "Root exact-source adjudication and separate genuine interpreter/transitive runtime/bootstrap/request/external-supervision admission."
+    },
+    {
+      "id": "QE02",
+      "requirement": "Actually run and independently review all2547 records per genuine normal/optimized mode with full variant counts, expected outcomes, captures, partial/failure receipts, resource and process-group/reap evidence. No skipped case or family-only substitute."
+    },
+    {
+      "id": "QE03",
+      "requirement": "Retain finite custody, address-space-not-RSS, sampled terminal group and hard-abort/kernel limitations; missing or nonzero external completion never accepted from a prior PASS-looking file."
+    },
+    {
+      "id": "QP04",
+      "requirement": "Only after independent synthetic qualification acceptance, separately admit unchanged actual fixed-certificate producer/saved-auditor operation."
+    }
+  ],
+  "external_only_diagnostics": [
+    {
+      "bytes": 4305399,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/METADATA_CHECK.json",
+      "sha256": "5e438544e102b089b5f3bb317b83407577544bb8796b050b4842bbe8de272dfc"
+    }
+  ],
+  "final_pin_check": {
+    "bytes": 3033,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/FINAL_PIN_CHECK.json",
+    "sha256": "78cb604e991c2bccde6ed82231b3fdf8a01c8864e2bee89cd9c5e82bdaed636e"
+  },
+  "fresh_coverage": {
+    "accepted_subject_parser_reader_postcheck_main_paths_traced": true,
+    "all63_Q_R_P_families_traced": true,
+    "caller_lines": 909,
+    "entire_sources_and_four_Markdown_documents_read": true,
+    "every_caller_terminal_branch_considered": true,
+    "fault_cases_lines": 591,
+    "qualify_grid_lines": 666
+  },
+  "genuine_seal_tool_outcome": "Reported separately from actual final tool return; this record does not self-authenticate an operational result.",
+  "independence": "Nonauthor of all three current sources and both RI159 subjects. Prior native reviewer and separate historical WHITE validator/caller/bootstrap author; accepted old material not fresh self-review.",
+  "namespace": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "METADATA_CHECK.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "seal_review.py"
+  ],
+  "owner": "/root/archive_repro_review",
+  "payloads": [
+    {
+      "bytes": 3522,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/ACTUAL_CHECKS.json",
+      "sha256": "e221615329e42f3536cb86c963c1c4c4bbcdc47191d6bdfcc8f333785f1fe1d3"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 549,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/CHECK.stdout",
+      "sha256": "c08cb4dd8879f724889a2c35f009c947617687de6bbd509338627aa35b414f5b"
+    },
+    {
+      "bytes": 3033,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/FINAL_PIN_CHECK.json",
+      "sha256": "78cb604e991c2bccde6ed82231b3fdf8a01c8864e2bee89cd9c5e82bdaed636e"
+    },
+    {
+      "bytes": 22469,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "87688136852de4cd07e0bcf4cda4e72db5dff2cad024a425dcc196476ebd0d21"
+    },
+    {
+      "bytes": 4305399,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/METADATA_CHECK.json",
+      "sha256": "5e438544e102b089b5f3bb317b83407577544bb8796b050b4842bbe8de272dfc"
+    },
+    {
+      "bytes": 3983,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/VERDICT.json",
+      "sha256": "8f1f06d7f18a273d8cb36f8a7a9fddc18c61f6bd7487be7ddf92a45a71491417"
+    },
+    {
+      "bytes": 15369,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/check_metadata.py",
+      "sha256": "3c1189ee2218f52aa0ef4310d0b57ef317684ca5c106d02e0d35e0c3045b0ecf"
+    },
+    {
+      "bytes": 6024,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/seal_review.py",
+      "sha256": "9832c742387e833d7cbf85fb05470ba8375ae9dee96179563c89f950199264b9"
+    }
+  ],
+  "planned_counts": {
+    "caller_records_per_mode": 4,
+    "families": 63,
+    "fault_records_per_mode": 75,
+    "q05_indices_per_implementation": 109,
+    "q_records_per_mode": 474,
+    "q_variants": 237,
+    "r07_records": 545,
+    "r08_records": 436,
+    "r13_dictionary_locations": 120,
+    "r13_extras": 120,
+    "r13_removals": 814,
+    "r_records_per_mode": 1994,
+    "source_inspected_not_executed": true,
+    "total_per_mode": 2547,
+    "total_two_modes": 5094
+  },
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_GRID_QUALIFICATION_SOURCE_WITH_EXECUTION_PREREQUISITES",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r",
+  "root_owns_adjudication_admission_successors_and_publication": true,
+  "schema": "ri161-independent-qualification-source-review-handoff-v1",
+  "subject": {
+    "bytes": 9989,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/HANDOFF.json",
+    "sha256": "32a5bab9518259f379f1893e56a45f7eec28dab682995b29ce6cc9ae697b9760"
+  }
+}
