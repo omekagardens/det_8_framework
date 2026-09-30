@@ -1,0 +1,127 @@
+{
+  "active_runtime_inventory_or_card_created": false,
+  "actual_data_admitted": false,
+  "artifact_count": 9,
+  "artifacts": [
+    {
+      "bytes": 3692,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/AUTHORING_RECORD.md",
+      "relative": "AUTHORING_RECORD.md",
+      "sha256": "136bb06fc5f10ac6de8d6e7d2f1a260c4de17f0f64334c2f3f04733593b60c1a"
+    },
+    {
+      "bytes": 5582,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/DECLARED_CASES.md",
+      "relative": "DECLARED_CASES.md",
+      "sha256": "088052cc88053ef1fc83b84f8ac93f3f68eade47379cb5939bb6c270a1670499"
+    },
+    {
+      "bytes": 68635,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/DEPENDENCIES.source-only.json",
+      "relative": "DEPENDENCIES.source-only.json",
+      "sha256": "955ef288677fb407ae5d23e6009ffe48cc3af8111724435951a69f0ffc04b5e3"
+    },
+    {
+      "bytes": 2144,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/HANDOFF.md",
+      "relative": "HANDOFF.md",
+      "sha256": "f70898f25edf5947f6ffabf14a644192f793d8f39d54e0d57cae28f9a601a701"
+    },
+    {
+      "bytes": 15910,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/PROTOCOL.md",
+      "relative": "PROTOCOL.md",
+      "sha256": "cfb29d2671d45fc9e52147ab579125527336e79954333c4fadb816b4d2283830"
+    },
+    {
+      "bytes": 3380,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/SOURCE_CORRESPONDENCE.json",
+      "relative": "SOURCE_CORRESPONDENCE.json",
+      "sha256": "76b5f3cc7e6214da7acb0bb536bdc973fa171848c359401a733aa68bfb825d42"
+    },
+    {
+      "bytes": 68594,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/SOURCE_METADATA_CHECK.json",
+      "relative": "SOURCE_METADATA_CHECK.json",
+      "sha256": "6ad13c5e2ea4f3d92711da711fdf7d86c58a44175c36042acc40d2b467182d9d"
+    },
+    {
+      "bytes": 43601,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/prepare.py",
+      "relative": "prepare.py",
+      "sha256": "a3fdbf1c8e0c78974366d50caf53ec7acfbb91616c6ad684fa95aebeedcf2098"
+    },
+    {
+      "bytes": 17471,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/runtime_metadata.py",
+      "relative": "runtime_metadata.py",
+      "sha256": "80474eadb9af39345bb8c3440980041876c19e16020bdb05ff959a00723450be"
+    }
+  ],
+  "author_role": "Author of RI130 caller and RI125 separate validator; not independent acceptance of own source.",
+  "declared_caller_controls": 65,
+  "executable_source_files": 2,
+  "executed_caller_controls": 0,
+  "full32_qualified": false,
+  "known_source_blocker": null,
+  "next_action": "Fresh nonauthor full source review; root alone adjudicates and separately admits actual nonscientific preparation.",
+  "opaque_dependencies": 228,
+  "opaque_dependency_bytes": 15474401,
+  "physical_claim": false,
+  "prospective_preparation_phases": [
+    "capture",
+    "profile_normal",
+    "profile_optimized",
+    "guards"
+  ],
+  "remaining_external_premises": [
+    "Fresh nonauthor review and root source adjudication before use.",
+    "Root pre-authenticates bootstrap/self/helper and observed stable host; no self-authentication of already loaded code.",
+    "Same fixed historical complete runtime byte/binding/native namespace identity; changed installation refuses for specific review.",
+    "Supplier/cache equivalence and Apple loader/shared-cache implementation remain explicit trusted premises.",
+    "All actual metadata captures, genuine normal-before-optimized profiles and separately admitted65 guard outcomes pending.",
+    "Samples cover only owned child; no hard aggregate memory/disk quota claim; no-descendant reviewed supplier premise.",
+    "Complete actual saved-evidence and genuine outer review before any active runtime/caller card.",
+    "Any later RI130 caller relocation/source copy closure and scientific qualification remain separate."
+  ],
+  "repo_or_git_mutation": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys",
+  "ret_paused": true,
+  "ri131_campaign_executed": false,
+  "root_predecessor": {
+    "bytes": 2189,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+    "sha256": "3a9f030a18fdd4ef3cac3bb0204354a6250b2a0ae489e42fbf1be41c5d7fee79"
+  },
+  "schema": "ri133-white-runtime-preparation-source-handoff-v1",
+  "scientific_body_decode": false,
+  "scientific_fixture_execution": false,
+  "scientific_limits_unchanged": {
+    "capture_row_bytes": 8388608,
+    "file_bytes": 67108864,
+    "integer_bits": 262144,
+    "max_gap_ms": 100,
+    "poll_ms": 25,
+    "ps_timeout_ms": 50,
+    "rss_kib": 524288,
+    "seconds": 180
+  },
+  "separate_preparation_bounds": {
+    "file_bytes": 67108864,
+    "genuine_outer_seconds": 960,
+    "guard_child_seconds": 180,
+    "max_gap_ms": 100,
+    "metadata_child_seconds": 180,
+    "parent_soft_seconds": 900,
+    "poll_ms": 25,
+    "profile_child_seconds": 30,
+    "ps_timeout_ms": 50,
+    "rss_kib": 524288,
+    "tree_aggregate_bytes": 536870912,
+    "tree_entries": 25000
+  },
+  "source_execution": false,
+  "source_line_count": 1044,
+  "status": "UNEXECUTED_SOURCE_STABLE_AWAITING_NONAUTHOR_REVIEW",
+  "syntax_validation": false
+}

@@ -1,48 +1,48 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-132's bounded native
-caller qualification source is independently reviewed and root-adjudicated.
-Archive: `docs/track_b/native_growth_caller_qualification_source_v1/`.
-All 17 native/16 audit callable cases remain unexecuted. The exact 52/69
-declaration mapping preserves direct, retained, whole-entry and blocked classes:
-25 native and 48 audit deeper declarations remain unqualified.
+**Current checkpoint — 30 September 2026 UTC.** RI-133 WHITE preparation
+source requires two repairs before use. Complete nonauthor review and root
+adjudication confirm (F01) post-ownership initialization can bypass independent
+failure tails and (F02) interpreter selection lacks comparison with the authentic
+historical binding. Archive: `docs/experiments/gwosc_white_preparation_source_review_v1/`.
+This is a source finding, not an observed failed run or current interpreter drift.
 
-The testing gap is confirmed: full-byte authentication precedes deeper inline
-policy checks, so an earlier hash/missing-file failure cannot qualify them.
-After predecessor adjudication, QR is assigned RI-134 in
-`ri134-native-validator-extraction-source-y8kwkcde/`: a new immutable caller
-version exposing dependency payload, current source-decision, independent
-source-review and strict current-target 15/4/71 policies. Production fixed-byte
-reads, expected identities, reference closure and exact first-error ordering
-remain; actual controls and source review follow. Other proposed extractions
-are outside this first tranche. RI-129 and RI-132 remain sealed.
+Root verified the exact 10/9 source/review namespaces, all 228 opaque dependencies
+and the historical binding/provenance/checker evidence. The nonauthor reviewed
+all 1,044 source lines; 465 metadata/text predicates passed. Source and historical
+author status remain sealed. RI-135 is assigned to the existing author in
+`ri135-white-preparation-repair-source-lski1ize/`: protect all fallible work after
+output ownership, retain first error and every independent tail, authenticate the
+full historical interpreter binding, preserve fresh pre/post checks, and supply
+focused unexecuted controls with exact source correspondence. No preparation is
+admitted until repair review and root adjudication.
 
-Root independently reconciled all source/review identities, 40 predecessor
-pins, exact 11/6 and predecessor 13/9 namespaces, complete declaration blocks,
-ordered case labels and six retained audit spans. The complete nonauthor review
-covered all 1,530 new source lines and 378 metadata/text predicates. These are
-source checks, not runtime or scientific qualification.
+Native RI-134 is sealed in `ri134-native-validator-extraction-source-y8kwkcde/`
+and assigned complete nonauthor review in
+`ri134-native-extraction-independent-review-mcwy0ya3/`. Root verified its handoff,
+16 payloads and exact 17-file namespace; author reverse-projection and coverage
+claims await independent adjudication. Its 77 native and 62 audit cases remain
+unexecuted. No new QR implementation duplicates this active review.
 
-Actual native C2/C3 signs and simultaneous H30 feasibility remain the active
-question, blocked on changed-caller qualification and separately admitted
-execution. The accepted RI-128 scale bound, RI-127 connected cancellation,
-shared equations, fixed support/seed/epsilon, strict bounds and resource limits
-remain. Genuine producer 15/4/71, independent auditor 15/16 and complete saved
-mathematics are required; copied declarations are never executed-test credit.
+RI-132's bounded source/coverage adjudication is published in verified `6a75ae3`.
+The native question remains actual C2/C3 signs and simultaneous H30 feasibility,
+blocked on changed-caller qualification and separately admitted execution. The
+RI-128 scale bound, connected cancellation, shared equations, fixed support/seed/
+epsilon, producer 15/4/71 and auditor 15/16 requirements remain. Declarations and
+source cases do not become executed-test credit.
 
-WHITE caller RI-130 is published in verified `cfb5966`. RI-133 current-runtime/
-profile/sidecar and bounded 65-guard orchestration source is sealed; complete
-nonauthor review is active in `ri133-runtime-preparation-independent-review-ipnnpdq6/`.
-No capture/profile/guard has run. Genuine preparation precedes normal WHITE
-qualification; independently accepted normal precedes optimized. RI-131's 202
-guards/four deeper obligations, full 32 periodic/mean/join and actual public
-GWOSC application/admission remain separate.
+WHITE caller RI-130 remains accepted source, published in verified `cfb5966`.
+Genuine current capture, independently accepted normal before optimized profiles,
+separately admitted 65 guards and saved/outer review precede WHITE qualification.
+RI-131's 202 guards/four deeper obligations, full 32 periodic/mean/join and actual
+public GWOSC application remain separate. No profile, guard or scientific run
+occurred in this increment.
 
-All repository/index/Git and execution admissions remain root-owned. Sealed
-history, unrelated edits and the original review are preserved. Calibration,
-physical covariance/mean/model-error adequacy, protected validation, releases
-and a native forward map remain separate. The programme continues; RET alone
-remains paused.
+Root owns repository/index/Git, actual runtime review and execution admissions.
+Unrelated edits, original independent review and sealed historical results are
+preserved. Calibration, physical covariance/mean/model-error adequacy, protected
+validation, releases and a native forward map remain separate.
+The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -89,7 +89,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-128 actual-scale containment and bounded sign sources are accepted. RI-132 coverage source is adjudicated; QR implements RI-134 narrow pure-policy extraction in a new caller version. Root owns runtime checks and numerical admissions. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-128 actual-scale containment and bounded sign sources are accepted. RI-132 coverage source is adjudicated; RI-134 narrow extraction is sealed and in complete nonauthor source review. Root owns runtime checks and numerical admissions. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | Explicitly paused. G2 and calibration obligations remain historical open items; no RET work resumes without the user lifting that pause. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -122,9 +122,9 @@ Active file reservations, updated 30 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task and coordinator reviewers | RI-128 published in verified `35e5f60`; RI-129 author packet is sealed in `ri129-native-sign-caller-source-8TksBLo0/`. RI-129 review is complete and sealed in `ri129-native-caller-independent-review-Z0SqaY10/`; RI-132 is sealed in `ri132-native-caller-qualification-source-0ZmB3R5I/`; its complete nonauthor review is sealed in `ri132-native-qualification-independent-review-ye271mv3/`; QR owns active `ri134-native-validator-extraction-source-y8kwkcde/` only. Root owns adjudication, publication, repository/index/Git and numerical admissions. |
+| QR task and coordinator reviewers | RI-128 published in verified `35e5f60`; RI-129 author packet is sealed in `ri129-native-sign-caller-source-8TksBLo0/`. RI-129 review is complete and sealed in `ri129-native-caller-independent-review-Z0SqaY10/`; RI-132 is sealed in `ri132-native-caller-qualification-source-0ZmB3R5I/`; its complete nonauthor review is sealed in `ri132-native-qualification-independent-review-ye271mv3/`; RI-134 is sealed in `ri134-native-validator-extraction-source-y8kwkcde/`; nonauthor reviewer owns active `ri134-native-extraction-independent-review-mcwy0ya3/` only. Root owns adjudication, publication, repository/index/Git and numerical admissions. |
 | Native current-runtime review | RI-122 fresh-runtime and actual execution/custody reviews are complete and preserved. The fresh RI-129 external current comparison also matches; no target interpreter/caller has launched. Root owns every future runtime/qualification/actual admission. |
-| Measurement source implementation/review | Accepted primary/validator/qualifier sources and component reviews remain sealed. RI-130 author source is sealed in `ri130-white-qualification-caller-source-Q4Aq7hZg/`; complete review is sealed in `ri130-caller-independent-review-GpeTxmLW/`; RI-133 is sealed in `ri133-white-runtime-preparation-source-lrck33ys/`; nonauthor review owns active `ri133-runtime-preparation-independent-review-ipnnpdq6/`; accepted RI-131 is sealed in `ri131-white-validation-guards-source-dsbzg94o/` and published in verified `7c89f01`. Root retains caller/qualification/execution admissions. No target/fixture execution or actual scientific decode is assigned. |
+| Measurement source implementation/review | Accepted primary/validator/qualifier sources and component reviews remain sealed. RI-130 author source is sealed in `ri130-white-qualification-caller-source-Q4Aq7hZg/`; complete review is sealed in `ri130-caller-independent-review-GpeTxmLW/`; RI-133 is sealed in `ri133-white-runtime-preparation-source-lrck33ys/`; complete review is sealed in `ri133-runtime-preparation-independent-review-ipnnpdq6/`, F01/F02 are root-confirmed; author owns active `ri135-white-preparation-repair-source-lski1ize/` only; accepted RI-131 is sealed in `ri131-white-validation-guards-source-dsbzg94o/` and published in verified `7c89f01`. Root retains caller/qualification/execution admissions. No target/fixture execution or actual scientific decode is assigned. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -180,16 +180,17 @@ Active file reservations, updated 30 September UTC:
 | RI-122 native connected-sensitivity caller | Exact fixed 28-child obstruction and complete independent arithmetic/custody published in verified `3027dc6`. Next: Preserve the original evidence; RI-127 discharges all connected contrasts; RI-128 targets its strict positivity signs. |
 | RI-123 joint-window application design | Conditional full white-overlap and periodic-completion design independently accepted; published with proof and schema reviews. Next: RI-125 source implementation only. Physical covariance, mean, calibration and native forward-map premises remain open. |
 | RI-124 native contrast compensation | Complete conditional H30 theorem and T1 analytic discharge published in verified `d65d1f6`. Next: Preserve every shared-parent strict condition; RI-127 now discharges the complete T2/T3 contrasts. |
-| RI-125 joint-window application sources | Primary source published in verified `c48fda4`; independent validator and W01-W15 qualifier now accepted after complete component nonauthor and root integration review, all unexecuted. Next: RI-130 caller is source-adjudicated; RI-133 runtime preparation is active; RI-131 finite guard source is independently accepted, unexecuted. Full 32/periodic/mean/join, qualification and actual admission remain open. |
+| RI-125 joint-window application sources | Primary source published in verified `c48fda4`; independent validator and W01-W15 qualifier now accepted after complete component nonauthor and root integration review, all unexecuted. Next: RI-130 caller is source-adjudicated; RI-133 requires two repairs; RI-135 is active; RI-131 finite guard source is independently accepted, unexecuted. Full 32/periodic/mean/join, qualification and actual admission remain open. |
 | RI-126 portable native archive check | Published in remotely verified `80cac4b`: portable 117-file checker, 13 CLI and 10 semantic/parser cases pass. Next: Preserve the original archive; byte integrity and saved agreement do not replace scientific arithmetic or execution custody. |
 | RI-127 connected compensation decision | All 15 T2/all 7 T3 minors, full transport and strict local reduction independently accepted; published in verified `a00e460`. Next: RI-128 proves an actual-containing scale rectangle; actual C2/C3 signs and full shared H30 feasibility remain open. |
 | RI-128 connected strict-sign decision | Actual-scale containment and bounded unexecuted checker/reconstruction independently accepted; exact proof/source/reviews published in verified `35e5f60`. Next: RI-129 caller is independently source-accepted; RI-132 implements changed-caller qualification before actual sign evaluation. No trial-point or local-to-global promotion. |
-| RI-129 native sign caller | Exact unexecuted source accepted after complete nonauthor review; source/review archive published in verified `cac7f5b`. Next: RI-132 source is accepted with explicit remaining gaps; RI-134 implements narrow policy extractions before genuine qualification and separate actual admission. |
-| RI-130 WHITE fabricated caller | Exact unexecuted caller accepted after complete nonauthor review and root adjudication; source/review published in verified `cfb5966`. Next: RI-133 concrete runtime/profile/sidecar and bounded caller-guard orchestration source; independent review then separately admitted genuine qualification. |
+| RI-129 native sign caller | Exact unexecuted source accepted after complete nonauthor review; source/review archive published in verified `cac7f5b`. Next: RI-132 source is accepted with explicit remaining gaps; RI-134 extraction is sealed and in complete independent review before genuine qualification and separate actual admission. |
+| RI-130 WHITE fabricated caller | Exact unexecuted caller accepted after complete nonauthor review and root adjudication; source/review published in verified `cfb5966`. Next: RI-133 F01/F02 are confirmed; RI-135 bounded repair and independent review precede separately admitted genuine preparation. |
 | RI-131 actual-validator guard controls | Complete nonauthor source review accepted; exact unexecuted 202-control packet published in verified `7c89f01`. Next: Separate caller applicability/design follows RI-130 source seal/review; all four whole-entry obligations and genuine qualification remain open. |
-| RI-132 changed-native-caller qualification | Bounded unexecuted coverage source independently accepted; exact mapping retains 25/48 deeper blocked rows. Next: RI-134 implements four selected metadata-policy extractions in a new caller version, with exact production correspondence and direct controls. |
-| RI-133 WHITE runtime preparation | Sealed concrete current-runtime/profile/sidecar and 65-guard orchestration source; complete nonauthor review active. Next: Root adjudication and separately admitted genuine preparation after acceptance. |
-| RI-134 native policy extraction | Assigned to QR after RI-132 adjudication. Next: Four pure policy families with unchanged production authentication and first-error order, exact source correspondence and concrete direct controls; fresh review before use. |
+| RI-132 changed-native-caller qualification | Bounded unexecuted coverage source independently accepted; exact mapping retains 25/48 deeper blocked rows. Next: RI-134 implements the four selected metadata policies; its complete source/correspondence/control review is active. |
+| RI-133 WHITE runtime preparation | Complete nonauthor review and root adjudication require F01/F02 repair; exact source/findings archived. Next: RI-135 repairs post-ownership failure tails and authentic historical interpreter binding before any preparation admission. |
+| RI-134 native policy extraction | Sealed source assigned complete nonauthor review; all 139 controls remain unexecuted. Next: Independently adjudicate four-policy correspondence, 343 dependencies and exact 52/69 coverage before selecting the next QR step. |
+| RI-135 WHITE preparation repair | Assigned source-only after RI-133 adjudication in a new immutable reservation. Next: Two selected fixes, focused unexecuted controls and complete source correspondence; fresh review before use. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -7657,3 +7658,59 @@ identities; it is not a full installed runtime archive. Prior `cfb5966` was push
 and independently verified on origin/ret. This checkpoint's commit and verified
 remote receipt are recorded externally after publication. Unrelated edits and
 pinned historical bytes remain intact; programme completion is not claimed.
+
+**30 September: RI-133 preparation blocked by two source defects; RI-135 assigned.**
+
+The complete independent review is sealed: handoff 3228 bytes, SHA256
+`b4b567c416e4879d1a4e67a9400a3641a1e7b7924454d82dcacade88fc7a8178`.
+It covers all 1044 source lines and records 465 passing metadata/text predicates.
+Root confirmed both substantive findings by reading the complete run/failure-tail
+and snapshot functions and the authentic historical binding/checker. Root also
+reconciled both exact 10/9 namespaces, all 228 dependencies (15474401 bytes) and
+the three historical evidence identities. No target was evaluated or current
+candidate runtime observed; root does not claim a second full source review.
+
+F01: output ownership at prepare.py:531 precedes fallible admission/source reads
+and ATTEMPT writing at 532/535–536, outside the protected block starting 548.
+Such failures bypass every promised independent tail. F02: runtime_metadata.py
+observes the selected interpreter at 355 and compares only with a fresh observation
+at 382; the authentic historical binding is missing from the 228 dependency closure.
+The candidate bin selection is outside the three walked roots. A stable changed
+alias can therefore become a fresh baseline even while the old executable remains
+pinned elsewhere. This is not a claim that the current interpreter has changed.
+
+Root decision `ri133-root-repair-adjudication-ga2aepq7/RI133_ROOT_ADJUDICATION.json`
+is 2078 bytes, SHA256
+`3709ec70b6a6db31f5cbc9d11a0787dbf9ae43c64d4bbc7112a38e0f6339ab36`.
+Reconciliation is 148070 bytes, SHA256
+`f8ea5156bbaed212fa895be18c6c3259b220a4b580b29e39d3182f396b76039b`.
+The independent reviewer did not author RI133/130; earlier RI125 primary/qualifier
+and RI131 authorship is disclosed and does not receive renewed acceptance here.
+
+RI-135 is assigned to the existing author in
+`ri135-white-preparation-repair-source-lski1ize/`, preserving sealed RI133.
+Only the two fixes, necessary closure/contract changes, exact source correspondence
+and focused unexecuted controls are selected. Every fallible owned operation must
+reach independent tails; earliest error, partial ATTEMPT and genuine/absent initial
+pin remain explicit. Full authentic historical named/resolved/link/target binding
+must be enforced before acceptance, alongside fresh pre/post equality. No third
+repair threshold is added from the disclosed parent-PID receipt limitation.
+Complete nonauthor repair review and root adjudication precede genuine preparation.
+Original 65 guards, stage order, resource limits and all scientific boundaries stay.
+
+RI-134 sealed while this checkpoint was prepared: handoff 14101 bytes, SHA256
+`3dd25f629fffe6bf23491bfb98987df75870f180ccd2733d5011fde6abf882ac`.
+Root matched all 16 payloads and exact 17-file namespace and assigned complete
+nonauthor review in `ri134-native-extraction-independent-review-mcwy0ya3/`.
+The reviewer disclosed no RI129/132/134 authorship. Whole-source correspondence,
+343 dependencies, all 52/69 declaration mappings and 139 unexecuted direct cases
+must be independently adjudicated before the next concrete QR implementation.
+Actual native C2/C3 signs and simultaneous H30 remain unresolved; measurement
+repair runs alongside this active native review. RET alone remains paused.
+
+This checkpoint preserves 28 exact source/review/root/historical copies and maps
+233 dependency roles, including the missing historical binding evidence. It is an
+archive of reviewed findings, not preparation acceptance or a full runtime.
+Prior 6a75ae3 is independently verified on origin/ret. This checkpoint's commit and
+remote verification are recorded externally after publication. Unrelated edits,
+original independent review and sealed historical bytes remain preserved.

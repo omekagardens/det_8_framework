@@ -1,0 +1,65 @@
+{
+  "actual_preparation_or_scientific_execution": false,
+  "all_declared_opaque_checks_pass": true,
+  "artifact_count": 8,
+  "artifacts": [
+    {
+      "bytes": 5968,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "bda1b85306f96c701c6da18afaaf5b1558d49c1b9525f867fbda9e512a5bd502"
+    },
+    {
+      "bytes": 1529,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/FINDING_EVIDENCE.json",
+      "sha256": "e62337180d52d67e25fab528f134f115e246a573b1be3cb4b2bf6867ef546f26"
+    },
+    {
+      "bytes": 4535,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "1b068d36bd7809865469f2874d77e5f3b57215c057c71783edf35973c56fce6d"
+    },
+    {
+      "bytes": 20808,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "dca988b00b52450777c5debf539c1eff812bdd00ed550963bd3546eb8975be8b"
+    },
+    {
+      "bytes": 150317,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/OPAQUE_METADATA_REVIEW.initial.json",
+      "sha256": "f0fce2f7a4f7c5c09f5b970f45753017fcb8157008d950bcd4bde09a9a3e85f7"
+    },
+    {
+      "bytes": 150315,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/OPAQUE_METADATA_REVIEW.json",
+      "sha256": "47d0bfddf92a3821490417e9fd0845b541c31c53c8864ca43301aff36eb8f5a2"
+    },
+    {
+      "bytes": 6210,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/check_opaque_metadata.initial.py",
+      "sha256": "b814ff87f3c7ef29f1e875fadb164a47385160d8aba883ba202fdfd11aadae3e"
+    },
+    {
+      "bytes": 6214,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/check_opaque_metadata.py",
+      "sha256": "ed467827b4ba637374314a0a3d74f38d3e0fdfbf404b4730cd98d811205bfc05"
+    }
+  ],
+  "next_action": "Root adjudicates findings and assigns a separate immutable repaired successor; no preparation admission on this source.",
+  "primary_review": {
+    "bytes": 4535,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/INDEPENDENT_SOURCE_REVIEW.json",
+    "sha256": "1b068d36bd7809865469f2874d77e5f3b57215c057c71783edf35973c56fce6d"
+  },
+  "required_repairs": [
+    "F01",
+    "F02"
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6",
+  "schema": "ri133-independent-review-handoff-v1",
+  "source_handoff": {
+    "bytes": 5719,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/HANDOFF.json",
+    "sha256": "480188c24c2b4a0062e7a1b882d8a11eb1f7786c987224d23d22ece22927be59"
+  },
+  "status": "REPAIR_REQUIRED_BEFORE_PREPARATION_ADMISSION"
+}
