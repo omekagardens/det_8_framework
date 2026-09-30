@@ -1,53 +1,56 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-158 requires one remaining
-fixture-custody repair before source acceptance or qualification. Complete
-independent review and root disposition are published in
-`docs/experiments/gwosc_white_fixture_custody_review_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** RI-159's complete final-witness
+grid checker and independent saved auditor are accepted as exact unexecuted
+source with qualification prerequisites QP01–QP04. Complete source, fresh
+nonauthor review and root disposition are published in
+`docs/track_b/native_growth_final_witness_grid_source_v1/`.
 
-F02-R is a missing comparison in the final namespace observation: after both
-individual fixture checks succeed, changed descendants or a missing fixture
-root can be recorded without rejection. Root independently confirms the actual
-runner/control/tree source trace. The ordinary-output, prior-source-pin and
-saved-mode repairs address their reported gaps; overall acceptance is withheld.
-All 84 controls remain defined and unexecuted. Root replay 1e4e42 exit 0 matches
-all 3,888 independent administrative predicates, 525 dependencies and 553 fresh
-identities. Root adjudication 601682 exit 0 confirms custody and the repair scope.
+Both implementations cover all 109 resolved entries and every result field;
+the auditor independently uses gcd arithmetic and exact-type comparison.
+The original canonical-root order and accepted finite law remain pinned
+premises, not new graph reconstruction. Root's full source reading and fresh
+review find no blocking source defect. Root replay 24a7d6 and comparison fa805d
+both exit 0: all 18,296 administrative predicates, 252 dependencies and 264 fresh
+identities match the independent report in every field except schema.
+No certificate body, subject/control execution or actual grid result follows.
 
-The existing measurement author owns RI-160 in
-`ri160-white-fixture-custody-repair-ufok1zpo/`, under the review archive's
-`root/MEASUREMENT_REPAIR_ASSIGNMENT.json`. Compare both complete normalized
-fixture subtrees from the same final scan with their captured expected trees.
-Preserve every recorded field and membership, first errors, independent tails,
-partial evidence and all existing controls. Add meaningful late-scan controls
-for both roots, including root/membership/type/link changes and prior failures.
-Keep RI-158 and all historical failed evidence immutable. Fresh source/control
-review and separate qualification precede any operation; no science is admitted.
+After this adjudication, the existing Quantum Relativity task owns RI-161 in
+`ri161-grid-qualification-source-679wwadg/`, under the source archive's
+`root/NATIVE_SUCCESSOR_ASSIGNMENT.json`. Implement a concrete bounded synthetic
+qualification harness/caller for the unchanged source. Expand all 63 Q/R/P
+families and 109-index sweeps with independent full expected outputs, exact
+isolated refusals, normal/optimized scope and compound IO/final-check failures.
+QP01–QP03 require source/interpreter binding, genuine completion and exclusive
+complete/partial captures; reviewed source precedes admitted qualification.
+QP04 separately admits the actual fixed-input audit after qualification review.
 
-RI-157's finite canonical-cap and signed-contrast proof is published in remotely
-verified `ff6a0f3`. The retained Mcap=max(E0,E1), Z=R and strict contrast bounds
-are accepted; global M6, actual rho, actual capacity, adequate q/v budget and
-W/C2/C3/shared H30 remain open. RI-159's exact full-witness grid checker and
-independently structured saved auditor are sealed in
-`ri159-final-witness-grid-source-47ofu03n/`. Fresh nonauthor source review owns
-`ri159-independent-grid-review-p1uvnluc/` under the review archive's
-`root/NATIVE_REVIEW_ASSIGNMENT.json`. Root has read both complete implementations,
-the contract, all Q/R/P specifications and the conditional consequence ledger;
-these preliminary source checks grant no acceptance or execution.
+The actual complete 109-component grid remains unknown. A later accepted
+universal 1/1000 result, retaining strict core order, implies
+lambda>d7>=41/44000>1/13000 and rejects only the retained sufficient envelope.
+GRID_FAIL removes that shortcut; refusal decides neither. RI-157's finite cap
+and signed contrasts remain accepted in verified `ff6a0f3`; global M6, actual
+rho/capacity, adequate q/v and W/C2/C3/shared H30 stay open. Preserve P2/P3,
+numerical Y=1/4,31 focused/139 policy/20 native/42 audit deeper obligations,
+strict endpoints, multiplicities, other eight parents, five Di and shared T1.
 
-The actual complete 109-component grid remains unknown. Neither discovery
-rounding nor a direct synthetic result supplies that premise. Independent source
-adjudication, meaningful qualification and bounded actual admission precede
-certificate-body reading. Preserve P2/P3, numerical Y=1/4, 31 focused/139 policy/
-20 native/42 audit deeper obligations, strict endpoints, multiplicities, other
-eight parents, five Di and shared T1.
+RI-158's final fixture-custody finding F02-R is published in remotely verified
+`6d95f16`. RI-160's complete 31-file repair packet is sealed in
+`ri160-white-fixture-custody-repair-ufok1zpo/`. Fresh independent review owns
+`ri160-independent-fixture-review-zhizl2vs/`, under the source archive's
+`root/MEASUREMENT_REVIEW_ASSIGNMENT.json`. Review both complete normalized
+fixture subtrees from the same final scan, all membership/root/type/link fields,
+all comparable mismatches and preserved first/partial evidence. Ten executable
+files and the original 84 control IDs/functions must remain unchanged; 22 new
+late controls bring 106 defined and zero executed. Source acceptance and later
+qualification await independent/root disposition; no measurement result is claimed.
 
-Measurement keeps all resource bounds, 15 WHITE cases, both 179-control sets,
+Measurement retains all resource bounds, 15 WHITE cases, both 179-control sets,
 57 artifacts, 74 postchecks and three trees. R01 actual path applicability,
-current environment capture/profiles, genuine normal-before-optimized modes,
-complete independent custody and separate saved arithmetic remain gates.
+current capture/profiles, genuine normal-before-optimized modes, complete
+independent custody and separate saved arithmetic remain gates.
 Full32/periodic/mean/join and conventional reproduction on selected public GWOSC
-data remain separate. Root owns adjudication, admissions and Git; active sources
+data stay separate. Root owns adjudication, admissions and Git; active sources
 and unrelated edits are excluded. Calibration, native forward maps and physical
 claims remain open. The programme continues; RET alone remains paused.
 
@@ -12265,3 +12268,40 @@ Full diagnostics remain externally pinned; no transitive runtime closure or
 relocated execution is claimed. Source and active successor files remain outside
 the commit. Publication receipts are retained under
 `ri158-root-fixture-review-tupyksou/`. RET alone stays paused.
+
+
+**RI-159 source acceptance and RI-161 qualification preparation — 30 September 2026 UTC.**
+Fresh nonauthor review accepts the exact unexecuted producer/auditor source with
+QP01–QP04 prerequisites. Independent administrative check 111d3d and seal 836476
+exited 0. Root has read both full implementations and every contract/case/ledger,
+reviewed the complete independent report and actual checks, and reread the
+original canonical-root/default/override linkage. Root replay 24a7d6 and fresh
+comparison fa805d exit 0 establish all 18,296 predicates/252 dependencies/264 fresh
+identities and full-report equality except schema. Nine review payloads and eight
+preseal pins were also rechecked. Historical state/failure evidence is retained.
+
+The source resolves all 109 entries and authenticates six original/provenance
+inputs; the independently structured auditor rebuilds every field with exact
+types. Source acceptance does not establish the actual grid, execute any of the
+63 declared families, prove canonical order anew or supply continuous custody.
+The conditional grid implication rejects only the retained sufficient envelope.
+Actual capacity/q-v adequacy/W/C2/C3/H30 and broader native/physical questions
+remain open, with all inherited premises and thresholds unchanged.
+
+Root assigned RI-161 to the existing idle QR task only after this adjudication.
+It must turn every Q/R/P family, 109-index sweeps and compound IO/final-check
+failure into meaningful source controls with independent full expectations,
+plus a bounded concrete caller that preserves genuine complete/partial outcomes.
+Source review, qualification admission/outcome review and QP04 actual audit are
+separate next steps; no original certificate body was decoded here.
+
+Measurement RI-160 HANDOFF 14,881 bytes/SHA256
+`a0067b9dbacf3ae293260cae242ee646c67c53a0c32ed25d0f47ab3c4056b00f`
+and all 30 payloads were authenticated before fresh review assignment. Its
+original 84 plus 22 proposed controls remain unexecuted. Review reserves
+`ri160-independent-fixture-review-zhizl2vs/`; active source/review are excluded
+from this publication. The source archive contains 11 exact native source,
+9 compact independent-review and 8 root files, with external full diagnostics
+pinned and selected dependency locations explicit. Publication checks and remote
+receipt are retained under `ri159-root-grid-source-review-aligxun8/`.
+The programme continues across both lanes; RET alone remains paused.

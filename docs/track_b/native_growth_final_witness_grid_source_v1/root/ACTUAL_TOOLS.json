@@ -1,0 +1,95 @@
+{
+  "commands": [
+    {
+      "chunk": "03630a",
+      "exit_code": 0,
+      "purpose": "current plan/progress/handoff fronts and reservations"
+    },
+    {
+      "chunk": "9cb6fc",
+      "exit_code": 0,
+      "purpose": "entry branch/head/upstream/index and status"
+    },
+    {
+      "chunk": "5851ca",
+      "exit_code": 0,
+      "purpose": "sealed RI159 and RI160 authentication, repository entry snapshot and measurement review assignment"
+    },
+    {
+      "chunk": "97b964",
+      "exit_code": 0,
+      "purpose": "complete RI159 independent narrative and verdict"
+    },
+    {
+      "chunk": "7a3d74",
+      "exit_code": 0,
+      "purpose": "complete independent administrative checker, sealer and actual-check record"
+    },
+    {
+      "chunk": "c2add7",
+      "exit_code": 0,
+      "purpose": "complete administrative checker reread after context recovery"
+    },
+    {
+      "chunk": "24a7d6",
+      "exit_code": 0,
+      "purpose": "root administrative provenance and literal-binding replay"
+    },
+    {
+      "chunk": "329f63",
+      "exit_code": 0,
+      "purpose": "replay stdout and complete independent final-pin record"
+    },
+    {
+      "chunk": "ed44ad",
+      "exit_code": 0,
+      "purpose": "prior complete root source note and independent verdict"
+    },
+    {
+      "chunk": "0280c9",
+      "exit_code": 0,
+      "purpose": "original canonical-root/109-vector/default-override source and manuscript linkage"
+    },
+    {
+      "chunk": "fa805d",
+      "exit_code": 0,
+      "purpose": "full-report equality and fresh complete custody rechecks"
+    },
+    {
+      "chunk": "b3edbd",
+      "exit_code": 0,
+      "purpose": "root source adjudication and next native assignment"
+    },
+    {
+      "chunk": "730a56",
+      "exit_code": 0,
+      "purpose": "current ret/origin-ret HEAD and empty index verification"
+    }
+  ],
+  "current_failed_commands": [],
+  "current_truncated_outputs": [],
+  "date": "2026-09-30",
+  "independent_actual_checks": {
+    "bytes": 4543,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/ACTUAL_CHECKS.json",
+    "sha256": "6deabd42ce1085204b5df717e9fa83a79530c8d110c0ecef2a6a25ebf5889a57"
+  },
+  "notes": [
+    "Earlier complete root source reads are explicitly recorded in the preserved preliminary note and current manual review.",
+    "QR idle snapshot at cursor41a4d9f2-e9fb-4d25-b7e0-75c40d3250cf:33 preceded successful existing-thread RI161 dispatch.",
+    "Actual publication checks and remote receipt follow this record and remain external."
+  ],
+  "replay_stderr": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/CHECK.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "replay_stdout": {
+    "bytes": 540,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/CHECK.stdout",
+    "sha256": "061ec1c5acbef52a6f30736fff4b8e3719a8ada3319bf7237956efb6943b27d7"
+  },
+  "root_control_or_subject_execution": false,
+  "schema": "ri159-root-actual-check-record-v1",
+  "scientific_body_decode": false
+}

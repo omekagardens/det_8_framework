@@ -1,0 +1,2 @@
+{"administrative_bodies": 88, "cases_executed": 0, "current_typed_references": 48, "dependencies": 252, "final_fresh_identities": 264, "historical_typed_references": 1981, "inherited_rows": 223, "predicates": 18296, "selected_bytes": 16345304, "status": "PASS_ADMINISTRATIVE_IDENTITY_AND_LITERAL_BINDING_NOT_QUALIFICATION"}
+{"bytes": 3691552, "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/METADATA_CHECK.json", "sha256": "9855f134e59bda76620b0537d49cd20c26aa9c49fcae0ae2194c7db173f7af2d"}

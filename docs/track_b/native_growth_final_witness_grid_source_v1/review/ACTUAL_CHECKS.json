@@ -1,0 +1,116 @@
+{
+  "actual_tool_scope": "Read descriptions summarize genuine tool acquisitions, not fabricated runtime transcripts. Only the metadata checker is executed; subjects are read as text or opaque bytes.",
+  "author_declared_check": {
+    "chunk_id": "4333cf",
+    "exact_inline_command_read_not_executed": true,
+    "exit_code": 0,
+    "final11_not_preclaimed_by_author_record": true,
+    "independently_observed_by_reviewer": false,
+    "stage": "preseal9"
+  },
+  "failed_current_commands": [],
+  "forbidden_work_performed": {
+    "engine_or_enumeration": false,
+    "fixture_creation": false,
+    "new_agent": false,
+    "repo_Git_index": false,
+    "runtime_card_admission_freeze": false,
+    "scientific_body_decode_evaluation": false,
+    "subject_import_compile_AST_probe_run": false
+  },
+  "historical_diagnostic_preserved": {
+    "not_a_current_reviewer_failure_or_rerun": true,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/RI157_GRID_PREMISE_CLARIFICATION.json",
+    "reported_chunk": "d32be5",
+    "reported_exit_code": 1
+  },
+  "metadata_check": {
+    "chunk_id": "111d3d",
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/CHECK.stderr",
+    "exit_code": 0,
+    "result": {
+      "bytes": 3691552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/METADATA_CHECK.json",
+      "sha256": "9855f134e59bda76620b0537d49cd20c26aa9c49fcae0ae2194c7db173f7af2d"
+    },
+    "stderr": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/CHECK.stderr",
+    "stderr_bytes": 0,
+    "stdout": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/CHECK.stdout",
+    "tool": "exec_command"
+  },
+  "review_authoring": {
+    "chunk_id": "63a64f",
+    "exit_code": 0,
+    "scope": "Own reserved review narrative/verdict/actual-check authoring only"
+  },
+  "schema": "ri159-independent-actual-checks-v1",
+  "seal_result": "Final administrative sealer result is separately reported in parent handoff; no operational tool truth is asserted by this file.",
+  "source_and_admin_reads": [
+    {
+      "chunk_id": "b02ca8",
+      "exit_code": 0,
+      "scope": "Authenticated root assignment and subject handoff; complete metadata reads; empty reservation"
+    },
+    {
+      "chunk_id": "fc4354",
+      "exit_code": 0,
+      "scope": "Exact11 namespace/all10 payload identities before source reading; administrative field summary"
+    },
+    {
+      "chunk_id": "e79dff",
+      "exit_code": 0,
+      "scope": "Producer complete lines1\u2013210"
+    },
+    {
+      "chunk_id": "d5e6de",
+      "exit_code": 0,
+      "scope": "Producer lines210\u2013374 and auditor1\u2013190"
+    },
+    {
+      "chunk_id": "f65304",
+      "exit_code": 0,
+      "scope": "Auditor190\u2013380"
+    },
+    {
+      "chunk_id": "e21afd",
+      "exit_code": 0,
+      "scope": "Auditor380\u2013521 and complete contract"
+    },
+    {
+      "chunk_id": "c35de8",
+      "exit_code": 0,
+      "scope": "Complete qualification families, consequence ledger and handoff note"
+    },
+    {
+      "chunk_id": "f0c8f8",
+      "exit_code": 0,
+      "scope": "Complete dependency note and source identity metadata"
+    },
+    {
+      "chunk_id": "067dab",
+      "exit_code": 0,
+      "scope": "Complete author diagnostics/check source as text, RI157 root decision/manual review and original RI159 assignment"
+    },
+    {
+      "chunk_id": "adab7f",
+      "exit_code": 0,
+      "scope": "Located original source/manuscript definitions and read prior own administrative checker as text"
+    },
+    {
+      "chunk_id": "bbc8de",
+      "exit_code": 0,
+      "scope": "Original component/order/default/override source passages, manuscript scope/discovery boundary and retained failed historical-read record"
+    },
+    {
+      "chunk_id": "bfe664",
+      "exit_code": 0,
+      "scope": "Verified own stdout/empty stderr and qualification I/O family scopes"
+    }
+  ],
+  "subject": {
+    "bytes": 8831,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/HANDOFF.json",
+    "sha256": "424a2b10d6e3eed43c3180f0d462e925396dcba26f5ed97666bccb6be1cda635"
+  },
+  "truncated_current_outputs": []
+}
