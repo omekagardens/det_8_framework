@@ -1,0 +1,94 @@
+{
+  "accepted": [
+    "Complete two b, four d, two h components, all roles/mark invariants and staircase third-pair loops; symmetric P individual ideals counted twice, U staircase ideal once.",
+    "Fixed prefix J7=41p, J9=f_i, J11=g_iu, square relation and actual C4 full root compression justified; all nine P and eight U proper potentials and full complements retained.",
+    "All-Q and all-P tightness are canonical only. C5/U stay inequalities. Complete Ferrers-terminal incidence excludes outside-row interference; preserving full actual weighted row contributions lifts every displayed feasible sector point into original primary face.",
+    "Exact unequal-g interval and equal-g polygon; target lower bound attained for positive/zero/equality and f>2L cases using only positive divisors and inherited nonemptiness.",
+    "Literal minimum relation order EQ<EP<EU<EC5 and precursor masks15<17<19 place both a before every other block coordinate; complete original-vector feasible exchange proves actual canonical identity.",
+    "N_i=(35/1476)sigma_i and q substitution exact; negative root-one contribution uses upper k bound. Actual branch, root ordering and quantitative correlated q/v/joint budget remain open; strict restoration unchanged."
+  ],
+  "actual_checks": {
+    "independent_closure": "279d68 exit0",
+    "independent_final": "8a9db4 exit0",
+    "independent_seal": "d67b40 exit0",
+    "root_closure": "332f4e exit0"
+  },
+  "formula": {
+    "N_i": "(35/1476)*sigma_i",
+    "a_i": "[41p_i-f_i/2-min(g_i0,g_i1)]_+/(41p_i*c_i)",
+    "arbitrary_primary_optima_assumed_canonical_neutral": false,
+    "known_nonempty_fixed_prefix_used": true,
+    "original_full_vector_lexicographic_order_retained": true,
+    "q": "T_core+(35/1476)*(sigma_0*k_0-sigma_1*k_1)",
+    "sigma_i": "[41p_i-f_i/2-min(g_i0,g_i1)]_+/c_i"
+  },
+  "independence": {
+    "O01_separately_root_accepted_inherited_premise": true,
+    "author_of_current_packet": false,
+    "author_peer_reviews_counted_as_independent": false,
+    "authored_prior_review_observation_O01": true,
+    "current_new_incidence_algebra_order_and_substitution_independently_reviewed": true,
+    "unrelated_WHITE_authorship_disclosed": true
+  },
+  "independent_narrative": {
+    "bytes": 25608,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/INDEPENDENT_FACE_REVIEW.md",
+    "sha256": "515bdea1510e41846b2fcbaae6697f120c613d2971fe180c6b1fcfa2d5135e32"
+  },
+  "independent_review": {
+    "bytes": 8003,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/HANDOFF.json",
+    "sha256": "3910840dfd58f44a358f9c61d66c5f0a3cbe86accdfc1a62372f2c6556a3013f"
+  },
+  "physical_claim": false,
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "individual_ideal_multiplicities": true,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "remaining": {
+    "actual_W_C2_C3_signs_decided": false,
+    "actual_prefix_branch_evaluated": false,
+    "actual_rho_membership_proved": false,
+    "actual_root_coefficient_ordering_decided": false,
+    "adequate_q_floor": "For adequate b>0, prove (35/1476)(sigma0*k0(x)-sigma1*k1(x)) >= b*D3-T_core(x) on same correlated actual-containing [0,Z].",
+    "adequate_separate_v_D3_floor_required": true,
+    "alternative_exact_cleared_endpoint_proofs_possible": true,
+    "both_joint_endpoint_budgets_required": true,
+    "full_H30_decided": false
+  },
+  "ret_paused": true,
+  "root_manual_review": {
+    "bytes": 3663,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/ROOT_MANUAL_REVIEW.json",
+    "sha256": "6a441dcdcd9ade6b4e670bec581e8235bda700704e5cb35b22b4365393ef667e"
+  },
+  "root_metadata_check": {
+    "bytes": 88097,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/ROOT_NATIVE_CHECK.json",
+    "sha256": "9d433a5493e28e44ddc98d8093335dfd27dfeb4c6c2c69b7365efd7946d0caa6"
+  },
+  "root_read": "Complete three author manuscripts, root literal premise spans and root algebra in ROOT_MANUAL_REVIEW; complete independent narrative6d9289, verdict/finalcheck/diagnosticsdff36c, finalhandoff558afe. Final editorial scope narrows RI127 fresh reads to1-58 and60-205; mathematical text unchanged.",
+  "schema": "ri151-root-canonical-formula-adjudication-v1",
+  "scientific_body_decode": false,
+  "scientific_execution": false,
+  "source_handoff": {
+    "bytes": 6054,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/HANDOFF.json",
+    "sha256": "8b41c6467b47de9bb30b310a2f8cf6b3020a01bafcfa317d8276f6f77811eee6"
+  },
+  "status": "ACCEPT_EXACT_CANONICAL_TARGET_FORMULA_WITH_FIXED_PREFIX_BUDGET_GAP"
+}

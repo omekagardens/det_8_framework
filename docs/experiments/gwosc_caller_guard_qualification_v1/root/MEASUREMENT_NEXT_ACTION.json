@@ -1,0 +1,20 @@
+{
+  "guard_acceptance": {
+    "bytes": 4020,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+    "sha256": "926cbcfdfa9fa3685924cb7727a53d5d0742ffa399580aa8942f8846a6ed23f7"
+  },
+  "next": "Prepare and independently review exact source/acceptance bindings for a fresh WHITE execution root and complete external pre/post mode-custody driver. Keep original sealed RI130/RI141 packets immutable; no active freeze/cards/runs may be added there. Carry all30 exact source copies,11 helpers/declarations,124 history originals,17 role bindings and separate accepted current runtime/profile/guard premises. Any relocation, environment TMPDIR or observation adaptation needs explicit review; do not silently reuse fixed-path RI141/old RI121 applicability. Preserve genuine source/runtime authentication before target load, separate normal then accepted-normal-before-optimized ordering, saved reconstruction, whole57artifact/74postcheck/3tree relation, no-descendant scope and unchanged resource limits. Seal concrete source-only preparation and identify any actual blocker before a separate scientific admission. Scientific source acceptance, guards, runtime observations, WHITE15/two179, RI131/full32 and actual public GWOSC calculation/calibration/native forward map remain distinct.",
+  "operational_admission_created": false,
+  "owner": "root",
+  "predecessor": {
+    "bytes": 7508,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "933236ca3c43401e9ed5887207bf7753f6e909997c589a7bb380cf5d77f32065"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15",
+  "ret_paused": true,
+  "schema": "ri154-white-mode-preparation-assignment-v1",
+  "scientific_execution": false,
+  "status": "RESERVED_SOURCE_AND_CUSTODY_PREPARATION_NOT_SCIENTIFIC_ADMISSION"
+}

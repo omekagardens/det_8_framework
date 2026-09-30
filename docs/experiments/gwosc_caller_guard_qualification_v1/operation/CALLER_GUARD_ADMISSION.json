@@ -1,0 +1,113 @@
+{
+  "controls": [
+    "parent_source",
+    "parent_caller",
+    "parent_runtime_acceptance",
+    "parent_mode",
+    "parent_late",
+    "parent_late_postcheck",
+    "worker_source",
+    "worker_caller",
+    "worker_runtime_acceptance",
+    "worker_mode",
+    "worker_late",
+    "worker_late_postcheck",
+    "capture_positive",
+    "capture_changed_copy",
+    "capture_buffer_drift",
+    "capture_occupied",
+    "monitor_positive",
+    "monitor_no_sample",
+    "monitor_wall",
+    "monitor_initial_gap",
+    "monitor_sample_gap",
+    "monitor_rss",
+    "monitor_nonzero",
+    "monitor_malformed",
+    "monitor_timeout",
+    "monitor_final_gap",
+    "runtime_positive",
+    "runtime_absent_file",
+    "runtime_absent_dangling_link",
+    "runtime_missing_loader",
+    "runtime_changed_loader_declaration",
+    "runtime_changed_loader_path",
+    "runtime_missing_config",
+    "static_positive",
+    "static_actual",
+    "static_extra",
+    "static_bool_limit",
+    "static_source_omitted",
+    "static_source_copy",
+    "static_helper_omitted",
+    "static_mode_command",
+    "acceptance_positive",
+    "acceptance_source_execution",
+    "acceptance_caller_binding",
+    "acceptance_caller_history",
+    "acceptance_caller_ret",
+    "acceptance_guards_absent",
+    "acceptance_runtime_binding",
+    "acceptance_runtime_loader",
+    "acceptance_runtime_profile",
+    "mode_normal_positive",
+    "mode_optimized_positive",
+    "mode_wrong_command",
+    "mode_pre_missing",
+    "mode_normal_incomplete",
+    "mode_normal_drift",
+    "relation_positive",
+    "relation_science_file",
+    "relation_wrong_link",
+    "relation_extra_envelope",
+    "relation_missing_artifact",
+    "relation_postcheck",
+    "relation_extra_namespace",
+    "relation_control_message",
+    "relation_tail_dropped"
+  ],
+  "genuine_outer_required": true,
+  "harness": {
+    "bytes": 38688,
+    "sha256": "e11e53400374068a9036b24e1a50bf8505fc910ae279a8742f24af17dfba8f72"
+  },
+  "helpers": {
+    "caller_contract.py": {
+      "bytes": 18749,
+      "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+    },
+    "control.py": {
+      "bytes": 5171,
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    "evidence.py": {
+      "bytes": 22152,
+      "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+    },
+    "launch.py": {
+      "bytes": 14159,
+      "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+    },
+    "monitor.py": {
+      "bytes": 3644,
+      "sha256": "5ca6f82423c5ba862b919de846684c2b8364e59442da27d9f5ed933c33a9cb51"
+    },
+    "runtime_support.py": {
+      "bytes": 8184,
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    "worker.py": {
+      "bytes": 9021,
+      "sha256": "0250bdfa9c47fcbe8b00278be79f2cf7e3ca8b955bf93f16eb3d18c1e7936550"
+    }
+  },
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/GUARD_REPORT.json",
+  "packet": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg",
+  "schema": "ri130-root-guard-admission-v1",
+  "source_review": {
+    "bytes": 6038,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/PREFLIGHT_ROOT_ADJUDICATION.json",
+    "sha256": "5df480cbe7ab6f3b9e45605fbd2050c72f32b26a66296605b8adb667671f0bb7"
+  },
+  "status": "AUTHORIZE_RI130_NONSCIENTIFIC_CALLER_GUARDS_ONLY"
+}

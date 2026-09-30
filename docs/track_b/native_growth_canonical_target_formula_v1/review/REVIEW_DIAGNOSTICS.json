@@ -1,0 +1,123 @@
+{
+  "actual_metadata_check": {
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/check_metadata.py",
+    "exit_code": 0,
+    "output": [
+      "METADATA_CHECK.json102744sha256fbd8520ad5b032ac3ed7c124a56b087722c6d743f0f05d55d42e912f86417f1f",
+      "150dependencies4347537bytes734historical66currentrefs10subjectfiles"
+    ],
+    "tool_chunk": "279d68"
+  },
+  "administrative_authoring": {
+    "exit_code": 0,
+    "scope": "New metadata-only checker copied/adapted as text within reservation; no subject loaded",
+    "tool_chunk": "ffc437"
+  },
+  "author_diagnostics_retained": {
+    "absence_exit1_chunks": [
+      "bce6bd",
+      "58d0b8"
+    ],
+    "aggregate_clipping_chunk": "aad405",
+    "independent_acceptance_credit": false,
+    "source": {
+      "bytes": 13865,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/AUTHOR_CHECKS.json",
+      "sha256": "16505621d02a5a90518952325a4f40a6b5f44fb4d075b19afcdded1e3adc7a78"
+    }
+  },
+  "checker_readback": {
+    "exit_code": 0,
+    "tool_chunk": "d75a07"
+  },
+  "limits": "Plain source reads do not execute functions. Opaque identities and metadata JSON are not mathematical or scientific reruns. Review output creation commands are administrative only.",
+  "manual_read_receipts": [
+    {
+      "exit_code": 0,
+      "scope": "Complete coupled and synthesis manuscripts",
+      "tool_chunk": "76a4a8"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete incidence manuscript",
+      "tool_chunk": "c3bb35"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete dependency note, symbolic result, prose handoff",
+      "tool_chunk": "05739e"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete author checks and root assignment/adjudication/manual review",
+      "tool_chunk": "d7afab"
+    },
+    {
+      "exit_code": 0,
+      "limitation": "Aggregate functions display was truncated; b18803 is not a recovered actual chunk identifier and is deliberately not counted as verified receipt",
+      "scope": "Batched literal source, transport and identity reads",
+      "tool_chunks": [
+        "5b4bac",
+        "4f8a25",
+        "b18803"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "limitation": "Aggregate functions display was truncated. The identity-read nested chunk was not retained in visible output; affected transport and complete SOURCE_IDENTITIES were reread in the subsequent bounded outputs. No complete-read credit assigned to the clipped material.",
+      "scope": "Fresh complete transport60-205 replacement",
+      "tool_chunk": "0017ec",
+      "tool_chunks": [
+        "5b4bac",
+        "4f8a25"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "scope": "Fresh complete SOURCE_IDENTITIES bounded replacement",
+      "tool_chunks": [
+        "dbb820",
+        "f874e7"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "scope": "Administrative predecessor checker and authorized metadata helper plain text",
+      "tool_chunk": "baace8"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete current handoff",
+      "tool_chunk": "165d35"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete line-numbered current manuscripts",
+      "tool_chunks": [
+        "c10999",
+        "de0935",
+        "bdedfa",
+        "71f714",
+        "774e21"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "scope": "Fresh literal supporting definition and accepted premise spans",
+      "tool_chunks": [
+        "0fd146",
+        "fec489",
+        "a43fd1",
+        "5ac8fc"
+      ]
+    }
+  ],
+  "review_reservation_creation": {
+    "exit_code": 0,
+    "tool_chunk": "fe7a63"
+  },
+  "reviewer_failed_administrative_executions": [],
+  "schema": "ri151-independent-review-diagnostics-v1",
+  "status": "REVIEWER_METADATA_CHECK_PASSED_WITH_ONE_READ_DISPLAY_LIMITATION",
+  "subject_commands_executed": []
+}

@@ -1,0 +1,50 @@
+{
+  "author_seal": {
+    "chunk": "bd4a64",
+    "exit_code": 0
+  },
+  "independent_closure": {
+    "chunk": "279d68",
+    "exit_code": 0
+  },
+  "independent_final": {
+    "chunk": "8a9db4",
+    "exit_code": 0
+  },
+  "independent_seal": {
+    "chunk": "d67b40",
+    "exit_code": 0
+  },
+  "ret_paused": true,
+  "root_adjudication": {
+    "chunk": "d30a13",
+    "exit_code": 0
+  },
+  "root_closure": {
+    "chunk": "332f4e",
+    "exit_code": 0
+  },
+  "root_manual_creation": {
+    "chunk": "0fed7d",
+    "exit_code": 0
+  },
+  "root_manual_preseal_edit": "Terminal shorthand was expanded to explicit Ferrers partitions before adjudication. No author/independent sealed artifact changed.",
+  "schema": "ri151-root-administrative-tool-evidence-v1",
+  "scientific_body_decode": false,
+  "source_adjudication": {
+    "bytes": 5022,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/RI151_ROOT_ADJUDICATION.json",
+    "sha256": "42572ffd230ccf25eb761c4bf8741f66a99d218b40234329cad4cc4b29aab882"
+  },
+  "subject_execution": false,
+  "successor": {
+    "bytes": 2872,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/NATIVE_SUCCESSOR_RESERVATION.json",
+    "sha256": "5e9831650ce2defca777500392419b16bf3d820458f19c1bfca2c522a4869e51"
+  },
+  "successor_dispatch": {
+    "successful": true,
+    "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "tool": "mcp__codex_app__send_message_to_thread"
+  }
+}

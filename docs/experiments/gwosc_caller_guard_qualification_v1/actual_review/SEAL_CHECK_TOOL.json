@@ -1,0 +1,27 @@
+{
+  "command": "python3 /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/seal_review.py > /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK.stderr",
+  "preceded_by": "Exclusive creation of the retained reviewer-owned sealing source in the same tool call.",
+  "schema": "ri152-independent-final-rehash-tool-v1",
+  "scope": "Metadata-only compact evidence extraction and final rehash of 1820 prior input identities. No subject import or execution.",
+  "source": {
+    "bytes": 3871,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/seal_review.py",
+    "sha256": "a9069796b52caf3df9378de022d3f63b3912867a880d0b5ec28c8b050211a1dc"
+  },
+  "stderr": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 958,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK.stdout",
+    "sha256": "d11c2ec382f8de013ec470a89247a95af7437b9489e6fddf035d1fc747e077e7"
+  },
+  "tool_result": {
+    "chunk_id": "46fb94",
+    "exit_code": 0,
+    "output": "",
+    "wall_time_seconds": 0.186307791
+  }
+}

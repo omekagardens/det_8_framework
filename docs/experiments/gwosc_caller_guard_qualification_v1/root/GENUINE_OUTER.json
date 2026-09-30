@@ -1,0 +1,36 @@
+{
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/GUARDS_ADMISSION.json"
+  ],
+  "completion": {
+    "bytes": 3994,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/COMPLETE.json",
+    "sha256": "c79f9ea305a3e32ebb98983a1e6e1bcf40b79d9fa0d85cb85202be7ada1bb273"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "exit_code": 0,
+  "external_timeout_seconds": 960,
+  "raw_tool_receipt": {
+    "bytes": 2200,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "af24db5567cea769c0f8f17520d4d9ad9e1f2ef86ce50c4cfea528303aff957c"
+  },
+  "schema": "ri133-root-genuine-outer-v1",
+  "status": "ACTUAL_TOOL_COMPLETION"
+}

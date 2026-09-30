@@ -1,0 +1,36 @@
+{
+  "actual_check": {
+    "chunk": "a0d360",
+    "exit_code": 0,
+    "script": {
+      "bytes": 11070,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/check_guard_custody.py",
+      "sha256": "f7a3d37f185bfad0dce989e2509df6e61b42a4e3bf52c2db9a36ad1562c41bac"
+    }
+  },
+  "admission": {
+    "chunk": "24ad91",
+    "exit_code": 0
+  },
+  "failed_root_check_attempts": 0,
+  "failed_subject_attempts": 0,
+  "genuine_receipts": {
+    "bytes": 2200,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "af24db5567cea769c0f8f17520d4d9ad9e1f2ef86ce50c4cfea528303aff957c"
+  },
+  "post_vendor": {
+    "bytes": 1784,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/BOOTSTRAP_POST_TOOL.json",
+    "sha256": "7e737b0839a081a1d296f8715c83cafd77a76329f64664d9e7b1ca9e797b41fb"
+  },
+  "schema": "ri152-root-actual-admin-check-receipts-v1",
+  "source_adjudication": {
+    "chunk": "4a799b",
+    "exit_code": 0
+  },
+  "source_post": {
+    "chunk": "46da01",
+    "exit_code": 0
+  }
+}

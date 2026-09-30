@@ -1,0 +1,24 @@
+{
+  "schema": "ri152-root-actual-adjudication-tool-v1",
+  "arguments": {
+    "cmd": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/adjudicate_guards.py",
+    "workdir": "/Volumes/AI_DATA/development/det_8_framework-ret",
+    "yield_time_ms": 1000,
+    "max_output_tokens": 2000
+  },
+  "initial": {
+    "chunk_id": "524775",
+    "wall_time_seconds": 1.003096959,
+    "session_id": 1143,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "terminal": {
+    "chunk_id": "b38a17",
+    "wall_time_seconds": 0.000009083,
+    "exit_code": 0,
+    "original_token_count": 168,
+    "output": "{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json', 'bytes': 7508, 'sha256': '933236ca3c43401e9ed5887207bf7753f6e909997c589a7bb380cf5d77f32065'}\n{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json', 'bytes': 4020, 'sha256': '926cbcfdfa9fa3685924cb7727a53d5d0742ffa399580aa8942f8846a6ed23f7'}\n{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/MEASUREMENT_NEXT_ACTION.json', 'bytes': 1983, 'sha256': '5027183e9c7ea3a87c5a3144f472751c375b75ccedd0fac49531165779877bbc'}\n"
+  },
+  "scope": "Metadata-only root adjudication; scientific targets not executed."
+}

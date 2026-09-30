@@ -1,0 +1,100 @@
+{
+  "all_failed_admin_attempts_retained": true,
+  "check": {
+    "bytes": 589045,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/OPAQUE_PREFLIGHT_CHECK.json",
+    "sha256": "99240696d1ecc33e3da9cc52602dae85d09096c51b538ce650733cac9beb2270"
+  },
+  "complete_namespace": [
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "FINAL_SOURCE_CUSTODY.json",
+    "HANDOFF.json",
+    "INDEPENDENT_PREFLIGHT_REVIEW.md",
+    "OPAQUE_PREFLIGHT_CHECK.json",
+    "PUBLICATION_SUBSET.json",
+    "REVIEWER_DIAGNOSTICS.json",
+    "VERDICT.json",
+    "check_metadata.py"
+  ],
+  "diagnostics": {
+    "bytes": 3098,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/REVIEWER_DIAGNOSTICS.json",
+    "sha256": "b2901b5d886f7e8c7958b5659e2ba90a2039ec958f6fc0ca193e6cc46a33f3fa"
+  },
+  "files_excluding_self": [
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/CHECK.stdout",
+      "sha256": "0cf893e74f38a0fbb7e41df866e18fd4a379a6cfeccfaf4ce2080d2f95fdfa95"
+    },
+    {
+      "bytes": 576,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "1d08118bbfaf2aa1259a1767ea11250058e6ca7d7e4948b344010ba44b9419e2"
+    },
+    {
+      "bytes": 19318,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "sha256": "f5bcf91a94c4670f3a4efe1842cf630ba700b07dc585436764796e5c0edd2465"
+    },
+    {
+      "bytes": 589045,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/OPAQUE_PREFLIGHT_CHECK.json",
+      "sha256": "99240696d1ecc33e3da9cc52602dae85d09096c51b538ce650733cac9beb2270"
+    },
+    {
+      "bytes": 2384,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/PUBLICATION_SUBSET.json",
+      "sha256": "2141c6e332cfeb612540140eb64a6cde1c6262927fb5ef17892629102c7fecc4"
+    },
+    {
+      "bytes": 3098,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/REVIEWER_DIAGNOSTICS.json",
+      "sha256": "b2901b5d886f7e8c7958b5659e2ba90a2039ec958f6fc0ca193e6cc46a33f3fa"
+    },
+    {
+      "bytes": 2569,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/VERDICT.json",
+      "sha256": "7a151e52fb257a676de32044a473be8224070cf6729908a5be69c6f091e19dff"
+    },
+    {
+      "bytes": 8552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/check_metadata.py",
+      "sha256": "96c686d5f5815a68b0d839e8e31674d2e4effe165599067ed0bf7fb185de5119"
+    }
+  ],
+  "final_custody": {
+    "bytes": 576,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/FINAL_SOURCE_CUSTODY.json",
+    "sha256": "1d08118bbfaf2aa1259a1767ea11250058e6ca7d7e4948b344010ba44b9419e2"
+  },
+  "next": "Root reads complete sealed source recommendation and independently adjudicates; a genuinely admitted operation then requires a separate full saved/custody review. No automatic successor assigned.",
+  "public_subset": {
+    "bytes": 2384,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/PUBLICATION_SUBSET.json",
+    "sha256": "2141c6e332cfeb612540140eb64a6cde1c6262927fb5ef17892629102c7fecc4"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk",
+  "ret_paused": true,
+  "review": {
+    "bytes": 19318,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+    "sha256": "f5bcf91a94c4670f3a4efe1842cf630ba700b07dc585436764796e5c0edd2465"
+  },
+  "reviewer": "/root/ri116_complete_caller_review",
+  "root_adjudication_and_actual_admission_required": true,
+  "schema": "ri152-independent-guard-preflight-handoff-v1",
+  "status": "SEALED_SOURCE_PREFLIGHT_RECOMMENDATION_NOT_EXECUTION_ADMISSION",
+  "subject_guards_executed": 0,
+  "verdict": {
+    "bytes": 2569,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/VERDICT.json",
+    "sha256": "7a151e52fb257a676de32044a473be8224070cf6729908a5be69c6f091e19dff"
+  }
+}

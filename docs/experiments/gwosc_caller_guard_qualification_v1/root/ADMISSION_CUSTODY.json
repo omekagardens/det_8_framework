@@ -1,0 +1,57 @@
+{
+  "card": {
+    "bytes": 3464,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/GUARDS_ADMISSION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/GUARDS_ADMISSION.json",
+    "sha256": "47507f37ee8e92e6f83b8f44793c759e69f8a72296abab77b7322ccba516757d",
+    "state": [
+      16777244,
+      409443,
+      33188,
+      1,
+      3464,
+      1790778146223072174,
+      1790778146223072174
+    ],
+    "symlink_chain": []
+  },
+  "genuine_operation_count": 1,
+  "guard_card": {
+    "bytes": 3510,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/CALLER_GUARD_ADMISSION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/CALLER_GUARD_ADMISSION.json",
+    "sha256": "8f886209aae513fa3724ad77afdd51f2935bc06fdaf3945861f60f97d51ac2c8",
+    "state": [
+      16777244,
+      409442,
+      33188,
+      1,
+      3510,
+      1790778146217609387,
+      1790778146217609387
+    ],
+    "symlink_chain": []
+  },
+  "operation": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof",
+  "source_pre": {
+    "bytes": 349190,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/SOURCE_PRE.json",
+    "sha256": "7dac6edb75486199b8496499136f39a4e75bb37adab76e29fb33ad51c7bca06b"
+  },
+  "source_review": {
+    "bytes": 6038,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/PREFLIGHT_ROOT_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/PREFLIGHT_ROOT_ADJUDICATION.json",
+    "sha256": "5df480cbe7ab6f3b9e45605fbd2050c72f32b26a66296605b8adb667671f0bb7",
+    "state": [
+      16777244,
+      409441,
+      33188,
+      1,
+      6038,
+      1790778145985582810,
+      1790778145985582810
+    ],
+    "symlink_chain": []
+  }
+}

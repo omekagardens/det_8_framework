@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/guard_controls.source-only.py",
+    "--packet",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/CALLER_GUARD_ADMISSION.json",
+    "--output",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/GUARD_REPORT.json"
+  ],
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "pid_owner": 61986,
+  "scientific_target_entry": false,
+  "wall_seconds": 180
+}

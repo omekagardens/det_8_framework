@@ -1,0 +1,31 @@
+{
+  "both_mode_review": {
+    "bytes": 6593,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+    "sha256": "fab678fdf26173fdd952e2e3aab9fce54fee092d298c8f756c5120cb99d0719f"
+  },
+  "fresh_saved_evidence": "Complete current65 report and exact original fixtures/operations/current cards; all599 source identities and root-saved runtime/supplier/post observations; both-profile whole-check correspondence to already independent reconstructions.",
+  "fresh_source_reads": [
+    "RI130 guard harness all480 lines",
+    "Root current check_guard_custody.py entire",
+    "Relevant previously accepted RI141/RI130 parent/worker/evidence source as identified in narrative"
+  ],
+  "normal_review": {
+    "bytes": 6852,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+    "sha256": "dda8890bc60be37f1391c88972eb11a67d4e52d68fa860ca01a92042e1c6c276"
+  },
+  "not_freshly_observed": "No installed vendor/candidate runtime or process re-observation; no new genuine source execution; root-tool origin remains external.",
+  "preflight": {
+    "bytes": 4762,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+    "sha256": "e5954649acb1870b586f3057956821d686e08d69265cb0147659ea03a6f1514b"
+  },
+  "prior_reviewer_code": {
+    "bytes": 42899,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/review_saved_optimized.py",
+    "sha256": "0762607c2e62664303a3a57cfcbf35725c0496d853e28991aa987fc3935aeccf"
+  },
+  "reuse": "Text reuse of reviewer-owned stable read/pin/typed-equality/namespace routines, actual monitor arithmetic and saved vendor reconciliation; new guard admission, source-oracle/failure/fixture/whole-package logic authored independently. No import or execution of prior checker or target.",
+  "schema": "ri152-reviewer-code-and-source-reuse-v1"
+}

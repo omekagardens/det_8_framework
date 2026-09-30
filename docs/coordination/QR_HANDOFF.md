@@ -1,37 +1,39 @@
-# Current QR coordination — RI-151 canonical Q row equalities
+# Current QR coordination — RI-153 fixed-prefix weighted margin
 
-**Current checkpoint — 30 September 2026 UTC.** RI-149's singleton-hook
-canonical reduction and RI-150's optimized runtime profile with both-mode
-review are independently reviewed and root accepted. Exact evidence is in
-`docs/track_b/native_growth_canonical_hook_reduction_v1/` and
-`docs/experiments/gwosc_optimized_runtime_profile_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** RI-151's exact canonical
+target formula and RI-152's actual 65 caller guards are independently reviewed
+and root accepted. Exact evidence is in
+`docs/track_b/native_growth_canonical_target_formula_v1/` and
+`docs/experiments/gwosc_caller_guard_qualification_v1/`.
 
-The native proof gives complete marked incidence and history-weighted
-objective columns, exact residual-capacity saturation and two-coordinate
-elimination. The original full-vector canonical tie-break remains required.
-An additional independently checked consequence of RI-63 makes every canonical
-Q=(4,1) row tight. The actual coefficient ordering, quantitative v/q budget,
-obstruction-interval membership, W/C2/C3 and shared H30 remain open. All fixed
-P2/P3, Y=1/4, 31/139/20/42, shared T1, other eight connected parents and five Di
-obligations remain. QR owns RI-151 in `ri151-canonical-q-equalities-_546ie2h` to use the coupled Q row
-equalities and the other neutral component incidences. RI-143's controller
-blocker is retained; it does not prevent this analytic work.
+The native formula is `a_i=[41p_i-f_i/2-min(g_i0,g_i1)]_+/(41p_i c_i)`.
+Complete marked incidence, both symmetric arm ideals, the original full optimal
+face and canonical coordinate order prove attainment, including equal and zero
+cases. It yields `N_i=(35/1476)sigma_i` in the exact weighted q expression.
+Actual prefix branches/root ordering, adequate q/D3 and v/D3 floors, both joint
+budgets, correlated Z, actual rho membership, W/C2/C3 and shared H30 stay open.
+All fixed P2/P3, Y=1/4, 31/139/20/42, shared T1, other eight parents and five Di
+remain. QR returned RI-153 in `ri153-fixed-prefix-weighted-margin-7_73jtl5` for a substantive fixed-prefix
+weighted-margin proof. Its fresh independent review is active in
+`ri153-independent-margin-review-FciZqSiY`; the author packet remains unaccepted
+and excluded here. The next QR assignment follows predecessor adjudication.
+RI-143's execution blocker does not prevent this analysis.
 
-RI-150 genuinely completed one optimized profile under unchanged source and
-bounds. All 71 modules/213 descriptor fields, ten ordered loader attempts and
-104 new raw monitor samples reconcile. Thirty cache descriptors differ from
-normal, including two correctly absent optimized cache paths; both complete
-reports remain. PRE/POST snapshots equal the accepted baseline and normal
-snapshots across 9,923 runtime files and 258,862,951 bytes. Both-mode review
-retains source/cache/loader/host and sampled-resource premises. This accepts
-installed-runtime observations only; no scientific target, guard or data ran.
+RI-152 completed once under unchanged source and limits: all 65 nonscientific
+guards passed. Full independent outcome/source review retains the explicit
+metadata/process/runtime doubles and source-mediated in-memory refusals. The
+148 actual monitor samples, both cards, 599 source objects, full 9,923-file runtime
+and complete 1,406-entry operation reconcile. PRE/POST equal the accepted baseline.
+The complete 1,385-entry fixture tree is preserved losslessly as data, including
+all 1,172 regular bodies and 44 literal links; no links are recreated. Genuine
+execution, saved evidence and supplier/tool-origin premises remain distinct.
 
-RI-152 is root-owned in `ri152-root-guard-qualification-pd116byo` for fresh preflight and a separate
-admission of the 65 guards. Both-mode acceptance is complete; WHITE/full32 and the
-selected conventional GWOSC reproduction remain later gates. Calibration and
-the native forward map remain open. Root owns all Git and actual admissions;
-active successors and unrelated edits are excluded.
-The programme continues; RET alone remains paused.
+Root owns RI-154 in `ri154-white-mode-preparation-42_uvw15` to prepare the separately reviewed WHITE
+qualification execution-root bindings and external mode-custody prerequisites.
+No scientific mode is admitted by this checkpoint. WHITE/full32 qualification,
+selected conventional GWOSC reproduction, calibration and native forward map
+remain separate gates. Root owns Git/admissions; active successors and unrelated
+edits are excluded. The programme continues; RET alone remains paused.
 
 **RI-129 retained assignment scope (completed and source-adjudicated).**
 RI-129 followed the completed RI-128 root adjudication, not an unreviewed author

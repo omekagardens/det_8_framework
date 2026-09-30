@@ -1,0 +1,207 @@
+{
+  "external_only_preserved": [
+    {
+      "bytes": 20804532,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SAVED_CHECK.json",
+      "sha256": "1f0334a8da5bedd6507f45ced48ba5f0d42e766c3cb65cc6e71ebb14d74334e7"
+    },
+    {
+      "bytes": 9983435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FAILED_CHECK_01.json",
+      "sha256": "c1feee86e5258d8a32db61e18df1db35009cc0ab3230ed07dd4f8645e252a94b"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 3743,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/ACTUAL_REVIEWER_COMMANDS.json",
+      "sha256": "4fc1a359ab50b71386fdd0aebb2a2d16b196cdaa07aea6438b8b7aa33737b874"
+    },
+    {
+      "bytes": 1092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_01.stderr",
+      "sha256": "2c3ef6d1235e897ddf2674de575ec693462b2204c4f8ff2c2ecf6bbc242bbbae"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_01.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_02.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2574,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_02.stdout",
+      "sha256": "3557982aeeef7b94b78066a292a02386391dfbde5ebe0b7606fd91f31aded2e4"
+    },
+    {
+      "bytes": 9983435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FAILED_CHECK_01.json",
+      "sha256": "c1feee86e5258d8a32db61e18df1db35009cc0ab3230ed07dd4f8645e252a94b"
+    },
+    {
+      "bytes": 2507,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FAILURE_DIAGNOSTIC.json",
+      "sha256": "7c826926e10dc660fd0d72539fcdab557c225dcf5939b8a29b43d42e9031dcb6"
+    },
+    {
+      "bytes": 605,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FINAL_INPUT_CUSTODY.json",
+      "sha256": "c94b2c9e23b04e8bceb9576f4b7e1f40abcdd84baba58f63f26e85c71f73ce94"
+    },
+    {
+      "bytes": 20637,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "sha256": "1ff14097b4608936cbaf16796465e7b48d22cecb5e279042768d9e43fdd85bad"
+    },
+    {
+      "bytes": 6321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/PUBLICATION_SUBSET.json",
+      "sha256": "0b5c72bda0cb760a8fee7b56d71fd672c0c6316da9b5b9fe0356b4ed349585fc"
+    },
+    {
+      "bytes": 551043,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/READ_INPUT_IDENTITIES.json",
+      "sha256": "06f56f9f63e07a271869ce9c4676d087753eb95360a88e69869d9c43142c3c85"
+    },
+    {
+      "bytes": 2012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/REVIEWER_REUSE.json",
+      "sha256": "1b68dd82414d10ff6f561f1891c4f7df8a5f60a50a7d6d0958fe5b540eb8b4f9"
+    },
+    {
+      "bytes": 20804532,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SAVED_CHECK.json",
+      "sha256": "1f0334a8da5bedd6507f45ced48ba5f0d42e766c3cb65cc6e71ebb14d74334e7"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK.stdout",
+      "sha256": "d11c2ec382f8de013ec470a89247a95af7437b9489e6fddf035d1fc747e077e7"
+    },
+    {
+      "bytes": 1508,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK_TOOL.json",
+      "sha256": "e26035246593cc07253326a5e5663a42dbb8c3860d7f8246546ff6cfdd8c3b88"
+    },
+    {
+      "bytes": 42312,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SOURCE_ORACLE_COVERAGE.json",
+      "sha256": "db8208d2db79414ca08edc548f1872f601ccfdf39051766062034ed9d8fe45ec"
+    },
+    {
+      "bytes": 3106,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SUMMARY.json",
+      "sha256": "f8d082bbe2db41e74dec2c8797fddbeae5a25862178cd87da705f48c7d79f222"
+    },
+    {
+      "bytes": 2840,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/VERDICT.json",
+      "sha256": "45770ce8217d8f85993b8f20ebff4f06a5434a18b03a191c8642958f3509d11b"
+    },
+    {
+      "bytes": 55075,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.before-worker-custody-fields-fix.py",
+      "sha256": "8ff7aaab1102ebcadf95e13036965a60f0871b1b53d391a8d124016fd57c461b"
+    },
+    {
+      "bytes": 55125,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py",
+      "sha256": "929a8b79ceed7e23a420476efdc1e6c099b4f0a9c8aa11f228d63ae8ff8498a0"
+    },
+    {
+      "bytes": 3871,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/seal_review.py",
+      "sha256": "a9069796b52caf3df9378de022d3f63b3912867a880d0b5ec28c8b050211a1dc"
+    }
+  ],
+  "limits": [
+    "Saved genuine root-tool origin/session/timeout observations are external premises, not self-authenticated by JSON.",
+    "Runtime/vendor observations were made by root; reviewer checked complete saved records and fresh permitted opaque source/evidence/fixture bytes only.",
+    "Some in-memory refusal mutations/messages are source-mediated execution evidence, not separately saved raw exceptions.",
+    "Sampled owned-child RSS, parent PID, no-descendant and Apple host/cache/loader premises remain explicit.",
+    "Eight-field outer record and 17-field parent receipt preserved; owned-child timer includes startup/authentication, parent interval precedes final COMPLETE write/return.",
+    "Zero scientific fixture/control credit, no RI131 campaign, full32, periodic/mean/join, public-data calculation, calibration or physical claim."
+  ],
+  "namespace": [
+    "ACTUAL_REVIEWER_COMMANDS.json",
+    "CHECK_01.stderr",
+    "CHECK_01.stdout",
+    "CHECK_02.stderr",
+    "CHECK_02.stdout",
+    "FAILED_CHECK_01.json",
+    "FAILURE_DIAGNOSTIC.json",
+    "FINAL_INPUT_CUSTODY.json",
+    "HANDOFF.json",
+    "INDEPENDENT_ACTUAL_REVIEW.md",
+    "PUBLICATION_SUBSET.json",
+    "READ_INPUT_IDENTITIES.json",
+    "REVIEWER_REUSE.json",
+    "SAVED_CHECK.json",
+    "SEAL_CHECK.stderr",
+    "SEAL_CHECK.stdout",
+    "SEAL_CHECK_TOOL.json",
+    "SOURCE_ORACLE_COVERAGE.json",
+    "SUMMARY.json",
+    "VERDICT.json",
+    "review_saved.before-worker-custody-fields-fix.py",
+    "review_saved.py",
+    "seal_review.py"
+  ],
+  "namespace_rule": "Every regular file in this exclusive reservation is bound except HANDOFF itself. No directory or link in this reservation. All original reviewer attempts and bulky logs remain immutable.",
+  "next": "Root adjudication and review of exact relocated caller-source and external scientific mode custody. Any scientific normal operation remains separately admitted; optimized requires accepted normal first.",
+  "prior_authorship_disclosed": [
+    "RI125 primary and qualifier",
+    "RI131 additional validator guards"
+  ],
+  "publication_subset": {
+    "bytes": 6321,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/PUBLICATION_SUBSET.json",
+    "sha256": "0b5c72bda0cb760a8fee7b56d71fd672c0c6316da9b5b9fe0356b4ed349585fc"
+  },
+  "recommendation": {
+    "blocking_findings": [],
+    "complete_read_input_files": 1820,
+    "final_read_input_rehash_pass": true,
+    "finite_guard_outcomes": 65,
+    "fixture_directories": 169,
+    "fixture_entries": 1385,
+    "fixture_literal_links": 44,
+    "fixture_regular_bodies": 1172,
+    "independent_package_bijection": true,
+    "malformed_terminal_raw_attempts": 0,
+    "real_monitor_attempts_and_samples": 148,
+    "root_reported_target_retries": 0,
+    "successful_independent_predicates": 87358
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi",
+  "ret_paused": true,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_failures_preserved": {
+    "commands": {
+      "bytes": 3743,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/ACTUAL_REVIEWER_COMMANDS.json",
+      "sha256": "4fc1a359ab50b71386fdd0aebb2a2d16b196cdaa07aea6438b8b7aa33737b874"
+    },
+    "diagnostic": {
+      "bytes": 2507,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FAILURE_DIAGNOSTIC.json",
+      "sha256": "7c826926e10dc660fd0d72539fcdab557c225dcf5939b8a29b43d42e9031dcb6"
+    },
+    "failed_admin_check": 1,
+    "failed_read_only_filename_search": 1,
+    "repair": "Only omitted false fields in reviewer expected worker custody corrected; no target, operand, threshold or source repair."
+  },
+  "schema": "ri152-independent-actual65-review-handoff-v1",
+  "scope": "Complete independent saved-evidence review of the one genuine RI152 nonscientific 65-guard operation under unchanged accepted RI141/RI130 source and the recorded runtime/host/tool-origin premises. No target replay or new runtime observation.",
+  "source_nonauthor": true,
+  "status": "SEALED_ACCEPT_BOUNDED_ACTUAL65_EVIDENCE_PENDING_ROOT_ADJUDICATION"
+}

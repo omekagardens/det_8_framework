@@ -1,0 +1,119 @@
+{
+  "additional_original_operands": "All read inputs are pinned in READ_INPUT_IDENTITIES.json. Root separately archives actual top-level operation records/cards, exact source and lossless fixture package. Large historical/runtime/source inputs remain explicitly external where not in root publication scope; this subset does not claim a hermetic archive or historical tool-origin authentication.",
+  "exclusion_reason": "The successful complete predicate dump and failed complete predicate dump are redundant bulky administrative logs, retained unmodified at their exact external identities. The compact publication includes full narrative/verdict, all 65 outcomes and failure oracles, exact read-input closure, all source checkers including original failed checker, actual commands, first failure/traceback and complete stream logs, final 1820-file rehash and scope limits.",
+  "external_only_preserved": [
+    {
+      "bytes": 20804532,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SAVED_CHECK.json",
+      "sha256": "1f0334a8da5bedd6507f45ced48ba5f0d42e766c3cb65cc6e71ebb14d74334e7"
+    },
+    {
+      "bytes": 9983435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FAILED_CHECK_01.json",
+      "sha256": "c1feee86e5258d8a32db61e18df1db35009cc0ab3230ed07dd4f8645e252a94b"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 3743,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/ACTUAL_REVIEWER_COMMANDS.json",
+      "sha256": "4fc1a359ab50b71386fdd0aebb2a2d16b196cdaa07aea6438b8b7aa33737b874"
+    },
+    {
+      "bytes": 1092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_01.stderr",
+      "sha256": "2c3ef6d1235e897ddf2674de575ec693462b2204c4f8ff2c2ecf6bbc242bbbae"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_01.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_02.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2574,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_02.stdout",
+      "sha256": "3557982aeeef7b94b78066a292a02386391dfbde5ebe0b7606fd91f31aded2e4"
+    },
+    {
+      "bytes": 2507,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FAILURE_DIAGNOSTIC.json",
+      "sha256": "7c826926e10dc660fd0d72539fcdab557c225dcf5939b8a29b43d42e9031dcb6"
+    },
+    {
+      "bytes": 605,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FINAL_INPUT_CUSTODY.json",
+      "sha256": "c94b2c9e23b04e8bceb9576f4b7e1f40abcdd84baba58f63f26e85c71f73ce94"
+    },
+    {
+      "bytes": 20637,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "sha256": "1ff14097b4608936cbaf16796465e7b48d22cecb5e279042768d9e43fdd85bad"
+    },
+    {
+      "bytes": 551043,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/READ_INPUT_IDENTITIES.json",
+      "sha256": "06f56f9f63e07a271869ce9c4676d087753eb95360a88e69869d9c43142c3c85"
+    },
+    {
+      "bytes": 2012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/REVIEWER_REUSE.json",
+      "sha256": "1b68dd82414d10ff6f561f1891c4f7df8a5f60a50a7d6d0958fe5b540eb8b4f9"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK.stdout",
+      "sha256": "d11c2ec382f8de013ec470a89247a95af7437b9489e6fddf035d1fc747e077e7"
+    },
+    {
+      "bytes": 1508,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SEAL_CHECK_TOOL.json",
+      "sha256": "e26035246593cc07253326a5e5663a42dbb8c3860d7f8246546ff6cfdd8c3b88"
+    },
+    {
+      "bytes": 42312,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SOURCE_ORACLE_COVERAGE.json",
+      "sha256": "db8208d2db79414ca08edc548f1872f601ccfdf39051766062034ed9d8fe45ec"
+    },
+    {
+      "bytes": 3106,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SUMMARY.json",
+      "sha256": "f8d082bbe2db41e74dec2c8797fddbeae5a25862178cd87da705f48c7d79f222"
+    },
+    {
+      "bytes": 2840,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/VERDICT.json",
+      "sha256": "45770ce8217d8f85993b8f20ebff4f06a5434a18b03a191c8642958f3509d11b"
+    },
+    {
+      "bytes": 55075,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.before-worker-custody-fields-fix.py",
+      "sha256": "8ff7aaab1102ebcadf95e13036965a60f0871b1b53d391a8d124016fd57c461b"
+    },
+    {
+      "bytes": 55125,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py",
+      "sha256": "929a8b79ceed7e23a420476efdc1e6c099b4f0a9c8aa11f228d63ae8ff8498a0"
+    },
+    {
+      "bytes": 3871,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/seal_review.py",
+      "sha256": "a9069796b52caf3df9378de022d3f63b3912867a880d0b5ec28c8b050211a1dc"
+    }
+  ],
+  "include_self_and_final_handoff": [
+    "PUBLICATION_SUBSET.json",
+    "HANDOFF.json"
+  ],
+  "omitted_scientific_results": false,
+  "schema": "ri152-independent-compact-publication-subset-v1"
+}
