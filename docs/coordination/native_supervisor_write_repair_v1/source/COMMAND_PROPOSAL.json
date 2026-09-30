@@ -1,0 +1,113 @@
+{
+  "schema": "ri169-fixed-supervisor-command-proposal-v1",
+  "status": "UNEXECUTED_REPAIR_REQUIRES_INDEPENDENT_REVIEW",
+  "argv": [
+    "/usr/bin/env",
+    "-i",
+    "LC_ALL=C",
+    "LANG=C",
+    "PATH=/usr/bin:/bin",
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-S",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py"
+  ],
+  "command_utf8": "exec /usr/bin/env -i LC_ALL=C LANG=C PATH=/usr/bin:/bin /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -S -B /Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+  "command_pin": {
+    "bytes": 280,
+    "sha256": "2a53221da6f452c158812f4472b160701153fec87f1d89e42f92bc1850d09455"
+  },
+  "tool_fields": {
+    "shell": "/bin/zsh",
+    "login": false,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence",
+    "yield_time_ms": 1000,
+    "max_output_tokens": 3000,
+    "cmd": "exec /usr/bin/env -i LC_ALL=C LANG=C PATH=/usr/bin:/bin /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -S -B /Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py"
+  },
+  "environment": {
+    "LANG": "C",
+    "LC_ALL": "C",
+    "PATH": "/usr/bin:/bin"
+  },
+  "unchanged_native_argv": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-S",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+    "--request",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+    "--request-sha256",
+    "bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749"
+  ],
+  "supervisor_source": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+    "bytes": 26321,
+    "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+  },
+  "unchanged_five_sources": {
+    "caller": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+      "bytes": 41969,
+      "sha256": "9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721"
+    },
+    "qualify": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/qualify_grid.py",
+      "bytes": 37082,
+      "sha256": "95a76ccf0a7c9ff50ce7bf98e24481d051b839378b87d888ae2c8d443e150653"
+    },
+    "fault": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/fault_cases.py",
+      "bytes": 30012,
+      "sha256": "70778a4c6e5c73c5f053770adf46bf5c51b2726b7e6fe9a05715d092a8ba48d8"
+    },
+    "checker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py",
+      "bytes": 16091,
+      "sha256": "cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982"
+    },
+    "auditor": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py",
+      "bytes": 22760,
+      "sha256": "aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277"
+    }
+  },
+  "unchanged_request": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+    "bytes": 2304,
+    "sha256": "bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749"
+  },
+  "proposed_paths": {
+    "admission": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-admission-0f632c815ef94824b7a160deb809c4ae.json",
+    "request": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+    "output_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-run-0f632c815ef94824b7a160deb809c4ae",
+    "outer_stdout": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stdout",
+    "outer_stderr": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stderr",
+    "outer_completion": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.completion.json",
+    "outer_processes": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.processes.jsonl"
+  },
+  "ordinary_supervisor_source_entry_bound_seconds": 315,
+  "pre_entry_and_kernel_limit": "Selected vendor startup/transitive supply and host/kernel premise external to this source timer; genuine outer tool return required.",
+  "capture_limits": {
+    "stdout_bytes": 8388608,
+    "stderr_bytes": 8388608,
+    "administrative_process_journal_bytes": 67108864
+  },
+  "separate_root_actions": [
+    "Fresh nonauthor RI169 source review and root disposition",
+    "admitted supervisor-only finite checks",
+    "RI164 native supplier closure/system premises",
+    "fresh source/host/request/path and one-shot admission",
+    "genuine dispatch and independent complete saved review"
+  ],
+  "retry_authority": false,
+  "acceptance_authority": "ROOT_EXTERNAL_ONLY",
+  "historical_path_observations_only": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/COMMAND_PROPOSAL.json",
+    "bytes": 7085,
+    "sha256": "1f6229619b89269a1da5ce0d2c1448410a222a1cdc040f91cc30d1e9a7b7ef53"
+  },
+  "operational_paths_reobserved_here": false
+}

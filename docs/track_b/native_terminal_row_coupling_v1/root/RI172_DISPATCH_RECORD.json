@@ -1,0 +1,14 @@
+{
+  "additional_review": "separate concurrence being sealed, not required for root own independent mathematical disposition",
+  "assignment": {
+    "bytes": 3590,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI172_NATIVE_ASSIGNMENT.json",
+    "sha256": "1735bba8da2e699a7e9e7ab79b38cec9113735a10978f9a015c150dcb516ea1d"
+  },
+  "dispatched_after_root_adjudication": true,
+  "is_error": false,
+  "returned_thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "schema": "ri172-native-dispatch-v1",
+  "scientific_execution_authorized": false,
+  "tool": "mcp__codex_app__send_message_to_thread"
+}

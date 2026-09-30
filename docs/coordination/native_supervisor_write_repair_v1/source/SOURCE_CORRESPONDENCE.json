@@ -1,0 +1,52 @@
+{
+  "schema": "ri169-literal-source-correspondence-v1",
+  "method": "Literal text only; no Python parser, compiler, AST or import. Function spans located by column-zero def text.",
+  "predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/supervise_native.py",
+    "bytes": 26254,
+    "sha256": "507c3c64e075d736e06dcc9a54f1261aed4d5f5c2211bb64d4b9f29732fec499"
+  },
+  "successor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+    "bytes": 26321,
+    "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+  },
+  "original_lines": 586,
+  "repaired_lines": 588,
+  "changed_function": "supervise",
+  "changed_nested_function": "drain",
+  "unchanged_global_functions": [
+    "need",
+    "canonical",
+    "error",
+    "write_all",
+    "new_file",
+    "sync_base",
+    "readback",
+    "clear_child_timer",
+    "hard_stop",
+    "stop_pipe",
+    "readable_names",
+    "process_snapshot",
+    "discover",
+    "signal_observed"
+  ],
+  "old_drain": "    def drain(failed):\n        for name in readable_names(selector, active, failed, deadline, 0.05, pump_issue):\n            try:\n                chunk = os.read(pipes[name].fileno(), min(65536, CAP + 1 - counts[name]))\n                if not chunk:\n                    streams[name]['eof'] = True\n                    stop_pipe(name, pipes, active, closed, selector, pump_issue)\n                    continue\n                room = CAP - counts[name]\n                kept = chunk[:room]\n                write_all(fds[name], kept)\n                counts[name] += len(kept)\n                digests[name].update(kept)\n                if len(chunk) > room:\n                    streams[name]['overflow_byte'] = chunk[room]\n                    error(errors, 'capture:' + name, Refusal('8 MiB outer stream cap'))\n                    stop_pipe(name, pipes, active, closed, selector, pump_issue)\n            except BlockingIOError:\n                continue\n            except Exception as exc:\n                error(errors, 'pump:' + name, exc)\n                stop_pipe(name, pipes, active, closed, selector, pump_issue)\n",
+  "new_drain": "    def drain(failed):\n        for name in readable_names(selector, active, failed, deadline, 0.05, pump_issue):\n            try:\n                read_fd = pipes[name].fileno()\n                try:\n                    chunk = os.read(read_fd, min(65536, CAP + 1 - counts[name]))\n                except BlockingIOError:\n                    continue\n                if not chunk:\n                    streams[name]['eof'] = True\n                    stop_pipe(name, pipes, active, closed, selector, pump_issue)\n                    continue\n                room = CAP - counts[name]\n                kept = chunk[:room]\n                write_all(fds[name], kept)\n                counts[name] += len(kept)\n                digests[name].update(kept)\n                if len(chunk) > room:\n                    streams[name]['overflow_byte'] = chunk[room]\n                    error(errors, 'capture:' + name, Refusal('8 MiB outer stream cap'))\n                    stop_pipe(name, pipes, active, closed, selector, pump_issue)\n            except Exception as exc:\n                error(errors, 'pump:' + name, exc)\n                stop_pipe(name, pipes, active, closed, selector, pump_issue)\n",
+  "whole_reverse_projection_bytes": 26254,
+  "whole_reverse_projection_sha256": "507c3c64e075d736e06dcc9a54f1261aed4d5f5c2211bb64d4b9f29732fec499",
+  "reverse_projection_equals_entire_predecessor": true,
+  "all_other_source_identical": true,
+  "retained_header": "RI167 historical source title deliberately unchanged; this packet/source pin identify RI169.",
+  "retained_recipe_file": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/FOCUSED_VARIANTS.json",
+    "bytes": 17575,
+    "sha256": "d684c1b3ee8b9f586de3583557a65b3c924fe895214a16859644ba93b6317fc4"
+  },
+  "retained_group_file": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SUPERVISOR_CHECKS.md",
+    "bytes": 6745,
+    "sha256": "011169b3a50bb47903a8578fa692dd2d4204ff2b0cc71cda02f8c44c256a6f23"
+  },
+  "subject_execution": false
+}

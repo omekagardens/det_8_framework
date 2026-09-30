@@ -1,0 +1,271 @@
+{
+  "RET": "paused",
+  "actual_copy_or_capture": false,
+  "complete_independent_proposal_review": false,
+  "identities": [
+    {
+      "bytes": 8755,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/SOURCE_ONLY_HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/SOURCE_ONLY_HANDOFF.json",
+      "sha256": "8d3cfce3b18ac346a0dab3449de3eee686c5965957e4188933604dd392d66fce",
+      "state": [
+        16777244,
+        417947,
+        33188,
+        1,
+        8755,
+        1790801803163115114,
+        1790801803163115114
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4225,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/AUTHORING_RECORD.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/AUTHORING_RECORD.md",
+      "sha256": "9ec355862004c968e95bc1f831abea694ad01f28cc5b771e695fe69ed0acb653",
+      "state": [
+        16777244,
+        417946,
+        33188,
+        1,
+        4225,
+        1790801803134688338,
+        1790801803134688338
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 858,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/CHECKER_REPAIR.diff",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/CHECKER_REPAIR.diff",
+      "sha256": "5ac92372bc3c8b21584ed76d70cec1739e53f19f9a17669f40b2c0f931888cbb",
+      "state": [
+        16777244,
+        417935,
+        33188,
+        1,
+        858,
+        1790801707139858974,
+        1790801707139858974
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1557,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/CHECKER_REPAIR.second.diff",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/CHECKER_REPAIR.second.diff",
+      "sha256": "8fc8792f8f7e52b61e746aa6b53044aa23c203a4e60bd52940e7221ad7e55b95",
+      "state": [
+        16777244,
+        417940,
+        33188,
+        1,
+        1557,
+        1790801737793716725,
+        1790801737793716725
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 420328,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/CHECK_FAILURE.initial.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/CHECK_FAILURE.initial.json",
+      "sha256": "fd6bfcb7b748dbca1f7b6e84bea2d574ac2200702c142fc4fc0cf3190874f5ed",
+      "state": [
+        16777244,
+        417933,
+        33188,
+        1,
+        420328,
+        1790801686056620560,
+        1790801686056620560
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 843,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/CHECK_FAILURE.second.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/CHECK_FAILURE.second.json",
+      "sha256": "af0a775b33f912cf7a4f46ea4008cb3d982d50c1e7c5bac24d2e8124a852ddb3",
+      "state": [
+        16777244,
+        417939,
+        33188,
+        1,
+        843,
+        1790801737793280515,
+        1790801737793280515
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 22588,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/COMMAND_PROPOSALS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/COMMAND_PROPOSALS.json",
+      "sha256": "7ea3f44ceb02a4532dfc32554cff418f60b2dfd468641876212f50bf7d29a9ad",
+      "state": [
+        16777244,
+        417900,
+        33188,
+        1,
+        22588,
+        1790801217203909523,
+        1790801217203909523
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2440,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/COPY_BOOTSTRAP.proposal.txt",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/COPY_BOOTSTRAP.proposal.txt",
+      "sha256": "c1f5394d34341775d060194c034b570c6551d37ceb3a017f9f0860bb188fb9bf",
+      "state": [
+        16777244,
+        417899,
+        33188,
+        1,
+        2440,
+        1790801217161550347,
+        1790801217161550347
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16387,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "sha256": "366f64b8f432412f91e3901ccb54ff375d303b53444d740d24ac17a2277a39c0",
+      "state": [
+        16777244,
+        417920,
+        33188,
+        1,
+        16387,
+        1790801342717425974,
+        1790801342717425974
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3504,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/METADATA_CHECK.json",
+      "sha256": "9fb3778a438c094e45c1111a59e1ad91edb4b4dbe8d713091e5fdcbb6f3f2022",
+      "state": [
+        16777244,
+        417941,
+        33188,
+        1,
+        3504,
+        1790801737931419791,
+        1790801737931419791
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13135,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/PREFLIGHT_PROPOSAL.initial.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/PREFLIGHT_PROPOSAL.initial.json",
+      "sha256": "8ac39ba19e05f261ba0e1cc5d743889896d4bfbf5d537eb80202f82585a089c9",
+      "state": [
+        16777244,
+        417931,
+        33188,
+        1,
+        13135,
+        1790801685885431817,
+        1790801685885431817
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13152,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/PREFLIGHT_PROPOSAL.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/PREFLIGHT_PROPOSAL.json",
+      "sha256": "483b9862e18959646cc0518daf8a21b6b2f4d5240f59416a2829fe7474566585",
+      "state": [
+        16777244,
+        417902,
+        33188,
+        1,
+        13152,
+        1790801685885730443,
+        1790801685885730443
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7415,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/REFERENCE_BINDINGS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/REFERENCE_BINDINGS.json",
+      "sha256": "5ca78c6bdcbdd169c7e7bd2450fe852450a4591e5f479450b74139759af36083",
+      "state": [
+        16777244,
+        417901,
+        33188,
+        1,
+        7415,
+        1790801217205275933,
+        1790801217205275933
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11600,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/check_preflight_metadata.initial.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/check_preflight_metadata.initial.py",
+      "sha256": "67cae22c863f2baa592d7ec61cd1c030a4d14dcee562f39304c3a432a12afb3f",
+      "state": [
+        16777244,
+        417934,
+        33188,
+        1,
+        11600,
+        1790801707139173221,
+        1790801707139173221
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11975,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/check_preflight_metadata.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/check_preflight_metadata.py",
+      "sha256": "85d49fc46725dd74c15aa3ceb7e9b566bb36ca87ed123819304c6e23739e37cd",
+      "state": [
+        16777244,
+        417932,
+        33188,
+        1,
+        11975,
+        1790801737793405432,
+        1790801737793405432
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11756,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/check_preflight_metadata.second.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/check_preflight_metadata.second.py",
+      "sha256": "e414db5bb1b967030c0b04a209694f27dc3d9051c35bc073d54b8831edcc6852",
+      "state": [
+        16777244,
+        417938,
+        33188,
+        1,
+        11756,
+        1790801737793045680,
+        1790801737793045680
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "next": "Root review FIELD_CONTRACT and concrete source gates, then correct accepted106 qualification interface and exact-copy-only prerequisites; no repeat106.",
+  "schema": "ri170-received-pending-root-review-v1",
+  "status": "SEALED_PROPOSAL_RECEIVED_NOT_ACCEPTED",
+  "subject": {
+    "bytes": 8755,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/SOURCE_ONLY_HANDOFF.json",
+    "sha256": "8d3cfce3b18ac346a0dab3449de3eee686c5965957e4188933604dd392d66fce"
+  }
+}

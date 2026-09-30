@@ -1,0 +1,186 @@
+{
+  "schema": "ri169-supervisor-would-block-repair-handoff-v1",
+  "status": "SEALED_UNEXECUTED_SOURCE_FOR_FRESH_ROOT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay",
+  "owner": "/root/ri116_complete_caller_review",
+  "authorship": "Same author as RI165/RI167; not independent acceptance. No delegates.",
+  "namespace": [
+    "ADMIN_TOOL_RECORDS.json",
+    "ASSIGNMENT_AUTHENTICATION.json",
+    "AUTHOR_RECORD.md",
+    "COMMAND_PROPOSAL.json",
+    "DEPENDENCY_BINDINGS.json",
+    "FAILED_ADMIN_TOOL.json",
+    "FINAL_CHECK.json",
+    "FOCUSED_VARIANTS.json",
+    "HANDOFF.json",
+    "METADATA_CHECK.json",
+    "PUBLICATION_SUBSET.json",
+    "REPAIR_CONTRACT.md",
+    "SOURCE_CORRESPONDENCE.json",
+    "SOURCE_DIFF.patch",
+    "SUPERVISOR_CHECKS.md",
+    "WRITE_READ_VARIANTS.json",
+    "author_repair.mjs",
+    "finish_metadata.mjs",
+    "seal_metadata.mjs",
+    "supervise_native.py"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/ADMIN_TOOL_RECORDS.json",
+      "bytes": 2293,
+      "sha256": "50b8fa4e343071359e56e4e3bf9c4a01e55cdad0b4e62c521c36e4303999904d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/ASSIGNMENT_AUTHENTICATION.json",
+      "bytes": 5855,
+      "sha256": "f873351adc507f1132681307034e6a5ad353875256710679266412ea775a39d9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/AUTHOR_RECORD.md",
+      "bytes": 2486,
+      "sha256": "f4e311b84cf668621609e8d8ee5abff4c82004043d86a3c478c8502eed1ff685"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/COMMAND_PROPOSAL.json",
+      "bytes": 5947,
+      "sha256": "8f7afa7067606b42e0374f089420937f4e4bb250857398ebf61d56c7c62d1236"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/DEPENDENCY_BINDINGS.json",
+      "bytes": 7553,
+      "sha256": "bca19f2b239c7da798ff7ee13ba77a6f2d60a59e564e3236fd8c3204ca5c5f6d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/FAILED_ADMIN_TOOL.json",
+      "bytes": 1579,
+      "sha256": "4ccda83de63478d5f1e56ad22f4db60a3d9f96c0853b87243d0e23292dee469d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/FINAL_CHECK.json",
+      "bytes": 5682,
+      "sha256": "f818a056a9b8c16f4bd091b564b4b1f019488e90294b4fa5f3c942b4156e4210"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/FOCUSED_VARIANTS.json",
+      "bytes": 17575,
+      "sha256": "d684c1b3ee8b9f586de3583557a65b3c924fe895214a16859644ba93b6317fc4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/METADATA_CHECK.json",
+      "bytes": 1001,
+      "sha256": "ad8f9948c87cc2d1d9a6059f06cf1b5bdb0dfee4316570ac52dce0f77b72a4cd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/PUBLICATION_SUBSET.json",
+      "bytes": 990,
+      "sha256": "4bad314b83b94a1bc30c4c8f90607bcde02c5a00536cdef3a6d0394818881ab2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/REPAIR_CONTRACT.md",
+      "bytes": 6165,
+      "sha256": "e761221c00ee74228922da2f3c1ddefd7ee1368f6b63cad27b4fa1bc763a8d47"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/SOURCE_CORRESPONDENCE.json",
+      "bytes": 4372,
+      "sha256": "50942d2edae68198c291f1291599b403de6ef64a39e7903fde074ba1b28f9de7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/SOURCE_DIFF.patch",
+      "bytes": 1384,
+      "sha256": "91570f5b35ccdeeda676aa608884fec07475a62e6083893a7c2038872f02af07"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/SUPERVISOR_CHECKS.md",
+      "bytes": 6745,
+      "sha256": "011169b3a50bb47903a8578fa692dd2d4204ff2b0cc71cda02f8c44c256a6f23"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/WRITE_READ_VARIANTS.json",
+      "bytes": 11669,
+      "sha256": "885ccd92a2db93baddf5ed8a5bea21c8582278fbf36879b70013e53d16af6bfa"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/author_repair.mjs",
+      "bytes": 11153,
+      "sha256": "6a9a1980aa4182a775d9c239a3c93fffbd865e97e70276a269d5d4355718fa0a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/finish_metadata.mjs",
+      "bytes": 3814,
+      "sha256": "63cf5247f28e49a3d9bd8897c4bc4430c826270700884781a9c09da58a57bada"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/seal_metadata.mjs",
+      "bytes": 6192,
+      "sha256": "208e9434ee89c93945fe8edff2cc524003ade0083063c2a283528d1e605ac8b1"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+      "bytes": 26321,
+      "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+    }
+  ],
+  "source": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+    "bytes": 26321,
+    "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+  },
+  "source_lines": 588,
+  "predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/HANDOFF.json",
+    "bytes": 11003,
+    "sha256": "ed3fabd4789e665965143455d70bb12f4b9285e51b8c862c7b6aa05b7d43f30c"
+  },
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-root-supervisor-review-7tjkgvn6/RI169_REPAIR_ASSIGNMENT.json",
+    "bytes": 1679,
+    "sha256": "c7e82a6a4f931f3e1c279d6149c69dee0314ab982fb96148619bca7d0232b21f"
+  },
+  "root_predecessor_disposition": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-root-supervisor-review-7tjkgvn6/RI167_ROOT_ADJUDICATION.json",
+    "bytes": 1875,
+    "sha256": "a58cf5004a3344e40e700257756a9b93099e42c82121a3409033f4f440f59957"
+  },
+  "change": "Only nested caller drain in supervise: fileno outside inner catch; silent BlockingIOError retry only around os.read; output write errors use unchanged pump-error/stop_pipe path.",
+  "whole_reverse_projection": true,
+  "unchanged_global_functions": 14,
+  "global_functions": 15,
+  "ps_pump_unchanged": true,
+  "groups": 13,
+  "retained_exact_recipes": 28,
+  "added_unexecuted_recipes": 6,
+  "prospective_recipe_total": 34,
+  "actual_supervisor_or_fixture_checks": 0,
+  "actual_subject_vendor_helper_ps_execution": false,
+  "source_import_compile_AST_probe": false,
+  "source_parser_used": false,
+  "admin_runtime": "Node only, shell text/diff utilities",
+  "fresh_original_count": 26,
+  "inherited_reference_entries": 325,
+  "inherited_reference_count_is_fresh_runtime_qualification": false,
+  "request": "Unchanged proposed pin; absent at failed Node admin read7ea6db. No request bytes created or authenticated here; root must establish operational prerequisites.",
+  "retained_failure": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/FAILED_ADMIN_TOOL.json",
+    "bytes": 1579,
+    "sha256": "4ccda83de63478d5f1e56ad22f4db60a3d9f96c0853b87243d0e23292dee469d"
+  },
+  "preserved_prior_author_startup_deviation": true,
+  "prior_deviation_credit": 0,
+  "thresholds_unchanged": true,
+  "outer_seconds": 315,
+  "stream_bytes_each": 8388608,
+  "repo_git_new_agents": false,
+  "actual_operational_cards_or_attempts": false,
+  "scientific_decode": false,
+  "remaining": [
+    "Fresh complete independent source review/root decision",
+    "Separately admitted actual supervisor-only checks, including precise new would-block and inherited13/28 obligations",
+    "Root current source/host/vendor/request/path/supplier prerequisites and one-shot genuine actual operation",
+    "Complete genuine tool-origin/custody/tail review, exact native qualification and saved mathematical audit remain separate; observed groups are not complete fork coverage"
+  ],
+  "RET": "paused",
+  "immutable_after_seal": true
+}

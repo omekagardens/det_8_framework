@@ -1,0 +1,283 @@
+{
+  "schema": "ri167-focused-supervisor-check-recipes-v1",
+  "status": "SOURCE_ONLY_NOT_FIXTURES_NOT_EXECUTED",
+  "retained_groups": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "added_recipe_count": 28,
+  "variants": [
+    {
+      "id": "S04.stdout.read",
+      "group": "S04",
+      "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+      "setup": "Both sibling payloads already available; fail stdout read at its first pump operation.",
+      "first_error": "pump:stdout / OSError / RI167_F01_READ",
+      "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.write",
+      "group": "S04",
+      "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+      "setup": "Both sibling payloads already available; fail stdout write at its first pump operation.",
+      "first_error": "pump:stdout / OSError / RI167_F01_WRITE",
+      "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.partial_write",
+      "group": "S04",
+      "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+      "setup": "Both sibling payloads already available; fail stdout partial_write after actually writing17 bytes of a64-byte chunk.",
+      "first_error": "pump:stdout / OSError / RI167_F01_PARTIAL_WRITE",
+      "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.short_write",
+      "group": "S04",
+      "scope": "Whole supervisor inert command plus short-write double",
+      "setup": "Return positive short writes until the original64-byte chunk fully completes on stdout.",
+      "first_error": "none from pump; nonempty stderr still invokes inherited outer rejection",
+      "oracle": "Exact full intended write and hash; no fabricated pump error. Positive pump coverage is distinct from whole outer acceptance.",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.read",
+      "group": "S04",
+      "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+      "setup": "Both sibling payloads already available; fail stderr read at its first pump operation.",
+      "first_error": "pump:stderr / OSError / RI167_F01_READ",
+      "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.write",
+      "group": "S04",
+      "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+      "setup": "Both sibling payloads already available; fail stderr write at its first pump operation.",
+      "first_error": "pump:stderr / OSError / RI167_F01_WRITE",
+      "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.partial_write",
+      "group": "S04",
+      "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+      "setup": "Both sibling payloads already available; fail stderr partial_write after actually writing17 bytes of a64-byte chunk.",
+      "first_error": "pump:stderr / OSError / RI167_F01_PARTIAL_WRITE",
+      "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.short_write",
+      "group": "S04",
+      "scope": "Whole supervisor inert command plus short-write double",
+      "setup": "Return positive short writes until the original64-byte chunk fully completes on stderr.",
+      "first_error": "none from pump; nonempty stderr still invokes inherited outer rejection",
+      "oracle": "Exact full intended write and hash; no fabricated pump error. Positive pump coverage is distinct from whole outer acceptance.",
+      "executed": false
+    },
+    {
+      "id": "S05.caller.stdout.registration",
+      "group": "S05",
+      "scope": "Whole inert supervisor for caller; exact process_snapshot for ps with declared observer doubles",
+      "setup": "Both handles already acquired. Fail stdout registration after registrar has installed the key, with the other sibling already readable.",
+      "first_error": "register:stdout (ps prefix for observer) / OSError / RI167_F01_REGISTER",
+      "oracle": "Unregister attempted despite partial registration; close attempted; sibling registration and drain continue; every acquired handle retained for final close.",
+      "executed": false
+    },
+    {
+      "id": "S05.caller.stderr.registration",
+      "group": "S05",
+      "scope": "Whole inert supervisor for caller; exact process_snapshot for ps with declared observer doubles",
+      "setup": "Both handles already acquired. Fail stderr registration after registrar has installed the key, with the other sibling already readable.",
+      "first_error": "register:stderr (ps prefix for observer) / OSError / RI167_F01_REGISTER",
+      "oracle": "Unregister attempted despite partial registration; close attempted; sibling registration and drain continue; every acquired handle retained for final close.",
+      "executed": false
+    },
+    {
+      "id": "S05.ps.stdout.registration",
+      "group": "S05",
+      "scope": "Whole inert supervisor for caller; exact process_snapshot for ps with declared observer doubles",
+      "setup": "Both handles already acquired. Fail stdout registration after registrar has installed the key, with the other sibling already readable.",
+      "first_error": "register:stdout (ps prefix for observer) / OSError / RI167_F01_REGISTER",
+      "oracle": "Unregister attempted despite partial registration; close attempted; sibling registration and drain continue; every acquired handle retained for final close.",
+      "executed": false
+    },
+    {
+      "id": "S05.ps.stderr.registration",
+      "group": "S05",
+      "scope": "Whole inert supervisor for caller; exact process_snapshot for ps with declared observer doubles",
+      "setup": "Both handles already acquired. Fail stderr registration after registrar has installed the key, with the other sibling already readable.",
+      "first_error": "register:stderr (ps prefix for observer) / OSError / RI167_F01_REGISTER",
+      "oracle": "Unregister attempted despite partial registration; close attempted; sibling registration and drain continue; every acquired handle retained for final close.",
+      "executed": false
+    },
+    {
+      "id": "S05.ps.stdout.read",
+      "group": "S05",
+      "scope": "Exact ps helper with inert observer and explicit read double",
+      "setup": "Both ps streams ready; fail stdout read with OSError.",
+      "first_error": "ps pump:stdout: OSError: RI167_F01_READ",
+      "oracle": "Healthy raw buffer reaches exact expected bytes/EOF; observer kill/reap still attempted within original finish_end; failed observation never accepted.",
+      "executed": false
+    },
+    {
+      "id": "S05.ps.stderr.read",
+      "group": "S05",
+      "scope": "Exact ps helper with inert observer and explicit read double",
+      "setup": "Both ps streams ready; fail stderr read with OSError.",
+      "first_error": "ps pump:stderr: OSError: RI167_F01_READ",
+      "oracle": "Healthy raw buffer reaches exact expected bytes/EOF; observer kill/reap still attempted within original finish_end; failed observation never accepted.",
+      "executed": false
+    },
+    {
+      "id": "S05.fallback.alive",
+      "group": "S05",
+      "scope": "Whole supervisor inert caller with explicitly failed ps observer",
+      "setup": "First and cleanup observer calls fail before usable table; caller is alive.",
+      "first_error": "supervision with original ps failure retained",
+      "oracle": "Fallback owned kill attempted only when not already reaped; explicit subsequent poll records actual code/reap independently, healthy streams drained; observed_cleanup stays false.",
+      "executed": false
+    },
+    {
+      "id": "S05.fallback.already_exited",
+      "group": "S05",
+      "scope": "Whole supervisor inert caller with explicitly failed ps observer",
+      "setup": "First and cleanup observer calls fail before usable table; caller is already_exited.",
+      "first_error": "supervision with original ps failure retained",
+      "oracle": "Fallback owned kill attempted only when not already reaped; explicit subsequent poll records actual code/reap independently, healthy streams drained; observed_cleanup stays false.",
+      "executed": false
+    },
+    {
+      "id": "S10.caller.stdout.unregister_close",
+      "group": "S10",
+      "scope": "Whole inert caller or exact inert ps helper; declared read/unregister/close doubles",
+      "setup": "Fail stdout read first, then fail its unregister and first close; healthy sibling already ready.",
+      "first_error": "pump:stdout with ps prefix where applicable / OSError / RI167_F01_READ",
+      "oracle": "First read error remains first; both cleanup failures retained; failed pump disabled; healthy sibling continues using nonblocking attempts without damaged selector; failed close retried independently at final tail, successful closes not repeated.",
+      "executed": false
+    },
+    {
+      "id": "S10.caller.stderr.unregister_close",
+      "group": "S10",
+      "scope": "Whole inert caller or exact inert ps helper; declared read/unregister/close doubles",
+      "setup": "Fail stderr read first, then fail its unregister and first close; healthy sibling already ready.",
+      "first_error": "pump:stderr with ps prefix where applicable / OSError / RI167_F01_READ",
+      "oracle": "First read error remains first; both cleanup failures retained; failed pump disabled; healthy sibling continues using nonblocking attempts without damaged selector; failed close retried independently at final tail, successful closes not repeated.",
+      "executed": false
+    },
+    {
+      "id": "S10.ps.stdout.unregister_close",
+      "group": "S10",
+      "scope": "Whole inert caller or exact inert ps helper; declared read/unregister/close doubles",
+      "setup": "Fail stdout read first, then fail its unregister and first close; healthy sibling already ready.",
+      "first_error": "pump:stdout with ps prefix where applicable / OSError / RI167_F01_READ",
+      "oracle": "First read error remains first; both cleanup failures retained; failed pump disabled; healthy sibling continues using nonblocking attempts without damaged selector; failed close retried independently at final tail, successful closes not repeated.",
+      "executed": false
+    },
+    {
+      "id": "S10.ps.stderr.unregister_close",
+      "group": "S10",
+      "scope": "Whole inert caller or exact inert ps helper; declared read/unregister/close doubles",
+      "setup": "Fail stderr read first, then fail its unregister and first close; healthy sibling already ready.",
+      "first_error": "pump:stderr with ps prefix where applicable / OSError / RI167_F01_READ",
+      "oracle": "First read error remains first; both cleanup failures retained; failed pump disabled; healthy sibling continues using nonblocking attempts without damaged selector; failed close retried independently at final tail, successful closes not repeated.",
+      "executed": false
+    },
+    {
+      "id": "S10.journal.alive",
+      "group": "S10",
+      "scope": "Whole supervisor with inert caller and journal-write double",
+      "setup": "Observer completes raw capture, journal fails after a partial write; caller alive.",
+      "first_error": "supervision with original ps journal failure retained",
+      "oracle": "Partial journal retained; independent owned kill/poll/reap and healthy drain occur despite repeated journal failure; no cleanup or qualification credit.",
+      "executed": false
+    },
+    {
+      "id": "S10.journal.already_exited",
+      "group": "S10",
+      "scope": "Whole supervisor with inert caller and journal-write double",
+      "setup": "Observer completes raw capture, journal fails after a partial write; caller already_exited.",
+      "first_error": "supervision with original ps journal failure retained",
+      "oracle": "Partial journal retained; independent owned kill/poll/reap and healthy drain occur despite repeated journal failure; no cleanup or qualification credit.",
+      "executed": false
+    },
+    {
+      "id": "S13.observer.kill_failure",
+      "group": "S13",
+      "scope": "Whole supervisor inert caller with declared early observer/journal and kill doubles",
+      "setup": "Early observer failure; direct kill reports OSError; caller later really exits.",
+      "first_error": "original observer failure; direct_handle_kill secondary",
+      "oracle": "Actual poll observes real exit despite kill failure; healthy stream capture continues; original failure and cleanup uncertainty remain.",
+      "executed": false
+    },
+    {
+      "id": "S13.observer.nonreap",
+      "group": "S13",
+      "scope": "Whole supervisor inert caller with explicit nonreap double and separately owned recovery",
+      "setup": "Early observer failure followed by no owned reap before original deadline.",
+      "first_error": "original observer failure",
+      "oracle": "No new cleanup time or code invention; actual315-second timeout/missing tail rejects, or explicit original-deadline incomplete-reap error if saved. Any shortened-time double is branch-only credit.",
+      "executed": false
+    },
+    {
+      "id": "S13.journal.kill_failure",
+      "group": "S13",
+      "scope": "Whole supervisor inert caller with declared early observer/journal and kill doubles",
+      "setup": "Early journal failure; direct kill reports OSError; caller later really exits.",
+      "first_error": "original journal failure; direct_handle_kill secondary",
+      "oracle": "Actual poll observes real exit despite kill failure; healthy stream capture continues; original failure and cleanup uncertainty remain.",
+      "executed": false
+    },
+    {
+      "id": "S13.journal.nonreap",
+      "group": "S13",
+      "scope": "Whole supervisor inert caller with explicit nonreap double and separately owned recovery",
+      "setup": "Early journal failure followed by no owned reap before original deadline.",
+      "first_error": "original journal failure",
+      "oracle": "No new cleanup time or code invention; actual315-second timeout/missing tail rejects, or explicit original-deadline incomplete-reap error if saved. Any shortened-time double is branch-only credit.",
+      "executed": false
+    },
+    {
+      "id": "S13.poll_unavailable",
+      "group": "S13",
+      "scope": "Whole inert supervisor with declared one poll exception",
+      "setup": "Early observer failure, successful fallback kill attempt, then poll raises OSError; healthy sibling already buffered.",
+      "first_error": "original observer failure; direct_handle_reap secondary",
+      "oracle": "Poll failure explicitly retained, healthy drain continues; no reap inferred from signal or Popen field; final failed uncertainty retained.",
+      "executed": false
+    },
+    {
+      "id": "S13.deadline_exhausted",
+      "group": "S13",
+      "scope": "Direct finally boundary with explicitly exhausted original clock, no genuine315-second credit",
+      "setup": "Enter fallback with no original budget left.",
+      "first_error": "original observer/journal failure",
+      "oracle": "No ordinary wait extension, no synthetic returncode/reap/cleanup. Hard timer/final failure remains rejecting.",
+      "executed": false
+    }
+  ],
+  "scope_boundary": "Root must separately author/admit any exact inert execution or doubles. No native/real process/fixture outcome supplied by recipes.",
+  "original_limits_unchanged": true,
+  "first_error_coordinates": {
+    "caller_pump_or_setup": "Outer receipt errors[0] at the specified exact stage, with injected actual type/message; subsequent cleanup errors append.",
+    "direct_ps_helper": "Raw observer journal errors[0] string begins with the specified ps stage. Its raised Refusal keeps that first string before any later observer-tail errors.",
+    "outer_with_failed_ps": "Outer errors[0].stage is supervision and its message retains the first ps issue; direct helper journal oracle and outer wrapping are separate.",
+    "fallback": "Keep first observer/journal supervision error. direct_handle_kill/direct_handle_reap append as secondary only; actual returncode/reaped fields require genuine poll observation.",
+    "positive_pump": "No pump error. A separate inherited nonempty-stderr rejection is required where the positive pump case writes stderr; it is not overall acceptance."
+  }
+}

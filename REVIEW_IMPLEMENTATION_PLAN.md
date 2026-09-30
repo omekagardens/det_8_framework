@@ -1,61 +1,63 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 30 September 2026 UTC.** Independent RI167 source review
-confirms the improved pipe ownership and bounded direct-child reap, but finds
-one blocking write-error gap. A write-side BlockingIOError shares the silent
-nonblocking-read handler; after a successful input read this can discard the
-chunk without recording an error. A zero-progress write followed by clean EOF
-can leave mutually matching empty capture/count/hash and a success-shaped outer
-receipt. This is a manual source-path counterexample under an explicit I/O fault
-model, not an observed filesystem incident. Source and qualification acceptance
-remain withheld. Evidence is in `docs/coordination/native_supervisor_repair_review_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** RI168's complete terminal
+incidence and exact contrast corridor are independently accepted. The selected
+six components occupy 72 raw / 38 canonical rows, 92 raw / 56 canonical ideal
+occurrences and 104 raw diamonds. The full families contain 2, 4 and 8 graph
+components. Inherited actual record transport equates some values across
+distinct components; it does not merge them or impose root-flip symmetry.
 
-Root read all 586 source lines, the contract, command, 13 retained groups and
-28 focused recipes. Check 5ba0ee (exit 0) freshly reconciles the 18-file sealed
-packet, 33 original bindings, 325 inherited references and exact whole-source
-reverse projection. Eleven original functions, the five native source roles,
-request and final file/receipt tails remain unchanged. The root's initial span
-framing mismatch and its correction are retained as administrative diagnostics.
-No supervisor, vendor, observer, fixture or native qualification was executed.
+Complete C4/V4/T4 rows retain the same shared z column. With d=b0-b1>0,
+C=c1-c0 and the defined alternative-row contrast K, the desired reverse bound
+is exactly equivalent to C>=-212d and
+-26158d-41C<=K<=26117d+82C. Neither a d-relative bound nor a full-law
+counterexample follows. The full fixed vector and higher same-law constraints
+remain unresolved. Root's manual review and fresh 272-identity check accompany
+the independent nonauthor review in `docs/track_b/native_terminal_row_coupling_v1/`.
 
-RI-169 assigns the existing author only the read/write exception separation in
-`ri169-write-would-block-repair-7_868hay/`. Preserve all RI167 repairs and limits;
-add both streams' zero-progress and partial-prefix write exceptions plus a
-transient-read control. The successor requires fresh independent review before
-any actual supervisor qualification. RI167 and all earlier diagnostics remain
-immutable and external; this checkpoint publishes the review, not blocked source.
+RI-172 assigns the existing Quantum Relativity task the next analytic decision:
+prove or refute an explicitly delimited nonimplication for the complete
+size-four row/ratio/floor/height system by a shared core-component perturbation.
+Keep every global occurrence and full mark cube. Any changed coefficient family
+must remain distinct from the actual fixed vector and later canonical/polynomial
+constraints. This is a new candidate, not an already accepted theorem.
 
-The existing Quantum Relativity task continues RI-168 in
-`ri168-terminal-row-coupling-f50p8xyj/`, tracing all marked-row couplings of the
-six native components through maximal deletion and alternative parents. RI166's
-exact normalization/halfspace equivalences and enumerated local counterexample
-remain accepted in verified 44188f4. The full native-law bound, complete row
-extension, same-law M5/canonical construction and actual 109-vector remain open.
-No record-flip symmetry or universal coefficient grid is assumed.
+RI169 independently closes the supervisor write-error gap at source level.
+Only os.read can silently retry BlockingIOError; write failures now retain the
+original pump error and reject, including zero-progress empty captures. Root
+read all 588 lines and independently verified exact whole-source reversal to
+RI167, fourteen unchanged global functions, all thirteen groups / 28 retained
+recipes and six added unexecuted recipes. The source and review are in
+`docs/coordination/native_supervisor_write_repair_v1/`. Prior failures remain
+immutable; no supervisor or native qualification ran.
 
-Measurement's actual 106-control inert qualification remains independently
-accepted in verified 44188f4. RI-170 now assigns the existing measurement worker
-the exact next current-E capture/baseline/profile proposal in
-`ri170-measurement-current-e-preflight-gikj2giy/`, including consumer-required
-qualification/card bindings and prerequisites. It is source-only preflight,
-not runtime capture or an operational admission. Do not restart the completed
-controls. Actual R01 applicability, genuine normal-before-optimized WHITE15,
-complete 27/13/30 records, 57 artifacts, 74 postchecks, three trees and independent
-saved arithmetic remain separate. No scientific or GWOSC reproduction credit
-comes from inert metadata controls.
+RI-171 is active with the existing worker in
+`ri171-supervisor-qualification-source-zksymhs1/`, implementing the executable
+finite supervisor-only cases and a separate saved-outcome checker. Its sources
+require review before actual root admission. Real processes, declared fault
+doubles and full-clock evidence remain distinct. The initial worker dispatch
+hit the agent limit; delivery succeeded after the measurement worker finished.
 
-Preserve native 315-second supervision, 300/120/2-second internal limits,
-512-MiB address space, 110 CPU seconds, core-zero and 8-MiB output bounds.
-The 2,547 native cases per mode, original-vector audit and QP04 remain unexecuted.
+Measurement's genuine 106-control inert qualification remains accepted in
+verified 44188f4. RI170's sealed current-E preflight is received for root review,
+with no execution or operational acceptance. Its proposed order is exact48
+copy into the unchanged fresh root, then a separately admitted current-E
+capture, baseline and normal/optimized profiles. The accepted outcome still
+needs the consumer's precise qualification interface; actual R01 applicability,
+WHITE15, complete 27/13/30 records, 57 artifacts, 74 postchecks, three trees and
+independent arithmetic remain separate. Inert controls give no GWOSC scientific
+reproduction, calibration or native-forward-map credit.
+
+Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
+512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. The 2,547
+native cases per mode, original-vector audit and QP04 remain unexecuted.
 Preserve measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target,
 100-ms gap, 50-ms ps and 960-second outer bounds. Platform/tool trust,
-read-window stability, incomplete fork coverage and startup/kernel limits remain
-explicit premises; there is no dynamic/hermetic closure or continuous/group RSS
-claim. Actual capacity, joint q/v, global M6/rho, W/C2/C3/shared H30, calibration,
-the native forward map and physical claims remain open. Keep P2/P3, Y=1/4,
-31/139/20/42 obligations, shared T1, the other eight parents and all five Di.
-Root retains Git/index, admissions and publication; unrelated and active edits
-remain preserved.
+read-window stability, incomplete fork coverage and startup/kernel limits
+remain explicit premises. Actual capacity, joint q/v, global M6/rho, W/C2/C3,
+shared H30 and physical claims remain open. Keep P2/P3, Y=1/4, 31/139/20/42,
+shared T1, the other eight parents and all five Di. Root owns Git/index,
+admissions and publication; unrelated and active edits are preserved.
 The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
@@ -237,9 +239,11 @@ Active file reservations, updated 30 September UTC:
 | RI-165 native external supervision | Independent/root F01/F02 findings require sibling-capture anddirect-reap repair; author startup exception retained; no qualification credit. |
 | RI-166 native contrast-to-gap implication | Exact reductions, six-component separation and enumerated relaxation counterexample independently accepted; full law unresolved. |
 | RI-167 native supervisor repair | Independent review requires F03 read/write BlockingIOError separation; existing cleanup repairs verified, all qualification pending. |
-| RI-168 native terminal-component row coupling | Existing QR task owns the source-only terminal/deletion-role and full marked-row coupling proof. |
-| RI-169 supervisor write-error repair | Existing author owns narrow read/write exception correction and focused recipes in its external reservation. |
-| RI-170 current-E measurement preflight | Existing measurement worker owns next bounded command/card prerequisite proposal; no operational admission. |
+| RI-168 native terminal-component row coupling | Independent complete incidence and exact contrast corridor accepted; full native bound unresolved. |
+| RI-169 supervisor write-error repair | Independent narrow read/write exception repair accepted at source level; all runtime qualification pending. |
+| RI-170 current-E measurement preflight | Sealed current-E source proposal received; root independent review pending. |
+| RI-171 supervisor-only qualification sources | Existing worker implementing driver, inert sources and separate saved checker in its exclusive external reservation; no execution. |
+| RI-172 complete finite-layer implication decision | Existing QR task owns core-interval perturbation proof/refutation after RI168 acceptance; fixed-vector and higher-law scope remain separate. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |

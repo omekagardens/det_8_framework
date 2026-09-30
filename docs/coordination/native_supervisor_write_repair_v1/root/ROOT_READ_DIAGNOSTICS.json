@@ -1,0 +1,28 @@
+{
+  "completed_checks": [
+    {
+      "exit_code": 0,
+      "scope": "RI169 independent metadata/literal projection",
+      "tool": "fc6179"
+    },
+    {
+      "exit_code": 0,
+      "scope": "RI168 independent opaque identities and predecessor inheritance",
+      "tool": "f08601"
+    }
+  ],
+  "diagnostics": [
+    {
+      "cause": "HANDOFF.json displayed successfully, then nonexistent RI169 HANDOFF.md requested; corrected to actual REPAIR_CONTRACT.md. No file created or source executed.",
+      "exit_code": 1,
+      "tool": "85152b"
+    },
+    {
+      "cause": "Table search completed; attempted read of not-yet-created independent-review VERDICT.json while reviewer working. No review or proof credited by that attempted read.",
+      "exit_code": 1,
+      "tool": "ec58fa"
+    }
+  ],
+  "schema": "ri168-root-administrative-read-diagnostics-v1",
+  "subject_execution": false
+}

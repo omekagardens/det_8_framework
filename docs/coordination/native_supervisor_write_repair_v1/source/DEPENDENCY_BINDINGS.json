@@ -1,0 +1,157 @@
+{
+  "schema": "ri169-bounded-dependencies-v1",
+  "fresh_original_pins": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-root-supervisor-review-7tjkgvn6/RI167_ROOT_ADJUDICATION.json",
+      "bytes": 1875,
+      "sha256": "a58cf5004a3344e40e700257756a9b93099e42c82121a3409033f4f440f59957"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-root-supervisor-review-7tjkgvn6/RI169_REPAIR_ASSIGNMENT.json",
+      "bytes": 1679,
+      "sha256": "c7e82a6a4f931f3e1c279d6149c69dee0314ab982fb96148619bca7d0232b21f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/HANDOFF.json",
+      "bytes": 11003,
+      "sha256": "ed3fabd4789e665965143455d70bb12f4b9285e51b8c862c7b6aa05b7d43f30c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-root-supervisor-review-7tjkgvn6/INDEPENDENT_SOURCE_REVIEW.md",
+      "bytes": 6462,
+      "sha256": "330316c77a5409598c93c675e1a7f8f4e3ee4a8b2ef89ce0d2bb10dd93e925ae"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/ADMIN_TOOL_RECORDS.json",
+      "bytes": 3623,
+      "sha256": "09743b94dbb20e103952be9259fb2e939de0a61a8e5df203d93cd1a3c7c33c5c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/ASSIGNMENT_AUTHENTICATION.json",
+      "bytes": 7330,
+      "sha256": "102507ba039130d47b26aabfac4b1671d32392efaf778a499be49c147cbad594"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/AUTHOR_RECORD.md",
+      "bytes": 3669,
+      "sha256": "7442118454eadf8a0ad7827d0b7b2378c2beade63462990ffa634a56da0e60bb"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/COMMAND_PROPOSAL.json",
+      "bytes": 5947,
+      "sha256": "650956a7615ca779ce6d479b0a89cf00ab1e4341fc676752ab0d619980171ee3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/DEPENDENCY_BINDINGS.json",
+      "bytes": 10741,
+      "sha256": "db368400f6d55ee2212aed420bcbaedd72b4447e25b8e29ae2f7a9559b7026c2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/FINAL_CHECK.json",
+      "bytes": 4881,
+      "sha256": "763b928fa163e6a1312d11d8a0d9322b5c3a6b71fa04385cc8138b15ca580a1a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/FOCUSED_VARIANTS.json",
+      "bytes": 17575,
+      "sha256": "d684c1b3ee8b9f586de3583557a65b3c924fe895214a16859644ba93b6317fc4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/METADATA_CHECK.json",
+      "bytes": 1205,
+      "sha256": "61bf3ef8788cd49281792f72ebd9424114003386acff0bb833d20839aa8ba74b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/PUBLICATION_SUBSET.json",
+      "bytes": 1362,
+      "sha256": "4e0dccac3c748187bb58d5676977e2cd9962791832cc9a979db6027b846d6135"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/REPAIR_CONTRACT.md",
+      "bytes": 9089,
+      "sha256": "c3fcb012ecb04eb12010f31b4330388d0e6c9d2831633d4a52e7b645fceae733"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/REVERSE_PROJECTION.json",
+      "bytes": 926,
+      "sha256": "69b3b20cff2e84703132a7f56425b3d9dd9d6726b196a565a3d513bfa1a85e12"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SOURCE_CORRESPONDENCE.json",
+      "bytes": 3476,
+      "sha256": "1715c2a62fe4302aea4f70248600ab66bd0c3a51a2fdb53f2ea85a580590b35f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SOURCE_DIFF.patch",
+      "bytes": 16372,
+      "sha256": "ff743a35ebd6c6be4167cca2bd18ab82c4915062b95a8e66f13cab4c297979b8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SUPERVISOR_CHECKS.md",
+      "bytes": 6745,
+      "sha256": "011169b3a50bb47903a8578fa692dd2d4204ff2b0cc71cda02f8c44c256a6f23"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/author_repair.mjs",
+      "bytes": 13852,
+      "sha256": "cc7a28f99a56cbe167e8f28bed4fd54d52f4cb78113840c170e9b491a4d56721"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/prepare_packet_metadata.mjs",
+      "bytes": 12349,
+      "sha256": "c328f4c0cf33c7768c505e612f6c2335ce3da0309e658ea63d0e2b09559cec60"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/supervise_native.py",
+      "bytes": 26254,
+      "sha256": "507c3c64e075d736e06dcc9a54f1261aed4d5f5c2211bb64d4b9f29732fec499"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+      "bytes": 41969,
+      "sha256": "9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/qualify_grid.py",
+      "bytes": 37082,
+      "sha256": "95a76ccf0a7c9ff50ce7bf98e24481d051b839378b87d888ae2c8d443e150653"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/fault_cases.py",
+      "bytes": 30012,
+      "sha256": "70778a4c6e5c73c5f053770adf46bf5c51b2726b7e6fe9a05715d092a8ba48d8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py",
+      "bytes": 16091,
+      "sha256": "cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py",
+      "bytes": 22760,
+      "sha256": "aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277"
+    }
+  ],
+  "fresh_count": 26,
+  "inherited_closure": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/DEPENDENCY_BINDINGS.json",
+    "bytes": 10741,
+    "sha256": "db368400f6d55ee2212aed420bcbaedd72b4447e25b8e29ae2f7a9559b7026c2"
+  },
+  "inherited_RI165_reference_entries": 325,
+  "inherited_closure_is_fresh_runtime_observation": false,
+  "current_runtime_or_supplier_observation": false,
+  "proposed_request_pin": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+    "bytes": 2304,
+    "sha256": "bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749"
+  },
+  "request_observation": {
+    "status": "ABSENT_AT_FAILED_ADMIN_READ",
+    "actual_tool_chunk": "7ea6db",
+    "code": "ENOENT",
+    "qualifies_runtime_or_request": false,
+    "repeated_observation": false
+  },
+  "scope": "Opaque source identity only. Fixed request pin is the unchanged proposed binding, not an authenticated existing file. No numerical body decode, supplier/bootstrap observation or execution."
+}
