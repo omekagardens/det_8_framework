@@ -1,0 +1,31 @@
+{
+  "actual_W_C2_C3_H30_decided": false,
+  "actual_check_exit_code": 0,
+  "actual_check_receipt": "130757",
+  "actual_endpoint_comparison_determined": false,
+  "actual_metadata_check": {
+    "bytes": 181930,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri177-root-intercept-review-va0vbeed/RI175_ROOT_METADATA_CHECK.json",
+    "sha256": "ec0c3d62157a7b41017e856858b277ccd1400f4604aeb0ea0b3dd6349cec16b1"
+  },
+  "actual_slope_regime_determined": false,
+  "conditional_full_domain_endpoint_accepted": true,
+  "historical_finite_sign_used": true,
+  "historical_sign_recomputed": false,
+  "independent_manual_review": {
+    "bytes": 6205,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri177-root-intercept-review-va0vbeed/RI175_ROOT_PROOF_REVIEW.md",
+    "sha256": "b39b2d46efc3728856d386512defd0bfa5d17550b0e1dcb43b52b4e00eddd355"
+  },
+  "intercept_monotonicity_accepted": true,
+  "programme_complete": false,
+  "ret_paused": true,
+  "schema": "ri175-root-mathematical-adjudication-v1",
+  "scientific_execution": false,
+  "source": {
+    "bytes": 6328,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/HANDOFF.json",
+    "sha256": "3722b5a1fbd550f398be2b732d7ea0d99d12e69742e17583f07ef7ebb3eb8557"
+  },
+  "status": "ACCEPT_FIXED_PREFIX_INTERCEPT_AND_CONDITIONAL_ENDPOINT"
+}

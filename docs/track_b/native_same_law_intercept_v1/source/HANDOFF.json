@@ -1,0 +1,111 @@
+{
+  "schema": "ri175-same-law-intercept-handoff-v1",
+  "status": "SEALED_AUTHOR_THEOREM_INDEPENDENT_REVIEW_PENDING",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI175_NATIVE_ASSIGNMENT.json",
+    "bytes": 2716,
+    "sha256": "8b5eeab6148a05a94e4a1598e7e8d13c89220f1c2306cf7ce76433f5715a099b"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI173_ROOT_ADJUDICATION.json",
+    "bytes": 1406,
+    "sha256": "8f0757b62786a195a03200b90ac361960677c0a2756ebd42a19ba06fe8aa5b94"
+  },
+  "historical_premise_scope": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI175_HISTORICAL_PREMISE_SCOPE.json",
+    "bytes": 2159,
+    "sha256": "bd1a9f4dd1cc2a10a194b620f9acda35d8fcca8750fc4fc767a54d4a9fd42ab4"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "CANONICAL_INTERCEPT.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "INTERCEPT_REGION.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/AUTHOR_CHECKS.json",
+      "bytes": 22933,
+      "sha256": "15f21190fefd858e25792f8382e9bc2ba9ee47fe705a37432527a67a8125ca9d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/CANONICAL_INTERCEPT.md",
+      "bytes": 12723,
+      "sha256": "7b08c0ef560cd449104c85e770139d003100da594d5d73b44401a1908e9146b4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/DEPENDENCY_NOTES.md",
+      "bytes": 18188,
+      "sha256": "8c487acef45574b0da9daf9fc7a1ba030c1702abd7f44e5291647ae56378e03d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/HANDOFF.md",
+      "bytes": 3468,
+      "sha256": "2abad6377d962af1a233e8f78c776093752b905990d99e45c1d60a404438bb11"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/INTERCEPT_REGION.md",
+      "bytes": 11342,
+      "sha256": "2c014d4fe7a440e361f5fdab836868c89ad828a1302f3827d2cb4d0fb11818f1"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/SOURCE_DEPENDENCIES.json",
+      "bytes": 287300,
+      "sha256": "2e53be73a59fa3a81004842296ce3abd9bee2404f0b8629c4dd29e944f776f70"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/SOURCE_IDENTITIES.json",
+      "bytes": 71455,
+      "sha256": "11e34a8d759dc4733f605fd720b36f3d0f6a5c040d337172da89c8c3cb939096"
+    }
+  ],
+  "results": {
+    "actual_fixed_prefix_monotonicity": "I'(x)>12lambda*j0/[v(1-x)^2]>0 for every0<x<=R.",
+    "historical_premise": "Explicitly permitted RI122 final acceptance of monic g, g(1)>0 and gprime(1)<0. Accepted RI127 linkage Q2_1=-k*g,k>0 plus RI145q=-Q2_1 identifies unchanged canonical q. These signs are historical certified finite premises, not recomputed or newly derived from general axioms.",
+    "new_algebra": "For R<1, q'=k*g'<0; quotient rule I'/(12lambda)=G_*x(2q-xq')/q^2+j0/[v(1-x)^2], with2q-xq'>0.",
+    "full_canonical_dependence": "q0,q1,q2 expanded with N_i=(35/1476)[41p_i-f_i/2-min(g_i0,g_i1)]_+/c_i; all three signed products, zero/positive branches and tied minima retained. q2 cancels only from derivative numerator, not q squared or correlations.",
+    "lower_end": "q0=0 cases checked separately, both monotone. Double-zero q0=q1=0 forcesq2>0 and limitI(0+)=-1+12lambda*G_*/q2. Actual acceptedq0>0 has limit-1.",
+    "intercept_endpoint": "a(x)<=0 throughout(0,R] iffI(R)<=0. Actual positive I(R) gives one formal intercept zero, with no actual rho placement.",
+    "weighted_endpoint": "Only within separately conditional RI173v<=T_R slope regime, full formal-domain W<=0 iffI(R)<=0; equality at endpoint still givesW<0 for allallowedpositivey.",
+    "remaining_endpoint_comparison": "I(R)<=0 iff v>B andq(R)>=12lambda*G_*R^2*v/(v-B), B=12lambda*j0*R/(1-R). No actual comparison is decided."
+  },
+  "same_law_intercept_monotonicity_proved": true,
+  "historical_certified_derivative_sign_used": true,
+  "historical_sign_recomputed": false,
+  "pure_general_axiom_only_derivation_claimed": false,
+  "full_canonical_substitution_retained": true,
+  "slope_regime_determined": false,
+  "endpoint_comparison_decided": false,
+  "actual_W_sign_claimed": false,
+  "actual_109_vector_read": false,
+  "scientific_execution": false,
+  "independent_acceptance_claimed": false,
+  "new_agent_or_thread_created": false,
+  "repository_or_git_operation": false,
+  "physical_claim": false,
+  "ret_paused": true,
+  "provenance_scope": "313 sources. Four old named boundaries and all300 inherited rows unchanged. RI173 AUTHOR_CHECKS newly opaque. RI122 final decision remains opaque to automated traversal with separately authorized RI175-only literal-read exception. Earlier coauthor read and subsequent explicit permission disclosed; no retroactive authorization claimed.",
+  "checks": {
+    "preseal_receipt": "0f320c",
+    "preseal_exit_code": 0,
+    "preseal_sources": 313,
+    "preseal_fresh_checks": 319,
+    "peer_full_companion_read": "e9e8e7",
+    "peer_exit_code": 0,
+    "final8": "Externally reported after sealing; not preclaimed in this file."
+  },
+  "unchanged_obligations": "P2/P3,Y=1/4,31/139/20/42,sharedT1,other eight parents,fiveDi,strict endpoints,labeled multiplicities,frozen prefix. Measurement and supervisor repair separately owned.",
+  "stopping_boundary": "Stop at sealed author handoff. Root owns independent acceptance, successor, execution admission and repository/publication."
+}

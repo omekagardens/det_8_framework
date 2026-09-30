@@ -1,0 +1,142 @@
+{
+  "identities": [
+    {
+      "bytes": 6328,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/HANDOFF.json",
+      "sha256": "3722b5a1fbd550f398be2b732d7ea0d99d12e69742e17583f07ef7ebb3eb8557",
+      "state": [
+        16777244,
+        419260,
+        33188,
+        1,
+        6328,
+        1790806235620996098,
+        1790806235620996098
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 22933,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/AUTHOR_CHECKS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/AUTHOR_CHECKS.json",
+      "sha256": "15f21190fefd858e25792f8382e9bc2ba9ee47fe705a37432527a67a8125ca9d",
+      "state": [
+        16777244,
+        419259,
+        33188,
+        1,
+        22933,
+        1790806187250428427,
+        1790806187250428427
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 12723,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/CANONICAL_INTERCEPT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/CANONICAL_INTERCEPT.md",
+      "sha256": "7b08c0ef560cd449104c85e770139d003100da594d5d73b44401a1908e9146b4",
+      "state": [
+        16777244,
+        418902,
+        33188,
+        1,
+        12723,
+        1790805859605086502,
+        1790805859605086502
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 18188,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/DEPENDENCY_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/DEPENDENCY_NOTES.md",
+      "sha256": "8c487acef45574b0da9daf9fc7a1ba030c1702abd7f44e5291647ae56378e03d",
+      "state": [
+        16777244,
+        418911,
+        33188,
+        1,
+        18188,
+        1790806010077009201,
+        1790806010077009201
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3468,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/HANDOFF.md",
+      "sha256": "2abad6377d962af1a233e8f78c776093752b905990d99e45c1d60a404438bb11",
+      "state": [
+        16777244,
+        418903,
+        33188,
+        1,
+        3468,
+        1790805917098987268,
+        1790805917098987268
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11342,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/INTERCEPT_REGION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/INTERCEPT_REGION.md",
+      "sha256": "2c014d4fe7a440e361f5fdab836868c89ad828a1302f3827d2cb4d0fb11818f1",
+      "state": [
+        16777244,
+        418793,
+        33188,
+        1,
+        11342,
+        1790805995055005778,
+        1790805995055005778
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 287300,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/SOURCE_DEPENDENCIES.json",
+      "sha256": "2e53be73a59fa3a81004842296ce3abd9bee2404f0b8629c4dd29e944f776f70",
+      "state": [
+        16777244,
+        418784,
+        33188,
+        1,
+        287300,
+        1790805794073836148,
+        1790805794073836148
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 71455,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/SOURCE_IDENTITIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/SOURCE_IDENTITIES.json",
+      "sha256": "11e34a8d759dc4733f605fd720b36f3d0f6a5c040d337172da89c8c3cb939096",
+      "state": [
+        16777244,
+        418785,
+        33188,
+        1,
+        71455,
+        1790805825595692368,
+        1790805825595692368
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "CANONICAL_INTERCEPT.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "INTERCEPT_REGION.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ]
+}

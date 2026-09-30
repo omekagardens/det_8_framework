@@ -1,0 +1,283 @@
+{
+  "schema": "ri175-author-check-record-v1",
+  "status": "AUTHOR_PROOF_AND_CHECKS_INDEPENDENT_REVIEW_PENDING",
+  "date": "2026-09-30",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806",
+  "source_reads": [
+    {
+      "receipt": "0c71c1",
+      "exit_code": 0,
+      "scope": "Authenticated full RI175 assignment and RI173 decision."
+    },
+    {
+      "receipt": "cfe8ac",
+      "exit_code": 0,
+      "scope": "Authenticated complete RI173 independent root review; current reservation empty."
+    },
+    {
+      "receipt": "e90810",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI145 ENDPOINT_REDUCTION."
+    },
+    {
+      "receipt": "4cd18d",
+      "exit_code": 0,
+      "scope": "Bounded authenticated inherited routing and selected administrative premise fields; not a mathematical or scientific decode."
+    },
+    {
+      "receipt": "d85d1a",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI122 INTERPRETATION, retaining its provisional status."
+    },
+    {
+      "receipt": "787121",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI122 NONAUTHOR_AUDIT_REVIEW."
+    },
+    {
+      "receipt": "d4aa25",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI151 COUPLED_EQUALITY_REDUCTION."
+    },
+    {
+      "receipt": "dbb2dc",
+      "exit_code": 0,
+      "scope": "Complete current root permission RI175_HISTORICAL_PREMISE_SCOPE."
+    },
+    {
+      "receipt": "ecce8f",
+      "exit_code": 0,
+      "scope": "Complete authenticated final RI122 administrative decision under the explicit narrow scope; no referenced scientific or operational payload followed."
+    },
+    {
+      "receipt": "39988c",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI127 independent proof review; same-Q2 pivot and accepted finite-premise linkage."
+    }
+  ],
+  "current_reads": [
+    {
+      "receipt": "006fee",
+      "exit_code": 0,
+      "scope": "Authenticated current D/S key layout only."
+    },
+    {
+      "receipt": "7280e4",
+      "exit_code": 0,
+      "scope": "Authenticated current D/S literal-read exception and premise-scope binding."
+    },
+    {
+      "receipt": "594416",
+      "exit_code": 0,
+      "scope": "Complete final CANONICAL_INTERCEPT readback."
+    },
+    {
+      "receipt": "e743a5",
+      "exit_code": 0,
+      "scope": "Complete authenticated INTERCEPT_REGION readback."
+    },
+    {
+      "receipt": "988cd2",
+      "exit_code": 0,
+      "scope": "Complete authenticated DEPENDENCY_NOTES readback."
+    },
+    {
+      "receipt": "5534f3",
+      "exit_code": 0,
+      "scope": "Complete HANDOFF.md readback and administrative checker key invariants."
+    }
+  ],
+  "manual_math_checks": [
+    "Collected q0,q1,q2 from RI145 equation29 with full gamma=35/1476 canonical positive part and all three signed products.",
+    "Used v=theta^3 DeltaT+2theta Deltah+Deltaj to verify correlated q2=-theta^4 DeltaT-theta^2 Deltah-theta gamma Delta(sigma omega^2).",
+    "Verified quotient-rule I' and H=2q-xq'=2q0+q1x; expanded complete canonical H, retaining q2 in q squared and all same-law correlations.",
+    "Reconciled accepted RI122 monic g, negative Q2_1 multiplier, RI127 accepted native sign review, RI145 q=-Q2_1 and unchanged RI151/RI173 substitutions.",
+    "Used the expressly accepted historical finite sign g'(1)<0, monicity and R<1 to prove q'<0; did not infer monotonicity from root-freeness or recalculate the certified sign.",
+    "Proved I'>12lambda*j0/[v(1-x)^2]>0 at the actual fixed prefix, irrespective of RI173 slope-regime membership.",
+    "Checked q0=0,q1>0 and q0=q1=0 cases separately; double-zero lower limit is -1+12lambda*G/q2, with no zero divisor. Actual q0>0 follows from accepted historical signs.",
+    "Proved actual I(0+)=-1 and exact endpoint/unique-crossing alternatives without locating a root or selecting actual scales.",
+    "Reduced a<=0 on the full interval to I(R)<=0; combined with negative b only under the separately conditional v<=T_R regime.",
+    "Checked equality I(R)=0 gives W<0 at every allowed positive y; I(R)>0 yields formal small-positive-y failure, not actual W(rho,s) sign.",
+    "Cleared I(R)=-1+12lambda*G*R^2/q(R)+B/v only after v>B; exact remaining criterion q(R)>=12lambda*G*R^2*v/(v-B)."
+  ],
+  "historical_premise_scope": {
+    "authority": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI175_HISTORICAL_PREMISE_SCOPE.json",
+      "bytes": 2159,
+      "sha256": "bd1a9f4dd1cc2a10a194b620f9acda35d8fcca8750fc4fc767a54d4a9fd42ab4"
+    },
+    "inherited_decision_classification_unchanged": true,
+    "automated_typed_reference_expansion": false,
+    "literal_acceptance_read_only": true,
+    "historical_sign_used_not_recomputed": true,
+    "no_scientific_coefficient_extraction": true,
+    "coauthor_earlier_read_retroactively_claimed_authorized": false
+  },
+  "coauthors": {
+    "proof": {
+      "agent": "/root/ri132_audit_controls",
+      "owned_file": "INTERCEPT_REGION.md",
+      "scope": "Author proof and companion cross-review, not independent adjudication.",
+      "authority_reads": [
+        "b97f42",
+        "03245c",
+        "35c4b8",
+        "00ceef"
+      ],
+      "complete_historical_reads": [
+        "d58fb0",
+        "d0154b",
+        "af8563",
+        "885804"
+      ],
+      "scope_read": "2f60e8",
+      "scope_authentication": [
+        "fe3486",
+        "f3fb71"
+      ],
+      "main_companion_full_review": "e9e8e7",
+      "final_own_read": "b51764",
+      "final_count_hash": [
+        "4112d3",
+        "3d5873"
+      ],
+      "successful_reads_exit_code": 0,
+      "peer_finding": "No concrete issue; all canonical coefficients, zero cases and conditional endpoint equivalences checked manually.",
+      "diagnostics": [
+        {
+          "receipt": "917325",
+          "exit_code": 2,
+          "scope": "Guessed INTERPRETATION path did not exist; corrected through manifest0d9e85 then full correct read d58fb0. No file created."
+        },
+        {
+          "receipt": "af8563",
+          "exit_code": 0,
+          "scope": "Literal administrative RI122 final-decision read preceded explicit exception. Disclosed to main; promotion paused until root supplied current scope. No referenced scientific body read; later permission not represented as retroactive."
+        }
+      ]
+    },
+    "provenance": {
+      "agent": "/root/ri132_evidence_contract",
+      "owned_files": [
+        "SOURCE_DEPENDENCIES.json",
+        "SOURCE_IDENTITIES.json",
+        "DEPENDENCY_NOTES.md"
+      ],
+      "initial_312_checks": [
+        "af12cd",
+        "cd4864"
+      ],
+      "scope_read": "7e24e3",
+      "final_313_check": "0b33f6",
+      "complete_notes_reads": [
+        "f507e5",
+        "cafab5"
+      ],
+      "final_notes_pin": "8fc356",
+      "exit_codes": 0,
+      "result": "313 paths,18,978,311 bytes,300 inherited rows,3634 historical and157 current refs,17 old states not compared,four pairs,exact source8,uncached313 reread.",
+      "diagnostic": "One apply_patch context verification failed before edit because the patch generator mutated a shallow-copied old context. Opaque read838242 confirmed unchanged initial D; deep-copy correction succeeded. Initial312 receipts and pins remain historical phases in notes.",
+      "phase_namespace_verification": "After main queried the phase-name sentence, coauthor reread the stored genuine0b33f6 JSON and confirmed its explicitly recorded current_namespace was INTERCEPT_REGION.md plus the two source manifests. No edit or inferred past-state claim was needed."
+    }
+  },
+  "documentation_skill": {
+    "used": "pages:write-page with writing_quality",
+    "effect": "Retained established research Markdown format and explicit distinction between historical finite premise, new analytic theorem and unresolved endpoint/physical claims.",
+    "complete_skill_read_receipts": [
+      "87557a",
+      "26c7ef"
+    ],
+    "no_page_created": true
+  },
+  "main_diagnostics": {
+    "failed_commands_or_patches": [],
+    "clipped_source_reads": [],
+    "scope_request": "Root was asked before main read/promoted final RI122 decision; explicit RI175-only scope was received and recorded."
+  },
+  "preseal_check": {
+    "receipt": "0f320c",
+    "exit_code": 0,
+    "result": {
+      "schema": "ri175-author-administrative-check-v1",
+      "status": "MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE",
+      "stage": "preseal6",
+      "dependencies": 313,
+      "selected_bytes": 18978311,
+      "inherited": 300,
+      "classifications": {
+        "analytic-source-text-or-review": 112,
+        "opaque-historical-acceptance-or-source-support": 87,
+        "opaque-scientific-historical-premise": 1,
+        "selected-administrative-proof-provenance": 112,
+        "selected-administrative-governance-boundary": 1
+      },
+      "historical_typed_references": 3634,
+      "current_typed_references": 157,
+      "historical_extended_state_noncomparisons": 17,
+      "separate_byte_equal_pairs": 4,
+      "predecessor_namespace_counts": [
+        8
+      ],
+      "current_namespace": 6,
+      "literal_manuscript_reference_occurrences": 12,
+      "final_fresh_identity_rechecks": 319,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/CANONICAL_INTERCEPT.md",
+          "bytes": 12723,
+          "sha256": "7b08c0ef560cd449104c85e770139d003100da594d5d73b44401a1908e9146b4"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/DEPENDENCY_NOTES.md",
+          "bytes": 18188,
+          "sha256": "8c487acef45574b0da9daf9fc7a1ba030c1702abd7f44e5291647ae56378e03d"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/HANDOFF.md",
+          "bytes": 3468,
+          "sha256": "2abad6377d962af1a233e8f78c776093752b905990d99e45c1d60a404438bb11"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/INTERCEPT_REGION.md",
+          "bytes": 11342,
+          "sha256": "2c014d4fe7a440e361f5fdab836868c89ad828a1302f3827d2cb4d0fb11818f1"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/SOURCE_DEPENDENCIES.json",
+          "bytes": 287300,
+          "sha256": "2e53be73a59fa3a81004842296ce3abd9bee2404f0b8629c4dd29e944f776f70"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/SOURCE_IDENTITIES.json",
+          "bytes": 71455,
+          "sha256": "11e34a8d759dc4733f605fd720b36f3d0f6a5c040d337172da89c8c3cb939096"
+        }
+      ],
+      "mathematical_formula_evaluated_by_script": false,
+      "scientific_or_target_execution": false
+    }
+  },
+  "administrative_reproduction": {
+    "method": "Standalone inline Node fs/path/crypto only, no source/helper import or scientific formula evaluation.",
+    "script": "const fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806',P='/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let length=0;const cap=Number(st.size)+1;while(length<cap){const block=Buffer.alloc(Math.min(65536,cap-length));const got=fs.readSync(fd,block,0,block.length,null);if(!got)break;chunks.push(block.subarray(0,got));length+=got;}b=Buffer.concat(chunks);need(b.length===Number(st.size),'size drift');need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[],state:Object.fromEntries(fields.map(k=>[k,st[k].toString()]))};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:287300,sha256:'2e53be73a59fa3a81004842296ce3abd9bee2404f0b8629c4dd29e944f776f70'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:71455,sha256:'11e34a8d759dc4733f605fd720b36f3d0f6a5c040d337172da89c8c3cb939096'});\npin({path:Q+'/CANONICAL_INTERCEPT.md',bytes:12723,sha256:'7b08c0ef560cd449104c85e770139d003100da594d5d73b44401a1908e9146b4'});\npin({path:Q+'/INTERCEPT_REGION.md',bytes:11342,sha256:'2c014d4fe7a440e361f5fdab836868c89ad828a1302f3827d2cb4d0fb11818f1'});\npin({path:Q+'/DEPENDENCY_NOTES.md',bytes:18188,sha256:'8c487acef45574b0da9daf9fc7a1ba030c1702abd7f44e5291647ae56378e03d'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body),S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body),M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===313&&eq([...M.keys()],[...M.keys()].sort()),'count/sort');\nD.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity)});\nneed(D.protected_files.reduce((n,r)=>n+r.identity.bytes,0)===18978311,'total selected bytes');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body),oldS=JSON.parse(read(P+'/SOURCE_IDENTITIES.json').body),omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===300,'old300');\nfor(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherited row');\nfor(const k of ['governance_stopping_boundary','historical_phase_record_boundary','predecessor_author_support_boundary','ri172_author_support_boundary'])need(eq(D[k],old[k]),'inherited boundary '+k);\nfor(const k of ['accepted_ri172_predecessor','accepted_ri168_premises','accepted_ri166_premises','accepted_ri157_premises','accepted_ri157_margin_scope','accepted_ri155_premises','accepted_ri153_premises','excluded_historical_inferences','accepted_ri151_premises','accepted_ri149_premises','root_accepted_additional_observation','accepted_ri147_premises','accepted_ri145_premises','accepted_analytic_packets','premise_texts','actual_source_text_reads','source_text_counterparts','immutable_numerical_certificate','unchanged_obligations','inherited_scope_clarification','identity_interpretation'])need(eq(S[k],oldS[k]),'inherited S '+k);\nconst namespaces=[];\nfor(const[dir,count]of[[P,8]]){\nconst h=JSON.parse(read(dir+'/HANDOFF.json').body),names=fs.readdirSync(dir).sort();\nneed(names.length===count&&eq(names,[...h.namespace].sort())&&eq(names,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'historical namespace '+dir);\nh.payloads.forEach(pin);namespaces.push({dir,names});\n}\nneed(eq(D.historical_phase_record_boundary,S.governance.RI166_phase_record_boundary),'phase S boundary');\nneed(eq(D.predecessor_author_support_boundary,S.governance.RI168_author_support_boundary),'support S boundary');\nneed(eq(D.ri172_author_support_boundary,S.governance.RI172_author_support_boundary),'old support S boundary');\nneed(eq(D.ri173_author_support_boundary,S.governance.RI173_author_support_boundary),'new support S boundary');\nfor(const b of [D.historical_phase_record_boundary,D.predecessor_author_support_boundary,D.ri172_author_support_boundary,D.ri173_author_support_boundary])need(M.get(b.path).classification==='opaque-historical-acceptance-or-source-support'&&b.typed_reference_expansion===false,'author boundary routing');\nneed(D.ri173_author_support_boundary.path===P+'/AUTHOR_CHECKS.json','new author boundary path');\nconst ex=D.ri122_literal_read_exception,oldDecision='/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json',scope='/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI175_HISTORICAL_PREMISE_SCOPE.json';\nneed(ex.path===oldDecision&&ex.literal_read_authority===scope&&ex.automated_typed_reference_expansion===false&&M.get(oldDecision).classification==='opaque-historical-acceptance-or-source-support','historical literal-read exception');\nneed(S.historical_fixed_prefix_premise.permission.path===scope&&S.historical_fixed_prefix_premise.final_acceptance.path===oldDecision&&S.historical_fixed_prefix_premise.final_decision_automated_typed_reference_expansion===false,'exception S binding');\nlet refs=0,extended=0,states=0;\nfunction scan(x,current=false){\nif(!x||typeof x!=='object')return;\nif(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){\nneed(M.has(x.path)||(current&&x.path===Q+'/SOURCE_DEPENDENCIES.json'),'reference closure '+x.path);\npin(x);refs++;if(x.symlink_chain!==undefined)extended++;if(x.state!==undefined)states++;\n}\nObject.values(x).forEach(v=>scan(v,current));\n}\nconst governance='/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json';\nneed(D.governance_stopping_boundary.path===governance&&D.governance_stopping_boundary.typed_reference_expansion===false&&eq(D.governance_stopping_boundary,S.governance.operational_stopping_boundary),'governance rule');\nconst classes={};\nfor(const r of D.protected_files){\nclasses[r.classification]=(classes[r.classification]||0)+1;\nif(r.classification==='selected-administrative-proof-provenance')scan(JSON.parse(read(r.path).body));\nelse if(r.classification==='selected-administrative-governance-boundary')need(r.path===governance,'exact governance boundary');\n}\nneed(classes['selected-administrative-proof-provenance']===112&&classes['selected-administrative-governance-boundary']===1&&classes['analytic-source-text-or-review']===112&&classes['opaque-historical-acceptance-or-source-support']===87&&classes['opaque-scientific-historical-premise']===1,'class counts');\nneed(refs===3634&&extended===17&&states===17,'historical reference counts');\nrefs=0;scan(S,true);need(refs===157,'current S references');\nlet pairs=0;\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published)){need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'separate path byte equality');pairs++}\nneed(pairs===4,'pair count');\nconst final=['INTERCEPT_REGION.md','CANONICAL_INTERCEPT.md','DEPENDENCY_NOTES.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','HANDOFF.md','AUTHOR_CHECKS.json','HANDOFF.json'].sort(),stage=process.argv[1]||'preseal6';\nneed(['preseal6','final8'].includes(stage),'stage');\nconst expected=stage==='final8'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));let references=0;\nfor(const n of ['INTERCEPT_REGION.md','CANONICAL_INTERCEPT.md','DEPENDENCY_NOTES.md','HANDOFF.md']){\n const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict marker');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');\n for(const m of txt.matchAll(/(\\/Volumes\\/[^\\s\\x60|]+\\.(?:md|json|py))(?:[\\s\\x60|]|$)/g)){need(M.has(m[1])||expected.some(f=>Q+'/'+f===m[1]),'literal source path '+m[1]);references++}\n for(const m of txt.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g)){need(!m[1].includes('://')&&expected.includes(m[1]),'current markdown link '+m[1]);read(Q+'/'+m[1])}\n}\nif(stage==='final8'){\n const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===7,'current seal');\n need(eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');\n h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_analytic_predecessor);pin(h.operational_governance_predecessor);pin(h.historical_premise_scope);\n need(h.same_law_intercept_monotonicity_proved===true&&h.historical_certified_derivative_sign_used===true&&h.full_canonical_substitution_retained===true&&h.slope_regime_determined===false&&h.endpoint_comparison_decided===false&&h.actual_W_sign_claimed===false&&h.actual_109_vector_read===false&&h.scientific_execution===false,'result scope');\n}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nneed(before.length===313+expected.length,'exact fresh check scope');\nneed(eq(fs.readdirSync(Q).sort(),expected),'end namespace');\nfor(const n of namespaces)need(eq(fs.readdirSync(n.dir).sort(),n.names),'end historical namespace');\nconsole.log(JSON.stringify({schema:'ri175-author-administrative-check-v1',status:'MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE',stage,dependencies:313,selected_bytes:18978311,inherited:300,classifications:classes,historical_typed_references:3634,current_typed_references:157,historical_extended_state_noncomparisons:17,separate_byte_equal_pairs:4,predecessor_namespace_counts:[8],current_namespace:expected.length,literal_manuscript_reference_occurrences:references,final_fresh_identity_rechecks:before.length,current_payloads:payloads,mathematical_formula_evaluated_by_script:false,scientific_or_target_execution:false},null,2));\n",
+    "actual_stage": "preseal6",
+    "final_stage": "Run identical inline script with final8 after seal. Final receipt is external; not preclaimed in this self-bound payload."
+  },
+  "scope": {
+    "same_law_intercept_monotonicity_proved": true,
+    "historical_certified_sign_used": true,
+    "new_general_axiom_only_sign_derivation": false,
+    "slope_regime_determined": false,
+    "endpoint_comparison_decided": false,
+    "actual_W_C2_C3_H30_sign_claimed": false,
+    "actual_109_vector_decoded": false,
+    "scientific_json_decoded": false,
+    "scientific_formula_executed": false,
+    "operational_admission_claimed": false,
+    "independent_acceptance_claimed": false,
+    "new_agents_or_threads_created": false,
+    "repo_index_git_mutated": false,
+    "ret_paused": true
+  }
+}

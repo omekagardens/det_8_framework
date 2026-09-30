@@ -1,0 +1,18 @@
+{
+  "schema": "ri178-dispatch-record-v1",
+  "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri177-root-intercept-review-va0vbeed/RI178_NATIVE_ASSIGNMENT.json",
+    "bytes": 3609,
+    "sha256": "faa9d2e4bc74829d35d3df86709fc5558e84933cc3c1b0a3d9a5c3ff6faa8f34"
+  },
+  "actual_tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a074c4-4b09-76a3-8cb2-0caf116f6b9c\"}"
+      }
+    ],
+    "isError": false
+  }
+}

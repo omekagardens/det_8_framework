@@ -1,29 +1,32 @@
-# Current QR coordination — RI-175 same-law intercept monotonicity
+# Current QR coordination — RI-178 upper-y boundary monotonicity
 
-**Current checkpoint — 30 September 2026 UTC.** RI173 is independently accepted
-as a conditional theorem at the unchanged law. Its threshold satisfies
-T_R/B>7957/891>8, so v<=8B gives a strictly negative weighted y-slope throughout
-0<x<=R, including equality. The complete canonical singleton corrections and
-all three signed products remain. If v>T_R there is one crossover; beyond it,
-the remaining condition is an upper-q comparison with the shared correction
-on both sides. Actual membership in any regime is unresolved.
+**Current checkpoint — 30 September 2026 UTC.** RI175 is independently accepted:
+the unchanged-prefix normalized intercept I=a/Q is strictly increasing on
+0<x<=R. The proof uses the historically certified RI122 monic quadratic sign,
+reconciled through RI127 and RI145 to the same q. It is new algebra from an
+accepted finite premise, not a recomputation or a general-axiom-only sign proof.
+All canonical corrections, three signed products and lower-end cases remain.
 
-The separate intercept argument proves a(R)>0 if v<=B, giving formal positive-y
-points near zero with W>0. It does not decide W at the actual pair (rho,s).
-Root's manual proof review and fresh 308-identity check accompany the complete
-source in `docs/track_b/native_same_law_slope_region_v1/`. The 300 selected
-dependencies, 276 inherited rows, 3,175 historical and 142 current typed
-references matched. These metadata checks are not mathematical execution.
-RI172's accepted finite-layer nonimplication remains unchanged; its altered
-coefficient family is not substituted for the actual law.
+The intercept requirement is now exactly I(R)<=0. Under RI173's separately
+conditional slope regime v<=T_R, this is equivalent to full-domain W<=0;
+equality still gives strict W<0 at every allowed positive y. The remaining
+comparison is v>B and q(R)>=12lambda*G_*R^2*v/(v-B). Actual slope-regime
+membership, that endpoint comparison and W(rho,s) remain unresolved.
 
-RI-175 is assigned to the existing Quantum Relativity task after RI173's
-independent adjudication. Determine whether the actual canonical quadratic q
-makes a(x)/Q(x) increasing on (0,R], and hence whether the intercept reduces
-to one endpoint comparison in the conditional slope regime. Retain all
-canonical correlations and lower-end degeneracies. If actual monotonicity
-remains unresolved, require a substantive conditional theorem and its exact
-missing premise. This is active proof work, not an accepted derivative sign.
+The complete source and independent root review are in
+`docs/track_b/native_same_law_intercept_v1/`. Root's actual metadata replay
+matched 313 dependencies, all 300 inherited rows, 3,634 historical and 157
+current typed references, four byte-equal pairs and 321 fresh whole identities.
+Those are provenance checks, not mathematical execution. The historical
+literal-read exception remains bounded and does not expand runtime authority.
+
+RI-178 is assigned to the existing Quantum Relativity task after RI175's
+independent adjudication. Determine whether the upper-y boundary
+J(x)=W(x,1/d(x))/r also strictly increases without the slope-regime assumption.
+A proved result would reduce the full curved-domain question to the two
+boundary comparisons at R. This is active proof work, not an accepted sign.
+RI173's conditional slope result and RI172's finite-layer nonimplication
+remain unchanged; no altered-law family replaces the actual prefix.
 
 RI-174 completed one genuine measurement metadata copy after fresh source,
 vendor, namespace, tools and host checks. Tool d49fc5 exited zero. Root's

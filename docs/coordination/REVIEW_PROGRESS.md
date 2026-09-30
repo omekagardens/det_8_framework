@@ -1,29 +1,32 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI173 is independently accepted
-as a conditional theorem at the unchanged law. Its threshold satisfies
-T_R/B>7957/891>8, so v<=8B gives a strictly negative weighted y-slope throughout
-0<x<=R, including equality. The complete canonical singleton corrections and
-all three signed products remain. If v>T_R there is one crossover; beyond it,
-the remaining condition is an upper-q comparison with the shared correction
-on both sides. Actual membership in any regime is unresolved.
+**Current checkpoint — 30 September 2026 UTC.** RI175 is independently accepted:
+the unchanged-prefix normalized intercept I=a/Q is strictly increasing on
+0<x<=R. The proof uses the historically certified RI122 monic quadratic sign,
+reconciled through RI127 and RI145 to the same q. It is new algebra from an
+accepted finite premise, not a recomputation or a general-axiom-only sign proof.
+All canonical corrections, three signed products and lower-end cases remain.
 
-The separate intercept argument proves a(R)>0 if v<=B, giving formal positive-y
-points near zero with W>0. It does not decide W at the actual pair (rho,s).
-Root's manual proof review and fresh 308-identity check accompany the complete
-source in `docs/track_b/native_same_law_slope_region_v1/`. The 300 selected
-dependencies, 276 inherited rows, 3,175 historical and 142 current typed
-references matched. These metadata checks are not mathematical execution.
-RI172's accepted finite-layer nonimplication remains unchanged; its altered
-coefficient family is not substituted for the actual law.
+The intercept requirement is now exactly I(R)<=0. Under RI173's separately
+conditional slope regime v<=T_R, this is equivalent to full-domain W<=0;
+equality still gives strict W<0 at every allowed positive y. The remaining
+comparison is v>B and q(R)>=12lambda*G_*R^2*v/(v-B). Actual slope-regime
+membership, that endpoint comparison and W(rho,s) remain unresolved.
 
-RI-175 is assigned to the existing Quantum Relativity task after RI173's
-independent adjudication. Determine whether the actual canonical quadratic q
-makes a(x)/Q(x) increasing on (0,R], and hence whether the intercept reduces
-to one endpoint comparison in the conditional slope regime. Retain all
-canonical correlations and lower-end degeneracies. If actual monotonicity
-remains unresolved, require a substantive conditional theorem and its exact
-missing premise. This is active proof work, not an accepted derivative sign.
+The complete source and independent root review are in
+`docs/track_b/native_same_law_intercept_v1/`. Root's actual metadata replay
+matched 313 dependencies, all 300 inherited rows, 3,634 historical and 157
+current typed references, four byte-equal pairs and 321 fresh whole identities.
+Those are provenance checks, not mathematical execution. The historical
+literal-read exception remains bounded and does not expand runtime authority.
+
+RI-178 is assigned to the existing Quantum Relativity task after RI175's
+independent adjudication. Determine whether the upper-y boundary
+J(x)=W(x,1/d(x))/r also strictly increases without the slope-regime assumption.
+A proved result would reduce the full curved-domain question to the two
+boundary comparisons at R. This is active proof work, not an accepted sign.
+RI173's conditional slope result and RI172's finite-layer nonimplication
+remain unchanged; no altered-law family replaces the actual prefix.
 
 RI-174 completed one genuine measurement metadata copy after fresh source,
 vendor, namespace, tools and host checks. Tool d49fc5 exited zero. Root's
@@ -12759,6 +12762,78 @@ to one endpoint comparison in the conditional slope regime. Retain all
 canonical correlations and lower-end degeneracies. If actual monotonicity
 remains unresolved, require a substantive conditional theorem and its exact
 missing premise. This is active proof work, not an accepted derivative sign.
+
+RI-174 completed one genuine measurement metadata copy after fresh source,
+vendor, namespace, tools and host checks. Tool d49fc5 exited zero. Root's
+independent replay b5cc2b matched all 48 exact copies, 124 historical originals,
+30 target originals, nine directories, the full saved observations and all ten
+independent tails. The complete receipt was separately checked after exit.
+The monitor retained 24 samples, 0.868752458 seconds elapsed, 55,696 KiB peak
+sampled child RSS, maximum gap 0.047152167 seconds and final gap 0.00003375
+seconds. Sources and the 1,810-file vendor selection remained unchanged.
+The exact evidence is in `docs/coordination/measurement_exact_copy_v1/`.
+
+The reserved E now contains the accepted copies and empty tmp/normal/optimized
+directories. Next is a separately admitted current-E runtime capture, then
+independent baseline acceptance and normal/optimized profiles. Old environment
+cards cannot substitute. Actual R01 path review, WHITE15, RI131 applicability,
+complete 27/13/30 records, 57 artifacts, 74 postchecks, three trees and independent
+arithmetic remain separate. No scientific analysis ran during the copy.
+Conventional GWOSC reproduction, calibration/protected validation and the
+native forward map remain unfinished.
+
+RI-171's prospective 92-case supervisor qualification is rejected for source
+repair. Nonauthor review and root tracing identify five groups of defects:
+caller read faults can hit ps; late-observer checks are shadowed; ordinary
+failures can pass using only a receipt candidate; defining sibling/reap/kill
+and recovery obligations are missing; stderr hash drift instead changes size.
+The sealed source and review are preserved in
+`docs/coordination/native_supervisor_qualification_review_v1/`. The independent
+3,525-predicate metadata check establishes inventory consistency only.
+RI-176 assigns the original worker a focused source-only repair, with explicit
+prospective negative oracle checks and unchanged subject limits. All 92 controls,
+2,547 native cases per mode, original-vector audit and QP04 remain unexecuted.
+
+Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
+512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. Preserve
+measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target, 100-ms gap,
+50-ms ps and 960-second outer bounds. Platform/tool trust, read-window stability,
+incomplete fork coverage and startup/kernel limits remain explicit premises.
+Actual capacity, joint q/v, global M5/M6/rho, W/C2/C3, shared H30 and physical
+claims remain open. Keep P2/P3, Y=1/4, 31/139/20/42, shared T1, the other eight
+parents and all five Di. Root owns Git/index, admissions and publication;
+unrelated and active edits are preserved.
+The programme continues; RET alone remains paused.
+
+**30 September 2026 — accepted same-law intercept and upper-boundary successor.**
+
+**Current checkpoint — 30 September 2026 UTC.** RI175 is independently accepted:
+the unchanged-prefix normalized intercept I=a/Q is strictly increasing on
+0<x<=R. The proof uses the historically certified RI122 monic quadratic sign,
+reconciled through RI127 and RI145 to the same q. It is new algebra from an
+accepted finite premise, not a recomputation or a general-axiom-only sign proof.
+All canonical corrections, three signed products and lower-end cases remain.
+
+The intercept requirement is now exactly I(R)<=0. Under RI173's separately
+conditional slope regime v<=T_R, this is equivalent to full-domain W<=0;
+equality still gives strict W<0 at every allowed positive y. The remaining
+comparison is v>B and q(R)>=12lambda*G_*R^2*v/(v-B). Actual slope-regime
+membership, that endpoint comparison and W(rho,s) remain unresolved.
+
+The complete source and independent root review are in
+`docs/track_b/native_same_law_intercept_v1/`. Root's actual metadata replay
+matched 313 dependencies, all 300 inherited rows, 3,634 historical and 157
+current typed references, four byte-equal pairs and 321 fresh whole identities.
+Those are provenance checks, not mathematical execution. The historical
+literal-read exception remains bounded and does not expand runtime authority.
+
+RI-178 is assigned to the existing Quantum Relativity task after RI175's
+independent adjudication. Determine whether the upper-y boundary
+J(x)=W(x,1/d(x))/r also strictly increases without the slope-regime assumption.
+A proved result would reduce the full curved-domain question to the two
+boundary comparisons at R. This is active proof work, not an accepted sign.
+RI173's conditional slope result and RI172's finite-layer nonimplication
+remain unchanged; no altered-law family replaces the actual prefix.
 
 RI-174 completed one genuine measurement metadata copy after fresh source,
 vendor, namespace, tools and host checks. Tool d49fc5 exited zero. Root's

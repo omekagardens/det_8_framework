@@ -1,0 +1,27 @@
+{
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 1351,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri177-root-intercept-review-va0vbeed/RI175_ROOT_ADJUDICATION.json",
+    "sha256": "ac20e55477f8aba61e517282a5e20582658c57c45c85d103db78cfe974baf444"
+  },
+  "rationale": "RI175 settles the lower-y limiting endpoint using the historical native quadratic sign. RI145 still requires the upper-y boundary when the slope regime is unresolved; this targets that missing analytic condition without duplicating fixed-vector qualification.",
+  "requirements": [
+    "Retain the same complete canonical q, singleton correction, all signed products, all ideal multiplicities, and actual-prefix correlations. q>0,qprime<0,q0>0 are now accepted RI175 consequences with their explicit historical finite-sign premise.",
+    "Assess monotonicity of the complete normalized terms, including derivatives of d and U20/U30. A possible route is to prove increasing reference complements1-Uj0/d using complete held-sum bounds; do not assume it from positivity or erase the varying denominator.",
+    "If J is increasing, prove precisely the reduction from RI145 two y-boundary conditions to I(R)<=0 and J(R)<=0 without the RI173 slope premise, distinguishing the excluded lower y limit from the included upper y endpoint. If not established, provide a substantive conditional theorem and exact remaining actual-law premise; no arbitrary independent-coefficient counterexample decides this law.",
+    "Retain lower-end limits and all endpoint equality/strictness cases. Do not infer actual endpoint signs or actual W(rho,s), C2/C3, capacity, shared H30 or physical claims merely from monotonicity.",
+    "The RI175 accepted theorem may be used directly. A bounded literal reread of its already selected RI122 final administrative decision is permitted for premise reconciliation only, retaining its opaque automated-traversal classification. No scientific or operational references may be followed under this exception.",
+    "Source-only work in the new reservation; no subject/vendor/helper import, compile, AST, probe, run, scientific JSON/vector/coefficient extraction, runtime capture, fixtures or operational cards. Authenticated administrative metadata checks only. No repository/index/Git writes or new agents. Existing author collaborators may work only in this reservation under its scope.",
+    "Seal the complete source and provenance with actual author checks and diagnostic history. Root independently reviews and owns publication and next assignment. Preserve all historical packets, P2/P3,Y=1/4,31/139/20/42,sharedT1,other eight parents,fiveDi. RET remains paused; measurement and RI176 remain separate."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2",
+  "schema": "ri178-native-analytic-assignment-v1",
+  "source": {
+    "bytes": 6328,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/HANDOFF.json",
+    "sha256": "3722b5a1fbd550f398be2b732d7ea0d99d12e69742e17583f07ef7ebb3eb8557"
+  },
+  "starting_identity": "J=-1+12lambda[G_*x^2/q*(1-U20/d)+j0*x/((1-x)*v)*(1-U30/d)]+12(1+eta)*x^2*(G_*x+j0)/d. Verify independently against RI145 before using.",
+  "task": "Determine whether J(x)=W(x,1/d(x))/r is strictly increasing for the unchanged actual prefix on0<x<=R, without assuming v<=T_R. Combine only a proved result with RI175 intercept monotonicity to derive the exact full curved-domain endpoint criterion atR, including equality cases."
+}
