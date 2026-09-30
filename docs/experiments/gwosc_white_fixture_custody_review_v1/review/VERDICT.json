@@ -1,0 +1,138 @@
+{
+  "RET_paused": true,
+  "administrative_counts": {
+    "added": 44,
+    "changed_modules": 2,
+    "dependencies": 525,
+    "dependency_bytes": 30301774,
+    "fresh_identity_rechecks": 553,
+    "inherited": 481,
+    "new_modules": 1,
+    "payloads": 26,
+    "predicates": 3888,
+    "subject_files": 27,
+    "unchanged_modules": 9
+  },
+  "controls": {
+    "executed": 0,
+    "new_defined": 29,
+    "old_defined": 55,
+    "passed_claimed": 0,
+    "total_defined": 84
+  },
+  "findings": [
+    {
+      "cause": "Individual fixture comparisons precede final I.tree(out); final produced loop includes ordinary pins only and prefix-permits arbitrary fixture descendants. Controls success requires no final subtree equality or root presence.",
+      "earlier_retained_observations": [
+        "COMPLETE.tail_observations.fixture_trees[D]",
+        "COMPLETE.independent_tails[fixture:D].value"
+      ],
+      "evidence_kind": "COMPLETE_SOURCE_REASONING_NO_RUNTIME_EXPERIMENT",
+      "expected_objects": [
+        "RESULT.json.fixture_trees.inert-fixtures",
+        "RESULT.json.fixture_trees.integration-fixtures"
+      ],
+      "failure_requirements": [
+        "Record mismatch as independent tail failure.",
+        "Preserve earlier first error, all eligible independent tails, complete earlier/final observations and partials.",
+        "Do not invent an expected tree when a prior action never returned one."
+      ],
+      "final_retained_observations": [
+        "COMPLETE.tail_observations.namespace",
+        "COMPLETE.independent_tails.namespace.value on current success path"
+      ],
+      "id": "F02-R",
+      "locations": [
+        {
+          "lines": [
+            191,
+            215
+          ],
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/adapter.py"
+        },
+        {
+          "lines": [
+            219,
+            225
+          ],
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/adapter.py"
+        },
+        {
+          "lines": [
+            56,
+            71
+          ],
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/integration_controls.py"
+        },
+        {
+          "lines": [
+            141,
+            162
+          ],
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/integration_controls.py"
+        },
+        {
+          "lines": [
+            237,
+            247
+          ],
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/integration_controls.py"
+        },
+        {
+          "lines": [
+            83,
+            102
+          ],
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/custody_io.py"
+        }
+      ],
+      "missing_control": "O13-style mutation at final whole-output tree entry for each fixture subtree, after successful individual fixture tails; C02 mutates before those tails and gives no late-window credit.",
+      "priority": 1,
+      "required_relation": "For each available captured D, select D and D/ descendants from the same final namespace; normalize D to dot and D/r to r; compare complete ordered row membership and every kind/bytes/sha256/target field with the captured full tree.",
+      "source_trace": [
+        "Captured trees and RESULT correct; both fixture tails succeed.",
+        "Before final namespace scan, change bounded descendant bytes/membership/link target, or remove one complete fixture root.",
+        "Final scan observes changed tree, but ordinary pins still match and all final prefix/name predicates pass.",
+        "No unrelated failure or deadline assumed; first_error may remain null, pending-review completion and exit zero follow."
+      ],
+      "status": "REQUIRED_SOURCE_REPAIR_BEFORE_QUALIFICATION",
+      "title": "Final control-fixture namespace is observed but not reconciled"
+    }
+  ],
+  "fresh_scope": [
+    "complete changed adapter and mode wrapper",
+    "complete new integration controls",
+    "complete bindings/I/O/monitor/old-controls/contract reads",
+    "full source diff and opaque dependency closure"
+  ],
+  "inherited_scope": [
+    "five retained modules previously read and accepted separately; all nine original unchanged bodies authenticated",
+    "earlier WHITE/caller/bootstrap authorship disclosed; no fresh self-acceptance"
+  ],
+  "operational_admission": false,
+  "pending": [
+    "F02-R repair and fresh independent/root source adjudication",
+    "separate bounded genuine current-source control admission and complete outcome review",
+    "R01 actual path applicability/additional controls",
+    "new-environment genuine RI141 baseline and ordered profiles",
+    "complete external source/runtime/card/namespace custody",
+    "normal WHITE execution then independent saved arithmetic/root acceptance before optimized",
+    "separate RI131 and full32/public-data work"
+  ],
+  "resolved_source_findings": [
+    "F01 authenticated baseline tied to prior pins before ownership",
+    "F02 ordinary produced-file final comparisons",
+    "F02 complete saved-mode final-root comparison against verified post"
+  ],
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication_required": true,
+  "schema": "ri158-independent-source-repair-verdict-v1",
+  "scientific_acceptance": false,
+  "source_qualification_accepted": false,
+  "subject": {
+    "bytes": 12934,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/HANDOFF.json",
+    "sha256": "69638eb05897dc2e72c4a29f84d27593dff5e83b98e102c1efccc67f9ded4fa2"
+  },
+  "verdict": "REQUIRE_F02_FIXTURE_NAMESPACE_RECONCILIATION_BEFORE_QUALIFICATION"
+}

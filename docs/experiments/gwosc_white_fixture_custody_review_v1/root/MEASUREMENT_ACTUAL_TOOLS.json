@@ -1,0 +1,77 @@
+{
+  "RET": "paused",
+  "administrative_replay": {
+    "chunk": "1e4e42",
+    "exit_code": 0,
+    "report": {
+      "bytes": 759730,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/METADATA_CHECK.json",
+      "sha256": "30a2c0775ac0e742e138cbc213ea6fc9b2219b895a8eecd0f63982dab6f4d2ff"
+    }
+  },
+  "clipped_read_recovered": true,
+  "failed_current_commands": [],
+  "historical_diagnostics_preserved": true,
+  "initial_authentication": {
+    "chunk": "e22481",
+    "exit_code": 0,
+    "source_and_review_namespaces": "RI15911/10;RI158review10/9"
+  },
+  "measurement_repair_assignment": {
+    "bytes": 3860,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/MEASUREMENT_REPAIR_ASSIGNMENT.json",
+    "sha256": "1cb89c7279761a3b892d9d8c440d97db3e0b5f5aecb4b43792b2bac19eff64e8"
+  },
+  "native_preliminary_read": {
+    "bytes": 3374,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/NATIVE_PRELIMINARY_REVIEW.md",
+    "sha256": "3d2ec56df3b4988bf28e8df597cd0bdb6224beb78f489e20db1194b078eb9045"
+  },
+  "native_review_assignment": {
+    "bytes": 2541,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/NATIVE_REVIEW_ASSIGNMENT.json",
+    "sha256": "44f7bf8548e07a47702c25ffd9e0fa0f10c5e89e4a67db80a00754f49eb20786"
+  },
+  "reads": [
+    {
+      "chunk": "421419",
+      "exit_code": 0,
+      "scope": "Full independent source narrative and verdict"
+    },
+    {
+      "chunk": "d539b8",
+      "exit_code": 0,
+      "scope": "Full independent metadata checker,sealer and actual tool records"
+    },
+    {
+      "chunk": "84e377",
+      "exit_code": 0,
+      "scope": "Complete custody_io and integration controls; control middle display clipped"
+    },
+    {
+      "chunk": "34ecda",
+      "exit_code": 0,
+      "scope": "Recovered control assertions135-176, changed saved-mode wrapper and actual adapter runner"
+    }
+  ],
+  "reviewer_reported_check": {
+    "chunk": "d5b033",
+    "exit_code": 0
+  },
+  "reviewer_reported_seal": {
+    "chunk": "9a7c64",
+    "exit_code": 0
+  },
+  "root_adjudication": {
+    "chunk": "601682",
+    "decision": {
+      "bytes": 2058,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/RI158_ROOT_ADJUDICATION.json",
+      "sha256": "d4b636f90564a7eba586de4bbb5f8bbb82f50a63d02c51c1b91f37471c57f7a9"
+    },
+    "exit_code": 0
+  },
+  "schema": "ri158-root-actual-tools-v1",
+  "scientific_body_decode": false,
+  "subject_or_control_execution": false
+}

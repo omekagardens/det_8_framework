@@ -1,0 +1,129 @@
+{
+  "author_declared_check": {
+    "chunk_id": "4ef446",
+    "exit_code": 0,
+    "independently_observed_by_reviewer": false,
+    "role": "exact retained author declaration only"
+  },
+  "current_failed_commands": [],
+  "display_clipping": "Long initial parallel source displays were clipped, recovered by subsequent targeted reads. No subject source was run.",
+  "metadata_check": {
+    "chunk_id": "d5b033",
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/CHECK.stderr",
+    "exit_code": 0,
+    "result": {
+      "bytes": 759737,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/METADATA_CHECK.json",
+      "sha256": "5597fa2d49190d53a909ae3fb1a6264afd00a408e813e2ee5118b078acd13d93"
+    },
+    "stderr": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/CHECK.stderr",
+    "stderr_bytes": 0,
+    "stdout": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/CHECK.stdout",
+    "tool": "exec_command"
+  },
+  "prior_diagnostics": "All fourteen prior RI156 review files, including its preserved failed/corrected administrative diagnostics, are among the 525 opaque identities.",
+  "read_transcript_note": "The initial parallel full adapter read also exited zero; its tool chunk identifier was not retained in the compacted transcript. Its clipped prefix was recovered in 508438. Do not infer a missing identifier or an extra runtime result. Read purposes are summaries, not fabricated exact shell transcripts.",
+  "review_authoring": {
+    "chunk_id": "51502e",
+    "exit_code": 0,
+    "scope": "Exclusive review narrative/verdict/actual-check file authoring; administrative JSON only"
+  },
+  "schema": "ri158-independent-actual-checks-v1",
+  "scope": {
+    "agents_spawned": false,
+    "card_admission_freeze_created": false,
+    "controls_executed": 0,
+    "repo_Git_index_write": false,
+    "runtime_observation": false,
+    "scientific_decode_or_evaluation": false,
+    "subject_import_compile_AST_probe_run": false
+  },
+  "seal_execution_record": "The final sealer invocation/result is delivered in the parent handoff. FINAL_PIN_CHECK and HANDOFF are created only after successful full source identity rechecks; no self-authenticated operational tool success is asserted.",
+  "source_and_administrative_reads": [
+    {
+      "chunk_id": "f38dd5",
+      "exit_code": 0,
+      "scope": "Initial subject/assignment pin and complete namespace verification; before source reading"
+    },
+    {
+      "chunk_id": "7ca1a6",
+      "exit_code": 0,
+      "scope": "Full repair/controls/authoring/README text; long display clipped; missing segments recovered"
+    },
+    {
+      "chunk_id": "508438",
+      "exit_code": 0,
+      "scope": "Recovered adapter first lines and authoring end, README and complete numbered mode verifier"
+    },
+    {
+      "chunk_id": "37bd60",
+      "exit_code": 0,
+      "scope": "Complete numbered integration controls"
+    },
+    {
+      "chunk_id": "acf2dc",
+      "exit_code": 0,
+      "scope": "Complete custody I/O, correspondence, inventory and declared author tools"
+    },
+    {
+      "chunk_id": "df3566",
+      "exit_code": 0,
+      "scope": "Complete bindings module"
+    },
+    {
+      "chunk_id": "398ef4",
+      "exit_code": 0,
+      "scope": "Complete old55 inert control module"
+    },
+    {
+      "chunk_id": "08f7ea",
+      "exit_code": 0,
+      "scope": "Complete author checker as text, predecessor root adjudication and full patch"
+    },
+    {
+      "chunk_id": "20e234",
+      "exit_code": 0,
+      "scope": "Administrative schema fields and final-source/publication metadata"
+    },
+    {
+      "chunk_id": "d16b31",
+      "exit_code": 0,
+      "scope": "Complete inherited protocol/control contract and monitor checks"
+    },
+    {
+      "chunk_id": "0b1792",
+      "exit_code": 0,
+      "scope": "Retained checker stdout/stderr and exact final-namespace/control finding locations"
+    },
+    {
+      "chunk_id": "f3164d",
+      "exit_code": 0,
+      "scope": "Read-only current working directory"
+    },
+    {
+      "chunk_id": "f56f7e",
+      "exit_code": 0,
+      "scope": "Read-only review reservation inventory"
+    },
+    {
+      "chunk_id": "de7de1",
+      "exit_code": 0,
+      "scope": "Fresh exact runner/control numbered paths and own administrative source"
+    },
+    {
+      "chunk_id": "50c0ca",
+      "exit_code": 0,
+      "scope": "Complete tree record schema, repair contract and review assignment"
+    },
+    {
+      "chunk_id": "1cfcea",
+      "exit_code": 0,
+      "scope": "Inherited reviewer authorship disclosure, complete changed mode tail and trusted helper text"
+    }
+  ],
+  "subject": {
+    "bytes": 12934,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/HANDOFF.json",
+    "sha256": "69638eb05897dc2e72c4a29f84d27593dff5e83b98e102c1efccc67f9ded4fa2"
+  }
+}

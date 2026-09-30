@@ -1,0 +1,48 @@
+{
+  "RET": "paused",
+  "confirmed_findings": [
+    "F02-R"
+  ],
+  "controls_defined": 84,
+  "controls_executed": 0,
+  "independent_review": {
+    "bytes": 5894,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/HANDOFF.json",
+    "sha256": "02f3ef205a747dfdc096f849c1ff64a58984b10a4c3eb635e292b284a1314619"
+  },
+  "metadata_replay": {
+    "bytes": 1731,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/MEASUREMENT_METADATA_REPLAY.json",
+    "sha256": "9d30c5d8061d198e378e35a81b97634d3e338029eb05295ee0440c47f30288e3"
+  },
+  "preliminary_trace": {
+    "bytes": 1391,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/MEASUREMENT_PRELIMINARY_FINDING.md",
+    "sha256": "9b9c08022fd7af6b442ae3b83ce9864515b3f40c083510649ae2b099a59500e0"
+  },
+  "qualification_or_whole_source_acceptance": false,
+  "resolved_source_traces": [
+    "F01 prior-pin baseline binding",
+    "ordinary produced-file final comparisons",
+    "verified saved-mode post/final-root comparison"
+  ],
+  "resource_thresholds_unchanged": true,
+  "root_review": {
+    "bytes": 4862,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/MEASUREMENT_ROOT_REVIEW.md",
+    "sha256": "09cfd38edd7129194ad1da607ad2f2aa949705f45d1e84e175ec006beeb5ac17"
+  },
+  "schema": "ri158-root-source-repair-adjudication-v1",
+  "scientific_decode_or_execution": false,
+  "status": "REQUIRE_F02_FIXTURE_NAMESPACE_RECONCILIATION_BEFORE_QUALIFICATION",
+  "subject": {
+    "bytes": 12934,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/HANDOFF.json",
+    "sha256": "69638eb05897dc2e72c4a29f84d27593dff5e83b98e102c1efccc67f9ded4fa2"
+  },
+  "verdict": {
+    "bytes": 5817,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/VERDICT.json",
+    "sha256": "b31b92db8a571db1bb3de68d2c730e7d691680a49ad6a97d0a60089a022a67fb"
+  }
+}
