@@ -1,67 +1,61 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-166's exact contrast identities,
-six-component separation and counterexample to its enumerated local relaxation
-are independently accepted. The full native-law comparison remains unresolved.
-The unchanged measurement adapter's actual 106-control run is now independently
-accepted as one inert metadata qualification. This checkpoint's evidence is in
-`docs/coordination/native_contrast_and_inert_outcomes_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** Independent RI167 source review
+confirms the improved pipe ownership and bounded direct-child reap, but finds
+one blocking write-error gap. A write-side BlockingIOError shares the silent
+nonblocking-read handler; after a successful input read this can discard the
+chunk without recording an error. A zero-progress write followed by clean EOF
+can leave mutually matching empty capture/count/hash and a success-shaped outer
+receipt. This is a manual source-path counterexample under an explicit I/O fault
+model, not an observed filesystem incident. Source and qualification acceptance
+remain withheld. Evidence is in `docs/coordination/native_supervisor_repair_review_v1/`.
 
-Complete C4 normalization gives Dminus=d7+Dplus+c0-c1. Therefore the proposed
-Dminus<=213*d7 bound requires Dplus+c0-c1<=212*d7, equivalently all three
-component halfspaces with coefficient 8733. The checked rational family satisfies
-all seven reduced premise groups for every 0<theta<1/144, yet Dminus/d7 is
-unbounded. It does not satisfy a checked complete native component table,
-all marked rows or a same-law global M5/canonical extension. The actual fixed
-109-vector remains unread; no full-law or physical counterexample is claimed.
-Root manual proof review and check 5830bf (exit 0) cover all eight packet files,
-252 historical identities and 223 unchanged inherited dependency rows.
+Root read all 586 source lines, the contract, command, 13 retained groups and
+28 focused recipes. Check 5ba0ee (exit 0) freshly reconciles the 18-file sealed
+packet, 33 original bindings, 325 inherited references and exact whole-source
+reverse projection. Eleven original functions, the five native source roles,
+request and final file/receipt tails remain unchanged. The root's initial span
+framing mismatch and its correction are retained as administrative diagnostics.
+No supervisor, vendor, observer, fixture or native qualification was executed.
 
-RI-168 is assigned to the existing Quantum Relativity task in
-`ri168-terminal-row-coupling-f50p8xyj/`. It must determine the complete marked-row
-coupling of those six components through every maximal-deletion presentation,
-including alternative parents, retained marks and labeled ideal multiplicities.
-The aim is a substantive cross-row bound or exact remaining obstruction.
-No symmetry of the asymmetric fixed prefix is assumed. This remains a manual
-native proof lane alongside the independent measurement work.
+RI-169 assigns the existing author only the read/write exception separation in
+`ri169-write-would-block-repair-7_868hay/`. Preserve all RI167 repairs and limits;
+add both streams' zero-progress and partial-prefix write exceptions plus a
+transient-read control. The successor requires fresh independent review before
+any actual supervisor qualification. RI167 and all earlier diagnostics remain
+immutable and external; this checkpoint publishes the review, not blocked source.
 
-The actual measurement run f3f711/session 66856 -> 9921e9 exited 0 and passed
-106/106 controls once. Independent review checked all outcomes, 22 late-fixture
-oracles, retained trees, nine tails and 130 monitor samples. Root replay 4bf10c
-and supplement 423834 both exited 0. The saved result records 232,815 predicates;
-terminal evidence/checker hashing brings the count to 232,833, plus 89 separate
-relation checks. Both counts and the corrected root count-assumption failure
-are retained. Current custody covers 1,810 vendor files, 195 directory/link
-records, four tools and 582 source observations over 581 distinct paths.
-SOURCE_SET is separately pinned and checked through the actual source tail.
-Elapsed time was 4.767447042 seconds, peak sampled child RSS 67,040 KiB,
-maximum sample gap 0.040021208 seconds and final gap 0.035053833 seconds.
+The existing Quantum Relativity task continues RI-168 in
+`ri168-terminal-row-coupling-f50p8xyj/`, tracing all marked-row couplings of the
+six native components through maximal deletion and alternative parents. RI166's
+exact normalization/halfspace equivalences and enumerated local counterexample
+remain accepted in verified 44188f4. The full native-law bound, complete row
+extension, same-law M5/canonical construction and actual 109-vector remain open.
+No record-flip symmetry or universal coefficient grid is assumed.
 
-The next measurement step is root's concrete current-E capture/baseline/profile
-preflight, then actual R01 applicability and separately admitted genuine
-normal-before-optimized WHITE15 qualification with independent saved arithmetic.
-Preserve complete 27/13/30 records, 57 artifacts, 74 postchecks and three trees.
-No RI131, WHITE15, full32, scientific-data admission or GWOSC reproduction credit
-comes from these inert controls. Preserve the 180-second/524288-KiB sampled-child,
-25-ms target, 100-ms gap, 50-ms ps and 960-second outer limits. They are not
-continuous or group memory quotas. Platform/tool trust and stable-loader premises
-remain explicit; read-window hashes are not an enforced filesystem freeze.
+Measurement's actual 106-control inert qualification remains independently
+accepted in verified 44188f4. RI-170 now assigns the existing measurement worker
+the exact next current-E capture/baseline/profile proposal in
+`ri170-measurement-current-e-preflight-gikj2giy/`, including consumer-required
+qualification/card bindings and prerequisites. It is source-only preflight,
+not runtime capture or an operational admission. Do not restart the completed
+controls. Actual R01 applicability, genuine normal-before-optimized WHITE15,
+complete 27/13/30 records, 57 artifacts, 74 postchecks, three trees and independent
+saved arithmetic remain separate. No scientific or GWOSC reproduction credit
+comes from inert metadata controls.
 
-RI-167's supervisor repair is sealed and awaits independent root source review;
-its 13 retained groups and 28 focused variants are all unexecuted. It is excluded
-from this accepted-source publication. Native 2,547-case qualification in each
-mode, the actual coefficient-vector grid check and QP04 admission remain pending.
-Preserve the 315-second supervisor and 300/120/2-second native limits, 512-MiB
-address-space/110-CPU-second/core-zero controls and 8-MiB output bounds.
-RI-164's finite static closure remains accepted under its explicit Apple trust
-premises, not as dynamic or hermetic closure. Prior startup failures retain
-zero qualification credit.
-
-Actual capacity, joint q/v, global M6/rho, W/C2/C3/shared H30, calibration and
-the native forward map remain open. Preserve P2/P3, Y=1/4, the 31/139/20/42
-obligations, shared T1, the other eight parents and all five Di. Root retains
-Git/index, admission and publication ownership. Historical evidence, unrelated
-edits and active reservations remain intact.
+Preserve native 315-second supervision, 300/120/2-second internal limits,
+512-MiB address space, 110 CPU seconds, core-zero and 8-MiB output bounds.
+The 2,547 native cases per mode, original-vector audit and QP04 remain unexecuted.
+Preserve measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target,
+100-ms gap, 50-ms ps and 960-second outer bounds. Platform/tool trust,
+read-window stability, incomplete fork coverage and startup/kernel limits remain
+explicit premises; there is no dynamic/hermetic closure or continuous/group RSS
+claim. Actual capacity, joint q/v, global M6/rho, W/C2/C3/shared H30, calibration,
+the native forward map and physical claims remain open. Keep P2/P3, Y=1/4,
+31/139/20/42 obligations, shared T1, the other eight parents and all five Di.
+Root retains Git/index, admissions and publication; unrelated and active edits
+remain preserved.
 The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
@@ -12544,4 +12538,64 @@ the native forward map remain open. Preserve P2/P3, Y=1/4, the 31/139/20/42
 obligations, shared T1, the other eight parents and all five Di. Root retains
 Git/index, admission and publication ownership. Historical evidence, unrelated
 edits and active reservations remain intact.
+The programme continues; RET alone remains paused.
+
+**30 September 2026 — supervisor error-path review and next independent steps.**
+
+**Current checkpoint — 30 September 2026 UTC.** Independent RI167 source review
+confirms the improved pipe ownership and bounded direct-child reap, but finds
+one blocking write-error gap. A write-side BlockingIOError shares the silent
+nonblocking-read handler; after a successful input read this can discard the
+chunk without recording an error. A zero-progress write followed by clean EOF
+can leave mutually matching empty capture/count/hash and a success-shaped outer
+receipt. This is a manual source-path counterexample under an explicit I/O fault
+model, not an observed filesystem incident. Source and qualification acceptance
+remain withheld. Evidence is in `docs/coordination/native_supervisor_repair_review_v1/`.
+
+Root read all 586 source lines, the contract, command, 13 retained groups and
+28 focused recipes. Check 5ba0ee (exit 0) freshly reconciles the 18-file sealed
+packet, 33 original bindings, 325 inherited references and exact whole-source
+reverse projection. Eleven original functions, the five native source roles,
+request and final file/receipt tails remain unchanged. The root's initial span
+framing mismatch and its correction are retained as administrative diagnostics.
+No supervisor, vendor, observer, fixture or native qualification was executed.
+
+RI-169 assigns the existing author only the read/write exception separation in
+`ri169-write-would-block-repair-7_868hay/`. Preserve all RI167 repairs and limits;
+add both streams' zero-progress and partial-prefix write exceptions plus a
+transient-read control. The successor requires fresh independent review before
+any actual supervisor qualification. RI167 and all earlier diagnostics remain
+immutable and external; this checkpoint publishes the review, not blocked source.
+
+The existing Quantum Relativity task continues RI-168 in
+`ri168-terminal-row-coupling-f50p8xyj/`, tracing all marked-row couplings of the
+six native components through maximal deletion and alternative parents. RI166's
+exact normalization/halfspace equivalences and enumerated local counterexample
+remain accepted in verified 44188f4. The full native-law bound, complete row
+extension, same-law M5/canonical construction and actual 109-vector remain open.
+No record-flip symmetry or universal coefficient grid is assumed.
+
+Measurement's actual 106-control inert qualification remains independently
+accepted in verified 44188f4. RI-170 now assigns the existing measurement worker
+the exact next current-E capture/baseline/profile proposal in
+`ri170-measurement-current-e-preflight-gikj2giy/`, including consumer-required
+qualification/card bindings and prerequisites. It is source-only preflight,
+not runtime capture or an operational admission. Do not restart the completed
+controls. Actual R01 applicability, genuine normal-before-optimized WHITE15,
+complete 27/13/30 records, 57 artifacts, 74 postchecks, three trees and independent
+saved arithmetic remain separate. No scientific or GWOSC reproduction credit
+comes from inert metadata controls.
+
+Preserve native 315-second supervision, 300/120/2-second internal limits,
+512-MiB address space, 110 CPU seconds, core-zero and 8-MiB output bounds.
+The 2,547 native cases per mode, original-vector audit and QP04 remain unexecuted.
+Preserve measurement 180 seconds/524288-KiB sampled child RSS, 25-ms target,
+100-ms gap, 50-ms ps and 960-second outer bounds. Platform/tool trust,
+read-window stability, incomplete fork coverage and startup/kernel limits remain
+explicit premises; there is no dynamic/hermetic closure or continuous/group RSS
+claim. Actual capacity, joint q/v, global M6/rho, W/C2/C3/shared H30, calibration,
+the native forward map and physical claims remain open. Keep P2/P3, Y=1/4,
+31/139/20/42 obligations, shared T1, the other eight parents and all five Di.
+Root retains Git/index, admissions and publication; unrelated and active edits
+remain preserved.
 The programme continues; RET alone remains paused.

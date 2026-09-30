@@ -1,0 +1,42 @@
+{
+  "actual_check": {
+    "chunk": "5ba0ee",
+    "exit_code": 0
+  },
+  "metadata": {
+    "bytes": 214686,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-root-supervisor-review-7tjkgvn6/INDEPENDENT_METADATA_CHECK.json",
+    "sha256": "fddd49bdb5e305eb22c976b923b5958b004c4a4a7c1119304ef2dbd6fda396b8"
+  },
+  "native_cases": 0,
+  "new_finding": {
+    "id": "F03",
+    "location": "supervise_native.py:375-394",
+    "proof_scope": "Manual source-path counterexample under explicit ordinary write-fault injection, not observed OS occurrence",
+    "severity": "blocking_before_qualification",
+    "title": "Write-side BlockingIOError swallowed by nonblocking-read retry",
+    "zero_progress_possible_false_capture": true
+  },
+  "original_F01": "Ownership and generic failure isolation repaired; narrower subtype gap remains",
+  "original_F02": "Source-level direct independent reap repaired; unexecuted",
+  "qualified_cases": 0,
+  "ret_paused": true,
+  "review": {
+    "bytes": 6462,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-root-supervisor-review-7tjkgvn6/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "330316c77a5409598c93c675e1a7f8f4e3ee4a8b2ef89ce0d2bb10dd93e925ae"
+  },
+  "schema": "ri167-independent-root-supervisor-review-v1",
+  "scientific_body_decoded": false,
+  "source": {
+    "bytes": 26254,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/supervise_native.py",
+    "sha256": "507c3c64e075d736e06dcc9a54f1261aed4d5f5c2211bb64d4b9f29732fec499"
+  },
+  "status": "REQUIRE_NARROW_WRITE_WOULD_BLOCK_REPAIR_BEFORE_SOURCE_ACCEPTANCE",
+  "subject": {
+    "bytes": 11003,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/HANDOFF.json",
+    "sha256": "ed3fabd4789e665965143455d70bb12f4b9285e51b8c862c7b6aa05b7d43f30c"
+  }
+}

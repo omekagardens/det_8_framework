@@ -1,0 +1,74 @@
+{
+  "exact_copies": 11,
+  "parent": "44188f414d76cee79024f760bbb8e768225a5fad",
+  "payload": [
+    {
+      "bytes": 181791,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "b398be88dd91f41546b44476ee4f869d369087f99f5de40c06d10e72cf39b7b2"
+    },
+    {
+      "bytes": 1335,
+      "path": "README.md",
+      "sha256": "37bc8ab7358f25479b8f2bfa4cdf89d9ab03991b74cf3eadf4dd43b00f7d1f5f"
+    },
+    {
+      "bytes": 433,
+      "path": "root/CHECKER_DIAGNOSTIC.json",
+      "sha256": "d66b6ed4ca1ce17ca8a40fc231707d85a37b063a3f7f7d2cf8d7ae6ee6ba6e00"
+    },
+    {
+      "bytes": 673,
+      "path": "root/CHECKER_SPAN_REPAIR.diff",
+      "sha256": "f7aa38e57bdd6764f786919aa1af7102993f023986aaee7831ff22eb46ac483f"
+    },
+    {
+      "bytes": 214686,
+      "path": "root/INDEPENDENT_METADATA_CHECK.json",
+      "sha256": "fddd49bdb5e305eb22c976b923b5958b004c4a4a7c1119304ef2dbd6fda396b8"
+    },
+    {
+      "bytes": 6462,
+      "path": "root/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "330316c77a5409598c93c675e1a7f8f4e3ee4a8b2ef89ce0d2bb10dd93e925ae"
+    },
+    {
+      "bytes": 1875,
+      "path": "root/RI167_ROOT_ADJUDICATION.json",
+      "sha256": "a58cf5004a3344e40e700257756a9b93099e42c82121a3409033f4f440f59957"
+    },
+    {
+      "bytes": 1679,
+      "path": "root/RI169_REPAIR_ASSIGNMENT.json",
+      "sha256": "c7e82a6a4f931f3e1c279d6149c69dee0314ab982fb96148619bca7d0232b21f"
+    },
+    {
+      "bytes": 2744,
+      "path": "root/RI170_MEASUREMENT_ASSIGNMENT.json",
+      "sha256": "5d463e75cb0fc5c611ea10bfcf8fa4d37a0d4d46a469523da6a6bd372591a08c"
+    },
+    {
+      "bytes": 10233,
+      "path": "root/SUBJECT_AUTHENTICATION.json",
+      "sha256": "3242ac5d92901d9f6d1d9dc51fcd62b44d0c95da9cefa2e76600f9a284f91f3e"
+    },
+    {
+      "bytes": 4137,
+      "path": "root/check_metadata.initial.py",
+      "sha256": "63ea9f57f0f135eaecd0e49c8ba03ec30cefe5e4553be884c533347ba739431c"
+    },
+    {
+      "bytes": 4153,
+      "path": "root/check_metadata.py",
+      "sha256": "792716d8089fbbbe0bf8c5723f081a22309ba7ce1f48b78da09fe922bec0d163"
+    },
+    {
+      "bytes": 2879,
+      "path": "root/decide.py",
+      "sha256": "886b3c6a7b8befee64f09743809901315860b6cde96ec18a271793d3f91900d7"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

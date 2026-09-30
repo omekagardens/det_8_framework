@@ -1,0 +1,17 @@
+{
+  "allowed": "Source-only manual/literal editing and metadata with Node or Homebrew Python. No subject/vendor/ps/helper/fixture execution, import/compile/AST, scientific bodies, new agents, repository/index/Git or operational cards.",
+  "checks": "Preserve13 groups and28 recipes. Add explicit stdout/stderr zero-progress and after-prefix write BlockingIOError recipes plus read-side transient would-block followed by intact read. These are unexecuted recipes; do not claim actual coverage.",
+  "deliverable": "Exact narrow diff, immutable source/hand-off and checks for fresh independent root review; no self-acceptance or qualification.",
+  "measurement_separate": true,
+  "owner": "/root/ri116_complete_caller_review",
+  "predecessor": {
+    "bytes": 1875,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-root-supervisor-review-7tjkgvn6/RI167_ROOT_ADJUDICATION.json",
+    "sha256": "a58cf5004a3344e40e700257756a9b93099e42c82121a3409033f4f440f59957"
+  },
+  "preserve": "All other source, F01/F02 repairs, request, native five source roles, command except successor supervisor path/pin,315-second/8MiB bounds, full tails and all trust/ownership caveats. No new architecture or deadline.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay",
+  "ret_paused": true,
+  "schema": "ri169-root-supervisor-write-error-repair-assignment-v1",
+  "task": "Scope the caller pump silent BlockingIOError retry to os.read alone. Write-side would-block (zero progress or partial prefix) must record the original pump error, disable/close only that stream and preserve healthy sibling drain. Keep RI167 immutable."
+}
