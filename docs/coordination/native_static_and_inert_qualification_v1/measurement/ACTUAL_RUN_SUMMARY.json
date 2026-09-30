@@ -1,0 +1,61 @@
+{
+  "complete": {
+    "bytes": 3455655,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri162-inert106-wb69vu5s/COMPLETE.json",
+    "sha256": "5a4c0ba0ab2b963e3dc946c183e69ec19575157413fc86d777bc33ba98d2532c"
+  },
+  "complete_file_externally_included": true,
+  "elapsed_seconds": 4.767447042000001,
+  "final_gap_seconds": 0.03505383300000009,
+  "fixture_genuine_credentials": false,
+  "genuine_initial": {
+    "bytes": 4938,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_INITIAL_TOOL.json",
+    "sha256": "360e8961008de8ec3a4089a28365a58fcf3b3fe747d7b8d24d5eeedbb3b9e7d9"
+  },
+  "genuine_terminal": {
+    "bytes": 487,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_TERMINAL_TOOL.json",
+    "sha256": "9d3b52fe299bbec1fbd5f4d5a1c7577de5e1d1ec6b9c1b09de23f2a34954b5d4"
+  },
+  "host_uname_unchanged": true,
+  "maximum_sample_gap_seconds": 0.040021207999999975,
+  "monitor": {
+    "bytes": 33024,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-monitor-proposed-wb69vu5s/CONTROLS.COMPLETION.json",
+    "sha256": "b2702177bb6d128da209d405f149fd12aa6beb14f5855b22972ecb68635116d3"
+  },
+  "namespace_entries_rechecked": 195,
+  "observed_at_unix_ns": 1790798783742896000,
+  "operation_files": 2468,
+  "peak_sampled_rss_kib": 67040,
+  "preflight": {
+    "bytes": 3665,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "cd80d59cd9967afaf398d6b7c90c363c0c9dcfaf5deec1317cd550810ef73936"
+  },
+  "primitives_rechecked": 4,
+  "records": 106,
+  "result": {
+    "bytes": 3245944,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri162-inert106-wb69vu5s/RESULT.json",
+    "sha256": "838059a30c617a6df1694fa97477bb214d5e3c379baadd80fc03abcafff7a0c9"
+  },
+  "ret_paused": true,
+  "runtime_before": {
+    "bytes": 1260498,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/RUNTIME_BEFORE.json",
+    "sha256": "f1e68be3f1f96473876862ee679937c4c842d7ff7999d3502476a64c9c74ecd9"
+  },
+  "samples": 130,
+  "schema": "ri162-root-actual-inert106-tail-v1",
+  "scientific_execution": false,
+  "sources_before": {
+    "bytes": 338797,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/SOURCES_BEFORE.json",
+    "sha256": "e88f64b4834c7c2fcd13ea835fd74485ae9d124d04eaca41799788f1466d2817"
+  },
+  "sources_rechecked": 582,
+  "status": "GENUINE_OPERATION_FINISHED_PENDING_FULL_INDEPENDENT_CONTROL_REVIEW",
+  "vendor_files_rechecked": 1810
+}

@@ -1,0 +1,89 @@
+{
+  "RET": "paused",
+  "actual_admin_check": {
+    "bytes": 1057,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/ADMIN_TOOL_RESULT.json",
+    "sha256": "4e637f1d3855de518366ae2469bb412f2c7356cd13766b6469a08f060b7b297d"
+  },
+  "actual_read_tools": [
+    {
+      "chunk_id": "a3b6d0",
+      "exit_code": 0,
+      "scope": "shell executable-path resolution, exclusive review reservation and complete root assignment"
+    },
+    {
+      "chunk_id": "c1da0b",
+      "exit_code": 0,
+      "scope": "given handoff and exact16/15 authentication before reading"
+    },
+    {
+      "chunk_id": "f10001",
+      "exit_code": 0,
+      "scope": "source1\u2013250"
+    },
+    {
+      "chunk_id": "486625",
+      "exit_code": 0,
+      "scope": "source247\u2013488 and entire supervision contract"
+    },
+    {
+      "chunk_id": "aebc0e",
+      "exit_code": 0,
+      "scope": "entire13-group design, authoring/failure/boundary/delta records"
+    },
+    {
+      "chunk_id": "d9320c",
+      "exit_code": 0,
+      "scope": "command proposal/facts/author final metadata and native caller source-location search"
+    },
+    {
+      "chunk_id": "a690db",
+      "exit_code": 0,
+      "scope": "native caller interface and complete owned mode/parent lifecycle, root manual review"
+    },
+    {
+      "chunk_id": "a4e3f7",
+      "exit_code": 0,
+      "scope": "both complete author administrative checker sources; allowlisted metadata key shapes"
+    },
+    {
+      "chunk_id": "3b26b7",
+      "exit_code": 0,
+      "scope": "publication metadata, complete request/dispatch wrappers and neighboring SDK text"
+    },
+    {
+      "chunk_id": "fe8e58",
+      "exit_code": 0,
+      "scope": "correct exact SDK unsupported-tracking note at354\u2013361"
+    }
+  ],
+  "administrative_helper_imports": "No subject/helper imports; separate own administrative stdlib-only scripts.",
+  "author_boundary_disposition": "Six /usr/bin/python3 administrative uses may bootstrap selected vendor; violation retained without qualification credit. This reviewer used literal Homebrew administrative Python only.",
+  "author_clipped_policy": "0cb8b9 acknowledged; exact bytes only, no wholesale manual policy2004-path review claimed.",
+  "exclusive_review_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA",
+  "own_display_truncations": [],
+  "own_failed_commands": [],
+  "own_subject_invocations": [],
+  "preserved_author_diagnostics": {
+    "bytes": 1931,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/ADMIN_DIAGNOSTICS.json",
+    "sha256": "e8a230035b6e186ee33725428f357aeaa06cdce57a3a5014762461ee940984fb"
+  },
+  "preserved_author_failure": {
+    "bytes": 713,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/FAILED_ADMIN_TOOL.json",
+    "sha256": "10ac36769baaedb91d115c62dd005bb06280e81cbe82725e36802775727790b9"
+  },
+  "preserved_failed_author_checker": {
+    "bytes": 7149,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/prepare_metadata.py",
+    "sha256": "aa9017a110b9719d69cb53a719fc680b0ec3deba9dd9f61d20ebeaf585cb3bc5"
+  },
+  "read_location_correction": "Initial SDK270\u2013292 range contained neighboring declarations. fe8e58 retrieved actual354\u2013361 unsupported-tracking note. No failed capability probe or omitted output.",
+  "schema": "ri165-independent-reviewer-diagnostics-v1",
+  "seal_actual_result": "Delivered separately after this source/admin seal; not invented here.",
+  "source_review_write": {
+    "chunk_id": "9365f5",
+    "exit_code": 0
+  }
+}

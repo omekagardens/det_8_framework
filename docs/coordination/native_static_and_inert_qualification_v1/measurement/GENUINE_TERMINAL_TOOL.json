@@ -1,0 +1,23 @@
+{
+  "schema": "ri162-genuine-root-terminal-tool-v1",
+  "initial": {
+    "chunk_id": "f3f711",
+    "wall_time_seconds": 1.00130475,
+    "session_id": 66856,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "poll_arguments": {
+    "session_id": 66856,
+    "chars": "",
+    "max_output_tokens": 4000,
+    "yield_time_ms": 1000
+  },
+  "actual": {
+    "chunk_id": "9921e9",
+    "wall_time_seconds": 0.000010709,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  }
+}

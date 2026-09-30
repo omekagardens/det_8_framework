@@ -1,0 +1,151 @@
+{
+  "actual_measurement_records": [
+    {
+      "bytes": 4938,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_INITIAL_TOOL.json",
+      "sha256": "360e8961008de8ec3a4089a28365a58fcf3b3fe747d7b8d24d5eeedbb3b9e7d9"
+    },
+    {
+      "bytes": 487,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/GENUINE_TERMINAL_TOOL.json",
+      "sha256": "9d3b52fe299bbec1fbd5f4d5a1c7577de5e1d1ec6b9c1b09de23f2a34954b5d4"
+    },
+    {
+      "bytes": 2752,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/ACTUAL_RUN_SUMMARY.json",
+      "sha256": "6cb30ad211c8be4fe25e9bc036dcf7ee4ba3ef6341f7ce43f655ca64dfff4847"
+    }
+  ],
+  "full_measurement_outcome_acceptance_pending": true,
+  "measurement_inert_records": 106,
+  "measurement_post_source": {
+    "bytes": 5269,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/check_measurement_tail.py",
+    "sha256": "bc45b49b4bc0d951d61ce180b849d5aad48c03e39f7ada0871a5a8a42f8dc4e8"
+  },
+  "measurement_preflight_source": {
+    "bytes": 5687,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/prepare_measurement.py",
+    "sha256": "463d0a9dca9c5d494f0802b8e1650ba75aa52eb8b2054b3f5385d3ce75fde689"
+  },
+  "native_qualification_cases_executed": 0,
+  "no_target_execution_by_static_review": true,
+  "records": [
+    {
+      "action": "Root snapshot and RI164 exact packet authentication",
+      "chunk_id": "c95bb7",
+      "exit_code": 0
+    },
+    {
+      "action": "Exploratory metadata display clipped; no complete manual review claimed",
+      "chunk_id": "c6e1d7",
+      "exit_code": 0
+    },
+    {
+      "action": "Exploratory tool-resolution field lookup failed after successful selected output",
+      "chunk_id": "77f22e",
+      "exit_code": 1
+    },
+    {
+      "action": "Installed Apple format headers and bounded capture shapes",
+      "chunk_id": "cfd0d4",
+      "exit_code": 0
+    },
+    {
+      "action": "Original root binary checker root-object/path-string mismatch; original retained",
+      "chunk_id": "dd03a2",
+      "exit_code": 1
+    },
+    {
+      "action": "Recovered exact root policy/tool target shapes",
+      "chunk_id": "bcdd16",
+      "exit_code": 0
+    },
+    {
+      "action": "Independent full binary/capture/static graph audit passed",
+      "chunk_id": "b1bf8e",
+      "exit_code": 0
+    },
+    {
+      "action": "Root static adjudication and RI166 assignment",
+      "chunk_id": "a53c07",
+      "exit_code": 0
+    },
+    {
+      "action": "Fresh whole-vendor/source/environment preflight and one-shot measurement admission",
+      "chunk_id": "3de2cf",
+      "exit_code": 0
+    },
+    {
+      "action": "Read exact authorized dispatch",
+      "chunk_id": "c7196b",
+      "exit_code": 0
+    },
+    {
+      "action": "Actual measurement command pending session66856; no exit code yet",
+      "chunk_id": "f3f711",
+      "exit_code": null
+    },
+    {
+      "action": "Actual session66856 terminal result with empty output",
+      "chunk_id": "9921e9",
+      "exit_code": 0
+    },
+    {
+      "action": "Root actual measurement source/runtime/cards/output post-custody and sample check",
+      "chunk_id": "9b69eb",
+      "exit_code": 0
+    },
+    {
+      "action": "Authenticated RI165 source packet and read source1\u2013245",
+      "chunk_id": "56f266",
+      "exit_code": 0
+    },
+    {
+      "action": "Remaining source/contract display clipped; final source tail recovered",
+      "chunk_id": "5bb9ef",
+      "exit_code": 0
+    },
+    {
+      "action": "Recovered supervisor436\u2013488 and full prospective checks; unrelated publication display clipped",
+      "chunk_id": "bb2a4a",
+      "exit_code": 0
+    },
+    {
+      "action": "Large nested result/tail display clipped; typed projection recoveredef7fa4",
+      "chunk_id": "fe4f8b",
+      "exit_code": 0
+    },
+    {
+      "action": "Recovered nine independent-tail statuses, all error null",
+      "chunk_id": "ef7fa4",
+      "exit_code": 0
+    },
+    {
+      "action": "Authenticated independent RI165 review; lengthy narrative display clipped",
+      "chunk_id": "62c8d4",
+      "exit_code": 0
+    },
+    {
+      "action": "Recovered complete critical F02 passage; verdict remainder is administrative source-bound",
+      "chunk_id": "99b817",
+      "exit_code": 0
+    },
+    {
+      "action": "Root rehashed341 RI165 review identities, adjudicated two findings and assignedRI167",
+      "chunk_id": "b40b97",
+      "exit_code": 0
+    }
+  ],
+  "retained_failed_checker": {
+    "bytes": 10113,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/check_static.py",
+    "sha256": "24567147de75eb69c52c541d43a9de66935c5755e094bd0971c5f7027400f91f"
+  },
+  "root_static_checker": {
+    "bytes": 10091,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/check_static_v2.py",
+    "sha256": "bc237125b4d3e3bee6a5b5675da7cd8a93b346015c84139f24113d42412c7d8d"
+  },
+  "schema": "ri164-root-static-and-inert-actual-tools-v1"
+}

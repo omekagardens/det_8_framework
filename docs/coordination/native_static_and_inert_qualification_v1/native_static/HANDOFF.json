@@ -1,0 +1,191 @@
+{
+  "schema": "ri164-static-native-supplier-author-handoff-v1",
+  "status": "SEALED_AUTHOR_PACKET_FOR_ROOT_REVIEW_NOT_RUNTIME_ADMISSION",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "bytes": 3661,
+    "sha256": "d39df4651c5e69cc8f11dc7484a610c22a9a6f6792617ab7844540d3f0773a62"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/RI163_ROOT_ADJUDICATION.json",
+    "bytes": 2324,
+    "sha256": "746b96126bcd2d0d74514d635d97f6b45072547a9d2a77bc0d61cf4780f8a340"
+  },
+  "accepted_preparation": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/HANDOFF.json",
+    "bytes": 13272,
+    "sha256": "ea9df2610f7969b626608866e10f78e597ea00d75e74f539148d86b970e18347"
+  },
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "INSPECTION_POLICY.json",
+    "NATIVE_GRAPH.json",
+    "NATIVE_OBJECTS.json",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "STATIC_CLOSURE.md",
+    "TOOL_OBSERVATIONS.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/AUTHOR_CHECKS.json",
+      "bytes": 46803,
+      "sha256": "25c9ed4d25f95cc102d368700d98409af07177fcdc8c195e99eb55ab121c0bbd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/DEPENDENCY_NOTES.md",
+      "bytes": 15580,
+      "sha256": "720c734c24c694521007a623618bbf3634c8bbbf2a1221c59173db9228cbe481"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/HANDOFF.md",
+      "bytes": 1821,
+      "sha256": "d2072da542f4eb3b2411c5cc3b2cebbc506b71f22dba54c3b2e8b1ff8db8b2d6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/INSPECTION_POLICY.json",
+      "bytes": 28176,
+      "sha256": "a75cbea6c6cf8fd3c5d650588aab7210a3452f75e63587c9594efce5d9dc49f3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/NATIVE_GRAPH.json",
+      "bytes": 210859,
+      "sha256": "02efe52b9427675d10bd7a1b86e1b0db16df71f4b06346639617f502c27271f3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/NATIVE_OBJECTS.json",
+      "bytes": 568260,
+      "sha256": "da6ad55303b955bae6830c1030f70cd22d97849696578c4cd875719c139e1031"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/SOURCE_DEPENDENCIES.json",
+      "bytes": 291030,
+      "sha256": "a67a59225d4a069602bd5cd0809c15ea955bec522b59d707d9e2c5b339eb8087"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/SOURCE_IDENTITIES.json",
+      "bytes": 28485,
+      "sha256": "37c8b002a8bdabedac6cb6b2f569a722819faabfdf7aaf455c808547e397c866"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/STATIC_CLOSURE.md",
+      "bytes": 8670,
+      "sha256": "b80492a84242be06f1e409e7d8a9ef608673549d99ce07d3a4e7ceb7c344a9e9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/TOOL_OBSERVATIONS.json",
+      "bytes": 1648911,
+      "sha256": "513914db85660eccf77e187434f2bb5c7be9f7b27f2b44078c4e9f9f486ce788"
+    }
+  ],
+  "static_findings": {
+    "selected_native_files": 76,
+    "selected_native_bytes": 22985616,
+    "slices": 152,
+    "declared_edges": 200,
+    "non_system_edge_occurrences": 2,
+    "system_edge_occurrences": 198,
+    "unique_system_names": 17,
+    "additional_non_system_suppliers": 0,
+    "unknown_load_commands": 0,
+    "rpath_load_commands": 0,
+    "dyld_environment_commands": 0,
+    "weak_edges": 0,
+    "lazy_edges": 0,
+    "reexport_edges": 0,
+    "upward_edges": 0,
+    "unresolved_non_system_edges": 0,
+    "missing_non_system_edges": 0,
+    "system_absent_disk_names": 16,
+    "system_regular_disk_names": 1,
+    "non_system_transitive_depth": 1,
+    "longest_simple_path_to_system_boundary": 2,
+    "system_internal_recursion_performed": false,
+    "signature_verify_successes": 76
+  },
+  "root_disposition_requested": "Accept RT02 only as this finite declared-load/non-system identity closure under explicitly accepted Apple-platform and dynamic-boundary premises. If broader hermetic/runtime closure is required, retain RT02 open. RI164 does not choose trust on root's behalf.",
+  "root_premises_required": [
+    "Accept exact installed Apple kernel, loader and shared-cache implementation/integrity for the recorded macOS26.5.2/build25F84, including resolution and availability of the17 explicitly listed system-candidate install names. On-disk absence neither proves nor disproves shared-cache availability.",
+    "Accept fixed tool implementations, code-signing policy and platform trust store as observation infrastructure; zero codesign status and displayed Apple chain alone do not establish an independent trust anchor.",
+    "Accept the stated installed-extension overapproximation as adequate STATIC non-system scope for the retained source operation, separately decide any dynamic-loader/import/environment assumptions and fresh custody."
+  ],
+  "source_provenance": {
+    "paths": 322,
+    "bytes": 37108627,
+    "inherited": 307,
+    "full_administrative_bodies": 112,
+    "projected_predecessor_envelopes": 1,
+    "historical_refs": 3100,
+    "current_refs": 64,
+    "historical_extended_state_noncomparisons": 17,
+    "separate_equal_byte_pairs": 4
+  },
+  "actual_author_checks": {
+    "preseal_chunk": "5af20c",
+    "preseal_exit_code": 0,
+    "preseal_namespace": 9,
+    "preseal_fresh_identities": 414,
+    "preseal10_chunk": "ab37c2",
+    "preseal10_exit_code": 0,
+    "final_seal_check": "Must run after this file exists; final tool completion and handoff identity will be sent to root separately.",
+    "native_tool_invocations": 304,
+    "initial_read_only_tool_invocations": 3,
+    "native_tool_nonzero_statuses": 0,
+    "inspection_tools_reexecuted_by_metadata_check": 0,
+    "retained_failures": [
+      {
+        "chunk": "13f3c4",
+        "exit_code": 1,
+        "kind": "strict metadata reader rejected otool symlink; declared/pinned resolution recovered"
+      },
+      {
+        "chunk": "8c8c7d",
+        "exit_code": 1,
+        "kind": "author checker incorrectly equated two initial wall-clock duration samples;2ms discrepancy retained, checker corrected"
+      }
+    ],
+    "conservative_inspection_time_ms": 3702.782006
+  },
+  "author_peer_review": {
+    "reviewer": "/root/ri132_audit_controls",
+    "status": "NO_BLOCKING_DEFECT_REPORTED_NOT_INDEPENDENT_ROOT_ACCEPTANCE",
+    "scope": "Read-only metadata/capture/graph/prose review; no native tool or target invocation and no edits.",
+    "reconciled": {
+      "objects": 76,
+      "slices": 152,
+      "edges": 200,
+      "system_edges": 198,
+      "non_system_edges": 2,
+      "system_names": 17,
+      "absent_system_leaf_paths": 16
+    },
+    "note_read_chunk": "3494f3",
+    "final_hash_chunk": "231bee",
+    "recovered_display_truncations": [
+      "Oversized initial TOOL_OBSERVATIONS capture recovered with eight bounded reads.",
+      "Verbose snapshot display recovered through complete structural field comparison and bounded differences."
+    ],
+    "all_shell_reads_exit_zero": true
+  },
+  "scope": {
+    "RT02": "Static non-system evidence complete; platform acceptance and scope adequacy root-owned",
+    "RT01": "RI165 separate external supervision",
+    "RT03": "Fresh operational admission and execution custody still required",
+    "RT04": "Actual process flag/resource behavior untested",
+    "measurement": "Conditional support for separately scoped vendor preflight only; not admitted",
+    "RET": "paused",
+    "python_target_control_execution": false,
+    "scientific_decoding": false,
+    "request_created": false,
+    "admission_created": false,
+    "operational_output_namespace_created": false,
+    "source_or_repository_modified": false,
+    "index_or_git_modified": false,
+    "new_agents": false
+  },
+  "stop": "Author work seals here. Root owns independent review, acceptance, operational dispatch and publication; no new successor assigned by this packet."
+}

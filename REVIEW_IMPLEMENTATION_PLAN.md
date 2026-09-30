@@ -1,68 +1,62 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-163's native qualification
-preparation is independently/root reviewed with confirmed dispatch gaps. RI-162's
-measurement command proposal is independently reviewed and root adopted for fresh
-preflight and a separate one-shot admission. Both decisions and exact preparation
-packets are published in `docs/coordination/qualification_preflight_decisions_v1/`.
-No native or measurement qualification controls have run.
+**Current checkpoint — 30 September 2026 UTC.** RI-164's finite static native
+supplier closure is independently accepted under explicit Apple platform premises.
+The unchanged measurement adapter has completed its 106 inert controls once;
+full independent review of the control outcomes is active. Evidence is published
+in `docs/coordination/native_static_and_inert_qualification_v1/`.
 
-Native RT01: the selected timeout is absent. The historical Perl alarm-then-exec
-recipe conflicts with the unchanged caller's timer guard. RI141's existing monitor
-cannot simply be reused natively: its no-descendants premise and 64 MiB sampled
-outputs differ from the caller's separate child sessions and 8 MiB outer limit.
-RT02: current framework hashes do not establish native library resolution or
-system loader/cache trust. Neither gap is a reason to restart the accepted proof.
+Root check b1bf8e (exit 0) independently read the binary headers of 76 native
+objects and compared all 152 slices and 2,186 load commands with the captures.
+All 200 dependency edges reconcile: two resolve to the selected framework and
+198 name 17 Apple system candidates. Fresh hashes cover 322 historical objects,
+76 native files and seven tools. The author's historical reference expansion is
+not relabeled as a root replay. Apple platform/tool trust is an explicit premise;
+system-cache inventory, dynamic loading and hermetic runtime closure are unproved.
+An actual loading failure must refuse the operation.
 
-Root check 4a4dfc exit 0 repeated 307 source identities, all 1,810 vendor files,
-185 directory name sets and ten link targets, exact proposal hashes and six absent
-operational paths. The accepted five native sources are unchanged. The author-only
-2,721 historical-reference expansion remains attributed; root did not rerun it.
-The 2,547 cases per mode remain prospective. Genuine source/runtime/host admission,
-complete outcome review and later separate QP04 actual-witness audit remain gates.
+RI-165's independent supervisor review found two ordinary failure gaps: a pump
+error can discard the healthy stream, and fallback kill can omit the available
+direct-child reap. Root accepted both findings and assigned RI-167's narrow repair
+to the existing author in `ri167-native-supervisor-repair-79xn8tjz/`. Preserve the
+315-second/8-MiB bounds, unchanged native sources/request and focused checks.
+The author's administrative system-Python startup exception remains disclosed
+and receives no qualification credit. No supervisor or native control has run.
 
-After this adjudication, the existing Quantum Relativity task owns RI-164 in
-`ri164-native-supplier-closure-ddcuy7rz/`, under the archive's
-`root/NATIVE_SUCCESSOR_ASSIGNMENT.json`. Resolve the static Mach-O/non-system
-supplier graph with bounded read-only inspection, preserving explicit system
-premises. The existing implementation agent owns RI-165 in
-`ri165-native-external-supervision-krvtol4v/`, under
-`root/SUPERVISION_ASSIGNMENT.json`: supply minimal external supervision compatible
-with the unchanged caller, separate timer, bounded captures and honest cleanup.
-Root owns subsequent independent review and actual admission; no new harness
-architecture or repeated user permission is required for these assigned steps.
+The existing Quantum Relativity task owns RI-166 in
+`ri166-native-contrast-gap-2j9ykuoq/`: determine whether Dminus <= 213*d7 follows
+from the retained native law and normalization without the unverified grid premise.
+A counterexample to a reduced constraint system cannot reject the full native law.
+The original 109-vector stays unread pending qualification and separate QP04.
+The 2,547 cases per mode (5,094 total) remain prospective. Native 300/120/2-second,
+512-MiB address-space, 110-CPU-second, core-zero and 8-MiB limits remain unchanged.
+A verified universal 1/1000 grid would imply lambda > d7 >= 41/44000 > 1/13000
+and reject only the retained sufficient envelope; GRID_FAIL removes that shortcut.
 
-Native caller/child/cleanup bounds remain 300/120/2 s, 512 MiB address space,
-110 CPU seconds, core zero and 8 MiB streams/reports. Address space is not RSS.
-Unsupported limits refuse; actual flags/resource installation remain untested.
-The actual final 109-component grid is still unknown. An accepted universal
-1/1000 grid with retained strict core order gives
-lambda>d7>=41/44000>1/13000 and rejects only the retained sufficient envelope.
-GRID_FAIL removes that shortcut; refusal establishes neither result.
+Fresh measurement preflight 3de2cf (exit 0) authenticated the bootstrap binding,
+all 1,810 vendor files and 195 directory/link records, sources, primitives, host
+and controlled environment before root admission. Actual tool f3f711 returned
+session 66856; terminal 9921e9 exited 0 with empty output. The run reports 106/106
+passed in 4.767447042 seconds, with 130 valid samples and 67,040 KiB peak sampled
+child RSS. Root postcheck 9b69eb (exit 0) reconciled all samples/gaps/peaks,
+source/vendor/card identities and the full external tree including COMPLETE.
+All nine adapter tail checks report no error. Full independent control, oracle
+and fixture review remains required; this checkpoint does not accept qualification.
+
+Preserve the 180-second/524288-KiB sampled-child, 25-ms target, 100-ms gap, 50-ms ps
+and 960-second outer bounds. These are not continuous or group memory quotas.
+After acceptance, advance unchanged current-E capture/baseline/profiles, actual
+R01 applicability, genuine normal-before-optimized ordering, complete 27/13/30
+records, 57 artifacts, 74 postchecks, three trees and independent saved arithmetic.
+Actual 15 WHITE, RI131, full32 and selected public GWOSC conventional reproduction
+remain separate. Inert credentials gain no genuine runtime or scientific credit.
+Calibration, the native forward map and physical claims remain open.
+
 Actual capacity, adequate joint q/v, global M6/rho and W/C2/C3/shared H30 remain
 open. Preserve P2/P3, Y=1/4, 31 focused/139 policy/20 native/42 audit deeper cases,
-strict endpoints, multiplicities, shared T1, other eight parents and five Di.
-
-RI-162 needs no measurement command-source repair. Root replay cf71b8 and
-comparison 4a4dfc exit 0 reproduce 3,224 predicates, 623 source/review objects,
-567 dependencies, 642 fresh identities, eight unchanged monitor spans and all
-17 invocation lines. Every independent report field matches except schema/time.
-The selected vendor still equals RI-160's immutable full binding; all eight
-measurement operation paths remain absent. All 106 controls remain unexecuted.
-Next: root's genuine current supplier/host/environment bracket, exclusive setup,
-one-shot admission and actual bounded qualification, followed by independent
-full-outcome review. RI-164 supplies relevant static vendor evidence without
-admitting or conflating the separate measurement operation.
-
-Preserve 180 s / 524288 KiB sampled-child RSS / 25 ms poll / 100 ms maximum gap /
-50 ms sample timeout, file/capture/tree limits and genuine 960 s outer bound.
-R01 actual path applicability, current-E unchanged RI141 capture/baseline/profiles,
-genuine normal before optimized, complete 27/13/30 records, 57 artifacts,
-74 postchecks, three trees and independent saved arithmetic remain later gates.
-RI131, 15 WHITE, full32, periodic/mean/join and conventional selected public GWOSC
-reproduction stay distinct; calibration and a native forward map remain open.
-Root owns Git and admissions; active source work, unrelated edits and immutable
-historical evidence are preserved. No physical claim is advanced here.
+strict endpoints, multiplicities, shared T1, the other eight parents and five Di.
+Root owns Git, admissions and independent acceptance; historical evidence,
+unrelated edits and active work remain preserved.
 The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
@@ -110,7 +104,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-163 gaps confirmed; RI-164 resolves static native suppliers. Actual grid/capacity/H30 remain open. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-166 native contrast-to-gap proof question active. Actual grid/capacity/H30 remain open. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | Explicitly paused. G2 and calibration obligations remain historical open items; no RET work resumes without the user lifting that pause. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -143,9 +137,9 @@ Active file reservations, updated 30 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task and coordinator reviewers | QR owns `ri164-native-supplier-closure-ddcuy7rz/`; existing implementation agent owns `ri165-native-external-supervision-krvtol4v/`. Root owns review, admission and actual outcomes. |
+| QR task and coordinator reviewers | QR owns RI166; existing author owns RI167 supervisor repair. Root owns source/outcome review, admission and Git. |
 | Native current-runtime review | Native scientific execution remains separately gated; RI-151 analytic formula accepted. Root owns future admissions. |
-| Measurement source implementation/review | RI-162 exact command proposal adopted after independent/root review. Actual 106 controls await genuine current supplier/host preflight and separate root admission. |
+| Measurement source implementation/review | Actual 106 controls completed under genuine root admission; complete independent outcome review active. Later current-E/WHITE/GWOSC remain separate. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -238,10 +232,12 @@ Active file reservations, updated 30 September UTC:
 | RI-159 complete final-witness grid audit | Exact source accepted and published in verified `53a2fc4`; no actual grid result. Next: RI-161 qualification harness/caller under independent review; retain QP01-QP04. |
 | RI-160 final fixture custody repair | F02-R exact source repair independently/root accepted; all 106 controls unexecuted. Next: RI-162 concrete bounded qualification preflight, then root admission and independent outcome review. |
 | RI-161 grid qualification source | Exact unexecuted source independently/root accepted; 2,547 defined cases per mode. Next: RI-163 concrete invocation and runtime preflight; root-admitted actual qualification and independent outcome review precede QP04. |
-| RI-162 inert qualification preflight | Exact command proposal independently/root adopted; no source repair; 106 controls unexecuted. Next: Fresh current supplier/host/environment bracket, exclusive setup and one-shot actual qualification with independent outcomes. |
-| RI-163 native qualification preflight | Preparation accepted with confirmed missing supervisor and native supplier closure. Next: RI-164 static graph and RI-165 minimal external supervision; root admission then actual qualification. |
-| RI-164 static native supplier closure | Assigned to existing QR task after RI-163 adjudication. Next: Bounded read-only Mach-O resolution and non-system supplier identities; separate explicit system/runtime premises. |
-| RI-165 native external supervision | Assigned to existing implementation agent after confirmed RT01. Next: Minimal separate timer, bounded durable outer captures and separately sessioned child cleanup; accepted harness unchanged. |
+| RI-162 inert qualification preflight | Genuine106-control run completed once; monitor androot custody pass; full independent outcome review active. |
+| RI-163 native qualification preflight | Static suppliers accepted under explicit premises; external supervisor requires two narrow repairs before qualification. |
+| RI-164 static native supplier closure | Independently accepted finite static closure:76objects/152slices/2186commands/200edges; platform/dynamic premises retained. |
+| RI-165 native external supervision | Independent/root F01/F02 findings require sibling-capture anddirect-reap repair; author startup exception retained; no qualification credit. |
+| RI-166 native contrast-to-gap implication | Assigned to existing QR task afterRI164 adjudication. |
+| RI-167 native supervisor ordinary-failure repair | Assigned to existing author after independent/root F01/F02 adjudication; no new harness. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -8392,3 +8388,64 @@ externally pinned. Source/check failures and actual-tool provenance remain in
 root/ACTUAL_TOOLS.json; scoped publication and remote receipts are retained in
 ri163-root-preflight-review-u80slv0b. Active assignments and unrelated edits are
 excluded. No calibrated,native-forward-map or physical result follows.
+
+
+**RI-164/165 adjudication and actual inert106 execution — 30 September 2026 UTC.**
+RI-164's finite static native
+supplier closure is independently accepted under explicit Apple platform premises.
+The unchanged measurement adapter has completed its 106 inert controls once;
+full independent review of the control outcomes is active. Evidence is published
+in `docs/coordination/native_static_and_inert_qualification_v1/`.
+
+Root check b1bf8e (exit 0) independently read the binary headers of 76 native
+objects and compared all 152 slices and 2,186 load commands with the captures.
+All 200 dependency edges reconcile: two resolve to the selected framework and
+198 name 17 Apple system candidates. Fresh hashes cover 322 historical objects,
+76 native files and seven tools. The author's historical reference expansion is
+not relabeled as a root replay. Apple platform/tool trust is an explicit premise;
+system-cache inventory, dynamic loading and hermetic runtime closure are unproved.
+An actual loading failure must refuse the operation.
+
+RI-165's independent supervisor review found two ordinary failure gaps: a pump
+error can discard the healthy stream, and fallback kill can omit the available
+direct-child reap. Root accepted both findings and assigned RI-167's narrow repair
+to the existing author in `ri167-native-supervisor-repair-79xn8tjz/`. Preserve the
+315-second/8-MiB bounds, unchanged native sources/request and focused checks.
+The author's administrative system-Python startup exception remains disclosed
+and receives no qualification credit. No supervisor or native control has run.
+
+The existing Quantum Relativity task owns RI-166 in
+`ri166-native-contrast-gap-2j9ykuoq/`: determine whether Dminus <= 213*d7 follows
+from the retained native law and normalization without the unverified grid premise.
+A counterexample to a reduced constraint system cannot reject the full native law.
+The original 109-vector stays unread pending qualification and separate QP04.
+The 2,547 cases per mode (5,094 total) remain prospective. Native 300/120/2-second,
+512-MiB address-space, 110-CPU-second, core-zero and 8-MiB limits remain unchanged.
+A verified universal 1/1000 grid would imply lambda > d7 >= 41/44000 > 1/13000
+and reject only the retained sufficient envelope; GRID_FAIL removes that shortcut.
+
+Fresh measurement preflight 3de2cf (exit 0) authenticated the bootstrap binding,
+all 1,810 vendor files and 195 directory/link records, sources, primitives, host
+and controlled environment before root admission. Actual tool f3f711 returned
+session 66856; terminal 9921e9 exited 0 with empty output. The run reports 106/106
+passed in 4.767447042 seconds, with 130 valid samples and 67,040 KiB peak sampled
+child RSS. Root postcheck 9b69eb (exit 0) reconciled all samples/gaps/peaks,
+source/vendor/card identities and the full external tree including COMPLETE.
+All nine adapter tail checks report no error. Full independent control, oracle
+and fixture review remains required; this checkpoint does not accept qualification.
+
+Preserve the 180-second/524288-KiB sampled-child, 25-ms target, 100-ms gap, 50-ms ps
+and 960-second outer bounds. These are not continuous or group memory quotas.
+After acceptance, advance unchanged current-E capture/baseline/profiles, actual
+R01 applicability, genuine normal-before-optimized ordering, complete 27/13/30
+records, 57 artifacts, 74 postchecks, three trees and independent saved arithmetic.
+Actual 15 WHITE, RI131, full32 and selected public GWOSC conventional reproduction
+remain separate. Inert credentials gain no genuine runtime or scientific credit.
+Calibration, the native forward map and physical claims remain open.
+
+Actual capacity, adequate joint q/v, global M6/rho and W/C2/C3/shared H30 remain
+open. Preserve P2/P3, Y=1/4, 31 focused/139 policy/20 native/42 audit deeper cases,
+strict endpoints, multiplicities, shared T1, the other eight parents and five Di.
+Root owns Git, admissions and independent acceptance; historical evidence,
+unrelated edits and active work remain preserved.
+The programme continues; RET alone remains paused.

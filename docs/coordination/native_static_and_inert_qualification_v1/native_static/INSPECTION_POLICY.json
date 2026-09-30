@@ -1,0 +1,516 @@
+{
+  "schema": "ri164-bounded-native-inspection-policy-v1",
+  "status": "PREDECLARED_STATIC_INSPECTION_ONLY_NOT_RUNTIME_ADMISSION",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "bytes": 3661,
+    "sha256": "d39df4651c5e69cc8f11dc7484a610c22a9a6f6792617ab7844540d3f0773a62"
+  },
+  "root_selection_source": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/OBSERVATION_POLICY.json",
+    "bytes": 562853,
+    "sha256": "d08cd1653d2091b1e6ce6be09ba057bf16b5aff777bcff9354ce746befe45f54"
+  },
+  "selected_roots": [
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "role": "direct_interpreter"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Python3",
+      "role": "framework_binary"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_asyncio.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_bisect.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_blake2.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_bz2.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_codecs_cn.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_codecs_hk.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_codecs_iso2022.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_codecs_jp.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_codecs_kr.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_codecs_tw.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_contextvars.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_crypt.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_csv.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_ctypes.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_ctypes_test.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_curses.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_curses_panel.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_datetime.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_dbm.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_decimal.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_elementtree.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_hashlib.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_heapq.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_json.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_lsprof.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_lzma.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_md5.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_multibytecodec.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_multiprocessing.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_opcode.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_pickle.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_posixshmem.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_posixsubprocess.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_queue.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_random.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_scproxy.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_sha1.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_sha256.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_sha3.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_sha512.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_socket.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_sqlite3.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_ssl.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_statistics.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_struct.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_testbuffer.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_testcapi.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_testimportmultiple.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_testinternalcapi.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_testmultiphase.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_tkinter.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_uuid.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_xxsubinterpreters.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_xxtestfuzz.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_zoneinfo.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/array.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/audioop.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/binascii.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/cmath.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/fcntl.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/grp.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/math.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/mmap.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/nis.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/parser.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/pyexpat.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/readline.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/resource.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/select.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/syslog.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/termios.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/unicodedata.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/xxlimited.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    },
+    {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/zlib.cpython-39-darwin.so",
+      "role": "installed_native_extension_overapproximation"
+    }
+  ],
+  "root_boundary": "Both fixed bootstrap roots and all74 installed lib-dynload .so files, including test/optional modules. This is an installed-extension overapproximation, not a claim that qualification imports them. All Mach-O slices inspected; host evidence does not prove eventual loader selection.",
+  "selected_initial_tools": [
+    "/usr/bin/otool",
+    "/usr/bin/file",
+    "/usr/bin/codesign",
+    "/usr/bin/xcrun",
+    "/usr/bin/sw_vers",
+    "/usr/bin/uname"
+  ],
+  "permitted_tool_argv_patterns": [
+    [
+      "/usr/bin/xcrun",
+      "--find",
+      "otool"
+    ],
+    [
+      "/usr/bin/sw_vers"
+    ],
+    [
+      "/usr/bin/uname",
+      "-srmv"
+    ],
+    [
+      "/usr/bin/file",
+      "EXACT_SELECTED_IMAGE"
+    ],
+    [
+      "EXACT_RECORDED_OTOOL",
+      "-arch",
+      "all",
+      "-h",
+      "-L",
+      "-l",
+      "EXACT_SELECTED_IMAGE"
+    ],
+    [
+      "/usr/bin/codesign",
+      "--display",
+      "--verbose=4",
+      "EXACT_SELECTED_IMAGE"
+    ],
+    [
+      "/usr/bin/codesign",
+      "--verify",
+      "--strict",
+      "--verbose=2",
+      "EXACT_SELECTED_IMAGE"
+    ]
+  ],
+  "tool_resolution": "Initial Apple tools are whole-pinned before invocation. xcrun may only identify otool; its exact returned normalized path under /Applications/Xcode.app/Contents/Developer is recorded and byte-pinned before use. No PATH search for alternate tools. Symlink hops are recorded and resolved before reading the selected target; unresolved/missing tool is a failure.",
+  "tool_environment": {
+    "LANG": "C",
+    "LC_ALL": "C",
+    "PATH": "/usr/bin:/bin"
+  },
+  "limits": {
+    "native_objects": 256,
+    "graph_depth": 32,
+    "regular_file_bytes": 67108864,
+    "total_hashed_bytes": 1073741824,
+    "output_bytes_per_inspection": 2097152,
+    "seconds_per_read_only_tool": 15,
+    "aggregate_tool_seconds": 300,
+    "symlink_hops": 32,
+    "header_bytes": 65536
+  },
+  "observation_protocol": "Canonical absolute paths, whole byte hashes and stable descriptor/path state before/after bounded reads. Target images never loaded or invoked. Tool calls use explicit argv, closed environment and bounded captures/time; retain real status, signal, error and partial stdout/stderr. codesign display stderr is expected evidence, not automatic failure. No -deep scan.",
+  "native_resolution": {
+    "allowed_edges": "Only explicit Mach-O load/dylinker/rpath/environment records discovered from selected images. Preserve load-command kind, architecture, order, originating image and chain context. LC_ID_DYLIB is image identity, not a dependency.",
+    "anchors": {
+      "loader_path": "directory of the containing image",
+      "executable_path": "directory of the fixed direct Python executable",
+      "rpath": "ordered run-path candidates in recorded dependency-chain context; no global union"
+    },
+    "ambiguity": "Missing/ambiguous/noncanonical/unhandled/dynamic load context or bound exceedance is retained unresolved. Do not accept partial output or silently drop optional/test roots. Do not search user,home,PATH or arbitrary installation directories.",
+    "non_system": "Whole-pin every explicit resolved non-system supplier and link target, recurse within bounds, retain cycles and architecture availability.",
+    "system_candidates": "Absolute /usr/lib or /System/Library install names are system-CANDIDATE boundary edges, not trusted based on spelling. Label shared-cache/absent-disk images not whole-file pinned. Root must separately accept Apple kernel/loader/shared-cache and installed OS trust; never absorb third-party libraries into it.",
+    "dynamic_boundary": "Static declared dependencies cannot prove actual imports, arbitrary dlopen targets, environment-independent loaded graph, source/cache equivalence, uninterrupted custody or runtime behavior."
+  },
+  "code_execution_excluded": [
+    "Python candidate/vendor bootstrap",
+    "accepted caller/harness/subjects",
+    "historical scientific helpers",
+    "scientific bodies/fixtures"
+  ],
+  "external_supervision": "RI165 separately assigned; no timeout/capture launcher work here.",
+  "discovered_tool_paths": [
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool",
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/llvm-otool"
+  ],
+  "discovered_native_paths": [
+  {
+    "path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/System/Library/Frameworks/Tcl.framework/Versions/8.5/Tcl",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/System/Library/Frameworks/Tk.framework/Versions/8.5/Tk",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/dyld",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libSystem.B.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libbz2.1.0.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libcrypto.44.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libedit.3.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libffi.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/liblzma.5.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libncurses.5.4.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libpanel.5.4.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libsqlite3.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libssl.46.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  },
+  {
+    "path": "/usr/lib/libz.1.dylib",
+    "role": "explicit_system_candidate_boundary_edge",
+    "action": "bounded_component_lstat_readlink_only; no cache extraction or recursive system supplier scan"
+  }
+],
+  "policy_update_reason": "All76 selected images inspected; explicit absolute load/dylinker paths now declared for bounded on-disk path observations. The sole non-system edge normalizes to the already-selected framework binary; no newly selected non-system supplier.",
+  "initial_policy_snapshot": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz/INSPECTION_POLICY.json",
+    "bytes": 23058,
+    "sha256": "cdf5abf183766f98cf6bc1a48fc51faf21cad691f95512650be90e9079e97391"
+  },
+  "resolved_otool_selection": {
+    "selected_path": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/llvm-otool",
+    "symlink_chain": [
+      {
+        "path": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool",
+        "target": "llvm-otool"
+      }
+    ],
+    "type": "regular",
+    "bytes": 137664
+  }
+}
