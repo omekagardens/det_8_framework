@@ -1,0 +1,60 @@
+{
+  "RET_paused": true,
+  "bootstrap_post": {
+    "bytes": 1689907,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/BOOTSTRAP_POST.json",
+    "sha256": "77727df54d13477df3f4ac80b8192666949347e37b2c5813d7794846bb9e9b7d"
+  },
+  "bootstrap_pre": {
+    "bytes": 1689907,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/BOOTSTRAP_PRE.json",
+    "sha256": "77727df54d13477df3f4ac80b8192666949347e37b2c5813d7794846bb9e9b7d"
+  },
+  "current_runtime_qualified": false,
+  "diagnostic": {
+    "bytes": 1726,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/BOOTSTRAP_ENV_DIAGNOSTIC.json",
+    "sha256": "b3222b6d1ff9f07317f0beccd69e0f7b228026bd6213b7dc3838a65a4d49506e"
+  },
+  "dispatch": {
+    "bytes": 5022,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/ROOT_DISPATCH.json",
+    "sha256": "c51ec4fde41ff160a34f5cbe4ac44d13cba1f8117aa4de4ce9b3e7250240928d"
+  },
+  "finding": {
+    "actual_first_error": "ValueError: actual complete environment",
+    "actual_monitor_called": false,
+    "actual_terminal_exit": 1,
+    "bootstrap_pre_post_exact": true,
+    "controls_executed": 0,
+    "diagnostic_causality_scope": "Observed through the same /usr/bin/python3 vendor entry; not a full internal xcrun trace",
+    "failure_before_control_module_load": true,
+    "id": "RI137-F01-BOOTSTRAP-ENVIRONMENT",
+    "owned_output_created": false,
+    "post_refusal_diagnostic_extra_environment": {
+      "CPATH": "/usr/local/include",
+      "LIBRARY_PATH": "/usr/local/lib",
+      "MANPATH": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:",
+      "SDKROOT": "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    },
+    "retry": false,
+    "scope": "Operational bootstrap applicability failure, not an F01/F02 control outcome",
+    "source_and_cards_unchanged": true,
+    "source_review_did_not_establish_operational_applicability": true,
+    "tool_chunk": "feff2a"
+  },
+  "genuine_tool": {
+    "bytes": 2196,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/GENUINE_TOOL_INITIAL.json",
+    "sha256": "6f9a2ef39b583ae05eeff2069f8b04bd613fb3e65e4d30c96d7dbcab476f029a"
+  },
+  "schema": "ri137-root-actual-refusal-review-v1",
+  "scientific_execution": false,
+  "source_pre": {
+    "bytes": 168531,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/ROOT_PRE_ADMISSION_SOURCE_CHECK.json",
+    "sha256": "fece66e2e45b5a9ef4f404c30e84e0fcca9606974b472286608754c2e4c32824"
+  },
+  "source_repair_next": "Select and bind the actual authenticated vendor interpreter entry consistently in both commands, retain exact environment equality, fresh nonauthor source review then genuine root admission before another operation.",
+  "status": "REJECT_ACTUAL_ATTEMPT_ENVIRONMENT_MISMATCH"
+}

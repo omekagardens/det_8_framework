@@ -1,46 +1,45 @@
 # Current QR coordination — RI-136 authenticated policy dispatcher
 
-**Current checkpoint — 30 September 2026 UTC.** WHITE RI-135's two preparation
-repairs are independently reviewed and root-adjudicated as bounded unexecuted
-source. Archive: `docs/experiments/gwosc_white_preparation_repair_source_v1/`.
-F01 protects every initial owned-output operation and preserves the first error,
-independent tail groups and partials. F02 authenticates the complete historical
-interpreter binding and provenance before accepting current selection. RI-133
-remains rejected for preparation, with original source/findings unchanged.
+**Current checkpoint — 30 September 2026 UTC.** Native RI-136's immutable
+dispatcher is independently accepted as bounded unexecuted source. Archive:
+`docs/track_b/native_growth_policy_dispatch_source_v1/`. Complete nonauthor review
+covered 1,265 lines and all 139 declared cases. Root separately checked the full
+source/review namespaces, 373 dependencies, 343 retained entries/30 additions,
+785 new administrative references, fourteen manifest references, all literal case
+triples and the full seven-hunk correspondence. Zero policy cases have run.
 
-The nonauthor review covered all 1,365 source lines and 25 focused controls;
-253 dependencies, 30 original/copy pairs, 124 historical roles and the complete
-48-file RI130 namespace passed its actual metadata checks. Root separately
-reproduced source/review/predecessor custody, all 253 dependencies, 228 retained
-entries and 25 additions, both complete source deltas, 42 unchanged functions,
-unchanged bounds/65 declarations and the exact 14/11 focused-case inventory.
-No focused control has run. Two positive and 23 expected-failure constructions
-remain prospective; source acceptance is not runtime qualification.
+After adjudication, QR is implementing RI-138's concrete external bootstrap,
+custody and bounded launcher/collector in
+`ri138-native-external-launch-source-92pbd52w/`. Existing limits and independent
+late checks remain intact. Fresh review and genuine root admission precede use.
+The 20/42 deeper rows, native qualification, actual C2/C3 signs and simultaneous
+H30 feasibility remain open. The native scientific question stays active with
+its actual qualification/execution blocker recorded.
 
-After adjudication, RI-137 is assigned the minimal concrete bounded launcher in
-`ri137-focused-control-launcher-source-nykv2tsg/`. It reuses the exact accepted
-child monitor for the focused 25, with protected ownership and independent tails.
-Fresh wrapper review, genuine root bootstrap/host preflight and separate admission
-precede execution. Actual tool completion and sampled owned-child resource evidence
-cannot be supplied by self-reported success. Saved parent PID, loader/cache and
-stable-supplier/no-descendant limitations remain explicit.
+Measurement RI-137 passed complete source review and root adjudication, then one
+genuine separately admitted launch refused at the exact environment check. Tool
+`feff2a` exited 1 before control-module load, child monitoring or output creation.
+Zero of the 25 focused controls ran. Archive:
+`docs/experiments/gwosc_focused_launcher_refusal_v1/`. Source acceptance did not
+establish operational bootstrap applicability. The failed attempt is preserved.
 
-Native RI-134 extraction is accepted and published in independently verified
-`e28f679`. QR has sealed RI-136's immutable exact-source dispatcher in
-`ri136-native-policy-dispatch-source-g_z472z7/` for the 77/62 prospective cases.
-Root verified all 11 payloads and its exact 12-file namespace, then assigned
-complete nonauthor review in `ri136-dispatch-independent-review-s5t7rk5z/`.
-No successor is assigned before adjudication. All 139 remain unexecuted; the
-20/42 deeper rows and external launcher/custody prerequisites remain open. Actual
-C2/C3 signs and simultaneous H30 feasibility stay scientifically unresolved,
-blocked on qualification and separately admitted execution.
+Benign external diagnostics found four extra variables through the Apple Python
+entry point; direct use of the already observed resolved vendor interpreter kept
+exactly the declared environment. Full vendor PRE/POST metadata is byte-identical,
+with source/cards unchanged. These diagnostics are neither control retries nor
+current scientific-runtime qualification. RI-139's narrow source repair is sealed
+in `ri139-focused-bootstrap-repair-source-XP8iNwMw/`; root verified all eight
+source names and 310 dependencies, then assigned fresh nonauthor review in
+`ri139-bootstrap-independent-review-VMq4RmI9/`. The exact environment guard,
+original monitor, bounds and 25 controls stay fixed. Root adjudication and new
+genuine admission follow review before any fresh execution.
 
-Measurement continuation is genuine focused controls, current capture and root
-baseline acceptance, accepted normal before optimized profiles, then separately
-admitted 65 guards. Scientific WHITE, RI-131, full32 and conventional public GWOSC
-work remain separate from calibration and a native forward map. Root owns the
-repository, index, Git and execution admissions. Sealed history, unrelated edits,
-original review and actual protected-validation prerequisites remain preserved.
+RI-135 F01/F02 source remains accepted; RI-133 original preparation remains
+rejected. Actual25 evidence acceptance precedes current capture/baseline acceptance,
+normal before optimized profiles and separately admitted 65 guards. WHITE science,
+RI-131, full32 and conventional public GWOSC reproduction remain separate from
+calibration and a native forward map. Root owns repository/index/Git and genuine
+admissions; sealed history, unrelated edits and original review are preserved.
 The programme continues; RET alone remains paused.
 
 **RI-129 retained assignment scope (completed and source-adjudicated).**

@@ -1,0 +1,49 @@
+{
+  "actual_controls_executed": 0,
+  "actual_failure_accepted_as_success": false,
+  "complete_review": {
+    "bytes": 8333,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/INDEPENDENT_REFUSAL_REVIEW.md",
+    "sha256": "21c2762f9a4c94b2ef3d2958fb4c8094ba1c5ec634d9fddc4dcf8f2a4e5e950a"
+  },
+  "exact_review_namespace_files": 6,
+  "files": [
+    {
+      "bytes": 2059,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/CLOSURE_COMPOSITION_CHECK.json",
+      "sha256": "209d1e530141a8614794987f374b5891a09a81e822d3f44018ea2f159b44bfff"
+    },
+    {
+      "bytes": 3691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/INDEPENDENT_REFUSAL_REVIEW.json",
+      "sha256": "8b40f03b1041ffa83996ab921509341d1c4760bf6b0ef0bc2ce74d9f8fa07d1f"
+    },
+    {
+      "bytes": 8333,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/INDEPENDENT_REFUSAL_REVIEW.md",
+      "sha256": "21c2762f9a4c94b2ef3d2958fb4c8094ba1c5ec634d9fddc4dcf8f2a4e5e950a"
+    },
+    {
+      "bytes": 100006,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/SAVED_REFUSAL_CHECK.json",
+      "sha256": "1b1827824b1039430b963b02aa02cf41168c79a9f3c7648deb538e0381e36f88"
+    },
+    {
+      "bytes": 9973,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/check_saved.py",
+      "sha256": "7a00f393f32b8002b5a96b65da894afb321bb2248fbaecfc683b100e41e3cf7c"
+    }
+  ],
+  "files_bound_excluding_self": 5,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "root_owns_RI139_and_future_admission": true,
+  "schema": "ri137-independent-actual-refusal-handoff-v1",
+  "self_hash_excluded": true,
+  "source_subject_unchanged": true,
+  "status": "SEALED_CONFIRMED_FAILED_ATTEMPT_ZERO_CONTROLS",
+  "structured_review": {
+    "bytes": 3691,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/INDEPENDENT_REFUSAL_REVIEW.json",
+    "sha256": "8b40f03b1041ffa83996ab921509341d1c4760bf6b0ef0bc2ce74d9f8fa07d1f"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "blocking_findings": 0,
+  "complete_review": {
+    "bytes": 18447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "5d0304139589ebb8e74de0065e0838c8e95a3ee3ac66c94b88b98ca1df5615f2"
+  },
+  "exact_review_namespace_files": 7,
+  "execution_authorized": false,
+  "files": [
+    {
+      "bytes": 6559,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/FINAL_PIN_CHECK.json",
+      "sha256": "3c73034fb69cab8eec4dd525d61e2af7c230301d9d0fab97085764093b685807"
+    },
+    {
+      "bytes": 6577,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "39b0d3ab045b761a4570cd1cfdd2ed4cf2fb4d98ad375df450480947cb87c081"
+    },
+    {
+      "bytes": 18447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "5d0304139589ebb8e74de0065e0838c8e95a3ee3ac66c94b88b98ca1df5615f2"
+    },
+    {
+      "bytes": 218204,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/OPAQUE_TEXT_CHECK.json",
+      "sha256": "96499d62e4481cf3b928d0d9331d60c6e56a3f419a36c42118a25563f457ca86"
+    },
+    {
+      "bytes": 3626,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/OUTER_DEADLINE_SOURCE_COMMENT.md",
+      "sha256": "d1092507aadf2ae097dc684356de6257bba3ca8382e6197748cf06bb8ffdcf3f"
+    },
+    {
+      "bytes": 8176,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/check_metadata.py",
+      "sha256": "2b3d3fd8b7f8ae8d13c22fdd943302420d2e460d55203998598a998dad4a665b"
+    }
+  ],
+  "files_bound_excluding_self": 6,
+  "metadata_evidence": {
+    "bytes": 218204,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/OPAQUE_TEXT_CHECK.json",
+    "sha256": "96499d62e4481cf3b928d0d9331d60c6e56a3f419a36c42118a25563f457ca86"
+  },
+  "outer_deadline_comment": {
+    "bytes": 3626,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/OUTER_DEADLINE_SOURCE_COMMENT.md",
+    "sha256": "d1092507aadf2ae097dc684356de6257bba3ca8382e6197748cf06bb8ffdcf3f"
+  },
+  "remaining_boundary": "Root adjudication and genuine external bootstrap/two-card/command/deadline custody, then actual25 evidence review; no additional general launcher required.",
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri137-independent-launcher-review-handoff-v1",
+  "self_hash_excluded": true,
+  "source_handoff": {
+    "bytes": 4642,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/HANDOFF.json",
+    "sha256": "95112c29b0448f7f48810fb34d9510b6d7b6079826054383795758e3f70b2cbd"
+  },
+  "source_repair_required": false,
+  "status": "SEALED_PASS_UNEXECUTED_SOURCE_ONLY",
+  "structured_review": {
+    "bytes": 6577,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/INDEPENDENT_SOURCE_REVIEW.json",
+    "sha256": "39b0d3ab045b761a4570cd1cfdd2ed4cf2fb4d98ad375df450480947cb87c081"
+  }
+}

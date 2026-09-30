@@ -1,0 +1,237 @@
+{
+  "schema": "ri136-prospective-dispatcher-refusals-v1",
+  "status": "SOURCE_ONLY_REACHABILITY_MAP_NOT_EXECUTED",
+  "subject": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+  "source_identity_binding": "The complete current HANDOFF binds this map and the dispatcher separately; no self-referential dispatcher or HANDOFF identity is inserted here.",
+  "scope": {
+    "policy_cases": {
+      "native": 77,
+      "audit": 62
+    },
+    "policy_cases_executed": 0,
+    "dispatcher_refusals_executed": 0,
+    "execution_authorized": false,
+    "complete_caller_qualification": false,
+    "scientific_execution": false
+  },
+  "interpretation": [
+    "These are source-attributed first boundaries, not observed exception records or a new qualification campaign.",
+    "Each prospective operational fault requires separate genuine external root fault authorization, a fresh process, and the complete launch/collection contract. No fault card is an actual acceptance or history.",
+    "Every prior guard must be satisfied with exact unchanged sealed sources unless the row explicitly targets an earlier guard. An earlier error gives no credit for the named later boundary.",
+    "Refused has no numeric code. Do not import a policy Stop.code into dispatcher evidence.",
+    "An expected policy RETURN or REFUSED inside a successful 139-case observation is not an outer dispatcher refusal.",
+    "Failures inside execute_one normally produce the complete envelope on stderr with exit 2. main arity and errors escaping envelope serialization/write instead use the terminal text prefix RI136 QUALIFICATION REFUSAL: and genuine exit 2. External capture/completion remains required in both cases."
+  ],
+  "operational_first_refusals": [
+    {
+      "id": "D-R01",
+      "location": "main",
+      "condition": "Supply other than four dispatcher arguments after its script path.",
+      "prior_requirements": "External authentication, unchanged dispatcher and genuine bounded fault launch; main has not installed its signal handlers or entered execute_one.",
+      "first_exception_type": "Refused",
+      "first_message": "require caller, case id, external evidence directory and root authorization digest",
+      "envelope": false,
+      "credit": "Argument count only; no admission, module, policy or postcheck coverage."
+    },
+    {
+      "id": "D-R02",
+      "location": "execute_one / literal_path and operational-directory guard",
+      "condition": "Use a canonical absolute existing directory outside the required immediate BASE/ri136-policy-run-* namespace.",
+      "prior_requirements": "Fixed Darwin host and dispatcher source location; literal_path must succeed to reach this particular scope guard.",
+      "first_exception_type": "Refused",
+      "first_message": "operational evidence directory outside fixed scope",
+      "envelope": true,
+      "credit": "Operational-directory scope only. A relative/noncanonical path instead fails earlier with noncanonical literal path."
+    },
+    {
+      "id": "D-R03",
+      "location": "execute_one / cwd-environment guard",
+      "condition": "Use a valid operational directory argument but a different actual cwd or environment.",
+      "prior_requirements": "Fixed host/source and valid literal operational directory. For a clean environment-only test use the correct existing cwd and one deliberate environment mismatch.",
+      "first_exception_type": "Refused",
+      "first_message": "fixed operational cwd/environment differs",
+      "envelope": true,
+      "credit": "Actual cwd/environment comparison only; no card has been read."
+    },
+    {
+      "id": "D-R04",
+      "location": "execute_one / caller-case syntax guard",
+      "condition": "Use an unknown caller or malformed case token while preserving the fixed launch context.",
+      "prior_requirements": "Exact operational scope/cwd/environment, normal -I -S -B flags, literal dispatcher argv path and fixed interpreter resolution.",
+      "first_exception_type": "Refused",
+      "first_message": "unknown caller/case syntax",
+      "envelope": true,
+      "credit": "CLI syntax only, not exact catalogue membership."
+    },
+    {
+      "id": "D-R05",
+      "location": "execute_one / authorization-digest syntax guard",
+      "condition": "Supply a malformed or all-zero authorization digest.",
+      "prior_requirements": "All fixed launch and caller/case syntax guards pass.",
+      "first_exception_type": "Refused",
+      "first_message": "literal root one-case authorization hash required",
+      "envelope": true,
+      "credit": "Digest syntax only; authorization file is not read."
+    },
+    {
+      "id": "D-R06",
+      "location": "execute_one / root authorization digest comparison",
+      "condition": "Supply a well-formed nonzero digest that differs from the actual complete regular AUTHORIZATION.json bytes.",
+      "prior_requirements": "All preceding guards and stable nonsymlink positive-size authorization read succeed.",
+      "first_exception_type": "Refused",
+      "first_message": "root authorization digest differs",
+      "envelope": true,
+      "credit": "Whole-byte authorization mismatch before JSON decoding; authorization identity has been registered for postcheck."
+    },
+    {
+      "id": "D-R07",
+      "location": "read_json / duplicate metadata pair callback",
+      "condition": "Provide a separately fault-authorized AUTHORIZATION.json with a duplicate JSON key and append the actual digest of those complete bytes.",
+      "prior_requirements": "All earlier launch/digest/identity reads pass; use otherwise valid JSON syntax with no earlier invalid number.",
+      "first_exception_type": "Refused",
+      "first_message": "duplicate metadata key",
+      "envelope": true,
+      "credit": "Strict administrative JSON duplicate-key rejection only; not a policy payload test."
+    },
+    {
+      "id": "D-R08",
+      "location": "execute_one / authorization scope guard",
+      "condition": "Use an exact-field authorization whose scientific_execution_authorized flag is true instead of false, with all other fields valid and actual complete-byte digest appended.",
+      "prior_requirements": "Administrative parsing and exact root authorization field set succeed. External fault authority must not mistake this deliberately invalid input for execution permission.",
+      "first_exception_type": "Refused",
+      "first_message": "root policy-case scope differs",
+      "envelope": true,
+      "credit": "Strict one-case authorization scope only."
+    },
+    {
+      "id": "D-R09",
+      "location": "execute_one / command-envelope guard",
+      "condition": "Use an otherwise valid authorization whose wall_seconds limit is 121 instead of 120.",
+      "prior_requirements": "All prior authorization checks, exact case field set and case id match succeed; externally supplied digest binds the actual invalid input bytes.",
+      "first_exception_type": "Refused",
+      "first_message": "root policy-case command/envelope differs",
+      "envelope": true,
+      "credit": "Exact command/envelope comparison only; no relaxed limit is authorized."
+    },
+    {
+      "id": "D-R10",
+      "location": "execute_one / external preflight assertion guard",
+      "condition": "Use an exact-field preflight whose all_runtime_files_match assertion is false, with its actual identity bound by the otherwise valid authorization.",
+      "prior_requirements": "All prior authorization/context/reference checks and strict preflight read/schema fields succeed; every binding apart from the targeted assertion remains correct.",
+      "first_exception_type": "Refused",
+      "first_message": "external preflight assertions absent",
+      "envelope": true,
+      "credit": "Required assertion shape/value only; never proof of a real runtime mismatch or current runtime conformity."
+    },
+    {
+      "id": "D-R11",
+      "location": "read_json(HANDOFF, auth.source_handoff)",
+      "condition": "Use a well-formed but incorrect HANDOFF digest in both the authorization and its preflight; preserve the actual sealed HANDOFF unchanged.",
+      "prior_requirements": "All earlier authorization/preflight/interpreter guards pass and the actual HANDOFF is a stable regular file. Its expected identity differs only in the deliberately invalid digest.",
+      "first_exception_type": "Refused",
+      "first_message": "metadata bytes differ from admitted identity",
+      "envelope": true,
+      "credit": "Whole-byte HANDOFF authentication only, not HANDOFF schema or source catalogue validation."
+    },
+    {
+      "id": "D-R12",
+      "location": "execute_one / static case membership guard",
+      "condition": "Use a syntactically valid case id absent from the selected caller's literal inventory, consistently bound in authorization and preflight.",
+      "prior_requirements": "Complete genuine unchanged source/HANDOFF/manifest, fixed pins and every earlier operational/card/interpreter/manifest guard pass.",
+      "first_exception_type": "Refused",
+      "first_message": "literal case outside fixed RI134 inventory",
+      "envelope": true,
+      "credit": "Exact static inventory membership before loading either control or caller module."
+    },
+    {
+      "id": "D-R13",
+      "location": "execute_one / case-triple guard",
+      "condition": "Use an existing id but an incorrect mutation string, consistently bound in authorization and preflight.",
+      "prior_requirements": "All prior guards and exact static id membership succeed; use genuine fixed source/HANDOFF/manifest identities.",
+      "first_exception_type": "Refused",
+      "first_message": "authorized case triple differs",
+      "envelope": true,
+      "credit": "Complete id/family/mutation binding before either module is loaded."
+    }
+  ],
+  "source_defense_boundaries": [
+    {
+      "id": "S-R01",
+      "location": "validate_manifest / fixed manifest pin and schema guards",
+      "reachability": "Not a planned operational fault against this exact immutable packet. Changed manifest bytes encounter whole-byte pin checks first; mismatched authorization manifest identity may encounter HANDOFF protected-identity conflict before the fixed-manifest comparison.",
+      "messages": [
+        "fixed subject manifest identity differs",
+        "subject manifest schema differs",
+        "exact RI134 case count differs",
+        "duplicate static policy case"
+      ],
+      "credit": "Source-attributed defenses only. No fabricated manifest or earlier pin refusal credits these deeper guards."
+    },
+    {
+      "id": "S-R02",
+      "location": "execute_one / protected pre-load loop; load_exact_module",
+      "reachability": "All registered identities are checked before whole-module loading. A preexisting changed source fails the pre-load loop; module-load mismatch specifically requires a later real race/change. No sealed source mutation or racing fixture is authorized.",
+      "messages": [
+        "protected source/evidence changed before loading: <literal path>",
+        "module differs from admitted source"
+      ],
+      "credit": "Only an independently evidenced custody incident may establish which boundary occurred. Missing files may raise FileNotFoundError earlier instead."
+    },
+    {
+      "id": "S-R03",
+      "location": "execute_one / loaded CASES checks",
+      "reachability": "Requires unchanged hash-authenticated control bytes to have loaded. Installing an edited CASES module fails source authentication first; no global replacement, monkeypatch or modified helper is allowed.",
+      "messages": [
+        "loaded case catalogue must be a tuple",
+        "loaded full case catalogue differs",
+        "loaded case is not unique"
+      ],
+      "credit": "Source-only loaded-catalogue defenses, not executed catalogue-fault coverage."
+    },
+    {
+      "id": "S-R04",
+      "location": "validate_observation",
+      "reachability": "Requires the real unchanged control run_case to return after its own outcome assertions. A run_case RuntimeError or earlier source error is not this boundary; synthetic result injection is not allowed.",
+      "messages": [
+        "policy observation fields differ",
+        "policy observation identity/outcome differs",
+        "policy actual first outcome differs",
+        "policy required true field differs: <field>",
+        "policy required false field differs: <field>",
+        "policy expected report differs"
+      ],
+      "credit": "Source-only result-envelope defenses; not an additional direct validator case."
+    },
+    {
+      "id": "S-R05",
+      "location": "execute_one finally / catalogue_postcheck",
+      "reachability": "Requires a loaded helper and a retained pre-case catalogue snapshot. Do not mutate helper globals to force a failure; complete genuine observed catalogue evidence is needed.",
+      "messages": [],
+      "credit": "Failure appears in catalogue_postcheck. It does not fabricate or replace first_error, and cannot be credited as a specific policy refusal."
+    }
+  ],
+  "lifecycle_and_collection_failures": [
+    {
+      "id": "L-R01",
+      "location": "interrupted; execute_one validity/finalization",
+      "condition": "An actual handled SIGTERM, SIGINT, SIGHUP or SIGALRM occurs.",
+      "semantics": "Before finalization inside execute_one, first_error may be Refused with qualification interrupted by signal <integer>. During finalization the handler records the signal without replacing first_error; received_signals invalidates success. A signal before execute_one or after envelope serialization has different capture visibility; reconcile actual timing and genuine exit, never invent a uniform envelope.",
+      "credit": "Genuine lifecycle evidence only, not a policy refusal. No delayed fixture, stop handshake or source patch is specified."
+    },
+    {
+      "id": "L-R02",
+      "location": "execute_one / resource guard and final elapsed check",
+      "condition": "Real self RSS exceeds 536870912 bytes after the policy result, or elapsed_ns exceeds 120000000000.",
+      "semantics": "The reached RSS guard raises Refused with self RSS ceiling exceeded. The final elapsed condition can yield stderr/exit 2 with first_error null; do not invent an elapsed exception message. External owned-group/resource obligations remain independent and may fail or terminate earlier.",
+      "credit": "Actual resource/elapsed observation only; an external earlier limit failure does not demonstrate this in-process guard."
+    },
+    {
+      "id": "L-R03",
+      "location": "postchecks; final serialization/write; external collector",
+      "condition": "Any actual registered-file postcheck fails, capture/write breaks, output exceeds its bound, external monitor/census fails, no live leader is sampled, or owned processes remain.",
+      "semantics": "Every registered path is attempted independently and unchanged false/errors remain beside the original first_error. Output serialization cap raises qualification output exceeds fixed cap outside the normal envelope; write/flush failures may likewise escape to terminal refusal text or partial capture. External failures may leave a syntactically successful inner result, which is still not accepted.",
+      "credit": "Custody/completion failure only. Root performs full independent 373-dependency/runtime/namespace postchecks even when the in-process registered-file set is partial; never replace failures with fabricated success or retry evidence."
+    }
+  ],
+  "stop": "This map creates no operational cards, fixtures, dispatcher run, policy run or new qualification gate. Submit source for nonauthor review and owner adjudication; no execution follows from this file."
+}

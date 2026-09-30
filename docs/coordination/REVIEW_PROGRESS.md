@@ -1,46 +1,45 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 30 September 2026 UTC.** WHITE RI-135's two preparation
-repairs are independently reviewed and root-adjudicated as bounded unexecuted
-source. Archive: `docs/experiments/gwosc_white_preparation_repair_source_v1/`.
-F01 protects every initial owned-output operation and preserves the first error,
-independent tail groups and partials. F02 authenticates the complete historical
-interpreter binding and provenance before accepting current selection. RI-133
-remains rejected for preparation, with original source/findings unchanged.
+**Current checkpoint — 30 September 2026 UTC.** Native RI-136's immutable
+dispatcher is independently accepted as bounded unexecuted source. Archive:
+`docs/track_b/native_growth_policy_dispatch_source_v1/`. Complete nonauthor review
+covered 1,265 lines and all 139 declared cases. Root separately checked the full
+source/review namespaces, 373 dependencies, 343 retained entries/30 additions,
+785 new administrative references, fourteen manifest references, all literal case
+triples and the full seven-hunk correspondence. Zero policy cases have run.
 
-The nonauthor review covered all 1,365 source lines and 25 focused controls;
-253 dependencies, 30 original/copy pairs, 124 historical roles and the complete
-48-file RI130 namespace passed its actual metadata checks. Root separately
-reproduced source/review/predecessor custody, all 253 dependencies, 228 retained
-entries and 25 additions, both complete source deltas, 42 unchanged functions,
-unchanged bounds/65 declarations and the exact 14/11 focused-case inventory.
-No focused control has run. Two positive and 23 expected-failure constructions
-remain prospective; source acceptance is not runtime qualification.
+After adjudication, QR is implementing RI-138's concrete external bootstrap,
+custody and bounded launcher/collector in
+`ri138-native-external-launch-source-92pbd52w/`. Existing limits and independent
+late checks remain intact. Fresh review and genuine root admission precede use.
+The 20/42 deeper rows, native qualification, actual C2/C3 signs and simultaneous
+H30 feasibility remain open. The native scientific question stays active with
+its actual qualification/execution blocker recorded.
 
-After adjudication, RI-137 is assigned the minimal concrete bounded launcher in
-`ri137-focused-control-launcher-source-nykv2tsg/`. It reuses the exact accepted
-child monitor for the focused 25, with protected ownership and independent tails.
-Fresh wrapper review, genuine root bootstrap/host preflight and separate admission
-precede execution. Actual tool completion and sampled owned-child resource evidence
-cannot be supplied by self-reported success. Saved parent PID, loader/cache and
-stable-supplier/no-descendant limitations remain explicit.
+Measurement RI-137 passed complete source review and root adjudication, then one
+genuine separately admitted launch refused at the exact environment check. Tool
+`feff2a` exited 1 before control-module load, child monitoring or output creation.
+Zero of the 25 focused controls ran. Archive:
+`docs/experiments/gwosc_focused_launcher_refusal_v1/`. Source acceptance did not
+establish operational bootstrap applicability. The failed attempt is preserved.
 
-Native RI-134 extraction is accepted and published in independently verified
-`e28f679`. QR has sealed RI-136's immutable exact-source dispatcher in
-`ri136-native-policy-dispatch-source-g_z472z7/` for the 77/62 prospective cases.
-Root verified all 11 payloads and its exact 12-file namespace, then assigned
-complete nonauthor review in `ri136-dispatch-independent-review-s5t7rk5z/`.
-No successor is assigned before adjudication. All 139 remain unexecuted; the
-20/42 deeper rows and external launcher/custody prerequisites remain open. Actual
-C2/C3 signs and simultaneous H30 feasibility stay scientifically unresolved,
-blocked on qualification and separately admitted execution.
+Benign external diagnostics found four extra variables through the Apple Python
+entry point; direct use of the already observed resolved vendor interpreter kept
+exactly the declared environment. Full vendor PRE/POST metadata is byte-identical,
+with source/cards unchanged. These diagnostics are neither control retries nor
+current scientific-runtime qualification. RI-139's narrow source repair is sealed
+in `ri139-focused-bootstrap-repair-source-XP8iNwMw/`; root verified all eight
+source names and 310 dependencies, then assigned fresh nonauthor review in
+`ri139-bootstrap-independent-review-VMq4RmI9/`. The exact environment guard,
+original monitor, bounds and 25 controls stay fixed. Root adjudication and new
+genuine admission follow review before any fresh execution.
 
-Measurement continuation is genuine focused controls, current capture and root
-baseline acceptance, accepted normal before optimized profiles, then separately
-admitted 65 guards. Scientific WHITE, RI-131, full32 and conventional public GWOSC
-work remain separate from calibration and a native forward map. Root owns the
-repository, index, Git and execution admissions. Sealed history, unrelated edits,
-original review and actual protected-validation prerequisites remain preserved.
+RI-135 F01/F02 source remains accepted; RI-133 original preparation remains
+rejected. Actual25 evidence acceptance precedes current capture/baseline acceptance,
+normal before optimized profiles and separately admitted 65 guards. WHITE science,
+RI-131, full32 and conventional public GWOSC reproduction remain separate from
+calibration and a native forward map. Root owns repository/index/Git and genuine
+admissions; sealed history, unrelated edits and original review are preserved.
 The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
@@ -109,12 +108,12 @@ the latest assignments below and in the plan govern current work.
 | RI-122 native connected-sensitivity caller | Exact fixed 28-child obstruction and complete independent arithmetic/custody published in verified `3027dc6`. | Preserve the original evidence; RI-127 discharges all connected contrasts; RI-128 targets its strict positivity signs. |
 | RI-123 joint-window application design | Conditional full white-overlap and periodic-completion design independently accepted; published with proof and schema reviews. | RI-125 source implementation only. Physical covariance, mean, calibration and native forward-map premises remain open. |
 | RI-124 native contrast compensation | Complete conditional H30 theorem and T1 analytic discharge published in verified `d65d1f6`. | Preserve every shared-parent strict condition; RI-127 now discharges the complete T2/T3 contrasts. |
-| RI-125 joint-window application sources | Primary source published in verified `c48fda4`; independent validator and W01-W15 qualifier now accepted after complete component nonauthor and root integration review, all unexecuted. | RI-130 caller is source-adjudicated; RI-133 requires two repairs; RI-135 nonauthor review is complete, pending root adjudication; RI-131 finite guard source is independently accepted, unexecuted. Full 32/periodic/mean/join, qualification and actual admission remain open. |
+| RI-125 joint-window application sources | Primary source published in verified `c48fda4`; independent validator and W01-W15 qualifier now accepted after complete component nonauthor and root integration review, all unexecuted. | RI-130 caller is source-adjudicated; RI-133 requires two repairs; RI-135 source is accepted; RI-137 actual bootstrap refusal is preserved and RI-139 repairs it; RI-131 finite guard source is independently accepted, unexecuted. Full 32/periodic/mean/join, qualification and actual admission remain open. |
 | RI-126 portable native archive check | Published in remotely verified `80cac4b`: portable 117-file checker, 13 CLI and 10 semantic/parser cases pass. | Preserve the original archive; byte integrity and saved agreement do not replace scientific arithmetic or execution custody. |
 | RI-127 connected compensation decision | All 15 T2/all 7 T3 minors, full transport and strict local reduction independently accepted; published in verified `a00e460`. | RI-128 proves an actual-containing scale rectangle; actual C2/C3 signs and full shared H30 feasibility remain open. |
 | RI-128 connected strict-sign decision | Actual-scale containment and bounded unexecuted checker/reconstruction independently accepted; exact proof/source/reviews published in verified `35e5f60`. | RI-129 caller is independently source-accepted; RI-132 implements changed-caller qualification before actual sign evaluation. No trial-point or local-to-global promotion. |
 | RI-129 native sign caller | Exact unexecuted source accepted after complete nonauthor review; source/review archive published in verified `cac7f5b`. | RI-132 source is accepted with explicit remaining gaps; RI-134 implements narrow policy extractions before genuine qualification and separate actual admission. |
-| RI-130 WHITE fabricated caller | Exact unexecuted caller accepted after complete nonauthor review and root adjudication; source/review published in verified `cfb5966`. | RI-133 concrete runtime/profile/sidecar and bounded caller-guard orchestration source; independent review then separately admitted genuine qualification. |
+| RI-130 WHITE fabricated caller | Original RI-133 F01/F02 findings remain preserved; RI-135 narrow source repair is accepted. | RI-137 first actual launch refused before controls; RI-139 repairs bootstrap selection before fresh review/admission and actual25. |
 | RI-131 actual-validator guard controls | Complete nonauthor source review accepted; exact unexecuted 202-control packet published in verified `7c89f01`. | Separate caller applicability/design follows RI-130 source seal/review; all four whole-entry obligations and genuine qualification remain open. |
 | RI-115 native rank execution caller | Exact six-zero-minor result and independent reviews preserved in f6d486e; its local rank conclusion remains valid. | RI-122 separately rejects the complete fixed 28-child extension through the connected subsystem; keep these logically distinct results. |
 | RI-94 amplitude continuation | **Proof/design published in verified `9e63656`.** RI-95 now certifies the fixed full positive-amplitude rectangle. | Preserve the pair-only, relative common-level-scale premises; no all-size-law inference. |
@@ -11896,3 +11895,51 @@ The packet explicitly leaves external bootstrap/owned-group launcher/monitor,
 collection and runtime postchecks to a concrete root-owned implementation.
 No active cards or runs occurred. This checkpoint does not copy the unreviewed
 RI136 dispatcher; its sealed handoff is referenced for review-assignment custody.
+
+**30 September: RI-136 dispatcher adjudicated; first RI-137 actual launch refused.**
+
+The native archive binds 23 exact source/review/root copies. Fresh nonauthor
+source review handoff is 3086 bytes / e64a15ac7f69e027e09d3e7f7fa99dfcfd21fe58fbe242ebf82a398e33b9f244.
+Root reconciliation is 252340 bytes / d5cdb3978aea53001d6bea4ca4d69622083f65bf1c14ecf91d4618e46124c231;
+actual tool f705bd exited zero. Root decision is 1879 bytes /
+f0ef5da599deca5aefeb11ddcd7e99ea581185adc4e15c98c15cf783c6a7c5bd.
+All 139 cases remain unexecuted. RI138 is already assigned and active in its
+external reservation, supplying concrete mechanisms before fresh source review.
+
+Measurement source review handoff is 3396 bytes /
+ca1a29eec2d789f474b9dad13d09f433d12713bb8ccef0de70fe3de47d961009.
+After root source review, real bootstrap observation and genuine two-card
+admission, exact tool feff2a exited 1 with `ValueError: actual complete environment`.
+Refusal precedes complete monitor module loading, ownership and the control child.
+The operation contains five unchanged cards and empty environment/tmp only;
+there is no output directory, child-monitor evidence or completed case to count.
+Root failure adjudication is 3228 bytes /
+8227aefa2338205826d713e00ef6b0737922b8f833822bc800f5305b5a2af022.
+The separately sealed actual-failure review and its root reconciliation are
+archived alongside the actual invocation/result, admission, source and bootstrap
+PRE/POST observations. Failed history is never overwritten.
+
+Vendor-entry diagnostic 1ac11a exited zero and observed additional CPATH,
+LIBRARY_PATH, MANPATH and SDKROOT; direct-entry diagnostic a34537 exited zero
+with exactly the ten declared fields. Both are benign environment observations,
+not subject retries or current scientific-candidate qualification. Whole vendor
+PRE and POST are 1689907 bytes each with identical SHA256
+77727df54d13477df3f4ac80b8192666949347e37b2c5813d7794846bb9e9b7d.
+The 2004-entry/48024515-byte namespace, bindings, descriptors, host and absences
+match; trusted kernel/Apple loader/cache and stable supplier premises remain.
+The benign alarm probe's exit142 and parent-only timer/cleanup limits are retained.
+
+RI139 narrowly adapts the selected authenticated interpreter consistently in
+both actual commands. It must preserve exact environment equality and every
+monitor/control bound, with fresh nonauthor source review and new root admission.
+No automatic retry or raised threshold follows. Native C2/C3 and shared-H30
+scientific questions remain blocked on qualification/execution, actively served
+by RI138. Measurement actual25, current capture, ordered profiles, 65 guards,
+WHITE/full32 public-data reproduction and calibrated/native claims stay separate.
+
+Publication maps fixed-parent Git dependencies and external originals honestly;
+it does not claim complete runtime transport. Parent 13c9f8d is independently
+verified on origin/ret. This checkpoint's commit/push verification is saved
+externally after publication. Root stages only the declared two archives and
+four coordinator documents, preserving the entire unrelated inventory. RET alone
+remains paused and the broader programme remains active.

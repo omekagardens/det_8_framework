@@ -1,0 +1,108 @@
+{
+  "actual_success": false,
+  "cards": 5,
+  "complete_bootstrap_saved_byte_equality": true,
+  "complete_namespace": 6,
+  "controls_executed": 0,
+  "direct_diagnostic_exact_environment": true,
+  "genuine_invocation_and_terminal_match": true,
+  "independent_handoff": {
+    "bytes": 2299,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/HANDOFF.json",
+    "sha256": "2c7abd1596c756a37265d1f29bb5c9c871f25f157b08c910b385c6c61cbc651d"
+  },
+  "independent_records": [
+    {
+      "bytes": 2059,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/CLOSURE_COMPOSITION_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/CLOSURE_COMPOSITION_CHECK.json",
+      "sha256": "209d1e530141a8614794987f374b5891a09a81e822d3f44018ea2f159b44bfff",
+      "state": [
+        16777244,
+        402790,
+        33188,
+        1,
+        2059,
+        1790763259600164301,
+        1790763259600164301
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/INDEPENDENT_REFUSAL_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/INDEPENDENT_REFUSAL_REVIEW.json",
+      "sha256": "8b40f03b1041ffa83996ab921509341d1c4760bf6b0ef0bc2ce74d9f8fa07d1f",
+      "state": [
+        16777244,
+        402797,
+        33188,
+        1,
+        3691,
+        1790763353873266962,
+        1790763353873266962
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 8333,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/INDEPENDENT_REFUSAL_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/INDEPENDENT_REFUSAL_REVIEW.md",
+      "sha256": "21c2762f9a4c94b2ef3d2958fb4c8094ba1c5ec634d9fddc4dcf8f2a4e5e950a",
+      "state": [
+        16777244,
+        402796,
+        33188,
+        1,
+        8333,
+        1790763353782887162,
+        1790763353782887162
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 100006,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/SAVED_REFUSAL_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/SAVED_REFUSAL_CHECK.json",
+      "sha256": "1b1827824b1039430b963b02aa02cf41168c79a9f3c7648deb538e0381e36f88",
+      "state": [
+        16777244,
+        402786,
+        33188,
+        1,
+        100006,
+        1790763223169354653,
+        1790763223169354653
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 9973,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/check_saved.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/check_saved.py",
+      "sha256": "7a00f393f32b8002b5a96b65da894afb321bb2248fbaecfc683b100e41e3cf7c",
+      "state": [
+        16777244,
+        402785,
+        33188,
+        1,
+        9973,
+        1790763223023033609,
+        1790763223023033609
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "next": "RI139 source-only bootstrap repair; fresh nonauthor review and genuine root admission before a new operation",
+  "operation_entries": 8,
+  "reviewed_record_not_reexecuted": true,
+  "root_failure": {
+    "bytes": 3228,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/RI137_ACTUAL_REFUSAL_REVIEW.json",
+    "sha256": "8227aefa2338205826d713e00ef6b0737922b8f833822bc800f5305b5a2af022"
+  },
+  "schema": "ri137-root-independent-refusal-reconciliation-v1",
+  "scientific_claim": false,
+  "source_identity_and_state_observations": 289,
+  "status": "CONFIRM_REJECT_ACTUAL_ATTEMPT_ZERO_CONTROLS"
+}

@@ -1,0 +1,61 @@
+{
+  "actual_metadata_evidence": {
+    "bytes": 443112,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/OPAQUE_TEXT_REVIEW.json",
+    "sha256": "ee3838f4dca838f11bc30ca60e1b519818910f0d0c42d6f52b82ccd5721d99dc"
+  },
+  "blocking_findings": 0,
+  "complete_review": {
+    "bytes": 19067,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "d16b472b657149f2f376f31aa57fbe447429d74a008b78696b5b4d24f5716a08"
+  },
+  "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z",
+  "exact_review_namespace_files": 6,
+  "files": [
+    {
+      "bytes": 10656,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/FINAL_PIN_CHECK.json",
+      "sha256": "9d4e4d03ff1e2ae79222de607b7cd2b2e8aa2003b33e05a35d2263a85ad7e617"
+    },
+    {
+      "bytes": 10904,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "c2f217a842d1b9155caa2465e5c140553ab37cdb4d6bf011e9cd57051ab2db01"
+    },
+    {
+      "bytes": 19067,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "d16b472b657149f2f376f31aa57fbe447429d74a008b78696b5b4d24f5716a08"
+    },
+    {
+      "bytes": 443112,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/OPAQUE_TEXT_REVIEW.json",
+      "sha256": "ee3838f4dca838f11bc30ca60e1b519818910f0d0c42d6f52b82ccd5721d99dc"
+    },
+    {
+      "bytes": 10049,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/check_metadata.py",
+      "sha256": "c0bc26d799b1d89fc34d9003a82b3ea0d03d4771d45634087aebb5b036f7f78a"
+    }
+  ],
+  "files_bound_excluding_self": 5,
+  "remaining_boundary": "Concrete external bootstrap/launcher/monitor/collector/origin and full custody implementation, review and real per-case admission remain required. No automatic follow-on work or scientific qualification.",
+  "reviewer": "/root/ri116_complete_caller_review",
+  "root_adjudication_required": true,
+  "schema": "ri136-independent-dispatch-review-handoff-v1",
+  "self_hash_excluded": true,
+  "source_handoff": {
+    "bytes": 11534,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/HANDOFF.json",
+    "sha256": "748b0e5e7b309705d5a6daf0aaaf6b89dce071f95af4fe3f4b9cb572a6f9ae18"
+  },
+  "source_or_repository_changes": false,
+  "status": "SEALED_PASS_UNEXECUTED_SOURCE_ONLY",
+  "structured_review": {
+    "bytes": 10904,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/INDEPENDENT_SOURCE_REVIEW.json",
+    "sha256": "c2f217a842d1b9155caa2465e5c140553ab37cdb4d6bf011e9cd57051ab2db01"
+  },
+  "subject_execution_or_admission": false
+}

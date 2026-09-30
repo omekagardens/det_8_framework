@@ -1,0 +1,37 @@
+{
+  "current_scientific_candidate_qualified": false,
+  "deadline_probe": {
+    "bytes": 505,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/DEADLINE_PROBE_INITIAL.json",
+    "sha256": "1b64553d65e9a0573c2dc84d33a8e13b715e478656baf7a0aee96cfaec300e8e"
+  },
+  "genuine_tool_completion_pending": true,
+  "pre": {
+    "bytes": 1689907,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/BOOTSTRAP_PRE.json",
+    "sha256": "77727df54d13477df3f4ac80b8192666949347e37b2c5813d7794846bb9e9b7d"
+  },
+  "root_review": {
+    "bytes": 3593,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/ROOT_SOURCE_REVIEW.md",
+    "sha256": "223b21984432ca3d3dac940b5eb5181406cdee03935d42d99bf3282472b62b52"
+  },
+  "schema": "ri137-root-genuine-external-bootstrap-preflight-v1",
+  "signal_premise": "SIGALRM default explicitly restored; unblocked mask applicable from same genuine tool context; benign termination observed",
+  "source_check": {
+    "bytes": 168531,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/ROOT_PRE_ADMISSION_SOURCE_CHECK.json",
+    "sha256": "fece66e2e45b5a9ef4f404c30e84e0fcca9606974b472286608754c2e4c32824"
+  },
+  "source_decision": {
+    "bytes": 1282,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/RI137_ROOT_ADJUDICATION.json",
+    "sha256": "d5ce36a3bebf5b3af968c47d425719b9761ace8bb52bd16da5e4bc949c2ee48e"
+  },
+  "status": "APPLICABLE_FOR_ONE_FOCUSED25_VENDOR_BOOTSTRAP_RUN",
+  "trusted_premises": [
+    "Root tool and Apple vendor bootstrap collector",
+    "Darwin kernel and Apple loader/shared cache",
+    "Stable host and supplier; opaque byte equality is not an instruction trace or source/cache equivalence"
+  ]
+}

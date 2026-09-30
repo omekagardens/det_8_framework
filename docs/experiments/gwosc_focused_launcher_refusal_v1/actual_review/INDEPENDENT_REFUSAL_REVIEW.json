@@ -1,0 +1,92 @@
+{
+  "RET_paused": true,
+  "active_runtime_cards_admissions_attempts_created": false,
+  "actual_metadata_checks": [
+    {
+      "evidence": {
+        "bytes": 100006,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/SAVED_REFUSAL_CHECK.json",
+        "sha256": "1b1827824b1039430b963b02aa02cf41168c79a9f3c7648deb538e0381e36f88"
+      },
+      "exit_code": 0,
+      "tool_chunk": "f63d8d"
+    },
+    {
+      "evidence": {
+        "bytes": 2059,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/CLOSURE_COMPOSITION_CHECK.json",
+        "sha256": "209d1e530141a8614794987f374b5891a09a81e822d3f44018ea2f159b44bfff"
+      },
+      "exit_code": 0,
+      "tool_chunk": "c9d8b2"
+    }
+  ],
+  "actual_success_accepted": false,
+  "additional_generic_wrapper_required": false,
+  "bootstrap_pre_post_byte_identical": true,
+  "card_identities": 5,
+  "complete_review": {
+    "bytes": 8333,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-actual-refusal-independent-review-5hya_8t5/INDEPENDENT_REFUSAL_REVIEW.md",
+    "sha256": "21c2762f9a4c94b2ef3d2958fb4c8094ba1c5ec634d9fddc4dcf8f2a4e5e950a"
+  },
+  "controls_executed": 0,
+  "environment_diagnostics": {
+    "direct_entry": {
+      "chunk": "a34537",
+      "exact_intended_fields": 10,
+      "exit": 0,
+      "subject_retry": false
+    },
+    "vendor_entry": {
+      "chunk": "1ac11a",
+      "exit": 0,
+      "extra_fields": [
+        "CPATH",
+        "LIBRARY_PATH",
+        "MANPATH",
+        "SDKROOT"
+      ],
+      "later_corroboration_not_internal_launch_trace": true
+    }
+  },
+  "exact_original_copy_pairs": 3,
+  "failure_evidence_discrepancies": [],
+  "fixture_or_scientific_body_evaluation": false,
+  "genuine_terminal": {
+    "chunk_id": "feff2a",
+    "error": "ValueError: actual complete environment",
+    "exit_code": 1,
+    "session_pending": false,
+    "source_line": 289
+  },
+  "limitations": [
+    "Origin relies on coordinator genuine tool history, with exact saved invocation consistency checked independently.",
+    "Saved bootstrap equality is finite recorded metadata, not source/cache execution equivalence or current scientific runtime acceptance.",
+    "Later diagnostics do not retroactively record the failed process environment or qualify replacement command."
+  ],
+  "module_load_reached": false,
+  "monitor_called": false,
+  "next_source_repair": "RI139 assigned separately; not authored or adjudicated here. Preserve exact environment and limits and bind both interpreter command entries; fresh independent review and root admission before a fresh attempt.",
+  "operation_entries": 8,
+  "owned_output_created": false,
+  "preserved_original_attempt": true,
+  "repository_git_or_source_edits": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "root_actual_refusal": {
+    "bytes": 3228,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/RI137_ACTUAL_REFUSAL_REVIEW.json",
+    "sha256": "8227aefa2338205826d713e00ef6b0737922b8f833822bc800f5305b5a2af022"
+  },
+  "runtime_reinventoried_by_reviewer": false,
+  "saved_bootstrap_entries_checked": 2004,
+  "saved_module_identities_checked": 67,
+  "schema": "ri137-independent-actual-refusal-review-v1",
+  "scientific_current_runtime_or_control_qualification": false,
+  "source6_review7_dependencies276_exact_union": true,
+  "source_review_is_not_operational_acceptance": true,
+  "status": "CONFIRM_REJECT_ACTUAL_ATTEMPT_ENVIRONMENT_MISMATCH",
+  "subject_authorship": false,
+  "subject_import_compile_AST_probe_run": false,
+  "unchanged_source_observations": 289
+}

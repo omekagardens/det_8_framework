@@ -1,0 +1,233 @@
+{
+  "schema": "ri136-native-policy-dispatch-source-handoff-v1",
+  "status": "SOURCE_ONLY_SEALED_FOR_NONAUTHOR_REVIEW",
+  "execution_authorized": false,
+  "scientific_execution": false,
+  "local_date": "2026-09-29",
+  "timezone": "Pacific/Honolulu",
+  "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7",
+  "source_author_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "coordinator_owner_thread": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "selecting_adjudication": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-root-source-adjudication-e9zhmh62/RI134_ROOT_ADJUDICATION.json",
+    "bytes": 1931,
+    "sha256": "267e26e6a40a01203343309452886469fd68c804ba041b698df13e7b0b29e782"
+  },
+  "predecessor_source_handoff": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/HANDOFF.json",
+    "bytes": 14101,
+    "sha256": "3dd25f629fffe6bf23491bfb98987df75870f180ccd2733d5011fde6abf882ac"
+  },
+  "predecessor_independent_review_handoff": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/HANDOFF.json",
+    "bytes": 3009,
+    "sha256": "ea6e42b1a61c990eede360b649491dfff3de88aca2cdb7599246e148971086f1"
+  },
+  "dispatcher": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+    "bytes": 23248,
+    "sha256": "1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37"
+  },
+  "subject_manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_IDENTITIES.json",
+    "bytes": 23216,
+    "sha256": "edb77d0f7edd2e79fd55d3f55b781286aceaf876e98fd1850e58a14281476a37"
+  },
+  "dependency_manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_DEPENDENCIES.json",
+    "bytes": 652822,
+    "sha256": "da5708eb15abbb4da7a8c17b5a6c737b2fce9e8663c2177e4dbb1b9e2107d42c"
+  },
+  "scope": {
+    "implementation": "New immutable one-case dispatcher adapted from RI132, for exactly the accepted RI134 pure-policy modules.",
+    "one_literal_case_per_fresh_process": true,
+    "case_selection_before_subject_loading": true,
+    "complete_authenticated_non_main_modules_only": true,
+    "real_control_run_case_invocations_per_process": 1,
+    "caller_main_or_run_selected": false,
+    "scientific_helper_selected": false,
+    "module_global_patching_or_snippet_substitution": false,
+    "new_extraction_tranche": false,
+    "old_RI132_17_16_cases_or_entry_specifications_retargeted": false
+  },
+  "inventories": {
+    "native": {
+      "cases": 77,
+      "positive": 4,
+      "isolated_negative": 71,
+      "intentional_ordering_probes": 2,
+      "executed": 0
+    },
+    "audit": {
+      "cases": 62,
+      "positive": 4,
+      "isolated_negative": 58,
+      "intentional_ordering_probes": 0,
+      "executed": 0
+    },
+    "total_policy_cases": 139,
+    "prospective_dispatcher_operational_first_refusals": 13,
+    "immutable_source_defense_boundaries": 5,
+    "lifecycle_collection_failure_groups": 3,
+    "dispatcher_refusals_executed": 0,
+    "deeper_native_declarations_outside_scope": 20,
+    "deeper_audit_declarations_outside_scope": 42
+  },
+  "authentication": {
+    "subject_manifest_hardpinned_in_dispatcher": true,
+    "subject_manifest_excludes_dispatcher_self_and_current_handoff": true,
+    "future_external_authorization_binds_complete_current_handoff": true,
+    "handoff_binds_dispatcher_and_subject_manifest_without_self_hash": true,
+    "root_preflight_and_complete_invocation_origin_must_be_external": true,
+    "authorization_contains_only_hash_free_argv_prefix": true,
+    "complete_digest_bearing_invocation_separately_bound_after_card_hash": true,
+    "future_operational_directory_rule": "Canonical nonsymlink immediate child of /Volumes/AI_DATA/development/det-review-evidence with nonempty ri136-policy-run- suffix, used as cwd.",
+    "operational_cards_and_outputs_outside_sealed_source_review_namespaces": true,
+    "internally_checked_preflight_assertions_are_not_bootstrap_authentication": true
+  },
+  "implementation_limits": {
+    "wall_seconds": 120,
+    "rss_bytes": 536870912,
+    "sample_interval_ms": 50,
+    "ps_timeout_ms": 250,
+    "output_bytes_per_stream": 8388608,
+    "auxiliary_metadata_bytes": 67108864,
+    "external_monitor_and_collector_required": true,
+    "local_alarm_and_self_RSS_are_supplementary": true,
+    "first_error_preserved_separately_from_independent_postchecks": true,
+    "final_loaded_catalogue_requires_tuple_and_saved_canonical_value": true,
+    "output_transport_failure_can_prevent_complete_envelope_and_invalidates_run": true
+  },
+  "actual_author_checks": {
+    "complete_old_and_new_dispatcher_text_read": true,
+    "both_complete_RI134_control_modules_read": true,
+    "complete_saved_delta_read_and_reconstructed": true,
+    "retained_exact_function_texts": 6,
+    "adapted_function_texts": 5,
+    "new_function_texts": 5,
+    "old_stdlib_import_block_exact": true,
+    "source_correspondence": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_CORRESPONDENCE.json",
+      "bytes": 7507,
+      "sha256": "7ec9a75ac75cb424bd5a5a66345dc0007209bfa8cbd12fdb3ea8ed4a6b4c235e"
+    },
+    "original_RI134_entries_preserved_except_role_rebasing": 343,
+    "selected_predecessor_additions": 30,
+    "opaque_dependency_identities_matched": 373,
+    "complete_RI134_source_namespace_files": 17,
+    "complete_RI134_review_namespace_files": 8,
+    "selected_root_support_files": 5,
+    "literal_ordered_case_triples_matched": 139,
+    "direct_subject_manifest_identity_references_matched": 14,
+    "new_administrative_bodies_traversed": 11,
+    "typed_references_matched_in_new_administrative_bodies": 785,
+    "unclosed_or_mismatched_new_administrative_references": 0,
+    "old_145_body_traversal_repeated": false,
+    "mixed_lane_root_support_records_kept_opaque": 2,
+    "metadata_check": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/AUTHOR_METADATA_CHECK.json",
+      "bytes": 4326,
+      "sha256": "177d9113b1c075c08287c67431e9c96f8b4113f572920bf40d72ff78edec4374"
+    },
+    "checker_incident": "One initial inline metadata comparison used a nonexistent root cases field; corrected to subjects[caller].ordered_cases and matched all139. No subject was executed and no source repair resulted from that checker mistake.",
+    "syntax_or_executed_semantics_verified": false
+  },
+  "external_implementation_not_supplied": [
+    "Complete external bootstrap/runtime/namespace/host authenticator before interpreter startup.",
+    "Owned-process-group launcher and independent bounded group monitor.",
+    "Exclusive durable bounded stream/census collector with original and independent later failures.",
+    "Genuine literal tool invocation/session/completion capture and independent origin reconciliation.",
+    "Complete independent before/after source,373-dependency,runtime,namespace/absence/host custody."
+  ],
+  "next_boundary": "Fresh complete nonauthor source review and coordinator adjudication. Root must bind and admit concrete external launch/collection implementation and each real case before any execution.",
+  "scientific_boundary": {
+    "current_caller_qualification": false,
+    "actual_producer_15_4_71_execution": false,
+    "actual_independent_auditor_15_16_execution": false,
+    "C2_C3_signs": "UNRESOLVED",
+    "simultaneous_H30_feasibility": "UNRESOLVED",
+    "scientific_source_and_budgets_changed": false,
+    "input_roles": 5,
+    "certificate_sections": 14,
+    "protected_audit_objects": 8,
+    "candidate_copies": 3,
+    "serial_order_changed": false,
+    "RET_paused": true,
+    "measurement_lane_touched": false
+  },
+  "prohibited_activity_performed": {
+    "subject_import_compile_AST_probe_run_or_controls": false,
+    "scientific_body_decoding_or_evaluation": false,
+    "current_runtime_inventory": false,
+    "active_cards_freezes_copies_fixtures_admissions_attempts": false,
+    "repository_index_Git_or_publication_operations": false
+  },
+  "authors": [
+    "/root",
+    "/root/ri132_native_controls",
+    "/root/ri132_audit_controls",
+    "/root/ri132_evidence_contract"
+  ],
+  "author_checks_are_not_fresh_nonauthor_acceptance": true,
+  "files_bound_excluding_self": 11,
+  "exact_sealed_namespace_files": 12,
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/AUTHOR_METADATA_CHECK.json",
+      "bytes": 4326,
+      "sha256": "177d9113b1c075c08287c67431e9c96f8b4113f572920bf40d72ff78edec4374"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DEPENDENCY_NOTES.md",
+      "bytes": 12452,
+      "sha256": "ce68ae6a0afacb2ef8f6dba8713f126f98d85ed717a48563ae5315279ee4b505"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DISPATCHER_DELTA.patch",
+      "bytes": 29850,
+      "sha256": "e1daeb1355cc9e14700bef00a7747f3c73de844784a628fba06ac2733ca57bbc"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DISPATCHER_REFUSALS.json",
+      "bytes": 15744,
+      "sha256": "96c642803c98771d44dfd8d9d1b7a0f3a48802465c28a1eb87deeb29fe469df1"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DISPATCHER_SOURCE_NOTES.md",
+      "bytes": 13943,
+      "sha256": "fcdcaa1aa64e7b21ad7d25560cf5da90cf83b21f89a2da6d7a8b2a10e5a16e25"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/HANDOFF.md",
+      "bytes": 6591,
+      "sha256": "eeb8375be71e5f6f4834a297d3cfa0ab06409b6c2aedad9a2c9d07f3476faa50"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/LAUNCH_COLLECTION_CONTRACT.md",
+      "bytes": 16996,
+      "sha256": "7b685a60cb832530658e2884f0e1ac30ee7b998e4988e437a0384bbdeee07282"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_CORRESPONDENCE.json",
+      "bytes": 7507,
+      "sha256": "7ec9a75ac75cb424bd5a5a66345dc0007209bfa8cbd12fdb3ea8ed4a6b4c235e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_DEPENDENCIES.json",
+      "bytes": 652822,
+      "sha256": "da5708eb15abbb4da7a8c17b5a6c737b2fce9e8663c2177e4dbb1b9e2107d42c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_IDENTITIES.json",
+      "bytes": 23216,
+      "sha256": "edb77d0f7edd2e79fd55d3f55b781286aceaf876e98fd1850e58a14281476a37"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+      "bytes": 23248,
+      "sha256": "1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37"
+    }
+  ],
+  "self_hash_excluded": true,
+  "stop": "Packet sealed for fresh independent review. No follow-on implementation or execution without coordinator adjudication and assignment."
+}

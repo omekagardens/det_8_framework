@@ -1,0 +1,16 @@
+{
+  "invocation": {
+    "cmd": "exec /usr/bin/env -i PATH=/usr/bin:/bin LC_ALL=C TZ=UTC /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 1; exec @ARGV; die $!;' /bin/sleep 3",
+    "login": false,
+    "yield_time_ms": 1000,
+    "max_output_tokens": 1000
+  },
+  "result": {
+    "chunk_id": "7241a5",
+    "wall_time_seconds": 0.87425075,
+    "exit_code": 142,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "scope": "Benign one-second alarm/exec check only; no subject/control/launcher invocation."
+}

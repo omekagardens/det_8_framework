@@ -1,0 +1,17 @@
+{
+  "execution_admitted": false,
+  "git_owner": "/root",
+  "measurement": {
+    "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea",
+    "item": "RI137",
+    "owner": "/root/ri116_complete_caller_review",
+    "scope": "Complete nonauthor review of concrete focused25 launcher; no execution yet."
+  },
+  "native": {
+    "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w",
+    "item": "RI138",
+    "owner": "Quantum Relativity",
+    "scope": "Concrete external bootstrap/custody and bounded launcher/collector for exact RI136; source only, fresh review before root admission."
+  },
+  "schema": "ri136-successor-reservations-v1"
+}

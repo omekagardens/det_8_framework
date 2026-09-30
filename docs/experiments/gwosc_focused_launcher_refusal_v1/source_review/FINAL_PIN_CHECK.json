@@ -1,0 +1,151 @@
+{
+  "checks": [
+    {
+      "expected": {
+        "bytes": 3766,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/AUTHORING_RECORD.md",
+        "sha256": "515e425be16c8a93166aef11ac928a0c02c7a3ec1c5e2c429f5725169ca0ec94"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 3766,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/AUTHORING_RECORD.md",
+        "sha256": "515e425be16c8a93166aef11ac928a0c02c7a3ec1c5e2c429f5725169ca0ec94"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 108736,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/DEPENDENCIES.source-only.json",
+        "sha256": "f6320e4f0627eac853d382e647d06fd5b2349c2b03b6033e81aa3c7a5e5685f0"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 108736,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/DEPENDENCIES.source-only.json",
+        "sha256": "f6320e4f0627eac853d382e647d06fd5b2349c2b03b6033e81aa3c7a5e5685f0"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 72693,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/METADATA_CHECK.json",
+        "sha256": "c4c0790ae2888da80fe1906594d46780d3d296ee11bc0d2258739711f5f874cc"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 72693,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/METADATA_CHECK.json",
+        "sha256": "c4c0790ae2888da80fe1906594d46780d3d296ee11bc0d2258739711f5f874cc"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 16188,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/PROTOCOL.md",
+        "sha256": "a971abfe879b613692eb96cd35d5865f1bcb1677a48299c0a7bbb6c325c3a8e3"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 16188,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/PROTOCOL.md",
+        "sha256": "a971abfe879b613692eb96cd35d5865f1bcb1677a48299c0a7bbb6c325c3a8e3"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 25158,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py",
+        "sha256": "8a9313355f20f8c4b15e3b7b855303d893c892116174a6dc583fd609156ea0c9"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 25158,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py",
+        "sha256": "8a9313355f20f8c4b15e3b7b855303d893c892116174a6dc583fd609156ea0c9"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 4642,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/HANDOFF.json",
+        "sha256": "95112c29b0448f7f48810fb34d9510b6d7b6079826054383795758e3f70b2cbd"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 4642,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/HANDOFF.json",
+        "sha256": "95112c29b0448f7f48810fb34d9510b6d7b6079826054383795758e3f70b2cbd"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 44082,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+        "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 44082,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+        "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 19967,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/fault_controls.source-only.py",
+        "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 19967,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/fault_controls.source-only.py",
+        "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 5902,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/HANDOFF.json",
+        "sha256": "4291a055c4cc125d4a07fe6be4fec0e0c5945dc31225cc4bda079fce84824b1d"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 5902,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/HANDOFF.json",
+        "sha256": "4291a055c4cc125d4a07fe6be4fec0e0c5945dc31225cc4bda079fce84824b1d"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 2187,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/HANDOFF.json",
+        "sha256": "bd035e6017edf7c15b6c2f33e4519d8a43c66da00a9dd862fb50bb1a6dfd5d8e"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 2187,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/HANDOFF.json",
+        "sha256": "bd035e6017edf7c15b6c2f33e4519d8a43c66da00a9dd862fb50bb1a6dfd5d8e"
+      }
+    },
+    {
+      "expected": {
+        "bytes": 2017,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-root-repair-adjudication-maf4rxgj/RI135_ROOT_ADJUDICATION.json",
+        "sha256": "003adf89a7354a19df5bd332ee009f5ebd73470cd50c92a745f522315cb703cd"
+      },
+      "matched": true,
+      "observed": {
+        "bytes": 2017,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-root-repair-adjudication-maf4rxgj/RI135_ROOT_ADJUDICATION.json",
+        "sha256": "003adf89a7354a19df5bd332ee009f5ebd73470cd50c92a745f522315cb703cd"
+      }
+    }
+  ],
+  "closed_source_namespace_unchanged": true,
+  "schema": "ri137-independent-final-static-pin-check-v1",
+  "status": "PASS",
+  "target_execution": false
+}
