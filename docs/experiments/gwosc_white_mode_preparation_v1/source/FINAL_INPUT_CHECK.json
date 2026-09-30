@@ -1,0 +1,13 @@
+{
+  "changed": [],
+  "checked": 463,
+  "dependency_manifest": {
+    "bytes": 236223,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/DEPENDENCIES.json",
+    "sha256": "54eb0fb5cf7db0db8abe93bbdeb71419a21e6acb34cf14aafaeee25fece9005a"
+  },
+  "installed_runtime_observation": false,
+  "schema": "ri154-final-opaque-input-check-v1",
+  "status": "PASS",
+  "subject_execution": false
+}

@@ -1,0 +1,181 @@
+{
+  "active_admission_created": false,
+  "authorship_disclosure": "I authored earlier separate WHITE validator/caller/bootstrap components, not this RI154 packet. Earlier accepted source and actual results are inherited premises; current readings check interface correspondence without fresh self-acceptance.",
+  "boundary": "Metadata checks and source-feasible proposed sequence only. Source adapter implementation, meaningful controls, genuine current runtime, normal/optimized scientific modes and separate saved arithmetic reconstruction remain unperformed. Root alone adjudicates, admits and publishes.",
+  "exact_namespace": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "CHECK_V2.stderr",
+    "CHECK_V2.stdout",
+    "FINAL_INPUT_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "METADATA_CHECK.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "check_metadata_v2.py",
+    "final_input_check.py"
+  ],
+  "failed_administrative_attempt": {
+    "exit_code": 1,
+    "preserved": [
+      "check_metadata.py",
+      "CHECK.stdout",
+      "CHECK.stderr"
+    ],
+    "repair": "Only reviewer permitted-read-domain predicate; V2 aea602 exit0.",
+    "tool_chunk": "d042ef"
+  },
+  "files": [
+    {
+      "bytes": 5051,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/ACTUAL_CHECKS.json",
+      "sha256": "74e6692adc1503cda15b914147ba99f69d63f7ad7f7c8dc10270fd9bf53ac475"
+    },
+    {
+      "bytes": 852,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stderr",
+      "sha256": "0c33a6b815c59179240e5d0bda820e17c02f04570af108a2b3aa523ffde02c48"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 376,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stdout",
+      "sha256": "6980ee631cfa18af12a5f0f81373a3eb161f6f9fde27c1cc987f348a225e1c56"
+    },
+    {
+      "bytes": 10012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "sha256": "7c44ee9836e92a59dae061c5425161df905b70e1ee8ceed4d3bfa6329ce288fa"
+    },
+    {
+      "bytes": 17896,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "919f2db4f03167e5414a583e3bf7fb01f5c3c335fdefbfb37a7452a536d62bb1"
+    },
+    {
+      "bytes": 1096784,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571"
+    },
+    {
+      "bytes": 3515,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/VERDICT.json",
+      "sha256": "703364ef4b86cb6883adf3f0b94b319e920652197151c1ed63c888ee30f56603"
+    },
+    {
+      "bytes": 16291,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py",
+      "sha256": "8055708ac035e9999bd18c478bcf38692c89db8f717f003b832a6f469c45fb9a"
+    },
+    {
+      "bytes": 16383,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata_v2.py",
+      "sha256": "ef6dee4a31109f6fd4742584ab3d7d9bdf2adc4d621cffdbb0ba7cf7f5b54c78"
+    },
+    {
+      "bytes": 2167,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/final_input_check.py",
+      "sha256": "0ec9794a6dfb2f5d3d2a8b076910a455e2fd778abd15937af95b6751bac356ec"
+    }
+  ],
+  "final_reconciliation": {
+    "identities_unchanged": 478,
+    "original_source_directories": 4,
+    "original_source_files": 48,
+    "prospective_root_absent": true
+  },
+  "guard_evidence_transfer_accepted": false,
+  "installed_runtime_observation": false,
+  "metadata_counts": {
+    "added": 21,
+    "author_administrative_predicates": 4071,
+    "author_namespace": 15,
+    "author_payloads": 14,
+    "copies": 48,
+    "fresh_reviewer_predicates": 6304,
+    "helpers": 11,
+    "history_roles": 124,
+    "inherited": 442,
+    "input_bytes": 26311988,
+    "input_files": 463,
+    "interface_domains": 22,
+    "stage_roles": 17,
+    "target_pairs": 30,
+    "unique_observed_paths": 478
+  },
+  "new_source_copy_created": false,
+  "open_execution_prerequisites": [
+    "R01 guard evidence path applicability",
+    "R02 new-environment capture and profiles",
+    "R03 new-copy/card/full-namespace observation",
+    "R04 concrete bounded adapter and entire saved-mode verifier qualification"
+  ],
+  "operational_qualification": false,
+  "original_or_repo_mutation": false,
+  "publication": {
+    "compact_subset": [
+      "ACTUAL_CHECKS.json",
+      "CHECK.stderr",
+      "CHECK.stdout",
+      "CHECK_V2.stderr",
+      "CHECK_V2.stdout",
+      "FINAL_INPUT_CHECK.json",
+      "HANDOFF.json",
+      "INDEPENDENT_SOURCE_REVIEW.md",
+      "METADATA_CHECK.json",
+      "VERDICT.json",
+      "check_metadata.py",
+      "check_metadata_v2.py",
+      "final_input_check.py"
+    ],
+    "external_only_diagnostics": [],
+    "note": "Publish complete compact review, including failed checker and traceback. All478 source/evidence inputs remain external exact identities; no duplicate scientific archive."
+  },
+  "required_repairs": [],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo",
+  "ret_paused": true,
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri154-independent-relocation-preparation-review-handoff-v1",
+  "scientific_body_decode": false,
+  "scientific_execution": false,
+  "self_pin_omitted": true,
+  "status": "SEALED_NONAUTHOR_REVIEW_FOR_ROOT_ADJUDICATION",
+  "subject": {
+    "bytes": 7336,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/HANDOFF.json",
+    "sha256": "48aa2c11468fab405a1e15793916c42e38ee4562a6212d71987149076c8814d6"
+  },
+  "successful_checks": [
+    {
+      "exit_code": 0,
+      "result": {
+        "bytes": 1096784,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+        "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571"
+      },
+      "tool_chunk": "aea602"
+    },
+    {
+      "exit_code": 0,
+      "result": {
+        "bytes": 10012,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+        "sha256": "7c44ee9836e92a59dae061c5425161df905b70e1ee8ceed4d3bfa6329ce288fa"
+      },
+      "tool_chunk": "e28acb"
+    }
+  ],
+  "successor_assignment": false,
+  "verdict": "ACCEPT_BOUNDED_RELOCATION_AND_CUSTODY_PREPARATION_WITH_R01_R04_OPEN"
+}

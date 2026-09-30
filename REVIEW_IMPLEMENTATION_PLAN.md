@@ -1,35 +1,33 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 30 September 2026 UTC.** RI-153's fixed-prefix
-identities and conditional joint-budget reduction are independently reviewed
-and root accepted. Exact source, full review and root evidence are in
-`docs/track_b/native_growth_fixed_prefix_margin_v1/`.
+**Current checkpoint — 30 September 2026 UTC.** RI-154's exact WHITE
+relocation map and full external mode-custody requirements are independently
+reviewed and root accepted as bounded preparation. Exact author, review and
+root evidence are in `docs/experiments/gwosc_white_mode_preparation_v1/`.
 
-The new J3 component identity retains complete marked incidence and strict
-prefix positivity. Hook/square full-complement identities sharpen the bounds.
-For a nonnegative singleton floor, the two endpoints are now necessary and
-sufficient. Kbox and the maximum Kcorr improve the previous bound; no claim
-that each ratio anchor individually dominates is accepted. Both joint budgets
-reduce exactly to strict capacities and one adequate q threshold at the same
-correlated prefix. A true pass would obstruct this fixed H30 candidate; no pass
-is established. Actual capacity signs, branches/root order, q/v magnitudes,
-small-x membership, individual C2/C3 and shared H30 remain open. The withdrawn
-seed-order inference supplies no premise. Fixed P2/P3, numerical Y=1/4,
-31/139/20/42 obligations, shared T1, other eight parents and five Di remain.
+The complete 48-file map retains 30 target pairs, 11 helper/declaration bindings,
+124 original history roles and 17 stage roles. The review confirms three real
+compatibility gaps: original guard paths, the old temporary-directory environment,
+and the collector's original-only source domain. Unchanged RI-141 can support a
+fresh capture and ordered normal/optimized profile sequence in the proposed
+environment, with separate copied-source/card observations. No active copy,
+runtime observation, freeze or scientific admission is created here.
 
-QR owns RI-155 in `ri155-strict-capacity-proof-jv0xliup` to resolve the actual
-strict-capacity prerequisite using the retained normalization, incidence and
-scale correlations. It follows RI-153 adjudication; a failed sufficient envelope
-alone cannot decide W. No numerical scientific execution is assigned.
+RI-156 is assigned to the measurement contributor for the smallest concrete
+external adapter and complete saved-mode verifier in the external reservation
+recorded in `root/MEASUREMENT_SUCCESSOR_ASSIGNMENT.json`. All existing thresholds,
+15 WHITE cases, both 179-control sets, 57 artifacts, 74 postchecks, three trees
+and independent saved reconstruction remain. Implementation and its qualification
+precede separate genuine scientific operation. Full32/periodic/mean/join and the
+selected conventional GWOSC reproduction remain later distinct obligations.
 
-RI-151's exact canonical formula and RI-152's genuine 65 caller guards remain
-accepted and published in verified `b590f08`. WHITE scientific qualification and
-the selected conventional GWOSC reproduction are still separate gates. RI-154
-source/custody preparation is active in `ri154-white-mode-preparation-42_uvw15`,
-with the measurement contributor authoring for subsequent independent review.
-Its exact relocation, environment and complete external mode-custody requirements
-must be settled before scientific admission. Historical runtime/profile/guard
-observations cannot silently authorize changed paths or environments.
+RI-153's fixed-prefix identities and conditional joint-budget reduction are
+published in verified `775ff06`. QR's RI-155 proof is now sealed and assigned
+fresh nonauthor review in `ri155-independent-capacity-review-3gu50gvs`.
+The author's proposed first-capacity bound and reduced strict comparison remain
+unadjudicated. Actual v>B, q adequacy, W/C2/C3 and shared H30 remain open.
+No numerical scientific execution is assigned. Fixed P2/P3, numerical Y=1/4,
+31/139/20/42 obligations, other eight parents and five Di remain.
 
 Root owns adjudication, admissions and Git. Active successor files and unrelated
 edits are excluded. Calibration, native forward maps and physical claims remain
@@ -80,7 +78,7 @@ assessment rather than rewritten to remove findings as they are resolved.
 | Lane | Owner and handoff | Current work |
 |---|---|---|
 | Coordination, integration and review repairs | This task, `01a09c7a-ebce-7213-b06a-43315ae68fd5` | Maintain this plan, coordinate file ownership, independently review results, implement non-QR repair batches and research verification interfaces. |
-| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-153 conditional margin reduction accepted; RI-155 actual strict-capacity proof active. Actual signs and H30 remain open. |
+| QR foundations | Existing **Quantum Relativity** task, `01a074c4-4b09-76a3-8cb2-0caf116f6b9c`; [QR handoff](docs/coordination/QR_HANDOFF.md) | RI-153 accepted; RI-155 sealed and under complete independent proof review. Actual strict comparison and H30 remain open. |
 | RET delivery | Existing **RET SDK** context, `01a082cc-708a-7611-985e-a60c532e0586` | Explicitly paused. G2 and calibration obligations remain historical open items; no RET work resumes without the user lifting that pause. |
 
 The QR task acknowledged the ownership division on 13 September. Its bounded
@@ -113,9 +111,9 @@ Active file reservations, updated 30 September UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task and coordinator reviewers | RI-153 independently/root adjudicated; QR owns `ri155-strict-capacity-proof-jv0xliup/`. Root owns Git/admissions. |
+| QR task and coordinator reviewers | RI-155 sealed by QR and assigned nonauthor review in `ri155-independent-capacity-review-3gu50gvs/`; root adjudicates before native successor. Root owns Git/admissions. |
 | Native current-runtime review | Native scientific execution remains separately gated; RI-151 analytic formula accepted. Root owns future admissions. |
-| Measurement source implementation/review | RI-152 actual guards accepted; measurement contributor authors RI-154 in `ri154-white-mode-preparation-42_uvw15/` for fresh independent review. Root owns admissions and Git. |
+| Measurement source implementation/review | RI-154 bounded preparation independently/root accepted. Existing contributor implements RI-156 adapter/full verifier under the archived exact assignment; source review and qualification precede use. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -200,8 +198,9 @@ Active file reservations, updated 30 September UTC:
 | RI-151 canonical Q row equalities | Exact actual-canonical target formula independently/root accepted; fixed-prefix budget open. Next: RI-153 fixed-prefix weighted margin. |
 | RI-152 runtime guard qualification | Genuine 65 outcomes and whole custody independently/root accepted; test doubles explicit. Next: RI-154 WHITE execution-root bindings and external mode-custody preparation. |
 | RI-153 fixed-prefix weighted margin | Exact prefix identities, endpoint theorem and conditional joint-budget reduction independently/root accepted. Next: RI-155 actual strict-capacity proof; actual budget success remains open. |
-| RI-154 WHITE qualification preparation | Source/custody preparation actively authored in the reserved external directory. Next: Fresh independent review of relocation, environment applicability and complete outer custody before any scientific admission. |
-| RI-155 strict-capacity proof | Assigned to QR after RI-153 adjudication. Next: Resolve actual YE<1 and the strict v threshold from correlated prefix structure, preserving the distinction between envelope failure and W. |
+| RI-154 WHITE qualification preparation | Exact relocation and complete outer-custody requirements independently/root accepted; R01–R04 retained. Next: RI-156 concrete adapter and complete verifier source; no scientific admission. |
+| RI-155 strict-capacity proof | Author packet sealed; fresh nonauthor review assigned. Next: Independently review full height transport, capacity reduction and actual administrative checks before root adjudication or new QR assignment. |
+| RI-156 WHITE external adapter and full verifier | Assigned concrete source implementation after RI-154 adjudication. Next: Implement exact source/card observations, acyclic bindings, full saved-mode predicates and targeted inert controls; independently review before qualification/use. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
@@ -8061,3 +8060,23 @@ active and unadmitted. Parent b590f08 was independently verified on origin/ret.
 Scoped exact-copy, staged/committed-blob and whole-unrelated-custody checks plus
 commit/push/remote receipts are retained externally. Programme and physical
 claims remain open; RET remains paused.
+
+
+**RI-154 relocation and mode-custody preparation — 30 September 2026 UTC.**
+Complete nonauthor and coordinator reviews accept the unchanged-source map and
+concrete source-feasible new-environment observation route. R01 guard paths,
+R02 environment predecessor, R03 original-only observer domain and R04 missing
+adapter/verifier remain explicit implementation boundaries. No active E root,
+scientific admission or runtime observation was created. Original packets and
+historical accepted results stay immutable.
+Root tool2179f1 exited0: 4,055 administrative predicates, 478 observed identities,
+all463 inputs, 442 inherited rows and complete48/30/11/124/17 map. Independent
+review passes6,304 predicates and all22 literal interface inventories. Its initial
+repository-domain restriction and one-line correction are both preserved; neither
+is a subject failure or a relaxed threshold. Full source, review and root records
+are archived together. RI-156 implements the actual adapter/full verifier next;
+RI-155's newly sealed native proof has a fresh independent review reservation.
+Parent775ff06 was independently verified on origin/ret. Exact-copy, scoped staged/
+committed-blob and full unrelated-custody checks plus actual commit/push/remote
+verification are retained externally. Scientific qualification, conventional
+public-data reproduction and physical claims remain distinct. RET remains paused.

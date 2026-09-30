@@ -1,0 +1,43 @@
+{
+  "active_admissions_or_copies_created": false,
+  "all_target_import_compile_ast_probe_fixture_execution": false,
+  "failed_administrative_checks": [],
+  "interface_enumeration": {
+    "exit_code": 0,
+    "operation": "Administrative literal field-list construction and counting; no subject parser/code invocation.",
+    "tool_chunk": "410040"
+  },
+  "preparation": {
+    "command": "python3 /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/prepare_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/METADATA_CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/METADATA_CHECK.stderr",
+    "inputs": 463,
+    "preceded_by": "Exclusive creation of this retained administrative source in the same exec tool call.",
+    "predicates": 4071,
+    "source": {
+      "bytes": 9114,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/prepare_metadata.py",
+      "sha256": "9ef978014203cc1469e69c41af66cf18e2d043c96dcb2d96078687537ce8663c"
+    },
+    "stderr": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/METADATA_CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/METADATA_CHECK.stdout",
+      "sha256": "b31ec53907078908074708a99b5bf39365a0114460d3d509b57ca10bd545d300"
+    },
+    "tool_result": {
+      "chunk_id": "c005ce",
+      "exit_code": 0,
+      "output": "",
+      "wall_time_seconds": 6.875e-06
+    }
+  },
+  "preseal_wording_correction": {
+    "exit_code": 0,
+    "operation": "Corrected two draft supervisor-field counts31 to30 from the retained full literal inventory; wrote author/readiness notes. No predecessor edited.",
+    "tool_chunk": "0bb570"
+  },
+  "schema": "ri154-actual-administrative-check-commands-v1"
+}

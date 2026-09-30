@@ -1,0 +1,15 @@
+{
+  "owner": "/root/archive_repro_review",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs",
+  "ret_paused": true,
+  "root_adjudication_pending": true,
+  "schema": "ri155-independent-capacity-review-assignment-v1",
+  "scientific_execution": false,
+  "status": "ASSIGNED_COMPLETE_NONAUTHOR_REVIEW_NOT_THEOREM_ACCEPTANCE",
+  "subject": {
+    "bytes": 8064,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.json",
+    "sha256": "d4fd15fd5236990227bf1c059df960a3e0e53d01559c2bf1fee5422d7f059690"
+  },
+  "task": "Independently review all three RI155 proof manuscripts, inherited finite all-row height theorem and its marked diamond transports, exact eta cancellation, YE bound and strict-capacity reduction, canonical N threshold/equality, complete-parent bounds, conditional envelope obstruction and common-factor contrast. Independently reconcile actual author checks/dependency identities; distinguish finite inherited theorem, new manual algebra and metadata checks. Retain all strict endpoints, markings/occurrences, same-prefix correlations and open actual comparison. No scientific source/operand evaluation, engine, import/compile/AST/probe, runtime/card/admission or Git. Seal full findings/checks/verdict; root adjudicates before next QR step."
+}
