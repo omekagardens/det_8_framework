@@ -1,0 +1,47 @@
+{
+  "E_before": {
+    "bytes": 42464,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/E_BEFORE.json",
+    "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "host_tool_receipts": {
+    "bytes": 725,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/HOST_BEFORE.json",
+    "sha256": "dfb76ef7bd7db51837b46578847a9d58bae5c8e0a8cbdf6575b317a2b50d4d15"
+  },
+  "monitor_bootstrap": {
+    "bytes": 2417,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py",
+    "sha256": "76779aeb180fc09ef2c90a2c1341ff3f5285640645ac15e1d90b27014422a00a"
+  },
+  "schema": "ri209-root-installation-preflight-v1",
+  "scientific_execution": false,
+  "source_manifest": {
+    "bytes": 1368,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_PINS.json",
+    "sha256": "de91cbd42647e012c7f900dbff1355691986f6e6a8b1622c2ff9216c1f7dd443"
+  },
+  "sources": {
+    "bytes": 467404,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/SOURCES_BEFORE.json",
+    "sha256": "52044caf0447f2be23ea619ef54c72933cd46b414149296ec2ce46832e232196"
+  },
+  "status": "FRESH_EXACT_INSTALLATION_PREFLIGHT",
+  "supplier": {
+    "bytes": 1260487,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/SUPPLIER_BEFORE.json",
+    "sha256": "3a341dd656332bcdacad8ebbbcbf271b720a0d36229e22ed69b40853d1839e2c"
+  }
+}

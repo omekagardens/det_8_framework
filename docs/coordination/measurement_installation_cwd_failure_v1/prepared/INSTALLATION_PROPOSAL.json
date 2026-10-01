@@ -1,0 +1,96 @@
+{
+  "active_card_created": false,
+  "dispatch_created": false,
+  "proposed_admission": {
+    "environment": {
+      "LC_ALL": "C",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PATH": "/usr/bin:/bin",
+      "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/tmp",
+      "TZ": "UTC",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+    },
+    "genuine_outer_required": true,
+    "limits": {
+      "file_bytes": 67108864,
+      "maximum_sample_gap_seconds": 0.1,
+      "ps_timeout_seconds": 0.05,
+      "rss_kib": 524288,
+      "target_poll_seconds": 0.025,
+      "wall_seconds": 180
+    },
+    "output": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-install-operation-x62withm",
+    "preflight": {
+      "bytes": 2004,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_PREFLIGHT.json",
+      "sha256": "f542fbded058675eab6efc479cdc04c908d0b58131311e35c610c77233d09d6a"
+    },
+    "schema": "ri209-root-freeze-installation-admission-v1",
+    "source_manifest": {
+      "bytes": 1368,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_PINS.json",
+      "sha256": "de91cbd42647e012c7f900dbff1355691986f6e6a8b1622c2ff9216c1f7dd443"
+    },
+    "source_review": {
+      "bytes": 2333,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ROOT_SOURCE_REVIEW.json",
+      "sha256": "88f7f89ca9738eb52fb09fb2dee81400a7ad754e55a613de4df7f826d5f5bd2a"
+    },
+    "status": "AUTHORIZE_ONE_EXACT_FREEZE_INSTALLATION"
+  },
+  "proposed_dispatch": {
+    "actual_execution_not_yet_started": true,
+    "admission": {
+      "bytes": 1600,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ADMIT_INSTALL.json",
+      "sha256": "fb3e01a0cd672c20ac491cfeb026c9ac370f76cc18a66d4e0e9ea8ed047dff66"
+    },
+    "bootstrap": {
+      "bytes": 2417,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py",
+      "sha256": "76779aeb180fc09ef2c90a2c1341ff3f5285640645ac15e1d90b27014422a00a"
+    },
+    "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm",
+    "external_timeout_seconds": 960,
+    "login": false,
+    "monitor_source": {
+      "bytes": 45721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "outer_argv": [
+      "/usr/bin/env",
+      "-i",
+      "LC_ALL=C",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "PATH=/usr/bin:/bin",
+      "TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/tmp",
+      "TZ=UTC",
+      "VECLIB_MAXIMUM_THREADS=1",
+      "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0",
+      "/usr/bin/perl",
+      "-e",
+      "$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;",
+      "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "-I",
+      "-B",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py"
+    ],
+    "shell_command": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py",
+    "single_attempt": true
+  },
+  "prospective_admission_pin": {
+    "bytes": 1600,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ADMIT_INSTALL.json",
+    "sha256": "fb3e01a0cd672c20ac491cfeb026c9ac370f76cc18a66d4e0e9ea8ed047dff66"
+  },
+  "schema": "ri219-unissued-installation-proposal-v1",
+  "status": "UNISSUED_REQUIRES_ROOT_PREFLIGHT_REVIEW"
+}

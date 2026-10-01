@@ -1,0 +1,38 @@
+{
+  "RET_paused": true,
+  "accepted_result": "Exact common local interval(0,a_star), a_star=B2/(4h)=KB2/(4A_seed)<3/59<1/4. Shared solution t=0,w=z,v=d=0 gives positive full through-eight extension for0<a<a_empty, with0<a_empty<a_star.",
+  "all_size_or_physical_claim": false,
+  "independent_review": {
+    "bytes": 1439,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI220_NONAUTHOR_REVIEW.json",
+    "sha256": "14ef0eb31f254f76b76023be02ab4d852b63a75fd09c81f982baab386759b510"
+  },
+  "manual_review": {
+    "bytes": 4672,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI220_ROOT_PROOF_REVIEW.md",
+    "sha256": "0098ade2b30b2c2f2529cf970646e6f4151d8360b0ad9be0e815bb4e3269a96d"
+  },
+  "maximal_full_amplitude_unresolved": true,
+  "original_quarter_amplitude_rejection_immutable": true,
+  "premises": [
+    "Original normalized harmonic seedz1=1, all|z_j|<=1 and all complete seed residuals vanish.",
+    "Original baseline strict positivity, record-blind empty probabilities, complete H30 support/parent closure and shared iff.",
+    "RI127 complete T1 andT2/T3 all-record transport/cancellation and nonzero pivots.",
+    "Accepted RI216K>1/5500, C2(1/4)<0, B2<1/1000, h>59/12000, B3>1+delta_W and original seed split identities.",
+    "Inherited finite polynomial sign premises, canonical corrections and native scale bounds; no new extraction."
+  ],
+  "qualification_credit": 0,
+  "root_metadata": {
+    "bytes": 2951,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI220_ROOT_METADATA_REPLAY.json",
+    "sha256": "27446a6160c295824d5470daa3bcb8f5e697f31b1899084ac48f4375cc3061ed"
+  },
+  "schema": "ri220-root-independent-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_LOCAL_RANGE_AND_FULL_SMALL_AMPLITUDE_EXTENSION",
+  "subject": {
+    "bytes": 11970,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/HANDOFF.json",
+    "sha256": "9c68c302451c79729605e1d036b6825a13bf21a4f458f033ae1badd5f78c9d86"
+  }
+}

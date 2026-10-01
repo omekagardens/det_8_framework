@@ -1,0 +1,75 @@
+{
+  "E_directories": 9,
+  "E_files": 48,
+  "RET_paused": true,
+  "absences": 2,
+  "blocking_findings": [],
+  "bootstrap": {
+    "bytes": 2417,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py",
+    "sha256": "76779aeb180fc09ef2c90a2c1341ff3f5285640645ac15e1d90b27014422a00a"
+  },
+  "card_or_dispatch_issued": false,
+  "check": {
+    "bytes": 1649822,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/CHECK_RESULT.json",
+    "sha256": "8d1f58e84d21b4679491c0419b914763464381d27cba4684807730e39216e0a9"
+  },
+  "custody": {
+    "bytes": 13814,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/PREPARATION_CUSTODY.json",
+    "sha256": "0e360bd2dd0859ce37198056e42de2d7c310fb2212dabc40ef045f805e82770f"
+  },
+  "full_records_reconstructed": true,
+  "independent_identities": 2699,
+  "independent_predicates": 56974,
+  "installed_freeze": false,
+  "narrative": {
+    "bytes": 8716,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/INDEPENDENT_REVIEW.md",
+    "sha256": "58bdca1c057d0b6edf24a8a990ec9a0d2b1da6d275ff74f2c9322f291cb010ce"
+  },
+  "old_partials_unchanged": true,
+  "preflight": {
+    "bytes": 2004,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_PREFLIGHT.json",
+    "sha256": "f542fbded058675eab6efc479cdc04c908d0b58131311e35c610c77233d09d6a"
+  },
+  "preparation_only": true,
+  "prior_RI213_review_miss_preserved": true,
+  "prior_authorship_disclosed": [
+    "RI130",
+    "RI141 and older WHITE/caller/bootstrap source"
+  ],
+  "proposal": {
+    "bytes": 4521,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALLATION_PROPOSAL.json",
+    "sha256": "4b5185ed7f576a833ef0a18abb28c6fba5491c9002423e3e0f03121b10fb3a5e"
+  },
+  "receipts": {
+    "bytes": 7001,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/ACTUAL_REVIEW_RECEIPTS.json",
+    "sha256": "d293d1d3cd5c98efd483070b4205c41f846dcc30a018f40738fe3d1121904afa"
+  },
+  "recommendation": "READY_FOR_ROOT_FRESH_PREDISPATCH_AND_SEPARATE_ADMISSION",
+  "required_next": [
+    "Root genuine-origin and startup adjudication",
+    "Immediate fresh complete predispatch custody check",
+    "Distinct exact one-operation admission/dispatch if root approves",
+    "Actual monitored installation and independent complete result/custody acceptance"
+  ],
+  "reviewer": "/root/archive_repro_review",
+  "root_genuine_origin_premise": true,
+  "schema": "ri219-independent-concrete-preparation-verdict-v1",
+  "source_count": 857,
+  "source_review": {
+    "bytes": 2333,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ROOT_SOURCE_REVIEW.json",
+    "sha256": "88f7f89ca9738eb52fb09fb2dee81400a7ad754e55a613de4df7f826d5f5bd2a"
+  },
+  "subject_execution": false,
+  "supplier_namespace": 195,
+  "tools": 4,
+  "vendor_bytes": 48024515,
+  "vendor_count": 1810
+}

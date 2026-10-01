@@ -1,0 +1,201 @@
+{
+  "schema": "ri220-native-amplitude-range-and-shared-solution-handoff-v1",
+  "status": "CONDITIONAL_LOCAL_RANGE_AND_FULL_SMALL_AMPLITUDE_SUBFAMILY_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI220_NATIVE_ASSIGNMENT.json",
+    "bytes": 11916,
+    "sha256": "d2150c752fe33eaab152fb656d4ad2852e7b266e5a2047bbb65d58f9ae7849f9"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI216_ROOT_ADJUDICATION.json",
+    "bytes": 2049,
+    "sha256": "fa3659893248250c1fabf559a4c36a96729eea87a1f77c7309a2d63c4a46cc4d"
+  },
+  "additional_literal_admission": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI220_SHARED_AFFINE_LITERAL_ADMISSION.json",
+    "bytes": 2212,
+    "sha256": "0234ce3ab0d98704ddfa94bf320397c6d4f8e25153e24fd676d221791656a8fd"
+  },
+  "namespace": [
+    "AMPLITUDE_RANGE.md",
+    "AUTHOR_VERIFICATION.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SHARED_COMPATIBILITY.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/AMPLITUDE_RANGE.md",
+      "bytes": 8742,
+      "sha256": "ed50a70c5c5a968dee1b1e7230230694e6a26d7fb709d8255ff69af581356748"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/AUTHOR_VERIFICATION.json",
+      "bytes": 34081,
+      "sha256": "f0947540578925c57c8b0d00c0f684d29c4f8de34f6685b51b007c80f74151cf"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/HANDOFF.md",
+      "bytes": 2288,
+      "sha256": "bf288fee0e76009917e6c834089a0e3546e931ceece192d2f0a47c36b53b6c36"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SHARED_COMPATIBILITY.md",
+      "bytes": 11045,
+      "sha256": "10f67367f8b48d559480c88b2051391f3058493e03ce41dab2d6aa18e2f0f45e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SOURCE_REFERENCES.json",
+      "bytes": 41660,
+      "sha256": "ed585f683b59a2c8c20d23f869184cb039e941a7b0e6009660cb14190aa477b6"
+    }
+  ],
+  "new_theorems": [
+    "For any a>0, exact local reconstruction t_j in(-min(1,1/beta_j)/a,(z_j+e_j/a)/Gamma_j), v_j=beta_j*t_j,w_j=z_j-Gamma_j*t_j; strict endpoints.",
+    "Accepted C2(1/4)<0 forces beta2<1/2 and z2<0. Exact T2 ceiling a_star=B2/(4h)=K*B2/(4A_seed), with0<a_star<3/59<1/4.",
+    "Exact T3 condition a(h-1)+B3_tilde/4>0, preserving beta branches. T3 passes throughout the T2 range, so exact common local range(0,a_star).",
+    "All full shared affine equations are independent of amplitude. Their concrete solution is t0=t2=t3=0,w=z,v=0,d=0.",
+    "RI127 L_i(z) equals rho times the five RI85 seed harmonic rows term by term, including all records and individual ideal multiplicities, so every disconnected equation vanishes.",
+    "Define a_empty=min over negative z_j of e_j/(-z_j)>0. Empty-child directions y_Jj=z_j/e_j and all other child directions zero are strictly positive exactly on(0,a_empty).",
+    "0<a_empty<a_star<1/4, giving a conditional full positive H30 extension through eight births for this distinct subfamily, not merely local positivity.",
+    "For the full feasible amplitude setF: (0,a_empty) subset F subset(0,a_star); exact maximal full amplitude and intermediate feasibility unestablished."
+  ],
+  "exact_result": {
+    "original_candidate": "Accepted rejection at amplitude1/4 remains immutable.",
+    "local": "Exact common T2/T3 positive amplitude interval0<a<a_star, wherea_star=B2/(4h)=K*B2/(4A_seed) and0<a_star<3/59<1/4.",
+    "shared": "t0=t2=t3=0,w_j=z_j,v_j=0,d_i=0 solves all shared affine equations. Each L_i(z) is rho times the matching complete accepted seed harmonic row.",
+    "full_subfamily": "With y_Jj=z_j/e_j and every other child direction zero, definea_empty=min_{z_j<0}e_j/(-z_j). The exact positive interval for this direction is0<a<a_empty, with0<a_empty<a_star.",
+    "finite_extension": "On the accepted complete H30 iff and inherited finite seed/law premises, this gives a full strictly positive extension through eight births for a distinct nonempty amplitude subfamily.",
+    "remaining": "For the full feasible amplitude setF, (0,a_empty) subset F subset(0,a_star). The maximal full amplitude and feasibility of alternate directions at/abovea_empty are not determined.",
+    "acceptance": "All new conclusions await independent review. No numerical amplitude selected."
+  },
+  "proof_steps": [
+    "Replace1/4 bysymbolica only in multiplier positivity after dividing the same harmonic equations bya>0. Retain all pivots, records and local variables.",
+    "Keep min(1,1/beta_j) until branch evidence. The accepted negative original C2 forcesbeta2<1/2; derive a_star exactly and exclude its zero endpoint.",
+    "Derive full T3 condition with B3_tilde, splittingbeta3 andh cases. Prove its admissibility throughout the T2 interval without assumingbetasize.",
+    "Use separately admitted RI127 RESULT eq10-13 for the exact remaining shared system; all equalities amplitude independent, all old positivity4 factors become1/a.",
+    "Use inherited explicitly admitted RI85 DESIGN eq10 plus accepted RI88 seed harmonicity. Match all five rows of L(z)/rho with all slot multiplicities, record restrictions and C5 full-slot notation retained.",
+    "Substitute t0=t2=t3=0,w=z,v=d=0 into every connected and disconnected row. No g_i constancy or numerical coefficient needed.",
+    "Use finite negative seed set and positive e_j to provea_empty>0, exact strict positivity for the explicit direction, and a_empty<a_star<1/4.",
+    "Invoke complete H30 iff only after both equality and strict positivity checks. Preserve finite/internal, conditional and no-execution boundaries."
+  ],
+  "inherited_not_freshly_reproved": [
+    "Original normalized harmonic seedz1=1, all|z_j|<=1 and all complete seed residuals vanish.",
+    "Original baseline strict positivity, record-blind empty probabilities, complete H30 support/parent closure and shared iff.",
+    "RI127 complete T1 andT2/T3 all-record transport/cancellation and nonzero pivots.",
+    "Accepted RI216K>1/5500, C2(1/4)<0, B2<1/1000, h>59/12000, B3>1+delta_W and original seed split identities.",
+    "Inherited finite polynomial sign premises, canonical corrections and native scale bounds; no new extraction."
+  ],
+  "scope": {
+    "manual_analysis_only": true,
+    "original_quarter_amplitude_rejection_immutable": true,
+    "distinct_symbolic_amplitude_family": true,
+    "exact_local_amplitude_interval_proved": true,
+    "original_local_variables_and_strict_endpoints_preserved": true,
+    "complete_shared_affine_consistency_proved": true,
+    "explicit_symbolic_shared_solution_proved": true,
+    "full_through_eight_small_amplitude_subfamily_proved": true,
+    "maximal_full_amplitude_decided": false,
+    "numerical_amplitude_selected": false,
+    "inherited_finite_sign_premises_remain_conditional": true,
+    "new_scientific_body_vector_or_certificate_read": false,
+    "new_coefficient_coordinates_resolved": false,
+    "automatic_scientific_parsing_or_proof_arithmetic": false,
+    "H_or_z_reconstruction": false,
+    "actual_scales_or_full_vector_evaluated": false,
+    "graph_LP_subject_runtime_fixture_card_execution": false,
+    "repository_Git_index_or_measurement_written": false,
+    "ret_paused": true,
+    "physical_correspondence_or_full_QM_proved": false,
+    "all_size_record_blind_extension_proved": false,
+    "successor_designed_or_started": false,
+    "qualification_credit": 0
+  },
+  "provenance_scope": {
+    "direct_sources": 21,
+    "direct_bytes": 652815,
+    "inherited423_by_reference": true,
+    "inherited_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_namespace": 6,
+    "inherited_analytic_admissions": "Six original, two additional and two RI189 identities preserved by reference.",
+    "new_shared_analytic_admission": {
+      "authority": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI220_SHARED_AFFINE_LITERAL_ADMISSION.json",
+        "bytes": 2212,
+        "sha256": "0234ce3ab0d98704ddfa94bf320397c6d4f8e25153e24fd676d221791656a8fd"
+      },
+      "reference": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+        "bytes": 10435,
+        "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a"
+      },
+      "inherited_match": {
+        "role": "dep_0030",
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+        "identity": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+          "bytes": 10435,
+          "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a",
+          "symlinks": []
+        },
+        "classification": "analytic-source-text-or-review",
+        "access_policy": "text-reading-and-opaque-identity-no-execution",
+        "reference_provenance": [
+          "Complete sealed p127 packet",
+          "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json"
+        ]
+      },
+      "typed_reference_expansion": false
+    },
+    "old_RI216_body_exception_not_reused": true,
+    "opaque_support_not_expanded": true
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "a53438",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 25,
+      "explicit_selected_reference_checks": 28
+    },
+    "complete_final_proof_read": {
+      "chunk_id": "9df790",
+      "exit_code": 0
+    },
+    "handoff_read_and_pins": {
+      "chunk_id": "c3cd5a",
+      "exit_code": 0
+    },
+    "author_pin": {
+      "chunk_id": "d88839",
+      "exit_code": 0
+    },
+    "failed_shell_commands": 0,
+    "rejected_patches": 1,
+    "failed_orchestration_attempts": 2,
+    "diagnostics": "One clipped administrative JSON display caused a parse failure; corrected47d0a9. One duplicate in-memory identifier stopped metadata preparation before execution; corrected. One patch context mismatch rejected atomically; inspected84c6b8 and corrected. Clipped middle primary-source display recovered in full44ea01. All retained in author record.",
+    "independent_proof_acceptance": false
+  },
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "final_check_policy": "Run retained final6 administrative checker after this seal is saved. Report actual receipt and six final identities externally, without an internal self-hash or future-check claim.",
+  "stopping_rule": "Seal this bounded source-only amplitude theorem and explicit shared solution for independent root adjudication. Original1/4 rejection unchanged. No optimization, new candidate selection, numerical amplitude, runtime, publication/Git or successor. RET paused."
+}

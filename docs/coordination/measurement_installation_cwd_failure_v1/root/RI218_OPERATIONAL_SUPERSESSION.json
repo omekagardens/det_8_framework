@@ -1,0 +1,32 @@
+{
+  "concrete_review": {
+    "bytes": 2672,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/HANDOFF.json",
+    "sha256": "50d2c405af0ddca8ed4a5b8609b343044a036b43f7a6d1b2358e5611ddf8ba3d"
+  },
+  "custody": {
+    "bytes": 5447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/POST_FAILURE_CUSTODY.json",
+    "sha256": "c2b1bcec5ef02dbd35d44346f7ffe50766b5662949eb2341ed90a7f1d4bfd6f2"
+  },
+  "genuine_failure": {
+    "bytes": 3292,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "16b425213239b6f681ef8c80226668fbf2e19fb5e95f6bd3bb6389fbe8356780"
+  },
+  "preserve_historical_acceptances": true,
+  "review": {
+    "bytes": 1984,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/CALLER_FAILURE_REVIEW.json",
+    "sha256": "9dc858de414831b20e866ef311ed7265f44ab744bf5a6736ba21b503daac078b"
+  },
+  "schema": "ri221-operational-readiness-supersession-v1",
+  "scientific_credit": 0,
+  "source_review": {
+    "bytes": 2333,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ROOT_SOURCE_REVIEW.json",
+    "sha256": "88f7f89ca9738eb52fb09fb2dee81400a7ad754e55a613de4df7f826d5f5bd2a"
+  },
+  "status": "REPAIR_REQUIRED_WRONG_CHILD_CWD_NO_RETRY",
+  "valid_byte_and_clock_findings_retained": true
+}

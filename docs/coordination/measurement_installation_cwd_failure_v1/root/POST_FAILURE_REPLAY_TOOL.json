@@ -1,0 +1,25 @@
+{
+  "schema": "ri221-root-postfailure-replay-tool-v1",
+  "arguments": {
+    "cmd": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri221_postfailure_v2.py",
+    "workdir": "/Volumes/AI_DATA/development/det_8_framework-ret",
+    "yield_time_ms": 1000,
+    "max_output_tokens": 3000,
+    "sandbox_permissions": "require_escalated",
+    "justification": "Finish the metadata-only post-failure custody audit using a separate reviewed script that compares namespace membership in sorted order; preserve the original failed audit and all installation evidence."
+  },
+  "initial_result": {
+    "chunk_id": "a3a21c",
+    "wall_time_seconds": 1.003479708,
+    "session_id": 31556,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "terminal_result": {
+    "chunk_id": "bdd104",
+    "wall_time_seconds": 0.000008166,
+    "exit_code": 0,
+    "original_token_count": 54,
+    "output": "{\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/POST_FAILURE_CUSTODY.json\", \"bytes\": 5447, \"sha256\": \"c2b1bcec5ef02dbd35d44346f7ffe50766b5662949eb2341ed90a7f1d4bfd6f2\"}\n"
+  }
+}

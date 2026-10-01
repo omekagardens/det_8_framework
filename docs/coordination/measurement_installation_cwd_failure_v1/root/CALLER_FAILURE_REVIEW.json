@@ -1,0 +1,48 @@
+{
+  "RET_paused": true,
+  "audit_diagnostic": {
+    "cause": "Old sealed namespace is stored in a different list order; all names are identical. Initial audit compared sorted actual to unsorted declared list.",
+    "correction": "Separate v2 compares both sorted lists and authenticates already saved receipts; original script and failure retained.",
+    "initial": "10f0e2/session87577 terminal352a4e exit1",
+    "replay": "a3a21c/session31556 terminalbdd104 exit0"
+  },
+  "author_diagnosis": {
+    "agent": "/root/ri116_complete_caller_review",
+    "all_other_operational_paths": "absolute, except destination basename explicitly relative to pinned E directory descriptor",
+    "author_miss_disclosed": true,
+    "receipts": [
+      "980451",
+      "a52b81",
+      "009a3e"
+    ],
+    "smallest_repair": "At the one preownership guard require Path.cwd()==literal(D/'monitor'); preserve literal OUT/W checks."
+  },
+  "genuine_installation_event": "685f23",
+  "independent_review": {
+    "E_unchanged_directories": 9,
+    "E_unchanged_files": 48,
+    "agent": "/root/archive_repro_review",
+    "child_exit_code": 1,
+    "finding": "RI141 Popen cwd=out; bootstrap out=D218/monitor; installer requires D218.",
+    "miss_disclosed": true,
+    "outer_origin_is_root_attribution": true,
+    "passed": false,
+    "peak_sampled_rss_kib": 22048,
+    "receipts": [
+      "69943d",
+      "b65226",
+      "8f3a7b"
+    ],
+    "recommendation": "Supersede operative readiness pending fresh cwd-contract repair.",
+    "rss_samples": 5
+  },
+  "limits_and_monitor_unchanged": true,
+  "qualification_credit": 0,
+  "root_conclusion": "Confirmed preownership cwd interface failure. Source acceptance and concrete preparation readiness superseded operationally. Valid direct-byte and clock repairs remain; historical findings are preserved. No in-place retry.",
+  "root_source_reads": [
+    "015677",
+    "869731"
+  ],
+  "schema": "ri221-root-caller-failure-review-v1",
+  "scientific_execution": false
+}

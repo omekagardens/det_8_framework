@@ -1,0 +1,18 @@
+{
+  "schema": "ri220-reviewer-final-addendum-v1",
+  "reviewer": "/root/qr_opportunities",
+  "final_read_receipts": [
+    "a05740",
+    "be2818",
+    "89c6ae",
+    "8c191c",
+    "e87be7",
+    "a7df68",
+    "f2eff3",
+    "60c578"
+  ],
+  "all_exit_code": 0,
+  "final_recommendation": "Accept conditional exact local interval and full small-amplitude shared extension through eight births.",
+  "clerical_correction": "Final message table duplicated part of HANDOFF.md digest. Correct authenticated SHA256 is bf288fee0e76009917e6c834089a0e3546e931ceece192d2f0a47c36b53b6c36; file is2288bytes. Source seal and metadata checks are unchanged.",
+  "authorship": "Root transcription of received independent final; message-level correction only."
+}

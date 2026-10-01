@@ -1,6 +1,67 @@
 **DET independent-review implementation and QR coordination**
 
-**Current follow-through — fixed H30 candidate rejected; byte repair accepted and preparation completed.**
+**Current follow-through — positive small-amplitude extension accepted; actual installation refused before ownership.**
+1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+accept RI220's conditional finite-law result: the exact common local
+interval is **0<a<a_star=B2/(4h)**, and a complete shared solution gives
+a strictly positive extension through eight births for **0<a<a_empty**,
+where a_empty=min over negative z_j of e_j/(-z_j) and
+0<a_empty<a_star<3/59<1/4. The original amplitude1/4 rejection is immutable.
+
+The shared solution sets t0=t2=t3=0, w=z and v=d=0. Each of the five
+disconnected sums equals rho times its complete accepted seed row,
+including record transport and individual ideal multiplicities. All
+connected equations and strict bounds are checked before invoking the
+complete H30 iff. This is a full finite shared solution, not a local-only
+inference. Baseline positivity, normalized harmonic seed, complete
+all-record cancellation and finite-law iff remain explicit premises.
+The maximal full amplitude, all-size continuation and physical/QM/geometry
+claims remain open. Root replay3f179d passed27 identities/31 references;
+independent60c578 checked21 direct sources/652815bytes and all six current
+files. Both six-file namespaces and15 inherited boundaries remain fixed.
+Evidence: `docs/track_b/native_amplitude_extension_v1/`.
+
+After adjudication, RI223 was assigned to the existing QR chat in
+`ri223-native-active-amplitude-63hp1o02/`: decide strict improvement beyond
+the explicit a_empty ceiling or a native dual obstruction on the same
+complete shared support. All active J constraints, strict endpoints and
+the actual native identities must be retained; a generic alternative alone
+does not decide this candidate. Active source work is excluded from publication.
+
+Measurement reached an actual separately admitted installation attempt.
+Tool685f23 exited1 synchronously: the unchanged monitor sets child cwd to
+D/monitor, while the installer required D. It refused before output
+ownership. Root and the independent reviewer confirmed this source/caller
+defect and acknowledge missing it in earlier reviews. **RI218 operational
+readiness is superseded pending repair**, preserving the valid byte/clock
+fixes and historical reviews. No retry occurred in the failed reservation.
+
+The genuine outer receipt, issued admission/dispatch and all four monitor
+files are retained. Postflight a3a21c/session31556, terminalbdd104 exit0
+confirmed857 sources,1810 vendor files, four tools,195 namespace rows and
+complete E48files/nine directories unchanged. The operation output, freeze
+and mode cards remain absent. An initial root audit failed solely on
+unsorted historical namespace list order; its source and corrected separate
+replay are both preserved. The child failure earns no qualification credit.
+
+RI222 source repair is active in the fresh reservation
+`ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/`. Correct only the exact
+child cwd guard and required provenance/contract documentation; retain the
+monitor and every limit. Independent source review and fresh preparation
+precede a separately admitted new attempt. Accepted installation precedes
+normal mode, then accepted normal precedes optimized. WHITE/RI131/full32
+and selected public GWOSC conventional reproduction remain open; calibrated
+claims and a native forward map remain separate. Evidence:
+`docs/coordination/measurement_installation_cwd_failure_v1/`.
+
+The preceding checkpoint e795b40265fc3c827be43e6928d1e99ee71ad26a was
+verified on live origin/ret. Only reviewed proof and actual refusal evidence
+are included here. Active repairs, unrelated edits and protected historical
+results remain intact. RET alone is paused. No user decision is required;
+both substantive native proof and measurement qualification continue.
+
+
+**Prior checkpoint — fixed H30 candidate rejected; byte repair accepted and preparation completed.**
 30 September 2026 Honolulu (1 October UTC). Root and a separate nonauthor
 accept RI216's conditional finite-law obstruction: K>1/5500>0 and
 C3>0, but **(3m0/r)C2<-47/12000<0** at the original correlated pair.

@@ -1,0 +1,14 @@
+{
+  "schema": "ri223-dispatch-result-v1",
+  "tool": "send_message_to_thread",
+  "threadId": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "actual_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a074c4-4b09-76a3-8cb2-0caf116f6b9c\"}"
+      }
+    ],
+    "isError": false
+  }
+}

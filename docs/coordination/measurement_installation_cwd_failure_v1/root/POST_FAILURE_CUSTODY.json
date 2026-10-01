@@ -1,0 +1,145 @@
+{
+  "E_directories": 9,
+  "E_files": 48,
+  "E_observation": {
+    "bytes": 42464,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/E_BEFORE.json",
+    "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+  },
+  "admission": {
+    "bytes": 1600,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ADMIT_INSTALL.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ADMIT_INSTALL.json",
+    "sha256": "fb3e01a0cd672c20ac491cfeb026c9ac370f76cc18a66d4e0e9ea8ed047dff66",
+    "state": [
+      16777244,
+      425164,
+      33188,
+      1,
+      1600,
+      1790832877372517440,
+      1790832877372517440
+    ],
+    "symlink_chain": []
+  },
+  "dispatch": {
+    "bytes": 2277,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/DISPATCH.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/DISPATCH.json",
+    "sha256": "c845cf08e37c3c358296859758754b97a445fa1b74c2d9d72267c1575f2a31a8",
+    "state": [
+      16777244,
+      425165,
+      33188,
+      1,
+      2277,
+      1790832877372834861,
+      1790832877372834861
+    ],
+    "symlink_chain": []
+  },
+  "full_identity_state_and_membership_unchanged": true,
+  "genuine_installation": {
+    "bytes": 3292,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "16b425213239b6f681ef8c80226668fbf2e19fb5e95f6bd3bb6389fbe8356780"
+  },
+  "genuine_post_host": {
+    "bytes": 1537,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_POST_HOST_TOOL.json",
+    "sha256": "e1e83894b9a2fe3a431817f4a986380d438da974bffa5d2d9c7a1e671aea376b"
+  },
+  "monitor_files": [
+    {
+      "bytes": 885,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.ATTEMPT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.ATTEMPT.json",
+      "sha256": "7d710d739f5409648884bd751b32a5bd3f81247fca79a4b9d989331b3d0184b3",
+      "state": [
+        16777244,
+        425167,
+        33188,
+        1,
+        885,
+        1790832904027654222,
+        1790832904027654222
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.COMPLETION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.COMPLETION.json",
+      "sha256": "0f4eb71f4f8ab0d4c0abc108ca4b29431809b9d73083ca3219186b160144a03f",
+      "state": [
+        16777244,
+        425170,
+        33188,
+        1,
+        2854,
+        1790832904233493831,
+        1790832904233493831
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 701,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stderr",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stderr",
+      "sha256": "9e0fb84869c9df052f636d2446611f8bc901785725f482e49df1eaacc794cd4e",
+      "state": [
+        16777244,
+        425169,
+        33188,
+        1,
+        701,
+        1790832904205128090,
+        1790832904205128090
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        425168,
+        33188,
+        1,
+        0,
+        1790832904069688346,
+        1790832904069752222
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "no_retry": true,
+  "old_D213_partials_preserved": true,
+  "operation_and_mode_absences": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-install-operation-x62withm",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/ADMIT_NORMAL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/ADMIT_OPTIMIZED.json"
+  ],
+  "qualification_credit": 0,
+  "repository_entry": {
+    "bytes": 3159240,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/REPO_ENTRY.json",
+    "sha256": "52d4957f5b43c87e532e25b743c786610fc61659ec608f1ac898e7f75154c7d9"
+  },
+  "repository_whole_snapshot_unchanged": true,
+  "ret_paused": true,
+  "schema": "ri221-post-refusal-custody-v1",
+  "sources": 857,
+  "status": "REFUSED_BEFORE_OUTPUT_OWNERSHIP_E_UNCHANGED",
+  "supplier_absences": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip",
+    "/Library/Python"
+  ],
+  "supplier_namespace_rows": 195,
+  "tools": 4,
+  "vendor_bytes": 48024515,
+  "vendor_files": 1810
+}

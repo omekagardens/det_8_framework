@@ -1,0 +1,34 @@
+{
+  "author_final": {
+    "attribution": "QR author, externally reported",
+    "exit_code": 0,
+    "receipt": "7018d7"
+  },
+  "findings": [],
+  "manual_review": [
+    "Exact beta branches and strict local endpoints checked.",
+    "Every five-row L_i(z)=rho*(accepted RI85/RI88 seed row) correspondence checked, with complete RESULT and DESIGN read.",
+    "Shared zero connected/private correction construction solves the full simultaneous iff; original amplitude-specific w1<W_star not carried unchanged.",
+    "Finite minimum yields exact strict interval for fixed child direction, separate from maximal full range."
+  ],
+  "next_question": "Decide active-J strict improvement or nonnegative dual optimality on actual native identities.",
+  "own_metadata": {
+    "current_and_predecessor_namespaces": 6,
+    "current_files": 6,
+    "direct_bytes": 652815,
+    "direct_sources": 21,
+    "exit_code": 0,
+    "receipt": "60c578"
+  },
+  "provenance": "Root transcription of independent reviewer messages; no claim that the reviewer ran root or author tools.",
+  "qualification_credit": 0,
+  "reviewer": "/root/qr_opportunities",
+  "root_final": {
+    "attribution": "Root replay; not reviewer execution",
+    "exit_code": 0,
+    "receipt": "3f179d"
+  },
+  "schema": "ri220-independent-nonauthor-review-record-v1",
+  "scientific_execution": false,
+  "status": "RECOMMEND_ACCEPT_CONDITIONAL_LOCAL_INTERVAL_AND_FULL_SMALL_AMPLITUDE_SUBFAMILY"
+}

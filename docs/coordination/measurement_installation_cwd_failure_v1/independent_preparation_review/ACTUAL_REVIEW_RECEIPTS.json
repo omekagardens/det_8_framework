@@ -1,0 +1,130 @@
+{
+  "administrative_failures": [],
+  "checker": {
+    "bytes": 17779,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/check_preparation.py",
+    "sha256": "714439e977a0e67920250ef0f0606c3e1ada239007daf2cba81cd706028e0de2"
+  },
+  "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/check_preparation.py > /Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/CHECK.log 2>&1",
+  "diagnostics": [
+    {
+      "actual_fields": 22,
+      "impact": "None on complete dictionary equality. Executed source preserved; actual count checked by f1e197.",
+      "kind": "inaccurate_error_label_only",
+      "label": "entire 23-field preparation custody"
+    }
+  ],
+  "genuine_host_original": {
+    "bytes": 1571,
+    "path": "/private/tmp/ri219_host_before_transcript.json",
+    "sha256": "c79b992eef164650580bcbbeb211864f0c80a477489e3bb4ed14b61418e1bcac"
+  },
+  "genuine_host_value": {
+    "arguments": {
+      "cmd": "/opt/homebrew/bin/python3 -I -B - <<'PY'\nimport subprocess,os,json\ncommand=['/usr/bin/sw_vers'];environment={'PATH':'/usr/bin:/bin','LC_ALL':'C'}\nr=subprocess.run(command,env=environment,capture_output=True,text=True)\nprint(json.dumps(dict(command=command,environment=environment,returncode=r.returncode,stdout=r.stdout,stderr=r.stderr,uname=list(os.uname()))))\nPY",
+      "login": false,
+      "max_output_tokens": 2000
+    },
+    "observation": {
+      "command": [
+        "/usr/bin/sw_vers"
+      ],
+      "environment": {
+        "LC_ALL": "C",
+        "PATH": "/usr/bin:/bin"
+      },
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t26.5.2\nBuildVersion:\t\t25F84\n",
+      "uname": [
+        "Darwin",
+        "allan.local",
+        "25.5.0",
+        "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+        "arm64"
+      ]
+    },
+    "result": {
+      "chunk_id": "00c800",
+      "exit_code": 0,
+      "original_token_count": 93,
+      "output": "{\"command\": [\"/usr/bin/sw_vers\"], \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LC_ALL\": \"C\"}, \"returncode\": 0, \"stdout\": \"ProductName:\\t\\tmacOS\\nProductVersion:\\t\\t26.5.2\\nBuildVersion:\\t\\t25F84\\n\", \"stderr\": \"\", \"uname\": [\"Darwin\", \"allan.local\", \"25.5.0\", \"Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000\", \"arm64\"]}\n",
+      "wall_time_seconds": 6.917e-06
+    },
+    "schema": "ri219-root-genuine-host-tool-transcript-v1"
+  },
+  "genuine_preparation_original": {
+    "bytes": 2774,
+    "path": "/private/tmp/ri219_preparation_tool_transcript.json",
+    "sha256": "05906a9c195cca158af7b62f0192eb7c6df2cf3aa546dc7d7d86e28840e13fb2"
+  },
+  "genuine_preparation_value": {
+    "initial": {
+      "arguments": {
+        "cmd": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/prepare_installation.py --source-review-bytes 2333 --source-review-sha256 88f7f89ca9738eb52fb09fb2dee81400a7ad754e55a613de4df7f826d5f5bd2a --host-transcript /private/tmp/ri219_host_before_transcript.json --host-transcript-bytes 1571 --host-transcript-sha256 c79b992eef164650580bcbbeb211864f0c80a477489e3bb4ed14b61418e1bcac",
+        "justification": "Run the independently reviewed administrative preparation with the accepted RI218 source and fresh genuine host receipt; create only nine evidence files and empty control directories, without issuing admission or running the installer.",
+        "max_output_tokens": 3000,
+        "sandbox_permissions": "require_escalated",
+        "yield_time_ms": 1000
+      },
+      "result": {
+        "chunk_id": "7f1c8b",
+        "original_token_count": 324,
+        "output": "{\"status\": \"PREPARED_FOR_ROOT_PREFLIGHT_REVIEW_NO_ADMISSION\", \"proposal\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALLATION_PROPOSAL.json\", \"bytes\": 4521, \"sha256\": \"4b5185ed7f576a833ef0a18abb28c6fba5491c9002423e3e0f03121b10fb3a5e\"}, \"custody\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/PREPARATION_CUSTODY.json\", \"bytes\": 13814, \"sha256\": \"0e360bd2dd0859ce37198056e42de2d7c310fb2212dabc40ef045f805e82770f\"}, \"exact_tool_arguments\": {\"cmd\": \"/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\\\"DEFAULT\\\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py\", \"workdir\": \"/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm\", \"login\": false, \"yield_time_ms\": 1000, \"max_output_tokens\": 4000}}\n",
+        "session_id": 51547,
+        "wall_time_seconds": 1.001474583
+      }
+    },
+    "schema": "ri219-genuine-preparation-tool-transcript-v1",
+    "terminal": {
+      "arguments": {
+        "chars": "",
+        "max_output_tokens": 3000,
+        "session_id": 51547,
+        "yield_time_ms": 1000
+      },
+      "result": {
+        "chunk_id": "633d20",
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": "",
+        "wall_time_seconds": 1.2834e-05
+      }
+    }
+  },
+  "genuine_tool_origin_external": true,
+  "log": {
+    "bytes": 378,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/CHECK.log",
+    "sha256": "46cdc824b8efdfc46a1614d209bef5a8e8a7f42789db70f91e9705718afe45fc"
+  },
+  "receipts": [
+    {
+      "chunk_id": "72ecc7",
+      "exit_code": 0,
+      "scope": "exclusive reservation and full concrete record/bootstrap/genuine transcript read"
+    },
+    {
+      "chunk_id": "1a495b",
+      "exit_code": 0,
+      "scope": "metadata primitive source read only; supplier shape inspection"
+    },
+    {
+      "chunk_id": "15d838",
+      "exit_code": 0,
+      "scope": "independent full administrative reconstruction and fresh opaque checks"
+    },
+    {
+      "chunk_id": "f1e197",
+      "exit_code": 0,
+      "scope": "complete result log and actual closed field counts"
+    }
+  ],
+  "result": {
+    "bytes": 1649822,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/CHECK_RESULT.json",
+    "sha256": "8d1f58e84d21b4679491c0419b914763464381d27cba4684807730e39216e0a9"
+  },
+  "schema": "ri219-independent-preparation-review-receipts-v1",
+  "subject_execution": false
+}

@@ -1,0 +1,42 @@
+{
+  "RET_paused": true,
+  "findings": [
+    "Exact two raw-byte readbacks use direct complete byte equality.",
+    "Entire installer and postchecker reverse to RI213 under exactly the reviewed expressions and fresh path/provenance pins.",
+    "Canonical JSON equality, clock handling, fourteen completion fields, eight tails and original bounds remain unchanged.",
+    "D213 failure evidence and full E48file/ninedirectory custody retained in independent check."
+  ],
+  "independent_review": {
+    "bytes": 2894,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/HANDOFF.json",
+    "sha256": "3e479047e5951237b4698e91b9fac2d9eba98f08e6b7b0bca66f4b1f5d5e6194"
+  },
+  "installation_admitted": false,
+  "next_action": "Fresh corrected root preparation, complete generated bootstrap/preflight review, then distinct one-operation admission and actual outcome review.",
+  "prior_RI213_acceptance_remains_superseded": {
+    "bytes": 1772,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI213_SOURCE_ACCEPTANCE_SUPERSESSION.json",
+    "sha256": "e8f50f5b05d4d05c03e53e8909d22a4b92290785cb1b095c289121e8ebf1a0ab"
+  },
+  "qualification_credit": 0,
+  "reviewed_packet": "RI218",
+  "root_metadata": {
+    "bytes": 2545,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI218_ROOT_METADATA_CHECK.json",
+    "sha256": "584ec7f6bb67bd1ad604c45b61bc8d2920e05ba471c8416284282e6b6ddb18ea"
+  },
+  "schema": "ri218-root-installation-source-review-v1",
+  "scientific_execution": false,
+  "scope": "Source acceptance only, bound to exact RI218 bytes. Not operational admission, installed freeze, runtime qualification or physical evidence.",
+  "source_manifest": {
+    "bytes": 1368,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_PINS.json",
+    "sha256": "de91cbd42647e012c7f900dbff1355691986f6e6a8b1622c2ff9216c1f7dd443"
+  },
+  "status": "ACCEPT_RI209_INSTALLATION_SOURCE_ONLY",
+  "subject": {
+    "bytes": 8207,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/HANDOFF.json",
+    "sha256": "bd62168cf3cb2fe468f7488a140ad98f9dc433c21b3ad17d642ba29623acbeb1"
+  }
+}
