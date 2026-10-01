@@ -1,0 +1,59 @@
+{
+  "accepted_manual_packet": {
+    "bytes": 7941,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.json",
+    "sha256": "287eb11395e5c5d03d09b1034f23c25d23c16ccdc924f9c14f1189eba60ddba2"
+  },
+  "accepted_predecessor": {
+    "bytes": 2322,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_ADJUDICATION.json",
+    "sha256": "81ca420487bb72b28c5ba292eab1ffd0b58640e1ecdf4a4d7940ce523df721d2"
+  },
+  "exact_analytic_sources": [
+    {
+      "bytes": 11272,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_weighted_margin_interval_v1/source/WEIGHTED_MARGIN_PROOF.md",
+      "sha256": "9bb479dcf644af911bb5c87fcccf722b987219ff0b5cf7f385efde764bbb2e02"
+    },
+    {
+      "bytes": 13039,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_single_endpoint_criterion_v1/source/UPPER_BOUNDARY.md",
+      "sha256": "89edbbe412a3d3be14f07d168186d2452ed90672df12953626f2292da7fcb5fc"
+    },
+    {
+      "bytes": 10971,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_six_antichain_bound_v1/source/SIX_ANTICHAIN_BOUND.md",
+      "sha256": "6a9538be7a5b2b976bd74d9e165cbc8e0726e71b04effbc3cd00eaf027b1c3e4"
+    },
+    {
+      "bytes": 13499,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md",
+      "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+    }
+  ],
+  "justification": "The complete weighted identity and C30>2/3 imply W(rho,s)/r>-1+8*lambda*j0/[v*(1+2*M6)]. The bound is sufficient for actual W>0, including equality, without choosing M7 or replacing q.",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "prohibited": [
+    "No scientific execution, automatic coefficient/graph/LP computation, new scientific-body read or full-vector instantiation.",
+    "No fixture, runtime/profile, operational card, repository or Git/index changes.",
+    "No completed packet mutation, new agent/thread or physical promotion."
+  ],
+  "question": "Can the unchanged native construction establish the complete global upper bound M6<=4*lambda*j0/v-1/2, or can a specific admissible marked six-parent be proved to exceed that threshold?",
+  "required": [
+    "Independently check the stated conditional target before using it.",
+    "Retain the genuine global maximum over every six-parent and marked record, every proper ideal, canonical minima/positive parts and correction. A6 is not assumed maximal.",
+    "Provide a complete same-law bound, a concrete admissible parent counterexample to this sufficient bound, or an exact irreducible missing native-law dependency with the mathematical progress established before it.",
+    "Use accepted analytic premises and the already reviewed RI197 audit; do not create freely varying coefficient boxes or merely propose another generic cap.",
+    "A counterexample to this sufficient bound does not establish W<=0. Successful W>0 would not prove both individual margins or H30 feasibility.",
+    "Keep provenance compact using exact accepted references and the inherited423-file manifest by reference where sufficient; preserve all boundaries, original failures and route obligations."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k",
+  "ret_paused": true,
+  "root_proof_review": {
+    "bytes": 4250,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_PROOF_REVIEW.md",
+    "sha256": "7313b30c7d145885140cc988e4b8f66cd9966b91e9fd16495f839b9a0152f052"
+  },
+  "schema": "ri199-native-actual-normalization-assignment-v1",
+  "status": "ASSIGNED_AFTER_RI197_INDEPENDENT_ADJUDICATION"
+}

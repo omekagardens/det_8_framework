@@ -1,0 +1,74 @@
+{
+  "schema": "ri191-author-administrative-check-v1",
+  "status": "MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE",
+  "stage": "final9",
+  "dependencies": 389,
+  "selected_bytes": 23201553,
+  "inherited": 374,
+  "classifications": {
+    "analytic-source-text-or-review": 142,
+    "opaque-historical-acceptance-or-source-support": 101,
+    "opaque-scientific-historical-premise": 2,
+    "selected-administrative-proof-provenance": 143,
+    "selected-administrative-governance-boundary": 1
+  },
+  "historical_typed_references": 6893,
+  "current_typed_references": 222,
+  "historical_extended_state_noncomparisons": 18,
+  "separate_byte_equal_pairs": 4,
+  "predecessor_namespace_counts": [
+    8
+  ],
+  "current_namespace": 9,
+  "literal_manuscript_reference_occurrences": 2,
+  "final_fresh_identity_rechecks": 398,
+  "current_payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/AUTHOR_VERIFICATION.json",
+      "bytes": 38644,
+      "sha256": "3b4fb8568ddafebcef5445609264babcfad854596a03bac2ff14fde28dddb1ea"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/CONTRACT.md",
+      "bytes": 15024,
+      "sha256": "8d9d8e483df41cc50a80590719e787576ca61728a274f6aefe722447915526ac"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/DEPENDENCY_NOTES.md",
+      "bytes": 19961,
+      "sha256": "8d1e134de7cc300eb260f1be2dd0d8b3f242497b0a2f7eebfd773c611f75e90d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/HANDOFF.json",
+      "bytes": 8115,
+      "sha256": "18edf128859c97e28b2924dd22747d5b726545eaac9778fada8968486fa6eb41"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/HANDOFF.md",
+      "bytes": 3601,
+      "sha256": "68b72613afbfa86da51f81086c1bf4ee5a3753df673628a4c79de1976e7d26d6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/NEGATIVE_CASES.md",
+      "bytes": 23841,
+      "sha256": "4cfebccd39adf994612a31c5926479ae5bcb51db0ba5bbb419e89fd77d3d93c2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/SOURCE_DEPENDENCIES.json",
+      "bytes": 361715,
+      "sha256": "fe70e052338c041032ffd0f3ab9d1a567fff762be095dbae386489a5daa3449f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/SOURCE_IDENTITIES.json",
+      "bytes": 140523,
+      "sha256": "166fd6b734cf5048ac52d0e7ec5e902402b115803dd6f463f6b54bd7d8878bee"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/pair_witness.py",
+      "bytes": 20354,
+      "sha256": "26aaa5138f6ebd1f9791e9c6ea66225376f81931ec8235de4ee399a5e6514357"
+    }
+  ],
+  "mathematical_formula_evaluated_by_script": false,
+  "scientific_or_target_execution": false
+}

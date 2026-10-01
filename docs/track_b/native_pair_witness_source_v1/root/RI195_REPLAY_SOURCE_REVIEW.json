@@ -1,0 +1,22 @@
+{
+  "adapted": {
+    "bytes": 12229,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/check_ri195.js",
+    "sha256": "60b995ad1bc26a05ab7491f5e2f83fde51808c428306168919cc2cb46fd69268"
+  },
+  "complete_author_checker_read": "2a2436",
+  "complete_review_read": "fe90fd",
+  "complete_source_read": "b0ba00",
+  "only_change": {
+    "after": "fs.writeFileSync('/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI195_ROOT_METADATA_REPLAY.json'",
+    "before": "fs.writeFileSync(OUT+'/INDEPENDENT_ADMIN_CHECK.json'"
+  },
+  "original": {
+    "bytes": 12136,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/check_metadata.js",
+    "sha256": "a3b5b88693a57d25476eab58987e22acb83a19a1d39b0399072a57838e545faf"
+  },
+  "scientific_decode": false,
+  "status": "REVIEWED_METADATA_ONLY_OUTPUT_PATH_ADAPTATION",
+  "subject_execution": false
+}

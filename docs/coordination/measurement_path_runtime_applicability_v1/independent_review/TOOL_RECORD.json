@@ -1,0 +1,214 @@
+{
+  "actual_checker_attempts": [
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability.py"
+      ],
+      "exit_code": 1,
+      "genuine_tool": "bbda02",
+      "result": {
+        "bytes": 112659,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK.json",
+        "sha256": "494a714e8ab7e521729bb1dd793b31782a315becaa862c3c5b79217530297b4c"
+      },
+      "script": {
+        "bytes": 21284,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability.py",
+        "sha256": "494505f239085fa9638c0e4a357a515111744801e8f93c72e0fd235e5ac41d83"
+      },
+      "stderr": {
+        "bytes": 1136,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin.stderr",
+        "sha256": "724e0f781d18ec4c660c537b8827d0f25369e901a1411e00f02360cfce4ed603"
+      },
+      "stdout": {
+        "bytes": 203,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin.stdout",
+        "sha256": "4379154adb90cdf4864ebe0dca6d4aaabba251fb51cf8505fc8233a6c295496f"
+      },
+      "version": "v1"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v2.py",
+        "ADMIN_CHECK_V2.json"
+      ],
+      "exit_code": 1,
+      "genuine_tool": "c91d27",
+      "result": {
+        "bytes": 51492,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK_V2.json",
+        "sha256": "22a3b5836a93a5ab09403ae08b7c2d344495db6d186a61381e53900000b11522"
+      },
+      "script": {
+        "bytes": 21280,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v2.py",
+        "sha256": "74dc5e2e7438a0dc3ae2ae431d4b79a21dfaad673dbb6f8f5ab82f2da60b9b6f"
+      },
+      "stderr": {
+        "bytes": 2112,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v2.stderr",
+        "sha256": "ef3787cd574c83cc5460a1f2836e99ff3a0b4c722f566ed92d6e91d1d11cfaaa"
+      },
+      "stdout": {
+        "bytes": 206,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v2.stdout",
+        "sha256": "133ccb0362e6e3465cdc15c405bc7e08ba9fdfbb5414d8bde3450152def0a9c7"
+      },
+      "version": "v2"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v3.py",
+        "ADMIN_CHECK_V3.json"
+      ],
+      "exit_code": 1,
+      "genuine_tool": "bc171b",
+      "result": {
+        "bytes": 811237,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK_V3.json",
+        "sha256": "ce7624ae51a49a8705c2d539d3d6dadeaef5e2c261b6e0e8c53b1a97c9b32e06"
+      },
+      "script": {
+        "bytes": 21390,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v3.py",
+        "sha256": "b5a392222efc0cea907b26b7aeb0eb3aadc40b01f70ef9cc618a8f53d61dad1a"
+      },
+      "stderr": {
+        "bytes": 1173,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v3.stderr",
+        "sha256": "684809c68c8d794d1e70f04d951f8f1bee47c6945fd1692731a567290cf9c5b1"
+      },
+      "stdout": {
+        "bytes": 208,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v3.stdout",
+        "sha256": "f2aacf63cd611a6384911628107ae11bb21b20713a3673e656be7e39fd1e9e3b"
+      },
+      "version": "v3"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v4.py",
+        "ADMIN_CHECK_V4.json"
+      ],
+      "exit_code": 0,
+      "genuine_tool": "5c692b",
+      "result": {
+        "bytes": 1521981,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK_V4.json",
+        "sha256": "e1b291d6a8c45231e1badb3391613c51df857b20894199c7730bd0b45df7c2fb"
+      },
+      "script": {
+        "bytes": 21466,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v4.py",
+        "sha256": "415e4b2a6e0122af996fce06b6a081dbdaee489243147db321ad8171f70aae61"
+      },
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v4.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 241,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v4.stdout",
+        "sha256": "dbd85c9a7dd24927f3b5e0f29515b6d784ae7fd371698208a80bf075a3b33000"
+      },
+      "version": "v4"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_replay.py",
+        "--stdout"
+      ],
+      "exit_code": 0,
+      "genuine_initial": "6180d5",
+      "genuine_terminal": "1bb588",
+      "script": {
+        "bytes": 21610,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_replay.py",
+        "sha256": "cebdf351763381c0004a27db66276f9883cdd3f96c13226e1a968efd55860055"
+      },
+      "session_id": 20628,
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/replay.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 1521981,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK_REPLAY.json",
+        "sha256": "e1b291d6a8c45231e1badb3391613c51df857b20894199c7730bd0b45df7c2fb"
+      },
+      "version": "stdout replay",
+      "whole_result_equals_v4": true
+    }
+  ],
+  "cards_created": false,
+  "diagnoses": [
+    {
+      "cause": "reviewer assumed source_changes boolean; authentic graph uses empty list",
+      "repair": "new v2 compares exact []",
+      "version": "v1"
+    },
+    {
+      "cause": "reviewer JSON comparator could not serialize raw bytes",
+      "repair": "new v3 compares type-exact complete bytes directly",
+      "version": "v2"
+    },
+    {
+      "cause": "reviewer compared old optional namespace wrapper notes/status to snapshot directories-only wrapper",
+      "repair": "new v4 follows source contract; full directory arrays compared; historical wrapper still authenticated",
+      "version": "v3"
+    }
+  ],
+  "display_recovery": "Combined read truncated at tool display budget; monitor70-end and independent review1-20 reread. eac671 intentionally summarized metadata keys, not complete profile evidence; checker subsequently compared complete reports.",
+  "failed_subject_runs": 0,
+  "git_or_repository_writes": false,
+  "new_guards_or_scientific_execution": false,
+  "new_runtime_capture": false,
+  "schema": "ri194-administrative-tool-record-v1",
+  "source_read_tools": [
+    "0d5807",
+    "a74580",
+    "4ab198",
+    "9da1a9",
+    "c34acb",
+    "8c46fd",
+    "c2ff01",
+    "f25ecb",
+    "851b47",
+    "731a69",
+    "5a10a7",
+    "e95d8e",
+    "288ca3",
+    "e8804b",
+    "eac671",
+    "1c7b26",
+    "e7773c",
+    "d10ac5",
+    "551f64",
+    "645dd5",
+    "442974",
+    "a32ee2",
+    "766385",
+    "0efc79",
+    "2db2cc",
+    "e0485f",
+    "fdba37"
+  ]
+}

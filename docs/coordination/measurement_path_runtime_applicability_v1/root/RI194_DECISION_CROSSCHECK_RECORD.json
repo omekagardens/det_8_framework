@@ -1,0 +1,32 @@
+{
+  "actual_reported_tool": {
+    "exit_code": 0,
+    "failed": "fb0946 list/count checker comparison corrected",
+    "final": "400bea"
+  },
+  "files_changed": false,
+  "new_execution_authority": false,
+  "recommendation": "BOUNDED_PASS",
+  "records": [
+    {
+      "bytes": 340398,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI194_ROOT_ADJUDICATION.json",
+      "sha256": "28a7c6052f466268c6bf19585bcb717000dae75aa367549c13f85dca621ae461"
+    },
+    {
+      "bytes": 4414,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/GUARD_PATH_APPLICABILITY.json",
+      "sha256": "222d2822fcf4256d7cd7d9abbec6976dca2221f306c675b35a25f752e0039773"
+    },
+    {
+      "bytes": 18791,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RUNTIME_APPLICABILITY.json",
+      "sha256": "828ba7dc2b73837d0ecbb47c45f520588d5be9bba0c29911546247a25a8d4a9e"
+    }
+  ],
+  "reviewer": "/root/archive_repro_review",
+  "root_replay_agreement": "Entire6718-predicate and577-identity object",
+  "schema": "ri196-independent-decision-crosscheck-record-v1",
+  "source": "Direct agent report received in root thread after read-only supplied-pin and exact-interface check.",
+  "source_interface": "12 guard fields,11 helpers,30 sources,current paired-profile card,8 bounded runtime premises"
+}

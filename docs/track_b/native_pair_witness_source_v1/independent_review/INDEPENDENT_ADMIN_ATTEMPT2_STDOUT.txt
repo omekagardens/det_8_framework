@@ -1,0 +1,1 @@
+{"status":"PASS_SOURCE_PROVENANCE_ONLY","selected_dependencies":389,"selected_bytes":23201553,"fresh_identity_rechecks":399,"predicates":48004,"reference_counts":{"historical":6893,"current":222,"historical_extended":18,"historical_state":18}}

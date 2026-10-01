@@ -1,0 +1,459 @@
+{
+  "schema": "ri197-manual-pair-proof-author-verification-v1",
+  "status": "AUTHOR_MANUAL_PROOF_AND_ADMINISTRATIVE_CHECKS_PENDING_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_NATIVE_ASSIGNMENT.json",
+    "bytes": 1940,
+    "sha256": "9b0ff62f04cf5a73f41337520ade9c58786278937b3b3c96fb81fed43bcc043a"
+  },
+  "manual_body_admission": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_MANUAL_BODY_ADMISSION.json",
+    "bytes": 5377,
+    "sha256": "e2a640f0d37b23133560ec45dc5a20d8338dcc7922fec751600515074b6c3abc"
+  },
+  "accepted_source_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI191_ROOT_ADJUDICATION.json",
+    "bytes": 4041,
+    "sha256": "61e4bdfb40d0fbc40ad081c5da438b8571ef6d9abf0ef6cda28259d206d138be"
+  },
+  "current_payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/DEPENDENCY_NOTES.md",
+      "bytes": 9370,
+      "sha256": "cb9026d40e6e130d91d24cba90ec1a3d51bda473d235acae592b1c1a7b26f780"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.md",
+      "bytes": 2130,
+      "sha256": "4d60ccafc0cd8e20dd1a2cdcaea970024208cb9db51b624271289d802dfc1878"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/PAIR_PROOF.md",
+      "bytes": 7251,
+      "sha256": "42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/ROOT_OVERRIDE_AUDIT.md",
+      "bytes": 7520,
+      "sha256": "a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_IDENTITIES.json",
+      "bytes": 155921,
+      "sha256": "4eb03ac643c3a494dd88b882dcdeb6e882c65d793f8219b28dc21a05a37c9c93"
+    }
+  ],
+  "manual_proof": {
+    "mode": "Literal certificate inspection and handwritten exact mathematics only; not an executable-verifier result.",
+    "complete_original_domain_roots_default_and_overrides_inspected": true,
+    "root_count_manually_checked": 109,
+    "override_count_manually_checked": 62,
+    "default_literal": "1/8",
+    "selection": [
+      {
+        "root": "(2254,7,0)",
+        "zero_based_index": "101",
+        "origin": "explicit override 101",
+        "rational_literal": "197/200"
+      },
+      {
+        "root": "(2254,7,1)",
+        "zero_based_index": "102",
+        "origin": "explicit override 102",
+        "rational_literal": "983/1000"
+      }
+    ],
+    "handwritten_gap": "197/200-983/1000=985/1000-983/1000=2/1000=1/500>0",
+    "handwritten_original_denominator_check": "197*1000-983*200=197000-196600=400;200*1000=200000;400/200000=1/500",
+    "threshold_literal": "44*1147*3875/(41*126280*508644)",
+    "handwritten_numerator": "A=195563500",
+    "handwritten_denominator": "B=2633494137120",
+    "handwritten_comparison": "B-500*A=2535712387120>0; therefore1/500>A/B",
+    "handwritten_simple_comparison": "B-10000*A=677859137120>0; epsilon_star<1/10000<1/500",
+    "equality_handling": "Even epsilon=epsilon_star gives D_-/delta<U/delta<=tau strictly at the first comparison; inherited RI187 entails v<B6.",
+    "narrow_consequence": "Under inherited finite premises, sufficient actual pair separation excludes formal v>B6 and gives v<B6 strictly.",
+    "proof_figures_are_manual_strings_not_automated_computations": true,
+    "full_resolved109_vector_instantiated": false,
+    "six_entry_or_endpoint_evaluated": false,
+    "actual_W_C2_C3_H30_claimed": false,
+    "executable_parser_compatibility_observed": false,
+    "scientific_or_verifier_execution": false,
+    "mathematics_independently_accepted": false
+  },
+  "manual_inspection_review": {
+    "complete_manuscripts_read": {
+      "chunk_id": "688764",
+      "exit_code": 0,
+      "original_token_count": 6839,
+      "output_truncated": false
+    },
+    "findings": "No concrete transcription or hand-arithmetic blocker found in the author's complete read. Root must independently verify the mathematics.",
+    "checks": [
+      "All eight top-level names and five domain literals checked; roots are literal integer triples, not booleans, with distinct canonical ordered keys.",
+      "All109 root indices explicitly transcribed by sixteen E groups; group cumulative totals terminate109 and locate the selected pair at101/102 without ordinal guessing.",
+      "Every S is proper and every R has bits contained in S, using the exhaustive S/R mask table.",
+      "Positive default and all62 distinct canonical index-string overrides checked, including unrelated values; no full resolved vector constructed.",
+      "Original loader complete literal read confirms zero-based roots, default initialization and explicit replacement semantics.",
+      "Two positive selected rational strings subtracted manually; numerator clearing establishes positive sign and reduction.",
+      "Positive threshold denominator factors and full handwritten cross-products establish strict sufficient separation, retaining inclusive equality logic.",
+      "Narrow v<B6 inference uses the inherited strict reverse-premise theorem, not an invalid strict contrapositive. Actual endpoint/W and physics stay undecided."
+    ],
+    "independent_peer_review_in_this_packet": false,
+    "available_agent_inventory": "Only /root appeared in collaboration.list_agents; no new agent or thread was created."
+  },
+  "literal_read_provenance": {
+    "certificate": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+      "bytes": 2845,
+      "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969"
+    },
+    "authority_before_certificate": {
+      "chunk_id": "ac409d",
+      "exit_code": 0,
+      "original_token_count": 3010,
+      "output_truncated": false
+    },
+    "complete_certificate_display": {
+      "chunk_id": "882888",
+      "exit_code": 0,
+      "original_token_count": 835,
+      "output_truncated": false
+    },
+    "before_identity_matched": true,
+    "full_body_display_untruncated": true,
+    "after_fresh_identity_matched": true,
+    "before_after_raw_bytes_equal": true,
+    "automatic_scientific_JSON_parsing": false,
+    "other_scientific_body_read": false,
+    "final_post_manuscript_opaque_identity": {
+      "chunk_id": "688764",
+      "exit_code": 0,
+      "original_token_count": 6839,
+      "output_truncated": false
+    },
+    "read_helper_source": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n",
+    "read_window_custody_not_full_interval": true,
+    "historic_state_compared_to_current_stat": false,
+    "root_committed_head_claim_independently_reproduced_by_author": false,
+    "old_opaque_admission_rewritten": false
+  },
+  "actual_read_receipts": [
+    {
+      "chunk_id": "714c32",
+      "exit_code": 0,
+      "output_truncated": false,
+      "purpose": "Working directory observation only."
+    },
+    {
+      "chunk_id": "ac409d",
+      "exit_code": 0,
+      "output_truncated": false,
+      "purpose": "Complete authenticated current assignment, literal admission and source adjudication."
+    },
+    {
+      "chunk_id": "882888",
+      "exit_code": 0,
+      "output_truncated": false,
+      "purpose": "Empty reservation; exact certificate prepin, complete literal display and independent postpin/raw equality."
+    },
+    {
+      "chunk_id": "8f6846",
+      "exit_code": 0,
+      "output_truncated": false,
+      "purpose": "Complete original RI41 check.py and RI189/RI191 root review prose; no source execution."
+    },
+    {
+      "chunk_id": "2014b1",
+      "exit_code": 0,
+      "output_truncated": false,
+      "purpose": "Complete RI191 and RI195 handoffs and RI191 contract."
+    },
+    {
+      "chunk_id": "d22c2e",
+      "exit_code": 0,
+      "output_truncated": false,
+      "purpose": "Complete RI195 assignment, verdict and independent narrative."
+    },
+    {
+      "chunk_id": "83f15f",
+      "exit_code": 0,
+      "output_truncated": false,
+      "purpose": "Authenticated administrative inherited-manifest projection."
+    },
+    {
+      "chunk_id": "6d8ec5",
+      "wall_time_seconds": 0.000007416,
+      "exit_code": 0,
+      "original_token_count": 115850,
+      "output_truncated": false,
+      "purpose": "Administrative manifest generation only; complete JSON output captured and parsed in tool state, not scientific parsing/arithmetic."
+    },
+    {
+      "chunk_id": "9bc80b",
+      "exit_code": 0,
+      "original_token_count": 55,
+      "output_truncated": false,
+      "purpose": "Saved dependency manifest identity."
+    },
+    {
+      "chunk_id": "1371f8",
+      "exit_code": 0,
+      "original_token_count": 54,
+      "output_truncated": false,
+      "purpose": "Saved source-identity manifest identity."
+    },
+    {
+      "chunk_id": "252ad5",
+      "exit_code": 0,
+      "original_token_count": 519,
+      "output_truncated": false,
+      "purpose": "Actual candidate4 metadata check;427 fresh identities."
+    },
+    {
+      "chunk_id": "688764",
+      "exit_code": 0,
+      "original_token_count": 6839,
+      "output_truncated": false,
+      "purpose": "Complete four-manuscript read and final opaque certificate identity; author manual review."
+    },
+    {
+      "chunk_id": "1c97b6",
+      "exit_code": 0,
+      "original_token_count": 638,
+      "output_truncated": false,
+      "purpose": "Actual preseal6 metadata check;429 fresh identities."
+    }
+  ],
+  "skill_use": {
+    "skill": "pages:write-page",
+    "complete_skill_read": {
+      "chunk_id": "ecdeb4",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    "complete_required_quality_reference": {
+      "chunk_id": "874288",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    "effect": "Kept the hand proof, inherited premises, source identities and nonclaims separate in the established local Markdown research format.",
+    "scientific_authority": false,
+    "external_page_created": false
+  },
+  "administrative_history": {
+    "candidate4": {
+      "terminal": {
+        "chunk_id": "252ad5",
+        "wall_time_seconds": 0.056970333,
+        "exit_code": 0,
+        "original_token_count": 519,
+        "output": "{\n  \"schema\": \"ri197-author-administrative-check-v1\",\n  \"status\": \"IDENTITY_MATCH_NOT_PROOF_OR_ACCEPTANCE\",\n  \"stage\": \"candidate4\",\n  \"selected\": 423,\n  \"selected_bytes\": 24174119,\n  \"inherited_rows\": 389,\n  \"inherited_boundaries\": 12,\n  \"whole_inherited_S_preserved\": true,\n  \"classifications\": {\n    \"analytic-source-text-or-review\": 149,\n    \"opaque-historical-acceptance-or-source-support\": 119,\n    \"opaque-scientific-historical-premise\": 2,\n    \"selected-administrative-proof-provenance\": 152,\n    \"selected-administrative-governance-boundary\": 1\n  },\n  \"historical\": {\n    \"refs\": 7566,\n    \"extended\": 19,\n    \"states\": 19\n  },\n  \"current\": {\n    \"refs\": 244,\n    \"extended\": 1,\n    \"states\": 1\n  },\n  \"historical_states_compared_to_current_stat\": false,\n  \"prior_byte_equal_text_pairs\": 4,\n  \"separate_equal_root_metadata_pair\": true,\n  \"prior_namespaces\": [\n    9,\n    18\n  ],\n  \"current_namespace\": 4,\n  \"fresh_rechecks\": 427,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/PAIR_PROOF.md\",\n      \"bytes\": 7251,\n      \"sha256\": \"42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/ROOT_OVERRIDE_AUDIT.md\",\n      \"bytes\": 7520,\n      \"sha256\": \"a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json\",\n      \"bytes\": 393074,\n      \"sha256\": \"ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_IDENTITIES.json\",\n      \"bytes\": 155921,\n      \"sha256\": \"4eb03ac643c3a494dd88b882dcdeb6e882c65d793f8219b28dc21a05a37c9c93\"\n    }\n  ],\n  \"scientific_JSON_or_current_proof_automatically_parsed\": false,\n  \"proof_arithmetic_or_subject_execution\": false\n}\n"
+      },
+      "parsed_result": {
+        "schema": "ri197-author-administrative-check-v1",
+        "status": "IDENTITY_MATCH_NOT_PROOF_OR_ACCEPTANCE",
+        "stage": "candidate4",
+        "selected": 423,
+        "selected_bytes": 24174119,
+        "inherited_rows": 389,
+        "inherited_boundaries": 12,
+        "whole_inherited_S_preserved": true,
+        "classifications": {
+          "analytic-source-text-or-review": 149,
+          "opaque-historical-acceptance-or-source-support": 119,
+          "opaque-scientific-historical-premise": 2,
+          "selected-administrative-proof-provenance": 152,
+          "selected-administrative-governance-boundary": 1
+        },
+        "historical": {
+          "refs": 7566,
+          "extended": 19,
+          "states": 19
+        },
+        "current": {
+          "refs": 244,
+          "extended": 1,
+          "states": 1
+        },
+        "historical_states_compared_to_current_stat": false,
+        "prior_byte_equal_text_pairs": 4,
+        "separate_equal_root_metadata_pair": true,
+        "prior_namespaces": [
+          9,
+          18
+        ],
+        "current_namespace": 4,
+        "fresh_rechecks": 427,
+        "current_payloads": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/PAIR_PROOF.md",
+            "bytes": 7251,
+            "sha256": "42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/ROOT_OVERRIDE_AUDIT.md",
+            "bytes": 7520,
+            "sha256": "a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+            "bytes": 393074,
+            "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_IDENTITIES.json",
+            "bytes": 155921,
+            "sha256": "4eb03ac643c3a494dd88b882dcdeb6e882c65d793f8219b28dc21a05a37c9c93"
+          }
+        ],
+        "scientific_JSON_or_current_proof_automatically_parsed": false,
+        "proof_arithmetic_or_subject_execution": false
+      },
+      "script": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_',P='/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg',V='/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b),cache=new Map();\nfunction pin(i){let a=cache.get(i.path);if(!a){a=readExact(i);cache.set(i.path,a);}need(a.bytes===i.bytes&&a.sha256===i.sha256,'identity '+i.path);if(i.resolved_path!==undefined)need(i.resolved_path===i.path,'resolved');if(i.symlinks!==undefined)need(eq(i.symlinks,[]),'symlinks');if(i.symlink_chain!==undefined)need(eq(i.symlink_chain,[]),'chain');return a;}\nconst dId={\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json\",\"bytes\":393074,\"sha256\":\"ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d\"},sId={\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_IDENTITIES.json\",\"bytes\":155921,\"sha256\":\"4eb03ac643c3a494dd88b882dcdeb6e882c65d793f8219b28dc21a05a37c9c93\"};\nconst D=JSON.parse(pin(dId).body),S=JSON.parse(pin(sId).body),M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===423&&eq([...M.keys()],[...M.keys()].sort()),'unique sorted423');\nD.protected_files.forEach((r,i)=>{need(r.path===r.identity.path&&r.role==='dep_'+String(i+1).padStart(4,'0'),'role/path');pin(r.identity);});\nneed(D.protected_files.reduce((n,r)=>n+r.identity.bytes,0)===24174119,'selected bytes');\nconst old=JSON.parse(cache.get(P+'/SOURCE_DEPENDENCIES.json').body),oldS=JSON.parse(cache.get(P+'/SOURCE_IDENTITIES.json').body),omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===389,'old389');\nfor(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'preserved row '+r.path);\nconst boundaryKeys=Object.keys(old).filter(k=>!['schema','status','protected_files','scope'].includes(k));\nneed(boundaryKeys.length===12,'old boundary count');\nfor(const k of boundaryKeys)need(eq(D[k],old[k]),'preserved boundary '+k);\nneed(eq(S.inherited_RI191_source_identities,oldS),'whole oldS');\nneed(eq(S.unchanged_obligations,oldS.unchanged_obligations),'unchanged obligations');\nneed(eq(S.dependency_manifest,dId),'newD pin');\nconst namespaces=[];\nfor(const[dir,count]of[[P,9],[V,18]]){\n const h=JSON.parse(cache.get(dir+'/HANDOFF.json').body),names=fs.readdirSync(dir).sort();\n need(names.length===count&&eq(names,[...h.namespace].sort())&&eq(names,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'sealed prior namespace');\n h.payloads.forEach(pin);namespaces.push({dir,names});\n}\nconst ex=D.ri197_literal_certificate_exception;\nneed(ex.path===S.original_certificate.path&&ex.literal_read_authority===S.manual_body_admission.path&&ex.literal_read_only===true&&ex.automatic_scientific_JSON_parsing===false&&ex.automated_typed_reference_expansion===false&&ex.original_inherited_row_preserved===true&&ex.historical_state_compared_to_current_stat===false,'one literal exception');\nneed(M.get(ex.path).classification==='opaque-scientific-historical-premise','certificate automatically opaque');\nneed(D.ri191_author_support_boundary.path===P+'/AUTHOR_VERIFICATION.json'&&D.ri191_author_support_boundary.typed_reference_expansion===false&&M.get(D.ri191_author_support_boundary.path).classification==='opaque-historical-acceptance-or-source-support','new author boundary');\nneed(D.ri195_review_support_boundary.paths.length===15&&D.ri195_review_support_boundary.typed_reference_expansion===false,'review support boundary');\nfor(const x of D.ri195_review_support_boundary.paths)need(M.get(x).classification==='opaque-historical-acceptance-or-source-support','review opaque');\nneed(eq(S.manual_read_exception,ex)&&eq(S.ri191_author_support_boundary,D.ri191_author_support_boundary)&&eq(S.ri195_review_support_boundary,D.ri195_review_support_boundary),'S boundary match');\nneed(eq(S.operational_governance_boundary,D.governance_stopping_boundary)&&D.governance_stopping_boundary.typed_reference_expansion===false,'governance boundary');\nlet refs=0,extended=0,states=0;\nfunction scan(x,current=false){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||(current&&x.path===dId.path),'closed typed reference '+x.path);pin(x);refs++;if(x.symlink_chain!==undefined)extended++;if(x.state!==undefined)states++;}Object.values(x).forEach(v=>scan(v,current));}\nconst classes={};\nfor(const r of D.protected_files){classes[r.classification]=(classes[r.classification]||0)+1;if(r.classification==='selected-administrative-proof-provenance')scan(JSON.parse(cache.get(r.path).body));else if(r.classification==='selected-administrative-governance-boundary')need(r.path===D.governance_stopping_boundary.path,'only governance');}\nneed(classes['analytic-source-text-or-review']===149&&classes['opaque-historical-acceptance-or-source-support']===119&&classes['opaque-scientific-historical-premise']===2&&classes['selected-administrative-proof-provenance']===152&&classes['selected-administrative-governance-boundary']===1,'class counts');\nconst historical={refs,extended,states};refs=0;extended=0;states=0;scan(S,true);const current={refs,extended,states};\nlet pairs=0;for(const[k,i]of Object.entries(oldS.source_text_counterparts.published)){need(cache.get(i.path).body.equals(cache.get(oldS.premise_texts[k].path).body),'distinct text path equality');pairs++;}need(pairs===4,'four prior pairs');\nneed(cache.get(S.root_metadata_support_opaque.path).body.equals(cache.get(V+'/INDEPENDENT_ADMIN_CHECK.json').body),'separate root metadata replay equality');\nconst final=['ROOT_OVERRIDE_AUDIT.md','PAIR_PROOF.md','DEPENDENCY_NOTES.md','HANDOFF.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','AUTHOR_VERIFICATION.json','HANDOFF.json'].sort(),stage=process.argv[1]||'candidate4';\nneed(['candidate4','preseal6','final8'].includes(stage),'stage');\nconst expected=stage==='final8'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json',...(stage==='candidate4'?['DEPENDENCY_NOTES.md','HANDOFF.md']:[])].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>{const a=readExact({path:Q+'/'+n});cache.set(a.path,a);return simple(a);});\nfor(const n of expected.filter(n=>n.endsWith('.md'))){const txt=cache.get(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt)&&!/[ \\t]+$/m.test(txt),'text hygiene');for(const m of txt.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g))need(expected.includes(m[1]),'current local Markdown link');}\nif(stage==='final8'){\nconst h=JSON.parse(cache.get(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===7&&eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current seal coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.manual_body_admission);pin(h.accepted_source_predecessor);\nneed(h.manual_proof_only===true&&h.one_certificate_literal_read===true&&h.automatic_scientific_JSON_parsing===false&&h.automated_proof_arithmetic===false&&h.verifier_or_scientific_execution===false&&h.full_resolved_vector_instantiated===false&&h.qualification_credit===false&&h.actual_W_C2_C3_H30_claimed===false&&h.repository_or_Git_written===false&&h.ret_paused===true,'seal scope');\n}\nconst before=[...cache.values()].map(simple);\nfor(const i of before)readExact(i);\nneed(before.length===423+expected.length,'fresh scope');\nneed(eq(fs.readdirSync(Q).sort(),expected),'final current namespace');\nfor(const n of namespaces)need(eq(fs.readdirSync(n.dir).sort(),n.names),'final predecessor namespace');\nconsole.log(JSON.stringify({schema:'ri197-author-administrative-check-v1',status:'IDENTITY_MATCH_NOT_PROOF_OR_ACCEPTANCE',stage,selected:423,selected_bytes:24174119,inherited_rows:389,inherited_boundaries:12,whole_inherited_S_preserved:true,classifications:classes,historical,current,historical_states_compared_to_current_stat:false,prior_byte_equal_text_pairs:pairs,separate_equal_root_metadata_pair:true,prior_namespaces:[9,18],current_namespace:expected.length,fresh_rechecks:before.length,current_payloads:payloads,scientific_JSON_or_current_proof_automatically_parsed:false,proof_arithmetic_or_subject_execution:false},null,2));\n"
+    },
+    "preseal6": {
+      "terminal": {
+        "chunk_id": "1c97b6",
+        "wall_time_seconds": 0.039146542,
+        "exit_code": 0,
+        "original_token_count": 638,
+        "output": "{\n  \"schema\": \"ri197-author-administrative-check-v1\",\n  \"status\": \"IDENTITY_MATCH_NOT_PROOF_OR_ACCEPTANCE\",\n  \"stage\": \"preseal6\",\n  \"selected\": 423,\n  \"selected_bytes\": 24174119,\n  \"inherited_rows\": 389,\n  \"inherited_boundaries\": 12,\n  \"whole_inherited_S_preserved\": true,\n  \"classifications\": {\n    \"analytic-source-text-or-review\": 149,\n    \"opaque-historical-acceptance-or-source-support\": 119,\n    \"opaque-scientific-historical-premise\": 2,\n    \"selected-administrative-proof-provenance\": 152,\n    \"selected-administrative-governance-boundary\": 1\n  },\n  \"historical\": {\n    \"refs\": 7566,\n    \"extended\": 19,\n    \"states\": 19\n  },\n  \"current\": {\n    \"refs\": 244,\n    \"extended\": 1,\n    \"states\": 1\n  },\n  \"historical_states_compared_to_current_stat\": false,\n  \"prior_byte_equal_text_pairs\": 4,\n  \"separate_equal_root_metadata_pair\": true,\n  \"prior_namespaces\": [\n    9,\n    18\n  ],\n  \"current_namespace\": 6,\n  \"fresh_rechecks\": 429,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/DEPENDENCY_NOTES.md\",\n      \"bytes\": 9370,\n      \"sha256\": \"cb9026d40e6e130d91d24cba90ec1a3d51bda473d235acae592b1c1a7b26f780\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.md\",\n      \"bytes\": 2130,\n      \"sha256\": \"4d60ccafc0cd8e20dd1a2cdcaea970024208cb9db51b624271289d802dfc1878\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/PAIR_PROOF.md\",\n      \"bytes\": 7251,\n      \"sha256\": \"42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/ROOT_OVERRIDE_AUDIT.md\",\n      \"bytes\": 7520,\n      \"sha256\": \"a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json\",\n      \"bytes\": 393074,\n      \"sha256\": \"ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_IDENTITIES.json\",\n      \"bytes\": 155921,\n      \"sha256\": \"4eb03ac643c3a494dd88b882dcdeb6e882c65d793f8219b28dc21a05a37c9c93\"\n    }\n  ],\n  \"scientific_JSON_or_current_proof_automatically_parsed\": false,\n  \"proof_arithmetic_or_subject_execution\": false\n}\n"
+      },
+      "parsed_result": {
+        "schema": "ri197-author-administrative-check-v1",
+        "status": "IDENTITY_MATCH_NOT_PROOF_OR_ACCEPTANCE",
+        "stage": "preseal6",
+        "selected": 423,
+        "selected_bytes": 24174119,
+        "inherited_rows": 389,
+        "inherited_boundaries": 12,
+        "whole_inherited_S_preserved": true,
+        "classifications": {
+          "analytic-source-text-or-review": 149,
+          "opaque-historical-acceptance-or-source-support": 119,
+          "opaque-scientific-historical-premise": 2,
+          "selected-administrative-proof-provenance": 152,
+          "selected-administrative-governance-boundary": 1
+        },
+        "historical": {
+          "refs": 7566,
+          "extended": 19,
+          "states": 19
+        },
+        "current": {
+          "refs": 244,
+          "extended": 1,
+          "states": 1
+        },
+        "historical_states_compared_to_current_stat": false,
+        "prior_byte_equal_text_pairs": 4,
+        "separate_equal_root_metadata_pair": true,
+        "prior_namespaces": [
+          9,
+          18
+        ],
+        "current_namespace": 6,
+        "fresh_rechecks": 429,
+        "current_payloads": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/DEPENDENCY_NOTES.md",
+            "bytes": 9370,
+            "sha256": "cb9026d40e6e130d91d24cba90ec1a3d51bda473d235acae592b1c1a7b26f780"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.md",
+            "bytes": 2130,
+            "sha256": "4d60ccafc0cd8e20dd1a2cdcaea970024208cb9db51b624271289d802dfc1878"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/PAIR_PROOF.md",
+            "bytes": 7251,
+            "sha256": "42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/ROOT_OVERRIDE_AUDIT.md",
+            "bytes": 7520,
+            "sha256": "a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+            "bytes": 393074,
+            "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_IDENTITIES.json",
+            "bytes": 155921,
+            "sha256": "4eb03ac643c3a494dd88b882dcdeb6e882c65d793f8219b28dc21a05a37c9c93"
+          }
+        ],
+        "scientific_JSON_or_current_proof_automatically_parsed": false,
+        "proof_arithmetic_or_subject_execution": false
+      }
+    },
+    "final_inline_script": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_',P='/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg',V='/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b),cache=new Map();\nfunction pin(i){let a=cache.get(i.path);if(!a){a=readExact(i);cache.set(i.path,a);}need(a.bytes===i.bytes&&a.sha256===i.sha256,'identity '+i.path);if(i.resolved_path!==undefined)need(i.resolved_path===i.path,'resolved');if(i.symlinks!==undefined)need(eq(i.symlinks,[]),'symlinks');if(i.symlink_chain!==undefined)need(eq(i.symlink_chain,[]),'chain');return a;}\nconst dId={\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json\",\"bytes\":393074,\"sha256\":\"ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d\"},sId={\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_IDENTITIES.json\",\"bytes\":155921,\"sha256\":\"4eb03ac643c3a494dd88b882dcdeb6e882c65d793f8219b28dc21a05a37c9c93\"};\nfor(const i of [\n{path:Q+'/ROOT_OVERRIDE_AUDIT.md',bytes:7520,sha256:'a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3'},\n{path:Q+'/PAIR_PROOF.md',bytes:7251,sha256:'42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045'},\n{path:Q+'/DEPENDENCY_NOTES.md',bytes:9370,sha256:'cb9026d40e6e130d91d24cba90ec1a3d51bda473d235acae592b1c1a7b26f780'},\n{path:Q+'/HANDOFF.md',bytes:2130,sha256:'4d60ccafc0cd8e20dd1a2cdcaea970024208cb9db51b624271289d802dfc1878'}\n])pin(i);\nconst D=JSON.parse(pin(dId).body),S=JSON.parse(pin(sId).body),M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===423&&eq([...M.keys()],[...M.keys()].sort()),'unique sorted423');\nD.protected_files.forEach((r,i)=>{need(r.path===r.identity.path&&r.role==='dep_'+String(i+1).padStart(4,'0'),'role/path');pin(r.identity);});\nneed(D.protected_files.reduce((n,r)=>n+r.identity.bytes,0)===24174119,'selected bytes');\nconst old=JSON.parse(cache.get(P+'/SOURCE_DEPENDENCIES.json').body),oldS=JSON.parse(cache.get(P+'/SOURCE_IDENTITIES.json').body),omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===389,'old389');\nfor(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'preserved row '+r.path);\nconst boundaryKeys=Object.keys(old).filter(k=>!['schema','status','protected_files','scope'].includes(k));\nneed(boundaryKeys.length===12,'old boundary count');\nfor(const k of boundaryKeys)need(eq(D[k],old[k]),'preserved boundary '+k);\nneed(eq(S.inherited_RI191_source_identities,oldS),'whole oldS');\nneed(eq(S.unchanged_obligations,oldS.unchanged_obligations),'unchanged obligations');\nneed(eq(S.dependency_manifest,dId),'newD pin');\nconst namespaces=[];\nfor(const[dir,count]of[[P,9],[V,18]]){\n const h=JSON.parse(cache.get(dir+'/HANDOFF.json').body),names=fs.readdirSync(dir).sort();\n need(names.length===count&&eq(names,[...h.namespace].sort())&&eq(names,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'sealed prior namespace');\n h.payloads.forEach(pin);namespaces.push({dir,names});\n}\nconst ex=D.ri197_literal_certificate_exception;\nneed(ex.path===S.original_certificate.path&&ex.literal_read_authority===S.manual_body_admission.path&&ex.literal_read_only===true&&ex.automatic_scientific_JSON_parsing===false&&ex.automated_typed_reference_expansion===false&&ex.original_inherited_row_preserved===true&&ex.historical_state_compared_to_current_stat===false,'one literal exception');\nneed(M.get(ex.path).classification==='opaque-scientific-historical-premise','certificate automatically opaque');\nneed(D.ri191_author_support_boundary.path===P+'/AUTHOR_VERIFICATION.json'&&D.ri191_author_support_boundary.typed_reference_expansion===false&&M.get(D.ri191_author_support_boundary.path).classification==='opaque-historical-acceptance-or-source-support','new author boundary');\nneed(D.ri195_review_support_boundary.paths.length===15&&D.ri195_review_support_boundary.typed_reference_expansion===false,'review support boundary');\nfor(const x of D.ri195_review_support_boundary.paths)need(M.get(x).classification==='opaque-historical-acceptance-or-source-support','review opaque');\nneed(eq(S.manual_read_exception,ex)&&eq(S.ri191_author_support_boundary,D.ri191_author_support_boundary)&&eq(S.ri195_review_support_boundary,D.ri195_review_support_boundary),'S boundary match');\nneed(eq(S.operational_governance_boundary,D.governance_stopping_boundary)&&D.governance_stopping_boundary.typed_reference_expansion===false,'governance boundary');\nlet refs=0,extended=0,states=0;\nfunction scan(x,current=false){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||(current&&x.path===dId.path),'closed typed reference '+x.path);pin(x);refs++;if(x.symlink_chain!==undefined)extended++;if(x.state!==undefined)states++;}Object.values(x).forEach(v=>scan(v,current));}\nconst classes={};\nfor(const r of D.protected_files){classes[r.classification]=(classes[r.classification]||0)+1;if(r.classification==='selected-administrative-proof-provenance')scan(JSON.parse(cache.get(r.path).body));else if(r.classification==='selected-administrative-governance-boundary')need(r.path===D.governance_stopping_boundary.path,'only governance');}\nneed(classes['analytic-source-text-or-review']===149&&classes['opaque-historical-acceptance-or-source-support']===119&&classes['opaque-scientific-historical-premise']===2&&classes['selected-administrative-proof-provenance']===152&&classes['selected-administrative-governance-boundary']===1,'class counts');\nneed(refs===7566&&extended===19&&states===19,'historical reference counts');const historical={refs,extended,states};refs=0;extended=0;states=0;scan(S,true);const current={refs,extended,states};need(refs===244&&extended===1&&states===1,'current reference counts');\nlet pairs=0;for(const[k,i]of Object.entries(oldS.source_text_counterparts.published)){need(cache.get(i.path).body.equals(cache.get(oldS.premise_texts[k].path).body),'distinct text path equality');pairs++;}need(pairs===4,'four prior pairs');\nneed(cache.get(S.root_metadata_support_opaque.path).body.equals(cache.get(V+'/INDEPENDENT_ADMIN_CHECK.json').body),'separate root metadata replay equality');\nconst final=['ROOT_OVERRIDE_AUDIT.md','PAIR_PROOF.md','DEPENDENCY_NOTES.md','HANDOFF.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','AUTHOR_VERIFICATION.json','HANDOFF.json'].sort(),stage=process.argv[1]||'preseal6';\nneed(['preseal6','final8'].includes(stage),'stage');\nconst expected=stage==='final8'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json',...(stage==='candidate4'?['DEPENDENCY_NOTES.md','HANDOFF.md']:[])].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>{const a=readExact({path:Q+'/'+n});cache.set(a.path,a);return simple(a);});\nfor(const n of expected.filter(n=>n.endsWith('.md'))){const txt=cache.get(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt)&&!/[ \\t]+$/m.test(txt),'text hygiene');for(const m of txt.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g))need(expected.includes(m[1]),'current local Markdown link');}\nif(stage==='final8'){\nconst h=JSON.parse(cache.get(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===7&&eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current seal coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.manual_body_admission);pin(h.accepted_source_predecessor);\nneed(h.manual_proof_only===true&&h.one_certificate_literal_read===true&&h.automatic_scientific_JSON_parsing===false&&h.automated_proof_arithmetic===false&&h.verifier_or_scientific_execution===false&&h.full_resolved_vector_instantiated===false&&h.qualification_credit===false&&h.actual_W_C2_C3_H30_claimed===false&&h.repository_or_Git_written===false&&h.ret_paused===true,'seal scope');\n}\nconst before=[...cache.values()].map(simple);\nfor(const i of before)readExact(i);\nneed(before.length===423+expected.length,'fresh scope');\nneed(eq(fs.readdirSync(Q).sort(),expected),'final current namespace');\nfor(const n of namespaces)need(eq(fs.readdirSync(n.dir).sort(),n.names),'final predecessor namespace');\nconsole.log(JSON.stringify({schema:'ri197-author-administrative-check-v1',status:'IDENTITY_MATCH_NOT_PROOF_OR_ACCEPTANCE',stage,selected:423,selected_bytes:24174119,inherited_rows:389,inherited_boundaries:12,whole_inherited_S_preserved:true,classifications:classes,historical,current,historical_states_compared_to_current_stat:false,prior_byte_equal_text_pairs:pairs,separate_equal_root_metadata_pair:true,prior_namespaces:[9,18],current_namespace:expected.length,fresh_rechecks:before.length,current_payloads:payloads,scientific_JSON_or_current_proof_automatically_parsed:false,proof_arithmetic_or_subject_execution:false},null,2));\n",
+    "preseal_revision": "Added exact frozen four-manuscript pins and observed typed-reference count assertions to the candidate script; limited admitted stages to preseal6/final8. No scientific operation, proof evaluation or altered dependency selection.",
+    "script_scope": "Filesystem/path/crypto identity and administrative JSON reference checks only; current manuscripts receive text hygiene/link checks, not arithmetic or scientific-table parsing.",
+    "selected_paths": 423,
+    "selected_bytes": 24174119,
+    "inherited_rows_unchanged_except_role": 389,
+    "inherited_boundaries_unchanged": 12,
+    "whole_inherited_SOURCE_IDENTITIES_unchanged": true,
+    "historical_references": 7566,
+    "current_references": 244,
+    "historical_extended_state_noncomparisons": 19,
+    "current_extended_state_noncomparisons": 1,
+    "predecessor_namespace_sizes": [
+      9,
+      18
+    ],
+    "opaque_certificate_classification_preserved": true,
+    "one_explicit_current_literal_read_exception": true,
+    "proof_validated_by_hash_or_metadata_check": false,
+    "future_final8_result_claimed_here": false,
+    "reproduce": "Read this final_inline_script completely and run it inline with stage final8 for administrative reproduction only. Do not run an archived checker or the scientific pair verifier. Final actual receipt must be supplied outside this immutable seal."
+  },
+  "historical_diagnostics": {
+    "current_RI197_failed_commands": 0,
+    "current_RI197_clipped_outputs": 0,
+    "old_review_failure_retained": "RI1958169d8 exit1 inherited current_question selection defect, corrected78ace9 exit0; both exact sources and diagnostics remain opaque.",
+    "old_review_read_recoveries_retained": "RI195 mixed shell command's missing /usr/bin/ls and clipped predecessor display followed by explicit recovered observations.",
+    "earlier_author_phases_retained": "RI191 initial/final source edits,387/389 dependency admission,7/9 namespace phases and older RI175/178/181/185/187/189 observations.",
+    "historical_failures_erased_or_reexecuted": false,
+    "candidate4_preseal6_final8_not_conflated": true
+  },
+  "unchanged_executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit_or_waiver": 0,
+    "required_when_their_respective_executable_routes_are_used": true,
+    "manual_proof_uses_or_qualifies_those_routes": false
+  },
+  "scope": {
+    "manual_proof_only": true,
+    "one_certificate_literal_read": true,
+    "automatic_scientific_JSON_parsing": false,
+    "automated_proof_arithmetic": false,
+    "verifier_import_compile_AST_probe_run": false,
+    "graph_LP_or_scientific_engine": false,
+    "full_resolved_vector_instantiated": false,
+    "fixtures_or_cards_or_runtime_created": false,
+    "predecessor_or_repository_or_Git_written": false,
+    "new_agents_or_threads": false,
+    "ret_paused": true,
+    "actual_W_C2_C3_H30_or_geometry_physics_promotion": false,
+    "root_owns_independent_review_acceptance_publication_successor": true
+  },
+  "stop": "Seal eight-file manual-proof packet, run only the bounded final administrative check, report its actual external receipt and stop. No executable result or successor is authorized here."
+}

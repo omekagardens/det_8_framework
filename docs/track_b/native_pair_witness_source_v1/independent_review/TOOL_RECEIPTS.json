@@ -1,0 +1,214 @@
+{
+  "schema": "ri195-actual-administrative-tool-record-v1",
+  "origin": "Transcribed from this reviewer tool results; these are administrative receipts, not independently authenticated historical author tool origin.",
+  "calls": [
+    {
+      "chunk_id": "acab4f",
+      "exit_code": 0,
+      "purpose": "Complete assignment and handoff read before interruption summary."
+    },
+    {
+      "chunk_id": "0c8283",
+      "exit_code": 0,
+      "purpose": "pwd, attempted /usr/bin/ls, and source lines1-240. Missing-ls diagnostic; final sed determines shell exit0."
+    },
+    {
+      "chunk_id": "1374b2",
+      "exit_code": 0,
+      "purpose": "Source lines241-480 complete remainder."
+    },
+    {
+      "chunk_id": "240347",
+      "exit_code": 0,
+      "purpose": "Complete CONTRACT."
+    },
+    {
+      "chunk_id": "bd8fc8",
+      "exit_code": 0,
+      "purpose": "Complete NEGATIVE_CASES."
+    },
+    {
+      "chunk_id": "32f99d",
+      "exit_code": 0,
+      "purpose": "Complete DEPENDENCY_NOTES and HANDOFF.md."
+    },
+    {
+      "chunk_id": "79dd36",
+      "exit_code": 0,
+      "purpose": "Complete opaque admission and RI189 root adjudication/proof review."
+    },
+    {
+      "chunk_id": "27f3cd",
+      "exit_code": 0,
+      "purpose": "Authenticated assignment/handoff/admission, empty review reservation, source namespace and administrative keys; wrote INITIAL_AUTH."
+    },
+    {
+      "chunk_id": "8c47d4",
+      "exit_code": 0,
+      "purpose": "Complete AUTHOR_VERIFICATION including entire inline administrative script before execution."
+    },
+    {
+      "chunk_id": "d532cb",
+      "exit_code": 0,
+      "purpose": "Complete terminal read of COUPLED_CONTRAST and COMPONENT_ROUTING; outer functions output budget clipped COMPONENT_ROUTING."
+    },
+    {
+      "chunk_id": "bc55ef",
+      "exit_code": 0,
+      "purpose": "Complete original RI41 check.py literal read, no target execution."
+    },
+    {
+      "chunk_id": "aab8ab",
+      "exit_code": 0,
+      "purpose": "Complete unclipped COMPONENT_ROUTING recovery."
+    },
+    {
+      "chunk_id": "73d10e",
+      "exit_code": 0,
+      "purpose": "Complete assignment; NORMALIZATION211-256 and COMPLETION1-72 literal spans."
+    },
+    {
+      "chunk_id": "1181ab",
+      "exit_code": 0,
+      "purpose": "Preserved exact author administrative script and one CLI-index adaptation; complete scientific-class metadata and nine binding projection, no scientific bodies."
+    },
+    {
+      "chunk_id": "1ea9f8",
+      "exit_code": 0,
+      "purpose": "Authorized reviewed administrative script replay, final9; stdout saved, stderr empty."
+    },
+    {
+      "chunk_id": "fe2b63",
+      "exit_code": 0,
+      "purpose": "After root interruption, read retained replay result and review namespace."
+    },
+    {
+      "chunk_id": "cf0127",
+      "exit_code": 0,
+      "purpose": "Complete reviewer checker read before execution."
+    },
+    {
+      "chunk_id": "7dd195",
+      "exit_code": 0,
+      "purpose": "Read narrowed argument-case table matching after pre-execution textual edit."
+    },
+    {
+      "chunk_id": "8169d8",
+      "exit_code": 1,
+      "purpose": "Reviewer metadata attempt1: inherited-key count incorrectly includes current_question; no subject activity."
+    },
+    {
+      "chunk_id": "1283ee",
+      "exit_code": 0,
+      "purpose": "Read full retained reviewer failure stderr."
+    },
+    {
+      "chunk_id": "9624d6",
+      "exit_code": 0,
+      "purpose": "Preserved failed exact checker, printed actual inherited key intersection."
+    },
+    {
+      "chunk_id": "3409da",
+      "exit_code": 0,
+      "purpose": "Read precise one-field reviewer correction."
+    },
+    {
+      "chunk_id": "78ace9",
+      "exit_code": 0,
+      "purpose": "Reviewer metadata attempt2: complete independent administrative check successful."
+    },
+    {
+      "chunk_id": "172011",
+      "exit_code": 0,
+      "purpose": "Read successful summary and literal function line landmarks."
+    },
+    {
+      "chunk_id": "333216",
+      "exit_code": 0,
+      "purpose": "Literal line counts: subject480, reviewerchecker171."
+    }
+  ],
+  "actual_execution_calls": [
+    {
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_ADMIN_REPLAY.js final9",
+      "shell_prefix": "set -o noclobber",
+      "stdout": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_REPLAY_RESULT.json",
+        "bytes": 3128,
+        "sha256": "9679022a2480c8ecfa783d634b932dc6ac496c6943a9d12d355d39fc922410a4"
+      },
+      "stderr": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_REPLAY_STDERR.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "result": {
+        "chunk_id": "1ea9f8",
+        "wall_time_seconds": 0.035788125,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/check_metadata.js",
+      "executed_source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/check_metadata.attempt1.js",
+        "bytes": 12116,
+        "sha256": "b78d76ab9a491dcfd8dddff3fe724bb5ae0c4c3c078d3e08a7b37f3c64a31c69"
+      },
+      "shell_prefix": "set -o noclobber",
+      "stdout": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_STDOUT.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_STDERR.txt",
+        "bytes": 1133,
+        "sha256": "97e1268a3a5bf7b17a837b91d31fbc8a6fc3127bd8fa52dcb7ed349d416be6d6"
+      },
+      "result": {
+        "chunk_id": "8169d8",
+        "wall_time_seconds": 0.000006333,
+        "exit_code": 1,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/check_metadata.js",
+      "executed_source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/check_metadata.js",
+        "bytes": 12136,
+        "sha256": "a3b5b88693a57d25476eab58987e22acb83a19a1d39b0399072a57838e545faf"
+      },
+      "shell_prefix": "set -o noclobber",
+      "stdout": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_ATTEMPT2_STDOUT.txt",
+        "bytes": 244,
+        "sha256": "d1e40ca7191e53dbf0a2dc800f4833e2f66a3a2809a2925a1442202401242e0c"
+      },
+      "stderr": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_ATTEMPT2_STDERR.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "result": {
+        "chunk_id": "78ace9",
+        "wall_time_seconds": 0.048735125,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    }
+  ],
+  "diagnostics": {
+    "initial_ls": "zsh:1: no such file or directory: /usr/bin/ls",
+    "ls_recovery": "Node namespace in27f3cd and /bin/ls in fe2b63",
+    "clipped_combined_display": "functions output budget, recovered component text in aab8ab",
+    "reviewer_failure_retained": true,
+    "subject_attempts": 0
+  },
+  "no_scientific_or_target_execution": true
+}

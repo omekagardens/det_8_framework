@@ -1,0 +1,136 @@
+{
+  "actual_data_admitted": false,
+  "additional_required_controls": [],
+  "administrative_check": {
+    "bytes": 1521981,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK_V4.json",
+    "sha256": "e1b291d6a8c45231e1badb3391613c51df857b20894199c7730bd0b45df7c2fb"
+  },
+  "assignment": {
+    "bytes": 4022,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+    "sha256": "d53ea24ff9bc42e629dc821d44116ee62b6e90948ef8d970a15650ada674394e"
+  },
+  "blocking_findings": [],
+  "checks": 6718,
+  "genuine_replay_terminal": "1bb588",
+  "identities": 577,
+  "independent_new_scope": [
+    "RI154/156/160 path-adapter applicability",
+    "accepted original65 to literal unchanged11 at E",
+    "eight current runtime premises",
+    "five exact whole sidecar mappings"
+  ],
+  "new_guard_execution_claimed": false,
+  "next_root_boundary": "Independent root adjudication, exact12-field guard path decision, eight-premise runtime decision and five whole-field exports; separately reviewed adapters/freeze/fresh pre-mode custody before one normal WHITE attempt. No blanket65/106 rerun.",
+  "old_report_and_custody_immutable": true,
+  "read_only_replay": {
+    "bytes": 21610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_replay.py",
+    "sha256": "cebdf351763381c0004a27db66276f9883cdd3f96c13226e1a968efd55860055"
+  },
+  "ret_paused": true,
+  "review": {
+    "bytes": 27230,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/INDEPENDENT_REVIEW.md",
+    "sha256": "2f933e1472c3e1f3a4c16a550164ba47a53a85b6762153ee7b782158b429163c"
+  },
+  "root_adjudication_required": true,
+  "runtime_false_claims": [
+    "whole OS/image proof",
+    "cache/source semantic equivalence",
+    "complete instruction or import trace",
+    "hard OS or group RSS quota",
+    "E scientific modules already executed"
+  ],
+  "runtime_premises": {
+    "complete_pure_python_stdlib": "supported only under explicitly retained fixed installed supplier/cache/host and fresh per-mode custody premises",
+    "fresh_actual_profile_checked": "supported only under explicitly retained fixed installed supplier/cache/host and fresh per-mode custody premises",
+    "non_os_shared_library_closure_bound": "supported only under explicitly retained fixed installed supplier/cache/host and fresh per-mode custody premises",
+    "observed_dyld_routes_checked": "supported only under explicitly retained fixed installed supplier/cache/host and fresh per-mode custody premises",
+    "optional_native_namespaces_checked": "supported only under explicitly retained fixed installed supplier/cache/host and fresh per-mode custody premises",
+    "site_startup_surface_bound": "supported only under explicitly retained fixed installed supplier/cache/host and fresh per-mode custody premises",
+    "source_cache_selection_checked": "supported only under explicitly retained fixed installed supplier/cache/host and fresh per-mode custody premises",
+    "trusted_host_scope_explicit": "supported only under explicitly retained fixed installed supplier/cache/host and fresh per-mode custody premises"
+  },
+  "schema": "ri194-independent-path-runtime-applicability-recommendation-v1",
+  "scientific_qualification": false,
+  "sidecar_mapping": {
+    "host_scope": {
+      "canonical_whole_field_pin": {
+        "bytes": 86310,
+        "sha256": "e57432b991cee52c7ae3adf5d777d361bf41306702017297338ce0512de9c99c"
+      },
+      "json_pointer": "/host_bootstrap",
+      "operational_sidecar_created": false,
+      "same_in_optimized_snapshot": true,
+      "snapshot": {
+        "bytes": 7142026,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+        "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+      }
+    },
+    "observed_dyld_routes": {
+      "canonical_whole_field_pin": {
+        "bytes": 771,
+        "sha256": "d428c7a943d1d13feecf1e55cbf0a80d80344636b11f922223e77d16b470fb38"
+      },
+      "json_pointer": "/preobserved_dyld_routes",
+      "operational_sidecar_created": false,
+      "same_in_optimized_snapshot": true,
+      "snapshot": {
+        "bytes": 7142026,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+        "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+      }
+    },
+    "optional_namespaces": {
+      "canonical_whole_field_pin": {
+        "bytes": 3666,
+        "sha256": "956ba339aa926e5b8a8666f455b78422f8f2b1f8768459a4ce434b8cd18648ce"
+      },
+      "json_pointer": "/optional_namespaces",
+      "operational_sidecar_created": false,
+      "same_in_optimized_snapshot": true,
+      "snapshot": {
+        "bytes": 7142026,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+        "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+      }
+    },
+    "runtime_inventory": {
+      "canonical_whole_field_pin": {
+        "bytes": 2806092,
+        "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+      },
+      "json_pointer": "/runtime_inventory",
+      "operational_sidecar_created": false,
+      "same_in_optimized_snapshot": true,
+      "snapshot": {
+        "bytes": 7142026,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+        "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+      }
+    },
+    "selection": {
+      "canonical_whole_field_pin": {
+        "bytes": 3820691,
+        "sha256": "bd0b7b1b9e8d6825c92a4bf4cf92f72eb5330c2167f2ffee03ca1ae2d77622a8"
+      },
+      "json_pointer": "/selection",
+      "operational_sidecar_created": false,
+      "same_in_optimized_snapshot": true,
+      "snapshot": {
+        "bytes": 7142026,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+        "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+      }
+    }
+  },
+  "source_authorship_disclosed": [
+    "original RI130 caller/guard lineage",
+    "original RI141 bootstrap lineage",
+    "separate WHITE validator"
+  ],
+  "status": "RECOMMEND_EXACT_PATH_AND_BOUNDED_RUNTIME_APPLICABILITY"
+}

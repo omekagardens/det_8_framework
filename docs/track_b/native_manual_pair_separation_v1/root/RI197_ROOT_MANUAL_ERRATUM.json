@@ -1,0 +1,15 @@
+{
+  "corrected": {
+    "bytes": 3274,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_INDEPENDENT_MANUAL_READ_V2.md",
+    "sha256": "0e0b74a1509f4c807ac85ec66c461f9994be16d9dbe4c6501b03119b4e4e0780"
+  },
+  "correction": "Top-level field count is eight, not seven; list/domain and all handwritten mathematics are unchanged. Original note and its custody reference preserved.",
+  "original": {
+    "bytes": 3274,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_INDEPENDENT_MANUAL_READ.md",
+    "sha256": "accb77b5ee502f0a9067ac7785d10a4093d3a8a4ac502f33e9f6efaf8e98dcd9"
+  },
+  "schema": "ri197-root-manual-note-erratum-v1",
+  "scientific_execution": false
+}

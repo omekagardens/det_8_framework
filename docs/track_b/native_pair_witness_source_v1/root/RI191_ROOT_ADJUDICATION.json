@@ -1,0 +1,76 @@
+{
+  "actual_pair_gap_known": false,
+  "exact_saved_independent_result_reproduced": true,
+  "independent_handoff": {
+    "bytes": 8236,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/HANDOFF.json",
+    "sha256": "d356a00155aeb7e03ba647623eda55d06ef30422258bc48d5e70b7765ff40b98"
+  },
+  "independent_review": {
+    "bytes": 15929,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_REVIEW.md",
+    "sha256": "98b04475a154d5c03cf917eda775452c742887e8ed45dad648817abcaa082bb4"
+  },
+  "independent_verdict": {
+    "bytes": 2957,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/VERDICT.json",
+    "sha256": "018b443b5d6658e7395763a5b33e2d260b9e4d5f5553bbcb4a8d6f12577ad95a"
+  },
+  "next": "Root selects a justified substantive pair-magnitude step after distinguishing manual mathematical inspection from separately qualified executable witness work. Existing supervisor/launcher/policy obligations remain intact.",
+  "original_certificate_admission": "Existing opaque whole-identity permission only; no scientific-body read supplied by this decision.",
+  "original_parser_compatibility_known": false,
+  "ret_paused": true,
+  "retained_limits": [
+    "Inherited RI189 theorem and historical root-list acceptance, not fresh graph/finite-law proof.",
+    "Read-window identity checks are not full-interval custody.",
+    "20 seconds is cooperative reads only, not hard runtime or stdout bound.",
+    "BaseException can prevent final checks; partial stdout/error output requires external rejection.",
+    "Self/interpreter/runtime and tool origin require external authentication.",
+    "Saved-report validation/qualification not implemented or executed by this review.",
+    "Sufficient pair separation would reject only the formal capacity branch; no actual W/H30 or physical claim."
+  ],
+  "reviewer_diagnostics_retained": [
+    "8169d8 inherited current_question selection error; corrected source and successful78ace9 preserved",
+    "clipped predecessor display recovered in independent full read"
+  ],
+  "root_actual_check": {
+    "chunk_id": "5f7e9d",
+    "exit_code": 0,
+    "identities": 399,
+    "predicates": 48004
+  },
+  "root_literal_review": {
+    "bytes": 4432,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI191_ROOT_LITERAL_REVIEW.md",
+    "sha256": "26689929d7abeba3fabaf672e80afa6fd7032d87647ecfecebaacde52e97c133"
+  },
+  "root_metadata_check": {
+    "bytes": 107858,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI195_ROOT_METADATA_REPLAY.json",
+    "sha256": "e2be441d5fda2851c3814eeaef3ec8bab38b66b193ac150e7d660784fe3f35b5"
+  },
+  "root_reads": {
+    "bytes": 2232,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI191_ROOT_LITERAL_READS.json",
+    "sha256": "37ed27b01a9538f65c4088dbfbb5f6fec86e6c2711eb8585b9ee3104979c4965"
+  },
+  "schema": "ri196-root-pair-verifier-source-adjudication-v1",
+  "scientific_body_decoded": false,
+  "scope": "Exact sealed source, contract, negative specifications and provenance only. Nine original-byte bindings, full declared roots/default/overrides, exact threshold/equality and sufficient/inconclusive/refusal semantics independently reviewed. No verifier run or actual gap result.",
+  "status": "ACCEPT_BOUNDED_UNEXECUTED_RI191_PAIR_VERIFIER_SOURCE",
+  "subject": {
+    "bytes": 8115,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/HANDOFF.json",
+    "sha256": "18edf128859c97e28b2924dd22747d5b726545eaac9778fada8968486fa6eb41"
+  },
+  "subject_executed": false,
+  "uncredited": {
+    "audit_deeper": 42,
+    "controls": 92,
+    "focused_attempts": 31,
+    "mutation_families": 35,
+    "native_deeper": 20,
+    "policy_cases": 139,
+    "recipes": 34
+  }
+}

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v3.py", line 203, in <module>
+    try:result=check_main()
+               ~~~~~~~~~~^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v3.py", line 175, in check_main
+    same(snap['optional_namespaces'],loadref(deps['historical_optional_namespaces']),'whole accepted optional namespace')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v3.py", line 20, in same
+    else: need(canonical(a)==canonical(b),label)
+          ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v3.py", line 16, in need
+    if not ok: raise ValueError(label)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: whole accepted optional namespace

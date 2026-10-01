@@ -1,0 +1,60 @@
+{
+  "actual_W_decided": false,
+  "actual_metadata_tool": {
+    "chunk_id": "a1664a",
+    "exit_code": 0
+  },
+  "author_final_report": {
+    "attribution": "QR direct handoff report; root independently checked431 identities",
+    "chunk_id": "2e9218",
+    "exit_code": 0
+  },
+  "erratum": {
+    "bytes": 799,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_MANUAL_ERRATUM.json",
+    "sha256": "76859fd772b85f35e1a0a432bc88c38e4ba95a56a3cb13c430626a51852ee88d"
+  },
+  "executable_qualification_credit": false,
+  "handoff": {
+    "bytes": 7941,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.json",
+    "sha256": "287eb11395e5c5d03d09b1034f23c25d23c16ccdc924f9c14f1189eba60ddba2"
+  },
+  "independent_handwritten_note": {
+    "bytes": 3274,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_INDEPENDENT_MANUAL_READ_V2.md",
+    "sha256": "0e0b74a1509f4c807ac85ec66c461f9994be16d9dbe4c6501b03119b4e4e0780"
+  },
+  "literal_custody": {
+    "bytes": 1331,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_LITERAL_CUSTODY.json",
+    "sha256": "bab6b18114ebeb0812c3eb70f118dd9b3813d176b15edb2b11a1c71711aad22c"
+  },
+  "manual_result": {
+    "delta": "41/22000",
+    "epsilon": "1/500",
+    "inherited_consequence": "v<B6 strictly",
+    "selected_indices": [
+      "101",
+      "102"
+    ]
+  },
+  "metadata_check": {
+    "bytes": 245929,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_METADATA_CHECK.json",
+    "sha256": "9acef1225398fceec5a9c8d8295360369536ad27b9bc96fb75ecfa728c9a329b"
+  },
+  "ret_paused": true,
+  "root_analytic_corollaries": [
+    "C0<0",
+    "H6<0",
+    "I(Z6)>0"
+  ],
+  "root_review": {
+    "bytes": 4250,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_PROOF_REVIEW.md",
+    "sha256": "7313b30c7d145885140cc988e4b8f66cd9966b91e9fd16495f839b9a0152f052"
+  },
+  "schema": "ri197-root-manual-proof-adjudication-v1",
+  "status": "ACCEPT_EXACT_ORIGINAL_PAIR_GAP_AND_CONDITIONAL_BRANCH_EXCLUSION"
+}

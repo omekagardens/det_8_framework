@@ -1,0 +1,23 @@
+{
+  "deliverables": [
+    "Complete bound untruncated literal-read provenance before/after; all declared109 roots and every default/override semantic check with exact original positions.",
+    "Auditable exact pair values, indices and default/override origin; handwritten subtraction, sign, positive-denominator cross-products, equality handling and narrow RI189 consequence or legitimate inconclusive/premise-conflict result.",
+    "Readable sealed proof and dependency provenance; keep historical opaque boundaries and failed/recovered observations explicit."
+  ],
+  "limits": "Do not execute the verifier or automated arithmetic, instantiate full resolved vector, rerun qualification, create cards or alter predecessors. No new agents/threads; use existing QR capabilities. Actual bound proof must come back for independent root review. Existing operative constraints retain their exact scopes.",
+  "manual_body_admission": {
+    "bytes": 5377,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_MANUAL_BODY_ADMISSION.json",
+    "sha256": "e2a640f0d37b23133560ec45dc5a20d8338dcc7922fec751600515074b6c3abc"
+  },
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 4041,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI191_ROOT_ADJUDICATION.json",
+    "sha256": "61e4bdfb40d0fbc40ad081c5da438b8571ef6d9abf0ef6cda28259d206d138be"
+  },
+  "question": "Determine the actual prescribed pair gap epsilon=alpha((2254,7,0))-alpha((2254,7,1)) by literal original-certificate inspection and manual exact proof, and decide its relation to epsilon_star=44*1147*3875/(41*126280*508644).",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_",
+  "ret_paused": true,
+  "status": "ASSIGNED_AFTER_RI191_INDEPENDENT_SOURCE_ACCEPTANCE"
+}

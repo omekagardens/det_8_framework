@@ -1,0 +1,32 @@
+{
+  "authenticated": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI195_REVIEW_ASSIGNMENT.json",
+      "bytes": 2739,
+      "sha256": "2f52986a657c8e389a3d338ddc6b46a8b8262e2463da61759e1ca291fbf1fb35"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/HANDOFF.json",
+      "bytes": 8115,
+      "sha256": "18edf128859c97e28b2924dd22747d5b726545eaac9778fada8968486fa6eb41"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI191_OPAQUE_PREFIX_ADMISSION.json",
+      "bytes": 2123,
+      "sha256": "992a107e022f32be8d06bff3b0a859f87730e70d43c96402d3b4e2ebc0df186d"
+    }
+  ],
+  "initial_review_namespace": [],
+  "subject_namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "CONTRACT.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "NEGATIVE_CASES.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "pair_witness.py"
+  ],
+  "no_subject_execution": true
+}

@@ -1,0 +1,179 @@
+{
+  "exact_copies": 32,
+  "parent": "16ee1a59fa4a8317c3ffde9941ec1677ff60a73e",
+  "payload": [
+    {
+      "bytes": 506672,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "69eddc2b5c12f62fcd53aa4d778bc908690fb8506bcdaa1f7025c33fb9ac0052"
+    },
+    {
+      "bytes": 2026,
+      "path": "README.md",
+      "sha256": "ea9d01669cae68fed6f4686253b1d03c1ef92a852b93336fb9dfb690e4c26e55"
+    },
+    {
+      "bytes": 112659,
+      "path": "independent_review/ADMIN_CHECK.json",
+      "sha256": "494a714e8ab7e521729bb1dd793b31782a315becaa862c3c5b79217530297b4c"
+    },
+    {
+      "bytes": 1521981,
+      "path": "independent_review/ADMIN_CHECK_REPLAY.json",
+      "sha256": "e1b291d6a8c45231e1badb3391613c51df857b20894199c7730bd0b45df7c2fb"
+    },
+    {
+      "bytes": 51492,
+      "path": "independent_review/ADMIN_CHECK_V2.json",
+      "sha256": "22a3b5836a93a5ab09403ae08b7c2d344495db6d186a61381e53900000b11522"
+    },
+    {
+      "bytes": 811237,
+      "path": "independent_review/ADMIN_CHECK_V3.json",
+      "sha256": "ce7624ae51a49a8705c2d539d3d6dadeaef5e2c261b6e0e8c53b1a97c9b32e06"
+    },
+    {
+      "bytes": 1521981,
+      "path": "independent_review/ADMIN_CHECK_V4.json",
+      "sha256": "e1b291d6a8c45231e1badb3391613c51df857b20894199c7730bd0b45df7c2fb"
+    },
+    {
+      "bytes": 101623,
+      "path": "independent_review/FINAL_CUSTODY.json",
+      "sha256": "3bafe5196c62700f82dcd5166d812e12c68b27724dddd832fe62a77ed151e9e7"
+    },
+    {
+      "bytes": 8937,
+      "path": "independent_review/HANDOFF.json",
+      "sha256": "9cb5274e06d0725a03d820a797bddacfff251b3be0488923b3e866096ea6aee2"
+    },
+    {
+      "bytes": 27230,
+      "path": "independent_review/INDEPENDENT_REVIEW.md",
+      "sha256": "2f933e1472c3e1f3a4c16a550164ba47a53a85b6762153ee7b782158b429163c"
+    },
+    {
+      "bytes": 8513,
+      "path": "independent_review/TOOL_RECORD.json",
+      "sha256": "bd9f9e6acf9640313c22fb3c2fd55e34d35ddf2070a51b0ef0ed215489813e07"
+    },
+    {
+      "bytes": 6622,
+      "path": "independent_review/VERDICT.json",
+      "sha256": "85d4e5005401ef690f76e4a74cb13e4868903be892b9e56ffad7135960cc98f7"
+    },
+    {
+      "bytes": 1136,
+      "path": "independent_review/admin.stderr",
+      "sha256": "724e0f781d18ec4c660c537b8827d0f25369e901a1411e00f02360cfce4ed603"
+    },
+    {
+      "bytes": 203,
+      "path": "independent_review/admin.stdout",
+      "sha256": "4379154adb90cdf4864ebe0dca6d4aaabba251fb51cf8505fc8233a6c295496f"
+    },
+    {
+      "bytes": 2112,
+      "path": "independent_review/admin_v2.stderr",
+      "sha256": "ef3787cd574c83cc5460a1f2836e99ff3a0b4c722f566ed92d6e91d1d11cfaaa"
+    },
+    {
+      "bytes": 206,
+      "path": "independent_review/admin_v2.stdout",
+      "sha256": "133ccb0362e6e3465cdc15c405bc7e08ba9fdfbb5414d8bde3450152def0a9c7"
+    },
+    {
+      "bytes": 1173,
+      "path": "independent_review/admin_v3.stderr",
+      "sha256": "684809c68c8d794d1e70f04d951f8f1bee47c6945fd1692731a567290cf9c5b1"
+    },
+    {
+      "bytes": 208,
+      "path": "independent_review/admin_v3.stdout",
+      "sha256": "f2aacf63cd611a6384911628107ae11bb21b20713a3673e656be7e39fd1e9e3b"
+    },
+    {
+      "bytes": 0,
+      "path": "independent_review/admin_v4.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 241,
+      "path": "independent_review/admin_v4.stdout",
+      "sha256": "dbd85c9a7dd24927f3b5e0f29515b6d784ae7fd371698208a80bf075a3b33000"
+    },
+    {
+      "bytes": 21284,
+      "path": "independent_review/check_applicability.py",
+      "sha256": "494505f239085fa9638c0e4a357a515111744801e8f93c72e0fd235e5ac41d83"
+    },
+    {
+      "bytes": 21610,
+      "path": "independent_review/check_applicability_replay.py",
+      "sha256": "cebdf351763381c0004a27db66276f9883cdd3f96c13226e1a968efd55860055"
+    },
+    {
+      "bytes": 21280,
+      "path": "independent_review/check_applicability_v2.py",
+      "sha256": "74dc5e2e7438a0dc3ae2ae431d4b79a21dfaad673dbb6f8f5ab82f2da60b9b6f"
+    },
+    {
+      "bytes": 21390,
+      "path": "independent_review/check_applicability_v3.py",
+      "sha256": "b5a392222efc0cea907b26b7aeb0eb3aadc40b01f70ef9cc618a8f53d61dad1a"
+    },
+    {
+      "bytes": 21466,
+      "path": "independent_review/check_applicability_v4.py",
+      "sha256": "415e4b2a6e0122af996fce06b6a081dbdaee489243147db321ad8171f70aae61"
+    },
+    {
+      "bytes": 0,
+      "path": "independent_review/replay.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4414,
+      "path": "root/GUARD_PATH_APPLICABILITY.json",
+      "sha256": "222d2822fcf4256d7cd7d9abbec6976dca2221f306c675b35a25f752e0039773"
+    },
+    {
+      "bytes": 1449,
+      "path": "root/RI194_DECISION_CROSSCHECK_RECORD.json",
+      "sha256": "1f40cf51f47a48126a3ed982ce7d494c7b0e7034d9095cee5ae9abe9abdde790"
+    },
+    {
+      "bytes": 340398,
+      "path": "root/RI194_ROOT_ADJUDICATION.json",
+      "sha256": "28a7c6052f466268c6bf19585bcb717000dae75aa367549c13f85dca621ae461"
+    },
+    {
+      "bytes": 1521981,
+      "path": "root/RI194_ROOT_METADATA_REPLAY.json",
+      "sha256": "e1b291d6a8c45231e1badb3391613c51df857b20894199c7730bd0b45df7c2fb"
+    },
+    {
+      "bytes": 3322,
+      "path": "root/RI194_ROOT_REVIEW.md",
+      "sha256": "6a904802122f089bd94acd395932efd7eceecd9f8671569bfeda3ac5db5cdaa1"
+    },
+    {
+      "bytes": 1693,
+      "path": "root/RI198_MEASUREMENT_NEXT_ACTION.json",
+      "sha256": "711d119c027cdb3a8a855ea6b2925c3f4060b371053ab13436af2bcb3a375279"
+    },
+    {
+      "bytes": 18791,
+      "path": "root/RUNTIME_APPLICABILITY.json",
+      "sha256": "828ba7dc2b73837d0ecbb47c45f520588d5be9bba0c29911546247a25a8d4a9e"
+    },
+    {
+      "bytes": 0,
+      "path": "root/ri194_replay.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

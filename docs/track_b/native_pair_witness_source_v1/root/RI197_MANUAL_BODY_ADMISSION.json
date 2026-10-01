@@ -1,0 +1,89 @@
+{
+  "admitted_program_execution": false,
+  "authority_and_scope_refs": [
+    {
+      "bytes": 2614,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI191_NATIVE_ASSIGNMENT.json",
+      "sha256": "c2995ccdc6798e2d1606f4aff42403d93ecac2727c1747b061833b13acf7b302"
+    },
+    {
+      "bytes": 2123,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI191_OPAQUE_PREFIX_ADMISSION.json",
+      "sha256": "992a107e022f32be8d06bff3b0a859f87730e70d43c96402d3b4e2ebc0df186d"
+    },
+    {
+      "bytes": 1267,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI189_ROOT_ADJUDICATION.json",
+      "sha256": "44985b1f471baa3ae3f3f34392bf60bc8629dda641bfab6f0b7317a191c46c4c"
+    },
+    {
+      "bytes": 4796,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI189_ROOT_PROOF_REVIEW.md",
+      "sha256": "39e71e42be19cf68c62138374a8601b0820b8553d6dc9ea3d31f5d7003e924dd"
+    },
+    {
+      "bytes": 15024,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/CONTRACT.md",
+      "sha256": "8d9d8e483df41cc50a80590719e787576ca61728a274f6aefe722447915526ac"
+    },
+    {
+      "bytes": 23841,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/NEGATIVE_CASES.md",
+      "sha256": "4cfebccd39adf994612a31c5926479ae5bcb51db0ba5bbb419e89fd77d3d93c2"
+    },
+    {
+      "bytes": 140523,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/SOURCE_IDENTITIES.json",
+      "sha256": "166fd6b734cf5048ac52d0e7ec5e902402b115803dd6f463f6b54bd7d8878bee"
+    },
+    {
+      "bytes": 2910,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+      "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+    }
+  ],
+  "existing_executable_obligations_unchanged": true,
+  "identity": {
+    "bytes": 2845,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+    "state": [
+      16777244,
+      373218,
+      33188,
+      1,
+      2845,
+      1790219166674919262,
+      1790219166674919262
+    ],
+    "symlink_chain": []
+  },
+  "identity_matches_committed_head": "16ee1a59fa4a8317c3ffde9941ec1677ff60a73e",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 4041,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI191_ROOT_ADJUDICATION.json",
+    "sha256": "61e4bdfb40d0fbc40ad081c5da438b8571ef6d9abf0ef6cda28259d206d138be"
+  },
+  "prohibitions": [
+    "No automatic JSON parsing or coefficient/table computation, no Python/JS/Fraction/calculator/scientific engine for the proof. Ordinary literal display and opaque identity tooling only.",
+    "No import, compile, AST, probe or run of pair_witness.py or other subject; no graph/LP/numerical engine.",
+    "No new fixture, runtime/profile, freeze/card, protected-file mutation or repository/Git/index operation.",
+    "No other scientific body or full resolved109-vector instantiation; existing scientific sources outside this single admission remain opaque.",
+    "No actual W/C2/C3/H30, geometry, empirical or physical promotion; no executable-parser compatibility or qualified-verifier outcome inferred."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_",
+  "ret_paused": true,
+  "root_authority_reads": [
+    "72c9cb",
+    "ebac26",
+    "7ccc25",
+    "3a442f"
+  ],
+  "schema": "ri197-root-exact-original-manual-proof-admission-v1",
+  "scope": "Root separately admits complete literal reading of this exact original certificate for manual mathematical proof: validate original domain, all109 ordered typed roots/masks, default and every override, locate the two exact routed keys, transcribe their indices/origins/positive rational values, and show handwritten exact subtraction and denominator-cleared threshold comparison. Read the full body only after current whole-byte identity matches, and recheck identity afterwards. Accepted original root reconstruction remains a finite premise.",
+  "status": "ADMIT_EXACT_CERTIFICATE_LITERAL_MATHEMATICAL_INSPECTION_ONLY",
+  "supersession": "Old RI191 opaque-only admission and all historical packets remain unchanged. This new record expands access for this one manual mathematical assignment only; it does not authorize the program-execution witness route.",
+  "why_not_executable_qualification": "No scientific program, parser, supervisor, graph or solver is executed. The92/34/35 controls qualify particular RI169 supervisor/oracle routes;31/139/20/42 qualify their named launcher/policy/caller paths. None is used by literal manual proof. All remain unresolved and required when those paths are used; no substitution or qualification credit."
+}

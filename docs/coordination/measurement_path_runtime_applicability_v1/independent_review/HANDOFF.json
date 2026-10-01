@@ -1,0 +1,183 @@
+{
+  "actual_administrative_outcomes": {
+    "all577_rechecked_at_seal": true,
+    "distinct_fresh_opaque_identities": 577,
+    "replay": "6180d5 session20628; 1bb588 exit0, entire result identical",
+    "successful_predicates": 6718,
+    "v1": "bbda02 exit1, preserved incorrect graph field expectation",
+    "v2": "c91d27 exit1, preserved raw-bytes JSON comparator error",
+    "v3": "bc171b exit1, preserved optional-namespace wrapper mismatch",
+    "v4": "5c692b exit0"
+  },
+  "additional_required_controls": [],
+  "assignment": {
+    "bytes": 4022,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+    "sha256": "d53ea24ff9bc42e629dc821d44116ee62b6e90948ef8d970a15650ada674394e"
+  },
+  "cards_created": false,
+  "file_count": 24,
+  "files": [
+    {
+      "bytes": 112659,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK.json",
+      "sha256": "494a714e8ab7e521729bb1dd793b31782a315becaa862c3c5b79217530297b4c"
+    },
+    {
+      "bytes": 1521981,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK_REPLAY.json",
+      "sha256": "e1b291d6a8c45231e1badb3391613c51df857b20894199c7730bd0b45df7c2fb"
+    },
+    {
+      "bytes": 51492,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK_V2.json",
+      "sha256": "22a3b5836a93a5ab09403ae08b7c2d344495db6d186a61381e53900000b11522"
+    },
+    {
+      "bytes": 811237,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK_V3.json",
+      "sha256": "ce7624ae51a49a8705c2d539d3d6dadeaef5e2c261b6e0e8c53b1a97c9b32e06"
+    },
+    {
+      "bytes": 1521981,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/ADMIN_CHECK_V4.json",
+      "sha256": "e1b291d6a8c45231e1badb3391613c51df857b20894199c7730bd0b45df7c2fb"
+    },
+    {
+      "bytes": 101623,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/FINAL_CUSTODY.json",
+      "sha256": "3bafe5196c62700f82dcd5166d812e12c68b27724dddd832fe62a77ed151e9e7"
+    },
+    {
+      "bytes": 27230,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/INDEPENDENT_REVIEW.md",
+      "sha256": "2f933e1472c3e1f3a4c16a550164ba47a53a85b6762153ee7b782158b429163c"
+    },
+    {
+      "bytes": 8513,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/TOOL_RECORD.json",
+      "sha256": "bd9f9e6acf9640313c22fb3c2fd55e34d35ddf2070a51b0ef0ed215489813e07"
+    },
+    {
+      "bytes": 6622,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/VERDICT.json",
+      "sha256": "85d4e5005401ef690f76e4a74cb13e4868903be892b9e56ffad7135960cc98f7"
+    },
+    {
+      "bytes": 1136,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin.stderr",
+      "sha256": "724e0f781d18ec4c660c537b8827d0f25369e901a1411e00f02360cfce4ed603"
+    },
+    {
+      "bytes": 203,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin.stdout",
+      "sha256": "4379154adb90cdf4864ebe0dca6d4aaabba251fb51cf8505fc8233a6c295496f"
+    },
+    {
+      "bytes": 2112,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v2.stderr",
+      "sha256": "ef3787cd574c83cc5460a1f2836e99ff3a0b4c722f566ed92d6e91d1d11cfaaa"
+    },
+    {
+      "bytes": 206,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v2.stdout",
+      "sha256": "133ccb0362e6e3465cdc15c405bc7e08ba9fdfbb5414d8bde3450152def0a9c7"
+    },
+    {
+      "bytes": 1173,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v3.stderr",
+      "sha256": "684809c68c8d794d1e70f04d951f8f1bee47c6945fd1692731a567290cf9c5b1"
+    },
+    {
+      "bytes": 208,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v3.stdout",
+      "sha256": "f2aacf63cd611a6384911628107ae11bb21b20713a3673e656be7e39fd1e9e3b"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v4.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 241,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/admin_v4.stdout",
+      "sha256": "dbd85c9a7dd24927f3b5e0f29515b6d784ae7fd371698208a80bf075a3b33000"
+    },
+    {
+      "bytes": 21284,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability.py",
+      "sha256": "494505f239085fa9638c0e4a357a515111744801e8f93c72e0fd235e5ac41d83"
+    },
+    {
+      "bytes": 21610,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_replay.py",
+      "sha256": "cebdf351763381c0004a27db66276f9883cdd3f96c13226e1a968efd55860055"
+    },
+    {
+      "bytes": 21280,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v2.py",
+      "sha256": "74dc5e2e7438a0dc3ae2ae431d4b79a21dfaad673dbb6f8f5ab82f2da60b9b6f"
+    },
+    {
+      "bytes": 21390,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v3.py",
+      "sha256": "b5a392222efc0cea907b26b7aeb0eb3aadc40b01f70ef9cc618a8f53d61dad1a"
+    },
+    {
+      "bytes": 21466,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability_v4.py",
+      "sha256": "415e4b2a6e0122af996fce06b6a081dbdaee489243147db321ad8171f70aae61"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/replay.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "independence": "Original RI130/141 and separate WHITE-validator authorship disclosed; those source semantics inherit prior nonauthor acceptance. New RI154/156/160 relocation/adapter applicability is not self-review.",
+  "namespace": [
+    "ADMIN_CHECK.json",
+    "ADMIN_CHECK_REPLAY.json",
+    "ADMIN_CHECK_V2.json",
+    "ADMIN_CHECK_V3.json",
+    "ADMIN_CHECK_V4.json",
+    "FINAL_CUSTODY.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_RECORD.json",
+    "VERDICT.json",
+    "admin.stderr",
+    "admin.stdout",
+    "admin_v2.stderr",
+    "admin_v2.stdout",
+    "admin_v3.stderr",
+    "admin_v3.stdout",
+    "admin_v4.stderr",
+    "admin_v4.stdout",
+    "check_applicability.py",
+    "check_applicability_replay.py",
+    "check_applicability_v2.py",
+    "check_applicability_v3.py",
+    "check_applicability_v4.py",
+    "replay.stderr"
+  ],
+  "owner": "/root/archive_repro_review",
+  "payload_count": 23,
+  "publication_subset": "All payloads are compact review evidence including preserved failures; no original dependencies or runtime/scientific bodies are copied. ADMIN_CHECK_REPLAY duplicates successful output only to preserve genuine replay evidence.",
+  "recommendation": "EXACT_PATH_AND_BOUNDED_RUNTIME_APPLICABILITY_NO_ADDITIONAL_CONTROL",
+  "remaining_boundaries": [
+    "Root alone adjudicates path/runtime applicability and creates exact decisions/sidecars/adapters/admissions.",
+    "No new65/106 guard execution claim or scientific qualification; first-refusal evidence retains source-mediated limits.",
+    "Current profile/runtime evidence retains supplier/cache, Apple host/loader, stable filesystem and no-descendant premises.",
+    "Fresh full external E/runtime/source/card/namespace pre/post custody and genuine completion remain required for each later mode.",
+    "Normal fabricated WHITE acceptance must precede optimized; RI131/full32/public-data/native/physical claims remain separate.",
+    "RET paused."
+  ],
+  "repository_or_git_writes": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78",
+  "runtime_capture": false,
+  "schema": "ri194-independent-review-handoff-v1",
+  "scientific_body_decode": false,
+  "status": "SEALED_INDEPENDENT_REVIEW_FOR_ROOT_ADJUDICATION",
+  "subject_execution": false
+}

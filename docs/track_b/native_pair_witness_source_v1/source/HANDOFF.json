@@ -1,0 +1,151 @@
+{
+  "schema": "ri191-exact-pair-witness-source-handoff-v1",
+  "status": "SEALED_SOURCE_ONLY_AWAITING_INDEPENDENT_ROOT_REVIEW",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg",
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "CONTRACT.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "NEGATIVE_CASES.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "pair_witness.py"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/AUTHOR_VERIFICATION.json",
+      "bytes": 38644,
+      "sha256": "3b4fb8568ddafebcef5445609264babcfad854596a03bac2ff14fde28dddb1ea"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/CONTRACT.md",
+      "bytes": 15024,
+      "sha256": "8d9d8e483df41cc50a80590719e787576ca61728a274f6aefe722447915526ac"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/DEPENDENCY_NOTES.md",
+      "bytes": 19961,
+      "sha256": "8d1e134de7cc300eb260f1be2dd0d8b3f242497b0a2f7eebfd773c611f75e90d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/HANDOFF.md",
+      "bytes": 3601,
+      "sha256": "68b72613afbfa86da51f81086c1bf4ee5a3753df673628a4c79de1976e7d26d6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/NEGATIVE_CASES.md",
+      "bytes": 23841,
+      "sha256": "4cfebccd39adf994612a31c5926479ae5bcb51db0ba5bbb419e89fd77d3d93c2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/SOURCE_DEPENDENCIES.json",
+      "bytes": 361715,
+      "sha256": "fe70e052338c041032ffd0f3ab9d1a567fff762be095dbae386489a5daa3449f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/SOURCE_IDENTITIES.json",
+      "bytes": 140523,
+      "sha256": "166fd6b734cf5048ac52d0e7ec5e902402b115803dd6f463f6b54bd7d8878bee"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/pair_witness.py",
+      "bytes": 20354,
+      "sha256": "26aaa5138f6ebd1f9791e9c6ea66225376f81931ec8235de4ee399a5e6514357"
+    }
+  ],
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI191_NATIVE_ASSIGNMENT.json",
+    "bytes": 2614,
+    "sha256": "c2995ccdc6798e2d1606f4aff42403d93ecac2727c1747b061833b13acf7b302"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI189_ROOT_ADJUDICATION.json",
+    "bytes": 1267,
+    "sha256": "44985b1f471baa3ae3f3f34392bf60bc8629dda641bfab6f0b7317a191c46c4c"
+  },
+  "accepted_manual_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI189_ROOT_PROOF_REVIEW.md",
+    "bytes": 4796,
+    "sha256": "39e71e42be19cf68c62138374a8601b0820b8553d6dc9ea3d31f5d7003e924dd"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "opaque_prefix_admission": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI191_OPAQUE_PREFIX_ADMISSION.json",
+    "bytes": 2123,
+    "sha256": "992a107e022f32be8d06bff3b0a859f87730e70d43c96402d3b4e2ebc0df186d"
+  },
+  "original_certificate": {
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "bytes": 2845,
+    "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969"
+  },
+  "result": "Bounded standalone exact rational pair-witness source, readable acceptance contract and prospective negative-case specifications. Nine fixed input identities bind original prescribed default/override semantics and complete declared109-root ordering. The source locates (2254,7,0),(2254,7,1) by key and compares their difference to the accepted exact epsilon_star, with1/10000 separately reported.",
+  "outcomes": [
+    "Sufficient separation at or above epsilon_star, inclusive equality.",
+    "Inconclusive smaller strictly positive gap.",
+    "Malformed/mismatched/premise-conflicting input refusal; nonpositive gap is not an inconclusive result."
+  ],
+  "source_only_exact_verifier": true,
+  "nine_immutable_input_bindings": true,
+  "complete_declared_root_and_override_validation": true,
+  "bounded_nonexecuted_source_design": true,
+  "sufficient_inconclusive_refusal_distinguished": true,
+  "original_certificate_opaque_only": true,
+  "actual_core_gap_predicate_decided": false,
+  "original_parser_compatibility_established": false,
+  "actual_W_sign_claimed": false,
+  "actual_109_vector_read": false,
+  "verifier_import_compile_AST_probe_run": false,
+  "scientific_execution": false,
+  "fixtures_or_operational_cards_created": false,
+  "obligations_waived_or_credited": false,
+  "repository_or_Git_written": false,
+  "ret_paused": true,
+  "measurement_and_qualification_separate": true,
+  "admission_limit": "Original certificate whole-byte identity was observed only after narrow root permission. Its JSON body and coefficients remain unread. Identity does not establish magnitude; current assignment does not authorize running the source.",
+  "review_result": "Complete main/native/audit literal source and contract/spec reviews found no concrete blocker. Two manual source tightenings and earlier/final provenance phases are preserved. This is author-peer review, not independent acceptance, syntax verification or an executed test result.",
+  "remaining_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper_rows": 20,
+    "audit_deeper_rows": 42,
+    "new_qualification_credit": 0,
+    "external": "Root source review and separate scientific/execution admission; self/interpreter and full-interval input/output custody; hard resource supervision; protected validation and actual qualification; original parser compatibility."
+  },
+  "limits": "Cooperative deadline and per-read stat windows are not hard resource bounds or full-interval custody. Fatal termination may prevent all-nine postchecks. Partial stdout or incomplete stderr needs external rejection. Sufficient separation would exclude only the inherited formal capacity branch, not actual W/C2/C3/H30, geometry or physics.",
+  "provenance": {
+    "selected_paths": 389,
+    "selected_bytes": 23201553,
+    "inherited_paths": 374,
+    "base_387_phase_preserved": true,
+    "historical_typed_references": 6893,
+    "current_typed_references": 222,
+    "historical_extended_state_noncomparisons": 18,
+    "predecessor_namespace": 8,
+    "current_namespace": 9,
+    "author_preseal_terminal": {
+      "chunk_id": "d68a43",
+      "exit_code": 0,
+      "namespace": 7,
+      "final_fresh_identity_rechecks": 396
+    },
+    "author_record_identity_terminal": {
+      "chunk_id": "a0e36a",
+      "exit_code": 0
+    },
+    "historical_opaque_boundaries_preserved": true,
+    "new_final_check_result_inside_seal": false
+  },
+  "reproduce": "AUTHOR_VERIFICATION contains the bounded inline administrative script and actual preseal receipt. Use stage final9 to check the sealed packet without importing/compiling/AST-parsing/probing/running pair_witness.py or historical checkers. Actual final-nine receipt is delivered separately.",
+  "stop": "Return this immutable packet to root. Root owns independent source review, future admission, publication and successor selection. No further work or execution is authorized by this seal."
+}

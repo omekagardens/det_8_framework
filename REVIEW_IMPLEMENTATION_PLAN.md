@@ -1,122 +1,94 @@
 **DET independent-review implementation and QR coordination**
 
-**Current checkpoint — 1 October 2026 UTC.** RI189 is independently accepted
-for exact native component routing and a conditional two-coefficient
-separation theorem. The fixed roots are (78,7,i), (206,7,i+2u) and
-(2254,7,i+2u+4v). The original canonical relation bits, ordered compulsory
-marks and complete components determine these keys. Consecutive root ranks
-do not imply coefficient magnitudes, and equal values do not merge components.
+**Current checkpoint — 1 October 2026 UTC (30 September in Honolulu).**
+RI197 independently resolves the previously missing original coefficient gap.
+The unchanged certificate's routed keys (2254,7,0) and (2254,7,1) are at
+zero-based indices 101 and 102. Both are explicit overrides, 197/200 and
+983/1000, so epsilon=1/500 and delta=41/22000. Complete literal inspection
+checked all 109 typed ordered roots, proper precursor/record masks, default
+and all 62 positive rational overrides before selecting the pair.
 
-Write epsilon=alpha((2254,7,0))-alpha((2254,7,1)), with inherited finite
-premises epsilon>0, delta=(41/44)epsilon and D_-<U=1147/126280. The strict
-capacity branch requires 0<epsilon<epsilon_star, where
-epsilon_star=(44/41)U/(508644/3875)<1/10000. A gap at or above epsilon_star
-would strictly reject that branch, including equality; epsilon>=1/10000
-is a simpler sufficient condition. A smaller gap is inconclusive. The
-actual gap remains unproved; no selected coefficient or table was evaluated.
+The handwritten positive-denominator comparison gives
+500*44*1147*3875=97,781,750,000 < 2,633,494,137,120
+=41*126280*508644. Thus epsilon>epsilon_star, where the accepted threshold
+is (44/41)(1147/126280)/(508644/3875)<1/10000. With inherited finite
+D_-<1147/126280, the stronger RI187 reverse premise gives v<B6 strictly.
+Root independently inspected the original bytes and derived the arithmetic
+before reading the worker's proof. The original complete graph reconstruction,
+RI189 routing and RI187/157 finite inequalities remain explicit premises.
 
-The complete source, independent manual review and root metadata check are
-in `docs/track_b/native_component_pair_separation_v1/`. Root replay 40788d
-exited zero: 374 selected sources/22,407,229 bytes, 361 inherited rows,
-6289 historical and 211 current typed references, 27 inherited premise
-objects, whole governance and 382 fresh whole identities. Four equal-byte
-path pairs remain distinct; 17 historical states remain noncomparisons.
-Author-peer reviews and corrected diagnostics retain their source attribution.
+This closes the quantitative pair witness and excludes the strict capacity
+branch. It also yields C0<0, H6<0 and I(Z6)>0 under the accepted positive
+factor identities. The cap-wide nonpositivity certificate therefore fails;
+positive formal points near the cap do not locate the actual (rho,s) or
+decide its W. Actual C2/C3, shared H30, other parents and physics remain open.
+Root metadata check a1664a exited zero with 423 selected dependencies,
+431 fresh identities and twelve unchanged boundary objects. The accepted
+manual proof and root review are archived separately in
+`docs/track_b/native_manual_pair_separation_v1/`.
 
-RI187 is also independently accepted as a conditional endpoint certificate:
-at Z=6/D, D=83+72theta, K=D-6, the sufficient inequality
-C0=K(Kv-72lambda*j0)q0-432lambda*G_*v>=0 would force v>B6 and H6>0.
-Its actual sign remains unresolved; negative C0 is inconclusive. The complete
-canonical q/N terms, positive parts, tied minima and marked products remain.
-The proof inherits finite q-sign premises, and the necessary contrast ratio
-exceeds 508644/3875. Exact source and root review are in
-`docs/track_b/native_endpoint_certificate_v1/`; root b66219 exited zero
-with 361 selected sources, 349 inherited rows and 369 fresh identities.
+RI191 is independently accepted only as bounded unexecuted verifier source,
+with complete RI195 source/contract/provenance review. Root metadata replay
+5f7e9d exited zero: 389 selected dependencies, 399 fresh identities and
+48,004 predicates. Source and reviews are in
+`docs/track_b/native_pair_witness_source_v1/`. RI197 used a separate exact
+literal-read admission; it neither changed the old opaque-only record nor
+ran a parser, verifier, graph, solver or scientific arithmetic engine.
+All 92 controls/34 recipes/35 mutation families and 31/139/20/42 obligations
+remain required for their executable routes, unresolved and uncredited.
+RI182 cleanup remains source-accepted; 2,547 native cases per mode, the
+original-vector audit and QP04 still require their own qualified execution.
 
-RI191's exact pair-witness source, mathematical contract and negative-case
-specifications are sealed by the existing Quantum Relativity task under
-`ri191-exact-pair-witness-source-uu414bjg/`. Author final9 check 78d971
-exited zero; its 389 selected inputs and 398 fresh identity checks remain
-author evidence. RI195 is assigned to the existing independent reviewer
-under `ri195-pair-witness-independent-review-cf5d6lpb/`. Complete literal
-source, exact threshold/equality, all-nine binding and administrative
-provenance review are pending; RI191 is not independently accepted or run.
-Root will select the next QR step after adjudication. No duplicate is assigned.
+RI199 is assigned to the existing QR task after RI197 adjudication: attack
+the actual normalization by proving or refuting the sufficient same-law bound
+M6<=4*lambda*j0/v-1/2. The complete weighted identity gives W(rho,s)>0 if
+that bound holds; equality is sufficient. A specific admissible parent above
+the proposed threshold would refute this sufficient bound only. Every proper
+ideal, marked record, canonical correction and global-maximum obligation
+remains. No free coefficient box, new generic cap, actual lookup or runtime
+campaign substitutes for this native question. Its exclusive external
+reservation and exact assignment are recorded in the root proof archive.
 
-The original certificate remains opaque under the exact RI191 identity
-admission; its body and coefficients remain unread. No import/compile/AST,
-probe, fixture, runtime/card or scientific execution is admitted. Complete
-root ordering and coefficient default/override compatibility still require
-review. All 92 controls/34 recipes/35 mutation families and 31/139/20/42
-obligations remain. Root owns acceptance, admissions and all Git/index work.
+Measurement: RI194 and root accept applicability of the original genuine
+65-guard evidence to the unchanged eleven helpers at E. The complete
+path-sensitive correspondence requires no additional relocation control;
+no guard is claimed to have run at E. Root replay 442959/session42365,
+terminal a10a61, exited zero and reproduced all 6,718 predicates and 577
+fresh identities. The old reports and all three reviewer-only checker
+failures are preserved. Prior RI130/141 authorship is disclosed; original
+source semantics inherit earlier nonauthor acceptance.
 
-Accepted RI181/185 bounds remain rho<Z6=6/(83+72theta)<Z4<1/8<R.
-The complete A6 row retains all 63 proper ideals, 64 marks, 31-slot A5
-complements and 57 other positive terms. RI175/178 restrict unchanged to
-this containing curved domain. Endpoint acceptance implies strict W<0 at
-permitted positive y; endpoint equality has only an unattained zero
-supremum at excluded y=0. These bounds do not locate the actual pair or
-identify global M5/M6 maximizers. Actual W, C2/C3 and shared H30 remain open.
+Root issued the closed twelve-field guard-path decision and the eight-premise
+runtime-applicability decision, with independent field/binding cross-check.
+Both already accepted current profiles and complete snapshots remain fixed.
+The five sidecar mappings retain whole fields; observed_dyld_routes means
+the preobserved domain, with full actual errors/attempts still bound through
+the complete profile evidence. Supplier/cache/Apple-host assumptions,
+unproved source/pyc equivalence, sampled-child memory and read-window
+stability remain explicit. The review and decisions are archived in
+`docs/coordination/measurement_path_runtime_applicability_v1/`.
 
-Measurement: RI193 independently accepts RI192's optimized candidate profile
-and the complete normal/optimized relation. Genuine initial 6d14e9/session
-69700 completed as e3f394, exit zero; parent time was 6.203818125 seconds.
-All sixteen output files are retained. Both PRE/POST snapshots exactly equal
-the accepted 7,142,026-byte RI186 baseline and RI190 normal snapshots.
-The original baseline and normal stage cards remain unchanged.
+RI198 is root-owned administrative preparation next: exact source decision,
+supervised whole-field sidecars and candidate adapters, independent field
+review, then the candidate freeze. Follow the literal twelve-field adapter
+admission schema; retained RI170 prose's “closed13” count is erroneous.
+Fresh per-mode E/runtime/source/card/namespace custody and genuine receipts
+must precede any normal WHITE admission. Its baseline is the accepted normal
+completion's PRE FilePin. No operational sidecars/adapters/freeze/mode card
+or WHITE execution is created by this checkpoint. Normal actual acceptance
+must precede optimized; WHITE15/full W09, both 179 controls, 27/13/30 records,
+57 artifacts, 74 postchecks, three science trees, RI131 and full32 remain
+separate. Selected public GWOSC reproduction, protected validation and a
+native forward map are not promoted by source or applicability acceptance.
 
-Root replay fbbb31 and independent replay 5098a1 exited zero. All 112 new
-monitor samples and 116 prior normal samples reconcile; each report has
-71 modules, 213 descriptors and ten ordered loader attempts. The complete
-reports differ at exactly two optimization flags and 30 cache paths. Normal
-has 113 bound cache/source descriptors, one main and 99 sentinels; optimized
-has 111 bound, one main, 99 sentinels and two genuine absent optimized-cache
-alternatives. Expected missing-mpdecimal ImportError and pure-Python decimal
-fallback remain retained premises. All timing and sampled-memory gates pass.
-
-After complete independent-checker/review reads, root freshly rechecked all
-12,478 identities (ac0e24, exit zero) and issued only the closed combined
-PROFILES_ACCEPTANCE.json stage card. Actual evidence and scoped acceptance
-are archived in `docs/coordination/measurement_current_e_optimized_profile_v1/`.
-The reviewer's RI130/141 authorship is disclosed: source semantics inherit
-earlier independent acceptance; this review independently checks root's
-actual execution. Exact original paths and external dependency pins remain;
-this is not a complete runtime archive or relocated-execution authorization.
-
-RI194 now reviews whether the original genuine 65 guard outcomes apply to
-the unchanged eleven helpers at E, including every path-sensitive boundary,
-and reconciles all eight runtime premises with the five saved sidecars.
-Existing nonauthor review owns only external
-`ri194-path-runtime-applicability-review-zqqw4q78/`; source-only review,
-no guards/science or cards. Equal bytes alone do not establish applicability.
-A proved gap requires the smallest justified separately admitted control;
-no blanket 65/106 rerun is implied. RI194's relocation review is independent
-of its disclosed original-bootstrap authorship.
-
-Sampled PRE/profile/POST peaks were 84368/752/85712 KiB. These observations
-do not bound the complete process group or show lower optimized memory use.
-Saved parent PID is not authenticated child identity. Trusted host/kernel,
-supplier/cache, no descendants, read-window stability and unproved source/pyc
-equivalence remain explicit. No actual WHITE15, RI131 applicability,
-27/13/30 records, 57 artifacts, 74 postchecks, full32 or three science trees
-are credited. Conventional reproduction of the selected public GWOSC data,
-calibration/protected validation and native forward mapping remain separate.
-
-RI182's compound-cleanup repair remains independently source-accepted by
-RI184 and root. Exact secondary errors/order and successful-close lifetime
-checks remain. All 92 controls, 34 recipes and 35 prospective mutation
-families are unexecuted. Next is operational preflight and separately
-admitted qualification with actual real-clock outcomes and recovery.
-RI169 is immutable; 2547 native cases per mode, original-vector audit and
-QP04 remain unexecuted.
-
-Preserve native 315 seconds, 310/312 cutoffs, 300/120/2 internal limits,
-512-MiB address space, 110 CPU seconds, core-zero and 8-MiB streams. Preserve
-measurement snapshot 180/profile 30 seconds, 524288-KiB sampled child RSS,
-25-ms target, 100-ms gap, 50-ms ps and 960-second outer limits. Keep P2/P3,
-Y=1/4, 31/139/20/42, shared T1, the other eight parents and all five Di.
-Unrelated edits, pinned historical results and original independent review
-remain preserved. The programme continues; RET alone remains paused.
+Keep rho<Z6=6/(83+72theta)<Z4<1/8<R, all 63 proper ideals/64 marks in A6,
+31-slot A5 complements and 57 other positive terms. Preserve native 315-second
+outer/310/312 cutoffs, 300/120/2 internal limits, 512-MiB address space,
+110 CPU seconds, core-zero and 8-MiB streams; measurement 180/30-second
+snapshot/profile, 524288-KiB sampled-child RSS, 25-ms target, 100-ms gaps,
+50-ms ps and 960-second outer limits. Keep P2/P3, Y=1/4, shared T1 and all five Di.
+Original independent reviews, historical results and unrelated edits remain
+preserved. The programme continues; RET alone remains paused.
 
 **24 September recovery history (retained snapshot).** Source-only RI-73 checkpoint
 `6e58490142b5fa13bcd554f2bf4c5057bf644a79` is published and independently
@@ -196,9 +168,9 @@ Active file reservations, updated 1 October UTC:
 
 | Owner | Reserved files |
 |---|---|
-| QR task and coordinator reviewers | QR RI191 external packet is sealed and immutable. Existing reviewer owns external RI195 source/provenance review. Root owns adjudication, next QR assignment, admissions and Git. |
+| QR task and coordinator reviewers | RI191/195 source and RI197 manual proof are independently accepted and immutable. QR exclusively owns external ri199-native-maximum-bound-buxv337k for the actual-normalization proof question. Root owns review, admissions and all Git. |
 | Native current-runtime review | Native scientific execution remains separately gated; RI-151 analytic formula accepted. Root owns future admissions. |
-| Measurement source implementation/review | Accepted E48 copies, RI186 baseline and RI190 normal card remain unchanged. RI193 accepts optimized/both profiles with fresh root custody. Existing reviewer owns external RI194 path/runtime applicability; actual WHITE/GWOSC stages remain separate. |
+| Measurement source implementation/review | E48 copies and accepted baseline/both profiles remain unchanged. RI194 path/runtime applicability and root decisions are accepted. Root owns RI198 exact administrative adapter/freeze preparation; no WHITE mode is admitted. |
 | RI-40 calibration qualification | The three-file `docs/experiments/gwosc_calibration_qualification_v1/` bundle is independently accepted and source-quiet; its reservation is released. Public archive/documentation bodies remain outside the repository. The next coordinator packet is a frozen nominal strain-display design, not RET work. |
 | RI-42 nominal display design | The single-file `docs/experiments/gwosc_nominal_display_v1/RECIPE.md` is independently accepted and source-quiet; reservation released. RI-44 numerical qualification is now independently accepted under its separate bundle. RI-47 supplies the independently accepted observed nominal display. |
 | RI-44 nominal processing implementation | The seven-file `docs/experiments/gwosc_nominal_processing_v1/` bundle is independently accepted; reservation released for root publication. Exact pinned source, coefficient manifest and synthetic report passed normal/optimized replay and separate source/evidence audits. Observed-strain processing remains a separate step. |
@@ -316,15 +288,19 @@ Active file reservations, updated 1 October UTC:
 | RI-184 independent cleanup repair review | Complete nonauthor source review and root corroboration accept the exact narrow repair. |
 | RI-185 six-antichain bound | Independently accepted all 63 slots/64 marks and stricter rho<6/(83+72theta); actual endpoint sign open. |
 | RI-186 independent current-E capture review | Accepted current-E baseline remains unchanged; both profiles are now independently accepted through RI193. |
-| RI-187 same-law endpoint certificate | Independently accepted conditional endpoint certificate and necessary contrast ratio>508644/3875; actual comparison remains open. |
+| RI-187 same-law endpoint certificate | Conditional theorem retained; RI197/root now yields v<B6, C0<0, H6<0 and I(Z6)>0 under inherited premises. Actual W remains open. |
 | RI-188 endpoint and normal-profile review | RI187/189 conditional proofs and RI190 actual normal profile remain independently accepted and archived. |
-| RI-189 coupled record-contrast proof | Exact component routing and conditional two-entry separation independently accepted; actual gap remains unproved. |
+| RI-189 coupled record-contrast proof | Exact routing and conditional separation retained; RI197 now establishes the fixed gap1/500 by independent manual review. |
 | RI-190 independent normal-profile review | Accepted actual normal profile and its closed stage card remain unchanged; all 116 samples are retained in RI193 comparison. |
-| RI-191 exact pair-witness source | QR source-only exact pair verifier is sealed; actual gap and parser compatibility remain unresolved. RI195 independent review is active. |
+| RI-191 exact pair-witness source | Independently accepted bounded unexecuted source through RI195/root. RI197 separately resolves the gap manually; parser/runtime qualification remains unresolved. |
 | RI-192 actual optimized profile | One optimized profile completed with 112 samples and unchanged PRE/POST baseline; all gates pass. |
 | RI-193 independent paired-profile review | Accepted both complete reports; only 2 flags and 30 cache paths differ. Root freshly checked 12,478 identities and issued combined-profile card. |
-| RI-194 path/runtime applicability review | Existing nonauthor reviewer assigned original 65-guard path applicability and eight runtime premises; no cards or subject execution. |
-| RI-195 independent native verifier review | Existing nonauthor reviewer assigned complete RI191 source/contract/negative-spec and actual administrative provenance review. |
+| RI-194 path/runtime applicability review | Independently accepted exact old-65 path correspondence and eight bounded runtime premises; root replay passes 6,718 checks/577 identities. Closed decisions issued; no WHITE execution. |
+| RI-195 independent native verifier review | Complete source/contract/provenance review accepted, with root replay of 48,004 predicates/399 identities and preserved failed administrative attempt. |
+| RI-196 root pair/applicability adjudication | Scoped reviews and exact source archives accepted; unrelated tree preserved and Git remains central. |
+| RI-197 manual original pair proof | Independently accepted epsilon=1/500, delta=41/22000 and inherited v<B6; all 109 roots/62 overrides audited. Actual W remains open. |
+| RI-198 measurement adapter preparation | Root-owned next action: exact source decision, separately admitted sidecars/adapters, review and freeze, then fresh per-mode custody. No mode admission yet. |
+| RI-199 actual normalization bound | Assigned to QR: prove global M6<=4*lambda*j0/v-1/2 or exhibit a same-law admissible competitor refuting that sufficient bound; retain full scope. |
 | RI-86 colored covariance proxy design | Published `d1733b8`; reservation released. Exact model and gates remain fixed for the actual RI-90 application. |
 | RI-87 colored covariance proxy implementation | Sources and exact qualification published in verified `9d40744`; reservation released. RI-90 actual application and independent arithmetic audit are accepted for this checkpoint; RI-92 owns the separate frequency-resolved design. |
 | RI-71 operator covariance design | Published in independently verified `ebfd0ec`; reservation released. |
