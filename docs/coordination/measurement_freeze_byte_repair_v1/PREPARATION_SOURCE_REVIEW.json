@@ -1,0 +1,30 @@
+{
+  "bootstrap_expected": {
+    "bytes": 2417,
+    "sha256": "76779aeb180fc09ef2c90a2c1341ff3f5285640645ac15e1d90b27014422a00a"
+  },
+  "independent_receipts": [
+    {
+      "chunk_id": "702f1a",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "92162e",
+      "exit_code": 0
+    }
+  ],
+  "independent_reviewer": "/root/archive_repro_review",
+  "installation_admission": false,
+  "root_complete_reads": [
+    "03f0e2",
+    "ad61c8"
+  ],
+  "schema": "ri219-root-preparation-source-review-v1",
+  "scope": "Whole draft read, exact seven bootstrap substitutions, external source/host pins, raw bytes equality, exclusive nine administrative outputs and no active admission/dispatch.",
+  "source": {
+    "bytes": 16552,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/prepare_installation.py",
+    "sha256": "49373e6ccc56f6aed7101834f3d635cef5e8f04978dd5099656e89de86ddfc34"
+  },
+  "status": "ACCEPT_ADMINISTRATIVE_PREPARATION_SOURCE_ONLY"
+}

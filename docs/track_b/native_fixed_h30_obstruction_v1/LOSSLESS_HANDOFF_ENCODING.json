@@ -1,0 +1,18 @@
+{
+  "actual_failed_check": {
+    "chunk_id": "630e8c",
+    "exit_code": 1
+  },
+  "archive_path": "source/HANDOFF.md.gz",
+  "encoding": "gzip mtime=0",
+  "lossless": true,
+  "original": {
+    "bytes": 2304,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/HANDOFF.md",
+    "sha256": "196577e85ee09167a762cde87973830e8a4abd5dce79df900541a5aa07fe64ed"
+  },
+  "original_unchanged": true,
+  "reason": "Staged git diff --check630e8c reported the sealed original HANDOFF.md final blank line. Preserve all original bytes via deterministic gzip rather than changing sealed source or weakening whitespace checks.",
+  "relocated_execution_authorized": false,
+  "schema": "ri219-lossless-source-encoding-v1"
+}

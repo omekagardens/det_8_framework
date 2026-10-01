@@ -1,0 +1,89 @@
+{
+  "current_author_admin_failures": [],
+  "fixture_execution": false,
+  "genuine_tool_origin_external": true,
+  "prior_actual_preparation_failure": {
+    "bytes": 3723,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/PREPARATION_FAILURE_PARTIALS.json",
+    "sha256": "8ded6ca2d710b840b27d20fc5174a7710fde5d0aadd86e2d206e6c9c57c0be1d"
+  },
+  "prior_failure_event": {
+    "chunk_id": "cb9b00",
+    "exit_code": 1,
+    "origin": "Root-provided genuine failure attribution, not a new author execution"
+  },
+  "prior_installer_executed": false,
+  "qualification_credit": 0,
+  "receipts": [
+    {
+      "chunk_id": "d9b04e",
+      "exit_code": 0,
+      "kind": "assignment_and_supersession_authentication",
+      "scope": "Read and authenticate literal assignment2827/a72b9d4e and supersession1772/e8f50f5b; no target loading.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "517680",
+      "exit_code": 0,
+      "kind": "complete_predecessor_provenance_and_failure_read",
+      "scope": "Read complete retained failure and prior19 provenance rows.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "58b0a0",
+      "exit_code": 0,
+      "kind": "complete_predecessor_builder_read",
+      "scope": "Read predecessor administrative builder as text, without executing it.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "61b33d",
+      "exit_code": 0,
+      "kind": "reservation_read",
+      "scope": "List root administrative evidence and confirm empty assigned source reservation.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "710180",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/build_repair.py",
+      "exit_code": 0,
+      "kind": "administrative_source_build",
+      "result": {
+        "bytes": 2037,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/BUILD_METADATA.json",
+        "sha256": "d16c31a053b8f942fdb6582d149a99722a6016dec9cdaa474c1a67a67a2a0723"
+      },
+      "source": {
+        "bytes": 12995,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/build_repair.py",
+        "sha256": "13137b03c68884aaf353d8deb26061479c9056b1309e4c7ad2536877e93a7495"
+      },
+      "source_lines": {
+        "check_installation.py": 141,
+        "install_freeze.py": 237
+      },
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "87f168",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/admin_check.py",
+      "distinct_opaque_inputs": 849,
+      "exit_code": 0,
+      "kind": "administrative_opaque_and_literal_check",
+      "predicates": 5332,
+      "result": {
+        "bytes": 2628,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ADMIN_CHECK.json",
+        "sha256": "7797a0fabb8813afad620c0993215f27b12c0f592fc8d8b9a24104925975d8f2"
+      },
+      "source": {
+        "bytes": 9261,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/admin_check.py",
+        "sha256": "465b4d163f8340168e8407e53141545c76b15ddacfc2650795756612fba0b601"
+      },
+      "tool": "exec_command"
+    }
+  ],
+  "schema": "ri218-author-actual-administrative-receipts-v1",
+  "subject_execution": false
+}

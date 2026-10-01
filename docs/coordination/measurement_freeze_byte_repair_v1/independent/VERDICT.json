@@ -1,0 +1,58 @@
+{
+  "RET_paused": true,
+  "administrative_predicates": 14441,
+  "admission_issued": false,
+  "base_inputs": 806,
+  "blocking_findings": [],
+  "complete_inverse_projection": true,
+  "complete_source_read": true,
+  "distinct_input_union": 849,
+  "evidence": {
+    "bytes": 500356,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/CHECK_RESULT.json",
+    "sha256": "293093d9ba79da5eaa61d7774d063447601672e517737cae9d257dd112a21a84"
+  },
+  "exact_byte_repairs": 2,
+  "freeze_installed": false,
+  "narrative": {
+    "bytes": 10063,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/INDEPENDENT_REVIEW.md",
+    "sha256": "4c00195ebe424ee78eada4bf9cbc5fbc50b928a083cb15ca31620c9244fb1362"
+  },
+  "observed_whole_file_identities": 864,
+  "old_partials_and_E_unchanged": true,
+  "prior_authorship_disclosed": [
+    "Earlier WHITE/caller/runtime source including RI130 and RI141"
+  ],
+  "prior_operative_recommendation_superseded": true,
+  "prior_review_miss_acknowledged": true,
+  "prospective_source_domain": 857,
+  "qualification_credit": 0,
+  "receipts": {
+    "bytes": 2902,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/ACTUAL_REVIEW_RECEIPTS.json",
+    "sha256": "502982d256e1458998a9ea65a7653d7687cc0a52e3647ba95a2e14e105dfb2e6"
+  },
+  "recommendation": "ACCEPT_EXACT_RI218_BYTE_REPAIR_SOURCE_ONLY",
+  "repair_rows": 43,
+  "required": [
+    "Root exact source adjudication",
+    "Fresh corrected root preparation and complete concrete preflight review",
+    "Separate real admission and monitored installation",
+    "Independent complete actual outcome and custody review before root acceptance"
+  ],
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri218-independent-source-verdict-v1",
+  "source_and_control_execution": false,
+  "source_manifest": {
+    "bytes": 1368,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_PINS.json",
+    "sha256": "de91cbd42647e012c7f900dbff1355691986f6e6a8b1622c2ff9216c1f7dd443"
+  },
+  "subject_author": "/root/ri116_complete_caller_review",
+  "subject_handoff": {
+    "bytes": 8207,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/HANDOFF.json",
+    "sha256": "bd62168cf3cb2fe468f7488a140ad98f9dc433c21b3ad17d642ba29623acbeb1"
+  }
+}

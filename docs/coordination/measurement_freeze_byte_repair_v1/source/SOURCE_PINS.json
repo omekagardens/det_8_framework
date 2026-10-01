@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 27883,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/PROTOCOL.md",
+      "sha256": "0c9a43bc57a57852c7e86e0784acfffef69a0b733b6667ab861f41c103d7ee6e"
+    },
+    {
+      "bytes": 13250,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "10ae3a2ad92ff6e753ef18a118ef6ea0829ed7880aa637660e543c63ebeb601e"
+    },
+    {
+      "bytes": 22819,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/check_installation.py",
+      "sha256": "d34eaff2a893d78274b2bfd64d1458cda5c8937b8177f49e72e18354ad61b234"
+    },
+    {
+      "bytes": 19877,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py",
+      "sha256": "400c40de09f7519ddf453bf2db44893ac54f6d077727e56b53ef5e3ce70526f7"
+    }
+  ],
+  "schema": "ri209-proposal-source-pins-v1",
+  "status": "SOURCE_ONLY_NOT_ADMISSION"
+}

@@ -1,0 +1,82 @@
+{
+  "author_final_receipt": {
+    "attribution": "author external report, not independent replay",
+    "chunk_id": "4e49da",
+    "exit_code": 0
+  },
+  "automatic_proof_arithmetic": false,
+  "diagnostic": "Initial keyword display f03409 clipped embedded checker; complete subsequent reads recovered it. rho bound source query resolved by own read4f6607.",
+  "findings": [
+    "Complete-row determinant cancellation, K>1/5500 and all signs independently checked manually.",
+    "Common omega gives exact whole-product DeltaN cancellation including zero/tied branches.",
+    "Inherited positive quadratic sign premises and explicit RI187 rho<Z6<1/8 yield full q floor.",
+    "All-ideal floor and both complete B2 terms retained; C2 normalized gap<-47/12000 and C3>0.",
+    "Necessary T2 failure rejects only the unchanged H30 candidate conditional on named finite-law premises."
+  ],
+  "metadata": {
+    "boundary_objects": 15,
+    "current_files": 6,
+    "direct_bytes": 611960,
+    "direct_files": 23,
+    "inherited423_by_reference": true,
+    "predecessor_files": 6
+  },
+  "own_tool_receipts": [
+    {
+      "chunk_id": "db1a7b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "357cee",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "dcc786",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e1382b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "07be19",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f68eb6",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "3b7668",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "4f6607",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "3b994d",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ddc6ae",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "01d07a",
+      "exit_code": 0
+    }
+  ],
+  "qualification_credit": 0,
+  "reviewer": "/root/qr_opportunities",
+  "schema": "root-recorded-independent-proof-review-v1",
+  "scientific_execution": false,
+  "source": "Independent reviewer message received in this root thread; not a root tool replay",
+  "status": "RECOMMEND_ACCEPT_FIXED_H30_OBSTRUCTION",
+  "subject": {
+    "bytes": 11652,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/HANDOFF.json",
+    "sha256": "9c9a57dfa8c880574fe3a80d7d5fe995b2b40a0824186bfe1e5c43caebc917e0"
+  },
+  "writes": false
+}

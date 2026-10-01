@@ -1,0 +1,44 @@
+{
+  "RET_paused": true,
+  "assignment": {
+    "bytes": 11916,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI220_NATIVE_ASSIGNMENT.json",
+    "sha256": "d2150c752fe33eaab152fb656d4ad2852e7b266e5a2047bbb65d58f9ae7849f9"
+  },
+  "automatic_scientific_arithmetic": false,
+  "execution_admitted": false,
+  "inherited_manifest": {
+    "bytes": 393074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+    "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+  },
+  "inherited_match": {
+    "access_policy": "text-reading-and-opaque-identity-no-execution",
+    "classification": "analytic-source-text-or-review",
+    "identity": {
+      "bytes": 10435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+      "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a",
+      "symlinks": []
+    },
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+    "reference_provenance": [
+      "Complete sealed p127 packet",
+      "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json"
+    ],
+    "role": "dep_0030"
+  },
+  "purpose": "Read exact original T1 recovery, other-parent and fiveDi affine equations10-13 to identify compatibility for the separate amplitude family.",
+  "qualification_credit": 0,
+  "reference": {
+    "bytes": 10435,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+    "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1",
+  "schema": "ri220-shared-affine-literal-admission-v1",
+  "scientific_body_admission": false,
+  "status": "ADMIT_EXACT_EXISTING_ANALYTIC_TEXT_ONLY",
+  "typed_reference_expansion": false
+}

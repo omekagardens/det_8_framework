@@ -1,6 +1,58 @@
 **DET independent-review implementation and QR coordination**
 
-**Current follow-through — fixed coefficient witness accepted; installer byte repair active.**
+**Current follow-through — fixed H30 candidate rejected; byte repair accepted and preparation completed.**
+30 September 2026 Honolulu (1 October UTC). Root and a separate nonauthor
+accept RI216's conditional finite-law obstruction: K>1/5500>0 and
+C3>0, but **(3m0/r)C2<-47/12000<0** at the original correlated pair.
+The necessary T2 strict interval is empty. This rejects the unchanged
+H30 candidate with its original lower law, normalized seed and amplitude1/4.
+It does not reject every continuation, the lower seed, DET, QM or physics.
+
+The exact common-omega combination cancels the full canonical DeltaN
+terms, including zero/tied branches. The inherited positive quadratic
+decomposition yields q(rho)>theta*D/176 with accepted D=9/1000.
+Both original B2 terms are retained, using the complete H5 row and the
+all-ideal floor9/681472. Root replay4e431b passed29 whole identities,
+38 selected references and two six-file namespaces; the separate reviewer
+independently checked the algebra and direct sources. Inherited finite
+sign premises remain explicit; no scientific execution or new qualification
+credit follows. Evidence: `docs/track_b/native_fixed_h30_obstruction_v1/`.
+
+After adjudication, RI220 was dispatched to the existing QR chat in
+`ri220-native-amplitude-range-9eljeyc1/`. It derives the exact strict local
+amplitude range for a separately labelled candidate family on the same
+lower law and normalized seed, then identifies shared affine compatibility.
+The original1/4 rejection stays immutable. One exact inherited RI127
+analytic text, RESULT.md, was separately admitted for its shared equations;
+no scientific-body or execution authority was added. Active work is excluded.
+
+Measurement's RI218 byte repair passed complete root and nonauthor source
+review. Both raw-byte comparisons now use direct equality; JSON semantics,
+clock handling, all eight tails and original bounds remain unchanged.
+Independent check6ffbe1 passed14,441 metadata predicates/864 identities;
+the exact input union has849 paths and the prospective closure857.
+Root replay5947cf passed5,332 predicates. An earlier root reporting-wrapper
+NameError after saving its result is preserved separately, with its fixed
+replay. It was not installer execution. Historical RI213 acceptance stays
+superseded and all earlier partials and E's48 files/nine directories remain.
+
+Corrected preparation was then independently source-reviewed and actually
+completed: fresh host00c800, initial7f1c8b, terminal633d20 exit0.
+It created nine administrative artifacts, empty controls and an unissued
+installation proposal. **No installation or admission occurred.** The
+concrete generated bootstrap/preflight review is active; fresh predispatch
+custody and separate one-operation admission precede actual installation.
+Complete outcome review precedes normal mode, then optimized. Existing
+WHITE/RI131/full32 and public GWOSC conventional reproduction remain open.
+Evidence: `docs/coordination/measurement_freeze_byte_repair_v1/`.
+
+The preceding checkpoint d5f2a17edd2b5529f460c20febace16f490f3bd6 was
+verified on live origin/ret. Only reviewed, source-stable work is included.
+Unrelated edits and protected historical results remain intact. RET alone
+is paused. No user decision is required; native proof and measurement
+qualification remain active and the broader programme is not complete.
+
+**Prior checkpoint — fixed coefficient witness accepted; installer byte repair active.**
 30 September 2026 Honolulu (1 October UTC). Root and a separate nonauthor
 have independently inspected the exact original certificate under the
 new four-root manual admission. Roots (78,7,0), (78,7,1), (206,7,0),

@@ -1,0 +1,73 @@
+{
+  "command": [
+    "/opt/homebrew/bin/node",
+    "-e",
+    "<exact retained metadata checker>",
+    "final6"
+  ],
+  "exact_checker_field": "administrative_checker.literal_source",
+  "mathematical_acceptance": false,
+  "result": {
+    "automated_proof_arithmetic": false,
+    "current_namespace": 6,
+    "current_payloads": [
+      {
+        "bytes": 46420,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/AUTHOR_VERIFICATION.json",
+        "sha256": "c90891ad0007e21aea44abae1d18f7c9f6dde2bf6f36b3ae49f7c6e059ee19e8"
+      },
+      {
+        "bytes": 10631,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/COUPLED_MARGIN.md",
+        "sha256": "289b1f757a32254b7df30065181d156142aebeae2b5ca4b42bb4c2b8250b319c"
+      },
+      {
+        "bytes": 9073,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/DETERMINANT_SIGN.md",
+        "sha256": "6ebed197d1872d9767ffad43b80f20c4d1523f4b541848898f33a4f76086f155"
+      },
+      {
+        "bytes": 11652,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/HANDOFF.json",
+        "sha256": "9c9a57dfa8c880574fe3a80d7d5fe995b2b40a0824186bfe1e5c43caebc917e0"
+      },
+      {
+        "bytes": 2304,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/HANDOFF.md",
+        "sha256": "196577e85ee09167a762cde87973830e8a4abd5dce79df900541a5aa07fe64ed"
+      },
+      {
+        "bytes": 40023,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/SOURCE_REFERENCES.json",
+        "sha256": "2df6340e2d7b8d96b0da80a9969880b96a401a927d9a3b852910f58068f0b586"
+      }
+    ],
+    "declared_local_Markdown_targets": "all-present",
+    "direct_bytes": 611960,
+    "direct_sources": 23,
+    "explicit_selected_reference_checks": 38,
+    "fresh_inherited423_or_previous_source_collection_replay": false,
+    "historical_stat_compared": false,
+    "inherited423_manifest_by_reference": true,
+    "inherited_boundary_objects_preserved": 15,
+    "new_analytic_matches": 2,
+    "one_literal_scientific_exception_bound": true,
+    "original_six_and_two_admissions": "by-reference unchanged",
+    "predecessor_namespace": 6,
+    "schema": "ri216-compact-administrative-check-v1",
+    "scientific_body_JSON_parsed": false,
+    "stage": "final6",
+    "status": "IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE",
+    "subject_execution": false,
+    "whole_identity_fresh_rechecks": 29
+  },
+  "returncode": 0,
+  "schema": "root-ri216-metadata-replay-v1",
+  "source": {
+    "bytes": 46420,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/AUTHOR_VERIFICATION.json",
+    "sha256": "c90891ad0007e21aea44abae1d18f7c9f6dde2bf6f36b3ae49f7c6e059ee19e8"
+  },
+  "stderr": "",
+  "stdout": "{\n  \"schema\": \"ri216-compact-administrative-check-v1\",\n  \"status\": \"IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE\",\n  \"stage\": \"final6\",\n  \"direct_sources\": 23,\n  \"direct_bytes\": 611960,\n  \"inherited423_manifest_by_reference\": true,\n  \"fresh_inherited423_or_previous_source_collection_replay\": false,\n  \"inherited_boundary_objects_preserved\": 15,\n  \"original_six_and_two_admissions\": \"by-reference unchanged\",\n  \"new_analytic_matches\": 2,\n  \"one_literal_scientific_exception_bound\": true,\n  \"scientific_body_JSON_parsed\": false,\n  \"historical_stat_compared\": false,\n  \"explicit_selected_reference_checks\": 38,\n  \"predecessor_namespace\": 6,\n  \"current_namespace\": 6,\n  \"whole_identity_fresh_rechecks\": 29,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/AUTHOR_VERIFICATION.json\",\n      \"bytes\": 46420,\n      \"sha256\": \"c90891ad0007e21aea44abae1d18f7c9f6dde2bf6f36b3ae49f7c6e059ee19e8\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/COUPLED_MARGIN.md\",\n      \"bytes\": 10631,\n      \"sha256\": \"289b1f757a32254b7df30065181d156142aebeae2b5ca4b42bb4c2b8250b319c\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/DETERMINANT_SIGN.md\",\n      \"bytes\": 9073,\n      \"sha256\": \"6ebed197d1872d9767ffad43b80f20c4d1523f4b541848898f33a4f76086f155\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/HANDOFF.json\",\n      \"bytes\": 11652,\n      \"sha256\": \"9c9a57dfa8c880574fe3a80d7d5fe995b2b40a0824186bfe1e5c43caebc917e0\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/HANDOFF.md\",\n      \"bytes\": 2304,\n      \"sha256\": \"196577e85ee09167a762cde87973830e8a4abd5dce79df900541a5aa07fe64ed\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/SOURCE_REFERENCES.json\",\n      \"bytes\": 40023,\n      \"sha256\": \"2df6340e2d7b8d96b0da80a9969880b96a401a927d9a3b852910f58068f0b586\"\n    }\n  ],\n  \"declared_local_Markdown_targets\": \"all-present\",\n  \"automated_proof_arithmetic\": false,\n  \"subject_execution\": false\n}\n"
+}
