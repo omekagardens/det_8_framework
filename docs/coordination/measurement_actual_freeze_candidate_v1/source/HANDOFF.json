@@ -1,0 +1,132 @@
+{
+  "E_modified": false,
+  "actual_author_check": {
+    "distinct_pinned_inputs": 759,
+    "exit_code": 0,
+    "predicates": 5392,
+    "required_consumer_read_pins": 153,
+    "tool": "08bdaa"
+  },
+  "admissions_or_cards_issued": false,
+  "assignment": {
+    "bytes": 1206,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI206_MEASUREMENT_ASSIGNMENT.json",
+    "sha256": "b49598fec8fb8c829af3d1ab20f6269419d442b735981e41dcada53d91e42641"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "candidate_contract": {
+    "current_prior_source_rows": 722,
+    "environment_fields": 10,
+    "evidence_refs": 4,
+    "historical_role_rows": 810,
+    "independent_adapter_tails": 7,
+    "modes": [
+      "normal",
+      "optimized"
+    ],
+    "operation_files": [
+      "ATTEMPT.json",
+      "RESULT.json",
+      "COMPLETE.json"
+    ],
+    "runs_per_mode_fields": 9,
+    "top_level_fields": 17
+  },
+  "exact_request": {
+    "bytes": 825,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/FREEZE_REQUEST.json",
+    "sha256": "51b909b39939e545938eaf7f4903ecd4ab52842025a1826c28ee08aeaf68e0c2"
+  },
+  "namespace": [
+    "AUTHORING_RECORD.json",
+    "AUTHOR_ADMIN_CHECK.json",
+    "CLOSURE_SEEDS.json",
+    "HANDOFF.json",
+    "PROPOSAL_NOTES.md",
+    "SOURCE_DIFF.patch",
+    "SOURCE_PINS.json",
+    "admin_check.py",
+    "check_freeze.py",
+    "generate_proposals.py",
+    "predispatch.py",
+    "prepare_freeze.py"
+  ],
+  "operational_proposals": [
+    "prepare_freeze.py",
+    "predispatch.py",
+    "check_freeze.py"
+  ],
+  "payloads": [
+    {
+      "bytes": 2032,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "5b41bec6b969c2066257e647ab43ec9dc6a776682f087cce0d7c35b4db5d569e"
+    },
+    {
+      "bytes": 1355,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/AUTHOR_ADMIN_CHECK.json",
+      "sha256": "59a481cd657fd7c2088bdf7f40ec6828a0ad185af3f95b3049f590c9c24bd6ad"
+    },
+    {
+      "bytes": 10348,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/CLOSURE_SEEDS.json",
+      "sha256": "1177344b3b26ca618c2155773ac0458375949bc53a81235b97245aa7d2cdc5a5"
+    },
+    {
+      "bytes": 9261,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/PROPOSAL_NOTES.md",
+      "sha256": "58067f320fc0de9402cd8e0ffe4b7663617802ee3b76c38659da139405d0e594"
+    },
+    {
+      "bytes": 43548,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "53f38415f409ebec856dbbe82863a23bbe0bdc29369ce8a8b1b27a438ca94238"
+    },
+    {
+      "bytes": 2564,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/SOURCE_PINS.json",
+      "sha256": "cba4e07237e82b8d3f17c716e69e4c57883cec3d2915821e01de4fd08d7f6028"
+    },
+    {
+      "bytes": 6408,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/admin_check.py",
+      "sha256": "049c1b4d7d70598aba1cf721c9cadc8288efe5424f1c204e75b4a3e3cbed912b"
+    },
+    {
+      "bytes": 19956,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/check_freeze.py",
+      "sha256": "a8e3d1971deb2a5bb77b660767a2f2a95f23693bf752d35f2af0f38d86851958"
+    },
+    {
+      "bytes": 18763,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/generate_proposals.py",
+      "sha256": "e89450f6c233888bfe8efc2b9233f1f816b07070e93fbb7c8fa20b8a9e0b737f"
+    },
+    {
+      "bytes": 3405,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/predispatch.py",
+      "sha256": "72d6d400682e8d661aaa84ae9a426876424efa74e575756866352b8f4f49fe19"
+    },
+    {
+      "bytes": 15552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/prepare_freeze.py",
+      "sha256": "4f972995db6154edb670a3110dff7fff2417e4a22d97f58a3c5731d8ddc52834"
+    }
+  ],
+  "predecessor": {
+    "bytes": 3842,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADAPTERS_ACCEPTANCE.json",
+    "sha256": "21929f3fcc989233cdc0a479f7f5319ddc5458163f569dee3907a1f1965edcf9"
+  },
+  "prior_adapter_and_proposal_authorship_disclosed": true,
+  "proposal_or_subject_executed": false,
+  "repository_modified": false,
+  "ret_paused": true,
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal",
+  "runtime_or_vendor_observation_performed": false,
+  "schema": "ri206-worker-source-only-handoff-v1",
+  "scientific_body_decoded": false,
+  "scope": "One future administrative freeze-candidate construction over unchanged RI160. No E installation or actual freeze authority here.",
+  "status": "READY_FOR_NONAUTHOR_REVIEW_NOT_ADMISSION",
+  "syntax_compile_or_import_performed": false
+}

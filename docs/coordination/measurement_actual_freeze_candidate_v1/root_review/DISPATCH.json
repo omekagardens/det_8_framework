@@ -1,0 +1,53 @@
+{
+  "actual_execution_not_yet_started": true,
+  "admission": {
+    "bytes": 2094,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/ADMIT_FREEZE_CANDIDATE.json",
+    "sha256": "200ddf33e3ed6af31574ad6f13665a29650e0fe688fd5a2968f9ddb54f463b85"
+  },
+  "bootstrap": {
+    "bytes": 2401,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/FREEZE_BOOTSTRAP.py",
+    "sha256": "ddc3b0f906130d036777250055bf1cc088c194dd888c76a4f9a20d9add54e319"
+  },
+  "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_",
+  "login": false,
+  "monitor_source": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  },
+  "outer_argv": [
+    "/usr/bin/env",
+    "-i",
+    "LC_ALL=C",
+    "MKL_NUM_THREADS=1",
+    "NUMEXPR_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "PATH=/usr/bin:/bin",
+    "TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/tmp",
+    "TZ=UTC",
+    "VECLIB_MAXIMUM_THREADS=1",
+    "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0",
+    "/usr/bin/perl",
+    "-e",
+    "$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;",
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/FREEZE_BOOTSTRAP.py"
+  ],
+  "preflight": {
+    "bytes": 3813,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "07c34546ff13eb218570e0e3f5467ae3e3305dc7d1b9148cce6f928981c5fb54"
+  },
+  "request": {
+    "bytes": 825,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/FREEZE_REQUEST.json",
+    "sha256": "51b909b39939e545938eaf7f4903ecd4ab52842025a1826c28ee08aeaf68e0c2"
+  },
+  "shell_command": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/FREEZE_BOOTSTRAP.py",
+  "single_attempt": true
+}

@@ -1,0 +1,43 @@
+{
+  "admission": {
+    "bytes": 2094,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/ADMIT_FREEZE_CANDIDATE.json",
+    "sha256": "200ddf33e3ed6af31574ad6f13665a29650e0fe688fd5a2968f9ddb54f463b85"
+  },
+  "bootstrap": {
+    "bytes": 2401,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/FREEZE_BOOTSTRAP.py",
+    "sha256": "ddc3b0f906130d036777250055bf1cc088c194dd888c76a4f9a20d9add54e319"
+  },
+  "checker_provenance": "Inline administrative source retained in actual tool call; no checker pathname.",
+  "dispatch": {
+    "bytes": 2669,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/DISPATCH.json",
+    "sha256": "6b4f540ec169ee7412350f5ad06c1c5689e35f5a2e23c39ab7abe884231155c3"
+  },
+  "failed_commands": [],
+  "fresh_vendor_execution": false,
+  "preflight": {
+    "bytes": 3813,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "07c34546ff13eb218570e0e3f5467ae3e3305dc7d1b9148cce6f928981c5fb54"
+  },
+  "prior_authorship": "RI130/RI141, not current proposal; original independently accepted semantics remain inherited.",
+  "readiness_check": "4d9f01 exit0 before preparation",
+  "reads": [
+    "b43a87 exit0"
+  ],
+  "ret_paused": true,
+  "reviewer": "/root/archive_repro_review",
+  "root_concrete_read": "381708 exit0",
+  "schema": "ri206-independent-concrete-preflight-review-v1",
+  "scientific_execution": false,
+  "scope": "Complete reconstructed12-field admission,dispatch,preflight,supplement; exact request and three cards,bootstrap literal,environment and limits; exact764source closure freshly rehashed,all810historic roles,saved1810vendor/195namespace/E48file observations; absent operation and freeze/mode paths.",
+  "status": "PASS_BEFORE_ROOT_FRESH_PREDISPATCH",
+  "tool": {
+    "chunk": "884eb4",
+    "exit_code": 0,
+    "fresh_source_identities": 764,
+    "predicates": 1763
+  }
+}

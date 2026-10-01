@@ -1,0 +1,360 @@
+{
+  "author_diagnostic_and_phases_retained": true,
+  "automatic_proof_arithmetic": false,
+  "current_namespace": 6,
+  "current_payloads": 6,
+  "direct_bytes": 543096,
+  "direct_sources": 15,
+  "fresh_identities": [
+    {
+      "bytes": 7882,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.json",
+      "sha256": "cb9c07c5715b4c5b7aa0b610aa642ffc45c6c93fc8dc1996d67205b1a64a4afe",
+      "state": [
+        16777244,
+        422997,
+        33188,
+        1,
+        7882,
+        1790822566398770490,
+        1790822566398770490
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 24386,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/AUTHOR_VERIFICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/AUTHOR_VERIFICATION.json",
+      "sha256": "87de64a85294a2ebc17d9207e276513d905fd5286ed80653713e8c8bd2b0a97b",
+      "state": [
+        16777244,
+        422996,
+        33188,
+        1,
+        24386,
+        1790822524132732940,
+        1790822524132732940
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13642,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_MAXIMA.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_MAXIMA.md",
+      "sha256": "a154b885c894a4064022d0a0b7aae6a283687559a5b737aab5e86ad699bc5283",
+      "state": [
+        16777244,
+        422973,
+        33188,
+        1,
+        13642,
+        1790822274852205912,
+        1790822274852205912
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11610,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_OMISSION_LEMMA.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_OMISSION_LEMMA.md",
+      "sha256": "4a77624af1fa95febc727e180071a48dfd0f2792ea9bb6ea49909b210bc8e798",
+      "state": [
+        16777244,
+        422974,
+        33188,
+        1,
+        11610,
+        1790822274852862415,
+        1790822274852862415
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2482,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.md",
+      "sha256": "72d9c189c4c66d7d9f195ecf51aa0bc92b55627f449e5cc449abe385695614c9",
+      "state": [
+        16777244,
+        422989,
+        33188,
+        1,
+        2482,
+        1790822377476183832,
+        1790822377476183832
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 26710,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/SOURCE_REFERENCES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/SOURCE_REFERENCES.json",
+      "sha256": "a488f9a22449d6f2649279045e3d843b2d3634add225720473ad4df2b8374f80",
+      "state": [
+        16777244,
+        422988,
+        33188,
+        1,
+        26710,
+        1790822377475733663,
+        1790822377475733663
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 393074,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d",
+      "state": [
+        16777244,
+        421843,
+        33188,
+        1,
+        393074,
+        1790816479510410165,
+        1790816479510410165
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 12913,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md",
+      "sha256": "64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0",
+      "state": [
+        16777244,
+        422395,
+        33188,
+        1,
+        12913,
+        1790819093817297864,
+        1790819093817297864
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1133,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_INHERITED_SCALAR_CLARIFICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_INHERITED_SCALAR_CLARIFICATION.json",
+      "sha256": "96bf213de5659149f11ecfdd9650361909004699f12b97dd043eedac553d73e3",
+      "state": [
+        16777244,
+        422662,
+        33188,
+        1,
+        1133,
+        1790820489855958476,
+        1790820489855958476
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 25772,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/AUTHOR_VERIFICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/AUTHOR_VERIFICATION.json",
+      "sha256": "3cd1dc24adadbdcb946037064cde1a684875b378bb411df466b2dcb6b929f69a",
+      "state": [
+        16777244,
+        422889,
+        33188,
+        1,
+        25772,
+        1790821103007600834,
+        1790821103007600834
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10284,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/DENOMINATOR_LEMMA.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/DENOMINATOR_LEMMA.md",
+      "sha256": "d466e1c13cf99583b2ea7ef269938993b46fdafec02ad6311a3fc4150124720c",
+      "state": [
+        16777244,
+        422865,
+        33188,
+        1,
+        10284,
+        1790820844422149788,
+        1790820844422149788
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6708,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/HANDOFF.json",
+      "sha256": "bba9a2e36c9bfff8b456c8d1f4d0fac5b189ba6008a173251f891cea608cda9c",
+      "state": [
+        16777244,
+        422893,
+        33188,
+        1,
+        6708,
+        1790821145557162416,
+        1790821145557162416
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2294,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/HANDOFF.md",
+      "sha256": "f17dd5031031547a412ad97efa9a83502ebb8187968292cb381bf538dbcab062",
+      "state": [
+        16777244,
+        422887,
+        33188,
+        1,
+        2294,
+        1790820818547281234,
+        1790820818547281234
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 25319,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/SOURCE_REFERENCES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/SOURCE_REFERENCES.json",
+      "sha256": "1a713c2feb6cbeecca5b65f1768bdf7b737acdece6eb762851d4868eee90a3d4",
+      "state": [
+        16777244,
+        422888,
+        33188,
+        1,
+        25319,
+        1790820945444191017,
+        1790820945444191017
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11125,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/THREE_MAXIMA.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/THREE_MAXIMA.md",
+      "sha256": "10008e3ccbe7a596daf811e75d0812c7b27aac805e93dbfdb9dcce8cc76f5c60",
+      "state": [
+        16777244,
+        422886,
+        33188,
+        1,
+        11125,
+        1790820844422846877,
+        1790820844422846877
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2333,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_ADJUDICATION.json",
+      "sha256": "1686534e3f8e5ca01d8954b9ba60d2c74c1d52f4b1fd43cb183942cdc1665db2",
+      "state": [
+        16777244,
+        422912,
+        33188,
+        1,
+        2333,
+        1790821463588606529,
+        1790821463588606529
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11484,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_METADATA_CHECK.json",
+      "sha256": "91f2ee952dee6d09d6241e56937af3bbf1caa848f1d5a348636da870f2d15688",
+      "state": [
+        16777244,
+        422909,
+        33188,
+        1,
+        11484,
+        1790821352176011283,
+        1790821352176011283
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4450,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_PROOF_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_PROOF_REVIEW.md",
+      "sha256": "c49c81a232d6ecde6e80b5a6d3f27773648e59214b69e77af820a1e5abe54f96",
+      "state": [
+        16777244,
+        422911,
+        33188,
+        1,
+        4450,
+        1790821463587117725,
+        1790821463587117725
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2862,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI205_NATIVE_ASSIGNMENT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI205_NATIVE_ASSIGNMENT.json",
+      "sha256": "eb3dac590579291b819c8e9216553dc23bd1d8528883b5e800de5d24e3be4ae6",
+      "state": [
+        16777244,
+        422914,
+        33188,
+        1,
+        2862,
+        1790821463589283618,
+        1790821463589283618
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 17102,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+      "state": [
+        16777244,
+        375356,
+        33188,
+        1,
+        17102,
+        1790238943865834871,
+        1790238943865834871
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16243,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+      "state": [
+        16777244,
+        373286,
+        33188,
+        1,
+        16243,
+        1790220062695783766,
+        1790220062695783766
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "fresh_inherited_replay": false,
+  "handoff": {
+    "bytes": 7882,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.json",
+    "sha256": "cb9c07c5715b4c5b7aa0b610aa642ffc45c6c93fc8dc1996d67205b1a64a4afe"
+  },
+  "inherited423_previous26_previous18_by_reference": true,
+  "inherited_boundary_objects": 15,
+  "predecessor_namespace": 6,
+  "schema": "ri207-independent-ri205-metadata-v1",
+  "scientific_body_decoded": false,
+  "selected_references": 29,
+  "status": "PASS_METADATA_NOT_MATHEMATICAL_EXECUTION",
+  "subject_execution": false
+}

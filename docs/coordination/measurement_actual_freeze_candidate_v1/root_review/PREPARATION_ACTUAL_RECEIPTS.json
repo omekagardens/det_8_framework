@@ -1,0 +1,37 @@
+{
+  "actual_arguments": {
+    "cmd": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/prepare_freeze.py",
+    "justification": "May I run the independently reviewed administrative preparation once, creating fresh custody records and the single RI206 freeze-candidate admission outside the repository?",
+    "max_output_tokens": 2500,
+    "sandbox_permissions": "require_escalated",
+    "yield_time_ms": 1000
+  },
+  "actual_result": {
+    "chunk_id": "d7cb74",
+    "exit_code": 0,
+    "original_token_count": 112,
+    "output": "{\"status\": \"PREPARED_FOR_INDEPENDENT_PREFLIGHT_REVIEW\", \"root\": \"/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_\", \"sources\": 764, \"vendor_files\": 1810, \"vendor_bytes\": 48024515, \"namespace\": 195, \"E_files\": 48, \"dispatch\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/DISPATCH.json\", \"bytes\": 2669, \"sha256\": \"6b4f540ec169ee7412350f5ad06c1c5689e35f5a2e23c39ab7abe884231155c3\"}}\n",
+    "wall_time_seconds": 1.2667e-05
+  },
+  "initial_result": {
+    "chunk_id": "d2ac36",
+    "original_token_count": 0,
+    "output": "",
+    "session_id": 68756,
+    "wall_time_seconds": 1.002195375
+  },
+  "root_concrete_preflight_read": "381708",
+  "root_full_source_reads": [
+    "5fbb2c",
+    "343c5d",
+    "32493a"
+  ],
+  "root_source_decision_chunk": "de2899",
+  "schema": "ri206-actual-preparation-tools-v1",
+  "terminal_arguments": {
+    "chars": "",
+    "max_output_tokens": 3000,
+    "session_id": 68756,
+    "yield_time_ms": 1000
+  }
+}

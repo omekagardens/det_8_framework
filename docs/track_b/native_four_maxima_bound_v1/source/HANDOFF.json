@@ -1,0 +1,131 @@
+{
+  "schema": "ri205-native-four-maxima-handoff-v1",
+  "status": "COMPLETE_FOUR_MAXIMA_CLASS_THEOREM_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI205_NATIVE_ASSIGNMENT.json",
+    "bytes": 2862,
+    "sha256": "eb3dac590579291b819c8e9216553dc23bd1d8528883b5e800de5d24e3be4ae6"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_ADJUDICATION.json",
+    "bytes": 2333,
+    "sha256": "1686534e3f8e5ca01d8954b9ba60d2c74c1d52f4b1fd43cb183942cdc1665db2"
+  },
+  "scalar_clarification": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_INHERITED_SCALAR_CLARIFICATION.json",
+    "bytes": 1133,
+    "sha256": "96bf213de5659149f11ecfdd9650361909004699f12b97dd043eedac553d73e3"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "FOUR_MAXIMA.md",
+    "FOUR_OMISSION_LEMMA.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/AUTHOR_VERIFICATION.json",
+      "bytes": 24386,
+      "sha256": "87de64a85294a2ebc17d9207e276513d905fd5286ed80653713e8c8bd2b0a97b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_MAXIMA.md",
+      "bytes": 13642,
+      "sha256": "a154b885c894a4064022d0a0b7aae6a283687559a5b737aab5e86ad699bc5283"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_OMISSION_LEMMA.md",
+      "bytes": 11610,
+      "sha256": "4a77624af1fa95febc727e180071a48dfd0f2792ea9bb6ea49909b210bc8e798"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.md",
+      "bytes": 2482,
+      "sha256": "72d9c189c4c66d7d9f195ecf51aa0bc92b55627f449e5cc449abe385695614c9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/SOURCE_REFERENCES.json",
+      "bytes": 26710,
+      "sha256": "a488f9a22449d6f2649279045e3d843b2d3634add225720473ad4df2b8374f80"
+    }
+  ],
+  "theorem": "Every actual marked six-parent with exactly four maxima satisfies U6<4+6K+64K^2+1/128<369664456005<370000000000<465000000000<T, K=681472/9, on the named unchanged finite-prefix premises.",
+  "retained_cap_lemma": "For each retained cap i and S=A+i with E_i subset A, q_ij(S)q_ik(S)q_il(S)>=q_i(S)epsilon^2/16. Original coverage is used explicitly; the omitted precursors are not assumed to cover retained i.",
+  "finite_support_lemma": "Every proper parent-five birth ending in a six-event terminal with at least four maxima has canonical boundary coefficient zero and actual probability theta*u5, conditional on RI63 everywhere-neutral active support.",
+  "four_omission_lemma": "The exact fifteen-factor all-four omission sector includes all extra old maxima in every u5. Coverage bounds their full correction product by243*110^7; exact cancellation and the literal size-three floor give C4<=theta^4*243*110^15<1/128.",
+  "proof_steps": [
+    "Complete marked domain on two-event chain/antichain base and all four covering precursors. Exact omission identity U6=4-L+sum six C2+sum four C3+C4 with0<L<4.",
+    "Use all-ideal four-parent floor for each C2<K, including full denominator. Prove retained-cap variant and actual strict subrow sums for each C3<16K^2.",
+    "A Ferrers cell order with four maxima needs at least10 cells. Every six-terminal with at least four maxima has an original maximum absent from a largest Ferrers induced suborder; restoring it raises defect. A marked ordinary diamond joins its role to any proper role of the same terminal.",
+    "RI63 support then gives exact theta restoration for all four size-five factors in C4, without discarding the canonical mixture in other sectors.",
+    "Expand every extra-old-maxima correction. Keep all singleton/double old deletions and all eight cap subsets. Original coverage limits old-max occurrences across the four triples to at most two.",
+    "Derive q1>=1/3 and all-ideal q3>=1/110 from literal seed rows and complements; bound full correction product, cancel identical factors and sum complete B^3 row.",
+    "Strengthen only manual arithmetic from the accepted native M5 witness to M5>5b and unchanged T>465b. Printed numeric M5 remains unused. Final total <370b."
+  ],
+  "inherited_premises_not_fresh_verification": [
+    "RI41 all-four-parent ideal floor9/681472 including full, and scalar coefficient minimum1/8 used only at proper four-parent slots.",
+    "Literal fixed one-through-three-parent seed formulas and empty-parent probability1; all original marks remain.",
+    "RI63 accepted finite theorem that every active canonical parent-five component is everywhere defect-neutral; arbitrary-vertex Ferrers defect and complete marked ordinary diamonds.",
+    "Unchanged strictly positive complete canonical mixture with theta=1/[72(1+M5)].",
+    "RI201 native M5>(3/4)^5*11^10 and RI199 unchanged T>(468/5)(1+M5)-1/2; printed numerical M5 unused."
+  ],
+  "manual_analysis_only": true,
+  "complete_four_maxima_class_bound_proved": true,
+  "global_M6_bound_proved": false,
+  "actual_W_decided": false,
+  "both_individual_margins_or_H30_proved": false,
+  "five_and_six_maxima_settled": false,
+  "concrete_violating_parent_proved": false,
+  "printed_numerical_M5_used": false,
+  "new_scientific_body_or_vector_read": false,
+  "automated_proof_arithmetic_or_subject_execution": false,
+  "qualification_credit": false,
+  "repository_or_Git_written": false,
+  "ret_paused": true,
+  "remaining": "Five/six-maxima classes remain outside this theorem. Global M6, actual W, both margins, H30 and physical correspondence remain open. No successor proposed.",
+  "provenance_scope": {
+    "direct_sources": 15,
+    "direct_bytes": 543096,
+    "inherited423_manifest_by_reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "fresh423_or_previous_source_collections_replay": false,
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_complete_namespace": 6
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "0a19b6",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 19,
+      "explicit_selected_reference_checks": 26
+    },
+    "author_record": {
+      "chunk_id": "1995bc",
+      "exit_code": 0
+    },
+    "failed_current_commands_or_patches": 0,
+    "current_diagnostic": "Initial read-only workspace status output clipped; no proof-source or namespace reliance, no Git/index mutation. Proof and source reads complete. Full disclosure in AUTHOR_VERIFICATION.json.",
+    "all_historical_diagnostics_preserved_by_reference": true
+  },
+  "final_check_policy": "Run the retained administrative checker in final6 mode after this file exists. Report actual receipt and handoff identity externally. No future check or internal self-hash is claimed.",
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stopping_rule": "Stop for root independent review and separately owned publication. No new class, scientific execution, fixture/runtime/card, new agent/thread or RET continuation."
+}

@@ -1,0 +1,11 @@
+{
+  "action": "freeze",
+  "admission": {
+    "bytes": 2094,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/ADMIT_FREEZE_CANDIDATE.json",
+    "sha256": "200ddf33e3ed6af31574ad6f13665a29650e0fe688fd5a2968f9ddb54f463b85"
+  },
+  "no_retry": true,
+  "schema": "ri156-exclusive-metadata-attempt-v1",
+  "scientific_execution": false
+}

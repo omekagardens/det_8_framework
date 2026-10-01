@@ -1,0 +1,22 @@
+{
+  "schema": "ri207-ri210-dispatch-v1",
+  "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI210_NATIVE_ASSIGNMENT.json",
+    "bytes": 4167,
+    "sha256": "24a8b502e3b65457f5d713f4904cba57d73742b86b7861c09d6eef688baa79a8"
+  },
+  "sent_after_root_adjudication": true,
+  "actual_tool": "mcp__codex_app__send_message_to_thread",
+  "actual_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a074c4-4b09-76a3-8cb2-0caf116f6b9c\"}"
+      }
+    ],
+    "isError": false
+  },
+  "scope": "Complete assignment and exact predecessor sent; reuse RI185 six-antichain classification, new upper comparison and only conditional global/weighted consequence. No preacceptance.",
+  "ret_paused": true
+}

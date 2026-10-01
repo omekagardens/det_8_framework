@@ -1,6 +1,97 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — complete three-maxima theorem and actual adapters.**
+**Current checkpoint — complete four/five-maxima theorems and actual freeze candidate.**
+1 October 2026 UTC (30 September in Honolulu). RI205 is independently
+accepted under its named finite-prefix premises: every marked six-parent
+with exactly four maxima satisfies
+U6<4+6K+64K^2+1/128<369,664,456,005<370 billion<T,
+K=681472/9. The same native witness gives T>465 billion without using the
+printed maximum or a canonical vector as a numerical operand.
+
+The complete proof retains all precursor ideals, records and shared
+canonical factors. A selected-ideal coverage lemma handles the triple
+sectors. The new Ferrers support lemma removes only the canonical boundary
+term in the four-omission sector; positive theta restoration remains.
+Corrections for older events becoming maximal after deletion are included.
+Root and a separate nonauthor manually reviewed the argument and its named
+RI41/RI63 premises. Root metadata990fe0 exit0 checks15 direct sources,
+six sealed files,29 selected references,both namespaces and15 preserved
+boundary objects. Inherited423/26/18 collections remain references, not a
+new finite replay. The author preseal/final checks and all diagnostics
+retain their actual attribution. See
+`docs/track_b/native_four_maxima_bound_v1/`.
+
+RI208 also passed root and independent nonauthor review in this checkpoint.
+Every marked six-parent with five maxima satisfies
+U6<5+10K+80K^2+11/256<462,080,760,006<463 billion<465 billion<T.
+The selected-pair coverage argument gives the stronger epsilon^2/8
+triple denominator; complete eight/sixteen-factor old-maximum corrections
+and all positive restoration terms remain. Both base ideals and every
+marked occurrence are retained. Root metadata75e78f exit0 checks14direct
+sources/537440bytes,20whole identities,28references,six-file namespaces
+and15preserved boundaries. Full author-checker review distinguishes
+preseal500385 from externally reported final56764b. All author phases and
+diagnostics remain. See `docs/track_b/native_five_maxima_bound_v1/`.
+
+One through five maxima are now settled against T. After adjudication,
+RI210 was assigned to the existing QR task in the exclusive
+`ri210-native-six-maxima-leicoenm/` reservation. It reuses accepted RI185's
+complete antichain classification for the remaining six-maxima upper
+comparison. Only after closing that class may it combine the exhaustive
+bounds and derive the precise RI199 weighted-W consequence. No global
+bound or weighted sign is preaccepted. Both individual margins,H30 and
+physical correspondence remain separate. The native proof lane is active;
+all original executable qualifications stay required and uncredited.
+
+Measurement has completed one actual unchanged RI160 freeze construction:
+exec0c8349 exit0, synchronous and empty output; fresh predispatcha65228
+and complete root postcheckd2da10 passed. The canonical17-field result
+matches every source/helper/runtime/evidence field and both nine-field
+mode maps. All3 operation files,4monitor files and7independent final
+checks reconcile. E remains48files/nine directories; no freeze or mode
+card has been installed by this action.
+
+Fresh custody covers764sources,810preserved historical roles,
+1810vendor files/48,024,515bytes,195namespace rows,twoabsences,fourtools
+and the host. The operation recorded23valid samples,0.796589125seconds,
+peak64592KiB,maximum gap47.170792ms and final gap29.817208ms. Original
+resource limits remain. Sampled child RSS is not continuous/group
+control; genuine tool origin,supplier/cache/Apple-host/loader/read-window
+and no-descendants remain explicit premises. All accepted guard/profile
+and source-applicability work remains inherited; no new science ran.
+
+Independent actual review ebf69e exit0 passed8,648predicates,28admin JSON
+reads and2,596fresh identities, including the final POST_CUSTODY pin.
+Root accepted the complete candidate in FREEZE_CANDIDATE_ACCEPTANCE.json
+(3143bytes,SHA256
+`0e4611497c9339ffdb04f269576db0b85ee0e49ce474d65f8287ebede4f55d25`).
+The reviewer's Python-set serialization failure0d77de was a checker-only
+diagnostic before outcome reconstruction; corrected read-only checks
+passed without a subject retry. Prior authorship and inherited semantics
+are disclosed. Fresh reviewer uname and root's before/after sw_vers
+observations retain their different provenance. See
+`docs/coordination/measurement_actual_freeze_candidate_v1/`.
+
+RI209 is active in the exclusive
+`ri209-freeze-installation-b3bokxbe/worker_proposal/` reservation. Its
+narrow source-only proposal will install the accepted bytes by an exclusive
+root-owned write and produce the existing complete frozen observation.
+Expected E after installation:49files/nine directories with original48
+files unchanged,empty tmp/runs and no mode cards. Independent acceptance
+of that actual installation precedes fresh normal runtime custody and
+separate mode preparation. Actual normal acceptance precedes optimized.
+WHITE15/W09,both179control inventories,27/13/30records,57artifacts,
+74postchecks,three trees,RI131/full32 and selected public GWOSC conventional
+reproduction remain distinct later obligations. Protected validation,
+calibration,a native forward map and physical claims remain separate.
+RET alone remains paused. No missing user decision blocks these next steps.
+
+This bounded checkpoint preserves all unrelated edits, protected historical
+evidence and active RI209/RI210 sources. The broader programme continues.
+Scoped publication,commit and live remote verification receipts are retained
+in `ri207-root-four-maxima-review-rrel_hre/` after publication.
+
+**Prior checkpoint — complete three-maxima theorem and actual adapters.**
 1 October 2026 UTC (30 September in Honolulu). RI203 is independently
 accepted under its named finite-prefix premises: every marked six-parent
 with exactly three maxima satisfies U6<3+3K+16K^2<92,416,228,003<T,

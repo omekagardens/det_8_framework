@@ -1,0 +1,35 @@
+{
+  "E_modified": false,
+  "admissions_created": false,
+  "checks": 5392,
+  "current_prior_source_rows": 722,
+  "distinct_pinned_inputs": 759,
+  "fixture_generation": false,
+  "fresh_operational_runtime_or_host_observation": false,
+  "historical_role_rows": 810,
+  "proposal_import_compile_AST_or_execution": false,
+  "required_consumer_read_pins": 153,
+  "schema": "ri206-author-administrative-source-check-v1",
+  "scientific_body_decoding": false,
+  "seed_count": 39,
+  "source_declaration_history_rows": 124,
+  "source_pins": [
+    {
+      "bytes": 15552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/prepare_freeze.py",
+      "sha256": "4f972995db6154edb670a3110dff7fff2417e4a22d97f58a3c5731d8ddc52834"
+    },
+    {
+      "bytes": 3405,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/predispatch.py",
+      "sha256": "72d6d400682e8d661aaa84ae9a426876424efa74e575756866352b8f4f49fe19"
+    },
+    {
+      "bytes": 19956,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal/check_freeze.py",
+      "sha256": "a8e3d1971deb2a5bb77b660767a2f2a95f23693bf752d35f2af0f38d86851958"
+    }
+  ],
+  "status": "PASS_SOURCE_PINS_AND_LITERALS_ONLY",
+  "subject_or_vendor_execution": false
+}

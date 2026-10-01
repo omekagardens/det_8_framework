@@ -1,0 +1,32 @@
+{
+  "action": "exclusive_freeze_installation_and_complete_frozen_observation",
+  "calibration_or_native_forward_map_claimed": false,
+  "candidate_acceptance": {
+    "bytes": 3143,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/FREEZE_CANDIDATE_ACCEPTANCE.json",
+    "sha256": "0e4611497c9339ffdb04f269576db0b85ee0e49ce474d65f8287ebede4f55d25"
+  },
+  "later_obligations": [
+    "WHITE15/W09",
+    "both179controls",
+    "27/13/30records",
+    "57artifacts",
+    "74postchecks",
+    "three trees",
+    "RI131/full32",
+    "selected public GWOSC conventional reproduction"
+  ],
+  "no_missing_user_decision": true,
+  "requirements": [
+    "exact accepted RESULT bytes to literal E/AUTHORIZED_FREEZE.json by bounded exclusive creation; retain partials, fsync and independently reread",
+    "all48 original E files retain full identities; exactly49files/nine dirs afterward with only expected E-root directory change, empty tmp/runs and no mode cards",
+    "independent tail checks and full ri156-complete-copy-card-observation-v1 frozen object, original48 pairs/124history/30targets; every receipt outside E",
+    "root independent review and acceptance of actual installation before fresh normal-mode runtime custody",
+    "new-E normal PRE baseline, genuine RI141 collector under exact E environment, full non-null dyld/supplier brackets,13-field actual runtime record, existing pre_mode contract",
+    "actual normal execution and acceptance before optimized"
+  ],
+  "ret_paused": true,
+  "schema": "ri206-next-measurement-action-v1",
+  "scientific_execution_authorized": false,
+  "status": "ROOT_OWNED_NEXT_BOUNDED_ACTION"
+}

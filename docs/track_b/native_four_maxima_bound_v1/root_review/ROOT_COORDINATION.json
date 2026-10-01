@@ -1,0 +1,22 @@
+{
+  "active_worker_unmodified": true,
+  "assignment": {
+    "bytes": 2757,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI208_NATIVE_ASSIGNMENT.json",
+    "sha256": "718f13dc72c67b5c8b0999ad13ea76ebc2cc623decff775086681465fb2d04ea"
+  },
+  "observed_cursor": "cec29fb8-71f0-4394-a689-daf6147d954c:15",
+  "observed_response": "Five-maxima class only; six-maxima and global conclusion remain outside assignment.",
+  "observed_revision": 15,
+  "observed_status": "active",
+  "observed_turn": "01a0f57f-384a-79b3-b2c4-24d6b2575ba9",
+  "predecessor": {
+    "bytes": 2407,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI205_ROOT_ADJUDICATION.json",
+    "sha256": "ad87953b8f9479e2c29de71f3a5864e7828b59c21bda04f094ef6de06f3f08b9"
+  },
+  "ret_paused": true,
+  "schema": "ri207-root-coordination-v1",
+  "successfully_dispatched_after_adjudication": true,
+  "worker_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+}

@@ -1,0 +1,29 @@
+{
+  "domain": "R is one event; five cap precursors are empty or R and cover R. Partition all five omitted-maxima sector sizes, retaining every proper ideal and every actual shared canonical factor.",
+  "justified_starting_points": [
+    "One-omission mass5-L with0<L<5; ten double sectors have all-ideal q4 floor and candidate bound C2<K.",
+    "For each triple-omission sector the retained two caps belong to S. A nonempty A exhausts R; if A is empty, original coverage gives an omitted cap covering the sole old vertex. Reprove the selected-ideal denominator lower bound q_base(S)*epsilon^2/8; if correct this gives each of ten C3<8K^2, leaving U6 below5+10K+80K^2 before higher sectors.",
+    "RI205 support lemma applies to proper parent-five births ending with at least four maxima; prove where this gives exact theta factors in four/five omission sectors. Retain all additional old omitted maxima.",
+    "RI205 native M5>5e9 gives theta<2^-38 by hand, if useful. Use no printed maximum or actual scale. The unchanged T>465e9 leaves room only after proving complete higher-sector bounds."
+  ],
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 2407,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI205_ROOT_ADJUDICATION.json",
+    "sha256": "ad87953b8f9479e2c29de71f3a5864e7828b59c21bda04f094ef6de06f3f08b9"
+  },
+  "question": "Prove or refute U6<=T for the entire five-maxima six-parent class of the unchanged selected law; all compatible precursor choices, marked rows and proper ideals. A genuine violating parent refutes this sufficient bound only.",
+  "requirements": [
+    "Manual analytic reasoning on accepted seed/support/normalization/diamonds, not independent coordinate boxes.",
+    "Separate selected-ideal coverage from all-ideal claims; full q4 entries use all-ideal floor only.",
+    "Preserve every mark, labeled ideal multiplicity, repeated/empty/full precursor and canonical correction.",
+    "No new scientific body/vector/certificate read, automated proof arithmetic, graph/LP/subject execution or runtime/fixture/card changes.",
+    "Read current plan and reservation; source-only sealed packet and complete administrative diagnostics. Root owns independent adjudication, Git and successor.",
+    "If no whole-class closure, report a sharp proved partial inequality or actual obstruction; do not label a relaxed model counterexample as native."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh",
+  "ret_paused": true,
+  "schema": "ri208-native-assignment-v1",
+  "six_maxima_or_global_conclusion_preaccepted": false,
+  "status": "ASSIGNED_AFTER_RI205_INDEPENDENT_ADJUDICATION"
+}

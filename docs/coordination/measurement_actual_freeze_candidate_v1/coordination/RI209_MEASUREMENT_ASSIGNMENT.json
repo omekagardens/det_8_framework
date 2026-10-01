@@ -1,0 +1,25 @@
+{
+  "next_action": {
+    "bytes": 1666,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/MEASUREMENT_NEXT_ACTION.json",
+    "sha256": "9c55ed900711c452c44d5e370f1ef90f56cc8f37c8fcdd75b7d44045f8dc3244"
+  },
+  "owner": "/root/ri116_complete_caller_review",
+  "predecessor": {
+    "bytes": 3143,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/FREEZE_CANDIDATE_ACCEPTANCE.json",
+    "sha256": "0e4611497c9339ffdb04f269576db0b85ee0e49ce474d65f8287ebede4f55d25"
+  },
+  "requirements": [
+    "Use actual accepted26214-byte RESULT with exact9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14 pin",
+    "Read literal RI160 observe/custody contract; all9 frozen-observation fields,48copy/124history/30original roles and whole sorted E tree retained",
+    "Independent tails preserve first and later failures; candidate/source/acceptance dependencies and before/after source identities stay exact; single exclusive no-retry write",
+    "Root owns admission/execution/independent review, custody acceptance, later per-mode observations and Git",
+    "Prior authorship disclosed; sealed exact source packet and full source deltas/metadata evidence; no new scientific launcher or restart of completedqualification"
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal",
+  "ret_paused": true,
+  "schema": "ri209-measurement-assignment-v1",
+  "scope": "Source-only proposal for exact exclusive installation and complete frozen observation/postcheck. No execution, admission, candidate rewrite, E mutation or Git by worker.",
+  "status": "ASSIGNED_AFTER_RI206_INDEPENDENT_ADJUDICATION"
+}
