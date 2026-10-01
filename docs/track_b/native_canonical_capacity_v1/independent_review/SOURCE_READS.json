@@ -1,0 +1,104 @@
+{
+  "all_other_scientific_bodies_opaque": true,
+  "files": [
+    {
+      "bytes": 21131,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/HANDOFF.json",
+      "sha256": "baff3300c296e43de7f0253cbafe4c7fbf192a9b05a209d5a33ab9cb52949033"
+    },
+    {
+      "bytes": 15205,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/CANONICAL_CAPACITY.md",
+      "sha256": "0069e8c7314f6e84b2803d2502f317d8640df0a0192731ccd79914b88ecf7faa"
+    },
+    {
+      "bytes": 9417,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/SIX_ROOT_WITNESS.md",
+      "sha256": "9ff04c11ff551fca8e64d606fd46d265836dde9e1b7d7af6f03269b44dab2c03"
+    },
+    {
+      "bytes": 65520,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/SOURCE_REFERENCES.json",
+      "sha256": "43e9fc923eca8da42424df62faa66f6abdcace71b1d1da5478bef539ec8b6572"
+    },
+    {
+      "bytes": 41570,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/AUTHOR_VERIFICATION.json",
+      "sha256": "d585c23c820c8ef0c3fd366ce6dfb705ef3ddc5ce246b8279448a9096bec13c2"
+    },
+    {
+      "bytes": 2327,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/HANDOFF.md",
+      "sha256": "9354d1054bee8af0e298ce19af276bd5fc4537005a5a15838883db0c4c26e690"
+    },
+    {
+      "bytes": 4858,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_REVIEWER_SIX_ROOT_LITERAL_ADMISSION.json",
+      "sha256": "c49b52dcb224d0f7a82d381212a7067ab81f2ba778495b0acb604bbf0c4564bd"
+    },
+    {
+      "bytes": 4927,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_SIX_ROOT_LITERAL_ADMISSION.json",
+      "sha256": "47d5e67e0b5e9ad8d8c2f33d96d440c97a1487c7c7f00a8c2fe0c2888b753ebd"
+    },
+    {
+      "bytes": 2019,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_ADJUDICATION.json",
+      "sha256": "d24fc0d7dd5bae0013cbcf6b0caf5db57463b6edb65c2d5c34c4690b2a1ce04d"
+    },
+    {
+      "bytes": 4148,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_REVIEW.md",
+      "sha256": "f59f56295e3cc9c4b30ca90332d65350262f17657e9a458724f1ed651020dc1b"
+    },
+    {
+      "bytes": 10962,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/COMPONENT_ROUTING.md",
+      "sha256": "37e9ffd24470d9462c68d8380b8b43a34210d42e2f290c369a0bf951a014c99c"
+    },
+    {
+      "bytes": 15343,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/LOWER_COMBINATIONS.md",
+      "sha256": "2f35ae897762bcbaa8e9e0ac54e78658000aec6c596b0692611bdaa39092fa33"
+    },
+    {
+      "bytes": 17321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/NATIVE_REDUCTION.md",
+      "sha256": "3daa9f57c3f4e570a18e7f30568ce207ae81bad3b8f8d777eebd5bfde5a8b14b"
+    },
+    {
+      "bytes": 10435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+      "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a"
+    },
+    {
+      "bytes": 15209,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/DISCONNECTED_PROFILES.md",
+      "sha256": "588eba196bb27baa6ee967d0dbe2b25d0c0645b186dd3dc7e9ddee913467b522"
+    },
+    {
+      "bytes": 17102,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+    },
+    {
+      "bytes": 16243,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+    }
+  ],
+  "literal_body_read": {
+    "bytes": 1357,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/LITERAL_IDENTITY.json",
+    "sha256": "374865e3b450670fd7b4f85d59ab0c4717c47d11f9f01b1afdd33b48fc41107e"
+  },
+  "new_manuscript_coverage": {
+    "CANONICAL_CAPACITY.md": "complete lines 1\u2013342",
+    "SIX_ROOT_WITNESS.md": "complete lines 1\u2013221"
+  },
+  "schema": "ri231-independent-source-read-coverage-v1",
+  "supplemental_ranges": {
+    "ri127 RESULT.md": "lines 145\u2013230, exact complete shared L1\u2013L5 forms",
+    "ri225 DISCONNECTED_PROFILES.md": "bounded literal E1/E2/E4 and B profile definition search, for requested next-target appraisal"
+  }
+}

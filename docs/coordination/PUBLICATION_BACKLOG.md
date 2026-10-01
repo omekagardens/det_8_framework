@@ -1,6 +1,62 @@
 **Accepted work and remote publication**
 
-**Current follow-through — native lower-combination routing accepted; actual measurement preparation reviewed.**
+**Current follow-through — six native coefficients and canonical capacity accepted; same-root contrast question assigned.**
+1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+accept RI231's conditional finite-law result. Exact original indices and
+default/override provenance resolve all six admitted coefficients. The
+result fixes alpha=(5/352,5/352,203153/8800,1/8), gamma_0=gamma_1=1/64
+and T=138697/387200. These are prescribed finite-law values; their lookup
+does not derive the selection from DET primitives.
+
+The complete canonical P row accounts for all ten proper ideals and four
+neutral families, every marked incidence and companion capacity. It proves
+**kappa_i<=352/41** and at least one tight P row per root sector at the
+canonical optimum, with an exact maximum-competing-mass identity. The
+unchanged strict law therefore has **F_Y>421/492**. Zero allocations and
+ties remain possible; negative cost alone never determines allocation.
+
+All five disconnected profiles, ten normalized unknowns, connected rows,
+reference/cross-sector conditions and positive full-slot recovery remain.
+Actual kappa values and the complete normalized witness or signed
+inconsistency identity remain open, as do improvement, optimality and
+maximal amplitude. No all-size or physical conclusion follows.
+
+Root read both full manuscripts3de623 and the complete independent review
+572cdc. Root metadata344bff/session78031,terminal14224f exit0 authenticated
+the complete source/review seals and32 direct sources/796922 bytes.
+The nonauthor independently verified literal six-key provenance1e3d98,
+replayed the retained metadata checker46b46c (38 identities/45 selected
+references) and ran767 separate metadata predicates41e8ab, all exit0.
+All15 inherited boundary objects remain; the423-source manifest remains
+by reference. Mathematical reasoning was manual; metadata passes are not
+proof arithmetic or scientific qualification. Evidence:
+`docs/track_b/native_canonical_capacity_v1/`.
+
+After adjudication, RI233 was assigned to the existing QR chat in
+`ri233-native-same-root-contrast-sa2lhrgp/`. It must prove the same-root
+offset cancellation and derive substantive actual contrast consequences
+toward a full normalized witness or signed inconsistency. Division-free
+minors must preserve zero-contrast branches and all reference/cross-sector
+conditions. Bounds alone do not decide rank or feasibility; relaxed-range
+examples do not decide the fixed canonical law. No new body, coordinate or
+execution authority is added. Active RI233 work is excluded.
+
+The reviewed actual measurement preparation remains accepted, with nine
+administrative records and all retained custody unchanged. Reconciliation
+is still unadmitted and unexecuted; the installed file remains an unaccepted
+partial and the original failure stays immutable. The next root operation
+is the separately controlled read-only reconciliation after fresh source,
+supplier,host,E and namespace checks, then genuine monitored outcome and
+independent adjudication under the original limits.
+
+Normal/optimized mode,WHITE/RI131/full32 and selected public GWOSC
+conventional reproduction remain open. Calibrated claims and a native
+forward map remain separate. RET alone is paused. Checkpoints6356122 and
+the two-file dependency-description correction5fcbe0a were normally pushed;
+5fcbe0ada46c54ccecd14e98ba7ad8c2e29274b7 was verified on live origin/ret.
+The programme continues, with no user decision required.
+
+**Prior checkpoint — native lower-combination routing accepted; actual measurement preparation reviewed.**
 1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
 accept RI228's conditional finite-law routing and bounds. All four stem
 ratios satisfy beta_S=theta*alpha_S, including the neutral singleton via

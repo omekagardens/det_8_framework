@@ -1,0 +1,40 @@
+{
+  "admission": {
+    "bytes": 4858,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_REVIEWER_SIX_ROOT_LITERAL_ADMISSION.json",
+    "sha256": "c49b52dcb224d0f7a82d381212a7067ab81f2ba778495b0acb604bbf0c4564bd"
+  },
+  "after": {
+    "bytes": 2845,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+    "state": [
+      16777244,
+      373218,
+      33188,
+      1,
+      2845,
+      1790219166674919262,
+      1790219166674919262
+    ]
+  },
+  "automatic_scientific_arithmetic": false,
+  "before": {
+    "bytes": 2845,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+    "state": [
+      16777244,
+      373218,
+      33188,
+      1,
+      2845,
+      1790219166674919262,
+      1790219166674919262
+    ]
+  },
+  "complete_literal_display": true,
+  "schema": "ri231-independent-bounded-literal-read-v1",
+  "scientific_JSON_parsed": false,
+  "scope": "Only six admitted keys and corresponding manual provenance/alpha/gamma. Neighbors are ordinal landmarks only."
+}

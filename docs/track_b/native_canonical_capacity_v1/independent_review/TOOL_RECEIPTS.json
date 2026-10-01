@@ -1,0 +1,143 @@
+{
+  "administrative_runs": [
+    {
+      "chunk_id": "46b46c",
+      "command": "/opt/homebrew/bin/node -e <exact saved author_metadata_checker.js> final6",
+      "exit_code": 0,
+      "result": {
+        "bytes": 3162,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/AUTHOR_REPLAY.json",
+        "sha256": "24d49dd717477cf84508c17d7f4260acf3fbf5be2d1f773ab3d25458e7678275"
+      },
+      "selected_references": 45,
+      "whole_identities": 38
+    },
+    {
+      "chunk_id": "41e8ab",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/check_metadata.py",
+      "exit_code": 0,
+      "predicates": 767,
+      "result": {
+        "bytes": 100583,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/CHECK_RESULT.json",
+        "sha256": "7b2f37b57486ded31c5103db3a36d3d4d224fdfaa1f74c79e299957e9d6e7eaa"
+      },
+      "whole_identities": 41
+    }
+  ],
+  "automatic_mathematical_checks": false,
+  "commands": [
+    {
+      "chunk_id": "aa0b4a",
+      "exit_code": 0,
+      "scope": "locate exact literal admission"
+    },
+    {
+      "chunk_id": "09e356",
+      "exit_code": 0,
+      "scope": "read author-only admission before any original body display"
+    },
+    {
+      "chunk_id": "b6ee6d",
+      "exit_code": 0,
+      "scope": "authenticate exact six source pins/namespace; reserve exclusive directory; full handoff read"
+    },
+    {
+      "chunk_id": "c60308",
+      "exit_code": 0,
+      "scope": "complete SIX_ROOT_WITNESS read"
+    },
+    {
+      "chunk_id": "1b129b",
+      "exit_code": 0,
+      "scope": "complete CANONICAL_CAPACITY read"
+    },
+    {
+      "chunk_id": "9732b6",
+      "exit_code": 0,
+      "scope": "metadata overview; output clipped; required source and objects recovered separately"
+    },
+    {
+      "chunk_id": "41333d",
+      "exit_code": 0,
+      "scope": "authenticate/read reviewer admission; full retained administrative checker and diagnostics"
+    },
+    {
+      "chunk_id": "1e3d98",
+      "exit_code": 0,
+      "scope": "one separately admitted literal body display and exact before/after identity"
+    },
+    {
+      "chunk_id": "eec2e9",
+      "exit_code": 0,
+      "scope": "complete accepted RI228 component-routing source read"
+    },
+    {
+      "chunk_id": "e377ad",
+      "exit_code": 0,
+      "scope": "RI228 lower-source display clipped in combined wrapper, recovered in 5e0dc7"
+    },
+    {
+      "chunk_id": "fb1e2e",
+      "exit_code": 0,
+      "scope": "complete RI41 normalization source read"
+    },
+    {
+      "chunk_id": "5e0dc7",
+      "exit_code": 0,
+      "scope": "recover complete RI228 LOWER_COMBINATIONS lines106 onward"
+    },
+    {
+      "chunk_id": "8989fc",
+      "exit_code": 0,
+      "scope": "complete RI63 COMPLETION source read"
+    },
+    {
+      "chunk_id": "b95a7e",
+      "exit_code": 0,
+      "scope": "complete accepted normalized-system source read"
+    },
+    {
+      "chunk_id": "db6944",
+      "exit_code": 0,
+      "scope": "locate original shared linear forms"
+    },
+    {
+      "chunk_id": "ba8f5f",
+      "exit_code": 0,
+      "scope": "read exact L1\u2013L5 and shared conditions"
+    },
+    {
+      "chunk_id": "46b46c",
+      "exit_code": 0,
+      "scope": "reviewed retained author final6 administrative replay"
+    },
+    {
+      "chunk_id": "c29656",
+      "exit_code": 0,
+      "scope": "root predecessor acceptance, review and assignment source-boundary read"
+    },
+    {
+      "chunk_id": "0dc0f4",
+      "exit_code": 0,
+      "scope": "write independent metadata checker; retained outer-string regex SyntaxWarning"
+    },
+    {
+      "chunk_id": "41e8ab",
+      "exit_code": 0,
+      "scope": "independent bounded metadata checker run"
+    },
+    {
+      "chunk_id": "31171c",
+      "exit_code": 0,
+      "scope": "bounded E1/E2/E4 definition read for requested next-target appraisal"
+    }
+  ],
+  "diagnostics": [
+    "9732b6 metadata overview output clipped; checker and complete objects recovered separately",
+    "Combined predecessor source read clipped middle; 5e0dc7 and8989fc recovered required full content",
+    "0dc0f4 exit0 emitted outer Python string SyntaxWarning: invalid escape \\[; saved checker raw regex correct, no post-run rewrite"
+  ],
+  "failed_exits": [],
+  "schema": "ri231-independent-review-tool-receipts-v1"
+}

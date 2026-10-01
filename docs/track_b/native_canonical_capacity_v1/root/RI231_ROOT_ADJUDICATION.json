@@ -1,0 +1,42 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Six prescribed lambda values and complete alpha/gamma/T substitutions",
+    "Complete ten-proper-ideal P row and four neutral component families with all companion capacities",
+    "Canonical-only forced tight P row per root sector and exact competing-capacity identity",
+    "kappa<=352/41,zeta<=385/2952,F_Y>421/492 for unchanged strict law"
+  ],
+  "complete_proof_reads": [
+    "3de623 exit0",
+    "572cdc exit0"
+  ],
+  "independent_review": {
+    "bytes": 6016,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/HANDOFF.json",
+    "sha256": "bc4cdd39e00c17360b38f5eda3176d98dc7574cd587c215fea9cf5903c1f4db4"
+  },
+  "packet": {
+    "bytes": 21131,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/HANDOFF.json",
+    "sha256": "baff3300c296e43de7f0253cbafe4c7fbf192a9b05a209d5a33ab9cb52949033"
+  },
+  "qualification_credit": 0,
+  "root_manual_review": {
+    "bytes": 4288,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri232-root-canonical-review-6datre21/RI231_ROOT_REVIEW.md",
+    "sha256": "f0d85832c922ad50145999d63d5f9901b1c99ff4585fc5c37dc05f1148d4898a"
+  },
+  "root_metadata": {
+    "bytes": 28495,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri232-root-canonical-review-6datre21/RI231_ROOT_METADATA.json",
+    "sha256": "a5c1745aa541caa5e0b90d0d8d8af7f766f44956920c5890e6fb00a2a77322cf"
+  },
+  "schema": "ri231-root-native-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_SIX_ROOT_SUBSTITUTION_AND_COMPLETE_CANONICAL_CAPACITY",
+  "unresolved": [
+    "Actual kappa allocations",
+    "Full normalized u2=-1 witness or signed inconsistency identity",
+    "Improvement,optimality,maximal amplitude"
+  ]
+}

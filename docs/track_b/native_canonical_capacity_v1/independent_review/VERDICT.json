@@ -1,0 +1,54 @@
+{
+  "RET_paused": true,
+  "actual_kappa_unresolved": true,
+  "author_of_subject": false,
+  "automatic_scientific_arithmetic": false,
+  "blocking_findings": [],
+  "canonical_only_tightness": true,
+  "improvement_optimality_undecided": true,
+  "independent_metadata": {
+    "bytes": 100583,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/CHECK_RESULT.json",
+    "sha256": "7b2f37b57486ded31c5103db3a36d3d4d224fdfaa1f74c79e299957e9d6e7eaa"
+  },
+  "literal_admission": {
+    "bytes": 4858,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_REVIEWER_SIX_ROOT_LITERAL_ADMISSION.json",
+    "sha256": "c49b52dcb224d0f7a82d381212a7067ab81f2ba778495b0acb604bbf0c4564bd"
+  },
+  "literal_check": {
+    "bytes": 1357,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/LITERAL_IDENTITY.json",
+    "sha256": "374865e3b450670fd7b4f85d59ab0c4717c47d11f9f01b1afdd33b48fc41107e"
+  },
+  "mathematics_manual": true,
+  "new_qualification_credit": 0,
+  "normalized_witness_absent": true,
+  "recommendation": "ACCEPT_CONDITIONAL_SIX_ROOT_SUBSTITUTION_AND_COMPLETE_CANONICAL_CAPACITY",
+  "retained_premises": [
+    "RI41 fixed strict prefix and exact six admitted prescribed coordinates",
+    "RI63 finite canonical active-neutrality and primary optimality",
+    "All marked occurrences and transported diamonds, actual positive history multiplicities",
+    "Original complete normalized ten-variable system, all connected/disconnected rows, actual rho/s/theta and strict endpoints"
+  ],
+  "review": {
+    "bytes": 15029,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/INDEPENDENT_REVIEW.md",
+    "sha256": "b888ceaf123af7782b5f3ad70e3a6ab499adde84f2f03c6e82138332d1e9a55b"
+  },
+  "reviewed_author_replay": {
+    "bytes": 3162,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/AUTHOR_REPLAY.json",
+    "sha256": "24d49dd717477cf84508c17d7f4260acf3fbf5be2d1f773ab3d25458e7678275"
+  },
+  "schema": "ri231-independent-mathematical-verdict-v1",
+  "scientific_JSON_parsed": false,
+  "signed_inconsistency_absent": true,
+  "source": {
+    "bytes": 21131,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/HANDOFF.json",
+    "sha256": "baff3300c296e43de7f0253cbafe4c7fbf192a9b05a209d5a33ab9cb52949033"
+  },
+  "subject_execution": false,
+  "successor_assigned": false
+}

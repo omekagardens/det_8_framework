@@ -1,0 +1,139 @@
+{
+  "Git_operations": false,
+  "RET_paused": true,
+  "actual_checks": [
+    {
+      "chunk_id": "46b46c",
+      "exit_code": 0,
+      "result": {
+        "bytes": 3162,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/AUTHOR_REPLAY.json",
+        "sha256": "24d49dd717477cf84508c17d7f4260acf3fbf5be2d1f773ab3d25458e7678275"
+      },
+      "scope": "Reviewed retained author final6 administrative checker only",
+      "selected_references": 45,
+      "whole_identities": 38
+    },
+    {
+      "chunk_id": "41e8ab",
+      "exit_code": 0,
+      "predicates": 767,
+      "result": {
+        "bytes": 100583,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/CHECK_RESULT.json",
+        "sha256": "7b2f37b57486ded31c5103db3a36d3d4d224fdfaa1f74c79e299957e9d6e7eaa"
+      },
+      "scope": "Independent administrative source/admission/reference checker only",
+      "whole_identities": 41
+    },
+    {
+      "chunk_id": "1e3d98",
+      "exit_code": 0,
+      "result": {
+        "bytes": 1357,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/LITERAL_IDENTITY.json",
+        "sha256": "374865e3b450670fd7b4f85d59ab0c4717c47d11f9f01b1afdd33b48fc41107e"
+      },
+      "scope": "Separately admitted whole literal display, manual six-key provenance only"
+    }
+  ],
+  "actual_kappa_unresolved": true,
+  "all_payloads_publishable": true,
+  "blocking_findings": [],
+  "external_only_payloads": [],
+  "files": [
+    {
+      "bytes": 3162,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/AUTHOR_REPLAY.json",
+      "sha256": "24d49dd717477cf84508c17d7f4260acf3fbf5be2d1f773ab3d25458e7678275"
+    },
+    {
+      "bytes": 100583,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/CHECK_RESULT.json",
+      "sha256": "7b2f37b57486ded31c5103db3a36d3d4d224fdfaa1f74c79e299957e9d6e7eaa"
+    },
+    {
+      "bytes": 15029,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/INDEPENDENT_REVIEW.md",
+      "sha256": "b888ceaf123af7782b5f3ad70e3a6ab499adde84f2f03c6e82138332d1e9a55b"
+    },
+    {
+      "bytes": 1357,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/LITERAL_IDENTITY.json",
+      "sha256": "374865e3b450670fd7b4f85d59ab0c4717c47d11f9f01b1afdd33b48fc41107e"
+    },
+    {
+      "bytes": 5005,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/SOURCE_READS.json",
+      "sha256": "3c91b3f5cf7cd26d46e12b78e096dbd09b6495cb0e8f3621799bfe0598498370"
+    },
+    {
+      "bytes": 4453,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/TOOL_RECEIPTS.json",
+      "sha256": "b29fb55d6a9321322aa4c53a1bfa025bc91768add928d2a4a9a7a4a023ffa02f"
+    },
+    {
+      "bytes": 2579,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/VERDICT.json",
+      "sha256": "f505f88273675ebe461a164b66a26bc205c8b9d848c17f391d48951c63033649"
+    },
+    {
+      "bytes": 20100,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/author_metadata_checker.js",
+      "sha256": "eb881fce6cbd06f0749e49a855fc612f485812d593255369cd0f6070966f9cf1"
+    },
+    {
+      "bytes": 9323,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/check_metadata.py",
+      "sha256": "54373d555a50b57f486a0a86bf897be230a351d6db32c04d3bee573841821075"
+    }
+  ],
+  "final_report_write_chunk": "12eea8",
+  "full_normalized_witness_absent": true,
+  "manuscript_writer": false,
+  "mathematical_reasoning": "Manual source and proof review; no automatic scientific arithmetic or enumeration",
+  "namespace": [
+    "AUTHOR_REPLAY.json",
+    "CHECK_RESULT.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "LITERAL_IDENTITY.json",
+    "SOURCE_READS.json",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "author_metadata_checker.js",
+    "check_metadata.py"
+  ],
+  "narrative": {
+    "bytes": 15029,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/INDEPENDENT_REVIEW.md",
+    "sha256": "b888ceaf123af7782b5f3ad70e3a6ab499adde84f2f03c6e82138332d1e9a55b"
+  },
+  "other_scientific_bodies_decoded": false,
+  "previous_native_reviewer": true,
+  "qualification_credit": 0,
+  "recommendation": "ACCEPT_CONDITIONAL_SIX_ROOT_SUBSTITUTION_AND_COMPLETE_CANONICAL_CAPACITY",
+  "remaining_premises": [
+    "RI41 fixed strict prefix and exact six admitted prescribed coordinates",
+    "RI63 finite canonical active-neutrality and primary optimality",
+    "All marked occurrences and transported diamonds, actual positive history multiplicities",
+    "Original complete normalized ten-variable system, all connected/disconnected rows, actual rho/s/theta and strict endpoints"
+  ],
+  "repository_written": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw",
+  "schema": "ri231-independent-six-root-review-handoff-v1",
+  "status": "SEALED_INDEPENDENT_CONDITIONAL_MATHEMATICAL_REVIEW",
+  "subject": {
+    "bytes": 21131,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/HANDOFF.json",
+    "sha256": "baff3300c296e43de7f0253cbafe4c7fbf192a9b05a209d5a33ab9cb52949033"
+  },
+  "subjects_executed": false,
+  "successor_assigned": false,
+  "unrelated_WHITE_authorship_disclosed": true,
+  "verdict": {
+    "bytes": 2579,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/VERDICT.json",
+    "sha256": "f505f88273675ebe461a164b66a26bc205c8b9d848c17f391d48951c63033649"
+  }
+}
