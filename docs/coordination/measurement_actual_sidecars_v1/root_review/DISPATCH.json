@@ -1,0 +1,53 @@
+{
+  "actual_execution_not_yet_started": true,
+  "admission": {
+    "bytes": 2104,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ADMIT_SIDECARS.json",
+    "sha256": "ebad0f2e82ac7fa2caeada8d6c08c710ff1544df7a11b1f25bd41a6d3cbb66ac"
+  },
+  "bootstrap": {
+    "bytes": 2395,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_BOOTSTRAP.py",
+    "sha256": "d62fd7d478ccda65de19d494589fa2d234b5f2c7802af6d7238e31d38aabdf85"
+  },
+  "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp",
+  "login": false,
+  "monitor_source": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  },
+  "outer_argv": [
+    "/usr/bin/env",
+    "-i",
+    "LC_ALL=C",
+    "MKL_NUM_THREADS=1",
+    "NUMEXPR_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "PATH=/usr/bin:/bin",
+    "TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/tmp",
+    "TZ=UTC",
+    "VECLIB_MAXIMUM_THREADS=1",
+    "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0",
+    "/usr/bin/perl",
+    "-e",
+    "$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;",
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_BOOTSTRAP.py"
+  ],
+  "preflight": {
+    "bytes": 3566,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "0b6386eb2daf73a3f6e28758c06e65e54a726e636974a99a17fc240bd24a31d6"
+  },
+  "request": {
+    "bytes": 271,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_REQUEST.json",
+    "sha256": "58779511da1b24febd2e000415bb9e115c1870699bdba2812466032364411db1"
+  },
+  "shell_command": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_BOOTSTRAP.py",
+  "single_attempt": true
+}

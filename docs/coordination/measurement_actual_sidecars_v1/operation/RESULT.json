@@ -1,0 +1,27 @@
+{
+  "host_scope": {
+    "bytes": 86310,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/host_scope.json",
+    "sha256": "e57432b991cee52c7ae3adf5d777d361bf41306702017297338ce0512de9c99c"
+  },
+  "observed_dyld_routes": {
+    "bytes": 771,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+    "sha256": "d428c7a943d1d13feecf1e55cbf0a80d80344636b11f922223e77d16b470fb38"
+  },
+  "optional_namespaces": {
+    "bytes": 3666,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/optional_namespaces.json",
+    "sha256": "956ba339aa926e5b8a8666f455b78422f8f2b1f8768459a4ce434b8cd18648ce"
+  },
+  "runtime_inventory": {
+    "bytes": 2806092,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/runtime_inventory.json",
+    "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+  },
+  "selection": {
+    "bytes": 3820691,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/selection.json",
+    "sha256": "bd0b7b1b9e8d6825c92a4bf4cf92f72eb5330c2167f2ffee03ca1ae2d77622a8"
+  }
+}

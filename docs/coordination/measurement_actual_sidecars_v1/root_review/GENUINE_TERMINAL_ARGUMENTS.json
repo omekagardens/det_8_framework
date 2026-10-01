@@ -1,0 +1,29 @@
+{
+  "actual_arguments": {
+    "chars": "",
+    "max_output_tokens": 2000,
+    "session_id": 18218,
+    "yield_time_ms": 1000
+  },
+  "actual_result": {
+    "chunk_id": "e214c5",
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": "",
+    "wall_time_seconds": 1.4333e-05
+  },
+  "independent_review": {
+    "bytes": 2998,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/INDEPENDENT_SIDECARS_REVIEW.json",
+    "sha256": "f4ae95f5fd587f2960b16b3eb4487dfdd66993d382c1c0f56fcb7a2f7d014b7a"
+  },
+  "initial_chunk": "a1ff1f",
+  "original_genuine_record": {
+    "bytes": 1679,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/GENUINE_TOOL.json",
+    "sha256": "f89cd1c6ab4e346b5a0223483a29e0912f7423c658a560142dc3d032c8902654"
+  },
+  "reason": "Complete the exact terminal-input custody noted by independent review; original receipt preserved.",
+  "schema": "ri200-genuine-terminal-arguments-supplement-v1",
+  "tool": "write_stdin"
+}

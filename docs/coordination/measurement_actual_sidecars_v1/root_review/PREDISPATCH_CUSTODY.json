@@ -1,0 +1,34 @@
+{
+  "E_before": {
+    "bytes": 42464,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/E_BEFORE.json",
+    "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+  },
+  "E_unchanged": true,
+  "absences": 2,
+  "all_full_identities_equal": true,
+  "dispatch": {
+    "bytes": 2685,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/DISPATCH.json",
+    "sha256": "dcad8282ad3a34f02d9787b42a0b40e4d6a6cf4dd4caf3cb7e227d6b6b2d0ad3"
+  },
+  "host_unchanged": true,
+  "namespace_rows": 195,
+  "observed_at_unix_ns": 1790818216433136000,
+  "owned_outputs_fresh": true,
+  "runtime_before": {
+    "bytes": 1260482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RUNTIME_BEFORE.json",
+    "sha256": "b4e9d019e75e64a7a2d9d97a31e11af92546df514401cb495925688bfec74593"
+  },
+  "schema": "ri200-fresh-predispatch-custody-v1",
+  "scientific_execution": false,
+  "source_files": 659,
+  "sources_before": {
+    "bytes": 384890,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SOURCES_BEFORE.json",
+    "sha256": "b528758093f4eb6faaff9d386b1891ab3f4678a124c8fee68d955ab5f5861770"
+  },
+  "tools": 4,
+  "vendor_files": 1810
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "ri199-native-maximum-bound-handoff-v1",
+  "status": "MANUAL_PARTIAL_THEOREMS_WITH_EXACT_NATIVE_OVERLAP_REMAINDER",
+  "date": "2026-09-30",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI199_NATIVE_ASSIGNMENT.json",
+    "bytes": 3908,
+    "sha256": "2a0e86f79408f4b33e406db3e45887b4154cae6a2110ecea62b253701b8b8d39"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_ADJUDICATION.json",
+    "bytes": 2322,
+    "sha256": "81ca420487bb72b28c5ba292eab1ffd0b58640e1ecdf4a4d7940ce523df721d2"
+  },
+  "accepted_manual_packet": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.json",
+    "bytes": 7941,
+    "sha256": "287eb11395e5c5d03d09b1034f23c25d23c16ccdc924f9c14f1189eba60ddba2"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "MAXIMUM_BOUND.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/AUTHOR_VERIFICATION.json",
+      "bytes": 23802,
+      "sha256": "0d5b816353bf6c824ea60aa1e0bce079e7416c2ce61002abaccad7a81cf9722a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/HANDOFF.md",
+      "bytes": 2377,
+      "sha256": "5a5eb351e51becc3e1e47b209cfc8411ff527e1de35a9dbad0c341fd5776af1b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/MAXIMUM_BOUND.md",
+      "bytes": 14630,
+      "sha256": "0dea1b702c22c018cb6a7bd5546d99b5a91b16a3fff4bf9e66592e4113620662"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/SOURCE_REFERENCES.json",
+      "bytes": 31518,
+      "sha256": "379eab32dcaa5e30835a693669fbef072923f8dc094a65afd4b63e1e0cec2b66"
+    }
+  ],
+  "results": [
+    "The sufficient same-law target M6<=T=4*lambda*j0/v-1/2 was independently re-derived, including equality.",
+    "The accepted original pair and lower-law inequalities give T>13/(10*theta)-1/2>1867/10.",
+    "The full proper-ideal partition gives U6(P,r)=m-L(P,r)+C(P,r), without omitting parents, records, ideals or canonical corrections.",
+    "Every six-parent with exactly one maximal element has U6=1<T for all records.",
+    "The two already accepted marked records on C4 ordinal-sum A2 reduce exactly to F_i<35743/12100<71/24<T, retaining the canonical N_i-squared term; no all-record claim follows.",
+    "The exact unresolved native-law requirement is C(P,r)-L(P,r)<=T-m for every marked six-parent with 2<=m<=6, with C and L expanded in fixed canonical beta values and lower-law parity factors K."
+  ],
+  "missing_dependency": "A joint contraction/overlap bound on the fixed lexicographically selected canonical layer-five coefficients across maximal-deletion rows. One-row normalization and active counts do not supply that bound; a violating parent would need C>T-m+L>1807/10.",
+  "manual_analysis_only": true,
+  "global_M6_upper_bound_proved": false,
+  "concrete_parent_above_target_proved": false,
+  "actual_W_decided": false,
+  "both_individual_margins_or_H30_proved": false,
+  "new_scientific_body_read": false,
+  "automated_proof_arithmetic_or_subject_execution": false,
+  "qualification_credit": false,
+  "repository_or_Git_written": false,
+  "ret_paused": true,
+  "source_scope": {
+    "direct_files": 26,
+    "direct_bytes": 1030155,
+    "inherited423_manifest_by_reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "fresh_inherited423_or_transitive_reference_replay": false,
+    "inherited_boundary_objects_preserved": 15,
+    "historical_failures_and_corrections": "Preserved through SOURCE_REFERENCES.json and the exact accepted RI197 manifest, not replayed or erased."
+  },
+  "actual_author_preseal": {
+    "chunk_id": "3a4338",
+    "exit_code": 0,
+    "current_namespace": 3,
+    "whole_identity_fresh_rechecks": 29,
+    "scope": "Administrative identity check, not mathematical acceptance."
+  },
+  "actual_author_record_check": {
+    "chunk_id": "3cd7b1",
+    "exit_code": 0,
+    "scope": "Parsed author JSON and rechecked the three preseal payload identities."
+  },
+  "final_check_policy": "Run the recorded administrative script in final5 mode after this file exists; report its actual receipt and this file's identity externally. No future check is claimed here.",
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stopping_rule": "Stop on this exact named dependency and return for independent root review. Root owns acceptance, repository/Git publication and successors. No new lettered gate, fixture, runtime/profile, operational card, physical promotion, new agent/thread or RET work."
+}

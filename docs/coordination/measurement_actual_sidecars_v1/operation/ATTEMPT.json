@@ -1,0 +1,11 @@
+{
+  "action": "sidecars",
+  "admission": {
+    "bytes": 2104,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ADMIT_SIDECARS.json",
+    "sha256": "ebad0f2e82ac7fa2caeada8d6c08c710ff1544df7a11b1f25bd41a6d3cbb66ac"
+  },
+  "no_retry": true,
+  "schema": "ri156-exclusive-metadata-attempt-v1",
+  "scientific_execution": false
+}

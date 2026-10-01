@@ -1,0 +1,47 @@
+{
+  "adapters_request_fields": [
+    "root_decisions",
+    "profiles_acceptance",
+    "sidecars"
+  ],
+  "existing_decisions_root": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo",
+  "fresh_vendor_and_host_hash_custody_required": true,
+  "no_fresh_vendor_runtime_probe_needed_for_adapter_only": true,
+  "protected_validation_native_forward_map_and_GWOSC_reproduction_separate": true,
+  "ret_paused": true,
+  "root_decision_keys": [
+    "source_review",
+    "independent_source_review",
+    "packet_handoff",
+    "guard_path_review",
+    "runtime_applicability"
+  ],
+  "schema": "ri198-measurement-after-sidecars-next-action-v1",
+  "scientific_execution_yet": false,
+  "sequence": [
+    "Create exact current source decision after matching retained independent relocation/source review.",
+    "Fresh singly admitted RI160 adapters action under unchanged complete source/vendor/host/custody monitor; sidecars are the exact five FilePins in accepted RESULT.",
+    "Independently review every caller/guards/runtime candidate field and issue root acceptances outside E.",
+    "Separately admitted freeze candidate, independent review, then root places AUTHORIZED_FREEZE at E.",
+    "Fresh complete E observation, per-mode runtime/source/card custody and genuine receipts before normal WHITE.",
+    "Normal actual acceptance before optimized; no preexisting mode acceptance is inferred."
+  ],
+  "sidecars_result": {
+    "bytes": 1274,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/RESULT.json",
+    "sha256": "6f2df4b476ef336755737fddd771e829441efbfec63facd03d68f91b66198b31"
+  },
+  "source_decision_to_issue": {
+    "bindings": [
+      "exact graph",
+      "all11helpers",
+      "all30sourcepairs",
+      "unchanged180/524288/25ms/100ms/50ms limits",
+      "independent_source_review"
+    ],
+    "schema": "ri156-root-relocated-source-decision-v1",
+    "status": "ACCEPT_EXACT_RELOCATED_WHITE_SOURCE",
+    "target_executed": false
+  },
+  "status": "SIDECARS_ACTUALLY_ACCEPTED_CANDIDATE_ADAPTERS_NEXT"
+}

@@ -1,0 +1,57 @@
+{
+  "E_observation": {
+    "bytes": 42464,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/E_BEFORE.json",
+    "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+  },
+  "operation_premises": [
+    "Unchanged reviewed isolated vendor/stdlib and adapter sources do not introduce undeclared dynamic suppliers or child descendants; explicit source/platform assumptions, not runtime closure proofs.",
+    "Root retains before/after hashes, source/card bytes and exact environment. Read-window stability is not an enforced global filesystem freeze.",
+    "Fixed 960s outer alarm and reviewed 180s child monitor are operational controls, not continuous/group RSS enforcement. Any missed100ms sampling gap, absent samples, output overflow or genuine nonzero exit refuses this attempt."
+  ],
+  "platform_premises": [
+    "For these bounded local qualification operations, rely on the installed macOS 26.5.2/build25F84 Apple kernel, loader and shared cache implementation/integrity and resolution of the 17 explicitly named system suppliers. This is a root trust premise, not a demonstrated cache inventory or availability claim. An actual load failure refuses the operation.",
+    "Rely on the pinned inspection tools and Apple signature policy/trust store as observation infrastructure. Their transitive runtime, file magic database and trust roots were not independently closed.",
+    "Accept the 76-file installed-extension overapproximation as sufficient finite STATIC non-system scope for the unchanged isolated qualification sources. Dynamic import behavior, controlled environment, stable suppliers and actual flags remain separately checked or explicitly premised for each dispatch."
+  ],
+  "prepared_at_unix_ns": 1790817875903340000,
+  "runtime_observation": {
+    "bytes": 1260482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RUNTIME_BEFORE.json",
+    "sha256": "b4e9d019e75e64a7a2d9d97a31e11af92546df514401cb495925688bfec74593"
+  },
+  "schema": "ri200-root-sidecars-preflight-v1",
+  "scientific_execution_authorized": false,
+  "selected_interpreter_binding": {
+    "bytes": 102352,
+    "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+    "state": [
+      16777232,
+      172336345,
+      33261,
+      1,
+      102352,
+      1762508227000000000,
+      1763521990665808991
+    ],
+    "symlink_chain": []
+  },
+  "source_acceptance": {
+    "bytes": 2582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+    "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+  },
+  "source_observation": {
+    "bytes": 384890,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SOURCES_BEFORE.json",
+    "sha256": "b528758093f4eb6faaff9d386b1891ab3f4678a124c8fee68d955ab5f5861770"
+  },
+  "static_native_adjudication": {
+    "bytes": 2910,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "status": "FRESH_SOURCE_VENDOR_HOST_CHECKED_FOR_ONE_METADATA_SIDECARS_ACTION"
+}

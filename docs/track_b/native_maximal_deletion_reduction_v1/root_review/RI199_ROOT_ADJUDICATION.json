@@ -1,0 +1,55 @@
+{
+  "accepted": [
+    "same-law target sufficiency including equality",
+    "T>13/(10theta)-1/2>1867/10",
+    "complete U6=m-L+C decomposition",
+    "all one-maximum six-parents and records have U6=1<T",
+    "two specified two-cap records retain F_i and its bound",
+    "exact fixed-canonical overlap remainder"
+  ],
+  "actual_W_decided": false,
+  "author_final_receipt_reported_externally": {
+    "chunk_id": "a68371",
+    "exit_code": 0,
+    "not_root_execution": true
+  },
+  "concrete_violation_proved": false,
+  "global_bound_proved": false,
+  "handoff": {
+    "bytes": 5411,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/HANDOFF.json",
+    "sha256": "6ec9d77cccc140d397c02cc79dde4e5a0572adcb6125075f27aef259f33250ff"
+  },
+  "new_qualification_credit": 0,
+  "nonauthor_review": {
+    "agent": "/root/qr_opportunities",
+    "receipts": [
+      "05df74",
+      "706a0a"
+    ],
+    "result": "no substantive mathematical blocker"
+  },
+  "proof": {
+    "bytes": 14630,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/MAXIMUM_BOUND.md",
+    "sha256": "0dea1b702c22c018cb6a7bd5546d99b5a91b16a3fff4bf9e66592e4113620662"
+  },
+  "ret_paused": true,
+  "root_check": {
+    "chunk_id": "e8cb63",
+    "exit_code": 0
+  },
+  "root_metadata": {
+    "bytes": 18636,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI199_ROOT_METADATA_CHECK.json",
+    "sha256": "d0dc546d19f34936258a2179f252ecd6797ff78d85ac91b5d099080051709d9c"
+  },
+  "root_review": {
+    "bytes": 4417,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI199_ROOT_PROOF_REVIEW.md",
+    "sha256": "22733f5956d68b791e211e46cdb9ff560f4d3394f18f5b7277e6c705988721ca"
+  },
+  "schema": "ri200-root-ri199-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_PARTIAL_NATIVE_THEOREMS_AND_EXACT_REMAINDER"
+}

@@ -1,0 +1,341 @@
+{
+  "schema": "ri199-author-manual-verification-v1",
+  "status": "AUTHOR_PARTIAL_THEOREMS_AND_EXACT_REMAINDER_NOT_INDEPENDENT_ACCEPTANCE",
+  "date": "2026-09-30",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI199_NATIVE_ASSIGNMENT.json",
+    "bytes": 3908,
+    "sha256": "2a0e86f79408f4b33e406db3e45887b4154cae6a2110ecea62b253701b8b8d39"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_ADJUDICATION.json",
+    "bytes": 2322,
+    "sha256": "81ca420487bb72b28c5ba292eab1ffd0b58640e1ecdf4a4d7940ce523df721d2"
+  },
+  "scope": {
+    "manual_analysis_only": true,
+    "exact_remainder_identified": true,
+    "global_M6_upper_bound_proved": false,
+    "concrete_parent_above_target_proved": false,
+    "actual_W_decided": false,
+    "both_individual_margins_or_H30_proved": false,
+    "new_scientific_body_read": false,
+    "scientific_JSON_parsed": false,
+    "automatic_proof_arithmetic_graph_LP_or_subject_execution": false,
+    "actual_new_vector_or_maximum_instantiated": false,
+    "historical_numeric_M5_selected_as_actual_operand": false,
+    "source_or_archive_checker_executed": false,
+    "new_agents_or_threads": false,
+    "fixture_runtime_profile_card_or_physical_promotion": false,
+    "repository_Git_index_or_predecessor_changes": false,
+    "ret_paused": true
+  },
+  "manual_mathematical_checks": [
+    "Re-derived the sufficient global target M6<=4*lambda*j0/v-1/2 from the full weighted identity with C30>2/3; equality still suffices for W>0.",
+    "Used only the accepted RI197 override pair and analytic lower-law inequalities to establish T>13/(10*theta)-1/2>1867/10, without selecting numerical M5 or theta.",
+    "Partitioned every proper ideal by its nonempty omitted-maxima set. Retained all marked parents, canonical corrections and repeated ideal occurrences; obtained U6=m-L+C.",
+    "Proved U6=1 for every six-parent with one maximal element and every marked record, hence those rows are below T.",
+    "Expanded the two accepted marked records on C4 ordinal-sum A2 without dropping N_i squared over p_i; the result is the already accepted F_i and its bound, not a newly discovered universal bound.",
+    "Expanded C and L using the fixed canonical layer-five beta values and lower-law parity products K. Repeated component indices remain repeated factors; no freely variable box is introduced.",
+    "Identified the remaining joint fixed-canonical overlap requirement C-L<=T-m for every marked parent with two through six maxima. A violating row would require C>1807/10. Neither a proof of that requirement nor a concrete violation is supplied."
+  ],
+  "mathematical_limits": [
+    "A bound on the two selected two-cap records is not a bound on every record or the global maximum.",
+    "No assumption that the six-antichain maximizes U6 is used.",
+    "Two or more omitted maxima do not imply a theta-squared estimate: fixed canonical correction factors can contribute constant or linear theta terms.",
+    "The exact product description is not generally multilinear in distinct canonical component values, because component indices can repeat.",
+    "Failure to establish the sufficient global bound would not establish W<=0; W>0 alone would not prove both margins or H30.",
+    "The remaining dependency is named precisely, not asserted impossible to prove from the native law."
+  ],
+  "source_references": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/SOURCE_REFERENCES.json",
+    "bytes": 31518,
+    "sha256": "379eab32dcaa5e30835a693669fbef072923f8dc094a65afd4b63e1e0cec2b66"
+  },
+  "provenance": {
+    "direct_selected_files": 26,
+    "direct_selected_bytes": 1030155,
+    "inherited_manifest_by_reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "inherited_selected_paths": 423,
+    "fresh_inherited423_or_transitive_reference_replay": false,
+    "inherited_boundary_objects_preserved": 15,
+    "inherited_boundaries_are_not_new_read_authority": true,
+    "RI197_literal_exception_used_for_new_certificate_read": false,
+    "historical_diagnostics_preserved_by_exact_reference": [
+      "RI197 root original note's seven/eight top-level-field error, original note and corrected V2 retained through explicit erratum.",
+      "RI197 root clipped author-record projection59a008 and compact recovery10f948 disclosed in accepted root review; not represented as complete script review or execution.",
+      "RI195 checker-selection failure8169d8 and corrected78ace9, missing-ls observation and clipped/recovered display remain in accepted predecessor custody by reference.",
+      "RI191 and earlier source/namespace/read phases remain under the exact inherited manifest and opaque support boundaries; no replay or erasure."
+    ],
+    "full_literal_source_read_groups": [
+      {
+        "receipt": "99f8f2",
+        "sources": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI199_NATIVE_ASSIGNMENT.json",
+            "bytes": 3908,
+            "sha256": "2a0e86f79408f4b33e406db3e45887b4154cae6a2110ecea62b253701b8b8d39"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_ADJUDICATION.json",
+            "bytes": 2322,
+            "sha256": "81ca420487bb72b28c5ba292eab1ffd0b58640e1ecdf4a4d7940ce523df721d2"
+          }
+        ]
+      },
+      {
+        "receipt": "6f71b0",
+        "sources": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_PROOF_REVIEW.md",
+            "bytes": 4250,
+            "sha256": "7313b30c7d145885140cc988e4b8f66cd9966b91e9fd16495f839b9a0152f052"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_MANUAL_ERRATUM.json",
+            "bytes": 799,
+            "sha256": "76859fd772b85f35e1a0a432bc88c38e4ba95a56a3cb13c430626a51852ee88d"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_INDEPENDENT_MANUAL_READ_V2.md",
+            "bytes": 3274,
+            "sha256": "0e0b74a1509f4c807ac85ec66c461f9994be16d9dbe4c6501b03119b4e4e0780"
+          }
+        ]
+      },
+      {
+        "receipt": "7ea71d",
+        "sources": [
+          {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_weighted_margin_interval_v1/source/WEIGHTED_MARGIN_PROOF.md",
+            "bytes": 11272,
+            "sha256": "9bb479dcf644af911bb5c87fcccf722b987219ff0b5cf7f385efde764bbb2e02"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_single_endpoint_criterion_v1/source/UPPER_BOUNDARY.md",
+            "bytes": 13039,
+            "sha256": "89edbbe412a3d3be14f07d168186d2452ed90672df12953626f2292da7fcb5fc"
+          }
+        ]
+      },
+      {
+        "receipt": "7d31ea",
+        "sources": [
+          {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_six_antichain_bound_v1/source/SIX_ANTICHAIN_BOUND.md",
+            "bytes": 10971,
+            "sha256": "6a9538be7a5b2b976bd74d9e165cbc8e0726e71b04effbc3cd00eaf027b1c3e4"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md",
+            "bytes": 13499,
+            "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+          }
+        ]
+      },
+      {
+        "receipt": "5210aa",
+        "sources": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/LOWER_LAW_TRACE.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/LOWER_LAW_TRACE.md",
+            "bytes": 11631,
+            "sha256": "3b74151edeb6316c00ac09f752727899abf24ea5cc6da75c7da080435a7e6d6e",
+            "symlinks": []
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+            "bytes": 17102,
+            "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+            "symlinks": []
+          }
+        ]
+      },
+      {
+        "receipt": "b7a1c6",
+        "sources": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/INPUT_FORMULAS.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/INPUT_FORMULAS.md",
+            "bytes": 17929,
+            "sha256": "eaee191bdc68bebcdfcbc90636cdd066f14c284876131171a69422fcdba4b118",
+            "symlinks": []
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+            "bytes": 12849,
+            "sha256": "abff2d8a473634532dc8690556a2ce828f80cde0ff1704068ec2445778462125",
+            "symlinks": []
+          }
+        ]
+      },
+      {
+        "receipt": "bddf98",
+        "sources": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/COMPONENT_CONTRASTS.md",
+            "bytes": 19001,
+            "sha256": "b982477d162bce2210aabaffe91cc68e52315734c186d2895e67da4736c9a49f"
+          }
+        ]
+      },
+      {
+        "receipt": "9fc36f",
+        "sources": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+            "bytes": 7886,
+            "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247",
+            "symlinks": []
+          }
+        ]
+      },
+      {
+        "receipt": "760b5b",
+        "sources": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/PAIR_PROOF.md",
+            "bytes": 7251,
+            "sha256": "42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/ROOT_OVERRIDE_AUDIT.md",
+            "bytes": 7520,
+            "sha256": "a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3"
+          }
+        ]
+      }
+    ],
+    "administrative_projection_receipts": [
+      "e43adc",
+      "c11658"
+    ],
+    "direct_identity_construction_receipt": {
+      "chunk_id": "741530",
+      "exit_code": 0,
+      "output_truncated": false,
+      "direct_files": 26,
+      "direct_bytes": 1030155
+    }
+  },
+  "writing_skill": {
+    "skill": "pages:write-page",
+    "complete_skill_read": {
+      "chunk_id": "72a289",
+      "exit_code": 0
+    },
+    "complete_required_writing_quality_read": {
+      "chunk_id": "2e2cc3",
+      "exit_code": 0
+    },
+    "use": "Preserved local research format; separated alternatives, proved results and boundaries. No Page created."
+  },
+  "manuscript_phases": [
+    {
+      "phase": "initial_complete_manual_read",
+      "receipt": {
+        "chunk_id": "1f7d06",
+        "exit_code": 0,
+        "output_truncated": false
+      },
+      "payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/MAXIMUM_BOUND.md",
+          "bytes": 14634,
+          "sha256": "85123a428363af788b4cb5ce222fe5e4debab10da5905bff8ab94a293ffe1557"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/HANDOFF.md",
+          "bytes": 2367,
+          "sha256": "7ecb858117d062af4695e02bd44ea7f8afa134cb510889f189ab24bf0d2f5574"
+        }
+      ]
+    },
+    {
+      "phase": "final_complete_manual_read",
+      "receipt": {
+        "chunk_id": "657436",
+        "exit_code": 0,
+        "output_truncated": false
+      },
+      "payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/HANDOFF.md",
+          "bytes": 2377,
+          "sha256": "5a5eb351e51becc3e1e47b209cfc8411ff527e1de35a9dbad0c341fd5776af1b"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/MAXIMUM_BOUND.md",
+          "bytes": 14630,
+          "sha256": "0dea1b702c22c018cb6a7bd5546d99b5a91b16a3fff4bf9e66592e4113620662"
+        }
+      ],
+      "changes": "Replaced multilinear by product to account for repeated canonical components; clarified automated coefficient/graph computation in the handoff; small line wrapping. No mathematical result changed."
+    }
+  ],
+  "author_administrative_check": {
+    "script": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k',P='/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b),cache=new Map();\nfunction pin(i){let a=cache.get(i.path);if(!a){a=readExact(i);cache.set(i.path,a);}need(a.bytes===i.bytes&&a.sha256===i.sha256,'pin '+i.path);if(i.resolved_path!==undefined)need(i.resolved_path===i.path,'resolved');if(i.symlinks!==undefined)need(eq(i.symlinks,[]),'symlinks');return a;}\nconst refId={path:Q+'/SOURCE_REFERENCES.json',bytes:31518,sha256:'379eab32dcaa5e30835a693669fbef072923f8dc094a65afd4b63e1e0cec2b66'};\npin({path:Q+'/MAXIMUM_BOUND.md',bytes:14630,sha256:'0dea1b702c22c018cb6a7bd5546d99b5a91b16a3fff4bf9e66592e4113620662'});\npin({path:Q+'/HANDOFF.md',bytes:2377,sha256:'5a5eb351e51becc3e1e47b209cfc8411ff527e1de35a9dbad0c341fd5776af1b'});\nconst S=JSON.parse(pin(refId).body),M=new Map(S.direct_sources.map(r=>[r.identity.path,r]));\nneed(M.size===26&&eq([...M.keys()],[...M.keys()].sort()),'direct26 sorted');\nneed(S.direct_sources.reduce((n,r)=>n+r.identity.bytes,0)===1030155,'direct bytes');\nfor(const r of S.direct_sources){need(['administrative-reference','opaque-historical-support','accepted-analytic-text'].includes(r.access),'access class');pin(r.identity);}\nconst inherited=JSON.parse(pin(S.inherited_manifest_by_reference.identity).body);\nneed(inherited.protected_files.length===423&&S.inherited_manifest_by_reference.selected_paths===423&&S.inherited_manifest_by_reference.fresh423_file_or_transitive_typed_reference_recheck_claimed===false,'by-reference scope');\nconst boundaries=Object.fromEntries(Object.entries(inherited).filter(([k])=>!['schema','status','protected_files','scope'].includes(k)));\nneed(eq(boundaries,S.inherited_manifest_by_reference.boundary_objects)&&Object.keys(boundaries).length===15,'fifteen boundary objects unchanged');\nneed(S.inherited_manifest_by_reference.boundaries_are_preserved_historical_scope_not_current_read_authority===true&&S.inherited_manifest_by_reference.RI197_literal_certificate_exception_used_for_new_scientific_read===false&&S.inherited_manifest_by_reference.RI164_operational_boundary_remains_unexpanded===true,'historical scope');\nlet directReferences=0;\nfunction direct(i){need(M.has(i.path),'selected direct reference');pin(i);directReferences++;}\nfor(const i of [S.assignment,S.accepted_predecessor,S.accepted_manual_packet,S.inherited_manifest_by_reference.identity,S.inherited_manifest_by_reference.acceptance])direct(i);\nfor(const group of S.current_complete_literal_read_groups)for(const i of group.sources)direct(i);\nconst h=JSON.parse(pin(S.accepted_manual_packet).body),names=fs.readdirSync(P).sort();\nneed(names.length===8&&eq(names,[...h.namespace].sort())&&eq(names,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort())&&eq(h.namespace,S.predecessor_namespace),'prior namespace8');\nh.payloads.forEach(direct);\nneed(S.scientific_scope.new_scientific_body_read===false&&S.scientific_scope.scientific_JSON_parsed===false&&S.scientific_scope.automatic_arithmetic_graph_LP_or_scientific_execution===false&&S.scientific_scope.actual_W_or_H30_decided===false&&S.scientific_scope.ret_paused===true,'scientific scope');\nneed(eq(S.executable_obligations,{controls:92,recipes:34,mutation_families:35,focused_attempts:31,policy_cases:139,native_deeper:20,audit_deeper:42,new_credit:0,scope:'Required for their respective executable routes; no route is used or qualified by this manual analysis.'}),'obligations');\nconst final=['MAXIMUM_BOUND.md','SOURCE_REFERENCES.json','HANDOFF.md','AUTHOR_VERIFICATION.json','HANDOFF.json'].sort(),stage=process.argv[1]||'preseal3';\nneed(['preseal3','final5'].includes(stage),'stage');\nconst expected=stage==='final5'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>{const a=readExact({path:Q+'/'+n});cache.set(a.path,a);return simple(a);});\nfor(const n of ['MAXIMUM_BOUND.md','HANDOFF.md']){const text=cache.get(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(text)&&!/[ \\t]+$/m.test(text),'text hygiene');for(const m of text.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g))need(expected.includes(m[1]),'local Markdown target');}\nif(stage==='final5'){\nconst z=JSON.parse(cache.get(Q+'/HANDOFF.json').body);need(eq(z.namespace,final)&&z.payloads.length===4&&eq(z.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');z.payloads.forEach(pin);direct(z.assignment);direct(z.accepted_predecessor);\nneed(z.manual_analysis_only===true&&z.global_M6_upper_bound_proved===false&&z.concrete_parent_above_target_proved===false&&z.actual_W_decided===false&&z.new_scientific_body_read===false&&z.automated_proof_arithmetic_or_subject_execution===false&&z.qualification_credit===false&&z.repository_or_Git_written===false&&z.ret_paused===true,'scope of seal');\n}\nconst all=[...cache.values()].map(simple);for(const i of all)readExact(i);\nneed(all.length===26+expected.length,'direct current fresh scope');\nneed(eq(fs.readdirSync(Q).sort(),expected)&&eq(fs.readdirSync(P).sort(),names),'post namespaces');\nconsole.log(JSON.stringify({schema:'ri199-compact-administrative-check-v1',status:'IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE',stage,direct_sources:26,direct_bytes:1030155,inherited423_manifest_by_reference:true,fresh_inherited423_replay:false,inherited_boundary_objects_preserved:15,explicit_direct_reference_checks:directReferences,predecessor_namespace:8,current_namespace:expected.length,whole_identity_fresh_rechecks:all.length,current_payloads:payloads,scientific_body_read_or_proof_arithmetic:false,subject_execution:false},null,2));\n",
+    "actual_preseal_receipt": {
+      "chunk_id": "3a4338",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    "actual_preseal_result": {
+      "schema": "ri199-compact-administrative-check-v1",
+      "status": "IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE",
+      "stage": "preseal3",
+      "direct_sources": 26,
+      "direct_bytes": 1030155,
+      "inherited423_manifest_by_reference": true,
+      "fresh_inherited423_replay": false,
+      "inherited_boundary_objects_preserved": 15,
+      "explicit_direct_reference_checks": 29,
+      "predecessor_namespace": 8,
+      "current_namespace": 3,
+      "whole_identity_fresh_rechecks": 29,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/HANDOFF.md",
+          "bytes": 2377,
+          "sha256": "5a5eb351e51becc3e1e47b209cfc8411ff527e1de35a9dbad0c341fd5776af1b"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/MAXIMUM_BOUND.md",
+          "bytes": 14630,
+          "sha256": "0dea1b702c22c018cb6a7bd5546d99b5a91b16a3fff4bf9e66592e4113620662"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/SOURCE_REFERENCES.json",
+          "bytes": 31518,
+          "sha256": "379eab32dcaa5e30835a693669fbef072923f8dc094a65afd4b63e1e0cec2b66"
+        }
+      ],
+      "scientific_body_read_or_proof_arithmetic": false,
+      "subject_execution": false
+    },
+    "scope": "Direct-source and current-payload byte identities, selected administrative JSON references, inherited boundary preservation, namespaces and local text/link hygiene. Not mathematical acceptance or scientific execution.",
+    "final5_check_not_yet_run_at_this_file_creation": true,
+    "final5_actual_receipt_will_be_reported_externally": true,
+    "self_reference_policy": "This author record is pinned by HANDOFF.json; HANDOFF.json is pinned in the external final receipt. No claim of an internal self-authenticating seal."
+  },
+  "current_failures_or_clipped_commands": [],
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stopping_rule": "Return the sealed five-file packet for independent root review. Root controls acceptance, repository/Git publication and any successor. Do not start a successor or revise predecessor packets."
+}

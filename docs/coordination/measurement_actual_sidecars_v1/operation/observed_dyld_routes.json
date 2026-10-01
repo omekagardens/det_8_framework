@@ -1,0 +1,19 @@
+{
+  "absent_paths": [
+    "/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+    "/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+    "/opt/homebrew/Cellar/mpdecimal/4.0.1/lib/libmpdec.3.dylib",
+    "/opt/homebrew/lib/libmpdec.3.dylib",
+    "/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib",
+    "/usr/lib/libmpdec.3.dylib",
+    "/usr/local/lib/libmpdec.3.dylib"
+  ],
+  "schema": "ri133-preobserved-dyld-route-domain-v1",
+  "scope": "All predeclared routes; actual ordered attempts must be fully parsed and be contained here. No retrospective precheck credit.",
+  "symlinks": [
+    {
+      "path": "/opt/homebrew/opt/mpdecimal",
+      "target": "../Cellar/mpdecimal/4.0.1"
+    }
+  ]
+}

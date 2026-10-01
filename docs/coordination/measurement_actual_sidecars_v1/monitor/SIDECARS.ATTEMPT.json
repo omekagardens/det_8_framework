@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ADMIT_SIDECARS.json"
+  ],
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "pid_owner": 40143,
+  "scientific_target_entry": false,
+  "wall_seconds": 180
+}

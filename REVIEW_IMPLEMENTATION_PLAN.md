@@ -1,6 +1,68 @@
 **DET independent-review implementation and QR coordination**
 
 **Current checkpoint — 1 October 2026 UTC (30 September in Honolulu).**
+RI199 is independently accepted as a partial native theorem: every six-parent
+with a unique maximal event has U6=1 for every record. The full omitted-maxima
+partition gives U6=m-L+C, retaining all proper ideals, marked records, fixed
+canonical corrections and repeated parity-product factors. The unchanged
+sufficient target M6<=T=4lambda*j0/v-1/2 implies strict actual W>0 even at
+equality; the accepted pair gives T>13/(10theta)-1/2>1867/10. Neither the
+global bound nor a violating parent nor actual W is established.
+
+For two through six maxima, the exact remaining requirement is C-L<=T-m.
+The two specified C4-plus-A2 records retain the full N_i squared correction
+and reproduce the previously accepted F_i bound. Root read and manually
+checked the manuscript and accepted source definitions; a nonauthor review
+agreed. Metadata check e8cb63 exit0 verified 26 direct sources plus five
+current payloads, 31 selected references, both namespaces and fifteen
+unchanged boundary objects. The 423-file manifest remains by exact reference.
+The first administrative reference-shape diagnostic is preserved, with its
+strictly corrected checker. See `docs/track_b/native_maximal_deletion_reduction_v1/`.
+
+RI201 is now actively assigned to QR after predecessor adjudication. It
+attacks the entire two-maxima class through U6=1+sum B(S)(a(S)-1)(b(S)-1),
+where both actual extension precursor ideals cover the four-event remainder.
+Every compatible marked pair and ideal remains; shared canonical coordinates
+are not independent variables. Prove the cross-moment<=T-1 or give an actual
+violating parent, or obtain a sharper explicit native inequality. An auxiliary
+Cauchy-Schwarz failure is not a native counterexample. RI201 may use the
+published RI41 ideal-probability minimum as an inherited finite premise;
+its emerging A5 witness and two-maxima result await independent review.
+Other maxima classes, both margins, H30 and physical claims remain open.
+
+Measurement advanced through actual administrative sidecar execution:
+a1ff1f/session18218, terminal e214c5 exit0. All five whole accepted PRE fields
+were exported exactly; both actual profiles and original dyld evidence stay
+bound. Root check1a2efb passed and independent check0ef7af passed19,307
+predicates. All eight operation files including COMPLETE, four monitor files,
+twelve independent tails, 668 current source identities, 810 historical role
+rows and E's unchanged48files/nine directories reconcile. Fresh vendor/host
+custody covered1810files/48,024,515bytes,195namespace rows,two absences/fourtools.
+The run took2.115778542seconds:59samples,peak210480KiB,max gap38.721375ms,
+final gap35.131917ms. Original resource limits are unchanged.
+
+Only this administrative export is accepted. Earlier adapter authorship is
+disclosed; accepted RI160 source semantics and actual106 qualification are
+inherited. Reviewer-only mistakes and the preexecution checker correction
+are preserved; no subject retry occurred. Root's exact terminal-argument
+supplement closes the receipt detail noted by review. The archive is
+`docs/coordination/measurement_actual_sidecars_v1/`.
+
+RI198 next is the exact current source decision, separately supervised
+candidate caller/guards/runtime adapters, independent field review, then
+the candidate freeze. No operational freeze, mode card or WHITE execution
+has occurred. Fresh per-mode custody remains necessary; normal actual
+acceptance precedes optimized. WHITE15/W09,179controls per mode,27/13/30
+records,57artifacts,74postchecks,three science trees,RI131/full32 and the
+selected public GWOSC reproduction remain separate. Fixed supplier/cache/
+Apple-host/loader/no-descendants/read-window premises remain, with no claim
+of source/cache equivalence or hard group memory quota. All native executable
+obligations and original shared-law premises remain. RET alone stays paused.
+
+This checkpoint is a bounded proof and measurement advance; the programme
+continues. Scoped publication preserves every unrelated entry identity.
+
+**Prior checkpoint — original pair and applicability acceptance.**
 RI197 independently resolves the previously missing original coefficient gap.
 The unchanged certificate's routed keys (2254,7,0) and (2254,7,1) are at
 zero-based indices 101 and 102. Both are explicit overrides, 197/200 and

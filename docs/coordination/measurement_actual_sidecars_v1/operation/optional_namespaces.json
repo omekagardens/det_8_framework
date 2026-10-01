@@ -1,0 +1,148 @@
+{
+  "directories": [
+    {
+      "recursive_members_no_symlink_traversal": [
+        {
+          "kind": "directory",
+          "relative_path": "cmake"
+        },
+        {
+          "kind": "directory",
+          "relative_path": "cmake/OpenSSL"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "cmake/OpenSSL/OpenSSLConfig.cmake"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "cmake/OpenSSL/OpenSSLConfigVersion.cmake"
+        },
+        {
+          "kind": "directory",
+          "relative_path": "engines-3"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "engines-3/capi.dylib"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "engines-3/loader_attic.dylib"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "engines-3/padlock.dylib"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "libcrypto.3.dylib"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "libcrypto.a"
+        },
+        {
+          "kind": "symlink",
+          "literal_target": "libcrypto.3.dylib",
+          "relative_path": "libcrypto.dylib"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "libssl.3.dylib"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "libssl.a"
+        },
+        {
+          "kind": "symlink",
+          "literal_target": "libssl.3.dylib",
+          "relative_path": "libssl.dylib"
+        },
+        {
+          "kind": "directory",
+          "relative_path": "ossl-modules"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "ossl-modules/legacy.dylib"
+        },
+        {
+          "kind": "directory",
+          "relative_path": "pkgconfig"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "pkgconfig/libcrypto.pc"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "pkgconfig/libssl.pc"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "pkgconfig/openssl.pc"
+        }
+      ],
+      "root": "/opt/homebrew/Cellar/openssl@3/3.6.0/lib"
+    },
+    {
+      "recursive_members_no_symlink_traversal": [
+        {
+          "kind": "regular",
+          "relative_path": "liblzma.5.dylib"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "liblzma.a"
+        },
+        {
+          "kind": "symlink",
+          "literal_target": "liblzma.5.dylib",
+          "relative_path": "liblzma.dylib"
+        },
+        {
+          "kind": "directory",
+          "relative_path": "pkgconfig"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "pkgconfig/liblzma.pc"
+        }
+      ],
+      "root": "/opt/homebrew/Cellar/xz/5.8.2/lib"
+    },
+    {
+      "recursive_members_no_symlink_traversal": [
+        {
+          "kind": "symlink",
+          "literal_target": "libsqlite3.3.51.2.dylib",
+          "relative_path": "libsqlite3.0.dylib"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "libsqlite3.3.51.2.dylib"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "libsqlite3.a"
+        },
+        {
+          "kind": "symlink",
+          "literal_target": "libsqlite3.3.51.2.dylib",
+          "relative_path": "libsqlite3.dylib"
+        },
+        {
+          "kind": "directory",
+          "relative_path": "pkgconfig"
+        },
+        {
+          "kind": "regular",
+          "relative_path": "pkgconfig/sqlite3.pc"
+        }
+      ],
+      "root": "/opt/homebrew/Cellar/sqlite/3.51.2/lib"
+    }
+  ]
+}
