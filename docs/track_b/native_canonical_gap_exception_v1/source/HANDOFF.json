@@ -1,0 +1,161 @@
+{
+  "schema": "ri240-native-canonical-order-handoff-v1",
+  "status": "SEALED_SOURCE_ONLY_AUTHOR_RESULT_PENDING_INDEPENDENT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "coordinator_thread": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI240_NATIVE_ASSIGNMENT.json",
+    "bytes": 3003,
+    "sha256": "a46f1650806a9ff83e1a3619002730f8decfcfd45e86db069446b34e40a8892f"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_ROOT_ADJUDICATION.json",
+    "bytes": 2809,
+    "sha256": "10b8ff1ee6269a389ceae03e370f4640df49c53a7cfd40569c034c04f16889f4"
+  },
+  "independent_predecessor_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_INDEPENDENT_REVIEW.txt",
+    "bytes": 10652,
+    "sha256": "8e19f71da16e531a36758b6cb47068d95e99771fd2f06c8cc659ae604d367869"
+  },
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo/AUTHOR_VERIFICATION.json",
+      "bytes": 53142,
+      "sha256": "e8ef8ab867c56eef3762b99211c5d92652d72bc05e8d79c4854cffe4f9ac9d71"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo/CANONICAL_EXCHANGE.md",
+      "bytes": 11138,
+      "sha256": "70cff1facf7b65a93683d58d80ad1b12ca0b70b033b9cad78c4c53f23d2819e6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo/HANDOFF.md",
+      "bytes": 2174,
+      "sha256": "7a4b871493adc839dc583b39a1cab3b9d2616926a9c70d09b76f5c9ff27af7a6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo/HOOK_AND_EXCEPTION.md",
+      "bytes": 11250,
+      "sha256": "b465b5244ec7745212cb556661154e1d27d9f004a934718c4b01854c4ea61b0e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo/SOURCE_REFERENCES.json",
+      "bytes": 82512,
+      "sha256": "860d7529535cd4c4b072cd8edaafb5527bfd6828a4d884025950446e59a66cd2"
+    }
+  ],
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "CANONICAL_EXCHANGE.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "HOOK_AND_EXCEPTION.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "new_actual_law_results": [
+    "C_b=0 requires kappa0-kappa1>1/70 and M1-M0>41/24640>1/625; a small reversed canonical gap still suffices for C_b<0.",
+    "A kappa-only root transfer violates an actual tight P row. The complete kappa-to-tau exchange yields the necessary alternative kappa_i=0, or a carrying P_tau row tight, or T_i<=L_i.",
+    "d=d7 forces the cleared actual hook contrast F into (-2^-77,0); a separately proved rational denominator bound <=2^77 would exclude it without asserting a discovery lattice.",
+    "On d=d7 the actual allocation-free contrast Delta Bhat2>rho*theta/25. The full C_2(ell) is positive if Delta Q<=64theta/[25(1-rho)]."
+  ],
+  "mathematical_status": "Additional quantitative actual-law bounds and a complete coupled exchange blocker, conditional on unchanged accepted finite premises. Actual canonical branch unresolved. Exact input/lemma gaps named; not a nonderivability theorem.",
+  "exact_remaining_gap": [
+    "Actual kappa0-kappa1 or M1-M0 comparison.",
+    "Complete P_tau companion slacks and weighted T_i versus L_i comparison; lexicographic binding on primary equality.",
+    "Actual cleared hook contrast or a same-source denominator bound; all six hook roles/minima/positive parts retained.",
+    "Actual exceptional C_2(ell), normalized witness/inconsistency, improvement, optimality and maximal amplitude."
+  ],
+  "actual_full_normalized_witness": false,
+  "actual_signed_inconsistency": false,
+  "accepted_full_system_iff_retained": true,
+  "complete_original_recovery_retained": true,
+  "actual_rank_claim": false,
+  "canonical_kappa_values_resolved": false,
+  "actual_d7_branch_resolved": false,
+  "relaxed_allocation_countermodel": false,
+  "improvement_or_optimality_claim": false,
+  "maximal_amplitude_claim": false,
+  "discovery_grid_assumed": false,
+  "all_ten_original_coordinates_retained": true,
+  "all_five_disconnected_equations_retained": true,
+  "all_eight_connected_equations_retained": true,
+  "all_zero_contrast_branches_retained": true,
+  "actual_canonical_terms_retained": true,
+  "complete_companion_constraints_and_objective_retained": true,
+  "original_strict_endpoints_retained": true,
+  "current_scope": {
+    "manual_mathematical_reasoning": true,
+    "automatic_scientific_arithmetic": false,
+    "scientific_body_read": false,
+    "scientific_JSON_decoded": false,
+    "new_coordinate_read": false,
+    "original_RI41_exception_renewed": false,
+    "new_amplitude": false,
+    "H_or_z_reconstructed": false,
+    "subject_execution": false,
+    "measurement_access": false,
+    "RET_access": false,
+    "repository_changes": false,
+    "git_or_index_operations": false,
+    "successor_assigned": false,
+    "qualification_credit": 0
+  },
+  "qualification_credit": 0,
+  "successor_assigned": false,
+  "RET_paused": true,
+  "root_owns_independent_review_publication_and_successor": true,
+  "diagnostics": {
+    "failed_shell_commands": 0,
+    "failed_orchestration_attempts": 0,
+    "rejected_patches": 0,
+    "clipped_displays": 1,
+    "clipped_detail": "7343f8 combined analytic display clipped inside COMPONENT_ROUTING. Complete COMPONENT_ROUTING recovered in a466a8 exit0; complete ENDPOINT_CERTIFICATE and COUPLED_CONTRAST reread in bf74ca exit0. No clipped display is credited as a complete source read.",
+    "predecessor_diagnostics_preserved": true,
+    "predecessor_diagnostics": {
+      "failed_shell_commands": 0,
+      "failed_orchestration_attempts": 1,
+      "orchestration_detail": "An initial in-memory source-list selection used row.path instead of row.identity.path and threw TypeError before any shell command or filesystem access. Corrected selection completed in 3881c4 exit0. No source was read or changed by the failed attempt.",
+      "rejected_patches": 0,
+      "clipped_displays": 0,
+      "predecessor_diagnostics_preserved": true,
+      "predecessor_diagnostics": {
+        "failed_shell_commands": 1,
+        "failed_shell_detail": "4f3d0e: initial read-only AGENTS.md filename inventory across workspace and evidence paths returned no matches, exit1; pwd succeeded. No source body was displayed by that inventory and no Git/index or write occurred.",
+        "failed_orchestration_attempts": 0,
+        "rejected_patches": 0,
+        "clipped_displays": 2,
+        "clipped_recovery": "f71fd3 combined display clipped; complete RESULT and DESIGN recovered d6840c, ROOT_TRANSPORT recovered1e0960. a388f0 combined display clipped inside CONNECTED_CONSTRAINTS_LEMMA; whole file recovered af358e. No clipped passage supplies complete-read credit.",
+        "predecessor_diagnostics_preserved": true
+      }
+    }
+  },
+  "actual_checks_so_far": [
+    {
+      "kind": "metadata-only preseal",
+      "chunk_id": "53affa",
+      "exit_code": 0,
+      "direct_sources": 71,
+      "direct_bytes": 1481351,
+      "whole_identities": 75,
+      "preserved_boundaries": 15
+    }
+  ],
+  "complete_author_proof_reads": [
+    {
+      "chunk_id": "980724",
+      "exit_code": 0,
+      "phase": "draft"
+    },
+    {
+      "chunk_id": "460186",
+      "exit_code": 0,
+      "phase": "final",
+      "complete": true
+    }
+  ],
+  "finalization": "A genuine final six-file metadata pass follows this saved handoff. The final HANDOFF hash and pass receipt are reported externally. No final success is predicted here.",
+  "stopping_rule": "Seal bounded author packet for independent coordinator review. No new admission, successor, repo/Git/index/publication or executable work in this lane."
+}
+

@@ -1,0 +1,11 @@
+# Canonical gap, coupled exchange and hook exception
+
+RI240 is independently accepted as conditional finite-law mathematics. Actual cancellation requires kappa0-kappa1>1/70 and M1-M0>41/24640>1/625. A complete kappa-to-tau variation proves the precise optimum alternative, retaining every affected companion constraint and the original history-weighted objective. Primary equality still depends on the actual global lexicographic order.
+
+The exceptional hook branch forces its cleared contrast F into (-2^-77,0). A separately established denominator bound could exclude that interval; discovery rounding supplies no such bound. On the exceptional branch the allocation-free proper-sum contrast exceeds rho*theta/25, and the full recovery coefficient is positive under the stated canonical quadratic comparison. All minima, ties, positive parts, thirteen equations, ten coordinates and original recovery remain.
+
+Root and nonauthor each authenticated 77 whole-file identities, 71 direct sources totaling 1,481,351 bytes, all61 predecessor identities and15 unchanged boundary objects. Both complete proofs were checked manually. The original author final-six command was independently retrieved as completed exit0; its API output truncation is recorded, with no complete-output claim. Fresh independent integrity checks provide separate evidence.
+
+RI243 is assigned to the existing Quantum Relativity chat to close the actual hook input gap: derive six-slot expressions and a concrete minimal acquisition design where admitted analytic inputs do not decide the contrast. Its proposal is not a new body-read admission. Actual canonical coefficients, normalized witness/inconsistency, improvement, optimality, amplitude, all-size and physical claims remain unresolved. Measurement RI241 proceeds independently; RET remains paused.
+
+The six sealed author files and complete root review, nonauthor review, source checks, acceptance and successor assignment are copied exactly. Dependency mappings authenticate existing Git copies or explicitly retain external originals. The inherited423-source manifest and operational descendants remain by reference; this is not a complete transitive runtime archive or an authorization for relocated execution.

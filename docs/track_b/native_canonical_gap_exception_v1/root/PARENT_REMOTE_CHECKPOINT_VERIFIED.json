@@ -1,0 +1,38 @@
+{
+  "RET_paused": true,
+  "branch": "ret",
+  "commit": "651911e278cb9b538328b3eb5fd460cf81f59490",
+  "dependency_rows": 1112,
+  "evidence": [
+    {
+      "bytes": 1831,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_CHECKPOINT_TOOLS.json",
+      "sha256": "22ea28764302ba138864b503102f9abe50f04397d320720e9ab6353d23ca9238"
+    },
+    {
+      "bytes": 938,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POSTCOMMIT_VERIFICATION.json",
+      "sha256": "a25a562841632162e5788cc2885b3c71156de67ebc2c9208cab66f0402bf3cde"
+    },
+    {
+      "bytes": 1036,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/FINAL_PUBLICATION_INDEPENDENT_REVIEW.json",
+      "sha256": "1867ba79f4e7a052b158c720964fdbb9c3b3ec5d1b03b328c0121766d603d189"
+    }
+  ],
+  "exact_copies": 52,
+  "force_push": false,
+  "frozen_E_unchanged": true,
+  "index_empty": true,
+  "lossless_gzip_copies": 10,
+  "normal_push": true,
+  "parent": "f025291aa67019258498a11bbb0fea59d122d293",
+  "remote": "https://github.com/omekagardens/det_8_framework.git",
+  "remote_ref": "refs/heads/ret",
+  "schema": "ri239-remote-checkpoint-verified-v1",
+  "scope_files": 72,
+  "status": "VERIFIED_REMOTE_EQUALS_REVIEWED_COMMIT",
+  "unrelated_entries_unchanged": 5703,
+  "upstream": "origin/ret",
+  "whole_program_complete": false
+}

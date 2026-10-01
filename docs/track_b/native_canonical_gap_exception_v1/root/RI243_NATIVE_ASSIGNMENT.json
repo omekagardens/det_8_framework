@@ -1,0 +1,43 @@
+{
+  "RET_paused": true,
+  "allowed": "Manual reasoning and authenticated existing admitted analytic text/administrative provenance; metadata-only integrity checks.",
+  "independent_review": {
+    "bytes": 11269,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI240_INDEPENDENT_REVIEW.txt",
+    "sha256": "3a217baea38af6d83ea20a6d731e4fdbe77cf1f0bfbc603020525384ef2ce690"
+  },
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 2800,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI240_ROOT_ADJUDICATION.json",
+    "sha256": "a4845f731e53efd7b3adbf86d0fe8891837faa3d3d1795624625e71297aec1de"
+  },
+  "prohibitions": [
+    "No new scientific-body read, scientific JSON decoding, coordinate extraction or renewal of historical RI41/RI197/RI216/RI231 exceptions. The proposed contract is not an issued admission.",
+    "No automatic scientific arithmetic, calculator/Fraction, H/z, new amplitude, graph/LP or runtime/subject execution.",
+    "No measurement, RET, capture/card/fixture, repository/Git/index or publication operations."
+  ],
+  "qualification_credit": 0,
+  "question": "Resolve the actual hook exception d=d7 by closing its bounded fixed-prefix input gap; first provide a concrete reviewable six-slot acquisition design where admitted analytic texts cannot already prove separation.",
+  "requirements": [
+    "Use the exact actual hook r<a<b,r<x and six roles f_hook,0; f_hook,1; g_hook,(0,0); g_hook,(0,1); g_hook,(1,0); g_hook,(1,1), with f precursor {r,x}, g precursor {r,a,x}, and both selected-atom bits. Retain all whole-parent records, labeled ideals, local-key/component transport and original default/override provenance.",
+    "Derive complete same-law symbolic slot expressions and identify which existing accepted coefficients/potentials suffice. If an actual signed separation of F is derivable without new coordinates, prove it manually and retain zero/minimum/tie branches.",
+    "If unresolved, supply a minimal concrete acquisition contract for only the missing existing source roles: exact pinned source-body identities from admitted administrative provenance, structural role-to-key derivation, expected originals and selector/default/override obligations, proposed literal-read boundary and before/after custody, independent manual witness checks and a precise F/d7 acceptance test. Do not guess an index or open the scientific body while preparing the design.",
+    "A denominator route must prove a same-source denominator bound; discovery rounding is not a lattice theorem. A tiny interval alone is not impossibility.",
+    "Keep original canonical gap and exceptional Delta Q questions visible but do not duplicate completed RI238/RI240 algebra. The design must resolve the named acquisition step rather than simply relist missing values.",
+    "Preserve ten coordinates, thirteen equations, complete original recovery, all15 boundary objects and423-source manifest by reference. Return a bounded sealed packet for independent review; root selects source admission/publication/successor."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri243-native-hook-acquisition-_9p7ia0h",
+  "schema": "ri243-native-hook-acquisition-assignment-v1",
+  "source_references": {
+    "bytes": 82512,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo/SOURCE_REFERENCES.json",
+    "sha256": "860d7529535cd4c4b072cd8edaafb5527bfd6828a4d884025950446e59a66cd2"
+  },
+  "status": "ASSIGNED_AFTER_RI240_INDEPENDENT_ADJUDICATION",
+  "subject": {
+    "bytes": 8046,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo/HANDOFF.json",
+    "sha256": "9c8798722d6594b9f3d9ff02a91a7fcc867adb82d29e26898634e705d14696ca"
+  }
+}

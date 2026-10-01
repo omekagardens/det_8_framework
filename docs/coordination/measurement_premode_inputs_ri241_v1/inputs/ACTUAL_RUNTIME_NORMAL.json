@@ -1,0 +1,61 @@
+{
+  "baseline": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "copy_observation": {
+    "bytes": 127298,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/FROZEN.json",
+    "sha256": "a58eeff7d3652417cc2cb8a80f5a83c21be9779c0c92f412e5a136cfa937426c"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "freeze": {
+    "bytes": 26214,
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+  },
+  "genuine_collection_tools": {
+    "bytes": 2789,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/COLLECTION_PROVENANCE.json",
+    "sha256": "2c96b9f19b43b597111edbb5d439999ed8f0359b137955af5c1d7789b5425202"
+  },
+  "mode": "normal",
+  "observed_dyld_routes": {
+    "bytes": 771,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+    "sha256": "d428c7a943d1d13feecf1e55cbf0a80d80344636b11f922223e77d16b470fb38"
+  },
+  "phase": "pre",
+  "runtime_acceptance": {
+    "bytes": 22342,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/RUNTIME_ACCEPTANCE.json",
+    "sha256": "6c11846207bb55f82057a80a63fddce8ba3b00b21550ffc1dc4326203dd15add"
+  },
+  "schema": "ri156-root-actual-mode-runtime-v1",
+  "snapshot": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "vendor_after": {
+    "bytes": 1260447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_SUPPLIER_STABLE.json",
+    "sha256": "cf2e2cedecf1e9430081d769be5ae78395f0b1943967a040b9de03b702cfa4c2"
+  },
+  "vendor_before": {
+    "bytes": 1260447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_SUPPLIER_STABLE.json",
+    "sha256": "cf2e2cedecf1e9430081d769be5ae78395f0b1943967a040b9de03b702cfa4c2"
+  }
+}

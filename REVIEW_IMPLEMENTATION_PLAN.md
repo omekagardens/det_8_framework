@@ -1,6 +1,53 @@
 **DET independent-review implementation and QR coordination**
 
-**Current follow-through — conditional feasibility and current E capture accepted.**
+**Current follow-through — canonical gap accepted; normal pre-mode inputs reviewed.**
+1 October 2026 UTC. RI240 proves that actual D2 cancellation requires
+kappa0-kappa1>1/70 and M1-M0>41/24640>1/625. Its complete kappa-to-tau
+exchange identifies the exact companion slack or weighted objective
+obstruction; primary equality still requires the actual lexicographic order.
+
+The hook exception forces F into (-2^-77,0). A separately proved denominator
+bound could exclude it; discovery rounding is not that proof. On d=d7,
+Delta Bhat2>rho*theta/25 gives a new sufficient comparison for the full
+C2(ell) coefficient after restoring its actual canonical quadratic term.
+All minima/ties/positive parts, thirteen equations, ten coordinates and
+original recovery remain. Actual branch, normalized witness/inconsistency,
+improvement, optimality, amplitude, all-size and physical claims stay open.
+
+Root and nonauthor independently checked the full proofs and 77 identities,
+71 direct sources / 1,481,351 bytes, 61 preserved predecessor identities and 15
+boundary objects. Original author final6 was retrieved completed exit0;
+API truncation and reviewer diagnostics remain explicit. Evidence:
+`docs/track_b/native_canonical_gap_exception_v1/`.
+
+After adjudication, RI243 was assigned to the existing Quantum Relativity
+chat and is active. It targets the six exact hook slots and a concrete
+minimal acquisition contract with role-to-key/default/override provenance
+and a decisive F test. No new body/coordinate admission is issued by that
+design assignment. The 423-source manifest remains by reference.
+
+RI241 now has concrete independently reviewed runtime13/request5 inputs.
+The runtime freeze is a two-field content pin; the request freeze includes
+its path. Both whole snapshots, complete supplier projections, original
+runtime/profile/environment chain and dyld routes reconcile. Root freshly
+checked E: 49 files / nine directories before and after assembly, all 2,811 retained
+opaque identities and 48/124/30 source roles. E and mode-card absences remain
+unchanged. Evidence: `docs/coordination/measurement_premode_inputs_ri241_v1/`.
+
+RI244 reserves the next measurement operation separately from the sealed
+RI241 input namespace: a fresh separately admitted unchanged RI160
+pre_mode operation, preserving its 12-field admission and 106-control
+acceptance; review the nine-field result before separate mode_card generation. These input
+records issue no operational authority. Normal scientific qualification,
+independent arithmetic/normal acceptance, optimized, RI131/full32 and the
+selected public GWOSC conventional reproduction remain ordered obligations.
+Calibration stays separate from a native forward map; RET alone is paused.
+
+Parent 651911e278cb9b538328b3eb5fd460cf81f59490 was verified on origin/ret.
+This scoped checkpoint preserves original reviews, historical failures,
+protected evidence and unrelated edits. The programme remains in progress.
+
+**Prior checkpoint — conditional feasibility and current E capture accepted.**
 1 October 2026 UTC. RI238 proves U4=U5=U6=0 in every normalized
 solution: complete T9/T10 contrasts and D4 close the former T4 exception.
 Strict D3, exceptional D5 and T1 pivots give explicit shared recovery.

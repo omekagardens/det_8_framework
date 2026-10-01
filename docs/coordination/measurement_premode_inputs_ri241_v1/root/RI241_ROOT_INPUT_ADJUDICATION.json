@@ -1,0 +1,70 @@
+{
+  "RET_paused": true,
+  "all_source_roles": [
+    48,
+    124,
+    30
+  ],
+  "assembly": {
+    "bytes": 8237,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI241_UNISSUED_ASSEMBLY.json",
+    "sha256": "8646ddeff279c7cae52355f77844683576cfabe007716ce4cd278a7fb3204a87"
+  },
+  "concrete_candidate_review": {
+    "bytes": 7573,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI241_CANDIDATE_REVIEW.md",
+    "sha256": "26281da31c243dd70b7690982b69f4f5e13a648893be32a501d227f846175915"
+  },
+  "diagnostics": "Retain both earlier reviewer lookups, recovered clipped displays, empty source interval correction and root e4fee4 clipping recovered by e4712a. No failed subject operation.",
+  "fidelity": {
+    "bytes": 1835,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI241_REVIEW_FIDELITY.json",
+    "sha256": "3f9e131d8ac608b0799ac484fc9f976e9c677488464700200436962eff8d6587"
+  },
+  "field_map_review": {
+    "bytes": 6004,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI241_FIELD_MAP_REVIEW.md",
+    "sha256": "4fb2ddb920e4565b0e35286479054974ddf6188152573e61eac0ca5f86a59389"
+  },
+  "freeze_shapes": [
+    2,
+    3
+  ],
+  "frozen_E_directories": 9,
+  "frozen_E_files": 49,
+  "frozen_E_unchanged": true,
+  "independent_candidate_check": {
+    "canonical_predicates": 3954,
+    "chunk_id": "568dc2",
+    "exit_code": 0,
+    "opaque_identities": 2835
+  },
+  "independent_field_map": {
+    "chunk_id": "9e613a",
+    "exit_code": 0,
+    "opaque_identities": 668,
+    "predicates": 1111
+  },
+  "installed_freeze_decoded": false,
+  "pre_mode_admission_issued": false,
+  "qualification_credit": 0,
+  "remaining": "Fresh separately admitted RI160 pre_mode; independent result9 review before mode_card. All normal/optimized scientific and public-data qualification obligations remain.",
+  "request": {
+    "bytes": 1013,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/PRE_MODE_REQUEST.json",
+    "sha256": "6aeb27d703ec8487b22d61fea4f992fe54ff4cd87b335fbfbd1675d89d0ce001"
+  },
+  "root_assembly_execution": {
+    "chunk_id": "609d96",
+    "exit_code": 0
+  },
+  "runtime": {
+    "bytes": 2653,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/ACTUAL_RUNTIME_NORMAL.json",
+    "sha256": "ad393dee1a8c10a7798f9c961a732888d8273a003b19232ea5782977684d4379"
+  },
+  "schema": "ri241-root-unissued-input-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_UNISSUED_RUNTIME13_REQUEST5_SOURCE_COMPATIBILITY",
+  "subject_execution": false
+}

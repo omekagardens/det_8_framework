@@ -1,0 +1,55 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Cancellation requires kappa0-kappa1>1/70 and M1-M0>41/24640>1/625.",
+    "Complete kappa-to-tau exchange proves the stated optimum alternative, with original companion slack, weights and primary equality retained.",
+    "Hook exception forces F into (-2^-77,0); denominator separation requires its own actual bound.",
+    "On d=d7, Delta Bhat2>rho theta/25 and the restored full exceptional coefficient is positive under the stated Delta Q comparison."
+  ],
+  "author_final_observation": {
+    "bytes": 30609,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI240_AUTHOR_FINAL_RECEIPT.json",
+    "sha256": "1643c7c2f1c7f0b1867b6f7409e9ea2c62e4a5c3b621eabd7d3a45e08c6c05cf"
+  },
+  "boundary_objects_unchanged": 15,
+  "independent_review": {
+    "bytes": 11269,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI240_INDEPENDENT_REVIEW.txt",
+    "sha256": "3a217baea38af6d83ea20a6d731e4fdbe77cf1f0bfbc603020525384ef2ce690"
+  },
+  "inherited_manifest_by_reference": 423,
+  "qualification_credit": 0,
+  "remaining": [
+    "Actual hook contrast and canonical coefficient comparisons.",
+    "Actual normalized witness or inconsistency; improvement, optimality and amplitude.",
+    "All executable, measurement and physical prerequisites."
+  ],
+  "review_fidelity": {
+    "bytes": 654,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI240_REVIEW_COPY_FIDELITY.json",
+    "sha256": "c3166e3cbcf4498f4fdf207e4c9d47c6f551ab3f49fa8e5d94fd63edf067cf22"
+  },
+  "root_metadata": {
+    "bytes": 44593,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI240_ROOT_METADATA_CHECK.json",
+    "sha256": "ffbf606c5e3bbc6d9064015bc40b9717f6590e54355d3a58a5dd2c03ae9a2af2"
+  },
+  "root_review": {
+    "bytes": 4517,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI240_ROOT_REVIEW.md",
+    "sha256": "e6dcd535bc7fb90cf7c2a837b93e8048e4910a3676409612a141e0b9cba6e71b"
+  },
+  "schema": "ri242-ri240-root-adjudication-v1",
+  "scientific_execution": false,
+  "source_references": {
+    "bytes": 82512,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo/SOURCE_REFERENCES.json",
+    "sha256": "860d7529535cd4c4b072cd8edaafb5527bfd6828a4d884025950446e59a66cd2"
+  },
+  "status": "ACCEPT_CONDITIONAL_CANONICAL_GAP_EXCHANGE_AND_EXCEPTION_BOUNDS",
+  "subject": {
+    "bytes": 8046,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri240-native-canonical-order-6pk4aaeo/HANDOFF.json",
+    "sha256": "9c8798722d6594b9f3d9ff02a91a7fcc867adb82d29e26898634e705d14696ca"
+  }
+}
