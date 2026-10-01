@@ -1,0 +1,18 @@
+{
+  "aggregate_display_truncated": true,
+  "compact_final_projection_untruncated": true,
+  "failures": [
+    {
+      "action": "read_thread",
+      "reason": "maxOutputCharsPerItem=45000 exceeds20000; subsequent error response mistakenly JSON decoded",
+      "subject_execution": false
+    }
+  ],
+  "final_projection": {
+    "bytes": 14640,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_GENUINE_FINAL.json",
+    "sha256": "fbc02aa9fce9c847446ecc185cdd907cdddf7e394cb8c757fd56f639d3c2ef34"
+  },
+  "recovered_maxOutputCharsPerItem": 20000,
+  "status_command_note": "54ebf2 git status succeeded; rg AGENTS had no matches and compound exit1; no repository edit"
+}

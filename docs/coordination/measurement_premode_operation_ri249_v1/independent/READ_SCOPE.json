@@ -1,0 +1,86 @@
+{
+  "additive_root_outcome_check_role": "Corroborative only; it was not used as expected_result/COMPLETE/monitor oracle in check_saved_v2.py.",
+  "additive_source_and_review_pins": [
+    {
+      "bytes": 6302,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/ROOT_PRE_MODE_OUTCOME_CHECK.json",
+      "sha256": "240fce77c2e1736c33d835ce1793030fdadef95a4cc8814e2d279531f53ac9b3"
+    },
+    {
+      "bytes": 8149,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/outcome_check.py",
+      "sha256": "cf0cffa75eeb2301d9a6cff301abc4e8800cbc83c27961cf269ade27b597e7af"
+    },
+    {
+      "bytes": 1652,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PREDISPATCH_SOURCE_REVIEW.json",
+      "sha256": "8f6035238c6a921a529ebee52561d555c76d7e1bbc2bf93d38a8e26a5e4c4a15"
+    },
+    {
+      "bytes": 7577,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PREDISPATCH_INDEPENDENT_REVIEW.md",
+      "sha256": "cee717e8d23578eae7648cb9728a7834f0b1bc8cacef7cd163fb9d28cb3ad16a"
+    },
+    {
+      "bytes": 1542,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/ADMINISTRATIVE_STARTUP.json",
+      "sha256": "705f6d077cfdd8728e6f120758d959f9eaf8ec1d166914cb15cf83d3a7c00acf"
+    },
+    {
+      "bytes": 720,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/ORCHESTRATION_DIAGNOSTICS.json",
+      "sha256": "e7559e09278cd593c198bda5f56e6841f3b26c89d8ff91f059baa0b529687506"
+    },
+    {
+      "bytes": 8688,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/predispatch.py",
+      "sha256": "4c5a866b8b08df0757ab0c0a20fac6f30c66ad8805c9c97910c903e203226c04"
+    },
+    {
+      "bytes": 45721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    {
+      "bytes": 22982,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py",
+      "sha256": "28ed8355cee100c63b94338fd59a335c5a2193cc2f442fc9433062ec731e8ff9"
+    },
+    {
+      "bytes": 23552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/mode_verify.py",
+      "sha256": "938a0cc357046d4a4d9ffdc2382a9f94fd5a4d9a20333bfa47077427b0d3f5a3"
+    },
+    {
+      "bytes": 5313,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/custody_io.py",
+      "sha256": "b15e4edf55adead7a26759704edbe2d557b02c104b13a9c027a8ae0d7181fe7e"
+    },
+    {
+      "bytes": 3874,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/monitor_checks.py",
+      "sha256": "e7ec6e2a220e1bae7e323a7146638c5d5e6c6d157c1bfbb0f9a3dcda3dd62f05"
+    },
+    {
+      "bytes": 21309,
+      "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual_v2.py",
+      "sha256": "f447ac029ed0aa93d99c1232f1e740b9c009474877a82cd0bcbe0ddc7758ff33"
+    }
+  ],
+  "complete_fresh_input_domain": {
+    "bytes": 1763510,
+    "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/OBSERVATIONS.json",
+    "sha256": "57c366fdd99b7f80056b51973c3e3670109243022f1c01081e7d32b7aaea9bcf"
+  },
+  "fresh_relevant_text_reads": [
+    "adapter.py authentication and action dispatch lines1-155; full owned/tail path previously reread for this assignment",
+    "mode_verify.py current_runtime_record/pre_mode_record and their surrounding contracts",
+    "custody_io.py entire file",
+    "RI141 prepare.py monitor_text/child_run complete",
+    "RI249 root predispatch.py entire75 lines",
+    "own complete new checker and narrow v2 correction"
+  ],
+  "reused_source_semantics": "Accepted RI160/RI141 nonauthor/root reviews and prior independent outcome checks are inherited; this is not a new whole-source qualification. No target imports/execution. Old own-review observation functions are explicitly reused.",
+  "schema": "ri249-reviewer-source-and-additive-reference-scope-v1",
+  "subject_authorship_disclosure": "Reviewer authored historical RI125 primary/qualifier, RI131, RI156/158/160 adapter work and monitor_checks, and RI236 design, among prior preparation contributions. Reviewer did not author RI244 writer/bootstrap or RI249 root predispatch. This is independent reconstruction of saved outcome and custody under previously accepted mechanics, not self-certification of those historical source changes."
+}

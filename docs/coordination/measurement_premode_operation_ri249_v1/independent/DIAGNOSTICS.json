@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "description": "An overlarge root ISSUE JSON display exceeded tool output budget. No custody claim depends on its clipped terminal text; corrected bounded summaries and complete independently parsed/hashed phase objects were used.",
+      "exit_code": 0,
+      "id": "D01",
+      "kind": "truncated_administrative_display",
+      "tool_chunk": "1c1192"
+    },
+    {
+      "description": "Generic load required canonical sorted bytes from a genuine tool wrapper. Exact POST_HOST pin matched; root tool transcript has its original key and floating-point formatting. No such canonical format is required of genuine outer wrappers. Distinct v2 retains full expected bytes/hash/state plus strict duplicate/nonfinite JSON parsing; canonical encoding remains required of protocol artifacts. Only GENUINE_POST_HOST and GENUINE_OPERATION_TOOLS loads opt out of canonical serialization.",
+      "exit_code": 1,
+      "id": "D02",
+      "initial_chunk": "fa456f",
+      "kind": "reviewer_only_checker_failure",
+      "source": {
+        "bytes": 25279,
+        "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py",
+        "sha256": "c831d30a2a67633a5152343e9640ea16b208797b09385212a8d64afbfb65e785"
+      },
+      "terminal_chunk": "1a7e25",
+      "trace": {
+        "bytes": 1135,
+        "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/FAILED_REVIEWER_TRACE.txt",
+        "sha256": "a4438f4e5ca4a512d9d9119b7d684d5624216779424bacaf27ce6ebb1ef3bedd"
+      }
+    },
+    {
+      "description": "The retained checker diagnostic label says RI141 complete17 record shape. Its actual literal expected-key list and the saved monitor both have SIXTEEN fields, compared exactly. This is a label-only typo, not a failed or omitted field check. This report states16. The separate root phase custody objects have17; adapter COMPLETE14; preflight15.",
+      "id": "D03",
+      "kind": "reviewer_check_label_count_correction"
+    }
+  ],
+  "no_subject_retry": true,
+  "schema": "ri249-reviewer-preserved-diagnostics-v1",
+  "unchanged_subject_and_saved_operation": true
+}

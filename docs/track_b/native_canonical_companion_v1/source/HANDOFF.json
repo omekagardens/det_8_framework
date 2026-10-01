@@ -1,0 +1,326 @@
+{
+  "schema": "ri248-native-canonical-companion-handoff-v1",
+  "status": "SEALED_SOURCE_ONLY_AUTHOR_RESULT_PENDING_INDEPENDENT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8",
+  "author_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "review_owner_thread": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI248_ASSIGNMENT.json",
+    "bytes": 852,
+    "sha256": "852a3748ec22a24f06f6df605ac2970085366aa36d4f79282091270c6d8c34a3"
+  },
+  "assignment_text": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI248_ASSIGNMENT.md",
+    "bytes": 2233,
+    "sha256": "7848404f6688b61ae3922502f9edb4183877110bc758116b597bad09536a4586"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_ROOT_ADJUDICATION.json",
+    "bytes": 1984,
+    "sha256": "de1a0bd8f4bd3e31da027c8703e1ba2b572169aea837f25557e6571d05ef58e2"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "CANONICAL_BINDING.md",
+    "COMPANION_ROW.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/CANONICAL_BINDING.md",
+      "bytes": 14467,
+      "sha256": "76e25d9850503b02408c736a7a4c9c63b1165b6eb38e7fc3a2cb83df841b4ce9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/COMPANION_ROW.md",
+      "bytes": 14642,
+      "sha256": "35faf9a12a98ecdd7b29f898e082210662d661fa4a3a38feec8204f8b732d2e2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/HANDOFF.md",
+      "bytes": 1921,
+      "sha256": "233a25399c5a297abbe35dff8c03c9626b4719c042c75bd1e6c85ca943faf107"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/SOURCE_REFERENCES.json",
+      "bytes": 99722,
+      "sha256": "1bc0fba80e48fcbaac60ff37ce2684c20e048ea4887d56c8a5d60b3c259d7198"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/AUTHOR_VERIFICATION.json",
+      "bytes": 31470,
+      "sha256": "fbe56c3d4a8d266ee7f1bd025e56bd5236d79b94765f8f91e2a89d35a13d0ce8"
+    }
+  ],
+  "result": {
+    "type": "MANUAL_COMPLETE_COMPANION_ROW_AND_COUPLED_PRIMARY_DUAL_OBSTRUCTION_WITH_PROPOSED_ONLY_CANONICAL_BINDING",
+    "new_findings": [
+      "Complete four-family marked P_tau row and full affected companion incidences.",
+      "Accepted coefficient diamonds imply p0=19/2112,p1=7/1056 and v(r)=v_i; no new source values.",
+      "Actual L_i=0 and T_i=(7/9)v_i Pi_P,i>0 with exact original history multiplicities.",
+      "Positive kappa forces complete companion tightness, exact conditional cap and at least full companion-sector primary dual weight.",
+      "Manual five-carrier key binding for kappa and tau, unchanged primary/lex selection and proposed-only two-canonical-value source design."
+    ],
+    "unresolved": [
+      "Actual kappa gap/M comparison and C_b, full normalized witness or signed inconsistency.",
+      "Actual coupled companion allocations/slacks; original canonical source rank/schema binding and two values.",
+      "Improvement, optimality, amplitude, all-size/full-QM/geometry/mass/gravity and physical/executable prerequisites."
+    ],
+    "author_proof_not_independent_acceptance": true,
+    "C_tau": "p_i tau_i + h_(i,l) eta_(i,l) + n_(i,l) xi_(i,l,m) + s_(i,l,m) sigma_i <= 1",
+    "actual_exchange": "L_i=0 and T_i=(7/9)v_i Pi_P,i>0",
+    "positive_kappa_consequence": "A carrying P_tau row is tight; total carrying optimal primary dual weight is at least Pi_tau,i>0, equality if tau_i>0.",
+    "canonical_keys": "kappa (8590,17,0/1); tau (8604,17,i); original source indices and canonical values unbound.",
+    "sufficient_gap": "kappa0-kappa1<=1/70 remains unresolved; no C_b decision."
+  },
+  "actual_full_normalized_witness": false,
+  "actual_signed_inconsistency": false,
+  "canonical_Cb_resolved": false,
+  "actual_kappa_gap_resolved": false,
+  "complete_original_recovery_retained": true,
+  "accepted_full_system_iff_retained": true,
+  "inherited_zero_hook_branch_retained": true,
+  "successor_assigned": false,
+  "qualification_credit": 0,
+  "preserved_boundary_keys": [
+    "inherited_manifest_by_reference",
+    "inherited_original_six_admissions",
+    "inherited_additional_admissions",
+    "inherited_RI189_analytic_admission",
+    "inherited_shared_affine_admission",
+    "inherited_RI223_literal_admissions",
+    "inherited_RI225_disconnected_admission",
+    "inherited_RI228_construction_admissions",
+    "accepted_four_root_witness",
+    "predecessor_literal_exception_boundary",
+    "inherited_RI216_native_premises_by_reference",
+    "predecessor_lower_law_metadata_boundary",
+    "historical_diagnostics_preserved",
+    "executable_obligations",
+    "historical_RI231_literal_exception"
+  ],
+  "preserved_boundaries_reference": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri246-native-hook-literals-0_fkiagp/SOURCE_REFERENCES.json",
+    "bytes": 97034,
+    "sha256": "cd3603b222a9db186bfa181cb63ddd502252d2e3ee3304a4f5874f390ffb55c1"
+  },
+  "closed_RI246_authority": {
+    "reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri246-native-hook-literals-0_fkiagp/SOURCE_REFERENCES.json",
+      "bytes": 97034,
+      "sha256": "cd3603b222a9db186bfa181cb63ddd502252d2e3ee3304a4f5874f390ffb55c1"
+    },
+    "field": "current_literal_exception",
+    "closed": true,
+    "new_body_read_or_hash": false,
+    "original_object_retained_by_reference": true
+  },
+  "current_scope": {
+    "manual_mathematical_reasoning": true,
+    "automatic_scientific_arithmetic": false,
+    "scientific_body_read": false,
+    "scientific_body_hash": false,
+    "scientific_JSON_decoded": false,
+    "new_coordinate_read": false,
+    "full_vector_instantiated": false,
+    "H_or_z_reconstructed": false,
+    "new_amplitude": false,
+    "subject_execution": false,
+    "measurement_access": false,
+    "RET_access": false,
+    "repository_changes": false,
+    "git_or_index_operations": false,
+    "source_admission_issued": false,
+    "successor_assigned": false,
+    "original_RI41_RI197_RI216_RI231_RI246_exceptions_renewed": false,
+    "candidate_source_lstat_only": true,
+    "administrative_manifest_inspected_without_descendant_reads": true,
+    "qualification_credit": 0
+  },
+  "proposed_acquisition": {
+    "status": "DESIGN_ONLY_NOT_ADMITTED",
+    "expected_source_identity": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/CERTIFICATE.json",
+      "bytes": 19805,
+      "sha256": "f55625a686b4c859a8b3e720c80fbabbe9cfa0972cb7a9e78a50d1705833c28b"
+    },
+    "expected_hash_provenance": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "bytes": 17102,
+      "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+    },
+    "length_and_path_only_receipt": {
+      "chunk_id": "226790",
+      "exit_code": 0,
+      "metadata": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/CERTIFICATE.json",
+        "bytes": 19805,
+        "state": {
+          "dev": "16777244",
+          "ino": "375505",
+          "mode": "33188",
+          "size": "19805",
+          "mtimeNs": "1790237992403739551",
+          "ctimeNs": "1790237992403739551",
+          "nlink": "1"
+        },
+        "metadata_only": true,
+        "file_opened": false,
+        "body_read": false,
+        "hash_not_freshly_computed": true
+      }
+    },
+    "source_body_opened": false,
+    "source_hash_freshly_computed": false,
+    "canonical_roles": [
+      "kappa0 at component (8590,17,0)",
+      "kappa1 at component (8590,17,1)"
+    ],
+    "source_indices_resolved": false,
+    "canonical_values_resolved": false,
+    "canonical_selector": "RI63 actual primary optimum followed by full original sequential lexicographic minimization, not the alternative primary optimum or strict mixture.",
+    "index_and_sparse_schema_evidence_still_required": true,
+    "admission_required": true
+  },
+  "actual_preseal_receipt": {
+    "chunk_id": "a37477",
+    "exit_code": 0,
+    "complete_display": true,
+    "result": {
+      "schema": "ri248-metadata-check-result-v1",
+      "mode": "preseal",
+      "exit_intent": 0,
+      "scope": "Compact complete administrative result. File identities, metadata declarations, namespaces and preserved boundaries only; no scientific body, proof arithmetic or scientific execution.",
+      "direct_sources": 102,
+      "direct_bytes": 2139499,
+      "whole_identities": 106,
+      "preserved_boundaries": 15,
+      "inherited_manifest_sources_by_reference": 423,
+      "original_scientific_body_read": false,
+      "original_scientific_body_hash": false,
+      "scientific_JSON_decoded": false,
+      "proof_arithmetic": false,
+      "scientific_execution": false,
+      "closed_RI246_authority_retained": true,
+      "proposed_source_not_opened": true,
+      "current_namespace": [
+        "CANONICAL_BINDING.md",
+        "COMPANION_ROW.md",
+        "HANDOFF.md",
+        "SOURCE_REFERENCES.json"
+      ],
+      "predecessor_namespace": [
+        "AUTHOR_VERIFICATION.json",
+        "HANDOFF.json",
+        "HANDOFF.md",
+        "HOOK_BRANCH_CONSEQUENCE.md",
+        "SIX_HOOK_WITNESS.md",
+        "SOURCE_REFERENCES.json"
+      ],
+      "current_identities": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/CANONICAL_BINDING.md",
+          "bytes": 14467,
+          "sha256": "76e25d9850503b02408c736a7a4c9c63b1165b6eb38e7fc3a2cb83df841b4ce9"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/COMPANION_ROW.md",
+          "bytes": 14642,
+          "sha256": "35faf9a12a98ecdd7b29f898e082210662d661fa4a3a38feec8204f8b732d2e2"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/HANDOFF.md",
+          "bytes": 1921,
+          "sha256": "233a25399c5a297abbe35dff8c03c9626b4719c042c75bd1e6c85ca943faf107"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/SOURCE_REFERENCES.json",
+          "bytes": 99722,
+          "sha256": "1bc0fba80e48fcbaac60ff37ce2684c20e048ea4887d56c8a5d60b3c259d7198"
+        }
+      ]
+    }
+  },
+  "actual_final_proof_read_receipt": {
+    "chunk_id": "2e91cd",
+    "exit_code": 0,
+    "complete_display": true
+  },
+  "actual_author_pin_receipt": {
+    "chunk_id": "5591f4",
+    "exit_code": 0
+  },
+  "final_metadata_verification": "Run final6 after this file is written; its external genuine receipt will be delivered separately. This field does not predict its success.",
+  "diagnostics": {
+    "failed_shell_commands": 0,
+    "failed_orchestration_attempts": 0,
+    "rejected_patches": 0,
+    "clipped_displays": 0,
+    "predecessor_diagnostics_preserved": true,
+    "predecessor_diagnostics": {
+      "failed_shell_commands": 2,
+      "failed_orchestration_attempts": 0,
+      "rejected_patches": 0,
+      "clipped_displays": 0,
+      "predecessor_diagnostics_preserved": true,
+      "predecessor_diagnostics": {
+        "failed_shell_commands": 0,
+        "failed_orchestration_attempts": 1,
+        "rejected_patches": 1,
+        "clipped_displays": 0,
+        "repair_detail": "One formatting-only apply_patch call was rejected before changes because it contained multiple file operations for the same path. The orchestration surfaced that same rejection. Reissued with one operation per file and multiple hunks; success. No scientific data read, changed premise or partial write resulted.",
+        "predecessor_diagnostics_preserved": true,
+        "predecessor_diagnostics": {
+          "failed_shell_commands": 0,
+          "failed_orchestration_attempts": 0,
+          "rejected_patches": 0,
+          "clipped_displays": 1,
+          "clipped_detail": "7343f8 combined analytic display clipped inside COMPONENT_ROUTING. Complete COMPONENT_ROUTING recovered in a466a8 exit0; complete ENDPOINT_CERTIFICATE and COUPLED_CONTRAST reread in bf74ca exit0. No clipped display is credited as a complete source read.",
+          "predecessor_diagnostics_preserved": true,
+          "predecessor_diagnostics": {
+            "failed_shell_commands": 0,
+            "failed_orchestration_attempts": 1,
+            "orchestration_detail": "An initial in-memory source-list selection used row.path instead of row.identity.path and threw TypeError before any shell command or filesystem access. Corrected selection completed in 3881c4 exit0. No source was read or changed by the failed attempt.",
+            "rejected_patches": 0,
+            "clipped_displays": 0,
+            "predecessor_diagnostics_preserved": true,
+            "predecessor_diagnostics": {
+              "failed_shell_commands": 1,
+              "failed_shell_detail": "4f3d0e: initial read-only AGENTS.md filename inventory across workspace and evidence paths returned no matches, exit1; pwd succeeded. No source body was displayed by that inventory and no Git/index or write occurred.",
+              "failed_orchestration_attempts": 0,
+              "rejected_patches": 0,
+              "clipped_displays": 2,
+              "clipped_recovery": "f71fd3 combined display clipped; complete RESULT and DESIGN recovered d6840c, ROOT_TRANSPORT recovered1e0960. a388f0 combined display clipped inside CONNECTED_CONSTRAINTS_LEMMA; whole file recovered af358e. No clipped passage supplies complete-read credit.",
+              "predecessor_diagnostics_preserved": true
+            }
+          }
+        }
+      },
+      "predecessor_retrieval_observation": {
+        "source": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI243_ROOT_REVIEW.md",
+          "bytes": 3743,
+          "sha256": "9ae154fde977d3952bce93827be7b23e078bdd7cb6cc56c7a84374cf5860039b"
+        },
+        "observation": "Root retrieved the original RI243 final6 as completed exit0, but its API output was truncated. That retrieved partial output is not represented as a complete receipt. Fresh independent checks corroborated current metadata. This does not rewrite original author diagnostics or imply current RI246 literal clipping."
+      },
+      "failed_shell_detail": "Preseal b8b4ed exited1 because JSON.stringify compared the source identity object's property insertion order instead of path/bytes/SHA256 fields; corrected to fieldwise identity comparison. Final6 9fd682 exited1 because the same serialization-order issue affected current diagnostics: an in-place source-reference patch placed failed_shell_detail earlier than the in-memory object later serialized into author/handoff. Both compared values were unchanged. Corrected diagnostics comparison to recursive key-order-independent administrative equality and resealed the current author packet. No scientific JSON parse, arithmetic engine, coefficient change or source repair occurred."
+    },
+    "predecessor_retrieval_observation": {
+      "source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_INDEPENDENT_REVIEW.txt",
+        "bytes": 13914,
+        "sha256": "a63b92a07098e4b14fe4a681a1cea72df4cf1d63c35084d31f619105c8d39d10"
+      },
+      "observation": "RI246 original final6 retrieval was API-truncated; original literal and failure outputs were complete. Fresh independent/root checks corroborated current metadata. This remains distinct from current RI248 complete displays and does not rewrite inherited author diagnostics."
+    }
+  },
+  "skill_use": {
+    "skill": "pages:write-page",
+    "skill_and_quality_read": "97f035 exit0",
+    "impact": "Used established external Markdown proof format and kept new deductions, unresolved coupled optimum and proposed-only source access distinct. No cloud Page created."
+  },
+  "stopping_rule": "Bounded manual proof/obstruction and design for independent root review only. No source-body admission, successor, repo/Git/index/publication, runtime or measurement work."
+}

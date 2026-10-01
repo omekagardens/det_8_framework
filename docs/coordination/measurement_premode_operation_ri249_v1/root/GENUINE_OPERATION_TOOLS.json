@@ -1,0 +1,97 @@
+{
+  "issue": {
+    "arguments": {
+      "cmd": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri249-predispatch.py issue",
+      "sandbox_permissions": "require_escalated",
+      "justification": "Issue the single reviewed pre-mode admission after rechecking complete custody; this only writes the two scoped control records.",
+      "login": false,
+      "yield_time_ms": 1000,
+      "max_output_tokens": 1200
+    },
+    "result": {
+      "chunk_id": "eb436e",
+      "wall_time_seconds": 1.00223825,
+      "session_id": 31350,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "polls": [
+      {
+        "chunk_id": "42955e",
+        "wall_time_seconds": 0.000007625,
+        "exit_code": 0,
+        "original_token_count": 52,
+        "output": "{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/ISSUE.json', 'bytes': 1760263, 'sha256': '51697d0346db483f41c877b4f1c262d3f7a84f96e9af7a25c58dc20974c58a82'}\n"
+      }
+    ]
+  },
+  "dispatch": {
+    "arguments": {
+      "cmd": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri249-predispatch.py dispatch",
+      "sandbox_permissions": "require_escalated",
+      "justification": "Recheck all frozen inputs and the exact issued controls immediately before the one admitted metadata adapter action.",
+      "login": false,
+      "yield_time_ms": 1000,
+      "max_output_tokens": 1200
+    },
+    "result": {
+      "chunk_id": "e0012d",
+      "wall_time_seconds": 1.00201575,
+      "session_id": 74240,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "polls": [
+      {
+        "arguments": {
+          "session_id": 74240,
+          "chars": "",
+          "yield_time_ms": 1000,
+          "max_output_tokens": 1200
+        },
+        "result": {
+          "chunk_id": "a5b435",
+          "wall_time_seconds": 0.000008375,
+          "exit_code": 0,
+          "original_token_count": 53,
+          "output": "{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/DISPATCH.json', 'bytes': 1759686, 'sha256': '8e39169919f6d050edd3fdc66380ce415212101c32d49578942900697d885729'}\n"
+        }
+      }
+    ]
+  },
+  "operation": {
+    "arguments": {
+      "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/PRE_MODE_BOOTSTRAP.proposal.py",
+      "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea",
+      "login": false,
+      "sandbox_permissions": "require_escalated",
+      "justification": "Run the single admitted unchanged pre-mode metadata adapter under its reviewed monitor and outer alarm; no scientific target or mode card is authorized.",
+      "yield_time_ms": 1000,
+      "max_output_tokens": 2000
+    },
+    "result": {
+      "chunk_id": "aa86d9",
+      "wall_time_seconds": 1.003243458,
+      "session_id": 78888,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "polls": [
+      {
+        "arguments": {
+          "session_id": 78888,
+          "chars": "",
+          "yield_time_ms": 1000,
+          "max_output_tokens": 2000
+        },
+        "result": {
+          "chunk_id": "cd41a9",
+          "wall_time_seconds": 0.000007959,
+          "exit_code": 0,
+          "original_token_count": 0,
+          "output": ""
+        }
+      }
+    ]
+  }
+}

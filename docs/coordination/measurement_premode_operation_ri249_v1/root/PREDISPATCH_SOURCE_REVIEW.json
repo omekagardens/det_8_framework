@@ -1,0 +1,53 @@
+{
+  "actual_outer_and_complete_outcome_review_still_required": true,
+  "archived_source": {
+    "bytes": 8688,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/predispatch.py",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/predispatch.py",
+    "sha256": "4c5a866b8b08df0757ab0c0a20fac6f30c66ad8805c9c97910c903e203226c04",
+    "state": [
+      16777244,
+      429527,
+      33188,
+      1,
+      8688,
+      1790858114284041903,
+      1790858114284041903
+    ],
+    "symlink_chain": []
+  },
+  "failure_preserves_partials_and_stops": true,
+  "independent_checks": [
+    "9488d3",
+    "027edf",
+    "b46b48",
+    "552d00"
+  ],
+  "independent_review": {
+    "bytes": 7577,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PREDISPATCH_INDEPENDENT_REVIEW.md",
+    "sha256": "cee717e8d23578eae7648cb9728a7834f0b1bc8cacef7cd163fb9d28cb3ad16a"
+  },
+  "no_automatic_subject_retry": true,
+  "normal_isolated_no_bytecode_required": true,
+  "one_exclusive_issuance_only": true,
+  "root_complete_read": "8ff0de",
+  "scientific_execution": false,
+  "source": {
+    "bytes": 8688,
+    "path": "/private/tmp/ri249-predispatch.py",
+    "resolved_path": "/private/tmp/ri249-predispatch.py",
+    "sha256": "4c5a866b8b08df0757ab0c0a20fac6f30c66ad8805c9c97910c903e203226c04",
+    "state": [
+      16777232,
+      271356075,
+      33188,
+      1,
+      8688,
+      1790858052602922634,
+      1790858052602922634
+    ],
+    "symlink_chain": []
+  },
+  "status": "ACCEPT_BOUNDED_ROOT_METADATA_PREFLIGHT_SOURCE"
+}

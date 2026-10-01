@@ -1,0 +1,96 @@
+{
+  "failed": {
+    "command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py",
+    "initial_call_was_metadata_script_creation_then_this_checker": true,
+    "initial_chunk": "fa456f",
+    "session_id": 41606,
+    "terminal_arguments": {
+      "chars": "",
+      "max_output_tokens": 1800,
+      "session_id": 41606,
+      "yield_time_ms": 1000
+    },
+    "terminal_result": {
+      "chunk_id": "1a7e25",
+      "exit_code": 1,
+      "original_token_count": 285,
+      "output": "Traceback (most recent call last):\n  File \"/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py\", line 147, in <module>\n    prehost=load(R/'GENUINE_PRE_HOST.json');posthost=load(R/'GENUINE_POST_HOST.json',{'path':str(R/'GENUINE_POST_HOST.json'),'bytes':1506,'sha256':'712cb72dbe3c27ec41ffe48ce7bf6c102714eb7a12e38e6e8736c84380aeb585'})\n                                                     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py\", line 68, in load\n    need(canon(v)==b,'canonical administrative JSON '+str(p));loaded[str(p)]=v;return v\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py\", line 14, in need\n    if not v:raise ValueError(label)\n             ^^^^^^^^^^^^^^^^^^^^^^^\nValueError: canonical administrative JSON /Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/GENUINE_POST_HOST.json\n",
+      "wall_time_seconds": 1.1042e-05
+    }
+  },
+  "other_actual_read_checks": [
+    {
+      "chunk": "ba7519",
+      "exit_code": 0,
+      "scope": "review reservation and initial bounded saved fields/identities"
+    },
+    {
+      "chunk": "1c1192",
+      "exit_code": 0,
+      "scope": "root predispatch source and genuine tool records; subsequent overlarge ISSUE display was output-truncated"
+    },
+    {
+      "chunk": "1a12c6",
+      "exit_code": 0,
+      "scope": "full custody_io and bounded phase/raw sample records"
+    },
+    {
+      "chunk": "f034cc",
+      "exit_code": 0,
+      "scope": "literal alarm argument, root source decision/startup/diagnostics"
+    },
+    {
+      "chunk": "a3454b",
+      "exit_code": 0,
+      "scope": "entire reviewer checker readback"
+    },
+    {
+      "chunk": "1a09f9",
+      "exit_code": 0,
+      "scope": "exact post-host wrapper bytes and parsed body, diagnostic only"
+    },
+    {
+      "chunk": "ce730d",
+      "exit_code": 0,
+      "scope": "actual mode_verify runtime/pre_mode and inherited later-mode contracts text"
+    },
+    {
+      "chunk": "f48463",
+      "exit_code": 0,
+      "scope": "root separate outcome check read; corroboration after independent checker construction"
+    },
+    {
+      "chunk": "8f069e",
+      "exit_code": 0,
+      "scope": "CHECK readback, full adapter authentication/action source and RI141 monitor source"
+    },
+    {
+      "chunk": "95392d",
+      "exit_code": 0,
+      "scope": "literal actual monitor16/preflight15/toolwrapper3 field counts and review pins"
+    }
+  ],
+  "schema": "ri249-reviewer-actual-administrative-tool-records-v1",
+  "subject_runs_by_reviewer": 0,
+  "successful": {
+    "command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved_v2.py",
+    "initial_call_was_metadata_diagnosis_and_distinct_checker_creation_then_this_checker": true,
+    "initial_chunk": "20a62e",
+    "session_id": 97294,
+    "terminal_arguments": {
+      "chars": "",
+      "max_output_tokens": 2200,
+      "session_id": 97294,
+      "yield_time_ms": 1000
+    },
+    "terminal_result": {
+      "chunk_id": "34294f",
+      "exit_code": 0,
+      "original_token_count": 77,
+      "output": "{\"predicates\": 432541, \"identities\": 2902, \"report\": {\"path\": \"/private/tmp/ri249-independent-premode-review-bx4wv_fu/CHECK.json\", \"bytes\": 2486, \"sha256\": \"4b06231c35ea93625b5c5791f31c60ebee37e5a09cb482532ecc8939359de773\"}, \"monitored_seconds\": 1.5863065840000001, \"peak_kib\": 168784, \"raw_readback\": true}\n",
+      "wall_time_seconds": 5.334e-06
+    }
+  },
+  "target_imports_or_compile_or_AST": false,
+  "transcription_origin": "Actual functions.exec exec_command/write_stdin results visible in this reviewer conversation. This saved transcription does not cryptographically authenticate tool origin."
+}

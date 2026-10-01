@@ -1,0 +1,24 @@
+{
+  "analytic_predecessor": {
+    "bytes": 1818,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_ROOT_ADJUDICATION.json",
+    "sha256": "fd1fd10bcec11ca9860941de7b37343b4f2fbd06f4714eb64ffac8d8e2a8b945"
+  },
+  "assignment": {
+    "bytes": 3511,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI252_ASSIGNMENT.md",
+    "sha256": "3ba3af895aa61026cb6f3f2ff01c904928da15c41d0a74b4256f815d2d3fbf98"
+  },
+  "closed_RI250_literal_authority": true,
+  "new_literal_authority": false,
+  "predecessor": {
+    "bytes": 1574,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_ROOT_ADJUDICATION.json",
+    "sha256": "1f47317f5032c5ee6accb7c83e9bf30c2511771bc7346b226ae65336d1dcc25c"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2",
+  "schema": "ri252-sigma-compensated-exchange-assignment-v1",
+  "scientific_execution": false,
+  "status": "ASSIGNED_AFTER_PREDECESSOR_ADJUDICATION",
+  "thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+}

@@ -1,0 +1,54 @@
+{
+  "external_only_preserved": [
+    {
+      "bytes": 1763510,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/OBSERVATIONS.json",
+      "sha256": "57c366fdd99b7f80056b51973c3e3670109243022f1c01081e7d32b7aaea9bcf"
+    }
+  ],
+  "include": [
+    {
+      "bytes": 25279,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py",
+      "sha256": "c831d30a2a67633a5152343e9640ea16b208797b09385212a8d64afbfb65e785"
+    },
+    {
+      "bytes": 25340,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved_v2.py",
+      "sha256": "ed1707d62a9380693ea5ee0bcbeb286a8538f92a6d56adbe95cbf52d5844eff1"
+    },
+    {
+      "bytes": 2486,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/CHECK.json",
+      "sha256": "4b06231c35ea93625b5c5791f31c60ebee37e5a09cb482532ecc8939359de773"
+    },
+    {
+      "bytes": 4544,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/TOOL_CHECKS.json",
+      "sha256": "2991e1f580d56c5a789f314b2a8feee400851c14216012b522543954bfe22bc9"
+    },
+    {
+      "bytes": 2117,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/DIAGNOSTICS.json",
+      "sha256": "52f3297c780abca350f7c6d5ede9642253d3f203c2c2c9649239c48df3b310c3"
+    },
+    {
+      "bytes": 1135,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/FAILED_REVIEWER_TRACE.txt",
+      "sha256": "a4438f4e5ca4a512d9d9119b7d684d5624216779424bacaf27ce6ebb1ef3bedd"
+    },
+    {
+      "bytes": 4786,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/READ_SCOPE.json",
+      "sha256": "447898b4c467658867dd2e3165f8c3258bdabf61eecde03ad90ad7b4f28a2154"
+    },
+    {
+      "bytes": 13478,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/REVIEW.md",
+      "sha256": "0a3c3f0126d1f5498423ab4253d70ceb4bdb930f1d18e86dc6fa8d2c9c443024"
+    }
+  ],
+  "include_self_and_handoff": true,
+  "schema": "ri249-reviewer-compact-publication-subset-v1",
+  "scope": "Complete individual input rows remain in the preserved opaque administrative observation file; complete narrative, actual receipts, failed original and corrected checker are included. This is a publication subset, not deletion or a claim that historical external operands are self-contained."
+}

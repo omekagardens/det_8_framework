@@ -1,0 +1,291 @@
+{
+  "schema": "ri250-native-canonical-literals-handoff-v1",
+  "status": "SEALED_BINDING_GAP_PENDING_INDEPENDENT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63",
+  "author_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "review_owner_thread": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_ASSIGNMENT.json",
+    "bytes": 1069,
+    "sha256": "a2b07704a147a8766659a3a3f403882ecfcb39d9d29fed7e990b1837f336e473"
+  },
+  "assignment_text": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_ASSIGNMENT.md",
+    "bytes": 1729,
+    "sha256": "aeb5155fcad888e264290a12880e6da37e43e869b436b4e4e3a5cdb58127f9e3"
+  },
+  "literal_admission": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_TWO_ROLE_LITERAL_ADMISSION.json",
+    "bytes": 3007,
+    "sha256": "444266879ba9afbbfd31cfdab7e03d1be4a596d4a316e14f2502ca97e3e58fdd"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_ROOT_ADJUDICATION.json",
+    "bytes": 1818,
+    "sha256": "fd1fd10bcec11ca9860941de7b37343b4f2fbd06f4714eb64ffac8d8e2a8b945"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "BINDING_GAP.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "MANUAL_CONSEQUENCE.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/BINDING_GAP.md",
+      "bytes": 5088,
+      "sha256": "0b62eee48bea6a0fe3ba009aa69d99a96318a7ac087290643e7de2ab9a4873f8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/HANDOFF.md",
+      "bytes": 1322,
+      "sha256": "fc9f63451ed842f75c1d6778a3b9696ba11768eba5f3ee2293123dafb62f0430"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/MANUAL_CONSEQUENCE.md",
+      "bytes": 3076,
+      "sha256": "d64056f152257c6085f31a32cf03b04ecc1f68ee3a10262065483e78ab1e8a5b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/SOURCE_REFERENCES.json",
+      "bytes": 101723,
+      "sha256": "65f97a450501fab37efc9b65c22c916a3628e66135b4d757d791c2672d665199"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/AUTHOR_VERIFICATION.json",
+      "bytes": 32528,
+      "sha256": "78b7eb7c2fc127851fd94768ced566e50054eabaa9a8ebc5e9968418095cdb37"
+    }
+  ],
+  "result": "GAP-INDEX_WITH_ADDITIONAL_UNCLOSED_GAP-SCHEMA",
+  "finding": "Original certificate authenticates, but literal supplies roots digest rather than root-to-index binding for (8590,17,0/1), and no explicit missing-primal-entry-is-zero rule. No role strings used.",
+  "original_literal_identity": {
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/CERTIFICATE.json",
+    "bytes": 19805,
+    "sha256": "f55625a686b4c859a8b3e720c80fbabbe9cfa0972cb7a9e78a50d1705833c28b"
+  },
+  "original_literal_receipt": {
+    "chunk_id": "ffd6a7",
+    "exit_code": 0,
+    "original_token_count": 5204,
+    "complete_display": true,
+    "body_copy_retained": false,
+    "description": "One complete bounded original literal display under RI250 admission, opaque whole-byte custody before and after, no scientific JSON decode."
+  },
+  "role_values_acquired": false,
+  "sufficient_gap_test_performed": false,
+  "actual_full_normalized_witness": false,
+  "actual_signed_inconsistency": false,
+  "canonical_Cb_resolved": false,
+  "actual_kappa_gap_resolved": false,
+  "complete_original_recovery_retained": true,
+  "accepted_full_system_iff_retained": true,
+  "inherited_zero_hook_branch_retained": true,
+  "successor_assigned": false,
+  "qualification_credit": 0,
+  "preserved_boundary_keys": [
+    "inherited_manifest_by_reference",
+    "inherited_original_six_admissions",
+    "inherited_additional_admissions",
+    "inherited_RI189_analytic_admission",
+    "inherited_shared_affine_admission",
+    "inherited_RI223_literal_admissions",
+    "inherited_RI225_disconnected_admission",
+    "inherited_RI228_construction_admissions",
+    "accepted_four_root_witness",
+    "predecessor_literal_exception_boundary",
+    "inherited_RI216_native_premises_by_reference",
+    "predecessor_lower_law_metadata_boundary",
+    "historical_diagnostics_preserved",
+    "executable_obligations",
+    "historical_RI231_literal_exception"
+  ],
+  "preserved_boundaries_reference": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/SOURCE_REFERENCES.json",
+    "bytes": 99722,
+    "sha256": "1bc0fba80e48fcbaac60ff37ce2684c20e048ea4887d56c8a5d60b3c259d7198"
+  },
+  "current_scope": {
+    "manual_mathematical_reasoning": true,
+    "automatic_scientific_arithmetic": false,
+    "scientific_body_literal_display": true,
+    "scientific_body_opaque_hash": true,
+    "scientific_JSON_decoded": false,
+    "new_coordinate_read": false,
+    "role_values_acquired": false,
+    "incidental_values_used": false,
+    "full_vector_instantiated": false,
+    "H_or_z_reconstructed": false,
+    "new_amplitude": false,
+    "subject_execution": false,
+    "measurement_access": false,
+    "RET_access": false,
+    "repository_changes": false,
+    "git_or_index_operations": false,
+    "source_admission_issued": false,
+    "successor_assigned": false,
+    "old_literal_exceptions_renewed": false,
+    "qualification_credit": 0
+  },
+  "actual_proof_read_receipt": {
+    "chunk_id": "81fc4e",
+    "exit_code": 0,
+    "complete_display": true
+  },
+  "actual_preseal_receipt": {
+    "chunk_id": "cf86ba",
+    "exit_code": 0,
+    "complete_display": true,
+    "result": {
+      "schema": "ri250-metadata-check-result-v1",
+      "mode": "preseal",
+      "exit_intent": 0,
+      "scope": "Administrative identities, namespaces, unchanged boundaries and declarations only. No original scientific body opened by this check; no proof or value computation.",
+      "direct_sources": 113,
+      "direct_bytes": 2340491,
+      "whole_identities": 117,
+      "preserved_boundaries": 15,
+      "inherited_manifest_sources_by_reference": 423,
+      "separate_literal_receipt": "ffd6a7",
+      "separate_literal_identity": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/CERTIFICATE.json",
+        "bytes": 19805,
+        "sha256": "f55625a686b4c859a8b3e720c80fbabbe9cfa0972cb7a9e78a50d1705833c28b"
+      },
+      "original_scientific_body_opened_by_this_check": false,
+      "scientific_JSON_decoded": false,
+      "scientific_arithmetic": false,
+      "canonical_role_strings_transcribed": 0,
+      "sufficient_gap_test_performed": false,
+      "current_namespace": [
+        "BINDING_GAP.md",
+        "HANDOFF.md",
+        "MANUAL_CONSEQUENCE.md",
+        "SOURCE_REFERENCES.json"
+      ],
+      "predecessor_namespace": [
+        "AUTHOR_VERIFICATION.json",
+        "CANONICAL_BINDING.md",
+        "COMPANION_ROW.md",
+        "HANDOFF.json",
+        "HANDOFF.md",
+        "SOURCE_REFERENCES.json"
+      ],
+      "current_identities": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/BINDING_GAP.md",
+          "bytes": 5088,
+          "sha256": "0b62eee48bea6a0fe3ba009aa69d99a96318a7ac087290643e7de2ab9a4873f8"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/HANDOFF.md",
+          "bytes": 1322,
+          "sha256": "fc9f63451ed842f75c1d6778a3b9696ba11768eba5f3ee2293123dafb62f0430"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/MANUAL_CONSEQUENCE.md",
+          "bytes": 3076,
+          "sha256": "d64056f152257c6085f31a32cf03b04ecc1f68ee3a10262065483e78ab1e8a5b"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/SOURCE_REFERENCES.json",
+          "bytes": 101723,
+          "sha256": "65f97a450501fab37efc9b65c22c916a3628e66135b4d757d791c2672d665199"
+        }
+      ]
+    }
+  },
+  "actual_author_identity_receipt": {
+    "chunk_id": "6694c5",
+    "exit_code": 0
+  },
+  "final_metadata_verification": "Genuine final6 is to run after this file is written; the actual complete receipt is to be delivered separately. No predicted success.",
+  "diagnostics": {
+    "failed_shell_commands": 0,
+    "failed_orchestration_attempts": 0,
+    "rejected_patches": 0,
+    "clipped_displays": 0,
+    "predecessor_diagnostics_preserved": true,
+    "predecessor_diagnostics": {
+      "failed_shell_commands": 0,
+      "failed_orchestration_attempts": 0,
+      "rejected_patches": 0,
+      "clipped_displays": 0,
+      "predecessor_diagnostics_preserved": true,
+      "predecessor_diagnostics": {
+        "failed_shell_commands": 2,
+        "failed_orchestration_attempts": 0,
+        "rejected_patches": 0,
+        "clipped_displays": 0,
+        "predecessor_diagnostics_preserved": true,
+        "predecessor_diagnostics": {
+          "failed_shell_commands": 0,
+          "failed_orchestration_attempts": 1,
+          "rejected_patches": 1,
+          "clipped_displays": 0,
+          "repair_detail": "One formatting-only apply_patch call was rejected before changes because it contained multiple file operations for the same path. The orchestration surfaced that same rejection. Reissued with one operation per file and multiple hunks; success. No scientific data read, changed premise or partial write resulted.",
+          "predecessor_diagnostics_preserved": true,
+          "predecessor_diagnostics": {
+            "failed_shell_commands": 0,
+            "failed_orchestration_attempts": 0,
+            "rejected_patches": 0,
+            "clipped_displays": 1,
+            "clipped_detail": "7343f8 combined analytic display clipped inside COMPONENT_ROUTING. Complete COMPONENT_ROUTING recovered in a466a8 exit0; complete ENDPOINT_CERTIFICATE and COUPLED_CONTRAST reread in bf74ca exit0. No clipped display is credited as a complete source read.",
+            "predecessor_diagnostics_preserved": true,
+            "predecessor_diagnostics": {
+              "failed_shell_commands": 0,
+              "failed_orchestration_attempts": 1,
+              "orchestration_detail": "An initial in-memory source-list selection used row.path instead of row.identity.path and threw TypeError before any shell command or filesystem access. Corrected selection completed in 3881c4 exit0. No source was read or changed by the failed attempt.",
+              "rejected_patches": 0,
+              "clipped_displays": 0,
+              "predecessor_diagnostics_preserved": true,
+              "predecessor_diagnostics": {
+                "failed_shell_commands": 1,
+                "failed_shell_detail": "4f3d0e: initial read-only AGENTS.md filename inventory across workspace and evidence paths returned no matches, exit1; pwd succeeded. No source body was displayed by that inventory and no Git/index or write occurred.",
+                "failed_orchestration_attempts": 0,
+                "rejected_patches": 0,
+                "clipped_displays": 2,
+                "clipped_recovery": "f71fd3 combined display clipped; complete RESULT and DESIGN recovered d6840c, ROOT_TRANSPORT recovered1e0960. a388f0 combined display clipped inside CONNECTED_CONSTRAINTS_LEMMA; whole file recovered af358e. No clipped passage supplies complete-read credit.",
+                "predecessor_diagnostics_preserved": true
+              }
+            }
+          }
+        },
+        "predecessor_retrieval_observation": {
+          "source": {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI243_ROOT_REVIEW.md",
+            "bytes": 3743,
+            "sha256": "9ae154fde977d3952bce93827be7b23e078bdd7cb6cc56c7a84374cf5860039b"
+          },
+          "observation": "Root retrieved the original RI243 final6 as completed exit0, but its API output was truncated. That retrieved partial output is not represented as a complete receipt. Fresh independent checks corroborated current metadata. This does not rewrite original author diagnostics or imply current RI246 literal clipping."
+        },
+        "failed_shell_detail": "Preseal b8b4ed exited1 because JSON.stringify compared the source identity object's property insertion order instead of path/bytes/SHA256 fields; corrected to fieldwise identity comparison. Final6 9fd682 exited1 because the same serialization-order issue affected current diagnostics: an in-place source-reference patch placed failed_shell_detail earlier than the in-memory object later serialized into author/handoff. Both compared values were unchanged. Corrected diagnostics comparison to recursive key-order-independent administrative equality and resealed the current author packet. No scientific JSON parse, arithmetic engine, coefficient change or source repair occurred."
+      },
+      "predecessor_retrieval_observation": {
+        "source": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_INDEPENDENT_REVIEW.txt",
+          "bytes": 13914,
+          "sha256": "a63b92a07098e4b14fe4a681a1cea72df4cf1d63c35084d31f619105c8d39d10"
+        },
+        "observation": "RI246 original final6 retrieval was API-truncated; original literal and failure outputs were complete. Fresh independent/root checks corroborated current metadata. This remains distinct from current RI248 complete displays and does not rewrite inherited author diagnostics."
+      }
+    },
+    "predecessor_retrieval_observation": {
+      "source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_INDEPENDENT_REVIEW.txt",
+        "bytes": 14436,
+        "sha256": "045ad7fecc017e591feb1748f1d860d1ef78e6abb80b01df1eb69187b6d180ec"
+      },
+      "observation": "Root-independent retrieval of RI248 final proof display was API-truncated at 20000 characters. Original author complete proof display remains distinct; independent full local reads recovered proof content. Genuine compact preseal and final6 receipts were retrieved completely. No current RI250 display was clipped."
+    }
+  },
+  "skill_use": {
+    "skill": "pages:write-page",
+    "skill_read": "1148f5",
+    "quality_read": "a20975",
+    "impact": "Kept authenticated custody, absent binding evidence and unchanged mathematical consequences separate in the established external Markdown research packet. No cloud Page."
+  },
+  "stopping_rule": "Stop at the two-role binding gap. No alternate source, reconstruction, original literal reread, new admission, successor, repository/Git/index/publication or runtime work. Root owns independent adjudication."
+}

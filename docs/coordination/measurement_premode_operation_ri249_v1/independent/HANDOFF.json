@@ -1,0 +1,104 @@
+{
+  "actual_successful_checker": {
+    "checks": {
+      "bytes": 2486,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/CHECK.json",
+      "sha256": "4b06231c35ea93625b5c5791f31c60ebee37e5a09cb482532ecc8939359de773"
+    },
+    "exit_code": 0,
+    "initial": "20a62e",
+    "session_id": 97294,
+    "terminal": "34294f"
+  },
+  "exact_namespace": [
+    "CHECK.json",
+    "DIAGNOSTICS.json",
+    "FAILED_REVIEWER_TRACE.txt",
+    "HANDOFF.json",
+    "OBSERVATIONS.json",
+    "PUBLICATION_SUBSET.json",
+    "READ_SCOPE.json",
+    "REVIEW.md",
+    "TOOL_CHECKS.json",
+    "check_saved.py",
+    "check_saved_v2.py"
+  ],
+  "files": [
+    {
+      "bytes": 2486,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/CHECK.json",
+      "sha256": "4b06231c35ea93625b5c5791f31c60ebee37e5a09cb482532ecc8939359de773"
+    },
+    {
+      "bytes": 2117,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/DIAGNOSTICS.json",
+      "sha256": "52f3297c780abca350f7c6d5ede9642253d3f203c2c2c9649239c48df3b310c3"
+    },
+    {
+      "bytes": 1135,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/FAILED_REVIEWER_TRACE.txt",
+      "sha256": "a4438f4e5ca4a512d9d9119b7d684d5624216779424bacaf27ce6ebb1ef3bedd"
+    },
+    {
+      "bytes": 1763510,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/OBSERVATIONS.json",
+      "sha256": "57c366fdd99b7f80056b51973c3e3670109243022f1c01081e7d32b7aaea9bcf"
+    },
+    {
+      "bytes": 2314,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/PUBLICATION_SUBSET.json",
+      "sha256": "c0882767cc8b291b707f6d99f3b6700d46e2983ce76c60d7d91484026355f802"
+    },
+    {
+      "bytes": 4786,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/READ_SCOPE.json",
+      "sha256": "447898b4c467658867dd2e3165f8c3258bdabf61eecde03ad90ad7b4f28a2154"
+    },
+    {
+      "bytes": 13478,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/REVIEW.md",
+      "sha256": "0a3c3f0126d1f5498423ab4253d70ceb4bdb930f1d18e86dc6fa8d2c9c443024"
+    },
+    {
+      "bytes": 4544,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/TOOL_CHECKS.json",
+      "sha256": "2991e1f580d56c5a789f314b2a8feee400851c14216012b522543954bfe22bc9"
+    },
+    {
+      "bytes": 25279,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py",
+      "sha256": "c831d30a2a67633a5152343e9640ea16b208797b09385212a8d64afbfb65e785"
+    },
+    {
+      "bytes": 25340,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved_v2.py",
+      "sha256": "ed1707d62a9380693ea5ee0bcbeb286a8538f92a6d56adbe95cbf52d5844eff1"
+    }
+  ],
+  "next_action": "Root adjudication only; then separately selected retained mode-card preparation with fresh custody. No self-admission.",
+  "preserved_reviewer_failure": {
+    "diagnostics": {
+      "bytes": 2117,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/DIAGNOSTICS.json",
+      "sha256": "52f3297c780abca350f7c6d5ede9642253d3f203c2c2c9649239c48df3b310c3"
+    },
+    "exit_code": 1,
+    "initial": "fa456f",
+    "terminal": "1a7e25"
+  },
+  "publication_subset": {
+    "bytes": 2314,
+    "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/PUBLICATION_SUBSET.json",
+    "sha256": "c0882767cc8b291b707f6d99f3b6700d46e2983ce76c60d7d91484026355f802"
+  },
+  "reservation": "/private/tmp/ri249-independent-premode-review-bx4wv_fu",
+  "reviewer_authorship_disclosure": {
+    "bytes": 4786,
+    "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/READ_SCOPE.json",
+    "sha256": "447898b4c467658867dd2e3165f8c3258bdabf61eecde03ad90ad7b4f28a2154"
+  },
+  "root_adjudication_required": true,
+  "schema": "ri249-independent-premode-outcome-review-handoff-v1",
+  "scientific_admission_or_execution": false,
+  "status": "RECOMMEND_ACCEPT_COMPLETE_METADATA_PREMODE_OUTCOME_ONLY"
+}

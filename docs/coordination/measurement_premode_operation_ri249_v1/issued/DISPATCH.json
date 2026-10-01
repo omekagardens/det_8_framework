@@ -1,0 +1,36 @@
+{
+  "admission": {
+    "bytes": 2126,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/ADMIT_PRE_MODE.json",
+    "sha256": "b0608199b2d596e028588ee4718605f07d66738de2110d7f1dfa79a32e8ee0b2"
+  },
+  "bootstrap": {
+    "bytes": 2418,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/PRE_MODE_BOOTSTRAP.proposal.py",
+    "sha256": "b4a85e59bd1c137da2ff44e3281c900d0da9a49f07d64de1d5e44a06eaae77e2"
+  },
+  "child_cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor",
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "label": "PRE_MODE",
+  "one_attempt": true,
+  "outer_alarm_seconds": 960,
+  "outer_cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea",
+  "preparation_acceptance": {
+    "bytes": 3323,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_PREPARATION_ADJUDICATION.json",
+    "sha256": "673689def36a4720a9f14d647147048fc150fc4a19fdfdc56a8816fdd87ee274"
+  },
+  "schema": "ri249-one-premode-dispatch-v1",
+  "scientific_execution": false
+}

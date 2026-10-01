@@ -1,6 +1,74 @@
 **Accepted work and remote publication**
 
-**Current follow-through — actual hook branch resolved; preparation completed.**
+**Current follow-through — companion obstruction accepted; pre-mode operation reviewed.**
+1 October 2026 UTC. RI248 derives the complete marked companion row with
+all four component families, all 32 records and every coupled parent.
+The actual history multiplicities 5/9/7 prove L_i=0<T_i. Positive kappa_i
+therefore requires a tight companion row with positive primary dual weight.
+This resolves the exchange-cost question while leaving the coupled capacity
+and actual canonical C_b decision open. It is a necessary-condition result;
+no full normalized witness or signed inconsistency is claimed.
+
+The two kappa component roots are (8590,17,0/1); their original ranks and
+canonical values remain unresolved. Root and nonauthor manually reviewed
+both complete proofs and checked 108 identities, 102 direct sources /
+2,139,499 bytes and 15 unchanged boundary objects. The genuine author final
+six-file check is completed exit 0 with an untruncated compact output.
+Reviewer display/API diagnostics and the 423-source manifest by reference
+are retained. Evidence: `docs/track_b/native_canonical_companion_v1/`.
+
+The separate RI250 original-certificate inspection found GAP-INDEX: only
+a digest of the original root list is supplied. The absent-entry-zero schema
+rule is also unbound. Root and nonauthor each authenticated and manually
+read the complete original literal; no kappa role value was used and the
+comparison remains unperformed. All 119 identities, 113 direct sources /
+2,340,491 bytes and 15 boundaries passed independent integrity review.
+The author final check is complete; its API-retrieved literal is truncated
+and is not credited as a full display. Evidence:
+`docs/track_b/native_canonical_binding_gap_v1/`.
+
+After adjudicating that source limitation, root assigned RI252 to the
+existing Quantum Relativity chat: derive a complete sigma-compensated
+three-coordinate exchange criterion, including every affected constraint,
+actual history-weighted cost and earliest-coordinate lexicographic test.
+This is a justified analytic continuation; no new original-body authority
+or numerical reconstruction is granted. Active RI252 outputs are excluded.
+
+RI249 issued the separate closed 12-field pre_mode admission from RI244's
+unchanged preparation and ran the exact bootstrap once. Genuine
+aa86d9/session78888 to cd41a9 exited 0 with empty streams. Root and nonauthor
+reconstructed the complete nine-field result, all 14 completion fields,
+seven adapter tails, 13 authenticated source objects and 567 dependencies.
+The 42 raw ps attempts match all 42 samples: peak sampled child RSS
+168,784 KiB, elapsed 1.586306584 seconds and final sample-to-reap gap
+0.035095459 seconds. All observed gaps and admitted bounds passed.
+
+Fresh full custody preserves all 2,854 preparation input identities,
+1,810 supplier files / 48,024,515 bytes, four tools, 195 namespace records,
+two absences and frozen E's 49 files/nine directories. This remains sampled
+child monitoring with stable-host/supplier, no-descendant and loader/cache
+premises. Historical unissued preparation was preserved. Evidence:
+`docs/coordination/measurement_premode_operation_ri249_v1/`.
+
+The next measurement action is separately prepared and admitted normal
+mode_card generation using this whole reviewed pre_mode result. That
+operation produces an external candidate; independent review and separate
+installation/admission precede scientific qualification. No mode card or
+scientific run occurred in this checkpoint. Normal science and independent
+arithmetic, optimized mode, RI131/full32 and the selected public GWOSC
+conventional reproduction remain ordered. Calibration remains separate
+from a native forward map.
+
+All 13 equations/10 coordinates, complete original recovery, actual canonical
+selection, records/ideals/newborn bits and strict endpoints remain. Physical,
+all-size, improvement, optimality and amplitude claims stay open. RET alone
+remains paused. Parent 05a7aec415941b5bfa79287cd20b54d8c6eb4c20 was verified
+on origin/ret. Root owns Git and operational admissions; unrelated edits and
+active reservations are preserved. The programme continues beyond this
+bounded checkpoint.
+
+
+**Prior checkpoint — actual hook branch resolved; preparation completed.**
 1 October 2026 UTC. RI246's six admitted original coefficients are now
 independently accepted. The two f coefficients are1/8; the four g coefficients
 in role order0,2,1,3 are429/1000,429/1000,181/200,181/200. Original indices,

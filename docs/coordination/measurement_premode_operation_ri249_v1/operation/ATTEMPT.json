@@ -1,0 +1,11 @@
+{
+  "action": "pre_mode",
+  "admission": {
+    "bytes": 2126,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/ADMIT_PRE_MODE.json",
+    "sha256": "b0608199b2d596e028588ee4718605f07d66738de2110d7f1dfa79a32e8ee0b2"
+  },
+  "no_retry": true,
+  "schema": "ri156-exclusive-metadata-attempt-v1",
+  "scientific_execution": false
+}
