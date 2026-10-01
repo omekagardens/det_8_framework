@@ -1,0 +1,17 @@
+{
+  "assignment": {
+    "bytes": 11707,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI216_NATIVE_ASSIGNMENT.json",
+    "sha256": "d1862d4b90ee328930a7f4148cce3485c14f383b8f724ec230435672c8fbd251"
+  },
+  "dispatched_after_independent_adjudication": true,
+  "execution_authority": false,
+  "isError": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs",
+  "result": {
+    "threadId": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+  },
+  "schema": "ri215-native-dispatch-record-v1",
+  "target": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "tool": "mcp__codex_app__send_message_to_thread"
+}

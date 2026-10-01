@@ -1,6 +1,60 @@
 **Accepted work and remote publication**
 
-**Current follow-through — installation source repair assigned; individual-margin proof active.**
+**Current follow-through — individual-margin reduction accepted; determinant sign assigned.**
+1 October 2026 UTC (30 September in Honolulu). Root and a separate
+nonauthor accept RI212 as a conditional finite-law reduction. The original
+two harmonic seed rows give K*h=A with A>0 and K nonzero. At the same
+actual pair, B2>0 and B3>1+delta, where
+delta=4,000,000,000/926,000,000,001. If K>0, C3 is positive and both
+margins pass exactly when K*B2>A. If K<0, C2 is positive and both pass
+exactly when (-K)*(B3-1)>A. Equality fails strict feasibility. The native
+sign K and its remaining comparison are still undecided; shared H30 is open.
+
+The full manual proof, independent review and actual administrative evidence
+are in `docs/track_b/native_individual_margin_reduction_v1/`. Root check
+444674 exited zero: 30 fresh identities, 46 selected references, 24 direct
+sources/693919 bytes, two six-file namespaces and 15 retained boundaries.
+These are metadata checks, not scientific execution. The inherited 423
+collection stays by reference; original seed/amplitude, q/N_i, record
+and ideal multiplicities, tied minima and correlated scales remain fixed.
+
+After adjudication, RI216 was dispatched to the existing Quantum Relativity
+chat in `ri216-native-determinant-sign-qs_a79vs/`. It targets the native
+sign of K through complete C4 row cancellation, then the corresponding
+strict margin comparison.
+Two exact RI189 analytic texts are admitted as literal reads with inherited
+matches. Keys do not order coefficient values; the narrow RI197 two-entry
+exception is not widened. If new data is needed, QR must identify the
+smallest exact coefficient witness and missing admission while advancing
+the coupled analytic argument. No active successor work is published here.
+
+Root and a separate nonauthor also accept RI213's clock repair as unexecuted
+installation source. Initial/final clocks and elapsed validation now retain
+failures through all eight tails and refused completion; the success checker
+requires the new 14-field timing record. Independent replay 9ccc1a exited
+zero: 5266 predicates, 840 opaque identities, 825 pins and both 15-file seals.
+Root a84a12 separately checked the same 840 identities and exact repair diff.
+The author's 3634 saved / 3636 printed counts are explained phases; no clock
+fault test, installation or executable qualification occurred.
+
+The source decision and exact repair are in
+`docs/coordination/measurement_freeze_clock_repair_v1/`. E still has 48 files,
+eight subdirectories/nine directories including its root, with no installed
+freeze or mode cards. The next measurement action is fresh root preparation
+and review of the actual installer preflight/bootstrap, followed by separate
+one-operation admission. Actual installation review and fresh custody must
+precede normal-mode admission, and accepted normal must precede optimized.
+Existing WHITE/RI131/full32 and selected public GWOSC conventional work
+remain; no broader qualification campaign or native forward map is claimed.
+
+The predecessor checkpoint `f22adf51c0ce948e266a2b768b0dc3b38390599c`
+was verified on live `origin/ret`. Only reviewed sources and coordination
+records are in this checkpoint. Unrelated working edits and historical
+results are preserved. RET alone remains paused. No user decision is
+currently missing; the broader geometry, gravity and measurement programme
+continues beyond this bounded checkpoint.
+
+**Prior checkpoint — installation source repair assigned; individual-margin proof active.**
 1 October 2026 UTC (30 September in Honolulu). The accepted complete
 six-maxima/global bound and strict weighted sign are published as
 `c1cb37d0c70c899a3d9648cbb91a8620ead60757`, verified on live `origin/ret`.

@@ -1,0 +1,72 @@
+{
+  "actual_check": {
+    "chunk_id": "9ccc1a",
+    "declared_pins": 825,
+    "exit_code": 0,
+    "namespaces": [
+      15,
+      15
+    ],
+    "opaque_identities": 840,
+    "payloads": [
+      14,
+      14
+    ],
+    "predicates": 5266,
+    "prior_roles": 810,
+    "prior_sources": 764
+  },
+  "clock_fault_controls": "Seven source branches manually traced, not executed tests.",
+  "diagnostics": [
+    "Readiness 814304 exit1: seal absent, draft not reviewed.",
+    "Clipped e35614 diff display recovered by 574de6.",
+    "Author saved 3634 versus printed 3636: two pin predicates after saved count capture."
+  ],
+  "disposition": "ACCEPT_UNEXECUTED_REPAIR_SOURCE",
+  "findings": [
+    "Safe state and closures precede output ownership; initial clock acquisition is protected before any candidate write.",
+    "Final clock and elapsed validation are protected independently, preserve earlier first error and attempt all eight tails and COMPLETE.",
+    "Closed 14-field success checker validates timing and rejects refused outcomes. Installation and eight-tail block are byte-identical to RI209."
+  ],
+  "independence": "Reviewed RI209; authored earlier RI130/RI141, neither RI209 nor RI213. Inherited monitor semantics are not newly independently established.",
+  "qualification_credit": 0,
+  "read_receipts": [
+    {
+      "chunk_id": "3680b4",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "2ae408",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "49d4b2",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "360e1f",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7a684b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e35614",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "574de6",
+      "exit_code": 0
+    }
+  ],
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri215-recorded-independent-review-v1",
+  "subject": {
+    "bytes": 7600,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/HANDOFF.json",
+    "sha256": "f8e4ab402fe4621352c7fe1f9b3d3bfeb6d5bc1194afcc7fb98cf34f8eb2f512"
+  },
+  "subject_execution": false,
+  "writes": false
+}
