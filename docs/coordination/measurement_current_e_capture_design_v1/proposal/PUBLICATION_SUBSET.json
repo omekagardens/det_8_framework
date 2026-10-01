@@ -1,0 +1,53 @@
+{
+  "external_only_preserved": [],
+  "include": [
+    {
+      "bytes": 2255,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/ACTUAL_ADMINISTRATIVE_TOOLS.json",
+      "sha256": "934dbfabf344cc6f611d19bcb2f2a30c54c82fb39903103bd10e46115dae5f76"
+    },
+    {
+      "bytes": 3538,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/AUTHORING_RECORD.md",
+      "sha256": "48214cc5cd25d4e1569bd5f37c47d437976e81dee745ae1818a72cbd811bff6d"
+    },
+    {
+      "bytes": 12114,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CAPTURE_RECIPE.json",
+      "sha256": "3f46d182e4adedf6b6e346ebd5e5dd6eae60cf42b4e77b073a957531e4c68195"
+    },
+    {
+      "bytes": 2080694,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CHECK_RESULT.json",
+      "sha256": "d5e4cfd8fbc4d06c204c0c6531e1ac9f1fe03484723f32e2863056b35871c6f0"
+    },
+    {
+      "bytes": 9569,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CURRENT_E_AND_MODE_CONTRACT.json",
+      "sha256": "b8794cbdb514dc79453b24c2cf55760a889d8e4569c807e1ab678389b0901354"
+    },
+    {
+      "bytes": 788005,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/DEPENDENCIES.json",
+      "sha256": "6df81b566294038f4c3ad36337158f2b0657a1483f6481b2aa81562b8cf5f31b"
+    },
+    {
+      "bytes": 14122,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/PROTOCOL.md",
+      "sha256": "55e0952abce3bdad6ff7cac129f7b75b7449cc6773b1bde2f6ea2e8c63dbb0f7"
+    },
+    {
+      "bytes": 5597,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/SOURCE_CORRESPONDENCE.json",
+      "sha256": "7dfde1871ff7d2a5b3f139f7ed6d5bf70f4894160235bc5eb4f5c657560ee7b8"
+    },
+    {
+      "bytes": 11242,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/check_proposal.py",
+      "sha256": "70ecafd8268d2192839a3790702e3424408cdd28a1c7d805fd3673d9aad96b99"
+    }
+  ],
+  "include_final_handoff": true,
+  "schema": "ri236-proposal-publication-subset-v1",
+  "scope": "Compact entire source proposal and its complete administrative check; predecessor inputs remain exact external references, not copied scientific bodies."
+}

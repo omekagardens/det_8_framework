@@ -1,0 +1,44 @@
+{
+  "delivery": "Complete review and check receipts received in collaboration chat and preserved by root; no reviewer-created external seal",
+  "diagnostics": [
+    "459712 combined author display clipped; recovered309b81",
+    "da2b19 locator clipped, no complete-read credit",
+    "a408d2 metadata nested-path KeyError exit1; corrected81909f exit0",
+    "External reservation and retained-replay CreateProcess rejected before execution; no retry or reviewer files. Independent read-only alternative d5a6aa completed."
+  ],
+  "manual_complete_reads": [
+    "5729be connected",
+    "d92d54 D2",
+    "be49c3 endpoint",
+    "c89599 normalization",
+    "309b81 author and checker",
+    "b569ec RI21635-165"
+  ],
+  "mathematical_automation": false,
+  "own_check": {
+    "boundary_objects": 15,
+    "chunk_id": "d5a6aa",
+    "direct_bytes": 1127159,
+    "direct_sources": 51,
+    "exit_code": 0,
+    "identities": 57,
+    "namespace_count": 2,
+    "namespace_files_each": 6,
+    "predecessor_direct_identities": 33,
+    "stable_repeat_reads": true
+  },
+  "retained_checker_replayed": false,
+  "review": {
+    "bytes": 12079,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI235_INDEPENDENT_REVIEW.txt",
+    "sha256": "275a10ea4c42282bac497ab1884b5d911d49cdf0f96fcc65eb882eb6296426c5"
+  },
+  "reviewer": "/root/qr_opportunities",
+  "schema": "ri237-independent-ri235-review-provenance-v1",
+  "scientific_execution": false,
+  "subject": {
+    "bytes": 6599,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri235-native-cross-root-d2-3vvw5uow/HANDOFF.json",
+    "sha256": "7ca4112510e3de1a3f2d6186e0ebe1dcb1ef74ff22f019098abd93f2462f3394"
+  }
+}

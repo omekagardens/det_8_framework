@@ -1,0 +1,162 @@
+{
+  "entries": [
+    {
+      "first_line": 24,
+      "last_line": 40,
+      "role": "capture_sources",
+      "source": {
+        "bytes": 45721,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+        "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+      },
+      "span": {
+        "bytes": 1734,
+        "sha256": "2484e5a40b127e9ed62c716cdc6b92b458b8b06aab4c25c591bb284a832b5d8d"
+      }
+    },
+    {
+      "first_line": 127,
+      "last_line": 182,
+      "role": "source_preflight",
+      "source": {
+        "bytes": 45721,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+        "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+      },
+      "span": {
+        "bytes": 4283,
+        "sha256": "84a59896c44c7ac85f39ecf83f2108e0a9c53afdd2a7ce6cd60561021b63f3de"
+      }
+    },
+    {
+      "first_line": 226,
+      "last_line": 320,
+      "role": "saved_namespace",
+      "source": {
+        "bytes": 45721,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+        "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+      },
+      "span": {
+        "bytes": 7741,
+        "sha256": "bcd7a7079b375304016954dad70a9372ce2bb605803c105cdfcaf37a22c7dcb9"
+      }
+    },
+    {
+      "first_line": 327,
+      "last_line": 404,
+      "role": "owned_monitor",
+      "source": {
+        "bytes": 45721,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+        "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+      },
+      "span": {
+        "bytes": 5262,
+        "sha256": "09ac74822bc62a5f95b1416bc906e27e66a24e9a829bc2c9ebec5959d040c5b3"
+      }
+    },
+    {
+      "first_line": 549,
+      "last_line": 682,
+      "role": "capture_branch_and_tails",
+      "source": {
+        "bytes": 45721,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+        "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+      },
+      "span": {
+        "bytes": 9194,
+        "sha256": "687ec909f10c5f802d9455da43748b0c6dc44cdc74cb3174016928d8a3be2c62"
+      }
+    },
+    {
+      "first_line": 345,
+      "last_line": 410,
+      "role": "snapshot",
+      "source": {
+        "bytes": 18728,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+        "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+      },
+      "span": {
+        "bytes": 4235,
+        "sha256": "6a6d51e47adc87630abe3a65b2ccbe0c37a4e33755c88b1656e867728240d314"
+      }
+    },
+    {
+      "first_line": 19,
+      "last_line": 100,
+      "role": "copy_and_membership",
+      "source": {
+        "bytes": 22129,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+        "sha256": "302393a719232b42cf5145d7264b69ee8cdbc850fc3c2f60a0dca182e55a0256"
+      },
+      "span": {
+        "bytes": 6859,
+        "sha256": "577b1ab85a7a956b144b1d272e00dc7394e8b3a0d46eacb1396569d6da6811d8"
+      }
+    },
+    {
+      "first_line": 222,
+      "last_line": 239,
+      "role": "mode_card",
+      "source": {
+        "bytes": 22129,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+        "sha256": "302393a719232b42cf5145d7264b69ee8cdbc850fc3c2f60a0dca182e55a0256"
+      },
+      "span": {
+        "bytes": 2051,
+        "sha256": "44e18a80a87e315686b27ca38426ebdcf3f34276ed02efe42e2e8dc71d912462"
+      }
+    },
+    {
+      "first_line": 130,
+      "last_line": 145,
+      "role": "adapter_mode_actions",
+      "source": {
+        "bytes": 22982,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py",
+        "sha256": "28ed8355cee100c63b94338fd59a335c5a2193cc2f442fc9433062ec731e8ff9"
+      },
+      "span": {
+        "bytes": 1500,
+        "sha256": "ac4d1ebd4d01aff20de36824a036304e174be3be000a49c5c73c133d19fd73c4"
+      }
+    },
+    {
+      "first_line": 80,
+      "last_line": 115,
+      "role": "mode_runtime_and_pre",
+      "source": {
+        "bytes": 23552,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/mode_verify.py",
+        "sha256": "938a0cc357046d4a4d9ffdc2382a9f94fd5a4d9a20333bfa47077427b0d3f5a3"
+      },
+      "span": {
+        "bytes": 3364,
+        "sha256": "f59783f61903055796a9814fc190f35acbbbb0c399ea7f2e5b0579c02c70c0b3"
+      }
+    },
+    {
+      "first_line": 261,
+      "last_line": 287,
+      "role": "mode_admission",
+      "source": {
+        "bytes": 18749,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+        "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+      },
+      "span": {
+        "bytes": 2591,
+        "sha256": "c322b5e693f1bc8ecbe2620f78bb7cd78c9fe36b29251871e38c966c438594e7"
+      }
+    }
+  ],
+  "method": "Literal line slices, not AST or executable subject evaluation; prior source review remains inherited.",
+  "schema": "ri236-literal-source-read-correspondence-v1",
+  "target_loaded": false,
+  "target_source_changed": false
+}

@@ -1,6 +1,68 @@
 **Accepted work and remote publication**
 
-**Current follow-through — root transport and current frozen custody accepted.**
+**Current follow-through — connected contrasts and D2 separation accepted.**
+1 October 2026 UTC (30 September Honolulu). RI235 proves two actual connected
+contrasts strictly positive, forcing U5=U6=0. The possible zero branches of
+f4 and f7 have opposite signs of d, so at most one of U4,U7 can survive.
+The actual canonical corrections satisfy N0<1/200 and N1<1/800. Complete
+labeled ideal sums and all zero/minimum/tie branches are preserved.
+
+The allocation-free D2 coefficient is strictly below -1/12000. Its full
+coefficient still contains the actual coupled canonical term lambda*Xi;
+Xi<=64/375 would suffice for negativity, but is not established. All three
+D2 branches, five disconnected/eight connected equations, ten original
+coordinates, u2=-1 and complete reference/full-slot recovery remain.
+No full normalized witness, actual signed inconsistency, rank, improvement,
+optimality, maximal amplitude, all-size or physical conclusion is claimed.
+
+Root read both full proofs e0219a/a89979 and checked57 identities,
+51 direct sources/1127159 bytes and15 unchanged boundaries ad1e7e exit0.
+The nonauthor manually reviewed all formulae and independently verified the
+same complete closure d5a6aa exit0. Its full review was preserved by root
+and confirmed verbatim by the reviewer a7bf42 exit0. A rejected external
+reviewer-write/replay request executed nothing; no replay is credited.
+The genuine author final6 command was independently retrieved as completed
+exit0, with API-output truncation disclosed. Mathematical reasoning was
+manual; the423-source manifest remains by reference. Evidence is in
+`docs/track_b/native_cross_root_d2_v1/`.
+
+After this adjudication, RI238 was assigned to the existing Quantum
+Relativity chat: determine actual d versus the tiny exceptional d4/d7
+thresholds and bound the coupled canonical Xi or otherwise establish the
+full D2 coefficient. Preserve exceptional zero coefficients and all other
+rows; seek an actual signed inconsistency or full witness. No new scientific
+body/coordinate authority, automated mathematics or runtime was granted.
+
+Measurement RI236 now has an independently accepted concrete unissued
+capture design. Its exact17-field admission,four null predecessors,ten-field
+E/tmp environment,parent/child cwd,unchanged limits,twelve outputs and
+failure tails are specified. Author metadata2cc0c8 passed27302 predicates;
+independent19592e passed32286 predicates/997 fixed files; rootfb5060
+verified997 identities,986 dependencies and11 literal source spans.
+Old RI130/141 authorship is disclosed separately from this new proposal
+review. Evidence is in
+`docs/coordination/measurement_current_e_capture_design_v1/`.
+
+The immediate root-owned measurement action is fresh source/vendor/host/E
+preflight, one-operation source adoption, then the unchanged RI141 capture
+in the existing RI236 reservation. Both whole snapshots must equal accepted
+normal PRE, with separate full E49/9 and48/124/30 custody. No source repair
+or profile/guard rerun is indicated. Before later pre_mode, any supplier
+stable-field projection must be concretely reviewed while preserving raw
+observations and genuine provenance. The runtime13/request5/result9/card10
+sequence and later sole-card insertion remain separately controlled.
+No operational card, capture or scientific execution occurred in RI236.
+
+Accepted current frozen custody remains; the original installation refusal
+remains unchanged. WHITE15/W09,both179 controls,27/13/30 records,57 artifacts/
+74 postchecks/three trees,RI131/full32 and selected public GWOSC conventional
+reproduction remain. Calibration and a native forward map remain separate.
+RET alone is paused. Parent bdbd83cea9b666fb4589834e0a961d83cc07b332 was
+verified on live origin/ret; this checkpoint's final commit/remote receipt
+is recorded externally after publication. Unrelated edits and original
+reviews remain preserved. The programme continues; no user decision is needed.
+
+**Prior checkpoint — root transport and current frozen custody accepted.**
 1 October 2026 UTC (30 September Honolulu). RI233 establishes a conditional
 finite-law reduction: the complete C5 row, all supported connected full
 profiles and all five disconnected profiles depend only on the stem-root
