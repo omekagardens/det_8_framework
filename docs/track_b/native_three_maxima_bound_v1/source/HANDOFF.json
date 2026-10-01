@@ -1,0 +1,127 @@
+{
+  "schema": "ri203-native-three-maxima-handoff-v1",
+  "status": "COMPLETE_THREE_MAXIMA_CLASS_THEOREM_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_NATIVE_ASSIGNMENT.json",
+    "bytes": 2888,
+    "sha256": "d33913caa09f7c38f7b9e52191e91d62c5279733f208b550a4f498389b0f6395"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_ADJUDICATION.json",
+    "bytes": 2213,
+    "sha256": "63eaa608086d8b2376cd50ec7ca47e6d3b77b00f20204dbe131468631dcceefb"
+  },
+  "scalar_clarification": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_INHERITED_SCALAR_CLARIFICATION.json",
+    "bytes": 1133,
+    "sha256": "96bf213de5659149f11ecfdd9650361909004699f12b97dd043eedac553d73e3"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "DENOMINATOR_LEMMA.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_REFERENCES.json",
+    "THREE_MAXIMA.md"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/AUTHOR_VERIFICATION.json",
+      "bytes": 25772,
+      "sha256": "3cd1dc24adadbdcb946037064cde1a684875b378bb411df466b2dcb6b929f69a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/DENOMINATOR_LEMMA.md",
+      "bytes": 10284,
+      "sha256": "d466e1c13cf99583b2ea7ef269938993b46fdafec02ad6311a3fc4150124720c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/HANDOFF.md",
+      "bytes": 2294,
+      "sha256": "f17dd5031031547a412ad97efa9a83502ebb8187968292cb381bf538dbcab062"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/SOURCE_REFERENCES.json",
+      "bytes": 25319,
+      "sha256": "1a713c2feb6cbeecca5b65f1768bdf7b737acdece6eb762851d4868eee90a3d4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/THREE_MAXIMA.md",
+      "bytes": 11125,
+      "sha256": "10008e3ccbe7a596daf811e75d0812c7b27aac805e93dbfdb9dcce8cc76f5c60"
+    }
+  ],
+  "theorem": "For every actual marked six-parent with exactly three maxima, U6<3+3K+16K^2<92416228003<93000000000<T, K=681472/9, conditional on the named inherited finite native-prefix facts.",
+  "pointwise_lemma": "For every three-base R, three precursor ideals covering R, every record and every A in J(R), q1(A)*q2(A)*q3(A)>=B(A)*epsilon^2/16. The complete manual case proof retains the full R ideal and uses alpha4>=1/8 only at proper four-parent slots.",
+  "proof_steps": [
+    "Independently derive U6=3-L+sum_i C2_i+C3 from every nonempty omitted-maxima subset; 0<L<3 and all seven triple-deletion factors remain.",
+    "Derive both marked common-row transport identities, keeping all auxiliary/original bits and shared canonical factors.",
+    "Prove the pointwise product lemma by the five three-event base shapes, all compatible precursor/ideal cases and every seed marking, not a cubed independent floor.",
+    "Use the all-ideal four-parent floor for C2_i<K, including full q_i(R+i), with complete actual strict subrow sums.",
+    "Use the product lemma and three complete actual five-parent subrow sums to obtain C3<16K^2.",
+    "Use K<76000, the hand integer comparison, native RI201 M5>10^9 and unchanged T>(468/5)(1+M5)-1/2>93000000000."
+  ],
+  "inherited_premises_not_fresh_verification": [
+    "RI41 all-four-parent ideal floor9/681472, including full ideals.",
+    "RI41 scalar min alpha4=1/8 with q4=alpha*u4 only for proper slots, explicitly admitted by the exact root clarification.",
+    "Unchanged fixed seed, complete normalization, positivity, locality, equivariance, ordinary marked diamonds and canonical size-five strict mixture.",
+    "Accepted RI201 native antichain witness and inherited RI199 target relation. Printed numerical M5 unused."
+  ],
+  "manual_analysis_only": true,
+  "complete_three_maxima_class_bound_proved": true,
+  "global_M6_bound_proved": false,
+  "actual_W_decided": false,
+  "both_individual_margins_or_H30_proved": false,
+  "four_through_six_maxima_settled": false,
+  "concrete_violating_parent_proved": false,
+  "printed_numerical_M5_used": false,
+  "new_scientific_body_or_vector_read": false,
+  "automated_proof_arithmetic_or_subject_execution": false,
+  "qualification_credit": false,
+  "repository_or_Git_written": false,
+  "ret_paused": true,
+  "remaining": "Four-through-six-maxima classes remain outside this theorem, so global M6, actual W, both margins and H30 stay open. This packet proposes no successor.",
+  "provenance_scope": {
+    "direct_sources": 13,
+    "direct_bytes": 545142,
+    "inherited423_manifest_by_reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "fresh423_or_previous26_or_previous18_replay": false,
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_complete_namespace": 5
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "e86dfb",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 17,
+      "explicit_selected_reference_checks": 23
+    },
+    "author_record": {
+      "chunk_id": "636ba3",
+      "exit_code": 0
+    },
+    "failed_current_commands_or_patches": 0,
+    "recovered_current_diagnostic": "Combined outer source display clipped; complete stored source output displayed alone. Exact record in AUTHOR_VERIFICATION.json.",
+    "all_historical_diagnostics_preserved_by_reference": true
+  },
+  "final_check_policy": "Run the retained administrative checker in final6 mode after this file exists. Report its actual receipt and the handoff identity externally. This handoff does not claim a future check or an internal self-hash.",
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stopping_rule": "Stop for root independent review and separately owned Git/publication. No new class, scientific execution, fixture/runtime/card, new agent/thread or RET continuation."
+}

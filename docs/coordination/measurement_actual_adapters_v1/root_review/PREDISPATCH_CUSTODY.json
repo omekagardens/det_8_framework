@@ -1,0 +1,40 @@
+{
+  "E_before": {
+    "bytes": 42464,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/E_BEFORE.json",
+    "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+  },
+  "E_unchanged": true,
+  "absences": 2,
+  "all_full_identities_equal": true,
+  "dispatch": {
+    "bytes": 2695,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/DISPATCH.json",
+    "sha256": "b37f56196de2859e9afaf82ea8f7adbfe4d24e222b52402e5a8c9d9d8c3539a7"
+  },
+  "host_unchanged": true,
+  "namespace_rows": 195,
+  "observed_at_unix_ns": 1790822301317136000,
+  "owned_outputs_fresh": true,
+  "prior_role_rows": 810,
+  "runtime_before": {
+    "bytes": 1260482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RUNTIME_BEFORE.json",
+    "sha256": "a873bb0c763ac11d54e283fcbf9d8d652cd6eb4035816b36ad09ac710334023a"
+  },
+  "schema": "ri204-fresh-predispatch-custody-v1",
+  "scientific_execution": false,
+  "source_files": 722,
+  "source_supplement": {
+    "bytes": 859846,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/CLOSURE_SUPPLEMENT.json",
+    "sha256": "817ea2d35f5821107b8f2c5a4579765b2280b88a94d74adbffbc32fec2436890"
+  },
+  "sources_before": {
+    "bytes": 420752,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/SOURCES_BEFORE.json",
+    "sha256": "4853517f8744783cba323c2a3b9dd55675cbc0b902a7ef6355d06402488975aa"
+  },
+  "tools": 4,
+  "vendor_files": 1810
+}

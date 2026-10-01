@@ -1,0 +1,48 @@
+{
+  "actual_outer": {
+    "bytes": 1669,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/GENUINE_TOOL.json",
+    "sha256": "fb10035280fe128ec9085be73e81b11e0731e46624b7cf4ba63609594f0203eb"
+  },
+  "actual_terminal": {
+    "bytes": 648,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/GENUINE_TERMINAL_ARGUMENTS.json",
+    "sha256": "54fb5803ec2c3f2b52d34b474bf2d2c12a081562ccdf39d5a75c787eb0997d58"
+  },
+  "failed_subject_commands": [],
+  "fresh_predispatch": {
+    "chunk": "b52aeb",
+    "exit_code": 0
+  },
+  "postcheck": {
+    "chunk": "206324",
+    "exit_code": 0,
+    "record": {
+      "bytes": 3300,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ACTUAL_ADAPTERS_POSTCHECK.json",
+      "sha256": "15259c03a8068a63eddbb7344d1e3c48694e7153773bb1c66503d754447fef27"
+    }
+  },
+  "preparation": {
+    "exit_code": 0,
+    "initial": "6a7852",
+    "session_id": 90595,
+    "terminal": "d92429"
+  },
+  "proposal_source_reads": [
+    "48bf37 exit0 (clipped notes recovered)",
+    "1c9fbe exit0 full final sources and notes",
+    "3f2fac exit0 full concrete card/dispatch/bootstrap/preflight",
+    "e6b5fb exit0 sealed payload/dispatch authentication"
+  ],
+  "ret_paused": true,
+  "root_actual_read": "aea28d exit0",
+  "schema": "ri204-measurement-actual-receipts-v1",
+  "scientific_execution": false,
+  "source_review": {
+    "bytes": 4521,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ROOT_PREPARATION_DECISION.json",
+    "sha256": "a1c7cbcd78f1a21f2b15f5d7b7179446b5cd4b9cea9c32ee7d182912ba05b50e"
+  },
+  "subject_retries": 0
+}

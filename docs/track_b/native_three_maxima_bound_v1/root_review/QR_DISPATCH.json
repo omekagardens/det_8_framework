@@ -1,0 +1,20 @@
+{
+  "assignment": {
+    "bytes": 2862,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI205_NATIVE_ASSIGNMENT.json",
+    "sha256": "eb3dac590579291b819c8e9216553dc23bd1d8528883b5e800de5d24e3be4ae6"
+  },
+  "predecessor": {
+    "bytes": 2333,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_ADJUDICATION.json",
+    "sha256": "1686534e3f8e5ca01d8954b9ba60d2c74c1d52f4b1fd43cb183942cdc1665db2"
+  },
+  "purpose": "Entire four-maxima class after independent predecessor review. Root owns all Git/publication.",
+  "result": {
+    "isError": false,
+    "threadId": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+  },
+  "schema": "ri204-qr-dispatch-v1",
+  "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "tool": "mcp__codex_app__send_message_to_thread"
+}

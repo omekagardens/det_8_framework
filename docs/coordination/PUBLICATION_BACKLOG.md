@@ -1,6 +1,71 @@
 **Accepted work and remote publication**
 
-**Current checkpoint — complete two-maxima bound and exact measurement inputs.**
+**Current checkpoint — complete three-maxima theorem and actual adapters.**
+1 October 2026 UTC (30 September in Honolulu). RI203 is independently
+accepted under its named finite-prefix premises: every marked six-parent
+with exactly three maxima satisfies U6<3+3K+16K^2<92,416,228,003<T,
+K=681472/9. The covering-precursor lemma bounds the triple denominator
+over every three-event base shape, ideal and record. Complete positive
+subrow sums give each C2_i<K and C3<16K^2. Proper and full four-parent
+slots use their respective admissible floors. The native M5 witness gives
+T>93 billion without evaluating the printed maximum or canonical vector.
+
+Root and a separate nonauthor manually reviewed the whole argument.
+Root metadata b1acd2 exit0 checks13 direct sources/545142bytes, six packet
+files,26 selected references, both namespaces and15 preserved boundary
+objects. Inherited423/26/18 collections remain exact references, not a
+new finite replay. Full premises and receipts are archived in
+`docs/track_b/native_three_maxima_bound_v1/`.
+
+One through three maxima are settled against the unchanged sufficient
+target. RI205, assigned after RI203 adjudication, has now sealed its
+four-maxima proof in `ri205-native-four-maxima-7gkvoked/`. Handoff7882bytes,
+SHA256 `cb9c07c5715b4c5b7aa0b610aa642ffc45c6c93fc8dc1996d67205b1a64a4afe`.
+The nonauthor review finds no mathematical blocker; root's full independent
+adjudication and check reconciliation are the next native action. No RI205
+acceptance is claimed in this checkpoint. After that disposition, assign
+the justified next QR question without another user-permission round.
+Five/six maxima, global M6, actual W, both margins, H30 and physical
+correspondence remain open; executable obligations remain uncredited.
+
+Measurement completed one actual unchanged RI160 adapters operation:
+exec7f6855/session57986, terminal942d82 exit0, empty streams. Root fresh
+predispatch b52aeb and postcheck206324 passed. Independent actual review
+b37b35 exit0 passed3829 predicates and checked2555 fresh whole identities.
+Every caller11/guards8/runtime23 field matches the independently
+reconstructed canonical result. All3 operation files including COMPLETE,
+four monitor files and7 independent tails reconcile. Root issued the
+three complete acceptance records outside E; E remains48files/nine dirs.
+
+Fresh custody covered722 sources,810 preserved historical roles,
+1810vendor files/48,024,515bytes,195namespace rows,two absences,fourtools
+and the host. The operation took2.414953375seconds,73valid samples,
+peak211872KiB,max gap47.343917ms and final gap29.915083ms. All original
+resource limits remain. This is sampled child RSS, with explicit stable
+supplier/cache/Apple-host/loader/read-window/no-descendants premises.
+Original65 guards and actual current profiles retain their accepted
+applicability; no new guard or runtime capture is claimed. Earlier source
+and reviewer authorship, the reviewer-only missing-name diagnostic and
+recovered clipped displays are preserved. No subject retry occurred.
+See `docs/coordination/measurement_actual_adapters_v1/`.
+
+RI206 is the next measurement step: source-only preparation and complete
+candidate-freeze reconstruction, assigned in the exclusive
+`ri206-root-freeze-5e_n5lj_/worker_proposal/` reservation. The exact request
+already binds the three accepted cards. Root retains admissions, genuine
+execution, independent acceptance and Git ownership. No freeze or mode
+card has been issued; fresh per-mode custody and genuine normal acceptance
+must precede optimized. WHITE15/W09,both179controls,27/13/30records,
+57artifacts,74postchecks,three trees,RI131/full32 and the selected public
+GWOSC conventional reproduction remain distinct. Protected validation,
+calibration and a native forward map remain separate. RET alone is paused.
+
+This bounded checkpoint preserves unrelated edits, all protected historical
+evidence and active RI205/206 work. The programme continues without a
+missing user decision. Scoped commit and live remote verification receipts
+are retained in `ri204-root-adapters-f04k2tg9/` after publication.
+
+**Prior checkpoint — complete two-maxima bound and exact measurement inputs.**
 1 October 2026 UTC (30 September in Honolulu). RI201 is independently
 accepted as a conditional native theorem: every marked six-parent with
 exactly two maxima satisfies U6<681472/9<76000<T. Complete deletion rows

@@ -1,0 +1,100 @@
+{
+  "all_declared_guards_passed": true,
+  "genuine_outer": {
+    "bytes": 1447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GENUINE_OUTER.json",
+    "sha256": "92a68d9a38e03c0c44f59f5c25b86fc6c8db1ee62bdf124837649dcfd8808026"
+  },
+  "helpers": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/control.py",
+      "pin": {
+        "bytes": 5171,
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runtime_support.py",
+      "pin": {
+        "bytes": 8184,
+        "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/caller_contract.py",
+      "pin": {
+        "bytes": 18749,
+        "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/evidence.py",
+      "pin": {
+        "bytes": 22152,
+        "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/monitor.py",
+      "pin": {
+        "bytes": 3644,
+        "sha256": "5ca6f82423c5ba862b919de846684c2b8364e59442da27d9f5ed933c33a9cb51"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/worker.py",
+      "pin": {
+        "bytes": 9021,
+        "sha256": "0250bdfa9c47fcbe8b00278be79f2cf7e3ca8b955bf93f16eb3d18c1e7936550"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/launch.py",
+      "pin": {
+        "bytes": 14159,
+        "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/profile_observe.source-only.py",
+      "pin": {
+        "bytes": 2696,
+        "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/guard_controls.source-only.py",
+      "pin": {
+        "bytes": 38688,
+        "sha256": "e11e53400374068a9036b24e1a50bf8505fc910ae279a8742f24af17dfba8f72"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/TARGET_CLOSURE.source-only.json",
+      "pin": {
+        "bytes": 10760,
+        "sha256": "69d927acb494c05ee45326b8e02159c99a583b7ee2533c947a1762b550b1ed83"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HISTORY_CLOSURE.source-only.json",
+      "pin": {
+        "bytes": 29806,
+        "sha256": "f78ca32b9de47f5390d20c4de44a87aa462b871ba1b51b3bc1329e08c8c6aafa"
+      }
+    }
+  ],
+  "independent_review": {
+    "bytes": 10237,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+    "sha256": "e4a86b2ce39d575e6ba5323921c8eadf819ec38983c0d8216b7136107701abe9"
+  },
+  "report": {
+    "bytes": 40109,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/GUARD_REPORT.json",
+    "sha256": "52e64ae2569335dd09c904fb5eb78e77778a613b554ae07a1a82654ceb95339f"
+  },
+  "schema": "ri130-root-guard-qualification-v1",
+  "scientific_targets_executed": false,
+  "status": "ACCEPT_EXACT_CALLER_GUARD_EXECUTION"
+}

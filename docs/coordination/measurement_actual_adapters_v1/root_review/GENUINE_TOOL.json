@@ -1,0 +1,28 @@
+{
+  "actual_arguments": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADAPTERS_BOOTSTRAP.py",
+    "justification": "Execute the independently reviewed, singly admitted RI204 administrative adapters action under the unchanged child monitor and outer alarm; preserve all outputs and do not run a scientific target or runtime probe.",
+    "login": false,
+    "max_output_tokens": 2000,
+    "sandbox_permissions": "require_escalated",
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9",
+    "yield_time_ms": 1000
+  },
+  "actual_result": {
+    "chunk_id": "942d82",
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": "",
+    "wall_time_seconds": 9.5e-06
+  },
+  "command_claim": "One unchanged bounded RI160 administrative adapters action; no scientific target or runtime profile.",
+  "initial_result": {
+    "chunk_id": "7f6855",
+    "original_token_count": 0,
+    "output": "",
+    "session_id": 57986,
+    "wall_time_seconds": 1.002106166
+  },
+  "schema": "ri204-genuine-outer-tool-record-v1",
+  "tool_relationship": "exec_command 7f6855 created session57986; write_stdin 942d82 terminal exit0"
+}

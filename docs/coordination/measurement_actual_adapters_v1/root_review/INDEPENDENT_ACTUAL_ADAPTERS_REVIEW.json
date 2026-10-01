@@ -1,0 +1,62 @@
+{
+  "candidate_field_counts": {
+    "caller": 11,
+    "guards": 8,
+    "runtime": 23
+  },
+  "checker": {
+    "chunk": "b37b35",
+    "distinct_fresh_whole_file_identities": 2555,
+    "exit_code": 0,
+    "predicates": 3829
+  },
+  "complete": {
+    "bytes": 176901,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri204-adapters-f04k2tg9/COMPLETE.json",
+    "sha256": "7323135a4bd6b489f74eac74968c5618f164d51ef1f9143225abc509b7a3e470"
+  },
+  "failed_commands": [],
+  "genuine_outer": {
+    "bytes": 1669,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/GENUINE_TOOL.json",
+    "sha256": "fb10035280fe128ec9085be73e81b11e0731e46624b7cf4ba63609594f0203eb"
+  },
+  "limitations": [
+    "genuine external tool origin supported by root receipts",
+    "sampled child RSS, not continuous/group quota",
+    "saved parent PID is not authenticated child identity",
+    "stable supplier/host/cache/read-window and no descendants remain premises",
+    "administrative result creates no freeze or WHITE/scientific credit"
+  ],
+  "postcheck": {
+    "bytes": 3300,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ACTUAL_ADAPTERS_POSTCHECK.json",
+    "sha256": "15259c03a8068a63eddbb7344d1e3c48694e7153773bb1c66503d754447fef27"
+  },
+  "prior_authorship": "RI130/RI141, not this proposal; actual result reviewed using previously accepted source semantics.",
+  "reads": [
+    "c17cf6 exit0",
+    "f780e2 exit0"
+  ],
+  "result": {
+    "bytes": 46546,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri204-adapters-f04k2tg9/RESULT.json",
+    "sha256": "804196b08bbe96758279b66b1deac3da80d3cea67b7c1eb5169895c028997d62"
+  },
+  "ret_paused": true,
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri204-independent-actual-adapters-review-v1",
+  "scope": [
+    "Every field of three candidates reconstructed independently with typed canonical RESULT equality",
+    "All COMPLETE fields, seven independent tails, captured sources/dependencies/output pins and final namespace",
+    "All73 monitor attempts/samples, complete empty streams, exact command/environment and genuine session/terminal relationships",
+    "Fresh722source/1810vendor/195namespace/fourprimitive/completeE custody; three operation files and empty temporary directory"
+  ],
+  "status": "PASS_COMPLETE_SAVED_CANDIDATES_AND_CUSTODY",
+  "subject_rerun": false,
+  "terminal": {
+    "bytes": 648,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/GENUINE_TERMINAL_ARGUMENTS.json",
+    "sha256": "54fb5803ec2c3f2b52d34b474bf2d2c12a081562ccdf39d5a75c787eb0997d58"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "action": "adapters",
+  "bootstrap_preflight": {
+    "bytes": 3815,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "9a5701ceaff6757a244694f649b93a345b72ffd2338b0a9d69104c9831178787"
+  },
+  "bounds": {
+    "file_bytes": 67108864,
+    "maximum_sample_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "genuine_outer_required": true,
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri204-adapters-f04k2tg9",
+  "qualification": {
+    "bytes": 4041,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI162_CONSUMER_QUALIFICATION.json",
+    "sha256": "0e27e1393c949a24a244ef2e2367ed8c72a10df1d3e3a6057cee8a4d20c9e0d7"
+  },
+  "request": {
+    "bytes": 3021,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+    "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+  },
+  "schema": "ri156-root-adapter-admission-v1",
+  "source_manifest": {
+    "bytes": 147447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+  },
+  "source_review": {
+    "bytes": 2582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+    "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+  },
+  "status": "AUTHORIZE_ONE_BOUNDED_METADATA_ACTION"
+}

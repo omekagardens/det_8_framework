@@ -1,0 +1,19 @@
+{
+  "accepted_adapters": {
+    "caller": {
+      "bytes": 18366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/CALLER_ACCEPTANCE.json",
+      "sha256": "26ab721900bdd781a53fc728ea3d4a4eb5cf2769f00b2fb05d0a7aa8236847c0"
+    },
+    "guards": {
+      "bytes": 3921,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/GUARDS_ACCEPTANCE.json",
+      "sha256": "fb7ed6e74f801a18224c706bb8203db4cfe2ca48ed57f6793e6b431d9c945997"
+    },
+    "runtime": {
+      "bytes": 22342,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/RUNTIME_ACCEPTANCE.json",
+      "sha256": "6c11846207bb55f82057a80a63fddce8ba3b00b21550ffc1dc4326203dd15add"
+    }
+  }
+}

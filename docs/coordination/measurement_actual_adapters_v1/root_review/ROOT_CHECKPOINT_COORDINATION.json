@@ -1,0 +1,56 @@
+{
+  "RI205": {
+    "author_record": {
+      "bytes": 24386,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/AUTHOR_VERIFICATION.json",
+      "sha256": "87de64a85294a2ebc17d9207e276513d905fd5286ed80653713e8c8bd2b0a97b"
+    },
+    "handoff": {
+      "bytes": 7882,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.json",
+      "sha256": "cb9c07c5715b4c5b7aa0b610aa642ffc45c6c93fc8dc1996d67205b1a64a4afe"
+    },
+    "next": "Root full adjudication/check reconciliation then select and assign justified QR successor; no user permission needed.",
+    "nonauthor": "/root/qr_opportunities",
+    "original423_replayed": false,
+    "reads": [
+      "1f75a7 exit0 complete proofs and unchanged hashes",
+      "63eaf1 exit0 accepted support/seed premises",
+      "885e29 exit0 complete author checker",
+      "f2bfc3 exit0 complete handoff and final pins"
+    ],
+    "recommendation": "No mathematical blocker: selected-ideal retained-cap repair, finite Ferrers/diamond support lemma, exact extra-old-max parity factors and coverage multiplicity, all seed/mark/full-complement cases and manual comparisons checked.",
+    "reported_author_final": {
+      "chunk": "0603bd",
+      "current_namespace": 6,
+      "direct_bytes": 543096,
+      "direct_sources": 15,
+      "exit_code": 0,
+      "identities": 21,
+      "independent_replay": false,
+      "preserved_boundaries": 15,
+      "prior_namespace": 6,
+      "selected_references": 29
+    },
+    "reviewer_supplement": "Externally QR-reported final receipt matches reviewed source; not a reviewer replay.",
+    "root_mathematical_adjudication_completed": false,
+    "status": "SEALED_NONAUTHOR_REVIEW_PASSES_ROOT_ADJUDICATION_QUEUED"
+  },
+  "adapter_acceptance": {
+    "record": {
+      "bytes": 3842,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADAPTERS_ACCEPTANCE.json",
+      "sha256": "21929f3fcc989233cdc0a479f7f5319ddc5458163f569dee3907a1f1965edcf9"
+    },
+    "tool": "d6972c exit0"
+  },
+  "measurement_worker_acknowledged": true,
+  "next_measurement_assignment": {
+    "bytes": 1206,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI206_MEASUREMENT_ASSIGNMENT.json",
+    "sha256": "b49598fec8fb8c829af3d1ab20f6269419d442b735981e41dcada53d91e42641"
+  },
+  "programme_complete": false,
+  "ret_paused": true,
+  "schema": "ri204-checkpoint-coordination-v1"
+}

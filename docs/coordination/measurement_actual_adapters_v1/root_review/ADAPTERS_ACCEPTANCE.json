@@ -1,0 +1,78 @@
+{
+  "acceptance_scope": "Administrative construction over separately accepted source, original guard applicability and complete current profiles. No guards newly ran at E; no runtime capture or source/cache equivalence claim.",
+  "accepted_adapters": {
+    "caller": {
+      "bytes": 18366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/CALLER_ACCEPTANCE.json",
+      "sha256": "26ab721900bdd781a53fc728ea3d4a4eb5cf2769f00b2fb05d0a7aa8236847c0"
+    },
+    "guards": {
+      "bytes": 3921,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/GUARDS_ACCEPTANCE.json",
+      "sha256": "fb7ed6e74f801a18224c706bb8203db4cfe2ca48ed57f6793e6b431d9c945997"
+    },
+    "runtime": {
+      "bytes": 22342,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/RUNTIME_ACCEPTANCE.json",
+      "sha256": "6c11846207bb55f82057a80a63fddce8ba3b00b21550ffc1dc4326203dd15add"
+    }
+  },
+  "cards_are_complete_canonical_result_values": true,
+  "complete": {
+    "bytes": 176901,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri204-adapters-f04k2tg9/COMPLETE.json",
+    "sha256": "7323135a4bd6b489f74eac74968c5618f164d51ef1f9143225abc509b7a3e470"
+  },
+  "freeze_issued": false,
+  "frozen_environment_unchanged": true,
+  "genuine_outer": {
+    "bytes": 1669,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/GENUINE_TOOL.json",
+    "sha256": "fb10035280fe128ec9085be73e81b11e0731e46624b7cf4ba63609594f0203eb"
+  },
+  "independent_review": {
+    "bytes": 2700,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/INDEPENDENT_ACTUAL_ADAPTERS_REVIEW.json",
+    "sha256": "481b7d60ee8876ce47659da4da52f9b7344bbd34446daaabaf29d99a7e0360e2"
+  },
+  "mode_admission_issued": false,
+  "post_custody": {
+    "bytes": 59558,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/POST_CUSTODY.json",
+    "sha256": "f086fbcdfcad267cecf3af22b97a3485bcb49d63666bb41ec042f5f3b0c3e50b"
+  },
+  "postcheck": {
+    "bytes": 3300,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ACTUAL_ADAPTERS_POSTCHECK.json",
+    "sha256": "15259c03a8068a63eddbb7344d1e3c48694e7153773bb1c66503d754447fef27"
+  },
+  "preflight_review": {
+    "bytes": 1850,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/INDEPENDENT_CONCRETE_PREFLIGHT_REVIEW.json",
+    "sha256": "cabcd7785e7c3429f102dd27f3fbb1b356ed3ea2cb9e93589002ff8e8e3492dd"
+  },
+  "result": {
+    "bytes": 46546,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri204-adapters-f04k2tg9/RESULT.json",
+    "sha256": "804196b08bbe96758279b66b1deac3da80d3cea67b7c1eb5169895c028997d62"
+  },
+  "ret_paused": true,
+  "root_review": {
+    "bytes": 3614,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ROOT_ACTUAL_ADAPTERS_REVIEW.md",
+    "sha256": "2522e1813aad098e1a29fdcf4f85ee66e505c3170ffade279d314eed1775261f"
+  },
+  "schema": "ri204-root-actual-adapters-adjudication-v1",
+  "scientific_execution": false,
+  "source_review": {
+    "bytes": 4521,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ROOT_PREPARATION_DECISION.json",
+    "sha256": "a1c7cbcd78f1a21f2b15f5d7b7179446b5cd4b9cea9c32ee7d182912ba05b50e"
+  },
+  "status": "ACCEPT_COMPLETE_ADMINISTRATIVE_ADAPTERS",
+  "terminal": {
+    "bytes": 648,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/GENUINE_TERMINAL_ARGUMENTS.json",
+    "sha256": "54fb5803ec2c3f2b52d34b474bf2d2c12a081562ccdf39d5a75c787eb0997d58"
+  }
+}
