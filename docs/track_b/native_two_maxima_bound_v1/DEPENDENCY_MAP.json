@@ -1,0 +1,485 @@
+{
+  "all_transitive_dependencies_archived": false,
+  "complete_runtime_archive": false,
+  "copies": [
+    {
+      "original": {
+        "bytes": 43264,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/AUTHOR_VERIFICATION.json",
+        "sha256": "5f7e1a596aa1b8e2520216244e522cd47b3688590348cb771b4e35730e4d03e8"
+      },
+      "path": "source/AUTHOR_VERIFICATION.json"
+    },
+    {
+      "original": {
+        "bytes": 2244,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.md",
+        "sha256": "0c98796c50172c3e528eb266687cbe5d5bb62a4989d38707279ea14159d126f3"
+      },
+      "path": "source/HANDOFF.md"
+    },
+    {
+      "original": {
+        "bytes": 30165,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/SOURCE_REFERENCES.json",
+        "sha256": "00e8c0ee6d008f32e0599830af75c9d0f23c1f73eae5de0b554f099ff188a48f"
+      },
+      "path": "source/SOURCE_REFERENCES.json"
+    },
+    {
+      "original": {
+        "bytes": 12913,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md",
+        "sha256": "64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0"
+      },
+      "path": "source/TWO_MAXIMA.md"
+    },
+    {
+      "original": {
+        "bytes": 5866,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.json",
+        "sha256": "b3c6de222485d29b14fd33984ffa23bc7be4479826ab6134e1882f3314d18ad7"
+      },
+      "path": "source/HANDOFF.json"
+    },
+    {
+      "original": {
+        "bytes": 4295,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_PROOF_REVIEW.md",
+        "sha256": "6dec18b46fe8627ed01a45655057e848ac4b21fc96a8ae403eb4be1438306954"
+      },
+      "path": "root_review/RI201_ROOT_PROOF_REVIEW.md"
+    },
+    {
+      "original": {
+        "bytes": 2213,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_ADJUDICATION.json",
+        "sha256": "63eaa608086d8b2376cd50ec7ca47e6d3b77b00f20204dbe131468631dcceefb"
+      },
+      "path": "root_review/RI201_ROOT_ADJUDICATION.json"
+    },
+    {
+      "original": {
+        "bytes": 13742,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_METADATA_CHECK.json",
+        "sha256": "3008ce1e30cef607d693dd518797a1cb486a956293c16ed63bbe628bc9102ec4"
+      },
+      "path": "root_review/RI201_ROOT_METADATA_CHECK.json"
+    },
+    {
+      "original": {
+        "bytes": 5287,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/review_ri201.py",
+        "sha256": "2ed3d3e25553c139c48efa2e637f54e6493ea8535e9bd87b6eea5a8b73150613"
+      },
+      "path": "root_review/review_ri201.py"
+    },
+    {
+      "original": {
+        "bytes": 8815,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/adjudicate.py",
+        "sha256": "95ce1dcf800f77bd2402649126a807f4029c1bd8f8086434ea7fac4c13b6b16a"
+      },
+      "path": "root_review/adjudicate.py"
+    },
+    {
+      "original": {
+        "bytes": 8827,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/adjudicate_v2.py",
+        "sha256": "3b15acd58badff3730d2b168b90f48a8fbf3ce1bc3f300491c7147b3d8e3283f"
+      },
+      "path": "root_review/adjudicate_v2.py"
+    },
+    {
+      "original": {
+        "bytes": 421,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADJUDICATION_DIAGNOSTIC.json",
+        "sha256": "811cbd6a8f113310c05d233b9cc8bfeb6cf8a357b225e15446e575ecfab79d39"
+      },
+      "path": "root_review/ADJUDICATION_DIAGNOSTIC.json"
+    },
+    {
+      "original": {
+        "bytes": 2888,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_NATIVE_ASSIGNMENT.json",
+        "sha256": "d33913caa09f7c38f7b9e52191e91d62c5279733f208b550a4f498389b0f6395"
+      },
+      "path": "root_review/RI203_NATIVE_ASSIGNMENT.json"
+    },
+    {
+      "original": {
+        "bytes": 1133,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_INHERITED_SCALAR_CLARIFICATION.json",
+        "sha256": "96bf213de5659149f11ecfdd9650361909004699f12b97dd043eedac553d73e3"
+      },
+      "path": "root_review/RI203_INHERITED_SCALAR_CLARIFICATION.json"
+    },
+    {
+      "original": {
+        "bytes": 976,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/QR_DISPATCH.json",
+        "sha256": "e02924663ff682fe6b9afa3e73100fbba3f80b2f7dff76b4fc584f3039acbc35"
+      },
+      "path": "root_review/QR_DISPATCH.json"
+    },
+    {
+      "original": {
+        "bytes": 1601,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ROOT_ACTUAL_RECEIPTS.json",
+        "sha256": "f26c594dbf44db548d38feb6ce4d3582bf722c91e329323a80f2cf146d4e54d2"
+      },
+      "path": "root_review/ROOT_ACTUAL_RECEIPTS.json"
+    },
+    {
+      "original": {
+        "bytes": 3144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+        "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+      },
+      "path": "root_review/metadata.py"
+    }
+  ],
+  "dependencies": [
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 13499,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md",
+        "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+      },
+      "path": "docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 17102,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+        "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+      },
+      "path": "docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 16243,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+        "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+      },
+      "path": "docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 10971,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_six_antichain_bound_v1/source/SIX_ANTICHAIN_BOUND.md",
+        "sha256": "6a9538be7a5b2b976bd74d9e165cbc8e0726e71b04effbc3cd00eaf027b1c3e4"
+      },
+      "path": "docs/track_b/native_six_antichain_bound_v1/source/SIX_ANTICHAIN_BOUND.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7886,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+        "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+      },
+      "path": "docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 19001,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/COMPONENT_CONTRASTS.md",
+        "sha256": "b982477d162bce2210aabaffe91cc68e52315734c186d2895e67da4736c9a49f"
+      },
+      "path": "docs/track_b/native_growth_actual_scale_bound_v1/source/COMPONENT_CONTRASTS.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 11443,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/CANONICAL_REDUCTION_SYNTHESIS.md",
+        "sha256": "04557bb129faa4ae6dc4952c5ccdf1ba933c2ac56801acf02f436879bf628f71"
+      },
+      "path": "docs/track_b/native_growth_canonical_hook_reduction_v1/source/CANONICAL_REDUCTION_SYNTHESIS.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 22869,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/NEUTRAL_COMPONENT_INCIDENCE.md",
+        "sha256": "dccd56286e012010fd4775eff5b1bb355312e4af12975e73bb8361bb85873495"
+      },
+      "path": "docs/track_b/native_growth_canonical_target_formula_v1/source/NEUTRAL_COMPONENT_INCIDENCE.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 393074,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+        "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+      },
+      "path": "docs/track_b/native_manual_pair_separation_v1/source/SOURCE_DEPENDENCIES.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 23802,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/AUTHOR_VERIFICATION.json",
+        "sha256": "0d5b816353bf6c824ea60aa1e0bce079e7416c2ce61002abaccad7a81cf9722a"
+      },
+      "path": "docs/track_b/native_maximal_deletion_reduction_v1/source/AUTHOR_VERIFICATION.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 5411,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/HANDOFF.json",
+        "sha256": "6ec9d77cccc140d397c02cc79dde4e5a0572adcb6125075f27aef259f33250ff"
+      },
+      "path": "docs/track_b/native_maximal_deletion_reduction_v1/source/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2377,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/HANDOFF.md",
+        "sha256": "5a5eb351e51becc3e1e47b209cfc8411ff527e1de35a9dbad0c341fd5776af1b"
+      },
+      "path": "docs/track_b/native_maximal_deletion_reduction_v1/source/HANDOFF.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 14630,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/MAXIMUM_BOUND.md",
+        "sha256": "0dea1b702c22c018cb6a7bd5546d99b5a91b16a3fff4bf9e66592e4113620662"
+      },
+      "path": "docs/track_b/native_maximal_deletion_reduction_v1/source/MAXIMUM_BOUND.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 31518,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/SOURCE_REFERENCES.json",
+        "sha256": "379eab32dcaa5e30835a693669fbef072923f8dc094a65afd4b63e1e0cec2b66"
+      },
+      "path": "docs/track_b/native_maximal_deletion_reduction_v1/source/SOURCE_REFERENCES.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 1957,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI199_ROOT_ADJUDICATION.json",
+        "sha256": "3970c35bab896a25caa2bb58120233c3f12c798994bc82a4f571216be8813e59"
+      },
+      "path": "docs/track_b/native_maximal_deletion_reduction_v1/root_review/RI199_ROOT_ADJUDICATION.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 18636,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI199_ROOT_METADATA_CHECK.json",
+        "sha256": "d0dc546d19f34936258a2179f252ecd6797ff78d85ac91b5d099080051709d9c"
+      },
+      "path": "docs/track_b/native_maximal_deletion_reduction_v1/root_review/RI199_ROOT_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4417,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI199_ROOT_PROOF_REVIEW.md",
+        "sha256": "22733f5956d68b791e211e46cdb9ff560f4d3394f18f5b7277e6c705988721ca"
+      },
+      "path": "docs/track_b/native_maximal_deletion_reduction_v1/root_review/RI199_ROOT_PROOF_REVIEW.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2185,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI201_NATIVE_ASSIGNMENT.json",
+        "sha256": "6e7a3bf1f3ed9b0bfd98de63c0a8401f49065b9a371177f1f2cdc49386efb1c6"
+      },
+      "path": "docs/track_b/native_maximal_deletion_reduction_v1/root_review/RI201_NATIVE_ASSIGNMENT.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 43264,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/AUTHOR_VERIFICATION.json",
+        "sha256": "5f7e1a596aa1b8e2520216244e522cd47b3688590348cb771b4e35730e4d03e8"
+      },
+      "path": "source/AUTHOR_VERIFICATION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2244,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.md",
+        "sha256": "0c98796c50172c3e528eb266687cbe5d5bb62a4989d38707279ea14159d126f3"
+      },
+      "path": "source/HANDOFF.md"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 30165,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/SOURCE_REFERENCES.json",
+        "sha256": "00e8c0ee6d008f32e0599830af75c9d0f23c1f73eae5de0b554f099ff188a48f"
+      },
+      "path": "source/SOURCE_REFERENCES.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 12913,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md",
+        "sha256": "64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0"
+      },
+      "path": "source/TWO_MAXIMA.md"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 5866,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.json",
+        "sha256": "b3c6de222485d29b14fd33984ffa23bc7be4479826ab6134e1882f3314d18ad7"
+      },
+      "path": "source/HANDOFF.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 4295,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_PROOF_REVIEW.md",
+        "sha256": "6dec18b46fe8627ed01a45655057e848ac4b21fc96a8ae403eb4be1438306954"
+      },
+      "path": "root_review/RI201_ROOT_PROOF_REVIEW.md"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2213,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_ADJUDICATION.json",
+        "sha256": "63eaa608086d8b2376cd50ec7ca47e6d3b77b00f20204dbe131468631dcceefb"
+      },
+      "path": "root_review/RI201_ROOT_ADJUDICATION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 13742,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_METADATA_CHECK.json",
+        "sha256": "3008ce1e30cef607d693dd518797a1cb486a956293c16ed63bbe628bc9102ec4"
+      },
+      "path": "root_review/RI201_ROOT_METADATA_CHECK.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 5287,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/review_ri201.py",
+        "sha256": "2ed3d3e25553c139c48efa2e637f54e6493ea8535e9bd87b6eea5a8b73150613"
+      },
+      "path": "root_review/review_ri201.py"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 8815,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/adjudicate.py",
+        "sha256": "95ce1dcf800f77bd2402649126a807f4029c1bd8f8086434ea7fac4c13b6b16a"
+      },
+      "path": "root_review/adjudicate.py"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 8827,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/adjudicate_v2.py",
+        "sha256": "3b15acd58badff3730d2b168b90f48a8fbf3ce1bc3f300491c7147b3d8e3283f"
+      },
+      "path": "root_review/adjudicate_v2.py"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 421,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADJUDICATION_DIAGNOSTIC.json",
+        "sha256": "811cbd6a8f113310c05d233b9cc8bfeb6cf8a357b225e15446e575ecfab79d39"
+      },
+      "path": "root_review/ADJUDICATION_DIAGNOSTIC.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2888,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_NATIVE_ASSIGNMENT.json",
+        "sha256": "d33913caa09f7c38f7b9e52191e91d62c5279733f208b550a4f498389b0f6395"
+      },
+      "path": "root_review/RI203_NATIVE_ASSIGNMENT.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 1133,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_INHERITED_SCALAR_CLARIFICATION.json",
+        "sha256": "96bf213de5659149f11ecfdd9650361909004699f12b97dd043eedac553d73e3"
+      },
+      "path": "root_review/RI203_INHERITED_SCALAR_CLARIFICATION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 976,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/QR_DISPATCH.json",
+        "sha256": "e02924663ff682fe6b9afa3e73100fbba3f80b2f7dff76b4fc584f3039acbc35"
+      },
+      "path": "root_review/QR_DISPATCH.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 1601,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ROOT_ACTUAL_RECEIPTS.json",
+        "sha256": "f26c594dbf44db548d38feb6ce4d3582bf722c91e329323a80f2cf146d4e54d2"
+      },
+      "path": "root_review/ROOT_ACTUAL_RECEIPTS.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 3144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+        "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+      },
+      "path": "root_review/metadata.py"
+    }
+  ],
+  "dependency_locations": {
+    "archive": 17,
+    "existing_git": 18
+  },
+  "parent": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-map-v1",
+  "source_only": true
+}

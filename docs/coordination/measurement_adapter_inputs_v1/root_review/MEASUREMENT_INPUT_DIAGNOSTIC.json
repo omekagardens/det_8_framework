@@ -1,0 +1,16 @@
+{
+  "correction": "Changed only malformed predecessor digest to original published DEPENDENCY_MAP value and matching current whole file: d15afd and17874d exit0. Original script preserved.",
+  "failed_lookup": {
+    "chunk_id": "7c2c6f",
+    "exit_code": 1,
+    "reason": "Read-only unmatched shell glob; no command body ran."
+  },
+  "failure": {
+    "chunk_id": "40889d",
+    "exit_code": 1,
+    "reason": "Transcribed RI154 predecessor digest omitted de; expected pin failed before any issuance."
+  },
+  "issued_before_failure": false,
+  "schema": "ri202-administrative-diagnostic-v1",
+  "subject_execution": false
+}

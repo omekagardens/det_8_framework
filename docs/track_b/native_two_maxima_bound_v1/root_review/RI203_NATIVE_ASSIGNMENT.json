@@ -1,0 +1,20 @@
+{
+  "available_bounds": "Inherited RI41 ideal floor gives each C2_i<K=681472/9 using complete subrow sums. RI201 gives T>(468/5)(1+M5)-1/2 with native M5>10^9. These are available but do not by themselves settle C3. Retain exact L and compare C3<=T-3+L-sum C2_i.",
+  "candidate_transport": "With H_A=R+z_A, check q_empty(Ei)q_i(A)=q_empty(A)q_H_A(Ei) and q_i(Ej)q_ij(A)=q_i(A)q_(H_A+i)(Ej), preserving every auxiliary/original bit and canonical shared factor. Seek a native joint product bound, or a specific actual violating parent.",
+  "domain": "R=P-{1,2,3} has three events; maximal-event precursor ideals E1,E2,E3 cover R. All three-event bases, all compatible ideal triples, every original/cap mark and every proper ideal of P remain.",
+  "predecessor": {
+    "bytes": 2213,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_ADJUDICATION.json",
+    "sha256": "63eaa608086d8b2376cd50ec7ca47e6d3b77b00f20204dbe131468631dcceefb"
+  },
+  "question": "Settle the entire three-maxima marked six-parent class against the unchanged sufficient target T, focusing on its exact triple-omission product.",
+  "remaining_classes": "Four through six maxima remain separate; global M6 and actual W/H30 are not presumed.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6",
+  "return_instruction": "Seal source and actual administrative-check receipts for root independent review. Root owns publication and further assignments.",
+  "schema": "ri203-root-native-three-maxima-assignment-v1",
+  "scope": "Manual analytic proof. Existing accepted analytic finite theorems, including named RI41 floor/height and native RI201 witness, allowed as explicit inherited premises. No new certificate/vector/table/scientific-body reads, automated proof arithmetic, graph/LP/subject runs, fixtures/runtime/cards, repository/Git operations or RET work. Do not expand printed numeric M5 use unless mathematically necessary and explicitly explained; native witness preferred. Compact exact references; earlier423/26 remain inherited, not fresh replays.",
+  "starting_partition": "Independently derive U6=3-L+sum_i C2_i+C3. q_J is the actual row on R plus the maxima indexed by J. C2_i=sum over A ideals R with Ei subset A of q_ij(A+i)*q_ik(A+i)/q_i(A+i). C3=sum over ALL A ideals R q_empty(A)*q_12(A)*q_13(A)*q_23(A)/(q_1(A)*q_2(A)*q_3(A)). Include full R and all multiplicities.",
+  "status": "ASSIGNED_AFTER_RI201_INDEPENDENT_ADJUDICATION",
+  "successful_return": "Complete-class proof or concrete admitted violating parent; if unresolved, substantive structural reduction and the precise smaller remaining native inequality. An auxiliary estimate that fails is not a counterexample and a coarse cubed independent floor alone is not a result.",
+  "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+}

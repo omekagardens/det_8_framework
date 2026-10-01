@@ -1,0 +1,317 @@
+{
+  "schema": "ri201-author-manual-verification-v1",
+  "status": "AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE",
+  "date": "2026-09-30",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI201_NATIVE_ASSIGNMENT.json",
+    "bytes": 2185,
+    "sha256": "6e7a3bf1f3ed9b0bfd98de63c0a8401f49065b9a371177f1f2cdc49386efb1c6"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI199_ROOT_ADJUDICATION.json",
+    "bytes": 1957,
+    "sha256": "3970c35bab896a25caa2bb58120233c3f12c798994bc82a4f571216be8813e59"
+  },
+  "final5_not_yet_run_at_author_creation": true,
+  "final5_actual_receipt_to_be_reported_externally": true,
+  "source_references": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/SOURCE_REFERENCES.json",
+    "bytes": 30165,
+    "sha256": "00e8c0ee6d008f32e0599830af75c9d0f23c1f73eae5de0b554f099ff188a48f"
+  },
+  "scope": {
+    "manual_analysis_only": true,
+    "entire_marked_two_maxima_class_proved_below_unchanged_T": true,
+    "every_base_ideal_including_full_R_retained": true,
+    "inherited_finite_prefix_facts_not_freshly_verified": true,
+    "global_M6_bound_proved": false,
+    "actual_W_or_both_margins_or_H30_decided": false,
+    "printed_numerical_M5_selected_as_operand": false,
+    "native_lower_bound_on_M5_proved_manually": true,
+    "new_scientific_body_vector_or_certificate_read": false,
+    "automated_proof_arithmetic_graph_LP_or_subject_execution": false,
+    "full_canonical_vector_instantiated": false,
+    "existing_source_helper_or_archive_checker_executed": false,
+    "new_agents_or_threads": false,
+    "repository_Git_index_predecessor_fixture_runtime_or_card_changes": false,
+    "ret_paused": true
+  },
+  "manual_mathematical_review": [
+    "Every two-maxima six-parent is R plus two incomparable births above ideals E,D covering R; the converse holds, including either or both full precursors. All original binary records remain.",
+    "The three omitted-maxima sectors give exactly U6=2-x-y+sum p*q/B=1+sum B*(a-1)*(b-1), with complete J(R), including the full R denominator.",
+    "Both actual deletion subrows have strictly positive mass below one because each complete five-parent row has omitted positive slots including its full slot.",
+    "The two marked ordinary diamonds give a_S=q_(R+z_S)(E)/B(E) and b_S=q_(R+z_S)(D)/B(D) in the same auxiliary marked row. Cap and auxiliary bits are transported; locality removes their access in these proper slots only.",
+    "Canonical ratio-component equality and the strict factors theta+(35/36)*alpha_min remain exact. No independently varied components, altered minima or erased restoration terms are used.",
+    "On A4 only the empty precursor preserves height. The inherited uniform height theorem gives z4>1/2 without a coefficient lookup.",
+    "The A5 empty potential retains the full alternating binomial multiplicities 5,10,10,5,1: z4^5*d^10/(e^10*a^5), including empty-parent factor1.",
+    "The seed substitutions a=2/3,d=1/4,e=1/44 yield (3*z4/2)^5*11^10. Hand comparisons (3/4)^5=243/1024>1/8, 11^10>10^10 and 10^10/8>10^9 give M5>10^9 from one positive competitor, not a maximizing-parent assertion.",
+    "The same-law theta identity and accepted RI199 target give T>(468/5)*(1+M5)-1/2>10^9; no numerical theta or printed M5 rational is used.",
+    "The admitted inherited four-parent floor applies to EVERY ideal including full R. Thus C<=K*sum p*q<=K*x*y with K=681472/9.",
+    "F(x,y)=2-x-y+K*x*y is the convex interpolation of values 2,1,1,K at the four vertices. All four weights are positive for 0<x,y<1 and K>2, so F<K strictly even for identical deletion rows.",
+    "The hand comparison 681472<684000=9*76000 yields U6<681472/9<76000<10^9<T and the exact assigned centered cross-moment<T-1.",
+    "Three-through-six maxima, the actual global M6 and actual W remain outside this class theorem. Failure of a Cauchy-Schwarz estimate was neither assumed nor offered as a counterexample."
+  ],
+  "actual_complete_manuscript_read": {
+    "chunk_id": "e5e214",
+    "exit_code": 0,
+    "output_truncated": false,
+    "payloads": [
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.md",
+        "bytes": 2244,
+        "sha256": "0c98796c50172c3e528eb266687cbe5d5bb62a4989d38707279ea14159d126f3"
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md",
+        "bytes": 12913,
+        "sha256": "64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0"
+      }
+    ],
+    "no_manuscript_changes_after_read": true
+  },
+  "skill_reads": {
+    "skill": "pages:write-page",
+    "complete_skill": {
+      "chunk_id": "aff024",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    "complete_required_writing_quality": {
+      "chunk_id": "8a9a5f",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    "effect": "Separated exact inherited finite premises, manual class theorem and unproved global/physical claims in the established local research format. No Page created."
+  },
+  "actual_source_scope": {
+    "complete_fresh_read_groups": [
+      {
+        "receipt": "55db1c",
+        "files": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI201_NATIVE_ASSIGNMENT.json",
+            "bytes": 2185,
+            "sha256": "6e7a3bf1f3ed9b0bfd98de63c0a8401f49065b9a371177f1f2cdc49386efb1c6"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI199_ROOT_ADJUDICATION.json",
+            "bytes": 1957,
+            "sha256": "3970c35bab896a25caa2bb58120233c3f12c798994bc82a4f571216be8813e59"
+          }
+        ],
+        "complete": true
+      },
+      {
+        "receipt": "b84e06",
+        "files": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/MAXIMUM_BOUND.md",
+            "bytes": 14630,
+            "sha256": "0dea1b702c22c018cb6a7bd5546d99b5a91b16a3fff4bf9e66592e4113620662"
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI199_ROOT_PROOF_REVIEW.md",
+            "bytes": 4417,
+            "sha256": "22733f5956d68b791e211e46cdb9ff560f4d3394f18f5b7277e6c705988721ca"
+          }
+        ],
+        "complete": true,
+        "reservation_initially_empty": true
+      },
+      {
+        "receipt": "b9fffd",
+        "files": [
+          {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+            "bytes": 17102,
+            "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+            "symlinks": []
+          },
+          {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+            "bytes": 16243,
+            "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+            "symlinks": []
+          }
+        ],
+        "complete": true
+      },
+      {
+        "receipt": "da6914",
+        "files": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/CANONICAL_REDUCTION_SYNTHESIS.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/CANONICAL_REDUCTION_SYNTHESIS.md",
+            "bytes": 11443,
+            "sha256": "04557bb129faa4ae6dc4952c5ccdf1ba933c2ac56801acf02f436879bf628f71",
+            "symlinks": []
+          }
+        ],
+        "complete": true
+      },
+      {
+        "receipt": "d5e852",
+        "files": [
+          {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/NEUTRAL_COMPONENT_INCIDENCE.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/NEUTRAL_COMPONENT_INCIDENCE.md",
+            "bytes": 22869,
+            "sha256": "dccd56286e012010fd4775eff5b1bb355312e4af12975e73bb8361bb85873495",
+            "symlinks": []
+          }
+        ],
+        "complete": true
+      }
+    ],
+    "prior_complete_text_reuse": [
+      {
+        "receipt": "9fc36f",
+        "purpose": "Accepted prefix lemma text redisplayed from stored result; not a new filesystem read."
+      },
+      {
+        "receipt": "7d31ea",
+        "purpose": "Accepted six-antichain and endpoint text; combined redisplay clipped, then full stored result displayed alone. No new scientific body or filesystem source read."
+      },
+      {
+        "receipt": "bddf98",
+        "purpose": "Accepted component contrasts consulted from prior complete literal read, not a new filesystem source read."
+      }
+    ],
+    "root_clarification_record": "The two incoming owner messages are retained verbatim in SOURCE_REFERENCES.json. They permit inherited scalar finite-theorem use but no fresh certificate/body/vector read.",
+    "fresh_direct_files": 18,
+    "fresh_direct_bytes": 617021,
+    "inherited423_and_previous26_manifests_by_reference": true,
+    "no_fresh423_or_previous26_replay": true,
+    "inherited_boundary_objects_preserved": 15
+  },
+  "diagnostics": [
+    {
+      "kind": "administrative-projection-shape",
+      "receipt": "febfe7",
+      "exit_code": 0,
+      "reason": "First selected-path projection read byte/hash at top level although they live under identity; paths only were shown.",
+      "recovery_receipt": "270191",
+      "effect": "Correct nested identity projection; no failed or mismatching identity accepted."
+    },
+    {
+      "kind": "clipped-stored-output-display",
+      "reason": "A combined functions display of stored RI185/187 and RI147 outputs exceeded the outer display budget.",
+      "recovery": "The entire stored 7d31ea result was then displayed alone; RI147 remains inherited from its prior complete bddf98 read. No new filesystem or scientific-body read.",
+      "not_a_complete_combined_read_claim": true
+    },
+    {
+      "kind": "clipped-coordination-thread-status",
+      "reason": "A single read_thread request for the coordinator returned a large active turn, including command text despite includeOutputs:false; outer display clipped.",
+      "effect": "No commands were executed or used as proof. The later explicit incoming premise-clarification messages, not this partial status display, control the additional inherited-premise use.",
+      "not_a_complete_thread_read_claim": true
+    },
+    {
+      "kind": "rejected-apply-patch",
+      "reason": "A draft insertion patch also contained an extraneous unmatched context line. apply_patch rejected it before any update.",
+      "recovery": "Reissued only the intended vertex-check addition and scope clarification; final full manuscript read e5e214 reflects the actual text.",
+      "mathematical_or_source_failure": false
+    },
+    {
+      "kind": "author-administrative-check",
+      "actual_result": {
+        "chunk_id": "ba0104",
+        "wall_time_seconds": 0.0000075,
+        "exit_code": 1,
+        "original_token_count": 152,
+        "output": "[eval]:3\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\n                         ^\n\nError: direct sorted\n    at need ([eval]:3:32)\n    at [eval]:24:1\n    at [eval]:67:4\n    at runScriptInThisContext (node:internal/vm:219:10)\n    at node:internal/process/execution:451:12\n    at [eval]-wrapper:6:24\n    at runScriptInContext (node:internal/process/execution:449:60)\n    at evalFunction (node:internal/process/execution:283:30)\n    at evalTypeScript (node:internal/process/execution:295:3)\n    at node:internal/main/eval_string:71:3\n\nNode.js v25.3.0\n"
+      },
+      "reason": "First checker compared localeCompare-ordered manifest paths with default code-unit sorting.",
+      "recovery": "Matched the declared construction ordering; no identity, namespace or source changed.",
+      "mathematical_or_subject_failure": false
+    },
+    {
+      "kind": "author-administrative-check",
+      "actual_result": {
+        "chunk_id": "50c388",
+        "wall_time_seconds": 0.000007958,
+        "exit_code": 1,
+        "original_token_count": 154,
+        "output": "[eval]:3\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\n                         ^\n\nError: assigned predecessor\n    at need ([eval]:3:32)\n    at [eval]:32:1\n    at [eval]:67:4\n    at runScriptInThisContext (node:internal/vm:219:10)\n    at node:internal/process/execution:451:12\n    at [eval]-wrapper:6:24\n    at runScriptInContext (node:internal/process/execution:449:60)\n    at evalFunction (node:internal/process/execution:283:30)\n    at evalTypeScript (node:internal/process/execution:295:3)\n    at node:internal/main/eval_string:71:3\n\nNode.js v25.3.0\n"
+      },
+      "reason": "Second checker used JSON serialization equality for reference objects whose key order differed.",
+      "recovery": "Required identical field sets and equal values for every field, independent of key insertion order. Strict reference-shape validation and byte/hash checks retained.",
+      "mathematical_or_subject_failure": false
+    }
+  ],
+  "checker_revisions": [
+    {
+      "phase": "initial",
+      "script": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst Q=\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97\",P=\"/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k\",eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b);\nconst cache=new Map();\nfunction pin(i){\n need(Object.keys(i).every(k=>['path','bytes','sha256','resolved_path','symlinks'].includes(k)),'declared reference fields');\n let r=cache.get(i.path);if(!r){r=readExact(i);cache.set(i.path,r);}\n need(r.bytes===i.bytes&&r.sha256===i.sha256,'pin '+i.path);\n if(i.resolved_path!==undefined)need(i.resolved_path===i.path,'resolved');\n if(i.symlinks!==undefined)need(eq(i.symlinks,[]),'links');\n return r;\n}\nconst currentThree=[{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.md\",\"bytes\":2244,\"sha256\":\"0c98796c50172c3e528eb266687cbe5d5bb62a4989d38707279ea14159d126f3\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/SOURCE_REFERENCES.json\",\"bytes\":30165,\"sha256\":\"00e8c0ee6d008f32e0599830af75c9d0f23c1f73eae5de0b554f099ff188a48f\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md\",\"bytes\":12913,\"sha256\":\"64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0\"}];\ncurrentThree.forEach(pin);\nconst S=JSON.parse(cache.get(Q+'/SOURCE_REFERENCES.json').body);\nneed(S.schema==='ri201-compact-accepted-source-references-v1','schema');\nconst M=new Map(S.direct_sources.map(r=>[r.identity.path,r]));\nneed(M.size===18&&S.direct_scope.files===18,'direct18');\nneed(S.direct_sources.reduce((n,r)=>n+r.identity.bytes,0)===617021&&S.direct_scope.bytes===617021,'direct bytes');\nneed(eq([...M.keys()],[...M.keys()].sort()),'direct sorted');\nfor(const r of S.direct_sources){need(['administrative-reference','accepted-analytic-text','opaque-historical-support'].includes(r.access),'class');pin(r.identity);}\nlet references=0;\nfunction selected(i){need(M.has(i.path),'selected reference');pin(i);references++;}\nfor(const i of [S.assignment,S.accepted_predecessor,S.predecessor_handoff,S.predecessor_references,S.inherited_manifest_by_reference.identity])selected(i);\nfor(const group of S.current_literal_source_reads)for(const i of group.files)selected(i);\nconst assignment=JSON.parse(pin(S.assignment).body),decision=JSON.parse(pin(S.accepted_predecessor).body),prior=JSON.parse(pin(S.predecessor_handoff).body);\nneed(assignment.reservation===Q&&assignment.status==='ASSIGNED_AFTER_RI199_INDEPENDENT_ADJUDICATION','assignment');\nneed(eq(assignment.predecessor,S.accepted_predecessor),'assigned predecessor');\nfor(const k of ['handoff','proof','root_metadata','root_review'])selected(decision[k]);\nneed(eq(decision.handoff,S.predecessor_handoff)&&decision.actual_W_decided===false,'accepted predecessor scope');\nconst previousNames=fs.readdirSync(P).sort();\nneed(eq(previousNames,S.predecessor_namespace)&&eq(previousNames,prior.namespace)&&prior.payloads.length===4,'predecessor namespace5');\nprior.payloads.forEach(selected);\nneed(eq(prior.payloads.map(i=>p.basename(i.path)).concat('HANDOFF.json').sort(),previousNames),'prior coverage');\nconst previousRefs=JSON.parse(pin(S.predecessor_references).body),inherited=JSON.parse(pin(S.inherited_manifest_by_reference.identity).body);\nconst boundaries=Object.fromEntries(Object.entries(inherited).filter(([k])=>!['schema','status','protected_files','scope'].includes(k)));\nneed(inherited.protected_files.length===423&&S.inherited_manifest_by_reference.selected_paths===423,'423 by reference');\nneed(eq(boundaries,S.inherited_manifest_by_reference.boundary_objects)&&eq(boundaries,previousRefs.inherited_manifest_by_reference.boundary_objects)&&Object.keys(boundaries).length===15,'15 unchanged boundaries');\nneed(S.inherited_manifest_by_reference.fresh423_file_or_transitive_reference_replay===false&&S.inherited_manifest_by_reference.predecessor26_direct_manifest_replayed_in_full===false&&S.inherited_manifest_by_reference.boundaries_are_historical_scope_not_new_read_authority===true&&S.inherited_manifest_by_reference.RI197_literal_certificate_exception_used_for_new_scientific_read===false&&S.inherited_manifest_by_reference.RI164_operational_boundary_remains_unexpanded===true,'inheritance scope');\nneed(S.scope.complete_two_maxima_bound_proved===true&&S.scope.global_M6_bound_proved===false&&S.scope.actual_W_decided===false&&S.scope.printed_numerical_M5_used===false&&S.scope.new_scientific_body_or_vector_read===false&&S.scope.automated_proof_arithmetic_graph_LP_or_subject_execution===false&&S.scope.ret_paused===true,'declared proof scope');\nneed(eq(S.executable_obligations,previousRefs.executable_obligations)&&S.executable_obligations.new_credit===0,'unchanged obligations');\nconst stage=process.argv[1]||'preseal3';need(['preseal3','final5'].includes(stage),'stage');\nconst final=['AUTHOR_VERIFICATION.json','HANDOFF.json','HANDOFF.md','SOURCE_REFERENCES.json','TWO_MAXIMA.md'];\nconst expected=stage==='final5'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>{const r=readExact({path:Q+'/'+n});cache.set(r.path,r);return simple(r);});\nfor(const n of ['TWO_MAXIMA.md','HANDOFF.md']){\n const t=cache.get(Q+'/'+n).body.toString('utf8');\n need(!/^(<{7}|={7}|>{7})( |$)/m.test(t)&&!/[ \\t]+$/m.test(t),'text hygiene');\n for(const m of t.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g))need(expected.includes(m[1]),'local link');\n}\nif(stage==='final5'){\n const h=JSON.parse(cache.get(Q+'/HANDOFF.json').body),a=JSON.parse(cache.get(Q+'/AUTHOR_VERIFICATION.json').body);\n need(eq(h.namespace,final)&&h.payloads.length===4&&eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');\n h.payloads.forEach(pin);selected(h.assignment);selected(h.accepted_predecessor);\n need(h.manual_analysis_only===true&&h.complete_two_maxima_bound_proved===true&&h.global_M6_bound_proved===false&&h.actual_W_decided===false&&h.new_scientific_body_or_vector_read===false&&h.printed_numerical_M5_used===false&&h.automated_proof_arithmetic_or_subject_execution===false&&h.qualification_credit===false&&h.repository_or_Git_written===false&&h.ret_paused===true,'final scope');\n need(a.status==='AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE'&&a.preseal.actual_result.current_namespace===3&&a.final5_not_yet_run_at_author_creation===true,'author phase');\n a.preseal.actual_result.current_payloads.forEach(pin);\n}\nconst all=[...cache.values()].map(simple);need(all.length===18+expected.length,'fresh scope count');all.forEach(readExact);\nneed(eq(fs.readdirSync(Q).sort(),expected)&&eq(fs.readdirSync(P).sort(),previousNames),'post namespaces');\nconsole.log(JSON.stringify({schema:'ri201-compact-administrative-check-v1',status:'IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE',stage,direct_sources:18,direct_bytes:617021,inherited423_manifest_by_reference:true,fresh_inherited423_or_prior26_replay:false,inherited_boundary_objects_preserved:15,explicit_selected_reference_checks:references,predecessor_namespace:5,current_namespace:expected.length,whole_identity_fresh_rechecks:all.length,current_payloads:payloads,scientific_body_read_or_proof_arithmetic:false,subject_execution:false},null,2));\n",
+      "actual_receipt": "ba0104",
+      "exit_code": 1
+    },
+    {
+      "phase": "ordering_corrected",
+      "script": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst Q=\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97\",P=\"/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k\",eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b);\nconst cache=new Map();\nfunction pin(i){\n need(Object.keys(i).every(k=>['path','bytes','sha256','resolved_path','symlinks'].includes(k)),'declared reference fields');\n let r=cache.get(i.path);if(!r){r=readExact(i);cache.set(i.path,r);}\n need(r.bytes===i.bytes&&r.sha256===i.sha256,'pin '+i.path);\n if(i.resolved_path!==undefined)need(i.resolved_path===i.path,'resolved');\n if(i.symlinks!==undefined)need(eq(i.symlinks,[]),'links');\n return r;\n}\nconst currentThree=[{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.md\",\"bytes\":2244,\"sha256\":\"0c98796c50172c3e528eb266687cbe5d5bb62a4989d38707279ea14159d126f3\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/SOURCE_REFERENCES.json\",\"bytes\":30165,\"sha256\":\"00e8c0ee6d008f32e0599830af75c9d0f23c1f73eae5de0b554f099ff188a48f\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md\",\"bytes\":12913,\"sha256\":\"64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0\"}];\ncurrentThree.forEach(pin);\nconst S=JSON.parse(cache.get(Q+'/SOURCE_REFERENCES.json').body);\nneed(S.schema==='ri201-compact-accepted-source-references-v1','schema');\nconst M=new Map(S.direct_sources.map(r=>[r.identity.path,r]));\nneed(M.size===18&&S.direct_scope.files===18,'direct18');\nneed(S.direct_sources.reduce((n,r)=>n+r.identity.bytes,0)===617021&&S.direct_scope.bytes===617021,'direct bytes');\nneed(eq([...M.keys()],[...M.keys()].sort((a,b)=>a.localeCompare(b))),'direct declared localeCompare order');\nfor(const r of S.direct_sources){need(['administrative-reference','accepted-analytic-text','opaque-historical-support'].includes(r.access),'class');pin(r.identity);}\nlet references=0;\nfunction selected(i){need(M.has(i.path),'selected reference');pin(i);references++;}\nfor(const i of [S.assignment,S.accepted_predecessor,S.predecessor_handoff,S.predecessor_references,S.inherited_manifest_by_reference.identity])selected(i);\nfor(const group of S.current_literal_source_reads)for(const i of group.files)selected(i);\nconst assignment=JSON.parse(pin(S.assignment).body),decision=JSON.parse(pin(S.accepted_predecessor).body),prior=JSON.parse(pin(S.predecessor_handoff).body);\nneed(assignment.reservation===Q&&assignment.status==='ASSIGNED_AFTER_RI199_INDEPENDENT_ADJUDICATION','assignment');\nneed(eq(assignment.predecessor,S.accepted_predecessor),'assigned predecessor');\nfor(const k of ['handoff','proof','root_metadata','root_review'])selected(decision[k]);\nneed(eq(decision.handoff,S.predecessor_handoff)&&decision.actual_W_decided===false,'accepted predecessor scope');\nconst previousNames=fs.readdirSync(P).sort();\nneed(eq(previousNames,S.predecessor_namespace)&&eq(previousNames,prior.namespace)&&prior.payloads.length===4,'predecessor namespace5');\nprior.payloads.forEach(selected);\nneed(eq(prior.payloads.map(i=>p.basename(i.path)).concat('HANDOFF.json').sort(),previousNames),'prior coverage');\nconst previousRefs=JSON.parse(pin(S.predecessor_references).body),inherited=JSON.parse(pin(S.inherited_manifest_by_reference.identity).body);\nconst boundaries=Object.fromEntries(Object.entries(inherited).filter(([k])=>!['schema','status','protected_files','scope'].includes(k)));\nneed(inherited.protected_files.length===423&&S.inherited_manifest_by_reference.selected_paths===423,'423 by reference');\nneed(eq(boundaries,S.inherited_manifest_by_reference.boundary_objects)&&eq(boundaries,previousRefs.inherited_manifest_by_reference.boundary_objects)&&Object.keys(boundaries).length===15,'15 unchanged boundaries');\nneed(S.inherited_manifest_by_reference.fresh423_file_or_transitive_reference_replay===false&&S.inherited_manifest_by_reference.predecessor26_direct_manifest_replayed_in_full===false&&S.inherited_manifest_by_reference.boundaries_are_historical_scope_not_new_read_authority===true&&S.inherited_manifest_by_reference.RI197_literal_certificate_exception_used_for_new_scientific_read===false&&S.inherited_manifest_by_reference.RI164_operational_boundary_remains_unexpanded===true,'inheritance scope');\nneed(S.scope.complete_two_maxima_bound_proved===true&&S.scope.global_M6_bound_proved===false&&S.scope.actual_W_decided===false&&S.scope.printed_numerical_M5_used===false&&S.scope.new_scientific_body_or_vector_read===false&&S.scope.automated_proof_arithmetic_graph_LP_or_subject_execution===false&&S.scope.ret_paused===true,'declared proof scope');\nneed(eq(S.executable_obligations,previousRefs.executable_obligations)&&S.executable_obligations.new_credit===0,'unchanged obligations');\nconst stage=process.argv[1]||'preseal3';need(['preseal3','final5'].includes(stage),'stage');\nconst final=['AUTHOR_VERIFICATION.json','HANDOFF.json','HANDOFF.md','SOURCE_REFERENCES.json','TWO_MAXIMA.md'];\nconst expected=stage==='final5'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>{const r=readExact({path:Q+'/'+n});cache.set(r.path,r);return simple(r);});\nfor(const n of ['TWO_MAXIMA.md','HANDOFF.md']){\n const t=cache.get(Q+'/'+n).body.toString('utf8');\n need(!/^(<{7}|={7}|>{7})( |$)/m.test(t)&&!/[ \\t]+$/m.test(t),'text hygiene');\n for(const m of t.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g))need(expected.includes(m[1]),'local link');\n}\nif(stage==='final5'){\n const h=JSON.parse(cache.get(Q+'/HANDOFF.json').body),a=JSON.parse(cache.get(Q+'/AUTHOR_VERIFICATION.json').body);\n need(eq(h.namespace,final)&&h.payloads.length===4&&eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');\n h.payloads.forEach(pin);selected(h.assignment);selected(h.accepted_predecessor);\n need(h.manual_analysis_only===true&&h.complete_two_maxima_bound_proved===true&&h.global_M6_bound_proved===false&&h.actual_W_decided===false&&h.new_scientific_body_or_vector_read===false&&h.printed_numerical_M5_used===false&&h.automated_proof_arithmetic_or_subject_execution===false&&h.qualification_credit===false&&h.repository_or_Git_written===false&&h.ret_paused===true,'final scope');\n need(a.status==='AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE'&&a.preseal.actual_result.current_namespace===3&&a.final5_not_yet_run_at_author_creation===true,'author phase');\n a.preseal.actual_result.current_payloads.forEach(pin);\n}\nconst all=[...cache.values()].map(simple);need(all.length===18+expected.length,'fresh scope count');all.forEach(readExact);\nneed(eq(fs.readdirSync(Q).sort(),expected)&&eq(fs.readdirSync(P).sort(),previousNames),'post namespaces');\nconsole.log(JSON.stringify({schema:'ri201-compact-administrative-check-v1',status:'IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE',stage,direct_sources:18,direct_bytes:617021,inherited423_manifest_by_reference:true,fresh_inherited423_or_prior26_replay:false,inherited_boundary_objects_preserved:15,explicit_selected_reference_checks:references,predecessor_namespace:5,current_namespace:expected.length,whole_identity_fresh_rechecks:all.length,current_payloads:payloads,scientific_body_read_or_proof_arithmetic:false,subject_execution:false},null,2));\n",
+      "actual_receipt": "50c388",
+      "exit_code": 1
+    },
+    {
+      "phase": "ordering_and_reference_equality_corrected",
+      "script": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst Q=\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97\",P=\"/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k\",eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b);\nconst cache=new Map();\nconst sameRef=(a,b)=>eq(Object.keys(a).sort(),Object.keys(b).sort())&&Object.keys(a).every(k=>eq(a[k],b[k]));\nfunction pin(i){\n need(Object.keys(i).every(k=>['path','bytes','sha256','resolved_path','symlinks'].includes(k)),'declared reference fields');\n let r=cache.get(i.path);if(!r){r=readExact(i);cache.set(i.path,r);}\n need(r.bytes===i.bytes&&r.sha256===i.sha256,'pin '+i.path);\n if(i.resolved_path!==undefined)need(i.resolved_path===i.path,'resolved');\n if(i.symlinks!==undefined)need(eq(i.symlinks,[]),'links');\n return r;\n}\nconst currentThree=[{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.md\",\"bytes\":2244,\"sha256\":\"0c98796c50172c3e528eb266687cbe5d5bb62a4989d38707279ea14159d126f3\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/SOURCE_REFERENCES.json\",\"bytes\":30165,\"sha256\":\"00e8c0ee6d008f32e0599830af75c9d0f23c1f73eae5de0b554f099ff188a48f\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md\",\"bytes\":12913,\"sha256\":\"64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0\"}];\ncurrentThree.forEach(pin);\nconst S=JSON.parse(cache.get(Q+'/SOURCE_REFERENCES.json').body);\nneed(S.schema==='ri201-compact-accepted-source-references-v1','schema');\nconst M=new Map(S.direct_sources.map(r=>[r.identity.path,r]));\nneed(M.size===18&&S.direct_scope.files===18,'direct18');\nneed(S.direct_sources.reduce((n,r)=>n+r.identity.bytes,0)===617021&&S.direct_scope.bytes===617021,'direct bytes');\nneed(eq([...M.keys()],[...M.keys()].sort((a,b)=>a.localeCompare(b))),'direct declared localeCompare order');\nfor(const r of S.direct_sources){need(['administrative-reference','accepted-analytic-text','opaque-historical-support'].includes(r.access),'class');pin(r.identity);}\nlet references=0;\nfunction selected(i){need(M.has(i.path),'selected reference');pin(i);references++;}\nfor(const i of [S.assignment,S.accepted_predecessor,S.predecessor_handoff,S.predecessor_references,S.inherited_manifest_by_reference.identity])selected(i);\nfor(const group of S.current_literal_source_reads)for(const i of group.files)selected(i);\nconst assignment=JSON.parse(pin(S.assignment).body),decision=JSON.parse(pin(S.accepted_predecessor).body),prior=JSON.parse(pin(S.predecessor_handoff).body);\nneed(assignment.reservation===Q&&assignment.status==='ASSIGNED_AFTER_RI199_INDEPENDENT_ADJUDICATION','assignment');\nneed(sameRef(assignment.predecessor,S.accepted_predecessor),'assigned predecessor');\nfor(const k of ['handoff','proof','root_metadata','root_review'])selected(decision[k]);\nneed(sameRef(decision.handoff,S.predecessor_handoff)&&decision.actual_W_decided===false,'accepted predecessor scope');\nconst previousNames=fs.readdirSync(P).sort();\nneed(eq(previousNames,S.predecessor_namespace)&&eq(previousNames,prior.namespace)&&prior.payloads.length===4,'predecessor namespace5');\nprior.payloads.forEach(selected);\nneed(eq(prior.payloads.map(i=>p.basename(i.path)).concat('HANDOFF.json').sort(),previousNames),'prior coverage');\nconst previousRefs=JSON.parse(pin(S.predecessor_references).body),inherited=JSON.parse(pin(S.inherited_manifest_by_reference.identity).body);\nconst boundaries=Object.fromEntries(Object.entries(inherited).filter(([k])=>!['schema','status','protected_files','scope'].includes(k)));\nneed(inherited.protected_files.length===423&&S.inherited_manifest_by_reference.selected_paths===423,'423 by reference');\nneed(eq(boundaries,S.inherited_manifest_by_reference.boundary_objects)&&eq(boundaries,previousRefs.inherited_manifest_by_reference.boundary_objects)&&Object.keys(boundaries).length===15,'15 unchanged boundaries');\nneed(S.inherited_manifest_by_reference.fresh423_file_or_transitive_reference_replay===false&&S.inherited_manifest_by_reference.predecessor26_direct_manifest_replayed_in_full===false&&S.inherited_manifest_by_reference.boundaries_are_historical_scope_not_new_read_authority===true&&S.inherited_manifest_by_reference.RI197_literal_certificate_exception_used_for_new_scientific_read===false&&S.inherited_manifest_by_reference.RI164_operational_boundary_remains_unexpanded===true,'inheritance scope');\nneed(S.scope.complete_two_maxima_bound_proved===true&&S.scope.global_M6_bound_proved===false&&S.scope.actual_W_decided===false&&S.scope.printed_numerical_M5_used===false&&S.scope.new_scientific_body_or_vector_read===false&&S.scope.automated_proof_arithmetic_graph_LP_or_subject_execution===false&&S.scope.ret_paused===true,'declared proof scope');\nneed(eq(S.executable_obligations,previousRefs.executable_obligations)&&S.executable_obligations.new_credit===0,'unchanged obligations');\nconst stage=process.argv[1]||'preseal3';need(['preseal3','final5'].includes(stage),'stage');\nconst final=['AUTHOR_VERIFICATION.json','HANDOFF.json','HANDOFF.md','SOURCE_REFERENCES.json','TWO_MAXIMA.md'];\nconst expected=stage==='final5'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>{const r=readExact({path:Q+'/'+n});cache.set(r.path,r);return simple(r);});\nfor(const n of ['TWO_MAXIMA.md','HANDOFF.md']){\n const t=cache.get(Q+'/'+n).body.toString('utf8');\n need(!/^(<{7}|={7}|>{7})( |$)/m.test(t)&&!/[ \\t]+$/m.test(t),'text hygiene');\n for(const m of t.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g))need(expected.includes(m[1]),'local link');\n}\nif(stage==='final5'){\n const h=JSON.parse(cache.get(Q+'/HANDOFF.json').body),a=JSON.parse(cache.get(Q+'/AUTHOR_VERIFICATION.json').body);\n need(eq(h.namespace,final)&&h.payloads.length===4&&eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');\n h.payloads.forEach(pin);selected(h.assignment);selected(h.accepted_predecessor);\n need(h.manual_analysis_only===true&&h.complete_two_maxima_bound_proved===true&&h.global_M6_bound_proved===false&&h.actual_W_decided===false&&h.new_scientific_body_or_vector_read===false&&h.printed_numerical_M5_used===false&&h.automated_proof_arithmetic_or_subject_execution===false&&h.qualification_credit===false&&h.repository_or_Git_written===false&&h.ret_paused===true,'final scope');\n need(a.status==='AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE'&&a.preseal.actual_result.current_namespace===3&&a.final5_not_yet_run_at_author_creation===true,'author phase');\n a.preseal.actual_result.current_payloads.forEach(pin);\n}\nconst all=[...cache.values()].map(simple);need(all.length===18+expected.length,'fresh scope count');all.forEach(readExact);\nneed(eq(fs.readdirSync(Q).sort(),expected)&&eq(fs.readdirSync(P).sort(),previousNames),'post namespaces');\nconsole.log(JSON.stringify({schema:'ri201-compact-administrative-check-v1',status:'IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE',stage,direct_sources:18,direct_bytes:617021,inherited423_manifest_by_reference:true,fresh_inherited423_or_prior26_replay:false,inherited_boundary_objects_preserved:15,explicit_selected_reference_checks:references,predecessor_namespace:5,current_namespace:expected.length,whole_identity_fresh_rechecks:all.length,current_payloads:payloads,scientific_body_read_or_proof_arithmetic:false,subject_execution:false},null,2));\n",
+      "actual_receipt": "c1dddd",
+      "exit_code": 0
+    }
+  ],
+  "preseal": {
+    "actual_receipt": {
+      "chunk_id": "c1dddd",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    "actual_result": {
+      "schema": "ri201-compact-administrative-check-v1",
+      "status": "IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE",
+      "stage": "preseal3",
+      "direct_sources": 18,
+      "direct_bytes": 617021,
+      "inherited423_manifest_by_reference": true,
+      "fresh_inherited423_or_prior26_replay": false,
+      "inherited_boundary_objects_preserved": 15,
+      "explicit_selected_reference_checks": 21,
+      "predecessor_namespace": 5,
+      "current_namespace": 3,
+      "whole_identity_fresh_rechecks": 21,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.md",
+          "bytes": 2244,
+          "sha256": "0c98796c50172c3e528eb266687cbe5d5bb62a4989d38707279ea14159d126f3"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/SOURCE_REFERENCES.json",
+          "bytes": 30165,
+          "sha256": "00e8c0ee6d008f32e0599830af75c9d0f23c1f73eae5de0b554f099ff188a48f"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md",
+          "bytes": 12913,
+          "sha256": "64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0"
+        }
+      ],
+      "scientific_body_read_or_proof_arithmetic": false,
+      "subject_execution": false
+    },
+    "scope": "Administrative whole-file identity, exact declared reference fields, namespaces, boundary preservation and local text/link checks only. No mathematical or independent acceptance."
+  },
+  "historical_diagnostics_and_boundaries": "Preserved by exact SOURCE_REFERENCES and accepted predecessor refs. Inherited root metadata failures/corrections are not erased or credited as current execution.",
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stopping_rule": "Seal and return this complete two-maxima theorem for independent root adjudication. Root owns Git/publication and successor selection. Do not start another class or resume RET."
+}

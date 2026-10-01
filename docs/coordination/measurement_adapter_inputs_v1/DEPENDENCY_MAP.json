@@ -1,0 +1,1657 @@
+{
+  "all_transitive_dependencies_archived": false,
+  "complete_runtime_archive": false,
+  "copies": [
+    {
+      "original": {
+        "bytes": 18097,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RELOCATED_SOURCE_DECISION.json",
+        "sha256": "d5784bc3971cd29824be4461756135d985bd720233ce940605ab87ac6b70d469"
+      },
+      "path": "root_review/RELOCATED_SOURCE_DECISION.json"
+    },
+    {
+      "original": {
+        "bytes": 3021,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+        "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+      },
+      "path": "root_review/ADAPTERS_REQUEST.json"
+    },
+    {
+      "original": {
+        "bytes": 89867,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_RECONCILIATION.json",
+        "sha256": "85fbd8e4a35d767068924e51b416c3e83ff16c9bc8dda063c20b8dab179dd511"
+      },
+      "path": "root_review/MEASUREMENT_INPUT_RECONCILIATION.json"
+    },
+    {
+      "original": {
+        "bytes": 4097,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_ROOT_INPUT_REVIEW.md",
+        "sha256": "ee8dddb9e3c6c5309ecfce384f42857e1b1d6ce4b454fe77ed4c56f5cbba883d"
+      },
+      "path": "root_review/MEASUREMENT_ROOT_INPUT_REVIEW.md"
+    },
+    {
+      "original": {
+        "bytes": 2518,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/INDEPENDENT_MEASUREMENT_INPUT_REVIEW.json",
+        "sha256": "53ff01e951afb10f2aed7264c3abc025416724edf929ee55e3f537b0eae0b8f5"
+      },
+      "path": "root_review/INDEPENDENT_MEASUREMENT_INPUT_REVIEW.json"
+    },
+    {
+      "original": {
+        "bytes": 1559,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_NEXT_ACTION.json",
+        "sha256": "1afba4da229b8ac5ec17b5618a7fbf587885b9d0640a5ebbecd95a0014876ff3"
+      },
+      "path": "root_review/MEASUREMENT_NEXT_ACTION.json"
+    },
+    {
+      "original": {
+        "bytes": 5460,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs.py",
+        "sha256": "6c4b034e454b7616c1d670cc79cd71b3379ece60dc57cd202c9f49c676bd695b"
+      },
+      "path": "root_review/measurement_inputs.py"
+    },
+    {
+      "original": {
+        "bytes": 5462,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs_v2.py",
+        "sha256": "b90ddc845f03d915c65b1d358bdd2c83efaafc148783c500b12ba4d9b535eebc"
+      },
+      "path": "root_review/measurement_inputs_v2.py"
+    },
+    {
+      "original": {
+        "bytes": 5493,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs_v3.py",
+        "sha256": "9370aa26a6953ad99eb39018b27b099b747c9f3c7221ef3593764eba9398e76b"
+      },
+      "path": "root_review/measurement_inputs_v3.py"
+    },
+    {
+      "original": {
+        "bytes": 618,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_DIAGNOSTIC.json",
+        "sha256": "9ad433126b49d35f5c6ef63e764cbec1a480249630aa0af01fece2a24e034bd5"
+      },
+      "path": "root_review/MEASUREMENT_INPUT_DIAGNOSTIC.json"
+    },
+    {
+      "original": {
+        "bytes": 591,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_NAMESPACE_DIAGNOSTIC.json",
+        "sha256": "3fad6a307ecf169ef5fde825128ed8a7c006f96adb91acf8cdbc3dd6ae22f71b"
+      },
+      "path": "root_review/MEASUREMENT_NAMESPACE_DIAGNOSTIC.json"
+    },
+    {
+      "original": {
+        "bytes": 1601,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ROOT_ACTUAL_RECEIPTS.json",
+        "sha256": "f26c594dbf44db548d38feb6ce4d3582bf722c91e329323a80f2cf146d4e54d2"
+      },
+      "path": "root_review/ROOT_ACTUAL_RECEIPTS.json"
+    },
+    {
+      "original": {
+        "bytes": 3144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+        "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+      },
+      "path": "root_review/metadata.py"
+    }
+  ],
+  "dependencies": [
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 86813,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+        "sha256": "7be820c27d7a7b5f5b1661a49e5119b7922a1c49f4f24fa2d4567d1f2e5942bf"
+      },
+      "path": "docs/experiments/gwosc_white_mode_preparation_v1/source/BINDING_GRAPH.source-only.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 17896,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/INDEPENDENT_SOURCE_REVIEW.md",
+        "sha256": "919f2db4f03167e5414a583e3bf7fb01f5c3c335fdefbfb37a7452a536d62bb1"
+      },
+      "path": "docs/experiments/gwosc_white_mode_preparation_v1/review/INDEPENDENT_SOURCE_REVIEW.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 26684,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+        "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2189,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+        "sha256": "3a9f030a18fdd4ef3cac3bb0204354a6250b2a0ae489e42fbf1be41c5d7fee79"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/root/RI130_ROOT_ADJUDICATION.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3466,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-root-relocation-review-3sgyua6i/RI154_ROOT_ADJUDICATION.json",
+        "sha256": "de2544eff6b904258a8ec0dd106dd86e84debefa1f00b3759d648559a009e1eb"
+      },
+      "path": "docs/experiments/gwosc_white_mode_preparation_v1/root/RI154_ROOT_ADJUDICATION.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4414,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/GUARD_PATH_APPLICABILITY.json",
+        "sha256": "222d2822fcf4256d7cd7d9abbec6976dca2221f306c675b35a25f752e0039773"
+      },
+      "path": "docs/coordination/measurement_path_runtime_applicability_v1/root/GUARD_PATH_APPLICABILITY.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 18791,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RUNTIME_APPLICABILITY.json",
+        "sha256": "828ba7dc2b73837d0ecbb47c45f520588d5be9bba0c29911546247a25a8d4a9e"
+      },
+      "path": "docs/coordination/measurement_path_runtime_applicability_v1/root/RUNTIME_APPLICABILITY.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2208,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+        "sha256": "d498ccd200b054e8759a37c1cdf0d6014c3e49982e3e944697682266ecf30798"
+      },
+      "path": "docs/coordination/measurement_current_e_optimized_profile_v1/root_records/PROFILES_ACCEPTANCE.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 1274,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/RESULT.json",
+        "sha256": "6f2df4b476ef336755737fddd771e829441efbfec63facd03d68f91b66198b31"
+      },
+      "path": "docs/coordination/measurement_actual_sidecars_v1/operation/RESULT.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 1620,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_ADJUDICATION.json",
+        "sha256": "734d9d46fb84e1f5045fb7e7d0efb37c42dbf1bd539b805786b6c8d72c065bff"
+      },
+      "path": "docs/coordination/measurement_actual_sidecars_v1/root_review/SIDECARS_ADJUDICATION.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2582,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+        "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+      },
+      "path": "docs/experiments/gwosc_white_final_fixture_repair_v1/root/RI160_ROOT_ADJUDICATION.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4041,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI162_CONSUMER_QUALIFICATION.json",
+        "sha256": "0e27e1393c949a24a244ef2e2367ed8c72a10df1d3e3a6057cee8a4d20c9e0d7"
+      },
+      "path": "docs/coordination/measurement_current_environment_preflight_v1/root/RI162_CONSUMER_QUALIFICATION.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 86310,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/host_scope.json",
+        "sha256": "e57432b991cee52c7ae3adf5d777d361bf41306702017297338ce0512de9c99c"
+      },
+      "path": "docs/coordination/measurement_actual_sidecars_v1/operation/host_scope.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 771,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+        "sha256": "d428c7a943d1d13feecf1e55cbf0a80d80344636b11f922223e77d16b470fb38"
+      },
+      "path": "docs/coordination/measurement_actual_sidecars_v1/operation/observed_dyld_routes.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3666,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/optional_namespaces.json",
+        "sha256": "956ba339aa926e5b8a8666f455b78422f8f2b1f8768459a4ce434b8cd18648ce"
+      },
+      "path": "docs/coordination/measurement_actual_sidecars_v1/operation/optional_namespaces.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2806092,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/runtime_inventory.json",
+        "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+      },
+      "path": "docs/coordination/measurement_actual_sidecars_v1/operation/runtime_inventory.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3820691,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/selection.json",
+        "sha256": "bd0b7b1b9e8d6825c92a4bf4cf92f72eb5330c2167f2ffee03ca1ae2d77622a8"
+      },
+      "path": "docs/coordination/measurement_actual_sidecars_v1/operation/selection.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 5421,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+        "sha256": "711cf7c4c7c193544050983d90162b70d15a754848b7d05a3d2f8f049c31cdf3"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/AUTHORING_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 5421,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+        "sha256": "711cf7c4c7c193544050983d90162b70d15a754848b7d05a3d2f8f049c31cdf3"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/AUTHORING_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 783,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/BLOCK_CORRESPONDENCE.source-only.json",
+        "sha256": "656e34463d1a48891630076c06902548393ebe435f088eafdf7a19bdc9d565dc"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/BLOCK_CORRESPONDENCE.source-only.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 783,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/BLOCK_CORRESPONDENCE.source-only.json",
+        "sha256": "656e34463d1a48891630076c06902548393ebe435f088eafdf7a19bdc9d565dc"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/BLOCK_CORRESPONDENCE.source-only.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 26684,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HANDOFF.json",
+        "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2353,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.md",
+        "sha256": "d1cb0c2a908a6905acd95ad1fedbc4f1bd0e63797b42dd452c270d159d0b76b6"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/HANDOFF.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2353,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HANDOFF.md",
+        "sha256": "d1cb0c2a908a6905acd95ad1fedbc4f1bd0e63797b42dd452c270d159d0b76b6"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/HANDOFF.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 29806,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HISTORY_CLOSURE.source-only.json",
+        "sha256": "f78ca32b9de47f5390d20c4de44a87aa462b871ba1b51b3bc1329e08c8c6aafa"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/HISTORY_CLOSURE.source-only.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 29806,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HISTORY_CLOSURE.source-only.json",
+        "sha256": "f78ca32b9de47f5390d20c4de44a87aa462b871ba1b51b3bc1329e08c8c6aafa"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/HISTORY_CLOSURE.source-only.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 11259,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+        "sha256": "5f9186bd0fdfd64924f5bceb9d0c4a14210db466686ec45fcefe6637a28695af"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/MODE_CUSTODY_CONTRACT.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 11259,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/MODE_CUSTODY_CONTRACT.md",
+        "sha256": "5f9186bd0fdfd64924f5bceb9d0c4a14210db466686ec45fcefe6637a28695af"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/MODE_CUSTODY_CONTRACT.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 23244,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+        "sha256": "2456a4b74815e5f47216fdcffdf796a67bd394effa31ff880b8708e627cac5c5"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/PROTOCOL.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 23244,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/PROTOCOL.md",
+        "sha256": "2456a4b74815e5f47216fdcffdf796a67bd394effa31ff880b8708e627cac5c5"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/PROTOCOL.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 49499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/SOURCE_METADATA_CHECK.json",
+        "sha256": "566a6b61e364dec643dc17c3b49fe3297992569e16f614521760efef3f8a14f7"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 49499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/SOURCE_METADATA_CHECK.json",
+        "sha256": "566a6b61e364dec643dc17c3b49fe3297992569e16f614521760efef3f8a14f7"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 10760,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/TARGET_CLOSURE.source-only.json",
+        "sha256": "69d927acb494c05ee45326b8e02159c99a583b7ee2533c947a1762b550b1ed83"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/TARGET_CLOSURE.source-only.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 10760,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/TARGET_CLOSURE.source-only.json",
+        "sha256": "69d927acb494c05ee45326b8e02159c99a583b7ee2533c947a1762b550b1ed83"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/TARGET_CLOSURE.source-only.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 18749,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/caller_contract.py",
+        "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/caller_contract.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 18749,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/caller_contract.py",
+        "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/caller_contract.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 5171,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/control.py",
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      },
+      "path": "docs/experiments/gwosc_joint_window_caller_v1/control.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 5171,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/control.py",
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      },
+      "path": "docs/experiments/gwosc_joint_window_caller_v1/control.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 22152,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/evidence.py",
+        "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/evidence.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 22152,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/evidence.py",
+        "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/evidence.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 38688,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/guard_controls.source-only.py",
+        "sha256": "e11e53400374068a9036b24e1a50bf8505fc910ae279a8742f24af17dfba8f72"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/guard_controls.source-only.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 38688,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/guard_controls.source-only.py",
+        "sha256": "e11e53400374068a9036b24e1a50bf8505fc910ae279a8742f24af17dfba8f72"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/guard_controls.source-only.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 14159,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/launch.py",
+        "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/launch.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 14159,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/launch.py",
+        "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/launch.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3644,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/monitor.py",
+        "sha256": "5ca6f82423c5ba862b919de846684c2b8364e59442da27d9f5ed933c33a9cb51"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/monitor.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3644,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/monitor.py",
+        "sha256": "5ca6f82423c5ba862b919de846684c2b8364e59442da27d9f5ed933c33a9cb51"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/monitor.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2696,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/profile_observe.source-only.py",
+        "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7"
+      },
+      "path": "docs/experiments/gwosc_joint_window_qualification_v1/root/runtime_profile_probe.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2696,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/profile_observe.source-only.py",
+        "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7"
+      },
+      "path": "docs/experiments/gwosc_joint_window_qualification_v1/root/runtime_profile_probe.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 8184,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/runtime_support.py",
+        "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+      },
+      "path": "docs/experiments/gwosc_joint_window_caller_v1/runtime_support.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 8184,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runtime_support.py",
+        "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+      },
+      "path": "docs/experiments/gwosc_joint_window_caller_v1/runtime_support.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 12011,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/CASES.md",
+        "sha256": "fbcabc6b49f5ffb741688293a0dab894e7dc3b2fd761c6f123fbdcacf2ee3eef"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/CASES.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 12011,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/CASES.md",
+        "sha256": "fbcabc6b49f5ffb741688293a0dab894e7dc3b2fd761c6f123fbdcacf2ee3eef"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/CASES.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 26409,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/CONTRACT.md",
+        "sha256": "abd8aeb6e74a46194bb38f9abc8c02e6be5bcff83318f8df1d27334fa317f2bd"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/CONTRACT.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 26409,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/CONTRACT.md",
+        "sha256": "abd8aeb6e74a46194bb38f9abc8c02e6be5bcff83318f8df1d27334fa317f2bd"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/CONTRACT.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 8758,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/FABRICATED_INTERFACES.md",
+        "sha256": "2e1db0380e13791448c957453a823c1d2d20874b8af80dc01ddb8c09b4927f4e"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/FABRICATED_INTERFACES.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 8758,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/FABRICATED_INTERFACES.md",
+        "sha256": "2e1db0380e13791448c957453a823c1d2d20874b8af80dc01ddb8c09b4927f4e"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/FABRICATED_INTERFACES.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 5379,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/HANDOFF.json",
+        "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 5379,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/HANDOFF.json",
+        "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4802,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/KERNEL_REFUSALS.md",
+        "sha256": "85651a0ead42ec2edf18bfdd049efd49c20cb09fb25bc2be1e4ba561b9b9f208"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/KERNEL_REFUSALS.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4802,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/KERNEL_REFUSALS.md",
+        "sha256": "85651a0ead42ec2edf18bfdd049efd49c20cb09fb25bc2be1e4ba561b9b9f208"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/KERNEL_REFUSALS.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3880,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/PREDECESSOR_PINS.json",
+        "sha256": "e1d0d5557056a536d2505d7e304ec7185b325a29ac0dd267f91b3f7a7aa0b70b"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/PREDECESSOR_PINS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3880,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/PREDECESSOR_PINS.json",
+        "sha256": "e1d0d5557056a536d2505d7e304ec7185b325a29ac0dd267f91b3f7a7aa0b70b"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/PREDECESSOR_PINS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7366,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/PREPARATION_RECORD.md",
+        "sha256": "f58a58c7935f4cb27651c893bb358eb8ece45f58b70d71fa120465761de7e733"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/PREPARATION_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7366,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/PREPARATION_RECORD.md",
+        "sha256": "f58a58c7935f4cb27651c893bb358eb8ece45f58b70d71fa120465761de7e733"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/PREPARATION_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 97989,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/SOURCE_DIFF.patch",
+        "sha256": "edd788940663882972092dc62706f80c81df5e14d76aa90c34dff8cf1158a9e1"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/SOURCE_DIFF.patch"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 97989,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/SOURCE_DIFF.patch",
+        "sha256": "edd788940663882972092dc62706f80c81df5e14d76aa90c34dff8cf1158a9e1"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/SOURCE_DIFF.patch"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 10113,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/SOURCE_METADATA_CHECK.json",
+        "sha256": "3e713faa6a85e32d856640e7e509bc56e3cc479cc31323465e5e461ca6582cf9"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 10113,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/SOURCE_METADATA_CHECK.json",
+        "sha256": "3e713faa6a85e32d856640e7e509bc56e3cc479cc31323465e5e461ca6582cf9"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7426,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/WHITE_REFUSALS.md",
+        "sha256": "dbc6a3a400b22973379c632cea3924413e36bd441df9ff0e21c2f7507918f0bb"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/WHITE_REFUSALS.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7426,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/WHITE_REFUSALS.md",
+        "sha256": "dbc6a3a400b22973379c632cea3924413e36bd441df9ff0e21c2f7507918f0bb"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/WHITE_REFUSALS.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 15910,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/white_controls.py",
+        "sha256": "5055fb4aec16563680b2941d445da8273e99799d8fbf567fb7affe368f28e6a2"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/white_controls.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 15910,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_controls.py",
+        "sha256": "5055fb4aec16563680b2941d445da8273e99799d8fbf567fb7affe368f28e6a2"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/white_controls.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 12790,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/white_kernel.py",
+        "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/predecessor/white_kernel.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 12790,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_kernel.py",
+        "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/predecessor/white_kernel.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 32343,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/primary/white_path.py",
+        "sha256": "32a084c003ecb0bb290ea3f85c3b4bcde4061e5cf62aa7b0b9f3ead19470618b"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/white_path.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 32343,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_path.py",
+        "sha256": "32a084c003ecb0bb290ea3f85c3b4bcde4061e5cf62aa7b0b9f3ead19470618b"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/white_path.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 21310,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/CONTROL_EXPECTATIONS.json",
+        "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/CONTROL_EXPECTATIONS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 21310,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/CONTROL_EXPECTATIONS.json",
+        "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/CONTROL_EXPECTATIONS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4492,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/HANDOFF.json",
+        "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4492,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/HANDOFF.json",
+        "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4193,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/PREDECESSOR_PINS.json",
+        "sha256": "1bdb5c263fd2ccfed38c99f4b7c69b866ce056480e3e3070b78ebdb2956e72d1"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/PREDECESSOR_PINS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4193,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/PREDECESSOR_PINS.json",
+        "sha256": "1bdb5c263fd2ccfed38c99f4b7c69b866ce056480e3e3070b78ebdb2956e72d1"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/PREDECESSOR_PINS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7575,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/PREPARATION_RECORD.md",
+        "sha256": "376a5230499123967abddc26c18399db0f9593ac24f5bc47466aa164511bd419"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/PREPARATION_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7575,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/PREPARATION_RECORD.md",
+        "sha256": "376a5230499123967abddc26c18399db0f9593ac24f5bc47466aa164511bd419"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/PREPARATION_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3295,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/SOURCE_METADATA_CHECK.json",
+        "sha256": "494ce307f2db47433c9ea1dbceacd3787b7cbfc432e133a055af866c797510e8"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3295,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/SOURCE_METADATA_CHECK.json",
+        "sha256": "494ce307f2db47433c9ea1dbceacd3787b7cbfc432e133a055af866c797510e8"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 20505,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/STAGE_CONTRACT.md",
+        "sha256": "54178d21d90ef5f7f7dfc7d9d55f1a1df27dd57bef645b6e1b06d542dc572df0"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/STAGE_CONTRACT.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 20505,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/STAGE_CONTRACT.md",
+        "sha256": "54178d21d90ef5f7f7dfc7d9d55f1a1df27dd57bef645b6e1b06d542dc572df0"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/STAGE_CONTRACT.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 6834,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/kernel_controls.py",
+        "sha256": "8ccabc68a135f4aad40fefb2078f3ba35684f5ea8e277683401fd37bfb95c51e"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/kernel_controls.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 6834,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/kernel_controls.py",
+        "sha256": "8ccabc68a135f4aad40fefb2078f3ba35684f5ea8e277683401fd37bfb95c51e"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/kernel_controls.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 27375,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/qualify_white_only.py",
+        "sha256": "1c988f6e8520d47f73f3c3e94d9950593e20652bc5976e7e90480f29f2ffc689"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/qualify_white_only.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 27375,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/qualify_white_only.py",
+        "sha256": "1c988f6e8520d47f73f3c3e94d9950593e20652bc5976e7e90480f29f2ffc689"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/qualify_white_only.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 15878,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/qualifier/white_fixtures.py",
+        "sha256": "9b40dc813035ad2d973e6d2c5d75557eaf7e8799a3dcbb1ff359fb504c9de409"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/white_fixtures.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 15878,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/white_fixtures.py",
+        "sha256": "9b40dc813035ad2d973e6d2c5d75557eaf7e8799a3dcbb1ff359fb504c9de409"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/white_fixtures.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3957,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/AUTHORING_RECORD.md",
+        "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/AUTHORING_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3957,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/AUTHORING_RECORD.md",
+        "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/AUTHORING_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4821,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/HANDOFF.json",
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4821,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/HANDOFF.json",
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4804,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/HANDOFF.md",
+        "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/HANDOFF.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4804,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/HANDOFF.md",
+        "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/HANDOFF.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3762,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/PREDECESSOR_PINS.json",
+        "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/PREDECESSOR_PINS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3762,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/PREDECESSOR_PINS.json",
+        "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/PREDECESSOR_PINS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 14060,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/PROTOCOL.md",
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/PROTOCOL.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 14060,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/PROTOCOL.md",
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/PROTOCOL.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 8848,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/SOURCE_METADATA_CHECK.json",
+        "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 8848,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/SOURCE_METADATA_CHECK.json",
+        "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 17909,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/validator_controls.py",
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/validator_controls.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 17909,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/validator_controls.py",
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/validator_controls.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 56593,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/science/validator/white_validator.py",
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/white_validator.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 56593,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/white_validator.py",
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/white_validator.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 9021,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/worker.py",
+        "sha256": "0250bdfa9c47fcbe8b00278be79f2cf7e3ca8b955bf93f16eb3d18c1e7936550"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/worker.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 9021,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/worker.py",
+        "sha256": "0250bdfa9c47fcbe8b00278be79f2cf7e3ca8b955bf93f16eb3d18c1e7936550"
+      },
+      "path": "docs/experiments/gwosc_white_caller_source_v1/source/worker.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 12011,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CASES.md",
+        "sha256": "fbcabc6b49f5ffb741688293a0dab894e7dc3b2fd761c6f123fbdcacf2ee3eef"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/CASES.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 26409,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CONTRACT.md",
+        "sha256": "abd8aeb6e74a46194bb38f9abc8c02e6be5bcff83318f8df1d27334fa317f2bd"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/CONTRACT.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 8758,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/FABRICATED_INTERFACES.md",
+        "sha256": "2e1db0380e13791448c957453a823c1d2d20874b8af80dc01ddb8c09b4927f4e"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/FABRICATED_INTERFACES.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4802,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/KERNEL_REFUSALS.md",
+        "sha256": "85651a0ead42ec2edf18bfdd049efd49c20cb09fb25bc2be1e4ba561b9b9f208"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/KERNEL_REFUSALS.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3880,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREDECESSOR_PINS.json",
+        "sha256": "e1d0d5557056a536d2505d7e304ec7185b325a29ac0dd267f91b3f7a7aa0b70b"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/PREDECESSOR_PINS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7366,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREPARATION_RECORD.md",
+        "sha256": "f58a58c7935f4cb27651c893bb358eb8ece45f58b70d71fa120465761de7e733"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/PREPARATION_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 97989,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_DIFF.patch",
+        "sha256": "edd788940663882972092dc62706f80c81df5e14d76aa90c34dff8cf1158a9e1"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/SOURCE_DIFF.patch"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 10113,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_METADATA_CHECK.json",
+        "sha256": "3e713faa6a85e32d856640e7e509bc56e3cc479cc31323465e5e461ca6582cf9"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7426,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/WHITE_REFUSALS.md",
+        "sha256": "dbc6a3a400b22973379c632cea3924413e36bd441df9ff0e21c2f7507918f0bb"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/WHITE_REFUSALS.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 15910,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_controls.py",
+        "sha256": "5055fb4aec16563680b2941d445da8273e99799d8fbf567fb7affe368f28e6a2"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/white_controls.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 12790,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_kernel.py",
+        "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/predecessor/white_kernel.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 32343,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_path.py",
+        "sha256": "32a084c003ecb0bb290ea3f85c3b4bcde4061e5cf62aa7b0b9f3ead19470618b"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/white_path.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 5379,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+        "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_source_v1/source/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 56593,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/white_validator.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 17909,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/validator_controls.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 14060,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/PROTOCOL.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3957,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+        "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/AUTHORING_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3762,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PREDECESSOR_PINS.json",
+        "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/PREDECESSOR_PINS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 8848,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/SOURCE_METADATA_CHECK.json",
+        "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4804,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.md",
+        "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/HANDOFF.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4821,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/validator/HANDOFF.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 21310,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/CONTROL_EXPECTATIONS.json",
+        "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/CONTROL_EXPECTATIONS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4193,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREDECESSOR_PINS.json",
+        "sha256": "1bdb5c263fd2ccfed38c99f4b7c69b866ce056480e3e3070b78ebdb2956e72d1"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/PREDECESSOR_PINS.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 7575,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREPARATION_RECORD.md",
+        "sha256": "376a5230499123967abddc26c18399db0f9593ac24f5bc47466aa164511bd419"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/PREPARATION_RECORD.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3295,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/SOURCE_METADATA_CHECK.json",
+        "sha256": "494ce307f2db47433c9ea1dbceacd3787b7cbfc432e133a055af866c797510e8"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 20505,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/STAGE_CONTRACT.md",
+        "sha256": "54178d21d90ef5f7f7dfc7d9d55f1a1df27dd57bef645b6e1b06d542dc572df0"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/STAGE_CONTRACT.md"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 6834,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/kernel_controls.py",
+        "sha256": "8ccabc68a135f4aad40fefb2078f3ba35684f5ea8e277683401fd37bfb95c51e"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/kernel_controls.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 27375,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/qualify_white_only.py",
+        "sha256": "1c988f6e8520d47f73f3c3e94d9950593e20652bc5976e7e90480f29f2ffc689"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/qualify_white_only.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 15878,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/white_fixtures.py",
+        "sha256": "9b40dc813035ad2d973e6d2c5d75557eaf7e8799a3dcbb1ff359fb504c9de409"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/white_fixtures.py"
+    },
+    {
+      "commit": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4492,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/HANDOFF.json",
+        "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8"
+      },
+      "path": "docs/experiments/gwosc_joint_window_white_qualification_source_v1/qualifier/HANDOFF.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 18097,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RELOCATED_SOURCE_DECISION.json",
+        "sha256": "d5784bc3971cd29824be4461756135d985bd720233ce940605ab87ac6b70d469"
+      },
+      "path": "root_review/RELOCATED_SOURCE_DECISION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 3021,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+        "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+      },
+      "path": "root_review/ADAPTERS_REQUEST.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 89867,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_RECONCILIATION.json",
+        "sha256": "85fbd8e4a35d767068924e51b416c3e83ff16c9bc8dda063c20b8dab179dd511"
+      },
+      "path": "root_review/MEASUREMENT_INPUT_RECONCILIATION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 4097,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_ROOT_INPUT_REVIEW.md",
+        "sha256": "ee8dddb9e3c6c5309ecfce384f42857e1b1d6ce4b454fe77ed4c56f5cbba883d"
+      },
+      "path": "root_review/MEASUREMENT_ROOT_INPUT_REVIEW.md"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2518,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/INDEPENDENT_MEASUREMENT_INPUT_REVIEW.json",
+        "sha256": "53ff01e951afb10f2aed7264c3abc025416724edf929ee55e3f537b0eae0b8f5"
+      },
+      "path": "root_review/INDEPENDENT_MEASUREMENT_INPUT_REVIEW.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 1559,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_NEXT_ACTION.json",
+        "sha256": "1afba4da229b8ac5ec17b5618a7fbf587885b9d0640a5ebbecd95a0014876ff3"
+      },
+      "path": "root_review/MEASUREMENT_NEXT_ACTION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 5460,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs.py",
+        "sha256": "6c4b034e454b7616c1d670cc79cd71b3379ece60dc57cd202c9f49c676bd695b"
+      },
+      "path": "root_review/measurement_inputs.py"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 5462,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs_v2.py",
+        "sha256": "b90ddc845f03d915c65b1d358bdd2c83efaafc148783c500b12ba4d9b535eebc"
+      },
+      "path": "root_review/measurement_inputs_v2.py"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 5493,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs_v3.py",
+        "sha256": "9370aa26a6953ad99eb39018b27b099b747c9f3c7221ef3593764eba9398e76b"
+      },
+      "path": "root_review/measurement_inputs_v3.py"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 618,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_DIAGNOSTIC.json",
+        "sha256": "9ad433126b49d35f5c6ef63e764cbec1a480249630aa0af01fece2a24e034bd5"
+      },
+      "path": "root_review/MEASUREMENT_INPUT_DIAGNOSTIC.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 591,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_NAMESPACE_DIAGNOSTIC.json",
+        "sha256": "3fad6a307ecf169ef5fde825128ed8a7c006f96adb91acf8cdbc3dd6ae22f71b"
+      },
+      "path": "root_review/MEASUREMENT_NAMESPACE_DIAGNOSTIC.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 1601,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ROOT_ACTUAL_RECEIPTS.json",
+        "sha256": "f26c594dbf44db548d38feb6ce4d3582bf722c91e329323a80f2cf146d4e54d2"
+      },
+      "path": "root_review/ROOT_ACTUAL_RECEIPTS.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 3144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+        "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+      },
+      "path": "root_review/metadata.py"
+    }
+  ],
+  "dependency_locations": {
+    "archive": 13,
+    "existing_git": 142
+  },
+  "parent": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-map-v1",
+  "source_only": true
+}

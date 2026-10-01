@@ -1,0 +1,43 @@
+{
+  "adjudication": {
+    "chunk_id": "6dfad1",
+    "exit_code": 0,
+    "source": {
+      "bytes": 8827,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/adjudicate_v2.py",
+      "sha256": "3b15acd58badff3730d2b168b90f48a8fbf3ce1bc3f300491c7147b3d8e3283f"
+    }
+  },
+  "measurement_inputs": {
+    "chunk_id": "4eb699",
+    "exit_code": 0,
+    "source": {
+      "bytes": 5493,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs_v3.py",
+      "sha256": "9370aa26a6953ad99eb39018b27b099b747c9f3c7221ef3593764eba9398e76b"
+    }
+  },
+  "native_metadata": {
+    "chunk_id": "415d8d",
+    "exit_code": 0
+  },
+  "new_scientific_execution": false,
+  "retained_diagnostics": [
+    {
+      "bytes": 421,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADJUDICATION_DIAGNOSTIC.json",
+      "sha256": "811cbd6a8f113310c05d233b9cc8bfeb6cf8a357b225e15446e575ecfab79d39"
+    },
+    {
+      "bytes": 618,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_DIAGNOSTIC.json",
+      "sha256": "9ad433126b49d35f5c6ef63e764cbec1a480249630aa0af01fece2a24e034bd5"
+    },
+    {
+      "bytes": 591,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_NAMESPACE_DIAGNOSTIC.json",
+      "sha256": "3fad6a307ecf169ef5fde825128ed8a7c006f96adb91acf8cdbc3dd6ae22f71b"
+    }
+  ],
+  "schema": "ri202-root-actual-receipts-v1"
+}

@@ -1,6 +1,58 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — 1 October 2026 UTC (30 September in Honolulu).**
+**Current checkpoint — complete two-maxima bound and exact measurement inputs.**
+1 October 2026 UTC (30 September in Honolulu). RI201 is independently
+accepted as a conditional native theorem: every marked six-parent with
+exactly two maxima satisfies U6<681472/9<76000<T. Complete deletion rows
+give U6=2-x-y+sum p*q/B with0<x,y<1. The inherited RI41 all-ideal floor
+and bilinear interpolation give the strict bound for all compatible
+precursor ideals and records, including equal/full precursors.
+
+The native A5 empty-slot product yields M5>10^9 using the accepted A4
+height bound, with every binomial multiplicity retained. Consequently
+T>(468/5)(1+M5)-1/2>10^9. No printed numerical M5, canonical vector or
+scientific verifier was evaluated. Fixed-law positivity, normalization,
+locality, marked diamonds and the accepted finite-prefix theorems remain
+explicit premises. Root manual review and a separate nonauthor review agree.
+Root metadata check415d8d exit0 verified18 direct sources plus five payloads,
+23 selected references, sealed namespaces and15 preserved boundary objects.
+All administrative diagnostics remain; inherited423/predecessor26 closure
+was not rerun. See `docs/track_b/native_two_maxima_bound_v1/`.
+
+After adjudication, RI203 was assigned to QR: the entire three-maxima class,
+with exact U6=3-L+sum C2_i+C3 and the remaining triple-omission product.
+Its exclusive external reservation is named in the archived assignment.
+One- and two-maxima classes are now settled against T; three through six,
+global M6, actual W, both margins, H30 and physical correspondence remain
+open. All executable obligations remain required and uncredited here.
+
+Measurement now has an issued exact relocated-source decision and a
+fully bound three-field adapters request. All11 helpers,30 source pairs,
+five unchanged resource limits, five root decisions, accepted current
+profiles and five actual RI200 sidecars remain exact. The original RI130
+caller handoff and RI154 relocation narrative retain their distinct roles.
+Root check4eb699 exit0 verified142 whole identities and E's unchanged48
+files/nine directories. Independent review accepts these input bindings;
+earlier source/review authorship and inherited qualification are disclosed.
+The root digest-transcription and directory-count errors failed before
+issuance and are retained with corrected sources and unchanged thresholds.
+See `docs/coordination/measurement_adapter_inputs_v1/`.
+
+RI198 next is the fresh bounded RI160 adapters operation with complete
+source/vendor/host custody and genuine monitor/terminal evidence, then
+independent complete candidate review and root acceptance. Freeze and mode
+cards remain later separate actions; no new adapter or scientific mode ran.
+Normal actual acceptance precedes optimized. WHITE15/W09, both179-control
+inventories,27/13/30 records,57artifacts,74postchecks,three trees,RI131/full32
+and the selected public GWOSC reproduction remain distinct. Fixed supplier,
+cache, Apple-host, loader and read-window premises remain. Calibration,
+protected validation and a native forward map remain separate. RET alone
+stays paused. No current user decision blocks the next bounded action.
+
+This is a bounded programme advance; unrelated source edits and protected
+historical evidence remain outside this scoped publication.
+
+**Prior checkpoint — maximal-deletion reduction and actual sidecars.**
 RI199 is independently accepted as a partial native theorem: every six-parent
 with a unique maximal event has U6=1 for every record. The full omitted-maxima
 partition gives U6=m-L+C, retaining all proper ideals, marked records, fixed

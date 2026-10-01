@@ -1,0 +1,58 @@
+{
+  "actual_W_decided": false,
+  "author_final_receipt": {
+    "chunk_id": "a3e46e",
+    "exit_code": 0,
+    "reported_by_author": true
+  },
+  "both_margins_or_H30": false,
+  "global_M6_bound": false,
+  "handoff": {
+    "bytes": 5866,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.json",
+    "sha256": "b3c6de222485d29b14fd33984ffa23bc7be4479826ab6134e1882f3314d18ad7"
+  },
+  "metadata": {
+    "bytes": 13742,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_METADATA_CHECK.json",
+    "sha256": "3008ce1e30cef607d693dd518797a1cb486a956293c16ed63bbe628bc9102ec4"
+  },
+  "native_witness": "M5>U5 empty-slot lower bound>10^9 from the full A5 deletion product and accepted A4 height theorem; printed numerical M5 unused.",
+  "new_finite_verification": false,
+  "new_qualification_credit": 0,
+  "nonauthor_review": {
+    "agent": "/root/qr_opportunities",
+    "receipts": [
+      "20ffdf",
+      "5961c0",
+      "2a551c",
+      "119425"
+    ],
+    "result": "no mathematical blocker"
+  },
+  "premises": [
+    "unchanged RI41 all-four-parent ideal floor and height bound",
+    "strict fixed-prefix positivity, normalization, locality and all marked diamonds",
+    "complete canonical strict-mixture law",
+    "accepted RI199 target relation and theta definition"
+  ],
+  "proof": {
+    "bytes": 12913,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md",
+    "sha256": "64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0"
+  },
+  "ret_paused": true,
+  "root_check": {
+    "chunk_id": "415d8d",
+    "exit_code": 0
+  },
+  "root_review": {
+    "bytes": 4295,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_PROOF_REVIEW.md",
+    "sha256": "6dec18b46fe8627ed01a45655057e848ac4b21fc96a8ae403eb4be1438306954"
+  },
+  "schema": "ri202-root-ri201-adjudication-v1",
+  "scientific_body_read_or_execution": false,
+  "status": "ACCEPT_COMPLETE_TWO_MAXIMA_CLASS_CONDITIONAL_THEOREM",
+  "theorem": "Every actual marked six-parent with exactly two maxima has U6<681472/9<76000<T."
+}

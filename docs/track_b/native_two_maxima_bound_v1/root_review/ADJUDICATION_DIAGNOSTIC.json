@@ -1,0 +1,11 @@
+{
+  "correction": "adjudicate_v2.py changes only return to return_instruction. Original retained.",
+  "failed_script": "adjudicate.py",
+  "failure": "Python SyntaxError: reserved keyword return used as dict keyword at line 77. Parsing failed before any statement executed.",
+  "receipt": {
+    "chunk_id": "b7a22e",
+    "exit_code": 1
+  },
+  "schema": "ri202-administrative-diagnostic-v1",
+  "subject_execution": false
+}
