@@ -1,0 +1,198 @@
+{
+  "schema": "ri243-native-hook-acquisition-handoff-v1",
+  "status": "SEALED_SOURCE_ONLY_AUTHOR_RESULT_PENDING_INDEPENDENT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri243-native-hook-acquisition-_9p7ia0h",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "coordinator_thread": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI243_NATIVE_ASSIGNMENT.json",
+    "bytes": 3891,
+    "sha256": "598e7ba04a76495dc6265818c41cd29c46ba85c580bc395730768903d6bcbf51"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI240_ROOT_ADJUDICATION.json",
+    "bytes": 2800,
+    "sha256": "a4845f731e53efd7b3adbf86d0fe8891837faa3d3d1795624625e71297aec1de"
+  },
+  "independent_predecessor_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI240_INDEPENDENT_REVIEW.txt",
+    "bytes": 11269,
+    "sha256": "3a217baea38af6d83ea20a6d731e4fdbe77cf1f0bfbc603020525384ef2ce690"
+  },
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri243-native-hook-acquisition-_9p7ia0h/AUTHOR_VERIFICATION.json",
+      "bytes": 58883,
+      "sha256": "11d7d32ec493bf430e221efe1b27d31894fd51450d7f89e4bffc9c6fe2ba4da6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri243-native-hook-acquisition-_9p7ia0h/HANDOFF.md",
+      "bytes": 2515,
+      "sha256": "dab15916dcbdb5070379c15ca0f302304fc5331989c23da01a4b1a4d040b07d5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri243-native-hook-acquisition-_9p7ia0h/HOOK_ACQUISITION_CONTRACT.md",
+      "bytes": 13618,
+      "sha256": "bba85d35cf0c37bc0359a0169ad66bb90f3a4683cfcab450fc8b64391e6db635"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri243-native-hook-acquisition-_9p7ia0h/HOOK_ROLE_MAP.md",
+      "bytes": 11861,
+      "sha256": "2d9ae1c09f6b531e26437f0558bbf860e6620e114224aa280c70d0bf4a304ce5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri243-native-hook-acquisition-_9p7ia0h/SOURCE_REFERENCES.json",
+      "bytes": 87651,
+      "sha256": "4c52afa7e16ceb903ad6695dc6a63e6cfb07e0f67ed58503c7ede42b59cb4ee0"
+    }
+  ],
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "HOOK_ACQUISITION_CONTRACT.md",
+    "HOOK_ROLE_MAP.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "new_actual_law_results": [
+    "Complete manual six-slot hook component/key/potential derivation; selected long-arm bit preserved.",
+    "Both C4 full complements derived from already admitted coefficients; no further C4 lookup.",
+    "Exact six-coefficient formula for the actual cleared F with both minima, ties and zero-positive-part branches.",
+    "Conditional same-source common denominator D<=2^50 test; exact one-body six-key future acquisition design."
+  ],
+  "mathematical_status": "Manual same-law six-role source mapping and derived C4 complements, with conditional exact denominator separation. Proposed acquisition design only. New deductions await independent review; no current source-body access or issued admission.",
+  "exact_remaining_gap": [
+    "Actual six coefficient strings, original indices/default/override provenance and common denominator.",
+    "Actual d7 branch and canonical C_b comparison; exceptional Delta Q if branch not excluded.",
+    "Full normalized witness or signed inconsistency, improvement, optimality, amplitude and physical prerequisites."
+  ],
+  "proposed_acquisition": {
+    "status": "DESIGN_ONLY_NOT_ISSUED_ADMISSION_NOT_EXECUTED",
+    "source_identity_from_administrative_provenance": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+      "bytes": 2845,
+      "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969"
+    },
+    "original_source_pin_freshly_checked": false,
+    "scientific_body_displayed": false,
+    "new_keys": [
+      "(78,9,0)",
+      "(78,9,1)",
+      "(78,11,0)",
+      "(78,11,2)",
+      "(78,11,1)",
+      "(78,11,3)"
+    ],
+    "resolved_new_values": 0,
+    "original_indices_resolved": false,
+    "default_override_status_resolved": false,
+    "provenance_field": "preserved_boundaries.historical_RI231_literal_exception.body",
+    "mathematical_test": "A same-source proved common denominator 0<D<=2^50 for all six coefficient strings implies F has a positive denominator <2^77 and excludes d=d7. No actual denominator premise asserted.",
+    "root_separate_admission_required": true
+  },
+  "actual_full_normalized_witness": false,
+  "actual_signed_inconsistency": false,
+  "actual_six_coefficients_resolved": false,
+  "actual_source_indices_resolved": false,
+  "actual_default_override_status_resolved": false,
+  "actual_common_denominator_bound_proved": false,
+  "actual_d7_branch_resolved": false,
+  "canonical_kappa_values_resolved": false,
+  "accepted_full_system_iff_retained": true,
+  "complete_original_recovery_retained": true,
+  "all_ten_original_coordinates_retained": true,
+  "all_five_disconnected_equations_retained": true,
+  "all_eight_connected_equations_retained": true,
+  "all_zero_contrast_branches_retained": true,
+  "actual_canonical_terms_retained": true,
+  "original_strict_endpoints_retained": true,
+  "improvement_or_optimality_claim": false,
+  "maximal_amplitude_claim": false,
+  "discovery_grid_assumed": false,
+  "source_admission_issued": false,
+  "current_scope": {
+    "manual_mathematical_reasoning": true,
+    "automatic_scientific_arithmetic": false,
+    "scientific_body_read": false,
+    "scientific_JSON_decoded": false,
+    "new_coordinate_read": false,
+    "original_RI41_exception_renewed": false,
+    "new_amplitude": false,
+    "H_or_z_reconstructed": false,
+    "subject_execution": false,
+    "measurement_access": false,
+    "RET_access": false,
+    "repository_changes": false,
+    "git_or_index_operations": false,
+    "successor_assigned": false,
+    "qualification_credit": 0,
+    "original_RI197_RI216_RI231_exceptions_renewed": false,
+    "source_admission_issued": false,
+    "full_vector_instantiated": false,
+    "new_source_index_inferred": false
+  },
+  "qualification_credit": 0,
+  "successor_assigned": false,
+  "RET_paused": true,
+  "root_owns_independent_review_source_admission_publication_and_successor": true,
+  "diagnostics": {
+    "failed_shell_commands": 0,
+    "failed_orchestration_attempts": 1,
+    "rejected_patches": 1,
+    "clipped_displays": 0,
+    "repair_detail": "One formatting-only apply_patch call was rejected before changes because it contained multiple file operations for the same path. The orchestration surfaced that same rejection. Reissued with one operation per file and multiple hunks; success. No scientific data read, changed premise or partial write resulted.",
+    "predecessor_diagnostics_preserved": true,
+    "predecessor_diagnostics": {
+      "failed_shell_commands": 0,
+      "failed_orchestration_attempts": 0,
+      "rejected_patches": 0,
+      "clipped_displays": 1,
+      "clipped_detail": "7343f8 combined analytic display clipped inside COMPONENT_ROUTING. Complete COMPONENT_ROUTING recovered in a466a8 exit0; complete ENDPOINT_CERTIFICATE and COUPLED_CONTRAST reread in bf74ca exit0. No clipped display is credited as a complete source read.",
+      "predecessor_diagnostics_preserved": true,
+      "predecessor_diagnostics": {
+        "failed_shell_commands": 0,
+        "failed_orchestration_attempts": 1,
+        "orchestration_detail": "An initial in-memory source-list selection used row.path instead of row.identity.path and threw TypeError before any shell command or filesystem access. Corrected selection completed in 3881c4 exit0. No source was read or changed by the failed attempt.",
+        "rejected_patches": 0,
+        "clipped_displays": 0,
+        "predecessor_diagnostics_preserved": true,
+        "predecessor_diagnostics": {
+          "failed_shell_commands": 1,
+          "failed_shell_detail": "4f3d0e: initial read-only AGENTS.md filename inventory across workspace and evidence paths returned no matches, exit1; pwd succeeded. No source body was displayed by that inventory and no Git/index or write occurred.",
+          "failed_orchestration_attempts": 0,
+          "rejected_patches": 0,
+          "clipped_displays": 2,
+          "clipped_recovery": "f71fd3 combined display clipped; complete RESULT and DESIGN recovered d6840c, ROOT_TRANSPORT recovered1e0960. a388f0 combined display clipped inside CONNECTED_CONSTRAINTS_LEMMA; whole file recovered af358e. No clipped passage supplies complete-read credit.",
+          "predecessor_diagnostics_preserved": true
+        }
+      }
+    }
+  },
+  "actual_checks_so_far": [
+    {
+      "kind": "metadata-only preseal",
+      "chunk_id": "dfa019",
+      "exit_code": 0,
+      "direct_sources": 81,
+      "direct_bytes": 1672090,
+      "whole_identities": 85,
+      "preserved_boundaries": 15
+    }
+  ],
+  "complete_author_proof_reads": [
+    {
+      "chunk_id": "af736b",
+      "exit_code": 0,
+      "phase": "complete draft of both proofs",
+      "complete": true
+    },
+    {
+      "chunk_id": "4adab6",
+      "exit_code": 0,
+      "phase": "complete final two proofs and handoff after formatting repair",
+      "complete": true
+    }
+  ],
+  "finalization": "A genuine final six-file metadata pass follows this saved handoff. The final HANDOFF hash and pass receipt are reported externally. No final success is predicted here.",
+  "stopping_rule": "Seal bounded source-only design for independent root review. No source-body admission issued or executed; root owns admission, publication and successors."
+}

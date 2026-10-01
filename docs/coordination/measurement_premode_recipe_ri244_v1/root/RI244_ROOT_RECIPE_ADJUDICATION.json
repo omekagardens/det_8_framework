@@ -1,0 +1,43 @@
+{
+  "RET_paused": true,
+  "active_source_proposal": "archive_repro_review is assigned a temporary source-only RI244 preparation proposal; no operational writes, admission, collection or execution.",
+  "admission_issued": false,
+  "diagnostics": [
+    "Root7f361c attempted an absent RI236_CAPTURE_ACCEPTANCE.json with stderr suppressed before a successful filename inventory. No body or claim was derived from that absent lookup; accepted source paths were subsequently read explicitly."
+  ],
+  "dispatch_performed": false,
+  "independent_recipe": {
+    "bytes": 7826,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI244_INDEPENDENT_RECIPE.txt",
+    "sha256": "58d3d0bc6b2134697e68e22d4a57e15b7dd6ae97b7394491f2786ca3b9cbfcca"
+  },
+  "manual_source_reads": [
+    "594418",
+    "077131",
+    "c50e52",
+    "3f2b1d"
+  ],
+  "mode_card_issued": false,
+  "remaining": [
+    "Prepare fresh complete source/supplier/host/E/role union and actual bootstrap preflight.",
+    "Authenticate historical E and new controls; selected interpreter binding exactly equals accepted SOURCE_SET binding.",
+    "Independently review concrete controls, then root issues separate actual12-field admission and dispatches unchanged pre_mode once.",
+    "Preserve genuine initial/poll/terminal and complete monitor/action tails; independent9-field result review before separate mode_card."
+  ],
+  "resolved": [
+    "Fresh output is immediate evidence-parent sibling ri156-operation-ri244-premode-2kfsmiea; D244/output would refuse.",
+    "Operation environment TMPDIR is D244/tmp; accepted runtime13 environment remains E/tmp.",
+    "Outer cwd D244, child cwd D244/monitor, label PRE_MODE, unchanged180second monitor and960second outer alarm.",
+    "RI241 input adjudication is preparation provenance, not a substitute for original RI160 source_review and not a13th admission field."
+  ],
+  "root_source_check": {
+    "bytes": 347817,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI244_ROOT_RECIPE_CHECK.json",
+    "sha256": "7fa13f16eb4a10413c4701079b1400048f326aeb894fc9ab1550622261f60655"
+  },
+  "schema": "ri245-ri244-root-recipe-adjudication-v1",
+  "scientific_qualification": false,
+  "scope": "Exact12-field admission recipe, unchanged RI141 monitored launch interface and9-field pre_mode output. Source/path/environment mapping only.",
+  "source_proposal_accepted": false,
+  "status": "ACCEPT_CONCRETE_PREPARATION_RECIPE_NOT_OPERATIONAL_ADMISSION"
+}

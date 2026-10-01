@@ -1,0 +1,105 @@
+{
+  "exact_copies": 17,
+  "lossless_encoded_copies": 0,
+  "parent": "c4545e056d84d3880342a2df7c30cb1836cb3624",
+  "payload": [
+    {
+      "bytes": 50042,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "b389418de2ab5d33b1679b7c5d3a6095254319b6c8ca362f1e2b710a6bbcfbb5"
+    },
+    {
+      "bytes": 2215,
+      "path": "README.md",
+      "sha256": "23fc8d8bc1b1fe3fc14b687b97a7b9a48f2098e56e0e3275b4c2ccc1c1477cfa"
+    },
+    {
+      "bytes": 1309,
+      "path": "root/CHECK_PROVENANCE.json",
+      "sha256": "d46a0311e187517b0c9844609d48b63d0d5fbfcc6556ab8f7d07f3fee5fd73ab"
+    },
+    {
+      "bytes": 1635,
+      "path": "root/PARENT_REMOTE_CHECKPOINT_VERIFIED.json",
+      "sha256": "62a29f7bf2c3535514b39395e70d71fb27c2bf5671e0fb086bbb158996d50467"
+    },
+    {
+      "bytes": 31322,
+      "path": "root/RI243_GENUINE_FINAL_TOOL.json",
+      "sha256": "6a2fc1509fbd24a7457a52a4852469db7d67708c92a50695a306990fb4a9af10"
+    },
+    {
+      "bytes": 11666,
+      "path": "root/RI243_INDEPENDENT_REVIEW.txt",
+      "sha256": "c44d55f63107d1498aaa90914b2e21538b9585eaecbbd70325c7494716215b08"
+    },
+    {
+      "bytes": 1956,
+      "path": "root/RI243_ROOT_ADJUDICATION.json",
+      "sha256": "1ac7b534c63ccfe66276d8b2a960ecb85b5ae4e3ea7600b21334b092f0800c1e"
+    },
+    {
+      "bytes": 71218,
+      "path": "root/RI243_ROOT_METADATA_REVIEW.json",
+      "sha256": "ea2fbd94e23188d45798d08f422f6530b5ccc1794ffbabb3a34b1a1092829db5"
+    },
+    {
+      "bytes": 3743,
+      "path": "root/RI243_ROOT_REVIEW.md",
+      "sha256": "9ae154fde977d3952bce93827be7b23e078bdd7cb6cc56c7a84374cf5860039b"
+    },
+    {
+      "bytes": 1100,
+      "path": "root/RI246_ADMISSION_INDEPENDENT_REVIEW.json",
+      "sha256": "859f7e8e4cf9a5332247a9e70a6c5a7d4a0747ba972b5742f28523e38cbdb03e"
+    },
+    {
+      "bytes": 5803,
+      "path": "root/RI246_SIX_HOOK_LITERAL_ADMISSION.json",
+      "sha256": "ef7a03e9290e76694f4265504376ca9fa3211a061fc41ec8f06da44babae6b12"
+    },
+    {
+      "bytes": 9714,
+      "path": "root/root_adjudicate.py",
+      "sha256": "5a14e15cbad3c0b7c1325d62963fba6fb7a5ff2a85042b4e63737467bfeb6a7a"
+    },
+    {
+      "bytes": 4257,
+      "path": "root/root_open_review.py",
+      "sha256": "5a4dee08dcc6ff79f34c9341791415abae310635acd163195b0bcb2400410e55"
+    },
+    {
+      "bytes": 58883,
+      "path": "source/AUTHOR_VERIFICATION.json",
+      "sha256": "11d7d32ec493bf430e221efe1b27d31894fd51450d7f89e4bffc9c6fe2ba4da6"
+    },
+    {
+      "bytes": 9847,
+      "path": "source/HANDOFF.json",
+      "sha256": "0bc0006c3536556b57e0629ede95dbfb0cc93acd3376079abb2f6c147ac137ea"
+    },
+    {
+      "bytes": 2515,
+      "path": "source/HANDOFF.md",
+      "sha256": "dab15916dcbdb5070379c15ca0f302304fc5331989c23da01a4b1a4d040b07d5"
+    },
+    {
+      "bytes": 13618,
+      "path": "source/HOOK_ACQUISITION_CONTRACT.md",
+      "sha256": "bba85d35cf0c37bc0359a0169ad66bb90f3a4683cfcab450fc8b64391e6db635"
+    },
+    {
+      "bytes": 11861,
+      "path": "source/HOOK_ROLE_MAP.md",
+      "sha256": "2d9ae1c09f6b531e26437f0558bbf860e6620e114224aa280c70d0bf4a304ce5"
+    },
+    {
+      "bytes": 87651,
+      "path": "source/SOURCE_REFERENCES.json",
+      "sha256": "4c52afa7e16ceb903ad6695dc6a63e6cfb07e0f67ed58503c7ede42b59cb4ee0"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

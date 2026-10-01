@@ -1,0 +1,63 @@
+BEGIN RI243 INDEPENDENT REVIEW
+
+Disposition: recommend acceptance of the six-role mapping, the derived C4 complements, the conditional denominator-separation theorem, and the proposed acquisition design as a proposal only. I found no substantive blocker. This is not acceptance of any new coefficient value, original source index, default/override classification, actual common-denominator premise, d7 exclusion for the actual source, canonical allocation, full normalized witness, infeasibility, improvement or optimality. Root still owns adjudication and any separate literal-read admission.
+
+Reviewed subject: /Volumes/AI_DATA/development/det-review-evidence/ri243-native-hook-acquisition-_9p7ia0h. The final HANDOFF.json is 9847 bytes, SHA256 0bc0006c3536556b57e0629ede95dbfb0cc93acd3376079abb2f6c147ac137ea. The two complete proofs and the complete author verification/checker were read. Direct source identities were freshly compared, but I do not claim a new complete literal reread of every historical source or a replay of the historical 423-object inventory.
+
+1. Hook roles and complete marked routing are sound.
+
+HOOK_ROLE_MAP.md:9–41 fixes the actual hook r<a<b, r<x, its supplied order (r,a,b,x), and the whole parent/precursor/record convention. The three topological hook presentations have relation codes 78, 142 and 2062. The previously admitted topological-minimum lemma, checked in RI189 COMPONENT_ROUTING.md:159–199, justifies excluding non-topological permutations from the minimum. The asymmetric hook has a distinguished long and short arm; their marks cannot silently be interchanged.
+
+At HOOK_ROLE_MAP.md:43–89, the f precursor {r,x} omits the single maximal vertex b and has deletion potential a_i. Adding the second long-arm tip gives the two-arm terminal. Its two maximal deletions have the common fork base. The marked diamond relates a_i times the first f slot to a_i times the second f slot for arbitrary base marks and both newborn marks. Since a_i>0, this connects the selected short-leaf mark while retaining the root mark. The compulsory intersection is exactly the root. Terminal presentations exhaust the maximal-deletion routes and preserve that root mark. Thus there are exactly two f components and f_i=a_i alpha_(78,9,i), with a0=19/220 and a1=7/220. The source key is established; no original ordinal index or source value is inferred.
+
+At :91–160, the g precursor {r,a,x} omits only b and has the FULL fork potential F_i, not a proper-slot factor. The other parent of the forced two-maxima terminal is the diamond. The transport is a_i*q_hook=F_i*q_diamond, with q_diamond itself equal to a_i times its component coefficient. Both positive factors cancel. The retained non-root bit u belongs to long-arm a, the vertex below both terminal maxima; short-arm x is below only the new maximum. The compulsory past is the chain {r,a}. Relabelling the diamond arms transports the selected arm and its mark; it does not erase u or identify it with the unselected arm mark. The two short-arm marks connect for fixed (i,u), leaving exactly four g components. The diamond presentation has minimum code 2190, above 78. Therefore g_(i,u)=F_i alpha_(78,11,i+2u), with F0=43/55 and F1=49/55. The role order 0,2,1,3 is correctly distinguished from source key order 0,1,2,3.
+
+The f and g terminal orders are nonisomorphic (six versus seven strict relations), so terminal invariance prevents a hidden connection between these families. The argument retains all relevant whole records and both newborn marks; cancellation is proved rather than implemented as record deletion.
+
+2. The C4 complements are derived from already admitted analytics.
+
+HOOK_ROLE_MAP.md:162–192 uses the accepted alpha_I=w/e_I=1/8 and e_I=1/44; I checked the literal RI231 SIX_ROOT_WITNESS.md:55–80 passage. This yields w=1/352. The admitted pi and sigma values yield p0=p1=s0=1/352 and s1=27/5500. With the inherited b0=8077/8800, the complete complement gives c0=1−3/352−8077/8800=3240/44000. The inherited contrast Delta c=−9/44000 then gives c1=3231/44000. No new original-certificate lookup is needed or performed. The complete complement is retained; no canonical term is replaced by a free value.
+
+3. The piecewise clearing and conditional spacing theorem are correct.
+
+At HOOK_ROLE_MAP.md:194–221, a common positive denominator 1760 gives
+A0=[205−76x0−1376 min(y00,y01)]+,
+A1=[205−28x1−1568 min(y10,y11)]+,
+P_i=A_i/1760,
+F=(3240A1−3231A0)/77440000.
+The positive multipliers justify moving through min and positive part, including ties and zero branches. The corresponding d=25*gamma*(3240A1−3231A0)/(3240*3231) clearing is consistent with c0 and c1.
+
+At :223–261, assume, rather than acquire, a positive integer common denominator D<=2^50 for the six exact coefficient strings from the same fixed source. Each A_i is an integer divided by D, including every min/zero case. Consequently F has an integer numerator over 77440000*D. Since 77440000<2^27, this positive denominator is strictly less than 2^77, even at D=2^50. A nonnegative numerator gives F>=0; a negative integer numerator gives F<-2^(-77). Neither lies in the inherited necessary exceptional strip −2^(-77)<F<0. Reduction to lowest terms is unnecessary. This proves the conditional d7 exclusion without a rationality-to-grid inference. Rationality alone, unknown denominators, or an unproved discovery lattice do not establish the premise. Failure to establish the denominator bound would not prove the exceptional branch.
+
+4. Acquisition remains a precise future proposal, with no authority smuggled through the role proof.
+
+HOOK_ACQUISITION_CONTRACT.md:3–24 explicitly says design only, not issued admission or execution. Its original 2845-byte source identity is copied from historical administrative provenance and explicitly is not freshly checked. The historical six-root exception concerned different keys and is not renewed. The current six keys, their g-role permutation, and the missing original indices/default-versus-override decisions are kept separate.
+
+The complete contract requires a new written root admission; before/after whole-source identity and stable path/descriptor custody; an authenticated complete literal view sufficient to trace the original 109-entry ordering and the complete override object; a manual six-row provenance table; and independent nonauthor checking. It forbids scientific JSON parsing, sorting or reindexing the original declaration, vector instantiation, extra coordinate evaluation, checker execution, discovery-decimal substitution and repairing the original source. Looking through other keys as ordinal landmarks is expressly not permission to resolve their values. Default use requires checking the full original override object, not assuming absence from an excerpt. Clipping, ambiguity, identity drift or incomplete custody require refusal rather than a partial pass.
+
+The contract correctly separates valid acquisition provenance, a proved Test A denominator bound, optional same-six Test B exact separation, and unresolved/failure outcomes. It preserves the original thirteen equations and ten coordinates, the five disconnected and eight connected rows, zero-contrast branches, complete recovery, canonical terms, all records and original strict endpoints. Excluding d7 alone leaves the actual canonical comparison C_b and the retained full-system decision open.
+
+If root accepts this packet and chooses acquisition, the narrow justified next authorization is a separately issued, source-pinned literal admission for exactly these six roots, expressly covering the author and an independent reviewer or an exact complete authorized receipt. It need not admit extra c0/c1 lookups, theta/rho/s, kappa, H/z, a vector, or executable qualification. I neither issue that admission nor assign or begin its work.
+
+5. Actual provenance and administrative verification.
+
+My fresh read-only comparison 2d1848 exited 0. It verifies 87 unique whole-file identities, 81 direct sources totalling 1,672,090 bytes, preservation of all 71 predecessor direct-source identities, exact current and RI240 six-file namespaces, all 15 unchanged boundary objects, matching handoff/author payload pins, assignment and accepted-predecessor links, consistent scope/diagnostics/proposal fields, and repeated matching file states and hashes. All path components were checked against symlinks, each file was regular and bounded, and descriptor/path state was compared before and after reading. This is a finite read comparison, not an atomic snapshot claim.
+
+The original scientific certificate was neither opened nor hashed. The preserved 423-object boundary was compared as the inherited administrative object, not recursively traversed or requalified. No scientific JSON, new value/index, mathematical computation engine, graph/LP, subject import/compile/AST/execution, H/z, measurement/RET, Git/index, repository or other file write occurred. Manual mathematics above is distinct from the metadata program's byte/count/hash operations.
+
+I read the entire retained administrative checker in receipt 619fad. Its source SHA256 is 1d1cbc82dec757d785a06ddce081897c39adcab2b942482d6b4e35da7833c888. Its filesystem/crypto/administrative-JSON checks are limited to identities, namespaces, custody, scope and preserved boundary comparisons; it does not establish the proof or acquire the missing scientific values. I did not replay it. The fresh independent comparison is my own limited read-only metadata check.
+
+The author's preseal dfa019 exit 0 and externally reported final fc88bb exit 0 remain author/parent-attributed execution claims here; I did not retrieve their original tool output. My independent 2d1848 result corroborates the current identity/count facts, not those historical executions. The sealed diagnostics honestly retain zero failed shell commands, one failed orchestration/rejected apply_patch attempt caused by duplicate file operations, its repair, and zero current clipped displays, together with inherited predecessor diagnostics. I had no failed, rejected or clipped tool call in this RI243 review.
+
+Actual read receipts: 34f862 final six identities and full handoff; eefc76 complete numbered role map; 0d9dba complete numbered acquisition contract; 8a266a antecedent locators; ff40a5 assignment/new direct sources/historical administrative exception; b1c477 admitted topological-minimum, alpha_I and endpoint passages; 619fad complete author declarations and retained checker; 7cf518 administrative schema/scope inspection; 9a4abe exact payload and proposal fields; 2d1848 final independent metadata comparison. All exited 0. None was scientific subject execution.
+
+Final source pins:
+AUTHOR_VERIFICATION.json — 58883 bytes — 11d7d32ec493bf430e221efe1b27d31894fd51450d7f89e4bffc9c6fe2ba4da6
+HANDOFF.json — 9847 bytes — 0bc0006c3536556b57e0629ede95dbfb0cc93acd3376079abb2f6c147ac137ea
+HANDOFF.md — 2515 bytes — dab15916dcbdb5070379c15ca0f302304fc5331989c23da01a4b1a4d040b07d5
+HOOK_ACQUISITION_CONTRACT.md — 13618 bytes — bba85d35cf0c37bc0359a0169ad66bb90f3a4683cfcab450fc8b64391e6db635
+HOOK_ROLE_MAP.md — 11861 bytes — 2d9ae1c09f6b531e26437f0558bbf860e6620e114224aa280c70d0bf4a304ce5
+SOURCE_REFERENCES.json — 87651 bytes — 4c52afa7e16ceb903ad6695dc6a63e6cfb07e0f67ed58503c7ede42b59cb4ee0
+
+Recommendation: accept the scoped manual theorem/design packet, conditional on its explicitly inherited finite analytic premises. No actual six-value acquisition or exceptional-branch decision is accepted by this review. No write or successor assignment is included.
+END RI243 INDEPENDENT REVIEW

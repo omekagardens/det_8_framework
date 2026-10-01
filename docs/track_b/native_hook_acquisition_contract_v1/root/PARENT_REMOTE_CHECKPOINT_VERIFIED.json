@@ -1,0 +1,41 @@
+{
+  "RET_paused": true,
+  "branch": "ret",
+  "commit": "c4545e056d84d3880342a2df7c30cb1836cb3624",
+  "dependency_rows": 679,
+  "exact_copies": 23,
+  "force_push": false,
+  "frozen_E_unchanged": true,
+  "index_empty": true,
+  "parent": "651911e278cb9b538328b3eb5fd460cf81f59490",
+  "records": [
+    {
+      "bytes": 2550,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/GENUINE_PUBLICATION_TOOLS.json",
+      "sha256": "4176543dc4d191acfcb34460805ab3d98d54d0dafa7346278fe8680be626a661"
+    },
+    {
+      "bytes": 13576,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/VALIDATION_COMMITTED.json",
+      "sha256": "228995c17f5eb75a2459b5758cddfbe78d6f6a42afdb8768c680ba05bdb21580"
+    },
+    {
+      "bytes": 1199,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/FINAL_PUBLICATION_INDEPENDENT_REVIEW.json",
+      "sha256": "0a6da6f871e08303dc09c584035f7683081c484ef8db206de58f18d91e54a98b"
+    },
+    {
+      "bytes": 1635,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/STAGED_CHECKER_DIAGNOSTIC.json",
+      "sha256": "b60a08ca8d02cf2b09409697abe001c01f90b5bc595c0890cb5c1a11b5c4e8d8"
+    }
+  ],
+  "remote": "https://github.com/omekagardens/det_8_framework.git",
+  "remote_ref": "refs/heads/ret",
+  "schema": "ri242-remote-checkpoint-verified-v1",
+  "scope_files": 33,
+  "status": "LIVE_REMOTE_EQUALS_REVIEWED_COMMIT",
+  "unrelated_entries_unchanged": 5771,
+  "upstream": "origin/ret",
+  "whole_program_complete": false
+}

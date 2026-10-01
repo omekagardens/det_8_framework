@@ -1,0 +1,45 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "complete marked six-role source mapping",
+    "full C4 complements from admitted analytics",
+    "minimum/positive-part exact clearing",
+    "conditional common denominator D<=2^50 excludes d7",
+    "acquisition contract as design only"
+  ],
+  "actual_d7_excluded": false,
+  "actual_denominator_premise": false,
+  "actual_values_acquired": false,
+  "canonical_Cb_resolved": false,
+  "full_normalized_witness": false,
+  "genuine_author_final": {
+    "bytes": 31322,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI243_GENUINE_FINAL_TOOL.json",
+    "sha256": "6a2fc1509fbd24a7457a52a4852469db7d67708c92a50695a306990fb4a9af10"
+  },
+  "independent_review": {
+    "bytes": 11666,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI243_INDEPENDENT_REVIEW.txt",
+    "sha256": "c44d55f63107d1498aaa90914b2e21538b9585eaecbbd70325c7494716215b08"
+  },
+  "original_system_and_recovery_retained": true,
+  "qualification_credit": 0,
+  "root_manual_review": {
+    "bytes": 3743,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI243_ROOT_REVIEW.md",
+    "sha256": "9ae154fde977d3952bce93827be7b23e078bdd7cb6cc56c7a84374cf5860039b"
+  },
+  "root_metadata": {
+    "bytes": 71218,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI243_ROOT_METADATA_REVIEW.json",
+    "sha256": "ea2fbd94e23188d45798d08f422f6530b5ccc1794ffbabb3a34b1a1092829db5"
+  },
+  "schema": "ri245-root-ri243-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_SIX_HOOK_ROLE_MAP_AND_CONDITIONAL_DENOMINATOR_EXCLUSION",
+  "subject": {
+    "bytes": 9847,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri243-native-hook-acquisition-_9p7ia0h/HANDOFF.json",
+    "sha256": "0bc0006c3536556b57e0629ede95dbfb0cc93acd3376079abb2f6c147ac137ea"
+  }
+}

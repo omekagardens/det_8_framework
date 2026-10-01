@@ -1,0 +1,12 @@
+{
+  "admission": {
+    "bytes": 5803,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI246_SIX_HOOK_LITERAL_ADMISSION.json",
+    "sha256": "ef7a03e9290e76694f4265504376ca9fa3211a061fc41ec8f06da44babae6b12"
+  },
+  "report": "No blocker found. 5e4c60 exit0 passed167 administrative checks across12files. Admission matches accepted design: exactly six keys, g-role permutation0,2,1,3, complete literal ordering/override inspection, stable before/after custody and named nonauthor /root/qr_opportunities. No extra coefficient/executable/measurement scope. Actual acquisition and mathematical acceptance remain separate obligations. No original certificate opened or hashed. Diagnostic: combined display ea669c clipped within contract;6f04ed recovered complete contract. No writes/Git/subject execution.",
+  "report_type": "reviewer-supplied finding and execution receipts, not independently retrieved raw tool output",
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri245-ri246-admission-independent-review-v1",
+  "status": "NO_BLOCKER"
+}

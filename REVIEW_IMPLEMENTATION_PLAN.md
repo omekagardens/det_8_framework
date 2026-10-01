@@ -1,6 +1,54 @@
 **DET independent-review implementation and QR coordination**
 
-**Current follow-through — canonical gap accepted; normal pre-mode inputs reviewed.**
+**Current follow-through — six-hook proof accepted; literal acquisition assigned.**
+1 October 2026 UTC. RI243 fixes the two f and four g component keys,
+including the selected long-arm bit and the g-role permutation 0,2,1,3.
+Both C4 complements follow from admitted analytics. If the six exact
+source coefficients have a common positive integer denominator D<=2^50,
+their cleared contrast cannot lie in (-2^-77,0), excluding d=d7.
+That denominator premise and the actual branch are still unresolved.
+
+Root and nonauthor manually reviewed the full proofs and independently
+checked 87 identities, 81 direct sources / 1,672,090 bytes, all 71
+predecessor direct identities and 15 unchanged boundary objects. The
+genuine author final6 is completed exit0; its API truncation and all
+historical diagnostics remain explicit. Evidence:
+`docs/track_b/native_hook_acquisition_contract_v1/`.
+
+After adjudication, root issued RI246 to the existing Quantum Relativity
+chat in its separate reservation. The admission permits exactly six
+hook values from one pinned original literal body, with whole custody,
+manual original-index/default-or-override provenance, and named nonauthor
+review. Its boundaries passed a separate 167-check/12-file audit. The
+historical RI243 design itself grants no source authority. The 423-source
+manifest remains by reference. Active RI246 results await independent
+review and are excluded from this checkpoint.
+
+RI244 now has an accepted concrete pre_mode preparation recipe. The
+output must be an immediate evidence-parent sibling; launch TMPDIR and
+accepted runtime TMPDIR remain distinct. Root checked 598 identities,
+567 dependencies, twelve executable source files and the accepted
+106-control card. Frozen E remains 49 files / nine directories. The
+independent recipe review passed 670 predicates / 609 opaque identities.
+Evidence: `docs/coordination/measurement_premode_recipe_ri244_v1/`.
+
+The source-only preparation proposal is active. Fresh complete
+source/supplier/host/E/role custody and concrete control review precede
+a separately issued unchanged pre_mode operation. Its nine-field result
+must be reviewed before separate mode_card generation. No measurement
+operation, mode card or scientific qualification is issued here.
+Normal qualification and independent arithmetic, optimized, RI131/full32
+and selected public GWOSC conventional reproduction remain ordered.
+Calibrated claims remain separate from a native forward map.
+
+All thirteen equations, ten coordinates, minima/ties/zero branches and
+original recovery remain. Actual C_b, normalized witness/inconsistency,
+improvement, optimality, amplitude, all-size and physical claims stay open.
+RET alone remains paused. Parent c4545e056d84d3880342a2df7c30cb1836cb3624
+was verified on origin/ret. Unrelated edits and active reservations are
+preserved; the programme remains in progress.
+
+**Prior checkpoint — canonical gap accepted; normal pre-mode inputs reviewed.**
 1 October 2026 UTC. RI240 proves that actual D2 cancellation requires
 kappa0-kappa1>1/70 and M1-M0>41/24640>1/625. Its complete kappa-to-tau
 exchange identifies the exact companion slack or weighted objective
