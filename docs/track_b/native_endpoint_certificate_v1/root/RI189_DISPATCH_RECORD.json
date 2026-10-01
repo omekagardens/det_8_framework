@@ -1,0 +1,12 @@
+{
+  "assignment": {
+    "bytes": 2659,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI189_NATIVE_ASSIGNMENT.json",
+    "sha256": "2561837f162343aba66ca3bc96ab7b257b2b83e8132ae69215745dfc5596bc0f"
+  },
+  "predecessor_reviewed": true,
+  "result": "success",
+  "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "tool": "mcp__codex_app__send_message_to_thread",
+  "work_scope": "Existing QR chat, sole external RI189 reservation, manual coupled record-contrast proof question. No new agent/thread."
+}

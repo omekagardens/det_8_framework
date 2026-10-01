@@ -1,0 +1,309 @@
+{
+  "schema": "ri187-source-author-verification-v1",
+  "status": "AUTHOR_VERIFIED_CONDITIONAL_CERTIFICATE_ACTUAL_ENDPOINT_UNDECIDED_PENDING_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "scope": "Manual same-law endpoint algebra, selected literal analytic premises and bounded administrative provenance only.",
+  "authored_files": [
+    "ENDPOINT_CERTIFICATE.md",
+    "LOWER_LAW_TRACE.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.md",
+    "AUTHOR_VERIFICATION.json",
+    "HANDOFF.json"
+  ],
+  "mathematical_result": {
+    "fixed_law": true,
+    "accepted_cap": "Z6=6/(83+72theta); K=77+72theta; rho<Z6",
+    "explicit_finite_premise": "RI175 accepted q=k*g with k>0, g monic quadratic, g(1)>0 and g'(1)<0; inherited finite numerical-sign premise, not a general DET theorem or renewed RI122 read.",
+    "positive_decomposition": "q(z)=(1-z)^2*q0+z*(2-z)*q(1)-z*(1-z)*q'(1)",
+    "strict_bounds": "(1-z)^2*q0<q(z)<q0 for 0<z<1",
+    "sufficient_certificate": "C0=K*(K*v-72lambda*j0)*q0-432lambda*G_*v>=0",
+    "exact_identity": "D^2*H6=C0+(v-B6)*[12(D-3)*q(1)-6K*q'(1)]",
+    "implication": "C0>=0 alone implies v>B6 and H6>0; equality C0=0 still gives strict H6>0.",
+    "strict_branch_necessary_bound": "[(p1-p0)_++(s1-s0)_+]/(b0-b1)>508644/3875>131",
+    "conditional_reverse": "If the ratio is <=508644/3875, then v<B6 strictly.",
+    "canonical_trace": "N_i=(35/1476)[41p_i-f_i/2-min(g_i0,g_i1)]_+/c_i; all three canonical product contrasts retained.",
+    "positive_cleared_lower_law_certificate": "K*[K*theta*b0^3*A-72delta*J*j0]*R0>=432theta^4*delta*J*c0^2*c1*A, where v=theta*A, lambda=delta*J/b0^3 and R0=c0*c1*q0>0.",
+    "residual_gap": "No actual sign of C0 or the strict branch proved; exact marked amplification and correlated neutral-row magnitude comparisons remain missing in the selected analytic derivation.",
+    "native_counterexample_claimed": false,
+    "full_law_nonimplication_claimed": false,
+    "actual_endpoint_sign_decided": false,
+    "actual_W_C2_C3_H30_decided": false
+  },
+  "manual_verification": [
+    "Kept complete C4 rows, every C3 stem entry and both distinct H5 one-cap occurrences before contrast cancellation.",
+    "Traced v, lambda*G_* and j0 to fixed component-times-potential rows and the same theta/M5.",
+    "Checked signed difference-of-squares/cubes expression v=theta(a1 Delta p+a3 Delta s-a7 delta) and 0<a_S<2.",
+    "Checked manual rational enclosure J_b/b0^3>85538/42875>199/100 using b1>1/2 and b0<35/38.",
+    "Checked B6/(theta delta)>1017288/3875, necessary amplification and strict reverse-premise conclusion, including equality of the reverse premise.",
+    "Collected every q coefficient from the complete canonical expression; Delta(sigma omega^2) remains a difference of products.",
+    "Checked q(1),-q'(1),q2 positivity is inherited finite evidence and that z=1 is not chosen as actual scale.",
+    "Expanded both positive representations of q and proved both strict bounds for 0<z<1.",
+    "Checked C0>=0 forces K*v-72lambda*j0>0 before using that branch.",
+    "Checked exact D^2*H6 identity and strict correction at C0=0.",
+    "Checked the distinct strict necessary q0 comparison; negative C0 is not asserted to refute the exact endpoint.",
+    "Checked R0=c0*c1*q0 and all positive clearing through theta^4 in the full lower-law inequality.",
+    "Checked normalization C=delta-Delta p-Delta s, exact canonical S0 identity, positive-part floor and tied/zero cases.",
+    "Checked that substituting Lq for q0 cannot certify the strict branch unless Lq>0 or a separately fixed strict branch is available.",
+    "Retained actual rho/s, P2/P3,Y=1/4,31/139/20/42,shared T1,other eight parents,five Di and all marked occurrences; made no physical or all-size promotion."
+  ],
+  "main_actual_reads": [
+    {
+      "tool": "952be4",
+      "exit_code": 0,
+      "scope": "Authenticated complete RI187 assignment and RI185 root adjudication."
+    },
+    {
+      "tool": "d79dce",
+      "exit_code": 0,
+      "scope": "Authenticated RI185 dependency metadata and selected analytic-path projection; initial empty reservation."
+    },
+    {
+      "tool": "39744e",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI145 WEIGHTED_MARGIN_PROOF and RI157 CORRELATED_CONTRAST_BOUND."
+    },
+    {
+      "tool": "7e8306",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI175 CANONICAL_INTERCEPT and RI147 COMPONENT_CONTRASTS."
+    },
+    {
+      "tool": "b331a0",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI151 COUPLED_EQUALITY_REDUCTION."
+    },
+    {
+      "tool": "371951",
+      "exit_code": 1,
+      "scope": "Both RI185 and RI175 root proof reviews fully authenticated/read, then rejected mistyped expected SIX_ANTICHAIN_BOUND SHA before displaying that body."
+    },
+    {
+      "tool": "840204",
+      "exit_code": 0,
+      "scope": "Corrected expected hash from selected predecessor; complete authenticated SIX_ANTICHAIN_BOUND."
+    },
+    {
+      "tool": "352780",
+      "exit_code": 0,
+      "scope": "Complete current LOWER_LAW_TRACE author-peer read and pin; no finding."
+    },
+    {
+      "tool": "40b9f1",
+      "exit_code": 0,
+      "scope": "Authenticated current D/S administrative key/boundary projection."
+    },
+    {
+      "tool": "084b1a",
+      "exit_code": 0,
+      "scope": "Complete final DEPENDENCY_NOTES read and pin."
+    }
+  ],
+  "instruction_reads": {
+    "skill": "pages:write-page",
+    "receipts": [
+      "10c3ba",
+      "3bada7"
+    ],
+    "effect": "Retained established external Markdown research-document format and explicit result/premise boundaries; no Page or layout action."
+  },
+  "collaborator_reports": {
+    "attribution": "These are collaborator-supplied receipts, not main-executed checks and not independent mathematical acceptance.",
+    "lower_law": {
+      "complete_selected_sources": [
+        "RI147 COMPONENT_CONTRASTS",
+        "RI157 CORRELATED_CONTRAST_BOUND",
+        "RI175 CANONICAL_INTERCEPT",
+        "RI127 RECORD_TRANSPORT"
+      ],
+      "additional_read_receipts": [
+        "e97a47",
+        "4d5a30",
+        "8353e8"
+      ],
+      "self_reads": [
+        "154d41",
+        "cb0491"
+      ],
+      "endpoint_peer_reads": [
+        "2cbe1e",
+        "f3f0fe"
+      ],
+      "reported_exits": 0,
+      "failures_or_clipping_reported": false,
+      "remaining_findings": []
+    },
+    "q_side": {
+      "complete_selected_sources": [
+        "RI185 SIX_ANTICHAIN_BOUND",
+        "RI175 CANONICAL_INTERCEPT",
+        "RI147 COMPONENT_CONTRASTS",
+        "RI166 REDUCED_SYSTEM",
+        "RI168 COUPLED_BOUND",
+        "RI151 COUPLED_EQUALITY_REDUCTION",
+        "RI175 root adjudication and root proof review"
+      ],
+      "read_receipts": [
+        "167125",
+        "86cd98",
+        "2e29f3",
+        "165413",
+        "146059",
+        "77e786",
+        "c5ff38"
+      ],
+      "lower_peer_read": "36e5b2",
+      "endpoint_peer_read": "1baf4d",
+      "endpoint_pin_receipts": [
+        "0ddbb1",
+        "f8196f"
+      ],
+      "remaining_findings": [],
+      "display_diagnostic": "Broad administrative path projection266d8f clipped; recovered narrower projections0f0b6b/91d53c and pinsc75043/5a68ea/72da4d. No failed shell command, RI122 body reread or scientific extraction."
+    },
+    "provenance": {
+      "authority_reads": [
+        "f841f7",
+        "42a0f7"
+      ],
+      "candidate_check": "089811",
+      "manifest_pins": [
+        "b75544",
+        "010826"
+      ],
+      "full_check": "43150e",
+      "notes_earlier_read": "d05565",
+      "notes_final_read": "55e5e2",
+      "reported_exits": 0,
+      "notes_earlier_phase": {
+        "bytes": 17229,
+        "sha256": "62235a68f9cd1e5530556352369126d9da879c2017c8d55bad0fd21d4167034e"
+      },
+      "notes_final_phase": {
+        "bytes": 19286,
+        "sha256": "d6744f2b2fa23d164cdba14ff7fec0e2f5a8e328926ae4389ab007bd3c8b0fa6"
+      },
+      "phase_meaning": "Earlier successful notes read predates added real diagnostics and peer reports; final pin does not erase that phase."
+    }
+  },
+  "actual_diagnostics": [
+    {
+      "tool": "371951",
+      "exit_code": 1,
+      "kind": "mistyped expected hash",
+      "mistyped_fragment": "bd74d69e",
+      "correct_fragment": "bd74d9e",
+      "source_mutation": false,
+      "recovery_tool": "840204",
+      "recovery_exit_code": 0
+    },
+    {
+      "owner": "q-side collaborator",
+      "tool": "266d8f",
+      "kind": "clipped administrative path display",
+      "recovery": [
+        "0f0b6b",
+        "91d53c",
+        "c75043",
+        "5a68ea",
+        "72da4d"
+      ],
+      "scientific_body_display": false
+    }
+  ],
+  "actual_preseal_check": {
+    "tool": "244691",
+    "exit_code": 0,
+    "result": {
+      "schema": "ri187-author-administrative-check-v1",
+      "status": "MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE",
+      "stage": "preseal6",
+      "dependencies": 361,
+      "selected_bytes": 21655525,
+      "inherited": 349,
+      "classifications": {
+        "analytic-source-text-or-review": 132,
+        "opaque-historical-acceptance-or-source-support": 95,
+        "opaque-scientific-historical-premise": 1,
+        "selected-administrative-proof-provenance": 132,
+        "selected-administrative-governance-boundary": 1
+      },
+      "historical_typed_references": 5713,
+      "current_typed_references": 199,
+      "historical_extended_state_noncomparisons": 17,
+      "separate_byte_equal_pairs": 4,
+      "predecessor_namespace_counts": [
+        8
+      ],
+      "current_namespace": 6,
+      "literal_manuscript_reference_occurrences": 4,
+      "final_fresh_identity_rechecks": 367,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/DEPENDENCY_NOTES.md",
+          "bytes": 19286,
+          "sha256": "d6744f2b2fa23d164cdba14ff7fec0e2f5a8e328926ae4389ab007bd3c8b0fa6"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/ENDPOINT_CERTIFICATE.md",
+          "bytes": 13499,
+          "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/HANDOFF.md",
+          "bytes": 3188,
+          "sha256": "2eaadb5d9f41333c50da8ba10ddd52866d68664cf3c8b1bd2f1b4bae2f6025c2"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/LOWER_LAW_TRACE.md",
+          "bytes": 11631,
+          "sha256": "3b74151edeb6316c00ac09f752727899abf24ea5cc6da75c7da080435a7e6d6e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/SOURCE_DEPENDENCIES.json",
+          "bytes": 333463,
+          "sha256": "b16a93b187288d49c4c49ff5d067f49e50c2eda55c3d8aef02b0528ddba88045"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/SOURCE_IDENTITIES.json",
+          "bytes": 113498,
+          "sha256": "26772564c1f32c17768d661223d1cb1f318588fc6187d4cf18c361ab66129f70"
+        }
+      ],
+      "mathematical_formula_evaluated_by_script": false,
+      "scientific_or_target_execution": false
+    }
+  },
+  "administrative_checker": {
+    "execution": "Standalone inline Node script using fs/path/crypto only; never imports target, historical helper or vendor code.",
+    "scientific_formula_evaluation": false,
+    "stage_commands": "node -e '<exact inline source>' preseal6; after writing the seal, node -e '<same exact inline source>' final8",
+    "full_inline_source": "const fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew',P='/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let length=0;const cap=Number(st.size)+1;while(length<cap){const block=Buffer.alloc(Math.min(65536,cap-length));const got=fs.readSync(fd,block,0,block.length,null);if(!got)break;chunks.push(block.subarray(0,got));length+=got;}b=Buffer.concat(chunks);need(b.length===Number(st.size),'size drift');need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[],state:Object.fromEntries(fields.map(k=>[k,st[k].toString()]))};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:333463,sha256:'b16a93b187288d49c4c49ff5d067f49e50c2eda55c3d8aef02b0528ddba88045'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:113498,sha256:'26772564c1f32c17768d661223d1cb1f318588fc6187d4cf18c361ab66129f70'});\npin({path:Q+'/ENDPOINT_CERTIFICATE.md',bytes:13499,sha256:'a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe'});\npin({path:Q+'/LOWER_LAW_TRACE.md',bytes:11631,sha256:'3b74151edeb6316c00ac09f752727899abf24ea5cc6da75c7da080435a7e6d6e'});\npin({path:Q+'/DEPENDENCY_NOTES.md',bytes:19286,sha256:'d6744f2b2fa23d164cdba14ff7fec0e2f5a8e328926ae4389ab007bd3c8b0fa6'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body),S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body),M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===361&&eq([...M.keys()],[...M.keys()].sort()),'count/sort');\nD.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity)});\nneed(D.protected_files.reduce((n,r)=>n+r.identity.bytes,0)===21655525,'total selected bytes');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body),oldS=JSON.parse(read(P+'/SOURCE_IDENTITIES.json').body),omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===349,'old349');\nfor(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherited row');\nfor(const k of ['governance_stopping_boundary','historical_phase_record_boundary','predecessor_author_support_boundary','ri172_author_support_boundary','ri173_author_support_boundary','ri122_literal_read_exception','ri175_author_support_boundary','ri178_author_support_boundary','ri181_author_support_boundary'])need(eq(D[k],old[k]),'inherited boundary '+k);\nfor(const k of ['accepted_ri181_premises','accepted_ri178_premises','accepted_ri175_premises','accepted_ri173_premises','historical_fixed_prefix_premise','accepted_ri172_predecessor','accepted_ri168_premises','accepted_ri166_premises','accepted_ri157_premises','accepted_ri157_margin_scope','accepted_ri155_premises','accepted_ri153_premises','excluded_historical_inferences','accepted_ri151_premises','accepted_ri149_premises','root_accepted_additional_observation','accepted_ri147_premises','accepted_ri145_premises','accepted_analytic_packets','premise_texts','actual_source_text_reads','source_text_counterparts','immutable_numerical_certificate','unchanged_obligations','inherited_scope_clarification','identity_interpretation'])need(eq(S[k],oldS[k]),'inherited S '+k);\nneed(eq(S.governance.inherited_analytic_and_operational_governance,oldS.governance),'whole inherited governance');\nconst namespaces=[];\nfor(const[dir,count]of[[P,8]]){\nconst h=JSON.parse(read(dir+'/HANDOFF.json').body),names=fs.readdirSync(dir).sort();\nneed(names.length===count&&eq(names,[...h.namespace].sort())&&eq(names,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'historical namespace '+dir);\nh.payloads.forEach(pin);namespaces.push({dir,names});\n}\nneed(eq(D.historical_phase_record_boundary,S.governance.RI166_phase_record_boundary),'phase S boundary');\nneed(eq(D.predecessor_author_support_boundary,S.governance.RI168_author_support_boundary),'support S boundary');\nneed(eq(D.ri172_author_support_boundary,S.governance.RI172_author_support_boundary),'old support S boundary');\nneed(eq(D.ri173_author_support_boundary,S.governance.RI173_author_support_boundary),'old support S boundary');\nneed(eq(D.ri175_author_support_boundary,S.governance.RI175_author_support_boundary),'old support S boundary');\nneed(eq(D.ri178_author_support_boundary,S.governance.RI178_author_support_boundary),'old support S boundary');\nneed(eq(D.ri181_author_support_boundary,S.governance.RI181_author_support_boundary),'old181 support S boundary');\nneed(eq(D.ri185_author_support_boundary,S.governance.RI185_author_support_boundary),'new185 support S boundary');\nfor(const b of [D.historical_phase_record_boundary,D.predecessor_author_support_boundary,D.ri172_author_support_boundary,D.ri173_author_support_boundary,D.ri175_author_support_boundary,D.ri178_author_support_boundary,D.ri181_author_support_boundary,D.ri185_author_support_boundary])need(M.get(b.path).classification==='opaque-historical-acceptance-or-source-support'&&b.typed_reference_expansion===false,'author boundary routing');\nneed(D.ri185_author_support_boundary.path===P+'/AUTHOR_CHECKS.json','new author boundary path');\nconst ex=D.ri122_literal_read_exception,oldDecision='/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json',scope='/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI175_HISTORICAL_PREMISE_SCOPE.json';\nneed(ex.path===oldDecision&&ex.literal_read_authority===scope&&ex.automated_typed_reference_expansion===false&&M.get(oldDecision).classification==='opaque-historical-acceptance-or-source-support','historical literal-read exception');\nneed(S.historical_fixed_prefix_premise.permission.path===scope&&S.historical_fixed_prefix_premise.final_acceptance.path===oldDecision&&S.historical_fixed_prefix_premise.final_decision_automated_typed_reference_expansion===false,'exception S binding');\nlet refs=0,extended=0,states=0;\nfunction scan(x,current=false){\nif(!x||typeof x!=='object')return;\nif(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){\nneed(M.has(x.path)||(current&&x.path===Q+'/SOURCE_DEPENDENCIES.json'),'reference closure '+x.path);\npin(x);refs++;if(x.symlink_chain!==undefined)extended++;if(x.state!==undefined)states++;\n}\nObject.values(x).forEach(v=>scan(v,current));\n}\nconst governance='/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json';\nneed(D.governance_stopping_boundary.path===governance&&D.governance_stopping_boundary.typed_reference_expansion===false&&eq(D.governance_stopping_boundary,S.governance.operational_stopping_boundary),'governance rule');\nconst classes={};\nfor(const r of D.protected_files){\nclasses[r.classification]=(classes[r.classification]||0)+1;\nif(r.classification==='selected-administrative-proof-provenance')scan(JSON.parse(read(r.path).body));\nelse if(r.classification==='selected-administrative-governance-boundary')need(r.path===governance,'exact governance boundary');\n}\nneed(classes['selected-administrative-proof-provenance']===132&&classes['selected-administrative-governance-boundary']===1&&classes['analytic-source-text-or-review']===132&&classes['opaque-historical-acceptance-or-source-support']===95&&classes['opaque-scientific-historical-premise']===1,'class counts');\nneed(refs===5713&&extended===17&&states===17,'historical reference counts');\nrefs=0;scan(S,true);need(refs===199,'current S references');\nlet pairs=0;\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published)){need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'separate path byte equality');pairs++}\nneed(pairs===4,'pair count');\nconst final=['ENDPOINT_CERTIFICATE.md','LOWER_LAW_TRACE.md','DEPENDENCY_NOTES.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','HANDOFF.md','AUTHOR_VERIFICATION.json','HANDOFF.json'].sort(),stage=process.argv[1]||'preseal6';\nneed(['preseal6','final8'].includes(stage),'stage');\nconst expected=stage==='final8'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));let references=0;\nfor(const n of ['ENDPOINT_CERTIFICATE.md','LOWER_LAW_TRACE.md','DEPENDENCY_NOTES.md','HANDOFF.md']){\n const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict marker');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');\n for(const m of txt.matchAll(/(\\/Volumes\\/[^\\s\\x60|]+\\.(?:md|json|py))(?:[\\s\\x60|]|$)/g)){need(M.has(m[1])||expected.some(f=>Q+'/'+f===m[1]),'literal source path '+m[1]);references++}\n for(const m of txt.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g)){need(!m[1].includes('://')&&expected.includes(m[1]),'current markdown link '+m[1]);read(Q+'/'+m[1])}\n}\nif(stage==='final8'){\n const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===7,'current seal');\n need(eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');\n h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_analytic_predecessor);pin(h.operational_governance_predecessor);\n need(h.positive_quadratic_decomposition_proved===true&&h.single_conditional_sufficient_certificate_proved===true&&h.strict_branch_amplification_necessary_bound_proved===true&&h.full_canonical_substitution_retained===true&&h.historical_finite_sign_premise_explicit===true&&h.new_historical_mathematical_path_added===false&&h.actual_C0_sign_decided===false&&h.endpoint_comparison_decided===false&&h.actual_W_sign_claimed===false&&h.actual_109_vector_read===false&&h.scientific_execution===false,'result scope');\n}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nneed(before.length===361+expected.length,'exact fresh check scope');\nneed(eq(fs.readdirSync(Q).sort(),expected),'end namespace');\nfor(const n of namespaces)need(eq(fs.readdirSync(n.dir).sort(),n.names),'end historical namespace');\nconsole.log(JSON.stringify({schema:'ri187-author-administrative-check-v1',status:'MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE',stage,dependencies:361,selected_bytes:21655525,inherited:349,classifications:classes,historical_typed_references:5713,current_typed_references:199,historical_extended_state_noncomparisons:17,separate_byte_equal_pairs:4,predecessor_namespace_counts:[8],current_namespace:expected.length,literal_manuscript_reference_occurrences:references,final_fresh_identity_rechecks:before.length,current_payloads:payloads,mathematical_formula_evaluated_by_script:false,scientific_or_target_execution:false},null,2));\n"
+  },
+  "final8_boundary": {
+    "completed_inside_this_record": false,
+    "reason": "This record is a payload of the final seal. The actual post-seal receipt must be reported outside the sealed bytes, not preclaimed or self-hashed."
+  },
+  "scope_boundaries": {
+    "selected_dependencies": 361,
+    "selected_bytes": 21655525,
+    "inherited_rows": 349,
+    "old_boundaries_preserved": 9,
+    "new_RI185_author_support_opaque": true,
+    "new_historical_mathematical_path_added": false,
+    "RI122_old_exception_reused": false,
+    "scientific_JSON_vector_certificate_decode": false,
+    "numerical_symbolic_engine": false,
+    "target_helper_vendor_import_compile_AST_probe_run": false,
+    "runtime_profile_cards_fixtures_admission": false,
+    "new_agents_or_threads": false,
+    "repository_index_Git_changes": false,
+    "predecessor_mutation": false,
+    "RET_paused": true,
+    "measurement_RI186_separate": true,
+    "qualification_separate": true,
+    "root_owns_independent_acceptance_publication_successors": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "identities_rehashed": 12453,
+  "opaque_bytes_rehashed_including_named_aliases": 404972294,
+  "review_payloads_before_seal": [
+    {
+      "bytes": 8207,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/ADMIN_CHECK.json",
+      "sha256": "2d9b8fa9e05fc0ba950f7eaff150056904f444c87d7bca4f6cc284d521bc08bd"
+    },
+    {
+      "bytes": 7917420,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/IDENTITIES.json",
+      "sha256": "dd39da5f62af7e6f6758fe64e4ee52fab808a9dee0b349b6e78ddec6584a3589"
+    },
+    {
+      "bytes": 13660,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/INDEPENDENT_REVIEW.md",
+      "sha256": "8e143a1985751e2e3f930b93bdfb5320cfca6ba7cec99986022190e378f7f0af"
+    },
+    {
+      "bytes": 23641,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/TOOL_OUTCOMES.json",
+      "sha256": "163bfffa9920091bff18ab5eda007eb3f1b94fb903d2d7a8da080fa2127789e0"
+    },
+    {
+      "bytes": 2381,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/VERDICT.json",
+      "sha256": "a9857f162065182818198a3e30844ce86ed876636e6657e549becf5fa9837013"
+    },
+    {
+      "bytes": 5702,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/build_admin_checker.py",
+      "sha256": "e91397a4a551592e427bb1640c0aa70691287ac7253760341c0f3c6f3ddb253a"
+    },
+    {
+      "bytes": 37343,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/check_normal_saved.py",
+      "sha256": "d275f5e629fab94a2f4689b9840701f8f63b7fc75a127057654ed56bfbeb6d64"
+    },
+    {
+      "bytes": 10542,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/profile_checks_fragment.txt",
+      "sha256": "dddbae467017b8474c2b4db46b12a30175a8f05d0089449d5c40348c70c91e33"
+    },
+    {
+      "bytes": 3297,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/seal_review.py",
+      "sha256": "35eb0ee8e9edfa323d8a65813983a65d2f12f86f7fe283cea1aef0399a8d9d84"
+    }
+  ],
+  "schema": "ri190-independent-final-rehash-v1",
+  "scientific_body_decode": false,
+  "status": "PASS",
+  "subject_execution": false
+}

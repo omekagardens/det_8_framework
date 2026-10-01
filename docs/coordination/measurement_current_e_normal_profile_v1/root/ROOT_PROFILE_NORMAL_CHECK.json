@@ -1,0 +1,48 @@
+{
+  "monitors": [
+    {
+      "elapsed": 1.851577459,
+      "final_gap": 0.044534834000000245,
+      "label": "PRE",
+      "maximum_gap": 0.03854075000000001,
+      "peak_rss_kib": 90816,
+      "samples": 52
+    },
+    {
+      "elapsed": 0.3518067079999998,
+      "final_gap": 0.035250749999999886,
+      "label": "PROFILE",
+      "maximum_gap": 0.0388464169999998,
+      "peak_rss_kib": 6000,
+      "samples": 10
+    },
+    {
+      "elapsed": 1.8391209170000002,
+      "final_gap": 0.04796791700000025,
+      "label": "POST",
+      "maximum_gap": 0.03894695799999992,
+      "peak_rss_kib": 87152,
+      "samples": 54
+    }
+  ],
+  "operation_entries": 16,
+  "ordered_dyld_attempts": 10,
+  "output_entries": 16,
+  "parent_seconds": 5.63683375,
+  "profile_descriptors": 213,
+  "profile_modules": 71,
+  "runtime_bytes": 258862951,
+  "runtime_files": 9923,
+  "schema": "ri188-root-saved-current-e-normal-profile-check-v1",
+  "scientific_credit": false,
+  "scope": "Saved complete snapshot comparison, every runtime file fresh opaque identity/selection, actual monitor arithmetic, full output namespace; independent actual review remains separate",
+  "snapshots": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "snapshots_byte_equal": true,
+  "source_admission_and_vendor_unchanged": true,
+  "source_files": 623,
+  "status": "PASS_PENDING_INDEPENDENT_REVIEW"
+}

@@ -1,0 +1,103 @@
+{
+  "admission": {
+    "bytes": 3042,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_PROFILE_NORMAL.json",
+    "sha256": "66d8d82ec947b3592da0ccd1f5532080be0f0f8591f784dc4c11d904857d9aae"
+  },
+  "baseline": {
+    "bytes": 1657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/BASELINE_ACCEPTANCE.json",
+    "sha256": "75d30bdc2d03621867ce5a64c229eb619b6183f29b6434dbc04b4a2792e5e06e"
+  },
+  "operation": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy",
+  "prohibited": [
+    "new subject execution",
+    "candidate/bootstrap/source imports,compile,AST,probe",
+    "scientific data/vector/certificate decode or evaluation",
+    "repository/index/Git changes",
+    "admission/acceptance card or operational directory mutation",
+    "new agents or threads"
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs",
+  "ret_paused": true,
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948",
+  "sources": {
+    "GENUINE_OUTER.json": {
+      "bytes": 1468,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/GENUINE_OUTER.json",
+      "sha256": "657a93c2c17d80b789d36429ed1f2378bbed371f67f673f9bdbb4f3cf576c0d7"
+    },
+    "GENUINE_PROFILE_NORMAL_COMPLETE.json": {
+      "bytes": 126,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/GENUINE_PROFILE_NORMAL_COMPLETE.json",
+      "sha256": "d6a1474eb3e0233a759b4c886e5d4eeda66caf1d3f7359b41115fa89e5eea836"
+    },
+    "GENUINE_PROFILE_NORMAL_INITIAL.json": {
+      "bytes": 131,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/GENUINE_PROFILE_NORMAL_INITIAL.json",
+      "sha256": "9aac47bc7fc1362255286bdeff23c1e8a8a5043ad5d3ab90567cd10b4b0fa793"
+    },
+    "OPERATION_FINAL_IDENTITIES.json": {
+      "bytes": 12102,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/OPERATION_FINAL_IDENTITIES.json",
+      "sha256": "861957727359066a538f3a3e67304b26408c4f1797131b9b11e280e99a031298"
+    },
+    "PROFILE_NORMAL_ADMISSION_CUSTODY.json": {
+      "bytes": 1738,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/PROFILE_NORMAL_ADMISSION_CUSTODY.json",
+      "sha256": "fea1149148880c0fbb9d231b91d6b8ae404d6c73aa71744f116fdbd05ae7ae4d"
+    },
+    "PROFILE_NORMAL_DISPATCH.json": {
+      "bytes": 2779,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/PROFILE_NORMAL_DISPATCH.json",
+      "sha256": "5f18827f47e9d177507924d33d34cc9e688c02e0697677199ccf18ddf9b7703c"
+    },
+    "PROFILE_NORMAL_POST_CUSTODY.json": {
+      "bytes": 8422619,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/PROFILE_NORMAL_POST_CUSTODY.json",
+      "sha256": "63ff51ba5d2768bc1a071c8a6332ce821bc7a4be1be066e1de895d5692825b39"
+    },
+    "PROFILE_NORMAL_PREFLIGHT.json": {
+      "bytes": 2727,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/PROFILE_NORMAL_PREFLIGHT.json",
+      "sha256": "22da01b43fa18610f856a4b47967ab061634d2b9ee0cdb7fc66bc607fe20f747"
+    },
+    "PROFILE_NORMAL_PREFLIGHT_OBSERVATION.json": {
+      "bytes": 8015353,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/PROFILE_NORMAL_PREFLIGHT_OBSERVATION.json",
+      "sha256": "d47493d344568b45d1c4fff7bb53e82e64c45832fccd6d497d8483e6a145c594"
+    },
+    "PROFILE_NORMAL_SOURCE_ADJUDICATION.json": {
+      "bytes": 2005,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/PROFILE_NORMAL_SOURCE_ADJUDICATION.json",
+      "sha256": "cc0d1d59829763c4bf17668ef925cced08991e8d69fce9b53b0bf0819d45b7c6"
+    },
+    "ROOT_ACTUAL_CHECKS.json": {
+      "bytes": 1272,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/ROOT_ACTUAL_CHECKS.json",
+      "sha256": "e55428272fac1ac70bcdcf2ad702c1e3e79fa9fdc9ba45781039c74a053961ca"
+    },
+    "ROOT_PROFILE_NORMAL_CHECK.json": {
+      "bytes": 1545,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/ROOT_PROFILE_NORMAL_CHECK.json",
+      "sha256": "2a0258fb416083c3ba18c005268511b5168fcd22c73e12183ea04671b1b1cab1"
+    },
+    "RUNTIME_POST_IDENTITIES.json": {
+      "bytes": 6362349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RUNTIME_POST_IDENTITIES.json",
+      "sha256": "ee1b6d14132cb64c563229cd3cb7456dd69083f9e8c7cea1e2c67c918c6a386f"
+    },
+    "check_normal_profile.py": {
+      "bytes": 15118,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/check_normal_profile.py",
+      "sha256": "d421ffb5d21c93a671371ccf64cceb2269623cf5d9540356e812a1c5a5a617f4"
+    },
+    "prepare_normal_profile.py": {
+      "bytes": 10122,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/prepare_normal_profile.py",
+      "sha256": "3a0d7efa403ce68e058513409c8637548491b54a5be3cfdef2e19e4dff62261c"
+    }
+  },
+  "status": "ASSIGNED_ACTUAL_NORMAL_PROFILE_INDEPENDENT_REVIEW",
+  "task": "Independently review actual normal-profile saved output and root custody. Reconstruct all16 files, complete namespaces, genuine outer initial/terminal, source and admission binding, unchanged independently accepted baseline, PRE/PROFILE/POST monitors including all first/interior/final gaps, wall/RSS/stream limits and full profile fields/71 modules/213 descriptors/10 ordered dyld attempts. Verify all9923 runtime and currentE48 identities, complete supplier/cache/namespace assumptions and exact originalRI130/currentE separation. Inspect root checker source and rerun independent saved-evidence checks without importing/running subject/bootstrap/vendor or scientific code. Decide normal-stage acceptance only; no optimized profile, controls, actual science, runtime card or admission. Explicitly retain parent-pid versus child identity and sampled-childRSS/no-descendant limitations. Disclose your earlier source authorship and inherit already independent source acceptance; review root actual execution independently. Preserve all diagnostics and opaque scientific boundaries. Return source-stable sealed review with actual checks, source pins and specific blocker if any."
+}

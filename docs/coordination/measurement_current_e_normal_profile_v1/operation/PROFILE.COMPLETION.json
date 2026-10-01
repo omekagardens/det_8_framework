@@ -1,0 +1,154 @@
+{
+  "child_exit_code": 0,
+  "command": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/profile_observe.source-only.py"
+  ],
+  "elapsed_seconds": 0.3518067079999998,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "final_sample_gap_passed": true,
+  "final_sample_to_reap_gap_seconds": 0.035250749999999886,
+  "first_error": null,
+  "monitor_attempts": [
+    {
+      "elapsed_seconds": 0.008152374999999878,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "    32\n"
+    },
+    {
+      "elapsed_seconds": 0.04295900000000019,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "    32\n"
+    },
+    {
+      "elapsed_seconds": 0.08098495800000016,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "    32\n"
+    },
+    {
+      "elapsed_seconds": 0.10948870799999977,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "    32\n"
+    },
+    {
+      "elapsed_seconds": 0.14659562499999979,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "    32\n"
+    },
+    {
+      "elapsed_seconds": 0.18510874999999993,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "    32\n"
+    },
+    {
+      "elapsed_seconds": 0.21479016599999978,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "    32\n"
+    },
+    {
+      "elapsed_seconds": 0.2431170410000001,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "    32\n"
+    },
+    {
+      "elapsed_seconds": 0.2777095410000001,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "    32\n"
+    },
+    {
+      "elapsed_seconds": 0.3165559579999999,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "  6000\n"
+    }
+  ],
+  "passed": true,
+  "peak_sampled_rss_kib": 6000,
+  "samples": [
+    {
+      "elapsed_seconds": 0.008152374999999878,
+      "gap_seconds": 0.008152374999999878,
+      "rss_kib": 32
+    },
+    {
+      "elapsed_seconds": 0.04295900000000019,
+      "gap_seconds": 0.03480662500000031,
+      "rss_kib": 32
+    },
+    {
+      "elapsed_seconds": 0.08098495800000016,
+      "gap_seconds": 0.03802595799999997,
+      "rss_kib": 32
+    },
+    {
+      "elapsed_seconds": 0.10948870799999977,
+      "gap_seconds": 0.028503749999999606,
+      "rss_kib": 32
+    },
+    {
+      "elapsed_seconds": 0.14659562499999979,
+      "gap_seconds": 0.03710691700000002,
+      "rss_kib": 32
+    },
+    {
+      "elapsed_seconds": 0.18510874999999993,
+      "gap_seconds": 0.03851312500000015,
+      "rss_kib": 32
+    },
+    {
+      "elapsed_seconds": 0.21479016599999978,
+      "gap_seconds": 0.02968141599999985,
+      "rss_kib": 32
+    },
+    {
+      "elapsed_seconds": 0.2431170410000001,
+      "gap_seconds": 0.028326875000000307,
+      "rss_kib": 32
+    },
+    {
+      "elapsed_seconds": 0.2777095410000001,
+      "gap_seconds": 0.034592500000000026,
+      "rss_kib": 32
+    },
+    {
+      "elapsed_seconds": 0.3165559579999999,
+      "gap_seconds": 0.0388464169999998,
+      "rss_kib": 6000
+    }
+  ],
+  "stderr": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PROFILE.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 28252,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PROFILE.stdout",
+    "sha256": "bf8e39f5a6fb27bc4224280a78036d6d1bf6970e7ad564f3a272e4986cfae241"
+  },
+  "stop_reason": null,
+  "tail_errors": [],
+  "wall_seconds": 30
+}

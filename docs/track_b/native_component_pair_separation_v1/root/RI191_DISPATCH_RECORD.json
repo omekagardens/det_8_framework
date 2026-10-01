@@ -1,0 +1,12 @@
+{
+  "assignment": {
+    "bytes": 2614,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI191_NATIVE_ASSIGNMENT.json",
+    "sha256": "c2995ccdc6798e2d1606f4aff42403d93ecac2727c1747b061833b13acf7b302"
+  },
+  "predecessor_reviewed": true,
+  "result": "success; returned requested threadId with isError=false",
+  "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "tool": "mcp__codex_app__send_message_to_thread",
+  "work_scope": "Existing QR chat, sole external RI191 reservation. Source-only exact pair witness and proof contract. No new agent/thread, selected coefficient decoding or execution."
+}

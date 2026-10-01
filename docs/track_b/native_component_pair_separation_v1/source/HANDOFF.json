@@ -1,0 +1,173 @@
+{
+  "schema": "ri189-coupled-record-contrast-source-handoff-v1",
+  "status": "SEALED_AUTHOR_ROUTING_AND_CONDITIONAL_TWO_ENTRY_EXCLUSION_PENDING_INDEPENDENT_REVIEW",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI189_NATIVE_ASSIGNMENT.json",
+    "bytes": 2659,
+    "sha256": "2561837f162343aba66ca3bc96ab7b257b2b83e8132ae69215745dfc5596bc0f"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI187_ROOT_ADJUDICATION.json",
+    "bytes": 1294,
+    "sha256": "24ebf0a227877c3b6455c8b31e0310c9e9ee6c3b04e972d22b501ea5f8859a6f"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "direct_predecessor_manual_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI187_ROOT_PROOF_REVIEW.md",
+    "bytes": 5812,
+    "sha256": "bf207dcd49c14bea01ec11fe04c6b711a0f693e30d0594bb485a4c22e994a8c6"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "COMPONENT_ROUTING.md",
+    "COUPLED_CONTRAST.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/AUTHOR_VERIFICATION.json",
+      "bytes": 25845,
+      "sha256": "369f017ae9dc453c6b1160ff0ab4e1ea89ad175b8d009bf13112641962a143a5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/COMPONENT_ROUTING.md",
+      "bytes": 14511,
+      "sha256": "dd22418d9f2c864473354be301045514d3bd8e0026af4dd7244db243a26b908b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/COUPLED_CONTRAST.md",
+      "bytes": 14099,
+      "sha256": "d4aae718f0e23c3f3e70ba529e3020fd85114d586ba4e86d58f380402087091a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/DEPENDENCY_NOTES.md",
+      "bytes": 18422,
+      "sha256": "037bcdfc43ae7d1ddb4097b784efa454baf88d5a2252e4600fd4c354cf7cb5a3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/HANDOFF.md",
+      "bytes": 3520,
+      "sha256": "d2ef43267623c5a44544c8fa11b7e1410fbeb79957a8e963e364d770007bf2ae"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/SOURCE_DEPENDENCIES.json",
+      "bytes": 346663,
+      "sha256": "599c3212458eaa6ba8180dc5348aa2c5c85b0ce9f7dc45bca8eb8a0b1b69b30c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/SOURCE_IDENTITIES.json",
+      "bytes": 126720,
+      "sha256": "6008137cd92baea8215deaf8973d7bfb1859ceeaefdb02c58620d5f59ea04114"
+    }
+  ],
+  "question": "Resolve fixed C4 component routing and the RI187 contrast-amplification obstruction, or provide a precise remaining coefficient premise and bounded proof design without scientific entry evaluation.",
+  "result": {
+    "exact_root_map": "P_i=(78,7,i),S_(i,u)=(206,7,i+2u),B_(i,u,v)=(2254,7,i+2u+4v).",
+    "selected_keys": [
+      [
+        78,
+        7,
+        0
+      ],
+      [
+        78,
+        7,
+        1
+      ],
+      [
+        206,
+        7,
+        0
+      ],
+      [
+        206,
+        7,
+        1
+      ],
+      [
+        2254,
+        7,
+        0
+      ],
+      [
+        2254,
+        7,
+        1
+      ]
+    ],
+    "novelty_boundary": "RI168's2/4/8 component classification and actual root-only value equalities are inherited; exact canonical root routing is the new manual result. Component identities are not collapsed.",
+    "epsilon": "alpha((2254,7,0))-alpha((2254,7,1))>0",
+    "exact_threshold": "epsilon_star=44*1147*3875/(41*126280*508644)",
+    "necessary_window": "v>B6 implies0<epsilon<epsilon_star<1/10000.",
+    "conditional_exclusion": "epsilon>=epsilon_star implies v<B6 strictly, including equality; epsilon>=1/10000 is a simpler sufficient pair premise.",
+    "missing_premise": "No actual magnitude of the prescribed core coefficient gap is established. A same-law two-entry separation witness would suffice for the rejection route; its failure would not prove the opposite ratio.",
+    "bounded_proof_design": "Retain exact key routing and prefix identity; obtain root authorization before any scientific/selected-table read or new source; require an analytic lemma or independently bound exact two-entry gap. Rational witness specification10000*(n0*d1-n1*d0)>=d0*d1 with positive denominators is not instantiated here.",
+    "exact_six_entry_predicate_retained": true,
+    "fixed_vector_loader_and_complete_normalization_traced": true,
+    "size_five_canonical_completion_not_retroactive_size_four_selector": true
+  },
+  "exact_canonical_root_keys_proved": true,
+  "complete_marked_routing_preserved": true,
+  "necessary_core_gap_window_proved": true,
+  "conditional_two_entry_exclusion_proved": true,
+  "bounded_nonexecuted_review_design": true,
+  "full_canonical_substitution_retained": true,
+  "historical_finite_premises_explicit": true,
+  "new_historical_mathematical_path_added": false,
+  "actual_core_gap_predicate_decided": false,
+  "actual_contrast_ratio_decided": false,
+  "endpoint_comparison_decided": false,
+  "actual_W_sign_claimed": false,
+  "actual_109_vector_read": false,
+  "scientific_execution": false,
+  "selected_coefficient_or_table_instantiated": false,
+  "component_indices_evaluated": false,
+  "free_operand_native_counterexample_claimed": false,
+  "standalone_general_DET_derivation_claimed": false,
+  "sources": {
+    "files": 374,
+    "bytes": 22407229,
+    "inherited_rows_unchanged_except_role": 361,
+    "inherited_boundary_objects_preserved": 10,
+    "historical_typed_references": 6289,
+    "current_typed_references": 211,
+    "historical_extended_state_noncomparisons": 17,
+    "separate_byte_equal_pairs": 4,
+    "new_RI187_author_record_opaque": true,
+    "new_root_metadata_report_and_checker_opaque": true
+  },
+  "actual_preseal_check": {
+    "tool": "20b2d6",
+    "exit_code": 0,
+    "stage": "preseal6",
+    "fresh_identities": 380,
+    "provenance_is_not_mathematical_acceptance": true
+  },
+  "author_record_identity_check": {
+    "tool": "ec2dbf",
+    "exit_code": 0
+  },
+  "final8_check_boundary": "Run after this seal is written; actual result reported externally, not self-preclaimed.",
+  "retained_obligations": "P2/P3,Y=1/4,31/139/20/42,shared T1,other eight parents,five Di,theta/M5,complete q/N/minima/positive-part products,strict endpoints and all labeled occurrences.",
+  "stop": {
+    "source_author_stops_at_this_handoff": true,
+    "independent_root_review_required": true,
+    "root_owns_publication_Git_successor_and_execution_admission": true,
+    "RET_paused": true,
+    "measurement_and_qualification_separate": true,
+    "no_new_agent_thread_or_historical_mathematical_source": true,
+    "no_science_decode_evaluation_selected_table_instantiation": true,
+    "no_numerical_symbolic_graph_engine_or_target_import_compile_AST_probe_run": true,
+    "no_runtime_profile_card_fixture_admission": true,
+    "repository_index_Git_unchanged": true,
+    "no_full_QM_geometry_gravity_mass_physical_ontological_promotion": true
+  }
+}

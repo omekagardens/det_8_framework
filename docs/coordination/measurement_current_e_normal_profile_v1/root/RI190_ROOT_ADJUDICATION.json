@@ -1,0 +1,39 @@
+{
+  "actual_terminal": "9aba56 exit0",
+  "fresh_root_check": {
+    "bytes": 942,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI190_ROOT_FRESH_CHECK.json",
+    "sha256": "9232fc214e448abc910eb4f50bf7eb76bf0de7571de68b1643201db68254ed62"
+  },
+  "next": "Fresh preflight and separately admitted optimized profile, independent actual outcome review, then both-mode reconciliation. WHITE/GWOSC/calibration/protected-validation/native-forward-map stages remain separate.",
+  "normal_profile_only": true,
+  "optimized_or_guard_executed": false,
+  "prior_root_check": {
+    "bytes": 1545,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/ROOT_PROFILE_NORMAL_CHECK.json",
+    "sha256": "2a0258fb416083c3ba18c005268511b5168fcd22c73e12183ea04671b1b1cab1"
+  },
+  "ret_paused": true,
+  "retained_premises": [
+    "Genuine external root/tool receipt origin and accepted driver semantics.",
+    "Trusted host/kernel/loader/shared-cache/supplier and inspection infrastructure; complete saved module descriptors are not a dynamic instruction trace.",
+    "Saved pid_owner is parent PID, not authenticated child identity; sampled child RSS/no-descendants is not hard group quota.",
+    "Finite read-window and opaque source/pyc stability do not prove continuous freeze or source/bytecode semantic equivalence.",
+    "RI170 R01 nonauthor path-sensitive applicability review decides the smallest genuinely needed extra control; no blanket65 rerun."
+  ],
+  "review": {
+    "bytes": 13660,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/INDEPENDENT_REVIEW.md",
+    "sha256": "8e143a1985751e2e3f930b93bdfb5320cfca6ba7cec99986022190e378f7f0af"
+  },
+  "review_actual_check": "d3bdb9 exit0; final677c80 and sealverificationf89a84 exit0",
+  "schema": "ri190-root-current-e-normal-profile-adjudication-v1",
+  "scientific_credit": false,
+  "scope": "One actual nonscientific normal candidate-interpreter profile, original RI130 observer under exact current-E custody and independently accepted baseline. Complete closed evidence and all116 samples independently reconstructed. Source semantics inherit earlier independent acceptance; reviewer source authorship disclosed. Root reconciled the entire reviewer source/interpretation with its separate whole-output arithmetic and metadata checks.",
+  "status": "ACCEPT_EXACT_CURRENT_E_NORMAL_PROFILE",
+  "verdict": {
+    "bytes": 2381,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/VERDICT.json",
+    "sha256": "a9857f162065182818198a3e30844ce86ed876636e6657e549becf5fa9837013"
+  }
+}

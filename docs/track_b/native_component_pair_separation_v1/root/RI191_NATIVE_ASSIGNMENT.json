@@ -1,0 +1,19 @@
+{
+  "actual_native_blocker": "The two exact routed coefficients have no accepted quantitative separation witness yet; metadata identity alone cannot establish it.",
+  "deliverables": [
+    "Readable proof/acceptance contract binding exact original prefix/certificate identity, complete declared root ordering and default/override semantics to the two routed keys. Distinguish malformed/binding failure, sufficient pair separation, and an inconclusive smaller gap.",
+    "Small standalone source-only exact rational witness checker plus source dependency manifest, bounded-input/resource design and source-level negative-case specifications. No graph/LP/numerical engine, no scientific execution, and no unproved ordinal assumption. Input validation must not promote an arbitrary feasible vector to the unchanged prescribed one.",
+    "A precise account of remaining execution, protected-validation and qualification prerequisites using selected governance. Existing92 controls/34recipes/35mutation families and31/139/20/42 obligations are not waived or credited. Root must independently review source and separately admit any eventual extraction/check."
+  ],
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 1267,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI189_ROOT_ADJUDICATION.json",
+    "sha256": "44985b1f471baa3ae3f3f34392bf60bc8629dda641bfab6f0b7317a191c46c4c"
+  },
+  "question": "Make the RI189 two-entry separation witness concrete as a source-only exact verifier and mathematical contract for the unchanged prefix. The native question is whether epsilon=alpha((2254,7,0))-alpha((2254,7,1)) reaches epsilon_star, with 1/10000 a simpler sufficient threshold. Do not evaluate it now.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg",
+  "ret_paused": true,
+  "scope": "Inherited analytic sources only, literal code reading and opaque identity/provenance checks. Author code without importing, compiling, AST parsing, probing or running it. Do not decode any scientific JSON, instantiate any selected coefficient/table, generate fixtures or create operational cards/runtime. No new agents/threads or repository/Git edits. Request root review before any genuinely new source path. Preserve finite premises, all canonical terms, actual law, other parents,H30 and RET pause. Return a sealed source-stable packet for independent source review; root owns next admission and successor.",
+  "status": "ASSIGNED_AFTER_RI189_INDEPENDENT_ACCEPTANCE"
+}

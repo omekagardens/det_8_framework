@@ -1,0 +1,68 @@
+ # Reconstruct the complete accepted baseline chain and namespace independently.
+ baseline=load(card['baseline_acceptance']['path'])
+ keys(baseline,('schema','status','stage','sources','packet','environment_root','completions','genuine_outer','independent_review','scientific_execution'),'closed baseline acceptance')
+ equal([baseline['schema'],baseline['status'],baseline['stage'],baseline['scientific_execution']],['ri133-root-preparation-stage-review-v1','ACCEPT_NONSCIENTIFIC_PREPARATION_EVIDENCE','baseline',False],'baseline acceptance scope')
+ for field in ('sources','packet','environment_root'):equal(baseline[field],card[field],'baseline same current stage binding')
+ equal(list(baseline['completions']),['capture'],'baseline completion domain');equal(list(baseline['genuine_outer']),['capture'],'baseline outer domain')
+ verify(baseline['independent_review']);verify(baseline['completions']['capture']);verify(baseline['genuine_outer']['capture'])
+ bc=load(baseline['completions']['capture']['path']);bo=load(baseline['genuine_outer']['capture']['path']);bp=Path(baseline['completions']['capture']['path']).parent
+ equal([bc['phase'],bc['status'],bc['first_error'],bc['independent_tail_errors']],['capture','CAPTURED_FOR_INDEPENDENT_REVIEW',None,[]],'accepted baseline actual outcome')
+ for field in ('sources','environment'):equal(bc[field],complete[field],'baseline sources and controlled environment')
+ equal(bo['completion'],baseline['completions']['capture'],'baseline genuine completion');equal(bo['command'],bc['command'],'baseline genuine command');equal(bo['environment'],env,'baseline genuine environment');equal([bo['schema'],bo['status'],bo['exit_code'],bo['external_timeout_seconds']],['ri133-root-genuine-outer-v1','ACTUAL_TOOL_COMPLETION',0,960],'baseline actual outer schema/status/limits');verify(bo['raw_tool_receipt'])
+ for row in bc['artifacts'].values():verify(row)
+ bns=load(bc['artifacts']['namespace']['path']);equal(bns['root'],str(bp),'baseline namespace root');equal(bns['excluded_not_yet_written'],['NAMESPACE.json','COMPLETE.json'],'baseline final exclusions')
+ equal(tree(bp,True),sorted(bns['entries']+[{'relative':n,'kind':'file',**pure(identity(bp/n))} for n in ('NAMESPACE.json','COMPLETE.json')],key=lambda x:x['relative']),'entire accepted baseline namespace')
+ require((C/'PRE.stdout').read_bytes()==Path(bc['artifacts']['POST']['path']).read_bytes(),'normal PRE equals full accepted baseline bytes')
+ equal(layout['accepted_baseline'],card['baseline_acceptance'],'preflight baseline pin')
+ rootdecision=B/'ri183-root-parent-capture-review-2mnanskj/RI186_ROOT_ADJUDICATION.json'
+ equal(pure(identity(rootdecision)),{'bytes':2455,'sha256':'ac8ffe54952e49ad9534c4b8da612e8c2371213ff32d1232244a133a2492e4ef'},'root independently adjudicated RI186 anchor')
+ # Interpret saved normal runtime/profile fields; no executing any scientific or runtime subject.
+ profile=load(C/'PROFILE.stdout')
+ keys(profile,('boundary','decimal','hashlib','modules','profile_after','profile_before','schema','scientific_targets_imported_or_executed','startup','uname'),'closed entire profile')
+ equal([profile['schema'],profile['scientific_targets_imported_or_executed'],profile['boundary']],['ri121-installed-runtime-profile-observation-v1',False,'Installed-runtime observation under pinned supplier, cache-selection and host premises; no scientific qualification.'],'precise profile scope')
+ venv=str(B/'ri73-recovery/recovery-20260924T212511Z-2403d37c/env');stdlib='/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11'
+ expected_runtime={'base_exec_prefix':'/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11','base_prefix':'/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11','byteorder':'little','dont_write_bytecode':1,'exec_prefix':venv,'executable':venv+'/bin/python','implementation':'cpython','isolated':1,'optimize':0,'path':[str(Path(stdlib).parent/'python311.zip'),stdlib,stdlib+'/lib-dynload',venv+'/lib/python3.11/site-packages'],'prefix':venv,'version':'3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]','version_info':[3,11,6,'final',0]}
+ equal(profile['profile_before'],expected_runtime,'entire before runtime observation');equal(profile['profile_after'],expected_runtime,'entire after runtime observation');equal(profile['uname'],snap['host_bootstrap']['uname'],'profile same host')
+ equal(profile['startup'],{'distutils_hook_loaded':True,'enable_user_site':False,'site_prefixes':[venv],'sitecustomize_loaded':True,'usercustomize_loaded':False},'complete startup observation')
+ decimal=profile['decimal'];keys(decimal,('decimal_class_is_fallback','extension_import_error','extension_loaded','fallback_loaded','fraction_class_module'),'full decimal report')
+ equal([decimal[k] for k in ('decimal_class_is_fallback','extension_loaded','fallback_loaded','fraction_class_module')],[True,False,True,'fractions'],'accepted fallback observation');keys(decimal['extension_import_error'],('message','type'),'entire import error');equal(decimal['extension_import_error']['type'],'ImportError','observed import refusal type')
+ # Deliberately split the entire three-line record and rebuild it, rather than use the subject parser.
+ message=decimal['extension_import_error']['message'];require(type(message) is str,'dyld message string');lines=message.split('\n');equal(len(lines),3,'exact complete dyld lines')
+ ext=stdlib+'/lib-dynload/_decimal.cpython-311-darwin.so'
+ equal(lines[0],'dlopen('+ext+', 0x0002): Library not loaded: /opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib','entire dyld initial line')
+ prefix='  Referenced from: <';require(lines[1].startswith(prefix),'dyld image prefix');guid,separator,tail=lines[1][len(prefix):].partition('> ');equal(tail,ext,'entire referenced image path');equal(separator,'> ','image delimiter')
+ groups=guid.split('-');equal([len(g) for g in groups],[8,4,4,4,12],'image UUID groups');require(all(c in '0123456789ABCDEF' for g in groups for c in g),'image UUID alphabet')
+ reasonprefix='  Reason: tried: ';require(lines[2].startswith(reasonprefix),'full attempts prefix');rest=lines[2][len(reasonprefix):]
+ ordered=[]
+ while rest:
+  require(rest.startswith("'/"),'absolute quoted attempt');path,sep,remaining=rest[1:].partition("' (");equal(sep,"' (",'attempt path separator');reason,end,remaining=remaining.partition(')');equal(end,')','closed reason')
+  require(reason in ('no such file','no such file, not in dyld cache'),'exact allowed complete reason');require(str(Path(path))==path and '..' not in Path(path).parts,'literal attempted path');require(path in snap['preobserved_dyld_routes']['absent_paths'],'attempt preobserved before execution')
+  ordered.append({'path':path,'reason':reason})
+  if remaining:require(remaining.startswith(', ') and len(remaining)>2,'complete nontrailing separator');rest=remaining[2:]
+  else:rest=''
+ equal(len(ordered),10,'ten complete ordered attempts')
+ rebuilt=lines[0]+'\n'+prefix+guid+'> '+ext+'\n'+reasonprefix+', '.join("'"+r['path']+"' ("+r['reason']+")" for r in ordered);equal(rebuilt,message,'no dropped dyld text')
+ hashes=profile['hashlib'];keys(hashes,('available_openssl_names','openssl_sha256_empty','sha256_empty'),'complete hash observations')
+ equal([hashes['sha256_empty'],hashes['openssl_sha256_empty']],['e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855']*2,'retained two empty-hash observations')
+ require(type(hashes['available_openssl_names']) is list and all(type(x) is str for x in hashes['available_openssl_names']),'hash algorithm list types');equal(hashes['available_openssl_names'],sorted(set(hashes['available_openssl_names'])),'complete sorted distinct algorithm names')
+ require(type(profile['modules']) is dict and '__main__' in profile['modules'],'complete module object');equal(len(profile['modules']),71,'71 module identities')
+ require(not set(profile['modules']).intersection({'white_kernel','white_path','white_controls','white_fixtures','kernel_controls','white_validator','validator_controls','qualify_white_only'}),'no declared science modules')
+ files={r['path']:r for r in runtime['files']};descriptors=[];descriptor_kinds={'sentinel':0,'main_source':0,'absent_cache':0,'bound_file':0}
+ for name in sorted(profile['modules']):
+  r=profile['modules'][name];keys(r,('cached','file','loader_type','origin'),'all four module descriptor fields');require(type(r['loader_type']) is str,'loader type string')
+  for field in ('file','cached','origin'):
+   path=r[field];item={'module':name,'field':field}
+   if path is None or type(path) is str and path in ('built-in','frozen'):item['value']=path;descriptor_kinds['sentinel']+=1
+   elif name=='__main__':
+    require(field=='file','main nonfile descriptors must be null');equal(path,str(B/'ri130-white-qualification-caller-source-Q4Aq7hZg/profile_observe.source-only.py'),'original RI130 main observer identity');item['identity']=ref(path);descriptor_kinds['main_source']+=1
+   else:
+    require(type(path) is str and Path(path).is_absolute(),'absolute descriptor name');p=Path(path)
+    if not os.path.lexists(path):
+     require(field=='cached' and path not in files and any(path.startswith(root+'/') for root in runtime['roots']) and p.resolve()==p,'only in-domain absent cache alternative');item.update(path=path,absent_from_complete_inventory=True);descriptor_kinds['absent_cache']+=1
+    else:
+     now=identity(path);require(now['resolved_path'] in files,'descriptor target in full accepted inventory');equal(pure(now),pure(files[now['resolved_path']]),'descriptor target bytes');item['binding']={'named_path':path,'resolved_path':now['resolved_path'],'symlink_chain':now['symlink_chain'],'target':pure(now)};descriptor_kinds['bound_file']+=1
+   descriptors.append(item)
+ equal(len(descriptors),213,'three descriptors per all71 modules')
+ reconstructed={'status':'SAVED_PROFILE_FIELDS_RECONCILED_NOT_RUNTIME_ACCEPTANCE','expected_runtime':expected_runtime,'all_descriptors':descriptors,'ordered_actual_dyld_attempts':ordered,'full_dyld_error':decimal['extension_import_error'],'preobserved_domain':snap['preobserved_dyld_routes'],'hash_algorithm_names':hashes['available_openssl_names'],'supplier_cache_and_stable_host_premises_retained':True,'full_import_trace_claim':False,'scientific_qualification':False}
+ equal(saved_checks['profile'],reconstructed,'entire profile consumer result independently reconstructed')
+ equal([r['samples'] for r in monitors],[52,10,54],'all116 actual monitored samples')
