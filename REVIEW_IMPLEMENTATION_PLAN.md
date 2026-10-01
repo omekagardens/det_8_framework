@@ -1,6 +1,63 @@
 **DET independent-review implementation and QR coordination**
 
-**Current follow-through — connected contrasts and D2 separation accepted.**
+**Current follow-through — conditional feasibility and current E capture accepted.**
+1 October 2026 UTC. RI238 proves U4=U5=U6=0 in every normalized
+solution: complete T9/T10 contrasts and D4 close the former T4 exception.
+Strict D3, exceptional D5 and T1 pivots give explicit shared recovery.
+
+The full five-disconnected/eight-connected, ten-coordinate system now has
+an exact conditional criterion: if d!=d7, existence iff Cb=0; if d=d7,
+existence iff C2(ell)!=0. The zero exceptional coefficient is conditionally
+inconsistent. All original references, full slots, u2=-1 and coupled
+canonical terms remain. Actual coefficients are unresolved; there is no
+actual normalized witness/inconsistency, improvement, optimality, maximal
+amplitude, all-size or physical claim.
+
+The sharper sufficient Xi bound is236/875; M0>=M1 would also imply Cb<0.
+RI240 is assigned to the existing Quantum Relativity chat to resolve an
+actual coupled canonical/positive-part comparison, preserving all15
+boundaries and423-source manifest by reference. No new body/coordinate
+access, automatic mathematics or runtime authority was granted.
+Root46348f and nonauthor4aefdb each verified67 identities/61direct sources/
+1303645bytes/15boundaries, with separate full manual proof reviews and
+reviewer-confirmed text fidelity6963c5. Evidence is in
+`docs/track_b/native_conditional_feasibility_v1/`.
+RI240 has since returned a sealed author packet; independent review is
+active. It is excluded from this checkpoint; RI238 remains the latest
+adjudicated native result. Its successor will follow that review.
+
+RI236 capture ran once:6ee2bb/session14757 tofc583f exit0. Both complete
+snapshots equal the accepted normal PRE baseline byte for byte. Parent
+elapsed5.6144743749999995s;91/50 samples passed unchanged limits.
+The frozen E remains49files/nine directories, with all48/124/30 roles,
+sources, supplier and host unchanged. Root outcome6568 comparisons and
+independent28061 predicates/12767 identities passed, including the9923-file
+runtime inventory. A preflight historical-baseline authentication gap was
+closed before execution; all diagnostics and historical failures remain.
+Evidence is in `docs/coordination/measurement_current_e_capture_ri239_v1/`.
+
+The concrete supplier projection is independently reviewed: only its
+top-level observation timestamp is separated; every nested field,
+environment, state, raw original and genuine receipt is preserved.
+RI241 is the next root-owned measurement step: assemble exact runtime13/
+request5 from accepted evidence, then separately admit unchanged RI160
+pre_mode and normal-card candidate generation in order. Sole-card insertion
+and actual normal science require their existing checks; optimized remains
+after actual independently accepted normal results. No source repair or
+profile/guard rerun is indicated.
+
+This is metadata capture acceptance only. WHITE15/W09,both179 controls,
+27/13/30 records,57artifacts/74postchecks/three trees,RI131/full32 and
+selected public GWOSC conventional reproduction remain. Calibration and a
+native forward map remain separate. Apple startup/loader and sampled
+resource premises are retained. RET alone stays paused.
+
+Parent f025291aa67019258498a11bbb0fea59d122d293 was verified on origin/ret;
+this checkpoint's final commit and live remote receipt are recorded after
+publication. Original reviews and unrelated edits are preserved. The
+programme continues; this checkpoint does not mark it complete.
+
+**Prior checkpoint — connected contrasts and D2 separation accepted.**
 1 October 2026 UTC (30 September Honolulu). RI235 proves two actual connected
 contrasts strictly positive, forcing U5=U6=0. The possible zero branches of
 f4 and f7 have opposite signs of d, so at most one of U4,U7 can survive.

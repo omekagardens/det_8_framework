@@ -1,0 +1,60 @@
+{
+  "capture": {
+    "bytes": 1837,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_CAPTURE_TOOLS.json",
+    "sha256": "44ae2fb8ec2073bfb4a2649168c202ed57f73fcd237c72de83f642c1c9957187"
+  },
+  "custody": {
+    "POST": {
+      "bytes": 6522,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_CUSTODY.json",
+      "sha256": "77d41d78b363ed67eeec825ded33a9a80379e12afab3b73021c8da08956753e9"
+    },
+    "PRE": {
+      "bytes": 4686,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_CUSTODY.json",
+      "sha256": "5203443312f7d3cc1fef2f1504e8e239713cdfeb400961113d871b331aa9cfb4"
+    }
+  },
+  "host_observations": {
+    "POST": {
+      "bytes": 1504,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_POST_HOST.json",
+      "sha256": "23c0f226fedc510e006c135bbbd7cb1fe893570246e74a9f8a4e419295791a99"
+    },
+    "PRE": {
+      "bytes": 1504,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_PRE_HOST.json",
+      "sha256": "4d91327a59c7e09a09756ce8cb58ea2ee5ece047f70c04639d1ac9778144cef6"
+    }
+  },
+  "independent_fidelity": {
+    "bytes": 816,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/CAPTURE_REVIEW_FIDELITY.json",
+    "sha256": "4602fc75155d5f7a08ce12f5534e6bc2d67d7176c4c5c9572f980c416afc4162"
+  },
+  "independent_review": {
+    "bytes": 3360,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/CAPTURE_INDEPENDENT_REVIEW.md",
+    "sha256": "bf05aa791e404c7fcda1353ca6b599f510a1bb2509381e8da10f4dbee97cb217"
+  },
+  "observation_instants_preserved": true,
+  "projection": {
+    "bytes": 3611,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/SUPPLIER_PROJECTION_PROVENANCE.json",
+    "sha256": "295c5aa2b4c5adce332832373aa2d2632810081e8909b9166c20150909adc0fe"
+  },
+  "root_actual_check": {
+    "bytes": 9542,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/ROOT_CAPTURE_CHECK.json",
+    "sha256": "cbc7348a878f2e5e870d7cdd73ebaecf9506aafb301c8ea9262ef10c7625f367"
+  },
+  "root_attests_genuine_tool_origin": true,
+  "schema": "ri239-complete-genuine-collection-provenance-v1",
+  "scientific_execution": false,
+  "supplier_observers": {
+    "bytes": 3395,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_SUPPLIER_OBSERVER_TOOLS.json",
+    "sha256": "f58c14c562471a5c3ff9ac33e8d2fddd1062ac2ec7fd9760c3976ab47f45a41f"
+  }
+}

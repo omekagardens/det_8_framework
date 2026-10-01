@@ -1,0 +1,56 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Every normalized solution has U4=U5=U6=0; D4 closes d4 exception without division by C2(c).",
+    "Strict C3(j)>0 and Gamma10>0; exceptional C5(ell)>0; complete conditional original-coordinate recovery.",
+    "Full13-equation iff: d!=d7 requires and suffices Cb=0; d=d7 requires and suffices C2(ell)!=0.",
+    "lambda<7/22656 and Xi<=236/875 suffice for Cb<0; M0>=M1 is another sufficient actual-law comparison."
+  ],
+  "all_five_disconnected_eight_connected_ten_coordinates_retained": true,
+  "all_size_or_physical_claim": false,
+  "genuine_author_final": {
+    "bytes": 30513,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_AUTHOR_FINAL_RECEIPT.json",
+    "sha256": "a3b1dd0d28795470f1019df7634f65fc884c11e7541b14bd482a21df3153b1a4"
+  },
+  "independent_receipts": {
+    "bytes": 1342,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_INDEPENDENT_RECEIPTS.json",
+    "sha256": "90abdd193139ac956f899551aec89ce38ffe3300fbfbd8fc86b130a729bca81a"
+  },
+  "independent_review": {
+    "bytes": 10652,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_INDEPENDENT_REVIEW.txt",
+    "sha256": "8e19f71da16e531a36758b6cb47068d95e99771fd2f06c8cc659ae604d367869"
+  },
+  "qualification_credit": 0,
+  "review_fidelity": {
+    "bytes": 428,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_REVIEW_FIDELITY.json",
+    "sha256": "c1ea0c764144f8c2403907def2f0332ba60d6c4d1af517422baf6975a4307ad4"
+  },
+  "root_manual_review": {
+    "bytes": 4498,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_ROOT_REVIEW.md",
+    "sha256": "b2aa202ce169448e09bf989fddd6c9e82e36c83b4e002aeb7d4975f0b31cc7c3"
+  },
+  "root_metadata": {
+    "bytes": 38941,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_ROOT_METADATA_CHECK.json",
+    "sha256": "374092cfd272f517e6a754fdb3fce24a7d583441f6a946faf44972750c3d66bb"
+  },
+  "schema": "ri239-root-ri238-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_FULL_SYSTEM_CLASSIFICATION_AND_ACTUAL_U4_ELIMINATION",
+  "subject": {
+    "bytes": 7345,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri238-native-canonical-separation-j33tcg94/HANDOFF.json",
+    "sha256": "1e0c1343ea4ee65e72511f685a756cfa34e849edb8d53ef77fb3d6e6dff5e6aa"
+  },
+  "unresolved": [
+    "Actual d versus d7",
+    "Actual Cb and exceptional C2(ell)",
+    "Actual canonical M0 versus M1",
+    "Actual normalized witness or signed inconsistency, improvement, optimality, maximal amplitude"
+  ]
+}

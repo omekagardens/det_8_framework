@@ -1,0 +1,75 @@
+{
+  "excluded_keys": [
+    "observed_at_unix_ns"
+  ],
+  "genuine_capture": {
+    "bytes": 1837,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_CAPTURE_TOOLS.json",
+    "sha256": "44ae2fb8ec2073bfb4a2649168c202ed57f73fcd237c72de83f642c1c9957187"
+  },
+  "no_mode_record_or_admission_issued": true,
+  "raw_records_preserved": true,
+  "records": {
+    "POST": {
+      "custody": {
+        "bytes": 6522,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_CUSTODY.json",
+        "sha256": "77d41d78b363ed67eeec825ded33a9a80379e12afab3b73021c8da08956753e9"
+      },
+      "genuine_host": {
+        "bytes": 1504,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_POST_HOST.json",
+        "sha256": "23c0f226fedc510e006c135bbbd7cb1fe893570246e74a9f8a4e419295791a99"
+      },
+      "observed_at_unix_ns": 1790848182659567000,
+      "projection": {
+        "bytes": 1260447,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_SUPPLIER_STABLE.json",
+        "sha256": "cf2e2cedecf1e9430081d769be5ae78395f0b1943967a040b9de03b702cfa4c2"
+      },
+      "raw": {
+        "bytes": 1260493,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_SUPPLIER.json",
+        "sha256": "5e80a004af34b3877ee00eb6cd81bd73f2f34732164fae71a6c8f0dda8c719ee"
+      }
+    },
+    "PRE": {
+      "custody": {
+        "bytes": 4686,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_CUSTODY.json",
+        "sha256": "5203443312f7d3cc1fef2f1504e8e239713cdfeb400961113d871b331aa9cfb4"
+      },
+      "genuine_host": {
+        "bytes": 1504,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_PRE_HOST.json",
+        "sha256": "4d91327a59c7e09a09756ce8cb58ea2ee5ece047f70c04639d1ac9778144cef6"
+      },
+      "observed_at_unix_ns": 1790847333571548000,
+      "projection": {
+        "bytes": 1260447,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_SUPPLIER_STABLE.json",
+        "sha256": "cf2e2cedecf1e9430081d769be5ae78395f0b1943967a040b9de03b702cfa4c2"
+      },
+      "raw": {
+        "bytes": 1260493,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_SUPPLIER.json",
+        "sha256": "a32147b1c5c03b1f64c93ae1275d4294e335960dbab35b76d84c9ae4709f5fa1"
+      }
+    }
+  },
+  "root_capture_check": {
+    "bytes": 9542,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/ROOT_CAPTURE_CHECK.json",
+    "sha256": "cbc7348a878f2e5e870d7cdd73ebaecf9506aafb301c8ea9262ef10c7625f367"
+  },
+  "rule": "Remove only the top-level observation timestamp; preserve every nested field, array order, environment, host text, namespace/link and seven-field file/directory state exactly. This does not assert observations were simultaneous.",
+  "schema": "ri239-proposed-supplier-projection-provenance-v1",
+  "scientific_execution": false,
+  "source": {
+    "bytes": 23552,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/mode_verify.py",
+    "sha256": "938a0cc357046d4a4d9ffdc2382a9f94fd5a4d9a20333bfa47077427b0d3f5a3"
+  },
+  "status": "CONCRETE_PROJECTION_PENDING_INDEPENDENT_REVIEW",
+  "whole_projection_equality": true
+}

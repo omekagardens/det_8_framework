@@ -1,0 +1,67 @@
+{
+  "controls": {
+    "ADMIT_CAPTURE.json": {
+      "bytes": 2769,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ADMIT_CAPTURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ADMIT_CAPTURE.json",
+      "sha256": "239363b59038b8ab3205433a55efa22854ce1caef6f3ffa9cc55aa8cad877b20",
+      "state": [
+        16777244,
+        428162,
+        33188,
+        1,
+        2769,
+        1790847443614557433,
+        1790847443614557433
+      ],
+      "symlink_chain": []
+    },
+    "CAPTURE_PREFLIGHT.json": {
+      "bytes": 3037,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/CAPTURE_PREFLIGHT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/CAPTURE_PREFLIGHT.json",
+      "sha256": "1988fd1bf07b7aa184198b5f0f10017d170338e8cc4de426e95afc3a8b640554",
+      "state": [
+        16777244,
+        428160,
+        33188,
+        1,
+        3037,
+        1790847443602352554,
+        1790847443602352554
+      ],
+      "symlink_chain": []
+    },
+    "ROOT_CAPTURE_SOURCE_ADOPTION.json": {
+      "bytes": 2947,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ROOT_CAPTURE_SOURCE_ADOPTION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ROOT_CAPTURE_SOURCE_ADOPTION.json",
+      "sha256": "160ea883c0f4560aea75a724fd70daa17e0e7ba30ae1328fd24b5edfc50a9ba0",
+      "state": [
+        16777244,
+        428161,
+        33188,
+        1,
+        2947,
+        1790847443613907680,
+        1790847443613907680
+      ],
+      "symlink_chain": []
+    }
+  },
+  "issuer": "root coordinator",
+  "preflight_custody": {
+    "bytes": 4686,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_CUSTODY.json",
+    "sha256": "5203443312f7d3cc1fef2f1504e8e239713cdfeb400961113d871b331aa9cfb4"
+  },
+  "recipe": {
+    "bytes": 12114,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CAPTURE_RECIPE.json",
+    "sha256": "3f46d182e4adedf6b6e346ebd5e5dd6eae60cf42b4e77b073a957531e4c68195"
+  },
+  "repository_unchanged": true,
+  "schema": "ri239-root-issued-capture-controls-v1",
+  "scientific_execution": false,
+  "single_attempt": true
+}

@@ -1,0 +1,80 @@
+{
+  "E_whole_states_unchanged": true,
+  "RET_paused": true,
+  "actual_checks": {
+    "independent": "91f8a3/session3817 ->552b54 exit0",
+    "independent_identities": 12767,
+    "independent_predicates": 28061,
+    "projection": "108f7b exit0",
+    "projection_predicates": 55,
+    "root": "ec7407/session96655 -> fcfa3b exit0",
+    "root_comparisons": 6568
+  },
+  "baseline_acceptance": {
+    "bytes": 1652,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/BASELINE_ACCEPTANCE.json",
+    "sha256": "87debc7ae3fcbacfa0dab14619655bb388ac76bc3c6d97da0e5b91d36e89fa70"
+  },
+  "baseline_whole_bytes_equal": true,
+  "collection_provenance": {
+    "bytes": 2789,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/COLLECTION_PROVENANCE.json",
+    "sha256": "2c96b9f19b43b597111edbb5d439999ed8f0359b137955af5c1d7789b5425202"
+  },
+  "completion": {
+    "bytes": 3393,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/COMPLETE.json",
+    "sha256": "962fc2fdeb6a15ffb8e038397386c8acc9644b7689b1a2a474f5966d2e2c8b28"
+  },
+  "fidelity": {
+    "bytes": 816,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/CAPTURE_REVIEW_FIDELITY.json",
+    "sha256": "4602fc75155d5f7a08ce12f5534e6bc2d67d7176c4c5c9572f980c416afc4162"
+  },
+  "historical_refusals_preserved": true,
+  "independent_review": {
+    "bytes": 3360,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/CAPTURE_INDEPENDENT_REVIEW.md",
+    "sha256": "bf05aa791e404c7fcda1353ca6b599f510a1bb2509381e8da10f4dbee97cb217"
+  },
+  "limits": {
+    "driver_soft_seconds": 900,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "guard_seconds": 180,
+    "maximum_sample_gap_seconds": 0.1,
+    "profile_seconds": 30,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "snapshot_seconds": 180,
+    "target_poll_seconds": 0.025
+  },
+  "mode_admission_created": false,
+  "native_forward_map_claim": false,
+  "premises": [
+    "Apple supplier/startup and loader/cache remain external observed-window premises",
+    "RSS observes owned child only; no-descendant premise; samples are not hard OS quotas",
+    "ps50ms enforced by unchanged collector; raw attempts do not independently timestamp each subprocess start",
+    "Genuine outer960sec remains enforced by exact Perl alarm through final metadata writes"
+  ],
+  "preparation_diagnostics": {
+    "bytes": 2611,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PREPARATION_DIAGNOSTICS.md",
+    "sha256": "cf25f1cc056ab715626986999d558c82ad31934c5aeafce64f43e479169430ad"
+  },
+  "projection": {
+    "bytes": 3611,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/SUPPLIER_PROJECTION_PROVENANCE.json",
+    "sha256": "295c5aa2b4c5adce332832373aa2d2632810081e8909b9166c20150909adc0fe"
+  },
+  "public_data_execution": false,
+  "root_check": {
+    "bytes": 9542,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/ROOT_CAPTURE_CHECK.json",
+    "sha256": "cbc7348a878f2e5e870d7cdd73ebaecf9506aafb301c8ea9262ef10c7625f367"
+  },
+  "schema": "ri239-root-current-e-capture-adjudication-v1",
+  "scientific_execution": false,
+  "scientific_qualification": false,
+  "status": "ACCEPT_CURRENT_E_METADATA_CAPTURE_AND_EXACT_SUPPLIER_PROJECTION"
+}
