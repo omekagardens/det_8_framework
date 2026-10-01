@@ -24,9 +24,11 @@ independent adjudication. No mode, frozen-custody or qualification credit.
 
 The source reviewer retained all three lexical-checker diagnostic attempts
 and corrected sources; these were reviewer-checker errors, not concealed
-subject failures. Its two large complete check reports remain explicitly
-pinned external dependencies. The full actual-preparation review and nine
-actual outputs are archived. Immutable source patches use lossless gzip;
+subject failures. Both large source-review reports retain their original
+pins. The author-check replay resolves to the byte-identical archived source
+report; the independent complete check report remains an explicit external
+dependency. The full actual-preparation review and nine actual outputs are
+archived. Immutable source patches use lossless gzip;
 their decoded hashes and originals are preserved in the dependency map.
 
 This is not a complete runtime archive and grants no relocated execution
