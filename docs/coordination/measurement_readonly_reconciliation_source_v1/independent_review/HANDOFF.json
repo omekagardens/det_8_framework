@@ -1,0 +1,120 @@
+{
+  "RET_paused": true,
+  "actual_checks": {
+    "author4064_vs4065_reconciled": true,
+    "exit_code": 0,
+    "failed_checker_attempts": [],
+    "metadata_checker_chunk": "8d2b86",
+    "metadata_predicates": 66729,
+    "opaque_files": 982,
+    "report_construction_chunk": "16e13f",
+    "report_construction_exit_code": 0
+  },
+  "authorship_independent": true,
+  "blocking_findings": [],
+  "coverage": {
+    "checker_lines": 174,
+    "exact_diffs": 2,
+    "metadata_predicates": 66729,
+    "opaque_files": 982,
+    "original_source_paths": 904,
+    "prior_roles": 810,
+    "prospective_source_bindings": 971,
+    "protocol_lines": 100,
+    "reconciler_lines": 256,
+    "sealed_namespace": 19,
+    "sealed_payloads": 18,
+    "source_inputs": 963,
+    "unchanged_checker_spans": 7,
+    "unchanged_primary_spans": 13
+  },
+  "external_only_full_diagnostics": [
+    {
+      "bytes": 3299297,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/CHECK_RESULT.json",
+      "sha256": "9ee915d5b59dd87f8fb7912e244416d548fee8d16c72dec5aa9e633dac37be9c"
+    }
+  ],
+  "external_premises": [
+    "Genuine tool and root authority.",
+    "Stable host/supplier/loader/cache/kernel and no-descendants premises.",
+    "Sampled sole-childRSS and parentPID limitations; original limits unchanged."
+  ],
+  "inherited_WHITE_authorship_and_prior_review_miss_disclosed": true,
+  "namespace": [
+    "CHECK_RESULT.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_metadata.py"
+  ],
+  "payloads": [
+    {
+      "bytes": 3299297,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/CHECK_RESULT.json",
+      "sha256": "9ee915d5b59dd87f8fb7912e244416d548fee8d16c72dec5aa9e633dac37be9c"
+    },
+    {
+      "bytes": 11720,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/INDEPENDENT_REVIEW.md",
+      "sha256": "999960d4b0c40f62e47eb563ea864f243baf49afdefdab5ecc33353e95eaa595"
+    },
+    {
+      "bytes": 2783,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/TOOL_RECEIPTS.json",
+      "sha256": "08e3e02ce5a5ec2218e39a522877365fe6eed21f58d1a9d47b3e2cf9acf2c30f"
+    },
+    {
+      "bytes": 3844,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/VERDICT.json",
+      "sha256": "3f9e4b67daae723a4539ae86d3b0bceb363e214e5ee4b705fbf29081c881a6a0"
+    },
+    {
+      "bytes": 11738,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/check_metadata.py",
+      "sha256": "b5ca5375d5aa76cb6bb0ef48873bba9b0f948741abb4de89050c00202fb3d15b"
+    }
+  ],
+  "public_review_subset": [
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "VERDICT.json",
+    "TOOL_RECEIPTS.json",
+    "check_metadata.py"
+  ],
+  "qualification_credit": 0,
+  "recommendation_scope": "Exact source only for separately reviewed root preparation; original installation remains refused and immutable. No operational or mode authority.",
+  "remaining_root_actions": [
+    "Independent root adjudication of exact source with retained refusal/postflight references.",
+    "Fresh reviewed concrete preparation/bootstrap and whole971-source/control/supplier/host/E custody.",
+    "Separate genuine one-operation read-only reconciliation admission, without E mutation.",
+    "Full independent actual result and postcustody review before root frozen-custody acceptance."
+  ],
+  "repo_or_Git_changed": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3",
+  "review": {
+    "bytes": 11720,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/INDEPENDENT_REVIEW.md",
+    "sha256": "999960d4b0c40f62e47eb563ea864f243baf49afdefdab5ecc33353e95eaa595"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "runtime_or_E_inventory_created": false,
+  "schema": "ri226-independent-recovery-source-review-handoff-v1",
+  "scientific_decode": false,
+  "source_and_original_failure_mutations": false,
+  "status": "RECOMMEND_ACCEPT_EXACT_SOURCE_ONLY_FOR_SEPARATELY_REVIEWED_ROOT_PREPARATION",
+  "subject_execution": false,
+  "subject_handoff": {
+    "bytes": 9657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/HANDOFF.json",
+    "sha256": "bead93928f1f1af37379f4d8add4c5e254b31633fa8d00acb274a2739d237fdc"
+  },
+  "subject_namespace_count": 19,
+  "subject_payload_count": 18,
+  "verdict": {
+    "bytes": 3844,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/VERDICT.json",
+    "sha256": "3f9e4b67daae723a4539ae86d3b0bceb363e214e5ee4b705fbf29081c881a6a0"
+  }
+}

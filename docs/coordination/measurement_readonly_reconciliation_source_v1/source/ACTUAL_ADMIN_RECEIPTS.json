@@ -1,0 +1,93 @@
+{
+  "failed_subject_attempts_in_this_assignment": 0,
+  "new_failed_administrative_checks": 0,
+  "new_fixture_runtime_or_E_scan": false,
+  "old_failed_attempts_preserved": true,
+  "operations": [
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/build_proposal.py"
+      ],
+      "exit_code": 0,
+      "scope": "source text and opaque manifest builder only",
+      "tool_chunk": "6d08c7"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/build_checker.py"
+      ],
+      "exit_code": 0,
+      "scope": "checker source text builder only",
+      "tool_chunk": "3b7fe1"
+    },
+    {
+      "exit_code": 0,
+      "scope": "literal draft edits: whole historical E comparison and retained failure final source-tail observation; matching builder updates; no target execution",
+      "tool_chunk": "976772"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/finalize_sources.py"
+      ],
+      "exit_code": 0,
+      "scope": "refresh complete deltas/pins after draft text review",
+      "tool_chunk": "14e10e"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/admin_check.py"
+      ],
+      "exit_code": 0,
+      "receipt_extra_check": "final report pin() adds one opaque read-stability check after report is serialized",
+      "receipt_final_checks": 4065,
+      "report": {
+        "bytes": 585802,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/ADMIN_CHECK.json",
+        "sha256": "dddae983c995cfc6b8d52d8e9650319755136303de0864c92e621b9c281ad55f"
+      },
+      "saved_report_predicates": 4064,
+      "scope": "source/manual administrative metadata checker; prior inline edit removed inactive administrative line and clarified recorded root fields",
+      "tool_chunk": "4b1a56"
+    }
+  ],
+  "read_only_diagnostics": [
+    {
+      "detail": "Printed entire original roughly2MB COMPLETE; tool output truncated. No file or source changed. Original pinned body remains intact. Subsequent reads were bounded keys/counts.",
+      "exit_code": 0,
+      "kind": "overly verbose administrative read output",
+      "tool_chunk": "a01347"
+    },
+    {
+      "detail": "Parallel original source/protocol read exceeded aggregate output budget; remaining source read separately in39936b and bounded protocol readf7b0e7.",
+      "exit_code": 0,
+      "kind": "combined read output truncation",
+      "tool_chunk": "de2155"
+    }
+  ],
+  "schema": "ri226-author-administrative-tool-record-v1",
+  "scope": "author transcription of actual tool results; external genuine tool origin remains root-reviewable",
+  "subjects_executed": false,
+  "supplementary_read_chunks": [
+    "bc6dd9",
+    "e0f878",
+    "39936b",
+    "f7b0e7",
+    "d625a1",
+    "5a208e",
+    "221c2a",
+    "01d4af",
+    "306ad6"
+  ]
+}

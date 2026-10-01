@@ -1,0 +1,37 @@
+{
+  "base_files": 806,
+  "base_plus_repair": 963,
+  "draft_revisions": [
+    "Added complete old historical E comparison to both programs after text review.",
+    "Added entire retained-failure postcheck in the source_inputs tail and its saved observation."
+  ],
+  "groups": {
+    "actual_failure_and_diagnostics": 31,
+    "inherited_repair": 90,
+    "retained_monitor": 4,
+    "retained_operation": 4,
+    "retained_root_operation": 12,
+    "ri222_seal": 16
+  },
+  "new_checker": {
+    "bytes": 29958,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/check_reconciliation.py",
+    "sha256": "de1633c2ea59157feb3d51c00c777d8eddf69328bdf5b38a88654e3f6adef2ee"
+  },
+  "new_reconciler": {
+    "bytes": 25970,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/reconcile_freeze.py",
+    "sha256": "b176f460e0621410d9ee5b8ef02904ae84ec51c6cc686dfe58f05da4880bd9c0"
+  },
+  "original_installer": {
+    "bytes": 19894,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+    "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+  },
+  "prospective_source_count": 971,
+  "repair_files": 157,
+  "schema": "ri226-administrative-source-builder-v1",
+  "scientific_body_decoded": false,
+  "subject_executed": false,
+  "subject_imported": false
+}

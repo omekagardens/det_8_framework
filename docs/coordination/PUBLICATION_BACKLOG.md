@@ -1,6 +1,72 @@
 **Accepted work and remote publication**
 
-**Current follow-through — unique native active bound accepted; installation retained after postwrite refusal.**
+**Current follow-through — complete disconnected profiles accepted; retained-partial recovery source accepted.**
+1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+accept RI225's conditional finite-law derivation of all five disconnected
+parent profiles: 81 proper and five full ideal occurrences, preserving
+labelled multiplicities, transported records and actual layer scales.
+The remaining lower-law dependence reduces to six fixed strict-prefix
+empty-birth ratios and two functions gamma/zeta of the root record.
+D1/D3 have a proved root-sector reduction under the inherited actual
+C4/H5 patterns; no blanket D2/D4/D5 reduction is claimed.
+
+All ten normalized unknowns, all five disconnected families and eight
+connected contrasts remain in N16-N17. No improvement witness or signed
+inconsistency identity has been found. Improvement, optimality and maximal
+amplitude remain open. The original amplitude1/4 rejection, accepted
+small-positive family and unique active J2 bound remain unchanged.
+
+Root manual review is distinct from replay ab53f6 exit0: 31 whole identities,
+40 selected references, 25 direct sources/710419 bytes, both six-file
+namespaces and 15 inherited boundaries. Independent 7bc1cd exit0 confirmed
+the same source scope and supplied a separate complete proof review.
+The inherited423 collection remains by reference; no automatic proof
+arithmetic, coefficient-vector read or scientific execution occurred.
+Evidence: `docs/track_b/native_disconnected_profiles_v1/`.
+
+After adjudication, RI228 was assigned to the existing QR chat in
+`ri228-native-lower-combinations-lt3ry78x/`: derive actual gamma/zeta and
+empty-ratio combinations sufficient to decide every normalized row, or
+prove a substantive native lemma and name the smallest remaining premise.
+Two literal construction texts were admitted only after exact inherited
+metadata and whole-file identity matches. No descendant, certificate or
+executable authority was added. Active successor files are excluded.
+
+Root and a separate nonauthor also accept RI226 as source only for a
+read-only reconciliation of the retained measurement partial. The new
+program has no E write path and requires complete current equality with
+the pinned postwrite tree, including root link count, size and timestamps.
+It reconstructs the original refused operation and all old members,
+source bindings, tails and limits. The original 23-to-24 link transition
+is a fixed historical observation, not a general metadata waiver.
+
+The prior installation remains refused: 8081b8/session81601, terminal
+17185d exit1 wrote the exact candidate before two tails failed. The file
+remains an **unaccepted partial**. The old failure, review misses and
+postflight 13f7b9 remain immutable. No recovery, fresh E/supplier inventory,
+mode admission or frozen-custody acceptance occurred in this checkpoint.
+Root source metadata check d6a877/session95527, terminal95328e exit0 checked
+968 opaque source paths, the 19-file seal, unchanged904 old source states,
+old operation/monitor and installed partial. Independent8d2b86 exit0
+checked66729 metadata/text predicates and982 opaque files. These are
+source/custody checks, not operational tests or qualification credit.
+Evidence: `docs/coordination/measurement_readonly_reconciliation_source_v1/`.
+
+RI229 now owns source-only preparation-writer and complete bootstrap design
+in `ri229-reconciliation-preparation-t93t1607/worker_proposal/`. Independent
+review precedes any fresh preparation; root retains all operational
+admission and actual-result acceptance. The closed971-source domain,
+original monitor limits and complete retained-tree custody remain required.
+Normal/optimized mode, WHITE/RI131/full32 and selected public GWOSC
+conventional reproduction remain open. Calibrated claims and a native
+forward map remain separate. RET alone is paused.
+
+The preceding checkpoint637d335151b29fcf172f43177d7920cbdc746153 was
+verified on live origin/ret. This checkpoint publishes reviewed stable
+proof/source evidence only. Original protected results, unrelated edits
+and active reservations remain intact. No user decision is needed.
+
+**Prior checkpoint — unique native active bound accepted; installation retained after postwrite refusal.**
 1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
 accept RI223's conditional finite-law result: **J2 is the unique active
 empty-child bound, so a_empty=e2/(-z2)**. The complete five-parent and

@@ -1,0 +1,61 @@
+{
+  "RET_paused": true,
+  "allowed": "Literal analytic text and opaque identity only; no referenced descendants, executable/source bodies or certificates.",
+  "assignment": {
+    "bytes": 18770,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_NATIVE_ASSIGNMENT.json",
+    "sha256": "d23cf53fea14c7451a2d20067213cd2411c3f5c99e218465278e67e0372dbfd8"
+  },
+  "automatic_scientific_arithmetic": false,
+  "execution_admitted": false,
+  "inherited_manifest": {
+    "bytes": 393074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+    "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+  },
+  "inherited_match": {
+    "access_policy": "text-reading-and-opaque-identity-no-execution",
+    "classification": "analytic-source-text-or-review",
+    "identity": {
+      "bytes": 16243,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+      "symlinks": []
+    },
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+    "reference_provenance": [
+      "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json",
+      "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    ],
+    "role": "dep_0419"
+  },
+  "qualification_credit": 0,
+  "reason": "Named unresolved lower-law combinations in accepted RI225. Admission does not assert that the text supplies the missing witness.",
+  "reference": {
+    "bytes": 16243,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+    "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x",
+  "root_identity": {
+    "bytes": 16243,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+    "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+    "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+    "state": [
+      16777244,
+      373286,
+      33188,
+      1,
+      16243,
+      1790220062695783766,
+      1790220062695783766
+    ],
+    "symlink_chain": []
+  },
+  "schema": "ri228-exact-analytic-literal-admission-v1",
+  "scientific_body_admission": false,
+  "status": "ADMIT_EXACT_EXISTING_ANALYTIC_TEXT_ONLY",
+  "typed_reference_expansion": false
+}

@@ -1,0 +1,267 @@
+{
+  "schema": "ri225-complete-disconnected-profiles-and-native-gap-handoff-v1",
+  "status": "CONDITIONAL_COMPLETE_PROFILE_DEDUCTION_WITH_PRECISE_OPEN_WITNESS_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI225_NATIVE_ASSIGNMENT.json",
+    "bytes": 18423,
+    "sha256": "8d1aa74e27cc7420b7c3f0b7af08b176be23449bf14493c6fa040ae1b265f7db"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI223_ROOT_ADJUDICATION.json",
+    "bytes": 2025,
+    "sha256": "62fbb8fb5335fbfedf3ac03c6b7cd8d837f6198f7c9e7537bdb0048ff8eb1426"
+  },
+  "additional_literal_admission": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI225_DISCONNECTED_LITERAL_ADMISSION.json",
+    "bytes": 2445,
+    "sha256": "1d726c63b3c21ceac80206b488a46a4b2d1d09dfc0dcbeb2bc97b20b6fe6d3b6"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "DISCONNECTED_PROFILES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "LOWER_PROFILE_GAP.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/AUTHOR_VERIFICATION.json",
+      "bytes": 40198,
+      "sha256": "5e1f791480d11474c0c1ea14e12668b3c911e6ddd29720995f316f39815457e2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/DISCONNECTED_PROFILES.md",
+      "bytes": 15209,
+      "sha256": "588eba196bb27baa6ee967d0dbe2b25d0c0645b186dd3dc7e9ddee913467b522"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/HANDOFF.md",
+      "bytes": 2367,
+      "sha256": "6c99d78708325504260efbd38c19091e0e9d03758311a5ed68f0b40dfc3a0546"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/LOWER_PROFILE_GAP.md",
+      "bytes": 13841,
+      "sha256": "5284896ef15b7f5233821762308f6c0e718c80fd30075f73ab6ee8d5a9e4829e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/SOURCE_REFERENCES.json",
+      "bytes": 56014,
+      "sha256": "296a758cd67b7d3b70a3e2937c8b874b6c6b1336afcc44300415a496529e8d2f"
+    }
+  ],
+  "new_theorems": [
+    "All five disconnected full profiles g_i=1-s B_i are explicit complete normalization/deletion polynomials in the existing connected held rows and two smaller disconnected orders K=C3 disjoint A1 and Y=C4 disjoint A1.",
+    "Complete ideal inventory retains81 proper plus5 full ideals across all five parents; no independent six-parent full profile remains after normalization.",
+    "For D3,D5, B_i=2-rho-rho(1-rho)V_A, with V_A a fixed weighted sum of the complete existing H5 or C5 row.",
+    "Empty diamonds reduce all no-isolate lower probabilities to positive fixed record-blind ratios alpha_S,beta_S.",
+    "Three isolate-containing Y slots raise Ferrers-cell defect1to2; the admitted neutral-component rule gives y_S^+=theta k_S^+ at S empty, initial pair and full C3 stem.",
+    "The exceptional singleton slot is retained via gamma and zeta; complete normalization reduces both higher moments and F_Y exactly.",
+    "gamma,zeta depend only on the chain-root record; accepted connected transport plus the new formulas gives root-only D1/D3 full and relative profiles.",
+    "Actual improvement/optimality remains open; no normalized solution or inconsistency row witness is produced."
+  ],
+  "exact_result": {
+    "predecessor": "Accepted RI223 I={2}, endpoint/dual criterion and complete normalized mobility reduction preserved, not newly repeated.",
+    "full_profiles": "All five g_i=1-s B_i are derived explicitly, counting81 proper and5 full ideals. D3/D5 use complete normalization cancellation; D1/D2/D4 retain all repeated deletion factors and individual ideals.",
+    "relative_profiles": "P9/P10 substitute all five B_i directly into the full original relative-row equations, with fixed rho/s and every record preserved.",
+    "lower_reduction": "Positive record-blind alpha/beta weights handle no-isolate slots. Three raising Y slots have coefficient theta. The exceptional initial-singleton slot survives as zeta; complete normalization gives both higher moments and F_Y.",
+    "transport": "gamma,zeta and D1/D3 profiles have proved root-sector dependence. No blanket reduction of the other parent profiles is assumed.",
+    "remaining": "No exact full solution u2=-1 or finite native inconsistency row identity has been supplied. Improvement, optimality and maximal full amplitude remain undecided.",
+    "acceptance": "All new deductions await independent mathematical review. Metadata checks do not accept the proof or qualify an executable route."
+  },
+  "proof_steps": [
+    "Use only the accepted RI223 singleton/mobility reduction as predecessor; do not repeat its active-set proof or claim an actual native branch.",
+    "Derive q(Y,C4)=c e_C5/e_C4=theta c=h from the complete empty/full diamond and accepted empty identity. Keep both records/newborn bits.",
+    "For X6=H5 disjoint isolate, retain seven no-isolate and six with-isolate proper ideals. Check all three-maxima factors in P5 and the two/one-maxima factors in P6. X is a complete proper sum, not an adjustable profile.",
+    "For Z6=C5 disjoint isolate, retain all six no-isolate and five with-isolate proper ideals. Complete Y normalization gives P_Y exactly. Its full probability is therefore1-rho Z, not a new input.",
+    "For F(A) disjoint isolate, retain each ideal of A in both no-isolate and with-isolate roles, plus F(A) itself. The two-maxima deletion cancels q(A,S); complete normalization yields2-rho-rho(1-rho)V_A. This proves D3/D5 without new six-parent full-profile data.",
+    "For D1, check all four single, six double, four triple and one quadruple deletions at every stem ideal. Check the one-cap products rho^3 nu, the two-cap products rho^2 j and the full P1 factor. Include all11 no-isolate and10 with-isolate ideals.",
+    "For D1 with-isolate stem ideals, keep three singleton X6, three double Y and one triple K factors; reduce to rho^3(yplus)^3/(kplus)^2. Keep three rho^2 F_Y and three full X6 factors separately.",
+    "For D2, check the three distinct singleton parent shapes P2,X6,Z6, their three double-deletion shapes and C4 triple factor. Keep all9 no-isolate and8 with-isolate ideals, including unequal rho powers on I+a+o and I+b+o.",
+    "For D4, retain the complete five-ideal C4 row, the two distinct single-cap ideals and full P4. Check all7 with-isolate terms, including two full Z6 factors.",
+    "Use the original five complete six-parent mask lists. For each D_i add isolate bit64 to every proper-with-isolate mask, exclude only full127, retain63 in no-isolate. Counts21,17,15,15,13 proper plus5 full give86 complete ideal occurrences.",
+    "Restrictions transport order, precursor and marking jointly. Cap permutations give equal transported values only after equivariance and proven maximal-record invariance; repeated ideals are never divided by orbit multiplicity.",
+    "Substitute g_i=1-s B_i into the exact relative-row equations. The coefficient of Delta B_i is positive s*l_i(0); retain the original rho in H_ij. Check the opposite sign after inserting Delta B3/5=-rho(1-rho)Delta V.",
+    "Apply complete empty/ordinary diamonds to express k_S=alpha_S A_S,y_S=beta_S B_S. Fixed alpha,beta are positive record-blind ratios of the actual law, never independent selected parameters.",
+    "By manual cancellation, obtain every expression G4, retaining all four stem terms and the separate upper-slot terms. Use alpha_I=w/A_E,beta_I=theta w/A_E,beta_C4=theta from accepted empty identities.",
+    "Prove Y has defect1. For each of the empty, initial-pair and full-stem isolate-containing slots, prove terminal defect2 by exhausting all single deletions and giving the two-deletion chain witness. Apply the accepted size-five neutral-active-component raising rule, not a new common-scale law.",
+    "Check the exceptional initial-singleton terminal has defect1 via its Ferrers-hook deletion. Do not set its canonical contribution to zero; zeta is an unrestricted actual difference here, with no chosen sign.",
+    "Use all8 K ideals and all10 Y ideals to derive T and F_Y. Expand one exceptional term plus three ordinary terms to obtain M2,M3. Divide only by positive gamma, not zeta or a contrast.",
+    "Use precursor locality plus isolated-maximum invariance to prove gamma,zeta depend only on the chain-root bit. Retain complete transported records; no empirical observation or record deletion claim.",
+    "Use admitted RI189 full C4 root dependence and RI127 j/g/h transport plus complete H5 normalization to establish the full H5 row's root dependence. Then deduce g1,g3 and their relative rows are root-sector profiles. Do not generalize to D2/D4/D5 or every connected profile.",
+    "Retain the unchanged full normalized recovery u2=-1, u0,u3,U4..U11; all five disconnected families and all eight connected N17 contrasts. No automatic solution, independent d_i fit, unjustified Uj=0 or smaller-support substitution.",
+    "State the exact remaining native witness and newly exposed lower combinations. Metadata-only source hints do not admit source bodies and are not claimed to contain the missing quantitative lemma. No nonderivability theorem is asserted."
+  ],
+  "exact_missing_witness": {
+    "normalized_system": "Accepted RI223 N16-N17, now with every g_i and H_ij expressed by DISCONNECTED_PROFILES P4,P9,P10 and LOWER_PROFILE_GAP G4,G8.",
+    "improvement": "One exact solution u2=-1 with all ten unknowns recovered and every original row verified.",
+    "optimality": "Actual finite signed row combination annihilating all ten unknown columns but leaving nonzero RHS, or equivalent complete native W2=0 identity.",
+    "lower_combinations": "Six additional empty ratios alpha_S,beta_S for the three strict stem prefixes, gamma_0,gamma_1 and zeta_0,zeta_1 in the exact roles G1,G6,G9. Only their combinations G4,G8 are needed by this profile route; no independence or global minimality is claimed.",
+    "still_live": "All five disconnected families, all connected N17 contrasts, actual rho/s and canonical corrections, all records, ideal multiplicities and strict endpoints.",
+    "no_nonderivability_claim": true,
+    "no_body_or_execution_authority_created": true
+  },
+  "inherited_not_freshly_reproved": [
+    "Accepted finite strictly positive baseline, complete scalar-passive marked diamonds, precursor locality and maximal-record invariance.",
+    "Original fixed rho/s, normalized seed and H30 complete shared iff; no support, scale or amplitude change.",
+    "Accepted RI223 singleton and exact normalized recovery, and RI220 positive small-amplitude family.",
+    "Existing neutral-active-component raising rule at parent size5; accepted theta and empty e_C5/e_C4 relation.",
+    "RI127/RI189 actual C4/H5 record patterns and complete lower normalization, distinguished from component identity."
+  ],
+  "scope": {
+    "manual_analysis_only": true,
+    "original_quarter_rejection_immutable": true,
+    "accepted_small_amplitude_family_preserved": true,
+    "all_five_disconnected_profiles_derived": true,
+    "complete_81_proper_5_full_inventory_retained": true,
+    "D3_D5_normalization_cancellation_proved": true,
+    "exact_relative_row_substitution_proved": true,
+    "three_Y_raising_slots_proved": true,
+    "two_moment_reduction_proved": true,
+    "D1_D3_root_sector_transport_proved": true,
+    "native_improvement_or_optimality_decided": false,
+    "native_lifting_direction_found": false,
+    "native_inconsistency_identity_found": false,
+    "maximal_full_amplitude_decided": false,
+    "numerical_amplitude_selected": false,
+    "scientific_body_certificate_or_vector_read": false,
+    "automatic_scientific_parsing_or_proof_arithmetic": false,
+    "H_or_z_reconstruction": false,
+    "actual_scales_or_probability_values_evaluated": false,
+    "graph_LP_subject_runtime_fixture_card_execution": false,
+    "repository_Git_index_or_measurement_written": false,
+    "inherited_finite_premises_remain_conditional": true,
+    "ret_paused": true,
+    "qualification_credit": 0,
+    "full_QM_geometry_or_physical_claim": false,
+    "all_size_continuation_claim": false,
+    "successor_designed_or_started": false
+  },
+  "provenance_scope": {
+    "direct_sources": 25,
+    "direct_bytes": 710419,
+    "inherited423_by_reference": true,
+    "inherited_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_namespace": 6,
+    "inherited_admissions": "Original six, two additional, two RI189, shared-affine and two RI223 literal admissions preserved; current RI225 assignment explicitly renews their exact analytic scope.",
+    "new_RI111_admission": {
+      "authority": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI225_DISCONNECTED_LITERAL_ADMISSION.json",
+        "bytes": 2445,
+        "sha256": "1d726c63b3c21ceac80206b488a46a4b2d1d09dfc0dcbeb2bc97b20b6fe6d3b6"
+      },
+      "reference": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+        "bytes": 20656,
+        "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53"
+      },
+      "inherited_match": {
+        "access_policy": "text-reading-and-opaque-identity-no-execution",
+        "classification": "analytic-source-text-or-review",
+        "identity": {
+          "bytes": 20656,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+          "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+          "symlinks": []
+        },
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+        "reference_provenance": [
+          "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json"
+        ],
+        "role": "dep_0001"
+      },
+      "typed_reference_expansion": false
+    },
+    "lower_law_metadata_only": {
+      "receipt": {
+        "chunk_id": "72d6fa",
+        "exit_code": 0
+      },
+      "inherited_rows": [
+        {
+          "role": "dep_0412",
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+          "identity": {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+            "bytes": 17102,
+            "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+            "symlinks": []
+          },
+          "classification": "analytic-source-text-or-review",
+          "access_policy": "text-reading-and-opaque-identity-no-execution",
+          "reference_provenance": [
+            "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json"
+          ]
+        },
+        {
+          "role": "dep_0419",
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+          "identity": {
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+            "bytes": 16243,
+            "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+            "symlinks": []
+          },
+          "classification": "analytic-source-text-or-review",
+          "access_policy": "text-reading-and-opaque-identity-no-execution",
+          "reference_provenance": [
+            "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json",
+            "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+          ]
+        }
+      ],
+      "body_read": false,
+      "read_admission_created": false,
+      "typed_reference_expansion": false,
+      "purpose": "Exact existing metadata of construction texts associated with the named unresolved K/Y roles. Neither text is asserted to contain the missing quantitative witness."
+    },
+    "old_RI216_body_exception_not_reused": true,
+    "opaque_support_not_expanded": true
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "c66a29",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 29,
+      "explicit_selected_reference_checks": 37
+    },
+    "complete_final_proof_read": {
+      "chunk_id": "12be8d",
+      "exit_code": 0
+    },
+    "author_pin": {
+      "chunk_id": "3d2ba5",
+      "exit_code": 0
+    },
+    "failed_shell_commands": 0,
+    "rejected_patches": 0,
+    "failed_orchestration_attempts": 0,
+    "diagnostic": "Combined source display56e60b clipped a middle RI85 portion; complete RI85 recovery4d42ad preceded formal derivation. RI117 and both final proof notes were displayed completely. Current and historical diagnostics are retained in AUTHOR_VERIFICATION.json.",
+    "independent_proof_acceptance": false
+  },
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "final_check_policy": "Run retained final6 checker after this seal is saved and report actual receipt/all six identities externally. No internal self-hash or unperformed-check claim.",
+  "stopping_rule": "Seal this substantive complete native profile deduction and exact remaining normalized witness gap for independent review. Do not claim actual improvement/optimality or nonderivability. No successor, source expansion, numerical amplitude or execution. Root owns publication/Git/index; RET paused."
+}

@@ -1,0 +1,47 @@
+{
+  "RET_paused": true,
+  "actual_checker_report": {
+    "bytes": 585802,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/ADMIN_CHECK.json",
+    "sha256": "dddae983c995cfc6b8d52d8e9650319755136303de0864c92e621b9c281ad55f"
+  },
+  "actual_receipts": {
+    "bytes": 3388,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+    "sha256": "f506164d55c72d77481c927667e5d9cc44dfe49b8494db14fafef6578679a1c5"
+  },
+  "assignment": {
+    "bytes": 3315,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI226_MEASUREMENT_ASSIGNMENT.json",
+    "sha256": "077b790342bae3450756b5b734894d46024b17c49f9b9360acd1105b75346416"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "checker_is_same_author_not_independent_reviewer": true,
+  "current_E_not_rescanned_by_author": true,
+  "inputs": 963,
+  "opaque_metadata_check_files": 968,
+  "platform_claim": "Exact retained observed23to24 transition only; no general filesystem rule or state waiver.",
+  "prior_authorship": [
+    "RI125 primary/qualifier",
+    "RI131",
+    "RI156/158/160",
+    "RI204/206/209/213/218/222 proposals",
+    "RI217/219/224 preparation drafts"
+  ],
+  "prohibited_activity_performed": false,
+  "prospective_sources": 971,
+  "retained_failure_status": "REFUSED_RETAIN_ALL_PARTIALS",
+  "saved_count_note": "4064 predicates serialized; additional read-stability check while pinning that report makes final printed4065.",
+  "schema": "ri226-source-only-authoring-record-v1",
+  "scope": "Source-only read-only recovery proposal following an actual refused postwrite installation; no operational admission or recovery",
+  "source_manifest": {
+    "bytes": 1412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/SOURCE_PINS.json",
+    "sha256": "83c1c226126113aacefe71b049be0113a1088ed6f1ca439534cae418b040fb0f"
+  },
+  "source_only_guard_credit": 0,
+  "source_read_coverage": {
+    "check_reconciliation.py": 174,
+    "reconcile_freeze.py": 256
+  }
+}
