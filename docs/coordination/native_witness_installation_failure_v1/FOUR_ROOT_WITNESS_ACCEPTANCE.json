@@ -1,0 +1,33 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Roots55,56,73 use default1/8; root74 uses explicit27/125.",
+    "X=0,Y=91/1000 and inherited beta gap1/500 give exact D=9/1000>0.",
+    "All source/domain/default-override and positive-denominator conditions retained."
+  ],
+  "admission": {
+    "bytes": 4124,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI216_FOUR_ROOT_LITERAL_ADMISSION.json",
+    "sha256": "7e571bec36a7650a8bd99cabab274ba6c2c0d9dd54a1608c8d533bbc62de7d13"
+  },
+  "new_scientific_execution": false,
+  "nonauthor_review": {
+    "bytes": 1738,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/FOUR_ROOT_NONAUTHOR_REVIEW.json",
+    "sha256": "1af020608262c1b1d9f37604da8f46fe02008bcefbbf818fcab8a8d71466dce9"
+  },
+  "qualification_credit": 0,
+  "root_literal_custody": {
+    "bytes": 1595,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/FOUR_ROOT_LITERAL_CUSTODY.json",
+    "sha256": "2382f05b27005eb527412f0b4c72bc174501aa40470b27c571b972b8aac69aee"
+  },
+  "root_witness": {
+    "bytes": 3091,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/FOUR_ROOT_MANUAL_WITNESS.md",
+    "sha256": "e9b10354a0917f0d305e7ca3e6d7f1342c6804530e0f5a974684d14346263bb9"
+  },
+  "schema": "ri217-root-four-root-adjudication-v1",
+  "scope": "Only this exact four-root fixed-prefix witness is accepted. Pending RI216 determinant and margin implications require complete sealed proof and independent review.",
+  "status": "ACCEPT_FIXED_PREFIX_FOUR_ROOT_WITNESS"
+}

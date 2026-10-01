@@ -1,0 +1,30 @@
+{
+  "RET_paused": true,
+  "actual_related_failure": {
+    "bytes": 3723,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/PREPARATION_FAILURE_PARTIALS.json",
+    "sha256": "8ded6ca2d710b840b27d20fc5174a7710fde5d0aadd86e2d206e6c9c57c0be1d"
+  },
+  "finding": "same(a,b,msg) canonicalizes JSON. install_freeze.py lines61 and192 pass raw bytes; line61 first fails after writing ATTEMPT before any candidate E write, and also prevents returning successful output pins for COMPLETE. This source-path finding is not an actual installer execution.",
+  "freeze_installed": false,
+  "installation_admitted": false,
+  "installer": {
+    "bytes": 19876,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/install_freeze.py",
+    "sha256": "3f260e997cdab4bfa2fec2fd745c315b1605f69ac176246bff6099b584186fa8"
+  },
+  "minimum_repair": "Use direct byte equality through need() at both raw-byte comparison sites; preserve same() for JSON semantics and all safeguards.",
+  "original_installer_executed": false,
+  "prior_acceptance": {
+    "bytes": 2606,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI213_ROOT_SOURCE_REVIEW.json",
+    "sha256": "55ac3d5a93fa4d3dc6d7326c76d1d11eb4c7b9ed4266ad3675728b4344ea20c6"
+  },
+  "review_accountability": "Prior root and nonauthor source reviews missed this concrete type error. The old acceptance remains immutable historical evidence, superseded for operation by this record.",
+  "root_static_receipt": {
+    "chunk_id": "c456a4",
+    "exit_code": 0
+  },
+  "schema": "ri217-source-acceptance-supersession-v1",
+  "status": "RI213_REQUIRES_BYTE_COMPARISON_REPAIR_NO_OPERATIONAL_ADMISSION"
+}

@@ -1,0 +1,30 @@
+{
+  "constraints": [
+    "Keep all RI209/213 sources and D213 partial outputs immutable. No resumption, deletion or cleanup in those reservations.",
+    "Keep INPUT_PINS original806 declarations and every prior historical role unchanged; add exact RI213 source/failure/supersession provenance by explicit pinned union. Preserve all48/124/30 mappings and whole retained monitor/resource limits.",
+    "Replace raw-byte same() calls with need(actual_bytes == expected_bytes, message). Do not broadly change JSON comparator semantics, validation thresholds or encoding rules.",
+    "Adapt postchecker only as required by exact fresh paths/source pins; disclose all source diffs. Preserve the distinct RI21314-field clock completion schema and exact timing checks.",
+    "Do not run/import/compile/AST/probe installer, postchecker, monitor, scientific code or supplier runtime. No admission, bootstrap, tmp/monitor, E/freeze or Git/index writes.",
+    "Create a sealed narrowly scoped source packet with administrative hash/diff checks and all actual diagnostic attribution; root and nonauthor review precede concrete operational preparation.",
+    "A separate root preparation implementation must use direct byte equality at its own readback comparison. Do not execute or resume the failed root preparation.",
+    "No new qualification framework or general source campaign; this is the concrete correction required to resume the actual installation path. RET remains paused."
+  ],
+  "future_operation": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-install-operation-x62withm",
+  "predecessor": {
+    "bytes": 7600,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/HANDOFF.json",
+    "sha256": "f8e4ab402fe4621352c7fe1f9b3d3bfeb6d5bc1194afcc7fb98cf34f8eb2f512"
+  },
+  "qualification_credit": 0,
+  "question": "Repair only the two raw-byte comparisons in the installer and adapt exact operational paths/provenance for this fresh reservation. Preserve RI213 clock repair and all existing installation, tail, reconstruction, monitor, custody and qualification boundaries.",
+  "root_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm",
+  "schema": "ri218-source-byte-repair-assignment-v1",
+  "scientific_execution": false,
+  "source_supersession": {
+    "bytes": 1772,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI213_SOURCE_ACCEPTANCE_SUPERSESSION.json",
+    "sha256": "e8f50f5b05d4d05c03e53e8909d22a4b92290785cb1b095c289121e8ebf1a0ab"
+  },
+  "status": "ASSIGNED_AFTER_CONCRETE_PREPARATION_FAILURE_AND_STATIC_SOURCE_TRACE",
+  "worker_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal"
+}

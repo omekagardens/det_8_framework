@@ -1,6 +1,57 @@
 **DET independent-review implementation and QR coordination**
 
-**Current follow-through — individual-margin reduction accepted; determinant sign assigned.**
+**Current follow-through — fixed coefficient witness accepted; installer byte repair active.**
+30 September 2026 Honolulu (1 October UTC). Root and a separate nonauthor
+have independently inspected the exact original certificate under the
+new four-root manual admission. Roots (78,7,0), (78,7,1), (206,7,0),
+(206,7,1) have original indices 55, 56, 73, 74. The first three use default
+1/8; index 74 uses explicit 27/125. Thus X=0, Y=91/1000 and the accepted
+beta gap 1/500 give **D=X+Y-41/500=9/1000>0**. No full vector or actual
+scale was evaluated. Root e54ac5 and the separate review's four literal
+identity/read receipts passed. The complete declaration, default/override
+origins and positive rational syntax were checked manually.
+
+The missing coefficient witness has been supplied to the existing QR chat.
+RI216 remains active in `ri216-native-determinant-sign-qs_a79vs/`, tracing
+its implications for the actual determinant and original margin tests.
+Any stronger margin obstruction is pending sealed proof and independent
+review. The original law, seed/amplitude, q/N_i, correlated scales and all
+shared H30 conditions remain binding; no physical or execution claim follows.
+
+Measurement reached a genuine preparation attempt after RI213 source review.
+Actual root tool cb9b00 exited 1: the preparation's saved-byte comparison
+was passed to a JSON serializer, causing a TypeError. It created only a
+complete canonical host transcript and empty tmp/monitor directories.
+No admission, preflight, bootstrap, operation output or E freeze was created.
+Root 02248c authenticated the exact partials and all 48 unchanged E files.
+The failed source, actual failure attribution and partials are retained.
+
+The failure exposed the same concrete defect in accepted RI213 installer
+lines 61 and 192: raw bytes reach its JSON comparator. The first ATTEMPT
+write would fail before E installation, and COMPLETE has the same defect.
+This is a static source-path finding, not an actual installer run. Both
+prior root and nonauthor source reviews missed it. **RI213 operational
+source acceptance is superseded: repair is required before admission.**
+The old acceptance and all historical checks remain immutable evidence.
+
+RI218 is assigned to the installer author in the fresh exclusive reservation
+`ri218-freeze-byte-repair-x62withm/worker_proposal/`. Replace only the two
+raw-byte comparisons with direct byte equality, keep JSON comparison
+semantics and the clock repair, and update exact paths/provenance. The
+failed D213 preparation will not be resumed or cleaned up. Independent
+review of repaired sources precedes fresh preparation and a separately
+admitted monitored installation; actual installation review and custody
+precede normal mode, and accepted normal precedes optimized. Existing
+WHITE/RI131/full32 and public GWOSC conventional reproduction remain open.
+
+Evidence is in `docs/coordination/native_witness_installation_failure_v1/`.
+The preceding checkpoint `235c88f24f8dfa41dc95af54f2f0823ef71f4a53` was
+verified on live `origin/ret`. Active QR and RI218 source edits are excluded.
+Unrelated edits and protected historical results remain intact. RET alone
+is paused. No user decision is required; substantive native proof and the
+concrete measurement repair continue in their separate reservations.
+
+**Prior checkpoint — individual-margin reduction accepted; determinant sign assigned.**
 1 October 2026 UTC (30 September in Honolulu). Root and a separate
 nonauthor accept RI212 as a conditional finite-law reduction. The original
 two harmonic seed rows give K*h=A with A>0 and K nonzero. At the same

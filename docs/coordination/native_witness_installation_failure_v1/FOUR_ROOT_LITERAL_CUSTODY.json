@@ -1,0 +1,45 @@
+{
+  "admission": {
+    "bytes": 4124,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI216_FOUR_ROOT_LITERAL_ADMISSION.json",
+    "sha256": "7e571bec36a7650a8bd99cabab274ba6c2c0d9dd54a1608c8d533bbc62de7d13"
+  },
+  "automatic_mathematical_arithmetic": false,
+  "certificate": {
+    "bytes": 2845,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+    "state": [
+      16777244,
+      373218,
+      33188,
+      1,
+      2845,
+      1790219166674919262,
+      1790219166674919262
+    ],
+    "symlink_chain": []
+  },
+  "dispatch": {
+    "isError": false,
+    "target": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "tool": "mcp__codex_app__send_message_to_thread"
+  },
+  "literal_read": {
+    "chunk_id": "e54ac5",
+    "clipped": false,
+    "complete": true,
+    "exit_code": 0
+  },
+  "manual_witness": {
+    "bytes": 3091,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/FOUR_ROOT_MANUAL_WITNESS.md",
+    "sha256": "e9b10354a0917f0d305e7ca3e6d7f1342c6804530e0f5a974684d14346263bb9"
+  },
+  "qualification_credit": 0,
+  "schema": "ri217-four-root-literal-custody-v1",
+  "scientific_body_automatically_parsed": false,
+  "status": "CANDIDATE_PENDING_SEPARATE_REVIEW",
+  "subject_execution": false
+}
