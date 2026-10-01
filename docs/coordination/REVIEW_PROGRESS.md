@@ -1,6 +1,68 @@
 **Independent-review implementation progress**
 
-**Current checkpoint — complete four/five-maxima theorems and actual freeze candidate.**
+**Current checkpoint — global maximum bound and strict weighted sign accepted.**
+1 October 2026 UTC (30 September in Honolulu). RI210 has passed root and
+separate nonauthor manual review. For every marked six-antichain,
+U6 < 2^36+7 = 68,719,476,743 < 69 billion. Together with the accepted
+one-through-five-maxima classes, this exhausts all marked six-parents and
+proves the actual same-law global M6 < 463 billion < 465 billion < T.
+The exact RI199 implication therefore gives **W(rho,s) > 0** at the
+original correlated pair. Its sufficient implication remains strict even
+at M6=T. Both original individual margins and shared H30 remain undecided.
+
+RI185's complete marked antichain classification and restoration-only A5
+theorem cover every proper slot, including selected sizes three and four.
+The proof retains all 63 ideal occurrences and 64 records, the empty-parent
+factor, actual size-four numerators and six record-dependent full A5
+complements. It uses the literal A3 seed and the accepted native M5 witness;
+no numerical maximum, actual scale or canonical vector was evaluated.
+The original weighted q, N_i corrections, zero/tied branches and shared
+canonical dependence remain. These are conditional finite-law theorems,
+with no new executable, empirical or physical qualification.
+
+Root metadata check e759ae exited zero: 26 direct sources, 624142 bytes,
+32 fresh complete identities, 48 selected references, both six-file
+namespaces and 15 unchanged inherited boundary objects. The 423-source
+collection remains by reference. Author preseal 4a1283 and reported final
+9ff130 retain author attribution. Full manual review, complete author
+checker review, separate nonauthor receipts, recovered display clipping,
+source phases and exact acceptance are archived in
+`docs/track_b/native_global_maximum_weighted_sign_v1/`.
+
+After acceptance, RI212 was dispatched to the existing QR task in
+`ri212-native-individual-margins-u1l72g3n/`. It must decide the original
+strict C2 and C3 signs at the same actual pair, or give a substantive exact
+reduction identifying the remaining native inequality or scalar. The new
+global bound supplies a lower bound on rho. Six named, authenticated
+analytic texts supply the original margins and record transport; their
+scientific and operational descendants remain outside the read scope.
+The fixed seed, amplitude 1/4, complete P2/P3, strict endpoints, shared T1,
+eight other connected parents and five Di remain binding. Positive W is
+not a proof of two local intervals or full H30 feasibility.
+
+Measurement's RI206 administrative freeze candidate remains accepted after
+one actual action and independent complete-output review. E still has 48
+files and nine directories, with no installed freeze or mode cards. RI209
+continues its separately reserved source-only installation proposal in
+`ri209-freeze-installation-b3bokxbe/worker_proposal/`. Its reviewed actual
+installation and fresh runtime custody must precede normal-mode admission;
+normal acceptance must precede optimized. The existing WHITE qualification
+obligations and selected public GWOSC conventional reproduction remain
+distinct from calibration, protected validation and a native forward map.
+
+The preceding four/five-maxima and freeze-candidate checkpoint was committed
+as `80b94aa4ff055e6a121fd23486052a6898cc3921` and independently verified on
+live `origin/ret`. Its 95 scoped files contain 80 exact plain copies and
+two lossless gzip copies; all 878 dependency references and 5027 unrelated
+file identities/inventory passed. The initial staged whitespace diagnostic
+was repaired without changing source originals or weakening the check.
+The remote receipt is preserved with this proof archive.
+
+RI212 and RI209 remain active, with no missing user decision. RET alone
+remains paused. All unrelated edits and protected historical results remain
+preserved. This bounded publication does not complete the broader programme.
+
+**Prior checkpoint — complete four/five-maxima theorems and actual freeze candidate.**
 1 October 2026 UTC (30 September in Honolulu). RI205 is independently
 accepted under its named finite-prefix premises: every marked six-parent
 with exactly four maxima satisfies

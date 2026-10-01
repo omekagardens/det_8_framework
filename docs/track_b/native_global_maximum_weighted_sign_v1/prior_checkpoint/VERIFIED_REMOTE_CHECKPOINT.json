@@ -1,0 +1,63 @@
+{
+  "RET_paused": true,
+  "branch": "ret",
+  "checks": [
+    {
+      "bytes": 41287,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/PUBLICATION_SCOPE_REPAIRED.json",
+      "sha256": "4bfe389bafa6cfa0ea7b48f5f8f816f65bc195dca7f110ab8ff5ed002f10b7c2"
+    },
+    {
+      "bytes": 294,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/PUBLICATION_DEPENDENCY_REPAIRED_CHECK.json",
+      "sha256": "c9f6672958dfac58f3150198d3f796b08b816306459882b0b3ec589cac96f115"
+    },
+    {
+      "bytes": 20793,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/CHECKPOINT_REPAIRED_PRESTAGE.json",
+      "sha256": "33ed793139075f086a7c268a8a0cf643e43e73d5e5ab766f62143ef19fdf4cc4"
+    },
+    {
+      "bytes": 20853,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/CHECKPOINT_REPAIRED_STAGED.json",
+      "sha256": "8b954053117a112bbfd30cc00bcbcea95d6376ede7ef11f8ac50a23a3b38d487"
+    },
+    {
+      "bytes": 20857,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/CHECKPOINT_REPAIRED_POSTCOMMIT.json",
+      "sha256": "055e16a0f9dbbc5db07de684b417024625c943ea6e08ff282ed500a7654cc869"
+    },
+    {
+      "bytes": 531,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/PUBLICATION_WHITESPACE_DIAGNOSTIC.json",
+      "sha256": "9f0b581037c7026f11edb45566c739a3d49f9c8012af3f32687e4552b5fc6e25"
+    }
+  ],
+  "commit": "80b94aa4ff055e6a121fd23486052a6898cc3921",
+  "commit_execution": {
+    "chunk_id": "6c0ea1",
+    "exit_code": 0
+  },
+  "dependencies": 878,
+  "exact_plain_copies": 80,
+  "index_empty": true,
+  "live_remote": "80b94aa4ff055e6a121fd23486052a6898cc3921\trefs/heads/ret\n",
+  "lossless_gzip_copies": 2,
+  "no_force": true,
+  "programme_complete": false,
+  "push_execution": {
+    "command": "git push origin ret",
+    "exit_code": 0,
+    "initial_chunk": "85e3ee",
+    "output": "To https://github.com/omekagardens/det_8_framework.git\n   bbb97ff..80b94aa  ret -> ret\n",
+    "session_id": 1283,
+    "terminal_chunk": "faeb98"
+  },
+  "remote": "origin",
+  "remote_url": "https://github.com/omekagardens/det_8_framework.git",
+  "schema": "ri207-verified-remote-checkpoint-v1",
+  "scope_count": 95,
+  "status": "PASS",
+  "unrelated_files_preserved": 5027,
+  "upstream": "80b94aa4ff055e6a121fd23486052a6898cc3921"
+}

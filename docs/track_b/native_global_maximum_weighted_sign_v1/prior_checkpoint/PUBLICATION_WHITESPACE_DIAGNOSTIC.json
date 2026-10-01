@@ -1,0 +1,15 @@
+{
+  "disposition": "Preserve originals byte-for-byte through gzip encoding, update maps and manifests, rerun original acceptance thresholds.",
+  "exit_code": 1,
+  "findings": [
+    "source/SOURCE_DIFF.patch:346: trailing whitespace",
+    "root_review/publication_helpers.py:47: new blank line at EOF"
+  ],
+  "invocation": "69a8a8",
+  "phase": "staged",
+  "schema": "ri207-publication-whitespace-diagnostic-v1",
+  "session_id": 39102,
+  "source_originals_changed": false,
+  "terminal": "66063e",
+  "unrelated_work_changed": false
+}

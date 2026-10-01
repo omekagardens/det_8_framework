@@ -1,0 +1,20 @@
+{
+  "actual_result": {
+    "content": [
+      {
+        "text": "{\"threadId\":\"01a074c4-4b09-76a3-8cb2-0caf116f6b9c\"}",
+        "type": "text"
+      }
+    ],
+    "isError": false
+  },
+  "assignment": {
+    "bytes": 8385,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_NATIVE_ASSIGNMENT.json",
+    "sha256": "6ac1ae9d55c39db34fbd6b10f3cc6e000a06f841c0dae67c448c8944ef3820a2"
+  },
+  "duplicate_assignment": false,
+  "schema": "ri212-assignment-dispatch-v1",
+  "sent_after_acceptance": true,
+  "threadId": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+}

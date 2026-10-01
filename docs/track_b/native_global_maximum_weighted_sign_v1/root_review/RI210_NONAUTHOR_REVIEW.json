@@ -1,0 +1,102 @@
+{
+  "Git_operations": false,
+  "agent": "/root/qr_opportunities",
+  "author_checks_not_reviewer_execution": true,
+  "automatic_proof_arithmetic": false,
+  "complete_author_checker_read": true,
+  "externally_reported_author_final": {
+    "chunk_id": "9ff130",
+    "exit_code": 0,
+    "fresh_identities": 32,
+    "selected_references": 48
+  },
+  "final_packet": [
+    {
+      "bytes": 27323,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/AUTHOR_VERIFICATION.json",
+      "sha256": "40b3a978c8073fff83de236f051fb13da84a2a9aa7bc27708e0f0efec9ffa4a3"
+    },
+    {
+      "bytes": 9242,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/GLOBAL_W.md",
+      "sha256": "fe165ff5434728bce491422e49eb5fa65a23488467299ee7604470f0ac513336"
+    },
+    {
+      "bytes": 8112,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/HANDOFF.json",
+      "sha256": "8165876b68c88fc432c099d0493b2db48e087aa52c0ca6d7f761020bb33c1570"
+    },
+    {
+      "bytes": 2402,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/HANDOFF.md",
+      "sha256": "32bdf6cd822cb3e68a299ae397f18662fbecb90d8cb9e0eb260e4c0ca815a568"
+    },
+    {
+      "bytes": 9187,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/SIX_MAXIMA.md",
+      "sha256": "eefd70006317801a0bcd662d31177430c1c8a86c3967fd9e69e8860f7a7a5d9b"
+    },
+    {
+      "bytes": 36960,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/SOURCE_REFERENCES.json",
+      "sha256": "8ddf2d03ed9e0103924c45cb142d0946f3af0ac24effa49134f258aa9717e307"
+    }
+  ],
+  "findings": [
+    "RI185 marked restoration-only A5 proof covers selected sizes3/4; full first precursor in A4 and proper new-layer roles retained.",
+    "All63ideal occurrences and64records, empty-parent1, exact parity cancellation, lower full entries and canonical size-four numerators retained.",
+    "Literal A3 seed and theta<2^-38 give empty term<2^36; all56 other non-full terms total<1; six record-dependent full complements total<6 without extra theta.",
+    "Complete one-through-six-maxima classes exhaust the finite same-law marked domain: M6<463b<465b<T.",
+    "Original RI199 weighted identity, positive retained terms and strict U30 bound imply W/r>-1+8lambda*j0/[v(1+2M6)], hence W>0 even at target equality.",
+    "Original q/N_i terms, product contrasts and actual correlated pair remain; both individual margins, H30 and physical claims are not established."
+  ],
+  "inherited423_replayed": false,
+  "mathematical_blocker": false,
+  "reads": [
+    {
+      "chunk_id": "37f0b9",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f45096",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "b176c3",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "83e4a5",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e1b023",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "fef7b7",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "91cec9",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "15a4b6",
+      "exit_code": 0
+    }
+  ],
+  "record_kind": "Root-preserved summary of independent final review; original message remains in collaboration transcript",
+  "recovered_diagnostic": "Initial combined display clipped; scoped reads recovered complete contents.",
+  "reported_author_preseal": {
+    "chunk_id": "4a1283",
+    "exit_code": 0,
+    "fresh_identities": 30,
+    "selected_references": 45
+  },
+  "reviewer_writes": false,
+  "schema": "ri211-nonauthor-ri210-review-v1",
+  "scientific_body_or_vector_parsed": false,
+  "subject_execution": false,
+  "verdict": "ACCEPT_ON_NAMED_INHERITED_PREMISES"
+}
