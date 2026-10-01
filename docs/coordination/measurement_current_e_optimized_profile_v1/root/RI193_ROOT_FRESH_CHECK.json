@@ -1,0 +1,29 @@
+{
+  "complete_checker_reads": [
+    "767696",
+    "470379",
+    "ad12c6"
+  ],
+  "complete_manual_review": {
+    "bytes": 2165,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_MANUAL_REVIEW.json",
+    "sha256": "7d6f8653a1315424fa35446b7b71d805431cbdd7706b9634157841156cf0019c"
+  },
+  "complete_review_read": "3484e8",
+  "identities": {
+    "bytes": 7931828,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/IDENTITIES.json",
+    "sha256": "abd6562abd9ed02fdf25cabedbef25d7ccb37872df384805eb9de4909dfe41ea"
+  },
+  "review": {
+    "bytes": 5225,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/HANDOFF.json",
+    "sha256": "2b638d8290e573324084f751edbc16166cf41db36aed128396bbd08740640505"
+  },
+  "schema": "ri193-root-fresh-both-profile-review-check-v1",
+  "seal_and_handoff_read": "18a7a7",
+  "status": "PASS",
+  "subject_execution": false,
+  "whole_identities_rehashed": 12478,
+  "whole_state_and_links_equal": true
+}

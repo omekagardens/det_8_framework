@@ -1,0 +1,18 @@
+{
+  "builder_read": true,
+  "checker": {
+    "bytes": 45327,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/check_optimized_saved.py",
+    "sha256": "ab40eb9f462671f51b418b44b9a9bdd5ed90851a5def9c41d4698cc0bb11608e"
+  },
+  "normal_relation_fragment_equals_read_subset": true,
+  "pending_sealed_verdict": true,
+  "reads": [
+    "767696:lines1-160",
+    "470379:lines161-280",
+    "ad12c6:lines281-367 plus complete builder"
+  ],
+  "review_scope": "Complete independent metadata checker manually reviewed. Distinct parser reconstructs both full profile descriptor/results, complete three-line dyld error and all raw sample arithmetic. Entire report difference transformation is exactly two flags plus30 cache descriptors; no body/instruction equivalence claimed. Cached initial identity observations have final state/link replay; sealed final and root fresh full rehash remain required.",
+  "schema": "ri193-root-full-checker-read-v1",
+  "source_subject_execution": false
+}

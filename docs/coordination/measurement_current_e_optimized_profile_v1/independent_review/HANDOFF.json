@@ -1,0 +1,122 @@
+{
+  "actual_root_terminal": {
+    "chunk_id": "e3f394",
+    "exit_code": 0
+  },
+  "blocking_findings": [],
+  "compact_publication_subset": [
+    "ADMIN_CHECK.json",
+    "BOTH_MODE_RELATION.json",
+    "FINAL_CHECK.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_OUTCOMES.json",
+    "VERDICT.json",
+    "build_checker.py",
+    "check_optimized_saved.py",
+    "normal_relation_fragment.txt",
+    "seal_review.py",
+    "HANDOFF.json"
+  ],
+  "exclusive_namespace": [
+    "ADMIN_CHECK.json",
+    "BOTH_MODE_RELATION.json",
+    "FINAL_CHECK.json",
+    "HANDOFF.json",
+    "IDENTITIES.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_OUTCOMES.json",
+    "VERDICT.json",
+    "build_checker.py",
+    "check_optimized_saved.py",
+    "normal_relation_fragment.txt",
+    "seal_review.py"
+  ],
+  "external_only_identity_inventory": {
+    "bytes": 7931828,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/IDENTITIES.json",
+    "sha256": "abd6562abd9ed02fdf25cabedbef25d7ccb37872df384805eb9de4909dfe41ea"
+  },
+  "files": [
+    {
+      "bytes": 24568,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/ADMIN_CHECK.json",
+      "sha256": "9c201c504105f74da1db46ab8d1f2578c5caa43a4458dc82fcba46c0117badfd"
+    },
+    {
+      "bytes": 12549,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/BOTH_MODE_RELATION.json",
+      "sha256": "f8f6fa0fc77fc26f023d48c84ddd5d47eff16018c9037919d5b0821b30695c38"
+    },
+    {
+      "bytes": 2724,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/FINAL_CHECK.json",
+      "sha256": "d10b3555b150b71223ae84ac7ca6cf5b96d194994a81910ae4c858d9fe5aa73e"
+    },
+    {
+      "bytes": 7931828,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/IDENTITIES.json",
+      "sha256": "abd6562abd9ed02fdf25cabedbef25d7ccb37872df384805eb9de4909dfe41ea"
+    },
+    {
+      "bytes": 14374,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/INDEPENDENT_REVIEW.md",
+      "sha256": "b05d5d3bf8e089e2fb493b4d8d2a688f573d9e2529a69822118b4aafccd9e515"
+    },
+    {
+      "bytes": 3225,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/TOOL_OUTCOMES.json",
+      "sha256": "8fd413b81daa6268e46b406272fd6eb76e56ae49b4d76c8cd4587f6089eaf4a0"
+    },
+    {
+      "bytes": 2610,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/VERDICT.json",
+      "sha256": "472bde50e4cd99fbec1fa6f719cfe321f965831823bb3db30509420c5c8dd48e"
+    },
+    {
+      "bytes": 5088,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/build_checker.py",
+      "sha256": "519554d88c444376333245b8a65eac5dfa840a2b432c9a85ca35aeca151cffa5"
+    },
+    {
+      "bytes": 45327,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/check_optimized_saved.py",
+      "sha256": "ab40eb9f462671f51b418b44b9a9bdd5ed90851a5def9c41d4698cc0bb11608e"
+    },
+    {
+      "bytes": 6777,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/normal_relation_fragment.txt",
+      "sha256": "a7ff8cad99fbc2d0968db23750dadb9cf13844f408ecb8273137989c3025360b"
+    },
+    {
+      "bytes": 3383,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/seal_review.py",
+      "sha256": "2578039b090923f1d64ceefac37c8b57ac0d4f659cbd7bf454afe75826055865"
+    }
+  ],
+  "independent_administrative_terminal": {
+    "chunk_id": "5098a1",
+    "exit_code": 0
+  },
+  "own_administrative_failures": [],
+  "relation": {
+    "bytes": 12549,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/BOTH_MODE_RELATION.json",
+    "sha256": "f8f6fa0fc77fc26f023d48c84ddd5d47eff16018c9037919d5b0821b30695c38"
+  },
+  "ret_paused": true,
+  "review": {
+    "bytes": 14374,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/INDEPENDENT_REVIEW.md",
+    "sha256": "b05d5d3bf8e089e2fb493b4d8d2a688f573d9e2529a69822118b4aafccd9e515"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f",
+  "schema": "ri193-independent-optimized-both-mode-handoff-v1",
+  "scope": "Independent actual optimized profile and whole both-mode evidence review. Prior WHITE/bootstrap authorship and inherited source semantics disclosed. No subject invocation, scientific decoding, card or further applicability review. Root alone adjudicates and publishes.",
+  "status": "SEALED_ACCEPT_CURRENT_E_OPTIMIZED_AND_BOTH_MODE_PROFILE_EVIDENCE",
+  "verdict": {
+    "bytes": 2610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/VERDICT.json",
+    "sha256": "472bde50e4cd99fbec1fa6f719cfe321f965831823bb3db30509420c5c8dd48e"
+  }
+}

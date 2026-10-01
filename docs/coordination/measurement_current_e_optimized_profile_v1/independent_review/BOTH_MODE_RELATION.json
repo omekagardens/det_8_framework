@@ -1,0 +1,180 @@
+{
+  "all_other_fields_type_equal": true,
+  "cache_body_equivalence_or_instruction_trace_claim": false,
+  "each_full_descriptor_result_independently_reconstructed": true,
+  "exact_changes": [
+    {
+      "field": "profile_before/optimize",
+      "normal": 0,
+      "optimized": 1
+    },
+    {
+      "field": "profile_after/optimize",
+      "normal": 0,
+      "optimized": 1
+    },
+    {
+      "field": "modules/_distutils_hack/cached",
+      "normal": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc",
+      "optimized": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/_pydecimal/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/collections/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/contextvars/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/copyreg/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/decimal/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/encodings/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/encodings.aliases/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/encodings.ascii/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/ascii.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/ascii.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/encodings.utf_8/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/enum/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/fractions/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/functools/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/hashlib/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/json/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/json.decoder/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/json.encoder/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/json.scanner/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/keyword/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/keyword.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/keyword.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/locale/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/numbers/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/operator/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/re/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/re._casefix/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_casefix.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_casefix.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/re._compiler/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/re._constants/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/re._parser/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/reprlib/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/reprlib.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/reprlib.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/sitecustomize/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.opt-1.pyc"
+    },
+    {
+      "field": "modules/types/cached",
+      "normal": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.pyc",
+      "optimized": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.opt-1.pyc"
+    }
+  ],
+  "normal_envelope_separately_preserved": true,
+  "normal_report": {
+    "bytes": 28252,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PROFILE.stdout",
+    "sha256": "bf8e39f5a6fb27bc4224280a78036d6d1bf6970e7ad564f3a272e4986cfae241"
+  },
+  "optimized_envelope_separately_preserved": true,
+  "optimized_report": {
+    "bytes": 28432,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-optimized-proposed-gikj2giy/PROFILE.stdout",
+    "sha256": "bf42ade4ad64ae3d752220340a636f3dcf43eb29516308955d8ef2243026b326"
+  },
+  "status": "COMPLETE_BOTH_MODE_REPORT_RELATION_RECONSTRUCTED"
+}

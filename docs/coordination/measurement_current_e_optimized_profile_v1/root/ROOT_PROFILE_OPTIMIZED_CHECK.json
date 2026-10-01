@@ -1,0 +1,54 @@
+{
+  "both_mode_profile_relation": true,
+  "monitors": [
+    {
+      "elapsed": 1.9208310000000002,
+      "final_gap": 0.015135708000000303,
+      "label": "PRE",
+      "maximum_gap": 0.03882558299999994,
+      "peak_rss_kib": 84368,
+      "samples": 53
+    },
+    {
+      "elapsed": 0.3390654579999999,
+      "final_gap": 0.03418525000000017,
+      "label": "PROFILE",
+      "maximum_gap": 0.04362666599999976,
+      "peak_rss_kib": 752,
+      "samples": 9
+    },
+    {
+      "elapsed": 1.833066208,
+      "final_gap": 0.050163125000000086,
+      "label": "POST",
+      "maximum_gap": 0.03871066600000006,
+      "peak_rss_kib": 85712,
+      "samples": 50
+    }
+  ],
+  "normal_predecessor": {
+    "bytes": 1680,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/NORMAL_ACCEPTANCE.json",
+    "sha256": "5470ddd468cba8a5168042ceb73d1ce5204971233f3b26ecbbe657d617da95d2"
+  },
+  "operation_entries": 16,
+  "ordered_dyld_attempts": 10,
+  "output_entries": 16,
+  "parent_seconds": 6.203818125,
+  "profile_descriptors": 213,
+  "profile_modules": 71,
+  "runtime_bytes": 258862951,
+  "runtime_files": 9923,
+  "schema": "ri192-root-saved-current-e-optimized-profile-check-v1",
+  "scientific_credit": false,
+  "scope": "Saved complete snapshot comparison, every runtime file fresh opaque identity/selection, actual monitor arithmetic, full output namespace; independent actual review remains separate",
+  "snapshots": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-optimized-proposed-gikj2giy/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "snapshots_byte_equal": true,
+  "source_admission_and_vendor_unchanged": true,
+  "source_files": 644,
+  "status": "PASS_PENDING_INDEPENDENT_REVIEW"
+}

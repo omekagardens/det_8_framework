@@ -1,0 +1,33 @@
+{
+  "copy_acceptance": {
+    "bytes": 2660,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ACTUAL_COPY_ROOT_REVIEW.json",
+    "sha256": "d2a07795a297cddf7ca52472fff4d49cabd8cda65c742a4991b946d6dbad090c"
+  },
+  "fresh_preflight": {
+    "bytes": 2730,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_PREFLIGHT.json",
+    "sha256": "06bbccc14a0cc2f9baa33556ede7ef0cc5ad8bb9111018fbe7c85d42f81b70d8"
+  },
+  "independent_postreview_required": true,
+  "prior_actual_capture": {
+    "bytes": 4412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RI146_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "5357b3ce425db7c3b2ad34a3b7644158656f461c4d3bf9e190c6cfbf28611d84"
+  },
+  "ret_paused": true,
+  "runtime_acceptance_created": false,
+  "schema": "ri192-current-e-optimized-profile-adjudication-v1",
+  "scope": "One optimized-profile parent, PRE/POST metadata children and one selected optimized candidate-interpreter profile child. Snapshot180/profile30/524288KiB/25ms/100ms/50ms/genuine960s bounds remain unchanged. Original RI130 fields and separate E custody remain. Baseline and normal stage are independently accepted; profiles/guard predecessors remain null. Complete profile relation differs only by optimize flag; each full module/cache report is separately retained. No scientific target, guards or data analysis. Actual output requires independent review before both-mode acceptance or any guards.",
+  "source": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "source_review": {
+    "bytes": 3799,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+    "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+  },
+  "status": "ACCEPT_EXACT_SOURCE_FOR_ONE_NONSCIENTIFIC_OPTIMIZED_PROFILE"
+}

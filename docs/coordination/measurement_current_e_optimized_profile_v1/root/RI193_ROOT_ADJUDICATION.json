@@ -1,0 +1,49 @@
+{
+  "actual_terminal": "e3f394 exit0",
+  "fresh_root_check": {
+    "bytes": 1093,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_FRESH_CHECK.json",
+    "sha256": "df473e8352cf8ed7ae534145eb4cdc23b53c964719e8a1384d6498bd001118f9"
+  },
+  "guard_execution": false,
+  "next": "Separate nonauthor R01 path-sensitive applicability review and explicit eight-premise current-runtime decision before acceptance adapters or any science admission. No blanket65 rerun; only a justified smallest additional control under separate admission.",
+  "relation": {
+    "bytes": 12549,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/BOTH_MODE_RELATION.json",
+    "sha256": "f8f6fa0fc77fc26f023d48c84ddd5d47eff16018c9037919d5b0821b30695c38"
+  },
+  "ret_paused": true,
+  "retained_premises": [
+    "Genuine root/tool origin, stable host/supplier and previously independently accepted source semantics.",
+    "Parent-PID-only receipts, sampled child RSS and no descendants; no hard quota, instruction trace or continuous freeze.",
+    "Both complete reports and mode-specific cache identities retained; no bytecode/body equivalence claim.",
+    "Root-owned both-mode profiles card remains separate.",
+    "Separate nonauthor R01 path-sensitive and eight-premise runtime-applicability review; only genuinely needed smallest extra control, no blanket65 rerun.",
+    "Trusted Apple kernel/loader/shared-cache and selected suppliers; finite read-window stability and no descendants remain explicit.",
+    "Two optimized absent cache alternatives are preserved; no cache-body equivalence or import instruction trace is inferred."
+  ],
+  "review": {
+    "bytes": 14374,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/INDEPENDENT_REVIEW.md",
+    "sha256": "b05d5d3bf8e089e2fb493b4d8d2a688f573d9e2529a69822118b4aafccd9e515"
+  },
+  "review_actual_checks": [
+    "5098a1 exit0",
+    "dfee32 exit0",
+    "cab6c5 exit0"
+  ],
+  "root_saved_check": {
+    "bytes": 1854,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/ROOT_PROFILE_OPTIMIZED_CHECK.json",
+    "sha256": "4e1cf61124878ef33139ca2e887b6342ef5e6bd5738e771efaca2d3a78c0a103"
+  },
+  "schema": "ri193-root-current-e-optimized-profile-adjudication-v1",
+  "scientific_credit": false,
+  "scope": "One actual optimized nonscientific profile and complete relation to accepted normal outcome. Each full213-descriptor object and all228 saved monitor samples independently reconstructed. Two flags and30 cache paths exhaust full raw-report differences. Earlier source semantics remain independently accepted inherited premises, with reviewer source authorship disclosed.",
+  "status": "ACCEPT_CURRENT_E_OPTIMIZED_AND_BOTH_PROFILES",
+  "verdict": {
+    "bytes": 2610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/VERDICT.json",
+    "sha256": "472bde50e4cd99fbec1fa6f719cfe321f965831823bb3db30509420c5c8dd48e"
+  }
+}

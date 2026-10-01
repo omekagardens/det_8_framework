@@ -1,0 +1,50 @@
+{
+  "admission": {
+    "bytes": 3277,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_PROFILE_OPTIMIZED.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_PROFILE_OPTIMIZED.json",
+    "sha256": "55d5b9834bb64daf1cb4109adc61b7659eda117dd3691d7c4d4d587b5c820367",
+    "state": [
+      16777244,
+      421282,
+      33188,
+      1,
+      3277,
+      1790813771803944953,
+      1790813771803944953
+    ],
+    "symlink_chain": []
+  },
+  "preflight": {
+    "bytes": 2730,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_PREFLIGHT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_PREFLIGHT.json",
+    "sha256": "06bbccc14a0cc2f9baa33556ede7ef0cc5ad8bb9111018fbe7c85d42f81b70d8",
+    "state": [
+      16777244,
+      421280,
+      33188,
+      1,
+      2730,
+      1790813771801319774,
+      1790813771801319774
+    ],
+    "symlink_chain": []
+  },
+  "source_review": {
+    "bytes": 2151,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_SOURCE_ADJUDICATION.json",
+    "sha256": "1d2cca5751c3732f4b603604656935de554a60898cf04b462bad52708c9bf15b",
+    "state": [
+      16777244,
+      421281,
+      33188,
+      1,
+      2151,
+      1790813771802160944,
+      1790813771802160944
+    ],
+    "symlink_chain": []
+  }
+}

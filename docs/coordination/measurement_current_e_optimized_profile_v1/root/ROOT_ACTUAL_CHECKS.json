@@ -1,0 +1,32 @@
+{
+  "final_preflight_source": {
+    "bytes": 11772,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/prepare_optimized_profile.py",
+    "sha256": "574925e2ed03af109024c15cabda0967cb06a24986bb71e9bb2698f1f9e1cb47"
+  },
+  "final_saved_checker": {
+    "bytes": 16763,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/check_optimized_profile.py",
+    "sha256": "c90fe1d189fbb917e92d60420cc1f7f8c58aa2c2885a69038d62bd3d0eee9a5d"
+  },
+  "genuine_initial": "6d14e9/session69700",
+  "genuine_terminal": "e3f394 exit0",
+  "guard_execution": false,
+  "normal_identity_pin_added_after_initial_adaptation_record": true,
+  "post_custody": "ad6666/session68566 -> 5696fd exit0",
+  "preflight": "002374/session80231 -> 4ef443 exit0",
+  "root_saved_check": "30ec2f/session11393 -> fbbb31 exit0",
+  "schema": "ri192-root-actual-checks-v1",
+  "scientific_execution": false,
+  "semantic_read_tools": [
+    "b0432b",
+    "f9811b",
+    "eacd27",
+    "7a5a65"
+  ],
+  "source_diff_reviews": [
+    "828183",
+    "933320"
+  ],
+  "subject_rerun": false
+}

@@ -1,0 +1,92 @@
+{
+  "inputs": [
+    {
+      "bytes": 8027669,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_PREFLIGHT_OBSERVATION.json",
+      "sha256": "be42755c2b63fe46932c136819761d58f4938adcc3ded40a430d2be19eb6bbc5"
+    },
+    {
+      "bytes": 2730,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_PREFLIGHT.json",
+      "sha256": "06bbccc14a0cc2f9baa33556ede7ef0cc5ad8bb9111018fbe7c85d42f81b70d8"
+    },
+    {
+      "bytes": 2151,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_SOURCE_ADJUDICATION.json",
+      "sha256": "1d2cca5751c3732f4b603604656935de554a60898cf04b462bad52708c9bf15b"
+    },
+    {
+      "bytes": 1732,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_ADMISSION_CUSTODY.json",
+      "sha256": "469f299123132b110b119c742ddce4ef5af9a8d59a665158a6296162b18086ee"
+    },
+    {
+      "bytes": 2788,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_DISPATCH.json",
+      "sha256": "ca93f0053032bcef12679cbde1b11777e045a0a2f6020225f7de712a576b0d13"
+    },
+    {
+      "bytes": 131,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/GENUINE_PROFILE_OPTIMIZED_INITIAL.json",
+      "sha256": "fb3cf68edf9eaffa858b28b9ce17f8f1a5e6befb78d04379f2a41d651530d30f"
+    },
+    {
+      "bytes": 126,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/GENUINE_PROFILE_OPTIMIZED_COMPLETE.json",
+      "sha256": "58794b453a8ea84c54452dc22fd598503e065f94fdabd5cdc0bcda58a8569471"
+    },
+    {
+      "bytes": 8435617,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_POST_CUSTODY.json",
+      "sha256": "1be2455c049148205953b0dd4e68b46882fc751d475950ad7e5949194c6c08c8"
+    },
+    {
+      "bytes": 6362349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RUNTIME_POST_IDENTITIES.json",
+      "sha256": "ee1b6d14132cb64c563229cd3cb7456dd69083f9e8c7cea1e2c67c918c6a386f"
+    },
+    {
+      "bytes": 12201,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/OPERATION_FINAL_IDENTITIES.json",
+      "sha256": "7e88ea31387eb4d908eb750904df1a3dcf84d501289c92df1a58f33b342a7b60"
+    },
+    {
+      "bytes": 1471,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/GENUINE_OUTER.json",
+      "sha256": "e555c73d1922931451852b866b2182fa22d5c486433969862fe6227985380813"
+    },
+    {
+      "bytes": 1854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/ROOT_PROFILE_OPTIMIZED_CHECK.json",
+      "sha256": "4e1cf61124878ef33139ca2e887b6342ef5e6bd5738e771efaca2d3a78c0a103"
+    },
+    {
+      "bytes": 1131,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/ROOT_ACTUAL_CHECKS.json",
+      "sha256": "2fdf0401c3e8f9533745dadaaab93f1976cc16947d2011f26ce684501b167c95"
+    },
+    {
+      "bytes": 11772,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/prepare_optimized_profile.py",
+      "sha256": "574925e2ed03af109024c15cabda0967cb06a24986bb71e9bb2698f1f9e1cb47"
+    },
+    {
+      "bytes": 16763,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/check_optimized_profile.py",
+      "sha256": "c90fe1d189fbb917e92d60420cc1f7f8c58aa2c2885a69038d62bd3d0eee9a5d"
+    }
+  ],
+  "next": "Root reads complete independent checker/review and performs fresh identity check before any profiles-stage acceptance. Any next applicability review or controls require separate selection/admission. RET paused.",
+  "normal_acceptance": {
+    "bytes": 1680,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/NORMAL_ACCEPTANCE.json",
+    "sha256": "5470ddd468cba8a5168042ceb73d1ce5204971233f3b26ecbbe657d617da95d2"
+  },
+  "owner": "/root/archive_repro_review",
+  "question": "Independently adjudicate one actual optimized current-E profile and its both-mode relation to independently accepted RI190 normal outcome. Fully replay closed namespaces, genuine receipts, complete baseline and every monitor sample, module/cache/loader descriptor, source/admission/E/runtime custody. No source rerun. Report exact actual check commands/outcomes, findings and limitations; source authorship disclosed.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f",
+  "restrictions": "Only own exclusive external reservation. Do not rerun any original subject, scientific helper, optimized profile or guards; no scientific JSON/body/table decode, subject compile/AST/import/probe, fixtures/runtime/cards, repository/Git edits, new agents/threads. Administrative metadata-only saved-evidence checkers permitted, not subject execution. Retain exact gates; no blanket65 R01 assumption.",
+  "root_evidence": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01",
+  "schema": "ri193-independent-current-e-optimized-review-assignment-v1",
+  "source_semantics": "Previously independently accepted unchanged original RI141/RI130 preparation sources. Disclose prior authorship of bootstrap source; actual root execution is the independent subject here."
+}
