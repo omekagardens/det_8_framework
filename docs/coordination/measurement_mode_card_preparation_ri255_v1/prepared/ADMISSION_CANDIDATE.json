@@ -1,0 +1,68 @@
+{
+  "bootstrap_proposal": {
+    "bytes": 2450,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_BOOTSTRAP.proposal.py",
+    "sha256": "f5ccc9336ea6ae6c1a73d7a7370c7b981bb858a54992f470374ecf99f0489720"
+  },
+  "candidate": {
+    "action": "mode_card",
+    "bootstrap_preflight": {
+      "bytes": 4527,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/BOOTSTRAP_PREFLIGHT.json",
+      "sha256": "f266e927c376c6202598140a38bb563422c36d6986462a068e31e146ea8f484c"
+    },
+    "bounds": {
+      "file_bytes": 67108864,
+      "maximum_sample_gap_seconds": 0.1,
+      "ps_timeout_seconds": 0.05,
+      "rss_kib": 524288,
+      "target_poll_seconds": 0.025,
+      "wall_seconds": 180
+    },
+    "environment": {
+      "LC_ALL": "C",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PATH": "/usr/bin:/bin",
+      "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/tmp",
+      "TZ": "UTC",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+    },
+    "genuine_outer_required": true,
+    "output": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri249-mode-card-y170alnf",
+    "qualification": {
+      "bytes": 4041,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI162_CONSUMER_QUALIFICATION.json",
+      "sha256": "0e27e1393c949a24a244ef2e2367ed8c72a10df1d3e3a6057cee8a4d20c9e0d7"
+    },
+    "request": {
+      "bytes": 530,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_REQUEST.json",
+      "sha256": "0ff48797216ca57b070e63ff2e3081add9421e77947c9864d9599155a4eae091"
+    },
+    "schema": "ri156-root-adapter-admission-v1",
+    "source_manifest": {
+      "bytes": 147447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+      "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+    },
+    "source_review": {
+      "bytes": 2582,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+      "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+    },
+    "status": "AUTHORIZE_ONE_BOUNDED_METADATA_ACTION"
+  },
+  "future_admission_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/ADMIT_MODE_CARD.json",
+  "operational_authorization": false,
+  "root_input_acceptance": {
+    "bytes": 3898,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PRE_MODE_ROOT_ADJUDICATION.json",
+    "sha256": "93c1c27144ff07eb980efd26b6d3c155029ac4a43a3c419dc56a21cca3e52d00"
+  },
+  "schema": "ri249-wrapped-unissued-mode-card-admission-v1",
+  "status": "UNISSUED_NOT_OPERATIONAL_AUTHORITY"
+}

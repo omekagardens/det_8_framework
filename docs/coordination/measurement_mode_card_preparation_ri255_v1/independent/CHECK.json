@@ -1,0 +1,256 @@
+{
+  "E_directories": 9,
+  "E_files": 49,
+  "absences": 2,
+  "candidate_fields": 12,
+  "complete_fields": 13,
+  "decoded_administrative_paths": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/RESULT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/COMPLETE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI162_CONSUMER_QUALIFICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADMIT_ADAPTERS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/BOOTSTRAP_PREFLIGHT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/RUNTIME_ACCEPTANCE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/FROZEN.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.stdout",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/CAPTURE_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/COLLECTION_PROVENANCE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_POST_HOST.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_E.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_ROLE_CUSTODY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_SUPPLIER.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_SUPPLIER_STABLE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_SUPPLIER_STABLE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/ACTUAL_RUNTIME_NORMAL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/PRE_MODE_REQUEST.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI241_ROOT_INPUT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/ADMISSION_CANDIDATE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/BOOTSTRAP_PREFLIGHT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/CUSTODY_BEFORE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/E_BEFORE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_REQUEST.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_ATTEMPT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_COMPLETE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/SUPPLIER_BEFORE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/POSTFLIGHT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PRE_MODE_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/ROOT_PRE_MODE_OUTCOME_CHECK.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/MODE_CARD_SOURCE_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_HOST.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_TOOLS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_DECISION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_ROOT_LINEAGE.json",
+    "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/HANDOFF.json",
+    "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/REFERENCES.json"
+  ],
+  "empty_directories": 2,
+  "final_output_files": 9,
+  "fresh_inputs": {
+    "bytes": 1772568,
+    "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/FRESH_INPUTS.json",
+    "sha256": "11ef6c2dcc871020dbfde8a2083e2020bc19f979d5097f61fb5d40041bcd199b"
+  },
+  "genuine_host": {
+    "bytes": 1504,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_HOST.json",
+    "sha256": "240e1444dbd1737d4af754007e5e5b1e663b700a353a054dec328951bd40cb51"
+  },
+  "genuine_tool_record": {
+    "bytes": 1184,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_TOOLS.json",
+    "sha256": "7da6b5e80b2388f5dfa137f9f5dc43596b7a22d3e345f33fd2111f0c0768c79b"
+  },
+  "input_domain": 2920,
+  "limits": {
+    "mode_card_authority_absent": true,
+    "no_scientific_body_decode": true,
+    "no_writer_or_subject_reexecution": true,
+    "ordinary_administrative_interpreter_trusted": true,
+    "prospective_operation_absent": true,
+    "root_tool_origin_external_premise": true,
+    "science_or_new_qualification_credit": 0,
+    "selected_vendor_not_started": true
+  },
+  "output_identities": [
+    {
+      "bytes": 3105,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/ADMISSION_CANDIDATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/ADMISSION_CANDIDATE.json",
+      "sha256": "dcab635d988f46d240484edb47d514697f755d430991f40180c43eaf8e1ca014",
+      "state": [
+        16777244,
+        430466,
+        33188,
+        1,
+        3105,
+        1790878163958087982,
+        1790878163958087982
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4527,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/BOOTSTRAP_PREFLIGHT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/BOOTSTRAP_PREFLIGHT.json",
+      "sha256": "f266e927c376c6202598140a38bb563422c36d6986462a068e31e146ea8f484c",
+      "state": [
+        16777244,
+        430464,
+        33188,
+        1,
+        4527,
+        1790878163957014216,
+        1790878163957014216
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1890103,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/CUSTODY_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/CUSTODY_BEFORE.json",
+      "sha256": "97f8b29e77d2e6cd72cc54e963514d5ab0d5414cb8c2fd2f110bd39613732ff6",
+      "state": [
+        16777244,
+        430460,
+        33188,
+        1,
+        1890103,
+        1790878163944418233,
+        1790878163944418233
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 43288,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/E_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/E_BEFORE.json",
+      "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4",
+      "state": [
+        16777244,
+        430462,
+        33188,
+        1,
+        43288,
+        1790878163955827740,
+        1790878163955827740
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2450,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_BOOTSTRAP.proposal.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_BOOTSTRAP.proposal.py",
+      "sha256": "f5ccc9336ea6ae6c1a73d7a7370c7b981bb858a54992f470374ecf99f0489720",
+      "state": [
+        16777244,
+        430465,
+        33188,
+        1,
+        2450,
+        1790878163957643225,
+        1790878163957643225
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 530,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_REQUEST.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_REQUEST.json",
+      "sha256": "0ff48797216ca57b070e63ff2e3081add9421e77947c9864d9599155a4eae091",
+      "state": [
+        16777244,
+        430463,
+        33188,
+        1,
+        530,
+        1790878163956525333,
+        1790878163956525333
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 583,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_ATTEMPT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_ATTEMPT.json",
+      "sha256": "1dd3991f4b5969d18f88b78ebeb814a03dacf77755dfa5a1611f0a86805f9291",
+      "state": [
+        16777244,
+        430459,
+        33188,
+        1,
+        583,
+        1790878163927586936,
+        1790878163927586936
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3417552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_COMPLETE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_COMPLETE.json",
+      "sha256": "ba676572616591d7c0a7cadebf56b6b61f67c96f3fd9673841c95f906e91249d",
+      "state": [
+        16777244,
+        430467,
+        33188,
+        1,
+        3417552,
+        1790878164819572209,
+        1790878164819572209
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1260497,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/SUPPLIER_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/SUPPLIER_BEFORE.json",
+      "sha256": "bf695ce08cfbce3a80c33a9c9416be060dd7d9bb151375b720a768034750ab26",
+      "state": [
+        16777244,
+        430461,
+        33188,
+        1,
+        1260497,
+        1790878163952548481,
+        1790878163952548481
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "predicates": 506983,
+  "preflight_fields": 15,
+  "preparation_decision": {
+    "bytes": 1038,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_DECISION.json",
+    "sha256": "5ed6d0a72d6ddbdcacda804d7ab677f971650ba8f6e5af100a677735a539ecc4"
+  },
+  "prepared_artifacts_before_complete": 8,
+  "prior_operation_input_domain": 2883,
+  "request_fields": 4,
+  "retained_old_roles": 2811,
+  "role_counts": {
+    "copies": 48,
+    "history": 124,
+    "target_originals": 30
+  },
+  "schema": "ri255-independent-mode-card-preparation-check-v1",
+  "source_dependencies": 567,
+  "source_handoff": {
+    "bytes": 8850,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/HANDOFF.json",
+    "sha256": "ccf34c9baf147994366595cf73be92534733a9b7e3c3810d72c3f227f3a2ab3c"
+  },
+  "source_modules": 11,
+  "status": "PASS_COMPLETE_UNISSUED_PREPARATION_RECONSTRUCTION",
+  "supplier_namespaces": 195,
+  "tails": 6,
+  "tools": 4,
+  "vendor_bytes": 48024515,
+  "vendor_files": 1810,
+  "wrapper_fields": 7
+}

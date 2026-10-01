@@ -1,0 +1,49 @@
+{
+  "external_only_preserved": [
+    {
+      "bytes": 1772568,
+      "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/FRESH_INPUTS.json",
+      "sha256": "11ef6c2dcc871020dbfde8a2083e2020bc19f979d5097f61fb5d40041bcd199b"
+    }
+  ],
+  "include": [
+    {
+      "bytes": 12574,
+      "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/CHECK.json",
+      "sha256": "a17d6717d838f338d63f5882e3752e1754a2c797002d2bb6c04d466641cf4f6c"
+    },
+    {
+      "bytes": 17230,
+      "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/REVIEW.md",
+      "sha256": "6a0a0e9c5917c482d0b15fba8cf61ca61db20c23f9ff96492b657e6482305afe"
+    },
+    {
+      "bytes": 2037,
+      "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/ROOT_RECORD_BINDINGS.json",
+      "sha256": "120baf8b341ea8bbfa658600117472b4589e2a689e2b0ad727790bf16fa421e4"
+    },
+    {
+      "bytes": 2268,
+      "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/SUMMARY.json",
+      "sha256": "61ae4b9d5ec1fafa30273199130d4d4811cb39d30aff5f445d1b0e6f09f54408"
+    },
+    {
+      "bytes": 3742,
+      "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/TOOL_RECEIPTS.json",
+      "sha256": "3a7c054b4748b341db01b1dfa2bfa3846115800cd82be714db203bad7726c70b"
+    },
+    {
+      "bytes": 22007,
+      "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/check_saved.attempt1.py",
+      "sha256": "86f1b1f8fe2981f014fd381444406d3a5bd1b6eb04271bd0d2673a4bf1ecba49"
+    },
+    {
+      "bytes": 22167,
+      "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/check_saved.py",
+      "sha256": "ebfe730147a9ae4a703cf60ed9e6ba44f275ed411b0c42fc8814d0374b4ea044"
+    }
+  ],
+  "include_this_subset_and_final_handoff": true,
+  "schema": "ri255-independent-preparation-publication-subset-v1",
+  "scope": "Publish complete narrative/compact result, both reviewer checker versions, exact root binding references and actual receipt/diagnostics. The redundant full2920 freshly observed identity list remains external with exact bytes/hash. All original D/root/predecessor artifacts remain external dependencies unless root separately archives them; no scientific body publication is implied."
+}

@@ -1,0 +1,57 @@
+{
+  "E_unchanged": true,
+  "RET_paused": true,
+  "complete_tails": 6,
+  "completion": {
+    "bytes": 3417552,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_COMPLETE.json",
+    "sha256": "ba676572616591d7c0a7cadebf56b6b61f67c96f3fd9673841c95f906e91249d"
+  },
+  "empty_directories": 2,
+  "genuine_terminal_arguments": {
+    "bytes": 438,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_TERMINAL_ARGUMENTS.json",
+    "sha256": "ca6b6c4e2aad47ca4b2d3f782db8786faf325a0ba34c8cc9e265ea53e7416194"
+  },
+  "genuine_tools": {
+    "bytes": 1184,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_TOOLS.json",
+    "sha256": "7da6b5e80b2388f5dfa137f9f5dc43596b7a22d3e345f33fd2111f0c0768c79b"
+  },
+  "independent_handoff": {
+    "bytes": 4046,
+    "path": "/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/HANDOFF.json",
+    "sha256": "24a5d4a0acbc49746e71259aa4454d7ca477a19e44876ab8baf7c5c7263afff3"
+  },
+  "input_count": 2920,
+  "mode_card_installed": false,
+  "mode_card_operation_executed": false,
+  "operational_authorization": false,
+  "output_files": 9,
+  "pre_mode_preserved": true,
+  "preparation_decision": {
+    "bytes": 1038,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_DECISION.json",
+    "sha256": "5ed6d0a72d6ddbdcacda804d7ab677f971650ba8f6e5af100a677735a539ecc4"
+  },
+  "preparation_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf",
+  "qualification_credit": 0,
+  "root_check": {
+    "bytes": 15117,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/ROOT_PREPARATION_CHECK.json",
+    "sha256": "74063038dc1e89a275f6cdde858a42f2bf1280d02b6ae7a2a71aa089064df2b9"
+  },
+  "root_review": {
+    "bytes": 3661,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_ROOT_REVIEW.md",
+    "sha256": "8bda0b9f4794cebb5512dc61e5fbfab2159d1ead11c3ce311b27b0a836c0f5f2"
+  },
+  "schema": "ri255-mode-card-preparation-root-adjudication-v1",
+  "scientific_execution": false,
+  "source_adjudication": {
+    "bytes": 2725,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/MODE_CARD_SOURCE_ADJUDICATION.json",
+    "sha256": "ce3c42554d220a7bfc76d0844c7ec1728732b65a5bcc7d0c81321497d5b48870"
+  },
+  "status": "ACCEPT_EXACT_UNISSUED_MODE_CARD_PREPARATION_ONLY"
+}

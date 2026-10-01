@@ -1,0 +1,106 @@
+{
+  "actual_checker_receipt": {
+    "chunk_id": "703dcc",
+    "exit_code": 0
+  },
+  "all_original_authorities_closed": true,
+  "blocking_findings": [],
+  "complete_review": {
+    "bytes": 17701,
+    "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/REVIEW.md",
+    "sha256": "e111f5148c0d264e9a790393f596490fe8fad30b60233fcf6fa8b40ad43fecd4"
+  },
+  "diagnostics_preserved": [
+    {
+      "bytes": 3638,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/TOOL_RECEIPTS.json",
+      "sha256": "ecafc1b803bab899e8422cbe21894d47c55fd1570d85c588184961751ab1af7f"
+    },
+    {
+      "bytes": 987,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/SEAL_DIAGNOSTIC.json",
+      "sha256": "266ca5ed8b58decdc9105f1e443a5bd82cc45061a6d32be30f92fd3ea880ad26"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 445690,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/CHECK.json",
+      "sha256": "1cec7a78d09752207b5a552dd96f35ec29966fa9233ca0e487e69003ddd444e1"
+    },
+    {
+      "bytes": 26053,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/GENUINE_AUTHOR_CHECKS.json",
+      "sha256": "35976b7aee2227ff03aa2c43dfdbbba6c632332eeda3d655f6ca653afba6ee7b"
+    },
+    {
+      "bytes": 1962,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/PUBLICATION_SUBSET.json",
+      "sha256": "abfd7f7a773dad500238a7ca60908aa4feed0e0098fdb74c1fb12ab41378873e"
+    },
+    {
+      "bytes": 17701,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/REVIEW.md",
+      "sha256": "e111f5148c0d264e9a790393f596490fe8fad30b60233fcf6fa8b40ad43fecd4"
+    },
+    {
+      "bytes": 987,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/SEAL_DIAGNOSTIC.json",
+      "sha256": "266ca5ed8b58decdc9105f1e443a5bd82cc45061a6d32be30f92fd3ea880ad26"
+    },
+    {
+      "bytes": 2459,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/SUMMARY.json",
+      "sha256": "b0635acd3f52c3ebcbf53745831c939383cf4a7cea7a68560461ab7bac13c19f"
+    },
+    {
+      "bytes": 3638,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/TOOL_RECEIPTS.json",
+      "sha256": "ecafc1b803bab899e8422cbe21894d47c55fd1570d85c588184961751ab1af7f"
+    },
+    {
+      "bytes": 9856,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/check_metadata.py",
+      "sha256": "cbfda36d6efbed135465ae9fa1b1dad0f6469bf1362f99cb3cedd4c4bc091de4"
+    }
+  ],
+  "independence": "Nonauthor of RI248/RI252/RI254; earlier RI182 cleanup and measurement preparation/adapter authorship is outside current target. Inherited proof premises explicitly distinguished from newly reviewed theorem.",
+  "metadata_result": {
+    "bytes": 445690,
+    "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/CHECK.json",
+    "sha256": "1cec7a78d09752207b5a552dd96f35ec29966fa9233ca0e487e69003ddd444e1"
+  },
+  "namespace": [
+    "CHECK.json",
+    "GENUINE_AUTHOR_CHECKS.json",
+    "HANDOFF.json",
+    "PUBLICATION_SUBSET.json",
+    "REVIEW.md",
+    "SEAL_DIAGNOSTIC.json",
+    "SUMMARY.json",
+    "TOOL_RECEIPTS.json",
+    "check_metadata.py"
+  ],
+  "new_qualification_credit": 0,
+  "no_original_scientific_body_read_or_hash": true,
+  "no_subject_or_mathematical_engine_execution": true,
+  "publication_subset": {
+    "bytes": 1962,
+    "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/PUBLICATION_SUBSET.json",
+    "sha256": "abfd7f7a773dad500238a7ca60908aa4feed0e0098fdb74c1fb12ab41378873e"
+  },
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri254-independent-proof-review-handoff-v1",
+  "status": "SEALED_RECOMMEND_SCOPED_ANALYTIC_ACCEPTANCE_PENDING_ROOT",
+  "stop": "Root alone adjudicates and assigns a successor; none issued here.",
+  "subject": {
+    "bytes": 19285,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/HANDOFF.json",
+    "sha256": "5d56bac5238e9d8f1fa82fc912bc2ec1be66811ebb7af6f420504a898be88693"
+  },
+  "summary": {
+    "bytes": 2459,
+    "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/SUMMARY.json",
+    "sha256": "b0635acd3f52c3ebcbf53745831c939383cf4a7cea7a68560461ab7bac13c19f"
+  }
+}

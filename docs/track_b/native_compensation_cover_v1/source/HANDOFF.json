@@ -1,0 +1,341 @@
+{
+  "schema": "ri254-native-compensation-cover-handoff-v1",
+  "status": "SEALED_SOURCE_ONLY_AUTHOR_RESULT_PENDING_INDEPENDENT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko",
+  "author_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "review_owner_thread": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/RI254_ASSIGNMENT.json",
+    "bytes": 898,
+    "sha256": "1b62c801da747fe0c04e6bb833a60dfb65addcb40614466581ef78ac3d3bf1e7"
+  },
+  "assignment_text": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/RI254_ASSIGNMENT.md",
+    "bytes": 4135,
+    "sha256": "2a09617174682f27c53dc7b856ca516a380bf07cfaf70791bd8c0ecb748b838a"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/RI252_ROOT_ADJUDICATION.json",
+    "bytes": 2337,
+    "sha256": "e95d13a2f2aec722857745a8c59bbcdbab40fcbeec5c432ae707520873dfc621"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "COMPENSATION_COVER.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "PIECEWISE_REDUCTION.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/COMPENSATION_COVER.md",
+      "bytes": 11066,
+      "sha256": "008024d4d4541aae8c3455afa41ec9a429fa56308af5c1675c21d08660751367"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/HANDOFF.md",
+      "bytes": 2175,
+      "sha256": "cf8b38298bee569c58fd744a6cd8ac4f2cbc42102a4c4dc325d5d9a28b510baf"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/PIECEWISE_REDUCTION.md",
+      "bytes": 10569,
+      "sha256": "5e60196301a398976a8eb73d2aaa65f453c5fe2a56731a088c9c8698a6ef8e82"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/SOURCE_REFERENCES.json",
+      "bytes": 110977,
+      "sha256": "60da052ed617598855252f84973e01e80cba264b9ab40734f017429d26035588"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/AUTHOR_VERIFICATION.json",
+      "bytes": 32591,
+      "sha256": "b9b6ec92d21515ed648574e903d7a427b03e35fc64108bde016a2e1a14c660b2"
+    }
+  ],
+  "result": {
+    "type": "COMPLETE_SUPPORTED_COMPENSATION_COVER_AND_FINITE_PIECEWISE_ELIMINATION",
+    "new_results": [
+      "Complete supported eta/xi/sigma compensation family, every affected marked-parent constraint and finite epsilon bounds.",
+      "Manual Q/P_nu extension counts8/5 and history weights h/480,n/768; complete primary prices vh/32,vn/80 including other-parent costs.",
+      "Normalized attained cover minimum with prices15/14,3/7,bar_s; primary-or-equal-primary lex descent iff kappa>0 and M<=1.",
+      "Exact eta/xi block elimination and complete one-variable piecewise-linear minimization over at most five candidates, all support/tie/infeasible cases retained.",
+      "Canonical positive kappa requires at least three tight coefficient rows or a zero xi on a tight row; exact zero-sigma classification.",
+      "With all four coefficient rows tight, a cover at cost<=1 exists iff sigma is available and all four s-values are equal."
+    ],
+    "criterion": "For the full supported nonnegative family, primary-or-equal-primary lex descent iff kappa_i>0 and attained normalized cover minimum M<=1; strict primary iff M<1.",
+    "prices": "eta coverage15/14; xi coverage3/7; sigma actual four-row mean.",
+    "reduction": "Eliminate eta/xi blocks exactly; evaluate at most five mathematically specified sigma candidates when sigma is available, otherwise the feasible zero endpoint or infeasible cover.",
+    "canonical_support_obstruction": "Positive kappa requires at least three tight coefficient rows or a zero xi on a tight row.",
+    "all_tight_case": "If all four rows are tight, M<=1 iff sigma available and all four s-values equal.",
+    "unresolved": [
+      "Actual canonical support/tight set and four lower s-values; actual cover minimum.",
+      "Actual kappa-sector gap, C_b, normalized witness or signed inconsistency.",
+      "Closed source-route index binding and any necessary absent-entry convention."
+    ]
+  },
+  "actual_full_normalized_witness": false,
+  "actual_signed_inconsistency": false,
+  "canonical_Cb_resolved": false,
+  "actual_kappa_gap_resolved": false,
+  "actual_cover_minimum_evaluated": false,
+  "complete_original_recovery_retained": true,
+  "accepted_full_system_iff_retained": true,
+  "inherited_zero_hook_branch_retained": true,
+  "successor_assigned": false,
+  "qualification_credit": 0,
+  "preserved_boundary_keys": [
+    "inherited_manifest_by_reference",
+    "inherited_original_six_admissions",
+    "inherited_additional_admissions",
+    "inherited_RI189_analytic_admission",
+    "inherited_shared_affine_admission",
+    "inherited_RI223_literal_admissions",
+    "inherited_RI225_disconnected_admission",
+    "inherited_RI228_construction_admissions",
+    "accepted_four_root_witness",
+    "predecessor_literal_exception_boundary",
+    "inherited_RI216_native_premises_by_reference",
+    "predecessor_lower_law_metadata_boundary",
+    "historical_diagnostics_preserved",
+    "executable_obligations",
+    "historical_RI231_literal_exception"
+  ],
+  "preserved_boundaries_reference": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SOURCE_REFERENCES.json",
+    "bytes": 106101,
+    "sha256": "8402f099d5269d2dce3e1036019288845869d9712e03f67ea47f9a0c7c5db73f"
+  },
+  "closed_literal_authority": {
+    "reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SOURCE_REFERENCES.json",
+      "bytes": 106101,
+      "sha256": "8402f099d5269d2dce3e1036019288845869d9712e03f67ea47f9a0c7c5db73f"
+    },
+    "field": "closed_RI250_literal_exception_by_reference",
+    "closure": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/RI252_ROOT_ADJUDICATION.json",
+      "bytes": 2337,
+      "sha256": "e95d13a2f2aec722857745a8c59bbcdbab40fcbeec5c432ae707520873dfc621"
+    },
+    "closed": true,
+    "new_body_read_or_hash": false,
+    "all_older_exceptions_remain_closed": true
+  },
+  "current_scope": {
+    "manual_mathematical_reasoning": true,
+    "manually_derived_history_weights_and_prices": true,
+    "automatic_scientific_arithmetic": false,
+    "scientific_body_read": false,
+    "scientific_body_hash": false,
+    "scientific_JSON_decoded": false,
+    "new_coordinate_read": false,
+    "new_coefficients_acquired": false,
+    "actual_support_or_tight_set_evaluated": false,
+    "actual_cover_minimum_evaluated": false,
+    "full_vector_instantiated": false,
+    "H_or_z_reconstructed": false,
+    "new_amplitude": false,
+    "subject_execution": false,
+    "measurement_access": false,
+    "RET_access": false,
+    "repository_changes": false,
+    "git_or_index_operations": false,
+    "source_admission_issued": false,
+    "successor_assigned": false,
+    "original_literal_exceptions_renewed": false,
+    "qualification_credit": 0
+  },
+  "actual_final_proof_read_receipt": {
+    "chunk_id": "99b6cb",
+    "exit_code": 0,
+    "complete_display": true
+  },
+  "actual_preseal_receipt": {
+    "chunk_id": "c609a3",
+    "exit_code": 0,
+    "complete_display": true,
+    "result": {
+      "schema": "ri254-metadata-check-result-v1",
+      "mode": "preseal",
+      "exit_intent": 0,
+      "scope": "Administrative identity/namespace/boundary and declaration comparison only; no original scientific body or mathematical verification.",
+      "direct_sources": 133,
+      "direct_bytes": 2719249,
+      "whole_identities": 137,
+      "preserved_boundaries": 15,
+      "inherited_manifest_sources_by_reference": 423,
+      "original_scientific_body_read": false,
+      "original_scientific_body_hash": false,
+      "scientific_JSON_decoded": false,
+      "scientific_arithmetic": false,
+      "scientific_execution": false,
+      "all_original_literal_exceptions_closed": true,
+      "current_diagnostics": {
+        "failed_shell_commands": 0,
+        "failed_orchestration_attempts": 0,
+        "rejected_patches": 0,
+        "clipped_displays": 0
+      },
+      "current_namespace": [
+        "COMPENSATION_COVER.md",
+        "HANDOFF.md",
+        "PIECEWISE_REDUCTION.md",
+        "SOURCE_REFERENCES.json"
+      ],
+      "predecessor_namespace": [
+        "AUTHOR_VERIFICATION.json",
+        "HANDOFF.json",
+        "HANDOFF.md",
+        "SIGMA_EXCHANGE.md",
+        "SIGMA_KEYS_AND_WEIGHTS.md",
+        "SOURCE_REFERENCES.json"
+      ],
+      "current_identities": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/COMPENSATION_COVER.md",
+          "bytes": 11066,
+          "sha256": "008024d4d4541aae8c3455afa41ec9a429fa56308af5c1675c21d08660751367"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/HANDOFF.md",
+          "bytes": 2175,
+          "sha256": "cf8b38298bee569c58fd744a6cd8ac4f2cbc42102a4c4dc325d5d9a28b510baf"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/PIECEWISE_REDUCTION.md",
+          "bytes": 10569,
+          "sha256": "5e60196301a398976a8eb73d2aaa65f453c5fe2a56731a088c9c8698a6ef8e82"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/SOURCE_REFERENCES.json",
+          "bytes": 110977,
+          "sha256": "60da052ed617598855252f84973e01e80cba264b9ab40734f017429d26035588"
+        }
+      ]
+    }
+  },
+  "actual_author_identity_receipt": {
+    "chunk_id": "3e77b9",
+    "exit_code": 0
+  },
+  "final_metadata_verification": "Genuine final6 follows this write; its actual complete receipt will be delivered separately. Success is not predicted.",
+  "diagnostics": {
+    "failed_shell_commands": 0,
+    "failed_orchestration_attempts": 0,
+    "rejected_patches": 0,
+    "clipped_displays": 0,
+    "predecessor_diagnostics_preserved": true,
+    "predecessor_diagnostics": {
+      "failed_shell_commands": 0,
+      "failed_orchestration_attempts": 1,
+      "rejected_patches": 0,
+      "clipped_displays": 0,
+      "orchestration_detail": "Initial attempt to reuse an in-memory prior-turn root path found the store unavailable; storing undefined was rejected before any shell command or filesystem access. Restored explicit authority paths and readonly helper from retained context.",
+      "predecessor_diagnostics_preserved": true,
+      "predecessor_diagnostics": {
+        "failed_shell_commands": 0,
+        "failed_orchestration_attempts": 0,
+        "rejected_patches": 0,
+        "clipped_displays": 0,
+        "predecessor_diagnostics_preserved": true,
+        "predecessor_diagnostics": {
+          "failed_shell_commands": 0,
+          "failed_orchestration_attempts": 0,
+          "rejected_patches": 0,
+          "clipped_displays": 0,
+          "predecessor_diagnostics_preserved": true,
+          "predecessor_diagnostics": {
+            "failed_shell_commands": 2,
+            "failed_orchestration_attempts": 0,
+            "rejected_patches": 0,
+            "clipped_displays": 0,
+            "predecessor_diagnostics_preserved": true,
+            "predecessor_diagnostics": {
+              "failed_shell_commands": 0,
+              "failed_orchestration_attempts": 1,
+              "rejected_patches": 1,
+              "clipped_displays": 0,
+              "repair_detail": "One formatting-only apply_patch call was rejected before changes because it contained multiple file operations for the same path. The orchestration surfaced that same rejection. Reissued with one operation per file and multiple hunks; success. No scientific data read, changed premise or partial write resulted.",
+              "predecessor_diagnostics_preserved": true,
+              "predecessor_diagnostics": {
+                "failed_shell_commands": 0,
+                "failed_orchestration_attempts": 0,
+                "rejected_patches": 0,
+                "clipped_displays": 1,
+                "clipped_detail": "7343f8 combined analytic display clipped inside COMPONENT_ROUTING. Complete COMPONENT_ROUTING recovered in a466a8 exit0; complete ENDPOINT_CERTIFICATE and COUPLED_CONTRAST reread in bf74ca exit0. No clipped display is credited as a complete source read.",
+                "predecessor_diagnostics_preserved": true,
+                "predecessor_diagnostics": {
+                  "failed_shell_commands": 0,
+                  "failed_orchestration_attempts": 1,
+                  "orchestration_detail": "An initial in-memory source-list selection used row.path instead of row.identity.path and threw TypeError before any shell command or filesystem access. Corrected selection completed in 3881c4 exit0. No source was read or changed by the failed attempt.",
+                  "rejected_patches": 0,
+                  "clipped_displays": 0,
+                  "predecessor_diagnostics_preserved": true,
+                  "predecessor_diagnostics": {
+                    "failed_shell_commands": 1,
+                    "failed_shell_detail": "4f3d0e: initial read-only AGENTS.md filename inventory across workspace and evidence paths returned no matches, exit1; pwd succeeded. No source body was displayed by that inventory and no Git/index or write occurred.",
+                    "failed_orchestration_attempts": 0,
+                    "rejected_patches": 0,
+                    "clipped_displays": 2,
+                    "clipped_recovery": "f71fd3 combined display clipped; complete RESULT and DESIGN recovered d6840c, ROOT_TRANSPORT recovered1e0960. a388f0 combined display clipped inside CONNECTED_CONSTRAINTS_LEMMA; whole file recovered af358e. No clipped passage supplies complete-read credit.",
+                    "predecessor_diagnostics_preserved": true
+                  }
+                }
+              }
+            },
+            "predecessor_retrieval_observation": {
+              "source": {
+                "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI243_ROOT_REVIEW.md",
+                "bytes": 3743,
+                "sha256": "9ae154fde977d3952bce93827be7b23e078bdd7cb6cc56c7a84374cf5860039b"
+              },
+              "observation": "Root retrieved the original RI243 final6 as completed exit0, but its API output was truncated. That retrieved partial output is not represented as a complete receipt. Fresh independent checks corroborated current metadata. This does not rewrite original author diagnostics or imply current RI246 literal clipping."
+            },
+            "failed_shell_detail": "Preseal b8b4ed exited1 because JSON.stringify compared the source identity object's property insertion order instead of path/bytes/SHA256 fields; corrected to fieldwise identity comparison. Final6 9fd682 exited1 because the same serialization-order issue affected current diagnostics: an in-place source-reference patch placed failed_shell_detail earlier than the in-memory object later serialized into author/handoff. Both compared values were unchanged. Corrected diagnostics comparison to recursive key-order-independent administrative equality and resealed the current author packet. No scientific JSON parse, arithmetic engine, coefficient change or source repair occurred."
+          },
+          "predecessor_retrieval_observation": {
+            "source": {
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_INDEPENDENT_REVIEW.txt",
+              "bytes": 13914,
+              "sha256": "a63b92a07098e4b14fe4a681a1cea72df4cf1d63c35084d31f619105c8d39d10"
+            },
+            "observation": "RI246 original final6 retrieval was API-truncated; original literal and failure outputs were complete. Fresh independent/root checks corroborated current metadata. This remains distinct from current RI248 complete displays and does not rewrite inherited author diagnostics."
+          }
+        },
+        "predecessor_retrieval_observation": {
+          "source": {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_INDEPENDENT_REVIEW.txt",
+            "bytes": 14436,
+            "sha256": "045ad7fecc017e591feb1748f1d860d1ef78e6abb80b01df1eb69187b6d180ec"
+          },
+          "observation": "Root-independent retrieval of RI248 final proof display was API-truncated at 20000 characters. Original author complete proof display remains distinct; independent full local reads recovered proof content. Genuine compact preseal and final6 receipts were retrieved completely. No current RI250 display was clipped."
+        }
+      },
+      "predecessor_retrieval_observation": {
+        "source": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_INDEPENDENT_REVIEW.txt",
+          "bytes": 11564,
+          "sha256": "8e85d1af9ce82baefb4a005479349280fced7f62994124430bdda38327309f1a"
+        },
+        "observation": "Independent review retrieved the RI250 original literal command as completed exit0 but API-truncated at 20000 characters without end/after-custody markers; that partial retrieval is not credited as a complete receipt. Author's genuine complete original display remains distinct. Root and nonauthor independently displayed the original completely under their now-closed authority. No current RI252 original body access or display clipping."
+      }
+    },
+    "predecessor_retrieval_observation": {
+      "source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/independent/INDEPENDENT_REVIEW.md",
+        "bytes": 16927,
+        "sha256": "425cd5969745399a21a9b1132b177e38a10437491ff68b00b1b763f0ce98dec0"
+      },
+      "observation": "Independent review retrieved genuine RI252 compact preseal/final6 completely, exit0. It preserved the prior in-memory author failure as explicitly declared because its raw failed item was not in the retrieved list. Reviewer overbroad in-memory projection clipped once; compact projections recovered complete receipts. These historical distinctions do not become current author failures or source clipping."
+    }
+  },
+  "skill_use": {
+    "skill": "pages:write-page",
+    "skill_read": "3e1fe7",
+    "quality_read": "42b1ff",
+    "impact": "Separated exact local-cover theorem, finite reduction and symbolic consequences from unacquired actual canonical support/values; retained established external research format and no cloud Page."
+  },
+  "stopping_rule": "Stop at bounded analytic theorem/obstruction for independent root adjudication. No original-body admission, actual support/value acquisition, engine, runtime, measurement/RET, repo/Git/index/publication or successor."
+}

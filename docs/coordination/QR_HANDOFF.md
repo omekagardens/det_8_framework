@@ -1,6 +1,62 @@
-# Current QR coordination — sigma obstruction accepted; full compensation criterion active
+# Current QR coordination — compensation criterion accepted; signed redistribution active
 
-**Current follow-through — strict sigma obstruction accepted; mode-card source reviewed.**
+**Current follow-through — complete compensation criterion accepted; preparation verified.**
+1 October 2026. RI254 gives an exact criterion for the full supported
+nonnegative eta/xi/sigma compensation family. Its actual marked history
+weights give normalized prices 15/14 and 3/7. The supported covering minimum
+M is attained when feasible; positive kappa permits primary-or-equal-primary
+lex descent exactly when M<=1. Complete block elimination reduces the sigma
+choice to at most five candidates, retaining zero allocations and ties.
+
+Positive canonical kappa therefore requires at least three tight coefficient
+rows or a zero xi on a tight row. When all four rows are tight, cost at most
+one is possible exactly with available sigma and four equal s values. This
+is a limitation of that family, not an evaluation of actual support, lower
+coefficients, the kappa gap or C_b. Global and physical conclusions remain
+open. Evidence: `docs/track_b/native_compensation_cover_v1/`.
+
+Root and nonauthor independently reviewed the full proofs and checked 139
+identities, 133 direct sources / 2,719,249 bytes, 123 predecessor sources and 15
+unchanged boundary objects. Genuine author final metadata verification was
+completed exit 0 with untruncated compact output. The reviewer's sealing
+diagnostic and root display diagnostics remain preserved. Administrative
+integrity is separate from the manual mathematical adjudication.
+
+After adjudication, root assigned RI256 to the existing Quantum Relativity
+chat: signed eta-increase/xi-decrease redistribution with complete Q/P_nu
+constraints and original dual compatibility. It must produce a new descent
+or a precise remaining binding obstruction in the surviving positive-kappa
+cases. Additional positive coordinates require their own complete earliest
+change test if equality is used. Its active work is excluded here.
+
+The measurement lane executed the accepted administrative preparation once:
+ba403e/session49699 to8b2cd4 exited0 with empty streams. Root and nonauthor
+reconstructed all nine unissued outputs, the exact 2,920-input domain,
+request4, wrapper7/candidate12, preflight15, completion13 and all six tails.
+Fresh full custody preserves 1,810 supplier files / 48,024,515 bytes, four tools,
+195 namespaces / two absences, frozen E's 49 files / nine directories and the prior
+pre-mode evidence. Every actual output has stable regular-file custody.
+Evidence: `docs/coordination/measurement_mode_card_preparation_ri255_v1/`.
+
+Preparation is accepted only within its unissued scope. O and operational
+cards remain absent. The next measurement step is fresh complete custody,
+a separate closed mode_card admission/dispatch and one metadata action,
+then independent actual-candidate review. Separate E installation and
+dispatch specification precede scientific admission. Normal independent
+arithmetic, optimized mode, RI131/full32 and the selected public GWOSC
+conventional reproduction remain ordered. Calibration is not a native
+forward map. No scientific execution or new qualification credit occurred.
+
+All 13 equations / 10 coordinates, full recovery, actual selector and offsets,
+accepted d=0!=d7 and normalized existence iff actual C_b=0, whole records,
+ideals, newborns, strict endpoints, 15 boundaries and the 423-source manifest
+remain. RI250 GAP-INDEX remains unresolved; all original literal exceptions
+remain closed.
+RET alone is paused. Parent 0070fb23c42e53536f6eeff0b1f47b5b56c4f1cf was
+verified on origin/ret. Root owns Git and operational admissions; unrelated
+edits and active reservations remain preserved. The programme continues.
+
+**Prior checkpoint — strict sigma obstruction accepted; mode-card source reviewed.**
 1 October 2026, Honolulu. RI252 gives the complete positive sigma-compensated
 exchange criterion in the original finite canonical problem. Positive kappa
 and sigma require a tight companion row strictly below its sector mean. The

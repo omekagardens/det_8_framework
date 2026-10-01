@@ -1,0 +1,40 @@
+{
+  "RET_paused": true,
+  "bootstrap": {
+    "bytes": 2450,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_BOOTSTRAP.proposal.py",
+    "sha256": "f5ccc9336ea6ae6c1a73d7a7370c7b981bb858a54992f470374ecf99f0489720"
+  },
+  "candidate_wrapper": {
+    "bytes": 3105,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/ADMISSION_CANDIDATE.json",
+    "sha256": "dcab635d988f46d240484edb47d514697f755d430991f40180c43eaf8e1ca014"
+  },
+  "operational_authorization": false,
+  "preparation_acceptance": {
+    "bytes": 2657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_ROOT_ADJUDICATION.json",
+    "sha256": "6d5fd1c63999e5b45e0eac9c1bd52dfac796b40d382d557bb5e4400c2473c8f2"
+  },
+  "prospective_operation": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri249-mode-card-y170alnf",
+  "request": {
+    "bytes": 530,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_REQUEST.json",
+    "sha256": "0ff48797216ca57b070e63ff2e3081add9421e77947c9864d9599155a4eae091"
+  },
+  "schema": "ri255-next-mode-card-action-v1",
+  "scientific_execution": false,
+  "source_recipes": {
+    "bytes": 4705,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/ROOT_RECIPES.json",
+    "sha256": "1d4954330906f2dba11d14d3f6b875ebdf12726d9fb7f57ccdca38bd758ed1b4"
+  },
+  "status": "NEXT_STEP_DESIGN_NOT_OPERATIONAL_AUTHORITY",
+  "steps": [
+    "Fresh complete current source/input/previous preparation and operation/supplier/host/E custody, retaining every original state and absence requirement.",
+    "Root separately issues the literal closed12 candidate as ADMIT_MODE_CARD.json plus a bound dispatch; unissued wrapper and preflight remain immutable.",
+    "One exact bounded metadata mode_card action using the already selected original RI160 adapter and unchanged RI141 monitor, direct Apple Python3.9, original six bounds and genuine outer alarm960.",
+    "Independent/root reconstruction of all operation/monitor evidence and full ten-field actual candidate with fresh post custody.",
+    "Separate review and exact E installation, then dispatch specification and scientific normal admission; independent arithmetic precedes optimized science, RI131/full32 and conventional selected GWOSC reproduction."
+  ]
+}

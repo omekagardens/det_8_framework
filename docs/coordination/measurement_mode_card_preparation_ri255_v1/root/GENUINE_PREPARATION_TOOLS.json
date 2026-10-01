@@ -1,0 +1,28 @@
+{
+  "schema": "ri255-genuine-preparation-tools-v1",
+  "initial": {
+    "arguments": {
+      "cmd": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri249-mode-card-preparation-proposal-y170alnf/prepare_unissued.py --root-decision /Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_DECISION.json --root-decision-sha256 5ed6d0a72d6ddbdcacda804d7ab677f971650ba8f6e5af100a677735a539ecc4",
+      "workdir": "/Volumes/AI_DATA/development/det_8_framework-ret",
+      "login": false,
+      "max_output_tokens": 2300,
+      "yield_time_ms": 1000,
+      "sandbox_permissions": "require_escalated",
+      "justification": "May I run the accepted administrative preparation writer once to create its nine unissued artifacts, preserving frozen evidence and without scientific execution or issuing an operational card?"
+    },
+    "result": {
+      "chunk_id": "ba403e",
+      "wall_time_seconds": 1.002491458,
+      "session_id": 49699,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  "terminal": {
+    "chunk_id": "8b2cd4",
+    "wall_time_seconds": 0.00001,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  }
+}

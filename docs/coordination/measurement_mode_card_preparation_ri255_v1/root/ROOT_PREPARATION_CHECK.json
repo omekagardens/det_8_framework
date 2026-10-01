@@ -1,0 +1,345 @@
+{
+  "E_directories": 9,
+  "E_files": 49,
+  "E_unchanged": true,
+  "RET_paused": true,
+  "all_six_tails_reconstructed": true,
+  "decision": {
+    "bytes": 1038,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_DECISION.json",
+    "sha256": "5ed6d0a72d6ddbdcacda804d7ab677f971650ba8f6e5af100a677735a539ecc4"
+  },
+  "diagnostics": [
+    "13570c overly broad COMPLETE display clipped",
+    "f90802 structural display clipped then TypeError on len(None); no target action; corrected bounded0dfe6d"
+  ],
+  "exact_input_domain": true,
+  "full_preflight": {
+    "E_observation": {
+      "bytes": 43288,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/E_BEFORE.json",
+      "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4"
+    },
+    "environment": {
+      "LC_ALL": "C",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PATH": "/usr/bin:/bin",
+      "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/tmp",
+      "TZ": "UTC",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+    },
+    "genuine_host": {
+      "bytes": 1504,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_HOST.json",
+      "sha256": "240e1444dbd1737d4af754007e5e5b1e663b700a353a054dec328951bd40cb51"
+    },
+    "input_acceptance": {
+      "bytes": 3898,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PRE_MODE_ROOT_ADJUDICATION.json",
+      "sha256": "93c1c27144ff07eb980efd26b6d3c155029ac4a43a3c419dc56a21cca3e52d00"
+    },
+    "operation_premises": [
+      "Unchanged reviewed isolated vendor/stdlib and adapter sources do not introduce undeclared dynamic suppliers or child descendants; explicit source/platform assumptions, not runtime closure proofs.",
+      "Root retains before/after hashes, source/card bytes and exact environment. Read-window stability is not an enforced global filesystem freeze.",
+      "Fixed 960s outer alarm and reviewed 180s child monitor are operational controls, not continuous/group RSS enforcement. Any missed100ms sampling gap, absent samples, output overflow or genuine nonzero exit refuses this attempt."
+    ],
+    "operational_authorization": false,
+    "platform_premises": [
+      "For these bounded local qualification operations, rely on the installed macOS 26.5.2/build25F84 Apple kernel, loader and shared cache implementation/integrity and resolution of the 17 explicitly named system suppliers. This is a root trust premise, not a demonstrated cache inventory or availability claim. An actual load failure refuses the operation.",
+      "Rely on the pinned inspection tools and Apple signature policy/trust store as observation infrastructure. Their transitive runtime, file magic database and trust roots were not independently closed.",
+      "Accept the 76-file installed-extension overapproximation as sufficient finite STATIC non-system scope for the unchanged isolated qualification sources. Dynamic import behavior, controlled environment, stable suppliers and actual flags remain separately checked or explicitly premised for each dispatch."
+    ],
+    "runtime_observation": {
+      "bytes": 1260497,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/SUPPLIER_BEFORE.json",
+      "sha256": "bf695ce08cfbce3a80c33a9c9416be060dd7d9bb151375b720a768034750ab26"
+    },
+    "schema": "ri249-root-unissued-mode-card-preflight-v1",
+    "scientific_execution_authorized": false,
+    "selected_interpreter_binding": {
+      "bytes": 102352,
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+      "state": [
+        16777232,
+        172336345,
+        33261,
+        1,
+        102352,
+        1762508227000000000,
+        1763521990665808991
+      ],
+      "symlink_chain": []
+    },
+    "source_acceptance": {
+      "bytes": 2582,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+      "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+    },
+    "source_observation": {
+      "bytes": 1890103,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/CUSTODY_BEFORE.json",
+      "sha256": "97f8b29e77d2e6cd72cc54e963514d5ab0d5414cb8c2fd2f110bd39613732ff6"
+    },
+    "static_native_adjudication": {
+      "bytes": 2910,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+      "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+    },
+    "status": "PREPARED_UNISSUED_PENDING_INDEPENDENT_ROOT_REVIEW"
+  },
+  "full_request": {
+    "freeze": {
+      "bytes": 26214,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+      "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+    },
+    "mode": "normal",
+    "normal_acceptance": null,
+    "pre": {
+      "bytes": 1085,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/RESULT.json",
+      "sha256": "3979388c9ccfb95102c2e53b8eebc881f6b6899fb2adaefb03051b0b72718544"
+    }
+  },
+  "full_wrapper": {
+    "bootstrap_proposal": {
+      "bytes": 2450,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_BOOTSTRAP.proposal.py",
+      "sha256": "f5ccc9336ea6ae6c1a73d7a7370c7b981bb858a54992f470374ecf99f0489720"
+    },
+    "candidate": {
+      "action": "mode_card",
+      "bootstrap_preflight": {
+        "bytes": 4527,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/BOOTSTRAP_PREFLIGHT.json",
+        "sha256": "f266e927c376c6202598140a38bb563422c36d6986462a068e31e146ea8f484c"
+      },
+      "bounds": {
+        "file_bytes": 67108864,
+        "maximum_sample_gap_seconds": 0.1,
+        "ps_timeout_seconds": 0.05,
+        "rss_kib": 524288,
+        "target_poll_seconds": 0.025,
+        "wall_seconds": 180
+      },
+      "environment": {
+        "LC_ALL": "C",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PATH": "/usr/bin:/bin",
+        "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/tmp",
+        "TZ": "UTC",
+        "VECLIB_MAXIMUM_THREADS": "1",
+        "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+      },
+      "genuine_outer_required": true,
+      "output": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri249-mode-card-y170alnf",
+      "qualification": {
+        "bytes": 4041,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI162_CONSUMER_QUALIFICATION.json",
+        "sha256": "0e27e1393c949a24a244ef2e2367ed8c72a10df1d3e3a6057cee8a4d20c9e0d7"
+      },
+      "request": {
+        "bytes": 530,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_REQUEST.json",
+        "sha256": "0ff48797216ca57b070e63ff2e3081add9421e77947c9864d9599155a4eae091"
+      },
+      "schema": "ri156-root-adapter-admission-v1",
+      "source_manifest": {
+        "bytes": 147447,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+        "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+      },
+      "source_review": {
+        "bytes": 2582,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+        "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+      },
+      "status": "AUTHORIZE_ONE_BOUNDED_METADATA_ACTION"
+    },
+    "future_admission_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/ADMIT_MODE_CARD.json",
+    "operational_authorization": false,
+    "root_input_acceptance": {
+      "bytes": 3898,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PRE_MODE_ROOT_ADJUDICATION.json",
+      "sha256": "93c1c27144ff07eb980efd26b6d3c155029ac4a43a3c419dc56a21cca3e52d00"
+    },
+    "schema": "ri249-wrapped-unissued-mode-card-admission-v1",
+    "status": "UNISSUED_NOT_OPERATIONAL_AUTHORITY"
+  },
+  "input_count": 2920,
+  "operational_authorization": false,
+  "output_identities": [
+    {
+      "bytes": 3105,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/ADMISSION_CANDIDATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/ADMISSION_CANDIDATE.json",
+      "sha256": "dcab635d988f46d240484edb47d514697f755d430991f40180c43eaf8e1ca014",
+      "state": [
+        16777244,
+        430466,
+        33188,
+        1,
+        3105,
+        1790878163958087982,
+        1790878163958087982
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4527,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/BOOTSTRAP_PREFLIGHT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/BOOTSTRAP_PREFLIGHT.json",
+      "sha256": "f266e927c376c6202598140a38bb563422c36d6986462a068e31e146ea8f484c",
+      "state": [
+        16777244,
+        430464,
+        33188,
+        1,
+        4527,
+        1790878163957014216,
+        1790878163957014216
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1890103,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/CUSTODY_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/CUSTODY_BEFORE.json",
+      "sha256": "97f8b29e77d2e6cd72cc54e963514d5ab0d5414cb8c2fd2f110bd39613732ff6",
+      "state": [
+        16777244,
+        430460,
+        33188,
+        1,
+        1890103,
+        1790878163944418233,
+        1790878163944418233
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 43288,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/E_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/E_BEFORE.json",
+      "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4",
+      "state": [
+        16777244,
+        430462,
+        33188,
+        1,
+        43288,
+        1790878163955827740,
+        1790878163955827740
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2450,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_BOOTSTRAP.proposal.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_BOOTSTRAP.proposal.py",
+      "sha256": "f5ccc9336ea6ae6c1a73d7a7370c7b981bb858a54992f470374ecf99f0489720",
+      "state": [
+        16777244,
+        430465,
+        33188,
+        1,
+        2450,
+        1790878163957643225,
+        1790878163957643225
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 530,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_REQUEST.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_REQUEST.json",
+      "sha256": "0ff48797216ca57b070e63ff2e3081add9421e77947c9864d9599155a4eae091",
+      "state": [
+        16777244,
+        430463,
+        33188,
+        1,
+        530,
+        1790878163956525333,
+        1790878163956525333
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 583,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_ATTEMPT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_ATTEMPT.json",
+      "sha256": "1dd3991f4b5969d18f88b78ebeb814a03dacf77755dfa5a1611f0a86805f9291",
+      "state": [
+        16777244,
+        430459,
+        33188,
+        1,
+        583,
+        1790878163927586936,
+        1790878163927586936
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1260497,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/SUPPLIER_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/SUPPLIER_BEFORE.json",
+      "sha256": "bf695ce08cfbce3a80c33a9c9416be060dd7d9bb151375b720a768034750ab26",
+      "state": [
+        16777244,
+        430461,
+        33188,
+        1,
+        1260497,
+        1790878163952548481,
+        1790878163952548481
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3417552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_COMPLETE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/PREPARATION_COMPLETE.json",
+      "sha256": "ba676572616591d7c0a7cadebf56b6b61f67c96f3fd9673841c95f906e91249d",
+      "state": [
+        16777244,
+        430467,
+        33188,
+        1,
+        3417552,
+        1790878164819572209,
+        1790878164819572209
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "prior_pre_mode_preserved": true,
+  "qualification_credit": 0,
+  "schema": "ri255-root-mode-preparation-check-v1",
+  "scientific_execution": false,
+  "source_decision": {
+    "bytes": 2725,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/MODE_CARD_SOURCE_ADJUDICATION.json",
+    "sha256": "ce3c42554d220a7bfc76d0844c7ec1728732b65a5bcc7d0c81321497d5b48870"
+  },
+  "source_execution_receipts": [
+    "ba403e/session49699",
+    "8b2cd4"
+  ],
+  "status": "PASS_COMPLETE_UNISSUED_PREPARATION_RECONSTRUCTION",
+  "supplier_absences": 2,
+  "supplier_bytes": 48024515,
+  "supplier_files": 1810,
+  "supplier_namespaces": 195,
+  "supplier_tools": 4
+}

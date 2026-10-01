@@ -1,0 +1,80 @@
+{
+  "schema": "ri255-independent-preparation-review-tools-v1",
+  "successful_checker": {
+    "effective_command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri255-independent-mode-preparation-6qxmfcv3/check_saved.py",
+    "initial": {
+      "chunk_id": "709eac",
+      "session_id": 70657,
+      "output": ""
+    },
+    "terminal_call": {
+      "session_id": 70657,
+      "chars": "",
+      "yield_time_ms": 1000,
+      "max_output_tokens": 1800
+    },
+    "actual_terminal": {
+      "chunk_id": "f05ab0",
+      "wall_time_seconds": 0.00001375,
+      "exit_code": 0,
+      "original_token_count": 128,
+      "output": "{\"passed\": true, \"predicates_saved\": 506983, \"additional_check_readback\": 1, \"fresh_inputs\": {\"path\": \"/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/FRESH_INPUTS.json\", \"bytes\": 1772568, \"sha256\": \"11ef6c2dcc871020dbfde8a2083e2020bc19f979d5097f61fb5d40041bcd199b\"}, \"CHECK\": {\"path\": \"/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/CHECK.json\", \"bytes\": 12574, \"sha256\": \"a17d6717d838f338d63f5882e3752e1754a2c797002d2bb6c04d466641cf4f6c\"}, \"outputs\": 9, \"tails\": 6, \"input_domain\": 2920}\n"
+    }
+  },
+  "failed_checker": {
+    "effective_command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri255-independent-mode-preparation-6qxmfcv3/check_saved.py",
+    "chunk_id": "55aad6",
+    "exit_code": 1,
+    "original_source": "check_saved.attempt1.py",
+    "failure": "ValueError: admin JSON only",
+    "trace": "Traceback (most recent call last):\n  File \"/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/check_saved.py\", line 87, in <module>\n    eq(read(runtime['snapshot']),read(runtime['baseline']),'complete current snapshot/baseline');eq(read(runtime['vendor_before']),read(runtime['vendor_after']),'stable supplier projection')\n  File \"/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/check_saved.py\", line 59, in read\n    def read(row):verify(row,True);return parse(row['path'])\n  File \"/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/check_saved.py\", line 49, in parse\n    p=Path(path);require(not str(p).startswith(str(E)+'/'),'no E body decode');require(p.suffix=='.json','admin JSON only')\n  File \"/private/tmp/ri255-independent-mode-preparation-6qxmfcv3/check_saved.py\", line 11, in require\n    if not ok:raise ValueError(label)\nValueError: admin JSON only\n",
+    "correction": "Permit only the two exact selected administrative PRE.stdout paths as well as .json; no subject retry or arbitrary scientific decode."
+  },
+  "reads": [
+    {
+      "chunk_id": "8b7a11",
+      "exit_code": 0,
+      "scope": "whole source first200 lines"
+    },
+    {
+      "chunk_id": "32baf0",
+      "exit_code": 0,
+      "scope": "whole source remainder"
+    },
+    {
+      "chunk_id": "357c7f",
+      "exit_code": 0,
+      "scope": "complete protocol/helper/genuine tool/decision"
+    },
+    {
+      "chunk_id": "271fdf",
+      "exit_code": 0,
+      "scope": "complete host/lineage/references/bootstrap"
+    },
+    {
+      "chunk_id": "274418",
+      "exit_code": 0,
+      "scope": "bounded complete output shape, reservation"
+    },
+    {
+      "chunk_id": "17dc68",
+      "exit_code": 0,
+      "scope": "full terminal argument sidecar/source acceptance and pin authentication"
+    }
+  ],
+  "root_reported_diagnostics_not_reviewer_runs": [
+    {
+      "chunk_id": "13570c",
+      "issue": "COMPLETE cat output clipped; no complete display credit."
+    },
+    {
+      "chunk_id": "f90802",
+      "issue": "len(None) in root structural projection; no target action."
+    },
+    {
+      "chunk_id": "0dfe6d",
+      "issue": "Corrected compact root structural read, reported completed."
+    }
+  ],
+  "subject_reexecuted": false
+}
