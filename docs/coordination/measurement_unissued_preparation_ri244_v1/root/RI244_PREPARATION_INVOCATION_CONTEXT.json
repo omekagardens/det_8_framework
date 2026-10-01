@@ -1,0 +1,23 @@
+{
+  "cwd_basis": "Current user environment and exec_command default workdir; no explicit cwd argument or process cwd capture was recorded.",
+  "environment": "Ordinary root administrative environment; login=false; no exact isolated scientific environment claim.",
+  "inherited_task_cwd": "/Volumes/AI_DATA/development/det_8_framework-ret",
+  "initial_record": {
+    "bytes": 1151,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_GENUINE_PREPARATION_TOOLS.json",
+    "sha256": "856c6fbbea46943f0f2ad5668573d65e4a1b59c77978f0e16537a0fe4e319a17"
+  },
+  "initial_workdir_omitted": true,
+  "outer_alarm_seconds": 300,
+  "per_file_limit_bytes": 67108864,
+  "root_attests_actual_tool_call": true,
+  "schema": "ri247-genuine-preparation-invocation-context-v1",
+  "subject_executed": false,
+  "terminal_arguments": {
+    "chars": "",
+    "max_output_tokens": 3000,
+    "session_id": 74730,
+    "yield_time_ms": 1000
+  },
+  "terminal_tool": "write_stdin"
+}

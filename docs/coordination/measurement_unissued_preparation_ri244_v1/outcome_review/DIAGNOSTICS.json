@@ -1,0 +1,72 @@
+{
+  "bounded_diagnosis": {
+    "chunk_id": "a88425",
+    "exit_code": 0,
+    "result": "Every one of the eight complete live output identity/state records equaled its root record by path; full additive invocation context read."
+  },
+  "correction": {
+    "description": "Separate v2 changes only final root-output comparison to path-sorted full records and requires exactly eight unique root paths. No source, output, threshold, input order or scientific comparison changed.",
+    "file": {
+      "bytes": 1225,
+      "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/CHECKER_CORRECTION.patch",
+      "sha256": "b37c3f4f70b452c2d59cdf889727591008ef76f5d9fe9d291421b4843abd562f"
+    }
+  },
+  "display_diagnostics": [
+    {
+      "chunk_id": "4e1832",
+      "diagnostic": "Clipped display after printing saved E metadata rows; complete rows later read and verified by the independent checker, with no inference from clipped text.",
+      "exit_code": 0
+    }
+  ],
+  "failed_review_attempts": [
+    {
+      "cause": "Reviewer formed seven sorted ordinary output rows plus COMPLETE last; root list sorted all eight. Complete identities and state values matched by path; this was an array-order comparison bug, not an operational failure.",
+      "checker": {
+        "bytes": 21121,
+        "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual.py",
+        "sha256": "095d32200c04321f14448f477466498288bc8b15df421c611dee73487927a3ca"
+      },
+      "executed_checker_command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual.py",
+      "exit_code": 1,
+      "initial_tool_chunk": "852e07",
+      "session_id": 48454,
+      "terminal_output": "Traceback (most recent call last):\n  File \"/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual.py\", line 190, in <module>\n    eq(outputs,rootcheck['outputs'],'all complete root-observed output states retained');eq(dirs,rootcheck['directories'],'both root-observed empty directories retained');eq(sorted(p.name for p in D.iterdir()),expected_names,'final full D namespace')\n    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual.py\", line 18, in eq\n    def eq(a,b,label):need(canon(a)==canon(b),label)\n                      ~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual.py\", line 14, in need\n    if not v:raise ValueError(label)\n             ^^^^^^^^^^^^^^^^^^^^^^^\nValueError: all complete root-observed output states retained\n",
+      "terminal_tool_chunk": "0d2c1f"
+    }
+  ],
+  "origin": "Transcriptions of actual reviewer tool observations. Genuine tool origin remains the external transcript premise; this JSON is not self-authentication.",
+  "reviewer_writes_only_in": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx",
+  "schema": "ri244-independent-outcome-review-diagnostics-v1",
+  "subject_or_writer_retries": 0,
+  "successful_review_attempt": {
+    "checker": {
+      "bytes": 21309,
+      "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual_v2.py",
+      "sha256": "f447ac029ed0aa93d99c1232f1e740b9c009474877a82cd0bcbe0ddc7758ff33"
+    },
+    "executed_checker_command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual_v2.py",
+    "exit_code": 0,
+    "fresh_file_identities": 2868,
+    "initial_tool_chunk": "eacac0",
+    "ordered_input_rows": 2854,
+    "predicates": 392636,
+    "raw_readback": true,
+    "report": {
+      "bytes": 7394,
+      "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/CHECK.json",
+      "sha256": "6e7cc977069d8284b27db18827fcc6d043af82c52b769d6eee62f49b7f1f056e"
+    },
+    "session_id": 68297,
+    "terminal_tool_chunk": "c7f63c"
+  },
+  "supplement": {
+    "chunk_id": "4d0ec6",
+    "exit_code": 0,
+    "report": {
+      "bytes": 1188,
+      "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/SUPPLEMENT.json",
+      "sha256": "b817056964c25ba5f2abd3f3fc3d7f6bab62e0aaae55406e22e02475f9591392"
+    }
+  }
+}

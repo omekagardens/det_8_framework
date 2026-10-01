@@ -1,0 +1,51 @@
+{
+  "display_diagnostics": [
+    {
+      "cause": "Metadata display accidentally printed the complete historical E row list. No original E body read or scientific decoding; later bounded eab73c and CHECK.json establish required shapes without relying on clipped text.",
+      "chunk_id": "c28e22",
+      "exit_code": 0,
+      "kind": "output truncation"
+    }
+  ],
+  "failed_administrative_attempts": [
+    {
+      "cause": "Reviewer display treated saved vendor list as a dict; no reviewed source ran and no input changed.",
+      "chunk_id": "ab0294",
+      "command": "/opt/homebrew/bin/python3 -I -B - <<'PY'\nfrom pathlib import Path\nimport json\nW=Path('/private/tmp/ri244-preparation-proposal-3udz0imk');refs=json.loads((W/'REFERENCES.json').read_bytes());a=json.loads((W/'AUTHOR_CHECK.json').read_bytes())\nprint('outside declared source/evidence roots', [r['path'] for r in a['identities'] if not r['path'].startswith(('/Volumes/AI_DATA/development/det-review-evidence/','/private/tmp/ri244-preparation-proposal-3udz0imk/'))])\nprint('E reads in author source check', [r['path'] for r in a['identities'] if '/ri154-white-execution-proposed-' in r['path']])\nfor k in ['old_roles','copy_observation','old_E','old_supplier']:\n v=json.loads(Path(refs[k]['path']).read_bytes()); print(k, 'type',type(v).__name__,'count',len(v),'keys',list(v) if isinstance(v,dict) else 'list not displayed')\n if k in ['old_roles','copy_observation']: print('source role counts',{x:len(y) for x,y in v['source_states'].items()})\n if k=='old_supplier': print('vendor files',len(v['vendor']['files']), 'vendor bytes',sum(r['bytes'] for r in v['vendor']['files']))\nPY",
+      "exit_code": 1,
+      "output": "outside declared source/evidence roots ['/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md', '/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json', '/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/REVIEW.md', '/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json']\nE reads in author source check []\nold_roles type dict count 2 keys ['observed_identities', 'source_states']\nsource role counts {'copies': 48, 'history': 124, 'target_originals': 30}\ncopy_observation type dict count 9 keys ['cards', 'root', 'schema', 'scientific_body_decoded', 'source_acceptance_created', 'source_states', 'stage', 'tmp_empty', 'tree']\nsource role counts {'copies': 48, 'history': 124, 'target_originals': 30}\nold_E type list count 58 keys list not displayed\nold_supplier type dict count 7 keys ['absent', 'environment', 'host', 'namespace', 'observed_at_unix_ns', 'tools', 'vendor']\nTraceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nTypeError: list indices must be integers or slices, not str\n"
+    }
+  ],
+  "independent_check": {
+    "chunk_id": "24f048",
+    "command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri244-independent-source-review-n9x3lh9m/check.py",
+    "exit_code": 0,
+    "output": {
+      "distinct_opaque_files": 610,
+      "output": {
+        "bytes": 1689459,
+        "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/CHECK.json",
+        "sha256": "7634c10af93071896bf6eed1f61126f5a7bbf6cdddbb28e1df33467db96bbbe3"
+      },
+      "postwrite_readback": true,
+      "predicates": 10654
+    },
+    "wall_time_seconds": 0.0659505
+  },
+  "origin": "Transcribed actual tool observations from this reviewer; their genuine service origin remains an external transcript premise, not established by this JSON.",
+  "proposal_or_helper_executions": 0,
+  "recovery": {
+    "chunk_id": "eab73c",
+    "exit_code": 0,
+    "observed_counts": [
+      1810,
+      48024515,
+      4,
+      195,
+      2
+    ],
+    "scope": "Saved administrative supplier object only; no current supplier read"
+  },
+  "schema": "ri244-independent-source-review-diagnostics-v1",
+  "subject_retries": 0
+}

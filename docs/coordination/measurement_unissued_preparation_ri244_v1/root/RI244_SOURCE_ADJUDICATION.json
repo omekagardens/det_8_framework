@@ -1,0 +1,53 @@
+{
+  "administrative_metadata_helper_loaded": true,
+  "independent_handoff": {
+    "bytes": 3405,
+    "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/HANDOFF.json",
+    "sha256": "f967d8717bfe5d1fad60768bc1cd401713475eab5122d9cf29b1a21b9d4ee4c8"
+  },
+  "independent_opaque_files": 610,
+  "independent_predicates": 10654,
+  "independent_receipt": "24f048",
+  "independent_review": {
+    "bytes": 13080,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "c4fc16071da4703006ad8bc5b51b38350d27500a542a8bbfa131172983cc517a"
+  },
+  "operational_authorization": false,
+  "output_custody_boundary": {
+    "bytes": 1106,
+    "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/OUTPUT_CUSTODY_BOUNDARY.json",
+    "sha256": "9407244438adb5bbc757b0c8ff33f5531bed6db52f5a787fdffb94adda43a844"
+  },
+  "preparation_executed": false,
+  "proposal_or_historical_preparation_helper_executed": false,
+  "requires_final_literal_regular_files_and_full_states": true,
+  "root_complete_reads": [
+    "4226ce",
+    "cd537e",
+    "9d377a",
+    "09a36b",
+    "8f7c65"
+  ],
+  "root_final_report_read": "233c4e",
+  "root_metadata_receipt": "47a235",
+  "root_opaque_identities": 607,
+  "root_source_check": {
+    "bytes": 356705,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_ROOT_SOURCE_CHECK.json",
+    "sha256": "2fbaba7711a0681bcd122d29c7adadbf8902afe695ff64fb7b0a6ba9f66d1ae5"
+  },
+  "schema": "ri247-ri244-source-adjudication-v1",
+  "scientific_qualification": false,
+  "status": "ACCEPT_EXACT_UNEXECUTED_PREPARATION_SOURCE_ONLY",
+  "subject": {
+    "bytes": 4462,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/HANDOFF.json",
+    "sha256": "31e3265d02d9323c0b3224800e70ccac16955c696e0f3f2c2e84af23857b0ba1"
+  },
+  "writer": {
+    "bytes": 22091,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/prepare_unissued.py",
+    "sha256": "02d5e3c3d617ea3c0299e313a63569d97121d6c16b57c3ce290544896ef1cfce"
+  }
+}

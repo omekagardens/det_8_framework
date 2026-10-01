@@ -1,0 +1,22 @@
+{
+  "host_transcript": {
+    "bytes": 1504,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_GENUINE_PREPARATION_HOST.json",
+    "sha256": "384a2bd8c781020c0b700db0d3380a47a1180c42e3238b13878d63dccc04d45e"
+  },
+  "operational_authorization": false,
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea",
+  "preparation_source": {
+    "bytes": 22091,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/prepare_unissued.py",
+    "sha256": "02d5e3c3d617ea3c0299e313a63569d97121d6c16b57c3ce290544896ef1cfce"
+  },
+  "proposal_handoff": {
+    "bytes": 4462,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/HANDOFF.json",
+    "sha256": "31e3265d02d9323c0b3224800e70ccac16955c696e0f3f2c2e84af23857b0ba1"
+  },
+  "root_attests_fresh_genuine_host_tool_origin": true,
+  "schema": "ri244-root-unissued-preparation-decision-v1",
+  "status": "AUTHORIZE_ONE_ADMINISTRATIVE_PREPARATION_ONLY"
+}

@@ -1,0 +1,26 @@
+{
+  "initial": {
+    "arguments": {
+      "cmd": "/usr/bin/perl -e 'alarm 300; exec @ARGV or die $!' /opt/homebrew/bin/python3 -I -B /private/tmp/ri244-preparation-proposal-3udz0imk/prepare_unissued.py --root-decision /Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_PREPARATION_DECISION.json --root-decision-sha256 94e8beecfbb0c19fe206b4e45c22692649aaa4992ec352daf6483b22817f702c",
+      "justification": "Run the independently reviewed RI244 writer once to create eight unissued preparation records and two empty directories, with a 300-second outer limit. This does not run the adapter, modify frozen E, or issue operational authority.",
+      "login": false,
+      "max_output_tokens": 3000,
+      "sandbox_permissions": "require_escalated",
+      "yield_time_ms": 1000
+    },
+    "result": {
+      "chunk_id": "b36217",
+      "original_token_count": 0,
+      "output": "",
+      "session_id": 74730,
+      "wall_time_seconds": 1.00273925
+    }
+  },
+  "terminal": {
+    "chunk_id": "eeaf85",
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": "",
+    "wall_time_seconds": 7.875e-06
+  }
+}

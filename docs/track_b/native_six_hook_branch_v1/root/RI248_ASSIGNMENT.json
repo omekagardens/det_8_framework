@@ -1,0 +1,18 @@
+{
+  "assignment": {
+    "bytes": 2233,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI248_ASSIGNMENT.md",
+    "sha256": "7848404f6688b61ae3922502f9edb4183877110bc758116b597bad09536a4586"
+  },
+  "new_literal_authority": false,
+  "predecessor": {
+    "bytes": 1984,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_ROOT_ADJUDICATION.json",
+    "sha256": "de1a0bd8f4bd3e31da027c8703e1ba2b572169aea837f25557e6571d05ef58e2"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8",
+  "schema": "ri248-native-canonical-companion-assignment-v1",
+  "scientific_execution": false,
+  "status": "ASSIGNED_AFTER_PREDECESSOR_ADJUDICATION",
+  "thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+}

@@ -1,0 +1,60 @@
+{
+  "RET_paused": true,
+  "actual_check": {
+    "chunk_id": "24f048",
+    "distinct_opaque_files": 610,
+    "exit_code": 0,
+    "postwrite_readback": true,
+    "predicates": 10654
+  },
+  "admission_or_execution_acceptance": false,
+  "author_opaque_files_separately_verified": 605,
+  "blocking_findings": [],
+  "bootstrap_reverse_projection": "exact",
+  "bootstrap_substitutions": 6,
+  "complete_check": {
+    "bytes": 1689459,
+    "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/CHECK.json",
+    "sha256": "7634c10af93071896bf6eed1f61126f5a7bbf6cdddbb28e1df33467db96bbbe3"
+  },
+  "complete_exact_diffs": 3,
+  "current_E_or_vendor_observation": false,
+  "dependency_rows": 567,
+  "diagnostics": {
+    "bytes": 4078,
+    "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/DIAGNOSTICS.json",
+    "sha256": "2a004661f64394b96d9a59a3d93aa203326b34f446600fe4f86362cd9609436e"
+  },
+  "direct_references": 18,
+  "historical_role_identity_rows": 2811,
+  "historical_roles": [
+    48,
+    124,
+    30
+  ],
+  "independent_tail_groups": 6,
+  "output_custody_boundary": {
+    "bytes": 1106,
+    "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/OUTPUT_CUSTODY_BOUNDARY.json",
+    "sha256": "9407244438adb5bbc757b0c8ff33f5531bed6db52f5a787fdffb94adda43a844"
+  },
+  "proposal_or_subject_run": false,
+  "proposed_empty_directories": 2,
+  "proposed_success_outputs": 8,
+  "read_coverage": {
+    "bytes": 2435,
+    "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/READ_COVERAGE.json",
+    "sha256": "c24b953c74a87531582daf77ae95af1335b013637bcf76d8b9290d92cba371a6"
+  },
+  "review": {
+    "bytes": 13080,
+    "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/REVIEW.md",
+    "sha256": "c4fc16071da4703006ad8bc5b51b38350d27500a542a8bbfa131172983cc517a"
+  },
+  "schema": "ri244-independent-source-check-summary-v1",
+  "scientific_body_decode": false,
+  "seal_files": 11,
+  "seal_payloads": 10,
+  "source_components": 12,
+  "verdict": "RECOMMEND_ACCEPT_EXACT_UNEXECUTED_PREPARATION_SOURCE_ONLY"
+}

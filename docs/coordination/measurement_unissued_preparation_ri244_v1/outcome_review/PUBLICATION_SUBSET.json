@@ -1,0 +1,23 @@
+{
+  "external_only_preserved": [
+    {
+      "bytes": 1745186,
+      "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/OBSERVATIONS.json",
+      "sha256": "34b0e3f40e7bfbb3a65f8d14a164563ec243a4ac0cbe3b8f803e4673d8187365"
+    }
+  ],
+  "note": "The full2868-row live identity dump remains explicit external evidence. Keep failed checker, actual failure diagnostic, minimal correction, successful checker/compact report and recipe addendum; no failure evidence omitted.",
+  "recommended_files": [
+    "REVIEW.md",
+    "CHECK.json",
+    "DIAGNOSTICS.json",
+    "SUPPLEMENT.json",
+    "RECIPE_V2_ADDENDUM.json",
+    "check_actual.py",
+    "check_actual_v2.py",
+    "CHECKER_CORRECTION.patch",
+    "PUBLICATION_SUBSET.json",
+    "HANDOFF.json"
+  ],
+  "schema": "ri244-independent-actual-preparation-publication-subset-v1"
+}

@@ -1,0 +1,83 @@
+{
+  "complete_packet_namespace": [
+    "AUTHORING_RECORD.json",
+    "AUTHOR_CHECK.json",
+    "BOOTSTRAP_DIFF.patch",
+    "CUSTODY_DIFF.patch",
+    "HANDOFF.json",
+    "PREPARATION_DIFF.patch",
+    "PRE_MODE_BOOTSTRAP.proposal.txt",
+    "PROTOCOL.md",
+    "REFERENCES.json",
+    "check_source_metadata.py",
+    "prepare_unissued.py"
+  ],
+  "complete_three_diff_reconstruction": "24f048 checks every byte of all three diff files against actual old/new sources; full new bodies and relevant complete predecessor bodies manually read. This is text correspondence, not AST or subject execution.",
+  "inherited_scope": "RI141 monitor and RI160 engine/source acceptance are inherited, with pertinent admission/action/cwd/resource boundaries reread; no new scientific acceptance of earlier self-authored RI160 is asserted.",
+  "new_bootstrap_full_lines": [
+    1,
+    18
+  ],
+  "new_writer_full_lines": [
+    1,
+    334
+  ],
+  "reads": [
+    {
+      "chunk_id": "1164e4",
+      "exit_code": 0,
+      "scope": "Root recipe decision; fixed manifest keys and module pins"
+    },
+    {
+      "chunk_id": "658952",
+      "exit_code": 0,
+      "scope": "Complete handoff and protocol"
+    },
+    {
+      "chunk_id": "37314e",
+      "exit_code": 0,
+      "scope": "Writer1-170, full bootstrap, full references"
+    },
+    {
+      "chunk_id": "d7c316",
+      "exit_code": 0,
+      "scope": "Writer171-334 and full authoring record"
+    },
+    {
+      "chunk_id": "dde0f2",
+      "exit_code": 0,
+      "scope": "Complete author metadata checker and bootstrap diff"
+    },
+    {
+      "chunk_id": "2f0d8c",
+      "exit_code": 0,
+      "scope": "Complete retained metadata helper and preparation diff1-250"
+    },
+    {
+      "chunk_id": "b8c584",
+      "exit_code": 0,
+      "scope": "Preparation diff251-493 and custody predecessor/deleted source; new source already fully read"
+    },
+    {
+      "chunk_id": "13a7a2",
+      "exit_code": 0,
+      "scope": "Handoff reread and source boundary locations"
+    },
+    {
+      "chunk_id": "177a2a",
+      "exit_code": 0,
+      "scope": "RI160 adapter1-152; RI141 child_run327-411; author checker entire"
+    },
+    {
+      "chunk_id": "d90924",
+      "exit_code": 0,
+      "scope": "Writer1-145 and190-334 reread"
+    },
+    {
+      "chunk_id": "ea2776",
+      "exit_code": 0,
+      "scope": "Complete protocol and root recipe decision reread"
+    }
+  ],
+  "schema": "ri244-independent-read-coverage-v1"
+}

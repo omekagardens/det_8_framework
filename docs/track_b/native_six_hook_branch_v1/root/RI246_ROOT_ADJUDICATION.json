@@ -1,0 +1,41 @@
+{
+  "accepted": "P0=P1=N0=N1=F=d=0; d != d7; normalized existence iff actual C_b=0",
+  "actual_normalized_witness": false,
+  "actual_signed_inconsistency": false,
+  "all_size_or_physical_claim": false,
+  "canonical_Cb_resolved": false,
+  "genuine_author_tools": {
+    "bytes": 99244,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_GENUINE_AUTHOR_TOOLS.json",
+    "sha256": "a9a065e9a0f87fddbf1ad84e2497e7f46203c0f8cb221f472e6d1f121cb147db"
+  },
+  "independent_review": {
+    "bytes": 13914,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_INDEPENDENT_REVIEW.txt",
+    "sha256": "a63b92a07098e4b14fe4a681a1cea72df4cf1d63c35084d31f619105c8d39d10"
+  },
+  "literal_admission": {
+    "bytes": 5803,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI246_SIX_HOOK_LITERAL_ADMISSION.json",
+    "sha256": "ef7a03e9290e76694f4265504376ca9fa3211a061fc41ec8f06da44babae6b12"
+  },
+  "manual_review": {
+    "bytes": 2642,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_ROOT_MANUAL_REVIEW.md",
+    "sha256": "50ea398f1bc2a64c6572979fef8ad6b5c4a7f0dca214fe136c29dfc611bc5005"
+  },
+  "metadata_check": {
+    "bytes": 57208,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_ROOT_METADATA_CHECK.json",
+    "sha256": "d3f2cc6aa3c128e6cdc464880c5609b3287376563205c57b961a0858ac9c3895"
+  },
+  "qualification_credit": 0,
+  "schema": "ri247-native-six-hook-root-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_ACTUAL_SIX_HOOK_WITNESS_AND_NONEXCEPTIONAL_BRANCH_ONLY",
+  "subject": {
+    "bytes": 12317,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri246-native-hook-literals-0_fkiagp/HANDOFF.json",
+    "sha256": "a1d7be65df8cf3ef7ecbe11ff129591ca0b85d87708dd530b5274936887e6bca"
+  }
+}

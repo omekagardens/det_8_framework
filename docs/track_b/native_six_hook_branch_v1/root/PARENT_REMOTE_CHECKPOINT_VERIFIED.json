@@ -1,0 +1,32 @@
+{
+  "branch": "ret",
+  "commit": "8a218efec0f7e951fe5ffb0281b86bd4b6e17bc0",
+  "dependency_rows": 703,
+  "exact_copies": 21,
+  "frozen_E_unchanged": true,
+  "genuine_tools": {
+    "bytes": 5541,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/GENUINE_PUBLICATION_TOOLS.json",
+    "sha256": "1123ccac7137c3f64fdaaf40264bc77fe55e06165098032fd01bc4e0253897c6"
+  },
+  "independent_review": {
+    "bytes": 8085,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/FINAL_PUBLICATION_INDEPENDENT_REVIEW.md",
+    "sha256": "92f65253a1952e7776fbe3f060ce1e8bd4478e94737eb32de09acad7d7803e3e"
+  },
+  "index_empty": true,
+  "lossless_gzip_copies": 1,
+  "parent": "c4545e056d84d3880342a2df7c30cb1836cb3624",
+  "programme_complete": false,
+  "remote": "https://github.com/omekagardens/det_8_framework.git",
+  "schema": "ri245-remote-checkpoint-v1",
+  "scoped_files": 32,
+  "status": "PUSHED_AND_LIVE_REMOTE_VERIFIED",
+  "unrelated_entries_unchanged": 5800,
+  "upstream": "origin/ret",
+  "validation": {
+    "bytes": 13165,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/VALIDATION_COMMITTED.json",
+    "sha256": "dc8a7196cc6b0f2fd4d6eea704da753c2ee981a31773889cb93548d124917f23"
+  }
+}

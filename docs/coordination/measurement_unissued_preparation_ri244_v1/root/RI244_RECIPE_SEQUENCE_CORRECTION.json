@@ -1,0 +1,15 @@
+{
+  "current": {
+    "bytes": 4066,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_NEXT_PREMODE_RECIPE_V2.md",
+    "sha256": "0d9a2fc82806072f5d3b67f346c91bba842aa9f9eac2b03c4f309c3175a0ff1a"
+  },
+  "gates_weakened": false,
+  "historical": {
+    "bytes": 3971,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_NEXT_PREMODE_RECIPE.md",
+    "sha256": "6af7fb7c98b1dd147b710adc77ae609bd09dd6c6300f988d7c566503f6b65b27"
+  },
+  "only_change": "Final paragraph makes per-mode controls prerequisites rather than listing them after optimized. Command, custody, thresholds and scope unchanged.",
+  "schema": "ri247-prospective-sequence-wording-correction-v1"
+}

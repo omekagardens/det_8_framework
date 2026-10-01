@@ -1,0 +1,81 @@
+{
+  "Git_or_repository_writes": false,
+  "actual_checker_receipt": {
+    "chunk_id": "24f048",
+    "exit_code": 0
+  },
+  "author_of_reviewed_RI244_sources": false,
+  "current_runtime_or_E_observed": false,
+  "files": [
+    {
+      "bytes": 1689459,
+      "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/CHECK.json",
+      "sha256": "7634c10af93071896bf6eed1f61126f5a7bbf6cdddbb28e1df33467db96bbbe3"
+    },
+    {
+      "bytes": 2043,
+      "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/CHECK_SUMMARY.json",
+      "sha256": "cf6830a32e2642af38dc7b8c5f6161e872d9775f7716f194fd00a13c5d98b6f4"
+    },
+    {
+      "bytes": 4078,
+      "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/DIAGNOSTICS.json",
+      "sha256": "2a004661f64394b96d9a59a3d93aa203326b34f446600fe4f86362cd9609436e"
+    },
+    {
+      "bytes": 1106,
+      "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/OUTPUT_CUSTODY_BOUNDARY.json",
+      "sha256": "9407244438adb5bbc757b0c8ff33f5531bed6db52f5a787fdffb94adda43a844"
+    },
+    {
+      "bytes": 770,
+      "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/PUBLICATION_SUBSET.json",
+      "sha256": "10433136508ad9f2f52fadaa9a02827997da6b479bb58f696d1d02c57ac7c86e"
+    },
+    {
+      "bytes": 2435,
+      "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/READ_COVERAGE.json",
+      "sha256": "c24b953c74a87531582daf77ae95af1335b013637bcf76d8b9290d92cba371a6"
+    },
+    {
+      "bytes": 13080,
+      "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/REVIEW.md",
+      "sha256": "c4fc16071da4703006ad8bc5b51b38350d27500a542a8bbfa131172983cc517a"
+    },
+    {
+      "bytes": 10598,
+      "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/check.py",
+      "sha256": "ce4f3ed3b8e96f463ce942dd80b51caaf94a1576942990682a6300e34f7fbe0a"
+    }
+  ],
+  "further_action": "Root independently adjudicates source and supplies genuine fresh host/preparation-only decision. Actual preparation, whole final output custody, operational admission and later result review remain distinct.",
+  "historical_authorship": "RI125 primary/qualifier, RI131, earlier RI160-related adapter/repairs and RI236; these inherit separate nonauthor/root acceptance and are not newly self-adjudicated.",
+  "namespace": [
+    "CHECK.json",
+    "CHECK_SUMMARY.json",
+    "DIAGNOSTICS.json",
+    "HANDOFF.json",
+    "OUTPUT_CUSTODY_BOUNDARY.json",
+    "PUBLICATION_SUBSET.json",
+    "READ_COVERAGE.json",
+    "REVIEW.md",
+    "check.py"
+  ],
+  "proposal_or_subject_executed": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_diagnostics_retained": [
+    "ab0294 saved-vendor-shape display TypeError; recovery eab73c",
+    "c28e22 successful but clipped metadata display; complete final checker untruncated"
+  ],
+  "schema": "ri244-independent-source-review-handoff-v1",
+  "scientific_body_decoded": false,
+  "source_or_operational_acceptance_issued": false,
+  "status": "SEALED_NONAUTHOR_SOURCE_RECOMMENDATION_FOR_ROOT_ADJUDICATION",
+  "subject_handoff": {
+    "bytes": 4462,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/HANDOFF.json",
+    "sha256": "31e3265d02d9323c0b3224800e70ccac16955c696e0f3f2c2e84af23857b0ba1"
+  },
+  "verdict": "RECOMMEND_ACCEPT_EXACT_UNEXECUTED_PREPARATION_SOURCE_ONLY",
+  "writes_only_under": "/private/tmp/ri244-independent-source-review-n9x3lh9m"
+}

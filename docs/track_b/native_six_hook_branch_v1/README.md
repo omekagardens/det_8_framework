@@ -1,0 +1,11 @@
+# Actual six-hook witness and nonexceptional branch
+
+RI246 is independently accepted for the fixed prescribed finite law. The two f-role source coefficients are1/8; the four g-role coefficients in role order0,2,1,3 are429/1000,429/1000,181/200,181/200. Original indices57,58,59,61,60,62 and complete default/override provenance were manually traced from the sole pinned literal source by author, root and a nonauthor under a separate bounded admission.
+
+Both hook positive parts vanish strictly. Consequently P0=P1=N0=N1=F=d=0, while inherited positive theta,K make d7<0. The common positive denominator1000 independently checks the accepted spacing argument using the same source, not independent data. The full normalized-system criterion now reduces to existence iff original C_b=0. Actual C_b remains unresolved. All13 equations/10 coordinates, original shared recovery, records/ideals/newborns and strict endpoints remain.
+
+Root and nonauthor each reviewed complete proofs and98 identities,91 direct sources/1,879,633bytes,81 retained predecessor identities and15 unchanged boundary objects. The original author literal and two failed checks were recovered completely; the successful final6 tool status is genuine but its API output remains truncated. The two property-order checker failures and exact repairs remain explicit. Fresh independent metadata comparisons corroborate current facts without claiming a complete author replay. The423-source manifest remains by reference.
+
+RI248 is separately assigned to the existing Quantum Relativity chat after adjudication: decide the actual canonical gap from the complete marked companion/slack and history-weighted objective comparison, retaining primary and lexicographic optimum. Its exact external reservation and scope are in root/RI248_ASSIGNMENT. The six-value literal exception is closed; the successor receives no new body/coordinate or execution authority. Active successor work is excluded here.
+
+This is finite conditional native mathematics, not a full normalized witness/inconsistency, improvement/optimality/amplitude result, all-size derivation, native forward map or physical validation. RET alone remains paused. Exact copies and dependency mappings do not provide a complete transitive runtime archive or relocated execution authority.

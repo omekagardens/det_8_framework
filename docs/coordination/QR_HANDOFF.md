@@ -1,6 +1,63 @@
-# Current QR coordination — hook proof accepted; six literals admitted
+# Current QR coordination — actual hook branch resolved; canonical comparison active
 
-**Current follow-through — six-hook proof accepted; literal acquisition assigned.**
+**Current follow-through — actual hook branch resolved; preparation completed.**
+1 October 2026 UTC. RI246's six admitted original coefficients are now
+independently accepted. The two f coefficients are1/8; the four g coefficients
+in role order0,2,1,3 are429/1000,429/1000,181/200,181/200. Original indices,
+complete default/override provenance and stable literal custody agree across
+author, root and nonauthor review.
+
+Both hook positive-part arguments are strictly negative, so
+P0=P1=N0=N1=F=d=0 exactly. Inherited positive theta,K make d7<0; thus the
+exceptional branch is excluded for the fixed prescribed finite law. The common
+denominator1000 also satisfies the accepted spacing premise, using the same
+source. The complete normalized criterion now reduces to existence iff actual
+C_b=0. That canonical coefficient is still unresolved; no full normalized
+witness or signed inconsistency is claimed.
+
+Root and nonauthor checked complete proofs,98 identities,91 direct sources /
+1,879,633bytes,81 predecessor identities and15 unchanged boundary objects.
+The actual author literal and two failed checker outcomes were recovered in
+full; the successful final6 remains API-truncated. Administrative property-order
+repairs, historical failures and the423-source manifest by reference remain
+explicit. Evidence: `docs/track_b/native_six_hook_branch_v1/`.
+
+After adjudication, root assigned RI248 to the existing Quantum Relativity
+chat. It targets the actual canonical gap using the complete marked companion
+row/slack and history-weighted objective, preserving the primary and sequential
+lexicographic optimum. The accepted zero-hook result informs that proof; it
+does not erase coupled canonical terms. The exact assignment/reservation is
+archived. The six-value literal exception is closed; no new coefficient or
+execution authority is granted. Active RI248 work is excluded from publication.
+
+RI244's exact preparation source passed independent review. One separately
+admitted administrative invocation b36217/session74730 to eeaf85 exited0 with
+empty streams, producing eight unissued records and two empty directories.
+Root verified all2854 retained input identities, six completion tails,
+1810 supplier files /48,024,515bytes, four tools,195 namespace records and two
+absences. Frozen E remains49files/nine directories, unchanged. Independent
+actual outcome review and root acceptance preserve final literal regular-file
+states, full custody, original diagnostics and all resource premises.
+Evidence: `docs/coordination/measurement_unissued_preparation_ri244_v1/`.
+
+The concrete next measurement action is fresh whole-custody preflight, separate
+closed12 admission and one unchanged pre_mode invocation using the exact
+prepared bootstrap. The prospective command/cwd is archived; historical
+unissued preparation is preserved. Full nine-field result, seven adapter tails,
+raw monitoring/reap and postflight review precede separate mode_card generation.
+No measurement adapter operation, mode card or scientific qualification occurred
+in this checkpoint. Normal science and independent arithmetic, optimized,
+RI131/full32 and selected public GWOSC conventional reproduction remain ordered.
+Calibrated claims remain separate from a native forward map.
+
+All13 equations/10 coordinates, original recovery, records/ideals/newborns and
+strict endpoints remain. Improvement, optimality, amplitude, all-size and
+physical claims stay open. RET alone remains paused. Parent
+8a218efec0f7e951fe5ffb0281b86bd4b6e17bc0 was verified on origin/ret. Root owns
+Git and operational admissions; unrelated edits and active reservations remain
+preserved. The programme continues beyond this bounded checkpoint.
+
+**Prior checkpoint — six-hook proof accepted; literal acquisition assigned.**
 1 October 2026 UTC. RI243 fixes the two f and four g component keys,
 including the selected long-arm bit and the g-role permutation 0,2,1,3.
 Both C4 complements follow from admitted analytics. If the six exact

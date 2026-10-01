@@ -1,0 +1,53 @@
+{
+  "ordinary_administrative_interpreter": {
+    "bytes": 52640,
+    "path": "/opt/homebrew/bin/python3",
+    "resolved_path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "sha256": "b7e73dc9ef199f3046efd77d870fed331832ece0c3b33192595cdd4a81f8ef86",
+    "state": [
+      16777232,
+      164279807,
+      33261,
+      1,
+      52640,
+      1761680117240555558,
+      1761680117240640475
+    ],
+    "symlink_chain": [
+      {
+        "path": "/opt/homebrew/bin/python3",
+        "target": "../Cellar/python@3.14/3.14.0_1/bin/python3"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/bin/python3",
+        "target": "../Frameworks/Python.framework/Versions/3.14/bin/python3"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "target": "python3.14"
+      }
+    ]
+  },
+  "source_adjudication": {
+    "bytes": 2097,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_SOURCE_ADJUDICATION.json",
+    "sha256": "66eb0e5a33d7e8079ebc6d7a8f0b5190f809d83a21a3428ed11d64e7a2a7dde0"
+  },
+  "trust": "Existing ordinary root administrative Python and standard library; no scientific supplier qualification claimed. Recheck before and after invocation.",
+  "writer": {
+    "bytes": 22091,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/prepare_unissued.py",
+    "resolved_path": "/private/tmp/ri244-preparation-proposal-3udz0imk/prepare_unissued.py",
+    "sha256": "02d5e3c3d617ea3c0299e313a63569d97121d6c16b57c3ce290544896ef1cfce",
+    "state": [
+      16777232,
+      271352575,
+      33188,
+      1,
+      22091,
+      1790855268471175814,
+      1790855268471175814
+    ],
+    "symlink_chain": []
+  }
+}

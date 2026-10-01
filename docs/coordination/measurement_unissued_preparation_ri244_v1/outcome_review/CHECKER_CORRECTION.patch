@@ -1,0 +1,11 @@
+--- /private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual.py
++++ /private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/check_actual_v2.py
+@@ -187,7 +187,7 @@
+ # Close read-window identities and root-check agreement without trusting its pass label.
+ for row in rows:verify(row)
+ for row in outputs:verify(row)
+-eq(outputs,rootcheck['outputs'],'all complete root-observed output states retained');eq(dirs,rootcheck['directories'],'both root-observed empty directories retained');eq(sorted(p.name for p in D.iterdir()),expected_names,'final full D namespace')
++need(len(rootcheck['outputs'])==8 and len({r['path'] for r in rootcheck['outputs']})==8,'complete unique root output domain');eq(sorted(outputs,key=lambda r:r['path']),sorted(rootcheck['outputs'],key=lambda r:r['path']),'all complete root-observed output states retained');eq(dirs,rootcheck['directories'],'both root-observed empty directories retained');eq(sorted(p.name for p in D.iterdir()),expected_names,'final full D namespace')
+ full={'schema':'ri244-independent-preparation-observations-v1','observations':list(observed.values())}
+ b=canon(full)
+ with (Q/'OBSERVATIONS.json').open('xb') as f:f.write(b);f.flush();os.fsync(f.fileno())

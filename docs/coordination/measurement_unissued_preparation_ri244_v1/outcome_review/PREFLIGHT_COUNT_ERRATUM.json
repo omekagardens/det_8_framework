@@ -1,0 +1,40 @@
+{
+  "actual_count": 15,
+  "actual_fields": [
+    "E_observation",
+    "environment",
+    "genuine_host",
+    "input_acceptance",
+    "operation_premises",
+    "operational_authorization",
+    "platform_premises",
+    "runtime_observation",
+    "schema",
+    "scientific_execution_authorized",
+    "selected_interpreter_binding",
+    "source_acceptance",
+    "source_observation",
+    "static_native_adjudication",
+    "status"
+  ],
+  "actual_preflight": {
+    "bytes": 4508,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "a3efc299a652c877b35323b489ab534e18c88968ebe5367e57eaae218ea3caa2"
+  },
+  "compact_check": {
+    "bytes": 7394,
+    "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/CHECK.json",
+    "sha256": "6e7cc977069d8284b27db18827fcc6d043af82c52b769d6eee62f49b7f1f056e"
+  },
+  "correction": "The actual preflight has15fields, not16. REVIEW.md phrase complete16fields and checker descriptive label whole16-field actual preflight are count-label typos. The successful checker constructed and compared the entire actual15-field object; CHECK.json correctly records preflight_fields15. No field, custody check or acceptance condition is missing.",
+  "full_check_rerun": false,
+  "original_report": {
+    "bytes": 14260,
+    "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/REVIEW.md",
+    "sha256": "80ceafb210ed7937de6f1781c454e85fd1fa56a24c69f452be633910df861c52"
+  },
+  "recommendation_unchanged": true,
+  "schema": "ri244-independent-preflight-count-erratum-v1",
+  "sealed_originals_unchanged": true
+}
