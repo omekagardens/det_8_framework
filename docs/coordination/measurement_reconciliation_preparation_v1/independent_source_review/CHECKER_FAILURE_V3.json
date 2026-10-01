@@ -1,0 +1,23 @@
+{
+  "actual_chunk": "29da41",
+  "actual_exit_code": 1,
+  "cause": "Reviewer count expected one token but the single expected_popen literal includes both subprocess.Popen and subprocess.DEVNULL, confirmed by read-only rg3f1e1f exit0.",
+  "correction": "New v4 requires both tokens on the one expected_popen source-text assignment. Earlier three failures and checker sources preserved.",
+  "failed_command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v3.py",
+  "first_error": "ValueError: only source-string Popen correspondence, no subprocess call",
+  "no_subject_execution": true,
+  "partial_report_created": false,
+  "schema": "ri229-independent-checker-diagnostic-v1",
+  "source": {
+    "bytes": 8708,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v3.py",
+    "sha256": "07c53682747f12cebddc31301b3fc41c038795538dc5382e4b093346119f5db2"
+  },
+  "source_diff": "--- /Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v3.py\n+++ /Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v4.py\n@@ -37,7 +37,7 @@\n need(\"need(name in output_names and type(data) is bytes and len(data)<=67108864\" in writer,'write whitelist and cap')\n need(\"with p.open('xb') as f:\" in writer and \"need(p.read_bytes()==data\" in writer,'exclusive direct byte writes')\n need(writer.count('.mkdir(')==2,'two exact preparation directory creations')\n-need(writer.count('subprocess.')==1 and next(l for l in writer.splitlines() if 'subprocess.' in l).startswith('expected_popen='),'only source-string Popen correspondence, no subprocess call')\n+need(writer.count('subprocess.')==2 and len([l for l in writer.splitlines() if 'subprocess.' in l])==1 and next(l for l in writer.splitlines() if 'subprocess.' in l).startswith('expected_popen='),'only source-string Popen correspondence, no subprocess call')\n need(writer.count('.replace(')==1 and 'original_bootstrap=original_bootstrap.replace(old,new)' in writer,'only bootstrap string replacement, no filesystem replace')\n for word in ('.unlink(','.rmdir(','.rename(','os.replace(','.chmod(','.write_bytes(','.write_text(','os.system(','exec(compile('):need(word not in writer,'no mutable or dispatch primitive '+word)\n need(\"produced_before_custody=dict(produced)\" in writer,'custody takes preemit copy of eight earlier refs')\n",
+  "subject_defect": false,
+  "successor": {
+    "bytes": 8775,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v4.py",
+    "sha256": "2426f62ad293d339573bb2859bae672ed9710a3e5e17d9a9008698d225c6c264"
+  }
+}

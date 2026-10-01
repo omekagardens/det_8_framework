@@ -1,0 +1,23 @@
+{
+  "actual_chunk": "430526",
+  "actual_exit_code": 1,
+  "cause": "Overbroad reviewer substring predicate matched expected_popen source-text literal at writer line166; no subprocess import/call exists in the writer.",
+  "correction": "New v3 requires exactly one subprocess token only in expected_popen assignment instead of forbidding all textual occurrences. Prior v1/v2 sources and failures remain unchanged.",
+  "failed_command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v2.py",
+  "first_error": "ValueError: no mutable or dispatch primitive subprocess.",
+  "no_subject_execution": true,
+  "partial_report_created": false,
+  "schema": "ri229-independent-checker-diagnostic-v1",
+  "source": {
+    "bytes": 8530,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v2.py",
+    "sha256": "4f01e19124bf4ba5d4043c9e6322dc14b585679f9ea9b20dc52338e3d39d32aa"
+  },
+  "source_diff": "--- /Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v2.py\n+++ /Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v3.py\n@@ -37,8 +37,9 @@\n need(\"need(name in output_names and type(data) is bytes and len(data)<=67108864\" in writer,'write whitelist and cap')\n need(\"with p.open('xb') as f:\" in writer and \"need(p.read_bytes()==data\" in writer,'exclusive direct byte writes')\n need(writer.count('.mkdir(')==2,'two exact preparation directory creations')\n+need(writer.count('subprocess.')==1 and next(l for l in writer.splitlines() if 'subprocess.' in l).startswith('expected_popen='),'only source-string Popen correspondence, no subprocess call')\n need(writer.count('.replace(')==1 and 'original_bootstrap=original_bootstrap.replace(old,new)' in writer,'only bootstrap string replacement, no filesystem replace')\n-for word in ('.unlink(','.rmdir(','.rename(','os.replace(','.chmod(','.write_bytes(','.write_text(','subprocess.','os.system(','exec(compile('):need(word not in writer,'no mutable or dispatch primitive '+word)\n+for word in ('.unlink(','.rmdir(','.rename(','os.replace(','.chmod(','.write_bytes(','.write_text(','os.system(','exec(compile('):need(word not in writer,'no mutable or dispatch primitive '+word)\n need(\"produced_before_custody=dict(produced)\" in writer,'custody takes preemit copy of eight earlier refs')\n need(\"future_admission_path=str(D/'ADMIT_RECONCILE.json')\" in writer,'future path only')\n need(\"proposed_dispatch=dict(outer_argv=\" in writer,'unissued dispatch values exist');dispatch_line=next(l for l in writer.splitlines() if l.startswith('proposed_dispatch='));need('admission=' not in dispatch_line,'no fabricated admission pin')\n",
+  "subject_defect": false,
+  "successor": {
+    "bytes": 8708,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v3.py",
+    "sha256": "07c53682747f12cebddc31301b3fc41c038795538dc5382e4b093346119f5db2"
+  }
+}

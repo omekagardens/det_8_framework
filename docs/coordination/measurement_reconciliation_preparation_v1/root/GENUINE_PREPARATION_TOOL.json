@@ -1,0 +1,28 @@
+{
+  "schema": "ri230-genuine-preparation-tool-record-v1",
+  "initial": {
+    "arguments": {
+      "cmd": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/prepare_reconciliation.py --preparation-manifest-bytes 1430 --preparation-manifest-sha256 c1b72b9e2e19a40e6f94adccc7a5c6ce58e0c626a72098bf1f677153549916cd --preparation-review /Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI229_PREPARATION_SOURCE_ACCEPTANCE.json --preparation-review-bytes 2356 --preparation-review-sha256 149af89b6d5a7a09c7efb56f2910d272c7f48f6df049da6c40d57268cf697646 --host-transcript /Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_HOST_TOOL.json --host-transcript-bytes 1639 --host-transcript-sha256 83c0892c159a9ce0e9ea9f6934adb7bf1d6d99f4e3197864e71ae8ed8c695806",
+      "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b",
+      "login": false,
+      "sandbox_permissions": "require_escalated",
+      "justification": "May I perform the one independently reviewed administrative preparation, preserving any partials and leaving reconciliation, E writes and scientific modes unstarted?",
+      "yield_time_ms": 1000,
+      "max_output_tokens": 4000
+    },
+    "result": {
+      "chunk_id": "0f12a4",
+      "wall_time_seconds": 1.001081375,
+      "session_id": 16198,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  "terminal": {
+    "chunk_id": "1db8d4",
+    "wall_time_seconds": 0.000009292,
+    "exit_code": 0,
+    "original_token_count": 335,
+    "output": "{\"status\": \"PREPARED_FOR_ROOT_PREFLIGHT_REVIEW_NO_ADMISSION\", \"proposal\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILIATION_PROPOSAL.json\", \"bytes\": 4283, \"sha256\": \"cc1099ec42c1b2fb876348f8a4cec5acd6d3832edbae4eeff66207ea1a237f07\"}, \"custody\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/PREPARATION_CUSTODY.json\", \"bytes\": 604033, \"sha256\": \"904be2836064130e0ea0ac19998f3ea6c7bc7a5ea7c3dc580aafb27089907edd\"}, \"exact_tool_arguments\": {\"cmd\": \"/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\\\"DEFAULT\\\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_BOOTSTRAP.py\", \"workdir\": \"/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b\", \"login\": false, \"yield_time_ms\": 1000, \"max_output_tokens\": 4000}}\n"
+  }
+}

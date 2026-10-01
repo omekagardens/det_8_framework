@@ -1,0 +1,69 @@
+{
+  "assignment": {
+    "bytes": 3070,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI229_PREPARATION_DESIGN_ASSIGNMENT.json",
+    "sha256": "67b602e4244e8f348e814d9b3935f301fe0b954aa9463bae943d81796fe9fc55"
+  },
+  "bootstrap": {
+    "bytes": 2454,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/RECONCILE_BOOTSTRAP.source-only.py",
+    "sha256": "2621315b8a7bf8e57ce05e1a9da3e3f12d15d44d1ab6ef2f8e11dbf0a08acaba"
+  },
+  "bootstrap_replacements": [
+    [
+      "# One root-admitted administrative freeze-candidate action; unchanged RI141 child monitor.",
+      "# One root-admitted read-only reconciliation; unchanged RI141 child monitor."
+    ],
+    [
+      "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/tmp",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/tmp"
+    ],
+    [
+      "ri206_whole_unchanged_ri141_freeze_monitor",
+      "ri229_whole_unchanged_ri141_reconcile_monitor"
+    ],
+    [
+      "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/reconcile_freeze.py"
+    ],
+    [
+      "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/ADMIT_FREEZE_CANDIDATE.json",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ADMIT_RECONCILE.json"
+    ],
+    [
+      "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/monitor",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/monitor"
+    ],
+    [
+      "'FREEZE', 180, expected_environment)",
+      "'RECONCILE', 180, expected_environment)"
+    ]
+  ],
+  "dependencies": {
+    "bytes": 250788,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/DEPENDENCIES.json",
+    "sha256": "0985323c819a7396189153bff0edccf0f3718b42efce27e29aa26442ceab1f2b"
+  },
+  "draft_refinements": {
+    "bytes": 4283,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/DRAFT_REFINEMENTS.json",
+    "sha256": "d26b1f02f182d3f72cb943be69d07f379a2720d2a94ee1e327ee3e38a39abf25"
+  },
+  "operational_objects_created": false,
+  "predecessor": {
+    "bytes": 18455,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/prepare_installation.py",
+    "sha256": "9af0db33f4a57036b0f9bb911822dfd1ea905b6bddca1edc274d78dc00b05e80"
+  },
+  "preparation_dependencies": 992,
+  "prospective_recovery_sources": 971,
+  "recovery_inputs": 963,
+  "schema": "ri229-source-construction-v1",
+  "source_only": true,
+  "subjects_imported_compiled_AST_or_executed": false,
+  "writer": {
+    "bytes": 27651,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/prepare_reconciliation.py",
+    "sha256": "3fb022aa2f9ed0d5f79fde2f58b7ec8abf7a5ea66b88e3759d2272f9cb198e82"
+  }
+}

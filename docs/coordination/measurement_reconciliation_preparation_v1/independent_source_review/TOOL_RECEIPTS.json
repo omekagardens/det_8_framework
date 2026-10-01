@@ -1,0 +1,129 @@
+{
+  "construction_and_repair_chunks": [
+    {
+      "chunk_id": "3d942f",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "9c7a5f",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e1de89",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "3f1e1f",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "81dc8a",
+      "exit_code": 0
+    }
+  ],
+  "failed_actual_chunks": [
+    {
+      "chunk_id": "24b66b",
+      "exit_code": 1
+    },
+    {
+      "chunk_id": "430526",
+      "exit_code": 1
+    },
+    {
+      "chunk_id": "29da41",
+      "exit_code": 1
+    }
+  ],
+  "independent_check": {
+    "chunk_id": "b4f4c1",
+    "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v4.py",
+    "exit_code": 0,
+    "opaque_files": 1011,
+    "predicates": 6005,
+    "result": {
+      "bytes": 812691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/INDEPENDENT_CHECK.json",
+      "sha256": "667ee6e73fbd171bf6e1c6d7a56878e03608df2ea120937b690ca16f2436bad2"
+    },
+    "source": {
+      "bytes": 8775,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v4.py",
+      "sha256": "2426f62ad293d339573bb2859bae672ed9710a3e5e17d9a9008698d225c6c264"
+    }
+  },
+  "no_current_E_or_supplier_inventory": true,
+  "no_scientific_decode": true,
+  "no_subject_execution": true,
+  "qualification_credit": 0,
+  "replay": {
+    "chunk_id": "f85304",
+    "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/replay_metadata.py",
+    "exit_code": 0,
+    "opaque_files": 997,
+    "output_only_relocation": true,
+    "predicates": 3999,
+    "result": {
+      "bytes": 637399,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/AUTHOR_CHECK_REPLAY.json",
+      "sha256": "e3968bcfe137a860f852527bdc5c676852b073d49f081517599e5ab8fe870408"
+    },
+    "source": {
+      "bytes": 11505,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/replay_metadata.py",
+      "sha256": "293f19dbddefe449d52770d955a802872f53e0005e60e18cb86efe68020a340a"
+    }
+  },
+  "retained_failures": [
+    {
+      "bytes": 4814,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/CHECKER_FAILURE.json",
+      "sha256": "5cf88675d1a46cd1dabaa28ee94c1d892ecdfab1d33321c8fc37c53c85f16d7c"
+    },
+    {
+      "bytes": 3159,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/CHECKER_FAILURE_V2.json",
+      "sha256": "0b95c6a8d3595b22a88b506557c7c4cc35bf01006a0e3a126dd4b8b0f0930f1a"
+    },
+    {
+      "bytes": 2853,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/CHECKER_FAILURE_V3.json",
+      "sha256": "234e94eb0ea63c0ca1c47d72fe18d47e27c7566678462bbd2ef688640ab4627a"
+    }
+  ],
+  "schema": "ri229-independent-preparation-review-receipts-v1",
+  "source_read_chunks": [
+    {
+      "chunk_id": "bf0dd4",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "fd9856",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "5c217b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e91f0d",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "72a07c",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ba5f71",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "78df00",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "b4a103",
+      "exit_code": 0
+    }
+  ]
+}

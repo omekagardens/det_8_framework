@@ -1,0 +1,105 @@
+{
+  "RET_paused": true,
+  "admitted_program_execution": false,
+  "assignment": {
+    "bytes": 19482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_NATIVE_ASSIGNMENT.json",
+    "sha256": "64ed152b60b17da079288ca4c8e95c53ec228ba1e1748fdd202a67c469210157"
+  },
+  "existing_executable_obligations_unchanged": true,
+  "historical_precedent": {
+    "bytes": 4124,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI216_FOUR_ROOT_LITERAL_ADMISSION.json",
+    "sha256": "7e571bec36a7650a8bd99cabab274ba6c2c0d9dd54a1608c8d533bbc62de7d13"
+  },
+  "identity": {
+    "bytes": 2845,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+    "state": [
+      16777244,
+      373218,
+      33188,
+      1,
+      2845,
+      1790219166674919262,
+      1790219166674919262
+    ],
+    "symlink_chain": []
+  },
+  "identity_matches_committed_head": "d836305309f7d083a24babdde331e0b7a10da7fb",
+  "inherited_body_row_not_reclassified": {
+    "access_policy": "whole-byte-identity-only-no-decoding-or-execution",
+    "classification": "opaque-scientific-historical-premise",
+    "identity": {
+      "bytes": 2845,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+      "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+      "symlinks": []
+    },
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "reference_provenance": [
+      "Exact original RI41 certificate added only under RI191_OPAQUE_PREFIX_ADMISSION. Whole bytes/path authenticated; no JSON decoding, value extraction, table instantiation or scientific execution. Admission state is historical, not compared with current stat."
+    ],
+    "role": "dep_0418"
+  },
+  "inherited_manifest": {
+    "bytes": 393074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+    "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+  },
+  "keys": [
+    [
+      2,
+      3,
+      0
+    ],
+    [
+      6,
+      3,
+      0
+    ],
+    [
+      70,
+      3,
+      0
+    ],
+    [
+      70,
+      7,
+      0
+    ],
+    [
+      70,
+      9,
+      0
+    ],
+    [
+      70,
+      9,
+      1
+    ]
+  ],
+  "manual_follow_on": "Use those six values only in the current manual L8-L12/full normalized witness analysis. The remaining canonical kappa values, actual rho/s/theta and every other unresolved coefficient remain unassigned. Existing accepted four-root values may be inherited without reopening other coordinates.",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor_proof": {
+    "bytes": 2019,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_ADJUDICATION.json",
+    "sha256": "d24fc0d7dd5bae0013cbcf6b0caf5db57463b6edb65c2d5c34c4690b2a1ce04d"
+  },
+  "prohibitions": [
+    "No automatic JSON/scientific parsing, proof arithmetic, Fraction/calculator/graph/LP/numerical engine. Literal display and opaque identity tools only.",
+    "No full resolved109-vector, other coordinate extraction, other scientific body/certificate or referenced descendants.",
+    "No subject import/compile/AST/probe/run, new fixture/runtime/freeze/card, protected-file mutation, measurement, RET, repository or Git/index work.",
+    "Keep actual law, all records, canonical corrections, strict endpoints and full normalized obligations unchanged. Negative cost alone never proves canonical allocation."
+  ],
+  "qualification_credit": 0,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8",
+  "schema": "ri231-six-root-literal-mathematical-admission-v1",
+  "scope": "Separately admit complete literal display of this unchanged2845-byte certificate for manual provenance validation and resolution of only the six listed keys. Preserve original109-root ordering, exact default/override rules and rational syntax. Record original indices/provenance and hand-derive only their lambda values and corresponding RI228 alpha/gamma combinations. Check whole identity before/after.",
+  "source_inventory_expansion": false,
+  "status": "ADMIT_EXACT_SIX_ROOT_LITERAL_MATHEMATICAL_INSPECTION_ONLY",
+  "typed_reference_expansion": false
+}

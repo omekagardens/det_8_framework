@@ -1,0 +1,16 @@
+{
+  "current_supplier_or_E_inventory_created": false,
+  "dependencies": 992,
+  "installed_partial_unchanged": true,
+  "old_operation_monitor_unchanged": true,
+  "original_binding_states_unchanged": 9,
+  "original_source_states_unchanged": 904,
+  "preparation_or_recovery_outputs_absent": true,
+  "repository_unchanged": true,
+  "schema": "ri230-root-preparation-source-metadata-v1",
+  "sealed_namespace": 18,
+  "sealed_payloads": 17,
+  "status": "PASS_PINNED_SOURCE_AND_RETAINED_CUSTODY",
+  "subject_or_scientific_execution": false,
+  "whole_opaque_paths": 1010
+}

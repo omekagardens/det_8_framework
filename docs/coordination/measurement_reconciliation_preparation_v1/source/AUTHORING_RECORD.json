@@ -1,0 +1,58 @@
+{
+  "RET_paused": true,
+  "accepted_recovery_source": {
+    "bytes": 2289,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ROOT_SOURCE_REVIEW.json",
+    "sha256": "4fdaddb780e94c2dbf0f4773d4301439421ef80586482535ec7b0842fc2c40f6"
+  },
+  "active_cards_or_E_or_repository_Git_mutation": false,
+  "actual_checks": {
+    "bytes": 637399,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/METADATA_CHECK.json",
+    "sha256": "e3968bcfe137a860f852527bdc5c676852b073d49f081517599e5ab8fe870408"
+  },
+  "actual_tool_receipts": {
+    "bytes": 3042,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/TOOL_RECEIPTS.json",
+    "sha256": "457e845ed9806e031dac266925d6bfde4584d19bda3d919e15cfaf0ebcd7c448"
+  },
+  "assignment": {
+    "bytes": 3070,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI229_PREPARATION_DESIGN_ASSIGNMENT.json",
+    "sha256": "67b602e4244e8f348e814d9b3935f301fe0b954aa9463bae943d81796fe9fc55"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "bootstrap": {
+    "bytes": 2454,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/RECONCILE_BOOTSTRAP.source-only.py",
+    "sha256": "2621315b8a7bf8e57ce05e1a9da3e3f12d15d44d1ab6ef2f8e11dbf0a08acaba"
+  },
+  "draft_refinements": {
+    "bytes": 4283,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/DRAFT_REFINEMENTS.json",
+    "sha256": "d26b1f02f182d3f72cb943be69d07f379a2720d2a94ee1e327ee3e38a39abf25"
+  },
+  "exact_delta_and_bootstrap_correspondence": true,
+  "full_manual_source_read_lines": {
+    "bootstrap": 18,
+    "protocol": 101,
+    "writer": 222
+  },
+  "new_source_manifest": {
+    "bytes": 1430,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/SOURCE_PINS.json",
+    "sha256": "c1b72b9e2e19a40e6f94adccc7a5c6ce58e0c626a72098bf1f677153549916cd"
+  },
+  "operational_preparation_or_runtime_or_monitor_execution": false,
+  "retained_original_installation_status": "REFUSED_RETAIN_ALL_PARTIALS",
+  "schema": "ri229-preparation-source-authoring-record-v1",
+  "scientific_qualification_credit": 0,
+  "source_independence_not_claimed": true,
+  "source_only": true,
+  "source_readiness": "READY_FOR_FRESH_NONAUTHOR_AND_ROOT_SOURCE_REVIEW_ONLY",
+  "writer": {
+    "bytes": 27651,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/prepare_reconciliation.py",
+    "sha256": "3fb022aa2f9ed0d5f79fde2f58b7ec8abf7a5ea66b88e3759d2272f9cb198e82"
+  }
+}

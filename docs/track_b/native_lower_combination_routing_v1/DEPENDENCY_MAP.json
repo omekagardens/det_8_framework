@@ -1,0 +1,588 @@
+{
+  "all_transitive_dependencies_archived": false,
+  "complete_runtime_archive": false,
+  "copies": [
+    {
+      "original": {
+        "bytes": 45720,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/AUTHOR_VERIFICATION.json",
+        "sha256": "53b82383c4a23afe24da52516eb58c7d4145d22f2f34336e166ac2599218ea51"
+      },
+      "path": "source/AUTHOR_VERIFICATION.json"
+    },
+    {
+      "original": {
+        "bytes": 10962,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/COMPONENT_ROUTING.md",
+        "sha256": "37e9ffd24470d9462c68d8380b8b43a34210d42e2f290c369a0bf951a014c99c"
+      },
+      "path": "source/COMPONENT_ROUTING.md"
+    },
+    {
+      "original": {
+        "bytes": 2266,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/HANDOFF.md",
+        "sha256": "bb0f400e993e4d122cf8e464518362aff8c162078da4053c0f7ff8a0d11456a7"
+      },
+      "path": "source/HANDOFF.md"
+    },
+    {
+      "original": {
+        "bytes": 15343,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/LOWER_COMBINATIONS.md",
+        "sha256": "2f35ae897762bcbaa8e9e0ac54e78658000aec6c596b0692611bdaa39092fa33"
+      },
+      "path": "source/LOWER_COMBINATIONS.md"
+    },
+    {
+      "original": {
+        "bytes": 61082,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/SOURCE_REFERENCES.json",
+        "sha256": "27d9af78ce0b2498d2677a0b1c1e3ee49b4bcdaf21f9fa512231001e5fe9bf9d"
+      },
+      "path": "source/SOURCE_REFERENCES.json"
+    },
+    {
+      "original": {
+        "bytes": 22030,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/HANDOFF.json",
+        "sha256": "729d870ad76830416c9b8aad50e0a3381150c4f9467fb1986538eb35f6fcb011"
+      },
+      "path": "source/HANDOFF.json"
+    },
+    {
+      "original": {
+        "bytes": 12069,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/REVIEW.md",
+        "sha256": "da5028a916312882ddd272f61689ca3fec783e682e25324f81ec36ec16e0e4d9"
+      },
+      "path": "independent_review/REVIEW.md"
+    },
+    {
+      "original": {
+        "bytes": 2988,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/METADATA_REPLAY.json",
+        "sha256": "7ed3649dd5fd01993de6657f56ae790d64840a4aedfb6d3d917126790ccd9dde"
+      },
+      "path": "independent_review/METADATA_REPLAY.json"
+    },
+    {
+      "original": {
+        "bytes": 4613,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/READ_RECEIPTS.json",
+        "sha256": "ba66bd83bb28b8b08e539882e87d23f79c0accd9957eb3a2478c30ee2ce2f381"
+      },
+      "path": "independent_review/READ_RECEIPTS.json"
+    },
+    {
+      "original": {
+        "bytes": 4714,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/HANDOFF.json",
+        "sha256": "7d13640884e627d2666ff4f8d8fdc21d1c87214eb5882760c4972627e93a2b59"
+      },
+      "path": "independent_review/HANDOFF.json"
+    },
+    {
+      "original": {
+        "bytes": 2019,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_ADJUDICATION.json",
+        "sha256": "d24fc0d7dd5bae0013cbcf6b0caf5db57463b6edb65c2d5c34c4690b2a1ce04d"
+      },
+      "path": "root/RI228_ROOT_ADJUDICATION.json"
+    },
+    {
+      "original": {
+        "bytes": 4148,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_REVIEW.md",
+        "sha256": "f59f56295e3cc9c4b30ca90332d65350262f17657e9a458724f1ed651020dc1b"
+      },
+      "path": "root/RI228_ROOT_REVIEW.md"
+    },
+    {
+      "original": {
+        "bytes": 2864,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_METADATA_REPLAY.json",
+        "sha256": "96ca9465e2e6b62e35af78c0c718e076d59326fca3ae1c6576ebf95242736308"
+      },
+      "path": "root/RI228_ROOT_METADATA_REPLAY.json"
+    },
+    {
+      "original": {
+        "bytes": 18917,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/ri228_metadata_checker.js",
+        "sha256": "d840ef1fb9f4ad9c01782422ec5ff336ed64de11e529bf6983f4850e48eb012f"
+      },
+      "path": "root/ri228_metadata_checker.js"
+    },
+    {
+      "original": {
+        "bytes": 19482,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_NATIVE_ASSIGNMENT.json",
+        "sha256": "64ed152b60b17da079288ca4c8e95c53ec228ba1e1748fdd202a67c469210157"
+      },
+      "path": "root/RI231_NATIVE_ASSIGNMENT.json"
+    },
+    {
+      "original": {
+        "bytes": 4927,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_SIX_ROOT_LITERAL_ADMISSION.json",
+        "sha256": "47d5e67e0b5e9ad8d8c2f33d96d440c97a1487c7c7f00a8c2fe0c2888b753ebd"
+      },
+      "path": "root/RI231_SIX_ROOT_LITERAL_ADMISSION.json"
+    }
+  ],
+  "dependencies": [
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 20656,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+        "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53"
+      },
+      "path": "docs/track_b/native_growth_connected_sensitivity_result_v1/premises/ri111.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+        "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+      },
+      "path": "docs/coordination/measurement_actual_adapters_v1/root_review/metadata.py"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 10435,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+        "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a"
+      },
+      "path": "docs/track_b/native_growth_connected_compensation_v1/RESULT.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 14511,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/COMPONENT_ROUTING.md",
+        "sha256": "dd22418d9f2c864473354be301045514d3bd8e0026af4dd7244db243a26b908b"
+      },
+      "path": "docs/track_b/native_component_pair_separation_v1/source/COMPONENT_ROUTING.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 14099,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/COUPLED_CONTRAST.md",
+        "sha256": "d4aae718f0e23c3f3e70ba529e3020fd85114d586ba4e86d58f380402087091a"
+      },
+      "path": "docs/track_b/native_component_pair_separation_v1/source/COUPLED_CONTRAST.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 393074,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+        "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+      },
+      "path": "docs/track_b/native_manual_pair_separation_v1/source/SOURCE_DEPENDENCIES.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 1654,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/FOUR_ROOT_WITNESS_ACCEPTANCE.json",
+        "sha256": "7a64e68ccd095aabdb10f631f5093b73eade31e97bc0e49fb643d0a68378c851"
+      },
+      "path": "docs/coordination/native_witness_installation_failure_v1/FOUR_ROOT_WITNESS_ACCEPTANCE.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2212,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI220_SHARED_AFFINE_LITERAL_ADMISSION.json",
+        "sha256": "0234ce3ab0d98704ddfa94bf320397c6d4f8e25153e24fd676d221791656a8fd"
+      },
+      "path": "docs/track_b/native_fixed_h30_obstruction_v1/RI220_SHARED_AFFINE_LITERAL_ADMISSION.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4720,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI223_CONNECTED_LITERAL_ADMISSION.json",
+        "sha256": "9287b982c399f009a606660b33f11496f82cb32995ab2846d7cb2510ba058add"
+      },
+      "path": "docs/track_b/native_active_singleton_v1/root/RI223_CONNECTED_LITERAL_ADMISSION.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2334,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI223_FULL_PROFILE_LITERAL_ADMISSION.json",
+        "sha256": "b86b58d0f63fc753ed590c7d172a13a99fc92bb1a35e4ec3b307849650faa663"
+      },
+      "path": "docs/track_b/native_active_singleton_v1/root/RI223_FULL_PROFILE_LITERAL_ADMISSION.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2445,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI225_DISCONNECTED_LITERAL_ADMISSION.json",
+        "sha256": "1d726c63b3c21ceac80206b488a46a4b2d1d09dfc0dcbeb2bc97b20b6fe6d3b6"
+      },
+      "path": "docs/track_b/native_active_singleton_v1/root/RI225_DISCONNECTED_LITERAL_ADMISSION.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3752,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-independent-native-review-BqGvKj/HANDOFF.json",
+        "sha256": "d49f957da598ae50de1f04f8eaeca3d8634fdf363ba4e67c1e2302c62acf5a8a"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/independent_review/HANDOFF.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 40198,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/AUTHOR_VERIFICATION.json",
+        "sha256": "5e1f791480d11474c0c1ea14e12668b3c911e6ddd29720995f316f39815457e2"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/source/AUTHOR_VERIFICATION.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 15209,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/DISCONNECTED_PROFILES.md",
+        "sha256": "588eba196bb27baa6ee967d0dbe2b25d0c0645b186dd3dc7e9ddee913467b522"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/source/DISCONNECTED_PROFILES.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 19078,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/HANDOFF.json",
+        "sha256": "1dfd6442280f3e5ed92c49db204784bf7aabc488b3461c69a1e8aed313c58ff5"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/source/HANDOFF.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2367,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/HANDOFF.md",
+        "sha256": "6c99d78708325504260efbd38c19091e0e9d03758311a5ed68f0b40dfc3a0546"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/source/HANDOFF.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 13841,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/LOWER_PROFILE_GAP.md",
+        "sha256": "5284896ef15b7f5233821762308f6c0e718c80fd30075f73ab6ee8d5a9e4829e"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/source/LOWER_PROFILE_GAP.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 56014,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/SOURCE_REFERENCES.json",
+        "sha256": "296a758cd67b7d3b70a3e2937c8b874b6c6b1336afcc44300415a496529e8d2f"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/source/SOURCE_REFERENCES.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 790,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI225_ROOT_ACTUAL_REPLAY.json",
+        "sha256": "4838c10d39ac47325f3c80e6d7390fb3a56c80bc9f366df6adf6162238959baa"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/root/RI225_ROOT_ACTUAL_REPLAY.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 1898,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI225_ROOT_ADJUDICATION.json",
+        "sha256": "e494b5ec4ac01f383669dfe0552091aba64974da8d760c7e75b0e98bc5e744a1"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/root/RI225_ROOT_ADJUDICATION.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 4679,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI225_ROOT_REVIEW.md",
+        "sha256": "05a8989d1928f42858b122f57cb707f4e4b76589d9bf23648b8474df83777ff7"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/root/RI225_ROOT_REVIEW.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 2967,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_COMPLETION_LITERAL_ADMISSION.json",
+        "sha256": "bf4fadba2297d88a8467612e3f0f073cf9e8b9331f6b3efb9c80b9e8d632a531"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/root/RI228_COMPLETION_LITERAL_ADMISSION.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 18770,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_NATIVE_ASSIGNMENT.json",
+        "sha256": "d23cf53fea14c7451a2d20067213cd2411c3f5c99e218465278e67e0372dbfd8"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/root/RI228_NATIVE_ASSIGNMENT.json"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3111,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_NORMALIZATION_LITERAL_ADMISSION.json",
+        "sha256": "cced6c93c9de0f1408846ad93b3ad9cd35ae22fa8656b2a3991874dcd415c7cf"
+      },
+      "path": "docs/track_b/native_disconnected_profiles_v1/root/RI228_NORMALIZATION_LITERAL_ADMISSION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 4714,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/HANDOFF.json",
+        "sha256": "7d13640884e627d2666ff4f8d8fdc21d1c87214eb5882760c4972627e93a2b59"
+      },
+      "path": "independent_review/HANDOFF.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2988,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/METADATA_REPLAY.json",
+        "sha256": "7ed3649dd5fd01993de6657f56ae790d64840a4aedfb6d3d917126790ccd9dde"
+      },
+      "path": "independent_review/METADATA_REPLAY.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 4613,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/READ_RECEIPTS.json",
+        "sha256": "ba66bd83bb28b8b08e539882e87d23f79c0accd9957eb3a2478c30ee2ce2f381"
+      },
+      "path": "independent_review/READ_RECEIPTS.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 12069,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/REVIEW.md",
+        "sha256": "da5028a916312882ddd272f61689ca3fec783e682e25324f81ec36ec16e0e4d9"
+      },
+      "path": "independent_review/REVIEW.md"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 45720,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/AUTHOR_VERIFICATION.json",
+        "sha256": "53b82383c4a23afe24da52516eb58c7d4145d22f2f34336e166ac2599218ea51"
+      },
+      "path": "source/AUTHOR_VERIFICATION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 10962,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/COMPONENT_ROUTING.md",
+        "sha256": "37e9ffd24470d9462c68d8380b8b43a34210d42e2f290c369a0bf951a014c99c"
+      },
+      "path": "source/COMPONENT_ROUTING.md"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 22030,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/HANDOFF.json",
+        "sha256": "729d870ad76830416c9b8aad50e0a3381150c4f9467fb1986538eb35f6fcb011"
+      },
+      "path": "source/HANDOFF.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2266,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/HANDOFF.md",
+        "sha256": "bb0f400e993e4d122cf8e464518362aff8c162078da4053c0f7ff8a0d11456a7"
+      },
+      "path": "source/HANDOFF.md"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 15343,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/LOWER_COMBINATIONS.md",
+        "sha256": "2f35ae897762bcbaa8e9e0ac54e78658000aec6c596b0692611bdaa39092fa33"
+      },
+      "path": "source/LOWER_COMBINATIONS.md"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 61082,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/SOURCE_REFERENCES.json",
+        "sha256": "27d9af78ce0b2498d2677a0b1c1e3ee49b4bcdaf21f9fa512231001e5fe9bf9d"
+      },
+      "path": "source/SOURCE_REFERENCES.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2019,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_ADJUDICATION.json",
+        "sha256": "d24fc0d7dd5bae0013cbcf6b0caf5db57463b6edb65c2d5c34c4690b2a1ce04d"
+      },
+      "path": "root/RI228_ROOT_ADJUDICATION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2864,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_METADATA_REPLAY.json",
+        "sha256": "96ca9465e2e6b62e35af78c0c718e076d59326fca3ae1c6576ebf95242736308"
+      },
+      "path": "root/RI228_ROOT_METADATA_REPLAY.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 4148,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_REVIEW.md",
+        "sha256": "f59f56295e3cc9c4b30ca90332d65350262f17657e9a458724f1ed651020dc1b"
+      },
+      "path": "root/RI228_ROOT_REVIEW.md"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 19482,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_NATIVE_ASSIGNMENT.json",
+        "sha256": "64ed152b60b17da079288ca4c8e95c53ec228ba1e1748fdd202a67c469210157"
+      },
+      "path": "root/RI231_NATIVE_ASSIGNMENT.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 4927,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_SIX_ROOT_LITERAL_ADMISSION.json",
+        "sha256": "47d5e67e0b5e9ad8d8c2f33d96d440c97a1487c7c7f00a8c2fe0c2888b753ebd"
+      },
+      "path": "root/RI231_SIX_ROOT_LITERAL_ADMISSION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 18917,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/ri228_metadata_checker.js",
+        "sha256": "d840ef1fb9f4ad9c01782422ec5ff336ed64de11e529bf6983f4850e48eb012f"
+      },
+      "path": "root/ri228_metadata_checker.js"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 15418,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_compensation_v1/RECORD_TRANSPORT.md",
+        "sha256": "ee55be354336e7262fa1cf6efccec270f46a8276ea63dd04fef7ead2606a259e"
+      },
+      "path": "docs/track_b/native_growth_connected_compensation_v1/RECORD_TRANSPORT.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 11893,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+      },
+      "path": "docs/track_b/native_growth_connected_sensitivity_result_v1/premises/ri117_connected.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 17102,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+        "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+      },
+      "path": "docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 28127,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+        "sha256": "e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a"
+      },
+      "path": "docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 20198,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+        "sha256": "8a2a4bf9142341e2511763cbfd799183860e907372d577b9b32d8c1cf24a955c"
+      },
+      "path": "docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md"
+    },
+    {
+      "commit": "d836305309f7d083a24babdde331e0b7a10da7fb",
+      "location": "existing_git",
+      "original": {
+        "bytes": 16243,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+        "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+      },
+      "path": "docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md"
+    }
+  ],
+  "dependency_locations": {
+    "archive": 16,
+    "existing_git": 30
+  },
+  "parent": "d836305309f7d083a24babdde331e0b7a10da7fb",
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-map-v1",
+  "source_only": true
+}

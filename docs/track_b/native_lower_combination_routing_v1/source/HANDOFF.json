@@ -1,0 +1,280 @@
+{
+  "schema": "ri228-native-lower-combinations-handoff-v1",
+  "status": "CONDITIONAL_NATIVE_LOWER_COMBINATION_LEMMA_WITH_PRECISE_OPEN_FULL_WITNESS_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_NATIVE_ASSIGNMENT.json",
+    "bytes": 18770,
+    "sha256": "d23cf53fea14c7451a2d20067213cd2411c3f5c99e218465278e67e0372dbfd8"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI225_ROOT_ADJUDICATION.json",
+    "bytes": 1898,
+    "sha256": "e494b5ec4ac01f383669dfe0552091aba64974da8d760c7e75b0e98bc5e744a1"
+  },
+  "additional_literal_admissions": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_COMPLETION_LITERAL_ADMISSION.json",
+      "bytes": 2967,
+      "sha256": "bf4fadba2297d88a8467612e3f0f073cf9e8b9331f6b3efb9c80b9e8d632a531"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_NORMALIZATION_LITERAL_ADMISSION.json",
+      "bytes": 3111,
+      "sha256": "cced6c93c9de0f1408846ad93b3ad9cd35ae22fa8656b2a3991874dcd415c7cf"
+    }
+  ],
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "COMPONENT_ROUTING.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "LOWER_COMBINATIONS.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/AUTHOR_VERIFICATION.json",
+      "bytes": 45720,
+      "sha256": "53b82383c4a23afe24da52516eb58c7d4145d22f2f34336e166ac2599218ea51"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/COMPONENT_ROUTING.md",
+      "bytes": 10962,
+      "sha256": "37e9ffd24470d9462c68d8380b8b43a34210d42e2f290c369a0bf951a014c99c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/HANDOFF.md",
+      "bytes": 2266,
+      "sha256": "bb0f400e993e4d122cf8e464518362aff8c162078da4053c0f7ff8a0d11456a7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/LOWER_COMBINATIONS.md",
+      "bytes": 15343,
+      "sha256": "2f35ae897762bcbaa8e9e0ac54e78658000aec6c596b0692611bdaa39092fa33"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/SOURCE_REFERENCES.json",
+      "bytes": 61082,
+      "sha256": "27d9af78ce0b2498d2677a0b1c1e3ee49b4bcdaf21f9fa512231001e5fe9bf9d"
+    }
+  ],
+  "new_theorems": [
+    "All five no-isolate Y proper roles have zero canonical coefficient; the neutral singleton is linked by a complete diamond to a raising hook-empty role. Hence beta_S=theta alpha_S for all four stem ideals.",
+    "Three strict-prefix alpha ratios equal(5/44) times the actual RI41 coefficients at roots(2,3,0),(6,3,0),(70,3,0); preexisting alpha_I routes to(70,7,0).",
+    "gamma_i=lambda(70,9,i)/8 via complete two-parent marked incidence and exact minimum-key/prefix-potential proof.",
+    "The exceptional Y-with-isolate singleton has precisely two parent presentations and one component per compulsory root bit; zeta_i=(35/36)gamma_i kappa_i.",
+    "All other Y canonical proper probabilities vanish, giving0<=zeta_i<=35/36. The exceptional native objective cost is strictly negative, but its actual canonical allocation remains unresolved.",
+    "All RI225 lower combinations simplify exactly via beta=theta alpha and chi_i=(35/36)kappa_i while preserving the canonical terms, all records and the full normalized system.",
+    "No assigned new lambda/kappa values, exact normalized solution or finite inconsistency witness are supplied."
+  ],
+  "exact_result": {
+    "predecessor": "Accepted RI225 complete disconnected profiles and lower-law reduction remain binding; RI223 full normalized mobility criterion and accepted small-amplitude family are preserved.",
+    "beta": "All five no-isolate Y proper canonical coefficients vanish. The neutral singleton connects to a raising hook-empty role through a complete marked diamond. Consequently beta_S=theta*alpha_S for every stem S.",
+    "lower_component_routing": "alpha_empty,alpha_singleton,alpha_pair have exact multiplier5/44 and roots(2,3,0),(6,3,0),(70,3,0); preexisting alpha_I routes to(70,7,0). gamma_i=lambda(70,9,i)/8. These locate the actual unchanged law, not assigned values or ordinal/default status.",
+    "exceptional_component": "Tstar has exactly two parent presentations, Y/{r,o} and P/{r,a,b}, and exactly two complete marked components distinguished by the compulsory root bit. All optional marks connect in a two-by-four incidence. Natural mask representatives are not canonical keys.",
+    "canonical_term": "zeta_i=(35/36)*gamma_i*kappa_i, with0<=gamma_i*kappa_i<=1 and0<=zeta_i<=35/36. gamma_i>=1/64 implies kappa_i<=64. The zero branch remains.",
+    "native_sign": "Both proper roles are neutral, full Y is neutral, and full P is raising. The actual marked-history-weighted component cost is strictly negative; its canonical allocation is not determined by that sign.",
+    "combinations": "L8-L11 express every accepted lower combination and profile using beta=theta*alpha and chi_i=(35/36)*kappa_i. All four stem terms, both higher moments and the canonical full complement remain; F_Y>1/72 is a margin of the unchanged mixture.",
+    "remaining": "Actual new lambda/kappa values, a full normalized ten-unknown solution with u2=-1, and a finite signed inconsistency witness remain unresolved. Improvement, optimality and maximal amplitude are not decided.",
+    "acceptance": "All new deductions await independent mathematical adjudication. Administrative identity checks do not accept the proof or qualify an executable route."
+  },
+  "proof_steps": [
+    "Keep the independently accepted RI225 complete five-profile result as predecessor; original quarter-amplitude rejection, positive small-amplitude family, complete H30 shared equations and actual fixed lower law remain unchanged.",
+    "Use only the two separately admitted exact RI41/RI63 construction texts and renewed analytic premises. Their references to certificate, vector, runtime, checker or optimizer bodies create no descendant admission.",
+    "Count all nine Y proper ideals and its full ideal. For each no-isolate stem S, unique/two-maximal deletion gives u(Y,S)=B_S*k_S/A_S=alpha_S*B_S, with positive A_S and B_S.",
+    "Prove the no-isolate empty, initial-pair and full-stem births raise defect1to2. Exhaust all single deletions and give the isolate/newborn two-deletion chain witness; use the accepted shared-chain Ferrers obstruction for the branched cases.",
+    "Do not misclassify the no-isolate singleton as raising: it is neutral. Its complete marked empty/singleton diamond links to empty birth from the Ferrers hook, which raises0to1 and forces the entire component's canonical coefficient to zero.",
+    "Retain every C4 mark, both newborn bits and both ordered precursor pairs in that diamond. Identify coefficients using the positive ratio potential, not by deleting record domains.",
+    "The fifth no-isolate proper ideal C4 connects by the complete empty/full diamond to the raising empty C5 role. All five no-isolate canonical coefficients vanish; hence beta_S=theta*alpha_S for all four S, and q(Y,C4)=theta*c.",
+    "Preserve the three accepted with-isolate raising slots from RI225. Only the with-isolate singleton {r,o} remains a possible canonical proper contribution in Y.",
+    "For the three strict-prefix alpha ratios, enumerate every maximum deletion of K,V,T. Each empty potential is epsilon^2/c2; divide by e_I=epsilon to obtain the literal-prefix multiplier5/44, without evaluating the component coefficient.",
+    "List every parent presentation of C3 disjoint A2, V disjoint A1 and T disjoint A1. Every nonempty role connects directly by a complete empty/ordinary marked diamond to an empty role. All optional selected marks are joined; nonisomorphic terminals are kept separate.",
+    "Use the original four-carrier strict-relation key, not a cover-edge or five-carrier encoding. Apply the admitted topological-minimum lemma and manually check the four isolate positions for K and the fork. Compare complete presentation minima to obtain(2,3,0),(6,3,0),(70,3,0).",
+    "For the preexisting alpha_I, retain both C4-empty and K-full-chain presentations of C4 disjoint isolate; the empty diamond joins selected marks, yielding(70,7,0) and e_C4=epsilon*lambda(70,7,0). No e_C4 value is selected.",
+    "For gamma, the terminal has exactly two maxima. List both K/{r,o} and N/{r,a} parent roles. At fixed root bit the complete marked diamond gives a two-by-two bipartite incidence; the compulsory root cannot flip under an edge or marked isomorphism.",
+    "Manually compare all five topological N labeling sums with K70. K's selected mask9 and minimum record mask i give exactly(70,9,i). Unique omitted-maximum deletion and the admitted prefix formula yield gamma_i=lambda(70,9,i)/8.",
+    "Use only the admitted global min-lambda bound to infer strict-prefix alpha>=5/352, alpha_I>=1/8 and gamma_i>=1/64. Do not infer equality, ordinal index, override/default status, monotonicity or freely selectable values from component roots.",
+    "For the exceptional Tstar terminal, list its only maxima c,x and both parent presentations Y/{r,o},P/{r,a,b}. Natural mask representatives are not claimed to be canonical keys.",
+    "At fixed root bit the full exceptional marked diamond gives a two-by-four bipartite incidence. Optional marks vary independently; the intrinsically distinguished common root persists. There are exactly two complete components, with no omitted parents or selected-record sectors.",
+    "Unique omitted-maximum deletion gives Y potential gamma_i. Apply the actual RI63 mixture theta+(35/36)*kappa_i, rather than substituting the boundary optimizer, to obtain zeta_i=(35/36)*gamma_i*kappa_i.",
+    "Canonical nonnegativity and the complete Y row, whose other proper slots all vanish canonically, give0<=gamma_i*kappa_i<=1 and0<=zeta_i<=35/36. Retain the zero-kappa branch and bound kappa_i<=64 without asserting attainment.",
+    "Check defects of both exceptional parents and terminal: Y,P,Tstar each have defect1; deleting o supplies the Ferrers hook witnesses. Full Y is neutral.",
+    "For full P, exhaust single deletions: except r,o they retain two minima; deleting r leaves a,o minima; deleting o leaves a five-cell unique-maximum nonchain, impossible for a Ferrers rectangle. Deleting o and x leaves a chain, proving exact defect2.",
+    "Consequently the complete exceptional objective coefficient is a strictly negative sum of the actual positive marked-P history weights times potentials. Retain all marked-class multiplicities; no uniform weighting or other parent role is inserted.",
+    "Negative objective cost does not imply positive canonical allocation or row saturation. Preserve the admitted negative-cost/zero-canonical hook example and the unresolved coupled optimal-face selection.",
+    "Substitute beta=theta*alpha and zeta=gamma*chi manually into every accepted lower combination. Retain the four-term stem sums, M2/M3 mixed terms, full complement and chi=0 branch; no new probability table or rho/s/theta evaluation occurs.",
+    "Use U_Y<=M5 and the existing theta definition to obtain theta*U_Y<1/72. Combining with zeta<=35/36 gives F_Y>1/72, a margin of the unchanged mixture rather than a new repaired-law condition.",
+    "Retain all five B_i profiles, 81 proper and five full ideal occurrences, all original records, actual rho/s, complete q/N corrections and strict endpoints. New identities substitute into the original shared equations rather than fitting parents separately.",
+    "Retain the full normalized ten-unknown N16-N17 system with u2=-1 and all eight Uj*Delta f_j=0 conditions. Constant f8,f11 freedoms remain subject to every disconnected row; no unjustified Uj=0 or local-feasibility conclusion is imposed.",
+    "Locate the exact remaining lambda/kappa roles and L8-L9 combinations. No assigned new values, full normalized solution, signed inconsistency identity, improvement/optimality or maximal amplitude decision is supplied; no global minimality or nonderivability is claimed.",
+    "New mathematical deductions are author claims pending independent adjudication. Source hashes, namespace checks and metadata receipts are not mathematical acceptance, executable qualification, an all-size result or a physical QM/geometry/gravity claim."
+  ],
+  "exact_missing_witness": {
+    "full_system": "Actual normalized RI223 N16-N17 with all five profiles from accepted RI225 and the current L8-L12 substitution; all ten unknowns and every connected contrast remain.",
+    "lower_roles": "lambda(2,3,0),lambda(6,3,0),lambda(70,3,0),gamma-sector lambda(70,9,0/1), the preexisting alpha_I=lambda(70,7,0), and the two canonical Tstar components with literal Y/P presentations.",
+    "required_outcome": "An exact full solution u2=-1 with every recovered row checked, or a finite signed native inconsistency identity forcing W2=0. A same-source bound/identity for the stated combinations may suffice without literal values.",
+    "default_override_or_ordinal_index_inferred": false,
+    "canonical_allocation_inferred_from_negative_cost": false,
+    "coefficient_independence_or_global_minimality_claim": false,
+    "nonderivability_claim": false,
+    "new_body_or_execution_authority_created": false
+  },
+  "inherited_not_freshly_reproved": [
+    "Finite strictly positive baseline, full scalar-passive marked diamonds, precursor locality and maximal-record invariance.",
+    "Original fixed rho/s, theta definition, normalized seed and complete H30 shared iff; no support or amplitude change.",
+    "Accepted RI223 full normalized recovery, RI225 five disconnected profiles and all connected contrasts.",
+    "RI63 actual canonical program, active-component defect neutrality, exact mixture and global potential bound.",
+    "RI41 literal size-three prefix, original component-root convention and global minimum-coefficient bound; actual unresolved coordinate values remain unresolved.",
+    "RI189 topological-minimum lemma, accepted held connected record patterns and transport identities."
+  ],
+  "scope": {
+    "manual_analysis_only": true,
+    "original_quarter_rejection_immutable": true,
+    "accepted_small_amplitude_family_preserved": true,
+    "all_no_isolate_Y_canonical_roles_discharged": true,
+    "beta_theta_alpha_identity_proved": true,
+    "exact_empty_and_gamma_component_routing_proved": true,
+    "full_exceptional_two_parent_incidence_proved": true,
+    "exceptional_native_cost_negative_proved": true,
+    "canonical_correction_and_zero_branch_retained": true,
+    "all_five_relative_profiles_and_full_normalized_rows_preserved": true,
+    "new_assigned_lambda_or_kappa_values_determined": false,
+    "native_improvement_or_optimality_decided": false,
+    "native_lifting_direction_found": false,
+    "native_inconsistency_identity_found": false,
+    "maximal_full_amplitude_decided": false,
+    "numerical_amplitude_selected": false,
+    "scientific_body_certificate_or_vector_read": false,
+    "automatic_scientific_parsing_or_proof_arithmetic": false,
+    "H_or_z_reconstruction": false,
+    "actual_rho_s_theta_or_new_probability_table_evaluated": false,
+    "graph_LP_subject_runtime_fixture_card_execution": false,
+    "repository_Git_index_or_measurement_written": false,
+    "inherited_finite_premises_remain_conditional": true,
+    "ret_paused": true,
+    "qualification_credit": 0,
+    "full_QM_geometry_or_physical_claim": false,
+    "all_size_continuation_claim": false,
+    "successor_designed_or_started": false
+  },
+  "provenance_scope": {
+    "direct_sources": 29,
+    "direct_bytes": 757795,
+    "inherited423_by_reference": true,
+    "inherited_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_namespace": 6,
+    "inherited_admissions": "Original six, two additional, two RI189, shared-affine, two RI223 and RI225 disconnected admission retained unchanged and explicitly renewed.",
+    "newly_admitted_exact_construction_texts": [
+      {
+        "authority": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_COMPLETION_LITERAL_ADMISSION.json",
+          "bytes": 2967,
+          "sha256": "bf4fadba2297d88a8467612e3f0f073cf9e8b9331f6b3efb9c80b9e8d632a531"
+        },
+        "reference": {
+          "bytes": 17102,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+          "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+        },
+        "inherited_match": {
+          "access_policy": "text-reading-and-opaque-identity-no-execution",
+          "classification": "analytic-source-text-or-review",
+          "identity": {
+            "bytes": 17102,
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+            "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+            "symlinks": []
+          },
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+          "reference_provenance": [
+            "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json"
+          ],
+          "role": "dep_0412"
+        },
+        "typed_reference_expansion": false
+      },
+      {
+        "authority": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_NORMALIZATION_LITERAL_ADMISSION.json",
+          "bytes": 3111,
+          "sha256": "cced6c93c9de0f1408846ad93b3ad9cd35ae22fa8656b2a3991874dcd415c7cf"
+        },
+        "reference": {
+          "bytes": 16243,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+          "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+        },
+        "inherited_match": {
+          "access_policy": "text-reading-and-opaque-identity-no-execution",
+          "classification": "analytic-source-text-or-review",
+          "identity": {
+            "bytes": 16243,
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+            "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+            "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+            "symlinks": []
+          },
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+          "reference_provenance": [
+            "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json",
+            "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+          ],
+          "role": "dep_0419"
+        },
+        "typed_reference_expansion": false
+      }
+    ],
+    "predecessor_lower_hints_are_history_not_current_unread_status": true,
+    "old_RI216_body_exception_not_reused": true,
+    "opaque_support_not_expanded": true
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "1214c1",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 33,
+      "explicit_selected_reference_checks": 41
+    },
+    "complete_final_proof_reads": [
+      {
+        "chunk_id": "87d692",
+        "exit_code": 0
+      },
+      {
+        "chunk_id": "4da223",
+        "exit_code": 0
+      }
+    ],
+    "author_pin": {
+      "chunk_id": "39f7fb",
+      "exit_code": 0
+    },
+    "failed_shell_commands": 0,
+    "rejected_patches": 0,
+    "failed_orchestration_attempts": 0,
+    "diagnostic": "One redundant stored outer display duplicated the previous proof-read payload and clipped; complete source/proof reads including4da223 are untruncated. No source body access or execution violation. Earlier history remains opaque.",
+    "independent_proof_acceptance": false
+  },
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "final_check_policy": "Run the retained final6 administrative checker after saving this seal. Report actual receipt/all six identities externally; no internal self-hash or unperformed-check success claim.",
+  "stopping_rule": "Seal the substantive native lower-combination/routing/sign lemma and exact full normalized witness gap. No assigned coefficient values, actual improvement/optimality or nonderivability claim. No successor or source/body expansion; root owns publication/Git/index and RET remains paused."
+}

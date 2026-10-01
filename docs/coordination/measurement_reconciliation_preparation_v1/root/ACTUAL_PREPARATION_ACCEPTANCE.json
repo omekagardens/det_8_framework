@@ -1,0 +1,212 @@
+{
+  "RET_paused": true,
+  "actual_preparation": "0f12a4/session16198 ->1db8d4 exit0",
+  "frozen_custody_accepted": false,
+  "full_root_review_reads": [
+    "2be679 exit0",
+    "5fb09b exit0"
+  ],
+  "genuine_initial_and_terminal": {
+    "bytes": 3113,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_TOOL.json",
+    "sha256": "afe45fc3982de98e7bde448fe9be75974d273da2f91eee3e6bbb1b64e27a97d1"
+  },
+  "genuine_session_linkage": {
+    "bytes": 2336,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_SESSION_LINKAGE.json",
+    "sha256": "f1c4420c94c34acae7cc947b6a7bf9b98f1639f06900ace2544d45767f1bec0e"
+  },
+  "independent_checks": [
+    "d93b90 exit0;7544 predicates/2842 whole-file identities",
+    "dbf108 exit0;19 session-linkage predicates"
+  ],
+  "independent_review": {
+    "bytes": 6311,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/HANDOFF.json",
+    "sha256": "86961c641d1e1f501e5f196fe0d3b36c886cb6ab516281ff6c3ce51c2aab4013"
+  },
+  "independent_verdict": {
+    "bytes": 2026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/VERDICT.json",
+    "sha256": "194f87de4ccca3124a885258311785e86ec1b974d351f8b1b3c6901ed1c51165"
+  },
+  "mode_admission": false,
+  "next_root_action": "Fresh predispatch custody and separate one-attempt read-only reconciliation admission/dispatch under unchanged limits, then genuine monitored outcome and independent adjudication.",
+  "one_preparation_decision": {
+    "bytes": 4234,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/ROOT_ONE_PREPARATION_DECISION.json",
+    "sha256": "25fdd96a229961cfd6ed32d232687b5ad5449f25c1dfa9eb584d5aba6a5a0514"
+  },
+  "outputs": [
+    {
+      "bytes": 1637,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/HOST_GENUINE_TOOL.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/HOST_GENUINE_TOOL.json",
+      "sha256": "b7f8ca673d0857b7a084badaa4120498e96c1e3dd15fc524e0bc45717b4410b9",
+      "state": [
+        16777244,
+        426628,
+        33188,
+        1,
+        1637,
+        1790840543113891038,
+        1790840543113891038
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 733,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/HOST_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/HOST_BEFORE.json",
+      "sha256": "bfbeb68ae732566161677290fa7f017e287d80b59e074d9f4d93097b455ee43f",
+      "state": [
+        16777244,
+        426629,
+        33188,
+        1,
+        733,
+        1790840543114611785,
+        1790840543114611785
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2454,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_BOOTSTRAP.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_BOOTSTRAP.py",
+      "sha256": "2621315b8a7bf8e57ce05e1a9da3e3f12d15d44d1ab6ef2f8e11dbf0a08acaba",
+      "state": [
+        16777244,
+        426630,
+        33188,
+        1,
+        2454,
+        1790840543115053450,
+        1790840543115053450
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 528243,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/SOURCES_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/SOURCES_BEFORE.json",
+      "sha256": "b4bb864a18f305b71621a13b870342f9a883388471725b092fbf078a398e73fb",
+      "state": [
+        16777244,
+        426631,
+        33188,
+        1,
+        528243,
+        1790840543248350280,
+        1790840543248350280
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1260495,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/SUPPLIER_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/SUPPLIER_BEFORE.json",
+      "sha256": "92c74d760517244f1ea707ffb745405f0cb41d35d3ba72648f03b5e6d974d069",
+      "state": [
+        16777244,
+        426632,
+        33188,
+        1,
+        1260495,
+        1790840543262362968,
+        1790840543262362968
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 43288,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/E_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/E_BEFORE.json",
+      "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4",
+      "state": [
+        16777244,
+        426633,
+        33188,
+        1,
+        43288,
+        1790840543266551574,
+        1790840543266551574
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2076,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_PREFLIGHT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_PREFLIGHT.json",
+      "sha256": "dc26c52ef762f36697c339d881643f4aa1b0ae309d21f0e12bc1c56e64907376",
+      "state": [
+        16777244,
+        426634,
+        33188,
+        1,
+        2076,
+        1790840543992206379,
+        1790840543992206379
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4283,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILIATION_PROPOSAL.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILIATION_PROPOSAL.json",
+      "sha256": "cc1099ec42c1b2fb876348f8a4cec5acd6d3832edbae4eeff66207ea1a237f07",
+      "state": [
+        16777244,
+        426635,
+        33188,
+        1,
+        4283,
+        1790840544003038873,
+        1790840544003038873
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 604033,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/PREPARATION_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/PREPARATION_CUSTODY.json",
+      "sha256": "904be2836064130e0ea0ac19998f3ea6c7bc7a5ea7c3dc580aafb27089907edd",
+      "state": [
+        16777244,
+        426636,
+        33188,
+        1,
+        604033,
+        1790840544006067318,
+        1790840544006067318
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "qualification_credit": 0,
+  "reconciliation_admitted": false,
+  "reconciliation_executed": false,
+  "remaining_premises": [
+    "Fresh source/supplier/host/E and namespace predispatch custody",
+    "Separate exact root admission and bound dispatch",
+    "Genuine outer actual execution/monitor evidence and independent postcustody review",
+    "Stable host/supplier, no descendants and Apple loader/cache assumptions retained"
+  ],
+  "retained_failure_unchanged": true,
+  "retained_partial_unchanged": true,
+  "root_concrete_check": {
+    "bytes": 5785,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/ROOT_CONCRETE_PREPARATION_CHECK.json",
+    "sha256": "4bf986441b17700630d76f495af5e82015a4617b13d70a968695d45886a19167"
+  },
+  "root_custody_check": "6006e5/session62605 ->4ff069 exit0;6492 canonical comparisons",
+  "schema": "ri230-root-actual-preparation-acceptance-v1",
+  "scientific_execution": false,
+  "scope": "Nine actual administrative records and empty controls only. Retained installation remains an unaccepted partial; original failure is not superseded as a success.",
+  "source_acceptance": {
+    "bytes": 2356,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI229_PREPARATION_SOURCE_ACCEPTANCE.json",
+    "sha256": "149af89b6d5a7a09c7efb56f2910d272c7f48f6df049da6c40d57268cf697646"
+  },
+  "status": "ACCEPT_ACTUAL_ADMINISTRATIVE_PREPARATION_ONLY"
+}

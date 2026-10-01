@@ -1,0 +1,111 @@
+{
+  "active_authority_created": false,
+  "acyclic_edges": [
+    [
+      "externally pinned RI229 source manifest",
+      "whole preparation writer/protocol/declarations/bootstrap"
+    ],
+    [
+      "genuine host input",
+      "canonical transcript copy",
+      "HOST_BEFORE"
+    ],
+    [
+      "accepted RI226 source and actual postfailure custody",
+      "fresh971source and58entryE observations"
+    ],
+    [
+      "fixed complete bootstrap text",
+      "future actual bootstrap FilePin",
+      "future971source observations"
+    ],
+    [
+      "actual sources/supplier/E/host/bootstrap",
+      "ten-field preflight"
+    ],
+    [
+      "actual preflight and accepted RI226 source decision",
+      "unissued9field admission proposal"
+    ],
+    [
+      "actual bootstrap and fixed command",
+      "9field dispatch data without admission"
+    ],
+    [
+      "eight earlier artifacts",
+      "preparation custody"
+    ],
+    [
+      "root independent actual preparation review",
+      "possible actual admission",
+      "actual reread admission FilePin",
+      "actual10field dispatch"
+    ]
+  ],
+  "admission_filepin_fabricated": false,
+  "all_original_source_paths": 904,
+  "bootstrap_future_output_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_BOOTSTRAP.py",
+  "bootstrap_output_created": false,
+  "declared_current_dependencies": {
+    "bytes": 250788,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/DEPENDENCIES.json",
+    "sha256": "0985323c819a7396189153bff0edccf0f3718b42efce27e29aa26442ceab1f2b"
+  },
+  "declared_dependency_count": 992,
+  "fixed_recovery_input_count": 963,
+  "full_current_recovery_packet": {
+    "bytes": 9657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/HANDOFF.json",
+    "sha256": "bead93928f1f1af37379f4d8add4c5e254b31633fa8d00acb274a2739d237fdc"
+  },
+  "future_external_inputs": [
+    "actual root RI229 source-review FilePin",
+    "actual current genuine host transcript FilePin",
+    "external root authority and authenticated administrative tool origin"
+  ],
+  "generated_control_directories": [
+    "tmp",
+    "monitor"
+  ],
+  "generated_output_names": [
+    "HOST_GENUINE_TOOL.json",
+    "HOST_BEFORE.json",
+    "RECONCILE_BOOTSTRAP.py",
+    "SOURCES_BEFORE.json",
+    "SUPPLIER_BEFORE.json",
+    "E_BEFORE.json",
+    "RECONCILE_PREFLIGHT.json",
+    "RECONCILIATION_PROPOSAL.json",
+    "PREPARATION_CUSTODY.json"
+  ],
+  "historical_role_count": 810,
+  "recovery_source_decision": {
+    "bytes": 2289,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ROOT_SOURCE_REVIEW.json",
+    "sha256": "4fdaddb780e94c2dbf0f4773d4301439421ef80586482535ec7b0842fc2c40f6"
+  },
+  "recovery_source_manifest": {
+    "bytes": 1412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/SOURCE_PINS.json",
+    "sha256": "83c1c226126113aacefe71b049be0113a1088ed6f1ca439534cae418b040fb0f"
+  },
+  "reviewed_bootstrap_body": {
+    "bytes": 2454,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/RECONCILE_BOOTSTRAP.source-only.py",
+    "sha256": "2621315b8a7bf8e57ce05e1a9da3e3f12d15d44d1ab6ef2f8e11dbf0a08acaba"
+  },
+  "root_final_admission_and_execution_are_separate": true,
+  "schema": "ri229-exact-preparation-reference-graph-v1",
+  "status": "SOURCE_ONLY_PROSPECTIVE_EXECUTION_GRAPH",
+  "whole_future_recovery_domain": {
+    "count": 971,
+    "union": [
+      "806unchanged base input pins",
+      "157repair provenance pins",
+      "5current RI226 source payloads",
+      "actual RI226 source manifest",
+      "actual accepted RI226 root source decision",
+      "actual separately prepared whole D/RECONCILE_BOOTSTRAP.py"
+    ]
+  }
+}

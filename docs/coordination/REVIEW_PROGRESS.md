@@ -1,6 +1,69 @@
 **Independent-review implementation progress**
 
-**Current follow-through — complete disconnected profiles accepted; retained-partial recovery source accepted.**
+**Current follow-through — native lower-combination routing accepted; actual measurement preparation reviewed.**
+1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+accept RI228's conditional finite-law routing and bounds. All four stem
+ratios satisfy beta_S=theta*alpha_S, including the neutral singleton via
+its full marked diamond. Six exact native coefficient keys and their
+potential multipliers are derived. The complete exceptional incidence
+gives zeta_i=(35/36)*gamma_i*kappa_i, retaining the zero branch and the
+actual canonical allocation. The unchanged strict mixture gives F_Y>1/72.
+
+The negative objective coefficient does not prove kappa positivity or
+saturation. All five parent profiles, 81 proper and five full occurrences,
+ten normalized unknowns and eight connected contrasts remain. The full
+improvement witness or signed inconsistency identity, optimality and
+maximal amplitude remain open. The original rejection, accepted positive
+family and unique active J2 bound remain unchanged.
+
+Root manual proof review is distinct from metadata replay eb38e7 exit0:
+35 whole identities,45 selected references,29 direct sources/757795 bytes,
+two six-file namespaces and15 boundaries. Independent3b624d exit0 supplied
+its own replay and separate proof review. Inherited423 sources remain by
+reference; no automated proof arithmetic or scientific execution occurred.
+Evidence: `docs/track_b/native_lower_combination_routing_v1/`.
+
+After adjudication, RI231 was assigned to the existing QR chat in
+`ri231-native-six-root-witness-qboypkl8/`. A separate root admission permits
+literal manual resolution of only the six proven keys in the unchanged
+RI41 certificate, with whole-file identity and original index provenance.
+Other coordinates and automated calculations remain excluded. The next
+native question is a full-system witness, or complete canonical parent-row
+capacity and exchange consequences if the allocation remains the obstacle.
+RI231 has since returned a sealed packet; independent adjudication is
+active. Its new claims are excluded from this checkpoint.
+
+RI229's complete preparation writer/bootstrap passed root and nonauthor
+source review. One separately authorized administrative preparation then
+completed:0f12a4/session16198, terminal1db8d4 exit0. It produced nine
+administrative records and empty control directories, preserving the
+retained partial and original failed operation. Genuine host, initial
+execution and terminal polling records are separately retained.
+
+Root actual check6006e5/session62605, terminal4ff069 exit0 made6492
+canonical comparisons. Independentd93b90 exit0 checked7544 predicates and
+2842 whole-file identities; the separate19-predicate session check
+dbf108 exited0. Review covers971 recovery sources,992 preparation dependencies,
+904 old sources/nine bindings,1810 vendor files/four tools/195 namespaces,
+two required absences and the unchanged49-file/nine-directory E tree.
+Evidence: `docs/coordination/measurement_reconciliation_preparation_v1/`.
+
+Only the actual administrative preparation is accepted. No reconciliation
+admission or dispatch has occurred; the retained installation remains an
+**unaccepted partial**, and original17185d exit1 and postflight13f7b9 stay
+immutable. Next root action: refresh operational custody, issue a separate
+one-attempt read-only reconciliation admission with the existing limits,
+retain the genuine monitored outcome and independently adjudicate it.
+Preparation gives no frozen-custody, mode or qualification credit.
+
+Normal/optimized mode, WHITE/RI131/full32 and selected public GWOSC
+conventional reproduction remain open. Calibrated claims and a native
+forward map remain separate. RET alone is paused. Preceding checkpoint
+d836305309f7d083a24babdde331e0b7a10da7fb was verified on live origin/ret.
+This checkpoint publishes reviewed stable evidence and preserves unrelated
+edits and active reservations. No user decision is needed.
+
+**Prior checkpoint — complete disconnected profiles accepted; retained-partial recovery source accepted.**
 1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
 accept RI225's conditional finite-law derivation of all five disconnected
 parent profiles: 81 proper and five full ideal occurrences, preserving

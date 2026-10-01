@@ -1,0 +1,89 @@
+{
+  "additional_bounded_read_chunks": [
+    "18f5aa",
+    "b501a2",
+    "d2e892",
+    "b492c3"
+  ],
+  "all_prior_operational_failures_preserved": true,
+  "failed_administrative_checker_attempts": [],
+  "no_current_supplier_or_E_observation": true,
+  "no_scientific_body_decode": true,
+  "operations": [
+    {
+      "chunk_id": "d32fb8",
+      "exit_code": 0,
+      "scope": "authenticated exact assignment and accepted RI226 decision; read empty author reservation"
+    },
+    {
+      "chunk_id": "ca8f58",
+      "exit_code": 0,
+      "scope": "read complete predecessor preparation"
+    },
+    {
+      "chunk_id": "44baca",
+      "exit_code": 0,
+      "scope": "read entire nonauthor handoff/root source review"
+    },
+    {
+      "chunk_id": "c9758f",
+      "exit_code": 0,
+      "scope": "read entire retained bootstrap, nonauthor narrative and metadata helper source without import"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/build_sources.py"
+      ],
+      "chunk_id": "fe2bc7",
+      "exit_code": 0,
+      "scope": "source-string and opaque-declaration construction only"
+    },
+    {
+      "chunk_id": "5d82c8",
+      "exit_code": 0,
+      "scope": "literal bounded author-review refinements preserved in DRAFT_REFINEMENTS; no target execution"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/finalize_sources.py"
+      ],
+      "chunk_id": "318063",
+      "exit_code": 0,
+      "scope": "final literal delta/manifest construction"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/python3",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/check_metadata.py"
+      ],
+      "chunk_id": "359933",
+      "exit_code": 0,
+      "result": {
+        "opaque_files": 997,
+        "predicates": 3999,
+        "report": {
+          "bytes": 637399,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/METADATA_CHECK.json",
+          "sha256": "e3968bcfe137a860f852527bdc5c676852b073d49f081517599e5ab8fe870408"
+        },
+        "status": "PASS_SOURCE_TEXT_AND_OPAQUE_METADATA_ONLY"
+      },
+      "scope": "administrative source/pin checks only"
+    }
+  ],
+  "retained_preexecution_checker_edits": [
+    "Corrected source-function text-span extraction to begin its next-boundary search after the complete function header.",
+    "Removed one inactive illustrative predicate before the sole checker run."
+  ],
+  "schema": "ri229-author-actual-administrative-tool-record-v1",
+  "scope": "Author transcription of actual administrative tool results, not self-authentication of root/tool authority.",
+  "subject_or_preparation_attempts": []
+}

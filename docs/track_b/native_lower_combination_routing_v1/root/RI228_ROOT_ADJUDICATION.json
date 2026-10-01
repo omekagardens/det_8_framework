@@ -1,0 +1,42 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "beta_S=theta*alpha_S for all four stem ideals, including neutral singleton.",
+    "Exact six RI41 root locations and potential multipliers; no values resolved.",
+    "Complete two-parent/root-sector exceptional incidence, zeta=(35/36)*gamma*kappa, nonnegative bounds and strictly negative actual objective coefficient.",
+    "Exact L8-L12 substitutions and unchanged strict-law F_Y>1/72 margin."
+  ],
+  "actual_independent_replay": "3b624d exit0 and851522 exit0",
+  "actual_root_replay": "eb38e7 exit0",
+  "complete_proof_read": "05c8ea",
+  "independent_review": {
+    "bytes": 4714,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/HANDOFF.json",
+    "sha256": "7d13640884e627d2666ff4f8d8fdc21d1c87214eb5882760c4972627e93a2b59"
+  },
+  "packet": {
+    "bytes": 22030,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/HANDOFF.json",
+    "sha256": "729d870ad76830416c9b8aad50e0a3381150c4f9467fb1986538eb35f6fcb011"
+  },
+  "qualification_credit": 0,
+  "root_manual_review": {
+    "bytes": 4148,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_REVIEW.md",
+    "sha256": "f59f56295e3cc9c4b30ca90332d65350262f17657e9a458724f1ed651020dc1b"
+  },
+  "root_metadata_replay": {
+    "bytes": 2864,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI228_ROOT_METADATA_REPLAY.json",
+    "sha256": "96ca9465e2e6b62e35af78c0c718e076d59326fca3ae1c6576ebf95242736308"
+  },
+  "schema": "ri228-root-native-adjudication-v1",
+  "scientific_body_read": false,
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_LOWER_COMBINATION_ROUTING_AND_BOUNDS",
+  "unresolved": [
+    "Named lambda values and canonical kappa allocation",
+    "Full normalized witness or signed inconsistency identity",
+    "Improvement, optimality and maximal amplitude"
+  ]
+}
