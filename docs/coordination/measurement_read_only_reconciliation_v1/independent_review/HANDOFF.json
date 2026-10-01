@@ -1,0 +1,254 @@
+{
+  "RET_paused": true,
+  "actual_reference_pins": [
+    {
+      "bytes": 1305,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_OUTER.json",
+      "sha256": "7c53b796da3cafe8a4c01873722a05976d49ea347e7c24613ffd3ed1767c19ca"
+    },
+    {
+      "bytes": 1230,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_POSTCHECK_TOOL.json",
+      "sha256": "fb7598ed1b3aacf4273aeaed5a42cb2c50d288fd597478ff3a26f07b50330e97"
+    },
+    {
+      "bytes": 1504,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_POST_HOST.json",
+      "sha256": "45c3c24c087a59ac2abbf633ec30ba1d6b9689d7d50995a64b17c6a5659046c0"
+    },
+    {
+      "bytes": 1504,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_PREDISPATCH_HOST.json",
+      "sha256": "4dc65421904298b970cdf19152a4af750f5f6d0885782168b923c4ddaccaabb6"
+    },
+    {
+      "bytes": 1310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_RECONCILIATION_TOOL.json",
+      "sha256": "0944100b5bf6dbc0367a11c4b485a0164619a935ea256c9a65437cad1d0d6274"
+    },
+    {
+      "bytes": 272,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_RECONCILIATION_TRANSPORT.json",
+      "sha256": "bacad8e6a7dfd50b26d110006501b04c2b5c1a8c3965fdb7313a090308f78c2f"
+    },
+    {
+      "bytes": 7513,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/ROOT_ONE_RECONCILIATION_DECISION.json",
+      "sha256": "d3c124847ca06f7d958a016cbd315244244c6b1f946af9f513386f938e7f6a93"
+    },
+    {
+      "bytes": 1568,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/ISSUED_CONTROLS.json",
+      "sha256": "93f3b5c4b380c20399fe43d8569dcd3123df4c7d0d2f986d0e405135072f21f8"
+    },
+    {
+      "bytes": 6610,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/FRESH_PREDISPATCH_CHECK.json",
+      "sha256": "8b87fe6e1df34404a5cb138c106fed7d2e7b87c59132c49a17e432c2a125cbb7"
+    },
+    {
+      "bytes": 1134,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/PREDISPATCH_PEER_CLEARANCE.json",
+      "sha256": "b1ed761c84384517afc42ad47bdd9fb73677bcdf89b3ce7de18561f4653cb1c1"
+    },
+    {
+      "bytes": 3693,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/issue_controls.py",
+      "sha256": "32bcd7eeaef94b74d8bb51ba8f2550c4d36ae65a65f89e929f2f4902dcb29800"
+    },
+    {
+      "bytes": 2907,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/capture_post.py",
+      "sha256": "d175aba3a985511ed58abde5d4ab7bf081910a8faaa09836708b775219acbf67"
+    },
+    {
+      "bytes": 2956,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/capture_post_v2.py",
+      "sha256": "3c50206f7574ec2a9ff5cf38cf1ab2ca9aeae5bc6efe56cfc460b7727e4a6ece"
+    },
+    {
+      "bytes": 407,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/CAPTURE_SOURCE_NOTE.txt",
+      "sha256": "2607434e43df8065ae58f0b4e32453481bcd71d3ea248092cf6ce61dba201ed2"
+    },
+    {
+      "bytes": 1645,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ADMIT_RECONCILE.json",
+      "sha256": "294c2f71e46611fa2d0fffe0b7946a3746e5b31970b71f0cc44db8abb65d9c79"
+    },
+    {
+      "bytes": 2341,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/DISPATCH.json",
+      "sha256": "75e3e89fcf5e0907e100ff2ae3a45f1319ce2f33adab0d3048a19bd84f66fd4e"
+    },
+    {
+      "bytes": 49112,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILIATION_POSTCHECK.json",
+      "sha256": "d22b9113eebd85fc447c631275fd05df032dc418ae870093afd53a3aacb1b45b"
+    },
+    {
+      "bytes": 1311,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/ATTEMPT.json",
+      "sha256": "4e341fa6a34737132138f727e836814f18ded930bd3f83494e4ef58c91fa2f78"
+    },
+    {
+      "bytes": 727753,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/BEFORE.json",
+      "sha256": "50df36d0eabcbb413ef7cf80661d4b4c0b27c3e1760786af101b5643e4040b23"
+    },
+    {
+      "bytes": 127298,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/FROZEN.json",
+      "sha256": "a58eeff7d3652417cc2cb8a80f5a83c21be9779c0c92f412e5a136cfa937426c"
+    },
+    {
+      "bytes": 2365820,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/OBSERVATIONS.json",
+      "sha256": "424b3010b84bea9b9af6580fa63bbe8f5d988e97c987fe798566480456e9335b"
+    },
+    {
+      "bytes": 2151529,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/COMPLETE.json",
+      "sha256": "917f90e303d1f88c323955ce9df75ffd759ee55c02955ed502dfff753dda1cef"
+    }
+  ],
+  "actual_subject": {
+    "exit_code": 0,
+    "initial": "5709fd",
+    "scope": "one read-only reconciliation; five files/eight complete tails",
+    "session": 77528,
+    "terminal": "d0b911"
+  },
+  "all_payloads": 7,
+  "blocking_findings": [],
+  "current_complete_status": "RECONCILED_PENDING_INDEPENDENT_ROOT_REVIEW",
+  "expected_diff_exit_one": [
+    "839d0c historical preauth adaptation",
+    "753f34 collector V2 delta"
+  ],
+  "failed_own_checker_attempts": [],
+  "files": [
+    {
+      "bytes": 2102,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/ACTUAL_CHECK_TOOL.json",
+      "sha256": "e4f8adbce4992724e997e6c7fc264fd8a033329a9ca23902f8548c5c2e976a29"
+    },
+    {
+      "bytes": 3209971,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/CHECK_RESULT.json",
+      "sha256": "1b23d692cc45cb6978f84789343038ce790f4cf91d2f1236bd15586e03ade93b"
+    },
+    {
+      "bytes": 12237,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/INDEPENDENT_REVIEW.md",
+      "sha256": "e40308ad2ba90f241eecf8e9a7227229d47e422bbf482d4484b12cee7f281a16"
+    },
+    {
+      "bytes": 4388,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/PREAUTH_REVIEW.json",
+      "sha256": "8211ea90a95908e347bb4b934ff70a148e3d13da38510241bade8c1b88f34b68"
+    },
+    {
+      "bytes": 5127,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/TOOL_RECEIPTS.json",
+      "sha256": "21be3f45a9eaa19020661b6f67396bf847f17a52a404c064e5f772f86aceeb36"
+    },
+    {
+      "bytes": 3503,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/VERDICT.json",
+      "sha256": "89acb0a96b1c328d48b0342245b1749e1463169231e16dbd6a6e68cbd3c13c6e"
+    },
+    {
+      "bytes": 44110,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/check_actual.py",
+      "sha256": "97d16c09d6dd227a6ad5d97c7b4c003bcf40b520bb83473c6548c039a8fdb376"
+    }
+  ],
+  "mode_admission": false,
+  "namespace": [
+    "ACTUAL_CHECK_TOOL.json",
+    "CHECK_RESULT.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "PREAUTH_REVIEW.json",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_actual.py"
+  ],
+  "narrative": {
+    "bytes": 12237,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/INDEPENDENT_REVIEW.md",
+    "sha256": "e40308ad2ba90f241eecf8e9a7227229d47e422bbf482d4484b12cee7f281a16"
+  },
+  "no_silent_changes_after_seal": true,
+  "original_failure_remains": "REFUSED_RETAIN_ALL_PARTIALS",
+  "own_actual_replay": {
+    "checker": {
+      "bytes": 44110,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/check_actual.py",
+      "sha256": "97d16c09d6dd227a6ad5d97c7b4c003bcf40b520bb83473c6548c039a8fdb376"
+    },
+    "distinct_whole_identities": 2868,
+    "exit_code": 0,
+    "genuine_tool": {
+      "bytes": 2102,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/ACTUAL_CHECK_TOOL.json",
+      "sha256": "e4f8adbce4992724e997e6c7fc264fd8a033329a9ca23902f8548c5c2e976a29"
+    },
+    "initial": "e65c1e",
+    "predicates": 11709,
+    "report": {
+      "bytes": 3209971,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/CHECK_RESULT.json",
+      "sha256": "1b23d692cc45cb6978f84789343038ce790f4cf91d2f1236bd15586e03ade93b"
+    },
+    "session": 14932,
+    "terminal": "ec235c"
+  },
+  "prior_readiness": {
+    "bytes": 4388,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/PREAUTH_REVIEW.json",
+    "sha256": "8211ea90a95908e347bb4b934ff70a148e3d13da38510241bade8c1b88f34b68"
+  },
+  "prior_review_misses_disclosed": [
+    "outer/child cwd premise",
+    "host-specific root directory nlink transition"
+  ],
+  "publication": {
+    "all_review_payloads_suitable_for_publication": true,
+    "compact_public_subset": [
+      "ACTUAL_CHECK_TOOL.json",
+      "CHECK_RESULT.json",
+      "HANDOFF.json",
+      "INDEPENDENT_REVIEW.md",
+      "PREAUTH_REVIEW.json",
+      "TOOL_RECEIPTS.json",
+      "VERDICT.json",
+      "check_actual.py"
+    ],
+    "external_only_diagnostics": [],
+    "full_check_report_included": true
+  },
+  "qualification_credit": 0,
+  "remaining_premises": [
+    "Genuine root/tool/host origin",
+    "Stable host, supplier, loader/cache/kernel applicability",
+    "No descendants; sampled child RSS only",
+    "Parent-PID record is not child identity",
+    "Separate root adjudication and mode admission"
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb",
+  "root_adjudication_required": true,
+  "root_admission_or_acceptance_issued_by_reviewer": false,
+  "schema": "ri234-independent-actual-reconciliation-review-handoff-v1",
+  "scientific_decode": false,
+  "source_authorship_disclosure": "Earlier WHITE validator/caller/bootstrap including RI130/141 authored by reviewer; separately accepted inherited semantics. RI226/229 subjects authored by another agent. Current actual outcome independently reconstructed.",
+  "status": "SEALED_COMPLETE_NONAUTHOR_ACTUAL_REVIEW",
+  "structured_verdict": {
+    "bytes": 3503,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/VERDICT.json",
+    "sha256": "89acb0a96b1c328d48b0342245b1749e1463169231e16dbd6a6e68cbd3c13c6e"
+  },
+  "subject_or_scientific_execution_by_reviewer": false,
+  "verdict": "ACCEPT_ACTUAL_READ_ONLY_RECONCILIATION_CUSTODY_FOR_ROOT_ADJUDICATION"
+}

@@ -1,6 +1,74 @@
 **DET independent-review implementation and QR coordination**
 
-**Current follow-through — six native coefficients and canonical capacity accepted; same-root contrast question assigned.**
+**Current follow-through — root transport and current frozen custody accepted.**
+1 October 2026 UTC (30 September Honolulu). RI233 establishes a conditional
+finite-law reduction: the complete C5 row, all supported connected full
+profiles and all five disconnected profiles depend only on the stem-root
+bit. Every same-root equation and minor therefore vanishes identically.
+The original record cubes and ideal multiplicities remain; this is not
+sampling or averaging. The new held identity e=theta*c supplies exact
+D4/D5 simplifications and a division-free cross-root equation.
+
+The full normalized obligation is exactly five disconnected cross-root
+equations plus eight connected scalar equations, two identically zero.
+All ten unknowns, u2=-1, actual canonical g1/g2 offsets, common reference
+values and positive full-slot recovery remain. Feasibility, a normalized
+witness or signed inconsistency, improvement, optimality and maximal
+amplitude remain open. No all-size or physical claim follows.
+
+Root read both entire proofs0ca7dd/e72dfa and verified39 source identities,
+33 direct sources/846757 bytes09f80a exit0. A separate nonauthor reviewed
+the mathematics and actual checks, replayed the retained metadata check
+78ec10 exit0 and independently checked1335 predicates55e0e3 exit0.
+The original final6 result was retrieved from the completed QR turn.
+Metadata checks are distinct from manual proof; the423-source manifest
+remains by reference and all15 inherited boundary objects remain.
+Evidence is in `docs/track_b/native_root_transport_v1/`.
+
+After adjudication, RI235 is assigned to the existing Quantum Relativity
+chat: attack the actual cross-root system, prioritizing the minimal D2
+obstruction route. Prove actual connected contrasts before eliminating
+variables, preserve all zero branches and actual allocations, and seek a
+full witness or finite signed inconsistency. A restated generic rank
+criterion or relaxed-allocation example does not settle this question.
+
+Measurement RI234 completed one genuine read-only reconciliation:
+5709fd/session77528 to d0b911 exit0, with all eight tails successful.
+The accepted current frozen observation binds all49 files/nine directories
+and the exact existing candidate; E was never written. The original RI222
+installation remains refused and unchanged. Acceptance is current observed
+custody, not retroactive installation, atomicity or durability certification.
+
+The unchanged monitor recorded2.387756666 seconds,63 samples and74208KiB
+peak sole-child RSS. Maximum sample gap0.046761082999999995 seconds and
+final gap0.027414499999999897 seconds satisfy the original0.1-second gate.
+The same-author saved checker cfb84c exit0 passed161124 checks. Root's
+separate check7edcb5/session70967 to27ea4a exit0 reconciled3455 comparisons
+and2796 whole identities; nonauthor e65c1e/session14932 to ec235c exit0
+reconstructed11709 checks/2868 identities, all five outputs/eight tails,
+971 sources,904 historical sources/nine bindings and48/124/30 roles.
+All original wall/RSS/poll/ps/file limits and Apple supplier, loader/cache,
+no-descendant and observed-window premises remain explicit.
+Evidence is in `docs/coordination/measurement_read_only_reconciliation_v1/`.
+
+RI236 is the selected root-owned next measurement step: one fresh unchanged
+RI141 capture with TMPDIR=E/tmp, whole comparison to the accepted normal PRE,
+and separate complete E custody. Then review unchanged RI160 pre_mode and
+normal-card candidates in order. The five-field pre_mode request returns
+nine fields; the runtime record has13 and the card candidate10. Actual
+normal-card insertion, normal execution and optimized execution remain
+separately controlled. No fresh mode card or scientific execution is included.
+
+WHITE15/W09, both179 controls,27/13/30 records,57 artifacts/74 postchecks/
+three science trees,RI131/full32 and selected public GWOSC conventional
+reproduction remain. Calibration and a native forward map are separate.
+RET alone remains paused. Prior72c80222677f28eec08e86f4c5b5fd6486db107d
+was verified on live origin/ret; this checkpoint's exact commit and remote
+receipt are recorded externally after publication. Unrelated changes,
+original reviews and protected historical evidence remain preserved.
+The programme continues; no user decision is required.
+
+**Prior checkpoint — six native coefficients and canonical capacity accepted; same-root contrast question assigned.**
 1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
 accept RI231's conditional finite-law result. Exact original indices and
 default/override provenance resolve all six admitted coefficients. The

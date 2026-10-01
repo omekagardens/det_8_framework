@@ -1,0 +1,4 @@
+{
+  "justification": "Execute the separately reviewed and root-authorized RI226 read-only reconciliation once under its unchanged monitor and limits; only new external operation evidence is written and E remains read-only.",
+  "sandbox_permissions": "require_escalated"
+}

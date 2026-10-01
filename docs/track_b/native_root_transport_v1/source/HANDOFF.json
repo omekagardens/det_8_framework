@@ -1,0 +1,228 @@
+{
+  "schema": "ri233-actual-root-transport-and-compatibility-reduction-handoff-v1",
+  "status": "CONDITIONAL_ACTUAL_ROOT_TRANSPORT_AND_EXACT_TWO_SECTOR_REDUCTION_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri232-root-canonical-review-6datre21/RI233_NATIVE_ASSIGNMENT.json",
+    "bytes": 3905,
+    "sha256": "f64b6008fbeb646d9c849a09d92edea1eac67ff7451a1ae1090a2ce8085ef5e9"
+  },
+  "inherited_assignment": {
+    "bytes": 19482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_NATIVE_ASSIGNMENT.json",
+    "sha256": "64ed152b60b17da079288ca4c8e95c53ec228ba1e1748fdd202a67c469210157"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri232-root-canonical-review-6datre21/RI231_ROOT_ADJUDICATION.json",
+    "bytes": 1831,
+    "sha256": "e16ae7820169610b046fb40bf44e08fbfe35704d8d06a266dc8d7bd005027594"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "OFFSET_ELIMINATION.md",
+    "ROOT_TRANSPORT.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/AUTHOR_VERIFICATION.json",
+      "bytes": 39812,
+      "sha256": "829c58f7fc8781290d4f86a6818a0c8bca9e8b631c2c9714335035fd0f5430e5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.md",
+      "bytes": 2099,
+      "sha256": "4a8ab82be95fdb00f0e450f9168a04da468b4b48a7d29de598f020d54a5ec115"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/OFFSET_ELIMINATION.md",
+      "bytes": 8137,
+      "sha256": "cfd7c78c78fd39f9abef2873cae50fd8b903251da52ef3d1eafd99dca95b8efc"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/ROOT_TRANSPORT.md",
+      "bytes": 14353,
+      "sha256": "587b4033d350c6022b5a5ffcd990e2d1a8f5a073f02249d1c18e5bab75812440"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/SOURCE_REFERENCES.json",
+      "bytes": 67263,
+      "sha256": "836331259f615b9003f4d56d5d6eb34de5deb4037b2d155473ff1ea13b4d6a01"
+    }
+  ],
+  "new_theorems": [
+    "Explicit kappa dependence is a fixed-root offset in all five actual profiles; Phi1 is cubic,Phi2 quadratic,Phi3=Phi4=Phi5=0.",
+    "Division-free pairwise contrast minors are necessary; exact zero/nonzero contrast branches and retained reference equations supply within-sector equivalence, and cross-sector compatibility restores the full family.",
+    "All C5 proper roles except its singleton are raising and theta-scaled C4 slots. In particular e=theta*c. Singleton locality and complete normalization prove the entire actual C5 row root-only.",
+    "Finite maximal-deletion induction propagates root-only dependence to every existing C3-plus-cap connected row through sizes6and7, including all eleven f_j.",
+    "All five actual disconnected full profiles and shared linear-form coefficients are root-only. Therefore every same-root equation and minor vanishes for arbitrary W at the actual law.",
+    "New complete C5 normalization yields explicit V_C,Z,E4,R4 simplifications and an allocation-free actual D5 cross-root relation, retaining zero contrasts.",
+    "The full normalized obligation is equivalent to five disconnected cross-root equations and eight connected scalar equations (f8/f11 cases identically zero), with all ten unknowns and original reference recovery retained.",
+    "No full normalized solution, actual signed inconsistency identity, rank, feasibility, improvement/optimality or maximal amplitude is established."
+  ],
+  "exact_result": {
+    "offsets": "Explicit chi dependence in B1 and B2 is the cubic/quadratic O3 sector offset; B3,B4,B5 have none. Differences at fixed root cancel that dependence, while the actual reference g retains it.",
+    "minor_logic": "M_rt=D_t*J_r-D_r*J_t follows division-free from D_t*E_r-D_r*E_t=G*M_rt. The all-D-zero branch needs J=0; the nonzero-D branch needs minors plus the retained pivot equation. Cross-sector O8 and positive-reference transport O9 restore the entire original family.",
+    "C5": "Empty and prefixes2,3,4 raise defect0to1; unique-maximum deletion gives theta times the C4 row, including e=theta*c. The neutral singleton is root-only by locality, and complete normalization proves full ell root-only.",
+    "connected_transport": "Finite cap induction through the actual common rho/s layers proves every supported connected row, including all eleven f_j, depends only on its stem-root bit. No common-scale assumption is made at sizes4/5.",
+    "disconnected_transport": "All five actual B_p,g_p and all shared l_p coefficient forms are root-only by the complete held formulas. Every same-root compatibility and minor is therefore an identity for arbitrary W at the actual law.",
+    "held_consequences": "omega=1-theta-ell>=0 is an actual held alias, not a new allocation. R8 simplifies V_C,Z,E4,R4, R9 gives Delta V_C, and R10 is an explicit allocation-free D5 cross-root equation with zero contrasts retained.",
+    "full_problem": "R11-R12 give five disconnected cross-root equations and eight connected scalar equations; two latter cases f8/f11 are identities. All ten unknowns,u2=-1,actual canonical offsets and exact R13 reference recovery remain.",
+    "unresolved": "No actual rank, full normalized solution, finite signed inconsistency identity, improvement/optimality, maximal amplitude or canonical allocation is established. Same-root tests alone give no constraint; remaining cross-root compatibility is the exact witness gap.",
+    "acceptance": "Author deductions pending independent adjudication. Metadata checks are not mathematical acceptance or executable qualification."
+  },
+  "proof_steps": [
+    "Read the current RI233 assignment and accepted RI231 root decision completely; preserve the exclusive source-only reservation. Inherit the accepted six values without reopening the original body or renewing any literal exception.",
+    "Keep all actual held rows and canonical correlations fixed when defining Bhat. Algebraic removal of an explicit chi term is not an assertion of an admissible zero-allocation law or freely selectable coefficients.",
+    "Collect B1's kappa offset from exactly -3rho*X,3rho^2*F_Y,rho^3*M3. Collect B2 from -rho*(X-F_Y) and rho^2*(F_Y+M2), preserving the common quadratic. Check B3,B4,B5 have no explicit chi terms.",
+    "At a fixed intrinsic root bit chi is constant, so every B difference equals the Bhat difference. Preserve the actual positive sector reference g, which still contains the offset.",
+    "Derive the exact identity D_t*E_r-D_r*E_t=G*M_rt with E=G*J+s*D*L and M=D_t*J_r-D_r*J_t. This gives necessary minors without division by any possibly zero contrast.",
+    "Separate the all-D-zero branch, which still needs all J=0, from the branch with a declared nonzero D_t, which needs all minors plus the original pivot equation. Check J-zero/nonzero-D forces L=0 using s>0; keep every zero branch.",
+    "Restore one common cross-root compatibility equation per disconnected parent and its original reference recovery. Prove O9 algebraically with positive g references; do not fit separate full corrections to each root sector.",
+    "List all five C5 proper ideals. Empty birth has two minima and deletion of the newborn restores the chain. Prefixes of sizes2,3,4 give incomparable chain principal ideals sharing more than the least cell; deletion of the newborn is a defect-one witness.",
+    "Use the accepted canonical active-neutrality theorem only at its original parent-five layer. Raising proper roles have zero canonical coefficient but actual coefficient theta; do not set their actual probability to zero.",
+    "Use unique-maximum deletion to prove D_empty=theta*B_empty,D_pair=theta*B_pair,d=theta*b and e=theta*c, including the full C4 potential for the last equality.",
+    "Keep the C5 singleton neutral; no canonical allocation is inferred. Its selected precursor is just the root, so locality alone gives root dependence. Complete actual normalization then proves ell is root-only on all32 C5 records.",
+    "Define omega=sigma-theta*B_singleton=1-theta-ell as an alias of actual held quantities. Its nonnegativity follows from the actual strict mixture, but no value, positive allocation or new canonical-capacity family is selected.",
+    "Use the accepted complete C3,C4,H5 root patterns and the new C5 result as finite induction bases. They exhaust all zero/one/two-cap orders over C3.",
+    "For three-cap and four-cap connected parents, every nonempty omitted-maxima subset removes only cap vertices and retains the C3 stem. Each restricted factor therefore has the same root bit by induction; products use positive denominators.",
+    "Use only the actual common rho and s at parent sizes6and7. Do not assume common coefficients at parent4 or5. Complete individual proper-slot sums and normalization give full-profile root dependence.",
+    "Transport every original record and labeling through the same order/precursor/mark maps. Root-only probability dependence does not erase records or payload, average histories, or supply an all-size extension.",
+    "Apply the complete root-only A,B,G,D held rows to every accepted disconnected profile ingredient, including E1/E2/E4, all four-term sums, fixed T, and actual chi sectors. This establishes D2,D4,D5 transport rather than importing D1/D3 as a blanket assumption.",
+    "Substitute d=theta*b,g=theta*b^2/a,h=e=theta*c into every original shared linear form. Verify l1 through l5, retaining all coefficients3,2 and the same shared W variables.",
+    "Conclude all actual same-root D,J,E,M are zero for arbitrary W. This is an exact actual-law identity and not a relaxed allocation example or proof of rank/feasibility.",
+    "Derive V_C,Z,E4,R4 from D_S=theta*B_S plus omega only at the singleton. Retain the full C4 term e^2/c and every empty term when using complete normalization.",
+    "Derive Delta V_C=theta^2*Delta U+(1-theta*alpha_s)*Delta ell; assign no sign or nonzero status to this contrast. Keep the omega=0 branch and use only positive B_singleton as denominator.",
+    "Check the negative sign in the retained D5 equation from g5=1-s*(2-rho)+s*rho*(1-rho)*V_C. This is an actual allocation-free cross-root relation, not a formal minor asserted nonzero.",
+    "Reduce all original equations exactly to five disconnected cross-root rows and eight connected root-contrast rows. The known f8,f11 constants make two latter rows identities; no other Uj is discarded without proof.",
+    "Preserve all ten unknowns and u2=-1 recovery. Check delta v1=beta10*u0-beta12+beta13*u3,delta v2=-beta2,delta v3=beta3*u3,delta vj=-Uj/fj0,delta dp=-rho*lp0/(eCp*gp0),delta yJj=Wj/ej.",
+    "Every recovery denominator is an inherited positive actual reference. The already accepted T1/T2/T3 compensation identities and strict endpoint theorem remain unchanged; no new amplitude is selected.",
+    "Prove the final two-sector equations with recovery are equivalent to the full normalized system by record transport and O9, not just necessary. A count of equations is explicitly not a rank or feasibility result.",
+    "Name the remaining actual cross-root compatibility/inconsistency witness and its canonical offsets, connected contrasts and reference/Gamma quantities. No full normalized solution, signed obstruction, allocation, generic-rank conclusion or nonderivability theorem is claimed.",
+    "Keep RI231 canonical-only capacity qualification, original rejected candidate and positive family unchanged. No capacity expansion, source/body/coordinate admission, numerical engine, H/z reconstruction, execution, repository/Git, measurement, RET or successor work is begun."
+  ],
+  "exact_missing_witness": {
+    "full_system": "Actual R11-R12 after exact R13 recovery. Every original record is transported to its intrinsic root sector, not dropped.",
+    "necessary_coefficients": "Actual two-sector g1/g2 canonical offsets; all connected root contrasts; the admitted held rows/reference/Gamma quantities. Use e=theta*c and the new R8-R10 equalities.",
+    "required_outcome": "An exact normalized u2=-1 solution with every recovered row verified, or a finite signed combination of these actual equations with zero unknown coefficients and nonzero RHS.",
+    "same_root_only_route_exhausted_by_actual_identity": true,
+    "necessary_minors_treated_as_sufficient": false,
+    "relaxed_allocation_or_generic_rank_used_as_actual_decision": false,
+    "global_minimality_or_nonderivability_claim": false,
+    "new_body_or_execution_authority_created": false
+  },
+  "inherited_not_freshly_reproved": [
+    "Finite strict baseline and full scalar payload maps, precursor locality, equivariance and complete marked diamonds.",
+    "Accepted complete C3/C4/H5 root patterns, actual parent-five canonical neutrality and strict mixture.",
+    "Existing common parent-six/seven rho/s laws, original capped support and ideal inventories.",
+    "RI225 complete disconnected profiles, RI127 shared linear forms and connected compensation, RI223 normalized recovery/endpoint criterion.",
+    "Accepted RI231 six prescribed values, canonical-only capacity result and bounds; no original certificate reopened."
+  ],
+  "scope": {
+    "manual_analysis_only": true,
+    "original_quarter_rejection_immutable": true,
+    "accepted_small_amplitude_family_preserved": true,
+    "accepted_six_values_inherited_without_new_inspection": true,
+    "all_five_explicit_offset_cancellations_proved": true,
+    "division_free_minors_and_zero_branches_proved": true,
+    "complete_reference_and_cross_sector_equivalence_preserved": true,
+    "complete_actual_C5_root_transport_proved": true,
+    "actual_e_equals_theta_c_proved": true,
+    "finite_supported_connected_root_transport_proved": true,
+    "all_five_disconnected_full_and_shared_forms_root_only_proved": true,
+    "actual_same_root_equations_identically_zero_proved": true,
+    "exact_two_sector_full_normalized_reduction_proved": true,
+    "actual_D4_D5_held_consequences_proved": true,
+    "all_records_ideal_multiplicities_and_canonical_corrections_preserved": true,
+    "canonical_kappa_or_competing_values_determined": false,
+    "actual_rank_or_feasibility_decided": false,
+    "native_improvement_or_optimality_decided": false,
+    "native_lifting_direction_found": false,
+    "native_inconsistency_identity_found": false,
+    "maximal_full_amplitude_decided": false,
+    "numerical_amplitude_selected": false,
+    "scientific_body_vector_or_new_coordinate_inspected": false,
+    "automatic_scientific_JSON_parsing_or_proof_arithmetic": false,
+    "H_or_z_reconstruction": false,
+    "actual_rho_s_theta_evaluated": false,
+    "graph_LP_subject_runtime_fixture_card_execution": false,
+    "repository_Git_index_or_measurement_written": false,
+    "canonical_capacity_expansion_started": false,
+    "inherited_finite_premises_remain_conditional": true,
+    "ret_paused": true,
+    "qualification_credit": 0,
+    "full_QM_geometry_or_physical_claim": false,
+    "all_size_continuation_claim": false,
+    "successor_designed_or_started": false
+  },
+  "provenance_scope": {
+    "direct_sources": 33,
+    "direct_bytes": 846757,
+    "inherited423_by_reference": true,
+    "inherited_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_namespace": 6,
+    "inherited_analytic_permissions_retained_without_new_body_authority": true,
+    "historical_RI231_literal_exception_retained_but_not_renewed": true,
+    "old_original_body_and_literal_authority_absent_from_fresh_scope": true,
+    "current_no_body_boundary": {
+      "predecessor_exception_historical_only": true,
+      "accepted_six_values_inherited_from": "accepted RI231 packet and root adjudication",
+      "new_body_or_coordinate_authority": false,
+      "new_original_body_read": false,
+      "historical_exception_does_not_renew": true,
+      "typed_reference_expansion": false
+    }
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "8e3493",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 37,
+      "explicit_selected_reference_checks": 43
+    },
+    "complete_proof_reads": [
+      {
+        "chunk_id": "5f2c9d",
+        "exit_code": 0
+      },
+      {
+        "chunk_id": "f67c89",
+        "exit_code": 0
+      }
+    ],
+    "author_pin": {
+      "chunk_id": "41f7c0",
+      "exit_code": 0
+    },
+    "diagnostics": {
+      "failed_shell_commands": 0,
+      "rejected_patches": 0,
+      "failed_orchestration_attempts": 1,
+      "orchestration_failure": "A metadata-object construction referred to S before initialization and threw ReferenceError. No tool action, file write, source expansion or scientific execution occurred in that failed call; the administrative object was rebuilt successfully.",
+      "clipped_displays": 0
+    },
+    "independent_proof_acceptance": false
+  },
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "final_check_policy": "Run retained final6 after saving this seal; report actual receipt/all six identities externally. No internal self-hash or unperformed-check success claim.",
+  "stopping_rule": "Seal actual root transport, exact minor/zero-branch compatibility and two-sector full-system reduction for independent review. No rank, full witness, allocation or physical claim; no successor, new body/coordinate, coupled capacity expansion, execution or publication. Root owns Git/index and next authorization; RET paused."
+}

@@ -1,0 +1,30 @@
+{
+  "initial_arguments": {
+    "cmd": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/check_actual.py",
+    "max_output_tokens": 4000,
+    "yield_time_ms": 1000
+  },
+  "initial_result": {
+    "chunk_id": "e65c1e",
+    "original_token_count": 0,
+    "output": "",
+    "session_id": 14932,
+    "wall_time_seconds": 1.003865541
+  },
+  "intermediate_calls": [],
+  "origin": "Transcribed verbatim from actual functions exec/write_stdin tool responses in this reviewer turn",
+  "schema": "ri234-reviewer-received-actual-tool-transcript-v1",
+  "terminal_arguments": {
+    "chars": "",
+    "max_output_tokens": 4000,
+    "session_id": 14932,
+    "yield_time_ms": 1000
+  },
+  "terminal_result": {
+    "chunk_id": "ec235c",
+    "exit_code": 0,
+    "original_token_count": 277,
+    "output": "{\"report\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/CHECK_RESULT.json\", \"bytes\": 3209971, \"sha256\": \"1b23d692cc45cb6978f84789343038ce790f4cf91d2f1236bd15586e03ade93b\"}, \"checks\": 11709, \"whole_files\": 2868, \"counts\": {\"distinct_files\": 2868, \"source_domain\": 971, \"old_sources\": 904, \"prepared_outputs\": 9, \"preparation_dependencies\": 992, \"vendor\": 1810, \"vendor_bytes\": 48024515, \"tools\": 4, \"supplier_namespace\": 195, \"supplier_absences\": 2, \"E_files\": 49, \"E_directories\": 9, \"copy_pairs\": 48, \"history_roles\": 124, \"target_original_roles\": 30, \"prior_roles\": 810, \"operation_files\": 5, \"monitor_files\": 4, \"monitor_samples\": 63, \"monitor_raw_attempts\": 63, \"independent_tails\": 8}, \"monitor\": {\"elapsed_seconds\": 2.387756666, \"peak_sampled_rss_kib\": 74208, \"maximum_sample_gap_seconds\": 0.046761082999999995, \"final_gap_seconds\": 0.027414499999999897, \"initial_chunk\": \"5709fd\", \"session\": 77528, \"terminal_chunk\": \"d0b911\", \"exit_code\": 0}, \"status\": \"PASS_COMPLETE_ACTUAL_READ_ONLY_RECONCILIATION_CUSTODY_PENDING_ROOT_ACCEPTANCE\"}\n",
+    "wall_time_seconds": 1.0041e-05
+  }
+}

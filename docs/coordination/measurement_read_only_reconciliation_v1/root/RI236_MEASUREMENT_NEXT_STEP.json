@@ -1,0 +1,36 @@
+{
+  "RET_paused": true,
+  "baseline": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "capture_not_started": true,
+  "design_trace": {
+    "bytes": 4077,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/NORMAL_MODE_DESIGN_TRACE.json",
+    "sha256": "7b8252e6df48f8f7b0e1afc51f4bda46921935df7b7dff34c0a2ccbea321565d"
+  },
+  "mode_card_not_issued": true,
+  "next_action": "Fresh RI141 capture phase at E/tmp followed by whole accepted-normal-PRE comparison and separate complete frozen E custody; then separately reviewed unchanged RI160 pre_mode and normal-card candidates.",
+  "no_new_wrapper_or_qualification_campaign_indicated": true,
+  "owner": "root coordinator",
+  "predecessor": {
+    "bytes": 3826,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/FROZEN_CUSTODY_ACCEPTANCE.json",
+    "sha256": "16b743e2ccbdcc512aa1981a33a6f3e400c76edfbdd3bde615385057e8026fae"
+  },
+  "requirements": [
+    "Fresh full vendor/host/source preflight and exact ten-field E environment",
+    "Separate genuine capture authorization and original bounds; new external output only",
+    "Both entire current runtime snapshots equal accepted normal PRE, plus full E49/9 and48/124/30 role custody",
+    "13-field actual runtime,5-field pre_mode request,9-field pre_mode result and10-field candidate card in acyclic order",
+    "Only later separately authorized sole-card insertion may change root directory metadata; retain exact full before/after states,stable device/inode/mode,and every prior file/nonroot directory; no arbitrary extra changes or predicted nlink increment",
+    "No scientific normal dispatch before full accepted pre-mode/card/current custody; accepted normal precedes optimized"
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s",
+  "schema": "ri236-root-current-e-normal-preparation-v1",
+  "scientific_execution": false,
+  "status": "SELECTED_AFTER_CURRENT_FROZEN_CUSTODY_ACCEPTANCE_NOT_OPERATIONAL_ADMISSION",
+  "unchanged_sources": true
+}

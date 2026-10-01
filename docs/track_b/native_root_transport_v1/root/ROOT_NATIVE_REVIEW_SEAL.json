@@ -1,0 +1,177 @@
+{
+  "reviews": [
+    {
+      "handoff": {
+        "bytes": 8092,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/HANDOFF.json",
+        "sha256": "698cec591f4570f3499355f501dbe961e53d26c2c51b0008053ddbbd60b9f7f7"
+      },
+      "identities": [
+        {
+          "bytes": 8092,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/HANDOFF.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/HANDOFF.json",
+          "sha256": "698cec591f4570f3499355f501dbe961e53d26c2c51b0008053ddbbd60b9f7f7",
+          "state": [
+            16777244,
+            427455,
+            33188,
+            1,
+            8092,
+            1790843912918711144,
+            1790843912918711144
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 2454,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/AUTHOR_REPLAY.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/AUTHOR_REPLAY.json",
+          "sha256": "1f097a4176691d22a2c40e8657a9f56d9b91cc85c90d855567dc7f938813a637",
+          "state": [
+            16777244,
+            427422,
+            33188,
+            1,
+            2454,
+            1790843296276021704,
+            1790843296276021704
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 16344,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/CHECK_RESULT.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/CHECK_RESULT.json",
+          "sha256": "a3f8bbf00485e7fd30f4987524df591ef633da67c4e466f058218d3913a55597",
+          "state": [
+            16777244,
+            427440,
+            33188,
+            1,
+            16344,
+            1790843530566040625,
+            1790843530566040625
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 1498,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/FINALIZATION_DIAGNOSTIC.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/FINALIZATION_DIAGNOSTIC.json",
+          "sha256": "5523dec25ae1aeb9070b1e65f3a272b40eeb6df674dfcf0cd6598a01d1dc22d3",
+          "state": [
+            16777244,
+            427454,
+            33188,
+            1,
+            1498,
+            1790843912874836722,
+            1790843912874836722
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 13587,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INDEPENDENT_REVIEW.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INDEPENDENT_REVIEW.md",
+          "sha256": "77589094bc0745bcb3ada6b7840b38c60ca33b2b0dfd669a55ed4f7c50c7df91",
+          "state": [
+            16777244,
+            427448,
+            33188,
+            1,
+            13587,
+            1790843912875123678,
+            1790843912875123678
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 14693,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INPUT_REFERENCES.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INPUT_REFERENCES.json",
+          "sha256": "1c8ad27c7d005615f8977192950497bd0ec9e8925a7d8510d144e9375d1f4831",
+          "state": [
+            16777244,
+            427450,
+            33188,
+            1,
+            14693,
+            1790843734677738456,
+            1790843734677738456
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 4765,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/READ_RECEIPTS.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/READ_RECEIPTS.json",
+          "sha256": "1f3d6ff60f83eba0c7cfb8886edf303647bcb4e811d864560e6bf621049acb21",
+          "state": [
+            16777244,
+            427449,
+            33188,
+            1,
+            4765,
+            1790843912917249946,
+            1790843912917249946
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 2161,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/VERDICT.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/VERDICT.json",
+          "sha256": "8f5a2f4dad6293d576fcf3b112d44b1be6c2408c4577a22871d46a0546d77ea8",
+          "state": [
+            16777244,
+            427451,
+            33188,
+            1,
+            2161,
+            1790843912916857616,
+            1790843912916857616
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 19719,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/author_metadata_checker.js",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/author_metadata_checker.js",
+          "sha256": "87e4cfbae00b806ffc81af72f729fb648ab97777ebfba669df4806c0143012bf",
+          "state": [
+            16777244,
+            427421,
+            33188,
+            1,
+            19719,
+            1790843267761548313,
+            1790843267761548313
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 8110,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/check_metadata.py",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/check_metadata.py",
+          "sha256": "7c53f495f3ce6c9f7d412ef8311a6b4bd04a7d1c5c72c9646f5110ef1e3b0875",
+          "state": [
+            16777244,
+            427439,
+            33188,
+            1,
+            8110,
+            1790843511927354937,
+            1790843511927354937
+          ],
+          "symlink_chain": []
+        }
+      ]
+    }
+  ],
+  "root_complete_reads": [
+    "ba946d exit0 complete native review and verdict"
+  ],
+  "schema": "ri234-final-nonauthor-seals-v1"
+}

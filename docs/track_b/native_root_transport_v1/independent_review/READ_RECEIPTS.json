@@ -1,0 +1,136 @@
+{
+  "actual_own_receipts": [
+    {
+      "chunk_id": "bf5fd6",
+      "exit_code": 0,
+      "scope": "Initial complete six-file identities/states and complete HANDOFF.json"
+    },
+    {
+      "chunk_id": "eabd13",
+      "exit_code": 0,
+      "scope": "Complete OFFSET_ELIMINATION.md with line numbers, untruncated"
+    },
+    {
+      "chunk_id": "ca20b1",
+      "exit_code": 0,
+      "scope": "Complete ROOT_TRANSPORT.md with line numbers, untruncated"
+    },
+    {
+      "chunk_id": "2c1fef",
+      "exit_code": 0,
+      "scope": "Complete direct identity/access list and administrative schema inventory"
+    },
+    {
+      "chunk_id": "f63f88",
+      "exit_code": 0,
+      "scope": "Complete retained checker source and author phase/diagnostic declarations, untruncated"
+    },
+    {
+      "chunk_id": "b18ae9",
+      "exit_code": 0,
+      "scope": "Exclusive reservation creation and exact retained checker copy, no execution"
+    },
+    {
+      "chunk_id": "78ec10",
+      "exit_code": 0,
+      "scope": "Actual retained metadata final6 replay; stdout preserved as AUTHOR_REPLAY.json, stderr empty"
+    },
+    {
+      "chunk_id": "6358c5",
+      "exit_code": 0,
+      "scope": "Complete accepted RECORD_TRANSPORT.md"
+    },
+    {
+      "chunk_id": "430234",
+      "exit_code": 0,
+      "scope": "Complete accepted RI127 RESULT.md shared forms/recovery"
+    },
+    {
+      "chunk_id": "46b288",
+      "exit_code": 0,
+      "scope": "Broad inherited text search; clipped and not treated as complete proof evidence"
+    },
+    {
+      "chunk_id": "3f6189",
+      "exit_code": 0,
+      "scope": "Complete accepted SIX_ROOT_WITNESS.md, inherited values only; no original body read"
+    },
+    {
+      "chunk_id": "a646a8",
+      "exit_code": 0,
+      "scope": "Complete accepted NATIVE_REDUCTION.md, including full N11-N17"
+    },
+    {
+      "chunk_id": "8323fe",
+      "exit_code": 0,
+      "scope": "LOWER_PROFILE_GAP lines154-215 and COMPLETION lines1-180; complete relevant root-pattern/neutrality/strict-mixture passages"
+    },
+    {
+      "chunk_id": "99b279",
+      "exit_code": 0,
+      "scope": "Complete accepted DISCONNECTED_PROFILES.md"
+    },
+    {
+      "chunk_id": "40bf07",
+      "exit_code": 0,
+      "scope": "Targeted REPAIR.md locator search"
+    },
+    {
+      "chunk_id": "4d2416",
+      "exit_code": 0,
+      "scope": "RI103 REPAIR lines76-143,307-338 and complete RI233 HANDOFF.md"
+    },
+    {
+      "chunk_id": "3d2d95",
+      "exit_code": 0,
+      "scope": "Save separate metadata-only checker exclusively in review reservation"
+    },
+    {
+      "chunk_id": "55e0e3",
+      "exit_code": 0,
+      "scope": "Actual independent administrative checker:1335 predicates,39 identities; preserved CHECK_RESULT.json, stderr empty"
+    },
+    {
+      "chunk_id": "e851a8",
+      "exit_code": 0,
+      "scope": "Initial own review/receipt/reference/verdict writes; unsealed preliminary report pin superseded by final seal"
+    },
+    {
+      "chunk_id": "725086",
+      "exit_code": 1,
+      "scope": "Own metadata finalizer failed whole-stat equality on newly written narrative; no HANDOFF created and no subject changed"
+    }
+  ],
+  "author_diagnostics": {
+    "clipped_displays": 0,
+    "failed_orchestration_attempts": 1,
+    "failed_shell_commands": 0,
+    "orchestration_failure": "A metadata-object construction referred to S before initialization and threw ReferenceError. No tool action, file write, source expansion or scientific execution occurred in that failed call; the administrative object was rebuilt successfully.",
+    "rejected_patches": 0
+  },
+  "clipped_display_recovered": "46b288 recovered through targeted8323fe and full99b279; neither new proof nor checker display clipped",
+  "failed_commands": 1,
+  "finalization_diagnostic": {
+    "bytes": 1498,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/FINALIZATION_DIAGNOSTIC.json",
+    "sha256": "5523dec25ae1aeb9070b1e65f3a272b40eeb6df674dfcf0cd6598a01d1dc22d3"
+  },
+  "preseal_clarification": "Clarified full namespace authentication versus literal reading; recorded actual failed first finalizer; substantive verdict unchanged.",
+  "root_relayed_author_final": {
+    "counts": {
+      "boundaries": 15,
+      "direct_bytes": 846757,
+      "direct_sources": 33,
+      "identities": 39,
+      "selected_references": 46
+    },
+    "exitCode": 0,
+    "item": "exec-c9f5295b-392c-41cd-a327-b3b99c993b6e",
+    "origin": "Parent root message; root retrieved original full final6 output, not my retrieval",
+    "reported_original_chunk": "a7e4b2",
+    "status": "completed",
+    "turn": "01a0f684-126f-7311-867c-7b6fdea55214",
+    "untruncated": true
+  },
+  "schema": "ri233-independent-read-and-tool-receipts-v1"
+}

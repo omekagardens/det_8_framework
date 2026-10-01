@@ -1,0 +1,1672 @@
+{
+  "E_directories": 9,
+  "E_files": 49,
+  "E_read_only": true,
+  "admission": {
+    "bytes": 1645,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ADMIT_RECONCILE.json",
+    "sha256": "294c2f71e46611fa2d0fffe0b7946a3746e5b31970b71f0cc44db8abb65d9c79"
+  },
+  "candidate": {
+    "bytes": 26214,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri206-freeze-5e_n5lj_/RESULT.json",
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+  },
+  "checks": 161124,
+  "complete": {
+    "bytes": 2151529,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/COMPLETE.json",
+    "sha256": "917f90e303d1f88c323955ce9df75ffd759ee55c02955ed502dfff753dda1cef"
+  },
+  "copy_pairs": 48,
+  "external_tool_origin_and_host_receipts_require_root_review": true,
+  "frozen_observation": {
+    "bytes": 127298,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/FROZEN.json",
+    "sha256": "a58eeff7d3652417cc2cb8a80f5a83c21be9779c0c92f412e5a136cfa937426c"
+  },
+  "genuine_outer": {
+    "bytes": 1305,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_OUTER.json",
+    "sha256": "7c53b796da3cafe8a4c01873722a05976d49ea347e7c24613ffd3ed1767c19ca"
+  },
+  "history_roles": 124,
+  "installed_freeze": {
+    "bytes": 26214,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+  },
+  "mode_admission_issued": false,
+  "monitor_files": 4,
+  "operation_files": 5,
+  "original_complete": {
+    "bytes": 2054312,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/COMPLETE.json",
+    "sha256": "e2ec8b3a84520aeb7f2b99fedce475ac9ffa99b51863dc5970213abdbe952c58"
+  },
+  "original_status": "REFUSED_RETAIN_ALL_PARTIALS",
+  "prior_roles": 810,
+  "ret_paused": true,
+  "retained_postflight": {
+    "bytes": 5932,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+    "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+  },
+  "schema": "ri226-independent-reconciliation-postcheck-v1",
+  "scientific_execution": false,
+  "source_files": 971,
+  "status": "PASS_READ_ONLY_RECONCILIATION_PENDING_ROOT_ACCEPTANCE",
+  "target_original_roles": 30,
+  "whole_E": [
+    {
+      "entries": [
+        "AUTHORING_RECORD.md",
+        "AUTHORIZED_FREEZE.json",
+        "BLOCK_CORRESPONDENCE.source-only.json",
+        "HANDOFF.json",
+        "HANDOFF.md",
+        "HISTORY_CLOSURE.source-only.json",
+        "MODE_CUSTODY_CONTRACT.md",
+        "PROTOCOL.md",
+        "SOURCE_METADATA_CHECK.json",
+        "TARGET_CLOSURE.source-only.json",
+        "caller_contract.py",
+        "control.py",
+        "evidence.py",
+        "guard_controls.source-only.py",
+        "launch.py",
+        "monitor.py",
+        "profile_observe.source-only.py",
+        "runs",
+        "runtime_support.py",
+        "science",
+        "tmp",
+        "worker.py"
+      ],
+      "kind": "directory",
+      "relative": ".",
+      "state": [
+        16777244,
+        418690,
+        16832,
+        24,
+        768,
+        1790835730010942314,
+        1790835730010942314
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 5421,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+        "sha256": "711cf7c4c7c193544050983d90162b70d15a754848b7d05a3d2f8f049c31cdf3",
+        "state": [
+          16777244,
+          418699,
+          33188,
+          1,
+          5421,
+          1790804982613354379,
+          1790804982613354379
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "AUTHORING_RECORD.md",
+      "state": [
+        16777244,
+        418699,
+        33188,
+        1,
+        5421,
+        1790804982613354379,
+        1790804982613354379
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 26214,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+        "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14",
+        "state": [
+          16777244,
+          425604,
+          33152,
+          1,
+          26214,
+          1790835730011000773,
+          1790835730011000773
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "AUTHORIZED_FREEZE.json",
+      "state": [
+        16777244,
+        425604,
+        33152,
+        1,
+        26214,
+        1790835730011000773,
+        1790835730011000773
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 783,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/BLOCK_CORRESPONDENCE.source-only.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/BLOCK_CORRESPONDENCE.source-only.json",
+        "sha256": "656e34463d1a48891630076c06902548393ebe435f088eafdf7a19bdc9d565dc",
+        "state": [
+          16777244,
+          418700,
+          33188,
+          1,
+          783,
+          1790804982613677632,
+          1790804982613677632
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "BLOCK_CORRESPONDENCE.source-only.json",
+      "state": [
+        16777244,
+        418700,
+        33188,
+        1,
+        783,
+        1790804982613677632,
+        1790804982613677632
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 26684,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HANDOFF.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HANDOFF.json",
+        "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8",
+        "state": [
+          16777244,
+          418701,
+          33188,
+          1,
+          26684,
+          1790804982613983718,
+          1790804982613983718
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "HANDOFF.json",
+      "state": [
+        16777244,
+        418701,
+        33188,
+        1,
+        26684,
+        1790804982613983718,
+        1790804982613983718
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 2353,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HANDOFF.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HANDOFF.md",
+        "sha256": "d1cb0c2a908a6905acd95ad1fedbc4f1bd0e63797b42dd452c270d159d0b76b6",
+        "state": [
+          16777244,
+          418702,
+          33188,
+          1,
+          2353,
+          1790804982614308847,
+          1790804982614308847
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "HANDOFF.md",
+      "state": [
+        16777244,
+        418702,
+        33188,
+        1,
+        2353,
+        1790804982614308847,
+        1790804982614308847
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 29806,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HISTORY_CLOSURE.source-only.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HISTORY_CLOSURE.source-only.json",
+        "sha256": "f78ca32b9de47f5390d20c4de44a87aa462b871ba1b51b3bc1329e08c8c6aafa",
+        "state": [
+          16777244,
+          418703,
+          33188,
+          1,
+          29806,
+          1790804982614578099,
+          1790804982614578099
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "HISTORY_CLOSURE.source-only.json",
+      "state": [
+        16777244,
+        418703,
+        33188,
+        1,
+        29806,
+        1790804982614578099,
+        1790804982614578099
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 11259,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/MODE_CUSTODY_CONTRACT.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/MODE_CUSTODY_CONTRACT.md",
+        "sha256": "5f9186bd0fdfd64924f5bceb9d0c4a14210db466686ec45fcefe6637a28695af",
+        "state": [
+          16777244,
+          418704,
+          33188,
+          1,
+          11259,
+          1790804982614883394,
+          1790804982614883394
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "MODE_CUSTODY_CONTRACT.md",
+      "state": [
+        16777244,
+        418704,
+        33188,
+        1,
+        11259,
+        1790804982614883394,
+        1790804982614883394
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 23244,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/PROTOCOL.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/PROTOCOL.md",
+        "sha256": "2456a4b74815e5f47216fdcffdf796a67bd394effa31ff880b8708e627cac5c5",
+        "state": [
+          16777244,
+          418705,
+          33188,
+          1,
+          23244,
+          1790804982615173397,
+          1790804982615173397
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "PROTOCOL.md",
+      "state": [
+        16777244,
+        418705,
+        33188,
+        1,
+        23244,
+        1790804982615173397,
+        1790804982615173397
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 49499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/SOURCE_METADATA_CHECK.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/SOURCE_METADATA_CHECK.json",
+        "sha256": "566a6b61e364dec643dc17c3b49fe3297992569e16f614521760efef3f8a14f7",
+        "state": [
+          16777244,
+          418706,
+          33188,
+          1,
+          49499,
+          1790804982615466150,
+          1790804982615466150
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "SOURCE_METADATA_CHECK.json",
+      "state": [
+        16777244,
+        418706,
+        33188,
+        1,
+        49499,
+        1790804982615466150,
+        1790804982615466150
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 10760,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/TARGET_CLOSURE.source-only.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/TARGET_CLOSURE.source-only.json",
+        "sha256": "69d927acb494c05ee45326b8e02159c99a583b7ee2533c947a1762b550b1ed83",
+        "state": [
+          16777244,
+          418707,
+          33188,
+          1,
+          10760,
+          1790804982615793945,
+          1790804982615793945
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "TARGET_CLOSURE.source-only.json",
+      "state": [
+        16777244,
+        418707,
+        33188,
+        1,
+        10760,
+        1790804982615793945,
+        1790804982615793945
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 18749,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/caller_contract.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/caller_contract.py",
+        "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb",
+        "state": [
+          16777244,
+          418708,
+          33188,
+          1,
+          18749,
+          1790804982616217199,
+          1790804982616217199
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "caller_contract.py",
+      "state": [
+        16777244,
+        418708,
+        33188,
+        1,
+        18749,
+        1790804982616217199,
+        1790804982616217199
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 5171,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/control.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/control.py",
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81",
+        "state": [
+          16777244,
+          418709,
+          33188,
+          1,
+          5171,
+          1790804982616531661,
+          1790804982616531661
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "control.py",
+      "state": [
+        16777244,
+        418709,
+        33188,
+        1,
+        5171,
+        1790804982616531661,
+        1790804982616531661
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 22152,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/evidence.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/evidence.py",
+        "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7",
+        "state": [
+          16777244,
+          418710,
+          33188,
+          1,
+          22152,
+          1790804982616775330,
+          1790804982616775330
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "evidence.py",
+      "state": [
+        16777244,
+        418710,
+        33188,
+        1,
+        22152,
+        1790804982616775330,
+        1790804982616775330
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 38688,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/guard_controls.source-only.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/guard_controls.source-only.py",
+        "sha256": "e11e53400374068a9036b24e1a50bf8505fc910ae279a8742f24af17dfba8f72",
+        "state": [
+          16777244,
+          418711,
+          33188,
+          1,
+          38688,
+          1790804982617069583,
+          1790804982617069583
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "guard_controls.source-only.py",
+      "state": [
+        16777244,
+        418711,
+        33188,
+        1,
+        38688,
+        1790804982617069583,
+        1790804982617069583
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 14159,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/launch.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/launch.py",
+        "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada",
+        "state": [
+          16777244,
+          418712,
+          33188,
+          1,
+          14159,
+          1790804982617359377,
+          1790804982617359377
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "launch.py",
+      "state": [
+        16777244,
+        418712,
+        33188,
+        1,
+        14159,
+        1790804982617359377,
+        1790804982617359377
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 3644,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/monitor.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/monitor.py",
+        "sha256": "5ca6f82423c5ba862b919de846684c2b8364e59442da27d9f5ed933c33a9cb51",
+        "state": [
+          16777244,
+          418713,
+          33188,
+          1,
+          3644,
+          1790804982617588046,
+          1790804982617588046
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "monitor.py",
+      "state": [
+        16777244,
+        418713,
+        33188,
+        1,
+        3644,
+        1790804982617588046,
+        1790804982617588046
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 2696,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/profile_observe.source-only.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/profile_observe.source-only.py",
+        "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7",
+        "state": [
+          16777244,
+          418714,
+          33188,
+          1,
+          2696,
+          1790804982617781257,
+          1790804982617781257
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "profile_observe.source-only.py",
+      "state": [
+        16777244,
+        418714,
+        33188,
+        1,
+        2696,
+        1790804982617781257,
+        1790804982617781257
+      ]
+    },
+    {
+      "entries": [
+        "normal",
+        "optimized"
+      ],
+      "kind": "directory",
+      "relative": "runs",
+      "state": [
+        16777244,
+        418696,
+        16832,
+        4,
+        128,
+        1790804982613237502,
+        1790804982613237502
+      ]
+    },
+    {
+      "entries": [],
+      "kind": "directory",
+      "relative": "runs/normal",
+      "state": [
+        16777244,
+        418697,
+        16832,
+        2,
+        64,
+        1790804982613192044,
+        1790804982613206627
+      ]
+    },
+    {
+      "entries": [],
+      "kind": "directory",
+      "relative": "runs/optimized",
+      "state": [
+        16777244,
+        418698,
+        16832,
+        2,
+        64,
+        1790804982613236378,
+        1790804982613250086
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 8184,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runtime_support.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runtime_support.py",
+        "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f",
+        "state": [
+          16777244,
+          418715,
+          33188,
+          1,
+          8184,
+          1790804982617978967,
+          1790804982617978967
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "runtime_support.py",
+      "state": [
+        16777244,
+        418715,
+        33188,
+        1,
+        8184,
+        1790804982617978967,
+        1790804982617978967
+      ]
+    },
+    {
+      "entries": [
+        "primary",
+        "qualifier",
+        "validator"
+      ],
+      "kind": "directory",
+      "relative": "science",
+      "state": [
+        16777244,
+        418691,
+        16832,
+        5,
+        160,
+        1790804982613066751,
+        1790804982613066751
+      ]
+    },
+    {
+      "entries": [
+        "CASES.md",
+        "CONTRACT.md",
+        "FABRICATED_INTERFACES.md",
+        "HANDOFF.json",
+        "KERNEL_REFUSALS.md",
+        "PREDECESSOR_PINS.json",
+        "PREPARATION_RECORD.md",
+        "SOURCE_DIFF.patch",
+        "SOURCE_METADATA_CHECK.json",
+        "WHITE_REFUSALS.md",
+        "white_controls.py",
+        "white_kernel.py",
+        "white_path.py"
+      ],
+      "kind": "directory",
+      "relative": "science/primary",
+      "state": [
+        16777244,
+        418692,
+        16832,
+        15,
+        480,
+        1790804982620780870,
+        1790804982620780870
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 12011,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/CASES.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/CASES.md",
+        "sha256": "fbcabc6b49f5ffb741688293a0dab894e7dc3b2fd761c6f123fbdcacf2ee3eef",
+        "state": [
+          16777244,
+          418716,
+          33188,
+          1,
+          12011,
+          1790804982618202927,
+          1790804982618202927
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/CASES.md",
+      "state": [
+        16777244,
+        418716,
+        33188,
+        1,
+        12011,
+        1790804982618202927,
+        1790804982618202927
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 26409,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/CONTRACT.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/CONTRACT.md",
+        "sha256": "abd8aeb6e74a46194bb38f9abc8c02e6be5bcff83318f8df1d27334fa317f2bd",
+        "state": [
+          16777244,
+          418717,
+          33188,
+          1,
+          26409,
+          1790804982618411221,
+          1790804982618411221
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/CONTRACT.md",
+      "state": [
+        16777244,
+        418717,
+        33188,
+        1,
+        26409,
+        1790804982618411221,
+        1790804982618411221
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 8758,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/FABRICATED_INTERFACES.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/FABRICATED_INTERFACES.md",
+        "sha256": "2e1db0380e13791448c957453a823c1d2d20874b8af80dc01ddb8c09b4927f4e",
+        "state": [
+          16777244,
+          418718,
+          33188,
+          1,
+          8758,
+          1790804982618660849,
+          1790804982618660849
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/FABRICATED_INTERFACES.md",
+      "state": [
+        16777244,
+        418718,
+        33188,
+        1,
+        8758,
+        1790804982618660849,
+        1790804982618660849
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 5379,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/HANDOFF.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/HANDOFF.json",
+        "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468",
+        "state": [
+          16777244,
+          418719,
+          33188,
+          1,
+          5379,
+          1790804982618869309,
+          1790804982618869309
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/HANDOFF.json",
+      "state": [
+        16777244,
+        418719,
+        33188,
+        1,
+        5379,
+        1790804982618869309,
+        1790804982618869309
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 4802,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/KERNEL_REFUSALS.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/KERNEL_REFUSALS.md",
+        "sha256": "85651a0ead42ec2edf18bfdd049efd49c20cb09fb25bc2be1e4ba561b9b9f208",
+        "state": [
+          16777244,
+          418720,
+          33188,
+          1,
+          4802,
+          1790804982619055103,
+          1790804982619055103
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/KERNEL_REFUSALS.md",
+      "state": [
+        16777244,
+        418720,
+        33188,
+        1,
+        4802,
+        1790804982619055103,
+        1790804982619055103
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 3880,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/PREDECESSOR_PINS.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/PREDECESSOR_PINS.json",
+        "sha256": "e1d0d5557056a536d2505d7e304ec7185b325a29ac0dd267f91b3f7a7aa0b70b",
+        "state": [
+          16777244,
+          418721,
+          33188,
+          1,
+          3880,
+          1790804982619245063,
+          1790804982619245063
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/PREDECESSOR_PINS.json",
+      "state": [
+        16777244,
+        418721,
+        33188,
+        1,
+        3880,
+        1790804982619245063,
+        1790804982619245063
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 7366,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/PREPARATION_RECORD.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/PREPARATION_RECORD.md",
+        "sha256": "f58a58c7935f4cb27651c893bb358eb8ece45f58b70d71fa120465761de7e733",
+        "state": [
+          16777244,
+          418722,
+          33188,
+          1,
+          7366,
+          1790804982619417648,
+          1790804982619417648
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/PREPARATION_RECORD.md",
+      "state": [
+        16777244,
+        418722,
+        33188,
+        1,
+        7366,
+        1790804982619417648,
+        1790804982619417648
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 97989,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/SOURCE_DIFF.patch",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/SOURCE_DIFF.patch",
+        "sha256": "edd788940663882972092dc62706f80c81df5e14d76aa90c34dff8cf1158a9e1",
+        "state": [
+          16777244,
+          418723,
+          33188,
+          1,
+          97989,
+          1790804982619614900,
+          1790804982619614900
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/SOURCE_DIFF.patch",
+      "state": [
+        16777244,
+        418723,
+        33188,
+        1,
+        97989,
+        1790804982619614900,
+        1790804982619614900
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 10113,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/SOURCE_METADATA_CHECK.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/SOURCE_METADATA_CHECK.json",
+        "sha256": "3e713faa6a85e32d856640e7e509bc56e3cc479cc31323465e5e461ca6582cf9",
+        "state": [
+          16777244,
+          418724,
+          33188,
+          1,
+          10113,
+          1790804982619937236,
+          1790804982619937236
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/SOURCE_METADATA_CHECK.json",
+      "state": [
+        16777244,
+        418724,
+        33188,
+        1,
+        10113,
+        1790804982619937236,
+        1790804982619937236
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 7426,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/WHITE_REFUSALS.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/WHITE_REFUSALS.md",
+        "sha256": "dbc6a3a400b22973379c632cea3924413e36bd441df9ff0e21c2f7507918f0bb",
+        "state": [
+          16777244,
+          418725,
+          33188,
+          1,
+          7426,
+          1790804982620170697,
+          1790804982620170697
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/WHITE_REFUSALS.md",
+      "state": [
+        16777244,
+        418725,
+        33188,
+        1,
+        7426,
+        1790804982620170697,
+        1790804982620170697
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 15910,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_controls.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_controls.py",
+        "sha256": "5055fb4aec16563680b2941d445da8273e99799d8fbf567fb7affe368f28e6a2",
+        "state": [
+          16777244,
+          418726,
+          33188,
+          1,
+          15910,
+          1790804982620402699,
+          1790804982620402699
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/white_controls.py",
+      "state": [
+        16777244,
+        418726,
+        33188,
+        1,
+        15910,
+        1790804982620402699,
+        1790804982620402699
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 12790,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_kernel.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_kernel.py",
+        "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f",
+        "state": [
+          16777244,
+          418727,
+          33188,
+          1,
+          12790,
+          1790804982620600535,
+          1790804982620600535
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/white_kernel.py",
+      "state": [
+        16777244,
+        418727,
+        33188,
+        1,
+        12790,
+        1790804982620600535,
+        1790804982620600535
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 32343,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_path.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_path.py",
+        "sha256": "32a084c003ecb0bb290ea3f85c3b4bcde4061e5cf62aa7b0b9f3ead19470618b",
+        "state": [
+          16777244,
+          418728,
+          33188,
+          1,
+          32343,
+          1790804982620831662,
+          1790804982620831662
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/primary/white_path.py",
+      "state": [
+        16777244,
+        418728,
+        33188,
+        1,
+        32343,
+        1790804982620831662,
+        1790804982620831662
+      ]
+    },
+    {
+      "entries": [
+        "CONTROL_EXPECTATIONS.json",
+        "HANDOFF.json",
+        "PREDECESSOR_PINS.json",
+        "PREPARATION_RECORD.md",
+        "SOURCE_METADATA_CHECK.json",
+        "STAGE_CONTRACT.md",
+        "kernel_controls.py",
+        "qualify_white_only.py",
+        "white_fixtures.py"
+      ],
+      "kind": "directory",
+      "relative": "science/qualifier",
+      "state": [
+        16777244,
+        418693,
+        16832,
+        11,
+        352,
+        1790804982622679222,
+        1790804982622679222
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 21310,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/CONTROL_EXPECTATIONS.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/CONTROL_EXPECTATIONS.json",
+        "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478",
+        "state": [
+          16777244,
+          418729,
+          33188,
+          1,
+          21310,
+          1790804982621071373,
+          1790804982621071373
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/qualifier/CONTROL_EXPECTATIONS.json",
+      "state": [
+        16777244,
+        418729,
+        33188,
+        1,
+        21310,
+        1790804982621071373,
+        1790804982621071373
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 4492,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/HANDOFF.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/HANDOFF.json",
+        "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8",
+        "state": [
+          16777244,
+          418730,
+          33188,
+          1,
+          4492,
+          1790804982621312125,
+          1790804982621312125
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/qualifier/HANDOFF.json",
+      "state": [
+        16777244,
+        418730,
+        33188,
+        1,
+        4492,
+        1790804982621312125,
+        1790804982621312125
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 4193,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/PREDECESSOR_PINS.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/PREDECESSOR_PINS.json",
+        "sha256": "1bdb5c263fd2ccfed38c99f4b7c69b866ce056480e3e3070b78ebdb2956e72d1",
+        "state": [
+          16777244,
+          418731,
+          33188,
+          1,
+          4193,
+          1790804982621492794,
+          1790804982621492794
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/qualifier/PREDECESSOR_PINS.json",
+      "state": [
+        16777244,
+        418731,
+        33188,
+        1,
+        4193,
+        1790804982621492794,
+        1790804982621492794
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 7575,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/PREPARATION_RECORD.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/PREPARATION_RECORD.md",
+        "sha256": "376a5230499123967abddc26c18399db0f9593ac24f5bc47466aa164511bd419",
+        "state": [
+          16777244,
+          418732,
+          33188,
+          1,
+          7575,
+          1790804982621671587,
+          1790804982621671587
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/qualifier/PREPARATION_RECORD.md",
+      "state": [
+        16777244,
+        418732,
+        33188,
+        1,
+        7575,
+        1790804982621671587,
+        1790804982621671587
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 3295,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/SOURCE_METADATA_CHECK.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/SOURCE_METADATA_CHECK.json",
+        "sha256": "494ce307f2db47433c9ea1dbceacd3787b7cbfc432e133a055af866c797510e8",
+        "state": [
+          16777244,
+          418733,
+          33188,
+          1,
+          3295,
+          1790804982621852839,
+          1790804982621852839
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/qualifier/SOURCE_METADATA_CHECK.json",
+      "state": [
+        16777244,
+        418733,
+        33188,
+        1,
+        3295,
+        1790804982621852839,
+        1790804982621852839
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 20505,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/STAGE_CONTRACT.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/STAGE_CONTRACT.md",
+        "sha256": "54178d21d90ef5f7f7dfc7d9d55f1a1df27dd57bef645b6e1b06d542dc572df0",
+        "state": [
+          16777244,
+          418734,
+          33188,
+          1,
+          20505,
+          1790804982622065383,
+          1790804982622065383
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/qualifier/STAGE_CONTRACT.md",
+      "state": [
+        16777244,
+        418734,
+        33188,
+        1,
+        20505,
+        1790804982622065383,
+        1790804982622065383
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 6834,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/kernel_controls.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/kernel_controls.py",
+        "sha256": "8ccabc68a135f4aad40fefb2078f3ba35684f5ea8e277683401fd37bfb95c51e",
+        "state": [
+          16777244,
+          418735,
+          33188,
+          1,
+          6834,
+          1790804982622287802,
+          1790804982622287802
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/qualifier/kernel_controls.py",
+      "state": [
+        16777244,
+        418735,
+        33188,
+        1,
+        6834,
+        1790804982622287802,
+        1790804982622287802
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 27375,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/qualify_white_only.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/qualify_white_only.py",
+        "sha256": "1c988f6e8520d47f73f3c3e94d9950593e20652bc5976e7e90480f29f2ffc689",
+        "state": [
+          16777244,
+          418736,
+          33188,
+          1,
+          27375,
+          1790804982622489345,
+          1790804982622489345
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/qualifier/qualify_white_only.py",
+      "state": [
+        16777244,
+        418736,
+        33188,
+        1,
+        27375,
+        1790804982622489345,
+        1790804982622489345
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 15878,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/white_fixtures.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/white_fixtures.py",
+        "sha256": "9b40dc813035ad2d973e6d2c5d75557eaf7e8799a3dcbb1ff359fb504c9de409",
+        "state": [
+          16777244,
+          418737,
+          33188,
+          1,
+          15878,
+          1790804982622721764,
+          1790804982622721764
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/qualifier/white_fixtures.py",
+      "state": [
+        16777244,
+        418737,
+        33188,
+        1,
+        15878,
+        1790804982622721764,
+        1790804982622721764
+      ]
+    },
+    {
+      "entries": [
+        "AUTHORING_RECORD.md",
+        "HANDOFF.json",
+        "HANDOFF.md",
+        "PREDECESSOR_PINS.json",
+        "PROTOCOL.md",
+        "SOURCE_METADATA_CHECK.json",
+        "validator_controls.py",
+        "white_validator.py"
+      ],
+      "kind": "directory",
+      "relative": "science/validator",
+      "state": [
+        16777244,
+        418694,
+        16832,
+        10,
+        320,
+        1790804982624218529,
+        1790804982624218529
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 3957,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/AUTHORING_RECORD.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/AUTHORING_RECORD.md",
+        "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5",
+        "state": [
+          16777244,
+          418738,
+          33188,
+          1,
+          3957,
+          1790804982622914516,
+          1790804982622914516
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/validator/AUTHORING_RECORD.md",
+      "state": [
+        16777244,
+        418738,
+        33188,
+        1,
+        3957,
+        1790804982622914516,
+        1790804982622914516
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 4821,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/HANDOFF.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/HANDOFF.json",
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9",
+        "state": [
+          16777244,
+          418739,
+          33188,
+          1,
+          4821,
+          1790804982623092768,
+          1790804982623092768
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/validator/HANDOFF.json",
+      "state": [
+        16777244,
+        418739,
+        33188,
+        1,
+        4821,
+        1790804982623092768,
+        1790804982623092768
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 4804,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/HANDOFF.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/HANDOFF.md",
+        "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559",
+        "state": [
+          16777244,
+          418740,
+          33188,
+          1,
+          4804,
+          1790804982623272270,
+          1790804982623272270
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/validator/HANDOFF.md",
+      "state": [
+        16777244,
+        418740,
+        33188,
+        1,
+        4804,
+        1790804982623272270,
+        1790804982623272270
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 3762,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/PREDECESSOR_PINS.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/PREDECESSOR_PINS.json",
+        "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7",
+        "state": [
+          16777244,
+          418741,
+          33188,
+          1,
+          3762,
+          1790804982623455647,
+          1790804982623455647
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/validator/PREDECESSOR_PINS.json",
+      "state": [
+        16777244,
+        418741,
+        33188,
+        1,
+        3762,
+        1790804982623455647,
+        1790804982623455647
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 14060,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/PROTOCOL.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/PROTOCOL.md",
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990",
+        "state": [
+          16777244,
+          418742,
+          33188,
+          1,
+          14060,
+          1790804982623625357,
+          1790804982623625357
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/validator/PROTOCOL.md",
+      "state": [
+        16777244,
+        418742,
+        33188,
+        1,
+        14060,
+        1790804982623625357,
+        1790804982623625357
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 8848,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/SOURCE_METADATA_CHECK.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/SOURCE_METADATA_CHECK.json",
+        "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d",
+        "state": [
+          16777244,
+          418743,
+          33188,
+          1,
+          8848,
+          1790804982623840109,
+          1790804982623840109
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/validator/SOURCE_METADATA_CHECK.json",
+      "state": [
+        16777244,
+        418743,
+        33188,
+        1,
+        8848,
+        1790804982623840109,
+        1790804982623840109
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 17909,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/validator_controls.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/validator_controls.py",
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa",
+        "state": [
+          16777244,
+          418744,
+          33188,
+          1,
+          17909,
+          1790804982624044861,
+          1790804982624044861
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/validator/validator_controls.py",
+      "state": [
+        16777244,
+        418744,
+        33188,
+        1,
+        17909,
+        1790804982624044861,
+        1790804982624044861
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 56593,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/white_validator.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/white_validator.py",
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def",
+        "state": [
+          16777244,
+          418745,
+          33188,
+          1,
+          56593,
+          1790804982624265655,
+          1790804982624265655
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "science/validator/white_validator.py",
+      "state": [
+        16777244,
+        418745,
+        33188,
+        1,
+        56593,
+        1790804982624265655,
+        1790804982624265655
+      ]
+    },
+    {
+      "entries": [],
+      "kind": "directory",
+      "relative": "tmp",
+      "state": [
+        16777244,
+        418695,
+        16832,
+        2,
+        64,
+        1790804982613106835,
+        1790804982613121127
+      ]
+    },
+    {
+      "identity": {
+        "bytes": 9021,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/worker.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/worker.py",
+        "sha256": "0250bdfa9c47fcbe8b00278be79f2cf7e3ca8b955bf93f16eb3d18c1e7936550",
+        "state": [
+          16777244,
+          418746,
+          33188,
+          1,
+          9021,
+          1790804982624544449,
+          1790804982624544449
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "worker.py",
+      "state": [
+        16777244,
+        418746,
+        33188,
+        1,
+        9021,
+        1790804982624544449,
+        1790804982624544449
+      ]
+    }
+  ]
+}

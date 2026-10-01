@@ -1,0 +1,78 @@
+{
+  "E_written": false,
+  "RET_paused": true,
+  "all_eight_tails_passed": true,
+  "atomicity_or_power_loss_durability_claim": false,
+  "directories": 9,
+  "files": 49,
+  "final_review_seals": {
+    "bytes": 5610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/ROOT_MEASUREMENT_REVIEW_SEAL.json",
+    "sha256": "5918673bdee47327916adc3c401df2b38e5d793ef3c712f89207f1251dbfdf6c"
+  },
+  "frozen_observation": {
+    "bytes": 127298,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/FROZEN.json",
+    "sha256": "a58eeff7d3652417cc2cb8a80f5a83c21be9779c0c92f412e5a136cfa937426c"
+  },
+  "genuine_outer": {
+    "bytes": 1305,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_OUTER.json",
+    "sha256": "7c53b796da3cafe8a4c01873722a05976d49ea347e7c24613ffd3ed1767c19ca"
+  },
+  "independent_review": {
+    "bytes": 11412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/HANDOFF.json",
+    "sha256": "db7856d4aa382bff7ae6468f14586b5021f3c592fda8e91820f61f61886661ac"
+  },
+  "mode_admission_issued": false,
+  "normal_or_optimized_accepted": false,
+  "operation": {
+    "bytes": 2151529,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/COMPLETE.json",
+    "sha256": "917f90e303d1f88c323955ce9df75ffd759ee55c02955ed502dfff753dda1cef"
+  },
+  "operation_retried": false,
+  "operational_decision": {
+    "bytes": 7513,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/ROOT_ONE_RECONCILIATION_DECISION.json",
+    "sha256": "d3c124847ca06f7d958a016cbd315244244c6b1f946af9f513386f938e7f6a93"
+  },
+  "original_complete": {
+    "bytes": 2054312,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/COMPLETE.json",
+    "sha256": "e2ec8b3a84520aeb7f2b99fedce475ac9ffa99b51863dc5970213abdbe952c58"
+  },
+  "original_installation_retroactively_accepted": false,
+  "original_limits_unchanged": true,
+  "original_status": "REFUSED_RETAIN_ALL_PARTIALS",
+  "premises": [
+    "Original accepted source/guard/path/runtime applicability and genuine tool origin",
+    "Apple supplier/loader/cache/kernel trust and observed read-window stability",
+    "No descendants and sampled sole-child RSS scope,not continuous group accounting"
+  ],
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "root_actual_check": {
+    "bytes": 1705543,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/ROOT_ACTUAL_RECONCILIATION_CHECK.json",
+    "sha256": "0ab14e1620899d47b077bf1f7ac58d5ee3972a959e88ff679da88573e4a02172"
+  },
+  "root_manual_review": {
+    "bytes": 4707,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/ACTUAL_RECONCILIATION_ROOT_REVIEW.md",
+    "sha256": "f9fc479ec5cd7024df96f2602bf62e3e6bee9a508ef8bcb94285ed102cdbaea2"
+  },
+  "sameauthor_postcheck": {
+    "bytes": 49112,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILIATION_POSTCHECK.json",
+    "sha256": "d22b9113eebd85fc447c631275fd05df032dc418ae870093afd53a3aacb1b45b"
+  },
+  "schema": "ri234-root-current-frozen-custody-acceptance-v1",
+  "scientific_execution": false,
+  "source_review": {
+    "bytes": 2289,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ROOT_SOURCE_REVIEW.json",
+    "sha256": "4fdaddb780e94c2dbf0f4773d4301439421ef80586482535ec7b0842fc2c40f6"
+  },
+  "status": "ACCEPT_CURRENT_FROZEN_CUSTODY_BY_READ_ONLY_RECONCILIATION"
+}

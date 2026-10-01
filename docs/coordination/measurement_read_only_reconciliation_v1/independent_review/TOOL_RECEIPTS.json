@@ -1,0 +1,153 @@
+{
+  "authenticated_actual_anchors": [
+    {
+      "bytes": 1305,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_OUTER.json",
+      "sha256": "7c53b796da3cafe8a4c01873722a05976d49ea347e7c24613ffd3ed1767c19ca"
+    },
+    {
+      "bytes": 49112,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILIATION_POSTCHECK.json",
+      "sha256": "d22b9113eebd85fc447c631275fd05df032dc418ae870093afd53a3aacb1b45b"
+    },
+    {
+      "bytes": 25970,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/reconcile_freeze.py",
+      "sha256": "b176f460e0621410d9ee5b8ef02904ae84ec51c6cc686dfe58f05da4880bd9c0"
+    },
+    {
+      "bytes": 29958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/check_reconciliation.py",
+      "sha256": "de1633c2ea59157feb3d51c00c777d8eddf69328bdf5b38a88654e3f6adef2ee"
+    }
+  ],
+  "expected_diff_exit_one": [
+    "753f34"
+  ],
+  "own_failed_checker_attempts": [],
+  "prior_readiness": {
+    "bytes": 4388,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/PREAUTH_REVIEW.json",
+    "sha256": "8211ea90a95908e347bb4b934ff70a148e3d13da38510241bade8c1b88f34b68"
+  },
+  "receipts": [
+    {
+      "chunk_id": "951239",
+      "exit_code": 0,
+      "scope": "Existing reviewer/root namespace read"
+    },
+    {
+      "chunk_id": "de5f33",
+      "exit_code": 0,
+      "scope": "Complete prior reviewer-owned metadata source read"
+    },
+    {
+      "chunk_id": "b6ba27",
+      "exit_code": 0,
+      "scope": "Complete root authority issuer source read"
+    },
+    {
+      "chunk_id": "7799fb",
+      "exit_code": 0,
+      "scope": "Complete post-capture V2 source read"
+    },
+    {
+      "chunk_id": "680e32",
+      "exit_code": 0,
+      "scope": "Complete accepted174-line administrative postchecker read; not executed"
+    },
+    {
+      "chunk_id": "95e120",
+      "exit_code": 0,
+      "scope": "Complete genuine postcheck receipt, actual transport and collector diagnostic read"
+    },
+    {
+      "chunk_id": "0f5e83",
+      "exit_code": 0,
+      "scope": "Complete actual authority/issue/host/clearance objects and sample schema read"
+    },
+    {
+      "chunk_id": "b02963",
+      "exit_code": 0,
+      "scope": "Accepted preparation nine full identities and fresh-check fields"
+    },
+    {
+      "chunk_id": "addbe7",
+      "exit_code": 0,
+      "scope": "Create new independent checker from reviewer-owned preparation prefix"
+    },
+    {
+      "chunk_id": "314061",
+      "exit_code": 0,
+      "scope": "Append independent actual reconstruction; no subject invocation"
+    },
+    {
+      "chunk_id": "753f34",
+      "classification": "EXPECTED_DIFF",
+      "exit_code": 1,
+      "scope": "Full capture V1/V2 diff; exactly two host fields added before execution"
+    },
+    {
+      "arguments": {
+        "cmd": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/check_actual.py",
+        "max_output_tokens": 4000,
+        "yield_time_ms": 1000
+      },
+      "chunk_id": "e65c1e",
+      "exit_code": null,
+      "output": "",
+      "session_id": 14932,
+      "wall_time_seconds": 1.003865541
+    },
+    {
+      "arguments": {
+        "chars": "",
+        "max_output_tokens": 4000,
+        "session_id": 14932,
+        "yield_time_ms": 1000
+      },
+      "chunk_id": "ec235c",
+      "exit_code": 0,
+      "result": {
+        "bytes": 3209971,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/CHECK_RESULT.json",
+        "sha256": "1b23d692cc45cb6978f84789343038ce790f4cf91d2f1236bd15586e03ade93b"
+      },
+      "scope": "Complete independent replay;11709 predicates2868 identities",
+      "wall_time_seconds": 1.0041e-05
+    },
+    {
+      "chunk_id": "a01df6",
+      "exit_code": 0,
+      "scope": "Entire reconciliation source re-read; no invocation"
+    },
+    {
+      "chunk_id": "4175e9",
+      "exit_code": 0,
+      "scope": "Entire actual bootstrap and monitor terminal/reap source read"
+    },
+    {
+      "chunk_id": "c4cfb2",
+      "exit_code": 0,
+      "scope": "Complete monitor spawn/poll/timeout source recovered"
+    }
+  ],
+  "root_actual_operation": {
+    "exit_code": 0,
+    "initial": "5709fd",
+    "session": 77528,
+    "terminal": "d0b911"
+  },
+  "root_collector_correction": "V1 preserved unexecuted; V2 source-only addition of host exit_code/stderr before sole actual capture",
+  "root_sameauthor_postcheck": {
+    "chunk": "cfb84c",
+    "exit_code": 0,
+    "genuine": {
+      "bytes": 1230,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_POSTCHECK_TOOL.json",
+      "sha256": "fb7598ed1b3aacf4273aeaed5a42cb2c50d288fd597478ff3a26f07b50330e97"
+    },
+    "predicates": 161124
+  },
+  "schema": "ri234-independent-review-actual-tool-receipts-v1"
+}

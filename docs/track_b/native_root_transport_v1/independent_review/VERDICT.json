@@ -1,0 +1,46 @@
+{
+  "RET_paused": true,
+  "actual_kappa_unresolved": true,
+  "actual_rank_unresolved": true,
+  "author_of_subject": false,
+  "automatic_mathematical_arithmetic": false,
+  "blocking_findings": [],
+  "full_normalized_witness_absent": true,
+  "improvement_optimality_undecided": true,
+  "independent_metadata": {
+    "bytes": 16344,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/CHECK_RESULT.json",
+    "sha256": "a3f8bbf00485e7fd30f4987524df591ef633da67c4e466f058218d3913a55597"
+  },
+  "mathematics_manual": true,
+  "metadata_replay": {
+    "bytes": 2454,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/AUTHOR_REPLAY.json",
+    "sha256": "1f097a4176691d22a2c40e8657a9f56d9b91cc85c90d855567dc7f938813a637"
+  },
+  "original_body_read": false,
+  "qualification_credit": 0,
+  "recommendation": "ACCEPT_CONDITIONAL_ACTUAL_ROOT_TRANSPORT_AND_EXACT_TWO_SECTOR_REDUCTION",
+  "remaining_premises": [
+    "Accepted finite strict prefix, canonical parent-five active neutrality and strict mixture, actual common rho/s layers",
+    "Complete original marked-record transport and positive reference probabilities",
+    "All actual canonical offsets, connected cross-root contrasts and shared reference/Gamma values",
+    "Full normalized R11-R13 compatibility or signed inconsistency remains to be proved"
+  ],
+  "review": {
+    "bytes": 13587,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INDEPENDENT_REVIEW.md",
+    "sha256": "77589094bc0745bcb3ada6b7840b38c60ca33b2b0dfd669a55ed4f7c50c7df91"
+  },
+  "same_root_identity_not_rank_or_feasibility": true,
+  "schema": "ri233-independent-native-verdict-v1",
+  "scientific_JSON_decoded": false,
+  "signed_inconsistency_absent": true,
+  "subject": {
+    "bytes": 18397,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.json",
+    "sha256": "bcd0a7c893b4e1ebec2f79ac9c92047a88972de0e6800a2a299176c1ef8a7cf6"
+  },
+  "subject_execution": false,
+  "successor_assigned": false
+}

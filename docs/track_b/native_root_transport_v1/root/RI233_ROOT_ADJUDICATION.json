@@ -1,0 +1,50 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Complete actual C5 root transport including e=theta*c",
+    "Finite root transport through supported C3-plus-cap rows at common rho/s layers",
+    "All five explicit allocation-offset cancellations and division-free zero-branch/reference equivalence",
+    "Every actual same-root contrast/minor vanishes for arbitrary W",
+    "Exact full reduction to five disconnected and eight connected cross-root equations,two connected identities",
+    "Complete held D4/D5 simplifications and allocation-free R10"
+  ],
+  "actual_author_final": {
+    "bytes": 3048,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/RI233_AUTHOR_FINAL_RECEIPT.json",
+    "sha256": "401b93a0e1af4f5c433066606c6ba3206d4dc53b560e2368c8315645496d15d8"
+  },
+  "final_review_seals": {
+    "bytes": 6910,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/ROOT_NATIVE_REVIEW_SEAL.json",
+    "sha256": "4bc5e09155ea84905ee98140d89059af8e102df61bbfdf09c21a6f7f6a36ffbd"
+  },
+  "independent_review": {
+    "bytes": 8092,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/HANDOFF.json",
+    "sha256": "698cec591f4570f3499355f501dbe961e53d26c2c51b0008053ddbbd60b9f7f7"
+  },
+  "packet": {
+    "bytes": 18397,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.json",
+    "sha256": "bcd0a7c893b4e1ebec2f79ac9c92047a88972de0e6800a2a299176c1ef8a7cf6"
+  },
+  "qualification_credit": 0,
+  "root_metadata": {
+    "bytes": 23624,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/RI233_ROOT_METADATA.json",
+    "sha256": "7373753e29d7ed61d226f7b2e67d89db89098fe9f834d7f2375a60f942a386fd"
+  },
+  "root_review": {
+    "bytes": 4966,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/RI233_ROOT_REVIEW.md",
+    "sha256": "af2f4339c742e094840e18078a5f8c289d1a223bc12ed82142b9f82ed4af6a8e"
+  },
+  "schema": "ri233-root-native-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_ROOT_TRANSPORT_AND_EXACT_TWO_SECTOR_REDUCTION",
+  "unresolved": [
+    "Actual nonzero connected contrasts",
+    "Full normalized u2=-1 witness or finite signed inconsistency",
+    "Improvement,optimality and maximal amplitude"
+  ]
+}

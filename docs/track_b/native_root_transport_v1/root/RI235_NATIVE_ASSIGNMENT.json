@@ -1,0 +1,43 @@
+{
+  "RET_paused": true,
+  "independent_review": {
+    "bytes": 8092,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/HANDOFF.json",
+    "sha256": "698cec591f4570f3499355f501dbe961e53d26c2c51b0008053ddbbd60b9f7f7"
+  },
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 2441,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/RI233_ROOT_ADJUDICATION.json",
+    "sha256": "60850b7a7669585910c7f0a8231ea771f7d3abb4fec88e2de25f0ad94c011424"
+  },
+  "predecessor_packet": {
+    "bytes": 18397,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.json",
+    "sha256": "bcd0a7c893b4e1ebec2f79ac9c92047a88972de0e6800a2a299176c1ef8a7cf6"
+  },
+  "prohibitions": [
+    "No automatic scientific arithmetic,calculator,Fraction,graph/LP/numerical engine,H/z reconstruction or original coefficient/body parsing.",
+    "No scientific or runtime subject,fixtures,cards,measurement,RET,repository/Git/index operations.",
+    "Do not self-assign a successor. Return a bounded sealed result for root review; root selects the next justified step."
+  ],
+  "qualification_credit": 0,
+  "question": "Can the actual cross-root system decide the normalized witness, prioritizing the minimal D2 obstruction route?",
+  "requirements": [
+    "Use the accepted exact R11-R13 system, R7-R10 held identities and actual fixed law; same-root equations are now known identities.",
+    "Prioritize proving or refuting nonzero actual f_j(1)-f_j(0) for j=4,5,6,7. If all are nonzero their connected equations force U4,U5,U6,U7=0. Do not require j9,j10 as blanket prerequisites.",
+    "With those directions zero, D2 requires g2(0)*b1^2-g2(1)*b0^2=0 because theta^2*Gamma2/a>0. Determine an actual consequence for this coefficient from existing admitted law/normalization, without relaxing actual canonical allocations. A finite signed row combination may certify inconsistency if the necessary contrasts are proved nonzero.",
+    "Preserve every zero-contrast branch. If an actual connected contrast vanishes, retain the corresponding free direction and exploit the resulting reduced equations toward a full witness or signed inconsistency.",
+    "A conditional restatement of this criterion alone is not the intended result: prove at least one additional substantive actual-law contrast/sign/cancellation fact, then resolve the smallest remaining precise premise if a complete decision is not yet possible.",
+    "Retain all five disconnected/eight connected equations,ten unknowns,u2=-1,actual g1/g2 offsets,common T1/T2/T3/reference/Gamma recovery and positive full-slot denominators. Do not claim generic rank, numerical amplitude, full feasibility or a relaxed-allocation result as the actual-law decision."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri235-native-cross-root-d2-3vvw5uow",
+  "schema": "ri235-native-cross-root-assignment-v1",
+  "source_authority": "Renew only already admitted exact analytic sources and accepted finite premises in RI233 SOURCE_REFERENCES, plus RI233 proofs and independent/root reviews. No new scientific body or coordinate authority; historical exceptions remain historical.",
+  "source_references": {
+    "bytes": 67263,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/SOURCE_REFERENCES.json",
+    "sha256": "836331259f615b9003f4d56d5d6eb34de5deb4037b2d155473ff1ea13b4d6a01"
+  },
+  "status": "ASSIGNED_AFTER_RI233_ADJUDICATION"
+}

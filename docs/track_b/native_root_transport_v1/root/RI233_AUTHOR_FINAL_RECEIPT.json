@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp",
+      "exitCode": 0,
+      "id": "exec-c9f5295b-392c-41cd-a327-b3b99c993b6e",
+      "output": {
+        "text": "{\n  \"schema\": \"ri233-compact-administrative-check-v1\",\n  \"status\": \"IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE\",\n  \"stage\": \"final6\",\n  \"direct_sources\": 33,\n  \"direct_bytes\": 846757,\n  \"inherited423_manifest_by_reference\": true,\n  \"fresh_inherited423_collection_replay\": false,\n  \"inherited_boundary_objects_preserved\": 15,\n  \"inherited_exact_analytic_admissions_renewed_without_expansion\": true,\n  \"new_literal_scientific_exception\": 0,\n  \"new_scientific_body_or_coordinate_read\": false,\n  \"scientific_body_JSON_parsed\": false,\n  \"old_exception_not_used_as_current_permission\": true,\n  \"inherited_opaque_body_row_not_reclassified\": true,\n  \"historical_state_arrays_not_current_stat_expectations\": true,\n  \"explicit_selected_reference_checks\": 46,\n  \"predecessor_namespace\": 6,\n  \"current_namespace\": 6,\n  \"whole_identity_fresh_rechecks\": 39,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/AUTHOR_VERIFICATION.json\",\n      \"bytes\": 39812,\n      \"sha256\": \"829c58f7fc8781290d4f86a6818a0c8bca9e8b631c2c9714335035fd0f5430e5\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.json\",\n      \"bytes\": 18397,\n      \"sha256\": \"bcd0a7c893b4e1ebec2f79ac9c92047a88972de0e6800a2a299176c1ef8a7cf6\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.md\",\n      \"bytes\": 2099,\n      \"sha256\": \"4a8ab82be95fdb00f0e450f9168a04da468b4b48a7d29de598f020d54a5ec115\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/OFFSET_ELIMINATION.md\",\n      \"bytes\": 8137,\n      \"sha256\": \"cfd7c78c78fd39f9abef2873cae50fd8b903251da52ef3d1eafd99dca95b8efc\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/ROOT_TRANSPORT.md\",\n      \"bytes\": 14353,\n      \"sha256\": \"587b4033d350c6022b5a5ffcd990e2d1a8f5a073f02249d1c18e5bab75812440\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/SOURCE_REFERENCES.json\",\n      \"bytes\": 67263,\n      \"sha256\": \"836331259f615b9003f4d56d5d6eb34de5deb4037b2d155473ff1ea13b4d6a01\"\n    }\n  ],\n  \"declared_local_Markdown_targets\": \"all-present\",\n  \"automated_proof_arithmetic\": false,\n  \"subject_execution\": false\n}\n",
+        "truncated": false
+      },
+      "status": "completed"
+    }
+  ],
+  "threadId": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "turnId": "01a0f684-126f-7311-867c-7b6fdea55214"
+}
