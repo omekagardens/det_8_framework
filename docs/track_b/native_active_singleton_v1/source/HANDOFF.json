@@ -1,0 +1,297 @@
+{
+  "schema": "ri223-native-active-singleton-and-mobility-gap-handoff-v1",
+  "status": "CONDITIONAL_NATIVE_SINGLETON_REDUCTION_WITH_PRECISE_OPEN_WITNESS_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI223_NATIVE_ASSIGNMENT.json",
+    "bytes": 12536,
+    "sha256": "19657daeb22a243b493aeca87349d30ed47ce87e1254e95d8733ba44c6587b4a"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI220_ROOT_ADJUDICATION.json",
+    "bytes": 2141,
+    "sha256": "a3d93ae2e9c47186097cb95de952d87eb50fb6dc5a16b4eceaff45c89406ce3d"
+  },
+  "additional_literal_admissions": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI223_CONNECTED_LITERAL_ADMISSION.json",
+      "bytes": 4720,
+      "sha256": "9287b982c399f009a606660b33f11496f82cb32995ab2846d7cb2510ba058add"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI223_FULL_PROFILE_LITERAL_ADMISSION.json",
+      "bytes": 2334,
+      "sha256": "b86b58d0f63fc753ed590c7d172a13a99fc92bb1a35e4ec3b307849650faa663"
+    }
+  ],
+  "namespace": [
+    "ACTIVE_ENDPOINT.md",
+    "AUTHOR_VERIFICATION.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "NATIVE_REDUCTION.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/ACTIVE_ENDPOINT.md",
+      "bytes": 7150,
+      "sha256": "280d5e0e09bb90c1c1f370f200ee67df52eda6885d5f92bf9698bd82bc2e11ec"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/AUTHOR_VERIFICATION.json",
+      "bytes": 37077,
+      "sha256": "932c50ec225b08b75d12c04003db0230b172bb60991b9d75f2691a69fab793de"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/HANDOFF.md",
+      "bytes": 2301,
+      "sha256": "702862eb90d8642e7503598587f59a4b8aa18d430ca68f9c2e50d2668088d0ba"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/NATIVE_REDUCTION.md",
+      "bytes": 17321,
+      "sha256": "3daa9f57c3f4e570a18e7f30568ce207ae81bad3b8f8d777eebd5bfde5a8b14b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/SOURCE_REFERENCES.json",
+      "bytes": 51502,
+      "sha256": "890a2618947bf974b97bc3f9e2ea5dc58b7b180d9501b5eab9fcf840ee05cc43"
+    }
+  ],
+  "new_theorems": [
+    "Endpoint improvement iff a homogeneous complete shared direction is strictly positive on every tied active J coordinate; this gives positivity at the endpoint and just above.",
+    "A nonzero nonnegative active-J annihilator proves full ceiling a_empty; the full feasible amplitude set is one open interval.",
+    "Native inherited Delta j>0 with accepted(Delta j)z3>0 gives z3>0 andh>1.",
+    "H5 empty birth raises Ferrers deletion defect1to2; the existing neutral-active-component rule givesG_E=theta*B_E^2/A_E.",
+    "Complete five-parent and eleven-child empty deletion inventory retained: every nonempty maximum subset, transported order/empty precursor/record, and original multiplicity.",
+    "Coupled complete-row bounds c0+B_E<1/12 imply -z2>theta*B_E/A_E and -z2>theta*B_E^2/A_E^2.",
+    "Every other negative-seed empty-child threshold is strictly larger thane2/(-z2); exact native active setI={2}.",
+    "Native improvement equivalent to solvability of the explicit ten-variable normalized shared system withdelta t2=-1. If insoluble, the unitJ2 annihilator gives exactceiling.",
+    "Actual normalized-system solution or native annihilating row identity remains unestablished."
+  ],
+  "exact_result": {
+    "original_candidate": "The independently accepted amplitude1/4 rejection remains immutable.",
+    "accepted_subfamily": "RI220 strict positive through-eight family on(0,a_empty) remains unchanged.",
+    "active_set": "Conditional on inherited finite native premises, I={2} and a_empty=e2/(-z2). Every other negative-seed empty-child threshold is strictly larger.",
+    "endpoint_theorem": "Improvement is equivalent to a complete homogeneous shared direction positive on all active coordinates; it yields strict positivity at a_empty and throughout a nonempty interval immediately above it.",
+    "native_reduction": "With I={2}, improvement is equivalent to a full homogeneous shared direction with u2 nonzero, equivalently u2=-1. NATIVE_REDUCTION equationsN16-N17 specify the resulting ten-unknown shared system.",
+    "dual": "An actual exact inconsistency identity for that normalized system would force u2=0 on the homogeneous space, making the unitJ2 functional an active annihilator and proving the full ceiling is exactly a_empty.",
+    "remaining": "No solution or annihilating identity is produced. Native improvement versus optimality remains unresolved. The generic alternative is not presented as an actual native decision.",
+    "acceptance": "All new RI223 mathematical conclusions await independent review. Metadata checks do not supply proof acceptance or executable qualification."
+  },
+  "proof_steps": [
+    "Define the full homogeneous shared solution space, not a local-only or old reduced-support space. Retain all connected parents, all five disconnected parents, every record and strict endpoint.",
+    "For a positive active homogeneous direction, choose symbolic tau below each finite inactive negative-direction margin bound. Then choose symbolic eta below the finite negative-multiplier bounds and half the gap to a_star. These existential choices are not numerical amplitude selection.",
+    "Conversely subtract the accepted base direction from a strict solution at or above a_empty. Each active coordinate is strictly positive. This gives both directions of the endpoint-and-nearby equivalence.",
+    "A nonnegative active annihilator, if found in the actual system, gives an impossible weighted strict inequality at every a>=a_empty. The abstract finite-dimensional alternative alone is explicitly not a native witness.",
+    "The full feasible amplitude set is downward closed and open, hence one interval; its upper endpoint remains unresolved.",
+    "Trace h>1 to inherited RI216 Delta j>0 and newly admitted RI103 accepted (Delta j)z3>0, then use the accepted seed split z3=r(h-1)/(3j0). No fresh seed/certificate body read.",
+    "For G_E, explicitly prove H5=C3 ordinal-sum A2 has defect1 and H5 disjoint-union A1 has defect2. Removing a vertex leaves either H5 or a nonempty disconnected isolate/remainder; removing isolate plus cap leaves C4. Apply only the already admitted neutral-active-component raising rule. Thus the actual raising scale is theta.",
+    "Retain each nonempty maximum-deletion subset in the appendix, not just collected monomials: all eleven child patterns (57 individual subsets) and all five parent patterns. Original cap labels, repeated ideals and denominator/numerator parity are explicit.",
+    "Keep restrictions of order, precursor and records together under relabelling. Empty births are record blind by admitted locality; fair bits and complete individual ideal multiplicities are retained. This does not remove the full/nonempty record constraints.",
+    "Use complete C4 normalization and positivity to obtain c0+B_E<1/12. Symbolically bound c0*B_E and c0*B_E^2, and compare against b0^3 with b0>11/12. No automatic arithmetic or evaluation of actual scales.",
+    "Use h>1 and a_C3<1 to compare -z2 to theta*B_E/A_E and theta*B_E^2/A_E^2. Match e2/e4 and e2/e9 to the exact deletion products. Every other negative j>=4 has a strictly larger threshold by rho,theta in(0,1) and |z_j|<=1. Positive z1,z3 are not active.",
+    "Conclude the proposed exact native active set is I={2}, with a_empty=e2/(-z2). This is an author theorem awaiting independent review, conditional on the inherited finite premises.",
+    "Parameterize the complete homogeneous directions by u0,u2,u3,U4..U11 and retain every connected contrast and every disconnected relative-profile identity. Normalize u2=-1 only because the homogeneous space is linear and Gamma2>0.",
+    "Expand the normalized equations into the stated ten-unknown system with the original Gamma coefficients, Q_ij including rho and ideal multiplicities, and H_ij=g_i(0)Q_ij(r)-g_i(r)Q_ij(0). Do not assume disconnected coefficients constant.",
+    "Keep T8/T11 constant-profile freedom and all D_i transport. Neither maximal-record invariance nor the lower seed rank10 result proves delta d=0. The old 27/28-column restrictions are not substituted for H30.",
+    "No actual solution or exact annihilating row identity was obtained. Improvement and optimality remain undecided; the missing witness is specified rather than claimed impossible."
+  ],
+  "exact_missing_witness": {
+    "normalized_system": "NATIVE_REDUCTION.md equationsN16-N17, unknownsu0,u3,U4..U11 and normalizationu2=-1.",
+    "improvement": "One exact solution using the actual fixed full profiles, all records and named lower coefficients.",
+    "optimality": "An actual signed linear combination annihilating the ten unknown columns but leaving nonzero RHS, or an equivalent native identitydelta w2=0 on the full homogeneous space.",
+    "not_needed": "No new seed coordinates, empty probability values, active tie resolution, numerical amplitude or H/z reconstruction.",
+    "coefficient_route_if_separately_authorized": "Connected full-profile contrastsj4,5,6,7,9,10 and disconnected relative-profile combinationsH_ij(r)=g_i(0)Q_ij(r)-g_i(r)Q_ij(0), plus existingGamma coefficients; retain actualrho/s and full record domain.",
+    "not_a_nonderivability_claim": true,
+    "new_body_or_execution_authority_created": false
+  },
+  "inherited_not_freshly_reproved": [
+    "All accepted finite baseline positivity, seed normalization and complete H30 shared iff premises remain conditional inherited facts.",
+    "RI220 amplitude-independent shared equations, explicit y0 base solution and0<a_empty<a_star<1/4.",
+    "RI216 determinant sign and exact lower constants retained by reference through RI220, not re-extracted from a scientific body.",
+    "RI103 accepted(Delta j)z3>0 and full-profile identities, read only as separately admitted analytic text.",
+    "Existing RI63 neutral-active-component rule as literally restated in admitted RI127 RECORD_TRANSPORT.",
+    "Existing all-record transport, empty-precursor locality, exact multiplicities, positive pivots and native scale bounds."
+  ],
+  "scope": {
+    "manual_analysis_only": true,
+    "original_quarter_rejection_immutable": true,
+    "accepted_small_amplitude_family_preserved": true,
+    "full_strict_endpoint_and_nearby_theorem_proved": true,
+    "complete_active_dual_implication_proved": true,
+    "native_z3_positive_and_h_above_one_proved": true,
+    "native_empty_H5_raising_identity_proved": true,
+    "complete_eleven_pattern_deletion_inventory_retained": true,
+    "native_active_singleton_J2_proved": true,
+    "normalized_ten_variable_shared_witness_specified": true,
+    "native_improvement_or_optimality_decided": false,
+    "native_lifting_direction_found": false,
+    "native_active_dual_found": false,
+    "maximal_full_amplitude_decided": false,
+    "numerical_amplitude_selected": false,
+    "scientific_body_certificate_or_vector_read": false,
+    "automatic_scientific_parsing_or_proof_arithmetic": false,
+    "H_or_z_reconstruction": false,
+    "actual_scales_or_probability_values_evaluated": false,
+    "graph_LP_subject_runtime_fixture_card_execution": false,
+    "repository_Git_index_or_measurement_written": false,
+    "inherited_finite_premises_remain_conditional": true,
+    "ret_paused": true,
+    "qualification_credit": 0,
+    "full_QM_geometry_or_physical_claim": false,
+    "all_size_continuation_claim": false,
+    "successor_designed_or_started": false
+  },
+  "provenance_scope": {
+    "direct_sources": 22,
+    "direct_bytes": 634862,
+    "inherited423_by_reference": true,
+    "inherited_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_namespace": 6,
+    "inherited_analytic_admissions": "Six original, two additional, two RI189 and the RI220 shared-affine admission preserved unchanged by reference.",
+    "new_literal_admissions": [
+      {
+        "authority": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI223_CONNECTED_LITERAL_ADMISSION.json",
+          "bytes": 4720,
+          "sha256": "9287b982c399f009a606660b33f11496f82cb32995ab2846d7cb2510ba058add"
+        },
+        "reference": {
+          "bytes": 11893,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+          "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+        },
+        "inherited_matches": [
+          {
+            "access_policy": "text-reading-and-opaque-identity-no-execution",
+            "classification": "analytic-source-text-or-review",
+            "identity": {
+              "bytes": 11893,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+              "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+              "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+              "symlinks": []
+            },
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+            "reference_provenance": [
+              "Actual external source-text read disclosed in RI145 ENDPOINT_REDUCTION.md section8; kept as a separate literal path.",
+              "Byte-identical selected published counterpart: /Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md"
+            ],
+            "role": "dep_0002"
+          },
+          {
+            "access_policy": "text-reading-and-opaque-identity-no-execution",
+            "classification": "analytic-source-text-or-review",
+            "identity": {
+              "bytes": 11893,
+              "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+              "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+              "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+              "symlinks": []
+            },
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+            "reference_provenance": [
+              "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json"
+            ],
+            "role": "dep_0012"
+          },
+          {
+            "access_policy": "text-reading-and-opaque-identity-no-execution",
+            "classification": "analytic-source-text-or-review",
+            "identity": {
+              "bytes": 11893,
+              "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+              "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+              "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+              "symlinks": []
+            },
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+            "reference_provenance": [
+              "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY_SOURCE_IDENTITIES.json",
+              "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json"
+            ],
+            "role": "dep_0411"
+          }
+        ],
+        "typed_reference_expansion": false
+      },
+      {
+        "authority": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI223_FULL_PROFILE_LITERAL_ADMISSION.json",
+          "bytes": 2334,
+          "sha256": "b86b58d0f63fc753ed590c7d172a13a99fc92bb1a35e4ec3b307849650faa663"
+        },
+        "reference": {
+          "bytes": 20198,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+          "sha256": "8a2a4bf9142341e2511763cbfd799183860e907372d577b9b32d8c1cf24a955c"
+        },
+        "inherited_matches": [
+          {
+            "access_policy": "text-reading-and-opaque-identity-no-execution",
+            "classification": "analytic-source-text-or-review",
+            "identity": {
+              "bytes": 20198,
+              "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+              "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+              "sha256": "8a2a4bf9142341e2511763cbfd799183860e907372d577b9b32d8c1cf24a955c",
+              "symlinks": []
+            },
+            "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+            "reference_provenance": [
+              "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json"
+            ],
+            "role": "dep_0417"
+          }
+        ],
+        "typed_reference_expansion": false
+      }
+    ],
+    "old_RI216_body_exception_not_reused": true,
+    "opaque_support_not_expanded": true,
+    "RI216_proof_history_by_reference_not_fresh_replay": true
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "7324c2",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 26,
+      "explicit_selected_reference_checks": 35
+    },
+    "complete_final_proof_read": {
+      "chunk_id": "ec59b9",
+      "exit_code": 0
+    },
+    "author_pin": {
+      "chunk_id": "9e33e1",
+      "exit_code": 0
+    },
+    "failed_shell_commands": 0,
+    "rejected_patches": 0,
+    "failed_orchestration_attempts": 0,
+    "diagnostic": "One clipped display of stored administrative objects, recovered by selected-field display; no parse attempt or source failure. Complete diagnostics retained in AUTHOR_VERIFICATION.json.",
+    "independent_proof_acceptance": false
+  },
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "final_check_policy": "Run the retained final6 administrative checker after this seal is saved. Report the actual receipt and all six final identities externally. No internal self-hash or future-check assertion.",
+  "stopping_rule": "Return this bounded native singleton reduction, full strict endpoint theorem and precise unresolved mobility witness for independent root review. Do not claim the generic alternative settles the native branch. No successor, new amplitude selection, execution or widening. Root owns publication/Git/index; RET paused."
+}

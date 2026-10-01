@@ -1,0 +1,46 @@
+{
+  "RET_paused": true,
+  "actual_outcome": {
+    "bytes": 3634,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+  },
+  "exact_checker": {
+    "bytes": 22817,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/check_installation.py",
+    "sha256": "915831f8092995c6decef96cca541866b82fb185cae4a589c504ff9bfb092f50"
+  },
+  "exact_installer": {
+    "bytes": 19894,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+    "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+  },
+  "owner": "/root/ri116_complete_caller_review",
+  "postflight": {
+    "bytes": 5932,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+    "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+  },
+  "predecessor_supersession": {
+    "bytes": 1938,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI222_OPERATIONAL_SUPERSESSION.json",
+    "sha256": "9c3cd5ca300d97ea108a7f49d00f5332b578a43338b3f063d4c9a38c0c7a42d7"
+  },
+  "qualification_credit": 0,
+  "question": "Repair the incorrect directory-link invariant and design a separately reviewable custody recovery for the retained complete installed partial. Preserve the refused original attempt; never retroactively label it successful.",
+  "required": [
+    "Explain exact observed root transition device/inode/mode unchanged, link23to24, exactone addedregularentry; retain strict full old-member identity and membership verification, file single-link requirements and all limits. Do not generally waive link or state checking.",
+    "Prefer a fresh separately admitted read-only reconciliation operation producing complete frozen/custody observations from unchanged E and original candidate, with explicit originalfailure provenance and new final checks; no E write, overwrite, delete or relocation. If no sound recovery exists under currentpremises, specify exact blocker and a concrete alternate fresh-operation design for rootreview.",
+    "Provide exact sources/protocol and nonexecuting metadata/source-correspondence checks only, in freshexclusive worker_proposal; preserve allfailedreservations and E bytes.",
+    "No installer, recovery subject, monitor, vendor, mode, scientific helper or fixture may run. No normal/optimized admission, repo/Git/index, publication or RET work. Root separately reviews/adjudicates source and controls any actual future recovery."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal",
+  "root_owns_git_and_admission": true,
+  "schema": "ri226-directory-custody-recovery-design-assignment-v1",
+  "source_handoff": {
+    "bytes": 9023,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/HANDOFF.json",
+    "sha256": "5762caec4ca89f2687de17da71671ec82e1066e81854b9d45364ea3ed59c1330"
+  },
+  "status": "ASSIGNED_SOURCE_ONLY_AFTER_ACTUAL_REFUSAL"
+}

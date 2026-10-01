@@ -1,0 +1,52 @@
+{
+  "actual_tool": "2a8df3 exit0",
+  "complete_manual_source_review": true,
+  "cwd_result": {
+    "bytes": 3053,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_RI222_CWD_CONTRACT_CHECK.json",
+    "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+  },
+  "genuine_replay": {
+    "bytes": 1447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/SOURCE_REPLAY_GENUINE_TOOL.json",
+    "sha256": "ddb1ff285401681a1e73aac3e0270464f27c18584011a72556dfcea50fc273e8"
+  },
+  "independent_review": {
+    "bytes": 3964,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/HANDOFF.json",
+    "sha256": "d6f37c7a433094ad13d49e4626c05cf2fc428c3986b6131c84cce1747afe768b"
+  },
+  "predicates": 6645,
+  "qualification_credit": 0,
+  "replay_result": {
+    "bytes": 2866,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_RI222_ADMIN_CHECK.json",
+    "sha256": "430c7708e94ebb007ca1e3f5cdc3a5fa83788738cac12ba3f8e980dfd0868a1d"
+  },
+  "review_read_receipts": [
+    "077d00",
+    "87cfe0",
+    "0696a1",
+    "2e6e2a",
+    "7ce995",
+    "bb1f18",
+    "54871e",
+    "3033ca",
+    "903b15"
+  ],
+  "schema": "ri224-root-ri222-source-review-v1",
+  "scope": "Complete installer/checker and protocol delta reviewed; exact outer D versus child D/monitor contract. Unchanged bytes, clock, eight-tail and limit semantics. No subject execution.",
+  "source_only": true,
+  "source_replay": {
+    "bytes": 11897,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/source_replay.py",
+    "sha256": "cd9a804102e06ce0c3e26fe78c01e614f665a27f7d65c3911b5402f0f7e0310f"
+  },
+  "status": "PASS_SOURCE_REVIEW_NOT_OPERATION",
+  "subject": {
+    "bytes": 9023,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/HANDOFF.json",
+    "sha256": "5762caec4ca89f2687de17da71671ec82e1066e81854b9d45364ea3ed59c1330"
+  },
+  "whole_source_projection": true
+}

@@ -1,0 +1,32 @@
+{
+  "RET_paused": true,
+  "fresh_predispatch": {
+    "bytes": 17182,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/FRESH_PREDISPATCH_CHECK.json",
+    "sha256": "a64551b011d81852134f689a87e5585896b753e098429197806b2ff0200b7fda"
+  },
+  "independent_review": {
+    "bytes": 4088,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/HANDOFF.json",
+    "sha256": "bc5202d6adcaaa7c4ff3cc6a1da9c4758839bd642bd64a5aac278182bcecb474"
+  },
+  "proposal": {
+    "bytes": 4509,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json",
+    "sha256": "ca1dd21438eaff45880fae5699177f2ef29a0d5e0b2103648ee4de8704e6361b"
+  },
+  "qualification_credit": 0,
+  "root_check": {
+    "bytes": 15309,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_CONCRETE_PREPARATION_CHECK_CORRECTED.json",
+    "sha256": "e13b9c454278d007fa2427e46e5e5e1634d2e86988dc6674dc849b381efbf97e"
+  },
+  "schema": "ri224-root-concrete-preparation-acceptance-v1",
+  "scope": "Prepared source/host/supplier/E records and concrete bootstrap accepted; actual installation remains unperformed at this decision.",
+  "source_review": {
+    "bytes": 2307,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json",
+    "sha256": "ae31240d4d29b7ccefd28cf8b75d908be318eb1bd3b94fd46aa698dc7398f5bd"
+  },
+  "status": "ACCEPT_REVIEWED_ADMINISTRATIVE_PREPARATION"
+}

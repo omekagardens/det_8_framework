@@ -1,0 +1,48 @@
+{
+  "absent_paths": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ADMIT_INSTALL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/DISPATCH.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/ADMIT_NORMAL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/ADMIT_OPTIMIZED.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/FRESH_PREDISPATCH_CHECK.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/CONCRETE_PREPARATION_ACCEPTANCE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_INSTALLATION_ADMISSION_DECISION.json"
+  ],
+  "actual_tool": {
+    "chunk_id": "3d6bd4",
+    "exit_code": 1
+  },
+  "cause": "JavaScript JSON.parse converted large integer filesystem nanosecond states to rounded Numbers in the redundant observation views. Exact original tool stdout strings are preserved unchanged. Python integer-preserving decode reconstructs the correct observations.",
+  "corrected_concrete_record": {
+    "bytes": 15309,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_CONCRETE_PREPARATION_CHECK_CORRECTED.json",
+    "sha256": "e13b9c454278d007fa2427e46e5e5e1634d2e86988dc6674dc849b381efbf97e"
+  },
+  "corrected_input": {
+    "bytes": 17182,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/PREDISPATCH_TRANSCRIPTION_CORRECTED.json",
+    "sha256": "a64551b011d81852134f689a87e5585896b753e098429197806b2ff0200b7fda"
+  },
+  "correction": "Only redundant observation values are replaced in separately named records, decoded from untouched genuine stdout. Failed originals remain immutable.",
+  "failed_input": {
+    "bytes": 17184,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/PREDISPATCH_TRANSCRIPTION_FAILED.json",
+    "sha256": "0b0e3aec4d439863b9b003ec0b8c0413dfe147a6ffcc9da84089583ac3a415da"
+  },
+  "installation_attempted": false,
+  "prior_concrete_record": {
+    "bytes": 15311,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_CONCRETE_PREPARATION_CHECK.json",
+    "sha256": "06b3911e1f41f0f0e2e64ffb9a0ed5e0eab7c4a288a51cbe538f3ebaa6a96ddc"
+  },
+  "qualification_credit": 0,
+  "schema": "ri224-root-admission-transcription-failure-v1",
+  "source": {
+    "bytes": 3437,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/issue_installation_failed.py",
+    "sha256": "db6af8174b1d08f45511aa9c453f46ee26bcbc5ba9b47498341b6ad07a29259f"
+  },
+  "status": "FAILED_BEFORE_AUTHORITY_OR_OPERATION"
+}

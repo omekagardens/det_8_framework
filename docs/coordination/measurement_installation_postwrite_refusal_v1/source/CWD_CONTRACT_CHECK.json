@@ -1,0 +1,38 @@
+{
+  "child_cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor",
+  "exact_popen": "child = subprocess.Popen(command, stdin=subprocess.DEVNULL, stdout=output, stderr=errors,\n                                     cwd=out, env=env, start_new_session=True)",
+  "guard_precedes_ownership": true,
+  "installer": {
+    "bytes": 19894,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+    "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+  },
+  "installer_guard": "Path.cwd()==literal(D/'monitor') and literal(OUT)==OUT and literal(W)==W",
+  "limits_unchanged": true,
+  "monitor": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  },
+  "monitor_function": "child_run(command, out, label, seconds, env)",
+  "monitor_implementation_unchanged": true,
+  "new_bootstrap_created": false,
+  "new_runtime_observation": false,
+  "outer_cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw",
+  "outer_cwd_assertion": "eq(dispatch['cwd'],str(D),'outer cwd')",
+  "postchecker": {
+    "bytes": 22817,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/check_installation.py",
+    "sha256": "915831f8092995c6decef96cca541866b82fb185cae4a589c504ff9bfb092f50"
+  },
+  "prospective_call_executed": false,
+  "prospective_call_text": "module.child_run(['/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9', '-I', '-B', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py', '--admission', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ADMIT_INSTALL.json'], Path('/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor'), 'INSTALL', 180, expected_environment)",
+  "retained_actual_bootstrap": {
+    "bytes": 2417,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py",
+    "sha256": "76779aeb180fc09ef2c90a2c1341ff3f5285640645ac15e1d90b27014422a00a"
+  },
+  "retained_actual_call": "module.child_run(['/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9', '-I', '-B', '/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py', '--admission', '/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ADMIT_INSTALL.json'], Path('/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor'), 'INSTALL', 180, expected_environment)",
+  "schema": "ri222-static-source-cwd-contract-v1",
+  "status": "PASS_LITERAL_INTERFACE_NOT_EXECUTION"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "ri224-root-genuine-preparation-tool-v1",
+  "initial": {
+    "arguments": {
+      "cmd": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/prepare_installation.py --source-review-bytes 2307 --source-review-sha256 ae31240d4d29b7ccefd28cf8b75d908be318eb1bd3b94fd46aa698dc7398f5bd --host-transcript /Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_PREPARATION_HOST_TOOL.json --host-transcript-bytes 1552 --host-transcript-sha256 1b2da050aa672834d0777603efc70d2b07019aea4254999d4f2df59d7344b6ae",
+      "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw",
+      "login": false,
+      "yield_time_ms": 1000,
+      "max_output_tokens": 2600,
+      "sandbox_permissions": "require_escalated",
+      "justification": "Run the independently reviewed administrative preparation once with isolated/no-bytecode flags, creating nine exact preparation files and two fresh directories only; do not issue admission or execute installation."
+    },
+    "result": {
+      "chunk_id": "bb233e",
+      "wall_time_seconds": 1.001447333,
+      "session_id": 14557,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  "polls": [
+    {
+      "arguments": {
+        "session_id": 14557,
+        "chars": "",
+        "yield_time_ms": 1000,
+        "max_output_tokens": 2600
+      },
+      "result": {
+        "chunk_id": "581cd9",
+        "wall_time_seconds": 0.000009,
+        "exit_code": 0,
+        "original_token_count": 323,
+        "output": "{\"status\": \"PREPARED_FOR_ROOT_PREFLIGHT_REVIEW_NO_ADMISSION\", \"proposal\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json\", \"bytes\": 4509, \"sha256\": \"ca1dd21438eaff45880fae5699177f2ef29a0d5e0b2103648ee4de8704e6361b\"}, \"custody\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/PREPARATION_CUSTODY.json\", \"bytes\": 16080, \"sha256\": \"b165ed2229cf07c61b138fdca0fdde53ddd25ccecdfb8273c6155fc9f552be52\"}, \"exact_tool_arguments\": {\"cmd\": \"/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\\\"DEFAULT\\\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py\", \"workdir\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw\", \"login\": false, \"yield_time_ms\": 1000, \"max_output_tokens\": 4000}}\n"
+      }
+    }
+  ],
+  "status": "PREPARED_NOT_ADMITTED_OR_DISPATCHED"
+}

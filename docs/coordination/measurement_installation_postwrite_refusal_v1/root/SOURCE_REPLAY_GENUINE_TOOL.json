@@ -1,0 +1,19 @@
+{
+  "schema": "ri224-root-source-replay-genuine-tool-v1",
+  "arguments": {
+    "cmd": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri224_source_replay.py",
+    "workdir": "/Volumes/AI_DATA/development/det_8_framework-ret",
+    "yield_time_ms": 1000,
+    "max_output_tokens": 2400,
+    "sandbox_permissions": "require_escalated",
+    "justification": "Replay the reviewed administrative source/cwd-contract checker over exact opaque inputs, writing only new root review reports; do not execute installer, monitor or scientific sources."
+  },
+  "result": {
+    "chunk_id": "2a8df3",
+    "wall_time_seconds": 0.000007208,
+    "exit_code": 0,
+    "original_token_count": 140,
+    "output": "{\"report\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ADMIN_CHECK.json\", \"bytes\": 2866, \"sha256\": \"430c7708e94ebb007ca1e3f5cdc3a5fa83788738cac12ba3f8e980dfd0868a1d\"}, \"cwd_contract\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/CWD_CONTRACT_CHECK.json\", \"bytes\": 3053, \"sha256\": \"2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c\"}, \"checks\": 6645, \"status\": \"PASS_LITERAL_SOURCE_AND_OPAQUE_CUSTODY_NOT_EXECUTION\"}\n"
+  },
+  "note": "Checker clone redirects only output destinations; retained stdout names the author's records. Actual root report paths are separately authenticated."
+}

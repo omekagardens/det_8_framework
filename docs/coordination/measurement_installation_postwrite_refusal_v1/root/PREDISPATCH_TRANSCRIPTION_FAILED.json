@@ -1,0 +1,248 @@
+{
+  "schema": "ri224-genuine-fresh-predispatch-check-v1",
+  "initial": {
+    "arguments": {
+      "cmd": "/opt/homebrew/bin/python3 -I -B - <<'PY'\nimport json,os,subprocess\np=subprocess.run(['/opt/homebrew/bin/python3','-I','-B','/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/check_preparation.py'],capture_output=True,text=True)\nassert p.returncode==0,(p.stdout,p.stderr)\nargv=['/usr/bin/sw_vers'];env={'PATH':'/usr/bin:/bin','LC_ALL':'C'}\nh=subprocess.run(argv,env=env,capture_output=True,text=True,check=True)\nprint(json.dumps(dict(custody=json.loads(p.stdout),host=dict(command=argv,environment=env,returncode=h.returncode,stdout=h.stdout,stderr=h.stderr,uname=list(os.uname())))))\nPY",
+      "login": false,
+      "yield_time_ms": 1000,
+      "max_output_tokens": 6500
+    },
+    "result": {
+      "chunk_id": "0a3cab",
+      "wall_time_seconds": 1.000273625,
+      "session_id": 57324,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  "terminal": {
+    "arguments": {
+      "session_id": 57324,
+      "chars": "",
+      "yield_time_ms": 1000,
+      "max_output_tokens": 6500
+    },
+    "result": {
+      "chunk_id": "5dfba4",
+      "wall_time_seconds": 0.00000825,
+      "exit_code": 0,
+      "original_token_count": 1676,
+      "output": "{\"custody\": {\"status\": \"PASS_ROOT_CONCRETE_PREPARATION_NOT_ADMISSION\", \"source_rows\": 904, \"vendor_files\": 1810, \"vendor_bytes\": 48024515, \"tools\": 4, \"namespace\": 195, \"absences\": 2, \"E_files\": 48, \"E_directories\": 9, \"exact_prepared_files\": [{\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json\", \"symlink_chain\": [], \"bytes\": 2307, \"sha256\": \"ae31240d4d29b7ccefd28cf8b75d908be318eb1bd3b94fd46aa698dc7398f5bd\", \"state\": [16777244, 425535, 33188, 1, 2307, 1790834834838255672, 1790834834838255672]}, {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_GENUINE_TOOL.json\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_GENUINE_TOOL.json\", \"symlink_chain\": [], \"bytes\": 1550, \"sha256\": \"141293eda415d4c07a55c66e54d444760f80f347261d8f5c91fdcf66caf21628\", \"state\": [16777244, 425546, 33188, 1, 1550, 1790834945892230260, 1790834945892230260]}, {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_BEFORE.json\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_BEFORE.json\", \"symlink_chain\": [], \"bytes\": 724, \"sha256\": \"c0aec9d2f264b7cc3cd47bd0674b53d10e0c4217a3a00bf63655a7d7b671eb76\", \"state\": [16777244, 425547, 33188, 1, 724, 1790834945935849253, 1790834945935849253]}, {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py\", \"symlink_chain\": [], \"bytes\": 2413, \"sha256\": \"8fbc916c29a874d93f2a1b0543e86870f26a6dc2ce01c57104dcd725c092d853\", \"state\": [16777244, 425548, 33188, 1, 2413, 1790834945936511886, 1790834945936511886]}, {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SOURCES_BEFORE.json\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SOURCES_BEFORE.json\", \"symlink_chain\": [], \"bytes\": 492355, \"sha256\": \"6c9389a7be2a6ae021a31113b3a32bd0111fbf4bc50ab40d79a78d5b644dc73c\", \"state\": [16777244, 425549, 33188, 1, 492355, 1790834946065001191, 1790834946065001191]}, {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SUPPLIER_BEFORE.json\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SUPPLIER_BEFORE.json\", \"symlink_chain\": [], \"bytes\": 1260486, \"sha256\": \"be80530b09e082a42f87734d7a58ff0837710235086cdc5046bb13c4f461a225\", \"state\": [16777244, 425550, 33188, 1, 1260486, 1790834946078263948, 1790834946078263948]}, {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/E_BEFORE.json\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/E_BEFORE.json\", \"symlink_chain\": [], \"bytes\": 42464, \"sha256\": \"b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087\", \"state\": [16777244, 425551, 33188, 1, 42464, 1790834946082393667, 1790834946082393667]}, {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_PREFLIGHT.json\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_PREFLIGHT.json\", \"symlink_chain\": [], \"bytes\": 1997, \"sha256\": \"32a305a8c7c85da70c664aa6d6c547aae55eff88a0cb791213447314eafd8de8\", \"state\": [16777244, 425552, 33188, 1, 1997, 1790834946523028826, 1790834946523028826]}, {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json\", \"symlink_chain\": [], \"bytes\": 4509, \"sha256\": \"ca1dd21438eaff45880fae5699177f2ef29a0d5e0b2103648ee4de8704e6361b\", \"state\": [16777244, 425553, 33188, 1, 4509, 1790834946523908720, 1790834946523908720]}, {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/PREPARATION_CUSTODY.json\", \"resolved_path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/PREPARATION_CUSTODY.json\", \"symlink_chain\": [], \"bytes\": 16080, \"sha256\": \"b165ed2229cf07c61b138fdca0fdde53ddd25ccecdfb8273c6155fc9f552be52\", \"state\": [16777244, 425554, 33188, 1, 16080, 1790834946524853163, 1790834946524853163]}], \"bootstrap_cwd_contract\": {\"child_cwd\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor\", \"exact_popen\": \"child = subprocess.Popen(command, stdin=subprocess.DEVNULL, stdout=output, stderr=errors,\\n                                     cwd=out, env=env, start_new_session=True)\", \"generated_child_call\": \"module.child_run(['/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9', '-I', '-B', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py', '--admission', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ADMIT_INSTALL.json'], Path('/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor'), 'INSTALL', 180, expected_environment)\", \"installer\": {\"bytes\": 19894, \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py\", \"sha256\": \"19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b\"}, \"installer_guard\": \"need(Path.cwd()==literal(D/'monitor') and literal(OUT)==OUT and literal(W)==W,'fixed operation paths')\", \"monitor\": {\"bytes\": 45721, \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py\", \"sha256\": \"8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe\"}, \"outer_cwd\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw\", \"source_text_only\": true, \"subject_execution\": false}, \"repository_unchanged\": true, \"scientific_execution\": false}, \"host\": {\"command\": [\"/usr/bin/sw_vers\"], \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LC_ALL\": \"C\"}, \"returncode\": 0, \"stdout\": \"ProductName:\\t\\tmacOS\\nProductVersion:\\t\\t26.5.2\\nBuildVersion:\\t\\t25F84\\n\", \"stderr\": \"\", \"uname\": [\"Darwin\", \"allan.local\", \"25.5.0\", \"Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000\", \"arm64\"]}}\n"
+    }
+  },
+  "observation": {
+    "custody": {
+      "status": "PASS_ROOT_CONCRETE_PREPARATION_NOT_ADMISSION",
+      "source_rows": 904,
+      "vendor_files": 1810,
+      "vendor_bytes": 48024515,
+      "tools": 4,
+      "namespace": 195,
+      "absences": 2,
+      "E_files": 48,
+      "E_directories": 9,
+      "exact_prepared_files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json",
+          "symlink_chain": [],
+          "bytes": 2307,
+          "sha256": "ae31240d4d29b7ccefd28cf8b75d908be318eb1bd3b94fd46aa698dc7398f5bd",
+          "state": [
+            16777244,
+            425535,
+            33188,
+            1,
+            2307,
+            1790834834838255600,
+            1790834834838255600
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_GENUINE_TOOL.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_GENUINE_TOOL.json",
+          "symlink_chain": [],
+          "bytes": 1550,
+          "sha256": "141293eda415d4c07a55c66e54d444760f80f347261d8f5c91fdcf66caf21628",
+          "state": [
+            16777244,
+            425546,
+            33188,
+            1,
+            1550,
+            1790834945892230100,
+            1790834945892230100
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_BEFORE.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_BEFORE.json",
+          "symlink_chain": [],
+          "bytes": 724,
+          "sha256": "c0aec9d2f264b7cc3cd47bd0674b53d10e0c4217a3a00bf63655a7d7b671eb76",
+          "state": [
+            16777244,
+            425547,
+            33188,
+            1,
+            724,
+            1790834945935849200,
+            1790834945935849200
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py",
+          "symlink_chain": [],
+          "bytes": 2413,
+          "sha256": "8fbc916c29a874d93f2a1b0543e86870f26a6dc2ce01c57104dcd725c092d853",
+          "state": [
+            16777244,
+            425548,
+            33188,
+            1,
+            2413,
+            1790834945936512000,
+            1790834945936512000
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SOURCES_BEFORE.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SOURCES_BEFORE.json",
+          "symlink_chain": [],
+          "bytes": 492355,
+          "sha256": "6c9389a7be2a6ae021a31113b3a32bd0111fbf4bc50ab40d79a78d5b644dc73c",
+          "state": [
+            16777244,
+            425549,
+            33188,
+            1,
+            492355,
+            1790834946065001200,
+            1790834946065001200
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SUPPLIER_BEFORE.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SUPPLIER_BEFORE.json",
+          "symlink_chain": [],
+          "bytes": 1260486,
+          "sha256": "be80530b09e082a42f87734d7a58ff0837710235086cdc5046bb13c4f461a225",
+          "state": [
+            16777244,
+            425550,
+            33188,
+            1,
+            1260486,
+            1790834946078264000,
+            1790834946078264000
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/E_BEFORE.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/E_BEFORE.json",
+          "symlink_chain": [],
+          "bytes": 42464,
+          "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087",
+          "state": [
+            16777244,
+            425551,
+            33188,
+            1,
+            42464,
+            1790834946082393600,
+            1790834946082393600
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_PREFLIGHT.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_PREFLIGHT.json",
+          "symlink_chain": [],
+          "bytes": 1997,
+          "sha256": "32a305a8c7c85da70c664aa6d6c547aae55eff88a0cb791213447314eafd8de8",
+          "state": [
+            16777244,
+            425552,
+            33188,
+            1,
+            1997,
+            1790834946523028700,
+            1790834946523028700
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json",
+          "symlink_chain": [],
+          "bytes": 4509,
+          "sha256": "ca1dd21438eaff45880fae5699177f2ef29a0d5e0b2103648ee4de8704e6361b",
+          "state": [
+            16777244,
+            425553,
+            33188,
+            1,
+            4509,
+            1790834946523908600,
+            1790834946523908600
+          ]
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/PREPARATION_CUSTODY.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/PREPARATION_CUSTODY.json",
+          "symlink_chain": [],
+          "bytes": 16080,
+          "sha256": "b165ed2229cf07c61b138fdca0fdde53ddd25ccecdfb8273c6155fc9f552be52",
+          "state": [
+            16777244,
+            425554,
+            33188,
+            1,
+            16080,
+            1790834946524853200,
+            1790834946524853200
+          ]
+        }
+      ],
+      "bootstrap_cwd_contract": {
+        "child_cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor",
+        "exact_popen": "child = subprocess.Popen(command, stdin=subprocess.DEVNULL, stdout=output, stderr=errors,\n                                     cwd=out, env=env, start_new_session=True)",
+        "generated_child_call": "module.child_run(['/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9', '-I', '-B', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py', '--admission', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ADMIT_INSTALL.json'], Path('/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor'), 'INSTALL', 180, expected_environment)",
+        "installer": {
+          "bytes": 19894,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+          "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+        },
+        "installer_guard": "need(Path.cwd()==literal(D/'monitor') and literal(OUT)==OUT and literal(W)==W,'fixed operation paths')",
+        "monitor": {
+          "bytes": 45721,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "outer_cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw",
+        "source_text_only": true,
+        "subject_execution": false
+      },
+      "repository_unchanged": true,
+      "scientific_execution": false
+    },
+    "host": {
+      "command": [
+        "/usr/bin/sw_vers"
+      ],
+      "environment": {
+        "PATH": "/usr/bin:/bin",
+        "LC_ALL": "C"
+      },
+      "returncode": 0,
+      "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t26.5.2\nBuildVersion:\t\t25F84\n",
+      "stderr": "",
+      "uname": [
+        "Darwin",
+        "allan.local",
+        "25.5.0",
+        "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+        "arm64"
+      ]
+    }
+  }
+}

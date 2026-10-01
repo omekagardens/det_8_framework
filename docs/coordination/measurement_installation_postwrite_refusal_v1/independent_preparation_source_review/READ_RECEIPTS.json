@@ -1,0 +1,86 @@
+{
+  "schema": "ri224-independent-preparation-read-receipts-v1",
+  "author": "/root/qr_opportunities",
+  "retention": "Assistant-authored transcription of direct tool receipt identifiers and outputs from this review; not a provider-exported transcript.",
+  "subject_execution": false,
+  "subject_import": false,
+  "subject_compilation": false,
+  "git": false,
+  "review_phase_writes": false,
+  "receipts": [
+    {
+      "chunk_id": "db8536",
+      "exit_code": 0,
+      "scope": "wc/shasum of draft and predecessor, complete numbered draft read",
+      "observed_draft": {
+        "path": "/private/tmp/ri224_install_preparation_draft.py",
+        "bytes": 18455,
+        "sha256": "9af0db33f4a57036b0f9bb911822dfd1ea905b6bddca1edc274d78dc00b05e80"
+      },
+      "observed_predecessor": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/prepare_installation.py",
+        "bytes": 16552,
+        "sha256": "49373e6ccc56f6aed7101834f3d635cef5e8f04978dd5099656e89de86ddfc34"
+      }
+    },
+    {
+      "chunk_id": "7b707c",
+      "exit_code": 0,
+      "scope": "Complete unified diff and complete numbered predecessor read. The shell command ended with the successful predecessor read; differences are intentional and the diff was not an equality check."
+    },
+    {
+      "chunk_id": "8746bf",
+      "exit_code": 0,
+      "scope": "Complete current SOURCE_PINS/HANDOFF, metadata helper and retained bootstrap text; source search for monitor and installer cwd contracts."
+    },
+    {
+      "chunk_id": "c3132c",
+      "exit_code": 0,
+      "scope": "Complete child_run span, installer lines 1-145 and complete CWD_CONTRACT_CHECK; locate Node metadata interpreter."
+    },
+    {
+      "chunk_id": "23bc01",
+      "exit_code": 0,
+      "scope": "New independent read-only Node administrative program: parse only named administrative metadata, hash referenced source bytes opaquely, verify stable stat fields during each hash, independently replace seven literal bootstrap strings in memory. No subject execution/import/compilation.",
+      "result": {
+        "sealed_files": 16,
+        "namespace_files": 16,
+        "base_inputs": 806,
+        "repair_inputs": 90,
+        "existing_source_rows": 902,
+        "prospective_source_rows_with_external_review_and_bootstrap": 904,
+        "existing_source_bytes": 91468605,
+        "fixed_support_pins": 3,
+        "bootstrap": {
+          "bytes": 2413,
+          "sha256": "8fbc916c29a874d93f2a1b0543e86870f26a6dc2ce01c57104dcd725c092d853",
+          "call": "module.child_run(['/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9', '-I', '-B', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py', '--admission', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ADMIT_INSTALL.json'], Path('/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor'), 'INSTALL', 180, expected_environment)"
+        },
+        "historical_scope_only": {
+          "vendor": 1810,
+          "vendor_bytes": 48024515,
+          "tools": 4,
+          "namespace": 195,
+          "absent": 2,
+          "E_rows": 57,
+          "E_files": 48,
+          "copy_roles": 48,
+          "history_roles": 124,
+          "target_roles": 30
+        },
+        "root_review_exists": false,
+        "preparation_output_exists": false,
+        "subject_execution": false,
+        "source_import": false,
+        "writes": false
+      }
+    }
+  ],
+  "failures": [],
+  "limits": [
+    "The historical supplier/E scope counts are read from authenticated administrative records, not a new runtime supplier observation.",
+    "No retained preparation, monitor, installer, checker, vendor or scientific source was executed.",
+    "902 existing source rows were checked; future root-review and generated-bootstrap rows were not falsely described as existing.",
+    "The review is source acceptance advice, not admission or a preparation/installation result."
+  ]
+}

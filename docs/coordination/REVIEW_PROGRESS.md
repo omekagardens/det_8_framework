@@ -1,6 +1,79 @@
 **Independent-review implementation progress**
 
-**Current follow-through — positive small-amplitude extension accepted; actual installation refused before ownership.**
+**Current follow-through — unique native active bound accepted; installation retained after postwrite refusal.**
+1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+accept RI223's conditional finite-law result: **J2 is the unique active
+empty-child bound, so a_empty=e2/(-z2)**. The complete five-parent and
+eleven-child deletion inventory, including all57 nonempty maximal subsets,
+gives strict gaps for every other negative-seed threshold. The H5 empty
+raising identity, inherited sign premises and transported records remain
+explicit. No seed vector or numerical amplitude was evaluated.
+
+The complete endpoint theorem says that strict improvement is equivalent
+to a homogeneous shared direction with nonzero delta t2, normalized to
+u2=-1. RI223 gives the exact remaining ten-variable system N16-N17,
+with every connected contrast and all five disconnected-parent families.
+It supplies neither a solution nor an inconsistency identity: improvement,
+optimality and maximal amplitude remain open. The original amplitude1/4
+rejection and accepted RI220 small-amplitude family remain unchanged.
+
+Root manual review and replay4be111 passed28 whole identities/39 selected
+references; the separate review's9b33ea checked28 identities,22 direct
+sources/634862bytes, both six-file namespaces and15 inherited boundaries.
+Metadata checks are distinct from mathematical acceptance; inherited423
+sources remain by reference. Evidence:
+`docs/track_b/native_active_singleton_v1/`.
+
+After adjudication, RI225 was assigned to the existing QR chat in
+`ri225-native-shared-mobility-yftvo6zl/`: derive needed native relative
+profiles and produce an actual N16-N17 solution or finite signed
+inconsistency identity. One exact existing RI111 analytic text was admitted
+after its inherited metadata matched; no scientific body or execution scope
+was added. Active successor work is excluded from publication.
+
+Measurement RI222's cwd repair passed complete source review. Fresh RI224
+preparation completed with -I -B:bb233e/session14557, terminal581cd9 exit0.
+Root and independent concrete checks covered904sources,1810vendor files,
+four tools,195namespace rows,two absences and E48files/nine directories;
+independentbde845 passed58415predicates. A root admission writer caught
+rounded nanosecond integers in redundant JSON views before creating any
+authority. Failed originals are preserved; independently verified integer-
+preserving corrections retain the actual stdout without alteration.
+
+The separately admitted installation8081b8/session81601, terminal17185d
+exited1 **after the exact26214-byte candidate was written**. The parent
+link count changed23to24, with device/inode/mode unchanged and exactly one
+new entry. Installer E_and_frozen and final_E refused the unchanged-link
+premise; six other tails passed. The complete candidate is retained as an
+**unaccepted partial**, together with all four operation and four monitor
+files. No FROZEN success record, mode run, retry or deletion occurred.
+
+Root postflight4f8009/session26037, terminal13f7b9 exit0 confirmed904sources,
+the supplier, all prior48Efiles and other directory states unchanged, and
+the sole added single-link file's exact candidate bytes. Independent replay
+8b7e1c and genuine-linkage checkea9431 separately confirmed the finding and
+all42 monitor samples. **RI222 operational readiness is superseded**;
+valid cwd/byte/clock fixes and historical reviews remain. There is no
+installation acceptance or qualification credit. Evidence:
+`docs/coordination/measurement_installation_postwrite_refusal_v1/`.
+
+RI226 is active source-only in
+`ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/`: repair the
+directory assumption and design a separately reviewed read-only
+reconciliation of the retained partial. Full old-member identity, exact
+membership, file-link, monitor and custody requirements remain; the old
+failure cannot be relabelled success. A later root admission is required.
+Normal/optimized mode, WHITE/RI131/full32 and selected public GWOSC
+conventional reproduction remain open. Calibrated claims and a native
+forward map remain separate. RET alone is paused.
+
+The preceding checkpoint a2570dfb367b5321886fd31384f470db4c6dd295 was
+verified on live origin/ret. This checkpoint includes reviewed stable proof
+and actual refusal evidence only. Unrelated edits, active reservations and
+protected historical results remain intact. No user decision is needed;
+native proof and measurement recovery continue.
+
+**Prior checkpoint — positive small-amplitude extension accepted; actual installation refused before ownership.**
 1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
 accept RI220's conditional finite-law result: the exact common local
 interval is **0<a<a_star=B2/(4h)**, and a complete shared solution gives

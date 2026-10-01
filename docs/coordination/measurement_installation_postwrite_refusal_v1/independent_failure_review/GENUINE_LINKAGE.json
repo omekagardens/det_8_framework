@@ -1,0 +1,30 @@
+{
+  "all_own_findings_match_root_saved_custody": true,
+  "checks": 39,
+  "full_source_supplier_repository_postflight": "Root-reported actual4f8009/session26037 to13f7b9 exit0; not independently replayed in this bounded failure review.",
+  "genuine_host": "e67a20",
+  "genuine_initial": "8081b8",
+  "genuine_terminal": "17185d",
+  "qualification_credit": 0,
+  "root_records": [
+    {
+      "bytes": 3634,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+      "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+    },
+    {
+      "bytes": 1540,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_POST_HOST_TOOL.json",
+      "sha256": "a679f2ff04d2d4f95e46a722ae4cc130ff7aa65d772e751673b65aaec42e969a"
+    },
+    {
+      "bytes": 5932,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+      "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+    }
+  ],
+  "schema": "ri224-independent-genuine-failure-linkage-v1",
+  "status": "PASS_LINKAGE_NOT_INSTALLATION_ACCEPTANCE",
+  "subject_execution": false,
+  "tool_origin_remains_external": true
+}

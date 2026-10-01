@@ -1,0 +1,118 @@
+{
+  "administrative_execution": {
+    "actual_result": {
+      "chunk_id": "43a0c4",
+      "exit_code": 0,
+      "output": "{\"result\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/CHECK_RESULT.json\", \"bytes\": 533257, \"sha256\": \"d4567f59196f56c98e884074cc38b7c4cf78b5cc930f445640f7bf89d7812a4a\"}, \"checks\": 22097, \"observed_identity_count\": 912, \"status\": \"PASS_SOURCE_LITERAL_AND_OPAQUE_METADATA_ONLY\"}\n",
+      "wall_time_seconds": 0.070467292
+    },
+    "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/check_metadata.py",
+    "flags": [
+      "-I",
+      "-B"
+    ],
+    "interpreter": "/opt/homebrew/bin/python3",
+    "source": {
+      "bytes": 15296,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/check_metadata.py",
+      "sha256": "66e4b71b51160dcae93de2d6ff5d827ea2d6f06a20a6025d131a94b50bace68f"
+    },
+    "tool_command_also_created_checker_source_before_invocation": true
+  },
+  "display_diagnostics": [
+    {
+      "description": "Combined functions output budget truncated protocol/admin display; complete missing text reread",
+      "recovery_chunks": [
+        "ce5e43",
+        "7844eb",
+        "f5b2af"
+      ]
+    }
+  ],
+  "failed_checker_attempts": [],
+  "receipts": [
+    {
+      "chunk_id": "ae02d5",
+      "exit_code": 0,
+      "scope": "Authenticate exact handoff/manifest, all15 payloads and16-file namespace; create exclusive review reservation.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "e12ec3",
+      "exit_code": 0,
+      "scope": "Read complete237-line installer.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "11bbe8",
+      "exit_code": 0,
+      "scope": "Read complete141-line postchecker.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "5dff17",
+      "exit_code": 0,
+      "scope": "Read complete finding response, static cwd contract and root repair assignment.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "b1378f",
+      "exit_code": 0,
+      "scope": "Read full protocol request; combined presentation truncated, recovered below.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "ce5e43",
+      "exit_code": 0,
+      "scope": "Recover complete later protocol sections110 onward.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "7844eb",
+      "exit_code": 0,
+      "scope": "Recover protocol85\u2013112 and read complete administrative checker.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "f5b2af",
+      "exit_code": 0,
+      "scope": "Read complete administrative builder.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "6657d2",
+      "exit_code": 0,
+      "scope": "Read complete author receipts, authoring record, check result and build metadata.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "dda4f8",
+      "exit_code": 0,
+      "scope": "Read unchanged monitor constants/support/child_run, complete retained bootstrap and failure custody.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "cffb88",
+      "exit_code": 0,
+      "scope": "Administrative JSON field/role inventories; no scientific content decoded.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "43a0c4",
+      "exit_code": 0,
+      "scope": "Create and execute only independent administrative checker;22,097 predicates/912 opaque identities.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "977a3b",
+      "exit_code": 0,
+      "scope": "Read exact numbered installer and outer-checker locations for final narrative.",
+      "tool": "exec_command"
+    }
+  ],
+  "repo_git_work": false,
+  "schema": "ri222-independent-tool-receipts-v1",
+  "scientific_decode": false,
+  "subject_execution": false,
+  "tool_origin_not_self_authenticated_by_saved_JSON": true
+}

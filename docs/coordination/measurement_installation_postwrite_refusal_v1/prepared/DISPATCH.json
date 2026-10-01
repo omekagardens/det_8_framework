@@ -1,0 +1,44 @@
+{
+  "actual_execution_not_yet_started": true,
+  "admission": {
+    "bytes": 1596,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ADMIT_INSTALL.json",
+    "sha256": "f8cd444066e14c3ee25eac77180874da1ff19a0737c132ca9d49ba155807d99d"
+  },
+  "bootstrap": {
+    "bytes": 2413,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py",
+    "sha256": "8fbc916c29a874d93f2a1b0543e86870f26a6dc2ce01c57104dcd725c092d853"
+  },
+  "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw",
+  "external_timeout_seconds": 960,
+  "login": false,
+  "monitor_source": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  },
+  "outer_argv": [
+    "/usr/bin/env",
+    "-i",
+    "LC_ALL=C",
+    "MKL_NUM_THREADS=1",
+    "NUMEXPR_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "PATH=/usr/bin:/bin",
+    "TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/tmp",
+    "TZ=UTC",
+    "VECLIB_MAXIMUM_THREADS=1",
+    "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0",
+    "/usr/bin/perl",
+    "-e",
+    "$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;",
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py"
+  ],
+  "shell_command": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py",
+  "single_attempt": true
+}

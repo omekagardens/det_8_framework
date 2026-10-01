@@ -1,0 +1,90 @@
+{
+  "current_author_admin_failures": [],
+  "fixture_execution": false,
+  "genuine_tool_origin_external": true,
+  "new_installer_execution": false,
+  "prior_actual_installer_event": {
+    "chunk_id": "685f23",
+    "exit_code": 1,
+    "scope": "Predecessor RI218 rejected before output ownership; not a new author execution"
+  },
+  "prior_actual_installer_failure": {
+    "bytes": 3292,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "16b425213239b6f681ef8c80226668fbf2e19fb5e95f6bd3bb6389fbe8356780"
+  },
+  "qualification_credit": 0,
+  "receipts": [
+    {
+      "chunk_id": "268b4d",
+      "exit_code": 0,
+      "kind": "exact_assignment_authentication",
+      "scope": "Authenticate2264-byte RI222 assignment and list root evidence names.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "323587",
+      "exit_code": 0,
+      "kind": "complete_failure_and_adjudication_read",
+      "scope": "Read complete genuine failure, root failure review, supersession, complete custody and original admission decision.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "b0ec0b",
+      "exit_code": 0,
+      "kind": "saved_source_and_preparation_read",
+      "scope": "Read saved administrative source review/preflight and complete selected preparation references; no runtime recapture.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "c774a3",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/build_repair.py",
+      "exit_code": 0,
+      "kind": "administrative_literal_build",
+      "result": {
+        "bytes": 1862,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/BUILD_METADATA.json",
+        "sha256": "61ca0c1c2f115c4edf3fbc2dd8a0e3e51c37ac9e6296f08b6d3a9217137d4113"
+      },
+      "source": {
+        "bytes": 13272,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/build_repair.py",
+        "sha256": "3fdd73fd879e4fffa0c4211264241b059c537ba15ef98a94c78922e1d10c0e83"
+      },
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "ad048f",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/admin_check.py",
+      "contract": {
+        "bytes": 3053,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/CWD_CONTRACT_CHECK.json",
+        "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+      },
+      "distinct_opaque_inputs": 896,
+      "exit_code": 0,
+      "kind": "administrative_contract_and_opaque_check",
+      "predicates": 6645,
+      "result": {
+        "bytes": 2866,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ADMIN_CHECK.json",
+        "sha256": "430c7708e94ebb007ca1e3f5cdc3a5fa83788738cac12ba3f8e980dfd0868a1d"
+      },
+      "source": {
+        "bytes": 11721,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/admin_check.py",
+        "sha256": "c02edb3557983e902303622a0d5b97948bfc9cf61a8455ef20fc9faf1a81aad8"
+      },
+      "tool": "exec_command"
+    }
+  ],
+  "root_custody_corrected": "a3a21c/session31556 terminalbdd104 exit0",
+  "root_custody_diagnostic": {
+    "bytes": 1984,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/CALLER_FAILURE_REVIEW.json",
+    "sha256": "9dc858de414831b20e866ef311ed7265f44ab744bf5a6736ba21b503daac078b"
+  },
+  "root_custody_initial": "10f0e2/session87577 terminal352a4e exit1",
+  "schema": "ri222-author-actual-administrative-receipts-v1",
+  "source_import_compile_AST_probe_execute": false
+}

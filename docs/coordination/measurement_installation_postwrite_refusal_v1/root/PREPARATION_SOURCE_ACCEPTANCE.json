@@ -1,0 +1,41 @@
+{
+  "RET_paused": true,
+  "cwd_contract": "Outer D222; generated out=D222/monitor; unchanged Popen cwd=out; corrected installer guard requires literal D222/monitor.",
+  "fresh_host_tool": {
+    "bytes": 1552,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_PREPARATION_HOST_TOOL.json",
+    "sha256": "1b2da050aa672834d0777603efc70d2b07019aea4254999d4f2df59d7344b6ae"
+  },
+  "independent_review": {
+    "bytes": 2612,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-preparation-review-9KASog/HANDOFF.json",
+    "sha256": "44a01340d1b87d4890a78bfa5e0dc618c7df99f1f89cc5343dec5eb8bda6f508"
+  },
+  "installation_admitted": false,
+  "mandatory_invocation": [
+    "/opt/homebrew/bin/python3",
+    "-I",
+    "-B"
+  ],
+  "qualification_credit": 0,
+  "remaining_premises": [
+    "Authentic root host tool origin",
+    "Stable host and selected source/supplier/E state",
+    "Root invocation with isolated/no-bytecode flags"
+  ],
+  "root_read_receipts": [
+    "e18ba1",
+    "193cb9",
+    "903b15"
+  ],
+  "schema": "ri224-root-preparation-source-acceptance-v1",
+  "scope": "Administrative preparation only; no admission, dispatch, installer/monitor invocation, E modification or scientific operation.",
+  "source": {
+    "bytes": 18455,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/prepare_installation.py",
+    "sha256": "9af0db33f4a57036b0f9bb911822dfd1ea905b6bddca1edc274d78dc00b05e80"
+  },
+  "source_closure": "902 existing opaque source rows plus root review and generated bootstrap =904.",
+  "status": "ACCEPT_EXACT_ADMINISTRATIVE_PREPARATION_SOURCE",
+  "writes": "Nine exact preparation files and two fresh empty control directories in fixed D222 only; partials retained on failure."
+}

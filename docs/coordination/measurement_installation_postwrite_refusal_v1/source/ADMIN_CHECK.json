@@ -1,0 +1,68 @@
+{
+  "actual_predecessor_failure": "685f23 exit1 before ownership",
+  "assignment": {
+    "bytes": 2264,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI222_REPAIR_ASSIGNMENT.json",
+    "sha256": "bae3531b2bc3e50f3685beca009610bf7356d36ba7e7ad0cfc3a10f2b5a162b8"
+  },
+  "base_inputs": 806,
+  "byte_and_JSON_comparisons_unchanged": true,
+  "checks": 6645,
+  "complete_prior_source_domain": 857,
+  "correspondence": [
+    {
+      "entire_inverse_projection": true,
+      "lines": 237,
+      "new": {
+        "bytes": 19894,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+        "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+      },
+      "old": {
+        "bytes": 19877,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py",
+        "sha256": "400c40de09f7519ddf453bf2db44893ac54f6d077727e56b53ef5e3ce70526f7"
+      },
+      "source": "install_freeze.py"
+    },
+    {
+      "entire_inverse_projection": true,
+      "lines": 141,
+      "new": {
+        "bytes": 22817,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/check_installation.py",
+        "sha256": "915831f8092995c6decef96cca541866b82fb185cae4a589c504ff9bfb092f50"
+      },
+      "old": {
+        "bytes": 22819,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/check_installation.py",
+        "sha256": "d34eaff2a893d78274b2bfd64d1458cda5c8937b8177f49e72e18354ad61b234"
+      },
+      "source": "check_installation.py"
+    }
+  ],
+  "current_runtime_observation": false,
+  "distinct_opaque_inputs": 896,
+  "fixture_execution": false,
+  "old_monitor_files_and_states_preserved": true,
+  "prior_historical_roles": 810,
+  "prospective_source_count": 904,
+  "qualification_credit": 0,
+  "repair_rows": 90,
+  "retained_clock_schema": "ri213-installation-completion-v1",
+  "schema": "ri222-administrative-source-check-v1",
+  "scientific_decode": false,
+  "source_contract": {
+    "bytes": 3053,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/CWD_CONTRACT_CHECK.json",
+    "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+  },
+  "source_manifest": {
+    "bytes": 1363,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_PINS.json",
+    "sha256": "65696e7ab9e4b78c52c8c815dd79917fd7ed6b822074501b9f6393859cb4f535"
+  },
+  "status": "PASS_LITERAL_SOURCE_AND_OPAQUE_CUSTODY_NOT_EXECUTION",
+  "subject_execution": false,
+  "whole_clock_and_eight_tail_spans_unchanged": true
+}

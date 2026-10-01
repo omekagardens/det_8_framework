@@ -1,0 +1,45 @@
+{
+  "assignment": {
+    "bytes": 2264,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI222_REPAIR_ASSIGNMENT.json",
+    "sha256": "bae3531b2bc3e50f3685beca009610bf7356d36ba7e7ad0cfc3a10f2b5a162b8"
+  },
+  "base_input": {
+    "bytes": 677925,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/INPUT_PINS.json",
+    "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+  },
+  "functional_change": [
+    "Path.cwd()==D and literal(OUT)==OUT and literal(W)==W",
+    "Path.cwd()==literal(D/'monitor') and literal(OUT)==OUT and literal(W)==W"
+  ],
+  "postchecker_only_paths_and_provenance": true,
+  "predecessor": {
+    "bytes": 8207,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/HANDOFF.json",
+    "sha256": "bd62168cf3cb2fe468f7488a140ad98f9dc433c21b3ad17d642ba29623acbeb1"
+  },
+  "provenance_group_counts": {
+    "failed_monitor4": 4,
+    "failed_root12": 12,
+    "inherited43": 43,
+    "predecessor15": 15,
+    "root_adjudication11": 11,
+    "support5": 5
+  },
+  "qualification_credit": 0,
+  "repair_provenance": {
+    "bytes": 48176,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/REPAIR_PROVENANCE.json",
+    "sha256": "77f52137ab3a4799253ca79bb0f3380a551ac623346052e1eebe6735b4182fd6"
+  },
+  "repair_rows": 90,
+  "schema": "ri222-source-cwd-repair-build-v1",
+  "source_execution": false,
+  "source_supersession": {
+    "bytes": 1478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI218_OPERATIONAL_SUPERSESSION.json",
+    "sha256": "606a5407f23f50505c1456e1589cea20c1106c9980e1102f754a8e76eb142759"
+  },
+  "whole_source_inverse_projection": true
+}

@@ -1,0 +1,140 @@
+{
+  "schema": "ri223-independent-manual-review-receipts-v1",
+  "author": "/root/qr_opportunities",
+  "retention": "Assistant-authored retention of actual tool receipt identifiers and observed results; not an exported provider transcript.",
+  "own_receipts": [
+    {
+      "chunk_id": "18c2e7",
+      "exit_code": 0,
+      "scope": "Six current whole-file byte counts and SHA256 values; complete numbered ACTIVE_ENDPOINT and NATIVE_REDUCTION proofs."
+    },
+    {
+      "chunk_id": "6f1a3b",
+      "exit_code": 0,
+      "scope": "Complete HANDOFF.json and HANDOFF.md literal reads."
+    },
+    {
+      "chunk_id": "2338e6",
+      "exit_code": 0,
+      "scope": "Both exact literal admissions, CONNECTED_CONSTRAINTS_LEMMA and RI103 REPAIR displays.",
+      "diagnostic": "Combined display clipped in its middle; not treated as a complete read until recovery."
+    },
+    {
+      "chunk_id": "704a6d",
+      "exit_code": 0,
+      "scope": "Recovered connected lemma lines250-end and RI103 REPAIR lines1-120, completing the omitted interval; complete retained administrative checker string displayed via selected source search. No execution of that string."
+    },
+    {
+      "chunk_id": "8a0132",
+      "exit_code": 0,
+      "scope": "Remaining AUTHOR_VERIFICATION fields, actual-check declarations, diagnostics and phase boundaries; together with 704a6d the complete author object/checker was read."
+    },
+    {
+      "chunk_id": "cfea0c",
+      "exit_code": 0,
+      "scope": "Complete admitted RECORD_TRANSPORT text, original RI85 cap and parent catalogue/deletion inventory, complete RI127 remaining shared-equation/iff section."
+    },
+    {
+      "chunk_id": "9b33ea",
+      "exit_code": 0,
+      "scope": "Independent administrative-only Node program: exact current/direct hashes and stable stat selection, six-file seals, admitted metadata bindings, inherited-boundary comparisons. No retained checker or scientific source execution.",
+      "result": {
+        "direct_sources": 22,
+        "direct_bytes": 634862,
+        "current_files": 6,
+        "current_namespace": 6,
+        "predecessor_namespace": 6,
+        "distinct_whole_files_verified": 28,
+        "new_analytic_admissions": 2,
+        "new_analytic_inherited_row_matches": 4,
+        "inherited_manifest_rows": 423,
+        "inherited_boundary_objects": 15,
+        "inherited_descendants_replayed": false,
+        "body_exception_reused": false,
+        "source_import_or_execution": false,
+        "scientific_arithmetic": false,
+        "writes": false
+      }
+    }
+  ],
+  "own_failures": [],
+  "own_recovered_display": {
+    "clipped_receipt": "2338e6",
+    "recovery_receipt": "704a6d",
+    "subjects_mutated": false
+  },
+  "author_attribution": {
+    "retained_preseal": {
+      "chunk_id": "7324c2",
+      "exit_code": 0,
+      "whole_identities": 26,
+      "selected_references": 35
+    },
+    "final_report_forwarded_by_root": {
+      "chunk_id": "5c2045",
+      "exit_code": 0,
+      "whole_identities": 28,
+      "selected_references": 39,
+      "direct_sources": 22,
+      "direct_bytes": 634862
+    },
+    "current_diagnostics": {
+      "failed_shell_commands": 0,
+      "rejected_patches": 0,
+      "failed_orchestration_attempts": 0,
+      "recovered_administrative_clipping": true
+    },
+    "not_my_execution": true
+  },
+  "root_attribution": {
+    "retained_checker_replay": {
+      "chunk_id": "4be111",
+      "exit_code": 0,
+      "whole_identities": 28,
+      "selected_references": 39,
+      "direct_sources": 22,
+      "direct_bytes": 634862
+    },
+    "not_my_execution": true
+  },
+  "subject_pins": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/ACTIVE_ENDPOINT.md",
+      "bytes": 7150,
+      "sha256": "280d5e0e09bb90c1c1f370f200ee67df52eda6885d5f92bf9698bd82bc2e11ec"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/AUTHOR_VERIFICATION.json",
+      "bytes": 37077,
+      "sha256": "932c50ec225b08b75d12c04003db0230b172bb60991b9d75f2691a69fab793de"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/HANDOFF.md",
+      "bytes": 2301,
+      "sha256": "702862eb90d8642e7503598587f59a4b8aa18d430ca68f9c2e50d2668088d0ba"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/NATIVE_REDUCTION.md",
+      "bytes": 17321,
+      "sha256": "3daa9f57c3f4e570a18e7f30568ce207ae81bad3b8f8d777eebd5bfde5a8b14b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/SOURCE_REFERENCES.json",
+      "bytes": 51502,
+      "sha256": "890a2618947bf974b97bc3f9e2ea5dc58b7b180d9501b5eab9fcf840ee05cc43"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/HANDOFF.json",
+      "bytes": 20482,
+      "sha256": "e1499a8244c9515216f845e13f7d15519d0bc1e4147f8685750d4d73dec68221"
+    }
+  ],
+  "scientific_arithmetic": false,
+  "scientific_body_parsing": false,
+  "scientific_execution": false,
+  "subject_import_or_compile": false,
+  "graph_or_LP": false,
+  "git": false,
+  "review_subject_writes": false,
+  "sealing_write_scope": "/Volumes/AI_DATA/development/det-review-evidence/ri223-independent-native-review-rA5JjC"
+}

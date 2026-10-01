@@ -1,0 +1,187 @@
+{
+  "RET_paused": true,
+  "absences": 2,
+  "all_prior_E_members_unchanged": true,
+  "candidate": {
+    "bytes": 26214,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri206-freeze-5e_n5lj_/RESULT.json",
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+  },
+  "exact_candidate_byte_equality": true,
+  "failed_tails": [
+    "E_and_frozen",
+    "final_E"
+  ],
+  "first_error": {
+    "message": "RI209: root device inode mode links",
+    "secondary": [],
+    "type": "ValueError"
+  },
+  "genuine_post_host": {
+    "bytes": 1540,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_POST_HOST_TOOL.json",
+    "sha256": "a679f2ff04d2d4f95e46a722ae4cc130ff7aa65d772e751673b65aaec42e969a"
+  },
+  "genuine_tool": {
+    "bytes": 3634,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+  },
+  "installed_partial": {
+    "bytes": 26214,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14",
+    "state": [
+      16777244,
+      425604,
+      33152,
+      1,
+      26214,
+      1790835730011000773,
+      1790835730011000773
+    ],
+    "symlink_chain": []
+  },
+  "monitor_files": [
+    {
+      "bytes": 882,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.ATTEMPT.json",
+      "sha256": "da4f699034536ba21a92d741078ead408a9173deec999258d7b14460d108b961"
+    },
+    {
+      "bytes": 11771,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.COMPLETION.json",
+      "sha256": "15f6594b1c96db728f11ae084a394e945d33abb201a1fff1ffa9c78d550fb14b"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "monitor_summary": {
+    "child_exit_code": 1,
+    "elapsed_seconds": 1.5167022920000002,
+    "final_sample_to_reap_gap_seconds": 0.03513037500000005,
+    "first_error": null,
+    "passed": false,
+    "peak_sampled_rss_kib": 49040,
+    "stop_reason": null,
+    "tail_errors": []
+  },
+  "namespace_rows": 195,
+  "no_mode_cards": true,
+  "no_retry": true,
+  "old_E_directories": 9,
+  "old_E_files": 48,
+  "operation_files": [
+    {
+      "bytes": 713,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/ATTEMPT.json",
+      "sha256": "01c0426f641d6caace9983e143320c2ca97295c02b84b942a95dc721de4dac31"
+    },
+    {
+      "bytes": 688663,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/BEFORE.json",
+      "sha256": "4be52b9f1cf03cec3154a5c9babe39f9fb873cc1f25ebf0fe2f2f47ee53a8c99"
+    },
+    {
+      "bytes": 2054312,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/COMPLETE.json",
+      "sha256": "e2ec8b3a84520aeb7f2b99fedce475ac9ffa99b51863dc5970213abdbe952c58"
+    },
+    {
+      "bytes": 1900901,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/OBSERVATIONS.json",
+      "sha256": "1cbdc744f1578f38da57ee1525f79df8b0752cde3ca34f26afcd552780d4712f"
+    }
+  ],
+  "passed_tail_count": 6,
+  "qualification_credit": 0,
+  "root_after": {
+    "entries": [
+      "AUTHORING_RECORD.md",
+      "AUTHORIZED_FREEZE.json",
+      "BLOCK_CORRESPONDENCE.source-only.json",
+      "HANDOFF.json",
+      "HANDOFF.md",
+      "HISTORY_CLOSURE.source-only.json",
+      "MODE_CUSTODY_CONTRACT.md",
+      "PROTOCOL.md",
+      "SOURCE_METADATA_CHECK.json",
+      "TARGET_CLOSURE.source-only.json",
+      "caller_contract.py",
+      "control.py",
+      "evidence.py",
+      "guard_controls.source-only.py",
+      "launch.py",
+      "monitor.py",
+      "profile_observe.source-only.py",
+      "runs",
+      "runtime_support.py",
+      "science",
+      "tmp",
+      "worker.py"
+    ],
+    "state": [
+      16777244,
+      418690,
+      16832,
+      24,
+      768,
+      1790835730010942314,
+      1790835730010942314
+    ]
+  },
+  "root_before": {
+    "entries": [
+      "AUTHORING_RECORD.md",
+      "BLOCK_CORRESPONDENCE.source-only.json",
+      "HANDOFF.json",
+      "HANDOFF.md",
+      "HISTORY_CLOSURE.source-only.json",
+      "MODE_CUSTODY_CONTRACT.md",
+      "PROTOCOL.md",
+      "SOURCE_METADATA_CHECK.json",
+      "TARGET_CLOSURE.source-only.json",
+      "caller_contract.py",
+      "control.py",
+      "evidence.py",
+      "guard_controls.source-only.py",
+      "launch.py",
+      "monitor.py",
+      "profile_observe.source-only.py",
+      "runs",
+      "runtime_support.py",
+      "science",
+      "tmp",
+      "worker.py"
+    ],
+    "kind": "directory",
+    "relative": ".",
+    "state": [
+      16777244,
+      418690,
+      16832,
+      23,
+      736,
+      1790804982624512741,
+      1790804982624512741
+    ]
+  },
+  "samples": 42,
+  "schema": "ri224-postwrite-refusal-custody-v1",
+  "sources": 904,
+  "status": "REFUSAL_AND_RETAINED_PARTIALS_CONFIRMED_NOT_INSTALLATION_ACCEPTANCE",
+  "success_checker_not_run": true,
+  "tools": 4,
+  "vendor_bytes": 48024515,
+  "vendor_files": 1810,
+  "whole_repository_unchanged": true
+}

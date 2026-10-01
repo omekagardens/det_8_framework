@@ -1,0 +1,42 @@
+{
+  "RET_paused": true,
+  "findings": [
+    "Complete actual monitor cwd chain reconstructed: outer D, child literal D/monitor.",
+    "Whole inverse projection preserves every other installer/checker behavior and all clock, byte, tail and limit requirements.",
+    "All896 inputs and857 prior source rows preserved; prospective904 closure awaits preparation.",
+    "Earlier review missed the cwd mismatch; actual failed reservation and superseded readiness remain immutable."
+  ],
+  "independent_review": {
+    "bytes": 3964,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/HANDOFF.json",
+    "sha256": "d6f37c7a433094ad13d49e4626c05cf2fc428c3986b6131c84cce1747afe768b"
+  },
+  "installation_admitted": false,
+  "next_action": "Reviewed fresh preparation under -I -B, concrete generated bootstrap/preflight review, then distinct one-operation admission and actual outcome review.",
+  "prior_RI218_readiness_remains_superseded": {
+    "bytes": 1478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI218_OPERATIONAL_SUPERSESSION.json",
+    "sha256": "606a5407f23f50505c1456e1589cea20c1106c9980e1102f754a8e76eb142759"
+  },
+  "qualification_credit": 0,
+  "reviewed_packet": "RI222",
+  "root_metadata": {
+    "bytes": 2123,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI222_ROOT_METADATA_CHECK.json",
+    "sha256": "ab057d204778b0d8d4fb0c3c4b1b3c0df7f01021f5f583bf35ab3b3de4ad14a6"
+  },
+  "schema": "ri222-root-installation-source-review-v1",
+  "scientific_execution": false,
+  "scope": "Exact repaired source only. No operational admission, installed freeze, runtime qualification or physical evidence.",
+  "source_manifest": {
+    "bytes": 1363,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_PINS.json",
+    "sha256": "65696e7ab9e4b78c52c8c815dd79917fd7ed6b822074501b9f6393859cb4f535"
+  },
+  "status": "ACCEPT_RI209_INSTALLATION_SOURCE_ONLY",
+  "subject": {
+    "bytes": 9023,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/HANDOFF.json",
+    "sha256": "5762caec4ca89f2687de17da71671ec82e1066e81854b9d45364ea3ed59c1330"
+  }
+}

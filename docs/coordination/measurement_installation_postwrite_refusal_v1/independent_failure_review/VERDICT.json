@@ -1,0 +1,66 @@
+{
+  "FROZEN_absent": true,
+  "actual_child_exit": 1,
+  "blocking_finding": {
+    "all_old_files_and_nonroot_directories_unchanged": true,
+    "checker_line": 91,
+    "device_inode_mode_unchanged": true,
+    "exact_candidate_bytes": true,
+    "id": "F01",
+    "installer_line": 103,
+    "observed_after": 24,
+    "observed_before": 23,
+    "premise": "Root directory nlink unchanged after exact one-file installation."
+  },
+  "checks": {
+    "bytes": 168812,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/CHECK_RESULT.json",
+    "sha256": "6a668dab0b909240aa4ec6c8b6b41dccd232d4a090652a3f83a7e18c7c01ffa2"
+  },
+  "delete_authorized": false,
+  "failed_tails": [
+    "E_and_frozen",
+    "final_E"
+  ],
+  "first_error": "ValueError: RI209: root device inode mode links",
+  "genuine_installation": {
+    "bytes": 3634,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+  },
+  "genuine_linkage": {
+    "bytes": 1295,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/GENUINE_LINKAGE.json",
+    "sha256": "48bff5d22c566b65e049f4fb78e1ee9e878cdd1ee1ddda20e29b48c4406aa1ac"
+  },
+  "inherited_source_authorship_disclosed": true,
+  "installation_accepted": false,
+  "mode_authority": false,
+  "monitor_samples": 42,
+  "operation_files": 4,
+  "passed_tail_count": 6,
+  "prior_reviewer_miss_disclosed": true,
+  "qualification_credit": 0,
+  "receipts": {
+    "bytes": 2713,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/TOOL_RECEIPTS.json",
+    "sha256": "300661084f63b0050f0dc18bb51497832d61a23a9f0bbd4b4f20addb91c5357d"
+  },
+  "recovery_authorized": false,
+  "ret_paused": true,
+  "retry_authorized": false,
+  "review": {
+    "bytes": 6902,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/INDEPENDENT_FAILURE_REVIEW.md",
+    "sha256": "a6177d0fe6aee4b01e0473f4270b1d9d80f4f313f9bd7bde0bfe63f01ebfa0e0"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "root_postflight": {
+    "bytes": 5932,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+    "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+  },
+  "schema": "ri224-independent-postwrite-failure-verdict-v1",
+  "source_readiness_superseded": true,
+  "status": "CONFIRM_REFUSAL_REQUIRE_CUSTODY_REPAIR_AND_SEPARATE_PARTIAL_RECOVERY_DESIGN"
+}

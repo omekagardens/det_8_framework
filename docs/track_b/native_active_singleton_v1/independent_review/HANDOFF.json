@@ -1,0 +1,96 @@
+{
+  "schema": "ri223-independent-native-review-handoff-v1",
+  "status": "ACCEPT_CONDITIONAL_SINGLETON_AND_COMPLETE_MOBILITY_REDUCTION_BRANCH_OPEN",
+  "author": "/root/qr_opportunities",
+  "subject": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/HANDOFF.json",
+    "bytes": 20482,
+    "sha256": "e1499a8244c9515216f845e13f7d15519d0bc1e4147f8685750d4d73dec68221"
+  },
+  "subject_pins": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/ACTIVE_ENDPOINT.md",
+      "bytes": 7150,
+      "sha256": "280d5e0e09bb90c1c1f370f200ee67df52eda6885d5f92bf9698bd82bc2e11ec"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/AUTHOR_VERIFICATION.json",
+      "bytes": 37077,
+      "sha256": "932c50ec225b08b75d12c04003db0230b172bb60991b9d75f2691a69fab793de"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/HANDOFF.md",
+      "bytes": 2301,
+      "sha256": "702862eb90d8642e7503598587f59a4b8aa18d430ca68f9c2e50d2668088d0ba"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/NATIVE_REDUCTION.md",
+      "bytes": 17321,
+      "sha256": "3daa9f57c3f4e570a18e7f30568ce207ae81bad3b8f8d777eebd5bfde5a8b14b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/SOURCE_REFERENCES.json",
+      "bytes": 51502,
+      "sha256": "890a2618947bf974b97bc3f9e2ea5dc58b7b180d9501b5eab9fcf840ee05cc43"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/HANDOFF.json",
+      "bytes": 20482,
+      "sha256": "e1499a8244c9515216f845e13f7d15519d0bc1e4147f8685750d4d73dec68221"
+    }
+  ],
+  "report": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-independent-native-review-rA5JjC/REVIEW.md",
+    "bytes": 8754,
+    "sha256": "965fba1781e4a2b9b2d9fa54ecf5ac098bd5ed73328bf3be3d3360d1153c40f3"
+  },
+  "actual_read_receipts": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-independent-native-review-rA5JjC/READ_RECEIPTS.json",
+    "bytes": 5385,
+    "sha256": "accc1a9594a91d49e7c5c1eda0ae784dde39081f0c213c395da203184732e34d"
+  },
+  "namespace": [
+    "HANDOFF.json",
+    "READ_RECEIPTS.json",
+    "REVIEW.md"
+  ],
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-independent-native-review-rA5JjC/READ_RECEIPTS.json",
+      "bytes": 5385,
+      "sha256": "accc1a9594a91d49e7c5c1eda0ae784dde39081f0c213c395da203184732e34d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-independent-native-review-rA5JjC/REVIEW.md",
+      "bytes": 8754,
+      "sha256": "965fba1781e4a2b9b2d9fa54ecf5ac098bd5ed73328bf3be3d3360d1153c40f3"
+    }
+  ],
+  "mathematics_manually_reviewed": true,
+  "native_improvement_or_optimality_decided": false,
+  "new_scientific_body_access": false,
+  "scientific_execution": false,
+  "retained_author_checker_executed_by_reviewer": false,
+  "git": false,
+  "own_metadata_receipt": {
+    "chunk_id": "9b33ea",
+    "exit_code": 0,
+    "direct_sources": 22,
+    "direct_bytes": 634862,
+    "distinct_whole_files": 28
+  },
+  "author_final_attribution": {
+    "chunk_id": "5c2045",
+    "exit_code": 0,
+    "whole_identities": 28,
+    "selected_references": 39
+  },
+  "root_replay_attribution": {
+    "chunk_id": "4be111",
+    "exit_code": 0,
+    "whole_identities": 28,
+    "selected_references": 39
+  },
+  "only_write_scope": "/Volumes/AI_DATA/development/det-review-evidence/ri223-independent-native-review-rA5JjC",
+  "no_successor_assigned": true
+}

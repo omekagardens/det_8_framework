@@ -1,0 +1,78 @@
+{
+  "assignment": {
+    "bytes": 12536,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI223_NATIVE_ASSIGNMENT.json",
+    "sha256": "19657daeb22a243b493aeca87349d30ed47ce87e1254e95d8733ba44c6587b4a"
+  },
+  "automatic_scientific_arithmetic": false,
+  "execution_admitted": false,
+  "inherited_manifest": {
+    "bytes": 393074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+    "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+  },
+  "inherited_matches": [
+    {
+      "access_policy": "text-reading-and-opaque-identity-no-execution",
+      "classification": "analytic-source-text-or-review",
+      "identity": {
+        "bytes": 11893,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+        "symlinks": []
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "reference_provenance": [
+        "Actual external source-text read disclosed in RI145 ENDPOINT_REDUCTION.md section8; kept as a separate literal path.",
+        "Byte-identical selected published counterpart: /Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md"
+      ],
+      "role": "dep_0002"
+    },
+    {
+      "access_policy": "text-reading-and-opaque-identity-no-execution",
+      "classification": "analytic-source-text-or-review",
+      "identity": {
+        "bytes": 11893,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+        "symlinks": []
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+      "reference_provenance": [
+        "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json"
+      ],
+      "role": "dep_0012"
+    },
+    {
+      "access_policy": "text-reading-and-opaque-identity-no-execution",
+      "classification": "analytic-source-text-or-review",
+      "identity": {
+        "bytes": 11893,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+        "symlinks": []
+      },
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "reference_provenance": [
+        "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY_SOURCE_IDENTITIES.json",
+        "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json"
+      ],
+      "role": "dep_0411"
+    }
+  ],
+  "qualification_credit": 0,
+  "reference": {
+    "bytes": 11893,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+    "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02",
+  "schema": "ri223-additional-connected-analytic-admission-v1",
+  "scientific_body_admission": false,
+  "scope": "Literal manual reading of complete connected-profile analytic lemma only, to reduce actual homogeneous shared constraints. No coefficient extraction, descendant expansion or executable authority.",
+  "status": "ADMIT_EXACT_EXISTING_ANALYTIC_TEXT_ONLY",
+  "typed_reference_expansion": false
+}

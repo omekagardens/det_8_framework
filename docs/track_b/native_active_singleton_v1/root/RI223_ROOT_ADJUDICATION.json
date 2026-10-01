@@ -1,0 +1,39 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Strict endpoint lifting iff homogeneous shared direction positive on every active J; active dual excludes at and above ceiling.",
+    "Unique active set I={2}, a_empty=e2/(-z2), all other negative-seed thresholds strictly larger.",
+    "Complete ten-variable normalized N16-N17 is exactly the remaining native improvement witness."
+  ],
+  "independent_review": {
+    "bytes": 3786,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-independent-native-review-rA5JjC/HANDOFF.json",
+    "sha256": "2027f46c8e7f216a4f33b5fd76c395bd9077fb1b02d5375befbecca025f910a3"
+  },
+  "manual_review": {
+    "bytes": 4302,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI223_ROOT_PROOF_REVIEW.md",
+    "sha256": "26ed11a577ee6c84f633c1e476ec0c8b498ebba00af7329435a64040ad9fb765"
+  },
+  "premises": [
+    "Accepted finite strictly positive baseline and normalized harmonic seed",
+    "Complete H30 iff and all-record transport/ideal multiplicities",
+    "Neutral-active canonical raising rule and actual fixed rho/s/theta",
+    "Inherited finite sign identities and literal analytic admissions"
+  ],
+  "qualification_credit": 0,
+  "remaining": "No solution or inconsistency row identity has been supplied. Improvement, optimality and maximal amplitude remain undecided.",
+  "root_metadata": {
+    "bytes": 4274,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI223_ROOT_METADATA_REPLAY.json",
+    "sha256": "2169c6da003cc42126124c6dedb8dd0d571bfaa9df55cfca09f45cf00b15ba08"
+  },
+  "schema": "ri224-root-native-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_SINGLETON_AND_COMPLETE_MOBILITY_REDUCTION_BRANCH_OPEN",
+  "subject": {
+    "bytes": 20482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02/HANDOFF.json",
+    "sha256": "e1499a8244c9515216f845e13f7d15519d0bc1e4147f8685750d4d73dec68221"
+  }
+}

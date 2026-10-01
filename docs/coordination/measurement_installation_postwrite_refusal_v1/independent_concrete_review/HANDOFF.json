@@ -1,0 +1,104 @@
+{
+  "E_directories": 9,
+  "E_files": 48,
+  "admission": false,
+  "blocking_findings": [],
+  "compact_publication_subset": [
+    "CHECK_RESULT.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_preparation.py"
+  ],
+  "complete_field_and_cwd_reconstruction": true,
+  "custody": {
+    "bytes": 16080,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/PREPARATION_CUSTODY.json",
+    "sha256": "b165ed2229cf07c61b138fdca0fdde53ddd25ccecdfb8273c6155fc9f552be52"
+  },
+  "failed_checker_executions": [],
+  "files": [
+    {
+      "bytes": 1679409,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/CHECK_RESULT.json",
+      "sha256": "70d9f41980a44dd76f0a7345dce90de0dfb96a59bf5dfce8ef0e951dd89b1182"
+    },
+    {
+      "bytes": 10532,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/INDEPENDENT_REVIEW.md",
+      "sha256": "7388cd5ce2d0ef7134c7a79bcc1f003d2fede65a787797f2e82eac049d5ed106"
+    },
+    {
+      "bytes": 2791,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/TOOL_RECEIPTS.json",
+      "sha256": "0d69b13d7d895b46875d6862150d66963e4eb6080b766f7ceae769a269d357f2"
+    },
+    {
+      "bytes": 3498,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/VERDICT.json",
+      "sha256": "7087a1c13eb5973f3be08165cac86d1bacaafe2824e88f11f913c0684093a0f4"
+    },
+    {
+      "bytes": 21823,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/check_preparation.py",
+      "sha256": "761ef810927db721ce432fc5499b337112a7a4c209793b5e0899ad748b50ce84"
+    }
+  ],
+  "independent_actual_check": {
+    "chunk_id": "bde845",
+    "distinct_identities": 2751,
+    "exit_code": 0,
+    "predicates": 58415
+  },
+  "installation": false,
+  "namespace": [
+    "CHECK_RESULT.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_preparation.py"
+  ],
+  "namespace_excludes_only_self_pin": true,
+  "namespace_rows": 195,
+  "preexecution_checker_chunk_size_correction_disclosed": true,
+  "preparation_I_B_condition_met": true,
+  "prior_review_miss_disclosed": true,
+  "proposal": {
+    "bytes": 4509,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json",
+    "sha256": "ca1dd21438eaff45880fae5699177f2ef29a0d5e0b2103648ee4de8704e6361b"
+  },
+  "qualification_credit": 0,
+  "remaining": "Root fresh predispatch source/supplier/host/E review and separate exact admission; genuine monitored installation and independent custody acceptance remain future actions.",
+  "repo_git": false,
+  "report_construction": {
+    "chunk_id": "e48596",
+    "exit_code": 0
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w",
+  "ret_paused": true,
+  "review": {
+    "bytes": 10532,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/INDEPENDENT_REVIEW.md",
+    "sha256": "7388cd5ce2d0ef7134c7a79bcc1f003d2fede65a787797f2e82eac049d5ed106"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication_pending": true,
+  "schema": "ri224-independent-concrete-review-handoff-v1",
+  "scientific_decode": false,
+  "source_authorship_disclosed": true,
+  "source_files": 904,
+  "status": "SEALED_RECOMMEND_PREPARATION_ACCEPTANCE_NOT_ADMISSION",
+  "subject_execution": false,
+  "subject_root": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw",
+  "supplier_absences": 2,
+  "tools": 4,
+  "vendor_bytes": 48024515,
+  "vendor_files": 1810,
+  "verdict": {
+    "bytes": 3498,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/VERDICT.json",
+    "sha256": "7087a1c13eb5973f3be08165cac86d1bacaafe2824e88f11f913c0684093a0f4"
+  }
+}
