@@ -1,0 +1,57 @@
+{
+  "D": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf",
+  "O": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri249-mode-card-y170alnf",
+  "RET_paused": true,
+  "independent_handoff": {
+    "bytes": 2157,
+    "path": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz/HANDOFF.json",
+    "sha256": "3f4762f5a9cc2fe81c9f32a41e2588567b25ae4a34339e6604490c7aed9001fc"
+  },
+  "independent_review": {
+    "bytes": 13101,
+    "path": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz/REVIEW.md",
+    "sha256": "42c90c67cf03ab90fd0c9a8f6530ad739f5276e5124711b67fd2f4b48070287a"
+  },
+  "next_action": "Fresh literal empty D reservation and genuine host/source/supplier/E custody with exact preparation-only decision; one administrative invocation and full independent actual-output review before separate mode_card operation",
+  "operational_authorization": false,
+  "preparation_executed": false,
+  "proposal_files": 17,
+  "prospective_preparation_directories": 2,
+  "prospective_preparation_files": 9,
+  "qualification_credit": 0,
+  "remaining_premises": [
+    "separate genuine preparation-only authority and full current custody",
+    "full regular-file/state review after actual preparation",
+    "separate metadata card generation/outcome review",
+    "separate E installation/dispatch/scientific admission",
+    "stable supplier/host/no-descendant and loader/cache premises"
+  ],
+  "root_complete_independent_read": "34ddc5",
+  "root_review": {
+    "bytes": 3520,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/MODE_CARD_ROOT_SOURCE_REVIEW.md",
+    "sha256": "423738157dbc2b35eb00cfc0fed09d2b068e6a085181a6558e50fd5f2e93a3af"
+  },
+  "root_source_check": {
+    "bytes": 365106,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/MODE_CARD_ROOT_SOURCE_CHECK.json",
+    "sha256": "37d0416189fb5dc7887cdd7ebdd1ff7ad98a25fda397008ffc5337dc6292db26"
+  },
+  "schema": "ri253-mode-card-preparation-source-adjudication-v1",
+  "scientific_execution": false,
+  "source_dependencies": 567,
+  "source_only": true,
+  "status": "ACCEPT_EXACT_UNEXECUTED_PREPARATION_SOURCE",
+  "subject": {
+    "bytes": 8850,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/HANDOFF.json",
+    "sha256": "ccf34c9baf147994366595cf73be92534733a9b7e3c3810d72c3f227f3a2ab3c"
+  },
+  "whole_independent_identities": 631,
+  "whole_root_identities": 630,
+  "writer": {
+    "bytes": 25955,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/prepare_unissued.py",
+    "sha256": "1beed61c95006f21e9e37ae7bb88b08688155240bfc245c2c8113afd70acb198"
+  }
+}

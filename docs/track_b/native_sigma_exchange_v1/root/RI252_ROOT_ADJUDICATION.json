@@ -1,0 +1,52 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Complete positive-ray feasibility and finite epsilon bounds",
+    "Exact primary cost and primary-or-equal-primary lex descent iff",
+    "Canonical positive kappa and sigma require a tight s strictly below sector mean",
+    "Sigma component key and manually derived actual weights",
+    "Conditional constant-s product-zero consequence only"
+  ],
+  "closed_original_literal_exceptions": true,
+  "full_system_and_recovery_retained": true,
+  "genuine_final": {
+    "bytes": 13535,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/RI252_GENUINE_FINAL.json",
+    "sha256": "d6c2a4f66e1d718fcbc6fdbc8777fe3c6a9ca3f160e418b9e39aef845b3f5ca2"
+  },
+  "independent_handoff": {
+    "bytes": 3397,
+    "path": "/private/tmp/ri252-independent-review-3hctgndx/HANDOFF.json",
+    "sha256": "74366017205748a6a3160a084ab1e4b23a0ac394cc6dc2b2028ba3e756492ce6"
+  },
+  "independent_review": {
+    "bytes": 16927,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/independent/INDEPENDENT_REVIEW.md",
+    "sha256": "425cd5969745399a21a9b1132b177e38a10437491ff68b00b1b763f0ce98dec0"
+  },
+  "qualification_credit": 0,
+  "root_check": {
+    "bytes": 74139,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/RI252_ROOT_METADATA_CHECK.json",
+    "sha256": "f7694269f6dda9285677fba924a5a38c2f4d6c47ef6613dd82210cccbcf4111c"
+  },
+  "root_full_independent_review_read": "15945b",
+  "root_review": {
+    "bytes": 5404,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/RI252_ROOT_REVIEW.md",
+    "sha256": "33a91ee7d4a29b56dd51bf57fb8a597909fbeb7001653871af6bd1baf798477a"
+  },
+  "schema": "ri253-root-native-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_COMPLETE_SIGMA_EXCHANGE_CRITERION_AND_STRICT_TIGHT_MEAN_OBSTRUCTION",
+  "subject": {
+    "bytes": 18040,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/HANDOFF.json",
+    "sha256": "df2a49e18c75ad3746fd6a7c2d941cf8910232b83eca2bc5b082eeafbcd719d7"
+  },
+  "unresolved": [
+    "actual allocation and tight set",
+    "kappa gap and C_b",
+    "original index binding and any needed absent-entry convention"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "bytes": 25955,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/prepare_unissued.py",
+      "sha256": "1beed61c95006f21e9e37ae7bb88b08688155240bfc245c2c8113afd70acb198"
+    },
+    {
+      "bytes": 2450,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/MODE_CARD_BOOTSTRAP.proposal.txt",
+      "sha256": "f5ccc9336ea6ae6c1a73d7a7370c7b981bb858a54992f470374ecf99f0489720"
+    },
+    {
+      "bytes": 530,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/MODE_CARD_REQUEST.proposal.json",
+      "sha256": "0ff48797216ca57b070e63ff2e3081add9421e77947c9864d9599155a4eae091"
+    },
+    {
+      "bytes": 6775,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/REFERENCES.json",
+      "sha256": "15745efc9d6fc4b50fdefc8877fa2d3dd976c3f26e86b57ff3cea25a38d97e1d"
+    },
+    {
+      "bytes": 13798,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/PROTOCOL.md",
+      "sha256": "48bbb1b2898a59f071e87491b97eac310b2504f93874cdb004343c38f991e692"
+    },
+    {
+      "bytes": 4705,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/ROOT_RECIPES.json",
+      "sha256": "1d4954330906f2dba11d14d3f6b875ebdf12726d9fb7f57ccdca38bd758ed1b4"
+    },
+    {
+      "bytes": 8639,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/SOURCE_CHANGES.json",
+      "sha256": "6a571e97e91c9ac859ef0223b775d10bed3b3b3618e4c188a5920d632f4563c7"
+    },
+    {
+      "bytes": 15933,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/SOURCE_DIFF.patch",
+      "sha256": "cf25514b80bacf14aeb66e069397c4b2f3690349c8e901869d99ea49aa372800"
+    },
+    {
+      "bytes": 3543,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/BOOTSTRAP_DIFF.patch",
+      "sha256": "8d77f5d82aa4e7a772610d8f94b96897bd1da167d1198a583554fa523cf6e049"
+    },
+    {
+      "bytes": 4589,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHOR_DESIGN_AUDIT.md",
+      "sha256": "749a8c56fe1c246d124f2ff3607361c5778489a4dceb901a8821a339b9ce4725"
+    },
+    {
+      "bytes": 12339,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/check_source_metadata.py",
+      "sha256": "6e90d0237e081c25dedd91b4d1de6671c6e34c2a64f8562d65971b780f83d86f"
+    },
+    {
+      "bytes": 9182,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/build_source.py",
+      "sha256": "fa78dfb8c1947a95d495df90f8db6956c737db20c137a7fd520fe46ea32c96dd"
+    }
+  ],
+  "schema": "ri249-mode-card-unexecuted-source-pins-v1",
+  "status": "SOURCE_ONLY_UNEXECUTED"
+}

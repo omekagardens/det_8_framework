@@ -1,0 +1,22 @@
+{
+  "clipped_displays": [
+    {
+      "recovery": "Current QR front c8e2f6 and complete proofs ddbdc2/fbf81d; no clipped proof credited.",
+      "scope": "Combined initial orientation outputs"
+    },
+    {
+      "recovery": "Complete predecessor writer a2ba53/29503a; inventory not credited as source read.",
+      "scope": "Predecessor filename/line inventory aa3686"
+    }
+  ],
+  "failed_command_detail": {
+    "chunk_id": "85b2c5",
+    "exit_code": 2,
+    "meaning": "Premature read-only HANDOFF filename check found the active author proposal not yet sealed. No source body read or mutation; wait for author readiness."
+  },
+  "failed_commands": 1,
+  "failed_orchestration_attempts": 0,
+  "inherited_diagnostics_retained": true,
+  "schema": "ri253-root-review-diagnostics-v1",
+  "scientific_execution": false
+}

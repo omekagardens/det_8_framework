@@ -1,0 +1,198 @@
+{
+  "RET_paused": true,
+  "actual_pre_result": {
+    "bytes": 1085,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/RESULT.json",
+    "sha256": "3979388c9ccfb95102c2e53b8eebc881f6b6899fb2adaefb03051b0b72718544"
+  },
+  "admission_candidate_fields": 12,
+  "author": "/root/archive_repro_review",
+  "author_check": {
+    "additional_readback_predicate": 1,
+    "chunk_id": "881570",
+    "distinct_opaque_files": 626,
+    "exit_code": 0,
+    "serialized_predicates": 24742,
+    "source_only": true
+  },
+  "author_diagnostics": {
+    "bytes": 3981,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHOR_TOOL_RECORD.json",
+    "sha256": "1463aac71798c8d3045c7d3430d3a45ade900b154b509f712801299b1e198911"
+  },
+  "author_known_blockers": [],
+  "authorship_disclosure": "Author of this proposal and prior RI244/RI130/RI141 sources; separate nonauthor/root review remains required.",
+  "bootstrap_six_substitutions_reverse_exact": true,
+  "claim_boundaries": [
+    "This is source construction and author metadata checking, not independent acceptance or actual preparation/operation.",
+    "No D/O/admission/dispatch/mode installation or E/source/runtime observation was performed.",
+    "The unchanged source and resource/host/loader/child identity premises remain; root must freshly authenticate and independently review complete actual output custody.",
+    "Only an external mode_card candidate may follow a separately admitted metadata action; actual E installation and science remain separate.",
+    "No profile/guard/106 rerun or new qualification campaign is assigned. RET remains paused."
+  ],
+  "complete_dependency_binding": {
+    "all_declared_adapter_dependencies": 567,
+    "author_checked_distinct_files": 626,
+    "direct_references": {
+      "bytes": 6775,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/REFERENCES.json",
+      "sha256": "15745efc9d6fc4b50fdefc8877fa2d3dd976c3f26e86b57ff3cea25a38d97e1d"
+    },
+    "fresh_runtime_observation": false,
+    "future_writer_input_count": "actual union measured after genuine root decision and complete source/dependency/custody authentication; inherited counts are not substituted for the new total",
+    "modules_plus_adapter": 12,
+    "opaque_author_check": {
+      "bytes": 157957,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHOR_CHECK.json",
+      "sha256": "b3ff3cd128257710c44c24d11b87892fb3e1b987ea5967abe67bd6964af3b479"
+    },
+    "original_saved_custody_rows": 2811,
+    "prior_saved_custody_rows": 2883
+  },
+  "complete_source_inverse_exact": true,
+  "direct_preparation_predecessor": {
+    "bytes": 22091,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/prepare_unissued.py",
+    "sha256": "02d5e3c3d617ea3c0299e313a63569d97121d6c16b57c3ce290544896ef1cfce"
+  },
+  "direct_reference_count": 27,
+  "files": [
+    {
+      "bytes": 725,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHORING_FAILURE_02e746.json",
+      "sha256": "6a4f2ca3c1ce966aac1c6c674d065108cac6f0e8ad78cdbd9cd80212de07429c"
+    },
+    {
+      "bytes": 157957,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHOR_CHECK.json",
+      "sha256": "b3ff3cd128257710c44c24d11b87892fb3e1b987ea5967abe67bd6964af3b479"
+    },
+    {
+      "bytes": 4589,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHOR_DESIGN_AUDIT.md",
+      "sha256": "749a8c56fe1c246d124f2ff3607361c5778489a4dceb901a8821a339b9ce4725"
+    },
+    {
+      "bytes": 3981,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHOR_TOOL_RECORD.json",
+      "sha256": "1463aac71798c8d3045c7d3430d3a45ade900b154b509f712801299b1e198911"
+    },
+    {
+      "bytes": 3543,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/BOOTSTRAP_DIFF.patch",
+      "sha256": "8d77f5d82aa4e7a772610d8f94b96897bd1da167d1198a583554fa523cf6e049"
+    },
+    {
+      "bytes": 2450,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/MODE_CARD_BOOTSTRAP.proposal.txt",
+      "sha256": "f5ccc9336ea6ae6c1a73d7a7370c7b981bb858a54992f470374ecf99f0489720"
+    },
+    {
+      "bytes": 530,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/MODE_CARD_REQUEST.proposal.json",
+      "sha256": "0ff48797216ca57b070e63ff2e3081add9421e77947c9864d9599155a4eae091"
+    },
+    {
+      "bytes": 13798,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/PROTOCOL.md",
+      "sha256": "48bbb1b2898a59f071e87491b97eac310b2504f93874cdb004343c38f991e692"
+    },
+    {
+      "bytes": 6775,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/REFERENCES.json",
+      "sha256": "15745efc9d6fc4b50fdefc8877fa2d3dd976c3f26e86b57ff3cea25a38d97e1d"
+    },
+    {
+      "bytes": 4705,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/ROOT_RECIPES.json",
+      "sha256": "1d4954330906f2dba11d14d3f6b875ebdf12726d9fb7f57ccdca38bd758ed1b4"
+    },
+    {
+      "bytes": 8639,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/SOURCE_CHANGES.json",
+      "sha256": "6a571e97e91c9ac859ef0223b775d10bed3b3b3618e4c188a5920d632f4563c7"
+    },
+    {
+      "bytes": 15933,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/SOURCE_DIFF.patch",
+      "sha256": "cf25514b80bacf14aeb66e069397c4b2f3690349c8e901869d99ea49aa372800"
+    },
+    {
+      "bytes": 2688,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/SOURCE_PINS.json",
+      "sha256": "79f161391bff94acff8b982c6c60c4bcdab5b20f57428c8e9d67cb45c503c98d"
+    },
+    {
+      "bytes": 9182,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/build_source.py",
+      "sha256": "fa78dfb8c1947a95d495df90f8db6956c737db20c137a7fd520fe46ea32c96dd"
+    },
+    {
+      "bytes": 12339,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/check_source_metadata.py",
+      "sha256": "6e90d0237e081c25dedd91b4d1de6671c6e34c2a64f8562d65971b780f83d86f"
+    },
+    {
+      "bytes": 25955,
+      "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/prepare_unissued.py",
+      "sha256": "1beed61c95006f21e9e37ae7bb88b08688155240bfc245c2c8113afd70acb198"
+    }
+  ],
+  "future_empty_preparation_directories": [
+    "tmp",
+    "monitor"
+  ],
+  "future_preparation_outputs": 9,
+  "namespace": [
+    "AUTHORING_FAILURE_02e746.json",
+    "AUTHOR_CHECK.json",
+    "AUTHOR_DESIGN_AUDIT.md",
+    "AUTHOR_TOOL_RECORD.json",
+    "BOOTSTRAP_DIFF.patch",
+    "HANDOFF.json",
+    "MODE_CARD_BOOTSTRAP.proposal.txt",
+    "MODE_CARD_REQUEST.proposal.json",
+    "PROTOCOL.md",
+    "REFERENCES.json",
+    "ROOT_RECIPES.json",
+    "SOURCE_CHANGES.json",
+    "SOURCE_DIFF.patch",
+    "SOURCE_PINS.json",
+    "build_source.py",
+    "check_source_metadata.py",
+    "prepare_unissued.py"
+  ],
+  "original_reference_count": 18,
+  "pre_mode_acceptance": {
+    "bytes": 3898,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PRE_MODE_ROOT_ADJUDICATION.json",
+    "sha256": "93c1c27144ff07eb980efd26b6d3c155029ac4a43a3c419dc56a21cca3e52d00"
+  },
+  "predecessor_handoff": {
+    "bytes": 4462,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/HANDOFF.json",
+    "sha256": "31e3265d02d9323c0b3224800e70ccac16955c696e0f3f2c2e84af23857b0ba1"
+  },
+  "proposal_or_subject_import_compile_AST_probe_run": false,
+  "prospective_D": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf",
+  "prospective_O": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri249-mode-card-y170alnf",
+  "prospective_paths_created": false,
+  "request_fields": 4,
+  "reservation": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf",
+  "root_next_action": "Obtain complete sibling nonauthor review and independently adjudicate exact source; then separately reserve empty D and issue genuine preparation-only decision before any invocation.",
+  "root_runtime_authority": false,
+  "schema": "ri249-mode-card-preparation-source-handoff-v1",
+  "scientific_or_installed_freeze_body_decoded": false,
+  "six_tail_block_byte_identical": true,
+  "source_changes": {
+    "bytes": 8639,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/SOURCE_CHANGES.json",
+    "sha256": "6a571e97e91c9ac859ef0223b775d10bed3b3b3618e4c188a5920d632f4563c7"
+  },
+  "source_manifest": {
+    "bytes": 147447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+  },
+  "status": "SEALED_UNEXECUTED_PENDING_NONAUTHOR_AND_ROOT_REVIEW"
+}

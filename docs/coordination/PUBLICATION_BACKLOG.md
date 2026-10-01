@@ -1,6 +1,57 @@
 **Accepted work and remote publication**
 
-**Current follow-through — companion obstruction accepted; pre-mode operation reviewed.**
+**Current follow-through — strict sigma obstruction accepted; mode-card source reviewed.**
+1 October 2026, Honolulu. RI252 gives the complete positive sigma-compensated
+exchange criterion in the original finite canonical problem. Positive kappa
+and sigma require a tight companion row strictly below its sector mean. The
+equal-primary-cost endpoint is excluded by the original sequential selector.
+Actual marked history weights derive the four-term mean; constant s would
+force product zero but is not proved. Actual allocations, the kappa gap and
+C_b remain unresolved. No normalized witness or signed inconsistency follows.
+
+Root and nonauthor read the complete proofs and independently checked all
+129 identities, 123 direct sources / 2,517,253 bytes, 113 inherited sources
+and fifteen unchanged boundary objects. The genuine author final metadata
+command completed exit zero with an untruncated compact output. Administrative
+integrity remains distinct from manual mathematical review. Evidence:
+`docs/track_b/native_sigma_exchange_v1/`.
+
+After adjudication, root assigned RI254 to Quantum Relativity in its separate
+reservation. It targets the complete supported eta/xi/sigma compensation
+criterion with actual Q/P_nu prices, zero allocations, finite epsilon and ties.
+Only tau increases; kappa decreases before tau, so additional decreasing
+compensators require no new key catalogue for the equality test. This is an
+analytic continuation with every original literal exception still closed.
+RI254 has now sealed its result; independent adjudication is pending. Its
+unreviewed results are excluded from this checkpoint.
+
+The measurement lane now has a concrete reviewed source adaptation for fresh
+normal mode_card preparation. It binds the accepted whole pre-mode result,
+creates the request4 only by exclusive write and retains an unissued inner
+candidate12. Both complete source inverses and the unchanged six-tail block
+were checked. Root verified 630 identities and the nonauthor 631, including
+all 567 declared adapter dependencies. Author/source diagnostics remain.
+Evidence: `docs/coordination/measurement_mode_card_preparation_source_ri253_v1/`.
+
+This checkpoint does not run the proposal or create its prospective D/O.
+The next measurement action is a fresh genuine-host/source/supplier/E review
+and separate preparation-only decision, then one administrative invocation
+and independent actual-outcome review. The separate mode_card action,
+external candidate review, E installation and dispatch specification precede
+scientific admission. Normal independent arithmetic, optimized mode,
+RI131/full32 and selected public GWOSC conventional reproduction remain
+ordered. Calibration stays separate from a native forward map.
+
+All thirteen equations/ten coordinates, complete original recovery, actual
+canonical selection and offsets, accepted d=0!=d7 and full-system iff C_b=0,
+all records/ideals/newborns/strict endpoints, fifteen boundary objects and
+423-source manifest by reference remain. RI250's index-binding gap is open;
+no new coefficient is acquired. Physical and all-size claims remain open.
+RET alone is paused. Parent 6fd571d525d6e44b9367260d87e40ca90230aeed was
+verified on origin/ret. Root owns Git and operational admissions; unrelated
+edits and active reservations are preserved. The programme continues.
+
+**Prior checkpoint — companion obstruction accepted; pre-mode operation reviewed.**
 1 October 2026 UTC. RI248 derives the complete marked companion row with
 all four component families, all 32 records and every coupled parent.
 The actual history multiplicities 5/9/7 prove L_i=0<T_i. Positive kappa_i
