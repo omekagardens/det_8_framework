@@ -1,6 +1,62 @@
 # Current QR coordination — RI210 global bound accepted; RI212 individual margins active
 
-**Current checkpoint — global maximum bound and strict weighted sign accepted.**
+**Current follow-through — installation source repair assigned; individual-margin proof active.**
+1 October 2026 UTC (30 September in Honolulu). The accepted complete
+six-maxima/global bound and strict weighted sign are published as
+`c1cb37d0c70c899a3d9648cbb91a8620ead60757`, verified on live `origin/ret`.
+Its 26 scoped files, 19 exact archive copies and 53 dependency references
+passed; all unrelated file identities and inventory remained unchanged.
+The preceding four/five-maxima and actual freeze-candidate checkpoint
+`80b94aa4ff055e6a121fd23486052a6898cc3921` is also remotely verified.
+
+Root and a separate nonauthor have now completed RI209's source review.
+**RI209 requires repair before any operational admission.** After owning
+its output directory, the proposed installer obtains its first clock
+reading before entering protected handling. Its final elapsed-time call
+is also unprotected. Either clock exception can bypass the required
+completion attempt; the second can obscure an earlier failure retained
+only in memory. These are failures of the stated evidence contract.
+No installation, launcher or scientific execution occurred.
+
+The independent administrative replay66c76b exited zero:4339 predicates,
+821 opaque identities,806 input pins,810 historical rows,764 predecessor
+sources,20 named roles,15 files/14 payloads and complete212/135-line source
+review. The review retains all48copy/124history/30original mappings and
+the unchanged monitor/bounds. Reviewer diagnostic75d26d, expected diff
+17d221 and author5325f0 remain attributed and preserved. None supplies
+executable qualification. Root's directory-count checker diagnostic is
+also retained: E's nine directories include its root, so it has eight
+subdirectories. The corrected administrative check passed with48files,
+no installed freeze and no RI209 operation directory.
+
+RI213 is assigned to the original installer author in the exclusive
+`ri213-freeze-clock-repair-2xc_b29x/worker_proposal/` reservation. It must
+protect both clock paths, retain the first error, separately record a
+missing/invalid duration, attempt all eight tails and refused completion,
+and reconcile the successful-path postchecker and protocol. RI209 remains
+sealed. Fresh independent source review precedes any root admission;
+actual installation review and fresh custody precede normal-mode admission,
+and normal acceptance precedes optimized. No new qualification campaign
+or change of monitor, resource limits or candidate bytes is authorized.
+
+RI212 remains active in `ri212-native-individual-margins-u1l72g3n/` on the
+original two margins at the same actual pair. Root admitted the original
+RI85 DESIGN and RI187 ENDPOINT_CERTIFICATE as two additional exact literal
+analytic texts, both matched to inherited inventory. They supply original
+harmonic seed rows and complete H5 complements for manual sign analysis.
+Worker determinant/slack claims await a sealed proof and independent
+review. No scientific-body, numerical H/z, descendant or execution access
+was added. Positive W alone does not establish both margins or shared H30.
+
+The source refusal, independent findings, narrow repair assignment, both
+literal-read admissions, actual check attribution and previous verified
+remote receipt are in `docs/coordination/measurement_freeze_installation_review_v1/`.
+Source proposals remain external and are not operationally accepted by
+this archive. The selected public GWOSC qualification and conventional
+reproduction lane continues separately from calibration and a native
+forward map. RET alone remains paused; no user decision is missing.
+The broader native geometry, gravity and measurement programme remains open.
+**Prior checkpoint — global maximum bound and strict weighted sign accepted.**
 1 October 2026 UTC (30 September in Honolulu). RI210 has passed root and
 separate nonauthor manual review. For every marked six-antichain,
 U6 < 2^36+7 = 68,719,476,743 < 69 billion. Together with the accepted

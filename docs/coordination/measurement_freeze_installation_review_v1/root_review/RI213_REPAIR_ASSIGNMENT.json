@@ -1,0 +1,29 @@
+{
+  "RET_paused": true,
+  "owner": "/root/ri116_complete_caller_review",
+  "predecessor": {
+    "bytes": 2690,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_ROOT_SOURCE_DECISION.json",
+    "sha256": "fcc0dca49359fc883477f7a07885bbb881e4f73da74847babc77f0b68e4b6d85"
+  },
+  "proposed_operation_must_remain_absent": true,
+  "qualification_credit": false,
+  "question": "Repair both admitted clock-failure gaps while preserving complete first/later error evidence and all independent tail attempts. Keep the original successful installation semantics and whole postchecker reconstruction.",
+  "requirements": [
+    "Use fresh reservation only; sealed RI209 and all prior diagnostics remain immutable. Root owns Git/index, admission, runtime execution and acceptance.",
+    "Move safe initialization before attempt ownership and put the initial clock inside protected handling. Any clock failure after successful mkdir must reach the eight independent tail attempts and refused completion attempt.",
+    "Catch final clock/elapsed acquisition failure; retain earlier first error and separately represent missing/invalid elapsed rather than fabricate a successful duration. Preserve terminal write failure as genuine outer/partial evidence.",
+    "Reconcile postchecker and protocol with explicit timing failure records, keeping successful elapsed validation and unchanged 180s/524288KiB monitor bounds, sampling limits and no-descendants premise.",
+    "Do not redesign the monitor/launcher, change candidate bytes, widen source/runtime scope, touch E, create admissions/cards, or execute/import/compile/AST/probe the proposal/monitor/vendor. No scientific bodies or computation; no new qualification campaign.",
+    "Preserve all48copy/124history/30original mappings,810roles,764sources,806pins, exact exclusive directory-relative write, fsync/reread and partial retention. Refresh only dependencies changed by this source repair with explicit path provenance.",
+    "Supply exact predecessor-to-repair diff, full source/protocol/postchecker, administrative checks with actual diagnostics and receipts, namespace and source pins for fresh independent review. Source-only branch reasoning is not executable qualification."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal",
+  "schema": "ri213-freeze-installation-clock-repair-v1",
+  "source_handoff": {
+    "bytes": 6621,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/HANDOFF.json",
+    "sha256": "b507c85ff8d4fbe37093854376c71de5de293dfeea3308c6236a1de48e2260df"
+  },
+  "status": "ASSIGNED_AFTER_INDEPENDENT_RI209_SOURCE_REFUSAL"
+}

@@ -1,0 +1,103 @@
+{
+  "E_write": false,
+  "administrative_replay": {
+    "chunk_id": "66c76b",
+    "copy_pairs": 48,
+    "distinct_opaque_identities": 821,
+    "exit_code": 0,
+    "historical_rows": 810,
+    "history_pairs": 124,
+    "input_pins": 806,
+    "installer_lines": 212,
+    "named_roles": 20,
+    "namespace_files": 15,
+    "originals": 30,
+    "payloads": 14,
+    "postchecker_lines": 135,
+    "predecessor_sources": 764,
+    "predicates": 4339
+  },
+  "admission_issued": false,
+  "author_diagnostic_preserved": "5325f0 author matcher failure and corrected4df72a admin check remain; neither is qualification.",
+  "findings": [
+    {
+      "issue": "Successful OUT.mkdir owns attempt; initial time.monotonic and safe-state initialization occur before protected try. A clock exception bypasses all eight tails and completion.",
+      "lines": [
+        146,
+        157
+      ],
+      "repair": "Initialize safe state before ownership and protect the first fallible step after successful mkdir."
+    },
+    {
+      "issue": "Final elapsed-time call is unprotected. Its exception skips COMPLETE and can obscure earlier first/tail errors retained only in memory.",
+      "lines": [
+        205,
+        210
+      ],
+      "repair": "Preserve first error, record timing failure separately, and attempt refused COMPLETE without inventing valid elapsed time."
+    }
+  ],
+  "git_operations": false,
+  "handoff": {
+    "bytes": 6621,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/HANDOFF.json",
+    "sha256": "b507c85ff8d4fbe37093854376c71de5de293dfeea3308c6236a1de48e2260df"
+  },
+  "installer": {
+    "bytes": 18103,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/install_freeze.py",
+    "sha256": "9e6ad93198131d1155825e083ffafc9d58e052cf9d7a8dbea478048ed7efaed3"
+  },
+  "other_reads": [
+    {
+      "chunk_id": "502124",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "25f4a8",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "1df688",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7f7099",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0fba6a",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "06b6e6",
+      "exit_code": 0
+    }
+  ],
+  "postchecker": {
+    "bytes": 21944,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/check_installation.py",
+    "sha256": "3effbc867be2c35a49c311a4ddc81cdf7f1528493b427186867e00ff161aa2f8"
+  },
+  "prior_authorship": "Reviewer authored earlier RI130/RI141 material, not RI209; accepted inherited semantics are not claimed newly independent.",
+  "proposal_execution": false,
+  "proposal_import_compile_AST": false,
+  "record_kind": "Root-preserved complete substantive findings from independent collaboration report; original report remains in transcript",
+  "remainder": "No additional blocker found in exclusive directory-relative destination creation, descriptor cleanup, fsync/reread, partial preservation, complete frozen observation, unchanged 48-file custody, eight independent tails or same-author postchecker complete reconstruction. Success path keeps original monitor/bounds and external genuine-evidence prerequisites. These paths were not executed.",
+  "reviewer": "/root/archive_repro_review",
+  "reviewer_diagnostics": [
+    {
+      "cause": "Reviewer checker omitted legitimate import re addition in retained author matcher repair; corrected checker passed.",
+      "chunk_id": "75d26d",
+      "exit_code": 1
+    },
+    {
+      "cause": "Expected diff status: exact import re addition and matcher replacement confirmed.",
+      "chunk_id": "17d221",
+      "exit_code": 1
+    }
+  ],
+  "schema": "ri214-ri209-nonauthor-source-review-v1",
+  "scientific_execution": false,
+  "status": "REPAIR_REQUIRED_NO_OPERATIONAL_ADMISSION"
+}
