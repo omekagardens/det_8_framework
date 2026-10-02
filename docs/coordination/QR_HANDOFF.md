@@ -1,3 +1,30 @@
+## Recovery sources and guard execution
+
+The recovery constructor, context observer and post-run custody sources
+have passed independent and coordinator review. Eleven helpers were then
+installed in a fresh directory, and all 65 existing synthetic guard cases
+passed. The complete saved outputs and source preservation were reviewed
+independently. These tests establish guard behavior, not scientific results.
+
+A separate metadata observation matched all 9,923 recorded runtime files
+and six continuity phases. It supports recorded runtime custody only. The
+next step binds the actual installation and guard results into the existing
+runtime-context checks before any freeze, execution card or new optimized
+qualification attempt. The accepted normal run, recorded optimized failure
+and all resource and monitoring thresholds remain unchanged.
+
+The native upsilon analysis has been delivered for independent proof review.
+Its proposed release direction and conditional tightness result remain
+unadjudicated. Previously accepted conditional mathematics is preserved;
+actual coefficients, support, a full dual and a normalized witness remain
+unresolved. Native proof work continues alongside measurement qualification.
+
+Qualification still precedes conventional reproduction with the selected
+public gravitational-wave data. No calibration, native forward map or
+physical validation is established. RET remains paused. Only these progress
+summaries extend the metadata-obscured public history; private evidence and
+unrelated or active working files remain excluded. The programme is ongoing.
+
 ## Native reverse-cap obstruction and original dual balance
 
 Independent review accepts a conditional necessary condition for the
