@@ -1,0 +1,72 @@
+{
+  "schema": "det-redacted-publication-v1",
+  "scope": "Public derivative; original custody identities and administrative executable sources intentionally withheld.",
+  "scientific_status": "Historical conditional mathematics and bounded review statements only; no new proof, execution, qualification or physical validation.",
+  "payload": [
+    {
+      "path": "README.md",
+      "bytes": 6767,
+      "sha256": "197c4105397d6d71eaf4bdf8c7eeb80c51c9d58591e47d5b22db09c45e33b00a"
+    },
+    {
+      "path": "dependencies/RI266_HANDOFF.md.gz",
+      "bytes": 2167,
+      "sha256": "172570fde2551c902537bd4d6c560d78049513a50f69dbfda5388abfd09d0022",
+      "encoding": "gzip",
+      "logical_sha256": "34177a5393005c84e683ef1b5c17a514aaf79882606f4c69a4252e3f3e6245fe"
+    },
+    {
+      "path": "dependencies/RI266_JOINT_CONSTRAINTS_AND_ELIMINATION.md.gz",
+      "bytes": 5530,
+      "sha256": "88ac3917ce6ff475f8f7dd87a7a9befec1260bdbbb4b869be6f9c430ef8f20f0",
+      "encoding": "gzip",
+      "logical_sha256": "23cd221786ef4f9f085cfd89f5ace62ed386930ebdf18a3faa1c98c3b31c5e43"
+    },
+    {
+      "path": "independent/INDEPENDENT_REVIEW.md",
+      "bytes": 15641,
+      "sha256": "d557581d3d3f452104a7e7eb2498aa85d6154e469063886621d84c571494de47"
+    },
+    {
+      "path": "root/RI268_ROOT_REVIEW.md",
+      "bytes": 4977,
+      "sha256": "144f92de1d21cff918558ef63d0ac747840bcb17028ba949f5fc59f650d60e10"
+    },
+    {
+      "path": "source/HANDOFF.md.gz",
+      "bytes": 1763,
+      "sha256": "5d1dee95592a4ac644fc784da49c3f4f8195e8d6f78ffcc1bfee5fd78a0ba11a",
+      "encoding": "gzip",
+      "logical_sha256": "d454ec228b8e38fbe21cf691e1b204998122f339af67569001a1f970c0773f40"
+    },
+    {
+      "path": "source/KAPPA_MINIMUM_SELECTOR.md",
+      "bytes": 8266,
+      "sha256": "5c98a9659a36d19432a4aea0b71511c51bf1ce96c91543799742e6bf94639863"
+    },
+    {
+      "path": "source/ORIGINAL_SECTOR_ORDER.md",
+      "bytes": 8206,
+      "sha256": "67ec2a571eb49f3fcd7df3b1248add3a87515bf783e3deee9ecef806173ac566"
+    }
+  ],
+  "withheld_private_payloads": [
+    "DEPENDENCY_MAP.json",
+    "dependencies/RI268_ASSIGNMENT.json",
+    "dependencies/RI268_RESERVATION.json",
+    "independent/CHECK.json",
+    "independent/CHECK_TOOL_RECEIPT.json",
+    "independent/HANDOFF.json",
+    "independent/QR_ACTUAL_RECEIPTS.json",
+    "independent/REVIEW_TOOL_DIAGNOSTICS.json",
+    "independent/VERDICT.json",
+    "independent/check_metadata.py",
+    "root/RI268_GENUINE_FINAL.json",
+    "root/RI268_ROOT_ADJUDICATION.json",
+    "root/RI268_ROOT_METADATA_CHECK.json",
+    "source/AUTHOR_VERIFICATION.json",
+    "source/HANDOFF.json",
+    "source/SOURCE_REFERENCES.json"
+  ],
+  "original_manifest": "Withheld. Payload pins above authenticate only the derivative, never the private originals."
+}

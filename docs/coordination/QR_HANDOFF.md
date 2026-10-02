@@ -1,6 +1,2076 @@
-# Current QR coordination — compensation criterion accepted; signed redistribution active
+# Public publication status
 
-**Current follow-through — complete compensation criterion accepted; preparation verified.**
+The user selected metadata-obscured publication. This snapshot carries the reviewed research updates through the accepted joint compensation proof and 42 finite fabricated equivalence cases. RI341 remains the assigned native follow-up; full measurement qualification remains separate. Earlier statements below about pending publication approval or unpushed checkpoints are historical. Original local commits, evidence and working edits remain private and unchanged. Future public updates must build on this sanitized lineage; merging the private local history would disclose the withheld metadata.
+
+> Public redacted derivative. The prose below records historical research and review; local paths, private file fingerprints and execution identifiers have been obscured. Raw custody, host/runtime logs and administrative scripts are withheld. Claims about exact copies, complete transcripts, byte identities, manifests or execution permissions describe the private original archive, not this derivative. Only the new PUBLICATION_MANIFEST.json hashes verify the redacted payloads. This copy grants no execution authority and cannot replay original custody checks.
+
+---
+
+**Quantum Relativity handoff — Joint compensation accepted; coupled gain assigned and finite tests passed**
+
+**Current follow-through — joint compensation accepted; all 42 fabricated equivalence cases passed; coupled-gain criterion assigned.**
+1 October 2026, OBSCURED-LOCATION. Root accepted RI334 after complete manual
+proof review, independent RI339 review and reconciliation of genuine
+QR checks. At fixed finite nonnegative nu slopes y_j, scale
+D_j=p*y_j, W_j=h_l*w_jl and U_m=v*u_lm. Every initially tight whole
+P_nu row requires W_j+U_m>=D_j. Zero zeta or xi coordinates force
+its corresponding decrement slope to zero. Xi remains shared across
+j and distinct across m; zeta remains shared across m and distinct
+across j. All marked/labeled records, newborn bits and ties remain.
+
+The full group price is n_l/960*[13*(W_0+W_1)+12*(U_0+U_1)]. For
+fixed U, the least available W_j is max(0,max_{m in N_j}(D_j-U_m));
+unavailable W_j instead requires this maximum to vanish. The exact
+minimum is attained among at most nine U pairs in {0,D_0,D_1} squared,
+with explicit availability discards and recovered finite original slopes.
+Clipping at maxD and partitioning the compact feasible rectangle,
+segment or point by demand levels and the diagonal proves completeness.
+This is a manual proof, not numerical sampling or an engine run.
+
+A positive-demand edge with both endpoints unavailable is the exact
+arbitrary-pattern obstruction. The accepted native bound p*nu_j<1
+excludes it on every tight row, so every finite y admits local payment.
+This removes only the compensation block: tight P/mu restrictions and
+the sign of gain remain. Native tight incidence is J_l times the full
+maximizing-m set, including all ties; no actual support was acquired.
+
+Group prices add across l but need not separate across j. With all four
+edges tight and all endpoints available, the conditional group price is
+n_l/960*[13*max(D_0,D_1)+11*min(D_0,D_1)]. This proves possible local
+coupling without asserting that actual canonical support realizes it.
+All complete P_tau and Q rows relax. Every positive xi/u, zeta/w,
+chi/z and kappa margin and each initially slack increasing whole-row
+slack/slope bound remains. Minimum replacement can require a different
+finite step; prescribed-step compensation is a separate bounded problem.
+
+Chi domination survives with y and the chosen minimum payment fixed.
+The exact reduced score is -A0+Qrew*sum_free x+R*sum y-C(y), subject
+to the retained tight P inequalities and zero tight-group x. Original
+full-vector zero-gain lex descent and the earlier all-four-xi negative
+gain control remain. No enlarged-family optimum, actual score/support,
+canonical gap, C_b, dual or normalized witness is established by RI334.
+All 13 equations, 10 unknowns, u2=-1, full forms/recovery, strict restoration
+and endpoints remain; RET alone stays paused.
+
+Root rechecked 487 whole identities, 481 direct roles, 465 unchanged
+inherited roles and 18,293,132 direct bytes. All 15 typed/raw boundaries,
+43,739 raw boundary bytes and 423 unexpanded references are preserved.
+Both genuine author modes and three complete proof displays match the
+retained 23-command record. RI339 independently passed 30,571 metadata
+predicates plus readback and 166 genuine-record comparisons plus two
+readbacks. Current or inherited diagnostic failures and retrieval clips
+remain recorded; clipped material receives no whole-read credit.
+Root RI334_ROOT_ADJUDICATION.json is 1,988 bytes /
+`OBSCURED-ID-00274`.
+RI339 HANDOFF is 4,704 bytes /
+`OBSCURED-ID-00275`.
+These administrative checks establish custody; mathematical acceptance
+rests on the two manual reviews, not the file counts.
+
+After adjudication, root reserved and dispatched RI341 to Quantum
+Relativity. It must derive an explicit finite criterion for the coupled
+reduced score with one or both mu groups tight, first proving or rejecting
+single linearity on each demand-order cone and identifying further switch
+rays if needed. It must retain all missing bounds, axes, equalities, flat
+faces/rays, bounded attainment or explicit finite unbounded witnesses,
+recovering payments, finite steps and original lex ties. The assignment
+opens no new parent/omega/U5 or protected source. RI341_ASSIGNMENT.json
+is 4,774 bytes /
+`OBSCURED-ID-00276`.
+The fresh reservation is OBSCURED-LOCATION-00155. Dispatch
+succeeded; task snapshot 108 shows its new turn active. No duplicate native
+assignment is pending.
+
+Measurement: RI335 implements exactly the reviewed two-line guard after
+complete input decoding. Only four exact zero interval endpoints skip a
+pair contribution. One-sided zeros and midpoint-zero positive-radius
+intervals keep the original arithmetic and explicit refusal behavior.
+Root and RI337 accepted the new guard/test source; RI340 separately
+reviewed the nonauthored isolated wrapper. Their ancestor/test authorship
+is disclosed and does not substitute for independent acceptance.
+
+Root actually ran all 42 fabricated cases once in fresh RI338. OBSCURED-ID-00277 /
+session OBSCURED-ID-01403 reached OBSCURED-ID-00278 exit 0. All 10 positive whole-output and
+serialization comparisons and 32 exact first-refusal comparisons passed,
+including production-shaped arrays, real-bit-ceiling overflow in both
+one-sided-zero orientations and late-validation precedence. The independent
+rational oracle and manual source argument remain distinct from finite
+coverage. Complete source/interpreter/wrapper tails matched; stderr and
+all error/termination lists were empty. Wall time was OBSCURED-METRIC-01491 seconds
+and peak sampled child RSS OBSCURED-METRIC-01452 KiB, within unchanged 180s/524,288 KiB
+limits. Every raw monitor attempt, sample and final gap was reconciled.
+
+RI338 REPORT.json is 85,973 bytes /
+`OBSCURED-ID-00279`;
+MONITOR.json is 164,964 bytes /
+`OBSCURED-ID-00280`.
+Root RI338_ROOT_OUTCOME_REVIEW.json is 2,578 bytes /
+`OBSCURED-ID-00281`.
+This accepts finite fabricated correctness only. It is no production
+speedup measurement, runtime qualification, normal retry or public-data
+result. Frozen P301 and RI288 failure tuples remain consumed and unchanged.
+The next measurement step is a separately frozen qualification candidate
+with the complete revised source dependency bindings and independent
+review, followed by execution only under its actual prerequisites and
+unchanged limits. Selected GWOSC conventional reproduction still follows
+qualification and supplies no native forward map by implication.
+
+Publication: root owns Git/index on ret tracking origin/ret. This checkpoint
+contains only the four reviewed coordination fronts, with complete prior
+bodies and 6,346 unrelated identities preserved. RI336 source acceptance
+retains the prior exact-front, phase and immutable RI288 custody guards;
+RI334 proof acceptance and RI338 finite-test acceptance remain separately
+bound above. Before/staged/committed validation is required for acceptance.
+The read-only remote query OBSCURED-ID-00282 exited0 and still returned
+`OBSCURED-ID-00283` for origin/ret. No push ran.
+Earlier automatic approval review rejected public publication pending the
+existing human approval for hostname/system/path/filesystem metadata.
+The original eight-commit scope through OBSCURED-ID-00284 is separate from later
+coordination checkpoints; no force-push or bypass is authorized. The
+programme remains active in both native proof and measurement directions.
+
+**Prior checkpoint — complete Q row and zeta cost accepted; paid exchange criterion accepted; normal qualification timed out.**
+1 October 2026, OBSCURED-LOCATION. Root accepted RI322 after its own complete
+manual proof review, genuine author-record reconciliation and separate
+RI324 nonauthor review. Q has nine proper ideals and one full ideal.
+The exhaustive arbitrary-deletion audit gives six proper canonical zeros,
+three neutral slots and full defect increment one. The complete marked
+row is C_Q=v_i*eta_il+n_il*zeta_ijl+F_ijl*omega_il<=1, with complement
+S_Q=1-C_Q. F_ijl is the admitted full U probability, not S_Q; its j
+and l dependencies and complete normalization remain. Identifying the
+omega carrier on U5 does not expand U5's full row or cost.
+
+The rigid zeta terminal has exactly P_nu and Q as carrying parents,
+with potentials h_il and n_il. Ordered i,j,l remain compulsory;
+optional x marks connect through complete diamonds. Four whole records
+on each parent retain all labels, both newborn bits and full qD/2 and
+D/4 payloads. Q's eight histories give whole marked weight h_il/480
+by two independent admitted routes. Together with n_il/768 on P_nu,
+the entire zeta reward magnitude is 13*n_il*h_il/960. No extra
+newborn-bit or labeling factor is present.
+
+At a feasible original canonical point, decreasing just zeta_ijl by
+delta is feasible exactly for 0<=delta<=zeta_ijl. Every carrying P_nu
+load falls by h_il*delta and every Q load by n_il*delta; nonnegative
+remaining proper masses keep full complements in [0,1]. The original
+minimized objective increases by 13*n_il*h_il*delta/960, strictly for
+positive delta. Tight initial rows need no slack for this decrement,
+but another tied l/m group can still block the column. Canonical zero
+endpoints do not erase strict restoration. No actual support, coefficient,
+canonical gap, full dual, C_b or normalized witness is obtained.
+
+Root independently checked 456 whole identities, 450 direct roles,
+435 inherited roles and 15,959,050 bytes, plus ten complete genuine
+author records. RI324 passed 43,803 metadata predicates plus readback
+and 570 genuine-record comparisons plus two readbacks. Its original
+checker-only nested-path KeyError and distinct corrected source remain;
+recovered display clips receive no complete-read credit. These checks
+establish custody, while the mathematical conclusion rests on manual
+review. All fifteen typed/raw boundaries, 423 unexpanded references,
+thirteen equations, ten unknowns, u2=-1, full recovery and strict
+restoration/endpoints remain. Root adjudication is 2,895 bytes /
+`OBSCURED-ID-00285`.
+RI324 HANDOFF is 5,108 bytes /
+`OBSCURED-ID-00286`.
+
+After adjudication, root assigned RI327 to Quantum Relativity and
+reserved its empty packet. The question enlarges RI310 by allowing
+all four zeta coordinates in one root sector to decrease, while eta,
+omega, xi and all unrelated coordinates stay fixed. It must prove
+minimal compensation for every tight P_nu group, exclusions when a
+needed zeta is zero, complete cost, finite availability margins,
+unequal effective column rewards, chi domination and the exact
+one/both-tight-mu improvement or original full-vector lex-tie criterion.
+All missing-bound, unbounded, zero and tied cases remain required.
+The assignment initially treated its proposed formulas as questions.
+No automatic omega/U5 expansion is assigned. RI327_ASSIGNMENT is
+4,541 bytes /
+`OBSCURED-ID-00287`.
+The mathematics-only assignment was delivered successfully.
+
+RI327 then returned its complete source-stable packet. Root's manual
+review and RI333's nonauthor review accept the exact zeta-paid
+restricted-family criterion. At fixed nu slopes y_j, the minimum local
+payment is w_jl=(p_i/h_il)*y_j on each initially tight P_nu group and
+zero elsewhere. Any tight group with zero zeta forces its column's
+y_j=0. This is the minimum for existence of a sufficiently small
+positive step; it need not preserve a prescribed old step. All changed
+slack rows and positive decrements retain their own finite margins.
+
+After full zeta cost, column j has reward
+R_j=R-(13*p_i/960)*sum_{l in B_j}n_il, which is strictly positive and
+satisfies R/14<=R_j<=R. Different tight-group sets B_j can give different
+rewards. Removing excess zeta payment is feasible with a recomputed
+step. Chi-paid directions remain strictly dominated while holding y
+and its minimum payment fixed. With both mu groups tight, exact nu
+capacities give the attained weighted maximum, unless an explicit
+finite unbounded-case witness applies. With one tight group, endpoints
+and at most two envelope switches give at most four scalar candidates.
+All missing-bound, hard-blocked, equal-coefficient, zero-capacity,
+coincident-switch, flat-segment and lex-tie cases are retained.
+
+A nonnegative attained maximum, or one of the explicit unbounded
+cases, is necessary and sufficient for a finite improvement or original
+full-vector lex tie in this entire assigned family. Negative maximum
+is only a restricted-family obstruction. No actual support, candidate
+score, global dual, canonical gap, C_b or normalized witness is obtained.
+All earlier full-system, recovery and strict-restoration obligations remain.
+
+Root rechecked 471 whole identities, 465 direct roles, 450 inherited
+roles and 17,049,541 direct bytes. Twenty-two genuine retrieved command
+records are retained, with whole author checker source/modes and all
+three complete final proof displays matched. Incidental clipped output
+receives no proof-read credit. RI333 passed 29,403 metadata predicates
+plus readback and 162 genuine-record comparisons plus two readbacks.
+Its earlier projection KeyError, display clips and pre-execution list-order
+correction remain recorded. No author mathematical engine or checker
+replay was used. Administrative success establishes custody; acceptance
+of the conditional theorem rests on the two complete manual reviews.
+
+After adjudication, root selected RI334: exact joint xi/zeta minimum
+compensation at fixed two-column nu slopes. The accepted xi carrier
+audit and full price are already available, so this targets the surviving
+zero-zeta block without expanding omega. Xi is shared across j but
+distinct across m; zeta is shared across m but distinct across j. The
+new question must preserve this coupling, every tight row and zero
+availability, full costs, finite margins, chi domination and original
+lex order. It must derive a closed piecewise formula or complete finite
+symbolic construction, not merely restate an optimization problem.
+No actual support or whole enlarged-family optimum is assigned by
+implication. This substantive native lane remains active alongside the
+measurement repair; RET alone remains paused.
+
+RI327_ROOT_ADJUDICATION.json is 2,955 bytes /
+`OBSCURED-ID-00288`.
+RI333 HANDOFF.json is 4,576 bytes /
+`OBSCURED-ID-00289`.
+RI334_ASSIGNMENT.json is 4,856 bytes /
+`OBSCURED-ID-00290`.
+The new mathematics-only assignment was delivered to Quantum Relativity.
+
+Measurement: root accepted RI325's exact metadata constructor and issued
+only the normal pre-mode record and admission card. Pre-mode is 1,060
+bytes / `OBSCURED-ID-00291`;
+ADMIT_NORMAL.json is 1,595 bytes /
+`OBSCURED-ID-00292`.
+Existing genuine RI320 runtime and RI323 context observations are cited
+truthfully; no new live collection or profile is claimed by issuance.
+Two-field pre/card freeze pins and three-field administrative references
+remain distinct. Optimized admission remains absent.
+
+The first issuance command OBSCURED-ID-00293 exited one after both records had
+been written and read back: its new helper incorrectly assumed the root
+directory link count would stay unchanged when adding a regular file.
+The original source, failure and both exact issued records are retained.
+Root OBSCURED-ID-00294/OBSCURED-ID-00295 reconciled the precise transition: same device/inode/
+mode, link count OBSCURED to OBSCURED, size OBSCURED to OBSCURED, exactly one card addition,
+all fifty prior namespace members and all forty-two prior whole files
+unchanged. The continuation neither rewrote records nor reran the
+constructor. This corrects only the helper's directory-state assumption;
+all scientific acceptance limits and custody requirements remain.
+
+The resulting observer changes exactly the three accepted RI316
+HERE/OUT/INPUT literals, with whole inverse verification. Its actual
+OBSCURED-ID-00296/session OBSCURED-ID-01404 ->OBSCURED-ID-00297 invocation exited zero: 650,766 checks
+including readback, all fifteen phases, exact forty-three files/eight
+directories, ninety-three base and ten operational identities. Root
+OBSCURED-ID-00298 rechecked 104 whole identities including the source. The report
+is 182,247 bytes /
+`OBSCURED-ID-00299`.
+The genuine invocation record is a root-observed transcription, not
+an independent external history retrieval. It creates no qualification
+success or empirical claim by itself.
+
+Independent saved-outcome check OBSCURED-ID-00300 exited zero with 1,394 comparisons
+across 28 saved files: all fifteen phases, 103 distinct recorded identity
+rows, full runtime arrays and six runtime phases, exact source inverse,
+full derived freeze/card/pre-mode contracts and preserved issuance
+failure/continuation matched. The reviewer's earlier observer authorship
+is disclosed; independent source review remains the separate RI319
+verdict. Root read the whole checker and reverified the saved inputs,
+then accepted the pre-dispatch observation at OBSCURED-ID-00301. Acceptance is
+2,581 bytes /
+`OBSCURED-ID-00302`.
+
+Root then made the single genuine normal invocation: OBSCURED-ID-00303/session OBSCURED-ID-01405
+ended at OBSCURED-ID-00304 with outer exit one and child exit -9. The supervisor
+stopped at the unchanged 180-second wall limit (OBSCURED-METRIC-01492 seconds observed). Peak sampled child RSS was OBSCURED-METRIC-01453 KiB, below the
+524,288-KiB limit; this is sampled RSS, not a claim about unobserved
+transients. All 5,535 raw monitor attempts and samples reconcile,
+including maximum gap OBSCURED-METRIC-01493 seconds and final gap
+OBSCURED-METRIC-01494 seconds. All eight parent tail checks have null
+errors. None substitutes for the absent child completion receipts.
+
+WORKER.json and CUSTODY.json are absent; the caller envelope and stderr
+are empty. The retained stage has fifty-five named top-level files,
+but lacks FRESH_SAVED_COMPARISON.json and WHITE_ONLY_QUALIFICATION.json.
+Their scientific bodies remain opaque and file presence confers no
+completed-case or qualification credit. The normal tuple is consumed:
+no retry, optimized invocation or success is authorized by this failure.
+SUPERVISOR.json is 1,542,758 bytes /
+`OBSCURED-ID-00305`.
+
+Actual post-runtime observation OBSCURED-ID-00306/session OBSCURED-ID-01406 ->OBSCURED-ID-00307 exited
+zero; all 9,923 files/258,862,951 bytes, both full arrays and six phases
+match the accepted pre-runtime domain. Its source differs only in the
+private output literal, with exact inverse verification. The post-runtime
+report is 6,624,270 bytes /
+`OBSCURED-ID-00308`.
+No scientific interpreter, target or new runtime profile ran in that check.
+
+The first post-output collector (OBSCURED-ID-00309 exit one) rejected two intentional
+WC20 fixture hardlinks. Its source and partial failed report remain
+preserved. A separate administrative correction permits only the two
+exact owned WC20 pairs with nlink two and identical full inode state;
+source/input and ordinary-output single-link rules remain. The corrected
+collector OBSCURED-ID-00310 exited zero: 57,030 predicates, all 227 phases, all
+103 preserved source/operational rows and the entire stable 106-node
+owned tree (99 regular paths, five directories, two unfollowed fixture
+symlinks). Its report is 543,931 bytes /
+`OBSCURED-ID-00311`.
+Missing receipts were observed, never synthesized. Root rechecked all
+103 whole source identities and their full states at final adjudication.
+
+Independent RI331 check OBSCURED-ID-00312 exited zero with 35,154 comparisons
+across eighteen saved records, reconciling the complete raw monitor,
+parent tails, runtime arrays, custody groups and tree. Its initial
+summary-only variable-shadowing typo and corrected checker/result are
+both retained. The reviewer discloses earlier measurement-source and
+observer authorship; this is a saved failure/custody review, not a new
+independent scientific reconstruction or external tool-history retrieval.
+Root read its whole corrected checker and accepted only the genuine
+failure and preserved custody. RI331_ROOT_FAILURE_ADJUDICATION.json
+is 3,838 bytes /
+`OBSCURED-ID-00313`.
+
+Source/timestamp diagnosis places the last named independent-control
+report before the qualifier's final envelope checks and fresh saved
+reconstruction. This does not identify the precise interrupted operation
+or prove those final checks passed. A separate source-only review finds
+an exact candidate shortcut: skip a pairwise contribution only after
+both complete arrays have been decoded and all four interval endpoints
+are exact zero. One-sided zeros retain the original path because their
+polarization squares can still produce required resource refusals. The
+next measurement step is a separately reserved implementation with
+independent value/refusal comparisons; no speedup or qualification
+success is yet established. Frozen P301 and the older RI288 failure
+stay unchanged, as do the 180-second/524,288-KiB limits. Selected GWOSC
+conventional reproduction still follows qualification; it supplies no
+native forward map by implication.
+
+RI335 source-only candidate and meaningful value/refusal tests are assigned
+in a fresh private reservation. They remain unexecuted and outside this
+checkpoint; root will review their exact source and select bounded checks.
+The frozen production validator and both failed qualification tuples are
+unchanged. No new protected acquisition or empirical claim is made.
+
+Publication: root retains the Git/index lane on ret tracking origin/ret.
+This checkpoint contains only the four reviewed coordination fronts,
+with complete previous bodies and unrelated edits preserved. The scoped
+RI326 validator binds the exact fronts, all 6,346 unrelated identities,
+and the immutable older RI288 failure/custody; current RI331 failure
+evidence is separately bound by its root adjudication above. Before,
+staged and committed validation must pass before checkpoint acceptance.
+
+The read-only remote query OBSCURED-ID-00314 exited zero and still returned
+`OBSCURED-ID-00283` for origin/ret. No push ran.
+Earlier automatic approval review rejected public publication pending
+the existing human approval for hostname/system/path/filesystem metadata.
+That original eight-commit scope through OBSCURED-ID-00284 remains separate from
+later coordination checkpoints. No force-push or metadata-bypass route
+is authorized by this update. The programme remains ongoing.
+
+**Prior checkpoint — complete P_nu row and conditional support accepted; Q companion cost assigned; frozen measurement context passed.**
+1 October 2026, OBSCURED-LOCATION. RI314 is accepted after root manual review and
+RI321's independent review. All eight proper P_nu ideals and the full
+slot were audited against arbitrary event deletions. Exactly three
+proper slots are neutral; the other five are canonical zeros, and full
+birth raises defect by one. Canonical zeros do not erase restored-law
+obligations. The complete marked row and complement are
+C_nu = p_i*nu_ij + h_il*zeta_ijl + v_i*xi_ilm <= 1 and F_nu=1-C_nu.
+Thus the previously opaque remainder is B_nu=h_il*zeta_ijl. It cannot
+be assumed zero. Whole-record history n_il/768, all labels, both newborn
+bits and full qD/2 and D/4 payloads remain.
+
+The rigid zeta terminal has precisely P_nu and Q as carrying parents,
+with potentials h_il and n_il. Ordered i,j,l are compulsory; optional
+m is connected by complete N diamonds. Independence of h from j does
+not identify the two zeta j components. With X_l=max_m xi_ilm and
+H_j=max_l(h_il*zeta_ijl+v_i*X_l), a feasible column is blocked exactly
+when p_i*nu_ij+H_j=1. All maximizing l,m ties, both k bits and labeled
+records survive. Values above one are infeasible, not blocked; H_j=1
+leaves only nu_ij=0. Inherited strict p<n bounds force h*zeta+v*xi>0
+at any tight row, so xi=0 there conditionally forces zeta>0. Neither
+actual tightness nor actual support is supplied.
+
+The accepted one-tight-mu bridge is also conditional: canonical
+kappa_i>0 with exactly one tight mu cap implies n_T<n_F. Otherwise
+both free-group P rows are slack, and the explicit finite direction
+d_kappa=-1,d_mu_F=2*A0/Qrew has strict primary gain A0>0, with every
+increasing slack row retaining its own positive step margin. The result
+does not acquire the antecedent, an actual ordering or the canonical gap.
+RI310 remains the exact restricted-family criterion. Actual coefficients,
+blocking/support, full dual, kappa gap, C_b and normalized witness remain
+unresolved. All thirteen equations, ten unknowns, u2=-1, full recovery,
+strict restoration/endpoints and full complements remain load-bearing.
+
+Root rechecked 441 whole identities, 435 direct roles, 420 inherited
+roles and 14,941,554 bytes; all fifteen typed/raw boundaries and 423
+unexpanded references remain. Eight complete genuine author records
+match the entire checker source/modes and final proofs. RI321 independently
+passed 42,143 metadata predicates plus readback and 503 genuine-record
+comparisons plus two readbacks; no required repair. These checks establish
+custody; manual review establishes only the stated mathematics.
+RI314_ROOT_ADJUDICATION.json is 1,981 bytes /
+`OBSCURED-ID-00315`.
+RI321 HANDOFF.json is 5,315 bytes /
+`OBSCURED-ID-00316`.
+
+After adjudication, root assigned RI322 to Quantum Relativity: complete
+Q ideal/deletion/marked-row audit, every zeta carrier and whole history
+cost, then the exact effect of decreasing a positive zeta alone. This
+assignment addresses the explicit cost dependency before any compensated-family claim.
+Further companion dependencies must be identified without unassigned
+expansion. Root reserved OBSCURED-LOCATION-00156 empty;
+RI322_ASSIGNMENT.json is 4,448 bytes /
+`OBSCURED-ID-00317`.
+Automatic approval review rejected a metadata-rich coordination message;
+a narrower mathematical assignment without internal paths/hashes/review
+metadata was successfully delivered. No rejected metadata was sent by
+another route. The native lane remains active; RET alone remains paused.
+
+Measurement: source-only RI312 templates passed separate RI315 review.
+Root issued only the exact fabricated WHITE freeze (OBSCURED-ID-00318 exit zero),
+changing its null status to ROOT_AUTHORIZED_WHITE_FABRICATED_ONLY with
+whole-template inverse verification. All 118 inspected identities stayed
+unchanged; namespace became 42 files/eight directories. The constructor
+remains uninvoked. AUTHORIZED_FREEZE.json is 25,914 bytes /
+`OBSCURED-ID-00319`.
+RI318_FREEZE_ISSUANCE.json is 70,514 bytes /
+`OBSCURED-ID-00320`.
+The pre.freeze and card.freeze contracts have exactly {bytes,sha256};
+administrative references separately retain {path,bytes,sha256}.
+
+Actual post-freeze current runtime comparison OBSCURED-ID-00321/session OBSCURED-ID-01407 ended
+604286 exit zero: all 9,923 files/258,862,951 bytes, both complete arrays
+and six phases match the accepted domain. The source changed only its
+private output literal, with exact inverse verification. The genuine
+CURRENT_RUNTIME_CUSTODY.json is 6,624,269 bytes /
+`OBSCURED-ID-00322`.
+RI320_ROOT_OBSERVATION_ACCEPTANCE.json is 2,244 bytes /
+`OBSCURED-ID-00323`.
+No scientific interpreter, new profile or target ran in this comparison.
+
+RI316's exact 42/43-file context extension passed separate RI319 source
+review: all 40 synthetic cases, 335 whole files, 357 fixture nodes and
+11 unchanged functions were reconciled. Root source acceptance is only
+for that closed observer contract. The issued RI323 instance changes
+exactly HERE/OUT/INPUT, with inverse comparison. Actual administrative
+observation OBSCURED-ID-00324/session OBSCURED-ID-01408 completed at 520751 exit zero, with
+648,606 checks including readback and all fifteen phases passing. It
+binds the freeze, genuine current-runtime report, 82 source original/copy
+identities, eight references, three suppliers, exact launch context and
+42-file/eight-directory pre-mode namespace. The report is 177,568 bytes /
+`OBSCURED-ID-00325`.
+Independent RI323 review found no blocker: its own 1,010 saved-outcome
+comparisons and sixteen envelope comparisons passed, retaining all 100
+saved identities and both complete runtime arrays. Root then rechecked
+101 current identities, the whole namespace and exact source/input
+binding. The actual invocation remains root-observed transcription,
+not independently retrieved tool history. RI323_ROOT_OBSERVATION_ACCEPTANCE.json
+is 2,887 bytes /
+`OBSCURED-ID-00326`.
+This accepts only the bounded pre-mode administrative observation.
+
+No normal or optimized card, scientific retry or qualification success
+is issued in this checkpoint. Next measurement action: issue the exact
+normal-only pre-mode record/card after accepted genuine observations,
+then check the 43-file pre-dispatch context before the single authorized
+launcher call. Actual parent/worker profiles, source/runtime checks,
+post-custody and complete independent normal acceptance remain required.
+RI309's authentic retained-profile applicability and explicit host/loader
+premises remain distinct from a new run. Freeze alone admits neither mode.
+The consumed RI288 failure remains immutable; OBSCURED-METRIC-01454 KiB peak does not
+relax the 524,288 KiB/180-second limits, sampling/gap bounds or any other
+threshold. Qualification precedes selected public GWOSC conventional
+reproduction; calibration and a native forward map remain separate.
+
+RI317 updates only the four coordination fronts, retaining their complete
+prior bodies. Its reviewed validator preserves 6,346 unrelated identities
+and exact failed-RI288 custody. Administrative display/filename diagnostics
+were recovered without assigning clipped material read credit; an optional
+Apple py_compile failed on cache permissions, then the same adjudication
+source ran directly with -I -B successfully. A root post-observation
+check first used dir instead of the recorded directory kind; the exact
+schema spelling was repaired, preserving the failed attempt, and all
+101 identities and 42-file/eight-directory states then matched. Author/reviewer diagnostics
+and all prior evidence remain preserved. The programme remains ongoing.
+
+Remote publication remains blocked by the prior automatic approval
+review pending the existing human approval for public hostname/system/
+path/filesystem metadata disclosure. The pending eight-commit scope
+through OBSCURED-ID-00284 and later coordination checkpoints remain separate.
+No new push attempt, force push, transport bypass or broad staging
+occurred. Last verified remote origin/ret remains
+OBSCURED-ID-00283 (read-only OBSCURED-ID-00327).
+
+**Prior checkpoint — exact native local exchange criterion accepted; complete P_nu row assigned.**
+1 October 2026, OBSCURED-LOCATION. RI310 is independently accepted as an exact
+conditional theorem for its entire assigned sign-restricted family:
+d_kappa=-1, independent nonnegative mu/nu increments and a nonpositive
+chi change, at the same feasible rest with positive kappa and at least
+one tight mu cap. All P,Y,P_mu,P_nu,B_chi carrying rows, original marks,
+full complements and unchanged remainders are retained. Only initially
+tight rows constrain direction slopes; every increasing slack row
+contributes its own positive finite-step margin.
+
+The complete objective gain is
+G=-A0+Q*(x0+x1)+R*(y0+y1)-B*z,
+with A0=16*Cw*a0, Q=4*Cw*(t0+t1), R=Cw*(56/9)*(n0+n1),
+B=2*p*aChi*(t0+t1). Since B/(64*aChi)=(10/3)*Q, removing
+mu increments in tight groups and setting z=0 improves the gain by
+at least 64*aChi*Q*z*(10/3-|T|), strictly when z>0. The replacement
+may require a smaller finite step because another mu cap was slack.
+This proves equality of the full and reduced suprema and equivalence
+of nonnegative-gain finite-direction existence; it is not a global theorem.
+
+Both tight mu groups leave two exact nu capacities. A blocked column
+has capacity zero; an unblocked column has a0/max_(l in A_j)n_l,
+or no directional bound when A_j is empty. With one tight mu group,
+the remaining mu slope lies in [0,X], including bounds from blocked
+columns, and each unblocked nu capacity is the minimum of its present
+constant and affine bounds. Every bounded maximum is attained at
+0, X or at most two valid branch switches. All missing-bound cases
+have explicit finite-slope improving witnesses. Ties, zero capacities,
+absent/outside switches and all original finite margins remain.
+
+A nonnegative attained maximum or an unbounded case is necessary and
+sufficient for a primary improvement or an original full-coordinate
+lex tie in this family. A negative maximum obstructs the entire
+family, including chi-paid directions. The first changed coordinate
+in a zero-gain move decreases, without guessing chi's rank. The
+nu-only r>=2/7 corollary needs both nu columns unblocked and is kept
+separate from the exact test. Actual support, ratio and coefficients,
+RI300 endpoint comparisons, canonical dual, kappa gap, C_b, normalized
+witness and global sufficiency remain unresolved. All thirteen original
+equations, ten unknowns, u2=-1, full forms/recovery and strict restoration
+and endpoints remain. RET alone stays paused.
+
+Root read both entire proofs, author checker and RI311's independent
+review/checker, and independently matched the genuine author source,
+modes and complete proof displays. Root OBSCURED-ID-00328 rechecked 426 whole
+identities: 420 direct roles, 405 inherited and 13,991,077 direct bytes.
+Independent OBSCURED-ID-00329 passed 41,294 predicates plus readback. All fifteen
+typed/raw boundaries and 423 unexpanded references remain unchanged.
+RI310_ROOT_ADJUDICATION.json is 2,052 bytes / `OBSCURED-ID-00330`.
+Administrative verification establishes custody; manual review supports
+only the declared bounded mathematical conclusion.
+
+After adjudication, root assigned RI314 to Quantum Relativity in
+`OBSCURED-LOCATION-00157`. The next concrete
+question is the complete P_nu ideal/defect and marked-row audit:
+retain every proper term and full complement, derive the entire B_nu
+remainder, then express exactly what makes each original nu column
+blocked. B_nu=0 is not assumed, and actual tightness is not acquired.
+Any newly surviving component dependency must be stated before a
+separate companion expansion. The one-tight support ordering corollary
+may connect RI310 to the audit but does not replace it. No protected
+body/hash/checker acquisition or mathematical engine is authorized.
+RI314_ASSIGNMENT.json is 4,261 bytes / `OBSCURED-ID-00331`.
+Root retains independent acceptance and successor selection.
+
+The parallel measurement lane retains RI309's accepted final runtime
+and launch context, with authentic retained profiles and all explicit
+supplier/loader premises. RI312 has returned source-only final-freeze,
+pre-mode custody and normal-card templates for independent RI315 review.
+No authority, freeze or scientific retry has been issued. Its sealed
+HANDOFF.json is 3,908 bytes /
+`OBSCURED-ID-00332`.
+A concrete dependency was found:
+the old context observer requires the pre-freeze 41-file namespace and
+absence of freeze/cards, so it cannot be reused after those additions
+by merely moving its output. The final check must bind exactly the
+root-issued freeze and normal card alongside all 41 source identities,
+with unchanged environment, suppliers and other namespace exclusions.
+This required source review precedes any final operational dispatch.
+
+Next measurement action: finish independent source/template review,
+issue the exact freeze only when justified, obtain current custody
+bound to that freeze, then separately admit the normal run. The old
+RI288 attempt remains consumed and immutable, including its peak
+OBSCURED-METRIC-01454 KiB RSS. The 524,288 KiB/180-second limits and polling/gap
+thresholds remain unchanged. Qualification precedes selected public
+GWOSC conventional reproduction; calibration and native forward-map
+claims remain separate. No optimized admission is issued.
+
+RI307 is committed locally as OBSCURED-ID-00333;
+its before/staged/committed checks passed, preserving 6,346 unrelated
+identities and failed-run custody. RI313 adds only these four reviewed
+coordination fronts, retaining complete prior bodies. RI311's original
+failed receipt selector, corrected V2 and report-assembly diagnostic
+remain preserved. RI312's mistaken initial field count and recovered
+filename diagnostics are retained in its pending source review. Root's
+invalid oversized history request and clipped aggregate orientations
+are retained; complete targeted reads and exact genuine-record checks
+supplied the review. Earlier author/reviewer diagnostics remain intact.
+
+Remote publication remains blocked by automatic approval review pending
+the existing explicit human approval of public hostname/system/path/
+filesystem metadata disclosure. The pending eight-commit scope through
+OBSCURED-ID-00284 and later coordination checkpoints remain separate. No new push
+attempt, force push, transport bypass or broad staging occurred. The
+latest successful read-only remote lookup OBSCURED-ID-00334 confirmed origin/ret
+at OBSCURED-ID-00283. The programme continues.
+
+**Prior checkpoint — complete mu-cap cost accepted; final launch context passed and local exchange family assigned.**
+1 October 2026, OBSCURED-LOCATION. RI305 is independently accepted as a bounded
+manual native theorem. The complete eight-ideal P_mu audit leaves only
+the singleton and pair as possibly positive proper canonical terms:
+aChi_i*chi_i+mu_il/64<=1. Both l groups share chi_i. Arbitrary-deletion
+defects, every original mark, full complements and strict restoration
+remain. The rigid singleton terminal has exactly P_mu and B_chi carriers;
+its compulsory root and eight optional K marks give the full incidence.
+All thirteen B_chi ideals and its twelve-term fixed remainder remain.
+
+The complete P row and admitted t>=F_*>1/64 imply mu_il<64, so a tight
+mu cap forces chi_i>0. Complete natural histories give
+bChi_i=2p_i*aChi_i*(t_i0+t_i1). Reducing chi relaxes every B_chi row
+but costs this positive reward. The exact minimum cap compensation is
+max(0,Delta_0/64-S_0,Delta_1/64-S_1)/aChi_i, subject to its resource
+bound and all other row constraints.
+
+For the accepted RI286 asymmetric ray at any initially tight mu cap,
+G_comp/(Cw*a0)=[(1-rho)(56r-16)-120(1+rho)]/9
+is at most -(80+160rho)/9<0. This specific compensation strictly worsens
+the primary objective even when its finite feasibility holds. It is not
+a universal impossibility of compensation or evidence of actual cap
+support. With initially slack caps the exact hinge retains the free
+segment; a negative paid slope need not mean negative total gain.
+Feasible total ties use the original full-coordinate lex order, without
+inventing a chi rank. Actual ratio, cap support, kappa gap, C_b, the
+normalized witness and global sufficiency remain unresolved.
+
+Root read both whole proofs, author administrative source and RI308's
+entire independent narrative/checker. Root OBSCURED-ID-00335 rechecked all 411
+identities: 405 direct roles, 390 inherited and 13,044,105 direct bytes.
+Genuine author preseal/final source modes and three complete final
+displays matched. Independent OBSCURED-ID-00336 passed 39,429 predicates plus
+readback. All fifteen typed/raw boundaries and 423 unexpanded references
+remain. RI305_ROOT_ADJUDICATION.json is 1,940 bytes /
+`OBSCURED-ID-00337`.
+Administrative checks establish custody; the manual argument establishes
+only the stated bounded theorem.
+
+After adjudication, root assigned RI310 to Quantum Relativity in the
+verified-empty `OBSCURED-LOCATION-00158` reservation. At the same
+rest, kappa_i>0 and at least one tight mu cap, classify the whole family
+d_kappa=-1, independent d_mu_l>=0, d_nu_j>=0 and d_chi<=0, all other
+coordinates fixed. Test chi domination and derive the exact both-tight
+and one-tight cases, finite step bounds and endpoint/switch criteria.
+Only initially tight P rows enter the homogeneous constraints; initially
+slack rows require explicit finite margins. Missing bounds, unbounded
+gain, zero/tied cases and the original lex order must be retained.
+This will distinguish a family obstruction from one unfavorable ray.
+The proposed domination is a question, not an accepted result.
+No further parent/remainder expansion or new frozen-value acquisition
+is assigned. RI310_ASSIGNMENT.json is 4,113 bytes /
+`OBSCURED-ID-00338`.
+QR is active. All original equations/recovery, strict-law prerequisites,
+RI300 fixed-rest premises and unresolved global claims remain. RET alone
+is paused.
+
+RI309 made the measurement launch-context check concrete. Root reviewed
+the complete narrow metadata observer, authenticated its source and the
+historical env/perl/Apple administrative executable identities, and
+created only the prescribed empty tmp/run/output directories. Actual
+OBSCURED-ID-00339 exited zero: all ten phases passed, with 7,459 serialized checks
+plus report readback. All 41 original/copy pairs, eight administrative
+references and three supplier rows matched before/after; the exact
+ten-field environment, cwd/TMPDIR and 41-file/eight-directory namespace
+matched. No scientific interpreter or helper was executed.
+FINAL_CONTEXT_OBSERVATION.json is 167,739 bytes /
+`OBSCURED-ID-00340`.
+
+Independent OBSCURED-ID-00341 authenticated nineteen source/admin/result files and
+reconciled all complete saved arrays and phases. Its 148,531 predicates
+include structural JSON-key checks, not distinct scientific checks.
+Root read the complete source/review/checker, independently rechecked
+all 93 observed file states and nineteen review inputs, then accepted
+the narrow observation in OBSCURED-ID-00342. RI309_ROOT_OBSERVATION_ACCEPTANCE.json
+is 2,260 bytes /
+`OBSCURED-ID-00343`.
+Root's genuine invocation is retained as direct observed transcription;
+the independent reviewer does not claim original root-history retrieval.
+
+A separate final-tuple applicability review is now accepted. The complete
+retained actual RI170 normal/optimized profiles match the unchanged
+installation and final expected tuple. Their historical source paths,
+TMPDIR, genuine receipts and timings remain intact. The reviewed startup
+hooks have no relevant cwd/TMPDIR dependence on the observed startup
+path; the recorded dyld routes are absolute. RI306 full runtime continuity
+and RI309 final-context acceptance supply the current bindings. Trusted
+installed/cache suppliers and Apple loader/host premises remain explicit.
+No new scientific profile is claimed.
+
+Independent OBSCURED-ID-00344 checked 181 predicates and 41 pinned comparisons;
+root read the full applicability narrative/checker and actual startup
+sources, independently checked complete profile/completion bindings in
+OBSCURED-ID-00345, and rechecked the sealed review and all 41 pins before issuing
+OBSCURED-ID-00346. RI309_FINAL_RUNTIME_ACCEPTANCE.json is 26,748 bytes /
+`OBSCURED-ID-00347`.
+The fresh-profile flag explicitly means this fresh applicability review
+of genuine actual profiles, not newly executed profiles. All eight full
+premise domains, seven historical references and final 11/30 source tuple
+remain bound. Future external pre/post-mode and in-process actual profile
+checks remain mandatory.
+
+Next: construct and independently review the new final freeze and exact
+pre-mode/normal admission, then obtain actual repaired resource/completion
+evidence. No freeze, mode admission, scientific retry, completed normal
+qualification or optimized admission occurred here. The consumed RI288
+failure and RSS OBSCURED-METRIC-01454 KiB remain immutable; the 524,288 KiB/180-second
+limits and polling/gap thresholds are unchanged. Qualification still
+precedes selected public GWOSC conventional reproduction. Calibration,
+a native forward map and physical claims remain separate.
+
+RI307 records only these four coordination fronts; complete prior bodies,
+the original independent review, 6,346 unrelated identities and immutable
+failed-run custody are preserved. Proof/source/review records remain
+external publication backlog in their sealed reservations, with root
+records in `OBSCURED-LOCATION-00094`. RI308's failed
+empty-receipt schema expectation and atime-sensitive first seal are
+retained beside the corrected successful checks. RI309 reviewer's
+dictionary-slice display diagnostic is retained. Root's clipped status
+and recursive diagnostic orientations receive no proof-read credit.
+All earlier diagnostics remain; the programme is ongoing.
+
+Remote publication remains blocked by automatic approval review pending
+the existing explicit human approval of public hostname/system/path/
+filesystem metadata disclosure. The pending scope is eight commits
+through OBSCURED-ID-00284; later coordination checkpoints are separate. No new
+push attempt, force push, transport bypass or broad staging occurred.
+Read-only lookup OBSCURED-ID-00348 failed on sandbox DNS; authorized read-only
+retry OBSCURED-ID-00334 exited zero and confirmed origin/ret at
+`OBSCURED-ID-00283`.
+
+**Prior checkpoint — exact native interval accepted; runtime continuity passed and complete mu-cap proof assigned.**
+1 October 2026, OBSCURED-LOCATION. RI300 is independently accepted as a conditional
+finite-layer theorem. The complete terminal incidence has exactly N and U
+carrying presentations and four distinct ordered (i,l) components. With
+the entire component-consistent static rest fixed, N full is C_i-h_il;
+both U full rows are R_ijl-(11/65)h_il. N total height C_i+p_i+v_i is
+independent of h and remains a separate rest constraint.
+
+Writing c=11/65 and h_*=65/704, the exact intervals are
+L_il=max(h_*,(max_j R_ijl-T_*)/c) and
+U_il=min(C_i-F_*,(min_j R_ijl-F_*)/c).
+Every component, ideal, full and total-height bound is retained. Their
+four-interval product follows from complete incidence. Necessity and
+sufficiency require the complete unchanged rest, including outside
+parents; the local S_HNU(0) example does not supply that premise.
+The four nonemptiness inequalities include the cross-j spread bound.
+Empty families are infeasible; singleton and saturated positive-margin
+endpoints remain admitted.
+
+For each root sector, the sharp uniform ratio criterion is BOTH
+7U_i0-2L_i1<=5C_i and 7U_i1-2L_i0<=5C_i. Opposite corners attain
+the worst ratio. The best-ratio test distinguishes mixed families from
+universal failure. A failed uniform test does not establish failure of
+the selected actual native point. Actual rest values/endpoints and the
+native ratio remain unresolved; later potentials and canonical selectors
+are not held fixed across hypothetical modified tables.
+
+Root read both complete proofs/handoff, RI303's entire independent
+narrative/checker and the whole author metadata source. Fresh genuine
+author source/modes and all three final proof displays matched. Root
+OBSCURED-ID-00349 rechecked all 396 identities: 390 direct roles, 375 inherited,
+12,181,775 direct bytes. Independent OBSCURED-ID-00350 passed 37,829 predicates
+plus readback. All 15 typed/raw boundaries and 423 unexpanded references
+remain. RI300_ROOT_ADJUDICATION.json is 1,894 bytes /
+`OBSCURED-ID-00351`.
+Mathematical acceptance and administrative file checks remain distinct.
+
+After adjudication, root assigned RI305 to Quantum Relativity in the
+verified-empty `OBSCURED-LOCATION-00159` reservation. The concrete
+question is whether a complete canonical P_mu row and its singleton
+component can remove the mu-cap obstruction in the accepted exchange.
+Audit all eight proper ideals of r<a<b<y,o<y, prove or refute the
+candidate singleton/pair-only neutral support, and exhaust the singleton's
+marked companions, potential and history reward. If the proposed cap
+reduces to s_i*chi_i+mu_il/64<=1, test whether tightness forces positive
+chi_i, then derive finite compensation with every companion cost and
+constraint. Feasibility must not be substituted for objective improvement.
+This bounded P_mu/necessary-companion expansion is authorized; new frozen
+coefficient acquisition, unrelated parent expansion and engines remain
+closed. RI305_ASSIGNMENT.json is 2,992 bytes /
+`OBSCURED-ID-00352`.
+QR is active on this assignment. The full original system, strict
+restoration/endpoints, cap/dual hypotheses, kappa gap, C_b and normalized
+witness remain open. RET alone remains paused.
+
+RI306 materialized RI302's exact current-runtime comparator with only
+its output-directory literal changed; root verified the complete inverse
+and read the whole source before dispatch. Root OBSCURED-ID-00353/session OBSCURED-ID-01409
+completed in OBSCURED-ID-00354, exit zero: all 9,923 recorded runtime files and
+258,862,951 bytes matched, with all six phases passing and zero errors.
+The 251,856 serialized checks plus exclusive report readback explain the
+console's 251,857 count. Whole selection states/cache headers, membership,
+interpreter/loader links, optional namespaces, absences and host bindings
+remain in the recorded comparison. No scientific interpreter, subject or
+collector was executed. CURRENT_RUNTIME_CUSTODY.json is 6,624,274 bytes /
+`OBSCURED-ID-00355`.
+Independent OBSCURED-ID-00356 passed 33,346 predicates over the complete pin and
+selection arrays and 16 source/admin identities; OBSCURED-ID-00357 passed eight
+actual-envelope bindings. Root read both entire independent checkers and
+the full narrative, independently reconciled both whole arrays and six
+phases, then rechecked the complete sealed review and all 16 identities.
+Root OBSCURED-ID-00358 accepted current recorded runtime custody only.
+RI306_ROOT_OBSERVATION_ACCEPTANCE.json is 1,610 bytes /
+`OBSCURED-ID-00359`.
+The genuine invocation envelope is explicitly root's direct transcription
+of its observed tool results, not independent history retrieval.
+
+The existing profile evidence has no automatic expiry, but this current
+comparison alone does not issue final-tuple runtime acceptance. Next:
+reconcile the final 41 source/helper originals and copies, the launch
+environment and cwd/tmp namespaces, and the retained profile premises;
+issue applicability only if every required binding holds. A new freeze
+and fresh normal admission remain prerequisites for scientific retry.
+The consumed RI288 attempt remains immutable: RSS OBSCURED-METRIC-01454 KiB exceeded
+the unchanged 524,288 KiB limit. No repaired RSS measurement, completed
+normal qualification, optimized admission or actual GWOSC reproduction
+has occurred. Wall/poll/gap limits and all custody prerequisites remain.
+Qualification precedes the selected public GWOSC conventional reproduction;
+calibration and a native forward map remain separate.
+
+RI304 records only these four coordination fronts, preserving complete
+prior bodies, original review, unrelated edits and failed-run custody.
+Proof/source/review records remain external publication backlog in their
+sealed reservations; coordinator records remain in
+`OBSCURED-LOCATION-00094`. Root's over-limit read_thread
+request was rejected then corrected; one broad orientation search clipped.
+Neither receives proof-read credit. A guessed validator-diff filename was
+absent; the actual sealed SOURCE_DIFF.patch was subsequently read in full.
+Root reconciliation OBSCURED-ID-00360 incorrectly expected traversal-order link arrays
+to equal sorted snapshot order. The original is retained; OBSCURED-ID-00361 passed
+after comparing the same unique literal links in the source-defined order,
+with no comparator rerun or changed acceptance predicate. All earlier
+diagnostics remain. The programme is ongoing.
+
+Remote publication remains blocked by automatic approval review pending
+the existing explicit human approval of public hostname/system/path/
+filesystem metadata disclosure. The pending scope is eight commits through
+OBSCURED-ID-00284; later coordination checkpoints are separate. No new push attempt,
+force push, transport bypass or broad staging is performed. Read-only
+remote check OBSCURED-ID-00362, exit zero, confirms origin/ret at
+`OBSCURED-ID-00283`.
+
+**Prior checkpoint — complete H closure and repaired caller guards accepted; exact native interval under review.**
+1 October 2026, OBSCURED-LOCATION. Root and an independent reviewer accepted RI295's
+complete marked nine-ideal H row. Its two-chain transports give
+q_H({r,o})=(11/2)b_o and the two three-vertex values (65/2)O_l and (65/2)O_i.
+The singleton and chain-pair component scales are record independent;
+their root-dependent probabilities are not asserted equal. Complete
+normalization is F_H=1-X-Y and total height is 1-X. All ordered root pairs,
+leaf markings, maximal-deletion presentations and labeled ideals remain.
+
+The old trial with O_l=1/8 cannot extend to H: one ideal would have
+probability 65/16>1. A different formal assignment with O_0=O_1=1/352
+satisfies every stated H/N/U constraint while retaining 7n_0<2n_1.
+Its H full values are 5042/46464, 5127/46464 and 5212/46464, with both
+mixed-root rows retained. Proper, full and height margins hold; a finite
+signed interval of h/n and U-full compensation preserves the displayed
+constraints. This proves non-implication only for S_HNU(0). It is not
+native data, a full-law counterexample or full-law nonderivability.
+H constrains the U singleton sums, but does not close the combined
+117|Delta(O+D+F)|<=11(n_i0+n_i1) comparison in this relaxation.
+
+Root OBSCURED-ID-00363 verified 381 identities, 375 direct roles/11,322,889 bytes
+and all 360 inherited roles. Independent OBSCURED-ID-00364 passed 36,400 custody
+predicates plus readback and manually reviewed both entire proofs.
+Root read the complete independent narrative/checker and genuine author
+source/modes; OBSCURED-ID-00365 rechecked both 381 identity sets and the eight-file
+review seal. Fifteen whole typed/raw boundaries and 423 unexpanded
+references remain. RI295_ROOT_ADJUDICATION.json is 2,931 bytes /
+`OBSCURED-ID-00366`.
+Administrative checks and manual mathematical acceptance remain distinct.
+
+After adjudication, root assigned RI300 to Quantum Relativity: verify
+the complete marked h-component incidence, then derive its exact
+fixed-rest feasibility interval and sharp conditional endpoint criterion
+for r>=2/7. Both j rows, all margins, any cross-l coupling and degenerate
+endpoints must be retained. A stronger whole-law claim requires a proof
+of complete incidence from admitted text. No automatic B/K/V expansion
+or coefficient acquisition is assigned. Root OBSCURED-ID-00367 created and verified
+empty `OBSCURED-LOCATION-00160`. QR has now delivered its six-file
+interval/endpoint packet; RI303 independent review is active, and root has
+not accepted the new theorem or assigned its successor. RI300 handoff is
+89,368 bytes / `OBSCURED-ID-00368`.
+RI300_ASSIGNMENT.json is 2,097 bytes /
+`OBSCURED-ID-00369`.
+Actual ratio, middle-mark equality, canonical caps/dual, kappa gap, C_b,
+normalized witness and global sufficiency remain open. The original
+thirteen equations/ten unknowns, u2=-1, complete forms/recovery and strict
+restoration/endpoints remain; RET alone is paused.
+
+RI296 connects the accepted memory repair to the caller. Only the three
+source-original/pin rows and genuine integrated-root reference change in
+TARGET_CLOSURE; caller_contract changes only its matching TARGET_PIN.
+All 30 source rows, 11 helpers, 8 capture modules and 17 stage roles are
+preserved. Nine helper contents and all 124 opaque history rows remain
+identical. Independent OBSCURED-ID-00370 passed 3,026 predicates across 100 stable
+source/admin identities; root OBSCURED-ID-00371 rechecked all identities, both seals
+and full forward/inverse changes before accepting source only.
+RI296_ROOT_CALLER_SOURCE_ADJUDICATION.json is 2,225 bytes /
+`OBSCURED-ID-00372`.
+
+RI301 prepared the final 41 source/helper files in the fresh
+`OBSCURED-LOCATION-00161` namespace. Root admitted and ran
+exactly the unchanged 65 nonscientific caller guards: OBSCURED-ID-00373/session OBSCURED-ID-01410
+completed in OBSCURED-ID-00374, exit zero, all 65 passed. All 41 file identities,
+CONTROL_EXPECTATIONS.json outside the seven captured helpers, and the
+interpreter binding remained unchanged; stdout/stderr were empty.
+Root OBSCURED-ID-00375 reconciled every outcome, the twelve complete first-error
+receipts and seven runtime-fixture outcomes. RI301_GUARD_ACTUAL_OUTCOME.json
+is 1,936 bytes / `OBSCURED-ID-00376`;
+the genuine outer is 1,716 bytes /
+`OBSCURED-ID-00377`.
+Independent OBSCURED-ID-00378 passed 19,691 custody predicates over 1,226 regular
+identities; supplemental 40813489 passed 41 preparation/dispatch/current
+identity checks. The retained fixtures contain 1,172 files, 170 directories
+and 44 literal, unfollowed links. Root OBSCURED-ID-00379 rechecked the complete fixture
+node set and identities; OBSCURED-ID-00380 authenticated the review seal and all 41
+source/helper identities before accepting this exact guard execution.
+RI301_ROOT_GUARD_ACCEPTANCE.json is 4,892 bytes /
+`OBSCURED-ID-00381`;
+RI301_CALLER_SOURCE_ACCEPTANCE.json is 18,028 bytes /
+`OBSCURED-ID-00382`.
+The independent review retains diagnostic OBSCURED-ID-00383: its initial checker
+incorrectly expected the saved-result reference to remain unchanged in
+an intentionally altered fixture. The corrected expectation also checks
+the dependent result and assembly pins; the original checker is retained.
+The guard campaign was not rerun. These are nonscientific fixture guards
+and source acceptance, with no runtime qualification or repaired RSS claim.
+
+RI302's bounded runtime-applicability design is sealed in
+`OBSCURED-PATH-00001`; root has read its plan.
+The old acceptance cannot be reused verbatim for the changed final tuple.
+The existing profile evidence has no automatic expiry: a new, minimal
+current-runtime comparison must establish whether its exact premises
+still hold, with separate custody for the final sources and launch context.
+Any mismatch must be preserved and diagnosed before selecting genuinely
+missing observations. The sealed handoff is 1,527 bytes /
+`OBSCURED-ID-00384`.
+Root review of the exact proposed checker/recipe and the current comparison
+remain next. This design creates no runtime acceptance, freeze, mode card
+or scientific retry.
+
+The RI288 failed normal attempt remains immutable: sampled RSS OBSCURED-METRIC-01454 KiB
+exceeded the unchanged 524,288 KiB limit. Its full samples, 99 regular
+files, four directories and two literal links remain retained. There is
+no completed normal qualification, optimized admission or real GWOSC
+analysis. Repaired peak RSS and 180-second suitability remain unmeasured.
+Next measurement work must satisfy the existing final-tuple runtime,
+freeze/custody and fresh normal admission prerequisites. Successful
+qualification then supports the selected public GWOSC conventional
+reproduction; calibration and a native forward map remain separate.
+
+RI299 checkpoints only the four coordination fronts. Whole prior bodies,
+original review, unrelated edits and failed-run custody are preserved.
+New proof/review/source records remain external publication backlog;
+root records are in `OBSCURED-LOCATION-00094`.
+Current clipping and the premature read of an absent measurement-review
+file are disclosed in the root adjudication; neither is proof or execution
+failure. All prior diagnostics remain. The programme is ongoing.
+
+No new remote push was attempted. Automatic approval review still blocks
+public publication pending the existing explicit human approval of audited
+hostname/system/path/filesystem metadata disclosure. Its pending scope is
+eight commits through OBSCURED-ID-00284; later coordination checkpoints are separate.
+Read-only remote check OBSCURED-ID-00385, exit zero, verified origin/ret as `OBSCURED-ID-00283`.
+No force push, transport bypass or broad staging is authorized.
+
+**Prior checkpoint — paired native contrast accepted; integrated memory source repair accepted and H-row/caller closure work assigned.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI289's complete
+marked common-complement theorem, exact paired U contrast and the explicitly
+limited S_NU(0) counterassignment. The two J diamonds retain all three maximal
+presentations, whole payloads, carrier marks, both newborn bits and labeled
+occurrences. They prove q_N({o}) record independent and q_N({r,o}) dependent
+only on the trunk bit. All seven proper N slots then give
+n_i0+h_i0=n_i1+h_i1=C_i. The h/U-pair transport still retains BOTH ordered
+root marks; no equality between the two h values is assumed.
+
+Complete U rows retain O_l,D_ijl,F_ijl and Lambda_ij, including both j
+consistency equations. With Z_ijl=O_l+D_ijl+F_ijl, the exact target is
+117|Z_ij0-Z_ij1|<=11(n_i0+n_i1). N height equals C_i+p_i+v_i, so it cancels
+the h contrast. A strict rational counterassignment satisfies every complete
+N/U row, displayed component relation and admitted margin in S_NU(0), but
+7n_0<2n_1. This is a non-implication for that stated row relaxation only.
+It is neither native data nor a full-law counterexample or full-law
+nonderivability result. Actual r>=2/7, the middle-mark identity, canonical
+caps/dual, cross-sector kappa gap, C_b, normalized witness and global
+sufficiency remain open. Original thirteen equations/ten unknowns, u2=-1,
+complete forms, recovery, strict restoration and endpoints remain intact.
+
+Root OBSCURED-ID-00386 authenticated 366 identities, 360 direct roles/10,508,270 bytes
+and 345 inherited roles. Independent OBSCURED-ID-00387 passed 34,971 administrative
+predicates plus readback, with manual review of both complete proofs.
+Root read its entire narrative/checker and genuine source/modes/results;
+OBSCURED-ID-00388 rechecked both 366 identity sets and the complete eight-file review
+seal. Fifteen whole typed/raw boundaries and 423 unexpanded references remain.
+RI289_ROOT_ADJUDICATION.json is 2,449 bytes /
+`OBSCURED-ID-00389`.
+Administrative custody checks and manual mathematical acceptance are distinct.
+
+After adjudication, root assigned RI295 to Quantum Relativity: derive the
+complete nine-ideal H two-chain row already linked by q_H({r,o})=(11/2)b_o.
+Test whether the displayed S_NU(0) trial extends to that precise closure,
+and distinguish an explicit failed trial constraint from a proof of the
+actual ratio. Determine whether H constrains the missing contrast or only
+b_o/C_i; no automatic B/K/V or full-system expansion is assigned. Root 005707
+created and verified empty `OBSCURED-LOCATION-00162` before author edits.
+RI295_ASSIGNMENT.json is 2,920 bytes /
+`OBSCURED-ID-00390`;
+RI295_RESERVATION.json is 564 bytes /
+`OBSCURED-ID-00391`.
+The new native turn is active. No new coefficient acquisition, protected
+source access, scientific/symbolic/graph engine or RET work is authorized.
+
+RI291 accepted the five local memory/lifetime edits after independent
+source review: incremental accumulation of unchanged serializer chunks,
+release of the independent expected fixture only after complete equality,
+and retaining only the needed W09 Gram object before fresh assembly.
+All full comparisons, refusal gates and limits remain. It found an actual
+integration defect: the qualifier still pinned the old primary. RI292 repairs
+exactly that one literal and supplies three actual candidate files, all 30
+source rows, 17 distinct roles, 10 fixed pins, 8 capture modules and 11 helper
+references. The other 27 source originals and 124 opaque history rows remain.
+Root OBSCURED-ID-00392 verified 89 whole identities and the complete five-plus-one edit
+inverse. Independent OBSCURED-ID-00393 passed 5,158 predicates/97 stable identities,
+reconstructed both complete diffs and checked the dependency map against
+caller/helper source. Root OBSCURED-ID-00394 rechecked all 89 and 97 identities plus both
+complete seals before source-only acceptance. The repaired qualifier is
+27,439 bytes / `OBSCURED-ID-00395`.
+RI292_ROOT_INTEGRATED_SOURCE_ADJUDICATION.json is 3,976 bytes /
+`OBSCURED-ID-00396`.
+
+Root assigned RI296's concrete source closure next: new TARGET_CLOSURE
+linked to that genuine integration decision, exactly three replacement
+originals/pins, then only caller_contract.TARGET_PIN and the complete
+11-helper/30-source proposal. History and the other nine helper contents
+remain unchanged. Root OBSCURED-ID-00397 verified the empty
+`OBSCURED-PATH-00002` before worker edits.
+RI296_SOURCE_ASSIGNMENT.json is 2,541 bytes /
+`OBSCURED-ID-00398`.
+No usable freeze/card, installation, guard-success record, runtime
+applicability decision, retry or operation is issued by these source packets.
+The existing 65 caller guards must genuinely cover the final helper tuple;
+the old report cannot acquire that credit by changing metadata. Existing
+runtime observations require truthful final-tuple applicability, without
+invented expiry or fictitious recapture. Root retains operational dispatch.
+
+The RI288 normal failure remains immutable: sampled RSS OBSCURED-METRIC-01454 KiB exceeded
+the unchanged 524,288 KiB limit; the owned child was killed after OBSCURED-METRIC-01495 seconds.
+All 3,643 raw samples, 99 regular files, four new directories and two literal
+links remain preserved. There is no completed normal qualification, optimized
+admission or real GWOSC analysis. The original allocation site, repaired
+peak RSS and 180-second suitability remain unmeasured. Any later attempt needs a fresh
+reviewed namespace and actual prerequisites. Public GWOSC conventional
+reproduction remains downstream of qualification; calibration and a native
+forward map remain separate scientific obligations.
+
+RI294 is a scoped four-front checkpoint. Earlier text is preserved as
+history; unrelated repository edits, failed-run custody and original review
+remain unchanged. New proof/review/source records remain external publication
+backlog. Root records are in `OBSCURED-LOCATION-00094`.
+All actual diagnostics and unexecuted draft corrections remain disclosed;
+clipped displays receive no complete-read credit. The programme continues,
+with native and measurement work assigned; RET alone remains paused.
+
+No new remote push was attempted. Automatic approval review still blocks
+public publication pending the existing explicit human approval of audited
+hostname/system/path/filesystem metadata disclosure. Its pending scope is
+eight commits through OBSCURED-ID-00284; later coordination checkpoints are separate.
+Last verified origin/ret is `OBSCURED-ID-00283`.
+No force push, transport bypass or broad staging is authorized.
+
+**Prior checkpoint — asymmetric native exchange accepted; paired N/U proof assigned and normal qualification memory failure preserved.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI286's asymmetric
+finite exchange, conditional low-t cap localization, original-row dual identity
+and the limited normalization-bound audit. The direction fixes every xi,
+decreases kappa, increases both mu by a0/H and increases only low-t nu by
+a0(1-rho)/N. Complete marked-row slopes and a positive finite half-minimum step
+retain all nonnegativity and slack obligations. Here H=max(t_j), L=min(t_j),
+rho=L/H, N=max(n_l) and r=min(n_l)/N. Finite feasibility requires every
+carrying mu row slack and, when H>L, every low-t nu row slack. Its full reward is
+G=(3pa0/1280)(1-rho)(56r-16)/9. Strict gain needs H>L and r>2/7;
+r=2/7 or H=L uses the full original kappa-first canonical order. Negative gain
+cannot be rescued by lexicographic preference. At positive canonical kappa,
+H>L and r>=2/7 force a mu cap or a low-t nu cap; H=L forces a mu cap without
+the ratio premise. The original dual retains zero-coordinate reduced costs;
+only strict gain guarantees positive weighted cap mass.
+
+Complete N normalization identifies the exact missing comparison. Accepted
+fixed-prefix margins imply F*<=n<=U_i=T*-p_i-145/704, but the particular bound
+F*/U_i<18/65<2/7 does not reach the target. This proves neither actual r<2/7
+nor nonderivability from the full law. Actual ratios, caps and coefficients,
+the cross-sector 1/70 kappa gap, C_b, normalized witness and global sufficiency
+remain unresolved. Original equations, complete forms, strict restoration,
+fifteen typed/raw boundaries and 423 unexpanded references remain intact.
+
+Root OBSCURED-ID-00399 authenticated 351 identities, 345 direct roles/9,796,863 bytes
+and 330 inherited roles. Independent OBSCURED-ID-00400 passed 33,574 administrative
+predicates plus readback and manually reviewed both complete proofs and the
+accepted normalization. Root read the full checker, genuine source/modes,
+proofs, verdict and independent narrative; OBSCURED-ID-00401 rechecked both 351 identity
+sets and the entire eight-file independent seal. Root adjudication
+RI286_ROOT_ADJUDICATION.json is 1,887 bytes /
+`OBSCURED-ID-00402`.
+Manual mathematical acceptance is distinct from administrative custody checks.
+
+After acceptance, root assigned RI289 to Quantum Relativity: prove or reject
+the paired N/U normalization comparison needed for both labeled ratio bounds.
+First verify proposed marked transports implying n_i0+h_i0=n_i1+h_i1=C_i;
+then test 7max(h_i0,h_i1)-2min(h_i0,h_i1)<=5C_i against complete paired rows.
+The common complement alone cancels h from the height sum and does not improve
+RI286's interval. An additional correlated row constraint is necessary.
+A subsystem obstruction would not refute the actual native law. No new
+coefficient acquisition, protected-source access or mathematical engine is
+authorized. RI289_ASSIGNMENT.json is 3,474 bytes /
+`OBSCURED-ID-00403`.
+Root OBSCURED-ID-00404 verified and bound the empty `OBSCURED-LOCATION-00163`
+reservation before edits. RI289_RESERVATION.json is 582 bytes /
+`OBSCURED-ID-00405`.
+The proof lane remains assigned and active; no new RI289 lemma is accepted.
+
+RI288 completed the missing current-runtime comparison before dispatch:
+all 9,923 runtime/selection records, 258,862,951 bytes, six phases and host/link
+boundaries passed (OBSCURED-ID-00406/session OBSCURED-ID-01411 -> OBSCURED-ID-00407). Independent saved review
+verified the complete arrays and genuine result; its 6,044-byte outcome review
+has SHA256 `OBSCURED-ID-00408`.
+Separate current source/card/E/supplier checks passed OBSCURED-ID-00409 ->OBSCURED-ID-00410.
+Root then used the existing normal admission exactly once, with no rebuilt
+card, changed threshold or invented expiry. Actual OBSCURED-ID-00411/session OBSCURED-ID-01412,
+poll OBSCURED-ID-00412 and terminal OBSCURED-ID-00413 record outer exit 1 with empty tool output.
+
+The saved supervisor reports refused_or_failed: sampled resident memory
+OBSCURED-METRIC-01454 KiB exceeded the fixed 524,288 KiB limit. It killed and reaped its
+owned child (exit -9) after OBSCURED-METRIC-01495 seconds. All 3,643 monitor samples and
+partial files remain; stdout/stderr are empty and WORKER/CUSTODY are absent.
+All eight supervisor postchecks report no error. SUPERVISOR.json is
+1,067,435 bytes / `OBSCURED-ID-00414`.
+The complete failed attempt is not qualification success. No retry, optimized
+admission, normal acceptance or real GWOSC analysis follows from these partials.
+Post-runtime check OBSCURED-ID-00415/session OBSCURED-ID-01413 ->OBSCURED-ID-00416 passed all 9,923 records;
+its 6,624,263-byte report has SHA256
+`OBSCURED-ID-00417`.
+Root OBSCURED-ID-00418/session OBSCURED-ID-01414 ->OBSCURED-ID-00419 then preserved complete failed-run custody:
+all 3,115 prior file identities, 202 directories and ten supplier links remain
+checked, with only the explicit normal-root entry/state transition allowed.
+Its exact new subtree has 99 regular files, four directories and two literal
+control symlinks; links are recorded without following them. The 2,202,358-byte
+RI288_POST_FAILURE_CUSTODY.json has no errors and SHA256
+`OBSCURED-ID-00420`.
+Independent diagnosis reconstructed all 3,643 raw monitor attempts and complete
+namespace metadata with 25,561 checks. It supplied an unapplied three-file
+repair: accumulate unchanged JSON chunks incrementally, release the independent
+expected fixture after full equality, and retain only the needed W09 Gram object
+before fresh assembly. Every comparison and refusal gate remains required.
+The exact allocation site and repaired RSS remain unmeasured. The 2,948-byte
+source-only seal has SHA256
+`OBSCURED-ID-00421`;
+root authenticated all sixteen payloads and assigned a separate source review
+in `OBSCURED-LOCATION-00164`. No repair is accepted or executed.
+Root failure disposition OBSCURED-ID-00422 is RI288_ROOT_FAILURE_DISPOSITION.json,
+2,977 bytes / `OBSCURED-ID-00423`.
+The memory limit stays fixed; any repaired attempt needs a fresh reviewed
+recovery path and reservation, preserving this consumed attempt unchanged.
+Public GWOSC conventional reproduction remains downstream of qualification;
+calibration and the native forward map remain separate scientific obligations.
+
+RI290 is a four-front coordination checkpoint. All earlier text is preserved
+as history, unrelated repository edits remain untouched, and new native/review
+and failure records remain external publication backlog. Root records are in
+`OBSCURED-LOCATION-00094`. Genuine normal tool transcript is
+RI288_GENUINE_NORMAL_TOOLS.json, 2,419 bytes /
+`OBSCURED-ID-00424`.
+Display truncations receive no complete-read credit; all actual failures and
+earlier diagnostics remain preserved. The programme remains active; RET alone
+remains paused.
+
+Remote origin/ret was freshly verified by read-only OBSCURED-ID-00425 as
+`OBSCURED-ID-00283` (sandbox DNS failure OBSCURED-ID-00426
+preceded that successful read). The push remains blocked by automatic approval
+review pending explicit human approval of the audited public disclosure of
+hostname/system/path/filesystem metadata. The pending question covers eight
+commits through OBSCURED-ID-00284; later coordination-only local checkpoints are separate.
+No additional push or transport bypass was attempted.
+
+**Prior checkpoint — selective xi obstruction accepted; asymmetric native exchange assigned and normal readiness clarified.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI283's conditional
+selective-xi finite exchange and original-row dual obstruction. For the complete
+set A of pairs carrying a tight P_nu row, compensation retains every marked
+row, both xi reward parents and finite nonnegativity/slack margins. A singleton
+smaller-n pair has normalized gain 4/9+28r/9+4rho(1-r)>0. At a primary optimum,
+positive kappa with this pattern therefore requires its selected xi to vanish
+or a positive-slope P_mu cap to be tight. Equal n gives singleton gain 32/9;
+all-four compensation has strictly negative gain and is not a universal repair.
+For zero gain, the full original kappa-first order supplies canonical descent.
+The exact dual identity retains both negative reduced-cost terms before their
+positivity hypotheses; any optimal dual then has B_mu=G_A+L_P+L_tau,A+R_inc.
+Actual A, xi positivity, coefficients/caps, the cross-sector 1/70 kappa gap,
+C_b, a normalized witness and global sufficiency remain unresolved.
+
+Root OBSCURED-ID-00427 authenticated 336 whole identities, 330 direct roles/9,102,680 bytes
+and 315 inherited roles. Independent OBSCURED-ID-00428 checked 32,169 predicates plus readback
+and manually reviewed both complete manuscripts and the accepted incidence,
+reward and full-order premises. Root read the full independent narrative and
+checker (OBSCURED-ID-00429/OBSCURED-ID-00430), complete author source/modes/results and both proofs.
+Root OBSCURED-ID-00431 rechecked both 336 identity sets and the entire eight-file review seal,
+then saved RI283_ROOT_ADJUDICATION.json, 1,979 bytes /
+`OBSCURED-ID-00432`.
+The independent seal is 4,516 bytes /
+`OBSCURED-ID-00433`.
+Administrative checks establish custody separately from manual mathematics.
+All fifteen typed/raw boundaries, 423 unexpanded references, original full-system
+and restoration obligations, author/ancestor diagnostics and display limits remain.
+
+After adjudication root assigned RI286 to Quantum Relativity: test an asymmetric
+middle-mark exchange holding every xi fixed, addressing the surviving zero-xi
+blocker. The candidate decreases kappa, increases both mu by a0/H and increases
+only the low-t nu by a0(1-rho)/N. Prove complete finite feasibility and full reward,
+the conditional low-t cap localization, original-order zero-gain cases and the
+negative-gain control; determine whether accepted bounds alone imply r>=2/7.
+The proposed gain (3pa0/1280)(1-rho)(56r-16)/9 is a candidate awaiting review.
+No actual coefficient acquisition or protected-source reopening is authorized.
+RI286_ASSIGNMENT.json is 4,638 bytes /
+`OBSCURED-ID-00434`.
+Root OBSCURED-ID-00435 verified the empty `OBSCURED-LOCATION-00165` reservation and
+bound it before edits. RI286_RESERVATION.json is 598 bytes /
+`OBSCURED-ID-00436`.
+The native lane is assigned and active; no RI286 theorem is accepted here.
+
+RI285 independently checked the exact prospective normal WHITE invocation against
+the installed normal card/freeze and genuinely accepted RI249 pre-mode chain.
+The 31 administrative predicates/19 pins passed (398705); normal, optimized and
+tmp outputs were empty and optimized authority remained absent. Root read the
+whole readiness report/checker/comparison/diagnostics and RI249 recipe, then
+rechecked the entire five-file review and 19 pins (OBSCURED-ID-00437). Its root review is
+RI285_ROOT_READINESS_REVIEW.json, 1,153 bytes /
+`OBSCURED-ID-00438`.
+No preparation stage was found missing: the installed admission and accepted
+pre-mode evidence have no invented expiry. Repeated profiles/guards, a rebuilt
+card and new user permission are not required merely because time or intervening
+metadata work occurred. Current unchanged scientific-runtime/supplier/host/source
+and complete normal_admitted custody must still apply at the actual invocation.
+The current coverage comparison identifies a concrete gap: the RI280 postflight
+contains only one of 9,923 admitted scientific-runtime/selection file rows, while
+all 442 source/history rows are covered. Its directory/link inventory also omits
+the scientific optional-native roots and twelve scientific binding links. This
+is missing fresh coverage, not observed drift or expiry. RI280's accepted metadata
+operation is not scientific-runtime collection or WHITE qualification. Root has
+not executed the prospective normal command. Use it once after that current check, preserve all partials/failures and genuine pre/post
+records, and obtain independent complete saved arithmetic/outcome review before
+optimized admission. Public GWOSC conventional reproduction remains downstream;
+calibration and a native forward map remain separate obligations.
+
+The human's push retry remains blocked by automatic approval review. It requires
+explicit approval to publish the audited proof/source payload together with local
+hostname, system, path and filesystem metadata to the confirmed public repository.
+That question remains unanswered; no retry or transport bypass was attempted.
+Last verified remote origin/ret is OBSCURED-ID-00283.
+The pending question covers the eight audited commits through OBSCURED-ID-00284; later
+coordination-only checkpoints are separate local updates, not remote publication.
+
+Native/root records remain under external `OBSCURED-LOCATION-00094`;
+RI285 is `OBSCURED-PATH-00003`, handoff 1,600 bytes /
+`OBSCURED-ID-00439`.
+RI287 changes only the four coordination fronts and preserves all earlier text
+as historical checkpoints. Its read-only validator retains the 6,346 unrelated
+repo identities and actual RI280/E/D/O custody checks. New source/review packets
+remain external publication backlog. Next root action is current normal dispatch
+custody and the existing qualification recipe, alongside independent review of
+RI286 when sealed. The DET programme remains active; RET alone remains paused.
+
+**Prior checkpoint — coupled native exchange and actual dispatch accepted; selective xi extension under review.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI282's coupled finite
+kappa-to-mu/nu exchange and weighted original-row dual obstruction. At the same
+actual rest, positive kappa at a primary optimum forces a tight complete P_nu
+row or a tight P_mu row in a positive-slope group. This removes RI279's need
+for the optional middle-mark equality in this necessary cap alternative.
+With rho=L_t/H_t and x=(n_0+n_1)/max(n_0,n_1), the exact normalized gain is
+-8(1-rho)+x(76/9-4rho)>4/9+4rho>0. Finite slack/nonnegativity margins, every
+marked row and both nu reward parents are retained. Any original optimal dual
+has positive weighted cap mass, with reduced costs at zero coordinates retained;
+the positive row need not be the same across duals. Actual support, coefficients,
+the cross-sector 1/70 kappa gap, C_b and global sufficiency remain open.
+
+Root OBSCURED-ID-00440 authenticated 321 identities, 315 direct roles / 8,419,506 bytes
+and 300 inherited roles. Independent OBSCURED-ID-00441 checked 30,759 predicates / 321
+identities and manually reviewed both full manuscripts. Root read the complete
+proofs, genuine author checker source/modes/results and full nonauthor narrative.
+Root OBSCURED-ID-00442 rechecked both identity sets and the entire eight-file review seal,
+then saved RI282_ROOT_ADJUDICATION.json, 1,889 bytes /
+`OBSCURED-ID-00443`.
+Administrative custody checks are distinct from manual mathematical acceptance.
+All fifteen typed/raw boundaries and 423 unexpanded references remain closed;
+all author/ancestor diagnostics and clipped-display limits remain preserved.
+
+After acceptance, root assigned RI283 to Quantum Relativity: test selective xi
+compensation of the accepted coupled direction, especially exactly one rescuable
+tight P_nu pair in the smaller-n group. It must include full xi reward loss,
+all finite margins and the negative control for compensating all four xi entries.
+This is a candidate, not an accepted cap-pattern exclusion or gap theorem.
+RI283_ASSIGNMENT.json is 3,739 bytes /
+`OBSCURED-ID-00444`.
+Root OBSCURED-ID-00445 bound the empty `OBSCURED-LOCATION-00166` reservation
+before edits; its 600-byte reservation record has SHA256
+`OBSCURED-ID-00446`.
+RI283 is now sealed at 65,931 bytes /
+`OBSCURED-ID-00447`.
+A nonauthor has been assigned its complete proof and actual-check review;
+its new cap-pattern/dual claims remain unaccepted. No successor is assigned
+before adjudication. The native lane remains active in independent review.
+
+RI280 progressed from accepted source to one actual bounded metadata operation.
+Fresh startup/host observations passed; preflight OBSCURED-ID-00448/session OBSCURED-ID-01415 ->107069,
+issue OBSCURED-ID-00449/session OBSCURED-ID-01416 ->OBSCURED-ID-00450 and predispatch OBSCURED-ID-00451/session OBSCURED-ID-01417 ->OBSCURED-ID-00452
+all passed and were inspected before the next phase. Root OBSCURED-ID-00453 rechecked the
+complete final identities, issued controls and exact sealed operation recipe.
+Actual OBSCURED-ID-00454 exited zero with empty output; no retry occurred. Postflight
+OBSCURED-ID-00455/session OBSCURED-ID-01418 ->OBSCURED-ID-00456 passed all six groups with no recorded errors.
+POSTFLIGHT.json is 16,094,765 bytes /
+`OBSCURED-ID-00457`.
+The sampled monitor recorded 19 samples, OBSCURED-METRIC-01455 KiB peak, OBSCURED-METRIC-01496 seconds,
+OBSCURED-METRIC-01497 seconds maximum sample gap and OBSCURED-METRIC-01498 seconds final gap, within
+the unchanged bounds. Sampled RSS is not a continuous memory bound.
+
+D269 now contains its two issued controls and four monitor files, and O269 has
+three actual metadata outputs. The six-field RESULT is only the exact prospective
+WHITE invocation. Root has not executed it. Installed E remains unchanged with
+fifty files/nine directories and empty scientific run directories; no optimized
+authority, WHITE qualification credit, calibration or native forward map follows.
+A nonauthor independently reconstructed the complete actual outcome, genuine
+tool chain, all 19 raw samples, seven adapter tails/13 source roles/567 ordered
+dependencies and preserved source/supplier custody. Its actual check
+OBSCURED-ID-00458/session OBSCURED-ID-01419 ->OBSCURED-ID-00459 passed; 1,129,124 serialized administrative
+predicates do not count as scientific tests. The full thirteen-file independent
+seal is 5,408 bytes /
+`OBSCURED-ID-00460`.
+Root OBSCURED-ID-00461 first passed report/group/identity checks, then a display-only type
+assumption failed; OBSCURED-ID-00462 corrected the summary without replaying the operation.
+Root read the full narrative and checker, authenticated the whole independent
+seal, and rechecked 3,115 files/202 directories/10 supplier links. Root OBSCURED-ID-00463
+accepted this one metadata operation in RI280_ROOT_ACTUAL_ADJUDICATION.json,
+4,379 bytes /
+`OBSCURED-ID-00464`.
+Ordinary administrative startup, genuine service origin, loader/shared-cache,
+stable suppliers and finite sampled-resource premises remain explicit. This
+decision creates no new scientific or operational authorization.
+
+The human requested a remote push retry. Automatic review rejected the exact
+normal push before execution. Read-only OBSCURED-ID-00465 confirms origin/ret remains
+`OBSCURED-ID-00283`; GitHub API OBSCURED-ID-00466 confirms the
+configured public `omekagardens/det_8_framework` repository. A local audit covered
+all eight pending commits through OBSCURED-ID-00284, 281 introduced blob versions including
+gzip, and all 254 archived files against eight manifests. No concrete credential
+or protected-body leak was identified; this is not a guarantee of secret absence.
+The payload includes intended full proof/source material and local hostname,
+system/path/filesystem metadata. After those findings were supplied, automatic
+review still required explicit human approval of this concrete public disclosure.
+That question is pending. No push ran, no transport bypass or history rewrite
+occurred, and no remote publication success is claimed.
+
+Native decisions are under external `OBSCURED-LOCATION-00094`;
+actual measurement records under `OBSCURED-LOCATION-00167`, both in
+`OBSCURED-PATH-00004`. The push audit is sealed at
+`OBSCURED-PATH-00005`, 1,460 bytes /
+`OBSCURED-ID-00467`.
+This checkpoint changes only the four coordination fronts. All new source and
+review packets remain external publication backlog; unrelated edits remain.
+Next: central root checks the accepted exact proposal against the unchanged
+normal admission/freeze and all remaining prerequisites, then performs the
+separately admitted normal qualification when eligible, with independent actual
+outcome/arithmetic review before optimized or conventional public-data work.
+Independently adjudicate the now-sealed RI283 before choosing its successor. The DET programme remains active and RET alone remains paused.
+
+
+**Prior checkpoint — finite exchange accepted, selector archive preserved and dispatch source reviewed.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI279's marked K
+reduction and finite weighted exchange. Complete normalization leaves t_ij;
+the exact K/U diamond retains four ordered Lambda_ij components. The optional
+middle-mark equality remains unproved. At primary optimality the exchange
+requires Theta <= 16; original canonical selection strengthens this to
+Theta < 16. Positive canonical kappa therefore requires a complete P_mu row
+tight, or unequal t values with a larger-potential active P row in each of
+the two cap-slack groups. The stronger unconditional cap claim is not proved.
+Actual kappa gap, C_b, normalized witness and global sufficiency remain open.
+
+Root OBSCURED-ID-00468 authenticated 306 identities, 300 direct roles / 7,756,925 bytes
+and 285 inherited roles. Independent OBSCURED-ID-00469 passed 9,621 predicates / 307
+opaque files. Root read both full manuscripts, admitted premises, actual
+author source/modes/results and complete independent narrative. Root OBSCURED-ID-00470
+rechecked both complete identity sets and the eight-file review seal, then
+accepted RI279_ROOT_ADJUDICATION.json, 1,902 bytes /
+`OBSCURED-ID-00471`.
+These administrative checks support custody, separately from manual proof.
+All fifteen typed/raw boundaries and 423 unexpanded references remain closed.
+Original diagnostics, two wording refinements, clipped-display limits and
+recovered root filename misses are retained without complete-read credit.
+
+After adjudication root assigned RI282 to Quantum Relativity: test a coupled
+kappa-to-mu/nu finite exchange that may force a complete P_nu cap, or a P_mu
+cap in a positive-slope group, without the missing middle-mark identity.
+Its proposed strict objective gain and weighted original-row dual consequence
+are candidates awaiting proof, not accepted results. All marked rows, finite
+margins, ties, zero caps and actual same-rest restrictions must survive.
+Assignment: 3,706 bytes /
+`OBSCURED-ID-00472`;
+reservation `OBSCURED-LOCATION-00168`, bound by root OBSCURED-ID-00473
+before edits. The native lane is active; no protected acquisition was opened.
+
+RI281 preserves historical accepted RI268 at
+`docs/track_b/native_original_sector_selector_v1/`: 25 files, 22 complete
+originals, nineteen exact copies and three lossless gzip representations.
+The six-file author packet, eight-file independent review, four root records
+and four bounded dependencies are included. Full current closure has 259
+rows and 916 embedded FilePin occurrences. Independent OBSCURED-ID-00474 passed 37,560
+predicates / 519 identities. Root OBSCURED-ID-00475/session OBSCURED-ID-01420 -> OBSCURED-ID-00476 verified all
+237 proposed aliases against parent Git blobs at `OBSCURED-ID-00477`.
+Candidate declarations that Git verification was pending remain exact historical
+bytes; this root check supplies the later verification. Root
+206900/session OBSCURED-ID-01421 -> OBSCURED-ID-00478 accepted publication after complete seal and
+identity rechecks: RI281_ROOT_PUBLICATION_ADJUDICATION.json, 1,401 bytes /
+`OBSCURED-ID-00479`.
+Scoped copy OBSCURED-ID-00480 preserved exact bytes. No new theorem or runtime authority
+comes from the archive; the 423 closed descendants remain unexpanded.
+
+Measurement RI280's complete four-phase coordinator source passed separate
+review. Independent OBSCURED-ID-00481 checked 14,012 predicates / 104 selected files;
+root OBSCURED-ID-00482 checked the complete source correspondence, saved domains and
+fixed recipes, then read the entire nonauthor review. Root OBSCURED-ID-00478 accepted
+RI280_ROOT_SOURCE_ADJUDICATION.json, 1,792 bytes /
+`OBSCURED-ID-00483`.
+This accepts unexecuted source only. D269's nine prepared files remain
+unissued, both new controls and O269 remain absent, and installed E remains
+fifty files/nine directories with empty scientific run directories.
+
+The next measurement action is central root's genuine fresh startup/host and
+complete preflight, followed by inspected issuance, predispatch, one separate
+metadata invocation and independent review of its actual outcome. The returned
+WHITE invocation is only a proposal; existing qualification and execution gates
+remain. Public GWOSC qualification then conventional reproduction remains the
+measurement direction; calibration and a native forward map are distinct.
+RET alone remains paused. RI279/280/282 packets and packaging-review receipts
+remain external publication backlog, not silently included in this archive.
+
+Native decisions live under external `OBSCURED-LOCATION-00094`;
+measurement/publication decisions under `OBSCURED-LOCATION-00169`,
+both within `OBSCURED-PATH-00004`. This checkpoint
+adds only the reviewed archive and four coordination updates, preserving all
+6,321 unrelated baseline identities and accepted installed/prepared custody.
+Remote push remains blocked by the prior automatic destination/payload approval
+rejection with human approval pending; no retry or remote success is claimed.
+Last actual read-only remote OBSCURED-ID-00484 found origin/ret at
+`OBSCURED-ID-00283`. The programme continues.
+
+
+**Prior checkpoint — enlarged mu theorem and actual unissued preparation accepted; finite exchange active.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI276's conditional
+26-coordinate enlargement. Four original mu allocations now vary alongside the
+previous 22. Complete P/P_mu incidence and whole-history rewards give sixteen
+unique recovered coordinates at fixed retained variables and kappas. Kappa
+maximizers may occupy an entire interval: the result preserves all such fibers,
+the enlarged common-price primary face and the original kappa0-then-kappa1
+selector. Actual coefficients, capacities, prices, kappa gap and C_b remain
+unevaluated. This is a necessary restricted-block condition at the same actual
+canonical rest, not global sufficiency or a physical forward map.
+
+Root metadata check OBSCURED-ID-00485 authenticated 291 identities, 285 direct roles /
+7,126,850 bytes and 270 inherited roles; the nonauthor's OBSCURED-ID-00486 checked 9,146
+predicates / 292 opaque files. Root read both complete manuscripts, the genuine
+author check source/modes/results and complete independent narrative. Root
+OBSCURED-ID-00487 rechecked all root/reviewer identities and the entire eight-file review
+seal, then accepted RI276_ROOT_ADJUDICATION.json: 1,888 bytes /
+`OBSCURED-ID-00488`.
+Administrative checks establish custody; manual reasoning supports the theorem.
+The root's first schema-comparison checker failure 372660 is retained: reviewer
+four-field identities required explicit projection from the helper's six fields,
+plus literal-path/no-link checks. It was corrected before any decision was saved.
+Author diagnostic limitations, all fifteen typed/raw boundaries and 423
+unexpanded references remain unchanged.
+
+After adjudication, RI279 was assigned to Quantum Relativity. It tests whether
+admitted K normalization/diamonds eliminate the optional-mark dependence of t_K,
+then proves or obstructs a finite kappa-to-mu exchange with all active P rows,
+cap ties, inactive margins and original first-difference order. The target is a
+new necessary obstruction: positive canonical kappa forces a complete P_mu row
+tight, if the needed coefficient identity holds. Otherwise the exact weighted
+active-row inequality and missing premise must remain explicit. This does not
+establish the 1/70 gap. Assignment: 3,624 bytes /
+`OBSCURED-ID-00489`;
+root-bound reservation `OBSCURED-LOCATION-00170` (OBSCURED-ID-00490). All original
+protected scientific and RI250 acquisition/execution routes remain closed.
+
+Measurement RI277's decision-binding repair passed separate source review:
+RI277_ROOT_SOURCE_ADJUDICATION.json, 1,529 bytes /
+`OBSCURED-ID-00491`.
+Root then authorized and performed one 300-second-bounded administrative
+preparation: OBSCURED-ID-00492/session OBSCURED-ID-01422 -> OBSCURED-ID-00493 exit0. Its nine artifacts are complete
+and remain unissued. Root OBSCURED-ID-00494/session OBSCURED-ID-01423 -> 095907 independently reconstructed
+all 3,072 inputs, 129 ordered roles / 8,761 occurrences, nine artifacts and six
+complete tails. Independent OBSCURED-ID-00495/session OBSCURED-ID-01424 -> OBSCURED-ID-00496 checked the same full
+contract and 3,093 fresh identities; 76,946 predicates passed. Root OBSCURED-ID-00497
+read the complete review, authenticated its twelve-file seal, rechecked the
+3,093 identities and accepted ROOT_PREPARATION_ADJUDICATION.json: 1,914 bytes /
+`OBSCURED-ID-00498`.
+
+D269 contains exactly nine regular files plus empty tmp/monitor. No new metadata
+card or dispatch was issued; O269 remains absent. Installed E remains fifty
+files/nine directories, with both scientific run directories empty. Fresh host
+and selected administrative startup observations support the explicitly retained
+root startup premise; no full administrative runtime closure or scientific
+qualification is claimed. RI272's rejected source and all real diagnostics are
+preserved. Preparation acceptance adds no scientific qualification credit.
+
+RI280 now prepares the minimum concrete issuance/check/dispatch_spec recipe from
+the already accepted source in `OBSCURED-PATH-00006`.
+Actual issuance and execution remain central root work after source review and
+fresh prerequisites. The metadata action will return a prospective invocation;
+a scientific run requires its own existing gates. Public GWOSC qualification
+and conventional reproduction remain active alongside native proof work;
+calibration and a native forward map remain distinct. RET alone remains paused.
+
+Native decisions/assignment reside under external
+`OBSCURED-LOCATION-00094`; measurement outcome and next-step
+assignment under `OBSCURED-LOCATION-00169`, both within
+`OBSCURED-PATH-00004`. These new source packets
+remain external publication backlog; RI275's accepted twenty-file archive is
+unchanged. This checkpoint updates only four coordination fronts from local
+parent `OBSCURED-ID-00499`, preserving unrelated files and
+installed/prepared custody. Remote push remains blocked by the earlier automatic
+destination/payload approval rejection, with human approval pending. Read-only
+OBSCURED-ID-00500 again found origin/ret at `OBSCURED-ID-00283`;
+no push retry or remote success is claimed. The programme continues.
+
+**Prior checkpoint — common-price theorem accepted; mu extension and preparation binding repair active.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI273's exact
+conditional local-envelope/common-price theorem. A finite nonnegative shared
+resource price exists even with zero capacities, singleton domains, flat values
+and demand ties. For ANY optimal price, the full original priced faces recover
+EVERY joint primary optimum; the original kappa0-then-kappa1 selector is retained.
+Both selected kappas vanish exactly when that joint face has a COMMON zero.
+Actual prices, capacities, kappa gap and C_b remain unevaluated. This is a
+fixed-mu restricted theorem, not global sufficiency or a physical forward map.
+
+Root OBSCURED-ID-00501 checked 276 identities and all 270 direct / 255 inherited roles;
+nonauthor OBSCURED-ID-00502 checked 8,671 predicates / 277 opaque files. Both complete
+manuscripts, genuine author preseal/final commands and the entire independent
+review were read. All fifteen typed/raw boundaries and 423 unexpanded references
+remain intact. Root decision RI273_ROOT_ADJUDICATION.json: 1,868 bytes /
+`OBSCURED-ID-00503`.
+Administrative counts are custody evidence, separate from manual proof review.
+Reviewer construction diagnostics and author notation changes remain preserved.
+
+After adjudication, root assigned RI276 to Quantum Relativity. It frees the
+four original mu allocations alongside the accepted 22-coordinate block,
+requires complete P/P_mu incidence and whole-history rewards, preserves all
+maximizing fibers, and rechecks the original kappa order. It targets a remaining
+restriction toward the actual kappa-gap question, without claiming that gap is
+solved. Reservation: `OBSCURED-LOCATION-00171` in the external evidence
+root. RI276_ASSIGNMENT.json: 4,693 bytes /
+`OBSCURED-ID-00504`.
+All original protected scientific and RI250 acquisition/execution routes remain
+closed; only accepted analytic premises and administrative custody are used.
+
+RI275 preserves the accepted RI266 theorem under
+`docs/track_b/native_joint_sector_reduction_v1`: twenty files containing fifteen
+exact originals, two lossless gzip originals and three generated records.
+The full seventeen logical originals and all 243 dependency rows are accounted
+for. Root OBSCURED-ID-00505 verified all 226 mapped Git blobs at parent OBSCURED-ID-00506;
+nonauthor OBSCURED-ID-00507/OBSCURED-ID-00508 checked the complete package and saved observations.
+Root archive decision: 1,513 bytes /
+`OBSCURED-ID-00509`.
+Compression preserves inherited EOF bytes without a whitespace exception.
+This archive is source preservation, not relocated execution or qualification.
+
+Measurement RI272 requires a confirmed source repair: its parsed root decision
+was authenticated against the CLI digest, but a later read could rebaseline the
+recorded decision pin. The nonauthor found this static mismatch; root confirmed
+it in the actual source. No replacement or executed exploit is claimed.
+RI277 now repairs the initial body/full-state binding and single-observation
+pin construction in `OBSCURED-PATH-00007`.
+Original RI272 and its review remain sealed. Repaired source acceptance, fresh
+custody, actual bounded preparation, independent outcome review and exclusive
+operational issuance remain separate. No preparation, dispatch or WHITE run
+has been admitted by this checkpoint. Installed RI265 custody remains E50/nine
+directories with both scientific run directories empty. Public GWOSC qualification
+and conventional reproduction remain the measurement direction; calibration and
+a native forward map remain distinct. RET alone remains paused.
+
+Root evidence and decisions reside under
+`OBSCURED-PATH-00008`.
+This checkpoint scopes only the twenty archive files and four coordination
+fronts, with unrelated edits preserved. Local parent is
+`OBSCURED-ID-00510`. Remote push remains blocked by the
+previous automatic destination/payload approval rejection; human approval is
+pending. No retry or successful push is claimed. Last verified origin/ret is
+`OBSCURED-ID-00283`. The native and measurement lanes
+continue beyond this bounded checkpoint.
+
+**Prior checkpoint — joint two-sector theorem accepted; common-price proof and concrete preparation code assigned.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI270's conditional
+22-to-eight reduction. Complete parent incidence leaves only V5 shared;
+both sigma occurrences give the exact constraints 2q0<=C00, 2q1<=C11 and
+q0+q1<=Cmix, retaining all marked rows and both mixed orientations.
+The fourteen eliminated coordinates have unique recovery. The joint primary
+face requires kappa0 minimization first, then kappa1 on that minimum face.
+Both selected kappas vanish iff the joint primary face contains a COMMON
+zero; separate sector zero points do not establish it. Actual capacities,
+optimizing faces, kappa gap and C_b remain unevaluated, and this restricted
+same-rest theorem does not establish global sufficiency or a physical law.
+
+Root OBSCURED-ID-00511 verified 261 identities, 255 direct sources / 6,001,695 bytes,
+240 inherited role rows and all fifteen typed/raw boundaries. Nonauthor
+OBSCURED-ID-00512 verified 8,215 predicates / 262 opaque files. The actual author
+preseal/final commands were recovered and their whole checker source/modes
+matched; both exited zero. Complete manual proof/review reads and the eight-file
+independent seal support RI270_ROOT_ADJUDICATION.json, 2,046 bytes /
+`OBSCURED-ID-00513`.
+Source checks are administrative evidence, not mathematical computation.
+
+After adjudication, RI273 was assigned to Quantum Relativity: derive exact
+local value functions and a common shared-resource price, preserve every local
+maximizing fiber and the whole joint primary face, then apply the original
+nested kappa selector. Zero capacities, endpoints, flat faces and demand ties
+must be covered; cap saturation and increasing local values are not assumed.
+RI273_ASSIGNMENT.json is 4,228 bytes /
+`OBSCURED-ID-00514`.
+Protected original scientific bodies and all RI250 acquisition/execution routes
+remain closed. This is analytic work with unchanged accepted premises.
+
+Measurement RI269 passed source-only nonauthor and root review. Root OBSCURED-ID-00515
+authenticated the complete proposal/review seals and the independently observed
+source files; the selected retained adapter returns a prospective invocation
+without launching WHITE. RI269_ROOT_SOURCE_ADJUDICATION.json is 2,398 bytes /
+`OBSCURED-ID-00516`.
+RI272 now implements the complete unissued preparation writer in
+`OBSCURED-PATH-00009`.
+Its source review, actual fresh custody, independent preparation acceptance,
+exclusive root issuance and actual metadata outcome review remain separate.
+No preparation/dispatch/WHITE execution or new qualification is credited.
+Installed RI265 custody remains E50 files/nine directories with both scientific
+run directories empty. Qualification and conventional reproduction using the
+selected public GWOSC data remain active; calibration and a native forward map
+remain distinct. RET alone remains paused.
+
+Review/assignment receipts are retained under
+`OBSCURED-PATH-00008`.
+This RI274 checkpoint changes only the four coordination fronts; the prior
+archive and all unrelated edits remain protected. Remote push is still blocked
+by the earlier automatic destination/payload approval rejection. No retry or
+successful push is claimed. Last verified origin/ret is
+`OBSCURED-ID-00283`; local parent is
+`OBSCURED-ID-00517`.
+
+**Prior checkpoint — original kappa selector accepted; joint two-sector coupling assigned.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI268 after full
+manual proof review and independent checks of the actual author commands.
+The exhaustive eight-order Q table has minimum 8988. Every other changing
+component follows kappa in the original coordinate sequence. Thus original
+canonical kappa equals min_M rho/a0 on the primary-optimal face; the mixed
+rho_min=0<rho_max case selects zero kappa. This does not evaluate actual
+capacities, rho_min, the kappa gap or C_b.
+
+Root OBSCURED-ID-00518 checked 246 identities, 240 direct sources / 5,516,359 bytes and
+225 inherited role rows; nonauthor OBSCURED-ID-00519 checked 7,762 predicates and 247
+opaque identities. The complete eight-file independent seal and recovered
+orientation clips were preserved. Decision RI268_ROOT_ADJUDICATION.json:
+1,890 bytes / `OBSCURED-ID-00520`.
+
+After that adjudication, RI270 was assigned to Quantum Relativity. It must
+prove or correct the simultaneous two-sector reduction, with complete shared
+V5 constraints and both sigma occurrences, then the original nested choice
+of kappa0 followed by kappa1 on the JOINT primary face. Independent sector
+minima and one-sector caps cannot substitute for those coupled constraints.
+Assignment RI270_ASSIGNMENT.json: 4,984 bytes /
+`OBSCURED-ID-00521`.
+All scientific/RI250 acquisition and execution routes remain closed.
+
+Measurement RI269 has sealed its source-only normal dispatch_spec proposal:
+`OBSCURED-PATH-00010`, 9,133 bytes /
+`OBSCURED-ID-00522`.
+Independent source review is active. No proposal execution, new operational
+admission or scientific result is claimed. Accepted RI265 installed custody
+remains E50 files/nine directories with both scientific run directories empty.
+Qualification and then conventional reproduction with the selected public
+GWOSC data remain the measurement direction; calibration is separate from
+a native forward map. RET alone remains paused.
+
+RI267 archive/status checkpoint committed as
+`OBSCURED-ID-00523`: 26 scoped files, 19 exact copies,
+231 dependencies and 212 verified Git blobs. Post-commit checks preserved
+6,279 unrelated entries and complete E/D/O/monitor state. Three inherited
+trailing blank lines triggered the staged V2 whitespace check; the distinct
+reviewed V3 preserves exact author bytes, permits only those exact diagnostics
+and requires clean generated files/fronts. The failed check and correction
+remain in RI267_VALIDATOR_REVIEW_AND_STAGED_FAILURE.json; no baseline was reset.
+The commit receipt is RI267_PUBLICATION_COMMIT_AND_PUSH_BLOCK.json in
+`OBSCURED-PATH-00008`.
+This following four-front checkpoint records later adjudication and assignment.
+Remote push remains blocked by the previous automatic destination/payload
+approval rejection. No retry or successful push is claimed; last verified
+origin/ret remains `OBSCURED-ID-00283`.
+
+**Prior checkpoint — joint sector theorem and actual normal-card installation accepted; original coordinate-order proof active.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI266's exact
+conditional reduction of the eleven-coordinate sector block to four retained
+variables. Complete P/Y/Q/P_tau/P_nu/V5 incidence, all marked minima,
+mixed-sector constraints and double sigma occurrences remain. Positive
+endpoint rewards and the strict finite eta gain v*delta/160 uniquely recover
+all seven eliminated coordinates. The projected value is concave and
+piecewise affine; proof uses the full linear feasible projection. Every
+primary optimum and the original full-vector lex selector are retained.
+Actual capacities, optimizing face, kappa sign/gap and C_b remain unevaluated.
+
+Root read both full manuscripts and checked 231 identities, 225 direct
+sources / 5,041,920 bytes and all 210 inherited source-role rows. Nonauthor
+OBSCURED-ID-00524 checked 7,307 predicates / 232 opaque files and the genuine author
+preseal/final source and mode. Manual mathematical review is distinct from
+these administrative checks. Root authenticated the full seven-file review,
+including prior conceptual involvement, clipping recoveries and diagnostics.
+Root decision RI266_ROOT_ADJUDICATION.json: 1,793 bytes, SHA256
+`OBSCURED-ID-00525`.
+
+After adjudication, root assigned RI268 to the existing Quantum Relativity
+chat. It must prove or refute that kappa precedes every other changing
+original component, using every carrying parent and all Q topological orders.
+An example Q code 8988 alone is not a lower bound. If kappa is first, the
+original selector minimizes rho over RI266's primary face, resolving the
+mixed rho_min=0<rho_max case without evaluating actual capacities. Fresh
+reservation: `OBSCURED-LOCATION-00074`; assignment 3,796
+bytes / `OBSCURED-ID-00526`.
+QR has now sealed that bounded candidate (HANDOFF.json:40,774 bytes /
+`OBSCURED-ID-00527`).
+Independent proof and genuine-check review is active; author claims have no
+root acceptance yet. Original scientific/RI250 routes remain closed.
+
+RI265 completed and independently accepted the one exact normal metadata-card
+installation. Genuine OBSCURED-ID-00528/session OBSCURED-ID-01425 -> OBSCURED-ID-00529 exited 0; the separately
+executed saved checker OBSCURED-ID-00530/session OBSCURED-ID-01426 -> OBSCURED-ID-00531 exited 0. Root reconstructed
+all eight complete tails and source/supplier/host relationships. Nonauthor
+OBSCURED-ID-00532 checked 37,865 predicates, three readbacks and 3,009 fresh full identities;
+supplements bind the genuine saved-check completion and all 567 inherited
+RI160 dependency pins/full bootstrap identity. All nineteen review files
+and every complete saved-report group were authenticated independently.
+
+E is now 50 files/nine directories. Its sole addition is the exact accepted
+1,643-byte ADMIT_NORMAL.json, hash
+`OBSCURED-ID-00533`.
+All old nonroot states are unchanged; actual root nlink 24->25 satisfies the
+local refusal guard without becoming a filesystem law. D has its eight
+unchanged prepared files and two issued controls; O has five files. All 90
+raw monitor attempts/samples passed: OBSCURED-METRIC-01499 seconds, peak OBSCURED-METRIC-01456 KiB, maximum gap
+OBSCURED-METRIC-01500 seconds, final gap OBSCURED-METRIC-01501 seconds. No terminal ps race occurred.
+Both scientific run directories and tmp are empty; optimized card is absent.
+Root decision RI265_ROOT_INSTALLATION_ADJUDICATION.json: 2,487 bytes /
+`OBSCURED-ID-00534`.
+
+This is metadata custody, with zero scientific/qualification credit. RI269
+is now assigned a source-only concrete proposal for the separate RI160
+normal-mode dispatch_spec action, in
+`OBSCURED-PATH-00011`. Root/nonauthor review
+and separate issuance precede that action. Normal fabricated WHITE and
+independent arithmetic, optimized/full32 coverage and conventional reproduction
+with the already selected public GWOSC data remain next. Calibration remains
+separate from a native forward map. Sampled RSS, loader/shared-cache, host,
+freeze/custody and experimental premises stay explicit. N01's nine-field
+admission and all historical failures/count-label clarifications are retained.
+
+RI264 now has an independently audited repository archive at
+`docs/track_b/native_coupled_parent_block_v1/`: 22 files, 19 exact copies,
+231 dependencies and 1,047 current FilePin occurrences. Root verified all 212
+Git aliases at OBSCURED-ID-00535; nonauthor 084174 checked 20,443 predicates and 486 opaque
+identities. Its complete root/independent proof evidence and diagnostics are
+preserved. The candidate's original pending-Git flags remain historical;
+RI267_ROOT_ARCHIVE_ADJUDICATION.json records the subsequent root acceptance.
+It is source preservation, not relocated execution or a runtime closure.
+RI266 and measurement results remain separately reviewed external evidence.
+The independent checkpoint-validator review identified a draft omission:
+D/O/monitor/tmp directory metadata was not compared, although membership
+and file identities were. A distinct V2 now binds all seven namespace states
+to the accepted complete saved-installation report. The unexecuted draft
+and reviewer finding are preserved; no custody threshold was weakened.
+
+Current root evidence:
+`OBSCURED-PATH-00008`.
+The prior RI260/262 archive checkpoint is locally committed as
+`OBSCURED-ID-00536`. This RI264 archive and four fronts
+form the next scoped local checkpoint; before/staged/committed checks and
+its resulting commit receipt are recorded in that evidence reservation.
+Automatic approval review previously rejected remote push for destination/
+payload authorization. Human approval remains pending: no retry, bypass or
+successful push is claimed. Last verified origin/ret is
+`OBSCURED-ID-00283`.
+
+All original equations/recovery/offsets/selector, d=0!=d7, normalized existence
+iff actual C_b=0, complete records/ideals/newborns/strict endpoints, fifteen
+typed/raw boundaries and 423 unexpanded references remain. RET alone is paused.
+Root retains all operational and Git/index decisions. Unrelated changes and
+active reservations are preserved; the programme continues.
+
+**Prior follow-through — coupled block accepted; joint sector reduction assigned and unissued installation preparation accepted.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor accepted RI262's exact
+all-support circulation theorem. All sixteen xi support patterns are now
+covered within this family. Every marked P/P_nu slack condition, supported
+eta/sigma allocation, finite step and original lex tie remains. The supported
+minimum value is attained at one of at most three candidates; flat intervals
+may contain infinitely many minimizing rates. The empty-zero-set/equal-n
+case has a finite zero-gain lex descent. The support-free sigma threshold
+and generalized original-dual identity remain necessary conditions only.
+
+RI260 and RI262 now have independently checked repository archives at
+`docs/track_b/native_single_zero_circulation_v1/` and
+`docs/track_b/native_all_support_circulation_v1/`. The scoped archive payload
+is 44 files with 38 exact copies and 415 dependency rows. Root verified all
+181 distinct Git aliases at local parent OBSCURED-ID-00537 and the fifteen paired
+external rows; all current mapped originals are present across the two
+archives and pinned Git. Closed scientific descendants and runtime
+prerequisites remain by reference. Builder timing clarification, historical
+failures and reviewer prior involvement remain preserved. Root archive
+review is `RI263_ROOT_ARCHIVE_REVIEW.json` in the evidence reservation below.
+This is source preservation and conditional mathematics, not qualification.
+A nonauthor found two draft checkpoint-validator gaps: unauthenticated trust
+inputs and no frozen before-phase comparison. A distinct reviewed V2 pins
+the helper/baselines/archive decisions, exact 48-file/38-copy/415-dependency
+scope and staged/committed bytes against the authenticated before snapshot.
+The original draft is retained; no rejected version was executed.
+
+Following RI262 adjudication, QR completed RI264 in
+`OBSCURED-LOCATION-00080`. Root and a nonauthor accepted
+its exact conditional kappa/tau/two-nu block optimum with every other
+actual coordinate fixed. The scalar maximum uses at most nine domain-valid
+endpoint/intersection values, including equal slopes, zero capacities and
+flat maxima. The original lex selector chooses the smallest maximizing r.
+When the tau-cap breakpoint is strictly inside the scalar domain, positive
+kappa is equivalent to a strictly positive right derivative there. A zero
+derivative can allow primary positive-kappa optima while original lex picks
+kappa zero. Endpoint cases are handled without an out-of-domain derivative.
+
+Root complete manual proof review is distinct from administrative check
+OBSCURED-ID-00538: 216 identities, 210 sources / 4,595,535 bytes and all 195 inherited
+role rows. Nonauthor OBSCURED-ID-00539 checked 6,828 predicates and 217 opaque identities,
+including the actual completed, untruncated preseal/final shell source.
+Root authenticated the seven-file independent seal and exact check receipt.
+Root decision `RI264_ROOT_ADJUDICATION.json` is 2,007 bytes, SHA256
+`OBSCURED-ID-00540`.
+
+After that adjudication, root assigned RI266 to the existing QR chat:
+jointly free the eleven-coordinate sector block and prove or correct unique
+eta/xi/kappa elimination to four retained variables. Retain complete Q,
+P_nu and V5 incidence, all mixed-sector rows and double sigma occurrences,
+exact feasible projection and the original full-vector lex image. This
+addresses simultaneous compensation/cap allocation rather than extending
+the closed circulation support family. `RI266_ASSIGNMENT.json` is 5,241
+bytes, SHA256 `OBSCURED-ID-00541`.
+RI264 results and active RI266 work remain outside this archive checkpoint.
+Actual simultaneous capacities, fixed-rest/global/dual compatibility,
+cross-sector kappa gap and C_b remain unresolved.
+
+RI261's exact installer source passed full independent and root review.
+N01 is explicitly retained: the admission has nine fields; two protocol
+"closed10" labels and two diagnostic strings are count-label typos. The
+literal source schemas agree; no tenth field or threshold change is allowed.
+The one unissued administrative preparation then completed OBSCURED-ID-00542/session OBSCURED-ID-01427 -> OBSCURED-ID-00543, exit 0, with empty streams. Its eight outputs include all
+2,964 input identities (all original 2,920 states), the complete supplier
+and unchanged frozen E49-files/nine-directories custody. Root reconstructed
+every field and six complete tail values in 17,220 administrative checks.
+The nonauthor independently checked 35,883 predicates and 2,989 fresh whole
+identities; root accepted the complete unissued preparation. The reviewer-only
+bytes/JSON comparison failure and its separate one-line repair are preserved. No installed normal card,
+operational admission/dispatch, O or scientific execution exists.
+
+Prepared D is `OBSCURED-LOCATION-00172`; prospective O is
+`OBSCURED-LOCATION-00173`. After this actual preparation
+acceptance, fresh custody and separate root issuance precede one installation.
+The fixed root-link 24->25 condition remains a prospective local refusal
+guard, not a filesystem law or observed success. Complete installation
+outcome review then precedes separate dispatch_spec, normal fabricated WHITE
+and independent arithmetic, optimized/full32 and the already selected public
+GWOSC conventional reproduction. Calibration stays separate from a native
+forward map. Resource, loader, freeze and experimental prerequisites remain.
+
+Root evidence is
+`OBSCURED-PATH-00012`.
+RI262 decision: 2,025 bytes, SHA256
+`OBSCURED-ID-00544`.
+RI261 source decision: 2,115 bytes, SHA256
+`OBSCURED-ID-00545`.
+RI261 root preparation check: 583,507 bytes, SHA256
+`OBSCURED-ID-00546`.
+RI261 preparation decision: 6,695 bytes, SHA256
+`OBSCURED-ID-00547`.
+Measurement source/preparation and RI264 results are external, separately
+reviewed work; they are not silently included in this proof archive.
+
+The preceding 147-file checkpoint remains locally committed as
+`OBSCURED-ID-00548`. Automatic approval review rejected
+its remote push twice for destination/payload authorization. Explicit
+approval is pending; no retry, bypass or successful push is claimed.
+Origin/ret was last verified at parent
+`OBSCURED-ID-00283`. The current bounded proof archives
+and four coordination fronts are prepared for a separate scoped local
+checkpoint; a local commit does not satisfy that remote-publication blocker.
+
+All original equations/recovery/selector, d=0!=d7, full-system iff actual
+C_b=0, whole records/ideals/newborns/strict endpoints, fifteen typed/raw
+boundaries and 423 unexpanded manifest references remain. All original
+literal scientific routes including RI250 stay closed. RET alone is paused.
+Root owns all Git/index/publication and operational decisions. Unrelated
+edits and active reservations are preserved; the programme continues.
+
+**Prior follow-through — single-zero criterion accepted; all-support proof and installer source active.**
+1 October 2026, OBSCURED-LOCATION. Root and a nonauthor independently accepted RI260's
+complete single-zero-xi circulation family. Every growing marked P_nu/P row
+retains its actual slack condition; only a tight zero-xi companion requires
+eta/sigma compensation. The supported minimum is attained, including ties
+and unavailable allocations. Primary-or-tie descent exists exactly when
+those parent slacks hold and the minimum cost is at most the complete gain.
+Every primary tie lowers the original lex selector because all three
+increases (tau and both nu) follow decreasing kappa.
+
+The necessary original-dual identity retains the zero-xi reduced-cost
+inequality. With positive kappa and sigma, the stated threshold
+s_g>=7*bar_s/3 forces a positively priced tight P_nu,g row in this branch.
+Actual support, n/s comparisons, full residual/dual compatibility, kappa gap
+and C_b remain unresolved. No physical or all-size claim follows.
+
+Root check OBSCURED-ID-00549 and the nonauthor's OBSCURED-ID-00550 verified 186 whole identities,
+180 sources / 3,772,019 bytes, all 165 inherited source-role rows, 15 typed
+boundaries and the byte-identical 43,739-byte raw boundary value. Root matched
+the genuine completed, untruncated final author command to its exact sealed
+checker source; the nonauthor also matched the genuine preseal. Complete
+manual proof reads are distinct from administrative checks. All diagnostic
+ancestry and nonauthor prior candidate/archive involvement remain disclosed.
+Root evidence is reserved at
+`OBSCURED-PATH-00012`;
+`RI260_ROOT_ADJUDICATION.json` is 1,870 bytes, SHA256
+`OBSCURED-ID-00551`.
+This new review awaits its own publication checkpoint; it is not part of
+commit OBSCURED-ID-00537 below.
+
+After adjudication, RI262 was assigned to Quantum Relativity and confirmed
+active: `OBSCURED-LOCATION-00070`. Close all sixteen xi
+support patterns in this same circulation family using both supported eta
+rates and shared sigma. Retain every marked cap, attained minimum, finite
+step and lex tie; recover RI258 and RI260. Empty zero set with equal n has
+zero gain and must retain its lex exclusion. Stop support-by-support
+extension once the complete family iff is proved; blocked parent caps do
+not establish global optimality. The exact assignment is bound in
+`RI262_ASSIGNMENT.json` under the root evidence reservation.
+
+In parallel, the next normal-card installation design passed independent
+and root review for source authoring only. It requires the exact exclusive
+1,643-byte candidate installation, full E transition from 49 to 50 files
+with nine directories, unchanged old non-root states, full raw after/final
+custody, and fixed four-field identity schemas. The proposed root-link
+24->25 guard is an explicit local refusal condition, not a proved filesystem
+law or an observed outcome. No installation or new admission has occurred.
+A separate installer/checker/bootstrap source adaptation is active in a
+private reservation; prospective D/O are
+`OBSCURED-LOCATION-00172` and
+`OBSCURED-LOCATION-00173`. They remain uncreated.
+The author must preserve all original 2,920 inputs plus the new declared
+closure, eight failure tails and unchanged monitor/limits. Source review,
+fresh custody and separate root admission precede the one installation;
+separate dispatch_spec then precedes normal fabricated WHITE and independent
+arithmetic, optimized/full32 and selected GWOSC conventional reproduction.
+
+The preceding 147-file proof/measurement checkpoint was committed locally
+as `OBSCURED-ID-00548`. Staged and committed validation
+passed 3,400 dependency rows, 6,092 unchanged unrelated entries and full
+frozen E custody. A single inherited EOF blank line in a byte-exact archived
+helper is explicitly retained. Automatic approval review rejected the push
+twice, including after verifying the configured GitHub destination and five
+prior pushed checkpoints. Explicit destination/payload approval is pending;
+no bypass or successful push is claimed. Live origin/ret remains the exact
+parent `OBSCURED-ID-00283`. The proof and source-authoring
+lanes continue independently of that publication blocker.
+
+All original equations/recovery/selector, d=0!=d7 and full-system iff actual
+C_b=0, whole records/ideals/newborns/strict endpoints, 15 boundaries and 423
+unexpanded manifest references remain. All original literal scientific
+routes including RI250 remain closed. RET alone is paused. Root owns all
+Git/index/publication and operational decisions; unrelated edits and active
+reservations are preserved. The programme continues.
+
+**Prior checkpoint — signed and parent circulations accepted; actual mode card reviewed.**
+1 October 2026, OBSCURED-LOCATION. RI256 proves complete signed eta/xi descent and
+necessary original-dual cap obstructions. RI258 advances the native result:
+its eight-coordinate parent circulation preserves every Q/P_nu row and has
+cost -p(n_+-n_-)u/240. With positive kappa and all four xi positive, the
+equal-n branch is excluded by the original full lexicographic ordering.
+Unequal n requires a positively priced tight P row in the larger-n block,
+with the stated exact dual identity and full residual-cap maximum.
+
+Root and nonauthor read the complete proofs and independently checked each
+packet's actual checks. RI256 retains 155 identities/149 direct sources;
+RI258 retains 171 identities/165 sources, all 149 predecessor role rows and
+3,403,422 direct bytes.
+Both preserve all 15 typed boundaries and the exact 43,739-byte raw boundary
+value. Genuine final author outputs were completed exit 0 and untruncated;
+retrieval/display/checker diagnostics remain distinct and preserved.
+Evidence: `docs/track_b/native_signed_redistribution_v1/` and
+`docs/track_b/native_parent_circulation_v1/`.
+
+Actual n, support, full residual/dual compatibility, the cross-sector kappa
+gap and C_b remain open. These conditional finite-canonical results do not
+establish a native physical law or all-size conclusion. Following independent
+adjudication, RI260 is assigned to the existing Quantum Relativity chat in
+`OBSCURED-LOCATION-00109`: resolve the supported eta/sigma
+compensation for exactly one zero xi, every growing marked P_nu/P row,
+slack-versus-tight companion cases, finite steps and equality lex descent.
+Its active source/results are excluded from this checkpoint.
+
+The measurement coordinator's source review found F01: a saved identity row
+could omit fields and choose its own comparison domain. The distinct repair
+requires exactly path/bytes/sha256/state for all 13 source roles. Root and
+nonauthor accepted the full source and exact narrow repair, preserving the
+original rejected source, complete diffs, author failure and review evidence.
+
+Fresh full preflight passed, then root separately issued the exact 12-field card
+and 11-field dispatch. The one metadata action OBSCURED-ID-00552 completed exit 0 with empty
+streams. All 19 raw monitor attempts matched 19 samples; peak OBSCURED-METRIC-01457 KiB,
+maximum gap OBSCURED-METRIC-01502 seconds, final gap OBSCURED-METRIC-01503 seconds and child elapsed OBSCURED-METRIC-01504 seconds
+met the unchanged bounds. The tool-return wall metric OBSCURED-METRIC-01505 seconds is separate.
+Root and nonauthor reconstructed the actual 10-field candidate, 14-field COMPLETE, seven
+tails, 13 full source states and 567 dependencies. Fresh custody preserves
+all 2,920 preparation inputs/nine original outputs, supplier 1,810 files /
+48,024,515 bytes/four tools/195 namespaces/two absences, frozen E: 49 files /
+nine directories and prior pre-mode evidence. Genuine full tool arguments,
+recipe projection and both original/canonical host records remain bound.
+Evidence: `docs/coordination/measurement_mode_card_operation_ri257_v1/`.
+
+The accepted output is an external mode-card candidate. It is not installed
+into E and no scientific execution or new qualification credit occurred.
+Next: separately review and perform exact E installation with fresh custody,
+then dispatch specification before normal fabricated WHITE qualification and
+independent arithmetic. Optimized mode, RI131/full32 and already selected
+public GWOSC conventional reproduction remain ordered. Calibration remains
+separate from a native forward map. Original resource/loader/custody and
+experimental prerequisites remain unchanged; sampled RSS is not an OS quota.
+
+All 13 equations/10 coordinates, full recovery, actual selector/offsets,
+accepted d=0!=d7 and normalized existence iff actual C_b=0 remain, with all
+whole records, labeled ideals, both newborns, strict endpoints and 423-source
+manifest references. RI250 GAP-INDEX is unresolved; all original literal
+exceptions remain closed. RET alone remains paused. Parent
+OBSCURED-ID-00283 was verified on origin/ret.
+Root retains all Git/index operations, scoped validation/commit/push and
+operational decisions. Unrelated edits and active reservations are preserved.
+The programme continues.
+
+**Prior checkpoint — complete compensation criterion accepted; preparation verified.**
 1 October 2026. RI254 gives an exact criterion for the full supported
 nonnegative eta/xi/sigma compensation family. Its actual marked history
 weights give normalized prices 15/14 and 3/7. The supported covering minimum
@@ -30,7 +2100,7 @@ cases. Additional positive coordinates require their own complete earliest
 change test if equality is used. Its active work is excluded here.
 
 The measurement lane executed the accepted administrative preparation once:
-ba403e/session49699 to8b2cd4 exited0 with empty streams. Root and nonauthor
+OBSCURED-ID-00553/session OBSCURED-ID-01428 to OBSCURED-ID-01346 exited0 with empty streams. Root and nonauthor
 reconstructed all nine unissued outputs, the exact 2,920-input domain,
 request4, wrapper7/candidate12, preflight15, completion13 and all six tails.
 Fresh full custody preserves 1,810 supplier files / 48,024,515 bytes, four tools,
@@ -52,12 +2122,12 @@ accepted d=0!=d7 and normalized existence iff actual C_b=0, whole records,
 ideals, newborns, strict endpoints, 15 boundaries and the 423-source manifest
 remain. RI250 GAP-INDEX remains unresolved; all original literal exceptions
 remain closed.
-RET alone is paused. Parent 0070fb23c42e53536f6eeff0b1f47b5b56c4f1cf was
+RET alone is paused. Parent OBSCURED-ID-00554 was
 verified on origin/ret. Root owns Git and operational admissions; unrelated
 edits and active reservations remain preserved. The programme continues.
 
 **Prior checkpoint — strict sigma obstruction accepted; mode-card source reviewed.**
-1 October 2026, Honolulu. RI252 gives the complete positive sigma-compensated
+1 October 2026, OBSCURED-LOCATION. RI252 gives the complete positive sigma-compensated
 exchange criterion in the original finite canonical problem. Positive kappa
 and sigma require a tight companion row strictly below its sector mean. The
 equal-primary-cost endpoint is excluded by the original sequential selector.
@@ -103,7 +2173,7 @@ canonical selection and offsets, accepted d=0!=d7 and full-system iff C_b=0,
 all records/ideals/newborns/strict endpoints, fifteen boundary objects and
 423-source manifest by reference remain. RI250's index-binding gap is open;
 no new coefficient is acquired. Physical and all-size claims remain open.
-RET alone is paused. Parent 6fd571d525d6e44b9367260d87e40ca90230aeed was
+RET alone is paused. Parent OBSCURED-ID-00555 was
 verified on origin/ret. Root owns Git and operational admissions; unrelated
 edits and active reservations are preserved. The programme continues.
 
@@ -143,12 +2213,12 @@ or numerical reconstruction is granted. Active RI252 outputs are excluded.
 
 RI249 issued the separate closed 12-field pre_mode admission from RI244's
 unchanged preparation and ran the exact bootstrap once. Genuine
-aa86d9/session78888 to cd41a9 exited 0 with empty streams. Root and nonauthor
+OBSCURED-ID-00556/session OBSCURED-ID-01429 to OBSCURED-ID-00557 exited 0 with empty streams. Root and nonauthor
 reconstructed the complete nine-field result, all 14 completion fields,
 seven adapter tails, 13 authenticated source objects and 567 dependencies.
 The 42 raw ps attempts match all 42 samples: peak sampled child RSS
-168,784 KiB, elapsed 1.586306584 seconds and final sample-to-reap gap
-0.035095459 seconds. All observed gaps and admitted bounds passed.
+OBSCURED-METRIC-01458 KiB, elapsed OBSCURED-METRIC-01506 seconds and final sample-to-reap gap
+OBSCURED-METRIC-01507 seconds. All observed gaps and admitted bounds passed.
 
 Fresh full custody preserves all 2,854 preparation input identities,
 1,810 supplier files / 48,024,515 bytes, four tools, 195 namespace records,
@@ -169,7 +2239,7 @@ from a native forward map.
 All 13 equations/10 coordinates, complete original recovery, actual canonical
 selection, records/ideals/newborn bits and strict endpoints remain. Physical,
 all-size, improvement, optimality and amplitude claims stay open. RET alone
-remains paused. Parent 05a7aec415941b5bfa79287cd20b54d8c6eb4c20 was verified
+remains paused. Parent OBSCURED-ID-00558 was verified
 on origin/ret. Root owns Git and operational admissions; unrelated edits and
 active reservations are preserved. The programme continues beyond this
 bounded checkpoint.
@@ -206,7 +2276,7 @@ archived. The six-value literal exception is closed; no new coefficient or
 execution authority is granted. Active RI248 work is excluded from publication.
 
 RI244's exact preparation source passed independent review. One separately
-admitted administrative invocation b36217/session74730 to eeaf85 exited0 with
+admitted administrative invocation OBSCURED-ID-00559/session OBSCURED-ID-01430 to OBSCURED-ID-00560 exited0 with
 empty streams, producing eight unissued records and two empty directories.
 Root verified all2854 retained input identities, six completion tails,
 1810 supplier files /48,024,515bytes, four tools,195 namespace records and two
@@ -228,7 +2298,7 @@ Calibrated claims remain separate from a native forward map.
 All13 equations/10 coordinates, original recovery, records/ideals/newborns and
 strict endpoints remain. Improvement, optimality, amplitude, all-size and
 physical claims stay open. RET alone remains paused. Parent
-8a218efec0f7e951fe5ffb0281b86bd4b6e17bc0 was verified on origin/ret. Root owns
+OBSCURED-ID-00561 was verified on origin/ret. Root owns
 Git and operational admissions; unrelated edits and active reservations remain
 preserved. The programme continues beyond this bounded checkpoint.
 
@@ -276,7 +2346,7 @@ Calibrated claims remain separate from a native forward map.
 All thirteen equations, ten coordinates, minima/ties/zero branches and
 original recovery remain. Actual C_b, normalized witness/inconsistency,
 improvement, optimality, amplitude, all-size and physical claims stay open.
-RET alone remains paused. Parent c4545e056d84d3880342a2df7c30cb1836cb3624
+RET alone remains paused. Parent OBSCURED-ID-00562
 was verified on origin/ret. Unrelated edits and active reservations are
 preserved; the programme remains in progress.
 
@@ -323,7 +2393,7 @@ independent arithmetic/normal acceptance, optimized, RI131/full32 and the
 selected public GWOSC conventional reproduction remain ordered obligations.
 Calibration stays separate from a native forward map; RET alone is paused.
 
-Parent 651911e278cb9b538328b3eb5fd460cf81f59490 was verified on origin/ret.
+Parent OBSCURED-ID-00563 was verified on origin/ret.
 This scoped checkpoint preserves original reviews, historical failures,
 protected evidence and unrelated edits. The programme remains in progress.
 
@@ -345,17 +2415,17 @@ RI240 is assigned to the existing Quantum Relativity chat to resolve an
 actual coupled canonical/positive-part comparison, preserving all15
 boundaries and423-source manifest by reference. No new body/coordinate
 access, automatic mathematics or runtime authority was granted.
-Root46348f and nonauthor4aefdb each verified67 identities/61direct sources/
+Root OBSCURED-ID-01347 and nonauthor OBSCURED-ID-01348 each verified67 identities/61direct sources/
 1303645bytes/15boundaries, with separate full manual proof reviews and
-reviewer-confirmed text fidelity6963c5. Evidence is in
+reviewer-confirmed text fidelity OBSCURED-ID-01349. Evidence is in
 `docs/track_b/native_conditional_feasibility_v1/`.
 RI240 has since returned a sealed author packet; independent review is
 active. It is excluded from this checkpoint; RI238 remains the latest
 adjudicated native result. Its successor will follow that review.
 
-RI236 capture ran once:6ee2bb/session14757 tofc583f exit0. Both complete
+RI236 capture ran once:OBSCURED-ID-00564/session OBSCURED-ID-01431 to OBSCURED-ID-01350 exit0. Both complete
 snapshots equal the accepted normal PRE baseline byte for byte. Parent
-elapsed5.6144743749999995s;91/50 samples passed unchanged limits.
+elapsedOBSCURED-METRIC-01508 seconds;91/50 samples passed unchanged limits.
 The frozen E remains49files/nine directories, with all48/124/30 roles,
 sources, supplier and host unchanged. Root outcome6568 comparisons and
 independent28061 predicates/12767 identities passed, including the9923-file
@@ -379,13 +2449,13 @@ selected public GWOSC conventional reproduction remain. Calibration and a
 native forward map remain separate. Apple startup/loader and sampled
 resource premises are retained. RET alone stays paused.
 
-Parent f025291aa67019258498a11bbb0fea59d122d293 was verified on origin/ret;
+Parent OBSCURED-ID-00565 was verified on origin/ret;
 this checkpoint's final commit and live remote receipt are recorded after
 publication. Original reviews and unrelated edits are preserved. The
 programme continues; this checkpoint does not mark it complete.
 
 **Prior checkpoint — connected contrasts and D2 separation accepted.**
-1 October 2026 UTC (30 September Honolulu). RI235 proves two actual connected
+1 October 2026 UTC (30 September OBSCURED-LOCATION). RI235 proves two actual connected
 contrasts strictly positive, forcing U5=U6=0. The possible zero branches of
 f4 and f7 have opposite signs of d, so at most one of U4,U7 can survive.
 The actual canonical corrections satisfy N0<1/200 and N1<1/800. Complete
@@ -399,11 +2469,11 @@ coordinates, u2=-1 and complete reference/full-slot recovery remain.
 No full normalized witness, actual signed inconsistency, rank, improvement,
 optimality, maximal amplitude, all-size or physical conclusion is claimed.
 
-Root read both full proofs e0219a/a89979 and checked57 identities,
-51 direct sources/1127159 bytes and15 unchanged boundaries ad1e7e exit0.
+Root read both full proofs OBSCURED-ID-00566/OBSCURED-ID-00567 and checked57 identities,
+51 direct sources/1127159 bytes and15 unchanged boundaries OBSCURED-ID-00568 exit0.
 The nonauthor manually reviewed all formulae and independently verified the
-same complete closure d5a6aa exit0. Its full review was preserved by root
-and confirmed verbatim by the reviewer a7bf42 exit0. A rejected external
+same complete closure OBSCURED-ID-00569 exit0. Its full review was preserved by root
+and confirmed verbatim by the reviewer OBSCURED-ID-00570 exit0. A rejected external
 reviewer-write/replay request executed nothing; no replay is credited.
 The genuine author final6 command was independently retrieved as completed
 exit0, with API-output truncation disclosed. Mathematical reasoning was
@@ -420,8 +2490,8 @@ body/coordinate authority, automated mathematics or runtime was granted.
 Measurement RI236 now has an independently accepted concrete unissued
 capture design. Its exact17-field admission,four null predecessors,ten-field
 E/tmp environment,parent/child cwd,unchanged limits,twelve outputs and
-failure tails are specified. Author metadata2cc0c8 passed27302 predicates;
-independent19592e passed32286 predicates/997 fixed files; rootfb5060
+failure tails are specified. Author metadata OBSCURED-ID-01351 passed27302 predicates;
+independent OBSCURED-ID-01352 passed32286 predicates/997 fixed files; root OBSCURED-ID-01353
 verified997 identities,986 dependencies and11 literal source spans.
 Old RI130/141 authorship is disclosed separately from this new proposal
 review. Evidence is in
@@ -441,13 +2511,13 @@ Accepted current frozen custody remains; the original installation refusal
 remains unchanged. WHITE15/W09,both179 controls,27/13/30 records,57 artifacts/
 74 postchecks/three trees,RI131/full32 and selected public GWOSC conventional
 reproduction remain. Calibration and a native forward map remain separate.
-RET alone is paused. Parent bdbd83cea9b666fb4589834e0a961d83cc07b332 was
+RET alone is paused. Parent OBSCURED-ID-00571 was
 verified on live origin/ret; this checkpoint's final commit/remote receipt
 is recorded externally after publication. Unrelated edits and original
 reviews remain preserved. The programme continues; no user decision is needed.
 
 **Prior checkpoint — root transport and current frozen custody accepted.**
-1 October 2026 UTC (30 September Honolulu). RI233 establishes a conditional
+1 October 2026 UTC (30 September OBSCURED-LOCATION). RI233 establishes a conditional
 finite-law reduction: the complete C5 row, all supported connected full
 profiles and all five disconnected profiles depend only on the stem-root
 bit. Every same-root equation and minor therefore vanishes identically.
@@ -462,10 +2532,10 @@ values and positive full-slot recovery remain. Feasibility, a normalized
 witness or signed inconsistency, improvement, optimality and maximal
 amplitude remain open. No all-size or physical claim follows.
 
-Root read both entire proofs0ca7dd/e72dfa and verified39 source identities,
-33 direct sources/846757 bytes09f80a exit0. A separate nonauthor reviewed
+Root read both entire proofs OBSCURED-ID-01354/OBSCURED-ID-00572 and verified39 source identities,
+33 direct sources/846757 bytes OBSCURED-ID-01311 exit0. A separate nonauthor reviewed
 the mathematics and actual checks, replayed the retained metadata check
-78ec10 exit0 and independently checked1335 predicates55e0e3 exit0.
+OBSCURED-ID-00573 exit0 and independently check OBSCURED-ID-01355 predicates OBSCURED-ID-01356 exit0.
 The original final6 result was retrieved from the completed QR turn.
 Metadata checks are distinct from manual proof; the423-source manifest
 remains by reference and all15 inherited boundary objects remain.
@@ -479,18 +2549,18 @@ full witness or finite signed inconsistency. A restated generic rank
 criterion or relaxed-allocation example does not settle this question.
 
 Measurement RI234 completed one genuine read-only reconciliation:
-5709fd/session77528 to d0b911 exit0, with all eight tails successful.
+OBSCURED-ID-00574/session OBSCURED-ID-01432 to OBSCURED-ID-00575 exit0, with all eight tails successful.
 The accepted current frozen observation binds all49 files/nine directories
 and the exact existing candidate; E was never written. The original RI222
 installation remains refused and unchanged. Acceptance is current observed
 custody, not retroactive installation, atomicity or durability certification.
 
-The unchanged monitor recorded2.387756666 seconds,63 samples and74208KiB
-peak sole-child RSS. Maximum sample gap0.046761082999999995 seconds and
-final gap0.027414499999999897 seconds satisfy the original0.1-second gate.
-The same-author saved checker cfb84c exit0 passed161124 checks. Root's
-separate check7edcb5/session70967 to27ea4a exit0 reconciled3455 comparisons
-and2796 whole identities; nonauthor e65c1e/session14932 to ec235c exit0
+The unchanged monitor recordedOBSCURED-METRIC-01509 seconds,63 samples andOBSCURED-METRIC-01459 KiB
+peak sole-child RSS. Maximum sample gapOBSCURED-METRIC-01510 seconds and
+final gapOBSCURED-METRIC-01511 seconds satisfy the original0.1-second gate.
+The same-author saved checker OBSCURED-ID-00576 exit0 passed161124 checks. Root's
+separate check OBSCURED-ID-01357/session OBSCURED-ID-01433 to OBSCURED-ID-01358 exit0 reconciled3455 comparisons
+and2796 whole identities; nonauthor OBSCURED-ID-00577/session OBSCURED-ID-01434 to OBSCURED-ID-00578 exit0
 reconstructed11709 checks/2868 identities, all five outputs/eight tails,
 971 sources,904 historical sources/nine bindings and48/124/30 roles.
 All original wall/RSS/poll/ps/file limits and Apple supplier, loader/cache,
@@ -508,14 +2578,14 @@ separately controlled. No fresh mode card or scientific execution is included.
 WHITE15/W09, both179 controls,27/13/30 records,57 artifacts/74 postchecks/
 three science trees,RI131/full32 and selected public GWOSC conventional
 reproduction remain. Calibration and a native forward map are separate.
-RET alone remains paused. Prior72c80222677f28eec08e86f4c5b5fd6486db107d
+RET alone remains paused. Prior OBSCURED-ID-01308
 was verified on live origin/ret; this checkpoint's exact commit and remote
 receipt are recorded externally after publication. Unrelated changes,
 original reviews and protected historical evidence remain preserved.
 The programme continues; no user decision is required.
 
 **Prior checkpoint — six native coefficients and canonical capacity accepted; same-root contrast question assigned.**
-1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+1 October 2026 UTC (30 September OBSCURED-LOCATION). Root and a separate nonauthor
 accept RI231's conditional finite-law result. Exact original indices and
 default/override provenance resolve all six admitted coefficients. The
 result fixes alpha=(5/352,5/352,203153/8800,1/8), gamma_0=gamma_1=1/64
@@ -535,19 +2605,19 @@ Actual kappa values and the complete normalized witness or signed
 inconsistency identity remain open, as do improvement, optimality and
 maximal amplitude. No all-size or physical conclusion follows.
 
-Root read both full manuscripts3de623 and the complete independent review
-572cdc. Root metadata344bff/session78031,terminal14224f exit0 authenticated
+Root read both full manuscripts OBSCURED-ID-01312 and the complete independent review
+OBSCURED-ID-00579. Root metadata OBSCURED-ID-01359/session OBSCURED-ID-01435,terminal OBSCURED-ID-01360 exit0 authenticated
 the complete source/review seals and32 direct sources/796922 bytes.
-The nonauthor independently verified literal six-key provenance1e3d98,
-replayed the retained metadata checker46b46c (38 identities/45 selected
-references) and ran767 separate metadata predicates41e8ab, all exit0.
+The nonauthor independently verified literal six-key provenance OBSCURED-ID-01361,
+replayed the retained metadata checker OBSCURED-ID-01362 (38 identities/45 selected
+references) and ran767 separate metadata predicates OBSCURED-ID-01363, all exit0.
 All15 inherited boundary objects remain; the423-source manifest remains
 by reference. Mathematical reasoning was manual; metadata passes are not
 proof arithmetic or scientific qualification. Evidence:
 `docs/track_b/native_canonical_capacity_v1/`.
 
 After adjudication, RI233 was assigned to the existing QR chat in
-`ri233-native-same-root-contrast-sa2lhrgp/`. It must prove the same-root
+`OBSCURED-LOCATION-00174/`. It must prove the same-root
 offset cancellation and derive substantive actual contrast consequences
 toward a full normalized witness or signed inconsistency. Division-free
 minors must preserve zero-contrast branches and all reference/cross-sector
@@ -566,12 +2636,12 @@ independent adjudication under the original limits.
 Normal/optimized mode,WHITE/RI131/full32 and selected public GWOSC
 conventional reproduction remain open. Calibrated claims and a native
 forward map remain separate. RET alone is paused. Checkpoints6356122 and
-the two-file dependency-description correction5fcbe0a were normally pushed;
-5fcbe0ada46c54ccecd14e98ba7ad8c2e29274b7 was verified on live origin/ret.
+the two-file dependency-description correction OBSCURED-ID-01313 were normally pushed;
+OBSCURED-ID-00580 was verified on live origin/ret.
 The programme continues, with no user decision required.
 
 **Prior checkpoint — native lower-combination routing accepted; actual measurement preparation reviewed.**
-1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+1 October 2026 UTC (30 September OBSCURED-LOCATION). Root and a separate nonauthor
 accept RI228's conditional finite-law routing and bounds. All four stem
 ratios satisfy beta_S=theta*alpha_S, including the neutral singleton via
 its full marked diamond. Six exact native coefficient keys and their
@@ -586,15 +2656,15 @@ improvement witness or signed inconsistency identity, optimality and
 maximal amplitude remain open. The original rejection, accepted positive
 family and unique active J2 bound remain unchanged.
 
-Root manual proof review is distinct from metadata replay eb38e7 exit0:
+Root manual proof review is distinct from metadata replay OBSCURED-ID-00581 exit0:
 35 whole identities,45 selected references,29 direct sources/757795 bytes,
-two six-file namespaces and15 boundaries. Independent3b624d exit0 supplied
+two six-file namespaces and15 boundaries. Independent OBSCURED-ID-01364 exit0 supplied
 its own replay and separate proof review. Inherited423 sources remain by
 reference; no automated proof arithmetic or scientific execution occurred.
 Evidence: `docs/track_b/native_lower_combination_routing_v1/`.
 
 After adjudication, RI231 was assigned to the existing QR chat in
-`ri231-native-six-root-witness-qboypkl8/`. A separate root admission permits
+`OBSCURED-LOCATION-00175/`. A separate root admission permits
 literal manual resolution of only the six proven keys in the unchanged
 RI41 certificate, with whole-file identity and original index provenance.
 Other coordinates and automated calculations remain excluded. The next
@@ -605,22 +2675,22 @@ active. Its new claims are excluded from this checkpoint.
 
 RI229's complete preparation writer/bootstrap passed root and nonauthor
 source review. One separately authorized administrative preparation then
-completed:0f12a4/session16198, terminal1db8d4 exit0. It produced nine
+completed:OBSCURED-ID-00582/session OBSCURED-ID-01436, terminal OBSCURED-ID-01365 exit0. It produced nine
 administrative records and empty control directories, preserving the
 retained partial and original failed operation. Genuine host, initial
 execution and terminal polling records are separately retained.
 
-Root actual check6006e5/session62605, terminal4ff069 exit0 made6492
-canonical comparisons. Independentd93b90 exit0 checked7544 predicates and
+Root actual check OBSCURED-ID-01366/session OBSCURED-ID-01437, terminal OBSCURED-ID-01367 exit0 made6492
+canonical comparisons. Independent OBSCURED-ID-01368 exit0 check OBSCURED-ID-01369 predicates and
 2842 whole-file identities; the separate19-predicate session check
-dbf108 exited0. Review covers971 recovery sources,992 preparation dependencies,
+OBSCURED-ID-00583 exited0. Review covers971 recovery sources,992 preparation dependencies,
 904 old sources/nine bindings,1810 vendor files/four tools/195 namespaces,
 two required absences and the unchanged49-file/nine-directory E tree.
 Evidence: `docs/coordination/measurement_reconciliation_preparation_v1/`.
 
 Only the actual administrative preparation is accepted. No reconciliation
 admission or dispatch has occurred; the retained installation remains an
-**unaccepted partial**, and original17185d exit1 and postflight13f7b9 stay
+**unaccepted partial**, and original OBSCURED-ID-00588 exit1 and postflight OBSCURED-ID-00589 stay
 immutable. Next root action: refresh operational custody, issue a separate
 one-attempt read-only reconciliation admission with the existing limits,
 retain the genuine monitored outcome and independently adjudicate it.
@@ -629,12 +2699,12 @@ Preparation gives no frozen-custody, mode or qualification credit.
 Normal/optimized mode, WHITE/RI131/full32 and selected public GWOSC
 conventional reproduction remain open. Calibrated claims and a native
 forward map remain separate. RET alone is paused. Preceding checkpoint
-d836305309f7d083a24babdde331e0b7a10da7fb was verified on live origin/ret.
+OBSCURED-ID-00584 was verified on live origin/ret.
 This checkpoint publishes reviewed stable evidence and preserves unrelated
 edits and active reservations. No user decision is needed.
 
 **Prior checkpoint — complete disconnected profiles accepted; retained-partial recovery source accepted.**
-1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+1 October 2026 UTC (30 September OBSCURED-LOCATION). Root and a separate nonauthor
 accept RI225's conditional finite-law derivation of all five disconnected
 parent profiles: 81 proper and five full ideal occurrences, preserving
 labelled multiplicities, transported records and actual layer scales.
@@ -649,16 +2719,16 @@ inconsistency identity has been found. Improvement, optimality and maximal
 amplitude remain open. The original amplitude1/4 rejection, accepted
 small-positive family and unique active J2 bound remain unchanged.
 
-Root manual review is distinct from replay ab53f6 exit0: 31 whole identities,
+Root manual review is distinct from replay OBSCURED-ID-00585 exit0: 31 whole identities,
 40 selected references, 25 direct sources/710419 bytes, both six-file
-namespaces and 15 inherited boundaries. Independent 7bc1cd exit0 confirmed
+namespaces and 15 inherited boundaries. Independent OBSCURED-ID-00586 exit0 confirmed
 the same source scope and supplied a separate complete proof review.
 The inherited423 collection remains by reference; no automatic proof
 arithmetic, coefficient-vector read or scientific execution occurred.
 Evidence: `docs/track_b/native_disconnected_profiles_v1/`.
 
 After adjudication, RI228 was assigned to the existing QR chat in
-`ri228-native-lower-combinations-lt3ry78x/`: derive actual gamma/zeta and
+`OBSCURED-LOCATION-00176/`: derive actual gamma/zeta and
 empty-ratio combinations sufficient to decide every normalized row, or
 prove a substantive native lemma and name the smallest remaining premise.
 Two literal construction texts were admitted only after exact inherited
@@ -673,20 +2743,20 @@ It reconstructs the original refused operation and all old members,
 source bindings, tails and limits. The original 23-to-24 link transition
 is a fixed historical observation, not a general metadata waiver.
 
-The prior installation remains refused: 8081b8/session81601, terminal
-17185d exit1 wrote the exact candidate before two tails failed. The file
+The prior installation remains refused: OBSCURED-ID-00587/session OBSCURED-ID-01438, terminal
+OBSCURED-ID-00588 exit1 wrote the exact candidate before two tails failed. The file
 remains an **unaccepted partial**. The old failure, review misses and
-postflight 13f7b9 remain immutable. No recovery, fresh E/supplier inventory,
+postflight OBSCURED-ID-00589 remain immutable. No recovery, fresh E/supplier inventory,
 mode admission or frozen-custody acceptance occurred in this checkpoint.
-Root source metadata check d6a877/session95527, terminal95328e exit0 checked
+Root source metadata check OBSCURED-ID-00590/session OBSCURED-ID-01439, terminal OBSCURED-ID-01370 exit0 checked
 968 opaque source paths, the 19-file seal, unchanged904 old source states,
-old operation/monitor and installed partial. Independent8d2b86 exit0
+old operation/monitor and installed partial. Independent OBSCURED-ID-01371 exit0
 checked66729 metadata/text predicates and982 opaque files. These are
 source/custody checks, not operational tests or qualification credit.
 Evidence: `docs/coordination/measurement_readonly_reconciliation_source_v1/`.
 
 RI229 now owns source-only preparation-writer and complete bootstrap design
-in `ri229-reconciliation-preparation-t93t1607/worker_proposal/`. Independent
+in `OBSCURED-LOCATION-00177/worker_proposal/`. Independent
 review precedes any fresh preparation; root retains all operational
 admission and actual-result acceptance. The closed971-source domain,
 original monitor limits and complete retained-tree custody remain required.
@@ -694,13 +2764,13 @@ Normal/optimized mode, WHITE/RI131/full32 and selected public GWOSC
 conventional reproduction remain open. Calibrated claims and a native
 forward map remain separate. RET alone is paused.
 
-The preceding checkpoint637d335151b29fcf172f43177d7920cbdc746153 was
+The preceding checkpoint OBSCURED-ID-01309 was
 verified on live origin/ret. This checkpoint publishes reviewed stable
 proof/source evidence only. Original protected results, unrelated edits
 and active reservations remain intact. No user decision is needed.
 
 **Prior checkpoint — unique native active bound accepted; installation retained after postwrite refusal.**
-1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+1 October 2026 UTC (30 September OBSCURED-LOCATION). Root and a separate nonauthor
 accept RI223's conditional finite-law result: **J2 is the unique active
 empty-child bound, so a_empty=e2/(-z2)**. The complete five-parent and
 eleven-child deletion inventory, including all57 nonempty maximal subsets,
@@ -716,7 +2786,7 @@ It supplies neither a solution nor an inconsistency identity: improvement,
 optimality and maximal amplitude remain open. The original amplitude1/4
 rejection and accepted RI220 small-amplitude family remain unchanged.
 
-Root manual review and replay4be111 passed28 whole identities/39 selected
+Root manual review and replay OBSCURED-ID-01314 passed28 whole identities/39 selected
 references; the separate review's9b33ea checked28 identities,22 direct
 sources/634862bytes, both six-file namespaces and15 inherited boundaries.
 Metadata checks are distinct from mathematical acceptance; inherited423
@@ -724,40 +2794,40 @@ sources remain by reference. Evidence:
 `docs/track_b/native_active_singleton_v1/`.
 
 After adjudication, RI225 was assigned to the existing QR chat in
-`ri225-native-shared-mobility-yftvo6zl/`: derive needed native relative
+`OBSCURED-LOCATION-00178/`: derive needed native relative
 profiles and produce an actual N16-N17 solution or finite signed
 inconsistency identity. One exact existing RI111 analytic text was admitted
 after its inherited metadata matched; no scientific body or execution scope
 was added. Active successor work is excluded from publication.
 
 Measurement RI222's cwd repair passed complete source review. Fresh RI224
-preparation completed with -I -B:bb233e/session14557, terminal581cd9 exit0.
+preparation completed with -I -B:OBSCURED-ID-00591/session OBSCURED-ID-01440, terminal OBSCURED-ID-01372 exit0.
 Root and independent concrete checks covered904sources,1810vendor files,
 four tools,195namespace rows,two absences and E48files/nine directories;
-independentbde845 passed58415predicates. A root admission writer caught
+independent OBSCURED-ID-01373 passed58415predicates. A root admission writer caught
 rounded nanosecond integers in redundant JSON views before creating any
 authority. Failed originals are preserved; independently verified integer-
 preserving corrections retain the actual stdout without alteration.
 
-The separately admitted installation8081b8/session81601, terminal17185d
+The separately admitted installation OBSCURED-ID-00587/session OBSCURED-ID-01438, terminal OBSCURED-ID-00588
 exited1 **after the exact26214-byte candidate was written**. The parent
-link count changed23to24, with device/inode/mode unchanged and exactly one
+link count changed OBSCURED to OBSCURED, with device/inode/mode unchanged and exactly one
 new entry. Installer E_and_frozen and final_E refused the unchanged-link
 premise; six other tails passed. The complete candidate is retained as an
 **unaccepted partial**, together with all four operation and four monitor
 files. No FROZEN success record, mode run, retry or deletion occurred.
 
-Root postflight4f8009/session26037, terminal13f7b9 exit0 confirmed904sources,
+Root postflight4f8009/session OBSCURED-ID-01441, terminal OBSCURED-ID-00589 exit0 confirmed904sources,
 the supplier, all prior48Efiles and other directory states unchanged, and
 the sole added single-link file's exact candidate bytes. Independent replay
-8b7e1c and genuine-linkage checkea9431 separately confirmed the finding and
+OBSCURED-ID-00592 and genuine-linkage check OBSCURED-ID-01374 separately confirmed the finding and
 all42 monitor samples. **RI222 operational readiness is superseded**;
 valid cwd/byte/clock fixes and historical reviews remain. There is no
 installation acceptance or qualification credit. Evidence:
 `docs/coordination/measurement_installation_postwrite_refusal_v1/`.
 
 RI226 is active source-only in
-`ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/`: repair the
+`OBSCURED-LOCATION-00179/worker_proposal/`: repair the
 directory assumption and design a separately reviewed read-only
 reconciliation of the retained partial. Full old-member identity, exact
 membership, file-link, monitor and custody requirements remain; the old
@@ -766,14 +2836,14 @@ Normal/optimized mode, WHITE/RI131/full32 and selected public GWOSC
 conventional reproduction remain open. Calibrated claims and a native
 forward map remain separate. RET alone is paused.
 
-The preceding checkpoint a2570dfb367b5321886fd31384f470db4c6dd295 was
+The preceding checkpoint OBSCURED-ID-00593 was
 verified on live origin/ret. This checkpoint includes reviewed stable proof
 and actual refusal evidence only. Unrelated edits, active reservations and
 protected historical results remain intact. No user decision is needed;
 native proof and measurement recovery continue.
 
 **Prior checkpoint — positive small-amplitude extension accepted; actual installation refused before ownership.**
-1 October 2026 UTC (30 September Honolulu). Root and a separate nonauthor
+1 October 2026 UTC (30 September OBSCURED-LOCATION). Root and a separate nonauthor
 accept RI220's conditional finite-law result: the exact common local
 interval is **0<a<a_star=B2/(4h)**, and a complete shared solution gives
 a strictly positive extension through eight births for **0<a<a_empty**,
@@ -789,19 +2859,19 @@ inference. Baseline positivity, normalized harmonic seed, complete
 all-record cancellation and finite-law iff remain explicit premises.
 The maximal full amplitude, all-size continuation and physical/QM/geometry
 claims remain open. Root replay3f179d passed27 identities/31 references;
-independent60c578 checked21 direct sources/652815bytes and all six current
+independent OBSCURED-ID-01375 checked21 direct sources/652815bytes and all six current
 files. Both six-file namespaces and15 inherited boundaries remain fixed.
 Evidence: `docs/track_b/native_amplitude_extension_v1/`.
 
 After adjudication, RI223 was assigned to the existing QR chat in
-`ri223-native-active-amplitude-63hp1o02/`: decide strict improvement beyond
+`OBSCURED-LOCATION-00180/`: decide strict improvement beyond
 the explicit a_empty ceiling or a native dual obstruction on the same
 complete shared support. All active J constraints, strict endpoints and
 the actual native identities must be retained; a generic alternative alone
 does not decide this candidate. Active source work is excluded from publication.
 
 Measurement reached an actual separately admitted installation attempt.
-Tool685f23 exited1 synchronously: the unchanged monitor sets child cwd to
+Tool OBSCURED-ID-01376 exited1 synchronously: the unchanged monitor sets child cwd to
 D/monitor, while the installer required D. It refused before output
 ownership. Root and the independent reviewer confirmed this source/caller
 defect and acknowledge missing it in earlier reviews. **RI218 operational
@@ -809,7 +2879,7 @@ readiness is superseded pending repair**, preserving the valid byte/clock
 fixes and historical reviews. No retry occurred in the failed reservation.
 
 The genuine outer receipt, issued admission/dispatch and all four monitor
-files are retained. Postflight a3a21c/session31556, terminalbdd104 exit0
+files are retained. Postflight OBSCURED-ID-00594/session OBSCURED-ID-01442, terminal OBSCURED-ID-01377 exit0
 confirmed857 sources,1810 vendor files, four tools,195 namespace rows and
 complete E48files/nine directories unchanged. The operation output, freeze
 and mode cards remain absent. An initial root audit failed solely on
@@ -817,7 +2887,7 @@ unsorted historical namespace list order; its source and corrected separate
 replay are both preserved. The child failure earns no qualification credit.
 
 RI222 source repair is active in the fresh reservation
-`ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/`. Correct only the exact
+`OBSCURED-LOCATION-00181/worker_proposal/`. Correct only the exact
 child cwd guard and required provenance/contract documentation; retain the
 monitor and every limit. Independent source review and fresh preparation
 precede a separately admitted new attempt. Accepted installation precedes
@@ -826,7 +2896,7 @@ and selected public GWOSC conventional reproduction remain open; calibrated
 claims and a native forward map remain separate. Evidence:
 `docs/coordination/measurement_installation_cwd_failure_v1/`.
 
-The preceding checkpoint e795b40265fc3c827be43e6928d1e99ee71ad26a was
+The preceding checkpoint OBSCURED-ID-00595 was
 verified on live origin/ret. Only reviewed proof and actual refusal evidence
 are included here. Active repairs, unrelated edits and protected historical
 results remain intact. RET alone is paused. No user decision is required;
@@ -834,7 +2904,7 @@ both substantive native proof and measurement qualification continue.
 
 
 **Prior checkpoint — fixed H30 candidate rejected; byte repair accepted and preparation completed.**
-30 September 2026 Honolulu (1 October UTC). Root and a separate nonauthor
+30 September 2026 OBSCURED-LOCATION (1 October UTC). Root and a separate nonauthor
 accept RI216's conditional finite-law obstruction: K>1/5500>0 and
 C3>0, but **(3m0/r)C2<-47/12000<0** at the original correlated pair.
 The necessary T2 strict interval is empty. This rejects the unchanged
@@ -852,7 +2922,7 @@ sign premises remain explicit; no scientific execution or new qualification
 credit follows. Evidence: `docs/track_b/native_fixed_h30_obstruction_v1/`.
 
 After adjudication, RI220 was dispatched to the existing QR chat in
-`ri220-native-amplitude-range-9eljeyc1/`. It derives the exact strict local
+`OBSCURED-LOCATION-00182/`. It derives the exact strict local
 amplitude range for a separately labelled candidate family on the same
 lower law and normalized seed, then identifies shared affine compatibility.
 The original1/4 rejection stays immutable. One exact inherited RI127
@@ -862,7 +2932,7 @@ no scientific-body or execution authority was added. Active work is excluded.
 Measurement's RI218 byte repair passed complete root and nonauthor source
 review. Both raw-byte comparisons now use direct equality; JSON semantics,
 clock handling, all eight tails and original bounds remain unchanged.
-Independent check6ffbe1 passed14,441 metadata predicates/864 identities;
+Independent check OBSCURED-ID-01378 passed14,441 metadata predicates/864 identities;
 the exact input union has849 paths and the prospective closure857.
 Root replay5947cf passed5,332 predicates. An earlier root reporting-wrapper
 NameError after saving its result is preserved separately, with its fixed
@@ -870,7 +2940,7 @@ replay. It was not installer execution. Historical RI213 acceptance stays
 superseded and all earlier partials and E's48 files/nine directories remain.
 
 Corrected preparation was then independently source-reviewed and actually
-completed: fresh host00c800, initial7f1c8b, terminal633d20 exit0.
+completed: fresh host OBSCURED-ID-01315, initial OBSCURED-ID-01379, terminal OBSCURED-ID-01380 exit0.
 It created nine administrative artifacts, empty controls and an unissued
 installation proposal. **No installation or admission occurred.** The
 concrete generated bootstrap/preflight review is active; fresh predispatch
@@ -879,36 +2949,36 @@ Complete outcome review precedes normal mode, then optimized. Existing
 WHITE/RI131/full32 and public GWOSC conventional reproduction remain open.
 Evidence: `docs/coordination/measurement_freeze_byte_repair_v1/`.
 
-The preceding checkpoint d5f2a17edd2b5529f460c20febace16f490f3bd6 was
+The preceding checkpoint OBSCURED-ID-00596 was
 verified on live origin/ret. Only reviewed, source-stable work is included.
 Unrelated edits and protected historical results remain intact. RET alone
 is paused. No user decision is required; native proof and measurement
 qualification remain active and the broader programme is not complete.
 
 **Prior checkpoint — fixed coefficient witness accepted; installer byte repair active.**
-30 September 2026 Honolulu (1 October UTC). Root and a separate nonauthor
+30 September 2026 OBSCURED-LOCATION (1 October UTC). Root and a separate nonauthor
 have independently inspected the exact original certificate under the
 new four-root manual admission. Roots (78,7,0), (78,7,1), (206,7,0),
 (206,7,1) have original indices 55, 56, 73, 74. The first three use default
 1/8; index 74 uses explicit 27/125. Thus X=0, Y=91/1000 and the accepted
 beta gap 1/500 give **D=X+Y-41/500=9/1000>0**. No full vector or actual
-scale was evaluated. Root e54ac5 and the separate review's four literal
+scale was evaluated. Root OBSCURED-ID-00597 and the separate review's four literal
 identity/read receipts passed. The complete declaration, default/override
 origins and positive rational syntax were checked manually.
 
 The missing coefficient witness has been supplied to the existing QR chat.
-RI216 remains active in `ri216-native-determinant-sign-qs_a79vs/`, tracing
+RI216 remains active in `OBSCURED-LOCATION-00183/`, tracing
 its implications for the actual determinant and original margin tests.
 Any stronger margin obstruction is pending sealed proof and independent
 review. The original law, seed/amplitude, q/N_i, correlated scales and all
 shared H30 conditions remain binding; no physical or execution claim follows.
 
 Measurement reached a genuine preparation attempt after RI213 source review.
-Actual root tool cb9b00 exited 1: the preparation's saved-byte comparison
+Actual root tool OBSCURED-ID-00598 exited 1: the preparation's saved-byte comparison
 was passed to a JSON serializer, causing a TypeError. It created only a
 complete canonical host transcript and empty tmp/monitor directories.
 No admission, preflight, bootstrap, operation output or E freeze was created.
-Root 02248c authenticated the exact partials and all 48 unchanged E files.
+Root OBSCURED-ID-00599 authenticated the exact partials and all 48 unchanged E files.
 The failed source, actual failure attribution and partials are retained.
 
 The failure exposed the same concrete defect in accepted RI213 installer
@@ -920,7 +2990,7 @@ source acceptance is superseded: repair is required before admission.**
 The old acceptance and all historical checks remain immutable evidence.
 
 RI218 is assigned to the installer author in the fresh exclusive reservation
-`ri218-freeze-byte-repair-x62withm/worker_proposal/`. Replace only the two
+`OBSCURED-LOCATION-00184/worker_proposal/`. Replace only the two
 raw-byte comparisons with direct byte equality, keep JSON comparison
 semantics and the clock repair, and update exact paths/provenance. The
 failed D213 preparation will not be resumed or cleaned up. Independent
@@ -930,14 +3000,14 @@ precede normal mode, and accepted normal precedes optimized. Existing
 WHITE/RI131/full32 and public GWOSC conventional reproduction remain open.
 
 Evidence is in `docs/coordination/native_witness_installation_failure_v1/`.
-The preceding checkpoint `235c88f24f8dfa41dc95af54f2f0823ef71f4a53` was
+The preceding checkpoint `OBSCURED-ID-00600` was
 verified on live `origin/ret`. Active QR and RI218 source edits are excluded.
 Unrelated edits and protected historical results remain intact. RET alone
 is paused. No user decision is required; substantive native proof and the
 concrete measurement repair continue in their separate reservations.
 
 **Prior checkpoint — individual-margin reduction accepted; determinant sign assigned.**
-1 October 2026 UTC (30 September in Honolulu). Root and a separate
+1 October 2026 UTC (30 September in OBSCURED-LOCATION). Root and a separate
 nonauthor accept RI212 as a conditional finite-law reduction. The original
 two harmonic seed rows give K*h=A with A>0 and K nonzero. At the same
 actual pair, B2>0 and B3>1+delta, where
@@ -955,7 +3025,7 @@ collection stays by reference; original seed/amplitude, q/N_i, record
 and ideal multiplicities, tied minima and correlated scales remain fixed.
 
 After adjudication, RI216 was dispatched to the existing Quantum Relativity
-chat in `ri216-native-determinant-sign-qs_a79vs/`. It targets the native
+chat in `OBSCURED-LOCATION-00183/`. It targets the native
 sign of K through complete C4 row cancellation, then the corresponding
 strict margin comparison.
 Two exact RI189 analytic texts are admitted as literal reads with inherited
@@ -967,9 +3037,9 @@ the coupled analytic argument. No active successor work is published here.
 Root and a separate nonauthor also accept RI213's clock repair as unexecuted
 installation source. Initial/final clocks and elapsed validation now retain
 failures through all eight tails and refused completion; the success checker
-requires the new 14-field timing record. Independent replay 9ccc1a exited
+requires the new 14-field timing record. Independent replay OBSCURED-ID-00601 exited
 zero: 5266 predicates, 840 opaque identities, 825 pins and both 15-file seals.
-Root a84a12 separately checked the same 840 identities and exact repair diff.
+Root OBSCURED-ID-00602 separately checked the same 840 identities and exact repair diff.
 The author's 3634 saved / 3636 printed counts are explained phases; no clock
 fault test, installation or executable qualification occurred.
 
@@ -983,7 +3053,7 @@ precede normal-mode admission, and accepted normal must precede optimized.
 Existing WHITE/RI131/full32 and selected public GWOSC conventional work
 remain; no broader qualification campaign or native forward map is claimed.
 
-The predecessor checkpoint `f22adf51c0ce948e266a2b768b0dc3b38390599c`
+The predecessor checkpoint `OBSCURED-ID-00603`
 was verified on live `origin/ret`. Only reviewed sources and coordination
 records are in this checkpoint. Unrelated working edits and historical
 results are preserved. RET alone remains paused. No user decision is
@@ -991,13 +3061,13 @@ currently missing; the broader geometry, gravity and measurement programme
 continues beyond this bounded checkpoint.
 
 **Prior checkpoint — installation source repair assigned; individual-margin proof active.**
-1 October 2026 UTC (30 September in Honolulu). The accepted complete
+1 October 2026 UTC (30 September in OBSCURED-LOCATION). The accepted complete
 six-maxima/global bound and strict weighted sign are published as
-`c1cb37d0c70c899a3d9648cbb91a8620ead60757`, verified on live `origin/ret`.
+`OBSCURED-ID-00604`, verified on live `origin/ret`.
 Its 26 scoped files, 19 exact archive copies and 53 dependency references
 passed; all unrelated file identities and inventory remained unchanged.
 The preceding four/five-maxima and actual freeze-candidate checkpoint
-`80b94aa4ff055e6a121fd23486052a6898cc3921` is also remotely verified.
+`OBSCURED-ID-00605` is also remotely verified.
 
 Root and a separate nonauthor have now completed RI209's source review.
 **RI209 requires repair before any operational admission.** After owning
@@ -1012,15 +3082,15 @@ The independent administrative replay66c76b exited zero:4339 predicates,
 821 opaque identities,806 input pins,810 historical rows,764 predecessor
 sources,20 named roles,15 files/14 payloads and complete212/135-line source
 review. The review retains all48copy/124history/30original mappings and
-the unchanged monitor/bounds. Reviewer diagnostic75d26d, expected diff
-17d221 and author5325f0 remain attributed and preserved. None supplies
+the unchanged monitor/bounds. Reviewer diagnostic OBSCURED-ID-01316, expected diff
+OBSCURED-ID-00606 and author OBSCURED-ID-01317 remain attributed and preserved. None supplies
 executable qualification. Root's directory-count checker diagnostic is
 also retained: E's nine directories include its root, so it has eight
 subdirectories. The corrected administrative check passed with48files,
 no installed freeze and no RI209 operation directory.
 
 RI213 is assigned to the original installer author in the exclusive
-`ri213-freeze-clock-repair-2xc_b29x/worker_proposal/` reservation. It must
+`OBSCURED-LOCATION-00185/worker_proposal/` reservation. It must
 protect both clock paths, retain the first error, separately record a
 missing/invalid duration, attempt all eight tails and refused completion,
 and reconcile the successful-path postchecker and protocol. RI209 remains
@@ -1029,7 +3099,7 @@ actual installation review and fresh custody precede normal-mode admission,
 and normal acceptance precedes optimized. No new qualification campaign
 or change of monitor, resource limits or candidate bytes is authorized.
 
-RI212 remains active in `ri212-native-individual-margins-u1l72g3n/` on the
+RI212 remains active in `OBSCURED-LOCATION-00186/` on the
 original two margins at the same actual pair. Root admitted the original
 RI85 DESIGN and RI187 ENDPOINT_CERTIFICATE as two additional exact literal
 analytic texts, both matched to inherited inventory. They supply original
@@ -1047,7 +3117,7 @@ reproduction lane continues separately from calibration and a native
 forward map. RET alone remains paused; no user decision is missing.
 The broader native geometry, gravity and measurement programme remains open.
 **Prior checkpoint — global maximum bound and strict weighted sign accepted.**
-1 October 2026 UTC (30 September in Honolulu). RI210 has passed root and
+1 October 2026 UTC (30 September in OBSCURED-LOCATION). RI210 has passed root and
 separate nonauthor manual review. For every marked six-antichain,
 U6 < 2^36+7 = 68,719,476,743 < 69 billion. Together with the accepted
 one-through-five-maxima classes, this exhausts all marked six-parents and
@@ -1066,17 +3136,17 @@ The original weighted q, N_i corrections, zero/tied branches and shared
 canonical dependence remain. These are conditional finite-law theorems,
 with no new executable, empirical or physical qualification.
 
-Root metadata check e759ae exited zero: 26 direct sources, 624142 bytes,
+Root metadata check OBSCURED-ID-00607 exited zero: 26 direct sources, 624142 bytes,
 32 fresh complete identities, 48 selected references, both six-file
 namespaces and 15 unchanged inherited boundary objects. The 423-source
-collection remains by reference. Author preseal 4a1283 and reported final
-9ff130 retain author attribution. Full manual review, complete author
+collection remains by reference. Author preseal OBSCURED-ID-00608 and reported final
+OBSCURED-ID-00609 retain author attribution. Full manual review, complete author
 checker review, separate nonauthor receipts, recovered display clipping,
 source phases and exact acceptance are archived in
 `docs/track_b/native_global_maximum_weighted_sign_v1/`.
 
 After acceptance, RI212 was dispatched to the existing QR task in
-`ri212-native-individual-margins-u1l72g3n/`. It must decide the original
+`OBSCURED-LOCATION-00186/`. It must decide the original
 strict C2 and C3 signs at the same actual pair, or give a substantive exact
 reduction identifying the remaining native inequality or scalar. The new
 global bound supplies a lower bound on rho. Six named, authenticated
@@ -1090,14 +3160,14 @@ Measurement's RI206 administrative freeze candidate remains accepted after
 one actual action and independent complete-output review. E still has 48
 files and nine directories, with no installed freeze or mode cards. RI209
 continues its separately reserved source-only installation proposal in
-`ri209-freeze-installation-b3bokxbe/worker_proposal/`. Its reviewed actual
+`OBSCURED-LOCATION-00187/worker_proposal/`. Its reviewed actual
 installation and fresh runtime custody must precede normal-mode admission;
 normal acceptance must precede optimized. The existing WHITE qualification
 obligations and selected public GWOSC conventional reproduction remain
 distinct from calibration, protected validation and a native forward map.
 
 The preceding four/five-maxima and freeze-candidate checkpoint was committed
-as `80b94aa4ff055e6a121fd23486052a6898cc3921` and independently verified on
+as `OBSCURED-ID-00605` and independently verified on
 live `origin/ret`. Its 95 scoped files contain 80 exact plain copies and
 two lossless gzip copies; all 878 dependency references and 5027 unrelated
 file identities/inventory passed. The initial staged whitespace diagnostic
@@ -1109,7 +3179,7 @@ remains paused. All unrelated edits and protected historical results remain
 preserved. This bounded publication does not complete the broader programme.
 
 **Prior checkpoint — complete four/five-maxima theorems and actual freeze candidate.**
-1 October 2026 UTC (30 September in Honolulu). RI205 is independently
+1 October 2026 UTC (30 September in OBSCURED-LOCATION). RI205 is independently
 accepted under its named finite-prefix premises: every marked six-parent
 with exactly four maxima satisfies
 U6<4+6K+64K^2+1/128<369,664,456,005<370 billion<T,
@@ -1122,7 +3192,7 @@ sectors. The new Ferrers support lemma removes only the canonical boundary
 term in the four-omission sector; positive theta restoration remains.
 Corrections for older events becoming maximal after deletion are included.
 Root and a separate nonauthor manually reviewed the argument and its named
-RI41/RI63 premises. Root metadata990fe0 exit0 checks15 direct sources,
+RI41/RI63 premises. Root metadata OBSCURED-ID-01381 exit0 checks15 direct sources,
 six sealed files,29 selected references,both namespaces and15 preserved
 boundary objects. Inherited423/26/18 collections remain references, not a
 new finite replay. The author preseal/final checks and all diagnostics
@@ -1135,15 +3205,15 @@ U6<5+10K+80K^2+11/256<462,080,760,006<463 billion<465 billion<T.
 The selected-pair coverage argument gives the stronger epsilon^2/8
 triple denominator; complete eight/sixteen-factor old-maximum corrections
 and all positive restoration terms remain. Both base ideals and every
-marked occurrence are retained. Root metadata75e78f exit0 checks14direct
+marked occurrence are retained. Root metadata OBSCURED-ID-01382 exit0 checks14direct
 sources/537440bytes,20whole identities,28references,six-file namespaces
 and15preserved boundaries. Full author-checker review distinguishes
-preseal500385 from externally reported final56764b. All author phases and
+preseal OBSCURED-ID-01318 from externally reported final OBSCURED-ID-01319. All author phases and
 diagnostics remain. See `docs/track_b/native_five_maxima_bound_v1/`.
 
 One through five maxima are now settled against T. After adjudication,
 RI210 was assigned to the existing QR task in the exclusive
-`ri210-native-six-maxima-leicoenm/` reservation. It reuses accepted RI185's
+`OBSCURED-LOCATION-00188/` reservation. It reuses accepted RI185's
 complete antichain classification for the remaining six-maxima upper
 comparison. Only after closing that class may it combine the exhaustive
 bounds and derive the precise RI199 weighted-W consequence. No global
@@ -1152,8 +3222,8 @@ physical correspondence remain separate. The native proof lane is active;
 all original executable qualifications stay required and uncredited.
 
 Measurement has completed one actual unchanged RI160 freeze construction:
-exec0c8349 exit0, synchronous and empty output; fresh predispatcha65228
-and complete root postcheckd2da10 passed. The canonical17-field result
+exec OBSCURED-ID-01383 exit0, synchronous and empty output; fresh predispatch OBSCURED-ID-01320
+and complete root postcheck OBSCURED-ID-01384 passed. The canonical17-field result
 matches every source/helper/runtime/evidence field and both nine-field
 mode maps. All3 operation files,4monitor files and7independent final
 checks reconcile. E remains48files/nine directories; no freeze or mode
@@ -1161,19 +3231,19 @@ card has been installed by this action.
 
 Fresh custody covers764sources,810preserved historical roles,
 1810vendor files/48,024,515bytes,195namespace rows,twoabsences,fourtools
-and the host. The operation recorded23valid samples,0.796589125seconds,
-peak64592KiB,maximum gap47.170792ms and final gap29.817208ms. Original
+and the host. The operation recorded23valid samples,OBSCURED-METRIC-01512 seconds,
+peakOBSCURED-METRIC-01460 KiB,maximum gapOBSCURED-METRIC-01573ms and final gapOBSCURED-METRIC-01574ms. Original
 resource limits remain. Sampled child RSS is not continuous/group
 control; genuine tool origin,supplier/cache/Apple-host/loader/read-window
 and no-descendants remain explicit premises. All accepted guard/profile
 and source-applicability work remains inherited; no new science ran.
 
-Independent actual review ebf69e exit0 passed8,648predicates,28admin JSON
+Independent actual review OBSCURED-ID-00610 exit0 passed8,648predicates,28admin JSON
 reads and2,596fresh identities, including the final POST_CUSTODY pin.
 Root accepted the complete candidate in FREEZE_CANDIDATE_ACCEPTANCE.json
 (3143bytes,SHA256
-`0e4611497c9339ffdb04f269576db0b85ee0e49ce474d65f8287ebede4f55d25`).
-The reviewer's Python-set serialization failure0d77de was a checker-only
+`OBSCURED-ID-00611`).
+The reviewer's Python-set serialization failure OBSCURED-ID-01321 was a checker-only
 diagnostic before outcome reconstruction; corrected read-only checks
 passed without a subject retry. Prior authorship and inherited semantics
 are disclosed. Fresh reviewer uname and root's before/after sw_vers
@@ -1181,7 +3251,7 @@ observations retain their different provenance. See
 `docs/coordination/measurement_actual_freeze_candidate_v1/`.
 
 RI209 is active in the exclusive
-`ri209-freeze-installation-b3bokxbe/worker_proposal/` reservation. Its
+`OBSCURED-LOCATION-00187/worker_proposal/` reservation. Its
 narrow source-only proposal will install the accepted bytes by an exclusive
 root-owned write and produce the existing complete frozen observation.
 Expected E after installation:49files/nine directories with original48
@@ -1197,10 +3267,10 @@ RET alone remains paused. No missing user decision blocks these next steps.
 This bounded checkpoint preserves all unrelated edits, protected historical
 evidence and active RI209/RI210 sources. The broader programme continues.
 Scoped publication,commit and live remote verification receipts are retained
-in `ri207-root-four-maxima-review-rrel_hre/` after publication.
+in `OBSCURED-LOCATION-00189/` after publication.
 
 **Prior checkpoint — complete three-maxima theorem and actual adapters.**
-1 October 2026 UTC (30 September in Honolulu). RI203 is independently
+1 October 2026 UTC (30 September in OBSCURED-LOCATION). RI203 is independently
 accepted under its named finite-prefix premises: every marked six-parent
 with exactly three maxima satisfies U6<3+3K+16K^2<92,416,228,003<T,
 K=681472/9. The covering-precursor lemma bounds the triple denominator
@@ -1210,7 +3280,7 @@ slots use their respective admissible floors. The native M5 witness gives
 T>93 billion without evaluating the printed maximum or canonical vector.
 
 Root and a separate nonauthor manually reviewed the whole argument.
-Root metadata b1acd2 exit0 checks13 direct sources/545142bytes, six packet
+Root metadata OBSCURED-ID-00612 exit0 checks13 direct sources/545142bytes, six packet
 files,26 selected references, both namespaces and15 preserved boundary
 objects. Inherited423/26/18 collections remain exact references, not a
 new finite replay. Full premises and receipts are archived in
@@ -1218,8 +3288,8 @@ new finite replay. Full premises and receipts are archived in
 
 One through three maxima are settled against the unchanged sufficient
 target. RI205, assigned after RI203 adjudication, has now sealed its
-four-maxima proof in `ri205-native-four-maxima-7gkvoked/`. Handoff7882bytes,
-SHA256 `cb9c07c5715b4c5b7aa0b610aa642ffc45c6c93fc8dc1996d67205b1a64a4afe`.
+four-maxima proof in `OBSCURED-LOCATION-00190/`. Handoff7882bytes,
+SHA256 `OBSCURED-ID-00613`.
 The nonauthor review finds no mathematical blocker; root's full independent
 adjudication and check reconciliation are the next native action. No RI205
 acceptance is claimed in this checkpoint. After that disposition, assign
@@ -1228,9 +3298,9 @@ Five/six maxima, global M6, actual W, both margins, H30 and physical
 correspondence remain open; executable obligations remain uncredited.
 
 Measurement completed one actual unchanged RI160 adapters operation:
-exec7f6855/session57986, terminal942d82 exit0, empty streams. Root fresh
-predispatch b52aeb and postcheck206324 passed. Independent actual review
-b37b35 exit0 passed3829 predicates and checked2555 fresh whole identities.
+exec OBSCURED-ID-01385/session OBSCURED-ID-01443, terminal OBSCURED-ID-01386 exit0, empty streams. Root fresh
+predispatch OBSCURED-ID-00614 and postcheck206324 passed. Independent actual review
+OBSCURED-ID-00615 exit0 passed3829 predicates and check OBSCURED-ID-01387 fresh whole identities.
 Every caller11/guards8/runtime23 field matches the independently
 reconstructed canonical result. All3 operation files including COMPLETE,
 four monitor files and7 independent tails reconcile. Root issued the
@@ -1238,8 +3308,8 @@ three complete acceptance records outside E; E remains48files/nine dirs.
 
 Fresh custody covered722 sources,810 preserved historical roles,
 1810vendor files/48,024,515bytes,195namespace rows,two absences,fourtools
-and the host. The operation took2.414953375seconds,73valid samples,
-peak211872KiB,max gap47.343917ms and final gap29.915083ms. All original
+and the host. The operation tookOBSCURED-METRIC-01513 seconds,73valid samples,
+peakOBSCURED-METRIC-01461 KiB,max gapOBSCURED-METRIC-01575ms and final gapOBSCURED-METRIC-01578ms. All original
 resource limits remain. This is sampled child RSS, with explicit stable
 supplier/cache/Apple-host/loader/read-window/no-descendants premises.
 Original65 guards and actual current profiles retain their accepted
@@ -1250,7 +3320,7 @@ See `docs/coordination/measurement_actual_adapters_v1/`.
 
 RI206 is the next measurement step: source-only preparation and complete
 candidate-freeze reconstruction, assigned in the exclusive
-`ri206-root-freeze-5e_n5lj_/worker_proposal/` reservation. The exact request
+`OBSCURED-LOCATION-00191/worker_proposal/` reservation. The exact request
 already binds the three accepted cards. Root retains admissions, genuine
 execution, independent acceptance and Git ownership. No freeze or mode
 card has been issued; fresh per-mode custody and genuine normal acceptance
@@ -1262,10 +3332,10 @@ calibration and a native forward map remain separate. RET alone is paused.
 This bounded checkpoint preserves unrelated edits, all protected historical
 evidence and active RI205/206 work. The programme continues without a
 missing user decision. Scoped commit and live remote verification receipts
-are retained in `ri204-root-adapters-f04k2tg9/` after publication.
+are retained in `OBSCURED-LOCATION-00192/` after publication.
 
 **Prior checkpoint — complete two-maxima bound and exact measurement inputs.**
-1 October 2026 UTC (30 September in Honolulu). RI201 is independently
+1 October 2026 UTC (30 September in OBSCURED-LOCATION). RI201 is independently
 accepted as a conditional native theorem: every marked six-parent with
 exactly two maxima satisfies U6<681472/9<76000<T. Complete deletion rows
 give U6=2-x-y+sum p*q/B with0<x,y<1. The inherited RI41 all-ideal floor
@@ -1278,7 +3348,7 @@ T>(468/5)(1+M5)-1/2>10^9. No printed numerical M5, canonical vector or
 scientific verifier was evaluated. Fixed-law positivity, normalization,
 locality, marked diamonds and the accepted finite-prefix theorems remain
 explicit premises. Root manual review and a separate nonauthor review agree.
-Root metadata check415d8d exit0 verified18 direct sources plus five payloads,
+Root metadata check OBSCURED-ID-01388 exit0 verified18 direct sources plus five payloads,
 23 selected references, sealed namespaces and15 preserved boundary objects.
 All administrative diagnostics remain; inherited423/predecessor26 closure
 was not rerun. See `docs/track_b/native_two_maxima_bound_v1/`.
@@ -1295,7 +3365,7 @@ fully bound three-field adapters request. All11 helpers,30 source pairs,
 five unchanged resource limits, five root decisions, accepted current
 profiles and five actual RI200 sidecars remain exact. The original RI130
 caller handoff and RI154 relocation narrative retain their distinct roles.
-Root check4eb699 exit0 verified142 whole identities and E's unchanged48
+Root check OBSCURED-ID-01389 exit0 verified142 whole identities and E's unchanged48
 files/nine directories. Independent review accepts these input bindings;
 earlier source/review authorship and inherited qualification are disclosed.
 The root digest-transcription and directory-count errors failed before
@@ -1329,7 +3399,7 @@ For two through six maxima, the exact remaining requirement is C-L<=T-m.
 The two specified C4-plus-A2 records retain the full N_i squared correction
 and reproduce the previously accepted F_i bound. Root read and manually
 checked the manuscript and accepted source definitions; a nonauthor review
-agreed. Metadata check e8cb63 exit0 verified 26 direct sources plus five
+agreed. Metadata check OBSCURED-ID-00616 exit0 verified 26 direct sources plus five
 current payloads, 31 selected references, both namespaces and fifteen
 unchanged boundary objects. The 423-file manifest remains by exact reference.
 The first administrative reference-shape diagnostic is preserved, with its
@@ -1347,15 +3417,15 @@ its emerging A5 witness and two-maxima result await independent review.
 Other maxima classes, both margins, H30 and physical claims remain open.
 
 Measurement advanced through actual administrative sidecar execution:
-a1ff1f/session18218, terminal e214c5 exit0. All five whole accepted PRE fields
+OBSCURED-ID-00617/session OBSCURED-ID-01444, terminal OBSCURED-ID-00618 exit0. All five whole accepted PRE fields
 were exported exactly; both actual profiles and original dyld evidence stay
-bound. Root check1a2efb passed and independent check0ef7af passed19,307
+bound. Root check OBSCURED-ID-01390 passed and independent check OBSCURED-ID-01391 passed19,307
 predicates. All eight operation files including COMPLETE, four monitor files,
 twelve independent tails, 668 current source identities, 810 historical role
 rows and E's unchanged48files/nine directories reconcile. Fresh vendor/host
 custody covered1810files/48,024,515bytes,195namespace rows,two absences/fourtools.
-The run took2.115778542seconds:59samples,peak210480KiB,max gap38.721375ms,
-final gap35.131917ms. Original resource limits are unchanged.
+The run tookOBSCURED-METRIC-01514 seconds:59samples,peakOBSCURED-METRIC-01462 KiB,max gapOBSCURED-METRIC-01576ms,
+final gapOBSCURED-METRIC-01577ms. Original resource limits are unchanged.
 
 Only this administrative export is accepted. Earlier adapter authorship is
 disclosed; accepted RI160 source semantics and actual106 qualification are
@@ -1400,14 +3470,14 @@ branch. It also yields C0<0, H6<0 and I(Z6)>0 under the accepted positive
 factor identities. The cap-wide nonpositivity certificate therefore fails;
 positive formal points near the cap do not locate the actual (rho,s) or
 decide its W. Actual C2/C3, shared H30, other parents and physics remain open.
-Root metadata check a1664a exited zero with 423 selected dependencies,
+Root metadata check OBSCURED-ID-00619 exited zero with 423 selected dependencies,
 431 fresh identities and twelve unchanged boundary objects. The accepted
 manual proof and root review are archived separately in
 `docs/track_b/native_manual_pair_separation_v1/`.
 
 RI191 is independently accepted only as bounded unexecuted verifier source,
 with complete RI195 source/contract/provenance review. Root metadata replay
-5f7e9d exited zero: 389 selected dependencies, 399 fresh identities and
+OBSCURED-ID-00620 exited zero: 389 selected dependencies, 399 fresh identities and
 48,004 predicates. Source and reviews are in
 `docs/track_b/native_pair_witness_source_v1/`. RI197 used a separate exact
 literal-read admission; it neither changed the old opaque-only record nor
@@ -1430,8 +3500,8 @@ reservation and exact assignment are recorded in the root proof archive.
 Measurement: RI194 and root accept applicability of the original genuine
 65-guard evidence to the unchanged eleven helpers at E. The complete
 path-sensitive correspondence requires no additional relocation control;
-no guard is claimed to have run at E. Root replay 442959/session42365,
-terminal a10a61, exited zero and reproduced all 6,718 predicates and 577
+no guard is claimed to have run at E. Root replay 442959/session OBSCURED-ID-01445,
+terminal OBSCURED-ID-00621, exited zero and reproduced all 6,718 predicates and 577
 fresh identities. The old reports and all three reviewer-only checker
 failures are preserved. Prior RI130/141 authorship is disclosed; original
 source semantics inherit earlier nonauthor acceptance.
@@ -1519,9 +3589,9 @@ assigned. Native support, seed and epsilon=1/4 remain fixed.
 
 26 September 2026 UTC. RI-112 source is accepted after complete independent
 reviews and root algebra/contract/provenance review. Root adjudication is
-`ri112-root-source-adjudication-20wp9rwb/RI112_ROOT_SOURCE_ADJUDICATION.json`
-under `/Volumes/AI_DATA/development/det-review-evidence/`: 7,884 bytes, SHA256
-`794701da153603ca765a60998a37222fabfa9ede4c340ed862f44d575fe84600`.
+`OBSCURED-LOCATION-00221/RI112_ROOT_SOURCE_ADJUDICATION.json`
+under `OBSCURED-PATH-00004`: 7,884 bytes, SHA256
+`OBSCURED-ID-01176`.
 The exact four-file checker/auditor/protocol bundle is published in remotely verified `0719992`
 at `docs/track_b/native_growth_one_column_rank_check_v1/`.
 Actual six-minor/gcd outcome remains unknown; no native coefficients or fixtures
@@ -1541,16 +3611,16 @@ new-target qualification from retained arithmetic or supervision.
 Prepare separate prospective witness, normal, optimized and independent-audit
 stages with real predecessor completion/custody prerequisites. Missing future
 custody must refuse before attempt; placeholders cannot stand in for acceptance.
-QR owns only external `ri115-native-caller-source-fViRkoKT/` (creation `d10be5`), acknowledged after reading the complete root adjudication. No target parse/import/compile,
+QR owns only external `OBSCURED-LOCATION-01620/` (creation `OBSCURED-ID-01622`), acknowledged after reading the complete root adjudication. No target parse/import/compile,
 probe, native calculation, fixture execution, active inputs/candidate/descriptor,
 freeze/admission or run is assigned. Root owns actual acceptance, execution,
 repository/index and git. No new family/support, seed/amplitude, q6/q7 or H/z
 calculation is assigned. This source handoff boundary does not pause the programme.
 
-RI-113 is published in remotely verified `408a431`. Parallel RI-114 has now passed
+RI-113 is published in remotely verified `OBSCURED-ID-00677`. Parallel RI-114 has now passed
 both genuine normal/optimized 22-case interface runs, with full report equality
 and independent custody review. RI-116 prepares a source-only observed-caller
-adaptation in external `ri116-observed-caller-source-guicDV9v/`; no actual observed retry is admitted. RI-110 failure remains intact.
+adaptation in external `OBSCURED-LOCATION-01621/`; no actual observed retry is admitted. RI-110 failure remains intact.
 No physical/native claim follows. RET alone remains paused.
 
 # Historical RI-112 source assignment and handoff
@@ -1558,13 +3628,13 @@ No physical/native claim follows. RET alone remains paused.
 # Current QR coordination — RI-112 all-record rank/gcd source
 
 26 September 2026 UTC. RI-111's complete conditional 28-child repair criterion
-is published in remotely verified `eb6234b` after root review of every line, complete independent proof reviews
+is published in remotely verified `OBSCURED-ID-01614` after root review of every line, complete independent proof reviews
 and fresh premise checks. The [exact manuscript](../track_b/native_growth_one_column_repair_v1/REPAIR.md)
 retains all records, strict positivity and all other parent equations. Actual
 feasibility remains unresolved; RI-109's restricted 27-child rejection is fixed.
-Root adjudication is `ri110-111-root-review-sRywfxac/RI111_ROOT_ANALYTIC_ADJUDICATION.json`
-under `/Volumes/AI_DATA/development/det-review-evidence/` (3,838 bytes,
-`fc4e9147db50ceb750d1f9fdcf503ffbb53363d2f1379557d1713bb844093249`).
+Root adjudication is `OBSCURED-LOCATION-00126/RI111_ROOT_ANALYTIC_ADJUDICATION.json`
+under `OBSCURED-PATH-00004` (3,838 bytes,
+`OBSCURED-ID-01150`).
 
 RI-112 is now assigned to the existing **Quantum Relativity** task. Prepare
 source for the exact six-minor rank/gcd test and a separately structured auditor,
@@ -1576,8 +3646,8 @@ all-zero minors, constants, degree drops, repeated roots and Sturm endpoints
 satisfy the remaining parents. No new support, q6/q7 table, H/z calculation,
 amplitude/seed change or full positive-feasibility solver is assigned.
 
-QR reserved only external `ri112-one-column-rank-source-uH7F8g/` (creation
-`3c5cf8`). Source-defined synthetic cases and intended refusals require review;
+QR reserved only external `OBSCURED-LOCATION-00215/` (creation
+`OBSCURED-ID-01152`). Source-defined synthetic cases and intended refusals require review;
 no coefficient evaluation, scientific-body query, target import/compilation,
 probe, fixtures or numerical campaign is admitted. Root owns all repository,
 index/git, source acceptance and future actual admissions. The stable RI-111
@@ -1589,17 +3659,17 @@ The complete failed attempt is preserved; no observed result, optimized run,
 calibration validation or native forward map is accepted. Coordinator RI-113's complete additive v2 source
 repair is now independently reviewed and root-accepted. The original numerical
 path retains narrowly stated RI-108 applicability; the new interface remains
-unqualified. RI-114 reserves external `ri114-interface-caller-source-J6oVpLYq/`
+unqualified. RI-114 reserves external `OBSCURED-LOCATION-00220/`
 for concrete source-only preparation of the 22-case normal/optimized interface
-caller. Root decision is `ri113-root-source-review-cHqXb1ye/RI113_ROOT_SOURCE_ADJUDICATION.json`
-(7,318 bytes, `f8ce775fbbd8e23fa2c3678243bbb8243a7c5d991d5929b02d454c3d7721e77f`).
+caller. Root decision is `OBSCURED-LOCATION-00218/RI113_ROOT_SOURCE_ADJUDICATION.json`
+(7,318 bytes, `OBSCURED-ID-01163`).
 No observed retry, active freeze or admission is issued. Source packet and all
 failed evidence remain immutable. RET alone stays paused.
 
 RI-112 has now reached immutable source handoff at the same external directory:
 `HANDOFF.json` is 15,383 bytes, SHA256
-`3beb73841911e7faafc0eb7c6121c36b5c1a990e444d171cede0856fa3d3d999`.
-Root read the complete handoff (`9293e0`) and assigned independent complete
+`OBSCURED-ID-01171`.
+Root read the complete handoff (`OBSCURED-ID-01170`) and assigned independent complete
 coordinator source review. Its existing producer/auditor/combined reviews are
 source evidence only. No source acceptance, coefficient evaluation or new
 execution admission is inferred. QR's next concrete assignment follows root
@@ -1630,8 +3700,8 @@ supplies a positive complete extension. Actual rho, s, global M6/M7 and the fixe
 seed/amplitude remain uncomputed and unchanged.
 
 QR owns only the external analytic source/review packet at
-`/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/`
-(acknowledged creation `dfb92c`). Existing source and evidence are immutable. No target execution,
+`OBSCURED-PATH-01619`
+(acknowledged creation `OBSCURED-ID-01148`). Existing source and evidence are immutable. No target execution,
 new record/probability table, H/z arithmetic, broad support search, numerical
 admission, active freeze or repository/git operation is assigned. Existing
 accepted certificate conclusions may be cited; a new numerical campaign would
@@ -1641,7 +3711,7 @@ it does not pause the wider programme.
 
 RI-110's immutable external observed-data caller is under separate independent
 source/custody-closure review. The accepted RI-108 qualification is published
-in verified `bf342b8`. No observed-data result, calibration validation or native
+in verified `OBSCURED-ID-00679`. No observed-data result, calibration validation or native
 forward map is inferred. RET alone remains paused.
 
 The original handoff below is retained as a dated historical record. The current
@@ -1658,8 +3728,8 @@ Only this handoff and the two QR maps are otherwise edited. Coordinator owns
 all git/index, acceptance/publication and other source reservations.
 
 RI-25 is accepted and published at
-`9f463f2e60be81badb4836aaf8ef43d23fee2458`, tree
-`066a8bf8c5a3d09ee313406b016c0a23c96f642e`, with normal push and independent
+`OBSCURED-ID-00727`, tree
+`OBSCURED-ID-00728`, with normal push and independent
 origin/ret verification by the coordinator. Its twelve bundle files are held
 unchanged. The new inventory holds 87 predecessor/RI-24/RI-25 files plus six
 protected identities. No accepted source, registry, core/RET or bank is
@@ -1671,8 +3741,8 @@ reviews passed; all ten Python sources match the isolated tested candidate.
 Root independently passed 51 tests per mode, reproduced 52 identical worked
 exports and reconciled 331 separate JSON-only exported-data checks. The QR
 source reservation is released. The complete eighteen-path candidate is
-published in `0fde8b2f7a3b00adb4cb620621801c80a32150f5`,
-tree `3a1ae535ba4f40ccbb0f2a181bb02ce57148907d`, after a normal push
+published in `OBSCURED-ID-00729`,
+tree `OBSCURED-ID-00730`, after a normal push
 and independent `origin/ret` verification. Source hashes and actual evidence are in the
 [progress record](REVIEW_PROGRESS.md). No successor is assigned.
 
@@ -1725,11 +3795,11 @@ the pulse example includes its second receipt exactly at cutoff.
 
 Main's direct normal/optimized worked runs produced byte-identical contents
 across all 52 exports, outside the checkout. Summary SHA256:
-`80a646f5dd007ba6a9d64f9ffd6dec7c3c4bb5a1a8d4974fa31c335545ac28a8`.
+`OBSCURED-ID-01623`.
 Complete independent mathematical/specification and source/dataflow reviews
 found no remaining blocker after the chronology and direct pulse-helper guards
 were repaired. Main passed all 51 focused tests on Python 3.11.6 with
-`-I -S -B` (0.046 s) and `-I -S -B -O` (0.045 s): 25 exact kinematics,
+`-I -S -B` (OBSCURED-METRIC-01689 seconds) and `-I -S -B -O` (OBSCURED-METRIC-01690 seconds): 25 exact kinematics,
 14 clock/record and 12 simulator/worked tests. Separate test authors also
 passed their normal/optimized checks. Scoped lint/format checks pass; all 152
 local links resolve, and whitespace/conflict checks have zero findings.
@@ -1816,14 +3886,14 @@ Main executed the worked CLI in normal and optimized isolated Python. All
 12 output files were byte-identical across modes, including raw ordered
 records, frozen predictions, scoring and separate truth audit. Full trial
 datasets are outside the checkout. The content prediction digest is
-`49b2217760a9fac5a508ced52d8c86399107f3fedb91d859c08705d725202820`;
+`OBSCURED-ID-01624`;
 the exported summary file digest is
-`72aca957a52cf5fc1024fdd4773ca5a6172280de9de2229bf1bf389d8d0084bb`.
+`OBSCURED-ID-01625`.
 Canonical content digests differ from newline-terminated export-file hashes.
 
 The focused suite comprises 61 tests: 21 exact qubit/bridge, 12 record-contract,
 18 inference/adversarial and 10 simulator/worked checks. Main passed all 61
-in Python 3.11.6 with `-I -S -B` (0.642 s) and `-I -S -B -O` (0.650 s).
+in Python 3.11.6 with `-I -S -B` (OBSCURED-METRIC-01691 seconds) and `-I -S -B -O` (OBSCURED-METRIC-01692 seconds).
 The separate test author passed the same normal/optimized suite. Scoped lint
 and format checks pass. All 150 local Markdown links resolve; whitespace and
 conflict checks have zero findings. All 75 held predecessor/RI-24 identities
@@ -1861,9 +3931,9 @@ executor, dependency, registry entry or predecessor-suite replay is added.
 Coordinator owns every other path and all git/index operations.
 
 RI-21 is independently accepted and published at
-`14eba182f6d7f5ef3d8b709a9bb810403b0d4c19`, tree
-`0c284b0625f5dd288ea7f40301260fe40b8df84e`, with accepted note SHA256
-`62887089c6f661f543e066f23d2d141200c9d0b67f9cafa8dd06765072e12517`.
+`OBSCURED-ID-00726`, tree
+`OBSCURED-ID-01598`, with accepted note SHA256
+`OBSCURED-ID-01626`.
 Normal push and remote identity were verified by the coordinator. The accepted
 mathematical body remains held; the prior handoff below is historical.
 
@@ -1939,7 +4009,7 @@ No actual independent-preparation/measurement law, source replacement,
 application/core/RET/bank implementation, full-QM/complex-field selection,
 native F/L or physical mass/geometry/gravity result is claimed. The separate
 [RI-23 scalar-value/error contract](SCALAR_VALUE_ERROR_CONTRACT.md) is
-independently accepted and published in verified `0410ccd`. Its acquisition
+independently accepted and published in verified `OBSCURED-ID-01627`. Its acquisition
 and execution interface remains unimplemented.
 No QR-05BW–DO/coverage/noncollapse sequel, clocks, book, retired kappa-gravity,
 executor or automatic successor is opened. This assignment stops at reviewed
@@ -1956,9 +4026,9 @@ test source, dependency, registry entry or predecessor-suite replay is added.
 Coordinator owns all other paths and every git/index operation.
 
 RI-20 is accepted and published at
-`0bd4d4677bf0c0664c52e05fe6fb87c586383a3a`, tree
-`cd17aeec4d23b0f8df5ed8517fa867721f371f8b`, with accepted note SHA256
-`389d1ff809a921f5af832ca197e6bca4e3810ef1d0c7943193c5b6b9c9d95971`.
+`OBSCURED-ID-00725`, tree
+`OBSCURED-ID-01597`, with accepted note SHA256
+`OBSCURED-ID-01628`.
 The coordinator verified the normal push and remote identity. That accepted
 mathematical body is unchanged; the prior RI-20 handoff below is historical.
 
@@ -2042,15 +4112,15 @@ entry or source-pinned execution is added. Coordinator owns all git/index
 operations and separate acceptance/publication.
 
 RI-19 is accepted and published at
-`f6b8f18f8d7aa739c5b78209b7f69a5c1db87f67`, tree
-`1c8fd36d726a9f7e9aa1fbacc2244b0ad1c6c048`, with accepted note SHA256
-`e0e13b6102b7b17cdff008ba86675136d55fb0ddeee5cc12acce53151ce04770`.
+`OBSCURED-ID-01593`, tree
+`OBSCURED-ID-01594`, with accepted note SHA256
+`OBSCURED-ID-01629`.
 The older RI-19 submission digest below remains historical. The coordinator
 published the RI-20 assignment and
 [connected synthesis](../research/PROOF_SYNTHESIS_AND_PREMISE_SELECTION.md)
-at `5a73cef979ca35b596728cc498127506159837f8`, tree
-`9184647cc2c38aad1e75e23105d770836fc270f5`; the accepted synthesis SHA256 is
-`2d24326ca579c6b3d940d796c213a5f3577a0348e93ad47b9075d37e6b0ed82a`.
+at `OBSCURED-ID-01595`, tree
+`OBSCURED-ID-01596`; the accepted synthesis SHA256 is
+`OBSCURED-ID-01630`.
 These publication identities were verified by the coordinator, not by new
 git operations in this task.
 
@@ -2134,11 +4204,11 @@ relativity/geometry plan. There is no new executor, test source, API, registry
 entry or source-pinned execution. Coordinator retains all git/index ownership.
 
 RI-18 is accepted and published in independently verified
-ba129584e5c05a06f061e77cd3bf2daf18a02bdc, tree
-eed0446c8f6fc88539d4f1ca08e1d14bd65d620b. Its final accepted statement
-SHA256 is `323826e4a8e83d709f0047120056410fdc1b79d3a5198ffeed0a96e9a8477fe7`;
-adapter `ac8672708681bf50cd7afa48b79f4379d1d629531abc6ab9b8bb5309543ffa59`
-and checker `22b7a079da945fc1800c00c7aec2e6afd799c129c2a54789df123b63ed154b5c`
+OBSCURED-ID-01591, tree
+OBSCURED-ID-01592. Its final accepted statement
+SHA256 is `OBSCURED-ID-01631`;
+adapter `OBSCURED-ID-01632`
+and checker `OBSCURED-ID-01633`
 are unchanged. The coordinator's 65 isolated integration regressions included
 31 actual witnesses normally and optimized; they were not replayed for RI-19.
 The earlier RI-18 detail below is a historical handoff, not the current scope.
@@ -2214,7 +4284,7 @@ from positivity and t=3/5; zero-input/read guards remain.
 
 A temporary independent native calculation checked 128 scalar coefficients,
 the rank minor and two corrected positive-domain c-separator laws using the
-unchanged i source `0e60694bad07016886ec2451f4b17a5ac7dd24c089c8953dabb926620c8148d8`.
+unchanged i source `OBSCURED-ID-01634`.
 It corrected a preliminary imaginary-c hand sum before finalization of the
 note. Main's separate Fraction-only probe passed four checks: effect
 completeness, rank minor, and both TV values. These supplement the written
@@ -2223,7 +4293,7 @@ approximate-instrument trace. No predecessor suite was broadly replayed.
 
 All 65 held predecessor/design/RI-18 identities match their entry pins.
 Reviewed submission note SHA256:
-`294cc2ff576857f5a2acfa6c4532e4f09ab9d128b2b1b1a68fd9c84ebaf017ef`.
+`OBSCURED-ID-01635`.
 All 122 local link targets across the four scoped documents resolve, and
 their whitespace/conflict-marker check has zero findings. The four exact
 document identities accompany the final source-quiet handoff. No accepted source, launcher,
@@ -2245,9 +4315,9 @@ ISOLATED_PINNED_INTEGRATION_PASSED.** The assigned three-file bundle is
 [PROTOCOL_COMPOSITION.md](../validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md),
 `adapter.py` and `check.py` in that same new directory.
 The accepted RI-17 design is published in verified
-ad04963b28a9232b6496f233d2f475c12f333d4c,
-tree 5f6cfddfe21c56d001e5b8d5ad9ceebfddafc385, with accepted plan SHA256
-`ae4558101ec1b1fa48c1f1eb259755a2af8c45a9f9887d59e9b0f3602615a696`.
+OBSCURED-ID-01636,
+tree OBSCURED-ID-01637, with accepted plan SHA256
+`OBSCURED-ID-01638`.
 Only its administrative acceptance text differs from the older reviewed
 submission hash in the historical handoff below. That plan and all predecessor
 sources are held unchanged during RI-18.
@@ -2291,7 +4361,7 @@ later readings recover information discarded by its first operation.
 All **31 new focused tests pass normally and under optimization**, using a
 temporary explicit loader that executes the six actual paths with isolated
 Python flags `-I -S -B` (and `-O` for optimization). Main replay durations
-were 36.813s and 35.985s; the independent check author also obtained 31/31
+were OBSCURED-METRIC-01693 seconds and OBSCURED-METRIC-01694 seconds; the independent check author also obtained 31/31
 in both modes. These are not the separately pinned coordinator launcher
 results and are not additions to the existing 411-witness registry inventory.
 No predecessor suite was broadly replayed.
@@ -2335,9 +4405,9 @@ Reviewed bundle submission identities:
 
 | File | SHA256 |
 |---|---|
-| PROTOCOL_COMPOSITION.md | f4a88fb8f42b26bd09dd88bc890b453f9b724bc9f75e4d8393f7ddc22d68b192 |
-| adapter.py | ac8672708681bf50cd7afa48b79f4379d1d629531abc6ab9b8bb5309543ffa59 |
-| check.py | 22b7a079da945fc1800c00c7aec2e6afd799c129c2a54789df123b63ed154b5c |
+| PROTOCOL_COMPOSITION.md | OBSCURED-ID-01639 |
+| adapter.py | OBSCURED-ID-01632 |
+| check.py | OBSCURED-ID-01633 |
 
 All 114 local link targets in the four scoped Markdown documents resolve;
 the six scoped files have no whitespace or conflict-marker findings. The
@@ -2356,17 +4426,17 @@ The author reservation is released; no successor is opened by this handoff.
 
 Independent complete theorem and source audits accept the submitted three-file
 bundle above. The final accepted statement hash is
-`323826e4a8e83d709f0047120056410fdc1b79d3a5198ffeed0a96e9a8477fe7`.
+`OBSCURED-ID-01631`.
 Only two administrative acceptance passages differ from the reviewed
-`f4a88fb8...` submission; reversing them reconstructs that exact digest.
+`OBSCURED-ID-01640...` submission; reversing them reconstructs that exact digest.
 Adapter and checker bytes are unchanged. A separate source reviewer passed
 65 additional assertions, including stop branches that retain the planned
 read setting without invoking a terminal read.
 
 The separately reviewed coordinator launcher binds six actual executable
 paths, six statement/design paths and the unchanged research runner. Its
-final SHA256 is `97bd8e39ce8cae0fcef28f296bff7ad5f6980086a4fd31800bf51b41ee361770`;
-its regression file is `ce6ccb6c62f7d37292e6f03c2bc67a0f6ce791fbce8aadd45c4d8d8b42fe4bbe`.
+final SHA256 is `OBSCURED-ID-01641`;
+its regression file is `OBSCURED-ID-01642`.
 An isolated published-base candidate passed **65 pytest cases in 74.56 s**.
 These include exactly 31 real protocol witnesses normally (35.82 s) and
 under optimization (35.99 s), all six sources executed, no skipped/failed
@@ -2386,9 +4456,9 @@ COORDINATOR_DESIGN_ACCEPTED; IMPLEMENTATION_NOT_ASSIGNED.**
 The single new artifact is
 [QR_PROTOCOL_COMPOSITION_PLAN.md](QR_PROTOCOL_COMPOSITION_PLAN.md).
 It was separately assigned after RI-16 publication at remotely verified
-22eca4e7eb1b73b84db6fe3b6ff613df932b15c1,
-tree 0078050a51566498254b472e21609e86b996753c. RI-16's accepted note hash is
-`5af27962b038b219bc852c9abd77d99e71f086f03cbf8a8e35fd3c447e4c0a2f`;
+OBSCURED-ID-01583,
+tree OBSCURED-ID-01643. RI-16's accepted note hash is
+`OBSCURED-ID-01644`;
 its model/check and all prior accepted sources remain unchanged.
 
 ## RI-17 contract and exact missing work
@@ -2458,7 +4528,7 @@ summary/handoff documents are in this task's edit scope. No code, executor,
 test source, registry, accepted bundle/synthesis, coordinator-owned file,
 core/RET/application source or protected evidence is changed here. No git/index
 operation. Final reviewed design SHA256:
-`436013e51936146f6b36a2df7965be7c9428490bf65c17b55a1f21cf1d573524`.
+`OBSCURED-ID-01645`.
 All 117 local link targets across the four scoped documents resolve; scoped
 whitespace/conflict-marker checks have zero findings. No registered suite
 was replayed for this design and no new test count is claimed.
@@ -2474,9 +4544,9 @@ The completed bundle is
 [model.py](../validation/t8-q-retained-word-first-commit-2026-09-14/model.py) and
 [check.py](../validation/t8-q-retained-word-first-commit-2026-09-14/check.py).
 The accepted consolidation was published by the coordinator in verified
-checkpoint 50d652fd8ef963905fbc4b58bc0bc2ddc2b9d473,
-tree 6e4891c14c4061eeb85f4082535789a18d4d35fc. Its accepted source SHA256 is
-`55b6164f120f1b56bd75905be02a05d6a77a1ec0ab6aa08343746a96862c7966`;
+checkpoint OBSCURED-ID-00722,
+tree OBSCURED-ID-01646. Its accepted source SHA256 is
+`OBSCURED-ID-01647`;
 the older submission hash in its historical handoff below is not that
 accepted status-line identity. All accepted source bytes remain unchanged.
 
@@ -2563,20 +4633,20 @@ the six-file whitespace/conflict-marker check has zero findings.
 The coordinator independently accepted the proof and both sources. Its
 reviewers added 18 exact theorem probes and 108 exact native-image/context
 assertions. The isolated publication candidate passed all 27 new checks
-normally and optimized (0.946/0.955 s), plus 43 registry regressions. Complete
+normally and optimized (OBSCURED-METRIC-01695 seconds), plus 43 registry regressions. Complete
 preflight validates nineteen suites and thirty-four executable sources;
 the cumulative 411-witness inventory is not a fresh all-suite replay.
 The registry metadata also passed independent review. Only the note's two-line
 acceptance status differs from the reviewed submission; the mathematical body
 and executable sources are unchanged. Publication was subsequently verified
-at 22eca4e7eb1b73b84db6fe3b6ff613df932b15c1 on origin/ret. Final
+at OBSCURED-ID-01583 on origin/ret. Final
 registered identities are:
 
 | File in the RI-16 bundle | SHA256 |
 |---|---|
-| `RETAINED_WORD_FIRST_COMMIT.md` | `5af27962b038b219bc852c9abd77d99e71f086f03cbf8a8e35fd3c447e4c0a2f` |
-| `model.py` | `7b14f8d99a1983d3b244c70fefb10262cf99d6d3eef522784bdce07d0c94fda6` |
-| `check.py` | `995a01325ec7d4c4af6726c1a11d6ebe698e99b8e1749c7b40eaeb6dd356a1c2` |
+| `RETAINED_WORD_FIRST_COMMIT.md` | `OBSCURED-ID-01644` |
+| `model.py` | `OBSCURED-ID-01648` |
+| `check.py` | `OBSCURED-ID-01649` |
 
 This is the bounded retained-word extension under explicitly supplied policy,
 cone, norm and availability premises, not a general process SDK or an
@@ -2596,8 +4666,8 @@ The assigned single new synthesis is
 [FINITE_RECORD_OBSERVABILITY.md](../research/FINITE_RECORD_OBSERVABILITY.md),
 “Conditional observability and stability of a finite record cone.”
 Its baseline is the coordinator's accepted and remotely verified RI-08j
-checkpoint da8fe99a1b1b91dab962ec0ed17bde349a06458c,
-tree 197f2e7a701746ff9e57d9319df7a7e0fc244768. The earlier J handoff below
+checkpoint OBSCURED-ID-01650,
+tree OBSCURED-ID-01651. The earlier J handoff below
 is historical; its publication-pending statements were satisfied by that
 checkpoint. The source hold was released only for this document-only synthesis.
 
@@ -2674,7 +4744,7 @@ staged normal/optimized checks and predecessor results remain source-bound.
 The standalone source is approximately 2,200 words excluding displayed
 formulas and link targets. Its final source identity is recorded below.
 Reviewed submission SHA256:
-`a82cbda6bc4a9eb27a2a40d75e1fde0b7fde9f28641f743c808a78e6fc18d50d`.
+`OBSCURED-ID-01652`.
 Coordinator acceptance changes only the synthesis status line; its complete
 mathematical body remains identical. Root's two independent reviews found no
 blocker, including 29 exact arithmetic/path checks. Root additionally verified
@@ -2830,9 +4900,9 @@ These revised source pins supersede the initial 27-test submission:
 
 | New source | SHA256 |
 | --- | --- |
-| OBSERVATION_STABILITY.md | `ca7e241399b1d4170b8181e42f510438c34951f2b601020e0146034b40bf2c88` |
-| model.py | `6e761e6e107fba9d3415276a6e0b6170e7f3b34441de2133e8c3874cc2099bea` |
-| check.py | `2deb8a90236a51c367c9086d090c9416a49b20473c8b909f26bf816a5339c88d` |
+| OBSERVATION_STABILITY.md | `OBSCURED-ID-01653` |
+| model.py | `OBSCURED-ID-01654` |
+| check.py | `OBSCURED-ID-01655` |
 
 ~~~sh
 .venv/bin/python -B docs/validation/t8-q-observation-stability-2026-09-13/check.py
@@ -2841,8 +4911,8 @@ These revised source pins supersede the initial 27-test submission:
 
 The coordinator independently accepted and registered the corrected J
 bundle after both audits accepted. In the coordinator's exact staged
-checkout, the 28 new witnesses passed normally (25.128s) and optimized
-(24.971s), loading both declared J sources without skips, errors or drift.
+checkout, the 28 new witnesses passed normally (OBSCURED-METRIC-01696 seconds) and optimized
+(OBSCURED-METRIC-01697 seconds), loading both declared J sources without skips, errors or drift.
 The coordinator reports full manifest pin/import validation for 18 suites
 and 32 sources, 43 staged registry regressions passing in 2.31s, 64 local
 integration checks passing in 2.56s, and the corrected final seven
@@ -2855,7 +4925,7 @@ Scoped commit/push remains with the coordinator. This owner performed no
 git/index operation and is source-quiet after the acceptance-status update.
 All thirty-six statement/model/check pins are unchanged. The accepted
 predecessor checkpoint is
-8714772534b5407db79e0989c2a526a1c5370afd, not a publication of RI-08j.
+OBSCURED-ID-01656, not a publication of RI-08j.
 This is the final bounded refinement of the finite-cone branch before
 any separately authorized premise-to-conclusion consolidation. No such
 consolidation, new hardware/control/preparation, postmeasurement law,
@@ -2864,7 +4934,7 @@ full-QM claim, geometry/gravity promotion or automatic successor starts.
 ## Historical RI-08i handoff — accepted and published
 
 The following handoff describes the completed RI-08i sitting. The
-coordinator published it in checkpoint 8714772534b5407db79e0989c2a526a1c5370afd;
+coordinator published it in checkpoint OBSCURED-ID-01656;
 its earlier publication-stop statements refer to that sitting.
 
 13 September 2026. **RI-08i ACCEPTED_AND_REGISTERED_BY_COORDINATOR.**
@@ -3041,9 +5111,9 @@ found no mismatch or overclaim.
 
 | File | SHA256 |
 | --- | --- |
-| TERMINAL_READ_OBSERVABILITY.md | ac00c0aa13b3b47c504b85ce9296d38ee16c5529a5c5932aca73c4e1f00ca1ad |
-| model.py | 0e60694bad07016886ec2451f4b17a5ac7dd24c089c8953dabb926620c8148d8 |
-| check.py | cf508d61ef6260926123185814edefdf4b5b8393880aab01ba0645cba0bd8f22 |
+| TERMINAL_READ_OBSERVABILITY.md | OBSCURED-ID-01657 |
+| model.py | OBSCURED-ID-01634 |
+| check.py | OBSCURED-ID-01658 |
 
 Terminal read calibration/availability, known commands, the interior
 domain and any physical preparation access remain added premises.
@@ -3186,9 +5256,9 @@ tests do not prove the all-real continuity premise.
 
 | File | SHA256 |
 | --- | --- |
-| REVERSIBLE_GENERATOR.md | fae1ebf0ddf2ab6e74d45c542ec3d7023752b68cc59f4cee4724134673c90b11 |
-| model.py | 071bb9ca1cdca4aca6d37132ad48c6f8dd1f519bad181fe52c8fa1530c23eb2f |
-| check.py | 57289a41ec40e2a494c1c25426685ea1dda1aeb6f3ca1187c368a335974445fd |
+| REVERSIBLE_GENERATOR.md | OBSCURED-ID-01659 |
+| model.py | OBSCURED-ID-01660 |
+| check.py | OBSCURED-ID-01661 |
 
 Reversibility, continuity, the enlarged domain and operation/preparation
 availability remain additional premises. No Hamiltonian selection,
@@ -3344,9 +5414,9 @@ and the three new files) were reverified with no drift.
 
 | File | SHA256 |
 | --- | --- |
-| CUT_CLOSED_COMPLETION.md | `23392a688924b6518e8a823f062ba87b0089c85f711f0a468f7d582b4b2897f9` |
-| model.py | `356212757e27cbde1f63f6047b3f4395011d5816ffaaefe14453b1be2c3710ba` |
-| check.py | `1e37921c80dba78bd424e22519c929080173ef49f2687fdfcd5914c7fd77e483` |
+| CUT_CLOSED_COMPLETION.md | `OBSCURED-ID-01662` |
+| model.py | `OBSCURED-ID-01663` |
+| check.py | `OBSCURED-ID-01664` |
 
 Changed-domain/cut availability and any physical preparation access remain
 additional premises. No new controls, physical context, arbitrary ancilla,
@@ -3494,9 +5564,9 @@ twenty-one accepted pins were reverified without drift.
 
 | File | SHA256 |
 | --- | --- |
-| JOINT_REPEATABILITY.md | `4dd17ccb2900a888f7e7f7362c1a9e84d168c9cb636d59fbb9290a4e0354cd2a` |
-| model.py | `6c07d351a03159ca9963ec8d86eac1af0f7ed995c20aac18a9e347a8a3882386` |
-| check.py | `23cf5654c05033b167075c237fa1fb7afdaaea3815cc5dd9e09da6e4d3abce40` |
+| JOINT_REPEATABILITY.md | `OBSCURED-ID-01665` |
+| model.py | `OBSCURED-ID-01666` |
+| check.py | `OBSCURED-ID-01667` |
 
 The full fixed-image, reference/composition, exact-effect, whole-cone
 positivity, same-image range and reusable-operation availability premises
@@ -3630,9 +5700,9 @@ Final source-stable SHA256 pins:
 
 | File | SHA256 |
 | --- | --- |
-| ROBUSTNESS.md | `071187b895bc159dfdc2107dddbcd009364c0b2e3e21858fce7c441fece03d22` |
-| model.py | `61ca79626aeaa77a81638076ea28ae1eaef4ee929d809fe8376227d8ddef627d` |
-| check.py | `fd0e6fce4cd1d093c7339587e723d3a1bacaf876ccd4d9c6ac5ad3a32037055e` |
+| ROBUSTNESS.md | `OBSCURED-ID-01668` |
+| model.py | `OBSCURED-ID-01669` |
+| check.py | `OBSCURED-ID-01670` |
 
 Uniform full-domain error, exact calibration, domain/range, composition
 where selected, and approximate-instrument availability remain additional
@@ -3788,9 +5858,9 @@ New-bundle SHA-256:
 
 | File | SHA-256 |
 | --- | --- |
-| `JOINT_RECORDABILITY.md` | `34d7fb69bc72764de2d0ee239ee5af3f132ec37247d67e6674a41f98e0beb444` |
-| `model.py` | `666d3366e9b1be24d3b930973bb82b478a7af7901fe5b1321aecc06e47d26c30` |
-| `check.py` | `f088d2e99379d4ad6e852d4157b78760a50351cd74e48f690cab364b5a7f92c9` |
+| `JOINT_RECORDABILITY.md` | `OBSCURED-ID-01671` |
+| `model.py` | `OBSCURED-ID-01672` |
+| `check.py` | `OBSCURED-ID-01673` |
 
 The fifteen accepted RI-08c/RI-08b/RI-08a/RI-07/P1-P2 source pins below
 were rechecked and all match. The hashes identify research sources, not the entire
@@ -3929,9 +5999,9 @@ New-bundle SHA-256:
 
 | File | SHA-256 |
 | --- | --- |
-| `REPEATABLE_INSTRUMENT.md` | `7870bfa7549cb134a6dea54cd1b98ef3451736067ad6ebe6a86498576a40a62c` |
-| `model.py` | `173ad68ab8be40036a28e2806bfdb03dde8bd42030772a41084736d31e05fb86` |
-| `check.py` | `302ee08be226fab9d89d0031277e2357d71cfb5f9d0c56d6a6662681759f5677` |
+| `REPEATABLE_INSTRUMENT.md` | `OBSCURED-ID-01674` |
+| `model.py` | `OBSCURED-ID-01675` |
+| `check.py` | `OBSCURED-ID-01676` |
 
 All twelve accepted RI-08b/RI-08a/RI-07/P1-P2 source pins below were rechecked
 and match. These pins identify the research sources, not the entire dirty
@@ -4052,9 +6122,9 @@ New-bundle SHA-256:
 
 | File | SHA-256 |
 | --- | --- |
-| `CONTROL_SELECTED_QUBIT.md` | `b9ce11fc5c8e11a8aeefa57e7da76b528673a720c54e6e6858f02380742233a2` |
-| `model.py` | `82a0e42a714cf744e9288618016f8cd12617eb0b92b1a1b59813e340db875cd4` |
-| `check.py` | `8417baaa17d5ea6ab8a6ceef3492a63eccb413b02ff3fc3417ea81999425cbc5` |
+| `CONTROL_SELECTED_QUBIT.md` | `OBSCURED-ID-01677` |
+| `model.py` | `OBSCURED-ID-01678` |
+| `check.py` | `OBSCURED-ID-01679` |
 
 All nine accepted RI-08a/RI-07/P1-P2 source hashes below were rechecked and
 match. These pins identify research sources, not the entire checkout.
@@ -4158,9 +6228,9 @@ Prior-scope reproduction commands remain below. New-bundle SHA-256:
 
 | File | SHA-256 |
 | --- | --- |
-| `MAXIMAL_DOMAIN_QUOTIENT.md` | `57e509ffd245d24f244e052a0433bc7c1a46233387f2a54a9cfb618079780ad6` |
-| `model.py` | `c3d1d33f117e5d9b7ad3af1ec5efc420bd6d9a6b415ee885211bd7d94b6bc606` |
-| `check.py` | `1f4de15abcb2178666ab2a6b5c4af32ac3b140479679347c51e6c32ab68e9804` |
+| `MAXIMAL_DOMAIN_QUOTIENT.md` | `OBSCURED-ID-01680` |
+| `model.py` | `OBSCURED-ID-01681` |
+| `check.py` | `OBSCURED-ID-01682` |
 
 These identify local research sources, not the entire checkout. Nothing was
 staged, committed or pushed. Registration and final acceptance belong to the
@@ -4257,9 +6327,9 @@ The prior-scope reproduction commands remain below. New-bundle SHA-256:
 
 | File | SHA-256 |
 | --- | --- |
-| `FIRST_COMMIT_QUOTIENT.md` | `a702625b5e5af97881292e06750f94cef16319a0d0f3c065058207991818fe0c` |
-| `model.py` | `42c67879fc4ccba35d7155ab517275f76fadce68371a30c36438c237b636c8d0` |
-| `check.py` | `0ab1fdc92eb391e2a52462f5b1cc77ab68adf641a0010600c6563faf08385970` |
+| `FIRST_COMMIT_QUOTIENT.md` | `OBSCURED-ID-01683` |
+| `model.py` | `OBSCURED-ID-01684` |
+| `check.py` | `OBSCURED-ID-01685` |
 
 These identify local research sources, not the whole checkout. Nothing was
 staged, committed or pushed. Inventory registration and final acceptance
@@ -4410,9 +6480,9 @@ SHA-256 at this handoff:
 
 | File in the new bundle | SHA-256 |
 | --- | --- |
-| `CONTROLLED_CONTEXT.md` | `249f776aca8bbe1fa997c425561b23284ac0f538daeee112ae0988a06d2e372e` |
-| `model.py` | `6219051591c5ba5eb6ee4be4febfcfff1d0593bf53cdd4200853adaceba75f6e` |
-| `check.py` | `292e24df6a2983f7b9132a900728f56ac33888e2906eedffe03de30ea6ac3372` |
+| `CONTROLLED_CONTEXT.md` | `OBSCURED-ID-01686` |
+| `model.py` | `OBSCURED-ID-01687` |
+| `check.py` | `OBSCURED-ID-01688` |
 
 These identify the durable local sources, not the whole dirty checkout. All
 work remains local and uncommitted; nothing was staged or pushed. Inventory
@@ -4440,8 +6510,8 @@ complete endpoint validator and preserve identical whole RESULT/six-artifact
 bytes. Independent saved arithmetic reconstructs all fixed raw/mean/centered
 quantities with inherited coefficient and calibration premises stated. See
 [the result review](../experiments/gwosc_off_event_context_benchmark_result_v1/RESULT_REVIEW.md).
-Root final adjudication is external `ri115-116-root-review-tyo8kzjn/RI116_ROOT_FINAL_OBSERVED_ADJUDICATION.json`
-(9,738 bytes, `2cad5a834d885189b6ca5aabc7f51bc87cf6bbf9da6788e05349de7049e92624`).
+Root final adjudication is external `OBSCURED-LOCATION-00224/RI116_ROOT_FINAL_OBSERVED_ADJUDICATION.json`
+(9,738 bytes, `OBSCURED-ID-01182`).
 Native RI-115 remains in actual independent review; no producer-only result
 is promoted to a proof. The next measurement step is a bounded joint-model
 design using RI-104 equation (5) to address overlap, centering and nuisance terms. The wider
@@ -4456,14 +6526,14 @@ nor full positive feasibility follows. See [the native result review](../track_b
 The existing QR task is assigned RI-117, retaining free w1 and every connected
 parent condition. A local T1 witness alone is not the full extension. RI-118
 continues a separate conventional joint-window measurement design. RI-116 was
-pushed as `c34980cb05832a57a8b503a2d070ace430f54555`; remote verification
-`057fe0` matched that exact commit. No protected-validation threshold, historical
+pushed as `OBSCURED-ID-01183`; remote verification
+`OBSCURED-ID-01184` matched that exact commit. No protected-validation threshold, historical
 result, support, seed or epsilon=1/4 premise changes. RET alone remains paused.
 
-RI-117 reservation acknowledged: external `ri117-coupled-positive-family-QrAaK5YQ/`
-(creation `13ba9e`); QR read the complete root adjudication and began the analytic
+RI-117 reservation acknowledged: external `OBSCURED-LOCATION-00225/`
+(creation `OBSCURED-ID-01185`); QR read the complete root adjudication and began the analytic
 coupled-parent work. RI-118 DESIGN.md is source-stable (15,602 bytes,
-`d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4`);
+`OBSCURED-ID-01186`);
 independent design review is assigned. This is not source acceptance, an executed
 simulation or permission to evaluate empirical/captured coefficients.
 
@@ -4472,31 +6542,31 @@ The [bounded design review](../experiments/gwosc_joint_window_covariance_v1/REVI
 shared-sample counterexample (identical marginals, E[V]=3/2 versus 2), signed
 neighbor overlap correction, matrix bounds, and explicit missing mean/model/
 calibration premises. Independent verdict is 14,774 bytes, SHA256
-`d3ba95ca6de6f41b320c88fd7ea5492e9c00b7be851f93a1889ec2ff5efa272f`;
-root decision is external `ri118-root-review-pbvX2sYK/RI118_ROOT_DESIGN_ADJUDICATION.json`
-(4,320 bytes, `2ce273c59668a97992270bf62ccf30b6bb6bf71c5c3c5500199ea3a902ef3a8e`).
+`OBSCURED-ID-01187`;
+root decision is external `OBSCURED-LOCATION-00226/RI118_ROOT_DESIGN_ADJUDICATION.json`
+(4,320 bytes, `OBSCURED-ID-01188`).
 The 38 reviewer-only exact checks are not the future twelve-group sign-enumeration
 qualification. RI-119 source preparation is assigned; no simulation, capture
 contraction, data reclassification or physical inference is accepted here.
-QR remains active on RI-117; native result `f6d486e995bdc4af38027335b2a759790387bd3c`
-was independently remote-verified by `02be2e`. RET alone remains paused.
+QR remains active on RI-117; native result `OBSCURED-ID-01189`
+was independently remote-verified by `OBSCURED-ID-01190`. RET alone remains paused.
 
-RI-119 reservation acknowledged: external `ri119-joint-window-source-119uwunz/`
-(creation `9a003a`). The author read both acceptance records and is preparing
+RI-119 reservation acknowledged: external `OBSCURED-LOCATION-00227/`
+(creation `OBSCURED-ID-01191`). The author read both acceptance records and is preparing
 a separately authored moment-algebra validator. All repository, index, git and
 actual execution decisions remain coordinator-owned.
 
 **26 September: RI-117 conditional coupled proof accepted; RI-120 assigned.**
 
 The complete analytic manuscript (15,564 bytes, SHA256
-`9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194`)
+`OBSCURED-ID-01192`)
 and all eight companion packet files remain unchanged. Complete root manual
 review and a noncontributing independent review found no blockers. The latter
 is 17,283 bytes, SHA256
-`0be875c17834d778fbdcdc11a14261a5caf8c5e832cf3141ea4ec8fb45c11ad6`.
+`OBSCURED-ID-01193`.
 Root adjudication is 4,617 bytes, SHA256
-`862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3`,
-retained in `ri117-root-proof-review-lyl4b3a6/ROOT_ADJUDICATION.json` under
+`OBSCURED-ID-01194`,
+retained in `OBSCURED-LOCATION-00228/ROOT_ADJUDICATION.json` under
 external det-review-evidence and copied into the published proof bundle.
 
 The exact free T1 interval and zero-safe D1 classification preserve every
@@ -4514,7 +6584,7 @@ freezes/custody and all repository/index/git operations. The next action is
 independent review of that stable source handoff, then any separately admitted
 finite decision. RI-119 has now delivered its stable source-only packet:
 HANDOFF.json is 3,753 bytes, SHA256
-`57abc3e84de290214d7e9b6b761ecad8694bf8041a8c2f8b3d77878106ed6a64`.
+`OBSCURED-ID-01195`.
 All declared source pins match. Complete independent coordinator source review
 is assigned and active, including the direct signed-output checks and all 41
 refusal declarations per implementation. No qualification result is inferred
@@ -4524,12 +6594,12 @@ a native forward map remain separate. RET alone remains paused.
 **26 September: RI-119 exact synthetic sources accepted; RI-121 assigned.**
 
 The stable source-only handoff is 3,753 bytes, SHA256
-`57abc3e84de290214d7e9b6b761ecad8694bf8041a8c2f8b3d77878106ed6a64`.
+`OBSCURED-ID-01195`.
 Complete independent coordinator source review is 23,996 bytes, SHA256
-`e389b9dc58c58f46d8ef992d632493c9ce832d97344a53f11825921b93170054`.
+`OBSCURED-ID-01196`.
 Root acceptance is 4,979 bytes, SHA256
-`8e1deba9fc9f5fa02009aad02d5f7222dc4162aeb8d0f542d51eeca66d91de67`,
-retained in external `ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json`
+`OBSCURED-ID-01197`,
+retained in external `OBSCURED-LOCATION-00229/ROOT_ADJUDICATION.json`
 and copied into `docs/experiments/gwosc_joint_window_synthetic_v1/`.
 
 The two independent scientific routes are complete sign enumeration and
@@ -4542,7 +6612,7 @@ been executed. The recorded resource-guard fixes and authorship exception are
 preserved, not hidden as a clean first attempt.
 
 RI-121 is assigned the minimal concrete caller in the fresh external reservation
-`ri121-synthetic-caller-source-0wmr9ajh/`. It must bind the exact three source
+`OBSCURED-LOCATION-00230/`. It must bind the exact three source
 modules and complete actual runtime/source closure, preserve the existing
 180-second/524,288-KiB sampled sole-child bounds and all timing/custody guards,
 and obtain independent applicability review. Root owns fresh actual admission
@@ -4551,7 +6621,7 @@ completion/custody is reviewed. A saved audit does not itself witness historical
 control execution. No empirical body, actual operator capture, native operand,
 active execution card or synthetic output is created in this source checkpoint.
 
-Native proof checkpoint `3aeb064ef9962f72838b226931bd8309b35d7112` is remotely
+Native proof checkpoint `OBSCURED-ID-01198` is remotely
 verified; QR RI-120 continues without duplicate assignment. Its analytic
 simplifications remain provisional until complete reviewed handoff. The wider
 programme remains active; RET alone is paused.
@@ -4567,17 +6637,17 @@ Root independently checked the analytic proofs and critical source sections.
 No native coefficient, fixture or target was executed; no support rejection
 or complete positive extension is established.
 
-Root acceptance: external `ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json`,
+Root acceptance: external `OBSCURED-LOCATION-00231/ROOT_ADJUDICATION.json`,
 4,346 bytes, SHA256
-`35554c18567e610ce450b3e804794edba20e3d552e7119318041691655c706d5`.
+`OBSCURED-ID-01199`.
 Complete independent verdict: 26,360 bytes, SHA256
-`b5dfacd3cc4b8c38c63506fb997cab961f715b1773a16c14ccd6904731511eef`.
+`OBSCURED-ID-01200`.
 The sixteen original files are unchanged; source and all eight premise pins
 match. Two exact historical adjudications remain external custody dependencies,
 so source publication does not claim a standalone execution bundle.
 
 RI-122 assignment is retained alongside root acceptance: 3,331 bytes, SHA256
-`4c4d6a0ed4c2ef8ccde1d9c75f88a6f5d0af00cb34e0125e7ac7ead6c868ee6f`.
+`OBSCURED-ID-01201`.
 It retains the native 120-second/512-MiB sampled group and arithmetic bounds,
 full current interpreter/stdlib/source/ancestry closure and genuine ordered
 witness/replay/audit custody. QR receives this next concrete assignment after
@@ -4590,13 +6660,13 @@ Measurement RI-121 remains active separately; RET alone remains paused.
 Original failure-tail ordering is independently confirmed and experimentally
 reproduced in the limited harness: original 4/11 pass, six premature runtime
 entries and one stop-reason overwrite fail. Repaired 18/18 pass, genuine tool
-`85a307` exits 0; predecessor tool `684a0d` exits 1 as expected. Independent review
+`OBSCURED-ID-01202` exits 0; predecessor tool `OBSCURED-ID-01203` exits 1 as expected. Independent review
 checks both full reports, all 22 failure receipts, seven runtime records and
 source/admission/template custody. These are actual non-scientific guard tests
 under metadata Python 3.14; all 41 RI119 science controls remain unrun.
 
 Root final adjudication is retained in external
-`ri121-root-caller-review-e6_dha8i/ROOT_FINAL_GUARD_ADJUDICATION.json` and copied
+`OBSCURED-LOCATION-00232/ROOT_FINAL_GUARD_ADJUDICATION.json` and copied
 with exact sources/reviews into `docs/experiments/gwosc_joint_window_caller_v1/`.
 The original source, intermediate preparation, failed regression and historical
 results are preserved. Actual production runtime/profile, supplier/cache and
@@ -4614,7 +6684,7 @@ The fresh runtime and both actual profile observations passed independent review
 Normal science then completed under a separate real admission, received complete
 root/non-author custody review and independent full-field moment reconstruction,
 and only then enabled optimized admission. Both reports are exactly 81,253 bytes,
-SHA256 `395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a`.
+SHA256 `OBSCURED-ID-01204`.
 All 41 controls per implementation, nine cases, three bounds and twelve groups
 pass. Exact evidence, residual premises and the next application-design action
 are in `docs/experiments/gwosc_joint_window_qualification_v1/README.md`.
@@ -4626,11 +6696,11 @@ promotion follows. The one repaired metadata-review draft did not rerun science.
 QR RI-122's sealed source-only handoff has additional full independent review;
 root's native adjudication/runtime/witness work remains active. RET stays paused.
 
-The native source handoff is external `ri122-native-caller-source-jgehvvxx/HANDOFF.json`,
-23,450 bytes, SHA256 `28acf383f4d70d08a9d2965b8665e2969e4e91e817f0edf3699acaf16b0df474`.
-The additional independent review is `ri122-independent-caller-review-jUFL4y4Y/HANDOFF.json`,
-1,312 bytes, SHA256 `f74cf14494ab110c366c5e9078496bb8123d0c83266e13e0f68f599f773f3f68`.
-Both are under `/Volumes/AI_DATA/development/det-review-evidence/`. Root must
+The native source handoff is external `OBSCURED-LOCATION-00233/HANDOFF.json`,
+23,450 bytes, SHA256 `OBSCURED-ID-01205`.
+The additional independent review is `OBSCURED-LOCATION-00234/HANDOFF.json`,
+1,312 bytes, SHA256 `OBSCURED-ID-01206`.
+Both are under `OBSCURED-PATH-00004`. Root must
 review/admit the actual native predecessor before assigning a mathematical
 successor; a stable worker handoff does not pause the native programme.
 
@@ -4666,7 +6736,7 @@ Root read the complete fresh nonauthor proof review and accepted the full H30
 criterion, all 221 individual ideals and 52/336 sufficient input closure. The new
 T1 contrast discharge follows analytically from accepted identities; no positive
 continuation follows. Root adjudication is 3645 bytes, SHA256
-`85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c`.
+`OBSCURED-ID-01207`.
 The exact author and reviewer packets remain unchanged in
 `docs/track_b/native_growth_contrast_compensation_v1/`; all 22 declared historical
 source roles map to already committed bytes. Review was manual proof work plus
@@ -4675,9 +6745,9 @@ to QR and its fresh external reservation acknowledged; complete T2/T3 minors and
 strict reference/positivity conditions are next, with every shared Di retained.
 
 RI-126 is committed and independently verified on origin/ret at
-`80cac4b65f6470209cd7fe6b10d782fc0075cd3b`. RI-125's sealed white-path successor
+`OBSCURED-ID-01208`. RI-125's sealed white-path successor
 is assigned to a nonauthor for complete source-only review in
-`ri125-white-independent-review-z8c0p102/`. Its cases and controls remain
+`OBSCURED-LOCATION-00235/`. Its cases and controls remain
 unexecuted and unaccepted; full application and scientific prerequisites remain.
 The original independent review, unrelated edits and all historical results are
 preserved. The native and measurement lanes remain active; RET alone is paused.
@@ -4692,10 +6762,10 @@ remain open. Complete manuscripts, independent proof review, root decision and
 `docs/track_b/native_growth_connected_compensation_v1/`.
 The proof reviews were manual; executed checks were opaque metadata only.
 RI-128 was dispatched to QR and its reservation acknowledged at
-`ri128-connected-sign-dvgWLqqv/`. Actual-scale domain validity and all shared-parent
+`OBSCURED-LOCATION-00236/`. Actual-scale domain validity and all shared-parent
 conditions remain required; no scientific run is admitted by a source contract.
 
-RI-124 is remotely verified at `d65d1f683a33559e02c3fb139312e7da1ec48687`.
+RI-124 is remotely verified at `OBSCURED-ID-01209`.
 RI-125 bounded white source is accepted for further implementation, with its
 complete source review and root disposition retained externally. Independent
 validator and white-only generator/orchestrator assignments are both active;
@@ -4707,8 +6777,8 @@ preserved. Native proof and measurement work continue; RET alone remains paused.
 
 The usage-limit interruption left three partial source reservations; work resumed
 in those same directories. No missing time is represented as successful work.
-Root recovery evidence is `ri129-recovery-review-53wfd40p/` under the external
-evidence directory. The preceding `35e5f6076f6967c2d9f47daa4d462e3115721c9e`
+Root recovery evidence is `OBSCURED-LOCATION-00237/` under the external
+evidence directory. The preceding `OBSCURED-ID-01211`
 push is independently verified by its retained remote receipt; this checkpoint's
 commit and remote receipt will be recorded externally after publication.
 
@@ -4717,7 +6787,7 @@ strict-refusal delta and corresponding unchanged validator boundaries. All 202
 ordered literal declarations and four blocked obligations match; all eight
 sealed author files and 22 dependency occurrences match exact bytes, including
 already committed copies at the fixed parent. The exact decision is 3102 bytes,
-SHA256 `303033c31dd24f419079f34a4db330df436124c29a13383c429f683a3a483781`.
+SHA256 `OBSCURED-ID-01212`.
 Review, metadata checks and source-only acceptance are archived with the source.
 One metadata check was corrected to recognize EV13's literal-prefix/role message
 construction; no target changed or ran. The 62 early-entry checks require empty
@@ -4726,12 +6796,12 @@ reconstruction or genuine whole-entry fault qualification. Prospective 9-source,
 405-artifact and 202-tree final checks remain execution requirements.
 
 RI-129's exact 13-file packet is sealed. Its handoff is 10184 bytes, SHA256
-`b3839ba2f81e791321e2549107ce5f1b84ffdbbcc635396ab4e72002386feac0`.
+`OBSCURED-ID-01213`.
 The new complete prerequisite checks precede Attempt allocation and retain the
 in-attempt checks. Root's bounded read identifies no blocker in that chain but
 does not accept the whole caller. A disclosed nonauthor now reviews its complete
 source, retained-engine applicability, qualification obligations and dependencies
-in `ri129-native-caller-independent-review-Z0SqaY10/`. No automatic-successor
+in `OBSCURED-LOCATION-00238/`. No automatic-successor
 wording is used as a permission gate; predecessor review is the current real
 dependency. Actual C2/C3 and full H30 feasibility remain unresolved.
 
@@ -4746,10 +6816,10 @@ alone remains paused. Unrelated edits and all pinned historical bytes remain.
 **30 September: RI-129 source adjudicated, current runtime matched, RI-132 assigned.**
 
 Root decision `RI129_ROOT_ADJUDICATION.json` is 6126 bytes, SHA256
-`4b3139b7595e3f9c94c9bda3725dc7b6e329b7b100b1493124199064a4743266`,
-in external `ri129-root-source-adjudication-7cuvjhh5/`. The complete nonauthor
+`OBSCURED-ID-01214`,
+in external `OBSCURED-LOCATION-00239/`. The complete nonauthor
 review handoff is 3082 bytes, SHA256
-`6cd215563c660948188a73c6d3d0ccc6fe6f583b4d1bc2cc981654abcc223ac0`.
+`OBSCURED-ID-01215`.
 Root read its complete findings/scope, reconciled all 299 opaque dependency pins
 and 114488 administrative typed-reference occurrences, full patch application,
 retained spans and the complete audit textual coverage map. The reviewer's initial
@@ -4767,21 +6837,21 @@ Root separately compared the fixed runtime from an isolated Apple system Python:
 2988 runtime files, 258 exact directories, 40 absences, 699 historical entries,
 33 older sealed artifacts, 11 visible system locations and host checks all match.
 The full record is 2958967 bytes, SHA256
-`d0ca96743f68dee99ffcd7f9f8b57338083fa3d8d0872e7c5cdcd1ac37398b6a`.
+`OBSCURED-ID-01216`.
 No target interpreter/caller was launched. This current observation must be
 repeated before future admission and supplies no changed-caller qualification.
 
 QR acknowledged RI-132 source-only qualification work in
-`ri132-native-caller-qualification-source-0ZmB3R5I/`. All 52/69 declared controls
+`OBSCURED-LOCATION-00240/`. All 52/69 declared controls
 need precise retained applicability or new genuine/direct-boundary coverage;
 declarations and unrelated first failures cannot fill gaps. The native sign/H30
 question stays active while its real execution prerequisites are addressed.
 The separately authored WHITE caller is sealed (handoff 26684 bytes, SHA256
-`1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8`)
-and assigned complete review in `ri130-caller-independent-review-GpeTxmLW/`.
+`OBSCURED-ID-01217`)
+and assigned complete review in `OBSCURED-LOCATION-00241/`.
 RI-131 remains published, unexecuted and subject to all four deeper obligations.
 
-The previous `7c89f017306ee9df1c83c41f7a7671a1a46bda27` was pushed and
+The previous `OBSCURED-ID-01218` was pushed and
 independently verified on `origin/ret`; this checkpoint's receipt is recorded
 externally after commit/push. Active RI-132/RI-130 review files are excluded.
 All unrelated edits, original independent review, pinned history, scientific
@@ -4799,7 +6869,7 @@ binding as coverage of a deeper guard. RI-129 stays immutable.
 **30 September: RI-130 caller source adjudicated; RI-133 runtime preparation assigned.**
 
 RI-130's complete nonauthor review passes for exact unexecuted source. Its handoff
-is 2597 bytes, SHA256 `4092f5be60516217cebcf9c7a906184895635908977d5501d061d2cc16e36df4`.
+is 2597 bytes, SHA256 `OBSCURED-ID-01219`.
 Root read its entire findings, protocol, closed mode-custody contract and the new
 contract/worker/launcher/evidence chain. Root independently reconciled 47 source
 payloads, six reviewer payloads, both complete sealed namespaces, 30 original/copy
@@ -4808,10 +6878,10 @@ retained support/monitor text, 65 ordered declarations and 1802-line bookkeeping
 No target was imported, compiled, AST-parsed, probed or executed; no scientific
 body was decoded. The reviewer metadata KeyError and correction remain preserved.
 
-Root decision is `ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json`,
-2189 bytes, SHA256 `3a9f030a18fdd4ef3cac3bb0204354a6250b2a0ae489e42fbf1be41c5d7fee79`.
+Root decision is `OBSCURED-LOCATION-00242/RI130_ROOT_ADJUDICATION.json`,
+2189 bytes, SHA256 `OBSCURED-ID-01220`.
 Reconciliation is 146958 bytes, SHA256
-`dbee230dea1e1fa4716b4a95c6178a33781d234e2e7237915bbc878cec577b28`.
+`OBSCURED-ID-01221`.
 The reviewer did not author RI-130 but authored copied primary/qualifier components;
 those retain prior different-author acceptance. Root does not claim a second full
 1802-line nonauthor source review or actual 65-control qualification.
@@ -4823,7 +6893,7 @@ checked. All 15/W09/both 179/57/74/3 gates, unchanged scientific resource limits
 independent saved arithmetic and fresh runtime/outer custody remain mandatory.
 
 RI-133 is assigned to the existing source author in external
-`ri133-white-runtime-preparation-source-lrck33ys/`: concrete minimal source for
+`OBSCURED-LOCATION-00243/`: concrete minimal source for
 current runtime/bootstrap/profiles/selection/optional/observed-dyld/host checks and
 bounded separately admitted 65-guard orchestration. Independent review precedes
 use; root owns genuine execution/cards. Native RI-132 remains active without a
@@ -4832,15 +6902,15 @@ before any new-version repair; actual C2/C3 and H30 remain open. RI-131's deeper
 obligations, full 32, actual data and calibrated/native physical claims remain.
 
 This checkpoint archives 61 exact source/review/root files and records 156 dependency
-roles; it is not a self-contained runtime or an execution root. Prior `cac7f5b` is
+roles; it is not a self-contained runtime or an execution root. Prior `OBSCURED-ID-00693` is
 verified on origin/ret. This checkpoint's exact commit and independent remote
 receipt are recorded externally after publication. Unrelated edits, original
 review, historical bytes and RET's explicit pause remain preserved.
 
 RI-132 sealed during this checkpoint: handoff 9135 bytes, SHA256
-`5841f7d783b549b4e8e5a978e1ed3ebceb169412ffc8573ed04ebe52a6d9d53e`.
+`OBSCURED-ID-01222`.
 Root verified all 10 bound payloads and the exact 11-file namespace, then assigned
-complete nonauthor review in `ri132-native-qualification-independent-review-ye271mv3/`.
+complete nonauthor review in `OBSCURED-LOCATION-00244/`.
 The reviewer acknowledged no RI-129/132 authorship. Review explicitly covers the
 17 native/16 audit prospective cases, three whole-entry refusal specifications,
 all 52/69 direct/retained/entry/blocked mappings, genuine prerequisite requirements
@@ -4852,7 +6922,7 @@ adjudication; the lane is actively assigned for review, not left for user permis
 
 The complete nonauthor review passes for bounded unexecuted qualification source,
 not complete changed-caller qualification. Handoff: 2150 bytes, SHA256
-`575d63c2218d51aea7d489cb86fd49dd970229e17c181c7cdef55174a406932f`.
+`OBSCURED-ID-01223`.
 Root independently checked all sealed identities, 40 predecessor pins, exact
 11/6 and 13/9 namespaces, complete 52/69 declaration text, 17/16 case order,
 six retained audit spans and fixed administrative manifest counts. The full
@@ -4860,10 +6930,10 @@ review covers 1530 source lines and 378 metadata/text predicates. All callable
 cases and three genuine early-entry specifications remain unexecuted. Source
 counts, retained applicability and structural record consistency are not passes.
 
-Root decision `ri132-root-coverage-adjudication-8hve4ntf/RI132_ROOT_ADJUDICATION.json`
-is 2155 bytes, SHA256 `393b11b96fcfa929323169c96ea508b6d8a01c8ebcdc448f90432aea99d90a77`.
+Root decision `OBSCURED-LOCATION-00245/RI132_ROOT_ADJUDICATION.json`
+is 2155 bytes, SHA256 `OBSCURED-ID-01224`.
 Root reconciliation is 36783 bytes, SHA256
-`eceb1a9ba6dc19cf8b881c213ed496279ffb3f7f9ecf79e6f70e302214ca2503`.
+`OBSCURED-ID-01225`.
 Root read the entire review, runner, design and original dependency/source-card/
 current-target blocks and production ordering; the separate nonauthor's complete
 module review supplies the remaining scope. No source target was evaluated.
@@ -4871,7 +6941,7 @@ module review supplies the remaining scope. No source target was evaluated.
 The fixed authentication/inline-policy gap is real. Root selected RI-134's four
 first-tranche families: dependency payload, current source decision, independent
 source review, and strict current-target 15/4/71. QR was assigned external
-`ri134-native-validator-extraction-source-y8kwkcde/` after adjudication. Each
+`OBSCURED-LOCATION-00246/` after adjudication. Each
 actual production read, identity construction, reference closure, statement/error
 order, final recheck and cache installation remains. Real extracted functions
 receive positive/isolated-negative direct controls; fabricated arguments never
@@ -4879,16 +6949,16 @@ become active production cards. Other proposed extractions are outside scope.
 All 25 native/48 audit deeper rows are not claimed closed by this source repair.
 
 RI-133's 5719-byte handoff, SHA256
-`480188c24c2b4a0062e7a1b882d8a11eb1f7786c987224d23d22ece22927be59`,
+`OBSCURED-ID-01226`,
 is sealed and assigned complete nonauthor review in
-`ri133-runtime-preparation-independent-review-ipnnpdq6/`. Root verified its
+`OBSCURED-LOCATION-00247/`. Root verified its
 nine payload pins and ten-file namespace, without accepting its source yet.
 Actual capture/profile/guard work is unexecuted. The native C2/C3/H30 question
 remains active; accepted native mathematics and all runtime/scientific/physical
 boundaries remain. RET alone is paused.
 
 This checkpoint preserves 22 exact source/review/root copies and maps 40 predecessor
-identities; it is not a full installed runtime archive. Prior `cfb5966` was pushed
+identities; it is not a full installed runtime archive. Prior `OBSCURED-ID-00694` was pushed
 and independently verified on origin/ret. This checkpoint's commit and verified
 remote receipt are recorded externally after publication. Unrelated edits and
 pinned historical bytes remain intact; programme completion is not claimed.

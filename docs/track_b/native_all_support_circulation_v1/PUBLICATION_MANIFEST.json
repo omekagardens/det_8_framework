@@ -1,0 +1,55 @@
+{
+  "schema": "det-redacted-publication-v1",
+  "scope": "Public derivative; original custody identities and administrative executable sources intentionally withheld.",
+  "scientific_status": "Historical conditional mathematics and bounded review statements only; no new proof, execution, qualification or physical validation.",
+  "payload": [
+    {
+      "path": "README.md",
+      "bytes": 5667,
+      "sha256": "aacdff514c7acb7d69a95a5e09d4531f385606cf074533362a7fbb744cb925b8"
+    },
+    {
+      "path": "independent/REVIEW.md",
+      "bytes": 17251,
+      "sha256": "a2f1d61ecf58d0a7d6d026f0bc0e04f954d40ec29614c6db287eb920f9009826"
+    },
+    {
+      "path": "root/RI262_ROOT_REVIEW.md",
+      "bytes": 5390,
+      "sha256": "c60dcef3f06d79004dc873374043f76096eadf7146d733ee526296a00c11d938"
+    },
+    {
+      "path": "source/ALL_SUPPORT_CIRCULATION.md",
+      "bytes": 9823,
+      "sha256": "ec211b5b2d75dd3c555c7a7efa3e93cd08822d954ef1166936dbfc5bef0cf6d7"
+    },
+    {
+      "path": "source/COVER_MINIMUM_AND_CLOSURE.md",
+      "bytes": 14952,
+      "sha256": "2d0b276df8d09fbc6aa0a5bd015817a6ef6eaa224327b4e7fe2bffe0873c1b1b"
+    },
+    {
+      "path": "source/HANDOFF.md",
+      "bytes": 3762,
+      "sha256": "efda2c18314b6355d0b483bfc6d0fea0dc34ff2f2d36902b3a9f6afa7f27f9c7"
+    }
+  ],
+  "withheld_private_payloads": [
+    "DEPENDENCY_MAP.json",
+    "independent/ACTUAL_RECEIPTS.json",
+    "independent/CHECK.json",
+    "independent/GENUINE_AUTHOR_CHECKS.json",
+    "independent/HANDOFF.json",
+    "independent/check_metadata.py",
+    "root/RI262_GENUINE_FINAL.json",
+    "root/RI262_ROOT_ADJUDICATION.json",
+    "root/RI262_ROOT_METADATA_CHECK.json",
+    "root/RI264_ASSIGNMENT.json",
+    "root/RI264_RESERVATION.json",
+    "root/native_all_support_review.py",
+    "source/AUTHOR_VERIFICATION.json",
+    "source/HANDOFF.json",
+    "source/SOURCE_REFERENCES.json"
+  ],
+  "original_manifest": "Withheld. Payload pins above authenticate only the derivative, never the private originals."
+}

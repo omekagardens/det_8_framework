@@ -1,0 +1,59 @@
+{
+  "schema": "det-redacted-publication-v1",
+  "scope": "Public derivative; original custody identities and administrative executable sources intentionally withheld.",
+  "scientific_status": "Historical conditional mathematics and bounded review statements only; no new proof, execution, qualification or physical validation.",
+  "payload": [
+    {
+      "path": "README.md",
+      "bytes": 5220,
+      "sha256": "8295e636601195d729c90c5d16543547b996f95fcbf206e93a2ab47dd4923965"
+    },
+    {
+      "path": "independent/REVIEW.md",
+      "bytes": 15819,
+      "sha256": "523f1f2ee483b0f77111f6ae49e3edefe525b8b6334df792024c404c8418cde4"
+    },
+    {
+      "path": "root/RI260_ROOT_REVIEW.md",
+      "bytes": 6056,
+      "sha256": "fb7a6d03d8c789a38ce9349a203c2e7141681408def1372a14c5f043489b6c32"
+    },
+    {
+      "path": "root/RI262_ASSIGNMENT.md",
+      "bytes": 4377,
+      "sha256": "3a8fc26f8efc07de48064c73afa6f4e82a26e5a87293af74b295fa4387c6507f"
+    },
+    {
+      "path": "source/HANDOFF.md",
+      "bytes": 3637,
+      "sha256": "2e79d22d52bcd97d80ab6b4ab96b12c599959bea9c8bcae2209db394351cf491"
+    },
+    {
+      "path": "source/SINGLE_ZERO_CIRCULATION.md",
+      "bytes": 9873,
+      "sha256": "339738502faf8c308d0557e2a9f5ab9396b123dd5c2257a4b195b7333ae17670"
+    },
+    {
+      "path": "source/SUPPORTED_CRITERION.md",
+      "bytes": 13540,
+      "sha256": "c90db38a8016a0722028a6e6a53eec69bbf518e50c1d375e6e0981dfd4a6741a"
+    }
+  ],
+  "withheld_private_payloads": [
+    "DEPENDENCY_MAP.json",
+    "independent/ACTUAL_RECEIPTS.json",
+    "independent/CHECK.json",
+    "independent/GENUINE_AUTHOR_CHECKS.json",
+    "independent/HANDOFF.json",
+    "independent/check_metadata.py",
+    "root/RI260_GENUINE_FINAL.json",
+    "root/RI260_ROOT_ADJUDICATION.json",
+    "root/RI260_ROOT_METADATA_CHECK.json",
+    "root/RI262_ASSIGNMENT.json",
+    "root/native_single_zero_review.py",
+    "source/AUTHOR_VERIFICATION.json",
+    "source/HANDOFF.json",
+    "source/SOURCE_REFERENCES.json"
+  ],
+  "original_manifest": "Withheld. Payload pins above authenticate only the derivative, never the private originals."
+}
