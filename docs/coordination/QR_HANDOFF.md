@@ -1,3 +1,38 @@
+## Native tightness result and qualification follow-through
+
+Independent manual review accepts a conditional native-law result: if no
+carrying P constraint is tight, the corresponding Q constraint must be
+tight at a primary optimum. The complete finite perturbation has a strict
+objective improvement whenever both sets of carriers are slack.
+
+For singleton-c support, the exact identity retains both the inactive-f
+P slack and the c-row Q slack. It requires positive omega and a strictly
+positive native coefficient contrast. Empty-group cases do not imply the
+same contrast sign. The original finite-recovery and endpoint conditions
+remain necessary, and actual coefficients, global realizability, the full
+dual and the canonical witness remain unresolved.
+
+The next native question audits the complete second omega carrier and
+its objective cost before testing another finite direction. Protected
+source boundaries and the distinction between conditional mathematics,
+finite verification and physical claims remain intact.
+
+The optimized qualification setup passed separate source review and fresh
+runtime/context observations. Its first attempt stopped immediately when
+the execution sandbox denied the process monitor. The failed claim and
+partial outputs are preserved. Post-run runtime and custody observations
+passed; they do not turn the failed attempt into a qualification pass.
+The accepted normal fabricated qualification remains unchanged.
+
+Independent failure review and a minimal explicit recovery design are
+active. The monitor thresholds remain unchanged, and the claimed attempt
+will not be overwritten. Qualification precedes the selected public-data
+conventional reproduction. No actual-data, calibration or native physical
+validation is claimed. RET remains paused.
+
+Only reviewed progress summaries are published on the sanitized history.
+Existing public document bodies and unrelated local work are preserved.
+
 **Reviewed progress: native availability restriction and normal qualification accepted**
 
 Independent review accepts a conditional native theorem: the same-rest
