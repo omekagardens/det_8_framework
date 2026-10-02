@@ -1,3 +1,39 @@
+## Native equality exclusion and reviewed recovery sources
+
+Independent proof review establishes a stricter conditional native-law
+bound. The original full-vector lexicographic selector excludes the upper
+equality at singleton-c support, so its selected optimum requires
+1 < F_f/F_c < 8/5. Primary optimality alone still allows equality. The
+proof uses the original coordinate order, positive carrier normalization,
+whole marked histories and dependent full complements with an exact
+finite feasible step.
+
+The next native question reverses this exchange to test which constraints
+must become tight, then checks the associated dual balance in the original
+finite program. Actual coefficient values, global support realization,
+the full dual and canonical witness remain unresolved. Finite recovery,
+strict restoration and all existing physical-claim boundaries remain.
+
+Independent source review now accepts the optimized-only recovery caller
+and isolated synthetic guard design. Historical normal evidence remains
+bound to its original freeze, and fixture writes are confined to owned
+synthetic paths. Constructor and custody adaptations for a fresh optimized
+namespace are being implemented and still require independent review.
+No candidate guard results, installation or new execution are claimed.
+
+The previously accepted normal fabricated qualification remains unchanged.
+The consumed optimized failure is preserved: the execution sandbox denied
+the process monitor at its first observation. Zero samples do not establish
+memory compliance. Fresh guard, runtime, context and process-monitor
+checks remain required before a new qualification attempt; acceptance
+thresholds are unchanged.
+
+Qualification precedes conventional reproduction using the selected public
+GWOSC data. No actual-data result, calibration, native forward map or
+physical validation is claimed. RET remains paused. Only reviewed summary
+prefixes are published on the sanitized history; existing public bodies
+and unrelated local work are preserved.
+
 ## Complete native exchange and qualification recovery
 
 Independent manual review accepts a conditional native-law result. The
