@@ -1,3 +1,39 @@
+**Reviewed progress: native availability restriction and normal qualification accepted**
+
+Independent review accepts a conditional native theorem: the same-rest
+support inequalities force strict nu ordering, and every active c
+compensation row therefore has positive c zeta. This rules out the
+nonpositive c-axis reward branch under those premises. The complete
+native price classes retain the exact two-endpoint criterion, strict
+lex versus weak primary conditions, and finite recovery with every
+whole carrier and slack constraint. The remaining exceptional empty-group
+class still requires both its quadratic and upper-endpoint tests.
+Actual support, coefficient values, full dual and C_b remain unresolved.
+
+The next native proof examines the complete Q rows: whether missing
+P_nu tightness forces Q tightness at an optimum, and what that implies
+for the surviving c-only support classes. Omega remains fixed; no new
+parent or actual coefficient acquisition is part of this step.
+
+The normal fabricated WHITE run is now accepted after separate reviews
+of saved arithmetic and actual execution/custody. All 15 cases, complete
+W09 reconstruction, both implementations' 179 controls, 57 artifacts,
+74 postchecks and three tree checks agree. The run completed in about
+100.6 seconds with peak sampled RSS of 472416 KiB, within the existing
+180-second and 524288-KiB bounds. All recorded sample gaps satisfy the
+unchanged limit. Runtime, host and sampled-memory premises remain explicit.
+
+The existing optimized comparison is next. Preparation preserves the
+completed normal outputs and uses the existing freeze, profile and
+normal-acceptance contract. No optimized execution is claimed here.
+Selected public GWOSC conventional reproduction follows qualification.
+These results do not establish full application qualification, actual
+data reproduction, a native forward map or physical validation. RET
+remains paused; historical failed results and acceptance limits remain.
+
+This update preserves the existing public history and excludes private
+evidence, local paths and operational identifiers. The programme continues.
+
 **Reviewed progress — native endpoint criterion and completed normal qualification attempt**
 
 Independent review accepted the conditional native criterion for one
