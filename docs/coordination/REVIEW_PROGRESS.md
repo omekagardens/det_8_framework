@@ -1,3 +1,11 @@
+**Implementation update — upsilon carrier proof and recovery context reviewed.**
+
+The complete shared-upsilon carrier and history-weighted objective are accepted as bounded conditional mathematics. The proposed compensated decrease has strictly negative primary gain at every feasible positive step, so that particular improving direction is rejected. Its original-dual consequence requires a positive multiplier on another carrier under the stated premises; it does not establish actual canonical support or a full dual solution. The opposite compensated increase, with explicit positive/zero support branches in the other group, is now assigned for proof.
+
+The installed recovery context passed all 18 administrative phases, including complete source, supplier, operational-record and preserved-donor comparisons. Independent and coordinator review accept this pre-freeze context result only. Final runtime applicability, freeze and mode admission, and optimized qualification remain outstanding. The accepted normal result and the failed optimized attempt remain distinct and preserved.
+
+Native coefficient and witness obligations, conventional public-data reproduction, calibration and the native measurement forward map remain open. No empirical or physical claim follows from this checkpoint. RET remains paused. This publication extends the metadata-obscured history and preserves prior public content.
+
 ## Recovery sources and guard execution
 
 The recovery constructor, context observer and post-run custody sources
