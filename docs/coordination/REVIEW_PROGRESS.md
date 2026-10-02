@@ -1,3 +1,34 @@
+## Native reverse-cap obstruction and original dual balance
+
+Independent review accepts a conditional necessary condition for the
+original lex-selected singleton-c optimum: zeta_f must be zero, or a Qc
+or U5 constraint must already be tight. Otherwise an exact finite reverse
+exchange improves the objective. Every affected whole marked row, full
+complement, nonnegativity bound and first-cap tie remains included.
+
+The matching balance follows from the original finite program's unit-cap
+dual. Its multipliers are sums over original marked rows. The zero-zeta
+case retains a nonnegative reduced-cost term; removing that term would
+incorrectly strengthen the result. Primary-only equality yields a zero
+balance, which does not establish tight constraints. Actual support,
+coefficient values, the full dual and canonical witness remain unresolved.
+
+The next native step completes the identified second upsilon carrier and
+tests whether changing that shared coordinate can relax the U5 obstruction.
+Both groups and all finite feasibility requirements remain in scope.
+
+Recovery namespace sources are now sealed and under review. The previously
+reviewed caller and isolated guard sources remain accepted; no new guard
+results, installation, runtime acceptance or qualification run are claimed.
+The accepted normal fabricated qualification and consumed optimized failure
+remain unchanged. Zero monitor samples still provide no memory-compliance
+evidence. Existing guard, runtime, context and monitor requirements remain.
+
+Qualification precedes conventional reproduction using the selected public
+GWOSC data. No actual-data result, calibration, native forward map or
+physical validation is claimed. RET remains paused. New public summaries
+preserve the existing public bodies and exclude private source metadata.
+
 ## Native equality exclusion and reviewed recovery sources
 
 Independent proof review establishes a stricter conditional native-law
