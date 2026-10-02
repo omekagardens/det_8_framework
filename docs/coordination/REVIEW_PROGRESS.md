@@ -1,3 +1,38 @@
+## Complete native exchange and qualification recovery
+
+Independent manual review accepts a conditional native-law result. The
+complete omega carriers and their full objective contributions give a
+finite feasible exchange at singleton-c support. Primary optimality
+requires the native coefficient ratio to satisfy 1 < F_f/F_c <= 8/5.
+The exact finite cap includes every affected row and nonnegativity bound;
+the inactive f constraint becomes tight before omega is exhausted.
+
+At the upper equality the entire feasible segment is primary-neutral.
+The next native step is to determine the original normalized full-vector
+lexicographic decision, including proper probabilities and their full
+complements. Actual coefficients, global support realization, the full
+dual and canonical witness remain unresolved. Earlier finite recovery,
+strict restoration and physical-claim boundaries remain in force.
+
+Independent review also confirmed the bounded custody account of the
+failed optimized qualification attempt. The execution sandbox denied the
+process monitor at its first observation. The consumed attempt and partial
+outputs are preserved; zero samples do not establish memory compliance.
+The previously accepted normal fabricated qualification remains unchanged.
+
+A fresh optimized-only recovery implementation is being prepared for
+independent source review. Historical normal evidence remains bound to
+its original freeze, and synthetic guard fixtures must be isolated from
+accepted run outputs. Fresh guard, runtime, context and process-monitor
+checks are still required before a new qualification attempt. Thresholds
+remain unchanged. No recovery execution or optimized acceptance is claimed.
+
+Qualification precedes conventional reproduction using the selected public
+GWOSC data. No actual-data result, calibration, native forward map or
+physical validation is claimed. RET remains paused. Only reviewed summary
+prefixes are published on the sanitized history; existing public bodies
+and unrelated local work are preserved.
+
 ## Native tightness result and qualification follow-through
 
 Independent manual review accepts a conditional native-law result: if no
