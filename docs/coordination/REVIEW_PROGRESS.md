@@ -1,3 +1,15 @@
+# Current reviewed progress
+
+The coupled compensation criterion is accepted after root and independent manual proof review. The same native tight-row incidence reduces the minimum compensation price to a linear expression on each of two closed demand-order cones. Individual effective rewards may be negative or zero, while their sum is strictly positive. With both mu groups tight, explicit capacity formulas give the attained maximum or a finite improving witness. With one tight group, at most four endpoint/switch candidates per cone suffice, unless a missing bound already supplies a finite improving witness. Equality, axes, unavailable coordinates, tied bounds, neutral rays and original full-vector lex ties are included.
+
+This closes the assigned conditional sign-family optimization. A negative maximum excludes that family only. It does not determine actual canonical support, the cross-sector comparison, a global dual, C_b or a normalized witness. The original equations, recovery, strict-restoration and endpoint obligations remain. Integrity checks and author-command reconciliation support custody; the mathematical acceptance rests on manual proof review. Truncated historical displays receive no whole-display credit.
+
+The next native proof question, RI346, is the same-law both-tight-mu specialization: derive the restrictions imposed by equal tight mu values on tight P support and its common column cap, then prove or refute the resulting axial-ray characterization. This is a conditional proof assignment, with no new support acquisition or coefficient instantiation.
+
+For measurement, the reviewed integration plan preserves the accepted both-zero validator change, all 29 other scientific source contents and nine other helper contents. A genuine new integration decision binds the new target declaration; only that declaration and the caller's target pin also change. The earlier 42 fabricated equivalence cases remain finite correctness evidence. The integrated qualification tuple has not run. Actual guards, runtime applicability, source/caller acceptance, a fresh freeze/card, full normal qualification and independent outcome acceptance remain required before optimized comparison and the selected public GWOSC reproduction. Existing failures and thresholds remain intact. RET alone stays paused.
+
+This update extends the metadata-obscured public history. The underlying private evidence and original commits remain separate. Earlier progress and publication statements below are historical.
+
 # Public publication status
 
 The user selected metadata-obscured publication. This snapshot carries the reviewed research updates through the accepted joint compensation proof and 42 finite fabricated equivalence cases. RI341 remains the assigned native follow-up; full measurement qualification remains separate. Earlier statements below about pending publication approval or unpushed checkpoints are historical. Original local commits, evidence and working edits remain private and unchanged. Future public updates must build on this sanitized lineage; merging the private local history would disclose the withheld metadata.
