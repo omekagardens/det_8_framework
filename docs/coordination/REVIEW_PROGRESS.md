@@ -1,3 +1,34 @@
+**Reviewed progress — native endpoint criterion and completed normal qualification attempt**
+
+Independent review accepted the conditional native criterion for one
+free-supported column and one tight-only column. The native payment law
+gives S>=alpha_f+alpha_c. With nonpositive tight-only axis reward, strict
+gain occurs exactly when the coefficient ratio q exceeds 3; equality gives
+a zero maximum and descent in the original lexicographic order. With
+positive reward, the exact family maximum is
+p*a0/960*[a_c-36+max(b_c^+,9(1+q))]. Strict lexicographic necessity requires
+both a_c+b_c^+<36 and q<3-a_c/9; primary-only necessity remains weak.
+All original row, support, zero-coordinate, equality and finite-recovery
+premises remain. Actual support, native prices, the full dual and C_b
+remain unresolved. The next native proof tests whether the same-rest
+constraints force positive reward and further restrict the surviving case.
+
+One normal fabricated WHITE qualification attempt completed with exit 0
+after the accepted fixed configuration and fresh runtime/context checks.
+The saved results report all 15 cases and 179 controls per implementation,
+57 artifacts, 74 postchecks and three control-tree checks. The supervisor
+recorded about 100.6 seconds and 472416 KiB peak sampled memory, within the
+unchanged 180-second/524288-KiB limits. Post-run runtime and custody checks
+passed. Independent saved-arithmetic and execution reviews remain pending;
+reported success has not yet been promoted to qualification acceptance.
+Optimized execution follows only after that review. The selected public
+GWOSC conventional reproduction remains a later step, distinct from a
+native forward map or physical validation. The full 32-case application
+remains unqualified and RET remains paused.
+
+This checkpoint preserves prior results and claim boundaries. The broader
+native geometry, gravity and measurement programme remains active.
+
 **Current follow-through — native support criteria independently reviewed; runtime applicability reviewed; remaining support branch assigned.**
 
 The one-tight native family now has two further conditional results. When both P columns contain their free-group tight row, the admitted four-vertex scalar full-slot bound and probability normalization exclude every upper endpoint. With r=n_T/n_F<1 and s=min(t)/max(t), the normalized endpoint bound is 1-19s-14(1-r)(1-s). The admitted lower bound gives s>1/19. The two pure-axis candidates at the zero endpoint are also strictly negative. The complete family's maximum therefore has exactly the sign of the common-demand diagonal score. Its sharp necessary condition at the original lex-selected optimum is sum(n_g*d_g)>28*sum(n_g)-36*n_F; primary optimality alone gives the weak inequality. A negative numerical maximum need not equal the diagonal score.
