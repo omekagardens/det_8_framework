@@ -1,3 +1,40 @@
+Reviewed progress: original remainder cost obstruction and complete periodic representation
+
+Independent proof review accepts a conditional obstruction for one original
+remainder coordinate. Its full objective cost includes a companion carrier,
+with complete marked rows and original zero-coordinate dual residuals retained.
+Within the audited upsilon/positive-omega direction, paying enough of this
+coordinate to cancel every growing V row costs at least26/11 of the upsilon
+benefit, so primary gain is at most-15/11 of that benefit. Availability, complete
+row caps, the saturated-U5 boundary and endpoint ties remain explicit. This
+does not construct actual remainder values, optimal support, a full dual or a
+completed native reconstruction. A successor packet tests the corresponding
+original-column cost bound across the other remainder presentations, preserving
+shared-coordinate identities and separating equality from strict improvement.
+That successor awaits independent adjudication and is not accepted here.
+
+Independent periodic source review found a missing-result false-pass: null was
+also the reconstruction sentinel. A separately retained narrow repair requires
+an exact result object at the public boundary and adds three prospective null
+refusal controls. The original source and finding remain preserved. This is
+source review and repair only; the periodic code and64 controls are unexecuted.
+
+A complete bounded P09 representation design passed independent review. It
+retains all four scenarios, every mode, row, component and original header in
+128 parts of 256 modes and a manifest. The structural inverse and exact virtual
+canonical identity are explicit. Each physical file retains the64MiB ceiling;
+the original oversized single wrapper remains unqualified. Primary and
+independent reader implementations are the next source work. Manual format
+bounds do not establish runtime or execution qualification.
+
+Previously accepted finite15-case fabricated WHITE outcomes in normal and
+optimized modes remain unchanged. Full32 still needs periodic, nuisance, join
+and integrated qualification; actual periodic admission and provenance remain
+open. Existing time, memory, monitoring, custody and failure requirements remain.
+Selected public gravitational-wave reproduction remains the conventional route
+after qualification, with calibration and physical claims separate from a native
+forward map. RET remains paused; the broader programme is ongoing.
+
 **Reviewed native alternative and completed fabricated WHITE qualification**
 
 Independent review accepts the broader conditional native result: below the
