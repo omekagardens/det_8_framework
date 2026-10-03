@@ -1,3 +1,21 @@
+## Reviewed native capacity and measurement preparation
+
+Independent and coordinator review accept a conditional sharp two-target price
+capacity, including finite allocations, unavailable targets and boundary cases.
+Excluding a full complementary dual requires failure across the entire restricted
+attaining family. Passing this test leaves outside-row completion unresolved.
+The next native proof seeks an exact finite criterion for that family test.
+
+Measurement review preserves bounded supplier coverage and distinguishes collected
+prefix evidence from guard enforcement. A lookup-error classification defect must
+be repaired before operative admission. Runtime qualification, complete guard and
+freeze prerequisites remain in force before the selected conventional public-data
+reproduction. No new guard or scientific execution is claimed.
+
+These are conditional mathematics and implementation-review results. They do not
+establish a full physical model or a native measurement prediction. RET remains
+paused while the wider programme continues.
+
 **Reviewed progress — conditional dual construction and current runtime custody.**
 
 Independent and coordinator review accept an explicit finite attaining dual for
