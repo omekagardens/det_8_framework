@@ -1,3 +1,21 @@
+## Conditional proof progress and evidence recovery
+
+Independent review accepted an exact conditional feasibility criterion for the
+restricted price family and a finite construction on the original rows. Full
+external completion remains unresolved. The next proof examines the joint
+outside prices and column loads that completion necessarily requires.
+
+Temporary evidence loss interrupted the next checkpoint. Exact surviving proof
+packets and selected source/review records were preserved or recovered, with
+byte recovery explicitly separated from original filesystem identity. The full
+historical custody gate remains unmet. This update records the diagnostic
+status only; it grants no runtime, measurement or operational qualification.
+
+Repository changes unrelated to this update and the retained failed-run evidence
+remain preserved. Narrow source repairs continue for absence error handling and
+process cleanup. Existing validation, freeze and conventional public-data
+reproduction prerequisites remain in force. RET remains paused.
+
 ## Reviewed native capacity and measurement preparation
 
 Independent and coordinator review accept a conditional sharp two-target price
