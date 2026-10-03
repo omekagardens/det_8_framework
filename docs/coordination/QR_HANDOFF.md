@@ -1,3 +1,34 @@
+**Reviewed finite primal improvement and original lexicographic necessity**
+
+Independent and coordinator review accepted a finite original primal
+construction for the conditional shared-omega obstruction. Every affected
+original carrier and full complement is retained, with an explicit positive
+step bound from available coordinates and individual whole-row margins.
+Violating the shared bound gives strict primary improvement. At tight U5, equality means the
+same finite construction preserves primary value and lowers the earliest
+original independent coordinate. Canonical selection therefore requires a
+strict bound where primary optimality requires only a weak one.
+
+These are necessary conditions, not a complete optimality certificate.
+Actual coefficients, support and margins remain unacquired. Canonical finite
+feasibility and strict-restored source realization are separate obligations.
+The next assigned proof asks for the exact enlarged fixed-rest block optimum,
+including both omega coordinates, its full primary face and original selector.
+
+The measurement worker is completing shared saved-validation and guard sources.
+Existing pre-runtime and refusal-retention source repairs remain accepted;
+the new implementation awaits independent review and execution prerequisites.
+The historical context observer has incompatible fixed source counts and
+WHITE-specific bindings, so a current periodic binding is being prepared.
+This source compatibility finding does not establish runtime drift or authorize
+weaker checks. No new guard, runtime, freeze or scientific qualification is claimed.
+
+Complete qualification still precedes selected conventional public-data
+reproduction. Calibration and a native forward law remain distinct. Original
+mathematical and experimental obligations remain; RET stays paused and the
+programme continues. Previous public bodies are preserved, with private evidence
+and active successor sources excluded.
+
 **Reviewed simultaneous omega compatibility and prerequisite repair**
 
 Independent and coordinator review accepted an exact conditional criterion for
