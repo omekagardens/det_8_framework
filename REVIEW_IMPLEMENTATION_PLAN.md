@@ -1,3 +1,11 @@
+**Reviewed update — mixed-support complementarity and source recovery**
+
+A conditional native proof now includes the lower residual requirement at zero support, alongside equality at positive support. Exact mark availability and the coupled sigma range yield finite affine conditions and whole-row reconstruction; the earlier all-positive case is recovered. This completes fourteen named columns only under an explicit last-contribution premise. Conditional controls are not actual physical countermodels, and full-system obligations remain open.
+
+Twelve source bodies and one narrowly scoped historical decision were recovered with exact declared byte identities. A prospective source-lineage design keeps historical references distinct from new current copies. Existing custody requirements remain unsatisfied; recovery grants no runtime authority or qualification.
+
+The next native step includes original P rows and their coupled additional constraints. A separate inert source-lineage consumer prototype is assigned for review. Historical custody gaps, freeze and measurement prerequisites remain; calibrated reproduction is separate from a native physical forward law. RET remains paused.
+
 **Reviewed progress: simultaneous allocation and bounded metadata recovery**
 
 The conditional two-group proof now gives an exact shared-budget criterion,
