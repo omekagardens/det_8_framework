@@ -1,3 +1,34 @@
+Reviewed progress: exact equality-direction obstruction and periodic caller integration
+
+Independent and root review accepts the bounded rox component result. Four
+original marked coordinates each carry eight whole V rows, with zero outside
+cost and all shared aliases retained. Covering every V row has strict primary
+loss unless both groups meet exact target equality and payment conditions.
+Even on that conditional equality face, upsilon is the earliest changed original
+coordinate and increases, so the specified direction is lexicographically
+unfavorable. Actual positive support and target equality are not asserted.
+
+Exact finite caps, saturation, endpoint ties and original reduced-cost conditions
+remain. A reverse-exchange question is now assigned using the same component
+inventory, with positive upsilon and growing-row slacks kept as explicit symbolic
+premises. No full optimum, dual, normalized witness or physical result follows.
+
+The primary writer's cleanup-evidence repair has passed independent and root
+source review. Ordered secondary exceptions and nested chains remain reachable
+without changing the first error or existing postcheck and success schemas.
+Its six prospective controls remain unexecuted; original failure evidence is
+preserved.
+
+The next implementation integrates the complete periodic caller, independent
+reader and physical controls, including deterministic custody mutation and
+shared-reference/cycle-aware error records. Retained control packages and
+intentionally invalid files need explicit inventory boundaries under the existing
+limits. Neither source acceptance nor this publication establishes qualification.
+All resource limits, previous finite WHITE outcomes and later full qualification
+requirements remain unchanged. Selected conventional public-data reproduction,
+actual provenance, calibration and a native forward map stay distinct. RET
+remains paused while the native and measurement programme continues.
+
 Reviewed progress: global remainder-cost bound and periodic failure evidence
 
 Independent and root proof review accepts a conditional global cost bound for
