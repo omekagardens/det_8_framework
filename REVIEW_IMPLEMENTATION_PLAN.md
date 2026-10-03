@@ -1,3 +1,33 @@
+**Reviewed progress: reverse exchange and conditional block recovery.**
+
+Independent and coordinator review accept the bounded reverse rox exchange
+on the specified zero-omega face. Decreasing positive upsilon while increasing
+rox needs no initial rox support. Every growing whole row retains its own finite
+slack bound; upsilon supplies depletion and U5 relaxes even at saturation.
+Groupwise equal targets give a finite primary-neutral descent in the original
+lex order, excluding positive canonical upsilon on that equality face.
+
+For general targets, positive canonical upsilon requires genuinely tight rows
+in both groups and a strict inequality between their minimum targets and half
+the total target sum. An empty tight group or a larger sum permits primary
+improvement; equality permits a primary-neutral lex descent. This is exact for
+the audited exchange family. Actual values, support, a full optimum, dual and
+normalized witness remain unresolved; metadata checks do not establish them.
+
+The next native question solves the complete three-coordinate block with its
+other coordinates fixed, retaining all whole-row constraints. The proposed
+absolute-deviation reduction must retain every degeneracy, endpoint and tie
+under the original selector. It seeks a conditional recovery formula, not an
+evaluated physical law.
+
+Periodic caller and control implementation continues alongside this proof work.
+The accepted error-retention source repair remains unchanged; integration and
+normal/optimized qualification are still pending under the existing resource,
+file and custody limits. Conventional reproduction using the selected public
+gravitational-wave data follows qualification. Calibration, physical claims and
+a native forward map remain separate. Protected validation and freeze conditions
+remain intact, and RET alone stays paused.
+
 Reviewed progress: exact equality-direction obstruction and periodic caller integration
 
 Independent and root review accepts the bounded rox component result. Four
