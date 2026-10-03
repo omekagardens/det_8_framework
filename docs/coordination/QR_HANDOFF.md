@@ -1,3 +1,22 @@
+## Joint outside-price bound and local allocation
+
+Independent review accepted a conditional lower bound on required outside prices
+and an exact finite allocation test for the original marked rows. The result
+solves specified local columns; full external completion remains unresolved.
+The next proof addresses simultaneous allocation across groups that share the
+same remaining budgets.
+
+Narrow source repairs now distinguish true absence from inspection errors and
+preserve collector state through monitoring and cleanup failures. These changes
+remain inert while missing domain and authority metadata are recovered or a
+prospective reconstruction contract is reviewed.
+
+Historical evidence custody remains unmet. Current verification and recovered
+bytes do not restore that chain or confer runtime, measurement or operational
+qualification. Existing validation, freeze and conventional public-data
+reproduction prerequisites remain; physical forward-law claims stay separate.
+RET remains paused while the broader programme continues.
+
 ## Conditional proof progress and evidence recovery
 
 Independent review accepted an exact conditional feasibility criterion for the
