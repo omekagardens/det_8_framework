@@ -1,3 +1,9 @@
+Native original P prices now have a conditional seventeen-column completion criterion that retains their simultaneous tau, nu, kappa and original-mu obligations. Finite reconstruction includes absent bounds; a nonempty named-column domain is unbounded precisely when an available P type has all four incident supports zero. These are conditional algebraic results, not an actual full-system certificate. Carrier and alias premises, remaining columns, objective closure, witness and strict restoration remain open.
+
+The next native question reduces the all-positive incident-support case to a weighted two-by-two transport fiber, with marginal balance, availability and shared total-price compatibility. In parallel, the inert source-lineage observer prototype has passed independent source review, and migration of its caller and harness schemas is assigned. The prototype grants no operational authority.
+
+Historical custody remains unmet. No runtime, guard, scientific or measurement operation is authorized or credited by this update. Qualification remains zero, RET remains paused, and conventional public-data reproduction remains separate from a native forward map.
+
 **Reviewed update — mixed-support complementarity and source recovery**
 
 A conditional native proof now includes the lower residual requirement at zero support, alongside equality at positive support. Exact mark availability and the coupled sigma range yield finite affine conditions and whole-row reconstruction; the earlier all-positive case is recovered. This completes fourteen named columns only under an explicit last-contribution premise. Conditional controls are not actual physical countermodels, and full-system obligations remain open.
