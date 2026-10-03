@@ -1,3 +1,33 @@
+**Reviewed progress — conditional native recovery and measurement error retention**
+
+The complete conditional three-variable native block now has an exact symbolic
+solution. With the other coordinates fixed and both omega groups zero, positive
+original costs put the two rox variables at their whole-row ceilings. The
+remaining upsilon objective is a constant minus two absolute deviations. A
+clipped weighted median gives every primary optimum, including zero weights,
+zero capacities, exterior crossings and flat ties. The original lexicographic
+selector takes the smallest maximizing upsilon. Every tight whole-row witness
+and zero-support residual inequality remains explicit.
+
+Independent review and reconciliation of the recorded checks support this
+conditional theorem. It does not determine actual coefficients, a global
+optimum or a full dual. The next native proof constructs conditional prices on
+the original whole rows, including degenerate endpoints, and states the extra
+compatibility obligations for a full dual.
+
+The independent measurement source review identified a concrete integration
+failure: some refusal paths replace the original scientific error with a generic
+completion error, and one path loses its detailed returned refusal record.
+Acceptance is withheld while a fresh source revision repairs propagation and
+adds controls at each affected boundary. Existing sealed evidence is preserved.
+No measurement qualification follows from source review.
+
+Resource limits, complete periodic cases and controls, independent comparisons,
+current runtime and freeze prerequisites remain unchanged. Qualification must
+precede the selected conventional public-data reproduction. Calibration and a
+native forward map remain separate. The broader proof and measurement programme
+continues; RET remains paused.
+
 **Reviewed progress: reverse exchange and conditional block recovery.**
 
 Independent and coordinator review accept the bounded reverse rox exchange
