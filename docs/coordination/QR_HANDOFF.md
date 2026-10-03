@@ -1,3 +1,38 @@
+**Reviewed native dual construction and measurement repair**
+
+Independent and coordinator review accepted finite conditional dual prices for
+the recovered native block. A direct gap identity proves weak duality; active
+mixtures, permitted excess price mass at zero support and a shared endpoint
+budget provide finite attainment across the boundary and degeneracy cases.
+The complete conditional price face lifts to eligible original whole constraints
+with correct scaling and multiplicity. Primary prices do not replace the
+original lexicographic selector.
+
+The next assigned native proof asks whether both omitted zero-omega inequalities
+can be satisfied simultaneously using one shared U5 budget and eligible tight
+Q rows. This remains a restricted compatibility question. Other omitted residuals,
+full-system dual compatibility, actual coefficients and global optimality remain
+unresolved; conditional residual-capacity value is distinct from full dual value.
+
+Independent source review accepted the periodic caller's refusal-retention repair.
+Produced receipts survive fallible saving; returned refusals retain their original
+provenance; live control failures cross boundaries without generic substitution.
+Saving and delivery are recorded separately, and later errors preserve the first
+failure. Six prospective boundary controls supplement the original controls.
+This is source acceptance only: syntax, guarded execution, resource feasibility
+and scientific qualification are not established. Existing source, guard,
+runtime, freeze and separate-mode prerequisites remain mandatory. Guard preparation
+identified missing inherited pre-runtime predicates in the mode parser; a minimal
+repair is assigned and execution remains unissued. This does not invalidate the
+reviewed refusal-retention changes or waive the original prerequisite.
+
+The selected measurement route remains complete periodic qualification, followed
+by nuisance/join/full-size integration and conventional public-data reproduction.
+Calibration, actual-data admission and a native forward law remain distinct.
+Original mathematical and experimental obligations remain; RET stays paused.
+The wider programme is ongoing. This checkpoint preserves earlier public bodies
+and excludes private evidence and active successor sources.
+
 **Reviewed progress — conditional native recovery and measurement error retention**
 
 The complete conditional three-variable native block now has an exact symbolic
