@@ -1,3 +1,30 @@
+**Conditional five-coordinate optimum and observer repair reviewed**
+
+Independent and coordinator review accept an exact conditional solution of the
+original five-coordinate native block. Positive rewards force four coordinate
+caps, leaving a concave function of one variable with at most six candidate
+locations. Its complete maximizing interval recovers a point or line segment;
+the original coordinate order selects the smallest maximizing value uniquely.
+Ties, zero caps, endpoints and flat maxima are included.
+
+This result assumes the admitted original carriers, positive lower law and fixed
+canonical remainder. It does not establish a full-system optimum, acquire actual
+coefficients or produce a strictly restored physical realization. The next
+native question constructs general dual prices and lifts them to original rows,
+while keeping the remaining external-column obligations explicit.
+
+The reviewed observer correction records already-observed read and close
+failures before later capture failures. Complete messages, attached-error
+relationships, partial outputs, guard requirements and resource limits remain.
+This closes the identified source defect; runtime applicability, genuine guard
+outcomes and scientific qualification remain outstanding. Current supplier and
+runtime readiness is the next measurement step. Qualification still precedes
+selected conventional public-data reproduction, with calibration separate from
+a native forward law. RET remains paused.
+
+Previous public bodies are preserved. Private evidence and active successor
+sources are excluded from this metadata-obscured publication.
+
 **Observer failure-order repair and continuing native proof**
 
 Independent and coordinator source review found a concrete error-ordering defect
