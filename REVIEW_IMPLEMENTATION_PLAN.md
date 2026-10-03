@@ -1,3 +1,19 @@
+**Reviewed progress — conditional dual construction and current runtime custody.**
+
+Independent and coordinator review accept an explicit finite attaining dual for
+the conditional five-coordinate block and its lift to original whole-row prices.
+Endpoint, zero-capacity, tie and flat-optimum cases are covered. The next native
+question is an exact allocation-capacity obstruction for external positive
+support. Full-system completion and physical realization remain unresolved.
+
+A fresh comparison passed the complete declared runtime and selection domain,
+with a separately captured administrative context. This establishes current
+custody within the stated supplier and host assumptions. It grants no measurement
+qualification. Complete supplier coverage, guard outcomes, frozen ordered runs
+and qualification still precede the selected conventional public-data
+reproduction. Calibration remains separate from a native forward law. RET stays
+paused; the broader programme continues.
+
 **Conditional five-coordinate optimum and observer repair reviewed**
 
 Independent and coordinator review accept an exact conditional solution of the
