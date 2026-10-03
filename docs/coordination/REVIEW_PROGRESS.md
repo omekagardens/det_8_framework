@@ -1,3 +1,30 @@
+**Reviewed native alternative and completed fabricated WHITE qualification**
+
+Independent review accepts the broader conditional native result: below the
+retained U5 saturation boundary, every original optimal dual assigns positive
+price to at least one tight V row. The finite-step proof covers zero, one and two
+positive omega coordinates without singleton or P-slack assumptions. At the
+saturation boundary only combined V/U5 price positivity follows. Actual support,
+full dual, normalized witness and physical interpretation remain unresolved.
+The next native packet audits one original V remainder component and its companion;
+its independent review is pending.
+
+The separately admitted optimized fabricated WHITE run completed within the
+unchanged limits. Independent saved-output review confirms all fifteen cases,
+complete assembly and both control inventories agree with the accepted normal
+run; differences are confined to prescribed custody paths and derived pins.
+This completes the bounded WHITE scope in both modes. It does not establish
+full application qualification, actual-data acceptance or physical validation.
+
+Periodic implementation and an independent validator are now active for the
+existing full-application case plan. A concrete representation conflict remains:
+the required periodic wrapper exceeds the fixed per-file size limit even before
+all wrapper fields are counted. A separately reviewed complete representation
+must preserve every record and the limit. Nuisance/join integration and selected
+public-data conventional reproduction remain subsequent work. Native proof,
+measurement, calibration and forward-map claims remain distinct; the programme
+continues and RET remains paused.
+
 ### Reviewed native obstruction and conditional runtime preparation
 
 Independent review accepts a conditional native result: the compensated shared-upsilon increase has positive full objective gain in both other-omega branches whenever a positive step is feasible. Exact finite caps and original dual identities agree. Under positive target omega and the admitted target P-row slack, an original V row must carry positive multiplier weight and be tight at a canonical optimum. Actual support, coefficients, remainder values, a full dual and a normalized witness remain unresolved.
