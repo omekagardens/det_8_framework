@@ -1,3 +1,35 @@
+**Reviewed simultaneous omega compatibility and prerequisite repair**
+
+Independent and coordinator review accepted an exact conditional criterion for
+satisfying both zero-omega inequalities at the recovered native block point.
+The construction uses one shared budget across all original U5 copies and
+supplements on eligible tight whole Q rows. The maximum available budget follows
+from active minimum coefficients, including zero-support and excess-price cases.
+Ties, equality, zero budget and all group cases remain explicit. This is a
+restricted compatibility result: other original residuals and complements,
+actual coefficients, full dual value and global optimality remain unresolved.
+
+The next native proof is assigned: construct or refute a finite improvement in
+the original primal variables when that criterion fails. Every original carrier,
+margin, normalization and complement must be accounted for; primary-flat
+lexicographic improvement is a separate question using the original ordering.
+
+Independent source review accepted the minimal restoration of inherited
+pre-runtime semantic and reference checks before both measurement modes.
+The complete guard obligations remain unchanged. Nine saved-relation adapters
+still require implementation using the actual shared pure validator and
+normalizer, including the boundary-retention predicates. That source work is
+assigned. The incomplete guard entry deliberately refuses execution; no guard,
+runtime, freeze, mode admission or scientific qualification is asserted.
+
+Current runtime applicability still needs the final source/context custody and
+explicit supplier premises. Complete periodic, nuisance/join and full-size
+qualification precede the selected conventional public-data reproduction.
+Calibration and a native forward law remain distinct. Original mathematical and
+experimental obligations remain; RET stays paused. The programme is ongoing.
+This checkpoint preserves previous public bodies and excludes private evidence
+and active successor sources.
+
 **Reviewed native dual construction and measurement repair**
 
 Independent and coordinator review accepted finite conditional dual prices for
