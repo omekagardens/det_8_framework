@@ -1,3 +1,13 @@
+### Reviewed native obstruction and conditional runtime preparation
+
+Independent review accepts a conditional native result: the compensated shared-upsilon increase has positive full objective gain in both other-omega branches whenever a positive step is feasible. Exact finite caps and original dual identities agree. Under positive target omega and the admitted target P-row slack, an original V row must carry positive multiplier weight and be tight at a canonical optimum. Actual support, coefficients, remainder values, a full dual and a normalized witness remain unresolved.
+
+The next native question keeps every zeta fixed and decreases only positive omega coordinates. It tests a broader U5-saturation-or-V-price alternative without singleton or P-row slack assumptions, retaining the saturation boundary explicitly.
+
+The current measurement runtime is accepted under the existing eight conditional premises. The complete constructor binding and three prepared templates passed independent review. Retained profiles are used only through their reviewed current applicability; no new scientific profile is claimed. The fixed freeze was issued with only its authorization status changed and all original source pairs preserved. The established pre-mode, card and pre-dispatch checks remain necessary before the optimized qualification attempt. Accepted normal results and the historical failed attempt retain their separate meanings.
+
+Qualification still precedes the selected public GWOSC conventional reproduction. No full-suite, actual-data, physical or native-forward-map acceptance is claimed. Protected validation boundaries and the RET pause remain. The research programme continues.
+
 **Implementation update — upsilon carrier proof and recovery context reviewed.**
 
 The complete shared-upsilon carrier and history-weighted objective are accepted as bounded conditional mathematics. The proposed compensated decrease has strictly negative primary gain at every feasible positive step, so that particular improving direction is rejected. Its original-dual consequence requires a positive multiplier on another carrier under the stated premises; it does not establish actual canonical support or a full dual solution. The opposite compensated increase, with explicit positive/zero support branches in the other group, is now assigned for proof.
