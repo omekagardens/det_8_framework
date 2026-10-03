@@ -1,3 +1,38 @@
+Reviewed progress: global remainder-cost bound and periodic failure evidence
+
+Independent and root proof review accepts a conditional global cost bound for
+available original remainder columns. Adding a maximal newborn cannot lower the
+specified arbitrary-deletion Ferrers defect. Combined with the admitted canonical
+active-component theorem, each available column's full objective cost covers its
+V-row cost, with nonnegative outside contributions and every shared alias retained.
+Consequently, the specified payments cancelling all V growth cannot improve the
+primary objective. Positive omega depletion, excess V relief or positive outside
+cost makes loss strict. Equality requires exact every-row cancellation, no positive
+omega and zero outside cost; actual support and the original lex order remain open.
+
+The exact finite cap preserves coordinate depletion and all growing U5 bounds;
+U5 saturation still forces a zero step. No actual allocation, prices, full dual or
+normalized witness is constructed. A concrete remainder family is now being
+examined as a possible equality candidate, with its marked aliases, complete
+carrier incidence and original lex order to be proved rather than assumed.
+
+Periodic source review found two failure-evidence gaps. The reader control
+verifier omitted the intended message check; a separate source repair binds all
+19 selected messages and strictly checks their type and value alongside the code.
+Independent and root review accept that narrow source repair.
+The primary writer can lose later close exceptions and attached tail details;
+that original source is preserved and requires a narrow repair. These are source
+findings and repairs, with no periodic execution or qualification credit.
+
+The complete parts format retains every scenario, mode, row and component and
+the exact virtual canonical identity under the unchanged physical file cap.
+Physical control scheduling, deterministic mutation hooks, complete variants and
+qualified caller/source/runtime/custody integration remain unfinished. Previously
+accepted finite WHITE outcomes remain unchanged. Full periodic/nuisance/join
+qualification precedes the selected conventional public-data reproduction; actual
+admission/provenance, calibration and a native forward map remain separate. RET
+stays paused while the broader programme continues.
+
 Reviewed progress: original remainder cost obstruction and complete periodic representation
 
 Independent proof review accepts a conditional obstruction for one original
