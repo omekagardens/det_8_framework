@@ -1,3 +1,11 @@
+**Current diagnostic research update — weighted transport review and active follow-through.**
+
+Independent review accepted the conditional original-row price transport criterion: weighted marginal balance, availability restrictions and shared total-price compatibility must hold together at one background. Both coefficient signs, ties, zero demands and finite reconstruction are retained. Original carrier assumptions, whole-row remainders and full-system obligations remain unresolved. The next native proof examines when the original primal rows can be tight together; no actual realization or physical claim is asserted.
+
+A separate inert dependency review identified five source consumers requiring a coherent lineage migration. That implementation is active, with independent source review and genuine authority still required. Conventional public-data reproduction remains separate from a native forward map.
+
+Historical custody remains unmet, operation acceptance is false and qualification credit is zero. Existing controls, freeze and runtime prerequisites remain. RET remains paused; the wider programme continues.
+
 Native original P prices now have a conditional seventeen-column completion criterion that retains their simultaneous tau, nu, kappa and original-mu obligations. Finite reconstruction includes absent bounds; a nonempty named-column domain is unbounded precisely when an available P type has all four incident supports zero. These are conditional algebraic results, not an actual full-system certificate. Carrier and alias premises, remaining columns, objective closure, witness and strict restoration remain open.
 
 The next native question reduces the all-positive incident-support case to a weighted two-by-two transport fiber, with marginal balance, availability and shared total-price compatibility. In parallel, the inert source-lineage observer prototype has passed independent source review, and migration of its caller and harness schemas is assigned. The prototype grants no operational authority.
