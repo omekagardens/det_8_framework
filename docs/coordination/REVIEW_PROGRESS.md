@@ -1,3 +1,24 @@
+**Reviewed progress: simultaneous allocation and bounded metadata recovery**
+
+The conditional two-group proof now gives an exact shared-budget criterion,
+finite projection and original-row construction. An additional equality
+result covers fourteen positive named columns under its stated premises.
+Conditional negative controls distinguish local success from simultaneous
+success; no actual physical countermodel or full-system result is claimed.
+
+Two missing metadata drafts were recovered with exact byte hashes. A concrete
+prospective construction contract retains the source, runtime and observation
+requirements. The recovered drafts remain unissued. Historical source paths
+and custody are still missing, so runtime and measurement qualification remain
+blocked.
+
+The next native proof addresses zero-support lower residuals alongside
+positive-support equalities. Independent measurement work is recovering the
+declared source bodies needed for a reviewed future relocation. Full historical
+custody remains unmet; no original inode continuity or operative authority is
+restored. Calibration and a native forward law remain separate. RET remains
+paused; the wider programme continues.
+
 ## Joint outside-price bound and local allocation
 
 Independent review accepted a conditional lower bound on required outside prices
