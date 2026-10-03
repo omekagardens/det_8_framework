@@ -1,3 +1,26 @@
+**Observer failure-order repair and continuing native proof**
+
+Independent and coordinator source review found a concrete error-ordering defect
+in the proposed measurement observer. When a read fails, closing its file also
+fails, and saving the error subsequently fails, the report places the capture
+failure before the earlier close failure. The first refusal remains correct,
+but the order of later failures must be repaired.
+
+A focused immutable correction is assigned: retain failures already observed
+before attempting sidecar delivery, then append any newly encountered capture
+failure. Complete messages, partial outputs, the first refusal, existing guard
+inventory and all resource limits must remain intact. The full independent
+source review found no other concrete blocker. No guard execution, runtime
+acceptance or scientific qualification is claimed by this source review.
+
+The exact conditional five-coordinate native block proof remains active.
+Previously accepted finite primal and canonical selection results retain their
+conditional scope. Actual coefficients, full-system optimality and strict
+source realization remain unresolved. Measurement qualification still precedes
+selected conventional public-data reproduction, with calibration separate from
+a native forward law. RET remains paused. Previous public bodies are preserved;
+private evidence and active successor sources are excluded.
+
 **Reviewed finite primal improvement and original lexicographic necessity**
 
 Independent and coordinator review accepted a finite original primal
