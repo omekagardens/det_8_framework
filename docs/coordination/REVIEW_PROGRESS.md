@@ -1,3 +1,30 @@
+**Reviewed update — exact capacity and total-excess compatibility**
+
+The conditional native argument now determines the exact allowable total-excess
+range and preserves every parameter choice that realizes it. Actual availability
+restricts each coordinate before the capacity equations are solved. Equal
+coefficients can leave a whole solution segment even when the total is fixed.
+Exact controls show why matching signs or testing one representative can fail.
+
+This result is sufficient only for its declared capacity/excess subproblem.
+The original transport, allocation, shared-parameter and remaining background
+constraints still apply at the same point. The next proof intersects the new
+range with the original transport equations, including tied and boundary cases.
+No native instance or physical law has been established.
+
+The separate measurement observer design is awaiting independent review of
+bounded parsing, authenticated event custody, replay and cleanup. Genuine
+authorization, enforced resource supervision and safe content acquisition
+remain prerequisites. Selected public gravitational-wave reproduction remains
+downstream of qualification and separate from a native forward map.
+
+Current byte, identity, literal-preservation and actual command checks passed.
+Failed operations and incomplete file-change renderings remain disclosed.
+Three changing source documents have explicit byte-identical prior snapshots;
+this preserves their content without claiming their original live identity.
+Historical custody and missing originals remain unresolved. Qualification
+remains zero. RET remains paused; the wider programme continues.
+
 **Reviewed update — conditional mark pinning and metadata collector design**
 
 For a complete fixed-background imposed row inventory, any positive mark
