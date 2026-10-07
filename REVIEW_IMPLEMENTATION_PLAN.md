@@ -1,3 +1,13 @@
+**Conditional original-row extension reviewed; mark pinning and measurement acquisition remain open.**
+
+The joint extension criterion now preserves strict endpoints, equality-fixed points and finite alternative branches. All constraints within a chosen branch share one coordinate and background; alternative branches may have different solutions. Fixed-background named P contributions cancel along the face path, while a required positive price on the same original P_nu row can pin the remaining coordinate. Omitted original predicates retain their existential coordinate. This is conditional mathematics: complete original coefficients, row/alias inventory, eligible lifts and full-system premises are still missing.
+
+Independent and coordinator reviews checked the corrected proof, manual countercontrols, exact source changes and genuine administrative receipts. The author helper's output-bound breach, an attributed orchestration error and incomplete file-change renderings remain disclosed. Successful byte checks do not establish mathematical validity or historical custody.
+
+A separate primary-source design review identifies a conditional device-open race in an ordinary check/open/check sequence. This limits that sequence's stronger no-device-effects promise; it is not a universal impossibility of body acquisition. A platform-specific inspection and same-object conversion remains a design question. The inert collector is under independent review; historical operands remain unobserved.
+
+Qualification remains zero. Original history, freeze, custody and validation prerequisites remain. Selected public GWOSC reproduction stays downstream of qualification and separate from a native forward map. RET remains paused. The programme continues.
+
 **Conditional face compatibility and measurement preflight review**
 
 Independent review accepts the fixed-residual classification of three tight
