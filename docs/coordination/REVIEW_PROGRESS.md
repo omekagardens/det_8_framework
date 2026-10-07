@@ -1,3 +1,32 @@
+**Conditional face compatibility and measurement preflight review**
+
+Independent review accepts the fixed-residual classification of three tight
+cells and one strictly slack cell. A permitted slack sign alone is insufficient:
+strictly positive original coordinates also require the sum of the two inverse
+coefficient ratios to exceed one in the restrictive branch. Equality forces two
+coordinates to zero; coefficient ties instead give a four-tight face.
+
+A strict face fixes one transport endpoint. Every positive share still needs a
+genuine eligible whole-row lift, and original demand, total-price and tau
+equations must hold at the same background and mark parameters. Parallel rows
+can preserve a weak inequality while invalidating common-envelope coverage.
+The next proof step examines the remaining original rows, aliases and coupled
+demands along the apparent free-coordinate interval. This is conditional
+mathematics, with no acquired native instance or physical promotion.
+
+The separate measurement review accepts an inert conditional transcript
+classifier and prospective access design. All 142 historical descriptors remain
+unobserved. Plausible supplied grants or digests are not authenticated evidence;
+collector, provenance, resource observer and original caller gates remain
+prerequisites. The next step is inert collector design. No candidate execution
+or observational authority is issued.
+
+The checkpoint preserves unrelated edits and historical evidence. Historical
+custody and original-identity continuity remain unresolved. Qualification is
+zero, RET remains paused, and conventional public gravitational-wave
+reproduction remains downstream of qualification and separate from a native
+forward map. The programme remains open.
+
 **Current review update — conditional slack envelopes and prospective freeze metadata reviewed.**
 
 At one admissible original background, weighted transport obeys the exact
