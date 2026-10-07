@@ -1,3 +1,28 @@
+**Reviewed update — conditional mark pinning and metadata collector design**
+
+For a complete fixed-background imposed row inventory, any positive mark
+demand fixes the face parameter to the largest imposed threshold, including
+thresholds from rows ineligible to carry price. Genuine eligible labels,
+coupled allocation and all remaining original constraints are still required.
+The all-zero-mark branch instead requires exact Q-capacity saturation and
+actual Q availability; it retains the original parameter and endpoint tests.
+Compatible signs of capacity deficits and total excess are necessary but
+do not establish compatible magnitudes. The next proof asks for that exact range.
+
+The metadata-only collector design has passed manual and independent review.
+Its entry point does not acquire file contents. Safe content acquisition,
+authenticated scope/runtime/journal custody and enforced resource supervision
+remain prerequisites. The next measurement step designs that finite observer
+boundary with explicit failure handling. No historical operand was acquired,
+and no candidate behavior test was executed.
+
+Current byte, identity, literal-preservation and retrieved command checks passed.
+Failed checks, corrections and incomplete file-change renderings remain disclosed.
+Historical custody, missing originals and native applicability remain unresolved.
+Qualification remains zero. Selected public gravitational-wave reproduction
+remains downstream of qualification and separate from a native forward map.
+RET remains paused; the wider programme continues.
+
 **Conditional original-row extension reviewed; mark pinning and measurement acquisition remain open.**
 
 The joint extension criterion now preserves strict endpoints, equality-fixed points and finite alternative branches. All constraints within a chosen branch share one coordinate and background; alternative branches may have different solutions. Fixed-background named P contributions cancel along the face path, while a required positive price on the same original P_nu row can pin the remaining coordinate. Omitted original predicates retain their existential coordinate. This is conditional mathematics: complete original coefficients, row/alias inventory, eligible lifts and full-system premises are still missing.
