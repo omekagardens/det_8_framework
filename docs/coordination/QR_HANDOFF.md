@@ -1,3 +1,42 @@
+**Current review update — conditional slack envelopes and prospective freeze metadata reviewed.**
+
+At one admissible original background, weighted transport obeys the exact
+slack identity J-W=sum(g*x), with every envelope gap g nonnegative.
+Prices on eligible tight rows therefore have zero gap and minimize the
+envelope objective. Its slope Gamma is distinct from total-price slope Delta.
+Only complete common-positive-residual coverage identifies J=C*U and forces
+minimum total price. Four symbolic controls show why zero gap, representative
+rows, an objective minimum or coverage on the current support alone do not
+supply that conclusion. Original row eligibility, full remainders, one common
+theta, all other columns and actual native realization remain prerequisites.
+
+The next native question classifies three-tight/one-slack faces under that
+coverage premise, including strict positive original coordinates, coefficient
+ties and parallel rows. A permitted rectangle-slack sign alone may still fail
+strict positivity. This is an active conditional proof question, not an
+assertion that such a native instance has been realized.
+
+The prospective measurement freeze is deliberately unissued. Its seventeen
+fields, twelve helpers, six accepted inert source bodies and twenty-four
+roles are mapped without issuing authority or running candidates. All 142
+caller history descriptors remain individually unverified. Their paths have
+zero intersection with the separate inventory of 154 missing original files;
+that inventory cannot establish a missing caller row. Genuine historical
+availability, acyclic review authority, guards, runtime and freeze admissions
+remain required before qualification and conventional public-data reproduction.
+
+Independent manual reviews found no substantive correction. Fresh bounded
+byte, JSON and receipt checks support the reviewed identities; they do not
+prove native realizability or execute the measurement programme. Administrative
+check failures and their exact corrections remain preserved as diagnostics.
+
+Current repository and failed-run identities remain stable. Historical
+custody, original-inode continuity and earlier cross-remount continuity remain
+unresolved. Qualification and operation acceptance remain zero. The fifteen
+typed boundary fields, full recovery restrictions, strict restoration and
+physical-claim limits remain unchanged. RET remains paused. The programme
+continues, with conventional GWOSC work distinct from a native forward map.
+
 **Current diagnostic research update — primal tightness review and active follow-through.**
 
 Independent review accepted an exact conditional test for original-row tightness. Four selected tight pairs require rectangular consistency and a strictly positive potential interval. Equal positive residuals impose an additional coefficient-tie restriction; unequal residuals and partial tightness retain every relevant labeled inequality. Original carrier and whole-row premises remain unresolved. The next native question connects primal slack to weighted transport and tests the additional coverage needed for endpoint conclusions.
