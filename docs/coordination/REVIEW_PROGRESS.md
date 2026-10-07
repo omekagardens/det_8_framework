@@ -1,3 +1,11 @@
+**Current diagnostic research update — primal tightness review and active follow-through.**
+
+Independent review accepted an exact conditional test for original-row tightness. Four selected tight pairs require rectangular consistency and a strictly positive potential interval. Equal positive residuals impose an additional coefficient-tie restriction; unequal residuals and partial tightness retain every relevant labeled inequality. Original carrier and whole-row premises remain unresolved. The next native question connects primal slack to weighted transport and tests the additional coverage needed for endpoint conclusions.
+
+A separate complete source review accepted the six-file inert lineage migration. Existing controls and admission prerequisites remain. Matching unissued freeze metadata is now being prepared; genuine authority, historical evidence, guards and runtime acceptance are still required before measurement qualification and conventional public-data reproduction.
+
+Current evidence bytes survived storage restoration, but the changed filesystem device identifier does not establish historical identity continuity. Historical custody remains unmet, operation acceptance is false and qualification credit is zero. No candidate execution or physical promotion is claimed. RET remains paused; the wider programme continues.
+
 **Current diagnostic research update — weighted transport review and active follow-through.**
 
 Independent review accepted the conditional original-row price transport criterion: weighted marginal balance, availability restrictions and shared total-price compatibility must hold together at one background. Both coefficient signs, ties, zero demands and finite reconstruction are retained. Original carrier assumptions, whole-row remainders and full-system obligations remain unresolved. The next native proof examines when the original primal rows can be tight together; no actual realization or physical claim is asserted.
