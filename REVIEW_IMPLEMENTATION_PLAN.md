@@ -1,3 +1,27 @@
+**Joint mark compatibility and observer design review**
+
+The conditional native result now intersects the full shared transport interval
+with every genuine mark-label, xi-support and shared sigma constraint. Under
+fixed original coefficients and eligible labels, the passing set is exactly an
+empty set, a singleton or a closed interval. Reconstruction uses one common
+point and retains every permitted whole-row allocation for further constraints.
+Worked controls distinguish label and total-load failures, opposite slope
+directions, zero support and false combinations of separate witnesses.
+
+This completes only the declared seventeen-column block under its original
+premises. Actual original inventory, alias-summed carrier coefficients,
+outside-column compatibility, full-system recovery and physical correspondence
+remain open. The next proof examines omitted columns on the entire allocation
+fiber.
+
+The observer protocol and its two precise failure/reason clarifications are
+accepted as conditional inert design for a bounded framing implementation and
+independent source review. Genuine authorization, admitted runtime, independent
+host enforcement, authentication/replay and durable custody are still missing.
+No capture, historical repair or qualification is claimed. Public GWOSC
+reproduction remains downstream of genuine qualification. RET remains paused;
+the wider DET programme continues.
+
 **Reviewed shared capacity and original transport compatibility**
 
 The conditional native calculation now intersects exact capacity and total-excess
