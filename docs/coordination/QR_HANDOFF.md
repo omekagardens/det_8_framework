@@ -1,3 +1,35 @@
+**Reviewed shared capacity and original transport compatibility**
+
+The conditional native calculation now intersects exact capacity and total-excess
+constraints with original transport at one shared parameter point. On a genuine
+strict missing-cell face, the original weighted identity fixes both group totals.
+Complete capacity inverses and weighted balance then leave an exact closed
+interval of solutions. Every surviving point has the same forced transport flow;
+nonnegative margins and unavailable-type zeros remain explicit requirements.
+
+Manual controls reject same-total examples with inconsistent balance, negative
+margins and unavailable positive-flow rows. Tied capacity coefficients preserve
+whole inverse intervals. Original transport coefficient ties retain their full
+affine family. This establishes the declared restricted block only. Original
+mark allocation, xi/sigma, other columns and physical correspondence remain open.
+The next native proof intersects the whole shared interval with the original
+mark and xi/sigma constraints and reconstructs one common labeled witness.
+
+Independent review also supports a narrow observer failure-state clarification:
+missing collector end permanently prevents success, while genuine authenticated
+outer failure custody may still support a failed-capture diagnosis. Missing final
+authentication or durable commit remains unauthenticated incomplete evidence.
+All success thresholds stay unchanged. A further protocol reason clarification
+is awaiting review; genuine authority, runtime admission, host enforcement,
+authentication/replay and durability prerequisites remain missing.
+
+Manual mathematics, administrative checks and unexecuted design controls remain
+distinct. A disclosed read-only worker scope departure and review-check failures
+remain recorded; no clean procedural history is claimed. Historical custody gaps
+remain unresolved. Qualification is zero. Public-data reproduction follows genuine
+qualification and is separate from any native forward map. RET remains paused;
+the broader programme continues.
+
 **Reviewed update — exact capacity and total-excess compatibility**
 
 The conditional native argument now determines the exact allowable total-excess
