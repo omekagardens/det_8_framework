@@ -1,3 +1,32 @@
+**Current follow-through — conditional finite exchange and owner repair.**
+
+Independent review accepts the finite upsilon/omega exchange calculation under
+its fixed positive lower-law and complete original-component premises. A positive
+upsilon payment is strictly dominated by the best omega-only change from the
+same point. The reverse finite change gives a necessary capacity-boundary
+condition for an optimum, conditional on its lift to the full original system.
+All whole marks, aliases, newborn maps, both capacities and full complements remain.
+No actual common point, global optimizer or strict-restoration witness is supplied.
+
+The next native proof concerns the exact three-coordinate optimum with all
+background components fixed, together with a finite objective-gap bound.
+It must retain the missing original column and constraint binding explicitly.
+
+Independent source review identified two concurrency defects in the inert
+measurement owner: an external operation can first begin after failure is latched,
+and pending publication can briefly overwrite the terminal phase. The repair
+must order authentic operation claims against cancellation and serialize pending
+publication. Prepared, claimed, physically started and observed stages remain
+distinct. Authentic runtime and dispatch implementations are still missing.
+
+Current byte and identity checks passed. Four current checker-source provenance
+gaps remain separate from five historical gaps; mathematical acceptance does not
+waive them. No candidate, engine, control or experiment was executed. Qualification
+remains zero, with authority, runtime, enforcement, authentication/replay, custody
+and durability prerequisites unresolved. Selected conventional public-data
+reproduction remains downstream of qualification and separate from any native
+forward map. The RET-only pause continues.
+
 **Current follow-through — conditional upsilon accounting and event-order review.**
 
 Independent review accepts the complete five-term upsilon carrier row and its
