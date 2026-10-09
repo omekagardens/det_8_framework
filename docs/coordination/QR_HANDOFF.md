@@ -1,3 +1,31 @@
+**Current follow-through — conditional upsilon accounting and event-order review.**
+
+Independent review accepts the complete five-term upsilon carrier row and its
+history, capacity and objective accounting under the stated positive lower-law
+and original-component premises. All whole marks, selected-ideal aliases, both
+newborn bits and full payload maps remain. Decreasing a positive upsilon
+allocation frees capacity but incurs a strictly positive objective cost.
+The companion capacity remains necessary even where its objective term is zero.
+No actual common feasible point, global component ledger or restored-law witness
+has been established.
+
+The next native question is a finite joint upsilon/omega exchange: compare a paid
+upsilon decrement with the best omega-only change, and test whether the reverse
+direction forces a capacity boundary. These are assigned proof questions.
+
+Independent review also accepts the inert event-order proposal within its scope.
+Its bounded counters and original-object associations do not implement mutable
+failure ownership, one-use proposal consumption, origin authentication or durable
+acknowledgment. The next implementation adds the mutable owner as inert source
+with distinct committed and delivered observations and closed admission boundaries.
+
+Current source and metadata checks passed. Historical redacted source intervals,
+missing originals and custody limitations remain unresolved. No candidate, engine,
+control or experiment was executed. Qualification remains zero; genuine runtime,
+authority, enforcement, authentication/replay and durability prerequisites remain.
+Selected conventional public-data reproduction remains downstream of qualification
+and separate from any native forward map. The RET-only pause continues.
+
 **Current follow-through — canonical exclusions transported and local event forms reviewed.**
 
 Under the fixed positive lower law and complete native diamond relations, six
