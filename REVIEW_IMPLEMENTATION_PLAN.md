@@ -1,3 +1,36 @@
+**Current follow-through — canonical exclusions transported and local event forms reviewed.**
+
+Under the fixed positive lower law and complete native diamond relations, six
+raising Q terminal types are excluded canonically in all eighteen last-birth
+presentations. Eight partner presentations are individually defect-neutral;
+their exclusion follows from transport to the raising presentation. This is a
+conditional finite result. It does not zero strictly restored probabilities,
+arbitrary omitted-column coefficients or supply a full physical model.
+
+Independent review retains all whole markings, labeled ideals, newborn bits,
+complete payloads and the distinction between symmetry and transport. The next
+native question completes the identified upsilon companion row and its full
+carrier, history and objective accounting before any component variation.
+The actual common point, coupled capacities, global comparisons and original
+recovery obligations remain open.
+
+The single-event source-form recognizer is accepted as conditional inert design
+after manual adversarial review and administrative integrity checks. It preserves
+raw spans, exact return tags and source error-site distinctions. The next design
+step addresses tentative event ordering. Local form and ordering cannot establish
+authority, real execution, authenticated acknowledgment, replay prevention or
+durable custody; those remain independent prerequisites.
+
+Part of the author checker source is redacted in its provider record. Its visible
+configuration and output are distinguished from full source verification; fresh
+independent integrity checks do not repair that provenance gap.
+
+Runtime qualification remains zero. Historical custody and original identity
+continuity remain unresolved. Conventional public-data reproduction stays
+downstream of qualification and separate from a native forward map. The RET
+pause remains in effect, and the wider programme continues.
+
+
 **Current follow-through — recovered canonical Q structure and conditional observer source contracts.**
 
 Approved embedded evidence supplies the complete nine-proper-ideal Q description,
