@@ -1,3 +1,30 @@
+**Current follow-through — recovered canonical Q structure and conditional observer source contracts.**
+
+Approved embedded evidence supplies the complete nine-proper-ideal Q description,
+its three neutral canonical contributions and complete zeta carrier accounting.
+The four whole marked records retain distinct identities despite their shared
+canonical restriction. Terms that vanish in the canonical vector do not thereby
+have zero coefficients on arbitrary omitted columns.
+
+Independent review accepts this recovered structure while retaining the missing
+actual common point, joint eligibility and tightness, complete comparisons,
+omitted support and once-only fixed/variable contribution ledger. A finite literal
+sweep supplies bounded coverage, not an all-source absence theorem. The next native
+proof question concerns the six raising slots' terminal and component incidence,
+with canonical and strictly restored coordinate spaces kept distinct.
+
+The observer source-error, terminal and transcript/return contracts are accepted
+as inert design. They preserve the difference between attempted publication and
+emitted bytes, exact raw-error projection, conditional return and genuine custody.
+A bounded local event-form recognizer is the next implementation step; it cannot
+supply authority, authentication, runtime evidence or durable acknowledgment.
+Manual cases and administrative integrity checks provide no runtime qualification.
+
+Historical custody and original identity continuity remain unresolved.
+Qualification remains zero. Conventional public-data reproduction remains
+downstream of qualification and separate from a native forward map. The RET pause
+and original experimental prerequisites remain. The programme continues.
+
 **Reviewed update — native application limits and observer acknowledgment design**
 
 The native allocation theorem remains a conditional result for fixed, complete
