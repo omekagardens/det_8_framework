@@ -1,3 +1,35 @@
+**Reviewed update — native application limits and observer acknowledgment design**
+
+The native allocation theorem remains a conditional result for fixed, complete
+coefficients. Applying it to original rows still requires complete occurrence
+and alias data, joint eligibility and tightness at one point, all imposed
+comparisons, actual omitted-column supports and right sides, and a fixed/variable
+contribution ledger. The reviewed declarations supply partial original labels
+and named carrier identities, but do not establish a complete application
+certificate. This bounded finding does not prove that qualifying rows do not
+exist. The entire allocation fiber and the original full-system obligations
+remain intact.
+
+The observer design now specifies a bounded canonical event cursor, one pending
+event, and separate framing, durable-storage, commitment and acknowledgment
+delivery counts. A framing pass cannot authorize the next event or substitute
+for a genuine acknowledgment. Failure after framing is irreversible. End,
+return, raw journal and transcript associations must match exactly. The 28
+controls are manual design checks; no candidate was executed.
+
+Complete source-error, terminal-failure and transcript/return contracts remain
+required before implementation admission. Their literal extraction is active.
+Issuer authority, runtime evidence, host enforcement, authentication/replay and
+durability are still missing. Conventional reproduction with selected public
+GWOSC data remains downstream of qualification and separate from a native
+forward map.
+
+Current repository preservation checks pass against the previous checkpoint.
+The earlier device-identity discontinuity and unresolved historical custody
+remain explicit failures; matching current bytes do not repair them.
+Qualification remains zero, the RET pause remains in force, and the wider
+native geometry, gravity and measurement programme remains open.
+
 **Review update — conditional joint constraints and observer framing**
 
 The native derivation now retains the complete allocation fiber when adding
