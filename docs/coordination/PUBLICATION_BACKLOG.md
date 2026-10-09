@@ -1,3 +1,26 @@
+**Review update — conditional joint constraints and observer framing**
+
+The native derivation now retains the complete allocation fiber when adding
+omitted-column constraints. Under fixed finite row data, every constraint must
+hold at one common allocation. The feasible parameter projection is empty, a
+singleton or a closed interval; compatible row prices can be reconstructed.
+Manual controls distinguish greedy failure, required mixtures and separate
+feasibility from joint feasibility. Actual eligible row identities, full
+coefficients, aliases and residual backgrounds are still needed for application.
+A bounded source audit is pursuing those data.
+
+Independent source review accepts the observer framing layer as an inert,
+conditional design. Framing alone grants no acknowledgment or capture authority.
+The next design step addresses semantic validation, durable acknowledgment and
+irreversible failure. The issuer, runtime, host enforcement, authentication and
+durability prerequisites remain unsupplied; qualification credit is zero.
+
+Current bytes and checks were reverified after a device identifier change.
+Historical identity continuity remains failed or unverified; the new current
+baseline does not repair historical custody. Existing protections, experimental
+thresholds and the RET pause remain. Conventional public-data reproduction remains
+downstream of qualification and separate from a native forward map.
+
 **Joint mark compatibility and observer design review**
 
 The conditional native result now intersects the full shared transport interval
