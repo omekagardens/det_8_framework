@@ -1,3 +1,26 @@
+**Conditional completion of the C companion.**
+The complete proper row retains two distinct shared-coordinate contributions,
+including when their marks coincide. Seven locally raising births and two
+transported exclusions account for the other terms under the inherited canonical
+support theorem. The full probability remains its dependent complement.
+
+Exact history accounting gives total V/C coordinate cost equal to 31/11 of the
+V-only cost. The diagonal C constraints and every whole V residual give two exact
+coordinate caps at a stipulated common feasible background. Mixed rows remain
+history and objective occurrences. Neither coordinate is identified with the other.
+
+Independent review retains the support theorem as a premise for the original
+canonical boundary problem. No actual background, optimizer, native sign,
+original-system lift or strictly restored law follows. The next native question
+is the D companion; its remaining terms require their own incidence analysis.
+Historical receipt, provider-source and custody gaps remain unresolved.
+
+Measurement still requires actual issuer, runtime, host-enforcement,
+authenticated-replay and durability capabilities. Qualification remains zero
+and the implementation is unintegrated. Conventional public-data reproduction
+awaits qualification, separate from a native forward map. The RET-only pause
+remains in force; the programme is incomplete.
+
 **Conditional Theta exchange and native lower-law reduction.**
 The complete rx companion contributes once to the objective, giving an exact
 finite improvement test after reoptimizing the shared normalization fiber.
