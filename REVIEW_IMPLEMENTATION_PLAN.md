@@ -1,3 +1,31 @@
+Reviewed native progress and remaining application premises
+
+The conditional fixed-background three-coordinate optimizer, gap bound and finite
+segment have been independently reviewed. A subsequent terminal-incidence audit
+identifies the upsilon and ordered omega occurrences, their positive normalization
+factors, complete marked rows and full-map aliases. The ratios are nonnegative
+and may be zero. A terminal-topology distinction also separates upsilon from the
+older sigma component.
+
+These results do not provide an actual common original-system point, complete
+global column and comparison binding, strict restoration or physical validation.
+The next native question tests the complete cost of releasing a tight V capacity
+by decreasing an identified neighboring component, including its second carrier
+and the reoptimized upsilon/omega objective. It remains an active proof question.
+
+The measurement owner repair is accepted as conditional inert design. Genuine
+shared claim, cancellation and dispatch authority is still required; a prior
+claim may physically start after failure. Runtime enforcement, authentication,
+durability and other qualification prerequisites remain missing. Qualification
+remains zero. Conventional public-data reproduction awaits those prerequisites
+and remains separate from a native forward map.
+
+Current identity and recorded-output checks passed, with explicitly retained
+provider-source redaction gaps. They do not repair historical custody. Protected
+validation, freeze, original recovery and experimental requirements remain.
+Unrelated work was preserved. The RET-only pause remains and the programme is
+ongoing.
+
 **Current follow-through — conditional finite exchange and owner repair.**
 
 Independent review accepts the finite upsilon/omega exchange calculation under
