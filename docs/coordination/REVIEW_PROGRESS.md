@@ -1,3 +1,24 @@
+**Conditional Theta exchange and native lower-law reduction.**
+The complete rx companion contributes once to the objective, giving an exact
+finite improvement test after reoptimizing the shared normalization fiber.
+The test retains all whole rows, both capacities, tied active constraints,
+zero caps, dependent full complements and depletion endpoints.
+
+Two complete lower-law diamonds equate the two rx coefficients and the paired
+edge-plus-isolate coefficients. The resulting criterion sharpens a sufficient
+exclusion bound while preserving the shared four-Theta remainder. The actual
+joint lower law and active background remain unevaluated: no universal exclusion,
+admissible improving example, original-system lift or strict restoration follows.
+The next native question concerns the complete C companion and its shared cost.
+
+Independent review keeps manual mathematics, current byte checks and execution
+provenance distinct. A missing historical author receipt and existing provider
+source gaps remain unresolved; current hashes do not restore them. Measurement
+still requires actual issuer, runtime, host-enforcement, authenticated-replay and
+durability capabilities. Qualification remains zero and the implementation remains
+unintegrated. Conventional public-data reproduction awaits qualification and is
+separate from a native forward map. The RET-only pause remains in force.
+
 Reviewed native progress and remaining application premises
 
 The conditional fixed-background three-coordinate optimizer, gap bound and finite
