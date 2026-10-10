@@ -1,3 +1,54 @@
+**Reviewed D companion: complete row and shared Y cost, conditional on the inherited canonical support and locality premises.**
+
+For D with r<a<b,r<x<b,o<b, all ten proper ideals and the dependent full
+complement are accounted for. Six proper births raise the arbitrary-deletion
+defect; the four neutral births are ra,rx,rao,rxo. Every proper terminal has
+exactly two last-birth presentations. The isolated-o argument for the previous
+C companion does not apply: o lies below b in D. The actual A(H) incidences
+survive, and the previously excluded A(rax) occurrence is different.
+
+Write phi_i=q_H(ra)=q_H(rx)>0, d_i=q_H(rao)=q_H(rxo)>0 and
+h_ijlm=q_H(H)=M_il-g_ijm>0. Exact positive-factor diamonds give
+q_D(ra)=phi_i*K_j, q_D(rx)=phi_i*K_m, q_D(rao)=d_i*Y_jl and
+q_D(rxo)=d_i*Y_ml. K is a scoped ratio of the existing A(H) occurrence;
+no equality with old chi or new original-system column is assumed. The complete
+row is phi_i*(K_j+K_m)+d_i*(Y_jl+Y_ml)<=1. Both ideal occurrences remain
+at equal arm marks, and the full complement is one minus this complete load.
+All whole maps retain qD_Q/2 and D_Q/4 with all payloads and newborn bits.
+
+H,D,V have8,8,11 labeled natural histories, respectively. Pi_D=a_i*h_ijlm/60
+and Pi_V=11*a_i*d_i/480. For H_jl=sum_m h_ijlm, the once-only signed Y
+coefficient across the proved V/D carriers is -9*a_i*d_i*H_jl/80,
+equivalently -117*B_i*H_jl/1408. D adds16/11 of the V-only cost, giving
+27/11 in total. The matched single-occurrence ratio8/11 does not replace
+the two D occurrences; no extra newborn or automorphism factor is introduced.
+
+At a stipulated actual lower law and common feasible other-coordinate point,
+the listed complete V/D normalization family is exactly
+0<=Y_jl<=min(A_jl^V,(1/2-phi_i*K_j)/d_i), with A_jl^V the minimum
+residual/h over every corresponding whole V row. Keep K fixed, not assumed
+zero, and retain T, P, X, u, every complement, zero caps and ties. Diagonal D
+rows imply mixed D bounds but do not erase their histories or objective terms.
+This is a conditional family result: no actual feasible background, native
+sign, optimizer, original global-key binding, improving original-system witness
+or compatible strict restoration is supplied.
+
+Independent manual review agrees with the derivation. Fresh administrative
+checks separately authenticate current bytes, identities and recorded commands,
+including the author's retained failed trailing-newline check and its exact
+repair. These checks do not prove the mathematics or restore historical custody.
+The next native question completes the A/B_chi row, the remaining rxbo incidence,
+and the shared A/D constraints and cost, retaining any missing normalized-key
+binding rather than identifying distinct parents from their names.
+
+Measurement qualification remains blocked by actual issuer, runtime, host
+enforcement, authenticated replay and durability evidence. Qualification stays
+zero and the body unintegrated; selected conventional GWOSC reproduction awaits
+qualification and remains separate from a native forward map. Original caller,
+same freeze and normal-before-optimized conditions persist. The RET-only pause,
+protected-validation thresholds and all inherited proof and custody limits
+remain. The broader programme is incomplete.
+
 **Conditional completion of the C companion.**
 The complete proper row retains two distinct shared-coordinate contributions,
 including when their marks coincide. Seven locally raising births and two
