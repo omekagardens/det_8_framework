@@ -1,3 +1,60 @@
+**Reviewed Qro row: explicit remaining load and shared capacities.**
+
+For Qro with r<x<b, r<w and o<w, all eleven ideals, all terminal
+maxima and all pair diamonds are classified. Under the inherited original
+parent-five canonical support and proper-slot locality premises, six proper
+entries vanish. The four surviving proper pasts are rxb, rxbo, row and rxow.
+Their full row is
+u^K_ime*L_i + F^K_imle*W_il + v_iln*M_i + G_imln*N_im <= 1,
+with the dependent full complement retained. The former remainder is exactly
+R_Q = u^K_ime*L_i + v_iln*M_i + G_imln*N_im.
+Actual positive lower probabilities, selected marks, optional marks and whole
+marked histories remain; these ratios do not establish original global keys.
+
+At a stipulated actual lower law and common feasible background, holding
+L,M,N and the other loads fixed gives the exact displayed W interval
+0 <= W_il <= min{ min_Q (1-R_Q)/F^K_imle,
+                  min_P (1-k_i*z)/c_il }.
+The first minimum ranges over every compatible whole Qro row; the second
+over every compatible P row. Negative caps reject the proposed nonnegative
+slice; zero caps, ties and dependent complements remain.
+
+Joint variation of K,Z,W retains all A constraints
+ d_i*T + F^K_imle*z + h^H_ijlm*K_m <= 1,
+all D constraints
+ phi_i*(K_j+K_m) + d_i*(Y_jl+Y_ml) <= 1,
+and every P and Qro constraint above. The exact fiber at each admissible z
+uses both A/D K caps and P/Qro W caps. The fixed-background statement is
+conditional on the admitted terminal-preserving incidence model; companion
+parent types distinguish these families and do not establish off-block closure.
+
+The three additional companion orders have five, seven and five labeled
+natural histories. Counting whole marked parents once, with both newborn
+bits and full quantum maps, gives the signed family coefficients
+ beta_L = -3*bE_i*sum_(m,e,l)(c_il*u^K_ime)/80,
+ beta_M = -2*bE_i*sum_(l,n)(c_il*v_iln)/15,
+ beta_N_im = -7*bE_i*sum_(l,n)(c_il*G_imln)/120.
+The M and N totals are respectively 16/9 and 14/9 of their Qro-only costs.
+The earlier P/Qro W cost remains unchanged. The four-chain-plus-isolate
+companion has zero signed L cost but retains a live normalization constraint.
+Its complete row and the resulting L capacity are the next native question.
+
+Independent manual review and fresh source-integrity checks support this
+conditional result. Original normalized keys/scales, off-block aliases, an
+actual common feasible allocation, support, full RHS/objective and compatible
+strict restoration remain unproved. No optimizer, active-law sign, native
+forward map, geometry, gravity or physical qualification follows.
+
+Measurement qualification still requires actual issuer, runtime, host
+enforcement, authenticated replay and durability evidence. Qualification is
+zero and the body unintegrated. Selected conventional GWOSC reproduction
+awaits qualification and remains separate from a native forward map.
+Original caller, same freeze, normal-before-optimized, protected thresholds,
+historical custody gaps and the RET-only pause persist. The programme is
+incomplete.
+
+
+
 **Reviewed P companion: explicit remainder, shared cost and coupled capacities.**
 
 For P with r<x<b<t and o<t, all nine ideals and every maximal
