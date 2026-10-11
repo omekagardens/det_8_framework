@@ -1,3 +1,46 @@
+**Reviewed U row: three distinct loads and complete J1/J4 prices.**
+
+For U with r<x<t, o<t, r<w and o<w, the complete conditional proper load is
+ v_iln*J1_il + G_imln*J4_iml + Lambda_imls*J5_il <= 1.
+The full probability is one minus the entire load. Ten ideals, six proper
+raising zeros, three survivors and all 21 pair diamonds are accounted for,
+including six comparisons between the two old maxima. J1(row), J4(B4)
+and the additional J5(H4) remain distinct at equal marks.
+
+At a stipulated positive actual lower law and one common feasible background,
+J1's conditional bound intersects every compatible B_join and U residual;
+J4's intersects every B_top and U residual. Their shared U constraint retains
+the fixed Lambda*J5 load. These fibers are not independent simultaneous
+maxima. Negative caps reject a slice; zero endpoints, ties, all compatible
+marks and every dependent full complement remain.
+
+Under the terminal-preserving incidence premise, the scoped
+K/Z/W/L/M/N/J2/J1/J4 region retains eight complete rows:
+A,D,P,Qro,B_chain,B_join,B_top,U, with J3 and J5 fixed. Both W_il minima
+retain exactly i,l. Same-point displacement slacks do not establish an
+actual common feasible point, original-global closure or positive support.
+
+Eight labeled U histories and complete terminal presentations give
+ beta_J1_il = -bE_i*c_il/16 * sum_mn(gamma_iml*v_iln/p_im),
+ beta_J4_iml = -13*bE_i*c_il*gamma_iml/(240*p_im) * sum_n(G_imln).
+These are respectively 15/7 of join-only and 13/5 of top-only costs.
+Actual positive denominators, whole marked histories and both final
+newborn halves remain; there is no symmetry divisor or repeated charge.
+Accepted N14/9 and the J2 coefficient remain unchanged.
+
+Independent manual review and fresh administrative integrity checks support
+these conditional statements. Negative prices do not prove feasible descent.
+Complete J3/J5 prices, original keys/scales/off-block bindings, common support,
+the full RHS/objective/selector and compatible strict restoration remain open.
+
+The next assigned native question is the complete C_skew row carrying J5(ro).
+Its full-birth defect and selected-minus-full signs must be derived afresh.
+Measurement qualification remains zero: genuine issuer, runtime, host
+enforcement, authenticated replay and durability evidence are still missing.
+Selected conventional GWOSC reproduction awaits qualification and remains
+separate from a native forward map. RET alone is paused. The programme
+remains incomplete; no physical qualification follows.
+
 **Reviewed top companion: three surviving terms and coupled capacities.**
 
 The top companion B_top has nine ideals. Under the inherited canonical-support
