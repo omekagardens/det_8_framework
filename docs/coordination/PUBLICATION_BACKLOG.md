@@ -1,3 +1,14 @@
+## Independent W review and next original-variable binding
+
+The conditional W carrier formulas and joint capacity limits passed independent mathematical review. The original-variable identification W=mu remains unproved: the reviewed sources leave a missing selected-slot or normalization binding. The known summed relation does not identify its two terms separately. This is a precise source limitation, not a proof that the variables differ.
+
+The next native step tests L=kappa through the whole marked four-chain-plus-isolate carrier and its complete one-term actual row. Any successful identification will preserve the remaining coefficient, objective and global-feasibility obligations. The native geometry, gravity and measurement programme remains ongoing.
+
+Measurement work advances an eight-route evidence-admission design connecting the original caller to the real host registry, claim, physical start, completion and owner observation. Authentic host and runtime evidence remains missing. Cancellation-before-claim, claim-before-failure-before-start and unknown completion stay distinct; unknown delivery or append outcomes do not authorize retry.
+
+These are conditional mathematical and design results. They establish no physical qualification or native forward map. Selected public-data conventional reproduction remains downstream of qualification. Protected evidence, freeze/custody requirements, original equations and restoration requirements remain unchanged; RET remains paused.
+
+
 **N reconciled with the existing nu coordinate.**
 
 The complete original parent row, together with two independently bound
