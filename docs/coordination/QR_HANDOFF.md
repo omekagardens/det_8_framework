@@ -1,3 +1,52 @@
+**Reviewed four-chain companion: one proper survivor and a shared L bound.**
+
+The parent consisting of a four-chain and one isolate has ten ideals. Under
+the inherited original parent-five canonical-support and proper-slot locality
+premises, six proper births raise the arbitrary-deletion defect. Two additional
+locally neutral births vanish because their maximal-isolate deletion exposes
+a raising empty birth from a Ferrers hook or five-chain. This leaves only ro,
+with q_B_chain(ro)=c_il*L_i. Its complete row is c_il*L_i<=1, with the neutral
+full complement 1-c_il*L_i. All terminal maximal presentations, old/old
+comparisons, marks, labeled histories and both newborn outcomes remain.
+
+At a stipulated positive actual lower law and common feasible background,
+holding W,M,N fixed gives the exact displayed Qro/B_chain interval
+ 0<=L_i<=min{ min_B_chain 1/c_il,
+              min_Qro (1-F^K_imle*W_il-v_iln*M_i-G_imln*N_im)/u^K_ime }.
+Every compatible whole marked row participates. L is shared across both l
+values. Negative caps mean an empty slice; zero endpoints, ties, and all
+dependent complements remain. A positive cap does not establish support.
+
+The joint K/Z/W/L region retains every complete A, D, P, Qro and B_chain row.
+Conditional on fixed Z,L, its K coordinates obey both A/D caps and its W
+coordinates obey both P/Qro caps. Mixed D constraints follow from same-l
+diagonal slacks without deleting their rows or equal-mark multiplicities.
+This is a coupled region: the separate upper bounds cannot be maximized
+independently. Every displacement uses slacks at the same feasible point.
+
+The companion has five labeled natural histories and whole-parent mass
+bE_i*u^K_ime/96. Its selected ro and full births are both neutral, so its
+signed L cost is zero while its normalization remains binding. The complete
+once-only family price remains
+ beta_L=-3*bE_i*sum_(m,e,l)(c_il*u^K_ime)/80.
+The accepted K,Z,W,M,N costs and all earlier recovery constraints are retained.
+The next native question is the complete B_join row and its live M capacity.
+
+Independent manual review and fresh source-integrity checks support only
+these conditional statements. Original global keys/scales, off-block aliases,
+an actual common feasible allocation, support, complete RHS/objective and
+full-vector selector, and compatible coupled recovery/strict restoration
+remain unproved. No optimizer, native forward map, geometry, gravity or
+physical qualification follows.
+
+Measurement qualification still requires actual issuer, runtime, host
+enforcement, authenticated replay and durability evidence. Qualification is
+zero and the body unintegrated. Selected conventional GWOSC reproduction
+awaits qualification and remains separate from a native forward map.
+Original caller, same freeze, normal-before-optimized, protected thresholds,
+historical custody gaps and the RET-only pause persist. The programme is
+incomplete.
+
 **Reviewed Qro row: explicit remaining load and shared capacities.**
 
 For Qro with r<x<b, r<w and o<w, all eleven ideals, all terminal
