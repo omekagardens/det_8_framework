@@ -1,3 +1,44 @@
+**N reconciled with the existing nu coordinate.**
+
+The complete original parent row, together with two independently bound
+transition probabilities, identifies N with nu at the same actual
+positive lower law. Whole marked parent orders and all four lower
+coefficients agree. Positive division then establishes the identity.
+
+The two complete constraints remain
+ p*N + v*xi + gamma*zeta <= 1,
+ uK*L + FK*W + v*tau + G*N <= 1.
+Their full probabilities are one minus the complete respective loads.
+A combined remainder does not identify L or W individually.
+
+Both carrying selected births are neutral and both full births raise
+defect by one. Exact marked-history weights give the existing 14/9
+relative cost. N and nu name that same original objective charge;
+it is counted once, with both newborn halves retained.
+
+At a fixed positive law and one common feasible background, the
+conditional N bound intersects every compatible residual from both
+parents. All marks, shared coordinates, negative-cap rejection, zero
+caps and ties remain. Separate coordinate maxima do not prove a
+simultaneously feasible allocation.
+
+Independent manual review and fresh integrity checks support this
+conditional result. Original-global keys, scales and feasibility,
+the full objective and selector, and compatible strict restoration
+remain unproved. No native forward map or physical qualification follows.
+
+The next assigned native question is whether W is the original mu
+coordinate through its individual selected transition, actual full-K
+normalization and second carrier, with original cost counted once.
+
+Measurement qualification remains zero. Genuine issuer, runtime,
+host enforcement, authenticated replay and durability evidence are
+missing. The host must distinguish registration, claiming, physical
+start, completion and observation under one cancellation contract;
+uncertain delivery does not permit retry. Selected conventional GWOSC
+reproduction awaits qualification. RET alone remains paused.
+The programme remains incomplete.
+
 **J3 reconciled with the existing sigma coordinate.**
 
 Whole-order, marked-slot and actual-coefficient comparisons identify
