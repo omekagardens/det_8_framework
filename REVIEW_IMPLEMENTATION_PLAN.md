@@ -1,3 +1,51 @@
+**Reviewed A companion: complete proper row and conditional shared costs.**
+
+For A with r<x<b, r<a and isolated o, fourteen ideals are accounted for.
+Seven proper births raise the arbitrary-deletion defect; three additional
+neutral births vanish through positive actual lower-factor diamonds to
+Ferrers empty births. Under the inherited parent-five canonical support
+and proper-slot locality premises, the three remaining proper contributions
+are rao, rxbo and H=raxo. Their complete load is
+d_i*T+F^K_imle*Z_i+h^H_ijlm*K_m<=1, with its dependent full complement.
+
+The rxbo incidence uses the distinct parent P: r<x<b<t, o<t.
+Its exact diamond is k_i*q_A(rxbo)=F^K_imle*q_P(r), where
+F^K_imle is the actual full probability of the four-event chain-plus-isolate
+parent. All its marks are retained. Z_i=q_P(r)/k_i uses the inherited
+locality premise; it is a scoped ratio, with no original global-key
+identification asserted. P is distinct from the previously admitted U5.
+
+Across the proved A/D terminal family, K_t has signed coefficient
+-31*a_i*phi_i*H_t/240, where H_t=sum_(j,l) h^H_ijlt.
+The combined cost is 31/15 of A-only. Both D ideal occurrences remain
+at equal arm marks, and A/B_chi is charged once. Across A/P the Z coefficient
+is -a_i*phi_i*sum_(m,l,e) F^K_imle/16. P contributes zero signed Z cost
+because its selected and full births are neutral; its actual normalization
+constraint remains mandatory. No extra newborn or automorphism factor enters.
+
+At one stipulated actual lower law and common feasible background, with
+T,Y and the rxbo load fixed, the complete displayed A/D normalization family
+is exactly 0<=K_t<=min(A_t^A,c_t^D). Here A_t^A is the minimum complete
+A residual divided by h^H over every whole A row with long-arm mark t,
+and c_t^D=min_l (1/2-d_i*Y_tl)/phi_i. Mixed D slack is the average of
+its corresponding diagonal slacks. Whole histories, complements, zero caps
+and ties remain. The P-derived Z bound is only pointwise while its omitted
+proper occurrences have not been classified or bound during variation.
+
+Independent manual review and separate administrative source checks support
+this conditional result. No actual common feasible point, original-key lift,
+active-law sign, optimizer, compatible strict restoration or physical
+qualification is supplied. The next native question is the complete distinct
+P row and the actual remainder in its Z constraint.
+
+Measurement qualification still needs actual issuer, runtime, host enforcement,
+authenticated replay and durability evidence. Qualification remains zero and
+the body unintegrated. Selected conventional GWOSC reproduction awaits
+qualification and stays separate from a native forward map. Original caller,
+same freeze, normal-before-optimized and protected thresholds persist.
+Historical custody gaps and the RET-only pause remain. The programme is incomplete.
+
+
 **Reviewed D companion: complete row and shared Y cost, conditional on the inherited canonical support and locality premises.**
 
 For D with r<a<b,r<x<b,o<b, all ten proper ideals and the dependent full
