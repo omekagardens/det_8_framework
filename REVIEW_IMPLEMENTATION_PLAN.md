@@ -1,3 +1,59 @@
+**Reviewed P companion: explicit remainder, shared cost and coupled capacities.**
+
+For P with r<x<b<t and o<t, all nine ideals and every maximal
+presentation are classified. Under the inherited original parent-five
+canonical support and proper-slot locality premises, six proper entries
+vanish and only r and ro survive the support test. The complete row is
+k_i*Z_i+c_il*W_il<=1, with its dependent full complement. Thus the former
+remainder is exactly c_il*W_il; no unknown reserve is assumed zero or free.
+
+Here c_il is the actual positive lower probability of the selected ro
+antichain. The distinct counterpart Qro has r<x<b, r<w and o<w.
+The positive-factor diamond gives q_P(ro)=c_il*W_il and
+q_Qro(Klow)=F^K_imle*W_il. All selected and optional marks remain;
+W_il is a scoped ratio, with no original normalized-key identification.
+Whole parent roles distinguish r from o even when marks coincide.
+
+Qro has nine labeled natural histories and whole marked mass
+3*bE_i*c_il/160. P's selected and full births are neutral, so P contributes
+zero signed W cost. Qro's full birth raises and its selected birth is neutral,
+giving the once-only P/Qro family coefficient
+-3*bE_i*c_il*sum_(m,e) F^K_imle/80.
+Zero P cost does not remove its normalization constraint. Both newborn bits,
+full quantum maps and dependent complements remain. No extra symmetry factor
+or duplicate carrier is introduced.
+
+At a stipulated actual lower law and common feasible background, holding
+T,K,W fixed makes the displayed A/P Z interval exact:
+0<=z<=min{ min_P (1-c_il*W_il)/k_i,
+           min_A (1-d_i*T-h^H_ijlm*K_m)/F^K_imle }.
+Allowing K and Z to vary together instead gives the coupled region
+0<=z<=min_P (1-c_il*W_il)/k_i and, for v=0,1,
+0<=K_v<=min{ min_l (1/2-d_i*Y_vl)/phi_i,
+             min_(A:m=v) (1-d_i*T-F^K_ivle*z)/h^H_ijlv }.
+Every whole marked row, tied or zero cap, mixed D history and full complement
+remains. Negative caps reject the proposed nonnegative slice.
+
+Within the admitted terminal-preserving incidence model, Qro cannot carry
+K or Z: their exhaustive carrier lists are A/D and A/P, respectively,
+and these parent orders differ from Qro. Its actual other loads therefore
+stay fixed during that scoped K/Z variation. Varying W must retain Qro's
+actual remaining proper load; that complete row is the next native question.
+
+Independent manual review and separate source-integrity checks support this
+conditional result. Original global keys/scales, off-block aliases, an actual
+common feasible allocation, support, full RHS/objective and compatible strict
+restoration remain unproved. No optimizer, active-law sign, native forward map,
+geometry, gravity or physical qualification is claimed.
+
+Measurement qualification still needs actual issuer, runtime, host enforcement,
+authenticated replay and durability evidence. Qualification remains zero and
+the body unintegrated; selected conventional GWOSC reproduction awaits
+qualification and remains separate from a native forward map. Original caller,
+same freeze, normal-before-optimized, protected thresholds, historical custody
+gaps and the RET-only pause persist. The programme is incomplete.
+
+
 **Reviewed A companion: complete proper row and conditional shared costs.**
 
 For A with r<x<b, r<a and isolated o, fourteen ideals are accounted for.
