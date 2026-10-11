@@ -1,3 +1,47 @@
+**J3 reconciled with the existing sigma coordinate.**
+
+Whole-order, marked-slot and actual-coefficient comparisons identify
+B_join with P_tau, C_join with V5, and J3 with sigma.
+The lower coefficients are v_i/40 and the actual full probability s.
+Positive division proves equality without introducing a new variable.
+
+The complete C_join canonical row is
+ R_C(i,l) + (v_i/40)*sigma_i + (v_l/40)*sigma_l <= 1.
+R_C is the actual surviving ro contribution. It is neither assumed zero
+nor treated as spare capacity. Both singleton terms remain when i=l,
+and the full probability is one minus the complete load.
+
+Seven ideals and six pair diamonds account for every presentation.
+The full C_join birth is neutral. Its sigma contributions have zero
+signed cost while its row constraint remains binding. The existing
+sigma cost from B_join is counted once, with all marked histories and
+both newborn halves retained.
+
+At a stipulated positive lower law and common feasible background,
+the sigma bound intersects every compatible B_join residual with
+C_join residuals containing the target at either root. Equal-root
+multiplicity, all marks, negative-cap rejection, zeros, ties, shared
+coordinates and full complements remain. Separate coordinate maxima
+are not simultaneous feasible maxima.
+
+Independent manual review and fresh integrity checks support this
+conditional reconciliation. Actual original-global feasibility, all
+keys and scales, the full objective and selector, and compatible strict
+restoration remain unproved. No native forward map or physical
+qualification follows.
+
+The next assigned native question is the exact N/nu identity through
+B_top/P_nu and its other Qro occurrence, including actual normalization
+and once-only existing objective accounting.
+
+Measurement qualification remains zero. Genuine issuer, runtime, host
+enforcement, authenticated replay and durability evidence are missing.
+The host contract must distinguish claiming a run, physically starting it,
+completing it and observing completion; an uncertain delivery does not
+permit retry. Selected conventional GWOSC reproduction awaits qualification.
+RET alone remains paused. The programme remains incomplete.
+
+
 **C-skew and J5 reconciled with the existing U5 and omega coordinates.**
 
 The complete C-skew row is B_i*upsilon_i + rho_il*J5_il <= 1.
