@@ -1,3 +1,53 @@
+**Reviewed top companion: three surviving terms and coupled capacities.**
+
+The top companion B_top has nine ideals. Under the inherited canonical-support
+and proper-slot locality premises, five proper births raise the arbitrary-
+deletion defect and vanish. Three proper pasts survive: rx, row and rxo.
+Their complete normalization is
+ p_im*N_im + v_iln*J2_iln + gamma_iml*J4_iml <= 1.
+The full birth raises defect and retains one minus this entire load. J4 is
+an additional actual load. All eight pair diamonds, independent marks,
+marked stabilizers and both newborn outcomes remain in the argument.
+
+At a stipulated positive actual lower law and one common feasible background,
+N's exact displayed interval intersects every compatible Qro and B_top row;
+J2's interval intersects every compatible B_join and B_top row. Each bound
+divides the complete residual by the actual lower coefficient. Negative caps
+reject the proposed slice; zero endpoints, ties and dependent complements
+remain. N and J2 also share the constraint
+ p_im*N_im + v_iln*J2_iln <= 1 - gamma_iml*J4_iml.
+Their separate conditional bounds do not describe an independent rectangle.
+
+Joint K/Z/W/L/M/N/J2 variation retains complete A, D, P, Qro, B_chain,
+B_join and B_top rows under the terminal-preserving incidence premise.
+All displacement slacks use the same feasible point and change every affected
+full complement. Each W_il P minimum still targets exactly i,l. This model
+does not establish support, a feasible background or original-global closure.
+
+B_top has five labeled natural histories. N's complete once-only signed
+price remains 14/9 of its Qro-only price. The distinct J2 terminal has exactly
+the B_join and B_top maximal presentations. Their complete combined coefficient
+is
+ beta_J2_iln = -b*E_i*c_il*v_iln/20 * sum_m(G_imln/p_im).
+Both newborn halves are retained before summation, with no symmetry divisor.
+No complete J1, J3 or J4 price is claimed here. The next native question is
+the complete U row carrying distinct J1(row) and J4(B4) incidences.
+
+Independent manual review and fresh source-integrity checks support only
+these conditional statements. Original global keys/scales, off-block aliases,
+an actual common feasible allocation and support, complete RHS/objective and
+full-vector selector, and compatible coupled recovery/strict restoration
+remain unproved. No optimizer, native forward map, geometry, gravity or
+physical qualification follows.
+
+Measurement qualification still requires actual issuer, runtime, host
+enforcement, authenticated replay and durability evidence. Qualification is
+zero and the body unintegrated. Selected conventional GWOSC reproduction
+awaits qualification and remains separate from a native forward map.
+Original caller, same freeze, normal-before-optimized, protected thresholds,
+historical custody gaps and the RET-only pause persist. The programme is
+incomplete.
+
 **Reviewed join companion: four surviving terms and a shared M bound.**
 
 The join companion B_join has ten ideals. Under the inherited original
