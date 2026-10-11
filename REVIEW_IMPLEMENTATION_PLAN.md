@@ -1,3 +1,47 @@
+**C-skew and J5 reconciled with the existing U5 and omega coordinates.**
+
+The complete C-skew row is B_i*upsilon_i + rho_il*J5_il <= 1.
+Of its eight ideals, only the two proper singleton/pair slots r and ro
+survive the canonical support restriction. All seven pair diamonds are
+accounted for. Its full birth is defect-neutral, and its probability
+remains one minus the entire load.
+
+Exact whole-order, marked-slot and actual lower-law comparisons identify
+C-skew=U5, current U=old Q, J5=omega, J1=eta and J4=zeta.
+The singleton term is the existing upsilon. These are reconciliations of
+existing coordinates; identical names must vary together and their
+constraints and objective charges must be counted once.
+
+At one stipulated positive actual lower law and common feasible background,
+the J5/omega bound intersects the complete U residual divided by Lambda
+and the complete C-skew residual divided by rho. Every compatible mark,
+shared upsilon, tie, zero or negative cap and full complement remains.
+The nine named scoped rows retain all earlier loads and both exact W_il
+bounds. Individual coordinate maxima are not jointly independent.
+
+Three C-skew histories and eight U histories give selected-minus-full
+increments zero and minus one respectively. C-skew adds zero signed cost
+while retaining its capacity constraint. The complete scoped J5 price is
+the previously admitted omega price:
+ beta_J5_il = -h_il/120 * (F_i0l + F_i1l).
+It is not an additional objective gain. The earlier J1/J4/J2/N prices
+remain unchanged, and a negative coefficient proves no feasible descent.
+
+Independent manual review and fresh administrative integrity checks support
+this conditional reconciliation. Original-global keys/scales, off-block
+bindings, a common supported feasible point, the full RHS/objective/selector
+and compatible strict restoration remain unproved. No native forward map
+or physical qualification follows.
+
+The next assigned native question is a whole-order and normalization audit
+of J3/C-join against already admitted original carriers, before treating
+it as a missing independent family or adding another charge.
+Measurement qualification remains zero: genuine issuer, runtime, host
+enforcement, authenticated replay and durability evidence are still missing.
+Selected conventional GWOSC reproduction awaits qualification. RET alone
+remains paused, and the programme remains incomplete.
+
+
 **Reviewed U row: three distinct loads and complete J1/J4 prices.**
 
 For U with r<x<t, o<t, r<w and o<w, the complete conditional proper load is
