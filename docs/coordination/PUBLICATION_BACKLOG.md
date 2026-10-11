@@ -1,3 +1,51 @@
+**Reviewed join companion: four surviving terms and a shared M bound.**
+
+The join companion B_join has ten ideals. Under the inherited original
+parent-five canonical-support and proper-slot locality premises, five proper
+births raise the arbitrary-deletion defect and vanish. Four proper pasts
+survive: rx, rxo, rxow and rowt. Their complete normalization is
+ p_im*M_i + gamma_iml*J1_il + G_imln*J2_iln + Theta_ilns*J3_i <= 1.
+The full birth raises defect and retains one minus this entire load.
+The three additional terms are actual surviving loads. All maximal
+presentations, old/old comparisons, marks and both newborn outcomes remain.
+
+At a stipulated positive actual lower law and one common feasible background,
+hold L,W,N,J1,J2,J3 and the other scoped coordinates fixed. The exact displayed
+M interval is the intersection of every compatible Qro and B_join row:
+ 0 <= M_i <= min{ min_Qro (1-u^K*L_i-F^K*W_il-G*N_im)/v_iln,
+                  min_B_join (1-gamma*J1_il-G*J2_iln-Theta*J3_i)/p_im }.
+M is shared across all whole marked rows targeting i. Negative caps reject
+the proposed slice; zero endpoints, ties and dependent complements remain.
+A positive cap does not establish support or an available improving direction.
+
+Joint K/Z/W/L/M variation retains complete A, D, P, Qro, B_chain and B_join
+rows under the terminal-preserving incidence premise. The K/Z, Z/W and W/L/M
+couplings prevent independent maximization of the individual caps. Each W_il
+minimum uses only P and Qro rows targeting that coordinate. Displacements use
+slacks at the same feasible point and change every associated full complement.
+
+The join companion has seven labeled natural histories. Its matched M mass
+is 7/9 of the Qro contribution; the complete once-only M coefficient remains
+ beta_M_i = -2*bE_i*sum_(l,n)(c_il*v_iln)/15,
+which is 16/9 of the Qro-only signed coefficient. No complete price is claimed
+for J1,J2,J3. The next native question is the complete B_top row carrying both
+the known N term and the distinct J2 term.
+
+Independent manual review and fresh source-integrity checks support only
+these conditional statements. Original global keys/scales, off-block aliases,
+an actual common feasible allocation and support, complete RHS/objective and
+full-vector selector, and compatible coupled recovery/strict restoration
+remain unproved. No optimizer, native forward map, geometry, gravity or
+physical qualification follows.
+
+Measurement qualification still requires actual issuer, runtime, host
+enforcement, authenticated replay and durability evidence. Qualification is
+zero and the body unintegrated. Selected conventional GWOSC reproduction
+awaits qualification and remains separate from a native forward map.
+Original caller, same freeze, normal-before-optimized, protected thresholds,
+historical custody gaps and the RET-only pause persist. The programme is
+incomplete.
+
 **Reviewed four-chain companion: one proper survivor and a shared L bound.**
 
 The parent consisting of a four-chain and one isolate has ten ideals. Under
