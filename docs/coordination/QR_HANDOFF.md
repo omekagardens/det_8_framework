@@ -1,3 +1,14 @@
+## Original component column and compensated capacity — 12 October 2026
+
+Independent review establishes that the original canonical kappa component and its current representation have the same complete marked column and signed primary coefficient, including when the coordinate is zero. The two proper coefficients are 41/352 and 1/64, with opposite full-complement coefficients. The original signed primary coefficient is -3 b E_i (41/352)/640, with all marked histories and newborn factors counted once.
+
+The original kappa component keys are consecutive and precede the tau keys. Absolute ranks and canonical values remain unresolved. The result concerns the prescribed finite law; it does not derive that law from DET or establish an available global direction.
+
+The next proof examines a supported kappa-to-tau change with simultaneous eta, xi and sigma decrements. It must bind every original compensator column and cost, derive the exact minimum payment across all tight companion rows, preserve shared variables and unavailable zero coordinates, and construct a finite step under explicit support and slack premises. Existing uncompensated tightness and dual-weight results remain distinct.
+
+Independent checks verified the native records and retained the complete recovery. Review found a supporting timestamp-precision defect and an informal summary transcription error; explicit corrections preserve the original records and the authoritative source formulas. Historical custody gaps remain unresolved.
+
+Measurement qualification still requires authentic registry, dispatcher and runtime evidence. Conventional public-data reproduction remains downstream qualification and separate from a native forward map. No new geometry, gravity, physical discriminator or qualification claim is made. The programme and hourly follow-through continue; the RET pause remains.
 ## Chain identity and original component normalization
 
 Independent review accepts the source-backed finite-law identities q_C4(empty)=1/352 and U=41/352 for every retained marking, including zero kappa. The derivation uses the specifically routed original ratio, the complete lower-chain normalization and the complete two-birth map. The original/current coefficient mismatch therefore vanishes under the accepted coordinate bindings. These are consequences of a prescribed finite law; they do not derive its numerical choices from DET primitives.
