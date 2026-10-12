@@ -1,3 +1,15 @@
+## Original entry bindings and the chain coefficient
+
+Independent review accepts the original/current identities W=mu, Z=chi and t_K=F^K for the same prescribed finite lower law and canonical point, including zero coordinates. The proof matches whole marked parents and actual selected entries; only positive lower coefficients are divided. Complete normalization, both newborn bits, every marked occurrence, full payload maps and once-only costs remain.
+
+The resulting complete-row condition is (41/352-U)*kappa=0. The reviewed proof does not infer positive kappa or a global supported feasible law. Its displayed current-row capacity intersection retains both isolate sectors, common kappa/chi, zero and tied boundaries, and negative-residual rejection.
+
+Three newly admitted original analytic notes supply the next coefficient bridge: the actual chain empty-entry ratio is1/8, and the three-chain empty/full probabilities are1/44 and41/44. Thus the four-chain empty probability is1/352 and U=41/352 for that same prescribed finite law, independently of kappa. A separate proof step is active to make the full marked-row consequences explicit. This does not derive the selected finite scales from DET primitives or establish full-system feasibility, objective/selector equality, strict restoration, geometry or gravity.
+
+Actual verification records and their retained failed attempt were independently checked. Current source integrity does not repair historical custody gaps. Original full-system, recovery and protected-validation obligations remain.
+
+Measurement qualification remains zero pending authentic host registry/dispatcher and issuer, runtime, enforcement, authenticated replay and durability evidence. The selected conventional GWOSC reproduction follows qualification and remains separate from any native forward map. RET remains paused; the native programme and hourly follow-through remain active.
+
 **Original component definitions admitted for binding proof**
 
 Independent review accepts the finite source audit and its conditional proofs. Matching aggregate row coefficients alone does not identify an original component's selected occurrence or normalization. Once the same selected transition is established, division by its fixed positive reference potential proves coordinate equality, including zero. Equality of a product at a zero coordinate does not by itself identify the coefficient.
