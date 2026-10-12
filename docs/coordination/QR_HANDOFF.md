@@ -1,3 +1,40 @@
+**L reconciled with the original kappa coordinate.**
+
+The complete marked parent Y, a four-event chain with an isolated event,
+has one surviving canonical proper contribution. The original and current
+descriptions give that same actual probability as kappa/64 and L/64.
+Consequently L=kappa, including at zero, under the retained support,
+locality, covariance and complete-payload premises.
+
+The second carrier has actual selected probability uK*kappa. Its complete
+normalization retains the W, tau and nu contributions. Comparing the
+original and current complete rows leaves
+ FK*W - tK*mu = (a0-uK)*kappa.
+The actual coefficient uK still needs an original-source binding.
+Neither W=mu nor equality of the individual coefficients follows yet.
+
+At a common feasible background, the current kappa interval intersects
+the Y bound with every whole second-carrier residual. An original
+variation must additionally satisfy the displayed compatibility relation.
+The current objective charge is counted once. Original global feasibility,
+the full objective and selector, and strict restoration remain unresolved.
+
+Independent manual review and fresh source-integrity checks support this
+conditional result. The next native question is assigned: derive uK from
+the actual chain-law entries and their complete normalization, or identify
+the exact admitted-source gap.
+
+Measurement work specifies the authentic host evidence needed to connect
+an original caller to a cancellation-governed host claim and its lifetime.
+Registration, claim, physical start, completion and owner observation stay
+distinct. A claim that wins before failure may permit a later physical
+start; uncertain append or delivery never authorizes retry.
+Genuine host/runtime evidence is still missing, so qualification remains
+zero. The selected conventional GWOSC reproduction awaits qualification
+and remains separate from a native forward map. RET alone remains paused.
+The programme remains ongoing.
+
+
 ## Independent W review and next original-variable binding
 
 The conditional W carrier formulas and joint capacity limits passed independent mathematical review. The original-variable identification W=mu remains unproved: the reviewed sources leave a missing selected-slot or normalization binding. The known summed relation does not identify its two terms separately. This is a precise source limitation, not a proof that the variables differ.
