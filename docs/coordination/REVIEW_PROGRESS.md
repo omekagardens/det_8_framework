@@ -1,3 +1,13 @@
+## Chain identity and original component normalization
+
+Independent review accepts the source-backed finite-law identities q_C4(empty)=1/352 and U=41/352 for every retained marking, including zero kappa. The derivation uses the specifically routed original ratio, the complete lower-chain normalization and the complete two-birth map. The original/current coefficient mismatch therefore vanishes under the accepted coordinate bindings. These are consequences of a prescribed finite law; they do not derive its numerical choices from DET primitives.
+
+The exact displayed two-sector feasibility slice preserves every complete row, shared kappa and chi, separate mu coordinates, negative-background rejection, zeros and tied caps. Its attained local endpoint does not establish a globally supported canonical point. All full complements, payloads, newborn bits, histories and once-only costs remain.
+
+The original canonical-binding analytic note is now admitted for current manual review. It identifies the kappa component and structural relation keys while leaving absolute canonical-vector indices and values unresolved. The next native proof compares the complete original/current kappa column and primary objective coefficient. Selector claims remain limited to proved original ordering; a two-coordinate ordering does not settle a compensated full-vector direction.
+
+Independent mathematical and recorded-execution checks passed. Historical source and custody limitations remain explicit. Common supported feasibility, the full original objective and selector, and strict restoration remain unresolved. Measurement qualification still requires authentic host and runtime evidence before the selected conventional GWOSC reproduction. No native forward-map or physical validation is claimed. RET remains paused; the broader programme continues.
+
 ## Original entry bindings and the chain coefficient
 
 Independent review accepts the original/current identities W=mu, Z=chi and t_K=F^K for the same prescribed finite lower law and canonical point, including zero coordinates. The proof matches whole marked parents and actual selected entries; only positive lower coefficients are divided. Complete normalization, both newborn bits, every marked occurrence, full payload maps and once-only costs remain.
