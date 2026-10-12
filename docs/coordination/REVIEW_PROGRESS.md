@@ -1,3 +1,16 @@
+**Original component definitions admitted for binding proof**
+
+Independent review accepts the finite source audit and its conditional proofs. Matching aggregate row coefficients alone does not identify an original component's selected occurrence or normalization. Once the same selected transition is established, division by its fixed positive reference potential proves coordinate equality, including zero. Equality of a product at a zero coordinate does not by itself identify the coefficient.
+
+Two specifically identified historical analytic documents have now passed current integrity checks and been read in full. They explicitly give the original whole marked reference parent with selected entry mu/64, and define the original transported coefficient as the full probability of the lower parent K. These are newly admitted premises for the next native proof; the earlier finite source gap remains an accurate record of its reading scope.
+
+The next assignment reconciles the complete marked orders and original normalizations with the accepted current occurrences, tests W=mu and F=t including zero coordinates, and compares complete remainders. If both bindings follow, the existing residual also requires (a0-U)kappa=0; this does not establish positive kappa or an unconditional numeric lower coefficient. The singleton-coordinate binding remains separate.
+
+No globally supported feasible lift, full original objective or selector equality, strict restoration or physical result is claimed. Current file integrity does not restore missing historical custody. The narrow source admission opens no child references or protected certificates.
+
+The hourly follow-through schedule is active. Parallel measurement still awaits authentic fixed host registry/dispatcher and issuer, runtime, host-enforcement, authenticated replay and durability evidence. Qualification remains zero. Selected conventional public GWOSC reproduction follows qualification and remains separate from a native forward map. RET remains paused; DET work continues.
+
+
 **Conditional marked compatibility and current capacity**
 
 The complete seven-term lower normalization makes the transported full coefficient independent of the retained old chain-top record, under the stated positive-law, locality and accepted chain premises. This does not remove that record or establish independence from the root or interior mark.
