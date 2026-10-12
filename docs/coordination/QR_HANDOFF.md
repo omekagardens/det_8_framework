@@ -1,3 +1,18 @@
+**Conditional marked compatibility and current capacity**
+
+The complete seven-term lower normalization makes the transported full coefficient independent of the retained old chain-top record, under the stated positive-law, locality and accepted chain premises. This does not remove that record or establish independence from the root or interior mark.
+
+The remaining equations now have a complete conditional nonnegative solution classification, including arbitrary signs of the original coefficient, all ranks and zero-coordinate cases. Both isolate sectors share the same kappa. Excluding positive kappa can still leave a nonzero zero-kappa fiber; that case is retained. A separate positive-coefficient specialization is explicitly conditional.
+
+At one fixed common background, the admitted current parent rows give sharp capacity bounds for these conditional fibers, including negative residuals, zero or tied bounds, and remaining slack. This result covers the displayed current rows. It does not establish an original-coordinate identification, a globally supported feasible lift, full objective equality, a selector result or strict restoration.
+
+The next native question is to recover the original mu component's whole marked reference occurrence and normalization, then prove or delimit its binding to the current W transition. Matching row coefficients or names is insufficient. The original transported coefficient and complete remainder require their own source bindings.
+
+Independent root and peer review precede publication. Finite administrative verification is kept separate from the mathematical proof and from physical evidence. Missing historical custody and closed source references remain unresolved.
+
+The parallel measurement direction remains blocked on authentic fixed host registry/dispatcher and issuer, runtime, host-enforcement, authenticated replay and durability evidence. Qualification remains zero. The selected conventional public GWOSC reproduction follows qualification and remains separate from a native forward map. RET remains paused; the DET programme continues.
+
+
 **The chain diamond fixes the form of the remaining coefficient.**
 
 For the same actual positive lower law, the two birth orders on a
