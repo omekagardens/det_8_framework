@@ -1,3 +1,41 @@
+**The chain diamond fixes the form of the remaining coefficient.**
+
+For the same actual positive lower law, the two birth orders on a
+three-event chain give
+ uK = q_C3(C3) * q_C4(empty) / q_C3(empty).
+The full C3 probability is one minus all three proper contributions.
+Only the positive empty probability is divided, after retaining the
+common nonzero complete map and both newborn bits.
+
+Under the inherited locality premise, uK is independent of the old
+chain-top mark. Every marked row and history still counts. The reviewed
+sources do not supply the normalized chain entries needed to evaluate
+this ratio. Equality with 41/352 remains unproved, not refuted.
+
+The accepted L=kappa identity therefore leaves
+ FK*W - tK*mu = (a0-uK)*kappa
+in every whole row, including at zero. Product equality would not by
+itself prove equality of coefficients or coordinates. Current capacities
+and the charge counted once remain conditional; original global
+feasibility, the full objective/selector and strict restoration stay open.
+
+The next native proof is assigned: derive complete lower-K record
+dependence and the exact nonnegative compatibility conditions across
+marked rows, including zero and degenerate cases. It will retain one
+shared kappa across both isolate marks and use only admitted current-row
+capacities. No numerical coefficient or original feasible lift is assumed.
+
+Independent manual review and fresh source-integrity checks support this
+bounded result. Missing historical receipt and creation-tail evidence
+remains explicitly unresolved.
+
+Measurement qualification remains zero because authentic host, issuer,
+runtime, replay and durability evidence has not been supplied. Selected
+conventional GWOSC reproduction awaits qualification and stays separate
+from a native forward map. RET alone remains paused. The programme
+remains ongoing.
+
+
 **L reconciled with the original kappa coordinate.**
 
 The complete marked parent Y, a four-event chain with an isolated event,
