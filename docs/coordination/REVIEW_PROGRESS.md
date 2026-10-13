@@ -1,3 +1,15 @@
+### Conditional two-record boundary classification reviewed
+
+The original-system analysis now classifies strict improvements that move both shared records while preserving every local row load in the specified family. Its complete primary slope is proportional to the negative sum of the two record changes. Unequal coefficient sectors reduce to one shared scalar; equal coefficient sectors impose a compatibility condition and retain separate local fibers.
+
+Original zero coordinates and tight row caps give exact closed affine bounds. Their intersection decides availability within this family. Every decreasing coordinate and increasing row contributes to the exact finite-step bound, including a record that decreases. A mixed move can remain available when both individual record moves are blocked, under the stated common-ratio, positivity and slack premises.
+
+Independent manual proof review and command-record checks agreed: 78 saved source/configuration/output/exit records match 80 successful complete commands, including the two terminal source roles. These administrative checks remain separate from the mathematical argument. Existing corrections, historical failures, missing originals and custody limits remain recorded.
+
+The next proof question is the equal-primary face and its endpoint under the original lexicographic comparator. The relative order of the changing original coordinates must be established from the admitted comparator, including the shared records. No actual feasible background, global optimum, compatible strict restoration, native physical law or measurement qualification is supplied.
+
+Measurement qualification remains blocked by the required authentic execution and provenance infrastructure. Conventional reproduction using the selected public gravitational-wave data remains downstream of qualification and separate from a native forward map.
+
 ## Shared-coordinate descent and original boundary constraints
 
 Independent manual review accepts a conditional strict descent theorem for each shared nu coordinate across all affected sectors. The complete original carrier and history audit yields objective slope -9 times the sum of positive sector factors. Every inner row is preserved, while the targeted outer rows and applicable caps supply an exact finite feasibility bound. Zero coordinates and zero slack are retained as genuine obstructions.
