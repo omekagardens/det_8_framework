@@ -1,3 +1,12 @@
+## Conditional native mark balance and support restrictions
+
+Independent manual review accepts a conditional finite-law result: two legal last-tip presentations give equal optional-mark masses within each fixed root and sector. They do not fix numerical masses or equate different sectors. An exact finite exchange shows that two positive xi compensators require some carrying Q row to be tight at an original primary optimum. With positive kappa, positive companion remainder and zero sigma, another exchange forces a double-tight sector. Its equal xi coordinates are either positive, forcing Q tightness, or zero with positive eta; the latter gives no Q-tight conclusion. Saturation and other support cases remain separate.
+
+Fresh independent verification confirms current finite inputs and inherited boundaries. A provider redaction leaves several historical command-source displays unauthenticated; intact configurations, outputs and exits were checked separately. That provenance gap remains open. Manual mathematics, current finite verification and historical custody are distinct.
+
+The next proof question concerns positive sigma: transfer sigma into xi, including initially zero xi, check the complete finite-step bound and derive or refute an external-support necessity. A separate original-primary-dual identity is conditional on its own optimality and complementarity premises. Actual native support, global realization and compatible strict restoration remain unestablished.
+
+Measurement qualification remains zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction using the selected public gravitational-wave data remains downstream of qualification and separate from a native forward map. No empirical gravity or full-physics claim follows. The broader programme continues; the RET pause remains.
 ## Exact history prices and radial support condition
 
 Complete marked histories give exact external price ratios of 8/7 and 5/7. These follow from the same marked prefix and complete birth comparisons, with each tip bit counted once; they do not assume uniform weights across marked histories.
