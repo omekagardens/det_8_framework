@@ -1,3 +1,15 @@
+## Conditional native eta-transfer and external support
+
+Independent manual review accepts a conditional finite-law result: an exact finite exchange from positive eta into both xi and both zeta preserves companion and Q loads while increasing carrying P_nu loads. Exhaustive original incidence and the complete objective give a strictly negative primary slope whenever all those P_nu rows are slack. Initially zero receiving coordinates are allowed. Positive eta at an original primary optimum therefore requires a carrying P_nu row to be tight.
+
+Together with the previously reviewed positive-sigma and double-tight-sector results, this closes the eta-only branch and forces Q or P_nu tight under the stated positive kappa and D hypotheses at the same original optimum. A separate original-primary-dual identity gives positive P_nu pressure when eta is positive, retaining all zero-coordinate residuals. Neither argument constructs a full dual, actual support or a global realization.
+
+Fresh independent checks verify present inputs and intact configuration/output/exit joins. All current native command-source displays are redacted, so current full-source authentication remains unresolved. The preceding complete command-source record and older historical gaps remain distinct; no source was reconstructed and no historical custody was repaired. Manual mathematics and finite checks remain separate.
+
+The next proof question examines whether, at an original primary optimum, positive eta, both xi and both zeta force an original companion/P_nu/Q saturation triangle, with exact coordinate reconstruction from actual row capacities. Individual objective weights, finite perturbations and zero-coordinate boundaries must be checked. This remains a candidate.
+
+Measurement qualification stays zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction using the selected public gravitational-wave data follows qualification and remains separate from a native forward map. No empirical gravity or full-physics claim follows. The broader programme continues, with RET still paused.
+
 ## Conditional native positive-sigma support restriction
 
 Independent manual review accepts a conditional finite-law result: an exact finite exchange from positive sigma into xi preserves companion loads, relaxes V5 and has a strictly negative primary-objective slope whenever all carrying P_nu rows are slack. Initially zero xi coordinates are allowed. Positive sigma at an original primary optimum therefore requires a carrying P_nu row to be tight. Selective transfer gives a weak weighted restriction on free pairs; equality stays primary-flat.
