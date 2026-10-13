@@ -1,3 +1,16 @@
+## Conditional native saturation triangle
+
+Independent manual review accepts a conditional finite-law result: if eta, both xi and both zeta are positive at the same original primary optimum, a complete companion/P_nu/Q triangle must be tight. The original histories give individual normalized objective weights proportional to 30,12,12,13,13. A finite signed perturbation rules out a bipartite tight component; the shared P_nu capacity then turns any remaining five-cycle into an actual tight triangle.
+
+The three equalities reconstruct the selected coordinates from their actual original row capacities and imply strict triangle inequalities. This is a necessary condition under the stated complete-row and common-background premises. It establishes neither actual positive support nor global existence or sufficient optimality. Zero-coordinate alternatives and compatible strict restoration remain separate.
+
+Current source, configuration, output and exit records have been independently joined, and a separate fresh administrative check verifies present input identities and retained metadata. Older command-source and custody gaps remain unresolved. These finite checks are separate from manual mathematics.
+
+The next native proof question tests whether two further finite exchanges force both companion and both Q families tight, then uses an exact objective certificate to reconstruct the unique five-coordinate optimum with all other original coordinates fixed, when the proposed reconstruction is feasible. Boundary and equality cases must remain explicit. This remains a candidate for proof or refutation, not an accepted result or a claim of global uniqueness.
+
+Measurement qualification remains zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction using the selected public gravitational-wave data follows qualification and remains separate from a native forward map. No empirical gravity or full-physics claim follows. The broader programme and scheduled follow-through continue; RET remains paused.
+
+
 ## Conditional native eta-transfer and external support
 
 Independent manual review accepts a conditional finite-law result: an exact finite exchange from positive eta into both xi and both zeta preserves companion and Q loads while increasing carrying P_nu loads. Exhaustive original incidence and the complete objective give a strictly negative primary slope whenever all those P_nu rows are slack. Initially zero receiving coordinates are allowed. Positive eta at an original primary optimum therefore requires a carrying P_nu row to be tight.
