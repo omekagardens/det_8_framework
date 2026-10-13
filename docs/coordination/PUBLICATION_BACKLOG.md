@@ -1,3 +1,16 @@
+## Complete conditional native five-coordinate optimizer
+
+Independent manual review accepts the unique optimizer of five original component coordinates with every other coordinate and one feasible background fixed. An exact maximum-coordinate reduction and clipped-median formula now cover the previously unresolved boundary regime as well as the earlier saturated regime. Positive deficit coefficients and exhaustive piecewise-affine slopes establish uniqueness, including zero capacities, coincident thresholds and all ties.
+
+This is a conditional replacement inside the original finite problem. It does not construct the global feasible background, determine actual support, jointly optimize other coordinates, resolve the full-vector selector or provide compatible strict restoration.
+
+Current source, configuration, output and exit records were independently joined, and a fresh administrative review checked present identities and retained metadata. Manual mathematics is distinct from those checks. Older source and custody gaps remain unresolved.
+
+The next proof question enlarges the solved block by the coupled original omega coordinate. It must audit all affected rows and the entire original objective, then test a proposed interior balance and retain every actual cap, boundary and equality case. This is a candidate for proof or refutation.
+
+Measurement qualification remains zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction using the selected public gravitational-wave data follows qualification and remains separate from a native forward map. No empirical gravity or full-physics claim follows. The programme and scheduled follow-through continue; RET remains paused.
+
+
 ## Conditional native five-coordinate reconstruction
 
 Independent manual review accepts an exact optimizer of five original component coordinates with every other coordinate and the feasible background fixed. The original row families and history weights give normalized rewards proportional to 30,12,12,13,13. Two finite improving exchanges establish additional saturation conditions, and an exact nonnegative deficit certificate identifies a unique equality block whenever its cap condition holds.
