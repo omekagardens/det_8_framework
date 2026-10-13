@@ -1,3 +1,18 @@
+## Exact history prices and radial support condition
+
+Complete marked histories give exact external price ratios of 8/7 and 5/7. These follow from the same marked prefix and complete birth comparisons, with each tip bit counted once; they do not assume uniform weights across marked histories.
+
+At a common feasible background with positive residual capacity, every tight companion row has an available compensator. A radial exchange has an exact finite step bound and a primary slope proportional to external burden minus weighted companion slack. Original primary-then-lex minimality therefore requires external burden to exceed that slack strictly when kappa is positive. The saturated zero-capacity case is separate.
+
+An explicit auxiliary row-and-price example satisfies the strict radial inequality while its best compensation only ties the benefit. The condition is necessary, not sufficient. The example supplies no full native-law realization.
+
+Independent mathematical and provenance review accepted this conditional result. Actual canonical values, globally compatible support and strict restoration remain unresolved; no native forward map, geometry or gravity is derived.
+
+The next proof question tests optional newborn-mark balance and a different exchange that increases eta while decreasing two xi coordinates. It asks whether these force additional tight rows and a precise conditional support alternative. These candidate consequences await independent adjudication.
+
+Measurement qualification remains zero pending authenticated registry, runtime, host-enforcement, replay and durability evidence. Selected conventional public-data reproduction remains downstream of qualification and separate from a native forward map. RET remains paused; native proof work and hourly follow-through continue.
+
+
 ## Sharp compensation dual and conditional support consequences
 
 The compensation problem now has an exact attained demand dual whenever every tight row has an available covering decrement. An uncovered row gives infeasible payment and an explicit unbounded dual ray. The proof retains zero rates, unavailable coordinates, whole marked histories, duplicate rows and ties.
