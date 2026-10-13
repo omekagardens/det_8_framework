@@ -1,3 +1,15 @@
+## Sharp compensation dual and conditional support consequences
+
+The compensation problem now has an exact attained demand dual whenever every tight row has an available covering decrement. An uncovered row gives infeasible payment and an explicit unbounded dual ray. The proof retains zero rates, unavailable coordinates, whole marked histories, duplicate rows and ties.
+
+When every companion row is tight, actual history weights show that compensation cannot cost less than the benefit. Equality requires available shared sigma and identical coefficients across all four retained row types; its eta and xi payment rates vanish. These zero rates do not imply zero original coordinates. Other feasible all-tight cases have strictly greater cost, with explicit dual witnesses. Proper tight subsets have a weaker bound that does not by itself decide improvement.
+
+Independent mathematical review and separate provenance checks accepted this conditional finite-law result. Its canonical exclusion still requires the original common feasible background, supported direction, full objective and selector bindings. Actual support and compatible strict restoration remain unresolved. No native growth law, complete QM, geometry, gravity or forward map is derived.
+
+The next assigned proof step uses original row values to constrain availability: derive exact external history prices and assess a finite radial exchange relating compensator burden to weighted row slack. These proposed identities and support consequences await independent adjudication.
+
+Measurement qualification remains zero pending authenticated registry, runtime, host-enforcement, replay and durability evidence. Selected conventional public-data reproduction remains downstream of qualification and separate from a native forward map. RET remains paused; native proof work and hourly follow-through continue.
+
 ## Supported compensation and exact metadata transport
 
 The prescribed finite law now has a conditional sharp theorem for a supported kappa-to-tau exchange. Complete original component columns and actual history-weighted costs reduce compensation to local demand breakpoints and at most five shared-sigma candidates. The construction includes unavailable variables, empty tight sets, coincident thresholds and all ties. Every increasing marked row and decreasing coordinate contributes to a strictly positive finite-step bound.
