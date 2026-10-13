@@ -1,3 +1,16 @@
+## Conditional primary face and original tie-breaking rule
+
+Independent manual review accepts the entire equal-coefficient primary-optimal face of six original component coordinates at one existing feasible background, with all other coordinates fixed. An explicit interval formula distinguishes a unique optimum from an affine segment, including zero, tie and boundary cases and truncation by all actual caps.
+
+The original canonical comparator also determines the endpoint: the earliest changing original coordinate increases along the interval, so sequential lexicographic minimization selects maximum primary-optimal omega. This uses the original ordering and full objective. It constructs no global feasible background, strict restoration or full selected law.
+
+Current source, configuration, output and exit records were independently joined across successful commands. The final checker is separately authenticated from its earlier successful version. A corrected reviewer assumption remains recorded. Administrative checks are separate from mathematical proof, and historical source and custody gaps remain unresolved.
+
+The next assigned proof question is a complete unequal-coefficient classification. Three candidate coefficient ratios may support nonunique intervals, with different original tie-breaking endpoints. Their exact feasible intervals, boundary cases and finite affine walls must be proved or refuted. The candidate is not yet an accepted theorem, and no actual background realizes it by assumption.
+
+Measurement qualification remains zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction using the selected public gravitational-wave data follows qualification and remains separate from a native forward map. No empirical gravity or full-physics claim follows. Scheduled follow-through continues; RET remains paused.
+
+
 ## Conditional coupled native omega reduction
 
 Independent manual review accepts the exact reduction of six original component coordinates to a one-variable concave objective, with every other coordinate and one feasible background fixed. A finite feasible exchange gives a necessary support condition. When an unequal-coefficient balance lies strictly inside the required regime and all true caps, it gives a unique optimum of this conditional slice.
