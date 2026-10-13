@@ -1,3 +1,16 @@
+## Unequal-coefficient primary face and original selection rule
+
+Independent manual review accepts the complete primary-optimal face of six original component coordinates with unequal positive coefficients, conditional on one existing feasible background and all other coordinates fixed. Nonuniqueness occurs exactly at coefficient ratios 7/5, 8/5 or 5/3 when the corresponding explicitly derived interval has positive length. Otherwise the optimum is unique. All actual caps, zero and tie cases remain; a singleton candidate interval alone does not locate the optimum.
+
+The original component ordering selects minimum primary-optimal omega at the first two ratios and maximum omega at 5/3. Thirteen affine branches, a finite wall formula and original-vector concavity establish the full bound and equality cases. No actual exceptional ratio, global feasible background, compatible strict restoration or full selected law is constructed.
+
+Independent source, configuration, output and exit checks authenticate all current saved records and the final checker. Current checks succeeded; older masked sources, failed records and custody gaps remain distinct. Administrative preservation is separate from mathematical proof.
+
+The next assigned question is an original coupled exchange for each shared nu coordinate across every affected sector. Its finite feasibility bound and total objective slope must be audited against all original carriers. A proposed conclusion that each nu record has a tight outer constraint remains conditional on proving the required negative objective slope. This is a proof-or-refutation obligation, not an accepted extension.
+
+Measurement qualification remains zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction with the selected public gravitational-wave data follows qualification separately from a native forward map. No empirical gravity or full-physics claim follows. Scheduled follow-through continues; RET remains paused.
+
+
 ## Conditional primary face and original tie-breaking rule
 
 Independent manual review accepts the entire equal-coefficient primary-optimal face of six original component coordinates at one existing feasible background, with all other coordinates fixed. An explicit interval formula distinguishes a unique optimum from an affine segment, including zero, tie and boundary cases and truncation by all actual caps.
