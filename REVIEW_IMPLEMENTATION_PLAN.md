@@ -1,3 +1,16 @@
+## Conditional native five-coordinate reconstruction
+
+Independent manual review accepts an exact optimizer of five original component coordinates with every other coordinate and the feasible background fixed. The original row families and history weights give normalized rewards proportional to 30,12,12,13,13. Two finite improving exchanges establish additional saturation conditions, and an exact nonnegative deficit certificate identifies a unique equality block whenever its cap condition holds.
+
+The result includes zero coordinates, all ties and the boundary of the cap condition. If that condition fails, the proposed equality block is infeasible and at least one peripheral coordinate must vanish at an optimum. This does not imply that the original background is infeasible. Global existence, actual support, optimization of other coupled coordinates and compatible strict restoration remain separate.
+
+Current source, configuration, output and exit records were independently joined, and a fresh administrative review checked present identities and retained metadata. Manual mathematics remains distinct from those checks. Older source and custody gaps remain unresolved.
+
+The next proof question seeks the complete optimizer in the remaining cap-limited regime. It tests an exact maximum-coordinate reduction, a clipped-median formula and uniqueness through all zero and tie cases. This is a candidate for proof or refutation, with the original feasible background and full objective retained.
+
+Measurement qualification remains zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction using the selected public gravitational-wave data follows qualification and remains separate from a native forward map. No empirical gravity or full-physics claim follows. The programme and scheduled follow-through continue; RET remains paused.
+
+
 ## Conditional native saturation triangle
 
 Independent manual review accepts a conditional finite-law result: if eta, both xi and both zeta are positive at the same original primary optimum, a complete companion/P_nu/Q triangle must be tight. The original histories give individual normalized objective weights proportional to 30,12,12,13,13. A finite signed perturbation rules out a bipartite tight component; the shared P_nu capacity then turns any remaining five-cycle into an actual tight triangle.
