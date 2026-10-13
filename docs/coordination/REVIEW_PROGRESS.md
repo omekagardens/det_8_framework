@@ -1,3 +1,16 @@
+## Conditional coupled native omega reduction
+
+Independent manual review accepts the exact reduction of six original component coordinates to a one-variable concave objective, with every other coordinate and one feasible background fixed. A finite feasible exchange gives a necessary support condition. When an unequal-coefficient balance lies strictly inside the required regime and all true caps, it gives a unique optimum of this conditional slice.
+
+The review retains every whole-row constraint and the full original objective, including increases from zero. Boundary cases remain governed by the complete formula. The equal-coefficient primary face and original full-vector lex choice are separate obligations. No actual interior regime, global feasible background, compatible strict restoration or full selected law is established.
+
+Current source, configuration, output and exit records were independently joined, retaining one corrected administrative checker failure. The corrected final source is authenticated. Manual mathematics is separate from administrative checks, and older source and custody gaps remain unresolved.
+
+The next proof question asks for the entire equal-coefficient primary face, including all boundary branches, zero and tie cases, and truncation by the actual caps. A proposed closed form must be proved or refuted in the original fixed-rest problem. The original lex endpoint cannot be inferred from component names.
+
+Measurement qualification remains zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction using the selected public gravitational-wave data follows qualification and remains separate from a native forward map. No empirical gravity or full-physics claim follows. The programme and scheduled follow-through continue; RET remains paused.
+
+
 ## Complete conditional native five-coordinate optimizer
 
 Independent manual review accepts the unique optimizer of five original component coordinates with every other coordinate and one feasible background fixed. An exact maximum-coordinate reduction and clipped-median formula now cover the previously unresolved boundary regime as well as the earlier saturated regime. Positive deficit coefficients and exhaustive piecewise-affine slopes establish uniqueness, including zero capacities, coincident thresholds and all ties.
