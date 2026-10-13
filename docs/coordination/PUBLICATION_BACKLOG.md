@@ -1,3 +1,15 @@
+## Shared-coordinate descent and original boundary constraints
+
+Independent manual review accepts a conditional strict descent theorem for each shared nu coordinate across all affected sectors. The complete original carrier and history audit yields objective slope -9 times the sum of positive sector factors. Every inner row is preserved, while the targeted outer rows and applicable caps supply an exact finite feasibility bound. Zero coordinates and zero slack are retained as genuine obstructions.
+
+At an original primary optimum satisfying the stated support, unequal-coefficient and cap-slack premises, each targeted nu record must have a tight outer carrier. When all local coordinates are positive and caps are slack, both records must have such a carrier, possibly in different sectors. A further all-interior necessary relation forces the sector coefficient differences to share a sign. These are conditional restrictions; no actual feasible background, support pattern or compatible strict restoration is constructed.
+
+Independent source, configuration, output and exit checks authenticate all current saved commands and the final checker. Current commands succeeded; historical masked sources, failed records and custody gaps remain distinct. Administrative preservation is separate from mathematical proof.
+
+The next assigned question classifies the full two-record row-preserving descent family at zero-coordinate and tight-row boundaries, including equal-coefficient sectors and negative nu rates. Its proposed interval conditions, exact finite step and mixed-direction support consequence require independent proof or refutation. A failure of this family alone would not certify global optimality.
+
+Measurement qualification remains zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction using the selected public gravitational-wave data follows qualification separately from a native forward map. No empirical gravity or full-physics claim follows. Scheduled follow-through continues; RET remains paused.
+
 ## Unequal-coefficient primary face and original selection rule
 
 Independent manual review accepts the complete primary-optimal face of six original component coordinates with unequal positive coefficients, conditional on one existing feasible background and all other coordinates fixed. Nonuniqueness occurs exactly at coefficient ratios 7/5, 8/5 or 5/3 when the corresponding explicitly derived interval has positive length. Otherwise the optimum is unique. All actual caps, zero and tie cases remain; a singleton candidate interval alone does not locate the optimum.
