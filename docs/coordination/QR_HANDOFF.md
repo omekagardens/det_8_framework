@@ -1,3 +1,13 @@
+## Supported compensation and exact metadata transport
+
+The prescribed finite law now has a conditional sharp theorem for a supported kappa-to-tau exchange. Complete original component columns and actual history-weighted costs reduce compensation to local demand breakpoints and at most five shared-sigma candidates. The construction includes unavailable variables, empty tight sets, coincident thresholds and all ties. Every increasing marked row and decreasing coordinate contributes to a strictly positive finite-step bound.
+
+Payment below the actual history-weighted benefit gives primary descent. At equality, only tau increases and kappa decreases earlier, so the original full-vector tie-breaker also gives descent. This does not evaluate canonical coordinates, establish positive support or a common global feasible background, or prove compatible strict restoration. The next native question is a sharp demand-dual and equality obstruction, including the fully tight companion case.
+
+Independent review matched saved administrative checks to actual executions while retaining a corrected failed check and the earlier draft history. A separate pure metadata helper now transports seven-field identities as canonical decimal strings, rejects unsafe numeric admission and malformed representations, and preserves the distinction between content, current identity and historical custody. It cannot recover previously rounded values or authenticate their origin.
+
+Measurement qualification remains blocked by authentic host registry/dispatcher, issuer, runtime, enforcement, authenticated replay and durability evidence. Qualification remains zero. Conventional reproduction using the selected public gravitational-wave data remains downstream of qualification and separate from a native forward map. RET remains paused. No derivation of QM, geometry, gravity or empirical discriminator is claimed.
+
 ## Original component column and compensated capacity — 12 October 2026
 
 Independent review establishes that the original canonical kappa component and its current representation have the same complete marked column and signed primary coefficient, including when the coordinate is zero. The two proper coefficients are 41/352 and 1/64, with opposite full-complement coefficients. The original signed primary coefficient is -3 b E_i (41/352)/640, with all marked histories and newborn factors counted once.
