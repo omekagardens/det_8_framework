@@ -1,3 +1,15 @@
+## Conditional native positive-sigma support restriction
+
+Independent manual review accepts a conditional finite-law result: an exact finite exchange from positive sigma into xi preserves companion loads, relaxes V5 and has a strictly negative primary-objective slope whenever all carrying P_nu rows are slack. Initially zero xi coordinates are allowed. Positive sigma at an original primary optimum therefore requires a carrying P_nu row to be tight. Selective transfer gives a weak weighted restriction on free pairs; equality stays primary-flat.
+
+A separate identity under an optimal nonnegative original full-primary row dual and complementarity forces positive carrying P_nu dual pressure. Both V5 singleton occurrences and nonnegative residuals for zero xi coordinates remain. This constructs no dual and does not establish actual native support, a global realization or compatible strict restoration.
+
+Fresh independent verification authenticates the complete current saved command-source/configuration/output/exit joins. Historical provider redactions and unresolved source-authentication gaps remain explicit; current verification does not repair historical custody. Manual mathematics and finite checks stay distinct.
+
+The next proof question tests an eta-to-xi-and-zeta exchange to address the remaining eta-only support branch. Its exhaustive original carriers and full objective must be derived, since the older coordinate-scoped formula does not include zeta. The proposed combined external-support restriction remains a candidate.
+
+Measurement qualification remains zero pending authenticated registry, runtime, enforcement, replay and durability evidence. Conventional reproduction using the selected public gravitational-wave data remains downstream of qualification and separate from a native forward map. No empirical gravity or full-physics claim follows. The broader programme continues; the RET pause remains.
+
 ## Conditional native mark balance and support restrictions
 
 Independent manual review accepts a conditional finite-law result: two legal last-tip presentations give equal optional-mark masses within each fixed root and sector. They do not fix numerical masses or equate different sectors. An exact finite exchange shows that two positive xi compensators require some carrying Q row to be tight at an original primary optimum. With positive kappa, positive companion remainder and zero sigma, another exchange forces a double-tight sector. Its equal xi coordinates are either positive, forcing Q tightness, or zero with positive eta; the latter gives no Q-tight conclusion. Saturation and other support cases remain separate.
