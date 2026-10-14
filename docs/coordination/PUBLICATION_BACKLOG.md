@@ -1,3 +1,15 @@
+### Equal-primary endpoint and conditional host kernel reviewed
+
+The original-system analysis now classifies the complete equal-primary two-record family that preserves the specified row loads. Unequal coefficient sectors share one finite closed interval. The original component comparator places eta before the shared records and determines which interval endpoint is lexicographically minimal. If a sector has equal coefficients, the shared records are fixed and the remaining independent local intervals each select their upper endpoint. All original coordinate and whole-row bounds, including zeros and ties, remain.
+
+Independent mathematical review agrees with the conditional argument. Ninety-four saved source, configuration, output and exit records match ninety-six successful current commands, including both terminal source roles. Administrative preservation remains separate from proof. The implication for a global selector additionally requires global primary optimality; no actual background, global optimum or compatible strict restoration is constructed.
+
+A source-level host kernel now joins failure, dispatch ownership and retirement in one atomic state. Independent review accepts its argument only under the stated adapter, interpreter and lifetime assumptions. It has not been compiled or executed; the authoritative owner bridge and all eight genuine adapters remain missing. The review also qualifies exception naming and retention after retirement has already begun. This is implementation progress with no measurement qualification credit.
+
+The next native question releases the shared coordinate held fixed by this analysis, after auditing its complete original carriers and objective. The next measurement step is the authoritative bridge and a genuine operation attachment. Qualification still requires original provenance, runtime enforcement, authenticated replay and same-transaction durability. Conventional reproduction using the selected public gravitational-wave data follows qualification and remains separate from a native forward map.
+
+The research programme remains ongoing. The current human authorization permits work until ten percent of applicable usage remains. The existing recurring schedule is paused; older schedule statements below are historical. RET remains paused. No empirical gravity or full-physics claim follows.
+
 ### Conditional two-record boundary classification reviewed
 
 The original-system analysis now classifies strict improvements that move both shared records while preserving every local row load in the specified family. Its complete primary slope is proportional to the negative sum of the two record changes. Unequal coefficient sectors reduce to one shared scalar; equal coefficient sectors impose a compatibility condition and retain separate local fibers.
