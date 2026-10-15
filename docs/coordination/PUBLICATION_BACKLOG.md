@@ -1,3 +1,37 @@
+## Fixed-construction normalized exclusion and measurement transaction review
+
+15 October 2026. Independent review accepts structural existence and uniqueness
+of the original finite primary/lexicographic selector: positivity bounds every
+nonnegative component, the closed feasible set contains zero, and successive
+coordinate minima select one vector. Both completed root sections pass through
+that same vector and force both kappa coordinates to zero. Under the retained
+sign and compatibility theorems, C_b is strictly negative and the complete
+thirteen-equation normalized system with ten unknowns and u2=-1 has no solution
+for this fixed strictly restored construction. All equations, recovery formulas,
+whole marked rows and payloads remain. This is a fixed-system mathematical
+exclusion, with the inherited theorem dependencies explicit; it is not a physical
+no-go, an all-size theorem or exclusion of other perturbation families.
+
+The measurement derivative now contains a private existing-reference tuple
+packer with conditional ownership semantics. It has no original-object capture
+or caller. Review identifies a concrete integration obstruction: every failure
+call must preserve first-reason selection while performing the original phase,
+Stage and Pending side effects, retaining payload lifetime through cleanup and
+preserving exception/finally ordering. Scalar snapshots and losing-call early
+returns do not establish original status equivalence. Qualification remains zero;
+the eight routes and all authentic adapter, gateway, custody, freeze, protected
+validation and experimental prerequisites remain closed.
+
+Next work derives the normalized compatibility necessity directly from admitted
+analytic rows and designs the complete failure transaction. Public gravitational-
+wave reproduction follows qualification and remains separate from a native
+forward map. The programme continues; the RET pause remains in force.
+
+Only additive coordination summaries are published. Historical bodies and
+unrelated work are preserved; metadata checks do not establish scientific or
+operational acceptance, and historical custody gaps remain explicit.
+
+
 ## Conditional zero-coefficient theorem and diagnostic integration review
 
 Independent mathematical review accepts the complete sigma-release envelope.
