@@ -1,3 +1,27 @@
+## Conditional coefficient envelope and failed-state diagnostic repair
+
+Independent review accepted an exact coefficient interval for the fixed-exterior
+native canonical problem. The original component order selects its lower
+endpoint, followed by the established conditional companion and sector choices.
+The next proof step releases the remaining original sigma coordinate while
+retaining all carrying rows and the complete objective. The actual exterior,
+global sign test, normalized system and strict restoration remain unresolved;
+this result does not establish a physical forward law.
+
+Independent source review also accepted a targeted failed-state diagnostic
+repair. A failed owner can be inspected through an exclusive counted status
+frame, while operational owner entry remains refused. The next implementation
+step is the original diagnostic snapshot tuple and exception/ownership bridge.
+Constructor association and complete owner migration remain open. Measurement
+qualification is still zero and all eight routes remain closed. Conventional
+reproduction with the selected public gravitational-wave data follows
+qualification and remains separate from a native prediction.
+
+These conclusions combine manual proof and source review with finite metadata
+checks. No scientific candidate or live measurement was executed. Historical
+custody gaps, protected-validation prerequisites and the RET-only pause remain.
+The broader native geometry, gravity and measurement programme continues.
+
 Independent review checkpoint — 15 October 2026
 
 The native tau calculation now has an exact conditional feasible interval, value envelope and complete primary optimum. Its reward increases to a possible terminal plateau; the original coordinate ordering selects the plateau's left endpoint and the previously established sector endpoints. The review covers equal caps, zero boundaries, singleton cases and finite original-coordinate improvements. Original carriers and complete marked history weights are retained. The global exterior, canonical gap, support, strict restoration and physical forward map remain unresolved.
