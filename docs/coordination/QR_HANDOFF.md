@@ -1,3 +1,32 @@
+## Conditional zero-coefficient theorem and diagnostic integration review
+
+Independent mathematical review accepts the complete sigma-release envelope.
+For every nonempty section of the original finite problem with the exterior
+fixed, the original primary and lexicographic selector chooses kappa zero.
+The proof retains all marked capacity rows, including both equal-mark
+contributions, actual history weights, ties and complete nested optimal fibers.
+Above the stated sigma threshold, the optimized reward is nonincreasing;
+an optimal zero-kappa lift exists at the least primary sigma.
+
+Applied to an existing compatible globally selected vector under the inherited
+original binding premises, the result forces both root kappas to zero and
+implies the accepted negative comparison. The next proof step audits those
+global premises and the full normalized-system implication. Global existence,
+binding, strict restoration and a physical forward law are not newly claimed.
+
+Source review accepts the local thirteen-field diagnostic tuple-building slice
+under its explicit ownership and binding premises. Full original status
+equivalence remains open: the original returns existing counter objects while
+holding its latch, whereas the derivative adds integer allocations and lacks
+equivalent latch coverage. The next integration step addresses those precise
+differences and complete failure-transition behavior.
+
+These are conditional proofs and source reviews, not executed scientific or
+concurrency tests. Measurement qualification remains zero, with all eight
+routes closed. Conventional reproduction using the selected public data still
+follows qualification and remains separate from a native physical forward map.
+Historical evidence and custody limitations remain. The programme continues.
+
 ## Conditional coefficient envelope and failed-state diagnostic repair
 
 Independent review accepted an exact coefficient interval for the fixed-exterior
