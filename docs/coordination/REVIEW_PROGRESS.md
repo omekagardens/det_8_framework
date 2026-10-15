@@ -1,3 +1,12 @@
+## Conditional proof and measurement-design progress — 2026-10-15
+
+Independent manual review accepts a conditional reduction of the retained finite linear system: primary optimality saturates the omega bound and equalizes the paired zeta variables. The fixed-nu sector optimum now has an exact closed profile and complete reconstruction fiber, including zero-support and tie cases. The next proof step is the remaining capped shared-nu optimum under every original constraint. Actual global selection, original lexicographic solution and strict restoration remain unresolved.
+
+The measurement scaffold's acknowledgement transition has an independently reviewed source design for argument/evidence correspondence, whole proposed-state publication, deferred ownership and postcommit retirement. Delivery is the next source-design obligation, including the attempt boundary before construction and the delivered count/chain transition. No adapter is operationally qualified: all eight routes remain closed, qualification remains zero, and experimental/protected prerequisites remain. Conventional public-data reproduction and any native physical forward map remain separate, unestablished claims.
+
+Administrative checks establish current file preservation and recorded check correspondence. They do not establish mathematical computer proof, runtime behavior or historical custody restoration. A missing raw terminal response remains explicitly recorded and is not replaced by a current file check. Ongoing proof and measurement work continues in separate reservations.
+
+
 ## Native proof and measurement implementation update — 2026-10-15
 
 Independent review accepts a useful prescribed-law result: the original Q and V constraints imply that every U5 constraint is strictly slack throughout the feasible canonical system. The two root-sector load bounds are5135/19431 and5375/19436, both below1. Earlier conditional arguments requiring tight U5 therefore have an empty antecedent in this law; their historical statements remain preserved.
