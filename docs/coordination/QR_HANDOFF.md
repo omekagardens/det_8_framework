@@ -1,3 +1,12 @@
+**Research continuation — 2026-10-14**
+
+Original marked histories now fix the equal history factor at 1/384. For the conditional proportional descent family, the paid-cap ratios have a positive weighted mean of 11/9. Both tight sectors therefore exclude that construction; one tight sector admits it only when its exact lower-law margin is strictly positive. The complete direction family remains distinct: an expensive tight sector forces both associated coordinates to decrease, while positive support and whole-row slack permit a balanced strict descent without the proportional ratio premise. These are conditional results, not an attained background or a global physical law. The next proof step traces the original lower-slot bindings needed to decide the margin.
+
+A source-only measurement-host derivative orders event preparation and pending-state association against the same permanent failure latch. Only the actual winning detailed failure retains the exact original diagnostic references; generic failures explicitly lack that detail. Independent source review and bounded byte/identity checks support this narrow implementation. Full original state and accounting validation, bounded all-path diagnostics, protected runtime integration and all eight genuine operation adapters remain unfinished. No candidate runtime or scientific execution occurred, qualification remains zero and all routes remain closed.
+
+Selected public gravitational-wave reproduction follows qualification and remains separate from a native forward map. Existing protected-validation and custody prerequisites are preserved. Native geometry, gravity and measurement work continue; only the separate RET lane remains paused. Historical custody gaps and unresolved physical-law premises remain explicit.
+
+
 ## Reviewed progress: paid capacity release and measurement publication ordering
 
 Independent review accepts a conditional strict-improvement criterion for the specified original load-preserving family. Decreasing the shared upsilon coordinate has a positive objective cost; the compensating response must exceed that cost while respecting every original support and capacity constraint. Mixed open and closed intervals yield an exact finite step or a labeled obstruction. This does not supply an actual feasible background, global optimum, strict restoration or physical law. The next question tests whether original lower-law and history identities allow the proportional direction to meet its strict cost threshold.
