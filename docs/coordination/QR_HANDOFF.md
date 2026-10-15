@@ -1,3 +1,13 @@
+## Original feasible background and measurement-state review
+
+Independent mathematical review accepts a global feasible point of the original component problem: nine named response components equal one quarter, all other components zero. Complete original normalization loads remain below their caps. A finite balanced response from this point has strictly negative signed objective slope, so the constructed point is not a primary optimum. This is a feasible canonical-coordinate construction, not the selected canonical vector or the missing normalized witness.
+
+The same response cannot be transferred to a selected point satisfying O4: that relation forces at least one complete Qro row to be tight. With the prescribed equal coefficients, the entire restricted family that preserves Ptau/Pnu/Q loads shares this obstruction. The next native question permits those loads to change and seeks a support-sensitive analytic response or obstruction using actual whole-row tightness and original zero-coordinate support. Unknown selected data remain explicit premises; no global no-go or physical claim follows.
+
+Independent source review also accepts the conditional LOCAL/ORDER value checks and publication ordering. The implementation retains local/shown/proposal associations, validates the whole proposed state, and records consumption before APPEND preparation. The next source step binds the actual APPEND transaction to DURABLE evidence and ordered durable counters and chains.
+
+These results do not establish complete owner equivalence or operational qualification. Original construction and exception timing, owner integration, diagnostic attribution, downstream ACK/delivery semantics, genuine adapters and settlement remain incomplete. Qualification remains zero, all eight routes are closed and the five evidence prerequisites remain absent. The already selected public gravitational-wave data remain reserved for conventional reproduction after qualification, separately from a native forward map. No candidate execution, empirical validation, completed native law or historical custody restoration is claimed. RET alone remains paused.
+
 ## Prescribed margin signs and admission/frame integration
 
 The original prescribed coefficients now fix both singleton margins as negative and the proportional paid-cap ratio as 11/9. This rules out that construction whenever a retained U5 cap is tight. A stronger conditional obstruction holds in the complete fixed-outside paid family when a tight sector contains a zero xi coordinate. All original normalization terms and history multiplicities remain; neither conclusion is a general impossibility theorem or a global optimality result.
