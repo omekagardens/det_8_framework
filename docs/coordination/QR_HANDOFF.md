@@ -1,3 +1,38 @@
+## Independent review update: original-row identity and measurement failure domains
+
+An explicit division-free combination of the original normalized equations
+cancels all ten unknown columns and yields the necessary condition
+Gamma2 * h_b * delta4 * delta5 * delta6 * delta7 = 0, with Gamma2 positive.
+This is a conditional symbolic identity. Zero contrasts can make it vacuous;
+the actual contrast premises, scalar nonzero/sign argument and connection to
+the inherited compatibility coefficient remain unresolved. The previously
+accepted fixed-construction exclusion still relies on its stated inherited
+theorems. No numerical witness or broader physical exclusion follows.
+
+The next native question concerns the actual fifth-row coefficient and whether
+two admissible full-record comparisons can eliminate the remaining eleventh
+variable while preserving a useful seventh-variable coefficient. Complete
+records, all original equations, strict restoration and recovery remain required.
+
+Independent source review supports two specific measurement integration
+obstructions: separate native and original first-failure stores can select
+different permanent reasons, and the permitted scalar failure interface after
+disposal has no established original payload transaction. Every original
+failure call also has phase and child-state effects, including losing calls.
+The next source audit maps every scalar failure site to an actual original
+operation, lifetime, lock and exception obligation. A conditional internal
+admission branch is not accepted as a fresh public admission-after-failure trace.
+
+These are manual mathematical and source conclusions with administrative
+byte and receipt checks, not executed concurrency tests or operational
+measurement qualification. Qualification remains zero and all eight routes
+remain closed. Authentic adapters, original-object association, runtime,
+protected validation, custody and experimental prerequisites remain.
+Conventional reproduction using the selected public gravitational-wave data
+follows qualification and remains distinct from a native forward map.
+The research programme continues; RET remains paused.
+
+
 ## Fixed-construction normalized exclusion and measurement transaction review
 
 15 October 2026. Independent review accepts structural existence and uniqueness
