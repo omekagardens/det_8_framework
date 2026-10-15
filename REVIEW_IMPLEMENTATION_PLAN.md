@@ -1,3 +1,15 @@
+## Prescribed margin signs and admission/frame integration
+
+The original prescribed coefficients now fix both singleton margins as negative and the proportional paid-cap ratio as 11/9. This rules out that construction whenever a retained U5 cap is tight. A stronger conditional obstruction holds in the complete fixed-outside paid family when a tight sector contains a zero xi coordinate. All original normalization terms and history multiplicities remain; neither conclusion is a general impossibility theorem or a global optimality result.
+
+Independent manual review and current command/source correspondence support these results. The next proof question is whether the balanced alternative can start from an actual globally feasible original background. A local residual condition must be distinguished from a global point, with every outside row, equality and prescribed coefficient retained. No favorable support or freely chosen remainder is assumed.
+
+Measurement source review accepts original admission-value checks and ordered initialization, followed by exact frame input/result validation and framed counter/chain publication. Failure-header handling precedes binding, while other frame kinds require the original binding before advancing. These are conditional source-level results under the original-owner, interpreter, lifetime and settlement premises. They have not been compiled or executed and do not establish a complete measurement bridge.
+
+The next source step is original LOCAL/ORDER validation and recording proposal, consumption and spent generation before append preparation. Original owner and diagnostic integration, durable/acknowledgment/delivery state, genuine adapters, resource enforcement, authenticated replay and same-transaction durability remain incomplete. Qualification stays zero and all eight routes remain closed. Conventional reproduction with the selected public gravitational-wave data follows qualification and remains separate from a native physical forward map.
+
+Complete historical records and unrelated edits are preserved. No full quantum, geometry, mass or gravity law or empirical validation is claimed. The programme continues, with the separate RET pause unchanged.
+
 ## Original lower-law dependencies and measurement state checks
 
 Two complete growth diamonds remove previously unresolved record dependence from two lower-law slots. The full normalizations now reduce each strict singleton improvement test to six sufficient combinations of prescribed original coefficients. Seventeen unresolved values per root sector, twenty-nine across both sectors, remain to be bound to their original certificate indices and override rules. No coefficient defaults, favorable support or feasible background are assumed.
