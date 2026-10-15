@@ -1,3 +1,11 @@
+## Reviewed progress: paid capacity release and measurement publication ordering
+
+Independent review accepts a conditional strict-improvement criterion for the specified original load-preserving family. Decreasing the shared upsilon coordinate has a positive objective cost; the compensating response must exceed that cost while respecting every original support and capacity constraint. Mixed open and closed intervals yield an exact finite step or a labeled obstruction. This does not supply an actual feasible background, global optimum, strict restoration or physical law. The next question tests whether original lower-law and history identities allow the proportional direction to meet its strict cost threshold.
+
+Measurement implementation adds a source-only atomic publication step and exact first-failure winner attribution. This addresses a race between result observation and later owner publication. The code remains uncompiled and unexecuted. Full protected owner integration, preparation ordering, diagnostic retention, genuine operation adapters, runtime/resource evidence, authenticated replay and same-transaction durability are still required. Qualification remains zero and all operation routes remain closed. A reviewed local implementation can supply prerequisites; conventional public-data reproduction follows qualification and remains separate from a native forward map.
+
+The original system, protected-validation and custody requirements, historical results and unrelated work remain preserved. RET alone remains paused. The research programme continues.
+
 ### Equal-primary endpoint and conditional host kernel reviewed
 
 The original-system analysis now classifies the complete equal-primary two-record family that preserves the specified row loads. Unequal coefficient sectors share one finite closed interval. The original component comparator places eta before the shared records and determines which interval endpoint is lexicographically minimal. If a sector has equal coefficients, the shared records are fixed and the remaining independent local intervals each select their upper endpoint. All original coordinate and whole-row bounds, including zeros and ties, remain.
