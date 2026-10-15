@@ -1,3 +1,15 @@
+## Original lower-law dependencies and measurement state checks
+
+Two complete growth diamonds remove previously unresolved record dependence from two lower-law slots. The full normalizations now reduce each strict singleton improvement test to six sufficient combinations of prescribed original coefficients. Seventeen unresolved values per root sector, twenty-nine across both sectors, remain to be bound to their original certificate indices and override rules. No coefficient defaults, favorable support or feasible background are assumed.
+
+The exact two-sector margins have opposite contrast terms and a common negative term, so both cannot pass the strict cap; equality does not pass. This preserves the earlier history-weighted obstruction and keeps the proportional construction distinct from the larger signed family. Independent manual proof review and actual command correspondence support this conditional result. A bounded original-value binding is the next assigned native step.
+
+Measurement source review accepts complete state-value checks and ordered logical attempt/traffic accounting. Preparation retains the exact charged byte objects, and native publication validates state before its atomic transition. These changes remain conditional on the original session, exclusive owner, selected interpreter and actual caller ordering. They have not been compiled or executed and do not establish full original failure behavior or operation authenticity.
+
+Original admission and frame counter/chain integration is the next source step. Remaining counter/chain, proposal, consumed/spent, pending-state and diagnostic behavior, genuine adapters, resource enforcement, authenticated replay and same-transaction durability still block qualification. All eight routes remain closed. Conventional reproduction using the selected public gravitational-wave data follows qualification and remains separate from a native physical forward map.
+
+Historical results, complete predecessor records and unrelated edits are preserved. No full quantum, geometry, mass or gravity law or empirical validation is claimed. The research programme continues; the separate RET pause remains.
+
 **Research continuation — 2026-10-14**
 
 Original marked histories now fix the equal history factor at 1/384. For the conditional proportional descent family, the paid-cap ratios have a positive weighted mean of 11/9. Both tight sectors therefore exclude that construction; one tight sector admits it only when its exact lower-law margin is strictly positive. The complete direction family remains distinct: an expensive tight sector forces both associated coordinates to decrease, while positive support and whole-row slack permit a balanced strict descent without the proportional ratio premise. These are conditional results, not an attained background or a global physical law. The next proof step traces the original lower-slot bindings needed to decide the margin.
