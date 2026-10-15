@@ -1,3 +1,12 @@
+Reviewed continuation: conditional native elimination and failure-header contract
+
+Independent review accepts the conditional two-record elimination, retaining the second unknown and the full original row system. Actual normalized-profile noncollinearity is still unproved. A legal zero control remains a zero control. The original recovery and strict restoration premises are preserved. A new bounded proof question tests whether the original chain profiles depend only on the root sector, which would close this minor route while retaining the original contrast.
+
+The measurement source review identifies a live failure-header correspondence gap. The native scalar first-reason path does not yet preserve the original exact reason object, first-winner ordering, every-call cleanup, partial effects, exception handling and counted lifetime. Literal call coverage does not prove runtime reachability. The next design specifies the exact shared-authority contract, including unregistered no-GIL contenders, before any implementation revision.
+
+Finite metadata and receipt checks passed; these do not establish mathematical conclusions, historical custody or runtime qualification. Qualification remains zero and all eight routes remain closed. Protected validation, freeze/custody, actual adapters and experimental prerequisites persist. Conventional public-data reproduction remains distinct from a native forward map. No new physical claim follows.
+
+The existing hourly follow-through remains active under the human authorization to remove local usage-percentage stop thresholds. The research programme continues with bounded native proof and independent measurement work.
 ## Independent review update: original-row identity and measurement failure domains
 
 An explicit division-free combination of the original normalized equations
