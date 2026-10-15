@@ -1,3 +1,11 @@
+Independent review checkpoint — 15 October 2026
+
+The native tau calculation now has an exact conditional feasible interval, value envelope and complete primary optimum. Its reward increases to a possible terminal plateau; the original coordinate ordering selects the plateau's left endpoint and the previously established sector endpoints. The review covers equal caps, zero boundaries, singleton cases and finite original-coordinate improvements. Original carriers and complete marked history weights are retained. The global exterior, canonical gap, support, strict restoration and physical forward map remain unresolved.
+
+Independent source review found a measurement diagnostic defect: the new native owner core rejects status entry after a permanent failure, preventing later inspection of retained failure details. The original owner permits that diagnostic read. A bounded repair is assigned before broader caller migration. Counted lifetime and disposal work remains conditional on complete caller registration; retained native storage has no global bound across arbitrarily many owners.
+
+The next native question releases the original kappa coordinate with the solved tau response while retaining every carrying row and the original objective. These mathematical and source-design results are distinct from operational qualification: qualification remains zero and all eight routes stay closed. Runtime integration, genuine adapters and protected validation still precede conventional reproduction with the selected public gravitational-wave data. The programme continues; the RET pause remains in force.
+
 Reviewed continuation: original lexicographic selection and closed delivery integration
 
 The original component order selects the lower endpoint of both remaining response fibers on the conditional fixed-exterior primary face. The selected response satisfies eta*zeta=0 in each sector, including zero, tie and singleton cases. The pinned proof already states the singleton parameter as u=S-D_l; review confirms this expression. This does not determine the exterior coordinates, a global optimizer, strict restoration, or a physical geometry/gravity law. The next proof step audits every original carrier and the signed objective before releasing the shared tau coordinate.
