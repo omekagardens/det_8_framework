@@ -1,3 +1,14 @@
+Independent review update — 2026-10-15
+
+The conditional native shared-variable primary-face result passed independent review. Original capacity rows give exact feasible caps; a concave piecewise-linear profile selects a unique maximum-coordinate value while retaining two original-coordinate fibers. Fixed exterior data and complete original-row accounting remain premises. The next proof question is selection on those fibers using the actual original coordinate order, with exterior and support obstructions explicit.
+
+The delivery-state source design also passed a bounded independent review. It consumes a native attempt before stage registration and specifies delivered-state publication and deferred retirement. Actual caller integration remains open: reservation must precede argument and stage construction, failures must remain irreversible, and caller/native state must publish consistently. Lifetime, adapter and validation prerequisites remain unresolved; earlier append timing is a separate gap.
+
+These are conditional mathematics and inert source review. Administrative byte, identity and receipt checks do not establish executable behavior, physical validation or historical custody. A disclosed out-of-scope diagnostic remains excluded from scientific and custody evidence; no claim of zero index writes is made. Missing historical receipt evidence remains missing.
+
+Qualification remains zero and eight routes remain closed. The measurement direction continues toward qualification and then conventional reproduction using the already selected public gravitational-wave data. A native physical forward map remains a separate unresolved requirement. The programme continues.
+
+
 ## Conditional proof and measurement-design progress — 2026-10-15
 
 Independent manual review accepts a conditional reduction of the retained finite linear system: primary optimality saturates the omega bound and equalizes the paired zeta variables. The fixed-nu sector optimum now has an exact closed profile and complete reconstruction fiber, including zero-support and tie cases. The next proof step is the remaining capped shared-nu optimum under every original constraint. Actual global selection, original lexicographic solution and strict restoration remain unresolved.
