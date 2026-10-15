@@ -1,3 +1,11 @@
+Reviewed continuation: original lexicographic selection and closed delivery integration
+
+The original component order selects the lower endpoint of both remaining response fibers on the conditional fixed-exterior primary face. The selected response satisfies eta*zeta=0 in each sector, including zero, tie and singleton cases. Review records a singleton-variable notation correction. This does not determine the exterior coordinates, a global optimizer, strict restoration, or a physical geometry/gravity law. The next proof step audits every original carrier and the signed objective before releasing the shared tau coordinate.
+
+The original-owner delivery derivative consumes the original attempt flag and stops at an absent bridge. It remains closed even if that stub returns. The next implementation uses one authoritative native owner/Pending state and audits all original field uses, stage publication/retirement, failure diagnostics and borrower lifetimes. A declaration-only contract is not a working bridge.
+
+Qualification remains zero and all eight routes remain closed. Authentic adapters, P1-P5, BODY integration, protected validation and the separate APPEND preconstruction obligation remain. Conventional reproduction using the selected public GWOSC data remains downstream of qualification and separate from a native forward map. RET remains paused. Byte, identity and receipt checks do not establish mathematical truth, operational acceptance or restored historical custody.
+
 Independent review update — 2026-10-15
 
 The conditional native shared-variable primary-face result passed independent review. Original capacity rows give exact feasible caps; a concave piecewise-linear profile selects a unique maximum-coordinate value while retaining two original-coordinate fibers. Fixed exterior data and complete original-row accounting remain premises. The next proof question is selection on those fibers using the actual original coordinate order, with exterior and support obstructions explicit.
