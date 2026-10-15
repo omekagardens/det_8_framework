@@ -1,3 +1,15 @@
+## Native proof and measurement implementation update — 2026-10-15
+
+Independent review accepts a useful prescribed-law result: the original Q and V constraints imply that every U5 constraint is strictly slack throughout the feasible canonical system. The two root-sector load bounds are5135/19431 and5375/19436, both below1. Earlier conditional arguments requiring tight U5 therefore have an empty antecedent in this law; their historical statements remain preserved.
+
+The broader original response objective and three conditional finite-descent constructions have also been reviewed. With positive upsilon, existence of paid improvement is equivalent to existence of fixed-upsilon improvement: reducing upsilon unlocks no active constraint in these response columns. Actual selected support and values remain unknown. The next proof studies exact omega saturation/elimination and reduced optimality consequences, including ties, zero supports and original row boundaries. These are mathematical results under stated canonical-system premises, not a physical forward map or a solved global optimizer.
+
+The measurement source now retains the actual APPEND transaction, validates complete DURABLE arguments/evidence and publishes durable record, count and chain through one failure-ordered cut. Independent source review accepts this bounded subset under its owner, GIL, lifetime and error-state premises. ACK argument/evidence binding and committed-state publication are the next implementation step; delivery requires separate postcommit associations.
+
+No candidate runtime or empirical measurement is claimed. Full owner/constructor/diagnostic integration, genuine adapters and operational prerequisites remain incomplete, and qualification remains zero. Conventional reproduction with the selected public GWOSC data follows qualification and stays separate from native forward-map work. The RET-only pause remains in force. The programme continues.
+
+Earlier public record (unchanged):
+
 ## Original feasible background and measurement-state review
 
 Independent mathematical review accepts a global feasible point of the original component problem: nine named response components equal one quarter, all other components zero. Complete original normalization loads remain below their caps. A finite balanced response from this point has strictly negative signed objective slope, so the constructed point is not a primary optimum. This is a feasible canonical-coordinate construction, not the selected canonical vector or the missing normalized witness.
