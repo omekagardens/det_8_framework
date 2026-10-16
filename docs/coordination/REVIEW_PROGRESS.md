@@ -1,3 +1,14 @@
+## Reviewed coefficient binding and measurement lifecycle requirements
+
+16 October 2026. Independent review accepts the marked four-event coefficient binding to the original conditional finite law, including the explicit default and overrides. The resulting non-singleton root contrast is strictly positive. The five-event singleton component roots are identified, but their absolute original coefficient indices remain unestablished. The full scalar sign, historical coefficient binding and complete coupled-system consequence remain separate open questions. All original records, newborn branches and strict recovery conditions are retained.
+
+The next native proof examines the complete carrier-row capacity constraints for these two singleton components, retaining every other canonical column. This may improve necessary bounds without substituting guessed indices or a different optimum.
+
+The measurement acquisition lemma is accepted only under its explicit caller, alias, interpreter and reentry premises. Native count zero does not establish that an external owner owes no further original calls. Disposal callbacks, strong-reference cycles, exceptional release and saturation remain implementation obligations. The next design step specifies the owner and anchor lifecycle while preserving original call and failure behavior. No runtime reachability or functioning bridge is claimed.
+
+Qualification remains zero and all eight routes remain closed. Actual constructor, adapters, gateway, all-use and runtime evidence, protected validation, custody, freeze and experimental prerequisites remain. Conventional reproduction with the selected public gravitational-wave data follows qualification and is separate from a native forward map. RET alone remains paused. The programme is ongoing; no native geometry, gravity, full quantum or physical claim follows.
+
+
 ## Reviewed scalar interval and measurement entry conditions
 
 16 October 2026. Independent review accepts a conditional positive singleton coefficient, canonical feasibility bound and conservative interval for the remaining native scalar residual. Equality conditions are exact; actual endpoint signs and canonical corner attainability remain unresolved. The whole coupled row system and historical coefficient binding retain their separate obligations.
