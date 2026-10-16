@@ -1,3 +1,16 @@
+## Original half-scale scalar sign and concrete evaluator comparison
+
+The originating common half-scale rule closes the scalar-sign bound under the retained finite-law and canonical-profile assumptions. A complete marked-row maximum gives rho<1/7 and 1/s>=2(1+B1); the reviewed inequalities imply 1/s-Splus>277/168 and h_b<-(277/168)*delta*s*theta^2<0. No small-rho<=1/25 assumption, chosen scale or attainable canonical corner is needed. The half-scale factors are essential. This conditional result concerns the explicitly defined scalar; historical scalar identity and a newly derived full-system consequence remain separate.
+
+The next native proof retains all13 equation families, ten shared unknowns and u2=-1, including the residual h7*U7 and both later couplings. It asks whether original connected contrasts or other coupled constraints remove the remaining term. A sign alone is not a full-system inconsistency or physical no-go.
+
+The fixed thirteen-value status-expression candidate is accepted only conditionally. Direct packing independence does not exclude callbacks reaching native users. Original ownership, E/L exception/finally flow, traceback, tracing and safepoint requirements remain. A fixed CPython evaluator release is selected as a new engineering comparison target; it is not recovered original runtime provenance. A concrete Boolean-reference/operand-release ordering difference now supplies the next comparison question. No runtime equivalence, installed hook or qualification is claimed.
+
+Fresh finite administrative checks bind current sources and genuine execution receipts separately from manual mathematical review. Original failed/clipped attempts, historical results, unrelated source changes and protected prerequisites are preserved. Public and private histories remain separate.
+
+The restored25% remaining account-usage stop guard supersedes earlier10% and removed-threshold instructions. Fresh supported observations govern substantial work, assignments and publication; the existing schedule is unchanged.
+
+Qualification remains zero and all eight routes remain closed. Constructor, genuine adapters, gateway/all-use/runtime, freeze/custody, protected validation and experimental obligations remain. Conventional selected public-data qualification and reproduction remain separate from a native forward map. RET alone remains paused. The programme continues without a physical, full-quantum, geometry or gravity claim.
 Independent review establishes a strictly negative lower endpoint for the scalar's necessary interval under the unchanged original finite law. The proof retains the actual coupled scales, canonical coefficients and positive full complements. This excludes a positive lower endpoint; it does not determine the scalar's sign or establish that its interval contains zero. The upper-endpoint question remains the exact comparison between the original normalization scale and the derived threshold.
 
 The next native question seeks an original scale-selection identity or a rigorous complete-row bound that settles that comparison. No alternative normalization, freely chosen canonical coefficient or assumed attainable corner is introduced. All original record assignments, newborn branches, coupled equations and complete recovery conditions remain.
