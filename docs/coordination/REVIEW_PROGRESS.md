@@ -1,3 +1,16 @@
+## Exceptional coupling and remaining-system sufficiency
+
+The complete original connected profile reduces the surviving normalized branch to the exact condition Delta mu=-theta^2*k/(1-theta/8), k=27869/8800000, under the retained finite-law and canonical-profile assumptions. The coupled equations then require U7>0 and U10=0. A separately reviewed strict bound T11>(29/42000)*theta^2>0 yields U11>0. These are necessary conditions; neither a complete solution nor a full-system contradiction has been established.
+
+The next native proof asks whether that exceptional equality is sufficient for all thirteen retained equation families and their normalized recovery. It must prove the remaining pivots and original profiles, rather than infer inconsistency from a positive unknown. Actual canonical-coordinate equality and historical scalar identity remain separate unresolved questions.
+
+The fixed thirteen-value status-expression proposal now preserves the selected generic evaluator's attribute-error and identity-comparison order. This is conditional source agreement, not an installed hook, observable counterexample or runtime equivalence. Original traceback/tracing, ownership, locks/finally, adaptive/specialized execution and callback requirements remain. Original tuple construction stays the baseline while newly selected compiler source supports the next operation and exception-control map. Actual code-object/site/exception-table binding is still absent; selected release sources do not recover historical provenance.
+
+Independent manual review and finite administrative evidence checks remain distinct. Genuine failed and clipped attempts, historical results, unrelated changes and protected prerequisites are retained. Private and public histories remain separate.
+
+The restored25% remaining account-usage stop guard supersedes earlier10% and no-threshold instructions. Fresh supported observations govern substantial work, assignments and publication; the existing schedule is unchanged.
+
+Qualification remains zero and all eight routes remain closed. Constructor, adapters, gateway/all-use/runtime, freeze/custody, protected validation and experimental obligations persist. Conventional selected public-data qualification/reproduction remains separate from a native forward map. RET alone remains paused. The programme continues without a physical, full-quantum, geometry or gravity claim.
 ## Original half-scale scalar sign and concrete evaluator comparison
 
 The originating common half-scale rule closes the scalar-sign bound under the retained finite-law and canonical-profile assumptions. A complete marked-row maximum gives rho<1/7 and 1/s>=2(1+B1); the reviewed inequalities imply 1/s-Splus>277/168 and h_b<-(277/168)*delta*s*theta^2<0. No small-rho<=1/25 assumption, chosen scale or attainable canonical corner is needed. The half-scale factors are essential. This conditional result concerns the explicitly defined scalar; historical scalar identity and a newly derived full-system consequence remain separate.
