@@ -1,3 +1,12 @@
+## Reviewed scalar interval and measurement entry conditions
+
+16 October 2026. Independent review accepts a conditional positive singleton coefficient, canonical feasibility bound and conservative interval for the remaining native scalar residual. Equality conditions are exact; actual endpoint signs and canonical corner attainability remain unresolved. The whole coupled row system and historical coefficient binding retain their separate obligations.
+
+The measurement source review distinguishes low occupancy from bounded acquisition progress. Conditional acquire/release interference can defeat a fixed CAS retry budget; withdrawal on the final attempt differs from earlier closure observation. Actual caller, ownership and runtime closure remain unproved.
+
+Next work binds the original prescribed coefficients through explicit component and index evidence, and assesses a private entry contract whose callback-free acquisition interval excludes interfering lifetime writes. Both are subject to independent review. No operational or empirical acceptance follows.
+
+Qualification remains zero, with eight routes closed. Actual integration, protected validation, custody and experimental prerequisites remain. Conventional public-data reproduction is separate from a native forward map. RET remains paused; the broader programme continues.
 ### Reviewed finite-law reduction and measurement prerequisites
 
 Independent manual review accepts a conditional four-slot stem identity and the resulting lower-profile reduction. The remaining scalar sign is unresolved. Canonical feasibility bounds the two singleton increments, and the residual is monotone in opposite directions; the next proof step is a conservative interval that preserves the actual coupled profiles.
