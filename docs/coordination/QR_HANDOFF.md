@@ -1,3 +1,12 @@
+### Reviewed finite-law reduction and measurement prerequisites
+
+Independent manual review accepts a conditional four-slot stem identity and the resulting lower-profile reduction. The remaining scalar sign is unresolved. Canonical feasibility bounds the two singleton increments, and the residual is monotone in opposite directions; the next proof step is a conservative interval that preserves the actual coupled profiles.
+
+Independent measurement review accepts the original-operation target contract with native fault-domain questions still open. A bound on simultaneous leases does not exclude repeated CAS contention, and failure after payload disposal lacks an established original-operation target. The next step specifies caller-domain closure, ownership and permitted failure outcomes.
+
+Qualification remains zero and all eight routes remain closed. Actual constructor, adapters, gateway, runtime and all-user proofs, protected validation, custody and experimental prerequisites remain. Conventional public gravitational-wave reproduction follows qualification and is separate from a native forward map. No physical or all-size claim follows. The programme continues; RET remains paused.
+
+
 Reviewed continuation: chain reduction and failure-authority design
 
 Independent review accepts the conditional five-chain root-sector reduction. Complete normalization gives at most two actual normalized profile points, so the constructed two-comparison minors vanish. The original root-sector equation and full coupled system remain. The next proof step reduces the existing lower-profile formulas using this result, without inventing coefficients or assuming a nonzero contrast.
