@@ -1,3 +1,13 @@
+Reviewed continuation: chain reduction and failure-authority design
+
+Independent review accepts the conditional five-chain root-sector reduction. Complete normalization gives at most two actual normalized profile points, so the constructed two-comparison minors vanish. The original root-sector equation and full coupled system remain. The next proof step reduces the existing lower-profile formulas using this result, without inventing coefficients or assuming a nonzero contrast.
+
+The measurement review identifies an incompatibility between native scalar failure authority and the original owner contract. Stage membership, partial stores, every-call cleanup, exceptions, joint claim and object lifetime must agree. The next source-only design puts these operations under the original shared authority and maps every caller and reader, explicitly retaining unresolved unregistered-fault cases.
+
+Finite integrity and receipt checks passed. They do not establish runtime reachability, scientific qualification or historical custody. Qualification remains zero and all eight routes remain closed. Actual adapters, protected validation, freeze/custody and experimental prerequisites persist. Conventional public-data reproduction remains separate from a native forward map. No new physical claim follows.
+
+The existing hourly follow-through remains active under the human authorization removing local usage-percentage stop thresholds. Native proof and independent measurement work continue.
+
 Reviewed continuation: conditional native elimination and failure-header contract
 
 Independent review accepts the conditional two-record elimination, retaining the second unknown and the full original row system. Actual normalized-profile noncollinearity is still unproved. A legal zero control remains a zero control. The original recovery and strict restoration premises are preserved. A new bounded proof question tests whether the original chain profiles depend only on the root sector, which would close this minor route while retaining the original contrast.
