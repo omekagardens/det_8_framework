@@ -1,3 +1,14 @@
+## Conditional tangent obstruction and measurement preparation
+
+Independent manual review establishes an obstruction to the fixed normalized tangent ansatz under the retained finite-law and canonical-certificate premises. The original canonical coefficients, including schema-defined zeros, have rational denominators below one billion. Distinct values therefore differ by at least 10^-18, whereas the required nonzero difference is below 2*10^-20. Equal values also fail the required equality. This excludes that normalized direction without identifying its two absolute coordinate ranks.
+
+The separate normalization coefficient provenance remains unresolved. The result neither rejects the base law nor establishes a physical no-go or zero kernel. The next native question retains the full homogeneous system and asks whether a remaining zero-normalization direction can change the targeted proper child.
+
+Measurement work has reached reviewed source-only capture preparation and a bounded official input inventory. Before execution, the capture needs stronger ancestor custody and renewed configuration checks. Archive signature verification, verifier and trust admission, build/toolchain and startup closure remain open. Conventional reproduction using the selected public data remains distinct from a native forward map.
+
+No measurement or runtime validation is claimed. Qualification remains zero; protected-validation, custody and experimental prerequisites remain in force. RET remains paused. Fresh account-usage checks retain the stop threshold of 25% remaining. Unrelated work and historical records are preserved.
+
+
 ## Conditional full-system recovery and concrete measurement artifacts
 
 Under the retained original finite-law/profile and recovery assumptions, the full thirteen-family normalized system is soluble exactly when the exceptional equality E and normalization consistency condition N hold. E is Delta mu=-theta^2*(27869/8800000)/(1-theta/8). N is (L0,L3)!=(0,0) OR R=0, where L0=A*Gamma10, L3=A*Gamma13+J*Gamma3 and R=A*Gamma12+D*Gamma2.
