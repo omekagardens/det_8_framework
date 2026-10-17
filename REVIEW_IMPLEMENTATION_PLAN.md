@@ -1,3 +1,13 @@
+# Conditional kernel classification and measurement preparation
+
+Independent manual review accepts a homogeneous finite-law result: the previously excluded normalized direction forces its corresponding coordinate to vanish in every solution. The remaining formal kernel has dimension one to three under the retained assumptions. A new coefficient-gap proof closes the unequal-multiplier exceptional branch. Actual child identities, normalization binding and a positive finite step remain open; this is not a physical realization or a gravity claim.
+
+Measurement preparation has improved descriptor custody and configuration checks. Review identified further cleanup and process-exit acceptance repairs. The next bounded step inspects selected source files of an already pinned verifier candidate and repairs the unexecuted capture proposal. Archive authentication, trusted bootstrap and dependency closure, build admission and runtime capture remain prerequisites. No new gravitational-wave measurement, interpreter build or signature-verifier execution is claimed.
+
+Native work continues on actual shared-child aliases and the feasible cone at the original law. Public gravitational-wave qualification and conventional reproduction remain a separate measurement lane. Protected validation, custody and experimental requirements remain intact. Qualification credit remains zero and eight routes remain closed; RET alone remains paused.
+
+Fresh account-usage checks apply before substantial work and publication, with research stopping at25% or less remaining. The programme remains ongoing.
+
 ## Conditional tangent obstruction and measurement preparation
 
 Independent manual review establishes an obstruction to the fixed normalized tangent ansatz under the retained finite-law and canonical-certificate premises. The original canonical coefficients, including schema-defined zeros, have rational denominators below one billion. Distinct values therefore differ by at least 10^-18, whereas the required nonzero difference is below 2*10^-20. Equal values also fail the required equality. This excludes that normalized direction without identifying its two absolute coordinate ranks.
