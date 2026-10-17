@@ -1,3 +1,12 @@
+# Natural child equations and fixed-law feasibility
+
+The independent native review accepts explicit child classifications, deletion-coefficient identities and conditional positivity constraints at the same finite law. The natural support is now identified directly from original child definitions. Its map to historical coordinates remains unproved, so no actual coefficient selection, positive endpoint or physical realization is claimed.
+
+The next proof step solves the normalization equations in these explicitly defined natural child coordinates, retaining every marked row, zero-pivot cases and compatibility with the remaining parent families.
+
+Measurement preparation now preserves primary and cleanup failures and emits a success candidate only after cleanup. Complete process-exit supervision is still required. Source inspection also confirms that the pinned verifier requires an inclusion proof and checkpoint for legacy bundles and delegates trust-schema parsing to an external dependency. Trusted bootstrap, platform and dependency closure remain prerequisites before verification or runtime capture.
+
+These are conditional mathematics and source-review results. Qualification and conventional reproduction on the selected public gravitational-wave data remain pending; no native forward-map or empirical claim follows. Protected validation, custody and experimental prerequisites remain unchanged. Research stops at25% or less remaining account usage, including delegated work; the hourly schedule is unchanged. The separate RET work remains paused.
 # Conditional kernel classification and measurement preparation
 
 Independent manual review accepts a homogeneous finite-law result: the previously excluded normalized direction forces its corresponding coordinate to vanish in every solution. The remaining formal kernel has dimension one to three under the retained assumptions. A new coefficient-gap proof closes the unequal-multiplier exceptional branch. Actual child identities, normalization binding and a positive finite step remain open; this is not a physical realization or a gravity claim.
