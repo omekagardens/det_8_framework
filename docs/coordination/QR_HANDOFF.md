@@ -1,3 +1,18 @@
+## Conditional full-system recovery and concrete measurement artifacts
+
+Under the retained original finite-law/profile and recovery assumptions, the full thirteen-family normalized system is soluble exactly when the exceptional equality E and normalization consistency condition N hold. E is Delta mu=-theta^2*(27869/8800000)/(1-theta/8). N is (L0,L3)!=(0,0) OR R=0, where L0=A*Gamma10, L3=A*Gamma13+J*Gamma3 and R=A*Gamma12+D*Gamma2.
+
+Complete constant connected profiles and proved positive pivots give one shared vector satisfying every original family when both conditions hold. The construction retains positive U7/U11 and full finite signed recovery. Original normalization-coefficient nonvanishing would remove N; binding that original derivation is the next proof question. Actual canonical E, original ranks/omission convention, historical scalar identity and strict positive realization remain unresolved. Signed corrections are not probabilities or an acquired positive endpoint.
+
+The original thirteen-value status expression now has an independently reviewed source-to-preassembly map for the selected compiler/evaluator. Original tuple construction and both identity comparisons remain. The pending tuple precedes normal lock cleanup; cleanup failures and return-tracing failure retain distinct original continuations. Compiler pseudo-operations do not establish emitted offsets or actual exception-table entries.
+
+The next measurement step prepares an authenticated selected-build input set and a finite compile-only capture method for the complete unchanged original module. Actual generated artifacts are still absent. This preparation does not authorize subject import/application execution or discharge runtime, callback, ownership and observation requirements.
+
+Independent manual reasoning and administrative byte/receipt checks remain distinct. Genuine failed and clipped attempts, historical results, unrelated edits and protected prerequisites are preserved. Private and public histories remain separate.
+
+The existing hourly schedule has been resumed. The25% remaining account-usage stop threshold continues to govern substantial work, assignments and publication.
+
+Qualification remains zero; all eight routes remain closed. Constructor/adapters/gateway/all-use/runtime, freeze/custody, protected validation and experimental obligations persist. Conventional selected public-data qualification/reproduction remains separate from a native forward map. RET alone remains paused. The programme continues without a physical, full-quantum, geometry or gravity claim.
 ## Exceptional coupling and remaining-system sufficiency
 
 The complete original connected profile reduces the surviving normalized branch to the exact condition Delta mu=-theta^2*k/(1-theta/8), k=27869/8800000, under the retained finite-law and canonical-profile assumptions. The coupled equations then require U7>0 and U10=0. A separately reviewed strict bound T11>(29/42000)*theta^2>0 yields U11>0. These are necessary conditions; neither a complete solution nor a full-system contradiction has been established.
