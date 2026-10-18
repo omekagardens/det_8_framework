@@ -1,3 +1,12 @@
+### Bounded native-law and acquisition update
+
+The retained fixed 38-component system now has a conditional obstruction: every signed homogeneous solution has W2=0. The argument uses the complete marked diamond, the restored eight-slot component identity and strict retained contrasts, without dividing by unknown contrasts. The earlier fixed-epsilon strict-positivity rejection remains unchanged. A separate residual-kernel classification awaits coordinator adjudication. These finite-law statements do not establish all-size dynamics, gravity or physical validation.
+
+A human-approved prospective transport exception permits exactly application/octet-stream or binary/octet-stream. The revised method passed 80 offline cases plus 13 supplemental parser cases and independent method review. One new supervised acquisition retained459730 bytes matching the predeclared SHA-256 digest, with HTTP200 and binary/octet-stream. The earlier rejected attempt remains rejected. The exact-declared-body-then-close contract makes no EOF or arbitrary trailing-wire guarantee.
+
+Raw-byte agreement does not establish publisher authentication, package admission or dependency/runtime qualification. Current production qualification remains zero, with eight routes closed and A08–A10 not captured; earlier recorded synthetic and conventional public-data results remain historical evidence. The measurement roadmap is bounded package/dependency review, offline environment qualification and conventional reproduction on the selected public GWOSC data. Calibrated DET claims require a separate native forward map.
+
+The account-usage stop guard remains 25% remaining. Preserve protected-validation prerequisites, exact custody, historical failures, unrelated edits and separate private/public publication histories. RET remains paused.
 ### Marked restoration reduction and a rejected raw acquisition
 
 Independent review accepted a conditional finite-law result: all eight one-isolate probabilities in the selected five-event row use the held restoration coefficient. Complete normalization bounds the remaining quotient strictly below one. Any motion of the selected coefficient on the unchanged38-class support would require both original marked-prefix differences to exceed1/28. The four exact historical coefficient bindings are the next proof obligation. The existing positivity rejection at fixed amplitude remains; this does not establish a support-independent obstruction, an all-size law, geometry or gravity.
