@@ -1,3 +1,14 @@
+## Canonical saturation and bounded metadata preparation
+
+Independent review accepts a conditional finite-law result: the original canonical singleton coefficients saturate their complete coupled carrier capacities. Equality of the two resulting increments is equivalent to one exact residual identity; the actual equality or sign remains unresolved. The previously accepted finite kernel classification and fixed-endpoint positivity rejection remain unchanged.
+
+The next native proof examines the existing residual components and their complete marked carriers before attempting any exchange argument. All marks, newborn branches, strict restoration and recovery obligations remain.
+
+A separate measurement method prepares bounded copies of three metadata members from the already admitted archive. All 147 author controls and 94 independent stream and boundary controls passed. Independent review accepts the method. No member has been copied or executed by this method. A later execution gate and independent review of the actual copy precede metadata interpretation, environment qualification and conventional reproduction using the selected public gravitational-wave data. Calibration remains separate from a native forward map.
+
+Qualification credit remains zero. Protected validation, custody and experimental prerequisites remain; earlier recorded results are preserved. The 25% remaining account-usage stop guard applies to research and publication. RET remains paused. This checkpoint does not establish native geometry, gravity or a physical validation.
+
+
 ## Conditional finite kernel classification and archive structure
 
 Independent review accepts the conditional signed homogeneous classification on the fixed 38-coordinate support. All eight added slopes vanish, leaving the earlier 30-coordinate kernel embedded by zero extension. Its dimension depends on an unresolved coefficient equality. The prescribed positive affine endpoint remains rejected; homogeneous freedom does not rescue it. The actual equality branch is the next native question.
