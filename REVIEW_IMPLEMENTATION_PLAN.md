@@ -1,3 +1,13 @@
+## Conditional finite kernel classification and archive structure
+
+Independent review accepts the conditional signed homogeneous classification on the fixed 38-coordinate support. All eight added slopes vanish, leaving the earlier 30-coordinate kernel embedded by zero extension. Its dimension depends on an unresolved coefficient equality. The prescribed positive affine endpoint remains rejected; homogeneous freedom does not rescue it. The actual equality branch is the next native question.
+
+A separately reviewed archive method passed 187 author controls and 40 independent controls. One local read passed 3927 header predicates for 111 members; independent review accepted the actual structure evidence after 6163 administrative checks. These checks establish finite layout, declarations and recorded custody only. No member was decompressed, extracted or executed, and no package, publisher, dependency or runtime qualification follows.
+
+The next measurement proposal is bounded inspection of three exact metadata members, totaling 19964 compressed bytes and at most 92872 output bytes, after fresh method preparation, independent review and adjudication. Stream, CRC, length and custody controls remain prerequisites. Conventional public-data reproduction remains separate from native geometry, gravity and a detector forward map. No new measurement validation is claimed.
+
+Historical failures and custody limitations remain preserved. Qualification credit remains zero, eight routes remain closed and A08–A10 remain NOT_CAPTURED. RET remains paused. Research stops at 25% or less remaining account usage; the hourly schedule is unchanged. The programme remains ongoing.
+
 ### Bounded native-law and acquisition update
 
 The retained fixed 38-component system now has a conditional obstruction: every signed homogeneous solution has W2=0. The argument uses the complete marked diamond, the restored eight-slot component identity and strict retained contrasts, without dividing by unknown contrasts. The earlier fixed-epsilon strict-positivity rejection remains unchanged. A separate residual-kernel classification awaits coordinator adjudication. These finite-law statements do not establish all-size dynamics, gravity or physical validation.
