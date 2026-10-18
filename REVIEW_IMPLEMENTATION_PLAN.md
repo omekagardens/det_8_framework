@@ -1,3 +1,18 @@
+## Closed support obstruction and measurement dependency boundary
+
+The complete 33-class support enlargement still has no strictly positive affine solution at the prescribed epsilon=1/4 under the retained finite-law premises. A corrected proper-child coefficient and uniform estimate for the complete marked full complement yield a nonzero contrast. This forces the three new affine slopes to zero, after which the earlier kernel classification applies and the obstructed coordinate remains unchanged. Both mu cases and T2 pivot branches are retained. This is a rejection of one support, not a support-independent or physical no-go.
+
+The next native question is the closed 38-class candidate obtained by adding two isolated extensions and three private full children. Its21parent classes retain every marking and newborn branch. The new constant profiles change the compatibility question; a complete marked solution must determine whether the obstructed coordinate can move and whether positivity holds at the same amplitude.
+
+Independent measurement source review establishes visible Pydantic>=2.12,<3 and typing-extensions>=4.14.1 requirements. Exact artifacts and authenticated bootstrap/runtime closure remain unresolved. A single fixed Pydantic2.12.0 metadata probe is proposed, with a fresh bounded method and external supervisor required before execution. No artifact download, runtime validation or capture is authorized by this proposal.
+
+Original checks and independent reviews were joined to exact current bytes and completion records. Administrative verification is distinct from mathematical proof and measurement qualification. Historical custody gaps and failed attempts remain explicitly retained. Qualification remains zero; eight routes remain closed and capture remains pending. Conventional reproduction using selected public GWOSC data follows qualification, separately from a native physical forward map. RET alone remains paused.
+
+This checkpoint changes only four coordination fronts, preserves unrelated work and keeps private evidence/history separate from public publication. The research programme continues beyond this bounded result.
+
+The account usage guard requires a fresh observation before substantial work, delegation, assignment, commit or push, and stops research at25% or less remaining. Missing or ambiguous usage evidence is not spare capacity. The hourly schedule and notification preferences are preserved.
+
+
 ## Fixed-amplitude positivity obstruction and measurement-schema inspection
 
 Independent review accepts a conditional finite-law obstruction: every affine solution on the complete natural thirty-class support has a negative J2 multiplier at the prescribed epsilon=1/4. The original harmonic equations force -z2>theta/3000, while the actual empty-ideal probability is e2=s*rho^3*theta^4/22528. Every compatible homogeneous direction fixes this coordinate, so neither conditional branch repairs positivity. The signed kernel remains valid; larger supports and the earlier sufficiently-small-amplitude existence theorem remain open. The next native question is a concrete proper-child support enlargement with complete incoming-parent and marked-row closure, at the same fixed amplitude.
