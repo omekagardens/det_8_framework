@@ -1,3 +1,15 @@
+# Conditional theorem consolidation and law dependence — 18 October 2026
+
+A consolidated theorem package now states the admitted record-marked growth law, exact supports, natural coordinates, positive small-amplitude extension, surviving signed kernel and fixed-amplitude exclusions on 30, 33 and 38 child classes. The historical coordinate dictionary, standalone finite-certificate reproduction and actual canonical branch remain open. The results are conditional mathematics; no native physical law or empirical validation is established.
+
+A separate law-dependence result constructs an admissible alternative finite prefix that changes a prescribed numerical ratio while preserving the smaller seed. It also shows why applying the same proper-only scaling across successive layers fails a mixed full/proper diamond. Structural identities, representation choices and instance-specific coefficients are distinguished explicitly.
+
+Read the [theorem package](https://github.com/omekagardens/det_8_framework/blob/ret/docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) and [law-dependence result](https://github.com/omekagardens/det_8_framework/blob/ret/docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md). A prospective portable gravitational-wave data replay is being prepared with independent arithmetic and fixed controls. Its scientific execution remains pending and is separate from production qualification. Foundational prediction and application benchmarking have separate success criteria; a conventional replay supplies no native gravity test.
+
+Research uses a 10% remaining account-usage stop, with fresh supported checks. Historical evidence limitations, protected validation and the existing RET pause remain unchanged.
+
+---
+
 ### Canonical beta capacities and bounded inert metadata copies
 
 Complete marked carriers and the original finite-law objective determine the beta capacity through both hook-parent families. The resulting sigma and residual formulas include tied and zero-capacity cases, while their competitor loads remain coupled to the actual canonical assignment. The actual root-sector comparison is unresolved. The next native question is complete carrier, alias, lower-potential and objective analysis of the existing gamma family with terminal Ferrers shape (4,2).
